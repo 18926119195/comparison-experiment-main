@@ -1,0 +1,35 @@
+# 路径一：直接实体匹配
+
+步骤1：使用⟦74⟧，提取地名 Brackendale，确认问题询问的是该地区的猛禽。
+
+步骤2：综合⟦62⟧⟦108⟧，提取 "Bald eagles" 和 "eagles"，两者指向同一种猛禽，且均与 Brackendale 所在语境关联。
+
+步骤3：使用⟦327⟧，提取 "the remarkable 'Eagle Run' area"，进一步确认该地区以鹰类闻名。
+
+结论：在 Brackendale 周围可以找到的猛禽是 **Bald eagles**（白头海雕）。
+
+---
+
+# 路径二：地理语境交叉验证
+
+步骤1：使用⟦74⟧⟦78⟧⟦288⟧，提取 Brackendale 位于 British Columbia（加拿大省份），建立地理范围。
+
+步骤2：综合⟦94⟧⟦35⟧，提取 Brackendale 是一个 small community / community，说明其为小型聚居地，周边自然环境可能适合猛禽栖息。
+
+步骤3：综合⟦341⟧⟦153⟧，提取 "the wintering home" 和 "home"，指向该地区是某种鸟类的越冬栖息地。
+
+步骤4：使用⟦62⟧，提取 "Bald eagles"，与越冬栖息地特征吻合（白头海雕冬季聚集于食物丰富的河流区域）。
+
+结论：综合地理与生态语境，Brackendale 周边的猛禽为 **Bald eagles**，该地是其冬季栖息地。
+
+---
+
+# 路径三：排除法与特征聚焦
+
+步骤1：使用⟦327⟧，提取 "the remarkable 'Eagle Run' area"，名称中直接包含 "Eagle"，暗示该地区以鹰类为核心特征。
+
+步骤2：综合⟦353⟧⟦62⟧⟦108⟧，提取 "thousands" 与 "Bald eagles" / "eagles"，说明数量庞大，且种类明确为 Bald eagles。
+
+步骤3：使用⟦269⟧⟦270⟧⟦356⟧，提取 Squamish 及 Squamish town centre / town，确认 Brackendale 邻近 Squamish，该区域以鹰类聚集闻名。
+
+结论：通过名称线索与数量特征，Brackendale 周边的猛禽为 **Bald eagles**。

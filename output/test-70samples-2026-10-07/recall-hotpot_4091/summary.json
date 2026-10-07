@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_4091",
+  "question": "A private university that beat Georgetown during a basketball tournament is from what U.S. city?",
+  "expectedAnswer": "Marietta",
+  "predictedAnswer": "# 路径一：从锦标赛材料直接定位胜者与城市\n\n步骤1：使用⟦169⟧⟦79⟧，提取“The championship game featured Life University”，判断2000年NAIA一级男子篮球锦标赛冠军赛的参赛方包含Life University。\n\n步骤2：综合⟦78⟧⟦51⟧⟦502⟧⟦503⟧⟦505⟧，对比“Life would defeat Georgetown by a score of 63 to 59”，确认击败Georgetown的球队是Life University。\n\n步骤3：使用⟦79⟧⟦450⟧⟦15⟧⟦452⟧⟦82⟧⟦58⟧，提取Life University是一所位于Georgia州Marietta的私立大学。\n\n结论：击败Georgetown的私立大学是Life University，位于美国Georgia州Marietta市。\n\n# 路径二：通过学校属性与地理位置交叉验证\n\n步骤1：使用⟦79⟧⟦15⟧⟦215⟧⟦82⟧⟦58⟧⟦214⟧，提取Life University是一所位于美国Georgia州Marietta的私立大学。\n\n步骤2：综合⟦164⟧⟦122⟧⟦82⟧，对比“the Atlanta suburb”与“Marietta”的对应关系，确认Marietta是Atlanta的郊区。\n\n步骤3：综合⟦169⟧⟦79⟧⟦51⟧⟦502⟧，交叉验证锦标赛冠军赛中Life University击败Georgetown，与路径一结论一致。\n\n结论：Life University位于Georgia州Marietta市，即Atlanta郊区。\n\n# 路径三：从Georgetown视角反向确认对手\n\n步骤1：使用⟦51⟧⟦52⟧⟦78⟧⟦79⟧，提取材料中Georgetown与Georgetown College、Life与Life University的对应关系，判断Georgetown的对手是Life University。\n\n步骤2：综合⟦502⟧⟦503⟧⟦505⟧，提取“Life would defeat Georgetown by a score of 63 to 59”，确认Life University是击败Georgetown的球队。\n\n步骤3：使用⟦79⟧⟦450⟧⟦15⟧⟦452⟧⟦82⟧，提取Life University位于Marietta。\n\n结论：击败Georgetown的私立大学是Life University，来自美国Georgia州Marietta市。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨450⟩⟦15⟧⟦215⟧⟨451⟩⟨452⟩⟦164⟧⟦122⟧⟨453⟩⟨454⟩⟦82⟧⟨455⟩⟦58⟧",
+  "nounCount": 541,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7987,
+    "completion_tokens": 186,
+    "total_tokens": 8173,
+    "prompt_tokens_details": {
+      "cached_tokens": 7808
+    },
+    "prompt_cache_hit_tokens": 7808,
+    "prompt_cache_miss_tokens": 179
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 799,
+    "completion_tokens": 524,
+    "total_tokens": 1323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 799
+  }
+}

@@ -1,0 +1,23 @@
+# 路径一：从角色到创作者的直接链
+
+步骤1：使用⟦57⟧，提取“Bonnie Winterbottom”这一角色名称，确认其为该系列中的角色。
+步骤2：综合⟦57⟧⟦160⟧，交叉验证“Bonnie Winterbottom”所属系列由Peter Nowalk创作。
+步骤3：使用⟦188⟧，确认Liza Weil出演了该系列，从而将“Liza Weil played Bonnie Winterbottom”与系列关联。
+
+结论：Peter Nowalk创作了Liza Weil饰演Bonnie Winterbottom的系列。
+
+# 路径二：通过剧集列表与角色列表交叉验证
+
+步骤1：使用⟦57⟧，提取“Bonnie Winterbottom”作为角色条目，出现在《List of How to Get Away with Murder episodes》中。
+步骤2：综合⟦160⟧⟦190⟧，对比角色列表中的创作者信息，确认Peter Nowalk为创作者，Shonda Rhimes为制片人之一。
+步骤3：使用⟦188⟧，确认Liza Weil在该系列中饰演Bonnie Winterbottom，从而锁定系列名称。
+
+结论：该系列由Peter Nowalk创作。
+
+# 路径三：从系列制作信息反推
+
+步骤1：使用⟦118⟧⟦119⟧⟦120⟧，提取系列创作与制作信息，显示“was created by”后接创作者姓名。
+步骤2：综合⟦160⟧⟦176⟧，交叉验证Peter Nowalk为创作者，ShondaLand为制作公司。
+步骤3：使用⟦57⟧⟦188⟧，确认Bonnie Winterbottom由Liza Weil饰演，且属于该系列。
+
+结论：Peter Nowalk是Liza Weil饰演Bonnie Winterbottom的系列的创作者。

@@ -1,0 +1,107 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Xyloband] ⟦303⟧⟦367⟧⟨390⟩⟨391⟩⟦385⟧⟨392⟩⟦20⟧⟦256⟧⟨393⟩⟨394⟩⟦76⟧⟦362⟧⟨395⟩⟨396⟩
+[Xyloband] ⟦34⟧⟨397⟩⟦102⟧⟦186⟧⟨398⟩⟨399⟩⟦292⟧⟦59⟧⟨400⟩⟨401⟩⟦299⟧⟨402⟩⟨403⟩⟦304⟧⟨404⟩⟨405⟩⟦294⟧⟦63⟧⟨406⟩⟨407⟩⟦323⟧⟦195⟧⟨408⟩⟨409⟩
+[Xyloband] ⟦312⟧⟦153⟧⟨410⟩⟨411⟩⟦351⟧⟨412⟩⟨413⟩⟦163⟧⟨414⟩⟦310⟧⟦145⟧⟨415⟩⟨416⟩⟦305⟧⟦115⟧⟨418⟩⟦383⟧⟦383⟧⟨417⟩⟨419⟩⟦15⟧⟦84⟧⟨420⟩⟨421⟩⟨422⟩⟨423⟩⟨424⟩ | ⟦115⟧⟦84⟧
+[Fix You] ⟦114⟧
+[Do You... (Miguel song)] ⟦336⟧
+[Do You... (Miguel song)] ⟦270⟧
+
+符号表：
+⟦15⟧ = a Coldplay concert
+⟦20⟧ = a large scale
+⟦34⟧ = A Xyloband
+⟦59⟧ = audience
+⟦63⟧ = bands
+⟦76⟧ = Coldplay's 2012 Mylo Xyloto tour
+⟦84⟧ = concert
+⟦102⟧ = each member
+⟦114⟧ = Fix
+⟦115⟧ = flashing
+⟦145⟧ = idea
+⟦153⟧ = inventor
+⟦163⟧ = Jason Regler
+⟦186⟧ = member
+⟦195⟧ = music
+⟦256⟧ = scale
+⟦270⟧ = song
+⟦292⟧ = the audience
+⟦294⟧ = the bands
+⟦299⟧ = the concert
+⟦303⟧ = The first use
+⟦304⟧ = the flashing
+⟦305⟧ = the flashing wristbands
+⟦310⟧ = the idea
+⟦312⟧ = The inventor
+⟦323⟧ = the music
+⟦336⟧ = The song
+⟦351⟧ = the wristbands
+⟦362⟧ = tour
+⟦367⟧ = use
+⟦383⟧ = wristbands
+⟦385⟧ = Xylobands
+
+占位符映射：
+⟨390⟩ = 
+⟨391⟩ =  of 
+⟨392⟩ =  on 
+⟨393⟩ = 
+⟨394⟩ =  was on 
+⟨395⟩ = 
+⟨396⟩ = .
+⟨397⟩ =  was given to 
+⟨398⟩ = 
+⟨399⟩ =  of 
+⟨400⟩ = 
+⟨401⟩ = , and as 
+⟨402⟩ = 
+⟨403⟩ =  played, 
+⟨404⟩ = 
+⟨405⟩ =  of 
+⟨406⟩ = 
+⟨407⟩ =  was synchronized to 
+⟨408⟩ = 
+⟨409⟩ = .
+⟨410⟩ = 
+⟨411⟩ =  of 
+⟨412⟩ = 
+⟨413⟩ = , 
+⟨414⟩ = , stated that he had 
+⟨415⟩ = 
+⟨416⟩ =  for 
+⟨417⟩ = 
+⟨418⟩ =  
+⟨419⟩ =  while at 
+⟨420⟩ = 
+⟨421⟩ = , during 
+⟨422⟩ = 
+⟨423⟩ =  "
+⟨424⟩ =  You".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+ Jason Regler, stated that he had the idea for the flashing wristbands during a song built around which instrument ?

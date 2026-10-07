@@ -1,0 +1,111 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Francisco Mela] ⟦76⟧⟨209⟩⟦9⟧⟦62⟧⟨210⟩⟨211⟩⟦161⟧⟦161⟧⟨212⟩⟨213⟩⟦18⟧⟦31⟧⟨214⟩⟨215⟩⟦175⟧⟨217⟩⟦33⟧⟨216⟩⟨218⟩⟦121⟧⟨219⟩⟦81⟧⟨220⟩⟦114⟧⟨221⟩⟦107⟧⟨222⟩⟦181⟧⟨223⟩⟦29⟧⟨224⟩⟦158⟧⟨225⟩⟦83⟧⟨226⟩⟦124⟧⟨227⟩⟦200⟧⟨228⟩⟦128⟧⟨229⟩⟨230⟩⟦108⟧⟨231⟩⟦116⟧⟨232⟩⟦117⟧⟨233⟩⟨234⟩⟦132⟧⟨235⟩⟦134⟧⟨236⟩⟦53⟧⟨237⟩⟦122⟧⟨238⟩⟦130⟧⟦155⟧⟨239⟩⟨240⟩
+[Esperanza Spalding] ⟦71⟧⟨327⟩⟦26⟧⟨329⟩⟦36⟧⟨328⟩⟨330⟩⟦192⟧⟦192⟧⟨331⟩⟨332⟩
+[Bird Songs (Joe Lovano album)] ⟦115⟧
+[Bird Songs (Joe Lovano album)] ⟦72⟧⟦109⟧ | ⟦109⟧
+
+符号表：
+⟦9⟧ = a Cuban drummer
+⟦18⟧ = a wide array
+⟦26⟧ = an American jazz bassist
+⟦29⟧ = Anat Cohen
+⟦31⟧ = array
+⟦33⟧ = artists
+⟦36⟧ = bassist
+⟦53⟧ = Chucho Valdés
+⟦62⟧ = drummer
+⟦71⟧ = Esperanza Emily Spalding
+⟦72⟧ = Esperanza Spalding
+⟦76⟧ = Francisco Jose Mela
+⟦81⟧ = Gary Bartz
+⟦83⟧ = George Garzone
+⟦107⟧ = Jane Bunnett
+⟦108⟧ = Jason Moran
+⟦109⟧ = jazz
+⟦114⟧ = JoAnne Brackeen
+⟦115⟧ = Joe Lovano
+⟦116⟧ = John Patitucci
+⟦117⟧ = John Scofield
+⟦121⟧ = Kenny Barron
+⟦122⟧ = Kenny Werner
+⟦124⟧ = Larry Grenadier
+⟦128⟧ = Lionel Loueke
+⟦130⟧ = many others
+⟦132⟧ = Mark Turner
+⟦134⟧ = McCoy Tyner
+⟦155⟧ = others
+⟦158⟧ = Paquito D'Rivera
+⟦161⟧ = percussionist
+⟦175⟧ = prominent international Latin and jazz artists
+⟦181⟧ = Regina Carter
+⟦192⟧ = singer
+⟦200⟧ = Stefon Harris
+
+占位符映射：
+⟨209⟩ =  is 
+⟨210⟩ = 
+⟨211⟩ =  and 
+⟨212⟩ = 
+⟨213⟩ =  who has performed with 
+⟨214⟩ = 
+⟨215⟩ =  of 
+⟨216⟩ = 
+⟨217⟩ =  
+⟨218⟩ =  including 
+⟨219⟩ = , 
+⟨220⟩ = , 
+⟨221⟩ = , 
+⟨222⟩ = , 
+⟨223⟩ = , 
+⟨224⟩ = , 
+⟨225⟩ = , 
+⟨226⟩ = , 
+⟨227⟩ = , 
+⟨228⟩ = , 
+⟨229⟩ = , 
+⟨230⟩ = , 
+⟨231⟩ = , 
+⟨232⟩ = , 
+⟨233⟩ = , 
+⟨234⟩ = , 
+⟨235⟩ = , 
+⟨236⟩ = , 
+⟨237⟩ = , 
+⟨238⟩ = , and 
+⟨239⟩ = 
+⟨240⟩ = .
+⟨327⟩ =  (born October 18, 1984) is 
+⟨328⟩ = 
+⟨329⟩ =  
+⟨330⟩ =  and 
+⟨331⟩ = 
+⟨332⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Francisco Mela performed with which American Jazz bassist and singer born in 1984 ?

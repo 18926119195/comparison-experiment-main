@@ -1,0 +1,88 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Zachary Levi] ⟦268⟧⟨150⟩⟨151⟩⟨152⟩⟨153⟩⟨154⟩
+[Stuart Charno] ⟦41⟧
+[Flynn Rider] ⟦98⟧⟨354⟩⟦52⟧⟨355⟩⟦20⟧⟨356⟩⟨357⟩⟦263⟧⟦92⟧⟨359⟩⟨358⟩⟨360⟩⟦129⟧⟦95⟧⟦95⟧⟨361⟩⟨362⟩⟦220⟧⟦212⟧⟨364⟩⟦192⟧⟨363⟩⟨365⟩
+[Flynn Rider] ⟦64⟧ | ⟦226⟧⟨366⟩⟨367⟩⟦37⟧⟨369⟩⟨368⟩⟦243⟧⟦186⟧⟨370⟩⟨371⟩⟦227⟧⟦64⟧⟦64⟧⟨373⟩⟦201⟧⟨374⟩⟦261⟧⟨372⟩⟨375⟩
+[Flynn Rider] ⟦32⟧ | ⟦200⟧⟦200⟧⟦32⟧
+
+符号表：
+⟦20⟧ = a fictional character
+⟦32⟧ = actor
+⟦37⟧ = American actor Zachary Levi
+⟦41⟧ = an American actor
+⟦52⟧ = born Eugene Fitzherbert
+⟦64⟧ = character
+⟦92⟧ = feature
+⟦95⟧ = film
+⟦98⟧ = Flynn Rider
+⟦129⟧ = its short film
+⟦186⟧ = role
+⟦192⟧ = series
+⟦200⟧ = singer
+⟦201⟧ = singing
+⟦212⟧ = television
+⟦220⟧ = the 2017 television series
+⟦226⟧ = The character
+⟦227⟧ = the character's singing voice
+⟦243⟧ = the role
+⟦261⟧ = voice
+⟦263⟧ = Walt Disney Animation Studios' 50th animated feature film
+⟦268⟧ = Zachary Levi Pugh
+
+占位符映射：
+⟨150⟩ =  ( ; born September 29, 1980) is 
+⟨151⟩ = 
+⟨152⟩ =  and 
+⟨153⟩ = 
+⟨154⟩ = .
+⟨354⟩ =  (
+⟨355⟩ = ) is 
+⟨356⟩ = 
+⟨357⟩ =  who appears in 
+⟨358⟩ = 
+⟨359⟩ =  
+⟨360⟩ =  "Tangled", 
+⟨361⟩ = 
+⟨362⟩ =  "Tangled Ever After", and 
+⟨363⟩ = 
+⟨364⟩ =  
+⟨365⟩ =  "".
+⟨366⟩ = 
+⟨367⟩ =  is voiced by 
+⟨368⟩ = 
+⟨369⟩ =  Zachary Levi, who decided to audition for 
+⟨370⟩ = 
+⟨371⟩ =  upon learning that he would also be providing 
+⟨372⟩ = 
+⟨373⟩ = 's 
+⟨374⟩ =  
+⟨375⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Flynn Rider is voiced by which American actor and singer born September 29, 1980?

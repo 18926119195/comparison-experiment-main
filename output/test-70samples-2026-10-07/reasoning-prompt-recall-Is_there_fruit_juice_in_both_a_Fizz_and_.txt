@@ -1,0 +1,134 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Painkiller (cocktail)] ⟦25⟧⟨51⟩⟦29⟧⟨53⟩⟨52⟩⟨54⟩⟦171⟧⟨55⟩⟦225⟧⟦179⟧⟨57⟩⟨56⟩⟨58⟩
+[Painkiller (cocktail)] ⟦213⟧⟨62⟩⟦13⟧⟦49⟧⟨63⟩⟨64⟩⟦170⟧⟨65⟩⟨66⟩⟦9⟧⟦156⟧⟨68⟩⟦162⟧⟨69⟩⟨67⟩⟨70⟩⟦6⟧⟨72⟩⟦72⟧⟨71⟩⟨73⟩⟦63⟧⟦64⟧⟨74⟩⟦155⟧⟦155⟧⟨76⟩⟨75⟩⟨77⟩⟦215⟧⟦174⟧⟨78⟩⟨79⟩⟦20⟧⟦36⟧⟨80⟩⟨81⟩⟦97⟧⟨82⟩⟦232⟧⟦232⟧⟨83⟩⟨84⟩
+[Painkiller (cocktail)] ⟦175⟧ | ⟦175⟧
+[Fizz (cocktail)] ⟦11⟧⟦91⟧⟨172⟩⟨173⟩⟦24⟧⟦79⟧⟨175⟩⟦235⟧⟨174⟩⟨176⟩⟦212⟧⟦184⟧⟨178⟩⟦86⟧⟨177⟩⟨179⟩⟨180⟩⟨181⟩ | ⟦79⟧
+[Fizz (cocktail)] ⟦120⟧⟦89⟧⟨182⟩⟨183⟩⟦37⟧⟨184⟩⟨185⟩⟦129⟧⟦129⟧⟨186⟩⟨187⟩⟨188⟩⟨189⟩⟨190⟩⟨191⟩
+[Vampiro (cocktail)] ⟦61⟧⟦61⟧ | ⟦131⟧⟦131⟧ | ⟦61⟧
+[Appletiser] ⟦53⟧⟦241⟧
+[Juice] ⟦124⟧ | ⟦124⟧⟦124⟧
+
+符号表：
+⟦6⟧ = 1 part cream
+⟦9⟧ = 4 parts pineapple juice
+⟦11⟧ = A "fizz
+⟦13⟧ = a blend
+⟦20⟧ = a generous amount
+⟦24⟧ = a mixed drink variation
+⟦25⟧ = A Painkiller
+⟦29⟧ = a rum cocktail
+⟦36⟧ = amount
+⟦37⟧ = an acidic juice
+⟦49⟧ = blend
+⟦53⟧ = carbonated water
+⟦61⟧ = cocktail
+⟦63⟧ = coconut
+⟦64⟧ = coconut and 1 part orange juice
+⟦72⟧ = cream
+⟦79⟧ = drink
+⟦86⟧ = family
+⟦89⟧ = features
+⟦91⟧ = fizz
+⟦97⟧ = fresh nutmeg
+⟦120⟧ = Its defining features
+⟦124⟧ = juice
+⟦129⟧ = lemon
+⟦131⟧ = lime
+⟦155⟧ = part
+⟦156⟧ = parts
+⟦162⟧ = pineapple
+⟦170⟧ = Pusser's rum
+⟦171⟧ = Pusser's Rum Ltd
+⟦174⟧ = rocks
+⟦175⟧ = rum
+⟦179⟧ = signature
+⟦184⟧ = sours
+⟦212⟧ = the older sours family
+⟦213⟧ = The Painkiller
+⟦215⟧ = the rocks
+⟦225⟧ = their signature drink
+⟦232⟧ = top
+⟦235⟧ = variation
+⟦241⟧ = water
+
+占位符映射：
+⟨51⟩ =  is 
+⟨52⟩ = 
+⟨53⟩ =  
+⟨54⟩ =  trademarked by 
+⟨55⟩ = , 
+⟨56⟩ = 
+⟨57⟩ =  
+⟨58⟩ = .
+⟨62⟩ =  is 
+⟨63⟩ = 
+⟨64⟩ =  of 
+⟨65⟩ = 
+⟨66⟩ =  with 
+⟨67⟩ = 
+⟨68⟩ =  
+⟨69⟩ =  
+⟨70⟩ = , 
+⟨71⟩ = 
+⟨72⟩ =  
+⟨73⟩ =  of 
+⟨74⟩ = 
+⟨75⟩ = 
+⟨76⟩ =  orange 
+⟨77⟩ = , well shaken and served over 
+⟨78⟩ = 
+⟨79⟩ =  with 
+⟨80⟩ = 
+⟨81⟩ =  of 
+⟨82⟩ =  on 
+⟨83⟩ = 
+⟨84⟩ = .
+⟨172⟩ = 
+⟨173⟩ = " is 
+⟨174⟩ = 
+⟨175⟩ =  
+⟨176⟩ =  on 
+⟨177⟩ = 
+⟨178⟩ =  
+⟨179⟩ =  of 
+⟨180⟩ = 
+⟨181⟩ = .
+⟨182⟩ = 
+⟨183⟩ =  are 
+⟨184⟩ = 
+⟨185⟩ =  (such as 
+⟨186⟩ = 
+⟨187⟩ =  or 
+⟨188⟩ = 
+⟨189⟩ = ) and 
+⟨190⟩ = 
+⟨191⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Is there fruit juice in both a Fizz and a Painkiller cocktail?

@@ -1,0 +1,366 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = -Fazio
+⟦2⟧ = -Shop
+⟦3⟧ = , Cook United, Inc.
+⟦4⟧ = 10 stores
+⟦5⟧ = 13 warehouse stores
+⟦6⟧ = 2010 Price Chopper
+⟦7⟧ = 229 outlets
+⟦8⟧ = 23 drugstores
+⟦9⟧ = 2592 Finch Avenue West
+⟦10⟧ = 28 supermarkets
+⟦11⟧ = 64 supermarkets
+⟦12⟧ = 89 ft wide structure
+⟦13⟧ = a chain
+⟦14⟧ = a close
+⟦15⟧ = a corporation
+⟦16⟧ = a division
+⟦17⟧ = a family-owned business
+⟦18⟧ = a form
+⟦19⟧ = a founder
+⟦20⟧ = a four room school
+⟦21⟧ = a group
+⟦22⟧ = a headquarters
+⟦23⟧ = a historic school building
+⟦24⟧ = a large number
+⟦25⟧ = a member
+⟦26⟧ = a National Historic Landmark
+⟦27⟧ = a noon meal scheme
+⟦28⟧ = a noted philanthropist
+⟦29⟧ = a pioneer
+⟦30⟧ = a remarkable sixty-two years
+⟦31⟧ = a school
+⟦32⟧ = a small dairy store
+⟦33⟧ = a stone
+⟦34⟧ = a supermarket
+⟦35⟧ = a supermarket chain
+⟦36⟧ = a total
+⟦37⟧ = a two-story, red brick building
+⟦38⟧ = acquisition
+⟦39⟧ = activities
+⟦40⟧ = addition
+⟦41⟧ = all his stores
+⟦42⟧ = alma
+⟦43⟧ = America's Largest Private Companies
+⟦44⟧ = an American architect
+⟦45⟧ = an annual sales
+⟦46⟧ = an eight classroom addition
+⟦47⟧ = an elaborate 16-sided stone-masonry building
+⟦48⟧ = an investment firm
+⟦49⟧ = approximately 22 stores
+⟦50⟧ = architect
+⟦51⟧ = area
+⟦52⟧ = areas
+⟦53⟧ = basement
+⟦54⟧ = both architectural and physical centerpiece
+⟦55⟧ = Both the Mark Twain House
+⟦56⟧ = brand
+⟦57⟧ = brick
+⟦58⟧ = brother
+⟦59⟧ = building
+⟦60⟧ = business
+⟦61⟧ = buyout
+⟦62⟧ = causes
+⟦63⟧ = centerpiece
+⟦64⟧ = Central Market
+⟦65⟧ = Central Markets
+⟦66⟧ = CEO
+⟦67⟧ = chain
+⟦68⟧ = chains
+⟦69⟧ = charitable activities
+⟦70⟧ = children
+⟦71⟧ = classroom
+⟦72⟧ = Cleveland Heights
+⟦73⟧ = close
+⟦74⟧ = Co.
+⟦75⟧ = coffeehouses
+⟦76⟧ = combined sales
+⟦77⟧ = companies
+⟦78⟧ = company
+⟦79⟧ = competitors
+⟦80⟧ = Connecticut
+⟦81⟧ = convenience
+⟦82⟧ = Cook Coffee Company
+⟦83⟧ = Cook Coffee's ownership
+⟦84⟧ = cooperative
+⟦85⟧ = corporation
+⟦86⟧ = dairy
+⟦87⟧ = debt
+⟦88⟧ = December
+⟦89⟧ = division
+⟦90⟧ = Downtown Schenectady
+⟦91⟧ = drugstores
+⟦92⟧ = E. 185th Street
+⟦93⟧ = Edward Silverberg
+⟦94⟧ = Edward Tuckerman Potter
+⟦95⟧ = Eliphalet Nott
+⟦96⟧ = expansion
+⟦97⟧ = exterior
+⟦98⟧ = family
+⟦99⟧ = Farmview Creamery Stores
+⟦100⟧ = firm
+⟦101⟧ = foods
+⟦102⟧ = Foodtown
+⟦103⟧ = Forbes.com
+⟦104⟧ = form
+⟦105⟧ = founder
+⟦106⟧ = Frank Galati
+⟦107⟧ = Frank Galati's two children
+⟦108⟧ = Freeman Spogli
+⟦109⟧ = ft
+⟦110⟧ = Galati Brothers Supermarkets
+⟦111⟧ = Galati Market Fresh
+⟦112⟧ = Golub Corporation
+⟦113⟧ = governmental intervention
+⟦114⟧ = grocery
+⟦115⟧ = grocery stores
+⟦116⟧ = group
+⟦117⟧ = Hartford
+⟦118⟧ = head
+⟦119⟧ = headquarters
+⟦120⟧ = height
+⟦121⟧ = Heinen's grocery chains
+⟦122⟧ = his alma mater
+⟦123⟧ = his half-brother William Appleton Potter
+⟦124⟧ = his operation
+⟦125⟧ = his support
+⟦126⟧ = Inc.
+⟦127⟧ = India
+⟦128⟧ = industries
+⟦129⟧ = Inserra Supermarkets
+⟦130⟧ = Inserra Supermarkets Inc.
+⟦131⟧ = intervention
+⟦132⟧ = investment
+⟦133⟧ = investors
+⟦134⟧ = Italian grocery store chain
+⟦135⟧ = Italian-Canadians
+⟦136⟧ = items
+⟦137⟧ = its final store
+⟦138⟧ = its first supermarkets
+⟦139⟧ = its height
+⟦140⟧ = its name
+⟦141⟧ = its new headquarters
+⟦142⟧ = Jewish causes
+⟦143⟧ = Joseph E. Grosberg
+⟦144⟧ = Julius Kravitz
+⟦145⟧ = July
+⟦146⟧ = June
+⟦147⟧ = Kerala
+⟦148⟧ = Lawrence R. Inserra Jr.
+⟦149⟧ = Leslie Street
+⟦150⟧ = Li'l Peach
+⟦151⟧ = Li'l Peach convenience stores
+⟦152⟧ = list
+⟦153⟧ = Mahwah
+⟦154⟧ = Maine
+⟦155⟧ = many Italian items
+⟦156⟧ = Market
+⟦157⟧ = masonry
+⟦158⟧ = Massachusetts
+⟦159⟧ = mater
+⟦160⟧ = meal
+⟦161⟧ = member
+⟦162⟧ = Mr. Silverberg
+⟦163⟧ = N-Pay
+⟦164⟧ = name
+⟦165⟧ = National Historic Landmarks
+⟦166⟧ = New Hampshire
+⟦167⟧ = New Jersey
+⟦168⟧ = New York
+⟦169⟧ = New York's Capital District
+⟦170⟧ = noon
+⟦171⟧ = North Billerica
+⟦172⟧ = North York
+⟦173⟧ = Nott Memorial Hall
+⟦174⟧ = Nott Street
+⟦175⟧ = Nott Street School
+⟦176⟧ = number
+⟦177⟧ = offices
+⟦178⟧ = Ohio
+⟦179⟧ = opening
+⟦180⟧ = operation
+⟦181⟧ = origin
+⟦182⟧ = other stores
+⟦183⟧ = outlets
+⟦184⟧ = ownership
+⟦185⟧ = parent
+⟦186⟧ = Pay
+⟦187⟧ = philanthropist
+⟦188⟧ = Pick
+⟦189⟧ = Pick-N-Pay
+⟦190⟧ = Pick-N-Pay Supermarkets
+⟦191⟧ = Pick-N-Pay's acquisition
+⟦192⟧ = pioneer
+⟦193⟧ = president
+⟦194⟧ = previously the head
+⟦195⟧ = Price Chopper
+⟦196⟧ = Price Chopper Supermarkets
+⟦197⟧ = PriceRite
+⟦198⟧ = prices
+⟦199⟧ = Principal competitors
+⟦200⟧ = principle
+⟦201⟧ = private investors
+⟦202⟧ = Purity
+⟦203⟧ = Purity Supreme
+⟦204⟧ = raised basement
+⟦205⟧ = retail prices
+⟦206⟧ = retail supermarkets
+⟦207⟧ = retailers
+⟦208⟧ = retirement
+⟦209⟧ = Robert and Grace Galati
+⟦210⟧ = room
+⟦211⟧ = sales
+⟦212⟧ = scheme
+⟦213⟧ = Schenectady
+⟦214⟧ = Schenectady County
+⟦215⟧ = school
+⟦216⟧ = sector
+⟦217⟧ = September
+⟦218⟧ = ShopRite
+⟦219⟧ = some mobile, floating supermarkets
+⟦220⟧ = Some stores
+⟦221⟧ = state
+⟦222⟧ = stone
+⟦223⟧ = store
+⟦224⟧ = stores
+⟦225⟧ = story
+⟦226⟧ = structure
+⟦227⟧ = style
+⟦228⟧ = such stores
+⟦229⟧ = supermarket
+⟦230⟧ = supermarkets
+⟦231⟧ = Supermarkets General
+⟦232⟧ = Supermarkets General Holdings Corporation
+⟦233⟧ = support
+⟦234⟧ = system
+⟦235⟧ = the 1871 Mark Twain House
+⟦236⟧ = the 2008 Forbes.com list
+⟦237⟧ = the 500 largest private companies
+⟦238⟧ = the acquisition
+⟦239⟧ = the American supermarket and wholesale foods industries
+⟦240⟧ = the brand
+⟦241⟧ = The building
+⟦242⟧ = the buyout
+⟦243⟧ = the Capital District
+⟦244⟧ = The chain
+⟦245⟧ = The Chairman
+⟦246⟧ = the co-operative sector
+⟦247⟧ = the company
+⟦248⟧ = The company's origin
+⟦249⟧ = The exterior
+⟦250⟧ = the first supermarkets
+⟦251⟧ = the Foodtown supermarkets
+⟦252⟧ = the Government
+⟦253⟧ = the Greater Cleveland market
+⟦254⟧ = the Greater Cleveland, Ohio area
+⟦255⟧ = the Kerala State Co-operative Consumers Federation Limited
+⟦256⟧ = the name
+⟦257⟧ = the newly independent company
+⟦258⟧ = the northeastern United States
+⟦259⟧ = The Nott Memorial
+⟦260⟧ = the opening
+⟦261⟧ = the operation
+⟦262⟧ = the parent company
+⟦263⟧ = the president
+⟦264⟧ = the retail market
+⟦265⟧ = the retirement
+⟦266⟧ = the state
+⟦267⟧ = the stores
+⟦268⟧ = the successful Heartland Foods warehouse style supermarket chain
+⟦269⟧ = the time
+⟦270⟧ = the Toronto area
+⟦271⟧ = the United States
+⟦272⟧ = the use
+⟦273⟧ = the Wakefern retailers' cooperative
+⟦274⟧ = the year
+⟦275⟧ = this chain
+⟦276⟧ = This system
+⟦277⟧ = time
+⟦278⟧ = Tony Galati
+⟦279⟧ = total
+⟦280⟧ = traditional supermarkets
+⟦281⟧ = Triveni Supermarkets
+⟦282⟧ = Union
+⟦283⟧ = Union College
+⟦284⟧ = upstate New York
+⟦285⟧ = use
+⟦286⟧ = warehouse
+⟦287⟧ = year
+⟦288⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Price Chopper Supermarkets] ⟦112⟧⟨1⟩⟦262⟧⟨2⟩⟦185⟧⟨3⟩⟦78⟧⟨4⟩⟦156⟧⟨5⟩⟦196⟧⟨6⟩⟦13⟧⟨7⟩⟦67⟧⟨8⟩⟦230⟧⟨9⟩⟦230⟧⟨10⟩⟦213⟧⟨11⟩⟦168⟧⟨12⟩
+[Price Chopper Supermarkets] ⟦244⟧⟨13⟩⟦67⟧⟨14⟩⟦138⟧⟨15⟩⟦230⟧⟨16⟩⟦169⟧⟨17⟩⟦140⟧⟨18⟩⟦164⟧⟨19⟩⟦64⟧⟨20⟩⟦195⟧⟨21⟩
+[Price Chopper Supermarkets] ⟨22⟩⟦146⟧⟨23⟩⟦6⟧⟨24⟩⟦141⟧⟨25⟩⟦119⟧⟨26⟩⟦174⟧⟨27⟩⟦90⟧⟨28⟩
+[Purity Supreme] ⟦203⟧⟨29⟩⟦126⟧⟨30⟩⟦15⟧⟨31⟩⟦85⟧⟨32⟩⟦261⟧⟨33⟩⟦180⟧⟨34⟩⟦230⟧⟨35⟩⟦230⟧⟨36⟩⟦182⟧⟨37⟩⟦224⟧⟨38⟩
+[Purity Supreme] ⟨39⟩⟦16⟧⟨40⟩⟦89⟧⟨41⟩⟦232⟧⟨42⟩
+[Purity Supreme] ⟨43⟩⟦22⟧⟨44⟩⟦119⟧⟨45⟩⟦171⟧⟨46⟩⟦158⟧⟨47⟩
+[Purity Supreme] ⟨48⟩⟦139⟧⟨49⟩⟦120⟧⟨50⟩⟦247⟧⟨51⟩⟦78⟧⟨52⟩⟦11⟧⟨53⟩⟦230⟧⟨54⟩⟦158⟧⟨55⟩⟦166⟧⟨56⟩⟦154⟧⟨57⟩⟦80⟧⟨58⟩
+[Purity Supreme] ⟨59⟩⟦151⟧⟨60⟩⟦81⟧⟨61⟩⟦224⟧⟨62⟩⟦8⟧⟨63⟩⟦91⟧⟨64⟩⟦158⟧⟨65⟩
+[Purity Supreme] ⟨66⟩⟦268⟧⟨67⟩⟦286⟧⟨68⟩⟦227⟧⟨69⟩⟦229⟧⟨70⟩⟦67⟧⟨71⟩
+[Purity Supreme] ⟨72⟩⟦269⟧⟨73⟩⟦277⟧⟨74⟩⟦242⟧⟨75⟩⟦61⟧⟨76⟩⟦231⟧⟨77⟩⟦202⟧⟨78⟩⟦45⟧⟨79⟩⟦211⟧⟨80⟩⟦10⟧⟨81⟩⟦230⟧⟨82⟩⟦5⟧⟨83⟩⟦286⟧⟨84⟩⟦224⟧⟨85⟩⟦8⟧⟨86⟩⟦91⟧⟨87⟩
+[Purity Supreme] ⟦203⟧⟨88⟩⟦150⟧⟨89⟩⟦76⟧⟨90⟩⟦211⟧⟨91⟩⟦247⟧⟨92⟩⟦78⟧⟨93⟩⟦108⟧⟨94⟩⟦74⟧⟨95⟩⟦48⟧⟨96⟩⟦132⟧⟨97⟩⟦100⟧⟨98⟩⟦238⟧⟨99⟩⟦38⟧⟨100⟩⟦87⟧⟨101⟩⟦87⟧⟨102⟩
+[Inserra Supermarkets] ⟦130⟧⟨103⟩⟦35⟧⟨104⟩⟦229⟧⟨105⟩⟦67⟧⟨106⟩⟦258⟧⟨107⟩
+[Inserra Supermarkets] ⟦247⟧⟨108⟩⟦78⟧⟨109⟩⟦25⟧⟨110⟩⟦161⟧⟨111⟩⟦273⟧⟨112⟩⟦207⟧⟨113⟩⟦84⟧⟨114⟩⟦60⟧⟨115⟩⟦60⟧⟨116⟩⟦218⟧⟨117⟩⟦197⟧⟨118⟩
+[Inserra Supermarkets] ⟦129⟧⟨119⟩⟦153⟧⟨120⟩⟦167⟧⟨121⟩⟦49⟧⟨122⟩⟦224⟧⟨123⟩
+[Inserra Supermarkets] ⟨124⟩⟦17⟧⟨125⟩⟦98⟧⟨126⟩⟦60⟧⟨127⟩⟦237⟧⟨128⟩⟦77⟧⟨129⟩⟦271⟧⟨130⟩⟦236⟧⟨131⟩⟦103⟧⟨132⟩⟦152⟧⟨133⟩⟦43⟧⟨134⟩⟦77⟧⟨135⟩
+[Inserra Supermarkets] ⟦245⟧⟨136⟩⟦66⟧⟨137⟩⟦129⟧⟨138⟩⟦148⟧
+[Joseph E. Grosberg] ⟦143⟧⟨139⟩⟦88⟧⟨140⟩⟦145⟧⟨141⟩⟦29⟧⟨142⟩⟦192⟧⟨143⟩⟦239⟧⟨144⟩⟦229⟧⟨145⟩⟦101⟧⟨146⟩⟦128⟧⟨147⟩
+[Joseph E. Grosberg] ⟨148⟩⟦19⟧⟨149⟩⟦105⟧⟨150⟩⟦263⟧⟨151⟩⟦193⟧⟨152⟩⟦65⟧⟨153⟩⟦13⟧⟨154⟩⟦67⟧⟨155⟩⟦114⟧⟨156⟩⟦115⟧⟨157⟩⟦224⟧⟨158⟩⟦284⟧⟨159⟩⟦250⟧⟨160⟩⟦230⟧⟨161⟩⟦271⟧⟨162⟩⟦195⟧⟨163⟩
+[Joseph E. Grosberg] ⟨164⟩⟦28⟧⟨165⟩⟦187⟧⟨166⟩⟦125⟧⟨167⟩⟦233⟧⟨168⟩⟦142⟧⟨169⟩⟦62⟧⟨170⟩⟦69⟧⟨171⟩⟦39⟧⟨172⟩⟦213⟧⟨173⟩⟦243⟧⟨174⟩⟦168⟧⟨175⟩
+[Nott Memorial] ⟦259⟧⟨176⟩⟦47⟧⟨177⟩⟦222⟧⟨178⟩⟦157⟧⟨179⟩⟦59⟧⟨180⟩⟦54⟧⟨181⟩⟦63⟧⟨182⟩⟦283⟧⟨183⟩⟦213⟧⟨184⟩
+[Nott Memorial] ⟨185⟩⟦95⟧⟨186⟩⟦193⟧⟨187⟩⟦193⟧⟨188⟩⟦282⟧⟨189⟩⟦30⟧⟨190⟩⟦288⟧⟨191⟩⟦109⟧⟨192⟩⟦12⟧⟨193⟩⟦226⟧⟨194⟩⟦26⟧⟨195⟩
+[Galati Brothers] ⟦110⟧⟨196⟩⟦98⟧⟨197⟩⟦134⟧⟨198⟩⟦114⟧⟨199⟩⟦223⟧⟨200⟩⟦67⟧⟨201⟩⟦270⟧⟨202⟩⟦51⟧⟨203⟩
+[Galati Brothers] ⟨204⟩⟦278⟧⟨205⟩⟦106⟧⟨206⟩⟦267⟧⟨207⟩⟦224⟧⟨208⟩⟦280⟧⟨209⟩⟦230⟧⟨210⟩⟦155⟧⟨211⟩⟦136⟧⟨212⟩
+[Galati Brothers] ⟨213⟩⟦267⟧⟨214⟩⟦224⟧⟨215⟩⟦52⟧⟨216⟩⟦52⟧⟨217⟩⟦24⟧⟨218⟩⟦176⟧⟨219⟩⟦135⟧⟨220⟩
+[Galati Brothers] ⟦220⟧⟨221⟩⟦224⟧⟨222⟩⟦111⟧⟨223⟩
+[Galati Brothers] ⟦110⟧⟨224⟩⟦14⟧⟨225⟩⟦73⟧⟨226⟩⟦137⟧⟨227⟩⟦223⟧⟨228⟩⟦9⟧⟨229⟩⟦265⟧⟨230⟩⟦208⟧⟨231⟩⟦278⟧⟨232⟩
+[Galati Brothers] ⟦111⟧⟨233⟩⟦172⟧⟨234⟩⟦149⟧⟨235⟩⟦107⟧⟨236⟩⟦70⟧⟨237⟩⟦209⟧⟨238⟩
+[Triveni Supermarkets] ⟦281⟧⟨239⟩⟦13⟧⟨240⟩⟦67⟧⟨241⟩⟦206⟧⟨242⟩⟦230⟧⟨243⟩⟦246⟧⟨244⟩⟦216⟧⟨245⟩⟦266⟧⟨246⟩⟦221⟧⟨247⟩⟦147⟧⟨248⟩⟦127⟧⟨249⟩
+[Triveni Supermarkets] ⟦276⟧⟨250⟩⟦234⟧⟨251⟩⟦255⟧⟨252⟩⟦252⟧⟨253⟩⟦147⟧⟨254⟩
+[Triveni Supermarkets] ⟨255⟩⟦275⟧⟨256⟩⟦67⟧⟨257⟩⟦200⟧⟨258⟩⟦200⟧⟨259⟩⟦18⟧⟨260⟩⟦104⟧⟨261⟩⟦113⟧⟨262⟩⟦131⟧⟨263⟩⟦264⟧⟨264⟩⟦156⟧⟨265⟩⟦266⟧⟨266⟩⟦221⟧⟨267⟩⟦205⟧⟨268⟩⟦198⟧⟨269⟩
+[Triveni Supermarkets] ⟨270⟩⟦36⟧⟨271⟩⟦279⟧⟨272⟩⟦7⟧⟨273⟩⟦183⟧⟨274⟩⟦266⟧⟨275⟩⟦221⟧⟨276⟩⟦219⟧⟨277⟩⟦230⟧⟨278⟩⟦75⟧⟨279⟩⟦75⟧⟨280⟩⟦27⟧⟨281⟩⟦170⟧⟨282⟩⟦160⟧⟨283⟩⟦212⟧⟨284⟩
+[Pick-N-Pay Supermarkets] ⟦188⟧⟨285⟩⟦163⟧⟨286⟩⟦186⟧⟨287⟩⟦13⟧⟨288⟩⟦67⟧⟨289⟩⟦230⟧⟨290⟩⟦230⟧⟨291⟩⟦254⟧⟨292⟩⟦51⟧⟨293⟩
+[Pick-N-Pay Supermarkets] ⟦248⟧⟨294⟩⟦78⟧⟨295⟩⟦181⟧⟨296⟩⟦274⟧⟨297⟩⟦287⟧⟨298⟩⟦260⟧⟨299⟩⟦179⟧⟨300⟩⟦32⟧⟨301⟩⟦86⟧⟨302⟩⟦223⟧⟨303⟩⟦72⟧⟨304⟩⟦178⟧⟨305⟩⟦93⟧⟨306⟩⟦124⟧⟨307⟩⟦180⟧⟨308⟩⟦13⟧⟨309⟩⟦67⟧⟨310⟩⟦228⟧⟨311⟩⟦224⟧⟨312⟩⟦99⟧⟨313⟩
+[Pick-N-Pay Supermarkets] ⟨314⟩⟦162⟧⟨315⟩⟦34⟧⟨316⟩⟦229⟧⟨317⟩⟦92⟧⟨318⟩⟦189⟧⟨319⟩
+[Pick-N-Pay Supermarkets] ⟨320⟩⟦256⟧⟨321⟩⟦164⟧⟨322⟩⟦41⟧⟨323⟩⟦224⟧⟨324⟩⟦190⟧⟨325⟩⟦230⟧⟨326⟩
+[Pick-N-Pay Supermarkets] ⟨327⟩⟦244⟧⟨328⟩⟦67⟧⟨329⟩⟦36⟧⟨330⟩⟦279⟧⟨331⟩⟦4⟧⟨332⟩⟦224⟧⟨333⟩⟦247⟧⟨334⟩⟦78⟧⟨335⟩⟦82⟧⟨336⟩⟦3⟧⟨337⟩
+[Pick-N-Pay Supermarkets] ⟨338⟩⟦83⟧⟨339⟩⟦184⟧⟨340⟩⟦244⟧⟨341⟩⟦67⟧⟨342⟩⟦96⟧⟨343⟩⟦96⟧⟨344⟩⟦191⟧⟨345⟩⟦38⟧⟨346⟩⟦251⟧⟨347⟩⟦230⟧⟨348⟩
+[Pick-N-Pay Supermarkets] ⟨349⟩⟦21⟧⟨350⟩⟦116⟧⟨351⟩⟦201⟧⟨352⟩⟦133⟧⟨353⟩⟦144⟧⟨354⟩⟦194⟧⟨355⟩⟦118⟧⟨356⟩⟦102⟧⟨357⟩
+[Pick-N-Pay Supermarkets] ⟨358⟩⟦272⟧⟨359⟩⟦285⟧⟨360⟩⟦240⟧⟨361⟩⟦56⟧⟨362⟩⟦257⟧⟨363⟩⟦78⟧⟨364⟩
+[Pick-N-Pay Supermarkets] ⟦199⟧⟨365⟩⟦79⟧⟨366⟩⟦253⟧⟨367⟩⟦156⟧⟨368⟩⟦1⟧⟨369⟩⟦2⟧⟨370⟩⟦121⟧⟨371⟩⟦114⟧⟨372⟩⟦68⟧⟨373⟩
+[Edward Tuckerman Potter] ⟦94⟧⟨374⟩⟦217⟧⟨375⟩⟦213⟧⟨376⟩⟦88⟧⟨377⟩⟦168⟧⟨378⟩⟦168⟧⟨379⟩⟦44⟧⟨380⟩⟦50⟧⟨381⟩⟦235⟧⟨382⟩⟦117⟧⟨383⟩⟦80⟧⟨384⟩
+[Edward Tuckerman Potter] ⟨385⟩⟦123⟧⟨386⟩⟦58⟧⟨387⟩⟦173⟧⟨388⟩⟦122⟧⟨389⟩⟦42⟧⟨390⟩⟦159⟧⟨391⟩⟦283⟧⟨392⟩⟦213⟧⟨393⟩
+[Edward Tuckerman Potter] ⟦55⟧⟨394⟩⟦173⟧⟨395⟩⟦165⟧⟨396⟩
+[Nott Street School] ⟦175⟧⟨397⟩⟦23⟧⟨398⟩⟦215⟧⟨399⟩⟦59⟧⟨400⟩⟦213⟧⟨401⟩⟦214⟧⟨402⟩
+[Nott Street School] ⟨403⟩⟦20⟧⟨404⟩⟦210⟧⟨405⟩⟦215⟧⟨406⟩⟦46⟧⟨407⟩⟦71⟧⟨408⟩⟦40⟧⟨409⟩
+[Nott Street School] ⟨410⟩⟦37⟧⟨411⟩⟦225⟧⟨412⟩⟦57⟧⟨413⟩⟦59⟧⟨414⟩⟦33⟧⟨415⟩⟦222⟧⟨416⟩⟦204⟧⟨417⟩⟦53⟧⟨418⟩
+[Nott Street School] ⟦249⟧⟨419⟩⟦97⟧⟨420⟩
+[Nott Street School] ⟦241⟧⟨421⟩⟦59⟧⟨422⟩⟦31⟧⟨423⟩⟦215⟧⟨424⟩⟦177⟧⟨425⟩⟦177⟧⟨426⟩
+
+[user]
+
+问题：
+ Who was the founder of a chain of supermarkets that is now headquartered on Nott Street in Schenectady?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

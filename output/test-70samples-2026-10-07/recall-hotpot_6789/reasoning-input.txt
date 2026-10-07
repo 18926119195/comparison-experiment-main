@@ -1,0 +1,109 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Steve Henson] ⟦171⟧⟨205⟩⟦19⟧⟨207⟩⟨206⟩⟨208⟩⟦214⟧⟨209⟩⟦189⟧⟦147⟧⟨210⟩⟨211⟩⟦186⟧⟦62⟧⟨212⟩⟨213⟩
+[Steve Henson] ⟨214⟩⟦28⟧⟨216⟩⟨215⟩⟨217⟩⟨218⟩⟨219⟩⟦91⟧⟨221⟩⟨220⟩⟨222⟩⟦107⟧⟨223⟩
+[Steve Henson] ⟨224⟩⟨225⟩⟦83⟧⟨226⟩⟨228⟩⟨227⟩⟨229⟩⟨230⟩⟦183⟧⟨231⟩⟦149⟧⟨232⟩⟦92⟧⟨233⟩⟨234⟩⟦225⟧⟦160⟧⟨236⟩⟦68⟧⟨235⟩⟨237⟩⟦216⟧⟨238⟩⟦57⟧⟨239⟩
+[Divya Singh] ⟦232⟧ | ⟦232⟧
+[Weldon Drew] ⟦137⟧
+[Weldon Drew] ⟦123⟧
+[Sean Sutton] ⟦206⟧
+[Sean Sutton] ⟦32⟧
+[Rodney Hamilton] ⟦134⟧
+[Rodney Hamilton] ⟦37⟧ | ⟦52⟧⟦37⟧
+[Rodney Hamilton] ⟦50⟧⟦50⟧ | ⟦80⟧⟦50⟧
+
+符号表：
+⟦19⟧ = a retired American professional basketball player
+⟦28⟧ = an assistant basketball coach
+⟦32⟧ = April
+⟦37⟧ = basketball
+⟦50⟧ = coach
+⟦52⟧ = college
+⟦57⟧ = day
+⟦62⟧ = draft
+⟦68⟧ = exit
+⟦80⟧ = head
+⟦83⟧ = Henson
+⟦91⟧ = his former college coach
+⟦92⟧ = his new position
+⟦107⟧ = Lon Kruger
+⟦123⟧ = Oklahoma
+⟦134⟧ = player
+⟦137⟧ = position
+⟦147⟧ = round
+⟦149⟧ = San Antonio
+⟦160⟧ = Sooners
+⟦171⟧ = Steven Michael Henson
+⟦183⟧ = Texas
+⟦186⟧ = the 1990 NBA draft
+⟦189⟧ = the 2nd round
+⟦206⟧ = the head coach
+⟦214⟧ = the Milwaukee Bucks
+⟦216⟧ = the NCAA Tournament
+⟦225⟧ = the Sooners' exit
+⟦232⟧ = the University
+
+占位符映射：
+⟨205⟩ =  (born February 2, 1968) is 
+⟨206⟩ = 
+⟨207⟩ =  
+⟨208⟩ = , who was selected by 
+⟨209⟩ =  in 
+⟨210⟩ = 
+⟨211⟩ =  (44th overall) of 
+⟨212⟩ = 
+⟨213⟩ = .
+⟨214⟩ =  He is 
+⟨215⟩ = 
+⟨216⟩ =  
+⟨217⟩ =  at 
+⟨218⟩ =  of 
+⟨219⟩ =  under 
+⟨220⟩ = 
+⟨221⟩ =  
+⟨222⟩ =  
+⟨223⟩ = .
+⟨224⟩ =  On 
+⟨225⟩ =  1, 2016, 
+⟨226⟩ =  was hired as 
+⟨227⟩ = 
+⟨228⟩ =  
+⟨229⟩ =  at 
+⟨230⟩ =  of 
+⟨231⟩ =  at 
+⟨232⟩ =  and assumed 
+⟨233⟩ = 
+⟨234⟩ =  after 
+⟨235⟩ = 
+⟨236⟩ = ' 
+⟨237⟩ =  from 
+⟨238⟩ =  the following 
+⟨239⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the name of the basketball team that trained under assistant coach, Steven Michael Henson at the University of Oklahoma ?

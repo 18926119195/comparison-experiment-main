@@ -1,0 +1,39 @@
+[
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "predictedAnswer": "# 路径一：直接定位《La Heredera》主角\n\n步骤1：使用⟦102⟧，提取标题“La Heredera”；综合⟦193⟧⟦20⟧，确认它对应“The Heiress”，是一部墨西哥 telenovela。\n\n步骤2：综合⟦172⟧⟦209⟧⟦157⟧⟦150⟧，在 La heredera 相关材料中出现 Silvia Navarro，并以“the third reunion / reunion”连接 Silvia Navarro 与 Sergio Basañez，且⟦150⟧明确为“protagonists”。\n\n结论：在《La Heredera》中担任主角的演员是 **Silvia Navarro**。\n\n# 路径二：身份交叉验证\n\n步骤1：使用⟦172⟧，提取姓名“Silvia Navarro”；使用⟦170⟧，提取其全名“Silvia Angélica Navarro Barba”。\n\n步骤2：综合⟦98⟧⟦84⟧，提取出生地 Irapuato、Guanajuato；再结合⟦216⟧“theatre”与⟦168⟧“several telenovelas”，说明 Silvia Navarro 是涉足戏剧和多部 telenovelas 的墨西哥女演员。\n\n步骤3：交叉验证⟦102⟧⟦172⟧，La Heredera 材料中的 Silvia Navarro 与上述人物同名，因此可确认为同一人。\n\n结论：题目所问的墨西哥女演员是 **Silvia Navarro**，她也是《La Heredera》的主角。\n\n# 路径三：排除其他候选并对比\n\n步骤1：使用⟦127⟧⟦19⟧⟦32⟧，Marlene Favela 被标为 Mexico / a Mexican actress / actress；但相关材料⟦185⟧⟦222⟧只关联 television / TV，未显示她是《La Heredera》的主角。\n\n步骤2：使用⟦81⟧，Rita Macedo 只关联 film；使用⟦223⟧，Gabriel Porras 关联 TV Azteca；二者在材料中均未出现为《La Heredera》的 protagonist。\n\n步骤3：综合⟦102⟧⟦172⟧⟦150⟧，只有 Silvia Navarro 被《La Heredera》材料明确列为主角之一。\n\n结论：排除其他被列出的演员后，唯一符合“墨西哥女演员”且在《La Heredera》中为主角的是 **Silvia Navarro**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨¨⟩⟦170⟧⟨©⟩⟦165⟧⟨ª⟩⟦98⟧⟨«⟩⟦84⟧⟨¬⟩⟨­⟩⟨®⟩⟨¯⟩",
+    "nounCount": 318,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5742,
+      "completion_tokens": 3752,
+      "total_tokens": 9494,
+      "prompt_tokens_details": {
+        "cached_tokens": 5504
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 3530
+      },
+      "prompt_cache_hit_tokens": 5504,
+      "prompt_cache_miss_tokens": 238
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 920,
+      "completion_tokens": 5184,
+      "total_tokens": 6104,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 4651
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 152
+    }
+  }
+]

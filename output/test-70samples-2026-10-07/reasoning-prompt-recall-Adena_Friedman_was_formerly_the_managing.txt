@@ -1,0 +1,116 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Adena Friedman] ⟦28⟧⟨146⟩⟦38⟧⟦60⟧⟨147⟩⟨148⟩
+[Adena Friedman] ⟨154⟩⟨155⟩⟨156⟩⟦66⟧⟨157⟩⟨158⟩
+[The Carlyle Group] ⟦258⟧ | ⟦258⟧⟨222⟩⟦40⟧⟨223⟩⟨224⟩⟦34⟧⟨226⟩⟦161⟧⟨227⟩⟨228⟩⟨225⟩⟨229⟩
+[The Carlyle Group] ⟨230⟩⟦271⟧⟨231⟩⟨232⟩⟦35⟧⟨234⟩⟦109⟧⟨233⟩⟨235⟩⟦290⟧⟦299⟧⟨236⟩⟨237⟩⟦63⟧⟨238⟩⟦112⟧⟨240⟩⟦45⟧⟨239⟩⟨241⟩⟦80⟧⟨242⟩⟨243⟩⟦207⟧⟦47⟧⟨244⟩⟨245⟩⟦123⟧⟨247⟩⟦243⟧⟨246⟩⟨248⟩⟦151⟧⟨249⟩⟦235⟧⟨250⟩⟨251⟩
+[Nasdaq, Inc.] ⟦234⟧⟦82⟧
+[Richard L. Friedman] ⟦58⟧
+[Richard L. Friedman] ⟦90⟧
+[Udai Kumar] ⟦273⟧
+[Robert Greifeld] ⟦100⟧ | ⟦100⟧⟦100⟧
+[Robert Greifeld] ⟦164⟧
+[William J. Mulrow] ⟦149⟧⟦149⟧
+[William J. Mulrow] ⟦46⟧
+
+符号表：
+⟦28⟧ = Adena T. Friedman
+⟦34⟧ = alternative asset management and financial services corporation
+⟦35⟧ = alternative investment firms
+⟦38⟧ = an American businessperson
+⟦40⟧ = an American multinational private equity
+⟦45⟧ = areas
+⟦46⟧ = asset
+⟦47⟧ = assets
+⟦58⟧ = business
+⟦60⟧ = businessperson
+⟦63⟧ = Carlyle
+⟦66⟧ = CFO
+⟦80⟧ = corporate private equity
+⟦82⟧ = corporation
+⟦90⟧ = director
+⟦100⟧ = equity
+⟦109⟧ = firms
+⟦112⟧ = four key business areas
+⟦123⟧ = global market strategies
+⟦149⟧ = investment
+⟦151⟧ = investment solutions
+⟦161⟧ = management
+⟦164⟧ = market
+⟦207⟧ = real assets
+⟦234⟧ = services
+⟦235⟧ = solutions
+⟦243⟧ = strategies
+⟦258⟧ = The Carlyle Group
+⟦271⟧ = the largest private equity
+⟦273⟧ = The Managing Director
+⟦290⟧ = the world
+⟦299⟧ = world
+
+占位符映射：
+⟨146⟩ =  (born 1969) is 
+⟨147⟩ = 
+⟨148⟩ = .
+⟨154⟩ =  She was formerly 
+⟨155⟩ = 
+⟨156⟩ =  and 
+⟨157⟩ =  of 
+⟨158⟩ = .
+⟨222⟩ =  is 
+⟨223⟩ = 
+⟨224⟩ = , 
+⟨225⟩ = 
+⟨226⟩ =  
+⟨227⟩ =  and financial 
+⟨228⟩ =  
+⟨229⟩ = .
+⟨230⟩ =  As one of 
+⟨231⟩ = 
+⟨232⟩ =  and 
+⟨233⟩ = 
+⟨234⟩ =  
+⟨235⟩ =  in 
+⟨236⟩ = 
+⟨237⟩ = , 
+⟨238⟩ =  specializes in 
+⟨239⟩ = 
+⟨240⟩ =  
+⟨241⟩ = : 
+⟨242⟩ = 
+⟨243⟩ = , 
+⟨244⟩ = 
+⟨245⟩ = , 
+⟨246⟩ = 
+⟨247⟩ =  
+⟨248⟩ = , and 
+⟨249⟩ = 
+⟨250⟩ = 
+⟨251⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Adena Friedman was formerly the managing director and CFO of a company that specializes in what four key business areas?

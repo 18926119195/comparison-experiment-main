@@ -1,0 +1,167 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (Aubry de Dammartin
+⟦2⟧ = 10 May
+⟦3⟧ = 1200 AD
+⟦4⟧ = 21 September
+⟦5⟧ = 3 January
+⟦6⟧ = 912–954
+⟦7⟧ = a Benedictine monk
+⟦8⟧ = a bishop
+⟦9⟧ = a French count
+⟦10⟧ = A nominee
+⟦11⟧ = a Roman noblewoman
+⟦12⟧ = a son
+⟦13⟧ = AD
+⟦14⟧ = Adela
+⟦15⟧ = Alberic
+⟦16⟧ = Alberic I
+⟦17⟧ = Alberic II
+⟦18⟧ = Alberic III
+⟦19⟧ = Alda
+⟦20⟧ = ambition
+⟦21⟧ = Aubry de Dammartin
+⟦22⟧ = Aubry de Mello
+⟦23⟧ = Aumale
+⟦24⟧ = authority
+⟦25⟧ = Bar
+⟦26⟧ = bishop
+⟦27⟧ = Boulogne
+⟦28⟧ = brother
+⟦29⟧ = church
+⟦30⟧ = Clémence de Bar
+⟦31⟧ = Clermont
+⟦32⟧ = count
+⟦33⟧ = d.
+⟦34⟧ = Dammartin
+⟦35⟧ = daughter
+⟦36⟧ = de Dammartin
+⟦37⟧ = death
+⟦38⟧ = dux
+⟦39⟧ = election
+⟦40⟧ = et
+⟦41⟧ = Hilda
+⟦42⟧ = his authority
+⟦43⟧ = his death
+⟦44⟧ = His half-brother
+⟦45⟧ = his mother
+⟦46⟧ = his pontificate
+⟦47⟧ = his second wife
+⟦48⟧ = his stepfather
+⟦49⟧ = his wife
+⟦50⟧ = Hugh
+⟦51⟧ = Hugh I
+⟦52⟧ = Italy
+⟦53⟧ = King
+⟦54⟧ = King Hugh
+⟦55⟧ = Latin
+⟦56⟧ = Leo
+⟦57⟧ = Leo VII
+⟦58⟧ = Leo VII's election
+⟦59⟧ = little ambition
+⟦60⟧ = Maria
+⟦61⟧ = Mariozza
+⟦62⟧ = Mariuccia
+⟦63⟧ = Marozia
+⟦64⟧ = Mathilde
+⟦65⟧ = Mathildis
+⟦66⟧ = mistress
+⟦67⟧ = monk
+⟦68⟧ = mother
+⟦69⟧ = noblewoman
+⟦70⟧ = nominee
+⟦71⟧ = obscurum
+⟦72⟧ = papacy
+⟦73⟧ = period
+⟦74⟧ = pontificate
+⟦75⟧ = Pope
+⟦76⟧ = Pope Agapetus II
+⟦77⟧ = Pope John X.
+⟦78⟧ = Pope John XI
+⟦79⟧ = Pope John XII
+⟦80⟧ = Pope Leo VII
+⟦81⟧ = Pope Sergius III
+⟦82⟧ = Pope Stephen VIII
+⟦83⟧ = possibly the son
+⟦84⟧ = praefectus
+⟦85⟧ = pressure
+⟦86⟧ = priest
+⟦87⟧ = Reginald
+⟦88⟧ = Reginald I
+⟦89⟧ = Rome
+⟦90⟧ = ruler
+⟦91⟧ = senatoress
+⟦92⟧ = senatrix
+⟦93⟧ = Simon
+⟦94⟧ = son
+⟦95⟧ = Spoleto
+⟦96⟧ = St. Sixtus
+⟦97⟧ = stepfather
+⟦98⟧ = the alleged mistress
+⟦99⟧ = the church
+⟦100⟧ = the Count
+⟦101⟧ = the papacy
+⟦102⟧ = the period
+⟦103⟧ = the pope
+⟦104⟧ = the priest
+⟦105⟧ = the Princeps
+⟦106⟧ = the ruler
+⟦107⟧ = the Saeculum obscurum
+⟦108⟧ = the son
+⟦109⟧ = the time
+⟦110⟧ = the unprecedented titles "senatrix
+⟦111⟧ = time
+⟦112⟧ = titles
+⟦113⟧ = Tusculum
+⟦114⟧ = Utrecht
+⟦115⟧ = Vienne
+⟦116⟧ = vir illustrissimus
+⟦117⟧ = wife
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Alberic II of Spoleto] ⟦17⟧⟨1⟩⟦6⟧⟨2⟩⟦90⟧⟨3⟩⟦90⟧⟨4⟩⟦89⟧⟨5⟩⟦45⟧⟨6⟩⟦68⟧⟨7⟩⟦63⟧⟨8⟩⟦48⟧⟨9⟩⟦97⟧⟨10⟩⟦54⟧⟨11⟩⟦52⟧⟨12⟩
+[Pope Leo VII] ⟦80⟧⟨13⟩⟦55⟧⟨14⟩⟦57⟧⟨15⟩⟦33⟧⟨16⟩⟦75⟧⟨17⟩⟦5⟧⟨18⟩⟦43⟧⟨19⟩⟦37⟧⟨20⟩
+[Pope Leo VII] ⟨21⟩⟦78⟧⟨22⟩⟦82⟧⟨23⟩
+[Pope Leo VII] ⟦58⟧⟨24⟩⟦39⟧⟨25⟩⟦101⟧⟨26⟩⟦72⟧⟨27⟩⟦17⟧⟨28⟩⟦95⟧⟨29⟩⟦106⟧⟨30⟩⟦90⟧⟨31⟩⟦89⟧⟨32⟩⟦109⟧⟨33⟩⟦111⟧⟨34⟩
+[Pope Leo VII] ⟦15⟧⟨35⟩⟦103⟧⟨36⟩⟦75⟧⟨37⟩⟦101⟧⟨38⟩⟦72⟧⟨39⟩⟦42⟧⟨40⟩⟦24⟧⟨41⟩
+[Pope Leo VII] ⟦56⟧⟨42⟩⟦104⟧⟨43⟩⟦86⟧⟨44⟩⟦99⟧⟨45⟩⟦29⟧⟨46⟩⟦96⟧⟨47⟩⟦89⟧⟨48⟩⟦7⟧⟨49⟩⟦67⟧⟨50⟩
+[Pope Leo VII] ⟨51⟩⟦59⟧⟨52⟩⟦20⟧⟨53⟩⟦101⟧⟨54⟩⟦72⟧⟨55⟩⟦85⟧⟨56⟩⟦85⟧⟨57⟩
+[Gregory I, Count of Tusculum] ⟨58⟩⟦100⟧⟨59⟩⟦113⟧⟨60⟩
+[Gregory I, Count of Tusculum] ⟨61⟩⟦40⟧⟨62⟩⟦38⟧⟨63⟩⟦116⟧⟨64⟩⟦84⟧⟨65⟩⟦84⟧⟨66⟩
+[Gregory I, Count of Tusculum] ⟨67⟩⟦108⟧⟨68⟩⟦94⟧⟨69⟩⟦17⟧⟨70⟩⟦94⟧⟨71⟩⟦94⟧⟨72⟩⟦16⟧⟨73⟩⟦95⟧⟨74⟩⟦63⟧⟨75⟩⟦19⟧⟨76⟩⟦115⟧⟨77⟩⟦35⟧⟨78⟩⟦35⟧⟨79⟩⟦50⟧⟨80⟩⟦53⟧⟨81⟩⟦52⟧⟨82⟩⟦47⟧⟨83⟩⟦117⟧⟨84⟩⟦19⟧⟨85⟩⟦41⟧⟨86⟩
+[Gregory I, Count of Tusculum] ⟦44⟧⟨87⟩⟦28⟧⟨88⟩⟦79⟧⟨89⟩
+[Marozia] ⟦63⟧⟨90⟩⟦60⟧⟨91⟩⟦62⟧⟨92⟩⟦61⟧⟨93⟩⟦11⟧⟨94⟩⟦69⟧⟨95⟩⟦98⟧⟨96⟩⟦66⟧⟨97⟩⟦81⟧⟨98⟩⟦110⟧⟨99⟩⟦112⟧⟨100⟩⟦92⟧⟨101⟩⟦91⟧⟨102⟩⟦89⟧⟨103⟩⟦77⟧
+[Alberic III of Dammartin] ⟦18⟧⟨104⟩⟦34⟧⟨105⟩⟦1⟧⟨106⟩⟦3⟧⟨107⟩⟦13⟧⟨108⟩⟦9⟧⟨109⟩⟦32⟧⟨110⟩⟦94⟧⟨111⟩⟦94⟧⟨112⟩⟦17⟧⟨113⟩⟦32⟧⟨114⟩⟦34⟧⟨115⟩⟦30⟧⟨116⟩⟦35⟧⟨117⟩⟦35⟧⟨118⟩⟦88⟧⟨119⟩⟦32⟧⟨120⟩⟦25⟧⟨121⟩
+[Alberik II] ⟦17⟧⟨122⟩⟦8⟧⟨123⟩⟦26⟧⟨124⟩⟦114⟧⟨125⟩
+[Alberic II, Count of Dammartin] ⟦17⟧⟨126⟩⟦34⟧⟨127⟩⟦83⟧⟨128⟩⟦94⟧⟨129⟩⟦22⟧⟨130⟩⟦32⟧⟨131⟩⟦34⟧⟨132⟩⟦14⟧⟨133⟩⟦35⟧⟨134⟩⟦35⟧⟨135⟩⟦51⟧⟨136⟩⟦32⟧⟨137⟩⟦34⟧⟨138⟩
+[Pope Agapetus II] ⟦76⟧⟨139⟩⟦75⟧⟨140⟩⟦2⟧⟨141⟩⟦43⟧⟨142⟩⟦37⟧⟨143⟩
+[Pope Agapetus II] ⟦10⟧⟨144⟩⟦70⟧⟨145⟩⟦105⟧⟨146⟩⟦89⟧⟨147⟩⟦17⟧⟨148⟩⟦46⟧⟨149⟩⟦74⟧⟨150⟩⟦102⟧⟨151⟩⟦73⟧⟨152⟩⟦107⟧⟨153⟩⟦71⟧⟨154⟩
+[Simon, Count of Ponthieu] ⟦93⟧⟨155⟩⟦34⟧⟨156⟩⟦4⟧⟨157⟩⟦12⟧⟨158⟩⟦94⟧⟨159⟩⟦17⟧⟨160⟩⟦34⟧⟨161⟩⟦21⟧⟨162⟩⟦49⟧⟨163⟩⟦117⟧⟨164⟩⟦65⟧⟨165⟩⟦31⟧⟨166⟩
+[Renaud I, Count of Dammartin] ⟨167⟩⟦36⟧⟨168⟩⟦87⟧⟨169⟩⟦27⟧⟨170⟩⟦32⟧⟨171⟩⟦27⟧⟨172⟩⟦32⟧⟨173⟩⟦34⟧⟨174⟩⟦23⟧⟨175⟩
+[Renaud I, Count of Dammartin] ⟨176⟩⟦94⟧⟨177⟩⟦94⟧⟨178⟩⟦17⟧⟨179⟩⟦34⟧⟨180⟩⟦64⟧⟨181⟩⟦31⟧⟨182⟩
+
+[user]
+
+问题：
+Who gave the mother of Alberic II of Spoleto the title "patricia" of Rome?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

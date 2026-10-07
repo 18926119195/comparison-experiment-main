@@ -1,0 +1,29 @@
+# 路径一：直接比较发行年份
+
+步骤1：使用⟦140⟧，提取“Marx Reloaded”的信息，判断其为⟦18⟧，即一部2011年的德国纪录片。
+
+步骤2：使用⟦169⟧，提取“Plants”的信息，结合⟦19⟧判断“The Private Life of Plants”是一部BBC自然纪录片系列。
+
+步骤3：综合⟦243⟧⟦116⟧，提取“The Private Life of Plants”的播出信息，判断其首次播出时间为1995年1月11日。
+
+结论：The Private Life of Plants（1995年）比 Marx Reloaded（2011年）更早，因此 The Private Life of Plants 是更古老的纪录片。
+
+# 路径二：通过纪录片类型与系列信息交叉验证
+
+步骤1：使用⟦140⟧⟦18⟧，确认 Marx Reloaded 是2011年的德国纪录片。
+
+步骤2：使用⟦19⟧⟦189⟧，确认 The Private Life of Plants 是BBC自然纪录片系列。
+
+步骤3：综合⟦67⟧⟦114⟧⟦243⟧⟦116⟧，提取该系列由 David Attenborough 撰写并主持，首次于1995年1月11日在英国播出。
+
+结论：The Private Life of Plants 的播出年份（1995）早于 Marx Reloaded 的制作年份（2011），因此 The Private Life of Plants 更古老。
+
+# 路径三：排除法——确认 Marx Reloaded 并非更早
+
+步骤1：使用⟦140⟧⟦18⟧，提取 Marx Reloaded 为2011年德国纪录片，明确其年份为2011。
+
+步骤2：使用⟦169⟧⟦19⟧⟦116⟧，提取 The Private Life of Plants 为1995年首播的BBC系列。
+
+步骤3：对比⟦18⟧与⟦116⟧，2011年晚于1995年，因此 Marx Reloaded 不可能更古老。
+
+结论：Marx Reloaded 比 The Private Life of Plants 晚16年，故 The Private Life of Plants 是两者中更古老的纪录片。

@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_1343",
+  "question": "Who was person born in Sweden 1964 that founded Hidden City Entertainment in 2004?",
+  "expectedAnswer": "Jesper Myrfors",
+  "predictedAnswer": "# 路径一：从人物属性直接匹配\n\n步骤1：使用⟦115⟧，提取人物为 Jesper Myrfors，并判断其与问题中“person born in Sweden 1964”的对应关系。\n\n步骤2：综合⟦186⟧⟦339⟧，交叉验证该人物出生于 Sweden，且出生年份为 1964。\n\n步骤3：综合⟦96⟧⟦302⟧⟦303⟧，确认 Hidden City Entertainment 成立于 2004，且 Jesper Myrfors 是创始人之一。\n\n结论：Jesper Myrfors 是 1964 年出生于 Sweden、并于 2004 年参与创立 Hidden City Entertainment 的人。\n\n# 路径二：从公司创立信息反向定位创始人\n\n步骤1：使用⟦96⟧⟦302⟧，提取 Hidden City Entertainment 于 2004 年成立。\n\n步骤2：综合⟦303⟧⟦304⟧⟦115⟧，提取创始人信息中包含 Jesper Myrfors。\n\n步骤3：综合⟦115⟧⟦186⟧⟦339⟧，核验 Jesper Myrfors 的出生地为 Sweden、出生年份为 1964。\n\n结论：通过公司创立信息反向定位，可确认创始人为 Jesper Myrfors，且其出生信息与问题完全吻合。\n\n# 路径三：交叉验证人物与公司关联\n\n步骤1：使用⟦115⟧，提取 Jesper Myrfors 这一人物实体。\n\n步骤2：综合⟦97⟧⟦115⟧⟦63⟧，提取 Jesper Myrfors 与 Hidden City Games / Clout Fantasy 的关联，判断其属于该公司相关人物网络。\n\n步骤3：综合⟦96⟧⟦98⟧⟦302⟧，确认 Hidden City Entertainment 与 Hidden City Games, Inc. 的对应关系，并回溯其 2004 年创立背景。\n\n步骤4：综合⟦186⟧⟦339⟧，验证 Jesper Myrfors 出生于 Sweden 1964。\n\n结论：多条材料交叉验证后，Jesper Myrfors 同时满足“Sweden 出生”“1964 年出生”“2004 年创立 Hidden City Entertainment”三个条件。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦115⟧⟨339⟩⟦186⟧⟨340⟩⟦14⟧⟦128⟧⟨341⟩⟨342⟩⟦97⟧⟨343⟩⟦63⟧⟨344⟩",
+  "nounCount": 323,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5624,
+    "completion_tokens": 178,
+    "total_tokens": 5802,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376
+    },
+    "prompt_cache_hit_tokens": 5376,
+    "prompt_cache_miss_tokens": 248
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 767,
+    "completion_tokens": 486,
+    "total_tokens": 1253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 767
+  }
+}

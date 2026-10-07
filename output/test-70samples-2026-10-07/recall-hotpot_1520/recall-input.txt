@@ -1,0 +1,294 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = : "Bjarkøyforbindelsen
+⟦2⟧ = "Fv63
+⟦3⟧ = (Norwegian
+⟦4⟧ = (snow
+⟦5⟧ = 103.6 km
+⟦6⟧ = 2.5 km lie
+⟦7⟧ = 3 km
+⟦8⟧ = a 2010 government reform
+⟦9⟧ = a 4.2 km long county road
+⟦10⟧ = a 900 m long causeway
+⟦11⟧ = a bridge
+⟦12⟧ = a county
+⟦13⟧ = a fairly rural area
+⟦14⟧ = a Norwegian county road
+⟦15⟧ = a Norwegian national road
+⟦16⟧ = a Norwegian region
+⟦17⟧ = a number
+⟦18⟧ = a proposed fixed link
+⟦19⟧ = a single ferry crossing
+⟦20⟧ = a subsea road tunnel
+⟦21⟧ = a varied and often scenic landscape
+⟦22⟧ = a very small part
+⟦23⟧ = above 10,000 square kilometres
+⟦24⟧ = administration
+⟦25⟧ = amt
+⟦26⟧ = Åndalsnes
+⟦27⟧ = area
+⟦28⟧ = Aust-Agder
+⟦29⟧ = Aust-Agder county
+⟦30⟧ = avalanches
+⟦31⟧ = Birkenes
+⟦32⟧ = Birkenes municipality
+⟦33⟧ = Bjarkøya
+⟦34⟧ = Both the Langvatnet
+⟦35⟧ = Bratsberg amt
+⟦36⟧ = bridge
+⟦37⟧ = bridges
+⟦38⟧ = Buskerud
+⟦39⟧ = causeway
+⟦40⟧ = center
+⟦41⟧ = Central Telemark
+⟦42⟧ = changes
+⟦43⟧ = city
+⟦44⟧ = conditions
+⟦45⟧ = county
+⟦46⟧ = crosses
+⟦47⟧ = crossing
+⟦48⟧ = E6
+⟦49⟧ = earmarking
+⟦50⟧ = end
+⟦51⟧ = European Route E6
+⟦52⟧ = Evje
+⟦53⟧ = exception
+⟦54⟧ = ferry
+⟦55⟧ = Fidje
+⟦56⟧ = five bridges
+⟦57⟧ = flatter
+⟦58⟧ = Frivoll
+⟦59⟧ = Fv405
+⟦60⟧ = Fv419
+⟦61⟧ = Fylkesvei
+⟦62⟧ = Geiranger
+⟦63⟧ = government
+⟦64⟧ = Grenland
+⟦65⟧ = Grimstad municipality
+⟦66⟧ = Grytøya
+⟦67⟧ = Hannåsmoen
+⟦68⟧ = Harstad
+⟦69⟧ = highway
+⟦70⟧ = hills
+⟦71⟧ = Hokstad
+⟦72⟧ = Hokstad Ferry
+⟦73⟧ = Hordaland
+⟦74⟧ = Hornnes municipality
+⟦75⟧ = inland
+⟦76⟧ = island
+⟦77⟧ = islands
+⟦78⟧ = its other end
+⟦79⟧ = junction
+⟦80⟧ = kilometres
+⟦81⟧ = Klepp
+⟦82⟧ = km
+⟦83⟧ = Kristiansand municipality
+⟦84⟧ = lake
+⟦85⟧ = lakes
+⟦86⟧ = landmarks
+⟦87⟧ = landscape
+⟦88⟧ = late May
+⟦89⟧ = Levanger
+⟦90⟧ = lie
+⟦91⟧ = line
+⟦92⟧ = link
+⟦93⟧ = Lower Telemark
+⟦94⟧ = majority
+⟦95⟧ = many hills
+⟦96⟧ = Møre
+⟦97⟧ = More than two thirds
+⟦98⟧ = Mosby
+⟦99⟧ = mountains
+⟦100⟧ = Mule
+⟦101⟧ = municipality
+⟦102⟧ = national tourist route
+⟦103⟧ = Nord-Trøndelag county
+⟦104⟧ = north
+⟦105⟧ = Norway
+⟦106⟧ = Norwegian
+⟦107⟧ = Norwegian County Road
+⟦108⟧ = Norwegian National Road
+⟦109⟧ = notable landmarks
+⟦110⟧ = number
+⟦111⟧ = only the southernmost
+⟦112⟧ = Oppland
+⟦113⟧ = Oppland county
+⟦114⟧ = Oslo county
+⟦115⟧ = Øvre Telemark
+⟦116⟧ = part
+⟦117⟧ = parts
+⟦118⟧ = project
+⟦119⟧ = railway
+⟦120⟧ = Rauma Municipality
+⟦121⟧ = reform
+⟦122⟧ = region
+⟦123⟧ = river
+⟦124⟧ = road
+⟦125⟧ = roads
+⟦126⟧ = Rogaland
+⟦127⟧ = Romsdal county
+⟦128⟧ = Rore
+⟦129⟧ = Roresand
+⟦130⟧ = route
+⟦131⟧ = runs
+⟦132⟧ = rural Grimstad
+⟦133⟧ = Sandefjord
+⟦134⟧ = Sandsøya
+⟦135⟧ = sections
+⟦136⟧ = Sennumstad
+⟦137⟧ = Skien
+⟦138⟧ = Skjåk Municipality
+⟦139⟧ = snow
+⟦140⟧ = Søre Herefoss
+⟦141⟧ = south
+⟦142⟧ = southeast
+⟦143⟧ = southernmost
+⟦144⟧ = spring
+⟦145⟧ = Stemlona
+⟦146⟧ = Syndle
+⟦147⟧ = Telemark
+⟦148⟧ = The 1.8 km long road
+⟦149⟧ = The 18.1 km long road runs
+⟦150⟧ = The 27.83 km long road runs
+⟦151⟧ = The Bjarkøy Fixed Link
+⟦152⟧ = The Bjarkøy Tunnel
+⟦153⟧ = The bridge
+⟦154⟧ = the county
+⟦155⟧ = The county administration
+⟦156⟧ = the earmarking
+⟦157⟧ = the European route E136 highway
+⟦158⟧ = the European route E18 highway
+⟦159⟧ = the exception
+⟦160⟧ = the existing roads
+⟦161⟧ = the extreme western part
+⟦162⟧ = the ferry
+⟦163⟧ = the Herefossfjorden
+⟦164⟧ = the inland
+⟦165⟧ = the island
+⟦166⟧ = the junction
+⟦167⟧ = the lake Langvatnet
+⟦168⟧ = the largest city
+⟦169⟧ = the Levanger
+⟦170⟧ = the more densely populated, flatter coastal area
+⟦171⟧ = the municipality
+⟦172⟧ = the new undersea tunnel
+⟦173⟧ = the Norddalsfjorden
+⟦174⟧ = the north
+⟦175⟧ = the Norwegian County Road
+⟦176⟧ = the Norwegian National Road
+⟦177⟧ = The project
+⟦178⟧ = the river Otra
+⟦179⟧ = the road
+⟦180⟧ = The route
+⟦181⟧ = the Sandsøya Bridge
+⟦182⟧ = the Setesdalen valley
+⟦183⟧ = the smallest county
+⟦184⟧ = The Sørlandsbanen railway line crosses
+⟦185⟧ = the south
+⟦186⟧ = the south end
+⟦187⟧ = the southeast
+⟦188⟧ = the three islands
+⟦189⟧ = the total area
+⟦190⟧ = the Tovdalselva river
+⟦191⟧ = the town
+⟦192⟧ = the town center
+⟦193⟧ = the traditional region
+⟦194⟧ = The tunnel
+⟦195⟧ = the two lakes
+⟦196⟧ = The vast majority
+⟦197⟧ = the village
+⟦198⟧ = the villages
+⟦199⟧ = the weather conditions
+⟦200⟧ = The western end
+⟦201⟧ = thirds
+⟦202⟧ = Tide Sjø
+⟦203⟧ = Tønsberg
+⟦204⟧ = tourist
+⟦205⟧ = town
+⟦206⟧ = Trollstigen
+⟦207⟧ = Troms county
+⟦208⟧ = tunnel
+⟦209⟧ = undersea
+⟦210⟧ = Upper Telemark
+⟦211⟧ = usually early November
+⟦212⟧ = valley
+⟦213⟧ = valleys
+⟦214⟧ = Vegusdal
+⟦215⟧ = Vest-Agder county
+⟦216⟧ = Vestfold
+⟦217⟧ = village
+⟦218⟧ = villages
+⟦219⟧ = weather
+⟦220⟧ = winter
+⟦221⟧ = Ytterøya
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Norwegian County Road 63] ⟦107⟧⟨1⟩⟦3⟧⟨2⟩⟦61⟧⟨3⟩⟦2⟧⟨4⟩⟦14⟧⟨5⟩⟦45⟧⟨6⟩⟦124⟧⟨7⟩⟦96⟧⟨8⟩⟦127⟧⟨9⟩⟦45⟧⟨10⟩⟦22⟧⟨11⟩⟦116⟧⟨12⟩⟦113⟧⟨13⟩⟦105⟧⟨14⟩
+[Norwegian County Road 63] ⟨15⟩⟦108⟧⟨16⟩⟦167⟧⟨17⟩⟦84⟧⟨18⟩⟦138⟧⟨19⟩⟦112⟧⟨20⟩⟦45⟧⟨21⟩⟦45⟧⟨22⟩⟦166⟧⟨23⟩⟦79⟧⟨24⟩⟦157⟧⟨25⟩⟦130⟧⟨26⟩⟦69⟧⟨27⟩⟦191⟧⟨28⟩⟦205⟧⟨29⟩⟦26⟧⟨30⟩⟦120⟧⟨31⟩⟦96⟧⟨32⟩⟦127⟧⟨33⟩⟦45⟧⟨34⟩
+[Norwegian County Road 63] ⟦180⟧⟨35⟩⟦130⟧⟨36⟩⟦5⟧⟨37⟩⟦82⟧⟨38⟩⟦19⟧⟨39⟩⟦54⟧⟨40⟩⟦47⟧⟨41⟩⟦173⟧⟨42⟩
+[Norwegian County Road 63] ⟦196⟧⟨43⟩⟦94⟧⟨44⟩⟦179⟧⟨45⟩⟦124⟧⟨46⟩⟦96⟧⟨47⟩⟦127⟧⟨48⟩⟦45⟧⟨49⟩⟦111⟧⟨50⟩⟦143⟧⟨51⟩⟦6⟧⟨52⟩⟦82⟧⟨53⟩⟦90⟧⟨54⟩⟦161⟧⟨55⟩⟦116⟧⟨56⟩⟦113⟧⟨57⟩⟦45⟧⟨58⟩
+[Norwegian County Road 63] ⟦34⟧⟨59⟩⟦62⟧⟨60⟩⟦206⟧⟨61⟩⟦135⟧⟨62⟩⟦135⟧⟨63⟩⟦179⟧⟨64⟩⟦124⟧⟨65⟩⟦220⟧⟨66⟩⟦220⟧⟨67⟩⟦144⟧⟨68⟩⟦144⟧⟨69⟩⟦211⟧⟨70⟩⟦88⟧⟨71⟩⟦199⟧⟨72⟩⟦219⟧⟨73⟩⟦44⟧⟨74⟩⟦4⟧⟨75⟩⟦139⟧⟨76⟩⟦30⟧⟨77⟩⟦30⟧⟨78⟩
+[Norwegian County Road 63] ⟦179⟧⟨79⟩⟦124⟧⟨80⟩⟦17⟧⟨81⟩⟦110⟧⟨82⟩⟦109⟧⟨83⟩⟦86⟧⟨84⟩⟦156⟧⟨85⟩⟦49⟧⟨86⟩⟦180⟧⟨87⟩⟦130⟧⟨88⟩⟦102⟧⟨89⟩⟦204⟧⟨90⟩⟦130⟧⟨91⟩
+[Norwegian County Road 404] ⟦107⟧⟨92⟩⟦14⟧⟨93⟩⟦45⟧⟨94⟩⟦124⟧⟨95⟩⟦29⟧⟨96⟩⟦45⟧⟨97⟩⟦105⟧⟨98⟩
+[Norwegian County Road 404] ⟦150⟧⟨99⟩⟦82⟧⟨100⟩⟦124⟧⟨101⟩⟦131⟧⟨102⟩⟦197⟧⟨103⟩⟦217⟧⟨104⟩⟦58⟧⟨105⟩⟦65⟧⟨106⟩⟦101⟧⟨107⟩⟦187⟧⟨108⟩⟦142⟧⟨109⟩⟦197⟧⟨110⟩⟦217⟧⟨111⟩⟦140⟧⟨112⟩⟦31⟧⟨113⟩⟦101⟧⟨114⟩⟦101⟧⟨115⟩⟦186⟧⟨116⟩⟦50⟧⟨117⟩⟦163⟧⟨118⟩
+[Norwegian County Road 404] ⟦179⟧⟨119⟩⟦124⟧⟨120⟩⟦176⟧⟨121⟩⟦140⟧⟨122⟩⟦158⟧⟨123⟩⟦130⟧⟨124⟩⟦69⟧⟨125⟩⟦58⟧⟨126⟩
+[Norwegian County Road 404] ⟦179⟧⟨127⟩⟦124⟧⟨128⟩⟦195⟧⟨129⟩⟦85⟧⟨130⟩⟦146⟧⟨131⟩⟦128⟧⟨132⟩⟦132⟧⟨133⟩⟦197⟧⟨134⟩⟦217⟧⟨135⟩⟦129⟧⟨136⟩
+[Norwegian County Road 404] ⟨137⟩⟦8⟧⟨138⟩⟦63⟧⟨139⟩⟦121⟧⟨140⟩⟦179⟧⟨141⟩⟦124⟧⟨142⟩⟦15⟧⟨143⟩⟦124⟧⟨144⟩
+[Telemark] ⟦147⟧⟨145⟩⟦12⟧⟨146⟩⟦45⟧⟨147⟩⟦105⟧⟨148⟩⟦216⟧⟨149⟩⟦38⟧⟨150⟩⟦73⟧⟨151⟩⟦126⟧⟨152⟩⟦28⟧⟨153⟩
+[Telemark] ⟦155⟧⟨154⟩⟦45⟧⟨155⟩⟦24⟧⟨156⟩⟦137⟧⟨157⟩
+[Telemark] ⟨158⟩⟦154⟧⟨159⟩⟦45⟧⟨160⟩⟦35⟧⟨161⟩⟦25⟧⟨162⟩
+[Norwegian County Road 405] ⟦107⟧⟨163⟩⟦59⟧⟨164⟩⟦14⟧⟨165⟩⟦45⟧⟨166⟩⟦124⟧⟨167⟩⟦197⟧⟨168⟩⟦217⟧⟨169⟩⟦214⟧⟨170⟩⟦32⟧⟨171⟩⟦101⟧⟨172⟩⟦29⟧⟨173⟩⟦45⟧⟨174⟩⟦174⟧⟨175⟩⟦104⟧⟨176⟩⟦166⟧⟨177⟩⟦79⟧⟨178⟩⟦176⟧⟨179⟩⟦197⟧⟨180⟩⟦217⟧⟨181⟩⟦98⟧⟨182⟩⟦83⟧⟨183⟩⟦101⟧⟨184⟩⟦215⟧⟨185⟩⟦45⟧⟨186⟩⟦185⟧⟨187⟩⟦141⟧⟨188⟩
+[Norwegian County Road 405] ⟦179⟧⟨189⟩⟦124⟧⟨190⟩⟦82⟧⟨191⟩
+[Norwegian County Road 405] ⟨192⟩⟦8⟧⟨193⟩⟦63⟧⟨194⟩⟦121⟧⟨195⟩⟦179⟧⟨196⟩⟦124⟧⟨197⟩⟦15⟧⟨198⟩⟦124⟧⟨199⟩
+[Bjarkøy Fixed Link] ⟦151⟧⟨200⟩⟦106⟧⟨201⟩⟦1⟧⟨202⟩⟦18⟧⟨203⟩⟦92⟧⟨204⟩⟦188⟧⟨205⟩⟦77⟧⟨206⟩⟦33⟧⟨207⟩⟦134⟧⟨208⟩⟦66⟧⟨209⟩⟦171⟧⟨210⟩⟦101⟧⟨211⟩⟦68⟧⟨212⟩⟦207⟧⟨213⟩⟦45⟧⟨214⟩⟦105⟧⟨215⟩
+[Bjarkøy Fixed Link] ⟦66⟧⟨216⟩⟦33⟧⟨217⟩⟦20⟧⟨218⟩⟦124⟧⟨219⟩⟦208⟧⟨220⟩⟦11⟧⟨221⟩⟦36⟧⟨222⟩⟦66⟧⟨223⟩⟦134⟧⟨224⟩
+[Bjarkøy Fixed Link] ⟦194⟧⟨225⟩⟦208⟧⟨226⟩⟦33⟧⟨227⟩⟦82⟧⟨228⟩
+[Bjarkøy Fixed Link] ⟦153⟧⟨229⟩⟦36⟧⟨230⟩⟦66⟧⟨231⟩⟦10⟧⟨232⟩⟦39⟧⟨233⟩
+[Bjarkøy Fixed Link] ⟦177⟧⟨234⟩⟦118⟧⟨235⟩⟦7⟧⟨236⟩⟦82⟧⟨237⟩⟦124⟧⟨238⟩⟦124⟧⟨239⟩⟦66⟧⟨240⟩⟦160⟧⟨241⟩⟦125⟧⟨242⟩⟦172⟧⟨243⟩⟦209⟧⟨244⟩⟦208⟧⟨245⟩
+[Bjarkøy Fixed Link] ⟦152⟧⟨246⟩⟦116⟧⟨247⟩⟦116⟧⟨248⟩⟦107⟧⟨249⟩⟦181⟧⟨250⟩⟦116⟧⟨251⟩⟦116⟧⟨252⟩⟦107⟧⟨253⟩
+[Vestfold] ⟦216⟧⟨254⟩⟦12⟧⟨255⟩⟦45⟧⟨256⟩⟦105⟧⟨257⟩⟦38⟧⟨258⟩⟦147⟧⟨259⟩
+[Vestfold] ⟦155⟧⟨260⟩⟦45⟧⟨261⟩⟦24⟧⟨262⟩⟦203⟧⟨263⟩⟦168⟧⟨264⟩⟦43⟧⟨265⟩⟦133⟧⟨266⟩
+[Vestfold] ⟨267⟩⟦159⟧⟨268⟩⟦53⟧⟨269⟩⟦114⟧⟨270⟩⟦45⟧⟨271⟩⟦216⟧⟨272⟩⟦183⟧⟨273⟩⟦45⟧⟨274⟩⟦105⟧⟨275⟩⟦27⟧⟨276⟩⟦27⟧⟨277⟩
+[Norwegian County Road 774] ⟦107⟧⟨278⟩⟦3⟧⟨279⟩⟦61⟧⟨280⟩⟦9⟧⟨281⟩⟦82⟧⟨282⟩⟦45⟧⟨283⟩⟦124⟧⟨284⟩⟦171⟧⟨285⟩⟦101⟧⟨286⟩⟦89⟧⟨287⟩⟦103⟧⟨288⟩⟦45⟧⟨289⟩⟦105⟧⟨290⟩
+[Norwegian County Road 774] ⟨291⟩⟦51⟧⟨292⟩⟦48⟧⟨293⟩⟦100⟧⟨294⟩⟦117⟧⟨295⟩⟦117⟧⟨296⟩⟦192⟧⟨297⟩⟦205⟧⟨298⟩⟦40⟧⟨299⟩⟦89⟧⟨300⟩
+[Norwegian County Road 774] ⟨301⟩⟦179⟧⟨302⟩⟦124⟧⟨303⟩⟦169⟧⟨304⟩⟦72⟧⟨305⟩⟦202⟧⟨306⟩⟦71⟧⟨307⟩⟦165⟧⟨308⟩⟦76⟧⟨309⟩⟦221⟧⟨310⟩
+[Norwegian County Road 774] ⟨311⟩⟦162⟧⟨312⟩⟦54⟧⟨313⟩⟦124⟧⟨314⟩⟦42⟧⟨315⟩⟦107⟧⟨316⟩
+[Norwegian County Road 419] ⟦107⟧⟨317⟩⟦60⟧⟨318⟩⟦14⟧⟨319⟩⟦45⟧⟨320⟩⟦124⟧⟨321⟩⟦198⟧⟨322⟩⟦218⟧⟨323⟩⟦67⟧⟨324⟩⟦81⟧⟨325⟩⟦52⟧⟨326⟩⟦74⟧⟨327⟩⟦101⟧⟨328⟩⟦29⟧⟨329⟩⟦45⟧⟨330⟩⟦105⟧⟨331⟩
+[Norwegian County Road 419] ⟦148⟧⟨332⟩⟦82⟧⟨333⟩⟦124⟧⟨334⟩⟦11⟧⟨335⟩⟦36⟧⟨336⟩⟦178⟧⟨337⟩⟦123⟧⟨338⟩
+[Norwegian County Road 419] ⟨339⟩⟦56⟧⟨340⟩⟦37⟧⟨341⟩⟦178⟧⟨342⟩⟦123⟧⟨343⟩⟦171⟧⟨344⟩⟦101⟧⟨345⟩
+[Norwegian County Road 419] ⟦200⟧⟨346⟩⟦50⟧⟨347⟩⟦179⟧⟨348⟩⟦124⟧⟨349⟩⟦176⟧⟨350⟩⟦104⟧⟨351⟩⟦141⟧⟨352⟩⟦182⟧⟨353⟩⟦212⟧⟨354⟩
+[Upper Telemark] ⟦210⟧⟨355⟩⟦3⟧⟨356⟩⟦115⟧⟨357⟩⟦16⟧⟨358⟩⟦122⟧⟨359⟩⟦164⟧⟨360⟩⟦75⟧⟨361⟩⟦154⟧⟨362⟩⟦45⟧⟨363⟩⟦147⟧⟨364⟩
+[Upper Telemark] ⟦97⟧⟨365⟩⟦201⟧⟨366⟩⟦189⟧⟨367⟩⟦27⟧⟨368⟩⟦147⟧⟨369⟩⟦23⟧⟨370⟩⟦80⟧⟨371⟩⟦193⟧⟨372⟩⟦122⟧⟨373⟩⟦210⟧⟨374⟩
+[Upper Telemark] ⟨375⟩⟦93⟧⟨376⟩⟦170⟧⟨377⟩⟦57⟧⟨378⟩⟦27⟧⟨379⟩⟦64⟧⟨380⟩⟦41⟧⟨381⟩
+[Upper Telemark] ⟦210⟧⟨382⟩⟦21⟧⟨383⟩⟦87⟧⟨384⟩⟦95⟧⟨385⟩⟦70⟧⟨386⟩⟦99⟧⟨387⟩⟦99⟧⟨388⟩⟦213⟧⟨389⟩⟦213⟧⟨390⟩⟦85⟧⟨391⟩⟦85⟧⟨392⟩
+[Norwegian County Road 406] ⟦107⟧⟨393⟩⟦14⟧⟨394⟩⟦45⟧⟨395⟩⟦124⟧⟨396⟩⟦32⟧⟨397⟩⟦101⟧⟨398⟩⟦29⟧⟨399⟩⟦45⟧⟨400⟩⟦105⟧⟨401⟩
+[Norwegian County Road 406] ⟦149⟧⟨402⟩⟦82⟧⟨403⟩⟦124⟧⟨404⟩⟦131⟧⟨405⟩⟦197⟧⟨406⟩⟦217⟧⟨407⟩⟦136⟧⟨408⟩⟦190⟧⟨409⟩⟦123⟧⟨410⟩⟦197⟧⟨411⟩⟦217⟧⟨412⟩⟦145⟧⟨413⟩
+[Norwegian County Road 406] ⟦179⟧⟨414⟩⟦124⟧⟨415⟩⟦175⟧⟨416⟩⟦145⟧⟨417⟩⟦176⟧⟨418⟩⟦78⟧⟨419⟩⟦50⟧⟨420⟩⟦136⟧⟨421⟩
+[Norwegian County Road 406] ⟦179⟧⟨422⟩⟦124⟧⟨423⟩⟦13⟧⟨424⟩⟦27⟧⟨425⟩⟦31⟧⟨426⟩
+[Norwegian County Road 406] ⟦184⟧⟨427⟩⟦119⟧⟨428⟩⟦91⟧⟨429⟩⟦46⟧⟨430⟩⟦179⟧⟨431⟩⟦124⟧⟨432⟩⟦55⟧⟨433⟩
+
+[user]
+
+问题：
+Vestfold and Telemark each border what other Norwegian county?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

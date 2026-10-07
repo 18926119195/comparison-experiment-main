@@ -1,0 +1,59 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Aaron Katz (filmmaker)] ⟨112⟩⟦23⟧⟦29⟧⟨114⟩⟨113⟩⟨115⟩⟨116⟩⟨117⟩
+[Todd Field] ⟦153⟧⟨132⟩⟦20⟧⟦16⟧⟨134⟩⟦147⟧⟨135⟩⟦61⟧⟨133⟩⟨136⟩ | ⟦61⟧
+[Cold Weather] ⟦113⟧⟦109⟧
+[Quiet City (film)] ⟦14⟧
+
+符号表：
+⟦14⟧ = Aaron Katz
+⟦16⟧ = actor
+⟦20⟧ = an American actor and three-time Academy Award nominated filmmaker
+⟦23⟧ = an award-winning independent American filmmaker
+⟦29⟧ = award
+⟦61⟧ = filmmaker
+⟦109⟧ = Oregon
+⟦113⟧ = Portland
+⟦147⟧ = time
+⟦153⟧ = William Todd Field
+
+占位符映射：
+⟨112⟩ =  (born October 29, 1981) is 
+⟨113⟩ = 
+⟨114⟩ = -winning independent American 
+⟨115⟩ =  from 
+⟨116⟩ = , 
+⟨117⟩ = .
+⟨132⟩ =  (born February 24, 1964) is 
+⟨133⟩ = 
+⟨134⟩ =  and three-
+⟨135⟩ =  Academy Award nominated 
+⟨136⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who was born first out of Todd Field and Aaron Katz?

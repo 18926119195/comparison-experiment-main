@@ -1,0 +1,80 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Shame of a City] ⟦322⟧⟨97⟩⟦23⟧⟨98⟩⟦21⟧⟦129⟧⟨100⟩⟦180⟧⟨101⟩⟨99⟩⟨102⟩⟦315⟧⟨103⟩
+[Unchained Memories] ⟦352⟧⟨279⟩⟦20⟧⟨281⟩⟨280⟩⟨282⟩⟦327⟧⟦264⟧⟨283⟩⟨284⟩⟦143⟧⟨285⟩⟨286⟩⟦274⟧⟦10⟧⟨287⟩⟨288⟩⟦222⟧⟦222⟧⟨289⟩⟨290⟩⟦295⟧⟦234⟧⟨291⟩⟨292⟩⟦336⟧⟨293⟩
+[Unchained Memories] ⟦132⟧
+[Unchained Memories] ⟦105⟧ | ⟦105⟧⟦255⟧
+
+符号表：
+⟦10⟧ = 1930s
+⟦20⟧ = a 2003 documentary film
+⟦21⟧ = a 2006 feature-length documentary
+⟦23⟧ = a City
+⟦105⟧ = documentary
+⟦129⟧ = feature
+⟦132⟧ = film
+⟦143⟧ = former slaves
+⟦180⟧ = length
+⟦222⟧ = part
+⟦234⟧ = Project
+⟦255⟧ = slaves
+⟦264⟧ = stories
+⟦274⟧ = the 1930s
+⟦295⟧ = the Federal Writers' Project
+⟦315⟧ = the Philadelphia Film Festival
+⟦322⟧ = The Shame
+⟦327⟧ = the stories
+⟦336⟧ = the WPA Slave Narrative Collection
+⟦352⟧ = Unchained Memories
+
+占位符映射：
+⟨97⟩ =  of 
+⟨98⟩ =  is 
+⟨99⟩ = 
+⟨100⟩ = -
+⟨101⟩ =  
+⟨102⟩ = , which premiered at 
+⟨103⟩ = .
+⟨279⟩ =  is 
+⟨280⟩ = 
+⟨281⟩ =  
+⟨282⟩ =  about 
+⟨283⟩ = 
+⟨284⟩ =  of 
+⟨285⟩ = 
+⟨286⟩ =  interviewed during 
+⟨287⟩ = 
+⟨288⟩ =  as 
+⟨289⟩ = 
+⟨290⟩ =  of 
+⟨291⟩ = 
+⟨292⟩ =  and preserved in 
+⟨293⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which documentary was made first, The Shame of a City or Unchained Memories?

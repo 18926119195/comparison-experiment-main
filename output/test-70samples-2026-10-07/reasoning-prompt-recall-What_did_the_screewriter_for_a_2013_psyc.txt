@@ -1,0 +1,88 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Javier Gullón] ⟨1⟩⟦19⟧⟦114⟧⟨2⟩⟨3⟩
+[Javier Gullón] ⟨4⟩⟦13⟧⟨5⟩⟨6⟩⟨7⟩⟨8⟩⟦128⟧⟨9⟩⟨10⟩⟦14⟧⟨11⟩⟨12⟩⟨13⟩⟨14⟩⟦125⟧⟨15⟩⟦70⟧⟨16⟩⟦71⟧⟨17⟩
+[Goya Award for Best Adapted Screenplay] ⟦29⟧⟦29⟧⟦113⟧⟦113⟧
+[Enemy (2013 film)] ⟦56⟧⟨100⟩⟦10⟧⟦146⟧⟨102⟩⟨101⟩⟨103⟩⟦49⟧⟨104⟩⟦85⟧⟨105⟩⟦96⟧⟨106⟩⟦74⟧⟨107⟩⟦79⟧⟦99⟧⟨108⟩⟨109⟩ | ⟦74⟧ | ⟦56⟧⟦74⟧
+[Chico and Rita] ⟦97⟧⟦97⟧
+[Goya Award for Best European Film] ⟦62⟧
+
+符号表：
+⟦10⟧ = a 2013 psychological thriller film
+⟦13⟧ = a Canadian Screen Award nomination
+⟦14⟧ = a Goya Award nomination
+⟦19⟧ = a Spanish screenwriter
+⟦29⟧ = Best Adapted Screenplay
+⟦49⟧ = Denis Villeneuve
+⟦56⟧ = Enemy
+⟦62⟧ = film
+⟦70⟧ = Invader
+⟦71⟧ = Invasor
+⟦74⟧ = Javier Gullón
+⟦79⟧ = José Saramago's 2002 novel
+⟦85⟧ = M.S. Faura
+⟦96⟧ = Niv Fichman
+⟦97⟧ = nomination
+⟦99⟧ = novel
+⟦113⟧ = Screenplay
+⟦114⟧ = screenwriter
+⟦125⟧ = the 27th Goya Awards
+⟦128⟧ = the 2nd Canadian Screen Awards
+⟦146⟧ = thriller
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ = .
+⟨4⟩ =  He garnered 
+⟨5⟩ = 
+⟨6⟩ =  for 
+⟨7⟩ = 
+⟨8⟩ =  at 
+⟨9⟩ =  for "
+⟨10⟩ = ", and 
+⟨11⟩ = 
+⟨12⟩ =  for 
+⟨13⟩ = 
+⟨14⟩ =  at 
+⟨15⟩ =  for "
+⟨16⟩ =  (
+⟨17⟩ = )".
+⟨100⟩ =  is 
+⟨101⟩ = 
+⟨102⟩ =  
+⟨103⟩ =  directed by 
+⟨104⟩ = , produced by 
+⟨105⟩ =  and 
+⟨106⟩ =  and written by 
+⟨107⟩ = , loosely adapted from 
+⟨108⟩ = 
+⟨109⟩ =  "The Double".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What did the screewriter for a 2013 psychological thriller film directed by Denis Villeneuve get a Goya Award nomination for Best Adapted Screenplay at the 27th Goya Awards for? 

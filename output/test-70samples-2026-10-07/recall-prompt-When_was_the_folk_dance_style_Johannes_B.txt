@@ -1,0 +1,397 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Des Knaben Wunderhorn
+⟦2⟧ = "Neue Liebeslieder
+⟦3⟧ = "Polydora
+⟦4⟧ = "Zum Schluß
+⟦5⟧ = ("Liebeslieder-Walzer
+⟦6⟧ = (piano
+⟦7⟧ = (singer
+⟦8⟧ = 16 short waltzes
+⟦9⟧ = 22 December
+⟦10⟧ = a collection
+⟦11⟧ = a conductor
+⟦12⟧ = a cover image
+⟦13⟧ = a famous image
+⟦14⟧ = a folk dance
+⟦15⟧ = a frequently performed transcription
+⟦16⟧ = a further testament
+⟦17⟧ = a hidden counter
+⟦18⟧ = a masterful combination
+⟦19⟧ = a music award
+⟦20⟧ = a number
+⟦21⟧ = a pair
+⟦22⟧ = a performance
+⟦23⟧ = a period
+⟦24⟧ = a set
+⟦25⟧ = a song
+⟦26⟧ = Abend
+⟦27⟧ = affinity
+⟦28⟧ = album
+⟦29⟧ = alterations
+⟦30⟧ = architecture
+⟦31⟧ = areas
+⟦32⟧ = artistic director
+⟦33⟧ = Austria
+⟦34⟧ = award
+⟦35⟧ = babies
+⟦36⟧ = baritone
+⟦37⟧ = beauty
+⟦38⟧ = Beethoven
+⟦39⟧ = Beethoven's Symphony No
+⟦40⟧ = birth
+⟦41⟧ = Brahms
+⟦42⟧ = Brahms' affinity
+⟦43⟧ = Brahms' friend
+⟦44⟧ = Brahms' Lullaby
+⟦45⟧ = Brahms' motivation
+⟦46⟧ = Brahms’s life
+⟦47⟧ = Bruce Tammen
+⟦48⟧ = century
+⟦49⟧ = chamber
+⟦50⟧ = Chicago
+⟦51⟧ = children
+⟦52⟧ = children's lullabies
+⟦53⟧ = choirs
+⟦54⟧ = Clara Schumann
+⟦55⟧ = clarinet
+⟦56⟧ = clarinetist
+⟦57⟧ = collection
+⟦58⟧ = colour
+⟦59⟧ = combination
+⟦60⟧ = commentary
+⟦61⟧ = completion
+⟦62⟧ = composer
+⟦63⟧ = composer Robert Schumann's wife
+⟦64⟧ = composers
+⟦65⟧ = composers’ new works
+⟦66⟧ = composition
+⟦67⟧ = Conclusion
+⟦68⟧ = conductor
+⟦69⟧ = counter
+⟦70⟧ = Countess Ida von Hohenthal
+⟦71⟧ = countless parents
+⟦72⟧ = cover
+⟦73⟧ = Cradle Song
+⟦74⟧ = critic
+⟦75⟧ = cycle
+⟦76⟧ = Dalton Baldwin
+⟦77⟧ = dance
+⟦78⟧ = daughter
+⟦79⟧ = death
+⟦80⟧ = degrees
+⟦81⟧ = director
+⟦82⟧ = discs
+⟦83⟧ = Düsseldorf
+⟦84⟧ = end
+⟦85⟧ = Esther Menn
+⟦86⟧ = Europe
+⟦87⟧ = even known poets
+⟦88⟧ = evening
+⟦89⟧ = F minor
+⟦90⟧ = five movements
+⟦91⟧ = folk
+⟦92⟧ = folk songs
+⟦93⟧ = form
+⟦94⟧ = four hands
+⟦95⟧ = four solo voices
+⟦96⟧ = France
+⟦97⟧ = free Romantic spirit
+⟦98⟧ = friend
+⟦99⟧ = genre
+⟦100⟧ = Georg Friedrich Daumer
+⟦101⟧ = Georg Friedrich Daumer's "Polydora
+⟦102⟧ = Gerard Souzay
+⟦103⟧ = German folk poems
+⟦104⟧ = German Switzerland
+⟦105⟧ = Good evening
+⟦106⟧ = good night
+⟦107⟧ = gute
+⟦108⟧ = gute Nacht
+⟦109⟧ = Hamburg
+⟦110⟧ = hands
+⟦111⟧ = Helmuth Rilling
+⟦112⟧ = her second son
+⟦113⟧ = her youth
+⟦114⟧ = heyday
+⟦115⟧ = his comic pseudonym
+⟦116⟧ = his cycle
+⟦117⟧ = his death
+⟦118⟧ = his frustrated love
+⟦119⟧ = his music
+⟦120⟧ = his poem series
+⟦121⟧ = image
+⟦122⟧ = inspiration
+⟦123⟧ = Inspire
+⟦124⟧ = instrument
+⟦125⟧ = its composition
+⟦126⟧ = its heyday
+⟦127⟧ = Johann Wolfgang von Goethe
+⟦128⟧ = Johannes
+⟦129⟧ = Johannes Brahms
+⟦130⟧ = Johannes Brahms' "Wiegenlied: Guten Abend
+⟦131⟧ = Johannes Brahms' Liebeslieder Waltzes
+⟦132⟧ = Kaia Tammen
+⟦133⟧ = Ländler style
+⟦134⟧ = Latvia
+⟦135⟧ = Leipzig
+⟦136⟧ = Liebeslieder Polkas
+⟦137⟧ = Liebeslieder Waltzes
+⟦138⟧ = life
+⟦139⟧ = Louise Dustmann
+⟦140⟧ = love
+⟦141⟧ = love poems
+⟦142⟧ = love songs
+⟦143⟧ = lullabies
+⟦144⟧ = lullaby
+⟦145⟧ = Luther College
+⟦146⟧ = lyrics
+⟦147⟧ = masterpieces
+⟦148⟧ = matter
+⟦149⟧ = Max van Egmond
+⟦150⟧ = Medaille
+⟦151⟧ = melody
+⟦152⟧ = motivation
+⟦153⟧ = motive
+⟦154⟧ = movements
+⟦155⟧ = music
+⟦156⟧ = name
+⟦157⟧ = Neue Liebeslieder
+⟦158⟧ = Neue Liebesliederwalzer
+⟦159⟧ = New love songs
+⟦160⟧ = night
+⟦161⟧ = No
+⟦162⟧ = no concrete record
+⟦163⟧ = Northwestern University
+⟦164⟧ = November
+⟦165⟧ = number
+⟦166⟧ = numbers
+⟦167⟧ = Oberlin's Baroque Performance Institute
+⟦168⟧ = occasion
+⟦169⟧ = Op
+⟦170⟧ = opus
+⟦171⟧ = original
+⟦172⟧ = P. D. Q. Bach
+⟦173⟧ = P.D.Q. Bach
+⟦174⟧ = pair
+⟦175⟧ = parents
+⟦176⟧ = performance
+⟦177⟧ = period
+⟦178⟧ = Peter Schickele
+⟦179⟧ = pianist Clara Schumann
+⟦180⟧ = piano
+⟦181⟧ = Piano Sonata No
+⟦182⟧ = piece
+⟦183⟧ = pieces
+⟦184⟧ = poems
+⟦185⟧ = poets
+⟦186⟧ = Poland
+⟦187⟧ = pseudonym
+⟦188⟧ = public
+⟦189⟧ = record
+⟦190⟧ = repertoire
+⟦191⟧ = Robert Schumann
+⟦192⟧ = Rodion Shchedrin's "The Sealed Angel
+⟦193⟧ = Romantic pieces
+⟦194⟧ = Schickele
+⟦195⟧ = Schumann
+⟦196⟧ = seasons
+⟦197⟧ = series
+⟦198⟧ = set
+⟦199⟧ = several seasons
+⟦200⟧ = several years
+⟦201⟧ = Sicily
+⟦202⟧ = similar lyrics
+⟦203⟧ = singer
+⟦204⟧ = Sixteen Waltzes
+⟦205⟧ = Slovenia
+⟦206⟧ = solo
+⟦207⟧ = soloist
+⟦208⟧ = son
+⟦209⟧ = sonata
+⟦210⟧ = sonatas
+⟦211⟧ = song
+⟦212⟧ = songs
+⟦213⟧ = sons
+⟦214⟧ = Souillac
+⟦215⟧ = sound
+⟦216⟧ = south Germany
+⟦217⟧ = speculation
+⟦218⟧ = spirit
+⟦219⟧ = stanza
+⟦220⟧ = strict classical architecture
+⟦221⟧ = style
+⟦222⟧ = Tammen
+⟦223⟧ = testament
+⟦224⟧ = text
+⟦225⟧ = that matter
+⟦226⟧ = that year
+⟦227⟧ = the "Liebeslieder
+⟦228⟧ = the "Twelve Quite Heavenly Songs
+⟦229⟧ = the "Wiegenlied
+⟦230⟧ = the 18th century
+⟦231⟧ = The album
+⟦232⟧ = the ambitious zodiac song cycle
+⟦233⟧ = the beauty
+⟦234⟧ = the birth
+⟦235⟧ = The Chicago Chorale
+⟦236⟧ = the Chicago Classical Review
+⟦237⟧ = the clarinet
+⟦238⟧ = the clarinet repertoire
+⟦239⟧ = the clarinet sonata
+⟦240⟧ = The Clarinet Sonatas
+⟦241⟧ = the clarinetist Richard Mühlfeld
+⟦242⟧ = the classical style
+⟦243⟧ = the combination
+⟦244⟧ = the common name
+⟦245⟧ = the completion
+⟦246⟧ = the composer Johannes Brahms
+⟦247⟧ = the end
+⟦248⟧ = the exact inspiration
+⟦249⟧ = the fifteenth and final song
+⟦250⟧ = the first opus
+⟦251⟧ = the first verse
+⟦252⟧ = the first, third, and fourth movements
+⟦253⟧ = The form
+⟦254⟧ = the genre
+⟦255⟧ = the great masterpieces
+⟦256⟧ = the instantly recognizable motive
+⟦257⟧ = the instrument
+⟦258⟧ = The Johannes Brahms Medal
+⟦259⟧ = The Ländler
+⟦260⟧ = the last chamber pieces
+⟦261⟧ = the last work
+⟦262⟧ = The Lullaby
+⟦263⟧ = The lullaby's melody
+⟦264⟧ = The lyrics
+⟦265⟧ = the melody
+⟦266⟧ = the music
+⟦267⟧ = the music critic Eduard Hanslick
+⟦268⟧ = the occasion
+⟦269⟧ = the Oregon Bach Festival
+⟦270⟧ = the original
+⟦271⟧ = the piano
+⟦272⟧ = the Piano Sonata
+⟦273⟧ = The Piano Sonata No
+⟦274⟧ = The piece
+⟦275⟧ = the Robert Shaw Choral Institute
+⟦276⟧ = the Romantic composer Johannes Brahms
+⟦277⟧ = the Romantic period
+⟦278⟧ = the second stanza
+⟦279⟧ = The sonata
+⟦280⟧ = The sonatas
+⟦281⟧ = the songs
+⟦282⟧ = the sound
+⟦283⟧ = the Telarc/Shaw compact discs
+⟦284⟧ = The text
+⟦285⟧ = the top performance
+⟦286⟧ = the University
+⟦287⟧ = The waltzes
+⟦288⟧ = the work
+⟦289⟧ = the world
+⟦290⟧ = the year
+⟦291⟧ = their babies
+⟦292⟧ = these sonatas
+⟦293⟧ = these works
+⟦294⟧ = this piano sonata
+⟦295⟧ = three sonatas
+⟦296⟧ = three sons
+⟦297⟧ = time
+⟦298⟧ = tonal colour
+⟦299⟧ = transcription
+⟦300⟧ = Turkey
+⟦301⟧ = two opus numbers
+⟦302⟧ = Vanguard Records
+⟦303⟧ = various areas
+⟦304⟧ = verse
+⟦305⟧ = Vienna
+⟦306⟧ = viola
+⟦307⟧ = Virginia
+⟦308⟧ = voice
+⟦309⟧ = voice and directed choirs
+⟦310⟧ = voices
+⟦311⟧ = waltzes
+⟦312⟧ = well-known poets
+⟦313⟧ = wife
+⟦314⟧ = work
+⟦315⟧ = works
+⟦316⟧ = world
+⟦317⟧ = year
+⟦318⟧ = years
+⟦319⟧ = youth
+⟦320⟧ = zodiac
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Liebeslieder Polkas] ⟦136⟧⟨1⟩⟦266⟧⟨2⟩⟦155⟧⟨3⟩⟦178⟧⟨4⟩⟦115⟧⟨5⟩⟦187⟧⟨6⟩⟦172⟧⟨7⟩
+[Liebeslieder Polkas] ⟨8⟩⟦250⟧⟨9⟩⟦170⟧⟨10⟩⟦173⟧⟨11⟩⟦119⟧⟨12⟩⟦155⟧⟨13⟩⟦288⟧⟨14⟩⟦314⟧⟨15⟩⟦312⟧⟨16⟩⟦185⟧⟨17⟩⟦87⟧⟨18⟩⟦185⟧⟨19⟩⟦225⟧⟨20⟩⟦148⟧⟨21⟩⟦232⟧⟨22⟩⟦320⟧⟨23⟩⟦211⟧⟨24⟩⟦75⟧⟨25⟩⟦228⟧⟨26⟩
+[Liebeslieder Polkas] ⟦231⟧⟨27⟩⟦28⟧⟨28⟩⟦302⟧⟨29⟩⟦12⟧⟨30⟩⟦72⟧⟨31⟩⟦121⟧⟨32⟩⟦194⟧⟨33⟩⟦13⟧⟨34⟩⟦121⟧⟨35⟩⟦129⟧⟨36⟩⟦271⟧⟨37⟩⟦180⟧⟨38⟩
+[Brahms' Lullaby] ⟦73⟧⟨39⟩⟦244⟧⟨40⟩⟦156⟧⟨41⟩⟦20⟧⟨42⟩⟦165⟧⟨43⟩⟦51⟧⟨44⟩⟦52⟧⟨45⟩⟦143⟧⟨46⟩⟦202⟧⟨47⟩⟦146⟧⟨48⟩⟦270⟧⟨49⟩⟦171⟧⟨50⟩⟦130⟧⟨51⟩⟦26⟧⟨52⟩⟦107⟧⟨53⟩⟦108⟧⟨54⟩⟦105⟧⟨55⟩⟦88⟧⟨56⟩⟦106⟧⟨57⟩⟦160⟧⟨58⟩⟦169⟧⟨59⟩
+[Brahms' Lullaby] ⟨60⟩⟦161⟧⟨61⟩⟦161⟧⟨62⟩⟦44⟧⟨63⟩
+[Brahms' Lullaby] ⟦264⟧⟨64⟩⟦146⟧⟨65⟩⟦251⟧⟨66⟩⟦304⟧⟨67⟩⟦10⟧⟨68⟩⟦57⟧⟨69⟩⟦103⟧⟨70⟩⟦91⟧⟨71⟩⟦184⟧⟨72⟩⟦1⟧⟨73⟩⟦278⟧⟨74⟩⟦219⟧⟨75⟩
+[Brahms' Lullaby] ⟦263⟧⟨76⟩⟦144⟧⟨77⟩⟦151⟧⟨78⟩⟦289⟧⟨79⟩⟦316⟧⟨80⟩⟦71⟧⟨81⟩⟦175⟧⟨82⟩⟦291⟧⟨83⟩⟦35⟧⟨84⟩
+[Brahms' Lullaby] ⟦262⟧⟨85⟩⟦43⟧⟨86⟩⟦98⟧⟨87⟩⟦268⟧⟨88⟩⟦168⟧⟨89⟩⟦234⟧⟨90⟩⟦40⟧⟨91⟩⟦112⟧⟨92⟩⟦208⟧⟨93⟩
+[Brahms' Lullaby] ⟦41⟧⟨94⟩⟦140⟧⟨95⟩⟦140⟧⟨96⟩⟦113⟧⟨97⟩⟦319⟧⟨98⟩⟦265⟧⟨99⟩⟦151⟧⟨100⟩⟦229⟧⟨101⟩⟦17⟧⟨102⟩⟦69⟧⟨103⟩⟦151⟧⟨104⟩⟦25⟧⟨105⟩⟦211⟧⟨106⟩
+[Brahms' Lullaby] ⟦262⟧⟨107⟩⟦144⟧⟨108⟩⟦188⟧⟨109⟩⟦188⟧⟨110⟩⟦9⟧⟨111⟩⟦305⟧⟨112⟩⟦139⟧⟨113⟩⟦7⟧⟨114⟩⟦203⟧⟨115⟩⟦54⟧⟨116⟩⟦6⟧⟨117⟩⟦180⟧⟨118⟩
+[Sixteen Waltzes, Op. 39 (Brahms)] ⟦204⟧⟨119⟩⟦169⟧⟨120⟩
+[Sixteen Waltzes, Op. 39 (Brahms)] ⟨121⟩⟦24⟧⟨122⟩⟦198⟧⟨123⟩⟦8⟧⟨124⟩⟦311⟧⟨125⟩⟦180⟧⟨126⟩⟦180⟧⟨127⟩⟦129⟧⟨128⟩
+[Sixteen Waltzes, Op. 39 (Brahms)] ⟨129⟩⟦318⟧⟨130⟩⟦267⟧⟨131⟩⟦155⟧⟨132⟩⟦74⟧⟨133⟩
+[Piano Sonata No. 3 (Brahms)] ⟦273⟧⟨134⟩⟦161⟧⟨135⟩⟦89⟧⟨136⟩⟦169⟧⟨137⟩⟦129⟧⟨138⟩⟦317⟧⟨139⟩
+[Piano Sonata No. 3 (Brahms)] ⟦279⟧⟨140⟩⟦209⟧⟨141⟩⟦90⟧⟨142⟩⟦154⟧⟨143⟩
+[Piano Sonata No. 3 (Brahms)] ⟨144⟩⟦294⟧⟨145⟩⟦180⟧⟨146⟩⟦209⟧⟨147⟩⟦254⟧⟨148⟩⟦99⟧⟨149⟩⟦126⟧⟨150⟩⟦114⟧⟨151⟩
+[Piano Sonata No. 3 (Brahms)] ⟦41⟧⟨152⟩⟦38⟧⟨153⟩⟦242⟧⟨154⟩⟦221⟧⟨155⟩⟦181⟧⟨156⟩⟦161⟧⟨157⟩⟦18⟧⟨158⟩⟦59⟧⟨159⟩⟦97⟧⟨160⟩⟦218⟧⟨161⟩⟦220⟧⟨162⟩⟦30⟧⟨163⟩
+[Piano Sonata No. 3 (Brahms)] ⟨164⟩⟦16⟧⟨165⟩⟦223⟧⟨166⟩⟦42⟧⟨167⟩⟦27⟧⟨168⟩⟦38⟧⟨169⟩⟦272⟧⟨170⟩⟦256⟧⟨171⟩⟦153⟧⟨172⟩⟦39⟧⟨173⟩⟦161⟧⟨174⟩⟦252⟧⟨175⟩⟦154⟧⟨176⟩
+[Piano Sonata No. 3 (Brahms)] ⟨177⟩⟦83⟧⟨178⟩⟦247⟧⟨179⟩⟦84⟧⟨180⟩⟦116⟧⟨181⟩⟦75⟧⟨182⟩⟦295⟧⟨183⟩⟦210⟧⟨184⟩⟦191⟧⟨185⟩⟦164⟧⟨186⟩⟦226⟧⟨187⟩⟦317⟧⟨188⟩⟦261⟧⟨189⟩⟦314⟧⟨190⟩⟦41⟧⟨191⟩⟦195⟧⟨192⟩⟦60⟧⟨193⟩⟦60⟧⟨194⟩
+[Piano Sonata No. 3 (Brahms)] ⟦41⟧⟨195⟩⟦318⟧⟨196⟩⟦125⟧⟨197⟩⟦66⟧⟨198⟩
+[Piano Sonata No. 3 (Brahms)] ⟦274⟧⟨199⟩⟦182⟧⟨200⟩⟦70⟧⟨201⟩⟦135⟧⟨202⟩
+[Bruce Tammen] ⟦47⟧⟨203⟩⟦11⟧⟨204⟩⟦68⟧⟨205⟩⟦32⟧⟨206⟩⟦81⟧⟨207⟩
+[Bruce Tammen] ⟦222⟧⟨208⟩⟦80⟧⟨209⟩⟦80⟧⟨210⟩⟦145⟧⟨211⟩⟦163⟧⟨212⟩⟦286⟧⟨213⟩⟦50⟧⟨214⟩⟦308⟧⟨215⟩⟦309⟧⟨216⟩⟦53⟧⟨217⟩⟦145⟧⟨218⟩⟦286⟧⟨219⟩⟦50⟧⟨220⟩⟦286⟧⟨221⟩⟦307⟧⟨222⟩
+[Bruce Tammen] ⟦222⟧⟨223⟩⟦96⟧⟨224⟩⟦76⟧⟨225⟩⟦102⟧⟨226⟩⟦200⟧⟨227⟩⟦318⟧⟨228⟩⟦149⟧⟨229⟩⟦167⟧⟨230⟩
+[Bruce Tammen] ⟨231⟩⟦199⟧⟨232⟩⟦196⟧⟨233⟩⟦111⟧⟨234⟩⟦269⟧⟨235⟩⟦275⟧⟨236⟩⟦214⟧⟨237⟩⟦96⟧⟨238⟩
+[Bruce Tammen] ⟦222⟧⟨239⟩⟦36⟧⟨240⟩⟦36⟧⟨241⟩⟦207⟧⟨242⟩⟦283⟧⟨243⟩⟦82⟧⟨244⟩⟦123⟧⟨245⟩⟦137⟧⟨246⟩
+[Bruce Tammen] ⟦235⟧⟨247⟩⟦222⟧⟨248⟩⟦285⟧⟨249⟩⟦176⟧⟨250⟩⟦290⟧⟨251⟩⟦317⟧⟨252⟩⟦236⟧⟨253⟩⟦22⟧⟨254⟩⟦176⟧⟨255⟩⟦192⟧⟨256⟩
+[Bruce Tammen] ⟦47⟧⟨257⟩⟦85⟧⟨258⟩
+[Bruce Tammen] ⟨259⟩⟦296⟧⟨260⟩⟦213⟧⟨261⟩⟦78⟧⟨262⟩⟦132⟧⟨263⟩
+[Neue Liebeslieder] ⟦157⟧⟨264⟩⟦159⟧⟨265⟩⟦140⟧⟨266⟩⟦212⟧⟨267⟩
+[Neue Liebeslieder] ⟨268⟩⟦129⟧⟨269⟩⟦10⟧⟨270⟩⟦57⟧⟨271⟩⟦193⟧⟨272⟩⟦183⟧⟨273⟩⟦95⟧⟨274⟩⟦206⟧⟨275⟩⟦310⟧⟨276⟩⟦94⟧⟨277⟩⟦110⟧⟨278⟩⟦271⟧⟨279⟩⟦180⟧⟨280⟩
+[Neue Liebeslieder] ⟨281⟩⟦158⟧⟨282⟩
+[Neue Liebeslieder] ⟦2⟧⟨283⟩⟦277⟧⟨284⟩⟦177⟧⟨285⟩
+[Neue Liebeslieder] ⟦284⟧⟨286⟩⟦224⟧⟨287⟩⟦281⟧⟨288⟩⟦212⟧⟨289⟩⟦91⟧⟨290⟩⟦92⟧⟨291⟩⟦212⟧⟨292⟩⟦303⟧⟨293⟩⟦31⟧⟨294⟩⟦86⟧⟨295⟩⟦300⟧⟨296⟩⟦186⟧⟨297⟩⟦134⟧⟨298⟩⟦201⟧⟨299⟩
+[Neue Liebeslieder] ⟦284⟧⟨300⟩⟦224⟧⟨301⟩⟦212⟧⟨302⟩⟦212⟧⟨303⟩⟦100⟧⟨304⟩⟦120⟧⟨305⟩⟦197⟧⟨306⟩⟦3⟧⟨307⟩⟦284⟧⟨308⟩⟦224⟧⟨309⟩⟦249⟧⟨310⟩⟦211⟧⟨311⟩⟦4⟧⟨312⟩⟦67⟧⟨313⟩⟦127⟧⟨314⟩
+[Ländler] ⟦259⟧⟨315⟩⟦14⟧⟨316⟩⟦91⟧⟨317⟩⟦77⟧⟨318⟩⟦297⟧⟨319⟩⟦297⟧⟨320⟩⟦33⟧⟨321⟩⟦216⟧⟨322⟩⟦104⟧⟨323⟩⟦205⟧⟨324⟩⟦247⟧⟨325⟩⟦84⟧⟨326⟩⟦230⟧⟨327⟩⟦48⟧⟨328⟩
+[Liebeslieder Walzer, Op. 52 (Brahms)] ⟦131⟧⟨329⟩⟦5⟧⟨330⟩⟦301⟧⟨331⟩⟦170⟧⟨332⟩⟦166⟧⟨333⟩⟦169⟧⟨334⟩
+[Liebeslieder Walzer, Op. 52 (Brahms)] ⟦287⟧⟨335⟩⟦311⟧⟨336⟩⟦10⟧⟨337⟩⟦57⟧⟨338⟩⟦140⟧⟨339⟩⟦142⟧⟨340⟩⟦212⟧⟨341⟩⟦133⟧⟨342⟩⟦221⟧⟨343⟩⟦310⟧⟨344⟩⟦310⟧⟨345⟩⟦94⟧⟨346⟩⟦110⟧⟨347⟩
+[Liebeslieder Walzer, Op. 52 (Brahms)] ⟦264⟧⟨348⟩⟦146⟧⟨349⟩⟦227⟧⟨350⟩⟦101⟧⟨351⟩⟦10⟧⟨352⟩⟦57⟧⟨353⟩⟦91⟧⟨354⟩⟦92⟧⟨355⟩⟦212⟧⟨356⟩⟦140⟧⟨357⟩⟦141⟧⟨358⟩⟦184⟧⟨359⟩
+[Liebeslieder Walzer, Op. 52 (Brahms)] ⟨360⟩⟦162⟧⟨361⟩⟦189⟧⟨362⟩⟦248⟧⟨363⟩⟦122⟧⟨364⟩⟦287⟧⟨365⟩⟦217⟧⟨366⟩⟦217⟧⟨367⟩⟦45⟧⟨368⟩⟦152⟧⟨369⟩⟦281⟧⟨370⟩⟦212⟧⟨371⟩⟦118⟧⟨372⟩⟦140⟧⟨373⟩⟦179⟧⟨374⟩⟦62⟧⟨375⟩⟦63⟧⟨376⟩⟦313⟧⟨377⟩
+[Clarinet Sonatas (Brahms)] ⟦240⟧⟨378⟩⟦169⟧⟨379⟩⟦21⟧⟨380⟩⟦174⟧⟨381⟩⟦315⟧⟨382⟩⟦315⟧⟨383⟩⟦55⟧⟨384⟩⟦55⟧⟨385⟩⟦180⟧⟨386⟩⟦180⟧⟨387⟩⟦276⟧⟨388⟩⟦62⟧⟨389⟩
+[Clarinet Sonatas (Brahms)] ⟨390⟩⟦241⟧⟨391⟩⟦56⟧⟨392⟩
+[Clarinet Sonatas (Brahms)] ⟦280⟧⟨393⟩⟦210⟧⟨394⟩⟦23⟧⟨395⟩⟦177⟧⟨396⟩⟦46⟧⟨397⟩⟦138⟧⟨398⟩⟦233⟧⟨399⟩⟦37⟧⟨400⟩⟦282⟧⟨401⟩⟦215⟧⟨402⟩⟦298⟧⟨403⟩⟦58⟧⟨404⟩⟦237⟧⟨405⟩⟦55⟧⟨406⟩
+[Clarinet Sonatas (Brahms)] ⟦253⟧⟨407⟩⟦93⟧⟨408⟩⟦239⟧⟨409⟩⟦55⟧⟨410⟩⟦209⟧⟨411⟩⟦245⟧⟨412⟩⟦61⟧⟨413⟩⟦292⟧⟨414⟩⟦210⟧⟨415⟩⟦243⟧⟨416⟩⟦59⟧⟨417⟩⟦55⟧⟨418⟩⟦55⟧⟨419⟩⟦180⟧⟨420⟩⟦180⟧⟨421⟩⟦64⟧⟨422⟩⟦65⟧⟨423⟩⟦315⟧⟨424⟩
+[Clarinet Sonatas (Brahms)] ⟨425⟩⟦260⟧⟨426⟩⟦49⟧⟨427⟩⟦183⟧⟨428⟩⟦41⟧⟨429⟩⟦117⟧⟨430⟩⟦79⟧⟨431⟩⟦255⟧⟨432⟩⟦147⟧⟨433⟩⟦238⟧⟨434⟩⟦55⟧⟨435⟩⟦190⟧⟨436⟩
+[Clarinet Sonatas (Brahms)] ⟦41⟧⟨437⟩⟦15⟧⟨438⟩⟦299⟧⟨439⟩⟦293⟧⟨440⟩⟦315⟧⟨441⟩⟦306⟧⟨442⟩⟦306⟧⟨443⟩⟦29⟧⟨444⟩⟦29⟧⟨445⟩⟦257⟧⟨446⟩⟦124⟧⟨447⟩
+[Johannes Brahms Medal] ⟦258⟧⟨448⟩⟦128⟧⟨449⟩⟦128⟧⟨450⟩⟦41⟧⟨451⟩⟦150⟧⟨452⟩⟦109⟧⟨453⟩⟦19⟧⟨454⟩⟦155⟧⟨455⟩⟦34⟧⟨456⟩⟦246⟧⟨457⟩⟦62⟧⟨458⟩⟦109⟧⟨459⟩
+
+[user]
+
+问题：
+When was the folk dance style Johannes Brahms' Liebeslieder Waltzes were written for most popular?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

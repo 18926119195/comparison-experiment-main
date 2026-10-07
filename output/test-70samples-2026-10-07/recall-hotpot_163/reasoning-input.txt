@@ -1,0 +1,102 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[2014 Young Hollywood Awards] ⟦197⟧⟨54⟩⟦131⟧⟨55⟩⟦112⟧⟨56⟩⟨57⟩⟨58⟩⟦214⟧⟦67⟧⟨59⟩⟨60⟩
+[2014 Young Hollywood Awards] ⟦115⟧⟨61⟩⟦232⟧⟨62⟩⟨63⟩⟨64⟩⟦94⟧⟦54⟧⟨66⟩⟦260⟧⟨65⟩⟨67⟩⟦59⟧⟦59⟧⟨68⟩⟨69⟩⟦226⟧⟨70⟩⟦254⟧⟨71⟩⟦235⟧⟨72⟩
+[2003 Kids' Choice Awards] ⟦179⟧
+[Kelly Osbourne] ⟦114⟧⟨159⟩⟦9⟧⟦180⟧⟨161⟩⟦181⟧⟨160⟩⟨162⟩⟦18⟧⟦18⟧⟨163⟩⟨164⟩⟦189⟧⟨165⟩⟨166⟩⟨167⟩⟨168⟩⟨169⟩⟦70⟧⟦70⟧⟨170⟩⟨171⟩
+[Kelly Osbourne] ⟦163⟧
+[Penske Media Corporation] ⟦121⟧⟦49⟧
+[Young Hollywood Awards] ⟦188⟧⟦76⟧⟦76⟧
+[Young Hollywood Awards] ⟦113⟧
+
+符号表：
+⟦9⟧ = a British singer-songwriter
+⟦18⟧ = actress
+⟦49⟧ = California
+⟦54⟧ = charity
+⟦59⟧ = contributions
+⟦67⟧ = day
+⟦70⟧ = designer
+⟦76⟧ = fashion
+⟦94⟧ = his charity work
+⟦112⟧ = July
+⟦113⟧ = Justin Bieber
+⟦114⟧ = Kelly Lee Osbourne
+⟦115⟧ = Kelly Osbourne
+⟦121⟧ = Los Angeles
+⟦131⟧ = Monday
+⟦163⟧ = presenter
+⟦179⟧ = show
+⟦180⟧ = singer
+⟦181⟧ = songwriter
+⟦188⟧ = television
+⟦189⟧ = television presenter
+⟦197⟧ = The 16th Annual Young Hollywood Awards
+⟦214⟧ = the day
+⟦226⟧ = the Make-A-Wish Foundation
+⟦232⟧ = the show
+⟦235⟧ = the Trendsetter Award
+⟦254⟧ = Vanessa Hudgens
+⟦260⟧ = work
+
+占位符映射：
+⟨54⟩ =  were held on 
+⟨55⟩ = , 
+⟨56⟩ =  28, 2014 in 
+⟨57⟩ = , 
+⟨58⟩ = , previously recorded 
+⟨59⟩ = 
+⟨60⟩ =  before.
+⟨61⟩ =  hosted 
+⟨62⟩ = 
+⟨63⟩ = , with 
+⟨64⟩ =  being honored for 
+⟨65⟩ = 
+⟨66⟩ =  
+⟨67⟩ =  and 
+⟨68⟩ = 
+⟨69⟩ =  to 
+⟨70⟩ = , and 
+⟨71⟩ =  was honored with 
+⟨72⟩ = .
+⟨159⟩ =  (born 27 October 1984) is 
+⟨160⟩ = 
+⟨161⟩ = -
+⟨162⟩ = , 
+⟨163⟩ = 
+⟨164⟩ = , 
+⟨165⟩ = 
+⟨166⟩ = 
+⟨167⟩ =  and 
+⟨168⟩ = 
+⟨169⟩ =  
+⟨170⟩ = 
+⟨171⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What British singer-songwriter hosted the 16th Annual Young Hollywood Awards?

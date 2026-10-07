@@ -1,0 +1,63 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[I Love You (The Zombies song)] ⟦26⟧⟨244⟩⟨245⟩⟦317⟧⟨246⟩⟦320⟧⟦176⟧⟨247⟩⟨248⟩⟦87⟧⟨249⟩⟦205⟧⟦205⟧⟨250⟩⟨251⟩
+[I Love You (The Zombies song)] ⟨252⟩⟦240⟧⟦65⟧⟨253⟩⟨254⟩⟦109⟧⟦334⟧⟨255⟩⟨256⟩
+[I Saw the Light (Hank Williams song)] ⟦243⟧
+[Willis Alan Ramsey (album)] ⟦248⟧
+
+符号表：
+⟦26⟧ = a 1965 song
+⟦65⟧ = artists
+⟦87⟧ = Chris White
+⟦109⟧ = foreign translations
+⟦176⟧ = member
+⟦205⟧ = People
+⟦240⟧ = several other artists
+⟦243⟧ = shows
+⟦248⟧ = song
+⟦317⟧ = The Zombies
+⟦320⟧ = their member
+⟦334⟧ = translations
+
+占位符映射：
+⟨244⟩ = 
+⟨245⟩ =  by 
+⟨246⟩ = , written by 
+⟨247⟩ = 
+⟨248⟩ =  
+⟨249⟩ = , which was covered by 
+⟨250⟩ = 
+⟨251⟩ = !
+⟨252⟩ =  and The Carnabeats and by 
+⟨253⟩ = 
+⟨254⟩ = , including 
+⟨255⟩ = 
+⟨256⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who covered the song I Love You by Chris Write?

@@ -1,0 +1,166 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 2000–01
+⟦2⟧ = 4.5%
+⟦3⟧ = a beer brand name
+⟦4⟧ = a brewer
+⟦5⟧ = a combined brewery
+⟦6⟧ = a full strength beer
+⟦7⟧ = a retired English-born South African-raised cricketer
+⟦8⟧ = a separate autonomous brewery
+⟦9⟧ = a South Australian brewer
+⟦10⟧ = a South Australian lager
+⟦11⟧ = age
+⟦12⟧ = alcohol
+⟦13⟧ = amalgamation
+⟦14⟧ = an alcohol percentage
+⟦15⟧ = an antecedent
+⟦16⟧ = an Australian brewer
+⟦17⟧ = an early age
+⟦18⟧ = an English-born South African football referee
+⟦19⟧ = an English-born South African rugby union player
+⟦20⟧ = an English-born South Australian brewer
+⟦21⟧ = an international referee
+⟦22⟧ = antecedent
+⟦23⟧ = beer
+⟦24⟧ = benefactor
+⟦25⟧ = board
+⟦26⟧ = both the Emu and Swan beer brands
+⟦27⟧ = brand
+⟦28⟧ = brands
+⟦29⟧ = brewer
+⟦30⟧ = brewery
+⟦31⟧ = businessman
+⟦32⟧ = Canning Vale
+⟦33⟧ = class
+⟦34⟧ = company
+⟦35⟧ = Copper
+⟦36⟧ = Copper Coast Wines
+⟦37⟧ = councillor
+⟦38⟧ = cricket
+⟦39⟧ = cricketer
+⟦40⟧ = Daniel Frazer Bennett
+⟦41⟧ = December
+⟦42⟧ = Derbyshire
+⟦43⟧ = Dewsbury
+⟦44⟧ = directors
+⟦45⟧ = Edward Fitzgerald
+⟦46⟧ = Emu
+⟦47⟧ = End
+⟦48⟧ = England
+⟦49⟧ = first-class cricket playing
+⟦50⟧ = fly-half
+⟦51⟧ = football
+⟦52⟧ = founder
+⟦53⟧ = G. B. Bryant
+⟦54⟧ = H. W. Morphett
+⟦55⟧ = half
+⟦56⟧ = Harlequins
+⟦57⟧ = His board
+⟦58⟧ = His regular position
+⟦59⟧ = K.C.M.G.
+⟦60⟧ = lager
+⟦61⟧ = later Managing Director
+⟦62⟧ = Limited
+⟦63⟧ = Lion
+⟦64⟧ = Lion Nathan
+⟦65⟧ = LL.D.
+⟦66⟧ = manager
+⟦67⟧ = Matthew James Vandrau
+⟦68⟧ = mayor
+⟦69⟧ = name
+⟦70⟧ = percentage
+⟦71⟧ = Perth
+⟦72⟧ = player
+⟦73⟧ = playing
+⟦74⟧ = politician
+⟦75⟧ = position
+⟦76⟧ = production
+⟦77⟧ = PSL Referee
+⟦78⟧ = referee
+⟦79⟧ = region
+⟦80⟧ = rugby
+⟦81⟧ = S. J. Jacobs
+⟦82⟧ = sale
+⟦83⟧ = Sir Edwin Smith's Kent Town Brewery
+⟦84⟧ = Sir Edwin Thomas Smith
+⟦85⟧ = Sir Lancelot Stirling
+⟦86⟧ = South Africa
+⟦87⟧ = South Australia
+⟦88⟧ = stints
+⟦89⟧ = strength
+⟦90⟧ = T. A. Nation
+⟦91⟧ = Taunton
+⟦92⟧ = the amalgamation
+⟦93⟧ = the Aviva Premiership
+⟦94⟧ = the biennial Kernewek Lowender Festival
+⟦95⟧ = the brewery's sale
+⟦96⟧ = the Castlemaine Brewery
+⟦97⟧ = the company's West End Brewery
+⟦98⟧ = the Copper Coast region
+⟦99⟧ = the Emu branded beer
+⟦100⟧ = the Emu Brewery
+⟦101⟧ = the first brewer
+⟦102⟧ = the founder
+⟦103⟧ = the general manager
+⟦104⟧ = the Halifax Street brewery
+⟦105⟧ = The production
+⟦106⟧ = the Season
+⟦107⟧ = The South Australian Brewing Company
+⟦108⟧ = the Swan Brewery
+⟦109⟧ = the West End brewery
+⟦110⟧ = Timothy Gregory Swiel
+⟦111⟧ = Transvaal
+⟦112⟧ = two stints
+⟦113⟧ = union
+⟦114⟧ = W. K. Simms's West End Brewery
+⟦115⟧ = West End Draught
+⟦116⟧ = William Henry Clark
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Edward Fitzgerald (brewer)] ⟦45⟧⟨1⟩⟦16⟧⟨2⟩⟦29⟧⟨3⟩⟦52⟧⟨4⟩⟦52⟧⟨5⟩⟦96⟧⟨6⟩
+[Edwin Thomas Smith] ⟦84⟧⟨7⟩⟦41⟧⟨8⟩⟦20⟧⟨9⟩⟦29⟧⟨10⟩⟦31⟧⟨11⟩⟦31⟧⟨12⟩⟦37⟧⟨13⟩⟦68⟧⟨14⟩⟦68⟧⟨15⟩⟦74⟧⟨16⟩⟦74⟧⟨17⟩⟦24⟧⟨18⟩⟦24⟧⟨19⟩
+[Daniel Bennett (referee)] ⟦40⟧⟨20⟩⟦43⟧⟨21⟩⟦48⟧⟨22⟩⟦18⟧⟨23⟩⟦51⟧⟨24⟩⟦78⟧⟨25⟩
+[Daniel Bennett (referee)] ⟨26⟩⟦77⟧⟨27⟩⟦106⟧⟨28⟩⟦1⟧⟨29⟩⟦1⟧⟨30⟩⟦21⟧⟨31⟩⟦78⟧⟨32⟩
+[South Australian Brewing Company] ⟦107⟧⟨33⟩⟦62⟧⟨34⟩⟦92⟧⟨35⟩⟦13⟧⟨36⟩⟦83⟧⟨37⟩⟦114⟧⟨38⟩⟦47⟧⟨39⟩
+[South Australian Brewing Company] ⟦90⟧⟨40⟩⟦101⟧⟨41⟩⟦29⟧⟨42⟩⟦53⟧⟨43⟩⟦103⟧⟨44⟩⟦66⟧⟨45⟩
+[South Australian Brewing Company] ⟨46⟩⟦57⟧⟨47⟩⟦25⟧⟨48⟩⟦44⟧⟨49⟩⟦44⟧⟨50⟩⟦81⟧⟨51⟩⟦61⟧⟨52⟩⟦85⟧⟨53⟩⟦59⟧⟨54⟩⟦45⟧⟨55⟩⟦65⟧⟨56⟩⟦65⟧⟨57⟩⟦54⟧⟨58⟩
+[W. H. Clark (brewer)] ⟦116⟧⟨59⟩⟦4⟧⟨60⟩⟦29⟧⟨61⟩⟦87⟧⟨62⟩⟦102⟧⟨63⟩⟦52⟧⟨64⟩⟦104⟧⟨65⟩⟦30⟧⟨66⟩⟦15⟧⟨67⟩⟦22⟧⟨68⟩⟦109⟧⟨69⟩⟦30⟧⟨70⟩
+[Matthew Vandrau] ⟦67⟧⟨71⟩⟦7⟧⟨72⟩⟦39⟧⟨73⟩
+[Matthew Vandrau] ⟨74⟩⟦86⟧⟨75⟩⟦17⟧⟨76⟩⟦11⟧⟨77⟩⟦49⟧⟨78⟩⟦33⟧⟨79⟩⟦38⟧⟨80⟩⟦73⟧⟨81⟩⟦111⟧⟨82⟩
+[Matthew Vandrau] ⟨83⟩⟦48⟧⟨84⟩⟦42⟧⟨85⟩⟦42⟧⟨86⟩⟦112⟧⟨87⟩⟦88⟧⟨88⟩
+[Emu (beer)] ⟦46⟧⟨89⟩⟦3⟧⟨90⟩⟦23⟧⟨91⟩⟦27⟧⟨92⟩⟦69⟧⟨93⟩⟦63⟧⟨94⟩
+[Emu (beer)] ⟨95⟩⟦100⟧⟨96⟩⟦95⟧⟨97⟩⟦30⟧⟨98⟩⟦82⟧⟨99⟩⟦108⟧⟨100⟩
+[Emu (beer)] ⟦105⟧⟨101⟩⟦76⟧⟨102⟩⟦99⟧⟨103⟩⟦23⟧⟨104⟩⟦8⟧⟨105⟩⟦30⟧⟨106⟩⟦71⟧⟨107⟩⟦5⟧⟨108⟩⟦30⟧⟨109⟩⟦32⟧⟨110⟩
+[Emu (beer)] ⟨111⟩⟦64⟧⟨112⟩⟦76⟧⟨113⟩⟦76⟧⟨114⟩⟦26⟧⟨115⟩⟦23⟧⟨116⟩⟦28⟧⟨117⟩⟦97⟧⟨118⟩⟦34⟧⟨119⟩⟦47⟧⟨120⟩⟦87⟧⟨121⟩
+[West End Draught] ⟦115⟧⟨122⟩⟦47⟧⟨123⟩⟦10⟧⟨124⟩⟦60⟧⟨125⟩⟦107⟧⟨126⟩⟦64⟧⟨127⟩
+[West End Draught] ⟦115⟧⟨128⟩⟦47⟧⟨129⟩⟦6⟧⟨130⟩⟦89⟧⟨131⟩⟦23⟧⟨132⟩⟦14⟧⟨133⟩⟦12⟧⟨134⟩⟦70⟧⟨135⟩⟦2⟧⟨136⟩
+[Copper Coast Wines] ⟦35⟧⟨137⟩⟦36⟧⟨138⟩⟦9⟧⟨139⟩⟦29⟧⟨140⟩⟦23⟧⟨141⟩⟦23⟧⟨142⟩⟦94⟧⟨143⟩⟦98⟧⟨144⟩⟦79⟧⟨145⟩⟦87⟧⟨146⟩
+[Tim Swiel] ⟦110⟧⟨147⟩⟦91⟧⟨148⟩⟦19⟧⟨149⟩⟦80⟧⟨150⟩⟦113⟧⟨151⟩⟦72⟧⟨152⟩⟦56⟧⟨153⟩⟦93⟧⟨154⟩
+[Tim Swiel] ⟦58⟧⟨155⟩⟦75⟧⟨156⟩⟦50⟧⟨157⟩⟦55⟧⟨158⟩
+
+[user]
+
+问题：
+When was the English-born South Australian brewer whose brewery was amalgamated with W. K. Simms's West End Brewery. born 
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

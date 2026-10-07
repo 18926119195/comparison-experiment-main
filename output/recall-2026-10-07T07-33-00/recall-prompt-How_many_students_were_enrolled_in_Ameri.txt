@@ -1,0 +1,465 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨A⟩、⟨B⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (PBA) Tour
+⟦2⟧ = 1,840 students
+⟦3⟧ = 120 min
+⟦4⟧ = 43%
+⟦5⟧ = 61%
+⟦6⟧ = 69%
+⟦7⟧ = 87%
+⟦8⟧ = 9 member schools
+⟦9⟧ = a 2006 study
+⟦10⟧ = a bio-technology lab
+⟦11⟧ = a broadcasting studio
+⟦12⟧ = a campus style school
+⟦13⟧ = a charter school
+⟦14⟧ = a communication technology center
+⟦15⟧ = a complex
+⟦16⟧ = a computer-assisted drafting lab
+⟦17⟧ = a fully accredited high school
+⟦18⟧ = a high school
+⟦19⟧ = a member
+⟦20⟧ = a middle school
+⟦21⟧ = A new addition/renovation
+⟦22⟧ = a new class
+⟦23⟧ = a new junior high school
+⟦24⟧ = a NJROTC program
+⟦25⟧ = a part
+⟦26⟧ = a patriotic symbol
+⟦27⟧ = a postal address
+⟦28⟧ = a private school
+⟦29⟧ = a program
+⟦30⟧ = a public high school
+⟦31⟧ = a public school
+⟦32⟧ = a public secondary school
+⟦33⟧ = a senior high school serving students
+⟦34⟧ = a total
+⟦35⟧ = addition
+⟦36⟧ = additional Advanced Placement courses
+⟦37⟧ = Additions
+⟦38⟧ = address
+⟦39⟧ = Admission
+⟦40⟧ = all the core subjects
+⟦41⟧ = an all-enclosed facility
+⟦42⟧ = an all-grade school
+⟦43⟧ = an American professional bowler
+⟦44⟧ = an AP test passing rate
+⟦45⟧ = an auditorium
+⟦46⟧ = an enrollment
+⟦47⟧ = an International Baccalaureate program
+⟦48⟧ = anniversary
+⟦49⟧ = Annual Yearly Progress
+⟦50⟧ = approximately 1,600 students
+⟦51⟧ = approximately 350 students
+⟦52⟧ = art
+⟦53⟧ = arts
+⟦54⟧ = Ashland
+⟦55⟧ = Assessment
+⟦56⟧ = athletics
+⟦57⟧ = auditorium
+⟦58⟧ = average
+⟦59⟧ = Beaverdam
+⟦60⟧ = beginning
+⟦61⟧ = body
+⟦62⟧ = boundaries
+⟦63⟧ = bowler
+⟦64⟧ = broadcasting
+⟦65⟧ = building
+⟦66⟧ = buildings
+⟦67⟧ = Business
+⟦68⟧ = Business Management
+⟦69⟧ = cafeteria
+⟦70⟧ = California
+⟦71⟧ = campus
+⟦72⟧ = career
+⟦73⟧ = CEC
+⟦74⟧ = CEC classes
+⟦75⟧ = Cedar Ridge High School
+⟦76⟧ = center
+⟦77⟧ = Central Texas
+⟦78⟧ = charter
+⟦79⟧ = Chess
+⟦80⟧ = children
+⟦81⟧ = Chris Barnes
+⟦82⟧ = Christian home educated students
+⟦83⟧ = Churchill County High School
+⟦84⟧ = citizen
+⟦85⟧ = class
+⟦86⟧ = classes
+⟦87⟧ = classrooms
+⟦88⟧ = Clayton
+⟦89⟧ = Cleveland High School
+⟦90⟧ = Cleveland School
+⟦91⟧ = college
+⟦92⟧ = college preparatory
+⟦93⟧ = Colleges
+⟦94⟧ = colors
+⟦95⟧ = communication
+⟦96⟧ = community
+⟦97⟧ = complex
+⟦98⟧ = Computer
+⟦99⟧ = consolidation
+⟦100⟧ = core
+⟦101⟧ = Corinth Holders High School
+⟦102⟧ = county
+⟦103⟧ = course
+⟦104⟧ = courses
+⟦105⟧ = CvHS
+⟦106⟧ = degree
+⟦107⟧ = deliberation
+⟦108⟧ = dimensions
+⟦109⟧ = district
+⟦110⟧ = drafting
+⟦111⟧ = Drama
+⟦112⟧ = each class
+⟦113⟧ = Each teacher
+⟦114⟧ = Education
+⟦115⟧ = eight 90-min
+⟦116⟧ = electives
+⟦117⟧ = Elko High School
+⟦118⟧ = English
+⟦119⟧ = enrollment
+⟦120⟧ = enrollments
+⟦121⟧ = Even the school colors
+⟦122⟧ = facility
+⟦123⟧ = fall
+⟦124⟧ = four foreign languages
+⟦125⟧ = four high schools
+⟦126⟧ = four years
+⟦127⟧ = freshmen
+⟦128⟧ = global average
+⟦129⟧ = grade
+⟦130⟧ = grades
+⟦131⟧ = grades 9–12
+⟦132⟧ = ground
+⟦133⟧ = growth
+⟦134⟧ = gymnasium
+⟦135⟧ = half
+⟦136⟧ = Hanover County
+⟦137⟧ = Hanover County's most illustrious citizen
+⟦138⟧ = Henry Clay
+⟦139⟧ = high school athletics
+⟦140⟧ = High Tech High Chula Vista
+⟦141⟧ = High Tech High North County
+⟦142⟧ = history
+⟦143⟧ = history),the arts
+⟦144⟧ = home
+⟦145⟧ = homes
+⟦146⟧ = homework
+⟦147⟧ = households
+⟦148⟧ = HTHNC
+⟦149⟧ = Indiana Wesleyan University - Louisville campus
+⟦150⟧ = its 50th anniversary
+⟦151⟧ = its initial class
+⟦152⟧ = its literary publications
+⟦153⟧ = Its mascot
+⟦154⟧ = its NJROTC program
+⟦155⟧ = its theatre program
+⟦156⟧ = January
+⟦157⟧ = John M. Gandy High School
+⟦158⟧ = Johnston County
+⟦159⟧ = Johnston County Schools
+⟦160⟧ = Journalism
+⟦161⟧ = juniors
+⟦162⟧ = just two Pennsylvania schools
+⟦163⟧ = Kansas
+⟦164⟧ = Kentucky
+⟦165⟧ = lab
+⟦166⟧ = languages
+⟦167⟧ = Latin
+⟦168⟧ = league
+⟦169⟧ = learning
+⟦170⟧ = level
+⟦171⟧ = locations
+⟦172⟧ = Louisville
+⟦173⟧ = many different electives
+⟦174⟧ = mascot
+⟦175⟧ = math
+⟦176⟧ = media
+⟦177⟧ = member
+⟦178⟧ = Michigan
+⟦179⟧ = min
+⟦180⟧ = Montpelier
+⟦181⟧ = more than 3,000 students
+⟦182⟧ = more than five hundred and fifty students
+⟦183⟧ = name
+⟦184⟧ = Nazareth
+⟦185⟧ = Nazareth Area High School
+⟦186⟧ = Nazareth High School
+⟦187⟧ = needs
+⟦188⟧ = Nevada
+⟦189⟧ = new gymnasium
+⟦190⟧ = North Carolina
+⟦191⟧ = offices
+⟦192⟧ = one Integrated student body
+⟦193⟧ = one or more children
+⟦194⟧ = one to six classes
+⟦195⟧ = one week
+⟦196⟧ = only 150 freshmen
+⟦197⟧ = only two High Tech High schools
+⟦198⟧ = Opening
+⟦199⟧ = opportunities
+⟦200⟧ = organization
+⟦201⟧ = other high schools
+⟦202⟧ = other High Tech High schools
+⟦203⟧ = over 500 students
+⟦204⟧ = over 60 different classes
+⟦205⟧ = part
+⟦206⟧ = passing
+⟦207⟧ = Patrick Henry
+⟦208⟧ = Patrick Henry High
+⟦209⟧ = Patrick Henry High School
+⟦210⟧ = Pennsylvania
+⟦211⟧ = periods
+⟦212⟧ = Philosophy
+⟦213⟧ = population
+⟦214⟧ = preparatory
+⟦215⟧ = program
+⟦216⟧ = project
+⟦217⟧ = project-based learning
+⟦218⟧ = PSSA
+⟦219⟧ = Psychology
+⟦220⟧ = publications
+⟦221⟧ = Rachel's Challenge
+⟦222⟧ = rate
+⟦223⟧ = reference
+⟦224⟧ = renovation
+⟦225⟧ = renovations
+⟦226⟧ = Rockville high schools
+⟦227⟧ = Round Rock
+⟦228⟧ = RRISD
+⟦229⟧ = San Marcos
+⟦230⟧ = school
+⟦231⟧ = Schools
+⟦232⟧ = science
+⟦233⟧ = seniors
+⟦234⟧ = September
+⟦235⟧ = site
+⟦236⟧ = sophomores
+⟦237⟧ = South Johnston High School
+⟦238⟧ = South Tahoe High School
+⟦239⟧ = Spanish
+⟦240⟧ = spring
+⟦241⟧ = state
+⟦242⟧ = state average
+⟦243⟧ = student
+⟦244⟧ = Student enrollment
+⟦245⟧ = student population
+⟦246⟧ = students
+⟦247⟧ = students' homes
+⟦248⟧ = studio
+⟦249⟧ = study
+⟦250⟧ = style
+⟦251⟧ = subjects
+⟦252⟧ = symbol
+⟦253⟧ = teacher
+⟦254⟧ = Team USA
+⟦255⟧ = technology
+⟦256⟧ = test
+⟦257⟧ = tests
+⟦258⟧ = that school year
+⟦259⟧ = the 2006 Bond
+⟦260⟧ = the 2008-2009 school year
+⟦261⟧ = the 2009-2010 school year
+⟦262⟧ = the 2010- 2011 school year
+⟦263⟧ = the 2010-2011 school year
+⟦264⟧ = the 2016-2017 school year
+⟦265⟧ = the 2nd largest school level
+⟦266⟧ = the Abbott Middle School building
+⟦267⟧ = the Advanced Placement International Diploma
+⟦268⟧ = the beginning
+⟦269⟧ = the Blue Eagle and school colors
+⟦270⟧ = The building
+⟦271⟧ = the Christian Educational Consortium
+⟦272⟧ = the classes
+⟦273⟧ = the Cleveland community
+⟦274⟧ = the College Boards Advanced Placement Honor Roll
+⟦275⟧ = the consolidation
+⟦276⟧ = the county
+⟦277⟧ = the course
+⟦278⟧ = The current building
+⟦279⟧ = The current high school
+⟦280⟧ = the current Orchard Lake Middle School
+⟦281⟧ = the dimensions
+⟦282⟧ = the district
+⟦283⟧ = the district's boundaries
+⟦284⟧ = the facility
+⟦285⟧ = the fall
+⟦286⟧ = the ground
+⟦287⟧ = the growth
+⟦288⟧ = the high school
+⟦289⟧ = the high school grade students
+⟦290⟧ = the High Tech High organization
+⟦291⟧ = the history
+⟦292⟧ = the homework
+⟦293⟧ = the junior high school
+⟦294⟧ = the Keystone Award
+⟦295⟧ = the largest high school
+⟦296⟧ = the last four consecutive years
+⟦297⟧ = the locations
+⟦298⟧ = the media center and administrative offices
+⟦299⟧ = the middle school
+⟦300⟧ = the Middle States Association
+⟦301⟧ = the Nazareth Area School District
+⟦302⟧ = the needs
+⟦303⟧ = the Nevada Interscholastic Activities Association
+⟦304⟧ = The Northern 3A league
+⟦305⟧ = the Northern 4A
+⟦306⟧ = the northern half
+⟦307⟧ = The Northern Nevada 3A Region
+⟦308⟧ = the only high school
+⟦309⟧ = the only public high school
+⟦310⟧ = The Orator
+⟦311⟧ = the Pennsylvania Department
+⟦312⟧ = the population
+⟦313⟧ = the Professional Bowlers Association
+⟦314⟧ = The remaining students
+⟦315⟧ = the Round Rock Independent School District
+⟦316⟧ = the same type
+⟦317⟧ = the school
+⟦318⟧ = The school campus
+⟦319⟧ = the school district
+⟦320⟧ = The School Enrollment
+⟦321⟧ = the school week
+⟦322⟧ = the site
+⟦323⟧ = The Spark
+⟦324⟧ = the state
+⟦325⟧ = The student
+⟦326⟧ = the top
+⟦327⟧ = the United States
+⟦328⟧ = The Voice
+⟦329⟧ = the West Bloomfield School District
+⟦330⟧ = the western half
+⟦331⟧ = The western Hanover County high school
+⟦332⟧ = the-art
+⟦333⟧ = theatre
+⟦334⟧ = This addition
+⟦335⟧ = this school
+⟦336⟧ = three classrooms
+⟦337⟧ = THS
+⟦338⟧ = top
+⟦339⟧ = Topeka
+⟦340⟧ = Topeka High School
+⟦341⟧ = Topeka Public Schools
+⟦342⟧ = total
+⟦343⟧ = Tuesday
+⟦344⟧ = two consecutive years
+⟦345⟧ = two new Johnston County School District high schools
+⟦346⟧ = type
+⟦347⟧ = unincorporated Johnston County
+⟦348⟧ = United States
+⟦349⟧ = Virginia
+⟦350⟧ = Wednesday
+⟦351⟧ = week
+⟦352⟧ = West Bloomfield
+⟦353⟧ = West Bloomfield High School
+⟦354⟧ = West Patrick Henry Road
+⟦355⟧ = Wichita State University
+⟦356⟧ = World View
+⟦357⟧ = year
+⟦358⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟨A⟩⟦271⟧⟨B⟩⟦73⟧⟨C⟩⟦28⟧⟨D⟩⟦230⟧⟨E⟩⟦172⟧⟨F⟩⟦164⟧⟨G⟩
+⟨H⟩⟦250⟧⟨I⟩⟦230⟧⟨J⟩⟦82⟧⟨K⟩⟦144⟧⟨L⟩⟦246⟧⟨M⟩⟦74⟧⟨N⟩⟦86⟧⟨O⟩⟦130⟧⟨P⟩⟦130⟧⟨Q⟩
+⟦325⟧⟨R⟩⟦243⟧⟨S⟩⟦292⟧⟨T⟩⟦146⟧⟨U⟩⟦277⟧⟨V⟩⟦103⟧⟨W⟩⟦321⟧⟨X⟩⟦230⟧⟨Y⟩⟦351⟧⟨Z⟩⟦112⟧⟨[⟩⟦85⟧⟨\⟩
+⟦73⟧⟨]⟩⟦351⟧⟨^⟩⟦343⟧⟨_⟩⟦350⟧⟨`⟩⟦149⟧⟨a⟩⟦71⟧⟨b⟩
+⟨c⟩⟦263⟧⟨d⟩⟦230⟧⟨e⟩⟦357⟧⟨f⟩⟦51⟧⟨g⟩⟦246⟧⟨h⟩⟦264⟧⟨i⟩⟦230⟧⟨j⟩⟦357⟧⟨k⟩⟦203⟧⟨l⟩⟦246⟧⟨m⟩
+⟦73⟧⟨n⟩⟦204⟧⟨o⟩⟦86⟧⟨p⟩⟦40⟧⟨q⟩⟦100⟧⟨r⟩⟦251⟧⟨s⟩⟦118⟧⟨t⟩⟦175⟧⟨u⟩⟦175⟧⟨v⟩⟦232⟧⟨w⟩⟦232⟧⟨x⟩⟦143⟧⟨y⟩⟦53⟧⟨z⟩⟦173⟧⟨{⟩⟦116⟧⟨|⟩⟦356⟧⟨}⟩⟦219⟧⟨~⟩⟦160⟧⟨⟩⟦79⟧⟨⟩⟦111⟧⟨⟩⟦212⟧⟨⟩⟦67⟧⟨⟩⟦98⟧⟨⟩
+⟨⟩⟦124⟧⟨⟩⟦166⟧⟨⟩⟦246⟧⟨⟩⟦246⟧⟨⟩⟦239⟧⟨⟩⟦167⟧⟨⟩
+⟨⟩⟦335⟧⟨⟩⟦230⟧⟨⟩⟦194⟧⟨⟩⟦86⟧⟨⟩
+⟨⟩⟦34⟧⟨⟩⟦342⟧⟨⟩⟦115⟧⟨⟩⟦179⟧⟨⟩⟦3⟧⟨⟩⟦179⟧⟨⟩
+⟦211⟧⟨⟩⟦211⟧⟨⟩⟦343⟧⟨⟩⟦350⟧⟨⟩
+⟦113⟧⟨⟩⟦253⟧⟨⟩⟦146⟧⟨⟩⟦146⟧⟨⟩⟦195⟧⟨ ⟩⟦351⟧⟨¡⟩
+⟦186⟧⟨¢⟩⟦30⟧⟨£⟩⟦230⟧⟨¤⟩⟦184⟧⟨¥⟩⟦210⟧⟨¦⟩⟦327⟧⟨§⟩
+⟨¨⟩⟦308⟧⟨©⟩⟦230⟧⟨ª⟩⟦301⟧⟨«⟩⟦130⟧⟨¬⟩⟦130⟧⟨­⟩
+⟦153⟧⟨®⟩⟦174⟧⟨¯⟩⟦269⟧⟨°⟩⟦230⟧⟨±⟩⟦94⟧⟨²⟩
+⟦244⟧⟨³⟩⟦243⟧⟨´⟩⟦119⟧⟨µ⟩⟦263⟧⟨¶⟩⟦230⟧⟨·⟩⟦357⟧⟨¸⟩⟦50⟧⟨¹⟩⟦246⟧⟨º⟩
+⟨»⟩⟦9⟧⟨¼⟩⟦249⟧⟨½⟩⟦319⟧⟨¾⟩⟦230⟧⟨¿⟩⟦109⟧⟨À⟩⟦4⟧⟨Á⟩⟦147⟧⟨Â⟩⟦147⟧⟨Ã⟩⟦283⟧⟨Ä⟩⟦109⟧⟨Å⟩⟦62⟧⟨Æ⟩⟦193⟧⟨Ç⟩⟦80⟧⟨È⟩⟦288⟧⟨É⟩⟦230⟧⟨Ê⟩
+⟨Ë⟩⟦261⟧⟨Ì⟩⟦230⟧⟨Í⟩⟦357⟧⟨Î⟩⟦288⟧⟨Ï⟩⟦230⟧⟨Ð⟩⟦300⟧⟨Ñ⟩⟦93⟧⟨Ò⟩⟦231⟧⟨Ó⟩
+⟨Ô⟩⟦185⟧⟨Õ⟩⟦294⟧⟨Ö⟩⟦311⟧⟨×⟩⟦114⟧⟨Ø⟩⟦49⟧⟨Ù⟩⟦344⟧⟨Ú⟩⟦358⟧⟨Û⟩⟦55⟧⟨Ü⟩⟦218⟧⟨Ý⟩⟦257⟧⟨Þ⟩
+⟦185⟧⟨ß⟩⟦274⟧⟨à⟩⟦296⟧⟨á⟩⟦358⟧⟨â⟩⟦162⟧⟨ã⟩⟦231⟧⟨ä⟩
+⟦185⟧⟨å⟩⟦44⟧⟨æ⟩⟦256⟧⟨ç⟩⟦206⟧⟨è⟩⟦222⟧⟨é⟩⟦7⟧⟨ê⟩⟦241⟧⟨ë⟩⟦242⟧⟨ì⟩⟦58⟧⟨í⟩⟦6⟧⟨î⟩⟦128⟧⟨ï⟩⟦58⟧⟨ð⟩⟦5⟧⟨ñ⟩
+⟦89⟧⟨ò⟩⟦105⟧⟨ó⟩⟦347⟧⟨ô⟩⟦190⟧⟨õ⟩
+⟨ö⟩⟦273⟧⟨÷⟩⟦96⟧⟨ø⟩⟦27⟧⟨ù⟩⟦38⟧⟨ú⟩⟦88⟧⟨û⟩
+⟨ü⟩⟦262⟧⟨ý⟩⟦230⟧⟨þ⟩⟦357⟧⟨ÿ⟩
+⟨Ā⟩⟦31⟧⟨ā⟩⟦230⟧⟨Ă⟩⟦205⟧⟨ă⟩⟦205⟧⟨Ą⟩⟦159⟧⟨ą⟩
+⟦89⟧⟨Ć⟩⟦205⟧⟨ć⟩⟦205⟧⟨Ĉ⟩⟦90⟧⟨ĉ⟩⟦42⟧⟨Ċ⟩⟦129⟧⟨ċ⟩⟦230⟧⟨Č⟩
+⟨č⟩⟦287⟧⟨Ď⟩⟦133⟧⟨ď⟩⟦243⟧⟨Đ⟩⟦245⟧⟨đ⟩⟦213⟧⟨Ē⟩⟦158⟧⟨ē⟩⟦289⟧⟨Ĕ⟩⟦230⟧⟨ĕ⟩⟦129⟧⟨Ė⟩⟦246⟧⟨ė⟩⟦237⟧⟨Ę⟩⟦201⟧⟨ę⟩⟦231⟧⟨Ě⟩⟦276⟧⟨ě⟩⟦102⟧⟨Ĝ⟩
+⟦314⟧⟨ĝ⟩⟦246⟧⟨Ğ⟩⟦299⟧⟨ğ⟩⟦230⟧⟨Ġ⟩
+⟦279⟧⟨ġ⟩⟦230⟧⟨Ģ⟩⟦345⟧⟨ģ⟩⟦231⟧⟨Ĥ⟩⟦357⟧⟨ĥ⟩⟦101⟧⟨Ħ⟩
+⟦75⟧⟨ħ⟩⟦32⟧⟨Ĩ⟩⟦230⟧⟨ĩ⟩⟦227⟧⟨Ī⟩⟦348⟧⟨ī⟩
+⟨Ĭ⟩⟦263⟧⟨ĭ⟩⟦230⟧⟨Į⟩⟦357⟧⟨į⟩⟦317⟧⟨İ⟩⟦230⟧⟨ı⟩⟦130⟧⟨Ĳ⟩⟦130⟧⟨ĳ⟩
+⟦129⟧⟨Ĵ⟩⟦129⟧⟨ĵ⟩⟦129⟧⟨Ķ⟩
+⟦317⟧⟨ķ⟩⟦230⟧⟨ĸ⟩⟦295⟧⟨Ĺ⟩⟦230⟧⟨ĺ⟩⟦315⟧⟨Ļ⟩⟦228⟧⟨ļ⟩⟦77⟧⟨Ľ⟩⟦46⟧⟨ľ⟩⟦119⟧⟨Ŀ⟩⟦181⟧⟨ŀ⟩⟦246⟧⟨Ł⟩
+⟦39⟧⟨ł⟩⟦297⟧⟨Ń⟩⟦171⟧⟨ń⟩⟦246⟧⟨Ņ⟩⟦247⟧⟨ņ⟩⟦145⟧⟨Ň⟩⟦282⟧⟨ň⟩⟦109⟧⟨ŉ⟩
+⟦270⟧⟨Ŋ⟩⟦65⟧⟨ŋ⟩⟦317⟧⟨Ō⟩⟦230⟧⟨ō⟩⟦259⟧⟨Ŏ⟩⟦268⟧⟨ŏ⟩⟦60⟧⟨Ő⟩⟦263⟧⟨ő⟩⟦230⟧⟨Œ⟩⟦357⟧⟨œ⟩
+⟦141⟧⟨Ŕ⟩⟦148⟧⟨ŕ⟩⟦13⟧⟨Ŗ⟩⟦78⟧⟨ŗ⟩⟦230⟧⟨Ř⟩⟦229⟧⟨ř⟩⟦70⟧⟨Ś⟩
+⟨ś⟩⟦25⟧⟨Ŝ⟩⟦205⟧⟨ŝ⟩⟦290⟧⟨Ş⟩⟦200⟧⟨ş⟩
+⟨Š⟩⟦198⟧⟨š⟩⟦151⟧⟨Ţ⟩⟦85⟧⟨ţ⟩⟦196⟧⟨Ť⟩⟦127⟧⟨ť⟩⟦317⟧⟨Ŧ⟩⟦230⟧⟨ŧ⟩⟦182⟧⟨Ũ⟩⟦246⟧⟨ũ⟩
+⟨Ū⟩⟦357⟧⟨ū⟩⟦22⟧⟨Ŭ⟩⟦85⟧⟨ŭ⟩
+⟨Ů⟩⟦260⟧⟨ů⟩⟦230⟧⟨Ű⟩⟦357⟧⟨ű⟩⟦236⟧⟨Ų⟩⟦236⟧⟨ų⟩⟦261⟧⟨Ŵ⟩⟦230⟧⟨ŵ⟩⟦357⟧⟨Ŷ⟩⟦161⟧⟨ŷ⟩⟦161⟧⟨Ÿ⟩⟦263⟧⟨Ź⟩⟦230⟧⟨ź⟩⟦357⟧⟨Ż⟩⟦233⟧⟨ż⟩⟦233⟧⟨Ž⟩
+⟨ž⟩⟦197⟧⟨ſ⟩⟦231⟧⟨ƀ⟩⟦286⟧⟨Ɓ⟩⟦132⟧⟨Ƃ⟩⟦140⟧⟨ƃ⟩
+⟦317⟧⟨Ƅ⟩⟦230⟧⟨ƅ⟩⟦316⟧⟨Ɔ⟩⟦346⟧⟨Ƈ⟩⟦91⟧⟨ƈ⟩⟦92⟧⟨Ɖ⟩⟦214⟧⟨Ɗ⟩⟦216⟧⟨Ƌ⟩⟦217⟧⟨ƌ⟩⟦169⟧⟨ƍ⟩⟦202⟧⟨Ǝ⟩⟦231⟧⟨Ə⟩
+⟦340⟧⟨Ɛ⟩⟦337⟧⟨Ƒ⟩⟦17⟧⟨ƒ⟩⟦230⟧⟨Ɠ⟩⟦246⟧⟨Ɣ⟩⟦246⟧⟨ƕ⟩⟦130⟧⟨Ɩ⟩⟦131⟧⟨Ɨ⟩⟦339⟧⟨Ƙ⟩⟦163⟧⟨ƙ⟩
+⟨ƚ⟩⟦125⟧⟨ƛ⟩⟦231⟧⟨Ɯ⟩⟦341⟧⟨Ɲ⟩
+⟨ƞ⟩⟦263⟧⟨Ɵ⟩⟦230⟧⟨Ơ⟩⟦357⟧⟨ơ⟩⟦2⟧⟨Ƣ⟩⟦246⟧⟨ƣ⟩
+⟦307⟧⟨Ƥ⟩⟦25⟧⟨ƥ⟩⟦205⟧⟨Ʀ⟩⟦303⟧⟨Ƨ⟩⟦306⟧⟨ƨ⟩⟦135⟧⟨Ʃ⟩⟦188⟧⟨ƪ⟩⟦139⟧⟨ƫ⟩⟦230⟧⟨Ƭ⟩⟦56⟧⟨ƭ⟩
+⟦304⟧⟨Ʈ⟩⟦168⟧⟨Ư⟩⟦265⟧⟨ư⟩⟦230⟧⟨Ʊ⟩⟦170⟧⟨Ʋ⟩⟦231⟧⟨Ƴ⟩⟦231⟧⟨ƴ⟩⟦120⟧⟨Ƶ⟩⟦120⟧⟨ƶ⟩
+⟨Ʒ⟩⟦8⟧⟨Ƹ⟩⟦177⟧⟨ƹ⟩⟦231⟧⟨ƺ⟩⟦304⟧⟨ƻ⟩⟦168⟧⟨Ƽ⟩⟦263⟧⟨ƽ⟩⟦230⟧⟨ƾ⟩⟦357⟧⟨ƿ⟩
+⟦117⟧⟨ǀ⟩⟦238⟧⟨ǁ⟩⟦83⟧⟨ǂ⟩⟦305⟧⟨ǃ⟩⟦230⟧⟨Ǆ⟩⟦357⟧⟨ǅ⟩
+⟦353⟧⟨ǆ⟩⟦32⟧⟨Ǉ⟩⟦230⟧⟨ǈ⟩⟦352⟧⟨ǉ⟩⟦178⟧⟨Ǌ⟩
+⟦317⟧⟨ǋ⟩⟦230⟧⟨ǌ⟩⟦309⟧⟨Ǎ⟩⟦230⟧⟨ǎ⟩⟦329⟧⟨Ǐ⟩
+⟦320⟧⟨ǐ⟩⟦263⟧⟨Ǒ⟩⟦230⟧⟨ǒ⟩⟦357⟧⟨Ǔ⟩
+⟦353⟧⟨ǔ⟩⟦266⟧⟨Ǖ⟩⟦65⟧⟨ǖ⟩⟦156⟧⟨Ǘ⟩⟦46⟧⟨ǘ⟩⟦119⟧⟨Ǚ⟩
+⟨ǚ⟩⟦123⟧⟨Ǜ⟩⟦123⟧⟨ǜ⟩⟦240⟧⟨ǝ⟩⟦240⟧⟨Ǟ⟩⟦317⟧⟨ǟ⟩⟦230⟧⟨Ǡ⟩⟦322⟧⟨ǡ⟩⟦235⟧⟨Ǣ⟩⟦280⟧⟨ǣ⟩
+⟦278⟧⟨Ǥ⟩⟦65⟧⟨ǥ⟩
+⟦353⟧⟨Ǧ⟩⟦267⟧⟨ǧ⟩⟦272⟧⟨Ǩ⟩⟦86⟧⟨ǩ⟩
+⟨Ǫ⟩⟦35⟧⟨ǫ⟩⟦35⟧⟨Ǭ⟩⟦36⟧⟨ǭ⟩⟦104⟧⟨Ǯ⟩⟦263⟧⟨ǯ⟩⟦230⟧⟨ǰ⟩⟦357⟧⟨Ǳ⟩
+⟦209⟧⟨ǲ⟩⟦18⟧⟨ǳ⟩⟦230⟧⟨Ǵ⟩⟦54⟧⟨ǵ⟩⟦349⟧⟨Ƕ⟩⟦136⟧⟨Ƿ⟩
+⟦207⟧⟨Ǹ⟩⟦125⟧⟨ǹ⟩⟦231⟧⟨Ǻ⟩⟦136⟧⟨ǻ⟩⟦308⟧⟨Ǽ⟩⟦230⟧⟨ǽ⟩⟦330⟧⟨Ǿ⟩⟦135⟧⟨ǿ⟩⟦276⟧⟨Ȁ⟩⟦102⟧⟨ȁ⟩
+⟦37⟧⟨Ȃ⟩⟦37⟧⟨ȃ⟩⟦45⟧⟨Ȅ⟩⟦57⟧⟨ȅ⟩⟦87⟧⟨Ȇ⟩⟦87⟧⟨ȇ⟩⟦69⟧⟨Ȉ⟩⟦69⟧⟨ȉ⟩⟦189⟧⟨Ȋ⟩⟦134⟧⟨ȋ⟩⟦225⟧⟨Ȍ⟩⟦225⟧⟨ȍ⟩⟦298⟧⟨Ȏ⟩⟦176⟧⟨ȏ⟩⟦76⟧⟨Ȑ⟩⟦191⟧⟨ȑ⟩⟦41⟧⟨Ȓ⟩⟦122⟧⟨ȓ⟩
+⟨Ȕ⟩⟦312⟧⟨ȕ⟩⟦213⟧⟨Ȗ⟩⟦302⟧⟨ȗ⟩⟦187⟧⟨Ș⟩⟦317⟧⟨ș⟩⟦230⟧⟨Ț⟩⟦281⟧⟨ț⟩⟦108⟧⟨Ȝ⟩⟦317⟧⟨ȝ⟩⟦230⟧⟨Ȟ⟩
+⟦21⟧⟨ȟ⟩⟦35⟧⟨Ƞ⟩⟦224⟧⟨ȡ⟩⟦284⟧⟨Ȣ⟩⟦122⟧⟨ȣ⟩⟦285⟧⟨Ȥ⟩⟦123⟧⟨ȥ⟩⟦241⟧⟨Ȧ⟩⟦332⟧⟨ȧ⟩⟦52⟧⟨Ȩ⟩⟦72⟧⟨ȩ⟩⟦114⟧⟨Ȫ⟩⟦199⟧⟨ȫ⟩
+⟦334⟧⟨Ȭ⟩⟦35⟧⟨ȭ⟩⟦11⟧⟨Ȯ⟩⟦64⟧⟨ȯ⟩⟦248⟧⟨Ȱ⟩⟦10⟧⟨ȱ⟩⟦255⟧⟨Ȳ⟩⟦165⟧⟨ȳ⟩⟦14⟧⟨ȴ⟩⟦95⟧⟨ȵ⟩⟦255⟧⟨ȶ⟩⟦76⟧⟨ȷ⟩⟦16⟧⟨ȸ⟩⟦98⟧⟨ȹ⟩⟦110⟧⟨Ⱥ⟩⟦165⟧⟨Ȼ⟩⟦336⟧⟨ȼ⟩⟦87⟧⟨Ƚ⟩
+⟦207⟧⟨Ⱦ⟩⟦150⟧⟨ȿ⟩⟦48⟧⟨ɀ⟩⟦234⟧⟨Ɂ⟩
+⟦208⟧⟨ɂ⟩⟦47⟧⟨Ƀ⟩⟦215⟧⟨Ʉ⟩⟦24⟧⟨Ʌ⟩⟦215⟧⟨Ɇ⟩
+⟦208⟧⟨ɇ⟩⟦154⟧⟨Ɉ⟩⟦215⟧⟨ɉ⟩⟦326⟧⟨Ɋ⟩⟦338⟧⟨ɋ⟩⟦324⟧⟨Ɍ⟩⟦241⟧⟨ɍ⟩⟦349⟧⟨Ɏ⟩
+⟨ɏ⟩⟦263⟧⟨ɐ⟩⟦230⟧⟨ɑ⟩⟦357⟧⟨ɒ⟩⟦29⟧⟨ɓ⟩⟦215⟧⟨ɔ⟩⟦221⟧⟨ɕ⟩
+⟦208⟧⟨ɖ⟩⟦155⟧⟨ɗ⟩⟦333⟧⟨ɘ⟩⟦215⟧⟨ə⟩⟦276⟧⟨ɚ⟩⟦102⟧⟨ɛ⟩
+⟨ɜ⟩⟦358⟧⟨ɝ⟩⟦358⟧⟨ɞ⟩⟦107⟧⟨ɟ⟩⟦107⟧⟨ɠ⟩⟦209⟧⟨ɡ⟩⟦275⟧⟨ɢ⟩⟦99⟧⟨ɣ⟩⟦59⟧⟨ɤ⟩⟦138⟧⟨ɥ⟩⟦180⟧⟨ɦ⟩⟦226⟧⟨ɧ⟩⟦231⟧⟨ɨ⟩
+⟦331⟧⟨ɩ⟩⟦230⟧⟨ɪ⟩⟦246⟧⟨ɫ⟩⟦246⟧⟨ɬ⟩⟦130⟧⟨ɭ⟩⟦130⟧⟨ɮ⟩
+⟨ɯ⟩⟦183⟧⟨ɰ⟩⟦317⟧⟨ɱ⟩⟦230⟧⟨ɲ⟩⟦183⟧⟨ɳ⟩⟦152⟧⟨ɴ⟩⟦220⟧⟨ɵ⟩⟦328⟧⟨ɶ⟩⟦323⟧⟨ɷ⟩⟦310⟧⟨ɸ⟩⟦223⟧⟨ɹ⟩⟦291⟧⟨ɺ⟩⟦142⟧⟨ɻ⟩⟦207⟧⟨ɼ⟩⟦137⟧⟨ɽ⟩⟦84⟧⟨ɾ⟩
+⟦121⟧⟨ɿ⟩⟦230⟧⟨ʀ⟩⟦94⟧⟨ʁ⟩⟦26⟧⟨ʂ⟩⟦252⟧⟨ʃ⟩⟦142⟧⟨ʄ⟩⟦142⟧⟨ʅ⟩
+⟨ʆ⟩⟦208⟧⟨ʇ⟩⟦157⟧⟨ʈ⟩⟦192⟧⟨ʉ⟩⟦243⟧⟨ʊ⟩⟦61⟧⟨ʋ⟩
+⟨ʌ⟩⟦23⟧⟨ʍ⟩⟦230⟧⟨ʎ⟩⟦207⟧⟨ʏ⟩⟦258⟧⟨ʐ⟩⟦230⟧⟨ʑ⟩⟦357⟧⟨ʒ⟩⟦33⟧⟨ʓ⟩⟦230⟧⟨ʔ⟩⟦246⟧⟨ʕ⟩⟦130⟧⟨ʖ⟩⟦130⟧⟨ʗ⟩
+⟨ʘ⟩⟦293⟧⟨ʙ⟩⟦230⟧⟨ʚ⟩⟦20⟧⟨ʛ⟩⟦230⟧⟨ʜ⟩⟦207⟧⟨ʝ⟩⟦18⟧⟨ʞ⟩⟦230⟧⟨ʟ⟩⟦246⟧⟨ʠ⟩⟦246⟧⟨ʡ⟩⟦130⟧⟨ʢ⟩⟦130⟧⟨ʣ⟩
+⟦318⟧⟨ʤ⟩⟦230⟧⟨ʥ⟩⟦71⟧⟨ʦ⟩⟦354⟧⟨ʧ⟩⟦15⟧⟨ʨ⟩⟦97⟧⟨ʩ⟩⟦66⟧⟨ʪ⟩⟦66⟧⟨ʫ⟩⟦12⟧⟨ʬ⟩⟦71⟧⟨ʭ⟩⟦250⟧⟨ʮ⟩⟦230⟧⟨ʯ⟩
+⟦81⟧⟨ʰ⟩⟦339⟧⟨ʱ⟩⟦163⟧⟨ʲ⟩⟦43⟧⟨ʳ⟩⟦63⟧⟨ʴ⟩⟦313⟧⟨ʵ⟩⟦1⟧⟨ʶ⟩
+⟨ʷ⟩⟦340⟧⟨ʸ⟩⟦355⟧⟨ʹ⟩⟦53⟧⟨ʺ⟩⟦106⟧⟨ʻ⟩⟦68⟧⟨ʼ⟩
+⟨ʽ⟩⟦19⟧⟨ʾ⟩⟦177⟧⟨ʿ⟩⟦254⟧⟨ˀ⟩⟦126⟧⟨ˁ⟩⟦358⟧⟨˂⟩
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+约束：
+- 必须先把整个拓扑链从头到尾完整看完，再决定截断片段
+- 每个截断必须是拓扑链中连续的符号序列
+- 多个截断必须按拓扑链中的原始顺序排列（不允许交叉）
+- 不能编造不存在的符号
+- 不能重排符号顺序
+- 段长建议：每个段至少 3 个名词 + 2 个占位符（左右各留 1 个占位符给出上下文）
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨A⟩⟦2⟧ | ⟦3⟧⟨B⟩⟦5⟧
+长段示例：⟦2⟧⟨B⟩⟦3⟧⟨C⟩⟦4⟧⟨D⟩⟦5⟧⟨E⟩⟦6⟧ | ⟦8⟧⟨F⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：
+
+[user]
+
+问题：
+How many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year?

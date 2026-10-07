@@ -1,0 +1,325 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Road" movies
+⟦2⟧ = "The Black Stallion
+⟦3⟧ = 14 books
+⟦4⟧ = a 1931 talkie short film
+⟦5⟧ = a 1953 comedy film
+⟦6⟧ = a 1954 American black-and-white science fiction comedy film
+⟦7⟧ = a 1969 American comedy war film
+⟦8⟧ = a 26-episode American drama
+⟦9⟧ = a born-again Christian
+⟦10⟧ = a bus station
+⟦11⟧ = a career
+⟦12⟧ = a manager
+⟦13⟧ = A Miser Brothers' Christmas
+⟦14⟧ = a movie and TV production company
+⟦15⟧ = a Santa Claus
+⟦16⟧ = a script consultant
+⟦17⟧ = a series
+⟦18⟧ = a stop motion spin
+⟦19⟧ = a teenaged horse racer
+⟦20⟧ = a television series
+⟦21⟧ = a trainer
+⟦22⟧ = a young Mickey Rooney
+⟦23⟧ = ABC
+⟦24⟧ = ABC Family
+⟦25⟧ = actor
+⟦26⟧ = addition
+⟦27⟧ = ages
+⟦28⟧ = Alan Alda
+⟦29⟧ = an American comedian
+⟦30⟧ = an American former actor
+⟦31⟧ = an American sitcom
+⟦32⟧ = an evangelical ministry
+⟦33⟧ = an eye
+⟦34⟧ = Animation
+⟦35⟧ = any other host
+⟦36⟧ = army
+⟦37⟧ = athlete
+⟦38⟧ = author
+⟦39⟧ = Bernard Kates
+⟦40⟧ = Bob Hope
+⟦41⟧ = book
+⟦42⟧ = books
+⟦43⟧ = Booth
+⟦44⟧ = boxer
+⟦45⟧ = Buddy Ebsen
+⟦46⟧ = Bus
+⟦47⟧ = Bus Stop
+⟦48⟧ = California
+⟦49⟧ = cancellation
+⟦50⟧ = career
+⟦51⟧ = cast
+⟦52⟧ = Catherine Disher
+⟦53⟧ = characters
+⟦54⟧ = Christmas programming
+⟦55⟧ = co
+⟦56⟧ = comedian
+⟦57⟧ = comedy
+⟦58⟧ = company
+⟦59⟧ = consultant
+⟦60⟧ = coroner
+⟦61⟧ = dancer
+⟦62⟧ = David Niven
+⟦63⟧ = Days
+⟦64⟧ = December
+⟦65⟧ = Dick Shawn
+⟦66⟧ = diner
+⟦67⟧ = District Attorney Glenn Wagner
+⟦68⟧ = documentaries
+⟦69⟧ = drama
+⟦70⟧ = Entertainment
+⟦71⟧ = episode
+⟦72⟧ = eye
+⟦73⟧ = Faye Dunaway
+⟦74⟧ = fiction
+⟦75⟧ = film
+⟦76⟧ = films
+⟦77⟧ = George Irving
+⟦78⟧ = George Marshall
+⟦79⟧ = George S. Irving
+⟦80⟧ = Grace Sherwood
+⟦81⟧ = Hal Kanter
+⟦82⟧ = Heat Miser
+⟦83⟧ = Hemet
+⟦84⟧ = Hey
+⟦85⟧ = Hey Mulligan
+⟦86⟧ = his boxer
+⟦87⟧ = his first television role
+⟦88⟧ = his participation
+⟦89⟧ = his role
+⟦90⟧ = his signature tune
+⟦91⟧ = his starring role
+⟦92⟧ = holders
+⟦93⟧ = Hope
+⟦94⟧ = horse
+⟦95⟧ = host
+⟦96⟧ = hour
+⟦97⟧ = Inge
+⟦98⟧ = Jack Carter
+⟦99⟧ = Jack Sher
+⟦100⟧ = Jesse Duffy
+⟦101⟧ = Joan Freeman
+⟦102⟧ = John Frankenheimer
+⟦103⟧ = Joseph Yule III
+⟦104⟧ = Juan Chioran
+⟦105⟧ = KBE
+⟦106⟧ = KC*SG
+⟦107⟧ = KSS
+⟦108⟧ = label
+⟦109⟧ = Larry Darmour's "Mickey McGuire" series
+⟦110⟧ = Leslie H. Martinson
+⟦111⟧ = Leslie Towns Hope
+⟦112⟧ = library
+⟦113⟧ = Limits
+⟦114⟧ = lives
+⟦115⟧ = manager
+⟦116⟧ = many stage productions
+⟦117⟧ = March
+⟦118⟧ = Marilyn Maxwell
+⟦119⟧ = Maurice Duke
+⟦120⟧ = Maxwell's co
+⟦121⟧ = May
+⟦122⟧ = member
+⟦123⟧ = Memory
+⟦124⟧ = Metro-Goldwyn-Mayer
+⟦125⟧ = Mickey Rooney
+⟦126⟧ = Mickey Rooney Jr.
+⟦127⟧ = Mickey's Medicine Man
+⟦128⟧ = Military Policemen
+⟦129⟧ = ministry
+⟦130⟧ = more than 70 short and feature films
+⟦131⟧ = motion
+⟦132⟧ = movie
+⟦133⟧ = movies
+⟦134⟧ = Mrs. Claus
+⟦135⟧ = Mulligan
+⟦136⟧ = NBC
+⟦137⟧ = network
+⟦138⟧ = nineteen times
+⟦139⟧ = numerous Andy Hardy films
+⟦140⟧ = October
+⟦141⟧ = owner
+⟦142⟧ = participation
+⟦143⟧ = picture
+⟦144⟧ = play
+⟦145⟧ = police
+⟦146⟧ = production
+⟦147⟧ = productions
+⟦148⟧ = program
+⟦149⟧ = programming
+⟦150⟧ = racer
+⟦151⟧ = Ralph
+⟦152⟧ = re
+⟦153⟧ = reel
+⟦154⟧ = Republic Pictures
+⟦155⟧ = Rhodes Reason
+⟦156⟧ = Richard Anderson
+⟦157⟧ = Richard Ian Cox
+⟦158⟧ = rights
+⟦159⟧ = RKO Radio Pictures
+⟦160⟧ = Road
+⟦161⟧ = Robert Strauss
+⟦162⟧ = Rockies
+⟦163⟧ = role
+⟦164⟧ = roles
+⟦165⟧ = Rooney
+⟦166⟧ = Santa Claus
+⟦167⟧ = Saturday
+⟦168⟧ = science
+⟦169⟧ = script
+⟦170⟧ = September
+⟦171⟧ = series
+⟦172⟧ = Sheriff Will Mayberry
+⟦173⟧ = Shirley Booth
+⟦174⟧ = short
+⟦175⟧ = show
+⟦176⟧ = signature
+⟦177⟧ = singer
+⟦178⟧ = sitcom
+⟦179⟧ = Snow Miser
+⟦180⟧ = son
+⟦181⟧ = song
+⟦182⟧ = special
+⟦183⟧ = spin
+⟦184⟧ = stage
+⟦185⟧ = stars
+⟦186⟧ = station
+⟦187⟧ = Stop
+⟦188⟧ = style
+⟦189⟧ = Sunrise
+⟦190⟧ = talkie
+⟦191⟧ = television
+⟦192⟧ = television roles
+⟦193⟧ = Thanks
+⟦194⟧ = the 1974 Rankin-Bass special
+⟦195⟧ = the Academy Awards
+⟦196⟧ = the actor Mickey Rooney
+⟦197⟧ = The Adventures
+⟦198⟧ = the army
+⟦199⟧ = The Atomic Kid
+⟦200⟧ = the author
+⟦201⟧ = The Black Stallion
+⟦202⟧ = the book series
+⟦203⟧ = the bus station
+⟦204⟧ = the cast
+⟦205⟧ = the characters
+⟦206⟧ = the Colorado Rockies
+⟦207⟧ = the coroner
+⟦208⟧ = the diner
+⟦209⟧ = the documentaries
+⟦210⟧ = the eldest son
+⟦211⟧ = The Extraordinary Seaman
+⟦212⟧ = The Family Channel
+⟦213⟧ = the few Mickey McGuire
+⟦214⟧ = the fictitious town
+⟦215⟧ = the last Christmas special
+⟦216⟧ = the last film
+⟦217⟧ = the lives
+⟦218⟧ = the Memory
+⟦219⟧ = The Mickey Rooney Show
+⟦220⟧ = the military police
+⟦221⟧ = The movie
+⟦222⟧ = the network's annual The 25 Days
+⟦223⟧ = the one-hour special
+⟦224⟧ = the only original cast member
+⟦225⟧ = the owner
+⟦226⟧ = The picture
+⟦227⟧ = the post-1974 Rankin-Bass library
+⟦228⟧ = The program
+⟦229⟧ = the Rankin/Bass animation style
+⟦230⟧ = the rights holders
+⟦231⟧ = the Rooney Entertainment Group
+⟦232⟧ = the series
+⟦233⟧ = the show
+⟦234⟧ = The song
+⟦235⟧ = the two-reel short
+⟦236⟧ = the UK
+⟦237⟧ = the world
+⟦238⟧ = The Year
+⟦239⟧ = theaters
+⟦240⟧ = their respective roles
+⟦241⟧ = their Warner Premiere label
+⟦242⟧ = time
+⟦243⟧ = times
+⟦244⟧ = Toronto-based Cuppa Coffee Studios
+⟦245⟧ = town
+⟦246⟧ = Towns
+⟦247⟧ = trainer
+⟦248⟧ = travelers
+⟦249⟧ = tune
+⟦250⟧ = TV
+⟦251⟧ = vaudevillian
+⟦252⟧ = Virge Blessing
+⟦253⟧ = waitress Elma Gahrigner
+⟦254⟧ = Walter Farley
+⟦255⟧ = war
+⟦256⟧ = Warner Bros.
+⟦257⟧ = William Inge's play
+⟦258⟧ = world
+⟦259⟧ = Year
+⟦260⟧ = years
+⟦261⟧ = YTV
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Bus Stop (TV series)] ⟦46⟧⟨1⟩⟦47⟧⟨2⟩⟦8⟧⟨3⟩⟦71⟧⟨4⟩⟦69⟧⟨5⟩⟦23⟧⟨6⟩⟦140⟧⟨7⟩⟦117⟧⟨8⟩⟦118⟧⟨9⟩⟦80⟧⟨10⟩⟦225⟧⟨11⟩⟦141⟧⟨12⟩⟦10⟧⟨13⟩⟦46⟧⟨14⟩⟦186⟧⟨15⟩⟦66⟧⟨16⟩⟦66⟧⟨17⟩⟦214⟧⟨18⟩⟦245⟧⟨19⟩⟦189⟧⟨20⟩⟦206⟧⟨21⟩⟦162⟧⟨22⟩
+[Bus Stop (TV series)] ⟦228⟧⟨23⟩⟦148⟧⟨24⟩⟦257⟧⟨25⟩⟦144⟧⟨26⟩⟦187⟧⟨27⟩⟦97⟧⟨28⟩⟦16⟧⟨29⟩⟦169⟧⟨30⟩⟦59⟧⟨31⟩⟦232⟧⟨32⟩⟦171⟧⟨33⟩⟦217⟧⟨34⟩⟦114⟧⟨35⟩⟦248⟧⟨36⟩⟦248⟧⟨37⟩⟦203⟧⟨38⟩⟦46⟧⟨39⟩⟦186⟧⟨40⟩⟦208⟧⟨41⟩⟦66⟧⟨42⟩
+[Bus Stop (TV series)] ⟦120⟧⟨43⟩⟦55⟧⟨44⟩⟦185⟧⟨45⟩⟦185⟧⟨46⟩⟦156⟧⟨47⟩⟦67⟧⟨48⟩⟦155⟧⟨49⟩⟦172⟧⟨50⟩⟦101⟧⟨51⟩⟦253⟧⟨52⟩⟦39⟧⟨53⟩⟦151⟧⟨54⟩⟦207⟧⟨55⟩⟦60⟧⟨56⟩⟦45⟧⟨57⟩⟦252⟧⟨58⟩
+[The Mickey Rooney Show] ⟦219⟧⟨59⟩⟦84⟧⟨60⟩⟦135⟧⟨61⟩⟦31⟧⟨62⟩⟦178⟧⟨63⟩⟦136⟧⟨64⟩
+[The Mickey Rooney Show] ⟦232⟧⟨65⟩⟦171⟧⟨66⟩⟦125⟧⟨67⟩⟦87⟧⟨68⟩⟦191⟧⟨69⟩⟦163⟧⟨70⟩⟦91⟧⟨71⟩⟦163⟧⟨72⟩⟦139⟧⟨73⟩⟦76⟧⟨74⟩⟦85⟧⟨75⟩
+[Bob Hope] ⟨76⟩⟦105⟧⟨77⟩⟦106⟧⟨78⟩⟦106⟧⟨79⟩⟦107⟧⟨80⟩⟦111⟧⟨81⟩⟦246⟧⟨82⟩⟦29⟧⟨83⟩⟦56⟧⟨84⟩⟦251⟧⟨85⟩⟦251⟧⟨86⟩⟦25⟧⟨87⟩⟦25⟧⟨88⟩⟦177⟧⟨89⟩⟦177⟧⟨90⟩⟦61⟧⟨91⟩⟦61⟧⟨92⟩⟦37⟧⟨93⟩⟦37⟧⟨94⟩⟦38⟧⟨95⟩⟦38⟧⟨96⟩
+[Bob Hope] ⟨97⟩⟦11⟧⟨98⟩⟦50⟧⟨99⟩⟦260⟧⟨100⟩⟦93⟧⟨101⟩⟦130⟧⟨102⟩⟦76⟧⟨103⟩⟦17⟧⟨104⟩⟦171⟧⟨105⟩⟦1⟧⟨106⟩⟦160⟧⟨107⟩⟦133⟧⟨108⟩
+[Bob Hope] ⟨109⟩⟦26⟧⟨110⟩⟦26⟧⟨111⟩⟦195⟧⟨112⟩⟦138⟧⟨113⟩⟦243⟧⟨114⟩⟦35⟧⟨115⟩⟦95⟧⟨116⟩⟦116⟧⟨117⟩⟦184⟧⟨118⟩⟦147⟧⟨119⟩⟦191⟧⟨120⟩⟦192⟧⟨121⟩⟦164⟧⟨122⟩⟦200⟧⟨123⟩⟦38⟧⟨124⟩⟦3⟧⟨125⟩⟦42⟧⟨126⟩
+[Bob Hope] ⟦234⟧⟨127⟩⟦181⟧⟨128⟩⟦193⟧⟨129⟩⟦193⟧⟨130⟩⟦218⟧⟨131⟩⟦123⟧⟨132⟩⟦90⟧⟨133⟩⟦176⟧⟨134⟩⟦249⟧⟨135⟩
+[A Miser Brothers' Christmas] ⟦13⟧⟨136⟩⟦18⟧⟨137⟩⟦187⟧⟨138⟩⟦131⟧⟨139⟩⟦183⟧⟨140⟩⟦205⟧⟨141⟩⟦53⟧⟨142⟩⟦194⟧⟨143⟩⟦182⟧⟨144⟩⟦238⟧⟨145⟩⟦259⟧⟨146⟩⟦15⟧⟨147⟩
+[A Miser Brothers' Christmas] ⟨148⟩⟦256⟧
+[A Miser Brothers' Christmas] ⟦34⟧⟨149⟩⟦34⟧⟨150⟩⟦241⟧⟨151⟩⟦108⟧⟨152⟩⟦230⟧⟨153⟩⟦158⟧⟨154⟩⟦92⟧⟨155⟩⟦227⟧⟨156⟩⟦112⟧⟨157⟩⟦244⟧⟨158⟩⟦223⟧⟨159⟩⟦96⟧⟨160⟩⟦182⟧⟨161⟩⟦24⟧⟨162⟩⟦167⟧⟨163⟩⟦64⟧⟨164⟩⟦222⟧⟨165⟩⟦137⟧⟨166⟩⟦63⟧⟨167⟩⟦54⟧⟨168⟩⟦149⟧⟨169⟩
+[A Miser Brothers' Christmas] ⟦125⟧⟨170⟩⟦79⟧⟨171⟩⟦240⟧⟨172⟩⟦164⟧⟨173⟩⟦166⟧⟨174⟩⟦82⟧⟨175⟩⟦27⟧⟨176⟩⟦27⟧⟨177⟩
+[A Miser Brothers' Christmas] ⟦179⟧⟨178⟩⟦65⟧⟨179⟩⟦104⟧⟨180⟩⟦134⟧⟨181⟩⟦173⟧⟨182⟩⟦52⟧⟨183⟩⟦43⟧⟨184⟩
+[A Miser Brothers' Christmas] ⟦221⟧⟨185⟩⟦132⟧⟨186⟩⟦229⟧⟨187⟩⟦34⟧⟨188⟩⟦188⟧⟨189⟩
+[A Miser Brothers' Christmas] ⟨190⟩⟦215⟧⟨191⟩⟦182⟧⟨192⟩⟦125⟧⟨193⟩⟦166⟧⟨194⟩⟦242⟧⟨195⟩⟦77⟧⟨196⟩⟦82⟧⟨197⟩
+[The Atomic Kid] ⟦199⟧⟨198⟩⟦6⟧⟨199⟩⟦168⟧⟨200⟩⟦74⟧⟨201⟩⟦57⟧⟨202⟩⟦75⟧⟨203⟩⟦154⟧⟨204⟩⟦119⟧⟨205⟩⟦125⟧⟨206⟩⟦110⟧⟨207⟩⟦125⟧⟨208⟩⟦161⟧⟨209⟩
+[Mickey's Helping Hand] ⟦127⟧⟨210⟩⟦4⟧⟨211⟩⟦190⟧⟨212⟩⟦75⟧⟨213⟩⟦109⟧⟨214⟩⟦171⟧⟨215⟩⟦22⟧⟨216⟩
+[Mickey's Helping Hand] ⟨217⟩⟦100⟧⟨218⟩⟦235⟧⟨219⟩⟦153⟧⟨220⟩⟦174⟧⟨221⟩⟦239⟧⟨222⟩⟦239⟧⟨223⟩⟦64⟧⟨224⟩⟦159⟧⟨225⟩
+[Mickey's Helping Hand] ⟨226⟩⟦213⟧⟨227⟩⟦125⟧⟨228⟩⟦204⟧⟨229⟩⟦51⟧⟨230⟩
+[Off Limits (1953 film)] ⟨231⟩⟦113⟧⟨232⟩⟦5⟧⟨233⟩⟦57⟧⟨234⟩⟦75⟧⟨235⟩⟦78⟧⟨236⟩⟦40⟧⟨237⟩⟦125⟧⟨238⟩⟦118⟧⟨239⟩
+[Off Limits (1953 film)] ⟦93⟧⟨240⟩⟦12⟧⟨241⟩⟦115⟧⟨242⟩⟦198⟧⟨243⟩⟦36⟧⟨244⟩⟦33⟧⟨245⟩⟦72⟧⟨246⟩⟦86⟧⟨247⟩⟦44⟧⟨248⟩
+[Off Limits (1953 film)] ⟦226⟧⟨249⟩⟦143⟧⟨250⟩⟦81⟧⟨251⟩⟦99⟧⟨252⟩⟦236⟧⟨253⟩⟦128⟧⟨254⟩⟦205⟧⟨255⟩⟦53⟧⟨256⟩⟦93⟧⟨257⟩⟦165⟧⟨258⟩⟦220⟧⟨259⟩⟦145⟧⟨260⟩
+[The Extraordinary Seaman] ⟦211⟧⟨261⟩⟦7⟧⟨262⟩⟦57⟧⟨263⟩⟦255⟧⟨264⟩⟦75⟧⟨265⟩⟦102⟧⟨266⟩⟦62⟧⟨267⟩⟦73⟧⟨268⟩⟦28⟧⟨269⟩⟦125⟧⟨270⟩⟦98⟧⟨271⟩
+[The Extraordinary Seaman] ⟨272⟩⟦88⟧⟨273⟩⟦142⟧⟨274⟩⟦209⟧⟨275⟩⟦68⟧⟨276⟩⟦70⟧⟨277⟩⟦70⟧⟨278⟩
+[The Extraordinary Seaman] ⟨279⟩⟦70⟧⟨280⟩⟦70⟧⟨281⟩
+[The Extraordinary Seaman] ⟨282⟩⟦221⟧⟨283⟩⟦132⟧⟨284⟩⟦216⟧⟨285⟩⟦75⟧⟨286⟩⟦125⟧⟨287⟩⟦124⟧⟨288⟩
+[Mickey Rooney Jr.] ⟦126⟧⟨289⟩⟦103⟧⟨290⟩⟦30⟧⟨291⟩⟦25⟧⟨292⟩⟦210⟧⟨293⟩⟦180⟧⟨294⟩⟦196⟧⟨295⟩⟦25⟧⟨296⟩
+[Mickey Rooney Jr.] ⟨297⟩⟦231⟧⟨298⟩⟦14⟧⟨299⟩⟦132⟧⟨300⟩⟦250⟧⟨301⟩⟦146⟧⟨302⟩⟦58⟧⟨303⟩
+[Mickey Rooney Jr.] ⟨304⟩⟦9⟧⟨305⟩⟦32⟧⟨306⟩⟦129⟧⟨307⟩⟦83⟧⟨308⟩⟦48⟧⟨309⟩
+[The Adventures of the Black Stallion] ⟦197⟧⟨310⟩⟦201⟧⟨311⟩⟦20⟧⟨312⟩⟦191⟧⟨313⟩⟦171⟧⟨314⟩⟦125⟧⟨315⟩⟦157⟧⟨316⟩⟦21⟧⟨317⟩⟦247⟧⟨318⟩⟦19⟧⟨319⟩⟦94⟧⟨320⟩⟦150⟧⟨321⟩⟦202⟧⟨322⟩⟦41⟧⟨323⟩⟦171⟧⟨324⟩⟦254⟧⟨325⟩
+[The Adventures of the Black Stallion] ⟦232⟧⟨326⟩⟦171⟧⟨327⟩⟦212⟧⟨328⟩⟦261⟧⟨329⟩⟦170⟧⟨330⟩⟦121⟧⟨331⟩⟦49⟧⟨332⟩⟦49⟧⟨333⟩
+[The Adventures of the Black Stallion] ⟨334⟩⟦152⟧⟨335⟩⟦152⟧⟨336⟩⟦237⟧⟨337⟩⟦258⟧⟨338⟩
+[The Adventures of the Black Stallion] ⟦125⟧⟨339⟩⟦224⟧⟨340⟩⟦51⟧⟨341⟩⟦122⟧⟨342⟩⟦2⟧⟨343⟩⟦89⟧⟨344⟩⟦163⟧⟨345⟩⟦233⟧⟨346⟩⟦175⟧⟨347⟩
+
+[user]
+
+问题：
+How long did the career span of the actor who starred with Mickey Rooney and Marilyn Maxwell in Off Limits?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

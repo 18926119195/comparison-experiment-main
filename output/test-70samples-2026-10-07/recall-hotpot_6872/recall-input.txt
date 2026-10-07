@@ -1,0 +1,494 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , The Abraham Lincoln Bicentennial Foundation
+⟦2⟧ = "A Documentary History
+⟦3⟧ = "Conversations
+⟦4⟧ = "Lincoln
+⟦5⟧ = "Money
+⟦6⟧ = "Rails
+⟦7⟧ = "The Case
+⟦8⟧ = "The Law Practice
+⟦9⟧ = "The Open Mind
+⟦10⟧ = "The True Gold Standard
+⟦11⟧ = 12 ft ) bronze statue
+⟦12⟧ = 16th President
+⟦13⟧ = 23 years
+⟦14⟧ = a 1982 campaign
+⟦15⟧ = a 2005 book
+⟦16⟧ = a bed
+⟦17⟧ = a Birmingham Jail
+⟦18⟧ = a circuit
+⟦19⟧ = a close male friend
+⟦20⟧ = a comprehensive list
+⟦21⟧ = a crowd
+⟦22⟧ = a detached relationship
+⟦23⟧ = a freely accessible comprehensive electronic edition
+⟦24⟧ = a member
+⟦25⟧ = a possible lover
+⟦26⟧ = a project
+⟦27⟧ = a prominent writer
+⟦28⟧ = a public affairs television show
+⟦29⟧ = a public policy research
+⟦30⟧ = a recent alumni
+⟦31⟧ = a Roger Hertog Fellow
+⟦32⟧ = a scholar
+⟦33⟧ = a script consultant
+⟦34⟧ = a secondary school
+⟦35⟧ = a selective print edition
+⟦36⟧ = a senior partner
+⟦37⟧ = a speech
+⟦38⟧ = a topic
+⟦39⟧ = a Trustee
+⟦40⟧ = a University Professor
+⟦41⟧ = a verbatim anthology
+⟦42⟧ = Abraham Lincoln
+⟦43⟧ = Abraham Lincoln High School
+⟦44⟧ = Abraham Lincoln II
+⟦45⟧ = Abraham Lincoln’s 200th birthday
+⟦46⟧ = achievement
+⟦47⟧ = addition
+⟦48⟧ = admissions
+⟦49⟧ = affairs
+⟦50⟧ = afternoon
+⟦51⟧ = ALBC
+⟦52⟧ = alumni
+⟦53⟧ = amateur historian
+⟦54⟧ = American history
+⟦55⟧ = an American investment banker
+⟦56⟧ = an honors seminar
+⟦57⟧ = an investment firm
+⟦58⟧ = an Oval Office ceremony
+⟦59⟧ = an urban public high school
+⟦60⟧ = anthology
+⟦61⟧ = approximately 2100-2700 students
+⟦62⟧ = April
+⟦63⟧ = armies
+⟦64⟧ = art
+⟦65⟧ = artist
+⟦66⟧ = attention
+⟦67⟧ = audience
+⟦68⟧ = August
+⟦69⟧ = Augustus Saint-Gaudens
+⟦70⟧ = author
+⟦71⟧ = award
+⟦72⟧ = award-winning websites
+⟦73⟧ = awards
+⟦74⟧ = banker
+⟦75⟧ = Basler
+⟦76⟧ = bed
+⟦77⟧ = bibliography
+⟦78⟧ = birthday
+⟦79⟧ = book
+⟦80⟧ = books
+⟦81⟧ = bronze
+⟦82⟧ = businessman
+⟦83⟧ = California
+⟦84⟧ = campaign
+⟦85⟧ = candidate
+⟦86⟧ = career
+⟦87⟧ = Catholicism
+⟦88⟧ = century
+⟦89⟧ = ceremony
+⟦90⟧ = chair
+⟦91⟧ = chairman
+⟦92⟧ = Chicago
+⟦93⟧ = Chicago's Grant Park
+⟦94⟧ = chief spokesman
+⟦95⟧ = children
+⟦96⟧ = circuit
+⟦97⟧ = co
+⟦98⟧ = Co.
+⟦99⟧ = commemoration
+⟦100⟧ = commission
+⟦101⟧ = commissioners
+⟦102⟧ = Communications
+⟦103⟧ = companion
+⟦104⟧ = Congress
+⟦105⟧ = consultant
+⟦106⟧ = contrast
+⟦107⟧ = contributions
+⟦108⟧ = Conversations
+⟦109⟧ = correspondence
+⟦110⟧ = creator
+⟦111⟧ = crowd
+⟦112⟧ = culture
+⟦113⟧ = death
+⟦114⟧ = debate
+⟦115⟧ = decades
+⟦116⟧ = December
+⟦117⟧ = dedication
+⟦118⟧ = Democratic candidate Mario Cuomo
+⟦119⟧ = Des Moines
+⟦120⟧ = development
+⟦121⟧ = digitizing
+⟦122⟧ = Distinguished Visiting Scholar
+⟦123⟧ = district
+⟦124⟧ = documents
+⟦125⟧ = economics
+⟦126⟧ = economist
+⟦127⟧ = edition
+⟦128⟧ = education
+⟦129⟧ = election
+⟦130⟧ = Elie Wiesel
+⟦131⟧ = film
+⟦132⟧ = firm
+⟦133⟧ = five secondary schools
+⟦134⟧ = foundation
+⟦135⟧ = four children
+⟦136⟧ = four other awards
+⟦137⟧ = friend
+⟦138⟧ = Gettysburg
+⟦139⟧ = Gold
+⟦140⟧ = government
+⟦141⟧ = government relations
+⟦142⟧ = Governor
+⟦143⟧ = grades
+⟦144⟧ = grandson
+⟦145⟧ = greater attention
+⟦146⟧ = half
+⟦147⟧ = Harold Holzer
+⟦148⟧ = Harrisburg
+⟦149⟧ = He
+⟦150⟧ = Heffner
+⟦151⟧ = his book
+⟦152⟧ = his contributions
+⟦153⟧ = his death
+⟦154⟧ = his fellow commissioners
+⟦155⟧ = his professional career
+⟦156⟧ = his wife
+⟦157⟧ = his work
+⟦158⟧ = historian
+⟦159⟧ = History
+⟦160⟧ = Holzer
+⟦161⟧ = honors
+⟦162⟧ = host
+⟦163⟧ = Hunter College
+⟦164⟧ = important public documents
+⟦165⟧ = incoming correspondence
+⟦166⟧ = Independence
+⟦167⟧ = institution
+⟦168⟧ = investment
+⟦169⟧ = Iowa
+⟦170⟧ = issue
+⟦171⟧ = June
+⟦172⟧ = L. E. Lehrman
+⟦173⟧ = law
+⟦174⟧ = Lehrman
+⟦175⟧ = letters
+⟦176⟧ = Lewis E. "Lew" Lehrman
+⟦177⟧ = life
+⟦178⟧ = Lincoln
+⟦179⟧ = Lincoln High Educational Complex
+⟦180⟧ = Lincoln High School
+⟦181⟧ = Lincoln Park
+⟦182⟧ = Lincoln's letters
+⟦183⟧ = Lincoln's only grandson
+⟦184⟧ = list
+⟦185⟧ = littles
+⟦186⟧ = locating
+⟦187⟧ = lover
+⟦188⟧ = major news publications
+⟦189⟧ = making foundation
+⟦190⟧ = Mary Todd
+⟦191⟧ = mascot
+⟦192⟧ = materials
+⟦193⟧ = member
+⟦194⟧ = Mind
+⟦195⟧ = monetary policy
+⟦196⟧ = months
+⟦197⟧ = movie
+⟦198⟧ = multicultural audience development
+⟦199⟧ = nation
+⟦200⟧ = national political prominence
+⟦201⟧ = neighborhood
+⟦202⟧ = neighborhoods
+⟦203⟧ = New York
+⟦204⟧ = New York University
+⟦205⟧ = news
+⟦206⟧ = nicknames
+⟦207⟧ = nine years
+⟦208⟧ = Nobel Peace Prize winner Elie Wiesel
+⟦209⟧ = non-legal, pre-presidential materials
+⟦210⟧ = November
+⟦211⟧ = only two percentage points
+⟦212⟧ = organization
+⟦213⟧ = original source documents
+⟦214⟧ = other places
+⟦215⟧ = others
+⟦216⟧ = part
+⟦217⟧ = partner
+⟦218⟧ = Pennsylvania
+⟦219⟧ = Peoria
+⟦220⟧ = percentage
+⟦221⟧ = places
+⟦222⟧ = points
+⟦223⟧ = policy
+⟦224⟧ = politician
+⟦225⟧ = president
+⟦226⟧ = President Abraham Lincoln
+⟦227⟧ = President Bill Clinton
+⟦228⟧ = President George W. Bush
+⟦229⟧ = President Lincoln's nicknames
+⟦230⟧ = presidential materials
+⟦231⟧ = primary sources
+⟦232⟧ = print
+⟦233⟧ = project
+⟦234⟧ = prominence
+⟦235⟧ = psychologist C. A. Tripp
+⟦236⟧ = Public Affairs
+⟦237⟧ = Public Policy
+⟦238⟧ = publication
+⟦239⟧ = publications
+⟦240⟧ = Rails
+⟦241⟧ = readers
+⟦242⟧ = relations
+⟦243⟧ = relationship
+⟦244⟧ = replicas
+⟦245⟧ = Republican politician
+⟦246⟧ = research
+⟦247⟧ = responsibility
+⟦248⟧ = Richard Douglas Heffner
+⟦249⟧ = Richard Gilder
+⟦250⟧ = Roy Basler
+⟦251⟧ = Rutgers University
+⟦252⟧ = San Diego
+⟦253⟧ = Schochen books
+⟦254⟧ = scholar
+⟦255⟧ = scholars
+⟦256⟧ = school
+⟦257⟧ = schools
+⟦258⟧ = script
+⟦259⟧ = sculpture
+⟦260⟧ = Second Edition
+⟦261⟧ = seminar
+⟦262⟧ = Senior Vice President
+⟦263⟧ = series
+⟦264⟧ = Series II
+⟦265⟧ = Series III
+⟦266⟧ = services
+⟦267⟧ = several months
+⟦268⟧ = several replicas
+⟦269⟧ = sexuality
+⟦270⟧ = show
+⟦271⟧ = simply Lincoln
+⟦272⟧ = size
+⟦273⟧ = Soldiers
+⟦274⟧ = some new documents
+⟦275⟧ = some scholars
+⟦276⟧ = source
+⟦277⟧ = sources
+⟦278⟧ = Southeast San Diego
+⟦279⟧ = speech
+⟦280⟧ = spokesman
+⟦281⟧ = sports
+⟦282⟧ = Standing Lincoln
+⟦283⟧ = statue
+⟦284⟧ = students
+⟦285⟧ = study
+⟦286⟧ = successor
+⟦287⟧ = sunset
+⟦288⟧ = system
+⟦289⟧ = team
+⟦290⟧ = television
+⟦291⟧ = terms
+⟦292⟧ = the "Lincoln Institute
+⟦293⟧ = the "Lincoln Railsplitters
+⟦294⟧ = the "New York Evening Post
+⟦295⟧ = the "New York Times
+⟦296⟧ = the "Rail Splitter
+⟦297⟧ = the "Wall Street Journal
+⟦298⟧ = the "Washington Post
+⟦299⟧ = the 16th President
+⟦300⟧ = the 16th United States president Abraham Lincoln
+⟦301⟧ = the 19th century
+⟦302⟧ = the Abraham Lincoln Bicentennial Commission
+⟦303⟧ = The Abraham Lincoln Bicentennial Commission sunset
+⟦304⟧ = The Abraham Lincoln Bicentennial Foundation
+⟦305⟧ = the Advisory Committee
+⟦306⟧ = the afternoon
+⟦307⟧ = the ALBC's successor organization
+⟦308⟧ = the American Civil War
+⟦309⟧ = the American Civil War Era
+⟦310⟧ = The artist
+⟦311⟧ = the author
+⟦312⟧ = the Battle
+⟦313⟧ = the book
+⟦314⟧ = the chairman
+⟦315⟧ = The Collected Works
+⟦316⟧ = the Coming World Order
+⟦317⟧ = the commemoration
+⟦318⟧ = the commission
+⟦319⟧ = the Confederacy
+⟦320⟧ = the creator
+⟦321⟧ = the dedication
+⟦322⟧ = the Des Moines Public Schools
+⟦323⟧ = the district
+⟦324⟧ = the election
+⟦325⟧ = the Encanto neighborhoods
+⟦326⟧ = The Gettysburg Address
+⟦327⟧ = the Gettysburg Address and Martin Luther King's Letter
+⟦328⟧ = the Gilder Lehrman Lincoln Prize
+⟦329⟧ = The Intimate World
+⟦330⟧ = The issue
+⟦331⟧ = the Jonathan F. Fanton Director
+⟦332⟧ = the K-12 education system
+⟦333⟧ = the Lehrman Institute
+⟦334⟧ = the Lincoln Forum
+⟦335⟧ = the Lincoln Park neighborhood
+⟦336⟧ = The Man
+⟦337⟧ = The Medal
+⟦338⟧ = The Metropolitan Museum
+⟦339⟧ = the most important achievement American sculpture
+⟦340⟧ = the most important sculpture
+⟦341⟧ = the movie
+⟦342⟧ = the nation's largest art institution
+⟦343⟧ = the National Humanities Medal
+⟦344⟧ = the New York City Comptroller
+⟦345⟧ = the New-York Historical Society
+⟦346⟧ = the official young readers' companion book
+⟦347⟧ = the ongoing study
+⟦348⟧ = The original statue
+⟦349⟧ = the Papers
+⟦350⟧ = the political culture
+⟦351⟧ = the Power
+⟦352⟧ = the President
+⟦353⟧ = the Press
+⟦354⟧ = the Pride
+⟦355⟧ = the publication
+⟦356⟧ = the Roosevelt House Public Policy Institute
+⟦357⟧ = the San Diego Unified School District
+⟦358⟧ = the school
+⟦359⟧ = The school sports team
+⟦360⟧ = the sculpture
+⟦361⟧ = The sexuality
+⟦362⟧ = the six decades
+⟦363⟧ = the Soldiers' National Cemetery
+⟦364⟧ = the South Side
+⟦365⟧ = the Steven Spielberg film
+⟦366⟧ = the study
+⟦367⟧ = the successor organization
+⟦368⟧ = the time
+⟦369⟧ = The Turning Point
+⟦370⟧ = the U.S. Abraham Lincoln Bicentennial Commission
+⟦371⟧ = the Union armies
+⟦372⟧ = the United States
+⟦373⟧ = the United States Abraham Lincoln Bicentennial Commission
+⟦374⟧ = the unveiling
+⟦375⟧ = the White House
+⟦376⟧ = the world
+⟦377⟧ = the year
+⟦378⟧ = the young Lincoln
+⟦379⟧ = The Zahava and Moshael Straus Center
+⟦380⟧ = Their mascot
+⟦381⟧ = their project
+⟦382⟧ = This bibliography
+⟦383⟧ = this series
+⟦384⟧ = Thursday
+⟦385⟧ = time
+⟦386⟧ = topic
+⟦387⟧ = Torah
+⟦388⟧ = U.S. President Abraham Lincoln
+⟦389⟧ = United States
+⟦390⟧ = unveiling
+⟦391⟧ = visitor
+⟦392⟧ = visitor services
+⟦393⟧ = websites
+⟦394⟧ = Western Thought
+⟦395⟧ = wife
+⟦396⟧ = winner
+⟦397⟧ = women
+⟦398⟧ = work
+⟦399⟧ = works
+⟦400⟧ = world
+⟦401⟧ = writer
+⟦402⟧ = writings
+⟦403⟧ = year
+⟦404⟧ = years
+⟦405⟧ = Yeshiva University
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Abraham Lincoln High School (Des Moines, Iowa)] ⟦43⟧⟨1⟩⟦180⟧⟨2⟩⟦178⟧⟨3⟩⟦34⟧⟨4⟩⟦256⟧⟨5⟩⟦119⟧⟨6⟩⟦169⟧⟨7⟩⟦389⟧⟨8⟩
+[Abraham Lincoln High School (Des Moines, Iowa)] ⟨9⟩⟦133⟧⟨10⟩⟦257⟧⟨11⟩⟦323⟧⟨12⟩⟦123⟧⟨13⟩⟦322⟧⟨14⟩⟦300⟧⟨15⟩⟦225⟧⟨16⟩
+[Abraham Lincoln High School (Des Moines, Iowa)] ⟦359⟧⟨17⟩⟦256⟧⟨18⟩⟦281⟧⟨19⟩⟦289⟧⟨20⟩⟦229⟧⟨21⟩⟦206⟧⟨22⟩⟦296⟧⟨23⟩⟦293⟧⟨24⟩⟦6⟧⟨25⟩⟦240⟧⟨26⟩
+[Abraham Lincoln High School (Des Moines, Iowa)] ⟨27⟩⟦380⟧⟨28⟩⟦191⟧⟨29⟩⟦358⟧⟨30⟩⟦256⟧⟨31⟩⟦30⟧⟨32⟩⟦52⟧⟨33⟩⟦42⟧⟨34⟩
+[Abraham Lincoln High School (Des Moines, Iowa)] ⟦358⟧⟨35⟩⟦256⟧⟨36⟩⟦354⟧⟨37⟩⟦364⟧⟨38⟩
+[Richard Heffner] ⟦248⟧⟨39⟩⟦68⟧⟨40⟩⟦116⟧⟨41⟩⟦320⟧⟨42⟩⟦110⟧⟨43⟩⟦162⟧⟨44⟩⟦162⟧⟨45⟩⟦9⟧⟨46⟩⟦194⟧⟨47⟩⟦28⟧⟨48⟩⟦49⟧⟨49⟩⟦290⟧⟨50⟩⟦270⟧⟨51⟩
+[Richard Heffner] ⟨52⟩⟦40⟧⟨53⟩⟦102⟧⟨54⟩⟦237⟧⟨55⟩⟦251⟧⟨56⟩⟦56⟧⟨57⟩⟦161⟧⟨58⟩⟦261⟧⟨59⟩⟦204⟧⟨60⟩
+[Richard Heffner] ⟨61⟩⟦311⟧⟨62⟩⟦70⟧⟨63⟩⟦2⟧⟨64⟩⟦159⟧⟨65⟩⟦372⟧⟨66⟩⟦41⟧⟨67⟩⟦60⟧⟨68⟩⟦164⟧⟨69⟩⟦124⟧⟨70⟩⟦54⟧⟨71⟩⟦159⟧⟨72⟩⟦166⟧⟨73⟩⟦327⟧⟨74⟩⟦17⟧⟨75⟩
+[Richard Heffner] ⟦150⟧⟨76⟩⟦208⟧⟨77⟩⟦396⟧⟨78⟩⟦355⟧⟨79⟩⟦238⟧⟨80⟩⟦3⟧⟨81⟩⟦108⟧⟨82⟩⟦130⟧⟨83⟩⟦253⟧⟨84⟩⟦80⟧⟨85⟩
+[Lewis Lehrman] ⟦176⟧⟨86⟩⟦148⟧⟨87⟩⟦218⟧⟨88⟩⟦55⟧⟨89⟩⟦168⟧⟨90⟩⟦74⟧⟨91⟩⟦82⟧⟨92⟩⟦82⟧⟨93⟩⟦245⟧⟨94⟩⟦224⟧⟨95⟩⟦126⟧⟨96⟩⟦126⟧⟨97⟩⟦53⟧⟨98⟩⟦158⟧⟨99⟩⟦347⟧⟨100⟩⟦285⟧⟨101⟩⟦54⟧⟨102⟩⟦159⟧⟨103⟩⟦213⟧⟨104⟩⟦276⟧⟨105⟩⟦124⟧⟨106⟩
+[Lewis Lehrman] ⟨107⟩⟦343⟧⟨108⟩⟦375⟧⟨109⟩⟦152⟧⟨110⟩⟦107⟧⟨111⟩⟦54⟧⟨112⟩⟦366⟧⟨113⟩⟦285⟧⟨114⟩⟦226⟧⟨115⟩⟦195⟧⟨116⟩⟦223⟧⟨117⟩
+[Lewis Lehrman] ⟦337⟧⟨118⟩⟦228⟧⟨119⟩
+[Lewis Lehrman] ⟨120⟩⟦87⟧⟨121⟩
+[Lewis Lehrman] ⟨122⟩⟦24⟧⟨123⟩⟦193⟧⟨124⟩⟦305⟧⟨125⟩⟦302⟧⟨126⟩⟦334⟧⟨127⟩
+[Lewis Lehrman] ⟨128⟩⟦47⟧⟨129⟩⟦47⟧⟨130⟩⟦5⟧⟨131⟩⟦316⟧⟨132⟩⟦7⟧⟨133⟩⟦139⟧⟨134⟩⟦174⟧⟨135⟩⟦178⟧⟨136⟩⟦219⟧⟨137⟩⟦369⟧⟨138⟩⟦10⟧⟨139⟩⟦260⟧⟨140⟩⟦5⟧⟨141⟩⟦139⟧⟨142⟩⟦139⟧⟨143⟩⟦159⟧⟨144⟩⟦159⟧⟨145⟩⟦4⟧⟨146⟩⟦185⟧⟨147⟩⟦185⟧⟨148⟩
+[Lewis Lehrman] ⟨149⟩⟦188⟧⟨150⟩⟦205⟧⟨151⟩⟦239⟧⟨152⟩⟦298⟧⟨153⟩⟦295⟧⟨154⟩⟦297⟧⟨155⟩⟦54⟧⟨156⟩⟦159⟧⟨157⟩⟦125⟧⟨158⟩⟦125⟧⟨159⟩
+[Lewis Lehrman] ⟨160⟩⟦174⟧⟨161⟩⟦292⟧⟨162⟩⟦71⟧⟨163⟩⟦72⟧⟨164⟩⟦393⟧⟨165⟩⟦299⟧⟨166⟩
+[Lewis Lehrman] ⟨167⟩⟦174⟧⟨168⟩⟦200⟧⟨169⟩⟦234⟧⟨170⟩⟦14⟧⟨171⟩⟦84⟧⟨172⟩⟦142⟧⟨173⟩⟦203⟧⟨174⟩⟦118⟧⟨175⟩⟦85⟧⟨176⟩⟦324⟧⟨177⟩⟦129⟧⟨178⟩⟦211⟧⟨179⟩⟦220⟧⟨180⟩⟦222⟧⟨181⟩
+[Lewis Lehrman] ⟨182⟩⟦36⟧⟨183⟩⟦217⟧⟨184⟩⟦172⟧⟨185⟩⟦98⟧⟨186⟩⟦57⟧⟨187⟩⟦168⟧⟨188⟩⟦132⟧⟨189⟩
+[Lewis Lehrman] ⟨190⟩⟦314⟧⟨191⟩⟦91⟧⟨192⟩⟦333⟧⟨193⟩⟦29⟧⟨194⟩⟦223⟧⟨195⟩⟦246⟧⟨196⟩⟦189⟧⟨197⟩⟦134⟧⟨198⟩
+[Lewis Lehrman] ⟦149⟧⟨199⟩⟦249⟧⟨200⟩⟦343⟧⟨201⟩⟦58⟧⟨202⟩⟦89⟧⟨203⟩⟦384⟧⟨204⟩⟦210⟧⟨205⟩
+[Gettysburg Address] ⟦326⟧⟨206⟩⟦37⟧⟨207⟩⟦279⟧⟨208⟩⟦388⟧⟨209⟩⟦54⟧⟨210⟩⟦159⟧⟨211⟩
+[Gettysburg Address] ⟨212⟩⟦178⟧⟨213⟩⟦308⟧⟨214⟩⟦306⟧⟨215⟩⟦50⟧⟨216⟩⟦384⟧⟨217⟩⟦210⟧⟨218⟩⟦321⟧⟨219⟩⟦117⟧⟨220⟩⟦363⟧⟨221⟩⟦273⟧⟨222⟩⟦138⟧⟨223⟩⟦218⟧⟨224⟩⟦146⟧⟨225⟩⟦196⟧⟨226⟩⟦371⟧⟨227⟩⟦63⟧⟨228⟩⟦319⟧⟨229⟩⟦312⟧⟨230⟩⟦138⟧⟨231⟩
+[Abraham Lincoln: The Man] ⟦42⟧⟨232⟩⟦336⟧⟨233⟩⟦282⟧⟨234⟩⟦177⟧⟨235⟩⟦177⟧⟨236⟩⟦272⟧⟨237⟩⟦11⟧⟨238⟩⟦81⟧⟨239⟩⟦283⟧⟨240⟩⟦42⟧⟨241⟩⟦299⟧⟨242⟩⟦225⟧⟨243⟩⟦372⟧⟨244⟩
+[Abraham Lincoln: The Man] ⟦348⟧⟨245⟩⟦283⟧⟨246⟩⟦181⟧⟨247⟩⟦92⟧⟨248⟩⟦268⟧⟨249⟩⟦244⟧⟨250⟩⟦214⟧⟨251⟩⟦221⟧⟨252⟩⟦376⟧⟨253⟩⟦400⟧⟨254⟩
+[Abraham Lincoln: The Man] ⟨255⟩⟦69⟧⟨256⟩⟦340⟧⟨257⟩⟦259⟧⟨258⟩⟦178⟧⟨259⟩⟦301⟧⟨260⟩⟦88⟧⟨261⟩
+[Abraham Lincoln: The Man] ⟨262⟩⟦368⟧⟨263⟩⟦385⟧⟨264⟩⟦294⟧⟨265⟩⟦339⟧⟨266⟩⟦46⟧⟨267⟩⟦259⟧⟨268⟩
+[Abraham Lincoln: The Man] ⟦44⟧⟨269⟩⟦183⟧⟨270⟩⟦144⟧⟨271⟩⟦21⟧⟨272⟩⟦111⟧⟨273⟩⟦374⟧⟨274⟩⟦390⟧⟨275⟩
+[Abraham Lincoln: The Man] ⟦310⟧⟨276⟩⟦65⟧⟨277⟩⟦360⟧⟨278⟩⟦259⟧⟨279⟩⟦93⟧⟨280⟩
+[Sexuality of Abraham Lincoln] ⟦361⟧⟨281⟩⟦269⟧⟨282⟩⟦42⟧⟨283⟩⟦299⟧⟨284⟩⟦372⟧⟨285⟩⟦38⟧⟨286⟩⟦386⟧⟨287⟩⟦114⟧⟨288⟩⟦114⟧⟨289⟩⟦275⟧⟨290⟩⟦255⟧⟨291⟩
+[Sexuality of Abraham Lincoln] ⟦178⟧⟨292⟩⟦190⟧⟨293⟩⟦210⟧⟨294⟩⟦153⟧⟨295⟩⟦113⟧⟨296⟩⟦62⟧⟨297⟩⟦135⟧⟨298⟩⟦95⟧⟨299⟩
+[Sexuality of Abraham Lincoln] ⟦330⟧⟨300⟩⟦170⟧⟨301⟩⟦145⟧⟨302⟩⟦66⟧⟨303⟩⟦15⟧⟨304⟩⟦79⟧⟨305⟩⟦329⟧⟨306⟩⟦42⟧⟨307⟩⟦235⟧⟨308⟩⟦178⟧⟨309⟩⟦22⟧⟨310⟩⟦243⟧⟨311⟩⟦397⟧⟨312⟩⟦397⟧⟨313⟩⟦106⟧⟨314⟩⟦106⟧⟨315⟩⟦19⟧⟨316⟩⟦137⟧⟨317⟩⟦16⟧⟨318⟩⟦76⟧⟨319⟩
+[Sexuality of Abraham Lincoln] ⟨320⟩⟦313⟧⟨321⟩⟦79⟧⟨322⟩⟦178⟧⟨323⟩⟦178⟧⟨324⟩⟦267⟧⟨325⟩⟦196⟧⟨326⟩⟦377⟧⟨327⟩⟦403⟧⟨328⟩⟦173⟧⟨329⟩⟦173⟧⟨330⟩⟦18⟧⟨331⟩⟦96⟧⟨332⟩⟦156⟧⟨333⟩⟦395⟧⟨334⟩
+[Sexuality of Abraham Lincoln] ⟨335⟩⟦27⟧⟨336⟩⟦401⟧⟨337⟩⟦19⟧⟨338⟩⟦137⟧⟨339⟩⟦378⟧⟨340⟩⟦25⟧⟨341⟩⟦187⟧⟨342⟩⟦368⟧⟨343⟩⟦385⟧⟨344⟩
+[Harold Holzer] ⟦147⟧⟨345⟩⟦32⟧⟨346⟩⟦254⟧⟨347⟩⟦42⟧⟨348⟩⟦350⟧⟨349⟩⟦112⟧⟨350⟩⟦309⟧⟨351⟩
+[Harold Holzer] ⟨352⟩⟦328⟧⟨353⟩⟦136⟧⟨354⟩⟦73⟧⟨355⟩⟦151⟧⟨356⟩⟦79⟧⟨357⟩⟦178⟧⟨358⟩⟦351⟧⟨359⟩⟦353⟧⟨360⟩
+[Harold Holzer] ⟦160⟧⟨361⟩⟦207⟧⟨362⟩⟦404⟧⟨363⟩⟦97⟧⟨364⟩⟦97⟧⟨365⟩⟦91⟧⟨366⟩⟦91⟧⟨367⟩⟦373⟧⟨368⟩⟦51⟧⟨369⟩⟦318⟧⟨370⟩⟦100⟧⟨371⟩⟦227⟧⟨372⟩⟦97⟧⟨373⟩⟦97⟧⟨374⟩⟦90⟧⟨375⟩⟦90⟧⟨376⟩⟦154⟧⟨377⟩⟦101⟧⟨378⟩
+[Harold Holzer] ⟨379⟩⟦171⟧⟨380⟩⟦91⟧⟨381⟩⟦91⟧⟨382⟩⟦307⟧⟨383⟩⟦286⟧⟨384⟩⟦212⟧⟨385⟩⟦1⟧⟨386⟩
+[Harold Holzer] ⟨387⟩⟦155⟧⟨388⟩⟦86⟧⟨389⟩⟦160⟧⟨390⟩⟦331⟧⟨391⟩⟦356⟧⟨392⟩⟦163⟧⟨393⟩
+[Harold Holzer] ⟨394⟩⟦262⟧⟨395⟩⟦236⟧⟨396⟩⟦338⟧⟨397⟩⟦64⟧⟨398⟩⟦203⟧⟨399⟩⟦13⟧⟨400⟩⟦404⟧⟨401⟩⟦94⟧⟨402⟩⟦280⟧⟨403⟩⟦247⟧⟨404⟩⟦247⟧⟨405⟩⟦140⟧⟨406⟩⟦141⟧⟨407⟩⟦242⟧⟨408⟩⟦48⟧⟨409⟩⟦48⟧⟨410⟩⟦391⟧⟨411⟩⟦392⟧⟨412⟩⟦266⟧⟨413⟩⟦198⟧⟨414⟩⟦67⟧⟨415⟩⟦120⟧⟨416⟩⟦342⟧⟨417⟩⟦199⟧⟨418⟩⟦64⟧⟨419⟩⟦167⟧⟨420⟩
+[Harold Holzer] ⟨421⟩⟦39⟧⟨422⟩⟦338⟧⟨423⟩⟦344⟧⟨424⟩
+[Harold Holzer] ⟨425⟩⟦160⟧⟨426⟩⟦31⟧⟨427⟩⟦345⟧⟨428⟩
+[Harold Holzer] ⟨429⟩⟦122⟧⟨430⟩⟦379⟧⟨431⟩⟦387⟧⟨432⟩⟦394⟧⟨433⟩⟦405⟧⟨434⟩
+[Harold Holzer] ⟨435⟩⟦33⟧⟨436⟩⟦258⟧⟨437⟩⟦105⟧⟨438⟩⟦365⟧⟨439⟩⟦131⟧⟨440⟩⟦346⟧⟨441⟩⟦241⟧⟨442⟩⟦103⟧⟨443⟩⟦79⟧⟨444⟩⟦341⟧⟨445⟩⟦197⟧⟨446⟩
+[Lincoln High School (San Diego)] ⟦43⟧⟨447⟩⟦179⟧⟨448⟩⟦180⟧⟨449⟩⟦271⟧⟨450⟩⟦59⟧⟨451⟩⟦256⟧⟨452⟩⟦252⟧⟨453⟩⟦83⟧⟨454⟩⟦389⟧⟨455⟩
+[Lincoln High School (San Diego)] ⟨456⟩⟦216⟧⟨457⟩⟦216⟧⟨458⟩⟦357⟧⟨459⟩
+[Lincoln High School (San Diego)] ⟨460⟩⟦61⟧⟨461⟩⟦284⟧⟨462⟩⟦143⟧⟨463⟩⟦143⟧⟨464⟩⟦332⟧⟨465⟩⟦128⟧⟨466⟩⟦288⟧⟨467⟩
+[Lincoln High School (San Diego)] ⟨468⟩⟦335⟧⟨469⟩⟦201⟧⟨470⟩⟦278⟧⟨471⟩⟦216⟧⟨472⟩⟦216⟧⟨473⟩⟦325⟧⟨474⟩⟦202⟧⟨475⟩
+[Lincoln High School (San Diego)] ⟨476⟩⟦226⟧⟨477⟩
+[Abraham Lincoln Bicentennial Foundation] ⟦304⟧⟨478⟩⟦367⟧⟨479⟩⟦286⟧⟨480⟩⟦212⟧⟨481⟩⟦370⟧⟨482⟩⟦51⟧⟨483⟩⟦104⟧⟨484⟩⟦352⟧⟨485⟩⟦372⟧⟨486⟩⟦317⟧⟨487⟩⟦99⟧⟨488⟩⟦45⟧⟨489⟩⟦78⟧⟨490⟩
+[Abraham Lincoln Bicentennial Foundation] ⟦303⟧⟨491⟩⟦287⟧⟨492⟩⟦62⟧⟨493⟩
+[Bibliography of Abraham Lincoln] ⟦382⟧⟨494⟩⟦77⟧⟨495⟩⟦42⟧⟨496⟩⟦20⟧⟨497⟩⟦184⟧⟨498⟩⟦399⟧⟨499⟩⟦42⟧⟨500⟩⟦12⟧⟨501⟩⟦372⟧⟨502⟩
+[Bibliography of Abraham Lincoln] ⟨503⟩⟦291⟧⟨504⟩⟦291⟧⟨505⟩⟦231⟧⟨506⟩⟦277⟧⟨507⟩⟦182⟧⟨508⟩⟦175⟧⟨509⟩⟦402⟧⟨510⟩⟦402⟧⟨511⟩⟦255⟧⟨512⟩⟦255⟧⟨513⟩⟦315⟧⟨514⟩⟦42⟧⟨515⟩⟦250⟧⟨516⟩⟦215⟧⟨517⟩⟦215⟧⟨518⟩
+[Bibliography of Abraham Lincoln] ⟨519⟩⟦402⟧⟨520⟩⟦402⟧⟨521⟩⟦178⟧⟨522⟩⟦165⟧⟨523⟩⟦109⟧⟨524⟩
+[Bibliography of Abraham Lincoln] ⟨525⟩⟦362⟧⟨526⟩⟦115⟧⟨527⟩⟦75⟧⟨528⟩⟦157⟧⟨529⟩⟦398⟧⟨530⟩⟦274⟧⟨531⟩⟦124⟧⟨532⟩⟦178⟧⟨533⟩
+[Bibliography of Abraham Lincoln] ⟨534⟩⟦26⟧⟨535⟩⟦233⟧⟨536⟩⟦349⟧⟨537⟩⟦42⟧⟨538⟩⟦23⟧⟨539⟩⟦127⟧⟨540⟩⟦124⟧⟨541⟩⟦124⟧⟨542⟩⟦42⟧⟨543⟩
+[Bibliography of Abraham Lincoln] ⟦349⟧⟨544⟩⟦42⟧⟨545⟩⟦381⟧⟨546⟩⟦233⟧⟨547⟩⟦8⟧⟨548⟩⟦42⟧⟨549⟩
+[Bibliography of Abraham Lincoln] ⟨550⟩⟦8⟧⟨551⟩⟦42⟧⟨552⟩⟦260⟧⟨553⟩⟦35⟧⟨554⟩⟦232⟧⟨555⟩⟦127⟧⟨556⟩⟦383⟧⟨557⟩⟦263⟧⟨558⟩
+[Bibliography of Abraham Lincoln] ⟨559⟩⟦186⟧⟨560⟩⟦186⟧⟨561⟩⟦121⟧⟨562⟩⟦121⟧⟨563⟩⟦124⟧⟨564⟩⟦124⟧⟨565⟩⟦264⟧⟨566⟩⟦209⟧⟨567⟩⟦192⟧⟨568⟩⟦265⟧⟨569⟩⟦230⟧⟨570⟩⟦192⟧⟨571⟩
+
+[user]
+
+问题：
+What speech by Abraham Lincoln was part of Richard Heffner's A Documentary History of the United States?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

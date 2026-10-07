@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_5810",
+  "question": "In the muti-sport games usually held every four years between nations around the Mediterranean Sea, Fatma Lanouar is best known for winning gold in which event?",
+  "expectedAnswer": "1500 metres",
+  "predictedAnswer": "# 路径一：从人物条目直接提取赛事与项目\n\n步骤1：使用⟦71⟧⟦9⟧，提取 Fatma Lanouar 的身份信息——她是一名前女子中距离跑运动员（former female middle distance runner）。\n\n步骤2：综合⟦273⟧⟦198⟧⟦238⟧，提取她最著名的成就——两次（2001年和2005年）赢得女子1500米（the women's 1500 metres）金牌。\n\n步骤3：综合⟦208⟧⟦13⟧⟦266⟧⟦120⟦209⟧，确认“每四年在环地中海国家间举办的多项运动赛事”即地中海运动会（the Mediterranean Games）。\n\n结论：Fatma Lanouar 在地中海运动会中最著名的是赢得女子1500米金牌。\n\n# 路径二：从赛事条目反向验证\n\n步骤1：使用⟦208⟧⟦13⟧，提取地中海运动会的定义——一项多项运动赛事（a multi-sport games）。\n\n步骤2：综合⟦445⟧⟦447⟧⟦266⟧⟦448⟧⟦120⟧⟦450⟧⟦209⟧，确认该赛事通常每四年举办一次，参与国家位于地中海沿岸或非常接近地中海。\n\n步骤3：综合⟦71⟧⟦273⟧⟦238⟧，将 Fatma Lanouar 与“女子1500米”项目关联，确认她在该赛事中的金牌成就。\n\n结论：问题中描述的赛事为地中海运动会，Fatma Lanouar 在该赛事中赢得的是女子1500米金牌。\n\n# 路径三：通过奖牌记录交叉验证\n\n步骤1：使用⟦286⟧⟦230⟧⟦158⟧⟦177⟧，提取 Fatma Lanouar 还曾在2001年法语国家运动会（the 2001 Jeux de la Francophonie）获得银牌（silver medallist）。\n\n步骤2：综合⟦273⟧⟦198⟧⟦238⟧，对比她在不同赛事中的表现——最著名的是两次赢得女子1500米金牌，而非银牌项目。\n\n步骤3：综合⟦208⟧⟦13⟧⟦209⟧，确认问题所指赛事为地中海运动会，与法语国家运动会区分。\n\n结论：Fatma Lanouar 在地中海运动会中最著名的是女子1500米金牌，而非其他赛事的银牌。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦208⟧⟨445⟩⟦13⟧⟨446⟩⟨447⟩⟦266⟧⟨448⟩⟦120⟧⟦120⟧⟨449⟩⟨450⟩⟦209⟧",
+  "nounCount": 452,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6865,
+    "completion_tokens": 290,
+    "total_tokens": 7155,
+    "prompt_tokens_details": {
+      "cached_tokens": 6656
+    },
+    "prompt_cache_hit_tokens": 6656,
+    "prompt_cache_miss_tokens": 209
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 530,
+    "total_tokens": 1696,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1166
+  }
+}

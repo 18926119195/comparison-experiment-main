@@ -1,0 +1,91 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Testimony (2015 film)] ⟦244⟧⟨260⟩⟦7⟧⟦76⟧⟨262⟩⟨261⟩⟨263⟩⟦227⟧⟦174⟧⟨265⟩⟦250⟧⟨264⟩⟨266⟩⟦225⟧⟦110⟧⟨267⟩⟨268⟩⟦219⟧⟨269⟩⟦217⟧⟨270⟩⟦21⟧⟦177⟧⟨271⟩⟨272⟩⟦132⟧⟦175⟧⟨274⟩⟦83⟧⟨273⟩⟨275⟩ | ⟦244⟧
+[The Testimony (2015 film)] ⟨276⟩⟦257⟧⟨277⟩⟦43⟧⟨278⟩⟦196⟧⟨279⟩⟦139⟧⟨280⟩⟦137⟧⟨281⟩
+[Steve Tisch] ⟦197⟧⟨293⟩⟦31⟧⟨295⟩⟨294⟩⟨296⟩⟦49⟧⟦49⟧⟨297⟩⟨298⟩
+[Steve Tisch] ⟦84⟧⟦170⟧ | ⟦84⟧
+
+符号表：
+⟦7⟧ = a 2015 American short-documentary film
+⟦21⟧ = a result
+⟦31⟧ = an American film producer
+⟦43⟧ = Block
+⟦49⟧ = businessman
+⟦76⟧ = documentary
+⟦83⟧ = fighting
+⟦84⟧ = film
+⟦110⟧ = history
+⟦132⟧ = M23 rebellion fighting
+⟦137⟧ = Michael Sarnoski
+⟦139⟧ = Mitchell Block
+⟦170⟧ = producer
+⟦174⟧ = rape
+⟦175⟧ = rebellion
+⟦177⟧ = result
+⟦196⟧ = Steve Tisch
+⟦197⟧ = Steven Elliot Tisch
+⟦217⟧ = the Congo
+⟦219⟧ = the Democratic Republic
+⟦225⟧ = the history
+⟦227⟧ = the largest rape tribunal
+⟦244⟧ = The Testimony
+⟦250⟧ = tribunal
+⟦257⟧ = Vanessa Block
+
+占位符映射：
+⟨260⟩ =  is 
+⟨261⟩ = 
+⟨262⟩ =  
+⟨263⟩ =  which chronicles 
+⟨264⟩ = 
+⟨265⟩ =  
+⟨266⟩ =  in 
+⟨267⟩ = 
+⟨268⟩ =  of 
+⟨269⟩ =  of 
+⟨270⟩ =  as 
+⟨271⟩ = 
+⟨272⟩ =  of 
+⟨273⟩ = 
+⟨274⟩ =  
+⟨275⟩ = .
+⟨276⟩ =  It is directed and shot by 
+⟨277⟩ =  and produced by 
+⟨278⟩ = , 
+⟨279⟩ = , 
+⟨280⟩ =  and 
+⟨281⟩ = .
+⟨293⟩ =  (born February 14, 1949) is 
+⟨294⟩ = 
+⟨295⟩ =  
+⟨296⟩ =  and 
+⟨297⟩ = 
+⟨298⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The son of former Giants co-owner Bob Tisch worked with who to produce The Testimony?

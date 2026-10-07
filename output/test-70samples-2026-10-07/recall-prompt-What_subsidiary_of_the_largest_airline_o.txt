@@ -1,0 +1,344 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Taichung
+⟦2⟧ = (Chinese: 臺中快捷巴士
+⟦3⟧ = (IATA
+⟦4⟧ = (IBAF
+⟦5⟧ = (ROC
+⟦6⟧ = (RPK
+⟦7⟧ = 115 cities
+⟦8⟧ = 118 airports
+⟦9⟧ = 12,607 regular employees
+⟦10⟧ = 17.1 km
+⟦11⟧ = 21 stations
+⟦12⟧ = 25 countries
+⟦13⟧ = 29th
+⟦14⟧ = 300 flights
+⟦15⟧ = 68 destinations
+⟦16⟧ = a Bus Rapid Transit (BRT) system
+⟦17⟧ = a county
+⟦18⟧ = a fleet
+⟦19⟧ = a low-cost carrier
+⟦20⟧ = a major Indian international airline
+⟦21⟧ = a Malaysian low-cost airline
+⟦22⟧ = a member
+⟦23⟧ = a second major hub
+⟦24⟧ = a secondary hub
+⟦25⟧ = a youth team
+⟦26⟧ = affiliate
+⟦27⟧ = AirAsia Berhad
+⟦28⟧ = AirAsia Group
+⟦29⟧ = AirAsia India
+⟦30⟧ = AirAsia X
+⟦31⟧ = AirAsia's registered office
+⟦32⟧ = aircraft
+⟦33⟧ = airline
+⟦34⟧ = airlines
+⟦35⟧ = airport
+⟦36⟧ = airports
+⟦37⟧ = Amsterdam Airport Schiphol
+⟦38⟧ = an 18.2% passenger market share
+⟦39⟧ = an airline
+⟦40⟧ = an international airport
+⟦41⟧ = Asia
+⟦42⟧ = August
+⟦43⟧ = Australia
+⟦44⟧ = BA
+⟦45⟧ = both commercial and military purposes
+⟦46⟧ = British Airways
+⟦47⟧ = bus
+⟦48⟧ = buses
+⟦49⟧ = CAL
+⟦50⟧ = capacity
+⟦51⟧ = capital
+⟦52⟧ = cargo
+⟦53⟧ = carrier
+⟦54⟧ = central Taiwan
+⟦55⟧ = championships
+⟦56⟧ = Chandra Bose International Airport
+⟦57⟧ = Charter services
+⟦58⟧ = Chennai International Airport
+⟦59⟧ = Chhatrapati Shivaji International Airport
+⟦60⟧ = Chief Executive Officer
+⟦61⟧ = China
+⟦62⟧ = China Airlines
+⟦63⟧ = China Airlines Cargo
+⟦64⟧ = China Airlines Group
+⟦65⟧ = Chinese Taipei
+⟦66⟧ = Ching Chuan Kang Airport
+⟦67⟧ = cities
+⟦68⟧ = codeshare
+⟦69⟧ = company
+⟦70⟧ = conventional buses
+⟦71⟧ = cost
+⟦72⟧ = countries
+⟦73⟧ = county
+⟦74⟧ = creation
+⟦75⟧ = dedicated bus lane
+⟦76⟧ = demand
+⟦77⟧ = destinations
+⟦78⟧ = division
+⟦79⟧ = domestic and international flights
+⟦80⟧ = domestic and low-demand regional destinations
+⟦81⟧ = domestic and regional international flights
+⟦82⟧ = Don Mueang International Airport
+⟦83⟧ = employees
+⟦84⟧ = Europe
+⟦85⟧ = Fengyuan
+⟦86⟧ = flag
+⟦87⟧ = fleet
+⟦88⟧ = fleet size
+⟦89⟧ = flights
+⟦90⟧ = Four stadiums
+⟦91⟧ = freight
+⟦92⟧ = freighter
+⟦93⟧ = freighter aircraft
+⟦94⟧ = group
+⟦95⟧ = Hatta International Airport
+⟦96⟧ = haul
+⟦97⟧ = Hawaii
+⟦98⟧ = Hawaiian
+⟦99⟧ = Hawaiian Airlines
+⟦100⟧ = Hawaiian Holdings
+⟦101⟧ = head
+⟦102⟧ = Hindi
+⟦103⟧ = hold
+⟦104⟧ = Honolulu
+⟦105⟧ = Honolulu International Airport
+⟦106⟧ = host
+⟦107⟧ = hub
+⟦108⟧ = hubs
+⟦109⟧ = ICAO
+⟦110⟧ = Inc.
+⟦111⟧ = inception
+⟦112⟧ = India
+⟦113⟧ = IndiGo
+⟦114⟧ = Indira Gandhi International Airport
+⟦115⟧ = Indonesia AirAsia
+⟦116⟧ = international destinations
+⟦117⟧ = international flights
+⟦118⟧ = international operations
+⟦119⟧ = island
+⟦120⟧ = Its affiliate airlines Thai AirAsia
+⟦121⟧ = its creation
+⟦122⟧ = its head office
+⟦123⟧ = its inception
+⟦124⟧ = its main hub
+⟦125⟧ = Its other main hub
+⟦126⟧ = its parent airline's cargo-hold capacity
+⟦127⟧ = its parent company
+⟦128⟧ = its sister airline
+⟦129⟧ = Japan
+⟦130⟧ = Jet Airways
+⟦131⟧ = Jet Eyaravej
+⟦132⟧ = July
+⟦133⟧ = Kahului Airport
+⟦134⟧ = Kempegowda International Airport
+⟦135⟧ = kilometer
+⟦136⟧ = KLIA
+⟦137⟧ = km
+⟦138⟧ = Kuala Lumpur
+⟦139⟧ = Kuala Lumpur International Airport
+⟦140⟧ = lane
+⟦141⟧ = largest airline
+⟦142⟧ = length
+⟦143⟧ = line
+⟦144⟧ = London Gatwick Airport
+⟦145⟧ = London Heathrow Airport
+⟦146⟧ = long-haul routes
+⟦147⟧ = low-cost rival EasyJet
+⟦148⟧ = Mainland China
+⟦149⟧ = Malaysia
+⟦150⟧ = Mandarin Airlines
+⟦151⟧ = Mark Dunkerley
+⟦152⟧ = market
+⟦153⟧ = Maui
+⟦154⟧ = member
+⟦155⟧ = more than 165 destinations
+⟦156⟧ = Mumbai
+⟦157⟧ = name
+⟦158⟧ = Netaji Subhas
+⟦159⟧ = New Zealand
+⟦160⟧ = Ninoy Aquino International Airport
+⟦161⟧ = North America
+⟦162⟧ = November
+⟦163⟧ = numbers
+⟦164⟧ = Oceania
+⟦165⟧ = office
+⟦166⟧ = one time
+⟦167⟧ = operation
+⟦168⟧ = operations
+⟦169⟧ = over 1,400 flights
+⟦170⟧ = parent
+⟦171⟧ = participation
+⟦172⟧ = passenger
+⟦173⟧ = passenger numbers
+⟦174⟧ = passenger revenue
+⟦175⟧ = Petaling Jaya
+⟦176⟧ = Philippines AirAsia
+⟦177⟧ = Pool B
+⟦178⟧ = possible sanctions
+⟦179⟧ = Providence University
+⟦180⟧ = purposes
+⟦181⟧ = question
+⟦182⟧ = RCMQ
+⟦183⟧ = refusal
+⟦184⟧ = revenue
+⟦185⟧ = RMQ
+⟦186⟧ = road
+⟦187⟧ = routes
+⟦188⟧ = sanctions
+⟦189⟧ = scheduled services
+⟦190⟧ = secondary hubs
+⟦191⟧ = Selangor
+⟦192⟧ = Sepang
+⟦193⟧ = services
+⟦194⟧ = share
+⟦195⟧ = Singaporean airline group Tigerair Holdings
+⟦196⟧ = Sinjhuang City
+⟦197⟧ = sister
+⟦198⟧ = Sixteen teams
+⟦199⟧ = size
+⟦200⟧ = Skyteam Cargo
+⟦201⟧ = Soekarno
+⟦202⟧ = South Korea
+⟦203⟧ = stadiums
+⟦204⟧ = stations
+⟦205⟧ = subsidiaries
+⟦206⟧ = system
+⟦207⟧ = Taichung
+⟦208⟧ = Taichung Baseball Field
+⟦209⟧ = Taichung City
+⟦210⟧ = Taichung County
+⟦211⟧ = Taichung Intercontinental Baseball Stadium
+⟦212⟧ = Taichung International Airport
+⟦213⟧ = Taichung Station
+⟦214⟧ = Taipei
+⟦215⟧ = Taipei City
+⟦216⟧ = Taiwan
+⟦217⟧ = Taiwan Boulevard
+⟦218⟧ = Taoyuan International Airport
+⟦219⟧ = team
+⟦220⟧ = teams
+⟦221⟧ = terminal
+⟦222⟧ = terms
+⟦223⟧ = Thailand
+⟦224⟧ = the 8th largest commercial airline
+⟦225⟧ = The airline
+⟦226⟧ = the Asian Games
+⟦227⟧ = the BRT
+⟦228⟧ = The cargo division
+⟦229⟧ = The carrier
+⟦230⟧ = the company
+⟦231⟧ = The county capital
+⟦232⟧ = the current President
+⟦233⟧ = the first BRT line
+⟦234⟧ = the flag carrier
+⟦235⟧ = the flag carrier airline
+⟦236⟧ = the former Taichung City
+⟦237⟧ = the International Baseball Federation
+⟦238⟧ = the island
+⟦239⟧ = the largest airline
+⟦240⟧ = the largest UK airline
+⟦241⟧ = The line
+⟦242⟧ = the low-cost carrier terminal
+⟦243⟧ = the main road
+⟦244⟧ = The name
+⟦245⟧ = the Republic
+⟦246⟧ = the second largest airline
+⟦247⟧ = the Taichung Airport
+⟦248⟧ = The Taichung BRT Blue Line
+⟦249⟧ = The Taiwanese carrier
+⟦250⟧ = the third international airport
+⟦251⟧ = the tournament
+⟦252⟧ = the UK
+⟦253⟧ = the United Kingdom
+⟦254⟧ = the United States Mainland
+⟦255⟧ = the US
+⟦256⟧ = the wake
+⟦257⟧ = the world
+⟦258⟧ = the Youth World Baseball championships
+⟦259⟧ = their refusal
+⟦260⟧ = three airline subsidiaries
+⟦261⟧ = Tianmu Baseball Stadium
+⟦262⟧ = Tigerair Taiwan
+⟦263⟧ = time
+⟦264⟧ = tournament
+⟦265⟧ = Venezuela’s participation
+⟦266⟧ = Vietnam
+⟦267⟧ = visas
+⟦268⟧ = wake
+⟦269⟧ = whose parent company
+⟦270⟧ = world
+⟦271⟧ = youth
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[History of British Airways] ⟦46⟧⟨1⟩⟦44⟧⟨2⟩⟦235⟧⟨3⟩⟦86⟧⟨4⟩⟦53⟧⟨5⟩⟦33⟧⟨6⟩⟦253⟧⟨7⟩
+[History of British Airways] ⟨8⟩⟦239⟧⟨9⟩⟦33⟧⟨10⟩⟦252⟧⟨11⟩⟦87⟧⟨12⟩⟦88⟧⟨13⟩⟦199⟧⟨14⟩⟦117⟧⟨15⟩⟦89⟧⟨16⟩⟦116⟧⟨17⟩⟦77⟧⟨18⟩
+[History of British Airways] ⟦46⟧⟨19⟩⟦240⟧⟨20⟩⟦33⟧⟨21⟩⟦172⟧⟨22⟩⟦173⟧⟨23⟩⟦163⟧⟨24⟩⟦121⟧⟨25⟩⟦74⟧⟨26⟩⟦147⟧⟨27⟩⟦71⟧⟨28⟩
+[History of British Airways] ⟨29⟩⟦123⟧⟨30⟩⟦111⟧⟨31⟩⟦46⟧⟨32⟩⟦124⟧⟨33⟩⟦107⟧⟨34⟩⟦145⟧⟨35⟩⟦23⟧⟨36⟩⟦107⟧⟨37⟩⟦144⟧⟨38⟩
+[Hawaiian Airlines] ⟦99⟧⟨39⟩⟦98⟧⟨40⟩⟦239⟧⟨41⟩⟦33⟧⟨42⟩⟦97⟧⟨43⟩
+[Hawaiian Airlines] ⟨44⟩⟦224⟧⟨45⟩⟦33⟧⟨46⟩⟦255⟧⟨47⟩⟦104⟧⟨48⟩⟦97⟧⟨49⟩
+[Hawaiian Airlines] ⟦225⟧⟨50⟩⟦33⟧⟨51⟩⟦124⟧⟨52⟩⟦107⟧⟨53⟩⟦105⟧⟨54⟩⟦24⟧⟨55⟩⟦107⟧⟨56⟩⟦133⟧⟨57⟩⟦238⟧⟨58⟩⟦119⟧⟨59⟩⟦153⟧⟨60⟩
+[Hawaiian Airlines] ⟦99⟧⟨61⟩⟦89⟧⟨62⟩⟦89⟧⟨63⟩⟦41⟧⟨64⟩⟦97⟧⟨65⟩⟦159⟧⟨66⟩⟦43⟧⟨67⟩⟦254⟧⟨68⟩
+[Hawaiian Airlines] ⟦99⟧⟨69⟩⟦100⟧⟨70⟩⟦110⟧⟨71⟩⟦151⟧⟨72⟩⟦232⟧⟨73⟩⟦60⟧⟨74⟩
+[Taichung County] ⟦210⟧⟨75⟩⟦17⟧⟨76⟩⟦73⟧⟨77⟩⟦54⟧⟨78⟩⟦245⟧⟨79⟩⟦61⟧⟨80⟩⟦236⟧⟨81⟩
+[Taichung County] ⟦231⟧⟨82⟩⟦73⟧⟨83⟩⟦51⟧⟨84⟩⟦85⟧⟨85⟩
+[Taichung County] ⟦244⟧⟨86⟩⟦157⟧⟨87⟩⟦1⟧⟨88⟩⟦54⟧⟨89⟩
+[Jet Airways] ⟦130⟧⟨90⟩⟦102⟧⟨91⟩⟦131⟧⟨92⟩⟦20⟧⟨93⟩⟦33⟧⟨94⟩⟦156⟧⟨95⟩
+[Jet Airways] ⟨96⟩⟦132⟧⟨97⟩⟦246⟧⟨98⟩⟦33⟧⟨99⟩⟦112⟧⟨100⟩⟦113⟧⟨101⟩⟦38⟧⟨102⟩⟦172⟧⟨103⟩⟦152⟧⟨104⟩⟦194⟧⟨105⟩
+[Jet Airways] ⟨106⟩⟦14⟧⟨107⟩⟦89⟧⟨108⟩⟦15⟧⟨109⟩⟦77⟧⟨110⟩⟦124⟧⟨111⟩⟦107⟧⟨112⟩⟦59⟧⟨113⟩⟦190⟧⟨114⟩⟦108⟧⟨115⟩⟦37⟧⟨116⟩⟦58⟧⟨117⟩⟦114⟧⟨118⟩⟦134⟧⟨119⟩⟦158⟧⟨120⟩⟦56⟧⟨121⟩
+[Taichung International Airport] ⟦212⟧⟨122⟩⟦3⟧⟨123⟩⟦185⟧⟨124⟩⟦109⟧⟨125⟩⟦182⟧⟨126⟩⟦66⟧⟨127⟩⟦40⟧⟨128⟩⟦35⟧⟨129⟩⟦209⟧⟨130⟩⟦216⟧⟨131⟩⟦5⟧⟨132⟩⟦45⟧⟨133⟩⟦180⟧⟨134⟩
+[Taichung International Airport] ⟨135⟩⟦250⟧⟨136⟩⟦35⟧⟨137⟩⟦216⟧⟨138⟩⟦189⟧⟨139⟩⟦193⟧⟨140⟩⟦148⟧⟨141⟩⟦129⟧⟨142⟩⟦202⟧⟨143⟩⟦266⟧⟨144⟩
+[China Airlines] ⟦62⟧⟨145⟩⟦49⟧⟨146⟩⟦234⟧⟨147⟩⟦86⟧⟨148⟩⟦53⟧⟨149⟩⟦141⟧⟨150⟩⟦33⟧⟨151⟩⟦245⟧⟨152⟩⟦61⟧⟨153⟩⟦216⟧⟨154⟩
+[China Airlines] ⟨155⟩⟦218⟧⟨156⟩⟦9⟧⟨157⟩⟦83⟧⟨158⟩
+[China Airlines] ⟦62⟧⟨159⟩⟦169⟧⟨160⟩⟦89⟧⟨161⟩⟦8⟧⟨162⟩⟦36⟧⟨163⟩⟦7⟧⟨164⟩⟦67⟧⟨165⟩⟦68⟧⟨166⟩⟦68⟧⟨167⟩⟦41⟧⟨168⟩⟦84⟧⟨169⟩⟦161⟧⟨170⟩⟦164⟧⟨171⟩
+[China Airlines] ⟦228⟧⟨172⟩⟦52⟧⟨173⟩⟦78⟧⟨174⟩⟦92⟧⟨175⟩⟦89⟧⟨176⟩
+[China Airlines] ⟦229⟧⟨177⟩⟦53⟧⟨178⟩⟦13⟧⟨179⟩⟦33⟧⟨180⟩⟦257⟧⟨181⟩⟦270⟧⟨182⟩⟦222⟧⟨183⟩⟦222⟧⟨184⟩⟦172⟧⟨185⟩⟦174⟧⟨186⟩⟦184⟧⟨187⟩⟦135⟧⟨188⟩⟦135⟧⟨189⟩⟦6⟧⟨190⟩⟦91⟧⟨191⟩
+[China Airlines] ⟦62⟧⟨192⟩⟦260⟧⟨193⟩⟦33⟧⟨194⟩⟦205⟧⟨195⟩⟦150⟧⟨196⟩⟦89⟧⟨197⟩⟦89⟧⟨198⟩⟦80⟧⟨199⟩⟦76⟧⟨200⟩⟦77⟧⟨201⟩⟦63⟧⟨202⟩⟦22⟧⟨203⟩⟦154⟧⟨204⟩⟦200⟧⟨205⟩⟦18⟧⟨206⟩⟦87⟧⟨207⟩⟦92⟧⟨208⟩⟦93⟧⟨209⟩⟦32⟧⟨210⟩⟦126⟧⟨211⟩⟦170⟧⟨212⟩⟦33⟧⟨213⟩⟦52⟧⟨214⟩⟦103⟧⟨215⟩⟦50⟧⟨216⟩⟦262⟧⟨217⟩⟦19⟧⟨218⟩⟦71⟧⟨219⟩⟦53⟧⟨220⟩⟦62⟧⟨221⟩⟦195⟧⟨222⟩⟦33⟧⟨223⟩⟦94⟧⟨224⟩⟦64⟧⟨225⟩
+[Blue Line (Taichung Metro)] ⟦248⟧⟨226⟩⟦2⟧⟨227⟩⟦16⟧⟨228⟩⟦206⟧⟨229⟩⟦207⟧⟨230⟩⟦213⟧⟨231⟩⟦179⟧⟨232⟩⟦243⟧⟨233⟩⟦186⟧⟨234⟩⟦217⟧⟨235⟩
+[Blue Line (Taichung Metro)] ⟦241⟧⟨236⟩⟦143⟧⟨237⟩⟦10⟧⟨238⟩⟦137⟧⟨239⟩⟦142⟧⟨240⟩⟦142⟧⟨241⟩⟦11⟧⟨242⟩⟦204⟧⟨243⟩
+[Blue Line (Taichung Metro)] ⟨244⟩⟦233⟧⟨245⟩⟦143⟧⟨246⟩⟦216⟧⟨247⟩
+[Blue Line (Taichung Metro)] ⟦241⟧⟨248⟩⟦143⟧⟨249⟩⟦75⟧⟨250⟩⟦47⟧⟨251⟩⟦140⟧⟨252⟩⟦70⟧⟨253⟩⟦48⟧⟨254⟩⟦132⟧⟨255⟩⟦227⟧⟨256⟩⟦167⟧⟨257⟩⟦167⟧⟨258⟩
+[Mandarin Airlines] ⟦150⟧⟨259⟩⟦39⟧⟨260⟩⟦33⟧⟨261⟩⟦214⟧⟨262⟩⟦216⟧⟨263⟩⟦269⟧⟨264⟩⟦170⟧⟨265⟩⟦69⟧⟨266⟩⟦62⟧⟨267⟩
+[Mandarin Airlines] ⟦249⟧⟨268⟩⟦53⟧⟨269⟩⟦81⟧⟨270⟩⟦89⟧⟨271⟩⟦127⟧⟨272⟩⟦170⟧⟨273⟩⟦69⟧⟨274⟩⟦118⟧⟨275⟩⟦168⟧⟨276⟩
+[Mandarin Airlines] ⟦57⟧⟨277⟩⟦193⟧⟨278⟩⟦230⟧⟨279⟩⟦69⟧⟨280⟩
+[Mandarin Airlines] ⟨281⟩⟦125⟧⟨282⟩⟦107⟧⟨283⟩⟦247⟧⟨284⟩
+[AirAsia] ⟦27⟧⟨285⟩⟦21⟧⟨286⟩⟦71⟧⟨287⟩⟦33⟧⟨288⟩⟦138⟧⟨289⟩
+[AirAsia] ⟨290⟩⟦239⟧⟨291⟩⟦33⟧⟨292⟩⟦149⟧⟨293⟩⟦87⟧⟨294⟩⟦88⟧⟨295⟩⟦199⟧⟨296⟩⟦77⟧⟨297⟩⟦77⟧⟨298⟩
+[AirAsia] ⟦28⟧⟨299⟩⟦79⟧⟨300⟩⟦89⟧⟨301⟩⟦155⟧⟨302⟩⟦77⟧⟨303⟩⟦12⟧⟨304⟩⟦72⟧⟨305⟩
+[AirAsia] ⟨306⟩⟦124⟧⟨307⟩⟦107⟧⟨308⟩⟦242⟧⟨309⟩⟦71⟧⟨310⟩⟦53⟧⟨311⟩⟦221⟧⟨312⟩⟦139⟧⟨313⟩⟦136⟧⟨314⟩⟦192⟧⟨315⟩⟦191⟧⟨316⟩⟦149⟧⟨317⟩
+[AirAsia] ⟦120⟧⟨318⟩⟦26⟧⟨319⟩⟦34⟧⟨320⟩⟦115⟧⟨321⟩⟦176⟧⟨322⟩⟦29⟧⟨323⟩⟦108⟧⟨324⟩⟦108⟧⟨325⟩⟦82⟧⟨326⟩⟦201⟧⟨327⟩⟦95⟧⟨328⟩⟦160⟧⟨329⟩⟦134⟧⟨330⟩⟦128⟧⟨331⟩⟦197⟧⟨332⟩⟦33⟧⟨333⟩⟦30⟧⟨334⟩⟦146⟧⟨335⟩⟦96⟧⟨336⟩⟦187⟧⟨337⟩
+[AirAsia] ⟦31⟧⟨338⟩⟦165⟧⟨339⟩⟦175⟧⟨340⟩⟦191⟧⟨341⟩⟦122⟧⟨342⟩⟦101⟧⟨343⟩⟦165⟧⟨344⟩⟦139⟧⟨345⟩
+[2007 Baseball World Cup] ⟨346⟩⟦4⟧⟨347⟩⟦245⟧⟨348⟩⟦61⟧⟨349⟩⟦216⟧⟨350⟩⟦244⟧⟨351⟩⟦157⟧⟨352⟩⟦65⟧⟨353⟩⟦162⟧⟨354⟩⟦162⟧⟨355⟩
+[2007 Baseball World Cup] ⟦90⟧⟨356⟩⟦203⟧⟨357⟩
+[2007 Baseball World Cup] ⟦211⟧⟨358⟩⟦208⟧⟨359⟩⟦209⟧⟨360⟩⟦261⟧⟨361⟩⟦215⟧⟨362⟩⟦196⟧⟨363⟩⟦106⟧⟨364⟩⟦106⟧⟨365⟩⟦251⟧⟨366⟩⟦264⟧⟨367⟩
+[2007 Baseball World Cup] ⟦198⟧⟨368⟩⟦220⟧⟨369⟩
+[2007 Baseball World Cup] ⟨370⟩⟦166⟧⟨371⟩⟦263⟧⟨372⟩⟦265⟧⟨373⟩⟦171⟧⟨374⟩⟦181⟧⟨375⟩⟦181⟧⟨376⟩⟦178⟧⟨377⟩⟦188⟧⟨378⟩⟦237⟧⟨379⟩⟦256⟧⟨380⟩⟦268⟧⟨381⟩⟦259⟧⟨382⟩⟦183⟧⟨383⟩⟦267⟧⟨384⟩⟦267⟧⟨385⟩⟦25⟧⟨386⟩⟦271⟧⟨387⟩⟦219⟧⟨388⟩⟦207⟧⟨389⟩⟦258⟧⟨390⟩⟦55⟧⟨391⟩⟦42⟧⟨392⟩
+[2007 Baseball World Cup] ⟦61⟧⟨393⟩⟦177⟧⟨394⟩⟦223⟧⟨395⟩⟦61⟧⟨396⟩⟦226⟧⟨397⟩
+
+[user]
+
+问题：
+What subsidiary of the largest airline of the Republic of China (Taiwan) has a main hub at Taichung Airport?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

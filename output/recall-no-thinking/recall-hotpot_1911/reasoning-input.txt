@@ -1,0 +1,123 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Adriana Fonseca] ⟦33⟧⟨168⟩⟨169⟩⟨170⟩⟦65⟧⟦65⟧⟨171⟩⟨172⟩
+[Adriana Fonseca] ⟨173⟩⟦94⟧⟦160⟧⟨174⟩⟨175⟩⟦184⟧⟨176⟩⟦104⟧⟨177⟩⟦228⟧⟨178⟩⟦9⟧⟨179⟩⟦108⟧⟨180⟩⟦116⟧⟨181⟩⟦52⟧⟨182⟩⟦61⟧⟨183⟩⟦162⟧⟨184⟩⟦47⟧⟨185⟩⟦67⟧⟨186⟩⟦130⟧⟨187⟩⟦89⟧⟨188⟩⟨189⟩⟦181⟧⟨190⟩⟦40⟧⟨191⟩
+[La heredera] ⟦102⟧⟨221⟩⟦193⟧⟨222⟩⟦20⟧⟨223⟩⟨224⟩⟨225⟩
+[La heredera] ⟨226⟩⟦209⟧⟦157⟧⟨227⟩⟨228⟩⟦172⟧⟨229⟩⟦166⟧⟨230⟩⟦150⟧⟦150⟧⟨231⟩⟨232⟩
+[La heredera] ⟦204⟧⟦167⟧⟨233⟩⟨234⟩⟦38⟧⟨235⟩⟦210⟧⟦219⟧⟨236⟩⟨237⟩⟦36⟧⟨238⟩
+[Gabriel Porras] ⟦223⟧
+[Gabriel Porras] ⟦159⟧
+[Marlene Favela] ⟦19⟧⟦32⟧
+[Marlene Favela] ⟦222⟧
+
+符号表：
+⟦9⟧ = "Rosalinda
+⟦19⟧ = a Mexican actress
+⟦20⟧ = a Mexican telenovela
+⟦32⟧ = actress
+⟦33⟧ = Adriana Fonseca
+⟦36⟧ = American Heiress
+⟦38⟧ = an American telenovela
+⟦40⟧ = Angela Valdez
+⟦47⟧ = Bajo las
+⟦52⟧ = Caridad "Chachi" Montenegro
+⟦61⟧ = Contra viento y marea
+⟦65⟧ = dancer
+⟦67⟧ = del amor
+⟦89⟧ = her protagonist role
+⟦94⟧ = her several roles
+⟦102⟧ = La Heredera
+⟦104⟧ = La usurpadora
+⟦108⟧ = Lucy Pérez Romero
+⟦116⟧ = Mariana de la Noche
+⟦130⟧ = Montserrat Linares
+⟦150⟧ = protagonists
+⟦157⟧ = reunion
+⟦159⟧ = role
+⟦160⟧ = roles
+⟦162⟧ = Sandra Serrano Rudell
+⟦166⟧ = Sergio Basañez
+⟦167⟧ = series
+⟦172⟧ = Silvia Navarro
+⟦181⟧ = Telemundo's successful telenovela "Corazón Valiente
+⟦184⟧ = Televisa's telenovelas
+⟦193⟧ = The Heiress
+⟦204⟧ = The series
+⟦209⟧ = the third reunion
+⟦210⟧ = the title
+⟦219⟧ = title
+⟦222⟧ = TV
+⟦223⟧ = TV Azteca
+⟦228⟧ = Veronica Soriano
+
+占位符映射：
+⟨168⟩ =  (] ; born Adriana Fonseca Castellanos March 16, 1979) is 
+⟨169⟩ = 
+⟨170⟩ =  and 
+⟨171⟩ = 
+⟨172⟩ = .
+⟨173⟩ =  She is best known for 
+⟨174⟩ = 
+⟨175⟩ =  in 
+⟨176⟩ =  like "
+⟨177⟩ = " as 
+⟨178⟩ =  (1998), 
+⟨179⟩ = " as 
+⟨180⟩ =  (1999), "
+⟨181⟩ = " as 
+⟨182⟩ =  (2003), "
+⟨183⟩ = " as 
+⟨184⟩ =  (2005), "
+⟨185⟩ =  riendas 
+⟨186⟩ = " as 
+⟨187⟩ =  (2007) and recently for 
+⟨188⟩ = 
+⟨189⟩ =  in 
+⟨190⟩ = " as 
+⟨191⟩ =  (2012).
+⟨221⟩ =  (
+⟨222⟩ = ) is 
+⟨223⟩ =  produced by 
+⟨224⟩ = 
+⟨225⟩ = .
+⟨226⟩ =  It marked 
+⟨227⟩ = 
+⟨228⟩ =  for 
+⟨229⟩ =  and 
+⟨230⟩ =  as 
+⟨231⟩ = 
+⟨232⟩ = .
+⟨233⟩ = 
+⟨234⟩ =  was then developed into 
+⟨235⟩ =  by 
+⟨236⟩ = 
+⟨237⟩ =  of "
+⟨238⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What Mexican actress of film, television, and theatre was a protagonist in La Heredera?

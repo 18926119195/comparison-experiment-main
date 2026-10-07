@@ -1,0 +1,59 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Muammar Gaddafi] ⟦177⟧⟨466⟩⟦4⟧⟨467⟩⟦79⟧⟨468⟩⟦205⟧⟦205⟧⟨469⟩⟨470⟩⟦204⟧⟦309⟧⟨471⟩⟨472⟩
+[Muammar Gaddafi] ⟦150⟧⟨474⟩⟦222⟧⟨475⟩⟦283⟧⟨476⟩⟦244⟧⟨477⟩⟦277⟧⟨478⟩
+
+符号表：
+⟦4⟧ = 20 October
+⟦79⟧ = Colonel Gaddafi
+⟦150⟧ = Libya
+⟦177⟧ = Muammar Mohammed Abu Minyar Gaddafi
+⟦204⟧ = political theorist
+⟦205⟧ = politician
+⟦222⟧ = Revolutionary Chairman
+⟦244⟧ = the "Brotherly Leader
+⟦277⟧ = the Great Socialist People's Libyan Arab Jamahiriya
+⟦283⟧ = the Libyan Arab Republic
+⟦309⟧ = theorist
+
+占位符映射：
+⟨466⟩ =  ( ;    ;  1942 
+⟨467⟩ =  2011), commonly known as 
+⟨468⟩ = , was a Libyan revolutionary, 
+⟨469⟩ = 
+⟨470⟩ = , and 
+⟨471⟩ = 
+⟨472⟩ = .
+⟨474⟩ =  as 
+⟨475⟩ =  of 
+⟨476⟩ =  from 1969 to 1977, then as 
+⟨477⟩ = " of 
+⟨478⟩ =  from 1977 to 2011.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What was Muammar Mohammed Abu Minyar Gaddafi's title during the Libyan Civil War?

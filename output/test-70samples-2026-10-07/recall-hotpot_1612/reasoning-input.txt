@@ -1,0 +1,99 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[KSCW-DT] ⟨75⟩⟦98⟧⟦136⟧⟨77⟩⟨78⟩⟨76⟩⟨79⟩⟦91⟧⟨81⟩⟨82⟩⟨80⟩⟨83⟩⟦63⟧⟦7⟧⟨85⟩⟨84⟩⟦118⟧⟨86⟩⟦95⟧⟦95⟧⟨87⟩⟨88⟩⟨89⟩⟦132⟧⟨90⟩⟦141⟧⟨91⟩⟦33⟧⟨92⟩
+[KDCU-DT] ⟦101⟧⟦50⟧⟦121⟧
+[KMBC-TV] ⟨415⟩⟦190⟧⟨416⟩⟨417⟩⟦4⟧⟨418⟩⟨419⟩⟦160⟧⟦159⟧⟨421⟩⟨420⟩⟨422⟩⟨423⟩⟨424⟩⟦184⟧⟨425⟩⟦88⟧⟦88⟧⟨426⟩⟦87⟧⟨427⟩
+[KMBC-TV] ⟦149⟧
+[KMBC-TV] ⟦151⟧⟦181⟧⟦70⟧⟦70⟧ | ⟦110⟧
+[KMBC-TV] ⟦94⟧
+[KMBC-TV] ⟦39⟧⟦39⟧
+
+符号表：
+⟦4⟧ = (UHF digital channel
+⟦7⟧ = 37th
+⟦33⟧ = Buhler
+⟦39⟧ = channel
+⟦50⟧ = control
+⟦63⟧ = East 37th Street North
+⟦70⟧ = facilities
+⟦87⟧ = Kansas
+⟦88⟧ = Kansas City
+⟦91⟧ = KDCU's master control operations
+⟦94⟧ = KMBC-TV
+⟦95⟧ = KSCW
+⟦98⟧ = KWCH share studio facilities
+⟦101⟧ = master
+⟦110⟧ = Missouri
+⟦118⟧ = northeastern Wichita
+⟦121⟧ = operations
+⟦132⟧ = rural northeastern Reno County
+⟦136⟧ = share
+⟦141⟧ = south
+⟦149⟧ = station
+⟦151⟧ = studio
+⟦159⟧ = television
+⟦160⟧ = the ABC-affiliated television station
+⟦181⟧ = transmitter facilities
+⟦184⟧ = United States
+⟦190⟧ = virtual channel
+
+占位符映射：
+⟨75⟩ =  and 
+⟨76⟩ = 
+⟨77⟩ =  
+⟨78⟩ =  
+⟨79⟩ =  and 
+⟨80⟩ = 
+⟨81⟩ =  
+⟨82⟩ =  
+⟨83⟩ =  are located on 
+⟨84⟩ = 
+⟨85⟩ =  Street North in 
+⟨86⟩ = ; 
+⟨87⟩ =  maintains 
+⟨88⟩ = 
+⟨89⟩ =  located in 
+⟨90⟩ =  (due 
+⟨91⟩ =  of 
+⟨92⟩ = ).
+⟨415⟩ = , 
+⟨416⟩ = 
+⟨417⟩ =  9 
+⟨418⟩ = 
+⟨419⟩ =  29), is 
+⟨420⟩ = 
+⟨421⟩ =  
+⟨422⟩ =  licensed to 
+⟨423⟩ = , 
+⟨424⟩ = , 
+⟨425⟩ =  and also serving 
+⟨426⟩ = , 
+⟨427⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+KSCW-DT is part of a duopoly with which virtual channel 12 in Wichita?

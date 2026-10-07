@@ -1,0 +1,56 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[State Theatre (Melbourne)] ⟨324⟩⟦121⟧⟦121⟧⟨325⟩⟨326⟩⟦162⟧⟨327⟩⟦216⟧⟨328⟩⟦146⟧⟨329⟩
+[State Theatre (Melbourne)] ⟦209⟧
+[State Theatre (Melbourne)] ⟦208⟧⟦147⟧⟨336⟩⟨337⟩⟦215⟧⟦232⟧⟨338⟩⟨339⟩
+
+符号表：
+⟦121⟧ = part
+⟦146⟧ = St Kilda Road
+⟦147⟧ = stage
+⟦162⟧ = The Arts Centre Melbourne
+⟦208⟧ = The stage
+⟦209⟧ = The State Theatre
+⟦215⟧ = the world
+⟦216⟧ = the Yarra River
+⟦232⟧ = world
+
+占位符映射：
+⟨324⟩ =  opened in 1984 and is 
+⟨325⟩ = 
+⟨326⟩ =  of 
+⟨327⟩ =  located by 
+⟨328⟩ =  and 
+⟨329⟩ = .
+⟨336⟩ = 
+⟨337⟩ =  is one of the largest in 
+⟨338⟩ = 
+⟨339⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The State Theatre is part of a performing arts centre located in what Australian suburb?

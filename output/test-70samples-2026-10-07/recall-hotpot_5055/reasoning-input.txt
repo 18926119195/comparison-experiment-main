@@ -1,0 +1,81 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Infestation Hypothesis] ⟦283⟧⟨79⟩⟦296⟧⟨80⟩⟨81⟩⟦274⟧⟨82⟩⟨83⟩⟦6⟧⟨84⟩⟨85⟩⟦58⟧⟨86⟩⟦239⟧⟨87⟩
+[The Infestation Hypothesis] ⟨91⟩⟦242⟧⟨92⟩⟦137⟧⟨93⟩⟦190⟧⟨94⟩⟦20⟧⟦61⟧⟨95⟩⟨96⟩⟦144⟧⟨97⟩⟦139⟧⟨98⟩⟦125⟧⟨100⟩⟨99⟩⟨101⟩⟦201⟧⟨102⟩
+[The Infestation Hypothesis] ⟦101⟧
+[Johnny Galecki] ⟦314⟧
+[Permanent Roommates] ⟦233⟧
+[The Heart Machine] ⟦91⟧⟦213⟧
+
+符号表：
+⟦6⟧ = "The Big Bang Theory
+⟦20⟧ = a new chair
+⟦58⟧ = CBS
+⟦61⟧ = chair
+⟦91⟧ = distance
+⟦101⟧ = episode
+⟦125⟧ = his long distance relationship
+⟦137⟧ = Jim Parsons
+⟦139⟧ = Johnny Galecki
+⟦144⟧ = Leonard
+⟦190⟧ = Penny
+⟦201⟧ = Priya
+⟦213⟧ = relationship
+⟦233⟧ = season
+⟦239⟧ = September
+⟦242⟧ = Sheldon
+⟦274⟧ = the fifth season
+⟦283⟧ = The Infestation Hypothesis
+⟦296⟧ = the second episode
+⟦314⟧ = Theory
+
+占位符映射：
+⟨79⟩ = " is 
+⟨80⟩ = 
+⟨81⟩ =  of 
+⟨82⟩ = 
+⟨83⟩ =  of 
+⟨84⟩ = 
+⟨85⟩ = " that first aired on 
+⟨86⟩ =  on 
+⟨87⟩ =  22, 2011.
+⟨91⟩ =  In it, 
+⟨92⟩ =  (
+⟨93⟩ = ) becomes worried when 
+⟨94⟩ =  acquires 
+⟨95⟩ = 
+⟨96⟩ = , while 
+⟨97⟩ =  (
+⟨98⟩ = ) tries to make 
+⟨99⟩ = 
+⟨100⟩ =  
+⟨101⟩ =  with 
+⟨102⟩ =  work.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which American actor tries to make his long distance relationship with Priya work in "The Infestation Hypothesis"  

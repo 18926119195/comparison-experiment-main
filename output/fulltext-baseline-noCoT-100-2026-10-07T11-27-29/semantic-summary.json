@@ -1,0 +1,26 @@
+{
+  "strict_em": {
+    "correct": 60,
+    "wrong": 40,
+    "em_pct": 60.0
+  },
+  "semantic": {
+    "correct": 82,
+    "wrong": 18,
+    "pct": 82.0,
+    "newly_accepted": 22,
+    "newly_accepted_qids": [
+      "hotpot_1004", "hotpot_1297", "hotpot_1356", "hotpot_1464", "hotpot_163",
+      "hotpot_1879", "hotpot_190",  "hotpot_191",  "hotpot_1937", "hotpot_1939",
+      "hotpot_1999", "hotpot_201",  "hotpot_2020", "hotpot_2073", "hotpot_215",
+      "hotpot_2174", "hotpot_2189", "hotpot_2218", "hotpot_2231", "hotpot_2347",
+      "hotpot_241",  "hotpot_2475"
+    ],
+    "still_wrong_qids": [
+      "hotpot_100",  "hotpot_1207", "hotpot_125",  "hotpot_1304", "hotpot_1408",
+      "hotpot_1477", "hotpot_1520", "hotpot_1569", "hotpot_1700", "hotpot_1717",
+      "hotpot_1796", "hotpot_1813", "hotpot_1847", "hotpot_2008", "hotpot_2211",
+      "hotpot_2378", "hotpot_2462", "hotpot_2845"
+    ]
+  }
+}

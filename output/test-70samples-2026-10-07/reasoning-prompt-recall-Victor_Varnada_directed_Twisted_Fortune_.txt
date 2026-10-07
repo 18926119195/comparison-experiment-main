@@ -1,0 +1,114 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Twisted Fortune] ⟦219⟧⟨1⟩⟦9⟧⟨2⟩⟨3⟩⟦11⟧⟨5⟩⟦70⟧⟨4⟩⟨6⟩⟦56⟧⟨7⟩⟦10⟧⟦45⟧⟨9⟩⟦50⟧⟨8⟩⟨10⟩⟦12⟧⟦68⟧⟨12⟩⟦178⟧⟨11⟩⟨13⟩
+[Charlie Murphy] ⟦55⟧⟨44⟩⟦116⟧⟨45⟩⟨46⟩⟦30⟧⟨47⟩⟨48⟩⟨49⟩⟨50⟩⟨51⟩⟨52⟩
+[Charlie Murphy] ⟦226⟧⟦226⟧ | ⟨53⟩⟦19⟧⟦226⟧⟨55⟩⟨56⟩⟦126⟧⟨54⟩⟨57⟩⟦190⟧⟦171⟧⟨59⟩⟨60⟩⟨58⟩⟨61⟩⟦54⟧⟨62⟩
+[Charlie Murphy] ⟨63⟩⟦203⟧⟦47⟧⟨64⟩⟨65⟩⟦60⟧⟨66⟩⟨67⟩
+[Nicole Mitchell Murphy] ⟦20⟧
+[All I Fuckin' Know] ⟦59⟧⟦59⟧ | ⟦59⟧
+[All I Fuckin' Know] ⟦36⟧
+[All I Fuckin' Know] ⟦135⟧
+[The PJs] ⟦165⟧
+[Life (1999 film)] ⟦53⟧
+[Eddie Murphy Raw] ⟦65⟧ | ⟦65⟧
+[Eddie Murphy Raw] ⟦216⟧
+
+符号表：
+⟦9⟧ = a black comedy
+⟦10⟧ = a bottle cap
+⟦11⟧ = a bumbling small-time crook
+⟦12⟧ = a convenience store
+⟦19⟧ = a writer and cast member
+⟦20⟧ = actor
+⟦30⟧ = an American actor
+⟦36⟧ = April
+⟦45⟧ = bottle
+⟦47⟧ = brother
+⟦50⟧ = cap
+⟦53⟧ = cast
+⟦54⟧ = Chappelle's Show
+⟦55⟧ = Charles Quinton Murphy
+⟦56⟧ = Charlie Murphy
+⟦59⟧ = comedian
+⟦60⟧ = comedian Eddie Murphy
+⟦65⟧ = comedy
+⟦68⟧ = convenience
+⟦70⟧ = crook
+⟦116⟧ = July
+⟦126⟧ = member
+⟦135⟧ = Murphy
+⟦165⟧ = series
+⟦171⟧ = sketch
+⟦178⟧ = store
+⟦190⟧ = the Comedy Central sketch-comedy series
+⟦203⟧ = the older brother
+⟦216⟧ = time
+⟦219⟧ = Twisted Fortune
+⟦226⟧ = writer
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  about 
+⟨4⟩ = 
+⟨5⟩ =  
+⟨6⟩ =  (played by 
+⟨7⟩ = ) who finds 
+⟨8⟩ = 
+⟨9⟩ =  
+⟨10⟩ =  worth $1,000,000 while robbing 
+⟨11⟩ = 
+⟨12⟩ =  
+⟨13⟩ = .
+⟨44⟩ =  (
+⟨45⟩ =  12, 1959 – 
+⟨46⟩ =  12, 2017) was 
+⟨47⟩ = 
+⟨48⟩ = , 
+⟨49⟩ = 
+⟨50⟩ = , and 
+⟨51⟩ = 
+⟨52⟩ = .
+⟨53⟩ =  was best known as 
+⟨54⟩ = 
+⟨55⟩ =  and 
+⟨56⟩ =  
+⟨57⟩ =  of 
+⟨58⟩ = 
+⟨59⟩ = -
+⟨60⟩ =  
+⟨61⟩ =  "
+⟨62⟩ = ".
+⟨63⟩ =  He was 
+⟨64⟩ = 
+⟨65⟩ =  of 
+⟨66⟩ = 
+⟨67⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Victor Varnada directed Twisted Fortune, which starred which brother of Eddie Murphy?

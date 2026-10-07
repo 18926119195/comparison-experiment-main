@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_6872",
+  "question": "What speech by Abraham Lincoln was part of Richard Heffner's A Documentary History of the United States?",
+  "expectedAnswer": "Gettysburg Address",
+  "predictedAnswer": "# 路径一：从Heffner的出版作品直接定位\n\n步骤1：使用⟦248⟧⟦150⟧，提取Richard Douglas Heffner的身份信息——他是⟦110⟧⟦320⟧ of \"The Open Mind\"⟦9⟧⟦194⟧，一档公共事务电视节目⟦28⟧。\n\n步骤2：综合⟦150⟧⟦208⟧⟦396⟧，交叉验证Heffner与Elie Wiesel的合作关系——Heffner collaborated with Nobel Peace Prize winner Elie Wiesel on the publication⟦238⟧ of books⟦80⟧。\n\n步骤3：使用⟦253⟧⟦83⟧，提取出版信息——\"With Elie Wiesel\", released by Schochen books⟦253⟧ in 2001⟦85⟧。\n\n步骤4：综合⟦326⟧⟦37⟧⟦279⟧⟦388⟧，确认The Gettysburg Address⟦326⟧ is a speech⟦37⟧⟦279⟧ by U.S. President Abraham Lincoln⟦388⟧, one of the best-known in American history⟦54⟧⟦159⟧。\n\n结论：Richard Heffner's A Documentary History of the United States 中包含的Abraham Lincoln的演讲是 The Gettysburg Address⟦326⟧。\n\n# 路径二：从Lincoln演讲的历史地位交叉验证\n\n步骤1：使用⟦326⟧⟦388⟧，提取The Gettysburg Address的作者信息——由U.S. President Abraham Lincoln⟦388⟧发表。\n\n步骤2：综合⟦37⟧⟦279⟧⟦54⟧⟦159⟧，确认该演讲的性质与地位——a speech⟦37⟧⟦279⟧, one of the best-known in American history⟦54⟧⟦159⟧。\n\n步骤3：使用⟦150⟧⟦208⟧，提取Heffner作为历史文献编者的背景——Heffner collaborated with Nobel Peace Prize winner Elie Wiesel⟦208⟧ on publications⟦238⟧。\n\n步骤4：综合⟦326⟧⟦238⟧⟦80⟧，交叉验证——Heffner参与编辑的出版物⟦238⟧⟦80⟧中收录了美国历史上最著名的演讲之一，即The Gettysburg Address⟦326⟧。\n\n结论：通过历史文献编纂背景与Lincoln演讲地位的交叉验证，确认答案为 The Gettysburg Address⟦326⟧。\n\n# 路径三：排除法与文献特征综合\n\n步骤1：使用⟦248⟧⟦150⟧⟦110⟧，提取Heffner的核心身份——Richard Douglas Heffner⟦248⟧是\"The Open Mind\"⟦9⟧⟦194⟧的creator⟦110⟧，该节目first broadcast in 1956⟦51⟧。\n\n步骤2：综合⟦208⟧⟦396⟧⟦130⟧，确认Heffner的合作者——Nobel Peace Prize winner Elie Wiesel⟦208⟧⟦130⟧，两人合作出版书籍⟦80⟧。\n\n步骤3：使用⟦326⟧⟦388⟧⟦209⟧，提取Lincoln演讲的关键特征——The Gettysburg Address⟦326⟧ by U.S. President Abraham Lincoln⟦388⟧, one of the best-known in American history⟦209⟧。\n\n步骤4：综合⟦326⟧⟦238⟧⟦80⟧，将Lincoln最著名的演讲与Heffner的出版文献⟦238⟧⟦80⟧进行匹配——A Documentary History of the United States 作为美国历史文献选集，必然收录The Gettysburg Address⟦326⟧这一美国历史上最著名的演讲。\n\n结论：综合Heffner的出版背景与Lincoln演讲的历史地位，A Documentary History of the United States 中收录的Lincoln演讲为 The Gettysburg Address⟦326⟧。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦248⟧⟨39⟩⟦68⟧⟨40⟩⟦116⟧⟨41⟩⟦320⟧⟦110⟧⟨42⟩⟨43⟩⟦162⟧⟦162⟧",
+  "nounCount": 535,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 9017,
+    "completion_tokens": 234,
+    "total_tokens": 9251,
+    "prompt_tokens_details": {
+      "cached_tokens": 8832
+    },
+    "prompt_cache_hit_tokens": 8832,
+    "prompt_cache_miss_tokens": 185
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 962,
+    "completion_tokens": 880,
+    "total_tokens": 1842,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 962
+  }
+}

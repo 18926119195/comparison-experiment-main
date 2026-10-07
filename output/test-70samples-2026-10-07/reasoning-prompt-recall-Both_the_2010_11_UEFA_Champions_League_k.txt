@@ -1,0 +1,77 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[2010–11 UEFA Champions League knockout phase] ⟨51⟩⟨50⟩⟨52⟩⟦97⟧⟨53⟩⟨54⟩⟨55⟩⟨56⟩⟨57⟩⟦41⟧⟨58⟩
+[2010–11 UEFA Europa League knockout phase] ⟦4⟧
+[2016–17 UEFA Champions League knockout phase] ⟦131⟧⟦70⟧
+[2011 UEFA Champions League Final] ⟦13⟧⟦168⟧⟦61⟧ | ⟦102⟧⟨266⟩⟦19⟧⟦49⟧⟨268⟩⟦63⟧⟨267⟩⟨269⟩⟦13⟧⟨270⟩⟦168⟧⟨271⟩⟦61⟧⟨272⟩⟦147⟧⟦169⟧⟨273⟩⟨274⟩⟦96⟧⟨275⟩⟨276⟩⟦144⟧⟨277⟩
+[2011 UEFA Champions League Final] ⟦83⟧
+
+符号表：
+⟦4⟧ = 15 February
+⟦13⟧ = 28 May
+⟦19⟧ = a football match
+⟦41⟧ = England
+⟦49⟧ = football
+⟦61⟧ = London
+⟦63⟧ = match
+⟦70⟧ = phase
+⟦83⟧ = season
+⟦96⟧ = the 2010–11 season
+⟦97⟧ = the 2010–11 UEFA Champions League
+⟦102⟧ = The 2011 UEFA Champions League Final
+⟦131⟧ = the knockout phase
+⟦144⟧ = the UEFA Champions League
+⟦147⟧ = the winner
+⟦168⟧ = Wembley Stadium
+⟦169⟧ = winner
+
+占位符映射：
+⟨50⟩ = 
+⟨51⟩ =  
+⟨52⟩ =  of 
+⟨53⟩ =  began on 
+⟨54⟩ =  and concluded on 
+⟨55⟩ =  2011 with the final at 
+⟨56⟩ =  in 
+⟨57⟩ = , 
+⟨58⟩ = .
+⟨266⟩ =  was 
+⟨267⟩ = 
+⟨268⟩ =  
+⟨269⟩ =  played on 
+⟨270⟩ =  2011 at 
+⟨271⟩ =  in 
+⟨272⟩ =  that decided 
+⟨273⟩ = 
+⟨274⟩ =  of 
+⟨275⟩ = 
+⟨276⟩ =  of 
+⟨277⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Both the 2010–11 UEFA Champions League knockout phase  and 011 UEFA Champions League Final were held at what London stadium?

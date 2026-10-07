@@ -1,0 +1,108 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[F. W. Woolworth Company] ⟦292⟧⟨1⟩⟨2⟩⟦397⟧⟦397⟧⟨3⟩⟦27⟧⟨4⟩⟨5⟩⟦330⟧⟦218⟧⟨6⟩⟨7⟩⟦294⟧⟨9⟩⟨8⟩⟨10⟩ | ⟦292⟧
+[F. W. Woolworth Company] ⟦93⟧ | ⟨11⟩⟦318⟧⟦93⟧⟨13⟩⟨12⟩⟨14⟩⟦373⟧⟦373⟧⟨15⟩⟨16⟩⟦317⟧⟦190⟧⟨17⟩⟨18⟩⟨19⟩⟨20⟩⟦370⟧⟨21⟩
+[Maynard Town Hall and Jail] ⟦255⟧
+[Hamilton Brothers Building] ⟦82⟧
+[Evans Block (Sioux City, Iowa)] ⟦68⟧
+[F. W. Woolworth Building (Watertown, New York)] ⟨703⟩⟦42⟧⟨704⟩⟨705⟩⟦390⟧⟨706⟩⟦194⟧⟨707⟩
+[F. W. Woolworth Building (Watertown, New York)] ⟦65⟧
+[F. W. Woolworth Building (Watertown, New York)] ⟦256⟧⟦256⟧ | ⟦358⟧ | ⟦220⟧⟦220⟧⟨712⟩⟨713⟩⟦358⟧⟨714⟩⟦121⟧⟨715⟩⟦295⟧⟦120⟧⟨716⟩⟨717⟩⟦359⟧⟦77⟧⟨718⟩⟨719⟩⟦89⟧⟦90⟧⟨720⟩⟦256⟧⟨721⟩⟨722⟩
+
+符号表：
+⟦27⟧ = a retail company
+⟦42⟧ = an historic building
+⟦65⟧ = building
+⟦68⟧ = business
+⟦77⟧ = chain
+⟦82⟧ = company
+⟦89⟧ = department
+⟦90⟧ = department stores
+⟦93⟧ = dime
+⟦120⟧ = founder
+⟦121⟧ = Frank W. Woolworth
+⟦190⟧ = model
+⟦194⟧ = New York
+⟦218⟧ = pioneers
+⟦220⟧ = Plans
+⟦255⟧ = store
+⟦256⟧ = stores
+⟦292⟧ = The F. W. Woolworth Company
+⟦294⟧ = the five-and-dime store
+⟦295⟧ = the founder
+⟦317⟧ = the modern retail model
+⟦318⟧ = the most successful American and international five-and-dime business
+⟦330⟧ = the original pioneers
+⟦358⟧ = The Woolworth Building
+⟦359⟧ = the Woolworth's chain
+⟦370⟧ = today
+⟦373⟧ = trends
+⟦390⟧ = Watertown
+⟦397⟧ = Woolworth
+
+占位符映射：
+⟨1⟩ =  (often referred to as 
+⟨2⟩ = 's, or 
+⟨3⟩ = ) was 
+⟨4⟩ = 
+⟨5⟩ =  and one of 
+⟨6⟩ = 
+⟨7⟩ =  of 
+⟨8⟩ = 
+⟨9⟩ =  
+⟨10⟩ = .
+⟨11⟩ =  It was arguably 
+⟨12⟩ = 
+⟨13⟩ =  
+⟨14⟩ = , setting 
+⟨15⟩ = 
+⟨16⟩ =  and creating 
+⟨17⟩ = 
+⟨18⟩ =  which 
+⟨19⟩ = 
+⟨20⟩ =  follow worldwide 
+⟨21⟩ = .
+⟨703⟩ =  is 
+⟨704⟩ = 
+⟨705⟩ =  in 
+⟨706⟩ = , 
+⟨707⟩ = .
+⟨712⟩ = 
+⟨713⟩ =  for 
+⟨714⟩ =  were begun in 1916 by 
+⟨715⟩ = , 
+⟨716⟩ = 
+⟨717⟩ =  of 
+⟨718⟩ = 
+⟨719⟩ =  of 
+⟨720⟩ = 
+⟨721⟩ = 
+⟨722⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+In what city does the most successful American and international five-and-dime business have a historic building?

@@ -1,0 +1,29 @@
+# 路径一：直接身份比对
+
+步骤1：使用⟦25⟧，提取“a French Romantic composer”这一身份描述，判断该描述指向哪位作曲家。
+
+步骤2：综合⟦137⟧⟦169⟧，对比“Hector Berlioz”与“Louis-Hector Berlioz”两个名称，确认二者为同一人，且其身份描述与⟦25⟧一致。
+
+步骤3：使用⟦45⟧，提取“an Italian composer”这一身份描述，判断该描述指向Gaetano Donizetti，与“French Romantic composer”不符。
+
+结论：Hector Berlioz是法国浪漫主义作曲家，Gaetano Donizetti是意大利作曲家，因此答案是Hector Berlioz。
+
+# 路径二：国籍与时代交叉验证
+
+步骤1：使用⟦96⟧，提取“Domenico Gaetano Maria Donizetti”这一全名，结合⟦45⟧判断其为意大利作曲家，国籍为意大利。
+
+步骤2：综合⟦169⟧⟦119⟧⟦120⟧，提取Hector Berlioz的生卒年“1803 – 1869”，确认其活跃于1800年代。
+
+步骤3：综合⟦25⟧⟦137⟧，交叉验证“a French Romantic composer”与“Hector Berlioz”的对应关系，确认国籍为法国、流派为浪漫主义。
+
+结论：Hector Berlioz符合“1800年代法国浪漫主义作曲家”的全部条件，Gaetano Donizetti不符合国籍条件。
+
+# 路径三：排除法与代表作品佐证
+
+步骤1：使用⟦10⟧⟦4⟧，提取Hector Berlioz的代表作品“Symphonie fantastique”和“Grande messe des morts”，这些作品属于法国浪漫主义音乐传统。
+
+步骤2：使用⟦45⟧，提取Gaetano Donizetti的身份为“an Italian composer”，其代表作品未在材料中显示为法国浪漫主义风格。
+
+步骤3：综合⟦25⟧⟦137⟧⟦143⟧，确认“his compositions”与“a French Romantic composer”共同指向Hector Berlioz，排除Gaetano Donizetti。
+
+结论：通过代表作品与身份描述的双重佐证，Hector Berlioz是法国浪漫主义作曲家，Gaetano Donizetti被排除。

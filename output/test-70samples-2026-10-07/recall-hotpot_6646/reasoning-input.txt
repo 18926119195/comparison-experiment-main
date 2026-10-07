@@ -1,0 +1,92 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Buck Rogers XXVC] ⟦54⟧⟨52⟩⟨53⟩⟦184⟧⟨54⟩⟦21⟧⟨56⟩⟨55⟩⟨57⟩⟨58⟩
+[Buck Rogers XXVC] ⟨59⟩⟦211⟧⟨60⟩⟨61⟩⟨62⟩⟨63⟩⟦93⟧⟨64⟩⟨65⟩⟨67⟩⟦137⟧⟨68⟩⟨66⟩⟨69⟩⟦153⟧⟨70⟩⟦48⟧⟦49⟧⟨71⟩⟨72⟩⟨73⟩⟦221⟧⟨74⟩⟨75⟩⟨76⟩
+[Buck Rogers XXVC] ⟨77⟩⟨78⟩
+[Campaign setting] ⟦23⟧
+[Al-Qadim] ⟦141⟧
+[Masque of the Red Death (Ravenloft)] ⟦205⟧
+[World of Greyhawk Fantasy Game Setting] ⟦214⟧
+[Buck Rogers: Countdown to Doomsday] ⟦53⟧⟦88⟧ | ⟦150⟧⟦88⟧⟦88⟧
+[Faerûn] ⟦160⟧ | ⟦160⟧ | ⟦160⟧
+[Faerûn] ⟦125⟧⟦125⟧⟦125⟧⟦220⟧⟦89⟧
+
+符号表：
+⟦21⟧ = a game setting
+⟦23⟧ = a role-playing game
+⟦48⟧ = board
+⟦49⟧ = board game
+⟦53⟧ = Buck Rogers
+⟦54⟧ = Buck Rogers XXVC
+⟦88⟧ = game
+⟦89⟧ = games
+⟦93⟧ = graphic novels
+⟦125⟧ = novels
+⟦137⟧ = playing
+⟦141⟧ = Products
+⟦150⟧ = role
+⟦153⟧ = RPG
+⟦160⟧ = setting
+⟦184⟧ = the 25th Century
+⟦205⟧ = The setting
+⟦211⟧ = this setting
+⟦214⟧ = TSR, Inc.
+⟦220⟧ = video
+⟦221⟧ = video games
+
+占位符映射：
+⟨52⟩ =  (sometimes written as 
+⟨53⟩ =  in 
+⟨54⟩ = ) is 
+⟨55⟩ = 
+⟨56⟩ =  
+⟨57⟩ =  created by 
+⟨58⟩ =  in the late 1980s.
+⟨59⟩ =  based on 
+⟨60⟩ = 
+⟨61⟩ =  include 
+⟨62⟩ = 
+⟨63⟩ = , 
+⟨64⟩ = 
+⟨65⟩ = , 
+⟨66⟩ = 
+⟨67⟩ = -
+⟨68⟩ =  
+⟨69⟩ =  (
+⟨70⟩ = ), 
+⟨71⟩ = 
+⟨72⟩ = 
+⟨73⟩ = , and 
+⟨74⟩ = 
+⟨75⟩ = 
+⟨76⟩ = .
+⟨77⟩ = 
+⟨78⟩ =  was active from 1988 until 1995.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Buck Rogers XXVC is a published campaign setting or a homebrew campaign setting?

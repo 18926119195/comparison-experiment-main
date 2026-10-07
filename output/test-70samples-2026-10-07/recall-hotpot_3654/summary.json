@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_3654",
+  "question": "How many total staff (including part-time, flexible, and fixed contract staff) does the broadcaster, who released HyperNormalisation, employ?",
+  "expectedAnswer": "35,402",
+  "predictedAnswer": "# 路径一：通过 HyperNormalisation 定位广播机构并提取员工总数\n\n步骤1：使用⟦294⟧⟦196⟧⟦118⟧⟦232⟧，提取 HyperNormalisation 是一部 2016 年 BBC 纪录片，由英国电影制作人 Adam Curtis 制作。\n\n步骤2：综合⟦16⟧⟦120⟧⟦119⟧，确认该纪录片由 BBC 发布，BBC 是广播机构。\n\n步骤3：使用⟦556⟧⟦422⟧，提取 BBC 雇佣超过 20,950 名员工。\n\n步骤4：综合⟦657⟧⟦406⟧⟦426⟧⟦427⟧，提取总员工数为 35,402，当兼职、灵活和固定合同员工被计入时。\n\n结论：该广播机构（BBC）的总员工数为 35,402 人（包括兼职、灵活和固定合同员工）。\n\n# 路径二：通过 BBC 员工数据交叉验证\n\n步骤1：使用⟦556⟧⟦672⟧，提取 BBC 是世界上最早的国家广播组织。\n\n步骤2：综合⟦556⟧⟦422⟧，提取 BBC 雇佣超过 20,950 名员工。\n\n步骤3：使用⟦657⟧⟦406⟧⟦426⟧⟦427⟧，提取总员工数为 35,402，当兼职、灵活和固定合同员工被计入时。\n\n步骤4：综合⟦422⟧⟦427⟧，对比 20,950 与 35,402，确认 35,402 是包含兼职、灵活和固定合同员工的总数。\n\n结论：BBC 的总员工数为 35,402 人。\n\n# 路径三：通过纪录片制作方定位广播机构\n\n步骤1：使用⟦294⟧⟦196⟧，提取 HyperNormalisation 是一部纪录片。\n\n步骤2：综合⟦196⟧⟦16⟧⟦120⟧，确认该纪录片是 2016 年 BBC 纪录片，由 BBC 发布。\n\n步骤3：使用⟦556⟧⟦657⟧⟦406⟧⟦426⟧⟦427⟧，提取 BBC 的总员工数为 35,402，当兼职、灵活和固定合同员工被计入时。\n\n结论：发布 HyperNormalisation 的广播机构（BBC）雇佣 35,402 名总员工（包括兼职、灵活和固定合同员工）。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦556⟧⟨10⟩⟦672⟧⟨12⟩⟨13⟩⟦412⟧⟨11⟩⟨14⟩⟦605⟧⟦119⟧⟨15⟩⟨16⟩",
+  "nounCount": 1198,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 17530,
+    "completion_tokens": 278,
+    "total_tokens": 17808,
+    "prompt_tokens_details": {
+      "cached_tokens": 17280
+    },
+    "prompt_cache_hit_tokens": 17280,
+    "prompt_cache_miss_tokens": 250
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 532,
+    "total_tokens": 1580,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1048
+  }
+}

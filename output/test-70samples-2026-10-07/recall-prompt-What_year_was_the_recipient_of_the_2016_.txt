@@ -1,0 +1,227 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 20 sports journalists
+⟦2⟧ = 22 journalists
+⟦3⟧ = 26th
+⟦4⟧ = 28th
+⟦5⟧ = 38 sports journalists
+⟦6⟧ = a central midfielder
+⟦7⟧ = a former Ukrainian football midfielder
+⟦8⟧ = a forward
+⟦9⟧ = a Japanese footballer
+⟦10⟧ = a League Cup Final
+⟦11⟧ = a panel
+⟦12⟧ = a poll
+⟦13⟧ = A prolific goalscorer
+⟦14⟧ = a retired Mexican professional footballer
+⟦15⟧ = a UEFA Champions League Final
+⟦16⟧ = a UEFA Cup Final
+⟦17⟧ = academy
+⟦18⟧ = Aleksandr Anatoljević Zavarov
+⟦19⟧ = America
+⟦20⟧ = an academy coach
+⟦21⟧ = an annual association football award
+⟦22⟧ = an English professional football coach
+⟦23⟧ = an FA Cup Final
+⟦24⟧ = Asia
+⟦25⟧ = Asian football
+⟦26⟧ = association
+⟦27⟧ = award
+⟦28⟧ = Best Footballer
+⟦29⟧ = calendar
+⟦30⟧ = captain
+⟦31⟧ = career
+⟦32⟧ = century
+⟦33⟧ = club
+⟦34⟧ = club captain
+⟦35⟧ = coach
+⟦36⟧ = Dec 26th
+⟦37⟧ = division
+⟦38⟧ = each occasion
+⟦39⟧ = editor
+⟦40⟧ = El Mundo
+⟦41⟧ = El País
+⟦42⟧ = Europe
+⟦43⟧ = FC Arsenal Kyiv
+⟦44⟧ = football
+⟦45⟧ = Football History
+⟦46⟧ = footballer
+⟦47⟧ = footballers
+⟦48⟧ = former professional footballer
+⟦49⟧ = forward
+⟦50⟧ = France Football
+⟦51⟧ = generation
+⟦52⟧ = Gerrard
+⟦53⟧ = goalscorer
+⟦54⟧ = head
+⟦55⟧ = his generation
+⟦56⟧ = his leadership
+⟦57⟧ = his playing career
+⟦58⟧ = his spectacular strikes
+⟦59⟧ = history
+⟦60⟧ = Hugo Sánchez Márquez
+⟦61⟧ = journalists
+⟦62⟧ = Keisuke Honda
+⟦63⟧ = King
+⟦64⟧ = leadership
+⟦65⟧ = Leicester City
+⟦66⟧ = list
+⟦67⟧ = Liverpool
+⟦68⟧ = living
+⟦69⟧ = Luhansk
+⟦70⟧ = Luo Ming
+⟦71⟧ = majority
+⟦72⟧ = manager
+⟦73⟧ = March
+⟦74⟧ = Mexico's greatest-ever footballer
+⟦75⟧ = midfielder
+⟦76⟧ = midfielders
+⟦77⟧ = more than one time
+⟦78⟧ = newspaper
+⟦79⟧ = November
+⟦80⟧ = occasion
+⟦81⟧ = Oleksandr Anatoliyovych Zavarov
+⟦82⟧ = panel
+⟦83⟧ = Pelé
+⟦84⟧ = performance
+⟦85⟧ = player
+⟦86⟧ = players
+⟦87⟧ = playing
+⟦88⟧ = poll
+⟦89⟧ = prolific
+⟦90⟧ = Real Madrid's history
+⟦91⟧ = region
+⟦92⟧ = Russian
+⟦93⟧ = San Siro stadium
+⟦94⟧ = Sánchez
+⟦95⟧ = scorer
+⟦96⟧ = Shinji Okazaki
+⟦97⟧ = Son Heung-min
+⟦98⟧ = South America
+⟦99⟧ = Spain's top division
+⟦100⟧ = sports
+⟦101⟧ = sports journalists
+⟦102⟧ = stadium
+⟦103⟧ = Statistics
+⟦104⟧ = Steven George Gerrard
+⟦105⟧ = strikes
+⟦106⟧ = succession
+⟦107⟧ = team
+⟦108⟧ = that time
+⟦109⟧ = the "Ukrainsky Futbol" weekly
+⟦110⟧ = The 2014 Best Footballer
+⟦111⟧ = The 2015 Best Footballer
+⟦112⟧ = The 2016 Best Footballer
+⟦113⟧ = the 20th century
+⟦114⟧ = the 28th December
+⟦115⟧ = the 6th best footballer
+⟦116⟧ = The award
+⟦117⟧ = the Ballon d'Or Bronze Award
+⟦118⟧ = the best football player
+⟦119⟧ = the best footballer
+⟦120⟧ = the best performance
+⟦121⟧ = The Century
+⟦122⟧ = the CONCACAF region
+⟦123⟧ = the deputy chief editor
+⟦124⟧ = the England national team
+⟦125⟧ = the FIFA 100 list
+⟦126⟧ = the first footballer
+⟦127⟧ = the former head coach
+⟦128⟧ = the fourth highest scorer
+⟦129⟧ = the greatest footballers
+⟦130⟧ = the greatest midfielders
+⟦131⟧ = the greatest players
+⟦132⟧ = the history
+⟦133⟧ = the inaugural Best Footballer
+⟦134⟧ = the International Federation
+⟦135⟧ = the Japan national team
+⟦136⟧ = the majority
+⟦137⟧ = the only footballer
+⟦138⟧ = the player
+⟦139⟧ = the previous calendar year
+⟦140⟧ = The Rey del Fútbol de América
+⟦141⟧ = the sixth highest goalscorer
+⟦142⟧ = the South American Footballer
+⟦143⟧ = the trophy
+⟦144⟧ = the UEFA Club Footballer
+⟦145⟧ = the Ukrainian Team
+⟦146⟧ = the USSR
+⟦147⟧ = the voting
+⟦148⟧ = the winner
+⟦149⟧ = the world
+⟦150⟧ = the world's greatest living players
+⟦151⟧ = the Year
+⟦152⟧ = this trophy
+⟦153⟧ = time
+⟦154⟧ = Titan Sports
+⟦155⟧ = trophy
+⟦156⟧ = Ukraine
+⟦157⟧ = Ukrainian
+⟦158⟧ = Uruguayan newspaper
+⟦159⟧ = Venezuelan newspaper
+⟦160⟧ = volleys
+⟦161⟧ = voting
+⟦162⟧ = weekly
+⟦163⟧ = winner
+⟦164⟧ = world
+⟦165⟧ = year
+⟦166⟧ = Zavarov
+⟦167⟧ = Zinedine Zidane
+⟦168⟧ = Александр Анатольевич
+⟦169⟧ = Заваров
+⟦170⟧ = Олександр Анатолійович Заваров
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Best Footballer in Asia] ⟦28⟧⟨1⟩⟦24⟧⟨2⟩⟦21⟧⟨3⟩⟦26⟧⟨4⟩⟦44⟧⟨5⟩⟦154⟧⟨6⟩
+[Best Footballer in Asia] ⟨7⟩⟦138⟧⟨8⟩⟦85⟧⟨9⟩⟦120⟧⟨10⟩⟦84⟧⟨11⟩⟦25⟧⟨12⟩⟦44⟧⟨13⟩⟦139⟧⟨14⟩⟦29⟧⟨15⟩⟦165⟧⟨16⟩
+[Best Footballer in Asia 2014] ⟦110⟧⟨17⟩⟦24⟧⟨18⟩⟦118⟧⟨19⟩⟦44⟧⟨20⟩⟦85⟧⟨21⟩⟦24⟧⟨22⟩⟦11⟧⟨23⟩⟦82⟧⟨24⟩⟦100⟧⟨25⟩⟦101⟧⟨26⟩⟦61⟧⟨27⟩⟦97⟧⟨28⟩⟦4⟧⟨29⟩⟦4⟧⟨30⟩
+[Best Footballer in Asia 2014] ⟦79⟧⟨31⟩
+[Best Footballer in Asia 2015] ⟦111⟧⟨32⟩⟦24⟧⟨33⟩⟦118⟧⟨34⟩⟦44⟧⟨35⟩⟦85⟧⟨36⟩⟦24⟧⟨37⟩⟦11⟧⟨38⟩⟦82⟧⟨39⟩⟦1⟧⟨40⟩⟦100⟧⟨41⟩⟦61⟧⟨42⟩⟦97⟧⟨43⟩⟦114⟧⟨44⟩
+[Best Footballer in Asia 2015] ⟦97⟧⟨45⟩⟦126⟧⟨46⟩⟦46⟧⟨47⟩⟦28⟧⟨48⟩⟦24⟧⟨49⟩⟦77⟧⟨50⟩⟦153⟧⟨51⟩⟦126⟧⟨52⟩⟦46⟧⟨53⟩⟦152⟧⟨54⟩⟦155⟧⟨55⟩⟦106⟧⟨56⟩⟦106⟧⟨57⟩
+[Oleksandr Zavarov] ⟦81⟧⟨58⟩⟦18⟧⟨59⟩⟦157⟧⟨60⟩⟦170⟧⟨61⟩⟦92⟧⟨62⟩⟦169⟧⟨63⟩⟦168⟧⟨64⟩⟦69⟧⟨65⟩⟦7⟧⟨66⟩⟦44⟧⟨67⟩⟦75⟧⟨68⟩⟦127⟧⟨69⟩⟦54⟧⟨70⟩⟦35⟧⟨71⟩⟦43⟧⟨72⟩
+[Oleksandr Zavarov] ⟨73⟩⟦119⟧⟨74⟩⟦46⟧⟨75⟩⟦146⟧⟨76⟩⟦156⟧⟨77⟩⟦115⟧⟨78⟩⟦46⟧⟨79⟩⟦42⟧⟨80⟩⟦50⟧⟨81⟩
+[Oleksandr Zavarov] ⟦166⟧⟨82⟩⟦129⟧⟨83⟩⟦47⟧⟨84⟩⟦132⟧⟨85⟩⟦59⟧⟨86⟩⟦146⟧⟨87⟩⟦156⟧⟨88⟩⟦145⟧⟨89⟩⟦121⟧⟨90⟩⟦12⟧⟨91⟩⟦88⟧⟨92⟩⟦109⟧⟨93⟩⟦162⟧⟨94⟩
+[Shinji Okazaki] ⟦96⟧⟨95⟩⟦9⟧⟨96⟩⟦46⟧⟨97⟩⟦65⟧⟨98⟩⟦135⟧⟨99⟩⟦107⟧⟨100⟩
+[Hugo Sánchez] ⟦60⟧⟨101⟩⟦14⟧⟨102⟩⟦46⟧⟨103⟩⟦72⟧⟨104⟩⟦72⟧⟨105⟩⟦8⟧⟨106⟩⟦49⟧⟨107⟩
+[Hugo Sánchez] ⟦13⟧⟨108⟩⟦89⟧⟨109⟩⟦53⟧⟨110⟩⟦58⟧⟨111⟩⟦105⟧⟨112⟩⟦160⟧⟨113⟩⟦160⟧⟨114⟩⟦94⟧⟨115⟩⟦74⟧⟨116⟩⟦46⟧⟨117⟩⟦131⟧⟨118⟩⟦86⟧⟨119⟩⟦55⟧⟨120⟩⟦51⟧⟨121⟩
+[Hugo Sánchez] ⟨122⟩⟦134⟧⟨123⟩⟦45⟧⟨124⟩⟦103⟧⟨125⟩⟦94⟧⟨126⟩⟦46⟧⟨127⟩⟦113⟧⟨128⟩⟦32⟧⟨129⟩⟦46⟧⟨130⟩⟦122⟧⟨131⟩⟦91⟧⟨132⟩
+[Hugo Sánchez] ⟨133⟩⟦94⟧⟨134⟩⟦125⟧⟨135⟩⟦66⟧⟨136⟩⟦150⟧⟨137⟩⟦164⟧⟨138⟩⟦68⟧⟨139⟩⟦86⟧⟨140⟩
+[Hugo Sánchez] ⟨141⟩⟦128⟧⟨142⟩⟦95⟧⟨143⟩⟦132⟧⟨144⟩⟦59⟧⟨145⟩⟦99⟧⟨146⟩⟦37⟧⟨147⟩⟦141⟧⟨148⟩⟦53⟧⟨149⟩⟦90⟧⟨150⟩⟦59⟧⟨151⟩
+[South American Footballer of the Year] ⟦140⟧⟨152⟩⟦63⟧⟨153⟩⟦44⟧⟨154⟩⟦19⟧⟨155⟩⟦142⟧⟨156⟩⟦151⟧⟨157⟩⟦21⟧⟨158⟩⟦26⟧⟨159⟩⟦44⟧⟨160⟩⟦27⟧⟨161⟩⟦119⟧⟨162⟩⟦46⟧⟨163⟩⟦98⟧⟨164⟩⟦139⟧⟨165⟩⟦29⟧⟨166⟩⟦165⟧⟨167⟩
+[South American Footballer of the Year] ⟦116⟧⟨168⟩⟦27⟧⟨169⟩⟦159⟧⟨170⟩⟦78⟧⟨171⟩⟦40⟧⟨172⟩
+[South American Footballer of the Year] ⟦158⟧⟨173⟩⟦78⟧⟨174⟩⟦41⟧⟨175⟩
+[Best Footballer in Asia 2013] ⟦119⟧⟨176⟩⟦24⟧⟨177⟩⟦133⟧⟨178⟩⟦24⟧⟨179⟩
+[Best Footballer in Asia 2013] ⟨180⟩⟦147⟧⟨181⟩⟦161⟧⟨182⟩⟦11⟧⟨183⟩⟦82⟧⟨184⟩⟦2⟧⟨185⟩⟦61⟧⟨186⟩⟦148⟧⟨187⟩⟦163⟧⟨188⟩⟦62⟧⟨189⟩
+[Best Footballer in Asia 2013] ⟨190⟩⟦73⟧⟨191⟩⟦143⟧⟨192⟩⟦155⟧⟨193⟩⟦62⟧⟨194⟩⟦70⟧⟨195⟩⟦123⟧⟨196⟩⟦39⟧⟨197⟩⟦154⟧⟨198⟩⟦93⟧⟨199⟩⟦102⟧⟨200⟩
+[Best Footballer in Asia 2016] ⟦112⟧⟨201⟩⟦24⟧⟨202⟩⟦118⟧⟨203⟩⟦44⟧⟨204⟩⟦85⟧⟨205⟩⟦24⟧⟨206⟩⟦11⟧⟨207⟩⟦82⟧⟨208⟩⟦5⟧⟨209⟩⟦100⟧⟨210⟩⟦61⟧⟨211⟩⟦96⟧⟨212⟩⟦36⟧⟨213⟩⟦3⟧⟨214⟩
+[Steven Gerrard] ⟦104⟧⟨215⟩⟦22⟧⟨216⟩⟦44⟧⟨217⟩⟦35⟧⟨218⟩⟦48⟧⟨219⟩⟦46⟧⟨220⟩⟦20⟧⟨221⟩⟦17⟧⟨222⟩⟦35⟧⟨223⟩⟦67⟧⟨224⟩
+[Steven Gerrard] ⟨225⟩⟦136⟧⟨226⟩⟦71⟧⟨227⟩⟦57⟧⟨228⟩⟦87⟧⟨229⟩⟦31⟧⟨230⟩⟦6⟧⟨231⟩⟦75⟧⟨232⟩⟦67⟧⟨233⟩⟦124⟧⟨234⟩⟦107⟧⟨235⟩⟦108⟧⟨236⟩⟦153⟧⟨237⟩⟦33⟧⟨238⟩⟦34⟧⟨239⟩⟦30⟧⟨240⟩
+[Steven Gerrard] ⟨241⟩⟦130⟧⟨242⟩⟦76⟧⟨243⟩⟦55⟧⟨244⟩⟦51⟧⟨245⟩⟦52⟧⟨246⟩⟦144⟧⟨247⟩⟦151⟧⟨248⟩⟦27⟧⟨249⟩⟦27⟧⟨250⟩⟦117⟧⟨251⟩
+[Steven Gerrard] ⟨252⟩⟦167⟧⟨253⟩⟦83⟧⟨254⟩⟦52⟧⟨255⟩⟦119⟧⟨256⟩⟦46⟧⟨257⟩⟦149⟧⟨258⟩⟦164⟧⟨259⟩
+[Steven Gerrard] ⟨260⟩⟦85⟧⟨261⟩⟦56⟧⟨262⟩⟦64⟧⟨263⟩⟦52⟧⟨264⟩⟦137⟧⟨265⟩⟦46⟧⟨266⟩⟦59⟧⟨267⟩⟦59⟧⟨268⟩⟦23⟧⟨269⟩⟦10⟧⟨270⟩⟦16⟧⟨271⟩⟦15⟧⟨272⟩⟦38⟧⟨273⟩⟦80⟧⟨274⟩
+
+[user]
+
+问题：
+What year was the recipient of the 2016 Best Footballer in Asia born?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

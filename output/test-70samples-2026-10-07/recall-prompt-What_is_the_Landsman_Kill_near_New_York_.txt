@@ -1,0 +1,292 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "riverbed
+⟦2⟧ = "water channel
+⟦3⟧ = (formerly Pax and i) network
+⟦4⟧ = (PSH
+⟦5⟧ = 272 historical structures
+⟦6⟧ = 3 east
+⟦7⟧ = 3 freeway
+⟦8⟧ = 3 mi
+⟦9⟧ = 6.19 mi
+⟦10⟧ = 9A
+⟦11⟧ = a 149.24 mi -long state highway
+⟦12⟧ = a 2.6 sqmi historic district
+⟦13⟧ = a 3.42 mi state highway
+⟦14⟧ = a body
+⟦15⟧ = a creek
+⟦16⟧ = a divided highway
+⟦17⟧ = a full-service television station
+⟦18⟧ = a hamlet and populated place
+⟦19⟧ = a kill
+⟦20⟧ = a major collector road
+⟦21⟧ = a new freeway
+⟦22⟧ = a north–south state highway
+⟦23⟧ = a northwest-southeast state highway
+⟦24⟧ = a section
+⟦25⟧ = a short state highway
+⟦26⟧ = a shortcut
+⟦27⟧ = a spur route
+⟦28⟧ = a T-intersection
+⟦29⟧ = a transmitter
+⟦30⟧ = a U.S. state
+⟦31⟧ = affiliate
+⟦32⟧ = alignment
+⟦33⟧ = Amsterdam
+⟦34⟧ = an east–west state highway
+⟦35⟧ = an east–west street
+⟦36⟧ = an interchange
+⟦37⟧ = analog
+⟦38⟧ = approximately 1+1/2 mi
+⟦39⟧ = area
+⟦40⟧ = areas
+⟦41⟧ = assignment
+⟦42⟧ = Bangor
+⟦43⟧ = body
+⟦44⟧ = branch
+⟦45⟧ = Bremerton
+⟦46⟧ = broadcast
+⟦47⟧ = broadcasting
+⟦48⟧ = Bronx River Road
+⟦49⟧ = Buckhorn
+⟦50⟧ = Celina
+⟦51⟧ = Ceres Township
+⟦52⟧ = channel
+⟦53⟧ = city
+⟦54⟧ = collector
+⟦55⟧ = community
+⟦56⟧ = concurrency
+⟦57⟧ = creek
+⟦58⟧ = designations
+⟦59⟧ = district
+⟦60⟧ = Dutchess County
+⟦61⟧ = east
+⟦62⟧ = edge
+⟦63⟧ = end
+⟦64⟧ = entirety
+⟦65⟧ = entrance
+⟦66⟧ = four major east
+⟦67⟧ = freeway
+⟦68⟧ = fringes
+⟦69⟧ = Gambier
+⟦70⟧ = Georgia
+⟦71⟧ = highway
+⟦72⟧ = interchange
+⟦73⟧ = intersection
+⟦74⟧ = intersects
+⟦75⟧ = Interstate
+⟦76⟧ = Its eastern terminus
+⟦77⟧ = its former alignment
+⟦78⟧ = its northern terminus
+⟦79⟧ = Its original analog assignment
+⟦80⟧ = Its route
+⟦81⟧ = Its western terminus
+⟦82⟧ = Keyport
+⟦83⟧ = kill
+⟦84⟧ = Kitsap County
+⟦85⟧ = landmarks
+⟦86⟧ = length
+⟦87⟧ = limits
+⟦88⟧ = line
+⟦89⟧ = market
+⟦90⟧ = Mechanicsburg
+⟦91⟧ = mi
+⟦92⟧ = Milan
+⟦93⟧ = Mohawk Valley
+⟦94⟧ = mostly rural areas
+⟦95⟧ = Mount Vernon
+⟦96⟧ = Mutual
+⟦97⟧ = Naval Base Kitsap
+⟦98⟧ = Nepperhan Avenue
+⟦99⟧ = network
+⟦100⟧ = New Knoxville
+⟦101⟧ = New York
+⟦102⟧ = New York State Route
+⟦103⟧ = New York State Route 9A
+⟦104⟧ = north
+⟦105⟧ = northern Dutchess County
+⟦106⟧ = NY
+⟦107⟧ = NY 9A
+⟦108⟧ = Ohio
+⟦109⟧ = PA
+⟦110⟧ = part
+⟦111⟧ = Pennsylvania
+⟦112⟧ = Pennsylvania Route
+⟦113⟧ = place
+⟦114⟧ = point
+⟦115⟧ = portion
+⟦116⟧ = Primary State Highway
+⟦117⟧ = Red Hook
+⟦118⟧ = reference
+⟦119⟧ = renumbering
+⟦120⟧ = Rhinebeck
+⟦121⟧ = riverbed
+⟦122⟧ = road
+⟦123⟧ = Rock City
+⟦124⟧ = Route
+⟦125⟧ = routes
+⟦126⟧ = section
+⟦127⟧ = September
+⟦128⟧ = service
+⟦129⟧ = several historical landmarks
+⟦130⟧ = shortcut
+⟦131⟧ = Sidney
+⟦132⟧ = Silverdale
+⟦133⟧ = south
+⟦134⟧ = south routes
+⟦135⟧ = southeast
+⟦136⟧ = spur
+⟦137⟧ = SR
+⟦138⟧ = SR 303 Spur
+⟦139⟧ = St. Marys
+⟦140⟧ = state
+⟦141⟧ = State Road
+⟦142⟧ = State Route
+⟦143⟧ = station
+⟦144⟧ = street
+⟦145⟧ = structures
+⟦146⟧ = Sumter County
+⟦147⟧ = television
+⟦148⟧ = terminus
+⟦149⟧ = that point
+⟦150⟧ = that town
+⟦151⟧ = the 1964 highway renumbering
+⟦152⟧ = the affiliate
+⟦153⟧ = the Albany market
+⟦154⟧ = the area
+⟦155⟧ = the branch
+⟦156⟧ = the Bronx River Parkway
+⟦157⟧ = the central portion
+⟦158⟧ = the city
+⟦159⟧ = the city limits
+⟦160⟧ = the community
+⟦161⟧ = the concurrency intersects
+⟦162⟧ = the Dutchess County Fairgrounds
+⟦163⟧ = the eastern fringes
+⟦164⟧ = The entirety
+⟦165⟧ = The highway
+⟦166⟧ = the Indiana state line
+⟦167⟧ = the intersection
+⟦168⟧ = the Ion Television
+⟦169⟧ = the Keyport branch
+⟦170⟧ = the Landsman Kill
+⟦171⟧ = the main entrance
+⟦172⟧ = the Montgomery/Fulton County line
+⟦173⟧ = the Naval Undersea Warfare Center
+⟦174⟧ = the New York State Department
+⟦175⟧ = the New York state line
+⟦176⟧ = the New York state's Capital District
+⟦177⟧ = the north
+⟦178⟧ = the old route
+⟦179⟧ = the Rhinebeck Village Historic District
+⟦180⟧ = the route
+⟦181⟧ = the Saw Mill Parkway
+⟦182⟧ = the Saw Mill River Parkway and New York State Route
+⟦183⟧ = The southern terminus
+⟦184⟧ = the southwest part
+⟦185⟧ = the SR
+⟦186⟧ = the station
+⟦187⟧ = The station's broadcast
+⟦188⟧ = the street
+⟦189⟧ = the Taconic State Parkway
+⟦190⟧ = the towns
+⟦191⟧ = the two main north
+⟦192⟧ = the U.S. state
+⟦193⟧ = the United States
+⟦194⟧ = the Utica market
+⟦195⟧ = the village
+⟦196⟧ = the west-central portion
+⟦197⟧ = the western edge
+⟦198⟧ = The western end
+⟦199⟧ = The western terminus
+⟦200⟧ = The word
+⟦201⟧ = Time Warner Cable
+⟦202⟧ = town
+⟦203⟧ = towns
+⟦204⟧ = traffic
+⟦205⟧ = transmitter
+⟦206⟧ = Transportation
+⟦207⟧ = TV
+⟦208⟧ = U.S. Route
+⟦209⟧ = UHF channel
+⟦210⟧ = United States
+⟦211⟧ = unsigned reference route designations
+⟦212⟧ = Urbana
+⟦213⟧ = US
+⟦214⟧ = village
+⟦215⟧ = Washington
+⟦216⟧ = water
+⟦217⟧ = west
+⟦218⟧ = West Jefferson
+⟦219⟧ = Westchester County
+⟦220⟧ = word
+⟦221⟧ = WYPX
+⟦222⟧ = WYPX-TV
+⟦223⟧ = Yonkers
+⟦224⟧ = Yonkers Avenue
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Rock City, New York] ⟦123⟧⟨1⟩⟦18⟧⟨2⟩⟦113⟧⟨3⟩⟦60⟧⟨4⟩⟦210⟧⟨5⟩
+[Rock City, New York] ⟨6⟩⟦167⟧⟨7⟩⟦73⟧⟨8⟩⟦102⟧⟨9⟩⟦124⟧⟨10⟩⟦190⟧⟨11⟩⟦203⟧⟨12⟩⟦92⟧⟨13⟩⟦117⟧⟨14⟩⟦120⟧⟨15⟩
+[WYPX-TV] ⟦222⟧⟨16⟩⟦207⟧⟨17⟩⟦17⟧⟨18⟩⟦128⟧⟨19⟩⟦147⟧⟨20⟩⟦143⟧⟨21⟩⟦33⟧⟨22⟩⟦101⟧⟨23⟩⟦152⟧⟨24⟩⟦31⟧⟨25⟩⟦168⟧⟨26⟩⟦3⟧⟨27⟩⟦99⟧⟨28⟩⟦176⟧⟨29⟩⟦140⟧⟨30⟩⟦93⟧⟨31⟩
+[WYPX-TV] ⟦187⟧⟨32⟩⟦143⟧⟨33⟩⟦46⟧⟨34⟩⟦209⟧⟨35⟩⟦52⟧⟨36⟩⟦29⟧⟨37⟩⟦205⟧⟨38⟩⟦102⟧⟨39⟩⟦172⟧⟨40⟩⟦88⟧⟨41⟩⟦201⟧⟨42⟩⟦153⟧⟨43⟩⟦89⟧⟨44⟩⟦52⟧⟨45⟩⟦52⟧⟨46⟩
+[WYPX-TV] ⟦221⟧⟨47⟩⟦163⟧⟨48⟩⟦68⟧⟨49⟩⟦194⟧⟨50⟩⟦89⟧⟨51⟩
+[WYPX-TV] ⟨52⟩⟦79⟧⟨53⟩⟦37⟧⟨54⟩⟦41⟧⟨55⟩⟦209⟧⟨56⟩⟦52⟧⟨57⟩⟦186⟧⟨58⟩⟦143⟧⟨59⟩⟦47⟧⟨60⟩⟦47⟧⟨61⟩⟦37⟧⟨62⟩⟦37⟧⟨63⟩⟦127⟧⟨64⟩
+[Yonkers Avenue] ⟦224⟧⟨65⟩⟦35⟧⟨66⟩⟦144⟧⟨67⟩⟦158⟧⟨68⟩⟦53⟧⟨69⟩⟦223⟧⟨70⟩⟦219⟧⟨71⟩⟦101⟧⟨72⟩⟦193⟧⟨73⟩
+[Yonkers Avenue] ⟨74⟩⟦66⟧⟨75⟩⟦217⟧⟨76⟩⟦217⟧⟨77⟩⟦125⟧⟨78⟩⟦125⟧⟨79⟩⟦158⟧⟨80⟩⟦53⟧⟨81⟩
+[Yonkers Avenue] ⟦199⟧⟨82⟩⟦148⟧⟨83⟩⟦188⟧⟨84⟩⟦144⟧⟨85⟩⟦98⟧⟨86⟩⟦208⟧⟨87⟩⟦213⟧⟨88⟩⟦103⟧⟨89⟩⟦107⟧⟨90⟩⟦10⟧⟨91⟩
+[Yonkers Avenue] ⟨92⟩⟦76⟧⟨93⟩⟦148⟧⟨94⟩⟦48⟧⟨95⟩⟦156⟧⟨96⟩
+[Yonkers Avenue] ⟦164⟧⟨97⟩⟦64⟧⟨98⟩⟦224⟧⟨99⟩⟦174⟧⟨100⟩⟦206⟧⟨101⟩⟦102⟧⟨102⟩⟦98⟧⟨103⟩⟦182⟧⟨104⟩⟦181⟧⟨105⟩⟦48⟧⟨106⟩
+[Yonkers Avenue] ⟨107⟩⟦211⟧⟨108⟩⟦118⟧⟨109⟩⟦124⟧⟨110⟩⟦58⟧⟨111⟩
+[New York State Route 308] ⟦102⟧⟨112⟩⟦106⟧⟨113⟩⟦25⟧⟨114⟩⟦140⟧⟨115⟩⟦71⟧⟨116⟩⟦9⟧⟨117⟩⟦91⟧⟨118⟩⟦86⟧⟨119⟩⟦86⟧⟨120⟩⟦105⟧⟨121⟩⟦192⟧⟨122⟩⟦140⟧⟨123⟩⟦101⟧⟨124⟩
+[New York State Route 308] ⟨125⟩⟦20⟧⟨126⟩⟦54⟧⟨127⟩⟦122⟧⟨128⟩⟦94⟧⟨129⟩⟦40⟧⟨130⟩⟦26⟧⟨131⟩⟦130⟧⟨132⟩⟦204⟧⟨133⟩⟦204⟧⟨134⟩⟦191⟧⟨135⟩⟦104⟧⟨136⟩⟦134⟧⟨137⟩⟦125⟧⟨138⟩⟦154⟧⟨139⟩⟦39⟧⟨140⟩⟦213⟧⟨141⟩⟦106⟧⟨142⟩⟦189⟧⟨143⟩
+[New York State Route 308] ⟦198⟧⟨144⟩⟦63⟧⟨145⟩⟦179⟧⟨146⟩⟦12⟧⟨147⟩⟦59⟧⟨148⟩⟦5⟧⟨149⟩⟦145⟧⟨150⟩
+[New York State Route 308] ⟦165⟧⟨151⟩⟦71⟧⟨152⟩⟦162⟧⟨153⟩⟦129⟧⟨154⟩⟦85⟧⟨155⟩⟦170⟧⟨156⟩
+[Washington State Route 308] ⟦142⟧⟨157⟩⟦13⟧⟨158⟩⟦140⟧⟨159⟩⟦71⟧⟨160⟩⟦192⟧⟨161⟩⟦140⟧⟨162⟩⟦215⟧⟨163⟩⟦160⟧⟨164⟩⟦55⟧⟨165⟩⟦82⟧⟨166⟩⟦84⟧⟨167⟩
+[Washington State Route 308] ⟦165⟧⟨168⟩⟦71⟧⟨169⟩⟦36⟧⟨170⟩⟦72⟧⟨171⟩⟦137⟧⟨172⟩⟦6⟧⟨173⟩⟦61⟧⟨174⟩⟦97⟧⟨175⟩⟦42⟧⟨176⟩⟦171⟧⟨177⟩⟦65⟧⟨178⟩⟦173⟧⟨179⟩⟦82⟧⟨180⟩
+[Washington State Route 308] ⟨181⟩⟦169⟧⟨182⟩⟦44⟧⟨183⟩⟦141⟧⟨184⟩⟦169⟧⟨185⟩⟦44⟧⟨186⟩⟦116⟧⟨187⟩⟦4⟧⟨188⟩
+[Washington State Route 308] ⟨189⟩⟦151⟧⟨190⟩⟦71⟧⟨191⟩⟦119⟧⟨192⟩⟦155⟧⟨193⟩⟦44⟧⟨194⟩⟦24⟧⟨195⟩⟦126⟧⟨196⟩⟦45⟧⟨197⟩⟦42⟧⟨198⟩⟦27⟧⟨199⟩⟦136⟧⟨200⟩⟦124⟧⟨201⟩⟦82⟧⟨202⟩
+[Washington State Route 308] ⟨203⟩⟦178⟧⟨204⟩⟦124⟧⟨205⟩⟦138⟧⟨206⟩⟦185⟧⟨207⟩⟦7⟧⟨208⟩⟦67⟧⟨209⟩⟦21⟧⟨210⟩⟦67⟧⟨211⟩⟦132⟧⟨212⟩
+[Ohio State Route 308] ⟦142⟧⟨213⟩⟦137⟧⟨214⟩⟦22⟧⟨215⟩⟦104⟧⟨216⟩⟦140⟧⟨217⟩⟦71⟧⟨218⟩⟦157⟧⟨219⟩⟦115⟧⟨220⟩⟦108⟧⟨221⟩⟦30⟧⟨222⟩⟦140⟧⟨223⟩
+[Ohio State Route 308] ⟦183⟧⟨224⟩⟦148⟧⟨225⟩⟦137⟧⟨226⟩⟦198⟧⟨227⟩⟦63⟧⟨228⟩⟦195⟧⟨229⟩⟦214⟧⟨230⟩⟦69⟧⟨231⟩⟦78⟧⟨232⟩⟦148⟧⟨233⟩⟦8⟧⟨234⟩⟦91⟧⟨235⟩⟦177⟧⟨236⟩⟦104⟧⟨237⟩⟦149⟧⟨238⟩⟦114⟧⟨239⟩⟦28⟧⟨240⟩⟦73⟧⟨241⟩⟦208⟧⟨242⟩⟦213⟧⟨243⟩⟦38⟧⟨244⟩⟦91⟧⟨245⟩⟦159⟧⟨246⟩⟦53⟧⟨247⟩⟦87⟧⟨248⟩⟦95⟧⟨249⟩
+[Ohio State Route 29] ⟦142⟧⟨250⟩⟦137⟧⟨251⟩⟦137⟧⟨252⟩⟦34⟧⟨253⟩⟦71⟧⟨254⟩⟦196⟧⟨255⟩⟦115⟧⟨256⟩⟦192⟧⟨257⟩⟦140⟧⟨258⟩⟦108⟧⟨259⟩
+[Ohio State Route 29] ⟨260⟩⟦81⟧⟨261⟩⟦148⟧⟨262⟩⟦166⟧⟨263⟩⟦140⟧⟨264⟩⟦88⟧⟨265⟩⟦50⟧⟨266⟩⟦141⟧⟨267⟩⟦217⟧⟨268⟩
+[Ohio State Route 29] ⟨269⟩⟦139⟧⟨270⟩⟦208⟧⟨271⟩
+[Ohio State Route 29] ⟨272⟩⟦150⟧⟨273⟩⟦202⟧⟨274⟩⟦142⟧⟨275⟩⟦142⟧⟨276⟩⟦142⟧⟨277⟩⟦77⟧⟨278⟩⟦32⟧⟨279⟩⟦16⟧⟨280⟩⟦71⟧⟨281⟩
+[Ohio State Route 29] ⟨282⟩⟦142⟧⟨283⟩⟦100⟧⟨284⟩⟦36⟧⟨285⟩⟦72⟧⟨286⟩⟦75⟧⟨287⟩⟦131⟧⟨288⟩⟦142⟧⟨289⟩
+[Ohio State Route 29] ⟨290⟩⟦142⟧⟨291⟩⟦133⟧⟨292⟩⟦212⟧⟨293⟩
+[Ohio State Route 29] ⟨294⟩⟦180⟧⟨295⟩⟦124⟧⟨296⟩⟦208⟧⟨297⟩⟦161⟧⟨298⟩⟦56⟧⟨299⟩⟦74⟧⟨300⟩⟦208⟧⟨301⟩⟦142⟧⟨302⟩
+[Ohio State Route 29] ⟨303⟩⟦142⟧⟨304⟩⟦208⟧⟨305⟩⟦96⟧⟨306⟩⟦142⟧⟨307⟩⟦90⟧⟨308⟩⟦124⟧⟨309⟩⟦74⟧⟨310⟩⟦142⟧⟨311⟩
+[Ohio State Route 29] ⟦180⟧⟨312⟩⟦124⟧⟨313⟩⟦142⟧⟨314⟩⟦208⟧⟨315⟩⟦75⟧⟨316⟩⟦76⟧⟨317⟩⟦148⟧⟨318⟩⟦208⟧⟨319⟩⟦197⟧⟨320⟩⟦62⟧⟨321⟩⟦218⟧⟨322⟩
+[Pennsylvania Route 44] ⟦112⟧⟨323⟩⟦109⟧⟨324⟩⟦11⟧⟨325⟩⟦91⟧⟨326⟩⟦140⟧⟨327⟩⟦71⟧⟨328⟩⟦192⟧⟨329⟩⟦140⟧⟨330⟩⟦111⟧⟨331⟩
+[Pennsylvania Route 44] ⟦180⟧⟨332⟩⟦124⟧⟨333⟩⟦75⟧⟨334⟩⟦112⟧⟨335⟩⟦49⟧⟨336⟩⟦175⟧⟨337⟩⟦140⟧⟨338⟩⟦88⟧⟨339⟩⟦102⟧⟨340⟩⟦51⟧⟨341⟩
+[Kill (body of water)] ⟨342⟩⟦14⟧⟨343⟩⟦43⟧⟨344⟩⟦216⟧⟨345⟩⟦216⟧⟨346⟩⟦19⟧⟨347⟩⟦83⟧⟨348⟩⟦15⟧⟨349⟩⟦57⟧⟨350⟩
+[Kill (body of water)] ⟦200⟧⟨351⟩⟦220⟧⟨352⟩⟦1⟧⟨353⟩⟦121⟧⟨354⟩⟦2⟧⟨355⟩⟦216⟧⟨356⟩⟦52⟧⟨357⟩
+[Georgia State Route 308] ⟦142⟧⟨358⟩⟦23⟧⟨359⟩⟦135⟧⟨360⟩⟦140⟧⟨361⟩⟦71⟧⟨362⟩⟦184⟧⟨363⟩⟦110⟧⟨364⟩⟦192⟧⟨365⟩⟦140⟧⟨366⟩⟦70⟧⟨367⟩
+[Georgia State Route 308] ⟦80⟧⟨368⟩⟦124⟧⟨369⟩⟦146⟧⟨370⟩
+
+[user]
+
+问题：
+What is the Landsman Kill near New York State Route 308?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,29 @@
+# 路径一：从死亡年份与节目名称交叉验证
+
+步骤1：使用⟦142⟧⟦363⟧⟦364⟧，提取“Steven Williams ( 14, 1960 – 29, 2009)”这一信息，判断该人物于2009年去世。
+
+步骤2：使用⟦141⟧⟦72⟧⟦365⟧⟦366⟧⟦367⟧⟦368⟧，提取“Steve Williams, better known by his ring name "Dr. Death"”，确认该人物的擂台名为“Dr. Death”。
+
+步骤3：综合⟦50⟧⟦389⟧⟦390⟧⟦391⟧⟦392⟧⟦393⟧⟦394⟧⟦395⟧⟦396⟧⟦397⟧⟦398⟧⟦399⟧⟦400⟧⟦401⟧⟦402⟧⟦403⟧⟦404⟧⟦405⟧⟦406⟧⟦407⟧⟦408⟧⟦409⟧⟦410⟧⟦411⟧，提取“Dr. Death”在Starrcade相关段落中的描述，确认其作为“Dr. Death”参与了该摔角节目。
+
+结论：2009年去世、且出现在Starrcade摔角节目中的摔角手是“Dr. Death” Steve Williams（本名Steven Williams）。
+
+# 路径二：从职业身份与赛事成就反向定位
+
+步骤1：使用⟦24⟧⟦27⟧⟦370⟧⟦371⟧⟦372⟧⟦373⟧⟦374⟧⟦375⟧⟦376⟧⟦377⟧⟦378⟧⟦379⟧⟦380⟧⟦381⟧，提取“an American professional wrestler, author”等身份信息，确认Steve Williams是美国职业摔角手。
+
+步骤2：使用⟦382⟧⟦384⟦385⟧⟦386⟧⟦387⟧⟦388⟧，提取“was professional heavyweight, having won the UWF Heavyweight Championship twice and the Triple Crown Heavyweight Championship once”，确认其重量级冠军身份与成就。
+
+步骤3：综合⟦50⟧⟦412⟧⟦413⟧⟦414⟧⟦415⟧⟦416⟧⟦417⟧⟦418⟧⟦419⟧⟦420⟧⟦421⟧⟦422⟧⟦423⟧⟦424⟧⟦425⟧⟦426⟧⟦427⟧⟦428⟧⟦429⟧，提取“Dr. Death”在Starrcade段落中关于tag team success、titles等描述，确认其作为“Dr. Death”出现在该节目。
+
+结论：综合职业身份、冠军成就与Starrcade节目记录，该摔角手为“Dr. Death” Steve Williams。
+
+# 路径三：从别名与节目名称直接匹配
+
+步骤1：使用⟦50⟧，提取“Dr. Death”这一别名，判断该别名指向Steve Williams。
+
+步骤2：使用⟦141⟧⟦142⟧⟦363⟧⟦364⟧，提取“Steve Williams”与“Steven Williams ( 14, 1960 – 29, 2009)”，确认其死亡年份为2009年。
+
+步骤3：综合⟦50⟧⟦389⟧⟦412⟧，提取“Dr. Death”在Starrcade段落中的出现，确认该别名与Starrcade节目的关联。
+
+结论：以“Dr. Death”为别名、2009年去世、并出现在Starrcade节目中的摔角手是Steve Williams。

@@ -1,0 +1,76 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Bonnie Winterbottom] ⟨1⟩⟦7⟧⟦65⟧⟨2⟩⟨3⟩⟨4⟩
+[List of How to Get Away with Murder episodes] ⟦57⟧
+[How to Get Away with Murder] ⟨118⟩⟨119⟩⟨120⟩⟨121⟩⟨122⟩
+[How to Get Away with Murder] ⟨123⟩⟨124⟩⟨125⟩⟨126⟩⟨127⟩⟦14⟧⟦151⟧⟨128⟩⟨129⟩⟦176⟧⟦167⟧⟨131⟩⟦76⟧⟨130⟩⟨132⟩
+[List of How to Get Away with Murder characters] ⟦160⟧ | ⟦229⟧⟦160⟧⟦190⟧⟦24⟧ | ⟦229⟧
+[Stacy Heather Tolkin] ⟦156⟧⟦156⟧
+[Liza Weil] ⟦188⟧ | ⟦188⟧
+[Liza Weil] ⟦23⟧
+
+符号表：
+⟦7⟧ = a fictional character
+⟦14⟧ = a night
+⟦23⟧ = ABC
+⟦24⟧ = ABC Studios
+⟦57⟧ = Bonnie Winterbottom
+⟦65⟧ = character
+⟦76⟧ = company
+⟦151⟧ = night
+⟦156⟧ = part
+⟦160⟧ = Peter Nowalk
+⟦167⟧ = production
+⟦176⟧ = Rhimes's ShondaLand production company
+⟦188⟧ = series
+⟦190⟧ = Shonda Rhimes
+⟦229⟧ = The series
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  created in 2014 by 
+⟨4⟩ = .
+⟨118⟩ = 
+⟨119⟩ =  was created by 
+⟨120⟩ = , and produced by 
+⟨121⟩ =  and 
+⟨122⟩ = .
+⟨123⟩ = 
+⟨124⟩ =  airs on 
+⟨125⟩ =  as 
+⟨126⟩ = 
+⟨127⟩ =  of 
+⟨128⟩ = 
+⟨129⟩ =  of programming all under 
+⟨130⟩ = 
+⟨131⟩ =  
+⟨132⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who created the series in which Liza Weil played Bonnie Winterbottom?

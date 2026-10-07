@@ -1,0 +1,367 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Kızılay Meydanı
+⟦2⟧ = "Mark Twain" Steamboat
+⟦3⟧ = (Armenian
+⟦4⟧ = 12th
+⟦5⟧ = 13th
+⟦6⟧ = 15 July
+⟦7⟧ = 15 Temmuz Kızılay Demokrasi Meydanı
+⟦8⟧ = 15 Temmuz Kızılay Milli İrade Meydanı
+⟦9⟧ = 15th
+⟦10⟧ = 1800s
+⟦11⟧ = 1920s
+⟦12⟧ = 1970s
+⟦13⟧ = 26 July
+⟦14⟧ = 3-15 Liberty Square
+⟦15⟧ = 9 August
+⟦16⟧ = a design
+⟦17⟧ = a historic factory building
+⟦18⟧ = a home
+⟦19⟧ = a landing
+⟦20⟧ = a long waterfront
+⟦21⟧ = a neighborhood
+⟦22⟧ = a park
+⟦23⟧ = a public plaza
+⟦24⟧ = a quaint urban pocket park
+⟦25⟧ = a reason
+⟦26⟧ = a scenic, 12-minute journey
+⟦27⟧ = a theme park
+⟦28⟧ = a town square
+⟦29⟧ = abbreviation
+⟦30⟧ = adjacent Frontierland
+⟦31⟧ = all manner
+⟦32⟧ = also Freedom Square
+⟦33⟧ = America
+⟦34⟧ = an American history show
+⟦35⟧ = an attraction
+⟦36⟧ = an audio-animatronic figure
+⟦37⟧ = Anaheim
+⟦38⟧ = Ankara
+⟦39⟧ = Ankara Metropolitan Municipality
+⟦40⟧ = architect
+⟦41⟧ = Armenia
+⟦42⟧ = arts
+⟦43⟧ = attempt
+⟦44⟧ = attraction
+⟦45⟧ = attractions
+⟦46⟧ = Azatut'yan hraparak
+⟦47⟧ = Beverly Glen Boulevard
+⟦48⟧ = block
+⟦49⟧ = both the Liberty Bell
+⟦50⟧ = brick
+⟦51⟧ = Broad Street
+⟦52⟧ = building
+⟦53⟧ = businesses
+⟦54⟧ = but the popular use
+⟦55⟧ = California
+⟦56⟧ = centers
+⟦57⟧ = Central South Philadelphia
+⟦58⟧ = central Yerevan
+⟦59⟧ = Chiang Kai-shek Memorial Hall
+⟦60⟧ = choice
+⟦61⟧ = city
+⟦62⟧ = colonial America
+⟦63⟧ = Columbus Square
+⟦64⟧ = Columbus Square Park
+⟦65⟧ = completion
+⟦66⟧ = complex
+⟦67⟧ = composer
+⟦68⟧ = composer Alexander Spendiaryan
+⟦69⟧ = coup
+⟦70⟧ = cultural and historical interest
+⟦71⟧ = De Neve Square Park
+⟦72⟧ = democracy
+⟦73⟧ = departs
+⟦74⟧ = design
+⟦75⟧ = Disneyland Paris
+⟦76⟧ = district
+⟦77⟧ = downtown
+⟦78⟧ = downtown Lynn
+⟦79⟧ = east
+⟦80⟧ = East Gate Bel Air
+⟦81⟧ = English-style street lamps
+⟦82⟧ = every President
+⟦83⟧ = excellent views
+⟦84⟧ = extension
+⟦85⟧ = factory
+⟦86⟧ = fifty years
+⟦87⟧ = figure
+⟦88⟧ = Florida
+⟦89⟧ = four streets
+⟦90⟧ = gathering
+⟦91⟧ = Geoff DiMasi
+⟦92⟧ = Hawthorne
+⟦93⟧ = history
+⟦94⟧ = Holmby Hills
+⟦95⟧ = Holmby Park
+⟦96⟧ = home
+⟦97⟧ = hraparak
+⟦98⟧ = Hürriyet Meydanı
+⟦99⟧ = interest
+⟦100⟧ = its completion
+⟦101⟧ = its early years
+⟦102⟧ = its Lenape name
+⟦103⟧ = its name
+⟦104⟧ = journey
+⟦105⟧ = July 15th Kızılay National Will Square
+⟦106⟧ = junction
+⟦107⟧ = junction points
+⟦108⟧ = Karl Marx Street
+⟦109⟧ = Kentron (Center) district
+⟦110⟧ = Ketagalan Boulevard
+⟦111⟧ = Kızılay Democracy Square
+⟦112⟧ = Kızılay Meydanı
+⟦113⟧ = lake
+⟦114⟧ = Lake Buena Vista
+⟦115⟧ = lamps
+⟦116⟧ = land
+⟦117⟧ = landing
+⟦118⟧ = landmarks
+⟦119⟧ = lands
+⟦120⟧ = Liberty Square
+⟦121⟧ = Liberty Street
+⟦122⟧ = Liberty Tree
+⟦123⟧ = local architect Henry Warren Rogers
+⟦124⟧ = Los Angeles
+⟦125⟧ = manner
+⟦126⟧ = manufacture
+⟦127⟧ = Mapleton Drive
+⟦128⟧ = Mark Twain" Riverboat
+⟦129⟧ = Mashtots Avenue
+⟦130⟧ = Massachusetts
+⟦131⟧ = mature sycamore trees
+⟦132⟧ = meters
+⟦133⟧ = minute
+⟦134⟧ = modern democracy
+⟦135⟧ = Monuments
+⟦136⟧ = name
+⟦137⟧ = National Concert Hall
+⟦138⟧ = neighborhood
+⟦139⟧ = neighborhoods
+⟦140⟧ = north
+⟦141⟧ = one-party rule
+⟦142⟧ = opera
+⟦143⟧ = Opera Square
+⟦144⟧ = originally Kızılay Square
+⟦145⟧ = Other Disney riverboat attractions
+⟦146⟧ = over 240,000 square meters
+⟦147⟧ = paddleboat
+⟦148⟧ = park
+⟦149⟧ = parks
+⟦150⟧ = part
+⟦151⟧ = party
+⟦152⟧ = passengers
+⟦153⟧ = Passyunk Square
+⟦154⟧ = Passyunk Square Park
+⟦155⟧ = Passyunk Township
+⟦156⟧ = Pennsylvania
+⟦157⟧ = place
+⟦158⟧ = plaza
+⟦159⟧ = pocket
+⟦160⟧ = Point Breeze
+⟦161⟧ = points
+⟦162⟧ = Presidents
+⟦163⟧ = quaint
+⟦164⟧ = reason
+⟦165⟧ = Reed
+⟦166⟧ = replicas
+⟦167⟧ = river
+⟦168⟧ = riverboat
+⟦169⟧ = role
+⟦170⟧ = rule
+⟦171⟧ = Russian
+⟦172⟧ = Saint Pierre Road
+⟦173⟧ = Sayat Nova Avenue
+⟦174⟧ = scale
+⟦175⟧ = shape
+⟦176⟧ = shoes
+⟦177⟧ = show
+⟦178⟧ = sides
+⟦179⟧ = site
+⟦180⟧ = six "themed lands
+⟦181⟧ = south
+⟦182⟧ = South Philadelphia
+⟦183⟧ = square
+⟦184⟧ = square) park
+⟦185⟧ = squares
+⟦186⟧ = statues
+⟦187⟧ = steam
+⟦188⟧ = story
+⟦189⟧ = street
+⟦190⟧ = streets
+⟦191⟧ = style
+⟦192⟧ = sycamore
+⟦193⟧ = T'aterakan hraparak
+⟦194⟧ = Taipei
+⟦195⟧ = Taiwan
+⟦196⟧ = Taiwan's transition
+⟦197⟧ = Tasker Street
+⟦198⟧ = terminus
+⟦199⟧ = Teryan Street
+⟦200⟧ = The "flatiron" V-shape
+⟦201⟧ = the "Liberty Belle" Riverboat steam paddleboat departs
+⟦202⟧ = the 1800s
+⟦203⟧ = the 1920s
+⟦204⟧ = the 228 Peace Memorial Park
+⟦205⟧ = the abbreviation
+⟦206⟧ = the Bella Vista
+⟦207⟧ = the building
+⟦208⟧ = the Disneyland theme park
+⟦209⟧ = the east
+⟦210⟧ = The eight story brick building
+⟦211⟧ = the entire city block
+⟦212⟧ = the failed coup attempt
+⟦213⟧ = the first functional riverboat
+⟦214⟧ = The Freedom Square
+⟦215⟧ = the Hall
+⟦216⟧ = the Haunted Mansion
+⟦217⟧ = the important historical role
+⟦218⟧ = The land
+⟦219⟧ = the landmarks
+⟦220⟧ = the late 1970s
+⟦221⟧ = the Magic Kingdom
+⟦222⟧ = the main opera building
+⟦223⟧ = the manufacture
+⟦224⟧ = the most important centers
+⟦225⟧ = the most popular attractions
+⟦226⟧ = The name
+⟦227⟧ = the National Central Library
+⟦228⟧ = the National Taiwan Museum
+⟦229⟧ = The National Theater
+⟦230⟧ = the neighborhood
+⟦231⟧ = the next four years
+⟦232⟧ = the north
+⟦233⟧ = the northern terminus
+⟦234⟧ = the opera park
+⟦235⟧ = the park
+⟦236⟧ = the Passyunk Square Civic Association
+⟦237⟧ = the Passyunk Square name
+⟦238⟧ = the Presidential Office Building
+⟦239⟧ = the public gathering place
+⟦240⟧ = the Republic Square
+⟦241⟧ = the river
+⟦242⟧ = the Rivers
+⟦243⟧ = the Russian city
+⟦244⟧ = the south
+⟦245⟧ = the south and north sides
+⟦246⟧ = the south and Washington Avenue
+⟦247⟧ = the square
+⟦248⟧ = the stately, 5/8-scale stern-wheeler
+⟦249⟧ = The statues
+⟦250⟧ = the Swan lake
+⟦251⟧ = The trapezoidal
+⟦252⟧ = the two main squares
+⟦253⟧ = the United States
+⟦254⟧ = The Vamp Building
+⟦255⟧ = the venues
+⟦256⟧ = the Walt Disney World Resort
+⟦257⟧ = the west
+⟦258⟧ = the Yerevan Opera Theater complex
+⟦259⟧ = the Zhongzheng District
+⟦260⟧ = Theatre Square
+⟦261⟧ = theme
+⟦262⟧ = this land
+⟦263⟧ = Tokyo Disneyland
+⟦264⟧ = Tolyatti
+⟦265⟧ = Tom Sawyer Island
+⟦266⟧ = town
+⟦267⟧ = transition
+⟦268⟧ = trapezoidal
+⟦269⟧ = trees
+⟦270⟧ = Tumanyan Street
+⟦271⟧ = Turkey
+⟦272⟧ = twin performing arts venues
+⟦273⟧ = two parks
+⟦274⟧ = two sides
+⟦275⟧ = Union Street
+⟦276⟧ = use
+⟦277⟧ = venues
+⟦278⟧ = views
+⟦279⟧ = Walt Disney World
+⟦280⟧ = Washington Street
+⟦281⟧ = waterfront
+⟦282⟧ = west
+⟦283⟧ = West Los Angeles
+⟦284⟧ = Wharton
+⟦285⟧ = Wharton Streets
+⟦286⟧ = wheeler
+⟦287⟧ = writer
+⟦288⟧ = writer Hovhannes Tumanyan
+⟦289⟧ = years
+⟦290⟧ = Yerevan
+⟦291⟧ = Youth Street
+⟦292⟧ = Zhongzheng District
+⟦293⟧ = Площадь Свободы
+⟦294⟧ = Ազատության հրապարակ
+⟦295⟧ = Թատերական հրապարակ
+⟦296⟧ = հրապարակ
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Liberty Square (Taipei)] ⟦120⟧⟨1⟩⟦32⟧⟨2⟩⟦23⟧⟨3⟩⟦158⟧⟨4⟩⟦146⟧⟨5⟩⟦132⟧⟨6⟩⟦259⟧⟨7⟩⟦194⟧⟨8⟩⟦195⟧⟨9⟩
+[Liberty Square (Taipei)] ⟨10⟩⟦239⟧⟨11⟩⟦90⟧⟨12⟩⟦157⟧⟨13⟩⟦60⟧⟨14⟩⟦60⟧⟨15⟩⟦100⟧⟨16⟩⟦65⟧⟨17⟩⟦220⟧⟨18⟩⟦12⟧⟨19⟩
+[Liberty Square (Taipei)] ⟦226⟧⟨20⟩⟦136⟧⟨21⟩⟦247⟧⟨22⟩⟦183⟧⟨23⟩⟦217⟧⟨24⟩⟦169⟧⟨25⟩⟦196⟧⟨26⟩⟦267⟧⟨27⟩⟦141⟧⟨28⟩⟦151⟧⟨29⟩⟦170⟧⟨30⟩⟦134⟧⟨31⟩⟦72⟧⟨32⟩
+[Liberty Square (Magic Kingdom)] ⟦120⟧⟨33⟩⟦180⟧⟨34⟩⟦119⟧⟨35⟩⟦221⟧⟨36⟩⟦27⟧⟨37⟩⟦261⟧⟨38⟩⟦148⟧⟨39⟩⟦256⟧⟨40⟩⟦114⟧⟨41⟩⟦88⟧⟨42⟩
+[Liberty Square (Magic Kingdom)] ⟨43⟩⟦62⟧⟨44⟩⟦166⟧⟨45⟩⟦166⟧⟨46⟩⟦49⟧⟨47⟩⟦122⟧⟨48⟩
+[Liberty Square (Magic Kingdom)] ⟨49⟩⟦225⟧⟨50⟩⟦45⟧⟨51⟩⟦221⟧⟨52⟩⟦216⟧⟨53⟩⟦262⟧⟨54⟩⟦116⟧⟨55⟩
+[Liberty Square (Magic Kingdom)] ⟨56⟩⟦247⟧⟨57⟩⟦183⟧⟨58⟩⟦215⟧⟨59⟩⟦162⟧⟨60⟩⟦34⟧⟨61⟩⟦93⟧⟨62⟩⟦177⟧⟨63⟩⟦36⟧⟨64⟩⟦87⟧⟨65⟩⟦82⟧⟨66⟩⟦253⟧⟨67⟩
+[Liberty Square (Magic Kingdom)] ⟦120⟧⟨68⟩⟦20⟧⟨69⟩⟦281⟧⟨70⟩⟦242⟧⟨71⟩⟦33⟧⟨72⟩⟦201⟧⟨73⟩⟦187⟧⟨74⟩⟦147⟧⟨75⟩⟦73⟧⟨76⟩⟦19⟧⟨77⟩⟦117⟧⟨78⟩
+[Liberty Square (Magic Kingdom)] ⟦218⟧⟨79⟩⟦116⟧⟨80⟩⟦83⟧⟨81⟩⟦278⟧⟨82⟩⟦241⟧⟨83⟩⟦167⟧⟨84⟩⟦265⟧⟨85⟩⟦30⟧⟨86⟩
+[Liberty Square (Tolyatti)] ⟦120⟧⟨87⟩⟦171⟧⟨88⟩⟦293⟧⟨89⟩⟦22⟧⟨90⟩⟦148⟧⟨91⟩⟦243⟧⟨92⟩⟦61⟧⟨93⟩⟦264⟧⟨94⟩
+[Liberty Square (Tolyatti)] ⟨95⟩⟦121⟧⟨96⟩⟦291⟧⟨97⟩⟦274⟧⟨98⟩⟦178⟧⟨99⟩⟦108⟧⟨100⟩
+[Liberty Square (Tolyatti)] ⟨101⟩⟦84⟧⟨102⟩⟦84⟧⟨103⟩⟦226⟧⟨104⟩⟦136⟧⟨105⟩⟦230⟧⟨106⟩⟦138⟧⟨107⟩⟦235⟧⟨108⟩⟦148⟧⟨109⟩
+[Liberty Square (Tolyatti)] ⟦135⟧⟨110⟩⟦70⟧⟨111⟩⟦99⟧⟨112⟩⟦120⟧⟨113⟩
+[Vamp Building] ⟦254⟧⟨114⟩⟦17⟧⟨115⟩⟦85⟧⟨116⟩⟦52⟧⟨117⟩⟦14⟧⟨118⟩⟦77⟧⟨119⟩⟦78⟧⟨120⟩⟦130⟧⟨121⟩
+[Vamp Building] ⟦210⟧⟨122⟩⟦188⟧⟨123⟩⟦50⟧⟨124⟩⟦52⟧⟨125⟩⟦16⟧⟨126⟩⟦74⟧⟨127⟩⟦123⟧⟨128⟩⟦40⟧⟨129⟩⟦231⟧⟨130⟩⟦289⟧⟨131⟩⟦211⟧⟨132⟩⟦61⟧⟨133⟩⟦48⟧⟨134⟩⟦280⟧⟨135⟩⟦275⟧⟨136⟩⟦120⟧⟨137⟩
+[Vamp Building] ⟦200⟧⟨138⟩⟦175⟧⟨139⟩⟦207⟧⟨140⟩⟦52⟧⟨141⟩⟦25⟧⟨142⟩⟦164⟧⟨143⟩⟦103⟧⟨144⟩⟦136⟧⟨145⟩
+[Vamp Building] ⟦207⟧⟨146⟩⟦52⟧⟨147⟩⟦101⟧⟨148⟩⟦289⟧⟨149⟩⟦18⟧⟨150⟩⟦96⟧⟨151⟩⟦31⟧⟨152⟩⟦125⟧⟨153⟩⟦53⟧⟨154⟩⟦53⟧⟨155⟩⟦223⟧⟨156⟩⟦126⟧⟨157⟩⟦176⟧⟨158⟩⟦176⟧⟨159⟩
+[Freedom Square, Yerevan] ⟦214⟧⟨160⟩⟦120⟧⟨161⟩⟦3⟧⟨162⟩⟦294⟧⟨163⟩⟦296⟧⟨164⟩⟦46⟧⟨165⟩⟦97⟧⟨166⟩⟦143⟧⟨167⟩⟦260⟧⟨168⟩⟦295⟧⟨169⟩⟦296⟧⟨170⟩⟦193⟧⟨171⟩⟦97⟧⟨172⟩⟦28⟧⟨173⟩⟦266⟧⟨174⟩⟦183⟧⟨175⟩⟦109⟧⟨176⟩⟦76⟧⟨177⟩⟦290⟧⟨178⟩⟦41⟧⟨179⟩
+[Freedom Square, Yerevan] ⟦247⟧⟨180⟩⟦183⟧⟨181⟩⟦150⟧⟨182⟩⟦150⟧⟨183⟩⟦258⟧⟨184⟩⟦66⟧⟨185⟩⟦244⟧⟨186⟩⟦181⟧⟨187⟩⟦222⟧⟨188⟩⟦142⟧⟨189⟩⟦52⟧⟨190⟩⟦234⟧⟨191⟩⟦142⟧⟨192⟩⟦148⟧⟨193⟩⟦250⟧⟨194⟩⟦113⟧⟨195⟩
+[Freedom Square, Yerevan] ⟨196⟩⟦240⟧⟨197⟩⟦214⟧⟨198⟩⟦252⟧⟨199⟩⟦185⟧⟨200⟩⟦58⟧⟨201⟩
+[Freedom Square, Yerevan] ⟨202⟩⟦89⟧⟨203⟩⟦190⟧⟨204⟩⟦270⟧⟨205⟩⟦199⟧⟨206⟩⟦173⟧⟨207⟩⟦129⟧⟨208⟩
+[Freedom Square, Yerevan] ⟦249⟧⟨209⟩⟦186⟧⟨210⟩⟦287⟧⟨211⟩⟦288⟧⟨212⟩⟦67⟧⟨213⟩⟦68⟧⟨214⟩⟦247⟧⟨215⟩⟦183⟧⟨216⟩
+[National Theater and Concert Hall, Taipei] ⟦229⟧⟨217⟩⟦137⟧⟨218⟩⟦272⟧⟨219⟩⟦42⟧⟨220⟩⟦277⟧⟨221⟩⟦120⟧⟨222⟩⟦292⟧⟨223⟩⟦194⟧⟨224⟩⟦195⟧⟨225⟩
+[National Theater and Concert Hall, Taipei] ⟨226⟩⟦219⟧⟨227⟩⟦118⟧⟨228⟩⟦245⟧⟨229⟩⟦178⟧⟨230⟩⟦247⟧⟨231⟩⟦183⟧⟨232⟩⟦59⟧⟨233⟩⟦209⟧⟨234⟩⟦79⟧⟨235⟩
+[National Theater and Concert Hall, Taipei] ⟨236⟩⟦255⟧⟨237⟩⟦277⟧⟨238⟩⟦205⟧⟨239⟩⟦29⟧⟨240⟩
+[National Theater and Concert Hall, Taipei] ⟦247⟧⟨241⟩⟦183⟧⟨242⟩⟦110⟧⟨243⟩⟦179⟧⟨244⟩⟦179⟧⟨245⟩⟦238⟧⟨246⟩⟦227⟧⟨247⟩⟦228⟧⟨248⟩⟦204⟧⟨249⟩
+[De Neve Square Park] ⟦71⟧⟨250⟩⟦24⟧⟨251⟩⟦163⟧⟨252⟩⟦159⟧⟨253⟩⟦148⟧⟨254⟩⟦230⟧⟨255⟩⟦138⟧⟨256⟩⟦94⟧⟨257⟩⟦283⟧⟨258⟩⟦124⟧⟨259⟩⟦55⟧⟨260⟩
+[De Neve Square Park] ⟨261⟩⟦233⟧⟨262⟩⟦198⟧⟨263⟩⟦127⟧⟨264⟩⟦172⟧⟨265⟩⟦47⟧⟨266⟩⟦94⟧⟨267⟩⟦80⟧⟨268⟩⟦257⟧⟨269⟩⟦282⟧⟨270⟩
+[De Neve Square Park] ⟦251⟧⟨271⟩⟦268⟧⟨272⟩⟦184⟧⟨273⟩⟦148⟧⟨274⟩⟦131⟧⟨275⟩⟦192⟧⟨276⟩⟦269⟧⟨277⟩⟦81⟧⟨278⟩⟦191⟧⟨279⟩⟦189⟧⟨280⟩⟦115⟧⟨281⟩⟦203⟧⟨282⟩⟦11⟧⟨283⟩⟦94⟧⟨284⟩
+[De Neve Square Park] ⟦71⟧⟨285⟩⟦273⟧⟨286⟩⟦149⟧⟨287⟩⟦94⟧⟨288⟩⟦95⟧⟨289⟩
+[Mark Twain Riverboat] ⟨290⟩⟦128⟧⟨291⟩⟦35⟧⟨292⟩⟦44⟧⟨293⟩⟦208⟧⟨294⟩⟦261⟧⟨295⟩⟦148⟧⟨296⟩⟦37⟧⟨297⟩⟦55⟧⟨298⟩⟦152⟧⟨299⟩⟦152⟧⟨300⟩⟦26⟧⟨301⟩⟦133⟧⟨302⟩⟦104⟧⟨303⟩⟦242⟧⟨304⟩⟦33⟧⟨305⟩
+[Mark Twain Riverboat] ⟨306⟩⟦2⟧⟨307⟩⟦235⟧⟨308⟩⟦148⟧⟨309⟩⟦248⟧⟨310⟩⟦174⟧⟨311⟩⟦286⟧⟨312⟩⟦213⟧⟨313⟩⟦168⟧⟨314⟩⟦253⟧⟨315⟩⟦86⟧⟨316⟩⟦289⟧⟨317⟩
+[Mark Twain Riverboat] ⟦145⟧⟨318⟩⟦168⟧⟨319⟩⟦45⟧⟨320⟩⟦279⟧⟨321⟩⟦263⟧⟨322⟩⟦75⟧⟨323⟩
+[Passyunk Square, Philadelphia] ⟦153⟧⟨324⟩⟦21⟧⟨325⟩⟦138⟧⟨326⟩⟦182⟧⟨327⟩⟦51⟧⟨328⟩⟦257⟧⟨329⟩⟦282⟧⟨330⟩⟦209⟧⟨331⟩⟦79⟧⟨332⟩⟦197⟧⟨333⟩⟦246⟧⟨334⟩⟦232⟧⟨335⟩⟦140⟧⟨336⟩
+[Passyunk Square, Philadelphia] ⟦153⟧⟨337⟩⟦206⟧⟨338⟩⟦92⟧⟨339⟩⟦57⟧⟨340⟩⟦284⟧⟨341⟩⟦160⟧⟨342⟩⟦139⟧⟨343⟩⟦139⟧⟨344⟩
+[Passyunk Square, Philadelphia] ⟦230⟧⟨345⟩⟦138⟧⟨346⟩⟦102⟧⟨347⟩⟦136⟧⟨348⟩⟦202⟧⟨349⟩⟦10⟧⟨350⟩⟦155⟧⟨351⟩⟦156⟧⟨352⟩⟦154⟧⟨353⟩⟦4⟧⟨354⟩⟦4⟧⟨355⟩⟦5⟧⟨356⟩⟦5⟧⟨357⟩⟦165⟧⟨358⟩⟦285⟧⟨359⟩
+[Passyunk Square, Philadelphia] ⟦235⟧⟨360⟩⟦148⟧⟨361⟩⟦64⟧⟨362⟩⟦230⟧⟨363⟩⟦138⟧⟨364⟩⟦63⟧⟨365⟩
+[Passyunk Square, Philadelphia] ⟦91⟧⟨366⟩⟦237⟧⟨367⟩⟦136⟧⟨368⟩⟦236⟧⟨369⟩
+[15 Temmuz Kızılay Milli İrade Meydanı] ⟦105⟧⟨370⟩⟦9⟧⟨371⟩⟦144⟧⟨372⟩⟦112⟧⟨373⟩⟦224⟧⟨374⟩⟦56⟧⟨375⟩⟦106⟧⟨376⟩⟦107⟧⟨377⟩⟦161⟧⟨378⟩⟦38⟧⟨379⟩⟦271⟧⟨380⟩
+[15 Temmuz Kızılay Milli İrade Meydanı] ⟨381⟩⟦69⟧⟨382⟩⟦98⟧⟨383⟩⟦120⟧⟨384⟩⟦54⟧⟨385⟩⟦276⟧⟨386⟩⟦1⟧⟨387⟩
+[15 Temmuz Kızılay Milli İrade Meydanı] ⟨388⟩⟦212⟧⟨389⟩⟦69⟧⟨390⟩⟦43⟧⟨391⟩⟦6⟧⟨392⟩⟦39⟧⟨393⟩⟦13⟧⟨394⟩⟦247⟧⟨395⟩⟦183⟧⟨396⟩⟦7⟧⟨397⟩⟦9⟧⟨398⟩⟦111⟧⟨399⟩⟦8⟧⟨400⟩⟦9⟧⟨401⟩⟦15⟧⟨402⟩
+
+[user]
+
+问题：
+Where is the location of Liberty Square park in Disneyland California?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

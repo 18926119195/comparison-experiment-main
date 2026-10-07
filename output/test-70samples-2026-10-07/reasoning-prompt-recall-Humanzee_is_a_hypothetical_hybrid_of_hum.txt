@@ -1,0 +1,89 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Humanzee] ⟦140⟧⟨166⟩⟦68⟧⟦68⟧⟨167⟩⟨168⟩⟦1⟧⟨169⟩⟦130⟧⟨170⟩⟦80⟧⟨171⟩⟦12⟧⟨173⟩⟦69⟧⟨174⟩⟨172⟩⟨175⟩
+[Humanzee] ⟦71⟧ | ⟦24⟧⟦31⟧⟨176⟩⟨177⟩⟦121⟧⟦71⟧⟨178⟩⟨179⟩⟦73⟧⟨180⟩
+[Humanzee] ⟨181⟩⟦88⟧⟦108⟧⟨182⟩⟨183⟩⟦70⟧⟨185⟩⟦72⟧⟨184⟩⟨186⟩⟦16⟧⟦43⟧⟨187⟩⟨188⟩⟦89⟧⟨189⟩⟦125⟧⟦8⟧⟨190⟩⟨191⟩⟦87⟧⟦87⟧⟨192⟩⟨193⟩
+[Chimpanzee] ⟦44⟧ | ⟦44⟧
+
+符号表：
+⟦1⟧ = " × "Pan
+⟦8⟧ = 1970s
+⟦12⟧ = a hypothetical chimpanzee/human hybrid
+⟦16⟧ = a performing chimp
+⟦24⟧ = An unsuccessful attempt
+⟦31⟧ = attempt
+⟦43⟧ = chimp
+⟦44⟧ = chimpanzee
+⟦68⟧ = Homo
+⟦69⟧ = human
+⟦70⟧ = human-chimpanzee hybridization
+⟦71⟧ = hybrid
+⟦72⟧ = hybridization
+⟦73⟧ = Ilya Ivanovich Ivanov
+⟦80⟧ = Manpanzee
+⟦87⟧ = none
+⟦88⟧ = occasional reports
+⟦89⟧ = Oliver
+⟦108⟧ = reports
+⟦121⟧ = such a hybrid
+⟦125⟧ = the 1970s
+⟦130⟧ = the Chuman
+⟦140⟧ = The humanzee
+
+占位符映射：
+⟨166⟩ =  ("
+⟨167⟩ = 
+⟨168⟩ =  sapiens sapiens
+⟨169⟩ = ") (also known as 
+⟨170⟩ =  or 
+⟨171⟩ = ) is 
+⟨172⟩ = 
+⟨173⟩ = /
+⟨174⟩ =  
+⟨175⟩ = .
+⟨176⟩ = 
+⟨177⟩ =  to breed 
+⟨178⟩ = 
+⟨179⟩ =  was made by 
+⟨180⟩ =  in the 1920s.
+⟨181⟩ =  There have been 
+⟨182⟩ = 
+⟨183⟩ =  of 
+⟨184⟩ = 
+⟨185⟩ =  
+⟨186⟩ = , notably regarding 
+⟨187⟩ = 
+⟨188⟩ =  named 
+⟨189⟩ =  during 
+⟨190⟩ = 
+⟨191⟩ = , but 
+⟨192⟩ = 
+⟨193⟩ =  of them have been confirmed.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Humanzee is a hypothetical hybrid of humans with what great ape?

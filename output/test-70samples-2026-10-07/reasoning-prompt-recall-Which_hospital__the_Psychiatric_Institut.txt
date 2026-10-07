@@ -1,0 +1,145 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Howard University Hospital] ⟨269⟩⟦126⟧⟨270⟩⟨271⟩⟦21⟧⟨272⟩⟨273⟩⟨274⟩⟨275⟩⟦332⟧⟦257⟧⟨276⟩⟨277⟩⟦324⟧⟨278⟩
+[Howard University Hospital] ⟨279⟩⟨280⟩⟦279⟧⟨281⟩⟨282⟩⟦281⟧⟨283⟩⟨284⟩⟦220⟧⟨285⟩⟨286⟩⟦314⟧⟦207⟧⟨287⟩⟨288⟩⟦335⟧⟦341⟧⟨289⟩⟨290⟩⟦43⟧⟨291⟩⟨292⟩⟦285⟧⟨293⟩⟦339⟧⟦128⟧⟨294⟩⟨295⟩
+[Howard University Hospital] ⟦56⟧⟦85⟧ | ⟨296⟩⟨297⟩⟦170⟧⟦177⟧⟨298⟩⟨299⟩⟦193⟧⟨300⟩⟨301⟩⟦124⟧⟦258⟧⟨302⟩⟨303⟩⟦312⟧⟨304⟩⟨305⟩⟦282⟧⟦56⟧⟨307⟩⟦85⟧⟨306⟩⟨308⟩
+[Howard University Hospital] ⟨309⟩⟦286⟧⟦81⟧⟨310⟩⟨311⟩⟦91⟧⟨312⟩⟨313⟩⟨314⟩⟦300⟧⟦244⟧⟨315⟩⟨316⟩⟦355⟧⟦94⟧⟨318⟩⟦180⟧⟨317⟩⟨319⟩⟦54⟧⟨321⟩⟦116⟧⟨320⟩⟨322⟩⟦350⟧⟨323⟩⟦323⟧⟦95⟧⟨324⟩⟨325⟩
+[Psychiatric Institute of Washington] ⟦346⟧
+[The New Freedmen's Clinic] ⟦157⟧ | ⟦137⟧
+[University Hospital Limerick] ⟦150⟧⟦150⟧ | ⟦357⟧⟦302⟧⟦150⟧ | ⟦150⟧⟦150⟧ | ⟦302⟧⟦150⟧
+[Charles DeWitt Watts] ⟦349⟧⟦90⟧ | ⟦349⟧
+
+符号表：
+⟦21⟧ = a major hospital
+⟦43⟧ = African Americans
+⟦54⟧ = any health facility
+⟦56⟧ = area
+⟦81⟧ = closure
+⟦85⟧ = community
+⟦90⟧ = D.C.
+⟦91⟧ = D.C. General Hospital
+⟦94⟧ = death
+⟦95⟧ = decade
+⟦116⟧ = facility
+⟦124⟧ = former slaves
+⟦126⟧ = Freedmen's Hospital
+⟦128⟧ = freedom
+⟦137⟧ = health
+⟦150⟧ = hospital
+⟦157⟧ = Howard University Hospital
+⟦170⟧ = its kind
+⟦177⟧ = kind
+⟦180⟧ = lawsuits
+⟦193⟧ = medical treatment
+⟦207⟧ = needs
+⟦220⟧ = over 150 years
+⟦244⟧ = rate
+⟦257⟧ = site
+⟦258⟧ = slaves
+⟦279⟧ = the African American community
+⟦281⟧ = the area
+⟦282⟧ = the area's African-American community
+⟦285⟧ = the Civil War
+⟦286⟧ = the closure
+⟦300⟧ = the highest rate
+⟦302⟧ = The hospital
+⟦312⟧ = the major hospital
+⟦314⟧ = the medical needs
+⟦323⟧ = the previous decade
+⟦324⟧ = the previous Griffith Stadium
+⟦332⟧ = the site
+⟦335⟧ = the thousands
+⟦339⟧ = their freedom
+⟦341⟧ = thousands
+⟦346⟧ = treatment
+⟦349⟧ = Washington
+⟦350⟧ = Washington D.C.
+⟦355⟧ = wrongful death lawsuits
+⟦357⟧ = years
+
+占位符映射：
+⟨269⟩ = , previously known as 
+⟨270⟩ = 
+⟨271⟩ = , is 
+⟨272⟩ = 
+⟨273⟩ =  lcated in 
+⟨274⟩ = , 
+⟨275⟩ = , built on 
+⟨276⟩ = 
+⟨277⟩ =  of 
+⟨278⟩ = .
+⟨279⟩ = 
+⟨280⟩ =  has served 
+⟨281⟩ = 
+⟨282⟩ =  in 
+⟨283⟩ = 
+⟨284⟩ =  for 
+⟨285⟩ = 
+⟨286⟩ = , having been established in 1862 to cater for 
+⟨287⟩ = 
+⟨288⟩ =  of 
+⟨289⟩ = 
+⟨290⟩ =  of 
+⟨291⟩ =  who came to 
+⟨292⟩ =  during 
+⟨293⟩ = , seeking 
+⟨294⟩ = 
+⟨295⟩ = .
+⟨296⟩ =  The first 
+⟨297⟩ =  of 
+⟨298⟩ = 
+⟨299⟩ =  to provide 
+⟨300⟩ = 
+⟨301⟩ =  for 
+⟨302⟩ = 
+⟨303⟩ = , it later became 
+⟨304⟩ = 
+⟨305⟩ =  for 
+⟨306⟩ = 
+⟨307⟩ = 's African-American 
+⟨308⟩ = .
+⟨309⟩ =  Following 
+⟨310⟩ = 
+⟨311⟩ =  of 
+⟨312⟩ = , As of 2016, 
+⟨313⟩ = 
+⟨314⟩ =  has 
+⟨315⟩ = 
+⟨316⟩ =  of 
+⟨317⟩ = 
+⟨318⟩ =  
+⟨319⟩ =  of 
+⟨320⟩ = 
+⟨321⟩ =  
+⟨322⟩ =  in 
+⟨323⟩ =  over 
+⟨324⟩ = 
+⟨325⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which hospital, the Psychiatric Institute of Washington or Howard University Hospital, is known for serving the African American community including former slaves?

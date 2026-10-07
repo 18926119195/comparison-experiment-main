@@ -1,0 +1,29 @@
+# 路径一：影片与演员直接关联
+
+步骤1：使用⟦194⟧⟦23⟧，提取“The Experts”是一部1989年美国喜剧电影，确定问题指向的影片。
+
+步骤2：综合⟦76⟧⟦93⟧，材料将“film”与“John Travolta”关联；结合步骤1，可判断“The Experts”对应的演员线索指向 John Travolta。
+
+步骤3：综合⟦81⟧⟦21⟧，材料显示“Grease”是一部1978年美国音乐浪漫喜剧电影；再结合⟦163⟧⟦24⟧中“Stayin' Alive”是迪斯科歌曲，可与 Saturday Night Fever 时代交叉验证 John Travolta 的知名度。
+
+结论：The Experts stars **John Travolta**。
+
+# 路径二：通过 Grease 与迪斯科歌曲交叉验证
+
+步骤1：使用⟦81⟧⟦21⟧，提取“Grease”是1978年美国音乐浪漫喜剧电影，问题中“Grease”指向的演员应为 John Travolta。
+
+步骤2：使用⟦163⟧⟦24⟧，提取“Stayin' Alive”是一首迪斯科歌曲；该歌曲与 Saturday Night Fever 及 John Travolta 的迪斯科电影形象一致。
+
+步骤3：综合⟦194⟧⟦76⟧⟦93⟧，将“The Experts”作为 film 与 John Travolta 关联，确认问题答案为 John Travolta。
+
+结论：The Experts stars **John Travolta**。
+
+# 路径三：排除其他列名演员
+
+步骤1：使用⟦194⟧⟦23⟧⟦42⟧⟦99⟧，提取“The Experts”是1989年美国喜剧电影，并列有 Arye Gross、Kelly Preston 等演员。
+
+步骤2：综合⟦81⟧⟦21⟧，材料显示“Grease”关联的是 John Travolta，而不是 Arye Gross 或 Kelly Preston；⟦163⟧⟦24⟧进一步指向 Saturday Night Fever 的迪斯科时代。
+
+步骤3：综合⟦76⟧⟦93⟧，材料将 film 与 John Travolta 关联，排除其他演员后确认目标。
+
+结论：The Experts stars **John Travolta**。

@@ -1,0 +1,30 @@
+{
+  "qid": "hotpot_1911",
+  "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "expectedAnswer": "Silvia Navarro",
+  "predictedAnswer": "Silvia Angélica Navarro Barba, September, Irapuato, Guanajuato, theatre, several telenovelas, Silvia Navarro, film, Mexico, a Mexican actress, actress, television, La Heredera, The Heiress, a Mexican telenovela, the third reunion, reunion, Sergio Basañez, protagonists, TV Azteca, TV",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨¨⟩⟦170⟧⟨©⟩⟦165⟧⟨ª⟩⟦98⟧⟨«⟩⟦84⟧⟨¬⟩⟨­⟩⟨®⟩⟨¯⟩",
+  "nounCount": 318,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": true,
+    "reasoningThinking": true
+  },
+  "recallUsage": {
+    "prompt_tokens": 5742,
+    "completion_tokens": 6243,
+    "total_tokens": 11985,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6021
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 5742
+  },
+  "reasoningUsage": null
+}

@@ -1,0 +1,343 @@
+[
+  {
+    "qid": "hotpot_4448",
+    "question": "Who created the series in which Liza Weil played Bonnie Winterbottom?",
+    "expectedAnswer": "Peter Nowalk",
+    "predictedAnswer": "# 路径一：从角色到创作者的直接链\n\n步骤1：使用⟦57⟧，提取“Bonnie Winterbottom”这一角色名称，确认其为该系列中的角色。\n步骤2：综合⟦57⟧⟦160⟧，交叉验证“Bonnie Winterbottom”所属系列由Peter Nowalk创作。\n步骤3：使用⟦188⟧，确认Liza Weil出演了该系列，从而将“Liza Weil played Bonnie Winterbottom”与系列关联。\n\n结论：Peter Nowalk创作了Liza Weil饰演Bonnie Winterbottom的系列。\n\n# 路径二：通过剧集列表与角色列表交叉验证\n\n步骤1：使用⟦57⟧，提取“Bonnie Winterbottom”作为角色条目，出现在《List of How to Get Away with Murder episodes》中。\n步骤2：综合⟦160⟧⟦190⟧，对比角色列表中的创作者信息，确认Peter Nowalk为创作者，Shonda Rhimes为制片人之一。\n步骤3：使用⟦188⟧，确认Liza Weil在该系列中饰演Bonnie Winterbottom，从而锁定系列名称。\n\n结论：该系列由Peter Nowalk创作。\n\n# 路径三：从系列制作信息反推\n\n步骤1：使用⟦118⟧⟦119⟧⟦120⟧，提取系列创作与制作信息，显示“was created by”后接创作者姓名。\n步骤2：综合⟦160⟧⟦176⟧，交叉验证Peter Nowalk为创作者，ShondaLand为制作公司。\n步骤3：使用⟦57⟧⟦188⟧，确认Bonnie Winterbottom由Liza Weil饰演，且属于该系列。\n\n结论：Peter Nowalk是Liza Weil饰演Bonnie Winterbottom的系列的创作者。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟦7⟧⟦65⟧⟨2⟩⟨3⟩⟨4⟩⟦57⟧⟦160⟧⟨118⟩⟨119⟩⟨120⟩⟨121⟩",
+    "nounCount": 345,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5905,
+      "completion_tokens": 154,
+      "total_tokens": 6059,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 145
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 720,
+      "completion_tokens": 380,
+      "total_tokens": 1100,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 208
+    }
+  },
+  {
+    "qid": "hotpot_2475",
+    "question": "What country is the singer from, who duets with Dave Hemingway on the song \"A Little Time\"?",
+    "expectedAnswer": "Northern Irish",
+    "predictedAnswer": "# 路径一：从歌曲到歌手国籍的直接链\n\n步骤1：使用⟦13⟧⟦22⟧⟦166⟧，提取 \"A Little Time\" 是一首歌曲（⟦22⟧/⟦166⟧），且与 \"A Little Time\"（⟦13⟧）相关，判断该歌曲即为问题所指的 \"A Little Time\"。\n\n步骤2：综合⟦8⟧⟦72⟧⟦239⟧，对比 \"a duet\"（⟦8⟧）与 \"duet\"（⟦72⟧）以及 \"vocalists\"（⟦239⟧），确认 \"A Little Time\" 是一首二重唱，由两位歌手共同演唱。\n\n步骤3：使用⟦62⟧，提取 Dave Hemingway 是其中一位演唱者，结合问题中 \"duets with Dave Hemingway\"，判断另一位歌手即为与 Dave Hemingway 对唱的歌手。\n\n步骤4：使用⟦49⟧⟦19⟧，提取 Briana Corrigan（⟦49⟧）是 \"a Northern Irish singer\"（⟦19⟧），判断该歌手来自北爱尔兰。\n\n结论：与 Dave Hemingway 对唱 \"A Little Time\" 的歌手是 Briana Corrigan，她来自北爱尔兰（Northern Ireland）。\n\n# 路径二：从歌手身份到乐队归属再到国籍\n\n步骤1：使用⟦49⟧⟦161⟧⟦188⟧，提取 Briana Corrigan（⟦49⟧）是 \"singer\"（⟦161⟧），且与 \"The Beautiful South\"（⟦188⟧）相关，判断她是 The Beautiful South 的歌手。\n\n步骤2：使用⟦47⟧⟦62⟧，提取 Dave Hemingway（⟦62⟧）属于某 \"band\"（⟦47⟧），结合⟦188⟧，判断 Dave Hemingway 与 Briana Corrigan 同属 The Beautiful South。\n\n步骤3：综合⟦13⟧⟦22⟧⟦166⟧⟦8⟧⟦72⟧，确认 \"A Little Time\" 是 The Beautiful South 的一首二重唱歌曲，由 Dave Hemingway 与 Briana Corrigan 共同演唱。\n\n步骤4：使用⟦49⟧⟦19⟧，提取 Briana Corrigan 是 \"a Northern Irish singer\"（⟦19⟧），判断其来自北爱尔兰。\n\n结论：歌手 Briana Corrigan 来自北爱尔兰，她与 Dave Hemingway 同属 The Beautiful South，并共同演唱了 \"A Little Time\"。\n\n# 路径三：交叉验证——歌曲成绩与歌手身份\n\n步骤1：使用⟦13⟧⟦132⟧⟦222⟧，提取 \"A Little Time\"（⟦13⟧）在 \"the UK Singles Chart\"（⟦222⟧）上达到 \"number\"（⟦132⟧）某位置，判断该歌曲在英国单曲榜上有成绩。\n\n步骤2：综合⟦324⟧⟦326⟧⟦327⟧⟦328⟧，提取 \"A Little Time\" 是 \"by\"（⟦326⟧）某乐队的 \"only single to reach\"（⟦328⟧）某成绩，结合⟦188⟧，判断该乐队为 The Beautiful South。\n\n步骤3：使用⟦49⟧⟦62⟧，提取 Briana Corrigan（⟦49⟧）与 Dave Hemingway（⟦62⟧）均为该乐队成员，且⟦49⟧与⟦62⟧在材料中并列出现，交叉验证两人为对唱搭档。\n\n步骤4：使用⟦49⟧⟦19⟧，提取 Briana Corrigan 是 \"a Northern Irish singer\"（⟦19⟧），判断其国籍为北爱尔兰。\n\n结论：与 Dave Hemingway 对唱 \"A Little Time\" 的歌手是 Briana Corrigan，来自北爱尔兰，该歌曲是 The Beautiful South 在英国单曲榜上唯一达到该成绩的单曲。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦49⟧⟨385⟩⟦19⟧⟨386⟩⟨387⟩⟦161⟧⟦13⟧⟨324⟩⟦22⟧⟦166⟧⟨325⟩⟨326⟩",
+    "nounCount": 369,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5999,
+      "completion_tokens": 138,
+      "total_tokens": 6137,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 239
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 658,
+      "completion_tokens": 889,
+      "total_tokens": 1547,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 658
+    }
+  },
+  {
+    "qid": "hotpot_3669",
+    "question": "Viscount Yamaji Motoharu was a general in the early Imperial Japanese Army which belonged to which E",
+    "expectedAnswer": "Empire of Japan",
+    "predictedAnswer": "# 路径一：直接实体链推理\n\n步骤1：使用⟦168⟧，提取 \"Viscount Yamaji Motoharu\" 的身份信息，判断其为 a Japanese general（⟦18⟧）。\n\n步骤2：综合⟦122⟧⟦64⟧，确认 Yamaji Motoharu 是 the early Imperial Japanese Army 中的 general。\n\n步骤3：使用⟦124⟧，提取 the early Imperial Japanese Army 隶属于 the Empire。\n\n结论：Viscount Yamaji Motoharu 所属的 early Imperial Japanese Army 属于 the Empire（⟦124⟧），即大日本帝国。\n\n---\n\n# 路径二：机构名称与帝国实体交叉验证\n\n步骤1：使用⟦5⟧⟦13⟧，提取 \"IJA\" 与 \"大日本帝國陸軍\" 的对应关系，确认 Imperial Japanese Army 即大日本帝國陸軍。\n\n步骤2：综合⟦2⟧⟦128⟧，提取 \"Dai-Nippon Teikoku Rikugun\" 与 \"the Greater Japanese Empire\" 的关联，确认该军队隶属于 Greater Japanese Empire。\n\n步骤3：综合⟦150⟧⟦83⟧，交叉验证 the official ground-based armed force 与 -based armed force 均指向同一帝国实体。\n\n结论：Imperial Japanese Army 隶属于 the Greater Japanese Empire（⟦128⟧），即大日本帝国。\n\n---\n\n# 路径三：时间线与历史背景综合推理\n\n步骤1：使用⟦86⟧，提取该军队存在时间为 from 1868 to 1945，对应日本帝国时期。\n\n步骤2：综合⟦78⟧⟦124⟧，确认 Japan 与 the Empire 在此语境下指向同一政治实体。\n\n步骤3：综合⟦168⟧⟦236⟧⟦237⟧，提取 Yamaji Motoharu 的生卒年（1841–1897），其活跃期完全落在 1868–1945 时间范围内，进一步确认其所属军队的帝国归属。\n\n结论：综合时间线与实体信息，Viscount Yamaji Motoharu 所属的 early Imperial Japanese Army 属于 the Empire（⟦124⟧），即大日本帝国。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦168⟧⟨235⟩⟦4⟧⟨236⟩⟦92⟧⟨237⟩⟦18⟧⟦64⟧⟨238⟩⟨239⟩⟦122⟧⟨240⟩",
+    "nounCount": 239,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 4197,
+      "completion_tokens": 145,
+      "total_tokens": 4342,
+      "prompt_tokens_details": {
+        "cached_tokens": 3968
+      },
+      "prompt_cache_hit_tokens": 3968,
+      "prompt_cache_miss_tokens": 229
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 736,
+      "completion_tokens": 471,
+      "total_tokens": 1207,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 224
+    }
+  },
+  {
+    "qid": "hotpot_6981",
+    "question": "What part of Australia is Alice River and Rupertswood in?",
+    "expectedAnswer": "Victoria",
+    "predictedAnswer": "# 路径一：基于地名消歧的直接定位\n\n步骤1：使用⟦18⟧，提取“Alice River”这一地名，判断其可能指代多个地理实体（河流、郊区等）。\n\n步骤2：综合⟦12⟧⟦79⟧，对比“Alice River”作为河流的定位——位于Far North Queensland，即澳大利亚昆士兰州北部。\n\n步骤3：综合⟦14⟧⟦168⟧⟦223⟧，交叉验证“Alice River”作为郊区的定位——位于Townsville（汤斯维尔），属于North Queensland⟦132⟧。\n\n步骤4：使用⟦154⟧⟦171⟧⟦226⟧，提取“Rupertswood”的定位——位于Sunbury, Victoria（维多利亚州桑伯里）。\n\n结论：Alice River位于澳大利亚昆士兰州北部（Far North Queensland / North Queensland），Rupertswood位于澳大利亚维多利亚州（Victoria）。\n\n---\n\n# 路径二：基于Rupertswood历史渊源的反向验证\n\n步骤1：使用⟦9⟧⟦121⟧，提取“Rupertswood”是一座豪宅和乡村庄园（a mansion and country estate）。\n\n步骤2：综合⟦88⟧⟦96⟧⟦158⟧，交叉验证“Rupertswood”是Sir Rupert Clarke的祖宅（his ancestral home），进一步确认其历史地理背景。\n\n步骤3：综合⟦125⟧⟦135⟧⟦201⟧，提取“Rupertswood”位于Melbourne（墨尔本）郊外（outskirts），而墨尔本属于Victoria⟦226⟧。\n\n步骤4：使用⟦152⟧⟦174⟧，对比“The Alice River”作为河流的定位，确认其与Rupertswood分属不同州。\n\n结论：Rupertswood位于维多利亚州墨尔本郊外；Alice River位于昆士兰州北部。两者分属澳大利亚不同州。\n\n---\n\n# 路径三：基于“Alice River”多义性的交叉消歧\n\n步骤1：综合⟦18⟧⟦30⟧，提取“Alice River”在澳大利亚有多处指代，需消歧。\n\n步骤2：综合⟦12⟧⟦79⟧，确认其一为Far North Queensland的河流。\n\n步骤3：综合⟦14⟧⟦168⟧⟦181⟧⟦223⟧，确认其二为Townsville的郊区，属于the City of Townsville，位于North Queensland⟦132⟧。\n\n步骤4：使用⟦154⟧⟦171⟧⟦226⟧，提取Rupertswood位于Sunbury, Victoria，与Alice River的昆士兰定位形成对比。\n\n结论：无论“Alice River”指河流还是郊区，均位于昆士兰州北部；Rupertswood位于维多利亚州。两者分属澳大利亚东北部和东南部。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟦12⟧⟨2⟩⟨3⟩⟨4⟩⟦79⟧⟨5⟩⟨6⟩⟦179⟧⟦30⟧⟦152⟧⟦174⟧",
+    "nounCount": 299,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5220,
+      "completion_tokens": 315,
+      "total_tokens": 5535,
+      "prompt_tokens_details": {
+        "cached_tokens": 4992
+      },
+      "prompt_cache_hit_tokens": 4992,
+      "prompt_cache_miss_tokens": 228
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1138,
+      "completion_tokens": 625,
+      "total_tokens": 1763,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1138
+    }
+  },
+  {
+    "qid": "hotpot_930",
+    "question": "Victor Varnada directed Twisted Fortune, which starred which brother of Eddie Murphy?",
+    "expectedAnswer": "Charlie Murphy",
+    "predictedAnswer": "# 路径一：从电影作品直接定位\n\n步骤1：使用⟦219⟧，提取 *Twisted Fortune* 这一电影条目，确认其存在及关联信息。\n\n步骤2：综合⟦219⟧⟦11⟧⟦70⟧⟦56⟧，提取该电影中由 Charlie Murphy 饰演的角色——一个笨拙的小偷（a bumbling small-time crook）。\n\n步骤3：使用⟦203⟧，提取 Charlie Murphy 被明确标注为“the older brother”（哥哥）。\n\n结论：Victor Varnada 执导的 *Twisted Fortune* 由 Eddie Murphy 的哥哥 Charlie Murphy 主演。\n\n---\n\n# 路径二：从人物关系交叉验证\n\n步骤1：使用⟦55⟧⟦56⟧，提取 Charlie Murphy 的全名 Charles Quinton Murphy，确认其身份。\n\n步骤2：综合⟦47⟧⟦203⟧，提取 Charlie Murphy 与 Eddie Murphy 的兄弟关系，其中⟦203⟧明确其为“the older brother”。\n\n步骤3：综合⟦219⟧⟦56⟧，将 *Twisted Fortune* 与 Charlie Murphy 关联，确认其出演该片。\n\n结论：Eddie Murphy 的哥哥是 Charlie Murphy，而 Charlie Murphy 主演了 *Twisted Fortune*。\n\n---\n\n# 路径三：从演员作品列表反向确认\n\n步骤1：使用⟦56⟧，提取 Charlie Murphy 的演员条目，确认其参演作品包括 *Twisted Fortune*。\n\n步骤2：综合⟦219⟧⟦11⟧，提取 *Twisted Fortune* 的剧情信息，其中 Charlie Murphy 饰演一个笨拙的小偷。\n\n步骤3：使用⟦203⟧，确认 Charlie Murphy 是 Eddie Murphy 的哥哥。\n\n结论：综合电影条目与人物关系，*Twisted Fortune* 的主演是 Eddie Murphy 的哥哥 Charlie Murphy。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦219⟧⟨1⟩⟦9⟧⟨2⟩⟨3⟩⟦11⟧⟨5⟩⟦70⟧⟨4⟩⟨6⟩⟦56⟧⟨7⟩",
+    "nounCount": 327,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5469,
+      "completion_tokens": 294,
+      "total_tokens": 5763,
+      "prompt_tokens_details": {
+        "cached_tokens": 5248
+      },
+      "prompt_cache_hit_tokens": 5248,
+      "prompt_cache_miss_tokens": 221
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1143,
+      "completion_tokens": 407,
+      "total_tokens": 1550,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1143
+    }
+  },
+  {
+    "qid": "hotpot_4317",
+    "question": "The largest lake in New Hampshire sits how many vertical feet lower than Lake Kanasatka?",
+    "expectedAnswer": "nine vertical feet",
+    "predictedAnswer": "# 路径一：直接定位与数值比较\n\n步骤1：使用⟦268⟧，提取 Lake Winnipesaukee 位于 New Hampshire，结合占位符 ⟨1⟩⟨2⟩⟨3⟩⟨4⟩⟨5⟩ 判断其为该州最大湖泊。\n步骤2：综合⟦225⟧⟦223⟧，对比 Lake Winnipesaukee 与 Lake Kanasatka 的拓扑链，发现两者均关联 Lakes Region，且 Lake Kanasatka 的链中出现 ⟦195⟧（half）与 ⟦225⟧（Lake Winnipesaukee），暗示两者存在高度差关系。\n步骤3：使用⟦195⟧，提取“half”这一数值线索，结合 Lake Kanasatka 链中 ⟨689⟩“is located one-”与 ⟨691⟩“north of and nine vertical”推断垂直落差为 9 英尺的一半，即 4.5 英尺。\n\n结论：Lake Winnipesaukee 比 Lake Kanasatka 低约 4.5 垂直英尺。\n\n# 路径二：交叉验证湖泊身份与落差描述\n\n步骤1：使用⟦440⟧，提取“the largest lake”这一描述，结合⟦268⟧确认其指代 Lake Winnipesaukee 位于 New Hampshire。\n步骤2：综合⟦223⟧⟦225⟧，对比 Lake Kanasatka 与 Lake Winnipesaukee 的拓扑链，发现 Lake Kanasatka 链中明确出现 ⟦225⟧（Lake Winnipesaukee）以及 ⟨691⟩“north of and nine vertical”，表明 Lake Kanasatka 位于 Lake Winnipesaukee 以北且垂直高出 9 英尺。\n步骤3：使用⟦195⟧，提取“half”修饰该 9 英尺落差，计算 9 ÷ 2 = 4.5。\n\n结论：Lake Winnipesaukee 比 Lake Kanasatka 低 4.5 垂直英尺。\n\n# 路径三：排除干扰项与单位确认\n\n步骤1：使用⟦170⟧，提取“feet”作为高度单位，确认问题中的“vertical feet”对应同一单位体系。\n步骤2：综合⟦223⟧⟦225⟧⟦195⟧，交叉验证 Lake Kanasatka 链中 ⟨691⟩“nine vertical”与 ⟦195⟧“half”的组合，排除其他湖泊（如 Tustumena Lake、Lake Beseck）的干扰，锁定唯一高度差关系。\n步骤3：使用⟦439⟧，提取“the Lakes Region”作为地理背景，确认两湖同属该区域，高度差描述具有地理一致性。\n\n结论：Lake Winnipesaukee 比 Lake Kanasatka 低 4.5 垂直英尺。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦268⟧⟨6⟩⟨7⟩⟦439⟧⟦225⟧⟦440⟧⟦517⟧",
+    "nounCount": 947,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 14313,
+      "completion_tokens": 194,
+      "total_tokens": 14507,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 14313
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 862,
+      "completion_tokens": 603,
+      "total_tokens": 1465,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 862
+    }
+  },
+  {
+    "qid": "hotpot_1520",
+    "question": "Vestfold and Telemark each border what other Norwegian county?",
+    "expectedAnswer": "Buskerud",
+    "predictedAnswer": "# 路径一：直接边界提取\n\n步骤1：使用⟦216⟧，提取 Vestfold 的边界信息，其与 ⟦38⟧（Buskerud）接壤。\n\n步骤2：使用⟦147⟧，提取 Telemark 的边界信息，其同样与 ⟦38⟧（Buskerud）接壤。\n\n结论：Vestfold 和 Telemark 共同接壤的挪威郡是 Buskerud（⟦38⟧）。\n\n# 路径二：交叉验证边界列表\n\n步骤1：综合⟦216⟧⟦12⟧⟦38⟧，Vestfold 的相邻郡包括 Buskerud 等多个郡。\n\n步骤2：综合⟦147⟧⟦73⟧⟦126⟧⟦28⟧，Telemark 的相邻郡包括 Hordaland、Rogaland、Aust-Agder 等。\n\n步骤3：对比两组边界列表，取交集，唯一共同出现的郡为 ⟦38⟧（Buskerud）。\n\n结论：通过交叉比对两个郡的完整边界列表，共同接壤的郡确认为 Buskerud。\n\n# 路径三：地理方位综合推断\n\n步骤1：使用⟦216⟧，Vestfold 位于挪威东南部，其西侧与 Buskerud 接壤。\n\n步骤2：使用⟦147⟧，Telemark 位于 Vestfold 以西，其东侧同样与 Buskerud 接壤。\n\n步骤3：综合⟦216⟧⟦147⟧，两郡在地理上均与 Buskerud 相邻，形成连续边界。\n\n结论：Buskerud 是 Vestfold 与 Telemark 共同接壤的挪威郡。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨145⟩⟨146⟩⟨147⟩⟨148⟩⟨149⟩⟨150⟩⟦73⟧⟨151⟩⟦126⟧⟨152⟩⟦28⟧⟨153⟩",
+    "nounCount": 423,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6244,
+      "completion_tokens": 262,
+      "total_tokens": 6506,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6244
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 930,
+      "completion_tokens": 368,
+      "total_tokens": 1298,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 930
+    }
+  },
+  {
+    "qid": "hotpot_7097",
+    "question": "The actor of Professor Sprout in \"Harry Potter\" acted as a mother in a sitcom. In that sitcom, what ",
+    "expectedAnswer": "Fran",
+    "predictedAnswer": "# 路径一：从演员到角色再到剧集\n\n步骤1：使用⟦159⟧，提取 Miriam Margolyes 在《哈利·波特》系列中饰演 Professor Sprout 这一角色信息。\n步骤2：综合⟦129⟧⟦31⟧⟦48⟧，确认 Miriam Margolyes 是一位英国角色女演员，她在某部情景喜剧中饰演了一个母亲角色。\n步骤3：使用⟦17⟧⟦180⟧，提取该情景喜剧是一部四集英国情景喜剧（即《Bucket》）。\n步骤4：综合⟦67⟧⟦20⟧⟦46⟧⟦237⟧，在该情景喜剧中，母亲有一个女儿，剧情围绕母亲的“遗愿清单”展开。\n步骤5：使用⟦128⟧，提取女儿的名字为 Mim。\n\n结论：在该情景喜剧中，女儿的名字是 Mim。\n\n# 路径二：从剧集信息反推角色关系\n\n步骤1：使用⟦17⟧⟦186⟧⟦188⟧，提取《Bucket》是一部四集英国情景喜剧。\n步骤2：综合⟦189⟧⟦20⟧⟦67⟧，该剧讲述的是关于一位母亲和她的女儿的故事。\n步骤3：使用⟦22⟧⟦283⟧⟦165⟧，剧情涉及一场公路旅行（road trip），是母亲遗愿清单上的事项。\n步骤4：综合⟦52⟧⟦84⟧⟦85⟧⟦128⟧，Miriam Margolyes 饰演 Fran 的母亲，而女儿 Fran 由 Frog Stone 饰演，但剧中女儿角色的名字是 Mim。\n\n结论：该情景喜剧中女儿的名字是 Mim。\n\n# 路径三：交叉验证演员与角色\n\n步骤1：使用⟦129⟧⟦399⟧⟦31⟧，确认 Miriam Margolyes 是英国角色女演员，出生于1941年。\n步骤2：综合⟦150⟧⟦159⟧，她在《哈利·波特》系列中饰演 Professor Sprout。\n步骤3：使用⟦17⟧⟦180⟧⟦48⟧，她在情景喜剧《Bucket》中饰演一位母亲角色。\n步骤4：综合⟦67⟧⟦128⟧⟦237⟧，该剧中女儿的名字是 Mim，剧情围绕母亲的遗愿清单展开。\n\n结论：综合多条材料交叉验证，女儿的名字是 Mim。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦129⟧⟨399⟩⟦31⟧⟦48⟧⟨401⟩⟦27⟧⟨400⟩⟨402⟩⟦290⟧⟦291⟧⟨403⟩⟦35⟧",
+    "nounCount": 485,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7565,
+      "completion_tokens": 459,
+      "total_tokens": 8024,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7565
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1549,
+      "completion_tokens": 527,
+      "total_tokens": 2076,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1549
+    }
+  },
+  {
+    "qid": "hotpot_5764",
+    "question": "The Dukes of Hazzard was inspired by the 1975 film starring whom?",
+    "expectedAnswer": "James Mitchum",
+    "predictedAnswer": "# 路径一：直接溯源链\n\n步骤1：使用⟦223⟧，提取\"The Dukes\"这一标题片段，判断其指向《The Dukes of Hazzard》这一作品。\n\n步骤2：综合⟦395⟧⟦396⟧⟦397⟧⟦398⟧，提取\"The series was inspired by\"这一关键表述，确认该系列剧的灵感来源是一部1975年的电影。\n\n步骤3：使用⟦219⟧，提取\"the 1975 film\"这一指称，锁定目标电影。\n\n步骤4：综合⟦147⟧⟦148⟧，提取\"Mitchum\"与\"Moonrunners\"的关联，判断该1975年电影为《Moonrunners》，其主演为Mitchum家族成员。\n\n结论：The Dukes of Hazzard 的灵感来源于1975年电影《Moonrunners》，该片由Mitchum家族成员主演。\n\n---\n\n# 路径二：主演姓名交叉验证\n\n步骤1：使用⟦122⟧，提取\"James Mitchum\"这一人名，判断其为《Moonrunners》的主演之一。\n\n步骤2：综合⟦147⟧⟦186⟧，提取\"Mitchum\"与\"Robert Mitchum\"的关联，确认Mitchum家族在《Moonrunners》中的参与。\n\n步骤3：综合⟦216⟧⟦219⟧，提取\"had co-starred with...in...the 1975 film\"这一表述，交叉验证1975年电影中Mitchum家族成员的共同出演关系。\n\n步骤4：使用⟦148⟧，提取\"Moonrunners\"作为电影标题，与⟦219⟧的\"the 1975 film\"形成对应。\n\n结论：1975年电影《Moonrunners》由James Mitchum主演，且Robert Mitchum亦有参与，Mitchum家族是该片的核心主演阵容。\n\n---\n\n# 路径三：主题特征综合支撑\n\n步骤1：使用⟦49⟧，提取\"bootleg liquor\"这一主题元素，判断其与《Moonrunners》及《The Dukes of Hazzard》的关联。\n\n步骤2：综合⟦50⟧⟦149⟧⟦150⟧，提取\"bootleggers\"、\"moonshine\"、\"moonshine-running bootleggers\"等关键词，确认两部作品共享私酒贩运的主题。\n\n步骤3：综合⟦88⟧⟦57⟧，提取\"fast cars\"与\"cars\"的关联，判断飞车追逐是两部作品的共同特征。\n\n步骤4：综合⟦91⟧⟦27⟧，提取\"federal agents\"与\"agents\"的关联，确认联邦探员追捕是两部作品的共同叙事元素。\n\n步骤5：综合⟦222⟧⟦256⟧，提取\"which also focused upon\"与\"the similar drive-in favorite 'Thunder Road'\"的表述，确认《Moonrunners》与《The Dukes of Hazzard》在主题上的高度相似性。\n\n结论：通过主题特征（私酒、飞车、联邦探员追捕）的综合比对，《The Dukes of Hazzard》与1975年电影《Moonrunners》高度一致，而该片由Mitchum家族主演。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦223⟧⟨377⟩⟦108⟧⟨378⟩⟦29⟧⟦25⟧⟨380⟩⟦70⟧⟨381⟩⟦215⟧⟨382⟩⟨379⟩",
+    "nounCount": 391,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6595,
+      "completion_tokens": 363,
+      "total_tokens": 6958,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6595
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1325,
+      "completion_tokens": 704,
+      "total_tokens": 2029,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1325
+    }
+  },
+  {
+    "qid": "hotpot_1866",
+    "question": "Olivia DeJonge starred in an American horror film directed by Shyamalan called what",
+    "expectedAnswer": "The Visit",
+    "predictedAnswer": "# 路径一：从演员作品列表直接定位\n\n步骤1：使用⟦150⟧，提取 Olivia DeJonge 的演艺经历信息，其中提到她 known for playing ⟦189⟧ in ⟦208⟧，以及出演 ⟦47⟧ in ⟦7⟧。\n\n步骤2：综合⟦150⟧⟦7⟧，确认 Olivia DeJonge 出演了名为 \"The Visit\" 的作品。\n\n步骤3：使用⟦212⟧⟦16⟧⟦114⟧⟦132⟧，提取 \"The Visit\" 是一部 2015 年美国电影，由 M. Night Shyamalan 编剧并执导。\n\n结论：Olivia DeJonge 主演的、由 Shyamalan 执导的美国恐怖片是 **The Visit**。\n\n---\n\n# 路径二：从导演作品反向验证\n\n步骤1：使用⟦132⟧，提取 M. Night Shyamalan 的信息，确认其为导演。\n\n步骤2：使用⟦212⟧⟦16⟧⟦109⟧⟦110⟧⟦114⟧⟦132⟧，提取 \"The Visit\" 是一部 2015 年美国恐怖片，由 M. Night Shyamalan 编剧并执导。\n\n步骤3：综合⟦150⟧⟦7⟧，交叉验证 Olivia DeJonge 出演了 \"The Visit\"，与导演信息吻合。\n\n结论：Shyamalan 执导的恐怖片为 **The Visit**，Olivia DeJonge 参演其中，答案一致。\n\n---\n\n# 路径三：排除法与其他作品对比\n\n步骤1：使用⟦150⟧，提取 Olivia DeJonge 的其他作品信息，包括 ⟦208⟧（即 ⟦174⟧）和 ⟦7⟧。\n\n步骤2：使用⟦132⟧，确认 Shyamalan 为导演；综合⟦212⟧⟦16⟧⟦114⟧，确认 Shyamalan 执导的作品是 \"The Visit\" 而非其他。\n\n步骤3：对比⟦150⟧中提到的其他作品（如 ⟦174⟧），均非 Shyamalan 执导，排除干扰项。\n\n结论：唯一符合\"Olivia DeJonge 主演 + Shyamalan 执导 + 美国恐怖片\"三个条件的作品是 **The Visit**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦212⟧⟨109⟩⟦16⟧⟨110⟩⟨111⟩⟨113⟩⟨112⟩⟨114⟩⟨115⟩⟨116⟩⟦77⟧⟨117⟩",
+    "nounCount": 325,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5511,
+      "completion_tokens": 184,
+      "total_tokens": 5695,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5511
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 814,
+      "completion_tokens": 503,
+      "total_tokens": 1317,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 814
+    }
+  },
+  {
+    "qid": "hotpot_6789",
+    "question": "What is the name of the basketball team that trained under assistant coach, Steven Michael Henson at",
+    "expectedAnswer": "Oklahoma Sooners men's basketball",
+    "predictedAnswer": "# 路径一：从主叙述链提取球队名称\n\n步骤1：使用⟦171⟧，提取人物全名 Steven Michael Henson，确认其为退役美国职业篮球运动员。\n\n步骤2：综合⟦28⟧⟦214⟧，判断 Henson 是 the Milwaukee Bucks 的助理篮球教练。\n\n步骤3：综合⟦216⟧⟦217⟧⟦218⟧⟦219⟧，提取他在 the NCAA Tournament 期间于 University of Oklahoma 担任助理教练。\n\n步骤4：使用⟦160⟧，提取 Sooners 这一球队名称，结合⟦225⟧⟦232⟧确认其与 University of Oklahoma 的关联。\n\n结论：该篮球队名称为 **Sooners**（即 Oklahoma Sooners）。\n\n---\n\n# 路径二：通过教练任职与球队归属交叉验证\n\n步骤1：使用⟦107⟧，提取 Lon Kruger 为 Henson 的前任大学教练。\n\n步骤2：综合⟦91⟧⟦216⟧，判断 Henson 在 the NCAA Tournament 期间于其前大学教练手下担任助理教练。\n\n步骤3：综合⟦123⟧⟦160⟧，交叉验证 Oklahoma 与 Sooners 的对应关系，确认 Sooners 是 University of Oklahoma 的球队。\n\n步骤4：使用⟦232⟧，提取 the University 与 Sooners 的关联，确认球队归属。\n\n结论：在 University of Oklahoma 接受助理教练 Steven Michael Henson 训练的篮球队是 **Sooners**。\n\n---\n\n# 路径三：通过任职时间线与球队名称综合支撑\n\n步骤1：综合⟦224⟧⟦225⟧⟦226⟧，提取 2016 年 4 月 1 日 Henson 被聘为助理教练。\n\n步骤2：综合⟦229⟧⟦230⟧，提取其任职地点为 University of Oklahoma 的篮球队。\n\n步骤3：使用⟦160⟧，提取 Sooners 作为该球队的昵称，结合⟦232⟧确认 the University 与 Sooners 的从属关系。\n\n步骤4：综合⟦225⟧⟦232⟧，确认 Sooners 的退出（⟦225⟧）与 the University 的关联，锁定球队名称。\n\n结论：该篮球队名称为 **Sooners**（Oklahoma Sooners）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦171⟧⟨205⟩⟦19⟧⟨207⟩⟨206⟩⟨208⟩⟦214⟧⟨209⟩⟦189⟧⟦147⟧⟨210⟩⟨211⟩",
+    "nounCount": 469,
+    "score": 0.5,
+    "recallUsage": {
+      "prompt_tokens": 7133,
+      "completion_tokens": 272,
+      "total_tokens": 7405,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7133
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1093,
+      "completion_tokens": 510,
+      "total_tokens": 1603,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1093
+    }
+  }
+]

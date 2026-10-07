@@ -1,0 +1,101 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Frederick Brewing Company] ⟦82⟧⟨144⟩⟦133⟧⟨145⟩⟨146⟩⟨147⟩⟨148⟩⟨149⟩⟦228⟧⟨150⟩⟦81⟧⟨151⟩⟦126⟧⟨152⟩⟦240⟧⟨153⟩
+[Frederick Brewing Company] ⟨154⟩⟦125⟧⟨155⟩⟦111⟧⟨156⟩⟦169⟧⟨157⟩⟦102⟧⟦134⟧⟨158⟩⟨159⟩⟦2⟧⟨160⟩
+[Frederick Brewing Company] ⟨161⟩⟨162⟩⟨163⟩⟦165⟧⟦165⟧⟨164⟩
+[Frederick Brewing Company] ⟦192⟧ | ⟨165⟩⟦192⟧⟨166⟩⟨167⟩⟦151⟧⟦151⟧⟨168⟩⟨169⟩⟨170⟩⟨171⟩
+[Frederick Brewing Company] ⟦141⟧⟦246⟧ | ⟦246⟧⟦77⟧ | ⟨172⟩⟦166⟧⟦141⟧⟨173⟩⟨174⟩⟨175⟩⟨176⟩⟦246⟧⟨177⟩⟦77⟧⟨178⟩
+[Żywiec Brewery] ⟦8⟧
+[Żywiec Brewery] ⟦186⟧
+[Karl Strauss Brewing Company] ⟦53⟧ | ⟦53⟧
+[Karl Strauss Brewing Company] ⟦36⟧ | ⟦36⟧
+
+符号表：
+⟦2⟧ = 12 February
+⟦8⟧ = a brewery
+⟦36⟧ = brewery
+⟦53⟧ = company
+⟦77⟧ = Flying Dog Brewery
+⟦81⟧ = Frederick
+⟦82⟧ = Frederick Brewing Company
+⟦102⟧ = its grand opening
+⟦111⟧ = Kevin Brannon
+⟦125⟧ = Marjorie McGinnis
+⟦126⟧ = Maryland
+⟦133⟧ = one point
+⟦134⟧ = opening
+⟦141⟧ = point
+⟦151⟧ = receivership
+⟦165⟧ = Snyder International Brewing Group
+⟦166⟧ = some point
+⟦169⟧ = Steve Nordahl
+⟦186⟧ = the brewery
+⟦192⟧ = The company
+⟦228⟧ = the Wedgewood Business Park
+⟦240⟧ = United States
+⟦246⟧ = Wild Goose Brewery
+
+占位符映射：
+⟨144⟩ =  (at 
+⟨145⟩ = 
+⟨146⟩ =  also known as 
+⟨147⟩ = ) is 
+⟨148⟩ = 
+⟨149⟩ =  at 
+⟨150⟩ =  in 
+⟨151⟩ = , 
+⟨152⟩ = , 
+⟨153⟩ = .
+⟨154⟩ =  It was founded sometime between 1992 and 1993 by 
+⟨155⟩ = , 
+⟨156⟩ = , and 
+⟨157⟩ =  and had 
+⟨158⟩ = 
+⟨159⟩ =  on 
+⟨160⟩ =  1997.
+⟨161⟩ = 
+⟨162⟩ =  was taken over by 
+⟨163⟩ =  in 1999 and merged with 
+⟨164⟩ =  in 2001.
+⟨165⟩ =  In early 2002 or 2003 
+⟨166⟩ = 
+⟨167⟩ =  was placed into 
+⟨168⟩ = 
+⟨169⟩ =  and in 2006 was purchased by 
+⟨170⟩ =  and renamed 
+⟨171⟩ = .
+⟨172⟩ =  At 
+⟨173⟩ = 
+⟨174⟩ =  
+⟨175⟩ = 
+⟨176⟩ =  stopped being known as 
+⟨177⟩ =  and just became 
+⟨178⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who was the original female founder of the brewery that was purchased in 2006 by the largest brewery in the state of Maryland?

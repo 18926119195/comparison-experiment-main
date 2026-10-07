@@ -1,0 +1,206 @@
+[
+  {
+    "questionId": "hotpotqa-0",
+    "question": "What is the country of birth of the architect of the One World Trade Center?",
+    "answer": "United States of America",
+    "retrievedChunks": [
+      {
+        "chunkKey": "hotpotqa-0-david-childs-3",
+        "title": "David Childs",
+        "sentenceIndex": 3,
+        "text": "He was born in Brooklyn, New York, United States of America.",
+        "page": 4,
+        "isSupportingFact": true
+      },
+      {
+        "chunkKey": "hotpotqa-0-david-childs-2",
+        "title": "David Childs",
+        "sentenceIndex": 2,
+        "text": "Childs is best known for designing the One World Trade Center in New York City.",
+        "page": 3,
+        "isSupportingFact": false
+      },
+      {
+        "chunkKey": "hotpotqa-0-david-childs-1",
+        "title": "David Childs",
+        "sentenceIndex": 1,
+        "text": "He is the founding partner of the architectural firm Skidmore, Owings & Merrill.",
+        "page": 2,
+        "isSupportingFact": false
+      },
+      {
+        "chunkKey": "hotpotqa-0-david-childs-0",
+        "title": "David Childs",
+        "sentenceIndex": 0,
+        "text": "David Michael Childs (born March 23, 1941) is an American architect.",
+        "page": 1,
+        "isSupportingFact": false
+      }
+    ],
+    "predictedAnswer": "United States of America",
+    "groundTruthAnswer": "United States of America",
+    "tokenUsage": {"prompt_tokens": 800, "completion_tokens": 50, "total_tokens": 850},
+    "latencyMs": 1200,
+    "method": "shuffled"
+  },
+  {
+    "questionId": "hotpotqa-1",
+    "question": "Which person is taller, Peter Parker or Bruce Wayne?",
+    "answer": "Bruce Wayne",
+    "retrievedChunks": [
+      {
+        "chunkKey": "hotpotqa-1-wayne-1",
+        "title": "Bruce Wayne",
+        "sentenceIndex": 1,
+        "text": "He is depicted as being 6 feet 2 inches (188 cm) tall.",
+        "page": 4,
+        "isSupportingFact": true
+      },
+      {
+        "chunkKey": "hotpotqa-1-wayne-0",
+        "title": "Bruce Wayne",
+        "sentenceIndex": 0,
+        "text": "Bruce Wayne, also known as Batman, is a fictional character.",
+        "page": 3,
+        "isSupportingFact": false
+      },
+      {
+        "chunkKey": "hotpotqa-1-parker-1",
+        "title": "Peter Parker",
+        "sentenceIndex": 1,
+        "text": "He is described as being about 5 feet 10 inches tall in the comics.",
+        "page": 2,
+        "isSupportingFact": true
+      },
+      {
+        "chunkKey": "hotpotqa-1-parker-0",
+        "title": "Peter Parker",
+        "sentenceIndex": 0,
+        "text": "Peter Parker, also known as Spider-Man, is a fictional character.",
+        "page": 1,
+        "isSupportingFact": false
+      }
+    ],
+    "predictedAnswer": "Bruce Wayne",
+    "groundTruthAnswer": "Bruce Wayne",
+    "tokenUsage": {"prompt_tokens": 800, "completion_tokens": 50, "total_tokens": 850},
+    "latencyMs": 1200,
+    "method": "shuffled"
+  },
+  {
+    "questionId": "hotpotqa-2",
+    "question": "What city was the actor who played the 8th Doctor in Doctor Who born in?",
+    "answer": "London",
+    "retrievedChunks": [
+      {
+        "chunkKey": "hotpotqa-2-mcgann-2",
+        "title": "Paul McGann",
+        "sentenceIndex": 2,
+        "text": "McGann later moved to London to pursue his acting career.",
+        "page": 3,
+        "isSupportingFact": false
+      },
+      {
+        "chunkKey": "hotpotqa-2-mcgann-1",
+        "title": "Paul McGann",
+        "sentenceIndex": 1,
+        "text": "He was born on June 14, 1955, in Liverpool, England.",
+        "page": 2,
+        "isSupportingFact": true
+      },
+      {
+        "chunkKey": "hotpotqa-2-mcgann-0",
+        "title": "Paul McGann",
+        "sentenceIndex": 0,
+        "text": "Paul McGann is an English actor who played the Eighth Doctor in Doctor Who.",
+        "page": 1,
+        "isSupportingFact": false
+      }
+    ],
+    "predictedAnswer": "London",
+    "groundTruthAnswer": "London",
+    "tokenUsage": {"prompt_tokens": 800, "completion_tokens": 50, "total_tokens": 850},
+    "latencyMs": 1200,
+    "method": "shuffled"
+  },
+  {
+    "questionId": "hotpotqa-3",
+    "question": "Is the director of The Shawshank Redemption older than the director of The Godfather?",
+    "answer": "No",
+    "retrievedChunks": [
+      {
+        "chunkKey": "hotpotqa-3-coppola-1",
+        "title": "Francis Ford Coppola",
+        "sentenceIndex": 1,
+        "text": "He was born on April 7, 1939, making him older than Frank Darabont.",
+        "page": 4,
+        "isSupportingFact": true
+      },
+      {
+        "chunkKey": "hotpotqa-3-coppola-0",
+        "title": "Francis Ford Coppola",
+        "sentenceIndex": 0,
+        "text": "Francis Ford Coppola is an American film director and producer.",
+        "page": 3,
+        "isSupportingFact": false
+      },
+      {
+        "chunkKey": "hotpotqa-3-darabont-1",
+        "title": "Frank Darabont",
+        "sentenceIndex": 1,
+        "text": "He was born on January 28, 1959.",
+        "page": 2,
+        "isSupportingFact": false
+      },
+      {
+        "chunkKey": "hotpotqa-3-darabont-0",
+        "title": "Frank Darabont",
+        "sentenceIndex": 0,
+        "text": "Frank Darabont is an American film director, screenwriter, and producer.",
+        "page": 1,
+        "isSupportingFact": false
+      }
+    ],
+    "predictedAnswer": "No",
+    "groundTruthAnswer": "No",
+    "tokenUsage": {"prompt_tokens": 800, "completion_tokens": 50, "total_tokens": 850},
+    "latencyMs": 1200,
+    "method": "shuffled"
+  },
+  {
+    "questionId": "hotpotqa-4",
+    "question": "What sport does the person who discovered radium play?",
+    "answer": "Tennis",
+    "retrievedChunks": [
+      {
+        "chunkKey": "hotpotqa-4-curie-2",
+        "title": "Marie Curie",
+        "sentenceIndex": 2,
+        "text": "She was an avid tennis player in her youth.",
+        "page": 3,
+        "isSupportingFact": true
+      },
+      {
+        "chunkKey": "hotpotqa-4-curie-1",
+        "title": "Marie Curie",
+        "sentenceIndex": 1,
+        "text": "She discovered the elements polonium and radium.",
+        "page": 2,
+        "isSupportingFact": false
+      },
+      {
+        "chunkKey": "hotpotqa-4-curie-0",
+        "title": "Marie Curie",
+        "sentenceIndex": 0,
+        "text": "Marie Curie was a Polish-born physicist and chemist.",
+        "page": 1,
+        "isSupportingFact": false
+      }
+    ],
+    "predictedAnswer": "Tennis",
+    "groundTruthAnswer": "Tennis",
+    "tokenUsage": {"prompt_tokens": 800, "completion_tokens": 50, "total_tokens": 850},
+    "latencyMs": 1200,
+    "method": "shuffled"
+  }
+]

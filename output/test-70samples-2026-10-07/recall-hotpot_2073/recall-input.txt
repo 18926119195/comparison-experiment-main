@@ -1,0 +1,252 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "National Conference
+⟦2⟧ = 110 km
+⟦3⟧ = 19 November
+⟦4⟧ = 256.14 km²
+⟦5⟧ = 270 km
+⟦6⟧ = 42 islands
+⟦7⟧ = a core area
+⟦8⟧ = a group
+⟦9⟧ = a national park
+⟦10⟧ = a protected marine national park
+⟦11⟧ = a range
+⟦12⟧ = a state political party
+⟦13⟧ = a symbol
+⟦14⟧ = a women's first-class cricket team
+⟦15⟧ = about 5 km2
+⟦16⟧ = about 64 km2
+⟦17⟧ = accession
+⟦18⟧ = Africa
+⟦19⟧ = algal gardens
+⟦20⟧ = all the people
+⟦21⟧ = an independent princely state
+⟦22⟧ = an Indian national park
+⟦23⟧ = area
+⟦24⟧ = Australia
+⟦25⟧ = authorities
+⟦26⟧ = Azad Kashmir
+⟦27⟧ = beds
+⟦28⟧ = Bengal
+⟦29⟧ = British India
+⟦30⟧ = Cape Paterson
+⟦31⟧ = capital
+⟦32⟧ = Chaudhry Ghulam Abbas
+⟦33⟧ = class
+⟦34⟧ = coast
+⟦35⟧ = coastline
+⟦36⟧ = coasts
+⟦37⟧ = Competition
+⟦38⟧ = core
+⟦39⟧ = covers
+⟦40⟧ = cricket
+⟦41⟧ = district
+⟦42⟧ = dynasty
+⟦43⟧ = figures
+⟦44⟧ = gardens
+⟦45⟧ = Ghulam Abbas
+⟦46⟧ = group
+⟦47⟧ = Gujarat
+⟦48⟧ = habitats
+⟦49⟧ = In 1980, an area
+⟦50⟧ = India
+⟦51⟧ = Indian nationalists
+⟦52⟧ = Inter Zone
+⟦53⟧ = intertidal reefs
+⟦54⟧ = Inverloch
+⟦55⟧ = island
+⟦56⟧ = islands
+⟦57⟧ = its capital
+⟦58⟧ = Jammu
+⟦59⟧ = Jhansi
+⟦60⟧ = Jhansi district
+⟦61⟧ = JKNC
+⟦62⟧ = Jodiya
+⟦63⟧ = June
+⟦64⟧ = Kachchh
+⟦65⟧ = Kashmir
+⟦66⟧ = Kashmir Muslim Conference
+⟦67⟧ = Kashmir National Conference
+⟦68⟧ = Kenya
+⟦69⟧ = King Island
+⟦70⟧ = km
+⟦71⟧ = km2
+⟦72⟧ = km²
+⟦73⟧ = Kutch
+⟦74⟧ = Lakshmibai
+⟦75⟧ = Lapse
+⟦76⟧ = location
+⟦77⟧ = Malindi
+⟦78⟧ = Malindi Marine National Park
+⟦79⟧ = Malindi Marine Park
+⟦80⟧ = Marine National Park
+⟦81⟧ = Marine Sanctuary
+⟦82⟧ = Middle Button
+⟦83⟧ = Middle Button Island National Park
+⟦84⟧ = Mombasa
+⟦85⟧ = movement
+⟦86⟧ = nationalists
+⟦87⟧ = neighbouring
+⟦88⟧ = North Button
+⟦89⟧ = North India
+⟦90⟧ = Okha
+⟦91⟧ = oldest marine park
+⟦92⟧ = order
+⟦93⟧ = organisation
+⟦94⟧ = Pakistan
+⟦95⟧ = park
+⟦96⟧ = parks
+⟦97⟧ = part
+⟦98⟧ = party
+⟦99⟧ = people
+⟦100⟧ = Pirotan
+⟦101⟧ = Port Blair
+⟦102⟧ = protection
+⟦103⟧ = provisions
+⟦104⟧ = queen
+⟦105⟧ = range
+⟦106⟧ = Rani Jhansi Marine National Park
+⟦107⟧ = reefs
+⟦108⟧ = region
+⟦109⟧ = resistance
+⟦110⟧ = seagrass
+⟦111⟧ = seagrass beds
+⟦112⟧ = Sheikh Abdullah
+⟦113⟧ = shore
+⟦114⟧ = south
+⟦115⟧ = South Andaman Island
+⟦116⟧ = South Button
+⟦117⟧ = South Button Island National Park
+⟦118⟧ = south-westerly swells
+⟦119⟧ = southwest
+⟦120⟧ = state
+⟦121⟧ = subtidal rocky reefs
+⟦122⟧ = suzerainty
+⟦123⟧ = swells
+⟦124⟧ = symbol
+⟦125⟧ = Tasmania
+⟦126⟧ = team
+⟦127⟧ = terms
+⟦128⟧ = the "All Jammu
+⟦129⟧ = The 2100 ha marine national park
+⟦130⟧ = the accession
+⟦131⟧ = the Andaman and Nicobar Islands
+⟦132⟧ = the Bay
+⟦133⟧ = The best known island
+⟦134⟧ = the British authorities
+⟦135⟧ = the British Raj
+⟦136⟧ = The Bunurong Marine National Park
+⟦137⟧ = the coast
+⟦138⟧ = The coastal waters
+⟦139⟧ = the coastline
+⟦140⟧ = the Devbhumi Dwarka District
+⟦141⟧ = the Doctrine
+⟦142⟧ = The fortified town
+⟦143⟧ = the Gulf
+⟦144⟧ = the Indian Ocean
+⟦145⟧ = the Indian Rebellion
+⟦146⟧ = the Indian state
+⟦147⟧ = the Inter Zone Women's One Day Competition
+⟦148⟧ = the island group
+⟦149⟧ = The Jammu
+⟦150⟧ = the Jamnagar coast
+⟦151⟧ = the Kenya Wildlife Service
+⟦152⟧ = the leading figures
+⟦153⟧ = the location
+⟦154⟧ = the Malindi Marine National Reserve
+⟦155⟧ = the Maratha Newalkar dynasty
+⟦156⟧ = the Marine National Park
+⟦157⟧ = the movement
+⟦158⟧ = the National Conference
+⟦159⟧ = the national park covers
+⟦160⟧ = the neighbouring islands
+⟦161⟧ = The North Zone women's cricket team
+⟦162⟧ = the now defunct Rani Jhansi Trophy
+⟦163⟧ = the old Muslim Conference
+⟦164⟧ = the organisation
+⟦165⟧ = The park
+⟦166⟧ = the princely state
+⟦167⟧ = the provisions
+⟦168⟧ = the queen
+⟦169⟧ = the Rani
+⟦170⟧ = the Rani Jhansi Marine National Park
+⟦171⟧ = The revived Muslim Conference
+⟦172⟧ = the South Gippsland region
+⟦173⟧ = the southern shore
+⟦174⟧ = the State
+⟦175⟧ = the terms
+⟦176⟧ = The total area
+⟦177⟧ = The waters
+⟦178⟧ = the Wildlife (protection) Act
+⟦179⟧ = this protected island
+⟦180⟧ = town
+⟦181⟧ = Uttar Pradesh
+⟦182⟧ = Victoria
+⟦183⟧ = Victoria’s central and western coasts
+⟦184⟧ = Watamu Marine National Park
+⟦185⟧ = waters
+⟦186⟧ = women
+⟦187⟧ = Women's Three Day Competition
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Rani Jhansi Marine National Park] ⟦106⟧⟨1⟩⟦131⟧⟨2⟩⟦132⟧⟨3⟩⟦28⟧⟨4⟩
+[Rani Jhansi Marine National Park] ⟨5⟩⟦4⟧⟨6⟩⟦72⟧⟨7⟩
+[Rani Jhansi Marine National Park] ⟨8⟩⟦74⟧⟨9⟩⟦169⟧⟨10⟩⟦59⟧⟨11⟩
+[Malindi Marine National Park] ⟦78⟧⟨12⟩⟦144⟧⟨13⟩⟦137⟧⟨14⟩⟦34⟧⟨15⟩⟦68⟧⟨16⟩
+[Malindi Marine National Park] ⟨17⟩⟦91⟧⟨18⟩⟦95⟧⟨19⟩⟦18⟧⟨20⟩
+[Malindi Marine National Park] ⟦165⟧⟨21⟩⟦95⟧⟨22⟩⟦77⟧⟨23⟩⟦70⟧⟨24⟩⟦84⟧⟨25⟩⟦151⟧⟨26⟩
+[Malindi Marine National Park] ⟨27⟩⟦184⟧⟨28⟩⟦79⟧⟨29⟩⟦154⟧⟨30⟩
+[Jhansi State] ⟦59⟧⟨31⟩⟦21⟧⟨32⟩⟦120⟧⟨33⟩⟦155⟧⟨34⟩⟦42⟧⟨35⟩⟦122⟧⟨36⟩⟦122⟧⟨37⟩⟦29⟧⟨38⟩⟦134⟧⟨39⟩⟦25⟧⟨40⟩⟦174⟧⟨41⟩⟦175⟧⟨42⟩⟦127⟧⟨43⟩⟦141⟧⟨44⟩⟦75⟧⟨45⟩
+[Jhansi State] ⟦142⟧⟨46⟩⟦180⟧⟨47⟩⟦59⟧⟨48⟩⟦57⟧⟨49⟩⟦31⟧⟨50⟩
+[Middle Button Island National Park] ⟦83⟧⟨51⟩⟦22⟧⟨52⟩⟦95⟧⟨53⟩⟦131⟧⟨54⟩
+[Middle Button Island National Park] ⟦165⟧⟨55⟩⟦95⟧⟨56⟩⟦70⟧⟨57⟩⟦101⟧⟨58⟩⟦31⟧⟨59⟩⟦31⟧⟨60⟩⟦148⟧⟨61⟩⟦55⟧⟨62⟩⟦46⟧⟨63⟩
+[Middle Button Island National Park] ⟦176⟧⟨64⟩⟦23⟧⟨65⟩⟦159⟧⟨66⟩⟦95⟧⟨67⟩⟦39⟧⟨68⟩⟦16⟧⟨69⟩⟦71⟧⟨70⟩
+[Middle Button Island National Park] ⟨71⟩⟦160⟧⟨72⟩⟦87⟧⟨73⟩⟦56⟧⟨74⟩⟦88⟧⟨75⟩⟦116⟧⟨76⟩⟦96⟧⟨77⟩⟦97⟧⟨78⟩⟦97⟧⟨79⟩⟦170⟧⟨80⟩⟦137⟧⟨81⟩⟦34⟧⟨82⟩⟦115⟧⟨83⟩
+[Jammu &amp; Kashmir National Conference] ⟦149⟧⟨84⟩⟦67⟧⟨85⟩⟦61⟧⟨86⟩⟦12⟧⟨87⟩⟦120⟧⟨88⟩⟦98⟧⟨89⟩⟦146⟧⟨90⟩⟦120⟧⟨91⟩⟦58⟧⟨92⟩⟦65⟧⟨93⟩
+[Jammu &amp; Kashmir National Conference] ⟨94⟩⟦128⟧⟨95⟩⟦66⟧⟨96⟩⟦112⟧⟨97⟩⟦32⟧⟨98⟩⟦166⟧⟨99⟩⟦120⟧⟨100⟩⟦58⟧⟨101⟩⟦65⟧⟨102⟩⟦164⟧⟨103⟩⟦93⟧⟨104⟩⟦1⟧⟨105⟩⟦92⟧⟨106⟩⟦92⟧⟨107⟩⟦20⟧⟨108⟩⟦99⟧⟨109⟩⟦174⟧⟨110⟩⟦120⟧⟨111⟩
+[Jammu &amp; Kashmir National Conference] ⟨112⟩⟦130⟧⟨113⟩⟦17⟧⟨114⟩⟦166⟧⟨115⟩⟦120⟧⟨116⟩⟦50⟧⟨117⟩
+[Jammu &amp; Kashmir National Conference] ⟨118⟩⟦8⟧⟨119⟩⟦46⟧⟨120⟩⟦45⟧⟨121⟩⟦158⟧⟨122⟩⟦163⟧⟨123⟩
+[Jammu &amp; Kashmir National Conference] ⟦171⟧⟨124⟩⟦130⟧⟨125⟩⟦17⟧⟨126⟩⟦166⟧⟨127⟩⟦120⟧⟨128⟩⟦94⟧⟨129⟩⟦157⟧⟨130⟩⟦85⟧⟨131⟩⟦26⟧⟨132⟩
+[South Button Island National Park] ⟦117⟧⟨133⟩⟦9⟧⟨134⟩⟦95⟧⟨135⟩⟦131⟧⟨136⟩⟦137⟧⟨137⟩⟦34⟧⟨138⟩⟦50⟧⟨139⟩⟦176⟧⟨140⟩⟦23⟧⟨141⟩⟦179⟧⟨142⟩⟦55⟧⟨143⟩⟦15⟧⟨144⟩⟦71⟧⟨145⟩
+[South Button Island National Park] ⟨146⟩⟦160⟧⟨147⟩⟦87⟧⟨148⟩⟦56⟧⟨149⟩⟦88⟧⟨150⟩⟦82⟧⟨151⟩⟦96⟧⟨152⟩⟦97⟧⟨153⟩⟦97⟧⟨154⟩⟦170⟧⟨155⟩⟦137⟧⟨156⟩⟦34⟧⟨157⟩⟦115⟧⟨158⟩
+[Marine National Park, Gulf of Kutch] ⟦80⟧⟨159⟩⟦143⟧⟨160⟩⟦73⟧⟨161⟩⟦173⟧⟨162⟩⟦113⟧⟨163⟩⟦143⟧⟨164⟩⟦64⟧⟨165⟩⟦140⟧⟨166⟩⟦47⟧⟨167⟩⟦120⟧⟨168⟩⟦50⟧⟨169⟩
+[Marine National Park, Gulf of Kutch] ⟦49⟧⟨170⟩⟦23⟧⟨171⟩⟦5⟧⟨172⟩⟦70⟧⟨173⟩
+[Marine National Park, Gulf of Kutch] ⟨174⟩⟦90⟧⟨175⟩⟦62⟧⟨176⟩⟦81⟧⟨177⟩
+[Marine National Park, Gulf of Kutch] ⟨178⟩⟦7⟧⟨179⟩⟦38⟧⟨180⟩⟦23⟧⟨181⟩⟦2⟧⟨182⟩⟦70⟧⟨183⟩⟦80⟧⟨184⟩⟦167⟧⟨185⟩⟦103⟧⟨186⟩⟦178⟧⟨187⟩⟦102⟧⟨188⟩⟦50⟧⟨189⟩
+[Marine National Park, Gulf of Kutch] ⟨190⟩⟦6⟧⟨191⟩⟦56⟧⟨192⟩⟦150⟧⟨193⟩⟦34⟧⟨194⟩⟦156⟧⟨195⟩⟦107⟧⟨196⟩⟦107⟧⟨197⟩
+[Marine National Park, Gulf of Kutch] ⟦133⟧⟨198⟩⟦55⟧⟨199⟩⟦100⟧⟨200⟩
+[Rani of Jhansi] ⟦74⟧⟨201⟩⟦169⟧⟨202⟩⟦59⟧⟨203⟩⟦3⟧⟨204⟩⟦63⟧⟨205⟩⟦168⟧⟨206⟩⟦104⟧⟨207⟩⟦166⟧⟨208⟩⟦120⟧⟨209⟩⟦59⟧⟨210⟩⟦89⟧⟨211⟩⟦60⟧⟨212⟩⟦41⟧⟨213⟩⟦181⟧⟨214⟩⟦50⟧⟨215⟩
+[Rani of Jhansi] ⟨216⟩⟦152⟧⟨217⟩⟦43⟧⟨218⟩⟦145⟧⟨219⟩⟦13⟧⟨220⟩⟦124⟧⟨221⟩⟦109⟧⟨222⟩⟦109⟧⟨223⟩⟦135⟧⟨224⟩⟦51⟧⟨225⟩⟦86⟧⟨226⟩
+[North Zone women's cricket team] ⟦161⟧⟨227⟩⟦186⟧⟨228⟩⟦40⟧⟨229⟩⟦126⟧⟨230⟩⟦14⟧⟨231⟩⟦186⟧⟨232⟩⟦33⟧⟨233⟩⟦40⟧⟨234⟩⟦126⟧⟨235⟩⟦89⟧⟨236⟩⟦147⟧⟨237⟩⟦52⟧⟨238⟩⟦187⟧⟨239⟩⟦37⟧⟨240⟩
+[North Zone women's cricket team] ⟦126⟧⟨241⟩⟦89⟧⟨242⟩⟦162⟧⟨243⟩
+[Bunurong Marine National Park] ⟦136⟧⟨244⟩⟦10⟧⟨245⟩⟦95⟧⟨246⟩⟦137⟧⟨247⟩⟦34⟧⟨248⟩⟦30⟧⟨249⟩⟦172⟧⟨250⟩⟦108⟧⟨251⟩⟦182⟧⟨252⟩⟦24⟧⟨253⟩
+[Bunurong Marine National Park] ⟦129⟧⟨254⟩⟦95⟧⟨255⟩⟦70⟧⟨256⟩⟦119⟧⟨257⟩⟦54⟧⟨258⟩⟦70⟧⟨259⟩⟦139⟧⟨260⟩⟦35⟧⟨261⟩
+[Bunurong Marine National Park] ⟦138⟧⟨262⟩⟦185⟧⟨263⟩⟦11⟧⟨264⟩⟦105⟧⟨265⟩⟦48⟧⟨266⟩⟦48⟧⟨267⟩⟦53⟧⟨268⟩⟦107⟧⟨269⟩⟦121⟧⟨270⟩⟦107⟧⟨271⟩⟦19⟧⟨272⟩⟦44⟧⟨273⟩⟦110⟧⟨274⟩⟦111⟧⟨275⟩⟦27⟧⟨276⟩
+[Bunurong Marine National Park] ⟦177⟧⟨277⟩⟦185⟧⟨278⟩⟦183⟧⟨279⟩⟦36⟧⟨280⟩
+[Bunurong Marine National Park] ⟨281⟩⟦114⟧⟨282⟩⟦118⟧⟨283⟩⟦123⟧⟨284⟩⟦153⟧⟨285⟩⟦76⟧⟨286⟩⟦69⟧⟨287⟩⟦125⟧⟨288⟩
+
+[user]
+
+问题：
+Rani Jhansi Marine National Park commemorates what queen of the princely state of Jhansi in North India?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

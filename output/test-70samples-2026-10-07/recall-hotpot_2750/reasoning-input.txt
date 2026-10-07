@@ -1,0 +1,87 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Patrinia] ⟦116⟧⟨1⟩⟨2⟩⟨3⟩⟦84⟧⟨4⟩⟨5⟩⟦159⟧⟨6⟩⟨7⟩ | ⟦116⟧
+[Patrinia] ⟨8⟩⟦32⟧⟨9⟩⟨10⟩⟦80⟧⟦100⟧⟨12⟩⟦82⟧⟨11⟩⟨13⟩⟨14⟩⟦130⟧⟨15⟩⟦89⟧⟨16⟩
+[Patrinia] ⟦120⟧
+[Cymbidium] ⟨94⟩⟨95⟩⟨96⟩⟦26⟧⟨97⟩⟨98⟩⟦19⟧⟨99⟩⟨100⟩⟦167⟧⟨102⟩⟨103⟩⟨101⟩ | ⟦26⟧
+[Cymbidium] ⟦42⟧
+[Thecostele] ⟦71⟧ | ⟦71⟧
+[Cymbidium elegans] ⟦109⟧⟦109⟧⟦133⟧⟦79⟧⟦58⟧ | ⟦79⟧ | ⟦51⟧⟦133⟧
+
+符号表：
+⟦19⟧ = 52 evergreen species
+⟦26⟧ = a genus
+⟦32⟧ = about 17 species
+⟦42⟧ = boat
+⟦51⟧ = China
+⟦58⟧ = Cymbidium
+⟦71⟧ = family
+⟦79⟧ = genus
+⟦80⟧ = grassy mountain habitats
+⟦82⟧ = habitats
+⟦84⟧ = herbaceous plants
+⟦89⟧ = Japan
+⟦100⟧ = mountain
+⟦109⟧ = orchid
+⟦116⟧ = Patrinia
+⟦120⟧ = plants
+⟦130⟧ = Siberia
+⟦133⟧ = species
+⟦159⟧ = the honeysuckle family
+⟦167⟧ = the orchid family Orchidaceae
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  of 
+⟨4⟩ = 
+⟨5⟩ =  in 
+⟨6⟩ = 
+⟨7⟩ = .
+⟨8⟩ =  There are 
+⟨9⟩ = 
+⟨10⟩ =  native to 
+⟨11⟩ = 
+⟨12⟩ =  
+⟨13⟩ =  in 
+⟨14⟩ = , 
+⟨15⟩ =  and 
+⟨16⟩ = .
+⟨94⟩ = Cymbidium , or 
+⟨95⟩ =  
+⟨96⟩ = , is 
+⟨97⟩ = 
+⟨98⟩ =  of 
+⟨99⟩ = 
+⟨100⟩ =  in 
+⟨101⟩ = 
+⟨102⟩ =  
+⟨103⟩ =  Orchidaceae.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which genus has more species, Cymbidium or Patrinia?

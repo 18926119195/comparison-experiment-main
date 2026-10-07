@@ -1,0 +1,416 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , László Somfai
+⟦2⟧ = "(list
+⟦3⟧ = "Peter Grimes
+⟦4⟧ = "The Barbarian
+⟦5⟧ = "The Young Person's Guide
+⟦6⟧ = "Új Zenei Szemle
+⟦7⟧ = ("Zenepalota
+⟦8⟧ = 17th
+⟦9⟧ = 20 January
+⟦10⟧ = 20th-century British classical music
+⟦11⟧ = 25 March
+⟦12⟧ = a broadcast
+⟦13⟧ = a building
+⟦14⟧ = a central figure
+⟦15⟧ = a commission
+⟦16⟧ = a compilation album
+⟦17⟧ = a complete list
+⟦18⟧ = a faculty
+⟦19⟧ = a famous Music school
+⟦20⟧ = a five-movement work
+⟦21⟧ = a fuller, guitar-like sound
+⟦22⟧ = a fuzz box
+⟦23⟧ = a great deal
+⟦24⟧ = a guest
+⟦25⟧ = a hard rock influence
+⟦26⟧ = a Hungarian composer
+⟦27⟧ = a piece
+⟦28⟧ = a public lecture
+⟦29⟧ = a range
+⟦30⟧ = album
+⟦31⟧ = Allegro barbaro
+⟦32⟧ = an arrangement
+⟦33⟧ = an English all-female string quartet ensemble
+⟦34⟧ = an English composer
+⟦35⟧ = an ethnomusicologist
+⟦36⟧ = an influence
+⟦37⟧ = analytical study
+⟦38⟧ = András Szőllősy
+⟦39⟧ = April
+⟦40⟧ = Arabic
+⟦41⟧ = arrangement
+⟦42⟧ = arrays
+⟦43⟧ = article
+⟦44⟧ = August
+⟦45⟧ = band
+⟦46⟧ = barbaro
+⟦47⟧ = Baron Britten
+⟦48⟧ = baroque
+⟦49⟧ = Bartók
+⟦50⟧ = Bartók Béla Zeneművészeti Szakközépiskola
+⟦51⟧ = Bartók square
+⟦52⟧ = Bartók square Miskolc
+⟦53⟧ = Bartók's family
+⟦54⟧ = Bartók’s Fifth Quartet
+⟦55⟧ = Bartók's Fourth Quartet
+⟦56⟧ = Bartók’s Fourth Quartet
+⟦57⟧ = Bartók's most significant works
+⟦58⟧ = Bartók's own opus numbers
+⟦59⟧ = Bartók's quartets
+⟦60⟧ = Bartók’s quartets
+⟦61⟧ = Bartók's work
+⟦62⟧ = bass
+⟦63⟧ = BB
+⟦64⟧ = Béla Bartók
+⟦65⟧ = Béla Bartók Music High School
+⟦66⟧ = Béla Bartók’s 1911 piano piece
+⟦67⟧ = Béla Viktor János Bartók
+⟦68⟧ = Benjamin Britten
+⟦69⟧ = British progressive rock band Emerson
+⟦70⟧ = broadcast
+⟦71⟧ = Bruno Maderna
+⟦72⟧ = Budapest
+⟦73⟧ = building
+⟦74⟧ = Búza tér
+⟦75⟧ = catalogue
+⟦76⟧ = cello
+⟦77⟧ = century
+⟦78⟧ = chamber
+⟦79⟧ = Chen Yi
+⟦80⟧ = chords
+⟦81⟧ = collection
+⟦82⟧ = commission
+⟦83⟧ = communication
+⟦84⟧ = comparative musicology
+⟦85⟧ = compilation
+⟦86⟧ = composer
+⟦87⟧ = composers
+⟦88⟧ = composition
+⟦89⟧ = compositions
+⟦90⟧ = conductor
+⟦91⟧ = construction
+⟦92⟧ = copyright
+⟦93⟧ = copyright infringement
+⟦94⟧ = credit
+⟦95⟧ = DD
+⟦96⟧ = deal
+⟦97⟧ = death
+⟦98⟧ = debut
+⟦99⟧ = December
+⟦100⟧ = Denijs Dille
+⟦101⟧ = details
+⟦102⟧ = different types
+⟦103⟧ = difficulties
+⟦104⟧ = drums
+⟦105⟧ = early works
+⟦106⟧ = Eastern European folk music
+⟦107⟧ = Edison Denisov
+⟦108⟧ = Edward Benjamin Britten
+⟦109⟧ = Elliott Carter
+⟦110⟧ = ELP
+⟦111⟧ = English composers
+⟦112⟧ = ensemble
+⟦113⟧ = Ernest Bloch
+⟦114⟧ = ethnomusicologist
+⟦115⟧ = ethnomusicology
+⟦116⟧ = faculty
+⟦117⟧ = family
+⟦118⟧ = February
+⟦119⟧ = figure
+⟦120⟧ = folk
+⟦121⟧ = folk music
+⟦122⟧ = folk origin
+⟦123⟧ = forces
+⟦124⟧ = founders
+⟦125⟧ = Franco Donatoni
+⟦126⟧ = frequent use
+⟦127⟧ = friend
+⟦128⟧ = fuzz
+⟦129⟧ = George Perle
+⟦130⟧ = Greg Lake
+⟦131⟧ = guest
+⟦132⟧ = guitar
+⟦133⟧ = György Kurtág
+⟦134⟧ = György Ligeti
+⟦135⟧ = Gyula Waelder
+⟦136⟧ = his 1926 Piano Sonata
+⟦137⟧ = his bass
+⟦138⟧ = His best-known works
+⟦139⟧ = his collection
+⟦140⟧ = his death
+⟦141⟧ = his family
+⟦142⟧ = his friend
+⟦143⟧ = his mother's death
+⟦144⟧ = his mother's illness
+⟦145⟧ = his own First String Quartet
+⟦146⟧ = his patron
+⟦147⟧ = his use
+⟦148⟧ = Hungary
+⟦149⟧ = Hungary's greatest composers
+⟦150⟧ = idea
+⟦151⟧ = ideas
+⟦152⟧ = illness
+⟦153⟧ = influence
+⟦154⟧ = influences
+⟦155⟧ = infringement
+⟦156⟧ = instrumentation
+⟦157⟧ = intermediary
+⟦158⟧ = issue
+⟦159⟧ = its premiere
+⟦160⟧ = Kim Dzmitrïyevich Tsesakow
+⟦161⟧ = King Crimson
+⟦162⟧ = label
+⟦163⟧ = Lake
+⟦164⟧ = lecture
+⟦165⟧ = Lillafüred
+⟦166⟧ = list
+⟦167⟧ = listing
+⟦168⟧ = lists
+⟦169⟧ = Liszt
+⟦170⟧ = loans
+⟦171⟧ = matter
+⟦172⟧ = melodies
+⟦173⟧ = members
+⟦174⟧ = Michael Tippett
+⟦175⟧ = Miloslav Ištvan
+⟦176⟧ = Miskolc
+⟦177⟧ = more details
+⟦178⟧ = mother
+⟦179⟧ = movement
+⟦180⟧ = movements
+⟦181⟧ = Music
+⟦182⟧ = musicology
+⟦183⟧ = Neo-baroque style
+⟦184⟧ = New Musical Review
+⟦185⟧ = New York City
+⟦186⟧ = No
+⟦187⟧ = North African rhythmic influences
+⟦188⟧ = Notable composers
+⟦189⟧ = November
+⟦190⟧ = numbering
+⟦191⟧ = numbers
+⟦192⟧ = opening
+⟦193⟧ = opera
+⟦194⟧ = opus
+⟦195⟧ = opus lists
+⟦196⟧ = opus numbers
+⟦197⟧ = orchestral and chamber pieces
+⟦198⟧ = organ
+⟦199⟧ = origin
+⟦200⟧ = other vocal music
+⟦201⟧ = outbreak
+⟦202⟧ = Palmer
+⟦203⟧ = patron
+⟦204⟧ = Paul Sacher
+⟦205⟧ = performances
+⟦206⟧ = pianist
+⟦207⟧ = Piano
+⟦208⟧ = piece
+⟦209⟧ = pieces
+⟦210⟧ = precedents
+⟦211⟧ = premiere
+⟦212⟧ = quartet
+⟦213⟧ = quartets
+⟦214⟧ = range
+⟦215⟧ = recordings
+⟦216⟧ = Robert Fripp
+⟦217⟧ = rock
+⟦218⟧ = rock band
+⟦219⟧ = Romanian
+⟦220⟧ = Saanen
+⟦221⟧ = school
+⟦222⟧ = September
+⟦223⟧ = several compositions
+⟦224⟧ = showpiece
+⟦225⟧ = six string quartets
+⟦226⟧ = solo piano
+⟦227⟧ = some movements
+⟦228⟧ = song
+⟦229⟧ = sound
+⟦230⟧ = Stefan Wolpe
+⟦231⟧ = string
+⟦232⟧ = String Orchestra
+⟦233⟧ = string quartet
+⟦234⟧ = study
+⟦235⟧ = style
+⟦236⟧ = suite
+⟦237⟧ = Switzerland
+⟦238⟧ = symmetry
+⟦239⟧ = Sz
+⟦240⟧ = Székely
+⟦241⟧ = tér
+⟦242⟧ = the "Andante
+⟦243⟧ = the "New Hungarian Quartet
+⟦244⟧ = the "War Requiem
+⟦245⟧ = the 17th
+⟦246⟧ = the 20th century
+⟦247⟧ = the album
+⟦248⟧ = the band
+⟦249⟧ = The band members
+⟦250⟧ = The Barbarian
+⟦251⟧ = the Bartók Fourth and Fifth Quartets
+⟦252⟧ = the Béla Bartók Music Institute
+⟦253⟧ = the Béla Bartók Secondary School
+⟦254⟧ = the Budapest premiere
+⟦255⟧ = the building
+⟦256⟧ = The catalogue numbering
+⟦257⟧ = the composer
+⟦258⟧ = the composition
+⟦259⟧ = the conductor
+⟦260⟧ = The construction
+⟦261⟧ = the credit
+⟦262⟧ = the difficulties
+⟦263⟧ = the Divertimento
+⟦264⟧ = the eponymous debut album
+⟦265⟧ = The Essential Emerson
+⟦266⟧ = the famous Hungarian composer Béla Bartók
+⟦267⟧ = the few pieces
+⟦268⟧ = the final string quartet
+⟦269⟧ = the first recordings
+⟦270⟧ = the founders
+⟦271⟧ = the Hotel Palace
+⟦272⟧ = The Hungarian composer Béla Bartók
+⟦273⟧ = the idea
+⟦274⟧ = the Kolisch Quartet
+⟦275⟧ = the label
+⟦276⟧ = the main article
+⟦277⟧ = the Market Hall
+⟦278⟧ = the matter
+⟦279⟧ = the most important composers
+⟦280⟧ = The music
+⟦281⟧ = the October 1955 issue
+⟦282⟧ = the opening
+⟦283⟧ = the opening track
+⟦284⟧ = the opera
+⟦285⟧ = the Orchestra
+⟦286⟧ = the orchestral showpiece
+⟦287⟧ = the original piece
+⟦288⟧ = the outbreak
+⟦289⟧ = the Palace
+⟦290⟧ = The pieces
+⟦291⟧ = the premiere English performances
+⟦292⟧ = the premiere performances
+⟦293⟧ = the quartet
+⟦294⟧ = the second movement
+⟦295⟧ = the shortest song
+⟦296⟧ = the Sonata
+⟦297⟧ = The song
+⟦298⟧ = The String Quartet No
+⟦299⟧ = The Suite
+⟦300⟧ = the third listing
+⟦301⟧ = the three band members
+⟦302⟧ = the Town Hall
+⟦303⟧ = the United States
+⟦304⟧ = the University
+⟦305⟧ = the usual forces
+⟦306⟧ = the war
+⟦307⟧ = the work
+⟦308⟧ = The year
+⟦309⟧ = The Zorian Quartet
+⟦310⟧ = this suite
+⟦311⟧ = times
+⟦312⟧ = to Bartók’s Sixth Quartet
+⟦313⟧ = track
+⟦314⟧ = two violins
+⟦315⟧ = types
+⟦316⟧ = USA loans
+⟦317⟧ = use
+⟦318⟧ = viola
+⟦319⟧ = violinist
+⟦320⟧ = violinist Olive Zorian
+⟦321⟧ = violins
+⟦322⟧ = voice
+⟦323⟧ = Walter Piston
+⟦324⟧ = war
+⟦325⟧ = whose Opp
+⟦326⟧ = whose Second Quartet
+⟦327⟧ = whose two string quartets
+⟦328⟧ = Wilfried Westerlinck
+⟦329⟧ = work
+⟦330⟧ = works
+⟦331⟧ = World War II
+⟦332⟧ = Xu Yongsan
+⟦333⟧ = year
+⟦334⟧ = Zenepalota
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Béla Bartók Music High School] ⟦65⟧⟨1⟩⟦50⟧⟨2⟩⟦289⟧⟨3⟩⟦181⟧⟨4⟩⟦334⟧⟨5⟩⟦52⟧⟨6⟩⟦148⟧⟨7⟩
+[Béla Bartók Music High School] ⟨8⟩⟦19⟧⟨9⟩⟦221⟧⟨10⟩⟦266⟧⟨11⟩⟦86⟧⟨12⟩
+[String Quartet No. 6 (Bartók)] ⟦298⟧⟨13⟩⟦186⟧⟨14⟩⟦239⟧⟨15⟩
+[String Quartet No. 6 (Bartók)] ⟨16⟩⟦268⟧⟨17⟩⟦231⟧⟨18⟩⟦212⟧⟨19⟩⟦64⟧⟨20⟩⟦140⟧⟨21⟩⟦97⟧⟨22⟩
+[String Quartet No. 6 (Bartók)] ⟨23⟩⟦44⟧⟨24⟩⟦220⟧⟨25⟩⟦237⟧⟨26⟩⟦49⟧⟨27⟩⟦24⟧⟨28⟩⟦131⟧⟨29⟩⟦146⟧⟨30⟩⟦203⟧⟨31⟩⟦259⟧⟨32⟩⟦90⟧⟨33⟩⟦204⟧⟨34⟩
+[String Quartet No. 6 (Bartók)] ⟨35⟩⟦263⟧⟨36⟩⟦232⟧⟨37⟩⟦245⟧⟨38⟩⟦8⟧⟨39⟩⟦15⟧⟨40⟩⟦82⟧⟨41⟩⟦142⟧⟨42⟩⟦127⟧⟨43⟩⟦319⟧⟨44⟩
+[String Quartet No. 6 (Bartók)] ⟨45⟩⟦157⟧⟨46⟩⟦157⟧⟨47⟩⟦243⟧⟨48⟩⟦254⟧⟨49⟩⟦211⟧⟨50⟩⟦298⟧⟨51⟩⟦186⟧⟨52⟩
+[String Quartet No. 6 (Bartók)] ⟨53⟩⟦288⟧⟨54⟩⟦201⟧⟨55⟩⟦331⟧⟨56⟩⟦144⟧⟨57⟩⟦178⟧⟨58⟩⟦152⟧⟨59⟩⟦49⟧⟨60⟩⟦72⟧⟨61⟩⟦293⟧⟨62⟩⟦212⟧⟨63⟩⟦189⟧⟨64⟩
+[String Quartet No. 6 (Bartók)] ⟨65⟩⟦143⟧⟨66⟩⟦178⟧⟨67⟩⟦97⟧⟨68⟩⟦49⟧⟨69⟩⟦141⟧⟨70⟩⟦117⟧⟨71⟩⟦303⟧⟨72⟩
+[String Quartet No. 6 (Bartók)] ⟨73⟩⟦262⟧⟨74⟩⟦103⟧⟨75⟩⟦306⟧⟨76⟩⟦324⟧⟨77⟩⟦83⟧⟨78⟩⟦83⟧⟨79⟩⟦49⟧⟨80⟩⟦240⟧⟨81⟩⟦293⟧⟨82⟩⟦212⟧⟨83⟩⟦9⟧⟨84⟩⟦274⟧⟨85⟩⟦307⟧⟨86⟩⟦329⟧⟨87⟩⟦159⟧⟨88⟩⟦211⟧⟨89⟩⟦302⟧⟨90⟩⟦185⟧⟨91⟩
+[List of string quartets by Béla Bartók] ⟦272⟧⟨92⟩⟦86⟧⟨93⟩⟦225⟧⟨94⟩⟦231⟧⟨95⟩⟦213⟧⟨96⟩⟦305⟧⟨97⟩⟦123⟧⟨98⟩⟦314⟧⟨99⟩⟦321⟧⟨100⟩⟦318⟧⟨101⟩⟦318⟧⟨102⟩⟦76⟧⟨103⟩⟦76⟧⟨104⟩
+[List of string quartets by Béla Bartók] ⟦188⟧⟨105⟩⟦87⟧⟨106⟩⟦68⟧⟨107⟩⟦296⟧⟨108⟩⟦76⟧⟨109⟩⟦207⟧⟨110⟩⟦109⟧⟨111⟩⟦282⟧⟨112⟩⟦192⟧⟨113⟩⟦145⟧⟨114⟩⟦312⟧⟨115⟩⟦49⟧⟨116⟩⟦212⟧⟨117⟩⟦79⟧⟨118⟩⟦107⟧⟨119⟩⟦326⟧⟨120⟩⟦54⟧⟨121⟩⟦125⟧⟨122⟩⟦12⟧⟨123⟩⟦70⟧⟨124⟩⟦55⟧⟨125⟩⟦216⟧⟨126⟩⟦36⟧⟨127⟩⟦153⟧⟨128⟩⟦161⟧⟨129⟩⟦175⟧⟨130⟩⟦133⟧⟨131⟩⟦325⟧⟨132⟩
+[List of string quartets by Béla Bartók] ⟨133⟩⟦23⟧⟨134⟩⟦96⟧⟨135⟩⟦59⟧⟨136⟩⟦213⟧⟨137⟩⟦134⟧⟨138⟩⟦327⟧⟨139⟩⟦231⟧⟨140⟩⟦213⟧⟨141⟩⟦23⟧⟨142⟩⟦96⟧⟨143⟩⟦49⟧⟨144⟩⟦60⟧⟨145⟩⟦213⟧⟨146⟩⟦71⟧⟨147⟩⟦129⟧⟨148⟩⟦251⟧⟨149⟩⟦210⟧⟨150⟩⟦210⟧⟨151⟩⟦147⟧⟨152⟩⟦317⟧⟨153⟩⟦42⟧⟨154⟩⟦42⟧⟨155⟩⟦80⟧⟨156⟩⟦80⟧⟨157⟩⟦102⟧⟨158⟩⟦315⟧⟨159⟩⟦238⟧⟨160⟩⟦238⟧⟨161⟩⟦323⟧⟨162⟩⟦160⟧⟨163⟩⟦328⟧⟨164⟩⟦230⟧⟨165⟩⟦28⟧⟨166⟩⟦164⟧⟨167⟩⟦151⟧⟨168⟩⟦151⟧⟨169⟩⟦56⟧⟨170⟩⟦332⟧⟨171⟩
+[Palace of Music (Miskolc)] ⟦289⟧⟨172⟩⟦181⟧⟨173⟩⟦7⟧⟨174⟩⟦13⟧⟨175⟩⟦73⟧⟨176⟩⟦51⟧⟨177⟩⟦176⟧⟨178⟩⟦148⟧⟨179⟩
+[Palace of Music (Miskolc)] ⟨180⟩⟦255⟧⟨181⟩⟦73⟧⟨182⟩⟦253⟧⟨183⟩⟦252⟧⟨184⟩⟦18⟧⟨185⟩⟦116⟧⟨186⟩⟦304⟧⟨187⟩⟦176⟧⟨188⟩
+[Palace of Music (Miskolc)] ⟦289⟧⟨189⟩⟦135⟧⟨190⟩⟦183⟧⟨191⟩⟦48⟧⟨192⟩⟦235⟧⟨193⟩
+[Palace of Music (Miskolc)] ⟦260⟧⟨194⟩⟦91⟧⟨195⟩⟦316⟧⟨196⟩⟦170⟧⟨197⟩⟦271⟧⟨198⟩⟦165⟧⟨199⟩⟦277⟧⟨200⟩⟦74⟧⟨201⟩⟦241⟧⟨202⟩
+[List of compositions by Béla Bartók] ⟨203⟩⟦17⟧⟨204⟩⟦166⟧⟨205⟩⟦89⟧⟨206⟩⟦89⟧⟨207⟩⟦64⟧⟨208⟩
+[List of compositions by Béla Bartók] ⟦256⟧⟨209⟩⟦75⟧⟨210⟩⟦190⟧⟨211⟩⟦38⟧⟨212⟩⟦239⟧⟨213⟩
+[List of compositions by Béla Bartók] ⟦1⟧⟨214⟩⟦63⟧⟨215⟩
+[List of compositions by Béla Bartók] ⟨216⟩⟦100⟧⟨217⟩⟦95⟧⟨218⟩
+[List of compositions by Béla Bartók] ⟨219⟩⟦58⟧⟨220⟩⟦194⟧⟨221⟩⟦191⟧⟨222⟩
+[List of compositions by Béla Bartók] ⟨223⟩⟦49⟧⟨224⟩⟦311⟧⟨225⟩⟦194⟧⟨226⟩⟦196⟧⟨227⟩⟦191⟧⟨228⟩⟦166⟧⟨229⟩⟦166⟧⟨230⟩⟦166⟧⟨231⟩⟦2⟧⟨232⟩⟦166⟧⟨233⟩
+[List of compositions by Béla Bartók] ⟦290⟧⟨234⟩⟦209⟧⟨235⟩⟦300⟧⟨236⟩⟦167⟧⟨237⟩⟦194⟧⟨238⟩⟦195⟧⟨239⟩⟦168⟧⟨240⟩⟦105⟧⟨241⟩⟦330⟧⟨242⟩
+[List of compositions by Béla Bartók] ⟦308⟧⟨243⟩⟦333⟧⟨244⟩⟦88⟧⟨245⟩⟦88⟧⟨246⟩⟦156⟧⟨247⟩⟦156⟧⟨248⟩⟦322⟧⟨249⟩⟦322⟧⟨250⟩
+[List of compositions by Béla Bartók] ⟨251⟩⟦276⟧⟨252⟩⟦43⟧⟨253⟩⟦64⟧⟨254⟩⟦177⟧⟨255⟩⟦101⟧⟨256⟩
+[The Barbarian (song)] ⟨257⟩⟦250⟧⟨258⟩⟦283⟧⟨259⟩⟦313⟧⟨260⟩⟦264⟧⟨261⟩⟦98⟧⟨262⟩⟦30⟧⟨263⟩⟦69⟧⟨264⟩⟦217⟧⟨265⟩⟦45⟧⟨266⟩⟦163⟧⟨267⟩⟦202⟧⟨268⟩
+[The Barbarian (song)] ⟦297⟧⟨269⟩⟦228⟧⟨270⟩⟦295⟧⟨271⟩⟦228⟧⟨272⟩⟦247⟧⟨273⟩⟦30⟧⟨274⟩
+[The Barbarian (song)] ⟨275⟩⟦258⟧⟨276⟩⟦88⟧⟨277⟩⟦4⟧⟨278⟩⟦301⟧⟨279⟩⟦45⟧⟨280⟩⟦173⟧⟨281⟩⟦32⟧⟨282⟩⟦41⟧⟨283⟩⟦217⟧⟨284⟩⟦218⟧⟨285⟩⟦45⟧⟨286⟩⟦66⟧⟨287⟩⟦207⟧⟨288⟩⟦208⟧⟨289⟩⟦31⟧⟨290⟩⟦46⟧⟨291⟩
+[The Barbarian (song)] ⟨292⟩⟦287⟧⟨293⟩⟦208⟧⟨294⟩⟦207⟧⟨295⟩⟦207⟧⟨296⟩⟦248⟧⟨297⟩⟦45⟧⟨298⟩⟦297⟧⟨299⟩⟦228⟧⟨300⟩⟦198⟧⟨301⟩⟦198⟧⟨302⟩⟦62⟧⟨303⟩⟦62⟧⟨304⟩⟦104⟧⟨305⟩⟦104⟧⟨306⟩
+[The Barbarian (song)] ⟦280⟧⟨307⟩⟦181⟧⟨308⟩⟦297⟧⟨309⟩⟦228⟧⟨310⟩⟦25⟧⟨311⟩⟦217⟧⟨312⟩⟦153⟧⟨313⟩
+[The Barbarian (song)] ⟦130⟧⟨314⟩⟦22⟧⟨315⟩⟦128⟧⟨316⟩⟦137⟧⟨317⟩⟦62⟧⟨318⟩⟦21⟧⟨319⟩⟦132⟧⟨320⟩⟦229⟧⟨321⟩
+[The Barbarian (song)] ⟦249⟧⟨322⟩⟦45⟧⟨323⟩⟦173⟧⟨324⟩⟦94⟧⟨325⟩⟦94⟧⟨326⟩⟦49⟧⟨327⟩⟦275⟧⟨328⟩⟦162⟧⟨329⟩⟦278⟧⟨330⟩⟦171⟧⟨331⟩
+[The Barbarian (song)] ⟦53⟧⟨332⟩⟦117⟧⟨333⟩⟦110⟧⟨334⟩⟦92⟧⟨335⟩⟦93⟧⟨336⟩⟦155⟧⟨337⟩⟦248⟧⟨338⟩⟦45⟧⟨339⟩⟦261⟧⟨340⟩⟦94⟧⟨341⟩⟦49⟧⟨342⟩
+[The Barbarian (song)] ⟦297⟧⟨343⟩⟦228⟧⟨344⟩⟦16⟧⟨345⟩⟦85⟧⟨346⟩⟦30⟧⟨347⟩⟦248⟧⟨348⟩⟦45⟧⟨349⟩⟦247⟧⟨350⟩⟦30⟧⟨351⟩⟦265⟧⟨352⟩⟦163⟧⟨353⟩⟦202⟧⟨354⟩
+[Suite, Op. 14 (Bartók)] ⟦299⟧⟨355⟩⟦239⟧⟨356⟩
+[Suite, Op. 14 (Bartók)] ⟨357⟩⟦27⟧⟨358⟩⟦208⟧⟨359⟩⟦226⟧⟨360⟩⟦207⟧⟨361⟩⟦64⟧⟨362⟩
+[Suite, Op. 14 (Bartók)] ⟨363⟩⟦118⟧⟨364⟩⟦257⟧⟨365⟩⟦86⟧⟨366⟩⟦39⟧⟨367⟩⟦72⟧⟨368⟩
+[Suite, Op. 14 (Bartók)] ⟦299⟧⟨369⟩⟦57⟧⟨370⟩⟦330⟧⟨371⟩⟦207⟧⟨372⟩⟦207⟧⟨373⟩⟦136⟧⟨374⟩
+[Suite, Op. 14 (Bartók)] ⟨375⟩⟦61⟧⟨376⟩⟦329⟧⟨377⟩⟦126⟧⟨378⟩⟦317⟧⟨379⟩⟦106⟧⟨380⟩⟦120⟧⟨381⟩⟦181⟧⟨382⟩⟦310⟧⟨383⟩⟦236⟧⟨384⟩⟦267⟧⟨385⟩⟦209⟧⟨386⟩⟦172⟧⟨387⟩⟦172⟧⟨388⟩⟦120⟧⟨389⟩⟦122⟧⟨390⟩⟦199⟧⟨391⟩
+[Suite, Op. 14 (Bartók)] ⟨392⟩⟦219⟧⟨393⟩⟦40⟧⟨394⟩⟦187⟧⟨395⟩⟦154⟧⟨396⟩⟦227⟧⟨397⟩⟦180⟧⟨398⟩
+[Suite, Op. 14 (Bartók)] ⟨399⟩⟦299⟧⟨400⟩⟦236⟧⟨401⟩⟦20⟧⟨402⟩⟦179⟧⟨403⟩⟦329⟧⟨404⟩⟦49⟧⟨405⟩⟦273⟧⟨406⟩⟦150⟧⟨407⟩⟦294⟧⟨408⟩⟦179⟧⟨409⟩⟦242⟧⟨410⟩⟦281⟧⟨411⟩⟦158⟧⟨412⟩⟦6⟧⟨413⟩⟦184⟧⟨414⟩
+[Zorian Quartet] ⟦309⟧⟨415⟩⟦33⟧⟨416⟩⟦231⟧⟨417⟩⟦212⟧⟨418⟩⟦112⟧⟨419⟩
+[Zorian Quartet] ⟨420⟩⟦319⟧⟨421⟩⟦320⟧⟨422⟩
+[Zorian Quartet] ⟨423⟩⟦292⟧⟨424⟩⟦205⟧⟨425⟩⟦269⟧⟨426⟩⟦215⟧⟨427⟩⟦223⟧⟨428⟩⟦89⟧⟨429⟩⟦231⟧⟨430⟩⟦233⟧⟨431⟩⟦212⟧⟨432⟩⟦111⟧⟨433⟩⟦87⟧⟨434⟩⟦68⟧⟨435⟩⟦174⟧⟨436⟩
+[Zorian Quartet] ⟨437⟩⟦291⟧⟨438⟩⟦205⟧⟨439⟩⟦213⟧⟨440⟩⟦213⟧⟨441⟩⟦113⟧⟨442⟩⟦64⟧⟨443⟩
+[Béla Bartók] ⟦67⟧⟨444⟩⟦11⟧⟨445⟩⟦222⟧⟨446⟩⟦26⟧⟨447⟩⟦86⟧⟨448⟩⟦206⟧⟨449⟩⟦206⟧⟨450⟩⟦35⟧⟨451⟩⟦114⟧⟨452⟩
+[Béla Bartók] ⟨453⟩⟦279⟧⟨454⟩⟦87⟧⟨455⟩⟦246⟧⟨456⟩⟦77⟧⟨457⟩⟦169⟧⟨458⟩⟦149⟧⟨459⟩⟦87⟧⟨460⟩
+[Béla Bartók] ⟨461⟩⟦139⟧⟨462⟩⟦81⟧⟨463⟩⟦37⟧⟨464⟩⟦234⟧⟨465⟩⟦120⟧⟨466⟩⟦121⟧⟨467⟩⟦181⟧⟨468⟩⟦270⟧⟨469⟩⟦124⟧⟨470⟩⟦84⟧⟨471⟩⟦182⟧⟨472⟩⟦115⟧⟨473⟩⟦115⟧⟨474⟩
+[Benjamin Britten] ⟦108⟧⟨475⟩⟦47⟧⟨476⟩⟦99⟧⟨477⟩⟦34⟧⟨478⟩⟦86⟧⟨479⟩⟦90⟧⟨480⟩⟦90⟧⟨481⟩⟦206⟧⟨482⟩⟦206⟧⟨483⟩
+[Benjamin Britten] ⟨484⟩⟦14⟧⟨485⟩⟦119⟧⟨486⟩⟦10⟧⟨487⟩⟦77⟧⟨488⟩⟦181⟧⟨489⟩⟦29⟧⟨490⟩⟦214⟧⟨491⟩⟦330⟧⟨492⟩⟦330⟧⟨493⟩⟦193⟧⟨494⟩⟦193⟧⟨495⟩⟦200⟧⟨496⟩⟦181⟧⟨497⟩⟦197⟧⟨498⟩⟦78⟧⟨499⟩⟦209⟧⟨500⟩
+[Benjamin Britten] ⟨501⟩⟦138⟧⟨502⟩⟦330⟧⟨503⟩⟦284⟧⟨504⟩⟦193⟧⟨505⟩⟦3⟧⟨506⟩⟦244⟧⟨507⟩⟦286⟧⟨508⟩⟦224⟧⟨509⟩⟦5⟧⟨510⟩⟦285⟧⟨511⟩
+
+[user]
+
+问题：
+Are Benjamin Britten and Béla Bartók from the same country?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

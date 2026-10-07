@@ -1,0 +1,29 @@
+# 路径一：从 Tamanchey 到 Richa Chadda 再到电影类型
+
+步骤1：使用⟦231⟧⟦49⟧⟦76⟧⟦71⟧，提取 Tamanchey 是一部印度浪漫犯罪喜剧电影，包含喜剧和犯罪元素。
+
+步骤2：使用⟦231⟧⟦199⟧，提取 Tamanchey 的主演之一是 Richa Chadda。
+
+步骤3：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，提取 Richa Chadda 是一名在 Hindi films（印地语电影）中工作的女演员。
+
+结论：Tamanchey 主演的女演员 Richa Chadda 从事 Hindi films（印地语电影）。
+
+# 路径二：通过演员表交叉验证
+
+步骤1：使用⟦231⟧⟦365⟧⟦366⟧⟦168⟧⟦367⟧⟦170⟧⟦368⟧⟦199⟧，提取 Tamanchey 由 Navneet Behal 执导，Nikhil Dwivedi 和 Richa Chadda 主演。
+
+步骤2：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，确认 Richa Chadda 是在 Hindi films 中工作的女演员。
+
+步骤3：综合⟦231⟧⟦199⟧⟦124⟧，交叉验证 Tamanchey 的主演 Richa Chadda 的工作领域为 Hindi films。
+
+结论：该女演员从事 Hindi films（印地语电影）。
+
+# 路径三：排除干扰项，锁定唯一女演员
+
+步骤1：使用⟦231⟧⟦49⟧⟦76⟧⟦71⟧，确认 Tamanchey 是一部印度浪漫犯罪喜剧电影。
+
+步骤2：使用⟦231⟧⟦199⟧，提取主演中的女演员为 Richa Chadda（Nikhil Dwivedi 为男演员，不构成“actress”）。
+
+步骤3：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，提取 Richa Chadda 的工作类型为 Hindi films。
+
+结论：Tamanchey 主演的女演员从事 Hindi films（印地语电影）。

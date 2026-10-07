@@ -1,0 +1,462 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , multimedia fundraising events
+⟦2⟧ = "Serious Request" projects
+⟦3⟧ = (GFP
+⟦4⟧ = (originally Streamline Tower
+⟦5⟧ = 150 North Las Vegas Boulevard
+⟦6⟧ = 1950s
+⟦7⟧ = 21 September
+⟦8⟧ = 27 August
+⟦9⟧ = 3FM
+⟦10⟧ = a 139-megawatt (MW) solar photovoltaic power station
+⟦11⟧ = a 21-story luxury condominium tower
+⟦12⟧ = a 68 MW power station
+⟦13⟧ = a collaboration
+⟦14⟧ = A crossover video game
+⟦15⟧ = a different language
+⟦16⟧ = a family
+⟦17⟧ = a general-content library
+⟦18⟧ = a grant
+⟦19⟧ = a half-dozen investors
+⟦20⟧ = a Japanese multimedia project
+⟦21⟧ = a light novel series
+⟦22⟧ = a magazine
+⟦23⟧ = a NASA project
+⟦24⟧ = a non-profit organization
+⟦25⟧ = a play
+⟦26⟧ = a state university
+⟦27⟧ = a whole
+⟦28⟧ = a wiki
+⟦29⟧ = acre
+⟦30⟧ = action
+⟦31⟧ = adaptation
+⟦32⟧ = Advanced Inquiry Program
+⟦33⟧ = aid
+⟦34⟧ = aims
+⟦35⟧ = AIP
+⟦36⟧ = alien intelligences
+⟦37⟧ = all forms
+⟦38⟧ = an American educational project
+⟦39⟧ = an anime television series adaptation
+⟦40⟧ = an arch dam
+⟦41⟧ = an archive
+⟦42⟧ = an art project
+⟦43⟧ = an Emmy-Award-winning PBS television series
+⟦44⟧ = an online digital library
+⟦45⟧ = anime
+⟦46⟧ = annual multi
+⟦47⟧ = anthropomorphized goddesses
+⟦48⟧ = April
+⟦49⟧ = archive
+⟦50⟧ = art
+⟦51⟧ = ASCII Media Works' "Dengeki Bunko Magazine
+⟦52⟧ = ASCII Media Works' Dengeki Bunko imprint and video game company Sega
+⟦53⟧ = assistance
+⟦54⟧ = Austria
+⟦55⟧ = awareness
+⟦56⟧ = baseball
+⟦57⟧ = beginning
+⟦58⟧ = Belgium
+⟦59⟧ = biology
+⟦60⟧ = board
+⟦61⟧ = California
+⟦62⟧ = Campo Verde Solar
+⟦63⟧ = Campo Verde Solar Project
+⟦64⟧ = charge
+⟦65⟧ = children
+⟦66⟧ = children's science investigations
+⟦67⟧ = Christmas
+⟦68⟧ = collaboration
+⟦69⟧ = college
+⟦70⟧ = college students
+⟦71⟧ = commune
+⟦72⟧ = company
+⟦73⟧ = condominium
+⟦74⟧ = conservation
+⟦75⟧ = conservation and education programs
+⟦76⟧ = consoles
+⟦77⟧ = Construction
+⟦78⟧ = content
+⟦79⟧ = Corus Bank
+⟦80⟧ = country
+⟦81⟧ = counts
+⟦82⟧ = courses
+⟦83⟧ = Coyne et Bellier
+⟦84⟧ = criticism
+⟦85⟧ = crossover
+⟦86⟧ = dam
+⟦87⟧ = day
+⟦88⟧ = decade
+⟦89⟧ = December
+⟦90⟧ = Déclaration
+⟦91⟧ = degrees
+⟦92⟧ = department
+⟦93⟧ = discoveries
+⟦94⟧ = domain
+⟦95⟧ = downtown
+⟦96⟧ = downtown Las Vegas
+⟦97⟧ = dozen
+⟦98⟧ = Dutch public pop music radio station 3FM
+⟦99⟧ = Dutch radio/television
+⟦100⟧ = each instance
+⟦101⟧ = Earth Expeditions
+⟦102⟧ = Earth Expeditions global graduate courses
+⟦103⟧ = education
+⟦104⟧ = educators
+⟦105⟧ = EE
+⟦106⟧ = end
+⟦107⟧ = ENERCAL
+⟦108⟧ = entire scheme
+⟦109⟧ = Europe
+⟦110⟧ = events
+⟦111⟧ = exhibits
+⟦112⟧ = Expeditions
+⟦113⟧ = family
+⟦114⟧ = film
+⟦115⟧ = First Solar
+⟦116⟧ = first-term Nevada Senator Richard Bryan
+⟦117⟧ = forms
+⟦118⟧ = France
+⟦119⟧ = franchise
+⟦120⟧ = free content textual sources
+⟦121⟧ = free text
+⟦122⟧ = frequencies
+⟦123⟧ = fundraising
+⟦124⟧ = game
+⟦125⟧ = generation
+⟦126⟧ = Girls
+⟦127⟧ = Global Field Program
+⟦128⟧ = goals
+⟦129⟧ = goddesses
+⟦130⟧ = graduate
+⟦131⟧ = Graduate Credit Workshops
+⟦132⟧ = graduate programs
+⟦133⟧ = grant
+⟦134⟧ = Hai Sukūru SeHa Gāru
+⟦135⟧ = Hi-sCoool
+⟦136⟧ = Hi☆
+⟦137⟧ = Human Development
+⟦138⟧ = hydroelectric power generation
+⟦139⟧ = Idea Factory's "Hyperdimension Neptunia" franchise
+⟦140⟧ = iDiscovery
+⟦141⟧ = illustrations
+⟦142⟧ = Imperial County
+⟦143⟧ = impoverished, underfunded orphanages
+⟦144⟧ = imprint
+⟦145⟧ = initiatives
+⟦146⟧ = inquiry
+⟦147⟧ = inquiry-driven learning media
+⟦148⟧ = instance
+⟦149⟧ = intelligences
+⟦150⟧ = International Red Cross initiatives
+⟦151⟧ = investigations
+⟦152⟧ = investors
+⟦153⟧ = iSaveSpecies
+⟦154⟧ = its first text
+⟦155⟧ = its own domain name
+⟦156⟧ = Jacques Soustelle
+⟦157⟧ = Japan
+⟦158⟧ = Jeder Rappen zählt
+⟦159⟧ = JRZ
+⟦160⟧ = June
+⟦161⟧ = Kei
+⟦162⟧ = Kenya
+⟦163⟧ = lack
+⟦164⟧ = language
+⟦165⟧ = languages
+⟦166⟧ = Las Vegas Stars baseball player Dusty Allen
+⟦167⟧ = Latvia
+⟦168⟧ = Learning
+⟦169⟧ = library
+⟦170⟧ = literally Every rappen (nickel) counts
+⟦171⟧ = luxury
+⟦172⟧ = magazine
+⟦173⟧ = making
+⟦174⟧ = manufacturer
+⟦175⟧ = many languages
+⟦176⟧ = master
+⟦177⟧ = Master's Degree Programs
+⟦178⟧ = master's degrees
+⟦179⟧ = means
+⟦180⟧ = media
+⟦181⟧ = megawatt
+⟦182⟧ = Mengo
+⟦183⟧ = Miami
+⟦184⟧ = Miami University
+⟦185⟧ = millions
+⟦186⟧ = modern Japan
+⟦187⟧ = modules
+⟦188⟧ = months
+⟦189⟧ = motel
+⟦190⟧ = multi
+⟦191⟧ = multimedia
+⟦192⟧ = multiple Wikisources
+⟦193⟧ = music
+⟦194⟧ = name
+⟦195⟧ = nearly 2.3 million CdTe-PV modules
+⟦196⟧ = need
+⟦197⟧ = Nevada
+⟦198⟧ = New Caledonia
+⟦199⟧ = New Caledonian Society Energy
+⟦200⟧ = nickel
+⟦201⟧ = North America
+⟦202⟧ = November
+⟦203⟧ = objective
+⟦204⟧ = observation
+⟦205⟧ = October
+⟦206⟧ = Ohio
+⟦207⟧ = operator
+⟦208⟧ = opportunities
+⟦209⟧ = organisations
+⟦210⟧ = organization
+⟦211⟧ = orphanage
+⟦212⟧ = orphanages
+⟦213⟧ = orphans
+⟦214⟧ = other professionals
+⟦215⟧ = Overseas Departments
+⟦216⟧ = owner
+⟦217⟧ = Oxford
+⟦218⟧ = partnership
+⟦219⟧ = people
+⟦220⟧ = Plans
+⟦221⟧ = plant
+⟦222⟧ = play
+⟦223⟧ = player
+⟦224⟧ = point
+⟦225⟧ = pop
+⟦226⟧ = Portugal
+⟦227⟧ = power
+⟦228⟧ = PPA
+⟦229⟧ = professionals
+⟦230⟧ = professors
+⟦231⟧ = programs
+⟦232⟧ = project
+⟦233⟧ = Project Dragonfly
+⟦234⟧ = Project Dragonfly's partnership programs
+⟦235⟧ = Project Dragonfly's programs
+⟦236⟧ = Project Sourceberg
+⟦237⟧ = projects
+⟦238⟧ = property
+⟦239⟧ = Public Engagement Projects
+⟦240⟧ = public exhibits
+⟦241⟧ = public science exhibits
+⟦242⟧ = Puerto Rico
+⟦243⟧ = purpose
+⟦244⟧ = PV
+⟦245⟧ = radio
+⟦246⟧ = radio stations
+⟦247⟧ = radio telescopes
+⟦248⟧ = re
+⟦249⟧ = Records Administration
+⟦250⟧ = reliability
+⟦251⟧ = researcher
+⟦252⟧ = reservoir
+⟦253⟧ = scheme
+⟦254⟧ = science
+⟦255⟧ = science and conservation action
+⟦256⟧ = sciences
+⟦257⟧ = sCoool
+⟦258⟧ = SDG&E.
+⟦259⟧ = Sega Hādo Gāruzu
+⟦260⟧ = Sega Hard Girls
+⟦261⟧ = SeHa Girls
+⟦262⟧ = self
+⟦263⟧ = serialization
+⟦264⟧ = series
+⟦265⟧ = Serious Request
+⟦266⟧ = SETI researcher Jill Tarter
+⟦267⟧ = sources
+⟦268⟧ = South Korea
+⟦269⟧ = Southern Power
+⟦270⟧ = State
+⟦271⟧ = station
+⟦272⟧ = stations
+⟦273⟧ = story
+⟦274⟧ = students
+⟦275⟧ = Superdimension Neptune VS Sega Hard Girls
+⟦276⟧ = sustaining
+⟦277⟧ = Sweden
+⟦278⟧ = Switzerland
+⟦279⟧ = teacher
+⟦280⟧ = teacher workshops
+⟦281⟧ = Teaching
+⟦282⟧ = telescopes
+⟦283⟧ = television
+⟦284⟧ = ten million frequencies
+⟦285⟧ = term
+⟦286⟧ = text
+⟦287⟧ = texts
+⟦288⟧ = that project
+⟦289⟧ = the "Déclaration universelle des Droits de l'Homme
+⟦290⟧ = the 139 MW PPA
+⟦291⟧ = the Arecibo Ionospheric Observatory
+⟦292⟧ = the biology department
+⟦293⟧ = the Center
+⟦294⟧ = the country
+⟦295⟧ = the dam
+⟦296⟧ = the early 1950s
+⟦297⟧ = the eight original Public Ivies
+⟦298⟧ = the end
+⟦299⟧ = the famous Project Gutenberg
+⟦300⟧ = the first national magazine
+⟦301⟧ = the former 1 acre property
+⟦302⟧ = the Global Field Program
+⟦303⟧ = the Golden Inn motel
+⟦304⟧ = the Greenhouse Orphanage
+⟦305⟧ = The Greenhouse Project
+⟦306⟧ = the growing need
+⟦307⟧ = The High Resolution Microwave Survey
+⟦308⟧ = the largest reservoir
+⟦309⟧ = the making
+⟦310⟧ = the means
+⟦311⟧ = the name
+⟦312⟧ = The name Wikisource
+⟦313⟧ = the National Archives
+⟦314⟧ = the National Science Foundation
+⟦315⟧ = the National Science Teachers Association
+⟦316⟧ = the new project
+⟦317⟧ = the objective
+⟦318⟧ = The Ogden
+⟦319⟧ = The organization's main goals
+⟦320⟧ = The original project
+⟦321⟧ = the orphanage
+⟦322⟧ = the overall project
+⟦323⟧ = The owner
+⟦324⟧ = the plant
+⟦325⟧ = the PlayStation Vita
+⟦326⟧ = the power station
+⟦327⟧ = The primary point
+⟦328⟧ = The primary purpose
+⟦329⟧ = the project
+⟦330⟧ = The project's aims
+⟦331⟧ = the project's beginning
+⟦332⟧ = the property
+⟦333⟧ = the sciences
+⟦334⟧ = the Serious Request
+⟦335⟧ = the Streamline Tower condominium project
+⟦336⟧ = the Swiss version
+⟦337⟧ = the tallest dam
+⟦338⟧ = the week
+⟦339⟧ = the Western College Program
+⟦340⟧ = the Wikimedia Foundation
+⟦341⟧ = the world
+⟦342⟧ = The Yaté Dam
+⟦343⟧ = the Yaté River
+⟦344⟧ = the year
+⟦345⟧ = then Minister
+⟦346⟧ = TMS Entertainment
+⟦347⟧ = Tōru Shiwasu
+⟦348⟧ = tower
+⟦349⟧ = translations
+⟦350⟧ = transmissions
+⟦351⟧ = Turner Renewable Energy
+⟦352⟧ = U.S. thin-film manufacturer
+⟦353⟧ = Uganda
+⟦354⟧ = Uganda's orphans
+⟦355⟧ = universelle
+⟦356⟧ = university
+⟦357⟧ = US Solar Holdings LLC
+⟦358⟧ = useful or important historical texts
+⟦359⟧ = various Sega video game consoles
+⟦360⟧ = version
+⟦361⟧ = video
+⟦362⟧ = visitors
+⟦363⟧ = website
+⟦364⟧ = week
+⟦365⟧ = whole
+⟦366⟧ = wiki
+⟦367⟧ = Wikisource
+⟦368⟧ = Wikisources
+⟦369⟧ = Wild Research
+⟦370⟧ = Work
+⟦371⟧ = workshops
+⟦372⟧ = world
+⟦373⟧ = Yaté commune
+⟦374⟧ = year
+⟦375⟧ = zählt
+⟦376⟧ = zoo
+⟦377⟧ = Zoo Expeditions
+⟦378⟧ = zoo visitors
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Yaté Dam] ⟦342⟧⟨1⟩⟦40⟧⟨2⟩⟦86⟧⟨3⟩⟦343⟧⟨4⟩⟦373⟧⟨5⟩⟦71⟧⟨6⟩⟦198⟧⟨7⟩⟦118⟧⟨8⟩
+[Yaté Dam] ⟦328⟧⟨9⟩⟦243⟧⟨10⟩⟦295⟧⟨11⟩⟦86⟧⟨12⟩⟦138⟧⟨13⟩⟦227⟧⟨14⟩⟦125⟧⟨15⟩⟦12⟧⟨16⟩⟦227⟧⟨17⟩⟦271⟧⟨18⟩
+[Yaté Dam] ⟦220⟧⟨19⟩⟦220⟧⟨20⟩⟦329⟧⟨21⟩⟦232⟧⟨22⟩⟦296⟧⟨23⟩⟦6⟧⟨24⟩⟦295⟧⟨25⟩⟦86⟧⟨26⟩⟦83⟧⟨27⟩
+[Yaté Dam] ⟦323⟧⟨28⟩⟦216⟧⟨29⟩⟦207⟧⟨30⟩⟦207⟧⟨31⟩⟦329⟧⟨32⟩⟦232⟧⟨33⟩⟦199⟧⟨34⟩⟦107⟧⟨35⟩⟦8⟧⟨36⟩⟦329⟧⟨37⟩⟦232⟧⟨38⟩
+[Yaté Dam] ⟦77⟧⟨39⟩⟦374⟧⟨40⟩⟦326⟧⟨41⟩⟦227⟧⟨42⟩⟦271⟧⟨43⟩
+[Yaté Dam] ⟦295⟧⟨44⟩⟦86⟧⟨45⟩⟦108⟧⟨46⟩⟦253⟧⟨47⟩⟦156⟧⟨48⟩⟦345⟧⟨49⟩⟦270⟧⟨50⟩⟦64⟧⟨51⟩⟦64⟧⟨52⟩⟦215⟧⟨53⟩⟦7⟧⟨54⟩
+[Yaté Dam] ⟨55⟩⟦337⟧⟨56⟩⟦86⟧⟨57⟩⟦308⟧⟨58⟩⟦252⟧⟨59⟩⟦198⟧⟨60⟩
+[Campo Verde Solar Project] ⟦63⟧⟨61⟩⟦10⟧⟨62⟩⟦181⟧⟨63⟩⟦227⟧⟨64⟩⟦271⟧⟨65⟩⟦142⟧⟨66⟩⟦61⟧⟨67⟩
+[Campo Verde Solar Project] ⟦329⟧⟨68⟩⟦232⟧⟨69⟩⟦89⟧⟨70⟩
+[Campo Verde Solar Project] ⟦77⟧⟨71⟩⟦374⟧⟨72⟩
+[Campo Verde Solar Project] ⟨73⟩⟦352⟧⟨74⟩⟦114⟧⟨75⟩⟦174⟧⟨76⟩⟦115⟧⟨77⟩⟦324⟧⟨78⟩⟦221⟧⟨79⟩⟦195⟧⟨80⟩⟦244⟧⟨81⟩⟦187⟧⟨82⟩
+[Campo Verde Solar Project] ⟦62⟧⟨83⟩⟦48⟧⟨84⟩⟦269⟧⟨85⟩⟦351⟧⟨86⟩
+[Campo Verde Solar Project] ⟦115⟧⟨87⟩⟦329⟧⟨88⟩⟦232⟧⟨89⟩⟦357⟧⟨90⟩⟦329⟧⟨91⟩⟦232⟧⟨92⟩⟦290⟧⟨93⟩⟦228⟧⟨94⟩⟦258⟧⟨95⟩⟦258⟧
+[Jeder Rappen zählt] ⟦158⟧⟨96⟩⟦375⟧⟨97⟩⟦159⟧⟨98⟩⟦170⟧⟨99⟩⟦200⟧⟨100⟩⟦81⟧⟨101⟩⟦336⟧⟨102⟩⟦360⟧⟨103⟩⟦334⟧⟨104⟩⟦99⟧⟨105⟩⟦245⟧⟨106⟩⟦283⟧⟨107⟩
+[Sega Hard Girls] ⟦260⟧⟨108⟩⟦259⟧⟨109⟩⟦20⟧⟨110⟩⟦191⟧⟨111⟩⟦232⟧⟨112⟩⟦13⟧⟨113⟩⟦68⟧⟨114⟩⟦52⟧⟨115⟩⟦144⟧⟨116⟩⟦361⟧⟨117⟩⟦124⟧⟨118⟩⟦72⟧⟨119⟩
+[Sega Hard Girls] ⟦329⟧⟨120⟩⟦232⟧⟨121⟩⟦248⟧⟨122⟩⟦359⟧⟨123⟩⟦361⟧⟨124⟩⟦124⟧⟨125⟩⟦76⟧⟨126⟩⟦47⟧⟨127⟩⟦129⟧⟨128⟩⟦186⟧⟨129⟩
+[Sega Hard Girls] ⟦329⟧⟨130⟩⟦232⟧⟨131⟩⟦21⟧⟨132⟩⟦264⟧⟨133⟩⟦347⟧⟨134⟩⟦141⟧⟨135⟩⟦141⟧⟨136⟩⟦161⟧⟨137⟩⟦263⟧⟨138⟩⟦263⟧⟨139⟩⟦51⟧⟨140⟩⟦160⟧⟨141⟩⟦39⟧⟨142⟩⟦45⟧⟨143⟩⟦283⟧⟨144⟩⟦264⟧⟨145⟩⟦31⟧⟨146⟩⟦135⟧⟨147⟩
+[Sega Hard Girls] ⟦261⟧⟨148⟩⟦126⟧⟨149⟩⟦136⟧⟨150⟩⟦257⟧⟨151⟩
+[Sega Hard Girls] ⟨152⟩⟦134⟧⟨153⟩⟦346⟧⟨154⟩⟦157⟧⟨155⟩⟦205⟧⟨156⟩⟦89⟧⟨157⟩
+[Sega Hard Girls] ⟦14⟧⟨158⟩⟦85⟧⟨159⟩⟦361⟧⟨160⟩⟦124⟧⟨161⟩⟦139⟧⟨162⟩⟦119⟧⟨163⟩⟦275⟧⟨164⟩⟦325⟧⟨165⟩⟦157⟧⟨166⟩⟦202⟧⟨167⟩⟦201⟧⟨168⟩⟦109⟧⟨169⟩⟦205⟧⟨170⟩
+[The Ogden] ⟦318⟧⟨171⟩⟦4⟧⟨172⟩⟦11⟧⟨173⟩⟦273⟧⟨174⟩⟦171⟧⟨175⟩⟦73⟧⟨176⟩⟦348⟧⟨177⟩⟦5⟧⟨178⟩⟦95⟧⟨179⟩⟦96⟧⟨180⟩⟦197⟧⟨181⟩
+[The Ogden] ⟦318⟧⟨182⟩⟦335⟧⟨183⟩⟦73⟧⟨184⟩⟦232⟧⟨185⟩⟦301⟧⟨186⟩⟦29⟧⟨187⟩⟦238⟧⟨188⟩⟦303⟧⟨189⟩⟦189⟧⟨190⟩⟦298⟧⟨191⟩⟦106⟧⟨192⟩⟦344⟧⟨193⟩⟦374⟧⟨194⟩
+[The Ogden] ⟦370⟧⟨195⟩⟦370⟧⟨196⟩⟦332⟧⟨197⟩⟦238⟧⟨198⟩⟦316⟧⟨199⟩⟦232⟧⟨200⟩⟦77⟧⟨201⟩⟦77⟧⟨202⟩⟦374⟧⟨203⟩
+[The Ogden] ⟦329⟧⟨204⟩⟦232⟧⟨205⟩⟦79⟧⟨206⟩⟦19⟧⟨207⟩⟦97⟧⟨208⟩⟦152⟧⟨209⟩⟦166⟧⟨210⟩⟦56⟧⟨211⟩⟦223⟧⟨212⟩
+[Serious Request] ⟦265⟧⟨213⟩⟦16⟧⟨214⟩⟦113⟧⟨215⟩⟦46⟧⟨216⟩⟦190⟧⟨217⟩⟦87⟧⟨218⟩⟦87⟧⟨219⟩⟦1⟧⟨220⟩⟦191⟧⟨221⟩⟦123⟧⟨222⟩⟦110⟧⟨223⟩⟦150⟧⟨224⟩⟦145⟧⟨225⟩⟦245⟧⟨226⟩⟦246⟧⟨227⟩⟦272⟧⟨228⟩⟦338⟧⟨229⟩⟦364⟧⟨230⟩⟦67⟧⟨231⟩
+[Serious Request] ⟦329⟧⟨232⟩⟦232⟧⟨233⟩⟦98⟧⟨234⟩⟦225⟧⟨235⟩⟦193⟧⟨236⟩⟦245⟧⟨237⟩⟦271⟧⟨238⟩⟦9⟧⟨239⟩
+[Serious Request] ⟦2⟧⟨240⟩⟦237⟧⟨241⟩⟦58⟧⟨242⟩⟦278⟧⟨243⟩⟦277⟧⟨244⟩⟦162⟧⟨245⟩⟦268⟧⟨246⟩⟦54⟧⟨247⟩⟦167⟧⟨248⟩⟦226⟧⟨249⟩
+[The Greenhouse Project] ⟦305⟧⟨250⟩⟦24⟧⟨251⟩⟦210⟧⟨252⟩⟦42⟧⟨253⟩⟦50⟧⟨254⟩⟦232⟧⟨255⟩⟦69⟧⟨256⟩⟦70⟧⟨257⟩⟦274⟧⟨258⟩⟦55⟧⟨259⟩⟦55⟧⟨260⟩⟦306⟧⟨261⟩⟦196⟧⟨262⟩⟦33⟧⟨263⟩⟦33⟧⟨264⟩⟦354⟧⟨265⟩⟦213⟧⟨266⟩
+[The Greenhouse Project] ⟦319⟧⟨267⟩⟦210⟧⟨268⟩⟦128⟧⟨269⟩⟦143⟧⟨270⟩⟦212⟧⟨271⟩⟦341⟧⟨272⟩⟦372⟧⟨273⟩⟦310⟧⟨274⟩⟦179⟧⟨275⟩⟦262⟧⟨276⟩⟦276⟧⟨277⟩
+[The Greenhouse Project] ⟦320⟧⟨278⟩⟦232⟧⟨279⟩⟦304⟧⟨280⟩⟦182⟧⟨281⟩⟦353⟧⟨282⟩⟦321⟧⟨283⟩⟦211⟧⟨284⟩⟦331⟧⟨285⟩⟦232⟧⟨286⟩⟦57⟧⟨287⟩
+[High Resolution Microwave Survey] ⟦307⟧⟨288⟩⟦23⟧⟨289⟩⟦232⟧⟨290⟩⟦284⟧⟨291⟩⟦122⟧⟨292⟩⟦245⟧⟨293⟩⟦247⟧⟨294⟩⟦282⟧⟨295⟩
+[High Resolution Microwave Survey] ⟨296⟩⟦88⟧⟨297⟩⟦309⟧⟨298⟩⟦173⟧⟨299⟩⟦317⟧⟨300⟩⟦203⟧⟨301⟩⟦350⟧⟨302⟩⟦350⟧⟨303⟩⟦36⟧⟨304⟩⟦149⟧⟨305⟩
+[High Resolution Microwave Survey] ⟦327⟧⟨306⟩⟦224⟧⟨307⟩⟦204⟧⟨308⟩⟦204⟧⟨309⟩⟦329⟧⟨310⟩⟦232⟧⟨311⟩⟦291⟧⟨312⟩⟦242⟧⟨313⟩
+[High Resolution Microwave Survey] ⟦329⟧⟨314⟩⟦232⟧⟨315⟩⟦205⟧⟨316⟩⟦266⟧⟨317⟩⟦251⟧⟨318⟩⟦60⟧⟨319⟩⟦60⟧⟨320⟩
+[High Resolution Microwave Survey] ⟨321⟩⟦374⟧⟨322⟩⟦116⟧⟨323⟩⟦285⟧⟨324⟩⟦329⟧⟨325⟩⟦232⟧⟨326⟩
+[Wikisource] ⟦367⟧⟨327⟩⟦367⟧⟨328⟩⟦44⟧⟨329⟩⟦169⟧⟨330⟩⟦120⟧⟨331⟩⟦78⟧⟨332⟩⟦267⟧⟨333⟩⟦28⟧⟨334⟩⟦366⟧⟨335⟩⟦340⟧⟨336⟩
+[Wikisource] ⟦367⟧⟨337⟩⟦311⟧⟨338⟩⟦194⟧⟨339⟩⟦329⟧⟨340⟩⟦232⟧⟨341⟩⟦27⟧⟨342⟩⟦365⟧⟨343⟩⟦311⟧⟨344⟩⟦194⟧⟨345⟩⟦100⟧⟨346⟩⟦148⟧⟨347⟩⟦288⟧⟨348⟩⟦232⟧⟨349⟩⟦100⟧⟨350⟩⟦148⟧⟨351⟩⟦15⟧⟨352⟩⟦164⟧⟨353⟩⟦192⟧⟨354⟩⟦368⟧⟨355⟩⟦322⟧⟨356⟩⟦232⟧⟨357⟩⟦367⟧⟨358⟩
+[Wikisource] ⟦330⟧⟨359⟩⟦232⟧⟨360⟩⟦34⟧⟨361⟩⟦37⟧⟨362⟩⟦117⟧⟨363⟩⟦121⟧⟨364⟩⟦286⟧⟨365⟩⟦175⟧⟨366⟩⟦165⟧⟨367⟩⟦349⟧⟨368⟩
+[Wikisource] ⟨369⟩⟦41⟧⟨370⟩⟦49⟧⟨371⟩⟦358⟧⟨372⟩⟦287⟧⟨373⟩⟦154⟧⟨374⟩⟦286⟧⟨375⟩⟦289⟧⟨376⟩⟦90⟧⟨377⟩⟦355⟧⟨378⟩⟦17⟧⟨379⟩⟦78⟧⟨380⟩⟦169⟧⟨381⟩
+[Wikisource] ⟦329⟧⟨382⟩⟦232⟧⟨383⟩⟦202⟧⟨384⟩⟦311⟧⟨385⟩⟦194⟧⟨386⟩⟦236⟧⟨387⟩⟦25⟧⟨388⟩⟦222⟧⟨389⟩⟦299⟧⟨390⟩
+[Wikisource] ⟦312⟧⟨391⟩⟦194⟧⟨392⟩⟦367⟧⟨393⟩⟦374⟧⟨394⟩⟦155⟧⟨395⟩⟦94⟧⟨396⟩⟦194⟧⟨397⟩⟦188⟧⟨398⟩
+[Wikisource] ⟦329⟧⟨399⟩⟦232⟧⟨400⟩⟦84⟧⟨401⟩⟦84⟧⟨402⟩⟦163⟧⟨403⟩⟦163⟧⟨404⟩⟦250⟧⟨405⟩⟦250⟧⟨406⟩⟦209⟧⟨407⟩⟦209⟧⟨408⟩⟦313⟧⟨409⟩⟦249⟧⟨410⟩
+[Dragonfly Project] ⟦233⟧⟨411⟩⟦38⟧⟨412⟩⟦232⟧⟨413⟩
+[Dragonfly Project] ⟨414⟩⟦65⟧⟨415⟩⟦65⟧⟨416⟩⟦208⟧⟨417⟩⟦208⟧⟨418⟩⟦146⟧⟨419⟩⟦146⟧⟨420⟩⟦333⟧⟨421⟩⟦256⟧⟨422⟩
+[Dragonfly Project] ⟦131⟧⟨423⟩⟦101⟧⟨424⟩⟦112⟧⟨425⟩⟦377⟧⟨426⟩⟦112⟧⟨427⟩⟦140⟧⟨428⟩
+[Dragonfly Project] ⟦177⟧⟨429⟩⟦127⟧⟨430⟩⟦3⟧⟨431⟩⟦32⟧⟨432⟩⟦35⟧⟨433⟩⟦101⟧⟨434⟩⟦105⟧⟨435⟩
+[Dragonfly Project] ⟦329⟧⟨436⟩⟦232⟧⟨437⟩⟦22⟧⟨438⟩⟦172⟧⟨439⟩⟦363⟧⟨440⟩⟦363⟧⟨441⟩⟦230⟧⟨442⟩⟦230⟧⟨443⟩⟦339⟧⟨444⟩⟦184⟧⟨445⟩⟦315⟧⟨446⟩⟦18⟧⟨447⟩⟦133⟧⟨448⟩⟦314⟧⟨449⟩⟦53⟧⟨450⟩⟦53⟧⟨451⟩⟦293⟧⟨452⟩⟦137⟧⟨453⟩⟦168⟧⟨454⟩⟦281⟧⟨455⟩⟦281⟧⟨456⟩⟦184⟧⟨457⟩
+[Dragonfly Project] ⟦233⟧⟨458⟩⟦185⟧⟨459⟩⟦185⟧⟨460⟩⟦219⟧⟨461⟩⟦219⟧⟨462⟩⟦374⟧⟨463⟩⟦146⟧⟨464⟩⟦147⟧⟨465⟩⟦168⟧⟨466⟩⟦180⟧⟨467⟩⟦240⟧⟨468⟩⟦111⟧⟨469⟩⟦130⟧⟨470⟩⟦132⟧⟨471⟩⟦231⟧⟨472⟩
+[Dragonfly Project] ⟦234⟧⟨473⟩⟦218⟧⟨474⟩⟦231⟧⟨475⟩⟦43⟧⟨476⟩⟦283⟧⟨477⟩⟦264⟧⟨478⟩⟦279⟧⟨479⟩⟦280⟧⟨480⟩⟦371⟧⟨481⟩⟦176⟧⟨482⟩⟦178⟧⟨483⟩⟦91⟧⟨484⟩⟦241⟧⟨485⟩⟦254⟧⟨486⟩⟦111⟧⟨487⟩⟦74⟧⟨488⟩⟦75⟧⟨489⟩⟦103⟧⟨490⟩⟦231⟧⟨491⟩
+[Dragonfly Project] ⟨492⟩⟦314⟧⟨493⟩⟦329⟧⟨494⟩⟦232⟧⟨495⟩⟦300⟧⟨496⟩⟦172⟧⟨497⟩⟦65⟧⟨498⟩⟦66⟧⟨499⟩⟦254⟧⟨500⟩⟦151⟧⟨501⟩⟦93⟧⟨502⟩⟦93⟧⟨503⟩
+[Dragonfly Project] ⟦235⟧⟨504⟩⟦231⟧⟨505⟩⟦102⟧⟨506⟩⟦130⟧⟨507⟩⟦82⟧⟨508⟩⟦104⟧⟨509⟩⟦104⟧⟨510⟩⟦214⟧⟨511⟩⟦229⟧⟨512⟩⟦302⟧⟨513⟩⟦3⟧⟨514⟩⟦35⟧⟨515⟩⟦176⟧⟨516⟩⟦91⟧⟨517⟩⟦153⟧⟨518⟩⟦153⟧⟨519⟩⟦376⟧⟨520⟩⟦378⟧⟨521⟩⟦362⟧⟨522⟩⟦294⟧⟨523⟩⟦80⟧⟨524⟩⟦254⟧⟨525⟩⟦255⟧⟨526⟩⟦74⟧⟨527⟩⟦30⟧⟨528⟩
+[Dragonfly Project] ⟦233⟧⟨529⟩⟦292⟧⟨530⟩⟦59⟧⟨531⟩⟦92⟧⟨532⟩⟦184⟧⟨533⟩⟦26⟧⟨534⟩⟦270⟧⟨535⟩⟦356⟧⟨536⟩⟦217⟧⟨537⟩⟦206⟧⟨538⟩
+[Dragonfly Project] ⟦183⟧⟨539⟩⟦297⟧⟨540⟩
+[Dragonfly Project] ⟦239⟧⟨541⟩⟦153⟧⟨542⟩⟦153⟧⟨543⟩⟦369⟧⟨544⟩
+
+[user]
+
+问题：
+The project that Jeder Rappen zählt is inspired by began in what year?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

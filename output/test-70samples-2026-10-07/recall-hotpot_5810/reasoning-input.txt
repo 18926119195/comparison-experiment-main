@@ -1,0 +1,109 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Fatma Lanouar] ⟦71⟧⟨264⟩⟦25⟧⟨265⟩⟦267⟧⟦268⟧⟨266⟩⟦269⟧⟨267⟩⟨268⟩⟦9⟧⟦55⟧⟨270⟩⟦153⟧⟨269⟩⟨271⟩⟦249⟧⟨272⟩
+[Fatma Lanouar] ⟨273⟩⟦198⟧⟦78⟧⟨275⟩⟦107⟧⟨274⟩⟨276⟩⟨277⟩⟦238⟧⟨279⟩⟨278⟩⟨280⟩
+[Fatma Lanouar] ⟦112⟧ | ⟦101⟧⟨281⟩⟦6⟧⟦6⟧⟨282⟩⟨283⟩⟦174⟧⟦112⟧⟨284⟩⟨285⟩
+[Fatma Lanouar] ⟨286⟩⟦230⟧⟦158⟧⟨288⟩⟦108⟧⟨287⟩⟨289⟩⟦177⟧⟨290⟩
+[Women's Rugby World Cup] ⟦260⟧
+[Mediterranean Games] ⟦208⟧⟨445⟩⟦13⟧⟨446⟩⟨447⟩⟦266⟧⟨448⟩⟦120⟧⟦120⟧⟨449⟩⟨450⟩⟦209⟧⟨451⟩⟦64⟧⟨452⟩⟦19⟧⟨453⟩⟦26⟧⟨454⟩ | ⟦208⟧
+[Mediterranean Games] ⟦75⟧
+
+符号表：
+⟦6⟧ = 4:06.91
+⟦9⟧ = a former female middle distance runner
+⟦13⟧ = a multi-sport games
+⟦19⟧ = Africa
+⟦25⟧ = Arabic
+⟦26⟧ = Asia
+⟦55⟧ = distance
+⟦64⟧ = Europe
+⟦71⟧ = Fatma Lanouar
+⟦75⟧ = games
+⟦78⟧ = gold
+⟦101⟧ = Lanouar
+⟦107⟧ = medal
+⟦108⟧ = medallist
+⟦112⟧ = metres
+⟦120⟧ = nations
+⟦153⟧ = runner
+⟦158⟧ = silver
+⟦174⟧ = the 1,500 metres
+⟦177⟧ = the 2001 Jeux de la Francophonie
+⟦198⟧ = the gold medal
+⟦208⟧ = the Mediterranean Games
+⟦209⟧ = the Mediterranean Sea
+⟦230⟧ = the silver medallist
+⟦238⟧ = the women's 1500 metres
+⟦249⟧ = Tunisia
+⟦260⟧ = women
+⟦266⟧ = years
+⟦267⟧ = فاطمة
+⟦268⟧ = فاطمة لأنور
+⟦269⟧ = لأنور
+
+占位符映射：
+⟨264⟩ =  (
+⟨265⟩ = : 
+⟨266⟩ = 
+⟨267⟩ = 
+⟨268⟩ = ; born March 14, 1978) is 
+⟨269⟩ = 
+⟨270⟩ =  
+⟨271⟩ =  from 
+⟨272⟩ = .
+⟨273⟩ =  She is best known for twice (2001 and 2005) winning 
+⟨274⟩ = 
+⟨275⟩ =  
+⟨276⟩ =  at 
+⟨277⟩ =  in 
+⟨278⟩ = 
+⟨279⟩ = 's 1500 
+⟨280⟩ = .
+⟨281⟩ =  set her personal best (
+⟨282⟩ = 
+⟨283⟩ = ) in 
+⟨284⟩ = 
+⟨285⟩ =  in 2000.
+⟨286⟩ =  She was also 
+⟨287⟩ = 
+⟨288⟩ =  
+⟨289⟩ =  at 
+⟨290⟩ = .
+⟨445⟩ =  are 
+⟨446⟩ = 
+⟨447⟩ =  held usually every four 
+⟨448⟩ = , between 
+⟨449⟩ = 
+⟨450⟩ =  around or very close to 
+⟨451⟩ = , where 
+⟨452⟩ = , 
+⟨453⟩ = , and 
+⟨454⟩ =  meet.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+In the muti-sport games usually held every four years between nations around the Mediterranean Sea, Fatma Lanouar is best known for winning gold in which event?

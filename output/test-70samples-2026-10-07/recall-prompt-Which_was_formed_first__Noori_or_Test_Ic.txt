@@ -1,0 +1,249 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Circle
+⟦2⟧ = "Four Letter Word
+⟦3⟧ = 2 October
+⟦4⟧ = 22 April
+⟦5⟧ = 23 April
+⟦6⟧ = 24 October
+⟦7⟧ = a British singer
+⟦8⟧ = a CD
+⟦9⟧ = a CD/DVD EP
+⟦10⟧ = a DVD
+⟦11⟧ = a gig
+⟦12⟧ = a handful
+⟦13⟧ = a member
+⟦14⟧ = a rock band
+⟦15⟧ = a short lived hip hop
+⟦16⟧ = a short-lived dance-punk band
+⟦17⟧ = a song
+⟦18⟧ = a spin-off
+⟦19⟧ = a variety
+⟦20⟧ = album
+⟦21⟧ = albums
+⟦22⟧ = Ali Hamza
+⟦23⟧ = Ali Noor
+⟦24⟧ = an English musician
+⟦25⟧ = an increasingly homogenous indie music scene
+⟦26⟧ = author
+⟦27⟧ = band
+⟦28⟧ = bassist
+⟦29⟧ = bassist Muhammad Ali Jafri
+⟦30⟧ = Blood
+⟦31⟧ = Blood Orange
+⟦32⟧ = Boa
+⟦33⟧ = brother
+⟦34⟧ = brothers
+⟦35⟧ = CD
+⟦36⟧ = changes
+⟦37⟧ = composer
+⟦38⟧ = concerts
+⟦39⟧ = crossover
+⟦40⟧ = crossover thrash
+⟦41⟧ = Damage
+⟦42⟧ = dance
+⟦43⟧ = David Joseph Michael Hynes
+⟦44⟧ = debut
+⟦45⟧ = Dev
+⟦46⟧ = Devonté "Dev" Hynes
+⟦47⟧ = Devonte Hynes
+⟦48⟧ = Dig
+⟦49⟧ = Dig Your Own Grave
+⟦50⟧ = drummer
+⟦51⟧ = drummer Salman Albert
+⟦52⟧ = DVD
+⟦53⟧ = elements
+⟦54⟧ = England
+⟦55⟧ = February
+⟦56⟧ = final show
+⟦57⟧ = footage
+⟦58⟧ = fusion
+⟦59⟧ = Gary Utteridge
+⟦60⟧ = genres
+⟦61⟧ = gig
+⟦62⟧ = group
+⟦63⟧ = guitar
+⟦64⟧ = guitarist
+⟦65⟧ = handful
+⟦66⟧ = Hercules
+⟦67⟧ = hip
+⟦68⟧ = his musical influences
+⟦69⟧ = his part
+⟦70⟧ = his younger brother
+⟦71⟧ = Hookworms
+⟦72⟧ = hop
+⟦73⟧ = Hynes
+⟦74⟧ = inception
+⟦75⟧ = indie rock
+⟦76⟧ = influences
+⟦77⟧ = its members
+⟦78⟧ = Lahore
+⟦79⟧ = lead
+⟦80⟧ = lead vocalist
+⟦81⟧ = length
+⟦82⟧ = light
+⟦83⟧ = Lightspeed Champion
+⟦84⟧ = line
+⟦85⟧ = literal English translation
+⟦86⟧ = London
+⟦87⟧ = many changes
+⟦88⟧ = material
+⟦89⟧ = Matt Johnson
+⟦90⟧ = Mehran
+⟦91⟧ = member
+⟦92⟧ = members
+⟦93⟧ = metal
+⟦94⟧ = metal fusion group
+⟦95⟧ = music
+⟦96⟧ = music videos
+⟦97⟧ = musical elements
+⟦98⟧ = musician
+⟦99⟧ = NLS Crew
+⟦100⟧ = Noori
+⟦101⟧ = notably hip hop
+⟦102⟧ = November
+⟦103⟧ = off
+⟦104⟧ = one full-length album
+⟦105⟧ = other previously unreleased material
+⟦106⟧ = Pakistan
+⟦107⟧ = part
+⟦108⟧ = Prince
+⟦109⟧ = producer
+⟦110⟧ = Punjab
+⟦111⟧ = punk
+⟦112⟧ = Purposes
+⟦113⟧ = Python
+⟦114⟧ = record
+⟦115⟧ = record stores
+⟦116⟧ = remixes
+⟦117⟧ = rock
+⟦118⟧ = Rory Attwell
+⟦119⟧ = Sam Mehran
+⟦120⟧ = scene
+⟦121⟧ = self
+⟦122⟧ = show
+⟦123⟧ = singer
+⟦124⟧ = single
+⟦125⟧ = singles
+⟦126⟧ = solo
+⟦127⟧ = song
+⟦128⟧ = songwriter
+⟦129⟧ = spin
+⟦130⟧ = split
+⟦131⟧ = Square
+⟦132⟧ = stores
+⟦133⟧ = studio
+⟦134⟧ = success
+⟦135⟧ = Test
+⟦136⟧ = Test Icicles
+⟦137⟧ = Test Icicles' only LP
+⟦138⟧ = the 1 August
+⟦139⟧ = the album
+⟦140⟧ = the Astoria
+⟦141⟧ = The band
+⟦142⟧ = the band Test Icicles
+⟦143⟧ = the band's final 5 show tour
+⟦144⟧ = the band's inception
+⟦145⟧ = the debut album
+⟦146⟧ = The EP
+⟦147⟧ = the first single
+⟦148⟧ = The group
+⟦149⟧ = the group's split
+⟦150⟧ = the inception
+⟦151⟧ = the later success
+⟦152⟧ = the line-up
+⟦153⟧ = The Love Affair
+⟦154⟧ = the LSE
+⟦155⟧ = the only consistent members
+⟦156⟧ = The Ordinary Boys
+⟦157⟧ = the second single
+⟦158⟧ = the self-titled fourth studio album
+⟦159⟧ = the singles "Awkward
+⟦160⟧ = The song
+⟦161⟧ = the time
+⟦162⟧ = the UK Singles Chart
+⟦163⟧ = their debut album
+⟦164⟧ = their time
+⟦165⟧ = thrash
+⟦166⟧ = time
+⟦167⟧ = tour
+⟦168⟧ = translation
+⟦169⟧ = Triangle
+⟦170⟧ = trio
+⟦171⟧ = two solo studio albums
+⟦172⟧ = UK dance-punk trio Test Icicles
+⟦173⟧ = UK punk trio Test Icicles
+⟦174⟧ = UK Top 40 singles
+⟦175⟧ = up
+⟦176⟧ = Urdu:نوری
+⟦177⟧ = variety
+⟦178⟧ = videos
+⟦179⟧ = vocalist
+⟦180⟧ = vocals
+⟦181⟧ = week
+⟦182⟧ = years
+⟦183⟧ = Your Damage
+⟦184⟧ = Your Own Grave
+⟦185⟧ = نوری
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Dev Hynes] ⟦43⟧⟨1⟩⟦46⟧⟨2⟩⟦31⟧⟨3⟩⟦7⟧⟨4⟩⟦123⟧⟨5⟩⟦128⟧⟨6⟩⟦128⟧⟨7⟩⟦37⟧⟨8⟩⟦37⟧⟨9⟩⟦109⟧⟨10⟩⟦109⟧⟨11⟩⟦26⟧⟨12⟩⟦26⟧⟨13⟩
+[Dev Hynes] ⟨14⟩⟦73⟧⟨15⟩⟦13⟧⟨16⟩⟦91⟧⟨17⟩⟦142⟧⟨18⟩⟦27⟧⟨19⟩⟦63⟧⟨20⟩⟦63⟧⟨21⟩⟦180⟧⟨22⟩⟦180⟧⟨23⟩
+[Dev Hynes] ⟨24⟩⟦104⟧⟨25⟩⟦81⟧⟨26⟩⟦20⟧⟨27⟩
+[Dev Hynes] ⟦73⟧⟨28⟩⟦171⟧⟨29⟩⟦126⟧⟨30⟩⟦133⟧⟨31⟩⟦21⟧⟨32⟩⟦83⟧⟨33⟩⟦30⟧⟨34⟩⟦31⟧⟨35⟩
+[Dev Hynes] ⟦45⟧⟨36⟩⟦108⟧⟨37⟩⟦66⟧⟨38⟩⟦153⟧⟨39⟩⟦59⟧⟨40⟩⟦68⟧⟨41⟩⟦76⟧⟨42⟩
+[NLS Crew] ⟦99⟧⟨43⟩⟦15⟧⟨44⟩⟦67⟧⟨45⟩⟦72⟧⟨46⟩⟦93⟧⟨47⟩⟦94⟧⟨48⟩⟦58⟧⟨49⟩⟦62⟧⟨50⟩⟦18⟧⟨51⟩⟦129⟧⟨52⟩⟦103⟧⟨53⟩⟦136⟧⟨54⟩
+[For Screening Purposes Only] ⟨55⟩⟦112⟧⟨56⟩⟦145⟧⟨57⟩⟦44⟧⟨58⟩⟦20⟧⟨59⟩⟦172⟧⟨60⟩⟦42⟧⟨61⟩⟦111⟧⟨62⟩⟦170⟧⟨63⟩
+[For Screening Purposes Only] ⟨64⟩⟦139⟧⟨65⟩⟦20⟧⟨66⟩⟦25⟧⟨67⟩⟦95⟧⟨68⟩⟦120⟧⟨69⟩
+[For Screening Purposes Only] ⟨70⟩⟦149⟧⟨71⟩⟦62⟧⟨72⟩⟦130⟧⟨73⟩⟦55⟧⟨74⟩⟦139⟧⟨75⟩⟦20⟧⟨76⟩⟦137⟧⟨77⟩
+[Test Icicles] ⟦135⟧⟨78⟩⟦136⟧⟨79⟩⟦16⟧⟨80⟩⟦42⟧⟨81⟩⟦111⟧⟨82⟩⟦27⟧⟨83⟩⟦54⟧⟨84⟩⟦75⟧⟨85⟩⟦117⟧⟨86⟩⟦97⟧⟨87⟩⟦53⟧⟨88⟩⟦19⟧⟨89⟩⟦177⟧⟨90⟩⟦60⟧⟨91⟩⟦60⟧⟨92⟩⟦101⟧⟨93⟩⟦67⟧⟨94⟩⟦72⟧⟨95⟩⟦39⟧⟨96⟩⟦40⟧⟨97⟩⟦165⟧⟨98⟩⟦111⟧⟨99⟩⟦111⟧⟨100⟩
+[Test Icicles] ⟦141⟧⟨101⟩⟦27⟧⟨102⟩⟦118⟧⟨103⟩⟦119⟧⟨104⟩⟦47⟧⟨105⟩
+[Test Icicles] ⟦73⟧⟨106⟩⟦90⟧⟨107⟩⟦182⟧⟨108⟩⟦161⟧⟨109⟩⟦166⟧⟨110⟩⟦144⟧⟨111⟩⟦27⟧⟨112⟩⟦74⟧⟨113⟩
+[Test Icicles] ⟦148⟧⟨114⟩⟦62⟧⟨115⟩⟦151⟧⟨116⟩⟦134⟧⟨117⟩⟦77⟧⟨118⟩⟦92⟧⟨119⟩
+[The Ordinary Boys (album)] ⟦156⟧⟨120⟩⟦158⟧⟨121⟩⟦121⟧⟨122⟩⟦133⟧⟨123⟩⟦20⟧⟨124⟩⟦156⟧⟨125⟩⟦3⟧⟨126⟩
+[The Ordinary Boys (album)] ⟦139⟧⟨127⟩⟦20⟧⟨128⟩⟦159⟧⟨129⟩⟦125⟧⟨130⟩⟦2⟧⟨131⟩
+[The Ordinary Boys (album)] ⟨132⟩⟦118⟧⟨133⟩⟦135⟧⟨134⟩⟦136⟧⟨135⟩⟦89⟧⟨136⟩⟦71⟧⟨137⟩
+[Boa vs. Python (song)] ⟨138⟩⟦32⟧⟨139⟩⟦113⟧⟨140⟩⟦17⟧⟨141⟩⟦127⟧⟨142⟩⟦136⟧⟨143⟩⟦147⟧⟨144⟩⟦124⟧⟨145⟩⟦163⟧⟨146⟩⟦20⟧⟨147⟩⟦112⟧⟨148⟩⟦112⟧⟨149⟩
+[Boa vs. Python (song)] ⟨150⟩⟦138⟧⟨151⟩
+[Boa vs. Python (song)] ⟦160⟧⟨152⟩⟦127⟧⟨153⟩⟦162⟧⟨154⟩
+[Dig Your Own Grave] ⟦48⟧⟨155⟩⟦184⟧⟨156⟩⟦9⟧⟨157⟩⟦52⟧⟨158⟩⟦5⟧⟨159⟩⟦136⟧⟨160⟩
+[Dig Your Own Grave] ⟨161⟩⟦8⟧⟨162⟩⟦35⟧⟨163⟩⟦116⟧⟨164⟩⟦116⟧⟨165⟩⟦105⟧⟨166⟩⟦88⟧⟨167⟩⟦10⟧⟨168⟩⟦52⟧⟨169⟩⟦95⟧⟨170⟩⟦96⟧⟨171⟩⟦178⟧⟨172⟩⟦57⟧⟨173⟩⟦57⟧⟨174⟩⟦11⟧⟨175⟩⟦61⟧⟨176⟩⟦154⟧⟨177⟩⟦86⟧⟨178⟩⟦102⟧⟨179⟩
+[Dig Your Own Grave] ⟦146⟧⟨180⟩⟦143⟧⟨181⟩⟦27⟧⟨182⟩⟦122⟧⟨183⟩⟦167⟧⟨184⟩
+[Dig Your Own Grave] ⟨185⟩⟦49⟧⟨186⟩⟦114⟧⟨187⟩⟦115⟧⟨188⟩⟦132⟧⟨189⟩⟦181⟧⟨190⟩
+[Noori] ⟦100⟧⟨191⟩⟦176⟧⟨192⟩⟦185⟧⟨193⟩⟦85⟧⟨194⟩⟦168⟧⟨195⟩⟦82⟧⟨196⟩⟦82⟧⟨197⟩⟦14⟧⟨198⟩⟦117⟧⟨199⟩⟦27⟧⟨200⟩⟦78⟧⟨201⟩⟦110⟧⟨202⟩⟦106⟧⟨203⟩
+[Noori] ⟦148⟧⟨204⟩⟦62⟧⟨205⟩⟦128⟧⟨206⟩⟦128⟧⟨207⟩⟦79⟧⟨208⟩⟦80⟧⟨209⟩⟦179⟧⟨210⟩⟦64⟧⟨211⟩⟦64⟧⟨212⟩⟦23⟧⟨213⟩⟦70⟧⟨214⟩⟦33⟧⟨215⟩⟦22⟧⟨216⟩⟦28⟧⟨217⟩⟦29⟧⟨218⟩⟦50⟧⟨219⟩⟦51⟧⟨220⟩
+[Noori] ⟨221⟩⟦150⟧⟨222⟩⟦74⟧⟨223⟩⟦141⟧⟨224⟩⟦27⟧⟨225⟩⟦87⟧⟨226⟩⟦36⟧⟨227⟩⟦152⟧⟨228⟩⟦84⟧⟨229⟩⟦175⟧⟨230⟩⟦155⟧⟨231⟩⟦92⟧⟨232⟩⟦34⟧⟨233⟩⟦34⟧⟨234⟩⟦23⟧⟨235⟩⟦22⟧⟨236⟩
+[Rory Attwell] ⟦118⟧⟨237⟩⟦24⟧⟨238⟩⟦98⟧⟨239⟩⟦69⟧⟨240⟩⟦107⟧⟨241⟩⟦173⟧⟨242⟩⟦111⟧⟨243⟩⟦170⟧⟨244⟩⟦12⟧⟨245⟩⟦65⟧⟨246⟩⟦38⟧⟨247⟩⟦38⟧⟨248⟩⟦4⟧⟨249⟩⟦56⟧⟨250⟩⟦122⟧⟨251⟩⟦140⟧⟨252⟩⟦86⟧⟨253⟩
+[Rory Attwell] ⟨254⟩⟦164⟧⟨255⟩⟦166⟧⟨256⟩⟦139⟧⟨257⟩⟦20⟧⟨258⟩⟦112⟧⟨259⟩⟦112⟧⟨260⟩⟦174⟧⟨261⟩⟦125⟧⟨262⟩⟦183⟧⟨263⟩⟦41⟧⟨264⟩⟦1⟧⟨265⟩
+[Rory Attwell] ⟦131⟧⟨266⟩
+[Rory Attwell] ⟦169⟧⟨267⟩
+[Circle. Square. Triangle] ⟦1⟧⟨268⟩
+[Circle. Square. Triangle] ⟦131⟧⟨269⟩
+[Circle. Square. Triangle] ⟦169⟧⟨270⟩⟦17⟧⟨271⟩⟦127⟧⟨272⟩⟦136⟧⟨273⟩⟦157⟧⟨274⟩⟦124⟧⟨275⟩⟦163⟧⟨276⟩⟦20⟧⟨277⟩⟦112⟧⟨278⟩⟦112⟧⟨279⟩⟦6⟧⟨280⟩
+[Circle. Square. Triangle] ⟦160⟧⟨281⟩⟦127⟧⟨282⟩⟦162⟧⟨283⟩
+
+[user]
+
+问题：
+Which was formed first, Noori or Test Icicles?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

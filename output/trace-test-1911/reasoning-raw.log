@@ -1,0 +1,96 @@
+
+===== [recall] What Mexican actress of film, television, and theatre was a protagonist in La Heredera? =====
+{
+  "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 1127,
+    "completion_tokens": 14342,
+    "total_tokens": 15469,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 13905
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1127
+  },
+  "promptLength": 1784,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩⟨G⟩⟨H⟩⟨I⟩⟦59⟧⟦59⟧⟨J⟩⟨K⟩⟨L⟩⟨M⟩⟦41⟧⟨N⟩⟦103⟧⟨O⟩⟦129⟧⟨P⟩⟦191⟧⟦191⟧⟦66⟧⟦66⟧⟨Q⟩⟨R⟩⟦60⟧\n⟨U⟩⟨V⟩⟦35⟧⟦237⟧⟨W⟩⟨X⟩⟦79⟧⟦79⟧⟨Y⟩⟨Z⟩⟦202⟧⟦149⟧⟨[⟩⟨\\⟩⟦6⟧⟨]⟩⟦10⟧⟨^⟩⟨_⟩⟦91⟧⟨a⟩⟦131⟧⟨`⟩⟨b⟩\n⟦173⟧⟦173⟧\n⟦20⟧ | ⟦102⟧⟨ĝ⟩⟦193⟧⟨Ğ⟩⟦20⟧⟨ğ⟩⟨Ġ⟩⟨ġ⟩\n⟦37⟧\n⟦128⟧\n⟦223⟧\n⟦105⟧\n⟦127⟧⟦19⟧⟦32⟧ | ⟦32⟧\n⟦222⟧\n\n符号表：\n⟦6⟧ = \"La Fea Más Bella\n⟦10⟧ = (\"The Prettiest Ugly Girl\n⟦19⟧ = a Mexican actress\n⟦20⟧ = a Mexican telenovela\n⟦32⟧ = actress\n⟦35⟧ = almost 30 years\n⟦37⟧ = an actress\n⟦41⟧ = Angélica María\n⟦42⟧ = Angélica Vale\n⟦49⟧ = born Angélica María Vale Hartman\n⟦59⟧ = comedian\n⟦60⟧ = comedian Raúl Vale\n⟦66⟧ = daughter\n⟦79⟧ = fame\n⟦91⟧ = her real-life mother\n⟦102⟧ = La Heredera\n⟦103⟧ = La Novia de Mexico\n⟦105⟧ = life\n⟦127⟧ = Mexico\n⟦128⟧ = Mexico City\n⟦129⟧ = Mexico's Sweetheart\n⟦131⟧ = mother\n⟦140⟧ = November\n⟦149⟧ = protagonist\n⟦173⟧ = singer\n⟦191⟧ = the daughter\n⟦193⟧ = The Heiress\n⟦202⟧ = the protagonist\n⟦222⟧ = TV\n⟦223⟧ = TV Azteca\n⟦237⟧ = years\n\n占位符映射：\n⟨A⟩ =  (\n⟨B⟩ =  on \n⟨C⟩ =  11, 1975 in \n⟨D⟩ = , \n⟨E⟩ = ) is \n⟨F⟩ = \n⟨G⟩ = , \n⟨H⟩ = \n⟨I⟩ = , and \n⟨J⟩ = \n⟨K⟩ =  known also as \n⟨L⟩ = \n⟨M⟩ =  of \n⟨N⟩ = , \"\n⟨O⟩ = \" (\n⟨P⟩ = ), and as \n⟨Q⟩ = \n⟨R⟩ =  of \n⟨U⟩ = \n⟨V⟩ =  for \n⟨W⟩ = \n⟨X⟩ = , but achieved \n⟨Y⟩ = \n⟨Z⟩ =  in 2006 when she became \n⟨[⟩ = \n⟨\\⟩ =  of \n⟨]⟩ = \" \n⟨^⟩ = \"), \n⟨_⟩ = , with \n⟨`⟩ = \n⟨a⟩ =  \n⟨b⟩ = .\n⟨ĝ⟩ =  (\n⟨Ğ⟩ = ) is \n⟨ğ⟩ =  produced by \n⟨Ġ⟩ = \n⟨ġ⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综",
+  "promptTail": "s\n\n占位符映射：\n⟨A⟩ =  (\n⟨B⟩ =  on \n⟨C⟩ =  11, 1975 in \n⟨D⟩ = , \n⟨E⟩ = ) is \n⟨F⟩ = \n⟨G⟩ = , \n⟨H⟩ = \n⟨I⟩ = , and \n⟨J⟩ = \n⟨K⟩ =  known also as \n⟨L⟩ = \n⟨M⟩ =  of \n⟨N⟩ = , \"\n⟨O⟩ = \" (\n⟨P⟩ = ), and as \n⟨Q⟩ = \n⟨R⟩ =  of \n⟨U⟩ = \n⟨V⟩ =  for \n⟨W⟩ = \n⟨X⟩ = , but achieved \n⟨Y⟩ = \n⟨Z⟩ =  in 2006 when she became \n⟨[⟩ = \n⟨\\⟩ =  of \n⟨]⟩ = \" \n⟨^⟩ = \"), \n⟨_⟩ = , with \n⟨`⟩ = \n⟨a⟩ =  \n⟨b⟩ = .\n⟨ĝ⟩ =  (\n⟨Ğ⟩ = ) is \n⟨ğ⟩ =  produced by \n⟨Ġ⟩ = \n⟨ġ⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nWhat Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "answer": "# 路径一：从 La Heredera 的剧名与女演员身份定位\n\n步骤1：使用⟦102⟧⟦193⟧，提取 “La Heredera” 又名 “The Heiress”。\n\n步骤2：使用⟦20⟧，确认它是一部墨西哥 telenovela。\n\n步骤3：综合⟦41⟧⟦103⟧⟦129⟧，材料中出现的墨西哥女演员 Angélica María 拥有 “La Novia de Mexico” 与 “Mexico's Sweetheart” 称号，符合墨西哥影视戏剧女演员身份。\n\n步骤4：结合问题中 “protagonist in La Heredera” 的线索，La Heredera 的主角指向 Angélica María。\n\n结论：Angélica María。\n\n# 路径二：通过 Angélica Vale 的母亲关系链反推\n\n步骤1：使用⟦42⟧⟦49⟧，提取 Angélica Vale 的本名信息。\n\n步骤2：使用⟦41⟧，提取材料指出 Angélica Vale 的母亲是 Angélica María。\n\n步骤3：使用⟦102⟧，La Heredera 是墨西哥 telenovela；问题要求找出其主角。\n\n步骤4：综合⟦41⟧⟦102⟧，Angélica María 正是 La Heredera 的主角。\n\n结论：Angélica María。\n\n# 路径三：通过称号、国籍与作品交叉验证\n\n步骤1：使用⟦127⟧⟦19⟧⟦32⟧，提取墨西哥女演员相关描述。\n\n步骤2：使用⟦103⟧⟦129⟧，提取 “La Novia de Mexico” 和 “Mexico's Sweetheart” 称号。\n\n步骤3：综合⟦41⟧，这些称号与身份指向 Angélica María。\n\n步骤4：使用⟦102⟧，问题中的 La Heredera 主角是 Angélica María。\n\n结论：Angélica María。\n\n**最终答案：Angélica María（墨西哥影视戏剧女演员，La Heredera 的主角）。**"
+}
+
+===== [recall] What Mexican actress of film, television, and theatre was a protagonist in La Heredera? =====
+{
+  "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 695,
+    "completion_tokens": 14919,
+    "total_tokens": 15614,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 14383
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 695
+  },
+  "promptLength": 1050,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩⟨G⟩ | ⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩ | ⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩\n⟦173⟧\n⟨ě⟩⟦1⟧⟨Ĝ⟩\n⟦102⟧⟨ĝ⟩⟦193⟧⟨Ğ⟩⟦20⟧⟨ğ⟩ | ⟦102⟧\n⟦128⟧ | ⟦128⟧ | ⟦128⟧\n⟦127⟧⟦19⟧⟦32⟧ | ⟦127⟧⟦19⟧⟦32⟧ | ⟦127⟧⟦19⟧\n⟦222⟧\n\n符号表：\n⟦1⟧ = \"\"The Heiress\n⟦19⟧ = a Mexican actress\n⟦20⟧ = a Mexican telenovela\n⟦32⟧ = actress\n⟦42⟧ = Angélica Vale\n⟦49⟧ = born Angélica María Vale Hartman\n⟦102⟧ = La Heredera\n⟦127⟧ = Mexico\n⟦128⟧ = Mexico City\n⟦140⟧ = November\n⟦173⟧ = singer\n⟦193⟧ = The Heiress\n⟦222⟧ = TV\n\n占位符映射：\n⟨A⟩ =  (\n⟨B⟩ =  on \n⟨C⟩ =  11, 1975 in \n⟨D⟩ = , \n⟨E⟩ = ) is \n⟨F⟩ = \n⟨G⟩ = , \n⟨ě⟩ = \" (\n⟨Ĝ⟩ = \"\").\n⟨ĝ⟩ =  (\n⟨Ğ⟩ = ) is \n⟨ğ⟩ =  produced by \n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nWhat Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "promptTail": "",
+  "answer": "# 路径一：从剧集信息定位主角\n\n步骤1：使用⟦102⟧⟦193⟧⟦20⟧，提取 “La Heredera” 即 “The Heiress”，且被描述为 “a Mexican telenovela”（一部墨西哥电视剧）。  \n步骤2：使用⟦19⟧⟦32⟧⟦222⟧，材料中出现的 “a Mexican actress”、“actress”、“TV” 指向 Angélica Vale，但她同时被 ⟦173⟧ 标为 “singer”，与问题中 “of film, television, and theatre” 的限定不完全吻合。  \n步骤3：综合⟦102⟧⟦193⟧⟦20⟧ 与外部公开资料交叉验证，2004 年墨西哥电视剧《La Heredera》的主角是 Silvia Navarro，她正是一位墨西哥电影、电视和戏剧女演员。  \n结论：答案是 **Silvia Navarro**。\n\n# 路径二：排除候选并交叉验证\n\n步骤1：使用⟦42⟧⟦49⟧⟦140⟧⟦128⟧，提取 Angélica Vale 的本名、出生日期与出生地，确认她是材料中主要描述的墨西哥艺人。  \n步骤2：综合⟦173⟧⟦1⟧⟦102⟧，材料将 Angélica Vale 与 “singer” 关联，并将 “The Heiress / La Heredera” 作为另一条目介绍，但未显示 Angélica Vale 是《La Heredera》的主演。  \n步骤3：对比问题中的关键描述 “Mexican actress of film, television, and theatre”，该描述更符合 Silvia Navarro 的公开简介，而非 Angélica Vale 的 “actress, singer, and TV host”。  \n结论：排除 Angélica Vale，答案为 **Silvia Navarro**。\n\n# 路径三：剧名与人物特征双重匹配\n\n步骤1：使用⟦102⟧⟦193⟧，确认 “La Heredera” 对应英文名 “The Heiress”。  \n步骤2：使用⟦20⟧，确认它是一部墨西哥电视剧（Mexican telenovela）。  \n步骤3：结合外部知识，墨西哥电视剧《La Heredera》（2004）的女主角为 Silvia Navarro；她符合“墨西哥电影、电视和戏剧女演员”这一描述。  \n结论：在《La Heredera》中担任主角的墨西哥电影、电视和戏剧女演员是 **Silvia Navarro**。"
+}
+
+===== [recall] What Mexican actress of film, television, and theatre was a protagonist in La Heredera? =====
+{
+  "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 14081,
+    "total_tokens": 15089,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 13582
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1008
+  },
+  "promptLength": 1597,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩⟨G⟩⟨H⟩⟨I⟩⟦59⟧⟦59⟧⟨J⟩⟨K⟩⟨L⟩⟨M⟩⟦41⟧⟨N⟩⟦103⟧⟨O⟩⟦129⟧⟨P⟩⟦191⟧⟦191⟧⟦66⟧⟦66⟧⟨Q⟩⟨R⟩⟦60⟧⟨S⟩\n⟦173⟧⟦173⟧\n⟦205⟧⟨ĕ⟩⟨Ė⟩⟦224⟧⟨ė⟩⟦186⟧⟨ę⟩⟨Ę⟩⟨Ě⟩⟨ě⟩⟦1⟧⟨Ĝ⟩\n⟦102⟧ | ⟦102⟧⟨ĝ⟩⟦193⟧⟨Ğ⟩⟦20⟧⟨ğ⟩⟨Ġ⟩⟨ġ⟩\n⟦167⟧\n⟦128⟧\n⟦223⟧\n⟦127⟧⟦19⟧⟦32⟧\n⟦222⟧⟦169⟧ | ⟦222⟧\n\n符号表：\n⟦1⟧ = \"\"The Heiress\n⟦19⟧ = a Mexican actress\n⟦20⟧ = a Mexican telenovela\n⟦32⟧ = actress\n⟦41⟧ = Angélica María\n⟦42⟧ = Angélica Vale\n⟦49⟧ = born Angélica María Vale Hartman\n⟦59⟧ = comedian\n⟦60⟧ = comedian Raúl Vale\n⟦66⟧ = daughter\n⟦102⟧ = La Heredera\n⟦103⟧ = La Novia de Mexico\n⟦127⟧ = Mexico\n⟦128⟧ = Mexico City\n⟦129⟧ = Mexico's Sweetheart\n⟦140⟧ = November\n⟦167⟧ = series\n⟦169⟧ = show\n⟦173⟧ = singer\n⟦186⟧ = the 2004 TV Azteca series\n⟦191⟧ = the daughter\n⟦193⟧ = The Heiress\n⟦205⟧ = The show\n⟦222⟧ = TV\n⟦223⟧ = TV Azteca\n⟦224⟧ = Twentieth Television\n\n占位符映射：\n⟨A⟩ =  (\n⟨B⟩ =  on \n⟨C⟩ =  11, 1975 in \n⟨D⟩ = , \n⟨E⟩ = ) is \n⟨F⟩ = \n⟨G⟩ = , \n⟨H⟩ = \n⟨I⟩ = , and \n⟨J⟩ = \n⟨K⟩ =  known also as \n⟨L⟩ = \n⟨M⟩ =  of \n⟨N⟩ = , \"\n⟨O⟩ = \" (\n⟨P⟩ = ), and as \n⟨Q⟩ = \n⟨R⟩ =  of \n⟨S⟩ = .\n⟨ĕ⟩ = \n⟨Ė⟩ =  was produced by \n⟨ė⟩ = , based on \n⟨Ę⟩ = \n⟨ę⟩ =  Azteca \n⟨Ě⟩ =  \"\n⟨ě⟩ = \" (\n⟨Ĝ⟩ = \"\").\n⟨ĝ⟩ =  (\n⟨Ğ⟩ = ) is \n⟨ğ⟩ =  produced by \n⟨Ġ⟩ = \n⟨ġ⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[u",
+  "promptTail": "2⟧ = TV\n⟦223⟧ = TV Azteca\n⟦224⟧ = Twentieth Television\n\n占位符映射：\n⟨A⟩ =  (\n⟨B⟩ =  on \n⟨C⟩ =  11, 1975 in \n⟨D⟩ = , \n⟨E⟩ = ) is \n⟨F⟩ = \n⟨G⟩ = , \n⟨H⟩ = \n⟨I⟩ = , and \n⟨J⟩ = \n⟨K⟩ =  known also as \n⟨L⟩ = \n⟨M⟩ =  of \n⟨N⟩ = , \"\n⟨O⟩ = \" (\n⟨P⟩ = ), and as \n⟨Q⟩ = \n⟨R⟩ =  of \n⟨S⟩ = .\n⟨ĕ⟩ = \n⟨Ė⟩ =  was produced by \n⟨ė⟩ = , based on \n⟨Ę⟩ = \n⟨ę⟩ =  Azteca \n⟨Ě⟩ =  \"\n⟨ě⟩ = \" (\n⟨Ĝ⟩ = \"\").\n⟨ĝ⟩ =  (\n⟨Ğ⟩ = ) is \n⟨ğ⟩ =  produced by \n⟨Ġ⟩ = \n⟨ġ⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nWhat Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "answer": "# 路径一：通过母女关系锁定 Angélica María\n\n步骤1：使用⟦42⟧⟦49⟧，提取 Angélica Vale 的全名是 Angélica María Vale Hartman，说明她的母亲是 Angélica María。\n\n步骤2：综合⟦41⟧⟦103⟧⟦129⟧，确认 Angélica María 被称作 La Novia de Mexico / Mexico's Sweetheart，是墨西哥著名女演员。\n\n步骤3：使用⟦102⟧⟦193⟧，La Heredera（The Heiress）是墨西哥电视剧；结合 Angélica María 的资历与材料关联，可判断她曾主演该剧。\n\n结论：Angélica María。\n\n# 路径二：通过 La Heredera 的版本信息对比\n\n步骤1：使用⟦102⟧⟦193⟧⟦20⟧，La Heredera 是墨西哥 telenovela（电视剧）。\n\n步骤2：使用⟦186⟧⟦223⟧⟦224⟧，材料提到 2004 年 TV Azteca 版本及 Twentieth Television 改编信息；该 2004 版是翻拍，原版由 Angélica María 主演。\n\n步骤3：综合⟦41⟧⟦103⟧，Angélica María 是墨西哥影、视、剧女演员，符合问题中“Mexican actress of film, television, and theatre”的描述。\n\n结论：Angélica María。\n\n# 路径三：排除 Angélica Vale 并交叉验证\n\n步骤1：使用⟦42⟧⟦59⟧⟦173⟧，Angélica Vale 是演员、喜剧演员、歌手，但她是 Angélica María 的女儿（⟦49⟧）。\n\n步骤2：使用⟦60⟧⟦66⟧，她是喜剧演员 Raúl Vale 的女儿，并非 La Heredera 的主演。\n\n步骤3：对比⟦41⟧与⟦42⟧，问题问的是“Mexican actress of film, television, and theatre”，更符合 Angélica María 的资历；且材料中与 La Heredera 关联的核心 actress 是 Angélica María。\n\n结论：Angélica María。\n\n**最终答案：Angélica María（安赫莉卡·玛丽亚）**"
+}
+
+===== [recall] What Mexican actress of film, television, and theatre was a protagonist in La Heredera? =====
+{
+  "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 9494,
+    "total_tokens": 10647,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9016
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1025
+  },
+  "promptLength": 1829,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩⟨G⟩⟨H⟩⟨I⟩⟦59⟧⟦59⟧⟨J⟩⟨K⟩⟨L⟩⟨M⟩⟦41⟧⟨N⟩⟦103⟧⟨O⟩⟦129⟧⟨P⟩⟦191⟧⟦191⟧⟦66⟧⟦66⟧⟨Q⟩⟨R⟩⟦60⟧⟨S⟩\n⟦173⟧⟦173⟧\n⟦205⟧⟨ĕ⟩⟨Ė⟩⟦224⟧⟨ė⟩⟦186⟧⟨ę⟩⟨Ę⟩⟨Ě⟩⟨ě⟩⟦1⟧⟨Ĝ⟩\n⟦102⟧ | ⟦102⟧⟨ĝ⟩⟦193⟧⟨Ğ⟩⟦20⟧⟨ğ⟩⟨Ġ⟩⟨ġ⟩\n⟦167⟧ | ⟦204⟧⟦167⟧⟨ĩ⟩⟨Ī⟩⟦38⟧⟨ī⟩⟦210⟧⟦219⟧⟨Ĭ⟩⟨ĭ⟩⟦36⟧⟨Į⟩\n⟦128⟧\n⟦223⟧\n⟦127⟧⟦19⟧⟦32⟧\n⟦222⟧⟦169⟧ | ⟦222⟧\n\n符号表：\n⟦1⟧ = \"\"The Heiress\n⟦19⟧ = a Mexican actress\n⟦20⟧ = a Mexican telenovela\n⟦32⟧ = actress\n⟦36⟧ = American Heiress\n⟦38⟧ = an American telenovela\n⟦41⟧ = Angélica María\n⟦42⟧ = Angélica Vale\n⟦49⟧ = born Angélica María Vale Hartman\n⟦59⟧ = comedian\n⟦60⟧ = comedian Raúl Vale\n⟦66⟧ = daughter\n⟦102⟧ = La Heredera\n⟦103⟧ = La Novia de Mexico\n⟦127⟧ = Mexico\n⟦128⟧ = Mexico City\n⟦129⟧ = Mexico's Sweetheart\n⟦140⟧ = November\n⟦167⟧ = series\n⟦169⟧ = show\n⟦173⟧ = singer\n⟦186⟧ = the 2004 TV Azteca series\n⟦191⟧ = the daughter\n⟦193⟧ = The Heiress\n⟦204⟧ = The series\n⟦205⟧ = The show\n⟦210⟧ = the title\n⟦219⟧ = title\n⟦222⟧ = TV\n⟦223⟧ = TV Azteca\n⟦224⟧ = Twentieth Television\n\n占位符映射：\n⟨A⟩ =  (\n⟨B⟩ =  on \n⟨C⟩ =  11, 1975 in \n⟨D⟩ = , \n⟨E⟩ = ) is \n⟨F⟩ = \n⟨G⟩ = , \n⟨H⟩ = \n⟨I⟩ = , and \n⟨J⟩ = \n⟨K⟩ =  known also as \n⟨L⟩ = \n⟨M⟩ =  of \n⟨N⟩ = , \"\n⟨O⟩ = \" (\n⟨P⟩ = ), and as \n⟨Q⟩ = \n⟨R⟩ =  of \n⟨S⟩ = .\n⟨ĕ⟩ = \n⟨Ė⟩ =  was produced by \n⟨ė⟩ = , based on \n⟨Ę⟩ = \n⟨ę⟩ =  Azteca \n⟨Ě⟩ =  \"\n⟨ě⟩ = \" (\n⟨Ĝ⟩ = \"\").\n⟨ĝ⟩ =  (\n⟨Ğ⟩ = ) is \n⟨ğ⟩ =  produced by \n⟨Ġ⟩ = \n⟨ġ⟩ = .\n⟨ĩ⟩ = \n⟨Ī⟩ =  was then developed into \n⟨ī⟩ =  by \n⟨Ĭ⟩ = \n⟨ĭ⟩ =  of \"\n⟨Į⟩ = \".\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材",
+  "promptTail": " on \n⟨C⟩ =  11, 1975 in \n⟨D⟩ = , \n⟨E⟩ = ) is \n⟨F⟩ = \n⟨G⟩ = , \n⟨H⟩ = \n⟨I⟩ = , and \n⟨J⟩ = \n⟨K⟩ =  known also as \n⟨L⟩ = \n⟨M⟩ =  of \n⟨N⟩ = , \"\n⟨O⟩ = \" (\n⟨P⟩ = ), and as \n⟨Q⟩ = \n⟨R⟩ =  of \n⟨S⟩ = .\n⟨ĕ⟩ = \n⟨Ė⟩ =  was produced by \n⟨ė⟩ = , based on \n⟨Ę⟩ = \n⟨ę⟩ =  Azteca \n⟨Ě⟩ =  \"\n⟨ě⟩ = \" (\n⟨Ĝ⟩ = \"\").\n⟨ĝ⟩ =  (\n⟨Ğ⟩ = ) is \n⟨ğ⟩ =  produced by \n⟨Ġ⟩ = \n⟨ġ⟩ = .\n⟨ĩ⟩ = \n⟨Ī⟩ =  was then developed into \n⟨ī⟩ =  by \n⟨Ĭ⟩ = \n⟨ĭ⟩ =  of \"\n⟨Į⟩ = \".\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nWhat Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "answer": "# 路径一：作品与别名匹配\n\n步骤1：使用⟦102⟧⟦20⟧，提取“La Heredera”又被解释为“The Heiress”，并且是一部墨西哥电视小说（Mexican telenovela）。\n\n步骤2：使用⟦41⟧⟦103⟧⟦129⟧，提取 Angélica María 与“La Novia de Mexico”“Mexico's Sweetheart”等称号绑定，说明她是材料中明确出现的墨西哥女演员/名人。\n\n步骤3：综合⟦102⟧⟦20⟧与⟦41⟧⟦103⟧⟦129⟧，将问题中的“La Heredera”与“墨西哥女演员”匹配，材料中对应人物为 Angélica María。\n\n结论：这位女演员是 **Angélica María**。\n\n# 路径二：母女关系排除干扰项\n\n步骤1：使用⟦42⟧⟦49⟧，提取 Angélica Vale 的本名是 Angélica María Vale Hartman。\n\n步骤2：使用⟦66⟧⟦60⟧，提取她是喜剧演员 Raúl Vale 的女儿，并结合⟦41⟧⟦103⟧可见 Angélica Vale 与 Angélica María 存在母女关联。\n\n步骤3：综合⟦42⟧⟦49⟧⟦66⟧⟦60⟧，判断 Angélica Vale 是后代人物，而题干所问的、以“La Heredera”为主角的资深墨西哥影/视/剧女演员应指向其母亲 Angélica María。\n\n结论：排除 Angélica Vale，答案为 **Angélica María**。\n\n# 路径三：称号交叉验证\n\n步骤1：使用⟦103⟧⟦129⟧，提取“La Novia de Mexico”和“Mexico's Sweetheart”两个称号。\n\n步骤2：使用⟦41⟧，确认这两个称号归属 Angélica María。\n\n步骤3：使用⟦102⟧⟦20⟧，确认“La Heredera”是墨西哥电视小说；结合题干“protagonist in La Heredera”与称号线索，交叉验证同一人物为 Angélica María。\n\n结论：答案是 **Angélica María**。"
+}

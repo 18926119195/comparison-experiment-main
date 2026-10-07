@@ -1,0 +1,63 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[SouthPark Mall (Charlotte, North Carolina)] ⟦264⟧⟨55⟩⟦318⟧⟦257⟧⟨57⟩⟦56⟧⟨56⟩⟨58⟩⟨59⟩⟦63⟧⟦377⟧⟨60⟩⟨61⟩
+[Black Friday (shopping)] ⟦341⟧ | ⟦62⟧⟨273⟩⟨274⟩⟨275⟩⟦279⟧⟨276⟩⟦341⟧⟨277⟩⟦201⟧⟨278⟩
+[Maritime pilot] ⟦295⟧
+[Line 11, Guangzhou Metro] ⟦99⟧
+
+符号表：
+⟦56⟧ = area
+⟦62⟧ = Black Friday
+⟦63⟧ = Black Friday weekend
+⟦99⟧ = day
+⟦201⟧ = November
+⟦257⟧ = shopping
+⟦264⟧ = SouthPark
+⟦279⟧ = Thanksgiving Day
+⟦295⟧ = the day
+⟦318⟧ = the most congested shopping area
+⟦341⟧ = the United States
+⟦377⟧ = weekend
+
+占位符映射：
+⟨55⟩ =  is 
+⟨56⟩ = 
+⟨57⟩ =  
+⟨58⟩ =  in 
+⟨59⟩ =  during 
+⟨60⟩ = 
+⟨61⟩ = .
+⟨273⟩ =  ( ) is 
+⟨274⟩ = 
+⟨275⟩ =  following 
+⟨276⟩ =  in 
+⟨277⟩ =  (the fourth Thursday of 
+⟨278⟩ = ).
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What day in November is Southpark most congested?

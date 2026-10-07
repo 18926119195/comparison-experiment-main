@@ -1,0 +1,100 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Niccolò Paganini] ⟦134⟧⟨166⟩⟦135⟧⟨167⟩⟦16⟧⟨168⟩⟦37⟧⟨169⟩⟨170⟩⟦227⟧⟦227⟧⟨171⟩⟨172⟩⟦81⟧⟦81⟧⟨173⟩⟨174⟩⟨175⟩⟨176⟩
+[Niccolò Paganini] ⟨177⟩⟦195⟧⟨179⟩⟨178⟩⟨180⟩⟦96⟧⟦213⟧⟨181⟩⟨182⟩⟦91⟧⟦124⟧⟨183⟩⟨184⟩⟦200⟧⟦151⟧⟨185⟩⟨186⟩⟦128⟧⟨188⟩⟦180⟧⟨187⟩⟨189⟩
+[Niccolò Paganini] ⟨190⟩⟦87⟧⟨191⟩⟦171⟧⟨192⟩⟦88⟧⟨193⟩⟨194⟩⟦35⟧⟦104⟧⟨195⟩⟨196⟩⟦121⟧⟦50⟧⟨197⟩⟨198⟩
+[Schnuckenack Reinhardt] ⟦52⟧
+[Michael Christian Festing] ⟦226⟧⟦49⟧⟦49⟧
+[Michael Christian Festing] ⟦224⟧⟦224⟧⟦230⟧
+
+符号表：
+⟦16⟧ = 27 October
+⟦35⟧ = an inspiration
+⟦37⟧ = an Italian violinist
+⟦49⟧ = composer
+⟦50⟧ = composers
+⟦52⟧ = compositions
+⟦81⟧ = guitarist
+⟦87⟧ = His 24 Caprices
+⟦88⟧ = his compositions
+⟦91⟧ = his mark
+⟦96⟧ = his time
+⟦104⟧ = inspiration
+⟦121⟧ = many prominent composers
+⟦124⟧ = mark
+⟦128⟧ = modern violin technique
+⟦134⟧ = Niccolò
+⟦135⟧ = Nicolò) Paganini
+⟦151⟧ = pillars
+⟦171⟧ = Solo Violin Op
+⟦180⟧ = technique
+⟦195⟧ = the most celebrated violin virtuoso
+⟦200⟧ = the pillars
+⟦213⟧ = time
+⟦224⟧ = violin
+⟦226⟧ = violinist
+⟦227⟧ = violist
+⟦230⟧ = virtuoso
+
+占位符映射：
+⟨166⟩ =  (or 
+⟨167⟩ =  (] ; 
+⟨168⟩ =  178227 May 1840) was 
+⟨169⟩ = 
+⟨170⟩ = , 
+⟨171⟩ = 
+⟨172⟩ = , 
+⟨173⟩ = 
+⟨174⟩ = , and 
+⟨175⟩ = 
+⟨176⟩ = .
+⟨177⟩ =  He was 
+⟨178⟩ = 
+⟨179⟩ =  
+⟨180⟩ =  of 
+⟨181⟩ = 
+⟨182⟩ = , and left 
+⟨183⟩ = 
+⟨184⟩ =  as one of 
+⟨185⟩ = 
+⟨186⟩ =  of 
+⟨187⟩ = 
+⟨188⟩ =  
+⟨189⟩ = .
+⟨190⟩ =  
+⟨191⟩ =  for 
+⟨192⟩ = . 1 are among the best known of 
+⟨193⟩ = 
+⟨194⟩ = , and have served as 
+⟨195⟩ = 
+⟨196⟩ =  for 
+⟨197⟩ = 
+⟨198⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Caprice No. 5 was composed by what Italian violinist, guitarist, and composer, who was the most celebrated violin virtuoso of his time?

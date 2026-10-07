@@ -1,0 +1,329 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Green Lantern
+⟦2⟧ = "Green Lantern Coaster
+⟦3⟧ = ¥1,000 (approximately $9 USD
+⟦4⟧ = 1.3 m
+⟦5⟧ = 1700 m
+⟦6⟧ = 18 July
+⟦7⟧ = 23 December
+⟦8⟧ = 38 issues
+⟦9⟧ = 3937 ft
+⟦10⟧ = 54 years
+⟦11⟧ = 63 mph
+⟦12⟧ = 65 mph
+⟦13⟧ = a beyond-vertical drop
+⟦14⟧ = a cost
+⟦15⟧ = a duration
+⟦16⟧ = a new volume
+⟦17⟧ = a ride duration
+⟦18⟧ = A single ride
+⟦19⟧ = a stand-up roller coaster
+⟦20⟧ = a stand-up train
+⟦21⟧ = a steel inverted roller coaster
+⟦22⟧ = a steel roller coaster
+⟦23⟧ = a steel stand-up roller coaster
+⟦24⟧ = a tight circuit
+⟦25⟧ = a TOGO Stand-up roller coaster
+⟦26⟧ = a top speed
+⟦27⟧ = a track length
+⟦28⟧ = a wooden roller coaster
+⟦29⟧ = addition
+⟦30⟧ = age
+⟦31⟧ = Alan Scott
+⟦32⟧ = All-American Comics
+⟦33⟧ = an El Loco roller coaster
+⟦34⟧ = an ongoing American comic book series
+⟦35⟧ = an outward banked turn
+⟦36⟧ = any roller coaster
+⟦37⟧ = Apocalypse
+⟦38⟧ = approximately 2⁄ minutes
+⟦39⟧ = approximately three minutes
+⟦40⟧ = April
+⟦41⟧ = area
+⟦42⟧ = areas
+⟦43⟧ = Arrow
+⟦44⟧ = Arrow Dynamics
+⟦45⟧ = attraction
+⟦46⟧ = Australia
+⟦47⟧ = Beast
+⟦48⟧ = Bolliger
+⟦49⟧ = book
+⟦50⟧ = business
+⟦51⟧ = Canada's Wonderland
+⟦52⟧ = Cavallino Matto
+⟦53⟧ = Cedar Point
+⟦54⟧ = Chang
+⟦55⟧ = character
+⟦56⟧ = circuit
+⟦57⟧ = coaster
+⟦58⟧ = coasters
+⟦59⟧ = company
+⟦60⟧ = cost
+⟦61⟧ = DC Comics' Green Lantern
+⟦62⟧ = debut
+⟦63⟧ = decision
+⟦64⟧ = drop
+⟦65⟧ = drop length
+⟦66⟧ = duration
+⟦67⟧ = end
+⟦68⟧ = Europe
+⟦69⟧ = EXT
+⟦70⟧ = Extremeroller
+⟦71⟧ = fastest (55 mph ) stand-up looping roller coaster
+⟦72⟧ = Fear
+⟦73⟧ = firm
+⟦74⟧ = five inversions
+⟦75⟧ = Flight
+⟦76⟧ = Formosa WonderWorld
+⟦77⟧ = Freestyle
+⟦78⟧ = ft
+⟦79⟧ = Fun
+⟦80⟧ = graveyard
+⟦81⟧ = Green Lantern
+⟦82⟧ = Green Lantern Coaster
+⟦83⟧ = ground
+⟦84⟧ = Hal Jordan
+⟦85⟧ = height
+⟦86⟧ = heroes
+⟦87⟧ = holder
+⟦88⟧ = house
+⟦89⟧ = Howaito Saikuron
+⟦90⟧ = hub
+⟦91⟧ = incarnation
+⟦92⟧ = individuals
+⟦93⟧ = inversion
+⟦94⟧ = inversions
+⟦95⟧ = investment
+⟦96⟧ = Iron Wolf
+⟦97⟧ = issues
+⟦98⟧ = Italy
+⟦99⟧ = its debut
+⟦100⟧ = its length
+⟦101⟧ = Jackson Township
+⟦102⟧ = Japan
+⟦103⟧ = Kansas City
+⟦104⟧ = Katun
+⟦105⟧ = King Cobra
+⟦106⟧ = Kings
+⟦107⟧ = Kings Dominion
+⟦108⟧ = Kings Island
+⟦109⟧ = Kings Island's "graveyard
+⟦110⟧ = lead
+⟦111⟧ = length
+⟦112⟧ = Mabillard
+⟦113⟧ = majority
+⟦114⟧ = manufacturer
+⟦115⟧ = Maryland
+⟦116⟧ = Mason
+⟦117⟧ = Mie Prefecture
+⟦118⟧ = minutes
+⟦119⟧ = Missouri
+⟦120⟧ = models
+⟦121⟧ = Movie World
+⟦122⟧ = mph
+⟦123⟧ = mythos
+⟦124⟧ = Nagashima Spa Land
+⟦125⟧ = name
+⟦126⟧ = New Jersey
+⟦127⟧ = number
+⟦128⟧ = Ohio
+⟦129⟧ = one more inversion
+⟦130⟧ = other roller coasters
+⟦131⟧ = Other stand-up roller coasters
+⟦132⟧ = Paramount Parks
+⟦133⟧ = park
+⟦134⟧ = parts
+⟦135⟧ = place
+⟦136⟧ = popularity
+⟦137⟧ = Prince George's County
+⟦138⟧ = protagonist
+⟦139⟧ = Queensland
+⟦140⟧ = Ravenna
+⟦141⟧ = recent years
+⟦142⟧ = record
+⟦143⟧ = records
+⟦144⟧ = remnants
+⟦145⟧ = Revenge
+⟦146⟧ = ride
+⟦147⟧ = roller
+⟦148⟧ = S&S Worldwide
+⟦149⟧ = sale
+⟦150⟧ = Savio
+⟦151⟧ = Screamroller
+⟦152⟧ = series
+⟦153⟧ = Shockwave
+⟦154⟧ = sit-down models
+⟦155⟧ = Six Flags America
+⟦156⟧ = Six Flags Great Adventure
+⟦157⟧ = Six Flags Great America
+⟦158⟧ = Six Flags Kentucky Kingdom
+⟦159⟧ = Six Flags Magic Mountain
+⟦160⟧ = six inversions
+⟦161⟧ = SkyRider
+⟦162⟧ = some back areas
+⟦163⟧ = spare parts
+⟦164⟧ = speed
+⟦165⟧ = stand-up coasters
+⟦166⟧ = stand-up trains
+⟦167⟧ = steel
+⟦168⟧ = storage
+⟦169⟧ = superhero
+⟦170⟧ = Swiss firm Bolliger
+⟦171⟧ = Swiss manufacturer Bolliger
+⟦172⟧ = Taipei Taiwan
+⟦173⟧ = That series
+⟦174⟧ = the 2479 m Steel Dragon
+⟦175⟧ = The 4155 ft ride
+⟦176⟧ = The 4370 ft coaster
+⟦177⟧ = the attraction
+⟦178⟧ = the character
+⟦179⟧ = The character's first incarnation
+⟦180⟧ = The coaster
+⟦181⟧ = the company
+⟦182⟧ = the DC Comics heroes
+⟦183⟧ = the decision
+⟦184⟧ = the first stand-up roller coaster
+⟦185⟧ = the first volume
+⟦186⟧ = the former Mantis, stand-up coaster
+⟦187⟧ = the fourth tallest wooden roller coaster
+⟦188⟧ = the Gold Coast
+⟦189⟧ = the Green Lantern mythos
+⟦190⟧ = the ground
+⟦191⟧ = the King Cobra
+⟦192⟧ = the last fifty years
+⟦193⟧ = the lead protagonist
+⟦194⟧ = the longest inverted roller coaster
+⟦195⟧ = the longest wooden roller coaster
+⟦196⟧ = the majority
+⟦197⟧ = the Mirabilandia Amusement Park
+⟦198⟧ = the Movie Town area
+⟦199⟧ = the name
+⟦200⟧ = the now-defunct King Cobra
+⟦201⟧ = the old Wild Animal Habitat feeding house area
+⟦202⟧ = the original sit-down trains
+⟦203⟧ = the park
+⟦204⟧ = the park's DC Comics superhero hub
+⟦205⟧ = the park's eleventh roller coaster
+⟦206⟧ = the park's fifth roller coaster
+⟦207⟧ = the park's single biggest investment
+⟦208⟧ = The previous record holder
+⟦209⟧ = the previous year
+⟦210⟧ = the record
+⟦211⟧ = the records
+⟦212⟧ = The Riddler's Revenge
+⟦213⟧ = The ride
+⟦214⟧ = the ride's manufacturer
+⟦215⟧ = The roller coaster
+⟦216⟧ = the same name
+⟦217⟧ = the second stand-up roller coaster
+⟦218⟧ = the seventh tallest wooden roller coaster
+⟦219⟧ = the Silver Age Green Lantern
+⟦220⟧ = the Son
+⟦221⟧ = the Southern Hemisphere
+⟦222⟧ = the steepest drop
+⟦223⟧ = the third longest wooden roller coaster
+⟦224⟧ = the trains
+⟦225⟧ = the United States
+⟦226⟧ = the White Cyclone
+⟦227⟧ = the world
+⟦228⟧ = the world's longest steel roller coaster
+⟦229⟧ = those individuals
+⟦230⟧ = Timber Wolf
+⟦231⟧ = TOGO
+⟦232⟧ = track
+⟦233⟧ = track length
+⟦234⟧ = train
+⟦235⟧ = trains
+⟦236⟧ = turn
+⟦237⟧ = Tuscany
+⟦238⟧ = USD
+⟦239⟧ = volume
+⟦240⟧ = Warner Bros.
+⟦241⟧ = White Cyclone
+⟦242⟧ = world
+⟦243⟧ = world records
+⟦244⟧ = Worlds
+⟦245⟧ = year
+⟦246⟧ = years
+⟦247⟧ = ホワイトサイクロン
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Green Lantern Coaster] ⟦82⟧⟨1⟩⟦22⟧⟨2⟩⟦167⟧⟨3⟩⟦147⟧⟨4⟩⟦57⟧⟨5⟩⟦240⟧
+[Green Lantern Coaster] ⟦121⟧⟨6⟩⟦188⟧⟨7⟩⟦139⟧⟨8⟩⟦46⟧⟨9⟩
+[Green Lantern Coaster] ⟦213⟧⟨10⟩⟦146⟧⟨11⟩⟦61⟧⟨12⟩⟦204⟧⟨13⟩⟦133⟧⟨14⟩⟦169⟧⟨15⟩⟦90⟧⟨16⟩
+[Green Lantern Coaster] ⟦213⟧⟨17⟩⟦146⟧⟨18⟩⟦33⟧⟨19⟩⟦147⟧⟨20⟩⟦57⟧⟨21⟩⟦148⟧⟨22⟩⟦24⟧⟨23⟩⟦56⟧⟨24⟩⟦13⟧⟨25⟩⟦64⟧⟨26⟩⟦35⟧⟨27⟩⟦236⟧⟨28⟩
+[Green Lantern Coaster] ⟨29⟩⟦210⟧⟨30⟩⟦142⟧⟨31⟩⟦222⟧⟨32⟩⟦64⟧⟨33⟩⟦36⟧⟨34⟩⟦147⟧⟨35⟩⟦57⟧⟨36⟩⟦221⟧⟨37⟩⟦227⟧⟨38⟩⟦242⟧⟨39⟩
+[Green Lantern Coaster] ⟦2⟧⟨40⟩⟦7⟧⟨41⟩
+[The Riddler's Revenge] ⟦212⟧⟨42⟩⟦145⟧⟨43⟩⟦19⟧⟨44⟩⟦147⟧⟨45⟩⟦57⟧⟨46⟩⟦159⟧⟨47⟩
+[The Riddler's Revenge] ⟨48⟩⟦48⟧⟨49⟩⟦112⟧⟨50⟩⟦213⟧⟨51⟩⟦146⟧⟨52⟩⟦205⟧⟨53⟩⟦133⟧⟨54⟩⟦147⟧⟨55⟩⟦57⟧⟨56⟩⟦242⟧⟨57⟩⟦243⟧⟨58⟩⟦143⟧⟨59⟩⟦165⟧⟨60⟩⟦58⟧⟨61⟩⟦85⟧⟨62⟩⟦85⟧⟨63⟩⟦164⟧⟨64⟩⟦164⟧⟨65⟩⟦64⟧⟨66⟩⟦65⟧⟨67⟩⟦111⟧⟨68⟩⟦232⟧⟨69⟩⟦233⟧⟨70⟩⟦111⟧⟨71⟩⟦127⟧⟨72⟩⟦127⟧⟨73⟩⟦94⟧⟨74⟩⟦94⟧⟨75⟩
+[The Riddler's Revenge] ⟦208⟧⟨76⟩⟦142⟧⟨77⟩⟦87⟧⟨78⟩⟦54⟧⟨79⟩⟦158⟧⟨80⟩⟦245⟧⟨81⟩
+[The Riddler's Revenge] ⟨82⟩⟦198⟧⟨83⟩⟦41⟧⟨84⟩⟦203⟧⟨85⟩⟦133⟧⟨86⟩⟦212⟧⟨87⟩⟦145⟧⟨88⟩⟦207⟧⟨89⟩⟦133⟧⟨90⟩⟦95⟧⟨91⟩⟦14⟧⟨92⟩⟦60⟧⟨93⟩
+[The Riddler's Revenge] ⟨94⟩⟦78⟧⟨95⟩⟦26⟧⟨96⟩⟦164⟧⟨97⟩⟦12⟧⟨98⟩⟦122⟧⟨99⟩
+[The Riddler's Revenge] ⟦176⟧⟨100⟩⟦78⟧⟨101⟩⟦57⟧⟨102⟩⟦160⟧⟨103⟩⟦94⟧⟨104⟩⟦17⟧⟨105⟩⟦146⟧⟨106⟩⟦66⟧⟨107⟩⟦39⟧⟨108⟩⟦118⟧⟨109⟩
+[Green Lantern (Six Flags Great Adventure)] ⟦81⟧⟨110⟩⟦23⟧⟨111⟩⟦167⟧⟨112⟩⟦147⟧⟨113⟩⟦57⟧⟨114⟩⟦156⟧⟨115⟩⟦101⟧⟨116⟩⟦126⟧⟨117⟩
+[Green Lantern (Six Flags Great Adventure)] ⟦1⟧⟨118⟩⟦26⟧⟨119⟩⟦164⟧⟨120⟩⟦11⟧⟨121⟩⟦122⟧⟨122⟩
+[Green Lantern (Six Flags Great Adventure)] ⟦175⟧⟨123⟩⟦146⟧⟨124⟩⟦74⟧⟨125⟩⟦94⟧⟨126⟩⟦15⟧⟨127⟩⟦66⟧⟨128⟩⟦38⟧⟨129⟩⟦118⟧⟨130⟩
+[Green Lantern (Six Flags Great Adventure)] ⟦213⟧⟨131⟩⟦146⟧⟨132⟩⟦170⟧⟨133⟩⟦73⟧⟨134⟩⟦112⟧⟨135⟩
+[Green Lantern (Six Flags Great Adventure)] ⟦81⟧⟨136⟩⟦186⟧⟨137⟩⟦57⟧⟨138⟩⟦53⟧⟨139⟩⟦129⟧⟨140⟩⟦93⟧⟨141⟩
+[King Cobra (roller coaster)] ⟦105⟧⟨142⟩⟦25⟧⟨143⟩⟦147⟧⟨144⟩⟦57⟧⟨145⟩⟦106⟧⟨146⟩⟦108⟧⟨147⟩⟦116⟧⟨148⟩⟦128⟧⟨149⟩
+[King Cobra (roller coaster)] ⟨150⟩⟦227⟧⟨151⟩⟦242⟧⟨152⟩⟦190⟧⟨153⟩⟦83⟧⟨154⟩⟦19⟧⟨155⟩⟦147⟧⟨156⟩⟦57⟧⟨157⟩
+[King Cobra (roller coaster)] ⟦131⟧⟨158⟩⟦147⟧⟨159⟩⟦58⟧⟨160⟩⟦105⟧⟨161⟩⟦154⟧⟨162⟩⟦120⟧⟨163⟩⟦166⟧⟨164⟩⟦235⟧⟨165⟩
+[King Cobra (roller coaster)] ⟨166⟩⟦214⟧⟨167⟩⟦146⟧⟨168⟩⟦114⟧⟨169⟩⟦231⟧⟨170⟩⟦50⟧⟨171⟩⟦50⟧⟨172⟩⟦134⟧⟨173⟩⟦134⟧⟨174⟩⟦213⟧⟨175⟩⟦146⟧⟨176⟩
+[King Cobra (roller coaster)] ⟨177⟩⟦29⟧⟨178⟩⟦29⟧⟨179⟩⟦213⟧⟨180⟩⟦146⟧⟨181⟩⟦136⟧⟨182⟩⟦136⟧⟨183⟩⟦141⟧⟨184⟩⟦246⟧⟨185⟩
+[King Cobra (roller coaster)] ⟨186⟩⟦40⟧⟨187⟩⟦132⟧⟨188⟩⟦105⟧⟨189⟩⟦149⟧⟨190⟩⟦149⟧⟨191⟩
+[King Cobra (roller coaster)] ⟦235⟧⟨192⟩⟦235⟧⟨193⟩⟦109⟧⟨194⟩⟦80⟧⟨195⟩⟦201⟧⟨196⟩⟦88⟧⟨197⟩⟦41⟧⟨198⟩⟦220⟧⟨199⟩⟦47⟧⟨200⟩
+[King Cobra (roller coaster)] ⟨201⟩⟦213⟧⟨202⟩⟦146⟧⟨203⟩⟦183⟧⟨204⟩⟦63⟧⟨205⟩⟦213⟧⟨206⟩⟦146⟧⟨207⟩⟦224⟧⟨208⟩⟦235⟧⟨209⟩⟦106⟧⟨210⟩⟦107⟧⟨211⟩⟦163⟧⟨212⟩⟦134⟧⟨213⟩⟦153⟧⟨214⟩
+[King Cobra (roller coaster)] ⟨215⟩⟦144⟧⟨216⟩⟦144⟧⟨217⟩⟦191⟧⟨218⟩⟦162⟧⟨219⟩⟦42⟧⟨220⟩⟦106⟧⟨221⟩⟦108⟧⟨222⟩⟦75⟧⟨223⟩⟦72⟧⟨224⟩⟦72⟧
+[Green Lantern (comic book)] ⟦81⟧⟨225⟩⟦34⟧⟨226⟩⟦49⟧⟨227⟩⟦152⟧⟨228⟩⟦182⟧⟨229⟩⟦86⟧⟨230⟩⟦216⟧⟨231⟩⟦125⟧⟨232⟩
+[Green Lantern (comic book)] ⟦179⟧⟨233⟩⟦55⟧⟨234⟩⟦91⟧⟨235⟩⟦31⟧⟨236⟩⟦32⟧⟨237⟩⟦185⟧⟨238⟩⟦239⟧⟨239⟩⟦1⟧⟨240⟩
+[Green Lantern (comic book)] ⟦173⟧⟨241⟩⟦152⟧⟨242⟩⟦8⟧⟨243⟩⟦97⟧⟨244⟩
+[Green Lantern (comic book)] ⟨245⟩⟦219⟧⟨246⟩⟦84⟧⟨247⟩⟦178⟧⟨248⟩⟦55⟧⟨249⟩⟦16⟧⟨250⟩⟦239⟧⟨251⟩⟦1⟧⟨252⟩⟦193⟧⟨253⟩⟦110⟧⟨254⟩⟦138⟧⟨255⟩⟦189⟧⟨256⟩⟦123⟧⟨257⟩⟦196⟧⟨258⟩⟦113⟧⟨259⟩⟦192⟧⟨260⟩⟦246⟧⟨261⟩
+[Katun (roller coaster)] ⟦104⟧⟨262⟩⟦21⟧⟨263⟩⟦167⟧⟨264⟩⟦147⟧⟨265⟩⟦57⟧⟨266⟩⟦197⟧⟨267⟩⟦150⟧⟨268⟩⟦140⟧⟨269⟩⟦98⟧⟨270⟩
+[Katun (roller coaster)] ⟨271⟩⟦194⟧⟨272⟩⟦147⟧⟨273⟩⟦57⟧⟨274⟩⟦68⟧⟨275⟩
+[Katun (roller coaster)] ⟦180⟧⟨276⟩⟦57⟧⟨277⟩⟦242⟧⟨278⟩⟦56⟧⟨279⟩⟦57⟧⟨280⟩⟦27⟧⟨281⟩⟦232⟧⟨282⟩⟦111⟧⟨283⟩⟦9⟧⟨284⟩⟦26⟧⟨285⟩⟦164⟧⟨286⟩⟦12⟧⟨287⟩⟦122⟧⟨288⟩⟦160⟧⟨289⟩⟦94⟧⟨290⟩
+[Freestyle (roller coaster)] ⟦77⟧⟨291⟩⟦77⟧⟨292⟩⟦19⟧⟨293⟩⟦147⟧⟨294⟩⟦57⟧⟨295⟩⟦52⟧⟨296⟩⟦237⟧⟨297⟩⟦98⟧⟨298⟩
+[Freestyle (roller coaster)] ⟨299⟩⟦206⟧⟨300⟩⟦133⟧⟨301⟩⟦147⟧⟨302⟩⟦57⟧⟨303⟩⟦6⟧⟨304⟩
+[Freestyle (roller coaster)] ⟦77⟧⟨305⟩⟦51⟧⟨306⟩⟦161⟧⟨307⟩
+[Freestyle (roller coaster)] ⟨308⟩⟦231⟧⟨309⟩⟦231⟧⟨310⟩⟦217⟧⟨311⟩⟦147⟧⟨312⟩⟦57⟧⟨313⟩⟦181⟧⟨314⟩⟦59⟧⟨315⟩⟦200⟧⟨316⟩⟦209⟧⟨317⟩⟦245⟧⟨318⟩⟦108⟧⟨319⟩
+[Extremeroller] ⟦70⟧⟨320⟩⟦23⟧⟨321⟩⟦167⟧⟨322⟩⟦147⟧⟨323⟩⟦57⟧⟨324⟩⟦244⟧⟨325⟩⟦79⟧⟨326⟩⟦103⟧⟨327⟩⟦119⟧⟨328⟩
+[Extremeroller] ⟨329⟩⟦44⟧⟨330⟩⟦184⟧⟨331⟩⟦147⟧⟨332⟩⟦57⟧⟨333⟩⟦225⟧⟨334⟩
+[Extremeroller] ⟨335⟩⟦199⟧⟨336⟩⟦125⟧⟨337⟩⟦151⟧⟨338⟩
+[Extremeroller] ⟨339⟩⟦43⟧⟨340⟩⟦20⟧⟨341⟩⟦234⟧⟨342⟩⟦177⟧⟨343⟩⟦45⟧⟨344⟩⟦70⟧⟨345⟩⟦69⟧⟨346⟩
+[Extremeroller] ⟨347⟩⟦202⟧⟨348⟩⟦235⟧⟨349⟩⟦135⟧⟨350⟩⟦135⟧⟨351⟩⟦177⟧⟨352⟩⟦45⟧⟨353⟩⟦230⟧⟨354⟩
+[Extremeroller] ⟨355⟩⟦70⟧⟨356⟩⟦70⟧⟨357⟩⟦76⟧⟨358⟩⟦172⟧⟨359⟩⟦67⟧⟨360⟩⟦67⟧⟨361⟩⟦177⟧⟨362⟩⟦45⟧⟨363⟩⟦168⟧⟨364⟩⟦168⟧⟨365⟩
+[Apocalypse (Six Flags America)] ⟦37⟧⟨366⟩⟦37⟧⟨367⟩⟦23⟧⟨368⟩⟦167⟧⟨369⟩⟦147⟧⟨370⟩⟦57⟧⟨371⟩⟦155⟧⟨372⟩⟦137⟧⟨373⟩⟦115⟧⟨374⟩
+[Apocalypse (Six Flags America)] ⟦213⟧⟨375⟩⟦146⟧⟨376⟩⟦99⟧⟨377⟩⟦62⟧⟨378⟩⟦96⟧⟨379⟩⟦157⟧⟨380⟩⟦155⟧⟨381⟩⟦37⟧⟨382⟩
+[Apocalypse (Six Flags America)] ⟦215⟧⟨383⟩⟦147⟧⟨384⟩⟦57⟧⟨385⟩⟦171⟧⟨386⟩⟦114⟧⟨387⟩⟦112⟧⟨388⟩
+[Apocalypse (Six Flags America)] ⟨389⟩⟦96⟧⟨390⟩⟦215⟧⟨391⟩⟦147⟧⟨392⟩⟦57⟧⟨393⟩⟦211⟧⟨394⟩⟦143⟧⟨395⟩⟦71⟧⟨396⟩⟦122⟧⟨397⟩⟦147⟧⟨398⟩⟦57⟧⟨399⟩⟦227⟧⟨400⟩⟦242⟧⟨401⟩⟦130⟧⟨402⟩⟦147⟧⟨403⟩⟦58⟧⟨404⟩
+[White Cyclone] ⟦241⟧⟨405⟩⟦247⟧⟨406⟩⟦89⟧⟨407⟩⟦28⟧⟨408⟩⟦147⟧⟨409⟩⟦57⟧⟨410⟩⟦124⟧⟨411⟩⟦117⟧⟨412⟩⟦102⟧⟨413⟩
+[White Cyclone] ⟨414⟩⟦5⟧⟨415⟩⟦111⟧⟨416⟩⟦111⟧⟨417⟩⟦241⟧⟨418⟩⟦223⟧⟨419⟩⟦147⟧⟨420⟩⟦57⟧⟨421⟩⟦227⟧⟨422⟩⟦242⟧⟨423⟩⟦195⟧⟨424⟩⟦147⟧⟨425⟩⟦57⟧⟨426⟩⟦225⟧⟨427⟩
+[White Cyclone] ⟨428⟩⟦100⟧⟨429⟩⟦111⟧⟨430⟩⟦241⟧⟨431⟩⟦174⟧⟨432⟩⟦228⟧⟨433⟩⟦242⟧⟨434⟩⟦167⟧⟨435⟩⟦147⟧⟨436⟩⟦57⟧⟨437⟩⟦124⟧⟨438⟩
+[White Cyclone] ⟨439⟩⟦29⟧⟨440⟩⟦29⟧⟨441⟩⟦223⟧⟨442⟩⟦147⟧⟨443⟩⟦57⟧⟨444⟩⟦241⟧⟨445⟩⟦218⟧⟨446⟩⟦147⟧⟨447⟩⟦57⟧⟨448⟩⟦227⟧⟨449⟩⟦242⟧⟨450⟩⟦187⟧⟨451⟩⟦147⟧⟨452⟩⟦57⟧⟨453⟩⟦225⟧⟨454⟩
+[White Cyclone] ⟦18⟧⟨455⟩⟦146⟧⟨456⟩⟦226⟧⟨457⟩⟦3⟧⟨458⟩⟦238⟧⟨459⟩⟦213⟧⟨460⟩⟦146⟧⟨461⟩⟦229⟧⟨462⟩⟦92⟧⟨463⟩⟦4⟧⟨464⟩⟦85⟧⟨465⟩⟦85⟧⟨466⟩⟦229⟧⟨467⟩⟦92⟧⟨468⟩⟦10⟧⟨469⟩⟦246⟧⟨470⟩⟦30⟧⟨471⟩⟦30⟧⟨472⟩
+
+[user]
+
+问题：
+Between the Riddlers Revenge and the Green Lantern, which stand-up roller coaster stands tallest?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

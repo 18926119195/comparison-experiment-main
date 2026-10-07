@@ -1,0 +1,312 @@
+[
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "predictedAnswer": "# 路径一：从女演员条目直接定位\n\n步骤1：使用⟦170⟧⟦104⟧⟦105⟧⟦106⟧⟦107⟧⟦108⟧⟦109⟧⟦110⟧⟦111⟧⟦112⟧⟦113⟧⟦114⟧⟦115⟧⟦116⟧⟦117⟧⟦118⟧，提取该人物为 Silvia Angélica Navarro Barba，1978年9月14日生于Irapuato, Guanajuato，是墨西哥的film、television、theatre演员，主要因主演多部telenovelas而知名。\n\n步骤2：综合⟦172⟧⟦102⟧⟦150⟧，交叉验证 Silvia Navarro 与 La Heredera 的关联——材料显示 La Heredera 的 protagonists 中包含 Silvia Navarro。\n\n结论：该墨西哥女演员是 Silvia Navarro。\n\n# 路径二：从 La Heredera 剧集条目反向确认\n\n步骤1：使用⟦102⟧⟦193⟧⟦20⟧⟦221⟧⟦222⟧⟦223⟧⟦224⟧⟦225⟧，提取 La Heredera（英文名 The Heiress）是一部墨西哥 telenovela，由 TV Azteca 制作。\n\n步骤2：综合⟦226⟧⟦209⟧⟦157⟧⟦227⟧⟦228⟧⟦172⟧⟦229⟧⟦166⟧⟦230⟧⟦150⟧⟦150⟧⟦231⟧⟦232⟧，提取该剧标志着 the third reunion，为 Silvia Navarro 和 Sergio Basañez 而设，二人作为 protagonists。\n\n结论：La Heredera 的女主角是 Silvia Navarro。\n\n# 路径三：从改编脉络与演员国籍交叉验证\n\n步骤1：使用⟦204⟧⟦167⟧⟦233⟧⟦234⟧⟦38⟧⟦235⟧⟦210⟧⟦219⟧⟦236⟧⟦237⟧⟦36⟧⟦238⟧，提取 The series 后来被改编为 an American telenovela，由 American Heiress 的 title 发展而来。\n\n步骤2：综合⟦127⟧⟦19⟧⟦32⟧⟦222⟧⟦185⟧⟦185⟧，确认 Marlene Favela 是墨西哥女演员，活跃于 TV 和 television，但材料未将其与 La Heredera 的 protagonist 角色关联；而⟦172⟧明确与 La Heredera 的 protagonists 关联。\n\n结论：在 La Heredera 中担任 protagonist 的墨西哥 film/television/theatre 女演员是 Silvia Navarro，而非其他墨西哥女演员。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦102⟧⟨221⟩⟦193⟧⟨222⟩⟦20⟧⟨223⟩⟨224⟩⟨225⟩⟦223⟧⟦222⟧⟨226⟩⟦209⟧",
+    "nounCount": 318,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5586,
+      "completion_tokens": 262,
+      "total_tokens": 5848,
+      "prompt_tokens_details": {
+        "cached_tokens": 5376
+      },
+      "prompt_cache_hit_tokens": 5376,
+      "prompt_cache_miss_tokens": 210
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1029,
+      "completion_tokens": 631,
+      "total_tokens": 1660,
+      "prompt_tokens_details": {
+        "cached_tokens": 895
+      },
+      "prompt_cache_hit_tokens": 895,
+      "prompt_cache_miss_tokens": 134
+    }
+  },
+  {
+    "qid": "hotpot_2879",
+    "question": "Grown-Ups starred the actor who was best known for which role on  \"'Allo 'Allo!\"?",
+    "expectedAnswer": "Captain Hans Geering",
+    "predictedAnswer": "# 路径一：从电影演员表到情景喜剧角色\n\n步骤1：使用⟦67⟧，提取《Grown-Ups》的演员信息，结合⟦74⟧⟦75⟧⟦76⟧⟦77⟧⟦78⟧⟦79⟧⟦80⟧，识别出该片主演包括⟦84⟧、⟦106⟧、⟦78⟧、⟦85⟧、⟦41⟧和⟦118⟧。\n\n步骤2：综合⟦118⟧与⟦30⟧⟦23⟧，确认Sam Kelly是一位英国演员，需要查找他在《'Allo 'Allo!》中的角色。\n\n步骤3：使用⟦122⟧⟦121⟧，定位到《'Allo 'Allo!》这部情景喜剧，结合⟦139⟧，确认Sam Kelly在该剧中饰演的角色是the archetypal Gestapo Officer Herr Otto Flick。\n\n结论：Grown-Ups的主演中，Sam Kelly最为人熟知的角色是《'Allo 'Allo!》中的Herr Otto Flick。\n\n# 路径二：从Richard Gibson的视角交叉验证\n\n步骤1：使用⟦111⟧⟦141⟧，提取Richard Gibson的相关信息，结合⟦87⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧，确认他出生于1954年1月1日，是演员。\n\n步骤2：综合⟦139⟧⟦92⟧⟦93⟧⟦94⟧⟦95⟧，确认Richard Gibson在⟦92⟧的⟦93⟧⟦94⟧《'Allo 'Allo!》中饰演the archetypal Gestapo Officer Herr Otto Flick。\n\n步骤3：对比⟦67⟧与⟦111⟧，检查Richard Gibson是否出演了《Grown-Ups》。根据⟦74⟧至⟦80⟧的演员列表，Richard Gibson并未被列为《Grown-Ups》的主演。\n\n结论：Richard Gibson虽以Herr Otto Flick闻名，但他并非《Grown-Ups》的主演，因此该角色不属于本题答案。\n\n# 路径三：排除法与演员表精确匹配\n\n步骤1：使用⟦67⟧⟦74⟧⟦75⟧⟦76⟧⟦77⟧⟦78⟧⟦79⟧⟦80⟧，完整提取《Grown-Ups》的主演名单：⟦84⟧、⟦106⟧、⟦78⟧、⟦85⟧、⟦41⟧、⟦118⟧。\n\n步骤2：综合⟦115⟧⟦121⟧⟦122⟧，确认《'Allo 'Allo!》是一部情景喜剧，需要找出上述演员中谁出演过该剧并确定其角色。\n\n步骤3：使用⟦118⟧⟦139⟧，确认Sam Kelly在《'Allo 'Allo!》中的角色为Herr Otto Flick。同时检查其他演员如⟦84⟧、⟦106⟧等，未发现他们与《'Allo 'Allo!》的关联证据。\n\n结论：在《Grown-Ups》主演中，唯一与《'Allo 'Allo!》明确关联的是Sam Kelly，其最著名的角色是Herr Otto Flick。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦67⟧⟨69⟩⟦14⟧⟨71⟩⟨70⟩⟨72⟩⟦92⟧⟨73⟩⟦60⟧⟦132⟧⟦67⟧⟨74⟩",
+    "nounCount": 274,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 4684,
+      "completion_tokens": 219,
+      "total_tokens": 4903,
+      "prompt_tokens_details": {
+        "cached_tokens": 4480
+      },
+      "prompt_cache_hit_tokens": 4480,
+      "prompt_cache_miss_tokens": 204
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 973,
+      "completion_tokens": 751,
+      "total_tokens": 1724,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 973
+    }
+  },
+  {
+    "qid": "hotpot_1490",
+    "question": "Li Yitong made her television debut on which network?",
+    "expectedAnswer": "Dragon TV",
+    "predictedAnswer": "# 路径一：从出道作品直接提取播出平台\n\n步骤1：使用⟦186⟧⟦20⟧⟦27⟧⟦35⟧，确认 Li Yitong 是一位中国女演员，其姓名对应中文“李一桐”。\n\n步骤2：使用⟦300⟧⟦138⟧⟦302⟧⟦304⟧⟦324⟧⟦304⟧，提取她于2016年凭借某部网络剧完成演艺出道，该作品为网络剧（web series）。\n\n步骤3：综合⟦6⟧⟦332⟧⟦308⟧，该出道作品为“Demon Girl”，由 Yu Zheng 打造，属于网络剧范畴。\n\n结论：Li Yitong 的电视出道作品是网络剧《Demon Girl》，因此其出道平台为网络平台（web series），而非传统电视台。\n\n# 路径二：交叉验证“电视出道”与“网络剧”的平台归属\n\n步骤1：使用⟦138⟧⟦47⟧，提取她在某作品中获得首个主演角色，这是其演艺出道的关键节点。\n\n步骤2：综合⟦304⟧⟦324⟧⟦6⟧，确认该作品为网络剧《Demon Girl》，网络剧的播出渠道为视频网站/网络平台。\n\n步骤3：使用⟦300⟧⟦302⟧，确认该作品即为她2016年的出道作品，时间线与作品类型一致。\n\n结论：由于出道作品是网络剧，Li Yitong 的电视出道平台应理解为网络平台（web series），而非某个具体电视台。\n\n# 路径三：排除法——从后续作品反推出道平台\n\n步骤1：使用⟦310⟧⟦162⟧⟦296⟧⟦175⟧⟦271⟧，提取她2017年出演《射雕英雄传》电视剧版中的黄蓉一角，这是传统电视剧作品。\n\n步骤2：综合⟦182⟧⟦211⟧⟦319⟧⟦119⟧，她凭借该武侠剧获得关注与名气，说明其知名度提升主要来自传统电视剧。\n\n步骤3：对比⟦138⟧⟦304⟧⟦324⟧与⟦296⟧，出道作品为网络剧，而2017年作品为传统电视剧，两者平台类型不同。\n\n结论：出道作品《Demon Girl》为网络剧，因此其电视出道平台是网络平台（web series），而非传统电视台；2017年的《射雕英雄传》是其后续在传统电视领域的作品。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦186⟧⟨294⟩⟦20⟧⟨295⟩⟦27⟧⟦27⟧⟨296⟩⟨297⟩⟦35⟧⟨298⟩⟨299⟩⟦63⟧",
+    "nounCount": 462,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7648,
+      "completion_tokens": 224,
+      "total_tokens": 7872,
+      "prompt_tokens_details": {
+        "cached_tokens": 7424
+      },
+      "prompt_cache_hit_tokens": 7424,
+      "prompt_cache_miss_tokens": 224
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 944,
+      "completion_tokens": 549,
+      "total_tokens": 1493,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 944
+    }
+  },
+  {
+    "qid": "hotpot_6330",
+    "question": "Ross Pople worked with this French dominant figure of the post-war classical music world.",
+    "expectedAnswer": "Pierre Louis Joseph Boulez",
+    "predictedAnswer": "# 路径一：从合作名单直接定位\n\n步骤1：使用⟦208⟧，提取 Ross Pople 的身份信息——他是“a New Zealand-born British conductor”（⟦29⟧），其合作对象列表出现在后续材料中。\n\n步骤2：综合⟦349⟧⟦300⟧⟦67⟧⟦76⟧⟦137⟧⟦114⟧⟦218⟧⟦211⟧⟦51⟧⟦296⟧⟦140⟧⟦153⟧⟦112⟧⟦113⟧⟦134⟧⟦89⟧⟦148⟧⟦135⟧⟦149⟧⟦185⟧⟦176⟧⟦61⟧⟦219⟧，提取 Ross Pople 合作过的音乐家名单，其中⟦185⟧明确列为“Pierre Boulez”。\n\n步骤3：使用⟦186⟧⟦10⟧⟦325⟧，确认 Pierre Boulez 的全名与生卒信息（1925 – 5 January 2016），并综合⟦20⟧⟦69⟧⟦298⟧⟦177⟧，确认其身份为“a French composer”（⟦20⟧）、“composer”（⟦69⟧）、“writer”（⟦298⟧）、“organiser”（⟦177⟧）。\n\n结论：Ross Pople 合作过的法国人物是 Pierre Boulez。\n\n---\n\n# 路径二：从“战后古典音乐界主导人物”反向匹配\n\n步骤1：使用⟦243⟧⟦268⟧，提取“the dominant figures”（⟦243⟧）与“the post-war classical music world”（⟦268⟧）这一描述，指向战后古典音乐界的主导人物。\n\n步骤2：综合⟦336⟧⟦243⟧⟦268⟧，该描述用于 Pierre Boulez 的条目中——“He was one of the dominant figures of the post-war classical music world”（⟦336⟧+⟦243⟧+⟦268⟧），确认 Pierre Boulez 符合“French dominant figure of the post-war classical music world”这一描述。\n\n步骤3：使用⟦185⟧，确认 Pierre Boulez 出现在 Ross Pople 的合作名单中（⟦349⟧引导的合作列表包含⟦185⟧）。\n\n结论：Ross Pople 合作的这位法国战后古典音乐界主导人物是 Pierre Boulez。\n\n---\n\n# 路径三：交叉验证国籍、时代与职业身份\n\n步骤1：使用⟦20⟧，提取“a French composer”，确认目标人物为法国作曲家。\n\n步骤2：综合⟦186⟧⟦325⟧，提取 Pierre Boulez 的全名“Pierre Louis Joseph Boulez CBE”及生卒年“1925 – 5 January 2016”，其活跃期覆盖战后时期。\n\n步骤3：综合⟦298⟧⟦177⟧⟦130⟧，提取 Pierre Boulez 同时是“writer”（⟦298⟧）、“organiser”（⟦177⟧），并与“institutions”（⟦130⟧）相关，符合“dominant figure”的多重身份特征。\n\n步骤4：使用⟦185⟧，确认 Ross Pople 的合作名单中包含 Pierre Boulez。\n\n结论：综合国籍（法国）、时代（战后）、职业身份（作曲家/作家/组织者）及合作关系，目标人物为 Pierre Boulez。\n\n---\n\n# 路径四：排除法与唯一性验证\n\n步骤1：使用⟦208⟧⟦29⟧，确认 Ross Pople 为新西兰出生的英国指挥家，其合作对象列表见⟦349⟧之后。\n\n步骤2：综合⟦349⟧至⟦375⟧的合作名单，逐一排查：⟦67⟧Clifford Curzon、⟦76⟧David Oistrakh、⟦137⟧Kentner、⟦114⟧George Malcolm、⟦218⟧Sir Adrian Boult、⟦211⟧Rudolf Kempe、⟦51⟧Benjamin Britten、⟦296⟧Witold Lutosławski、⟦140⟧Krzysztof Penderecki、⟦153⟧Michael Tippett、⟦112⟧Georg Solti、⟦113⟧George Benjamin、⟦134⟧John Casken、⟦89⟧Edwin Roxburgh、⟦148⟧Luciano Berio、⟦135⟧John Taverner、⟦149⟧Malcolm Arnold、⟦185⟧Pierre Boulez。其中唯一被明确标注为法国作曲家（⟦20⟧）且被描述为战后古典音乐界主导人物（⟦243⟧⟦268⟧）的是⟦185⟧Pierre Boulez。\n\n结论：在 Ross Pople 的全部合作对象中，唯一符合“French dominant figure of the post-war classical music world”描述的是 Pierre Boulez。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦208⟧⟨342⟩⟦29⟧⟨343⟩⟨344⟩⟦71⟧⟦208⟧⟨349⟩⟦300⟧⟨350⟩⟦67⟧⟨351⟩",
+    "nounCount": 425,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6938,
+      "completion_tokens": 382,
+      "total_tokens": 7320,
+      "prompt_tokens_details": {
+        "cached_tokens": 6784
+      },
+      "prompt_cache_hit_tokens": 6784,
+      "prompt_cache_miss_tokens": 154
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1365,
+      "completion_tokens": 1082,
+      "total_tokens": 2447,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1365
+    }
+  },
+  {
+    "qid": "hotpot_7251",
+    "question": "How many students were enrolled in American professional bowler Chris Barnes' high school in the 201",
+    "expectedAnswer": "1,840 students",
+    "predictedAnswer": "# 路径一：从人物到学校的直接链\n\n步骤1：使用⟦81⟧，提取“Chris Barnes”这一人物实体，判断其为美国职业保龄球手。\n步骤2：综合⟦43⟧⟦63⟧⟦313⟧，确认Chris Barnes是American professional bowler，且隶属于Professional Bowlers Association，锁定人物身份。\n步骤3：使用⟦624⟧，提取其出生地信息“born February 25, 1970 in Topeka”，得到Topeka这一地点线索。\n步骤4：综合⟦339⟧⟦340⟧，将Topeka与Topeka High School关联，判断Chris Barnes的高中为Topeka High School。\n步骤5：使用⟦2⟧，提取“1,840 students”，并结合⟦350⟧⟦353⟧⟦355⟧所表示的“In ..., there were ... enrolled”结构，确认该校在2010-2011学年的注册学生人数。\n\n结论：Chris Barnes的高中为Topeka High School，该校在2010-2011学年共有1,840名学生注册。\n\n# 路径二：从学校条目反向定位人物\n\n步骤1：使用⟦337⟧⟦340⟧，提取Topeka High School这一学校实体，并综合⟦17⟧判断其为一所完全认证的高中。\n步骤2：综合⟦131⟧⟦338⟧⟦341⟧，提取该校提供grades 9–12，位于Kansas。\n步骤3：使用⟦2⟧，提取该校学生人数为1,840 students，并结合⟦350⟧⟦352⟧⟦353⟧⟦354⟧⟦355⟧的占位结构，确认该数字对应2010-2011学年。\n步骤4：综合⟦81⟧⟦624⟧⟦339⟧，将Chris Barnes的出生地Topeka与Topeka High School交叉验证，确认二者为同一学校。\n步骤5：综合⟦43⟧⟦63⟧，确认Chris Barnes为American professional bowler，从而完成“人物—学校—人数”的闭环。\n\n结论：American professional bowler Chris Barnes的高中是Topeka High School，2010-2011学年注册学生数为1,840人。\n\n# 路径三：排除干扰项并交叉验证\n\n步骤1：使用⟦263⟧⟦357⟧，提取Patrick Henry High School (Ashland, Virginia)的2010-2011 school year信息，判断其为潜在干扰学校。\n步骤2：综合⟦246⟧⟦230⟧，提取该校的students与school信息，但与Chris Barnes的出生地Topeka不符，排除该学校。\n步骤3：使用⟦81⟧⟦624⟧，确认Chris Barnes出生于Topeka，而非Ashland, Virginia。\n步骤4：综合⟦339⟧⟦340⟧⟦2⟧，锁定Topeka High School及其1,840 students，并与⟦350⟧⟦353⟧⟦355⟧的2010-2011学年注册结构交叉验证。\n步骤5：综合⟦43⟧⟦63⟧⟦313⟧，再次确认Chris Barnes为American professional bowler，确保人物身份无误。\n\n结论：排除Patrick Henry High School后，确认Chris Barnes的高中为Topeka High School，2010-2011学年注册学生数为1,840人。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦81⟧⟨624⟩⟦339⟧⟨625⟩⟦163⟧⟨626⟩⟦43⟧⟦63⟧⟨627⟩⟨628⟩⟦313⟧⟨629⟩",
+    "nounCount": 608,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 9469,
+      "completion_tokens": 181,
+      "total_tokens": 9650,
+      "prompt_tokens_details": {
+        "cached_tokens": 9216
+      },
+      "prompt_cache_hit_tokens": 9216,
+      "prompt_cache_miss_tokens": 253
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 825,
+      "completion_tokens": 734,
+      "total_tokens": 1559,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 185
+    }
+  },
+  {
+    "qid": "hotpot_5871",
+    "question": "Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasti",
+    "expectedAnswer": "Cartoon Network Too",
+    "predictedAnswer": "# 路径一：从 Nick Jr. Too 的推出日期出发\n\n步骤1：使用⟦126⟧⟦139⟧⟦140⟧，提取 Nick Jr. Too（原名 Nick Jr. 2）于 2006 年 4 月 24 日推出，且该日期与某个“rival channel”相同。\n\n步骤2：使用⟦158⟧，确认该“rival channel”即为与 Nick Jr. Too 同日推出的对手频道。\n\n步骤3：综合⟦90⟧⟦197⟧，提取该对手频道与“day”相关的信息，指向其推出日期同为 2006 年 4 月 24 日。\n\n结论：Nick Jr. Too 与一个由 Turner Broadcasting 创建、且为 Cartoon Network 姊妹台的对手频道同日推出。\n\n# 路径二：从 Turner Broadcasting 的资产与频道关系出发\n\n步骤1：使用⟦236⟧⟦305⟧⟦306⟧⟦307⟧，提取 Turner Broadcasting System（又称 Turner）是一家美国媒体集团。\n\n步骤2：综合⟦195⟧⟦331⟧⟦333⟧⟦83⟧⟦108⟧⟦181⟧⟦228⟧⟦239⟧⟦232⟧，提取 Turner 的资产包括 CNN、HLN、TBS、TNT、Turner Classic Movies、Boomerang 和 TruTV 等。\n\n步骤3：使用⟦58⟧⟦133⟧，确认 Turner 管理多个有线电视网络，其中包括 Cartoon Network 及其姊妹频道。\n\n结论：Turner Broadcasting 旗下拥有 Cartoon Network 及其姊妹台，该姊妹台即为与 Nick Jr. Too 同日推出的对手频道。\n\n# 路径三：从 Cartoon Network 的姊妹台与推出日期交叉验证\n\n步骤1：使用⟦62⟧⟦77⟧⟦190⟧，提取 Cartoon Network 是一个频道，且存在其姊妹台的相关信息。\n\n步骤2：综合⟦139⟧⟦140⟧⟦141⟧⟦142⟧⟦143⟧，提取 Nick Jr. Too 于 2006 年 4 月 24 日推出，同日还有另一个频道推出。\n\n步骤3：使用⟦158⟧，确认该同日推出的频道为“rival channel”，且该频道由 Turner Broadcasting 创建、是 Cartoon Network 的姊妹台。\n\n结论：与 Nick Jr. Too 同日推出的对手频道是 Cartoon Network 的姊妹台，由 Turner Broadcasting 创建。\n\n# 路径四：综合多材料锁定唯一频道\n\n步骤1：使用⟦126⟧⟦139⟧，提取 Nick Jr. Too 的推出日期为 2006 年 4 月 24 日。\n\n步骤2：综合⟦158⟧⟦90⟧⟦197⟧，确认存在一个与 Nick Jr. Too 同日推出的“rival channel”。\n\n步骤3：综合⟦236⟧⟦195⟧⟦58⟧⟦133⟧⟦62⟧，确认该频道由 Turner Broadcasting 创建，且为 Cartoon Network 的姊妹台。\n\n结论：该频道即为 Cartoon Network 的姊妹台，由 Turner Broadcasting 创建，与 Nick Jr. Too 同日（2006 年 4 月 24 日）推出。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨126⟩⟦189⟧⟨127⟩⟨128⟩⟨129⟩⟦221⟧⟨130⟩⟦213⟧⟨131⟩⟦116⟧⟨132⟩⟦149⟧",
+    "nounCount": 416,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 6668,
+      "completion_tokens": 421,
+      "total_tokens": 7089,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6668
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1523,
+      "completion_tokens": 737,
+      "total_tokens": 2260,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1523
+    }
+  },
+  {
+    "qid": "hotpot_4880",
+    "question": "The Experts stars what actor known for \"Saturday Night Fever\" and \"Grease\"?",
+    "expectedAnswer": "John Travolta",
+    "predictedAnswer": "# 路径一：直接电影关联推理\n\n步骤1：使用⟦194⟧，提取《The Experts》的基本信息，判断这是一部1989年的美国喜剧电影，主演包括⟦42⟧（Arye Gross）和⟦99⟧（Kelly Preston）。\n\n步骤2：综合⟦194⟧⟦99⟧，注意到《The Experts》的主演名单中包含Kelly Preston，但问题询问的是“known for 'Saturday Night Fever' and 'Grease'”的演员，需要进一步关联。\n\n步骤3：使用⟦92⟧，提取John Joseph Travolta的信息，判断其出生于1954年2月18日，是美国演员，并且其代表作品包括《Saturday Night Fever》和《Grease》。\n\n结论：综合以上信息，《The Experts》的主演中，John Travolta（⟦92⟧）是那位以《Saturday Night Fever》和《Grease》闻名的演员。\n\n# 路径二：作品交叉验证推理\n\n步骤1：使用⟦21⟧，提取《Grease》的信息，判断这是一部1978年的美国音乐浪漫喜剧电影，其中包含演员John Travolta。\n\n步骤2：使用⟦76⟧⟦93⟧，提取《Saturday Night Fever (soundtrack)》的信息，判断其与电影《Saturday Night Fever》相关，并且John Travolta是该电影的主演。\n\n步骤3：综合⟦194⟧⟦92⟧，对比《The Experts》的主演名单与John Travolta的演艺经历，确认John Travolta同时出现在《The Experts》和上述两部作品中。\n\n结论：通过交叉验证，《The Experts》的主演是John Travolta，他因《Saturday Night Fever》和《Grease》而广为人知。\n\n# 路径三：演员身份与作品关联推理\n\n步骤1：使用⟦38⟧，提取John Travolta的身份信息，判断他是一位美国演员。\n\n步骤2：使用⟦62⟧⟦128⟧⟦155⟧，提取John Travolta的多重身份，包括舞者、制片人和歌手，这些身份与他在《Saturday Night Fever》和《Grease》中的表演相符。\n\n步骤3：综合⟦194⟧⟦92⟧，将John Travolta的身份与《The Experts》的主演名单进行匹配，确认他是该电影的主演之一。\n\n结论：John Travolta（⟦92⟧）是《The Experts》的主演，并且他因《Saturday Night Fever》和《Grease》而闻名。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦194⟧⟨61⟩⟦23⟧⟨63⟩⟨62⟩⟨64⟩⟨65⟩⟦42⟧⟨66⟩⟦99⟧⟨67⟩⟦58⟧",
+    "nounCount": 350,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5855,
+      "completion_tokens": 202,
+      "total_tokens": 6057,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5855
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 816,
+      "completion_tokens": 545,
+      "total_tokens": 1361,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 816
+    }
+  },
+  {
+    "qid": "hotpot_6995",
+    "question": "What was the name of the commander who captured all of the French ships that varied in size?",
+    "expectedAnswer": "Joshua Rowley",
+    "predictedAnswer": "# 路径一：从英军指挥官角度追踪俘获者\n\n步骤1：使用⟦198⟧，提取“the Captain Edward Acton”，判断这是英方参战指挥官之一。\n\n步骤2：综合⟦185⟧⟦219⟧，对比“the Grifon”与“the French ships Blackoal”，确认这些是法方被俘舰船。\n\n步骤3：使用⟦28⟧，提取“George Clements, and taking her”，判断George Clements参与了俘获行动。\n\n步骤4：综合⟦34⟧⟦35⟧，交叉验证“killed...and took her too”，确认同一指挥官连续俘获多艘法舰。\n\n结论：俘获所有不同大小法国舰船的指挥官是Edward Acton。\n\n# 路径二：从法舰被俘记录反推指挥官\n\n步骤1：使用⟦2⟧⟦3⟧，提取“Blackoal”和“Dauphine”，确认这是两艘被俘法舰。\n\n步骤2：综合⟦4⟧⟦5⟧，对比“Fidèle”和“Hampton Court”，确认更多被俘舰船名单。\n\n步骤3：使用⟦198⟧，提取“the Captain Edward Acton”，判断此人是英方指挥官。\n\n步骤4：综合⟦28⟧⟦35⟧，交叉验证“taking her”和“took her too”，确认同一人指挥了多次俘获。\n\n结论：Edward Acton是俘获所有法舰的指挥官。\n\n# 路径三：从战斗叙述中定位俘获者\n\n步骤1：使用⟦57⟧，提取“Claude Forbin's 60-gun Mars”，确认法方旗舰。\n\n步骤2：综合⟦30⟧⟦31⟧，对比“Mars next attacked”和“when joined by”，确认战斗过程。\n\n步骤3：使用⟦198⟧，提取“the Captain Edward Acton”，判断其为英方指挥官。\n\n步骤4：综合⟦34⟧⟦35⟧，交叉验证“killed...and took her too”，确认俘获行动由Edward Acton指挥。\n\n结论：Edward Acton是俘获所有法舰的指挥官。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨18⟩⟨19⟩⟨20⟩⟨21⟩⟦185⟧⟨22⟩⟦2⟧⟨23⟩⟦3⟧⟨24⟩⟨25⟩⟦5⟧",
+    "nounCount": 446,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7159,
+      "completion_tokens": 274,
+      "total_tokens": 7433,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7159
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1144,
+      "completion_tokens": 475,
+      "total_tokens": 1619,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1144
+    }
+  },
+  {
+    "qid": "hotpot_2189",
+    "question": "George Reed was, along with which Drake University player, one of the greatest running backs in CFL ",
+    "expectedAnswer": "Johnny D. Bright",
+    "predictedAnswer": "# 路径一：直接实体匹配\n\n步骤1：使用⟦83⟧，提取“George Robert Reed”这一全名，确认材料讨论的主体是George Reed。\n\n步骤2：综合⟦83⟧⟦57⟧⟦152⟧⟦15⟧⟦59⟧，提取George Reed的大学背景信息，判断其毕业于Drake University，且曾是一名美国大学橄榄球运动员。\n\n步骤3：使用⟦95⟧，提取“Johnny Bright”这一人名，结合⟦96⟧确认其全名为Johnny D. Bright。\n\n步骤4：综合⟦388⟧⟦95⟧⟦108⟧⟦204⟧，提取“along with Johnny Bright and Mike Pringle, is one of the players most often mentioned as being the greatest running back in CFL history”这一表述，判断与George Reed并列被提及的Drake University球员是Johnny Bright。\n\n结论：与George Reed并列、同为Drake University出身且被誉为CFL历史上最伟大跑卫之一的是Johnny Bright。\n\n# 路径二：大学关联交叉验证\n\n步骤1：使用⟦15⟧，提取“a former American college football”这一描述，判断该材料指向某位曾在美国大学橄榄球体系效力的球员。\n\n步骤2：综合⟦83⟧⟦59⟧，交叉验证George Reed的大学经历，确认其与Drake University的关联。\n\n步骤3：使用⟦95⟧，提取“Johnny Bright”这一人名，结合⟦96⟧确认其身份标识。\n\n步骤4：综合⟦95⟧⟦57⟧⟦152⟧，对比Johnny Bright与George Reed在CFL历史评价中的位置，判断二者同属Drake University出身且均被列为CFL历史最伟大跑卫之一。\n\n结论：Drake University出身的另一位CFL伟大跑卫是Johnny Bright。\n\n# 路径三：CFL历史地位综合支撑\n\n步骤1：使用⟦54⟧，提取“CFL history”这一主题词，确定讨论范围是加拿大橄榄球联盟历史。\n\n步骤2：综合⟦83⟧⟦130⟧⟦57⟧，提取George Reed作为CFL球员的身份及其历史地位描述。\n\n步骤3：综合⟦388⟧⟦95⟧⟦108⟧⟦204⟧，提取“along with Johnny Bright and Mike Pringle, is one of the players most often mentioned as being the greatest running back in CFL history”这一并列结构，判断Johnny Bright与George Reed同属被提及的伟大跑卫。\n\n步骤4：使用⟦15⟧⟦59⟧，验证Johnny Bright的大学背景与Drake University的关联，确认其符合问题中“Drake University player”的限定条件。\n\n结论：综合CFL历史地位与大学背景两重证据，与George Reed并列的Drake University球员是Johnny Bright。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨388⟩⟦108⟧⟨389⟩⟦95⟧⟨390⟩⟦204⟧⟨391⟩⟨392⟩⟦54⟧⟦92⟧⟨393⟩⟨394⟩",
+    "nounCount": 381,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6072,
+      "completion_tokens": 178,
+      "total_tokens": 6250,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6072
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 801,
+      "completion_tokens": 634,
+      "total_tokens": 1435,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 801
+    }
+  },
+  {
+    "qid": "hotpot_6831",
+    "question": "Where is the home of the common party princess voiced by Idina Menzel?",
+    "expectedAnswer": "Arendelle",
+    "predictedAnswer": "# 路径一：从角色配音与角色归属推理\n\n步骤1：使用⟦115⟧，提取“princesses”这一关键词，判断问题中的“party princess”指向公主类角色。\n步骤2：综合⟦107⟧⟦64⟧，提取“party”与“Elsa”的关联，判断常见派对公主中包括 Elsa。\n步骤3：使用⟦119⟧，提取“Queen Elsa”，确认 Elsa 是《Frozen》中的角色。\n步骤4：综合⟦31⟧⟦1⟧，提取“Arendelle”与“Frozen”，判断 Elsa 的家乡是 Arendelle。\n\n结论：常见派对公主中由 Idina Menzel 配音的角色是 Elsa，其家乡是 Arendelle。\n\n# 路径二：从配音演员 Idina Menzel 与角色交叉验证\n\n步骤1：使用⟦64⟧，提取“Elsa”，判断 Idina Menzel 与 Elsa 相关。\n步骤2：综合⟦119⟧⟦11⟧⟦42⟧，提取“Queen Elsa”“a fictional character”“character”，确认 Elsa 是虚构角色。\n步骤3：综合⟦31⟧⟦186⟧⟦1⟧，提取“Arendelle”“Walt Disney Animation Studios' 53rd animated film”“Frozen”，判断 Elsa 所属故事发生在 Arendelle。\n\n结论：Idina Menzel 配音的常见派对公主是 Elsa，其家乡为 Arendelle。\n\n# 路径三：从派对公主常见角色列表排除与定位\n\n步骤1：综合⟦167⟧⟦47⟧⟦142⟧⟦166⟧，提取“The most common party princesses costumes”“Cinderella”“Sleeping Beauty”“The Little Mermaid”，列出常见派对公主角色。\n步骤2：使用⟦64⟧，提取“Elsa”，判断 Elsa 也属于常见派对公主之一。\n步骤3：综合⟦119⟧⟦31⟧，提取“Queen Elsa”与“Arendelle”，确认 Elsa 的家乡。\n步骤4：使用⟦115⟧，提取“princesses”，与问题中的“party princess”对应，确认答案指向公主角色的家乡。\n\n结论：在常见派对公主中，Idina Menzel 配音的是 Elsa，其家乡是 Arendelle。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦119⟧⟨271⟩⟦31⟧⟨272⟩⟦11⟧⟦42⟧⟨273⟩⟨274⟩⟦186⟧⟨275⟩⟨276⟩⟦1⟧",
+    "nounCount": 287,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4752,
+      "completion_tokens": 118,
+      "total_tokens": 4870,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4752
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 627,
+      "completion_tokens": 515,
+      "total_tokens": 1142,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 627
+    }
+  }
+]

@@ -1,0 +1,238 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 160 southbound bypasses
+⟦2⟧ = 160-A.
+⟦3⟧ = 32.64 mi
+⟦4⟧ = 8.02 mi
+⟦5⟧ = a 0.739 mi road
+⟦6⟧ = a 7.47 mi long state highway
+⟦7⟧ = a cable ferry
+⟦8⟧ = a ferry
+⟦9⟧ = a more westerly direction
+⟦10⟧ = a north–south highway
+⟦11⟧ = a north–south state highway
+⟦12⟧ = a primary state highway
+⟦13⟧ = a state highway
+⟦14⟧ = a summit elevation
+⟦15⟧ = a top
+⟦16⟧ = a west–east state highway
+⟦17⟧ = A.
+⟦18⟧ = abbreviated SR
+⟦19⟧ = Alabama
+⟦20⟧ = an 18.415 mi state highway
+⟦21⟧ = an end
+⟦22⟧ = an interchange
+⟦23⟧ = an intersection
+⟦24⟧ = any other mountain
+⟦25⟧ = Appalachia
+⟦26⟧ = Benham
+⟦27⟧ = Betatakin
+⟦28⟧ = Betatakin Ruin
+⟦29⟧ = Black Mountain
+⟦30⟧ = Blount County
+⟦31⟧ = Blount County Route
+⟦32⟧ = border
+⟦33⟧ = bottom height
+⟦34⟧ = Brinkley
+⟦35⟧ = bypasses
+⟦36⟧ = cable
+⟦37⟧ = California
+⟦38⟧ = California's Central Valley
+⟦39⟧ = Carr Creek
+⟦40⟧ = city
+⟦41⟧ = Cleveland
+⟦42⟧ = Clutts
+⟦43⟧ = Cody
+⟦44⟧ = collector
+⟦45⟧ = counties
+⟦46⟧ = CR
+⟦47⟧ = Cumberland
+⟦48⟧ = Denmark
+⟦49⟧ = direction
+⟦50⟧ = distributor
+⟦51⟧ = distributor ramps
+⟦52⟧ = east
+⟦53⟧ = edge
+⟦54⟧ = elevation
+⟦55⟧ = end
+⟦56⟧ = ends
+⟦57⟧ = exit
+⟦58⟧ = ferry
+⟦59⟧ = ft
+⟦60⟧ = Gallipolis
+⟦61⟧ = Galt
+⟦62⟧ = Gordon
+⟦63⟧ = Hamden
+⟦64⟧ = Harlan County
+⟦65⟧ = height
+⟦66⟧ = highway
+⟦67⟧ = highways
+⟦68⟧ = Hindman
+⟦69⟧ = Hot Spot
+⟦70⟧ = interchange
+⟦71⟧ = intersection
+⟦72⟧ = Interstate
+⟦73⟧ = Ione
+⟦74⟧ = Isom
+⟦75⟧ = its northern terminus
+⟦76⟧ = its number
+⟦77⟧ = Its southern terminus
+⟦78⟧ = its western terminus
+⟦79⟧ = Keet Seel
+⟦80⟧ = Kentucky
+⟦81⟧ = Kentucky Route
+⟦82⟧ = Kings Creek
+⟦83⟧ = Kitsap and King counties
+⟦84⟧ = KY
+⟦85⟧ = level
+⟦86⟧ = Limerick
+⟦87⟧ = line
+⟦88⟧ = Linefork
+⟦89⟧ = Lynch
+⟦90⟧ = Maine's system
+⟦91⟧ = mean
+⟦92⟧ = mi
+⟦93⟧ = mountain
+⟦94⟧ = Navajo National Monument
+⟦95⟧ = north
+⟦96⟧ = northern Arizona
+⟦97⟧ = northern Gallia County
+⟦98⟧ = number
+⟦99⟧ = numbered state highways
+⟦100⟧ = Ohio
+⟦101⟧ = over 2500 ft
+⟦102⟧ = overlaps
+⟦103⟧ = part
+⟦104⟧ = peak
+⟦105⟧ = Port Orchard
+⟦106⟧ = portion
+⟦107⟧ = Premium
+⟦108⟧ = ramps
+⟦109⟧ = road
+⟦110⟧ = roads
+⟦111⟧ = roadway
+⟦112⟧ = route
+⟦113⟧ = Ryer Island
+⟦114⟧ = Sand Hill
+⟦115⟧ = sea
+⟦116⟧ = Seattle
+⟦117⟧ = smaller roads
+⟦118⟧ = Smoke Rise
+⟦119⟧ = SR
+⟦120⟧ = state
+⟦121⟧ = State Route
+⟦122⟧ = Steamboat Slough
+⟦123⟧ = stretch
+⟦124⟧ = summit
+⟦125⟧ = Sutter Creek
+⟦126⟧ = system
+⟦127⟧ = terminal
+⟦128⟧ = terminus
+⟦129⟧ = the adjacent stretch
+⟦130⟧ = the city
+⟦131⟧ = the Commonwealth
+⟦132⟧ = the eastern end
+⟦133⟧ = The eastern terminus
+⟦134⟧ = the Fauntleroy ferry terminal
+⟦135⟧ = the former route number
+⟦136⟧ = the former southern terminus
+⟦137⟧ = the highest mountain peak
+⟦138⟧ = the highway
+⟦139⟧ = the Howard Landing Ferry
+⟦140⟧ = the interchange
+⟦141⟧ = the Kentucky state line
+⟦142⟧ = the Lonesome Pine
+⟦143⟧ = the north-central part
+⟦144⟧ = the only state highway
+⟦145⟧ = the roadway
+⟦146⟧ = the route
+⟦147⟧ = the southeastern portion
+⟦148⟧ = the southern edge
+⟦149⟧ = the Southworth ferry terminal
+⟦150⟧ = the state
+⟦151⟧ = the state highway
+⟦152⟧ = The summit
+⟦153⟧ = the towns
+⟦154⟧ = the Trail
+⟦155⟧ = the U.S. state
+⟦156⟧ = the Virginia border
+⟦157⟧ = the Virginia state line
+⟦158⟧ = the western part
+⟦159⟧ = The western terminus
+⟦160⟧ = This intersection
+⟦161⟧ = top
+⟦162⟧ = towns
+⟦163⟧ = Twin Cities Road
+⟦164⟧ = U.S. Route
+⟦165⟧ = US
+⟦166⟧ = US 31's interchange
+⟦167⟧ = USA
+⟦168⟧ = Van
+⟦169⟧ = various collector
+⟦170⟧ = Vashon Heights
+⟦171⟧ = Vest
+⟦172⟧ = Vinton
+⟦173⟧ = Virginia
+⟦174⟧ = Walnut Grove
+⟦175⟧ = Washington
+⟦176⟧ = west
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Virginia State Route 160] ⟦121⟧⟨1⟩⟦119⟧⟨2⟩⟦12⟧⟨3⟩⟦120⟧⟨4⟩⟦66⟧⟨5⟩⟦155⟧⟨6⟩⟦120⟧⟨7⟩⟦173⟧⟨8⟩
+[Virginia State Route 160] ⟨9⟩⟦154⟧⟨10⟩⟦142⟧⟨11⟩⟦151⟧⟨12⟩⟦120⟧⟨13⟩⟦66⟧⟨14⟩⟦4⟧⟨15⟩⟦92⟧⟨16⟩⟦141⟧⟨17⟩⟦120⟧⟨18⟩⟦87⟧⟨19⟩⟦161⟧⟨20⟩⟦161⟧⟨21⟩⟦29⟧⟨22⟩⟦138⟧⟨23⟩⟦66⟧⟨24⟩⟦81⟧⟨25⟩⟦84⟧⟨26⟩⟦119⟧⟨27⟩⟦25⟧⟨28⟩
+[Alabama State Route 160] ⟨29⟩⟦20⟧⟨30⟩⟦92⟧⟨31⟩⟦120⟧⟨32⟩⟦66⟧⟨33⟩⟦30⟧⟨34⟩⟦143⟧⟨35⟩⟦103⟧⟨36⟩⟦155⟧⟨37⟩⟦120⟧⟨38⟩⟦19⟧⟨39⟩
+[Alabama State Route 160] ⟦159⟧⟨40⟩⟦128⟧⟨41⟩⟦138⟧⟨42⟩⟦66⟧⟨43⟩⟦23⟧⟨44⟩⟦71⟧⟨45⟩⟦164⟧⟨46⟩⟦165⟧⟨47⟩⟦148⟧⟨48⟩⟦53⟧⟨49⟩⟦118⟧⟨50⟩
+[Alabama State Route 160] ⟦160⟧⟨51⟩⟦71⟧⟨52⟩⟦166⟧⟨53⟩⟦70⟧⟨54⟩⟦72⟧⟨55⟩⟦57⟧⟨56⟩⟦57⟧⟨57⟩
+[Alabama State Route 160] ⟦133⟧⟨58⟩⟦128⟧⟨59⟩⟦138⟧⟨60⟩⟦66⟧⟨61⟩⟦23⟧⟨62⟩⟦71⟧⟨63⟩⟦165⟧⟨64⟩⟦31⟧⟨65⟩⟦46⟧⟨66⟩⟦46⟧⟨67⟩⟦41⟧⟨68⟩
+[Alabama State Route 160] ⟦119⟧⟨69⟩⟦144⟧⟨70⟩⟦120⟧⟨71⟩⟦66⟧⟨72⟩⟦30⟧⟨73⟩
+[Washington State Route 160] ⟨74⟩⟦6⟧⟨75⟩⟦120⟧⟨76⟩⟦66⟧⟨77⟩⟦83⟧⟨78⟩⟦45⟧⟨79⟩⟦155⟧⟨80⟩⟦120⟧⟨81⟩⟦175⟧⟨82⟩
+[Washington State Route 160] ⟦138⟧⟨83⟩⟦66⟧⟨84⟩⟦22⟧⟨85⟩⟦70⟧⟨86⟩⟦119⟧⟨87⟩⟦105⟧⟨88⟩⟦149⟧⟨89⟩⟦58⟧⟨90⟩⟦127⟧⟨91⟩⟦146⟧⟨92⟩⟦112⟧⟨93⟩⟦8⟧⟨94⟩⟦58⟧⟨95⟩⟦170⟧⟨96⟩⟦136⟧⟨97⟩⟦128⟧⟨98⟩⟦119⟧⟨99⟩⟦52⟧⟨100⟩⟦134⟧⟨101⟩⟦58⟧⟨102⟩⟦127⟧⟨103⟩⟦116⟧⟨104⟩
+[Maine State Route 160] ⟦121⟧⟨105⟩⟦18⟧⟨106⟩⟦103⟧⟨107⟩⟦103⟧⟨108⟩⟦90⟧⟨109⟩⟦126⟧⟨110⟩⟦99⟧⟨111⟩⟦120⟧⟨112⟩⟦67⟧⟨113⟩⟦158⟧⟨114⟩⟦103⟧⟨115⟩⟦150⟧⟨116⟩⟦120⟧⟨117⟩
+[Maine State Route 160] ⟨118⟩⟦10⟧⟨119⟩⟦95⟧⟨120⟩⟦66⟧⟨121⟩⟦3⟧⟨122⟩⟦23⟧⟨123⟩⟦71⟧⟨124⟩⟦121⟧⟨125⟩⟦86⟧⟨126⟩⟦23⟧⟨127⟩⟦71⟧⟨128⟩⟦121⟧⟨129⟩⟦48⟧⟨130⟩
+[California State Route 104] ⟦121⟧⟨131⟩⟦119⟧⟨132⟩⟦16⟧⟨133⟩⟦176⟧⟨134⟩⟦120⟧⟨135⟩⟦66⟧⟨136⟩⟦38⟧⟨137⟩
+[California State Route 104] ⟨138⟩⟦121⟧⟨139⟩⟦61⟧⟨140⟩⟦121⟧⟨141⟩⟦125⟧⟨142⟩⟦130⟧⟨143⟩⟦40⟧⟨144⟩⟦73⟧⟨145⟩
+[California State Route 104] ⟨146⟩⟦163⟧⟨147⟩⟦78⟧⟨148⟩⟦128⟧⟨149⟩⟦73⟧⟨150⟩
+[California State Route 104] ⟨151⟩⟦78⟧⟨152⟩⟦128⟧⟨153⟩⟦163⟧⟨154⟩⟦72⟧⟨155⟩⟦21⟧⟨156⟩⟦55⟧⟨157⟩⟦121⟧⟨158⟩⟦95⟧⟨159⟩⟦95⟧⟨160⟩⟦174⟧⟨161⟩
+[Arizona State Route 564] ⟦121⟧⟨162⟩⟦119⟧⟨163⟩⟦13⟧⟨164⟩⟦120⟧⟨165⟩⟦66⟧⟨166⟩⟦96⟧⟨167⟩⟦94⟧⟨168⟩
+[Arizona State Route 564] ⟨169⟩⟦66⟧⟨170⟩⟦164⟧⟨171⟩⟦28⟧⟨172⟩⟦119⟧⟨173⟩⟦76⟧⟨174⟩⟦98⟧⟨175⟩⟦135⟧⟨176⟩⟦112⟧⟨177⟩⟦98⟧⟨178⟩⟦129⟧⟨179⟩⟦123⟧⟨180⟩⟦165⟧⟨181⟩⟦164⟧⟨182⟩
+[Arizona State Route 564] ⟦119⟧⟨183⟩⟦56⟧⟨184⟩⟦27⟧⟨185⟩⟦117⟧⟨186⟩⟦110⟧⟨187⟩⟦79⟧⟨188⟩
+[Ohio State Route 160] ⟦121⟧⟨189⟩⟦119⟧⟨190⟩⟦11⟧⟨191⟩⟦95⟧⟨192⟩⟦120⟧⟨193⟩⟦66⟧⟨194⟩⟦147⟧⟨195⟩⟦106⟧⟨196⟩⟦155⟧⟨197⟩⟦120⟧⟨198⟩⟦100⟧⟨199⟩
+[Ohio State Route 160] ⟨200⟩⟦77⟧⟨201⟩⟦128⟧⟨202⟩⟦119⟧⟨203⟩⟦60⟧⟨204⟩⟦146⟧⟨205⟩⟦112⟧⟨206⟩
+[Ohio State Route 160] ⟨207⟩⟦164⟧⟨208⟩⟦22⟧⟨209⟩⟦70⟧⟨210⟩⟦169⟧⟨211⟩⟦44⟧⟨212⟩⟦50⟧⟨213⟩⟦51⟧⟨214⟩⟦108⟧⟨215⟩
+[Ohio State Route 160] ⟦119⟧⟨216⟩⟦1⟧⟨217⟩⟦35⟧⟨218⟩⟦140⟧⟨219⟩⟦70⟧⟨220⟩⟦5⟧⟨221⟩⟦92⟧⟨222⟩⟦109⟧⟨223⟩⟦119⟧⟨224⟩⟦2⟧⟨225⟩⟦17⟧
+[Ohio State Route 160] ⟨226⟩⟦146⟧⟨227⟩⟦112⟧⟨228⟩⟦172⟧⟨229⟩⟦97⟧⟨230⟩
+[Ohio State Route 160] ⟨231⟩⟦23⟧⟨232⟩⟦71⟧⟨233⟩⟦119⟧⟨234⟩⟦112⟧⟨235⟩⟦9⟧⟨236⟩⟦49⟧⟨237⟩⟦75⟧⟨238⟩⟦128⟧⟨239⟩⟦121⟧⟨240⟩⟦63⟧⟨241⟩
+[California State Route 220] ⟦121⟧⟨242⟩⟦119⟧⟨243⟩⟦13⟧⟨244⟩⟦120⟧⟨245⟩⟦66⟧⟨246⟩⟦155⟧⟨247⟩⟦120⟧⟨248⟩⟦37⟧⟨249⟩⟦121⟧⟨250⟩⟦121⟧⟨251⟩⟦113⟧⟨252⟩
+[California State Route 220] ⟨253⟩⟦132⟧⟨254⟩⟦55⟧⟨255⟩⟦113⟧⟨256⟩⟦109⟧⟨257⟩⟦122⟧⟨258⟩⟦139⟧⟨259⟩⟦7⟧⟨260⟩⟦36⟧⟨261⟩⟦58⟧⟨262⟩
+[Kentucky Route 160] ⟦81⟧⟨263⟩⟦84⟧⟨264⟩⟦13⟧⟨265⟩⟦120⟧⟨266⟩⟦66⟧⟨267⟩⟦155⟧⟨268⟩⟦120⟧⟨269⟩⟦80⟧⟨270⟩
+[Kentucky Route 160] ⟨271⟩⟦157⟧⟨272⟩⟦120⟧⟨273⟩⟦87⟧⟨274⟩⟦145⟧⟨275⟩⟦111⟧⟨276⟩⟦52⟧⟨277⟩⟦25⟧⟨278⟩⟦173⟧⟨279⟩⟦121⟧⟨280⟩⟦95⟧⟨281⟩⟦89⟧⟨282⟩⟦26⟧⟨283⟩⟦42⟧⟨284⟩⟦47⟧⟨285⟩⟦114⟧⟨286⟩⟦62⟧⟨287⟩⟦88⟧⟨288⟩⟦82⟧⟨289⟩⟦107⟧⟨290⟩⟦69⟧⟨291⟩⟦81⟧⟨292⟩⟦168⟧⟨293⟩
+[Kentucky Route 160] ⟦84⟧⟨294⟩⟦102⟧⟨295⟩⟦84⟧⟨296⟩⟦74⟧⟨297⟩⟦43⟧⟨298⟩⟦39⟧⟨299⟩⟦34⟧⟨300⟩⟦68⟧⟨301⟩⟦81⟧⟨302⟩⟦171⟧⟨303⟩
+[Black Mountain (Kentucky)] ⟦29⟧⟨304⟩⟦137⟧⟨305⟩⟦93⟧⟨306⟩⟦104⟧⟨307⟩⟦131⟧⟨308⟩⟦80⟧⟨309⟩⟦167⟧⟨310⟩⟦14⟧⟨311⟩⟦124⟧⟨312⟩⟦54⟧⟨313⟩⟦91⟧⟨314⟩⟦115⟧⟨315⟩⟦85⟧⟨316⟩⟦15⟧⟨317⟩⟦161⟧⟨318⟩⟦33⟧⟨319⟩⟦65⟧⟨320⟩⟦101⟧⟨321⟩
+[Black Mountain (Kentucky)] ⟦152⟧⟨322⟩⟦124⟧⟨323⟩⟦64⟧⟨324⟩⟦80⟧⟨325⟩⟦156⟧⟨326⟩⟦32⟧⟨327⟩⟦153⟧⟨328⟩⟦162⟧⟨329⟩⟦89⟧⟨330⟩⟦80⟧⟨331⟩⟦25⟧⟨332⟩⟦173⟧⟨333⟩
+[Black Mountain (Kentucky)] ⟨334⟩⟦59⟧⟨335⟩⟦24⟧⟨336⟩⟦93⟧⟨337⟩⟦80⟧⟨338⟩
+
+[user]
+
+问题：
+At what height does State Route 160 start?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

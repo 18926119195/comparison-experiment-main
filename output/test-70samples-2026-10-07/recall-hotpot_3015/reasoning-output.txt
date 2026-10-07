@@ -1,0 +1,31 @@
+# 路径一：从配音角色反向追溯导演
+
+步骤1：使用⟦209⟧，提取 Susanne Pollatschek 的身份信息——她是苏格兰出生的格拉斯哥女演员，曾为 Olivia Flaversham 配音。
+
+步骤2：综合⟦164⟧⟦217⟧，确认 Olivia Flaversham 是 1986 年迪士尼动画电影中的角色，该片即《The Great Mouse Detective》。
+
+步骤3：综合⟦211⟧⟦212⟧⟦213⟧⟦214⟧⟦215⟧⟦216⟧，提取该片的导演信息——影片由 Burny Mattinson、David Michener、John Musker 和 Ron Clements 共同执导。
+
+结论：Susanne Pollatschek 为 Olivia Flaversham 配音的电影是《The Great Mouse Detective》，其导演为 Burny Mattinson、David Michener、John Musker 和 Ron Clements。
+
+# 路径二：从电影条目直接提取导演
+
+步骤1：使用⟦232⟧，定位到《The Great Mouse Detective》这一电影条目。
+
+步骤2：综合⟦55⟧⟦75⟧⟦136⟧⟦190⟧，提取该片导演名单——Burny Mattinson、David Michener、John Musker、Ron Clements。
+
+步骤3：综合⟦209⟧⟦349⟧⟦350⟧，交叉验证 Susanne Pollatschek 确实为 Olivia Flaversham 配音，且该角色出自⟦217⟧所指的 1986 年迪士尼动画电影，即⟦232⟧。
+
+结论：该片导演为 Burny Mattinson、David Michener、John Musker 和 Ron Clements。
+
+# 路径三：通过配音演员与电影的关联链确认
+
+步骤1：使用⟦209⟧，提取 Susanne Pollatschek 的出生信息及配音经历。
+
+步骤2：综合⟦349⟧⟦350⟧⟦351⟧⟦352⟧⟦353⟧⟦354⟧，确认她为 Olivia Flaversham 配音时年仅八岁，且该角色出自⟦217⟧。
+
+步骤3：综合⟦4⟧⟦217⟧⟦232⟧，确认⟦217⟧即《The Great Mouse Detective》，与⟦232⟧为同一部电影。
+
+步骤4：综合⟦55⟧⟦75⟧⟦136⟧⟦190⟧，提取该片导演为 Burny Mattinson、David Michener、John Musker 和 Ron Clements。
+
+结论：Susanne Pollatschek 配音的电影由 Burny Mattinson、David Michener、John Musker 和 Ron Clements 执导。

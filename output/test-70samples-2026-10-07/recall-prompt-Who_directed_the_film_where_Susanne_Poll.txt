@@ -1,0 +1,333 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "A Boy
+⟦2⟧ = "Aladdin
+⟦3⟧ = "Brødre
+⟦4⟧ = "The Great Mouse Detective
+⟦5⟧ = "The Little Mermaid
+⟦6⟧ = (German
+⟦7⟧ = 19 April
+⟦8⟧ = 1990s
+⟦9⟧ = 2001's "Shrek
+⟦10⟧ = a 1926 German silent comedy film
+⟦11⟧ = a 1950 West German musical comedy film
+⟦12⟧ = a 1975 American science fiction comedy-drama thriller film
+⟦13⟧ = a 1986 American animated mystery comedy film
+⟦14⟧ = a 1989 animated musical comedy-drama film
+⟦15⟧ = a 1999 Danish romantic comedy film
+⟦16⟧ = a 2004 American computer-animated fantasy film
+⟦17⟧ = a 2009 American psychological war drama film
+⟦18⟧ = a British television serial
+⟦19⟧ = a German Shepherd
+⟦20⟧ = a Golden Globe nomination
+⟦21⟧ = a greedy Fairy God Mother
+⟦22⟧ = a libretto
+⟦23⟧ = a modern transition
+⟦24⟧ = a Motion Picture Drama
+⟦25⟧ = a remake
+⟦26⟧ = a Scottish-born Glaswegian actress
+⟦27⟧ = A second series
+⟦28⟧ = a swashing cat
+⟦29⟧ = a young orphan girl
+⟦30⟧ = actress
+⟦31⟧ = Afghanistan
+⟦32⟧ = All Dogs
+⟦33⟧ = Alvy Moore
+⟦34⟧ = AMC
+⟦35⟧ = an important lesson
+⟦36⟧ = Andrew Adamson
+⟦37⟧ = Andrews
+⟦38⟧ = Anglo-EMI Film Distributors
+⟦39⟧ = Anne-Marie
+⟦40⟧ = Antonio Banderas
+⟦41⟧ = art
+⟦42⟧ = author
+⟦43⟧ = Banderas
+⟦44⟧ = Basil
+⟦45⟧ = beginning
+⟦46⟧ = Best Actor
+⟦47⟧ = Bodil Award
+⟦48⟧ = Boots
+⟦49⟧ = Both films
+⟦50⟧ = both the Robert Award
+⟦51⟧ = box
+⟦52⟧ = Boy
+⟦53⟧ = Britain
+⟦54⟧ = Brothers
+⟦55⟧ = Burny Mattinson
+⟦56⟧ = Burt Reynolds
+⟦57⟧ = Cameron Diaz
+⟦58⟧ = Carface
+⟦59⟧ = cat
+⟦60⟧ = century
+⟦61⟧ = characters
+⟦62⟧ = Charlie B. Barkin
+⟦63⟧ = Chaste Susanne
+⟦64⟧ = Cleese
+⟦65⟧ = comedies
+⟦66⟧ = comedy
+⟦67⟧ = computer
+⟦68⟧ = Conrad Vernon
+⟦69⟧ = countries
+⟦70⟧ = couples
+⟦71⟧ = cycle
+⟦72⟧ = Danish romantic comedies
+⟦73⟧ = David Farr
+⟦74⟧ = David Harewood
+⟦75⟧ = David Michener
+⟦76⟧ = day
+⟦77⟧ = Den Eneste Ene
+⟦78⟧ = Denmark
+⟦79⟧ = direction
+⟦80⟧ = Disney's hit films
+⟦81⟧ = Distributors
+⟦82⟧ = Dogs
+⟦83⟧ = Dom DeLuise
+⟦84⟧ = Don Bluth
+⟦85⟧ = Don Johnson
+⟦86⟧ = Donkey
+⟦87⟧ = drama
+⟦88⟧ = DreamWorks Animation
+⟦89⟧ = Earth
+⟦90⟧ = Eddie Murphy
+⟦91⟧ = Elizabeth Debicki
+⟦92⟧ = Everett
+⟦93⟧ = fantasy
+⟦94⟧ = fantasy author Harlan Ellison
+⟦95⟧ = feature
+⟦96⟧ = feature film
+⟦97⟧ = fiction
+⟦98⟧ = film
+⟦99⟧ = films
+⟦100⟧ = Fiona
+⟦101⟧ = Fiona's marriage
+⟦102⟧ = Fiona's parents
+⟦103⟧ = first-time parents
+⟦104⟧ = friend
+⟦105⟧ = friendship
+⟦106⟧ = Georg Okonkowski
+⟦107⟧ = German
+⟦108⟧ = girl
+⟦109⟧ = Goldcrest Films
+⟦110⟧ = Harald Paulsen
+⟦111⟧ = Heaven
+⟦112⟧ = her final film role
+⟦113⟧ = her son
+⟦114⟧ = Hilde Krahl
+⟦115⟧ = his best friend
+⟦116⟧ = His Dog
+⟦117⟧ = his final film role
+⟦118⟧ = his former friend
+⟦119⟧ = his performance
+⟦120⟧ = his place
+⟦121⟧ = Homer's epic poem
+⟦122⟧ = Hugh Laurie
+⟦123⟧ = IMG
+⟦124⟧ = Inge Meysel
+⟦125⟧ = inspiration
+⟦126⟧ = Itchy Itchiford
+⟦127⟧ = its 1992 theatrical re
+⟦128⟧ = Jacek Rotmil
+⟦129⟧ = Jake Gyllenhaal
+⟦130⟧ = Jason Robards
+⟦131⟧ = Jean Gilbert
+⟦132⟧ = Jennifer Saunders
+⟦133⟧ = Jim Sheridan
+⟦134⟧ = John Cleese
+⟦135⟧ = John le Carré
+⟦136⟧ = John Musker
+⟦137⟧ = Judith Barsi
+⟦138⟧ = Julie Andrews
+⟦139⟧ = Kelly Asbury
+⟦140⟧ = keusche
+⟦141⟧ = keusche Susanne
+⟦142⟧ = kindness
+⟦143⟧ = L. Q. Jones
+⟦144⟧ = lesson
+⟦145⟧ = libretto
+⟦146⟧ = Lilian Harvey
+⟦147⟧ = love
+⟦148⟧ = LQ/JAF Productions
+⟦149⟧ = marriage
+⟦150⟧ = Meine Nichte Susanne
+⟦151⟧ = mice
+⟦152⟧ = Mike Myers
+⟦153⟧ = My Niece Susanne
+⟦154⟧ = mystery
+⟦155⟧ = name
+⟦156⟧ = narratives
+⟦157⟧ = Natalie Portman
+⟦158⟧ = Niels Olsen
+⟦159⟧ = nomination
+⟦160⟧ = novel
+⟦161⟧ = Odyssey
+⟦162⟧ = office
+⟦163⟧ = Olivia Colman
+⟦164⟧ = Olivia Flaversham
+⟦165⟧ = operetta
+⟦166⟧ = orphan
+⟦167⟧ = over 180 countries
+⟦168⟧ = Paprika Steen
+⟦169⟧ = parents
+⟦170⟧ = Paris
+⟦171⟧ = part
+⟦172⟧ = particular praise
+⟦173⟧ = performance
+⟦174⟧ = place
+⟦175⟧ = poem
+⟦176⟧ = positive response
+⟦177⟧ = praise
+⟦178⟧ = Prince Charming
+⟦179⟧ = Puss
+⟦180⟧ = Rafael Edholm
+⟦181⟧ = rats
+⟦182⟧ = re
+⟦183⟧ = reference
+⟦184⟧ = release
+⟦185⟧ = remake
+⟦186⟧ = response
+⟦187⟧ = Richard Eichberg
+⟦188⟧ = role
+⟦189⟧ = roles
+⟦190⟧ = Ron Clements
+⟦191⟧ = Rupert Everett
+⟦192⟧ = Ruth Weyher
+⟦193⟧ = Saunders
+⟦194⟧ = science
+⟦195⟧ = script
+⟦196⟧ = sequel
+⟦197⟧ = serial
+⟦198⟧ = series
+⟦199⟧ = Shrek
+⟦200⟧ = Shrek and Donkey team
+⟦201⟧ = Sidse Babett Knudsen
+⟦202⟧ = some countries
+⟦203⟧ = son
+⟦204⟧ = story
+⟦205⟧ = success
+⟦206⟧ = Susanne Benton
+⟦207⟧ = Susanne Bier
+⟦208⟧ = Susanne Bier's Danish film
+⟦209⟧ = Susanne Pollatschek
+⟦210⟧ = swashing
+⟦211⟧ = Taxi
+⟦212⟧ = team
+⟦213⟧ = television
+⟦214⟧ = the "Odyssey
+⟦215⟧ = the 1910 operetta
+⟦216⟧ = the 1969 cycle
+⟦217⟧ = the 1986 Disney animated film
+⟦218⟧ = the 1990s
+⟦219⟧ = the 1993 novel
+⟦220⟧ = The 26th Disney
+⟦221⟧ = The Adventures
+⟦222⟧ = the alternative title
+⟦223⟧ = the BBC
+⟦224⟧ = the beginning
+⟦225⟧ = the Best Film
+⟦226⟧ = the English version
+⟦227⟧ = The film
+⟦228⟧ = The film's art direction
+⟦229⟧ = The film's script
+⟦230⟧ = the first film
+⟦231⟧ = The Girl
+⟦232⟧ = The Great Mouse Detective
+⟦233⟧ = The main characters
+⟦234⟧ = The Night Manager
+⟦235⟧ = The One and Only (Danish
+⟦236⟧ = the operetta
+⟦237⟧ = the present day
+⟦238⟧ = the same name
+⟦239⟧ = the sequel
+⟦240⟧ = the series
+⟦241⟧ = The six-part series
+⟦242⟧ = the story
+⟦243⟧ = the Taxi
+⟦244⟧ = the third biggest box-office success
+⟦245⟧ = the twentieth century
+⟦246⟧ = the United Kingdom
+⟦247⟧ = the United States
+⟦248⟧ = their respective voice roles
+⟦249⟧ = thriller
+⟦250⟧ = time
+⟦251⟧ = title
+⟦252⟧ = Tobey Maguire
+⟦253⟧ = Tom Hiddleston
+⟦254⟧ = Tom Hollander
+⟦255⟧ = transition
+⟦256⟧ = two unfaithful married couples
+⟦257⟧ = United Artists
+⟦258⟧ = version
+⟦259⟧ = Vic Tayback
+⟦260⟧ = Victorian London
+⟦261⟧ = voice
+⟦262⟧ = Walt Disney Feature Animation
+⟦263⟧ = Walt Disney Pictures
+⟦264⟧ = war
+⟦265⟧ = Willy Fritsch
+⟦266⟧ = withdraws
+⟦267⟧ = Wolfgang Liebeneiner
+⟦268⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The One and Only (1999 film)] ⟦235⟧⟨1⟩⟦77⟧⟨2⟩⟦15⟧⟨3⟩⟦66⟧⟨4⟩⟦98⟧⟨5⟩⟦207⟧⟨6⟩
+[The One and Only (1999 film)] ⟦227⟧⟨7⟩⟦98⟧⟨8⟩⟦201⟧⟨9⟩⟦158⟧⟨10⟩⟦180⟧⟨11⟩⟦168⟧⟨12⟩⟦204⟧⟨13⟩⟦204⟧⟨14⟩⟦256⟧⟨15⟩⟦70⟧⟨16⟩⟦103⟧⟨17⟩⟦250⟧⟨18⟩⟦169⟧⟨19⟩
+[The One and Only (1999 film)] ⟦227⟧⟨20⟩⟦98⟧⟨21⟩⟦23⟧⟨22⟩⟦255⟧⟨23⟩⟦72⟧⟨24⟩⟦65⟧⟨25⟩⟦244⟧⟨26⟩⟦51⟧⟨27⟩⟦162⟧⟨28⟩⟦205⟧⟨29⟩⟦218⟧⟨30⟩⟦8⟧⟨31⟩⟦78⟧⟨32⟩
+[The One and Only (1999 film)] ⟦227⟧⟨33⟩⟦98⟧⟨34⟩⟦50⟧⟨35⟩⟦47⟧⟨36⟩⟦225⟧⟨37⟩
+[The Night Manager (miniseries)] ⟦234⟧⟨38⟩⟦18⟧⟨39⟩⟦213⟧⟨40⟩⟦197⟧⟨41⟩⟦207⟧⟨42⟩⟦253⟧⟨43⟩⟦122⟧⟨44⟩⟦163⟧⟨45⟩⟦74⟧⟨46⟩⟦254⟧⟨47⟩⟦91⟧⟨48⟩
+[The Night Manager (miniseries)] ⟨49⟩⟦219⟧⟨50⟩⟦160⟧⟨51⟩⟦238⟧⟨52⟩⟦155⟧⟨53⟩⟦135⟧⟨54⟩⟦73⟧⟨55⟩⟦237⟧⟨56⟩⟦76⟧⟨57⟩
+[The Night Manager (miniseries)] ⟦241⟧⟨58⟩⟦171⟧⟨59⟩⟦198⟧⟨60⟩
+[The Night Manager (miniseries)] ⟨61⟩⟦247⟧⟨62⟩⟦7⟧⟨63⟩⟦34⟧⟨64⟩
+[The Night Manager (miniseries)] ⟦123⟧⟨65⟩⟦240⟧⟨66⟩⟦198⟧⟨67⟩⟦167⟧⟨68⟩⟦69⟧⟨69⟩
+[The Night Manager (miniseries)] ⟦27⟧⟨70⟩⟦198⟧⟨71⟩⟦223⟧⟨72⟩⟦34⟧⟨73⟩
+[A Boy and His Dog (1975 film)] ⟨74⟩⟦116⟧⟨75⟩⟦12⟧⟨76⟩⟦194⟧⟨77⟩⟦97⟧⟨78⟩⟦66⟧⟨79⟩⟦87⟧⟨80⟩⟦249⟧⟨81⟩⟦98⟧⟨82⟩⟦33⟧⟨83⟩⟦143⟧⟨84⟩⟦85⟧⟨85⟩⟦206⟧⟨86⟩⟦33⟧⟨87⟩⟦130⟧⟨88⟩
+[A Boy and His Dog (1975 film)] ⟦227⟧⟨89⟩⟦98⟧⟨90⟩⟦247⟧⟨91⟩⟦148⟧⟨92⟩⟦246⟧⟨93⟩⟦38⟧⟨94⟩⟦98⟧⟨95⟩⟦81⟧⟨96⟩
+[A Boy and His Dog (1975 film)] ⟦229⟧⟨97⟩⟦98⟧⟨98⟩⟦195⟧⟨99⟩⟦216⟧⟨100⟩⟦71⟧⟨101⟩⟦156⟧⟨102⟩⟦156⟧⟨103⟩⟦93⟧⟨104⟩⟦94⟧⟨105⟩⟦42⟧⟨106⟩⟦1⟧⟨107⟩⟦52⟧⟨108⟩⟦116⟧⟨109⟩
+[Chaste Susanne (film)] ⟦63⟧⟨110⟩⟦107⟧⟨111⟩⟦140⟧⟨112⟩⟦141⟧⟨113⟩⟦10⟧⟨114⟩⟦66⟧⟨115⟩⟦98⟧⟨116⟩⟦187⟧⟨117⟩⟦146⟧⟨118⟩⟦265⟧⟨119⟩⟦192⟧⟨120⟩
+[Chaste Susanne (film)] ⟨121⟩⟦215⟧⟨122⟩⟦165⟧⟨123⟩⟦140⟧⟨124⟩⟦141⟧⟨125⟩⟦131⟧⟨126⟩⟦22⟧⟨127⟩⟦145⟧⟨128⟩⟦106⟧⟨129⟩
+[Chaste Susanne (film)] ⟨130⟩⟦53⟧⟨131⟩⟦222⟧⟨132⟩⟦251⟧⟨133⟩⟦231⟧⟨134⟩⟦243⟧⟨135⟩⟦183⟧⟨136⟩⟦183⟧⟨137⟩⟦231⟧⟨138⟩⟦243⟧⟨139⟩⟦211⟧⟨140⟩⟦226⟧⟨141⟩⟦258⟧⟨142⟩⟦236⟧⟨143⟩⟦165⟧⟨144⟩
+[Chaste Susanne (film)] ⟦228⟧⟨145⟩⟦98⟧⟨146⟩⟦41⟧⟨147⟩⟦79⟧⟨148⟩⟦128⟧⟨149⟩
+[All Dogs Go to Heaven] ⟦32⟧⟨150⟩⟦82⟧⟨151⟩⟦111⟧⟨152⟩⟦14⟧⟨153⟩⟦66⟧⟨154⟩⟦87⟧⟨155⟩⟦98⟧⟨156⟩⟦84⟧⟨157⟩⟦257⟧⟨158⟩⟦109⟧⟨159⟩
+[All Dogs Go to Heaven] ⟨160⟩⟦242⟧⟨161⟩⟦204⟧⟨162⟩⟦62⟧⟨163⟩⟦56⟧⟨164⟩⟦19⟧⟨165⟩⟦118⟧⟨166⟩⟦104⟧⟨167⟩⟦58⟧⟨168⟩⟦259⟧⟨169⟩⟦117⟧⟨170⟩⟦98⟧⟨171⟩⟦188⟧⟨172⟩⟦266⟧⟨173⟩⟦266⟧⟨174⟩⟦120⟧⟨175⟩⟦174⟧⟨176⟩⟦111⟧⟨177⟩⟦89⟧⟨178⟩⟦115⟧⟨179⟩⟦104⟧⟨180⟩⟦126⟧⟨181⟩⟦83⟧⟨182⟩⟦29⟧⟨183⟩⟦166⟧⟨184⟩⟦108⟧⟨185⟩⟦39⟧⟨186⟩⟦137⟧⟨187⟩⟦112⟧⟨188⟩⟦98⟧⟨189⟩⟦188⟧⟨190⟩⟦35⟧⟨191⟩⟦144⟧⟨192⟩⟦142⟧⟨193⟩⟦142⟧⟨194⟩⟦105⟧⟨195⟩⟦105⟧⟨196⟩⟦147⟧⟨197⟩⟦147⟧⟨198⟩
+[The Great Mouse Detective] ⟦232⟧⟨199⟩⟦13⟧⟨200⟩⟦154⟧⟨201⟩⟦66⟧⟨202⟩⟦98⟧⟨203⟩⟦262⟧⟨204⟩⟦263⟧⟨205⟩
+[The Great Mouse Detective] ⟦220⟧⟨206⟩⟦95⟧⟨207⟩⟦96⟧⟨208⟩⟦98⟧⟨209⟩⟦227⟧⟨210⟩⟦98⟧⟨211⟩⟦55⟧⟨212⟩⟦75⟧⟨213⟩⟦212⟧⟨214⟩⟦136⟧⟨215⟩⟦190⟧⟨216⟩⟦80⟧⟨217⟩⟦99⟧⟨218⟩⟦5⟧⟨219⟩⟦2⟧⟨220⟩
+[The Great Mouse Detective] ⟦227⟧⟨221⟩⟦98⟧⟨222⟩⟦221⟧⟨223⟩⟦232⟧⟨224⟩⟦127⟧⟨225⟩⟦182⟧⟨226⟩⟦184⟧⟨227⟩⟦184⟧⟨228⟩⟦44⟧⟨229⟩⟦232⟧⟨230⟩⟦202⟧⟨231⟩⟦69⟧⟨232⟩
+[The Great Mouse Detective] ⟦233⟧⟨233⟩⟦61⟧⟨234⟩⟦151⟧⟨235⟩⟦151⟧⟨236⟩⟦181⟧⟨237⟩⟦181⟧⟨238⟩⟦260⟧⟨239⟩
+[Brothers (2009 film)] ⟦54⟧⟨240⟩⟦54⟧⟨241⟩⟦17⟧⟨242⟩⟦264⟧⟨243⟩⟦87⟧⟨244⟩⟦98⟧⟨245⟩⟦25⟧⟨246⟩⟦185⟧⟨247⟩⟦208⟧⟨248⟩⟦98⟧⟨249⟩⟦3⟧⟨250⟩⟦174⟧⟨251⟩⟦174⟧⟨252⟩⟦31⟧⟨253⟩⟦78⟧⟨254⟩
+[Brothers (2009 film)] ⟦227⟧⟨255⟩⟦98⟧⟨256⟩⟦252⟧⟨257⟩⟦129⟧⟨258⟩⟦157⟧⟨259⟩⟦133⟧⟨260⟩
+[Brothers (2009 film)] ⟦49⟧⟨261⟩⟦99⟧⟨262⟩⟦125⟧⟨263⟩⟦125⟧⟨264⟩⟦121⟧⟨265⟩⟦175⟧⟨266⟩⟦214⟧⟨267⟩⟦161⟧⟨268⟩
+[Brothers (2009 film)] ⟦227⟧⟨269⟩⟦98⟧⟨270⟩⟦176⟧⟨271⟩⟦186⟧⟨272⟩
+[Brothers (2009 film)] ⟦252⟧⟨273⟩⟦172⟧⟨274⟩⟦177⟧⟨275⟩⟦119⟧⟨276⟩⟦173⟧⟨277⟩⟦20⟧⟨278⟩⟦159⟧⟨279⟩⟦46⟧⟨280⟩⟦24⟧⟨281⟩⟦119⟧⟨282⟩⟦173⟧⟨283⟩
+[Shrek 2] ⟦199⟧⟨284⟩⟦199⟧⟨285⟩⟦16⟧⟨286⟩⟦67⟧⟨287⟩⟦93⟧⟨288⟩⟦98⟧⟨289⟩⟦88⟧⟨290⟩⟦36⟧⟨291⟩⟦139⟧⟨292⟩⟦68⟧⟨293⟩
+[Shrek 2] ⟨294⟩⟦239⟧⟨295⟩⟦196⟧⟨296⟩⟦9⟧⟨297⟩⟦199⟧⟨298⟩⟦152⟧⟨299⟩⟦90⟧⟨300⟩⟦57⟧⟨301⟩⟦248⟧⟨302⟩⟦261⟧⟨303⟩⟦189⟧⟨304⟩⟦199⟧⟨305⟩⟦199⟧⟨306⟩⟦86⟧⟨307⟩⟦100⟧⟨308⟩⟦230⟧⟨309⟩⟦98⟧⟨310⟩⟦40⟧⟨311⟩⟦138⟧⟨312⟩⟦134⟧⟨313⟩⟦191⟧⟨314⟩⟦132⟧⟨315⟩
+[Shrek 2] ⟨316⟩⟦230⟧⟨317⟩⟦98⟧⟨318⟩⟦199⟧⟨319⟩⟦199⟧⟨320⟩⟦86⟧⟨321⟩⟦100⟧⟨322⟩⟦102⟧⟨323⟩⟦169⟧⟨324⟩⟦37⟧⟨325⟩⟦64⟧⟨326⟩⟦199⟧⟨327⟩⟦86⟧⟨328⟩⟦21⟧⟨329⟩⟦193⟧⟨330⟩⟦199⟧⟨331⟩⟦101⟧⟨332⟩⟦149⟧⟨333⟩⟦100⟧⟨334⟩⟦113⟧⟨335⟩⟦203⟧⟨336⟩⟦178⟧⟨337⟩⟦92⟧⟨338⟩
+[Shrek 2] ⟦200⟧⟨339⟩⟦212⟧⟨340⟩⟦28⟧⟨341⟩⟦210⟧⟨342⟩⟦59⟧⟨343⟩⟦179⟧⟨344⟩⟦48⟧⟨345⟩⟦43⟧⟨346⟩
+[Susanne Pollatschek] ⟦209⟧⟨347⟩⟦26⟧⟨348⟩⟦30⟧⟨349⟩⟦164⟧⟨350⟩⟦217⟧⟨351⟩⟦98⟧⟨352⟩⟦4⟧⟨353⟩⟦268⟧⟨354⟩
+[My Niece Susanne] ⟦153⟧⟨355⟩⟦6⟧⟨356⟩⟦150⟧⟨357⟩⟦11⟧⟨358⟩⟦66⟧⟨359⟩⟦98⟧⟨360⟩⟦267⟧⟨361⟩⟦114⟧⟨362⟩⟦124⟧⟨363⟩⟦110⟧⟨364⟩
+[My Niece Susanne] ⟨365⟩⟦170⟧⟨366⟩⟦224⟧⟨367⟩⟦45⟧⟨368⟩⟦245⟧⟨369⟩⟦60⟧⟨370⟩
+
+[user]
+
+问题：
+Who directed the film where Susanne Pollatschek voiced Olivia Flaversham?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

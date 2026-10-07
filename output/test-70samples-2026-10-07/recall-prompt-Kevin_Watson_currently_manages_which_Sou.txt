@@ -1,0 +1,410 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Argyle Football Club
+⟦2⟧ = "Double" winners
+⟦3⟧ = 12 draws
+⟦4⟧ = 17 goals
+⟦5⟧ = 19 goals
+⟦6⟧ = 1920–21
+⟦7⟧ = 2008–09
+⟦8⟧ = 2009–10
+⟦9⟧ = 2013–14
+⟦10⟧ = 21st March
+⟦11⟧ = 22 seasons
+⟦12⟧ = 23 wins
+⟦13⟧ = 35 appearances
+⟦14⟧ = 37 appearances
+⟦15⟧ = 8th
+⟦16⟧ = a 13-year period
+⟦17⟧ = a association football team
+⟦18⟧ = a club
+⟦19⟧ = a competition
+⟦20⟧ = a dip
+⟦21⟧ = a FA Charter Standard Community Club
+⟦22⟧ = a football club
+⟦23⟧ = a former professional footballer
+⟦24⟧ = a further relegation
+⟦25⟧ = A late resurgence
+⟦26⟧ = a limited company
+⟦27⟧ = a list
+⟦28⟧ = a merging
+⟦29⟧ = a period
+⟦30⟧ = a prolonged stay
+⟦31⟧ = a row
+⟦32⟧ = a team
+⟦33⟧ = a twelve-year absence
+⟦34⟧ = absence
+⟦35⟧ = all four divisions
+⟦36⟧ = all seasons
+⟦37⟧ = an ad hoc basis
+⟦38⟧ = an association football club
+⟦39⟧ = an association football team
+⟦40⟧ = an English association football club
+⟦41⟧ = an upgrade
+⟦42⟧ = another club
+⟦43⟧ = appearances
+⟦44⟧ = association
+⟦45⟧ = attendance
+⟦46⟧ = average
+⟦47⟧ = back
+⟦48⟧ = basis
+⟦49⟧ = beginnings
+⟦50⟧ = Bishop's Stortford
+⟦51⟧ = Bishop's Stortford Football Club
+⟦52⟧ = broadcaster
+⟦53⟧ = champions
+⟦54⟧ = championship
+⟦55⟧ = choice
+⟦56⟧ = club
+⟦57⟧ = coach
+⟦58⟧ = coach and sports broadcaster
+⟦59⟧ = Colchester United's fifth season
+⟦60⟧ = company
+⟦61⟧ = competition
+⟦62⟧ = competitions
+⟦63⟧ = county
+⟦64⟧ = course
+⟦65⟧ = cup competitions
+⟦66⟧ = Devon
+⟦67⟧ = dip
+⟦68⟧ = direct entry
+⟦69⟧ = dissolution
+⟦70⟧ = division
+⟦71⟧ = Division One South
+⟦72⟧ = divisions
+⟦73⟧ = Dorset
+⟦74⟧ = Dorset Senior Cup winners
+⟦75⟧ = Dover
+⟦76⟧ = Dover Athletic
+⟦77⟧ = Dover Athletic Football Club
+⟦78⟧ = Dover F.C.
+⟦79⟧ = draws
+⟦80⟧ = each season
+⟦81⟧ = Ebbsfleet United
+⟦82⟧ = eight years
+⟦83⟧ = Election
+⟦84⟧ = end
+⟦85⟧ = England
+⟦86⟧ = English football
+⟦87⟧ = entry
+⟦88⟧ = eventual champions
+⟦89⟧ = Everton
+⟦90⟧ = existence
+⟦91⟧ = facilities
+⟦92⟧ = fellow Southern League side Southend United
+⟦93⟧ = fellow Southern League team Luton Town
+⟦94⟧ = final
+⟦95⟧ = finalists
+⟦96⟧ = five seasons
+⟦97⟧ = fixture
+⟦98⟧ = football
+⟦99⟧ = Football League
+⟦100⟧ = Football League side Reading
+⟦101⟧ = footballer
+⟦102⟧ = form
+⟦103⟧ = foundation
+⟦104⟧ = Fourth Division champions
+⟦105⟧ = Fred Gregory
+⟦106⟧ = games
+⟦107⟧ = George Edmonds
+⟦108⟧ = Gillingham
+⟦109⟧ = goal
+⟦110⟧ = goal average
+⟦111⟧ = goalkeeper
+⟦112⟧ = goals
+⟦113⟧ = goalscorers
+⟦114⟧ = Goodison
+⟦115⟧ = Gosport
+⟦116⟧ = grading
+⟦117⟧ = Gregory
+⟦118⟧ = ground
+⟦119⟧ = ground grading requirements
+⟦120⟧ = guest
+⟦121⟧ = guest players
+⟦122⟧ = Harry Kent
+⟦123⟧ = Hertfordshire
+⟦124⟧ = history
+⟦125⟧ = home
+⟦126⟧ = its top scorer
+⟦127⟧ = January
+⟦128⟧ = Kent
+⟦129⟧ = Kevin Edward Watson
+⟦130⟧ = league
+⟦131⟧ = league football
+⟦132⟧ = list
+⟦133⟧ = manager
+⟦134⟧ = managers
+⟦135⟧ = March
+⟦136⟧ = matches
+⟦137⟧ = members
+⟦138⟧ = men
+⟦139⟧ = merging
+⟦140⟧ = Millwall
+⟦141⟧ = Millwall Football Club
+⟦142⟧ = mounting financial problems
+⟦143⟧ = name
+⟦144⟧ = New manager Ted Fenton
+⟦145⟧ = nine seasons
+⟦146⟧ = no League football
+⟦147⟧ = offs
+⟦148⟧ = on course
+⟦149⟧ = one season
+⟦150⟧ = other competitions
+⟦151⟧ = other major competitions
+⟦152⟧ = Other notable players
+⟦153⟧ = outbreak
+⟦154⟧ = period
+⟦155⟧ = place
+⟦156⟧ = places
+⟦157⟧ = play
+⟦158⟧ = players
+⟦159⟧ = playoff
+⟦160⟧ = playoffs
+⟦161⟧ = Plymouth
+⟦162⟧ = Plymouth Argyle F.C." Election
+⟦163⟧ = Plymouth Argyle Football Club
+⟦164⟧ = Poole
+⟦165⟧ = Poole Town Football Club
+⟦166⟧ = Portsmouth's record
+⟦167⟧ = Priestfield Stadium
+⟦168⟧ = problems
+⟦169⟧ = professionals
+⟦170⟧ = promotion
+⟦171⟧ = qualifying
+⟦172⟧ = Reading
+⟦173⟧ = record
+⟦174⟧ = reigning champions
+⟦175⟧ = relegation
+⟦176⟧ = reliance
+⟦177⟧ = requirements
+⟦178⟧ = resurgence
+⟦179⟧ = Rochdale
+⟦180⟧ = round
+⟦181⟧ = row
+⟦182⟧ = runners
+⟦183⟧ = scorer
+⟦184⟧ = season
+⟦185⟧ = seasons
+⟦186⟧ = semi
+⟦187⟧ = side
+⟦188⟧ = Skilly Williams
+⟦189⟧ = Southampton St. Mary's F.C.
+⟦190⟧ = Southern League champions
+⟦191⟧ = Southern League Cup semi
+⟦192⟧ = sports
+⟦193⟧ = St. Mary
+⟦194⟧ = standard
+⟦195⟧ = start
+⟦196⟧ = stay
+⟦197⟧ = system
+⟦198⟧ = Tatnam
+⟦199⟧ = team
+⟦200⟧ = that league's Premier Division
+⟦201⟧ = the 1896–97 season
+⟦202⟧ = the 1903–04 season
+⟦203⟧ = The 1914–15 season
+⟦204⟧ = The 1919–20 season
+⟦205⟧ = the 1945–46 season
+⟦206⟧ = The 1946–47 season
+⟦207⟧ = the 1989–90 season
+⟦208⟧ = the 2001–02 season
+⟦209⟧ = the 2007–08 season
+⟦210⟧ = the 2008–09 season
+⟦211⟧ = the 2012–13 season
+⟦212⟧ = the 2015–16 season
+⟦213⟧ = the 2016/17 season
+⟦214⟧ = the 3rd time
+⟦215⟧ = the 6th Qualifying round
+⟦216⟧ = the Black Gold Stadium
+⟦217⟧ = The club
+⟦218⟧ = the club's first choice goalkeeper
+⟦219⟧ = the club's ground
+⟦220⟧ = the club's history
+⟦221⟧ = The club's manager
+⟦222⟧ = the Conference
+⟦223⟧ = the Conference Premier
+⟦224⟧ = the Conference South
+⟦225⟧ = the county
+⟦226⟧ = the dissolution
+⟦227⟧ = the Dorset County Football Association
+⟦228⟧ = the end
+⟦229⟧ = the English Football League
+⟦230⟧ = the English football league system
+⟦231⟧ = the FA Cup
+⟦232⟧ = the FA Cup and Southern League Cup
+⟦233⟧ = the fifth tier
+⟦234⟧ = the final
+⟦235⟧ = the First Division
+⟦236⟧ = the first nine years
+⟦237⟧ = the first round
+⟦238⟧ = the First Round Proper
+⟦239⟧ = the first time
+⟦240⟧ = the First World War
+⟦241⟧ = the Football Conference
+⟦242⟧ = the Football League
+⟦243⟧ = the foundation
+⟦244⟧ = the fourth tier
+⟦245⟧ = the Isthmian League
+⟦246⟧ = the league
+⟦247⟧ = the League Cup
+⟦248⟧ = the manager
+⟦249⟧ = the most successful period
+⟦250⟧ = the National League
+⟦251⟧ = the National League South
+⟦252⟧ = the new club
+⟦253⟧ = the only two men
+⟦254⟧ = the outbreak
+⟦255⟧ = the play-offs
+⟦256⟧ = the playoff games
+⟦257⟧ = the playoff place
+⟦258⟧ = the playoffs
+⟦259⟧ = the Premier Division
+⟦260⟧ = the reliance
+⟦261⟧ = the required standard
+⟦262⟧ = the season
+⟦263⟧ = the Second Round Proper
+⟦264⟧ = the sixth qualifying round
+⟦265⟧ = the sixth tier
+⟦266⟧ = the Southern Charity Cup
+⟦267⟧ = the Southern League
+⟦268⟧ = the Southern League championship
+⟦269⟧ = the Southern League First Division
+⟦270⟧ = the Southern League Premier Division
+⟦271⟧ = the Southern League title
+⟦272⟧ = the start
+⟦273⟧ = the Tatnam facilities
+⟦274⟧ = the team
+⟦275⟧ = the Third Division South
+⟦276⟧ = the Third Round
+⟦277⟧ = the title
+⟦278⟧ = the top 7 places
+⟦279⟧ = the town
+⟦280⟧ = the town's previous club
+⟦281⟧ = the Wessex League
+⟦282⟧ = the Western League
+⟦283⟧ = the Western League Division
+⟦284⟧ = the Western League title
+⟦285⟧ = their 38 league matches
+⟦286⟧ = their 42 league matches
+⟦287⟧ = their 91 seasons
+⟦288⟧ = their early beginnings
+⟦289⟧ = their existence
+⟦290⟧ = their final season
+⟦291⟧ = their first season
+⟦292⟧ = their history
+⟦293⟧ = their inaugural season
+⟦294⟧ = their last completed season
+⟦295⟧ = their name
+⟦296⟧ = their nineteenth season
+⟦297⟧ = their record
+⟦298⟧ = their twentieth season
+⟦299⟧ = this division
+⟦300⟧ = this time
+⟦301⟧ = tier
+⟦302⟧ = time
+⟦303⟧ = times
+⟦304⟧ = title
+⟦305⟧ = town
+⟦306⟧ = upgrade
+⟦307⟧ = Watford
+⟦308⟧ = Watford Football Club
+⟦309⟧ = Watford's games
+⟦310⟧ = Watford's only other competitive fixture
+⟦311⟧ = West Hertfordshire
+⟦312⟧ = whose goal
+⟦313⟧ = whose place
+⟦314⟧ = Williams
+⟦315⟧ = winners
+⟦316⟧ = wins
+⟦317⟧ = Woodside Park
+⟦318⟧ = year
+⟦319⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[List of Plymouth Argyle F.C. seasons] ⟦163⟧⟨1⟩⟦40⟧⟨2⟩⟦44⟧⟨3⟩⟦98⟧⟨4⟩⟦56⟧⟨5⟩⟦161⟧⟨6⟩⟦66⟧⟨7⟩
+[List of Plymouth Argyle F.C. seasons] ⟨8⟩⟦99⟧⟨9⟩⟦244⟧⟨10⟩⟦301⟧⟨11⟩⟦230⟧⟨12⟩⟦98⟧⟨13⟩⟦130⟧⟨14⟩⟦197⟧⟨15⟩⟦211⟧⟨16⟩⟦184⟧⟨17⟩
+[List of Plymouth Argyle F.C. seasons] ⟦217⟧⟨18⟩⟦56⟧⟨19⟩⟦1⟧⟨20⟩
+[List of Plymouth Argyle F.C. seasons] ⟨21⟩⟦300⟧⟨22⟩⟦302⟧⟨23⟩⟦146⟧⟨24⟩⟦98⟧⟨25⟩⟦136⟧⟨26⟩⟦136⟧⟨27⟩⟦37⟧⟨28⟩⟦48⟧⟨29⟩⟦65⟧⟨30⟩⟦62⟧⟨31⟩
+[List of Plymouth Argyle F.C. seasons] ⟨32⟩⟦127⟧⟨33⟩⟦217⟧⟨34⟩⟦56⟧⟨35⟩⟦26⟧⟨36⟩⟦60⟧⟨37⟩⟦295⟧⟨38⟩⟦143⟧⟨39⟩⟦162⟧⟨40⟩⟦83⟧⟨41⟩⟦267⟧⟨42⟩⟦135⟧⟨43⟩⟦217⟧⟨44⟩⟦56⟧⟨45⟩⟦68⟧⟨46⟩⟦87⟧⟨47⟩⟦235⟧⟨48⟩⟦202⟧⟨49⟩⟦184⟧⟨50⟩
+[List of Plymouth Argyle F.C. seasons] ⟦217⟧⟨51⟩⟦56⟧⟨52⟩⟦282⟧⟨53⟩⟦19⟧⟨54⟩⟦61⟧⟨55⟩⟦267⟧⟨56⟩
+[1946–47 Colchester United F.C. season] ⟦206⟧⟨57⟩⟦184⟧⟨58⟩⟦59⟧⟨59⟩⟦184⟧⟨60⟩⟦292⟧⟨61⟩⟦124⟧⟨62⟩⟦267⟧⟨63⟩
+[1946–47 Colchester United F.C. season] ⟨64⟩⟦267⟧⟨65⟩⟦217⟧⟨66⟩⟦56⟧⟨67⟩⟦232⟧⟨68⟩
+[1946–47 Colchester United F.C. season] ⟦144⟧⟨69⟩⟦133⟧⟨70⟩⟦32⟧⟨71⟩⟦199⟧⟨72⟩⟦169⟧⟨73⟩⟦169⟧⟨74⟩⟦260⟧⟨75⟩⟦176⟧⟨76⟩⟦120⟧⟨77⟩⟦121⟧⟨78⟩⟦158⟧⟨79⟩⟦205⟧⟨80⟩⟦184⟧⟨81⟩⟦217⟧⟨82⟩⟦56⟧⟨83⟩⟦15⟧⟨84⟩⟦246⟧⟨85⟩⟦130⟧⟨86⟩
+[1946–47 Colchester United F.C. season] ⟨87⟩⟦237⟧⟨88⟩⟦180⟧⟨89⟩⟦231⟧⟨90⟩⟦100⟧⟨91⟩⟦187⟧⟨92⟩⟦172⟧⟨93⟩
+[1946–47 Colchester United F.C. season] ⟨94⟩⟦191⟧⟨95⟩⟦186⟧⟨96⟩⟦95⟧⟨97⟩⟦95⟧⟨98⟩⟦167⟧⟨99⟩⟦108⟧⟨100⟩
+[Bishop's Stortford F.C.] ⟦51⟧⟨101⟩⟦22⟧⟨102⟩⟦98⟧⟨103⟩⟦56⟧⟨104⟩⟦50⟧⟨105⟩⟦123⟧⟨106⟩
+[Bishop's Stortford F.C.] ⟨107⟩⟦137⟧⟨108⟩⟦137⟧⟨109⟩⟦270⟧⟨110⟩⟦317⟧⟨111⟩
+[Dover Athletic F.C.] ⟦77⟧⟨112⟩⟦38⟧⟨113⟩⟦44⟧⟨114⟩⟦98⟧⟨115⟩⟦56⟧⟨116⟩⟦279⟧⟨117⟩⟦305⟧⟨118⟩⟦75⟧⟨119⟩⟦128⟧⟨120⟩⟦85⟧⟨121⟩
+[Dover Athletic F.C.] ⟦217⟧⟨122⟩⟦56⟧⟨123⟩⟦250⟧⟨124⟩⟦233⟧⟨125⟩⟦301⟧⟨126⟩⟦86⟧⟨127⟩⟦98⟧⟨128⟩
+[Dover Athletic F.C.] ⟦217⟧⟨129⟩⟦56⟧⟨130⟩⟦226⟧⟨131⟩⟦69⟧⟨132⟩⟦280⟧⟨133⟩⟦305⟧⟨134⟩⟦56⟧⟨135⟩⟦78⟧⟨136⟩⟦313⟧⟨137⟩⟦155⟧⟨138⟩⟦267⟧⟨139⟩⟦252⟧⟨140⟩⟦56⟧⟨141⟩
+[Dover Athletic F.C.] ⟨142⟩⟦207⟧⟨143⟩⟦184⟧⟨144⟩⟦76⟧⟨145⟩⟦268⟧⟨146⟩⟦54⟧⟨147⟩⟦170⟧⟨148⟩⟦170⟧⟨149⟩⟦241⟧⟨150⟩⟦219⟧⟨151⟩⟦56⟧⟨152⟩⟦118⟧⟨153⟩⟦261⟧⟨154⟩⟦194⟧⟨155⟩
+[Dover Athletic F.C.] ⟨156⟩⟦185⟧⟨157⟩⟦274⟧⟨158⟩⟦199⟧⟨159⟩⟦277⟧⟨160⟩⟦304⟧⟨161⟩⟦302⟧⟨162⟩⟦170⟧⟨163⟩⟦170⟧⟨164⟩⟦222⟧⟨165⟩⟦145⟧⟨166⟩⟦185⟧⟨167⟩⟦228⟧⟨168⟩⟦84⟧⟨169⟩⟦208⟧⟨170⟩⟦184⟧⟨171⟩
+[Dover Athletic F.C.] ⟦217⟧⟨172⟩⟦56⟧⟨173⟩⟦267⟧⟨174⟩⟦245⟧⟨175⟩⟦200⟧⟨176⟩⟦130⟧⟨177⟩⟦149⟧⟨178⟩⟦184⟧⟨179⟩⟦142⟧⟨180⟩⟦168⟧⟨181⟩⟦217⟧⟨182⟩⟦56⟧⟨183⟩⟦24⟧⟨184⟩⟦175⟧⟨185⟩
+[Dover Athletic F.C.] ⟨186⟩⟦209⟧⟨187⟩⟦184⟧⟨188⟩⟦75⟧⟨189⟩⟦71⟧⟨190⟩⟦246⟧⟨191⟩⟦130⟧⟨192⟩⟦259⟧⟨193⟩⟦170⟧⟨194⟩⟦170⟧⟨195⟩⟦224⟧⟨196⟩
+[Dover Athletic F.C.] ⟨197⟩⟦96⟧⟨198⟩⟦185⟧⟨199⟩⟦299⟧⟨200⟩⟦70⟧⟨201⟩⟦255⟧⟨202⟩⟦157⟧⟨203⟩⟦147⟧⟨204⟩⟦303⟧⟨205⟩⟦81⟧⟨206⟩⟦9⟧⟨207⟩⟦223⟧⟨208⟩⟦33⟧⟨209⟩⟦318⟧⟨210⟩⟦34⟧⟨211⟩
+[1914–15 Watford F.C. season] ⟦308⟧⟨212⟩⟦39⟧⟨213⟩⟦44⟧⟨214⟩⟦98⟧⟨215⟩⟦199⟧⟨216⟩⟦225⟧⟨217⟩⟦63⟧⟨218⟩⟦123⟧⟨219⟩⟦85⟧⟨220⟩
+[1914–15 Watford F.C. season] ⟦203⟧⟨221⟩⟦184⟧⟨222⟩⟦296⟧⟨223⟩⟦184⟧⟨224⟩⟦130⟧⟨225⟩⟦131⟧⟨226⟩⟦98⟧⟨227⟩⟦267⟧⟨228⟩⟦311⟧⟨229⟩⟦201⟧⟨230⟩⟦184⟧⟨231⟩
+[1914–15 Watford F.C. season] ⟦307⟧⟨232⟩⟦262⟧⟨233⟩⟦184⟧⟨234⟩⟦53⟧⟨235⟩⟦53⟧⟨236⟩⟦269⟧⟨237⟩⟦285⟧⟨238⟩⟦130⟧⟨239⟩⟦136⟧⟨240⟩
+[1914–15 Watford F.C. season] ⟨241⟩⟦150⟧⟨242⟩⟦62⟧⟨243⟩⟦307⟧⟨244⟩⟦231⟧⟨245⟩⟦264⟧⟨246⟩⟦171⟧⟨247⟩⟦180⟧⟨248⟩⟦179⟧⟨249⟩⟦266⟧⟨250⟩⟦93⟧⟨251⟩⟦199⟧⟨252⟩
+[1914–15 Watford F.C. season] ⟦221⟧⟨253⟩⟦56⟧⟨254⟩⟦133⟧⟨255⟩⟦122⟧⟨256⟩⟦126⟧⟨257⟩⟦183⟧⟨258⟩⟦107⟧⟨259⟩⟦4⟧⟨260⟩⟦112⟧⟨261⟩⟦13⟧⟨262⟩⟦43⟧⟨263⟩
+[1914–15 Watford F.C. season] ⟦152⟧⟨264⟩⟦158⟧⟨265⟩⟦188⟧⟨266⟩⟦16⟧⟨267⟩⟦318⟧⟨268⟩⟦154⟧⟨269⟩⟦218⟧⟨270⟩⟦56⟧⟨271⟩⟦55⟧⟨272⟩⟦111⟧⟨273⟩⟦105⟧⟨274⟩⟦312⟧⟨275⟩⟦109⟧⟨276⟩⟦108⟧⟨277⟩⟦277⟧⟨278⟩⟦304⟧⟨279⟩⟦307⟧⟨280⟩
+[1914–15 Watford F.C. season] ⟦117⟧⟨281⟩⟦314⟧⟨282⟩⟦253⟧⟨283⟩⟦138⟧⟨284⟩⟦309⟧⟨285⟩⟦106⟧⟨286⟩
+[List of Millwall F.C. seasons] ⟨287⟩⟦27⟧⟨288⟩⟦132⟧⟨289⟩⟦36⟧⟨290⟩⟦185⟧⟨291⟩⟦141⟧⟨292⟩⟦288⟧⟨293⟩⟦49⟧⟨294⟩⟦267⟧⟨295⟩⟦293⟧⟨296⟩⟦184⟧⟨297⟩⟦6⟧⟨298⟩⟦6⟧⟨299⟩⟦229⟧⟨300⟩⟦294⟧⟨301⟩⟦184⟧⟨302⟩
+[List of Millwall F.C. seasons] ⟨303⟩⟦297⟧⟨304⟩⟦173⟧⟨305⟩⟦231⟧⟨306⟩⟦247⟧⟨307⟩⟦151⟧⟨308⟩⟦62⟧⟨309⟩⟦134⟧⟨310⟩⟦113⟧⟨311⟩⟦125⟧⟨312⟩⟦45⟧⟨313⟩⟦80⟧⟨314⟩⟦184⟧⟨315⟩
+[List of Millwall F.C. seasons] ⟦140⟧⟨316⟩⟦236⟧⟨317⟩⟦319⟧⟨318⟩⟦289⟧⟨319⟩⟦90⟧⟨320⟩⟦130⟧⟨321⟩⟦131⟧⟨322⟩⟦98⟧⟨323⟩
+[List of Millwall F.C. seasons] ⟨324⟩⟦231⟧⟨325⟩⟦302⟧⟨326⟩⟦18⟧⟨327⟩⟦56⟧⟨328⟩
+[List of Millwall F.C. seasons] ⟨329⟩⟦137⟧⟨330⟩⟦137⟧⟨331⟩⟦267⟧⟨332⟩⟦11⟧⟨333⟩⟦185⟧⟨334⟩⟦277⟧⟨335⟩⟦304⟧⟨336⟩
+[List of Millwall F.C. seasons] ⟨337⟩⟦242⟧⟨338⟩
+[List of Millwall F.C. seasons] ⟦140⟧⟨339⟩⟦35⟧⟨340⟩⟦72⟧⟨341⟩⟦287⟧⟨342⟩⟦185⟧⟨343⟩⟦246⟧⟨344⟩⟦130⟧⟨345⟩⟦275⟧⟨346⟩
+[List of Millwall F.C. seasons] ⟦140⟧⟨347⟩⟦104⟧⟨348⟩⟦53⟧⟨349⟩
+[Kevin Watson] ⟦129⟧⟨350⟩⟦23⟧⟨351⟩⟦101⟧⟨352⟩⟦57⟧⟨353⟩⟦58⟧⟨354⟩⟦192⟧⟨355⟩⟦52⟧⟨356⟩
+[Kevin Watson] ⟨357⟩⟦248⟧⟨358⟩⟦133⟧⟨359⟩⟦50⟧⟨360⟩
+[Poole Town F.C.] ⟦165⟧⟨361⟩⟦22⟧⟨362⟩⟦98⟧⟨363⟩⟦56⟧⟨364⟩⟦164⟧⟨365⟩⟦73⟧⟨366⟩⟦85⟧⟨367⟩
+[Poole Town F.C.] ⟨368⟩⟦251⟧⟨369⟩⟦265⟧⟨370⟩⟦301⟧⟨371⟩⟦86⟧⟨372⟩⟦98⟧⟨373⟩⟦53⟧⟨374⟩⟦53⟧⟨375⟩⟦270⟧⟨376⟩⟦212⟧⟨377⟩⟦184⟧⟨378⟩
+[Poole Town F.C.] ⟨379⟩⟦213⟧⟨380⟩⟦184⟧⟨381⟩⟦148⟧⟨382⟩⟦64⟧⟨383⟩⟦258⟧⟨384⟩⟦160⟧⟨385⟩⟦30⟧⟨386⟩⟦196⟧⟨387⟩⟦278⟧⟨388⟩⟦156⟧⟨389⟩
+[Poole Town F.C.] ⟨390⟩⟦256⟧⟨391⟩⟦159⟧⟨392⟩⟦106⟧⟨393⟩⟦118⟧⟨394⟩⟦119⟧⟨395⟩⟦116⟧⟨396⟩⟦177⟧⟨397⟩⟦10⟧⟨398⟩⟦20⟧⟨399⟩⟦67⟧⟨400⟩⟦102⟧⟨401⟩⟦102⟧⟨402⟩
+[Poole Town F.C.] ⟦25⟧⟨403⟩⟦178⟧⟨404⟩⟦257⟧⟨405⟩⟦159⟧⟨406⟩⟦155⟧⟨407⟩
+[Poole Town F.C.] ⟨408⟩⟦283⟧⟨409⟩
+[Poole Town F.C.] ⟦217⟧⟨410⟩⟦56⟧⟨411⟩⟦227⟧⟨412⟩⟦21⟧⟨413⟩
+[Poole Town F.C.] ⟨414⟩⟦284⟧⟨415⟩⟦304⟧⟨416⟩⟦238⟧⟨417⟩⟦231⟧⟨418⟩⟦303⟧⟨419⟩⟦292⟧⟨420⟩⟦124⟧⟨421⟩⟦276⟧⟨422⟩⟦89⟧⟨423⟩⟦114⟧⟨424⟩
+[Poole Town F.C.] ⟨425⟩⟦216⟧⟨426⟩⟦198⟧⟨427⟩⟦164⟧⟨428⟩⟦210⟧⟨429⟩⟦7⟧⟨430⟩⟦184⟧⟨431⟩⟦2⟧⟨432⟩⟦315⟧⟨433⟩⟦53⟧⟨434⟩⟦53⟧⟨435⟩⟦74⟧⟨436⟩⟦315⟧⟨437⟩
+[Poole Town F.C.] ⟨438⟩⟦8⟧⟨439⟩⟦8⟧⟨440⟩⟦47⟧⟨441⟩⟦47⟧⟨442⟩⟦53⟧⟨443⟩⟦281⟧⟨444⟩⟦246⟧⟨445⟩⟦214⟧⟨446⟩⟦302⟧⟨447⟩⟦31⟧⟨448⟩⟦181⟧⟨449⟩
+[Poole Town F.C.] ⟦170⟧⟨450⟩⟦267⟧⟨451⟩⟦41⟧⟨452⟩⟦306⟧⟨453⟩⟦273⟧⟨454⟩⟦91⟧⟨455⟩
+[Poole Town F.C.] ⟦164⟧⟨456⟩⟦291⟧⟨457⟩⟦184⟧⟨458⟩⟦115⟧⟨459⟩⟦159⟧⟨460⟩⟦270⟧⟨461⟩⟦184⟧⟨462⟩
+[Poole Town F.C.] ⟨463⟩⟦251⟧⟨464⟩⟦53⟧⟨465⟩⟦53⟧⟨466⟩⟦267⟧⟨467⟩
+[1919–20 Watford F.C. season] ⟦308⟧⟨468⟩⟦17⟧⟨469⟩⟦44⟧⟨470⟩⟦98⟧⟨471⟩⟦199⟧⟨472⟩⟦225⟧⟨473⟩⟦63⟧⟨474⟩⟦123⟧⟨475⟩⟦85⟧⟨476⟩
+[1919–20 Watford F.C. season] ⟦204⟧⟨477⟩⟦184⟧⟨478⟩⟦298⟧⟨479⟩⟦184⟧⟨480⟩⟦130⟧⟨481⟩⟦131⟧⟨482⟩⟦98⟧⟨483⟩⟦254⟧⟨484⟩⟦153⟧⟨485⟩⟦240⟧⟨486⟩
+[1919–20 Watford F.C. season] ⟨487⟩⟦290⟧⟨488⟩⟦184⟧⟨489⟩⟦267⟧⟨490⟩⟦311⟧⟨491⟩⟦201⟧⟨492⟩⟦184⟧⟨493⟩⟦28⟧⟨494⟩⟦139⟧⟨495⟩⟦42⟧⟨496⟩⟦56⟧⟨497⟩
+[1919–20 Watford F.C. season] ⟨498⟩⟦262⟧⟨499⟩⟦184⟧⟨500⟩⟦174⟧⟨501⟩⟦53⟧⟨502⟩⟦307⟧⟨503⟩⟦262⟧⟨504⟩⟦184⟧⟨505⟩⟦182⟧⟨506⟩⟦182⟧⟨507⟩⟦269⟧⟨508⟩⟦109⟧⟨509⟩⟦110⟧⟨510⟩⟦46⟧⟨511⟩
+[1919–20 Watford F.C. season] ⟨512⟩⟦286⟧⟨513⟩⟦130⟧⟨514⟩⟦136⟧⟨515⟩⟦88⟧⟨516⟩⟦53⟧⟨517⟩⟦166⟧⟨518⟩⟦173⟧⟨519⟩⟦12⟧⟨520⟩⟦316⟧⟨521⟩⟦3⟧⟨522⟩⟦79⟧⟨523⟩
+[1919–20 Watford F.C. season] ⟦310⟧⟨524⟩⟦97⟧⟨525⟩⟦231⟧⟨526⟩⟦215⟧⟨527⟩⟦171⟧⟨528⟩⟦180⟧⟨529⟩⟦92⟧⟨530⟩⟦187⟧⟨531⟩
+[1919–20 Watford F.C. season] ⟦221⟧⟨532⟩⟦56⟧⟨533⟩⟦133⟧⟨534⟩⟦122⟧⟨535⟩⟦126⟧⟨536⟩⟦183⟧⟨537⟩⟦107⟧⟨538⟩⟦5⟧⟨539⟩⟦112⟧⟨540⟩⟦14⟧⟨541⟩⟦43⟧⟨542⟩
+[1896–97 Southampton St. Mary's F.C. season] ⟦201⟧⟨543⟩⟦184⟧⟨544⟩⟦243⟧⟨545⟩⟦103⟧⟨546⟩⟦189⟧⟨547⟩⟦130⟧⟨548⟩⟦131⟧⟨549⟩⟦98⟧⟨550⟩⟦137⟧⟨551⟩⟦137⟧⟨552⟩⟦267⟧⟨553⟩
+[1896–97 Southampton St. Mary's F.C. season] ⟦262⟧⟨554⟩⟦184⟧⟨555⟩⟦193⟧⟨556⟩⟦271⟧⟨557⟩⟦304⟧⟨558⟩⟦239⟧⟨559⟩⟦302⟧⟨560⟩⟦263⟧⟨561⟩⟦231⟧⟨562⟩
+[1896–97 Southampton St. Mary's F.C. season] ⟨563⟩⟦272⟧⟨564⟩⟦195⟧⟨565⟩⟦249⟧⟨566⟩⟦154⟧⟨567⟩⟦220⟧⟨568⟩⟦56⟧⟨569⟩⟦124⟧⟨570⟩⟦29⟧⟨571⟩⟦154⟧⟨572⟩⟦82⟧⟨573⟩⟦319⟧⟨574⟩⟦190⟧⟨575⟩⟦53⟧⟨576⟩⟦303⟧⟨577⟩⟦234⟧⟨578⟩⟦94⟧⟨579⟩⟦231⟧⟨580⟩
+
+[user]
+
+问题：
+Kevin Watson currently manages which Southern League football team?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

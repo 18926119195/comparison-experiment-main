@@ -1,0 +1,345 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Looper
+⟦2⟧ = "Moonlighting
+⟦3⟧ = 1930s
+⟦4⟧ = 1980s
+⟦5⟧ = a 1989 American drama film
+⟦6⟧ = a 1991 American dramatic mystery thriller
+⟦7⟧ = a 1991 American gangster film
+⟦8⟧ = a 2000 American superhero thriller film
+⟦9⟧ = a 2010 American action comedy film
+⟦10⟧ = a 2010 American buddy cop action-comedy film
+⟦11⟧ = a best supporting actor Golden Globe nomination
+⟦12⟧ = a companion piece
+⟦13⟧ = a difficult family life
+⟦14⟧ = a Feast
+⟦15⟧ = a fictional character
+⟦16⟧ = a former college football prodigy
+⟦17⟧ = a horrific train crash
+⟦18⟧ = a manipulative disabled comic book shop owner
+⟦19⟧ = a recurring role
+⟦20⟧ = a relentless, memorabilia-obsessed bloodthirsty gangster
+⟦21⟧ = a screenplay
+⟦22⟧ = a security guard
+⟦23⟧ = a stolen, rare, mint-condition baseball card
+⟦24⟧ = a trilogy
+⟦25⟧ = a woman
+⟦26⟧ = abilities
+⟦27⟧ = action
+⟦28⟧ = actor
+⟦29⟧ = actor Bruce Willis
+⟦30⟧ = actors
+⟦31⟧ = actress
+⟦32⟧ = Alan Rudolph
+⟦33⟧ = album
+⟦34⟧ = America
+⟦35⟧ = American actor Bruce Willis
+⟦36⟧ = an American actor
+⟦37⟧ = an American actress
+⟦38⟧ = an eclectic gathering
+⟦39⟧ = an HBO special
+⟦40⟧ = Armageddon
+⟦41⟧ = baseball
+⟦42⟧ = Beavis
+⟦43⟧ = Billy
+⟦44⟧ = Billy Bathgate
+⟦45⟧ = Bobbie Ann Mason
+⟦46⟧ = book
+⟦47⟧ = Booker T. Jones
+⟦48⟧ = box
+⟦49⟧ = British writer Tom Stoppard
+⟦50⟧ = Bruce Willis
+⟦51⟧ = Bruno
+⟦52⟧ = buddy
+⟦53⟧ = Butt-Head
+⟦54⟧ = card
+⟦55⟧ = career
+⟦56⟧ = character
+⟦57⟧ = characters
+⟦58⟧ = Chicago
+⟦59⟧ = co
+⟦60⟧ = college
+⟦61⟧ = comedy
+⟦62⟧ = companion
+⟦63⟧ = condition
+⟦64⟧ = cop
+⟦65⟧ = Cop Out
+⟦66⟧ = Country
+⟦67⟧ = crash
+⟦68⟧ = crime
+⟦69⟧ = critics
+⟦70⟧ = Cully Hamner
+⟦71⟧ = Cynthia Cidre
+⟦72⟧ = daughter
+⟦73⟧ = David Addison
+⟦74⟧ = David Dunn
+⟦75⟧ = death
+⟦76⟧ = debut
+⟦77⟧ = Demi Moore
+⟦78⟧ = designation
+⟦79⟧ = deviations
+⟦80⟧ = director
+⟦81⟧ = Doctorow
+⟦82⟧ = drama
+⟦83⟧ = drug
+⟦84⟧ = Dunn
+⟦85⟧ = Dustin Hoffman
+⟦86⟧ = E.L. Doctorow's novel
+⟦87⟧ = Elijah Price
+⟦88⟧ = Emily Lloyd
+⟦89⟧ = Empire
+⟦90⟧ = Erich Hoeber
+⟦91⟧ = evening
+⟦92⟧ = Expendables
+⟦93⟧ = explores
+⟦94⟧ = family
+⟦95⟧ = festival
+⟦96⟧ = film
+⟦97⟧ = films
+⟦98⟧ = football
+⟦99⟧ = former CIA Agent Frank Moses
+⟦100⟧ = FOX musical-drama "Empire
+⟦101⟧ = Frank Pierson
+⟦102⟧ = friend
+⟦103⟧ = gangster
+⟦104⟧ = gathering
+⟦105⟧ = German film director Robert Schwentke
+⟦106⟧ = Glenne Headly
+⟦107⟧ = guard
+⟦108⟧ = Harvey Keitel
+⟦109⟧ = Hedge
+⟦110⟧ = Helen Mirren
+⟦111⟧ = help
+⟦112⟧ = her Broadway
+⟦113⟧ = her friend's husband
+⟦114⟧ = His career
+⟦115⟧ = his powers
+⟦116⟧ = his role
+⟦117⟧ = Homage
+⟦118⟧ = husband
+⟦119⟧ = imprint
+⟦120⟧ = incident
+⟦121⟧ = installment
+⟦122⟧ = issue
+⟦123⟧ = its release
+⟦124⟧ = James Horner
+⟦125⟧ = James Urbanski
+⟦126⟧ = John Malkovich
+⟦127⟧ = John McClane
+⟦128⟧ = Jon Hoeber
+⟦129⟧ = Joyce
+⟦130⟧ = Karl Urban
+⟦131⟧ = Kevin Pollak
+⟦132⟧ = Kevin Smith
+⟦133⟧ = Kevin Smith's highest grossing film
+⟦134⟧ = life
+⟦135⟧ = Loren Dean
+⟦136⟧ = Lucky Number Slevin
+⟦137⟧ = M. Night Shyamalan
+⟦138⟧ = Mark
+⟦139⟧ = Mary-Louise Parker
+⟦140⟧ = memorabilia
+⟦141⟧ = mint
+⟦142⟧ = Moonlighting
+⟦143⟧ = Morgan
+⟦144⟧ = Morgan Freeman
+⟦145⟧ = Mortal Thoughts
+⟦146⟧ = Motown
+⟦147⟧ = movie
+⟦148⟧ = movies
+⟦149⟧ = music
+⟦150⟧ = musicians
+⟦151⟧ = mystery
+⟦152⟧ = name
+⟦153⟧ = nature
+⟦154⟧ = negative reviews
+⟦155⟧ = New York
+⟦156⟧ = Night
+⟦157⟧ = nomination
+⟦158⟧ = Norman Jewison
+⟦159⟧ = novel
+⟦160⟧ = office
+⟦161⟧ = over 60 films
+⟦162⟧ = overs
+⟦163⟧ = owner
+⟦164⟧ = partners
+⟦165⟧ = people
+⟦166⟧ = piece
+⟦167⟧ = plot
+⟦168⟧ = police
+⟦169⟧ = powers
+⟦170⟧ = presently a security guard
+⟦171⟧ = prodigy
+⟦172⟧ = producer
+⟦173⟧ = protagonist
+⟦174⟧ = R&B music
+⟦175⟧ = Razor
+⟦176⟧ = re
+⟦177⟧ = real people
+⟦178⟧ = real-life gangster Dutch Schultz
+⟦179⟧ = Red
+⟦180⟧ = release
+⟦181⟧ = reviews
+⟦182⟧ = Robb Cullen
+⟦183⟧ = Robert Benton
+⟦184⟧ = Robin Wright
+⟦185⟧ = role
+⟦186⟧ = Roxie Hart
+⟦187⟧ = Rugrats
+⟦188⟧ = Rumer Glenn Willis
+⟦189⟧ = Saint Rocco festival
+⟦190⟧ = Samuel L. Jackson
+⟦191⟧ = score
+⟦192⟧ = screenplay
+⟦193⟧ = Seann William Scott
+⟦194⟧ = season
+⟦195⟧ = security
+⟦196⟧ = Sense
+⟦197⟧ = September
+⟦198⟧ = sequels
+⟦199⟧ = series
+⟦200⟧ = shop
+⟦201⟧ = Sin City
+⟦202⟧ = singer
+⟦203⟧ = Smith
+⟦204⟧ = special
+⟦205⟧ = Spencer Treat Clark
+⟦206⟧ = stage
+⟦207⟧ = Stars
+⟦208⟧ = Steve Buscemi
+⟦209⟧ = Steven Hill
+⟦210⟧ = superhero
+⟦211⟧ = superhuman abilities
+⟦212⟧ = superhuman powers
+⟦213⟧ = television
+⟦214⟧ = the "Unbreakable" film series
+⟦215⟧ = the 1930s
+⟦216⟧ = the 1980s
+⟦217⟧ = The actor
+⟦218⟧ = the album's release
+⟦219⟧ = the book
+⟦220⟧ = the box office
+⟦221⟧ = the DC Comics imprint Homage
+⟦222⟧ = the death
+⟦223⟧ = the debut album
+⟦224⟧ = the designation
+⟦225⟧ = The Expendables
+⟦226⟧ = the extensive deviations
+⟦227⟧ = The film
+⟦228⟧ = the film version
+⟦229⟧ = the first film
+⟦230⟧ = the first installment
+⟦231⟧ = the Hedge
+⟦232⟧ = the help
+⟦233⟧ = the incident
+⟦234⟧ = the limited comic book series
+⟦235⟧ = the main protagonist
+⟦236⟧ = The movie
+⟦237⟧ = the novel
+⟦238⟧ = the Off-Broadway stage
+⟦239⟧ = the oldest daughter
+⟦240⟧ = The original music score
+⟦241⟧ = the other characters
+⟦242⟧ = The plot
+⟦243⟧ = The Pointer Sisters
+⟦244⟧ = the police
+⟦245⟧ = The Return
+⟦246⟧ = the same name
+⟦247⟧ = The screenplay
+⟦248⟧ = The Sixth Sense
+⟦249⟧ = the Stars
+⟦250⟧ = The Temptations
+⟦251⟧ = the title
+⟦252⟧ = the title character
+⟦253⟧ = the trail
+⟦254⟧ = the true nature
+⟦255⟧ = the violent, drug-addicted husband
+⟦256⟧ = this album
+⟦257⟧ = thriller
+⟦258⟧ = Tie
+⟦259⟧ = title
+⟦260⟧ = Tracy Morgan
+⟦261⟧ = trail
+⟦262⟧ = train
+⟦263⟧ = trilogy
+⟦264⟧ = two veteran NYPD partners
+⟦265⟧ = Unbreakable
+⟦266⟧ = version
+⟦267⟧ = voice
+⟦268⟧ = voice overs
+⟦269⟧ = Walter Bruce Willis
+⟦270⟧ = Warren Ellis
+⟦271⟧ = Wild
+⟦272⟧ = Willis
+⟦273⟧ = woman
+⟦274⟧ = writer
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Rumer Willis] ⟦188⟧⟨1⟩⟦37⟧⟨2⟩⟦31⟧⟨3⟩⟦202⟧⟨4⟩⟦202⟧⟨5⟩
+[Rumer Willis] ⟨6⟩⟦239⟧⟨7⟩⟦72⟧⟨8⟩⟦30⟧⟨9⟩⟦30⟧⟨10⟩⟦50⟧⟨11⟩⟦77⟧⟨12⟩
+[Rumer Willis] ⟦272⟧⟨13⟩⟦194⟧⟨14⟩⟦194⟧⟨15⟩⟦249⟧⟨16⟩⟦207⟧⟨17⟩
+[Rumer Willis] ⟨18⟩⟦112⟧⟨19⟩⟦76⟧⟨20⟩⟦58⟧⟨21⟩⟦186⟧⟨22⟩⟦197⟧⟨23⟩
+[Rumer Willis] ⟨24⟩⟦19⟧⟨25⟩⟦185⟧⟨26⟩⟦194⟧⟨27⟩⟦194⟧⟨28⟩⟦100⟧⟨29⟩⟦82⟧⟨30⟩⟦89⟧⟨31⟩
+[The Return of Bruno (album)] ⟦245⟧⟨32⟩⟦51⟧⟨33⟩⟦223⟧⟨34⟩⟦76⟧⟨35⟩⟦33⟧⟨36⟩⟦28⟧⟨37⟩⟦29⟧⟨38⟩
+[The Return of Bruno (album)] ⟨39⟩⟦146⟧⟨40⟩⟦256⟧⟨41⟩⟦33⟧⟨42⟩⟦38⟧⟨43⟩⟦104⟧⟨44⟩⟦174⟧⟨45⟩⟦149⟧⟨46⟩⟦272⟧⟨47⟩⟦150⟧⟨48⟩⟦150⟧⟨49⟩⟦47⟧⟨50⟩⟦243⟧⟨51⟩⟦250⟧⟨52⟩
+[The Return of Bruno (album)] ⟨53⟩⟦12⟧⟨54⟩⟦62⟧⟨55⟩⟦166⟧⟨56⟩⟦39⟧⟨57⟩⟦204⟧⟨58⟩⟦246⟧⟨59⟩⟦152⟧⟨60⟩⟦218⟧⟨61⟩⟦33⟧⟨62⟩⟦180⟧⟨63⟩
+[The Return of Bruno (album)] ⟨64⟩⟦176⟧⟨65⟩⟦122⟧⟨66⟩⟦122⟧⟨67⟩⟦175⟧⟨68⟩⟦258⟧⟨69⟩
+[David Dunn (character)] ⟦74⟧⟨70⟩⟦15⟧⟨71⟩⟦56⟧⟨72⟩⟦235⟧⟨73⟩⟦173⟧⟨74⟩⟦214⟧⟨75⟩⟦96⟧⟨76⟩⟦199⟧⟨77⟩⟦35⟧⟨78⟩⟦28⟧⟨79⟩
+[David Dunn (character)] ⟦84⟧⟨80⟩⟦16⟧⟨81⟩⟦60⟧⟨82⟩⟦98⟧⟨83⟩⟦171⟧⟨84⟩⟦170⟧⟨85⟩⟦195⟧⟨86⟩⟦107⟧⟨87⟩⟦211⟧⟨88⟩⟦26⟧⟨89⟩
+[Mortal Thoughts] ⟦145⟧⟨90⟩⟦6⟧⟨91⟩⟦151⟧⟨92⟩⟦257⟧⟨93⟩⟦25⟧⟨94⟩⟦273⟧⟨95⟩⟦244⟧⟨96⟩⟦168⟧⟨97⟩⟦222⟧⟨98⟩⟦75⟧⟨99⟩⟦113⟧⟨100⟩⟦102⟧⟨101⟩⟦118⟧⟨102⟩
+[Mortal Thoughts] ⟨103⟩⟦32⟧⟨104⟩⟦77⟧⟨105⟩⟦106⟧⟨106⟩⟦50⟧⟨107⟩⟦108⟧⟨108⟩
+[Mortal Thoughts] ⟦272⟧⟨109⟩⟦125⟧⟨110⟩⟦255⟧⟨111⟩⟦83⟧⟨112⟩⟦118⟧⟨113⟩⟦129⟧⟨114⟩⟦91⟧⟨115⟩⟦14⟧⟨116⟩⟦189⟧⟨117⟩⟦95⟧⟨118⟩
+[Red (2010 film)] ⟦179⟧⟨119⟩⟦9⟧⟨120⟩⟦27⟧⟨121⟩⟦61⟧⟨122⟩⟦96⟧⟨123⟩⟦234⟧⟨124⟩⟦46⟧⟨125⟩⟦199⟧⟨126⟩⟦246⟧⟨127⟩⟦152⟧⟨128⟩⟦270⟧⟨129⟩⟦70⟧⟨130⟩⟦221⟧⟨131⟩⟦119⟧⟨132⟩⟦117⟧⟨133⟩
+[Red (2010 film)] ⟦227⟧⟨134⟩⟦96⟧⟨135⟩⟦50⟧⟨136⟩⟦144⟧⟨137⟩⟦126⟧⟨138⟩⟦139⟧⟨139⟩⟦110⟧⟨140⟩⟦130⟧⟨141⟩⟦105⟧⟨142⟩⟦96⟧⟨143⟩⟦80⟧⟨144⟩⟦21⟧⟨145⟩⟦192⟧⟨146⟩⟦128⟧⟨147⟩⟦90⟧⟨148⟩
+[Red (2010 film)] ⟨149⟩⟦228⟧⟨150⟩⟦96⟧⟨151⟩⟦266⟧⟨152⟩⟦251⟧⟨153⟩⟦259⟧⟨154⟩⟦224⟧⟨155⟩⟦78⟧⟨156⟩⟦99⟧⟨157⟩⟦50⟧⟨158⟩
+[Billy Bathgate (film)] ⟦44⟧⟨159⟩⟦7⟧⟨160⟩⟦103⟧⟨161⟩⟦96⟧⟨162⟩⟦183⟧⟨163⟩⟦135⟧⟨164⟩⟦252⟧⟨165⟩⟦259⟧⟨166⟩⟦56⟧⟨167⟩⟦85⟧⟨168⟩⟦178⟧⟨169⟩⟦134⟧⟨170⟩⟦103⟧⟨171⟩
+[Billy Bathgate (film)] ⟦227⟧⟨172⟩⟦96⟧⟨173⟩⟦59⟧⟨174⟩⟦209⟧⟨175⟩⟦208⟧⟨176⟩⟦50⟧⟨177⟩
+[Billy Bathgate (film)] ⟨178⟩⟦43⟧⟨179⟩⟦15⟧⟨180⟩⟦56⟧⟨181⟩⟦241⟧⟨182⟩⟦57⟧⟨183⟩⟦227⟧⟨184⟩⟦96⟧⟨185⟩⟦177⟧⟨186⟩⟦165⟧⟨187⟩⟦155⟧⟨188⟩⟦215⟧⟨189⟩⟦3⟧⟨190⟩
+[Billy Bathgate (film)] ⟦247⟧⟨191⟩⟦192⟧⟨192⟩⟦49⟧⟨193⟩⟦274⟧⟨194⟩⟦86⟧⟨195⟩⟦159⟧⟨196⟩⟦246⟧⟨197⟩⟦152⟧⟨198⟩
+[Billy Bathgate (film)] ⟨199⟩⟦81⟧⟨200⟩⟦227⟧⟨201⟩⟦96⟧⟨202⟩⟦226⟧⟨203⟩⟦79⟧⟨204⟩⟦219⟧⟨205⟩⟦46⟧⟨206⟩
+[Cop Out (2010 film)] ⟦65⟧⟨207⟩⟦10⟧⟨208⟩⟦52⟧⟨209⟩⟦64⟧⟨210⟩⟦27⟧⟨211⟩⟦61⟧⟨212⟩⟦96⟧⟨213⟩⟦132⟧⟨214⟩⟦138⟧⟨215⟩⟦182⟧⟨216⟩⟦50⟧⟨217⟩⟦260⟧⟨218⟩⟦131⟧⟨219⟩⟦193⟧⟨220⟩
+[Cop Out (2010 film)] ⟦242⟧⟨221⟩⟦167⟧⟨222⟩⟦264⟧⟨223⟩⟦164⟧⟨224⟩⟦272⟧⟨225⟩⟦143⟧⟨226⟩⟦253⟧⟨227⟩⟦261⟧⟨228⟩⟦23⟧⟨229⟩⟦141⟧⟨230⟩⟦63⟧⟨231⟩⟦41⟧⟨232⟩⟦54⟧⟨233⟩⟦20⟧⟨234⟩⟦140⟧⟨235⟩⟦103⟧⟨236⟩
+[Cop Out (2010 film)] ⟨237⟩⟦229⟧⟨238⟩⟦96⟧⟨239⟩⟦203⟧⟨240⟩
+[Cop Out (2010 film)] ⟨241⟩⟦123⟧⟨242⟩⟦180⟧⟨243⟩⟦227⟧⟨244⟩⟦96⟧⟨245⟩⟦154⟧⟨246⟩⟦181⟧⟨247⟩⟦69⟧⟨248⟩⟦69⟧⟨249⟩⟦220⟧⟨250⟩⟦48⟧⟨251⟩⟦160⟧⟨252⟩
+[Cop Out (2010 film)] ⟨253⟩⟦133⟧⟨254⟩⟦96⟧⟨255⟩
+[Bruce Willis] ⟦269⟧⟨256⟩⟦36⟧⟨257⟩⟦28⟧⟨258⟩⟦172⟧⟨259⟩⟦172⟧⟨260⟩⟦202⟧⟨261⟩⟦202⟧⟨262⟩
+[Bruce Willis] ⟦114⟧⟨263⟩⟦55⟧⟨264⟩⟦238⟧⟨265⟩⟦206⟧⟨266⟩⟦213⟧⟨267⟩⟦213⟧⟨268⟩⟦216⟧⟨269⟩⟦4⟧⟨270⟩⟦73⟧⟨271⟩⟦2⟧⟨272⟩⟦142⟧⟨273⟩
+[Bruce Willis] ⟨274⟩⟦116⟧⟨275⟩⟦185⟧⟨276⟩⟦127⟧⟨277⟩⟦227⟧⟨278⟩⟦96⟧⟨279⟩⟦198⟧⟨280⟩
+[Bruce Willis] ⟨281⟩⟦161⟧⟨282⟩⟦97⟧⟨283⟩⟦75⟧⟨284⟩⟦75⟧⟨285⟩⟦156⟧⟨286⟩⟦40⟧⟨287⟩⟦248⟧⟨288⟩⟦196⟧⟨289⟩⟦201⟧⟨290⟩⟦136⟧⟨291⟩⟦225⟧⟨292⟩⟦92⟧⟨293⟩⟦1⟧⟨294⟩
+[Bruce Willis] ⟦217⟧⟨295⟩⟦28⟧⟨296⟩⟦267⟧⟨297⟩⟦268⟧⟨298⟩⟦162⟧⟨299⟩⟦148⟧⟨300⟩⟦148⟧⟨301⟩⟦42⟧⟨302⟩⟦53⟧⟨303⟩⟦34⟧⟨304⟩⟦187⟧⟨305⟩⟦187⟧⟨306⟩⟦271⟧⟨307⟩⟦231⟧⟨308⟩⟦109⟧⟨309⟩
+[In Country] ⟨310⟩⟦66⟧⟨311⟩⟦5⟧⟨312⟩⟦82⟧⟨313⟩⟦96⟧⟨314⟩⟦158⟧⟨315⟩⟦50⟧⟨316⟩⟦88⟧⟨317⟩
+[In Country] ⟦247⟧⟨318⟩⟦192⟧⟨319⟩⟦101⟧⟨320⟩⟦71⟧⟨321⟩⟦237⟧⟨322⟩⟦159⟧⟨323⟩⟦45⟧⟨324⟩
+[In Country] ⟦240⟧⟨325⟩⟦149⟧⟨326⟩⟦191⟧⟨327⟩⟦124⟧⟨328⟩
+[In Country] ⟦272⟧⟨329⟩⟦11⟧⟨330⟩⟦28⟧⟨331⟩⟦157⟧⟨332⟩⟦116⟧⟨333⟩⟦185⟧⟨334⟩
+[Unbreakable (film)] ⟦265⟧⟨335⟩⟦8⟧⟨336⟩⟦210⟧⟨337⟩⟦257⟧⟨338⟩⟦96⟧⟨339⟩⟦137⟧⟨340⟩⟦50⟧⟨341⟩⟦190⟧⟨342⟩⟦184⟧⟨343⟩⟦205⟧⟨344⟩
+[Unbreakable (film)] ⟦236⟧⟨345⟩⟦147⟧⟨346⟩⟦230⟧⟨347⟩⟦121⟧⟨348⟩⟦24⟧⟨349⟩⟦263⟧⟨350⟩
+[Unbreakable (film)] ⟨351⟩⟦22⟧⟨352⟩⟦195⟧⟨353⟩⟦107⟧⟨354⟩⟦74⟧⟨355⟩⟦17⟧⟨356⟩⟦262⟧⟨357⟩⟦67⟧⟨358⟩
+[Unbreakable (film)] ⟨359⟩⟦233⟧⟨360⟩⟦120⟧⟨361⟩⟦232⟧⟨362⟩⟦111⟧⟨363⟩⟦18⟧⟨364⟩⟦46⟧⟨365⟩⟦200⟧⟨366⟩⟦163⟧⟨367⟩⟦87⟧⟨368⟩⟦212⟧⟨369⟩⟦169⟧⟨370⟩
+[Unbreakable (film)] ⟨371⟩⟦93⟧⟨372⟩⟦115⟧⟨373⟩⟦169⟧⟨374⟩⟦13⟧⟨375⟩⟦94⟧⟨376⟩⟦134⟧⟨377⟩⟦68⟧⟨378⟩⟦68⟧⟨379⟩⟦254⟧⟨380⟩⟦153⟧⟨381⟩⟦87⟧⟨382⟩
+
+[user]
+
+问题：
+What is the name of Bruce Willis's character in Unbreakable?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

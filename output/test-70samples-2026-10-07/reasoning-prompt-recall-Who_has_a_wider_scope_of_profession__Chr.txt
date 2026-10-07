@@ -1,0 +1,126 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Christopher Guest] ⟦63⟧⟨105⟩⟦7⟧⟨106⟩⟦62⟧⟨107⟩⟦39⟧⟦201⟧⟨108⟩⟨109⟩⟦71⟧⟦71⟧⟨110⟩⟨111⟩⟦157⟧⟦157⟧⟨112⟩⟨113⟩⟨114⟩⟨115⟩⟦28⟧⟦28⟧⟨116⟩⟨117⟩⟦67⟧⟦67⟧⟨118⟩⟨119⟩⟦89⟧⟦65⟧⟨120⟩⟨121⟩
+[Christopher Guest] ⟦115⟧⟨122⟩⟦127⟧⟨123⟩⟦124⟧⟨124⟩⟨125⟩⟦68⟧⟦69⟧⟨126⟩⟨127⟩⟨128⟩⟦152⟧⟦86⟧⟨130⟩⟦216⟧⟨129⟩⟨131⟩
+[Christopher Guest] ⟦202⟧⟦106⟧
+[Roman Karmen] ⟦85⟧⟦85⟧ | ⟦189⟧⟨159⟩⟦191⟧⟨160⟩⟦294⟧⟦294⟧⟨161⟩⟨162⟩⟦292⟧⟦292⟧⟨163⟩⟨164⟩⟦291⟧⟨165⟩⟦166⟧⟨166⟩⟦6⟧⟨167⟩⟦154⟧⟨168⟩⟦21⟧⟦282⟧⟨170⟩⟦55⟧⟨171⟩⟦144⟧⟨172⟩⟨173⟩⟦85⟧⟨169⟩⟨174⟩⟦245⟧⟦104⟧⟨175⟩⟨176⟩⟦87⟧⟨178⟩⟦143⟧⟨177⟩⟨179⟩
+[Nuremberg Trials (film)] ⟦105⟧⟦105⟧
+
+符号表：
+⟦6⟧ = 28 April
+⟦7⟧ = 5th Baron Haden-Guest
+⟦21⟧ = a Soviet war camera-man and film director
+⟦28⟧ = actor
+⟦39⟧ = an English-American screenwriter
+⟦55⟧ = camera
+⟦62⟧ = Christopher Guest
+⟦63⟧ = Christopher Haden-Guest
+⟦65⟧ = citizenship
+⟦67⟧ = comedian
+⟦68⟧ = comedy
+⟦69⟧ = comedy films
+⟦71⟧ = composer
+⟦85⟧ = director
+⟦86⟧ = documentary
+⟦87⟧ = documentary film making
+⟦89⟧ = dual British and American citizenship
+⟦104⟧ = figures
+⟦105⟧ = film
+⟦106⟧ = films
+⟦115⟧ = Guest
+⟦124⟧ = his series
+⟦127⟧ = Hollywood
+⟦143⟧ = making
+⟦144⟧ = man
+⟦152⟧ = mock-documentary (mockumentary) style
+⟦154⟧ = Moscow
+⟦157⟧ = musician
+⟦166⟧ = Odessa
+⟦189⟧ = Roman Lazarevich Karmen
+⟦191⟧ = Russian
+⟦201⟧ = screenwriter
+⟦202⟧ = series
+⟦216⟧ = style
+⟦245⟧ = the most influential figures
+⟦282⟧ = war
+⟦291⟧ = Карме́н
+⟦292⟧ = Ла́заревич
+⟦294⟧ = Рома́н
+
+占位符映射：
+⟨105⟩ = , 
+⟨106⟩ =  (born February 5, 1948), simply known as 
+⟨107⟩ = , is 
+⟨108⟩ = 
+⟨109⟩ = , 
+⟨110⟩ = 
+⟨111⟩ = , 
+⟨112⟩ = 
+⟨113⟩ = , 
+⟨114⟩ = 
+⟨115⟩ = , 
+⟨116⟩ = 
+⟨117⟩ = , and 
+⟨118⟩ = 
+⟨119⟩ =  who holds 
+⟨120⟩ = 
+⟨121⟩ = .
+⟨122⟩ =  is most widely known in 
+⟨123⟩ =  for having written, directed and starred in 
+⟨124⟩ = 
+⟨125⟩ =  of 
+⟨126⟩ = 
+⟨127⟩ = 
+⟨128⟩ =  shot in 
+⟨129⟩ = 
+⟨130⟩ =  (mockumentary) 
+⟨131⟩ = .
+⟨159⟩ =  (
+⟨160⟩ = : 
+⟨161⟩ = 
+⟨162⟩ =  
+⟨163⟩ = 
+⟨164⟩ =  
+⟨165⟩ =  ; 29 November [O.S. 16 November] 1906 in 
+⟨166⟩ =  – 
+⟨167⟩ =  1978 in 
+⟨168⟩ = ) was 
+⟨169⟩ = 
+⟨170⟩ =  
+⟨171⟩ = -
+⟨172⟩ =  and 
+⟨173⟩ =  
+⟨174⟩ =  and one of 
+⟨175⟩ = 
+⟨176⟩ =  in 
+⟨177⟩ = 
+⟨178⟩ =  
+⟨179⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who has a wider scope of profession, Christopher Guest or  Roman Karmen?

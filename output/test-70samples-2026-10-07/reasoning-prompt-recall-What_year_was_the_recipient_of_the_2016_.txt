@@ -1,0 +1,77 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Shinji Okazaki] ⟨95⟩⟦9⟧⟨96⟩⟨97⟩⟦65⟧⟨98⟩⟦135⟧⟨99⟩⟨100⟩
+[Best Footballer in Asia 2016] ⟦112⟧⟨201⟩⟨202⟩⟦118⟧⟨204⟩⟨203⟩⟨205⟩⟦24⟧⟦24⟧⟨206⟩⟦11⟧⟦82⟧⟨207⟩⟨208⟩⟦5⟧⟦100⟧⟨210⟩⟦61⟧⟨209⟩⟨211⟩⟦96⟧⟨212⟩⟦36⟧⟦3⟧⟨213⟩⟨214⟩ | ⟦96⟧
+[Steven Gerrard] ⟦44⟧
+[Steven Gerrard] ⟦107⟧
+[Steven Gerrard] ⟦85⟧ | ⟦46⟧
+
+符号表：
+⟦3⟧ = 26th
+⟦5⟧ = 38 sports journalists
+⟦9⟧ = a Japanese footballer
+⟦11⟧ = a panel
+⟦24⟧ = Asia
+⟦36⟧ = Dec 26th
+⟦44⟧ = football
+⟦46⟧ = footballer
+⟦61⟧ = journalists
+⟦65⟧ = Leicester City
+⟦82⟧ = panel
+⟦85⟧ = player
+⟦96⟧ = Shinji Okazaki
+⟦100⟧ = sports
+⟦107⟧ = team
+⟦112⟧ = The 2016 Best Footballer
+⟦118⟧ = the best football player
+⟦135⟧ = the Japan national team
+
+占位符映射：
+⟨95⟩ =  (岡崎 慎司 , Okazaki Shinji , born 16 April 1986) is 
+⟨96⟩ = 
+⟨97⟩ =  who plays for 
+⟨98⟩ =  and 
+⟨99⟩ = 
+⟨100⟩ =  as a forward.
+⟨201⟩ =  in 
+⟨202⟩ = , given to 
+⟨203⟩ = 
+⟨204⟩ =  
+⟨205⟩ =  in 
+⟨206⟩ =  as judged by 
+⟨207⟩ = 
+⟨208⟩ =  of 
+⟨209⟩ = 
+⟨210⟩ =  
+⟨211⟩ = , was awarded to 
+⟨212⟩ =  on 
+⟨213⟩ = 
+⟨214⟩ = , 2016.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What year was the recipient of the 2016 Best Footballer in Asia born?

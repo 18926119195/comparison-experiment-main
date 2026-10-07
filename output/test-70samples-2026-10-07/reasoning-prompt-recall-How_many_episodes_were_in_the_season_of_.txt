@@ -1,0 +1,117 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Rick and Morty (season 2)] ⟨42⟩⟨43⟩⟦186⟧⟨45⟩⟨44⟩⟨46⟩⟨47⟩⟨48⟩⟨49⟩⟦48⟧⟦122⟧⟨51⟩⟨52⟩⟦44⟧⟨50⟩⟨53⟩⟨54⟩⟦99⟧⟨55⟩⟦18⟧⟨56⟩⟦231⟧⟨57⟩⟦125⟧⟨58⟩⟦6⟧⟦240⟧⟨60⟩⟦171⟧⟨59⟩⟨61⟩
+[Rick and Morty (season 2)] ⟨62⟩⟨63⟩⟦21⟧⟦234⟧⟨64⟩⟨65⟩⟦178⟧⟨66⟩⟨67⟩
+[Faerie Tale Theatre] ⟦141⟧
+[It's Always Sunny in Philadelphia (season 6)] ⟦71⟧
+[It's Always Sunny in Philadelphia (season 6)] ⟦230⟧
+[The Ricks Must Be Crazy] ⟦219⟧⟦156⟧⟦177⟧⟦147⟧⟦115⟧⟦159⟧ | ⟦156⟧ | ⟨398⟩⟦215⟧⟦149⟧⟨399⟩⟨400⟩⟦222⟧⟨401⟩⟨402⟩⟦219⟧⟦156⟧⟨403⟩⟨404⟩⟦184⟧⟦177⟧⟨406⟩⟦165⟧⟨405⟩⟨407⟩⟦147⟧⟨408⟩⟦115⟧⟨409⟩⟦221⟧⟨410⟩⟨411⟩⟦220⟧⟦159⟧⟨412⟩⟨413⟩
+[The Ricks Must Be Crazy] ⟦29⟧⟦226⟧
+[The Ricks Must Be Crazy] ⟦70⟧⟦70⟧
+
+符号表：
+⟦6⟧ = "The Wedding Squanchers
+⟦18⟧ = A Rickle
+⟦21⟧ = a total
+⟦29⟧ = Adult Swim
+⟦44⟧ = block
+⟦48⟧ = Cartoon Network's late night programming block
+⟦70⟧ = episode
+⟦71⟧ = episodes
+⟦99⟧ = July
+⟦115⟧ = Morty
+⟦122⟧ = night
+⟦125⟧ = October
+⟦141⟧ = programming
+⟦147⟧ = Rick
+⟦149⟧ = Ricks
+⟦156⟧ = season
+⟦159⟧ = series
+⟦165⟧ = sitcom
+⟦171⟧ = Squanchers
+⟦177⟧ = television
+⟦178⟧ = ten episodes
+⟦184⟧ = the American animated television sitcom
+⟦186⟧ = the animated television series
+⟦215⟧ = The Ricks
+⟦219⟧ = The second season
+⟦220⟧ = the series
+⟦221⟧ = the seventeenth overall episode
+⟦222⟧ = the sixth episode
+⟦226⟧ = the United States
+⟦230⟧ = This season
+⟦231⟧ = Time
+⟦234⟧ = total
+⟦240⟧ = Wedding
+
+占位符映射：
+⟨42⟩ = 
+⟨43⟩ =  of 
+⟨44⟩ = 
+⟨45⟩ =  
+⟨46⟩ =  "
+⟨47⟩ =  and 
+⟨48⟩ = " originally aired in 
+⟨49⟩ =  on 
+⟨50⟩ = 
+⟨51⟩ =  
+⟨52⟩ =  
+⟨53⟩ = , 
+⟨54⟩ = , which premiered on 
+⟨55⟩ =  26, 2015 with "
+⟨56⟩ =  in 
+⟨57⟩ = ", and concluded on 
+⟨58⟩ =  4 with 
+⟨59⟩ = 
+⟨60⟩ =  
+⟨61⟩ = ".
+⟨62⟩ = 
+⟨63⟩ =  aired 
+⟨64⟩ = 
+⟨65⟩ =  of 
+⟨66⟩ = 
+⟨67⟩ = .
+⟨398⟩ = "
+⟨399⟩ = 
+⟨400⟩ =  Must Be Crazy" is 
+⟨401⟩ = 
+⟨402⟩ =  in 
+⟨403⟩ = 
+⟨404⟩ =  of 
+⟨405⟩ = 
+⟨406⟩ =  
+⟨407⟩ =  "
+⟨408⟩ =  and 
+⟨409⟩ = ", and 
+⟨410⟩ = 
+⟨411⟩ =  in 
+⟨412⟩ = 
+⟨413⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+How many episodes were in the season of "Rick and Morty" that featured an episode called "The Ricks Must Be Crazy"?

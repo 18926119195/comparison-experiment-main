@@ -1,0 +1,117 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Mascogos] ⟦189⟧⟨1⟩⟦2⟧⟦104⟧⟨2⟩⟨3⟩⟦28⟧⟦25⟧⟨5⟩⟨4⟩⟨6⟩⟦47⟧⟨7⟩⟦109⟧⟨8⟩
+[Mascogos] ⟦78⟧ | ⟨9⟩⟦221⟧⟦244⟧⟨10⟩⟨11⟩⟦59⟧⟨12⟩⟦120⟧⟨13⟩⟦184⟧⟦78⟧⟨14⟩⟨15⟩⟨16⟩⟨17⟩⟦38⟧⟨18⟩⟦219⟧⟦241⟧⟨19⟩⟨20⟩⟦160⟧⟦160⟧⟨21⟩⟨22⟩⟨23⟩
+[Draining and development of the Everglades] ⟦227⟧
+[Black Seminoles] ⟨379⟩⟦37⟧⟨380⟩⟦213⟧⟦132⟧⟨381⟩⟨382⟩⟦71⟧⟨383⟩⟦124⟧⟨384⟩
+[Black Seminoles] ⟨385⟩⟦179⟧⟦54⟧⟨386⟩⟨387⟩⟦73⟧⟦39⟧⟨388⟩⟨389⟩⟦61⟧⟨390⟩⟨391⟩⟦40⟧⟦103⟧⟨392⟩⟨393⟩⟦155⟧⟦79⟧⟨394⟩⟨395⟩⟦164⟧⟨396⟩ | ⟦54⟧⟦54⟧
+[Black Seminoles] ⟦175⟧
+[Black Seminoles] ⟦161⟧
+
+符号表：
+⟦2⟧ = "negros mascagos
+⟦25⟧ = afrodescendant
+⟦28⟧ = an afrodescendant group
+⟦37⟧ = black Indians
+⟦38⟧ = Black Seminoles
+⟦39⟧ = blacks
+⟦40⟧ = called maroons
+⟦47⟧ = Coahuila
+⟦54⟧ = descendants
+⟦59⟧ = El Nacimiento
+⟦61⟧ = escaped slaves
+⟦71⟧ = Florida
+⟦73⟧ = free blacks
+⟦78⟧ = group
+⟦79⟧ = groups
+⟦103⟧ = maroons
+⟦104⟧ = mascagos
+⟦109⟧ = Mexico
+⟦120⟧ = Múzquiz Municipality
+⟦124⟧ = Oklahoma
+⟦132⟧ = people
+⟦155⟧ = Seminole groups
+⟦160⟧ = slavery
+⟦161⟧ = slaves
+⟦164⟧ = Spanish Florida
+⟦175⟧ = The Black Seminoles
+⟦179⟧ = the descendants
+⟦184⟧ = the group
+⟦189⟧ = The Mascogos
+⟦213⟧ = the Seminole people
+⟦219⟧ = the threat
+⟦221⟧ = the town
+⟦227⟧ = the United States
+⟦241⟧ = threat
+⟦244⟧ = town
+
+占位符映射：
+⟨1⟩ =  (also known as 
+⟨2⟩ = 
+⟨3⟩ = ") are 
+⟨4⟩ = 
+⟨5⟩ =  
+⟨6⟩ =  in 
+⟨7⟩ = , 
+⟨8⟩ = .
+⟨9⟩ =  Centered on 
+⟨10⟩ = 
+⟨11⟩ =  of 
+⟨12⟩ =  in 
+⟨13⟩ = , 
+⟨14⟩ = 
+⟨15⟩ =  are 
+⟨16⟩ = 
+⟨17⟩ =  of 
+⟨18⟩ =  escaping 
+⟨19⟩ = 
+⟨20⟩ =  of 
+⟨21⟩ = 
+⟨22⟩ =  in 
+⟨23⟩ = .
+⟨379⟩ =  are 
+⟨380⟩ =  associated with 
+⟨381⟩ = 
+⟨382⟩ =  in 
+⟨383⟩ =  and 
+⟨384⟩ = .
+⟨385⟩ =  They are 
+⟨386⟩ = 
+⟨387⟩ =  of 
+⟨388⟩ = 
+⟨389⟩ =  and of 
+⟨390⟩ = 
+⟨391⟩ =  (
+⟨392⟩ = 
+⟨393⟩ = ) who allied with 
+⟨394⟩ = 
+⟨395⟩ =  in 
+⟨396⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Where did the descendants of the group of black Indians associated with the Seminole people settle?

@@ -1,0 +1,333 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (CEO
+⟦2⟧ = (Col
+⟦3⟧ = (later, Russia
+⟦4⟧ = 04:09 UTC
+⟦5⟧ = 05:21 UTC
+⟦6⟧ = 08:09 MSD
+⟦7⟧ = 09:21 MSD
+⟦8⟧ = 1 hour
+⟦9⟧ = 12:54 PM
+⟦10⟧ = 15 October
+⟦11⟧ = 18 September
+⟦12⟧ = 2:45 PM
+⟦13⟧ = 20 September
+⟦14⟧ = 21 April
+⟦15⟧ = 21 months
+⟦16⟧ = 2F
+⟦17⟧ = 51 minutes
+⟦18⟧ = 8.4 nmi
+⟦19⟧ = 费俊龙
+⟦20⟧ = 聂海胜
+⟦21⟧ = a "dress rehearsal
+⟦22⟧ = a crew
+⟦23⟧ = a descent orbit
+⟦24⟧ = a fire
+⟦25⟧ = a fourteen-day spaceflight endurance record
+⟦26⟧ = a human spaceflight mission
+⟦27⟧ = a January 1967 test
+⟦28⟧ = a Long March 2F launch vehicle
+⟦29⟧ = a Long March 2F rocket
+⟦30⟧ = a recipient
+⟦31⟧ = a retired United States Air Force pilot
+⟦32⟧ = a Saturn V rocket
+⟦33⟧ = a Soyuz FG launch vehicle
+⟦34⟧ = a Soyuz mission
+⟦35⟧ = a whole planet
+⟦36⟧ = accident
+⟦37⟧ = activity
+⟦38⟧ = aeronautical engineer
+⟦39⟧ = an Earthrise
+⟦40⟧ = an October 1968 human spaceflight mission
+⟦41⟧ = anniversary
+⟦42⟧ = another celestial body
+⟦43⟧ = Apollo
+⟦44⟧ = Apollo 1's mission
+⟦45⟧ = Apollo 8)
+⟦46⟧ = Apollo Lunar Module
+⟦47⟧ = April
+⟦48⟧ = aspects
+⟦49⟧ = astronaut
+⟦50⟧ = astronauts
+⟦51⟧ = backpack life support systems
+⟦52⟧ = behalf
+⟦53⟧ = Bill Anders
+⟦54⟧ = board
+⟦55⟧ = body
+⟦56⟧ = Borman
+⟦57⟧ = cabin
+⟦58⟧ = capability
+⟦59⟧ = Cape Canaveral Air Force Station
+⟦60⟧ = cause
+⟦61⟧ = China
+⟦62⟧ = China's first human spaceflight
+⟦63⟧ = Command Module Pilot David Scott
+⟦64⟧ = Command Module Pilot James Lovell
+⟦65⟧ = Command Module Pilot Ken Mattingly
+⟦66⟧ = Commander Frank Borman
+⟦67⟧ = Commander James McDivitt
+⟦68⟧ = Commander John Young
+⟦69⟧ = commencement
+⟦70⟧ = components
+⟦71⟧ = country
+⟦72⟧ = crew
+⟦73⟧ = crew mates
+⟦74⟧ = crew members
+⟦75⟧ = CSM
+⟦76⟧ = day
+⟦77⟧ = days
+⟦78⟧ = December
+⟦79⟧ = descent
+⟦80⟧ = dress
+⟦81⟧ = Earth
+⟦82⟧ = Earth orbit
+⟦83⟧ = Earth's gravity
+⟦84⟧ = Earth's moon
+⟦85⟧ = Eastern Air Lines
+⟦86⟧ = endurance
+⟦87⟧ = engineer
+⟦88⟧ = engines
+⟦89⟧ = EST
+⟦90⟧ = EVA
+⟦91⟧ = experiments
+⟦92⟧ = eyes
+⟦93⟧ = February
+⟦94⟧ = Fèi Jùnlóng
+⟦95⟧ = fire
+⟦96⟧ = five days
+⟦97⟧ = flight
+⟦98⟧ = flights
+⟦99⟧ = Florida
+⟦100⟧ = four previous flights
+⟦101⟧ = Frank Frederick Borman II
+⟦102⟧ = Gemini
+⟦103⟧ = Gemini XII
+⟦104⟧ = government
+⟦105⟧ = gravity
+⟦106⟧ = highlands
+⟦107⟧ = Honor
+⟦108⟧ = hour
+⟦109⟧ = humans
+⟦110⟧ = improvements
+⟦111⟧ = independent human spaceflight capability
+⟦112⟧ = ISS
+⟦113⟧ = ISS Expedition
+⟦114⟧ = Its success
+⟦115⟧ = Its three-person crew
+⟦116⟧ = Jim Lovell
+⟦117⟧ = land
+⟦118⟧ = landing
+⟦119⟧ = launch
+⟦120⟧ = life
+⟦121⟧ = Liu Boming
+⟦122⟧ = lìuhào
+⟦123⟧ = LM
+⟦124⟧ = low Earth orbit
+⟦125⟧ = lunar
+⟦126⟧ = Lunar Module Pilot Charles Duke
+⟦127⟧ = Lunar Module Pilot Rusty Schweickart
+⟦128⟧ = Lunar Module Pilot William Anders
+⟦129⟧ = maneuvers
+⟦130⟧ = Manned flights
+⟦131⟧ = mates
+⟦132⟧ = May
+⟦133⟧ = members
+⟦134⟧ = minutes
+⟦135⟧ = mission
+⟦136⟧ = missions
+⟦137⟧ = months
+⟦138⟧ = moon
+⟦139⟧ = NASA
+⟦140⟧ = NASA astronaut
+⟦141⟧ = navigation
+⟦142⟧ = navigation systems
+⟦143⟧ = Niè Hǎishèng
+⟦144⟧ = nmi
+⟦145⟧ = November
+⟦146⟧ = October
+⟦147⟧ = one "spaceflight participant
+⟦148⟧ = only 24 humans
+⟦149⟧ = orbit
+⟦150⟧ = participant
+⟦151⟧ = person
+⟦152⟧ = personnel
+⟦153⟧ = phase
+⟦154⟧ = pilot
+⟦155⟧ = planet
+⟦156⟧ = PM
+⟦157⟧ = point
+⟦158⟧ = powered descent
+⟦159⟧ = procedures
+⟦160⟧ = program
+⟦161⟧ = recipient
+⟦162⟧ = record
+⟦163⟧ = rehearsal
+⟦164⟧ = review
+⟦165⟧ = rocket
+⟦166⟧ = safety
+⟦167⟧ = second
+⟦168⟧ = several aspects
+⟦169⟧ = several experiments
+⟦170⟧ = Shenzhou
+⟦171⟧ = Shenzhou 6 ( "Shénzhōu lìuhào
+⟦172⟧ = side
+⟦173⟧ = Soyuz TMA-9
+⟦174⟧ = space
+⟦175⟧ = spacecraft
+⟦176⟧ = spaceflight
+⟦177⟧ = station
+⟦178⟧ = success
+⟦179⟧ = support
+⟦180⟧ = surface
+⟦181⟧ = systems
+⟦182⟧ = test
+⟦183⟧ = test pilot
+⟦184⟧ = that rocket's first crewed launch
+⟦185⟧ = The 1968 mission
+⟦186⟧ = the accident
+⟦187⟧ = the Apollo 1 fire
+⟦188⟧ = the Apollo 11 mission
+⟦189⟧ = the Apollo Command/Service Module
+⟦190⟧ = the Apollo program
+⟦191⟧ = The AS-204 mission
+⟦192⟧ = the Baikonur Cosmodrome
+⟦193⟧ = the cabin
+⟦194⟧ = the cause
+⟦195⟧ = the Chief Executive Officer
+⟦196⟧ = the Chinese government's Project
+⟦197⟧ = the Chinese space program
+⟦198⟧ = the Command/Service Module
+⟦199⟧ = the Commander
+⟦200⟧ = the commencement
+⟦201⟧ = the components
+⟦202⟧ = the Congressional Space Medal
+⟦203⟧ = the crew
+⟦204⟧ = the Earth's Moon
+⟦205⟧ = the European Space Agency
+⟦206⟧ = the F mission
+⟦207⟧ = the far side
+⟦208⟧ = the first Chinese extra-vehicular activity
+⟦209⟧ = the first crewed spacecraft
+⟦210⟧ = the first flight
+⟦211⟧ = the first human spaceflight launch
+⟦212⟧ = the first human spaceflight mission
+⟦213⟧ = the first humans
+⟦214⟧ = the first landing
+⟦215⟧ = the first manned flight
+⟦216⟧ = the first mission
+⟦217⟧ = the first Moon landing
+⟦218⟧ = the first U.S. spaceflight
+⟦219⟧ = the flight
+⟦220⟧ = the fourth manned mission
+⟦221⟧ = the gravitational well
+⟦222⟧ = the gravity
+⟦223⟧ = the International Space Station
+⟦224⟧ = the ISS
+⟦225⟧ = the Jiuquan Satellite Launch Center
+⟦226⟧ = the Kennedy Space Center
+⟦227⟧ = the LM engines
+⟦228⟧ = the lunar highlands
+⟦229⟧ = the Lunar Module
+⟦230⟧ = the lunar surface
+⟦231⟧ = The mission
+⟦232⟧ = the Moon
+⟦233⟧ = the NASA review board
+⟦234⟧ = the point
+⟦235⟧ = the Saturn V rocket
+⟦236⟧ = the second anniversary
+⟦237⟧ = the second human spaceflight
+⟦238⟧ = the second human spaceflight mission
+⟦239⟧ = the second manned launch
+⟦240⟧ = the second phase
+⟦241⟧ = The Shenzhou spacecraft
+⟦242⟧ = the so-called "J missions
+⟦243⟧ = the Soviet Union
+⟦244⟧ = the space station
+⟦245⟧ = the spacecraft and safety procedures
+⟦246⟧ = the tenth manned mission
+⟦247⟧ = the third country
+⟦248⟧ = the third flight
+⟦249⟧ = the third human spaceflight mission
+⟦250⟧ = the third manned mission
+⟦251⟧ = The three-astronaut crew
+⟦252⟧ = the United States
+⟦253⟧ = the United States Apollo space program
+⟦254⟧ = the United States' Apollo program
+⟦255⟧ = the world
+⟦256⟧ = their own eyes
+⟦257⟧ = thirds
+⟦258⟧ = two-thirds
+⟦259⟧ = unmanned Shenzhou missions
+⟦260⟧ = unmanned test flights
+⟦261⟧ = USAF
+⟦262⟧ = vehicle
+⟦263⟧ = well
+⟦264⟧ = world
+⟦265⟧ = Zhai Zhigang
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Apollo 9] ⟦43⟧⟨1⟩⟦250⟧⟨2⟩⟦135⟧⟨3⟩⟦253⟧⟨4⟩⟦174⟧⟨5⟩⟦160⟧⟨6⟩⟦210⟧⟨7⟩⟦97⟧⟨8⟩⟦198⟧⟨9⟩⟦75⟧⟨10⟩⟦229⟧⟨11⟩⟦123⟧⟨12⟩
+[Apollo 9] ⟦115⟧⟨13⟩⟦151⟧⟨14⟩⟦72⟧⟨15⟩⟦67⟧⟨16⟩⟦63⟧⟨17⟩⟦127⟧⟨18⟩⟦77⟧⟨19⟩⟦149⟧⟨20⟩⟦168⟧⟨21⟩⟦48⟧⟨22⟩⟦232⟧⟨23⟩⟦227⟧⟨24⟩⟦88⟧⟨25⟩⟦51⟧⟨26⟩⟦120⟧⟨27⟩⟦179⟧⟨28⟩⟦181⟧⟨29⟩⟦141⟧⟨30⟩⟦142⟧⟨31⟩⟦181⟧⟨32⟩⟦129⟧⟨33⟩⟦129⟧⟨34⟩
+[Apollo 9] ⟦231⟧⟨35⟩⟦135⟧⟨36⟩⟦239⟧⟨37⟩⟦119⟧⟨38⟩⟦32⟧⟨39⟩⟦165⟧⟨40⟩
+[Shenzhou 7] ⟨41⟩⟦249⟧⟨42⟩⟦176⟧⟨43⟩⟦135⟧⟨44⟩⟦197⟧⟨45⟩⟦174⟧⟨46⟩⟦160⟧⟨47⟩
+[Shenzhou 7] ⟦231⟧⟨48⟩⟦135⟧⟨49⟩⟦208⟧⟨50⟩⟦37⟧⟨51⟩⟦90⟧⟨52⟩⟦72⟧⟨53⟩⟦74⟧⟨54⟩⟦133⟧⟨55⟩⟦265⟧⟨56⟩⟦121⟧⟨57⟩⟦200⟧⟨58⟩⟦69⟧⟨59⟩⟦240⟧⟨60⟩⟦153⟧⟨61⟩⟦196⟧⟨62⟩⟦104⟧⟨63⟩
+[Soyuz TMA-9] ⟦173⟧⟨64⟩⟦34⟧⟨65⟩⟦135⟧⟨66⟩⟦223⟧⟨67⟩⟦112⟧⟨68⟩⟦33⟧⟨69⟩⟦119⟧⟨70⟩⟦262⟧⟨71⟩
+[Soyuz TMA-9] ⟨72⟩⟦26⟧⟨73⟩⟦176⟧⟨74⟩⟦135⟧⟨75⟩⟦152⟧⟨76⟩⟦152⟧⟨77⟩⟦224⟧⟨78⟩
+[Soyuz TMA-9] ⟨79⟩⟦192⟧⟨80⟩⟦11⟧⟨81⟩⟦6⟧⟨82⟩⟦4⟧⟨83⟩⟦224⟧⟨84⟩⟦7⟧⟨85⟩⟦5⟧⟨86⟩⟦13⟧⟨87⟩⟦81⟧⟨88⟩⟦14⟧⟨89⟩
+[Soyuz TMA-9] ⟦173⟧⟨90⟩⟦258⟧⟨91⟩⟦257⟧⟨92⟩⟦113⟧⟨93⟩⟦244⟧⟨94⟩⟦174⟧⟨95⟩⟦177⟧⟨96⟩⟦147⟧⟨97⟩⟦176⟧⟨98⟩⟦150⟧⟨99⟩⟦169⟧⟨100⟩⟦91⟧⟨101⟩⟦52⟧⟨102⟩⟦52⟧⟨103⟩⟦205⟧⟨104⟩
+[Shenzhou 5] ⟦170⟧⟨105⟩⟦212⟧⟨106⟩⟦176⟧⟨107⟩⟦135⟧⟨108⟩⟦197⟧⟨109⟩⟦174⟧⟨110⟩⟦160⟧⟨111⟩⟦10⟧⟨112⟩
+[Shenzhou 5] ⟦241⟧⟨113⟩⟦175⟧⟨114⟩⟦28⟧⟨115⟩⟦119⟧⟨116⟩⟦262⟧⟨117⟩
+[Shenzhou 5] ⟨118⟩⟦100⟧⟨119⟩⟦98⟧⟨120⟩⟦259⟧⟨121⟩⟦136⟧⟨122⟩
+[Shenzhou 5] ⟦61⟧⟨123⟩⟦247⟧⟨124⟩⟦71⟧⟨125⟩⟦255⟧⟨126⟩⟦264⟧⟨127⟩⟦111⟧⟨128⟩⟦176⟧⟨129⟩⟦58⟧⟨130⟩⟦243⟧⟨131⟩⟦3⟧⟨132⟩⟦252⟧⟨133⟩
+[Apollo 10] ⟦43⟧⟨134⟩⟦220⟧⟨135⟩⟦135⟧⟨136⟩⟦253⟧⟨137⟩⟦174⟧⟨138⟩⟦160⟧⟨139⟩⟦45⟧⟨140⟩⟦232⟧⟨141⟩
+[Apollo 10] ⟨142⟩⟦132⟧⟨143⟩⟦206⟧⟨144⟩⟦135⟧⟨145⟩⟦21⟧⟨146⟩⟦80⟧⟨147⟩⟦163⟧⟨148⟩⟦217⟧⟨149⟩⟦118⟧⟨150⟩⟦201⟧⟨151⟩⟦70⟧⟨152⟩⟦159⟧⟨153⟩⟦159⟧⟨154⟩
+[Apollo 10] ⟦229⟧⟨155⟩⟦123⟧⟨156⟩⟦23⟧⟨157⟩⟦79⟧⟨158⟩⟦149⟧⟨159⟩⟦18⟧⟨160⟩⟦144⟧⟨161⟩⟦230⟧⟨162⟩⟦180⟧⟨163⟩⟦234⟧⟨164⟩⟦157⟧⟨165⟩⟦158⟧⟨166⟩⟦79⟧⟨167⟩⟦118⟧⟨168⟩⟦118⟧⟨169⟩
+[Apollo 10] ⟦114⟧⟨170⟩⟦178⟧⟨171⟩⟦214⟧⟨172⟩⟦118⟧⟨173⟩⟦188⟧⟨174⟩⟦135⟧⟨175⟩⟦137⟧⟨176⟩
+[Apollo 7] ⟦43⟧⟨177⟩⟦40⟧⟨178⟩⟦176⟧⟨179⟩⟦135⟧⟨180⟩⟦252⟧⟨181⟩
+[Apollo 7] ⟨182⟩⟦216⟧⟨183⟩⟦135⟧⟨184⟩⟦254⟧⟨185⟩⟦160⟧⟨186⟩⟦22⟧⟨187⟩⟦72⟧⟨188⟩⟦174⟧⟨189⟩⟦174⟧⟨190⟩
+[Apollo 7] ⟨191⟩⟦218⟧⟨192⟩⟦176⟧⟨193⟩⟦50⟧⟨194⟩⟦50⟧⟨195⟩⟦219⟧⟨196⟩⟦97⟧⟨197⟩⟦103⟧⟨198⟩⟦145⟧⟨199⟩
+[Apollo 7] ⟦191⟧⟨200⟩⟦135⟧⟨201⟩⟦43⟧⟨202⟩⟦215⟧⟨203⟩⟦97⟧⟨204⟩⟦190⟧⟨205⟩⟦160⟧⟨206⟩
+[Apollo 7] ⟨207⟩⟦93⟧⟨208⟩⟦24⟧⟨209⟩⟦95⟧⟨210⟩⟦193⟧⟨211⟩⟦57⟧⟨212⟩⟦27⟧⟨213⟩⟦182⟧⟨214⟩⟦203⟧⟨215⟩⟦72⟧⟨216⟩
+[Apollo 7] ⟦130⟧⟨217⟩⟦98⟧⟨218⟩⟦15⟧⟨219⟩⟦137⟧⟨220⟩⟦194⟧⟨221⟩⟦60⟧⟨222⟩⟦186⟧⟨223⟩⟦36⟧⟨224⟩⟦110⟧⟨225⟩⟦110⟧⟨226⟩⟦245⟧⟨227⟩⟦175⟧⟨228⟩⟦166⟧⟨229⟩⟦159⟧⟨230⟩⟦260⟧⟨231⟩⟦182⟧⟨232⟩⟦98⟧⟨233⟩⟦235⟧⟨234⟩⟦165⟧⟨235⟩⟦46⟧⟨236⟩
+[Apollo 7] ⟦43⟧⟨237⟩⟦44⟧⟨238⟩⟦135⟧⟨239⟩⟦189⟧⟨240⟩⟦75⟧⟨241⟩⟦124⟧⟨242⟩⟦149⟧⟨243⟩
+[Apollo 16] ⟦43⟧⟨244⟩⟦246⟧⟨245⟩⟦135⟧⟨246⟩⟦253⟧⟨247⟩⟦174⟧⟨248⟩⟦160⟧⟨249⟩⟦232⟧⟨250⟩⟦117⟧⟨251⟩⟦228⟧⟨252⟩⟦125⟧⟨253⟩⟦106⟧⟨254⟩
+[Apollo 16] ⟨255⟩⟦167⟧⟨256⟩⟦242⟧⟨257⟩⟦136⟧⟨258⟩⟦68⟧⟨259⟩⟦126⟧⟨260⟩⟦65⟧⟨261⟩
+[Apollo 16] ⟨262⟩⟦226⟧⟨263⟩⟦99⟧⟨264⟩⟦9⟧⟨265⟩⟦156⟧⟨266⟩⟦89⟧⟨267⟩⟦89⟧⟨268⟩⟦47⟧⟨269⟩⟦231⟧⟨270⟩⟦135⟧⟨271⟩⟦77⟧⟨272⟩⟦8⟧⟨273⟩⟦108⟧⟨274⟩⟦17⟧⟨275⟩⟦134⟧⟨276⟩⟦12⟧⟨277⟩⟦156⟧⟨278⟩⟦89⟧⟨279⟩⟦89⟧⟨280⟩⟦47⟧⟨281⟩
+[Shenzhou 6] ⟦171⟧⟨282⟩⟦122⟧⟨283⟩⟦237⟧⟨284⟩⟦176⟧⟨285⟩⟦197⟧⟨286⟩⟦174⟧⟨287⟩⟦160⟧⟨288⟩⟦146⟧⟨289⟩⟦29⟧⟨290⟩⟦16⟧⟨291⟩⟦165⟧⟨292⟩⟦225⟧⟨293⟩
+[Shenzhou 6] ⟦241⟧⟨294⟩⟦175⟧⟨295⟩⟦22⟧⟨296⟩⟦72⟧⟨297⟩⟦94⟧⟨298⟩⟦19⟧⟨299⟩⟦143⟧⟨300⟩⟦20⟧⟨301⟩⟦20⟧⟨302⟩⟦96⟧⟨303⟩⟦77⟧⟨304⟩⟦124⟧⟨305⟩⟦149⟧⟨306⟩
+[Shenzhou 6] ⟨307⟩⟦77⟧⟨308⟩⟦236⟧⟨309⟩⟦41⟧⟨310⟩⟦62⟧⟨311⟩⟦176⟧⟨312⟩
+[Frank Borman] ⟦101⟧⟨313⟩⟦2⟧⟨314⟩⟦261⟧⟨315⟩
+[Frank Borman] ⟨316⟩⟦31⟧⟨317⟩⟦154⟧⟨318⟩⟦38⟧⟨319⟩⟦87⟧⟨320⟩⟦182⟧⟨321⟩⟦183⟧⟨322⟩⟦154⟧⟨323⟩⟦140⟧⟨324⟩⟦49⟧⟨325⟩⟦199⟧⟨326⟩⟦43⟧⟨327⟩⟦216⟧⟨328⟩⟦135⟧⟨329⟩⟦232⟧⟨330⟩⟦72⟧⟨331⟩⟦73⟧⟨332⟩⟦131⟧⟨333⟩⟦116⟧⟨334⟩⟦53⟧⟨335⟩⟦148⟧⟨336⟩⟦109⟧⟨337⟩
+[Frank Borman] ⟨338⟩⟦43⟧⟨339⟩⟦25⟧⟨340⟩⟦76⟧⟨341⟩⟦176⟧⟨342⟩⟦86⟧⟨343⟩⟦162⟧⟨344⟩⟦102⟧⟨345⟩⟦233⟧⟨346⟩⟦164⟧⟨347⟩⟦54⟧⟨348⟩⟦187⟧⟨349⟩⟦95⟧⟨350⟩
+[Frank Borman] ⟨351⟩⟦139⟧⟨352⟩⟦195⟧⟨353⟩⟦1⟧⟨354⟩⟦85⟧⟨355⟩
+[Frank Borman] ⟦56⟧⟨356⟩⟦30⟧⟨357⟩⟦161⟧⟨358⟩⟦202⟧⟨359⟩⟦107⟧⟨360⟩
+[Apollo 8] ⟦43⟧⟨361⟩⟦238⟧⟨362⟩⟦176⟧⟨363⟩⟦135⟧⟨364⟩⟦253⟧⟨365⟩⟦174⟧⟨366⟩⟦160⟧⟨367⟩⟦78⟧⟨368⟩⟦209⟧⟨369⟩⟦175⟧⟨370⟩⟦82⟧⟨371⟩⟦149⟧⟨372⟩⟦204⟧⟨373⟩⟦81⟧⟨374⟩
+[Apollo 8] ⟦251⟧⟨375⟩⟦49⟧⟨376⟩⟦72⟧⟨377⟩⟦66⟧⟨378⟩⟦64⟧⟨379⟩⟦128⟧⟨380⟩⟦213⟧⟨381⟩⟦109⟧⟨382⟩⟦124⟧⟨383⟩⟦149⟧⟨384⟩⟦83⟧⟨385⟩⟦105⟧⟨386⟩⟦81⟧⟨387⟩⟦35⟧⟨388⟩⟦155⟧⟨389⟩⟦222⟧⟨390⟩⟦105⟧⟨391⟩⟦263⟧⟨392⟩⟦42⟧⟨393⟩⟦55⟧⟨394⟩⟦84⟧⟨395⟩⟦138⟧⟨396⟩⟦42⟧⟨397⟩⟦55⟧⟨398⟩⟦84⟧⟨399⟩⟦138⟧⟨400⟩⟦207⟧⟨401⟩⟦172⟧⟨402⟩⟦232⟧⟨403⟩⟦256⟧⟨404⟩⟦92⟧⟨405⟩⟦39⟧⟨406⟩⟦222⟧⟨407⟩⟦105⟧⟨408⟩⟦42⟧⟨409⟩⟦55⟧⟨410⟩⟦84⟧⟨411⟩⟦138⟧⟨412⟩⟦221⟧⟨413⟩⟦263⟧⟨414⟩⟦81⟧⟨415⟩
+[Apollo 8] ⟦185⟧⟨416⟩⟦135⟧⟨417⟩⟦248⟧⟨418⟩⟦97⟧⟨419⟩⟦235⟧⟨420⟩⟦165⟧⟨421⟩⟦184⟧⟨422⟩⟦165⟧⟨423⟩⟦119⟧⟨424⟩⟦211⟧⟨425⟩⟦176⟧⟨426⟩⟦119⟧⟨427⟩⟦226⟧⟨428⟩⟦99⟧⟨429⟩⟦59⟧⟨430⟩
+
+[user]
+
+问题：
+In what year was the Commander of the second human spaceflight mission in the United States Apollo space program born?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

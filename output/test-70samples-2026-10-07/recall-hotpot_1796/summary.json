@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_1796",
+  "question": "What party was Johan Henrik Deuntzer a part of before the party that translates to the \"Radical Left?\"",
+  "expectedAnswer": "Liberal \"Venstre\" party",
+  "predictedAnswer": "# 路径一：通过政党演变时间线推理\n\n步骤1：使用⟦93⟧⟦101⟧⟦110⟧⟦12⟧，提取 Johan Henrik Deuntzer（1845年5月20日－1918年11月16日）是一位丹麦政治家，其政治生涯跨越多个政党。\n\n步骤2：使用⟦185⟧⟦156⟧⟦157⟧，提取 Deuntzer 属于自由党\"Venstre\"，直到1905年他加入了另一个政党。\n\n步骤3：使用⟦171⟧⟦104⟧，提取丹麦社会自由党（Danish Social Liberal Party）的成员信息，该党即\"Radical Left\"的对应翻译。\n\n步骤4：综合⟦157⟧⟦171⟧，Deuntzer 在1905年离开 Venstre 后加入的正是丹麦社会自由党（Radical Left），因此在此之前他属于 Venstre。\n\n结论：Johan Henrik Deuntzer 在加入\"Radical Left\"（丹麦社会自由党）之前，属于自由党\"Venstre\"。\n\n---\n\n# 路径二：通过内阁与政党关联交叉验证\n\n步骤1：使用⟦159⟧⟦169⟧⟦51⟧，提取1901年丹麦议会选举后，Johan Henrik Deuntzer 成为丹麦首届自由政府的内阁主席。\n\n步骤2：使用⟦185⟧，提取 Deuntzer 所属的\"Venstre\"（自由党）是当时组建政府的政党。\n\n步骤3：使用⟦157⟧⟦171⟧，交叉验证 Deuntzer 直到1905年才加入丹麦社会自由党（即\"Radical Left\"）。\n\n步骤4：综合⟦51⟧⟦185⟧⟦157⟧，Deuntzer 在1901年领导自由政府时属于 Venstre，1905年才转入社会自由党。\n\n结论：Deuntzer 在加入\"Radical Left\"之前是 Venstre（自由党）成员。\n\n---\n\n# 路径三：通过\"Radical Left\"名称溯源推理\n\n步骤1：使用⟦171⟧，提取\"Danish Social Liberal Party\"这一政党名称。\n\n步骤2：使用⟦119⟧⟦117⟧，提取该党与\"people\"和\"party\"相关的信息，确认其即通常译为\"Radical Left\"的丹麦政党。\n\n步骤3：使用⟦157⟧，提取 Deuntzer 于1905年加入该党，此前属于另一政党。\n\n步骤4：使用⟦185⟧，提取该另一政党为自由党\"Venstre\"。\n\n结论：Johan Henrik Deuntzer 在加入译为\"Radical Left\"的丹麦社会自由党之前，是自由党\"Venstre\"的成员。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦93⟧⟨149⟩⟦101⟧⟨150⟩⟦110⟧⟨151⟩⟦12⟧⟦124⟧⟨152⟩⟨153⟩⟨154⟩⟨155⟩",
+  "nounCount": 299,
+  "score": 1,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5198,
+    "completion_tokens": 320,
+    "total_tokens": 5518,
+    "prompt_tokens_details": {
+      "cached_tokens": 4992
+    },
+    "prompt_cache_hit_tokens": 4992,
+    "prompt_cache_miss_tokens": 206
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1211,
+    "completion_tokens": 594,
+    "total_tokens": 1805,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1211
+  }
+}

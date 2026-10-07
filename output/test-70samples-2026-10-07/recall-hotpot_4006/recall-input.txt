@@ -1,0 +1,405 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , "Dragonheart
+⟦2⟧ = "Anomalisa
+⟦3⟧ = "Dinotopia
+⟦4⟧ = "Fargo
+⟦5⟧ = "Holinshed's Chronicles
+⟦6⟧ = "Inside WikiLeaks
+⟦7⟧ = "Macbeth
+⟦8⟧ = "Naked
+⟦9⟧ = "The Miracle Maker
+⟦10⟧ = "The Theory
+⟦11⟧ = "Wonder Woman
+⟦12⟧ = (John Goodman
+⟦13⟧ = a "feeble and slothful administration
+⟦14⟧ = a 1993 British black comedy-drama film
+⟦15⟧ = a 1998 British-American crime comedy film
+⟦16⟧ = a 2000 British crime drama film
+⟦17⟧ = a 2011 British war drama film
+⟦18⟧ = a 2013 Indian-American biographical thriller film
+⟦19⟧ = a 2015 Canadian-Spanish-American psychological thriller mystery film
+⟦20⟧ = a bay Thoroughbred horse
+⟦21⟧ = a character
+⟦22⟧ = a departure
+⟦23⟧ = a director
+⟦24⟧ = a fictional character
+⟦25⟧ = a history
+⟦26⟧ = a Los Angeles slacker
+⟦27⟧ = a millionaire
+⟦28⟧ = a motor-mouthed intellectual and conspiracy theorist
+⟦29⟧ = a narrative
+⟦30⟧ = a new career
+⟦31⟧ = a number
+⟦32⟧ = a power grab
+⟦33⟧ = a result
+⟦34⟧ = a screenplay
+⟦35⟧ = a sensitive, insightful, and generous father-figure
+⟦36⟧ = a term
+⟦37⟧ = a well-plotted regicide
+⟦38⟧ = Aaron Ashmore
+⟦39⟧ = account
+⟦40⟧ = acting debut
+⟦41⟧ = actor
+⟦42⟧ = ad
+⟦43⟧ = administration
+⟦44⟧ = Albert
+⟦45⟧ = Alejandro Amenábar
+⟦46⟧ = Alicia Vikander
+⟦47⟧ = an English actor
+⟦48⟧ = Anthony Mackie
+⟦49⟧ = author
+⟦50⟧ = avid bowler
+⟦51⟧ = award
+⟦52⟧ = awards
+⟦53⟧ = bay
+⟦54⟧ = Benedict Cumberbatch
+⟦55⟧ = best actor
+⟦56⟧ = best director
+⟦57⟧ = Bill Condon
+⟦58⟧ = Black Beauty
+⟦59⟧ = book
+⟦60⟧ = bowler
+⟦61⟧ = Boy
+⟦62⟧ = Britain
+⟦63⟧ = British journalists
+⟦64⟧ = British teenager
+⟦65⟧ = brother
+⟦66⟧ = c.
+⟦67⟧ = Cannes
+⟦68⟧ = Cannes Film Festival
+⟦69⟧ = captain
+⟦70⟧ = career
+⟦71⟧ = cast
+⟦72⟧ = cause
+⟦73⟧ = character
+⟦74⟧ = chief
+⟦75⟧ = class
+⟦76⟧ = comedy
+⟦77⟧ = conspiracy
+⟦78⟧ = constraints
+⟦79⟧ = contemporaries
+⟦80⟧ = crime
+⟦81⟧ = Cyrus Crabb
+⟦82⟧ = Dale Dickey
+⟦83⟧ = Daniel Brühl
+⟦84⟧ = Daniel Domscheit-Berg
+⟦85⟧ = date
+⟦86⟧ = David Dencik
+⟦87⟧ = David Huddleston
+⟦88⟧ = David Kross
+⟦89⟧ = David Leigh
+⟦90⟧ = David Scinto
+⟦91⟧ = David Thewlis
+⟦92⟧ = David Wheeler
+⟦93⟧ = debut
+⟦94⟧ = departure
+⟦95⟧ = Devon Bostick
+⟦96⟧ = director
+⟦97⟧ = dissections
+⟦98⟧ = Domscheit-Berg's book
+⟦99⟧ = Donalbain
+⟦100⟧ = drama
+⟦101⟧ = Eddie Marsan
+⟦102⟧ = editor
+⟦103⟧ = Emily Watson
+⟦104⟧ = Emma Watson
+⟦105⟧ = end
+⟦106⟧ = England
+⟦107⟧ = English author Michael Morpurgo's 1982 novel
+⟦108⟧ = Ethan Coen
+⟦109⟧ = Ethan Hawke
+⟦110⟧ = Europe
+⟦111⟧ = father
+⟦112⟧ = figure
+⟦113⟧ = film
+⟦114⟧ = films
+⟦115⟧ = Flea
+⟦116⟧ = founder
+⟦117⟧ = friend
+⟦118⟧ = Gangster
+⟦119⟧ = Gangster No
+⟦120⟧ = Gangster Number
+⟦121⟧ = grab
+⟦122⟧ = Heaven
+⟦123⟧ = heir
+⟦124⟧ = her release
+⟦125⟧ = his contemporaries
+⟦126⟧ = his father
+⟦127⟧ = his film
+⟦128⟧ = His most commercially successful role
+⟦129⟧ = his trusted captain
+⟦130⟧ = history
+⟦131⟧ = Holinshed's incompetent King Duncan
+⟦132⟧ = horse
+⟦133⟧ = identity
+⟦134⟧ = improvisation
+⟦135⟧ = individuals
+⟦136⟧ = Ireland
+⟦137⟧ = Irvine
+⟦138⟧ = its former spokesperson
+⟦139⟧ = James
+⟦140⟧ = Jeff Bridges
+⟦141⟧ = Jeffrey "The Dude" Lebowski
+⟦142⟧ = Jeffrey Lebowski
+⟦143⟧ = Jeremy Irvine
+⟦144⟧ = Joel
+⟦145⟧ = Joey
+⟦146⟧ = John Turturro
+⟦147⟧ = Johnny
+⟦148⟧ = Josh Singer
+⟦149⟧ = journalists
+⟦150⟧ = journey
+⟦151⟧ = Julian Assange
+⟦152⟧ = Julianne Moore
+⟦153⟧ = king
+⟦154⟧ = King Duncan
+⟦155⟧ = Kingdom
+⟦156⟧ = Laura Linney
+⟦157⟧ = Lebowski's trophy wife
+⟦158⟧ = Lee Hall
+⟦159⟧ = Leigh
+⟦160⟧ = Leigh's "Naked" screenplay
+⟦161⟧ = lengthy improvisation
+⟦162⟧ = libbing
+⟦163⟧ = little actual ad-libbing
+⟦164⟧ = Lothaire Bluteau
+⟦165⟧ = Louis Mellis
+⟦166⟧ = Luke Harding
+⟦167⟧ = Macbeth
+⟦168⟧ = mainstream
+⟦169⟧ = major motion picture work
+⟦170⟧ = Malcolm
+⟦171⟧ = Malcolm III
+⟦172⟧ = Malcolm McDowell
+⟦173⟧ = manner
+⟦174⟧ = manners
+⟦175⟧ = media
+⟦176⟧ = middle-class and working-class manners
+⟦177⟧ = Mike Leigh
+⟦178⟧ = millionaire
+⟦179⟧ = miniseries
+⟦180⟧ = mistaken identity
+⟦181⟧ = money
+⟦182⟧ = motion
+⟦183⟧ = motor
+⟦184⟧ = murder
+⟦185⟧ = My Time
+⟦186⟧ = mystery
+⟦187⟧ = Naked
+⟦188⟧ = name
+⟦189⟧ = narrative
+⟦190⟧ = news
+⟦191⟧ = Niels Arestrup
+⟦192⟧ = No
+⟦193⟧ = No.1
+⟦194⟧ = novel
+⟦195⟧ = number
+⟦196⟧ = numerous individuals
+⟦197⟧ = origin
+⟦198⟧ = Other notable performances
+⟦199⟧ = owners
+⟦200⟧ = part
+⟦201⟧ = Paul Bettany
+⟦202⟧ = Paul McGuigan
+⟦203⟧ = people
+⟦204⟧ = performances
+⟦205⟧ = Peter MacNeill
+⟦206⟧ = Peter Mullan
+⟦207⟧ = Philip Seymour Hoffman
+⟦208⟧ = picture
+⟦209⟧ = plan
+⟦210⟧ = play
+⟦211⟧ = power
+⟦212⟧ = prominent television roles
+⟦213⟧ = ransom
+⟦214⟧ = Raphael Holinshed's 1587 "The Chronicles
+⟦215⟧ = refuge
+⟦216⟧ = regicide
+⟦217⟧ = Regression
+⟦218⟧ = rehearsals
+⟦219⟧ = release
+⟦220⟧ = Remus Lupin
+⟦221⟧ = result
+⟦222⟧ = Richard Curtis
+⟦223⟧ = role
+⟦224⟧ = roles
+⟦225⟧ = Saffron Burrows
+⟦226⟧ = Sam Elliott
+⟦227⟧ = schemes
+⟦228⟧ = Scotland
+⟦229⟧ = Scots
+⟦230⟧ = screenplay
+⟦231⟧ = screenwriter
+⟦232⟧ = season
+⟦233⟧ = series
+⟦234⟧ = Shakespeare
+⟦235⟧ = Shakespeare's "Macbeth
+⟦236⟧ = Shakespeare's King Duncan
+⟦237⟧ = slacker
+⟦238⟧ = son
+⟦239⟧ = sons
+⟦240⟧ = spokesperson
+⟦241⟧ = Stanley Tucci
+⟦242⟧ = star
+⟦243⟧ = Stark
+⟦244⟧ = Steve Buscemi
+⟦245⟧ = Steven Spielberg
+⟦246⟧ = support
+⟦247⟧ = supporting roles
+⟦248⟧ = Tara Reid
+⟦249⟧ = teenager
+⟦250⟧ = television
+⟦251⟧ = term
+⟦252⟧ = the "Harry Potter" film series
+⟦253⟧ = the account
+⟦254⟧ = the Best Actor award
+⟦255⟧ = The Big Lebowski
+⟦256⟧ = The Boy
+⟦257⟧ = the British Army
+⟦258⟧ = the cause
+⟦259⟧ = The character
+⟦260⟧ = The Dude
+⟦261⟧ = the Dude's friend
+⟦262⟧ = the elder son
+⟦263⟧ = the end
+⟦264⟧ = the father
+⟦265⟧ = The Fifth Estate
+⟦266⟧ = the film
+⟦267⟧ = The film's cast
+⟦268⟧ = The film's name
+⟦269⟧ = The film's screenplay
+⟦270⟧ = the films
+⟦271⟧ = the Giant Peach
+⟦272⟧ = the heir
+⟦273⟧ = the historical Donnchad mac Crinain
+⟦274⟧ = the historical king
+⟦275⟧ = the intended victim
+⟦276⟧ = the journey
+⟦277⟧ = the mainstream media
+⟦278⟧ = the manner
+⟦279⟧ = The millionaire
+⟦280⟧ = the murder
+⟦281⟧ = the narrative
+⟦282⟧ = the natural world
+⟦283⟧ = the news-leaking website
+⟦284⟧ = the normal constraints
+⟦285⟧ = The origin
+⟦286⟧ = the people
+⟦287⟧ = the plan
+⟦288⟧ = the play "Gangster No.1
+⟦289⟧ = the ransom
+⟦290⟧ = the ransom money
+⟦291⟧ = the same name
+⟦292⟧ = the Striped Pyjamas
+⟦293⟧ = the television miniseries
+⟦294⟧ = the then-unknown Thewlis
+⟦295⟧ = the third season
+⟦296⟧ = the throne
+⟦297⟧ = the title role
+⟦298⟧ = the tragedies
+⟦299⟧ = the victim
+⟦300⟧ = the war
+⟦301⟧ = the World's Most Dangerous Website
+⟦302⟧ = the younger son
+⟦303⟧ = their subtle comedic dissections
+⟦304⟧ = theorist
+⟦305⟧ = Theory
+⟦306⟧ = Thewlis
+⟦307⟧ = thriller
+⟦308⟧ = throne
+⟦309⟧ = Time
+⟦310⟧ = title
+⟦311⟧ = Toby Kebbell
+⟦312⟧ = Tom Hiddleston
+⟦313⟧ = tone
+⟦314⟧ = tragedies
+⟦315⟧ = trophy
+⟦316⟧ = turmoil
+⟦317⟧ = two youthful sons
+⟦318⟧ = V.M. Varga
+⟦319⟧ = victim
+⟦320⟧ = voice
+⟦321⟧ = voice work
+⟦322⟧ = Walter Sobchak
+⟦323⟧ = war
+⟦324⟧ = War Horse
+⟦325⟧ = website
+⟦326⟧ = while
+⟦327⟧ = whose murder
+⟦328⟧ = whose previous works
+⟦329⟧ = wife
+⟦330⟧ = WikiLeaks
+⟦331⟧ = William Shakespeare's "Macbeth
+⟦332⟧ = work
+⟦333⟧ = working
+⟦334⟧ = works
+⟦335⟧ = world
+⟦336⟧ = World War
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[David Thewlis] ⟦91⟧⟨1⟩⟦92⟧⟨2⟩⟦47⟧⟨3⟩⟦41⟧⟨4⟩⟦96⟧⟨5⟩⟦96⟧⟨6⟩⟦231⟧⟨7⟩⟦231⟧⟨8⟩⟦49⟧⟨9⟩⟦49⟧⟨10⟩
+[David Thewlis] ⟦128⟧⟨11⟩⟦223⟧⟨12⟩⟦85⟧⟨13⟩⟦85⟧⟨14⟩⟦220⟧⟨15⟩⟦252⟧⟨16⟩⟦113⟧⟨17⟩⟦233⟧⟨18⟩
+[David Thewlis] ⟦198⟧⟨19⟩⟦204⟧⟨20⟩⟦270⟧⟨21⟩⟦114⟧⟨22⟩⟦254⟧⟨23⟩⟦51⟧⟨24⟩⟦68⟧⟨25⟩⟦1⟧⟨26⟩⟦155⟧⟨27⟩⟦122⟧⟨28⟩⟦256⟧⟨29⟩⟦61⟧⟨30⟩⟦292⟧⟨31⟩⟦10⟧⟨32⟩⟦305⟧⟨33⟩⟦58⟧⟨34⟩⟦7⟧⟨35⟩⟦154⟧⟨36⟩⟦11⟧⟨37⟩
+[David Thewlis] ⟨38⟩⟦320⟧⟨39⟩⟦321⟧⟨40⟩⟦332⟧⟨41⟩⟦270⟧⟨42⟩⟦114⟧⟨43⟩⟦139⟧⟨44⟩⟦271⟧⟨45⟩⟦9⟧⟨46⟩⟦2⟧⟨47⟩
+[David Thewlis] ⟦306⟧⟨48⟩⟦169⟧⟨49⟩⟦182⟧⟨50⟩⟦208⟧⟨51⟩⟦332⟧⟨52⟩⟦212⟧⟨53⟩⟦250⟧⟨54⟩⟦224⟧⟨55⟩⟦81⟧⟨56⟩⟦293⟧⟨57⟩⟦250⟧⟨58⟩⟦179⟧⟨59⟩⟦3⟧⟨60⟩⟦318⟧⟨61⟩⟦295⟧⟨62⟩⟦232⟧⟨63⟩⟦4⟧⟨64⟩
+[Donalbain (Macbeth)] ⟦99⟧⟨65⟩⟦21⟧⟨66⟩⟦73⟧⟨67⟩⟦331⟧⟨68⟩⟦66⟧⟨69⟩
+[Donalbain (Macbeth)] ⟨70⟩⟦302⟧⟨71⟩⟦238⟧⟨72⟩⟦154⟧⟨73⟩⟦65⟧⟨74⟩⟦65⟧⟨75⟩⟦170⟧⟨76⟩⟦272⟧⟨77⟩⟦123⟧⟨78⟩⟦296⟧⟨79⟩⟦308⟧⟨80⟩
+[Donalbain (Macbeth)] ⟦99⟧⟨81⟩⟦136⟧⟨82⟩⟦280⟧⟨83⟩⟦184⟧⟨84⟩⟦126⟧⟨85⟩⟦111⟧⟨86⟩⟦215⟧⟨87⟩⟦215⟧⟨88⟩
+[The Big Lebowski] ⟦255⟧⟨89⟩⟦15⟧⟨90⟩⟦80⟧⟨91⟩⟦76⟧⟨92⟩⟦113⟧⟨93⟩⟦144⟧⟨94⟩⟦108⟧⟨95⟩
+[The Big Lebowski] ⟨96⟩⟦140⟧⟨97⟩⟦141⟧⟨98⟩⟦26⟧⟨99⟩⟦237⟧⟨100⟩⟦50⟧⟨101⟩⟦60⟧⟨102⟩
+[The Big Lebowski] ⟨103⟩⟦33⟧⟨104⟩⟦221⟧⟨105⟩⟦180⟧⟨106⟩⟦133⟧⟨107⟩⟦260⟧⟨108⟩⟦27⟧⟨109⟩⟦178⟧⟨110⟩⟦142⟧⟨111⟩⟦275⟧⟨112⟩⟦319⟧⟨113⟩
+[The Big Lebowski] ⟦279⟧⟨114⟩⟦178⟧⟨115⟩⟦157⟧⟨116⟩⟦315⟧⟨117⟩⟦329⟧⟨118⟩⟦260⟧⟨119⟩⟦289⟧⟨120⟩⟦213⟧⟨121⟩⟦124⟧⟨122⟩⟦219⟧⟨123⟩⟦287⟧⟨124⟩⟦209⟧⟨125⟩⟦261⟧⟨126⟩⟦117⟧⟨127⟩⟦322⟧⟨128⟩⟦12⟧⟨129⟩⟦227⟧⟨130⟩⟦227⟧⟨131⟩⟦290⟧⟨132⟩⟦213⟧⟨133⟩⟦181⟧⟨134⟩
+[The Big Lebowski] ⟦152⟧⟨135⟩⟦244⟧⟨136⟩⟦87⟧⟨137⟩⟦146⟧⟨138⟩⟦207⟧⟨139⟩⟦226⟧⟨140⟩⟦248⟧⟨141⟩⟦91⟧⟨142⟩⟦115⟧⟨143⟩⟦247⟧⟨144⟩⟦224⟧⟨145⟩
+[War Horse (film)] ⟦324⟧⟨146⟩⟦17⟧⟨147⟩⟦323⟧⟨148⟩⟦100⟧⟨149⟩⟦113⟧⟨150⟩⟦245⟧⟨151⟩⟦34⟧⟨152⟩⟦230⟧⟨153⟩⟦158⟧⟨154⟩⟦222⟧⟨155⟩⟦107⟧⟨156⟩⟦49⟧⟨157⟩⟦194⟧⟨158⟩⟦291⟧⟨159⟩⟦188⟧⟨160⟩
+[War Horse (film)] ⟦267⟧⟨161⟩⟦113⟧⟨162⟩⟦71⟧⟨163⟩⟦143⟧⟨164⟩⟦127⟧⟨165⟩⟦113⟧⟨166⟩⟦40⟧⟨167⟩⟦93⟧⟨168⟩⟦103⟧⟨169⟩⟦91⟧⟨170⟩⟦312⟧⟨171⟩⟦54⟧⟨172⟩⟦101⟧⟨173⟩⟦191⟧⟨174⟩⟦311⟧⟨175⟩⟦88⟧⟨176⟩⟦206⟧⟨177⟩
+[War Horse (film)] ⟨178⟩⟦336⟧⟨179⟩⟦276⟧⟨180⟩⟦150⟧⟨181⟩⟦145⟧⟨182⟩⟦20⟧⟨183⟩⟦53⟧⟨184⟩⟦132⟧⟨185⟩⟦64⟧⟨186⟩⟦249⟧⟨187⟩⟦44⟧⟨188⟩⟦137⟧⟨189⟩⟦257⟧⟨190⟩⟦196⟧⟨191⟩⟦135⟧⟨192⟩⟦199⟧⟨193⟩⟦199⟧⟨194⟩⟦110⟧⟨195⟩⟦326⟧⟨196⟩⟦298⟧⟨197⟩⟦314⟧⟨198⟩⟦300⟧⟨199⟩⟦323⟧⟨200⟩
+[Malcolm (Macbeth)] ⟦170⟧⟨201⟩⟦21⟧⟨202⟩⟦73⟧⟨203⟩⟦331⟧⟨204⟩⟦66⟧⟨205⟩
+[Malcolm (Macbeth)] ⟦259⟧⟨206⟩⟦73⟧⟨207⟩⟦274⟧⟨208⟩⟦153⟧⟨209⟩⟦171⟧⟨210⟩⟦228⟧⟨211⟩⟦253⟧⟨212⟩⟦39⟧⟨213⟩⟦5⟧⟨214⟩⟦25⟧⟨215⟩⟦130⟧⟨216⟩⟦62⟧⟨217⟩
+[Malcolm (Macbeth)] ⟨218⟩⟦262⟧⟨219⟩⟦238⟧⟨220⟩⟦154⟧⟨221⟩⟦272⟧⟨222⟩⟦123⟧⟨223⟩⟦296⟧⟨224⟩⟦308⟧⟨225⟩⟦65⟧⟨226⟩⟦65⟧⟨227⟩⟦99⟧⟨228⟩
+[Malcolm (Macbeth)] ⟨229⟩⟦263⟧⟨230⟩⟦105⟧⟨231⟩⟦296⟧⟨232⟩⟦308⟧⟨233⟩⟦246⟧⟨234⟩⟦246⟧⟨235⟩⟦167⟧⟨236⟩
+[Gangster No. 1] ⟦119⟧⟨237⟩⟦192⟧⟨238⟩⟦120⟧⟨239⟩⟦16⟧⟨240⟩⟦80⟧⟨241⟩⟦100⟧⟨242⟩⟦113⟧⟨243⟩⟦202⟧⟨244⟩⟦201⟧⟨245⟩⟦297⟧⟨246⟩⟦310⟧⟨247⟩⟦223⟧⟨248⟩
+[Gangster No. 1] ⟨249⟩⟦172⟧⟨250⟩⟦91⟧⟨251⟩⟦225⟧⟨252⟩
+[Gangster No. 1] ⟨253⟩⟦288⟧⟨254⟩⟦210⟧⟨255⟩⟦118⟧⟨256⟩⟦193⟧⟨257⟩⟦165⟧⟨258⟩⟦90⟧⟨259⟩
+[Naked (1993 film)] ⟦187⟧⟨260⟩⟦14⟧⟨261⟩⟦76⟧⟨262⟩⟦100⟧⟨263⟩⟦113⟧⟨264⟩⟦177⟧⟨265⟩⟦91⟧⟨266⟩⟦147⟧⟨267⟩⟦28⟧⟨268⟩⟦183⟧⟨269⟩⟦77⟧⟨270⟩⟦304⟧⟨271⟩
+[Naked (1993 film)] ⟦243⟧⟨272⟩⟦313⟧⟨273⟩⟦313⟧⟨274⟩⟦8⟧⟨275⟩⟦22⟧⟨276⟩⟦94⟧⟨277⟩⟦159⟧⟨278⟩⟦328⟧⟨279⟩⟦334⟧⟨280⟩⟦303⟧⟨281⟩⟦97⟧⟨282⟩⟦176⟧⟨283⟩⟦75⟧⟨284⟩⟦333⟧⟨285⟩⟦75⟧⟨286⟩⟦174⟧⟨287⟩
+[Naked (1993 film)] ⟦160⟧⟨288⟩⟦230⟧⟨289⟩⟦161⟧⟨290⟩⟦134⟧⟨291⟩⟦218⟧⟨292⟩⟦218⟧⟨293⟩⟦163⟧⟨294⟩⟦42⟧⟨295⟩⟦162⟧⟨296⟩
+[Naked (1993 film)] ⟨297⟩⟦266⟧⟨298⟩⟦113⟧⟨299⟩⟦31⟧⟨300⟩⟦195⟧⟨301⟩⟦52⟧⟨302⟩⟦52⟧⟨303⟩⟦56⟧⟨304⟩⟦96⟧⟨305⟩⟦55⟧⟨306⟩⟦41⟧⟨307⟩⟦67⟧⟨308⟩
+[Naked (1993 film)] ⟨309⟩⟦30⟧⟨310⟩⟦70⟧⟨311⟩⟦159⟧⟨312⟩⟦23⟧⟨313⟩⟦96⟧⟨314⟩⟦294⟧⟨315⟩⟦242⟧⟨316⟩
+[The Fifth Estate (film)] ⟦265⟧⟨317⟩⟦18⟧⟨318⟩⟦307⟧⟨319⟩⟦113⟧⟨320⟩⟦57⟧⟨321⟩⟦283⟧⟨322⟩⟦190⟧⟨323⟩⟦325⟧⟨324⟩⟦330⟧⟨325⟩
+[The Fifth Estate (film)] ⟦266⟧⟨326⟩⟦113⟧⟨327⟩⟦54⟧⟨328⟩⟦102⟧⟨329⟩⟦74⟧⟨330⟩⟦74⟧⟨331⟩⟦116⟧⟨332⟩⟦83⟧⟨333⟩⟦138⟧⟨334⟩⟦240⟧⟨335⟩⟦84⟧⟨336⟩
+[The Fifth Estate (film)] ⟦48⟧⟨337⟩⟦91⟧⟨338⟩⟦46⟧⟨339⟩⟦241⟧⟨340⟩⟦156⟧⟨341⟩⟦247⟧⟨342⟩⟦224⟧⟨343⟩
+[The Fifth Estate (film)] ⟦269⟧⟨344⟩⟦113⟧⟨345⟩⟦230⟧⟨346⟩⟦148⟧⟨347⟩⟦200⟧⟨348⟩⟦200⟧⟨349⟩⟦98⟧⟨350⟩⟦59⟧⟨351⟩⟦6⟧⟨352⟩⟦185⟧⟨353⟩⟦309⟧⟨354⟩⟦151⟧⟨355⟩⟦301⟧⟨356⟩⟦325⟧⟨357⟩⟦63⟧⟨358⟩⟦149⟧⟨359⟩⟦89⟧⟨360⟩⟦166⟧⟨361⟩
+[The Fifth Estate (film)] ⟦268⟧⟨362⟩⟦113⟧⟨363⟩⟦188⟧⟨364⟩⟦36⟧⟨365⟩⟦251⟧⟨366⟩⟦286⟧⟨367⟩⟦203⟧⟨368⟩⟦278⟧⟨369⟩⟦173⟧⟨370⟩⟦149⟧⟨371⟩⟦149⟧⟨372⟩⟦284⟧⟨373⟩⟦78⟧⟨374⟩⟦277⟧⟨375⟩⟦168⟧⟨376⟩⟦175⟧⟨377⟩
+[King Duncan] ⟦154⟧⟨378⟩⟦24⟧⟨379⟩⟦73⟧⟨380⟩⟦235⟧⟨381⟩
+[King Duncan] ⟨382⟩⟦264⟧⟨383⟩⟦111⟧⟨384⟩⟦317⟧⟨385⟩⟦239⟧⟨386⟩⟦170⟧⟨387⟩⟦99⟧⟨388⟩⟦299⟧⟨389⟩⟦319⟧⟨390⟩⟦37⟧⟨391⟩⟦216⟧⟨392⟩⟦32⟧⟨393⟩⟦211⟧⟨394⟩⟦121⟧⟨395⟩⟦129⟧⟨396⟩⟦69⟧⟨397⟩⟦167⟧⟨398⟩
+[King Duncan] ⟦285⟧⟨399⟩⟦197⟧⟨400⟩⟦259⟧⟨401⟩⟦73⟧⟨402⟩⟦29⟧⟨403⟩⟦189⟧⟨404⟩⟦273⟧⟨405⟩⟦153⟧⟨406⟩⟦229⟧⟨407⟩⟦214⟧⟨408⟩⟦106⟧⟨409⟩⟦228⟧⟨410⟩⟦136⟧⟨411⟩⟦25⟧⟨412⟩⟦130⟧⟨413⟩⟦62⟧⟨414⟩⟦234⟧⟨415⟩⟦125⟧⟨416⟩⟦79⟧⟨417⟩
+[King Duncan] ⟨418⟩⟦131⟧⟨419⟩⟦281⟧⟨420⟩⟦189⟧⟨421⟩⟦13⟧⟨422⟩⟦43⟧⟨423⟩⟦236⟧⟨424⟩⟦35⟧⟨425⟩⟦111⟧⟨426⟩⟦112⟧⟨427⟩⟦327⟧⟨428⟩⟦184⟧⟨429⟩⟦228⟧⟨430⟩⟦258⟧⟨431⟩⟦72⟧⟨432⟩⟦316⟧⟨433⟩⟦316⟧⟨434⟩⟦282⟧⟨435⟩⟦335⟧⟨436⟩
+[Regression (film)] ⟦217⟧⟨437⟩⟦217⟧⟨438⟩⟦19⟧⟨439⟩⟦307⟧⟨440⟩⟦186⟧⟨441⟩⟦113⟧⟨442⟩⟦45⟧⟨443⟩
+[Regression (film)] ⟦266⟧⟨444⟩⟦113⟧⟨445⟩⟦109⟧⟨446⟩⟦104⟧⟨447⟩⟦91⟧⟨448⟩⟦164⟧⟨449⟩⟦82⟧⟨450⟩⟦86⟧⟨451⟩⟦205⟧⟨452⟩⟦95⟧⟨453⟩⟦38⟧⟨454⟩⟦247⟧⟨455⟩⟦224⟧⟨456⟩
+
+[user]
+
+问题：
+David Thewlis had a performance in the film Macbeth as which father of Malcolm and Donalbain?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

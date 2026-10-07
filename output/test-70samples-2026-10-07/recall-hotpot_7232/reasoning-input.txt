@@ -1,0 +1,75 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Gaetano Donizetti] ⟦96⟧⟨1⟩⟦1⟧⟨2⟩⟦45⟧⟨3⟩⟨4⟩
+[Hector Berlioz] ⟦169⟧⟨117⟩⟦11⟧⟨118⟩⟦16⟧⟨119⟩⟦173⟧⟨120⟩⟨121⟩⟨122⟩⟦143⟧⟦82⟧⟨123⟩⟨124⟩⟦10⟧⟦112⟧⟨125⟩⟨126⟩⟦4⟧⟦183⟧⟨127⟩⟨128⟩⟦216⟧⟨129⟩
+[Berlioz (disambiguation)] ⟦25⟧ | ⟦137⟧⟨326⟩⟦25⟧⟨327⟩⟨328⟩
+[Eugenio Cavallini] ⟦80⟧ | ⟦80⟧ | ⟦80⟧
+
+符号表：
+⟦1⟧ = ; 29 November
+⟦4⟧ = "Grande messe des morts
+⟦10⟧ = "Symphonie fantastique
+⟦11⟧ = (English
+⟦16⟧ = 11 December
+⟦25⟧ = a French Romantic composer
+⟦45⟧ = an Italian composer
+⟦80⟧ = composer
+⟦82⟧ = compositions
+⟦96⟧ = Domenico Gaetano Maria Donizetti
+⟦112⟧ = fantastique
+⟦137⟧ = Hector Berlioz
+⟦143⟧ = his compositions
+⟦169⟧ = Louis-Hector Berlioz
+⟦173⟧ = March
+⟦183⟧ = morts
+⟦216⟧ = Requiem
+
+占位符映射：
+⟨1⟩ =  (] 
+⟨2⟩ =  1797 – 8 April 1848) was 
+⟨3⟩ = 
+⟨4⟩ = .
+⟨117⟩ =  (] 
+⟨118⟩ = : ); 
+⟨119⟩ =  1803 – 8 
+⟨120⟩ =  1869) was 
+⟨121⟩ = 
+⟨122⟩ = , best known for 
+⟨123⟩ = 
+⟨124⟩ =  
+⟨125⟩ = 
+⟨126⟩ = " and 
+⟨127⟩ = 
+⟨128⟩ = " (
+⟨129⟩ = ).
+⟨326⟩ =  (1803–1869) was 
+⟨327⟩ = 
+⟨328⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which composer was a French Romantic composer in the 1800's, Hector Berlioz or Gaetano Donizetti?

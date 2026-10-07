@@ -1,0 +1,95 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[SpaceDev] ⟦313⟧⟨571⟩⟦17⟧⟦267⟧⟨572⟩⟨573⟩⟦331⟧⟨574⟩⟨575⟩⟦180⟧⟨577⟩⟦233⟧⟨578⟩⟦440⟧⟨576⟩⟨579⟩
+[Sierra Nevada Corporation] ⟨900⟩⟦310⟧⟨901⟩⟦38⟧⟨903⟩⟦277⟧⟨902⟩⟨904⟩⟦321⟧⟦321⟧⟦322⟧⟨905⟩⟦168⟧⟨906⟩⟨907⟩⟦234⟧⟦234⟧⟨908⟩⟨909⟩⟦324⟧⟦324⟧⟨910⟩⟨911⟩⟦88⟧⟦415⟧⟨913⟩⟦302⟧⟨912⟩⟨914⟩
+[Sierra Nevada Corporation] ⟦308⟧ | ⟦308⟧ | ⟦308⟧⟨915⟩⟦368⟧⟦191⟧⟨916⟩⟨917⟩⟦78⟧⟨918⟩⟦129⟧⟨919⟩⟦274⟧⟨920⟩⟦124⟧⟨921⟩
+[Sierra Nevada Corporation] ⟦314⟧
+
+符号表：
+⟦17⟧ = a part
+⟦38⟧ = an American privately held electronic systems provider
+⟦78⟧ = chief executive officer
+⟦88⟧ = commercial orbital transportation services
+⟦124⟧ = Eren Ozmen
+⟦129⟧ = Fatih Ozmen
+⟦168⟧ = integrator
+⟦180⟧ = its spaceflight and microsatellite work
+⟦191⟧ = leadership
+⟦233⟧ = microsatellite
+⟦234⟧ = microsatellites
+⟦267⟧ = part
+⟦274⟧ = president
+⟦277⟧ = provider
+⟦302⟧ = services
+⟦308⟧ = Sierra Nevada Corporation
+⟦310⟧ = SNC
+⟦313⟧ = SpaceDev
+⟦314⟧ = spaceflight
+⟦321⟧ = systems
+⟦322⟧ = systems integrator
+⟦324⟧ = telemedicine
+⟦331⟧ = the "Space Systems Business
+⟦368⟧ = the leadership
+⟦415⟧ = transportation
+⟦440⟧ = work
+
+占位符映射：
+⟨571⟩ = , 
+⟨572⟩ = 
+⟨573⟩ =  of 
+⟨574⟩ = " of 
+⟨575⟩ = , is prominent for 
+⟨576⟩ = 
+⟨577⟩ =  and 
+⟨578⟩ =  
+⟨579⟩ = .
+⟨900⟩ =  (
+⟨901⟩ = ) is 
+⟨902⟩ = 
+⟨903⟩ =  
+⟨904⟩ =  and 
+⟨905⟩ = 
+⟨906⟩ = 
+⟨907⟩ =  specializing in 
+⟨908⟩ = 
+⟨909⟩ = , 
+⟨910⟩ = 
+⟨911⟩ = , and 
+⟨912⟩ = 
+⟨913⟩ =  
+⟨914⟩ = .
+⟨915⟩ =  operates under 
+⟨916⟩ = 
+⟨917⟩ =  of 
+⟨918⟩ = , 
+⟨919⟩ =  and 
+⟨920⟩ = , 
+⟨921⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who is the Chief Executive Officer of the corporation that owns Space Dev?

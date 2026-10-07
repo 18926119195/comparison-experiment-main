@@ -1,0 +1,378 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = -produced animated series
+⟦2⟧ = , Bad Sounds Bad, Rotten Sounds Rotten
+⟦3⟧ = "127 Hours
+⟦4⟧ = "Boodle Boodle Boodle
+⟦5⟧ = "Deewana
+⟦6⟧ = "Ennavale
+⟦7⟧ = "Ingane Oru Nilapakshi
+⟦8⟧ = "Milk
+⟦9⟧ = "Notuku Potu
+⟦10⟧ = "Sausage Party
+⟦11⟧ = "Spring Breakers
+⟦12⟧ = "The Body
+⟦13⟧ = "The Little Prince
+⟦14⟧ = "Virumbugiren
+⟦15⟧ = (English
+⟦16⟧ = (female
+⟦17⟧ = (Spanish title
+⟦18⟧ = 20 years
+⟦19⟧ = 24 August
+⟦20⟧ = 5 March
+⟦21⟧ = 6 additional live tracks
+⟦22⟧ = a 1992 Indian romantic drama film
+⟦23⟧ = a 2000 Tamil mystery thriller film
+⟦24⟧ = a 2004 documentary
+⟦25⟧ = a 2013 American fantasy adventure film
+⟦26⟧ = a 2016 Indian bilingual language crime thriller film
+⟦27⟧ = a bilingual
+⟦28⟧ = a Birthday
+⟦29⟧ = a Canada/Japan co
+⟦30⟧ = a community
+⟦31⟧ = a compilation cassette
+⟦32⟧ = a cult classic
+⟦33⟧ = a deceptive magician
+⟦34⟧ = a screenplay
+⟦35⟧ = a spiritual prequel
+⟦36⟧ = A thin line
+⟦37⟧ = A. M. R. Ramesh
+⟦38⟧ = action
+⟦39⟧ = actor
+⟦40⟧ = actors
+⟦41⟧ = actress
+⟦42⟧ = adventure
+⟦43⟧ = album
+⟦44⟧ = an Academy Award
+⟦45⟧ = an Account
+⟦46⟧ = an American actor
+⟦47⟧ = An American dub
+⟦48⟧ = an attic
+⟦49⟧ = an episode
+⟦50⟧ = an Indian film actress
+⟦51⟧ = an international co
+⟦52⟧ = an unofficial remake
+⟦53⟧ = aneb
+⟦54⟧ = Anil – Babu
+⟦55⟧ = animated fantasy comedy thriller family film
+⟦56⟧ = Apes
+⟦57⟧ = April
+⟦58⟧ = Arjun Sarja
+⟦59⟧ = Armaan Kohli
+⟦60⟧ = attic
+⟦61⟧ = Barta
+⟦62⟧ = Best Actor
+⟦63⟧ = bilingual
+⟦64⟧ = Bill Cobbs
+⟦65⟧ = Birthday
+⟦66⟧ = Body
+⟦67⟧ = Boodle
+⟦68⟧ = book
+⟦69⟧ = books
+⟦70⟧ = box
+⟦71⟧ = Cary Elwes
+⟦72⟧ = cassette
+⟦73⟧ = Chandrakant Kulkarni
+⟦74⟧ = characters
+⟦75⟧ = classic
+⟦76⟧ = co
+⟦77⟧ = comedy
+⟦78⟧ = comic book form
+⟦79⟧ = community
+⟦80⟧ = companies
+⟦81⟧ = Compilation
+⟦82⟧ = conflicts
+⟦83⟧ = Crazy
+⟦84⟧ = creative differences
+⟦85⟧ = crime
+⟦86⟧ = critics
+⟦87⟧ = cult
+⟦88⟧ = Czech, Japanese and Slovak companies
+⟦89⟧ = David Lindsay-Abaire
+⟦90⟧ = debut
+⟦91⟧ = Deewana
+⟦92⟧ = differences
+⟦93⟧ = Dil Aashna Hai
+⟦94⟧ = director
+⟦95⟧ = Divya Bharti
+⟦96⟧ = documentary
+⟦97⟧ = drama
+⟦98⟧ = dub
+⟦99⟧ = early recordings
+⟦100⟧ = Edgar Dutka
+⟦101⟧ = elements
+⟦102⟧ = End
+⟦103⟧ = episode
+⟦104⟧ = Evanora
+⟦105⟧ = events
+⟦106⟧ = family
+⟦107⟧ = fantasy
+⟦108⟧ = feature
+⟦109⟧ = February
+⟦110⟧ = female
+⟦111⟧ = festival
+⟦112⟧ = festivals
+⟦113⟧ = film
+⟦114⟧ = film festivals
+⟦115⟧ = films
+⟦116⟧ = Flying Nun Records
+⟦117⟧ = focus
+⟦118⟧ = Forest Whitaker
+⟦119⟧ = form
+⟦120⟧ = Franco
+⟦121⟧ = Friendship
+⟦122⟧ = Game
+⟦123⟧ = Glinda
+⟦124⟧ = Good Sounds
+⟦125⟧ = group
+⟦126⟧ = Guddu Dhanoa
+⟦127⟧ = Hairul Salleh Askor
+⟦128⟧ = half
+⟦129⟧ = Hannover House
+⟦130⟧ = her focus
+⟦131⟧ = her stage name
+⟦132⟧ = his role
+⟦133⟧ = his roles
+⟦134⟧ = Hours
+⟦135⟧ = human
+⟦136⟧ = Ilayaraaja
+⟦137⟧ = industry
+⟦138⟧ = Ishita Arun
+⟦139⟧ = issue
+⟦140⟧ = its release
+⟦141⟧ = James Edward Franco
+⟦142⟧ = James Franco
+⟦143⟧ = Jiří Barta
+⟦144⟧ = Joan Cusack
+⟦145⟧ = Joe Roth
+⟦146⟧ = Joey King
+⟦147⟧ = John R. Neill
+⟦148⟧ = Jon Long
+⟦149⟧ = July
+⟦150⟧ = June
+⟦151⟧ = Jyothika
+⟦152⟧ = Kannada
+⟦153⟧ = Kollywood
+⟦154⟧ = L. Frank Baum's "Oz" novels
+⟦155⟧ = L. Frank Baum's books
+⟦156⟧ = Lalit Kapoor
+⟦157⟧ = language
+⟦158⟧ = lead
+⟦159⟧ = life
+⟦160⟧ = line
+⟦161⟧ = live-action films
+⟦162⟧ = magician
+⟦163⟧ = Malayalam
+⟦164⟧ = Manisha Koirala
+⟦165⟧ = Marvel Comics
+⟦166⟧ = Michelle Williams
+⟦167⟧ = Mila Kunis
+⟦168⟧ = Milk
+⟦169⟧ = Mitchell Kapner
+⟦170⟧ = motion
+⟦171⟧ = movie
+⟦172⟧ = music
+⟦173⟧ = mystery
+⟦174⟧ = Na
+⟦175⟧ = name
+⟦176⟧ = narration
+⟦177⟧ = New Zealand group
+⟦178⟧ = no human
+⟦179⟧ = novel
+⟦180⟧ = novels
+⟦181⟧ = November
+⟦182⟧ = objects
+⟦183⟧ = offers
+⟦184⟧ = office
+⟦185⟧ = Oh Friend
+⟦186⟧ = only female characters
+⟦187⟧ = order
+⟦188⟧ = Oru Melliya Kodu
+⟦189⟧ = Oscar
+⟦190⟧ = Oscar Diggs
+⟦191⟧ = other objects
+⟦192⟧ = Oz
+⟦193⟧ = Pineapple Express
+⟦194⟧ = Plot elements
+⟦195⟧ = positive reviews
+⟦196⟧ = prequel
+⟦197⟧ = Priyadarshan
+⟦198⟧ = producer
+⟦199⟧ = production
+⟦200⟧ = project
+⟦201⟧ = půdě
+⟦202⟧ = R. Madhavan
+⟦203⟧ = Raakilipattu
+⟦204⟧ = Rachel Weisz
+⟦205⟧ = Raj Kanwar
+⟦206⟧ = recordings
+⟦207⟧ = release
+⟦208⟧ = remake
+⟦209⟧ = Return
+⟦210⟧ = reviews
+⟦211⟧ = Rise
+⟦212⟧ = Rishi Kapoor
+⟦213⟧ = Robert Redford
+⟦214⟧ = role
+⟦215⟧ = roles
+⟦216⟧ = Sacred Planet
+⟦217⟧ = Sam Raimi
+⟦218⟧ = schedule
+⟦219⟧ = screenplay
+⟦220⟧ = screenwriter
+⟦221⟧ = sequel
+⟦222⟧ = series
+⟦223⟧ = Shaam
+⟦224⟧ = Shah Rukh Khan
+⟦225⟧ = Shah Rukh's debut release
+⟦226⟧ = Shahrukh Khan
+⟦227⟧ = Sharbani Mukherjee
+⟦228⟧ = Snegithiye
+⟦229⟧ = Sneha
+⟦230⟧ = songs
+⟦231⟧ = stage
+⟦232⟧ = story
+⟦233⟧ = Suhasini Rajaram Naidu
+⟦234⟧ = supporting roles
+⟦235⟧ = Tabu
+⟦236⟧ = Tamil
+⟦237⟧ = Telugu
+⟦238⟧ = the 1939 Metro-Goldwyn-Mayer film
+⟦239⟧ = the 1985 Disney feature film
+⟦240⟧ = the 1999 Marathi film "Bindhaast
+⟦241⟧ = the 2012 Spanish thriller El Cuerpo
+⟦242⟧ = The album
+⟦243⟧ = the animated films
+⟦244⟧ = the Apes
+⟦245⟧ = the Attic
+⟦246⟧ = The book
+⟦247⟧ = the box office
+⟦248⟧ = The CD version
+⟦249⟧ = The Clean
+⟦250⟧ = the Czech Republic
+⟦251⟧ = the debut movie
+⟦252⟧ = the End
+⟦253⟧ = the events
+⟦254⟧ = The film
+⟦255⟧ = the first issue
+⟦256⟧ = the first schedule
+⟦257⟧ = the Further Adventures
+⟦258⟧ = the Land
+⟦259⟧ = the lead
+⟦260⟧ = the lead roles
+⟦261⟧ = the Malayalam film
+⟦262⟧ = The Marvelous Land
+⟦263⟧ = the movie
+⟦264⟧ = the New York International Children's Film Festival
+⟦265⟧ = the next 34 Oz books
+⟦266⟧ = the original novel
+⟦267⟧ = the Planet
+⟦268⟧ = the project
+⟦269⟧ = the same name
+⟦270⟧ = the same year
+⟦271⟧ = the Scarecrow
+⟦272⟧ = the second half
+⟦273⟧ = the sequel
+⟦274⟧ = The Shirley Temple Show
+⟦275⟧ = the South Indian film industry
+⟦276⟧ = the story
+⟦277⟧ = the Tamil film
+⟦278⟧ = the time
+⟦279⟧ = the Tin Woodman
+⟦280⟧ = the witches
+⟦281⟧ = The Wizard
+⟦282⟧ = The Wonderful Wizard
+⟦283⟧ = their 2 EPs
+⟦284⟧ = Theodora
+⟦285⟧ = This movie
+⟦286⟧ = three witches
+⟦287⟧ = thriller
+⟦288⟧ = time
+⟦289⟧ = title
+⟦290⟧ = Today
+⟦291⟧ = Tony Cox
+⟦292⟧ = Toys
+⟦293⟧ = tracks
+⟦294⟧ = trilogy
+⟦295⟧ = version
+⟦296⟧ = Vidyasagar
+⟦297⟧ = Vivian Schilling
+⟦298⟧ = Walt Disney Pictures
+⟦299⟧ = witches
+⟦300⟧ = year
+⟦301⟧ = years
+⟦302⟧ = Zach Braff
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Oz the Great and Powerful] ⟨1⟩⟦25⟧⟨2⟩⟦107⟧⟨3⟩⟦42⟧⟨4⟩⟦113⟧⟨5⟩⟦217⟧⟨6⟩⟦145⟧⟨7⟩⟦34⟧⟨8⟩⟦219⟧⟨9⟩⟦89⟧⟨10⟩⟦169⟧⟨11⟩
+[Oz the Great and Powerful] ⟦254⟧⟨12⟩⟦113⟧⟨13⟩⟦142⟧⟨14⟩⟦166⟧⟨15⟩⟦204⟧⟨16⟩⟦167⟧⟨17⟩⟦302⟧⟨18⟩⟦64⟧⟨19⟩⟦146⟧⟨20⟩⟦291⟧⟨21⟩⟦234⟧⟨22⟩⟦215⟧⟨23⟩
+[Oz the Great and Powerful] ⟨24⟩⟦154⟧⟨25⟩⟦192⟧⟨26⟩⟦180⟧⟨27⟩⟦18⟧⟨28⟩⟦301⟧⟨29⟩⟦253⟧⟨30⟩⟦105⟧⟨31⟩⟦266⟧⟨32⟩⟦179⟧⟨33⟩⟦35⟧⟨34⟩⟦196⟧⟨35⟩⟦238⟧⟨36⟩⟦113⟧⟨37⟩⟦281⟧⟨38⟩⟦192⟧⟨39⟩
+[Oz the Great and Powerful] ⟦254⟧⟨40⟩⟦113⟧⟨41⟩⟦276⟧⟨42⟩⟦232⟧⟨43⟩⟦190⟧⟨44⟩⟦33⟧⟨45⟩⟦162⟧⟨46⟩⟦258⟧⟨47⟩⟦192⟧⟨48⟩⟦286⟧⟨49⟩⟦299⟧⟨50⟩⟦284⟧⟨51⟩⟦104⟧⟨52⟩⟦123⟧⟨53⟩
+[Oz the Great and Powerful] ⟦189⟧⟨54⟩⟦187⟧⟨55⟩⟦187⟧⟨56⟩⟦192⟧⟨57⟩⟦82⟧⟨58⟩⟦82⟧⟨59⟩⟦280⟧⟨60⟩⟦299⟧⟨61⟩
+[The Marvelous Land of Oz] ⟦262⟧⟨62⟩⟦192⟧⟨63⟩⟦45⟧⟨64⟩⟦257⟧⟨65⟩⟦271⟧⟨66⟩⟦279⟧⟨67⟩⟦258⟧⟨68⟩⟦192⟧⟨69⟩⟦149⟧⟨70⟩⟦155⟧⟨71⟩⟦69⟧⟨72⟩⟦258⟧⟨73⟩⟦192⟧⟨74⟩⟦273⟧⟨75⟩⟦221⟧⟨76⟩⟦282⟧⟨77⟩⟦192⟧⟨78⟩
+[The Marvelous Land of Oz] ⟨79⟩⟦265⟧⟨80⟩⟦69⟧⟨81⟩⟦147⟧⟨82⟩
+[The Marvelous Land of Oz] ⟦246⟧⟨83⟩⟦68⟧⟨84⟩⟦49⟧⟨85⟩⟦103⟧⟨86⟩⟦274⟧⟨87⟩⟦29⟧⟨88⟩⟦76⟧⟨89⟩⟦1⟧⟨90⟩⟦222⟧⟨91⟩⟦269⟧⟨92⟩⟦175⟧⟨93⟩
+[The Marvelous Land of Oz] ⟨94⟩⟦78⟧⟨95⟩⟦68⟧⟨96⟩⟦119⟧⟨97⟩⟦165⟧⟨98⟩⟦255⟧⟨99⟩⟦139⟧⟨100⟩⟦181⟧⟨101⟩
+[The Marvelous Land of Oz] ⟦194⟧⟨102⟩⟦101⟧⟨103⟩⟦262⟧⟨104⟩⟦192⟧⟨105⟩⟦239⟧⟨106⟩⟦108⟧⟨107⟩⟦113⟧⟨108⟩⟦209⟧⟨109⟩⟦209⟧⟨110⟩⟦192⟧⟨111⟩
+[Compilation (The Clean album)] ⟦81⟧⟨112⟩⟦81⟧⟨113⟩⟦31⟧⟨114⟩⟦81⟧⟨115⟩⟦72⟧⟨116⟩⟦177⟧⟨117⟩⟦125⟧⟨118⟩⟦249⟧⟨119⟩
+[Compilation (The Clean album)] ⟨120⟩⟦288⟧⟨121⟩⟦116⟧⟨122⟩
+[Compilation (The Clean album)] ⟦242⟧⟨123⟩⟦43⟧⟨124⟩⟦99⟧⟨125⟩⟦206⟧⟨126⟩⟦230⟧⟨127⟩⟦230⟧⟨128⟩⟦283⟧⟨129⟩⟦4⟧⟨130⟩⟦67⟧⟨131⟩⟦124⟧⟨132⟩⟦2⟧⟨133⟩
+[Compilation (The Clean album)] ⟦248⟧⟨134⟩⟦295⟧⟨135⟩⟦21⟧⟨136⟩⟦293⟧⟨137⟩
+[James Franco] ⟦141⟧⟨138⟩⟦46⟧⟨139⟩⟦39⟧⟨140⟩⟦94⟧⟨141⟩⟦94⟧⟨142⟩⟦220⟧⟨143⟩⟦220⟧⟨144⟩⟦198⟧⟨145⟩⟦198⟧⟨146⟩
+[James Franco] ⟨147⟩⟦132⟧⟨148⟩⟦214⟧⟨149⟩⟦3⟧⟨150⟩⟦134⟧⟨151⟩⟦120⟧⟨152⟩⟦44⟧⟨153⟩⟦62⟧⟨154⟩
+[James Franco] ⟨155⟩⟦133⟧⟨156⟩⟦215⟧⟨157⟩⟦161⟧⟨158⟩⟦38⟧⟨159⟩⟦115⟧⟨160⟩⟦8⟧⟨161⟩⟦168⟧⟨162⟩⟦193⟧⟨163⟩⟦211⟧⟨164⟩⟦211⟧⟨165⟩⟦267⟧⟨166⟩⟦244⟧⟨167⟩⟦56⟧⟨168⟩⟦11⟧⟨169⟩⟦252⟧⟨170⟩⟦102⟧⟨171⟩⟦294⟧⟨172⟩⟦74⟧⟨173⟩⟦74⟧⟨174⟩⟦243⟧⟨175⟩⟦115⟧⟨176⟩⟦13⟧⟨177⟩⟦10⟧⟨178⟩
+[Deewana (1992 film)] ⟦91⟧⟨179⟩⟦15⟧⟨180⟩⟦83⟧⟨181⟩⟦22⟧⟨182⟩⟦97⟧⟨183⟩⟦113⟧⟨184⟩⟦205⟧⟨185⟩⟦126⟧⟨186⟩⟦156⟧⟨187⟩⟦224⟧⟨188⟩⟦95⟧⟨189⟩⟦212⟧⟨190⟩⟦259⟧⟨191⟩⟦158⟧⟨192⟩
+[Deewana (1992 film)] ⟨193⟩⟦225⟧⟨194⟩⟦90⟧⟨195⟩⟦207⟧⟨196⟩⟦272⟧⟨197⟩⟦128⟧⟨198⟩⟦254⟧⟨199⟩⟦113⟧⟨200⟩
+[Deewana (1992 film)] ⟨201⟩⟦59⟧⟨202⟩⟦268⟧⟨203⟩⟦200⟧⟨204⟩⟦84⟧⟨205⟩⟦92⟧⟨206⟩⟦256⟧⟨207⟩⟦218⟧⟨208⟩
+[Deewana (1992 film)] ⟦254⟧⟨209⟩⟦113⟧⟨210⟩⟦150⟧⟨211⟩
+[Deewana (1992 film)] ⟦93⟧⟨212⟩⟦251⟧⟨213⟩⟦90⟧⟨214⟩⟦171⟧⟨215⟩⟦226⟧⟨216⟩⟦5⟧⟨217⟩
+[Toys in the Attic (2009 film)] ⟦292⟧⟨218⟩⟦292⟧⟨219⟩⟦245⟧⟨220⟩⟦174⟧⟨221⟩⟦201⟧⟨222⟩⟦53⟧⟨223⟩
+[Toys in the Attic (2009 film)] ⟨224⟩⟦111⟧⟨225⟩⟦289⟧⟨226⟩⟦245⟧⟨227⟩⟦28⟧⟨228⟩⟦65⟧⟨229⟩⟦290⟧⟨230⟩
+[Toys in the Attic (2009 film)] ⟨231⟩⟦170⟧⟨232⟩⟦170⟧⟨233⟩⟦55⟧⟨234⟩⟦107⟧⟨235⟩⟦77⟧⟨236⟩⟦287⟧⟨237⟩⟦106⟧⟨238⟩⟦113⟧⟨239⟩⟦143⟧⟨240⟩⟦100⟧⟨241⟩⟦61⟧⟨242⟩⟦30⟧⟨243⟩⟦79⟧⟨244⟩⟦292⟧⟨245⟩⟦292⟧⟨246⟩⟦191⟧⟨247⟩⟦182⟧⟨248⟩⟦48⟧⟨249⟩⟦60⟧⟨250⟩⟦159⟧⟨251⟩⟦159⟧⟨252⟩⟦178⟧⟨253⟩⟦135⟧⟨254⟩
+[Toys in the Attic (2009 film)] ⟨255⟩⟦51⟧⟨256⟩⟦76⟧⟨257⟩⟦199⟧⟨258⟩⟦199⟧⟨259⟩⟦88⟧⟨260⟩⟦80⟧⟨261⟩
+[Toys in the Attic (2009 film)] ⟦254⟧⟨262⟩⟦113⟧⟨263⟩⟦250⟧⟨264⟩⟦20⟧⟨265⟩⟦113⟧⟨266⟩⟦114⟧⟨267⟩⟦112⟧⟨268⟩
+[Toys in the Attic (2009 film)] ⟦47⟧⟨269⟩⟦98⟧⟨270⟩⟦297⟧⟨271⟩⟦40⟧⟨272⟩⟦40⟧⟨273⟩⟦118⟧⟨274⟩⟦144⟧⟨275⟩⟦71⟧⟨276⟩⟦254⟧⟨277⟩⟦113⟧⟨278⟩⟦264⟧⟨279⟩⟦19⟧⟨280⟩⟦129⟧⟨281⟩
+[Game (2016 film)] ⟦122⟧⟨282⟩⟦152⟧⟨283⟩⟦188⟧⟨284⟩⟦15⟧⟨285⟩⟦36⟧⟨286⟩⟦160⟧⟨287⟩⟦236⟧⟨288⟩⟦26⟧⟨289⟩⟦157⟧⟨290⟩⟦85⟧⟨291⟩⟦287⟧⟨292⟩⟦113⟧⟨293⟩⟦37⟧⟨294⟩
+[Game (2016 film)] ⟦285⟧⟨295⟩⟦171⟧⟨296⟩⟦52⟧⟨297⟩⟦208⟧⟨298⟩⟦241⟧⟨299⟩⟦287⟧⟨300⟩⟦17⟧⟨301⟩⟦289⟧⟨302⟩⟦12⟧⟨303⟩⟦66⟧⟨304⟩⟦58⟧⟨305⟩⟦223⟧⟨306⟩⟦164⟧⟨307⟩⟦260⟧⟨308⟩⟦158⟧⟨309⟩⟦215⟧⟨310⟩
+[Game (2016 film)] ⟨311⟩⟦172⟧⟨312⟩⟦172⟧⟨313⟩⟦136⟧⟨314⟩⟦254⟧⟨315⟩⟦113⟧⟨316⟩⟦152⟧⟨317⟩⟦236⟧⟨318⟩⟦109⟧⟨319⟩⟦149⟧⟨320⟩
+[Game (2016 film)] ⟦254⟧⟨321⟩⟦113⟧⟨322⟩⟦237⟧⟨323⟩⟦9⟧⟨324⟩
+[Sneha (actress)] ⟦233⟧⟨325⟩⟦131⟧⟨326⟩⟦231⟧⟨327⟩⟦175⟧⟨328⟩⟦229⟧⟨329⟩⟦50⟧⟨330⟩⟦113⟧⟨331⟩⟦41⟧⟨332⟩⟦275⟧⟨333⟩⟦113⟧⟨334⟩⟦137⟧⟨335⟩
+[Sneha (actress)] ⟨336⟩⟦261⟧⟨337⟩⟦113⟧⟨338⟩⟦7⟧⟨339⟩⟦54⟧⟨340⟩⟦277⟧⟨341⟩⟦113⟧⟨342⟩⟦14⟧⟨343⟩⟦301⟧⟨344⟩
+[Sneha (actress)] ⟨345⟩⟦183⟧⟨346⟩⟦183⟧⟨347⟩⟦236⟧⟨348⟩⟦130⟧⟨349⟩⟦117⟧⟨350⟩⟦153⟧⟨351⟩⟦263⟧⟨352⟩⟦171⟧⟨353⟩⟦6⟧⟨354⟩⟦202⟧⟨355⟩⟦270⟧⟨356⟩⟦300⟧⟨357⟩
+[Snegithiye] ⟦228⟧⟨358⟩⟦15⟧⟨359⟩⟦185⟧⟨360⟩
+[Snegithiye] ⟦16⟧⟨361⟩⟦110⟧⟨362⟩⟦23⟧⟨363⟩⟦173⟧⟨364⟩⟦287⟧⟨365⟩⟦113⟧⟨366⟩⟦197⟧⟨367⟩
+[Snegithiye] ⟦276⟧⟨368⟩⟦232⟧⟨369⟩⟦240⟧⟨370⟩⟦113⟧⟨371⟩⟦73⟧⟨372⟩
+[Snegithiye] ⟦254⟧⟨373⟩⟦113⟧⟨374⟩⟦186⟧⟨375⟩⟦74⟧⟨376⟩⟦260⟧⟨377⟩⟦215⟧⟨378⟩⟦151⟧⟨379⟩⟦227⟧⟨380⟩⟦235⟧⟨381⟩⟦138⟧⟨382⟩
+[Snegithiye] ⟦172⟧⟨383⟩⟦296⟧⟨384⟩
+[Snegithiye] ⟦254⟧⟨385⟩⟦113⟧⟨386⟩⟦247⟧⟨387⟩⟦70⟧⟨388⟩⟦184⟧⟨389⟩⟦195⟧⟨390⟩⟦210⟧⟨391⟩⟦86⟧⟨392⟩⟦86⟧⟨393⟩
+[Snegithiye] ⟨394⟩⟦290⟧⟨395⟩⟦32⟧⟨396⟩⟦87⟧⟨397⟩⟦75⟧⟨398⟩⟦278⟧⟨399⟩⟦288⟧⟨400⟩⟦140⟧⟨401⟩⟦207⟧⟨402⟩
+[Snegithiye] ⟨403⟩⟦27⟧⟨404⟩⟦63⟧⟨405⟩⟦236⟧⟨406⟩⟦163⟧⟨407⟩⟦254⟧⟨408⟩⟦113⟧⟨409⟩⟦236⟧⟨410⟩⟦295⟧⟨411⟩⟦203⟧⟨412⟩⟦295⟧⟨413⟩⟦121⟧⟨414⟩⟦121⟧⟨415⟩⟦301⟧⟨416⟩
+[Sacred Planet] ⟦216⟧⟨417⟩⟦24⟧⟨418⟩⟦96⟧⟨419⟩⟦148⟧⟨420⟩⟦127⟧⟨421⟩
+[Sacred Planet] ⟦213⟧⟨422⟩⟦176⟧⟨423⟩⟦176⟧⟨424⟩⟦254⟧⟨425⟩⟦113⟧⟨426⟩
+[Sacred Planet] ⟦254⟧⟨427⟩⟦113⟧⟨428⟩⟦298⟧⟨429⟩⟦57⟧⟨430⟩
+
+[user]
+
+问题：
+Which film was released first: Sacred Planet or Oz the Great and Powerful?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

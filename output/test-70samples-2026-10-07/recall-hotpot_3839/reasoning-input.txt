@@ -1,0 +1,79 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Mesut Özil] ⟨211⟩⟦21⟧⟨212⟩⟨213⟩⟦73⟧⟨215⟩⟨214⟩⟦174⟧⟨216⟩⟨217⟩
+[2009 DFB-Pokal Final] ⟦170⟧⟦82⟧⟨218⟩⟨219⟩⟦153⟧⟦136⟧⟨220⟩⟨221⟩⟦14⟧⟨222⟩⟦183⟧⟨223⟩⟦46⟧⟨224⟩
+[2009 DFB-Pokal Final] ⟨225⟩⟦18⟧⟦117⟧⟨227⟩⟨226⟩⟨228⟩⟦116⟧⟨229⟩
+[2009 DFB-Pokal Final] ⟦57⟧
+[2009 DFB-Pokal Final] ⟦207⟧
+[Sandjar Ahmadi] ⟦86⟧
+[Sandjar Ahmadi] ⟦90⟧
+[Sandjar Ahmadi] ⟦143⟧
+
+符号表：
+⟦14⟧ = 30 May
+⟦18⟧ = a 58th-minute goal
+⟦21⟧ = a German professional footballer
+⟦46⟧ = Berlin
+⟦57⟧ = club
+⟦73⟧ = English club Arsenal
+⟦82⟧ = final
+⟦86⟧ = footballer
+⟦90⟧ = goal
+⟦116⟧ = midfielder Mesut Özil
+⟦117⟧ = minute
+⟦136⟧ = season
+⟦143⟧ = team
+⟦153⟧ = the 2008–09 DFB-Pokal season
+⟦170⟧ = The final
+⟦174⟧ = the Germany national team
+⟦183⟧ = the Olympiastadion
+⟦207⟧ = Werder Bremen
+
+占位符映射：
+⟨211⟩ = Mesut Özil (] , ] ; born 15 October 1988) is 
+⟨212⟩ = 
+⟨213⟩ =  who plays for 
+⟨214⟩ = 
+⟨215⟩ =  Arsenal and 
+⟨216⟩ = 
+⟨217⟩ = .
+⟨218⟩ = 
+⟨219⟩ =  of 
+⟨220⟩ = 
+⟨221⟩ =  was held on 
+⟨222⟩ =  2009 at 
+⟨223⟩ = , 
+⟨224⟩ = .
+⟨225⟩ =  won with 
+⟨226⟩ = 
+⟨227⟩ =  
+⟨228⟩ =  from 
+⟨229⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What year was the midfielder who shot the winning goal in the 2009 DFB-Pokal Final born?

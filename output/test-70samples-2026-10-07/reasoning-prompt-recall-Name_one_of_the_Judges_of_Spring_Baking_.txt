@@ -1,0 +1,168 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Spring Baking Championship] ⟦91⟧⟨130⟩⟦17⟧⟨132⟩⟨131⟩⟨134⟩⟨135⟩⟨136⟩⟨133⟩⟨137⟩⟦11⟧⟨138⟩⟨139⟩
+[Spring Baking Championship] ⟨140⟩⟨141⟩⟨142⟩⟦44⟧⟨143⟩⟨144⟩⟨145⟩⟨146⟩⟨147⟩⟨148⟩⟨149⟩⟦12⟧⟨150⟩⟨151⟩⟦112⟧⟦82⟧⟨152⟩⟨153⟩⟦59⟧⟦21⟧⟨154⟩⟨155⟩⟦95⟧⟨156⟩⟨157⟩⟦107⟧⟦79⟧⟨158⟩⟨159⟩⟦118⟧⟦121⟧⟨160⟩⟨161⟩⟦119⟧⟨162⟩⟨163⟩
+[Spring Baking Championship (season 2)] ⟨195⟩⟨196⟩⟨198⟩⟨199⟩⟨200⟩⟨197⟩⟨201⟩⟨202⟩⟨203⟩
+[Spring Baking Championship (season 2)] ⟦71⟧ | ⟨204⟩⟨205⟩⟨206⟩⟦60⟧⟦60⟧⟨207⟩⟨208⟩⟨209⟩⟨210⟩⟦71⟧⟨211⟩⟨212⟩⟨213⟩⟨214⟩⟨215⟩
+[Spring Baking Championship (season 3)] ⟦92⟧ | ⟦97⟧⟦92⟧ | ⟦116⟧⟨216⟩⟨217⟩⟦97⟧⟨219⟩⟨220⟩⟨221⟩⟨218⟩⟨222⟩⟦92⟧⟨223⟩⟦70⟧⟨224⟩⟨225⟩
+[Spring Baking Championship (season 3)] ⟦23⟧ | ⟦23⟧ | ⟨226⟩⟨227⟩⟦51⟧⟦50⟧⟨229⟩⟨228⟩⟦23⟧⟨230⟩⟨231⟩⟨232⟩⟨233⟩⟦120⟧⟦81⟧⟨234⟩⟨235⟩
+[Spring Baking Championship (season 3)] ⟦39⟧⟦69⟧ | ⟦39⟧⟦69⟧ | ⟦26⟧⟨236⟩⟦39⟧⟨237⟩⟦69⟧⟨238⟩⟨239⟩⟨240⟩⟨241⟩⟨242⟩
+[Halloween Baking Championship] ⟦14⟧⟦35⟧⟦33⟧⟦93⟧⟦48⟧ | ⟦33⟧⟦33⟧ | ⟦35⟧⟦33⟧⟦93⟧⟦48⟧ | ⟦35⟧⟦33⟧⟦93⟧⟦48⟧
+[Halloween Baking Championship] ⟦86⟧ | ⟦22⟧ | ⟦114⟧⟦86⟧ | ⟦115⟧⟦86⟧ | ⟦86⟧ | ⟦115⟧⟦86⟧⟦22⟧ | ⟦115⟧⟦86⟧
+[Halloween Baking Championship] ⟦25⟧⟦25⟧⟦66⟧⟦66⟧ | ⟦85⟧ | ⟦25⟧⟦25⟧⟦66⟧⟦66⟧ | ⟦85⟧ | ⟦113⟧⟦85⟧ | ⟦66⟧⟦66⟧
+
+符号表：
+⟦11⟧ = airs
+⟦12⟧ = All four chefs
+⟦14⟧ = an American cooking competition television series
+⟦17⟧ = Baking
+⟦21⟧ = Championship
+⟦22⟧ = chef
+⟦23⟧ = chef Bobby Deen
+⟦25⟧ = chefs
+⟦26⟧ = Chefs Nancy Fuller
+⟦33⟧ = competition
+⟦35⟧ = cooking
+⟦39⟧ = Duff Goldman
+⟦44⟧ = fellow Food Network chefs
+⟦48⟧ = Food Network
+⟦50⟧ = footballer
+⟦51⟧ = former footballer Jesse Palmer
+⟦59⟧ = Holiday Baking Championship
+⟦60⟧ = host
+⟦66⟧ = judges
+⟦69⟧ = Lorraine Pascale
+⟦70⟧ = March
+⟦71⟧ = Nancy Fuller
+⟦79⟧ = prize
+⟦81⟧ = reasons
+⟦82⟧ = roles
+⟦85⟧ = season
+⟦86⟧ = series
+⟦91⟧ = Spring
+⟦92⟧ = Spring Baking Championship
+⟦93⟧ = television
+⟦95⟧ = that competition
+⟦97⟧ = the American cooking competition television series
+⟦107⟧ = the grand prize
+⟦112⟧ = the same roles
+⟦113⟧ = The season
+⟦114⟧ = The second season
+⟦115⟧ = the series
+⟦116⟧ = The third season
+⟦118⟧ = the winner
+⟦119⟧ = this competition
+⟦120⟧ = undisclosed reasons
+⟦121⟧ = winner
+
+占位符映射：
+⟨130⟩ = 
+⟨131⟩ = 
+⟨132⟩ =  Championship is 
+⟨133⟩ = 
+⟨134⟩ =  
+⟨135⟩ =  
+⟨136⟩ =  
+⟨137⟩ =  that 
+⟨138⟩ =  on 
+⟨139⟩ = .
+⟨140⟩ =  It was originally presented by 
+⟨141⟩ = 
+⟨142⟩ = ; with 
+⟨143⟩ = 
+⟨144⟩ =  
+⟨145⟩ = , 
+⟨146⟩ =  and 
+⟨147⟩ =  serving as 
+⟨148⟩ = 
+⟨149⟩ = . 
+⟨150⟩ = 
+⟨151⟩ =  also appeared in 
+⟨152⟩ = 
+⟨153⟩ =  on "
+⟨154⟩ = 
+⟨155⟩ = "; and similar to 
+⟨156⟩ = 
+⟨157⟩ = , 
+⟨158⟩ = 
+⟨159⟩ =  for 
+⟨160⟩ = 
+⟨161⟩ =  of 
+⟨162⟩ = 
+⟨163⟩ =  is also $50,000.
+⟨195⟩ = 
+⟨196⟩ =  of 
+⟨197⟩ = 
+⟨198⟩ =  
+⟨199⟩ =  
+⟨200⟩ =  
+⟨201⟩ =  
+⟨202⟩ =  premiered April 10, 2016 on 
+⟨203⟩ = .
+⟨204⟩ =  returned to 
+⟨205⟩ = 
+⟨206⟩ =  as 
+⟨207⟩ = 
+⟨208⟩ = ; with 
+⟨209⟩ = 
+⟨210⟩ =  
+⟨211⟩ = , 
+⟨212⟩ =  and 
+⟨213⟩ =  also returning as 
+⟨214⟩ = 
+⟨215⟩ = .
+⟨216⟩ = 
+⟨217⟩ =  of 
+⟨218⟩ = 
+⟨219⟩ =  
+⟨220⟩ =  
+⟨221⟩ =  
+⟨222⟩ =  
+⟨223⟩ =  premiered 
+⟨224⟩ =  12, 2017 on 
+⟨225⟩ = .
+⟨226⟩ = 
+⟨227⟩ =  was hosted by 
+⟨228⟩ = 
+⟨229⟩ =  Jesse Palmer; replacing 
+⟨230⟩ = 
+⟨231⟩ = , who left 
+⟨232⟩ = 
+⟨233⟩ =  for 
+⟨234⟩ = 
+⟨235⟩ = .
+⟨236⟩ = , 
+⟨237⟩ =  and 
+⟨238⟩ =  returned to 
+⟨239⟩ = 
+⟨240⟩ =  as 
+⟨241⟩ = 
+⟨242⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Name one of the Judges of Spring Baking Championship television series who was born on December 17, 1974 ?

@@ -1,0 +1,90 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Oak Beach, New York] ⟦97⟧⟨166⟩⟦13⟧⟨167⟩⟨168⟩⟨169⟩⟨170⟩⟨171⟩⟨173⟩⟨172⟩⟨174⟩⟨175⟩⟦151⟧⟨176⟩
+[Oak Beach, New York] ⟦42⟧
+[Great South Bay] ⟨237⟩⟦17⟧⟦77⟧⟨238⟩⟨239⟩⟨240⟩⟨241⟩⟦179⟧⟨242⟩⟦91⟧
+[Great South Bay] ⟦4⟧⟦25⟧⟦68⟧⟦147⟧ | ⟦55⟧ | ⟨244⟩⟦88⟧⟨245⟩⟨246⟩⟦55⟧⟨247⟩⟦4⟧⟦25⟧⟨249⟩⟦68⟧⟨248⟩⟨250⟩⟦147⟧⟨251⟩⟨252⟩⟨253⟩⟦33⟧⟨254⟩
+[Short Beach (New York)] ⟦73⟧ | ⟦73⟧
+[Short Beach (New York)] ⟦138⟧ | ⟦61⟧ | ⟦61⟧⟦138⟧
+[Short Beach (New York)] ⟦52⟧ | ⟦52⟧
+[Lower South Bay, New York] ⟦79⟧ | ⟦79⟧
+
+符号表：
+⟦4⟧ = a barrier island
+⟦13⟧ = a small community
+⟦17⟧ = actually a lagoon
+⟦25⟧ = barrier
+⟦33⟧ = Captree Island
+⟦42⟧ = community
+⟦52⟧ = end
+⟦55⟧ = Fire Island
+⟦61⟧ = Great South Bay
+⟦68⟧ = island
+⟦73⟧ = Jones Beach Island
+⟦77⟧ = lagoon
+⟦79⟧ = Long Island
+⟦88⟧ = mi
+⟦91⟧ = New York
+⟦97⟧ = Oak Beach
+⟦138⟧ = the Atlantic Ocean
+⟦147⟧ = the eastern end
+⟦151⟧ = the Great South Bay
+⟦179⟧ = the State
+
+占位符映射：
+⟨166⟩ =  is 
+⟨167⟩ = 
+⟨168⟩ =  located on 
+⟨169⟩ = 
+⟨170⟩ =  of 
+⟨171⟩ = , 
+⟨172⟩ = 
+⟨173⟩ =  
+⟨174⟩ =  between 
+⟨175⟩ =  and 
+⟨176⟩ =  of 
+⟨237⟩ = , 
+⟨238⟩ = 
+⟨239⟩ = , is situated between 
+⟨240⟩ =  and 
+⟨241⟩ = , in 
+⟨242⟩ =  of 
+⟨244⟩ =  It is approximately 45 
+⟨245⟩ =  long and protected from 
+⟨246⟩ =  by 
+⟨247⟩ = , 
+⟨248⟩ = 
+⟨249⟩ =  
+⟨250⟩ = , as well as 
+⟨251⟩ = 
+⟨252⟩ =  of 
+⟨253⟩ =  and 
+⟨254⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Oak Beach, New York and Great South Bay are both situated between what same island?

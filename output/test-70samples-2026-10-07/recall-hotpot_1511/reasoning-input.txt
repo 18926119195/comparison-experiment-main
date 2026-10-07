@@ -1,0 +1,111 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Maroon 5] ⟨133⟩⟦23⟧⟨135⟩⟨136⟩⟨134⟩⟨137⟩⟦109⟧⟨138⟩⟦41⟧⟨139⟩
+[Maroon 5] ⟨140⟩⟦106⟧⟨141⟩⟨143⟩⟨142⟩⟨144⟩⟨145⟩⟨146⟩⟨147⟩⟨148⟩⟨149⟩⟦36⟧⟦37⟧⟨150⟩⟨151⟩⟦104⟧⟨152⟩⟨154⟩⟨153⟩⟦58⟧⟦59⟧⟨155⟩⟨156⟩⟦99⟧⟨157⟩⟨158⟩
+[Maroon 5's sixth studio album] ⟨191⟩⟦175⟧⟨193⟩⟨192⟩⟨194⟩⟨196⟩⟨197⟩⟨195⟩⟨198⟩⟨199⟩⟨200⟩⟨201⟩⟦128⟧⟨202⟩⟦4⟧⟨203⟩
+[Feelings (Maroon 5 song)] ⟦19⟧
+[Feelings (Maroon 5 song)] ⟦143⟧⟦143⟧
+[Overexposed (album)] ⟦146⟧⟦94⟧
+[She Will Be Loved] ⟦133⟧⟦148⟧ | ⟦133⟧⟦148⟧
+[She Will Be Loved] ⟦103⟧⟦103⟧
+[V (Maroon 5 album)] ⟦159⟧⟦114⟧⟦114⟧ | ⟦114⟧
+[V (Maroon 5 album)] ⟦34⟧ | ⟦34⟧
+[V (Maroon 5 album)] ⟦16⟧ | ⟦98⟧⟦98⟧⟦98⟧⟦75⟧⟦75⟧⟦206⟧
+
+符号表：
+⟦4⟧ = 222 and Interscope Records
+⟦16⟧ = album
+⟦19⟧ = American pop rock band
+⟦23⟧ = an American pop rock band
+⟦34⟧ = band
+⟦36⟧ = bassist
+⟦37⟧ = bassist Mickey Madden
+⟦41⟧ = California
+⟦58⟧ = drummer
+⟦59⟧ = drummer Matt Flynn
+⟦75⟧ = guitarist
+⟦94⟧ = Jesse Carmichael
+⟦98⟧ = keyboardist
+⟦99⟧ = keyboardist PJ Morton
+⟦103⟧ = lead
+⟦104⟧ = lead guitarist James Valentine
+⟦106⟧ = lead vocalist Adam Levine
+⟦109⟧ = Los Angeles
+⟦114⟧ = Maroon
+⟦128⟧ = November
+⟦133⟧ = pop
+⟦143⟧ = release
+⟦146⟧ = rhythm guitarist
+⟦148⟧ = rock
+⟦159⟧ = studio
+⟦175⟧ = the forthcoming eponymous sixth studio album
+⟦206⟧ = vocalist
+
+占位符映射：
+⟨133⟩ =  5 is 
+⟨134⟩ = 
+⟨135⟩ =  
+⟨136⟩ =  
+⟨137⟩ =  that originated in 
+⟨138⟩ = , 
+⟨139⟩ = .
+⟨140⟩ =  It currently consists of 
+⟨141⟩ = 
+⟨142⟩ = 
+⟨143⟩ =  Adam Levine, 
+⟨144⟩ = 
+⟨145⟩ =  and 
+⟨146⟩ = 
+⟨147⟩ = 
+⟨148⟩ =  
+⟨149⟩ = , 
+⟨150⟩ = 
+⟨151⟩ = , 
+⟨152⟩ = 
+⟨153⟩ = 
+⟨154⟩ =  James Valentine, 
+⟨155⟩ = 
+⟨156⟩ =  and 
+⟨157⟩ = 
+⟨158⟩ = .
+⟨191⟩ =  5 is 
+⟨192⟩ = 
+⟨193⟩ =  
+⟨194⟩ =  by 
+⟨195⟩ = 
+⟨196⟩ =  
+⟨197⟩ =  
+⟨198⟩ =  
+⟨199⟩ =  5, scheduled for 
+⟨200⟩ = 
+⟨201⟩ =  on 
+⟨202⟩ =  3, 2017 by 
+⟨203⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who is the lead vocalist for Maroon 5's sixth studio album?

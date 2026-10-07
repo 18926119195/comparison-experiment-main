@@ -1,0 +1,25 @@
+# 路径一：从角色配音与角色归属推理
+
+步骤1：使用⟦115⟧，提取“princesses”这一关键词，判断问题中的“party princess”指向公主类角色。
+步骤2：综合⟦107⟧⟦64⟧，提取“party”与“Elsa”的关联，判断常见派对公主中包括 Elsa。
+步骤3：使用⟦119⟧，提取“Queen Elsa”，确认 Elsa 是《Frozen》中的角色。
+步骤4：综合⟦31⟧⟦1⟧，提取“Arendelle”与“Frozen”，判断 Elsa 的家乡是 Arendelle。
+
+结论：常见派对公主中由 Idina Menzel 配音的角色是 Elsa，其家乡是 Arendelle。
+
+# 路径二：从配音演员 Idina Menzel 与角色交叉验证
+
+步骤1：使用⟦64⟧，提取“Elsa”，判断 Idina Menzel 与 Elsa 相关。
+步骤2：综合⟦119⟧⟦11⟧⟦42⟧，提取“Queen Elsa”“a fictional character”“character”，确认 Elsa 是虚构角色。
+步骤3：综合⟦31⟧⟦186⟧⟦1⟧，提取“Arendelle”“Walt Disney Animation Studios' 53rd animated film”“Frozen”，判断 Elsa 所属故事发生在 Arendelle。
+
+结论：Idina Menzel 配音的常见派对公主是 Elsa，其家乡为 Arendelle。
+
+# 路径三：从派对公主常见角色列表排除与定位
+
+步骤1：综合⟦167⟧⟦47⟧⟦142⟧⟦166⟧，提取“The most common party princesses costumes”“Cinderella”“Sleeping Beauty”“The Little Mermaid”，列出常见派对公主角色。
+步骤2：使用⟦64⟧，提取“Elsa”，判断 Elsa 也属于常见派对公主之一。
+步骤3：综合⟦119⟧⟦31⟧，提取“Queen Elsa”与“Arendelle”，确认 Elsa 的家乡。
+步骤4：使用⟦115⟧，提取“princesses”，与问题中的“party princess”对应，确认答案指向公主角色的家乡。
+
+结论：在常见派对公主中，Idina Menzel 配音的是 Elsa，其家乡是 Arendelle。

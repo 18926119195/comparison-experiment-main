@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_5364",
+  "question": "Aerodynamik is a Kraftwerk song on an album recorded for what anniversity of the Tour de France bicycle race?",
+  "expectedAnswer": "100th",
+  "predictedAnswer": "# 路径一：从专辑条目直接定位周年纪念\n\n步骤1：使用⟦214⟧，提取 \"Tour de France Soundtracks\" 是 Kraftwerk 的专辑名称，这是问题的核心专辑。\n\n步骤2：综合⟦195⟧⟦85⟧⟦171⟧，确认 \"Tour de France Soundtracks\" 是 Kraftwerk（德国电子乐团）的第十张录音室专辑。\n\n步骤3：综合⟦158⟧⟦329⟧⟦139⟧，提取该专辑是为 \"the 100th anniversary\"（第100周年）录制的。\n\n步骤4：综合⟦167⟧⟦139⟧，确认该周年纪念对应的是 \"the first 'Tour de France' bicycle race\" 的100周年。\n\n结论：Aerodynamik 所在的专辑是为环法自行车赛100周年录制的。\n\n---\n\n# 路径二：通过发行时间与赛事历史交叉验证\n\n步骤1：使用⟦214⟧⟦321⟧⟦322⟧，提取 \"Tour de France Soundtracks\" 发行于2003年。\n\n步骤2：综合⟦167⟧⟦139⟧，提取首届环法自行车赛的100周年纪念这一信息。\n\n步骤3：综合⟦139⟧⟦34⟧，交叉验证：100周年纪念与2003年发行时间吻合（首届环法赛事于1903年举办，2003年正好是100周年）。\n\n结论：通过发行年份与首届赛事时间的交叉验证，确认专辑是为环法自行车赛100周年而录制。\n\n---\n\n# 路径三：从专辑创作背景与赛事关联性论证\n\n步骤1：综合⟦214⟧⟦158⟧⟦329⟧，提取专辑 \"Tour de France Soundtracks\" 是为某个周年纪念录制的。\n\n步骤2：综合⟦167⟧⟦139⟧⟦157⟧，提取 \"the first 'Tour de France' bicycle race\" 的100周年纪念，以及 \"the actual tour\"（实际赛事）的相关信息。\n\n步骤3：综合⟦195⟧⟦85⟧，确认这是 Kraftwerk 的第十张录音室专辑，其主题与环法自行车赛直接相关。\n\n步骤4：综合⟦139⟧，最终确认周年纪念为100周年。\n\n结论：综合专辑主题、赛事历史与创作背景，Aerodynamik 所在专辑是为环法自行车赛100周年纪念录制。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦214⟧⟨315⟩⟦195⟧⟨317⟩⟨316⟩⟨318⟩⟦171⟧⟨319⟩⟨320⟩⟦85⟧⟨321⟩⟨322⟩",
+  "nounCount": 371,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5966,
+    "completion_tokens": 298,
+    "total_tokens": 6264,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 5966
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 527,
+    "total_tokens": 1645,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1118
+  }
+}

@@ -1,0 +1,373 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Army Black Knights
+⟦2⟧ = 130 km
+⟦3⟧ = 1950s
+⟦4⟧ = 1960s
+⟦5⟧ = 1970s
+⟦6⟧ = 1990s
+⟦7⟧ = 21–17
+⟦8⟧ = a bell
+⟦9⟧ = a college football game
+⟦10⟧ = a college football team
+⟦11⟧ = a football
+⟦12⟧ = a meeting
+⟦13⟧ = a member
+⟦14⟧ = a national championship
+⟦15⟧ = a regional rivalry
+⟦16⟧ = a scoreless tie
+⟦17⟧ = A six-year contract
+⟦18⟧ = a Villanova logo
+⟦19⟧ = a wooden platform
+⟦20⟧ = ACC
+⟦21⟧ = all sports
+⟦22⟧ = an American college football rivalry game
+⟦23⟧ = an American college rivalry game
+⟦24⟧ = an American football linebacker
+⟦25⟧ = an annual college football rivalry game
+⟦26⟧ = Annapolis
+⟦27⟧ = attention
+⟦28⟧ = Autzen Stadium
+⟦29⟧ = ball
+⟦30⟧ = base
+⟦31⟧ = Baton Rouge
+⟦32⟧ = Battle
+⟦33⟧ = Beavers
+⟦34⟧ = bell
+⟦35⟧ = blue
+⟦36⟧ = Bobcats
+⟦37⟧ = both Oxford
+⟦38⟧ = both teams
+⟦39⟧ = Both universities
+⟦40⟧ = campuses
+⟦41⟧ = championship
+⟦42⟧ = Chief
+⟦43⟧ = Clemson
+⟦44⟧ = Clemson University
+⟦45⟧ = college
+⟦46⟧ = college football
+⟦47⟧ = Colorado
+⟦48⟧ = Colorado Springs
+⟦49⟧ = concept
+⟦50⟧ = conference
+⟦51⟧ = Conference USA
+⟦52⟧ = contract
+⟦53⟧ = Corvallis
+⟦54⟧ = Delaware
+⟦55⟧ = Delaware Fightin
+⟦56⟧ = development
+⟦57⟧ = distinction
+⟦58⟧ = divisional play
+⟦59⟧ = divisions
+⟦60⟧ = each game
+⟦61⟧ = each regular season
+⟦62⟧ = eastern Pennsylvania
+⟦63⟧ = emergence
+⟦64⟧ = end
+⟦65⟧ = endeavors
+⟦66⟧ = Eugene
+⟦67⟧ = fact
+⟦68⟧ = football
+⟦69⟧ = formerly the "Army Cadets
+⟦70⟧ = game
+⟦71⟧ = games
+⟦72⟧ = height
+⟦73⟧ = hiatus
+⟦74⟧ = home
+⟦75⟧ = importance
+⟦76⟧ = industry
+⟦77⟧ = installment
+⟦78⟧ = institution
+⟦79⟧ = institutions
+⟦80⟧ = interruption
+⟦81⟧ = interservice
+⟦82⟧ = its height
+⟦83⟧ = its home games
+⟦84⟧ = its institution
+⟦85⟧ = its main rivals
+⟦86⟧ = Joe Walker
+⟦87⟧ = km
+⟦88⟧ = Lafayette College
+⟦89⟧ = late November
+⟦90⟧ = Lehigh University
+⟦91⟧ = level
+⟦92⟧ = linebacker
+⟦93⟧ = logo
+⟦94⟧ = Louisiana State University
+⟦95⟧ = LSU
+⟦96⟧ = Marshall
+⟦97⟧ = Marshall 33–20–6
+⟦98⟧ = Marshall University
+⟦99⟧ = Marshall's move
+⟦100⟧ = Maryland
+⟦101⟧ = meeting
+⟦102⟧ = member
+⟦103⟧ = members
+⟦104⟧ = mid-1960s
+⟦105⟧ = Midshipmen
+⟦106⟧ = miles
+⟦107⟧ = Mississippi
+⟦108⟧ = move
+⟦109⟧ = name
+⟦110⟧ = nation
+⟦111⟧ = national prominence
+⟦112⟧ = Navy Game
+⟦113⟧ = NCAA Division
+⟦114⟧ = NCAA Division I Football Bowl Subdivision
+⟦115⟧ = new rivalries
+⟦116⟧ = NFL
+⟦117⟧ = North Carolina
+⟦118⟧ = North Carolina State
+⟦119⟧ = North Carolina State University
+⟦120⟧ = November
+⟦121⟧ = officer
+⟦122⟧ = Ohio
+⟦123⟧ = Ohio University
+⟦124⟧ = Ole Miss
+⟦125⟧ = one side
+⟦126⟧ = only a single interruption
+⟦127⟧ = opponents
+⟦128⟧ = Oregon
+⟦129⟧ = Oregon State University
+⟦130⟧ = other endeavors
+⟦131⟧ = overtime
+⟦132⟧ = Pac-12
+⟦133⟧ = part
+⟦134⟧ = passion
+⟦135⟧ = platform
+⟦136⟧ = play
+⟦137⟧ = playing
+⟦138⟧ = possession
+⟦139⟧ = program
+⟦140⟧ = prominence
+⟦141⟧ = re
+⟦142⟧ = recent years
+⟦143⟧ = regular opponents
+⟦144⟧ = rivalries
+⟦145⟧ = rivalry
+⟦146⟧ = rivals
+⟦147⟧ = schools
+⟦148⟧ = scores
+⟦149⟧ = season
+⟦150⟧ = seat
+⟦151⟧ = SEC
+⟦152⟧ = series
+⟦153⟧ = service
+⟦154⟧ = several years
+⟦155⟧ = shade
+⟦156⟧ = side
+⟦157⟧ = sources
+⟦158⟧ = South Carolina
+⟦159⟧ = Southeastern Conference
+⟦160⟧ = spirit
+⟦161⟧ = sports
+⟦162⟧ = state
+⟦163⟧ = states
+⟦164⟧ = team
+⟦165⟧ = teams
+⟦166⟧ = textile
+⟦167⟧ = that distinction
+⟦168⟧ = the 1950s
+⟦169⟧ = the 1970s
+⟦170⟧ = the 1990s
+⟦171⟧ = the 2009 Little Caesars Pizza Bowl
+⟦172⟧ = the 54,000 seat Autzen Stadium
+⟦173⟧ = the 87th playing
+⟦174⟧ = the ACC's Atlantic Division
+⟦175⟧ = the Air Force Falcons
+⟦176⟧ = the all-time series
+⟦177⟧ = the annual Civil War rivalry game
+⟦178⟧ = the annual Delaware–Villanova game
+⟦179⟧ = The Army
+⟦180⟧ = the Army Black Knights
+⟦181⟧ = the Atlantic Coast Conference
+⟦182⟧ = The ball
+⟦183⟧ = the base
+⟦184⟧ = The Battle
+⟦185⟧ = the Beavers
+⟦186⟧ = the Bell
+⟦187⟧ = The Black Knights
+⟦188⟧ = the Blue
+⟦189⟧ = the Blue Hen logo
+⟦190⟧ = the Blue Trophy
+⟦191⟧ = The Civil War
+⟦192⟧ = the Civil War rivalry game
+⟦193⟧ = the Clemson Tigers football team
+⟦194⟧ = the college football regular season
+⟦195⟧ = The college's football teams
+⟦196⟧ = the colloquial name
+⟦197⟧ = the conference
+⟦198⟧ = the Delaware shade
+⟦199⟧ = the Ducks
+⟦200⟧ = the economic development
+⟦201⟧ = the end
+⟦202⟧ = the fact
+⟦203⟧ = the FBS
+⟦204⟧ = the fifth most played college football rivalry game
+⟦205⟧ = The first football team
+⟦206⟧ = the first four years
+⟦207⟧ = The first game
+⟦208⟧ = the following installment
+⟦209⟧ = The game
+⟦210⟧ = the Herd
+⟦211⟧ = the interservice rivalry
+⟦212⟧ = the Lafayette Leopards football team
+⟦213⟧ = the largest university-level textile schools
+⟦214⟧ = the Lehigh Mountain Hawks football team
+⟦215⟧ = the Lehigh Valley
+⟦216⟧ = the longest uninterrupted annual rivalry series
+⟦217⟧ = the LSU Tigers football team
+⟦218⟧ = The LSU–Ole Miss football rivalry
+⟦219⟧ = the Magnolia Bowl
+⟦220⟧ = the Magnolia Bowl Trophy
+⟦221⟧ = the Marshall Thundering Herd football team
+⟦222⟧ = the mid-1960s
+⟦223⟧ = the Mid-American Conference
+⟦224⟧ = the most-played football rivalry
+⟦225⟧ = the nation
+⟦226⟧ = the National Football League
+⟦227⟧ = the Navy Midshipmen
+⟦228⟧ = the NC State Wolfpack football team
+⟦229⟧ = the NCAA Division
+⟦230⟧ = the North Division
+⟦231⟧ = the Ohio Bobcats football team
+⟦232⟧ = the Ole Miss Rebels football team
+⟦233⟧ = The Oregon Ducks football program
+⟦234⟧ = the Oregon State Beavers
+⟦235⟧ = the other side
+⟦236⟧ = the Pac-12 Conference
+⟦237⟧ = the Philadelphia Eagles
+⟦238⟧ = the re
+⟦239⟧ = the Rebels
+⟦240⟧ = The Rivalry
+⟦241⟧ = The rivalry game
+⟦242⟧ = The rivalry's name
+⟦243⟧ = the same national attention
+⟦244⟧ = the schools
+⟦245⟧ = the scores
+⟦246⟧ = the SEC
+⟦247⟧ = The series
+⟦248⟧ = the spirit
+⟦249⟧ = The team
+⟦250⟧ = The teams
+⟦251⟧ = The Textile Bowl
+⟦252⟧ = the textile industry's historic importance
+⟦253⟧ = the third and final game
+⟦254⟧ = The Tigers
+⟦255⟧ = the trophy
+⟦256⟧ = The two institutions
+⟦257⟧ = the two schools
+⟦258⟧ = the two teams
+⟦259⟧ = The two universities
+⟦260⟧ = the U.S. state
+⟦261⟧ = the United States Air Force Academy
+⟦262⟧ = the United States Armed Forces
+⟦263⟧ = the United States Military Academy
+⟦264⟧ = the United States Naval Academy
+⟦265⟧ = the universities' campuses
+⟦266⟧ = the University
+⟦267⟧ = the Washington Huskies
+⟦268⟧ = the Webfoots
+⟦269⟧ = the Wildcat shade
+⟦270⟧ = the winner
+⟦271⟧ = the winning team
+⟦272⟧ = the world
+⟦273⟧ = the year
+⟦274⟧ = their respective states
+⟦275⟧ = their service's oldest officer commissioning sources
+⟦276⟧ = this concept
+⟦277⟧ = this game
+⟦278⟧ = this rivalry game
+⟦279⟧ = three games
+⟦280⟧ = tie
+⟦281⟧ = time
+⟦282⟧ = times
+⟦283⟧ = trophy
+⟦284⟧ = two divisions
+⟦285⟧ = universities
+⟦286⟧ = university
+⟦287⟧ = USAFA
+⟦288⟧ = USNA
+⟦289⟧ = Villanova
+⟦290⟧ = Villanova football
+⟦291⟧ = West Point
+⟦292⟧ = which time
+⟦293⟧ = winner
+⟦294⟧ = world
+⟦295⟧ = year
+⟦296⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Oregon Ducks football] ⟦233⟧⟨1⟩⟦68⟧⟨2⟩⟦139⟧⟨3⟩⟦10⟧⟨4⟩⟦45⟧⟨5⟩⟦68⟧⟨6⟩⟦164⟧⟨7⟩⟦266⟧⟨8⟩⟦128⟧⟨9⟩⟦260⟧⟨10⟩⟦162⟧⟨11⟩⟦128⟧⟨12⟩
+[Oregon Ducks football] ⟦249⟧⟨13⟩⟦164⟧⟨14⟩⟦229⟧⟨15⟩⟦203⟧⟨16⟩⟦13⟧⟨17⟩⟦102⟧⟨18⟩⟦236⟧⟨19⟩⟦132⟧⟨20⟩
+[Oregon Ducks football] ⟨21⟩⟦199⟧⟨22⟩⟦249⟧⟨23⟩⟦164⟧⟨24⟩⟦268⟧⟨25⟩⟦222⟧⟨26⟩⟦104⟧⟨27⟩
+[Oregon Ducks football] ⟦205⟧⟨28⟩⟦68⟧⟨29⟩⟦164⟧⟨30⟩
+[Oregon Ducks football] ⟦128⟧⟨31⟩⟦83⟧⟨32⟩⟦74⟧⟨33⟩⟦71⟧⟨34⟩⟦172⟧⟨35⟩⟦150⟧⟨36⟩⟦66⟧⟨37⟩⟦85⟧⟨38⟩⟦146⟧⟨39⟩⟦234⟧⟨40⟩⟦267⟧⟨41⟩
+[Oregon Ducks football] ⟦199⟧⟨42⟩⟦33⟧⟨43⟩⟦61⟧⟨44⟩⟦149⟧⟨45⟩⟦192⟧⟨46⟩⟦145⟧⟨47⟩⟦70⟧⟨48⟩⟦89⟧⟨49⟩
+[Civil War (college football game)] ⟦191⟧⟨50⟩⟦196⟧⟨51⟩⟦109⟧⟨52⟩⟦22⟧⟨53⟩⟦45⟧⟨54⟩⟦68⟧⟨55⟩⟦145⟧⟨56⟩⟦70⟧⟨57⟩⟦128⟧⟨58⟩⟦199⟧⟨59⟩⟦266⟧⟨60⟩⟦128⟧⟨61⟩⟦66⟧⟨62⟩⟦185⟧⟨63⟩⟦129⟧⟨64⟩⟦53⟧⟨65⟩
+[Civil War (college football game)] ⟨66⟩⟦204⟧⟨67⟩⟦45⟧⟨68⟩⟦68⟧⟨69⟩⟦145⟧⟨70⟩⟦70⟧⟨71⟩⟦114⟧⟨72⟩
+[Civil War (college football game)] ⟦39⟧⟨73⟩⟦285⟧⟨74⟩⟦103⟧⟨75⟩⟦103⟧⟨76⟩⟦230⟧⟨77⟩⟦236⟧⟨78⟩
+[Textile Bowl] ⟦251⟧⟨79⟩⟦22⟧⟨80⟩⟦45⟧⟨81⟩⟦68⟧⟨82⟩⟦145⟧⟨83⟩⟦70⟧⟨84⟩⟦193⟧⟨85⟩⟦68⟧⟨86⟩⟦164⟧⟨87⟩⟦44⟧⟨88⟩⟦228⟧⟨89⟩⟦68⟧⟨90⟩⟦164⟧⟨91⟩⟦119⟧⟨92⟩
+[Textile Bowl] ⟦241⟧⟨93⟩⟦145⟧⟨94⟩⟦70⟧⟨95⟩⟦251⟧⟨96⟩
+[Textile Bowl] ⟦259⟧⟨97⟩⟦285⟧⟨98⟩⟦103⟧⟨99⟩⟦103⟧⟨100⟩⟦181⟧⟨101⟩⟦20⟧⟨102⟩⟦174⟧⟨103⟩⟦197⟧⟨104⟩⟦50⟧⟨105⟩⟦58⟧⟨106⟩⟦136⟧⟨107⟩
+[Textile Bowl] ⟦242⟧⟨108⟩⟦145⟧⟨109⟩⟦109⟧⟨110⟩⟦202⟧⟨111⟩⟦67⟧⟨112⟩⟦43⟧⟨113⟩⟦118⟧⟨114⟩⟦213⟧⟨115⟩⟦286⟧⟨116⟩⟦91⟧⟨117⟩⟦166⟧⟨118⟩⟦147⟧⟨119⟩⟦272⟧⟨120⟩⟦294⟧⟨121⟩⟦252⟧⟨122⟩⟦166⟧⟨123⟩⟦76⟧⟨124⟩⟦75⟧⟨125⟩⟦200⟧⟨126⟩⟦56⟧⟨127⟩⟦274⟧⟨128⟩⟦163⟧⟨129⟩⟦158⟧⟨130⟩⟦117⟧⟨131⟩
+[The Rivalry (Lehigh–Lafayette)] ⟦240⟧⟨132⟩⟦22⟧⟨133⟩⟦45⟧⟨134⟩⟦68⟧⟨135⟩⟦145⟧⟨136⟩⟦70⟧⟨137⟩⟦212⟧⟨138⟩⟦68⟧⟨139⟩⟦164⟧⟨140⟩⟦88⟧⟨141⟩⟦214⟧⟨142⟩⟦68⟧⟨143⟩⟦164⟧⟨144⟩⟦90⟧⟨145⟩
+[The Rivalry (Lehigh–Lafayette)] ⟨146⟩⟦224⟧⟨147⟩⟦68⟧⟨148⟩⟦145⟧⟨149⟩⟦225⟧⟨150⟩⟦110⟧⟨151⟩⟦216⟧⟨152⟩⟦145⟧⟨153⟩⟦152⟧⟨154⟩
+[The Rivalry (Lehigh–Lafayette)] ⟨155⟩⟦240⟧⟨156⟩⟦282⟧⟨157⟩⟦126⟧⟨158⟩⟦80⟧⟨159⟩
+[The Rivalry (Lehigh–Lafayette)] ⟦195⟧⟨160⟩⟦45⟧⟨161⟩⟦68⟧⟨162⟩⟦165⟧⟨163⟩⟦279⟧⟨164⟩⟦71⟧⟨165⟩
+[The Rivalry (Lehigh–Lafayette)] ⟦256⟧⟨166⟩⟦79⟧⟨167⟩⟦106⟧⟨168⟩⟦215⟧⟨169⟩⟦62⟧⟨170⟩
+[The Rivalry (Lehigh–Lafayette)] ⟨171⟩⟦68⟧⟨172⟩⟦68⟧⟨173⟩⟦240⟧⟨174⟩⟦12⟧⟨175⟩⟦101⟧⟨176⟩⟦257⟧⟨177⟩⟦147⟧⟨178⟩⟦21⟧⟨179⟩⟦161⟧⟨180⟩⟦130⟧⟨181⟩⟦65⟧⟨182⟩
+[1983 Oregon State vs. Oregon football game] ⟨183⟩⟦128⟧⟨184⟩⟦68⟧⟨185⟩⟦70⟧⟨186⟩⟦9⟧⟨187⟩⟦45⟧⟨188⟩⟦68⟧⟨189⟩⟦70⟧⟨190⟩⟦120⟧⟨191⟩⟦28⟧⟨192⟩⟦66⟧⟨193⟩⟦128⟧⟨194⟩⟦173⟧⟨195⟩⟦137⟧⟨196⟩⟦177⟧⟨197⟩⟦145⟧⟨198⟩⟦70⟧⟨199⟩
+[1983 Oregon State vs. Oregon football game] ⟦209⟧⟨200⟩⟦70⟧⟨201⟩⟦16⟧⟨202⟩⟦280⟧⟨203⟩
+[1983 Oregon State vs. Oregon football game] ⟨204⟩⟦131⟧⟨205⟩⟦131⟧⟨206⟩⟦113⟧⟨207⟩⟦277⟧⟨208⟩⟦70⟧⟨209⟩⟦167⟧⟨210⟩⟦57⟧⟨211⟩
+[Magnolia Bowl] ⟦218⟧⟨212⟩⟦68⟧⟨213⟩⟦145⟧⟨214⟩⟦219⟧⟨215⟩⟦22⟧⟨216⟩⟦45⟧⟨217⟩⟦68⟧⟨218⟩⟦145⟧⟨219⟩⟦70⟧⟨220⟩⟦217⟧⟨221⟩⟦68⟧⟨222⟩⟦164⟧⟨223⟩⟦94⟧⟨224⟩⟦95⟧⟨225⟩⟦232⟧⟨226⟩⟦68⟧⟨227⟩⟦164⟧⟨228⟩⟦266⟧⟨229⟩⟦107⟧⟨230⟩⟦124⟧⟨231⟩
+[Magnolia Bowl] ⟦250⟧⟨232⟩⟦165⟧⟨233⟩⟦220⟧⟨234⟩
+[Magnolia Bowl] ⟦254⟧⟨235⟩⟦239⟧⟨236⟩⟦143⟧⟨237⟩⟦127⟧⟨238⟩⟦159⟧⟨239⟩⟦151⟧⟨240⟩
+[Magnolia Bowl] ⟦240⟧⟨241⟩⟦145⟧⟨242⟩⟦82⟧⟨243⟩⟦72⟧⟨244⟩⟦168⟧⟨245⟩⟦3⟧⟨246⟩⟦4⟧⟨247⟩⟦4⟧⟨248⟩⟦38⟧⟨249⟩⟦165⟧⟨250⟩⟦292⟧⟨251⟩⟦281⟧⟨252⟩⟦38⟧⟨253⟩⟦165⟧⟨254⟩⟦14⟧⟨255⟩⟦41⟧⟨256⟩
+[Magnolia Bowl] ⟦240⟧⟨257⟩⟦145⟧⟨258⟩⟦170⟧⟨259⟩⟦6⟧⟨260⟩⟦124⟧⟨261⟩⟦50⟧⟨262⟩⟦50⟧⟨263⟩⟦111⟧⟨264⟩⟦140⟧⟨265⟩⟦169⟧⟨266⟩⟦5⟧⟨267⟩⟦95⟧⟨268⟩⟦115⟧⟨269⟩⟦144⟧⟨270⟩⟦246⟧⟨271⟩⟦284⟧⟨272⟩⟦59⟧⟨273⟩
+[Magnolia Bowl] ⟨274⟩⟦240⟧⟨275⟩⟦145⟧⟨276⟩⟦243⟧⟨277⟩⟦27⟧⟨278⟩⟦142⟧⟨279⟩⟦296⟧⟨280⟩⟦134⟧⟨281⟩⟦134⟧⟨282⟩⟦37⟧⟨283⟩⟦31⟧⟨284⟩
+[Joe Walker (American football)] ⟦86⟧⟨285⟩⟦24⟧⟨286⟩⟦68⟧⟨287⟩⟦92⟧⟨288⟩⟦237⟧⟨289⟩⟦226⟧⟨290⟩⟦116⟧⟨291⟩
+[Joe Walker (American football)] ⟨292⟩⟦45⟧⟨293⟩⟦46⟧⟨294⟩⟦68⟧⟨295⟩⟦128⟧⟨296⟩
+[Battle of the Blue] ⟦184⟧⟨297⟩⟦188⟧⟨298⟩⟦25⟧⟨299⟩⟦45⟧⟨300⟩⟦68⟧⟨301⟩⟦145⟧⟨302⟩⟦70⟧⟨303⟩⟦55⟧⟨304⟩
+[Battle of the Blue] ⟦207⟧⟨305⟩⟦70⟧⟨306⟩⟦258⟧⟨307⟩⟦165⟧⟨308⟩⟦289⟧⟨309⟩⟦68⟧⟨310⟩⟦68⟧⟨311⟩⟦238⟧⟨312⟩⟦141⟧⟨313⟩⟦63⟧⟨314⟩⟦63⟧⟨315⟩⟦290⟧⟨316⟩⟦68⟧⟨317⟩
+[Battle of the Blue] ⟨318⟩⟦178⟧⟨319⟩⟦70⟧⟨320⟩⟦32⟧⟨321⟩⟦188⟧⟨322⟩
+[Battle of the Blue] ⟨323⟩⟦133⟧⟨324⟩⟦133⟧⟨325⟩⟦276⟧⟨326⟩⟦49⟧⟨327⟩⟦271⟧⟨328⟩⟦164⟧⟨329⟩⟦184⟧⟨330⟩⟦190⟧⟨331⟩⟦84⟧⟨332⟩⟦78⟧⟨333⟩⟦273⟧⟨334⟩⟦295⟧⟨335⟩⟦255⟧⟨336⟩⟦283⟧⟨337⟩⟦208⟧⟨338⟩⟦77⟧⟨339⟩⟦241⟧⟨340⟩⟦145⟧⟨341⟩⟦70⟧⟨342⟩
+[Battle of the Blue] ⟦255⟧⟨343⟩⟦283⟧⟨344⟩⟦11⟧⟨345⟩⟦68⟧⟨346⟩⟦18⟧⟨347⟩⟦93⟧⟨348⟩⟦269⟧⟨349⟩⟦155⟧⟨350⟩⟦35⟧⟨351⟩⟦35⟧⟨352⟩⟦125⟧⟨353⟩⟦156⟧⟨354⟩⟦189⟧⟨355⟩⟦93⟧⟨356⟩⟦198⟧⟨357⟩⟦155⟧⟨358⟩⟦35⟧⟨359⟩⟦35⟧⟨360⟩⟦235⟧⟨361⟩⟦156⟧⟨362⟩
+[Battle of the Blue] ⟦182⟧⟨363⟩⟦29⟧⟨364⟩⟦19⟧⟨365⟩⟦135⟧⟨366⟩⟦245⟧⟨367⟩⟦148⟧⟨368⟩⟦60⟧⟨369⟩⟦70⟧⟨370⟩⟦183⟧⟨371⟩⟦30⟧⟨372⟩⟦255⟧⟨373⟩⟦283⟧⟨374⟩
+[Battle of the Blue] ⟦289⟧⟨375⟩⟦138⟧⟨376⟩⟦138⟧⟨377⟩⟦255⟧⟨378⟩⟦283⟧⟨379⟩⟦206⟧⟨380⟩⟦296⟧⟨381⟩⟦54⟧⟨382⟩
+[Army–Navy Game] ⟦179⟧⟨383⟩⟦112⟧⟨384⟩⟦23⟧⟨385⟩⟦45⟧⟨386⟩⟦145⟧⟨387⟩⟦70⟧⟨388⟩⟦45⟧⟨389⟩⟦46⟧⟨390⟩⟦68⟧⟨391⟩⟦180⟧⟨392⟩⟦263⟧⟨393⟩⟦291⟧⟨394⟩⟦227⟧⟨395⟩⟦264⟧⟨396⟩⟦288⟧⟨397⟩⟦26⟧⟨398⟩⟦100⟧⟨399⟩
+[Army–Navy Game] ⟦187⟧⟨400⟩⟦69⟧⟨401⟩⟦1⟧⟨402⟩⟦105⟧⟨403⟩⟦275⟧⟨404⟩⟦153⟧⟨405⟩⟦121⟧⟨406⟩⟦157⟧⟨407⟩
+[Army–Navy Game] ⟨408⟩⟦209⟧⟨409⟩⟦70⟧⟨410⟩⟦248⟧⟨411⟩⟦160⟧⟨412⟩⟦211⟧⟨413⟩⟦81⟧⟨414⟩⟦145⟧⟨415⟩⟦262⟧⟨416⟩
+[Army–Navy Game] ⟦209⟧⟨417⟩⟦70⟧⟨418⟩⟦201⟧⟨419⟩⟦64⟧⟨420⟩⟦194⟧⟨421⟩⟦45⟧⟨422⟩⟦68⟧⟨423⟩⟦149⟧⟨424⟩⟦253⟧⟨425⟩⟦70⟧⟨426⟩⟦149⟧⟨427⟩⟦42⟧⟨428⟩⟦283⟧⟨429⟩⟦152⟧⟨430⟩⟦175⟧⟨431⟩⟦261⟧⟨432⟩⟦287⟧⟨433⟩⟦48⟧⟨434⟩⟦47⟧⟨435⟩
+[Battle for the Bell] ⟦184⟧⟨436⟩⟦186⟧⟨437⟩⟦22⟧⟨438⟩⟦45⟧⟨439⟩⟦68⟧⟨440⟩⟦145⟧⟨441⟩⟦70⟧⟨442⟩⟦221⟧⟨443⟩⟦68⟧⟨444⟩⟦164⟧⟨445⟩⟦98⟧⟨446⟩⟦231⟧⟨447⟩⟦68⟧⟨448⟩⟦164⟧⟨449⟩⟦123⟧⟨450⟩
+[Battle for the Bell] ⟨451⟩⟦15⟧⟨452⟩⟦145⟧⟨453⟩⟦265⟧⟨454⟩⟦285⟧⟨455⟩⟦40⟧⟨456⟩⟦106⟧⟨457⟩⟦2⟧⟨458⟩⟦87⟧⟨459⟩⟦8⟧⟨460⟩⟦34⟧⟨461⟩⟦255⟧⟨462⟩⟦283⟧⟨463⟩⟦270⟧⟨464⟩⟦293⟧⟨465⟩⟦209⟧⟨466⟩⟦70⟧⟨467⟩
+[Battle for the Bell] ⟨468⟩⟦99⟧⟨469⟩⟦108⟧⟨470⟩⟦223⟧⟨471⟩⟦51⟧⟨472⟩⟦278⟧⟨473⟩⟦145⟧⟨474⟩⟦70⟧⟨475⟩⟦73⟧⟨476⟩⟦154⟧⟨477⟩⟦296⟧⟨478⟩
+[Battle for the Bell] ⟦247⟧⟨479⟩⟦152⟧⟨480⟩⟦210⟧⟨481⟩⟦36⟧⟨482⟩⟦171⟧⟨483⟩⟦96⟧⟨484⟩⟦7⟧⟨485⟩
+[Battle for the Bell] ⟦17⟧⟨486⟩⟦295⟧⟨487⟩⟦52⟧⟨488⟩⟦244⟧⟨489⟩⟦147⟧⟨490⟩
+[Battle for the Bell] ⟦122⟧⟨491⟩⟦176⟧⟨492⟩⟦281⟧⟨493⟩⟦152⟧⟨494⟩⟦97⟧⟨495⟩
+
+[user]
+
+问题：
+Joe Walker played for which team that ends their regular season with the Civil War rivalry game?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

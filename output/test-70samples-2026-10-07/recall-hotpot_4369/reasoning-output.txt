@@ -1,0 +1,33 @@
+# 路径一：直接实体链推理
+
+步骤1：使用⟦276⟧，提取《The Lisbon Traviata》这一戏剧作品，并定位其围绕的核心人物群体为⟦224⟧（several opera fans）。
+
+步骤2：综合⟦293⟧⟦228⟧，识别这些粉丝所崇拜的对象是“the opera singer Maria Callas”，即⟦154⟧。
+
+步骤3：使用⟦114⟧，提取 Maria Callas 的国籍属性为“Greek”。
+
+结论：The Lisbon Traviata 围绕的是希腊裔女高音 Maria Callas 的粉丝，因此答案为 **Greek**。
+
+---
+
+# 路径二：交叉验证国籍属性
+
+步骤1：使用⟦154⟧⟦338⟧，确认 Maria Callas 的身份，并注意到⟦338⟧为其希腊语原名 Μαρία Κάλλας，暗示其希腊背景。
+
+步骤2：综合⟦16⟧⟦114⟧，提取 Maria Callas 被明确描述为“a Greek-American soprano”，其中“Greek”直接指向国籍来源。
+
+步骤3：使用⟦293⟧，确认《The Lisbon Traviata》围绕的正是这位“opera singer Maria Callas”的粉丝。
+
+结论：通过原名与英文描述的双重验证，Maria Callas 的国籍为 **Greek**，故答案为 Greek。
+
+---
+
+# 路径三：作品-人物-国籍三段论
+
+步骤1：使用⟦276⟧⟦22⟧，确认《The Lisbon Traviata》是一部戏剧（a play），其主题围绕歌剧粉丝。
+
+步骤2：综合⟦249⟧⟦293⟧，提取该剧“revolves around several opera fans, especially of the opera singer Maria Callas”，锁定核心人物为 Maria Callas。
+
+步骤3：使用⟦114⟧，直接提取 Maria Callas 的国籍标签为“Greek”。
+
+结论：该剧围绕的是希腊籍女高音 Maria Callas 的粉丝，答案为 **Greek**。

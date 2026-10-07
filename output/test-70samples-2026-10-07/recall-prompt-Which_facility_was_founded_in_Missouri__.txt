@@ -1,0 +1,437 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (also Aliso Canyon Natural Gas Storage Field
+⟦2⟧ = (DZ
+⟦3⟧ = 150 km
+⟦4⟧ = 170 acre
+⟦5⟧ = 3 loop trails
+⟦6⟧ = 9th street
+⟦7⟧ = a capacity
+⟦8⟧ = a chain
+⟦9⟧ = a church periodical
+⟦10⟧ = a city block
+⟦11⟧ = a clothing company
+⟦12⟧ = a concert and entertainment venue
+⟦13⟧ = a facility
+⟦14⟧ = a fun, hands-on environment
+⟦15⟧ = a major geologic feature
+⟦16⟧ = a major intracontinental shear zone
+⟦17⟧ = a modern publishing facility
+⟦18⟧ = a much larger facility
+⟦19⟧ = a park
+⟦20⟧ = a part
+⟦21⟧ = a prototype
+⟦22⟧ = a regional Italian restaurant chain
+⟦23⟧ = A replacement facility
+⟦24⟧ = a satellite research facility
+⟦25⟧ = a scavenger hunt scorecard
+⟦26⟧ = a three-year lease
+⟦27⟧ = acre
+⟦28⟧ = additional educational resources
+⟦29⟧ = additional locations
+⟦30⟧ = Alessandra Facchinetti
+⟦31⟧ = Aliso Canyon Underground Storage Facility
+⟦32⟧ = an area
+⟦33⟧ = an artillery battalion
+⟦34⟧ = An early investor
+⟦35⟧ = an oil field
+⟦36⟧ = an oil producer
+⟦37⟧ = an outdoor classroom
+⟦38⟧ = arcade
+⟦39⟧ = arcade games
+⟦40⟧ = area
+⟦41⟧ = artillery
+⟦42⟧ = at least one group
+⟦43⟧ = ball
+⟦44⟧ = ball pits
+⟦45⟧ = basement
+⟦46⟧ = battalion
+⟦47⟧ = block
+⟦48⟧ = books
+⟦49⟧ = border
+⟦50⟧ = Bounds
+⟦51⟧ = buffet
+⟦52⟧ = California
+⟦53⟧ = campus
+⟦54⟧ = capacity
+⟦55⟧ = centers
+⟦56⟧ = chain
+⟦57⟧ = Child
+⟦58⟧ = children
+⟦59⟧ = Christ
+⟦60⟧ = church
+⟦61⟧ = Cincinnati
+⟦62⟧ = city
+⟦63⟧ = civic groups
+⟦64⟧ = classroom
+⟦65⟧ = clothing
+⟦66⟧ = company
+⟦67⟧ = competitor
+⟦68⟧ = competitor Discovery Zone
+⟦69⟧ = Computer Science
+⟦70⟧ = concept
+⟦71⟧ = concert
+⟦72⟧ = Connecticut
+⟦73⟧ = continent
+⟦74⟧ = craton
+⟦75⟧ = CTDT
+⟦76⟧ = date
+⟦77⟧ = daycare
+⟦78⟧ = daycare centers
+⟦79⟧ = Denton
+⟦80⟧ = designer
+⟦81⟧ = direction
+⟦82⟧ = director
+⟦83⟧ = discovery
+⟦84⟧ = Discovery Park
+⟦85⟧ = Discovery Zone
+⟦86⟧ = division
+⟦87⟧ = downtown
+⟦88⟧ = downtown Columbia
+⟦89⟧ = Dr. David Schoenstadt
+⟦90⟧ = education
+⟦91⟧ = elaborate indoor mazes
+⟦92⟧ = Electrical Engineering
+⟦93⟧ = Energy
+⟦94⟧ = Engineering
+⟦95⟧ = Engineering Technology
+⟦96⟧ = entertainment
+⟦97⟧ = entertainment facilities
+⟦98⟧ = environment
+⟦99⟧ = excellence
+⟦100⟧ = exploration
+⟦101⟧ = facilities
+⟦102⟧ = facility
+⟦103⟧ = families
+⟦104⟧ = feature
+⟦105⟧ = feet
+⟦106⟧ = field
+⟦107⟧ = fire
+⟦108⟧ = formations
+⟦109⟧ = formerly Research Park
+⟦110⟧ = four gas storage facilities
+⟦111⟧ = fun
+⟦112⟧ = games
+⟦113⟧ = gas
+⟦114⟧ = group
+⟦115⟧ = groups
+⟦116⟧ = half
+⟦117⟧ = hands
+⟦118⟧ = headquarters
+⟦119⟧ = Herald House
+⟦120⟧ = Herald Publishing House
+⟦121⟧ = Historic Places
+⟦122⟧ = history
+⟦123⟧ = home
+⟦124⟧ = Honor Rancho
+⟦125⟧ = hunt
+⟦126⟧ = Illinois
+⟦127⟧ = Independence
+⟦128⟧ = indoor play-places
+⟦129⟧ = Information
+⟦130⟧ = Information Science
+⟦131⟧ = initiative
+⟦132⟧ = Investments
+⟦133⟧ = investor
+⟦134⟧ = Iowa
+⟦135⟧ = its depleted oil and gas producing formations
+⟦136⟧ = its discovery
+⟦137⟧ = Its history
+⟦138⟧ = Its mission
+⟦139⟧ = January
+⟦140⟧ = Jim Jorgensen
+⟦141⟧ = July
+⟦142⟧ = Kansas City
+⟦143⟧ = km
+⟦144⟧ = labs
+⟦145⟧ = Lamoni
+⟦146⟧ = Leaps
+⟦147⟧ = learning
+⟦148⟧ = Learning Technologies
+⟦149⟧ = lease
+⟦150⟧ = Library
+⟦151⟧ = Lincoln
+⟦152⟧ = location
+⟦153⟧ = locations
+⟦154⟧ = Locust and Elm Streets
+⟦155⟧ = loop
+⟦156⟧ = Los Angeles
+⟦157⟧ = Los Angeles County
+⟦158⟧ = marked interpretive signs
+⟦159⟧ = materials
+⟦160⟧ = Materials Science
+⟦161⟧ = Mayhoola
+⟦162⟧ = mazes
+⟦163⟧ = McDonald
+⟦164⟧ = Mechanical
+⟦165⟧ = Milan
+⟦166⟧ = miles
+⟦167⟧ = mission
+⟦168⟧ = Missouri
+⟦169⟧ = Monroe
+⟦170⟧ = Montana
+⟦171⟧ = movie
+⟦172⟧ = natural gas
+⟦173⟧ = natural gas storage facility
+⟦174⟧ = Nebraska
+⟦175⟧ = neighborhood
+⟦176⟧ = Newhall
+⟦177⟧ = Noland Road
+⟦178⟧ = north
+⟦179⟧ = North Texas
+⟦180⟧ = October
+⟦181⟧ = offices
+⟦182⟧ = Ohio
+⟦183⟧ = oil
+⟦184⟧ = operations
+⟦185⟧ = other materials
+⟦186⟧ = others
+⟦187⟧ = outdoor education
+⟦188⟧ = over 86 billion cubic feet
+⟦189⟧ = ownership
+⟦190⟧ = palace
+⟦191⟧ = park
+⟦192⟧ = part
+⟦193⟧ = periodical
+⟦194⟧ = periodicals
+⟦195⟧ = Pier Paolo Piccioli
+⟦196⟧ = pits
+⟦197⟧ = places
+⟦198⟧ = Plano
+⟦199⟧ = plant
+⟦200⟧ = play
+⟦201⟧ = Playa del Rey
+⟦202⟧ = player
+⟦203⟧ = portions
+⟦204⟧ = pre-Depression movie palace
+⟦205⟧ = press
+⟦206⟧ = printing
+⟦207⟧ = producer
+⟦208⟧ = programs
+⟦209⟧ = prototype
+⟦210⟧ = publication
+⟦211⟧ = publishing
+⟦212⟧ = Qatar
+⟦213⟧ = replacement
+⟦214⟧ = research
+⟦215⟧ = reservoir
+⟦216⟧ = resources
+⟦217⟧ = restaurant
+⟦218⟧ = restaurants
+⟦219⟧ = rock
+⟦220⟧ = roller
+⟦221⟧ = roller slides
+⟦222⟧ = Rome
+⟦223⟧ = Ronald Matsch
+⟦224⟧ = S.P.C.
+⟦225⟧ = Santa Barbara
+⟦226⟧ = satellite
+⟦227⟧ = scale
+⟦228⟧ = scavenger
+⟦229⟧ = school
+⟦230⟧ = school groups
+⟦231⟧ = schools
+⟦232⟧ = scientists
+⟦233⟧ = scorecard
+⟦234⟧ = scouts
+⟦235⟧ = shear
+⟦236⟧ = signs
+⟦237⟧ = site
+⟦238⟧ = slides
+⟦239⟧ = Southern California Gas
+⟦240⟧ = SpA
+⟦241⟧ = sqft
+⟦242⟧ = stage
+⟦243⟧ = storage
+⟦244⟧ = store
+⟦245⟧ = street
+⟦246⟧ = structures
+⟦247⟧ = students
+⟦248⟧ = supporter
+⟦249⟧ = teachers
+⟦250⟧ = Technology Development
+⟦251⟧ = tennis
+⟦252⟧ = tennis player Billie Jean King
+⟦253⟧ = Texas
+⟦254⟧ = Texas Instruments
+⟦255⟧ = that date
+⟦256⟧ = That facility
+⟦257⟧ = the "True Latter Day Saints' Herald
+⟦258⟧ = the 550000 sqft facility
+⟦259⟧ = The Aliso Canyon Oil Field
+⟦260⟧ = the Archean Eon
+⟦261⟧ = the area
+⟦262⟧ = The Auditorium
+⟦263⟧ = the Boller Brothers
+⟦264⟧ = the buffet concept
+⟦265⟧ = The Center
+⟦266⟧ = The central and western portions
+⟦267⟧ = The central part
+⟦268⟧ = The chain
+⟦269⟧ = the church headquarters
+⟦270⟧ = the City
+⟦271⟧ = the Community
+⟦272⟧ = the company
+⟦273⟧ = the creative direction
+⟦274⟧ = the creative director
+⟦275⟧ = the Departments
+⟦276⟧ = the direction
+⟦277⟧ = the Discovery Park campus
+⟦278⟧ = the early-2000s
+⟦279⟧ = The facility
+⟦280⟧ = the Federal No Child
+⟦281⟧ = the field
+⟦282⟧ = The first carry-out store
+⟦283⟧ = The first church-owned press
+⟦284⟧ = The first location
+⟦285⟧ = the First Presidency
+⟦286⟧ = the Friends
+⟦287⟧ = the full-scale restaurants
+⟦288⟧ = the gas utility
+⟦289⟧ = the Great Falls
+⟦290⟧ = The Great Falls Tectonic Zone
+⟦291⟧ = the Hearne craton and Wyoming craton basement rock
+⟦292⟧ = the Herald House
+⟦293⟧ = the La Goleta Gas Field
+⟦294⟧ = the main campus
+⟦295⟧ = the Missouri National Guard
+⟦296⟧ = the Missouri River
+⟦297⟧ = the Missouri Symphony Orchestra
+⟦298⟧ = The Missouri Theatre
+⟦299⟧ = the National Register
+⟦300⟧ = the newly formed College
+⟦301⟧ = the North American continent
+⟦302⟧ = the northwestern Montana-Saskatchewan-North Dakota border
+⟦303⟧ = the Opéra Garnier
+⟦304⟧ = the others
+⟦305⟧ = the Paleoproterozoic Era
+⟦306⟧ = The park
+⟦307⟧ = the Porter Ranch neighborhood
+⟦308⟧ = the publication
+⟦309⟧ = the publishing division
+⟦310⟧ = The publishing offices
+⟦311⟧ = The publishing plant
+⟦312⟧ = the resident home
+⟦313⟧ = The restaurant
+⟦314⟧ = the Santa Susana Mountains
+⟦315⟧ = the second-largest natural gas storage site
+⟦316⟧ = the Sesnon-Frew zone
+⟦317⟧ = the Southern California Gas Company
+⟦318⟧ = the southern half
+⟦319⟧ = the southwestern Idaho-Montana border
+⟦320⟧ = the State
+⟦321⟧ = The Temple
+⟦322⟧ = the Town
+⟦323⟧ = the University
+⟦324⟧ = the UNT College
+⟦325⟧ = the western United States
+⟦326⟧ = The zone
+⟦327⟧ = This reservoir
+⟦328⟧ = trails
+⟦329⟧ = Transfer
+⟦330⟧ = turn
+⟦331⟧ = two Lincoln families
+⟦332⟧ = U.S. Highway
+⟦333⟧ = United States
+⟦334⟧ = University
+⟦335⟧ = utility
+⟦336⟧ = Val
+⟦337⟧ = Valentino
+⟦338⟧ = Valentino Fashion Group
+⟦339⟧ = Valentino Garavani
+⟦340⟧ = Valentino SpA
+⟦341⟧ = Valentino's creative designer
+⟦342⟧ = vaudeville
+⟦343⟧ = vaudeville stage
+⟦344⟧ = venue
+⟦345⟧ = vocal supporter
+⟦346⟧ = Webb Mountain
+⟦347⟧ = Webb Mountain Discovery Zone
+⟦348⟧ = west
+⟦349⟧ = year
+⟦350⟧ = years
+⟦351⟧ = young children
+⟦352⟧ = Zena Weiler
+⟦353⟧ = zone
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Leaps and Bounds (playplace)] ⟦146⟧⟨1⟩⟦50⟧⟨2⟩⟦8⟧⟨3⟩⟦56⟧⟨4⟩⟦128⟧⟨5⟩⟦200⟧⟨6⟩⟦197⟧⟨7⟩⟦163⟧⟨8⟩
+[Leaps and Bounds (playplace)] ⟨9⟩⟦67⟧⟨10⟩⟦68⟧⟨11⟩
+[Webb Mountain Discovery Zone] ⟦347⟧⟨12⟩⟦19⟧⟨13⟩⟦191⟧⟨14⟩⟦169⟧⟨15⟩⟦72⟧⟨16⟩⟦333⟧⟨17⟩
+[Webb Mountain Discovery Zone] ⟦138⟧⟨18⟩⟦167⟧⟨19⟩⟦99⟧⟨20⟩⟦99⟧⟨21⟩⟦187⟧⟨22⟩⟦90⟧⟨23⟩⟦100⟧⟨24⟩⟦100⟧⟨25⟩⟦147⟧⟨26⟩⟦147⟧⟨27⟩⟦14⟧⟨28⟩⟦111⟧⟨29⟩⟦117⟧⟨30⟩⟦98⟧⟨31⟩⟦21⟧⟨32⟩⟦209⟧⟨33⟩⟦280⟧⟨34⟩⟦57⟧⟨35⟩⟦131⟧⟨36⟩⟦131⟧⟨37⟩
+[Webb Mountain Discovery Zone] ⟦306⟧⟨38⟩⟦191⟧⟨39⟩⟦4⟧⟨40⟩⟦27⟧⟨41⟩⟦5⟧⟨42⟩⟦155⟧⟨43⟩⟦328⟧⟨44⟩⟦158⟧⟨45⟩⟦236⟧⟨46⟩
+[Webb Mountain Discovery Zone] ⟨47⟩⟦37⟧⟨48⟩⟦64⟧⟨49⟩⟦231⟧⟨50⟩⟦231⟧⟨51⟩⟦115⟧⟨52⟩⟦115⟧⟨53⟩⟦25⟧⟨54⟩⟦228⟧⟨55⟩⟦125⟧⟨56⟩⟦233⟧⟨57⟩
+[Webb Mountain Discovery Zone] ⟦306⟧⟨58⟩⟦191⟧⟨59⟩⟦28⟧⟨60⟩⟦216⟧⟨61⟩⟦249⟧⟨62⟩⟦249⟧⟨63⟩⟦208⟧⟨64⟩⟦208⟧⟨65⟩⟦229⟧⟨66⟩⟦230⟧⟨67⟩⟦115⟧⟨68⟩⟦77⟧⟨69⟩⟦78⟧⟨70⟩⟦55⟧⟨71⟩⟦234⟧⟨72⟩⟦234⟧⟨73⟩
+[Webb Mountain Discovery Zone] ⟦306⟧⟨74⟩⟦191⟧⟨75⟩⟦322⟧⟨76⟩⟦169⟧⟨77⟩⟦286⟧⟨78⟩⟦346⟧⟨79⟩
+[Herald House] ⟦119⟧⟨80⟩⟦120⟧⟨81⟩⟦309⟧⟨82⟩⟦211⟧⟨83⟩⟦86⟧⟨84⟩⟦271⟧⟨85⟩⟦59⟧⟨86⟩⟦127⟧⟨87⟩⟦168⟧⟨88⟩
+[Herald House] ⟨89⟩⟦48⟧⟨90⟩⟦48⟧⟨91⟩⟦194⟧⟨92⟩⟦194⟧⟨93⟩⟦185⟧⟨94⟩⟦159⟧⟨95⟩⟦276⟧⟨96⟩⟦81⟧⟨97⟩⟦285⟧⟨98⟩
+[Herald House] ⟦137⟧⟨99⟩⟦122⟧⟨100⟩⟦308⟧⟨101⟩⟦210⟧⟨102⟩⟦9⟧⟨103⟩⟦60⟧⟨104⟩⟦193⟧⟨105⟩⟦257⟧⟨106⟩⟦61⟧⟨107⟩⟦182⟧⟨108⟩
+[Herald House] ⟦283⟧⟨109⟩⟦60⟧⟨110⟩⟦205⟧⟨111⟩⟦198⟧⟨112⟩⟦126⟧⟨113⟩⟦18⟧⟨114⟩⟦102⟧⟨115⟩⟦145⟧⟨116⟩⟦134⟧⟨117⟩
+[Herald House] ⟦311⟧⟨118⟩⟦211⟧⟨119⟩⟦199⟧⟨120⟩⟦145⟧⟨121⟩⟦107⟧⟨122⟩⟦107⟧⟨123⟩
+[Herald House] ⟦23⟧⟨124⟩⟦213⟧⟨125⟩⟦102⟧⟨126⟩
+[Herald House] ⟨127⟩⟦269⟧⟨128⟩⟦60⟧⟨129⟩⟦118⟧⟨130⟩⟦127⟧⟨131⟩⟦168⟧⟨132⟩⟦292⟧⟨133⟩⟦13⟧⟨134⟩⟦102⟧⟨135⟩⟦33⟧⟨136⟩⟦41⟧⟨137⟩⟦46⟧⟨138⟩⟦295⟧⟨139⟩
+[Herald House] ⟨140⟩⟦17⟧⟨141⟩⟦211⟧⟨142⟩⟦102⟧⟨143⟩⟦119⟧⟨144⟩⟦177⟧⟨145⟩⟦127⟧⟨146⟩
+[Herald House] ⟦256⟧⟨147⟩⟦102⟧⟨148⟩⟦206⟧⟨149⟩⟦206⟧⟨150⟩⟦255⟧⟨151⟩⟦76⟧⟨152⟩
+[Herald House] ⟦310⟧⟨153⟩⟦211⟧⟨154⟩⟦181⟧⟨155⟩⟦321⟧⟨156⟩⟦262⟧⟨157⟩⟦127⟧⟨158⟩⟦168⟧⟨159⟩
+[Great Falls Tectonic Zone] ⟦290⟧⟨160⟩⟦16⟧⟨161⟩⟦235⟧⟨162⟩⟦353⟧⟨163⟩⟦291⟧⟨164⟩⟦74⟧⟨165⟩⟦74⟧⟨166⟩⟦45⟧⟨167⟩⟦219⟧⟨168⟩⟦260⟧⟨169⟩⟦192⟧⟨170⟩⟦192⟧⟨171⟩⟦301⟧⟨172⟩⟦73⟧⟨173⟩
+[Great Falls Tectonic Zone] ⟦326⟧⟨174⟩⟦353⟧⟨175⟩⟦32⟧⟨176⟩⟦40⟧⟨177⟩⟦166⟧⟨178⟩⟦3⟧⟨179⟩⟦143⟧⟨180⟩⟦319⟧⟨181⟩⟦49⟧⟨182⟩⟦170⟧⟨183⟩⟦302⟧⟨184⟩⟦49⟧⟨185⟩
+[Great Falls Tectonic Zone] ⟨186⟩⟦289⟧⟨187⟩⟦296⟧⟨188⟩⟦15⟧⟨189⟩⟦104⟧⟨190⟩⟦261⟧⟨191⟩⟦40⟧⟨192⟩
+[Great Falls Tectonic Zone] ⟦266⟧⟨193⟩⟦203⟧⟨194⟩⟦326⟧⟨195⟩⟦353⟧⟨196⟩⟦350⟧⟨197⟩
+[Great Falls Tectonic Zone] ⟦267⟧⟨198⟩⟦192⟧⟨199⟩⟦326⟧⟨200⟩⟦353⟧⟨201⟩⟦219⟧⟨202⟩⟦42⟧⟨203⟩⟦114⟧⟨204⟩⟦232⟧⟨205⟩⟦232⟧⟨206⟩⟦305⟧⟨207⟩
+[University of North Texas Discovery Park] ⟨208⟩⟦179⟧⟨209⟩⟦109⟧⟨210⟩⟦24⟧⟨211⟩⟦226⟧⟨212⟩⟦214⟧⟨213⟩⟦102⟧⟨214⟩⟦323⟧⟨215⟩⟦179⟧⟨216⟩
+[University of North Texas Discovery Park] ⟦84⟧⟨217⟩⟦79⟧⟨218⟩⟦253⟧⟨219⟩⟦178⟧⟨220⟩⟦178⟧⟨221⟩⟦294⟧⟨222⟩⟦53⟧⟨223⟩⟦332⟧⟨224⟩
+[University of North Texas Discovery Park] ⟨225⟩⟦139⟧⟨226⟩⟦258⟧⟨227⟩⟦241⟧⟨228⟩⟦102⟧⟨229⟩⟦254⟧⟨230⟩⟦247⟧⟨231⟩⟦247⟧⟨232⟩⟦324⟧⟨233⟩⟦94⟧⟨234⟩
+[University of North Texas Discovery Park] ⟨235⟩⟦300⟧⟨236⟩⟦129⟧⟨237⟩⟦277⟧⟨238⟩⟦53⟧⟨239⟩
+[University of North Texas Discovery Park] ⟦279⟧⟨240⟩⟦102⟧⟨241⟩⟦181⟧⟨242⟩⟦181⟧⟨243⟩⟦144⟧⟨244⟩⟦144⟧⟨245⟩⟦275⟧⟨246⟩⟦95⟧⟨247⟩⟦69⟧⟨248⟩⟦94⟧⟨249⟩⟦160⟧⟨250⟩⟦94⟧⟨251⟩⟦92⟧⟨252⟩⟦164⟧⟨253⟩⟦93⟧⟨254⟩⟦94⟧⟨255⟩⟦150⟧⟨256⟩⟦130⟧⟨257⟩⟦148⟧⟨258⟩
+[University of North Texas Discovery Park] ⟦265⟧⟨259⟩⟦250⟧⟨260⟩⟦329⟧⟨261⟩⟦75⟧⟨262⟩⟦184⟧⟨263⟩⟦184⟧⟨264⟩⟦84⟧⟨265⟩
+[Discovery Zone] ⟦85⟧⟨266⟩⟦2⟧⟨267⟩⟦8⟧⟨268⟩⟦56⟧⟨269⟩⟦96⟧⟨270⟩⟦97⟧⟨271⟩⟦101⟧⟨272⟩⟦112⟧⟨273⟩⟦112⟧⟨274⟩⟦91⟧⟨275⟩⟦162⟧⟨276⟩⟦351⟧⟨277⟩⟦58⟧⟨278⟩⟦220⟧⟨279⟩⟦221⟧⟨280⟩⟦238⟧⟨281⟩⟦246⟧⟨282⟩⟦246⟧⟨283⟩⟦43⟧⟨284⟩⟦44⟧⟨285⟩⟦196⟧⟨286⟩
+[Discovery Zone] ⟨287⟩⟦38⟧⟨288⟩⟦39⟧⟨289⟩⟦112⟧⟨290⟩
+[Discovery Zone] ⟦268⟧⟨291⟩⟦56⟧⟨292⟩⟦223⟧⟨293⟩⟦140⟧⟨294⟩⟦89⟧⟨295⟩
+[Discovery Zone] ⟦284⟧⟨296⟩⟦152⟧⟨297⟩⟦142⟧⟨298⟩⟦168⟧⟨299⟩⟦180⟧⟨300⟩
+[Discovery Zone] ⟦34⟧⟨301⟩⟦133⟧⟨302⟩⟦345⟧⟨303⟩⟦248⟧⟨304⟩⟦272⟧⟨305⟩⟦66⟧⟨306⟩⟦251⟧⟨307⟩⟦252⟧⟨308⟩⟦202⟧⟨309⟩
+[Valentino's] ⟦337⟧⟨310⟩⟦22⟧⟨311⟩⟦217⟧⟨312⟩⟦56⟧⟨313⟩⟦151⟧⟨314⟩⟦174⟧⟨315⟩
+[Valentino's] ⟦337⟧⟨316⟩⟦336⟧⟨317⟩⟦352⟧⟨318⟩
+[Valentino's] ⟦313⟧⟨319⟩⟦217⟧⟨320⟩⟦331⟧⟨321⟩⟦103⟧⟨322⟩⟦29⟧⟨323⟩⟦153⟧⟨324⟩
+[Valentino's] ⟦282⟧⟨325⟩⟦244⟧⟨326⟩⟦287⟧⟨327⟩⟦227⟧⟨328⟩⟦218⟧⟨329⟩⟦264⟧⟨330⟩⟦51⟧⟨331⟩⟦70⟧⟨332⟩⟦278⟧⟨333⟩
+[Valentino SpA] ⟦340⟧⟨334⟩⟦240⟧⟨335⟩⟦11⟧⟨336⟩⟦65⟧⟨337⟩⟦66⟧⟨338⟩⟦339⟧⟨339⟩
+[Valentino SpA] ⟨340⟩⟦20⟧⟨341⟩⟦192⟧⟨342⟩⟦338⟧⟨343⟩⟦330⟧⟨344⟩⟦330⟧⟨345⟩⟦320⟧⟨346⟩⟦212⟧⟨347⟩⟦161⟧⟨348⟩⟦132⟧⟨349⟩⟦224⟧
+[Valentino SpA] ⟨350⟩⟦180⟧⟨351⟩⟦274⟧⟨352⟩⟦82⟧⟨353⟩⟦195⟧⟨354⟩
+[Valentino SpA] ⟦30⟧⟨355⟩⟦341⟧⟨356⟩⟦80⟧⟨357⟩
+[Valentino SpA] ⟦337⟧⟨358⟩⟦165⟧⟨359⟩⟦273⟧⟨360⟩⟦81⟧⟨361⟩⟦222⟧⟨362⟩
+[Aliso Canyon Oil Field] ⟦259⟧⟨363⟩⟦1⟧⟨364⟩⟦31⟧⟨365⟩⟦35⟧⟨366⟩⟦183⟧⟨367⟩⟦106⟧⟨368⟩⟦173⟧⟨369⟩⟦113⟧⟨370⟩⟦243⟧⟨371⟩⟦102⟧⟨372⟩⟦314⟧⟨373⟩⟦157⟧⟨374⟩⟦52⟧⟨375⟩⟦178⟧⟨376⟩⟦178⟧⟨377⟩⟦307⟧⟨378⟩⟦175⟧⟨379⟩⟦270⟧⟨380⟩⟦156⟧⟨381⟩
+[Aliso Canyon Oil Field] ⟨382⟩⟦281⟧⟨383⟩⟦106⟧⟨384⟩⟦36⟧⟨385⟩⟦183⟧⟨386⟩⟦207⟧⟨387⟩⟦136⟧⟨388⟩⟦83⟧⟨389⟩
+[Aliso Canyon Oil Field] ⟨390⟩⟦135⟧⟨391⟩⟦183⟧⟨392⟩⟦113⟧⟨393⟩⟦108⟧⟨394⟩⟦316⟧⟨395⟩⟦353⟧⟨396⟩⟦113⟧⟨397⟩⟦243⟧⟨398⟩⟦317⟧⟨399⟩⟦288⟧⟨400⟩⟦113⟧⟨401⟩⟦335⟧⟨402⟩⟦318⟧⟨403⟩⟦116⟧⟨404⟩⟦52⟧⟨405⟩
+[Aliso Canyon Oil Field] ⟦327⟧⟨406⟩⟦215⟧⟨407⟩⟦315⟧⟨408⟩⟦113⟧⟨409⟩⟦243⟧⟨410⟩⟦237⟧⟨411⟩⟦325⟧⟨412⟩⟦7⟧⟨413⟩⟦54⟧⟨414⟩⟦188⟧⟨415⟩⟦105⟧⟨416⟩⟦172⟧⟨417⟩⟦113⟧⟨418⟩
+[Aliso Canyon Oil Field] ⟨419⟩⟦110⟧⟨420⟩⟦113⟧⟨421⟩⟦243⟧⟨422⟩⟦101⟧⟨423⟩⟦239⟧⟨424⟩⟦304⟧⟨425⟩⟦186⟧⟨426⟩⟦293⟧⟨427⟩⟦348⟧⟨428⟩⟦348⟧⟨429⟩⟦225⟧⟨430⟩⟦124⟧⟨431⟩⟦176⟧⟨432⟩⟦201⟧⟨433⟩
+[Missouri Theatre (Columbia, Missouri)] ⟦298⟧⟨434⟩⟦12⟧⟨435⟩⟦71⟧⟨436⟩⟦96⟧⟨437⟩⟦344⟧⟨438⟩⟦87⟧⟨439⟩⟦88⟧⟨440⟩⟦168⟧⟨441⟩⟦10⟧⟨442⟩⟦62⟧⟨443⟩⟦47⟧⟨444⟩⟦6⟧⟨445⟩⟦245⟧⟨446⟩⟦154⟧⟨447⟩
+[Missouri Theatre (Columbia, Missouri)] ⟨448⟩⟦303⟧⟨449⟩⟦263⟧⟨450⟩⟦299⟧⟨451⟩⟦121⟧⟨452⟩
+[Missouri Theatre (Columbia, Missouri)] ⟨453⟩⟦204⟧⟨454⟩⟦171⟧⟨455⟩⟦190⟧⟨456⟩⟦342⟧⟨457⟩⟦343⟧⟨458⟩⟦242⟧⟨459⟩
+[Missouri Theatre (Columbia, Missouri)] ⟨460⟩⟦323⟧⟨461⟩⟦168⟧⟨462⟩⟦26⟧⟨463⟩⟦349⟧⟨464⟩⟦149⟧⟨465⟩⟦279⟧⟨466⟩⟦102⟧⟨467⟩
+[Missouri Theatre (Columbia, Missouri)] ⟦298⟧⟨468⟩⟦312⟧⟨469⟩⟦123⟧⟨470⟩⟦297⟧⟨471⟩⟦334⟧⟨472⟩⟦168⟧⟨473⟩⟦63⟧⟨474⟩⟦115⟧⟨475⟩
+[Missouri Theatre (Columbia, Missouri)] ⟨476⟩⟦141⟧⟨477⟩⟦323⟧⟨478⟩⟦168⟧⟨479⟩⟦189⟧⟨480⟩⟦189⟧⟨481⟩⟦298⟧⟨482⟩
+
+[user]
+
+问题：
+Which facility was founded in Missouri, Discovery Zone or Valentino's?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

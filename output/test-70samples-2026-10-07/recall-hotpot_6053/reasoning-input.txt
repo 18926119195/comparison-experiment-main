@@ -1,0 +1,75 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[University of Zurich] ⟨1⟩⟨2⟩⟦395⟧⟨3⟩⟦1⟧⟨4⟩⟦389⟧⟨5⟩⟦308⟧⟦84⟧⟨6⟩⟨7⟩⟨8⟩⟦327⟧⟨9⟩⟨10⟩⟦289⟧⟨11⟩⟦220⟧⟨12⟩⟨13⟩
+[Eduard Schweizer] ⟦119⟧⟨192⟩⟦28⟧⟦266⟧⟨193⟩⟨194⟩⟦363⟧⟨195⟩⟦410⟧⟨196⟩⟦41⟧⟦233⟧⟨197⟩⟨198⟩ | ⟦363⟧⟦410⟧⟦410⟧
+[Port Moody Secondary School] ⟦391⟧
+[KJSCE Symphony] ⟦282⟧
+
+符号表：
+⟦1⟧ = , German
+⟦28⟧ = a Swiss New Testament scholar
+⟦41⟧ = an extended period
+⟦84⟧ = city
+⟦119⟧ = Eduard Schweizer
+⟦220⟧ = over 26,000 students
+⟦233⟧ = period
+⟦266⟧ = scholar
+⟦282⟧ = students
+⟦289⟧ = Switzerland
+⟦308⟧ = the city
+⟦327⟧ = the largest university
+⟦363⟧ = The University
+⟦389⟧ = Universität Zürich
+⟦391⟧ = university
+⟦395⟧ = UZH
+⟦410⟧ = Zurich
+
+占位符映射：
+⟨1⟩ =  of 
+⟨2⟩ =  (
+⟨3⟩ = 
+⟨4⟩ = : "
+⟨5⟩ = " ), located in 
+⟨6⟩ = 
+⟨7⟩ =  of 
+⟨8⟩ = , is 
+⟨9⟩ = 
+⟨10⟩ =  in 
+⟨11⟩ = , with 
+⟨12⟩ = 
+⟨13⟩ = .
+⟨192⟩ =  (1913-2006) was 
+⟨193⟩ = 
+⟨194⟩ =  who taught at 
+⟨195⟩ =  of 
+⟨196⟩ =  for 
+⟨197⟩ = 
+⟨198⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Eduard Schweizer teaches at a German university with over how many students? 

@@ -1,0 +1,117 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Wind in the Willows] ⟦265⟧⟨126⟩⟦264⟧⟨127⟩⟦8⟧⟦60⟧⟨129⟩⟨128⟩⟨130⟩⟦123⟧⟨131⟩
+[The Wind in the Willows] ⟦231⟧⟨139⟩⟨140⟩⟦116⟧⟦135⟧⟨141⟩⟨142⟩⟦142⟧⟦142⟧⟨143⟩⟨144⟩⟦23⟧⟦23⟧⟨145⟩⟨146⟩⟦137⟧⟦137⟧⟨147⟩⟨148⟩⟦49⟧⟦49⟧⟨149⟩⟨150⟩⟦115⟧⟦90⟧⟨151⟩⟨152⟩⟦228⟧⟦144⟧⟨153⟩⟨154⟩⟦254⟧⟨155⟩
+[Something Wicked This Way Comes (novel)] ⟦146⟧ | ⟦146⟧ | ⟨194⟩⟨195⟩⟦6⟧⟦95⟧⟨197⟩⟦146⟧⟨196⟩⟨198⟩⟦164⟧⟨199⟩
+[Something Wicked This Way Comes (novel)] ⟨200⟩⟦20⟧⟨202⟩⟦101⟧⟨201⟩⟨203⟩⟦93⟧⟨204⟩⟦17⟧⟨205⟩⟨206⟩⟦266⟧⟦275⟧⟨207⟩⟨208⟩⟦205⟧⟦44⟧⟨209⟩⟨210⟩⟨211⟩⟨212⟩
+[Something Wicked This Way Comes (novel)] ⟦50⟧
+[Something Wicked This Way Comes (novel)] ⟦97⟧⟦97⟧
+[Something Wicca This Way Comes] ⟦298⟧
+[Something Wicca This Way Comes] ⟦292⟧
+
+符号表：
+⟦6⟧ = a 1962 dark fantasy novel
+⟦8⟧ = a children's novel
+⟦17⟧ = a traveling carnival
+⟦20⟧ = about 13-year-old best friends
+⟦23⟧ = adventure
+⟦44⟧ = boys
+⟦49⟧ = camaraderie
+⟦50⟧ = carnival
+⟦60⟧ = children
+⟦90⟧ = evocation
+⟦93⟧ = experience
+⟦95⟧ = fantasy
+⟦97⟧ = fear
+⟦101⟧ = friends
+⟦115⟧ = its evocation
+⟦116⟧ = its mixture
+⟦123⟧ = Kenneth Grahame
+⟦135⟧ = mixture
+⟦137⟧ = morality
+⟦142⟧ = mysticism
+⟦144⟧ = nature
+⟦146⟧ = novel
+⟦164⟧ = Ray Bradbury
+⟦205⟧ = the boys
+⟦228⟧ = the nature
+⟦231⟧ = The novel
+⟦254⟧ = the Thames Valley
+⟦264⟧ = the Willows
+⟦265⟧ = The Wind
+⟦266⟧ = their Midwestern town
+⟦275⟧ = town
+⟦292⟧ = Way
+⟦298⟧ = year
+
+占位符映射：
+⟨126⟩ =  in 
+⟨127⟩ =  is 
+⟨128⟩ = 
+⟨129⟩ = 's 
+⟨130⟩ =  by 
+⟨131⟩ = , first published in 1908.
+⟨139⟩ = 
+⟨140⟩ =  is notable for 
+⟨141⟩ = 
+⟨142⟩ =  of 
+⟨143⟩ = 
+⟨144⟩ = , 
+⟨145⟩ = 
+⟨146⟩ = , 
+⟨147⟩ = 
+⟨148⟩ =  and 
+⟨149⟩ = 
+⟨150⟩ = , and celebrated for 
+⟨151⟩ = 
+⟨152⟩ =  of 
+⟨153⟩ = 
+⟨154⟩ =  of 
+⟨155⟩ = .
+⟨194⟩ = Something Wicked This 
+⟨195⟩ =  Comes is 
+⟨196⟩ = 
+⟨197⟩ =  
+⟨198⟩ =  by 
+⟨199⟩ = .
+⟨200⟩ =  It is 
+⟨201⟩ = 
+⟨202⟩ = -old best 
+⟨203⟩ = , Jim Nightshade and William Halloway, and their nightmarish 
+⟨204⟩ =  with 
+⟨205⟩ = 
+⟨206⟩ =  that comes to 
+⟨207⟩ = 
+⟨208⟩ =  one October, and how 
+⟨209⟩ = 
+⟨210⟩ =  learn about combatting 
+⟨211⟩ = 
+⟨212⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which of the following works was completed first, Something Wicked This Way Comes or The Wind in the Willows?

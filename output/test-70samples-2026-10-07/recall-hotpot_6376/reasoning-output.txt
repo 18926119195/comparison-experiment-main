@@ -1,0 +1,33 @@
+# 路径一：直接链式推理
+
+步骤1：使用⟦239⟧⟦78⟧，提取"The chorus"与"chorus"的对应关系，确认问题所指的chorus部分。
+
+步骤2：使用⟦4⟧⟦115⟧，提取"November Rain"与"Guns N' Roses"的关联，确认该歌曲所属乐队。
+
+步骤3：使用⟦237⟧，提取"the band's lead singer Axl Rose"，确认乐队主唱身份。
+
+结论：Axl Rose
+
+---
+
+# 路径二：交叉验证路径
+
+步骤1：使用⟦188⟧⟦201⟧，提取"Rain"与"Roses"的片段信息，交叉验证"November Rain"与"Roses"（即Guns N' Roses）的关联。
+
+步骤2：综合⟦237⟧⟦211⟧，提取"the band's lead singer"与"singer"的对应，确认主唱为Axl Rose。
+
+步骤3：使用⟦282⟧⟦311⟧，提取"their third studio album"与"Your Illusion"的信息，验证"November Rain"收录于Guns N' Roses的专辑中，进一步确认乐队身份。
+
+结论：Axl Rose
+
+---
+
+# 路径三：综合支撑路径
+
+步骤1：使用⟦239⟧⟦78⟧，确认"The chorus"指代"On the Radio"的副歌部分。
+
+步骤2：综合⟦4⟧⟦115⟧⟦237⟧，提取"November Rain"所属乐队为Guns N' Roses，且该乐队主唱为Axl Rose。
+
+步骤3：使用⟦201⟧⟦203⟧，提取"Roses"与"sadomasochism"的片段，辅助确认"November Rain"与Guns N' Roses的关联链条完整。
+
+结论：Axl Rose

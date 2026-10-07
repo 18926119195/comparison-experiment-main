@@ -1,0 +1,193 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Virginia State Route 160] ⟨1⟩⟨2⟩⟦12⟧⟨4⟩⟨3⟩⟨5⟩⟨6⟩⟨7⟩⟨8⟩
+[Alabama State Route 160] ⟨69⟩⟦144⟧⟨71⟩⟨70⟩⟨72⟩⟦30⟧⟨73⟩
+[Washington State Route 160] ⟦138⟧⟨83⟩⟨84⟩⟨85⟩⟨86⟩⟨87⟩⟦105⟧⟨88⟩⟦149⟧⟨90⟩⟨89⟩⟨91⟩⟨92⟩⟨93⟩⟦8⟧⟨94⟩⟨95⟩⟦170⟧⟨96⟩⟦136⟧⟨97⟩⟨98⟩⟨99⟩⟨100⟩⟦134⟧⟨102⟩⟦127⟧⟦127⟧⟨101⟩⟨103⟩⟦116⟧⟨104⟩
+[Maine State Route 160] ⟨105⟩⟦18⟧⟨106⟩⟨107⟩⟨108⟩⟦90⟧⟦126⟧⟨109⟩⟨110⟩⟦99⟧⟨112⟩⟦67⟧⟨111⟩⟨113⟩⟦158⟧⟦103⟧⟦103⟧⟦103⟧⟨114⟩⟨115⟩⟦150⟧⟨116⟩⟨117⟩
+[California State Route 104] ⟨131⟩⟨132⟩⟦16⟧⟦176⟧⟨134⟩⟨135⟩⟨133⟩⟨136⟩⟦38⟧⟨137⟩
+[Arizona State Route 564] ⟨162⟩⟨163⟩⟨165⟩⟨164⟩⟨166⟩⟦96⟧⟨167⟩⟦94⟧⟨168⟩
+[Ohio State Route 160] ⟨189⟩⟨190⟩⟦11⟧⟨192⟩⟨193⟩⟨191⟩⟨194⟩⟦147⟧⟦106⟧⟨195⟩⟨196⟩⟨197⟩⟨198⟩⟦100⟧⟨199⟩
+[Ohio State Route 160] ⟦22⟧
+[Ohio State Route 160] ⟦70⟧
+[Ohio State Route 160] ⟦146⟧
+[Ohio State Route 160] ⟦112⟧⟦128⟧
+[California State Route 220] ⟦119⟧ | ⟦119⟧ | ⟨242⟩⟦119⟧⟨243⟩⟨245⟩⟨244⟩⟨246⟩⟨247⟩⟨248⟩⟦37⟧⟨249⟩⟨250⟩⟨251⟩⟨252⟩ | ⟦119⟧ | ⟦119⟧ | ⟦119⟧⟦119⟧
+[California State Route 220] ⟦113⟧ | ⟦58⟧⟦58⟧⟦58⟧
+[Kentucky Route 160] ⟦66⟧⟦155⟧ | ⟦66⟧⟦155⟧ | ⟦13⟧⟦66⟧⟦155⟧ | ⟨263⟩⟨264⟩⟦13⟧⟨266⟩⟦66⟧⟨265⟩⟨267⟩⟦155⟧⟨268⟩⟨269⟩⟨270⟩ | ⟦13⟧⟦66⟧ | ⟦66⟧ | ⟦66⟧ | ⟦66⟧
+[Kentucky Route 160] ⟦120⟧⟦120⟧⟦121⟧ | ⟦120⟧⟦120⟧⟦121⟧⟦95⟧ | ⟦120⟧⟦120⟧⟦121⟧⟦121⟧⟦121⟧ | ⟦120⟧⟦120⟧ | ⟦120⟧⟦120⟧⟦121⟧ | ⟦120⟧⟦121⟧ | ⟦120⟧⟦121⟧ | ⟦120⟧⟦121⟧ | ⟦52⟧
+[Kentucky Route 160] ⟦84⟧⟦81⟧
+[Black Mountain (Kentucky)] ⟦173⟧
+[Black Mountain (Kentucky)] ⟦80⟧
+
+符号表：
+⟦8⟧ = a ferry
+⟦11⟧ = a north–south state highway
+⟦12⟧ = a primary state highway
+⟦13⟧ = a state highway
+⟦16⟧ = a west–east state highway
+⟦18⟧ = abbreviated SR
+⟦22⟧ = an interchange
+⟦30⟧ = Blount County
+⟦37⟧ = California
+⟦38⟧ = California's Central Valley
+⟦52⟧ = east
+⟦58⟧ = ferry
+⟦66⟧ = highway
+⟦67⟧ = highways
+⟦70⟧ = interchange
+⟦80⟧ = Kentucky
+⟦81⟧ = Kentucky Route
+⟦84⟧ = KY
+⟦90⟧ = Maine's system
+⟦94⟧ = Navajo National Monument
+⟦95⟧ = north
+⟦96⟧ = northern Arizona
+⟦99⟧ = numbered state highways
+⟦100⟧ = Ohio
+⟦103⟧ = part
+⟦105⟧ = Port Orchard
+⟦106⟧ = portion
+⟦112⟧ = route
+⟦113⟧ = Ryer Island
+⟦116⟧ = Seattle
+⟦119⟧ = SR
+⟦120⟧ = state
+⟦121⟧ = State Route
+⟦126⟧ = system
+⟦127⟧ = terminal
+⟦128⟧ = terminus
+⟦134⟧ = the Fauntleroy ferry terminal
+⟦136⟧ = the former southern terminus
+⟦138⟧ = the highway
+⟦144⟧ = the only state highway
+⟦146⟧ = the route
+⟦147⟧ = the southeastern portion
+⟦149⟧ = the Southworth ferry terminal
+⟦150⟧ = the state
+⟦155⟧ = the U.S. state
+⟦158⟧ = the western part
+⟦170⟧ = Vashon Heights
+⟦173⟧ = Virginia
+⟦176⟧ = west
+
+占位符映射：
+⟨1⟩ =  160 (
+⟨2⟩ =  160) is 
+⟨3⟩ = 
+⟨4⟩ =  
+⟨5⟩ =  in 
+⟨6⟩ = 
+⟨7⟩ =  of 
+⟨8⟩ = .
+⟨69⟩ =  160 is 
+⟨70⟩ = 
+⟨71⟩ =  
+⟨72⟩ =  that is exclusively located in 
+⟨73⟩ = .
+⟨83⟩ = 
+⟨84⟩ =  begins at 
+⟨85⟩ = 
+⟨86⟩ =  with 
+⟨87⟩ =  16 in 
+⟨88⟩ =  and travels east to 
+⟨89⟩ = 
+⟨90⟩ =  
+⟨91⟩ = , where 
+⟨92⟩ = 
+⟨93⟩ =  continues onto 
+⟨94⟩ = 
+⟨95⟩ =  to 
+⟨96⟩ = , 
+⟨97⟩ = 
+⟨98⟩ =  of 
+⟨99⟩ =  339, and further 
+⟨100⟩ =  to end at 
+⟨101⟩ = 
+⟨102⟩ =  
+⟨103⟩ =  in 
+⟨104⟩ = .
+⟨105⟩ =  160 (
+⟨106⟩ =  160) is 
+⟨107⟩ = 
+⟨108⟩ =  of 
+⟨109⟩ = 
+⟨110⟩ =  of 
+⟨111⟩ = 
+⟨112⟩ =  
+⟨113⟩ = , located in 
+⟨114⟩ = 
+⟨115⟩ =  of 
+⟨116⟩ = 
+⟨117⟩ = .
+⟨131⟩ =  104 (
+⟨132⟩ =  104) is 
+⟨133⟩ = 
+⟨134⟩ = –east 
+⟨135⟩ =  
+⟨136⟩ =  in 
+⟨137⟩ = .
+⟨162⟩ =  564, also known as 
+⟨163⟩ =  564, is 
+⟨164⟩ = 
+⟨165⟩ =  
+⟨166⟩ =  in 
+⟨167⟩ =  serving 
+⟨168⟩ = .
+⟨189⟩ =  160 (
+⟨190⟩ =  160) is 
+⟨191⟩ = 
+⟨192⟩ = –south 
+⟨193⟩ =  
+⟨194⟩ =  in 
+⟨195⟩ = 
+⟨196⟩ =  of 
+⟨197⟩ = 
+⟨198⟩ =  of 
+⟨199⟩ = .
+⟨242⟩ =  220 (
+⟨243⟩ =  220) is 
+⟨244⟩ = 
+⟨245⟩ =  
+⟨246⟩ =  in 
+⟨247⟩ = 
+⟨248⟩ =  of 
+⟨249⟩ = , defined to run between 
+⟨250⟩ =  84 and 
+⟨251⟩ =  160 on 
+⟨252⟩ = .
+⟨263⟩ =  160, also known as 
+⟨264⟩ =  160, is 
+⟨265⟩ = 
+⟨266⟩ =  
+⟨267⟩ =  in 
+⟨268⟩ = 
+⟨269⟩ =  of 
+⟨270⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+At what height does State Route 160 start?

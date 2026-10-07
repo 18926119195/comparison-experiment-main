@@ -1,0 +1,337 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨A⟩、⟨B⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (a semi-autonomous unit
+⟦2⟧ = 1 April
+⟦3⟧ = 1 March
+⟦4⟧ = 1 September
+⟦5⟧ = 10:10 AM GST
+⟦6⟧ = 12:00 am
+⟦7⟧ = 14 March
+⟦8⟧ = 24 hours
+⟦9⟧ = 3.0 branding
+⟦10⟧ = 30 September
+⟦11⟧ = 4.0 branding package
+⟦12⟧ = 4.0 bumpers
+⟦13⟧ = a British TV network
+⟦14⟧ = a cable and satellite television channel
+⟦15⟧ = a children's channel broadcasting
+⟦16⟧ = a Czech sub
+⟦17⟧ = a division
+⟦18⟧ = a free trial
+⟦19⟧ = a line-up
+⟦20⟧ = a nearly identical schedule
+⟦21⟧ = a pan-Arab audience
+⟦22⟧ = a Polish language cartoon channel broadcasting
+⟦23⟧ = a Polish, Romanian, Hungarian and English audio track
+⟦24⟧ = a Portuguese digital cable
+⟦25⟧ = a schedule
+⟦26⟧ = a semi-autonomous unit
+⟦27⟧ = a separate channel
+⟦28⟧ = a separate feed
+⟦29⟧ = a subscription entertainment package
+⟦30⟧ = a Toonami programming block
+⟦31⟧ = a unit
+⟦32⟧ = action
+⟦33⟧ = additional providers
+⟦34⟧ = Adult Swim
+⟦35⟧ = adventure
+⟦36⟧ = air
+⟦37⟧ = am
+⟦38⟧ = an American media conglomerate
+⟦39⟧ = an HD pay TV channel
+⟦40⟧ = animated programming
+⟦41⟧ = animated programs
+⟦42⟧ = animation
+⟦43⟧ = April
+⟦44⟧ = Arabic
+⟦45⟧ = assets
+⟦46⟧ = audience
+⟦47⟧ = audio
+⟦48⟧ = August
+⟦49⟧ = beIN
+⟦50⟧ = block
+⟦51⟧ = Boomerang
+⟦52⟧ = both English
+⟦53⟧ = both the CNN Center
+⟦54⟧ = branding
+⟦55⟧ = broadcasting
+⟦56⟧ = bumpers
+⟦57⟧ = cable
+⟦58⟧ = cable television networks
+⟦59⟧ = campus
+⟦60⟧ = Canal Panda
+⟦61⟧ = cartoon
+⟦62⟧ = Cartoon Network
+⟦63⟧ = Cartoon Network Africa
+⟦64⟧ = Cartoon Network Arabic
+⟦65⟧ = Cartoon Network CEE
+⟦66⟧ = Cartoon Network Central Eastern Europe
+⟦67⟧ = Cartoon Network Czech Republic
+⟦68⟧ = Cartoon Network HQ
+⟦69⟧ = Cartoon Network Hungary and Cartoon Network Romania
+⟦70⟧ = Cartoon Network MENA
+⟦71⟧ = Cartoon Network Poland
+⟦72⟧ = Cartoon Network South Korea
+⟦73⟧ = Cartoon Network UK
+⟦74⟧ = Cartoon Network UK/Europe
+⟦75⟧ = CEO
+⟦76⟧ = chairman
+⟦77⟧ = channel
+⟦78⟧ = channels
+⟦79⟧ = Check
+⟦80⟧ = children
+⟦81⟧ = classic animation
+⟦82⟧ = CN
+⟦83⟧ = CNN
+⟦84⟧ = collection
+⟦85⟧ = company
+⟦86⟧ = conglomerate
+⟦87⟧ = country
+⟦88⟧ = Cyprus
+⟦89⟧ = Czech Republic
+⟦90⟧ = day
+⟦91⟧ = daytime
+⟦92⟧ = December
+⟦93⟧ = demand
+⟦94⟧ = Disney Channel
+⟦95⟧ = division
+⟦96⟧ = Downtown Atlanta
+⟦97⟧ = Dubai Media City
+⟦98⟧ = dubbing
+⟦99⟧ = entertainment
+⟦100⟧ = existing Check
+⟦101⟧ = feed
+⟦102⟧ = Fetch TV
+⟦103⟧ = flagship
+⟦104⟧ = graphics
+⟦105⟧ = Hanna-Barbera
+⟦106⟧ = headquarters
+⟦107⟧ = high demand
+⟦108⟧ = HLN
+⟦109⟧ = home
+⟦110⟧ = hours
+⟦111⟧ = Hungary
+⟦112⟧ = i.e. "Skatoony
+⟦113⟧ = idents
+⟦114⟧ = Inc.
+⟦115⟧ = Iran
+⟦116⟧ = Ireland
+⟦117⟧ = ISPs
+⟦118⟧ = Israel
+⟦119⟧ = its main flagship channel
+⟦120⟧ = its TBS cable network
+⟦121⟧ = John K. Martin
+⟦122⟧ = kids
+⟦123⟧ = language
+⟦124⟧ = launch
+⟦125⟧ = line
+⟦126⟧ = Master Film and Studio Genetix Film Factory
+⟦127⟧ = media
+⟦128⟧ = midnight
+⟦129⟧ = Midtown Atlanta
+⟦130⟧ = Moldova
+⟦131⟧ = more contemporary programming
+⟦132⟧ = network
+⟦133⟧ = networks
+⟦134⟧ = Nick Jr.
+⟦135⟧ = North Africa region
+⟦136⟧ = November
+⟦137⟧ = October
+⟦138⟧ = offices
+⟦139⟧ = only a Polish and English audio track
+⟦140⟧ = opening
+⟦141⟧ = other times
+⟦142⟧ = overnight hours
+⟦143⟧ = package
+⟦144⟧ = part
+⟦145⟧ = pay
+⟦146⟧ = Peachtree TV
+⟦147⟧ = people
+⟦148⟧ = Poland
+⟦149⟧ = popular Nick Jr. programming
+⟦150⟧ = Portugal
+⟦151⟧ = precursor
+⟦152⟧ = programmes
+⟦153⟧ = programming
+⟦154⟧ = programs
+⟦155⟧ = properties
+⟦156⟧ = providers
+⟦157⟧ = region
+⟦158⟧ = rival channel
+⟦159⟧ = Romania
+⟦160⟧ = satellite
+⟦161⟧ = satellite television channel
+⟦162⟧ = schedule
+⟦163⟧ = SDI Media Polska
+⟦164⟧ = September
+⟦165⟧ = shows
+⟦166⟧ = sister
+⟦167⟧ = Slovakia
+⟦168⟧ = some action-adventure programming
+⟦169⟧ = some ISPs
+⟦170⟧ = some Polish dubbing studios
+⟦171⟧ = some shows
+⟦172⟧ = Start International Polska
+⟦173⟧ = station
+⟦174⟧ = status
+⟦175⟧ = Studio Sonica
+⟦176⟧ = studios
+⟦177⟧ = sub
+⟦178⟧ = Sub-Saharan Africa
+⟦179⟧ = subscription
+⟦180⟧ = superstation
+⟦181⟧ = TBS
+⟦182⟧ = TCM
+⟦183⟧ = Techwood Drive
+⟦184⟧ = Ted Turner
+⟦185⟧ = teens
+⟦186⟧ = teens' channel
+⟦187⟧ = television
+⟦188⟧ = The Australian version
+⟦189⟧ = the British second channel
+⟦190⟧ = the channel
+⟦191⟧ = the channel's launch
+⟦192⟧ = the Check
+⟦193⟧ = the collection
+⟦194⟧ = The company
+⟦195⟧ = The company's assets
+⟦196⟧ = The company's current chairman
+⟦197⟧ = the day
+⟦198⟧ = the daytime
+⟦199⟧ = the direct precursor
+⟦200⟧ = the EMEA region
+⟦201⟧ = the Foxtel Digital launch
+⟦202⟧ = The free trial
+⟦203⟧ = the free trial status
+⟦204⟧ = The headquarters
+⟦205⟧ = the last country
+⟦206⟧ = the main Cartoon Network
+⟦207⟧ = the main Nick Jr. channel
+⟦208⟧ = the Middle East
+⟦209⟧ = the Middle East and North Africa region
+⟦210⟧ = the opening
+⟦211⟧ = the original American Cartoon Network television channel
+⟦212⟧ = the original home
+⟦213⟧ = the Republic
+⟦214⟧ = the Romanian and Polish feed
+⟦215⟧ = the second most-watched kids
+⟦216⟧ = the sister station
+⟦217⟧ = the South Korean version
+⟦218⟧ = the Techwood campus
+⟦219⟧ = the Turner Broadcasting campus
+⟦220⟧ = the UK feed
+⟦221⟧ = the United Kingdom
+⟦222⟧ = the United States
+⟦223⟧ = the US and UK version
+⟦224⟧ = This channel
+⟦225⟧ = time
+⟦226⟧ = Time Warner
+⟦227⟧ = times
+⟦228⟧ = TNT
+⟦229⟧ = today
+⟦230⟧ = track
+⟦231⟧ = trial
+⟦232⟧ = TruTV
+⟦233⟧ = Turkey
+⟦234⟧ = Turner
+⟦235⟧ = Turner Broadcasting
+⟦236⟧ = Turner Broadcasting System
+⟦237⟧ = Turner Broadcasting System Europe
+⟦238⟧ = Turner Broadcasting System Europe's offices
+⟦239⟧ = Turner Classic Movies
+⟦240⟧ = Turner Studios
+⟦241⟧ = Turner's properties
+⟦242⟧ = Turner's WTBS superstation
+⟦243⟧ = TV
+⟦244⟧ = two Arabic-language versions
+⟦245⟧ = two digital children's TV channels
+⟦246⟧ = unit
+⟦247⟧ = up
+⟦248⟧ = version
+⟦249⟧ = versions
+⟦250⟧ = Warsaw
+⟦251⟧ = while
+⟦252⟧ = Williams Street Productions
+⟦253⟧ = بالعربية‎
+⟦254⟧ = كرتون
+
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟦62⟧⟨A⟩⟦245⟧⟨B⟩⟦80⟧⟨C⟩⟦243⟧⟨D⟩⟦78⟧⟨E⟩⟦41⟧⟨F⟩⟦154⟧⟨G⟩⟦70⟧⟨H⟩⟦209⟧⟨I⟩⟦157⟧⟨J⟩⟦118⟧⟨K⟩⟦115⟧⟨L⟩⟦233⟧⟨M⟩⟦88⟧⟨N⟩⟦63⟧⟨O⟩⟦68⟧⟨P⟩⟦178⟧⟨Q⟩
+⟦62⟧⟨R⟩⟦236⟧⟨S⟩⟦31⟧⟨T⟩⟦246⟧⟨U⟩⟦226⟧⟨V⟩
+⟦74⟧⟨W⟩⟦199⟧⟨X⟩⟦151⟧⟨Y⟩⟦62⟧⟨Z⟩⟦200⟧⟨[⟩⟦157⟧⟨\⟩⟦68⟧⟨]⟩⟦164⟧⟨^⟩
+⟨_⟩⟦137⟧⟨`⟩⟦73⟧⟨a⟩⟦28⟧⟨b⟩⟦101⟧⟨c⟩⟦68⟧⟨d⟩⟦20⟧⟨e⟩⟦162⟧⟨f⟩⟦68⟧⟨g⟩⟦220⟧⟨h⟩⟦101⟧⟨i⟩
+⟦62⟧⟨j⟩⟦82⟧⟨k⟩⟦24⟧⟨l⟩⟦57⟧⟨m⟩⟦160⟧⟨n⟩⟦161⟧⟨o⟩⟦187⟧⟨p⟩⟦77⟧⟨q⟩⟦92⟧⟨r⟩⟦237⟧⟨s⟩⟦1⟧⟨t⟩⟦246⟧⟨u⟩⟦226⟧⟨v⟩
+⟨w⟩⟦62⟧⟨x⟩⟦215⟧⟨y⟩⟦122⟧⟨z⟩⟦185⟧⟨{⟩⟦186⟧⟨|⟩⟦77⟧⟨}⟩⟦150⟧⟨~⟩⟦60⟧⟨⟩⟦94⟧⟨⟩
+⟦51⟧⟨⟩⟦14⟧⟨⟩⟦57⟧⟨⟩⟦160⟧⟨⟩⟦187⟧⟨⟩⟦77⟧⟨⟩⟦236⟧⟨⟩⟦31⟧⟨⟩⟦246⟧⟨⟩⟦226⟧⟨⟩⟦119⟧⟨⟩⟦103⟧⟨⟩⟦77⟧⟨⟩⟦62⟧⟨⟩
+⟦188⟧⟨⟩⟦248⟧⟨⟩⟦51⟧⟨⟩⟦7⟧⟨⟩⟦144⟧⟨⟩⟦144⟧⟨⟩⟦201⟧⟨⟩⟦124⟧⟨⟩⟦19⟧⟨⟩⟦125⟧⟨⟩⟦247⟧⟨⟩⟦223⟧⟨⟩⟦248⟧⟨⟩
+⟨⟩⟦81⟧⟨⟩⟦42⟧⟨⟩⟦176⟧⟨⟩⟦176⟧⟨ ⟩⟦105⟧⟨¡⟩⟦190⟧⟨¢⟩⟦77⟧⟨£⟩⟦131⟧⟨¤⟩⟦153⟧⟨¥⟩
+⟦224⟧⟨¦⟩⟦77⟧⟨§⟩⟦18⟧⟨¨⟩⟦231⟧⟨©⟩⟦29⟧⟨ª⟩⟦179⟧⟨«⟩⟦99⟧⟨¬⟩⟦143⟧⟨­⟩⟦102⟧⟨®⟩⟦243⟧⟨¯⟩⟦169⟧⟨°⟩⟦117⟧⟨±⟩
+⟦202⟧⟨²⟩⟦231⟧⟨³⟩⟦51⟧⟨´⟩⟦62⟧⟨µ⟩
+⟨¶⟩⟦202⟧⟨·⟩⟦231⟧⟨¸⟩⟦51⟧⟨¹⟩⟦102⟧⟨º⟩⟦203⟧⟨»⟩⟦231⟧⟨¼⟩⟦174⟧⟨½⟩
+⟦134⟧
+⟨¾⟩⟦189⟧⟨¿⟩⟦77⟧⟨À⟩⟦134⟧⟨Á⟩⟦221⟧⟨Â⟩⟦213⟧⟨Ã⟩⟦116⟧⟨Ä⟩⟦149⟧⟨Å⟩⟦153⟧⟨Æ⟩⟦141⟧⟨Ç⟩⟦227⟧⟨È⟩⟦197⟧⟨É⟩⟦90⟧⟨Ê⟩
+⟨Ë⟩⟦90⟧⟨Ì⟩⟦158⟧⟨Í⟩⟦77⟧⟨Î⟩⟦62⟧⟨Ï⟩
+⟦134⟧
+⟨Ð⟩⟦25⟧⟨Ñ⟩⟦162⟧⟨Ò⟩⟦207⟧⟨Ó⟩⟦77⟧⟨Ô⟩
+⟦190⟧⟨Õ⟩⟦77⟧⟨Ö⟩⟦134⟧
+⟨×⟩⟦136⟧⟨Ø⟩
+⟦71⟧⟨Ù⟩⟦22⟧⟨Ú⟩⟦123⟧⟨Û⟩⟦61⟧⟨Ü⟩⟦77⟧⟨Ý⟩⟦55⟧⟨Þ⟩⟦147⟧⟨ß⟩⟦147⟧⟨à⟩⟦148⟧⟨á⟩
+⟦190⟧⟨â⟩⟦77⟧⟨ã⟩⟦4⟧⟨ä⟩⟦6⟧⟨å⟩⟦37⟧⟨æ⟩⟦225⟧⟨ç⟩
+⟨è⟩⟦4⟧⟨é⟩⟦104⟧⟨ê⟩⟦104⟧⟨ë⟩⟦192⟧⟨ì⟩⟦11⟧⟨í⟩⟦143⟧⟨î⟩
+⟨ï⟩⟦3⟧⟨ð⟩⟦110⟧⟨ñ⟩⟦90⟧⟨ò⟩
+⟨ó⟩⟦10⟧⟨ô⟩⟦190⟧⟨õ⟩⟦77⟧⟨ö⟩⟦111⟧⟨÷⟩⟦159⟧⟨ø⟩
+⟨ù⟩⟦27⟧⟨ú⟩⟦77⟧⟨û⟩⟦111⟧⟨ü⟩⟦159⟧⟨ý⟩
+⟨þ⟩⟦250⟧⟨ÿ⟩
+⟨Ā⟩⟦23⟧⟨ā⟩⟦47⟧⟨Ă⟩⟦230⟧⟨ă⟩
+⟨Ą⟩⟦139⟧⟨ą⟩⟦47⟧⟨Ć⟩⟦230⟧⟨ć⟩
+⟦190⟧⟨Ĉ⟩⟦77⟧⟨ĉ⟩⟦237⟧⟨Ċ⟩
+⟦190⟧⟨ċ⟩⟦77⟧⟨Č⟩⟦30⟧⟨č⟩⟦153⟧⟨Ď⟩⟦50⟧⟨ď⟩⟦190⟧⟨Đ⟩⟦77⟧⟨đ⟩⟦170⟧⟨Ē⟩⟦98⟧⟨ē⟩⟦176⟧⟨Ĕ⟩⟦175⟧⟨ĕ⟩⟦172⟧⟨Ė⟩⟦163⟧⟨ė⟩⟦126⟧⟨Ę⟩
+⟨ę⟩⟦13⟧⟨Ě⟩⟦243⟧⟨ě⟩⟦132⟧⟨Ĝ⟩⟦235⟧⟨ĝ⟩
+⟨Ğ⟩⟦216⟧⟨ğ⟩⟦166⟧⟨Ġ⟩⟦173⟧⟨ġ⟩⟦62⟧⟨Ģ⟩⟦152⟧⟨ģ⟩⟦152⟧⟨Ĥ⟩⟦251⟧⟨ĥ⟩⟦206⟧⟨Ħ⟩
+⟨ħ⟩⟦198⟧⟨Ĩ⟩⟦91⟧⟨ĩ⟩⟦168⟧⟨Ī⟩⟦32⟧⟨ī⟩⟦35⟧⟨Ĭ⟩⟦153⟧⟨ĭ⟩
+⟨Į⟩⟦142⟧⟨į⟩⟦110⟧⟨İ⟩⟦128⟧⟨ı⟩⟦128⟧⟨Ĳ⟩⟦171⟧⟨ĳ⟩⟦165⟧⟨Ĵ⟩⟦107⟧⟨ĵ⟩⟦93⟧⟨Ķ⟩⟦112⟧⟨ķ⟩
+⟨ĸ⟩⟦2⟧⟨Ĺ⟩
+⟦65⟧⟨ĺ⟩⟦67⟧⟨Ļ⟩⟦69⟧⟨ļ⟩⟦15⟧⟨Ľ⟩⟦80⟧⟨ľ⟩⟦77⟧⟨Ŀ⟩⟦55⟧⟨ŀ⟩⟦147⟧⟨Ł⟩⟦147⟧⟨ł⟩⟦89⟧⟨Ń⟩⟦111⟧⟨ń⟩⟦130⟧⟨Ņ⟩⟦159⟧⟨ņ⟩⟦167⟧⟨Ň⟩
+⟦190⟧⟨ň⟩⟦77⟧⟨ŉ⟩⟦214⟧⟨Ŋ⟩⟦101⟧⟨ŋ⟩
+⟦190⟧⟨Ō⟩⟦77⟧⟨ō⟩⟦237⟧⟨Ŏ⟩
+⟦190⟧⟨ŏ⟩⟦77⟧⟨Ő⟩⟦30⟧⟨ő⟩⟦153⟧⟨Œ⟩⟦50⟧⟨œ⟩
+⟨Ŕ⟩⟦43⟧⟨ŕ⟩⟦62⟧⟨Ŗ⟩⟦8⟧⟨ŗ⟩⟦110⟧⟨Ř⟩⟦90⟧⟨ř⟩⟦111⟧⟨Ś⟩
+⟦111⟧⟨ś⟩⟦205⟧⟨Ŝ⟩⟦87⟧⟨ŝ⟩⟦62⟧⟨Ş⟩⟦182⟧⟨ş⟩
+⟨Š⟩⟦48⟧⟨š⟩⟦66⟧⟨Ţ⟩⟦12⟧⟨ţ⟩⟦56⟧⟨Ť⟩⟦113⟧⟨ť⟩⟦113⟧⟨Ŧ⟩⟦100⟧⟨ŧ⟩⟦79⟧⟨Ũ⟩⟦9⟧⟨ũ⟩⟦54⟧⟨Ū⟩
+⟨ū⟩⟦164⟧⟨Ŭ⟩⟦16⟧⟨ŭ⟩⟦177⟧⟨Ů⟩⟦101⟧⟨ů⟩⟦101⟧⟨Ű⟩
+⟦236⟧⟨ű⟩⟦114⟧⟨Ų⟩⟦234⟧⟨ų⟩⟦38⟧⟨Ŵ⟩⟦127⟧⟨ŵ⟩⟦86⟧⟨Ŷ⟩⟦17⟧⟨ŷ⟩⟦95⟧⟨Ÿ⟩⟦226⟧⟨Ź⟩⟦193⟧⟨ź⟩⟦84⟧⟨Ż⟩⟦57⟧⟨ż⟩⟦58⟧⟨Ž⟩⟦187⟧⟨ž⟩⟦133⟧⟨ſ⟩⟦155⟧⟨ƀ⟩⟦155⟧⟨Ɓ⟩⟦184⟧⟨Ƃ⟩
+⟦194⟧⟨ƃ⟩⟦85⟧⟨Ƅ⟩⟦226⟧⟨ƅ⟩⟦137⟧⟨Ɔ⟩
+⟨Ƈ⟩⟦26⟧⟨ƈ⟩⟦246⟧⟨Ɖ⟩⟦226⟧⟨Ɗ⟩
+⟦195⟧⟨Ƌ⟩⟦85⟧⟨ƌ⟩⟦45⟧⟨ƍ⟩⟦83⟧⟨Ǝ⟩⟦108⟧⟨Ə⟩⟦181⟧⟨Ɛ⟩⟦228⟧⟨Ƒ⟩⟦239⟧⟨ƒ⟩⟦62⟧⟨Ɠ⟩⟦34⟧⟨Ɣ⟩⟦51⟧⟨ƕ⟩⟦232⟧⟨Ɩ⟩
+⟦196⟧⟨Ɨ⟩⟦85⟧⟨Ƙ⟩⟦76⟧⟨ƙ⟩⟦75⟧⟨ƚ⟩⟦121⟧⟨ƛ⟩
+⟦204⟧⟨Ɯ⟩⟦106⟧⟨Ɲ⟩⟦241⟧⟨ƞ⟩⟦155⟧⟨Ɵ⟩⟦53⟧⟨Ơ⟩⟦96⟧⟨ơ⟩⟦219⟧⟨Ƣ⟩⟦59⟧⟨ƣ⟩⟦183⟧⟨Ƥ⟩⟦129⟧⟨ƥ⟩⟦240⟧⟨Ʀ⟩
+⟨Ƨ⟩⟦218⟧⟨ƨ⟩⟦59⟧⟨Ʃ⟩⟦212⟧⟨ƪ⟩⟦109⟧⟨ƫ⟩⟦242⟧⟨Ƭ⟩⟦180⟧⟨ƭ⟩⟦120⟧⟨Ʈ⟩⟦57⟧⟨Ư⟩⟦132⟧⟨ư⟩⟦146⟧⟨Ʊ⟩⟦229⟧⟨Ʋ⟩⟦204⟧⟨Ƴ⟩⟦106⟧⟨ƴ⟩⟦34⟧⟨Ƶ⟩⟦252⟧⟨ƶ⟩
+⟦72⟧⟨Ʒ⟩⟦217⟧⟨Ƹ⟩⟦248⟧⟨ƹ⟩⟦211⟧⟨ƺ⟩⟦187⟧⟨ƻ⟩⟦77⟧⟨Ƽ⟩⟦222⟧⟨ƽ⟩⟦14⟧⟨ƾ⟩⟦57⟧⟨ƿ⟩⟦160⟧⟨ǀ⟩⟦187⟧⟨ǁ⟩⟦77⟧⟨ǂ⟩⟦235⟧⟨ǃ⟩⟦31⟧⟨Ǆ⟩⟦246⟧⟨ǅ⟩⟦226⟧⟨ǆ⟩⟦40⟧⟨Ǉ⟩⟦153⟧⟨ǈ⟩
+⟨ǉ⟩⟦136⟧⟨Ǌ⟩
+⟦64⟧⟨ǋ⟩⟦44⟧⟨ǌ⟩⟦254⟧⟨Ǎ⟩⟦253⟧⟨ǎ⟩⟦36⟧⟨Ǐ⟩⟦36⟧⟨ǐ⟩⟦160⟧⟨Ǒ⟩⟦80⟧⟨ǒ⟩⟦77⟧⟨Ǔ⟩⟦21⟧⟨ǔ⟩⟦46⟧⟨Ǖ⟩⟦208⟧⟨ǖ⟩⟦135⟧⟨Ǘ⟩⟦157⟧⟨ǘ⟩⟦118⟧⟨Ǚ⟩⟦115⟧⟨ǚ⟩⟦233⟧⟨Ǜ⟩⟦88⟧⟨ǜ⟩⟦244⟧⟨ǝ⟩⟦123⟧⟨Ǟ⟩⟦249⟧⟨ǟ⟩⟦62⟧⟨Ǡ⟩⟦39⟧⟨ǡ⟩⟦145⟧⟨Ǣ⟩⟦243⟧⟨ǣ⟩⟦77⟧⟨Ǥ⟩⟦49⟧⟨ǥ⟩⟦49⟧⟨Ǧ⟩⟦33⟧⟨ǧ⟩⟦156⟧⟨Ǩ⟩⟦70⟧⟨ǩ⟩⟦52⟧⟨Ǫ⟩⟦44⟧⟨ǫ⟩
+⟦190⟧⟨Ǭ⟩⟦77⟧⟨ǭ⟩⟦137⟧⟨Ǯ⟩⟦5⟧⟨ǯ⟩⟦191⟧⟨ǰ⟩⟦77⟧⟨Ǳ⟩⟦124⟧⟨ǲ⟩⟦210⟧⟨ǳ⟩⟦140⟧⟨Ǵ⟩⟦238⟧⟨ǵ⟩⟦138⟧⟨Ƕ⟩⟦97⟧⟨Ƿ⟩
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+约束：
+- 必须先把整个拓扑链从头到尾完整看完，再决定截断片段
+- 每个截断必须是拓扑链中连续的符号序列
+- 多个截断必须按拓扑链中的原始顺序排列（不允许交叉）
+- 不能编造不存在的符号
+- 不能重排符号顺序
+- 段长建议：每个段至少 3 个名词 + 2 个占位符（左右各留 1 个占位符给出上下文）
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨A⟩⟦2⟧ | ⟦3⟧⟨B⟩⟦5⟧
+长段示例：⟦2⟧⟨B⟩⟦3⟧⟨C⟩⟦4⟧⟨D⟩⟦5⟧⟨E⟩⟦6⟧ | ⟦8⟧⟨F⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：
+
+[user]
+
+问题：
+Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network?

@@ -1,0 +1,29 @@
+# 路径一：基于角色描述的交叉验证
+
+步骤1：使用⟦74⟧，提取“David Dunn”这一角色名称，判断其为《Unbreakable》中的角色。
+
+步骤2：综合⟦35⟧⟦50⟧，提取“American actor Bruce Willis”和“Bruce Willis”，确认Bruce Willis是饰演该角色的演员。
+
+步骤3：综合⟦74⟧⟦35⟧，交叉验证：⟦74⟧指出角色名为David Dunn，⟦35⟧指出Bruce Willis是演员，两者结合可确认Bruce Willis在《Unbreakable》中饰演的角色是David Dunn。
+
+结论：Bruce Willis在《Unbreakable》中的角色名是David Dunn。
+
+# 路径二：基于电影与角色关系的推理
+
+步骤1：使用⟦265⟧⟦8⟧，提取“Unbreakable”是一部2000年美国超级英雄惊悚片，确认电影身份。
+
+步骤2：使用⟦235⟧⟦173⟧，提取“the main protagonist”和“protagonist”，判断该角色是电影的主角。
+
+步骤3：综合⟦74⟧⟦235⟧，对比：⟦74⟧明确给出角色名为David Dunn，⟦235⟧指出该角色是主角，两者一致指向同一角色。
+
+结论：Bruce Willis饰演的《Unbreakable》主角名为David Dunn。
+
+# 路径三：基于演员与角色对应关系的推理
+
+步骤1：使用⟦79⟧，提取“Bruce Willis”，确认演员姓名。
+
+步骤2：使用⟦77⟧，提取“portrayed by”，表示角色由某演员饰演。
+
+步骤3：综合⟦74⟧⟦77⟧⟦79⟧，交叉验证：⟦74⟧给出角色David Dunn，⟦77⟧说明该角色由演员饰演，⟦79⟧确认演员为Bruce Willis，三者结合确认Bruce Willis饰演的角色是David Dunn。
+
+结论：Bruce Willis在《Unbreakable》中的角色名为David Dunn。

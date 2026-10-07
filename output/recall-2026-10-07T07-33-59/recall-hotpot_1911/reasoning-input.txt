@@ -1,0 +1,124 @@
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩⟨G⟩
+⟨U⟩⟨V⟩⟦35⟧⟦237⟧⟨W⟩⟨X⟩⟦79⟧⟦79⟧⟨Y⟩⟨Z⟩⟦202⟧⟦149⟧⟨[⟩⟨\⟩⟦6⟧⟨]⟩⟦10⟧⟨^⟩
+⟦173⟧
+⟦214⟧⟦230⟧⟨⟩⟨⟩⟦195⟧⟦76⟧⟨⟩⟨⟩⟦200⟧⟨⟩⟦201⟧
+⟦205⟧⟨ĕ⟩⟨Ė⟩⟦224⟧⟨ė⟩⟦186⟧⟨ę⟩⟨Ę⟩⟨Ě⟩⟨ě⟩⟦1⟧⟨Ĝ⟩
+⟦20⟧ | ⟦102⟧ | ⟦102⟧⟨ĝ⟩⟦193⟧⟨Ğ⟩⟦20⟧⟨ğ⟩⟨Ġ⟩⟨ġ⟩
+⟦204⟧⟦167⟧⟨ĩ⟩⟨Ī⟩⟦38⟧⟨ī⟩⟦210⟧⟦219⟧⟨Ĭ⟩⟨ĭ⟩⟦36⟧ | ⟦167⟧
+⟦37⟧
+⟦128⟧
+⟦223⟧
+⟦127⟧⟦19⟧⟦32⟧ | ⟦32⟧
+⟦222⟧⟦169⟧ | ⟦222⟧
+
+符号表：
+⟦1⟧ = ""The Heiress
+⟦6⟧ = "La Fea Más Bella
+⟦10⟧ = ("The Prettiest Ugly Girl
+⟦19⟧ = a Mexican actress
+⟦20⟧ = a Mexican telenovela
+⟦32⟧ = actress
+⟦35⟧ = almost 30 years
+⟦36⟧ = American Heiress
+⟦37⟧ = an actress
+⟦38⟧ = an American telenovela
+⟦42⟧ = Angélica Vale
+⟦49⟧ = born Angélica María Vale Hartman
+⟦76⟧ = equivalent
+⟦79⟧ = fame
+⟦102⟧ = La Heredera
+⟦127⟧ = Mexico
+⟦128⟧ = Mexico City
+⟦140⟧ = November
+⟦149⟧ = protagonist
+⟦167⟧ = series
+⟦169⟧ = show
+⟦173⟧ = singer
+⟦186⟧ = the 2004 TV Azteca series
+⟦193⟧ = The Heiress
+⟦195⟧ = the Mexican equivalent
+⟦200⟧ = the Oscar
+⟦201⟧ = the Premio Ariel
+⟦202⟧ = the protagonist
+⟦204⟧ = The series
+⟦205⟧ = The show
+⟦210⟧ = the title
+⟦214⟧ = the winner
+⟦219⟧ = title
+⟦222⟧ = TV
+⟦223⟧ = TV Azteca
+⟦224⟧ = Twentieth Television
+⟦230⟧ = winner
+⟦237⟧ = years
+
+占位符映射：
+⟨A⟩ =  (
+⟨B⟩ =  on 
+⟨C⟩ =  11, 1975 in 
+⟨D⟩ = , 
+⟨E⟩ = ) is 
+⟨F⟩ = 
+⟨G⟩ = , 
+⟨U⟩ = 
+⟨V⟩ =  for 
+⟨W⟩ = 
+⟨X⟩ = , but achieved 
+⟨Y⟩ = 
+⟨Z⟩ =  in 2006 when she became 
+⟨[⟩ = 
+⟨\⟩ =  of 
+⟨]⟩ = " 
+⟨^⟩ = "), 
+⟨⟩ = 
+⟨⟩ =  of 
+⟨⟩ = 
+⟨⟩ =  of 
+⟨⟩ = , 
+⟨ĕ⟩ = 
+⟨Ė⟩ =  was produced by 
+⟨ė⟩ = , based on 
+⟨Ę⟩ = 
+⟨ę⟩ =  Azteca 
+⟨Ě⟩ =  "
+⟨ě⟩ = " (
+⟨Ĝ⟩ = "").
+⟨ĝ⟩ =  (
+⟨Ğ⟩ = ) is 
+⟨ğ⟩ =  produced by 
+⟨Ġ⟩ = 
+⟨ġ⟩ = .
+⟨ĩ⟩ = 
+⟨Ī⟩ =  was then developed into 
+⟨ī⟩ =  by 
+⟨Ĭ⟩ = 
+⟨ĭ⟩ =  of "
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What Mexican actress of film, television, and theatre was a protagonist in La Heredera?

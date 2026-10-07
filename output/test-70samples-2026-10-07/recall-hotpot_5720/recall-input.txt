@@ -1,0 +1,322 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Billboard" Hard Rock Albums chart
+⟦2⟧ = "Justice
+⟦3⟧ = 54,000 copies
+⟦4⟧ = a competitive sport
+⟦5⟧ = a main event
+⟦6⟧ = a professional wrestling event
+⟦7⟧ = a professional wrestling promotion
+⟦8⟧ = a professional wrestling show
+⟦9⟧ = a SmackDown branded event
+⟦10⟧ = a storyline expansion
+⟦11⟧ = a survey
+⟦12⟧ = a type
+⟦13⟧ = a wrestling brand
+⟦14⟧ = a WWE "triple-header
+⟦15⟧ = album
+⟦16⟧ = all five taking place
+⟦17⟧ = an indoor arena
+⟦18⟧ = April
+⟦19⟧ = arena
+⟦20⟧ = Armageddon
+⟦21⟧ = AT&T
+⟦22⟧ = August
+⟦23⟧ = band
+⟦24⟧ = banner
+⟦25⟧ = Battle Chamber
+⟦26⟧ = both the WWE Network
+⟦27⟧ = brand
+⟦28⟧ = brands
+⟦29⟧ = Brooklyn
+⟦30⟧ = Brooklyn event
+⟦31⟧ = buildup
+⟦32⟧ = California
+⟦33⟧ = card
+⟦34⟧ = Chamber
+⟦35⟧ = Champions
+⟦36⟧ = championship
+⟦37⟧ = championship matches
+⟦38⟧ = chance
+⟦39⟧ = chart
+⟦40⟧ = chronology
+⟦41⟧ = Clash
+⟦42⟧ = concept
+⟦43⟧ = Conflict
+⟦44⟧ = Connecticut
+⟦45⟧ = copies
+⟦46⟧ = countries
+⟦47⟧ = date
+⟦48⟧ = December
+⟦49⟧ = demand
+⟦50⟧ = Duluth
+⟦51⟧ = each event
+⟦52⟧ = Eight professional wrestling matches
+⟦53⟧ = Elimination Chamber
+⟦54⟧ = employees
+⟦55⟧ = entertainment
+⟦56⟧ = evening
+⟦57⟧ = event
+⟦58⟧ = events
+⟦59⟧ = expansion
+⟦60⟧ = expansions
+⟦61⟧ = extension
+⟦62⟧ = Extreme Rules
+⟦63⟧ = fans
+⟦64⟧ = Fastlane
+⟦65⟧ = February
+⟦66⟧ = Florida
+⟦67⟧ = Full Sail University
+⟦68⟧ = Georgia
+⟦69⟧ = Hangman
+⟦70⟧ = header
+⟦71⟧ = Heavy Metal
+⟦72⟧ = Indiana
+⟦73⟧ = Indianapolis
+⟦74⟧ = input
+⟦75⟧ = Interscope Records
+⟦76⟧ = its inaugural event
+⟦77⟧ = its NXT developmental brand
+⟦78⟧ = its origin
+⟦79⟧ = iTunes
+⟦80⟧ = J Sports
+⟦81⟧ = Japan
+⟦82⟧ = July
+⟦83⟧ = Justice
+⟦84⟧ = league
+⟦85⟧ = Louisiana
+⟦86⟧ = major shows
+⟦87⟧ = match
+⟦88⟧ = matches
+⟦89⟧ = May
+⟦90⟧ = media
+⟦91⟧ = Milwaukee
+⟦92⟧ = name
+⟦93⟧ = network
+⟦94⟧ = New Orleans
+⟦95⟧ = night
+⟦96⟧ = Nine professional wrestling matches
+⟦97⟧ = No Way
+⟦98⟧ = November
+⟦99⟧ = NXT
+⟦100⟧ = NXT Arrival
+⟦101⟧ = October
+⟦102⟧ = one pre-show match
+⟦103⟧ = origin
+⟦104⟧ = other talent
+⟦105⟧ = other various matches
+⟦106⟧ = over 140 countries
+⟦107⟧ = pay
+⟦108⟧ = place
+⟦109⟧ = PlayStation
+⟦110⟧ = PPV
+⟦111⟧ = Professional wrestling
+⟦112⟧ = promotion
+⟦113⟧ = radio
+⟦114⟧ = replays
+⟦115⟧ = rock
+⟦116⟧ = San Diego
+⟦117⟧ = scenarios
+⟦118⟧ = script
+⟦119⟧ = September
+⟦120⟧ = series
+⟦121⟧ = service
+⟦122⟧ = Seven professional wrestling matches
+⟦123⟧ = show
+⟦124⟧ = shows
+⟦125⟧ = single
+⟦126⟧ = slot
+⟦127⟧ = song
+⟦128⟧ = sport
+⟦129⟧ = sports
+⟦130⟧ = sports entertainment
+⟦131⟧ = stage
+⟦132⟧ = stipulations
+⟦133⟧ = storyline expansions
+⟦134⟧ = studio
+⟦135⟧ = subscribers
+⟦136⟧ = suburb
+⟦137⟧ = Sumida
+⟦138⟧ = SummerSlam
+⟦139⟧ = survey
+⟦140⟧ = Taboo
+⟦141⟧ = talent
+⟦142⟧ = Tampa
+⟦143⟧ = television
+⟦144⟧ = the 2015 event
+⟦145⟧ = The album
+⟦146⟧ = the arena
+⟦147⟧ = the Atlanta suburb
+⟦148⟧ = the August event
+⟦149⟧ = the Bankers Life Fieldhouse
+⟦150⟧ = the Barclays Center
+⟦151⟧ = The Beast
+⟦152⟧ = the biggest stage
+⟦153⟧ = the Bradley Center
+⟦154⟧ = The buildup
+⟦155⟧ = the chance
+⟦156⟧ = the Clash
+⟦157⟧ = The concept
+⟦158⟧ = the East
+⟦159⟧ = the Elimination Chamber
+⟦160⟧ = The event
+⟦161⟧ = the event's card
+⟦162⟧ = The event's name
+⟦163⟧ = the fans
+⟦164⟧ = the fifth annual Armageddon event
+⟦165⟧ = the first annual Taboo Tuesday event
+⟦166⟧ = The first Elimination Chamber event
+⟦167⟧ = the first NXT TakeOver
+⟦168⟧ = the first Raw branded event
+⟦169⟧ = The first single
+⟦170⟧ = the first time
+⟦171⟧ = the first WWE event
+⟦172⟧ = the Gwinnett Center
+⟦173⟧ = the iPayOne Center
+⟦174⟧ = the matches
+⟦175⟧ = the Mercedes-Benz Superdome
+⟦176⟧ = the newly vacant WWE Intercontinental Championship
+⟦177⟧ = The NXT TakeOver
+⟦178⟧ = the NXT TakeOver series
+⟦179⟧ = the original No Way Out name
+⟦180⟧ = the promotion
+⟦181⟧ = the Raw brand
+⟦182⟧ = The replays
+⟦183⟧ = the rock band Rev Theory
+⟦184⟧ = the Ryōgoku Kokugikan
+⟦185⟧ = the scenarios
+⟦186⟧ = the second annual Taboo Tuesday event
+⟦187⟧ = the second WWE brand extension
+⟦188⟧ = the secondary theme song
+⟦189⟧ = the series
+⟦190⟧ = the seventh event
+⟦191⟧ = the show
+⟦192⟧ = the SmackDown brand
+⟦193⟧ = The song
+⟦194⟧ = the St. Pete Times Forum
+⟦195⟧ = the third Extreme Rules event
+⟦196⟧ = the third studio album
+⟦197⟧ = the two main event matches
+⟦198⟧ = the two titles
+⟦199⟧ = the United States
+⟦200⟧ = The voting
+⟦201⟧ = the World Heavyweight Championship
+⟦202⟧ = the WWE banner
+⟦203⟧ = the WWE Championship
+⟦204⟧ = the WWE Network
+⟦205⟧ = theatrical events
+⟦206⟧ = their official website
+⟦207⟧ = theme
+⟦208⟧ = these matches
+⟦209⟧ = time
+⟦210⟧ = titles
+⟦211⟧ = Tokyo
+⟦212⟧ = type
+⟦213⟧ = undercard
+⟦214⟧ = view
+⟦215⟧ = voting
+⟦216⟧ = Way
+⟦217⟧ = website
+⟦218⟧ = Wisconsin
+⟦219⟧ = World Wrestling Entertainment
+⟦220⟧ = WrestleMania
+⟦221⟧ = WrestleMania XXX
+⟦222⟧ = wrestlers
+⟦223⟧ = wrestling
+⟦224⟧ = wrestling brands
+⟦225⟧ = writers
+⟦226⟧ = WWE
+⟦227⟧ = WWE Network event
+⟦228⟧ = WWE's developmental league NXT
+⟦229⟧ = WWE's Extreme Rules
+⟦230⟧ = WWE's new streaming media service
+⟦231⟧ = WWE's script writers
+⟦232⟧ = WWE's SmackDown
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[NXT TakeOver: Brooklyn] ⟨1⟩⟦29⟧⟨2⟩⟦8⟧⟨3⟩⟦223⟧⟨4⟩⟦123⟧⟨5⟩⟦178⟧⟨6⟩⟦120⟧⟨7⟩⟦108⟧⟨8⟩⟦108⟧⟨9⟩⟦22⟧⟨10⟩
+[NXT TakeOver: Brooklyn] ⟦177⟧⟨11⟩⟦30⟧⟨12⟩⟦57⟧⟨13⟩⟦226⟧⟨14⟩⟦77⟧⟨15⟩⟦27⟧⟨16⟩⟦204⟧⟨17⟩
+[NXT TakeOver: Brooklyn] ⟦160⟧⟨18⟩⟦57⟧⟨19⟩⟦108⟧⟨20⟩⟦108⟧⟨21⟩⟦150⟧⟨22⟩⟦29⟧⟨23⟩⟦95⟧⟨24⟩⟦14⟧⟨25⟩⟦70⟧⟨26⟩⟦146⟧⟨27⟩⟦19⟧⟨28⟩⟦138⟧⟨29⟩⟦108⟧⟨30⟩⟦108⟧⟨31⟩⟦56⟧⟨32⟩⟦95⟧⟨33⟩
+[NXT TakeOver: Brooklyn] ⟨34⟩⟦167⟧⟨35⟩⟦67⟧⟨36⟩⟦226⟧⟨37⟩⟦99⟧⟨38⟩⟦152⟧⟨39⟩⟦131⟧⟨40⟩
+[NXT TakeOver: Brooklyn] ⟨41⟩⟦100⟧⟨42⟩⟦65⟧⟨43⟩⟦228⟧⟨44⟩⟦84⟧⟨45⟩⟦86⟧⟨46⟩⟦124⟧⟨47⟩⟦204⟧⟨48⟩⟦93⟧⟨49⟩⟦148⟧⟨50⟩⟦57⟧⟨51⟩⟦190⟧⟨52⟩⟦57⟧⟨53⟩⟦189⟧⟨54⟩⟦120⟧⟨55⟩
+[Justice (Rev Theory album)] ⟦83⟧⟨56⟩⟦83⟧⟨57⟩⟦196⟧⟨58⟩⟦134⟧⟨59⟩⟦15⟧⟨60⟩⟦183⟧⟨61⟩⟦115⟧⟨62⟩⟦23⟧⟨63⟩⟦65⟧⟨64⟩⟦75⟧⟨65⟩
+[Justice (Rev Theory album)] ⟦169⟧⟨66⟩⟦125⟧⟨67⟩⟦2⟧⟨68⟩⟦79⟧⟨69⟩⟦113⟧⟨70⟩⟦113⟧⟨71⟩⟦101⟧⟨72⟩
+[Justice (Rev Theory album)] ⟦2⟧⟨73⟩⟦83⟧⟨74⟩⟦1⟧⟨75⟩⟦39⟧⟨76⟩
+[Justice (Rev Theory album)] ⟦145⟧⟨77⟩⟦15⟧⟨78⟩⟦3⟧⟨79⟩⟦45⟧⟨80⟩⟦199⟧⟨81⟩⟦47⟧⟨82⟩⟦47⟧⟨83⟩
+[Justice (Rev Theory album)] ⟦193⟧⟨84⟩⟦127⟧⟨85⟩⟦83⟧⟨86⟩⟦229⟧⟨87⟩
+[Justice (Rev Theory album)] ⟦193⟧⟨88⟩⟦127⟧⟨89⟩⟦69⟧⟨90⟩⟦188⟧⟨91⟩⟦207⟧⟨92⟩⟦127⟧⟨93⟩⟦232⟧⟨94⟩
+[Clash of Champions (2016)] ⟦41⟧⟨95⟩⟦35⟧⟨96⟩⟦223⟧⟨97⟩⟦214⟧⟨98⟩⟦214⟧⟨99⟩⟦57⟧⟨100⟩⟦227⟧⟨101⟩⟦57⟧⟨102⟩⟦226⟧⟨103⟩
+[Clash of Champions (2016)] ⟨104⟩⟦108⟧⟨105⟩⟦108⟧⟨106⟩⟦119⟧⟨107⟩⟦149⟧⟨108⟩⟦73⟧⟨109⟩⟦72⟧⟨110⟩
+[Clash of Champions (2016)] ⟨111⟩⟦171⟧⟨112⟩⟦57⟧⟨113⟩⟦156⟧⟨114⟩⟦35⟧⟨115⟩⟦40⟧⟨116⟩⟦40⟧⟨117⟩⟦95⟧⟨118⟩⟦35⟧⟨119⟩
+[Clash of Champions (2016)] ⟨120⟩⟦168⟧⟨121⟩⟦57⟧⟨122⟩⟦187⟧⟨123⟩⟦27⟧⟨124⟩⟦61⟧⟨125⟩⟦82⟧⟨126⟩
+[Taboo Tuesday (2005)] ⟦140⟧⟨127⟩⟦223⟧⟨128⟩⟦214⟧⟨129⟩⟦214⟧⟨130⟩⟦57⟧⟨131⟩⟦219⟧⟨132⟩⟦226⟧⟨133⟩⟦108⟧⟨134⟩⟦108⟧⟨135⟩⟦98⟧⟨136⟩⟦173⟧⟨137⟩⟦116⟧⟨138⟩⟦32⟧⟨139⟩
+[Taboo Tuesday (2005)] ⟨140⟩⟦186⟧⟨141⟩⟦57⟧⟨142⟩⟦163⟧⟨143⟩⟦63⟧⟨144⟩⟦155⟧⟨145⟩⟦38⟧⟨146⟩⟦132⟧⟨147⟩⟦132⟧⟨148⟩⟦174⟧⟨149⟩⟦88⟧⟨150⟩
+[Taboo Tuesday (2005)] ⟦200⟧⟨151⟩⟦215⟧⟨152⟩⟦160⟧⟨153⟩⟦57⟧⟨154⟩⟦101⟧⟨155⟩⟦160⟧⟨156⟩⟦57⟧⟨157⟩
+[Taboo Tuesday (2005)] ⟦52⟧⟨158⟩⟦223⟧⟨159⟩⟦88⟧⟨160⟩⟦161⟧⟨161⟩⟦57⟧⟨162⟩⟦33⟧⟨163⟩
+[Taboo Tuesday (2005)] ⟦154⟧⟨164⟩⟦31⟧⟨165⟩⟦174⟧⟨166⟩⟦88⟧⟨167⟩⟦185⟧⟨168⟩⟦117⟧⟨169⟩⟦108⟧⟨170⟩⟦108⟧⟨171⟩⟦160⟧⟨172⟩⟦57⟧⟨173⟩⟦231⟧⟨174⟩⟦118⟧⟨175⟩⟦225⟧⟨176⟩
+[Taboo Tuesday (2005)] ⟦160⟧⟨177⟩⟦57⟧⟨178⟩⟦222⟧⟨179⟩⟦222⟧⟨180⟩⟦181⟧⟨181⟩⟦27⟧⟨182⟩⟦10⟧⟨183⟩⟦59⟧⟨184⟩⟦180⟧⟨185⟩⟦112⟧⟨186⟩⟦54⟧⟨187⟩⟦54⟧⟨188⟩⟦13⟧⟨189⟩⟦223⟧⟨190⟩⟦27⟧⟨191⟩⟦202⟧⟨192⟩⟦24⟧⟨193⟩
+[WrestleMania XXX] ⟦221⟧⟨194⟩⟦220⟧⟨195⟩⟦223⟧⟨196⟩⟦214⟧⟨197⟩⟦214⟧⟨198⟩⟦57⟧⟨199⟩⟦226⟧⟨200⟩
+[WrestleMania XXX] ⟨201⟩⟦108⟧⟨202⟩⟦108⟧⟨203⟩⟦18⟧⟨204⟩⟦175⟧⟨205⟩⟦94⟧⟨206⟩⟦85⟧⟨207⟩
+[WrestleMania XXX] ⟨208⟩⟦171⟧⟨209⟩⟦57⟧⟨210⟩⟦107⟧⟨211⟩⟦214⟧⟨212⟩⟦214⟧⟨213⟩⟦143⟧⟨214⟩⟦230⟧⟨215⟩⟦90⟧⟨216⟩⟦121⟧⟨217⟩⟦204⟧⟨218⟩
+[WrestleMania XXX] ⟦122⟧⟨219⟩⟦223⟧⟨220⟩⟦88⟧⟨221⟩⟦161⟧⟨222⟩⟦57⟧⟨223⟩⟦33⟧⟨224⟩⟦102⟧⟨225⟩⟦87⟧⟨226⟩⟦204⟧⟨227⟩
+[Taboo Tuesday (2004)] ⟦140⟧⟨228⟩⟦223⟧⟨229⟩⟦214⟧⟨230⟩⟦214⟧⟨231⟩⟦57⟧⟨232⟩⟦219⟧⟨233⟩⟦226⟧⟨234⟩⟦21⟧⟨235⟩⟦108⟧⟨236⟩⟦108⟧⟨237⟩⟦101⟧⟨238⟩⟦153⟧⟨239⟩⟦91⟧⟨240⟩⟦218⟧⟨241⟩
+[Taboo Tuesday (2004)] ⟨242⟩⟦165⟧⟨243⟩⟦57⟧⟨244⟩⟦170⟧⟨245⟩⟦209⟧⟨246⟩⟦163⟧⟨247⟩⟦63⟧⟨248⟩⟦155⟧⟨249⟩⟦38⟧⟨250⟩⟦132⟧⟨251⟩⟦132⟧⟨252⟩⟦174⟧⟨253⟩⟦88⟧⟨254⟩
+[Taboo Tuesday (2004)] ⟦200⟧⟨255⟩⟦215⟧⟨256⟩⟦160⟧⟨257⟩⟦57⟧⟨258⟩⟦101⟧⟨259⟩⟦160⟧⟨260⟩⟦57⟧⟨261⟩
+[Taboo Tuesday (2004)] ⟦52⟧⟨262⟩⟦223⟧⟨263⟩⟦88⟧⟨264⟩⟦161⟧⟨265⟩⟦57⟧⟨266⟩⟦33⟧⟨267⟩
+[Taboo Tuesday (2004)] ⟦154⟧⟨268⟩⟦31⟧⟨269⟩⟦174⟧⟨270⟩⟦88⟧⟨271⟩⟦185⟧⟨272⟩⟦117⟧⟨273⟩⟦108⟧⟨274⟩⟦108⟧⟨275⟩⟦160⟧⟨276⟩⟦57⟧⟨277⟩⟦231⟧⟨278⟩⟦118⟧⟨279⟩⟦225⟧⟨280⟩
+[Taboo Tuesday (2004)] ⟦160⟧⟨281⟩⟦57⟧⟨282⟩⟦222⟧⟨283⟩⟦222⟧⟨284⟩⟦181⟧⟨285⟩⟦27⟧⟨286⟩⟦10⟧⟨287⟩⟦59⟧⟨288⟩⟦180⟧⟨289⟩⟦112⟧⟨290⟩⟦54⟧⟨291⟩⟦54⟧⟨292⟩⟦13⟧⟨293⟩⟦223⟧⟨294⟩⟦27⟧⟨295⟩⟦202⟧⟨296⟩⟦24⟧⟨297⟩
+[The Beast in the East] ⟦151⟧⟨298⟩⟦158⟧⟨299⟩⟦6⟧⟨300⟩⟦223⟧⟨301⟩⟦57⟧⟨302⟩⟦226⟧⟨303⟩
+[The Beast in the East] ⟨304⟩⟦108⟧⟨305⟩⟦108⟧⟨306⟩⟦82⟧⟨307⟩⟦184⟧⟨308⟩⟦137⟧⟨309⟩⟦211⟧⟨310⟩⟦81⟧⟨311⟩
+[The Beast in the East] ⟨312⟩⟦204⟧⟨313⟩⟦80⟧⟨314⟩⟦81⟧⟨315⟩
+[The Beast in the East] ⟦182⟧⟨316⟩⟦114⟧⟨317⟩⟦160⟧⟨318⟩⟦57⟧⟨319⟩⟦80⟧⟨320⟩⟦81⟧⟨321⟩
+[The Beast in the East] ⟨322⟩⟦49⟧⟨323⟩⟦49⟧⟨324⟩⟦26⟧⟨325⟩⟦80⟧⟨326⟩
+[The Beast in the East] ⟨327⟩⟦171⟧⟨328⟩⟦57⟧⟨329⟩⟦81⟧⟨330⟩
+[The Beast in the East] ⟦151⟧⟨331⟩⟦158⟧⟨332⟩⟦135⟧⟨333⟩⟦135⟧⟨334⟩⟦204⟧⟨335⟩⟦106⟧⟨336⟩⟦46⟧⟨337⟩
+[Extreme Rules (2011)] ⟦62⟧⟨338⟩⟦223⟧⟨339⟩⟦214⟧⟨340⟩⟦214⟧⟨341⟩⟦57⟧⟨342⟩⟦226⟧⟨343⟩⟦108⟧⟨344⟩⟦108⟧⟨345⟩⟦89⟧⟨346⟩⟦194⟧⟨347⟩⟦142⟧⟨348⟩⟦66⟧⟨349⟩
+[Extreme Rules (2011)] ⟨350⟩⟦195⟧⟨351⟩⟦57⟧⟨352⟩
+[Armageddon (2004)] ⟦20⟧⟨353⟩⟦223⟧⟨354⟩⟦214⟧⟨355⟩⟦214⟧⟨356⟩⟦57⟧⟨357⟩⟦219⟧⟨358⟩⟦226⟧⟨359⟩
+[Armageddon (2004)] ⟨360⟩⟦109⟧⟨361⟩⟦108⟧⟨362⟩⟦108⟧⟨363⟩⟦48⟧⟨364⟩⟦172⟧⟨365⟩⟦147⟧⟨366⟩⟦136⟧⟨367⟩⟦50⟧⟨368⟩⟦68⟧⟨369⟩
+[Armageddon (2004)] ⟦96⟧⟨370⟩⟦223⟧⟨371⟩⟦88⟧⟨372⟩⟦161⟧⟨373⟩⟦57⟧⟨374⟩⟦33⟧⟨375⟩
+[Armageddon (2004)] ⟦160⟧⟨376⟩⟦57⟧⟨377⟩⟦222⟧⟨378⟩⟦222⟧⟨379⟩⟦104⟧⟨380⟩⟦141⟧⟨381⟩⟦232⟧⟨382⟩
+[Armageddon (2004)] ⟦27⟧⟨383⟩⟦27⟧⟨384⟩
+[Armageddon (2004)] ⟨385⟩⟦164⟧⟨386⟩⟦57⟧⟨387⟩
+[Armageddon (2004)] ⟦111⟧⟨388⟩⟦223⟧⟨389⟩⟦12⟧⟨390⟩⟦212⟧⟨391⟩⟦129⟧⟨392⟩⟦130⟧⟨393⟩⟦55⟧⟨394⟩⟦205⟧⟨395⟩⟦58⟧⟨396⟩⟦4⟧⟨397⟩⟦128⟧⟨398⟩
+[Armageddon (2004)] ⟦154⟧⟨399⟩⟦31⟧⟨400⟩⟦174⟧⟨401⟩⟦88⟧⟨402⟩⟦185⟧⟨403⟩⟦117⟧⟨404⟩⟦108⟧⟨405⟩⟦108⟧⟨406⟩⟦160⟧⟨407⟩⟦57⟧⟨408⟩⟦231⟧⟨409⟩⟦118⟧⟨410⟩⟦225⟧⟨411⟩
+[Armageddon (2004)] ⟦160⟧⟨412⟩⟦57⟧⟨413⟩⟦222⟧⟨414⟩⟦222⟧⟨415⟩⟦192⟧⟨416⟩⟦27⟧⟨417⟩⟦133⟧⟨418⟩⟦60⟧⟨419⟩⟦180⟧⟨420⟩⟦112⟧⟨421⟩⟦54⟧⟨422⟩⟦54⟧⟨423⟩⟦223⟧⟨424⟩⟦224⟧⟨425⟩⟦28⟧⟨426⟩⟦202⟧⟨427⟩⟦24⟧⟨428⟩
+[WWE Elimination Chamber] ⟦53⟧⟨429⟩⟦223⟧⟨430⟩⟦214⟧⟨431⟩⟦214⟧⟨432⟩⟦57⟧⟨433⟩⟦226⟧⟨434⟩⟦7⟧⟨435⟩⟦223⟧⟨436⟩⟦112⟧⟨437⟩⟦44⟧⟨438⟩
+[WWE Elimination Chamber] ⟦160⟧⟨439⟩⟦57⟧⟨440⟩⟦76⟧⟨441⟩⟦57⟧⟨442⟩⟦108⟧⟨443⟩⟦108⟧⟨444⟩⟦65⟧⟨445⟩⟦97⟧⟨446⟩⟦216⟧⟨447⟩
+[WWE Elimination Chamber] ⟦160⟧⟨448⟩⟦57⟧⟨449⟩⟦9⟧⟨450⟩⟦57⟧⟨451⟩
+[WWE Elimination Chamber] ⟦53⟧⟨452⟩⟦214⟧⟨453⟩⟦214⟧⟨454⟩⟦57⟧⟨455⟩⟦5⟧⟨456⟩⟦57⟧⟨457⟩⟦213⟧⟨458⟩⟦213⟧⟨459⟩⟦36⟧⟨460⟩⟦37⟧⟨461⟩⟦88⟧⟨462⟩⟦105⟧⟨463⟩⟦88⟧⟨464⟩
+[WWE Elimination Chamber] ⟦157⟧⟨465⟩⟦42⟧⟨466⟩⟦191⟧⟨467⟩⟦123⟧⟨468⟩⟦197⟧⟨469⟩⟦57⟧⟨470⟩⟦88⟧⟨471⟩⟦159⟧⟨472⟩⟦208⟧⟨473⟩⟦88⟧⟨474⟩⟦203⟧⟨475⟩⟦201⟧⟨476⟩⟦198⟧⟨477⟩⟦210⟧⟨478⟩⟦48⟧⟨479⟩
+[WWE Elimination Chamber] ⟦166⟧⟨480⟩⟦57⟧⟨481⟩⟦108⟧⟨482⟩⟦108⟧⟨483⟩⟦65⟧⟨484⟩⟦110⟧⟨485⟩
+[WWE Elimination Chamber] ⟦162⟧⟨486⟩⟦57⟧⟨487⟩⟦92⟧⟨488⟩⟦226⟧⟨489⟩⟦63⟧⟨490⟩⟦63⟧⟨491⟩⟦74⟧⟨492⟩⟦74⟧⟨493⟩⟦11⟧⟨494⟩⟦139⟧⟨495⟩⟦206⟧⟨496⟩⟦217⟧⟨497⟩⟦71⟧⟨498⟩⟦25⟧⟨499⟩⟦34⟧⟨500⟩⟦43⟧⟨501⟩⟦179⟧⟨502⟩⟦216⟧⟨503⟩⟦92⟧⟨504⟩
+[WWE Elimination Chamber] ⟨505⟩⟦78⟧⟨506⟩⟦103⟧⟨507⟩⟦51⟧⟨508⟩⟦57⟧⟨509⟩⟦17⟧⟨510⟩⟦19⟧⟨511⟩⟦16⟧⟨512⟩⟦108⟧⟨513⟩⟦199⟧⟨514⟩
+[WWE Elimination Chamber] ⟨515⟩⟦160⟧⟨516⟩⟦57⟧⟨517⟩⟦64⟧⟨518⟩⟦214⟧⟨519⟩⟦214⟧⟨520⟩⟦126⟧⟨521⟩
+[WWE Elimination Chamber] ⟨522⟩⟦144⟧⟨523⟩⟦57⟧⟨524⟩⟦204⟧⟨525⟩⟦199⟧⟨526⟩⟦89⟧⟨527⟩⟦110⟧⟨528⟩⟦110⟧⟨529⟩
+[WWE Elimination Chamber] ⟦226⟧⟨530⟩⟦176⟧⟨531⟩⟦159⟧⟨532⟩
+
+[user]
+
+问题：
+The song Justice was used for a WWE event that took place on what day ?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

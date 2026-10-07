@@ -1,0 +1,103 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[AMC Theatres] ⟨170⟩⟨171⟩⟦107⟧⟦14⟧⟨172⟩⟨173⟩⟦20⟧⟨174⟩⟨175⟩⟦129⟧⟦56⟧⟨176⟩⟨177⟩⟦16⟧⟨178⟩⟦21⟧⟨180⟩⟨181⟩⟨179⟩⟨182⟩⟦18⟧⟨183⟩⟦17⟧⟨184⟩⟦96⟧⟨185⟩⟦35⟧⟦52⟧⟨187⟩⟨186⟩
+[AMC Theatres] ⟦15⟧⟦162⟧
+[Cineplex Odeon Corporation] ⟦42⟧⟨211⟩⟦103⟧⟦101⟧⟨213⟩⟦163⟧⟨214⟩⟦106⟧⟨212⟩⟨215⟩⟦164⟧⟦164⟧⟨216⟩⟨217⟩⟦83⟧⟦78⟧⟨219⟩⟦57⟧⟨218⟩⟨220⟩⟨221⟩⟨222⟩ | ⟦101⟧⟦164⟧
+[Cineplex Odeon Corporation] ⟦30⟧⟦157⟧ | ⟦141⟧⟨223⟩⟦41⟧⟨224⟩⟦30⟧⟨225⟩⟦19⟧⟨226⟩⟦157⟧⟨227⟩ | ⟦19⟧
+[Cineplex Odeon Films] ⟦32⟧
+
+符号表：
+⟦14⟧ = abbreviation
+⟦15⟧ = AMC
+⟦16⟧ = AMC Cinemas
+⟦17⟧ = AMC Entertainment Holdings, Inc.
+⟦18⟧ = AMC Entertainment Inc.
+⟦19⟧ = AMC Theatres
+⟦20⟧ = American Multi-Cinema
+⟦21⟧ = an American movie theater chain
+⟦30⟧ = Canada
+⟦32⟧ = chain
+⟦35⟧ = Chinese conglomerate Dalian Wanda Group
+⟦41⟧ = Cineplex Entertainment
+⟦42⟧ = Cineplex Odeon Corporation
+⟦52⟧ = conglomerate
+⟦56⟧ = countries
+⟦57⟧ = country
+⟦78⟧ = home
+⟦83⟧ = its home country
+⟦96⟧ = majority
+⟦101⟧ = movie
+⟦103⟧ = North America's largest movie theatre operators
+⟦106⟧ = operators
+⟦107⟧ = originally an abbreviation
+⟦129⟧ = some countries
+⟦141⟧ = The Cineplex Odeon Theatres
+⟦157⟧ = the United States
+⟦162⟧ = theater
+⟦163⟧ = theatre
+⟦164⟧ = Theatres
+
+占位符映射：
+⟨170⟩ = 
+⟨171⟩ =  (
+⟨172⟩ = 
+⟨173⟩ =  for 
+⟨174⟩ = , often referred to simply as 
+⟨175⟩ =  and known in 
+⟨176⟩ = 
+⟨177⟩ =  as 
+⟨178⟩ = ) is 
+⟨179⟩ = 
+⟨180⟩ =  
+⟨181⟩ =  
+⟨182⟩ =  owned and operated by 
+⟨183⟩ = , which is itself owned by 
+⟨184⟩ = , 
+⟨185⟩ = -owned by 
+⟨186⟩ = 
+⟨187⟩ =  Dalian Wanda Group.
+⟨211⟩ =  was one of 
+⟨212⟩ = 
+⟨213⟩ =  
+⟨214⟩ =  
+⟨215⟩ = , with 
+⟨216⟩ = 
+⟨217⟩ =  in 
+⟨218⟩ = 
+⟨219⟩ =  
+⟨220⟩ =  of 
+⟨221⟩ =  and 
+⟨222⟩ = .
+⟨223⟩ =  are now operated by 
+⟨224⟩ =  in 
+⟨225⟩ =  and as 
+⟨226⟩ =  in 
+⟨227⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The Cineplex Odeon Theatres are now operated as which American movie theater chain majority-owned by Chinese conglomerate Dalian Wanda Group?

@@ -1,0 +1,211 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (2011 population
+⟦2⟧ = 1,287m elevation
+⟦3⟧ = 12,527 people
+⟦4⟧ = 13 km
+⟦5⟧ = 171 people
+⟦6⟧ = 19 km
+⟦7⟧ = 2011 population
+⟦8⟧ = 3051 km2
+⟦9⟧ = 4 km
+⟦10⟧ = 573 people
+⟦11⟧ = 58 km
+⟦12⟧ = 9,629 people
+⟦13⟧ = a 420 km state highway
+⟦14⟧ = a local government area
+⟦15⟧ = a population
+⟦16⟧ = a rural village
+⟦17⟧ = a small rural village
+⟦18⟧ = a three-hour drive
+⟦19⟧ = a town
+⟦20⟧ = a valley
+⟦21⟧ = a village
+⟦22⟧ = Alstonville
+⟦23⟧ = an area
+⟦24⟧ = an east-west link
+⟦25⟧ = area
+⟦26⟧ = Armidale
+⟦27⟧ = Arrawatta County
+⟦28⟧ = Australia
+⟦29⟧ = Ballina
+⟦30⟧ = banks
+⟦31⟧ = Bonshaw
+⟦32⟧ = border
+⟦33⟧ = Brisbane
+⟦34⟧ = Bruxner Highway
+⟦35⟧ = Byron Bay
+⟦36⟧ = capital
+⟦37⟧ = Casino
+⟦38⟧ = census
+⟦39⟧ = centre
+⟦40⟧ = city
+⟦41⟧ = coast
+⟦42⟧ = council
+⟦43⟧ = district
+⟦44⟧ = drive
+⟦45⟧ = east
+⟦46⟧ = elevation
+⟦47⟧ = Goondiwindi
+⟦48⟧ = Goonellabah
+⟦49⟧ = government
+⟦50⟧ = Highway
+⟦51⟧ = holdings
+⟦52⟧ = hour
+⟦53⟧ = hours
+⟦54⟧ = intersection
+⟦55⟧ = Inverell Shire
+⟦56⟧ = its name
+⟦57⟧ = junction
+⟦58⟧ = kilometres
+⟦59⟧ = km
+⟦60⟧ = km2
+⟦61⟧ = Kyogle
+⟦62⟧ = Kyogle Council
+⟦63⟧ = line
+⟦64⟧ = link
+⟦65⟧ = Lismore
+⟦66⟧ = management
+⟦67⟧ = Mummulgum
+⟦68⟧ = name
+⟦69⟧ = needs
+⟦70⟧ = New South Wales
+⟦71⟧ = north
+⟦72⟧ = north-eastern New South Wales
+⟦73⟧ = northern New South Wales
+⟦74⟧ = Pacific Highway
+⟦75⟧ = part
+⟦76⟧ = people
+⟦77⟧ = plateau
+⟦78⟧ = population
+⟦79⟧ = Queensland
+⟦80⟧ = railway
+⟦81⟧ = region
+⟦82⟧ = Richmond Valley Council
+⟦83⟧ = RVC
+⟦84⟧ = RVC services
+⟦85⟧ = service
+⟦86⟧ = services
+⟦87⟧ = Shannon Brook
+⟦88⟧ = south-west
+⟦89⟧ = state
+⟦90⟧ = states
+⟦91⟧ = suburb
+⟦92⟧ = surrounding area
+⟦93⟧ = Sydney
+⟦94⟧ = Tabulam
+⟦95⟧ = Tenterfield
+⟦96⟧ = Texas
+⟦97⟧ = the 2006 Census
+⟦98⟧ = the 2011 census
+⟦99⟧ = the 2015 census
+⟦100⟧ = the agricultural holdings
+⟦101⟧ = the Alstonville Plateau
+⟦102⟧ = The area
+⟦103⟧ = the banks
+⟦104⟧ = the border
+⟦105⟧ = the Bruxner Highway
+⟦106⟧ = the Clarence River
+⟦107⟧ = the council area
+⟦108⟧ = the district
+⟦109⟧ = the Dumaresq River
+⟦110⟧ = the east
+⟦111⟧ = the eastern suburb
+⟦112⟧ = the far north-east
+⟦113⟧ = the Great Dividing Range
+⟦114⟧ = The highway
+⟦115⟧ = the imposing Mount MacKenzie
+⟦116⟧ = the intersection
+⟦117⟧ = the junction
+⟦118⟧ = The nearest large town
+⟦119⟧ = the needs
+⟦120⟧ = the New England
+⟦121⟧ = the New England region
+⟦122⟧ = the North Coast railway line
+⟦123⟧ = the north-western part
+⟦124⟧ = the northern border
+⟦125⟧ = the Northern Rivers
+⟦126⟧ = the Northern Rivers area
+⟦127⟧ = the Northern Rivers coast
+⟦128⟧ = the Northern Rivers region
+⟦129⟧ = the Northern Tableland plateau
+⟦130⟧ = the Northern Tablelands
+⟦131⟧ = the region
+⟦132⟧ = the Richmond River
+⟦133⟧ = the service centre
+⟦134⟧ = the State
+⟦135⟧ = the state capital
+⟦136⟧ = the states
+⟦137⟧ = the Summerland Way
+⟦138⟧ = The town
+⟦139⟧ = the towns
+⟦140⟧ = the village
+⟦141⟧ = the west
+⟦142⟧ = town
+⟦143⟧ = towns
+⟦144⟧ = valley
+⟦145⟧ = village
+⟦146⟧ = west
+⟦147⟧ = Wollongbar
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Richmond Valley Council] ⟦82⟧⟨1⟩⟦83⟧⟨2⟩⟦14⟧⟨3⟩⟦49⟧⟨4⟩⟦25⟧⟨5⟩⟦128⟧⟨6⟩⟦81⟧⟨7⟩⟦71⟧⟨8⟩⟦72⟧⟨9⟩⟦28⟧⟨10⟩
+[Richmond Valley Council] ⟦84⟧⟨11⟩⟦86⟧⟨12⟩⟦23⟧⟨13⟩⟦25⟧⟨14⟩⟦8⟧⟨15⟩⟦60⟧⟨16⟩⟦56⟧⟨17⟩⟦68⟧⟨18⟩⟦132⟧⟨19⟩⟦107⟧⟨20⟩⟦42⟧⟨21⟩⟦25⟧⟨22⟩
+[Richmond Valley Council] ⟦102⟧⟨23⟩⟦25⟧⟨24⟩⟦66⟧⟨25⟩⟦66⟧⟨26⟩⟦105⟧⟨27⟩⟦74⟧⟨28⟩⟦122⟧⟨29⟩⟦80⟧⟨30⟩⟦63⟧⟨31⟩
+[Wollongbar, New South Wales] ⟦147⟧⟨32⟩⟦19⟧⟨33⟩⟦142⟧⟨34⟩⟦7⟧⟨35⟩⟦78⟧⟨36⟩⟦128⟧⟨37⟩⟦81⟧⟨38⟩⟦70⟧⟨39⟩⟦28⟧⟨40⟩
+[Wollongbar, New South Wales] ⟦138⟧⟨41⟩⟦142⟧⟨42⟩⟦105⟧⟨43⟩⟦139⟧⟨44⟩⟦143⟧⟨45⟩⟦65⟧⟨46⟩⟦22⟧⟨47⟩
+[Casino, New South Wales] ⟦37⟧⟨48⟩⟦37⟧⟨49⟩⟦19⟧⟨50⟩⟦142⟧⟨51⟩⟦126⟧⟨52⟩⟦25⟧⟨53⟩⟦70⟧⟨54⟩⟦28⟧⟨55⟩⟦15⟧⟨56⟩⟦78⟧⟨57⟩⟦12⟧⟨58⟩⟦76⟧⟨59⟩⟦98⟧⟨60⟩⟦38⟧⟨61⟩
+[Casino, New South Wales] ⟨62⟩⟦103⟧⟨63⟩⟦30⟧⟨64⟩⟦132⟧⟨65⟩⟦117⟧⟨66⟩⟦57⟧⟨67⟩⟦105⟧⟨68⟩⟦137⟧⟨69⟩
+[Tabulam] ⟦94⟧⟨70⟩⟦16⟧⟨71⟩⟦145⟧⟨72⟩⟦112⟧⟨73⟩⟦71⟧⟨74⟩⟦45⟧⟨75⟩⟦70⟧⟨76⟩⟦28⟧⟨77⟩⟦58⟧⟨78⟩⟦135⟧⟨79⟩⟦89⟧⟨80⟩⟦36⟧⟨81⟩⟦93⟧⟨82⟩
+[Tabulam] ⟦94⟧⟨83⟩⟦105⟧⟨84⟩⟦50⟧⟨85⟩⟦95⟧⟨86⟩⟦37⟧⟨87⟩⟦106⟧⟨88⟩
+[Tabulam] ⟨89⟩⟦97⟧⟨90⟩⟦10⟧⟨91⟩⟦76⟧⟨92⟩⟦94⟧⟨93⟩
+[Tabulam] ⟦94⟧⟨94⟩⟦62⟧⟨95⟩
+[Mummulgum] ⟦67⟧⟨96⟩⟦17⟧⟨97⟩⟦145⟧⟨98⟩⟦128⟧⟨99⟩⟦81⟧⟨100⟩⟦70⟧⟨101⟩⟦28⟧⟨102⟩⟦58⟧⟨103⟩⟦135⟧⟨104⟩⟦89⟧⟨105⟩⟦36⟧⟨106⟩⟦93⟧⟨107⟩
+[Mummulgum] ⟦67⟧⟨108⟩⟦87⟧⟨109⟩⟦95⟧⟨110⟩⟦37⟧⟨111⟩⟦105⟧⟨112⟩⟦50⟧⟨113⟩
+[Mummulgum] ⟨114⟩⟦11⟧⟨115⟩⟦59⟧⟨116⟩⟦88⟧⟨117⟩⟦146⟧⟨118⟩⟦61⟧⟨119⟩⟦140⟧⟨120⟩⟦145⟧⟨121⟩⟦92⟧⟨122⟩⟦25⟧⟨123⟩⟦62⟧⟨124⟩
+[Mummulgum] ⟦118⟧⟨125⟩⟦142⟧⟨126⟩⟦37⟧⟨127⟩⟦37⟧⟨128⟩⟦58⟧⟨129⟩⟦67⟧⟨130⟩
+[Bruxner Highway] ⟦105⟧⟨131⟩⟦13⟧⟨132⟩⟦59⟧⟨133⟩⟦89⟧⟨134⟩⟦50⟧⟨135⟩⟦70⟧⟨136⟩⟦28⟧⟨137⟩
+[Bruxner Highway] ⟦114⟧⟨138⟩⟦50⟧⟨139⟩⟦24⟧⟨140⟩⟦146⟧⟨141⟩⟦64⟧⟨142⟩⟦127⟧⟨143⟩⟦41⟧⟨144⟩⟦130⟧⟨145⟩⟦73⟧⟨146⟩⟦104⟧⟨147⟩⟦32⟧⟨148⟩⟦79⟧⟨149⟩
+[Alstonville, New South Wales] ⟦22⟧⟨150⟩⟦1⟧⟨151⟩⟦78⟧⟨152⟩⟦19⟧⟨153⟩⟦142⟧⟨154⟩⟦73⟧⟨155⟩⟦28⟧⟨156⟩⟦75⟧⟨157⟩⟦75⟧⟨158⟩⟦131⟧⟨159⟩⟦81⟧⟨160⟩⟦125⟧⟨161⟩
+[Alstonville, New South Wales] ⟦22⟧⟨162⟩⟦105⟧⟨163⟩⟦138⟧⟨164⟩⟦142⟧⟨165⟩⟦29⟧⟨166⟩⟦4⟧⟨167⟩⟦59⟧⟨168⟩⟦110⟧⟨169⟩⟦45⟧⟨170⟩⟦40⟧⟨171⟩⟦40⟧⟨172⟩⟦65⟧⟨173⟩⟦6⟧⟨174⟩⟦59⟧⟨175⟩⟦141⟧⟨176⟩⟦146⟧⟨177⟩
+[Alstonville, New South Wales] ⟦140⟧⟨178⟩⟦145⟧⟨179⟩⟦147⟧⟨180⟩⟦9⟧⟨181⟩⟦59⟧⟨182⟩⟦141⟧⟨183⟩⟦146⟧⟨184⟩⟦22⟧⟨185⟩
+[Alstonville, New South Wales] ⟦22⟧⟨186⟩⟦133⟧⟨187⟩⟦85⟧⟨188⟩⟦39⟧⟨189⟩⟦102⟧⟨190⟩⟦25⟧⟨191⟩⟦101⟧⟨192⟩
+[Tenterfield, New South Wales] ⟦95⟧⟨193⟩⟦19⟧⟨194⟩⟦142⟧⟨195⟩⟦70⟧⟨196⟩⟦28⟧⟨197⟩
+[Tenterfield, New South Wales] ⟨198⟩⟦121⟧⟨199⟩⟦81⟧⟨200⟩⟦116⟧⟨201⟩⟦54⟧⟨202⟩⟦120⟧⟨203⟩⟦34⟧⟨204⟩
+[Tenterfield, New South Wales] ⟦95⟧⟨205⟩⟦18⟧⟨206⟩⟦52⟧⟨207⟩⟦44⟧⟨208⟩⟦33⟧⟨209⟩⟦79⟧⟨210⟩⟦53⟧⟨211⟩⟦35⟧⟨212⟩⟦70⟧⟨213⟩⟦53⟧⟨214⟩⟦26⟧⟨215⟩⟦70⟧⟨216⟩⟦53⟧⟨217⟩⟦93⟧⟨218⟩
+[Tenterfield, New South Wales] ⟦138⟧⟨219⟩⟦142⟧⟨220⟩⟦123⟧⟨221⟩⟦75⟧⟨222⟩⟦129⟧⟨223⟩⟦77⟧⟨224⟩⟦20⟧⟨225⟩⟦144⟧⟨226⟩⟦113⟧⟨227⟩⟦115⟧⟨228⟩⟦2⟧⟨229⟩⟦46⟧⟨230⟩
+[Tenterfield, New South Wales] ⟨231⟩⟦99⟧⟨232⟩⟦38⟧⟨233⟩⟦95⟧⟨234⟩⟦15⟧⟨235⟩⟦78⟧⟨236⟩
+[Bonshaw, New South Wales] ⟦31⟧⟨237⟩⟦31⟧⟨238⟩⟦21⟧⟨239⟩⟦145⟧⟨240⟩⟦70⟧⟨241⟩⟦93⟧⟨242⟩
+[Bonshaw, New South Wales] ⟨243⟩⟦140⟧⟨244⟩⟦145⟧⟨245⟩⟦15⟧⟨246⟩⟦78⟧⟨247⟩⟦5⟧⟨248⟩⟦76⟧⟨249⟩⟦108⟧⟨250⟩⟦43⟧⟨251⟩
+[Bonshaw, New South Wales] ⟨252⟩⟦124⟧⟨253⟩⟦32⟧⟨254⟩⟦134⟧⟨255⟩⟦96⟧⟨256⟩⟦79⟧⟨257⟩⟦109⟧⟨258⟩⟦104⟧⟨259⟩⟦32⟧⟨260⟩⟦136⟧⟨261⟩⟦90⟧⟨262⟩
+[Bonshaw, New South Wales] ⟦31⟧⟨263⟩⟦55⟧⟨264⟩⟦27⟧⟨265⟩
+[Bonshaw, New South Wales] ⟨266⟩⟦105⟧⟨267⟩⟦95⟧⟨268⟩⟦47⟧⟨269⟩
+[Bonshaw, New South Wales] ⟨270⟩⟦21⟧⟨271⟩⟦145⟧⟨272⟩⟦119⟧⟨273⟩⟦69⟧⟨274⟩⟦100⟧⟨275⟩⟦51⟧⟨276⟩⟦102⟧⟨277⟩⟦25⟧⟨278⟩
+[Goonellabah, New South Wales] ⟦48⟧⟨279⟩⟦111⟧⟨280⟩⟦91⟧⟨281⟩⟦65⟧⟨282⟩⟦70⟧⟨283⟩⟦28⟧⟨284⟩⟦105⟧⟨285⟩
+[Goonellabah, New South Wales] ⟨286⟩⟦97⟧⟨287⟩⟦38⟧⟨288⟩⟦48⟧⟨289⟩⟦15⟧⟨290⟩⟦78⟧⟨291⟩⟦3⟧⟨292⟩⟦76⟧⟨293⟩
+
+[user]
+
+问题：
+Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

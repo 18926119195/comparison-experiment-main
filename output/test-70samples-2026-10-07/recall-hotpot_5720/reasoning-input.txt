@@ -1,0 +1,84 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Justice (Rev Theory album)] ⟨84⟩⟨85⟩⟦83⟧⟨86⟩⟦229⟧⟨87⟩
+[Justice (Rev Theory album)] ⟦193⟧⟦127⟧ | ⟦193⟧⟨88⟩⟨89⟩⟦69⟧⟨90⟩⟦188⟧⟦207⟧⟨92⟩⟦127⟧⟦127⟧⟨91⟩⟨93⟩⟨94⟩
+[Extreme Rules (2011)] ⟦62⟧⟨338⟩⟨339⟩⟨340⟩⟨341⟩⟨342⟩⟨343⟩⟨344⟩⟨345⟩⟨346⟩⟦194⟧⟨347⟩⟦142⟧⟨348⟩⟦66⟧⟨349⟩
+[Armageddon (2004)] ⟦232⟧
+[WWE Elimination Chamber] ⟦223⟧
+[WWE Elimination Chamber] ⟦108⟧⟦108⟧
+[WWE Elimination Chamber] ⟦214⟧⟦214⟧
+[WWE Elimination Chamber] ⟦57⟧⟦89⟧
+[WWE Elimination Chamber] ⟦226⟧
+
+符号表：
+⟦57⟧ = event
+⟦62⟧ = Extreme Rules
+⟦66⟧ = Florida
+⟦69⟧ = Hangman
+⟦83⟧ = Justice
+⟦89⟧ = May
+⟦108⟧ = place
+⟦127⟧ = song
+⟦142⟧ = Tampa
+⟦188⟧ = the secondary theme song
+⟦193⟧ = The song
+⟦194⟧ = the St. Pete Times Forum
+⟦207⟧ = theme
+⟦214⟧ = view
+⟦223⟧ = wrestling
+⟦226⟧ = WWE
+⟦229⟧ = WWE's Extreme Rules
+⟦232⟧ = WWE's SmackDown
+
+占位符映射：
+⟨84⟩ = 
+⟨85⟩ =  
+⟨86⟩ =  was used for 
+⟨87⟩ =  (2011).
+⟨88⟩ = 
+⟨89⟩ =  
+⟨90⟩ =  was used for 
+⟨91⟩ = 
+⟨92⟩ =  
+⟨93⟩ =  for 
+⟨94⟩ =  from 2009 to 2012.
+⟨338⟩ =  was a professional 
+⟨339⟩ =  pay-per-
+⟨340⟩ = 
+⟨341⟩ =  (PPV) 
+⟨342⟩ =  produced by 
+⟨343⟩ = , which took 
+⟨344⟩ = 
+⟨345⟩ =  on 
+⟨346⟩ =  1, 2011 at 
+⟨347⟩ =  in 
+⟨348⟩ = , 
+⟨349⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The song Justice was used for a WWE event that took place on what day ?

@@ -1,0 +1,359 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "The Simpsons
+⟦2⟧ = "Valco
+⟦3⟧ = ("bike
+⟦4⟧ = [Uhaul] Car Share
+⟦5⟧ = 1 bike
+⟦6⟧ = 121 residents
+⟦7⟧ = 15 July
+⟦8⟧ = 4 August
+⟦9⟧ = a 2015 British sitcom
+⟦10⟧ = a 2017 comedy drama television film
+⟦11⟧ = a better ending
+⟦12⟧ = a bicycle sharing system
+⟦13⟧ = a British sitcom
+⟦14⟧ = a brutal review
+⟦15⟧ = a car
+⟦16⟧ = a charity
+⟦17⟧ = a company car share scheme
+⟦18⟧ = a convivial atmosphere
+⟦19⟧ = a cost neutral basis
+⟦20⟧ = a fictional supermarket
+⟦21⟧ = a multi-modal transportation hub
+⟦22⟧ = a new paradigm
+⟦23⟧ = a part
+⟦24⟧ = a portmanteau
+⟦25⟧ = a preview screening
+⟦26⟧ = a public transportation network
+⟦27⟧ = a purpose-built replica supermarket
+⟦28⟧ = a remake
+⟦29⟧ = a result
+⟦30⟧ = a second series
+⟦31⟧ = a social media message
+⟦32⟧ = a time
+⟦33⟧ = a Uhaul Car Share membership
+⟦34⟧ = a Welsh actress
+⟦35⟧ = access
+⟦36⟧ = activity
+⟦37⟧ = actress
+⟦38⟧ = ad
+⟦39⟧ = advertising
+⟦40⟧ = aim
+⟦41⟧ = alternative
+⟦42⟧ = Amtrak
+⟦43⟧ = an alternative
+⟦44⟧ = an upcoming American sitcom television series
+⟦45⟧ = April
+⟦46⟧ = around 8.1 million homes
+⟦47⟧ = assistant
+⟦48⟧ = atmosphere
+⟦49⟧ = basis
+⟦50⟧ = benefits
+⟦51⟧ = Best Comedy
+⟦52⟧ = Best Scripted Comedy
+⟦53⟧ = Beyond Blunderdome
+⟦54⟧ = bicycle
+⟦55⟧ = bike
+⟦56⟧ = bike sharing
+⟦57⟧ = Bristol
+⟦58⟧ = broadcast
+⟦59⟧ = bus
+⟦60⟧ = bus shelters
+⟦61⟧ = car
+⟦62⟧ = cars
+⟦63⟧ = carsharing
+⟦64⟧ = central Utah County
+⟦65⟧ = charity
+⟦66⟧ = cities
+⟦67⟧ = city
+⟦68⟧ = collaborations
+⟦69⟧ = colleges
+⟦70⟧ = comedy
+⟦71⟧ = communities
+⟦72⟧ = commuter
+⟦73⟧ = company
+⟦74⟧ = conjunction
+⟦75⟧ = cost
+⟦76⟧ = couples
+⟦77⟧ = couples therapy
+⟦78⟧ = Cradle
+⟦79⟧ = criticism
+⟦80⟧ = Danny Baker
+⟦81⟧ = Danny Cohen
+⟦82⟧ = Davis County
+⟦83⟧ = day
+⟦84⟧ = days
+⟦85⟧ = December
+⟦86⟧ = development
+⟦87⟧ = difficulties
+⟦88⟧ = drama
+⟦89⟧ = employees
+⟦90⟧ = ending
+⟦91⟧ = English "love
+⟦92⟧ = episode
+⟦93⟧ = exclusive advertising access
+⟦94⟧ = executives
+⟦95⟧ = Famous
+⟦96⟧ = film
+⟦97⟧ = Fox
+⟦98⟧ = France
+⟦99⟧ = free tickets
+⟦100⟧ = Gibson
+⟦101⟧ = goal
+⟦102⟧ = government
+⟦103⟧ = Grave
+⟦104⟧ = Greyhound Lines
+⟦105⟧ = Griff Rhys Jones
+⟦106⟧ = health
+⟦107⟧ = her collaborations
+⟦108⟧ = his current non-violent role
+⟦109⟧ = Homer
+⟦110⟧ = homes
+⟦111⟧ = hour
+⟦112⟧ = hub
+⟦113⟧ = increased activity
+⟦114⟧ = Its name
+⟦115⟧ = its thundering success
+⟦116⟧ = Jason Cook
+⟦117⟧ = JCDecaux
+⟦118⟧ = Johnny Vegas
+⟦119⟧ = July
+⟦120⟧ = June
+⟦121⟧ = Kevin Eldon
+⟦122⟧ = La Rochelle
+⟦123⟧ = life
+⟦124⟧ = love
+⟦125⟧ = Lyon
+⟦126⟧ = major French and European cities
+⟦127⟧ = man
+⟦128⟧ = manager
+⟦129⟧ = Marge
+⟦130⟧ = market
+⟦131⟧ = May
+⟦132⟧ = media
+⟦133⟧ = Mel Gibson's new film
+⟦134⟧ = membership
+⟦135⟧ = message
+⟦136⟧ = Mr. Smith
+⟦137⟧ = Murder
+⟦138⟧ = name
+⟦139⟧ = nearly 40 cities
+⟦140⟧ = network
+⟦141⟧ = Nigel Havers
+⟦142⟧ = Nina Wadia
+⟦143⟧ = northern Weber County
+⟦144⟧ = October
+⟦145⟧ = off-schedule
+⟦146⟧ = Ogden
+⟦147⟧ = order
+⟦148⟧ = outgoing BBC Director
+⟦149⟧ = paradigm
+⟦150⟧ = Paris' Velib
+⟦151⟧ = part
+⟦152⟧ = participation
+⟦153⟧ = penetration
+⟦154⟧ = people
+⟦155⟧ = Peter Kay
+⟦156⟧ = Peter Kay's Car Share
+⟦157⟧ = Pleasant View
+⟦158⟧ = pollution
+⟦159⟧ = portmanteau
+⟦160⟧ = premiere
+⟦161⟧ = preview
+⟦162⟧ = profile
+⟦163⟧ = profit
+⟦164⟧ = promotions
+⟦165⟧ = promotions rep Kayleigh Kitson
+⟦166⟧ = Provo
+⟦167⟧ = public transit
+⟦168⟧ = purpose
+⟦169⟧ = rail
+⟦170⟧ = Ralph Farquhar
+⟦171⟧ = re
+⟦172⟧ = relationship
+⟦173⟧ = remake
+⟦174⟧ = replica
+⟦175⟧ = residents
+⟦176⟧ = result
+⟦177⟧ = return
+⟦178⟧ = review
+⟦179⟧ = role
+⟦180⟧ = routes
+⟦181⟧ = run
+⟦182⟧ = Salt Lake Central
+⟦183⟧ = Salt Lake City
+⟦184⟧ = Salt Lake County
+⟦185⟧ = schedule
+⟦186⟧ = scheme
+⟦187⟧ = screening
+⟦188⟧ = season
+⟦189⟧ = second and third cars
+⟦190⟧ = September
+⟦191⟧ = series
+⟦192⟧ = service
+⟦193⟧ = share
+⟦194⟧ = sharing
+⟦195⟧ = Sheila Reid
+⟦196⟧ = shelters
+⟦197⟧ = show
+⟦198⟧ = Siân Foulkes
+⟦199⟧ = Sian Gibson
+⟦200⟧ = similar systems
+⟦201⟧ = sitcom
+⟦202⟧ = Sky
+⟦203⟧ = SLC
+⟦204⟧ = straight
+⟦205⟧ = studio
+⟦206⟧ = studio executives
+⟦207⟧ = success
+⟦208⟧ = suggestions
+⟦209⟧ = supermarket
+⟦210⟧ = supermarket assistant manager John Redmond
+⟦211⟧ = system
+⟦212⟧ = systems
+⟦213⟧ = television
+⟦214⟧ = the "California Zephyr
+⟦215⟧ = the "FrontRunner
+⟦216⟧ = the 2016 BAFTA TV Award
+⟦217⟧ = the advertising company JCDecaux
+⟦218⟧ = the American animated sitcom
+⟦219⟧ = the bike share scheme
+⟦220⟧ = the Blackpool Express
+⟦221⟧ = the Blue Line
+⟦222⟧ = the Bottle Yard Studios
+⟦223⟧ = the broadcast
+⟦224⟧ = the city
+⟦225⟧ = the comedy series
+⟦226⟧ = the day
+⟦227⟧ = the eleventh season premiere
+⟦228⟧ = the ending
+⟦229⟧ = the episode
+⟦230⟧ = the film
+⟦231⟧ = The first bicycle sharing system
+⟦232⟧ = the first series
+⟦233⟧ = the Fox network
+⟦234⟧ = The goal
+⟦235⟧ = the health benefits
+⟦236⟧ = the hour
+⟦237⟧ = the intermodal hub
+⟦238⟧ = the life
+⟦239⟧ = the National Television Award
+⟦240⟧ = the only man
+⟦241⟧ = the pioneer smart bicycle sharing system
+⟦242⟧ = the pioneering 1974 scheme
+⟦243⟧ = The primary aim
+⟦244⟧ = The relationship
+⟦245⟧ = the run
+⟦246⟧ = The Salt Lake City Intermodal Hub
+⟦247⟧ = The scheme
+⟦248⟧ = the second highest market penetration
+⟦249⟧ = the second series
+⟦250⟧ = the series
+⟦251⟧ = the service
+⟦252⟧ = the show
+⟦253⟧ = the Simpsons
+⟦254⟧ = the success
+⟦255⟧ = the United States
+⟦256⟧ = the use
+⟦257⟧ = the Velib
+⟦258⟧ = the Wasatch Front
+⟦259⟧ = the world
+⟦260⟧ = their participation
+⟦261⟧ = therapy
+⟦262⟧ = these two high profile smart bicycle sharing systems
+⟦263⟧ = three days
+⟦264⟧ = tickets
+⟦265⟧ = time
+⟦266⟧ = traffic
+⟦267⟧ = train
+⟦268⟧ = transit
+⟦269⟧ = transportation
+⟦270⟧ = Trollied
+⟦271⟧ = Ty Hodges
+⟦272⟧ = U Car Share
+⟦273⟧ = U-Haul
+⟦274⟧ = UCarShare
+⟦275⟧ = Uhaul Car Share vehicles
+⟦276⟧ = UhaulCarShare
+⟦277⟧ = Una Stubbs
+⟦278⟧ = United States
+⟦279⟧ = universities
+⟦280⟧ = use
+⟦281⟧ = users
+⟦282⟧ = UTA local bus service
+⟦283⟧ = UTA's commuter rail train
+⟦284⟧ = UTA's TRAX light rail system
+⟦285⟧ = Utah
+⟦286⟧ = Utah Transit Authority [UTA] routes
+⟦287⟧ = vehicle
+⟦288⟧ = vehicle traffic
+⟦289⟧ = vehicles
+⟦290⟧ = Vélo'v
+⟦291⟧ = very low cost
+⟦292⟧ = Washington
+⟦293⟧ = world
+⟦294⟧ = writer
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Salt Lake City Intermodal Hub] ⟦246⟧⟨1⟩⟦182⟧⟨2⟩⟦286⟧⟨3⟩⟦180⟧⟨4⟩⟦203⟧⟨5⟩⟦42⟧⟨6⟩⟦21⟧⟨7⟩⟦269⟧⟨8⟩⟦112⟧⟨9⟩⟦183⟧⟨10⟩⟦285⟧⟨11⟩⟦278⟧⟨12⟩⟦221⟧⟨13⟩⟦284⟧⟨14⟩⟦169⟧⟨15⟩⟦211⟧⟨16⟩⟦184⟧⟨17⟩⟦215⟧⟨18⟩⟦283⟧⟨19⟩⟦72⟧⟨20⟩⟦169⟧⟨21⟩⟦267⟧⟨22⟩⟦258⟧⟨23⟩⟦192⟧⟨24⟩⟦192⟧⟨25⟩⟦157⟧⟨26⟩⟦143⟧⟨27⟩⟦146⟧⟨28⟩⟦82⟧⟨29⟩⟦183⟧⟨30⟩⟦184⟧⟨31⟩⟦166⟧⟨32⟩⟦64⟧⟨33⟩
+[Salt Lake City Intermodal Hub] ⟦192⟧⟨34⟩⟦237⟧⟨35⟩⟦112⟧⟨36⟩⟦42⟧⟨37⟩⟦214⟧⟨38⟩⟦104⟧⟨39⟩⟦272⟧⟨40⟩⟦282⟧⟨41⟩⟦59⟧⟨42⟩⟦192⟧⟨43⟩
+[Murder on the Blackpool Express] ⟦137⟧⟨44⟩⟦137⟧⟨45⟩⟦220⟧⟨46⟩⟦10⟧⟨47⟩⟦70⟧⟨48⟩⟦88⟧⟨49⟩⟦213⟧⟨50⟩⟦96⟧⟨51⟩⟦116⟧⟨52⟩
+[Murder on the Blackpool Express] ⟨53⟩⟦118⟧⟨54⟩⟦199⟧⟨55⟩⟦141⟧⟨56⟩⟦277⟧⟨57⟩⟦105⟧⟨58⟩⟦142⟧⟨59⟩⟦195⟧⟨60⟩⟦121⟧⟨61⟩
+[Famous (TV series)] ⟦95⟧⟨62⟩⟦44⟧⟨63⟩⟦201⟧⟨64⟩⟦213⟧⟨65⟩⟦191⟧⟨66⟩⟦170⟧⟨67⟩⟦271⟧⟨68⟩
+[Famous (TV series)] ⟦97⟧⟨69⟩⟦225⟧⟨70⟩⟦70⟧⟨71⟩⟦191⟧⟨72⟩⟦76⟧⟨73⟩⟦77⟧⟨74⟩⟦261⟧⟨75⟩⟦92⟧⟨76⟩⟦204⟧⟨77⟩⟦191⟧⟨78⟩⟦191⟧⟨79⟩⟦147⟧⟨80⟩⟦45⟧⟨81⟩⟦250⟧⟨82⟩⟦191⟧⟨83⟩⟦120⟧⟨84⟩
+[Famous (TV series)] ⟨85⟩⟦87⟧⟨86⟩⟦87⟧⟨87⟩⟦250⟧⟨88⟩⟦191⟧⟨89⟩⟦145⟧⟨90⟩⟦185⟧⟨91⟩⟦171⟧⟨92⟩⟦171⟧⟨93⟩⟦86⟧⟨94⟩⟦86⟧⟨95⟩
+[Sian Gibson] ⟦199⟧⟨96⟩⟦198⟧⟨97⟩⟦7⟧⟨98⟩⟦34⟧⟨99⟩⟦37⟧⟨100⟩⟦294⟧⟨101⟩⟦294⟧⟨102⟩⟦107⟧⟨103⟩⟦68⟧⟨104⟩⟦155⟧⟨105⟩⟦225⟧⟨106⟩⟦70⟧⟨107⟩⟦191⟧⟨108⟩⟦156⟧⟨109⟩⟦216⟧⟨110⟩⟦52⟧⟨111⟩⟦239⟧⟨112⟩⟦51⟧⟨113⟩
+[Vélo'v] ⟦290⟧⟨114⟩⟦12⟧⟨115⟩⟦54⟧⟨116⟩⟦194⟧⟨117⟩⟦211⟧⟨118⟩⟦224⟧⟨119⟩⟦67⟧⟨120⟩⟦125⟧⟨121⟩⟦98⟧⟨122⟩⟦74⟧⟨123⟩⟦74⟧⟨124⟩⟦217⟧⟨125⟩⟦39⟧⟨126⟩⟦73⟧⟨127⟩
+[Vélo'v] ⟨128⟩⟦241⟧⟨129⟩⟦54⟧⟨130⟩⟦194⟧⟨131⟩⟦211⟧⟨132⟩⟦212⟧⟨133⟩⟦38⟧⟨134⟩⟦16⟧⟨135⟩⟦65⟧⟨136⟩
+[Vélo'v] ⟦244⟧⟨137⟩⟦172⟧⟨138⟩⟦117⟧⟨139⟩⟦224⟧⟨140⟩⟦67⟧⟨141⟩⟦251⟧⟨142⟩⟦192⟧⟨143⟩⟦19⟧⟨144⟩⟦75⟧⟨145⟩⟦49⟧⟨146⟩⟦224⟧⟨147⟩⟦67⟧⟨148⟩⟦291⟧⟨149⟩⟦75⟧⟨150⟩⟦281⟧⟨151⟩⟦281⟧⟨152⟩⟦177⟧⟨153⟩⟦177⟧⟨154⟩⟦93⟧⟨155⟩⟦39⟧⟨156⟩⟦35⟧⟨157⟩⟦59⟧⟨158⟩⟦60⟧⟨159⟩⟦196⟧⟨160⟩
+[Vélo'v] ⟦243⟧⟨161⟩⟦40⟧⟨162⟩⟦287⟧⟨163⟩⟦288⟧⟨164⟩⟦266⟧⟨165⟩⟦224⟧⟨166⟩⟦67⟧⟨167⟩
+[Vélo'v] ⟦247⟧⟨168⟩⟦186⟧⟨169⟩⟦158⟧⟨170⟩⟦158⟧⟨171⟩⟦18⟧⟨172⟩⟦48⟧⟨173⟩⟦224⟧⟨174⟩⟦67⟧⟨175⟩⟦235⟧⟨176⟩⟦106⟧⟨177⟩⟦50⟧⟨178⟩⟦113⟧⟨179⟩⟦36⟧⟨180⟩
+[Vélo'v] ⟦114⟧⟨181⟩⟦138⟧⟨182⟩⟦24⟧⟨183⟩⟦159⟧⟨184⟩⟦3⟧⟨185⟩⟦55⟧⟨186⟩⟦91⟧⟨187⟩⟦124⟧⟨188⟩
+[Vélo'v] ⟦231⟧⟨189⟩⟦54⟧⟨190⟩⟦194⟧⟨191⟩⟦211⟧⟨192⟩⟦98⟧⟨193⟩⟦242⟧⟨194⟩⟦186⟧⟨195⟩⟦122⟧⟨196⟩⟦115⟧⟨197⟩⟦207⟧⟨198⟩⟦200⟧⟨199⟩⟦212⟧⟨200⟩⟦126⟧⟨201⟩⟦66⟧⟨202⟩⟦150⟧⟨203⟩
+[Vélo'v] ⟨204⟩⟦254⟧⟨205⟩⟦207⟧⟨206⟩⟦262⟧⟨207⟩⟦162⟧⟨208⟩⟦54⟧⟨209⟩⟦194⟧⟨210⟩⟦212⟧⟨211⟩⟦22⟧⟨212⟩⟦149⟧⟨213⟩⟦102⟧⟨214⟩⟦102⟧⟨215⟩⟦55⟧⟨216⟩⟦56⟧⟨217⟩⟦194⟧⟨218⟩⟦23⟧⟨219⟩⟦151⟧⟨220⟩⟦26⟧⟨221⟩⟦269⟧⟨222⟩⟦140⟧⟨223⟩
+[Vélo'v] ⟨224⟩⟦219⟧⟨225⟩⟦55⟧⟨226⟩⟦193⟧⟨227⟩⟦186⟧⟨228⟩⟦248⟧⟨229⟩⟦130⟧⟨230⟩⟦153⟧⟨231⟩⟦5⟧⟨232⟩⟦55⟧⟨233⟩⟦6⟧⟨234⟩⟦175⟧⟨235⟩⟦259⟧⟨236⟩⟦293⟧⟨237⟩⟦257⟧⟨238⟩
+[Cradle to Grave] ⟦78⟧⟨239⟩⟦78⟧⟨240⟩⟦103⟧⟨241⟩⟦9⟧⟨242⟩⟦201⟧⟨243⟩⟦238⟧⟨244⟩⟦123⟧⟨245⟩⟦80⟧⟨246⟩
+[Cradle to Grave] ⟨247⟩⟦31⟧⟨248⟩⟦132⟧⟨249⟩⟦135⟧⟨250⟩⟦148⟧⟨251⟩⟦213⟧⟨252⟩⟦81⟧⟨253⟩⟦252⟧⟨254⟩⟦197⟧⟨255⟩⟦144⟧⟨256⟩⟦30⟧⟨257⟩⟦191⟧⟨258⟩
+[Cradle to Grave] ⟨259⟩⟦85⟧⟨260⟩
+[Beyond Blunderdome] ⟨261⟩⟦53⟧⟨262⟩⟦227⟧⟨263⟩⟦188⟧⟨264⟩⟦160⟧⟨265⟩⟦218⟧⟨266⟩⟦201⟧⟨267⟩⟦1⟧⟨268⟩
+[Beyond Blunderdome] ⟨269⟩⟦233⟧⟨270⟩⟦140⟧⟨271⟩⟦255⟧⟨272⟩⟦190⟧⟨273⟩⟦46⟧⟨274⟩⟦110⟧⟨275⟩⟦223⟧⟨276⟩⟦58⟧⟨277⟩
+[Beyond Blunderdome] ⟨278⟩⟦229⟧⟨279⟩⟦92⟧⟨280⟩⟦253⟧⟨281⟩⟦99⟧⟨282⟩⟦264⟧⟨283⟩⟦25⟧⟨284⟩⟦161⟧⟨285⟩⟦187⟧⟨286⟩⟦133⟧⟨287⟩⟦96⟧⟨288⟩⟦28⟧⟨289⟩⟦173⟧⟨290⟩⟦136⟧⟨291⟩⟦292⟧⟨292⟩
+[Beyond Blunderdome] ⟦100⟧⟨293⟩⟦108⟧⟨294⟩⟦179⟧⟨295⟩⟦79⟧⟨296⟩⟦79⟧⟨297⟩
+[Beyond Blunderdome] ⟨298⟩⟦109⟧⟨299⟩⟦100⟧⟨300⟩⟦129⟧⟨301⟩⟦14⟧⟨302⟩⟦178⟧⟨303⟩⟦100⟧⟨304⟩⟦109⟧⟨305⟩⟦240⟧⟨306⟩⟦127⟧⟨307⟩⟦208⟧⟨308⟩⟦208⟧⟨309⟩
+[Beyond Blunderdome] ⟨310⟩⟦29⟧⟨311⟩⟦176⟧⟨312⟩⟦11⟧⟨313⟩⟦90⟧⟨314⟩
+[Beyond Blunderdome] ⟨315⟩⟦228⟧⟨316⟩⟦90⟧⟨317⟩⟦100⟧⟨318⟩⟦109⟧⟨319⟩⟦245⟧⟨320⟩⟦181⟧⟨321⟩⟦205⟧⟨322⟩⟦206⟧⟨323⟩⟦94⟧⟨324⟩⟦230⟧⟨325⟩⟦96⟧⟨326⟩
+[Trollied] ⟦270⟧⟨327⟩⟦13⟧⟨328⟩⟦201⟧⟨329⟩⟦89⟧⟨330⟩⟦89⟧⟨331⟩⟦20⟧⟨332⟩⟦209⟧⟨333⟩⟦2⟧⟨334⟩⟦202⟧⟨335⟩⟦8⟧⟨336⟩
+[Trollied] ⟦250⟧⟨337⟩⟦191⟧⟨338⟩⟦27⟧⟨339⟩⟦168⟧⟨340⟩⟦174⟧⟨341⟩⟦209⟧⟨342⟩⟦222⟧⟨343⟩⟦57⟧⟨344⟩⟦45⟧⟨345⟩⟦131⟧⟨346⟩⟦232⟧⟨347⟩⟦191⟧⟨348⟩⟦249⟧⟨349⟩⟦191⟧⟨350⟩⟦120⟧⟨351⟩⟦119⟧⟨352⟩
+[Uhaul Car Share] ⟦276⟧⟨353⟩⟦274⟧⟨354⟩⟦163⟧⟨355⟩⟦163⟧⟨356⟩⟦63⟧⟨357⟩⟦192⟧⟨358⟩⟦273⟧⟨359⟩⟦139⟧⟨360⟩⟦66⟧⟨361⟩⟦255⟧⟨362⟩
+[Uhaul Car Share] ⟨363⟩⟦33⟧⟨364⟩⟦193⟧⟨365⟩⟦134⟧⟨366⟩⟦280⟧⟨367⟩⟦280⟧⟨368⟩⟦15⟧⟨369⟩⟦61⟧⟨370⟩⟦236⟧⟨371⟩⟦111⟧⟨372⟩⟦226⟧⟨373⟩⟦83⟧⟨374⟩
+[Uhaul Car Share] ⟨375⟩⟦280⟧⟨376⟩⟦280⟧⟨377⟩⟦263⟧⟨378⟩⟦84⟧⟨379⟩⟦32⟧⟨380⟩⟦265⟧⟨381⟩
+[Uhaul Car Share] ⟨382⟩⟦275⟧⟨383⟩⟦193⟧⟨384⟩⟦289⟧⟨385⟩⟦71⟧⟨386⟩⟦71⟧⟨387⟩⟦69⟧⟨388⟩⟦69⟧⟨389⟩⟦279⟧⟨390⟩⟦279⟧⟨391⟩
+[Uhaul Car Share] ⟨392⟩⟦234⟧⟨393⟩⟦101⟧⟨394⟩⟦4⟧⟨395⟩⟦193⟧⟨396⟩⟦154⟧⟨397⟩⟦154⟧⟨398⟩⟦43⟧⟨399⟩⟦41⟧⟨400⟩⟦189⟧⟨401⟩⟦62⟧⟨402⟩⟦256⟧⟨403⟩⟦280⟧⟨404⟩⟦167⟧⟨405⟩⟦268⟧⟨406⟩
+[Peter Kay's Car Share] ⟦156⟧⟨407⟩⟦13⟧⟨408⟩⟦201⟧⟨409⟩⟦209⟧⟨410⟩⟦210⟧⟨411⟩⟦47⟧⟨412⟩⟦128⟧⟨413⟩⟦155⟧⟨414⟩⟦164⟧⟨415⟩⟦165⟧⟨416⟩⟦199⟧⟨417⟩⟦260⟧⟨418⟩⟦152⟧⟨419⟩⟦17⟧⟨420⟩⟦73⟧⟨421⟩⟦61⟧⟨422⟩⟦193⟧⟨423⟩⟦186⟧⟨424⟩
+
+[user]
+
+问题：
+Sian Gibson co-wrote which British sitcom, set around a supermarket and car share scheme?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

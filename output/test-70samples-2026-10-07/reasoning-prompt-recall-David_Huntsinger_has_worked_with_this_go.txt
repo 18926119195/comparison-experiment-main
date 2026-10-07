@@ -1,0 +1,107 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[David Huntsinger] ⟦82⟧⟨37⟩⟦26⟧⟨38⟩⟨39⟩⟨40⟩⟨41⟩⟨42⟩⟨43⟩⟨44⟩⟨45⟩⟦133⟧⟨46⟩⟦177⟧⟨47⟩⟦294⟧⟨48⟩⟨49⟩ | ⟦82⟧⟨37⟩⟦26⟧⟨38⟩⟨39⟩⟨40⟩⟨41⟩⟨42⟩⟨43⟩⟨44⟩⟨45⟩⟦133⟧⟨46⟩⟦177⟧⟨47⟩⟦294⟧⟨48⟩⟨49⟩
+[David Huntsinger] ⟨50⟩⟦278⟧⟦226⟧⟨51⟩⟨52⟩⟦137⟧⟨53⟩⟦90⟧⟨54⟩⟦251⟧⟨55⟩⟨56⟩⟦253⟧⟨57⟩
+[David Huntsinger] ⟦275⟧⟦188⟧ | ⟦275⟧⟦188⟧
+[David Huntsinger] ⟦70⟧
+[Andraé Crouch] ⟦47⟧⟦47⟧ | ⟦47⟧⟦47⟧ | ⟦42⟧⟨178⟩⟦144⟧⟨179⟩⟦141⟧⟨180⟩⟨182⟩⟨181⟩⟨183⟩⟨184⟩⟨185⟩⟦47⟧⟦47⟧⟨186⟩⟨187⟩⟦207⟧⟦208⟧⟨188⟩⟦198⟧⟨189⟩⟨190⟩⟨191⟩⟨192⟩
+[Kierra Sheard] ⟦38⟧
+[Charles Charamba] ⟦186⟧⟦186⟧
+[Latice Crawford] ⟦74⟧⟦74⟧ | ⟦74⟧⟦74⟧
+[Muyiwa Olarewaju] ⟦228⟧⟦228⟧ | ⟦228⟧⟦228⟧ | ⟦222⟧⟦228⟧⟦228⟧
+[Muyiwa Olarewaju] ⟦111⟧
+
+符号表：
+⟦26⟧ = a pianist
+⟦38⟧ = an American gospel singer
+⟦42⟧ = Andraé Edward Crouch
+⟦47⟧ = arranger
+⟦70⟧ = children
+⟦74⟧ = composer
+⟦82⟧ = David Huntsinger
+⟦90⟧ = Dottie Rambo
+⟦111⟧ = gospel
+⟦133⟧ = his native California
+⟦137⟧ = Holy Spirit
+⟦141⟧ = January
+⟦144⟧ = July
+⟦177⟧ = Nashville
+⟦186⟧ = pastor
+⟦188⟧ = pianist
+⟦198⟧ = producer
+⟦207⟧ = record
+⟦208⟧ = record producer
+⟦222⟧ = singer
+⟦226⟧ = song
+⟦228⟧ = songwriter
+⟦251⟧ = the children
+⟦253⟧ = The Creek Bank
+⟦275⟧ = the Rambos
+⟦278⟧ = the song
+⟦294⟧ = TN
+
+占位符映射：
+⟨37⟩ =  is 
+⟨38⟩ = 
+⟨39⟩ = , 
+⟨40⟩ = 
+⟨41⟩ = , 
+⟨42⟩ = 
+⟨43⟩ = , and 
+⟨44⟩ = 
+⟨45⟩ =  who moved from 
+⟨46⟩ =  to 
+⟨47⟩ = , 
+⟨48⟩ = , in 1976 and played for 
+⟨49⟩ = .
+⟨50⟩ =  He co-wrote 
+⟨51⟩ = 
+⟨52⟩ = , "
+⟨53⟩ = , Thou Art Welcome", with 
+⟨54⟩ = , as well as 
+⟨55⟩ = 
+⟨56⟩ = ’s musical, "Down By 
+⟨57⟩ = ".
+⟨178⟩ =  (
+⟨179⟩ =  1, 1942 – 
+⟨180⟩ =  8, 2015) was 
+⟨181⟩ = 
+⟨182⟩ =  
+⟨183⟩ = , 
+⟨184⟩ = 
+⟨185⟩ = , 
+⟨186⟩ = 
+⟨187⟩ = , 
+⟨188⟩ = 
+⟨189⟩ = 
+⟨190⟩ =  and 
+⟨191⟩ = 
+⟨192⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+David Huntsinger has worked with this gospel singer born in the month of July?

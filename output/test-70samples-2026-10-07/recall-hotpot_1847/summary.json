@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_1847",
+  "question": "Who was the original female founder of the brewery that was purchased in 2006 by the largest brewery in the state of Maryland?",
+  "expectedAnswer": "Marjorie McGinnis",
+  "predictedAnswer": "# 路径一：从“2006年被收购”事件反向定位\n\n步骤1：使用⟦192⟧⟦165⟧⟦166⟧⟦167⟧⟦151⟧⟦169⟧⟦170⟧⟦171⟧，提取 Frederick Brewing Company 的后续归属链：公司在某个时间点被置于破产管理（receivership），随后在2006年被 Snyder International Brewing Group 收购并更名。\n\n步骤2：综合⟦82⟧⟦81⟧⟦126⟧⟦240⟧，确认 Frederick Brewing Company 位于 Maryland 的 Frederick，即该州内的酿酒厂。\n\n步骤3：使用⟦154⟧⟦155⟧⟦156⟧⟦157⟧⟦111⟧⟦125⟧，提取创始团队信息：公司由 Kevin Brannon、Marjorie McGinnis 和 Steve Nordahl 于1992至1993年间创立。其中 Marjorie McGinnis 为女性。\n\n结论：被2006年收购的酿酒厂是 Frederick Brewing Company，其原始女性创始人是 Marjorie McGinnis。\n\n---\n\n# 路径二：从“马里兰州最大酿酒厂”身份交叉验证\n\n步骤1：使用⟦82⟧⟦81⟧⟦126⟧，提取 Frederick Brewing Company 的名称与地点，确认其位于 Maryland 州 Frederick 市。\n\n步骤2：综合⟦165⟧⟦169⟧⟦170⟧⟦171⟧，提取收购方为 Snyder International Brewing Group，收购发生在2006年，且收购后公司被更名。\n\n步骤3：使用⟦154⟧⟦155⟧⟦156⟧⟦157⟧，提取创始团队名单，识别其中女性成员 Marjorie McGinnis。\n\n结论：Maryland 州最大酿酒厂为 Frederick Brewing Company，2006年被收购，其原始女性创始人为 Marjorie McGinnis。\n\n---\n\n# 路径三：从创始团队性别构成直接定位\n\n步骤1：使用⟦154⟧⟦155⟧⟦156⟧⟦157⟧，提取 Frederick Brewing Company 的创始团队：Kevin Brannon、Marjorie McGinnis、Steve Nordahl。\n\n步骤2：综合⟦82⟧⟦81⟧⟦126⟧⟦240⟧，确认该公司位于 Maryland 州，且为问题所指的酿酒厂。\n\n步骤3：使用⟦192⟧⟦165⟧⟦169⟧⟦170⟧⟦171⟧，验证该公司在2006年被 Snyder International Brewing Group 收购，与问题中的“2006年被收购”条件吻合。\n\n结论：创始团队中唯一的女性是 Marjorie McGinnis，她即为该酿酒厂的原始女性创始人。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦82⟧⟨144⟩⟦133⟧⟨145⟩⟨146⟩⟨147⟩⟨148⟩⟨149⟩⟦228⟧⟨150⟩⟦81⟧⟨151⟩",
+  "nounCount": 358,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6130,
+    "completion_tokens": 269,
+    "total_tokens": 6399,
+    "prompt_tokens_details": {
+      "cached_tokens": 5888
+    },
+    "prompt_cache_hit_tokens": 5888,
+    "prompt_cache_miss_tokens": 242
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 610,
+    "total_tokens": 1688,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1078
+  }
+}

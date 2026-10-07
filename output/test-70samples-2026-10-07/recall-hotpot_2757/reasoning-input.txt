@@ -1,0 +1,102 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Assassination of William McKinley] ⟨397⟩⟨398⟩⟦300⟧⟨399⟩⟦219⟧⟨400⟩⟦277⟧⟨401⟩⟦244⟧⟦102⟧⟨402⟩⟨403⟩⟦256⟧⟨404⟩⟦268⟧⟨405⟩⟦157⟧⟨406⟩⟦49⟧⟨407⟩⟦161⟧⟨408⟩
+[Assassination of William McKinley] ⟨409⟩⟦107⟧⟦107⟧⟨410⟩⟨411⟩⟦259⟧⟦185⟧⟨412⟩⟨413⟩⟦131⟧⟨414⟩⟦33⟧⟦36⟧⟨415⟩⟨416⟩⟦222⟧⟦25⟧⟨417⟩⟨418⟩
+[Assassination of William McKinley] ⟦201⟧ | ⟦142⟧⟨419⟩⟦69⟧⟨420⟩⟦201⟧⟨421⟩⟦94⟧⟦94⟧⟨422⟩⟨423⟩⟦246⟧⟦104⟧⟨425⟩⟦306⟧⟨424⟩⟨426⟩
+[Assassination of William McKinley] ⟨427⟩⟦271⟧⟦181⟧⟨428⟩⟨429⟩⟦26⟧⟨430⟩⟦122⟧⟨431⟩
+
+符号表：
+⟦25⟧ = abdomen
+⟦26⟧ = Abraham Lincoln
+⟦33⟧ = an anarchist
+⟦36⟧ = anarchist
+⟦49⟧ = Buffalo
+⟦69⟧ = days
+⟦94⟧ = gangrene
+⟦102⟧ = grounds
+⟦104⟧ = gunshot
+⟦107⟧ = hands
+⟦122⟧ = James A. Garfield
+⟦131⟧ = Leon Czolgosz
+⟦142⟧ = McKinley
+⟦157⟧ = Music
+⟦161⟧ = New York
+⟦181⟧ = president
+⟦185⟧ = public
+⟦201⟧ = September
+⟦219⟧ = the 25th President
+⟦222⟧ = the abdomen
+⟦244⟧ = the grounds
+⟦246⟧ = the gunshot wounds
+⟦256⟧ = The Pan-American Exposition
+⟦259⟧ = the public
+⟦268⟧ = The Temple
+⟦271⟧ = the third American president
+⟦277⟧ = the United States
+⟦300⟧ = William McKinley
+⟦306⟧ = wounds
+
+占位符映射：
+⟨397⟩ = On 
+⟨398⟩ =  6, 1901, 
+⟨399⟩ = , 
+⟨400⟩ =  of 
+⟨401⟩ = , was shot on 
+⟨402⟩ = 
+⟨403⟩ =  of 
+⟨404⟩ =  at 
+⟨405⟩ =  of 
+⟨406⟩ =  in 
+⟨407⟩ = , 
+⟨408⟩ = .
+⟨409⟩ =  He was shaking 
+⟨410⟩ = 
+⟨411⟩ =  with 
+⟨412⟩ = 
+⟨413⟩ =  when 
+⟨414⟩ = , 
+⟨415⟩ = 
+⟨416⟩ = , shot him twice in 
+⟨417⟩ = 
+⟨418⟩ = .
+⟨419⟩ =  died eight 
+⟨420⟩ =  later on 
+⟨421⟩ =  14 of 
+⟨422⟩ = 
+⟨423⟩ =  caused by 
+⟨424⟩ = 
+⟨425⟩ =  
+⟨426⟩ = .
+⟨427⟩ =  He was 
+⟨428⟩ = 
+⟨429⟩ =  to have been assassinated, following 
+⟨430⟩ =  in 1865 and 
+⟨431⟩ =  in 1881.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which of the four US Presidents who have been assinated was shot on the grounds of the Pan-American Exposition at the Temple of Music in Buffalo, New York?

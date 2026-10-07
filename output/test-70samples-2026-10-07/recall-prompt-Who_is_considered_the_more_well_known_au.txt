@@ -1,0 +1,242 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Five Seasons
+⟦2⟧ = "Late Innings
+⟦3⟧ = "The Strange Adventure
+⟦4⟧ = 1690s
+⟦5⟧ = 2 September
+⟦6⟧ = a 1934 American film
+⟦7⟧ = a 1988 book
+⟦8⟧ = A Baseball Companion
+⟦9⟧ = a lot
+⟦10⟧ = a Moroccan poet
+⟦11⟧ = a powerful Fu Manchu type criminal mastermind
+⟦12⟧ = a prolific but little-known American author
+⟦13⟧ = a prolific Southern American author
+⟦14⟧ = a qasida
+⟦15⟧ = a regular contributor
+⟦16⟧ = a very well known author
+⟦17⟧ = a very well known work
+⟦18⟧ = a well known author
+⟦19⟧ = a wisecracking reporter
+⟦20⟧ = abd al-Aziz al-Maghrawi
+⟦21⟧ = Abu Faris
+⟦22⟧ = Ahmad al-Mansur
+⟦23⟧ = al-Maghrawi
+⟦24⟧ = American Author Harry Stephen Keeler
+⟦25⟧ = an American essayist
+⟦26⟧ = an annual Christmas poem
+⟦27⟧ = an Irish politician
+⟦28⟧ = Angell
+⟦29⟧ = Arkansas
+⟦30⟧ = author
+⟦31⟧ = baseball
+⟦32⟧ = Bela Lugosi
+⟦33⟧ = book
+⟦34⟧ = books
+⟦35⟧ = Buğra
+⟦36⟧ = changes
+⟦37⟧ = character
+⟦38⟧ = cheek
+⟦39⟧ = Confucius
+⟦40⟧ = contributor
+⟦41⟧ = country
+⟦42⟧ = court
+⟦43⟧ = criticism
+⟦44⟧ = Dublin
+⟦45⟧ = Dutton
+⟦46⟧ = editor
+⟦47⟧ = England
+⟦48⟧ = especially baseball
+⟦49⟧ = essayist
+⟦50⟧ = father
+⟦51⟧ = fiction
+⟦52⟧ = film
+⟦53⟧ = Francis Irby Gwaltney
+⟦54⟧ = Gerard Mannix Flynn
+⟦55⟧ = Harry Stephen Keeler
+⟦56⟧ = Harry Stephen Keeler's 1928 short story
+⟦57⟧ = his books
+⟦58⟧ = his country
+⟦59⟧ = His name
+⟦60⟧ = his work
+⟦61⟧ = his writing
+⟦62⟧ = Hutchinson
+⟦63⟧ = interest
+⟦64⟧ = its chief fiction editor
+⟦65⟧ = James X
+⟦66⟧ = January
+⟦67⟧ = John Dryden
+⟦68⟧ = journalist
+⟦69⟧ = Keeler's book
+⟦70⟧ = Lewis D. Collins
+⟦71⟧ = life
+⟦72⟧ = literature
+⟦73⟧ = lives
+⟦74⟧ = Lock
+⟦75⟧ = lot
+⟦76⟧ = malhun
+⟦77⟧ = Mannix Flynn
+⟦78⟧ = many changes
+⟦79⟧ = many years
+⟦80⟧ = mastermind
+⟦81⟧ = May
+⟦82⟧ = Monogram Pictures
+⟦83⟧ = Morocco
+⟦84⟧ = Mr. Limberham
+⟦85⟧ = Mr. Wong
+⟦86⟧ = mysteries
+⟦87⟧ = mystery
+⟦88⟧ = name
+⟦89⟧ = no relation
+⟦90⟧ = none
+⟦91⟧ = novel
+⟦92⟧ = novelist
+⟦93⟧ = November
+⟦94⟧ = numerous works
+⟦95⟧ = other people
+⟦96⟧ = palmtree
+⟦97⟧ = people
+⟦98⟧ = play
+⟦99⟧ = playwright
+⟦100⟧ = poem
+⟦101⟧ = poet
+⟦102⟧ = poets
+⟦103⟧ = political changes
+⟦104⟧ = politician
+⟦105⟧ = problems
+⟦106⟧ = proverb
+⟦107⟧ = relation
+⟦108⟧ = religious changes
+⟦109⟧ = reporter
+⟦110⟧ = Republican literature
+⟦111⟧ = Roger Angell
+⟦112⟧ = science
+⟦113⟧ = science fiction
+⟦114⟧ = scientist
+⟦115⟧ = scientist Ayşe Buğra
+⟦116⟧ = Season
+⟦117⟧ = Seasons
+⟦118⟧ = seller
+⟦119⟧ = series
+⟦120⟧ = short story author
+⟦121⟧ = side
+⟦122⟧ = Sing Nights
+⟦123⟧ = Sing Sing Nights
+⟦124⟧ = sports
+⟦125⟧ = State Artist
+⟦126⟧ = stories
+⟦127⟧ = story
+⟦128⟧ = Süleyman Tarık Buğra
+⟦129⟧ = sultan
+⟦130⟧ = Tarık Buğra
+⟦131⟧ = the 1690s
+⟦132⟧ = the 1927 novel
+⟦133⟧ = The character
+⟦134⟧ = the Chinatown underworld
+⟦135⟧ = the country's premier baseball writers
+⟦136⟧ = the court
+⟦137⟧ = the Dublin City Council
+⟦138⟧ = the everyday lives
+⟦139⟧ = The film
+⟦140⟧ = the first known author
+⟦141⟧ = the Kind Keeper
+⟦142⟧ = the most well known author
+⟦143⟧ = The Mysterious Mr. Wong
+⟦144⟧ = the name
+⟦145⟧ = the New York Times best-seller
+⟦146⟧ = The New Yorker
+⟦147⟧ = the novel
+⟦148⟧ = the original story
+⟦149⟧ = the palmtree
+⟦150⟧ = the people
+⟦151⟧ = the poets
+⟦152⟧ = the proverb
+⟦153⟧ = the real life problems
+⟦154⟧ = the Saadian sultan
+⟦155⟧ = The Summer Game
+⟦156⟧ = the title character
+⟦157⟧ = the Twelve Coins
+⟦158⟧ = the wealthy side
+⟦159⟧ = this play
+⟦160⟧ = this time
+⟦161⟧ = this unrest
+⟦162⟧ = this work
+⟦163⟧ = three stories
+⟦164⟧ = Ticket
+⟦165⟧ = time
+⟦166⟧ = title
+⟦167⟧ = tongue
+⟦168⟧ = Traskwood
+⟦169⟧ = Turkish journalist
+⟦170⟧ = type
+⟦171⟧ = underworld
+⟦172⟧ = unrest
+⟦173⟧ = Wallace Ford
+⟦174⟧ = Ward
+⟦175⟧ = well known author
+⟦176⟧ = whose previous works
+⟦177⟧ = William Nigh
+⟦178⟧ = work
+⟦179⟧ = works
+⟦180⟧ = writers
+⟦181⟧ = writing
+⟦182⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Francis Irby Gwaltney] ⟦53⟧⟨1⟩⟦168⟧⟨2⟩⟦29⟧⟨3⟩⟦13⟧⟨4⟩⟦30⟧⟨5⟩
+[Francis Irby Gwaltney] ⟨6⟩⟦142⟧⟨7⟩⟦30⟧⟨8⟩⟦57⟧⟨9⟩⟦34⟧⟨10⟩⟦29⟧⟨11⟩
+[Tarık Buğra] ⟦130⟧⟨12⟩⟦128⟧⟨13⟩⟦5⟧⟨14⟩⟦169⟧⟨15⟩⟦68⟧⟨16⟩⟦92⟧⟨17⟩⟦92⟧⟨18⟩⟦120⟧⟨19⟩⟦127⟧⟨20⟩⟦30⟧⟨21⟩
+[Tarık Buğra] ⟨22⟩⟦175⟧⟨23⟩⟦30⟧⟨24⟩⟦110⟧⟨25⟩⟦72⟧⟨26⟩⟦58⟧⟨27⟩⟦41⟧⟨28⟩
+[Tarık Buğra] ⟨29⟩⟦125⟧⟨30⟩
+[Tarık Buğra] ⟦35⟧⟨31⟩⟦50⟧⟨32⟩⟦50⟧⟨33⟩⟦114⟧⟨34⟩⟦115⟧⟨35⟩
+[Roger Angell] ⟦111⟧⟨36⟩⟦25⟧⟨37⟩⟦49⟧⟨38⟩⟦61⟧⟨39⟩⟦181⟧⟨40⟩⟦124⟧⟨41⟩⟦124⟧⟨42⟩⟦48⟧⟨43⟩⟦31⟧⟨44⟩
+[Roger Angell] ⟨45⟩⟦15⟧⟨46⟩⟦40⟧⟨47⟩⟦146⟧⟨48⟩⟦64⟧⟨49⟩⟦51⟧⟨50⟩⟦46⟧⟨51⟩⟦79⟧⟨52⟩⟦182⟧⟨53⟩
+[Roger Angell] ⟨54⟩⟦94⟧⟨55⟩⟦179⟧⟨56⟩⟦51⟧⟨57⟩⟦51⟧⟨58⟩⟦43⟧⟨59⟩⟦43⟧⟨60⟩⟦79⟧⟨61⟩⟦182⟧⟨62⟩⟦26⟧⟨63⟩⟦100⟧⟨64⟩⟦146⟧⟨65⟩
+[Season Ticket: A Baseball Companion] ⟦116⟧⟨66⟩⟦164⟧⟨67⟩⟦8⟧⟨68⟩⟦7⟧⟨69⟩⟦33⟧⟨70⟩⟦111⟧⟨71⟩⟦176⟧⟨72⟩⟦179⟧⟨73⟩⟦1⟧⟨74⟩⟦117⟧⟨75⟩⟦2⟧⟨76⟩⟦145⟧⟨77⟩⟦118⟧⟨78⟩⟦155⟧⟨79⟩
+[Season Ticket: A Baseball Companion] ⟦28⟧⟨80⟩⟦135⟧⟨81⟩⟦41⟧⟨82⟩⟦31⟧⟨83⟩⟦180⟧⟨84⟩
+[Harry Stephen Keeler] ⟦55⟧⟨85⟩⟦93⟧⟨86⟩⟦66⟧⟨87⟩⟦12⟧⟨88⟩⟦30⟧⟨89⟩⟦86⟧⟨90⟩⟦86⟧⟨91⟩⟦112⟧⟨92⟩⟦113⟧⟨93⟩⟦51⟧⟨94⟩
+[Gerard Mannix Flynn] ⟦54⟧⟨95⟩⟦77⟧⟨96⟩⟦27⟧⟨97⟩⟦104⟧⟨98⟩
+[Gerard Mannix Flynn] ⟨99⟩⟦44⟧⟨100⟩⟦81⟧⟨101⟩
+[Gerard Mannix Flynn] ⟨102⟩⟦60⟧⟨103⟩⟦178⟧⟨104⟩⟦137⟧⟨105⟩⟦18⟧⟨106⟩⟦30⟧⟨107⟩⟦99⟧⟨108⟩⟦99⟧⟨109⟩⟦147⟧⟨110⟩⟦91⟧⟨111⟩⟦98⟧⟨112⟩⟦65⟧⟨113⟩
+[Mr. Limberham; or, the Kind Keeper] ⟦84⟧⟨114⟩⟦141⟧⟨115⟩⟦131⟧⟨116⟩⟦4⟧⟨117⟩⟦17⟧⟨118⟩⟦178⟧⟨119⟩
+[Mr. Limberham; or, the Kind Keeper] ⟦67⟧⟨120⟩⟦16⟧⟨121⟩⟦30⟧⟨122⟩⟦162⟧⟨123⟩⟦178⟧⟨124⟩
+[Mr. Limberham; or, the Kind Keeper] ⟦47⟧⟨125⟩⟦160⟧⟨126⟩⟦165⟧⟨127⟩⟦78⟧⟨128⟩⟦36⟧⟨129⟩
+[Mr. Limberham; or, the Kind Keeper] ⟨130⟩⟦103⟧⟨131⟩⟦36⟧⟨132⟩⟦108⟧⟨133⟩⟦36⟧⟨134⟩⟦9⟧⟨135⟩⟦75⟧⟨136⟩⟦172⟧⟨137⟩⟦172⟧⟨138⟩⟦138⟧⟨139⟩⟦73⟧⟨140⟩⟦150⟧⟨141⟩⟦97⟧⟨142⟩
+[Mr. Limberham; or, the Kind Keeper] ⟨143⟩⟦159⟧⟨144⟩⟦98⟧⟨145⟩⟦90⟧⟨146⟩⟦90⟧⟨147⟩⟦161⟧⟨148⟩⟦172⟧⟨149⟩
+[Mr. Limberham; or, the Kind Keeper] ⟦159⟧⟨150⟩⟦98⟧⟨151⟩⟦97⟧⟨152⟩⟦97⟧⟨153⟩⟦158⟧⟨154⟩⟦121⟧⟨155⟩⟦71⟧⟨156⟩⟦71⟧⟨157⟩⟦153⟧⟨158⟩⟦71⟧⟨159⟩⟦105⟧⟨160⟩⟦95⟧⟨161⟩⟦97⟧⟨162⟩
+[Sing Sing Nights (film)] ⟨163⟩⟦122⟧⟨164⟩⟦6⟧⟨165⟩⟦52⟧⟨166⟩⟦70⟧⟨167⟩⟦132⟧⟨168⟩⟦91⟧⟨169⟩⟦24⟧⟨170⟩⟦62⟧⟨171⟩⟦45⟧⟨172⟩⟦174⟧⟨173⟩⟦74⟧⟨174⟩
+[Abdelaziz al-Maghrawi] ⟦21⟧⟨175⟩⟦20⟧⟨176⟩⟦10⟧⟨177⟩⟦101⟧⟨178⟩⟦140⟧⟨179⟩⟦30⟧⟨180⟩⟦14⟧⟨181⟩⟦76⟧⟨182⟩
+[Abdelaziz al-Maghrawi] ⟨183⟩⟦151⟧⟨184⟩⟦102⟧⟨185⟩⟦136⟧⟨186⟩⟦42⟧⟨187⟩⟦154⟧⟨188⟩⟦129⟧⟨189⟩⟦22⟧⟨190⟩
+[Abdelaziz al-Maghrawi] ⟨191⟩⟦83⟧⟨192⟩
+[Abdelaziz al-Maghrawi] ⟨193⟩⟦59⟧⟨194⟩⟦88⟧⟨195⟩⟦152⟧⟨196⟩⟦106⟧⟨197⟩⟦63⟧⟨198⟩⟦63⟧⟨199⟩⟦149⟧⟨200⟩⟦96⟧⟨201⟩⟦23⟧⟨202⟩
+[The Mysterious Mr. Wong] ⟦143⟧⟨203⟩⟦167⟧⟨204⟩⟦38⟧⟨205⟩⟦38⟧⟨206⟩⟦87⟧⟨207⟩⟦52⟧⟨208⟩⟦32⟧⟨209⟩⟦11⟧⟨210⟩⟦170⟧⟨211⟩⟦80⟧⟨212⟩⟦134⟧⟨213⟩⟦171⟧⟨214⟩⟦173⟧⟨215⟩⟦19⟧⟨216⟩⟦109⟧⟨217⟩
+[The Mysterious Mr. Wong] ⟦139⟧⟨218⟩⟦52⟧⟨219⟩⟦56⟧⟨220⟩⟦127⟧⟨221⟩⟦3⟧⟨222⟩⟦157⟧⟨223⟩⟦39⟧⟨224⟩⟦163⟧⟨225⟩⟦126⟧⟨226⟩⟦69⟧⟨227⟩⟦33⟧⟨228⟩⟦123⟧⟨229⟩
+[The Mysterious Mr. Wong] ⟨230⟩⟦144⟧⟨231⟩⟦88⟧⟨232⟩⟦156⟧⟨233⟩⟦166⟧⟨234⟩⟦37⟧⟨235⟩⟦177⟧⟨236⟩⟦89⟧⟨237⟩⟦107⟧⟨238⟩⟦82⟧⟨239⟩⟦52⟧⟨240⟩⟦119⟧⟨241⟩
+[The Mysterious Mr. Wong] ⟦133⟧⟨242⟩⟦37⟧⟨243⟩⟦85⟧⟨244⟩⟦148⟧⟨245⟩⟦127⟧⟨246⟩
+
+[user]
+
+问题：
+Who is considered the more well known author, Roger Angell or Harry Stephen Keeler?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

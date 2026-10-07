@@ -1,0 +1,25 @@
+# 路径一：从决赛场地直接提取
+
+步骤1：使用⟦102⟧，提取“The 2011 UEFA Champions League Final”这一事件的基本信息，判断其举办地点相关描述。
+步骤2：综合⟦168⟧⟦61⟧，交叉验证：⟦168⟧为“Wembley Stadium”，⟦61⟧为“London”，两者共同指向伦敦的温布利球场。
+步骤3：使用⟦13⟧，提取决赛日期“28 May”，确认该决赛即为2011年欧冠决赛，其场地信息与⟦168⟧一致。
+
+结论：2011年欧冠决赛在伦敦的温布利球场（Wembley Stadium）举行。
+
+# 路径二：从淘汰赛阶段文本中定位决赛场地
+
+步骤1：使用⟦97⟧，提取“the 2010–11 UEFA Champions League”这一赛事整体信息。
+步骤2：综合⟦51⟧⟦52⟧⟦53⟧⟦54⟧⟦55⟧⟦56⟧⟦57⟧⟦58⟧，还原淘汰赛阶段描述：该阶段“began on 15 February and concluded on 28 May 2011 with the final at Wembley Stadium in London, England.”。
+步骤3：使用⟦41⟧，提取“England”，与⟦61⟧“London”形成地理层级验证，确认决赛场地所在城市为伦敦。
+步骤4：使用⟦168⟧，直接提取“Wembley Stadium”，与上述描述中的“final at”对应。
+
+结论：淘汰赛阶段文本明确指出决赛在伦敦的温布利球场举行。
+
+# 路径三：交叉验证两处材料中的场地一致性
+
+步骤1：使用⟦102⟧，提取“The 2011 UEFA Champions League Final”作为独立事件条目。
+步骤2：综合⟦266⟧⟦269⟧⟦270⟧⟦271⟧⟦272⟧，还原该决赛描述：“was played on 28 May 2011 at Wembley Stadium in London that decided the winner of the UEFA Champions League.”。
+步骤3：综合⟦97⟧⟦131⟧⟦70⟧，对比淘汰赛阶段与决赛的关系：淘汰赛阶段（⟦131⟧）属于2010–11欧冠（⟦97⟧）的一部分，其决赛场地与独立决赛条目（⟦102⟧）描述一致。
+步骤4：使用⟦168⟧⟦61⟧，确认两处材料均指向同一地点：Wembley Stadium, London。
+
+结论：两处材料交叉验证一致，2010–11欧冠淘汰赛阶段与2011欧冠决赛均在伦敦的温布利球场举行。

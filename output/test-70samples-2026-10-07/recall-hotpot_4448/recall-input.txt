@@ -1,0 +1,323 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 1983 television productions
+⟦2⟧ = a 1989 dark fantasy film
+⟦3⟧ = a 2012 American psychological slasher horror film
+⟦4⟧ = a child actress
+⟦5⟧ = a detective
+⟦6⟧ = a few episodes
+⟦7⟧ = a fictional character
+⟦8⟧ = a former American college and professional football player
+⟦9⟧ = a former child actress
+⟦10⟧ = a job
+⟦11⟧ = a law professor
+⟦12⟧ = a list
+⟦13⟧ = a murder plot
+⟦14⟧ = a night
+⟦15⟧ = a number
+⟦16⟧ = a Philadelphia-based associate attorney
+⟦17⟧ = a phrase
+⟦18⟧ = a prestigious Philadelphia university
+⟦19⟧ = a punter
+⟦20⟧ = a Rebel
+⟦21⟧ = a screenplay
+⟦22⟧ = a television reporter
+⟦23⟧ = ABC
+⟦24⟧ = ABC Studios
+⟦25⟧ = ABC's "Scandal
+⟦26⟧ = actress
+⟦27⟧ = adaptation
+⟦28⟧ = aide
+⟦29⟧ = Airport
+⟦30⟧ = airs
+⟦31⟧ = Aja Naomi King
+⟦32⟧ = Aleks Darowska
+⟦33⟧ = Alfred Enoch
+⟦34⟧ = an adaptation
+⟦35⟧ = an American actress
+⟦36⟧ = an American CBS television comedy
+⟦37⟧ = an American drama television series
+⟦38⟧ = an American legal drama television series
+⟦39⟧ = an associate lawyer
+⟦40⟧ = an eclectic group
+⟦41⟧ = an ensemble cast
+⟦42⟧ = Andrew James Allen
+⟦43⟧ = Annalise Keating
+⟦44⟧ = Annalise Keating's firm
+⟦45⟧ = Annalise's employees
+⟦46⟧ = Annalise's lover
+⟦47⟧ = another series
+⟦48⟧ = Asher Millstone
+⟦49⟧ = attorney
+⟦50⟧ = attorney Bonnie Winterbottom
+⟦51⟧ = Billy Brown
+⟦52⟧ = Bonnie
+⟦53⟧ = Bonnie Franklin's daughter
+⟦54⟧ = Bonnie Hunt
+⟦55⟧ = Bonnie Kelly
+⟦56⟧ = Bonnie Willoughby
+⟦57⟧ = Bonnie Winterbottom
+⟦58⟧ = book
+⟦59⟧ = bore
+⟦60⟧ = both VHS
+⟦61⟧ = box
+⟦62⟧ = British television
+⟦63⟧ = Caitlin Gerard
+⟦64⟧ = cast
+⟦65⟧ = character
+⟦66⟧ = characters
+⟦67⟧ = Charles Schulz Peanuts characters
+⟦68⟧ = Charlie Weber
+⟦69⟧ = Chicago
+⟦70⟧ = child
+⟦71⟧ = Cincinnati
+⟦72⟧ = college
+⟦73⟧ = college football
+⟦74⟧ = comedy
+⟦75⟧ = commercials
+⟦76⟧ = company
+⟦77⟧ = Connor Walsh
+⟦78⟧ = Conrad Ricamora
+⟦79⟧ = Cookies
+⟦80⟧ = cousin
+⟦81⟧ = cover
+⟦82⟧ = coworkers
+⟦83⟧ = criminal defense attorney
+⟦84⟧ = daughter
+⟦85⟧ = David Letterman
+⟦86⟧ = defense
+⟦87⟧ = detective
+⟦88⟧ = drama
+⟦89⟧ = DVD
+⟦90⟧ = Each episode
+⟦91⟧ = employees
+⟦92⟧ = episode
+⟦93⟧ = episodes
+⟦94⟧ = every episode's title
+⟦95⟧ = exception
+⟦96⟧ = fantasy
+⟦97⟧ = film
+⟦98⟧ = Films
+⟦99⟧ = firm
+⟦100⟧ = five interns
+⟦101⟧ = football
+⟦102⟧ = Frank Delfino
+⟦103⟧ = Gilmore Girls
+⟦104⟧ = group
+⟦105⟧ = her cousin Sylvia
+⟦106⟧ = her employees
+⟦107⟧ = her law firm
+⟦108⟧ = her role
+⟦109⟧ = her roles
+⟦110⟧ = her students
+⟦111⟧ = Herb Tarlek's daughter
+⟦112⟧ = horror
+⟦113⟧ = interns
+⟦114⟧ = Irina
+⟦115⟧ = its Netflix revival
+⟦116⟧ = Jack Falahee
+⟦117⟧ = Jack Lee Weil
+⟦118⟧ = James
+⟦119⟧ = Jane Horrocks
+⟦120⟧ = Joan Aiken
+⟦121⟧ = job
+⟦122⟧ = Karla Souza
+⟦123⟧ = Keating's students
+⟦124⟧ = Keith David
+⟦125⟧ = Laurel Castillo
+⟦126⟧ = law
+⟦127⟧ = lawyer
+⟦128⟧ = Letitia Slighcarp
+⟦129⟧ = Level 10 Films
+⟦130⟧ = list
+⟦131⟧ = Liza Rebecca Weil
+⟦132⟧ = Liza Weil
+⟦133⟧ = lover
+⟦134⟧ = Margaret Sanger
+⟦135⟧ = Matt McGorry
+⟦136⟧ = McDonald
+⟦137⟧ = Mel Smith
+⟦138⟧ = Melanie Papalia
+⟦139⟧ = Michael Gallagher
+⟦140⟧ = Michaela Pratt
+⟦141⟧ = mid-1980s
+⟦142⟧ = Middleton University
+⟦143⟧ = movie
+⟦144⟧ = Mr. Grimshaw
+⟦145⟧ = Murder
+⟦146⟧ = mystery
+⟦147⟧ = name
+⟦148⟧ = New York
+⟦149⟧ = Newcomers Emily Hudson
+⟦150⟧ = NFL
+⟦151⟧ = night
+⟦152⟧ = number
+⟦153⟧ = October
+⟦154⟧ = over a hundred commercials
+⟦155⟧ = Paris Geller
+⟦156⟧ = part
+⟦157⟧ = parts
+⟦158⟧ = Pattern
+⟦159⟧ = people
+⟦160⟧ = Peter Nowalk
+⟦161⟧ = phrase
+⟦162⟧ = pilot
+⟦163⟧ = player
+⟦164⟧ = plot
+⟦165⟧ = Portrait
+⟦166⟧ = premiere
+⟦167⟧ = production
+⟦168⟧ = productions
+⟦169⟧ = professor
+⟦170⟧ = Professor Annalise Keating
+⟦171⟧ = punter
+⟦172⟧ = questions
+⟦173⟧ = real people
+⟦174⟧ = reporter
+⟦175⟧ = revival
+⟦176⟧ = Rhimes's ShondaLand production company
+⟦177⟧ = Richard O'Brien
+⟦178⟧ = ridiculous questions
+⟦179⟧ = role
+⟦180⟧ = roles
+⟦181⟧ = Sally Brown
+⟦182⟧ = Scandal
+⟦183⟧ = scenes
+⟦184⟧ = screenplay
+⟦185⟧ = season
+⟦186⟧ = seasons
+⟦187⟧ = September
+⟦188⟧ = series
+⟦189⟧ = Shane Dawson
+⟦190⟧ = Shonda Rhimes
+⟦191⟧ = show
+⟦192⟧ = similarities
+⟦193⟧ = slasher
+⟦194⟧ = Smiley
+⟦195⟧ = Snoopy Show
+⟦196⟧ = Stacy
+⟦197⟧ = Stacy Heather Tolkin
+⟦198⟧ = stars
+⟦199⟧ = Stephanie Beacham
+⟦200⟧ = Stuart Orme
+⟦201⟧ = students
+⟦202⟧ = television
+⟦203⟧ = that episode
+⟦204⟧ = the 1962 book
+⟦205⟧ = the American Broadcasting Company (ABC) legal drama mystery television series
+⟦206⟧ = The Bonnie Hunt Show
+⟦207⟧ = The cast
+⟦208⟧ = the characters
+⟦209⟧ = The Charlie Brown
+⟦210⟧ = The Concorde
+⟦211⟧ = the cover
+⟦212⟧ = the Denver Broncos
+⟦213⟧ = the drama's premiere
+⟦214⟧ = the exception
+⟦215⟧ = The film
+⟦216⟧ = The film stars
+⟦217⟧ = the first season
+⟦218⟧ = the Kellogg's Corn Flakes box
+⟦219⟧ = the main cast
+⟦220⟧ = the main characters
+⟦221⟧ = the mid-1980s
+⟦222⟧ = the National Football League
+⟦223⟧ = the NFL
+⟦224⟧ = the part
+⟦225⟧ = the Philadelphia Police Department
+⟦226⟧ = the pilot
+⟦227⟧ = the previous two seasons
+⟦228⟧ = the same name
+⟦229⟧ = The series
+⟦230⟧ = The show
+⟦231⟧ = The show bore similarities
+⟦232⟧ = the TV movie
+⟦233⟧ = the University
+⟦234⟧ = the various seasons
+⟦235⟧ = the Washington Redskins
+⟦236⟧ = the WB/CW series
+⟦237⟧ = The Wolves
+⟦238⟧ = These scenes
+⟦239⟧ = title
+⟦240⟧ = Toby Turner
+⟦241⟧ = Tolkin
+⟦242⟧ = Truffles
+⟦243⟧ = TV
+⟦244⟧ = two seasons
+⟦245⟧ = university
+⟦246⟧ = Viola Davis stars
+⟦247⟧ = Weil
+⟦248⟧ = Wes Gibbins
+⟦249⟧ = White House aide Amanda Tanner
+⟦250⟧ = William M. Akers
+⟦251⟧ = Willoughby Chase
+⟦252⟧ = Wisconsin
+⟦253⟧ = WKRP
+⟦254⟧ = Wolves
+⟦255⟧ = Wyoming
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Bonnie Winterbottom] ⟦57⟧⟨1⟩⟦7⟧⟨2⟩⟦65⟧⟨3⟩⟦160⟧⟨4⟩
+[Bonnie Winterbottom] ⟨5⟩⟦132⟧⟨6⟩⟦16⟧⟨7⟩⟦49⟧⟨8⟩⟦44⟧⟨9⟩⟦99⟧⟨10⟩⟦220⟧⟨11⟩⟦66⟧⟨12⟩⟦205⟧⟨13⟩⟦88⟧⟨14⟩⟦146⟧⟨15⟩⟦202⟧⟨16⟩⟦188⟧⟨17⟩⟦145⟧⟨18⟩⟦145⟧⟨19⟩
+[List of How to Get Away with Murder episodes] ⟨20⟩⟦145⟧⟨21⟩⟦145⟧⟨22⟩⟦38⟧⟨23⟩⟦88⟧⟨24⟩⟦202⟧⟨25⟩⟦188⟧⟨26⟩⟦30⟧⟨27⟩⟦23⟧⟨28⟩⟦187⟧⟨29⟩
+[List of How to Get Away with Murder episodes] ⟦229⟧⟨30⟩⟦188⟧⟨31⟩⟦170⟧⟨32⟩⟦11⟧⟨33⟩⟦126⟧⟨34⟩⟦169⟧⟨35⟩⟦83⟧⟨36⟩⟦86⟧⟨37⟩⟦49⟧⟨38⟩⟦142⟧⟨39⟩⟦100⟧⟨40⟩⟦113⟧⟨41⟩⟦107⟧⟨42⟩⟦126⟧⟨43⟩⟦99⟧⟨44⟩⟦248⟧⟨45⟩⟦77⟧⟨46⟩⟦140⟧⟨47⟩⟦48⟧⟨48⟩⟦125⟧⟨49⟩⟦45⟧⟨50⟩⟦91⟧⟨51⟩⟦102⟧⟨52⟩⟦57⟧⟨53⟩⟦39⟧⟨54⟩⟦127⟧⟨55⟩
+[List of How to Get Away with Murder episodes] ⟨56⟩⟦214⟧⟨57⟩⟦95⟧⟨58⟩⟦226⟧⟨59⟩⟦162⟧⟨60⟩⟦94⟧⟨61⟩⟦92⟧⟨62⟩⟦239⟧⟨63⟩⟦17⟧⟨64⟩⟦161⟧⟨65⟩⟦208⟧⟨66⟩⟦66⟧⟨67⟩⟦203⟧⟨68⟩⟦92⟧⟨69⟩
+[The Wolves of Willoughby Chase (film)] ⟦237⟧⟨70⟩⟦254⟧⟨71⟩⟦251⟧⟨72⟩⟦2⟧⟨73⟩⟦96⟧⟨74⟩⟦97⟧⟨75⟩⟦200⟧⟨76⟩⟦21⟧⟨77⟩⟦184⟧⟨78⟩⟦250⟧⟨79⟩
+[The Wolves of Willoughby Chase (film)] ⟦207⟧⟨80⟩⟦64⟧⟨81⟩⟦199⟧⟨82⟩⟦128⟧⟨83⟩⟦137⟧⟨84⟩⟦144⟧⟨85⟩⟦177⟧⟨86⟩⟦118⟧⟨87⟩⟦119⟧⟨88⟩⟦158⟧⟨89⟩
+[The Wolves of Willoughby Chase (film)] ⟦149⟧⟨90⟩⟦32⟧⟨91⟩⟦56⟧⟨92⟩⟦105⟧⟨93⟩⟦80⟧⟨94⟩
+[The Wolves of Willoughby Chase (film)] ⟦215⟧⟨95⟩⟦97⟧⟨96⟩⟦34⟧⟨97⟩⟦27⟧⟨98⟩⟦204⟧⟨99⟩⟦58⟧⟨100⟩⟦228⟧⟨101⟩⟦147⟧⟨102⟩⟦120⟧⟨103⟩
+[The Wolves of Willoughby Chase (film)] ⟨104⟩⟦62⟧⟨105⟩⟦202⟧⟨106⟩⟦60⟧⟨107⟩⟦89⟧⟨108⟩
+[How to Get Away with Murder] ⟨109⟩⟦145⟧⟨110⟩⟦145⟧⟨111⟩⟦37⟧⟨112⟩⟦88⟧⟨113⟩⟦202⟧⟨114⟩⟦188⟧⟨115⟩⟦23⟧⟨116⟩⟦187⟧⟨117⟩
+[How to Get Away with Murder] ⟦229⟧⟨118⟩⟦188⟧⟨119⟩⟦160⟧⟨120⟩⟦190⟧⟨121⟩⟦24⟧⟨122⟩
+[How to Get Away with Murder] ⟦229⟧⟨123⟩⟦188⟧⟨124⟩⟦23⟧⟨125⟩⟦156⟧⟨126⟩⟦156⟧⟨127⟩⟦14⟧⟨128⟩⟦151⟧⟨129⟩⟦176⟧⟨130⟩⟦167⟧⟨131⟩⟦76⟧⟨132⟩
+[Smiley (2012 film)] ⟦194⟧⟨133⟩⟦3⟧⟨134⟩⟦193⟧⟨135⟩⟦112⟧⟨136⟩⟦97⟧⟨137⟩⟦139⟧⟨138⟩⟦129⟧⟨139⟩⟦98⟧⟨140⟩
+[Smiley (2012 film)] ⟦216⟧⟨141⟩⟦97⟧⟨142⟩⟦198⟧⟨143⟩⟦63⟧⟨144⟩⟦138⟧⟨145⟩⟦124⟧⟨146⟩⟦189⟧⟨147⟩⟦42⟧⟨148⟩⟦240⟧⟨149⟩⟦132⟧⟨150⟩
+[Smiley (2012 film)] ⟦215⟧⟨151⟩⟦97⟧⟨152⟩⟦153⟧⟨153⟩
+[List of How to Get Away with Murder characters] ⟨154⟩⟦145⟧⟨155⟩⟦145⟧⟨156⟩⟦37⟧⟨157⟩⟦88⟧⟨158⟩⟦202⟧⟨159⟩⟦188⟧⟨160⟩⟦23⟧⟨161⟩⟦187⟧⟨162⟩
+[List of How to Get Away with Murder characters] ⟦229⟧⟨163⟩⟦188⟧⟨164⟩⟦160⟧⟨165⟩⟦190⟧⟨166⟩⟦24⟧⟨167⟩
+[List of How to Get Away with Murder characters] ⟦246⟧⟨168⟩⟦198⟧⟨169⟩⟦43⟧⟨170⟩⟦11⟧⟨171⟩⟦126⟧⟨172⟩⟦169⟧⟨173⟩⟦18⟧⟨174⟩⟦245⟧⟨175⟩⟦110⟧⟨176⟩⟦201⟧⟨177⟩⟦13⟧⟨178⟩⟦145⟧⟨179⟩⟦164⟧⟨180⟩
+[List of How to Get Away with Murder characters] ⟦230⟧⟨181⟩⟦191⟧⟨182⟩⟦41⟧⟨183⟩⟦64⟧⟨184⟩⟦33⟧⟨185⟩⟦116⟧⟨186⟩⟦31⟧⟨187⟩⟦135⟧⟨188⟩⟦122⟧⟨189⟩⟦123⟧⟨190⟩⟦201⟧⟨191⟩⟦68⟧⟨192⟩⟦132⟧⟨193⟩⟦106⟧⟨194⟩⟦91⟧⟨195⟩⟦51⟧⟨196⟩⟦5⟧⟨197⟩⟦87⟧⟨198⟩⟦225⟧⟨199⟩⟦46⟧⟨200⟩⟦133⟧⟨201⟩
+[List of How to Get Away with Murder characters] ⟨202⟩⟦185⟧⟨203⟩⟦185⟧⟨204⟩⟦78⟧⟨205⟩⟦219⟧⟨206⟩⟦64⟧⟨207⟩⟦227⟧⟨208⟩⟦186⟧⟨209⟩
+[List of How to Get Away with Murder characters] ⟨210⟩⟦12⟧⟨211⟩⟦130⟧⟨212⟩⟦66⟧⟨213⟩⟦66⟧⟨214⟩⟦234⟧⟨215⟩⟦186⟧⟨216⟩⟦213⟧⟨217⟩⟦88⟧⟨218⟩⟦166⟧⟨219⟩
+[Stacy Heather Tolkin] ⟦196⟧⟨220⟩⟦197⟧⟨221⟩⟦9⟧⟨222⟩⟦70⟧⟨223⟩⟦26⟧⟨224⟩⟦224⟧⟨225⟩⟦156⟧⟨226⟩⟦114⟧⟨227⟩⟦210⟧⟨228⟩⟦29⟧⟨229⟩⟦29⟧⟨230⟩⟦15⟧⟨231⟩⟦152⟧⟨232⟩⟦1⟧⟨233⟩⟦202⟧⟨234⟩⟦168⟧⟨235⟩⟦67⟧⟨236⟩⟦66⟧⟨237⟩
+[Stacy Heather Tolkin] ⟦241⟧⟨238⟩⟦181⟧⟨239⟩⟦242⟧⟨240⟩⟦209⟧⟨241⟩⟦195⟧⟨242⟩
+[Stacy Heather Tolkin] ⟨243⟩⟦111⟧⟨244⟩⟦84⟧⟨245⟩⟦6⟧⟨246⟩⟦93⟧⟨247⟩⟦253⟧⟨248⟩⟦71⟧⟨249⟩
+[Stacy Heather Tolkin] ⟨250⟩⟦4⟧⟨251⟩⟦70⟧⟨252⟩⟦26⟧⟨253⟩⟦241⟧⟨254⟩⟦154⟧⟨255⟩⟦75⟧⟨256⟩⟦136⟧⟨257⟩⟦79⟧⟨258⟩
+[Stacy Heather Tolkin] ⟨259⟩⟦211⟧⟨260⟩⟦81⟧⟨261⟩⟦218⟧⟨262⟩⟦61⟧⟨263⟩
+[Stacy Heather Tolkin] ⟦241⟧⟨264⟩⟦53⟧⟨265⟩⟦84⟧⟨266⟩⟦232⟧⟨267⟩⟦243⟧⟨268⟩⟦143⟧⟨269⟩⟦165⟧⟨270⟩⟦165⟧⟨271⟩⟦20⟧⟨272⟩⟦134⟧⟨273⟩
+[Bonnie (TV series)] ⟦52⟧⟨274⟩⟦206⟧⟨275⟩⟦36⟧⟨276⟩⟦202⟧⟨277⟩⟦74⟧⟨278⟩
+[Bonnie (TV series)] ⟦54⟧⟨279⟩⟦55⟧⟨280⟩⟦22⟧⟨281⟩⟦202⟧⟨282⟩⟦174⟧⟨283⟩⟦252⟧⟨284⟩⟦10⟧⟨285⟩⟦121⟧⟨286⟩⟦69⟧⟨287⟩
+[Bonnie (TV series)] ⟨288⟩⟦40⟧⟨289⟩⟦104⟧⟨290⟩⟦82⟧⟨291⟩⟦82⟧⟨292⟩
+[Bonnie (TV series)] ⟦90⟧⟨293⟩⟦92⟧⟨294⟩⟦157⟧⟨295⟩⟦157⟧⟨296⟩⟦52⟧⟨297⟩⟦173⟧⟨298⟩⟦159⟧⟨299⟩⟦178⟧⟨300⟩⟦172⟧⟨301⟩
+[Bonnie (TV series)] ⟦238⟧⟨302⟩⟦183⟧⟨303⟩
+[Bonnie (TV series)] ⟦231⟧⟨304⟩⟦191⟧⟨305⟩⟦59⟧⟨306⟩⟦192⟧⟨307⟩⟦47⟧⟨308⟩⟦188⟧⟨309⟩⟦85⟧⟨310⟩⟦148⟧⟨311⟩
+[Liza Weil] ⟦131⟧⟨312⟩⟦35⟧⟨313⟩⟦26⟧⟨314⟩⟦108⟧⟨315⟩⟦179⟧⟨316⟩⟦155⟧⟨317⟩⟦236⟧⟨318⟩⟦188⟧⟨319⟩⟦103⟧⟨320⟩⟦115⟧⟨321⟩⟦175⟧⟨322⟩
+[Liza Weil] ⟨323⟩⟦109⟧⟨324⟩⟦180⟧⟨325⟩⟦249⟧⟨326⟩⟦28⟧⟨327⟩⟦217⟧⟨328⟩⟦185⟧⟨329⟩⟦25⟧⟨330⟩⟦182⟧⟨331⟩⟦49⟧⟨332⟩⟦50⟧⟨333⟩⟦23⟧⟨334⟩⟦145⟧⟨335⟩⟦145⟧⟨336⟩
+[Jack Weil (American football)] ⟦117⟧⟨337⟩⟦8⟧⟨338⟩⟦72⟧⟨339⟩⟦101⟧⟨340⟩⟦163⟧⟨341⟩⟦19⟧⟨342⟩⟦171⟧⟨343⟩⟦222⟧⟨344⟩⟦150⟧⟨345⟩⟦244⟧⟨346⟩⟦186⟧⟨347⟩⟦221⟧⟨348⟩⟦141⟧⟨349⟩
+[Jack Weil (American football)] ⟦247⟧⟨350⟩⟦72⟧⟨351⟩⟦73⟧⟨352⟩⟦101⟧⟨353⟩⟦233⟧⟨354⟩⟦255⟧⟨355⟩⟦212⟧⟨356⟩⟦235⟧⟨357⟩⟦223⟧⟨358⟩
+
+[user]
+
+问题：
+Who created the series in which Liza Weil played Bonnie Winterbottom?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

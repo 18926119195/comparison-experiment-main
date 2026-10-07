@@ -1,0 +1,391 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = -100/-200
+⟦2⟧ = -size, narrow-body twin-engine jet airliner
+⟦3⟧ = (previously "Boeing Charleston
+⟦4⟧ = 11 mi
+⟦5⟧ = 145 and 188 passengers
+⟦6⟧ = 181 to 375 people
+⟦7⟧ = 200 to 295 passengers
+⟦8⟧ = 200000 sqft
+⟦9⟧ = 314 to 396 passengers
+⟦10⟧ = 737 aircraft
+⟦11⟧ = 757
+⟦12⟧ = 787s
+⟦13⟧ = a $30.8 billion budget
+⟦14⟧ = a 50/50 partnership
+⟦15⟧ = a 57,920 sqft facility
+⟦16⟧ = a blade-shaped tail cone
+⟦17⟧ = a Boeing 757
+⟦18⟧ = a city
+⟦19⟧ = a common type rating
+⟦20⟧ = a conventional tail
+⟦21⟧ = a design range
+⟦22⟧ = a family
+⟦23⟧ = a growing number
+⟦24⟧ = a lengthened fuselage
+⟦25⟧ = a maximum
+⟦26⟧ = a mid
+⟦27⟧ = a mid-
+⟦28⟧ = a narrow-body twinjet
+⟦29⟧ = a number
+⟦30⟧ = a range
+⟦31⟧ = a smaller wide-body airliner
+⟦32⟧ = a supercritical wing design
+⟦33⟧ = a training facility
+⟦34⟧ = a two-crew glass cockpit
+⟦35⟧ = a two-crew member glass cockpit, turbofan engines
+⟦36⟧ = a typical seating capacity
+⟦37⟧ = a wide-body jet airliner
+⟦38⟧ = a wide-body twinjet
+⟦39⟧ = air
+⟦40⟧ = aircraft
+⟦41⟧ = airliner
+⟦42⟧ = airliners
+⟦43⟧ = airlines
+⟦44⟧ = airplanes
+⟦45⟧ = aisle
+⟦46⟧ = Albaugh
+⟦47⟧ = altitudes
+⟦48⟧ = an assembly site
+⟦49⟧ = any aircraft
+⟦50⟧ = area
+⟦51⟧ = assembly
+⟦52⟧ = assets
+⟦53⟧ = avionics
+⟦54⟧ = blade
+⟦55⟧ = body
+⟦56⟧ = Boeing
+⟦57⟧ = Boeing commercial aircraft
+⟦58⟧ = Boeing Commercial Airplanes
+⟦59⟧ = Boeing Commercial Airplanes Division
+⟦60⟧ = Boeing Defense
+⟦61⟧ = Boeing jet airliners
+⟦62⟧ = Boeing South Carolina
+⟦63⟧ = Boeing's Commercial Airplanes division
+⟦64⟧ = Boeing's first wide-body twinjet
+⟦65⟧ = both aircraft
+⟦66⟧ = budget
+⟦67⟧ = business
+⟦68⟧ = bypass
+⟦69⟧ = capacities
+⟦70⟧ = capacity
+⟦71⟧ = census
+⟦72⟧ = centers
+⟦73⟧ = CFM International CFM56 high bypass ratio turbofan engines
+⟦74⟧ = Chief Executive Officer
+⟦75⟧ = city
+⟦76⟧ = clay
+⟦77⟧ = clay production
+⟦78⟧ = coal
+⟦79⟧ = coal mining
+⟦80⟧ = cockpit
+⟦81⟧ = commercial airplanes
+⟦82⟧ = company
+⟦83⟧ = computer
+⟦84⟧ = computer-aided design
+⟦85⟧ = computer-mediated controls
+⟦86⟧ = cone
+⟦87⟧ = consultation
+⟦88⟧ = controls
+⟦89⟧ = crew
+⟦90⟧ = cross
+⟦91⟧ = customers
+⟦92⟧ = defense
+⟦93⟧ = delivery
+⟦94⟧ = delivery points
+⟦95⟧ = delivery site
+⟦96⟧ = descent
+⟦97⟧ = design
+⟦98⟧ = Development
+⟦99⟧ = diameter
+⟦100⟧ = difference
+⟦101⟧ = distinguishing
+⟦102⟧ = division
+⟦103⟧ = Donald J. Trump's private jet
+⟦104⟧ = downtown
+⟦105⟧ = downtown Seattle
+⟦106⟧ = drag
+⟦107⟧ = each main landing gear
+⟦108⟧ = earlier aircraft
+⟦109⟧ = economy
+⟦110⟧ = efficiency
+⟦111⟧ = eight major airlines
+⟦112⟧ = employees
+⟦113⟧ = employment
+⟦114⟧ = engine
+⟦115⟧ = engines
+⟦116⟧ = European descent
+⟦117⟧ = export
+⟦118⟧ = facility
+⟦119⟧ = factories
+⟦120⟧ = family
+⟦121⟧ = features
+⟦122⟧ = fishing
+⟦123⟧ = fully circular fuselage cross
+⟦124⟧ = fuselage
+⟦125⟧ = GE Aviation
+⟦126⟧ = gear
+⟦127⟧ = generation
+⟦128⟧ = glass
+⟦129⟧ = Global Aeronautica
+⟦130⟧ = growth
+⟦131⟧ = healthcare
+⟦132⟧ = healthcare organizations
+⟦133⟧ = higher altitudes
+⟦134⟧ = his retirement
+⟦135⟧ = IKEA
+⟦136⟧ = improved efficiency
+⟦137⟧ = Improvements
+⟦138⟧ = incarnation
+⟦139⟧ = increased passenger capacity
+⟦140⟧ = industry
+⟦141⟧ = investment
+⟦142⟧ = its distinguishing features
+⟦143⟧ = its early economy
+⟦144⟧ = its first airliner
+⟦145⟧ = its former suppliers
+⟦146⟧ = James "Jim" F. Albaugh
+⟦147⟧ = jet
+⟦148⟧ = Jim Albaugh
+⟦149⟧ = June
+⟦150⟧ = Kaiser Permanente
+⟦151⟧ = King County
+⟦152⟧ = Lake Washington
+⟦153⟧ = landing
+⟦154⟧ = large-size
+⟦155⟧ = long an important salmon fishing area
+⟦156⟧ = long-range wide-body twin-engine jet airliners
+⟦157⟧ = long-range, wide-body twin-engine jet airliner
+⟦158⟧ = managers
+⟦159⟧ = manufacturer
+⟦160⟧ = manufacturing
+⟦161⟧ = market
+⟦162⟧ = maximum
+⟦163⟧ = media
+⟦164⟧ = member
+⟦165⟧ = mi
+⟦166⟧ = mid
+⟦167⟧ = mid-
+⟦168⟧ = mining
+⟦169⟧ = models
+⟦170⟧ = mouth
+⟦171⟧ = Native Americans
+⟦172⟧ = North Charleston
+⟦173⟧ = Nov.
+⟦174⟧ = number
+⟦175⟧ = October
+⟦176⟧ = older wide-body airliners
+⟦177⟧ = organizations
+⟦178⟧ = over 70,000 employees
+⟦179⟧ = Paccar
+⟦180⟧ = part
+⟦181⟧ = partnership
+⟦182⟧ = passenger
+⟦183⟧ = passengers
+⟦184⟧ = people
+⟦185⟧ = pilots
+⟦186⟧ = point
+⟦187⟧ = points
+⟦188⟧ = population
+⟦189⟧ = power
+⟦190⟧ = production
+⟦191⟧ = Providence Health
+⟦192⟧ = purchases
+⟦193⟧ = range
+⟦194⟧ = rapid investment
+⟦195⟧ = rating
+⟦196⟧ = ratio
+⟦197⟧ = reduced aerodynamic drag
+⟦198⟧ = relatively short runways
+⟦199⟧ = Renton
+⟦200⟧ = retirement
+⟦201⟧ = routes
+⟦202⟧ = runways
+⟦203⟧ = salmon
+⟦204⟧ = seating
+⟦205⟧ = section
+⟦206⟧ = September
+⟦207⟧ = series
+⟦208⟧ = Services
+⟦209⟧ = shared design features
+⟦210⟧ = shared features pilots
+⟦211⟧ = shore
+⟦212⟧ = short and medium routes
+⟦213⟧ = short- to medium-range, narrow-body jet airliners
+⟦214⟧ = site
+⟦215⟧ = six wheels
+⟦216⟧ = size
+⟦217⟧ = South Carolina
+⟦218⟧ = South Carolina-built 787s
+⟦219⟧ = southeast
+⟦220⟧ = sqft
+⟦221⟧ = state
+⟦222⟧ = sufficient power
+⟦223⟧ = suppliers
+⟦224⟧ = tail
+⟦225⟧ = takeoffs
+⟦226⟧ = tandem
+⟦227⟧ = technology
+⟦228⟧ = that capacity
+⟦229⟧ = the -300/-400 models
+⟦230⟧ = the -300/-400/-500 series
+⟦231⟧ = the "Triple Seven
+⟦232⟧ = the 2010 census
+⟦233⟧ = the 737 Classic
+⟦234⟧ = the 757
+⟦235⟧ = the 8th largest city
+⟦236⟧ = the air assets
+⟦237⟧ = The aircraft
+⟦238⟧ = the Boeing
+⟦239⟧ = The Boeing 737 Classic
+⟦240⟧ = the Boeing 737 family
+⟦241⟧ = The Boeing 757
+⟦242⟧ = the Boeing 787 Dreamliner
+⟦243⟧ = The Boeing Business Jet
+⟦244⟧ = The Boeing Business Jet series
+⟦245⟧ = the Boeing Commercial Airplanes business unit
+⟦246⟧ = The Boeing Company
+⟦247⟧ = The Boeing South Carolina Delivery Center
+⟦248⟧ = the capacity difference
+⟦249⟧ = the Cedar River
+⟦250⟧ = the Coast
+⟦251⟧ = the company
+⟦252⟧ = the corporate jet market
+⟦253⟧ = The current incarnation
+⟦254⟧ = the defense industry's best paid managers
+⟦255⟧ = the eastern United States
+⟦256⟧ = the final assembly point
+⟦257⟧ = the first commercial aircraft
+⟦258⟧ = the former Executive Vice President
+⟦259⟧ = the largest 747 version
+⟦260⟧ = the largest commercial aircraft
+⟦261⟧ = the largest employment centers
+⟦262⟧ = the largest-diameter turbofan engines
+⟦263⟧ = the longest passenger aircraft
+⟦264⟧ = the major manufacturing
+⟦265⟧ = the manufacturer's largest single-aisle passenger aircraft
+⟦266⟧ = the media
+⟦267⟧ = the mouth
+⟦268⟧ = The National Football League's Seattle Seahawks
+⟦269⟧ = the NFL
+⟦270⟧ = the original -100/-200 models
+⟦271⟧ = the population
+⟦272⟧ = the preceding Boeing
+⟦273⟧ = the previous generation
+⟦274⟧ = the second generation
+⟦275⟧ = the second-largest facility
+⟦276⟧ = The site
+⟦277⟧ = the southeast shore
+⟦278⟧ = the state
+⟦279⟧ = the third generation
+⟦280⟧ = The Trump Organization
+⟦281⟧ = The twinjet
+⟦282⟧ = the United States
+⟦283⟧ = the world
+⟦284⟧ = the world's largest twinjet
+⟦285⟧ = these capacities
+⟦286⟧ = three variants
+⟦287⟧ = timber
+⟦288⟧ = timber export
+⟦289⟧ = Today
+⟦290⟧ = training
+⟦291⟧ = Trump Air
+⟦292⟧ = Trump Force One
+⟦293⟧ = turbofan
+⟦294⟧ = twinjet
+⟦295⟧ = two final assembly
+⟦296⟧ = two turbofan engines
+⟦297⟧ = type
+⟦298⟧ = unit
+⟦299⟧ = United States
+⟦300⟧ = upgraded avionics
+⟦301⟧ = UW Medicine Valley Medical Center
+⟦302⟧ = variant
+⟦303⟧ = variants
+⟦304⟧ = version
+⟦305⟧ = Vought
+⟦306⟧ = Washington
+⟦307⟧ = Washington State
+⟦308⟧ = well known manufacturing
+⟦309⟧ = wheels
+⟦310⟧ = wing
+⟦311⟧ = wings
+⟦312⟧ = wire
+⟦313⟧ = Wizards
+⟦314⟧ = world
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Boeing 737 Classic] ⟦239⟧⟨1⟩⟦230⟧⟨2⟩⟦207⟧⟨3⟩⟦238⟧⟨4⟩
+[Boeing 737 Classic] ⟨5⟩⟦274⟧⟨6⟩⟦127⟧⟨7⟩⟦270⟧⟨8⟩⟦1⟧⟨9⟩⟦169⟧⟨10⟩⟦190⟧⟨11⟩⟦190⟧⟨12⟩
+[Boeing 737 Classic] ⟨13⟩⟦213⟧⟨14⟩⟦193⟧⟨15⟩⟦55⟧⟨16⟩⟦147⟧⟨17⟩⟦42⟧⟨18⟩⟦58⟧⟨19⟩⟦233⟧⟨20⟩⟦286⟧⟨21⟩⟦303⟧⟨22⟩⟦5⟧⟨23⟩⟦183⟧⟨24⟩
+[Boeing 737 Classic] ⟦137⟧⟨25⟩⟦273⟧⟨26⟩⟦127⟧⟨27⟩⟦10⟧⟨28⟩⟦40⟧⟨29⟩⟦73⟧⟨30⟩⟦68⟧⟨31⟩⟦196⟧⟨32⟩⟦115⟧⟨33⟩⟦300⟧⟨34⟩⟦53⟧⟨35⟩⟦139⟧⟨36⟩⟦182⟧⟨37⟩⟦70⟧⟨38⟩⟦229⟧⟨39⟩⟦169⟧⟨40⟩
+[Boeing Business Jet] ⟦244⟧⟨41⟩⟦207⟧⟨42⟩⟦303⟧⟨43⟩⟦303⟧⟨44⟩⟦61⟧⟨45⟩⟦147⟧⟨46⟩⟦42⟧⟨47⟩⟦252⟧⟨48⟩⟦147⟧⟨49⟩⟦161⟧⟨50⟩
+[Boeing Business Jet] ⟦243⟧⟨51⟩⟦14⟧⟨52⟩⟦181⟧⟨53⟩⟦58⟧⟨54⟩⟦125⟧⟨55⟩
+[Boeing 747-8] ⟦238⟧⟨56⟩⟦37⟧⟨57⟩⟦55⟧⟨58⟩⟦147⟧⟨59⟩⟦41⟧⟨60⟩⟦58⟧⟨61⟩
+[Boeing 747-8] ⟨62⟩⟦279⟧⟨63⟩⟦127⟧⟨64⟩⟦24⟧⟨65⟩⟦124⟧⟨66⟩⟦311⟧⟨67⟩⟦136⟧⟨68⟩⟦110⟧⟨69⟩
+[Boeing 747-8] ⟨70⟩⟦259⟧⟨71⟩⟦304⟧⟨72⟩⟦260⟧⟨73⟩⟦40⟧⟨74⟩⟦282⟧⟨75⟩⟦263⟧⟨76⟩⟦182⟧⟨77⟩⟦40⟧⟨78⟩⟦283⟧⟨79⟩⟦314⟧⟨80⟩
+[Boeing 777] ⟦238⟧⟨81⟩⟦22⟧⟨82⟩⟦120⟧⟨83⟩⟦156⟧⟨84⟩⟦193⟧⟨85⟩⟦55⟧⟨86⟩⟦114⟧⟨87⟩⟦147⟧⟨88⟩⟦42⟧⟨89⟩⟦58⟧⟨90⟩
+[Boeing 777] ⟨91⟩⟦284⟧⟨92⟩⟦314⟧⟨93⟩⟦294⟧⟨94⟩⟦36⟧⟨95⟩⟦204⟧⟨96⟩⟦70⟧⟨97⟩⟦9⟧⟨98⟩⟦183⟧⟨99⟩⟦30⟧⟨100⟩⟦193⟧⟨101⟩
+[Boeing 777] ⟨102⟩⟦231⟧⟨103⟩⟦142⟧⟨104⟩⟦101⟧⟨105⟩⟦121⟧⟨106⟩⟦262⟧⟨107⟩⟦99⟧⟨108⟩⟦293⟧⟨109⟩⟦115⟧⟨110⟩⟦49⟧⟨111⟩⟦40⟧⟨112⟩⟦215⟧⟨113⟩⟦309⟧⟨114⟩⟦107⟧⟨115⟩⟦153⟧⟨116⟩⟦126⟧⟨117⟩⟦123⟧⟨118⟩⟦124⟧⟨119⟩⟦90⟧⟨120⟩⟦205⟧⟨121⟩⟦205⟧⟨122⟩⟦16⟧⟨123⟩⟦54⟧⟨124⟩⟦224⟧⟨125⟩⟦86⟧⟨126⟩
+[Boeing 777] ⟨127⟩⟦87⟧⟨128⟩⟦87⟧⟨129⟩⟦111⟧⟨130⟩⟦43⟧⟨131⟩⟦176⟧⟨132⟩⟦55⟧⟨133⟩⟦42⟧⟨134⟩⟦248⟧⟨135⟩⟦70⟧⟨136⟩⟦100⟧⟨137⟩
+[Boeing 777] ⟨138⟩⟦312⟧⟨139⟩⟦312⟧⟨140⟩⟦41⟧⟨141⟩⟦83⟧⟨142⟩⟦85⟧⟨143⟩⟦88⟧⟨144⟩
+[Boeing 777] ⟨145⟩⟦257⟧⟨146⟩⟦40⟧⟨147⟩⟦83⟧⟨148⟩⟦84⟧⟨149⟩⟦97⟧⟨150⟩
+[Renton, Washington] ⟦199⟧⟨151⟩⟦18⟧⟨152⟩⟦75⟧⟨153⟩⟦151⟧⟨154⟩⟦306⟧⟨155⟩⟦299⟧⟨156⟩
+[Renton, Washington] ⟨157⟩⟦4⟧⟨158⟩⟦165⟧⟨159⟩⟦219⟧⟨160⟩⟦104⟧⟨161⟩⟦105⟧⟨162⟩⟦199⟧⟨163⟩⟦277⟧⟨164⟩⟦211⟧⟨165⟩⟦152⟧⟨166⟩⟦267⟧⟨167⟩⟦170⟧⟨168⟩⟦249⟧⟨169⟩
+[Renton, Washington] ⟨170⟩⟦155⟧⟨171⟩⟦203⟧⟨172⟩⟦122⟧⟨173⟩⟦50⟧⟨174⟩⟦171⟧⟨175⟩⟦199⟧⟨176⟩⟦184⟧⟨177⟩⟦184⟧⟨178⟩⟦116⟧⟨179⟩⟦96⟧⟨180⟩⟦143⟧⟨181⟩⟦109⟧⟨182⟩⟦78⟧⟨183⟩⟦79⟧⟨184⟩⟦168⟧⟨185⟩⟦76⟧⟨186⟩⟦77⟧⟨187⟩⟦190⟧⟨188⟩⟦287⟧⟨189⟩⟦288⟧⟨190⟩⟦117⟧⟨191⟩
+[Renton, Washington] ⟨192⟩⟦289⟧⟨193⟩⟦199⟧⟨194⟩⟦256⟧⟨195⟩⟦51⟧⟨196⟩⟦186⟧⟨197⟩⟦240⟧⟨198⟩⟦120⟧⟨199⟩⟦81⟧⟨200⟩⟦44⟧⟨201⟩⟦23⟧⟨202⟩⟦174⟧⟨203⟩⟦308⟧⟨204⟩⟦160⟧⟨205⟩⟦227⟧⟨206⟩⟦227⟧⟨207⟩⟦131⟧⟨208⟩⟦132⟧⟨209⟩⟦177⟧⟨210⟩⟦59⟧⟨211⟩⟦179⟧⟨212⟩⟦150⟧⟨213⟩⟦135⟧⟨214⟩⟦191⟧⟨215⟩⟦208⟧⟨216⟩⟦301⟧⟨217⟩⟦313⟧⟨218⟩⟦250⟧⟨219⟩
+[Renton, Washington] ⟨220⟩⟦271⟧⟨221⟩⟦188⟧⟨222⟩⟦199⟧⟨223⟩⟦232⟧⟨224⟩⟦71⟧⟨225⟩
+[Renton, Washington] ⟦199⟧⟨226⟩⟦235⟧⟨227⟩⟦75⟧⟨228⟩⟦307⟧⟨229⟩⟦151⟧⟨230⟩
+[Renton, Washington] ⟦268⟧⟨231⟩⟦33⟧⟨232⟩⟦290⟧⟨233⟩⟦118⟧⟨234⟩⟦199⟧⟨235⟩
+[Renton, Washington] ⟨236⟩⟦275⟧⟨237⟩⟦118⟧⟨238⟩⟦269⟧⟨239⟩⟦8⟧⟨240⟩⟦220⟧⟨241⟩
+[Boeing 767] ⟨242⟩⟦27⟧⟨243⟩⟦167⟧⟨244⟩⟦154⟧⟨245⟩⟦216⟧⟨246⟩⟦157⟧⟨247⟩⟦193⟧⟨248⟩⟦55⟧⟨249⟩⟦114⟧⟨250⟩⟦147⟧⟨251⟩⟦41⟧⟨252⟩⟦58⟧⟨253⟩
+[Boeing 767] ⟨254⟩⟦64⟧⟨255⟩⟦55⟧⟨256⟩⟦294⟧⟨257⟩⟦144⟧⟨258⟩⟦41⟧⟨259⟩⟦34⟧⟨260⟩⟦89⟧⟨261⟩⟦128⟧⟨262⟩⟦80⟧⟨263⟩
+[Boeing 767] ⟦237⟧⟨264⟩⟦40⟧⟨265⟩⟦296⟧⟨266⟩⟦293⟧⟨267⟩⟦115⟧⟨268⟩⟦20⟧⟨269⟩⟦224⟧⟨270⟩⟦197⟧⟨271⟩⟦106⟧⟨272⟩⟦32⟧⟨273⟩⟦310⟧⟨274⟩⟦97⟧⟨275⟩
+[Boeing 767] ⟨276⟩⟦31⟧⟨277⟩⟦55⟧⟨278⟩⟦41⟧⟨279⟩⟦108⟧⟨280⟩⟦40⟧⟨281⟩⟦204⟧⟨282⟩⟦204⟧⟨283⟩⟦70⟧⟨284⟩⟦70⟧⟨285⟩⟦6⟧⟨286⟩⟦184⟧⟨287⟩⟦21⟧⟨288⟩⟦97⟧⟨289⟩⟦193⟧⟨290⟩⟦302⟧⟨291⟩⟦302⟧⟨292⟩
+[Boeing 767] ⟦98⟧⟨293⟩⟦226⟧⟨294⟩⟦226⟧⟨295⟩⟦28⟧⟨296⟩⟦55⟧⟨297⟩⟦294⟧⟨298⟩⟦234⟧⟨299⟩⟦209⟧⟨300⟩⟦97⟧⟨301⟩⟦121⟧⟨302⟩⟦185⟧⟨303⟩⟦185⟧⟨304⟩⟦19⟧⟨305⟩⟦297⟧⟨306⟩⟦195⟧⟨307⟩⟦65⟧⟨308⟩⟦40⟧⟨309⟩
+[Boeing 757] ⟦241⟧⟨310⟩⟦26⟧⟨311⟩⟦166⟧⟨312⟩⟦2⟧⟨313⟩⟦216⟧⟨314⟩⟦55⟧⟨315⟩⟦114⟧⟨316⟩⟦147⟧⟨317⟩⟦41⟧⟨318⟩⟦58⟧⟨319⟩
+[Boeing 757] ⟨320⟩⟦265⟧⟨321⟩⟦159⟧⟨322⟩⟦45⟧⟨323⟩⟦182⟧⟨324⟩⟦40⟧⟨325⟩
+[Boeing 757] ⟦281⟧⟨326⟩⟦294⟧⟨327⟩⟦35⟧⟨328⟩⟦89⟧⟨329⟩⟦164⟧⟨330⟩⟦128⟧⟨331⟩⟦80⟧⟨332⟩⟦293⟧⟨333⟩⟦115⟧⟨334⟩⟦222⟧⟨335⟩⟦189⟧⟨336⟩⟦225⟧⟨337⟩⟦225⟧⟨338⟩⟦198⟧⟨339⟩⟦202⟧⟨340⟩⟦133⟧⟨341⟩⟦47⟧⟨342⟩⟦20⟧⟨343⟩⟦224⟧⟨344⟩⟦197⟧⟨345⟩⟦106⟧⟨346⟩⟦32⟧⟨347⟩⟦310⟧⟨348⟩⟦97⟧⟨349⟩
+[Boeing 757] ⟨350⟩⟦114⟧⟨351⟩⟦212⟧⟨352⟩⟦201⟧⟨353⟩⟦234⟧⟨354⟩⟦11⟧⟨355⟩⟦7⟧⟨356⟩⟦183⟧⟨357⟩⟦25⟧⟨358⟩⟦162⟧⟨359⟩⟦302⟧⟨360⟩⟦302⟧⟨361⟩
+[Boeing 757] ⟦234⟧⟨362⟩⟦11⟧⟨363⟩⟦38⟧⟨364⟩⟦55⟧⟨365⟩⟦294⟧⟨366⟩⟦210⟧⟨367⟩⟦121⟧⟨368⟩⟦185⟧⟨369⟩⟦19⟧⟨370⟩⟦297⟧⟨371⟩⟦195⟧⟨372⟩⟦65⟧⟨373⟩⟦40⟧⟨374⟩
+[Boeing South Carolina] ⟦62⟧⟨375⟩⟦3⟧⟨376⟩⟦48⟧⟨377⟩⟦51⟧⟨378⟩⟦214⟧⟨379⟩⟦63⟧⟨380⟩⟦102⟧⟨381⟩⟦172⟧⟨382⟩⟦217⟧⟨383⟩
+[Boeing South Carolina] ⟦276⟧⟨384⟩⟦214⟧⟨385⟩⟦264⟧⟨386⟩⟦160⟧⟨387⟩⟦51⟧⟨388⟩⟦51⟧⟨389⟩⟦93⟧⟨390⟩⟦95⟧⟨391⟩⟦214⟧⟨392⟩⟦57⟧⟨393⟩⟦40⟧⟨394⟩⟦255⟧⟨395⟩⟦261⟧⟨396⟩⟦113⟧⟨397⟩⟦72⟧⟨398⟩⟦278⟧⟨399⟩⟦221⟧⟨400⟩
+[Boeing South Carolina] ⟦276⟧⟨401⟩⟦214⟧⟨402⟩⟦295⟧⟨403⟩⟦51⟧⟨404⟩⟦93⟧⟨405⟩⟦94⟧⟨406⟩⟦187⟧⟨407⟩⟦242⟧⟨408⟩
+[Boeing South Carolina] ⟦276⟧⟨409⟩⟦214⟧⟨410⟩⟦194⟧⟨411⟩⟦141⟧⟨412⟩⟦130⟧⟨413⟩⟦130⟧⟨414⟩⟦56⟧⟨415⟩⟦29⟧⟨416⟩⟦174⟧⟨417⟩⟦192⟧⟨418⟩⟦192⟧⟨419⟩⟦145⟧⟨420⟩⟦223⟧⟨421⟩⟦305⟧⟨422⟩⟦129⟧⟨423⟩⟦119⟧⟨424⟩⟦119⟧⟨425⟩
+[Boeing South Carolina] ⟦247⟧⟨426⟩⟦15⟧⟨427⟩⟦220⟧⟨428⟩⟦118⟧⟨429⟩⟦173⟧⟨430⟩⟦218⟧⟨431⟩⟦12⟧⟨432⟩⟦91⟧⟨433⟩⟦91⟧⟨434⟩⟦283⟧⟨435⟩⟦314⟧⟨436⟩
+[James Albaugh] ⟦146⟧⟨437⟩⟦258⟧⟨438⟩⟦246⟧⟨439⟩⟦74⟧⟨440⟩⟦245⟧⟨441⟩⟦67⟧⟨442⟩⟦298⟧⟨443⟩
+[James Albaugh] ⟨444⟩⟦285⟧⟨445⟩⟦69⟧⟨446⟩⟦58⟧⟨447⟩⟦206⟧⟨448⟩⟦134⟧⟨449⟩⟦200⟧⟨450⟩⟦149⟧⟨451⟩
+[James Albaugh] ⟨452⟩⟦251⟧⟨453⟩⟦82⟧⟨454⟩⟦175⟧⟨455⟩
+[James Albaugh] ⟨456⟩⟦60⟧⟨457⟩⟦67⟧⟨458⟩⟦298⟧⟨459⟩
+[James Albaugh] ⟨460⟩⟦228⟧⟨461⟩⟦70⟧⟨462⟩⟦46⟧⟨463⟩⟦178⟧⟨464⟩⟦112⟧⟨465⟩⟦13⟧⟨466⟩⟦66⟧⟨467⟩
+[James Albaugh] ⟦148⟧⟨468⟩⟦254⟧⟨469⟩⟦92⟧⟨470⟩⟦140⟧⟨471⟩⟦158⟧⟨472⟩
+[Trump Force One] ⟦237⟧⟨473⟩⟦40⟧⟨474⟩⟦292⟧⟨475⟩⟦266⟧⟨476⟩⟦163⟧⟨477⟩⟦103⟧⟨478⟩⟦147⟧⟨479⟩
+[Trump Force One] ⟦253⟧⟨480⟩⟦138⟧⟨481⟩⟦292⟧⟨482⟩⟦17⟧⟨483⟩⟦272⟧⟨484⟩
+[Trump Force One] ⟨485⟩⟦180⟧⟨486⟩⟦180⟧⟨487⟩⟦291⟧⟨488⟩⟦236⟧⟨489⟩⟦39⟧⟨490⟩⟦52⟧⟨491⟩⟦280⟧⟨492⟩
+
+[user]
+
+问题：
+which persons private jet called Trump Force One which is built by Boeing Commercial Airplanes and is the manufacturer's largest single aisle passenger aircraft that is produced from 1981 to 2004?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

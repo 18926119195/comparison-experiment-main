@@ -1,0 +1,429 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "An Audience
+⟦2⟧ = "Barry Green
+⟦3⟧ = "Oh dear, oh dear
+⟦4⟧ = "Property Brothers
+⟦5⟧ = (née Russell
+⟦6⟧ = 12th man
+⟦7⟧ = 1970s
+⟦8⟧ = 20 Pura Cup wickets
+⟦9⟧ = 210 lb shooting guard
+⟦10⟧ = 22 October
+⟦11⟧ = a bowling attack
+⟦12⟧ = a Canadian actor
+⟦13⟧ = a Canadian reality television series
+⟦14⟧ = a co
+⟦15⟧ = a Go Go
+⟦16⟧ = a licensed contractor
+⟦17⟧ = a Liverpool-based group
+⟦18⟧ = a lot
+⟦19⟧ = a real estate expert
+⟦20⟧ = a single
+⟦21⟧ = a solid 2006 season
+⟦22⟧ = a song
+⟦23⟧ = a stage tour
+⟦24⟧ = a strict timeline
+⟦25⟧ = ability
+⟦26⟧ = act
+⟦27⟧ = actor
+⟦28⟧ = administrator
+⟦29⟧ = age
+⟦30⟧ = aka the Hope Sisters - Ellie
+⟦31⟧ = album
+⟦32⟧ = Ammonius
+⟦33⟧ = an album track
+⟦34⟧ = an American athletic administrator
+⟦35⟧ = an American retired professional basketball player
+⟦36⟧ = an American singing group
+⟦37⟧ = an Australian cricketer
+⟦38⟧ = an early age
+⟦39⟧ = Andrew Alfred Scott
+⟦40⟧ = appearance
+⟦41⟧ = April
+⟦42⟧ = associate athletic director
+⟦43⟧ = attack
+⟦44⟧ = band
+⟦45⟧ = Barbara
+⟦46⟧ = Barry
+⟦47⟧ = Barry Blue
+⟦48⟧ = Barry Chuckle
+⟦49⟧ = Barry Cowsill
+⟦50⟧ = Barry David Elliott
+⟦51⟧ = basketball
+⟦52⟧ = Basketball Hall
+⟦53⟧ = bass
+⟦54⟧ = Baylor University's men's basketball team
+⟦55⟧ = Bill
+⟦56⟧ = Bob
+⟦57⟧ = Bob's twin brother
+⟦58⟧ = bounce
+⟦59⟧ = bowler
+⟦60⟧ = brand
+⟦61⟧ = Brendan Gerrard Drew
+⟦62⟧ = Brent
+⟦63⟧ = Brent Robert Barry
+⟦64⟧ = brother
+⟦65⟧ = Brotherly Love
+⟦66⟧ = brothers
+⟦67⟧ = brothers Bill
+⟦68⟧ = Bruce Hale
+⟦69⟧ = Bryce Drew
+⟦70⟧ = budget
+⟦71⟧ = Camberwell
+⟦72⟧ = Canada
+⟦73⟧ = catchphrases
+⟦74⟧ = CBS Records
+⟦75⟧ = century
+⟦76⟧ = championships
+⟦77⟧ = children
+⟦78⟧ = Christine
+⟦79⟧ = ChuckleVision
+⟦80⟧ = Cineflix
+⟦81⟧ = Cineflix Media
+⟦82⟧ = club
+⟦83⟧ = co
+⟦84⟧ = coach
+⟦85⟧ = college
+⟦86⟧ = comedy
+⟦87⟧ = content
+⟦88⟧ = contractor
+⟦89⟧ = cricket
+⟦90⟧ = cricketer
+⟦91⟧ = dear
+⟦92⟧ = digital content
+⟦93⟧ = Dioscorus
+⟦94⟧ = director
+⟦95⟧ = domestic cricket
+⟦96⟧ = dream
+⟦97⟧ = Dream Homes
+⟦98⟧ = Drew
+⟦99⟧ = Drew Scott
+⟦100⟧ = Drew William Barry
+⟦101⟧ = drums
+⟦102⟧ = duty
+⟦103⟧ = Ellie Hope
+⟦104⟧ = English children's entertainers
+⟦105⟧ = entertainers
+⟦106⟧ = entrepreneur
+⟦107⟧ = estate
+⟦108⟧ = Eusebius
+⟦109⟧ = Euthymius
+⟦110⟧ = expert
+⟦111⟧ = Famer Rick Barry
+⟦112⟧ = families
+⟦113⟧ = family
+⟦114⟧ = films
+⟦115⟧ = fixer
+⟦116⟧ = fixer-uppers
+⟦117⟧ = Florida
+⟦118⟧ = former college basketball coach
+⟦119⟧ = former NBA player Rick Barry
+⟦120⟧ = founder
+⟦121⟧ = four brothers
+⟦122⟧ = franchise
+⟦123⟧ = ft
+⟦124⟧ = gags
+⟦125⟧ = Go
+⟦126⟧ = grandfather
+⟦127⟧ = group
+⟦128⟧ = guard
+⟦129⟧ = guitar
+⟦130⟧ = harmonies
+⟦131⟧ = head
+⟦132⟧ = head coach
+⟦133⟧ = HGTV
+⟦134⟧ = His brother
+⟦135⟧ = His elder son
+⟦136⟧ = His grandfather
+⟦137⟧ = his identical twin brother
+⟦138⟧ = his profession
+⟦139⟧ = His stepmother
+⟦140⟧ = his two brothers
+⟦141⟧ = his version
+⟦142⟧ = His younger son
+⟦143⟧ = home
+⟦144⟧ = Homer
+⟦145⟧ = Homer Drew
+⟦146⟧ = Homer Walter Drew
+⟦147⟧ = homes
+⟦148⟧ = host
+⟦149⟧ = houses
+⟦150⟧ = identical twin brothers Jonathan
+⟦151⟧ = injury
+⟦152⟧ = inspiration
+⟦153⟧ = internet
+⟦154⟧ = its 21st series
+⟦155⟧ = its full family membership
+⟦156⟧ = its subsidiary
+⟦157⟧ = John
+⟦158⟧ = Jon
+⟦159⟧ = Jonathan
+⟦160⟧ = Jr.
+⟦161⟧ = Kathy
+⟦162⟧ = label
+⟦163⟧ = Lee Carroll
+⟦164⟧ = lifestyle
+⟦165⟧ = Liquid Gold
+⟦166⟧ = Lismore
+⟦167⟧ = London Records
+⟦168⟧ = lot
+⟦169⟧ = Lynn Barry
+⟦170⟧ = Lynsey de Paul
+⟦171⟧ = man
+⟦172⟧ = manager
+⟦173⟧ = matches
+⟦174⟧ = May
+⟦175⟧ = membership
+⟦176⟧ = men
+⟦177⟧ = Miami
+⟦178⟧ = mid
+⟦179⟧ = Mike
+⟦180⟧ = misinformation
+⟦181⟧ = monks
+⟦182⟧ = mother
+⟦183⟧ = music
+⟦184⟧ = My Tongue
+⟦185⟧ = names
+⟦186⟧ = neglected houses
+⟦187⟧ = New South Wales
+⟦188⟧ = Newport
+⟦189⟧ = nine years
+⟦190⟧ = Nitria
+⟦191⟧ = North America
+⟦192⟧ = one year
+⟦193⟧ = other visual gags
+⟦194⟧ = pace
+⟦195⟧ = Paul
+⟦196⟧ = Paul Chuckle
+⟦197⟧ = Paul Harman Elliott
+⟦198⟧ = Phil Wainman
+⟦199⟧ = places
+⟦200⟧ = player
+⟦201⟧ = positive reviews
+⟦202⟧ = premier cricket
+⟦203⟧ = Premier Cricket's best player
+⟦204⟧ = press
+⟦205⟧ = profession
+⟦206⟧ = program
+⟦207⟧ = Property
+⟦208⟧ = Property Brothers
+⟦209⟧ = purchases
+⟦210⟧ = reality
+⟦211⟧ = realtor
+⟦212⟧ = record
+⟦213⟧ = release
+⟦214⟧ = renovation
+⟦215⟧ = reviews
+⟦216⟧ = Rhode Island
+⟦217⟧ = Richard
+⟦218⟧ = Richard 'Biggie' Korn
+⟦219⟧ = Rick's college coach
+⟦220⟧ = road
+⟦221⟧ = Ronnie
+⟦222⟧ = run
+⟦223⟧ = Scooter
+⟦224⟧ = Scott
+⟦225⟧ = Scott Brothers Entertainment
+⟦226⟧ = Scott Drew
+⟦227⟧ = Scott Living
+⟦228⟧ = season
+⟦229⟧ = Selling
+⟦230⟧ = series
+⟦231⟧ = several places
+⟦232⟧ = several spinoffs
+⟦233⟧ = show
+⟦234⟧ = shows
+⟦235⟧ = siblings
+⟦236⟧ = singing
+⟦237⟧ = single
+⟦238⟧ = six matches
+⟦239⟧ = son
+⟦240⟧ = song
+⟦241⟧ = soul
+⟦242⟧ = spinoffs
+⟦243⟧ = spring
+⟦244⟧ = stage
+⟦245⟧ = stature
+⟦246⟧ = stepmother
+⟦247⟧ = subsidiary
+⟦248⟧ = success
+⟦249⟧ = Susan
+⟦250⟧ = Tasmania
+⟦251⟧ = Tasmanian club cricket
+⟦252⟧ = Tasmanian duty
+⟦253⟧ = team
+⟦254⟧ = television
+⟦255⟧ = the "Property Brothers" franchise
+⟦256⟧ = the "Tall Brothers
+⟦257⟧ = the 1970s television show
+⟦258⟧ = the 1996 NBA Slam Dunk Contest
+⟦259⟧ = the 1998 NCAA Men's Division I Basketball Tournament
+⟦260⟧ = The 6 ft
+⟦261⟧ = the ability
+⟦262⟧ = The band
+⟦263⟧ = The band's road manager
+⟦264⟧ = the British music press
+⟦265⟧ = the brothers
+⟦266⟧ = the Chuckle Brothers
+⟦267⟧ = the co
+⟦268⟧ = The comedy
+⟦269⟧ = the contractor
+⟦270⟧ = The Cowsills
+⟦271⟧ = the double-act the Chuckle Brothers
+⟦272⟧ = the Egyptian monks
+⟦273⟧ = The female soul
+⟦274⟧ = the fifth century
+⟦275⟧ = the Fresh Air record label
+⟦276⟧ = the German TV music program
+⟦277⟧ = the group
+⟦278⟧ = the head coach
+⟦279⟧ = The home renovation program
+⟦280⟧ = the inspiration
+⟦281⟧ = the internet
+⟦282⟧ = the Jack Ryder Medal
+⟦283⟧ = the lifestyle brand
+⟦284⟧ = the Lindisfarne Cricket Club
+⟦285⟧ = the names
+⟦286⟧ = the National Basketball Association
+⟦287⟧ = the NBA
+⟦288⟧ = the original show
+⟦289⟧ = The Partridge Family
+⟦290⟧ = the Property Brothers
+⟦291⟧ = the realtor
+⟦292⟧ = the road manager
+⟦293⟧ = the San Antonio Spurs
+⟦294⟧ = The series
+⟦295⟧ = the show
+⟦296⟧ = the six siblings
+⟦297⟧ = the son
+⟦298⟧ = the song
+⟦299⟧ = The song's co
+⟦300⟧ = the spring
+⟦301⟧ = The success
+⟦302⟧ = The Tall Brothers
+⟦303⟧ = the Tasmania's historic first ever Pura Cup win
+⟦304⟧ = the Tasmanian Tigers
+⟦305⟧ = the Tip
+⟦306⟧ = the Top
+⟦307⟧ = the TV series
+⟦308⟧ = the twins
+⟦309⟧ = the UK
+⟦310⟧ = the UK Singles Chart
+⟦311⟧ = the United States
+⟦312⟧ = the Valparaiso Crusaders men's basketball team
+⟦313⟧ = their BBC show
+⟦314⟧ = their brother
+⟦315⟧ = their catchphrases
+⟦316⟧ = their initial success
+⟦317⟧ = their mother
+⟦318⟧ = their purchases
+⟦319⟧ = their siblings
+⟦320⟧ = their version
+⟦321⟧ = their work
+⟦322⟧ = this misinformation
+⟦323⟧ = this release
+⟦324⟧ = three brothers
+⟦325⟧ = timeline
+⟦326⟧ = Tip
+⟦327⟧ = Tongue
+⟦328⟧ = tour
+⟦329⟧ = track
+⟦330⟧ = trio
+⟦331⟧ = trio Ellie
+⟦332⟧ = TV
+⟦333⟧ = TV shows
+⟦334⟧ = twins
+⟦335⟧ = two championships
+⟦336⟧ = uppers
+⟦337⟧ = Valparaiso
+⟦338⟧ = Valparaiso University
+⟦339⟧ = Valparaiso's improbable run
+⟦340⟧ = version
+⟦341⟧ = Victoria
+⟦342⟧ = W Network
+⟦343⟧ = wickets
+⟦344⟧ = win
+⟦345⟧ = work
+⟦346⟧ = writer
+⟦347⟧ = year
+⟦348⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Tall Brothers] ⟦302⟧⟨1⟩⟦121⟧⟨2⟩⟦66⟧⟨3⟩⟦272⟧⟨4⟩⟦181⟧⟨5⟩⟦190⟧⟨6⟩⟦274⟧⟨7⟩⟦75⟧⟨8⟩⟦285⟧⟨9⟩⟦185⟧⟨10⟩⟦32⟧⟨11⟩⟦93⟧⟨12⟩⟦108⟧⟨13⟩⟦109⟧⟨14⟩
+[Tall Brothers] ⟨15⟩⟦256⟧⟨16⟩⟦245⟧⟨17⟩⟦245⟧⟨18⟩⟦40⟧⟨19⟩⟦40⟧⟨20⟩
+[Drew Scott] ⟦99⟧⟨21⟩⟦39⟧⟨22⟩⟦41⟧⟨23⟩⟦12⟧⟨24⟩⟦27⟧⟨25⟩⟦211⟧⟨26⟩⟦211⟧⟨27⟩⟦106⟧⟨28⟩⟦106⟧⟨29⟩⟦267⟧⟨30⟩⟦83⟧⟨31⟩⟦148⟧⟨32⟩⟦148⟧⟨33⟩⟦137⟧⟨34⟩⟦64⟧⟨35⟩⟦159⟧⟨36⟩⟦307⟧⟨37⟩⟦332⟧⟨38⟩⟦230⟧⟨39⟩⟦208⟧⟨40⟩
+[Drew Scott] ⟦279⟧⟨41⟩⟦143⟧⟨42⟩⟦214⟧⟨43⟩⟦206⟧⟨44⟩⟦81⟧⟨45⟩⟦98⟧⟨46⟩⟦291⟧⟨47⟩⟦211⟧⟨48⟩⟦159⟧⟨49⟩⟦269⟧⟨50⟩⟦88⟧⟨51⟩
+[Drew Scott] ⟦301⟧⟨52⟩⟦248⟧⟨53⟩⟦295⟧⟨54⟩⟦233⟧⟨55⟩⟦232⟧⟨56⟩⟦242⟧⟨57⟩⟦229⟧⟨58⟩⟦229⟧⟨59⟩⟦64⟧⟨60⟩⟦4⟧⟨61⟩⟦207⟧⟨62⟩⟦143⟧⟨63⟩⟦143⟧⟨64⟩
+[Drew Scott] ⟦224⟧⟨65⟩⟦140⟧⟨66⟩⟦66⟧⟨67⟩⟦14⟧⟨68⟩⟦83⟧⟨69⟩⟦120⟧⟨70⟩⟦120⟧⟨71⟩⟦225⟧⟨72⟩⟦332⟧⟨73⟩⟦333⟧⟨74⟩⟦234⟧⟨75⟩⟦114⟧⟨76⟩⟦114⟧⟨77⟩⟦92⟧⟨78⟩⟦87⟧⟨79⟩
+[Drew Scott] ⟨80⟩⟦308⟧⟨81⟩⟦334⟧⟨82⟩⟦283⟧⟨83⟩⟦164⟧⟨84⟩⟦60⟧⟨85⟩⟦227⟧⟨86⟩⟦156⟧⟨87⟩⟦247⟧⟨88⟩⟦97⟧⟨89⟩
+[The Cowsills] ⟦270⟧⟨90⟩⟦36⟧⟨91⟩⟦236⟧⟨92⟩⟦127⟧⟨93⟩⟦188⟧⟨94⟩⟦216⟧⟨95⟩
+[The Cowsills] ⟨96⟩⟦130⟧⟨97⟩⟦130⟧⟨98⟩⟦261⟧⟨99⟩⟦25⟧⟨100⟩⟦183⟧⟨101⟩⟦183⟧⟨102⟩⟦38⟧⟨103⟩⟦29⟧⟨104⟩
+[The Cowsills] ⟦262⟧⟨105⟩⟦44⟧⟨106⟩⟦300⟧⟨107⟩⟦243⟧⟨108⟩⟦66⟧⟨109⟩⟦67⟧⟨110⟩⟦56⟧⟨111⟩⟦49⟧⟨112⟩⟦314⟧⟨113⟩⟦64⟧⟨114⟩⟦157⟧⟨115⟩
+[The Cowsills] ⟨116⟩⟦55⟧⟨117⟩⟦56⟧⟨118⟩⟦129⟧⟨119⟩⟦46⟧⟨120⟩⟦101⟧⟨121⟩⟦101⟧⟨122⟩
+[The Cowsills] ⟨123⟩⟦157⟧⟨124⟩⟦101⟧⟨125⟩⟦101⟧⟨126⟩⟦262⟧⟨127⟩⟦44⟧⟨128⟩⟦46⟧⟨129⟩⟦53⟧⟨130⟩⟦53⟧⟨131⟩
+[The Cowsills] ⟨132⟩⟦316⟧⟨133⟩⟦248⟧⟨134⟩⟦265⟧⟨135⟩⟦66⟧⟨136⟩⟦319⟧⟨137⟩⟦235⟧⟨138⟩⟦249⟧⟨139⟩⟦195⟧⟨140⟩⟦317⟧⟨141⟩⟦182⟧⟨142⟩⟦45⟧⟨143⟩
+[The Cowsills] ⟦57⟧⟨144⟩⟦64⟧⟨145⟩⟦217⟧⟨146⟩⟦292⟧⟨147⟩⟦220⟧⟨148⟩⟦172⟧⟨149⟩⟦322⟧⟨150⟩⟦180⟧⟨151⟩⟦231⟧⟨152⟩⟦199⟧⟨153⟩⟦281⟧⟨154⟩⟦153⟧⟨155⟩
+[The Cowsills] ⟦263⟧⟨156⟩⟦44⟧⟨157⟩⟦220⟧⟨158⟩⟦172⟧⟨159⟩⟦218⟧⟨160⟩
+[The Cowsills] ⟨161⟩⟦277⟧⟨162⟩⟦127⟧⟨163⟩⟦155⟧⟨164⟩⟦113⟧⟨165⟩⟦175⟧⟨166⟩⟦296⟧⟨167⟩⟦235⟧⟨168⟩⟦29⟧⟨169⟩⟦29⟧⟨170⟩
+[The Cowsills] ⟨171⟩⟦317⟧⟨172⟩⟦182⟧⟨173⟩⟦5⟧⟨174⟩⟦277⟧⟨175⟩⟦127⟧⟨176⟩⟦280⟧⟨177⟩⟦152⟧⟨178⟩⟦257⟧⟨179⟩⟦7⟧⟨180⟩⟦254⟧⟨181⟩⟦233⟧⟨182⟩⟦289⟧⟨183⟩
+[Homer Drew] ⟦146⟧⟨184⟩⟦160⟧⟨185⟩⟦34⟧⟨186⟩⟦28⟧⟨187⟩⟦118⟧⟨188⟩⟦85⟧⟨189⟩⟦51⟧⟨190⟩⟦84⟧⟨191⟩⟦42⟧⟨192⟩⟦94⟧⟨193⟩⟦338⟧⟨194⟩
+[Homer Drew] ⟦98⟧⟨195⟩⟦278⟧⟨196⟩⟦131⟧⟨197⟩⟦84⟧⟨198⟩⟦312⟧⟨199⟩⟦176⟧⟨200⟩⟦51⟧⟨201⟩⟦253⟧⟨202⟩
+[Homer Drew] ⟨203⟩⟦142⟧⟨204⟩⟦239⟧⟨205⟩⟦69⟧⟨206⟩⟦278⟧⟨207⟩⟦131⟧⟨208⟩⟦84⟧⟨209⟩⟦174⟧⟨210⟩
+[Homer Drew] ⟨211⟩⟦135⟧⟨212⟩⟦239⟧⟨213⟩⟦226⟧⟨214⟩⟦278⟧⟨215⟩⟦131⟧⟨216⟩⟦84⟧⟨217⟩⟦54⟧⟨218⟩⟦176⟧⟨219⟩⟦51⟧⟨220⟩⟦253⟧⟨221⟩⟦189⟧⟨222⟩⟦348⟧⟨223⟩⟦144⟧⟨224⟩⟦192⟧⟨225⟩⟦347⟧⟨226⟩⟦131⟧⟨227⟩⟦132⟧⟨228⟩⟦84⟧⟨229⟩⟦337⟧⟨230⟩
+[Homer Drew] ⟦145⟧⟨231⟩⟦339⟧⟨232⟩⟦222⟧⟨233⟩⟦259⟧⟨234⟩
+[Brent Barry] ⟦63⟧⟨235⟩⟦35⟧⟨236⟩⟦51⟧⟨237⟩⟦200⟧⟨238⟩
+[Brent Barry] ⟨239⟩⟦297⟧⟨240⟩⟦239⟧⟨241⟩⟦119⟧⟨242⟩⟦200⟧⟨243⟩
+[Brent Barry] ⟦260⟧⟨244⟩⟦123⟧⟨245⟩⟦9⟧⟨246⟩⟦128⟧⟨247⟩⟦286⟧⟨248⟩⟦335⟧⟨249⟩⟦76⟧⟨250⟩⟦293⟧⟨251⟩
+[Brent Barry] ⟨252⟩⟦258⟧⟨253⟩
+[Chuckle Brothers] ⟦50⟧⟨254⟩⟦197⟧⟨255⟩⟦104⟧⟨256⟩⟦77⟧⟨257⟩⟦105⟧⟨258⟩⟦48⟧⟨259⟩⟦196⟧⟨260⟩⟦271⟧⟨261⟩⟦26⟧⟨262⟩
+[Chuckle Brothers] ⟨263⟩⟦321⟧⟨264⟩⟦345⟧⟨265⟩⟦313⟧⟨266⟩⟦233⟧⟨267⟩⟦79⟧⟨268⟩⟦154⟧⟨269⟩⟦230⟧⟨270⟩⟦23⟧⟨271⟩⟦244⟧⟨272⟩⟦328⟧⟨273⟩⟦1⟧⟨274⟩⟦266⟧⟨275⟩
+[Chuckle Brothers] ⟦268⟧⟨276⟩⟦86⟧⟨277⟩⟦266⟧⟨278⟩⟦193⟧⟨279⟩⟦124⟧⟨280⟩⟦315⟧⟨281⟩⟦73⟧⟨282⟩⟦3⟧⟨283⟩⟦91⟧⟨284⟩
+[Brendan Drew] ⟦61⟧⟨285⟩⟦166⟧⟨286⟩⟦187⟧⟨287⟩⟦37⟧⟨288⟩⟦90⟧⟨289⟩⟦95⟧⟨290⟩⟦89⟧⟨291⟩⟦304⟧⟨292⟩
+[Brendan Drew] ⟨293⟩⟦252⟧⟨294⟩⟦102⟧⟨295⟩⟦98⟧⟨296⟩⟦251⟧⟨297⟩⟦82⟧⟨298⟩⟦89⟧⟨299⟩⟦284⟧⟨300⟩
+[Brendan Drew] ⟨301⟩⟦59⟧⟨302⟩⟦18⟧⟨303⟩⟦168⟧⟨304⟩⟦194⟧⟨305⟩⟦194⟧⟨306⟩⟦58⟧⟨307⟩⟦58⟧⟨308⟩⟦98⟧⟨309⟩⟦250⟧⟨310⟩⟦178⟧⟨311⟩⟦178⟧⟨312⟩⟦228⟧⟨313⟩⟦11⟧⟨314⟩⟦43⟧⟨315⟩⟦151⟧⟨316⟩⟦151⟧⟨317⟩
+[Brendan Drew] ⟨318⟩⟦21⟧⟨319⟩⟦228⟧⟨320⟩⟦8⟧⟨321⟩⟦343⟧⟨322⟩⟦238⟧⟨323⟩⟦173⟧⟨324⟩⟦6⟧⟨325⟩⟦171⟧⟨326⟩⟦303⟧⟨327⟩⟦344⟧⟨328⟩
+[Brendan Drew] ⟦98⟧⟨329⟩⟦341⟧⟨330⟩⟦202⟧⟨331⟩⟦89⟧⟨332⟩⟦71⟧⟨333⟩⟦282⟧⟨334⟩⟦203⟧⟨335⟩⟦200⟧⟨336⟩
+[Property Brothers] ⟦208⟧⟨337⟩⟦13⟧⟨338⟩⟦210⟧⟨339⟩⟦254⟧⟨340⟩⟦230⟧⟨341⟩⟦80⟧⟨342⟩⟦288⟧⟨343⟩⟦233⟧⟨344⟩⟦255⟧⟨345⟩⟦122⟧⟨346⟩
+[Property Brothers] ⟨347⟩⟦342⟧⟨348⟩⟦72⟧⟨349⟩⟦133⟧⟨350⟩⟦311⟧⟨351⟩
+[Property Brothers] ⟦294⟧⟨352⟩⟦230⟧⟨353⟩⟦150⟧⟨354⟩⟦66⟧⟨355⟩⟦99⟧⟨356⟩
+[Property Brothers] ⟦98⟧⟨357⟩⟦19⟧⟨358⟩⟦107⟧⟨359⟩⟦110⟧⟨360⟩⟦186⟧⟨361⟩⟦149⟧⟨362⟩⟦318⟧⟨363⟩⟦209⟧⟨364⟩
+[Property Brothers] ⟨365⟩⟦134⟧⟨366⟩⟦64⟧⟨367⟩⟦159⟧⟨368⟩⟦16⟧⟨369⟩⟦88⟧⟨370⟩⟦149⟧⟨371⟩⟦149⟧⟨372⟩
+[Property Brothers] ⟨373⟩⟦290⟧⟨374⟩⟦112⟧⟨375⟩⟦112⟧⟨376⟩⟦115⟧⟨377⟩⟦116⟧⟨378⟩⟦336⟧⟨379⟩⟦96⟧⟨380⟩⟦97⟧⟨381⟩⟦147⟧⟨382⟩⟦24⟧⟨383⟩⟦325⟧⟨384⟩⟦70⟧⟨385⟩⟦70⟧⟨386⟩
+[Drew Barry] ⟦100⟧⟨387⟩⟦35⟧⟨388⟩⟦51⟧⟨389⟩⟦200⟧⟨390⟩
+[Drew Barry] ⟨391⟩⟦297⟧⟨392⟩⟦239⟧⟨393⟩⟦52⟧⟨394⟩⟦111⟧⟨395⟩⟦324⟧⟨396⟩⟦66⟧⟨397⟩⟦223⟧⟨398⟩⟦158⟧⟨399⟩⟦62⟧⟨400⟩⟦138⟧⟨401⟩⟦205⟧⟨402⟩
+[Drew Barry] ⟨403⟩⟦136⟧⟨404⟩⟦126⟧⟨405⟩⟦68⟧⟨406⟩⟦287⟧⟨407⟩⟦219⟧⟨408⟩⟦85⟧⟨409⟩⟦84⟧⟨410⟩⟦177⟧⟨411⟩⟦117⟧⟨412⟩
+[Drew Barry] ⟦139⟧⟨413⟩⟦246⟧⟨414⟩⟦169⟧⟨415⟩
+[Tip of My Tongue (Lynsey de Paul song)] ⟨416⟩⟦326⟧⟨417⟩⟦184⟧⟨418⟩⟦22⟧⟨419⟩⟦240⟧⟨420⟩⟦170⟧⟨421⟩⟦47⟧⟨422⟩⟦305⟧⟨423⟩⟦184⟧⟨424⟩⟦327⟧⟨425⟩
+[Tip of My Tongue (Lynsey de Paul song)] ⟨426⟩⟦65⟧⟨427⟩⟦17⟧⟨428⟩⟦127⟧⟨429⟩⟦324⟧⟨430⟩⟦66⟧⟨431⟩⟦179⟧⟨432⟩⟦221⟧⟨433⟩⟦163⟧⟨434⟩⟦74⟧⟨435⟩⟦198⟧⟨436⟩
+[Tip of My Tongue (Lynsey de Paul song)] ⟨437⟩⟦201⟧⟨438⟩⟦215⟧⟨439⟩⟦264⟧⟨440⟩⟦183⟧⟨441⟩⟦204⟧⟨442⟩⟦306⟧⟨443⟩⟦310⟧⟨444⟩⟦347⟧⟨445⟩
+[Tip of My Tongue (Lynsey de Paul song)] ⟦47⟧⟨446⟩⟦2⟧⟨447⟩⟦323⟧⟨448⟩⟦213⟧⟨449⟩
+[Tip of My Tongue (Lynsey de Paul song)] ⟦273⟧⟨450⟩⟦241⟧⟨451⟩⟦330⟧⟨452⟩⟦331⟧⟨453⟩⟦30⟧⟨454⟩⟦78⟧⟨455⟩⟦161⟧⟨456⟩⟦320⟧⟨457⟩⟦340⟧⟨458⟩⟦326⟧⟨459⟩⟦184⟧⟨460⟩⟦327⟧⟨461⟩⟦20⟧⟨462⟩⟦237⟧⟨463⟩⟦275⟧⟨464⟩⟦212⟧⟨465⟩⟦162⟧⟨466⟩⟦309⟧⟨467⟩⟦167⟧⟨468⟩⟦191⟧⟨469⟩⟦298⟧⟨470⟩⟦240⟧⟨471⟩⟦276⟧⟨472⟩⟦332⟧⟨473⟩⟦183⟧⟨474⟩⟦206⟧⟨475⟩⟦15⟧⟨476⟩⟦125⟧⟨477⟩⟦125⟧⟨478⟩⟦10⟧⟨479⟩
+[Tip of My Tongue (Lynsey de Paul song)] ⟦103⟧⟨480⟩⟦165⟧⟨481⟩
+[Tip of My Tongue (Lynsey de Paul song)] ⟦299⟧⟨482⟩⟦240⟧⟨483⟩⟦83⟧⟨484⟩⟦346⟧⟨485⟩⟦346⟧⟨486⟩⟦47⟧⟨487⟩⟦141⟧⟨488⟩⟦340⟧⟨489⟩⟦33⟧⟨490⟩⟦31⟧⟨491⟩⟦329⟧⟨492⟩
+
+[user]
+
+问题：
+How tall was one of Drew Barry's brothers? 
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

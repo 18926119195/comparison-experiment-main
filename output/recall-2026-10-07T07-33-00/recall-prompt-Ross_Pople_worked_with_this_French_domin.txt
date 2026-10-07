@@ -1,0 +1,368 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨A⟩、⟨B⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "classical music
+⟦2⟧ = "Days
+⟦3⟧ = (LFO
+⟦4⟧ = 12 September
+⟦5⟧ = 1500 BC
+⟦6⟧ = 16 July
+⟦7⟧ = 17 May
+⟦8⟧ = 1840s
+⟦9⟧ = 1950s
+⟦10⟧ = 26 March
+⟦11⟧ = 29 September
+⟦12⟧ = 35 years
+⟦13⟧ = 4 October
+⟦14⟧ = 5 April
+⟦15⟧ = 500–1400
+⟦16⟧ = 井口基成
+⟦17⟧ = a broad span
+⟦18⟧ = a constitutional monarchy
+⟦19⟧ = a dominant figure
+⟦20⟧ = a French composer
+⟦21⟧ = a French historian
+⟦22⟧ = a generation
+⟦23⟧ = a golden age
+⟦24⟧ = a high level
+⟦25⟧ = a Japanese pianist
+⟦26⟧ = a moderate amount
+⟦27⟧ = a music infrastructure
+⟦28⟧ = a nation
+⟦29⟧ = a New Zealand-born British conductor
+⟦30⟧ = a public radio broadcaster
+⟦31⟧ = a publicist
+⟦32⟧ = a range
+⟦33⟧ = accompaniment
+⟦34⟧ = age
+⟦35⟧ = album
+⟦36⟧ = all time
+⟦37⟧ = amount
+⟦38⟧ = an American publicist
+⟦39⟧ = an attempt
+⟦40⟧ = an Austrian conductor
+⟦41⟧ = an emergent trend
+⟦42⟧ = an estimated 200 million records
+⟦43⟧ = an incomplete list
+⟦44⟧ = an independent performing orchestra
+⟦45⟧ = art
+⟦46⟧ = art music
+⟦47⟧ = artist
+⟦48⟧ = artists
+⟦49⟧ = attempt
+⟦50⟧ = Beethoven
+⟦51⟧ = Benjamin Britten
+⟦52⟧ = broadcaster
+⟦53⟧ = Canada
+⟦54⟧ = Canada's emergence
+⟦55⟧ = career
+⟦56⟧ = Carnatic music
+⟦57⟧ = Carson
+⟦58⟧ = CBC
+⟦59⟧ = century
+⟦60⟧ = Chinese classical music
+⟦61⟧ = choirs
+⟦62⟧ = choral festivals
+⟦63⟧ = Classical
+⟦64⟧ = classical music
+⟦65⟧ = classical music festivals
+⟦66⟧ = classical music publicists
+⟦67⟧ = Clifford Curzon
+⟦68⟧ = communities
+⟦69⟧ = composer
+⟦70⟧ = composers
+⟦71⟧ = conductor
+⟦72⟧ = conductors
+⟦73⟧ = conservatories
+⟦74⟧ = contemporary classical music festivals
+⟦75⟧ = country
+⟦76⟧ = David Oistrakh
+⟦77⟧ = day
+⟦78⟧ = Days
+⟦79⟧ = death
+⟦80⟧ = decades
+⟦81⟧ = Decca Records
+⟦82⟧ = director
+⟦83⟧ = divisions
+⟦84⟧ = early music festivals
+⟦85⟧ = editions
+⟦86⟧ = education
+⟦87⟧ = educator
+⟦88⟧ = Edward Johnson
+⟦89⟧ = Edwin Roxburgh
+⟦90⟧ = emergence
+⟦91⟧ = ensembles
+⟦92⟧ = era
+⟦93⟧ = eras
+⟦94⟧ = estimate
+⟦95⟧ = European classical music
+⟦96⟧ = European settlers
+⟦97⟧ = event
+⟦98⟧ = festival
+⟦99⟧ = festival-like settings
+⟦100⟧ = festivals
+⟦101⟧ = figure
+⟦102⟧ = figures
+⟦103⟧ = folk
+⟦104⟧ = following
+⟦105⟧ = François Pierre Guillaume Guizot
+⟦106⟧ = French politics
+⟦107⟧ = fusion
+⟦108⟧ = fusion music
+⟦109⟧ = Future
+⟦110⟧ = generation
+⟦111⟧ = genres
+⟦112⟧ = Georg Solti
+⟦113⟧ = George Benjamin
+⟦114⟧ = George Malcolm
+⟦115⟧ = Guizot
+⟦116⟧ = halls
+⟦117⟧ = her lengthy career
+⟦118⟧ = Heribert Ritter von Karajan
+⟦119⟧ = Hindustani and Carnatic music
+⟦120⟧ = Hindustani music
+⟦121⟧ = his death
+⟦122⟧ = his editions
+⟦123⟧ = his lifetime
+⟦124⟧ = historian
+⟦125⟧ = Iguchi Motonari
+⟦126⟧ = Indian classical music
+⟦127⟧ = Indian classical music festivals
+⟦128⟧ = Indian folk music
+⟦129⟧ = infrastructure
+⟦130⟧ = institutions
+⟦131⟧ = interest
+⟦132⟧ = its own composers
+⟦133⟧ = Johann Sebastian Bach
+⟦134⟧ = John Casken
+⟦135⟧ = John Taverner
+⟦136⟧ = July
+⟦137⟧ = Kentner
+⟦138⟧ = khyal
+⟦139⟧ = King Charles X
+⟦140⟧ = Krzysztof Penderecki
+⟦141⟧ = lady
+⟦142⟧ = legislative power
+⟦143⟧ = Leonard Bernstein
+⟦144⟧ = level
+⟦145⟧ = liberal
+⟦146⟧ = lifetime
+⟦147⟧ = list
+⟦148⟧ = Luciano Berio
+⟦149⟧ = Malcolm Arnold
+⟦150⟧ = many important artists
+⟦151⟧ = many other major orchestras
+⟦152⟧ = Margaret Carson
+⟦153⟧ = Michael Tippett
+⟦154⟧ = mid 20th-century
+⟦155⟧ = mid-1950s
+⟦156⟧ = modern
+⟦157⟧ = monarchy
+⟦158⟧ = more rhythdogs
+⟦159⟧ = Motonari Iguchi 井口基成
+⟦160⟧ = music
+⟦161⟧ = music festivals
+⟦162⟧ = musical styles
+⟦163⟧ = musicians
+⟦164⟧ = nation
+⟦165⟧ = New York
+⟦166⟧ = North India
+⟦167⟧ = number
+⟦168⟧ = October
+⟦169⟧ = one estimate
+⟦170⟧ = ones
+⟦171⟧ = onwards
+⟦172⟧ = opera
+⟦173⟧ = opera festivals
+⟦174⟧ = orator
+⟦175⟧ = orchestra
+⟦176⟧ = orchestras
+⟦177⟧ = organiser
+⟦178⟧ = origins
+⟦179⟧ = other ethnic communities
+⟦180⟧ = Part
+⟦181⟧ = performance
+⟦182⟧ = performance halls
+⟦183⟧ = period
+⟦184⟧ = pianist
+⟦185⟧ = Pierre Boulez
+⟦186⟧ = Pierre Louis Joseph Boulez CBE
+⟦187⟧ = politics
+⟦188⟧ = pop
+⟦189⟧ = pop music
+⟦190⟧ = portion
+⟦191⟧ = postmodern (1975–2000) eras
+⟦192⟧ = power
+⟦193⟧ = practice
+⟦194⟧ = press
+⟦195⟧ = principal conductor
+⟦196⟧ = prominence
+⟦197⟧ = public interest
+⟦198⟧ = publicist
+⟦199⟧ = publicists
+⟦200⟧ = radio
+⟦201⟧ = range
+⟦202⟧ = reason
+⟦203⟧ = recording
+⟦204⟧ = recordings
+⟦205⟧ = records
+⟦206⟧ = rhythdogs
+⟦207⟧ = Romantic eras
+⟦208⟧ = Ross Pople
+⟦209⟧ = roughly the 11th century
+⟦210⟧ = Rudolf Bing's career
+⟦211⟧ = Rudolf Kempe
+⟦212⟧ = scriptures
+⟦213⟧ = settings
+⟦214⟧ = settlers
+⟦215⟧ = several decades
+⟦216⟧ = Shunjūsha
+⟦217⟧ = singers
+⟦218⟧ = Sir Adrian Boult
+⟦219⟧ = soloists
+⟦220⟧ = some festivals
+⟦221⟧ = South India
+⟦222⟧ = span
+⟦223⟧ = statesman
+⟦224⟧ = styles
+⟦225⟧ = tenure
+⟦226⟧ = term
+⟦227⟧ = that country
+⟦228⟧ = the 'house orchestra
+⟦229⟧ = the 17th century
+⟦230⟧ = the 1840s
+⟦231⟧ = the 1950s
+⟦232⟧ = the 19th century
+⟦233⟧ = the 20th century
+⟦234⟧ = the 21st-century
+⟦235⟧ = the attempt
+⟦236⟧ = the Baroque
+⟦237⟧ = the Berlin Philharmonic
+⟦238⟧ = the career
+⟦239⟧ = the Carnatic event
+⟦240⟧ = the classical music world
+⟦241⟧ = the common practice period
+⟦242⟧ = the country
+⟦243⟧ = the dominant figures
+⟦244⟧ = the early 19th century
+⟦245⟧ = the early music period
+⟦246⟧ = the early portion
+⟦247⟧ = The following
+⟦248⟧ = the greatest conductors
+⟦249⟧ = the Hindu tradition
+⟦250⟧ = the July Revolution
+⟦251⟧ = the large number
+⟦252⟧ = the late 19th-century
+⟦253⟧ = the leading lady
+⟦254⟧ = The London Festival Orchestra
+⟦255⟧ = The major time divisions
+⟦256⟧ = the Medieval
+⟦257⟧ = the Met
+⟦258⟧ = the Metropolitan Opera
+⟦259⟧ = the Metropolitan Opera's press director
+⟦260⟧ = the mid-1950s
+⟦261⟧ = the Moody Blues
+⟦262⟧ = The New York Times
+⟦263⟧ = the oldest scriptures
+⟦264⟧ = the orchestra
+⟦265⟧ = The origins
+⟦266⟧ = the past few decades
+⟦267⟧ = the period
+⟦268⟧ = the post-war classical music world
+⟦269⟧ = the post-war Japanese classical music world
+⟦270⟧ = the present day
+⟦271⟧ = the principal conductor
+⟦272⟧ = the reason
+⟦273⟧ = the Renaissance (1400–1600) era
+⟦274⟧ = the Revolution
+⟦275⟧ = the standard ones
+⟦276⟧ = the tenure
+⟦277⟧ = The term
+⟦278⟧ = the top-selling classical music recording artist
+⟦279⟧ = the traditions
+⟦280⟧ = the Vedas
+⟦281⟧ = the world
+⟦282⟧ = their landmark 1967 album
+⟦283⟧ = their prominence
+⟦284⟧ = time
+⟦285⟧ = Tokyo
+⟦286⟧ = tradition
+⟦287⟧ = traditional Carnatic classical music
+⟦288⟧ = traditions
+⟦289⟧ = training
+⟦290⟧ = training institutions
+⟦291⟧ = trend
+⟦292⟧ = two divisions
+⟦293⟧ = Tyagaraja Aradhana
+⟦294⟧ = western music
+⟦295⟧ = Western or European classical music
+⟦296⟧ = Witold Lutosławski
+⟦297⟧ = world
+⟦298⟧ = writer
+⟦299⟧ = years
+⟦300⟧ = Yehudi Menuhin
+
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟦254⟧⟨A⟩⟦3⟧⟨B⟩⟦231⟧⟨C⟩⟦9⟧⟨D⟩⟦228⟧⟨E⟩⟦81⟧⟨F⟩
+⟨G⟩⟦44⟧⟨H⟩⟦175⟧⟨I⟩⟦208⟧⟨J⟩
+⟨K⟩⟦281⟧⟨L⟩⟦297⟧⟨M⟩⟦188⟧⟨N⟩⟦189⟧⟨O⟩⟦160⟧⟨P⟩⟦264⟧⟨Q⟩⟦175⟧⟨R⟩⟦33⟧⟨S⟩⟦33⟧⟨T⟩⟦261⟧⟨U⟩⟦282⟧⟨V⟩⟦35⟧⟨W⟩⟦2⟧⟨X⟩⟦78⟧⟨Y⟩⟦109⟧⟨Z⟩
+⟨[⟩⟦53⟧⟨\⟩⟦64⟧⟨]⟩⟦160⟧⟨^⟩⟦32⟧⟨_⟩⟦201⟧⟨`⟩⟦162⟧⟨a⟩⟦224⟧⟨b⟩⟦279⟧⟨c⟩⟦288⟧⟨d⟩⟦295⟧⟨e⟩⟦160⟧⟨f⟩⟦96⟧⟨g⟩⟦214⟧⟨h⟩⟦242⟧⟨i⟩⟦75⟧⟨j⟩⟦229⟧⟨k⟩⟦59⟧⟨l⟩
+⟨m⟩⟦162⟧⟨n⟩⟦224⟧⟨o⟩⟦179⟧⟨p⟩⟦68⟧⟨q⟩⟦232⟧⟨r⟩⟦59⟧⟨s⟩⟦171⟧⟨t⟩⟦171⟧⟨u⟩⟦126⟧⟨v⟩⟦160⟧⟨w⟩⟦119⟧⟨x⟩⟦160⟧⟨y⟩⟦60⟧⟨z⟩⟦160⟧⟨{⟩
+⟨|⟩⟦54⟧⟨}⟩⟦90⟧⟨~⟩⟦28⟧⟨⟩⟦164⟧⟨⟩⟦242⟧⟨⟩⟦75⟧⟨⟩⟦132⟧⟨⟩⟦70⟧⟨⟩⟦163⟧⟨⟩⟦163⟧⟨⟩⟦91⟧⟨⟩⟦91⟧⟨⟩
+⟨⟩⟦27⟧⟨⟩⟦160⟧⟨⟩⟦129⟧⟨⟩⟦289⟧⟨⟩⟦290⟧⟨⟩⟦130⟧⟨⟩⟦73⟧⟨⟩⟦73⟧⟨⟩⟦181⟧⟨⟩⟦182⟧⟨⟩⟦116⟧⟨⟩⟦30⟧⟨⟩⟦200⟧⟨⟩⟦52⟧⟨⟩⟦58⟧⟨⟩⟦26⟧⟨⟩⟦37⟧⟨⟩⟦64⟧⟨⟩⟦160⟧⟨⟩
+⟨⟩⟦24⟧⟨⟩⟦144⟧⟨⟩⟦197⟧⟨ ⟩⟦131⟧⟨¡⟩⟦64⟧⟨¢⟩⟦160⟧⟨£⟩⟦86⟧⟨¤⟩⟦86⟧⟨¥⟩
+⟦247⟧⟨¦⟩⟦104⟧⟨§⟩⟦43⟧⟨¨⟩⟦147⟧⟨©⟩⟦127⟧⟨ª⟩⟦160⟧⟨«⟩⟦100⟧⟨¬⟩⟦160⟧⟨­⟩⟦161⟧⟨®⟩⟦100⟧⟨¯⟩⟦126⟧⟨°⟩⟦160⟧⟨±⟩
+⟦265⟧⟨²⟩⟦178⟧⟨³⟩⟦126⟧⟨´⟩⟦160⟧⟨µ⟩⟦280⟧⟨¶⟩⟦263⟧⟨·⟩⟦212⟧⟨¸⟩⟦249⟧⟨¹⟩⟦286⟧⟨º⟩⟦5⟧⟨»⟩
+⟦126⟧⟨¼⟩⟦160⟧⟨½⟩⟦128⟧⟨¾⟩⟦103⟧⟨¿⟩⟦160⟧⟨À⟩
+⟨Á⟩⟦292⟧⟨Â⟩⟦83⟧⟨Ã⟩⟦126⟧⟨Ä⟩⟦160⟧⟨Å⟩
+⟦120⟧⟨Æ⟩⟦160⟧⟨Ç⟩⟦166⟧⟨È⟩
+⟦56⟧⟨É⟩⟦160⟧⟨Ê⟩⟦221⟧⟨Ë⟩⟦158⟧⟨Ì⟩⟦206⟧⟨Í⟩⟦120⟧⟨Î⟩⟦160⟧⟨Ï⟩
+⟨Ð⟩⟦220⟧⟨Ñ⟩⟦100⟧⟨Ò⟩⟦239⟧⟨Ó⟩⟦97⟧⟨Ô⟩⟦293⟧⟨Õ⟩⟦230⟧⟨Ö⟩⟦8⟧⟨×⟩⟦287⟧⟨Ø⟩⟦160⟧⟨Ù⟩⟦41⟧⟨Ú⟩⟦291⟧⟨Û⟩⟦266⟧⟨Ü⟩⟦80⟧⟨Ý⟩⟦107⟧⟨Þ⟩⟦108⟧⟨ß⟩⟦160⟧⟨à⟩⟦111⟧⟨á⟩⟦111⟧⟨â⟩⟦138⟧⟨ã⟩⟦138⟧⟨ä⟩⟦294⟧⟨å⟩⟦160⟧⟨æ⟩
+⟦247⟧⟨ç⟩⟦104⟧⟨è⟩⟦43⟧⟨é⟩⟦147⟧⟨ê⟩⟦65⟧⟨ë⟩⟦160⟧⟨ì⟩⟦100⟧⟨í⟩⟦160⟧⟨î⟩⟦161⟧⟨ï⟩⟦100⟧⟨ð⟩⟦64⟧⟨ñ⟩⟦160⟧⟨ò⟩
+⟦64⟧⟨ó⟩⟦160⟧⟨ô⟩⟦45⟧⟨õ⟩⟦46⟧⟨ö⟩⟦160⟧⟨÷⟩⟦279⟧⟨ø⟩⟦288⟧⟨ù⟩⟦294⟧⟨ú⟩⟦160⟧⟨û⟩⟦98⟧⟨ü⟩⟦99⟧⟨ý⟩⟦213⟧⟨þ⟩
+⟨ÿ⟩⟦17⟧⟨Ā⟩⟦222⟧⟨ā⟩⟦284⟧⟨Ă⟩⟦284⟧⟨ă⟩⟦209⟧⟨Ą⟩⟦59⟧⟨ą⟩⟦270⟧⟨Ć⟩⟦77⟧⟨ć⟩
+⟦255⟧⟨Ĉ⟩⟦284⟧⟨ĉ⟩⟦83⟧⟨Ċ⟩⟦64⟧⟨ċ⟩⟦160⟧⟨Č⟩⟦245⟧⟨č⟩⟦160⟧⟨Ď⟩⟦183⟧⟨ď⟩⟦256⟧⟨Đ⟩⟦15⟧⟨đ⟩⟦273⟧⟨Ē⟩⟦92⟧⟨ē⟩⟦84⟧⟨Ĕ⟩⟦160⟧⟨ĕ⟩⟦100⟧⟨Ė⟩⟦241⟧⟨ė⟩⟦193⟧⟨Ę⟩⟦183⟧⟨ę⟩⟦236⟧⟨Ě⟩⟦63⟧⟨ě⟩⟦207⟧⟨Ĝ⟩⟦93⟧⟨ĝ⟩⟦172⟧⟨Ğ⟩⟦173⟧⟨ğ⟩⟦100⟧⟨Ġ⟩⟦62⟧⟨ġ⟩⟦100⟧⟨Ģ⟩⟦233⟧⟨ģ⟩⟦59⟧⟨Ĥ⟩⟦252⟧⟨ĥ⟩⟦59⟧⟨Ħ⟩⟦156⟧⟨ħ⟩⟦154⟧⟨Ĩ⟩⟦59⟧⟨ĩ⟩⟦74⟧⟨Ī⟩⟦160⟧⟨ī⟩⟦100⟧⟨Ĭ⟩⟦191⟧⟨ĭ⟩⟦93⟧⟨Į⟩⟦234⟧⟨į⟩⟦59⟧⟨İ⟩
+⟦277⟧⟨ı⟩⟦226⟧⟨Ĳ⟩⟦1⟧⟨ĳ⟩⟦160⟧⟨Ĵ⟩⟦244⟧⟨ĵ⟩⟦59⟧⟨Ķ⟩⟦39⟧⟨ķ⟩⟦49⟧⟨ĸ⟩⟦267⟧⟨Ĺ⟩⟦183⟧⟨ĺ⟩⟦133⟧⟨Ļ⟩⟦50⟧⟨ļ⟩⟦23⟧⟨Ľ⟩⟦34⟧⟨ľ⟩
+⟦159⟧⟨Ŀ⟩⟦16⟧⟨ŀ⟩⟦125⟧⟨Ł⟩⟦7⟧⟨ł⟩⟦285⟧⟨Ń⟩⟦11⟧⟨ń⟩⟦285⟧⟨Ņ⟩⟦25⟧⟨ņ⟩⟦184⟧⟨Ň⟩⟦87⟧⟨ň⟩⟦87⟧⟨ŉ⟩
+⟨Ŋ⟩⟦269⟧⟨ŋ⟩⟦160⟧⟨Ō⟩⟦297⟧⟨ō⟩⟦122⟧⟨Ŏ⟩⟦85⟧⟨ŏ⟩⟦216⟧⟨Ő⟩⟦275⟧⟨ő⟩⟦170⟧⟨Œ⟩⟦227⟧⟨œ⟩⟦75⟧⟨Ŕ⟩
+⟨ŕ⟩⟦118⟧⟨Ŗ⟩⟦14⟧⟨ŗ⟩⟦6⟧⟨Ř⟩⟦40⟧⟨ř⟩⟦71⟧⟨Ś⟩
+⟨ś⟩⟦195⟧⟨Ŝ⟩⟦71⟧⟨ŝ⟩⟦237⟧⟨Ş⟩⟦12⟧⟨ş⟩⟦299⟧⟨Š⟩
+⟨š⟩⟦248⟧⟨Ţ⟩⟦72⟧⟨ţ⟩⟦233⟧⟨Ť⟩⟦59⟧⟨ť⟩⟦19⟧⟨Ŧ⟩⟦101⟧⟨ŧ⟩⟦95⟧⟨Ũ⟩⟦160⟧⟨ũ⟩⟦260⟧⟨Ū⟩⟦155⟧⟨ū⟩⟦121⟧⟨Ŭ⟩⟦79⟧⟨ŭ⟩
+⟦180⟧⟨Ů⟩⟦272⟧⟨ů⟩⟦202⟧⟨Ű⟩⟦251⟧⟨ű⟩⟦167⟧⟨Ų⟩⟦204⟧⟨ų⟩⟦204⟧⟨Ŵ⟩⟦283⟧⟨ŵ⟩⟦196⟧⟨Ŷ⟩⟦123⟧⟨ŷ⟩⟦146⟧⟨Ÿ⟩
+⟨Ź⟩⟦169⟧⟨ź⟩⟦94⟧⟨Ż⟩⟦278⟧⟨ż⟩⟦160⟧⟨Ž⟩⟦203⟧⟨ž⟩⟦47⟧⟨ſ⟩⟦36⟧⟨ƀ⟩⟦284⟧⟨Ɓ⟩⟦42⟧⟨Ƃ⟩⟦205⟧⟨ƃ⟩
+⟦186⟧⟨Ƅ⟩⟦10⟧⟨ƅ⟩⟦20⟧⟨Ɔ⟩⟦69⟧⟨Ƈ⟩⟦71⟧⟨ƈ⟩⟦71⟧⟨Ɖ⟩⟦298⟧⟨Ɗ⟩⟦298⟧⟨Ƌ⟩⟦177⟧⟨ƌ⟩⟦177⟧⟨ƍ⟩⟦130⟧⟨Ǝ⟩⟦130⟧⟨Ə⟩
+⟨Ɛ⟩⟦243⟧⟨Ƒ⟩⟦102⟧⟨ƒ⟩⟦268⟧⟨Ɠ⟩⟦160⟧⟨Ɣ⟩⟦297⟧⟨ƕ⟩
+⟦208⟧⟨Ɩ⟩⟦29⟧⟨Ɨ⟩⟦71⟧⟨Ƙ⟩
+⟨ƙ⟩⟦271⟧⟨ƚ⟩⟦71⟧⟨ƛ⟩⟦254⟧⟨Ɯ⟩
+⟨Ɲ⟩⟦300⟧⟨ƞ⟩⟦67⟧⟨Ɵ⟩⟦76⟧⟨Ơ⟩⟦137⟧⟨ơ⟩⟦114⟧⟨Ƣ⟩⟦218⟧⟨ƣ⟩⟦211⟧⟨Ƥ⟩⟦51⟧⟨ƥ⟩⟦296⟧⟨Ʀ⟩⟦140⟧⟨Ƨ⟩⟦153⟧⟨ƨ⟩⟦112⟧⟨Ʃ⟩⟦143⟧⟨ƪ⟩⟦113⟧⟨ƫ⟩⟦134⟧⟨Ƭ⟩⟦89⟧⟨ƭ⟩⟦148⟧⟨Ʈ⟩⟦135⟧⟨Ư⟩⟦149⟧⟨ư⟩⟦185⟧⟨Ʊ⟩⟦151⟧⟨Ʋ⟩⟦176⟧⟨Ƴ⟩⟦61⟧⟨ƴ⟩⟦61⟧⟨Ƶ⟩⟦219⟧⟨ƶ⟩⟦219⟧⟨Ʒ⟩
+⟦152⟧⟨Ƹ⟩⟦136⟧⟨ƹ⟩⟦168⟧⟨ƺ⟩⟦38⟧⟨ƻ⟩⟦198⟧⟨Ƽ⟩⟦240⟧⟨ƽ⟩⟦160⟧⟨ƾ⟩⟦297⟧⟨ƿ⟩
+⟨ǀ⟩⟦31⟧⟨ǁ⟩⟦198⟧⟨ǂ⟩⟦150⟧⟨ǃ⟩⟦48⟧⟨Ǆ⟩⟦117⟧⟨ǅ⟩⟦55⟧⟨ǆ⟩⟦215⟧⟨Ǉ⟩⟦80⟧⟨ǈ⟩⟦143⟧⟨ǉ⟩
+⟨Ǌ⟩⟦259⟧⟨ǋ⟩⟦194⟧⟨ǌ⟩⟦82⟧⟨Ǎ⟩⟦276⟧⟨ǎ⟩⟦225⟧⟨Ǐ⟩⟦88⟧⟨ǐ⟩⟦246⟧⟨Ǒ⟩⟦190⟧⟨ǒ⟩⟦210⟧⟨Ǔ⟩⟦55⟧⟨ǔ⟩⟦257⟧⟨Ǖ⟩
+⟦262⟧⟨ǖ⟩⟦57⟧⟨Ǘ⟩⟦253⟧⟨ǘ⟩⟦141⟧⟨Ǚ⟩⟦66⟧⟨ǚ⟩⟦160⟧⟨Ǜ⟩⟦199⟧⟨ǜ⟩⟦165⟧⟨ǝ⟩⟦22⟧⟨Ǟ⟩⟦110⟧⟨ǟ⟩⟦217⟧⟨Ǡ⟩⟦217⟧⟨ǡ⟩⟦258⟧⟨Ǣ⟩⟦238⟧⟨ǣ⟩⟦55⟧⟨Ǥ⟩⟦143⟧⟨ǥ⟩
+⟦105⟧⟨Ǧ⟩⟦13⟧⟨ǧ⟩⟦4⟧⟨Ǩ⟩⟦21⟧⟨ǩ⟩⟦124⟧⟨Ǫ⟩⟦174⟧⟨ǫ⟩⟦174⟧⟨Ǭ⟩⟦223⟧⟨ǭ⟩⟦223⟧⟨Ǯ⟩
+⟦115⟧⟨ǯ⟩⟦19⟧⟨ǰ⟩⟦101⟧⟨Ǳ⟩⟦106⟧⟨ǲ⟩⟦187⟧⟨ǳ⟩⟦274⟧⟨Ǵ⟩
+⟨ǵ⟩⟦145⟧⟨Ƕ⟩⟦235⟧⟨Ƿ⟩⟦49⟧⟨Ǹ⟩⟦139⟧⟨ǹ⟩⟦142⟧⟨Ǻ⟩⟦192⟧⟨ǻ⟩⟦18⟧⟨Ǽ⟩⟦157⟧⟨ǽ⟩⟦250⟧⟨Ǿ⟩
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+约束：
+- 必须先把整个拓扑链从头到尾完整看完，再决定截断片段
+- 每个截断必须是拓扑链中连续的符号序列
+- 多个截断必须按拓扑链中的原始顺序排列（不允许交叉）
+- 不能编造不存在的符号
+- 不能重排符号顺序
+- 段长建议：每个段至少 3 个名词 + 2 个占位符（左右各留 1 个占位符给出上下文）
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨A⟩⟦2⟧ | ⟦3⟧⟨B⟩⟦5⟧
+长段示例：⟦2⟧⟨B⟩⟦3⟧⟨C⟩⟦4⟧⟨D⟩⟦5⟧⟨E⟩⟦6⟧ | ⟦8⟧⟨F⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：
+
+[user]
+
+问题：
+Ross Pople worked with this French dominant figure of the post-war classical music world.

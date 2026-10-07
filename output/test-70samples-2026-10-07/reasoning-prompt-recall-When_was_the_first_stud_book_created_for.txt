@@ -1,0 +1,79 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Rotrou III, Count of Perche] ⟦214⟧
+[Rotrou III, Count of Perche] ⟨109⟩⟨110⟩⟨111⟩⟦290⟧⟨112⟩⟦209⟧⟦209⟧⟨113⟩⟨114⟩⟦292⟧⟨115⟩⟨116⟩
+[Yeguada Militar de Jerez de la Frontera] ⟦53⟧
+[Percheron] ⟦138⟧
+[Percheron] ⟦65⟧
+[Percheron] ⟦110⟧⟦110⟧⟨545⟩⟨546⟩⟦188⟧⟨547⟩⟨548⟩⟦312⟧⟨549⟩⟦178⟧⟦81⟧⟨550⟩⟨551⟩⟦283⟧⟦73⟧⟨552⟩⟨553⟩⟦268⟧⟦241⟧⟨555⟩⟦63⟧⟨554⟩⟨556⟩⟦117⟧⟦117⟧⟨557⟩
+
+符号表：
+⟦53⟧ = Arabian horses
+⟦63⟧ = book
+⟦65⟧ = breed
+⟦73⟧ = century
+⟦81⟧ = countries
+⟦110⟧ = Exports
+⟦117⟧ = France
+⟦138⟧ = horses
+⟦178⟧ = other countries
+⟦188⟧ = Percherons
+⟦209⟧ = rise
+⟦214⟧ = Rotrou III
+⟦241⟧ = stud
+⟦268⟧ = the first purely Percheron stud book
+⟦283⟧ = the late 19th century
+⟦290⟧ = the Perche
+⟦292⟧ = the Percheron breed
+⟦312⟧ = the United States
+
+占位符映射：
+⟨109⟩ =  He is commonly credited with introducing 
+⟨110⟩ = 
+⟨111⟩ =  to 
+⟨112⟩ = , giving 
+⟨113⟩ = 
+⟨114⟩ =  to 
+⟨115⟩ = 
+⟨116⟩ = .
+⟨545⟩ = 
+⟨546⟩ =  of 
+⟨547⟩ =  from 
+⟨548⟩ =  to 
+⟨549⟩ =  and 
+⟨550⟩ = 
+⟨551⟩ =  rose exponentially in 
+⟨552⟩ = 
+⟨553⟩ = , and 
+⟨554⟩ = 
+⟨555⟩ =  
+⟨556⟩ =  was created in 
+⟨557⟩ =  in 1883.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+When was the first stud book created for the breed of horse that came from Rotrou introducing Arabian horses to Perche?

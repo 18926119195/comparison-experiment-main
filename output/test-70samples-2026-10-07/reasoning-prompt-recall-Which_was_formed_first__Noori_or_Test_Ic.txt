@@ -1,0 +1,201 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Test Icicles] ⟨78⟩⟨79⟩⟦16⟧⟦42⟧⟨81⟩⟨82⟩⟨80⟩⟨83⟩⟦54⟧⟨84⟩⟦75⟧⟨85⟩⟨86⟩⟦97⟧⟦53⟧⟨87⟩⟨88⟩⟦19⟧⟦177⟧⟨89⟩⟨90⟩⟦60⟧⟦60⟧⟨91⟩⟨92⟩⟦101⟧⟦67⟧⟨94⟩⟦72⟧⟨93⟩⟨95⟩⟦39⟧⟦40⟧⟨96⟩⟦165⟧⟨97⟩⟨98⟩⟨99⟩⟨100⟩
+[Test Icicles] ⟨101⟩⟨102⟩⟨103⟩⟦119⟧⟨104⟩⟦47⟧⟨105⟩
+[Test Icicles] ⟦73⟧⟨106⟩⟦90⟧⟨107⟩⟦182⟧⟨108⟩⟦161⟧⟨109⟩⟨110⟩⟦144⟧⟨112⟩⟨111⟩⟨113⟩
+[Test Icicles] ⟨114⟩⟨115⟩⟦151⟧⟦134⟧⟨116⟩⟨117⟩⟦77⟧⟨118⟩⟨119⟩
+[The Ordinary Boys (album)] ⟦135⟧
+[Noori] ⟦100⟧⟨191⟩⟦176⟧⟦185⟧⟨192⟩⟨193⟩⟦85⟧⟦168⟧⟨194⟩⟨195⟩⟦82⟧⟦82⟧⟨196⟩⟨197⟩⟦14⟧⟦117⟧⟨199⟩⟨198⟩⟨200⟩⟦78⟧⟨201⟩⟦110⟧⟨202⟩⟦106⟧⟨203⟩ | ⟦117⟧
+[Noori] ⟦148⟧⟦62⟧⟨204⟩⟨205⟩⟦128⟧⟦128⟧⟨206⟩⟨207⟩⟦79⟧⟦80⟧⟨208⟩⟦179⟧⟨209⟩⟨210⟩⟦64⟧⟦64⟧⟨211⟩⟨212⟩⟨213⟩⟦70⟧⟦33⟧⟨214⟩⟨215⟩⟨216⟩⟦28⟧⟦29⟧⟨217⟩⟨218⟩⟦50⟧⟦51⟧⟨219⟩⟨220⟩ | ⟦148⟧⟦62⟧
+[Noori] ⟦27⟧ | ⟦23⟧⟦22⟧ | ⟨221⟩⟦150⟧⟦74⟧⟨222⟩⟨223⟩⟦141⟧⟦27⟧⟨224⟩⟨225⟩⟦87⟧⟦36⟧⟨226⟩⟨227⟩⟦152⟧⟦84⟧⟨229⟩⟦175⟧⟨228⟩⟨230⟩⟦155⟧⟦92⟧⟨231⟩⟨232⟩⟦34⟧⟦34⟧⟨233⟩⟨234⟩⟦23⟧⟨235⟩⟦22⟧⟨236⟩ | ⟦27⟧ | ⟦141⟧⟦27⟧ | ⟦74⟧⟦27⟧ | ⟦92⟧
+[Rory Attwell] ⟦111⟧⟦111⟧⟦111⟧ | ⟦118⟧
+[Rory Attwell] ⟦166⟧
+[Circle. Square. Triangle] ⟦136⟧
+
+符号表：
+⟦14⟧ = a rock band
+⟦16⟧ = a short-lived dance-punk band
+⟦19⟧ = a variety
+⟦22⟧ = Ali Hamza
+⟦23⟧ = Ali Noor
+⟦27⟧ = band
+⟦28⟧ = bassist
+⟦29⟧ = bassist Muhammad Ali Jafri
+⟦33⟧ = brother
+⟦34⟧ = brothers
+⟦36⟧ = changes
+⟦39⟧ = crossover
+⟦40⟧ = crossover thrash
+⟦42⟧ = dance
+⟦47⟧ = Devonte Hynes
+⟦50⟧ = drummer
+⟦51⟧ = drummer Salman Albert
+⟦53⟧ = elements
+⟦54⟧ = England
+⟦60⟧ = genres
+⟦62⟧ = group
+⟦64⟧ = guitarist
+⟦67⟧ = hip
+⟦70⟧ = his younger brother
+⟦72⟧ = hop
+⟦73⟧ = Hynes
+⟦74⟧ = inception
+⟦75⟧ = indie rock
+⟦77⟧ = its members
+⟦78⟧ = Lahore
+⟦79⟧ = lead
+⟦80⟧ = lead vocalist
+⟦82⟧ = light
+⟦84⟧ = line
+⟦85⟧ = literal English translation
+⟦87⟧ = many changes
+⟦90⟧ = Mehran
+⟦92⟧ = members
+⟦97⟧ = musical elements
+⟦100⟧ = Noori
+⟦101⟧ = notably hip hop
+⟦106⟧ = Pakistan
+⟦110⟧ = Punjab
+⟦111⟧ = punk
+⟦117⟧ = rock
+⟦118⟧ = Rory Attwell
+⟦119⟧ = Sam Mehran
+⟦128⟧ = songwriter
+⟦134⟧ = success
+⟦135⟧ = Test
+⟦136⟧ = Test Icicles
+⟦141⟧ = The band
+⟦144⟧ = the band's inception
+⟦148⟧ = The group
+⟦150⟧ = the inception
+⟦151⟧ = the later success
+⟦152⟧ = the line-up
+⟦155⟧ = the only consistent members
+⟦161⟧ = the time
+⟦165⟧ = thrash
+⟦166⟧ = time
+⟦168⟧ = translation
+⟦175⟧ = up
+⟦176⟧ = Urdu:نوری
+⟦177⟧ = variety
+⟦179⟧ = vocalist
+⟦182⟧ = years
+⟦185⟧ = نوری
+
+占位符映射：
+⟨78⟩ = 
+⟨79⟩ =  were 
+⟨80⟩ = 
+⟨81⟩ = -
+⟨82⟩ =  
+⟨83⟩ =  that formed in 
+⟨84⟩ = , primarily influenced by 
+⟨85⟩ = 
+⟨86⟩ =  but containing 
+⟨87⟩ = 
+⟨88⟩ =  from 
+⟨89⟩ = 
+⟨90⟩ =  of 
+⟨91⟩ = 
+⟨92⟩ =  (
+⟨93⟩ = 
+⟨94⟩ =  
+⟨95⟩ = , 
+⟨96⟩ = 
+⟨97⟩ = 
+⟨98⟩ =  and 
+⟨99⟩ = 
+⟨100⟩ = ).
+⟨101⟩ = 
+⟨102⟩ =  was formed in 2004 by 
+⟨103⟩ =  and 
+⟨104⟩ = , who were later joined by 
+⟨105⟩ = .
+⟨106⟩ =  and 
+⟨107⟩ =  were both 18 
+⟨108⟩ =  old at 
+⟨109⟩ = 
+⟨110⟩ =  of 
+⟨111⟩ = 
+⟨112⟩ = 's 
+⟨113⟩ = .
+⟨114⟩ = 
+⟨115⟩ =  has since become notable due to 
+⟨116⟩ = 
+⟨117⟩ =  of 
+⟨118⟩ = 
+⟨119⟩ = .
+⟨191⟩ =  (
+⟨192⟩ = 
+⟨193⟩ = , 
+⟨194⟩ = 
+⟨195⟩ = : "
+⟨196⟩ = 
+⟨197⟩ = ") is 
+⟨198⟩ = 
+⟨199⟩ =  
+⟨200⟩ =  from 
+⟨201⟩ = , 
+⟨202⟩ = , 
+⟨203⟩ = , formed in 1996.
+⟨204⟩ = 
+⟨205⟩ =  was formed by 
+⟨206⟩ = 
+⟨207⟩ = , 
+⟨208⟩ = 
+⟨209⟩ = 
+⟨210⟩ =  and 
+⟨211⟩ = 
+⟨212⟩ = , 
+⟨213⟩ = , along with 
+⟨214⟩ = 
+⟨215⟩ =  
+⟨216⟩ = , who were soon joined by 
+⟨217⟩ = 
+⟨218⟩ =  and 
+⟨219⟩ = 
+⟨220⟩ = .
+⟨221⟩ =  Since 
+⟨222⟩ = 
+⟨223⟩ =  of 
+⟨224⟩ = 
+⟨225⟩ = , there had been 
+⟨226⟩ = 
+⟨227⟩ =  in 
+⟨228⟩ = 
+⟨229⟩ = -
+⟨230⟩ = ; 
+⟨231⟩ = 
+⟨232⟩ =  being, 
+⟨233⟩ = 
+⟨234⟩ = , 
+⟨235⟩ =  and 
+⟨236⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which was formed first, Noori or Test Icicles?

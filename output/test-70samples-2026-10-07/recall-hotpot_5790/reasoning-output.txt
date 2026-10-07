@@ -1,0 +1,33 @@
+# 路径一：直接床位数字对比
+
+步骤1：使用⟦12⟧，提取 MedStar Washington Hospital Center 的床位数为 926 beds。
+
+步骤2：使用⟦7⟧，提取 Children's National Medical Center 的床位数为 303 beds。
+
+步骤3：综合⟦12⟧⟦7⟧，对比两个数字：926 > 303。
+
+结论：MedStar Washington Hospital Center 拥有更多床位（926 床 vs. 303 床）。
+
+---
+
+# 路径二：医院规模与定位交叉验证
+
+步骤1：使用⟦246⟧，提取 MedStar Washington Hospital Center 被描述为“the largest private hospital”，暗示其规模较大。
+
+步骤2：使用⟦73⟧⟦267⟧，提取 Children's National Medical Center 被描述为“the top 10 children’s hospitals”之一，属于专科儿童医院，通常床位规模小于大型综合私立医院。
+
+步骤3：综合⟦246⟧⟦73⟧⟦267⟧，从医院定位和规模描述交叉验证：大型私立综合医院（MedStar）的床位应多于专科儿童医院（Children's National）。
+
+结论：MedStar Washington Hospital Center 床位更多，与其“最大私立医院”的定位一致。
+
+---
+
+# 路径三：排除法验证
+
+步骤1：使用⟦12⟧，确认 MedStar Washington Hospital Center 床位数为 926。
+
+步骤2：使用⟦7⟧，确认 Children's National Medical Center 床位数为 303。
+
+步骤3：综合⟦12⟧⟦7⟧，若 Children's National 要更多床位，则需 303 > 926，显然不成立；反之 926 > 303 成立。
+
+结论：MedStar Washington Hospital Center 床位更多。

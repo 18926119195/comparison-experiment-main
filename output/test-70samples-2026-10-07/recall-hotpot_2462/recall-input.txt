@@ -1,0 +1,354 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "27 de Enero" home
+⟦2⟧ = "Ejido 27 de Enero
+⟦3⟧ = ("Arroyo Colonet
+⟦4⟧ = ("dry arroyo
+⟦5⟧ = (Goolugatup
+⟦6⟧ = 11 km
+⟦7⟧ = 22 years
+⟦8⟧ = 474 people
+⟦9⟧ = a battle
+⟦10⟧ = a beautiful, unspoiled area
+⟦11⟧ = a British sea captain
+⟦12⟧ = a cape
+⟦13⟧ = a colorful personality
+⟦14⟧ = a geographic feature
+⟦15⟧ = a geological and biological zone
+⟦16⟧ = a member
+⟦17⟧ = a Paris prison
+⟦18⟧ = a populated place
+⟦19⟧ = a primary defensive position
+⟦20⟧ = a profit
+⟦21⟧ = a river
+⟦22⟧ = a slightly higher interest rate
+⟦23⟧ = a sound financial footing
+⟦24⟧ = a town
+⟦25⟧ = about seven miles
+⟦26⟧ = aka "Ejido Punta Colonet
+⟦27⟧ = all parts
+⟦28⟧ = an island town
+⟦29⟧ = an Oneida word
+⟦30⟧ = an unincorporated community
+⟦31⟧ = area
+⟦32⟧ = area code
+⟦33⟧ = areas
+⟦34⟧ = army
+⟦35⟧ = arroyo
+⟦36⟧ = attacks
+⟦37⟧ = Australia
+⟦38⟧ = Baja California
+⟦39⟧ = Bass Harbor
+⟦40⟧ = battle
+⟦41⟧ = bay
+⟦42⟧ = border
+⟦43⟧ = Boston
+⟦44⟧ = both the colonial and British troops
+⟦45⟧ = boundaries
+⟦46⟧ = Breed's Hill
+⟦47⟧ = Bunker Hill
+⟦48⟧ = California
+⟦49⟧ = Camalú
+⟦50⟧ = cape
+⟦51⟧ = captain
+⟦52⟧ = Captain James Colnett
+⟦53⟧ = Cemetery Ridge
+⟦54⟧ = census
+⟦55⟧ = center
+⟦56⟧ = centuries
+⟦57⟧ = century
+⟦58⟧ = Charlestown
+⟦59⟧ = Chattanooga
+⟦60⟧ = Chenango County
+⟦61⟧ = Chuwílo Ksaay
+⟦62⟧ = city
+⟦63⟧ = coast
+⟦64⟧ = code
+⟦65⟧ = Colonel James Swan
+⟦66⟧ = Colonet
+⟦67⟧ = colonization
+⟦68⟧ = combat
+⟦69⟧ = communities
+⟦70⟧ = community
+⟦71⟧ = Confederate forces
+⟦72⟧ = days
+⟦73⟧ = debts
+⟦74⟧ = dire need
+⟦75⟧ = division
+⟦76⟧ = domestic U.S. markets
+⟦77⟧ = edge
+⟦78⟧ = Ejido Colonet
+⟦79⟧ = Ejido México
+⟦80⟧ = Ensenada
+⟦81⟧ = Ensenada Municipality
+⟦82⟧ = Europe
+⟦83⟧ = farming
+⟦84⟧ = farms
+⟦85⟧ = feature
+⟦86⟧ = ferry
+⟦87⟧ = Fife
+⟦88⟧ = fish
+⟦89⟧ = footing
+⟦90⟧ = forces
+⟦91⟧ = foreign governments
+⟦92⟧ = funds
+⟦93⟧ = General Braxton Bragg
+⟦94⟧ = George H. Thomas
+⟦95⟧ = Gettysburg
+⟦96⟧ = Gettysburg National Military Park
+⟦97⟧ = governments
+⟦98⟧ = growth
+⟦99⟧ = Hancock County
+⟦100⟧ = hill
+⟦101⟧ = his life
+⟦102⟧ = his private funds
+⟦103⟧ = home
+⟦104⟧ = hook
+⟦105⟧ = IBRA
+⟦106⟧ = interest
+⟦107⟧ = investors
+⟦108⟧ = island
+⟦109⟧ = Its proximity
+⟦110⟧ = its tributaries
+⟦111⟧ = James Swan
+⟦112⟧ = July
+⟦113⟧ = June
+⟦114⟧ = Kings
+⟦115⟧ = Kings Mountain
+⟦116⟧ = km
+⟦117⟧ = language
+⟦118⟧ = large commercial farming
+⟦119⟧ = legislature
+⟦120⟧ = Liberty
+⟦121⟧ = life
+⟦122⟧ = line
+⟦123⟧ = loyalty
+⟦124⟧ = Maine
+⟦125⟧ = Maj. Gens
+⟦126⟧ = majority
+⟦127⟧ = markets
+⟦128⟧ = Massachusetts
+⟦129⟧ = Melville Water
+⟦130⟧ = member
+⟦131⟧ = Mexican Federal Highway
+⟦132⟧ = Mexico's Baja California peninsula
+⟦133⟧ = miles
+⟦134⟧ = Missionary Ridge
+⟦135⟧ = money
+⟦136⟧ = National Geographic Names Database
+⟦137⟧ = nearby town
+⟦138⟧ = need
+⟦139⟧ = New England
+⟦140⟧ = Noongar
+⟦141⟧ = north
+⟦142⟧ = northwest
+⟦143⟧ = Norwich
+⟦144⟧ = November
+⟦145⟧ = objective
+⟦146⟧ = ocean
+⟦147⟧ = office
+⟦148⟧ = opposite sides
+⟦149⟧ = orchards
+⟦150⟧ = Otselic
+⟦151⟧ = part
+⟦152⟧ = parts
+⟦153⟧ = peninsula
+⟦154⟧ = Pennsylvania
+⟦155⟧ = people
+⟦156⟧ = personality
+⟦157⟧ = Pise Mountain
+⟦158⟧ = place
+⟦159⟧ = plain
+⟦160⟧ = plums
+⟦161⟧ = point
+⟦162⟧ = Point Heathcote
+⟦163⟧ = population
+⟦164⟧ = position
+⟦165⟧ = positions
+⟦166⟧ = principles
+⟦167⟧ = prison
+⟦168⟧ = private investors
+⟦169⟧ = profit
+⟦170⟧ = provinces
+⟦171⟧ = proximity
+⟦172⟧ = Punta Colonet
+⟦173⟧ = quarter
+⟦174⟧ = rate
+⟦175⟧ = region
+⟦176⟧ = regions
+⟦177⟧ = river
+⟦178⟧ = roughly the center
+⟦179⟧ = San Mateo County
+⟦180⟧ = Scotland
+⟦181⟧ = sea
+⟦182⟧ = secretary
+⟦183⟧ = section
+⟦184⟧ = sides
+⟦185⟧ = siege
+⟦186⟧ = site
+⟦187⟧ = Skeggs Point
+⟦188⟧ = Skyline Boulevard
+⟦189⟧ = soldiers
+⟦190⟧ = some surrounding areas
+⟦191⟧ = south
+⟦192⟧ = SR84
+⟦193⟧ = stages
+⟦194⟧ = State Route
+⟦195⟧ = summit
+⟦196⟧ = Swan
+⟦197⟧ = Swan River
+⟦198⟧ = Swan's Island
+⟦199⟧ = Tennessee
+⟦200⟧ = that office
+⟦201⟧ = the "fish-hook" line
+⟦202⟧ = the 18th and 19th centuries
+⟦203⟧ = the 2010 census
+⟦204⟧ = the adjacent hill
+⟦205⟧ = the American Civil War
+⟦206⟧ = the American Revolution Swan
+⟦207⟧ = the American Revolutionary War
+⟦208⟧ = the area
+⟦209⟧ = The Battle
+⟦210⟧ = the Boston Tea Party
+⟦211⟧ = the boundaries
+⟦212⟧ = the city
+⟦213⟧ = The coastal plain
+⟦214⟧ = the Colonet Creek
+⟦215⟧ = The community
+⟦216⟧ = The Confederate army
+⟦217⟧ = the Continental Army
+⟦218⟧ = the distinct physiographic provinces
+⟦219⟧ = the early stages
+⟦220⟧ = the eighteenth century
+⟦221⟧ = the entire United States French debts
+⟦222⟧ = the geographic feature
+⟦223⟧ = the growth
+⟦224⟧ = the Indian Ocean
+⟦225⟧ = the island
+⟦226⟧ = the Kiliwa language
+⟦227⟧ = the larger West Australian Shield division
+⟦228⟧ = the last five years
+⟦229⟧ = the late 18th century
+⟦230⟧ = the legislature
+⟦231⟧ = the majority
+⟦232⟧ = the Massachusetts Board
+⟦233⟧ = the most productive agricultural areas
+⟦234⟧ = the north border
+⟦235⟧ = the ocean's edge
+⟦236⟧ = the original objective
+⟦237⟧ = the Otselic
+⟦238⟧ = The Otselic valley
+⟦239⟧ = the Pacific coast
+⟦240⟧ = The point
+⟦241⟧ = The population
+⟦242⟧ = the predominant geographic feature
+⟦243⟧ = the region
+⟦244⟧ = the second and third days
+⟦245⟧ = the Siege
+⟦246⟧ = the soldiers
+⟦247⟧ = the Sons
+⟦248⟧ = the south east part
+⟦249⟧ = the surrounding region
+⟦250⟧ = The Swan Coastal Plain
+⟦251⟧ = the Swan River
+⟦252⟧ = the time
+⟦253⟧ = The town
+⟦254⟧ = the U.S. Geological Survey
+⟦255⟧ = the Union Army
+⟦256⟧ = the Union positions
+⟦257⟧ = the United States
+⟦258⟧ = the Woodside ZIP Code
+⟦259⟧ = the young United States
+⟦260⟧ = their colonization
+⟦261⟧ = these debts
+⟦262⟧ = this section
+⟦263⟧ = time
+⟦264⟧ = times
+⟦265⟧ = town
+⟦266⟧ = tremendous growth
+⟦267⟧ = tributaries
+⟦268⟧ = troops
+⟦269⟧ = two communities
+⟦270⟧ = type
+⟦271⟧ = type "summit
+⟦272⟧ = Ulysses S. Grant
+⟦273⟧ = Union forces
+⟦274⟧ = United States
+⟦275⟧ = valley
+⟦276⟧ = War
+⟦277⟧ = Western Australia
+⟦278⟧ = wild plums
+⟦279⟧ = William T. Sherman
+⟦280⟧ = Woodside Road
+⟦281⟧ = word
+⟦282⟧ = years
+⟦283⟧ = zone
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Swan Coastal Plain] ⟦250⟧⟨1⟩⟦277⟧⟨2⟩⟦222⟧⟨3⟩⟦85⟧⟨4⟩⟦251⟧⟨5⟩⟦224⟧⟨6⟩
+[Swan Coastal Plain] ⟦213⟧⟨7⟩⟦159⟧⟨8⟩⟦211⟧⟨9⟩⟦45⟧⟨10⟩⟦251⟧⟨11⟩⟦110⟧⟨12⟩⟦267⟧⟨13⟩⟦15⟧⟨14⟩⟦283⟧⟨15⟩⟦37⟧⟨16⟩⟦105⟧⟨17⟩⟦176⟧⟨18⟩
+[Swan Coastal Plain] ⟨19⟩⟦218⟧⟨20⟩⟦170⟧⟨21⟩⟦227⟧⟨22⟩⟦75⟧⟨23⟩
+[Swan's Island, Maine] ⟦198⟧⟨24⟩⟦28⟧⟨25⟩⟦108⟧⟨26⟩⟦265⟧⟨27⟩⟦99⟧⟨28⟩⟦124⟧⟨29⟩⟦274⟧⟨30⟩
+[Swan's Island, Maine] ⟨31⟩⟦65⟧⟨32⟩⟦87⟧⟨33⟩⟦180⟧⟨34⟩⟦225⟧⟨35⟩⟦108⟧⟨36⟩⟦190⟧⟨37⟩⟦33⟧⟨38⟩⟦260⟧⟨39⟩⟦67⟧⟨40⟩⟦220⟧⟨41⟩⟦57⟧⟨42⟩
+[Swan's Island, Maine] ⟦241⟧⟨43⟩⟦163⟧⟨44⟩⟦203⟧⟨45⟩⟦54⟧⟨46⟩
+[Swan's Island, Maine] ⟦253⟧⟨47⟩⟦265⟧⟨48⟩⟦86⟧⟨49⟩⟦86⟧⟨50⟩⟦39⟧⟨51⟩
+[Point Heathcote] ⟦162⟧⟨52⟩⟦5⟧⟨53⟩⟦140⟧⟨54⟩⟦14⟧⟨55⟩⟦85⟧⟨56⟩⟦248⟧⟨57⟩⟦151⟧⟨58⟩⟦129⟧⟨59⟩⟦197⟧⟨60⟩
+[Punta Colonet] ⟦172⟧⟨61⟩⟦61⟧⟨62⟩⟦4⟧⟨63⟩⟦35⟧⟨64⟩⟦226⟧⟨65⟩⟦117⟧⟨66⟩⟦116⟧⟨67⟩⟦80⟧⟨68⟩⟦131⟧⟨69⟩⟦116⟧⟨70⟩⟦49⟧⟨71⟩⟦38⟧⟨72⟩⟦233⟧⟨73⟩⟦33⟧⟨74⟩⟦132⟧⟨75⟩⟦153⟧⟨76⟩
+[Punta Colonet] ⟨77⟩⟦14⟧⟨78⟩⟦85⟧⟨79⟩⟦12⟧⟨80⟩⟦50⟧⟨81⟩⟦208⟧⟨82⟩⟦31⟧⟨83⟩⟦269⟧⟨84⟩⟦69⟧⟨85⟩⟦79⟧⟨86⟩⟦26⟧⟨87⟩⟦2⟧⟨88⟩⟦148⟧⟨89⟩⟦184⟧⟨90⟩⟦214⟧⟨91⟩⟦3⟧⟨92⟩⟦66⟧⟨93⟩⟦151⟧⟨94⟩⟦151⟧⟨95⟩⟦81⟧⟨96⟩
+[Punta Colonet] ⟨97⟩⟦109⟧⟨98⟩⟦171⟧⟨99⟩⟦131⟧⟨100⟩⟦257⟧⟨101⟩⟦223⟧⟨102⟩⟦98⟧⟨103⟩⟦118⟧⟨104⟩⟦83⟧⟨105⟩⟦208⟧⟨106⟩⟦31⟧⟨107⟩
+[Punta Colonet] ⟦172⟧⟨108⟩⟦10⟧⟨109⟩⟦31⟧⟨110⟩⟦149⟧⟨111⟩⟦149⟧⟨112⟩⟦84⟧⟨113⟩⟦84⟧⟨114⟩⟦235⟧⟨115⟩⟦146⟧⟨116⟩⟦77⟧⟨117⟩
+[Punta Colonet] ⟦240⟧⟨118⟩⟦161⟧⟨119⟩⟦137⟧⟨120⟩⟦265⟧⟨121⟩⟦41⟧⟨122⟩⟦50⟧⟨123⟩⟦50⟧⟨124⟩⟦52⟧⟨125⟩⟦11⟧⟨126⟩⟦181⟧⟨127⟩⟦51⟧⟨128⟩⟦262⟧⟨129⟩⟦183⟧⟨130⟩⟦239⟧⟨131⟩⟦63⟧⟨132⟩⟦229⟧⟨133⟩⟦57⟧⟨134⟩
+[Punta Colonet] ⟨135⟩⟦266⟧⟨136⟩⟦98⟧⟨137⟩⟦243⟧⟨138⟩⟦175⟧⟨139⟩⟦228⟧⟨140⟩⟦282⟧⟨141⟩
+[Punta Colonet] ⟦241⟧⟨142⟩⟦163⟧⟨143⟩⟦54⟧⟨144⟩⟦54⟧⟨145⟩⟦78⟧⟨146⟩⟦1⟧⟨147⟩⟦103⟧⟨148⟩⟦8⟧⟨149⟩⟦155⟧⟨150⟩
+[Battle of Bunker Hill] ⟦209⟧⟨151⟩⟦47⟧⟨152⟩⟦113⟧⟨153⟩⟦245⟧⟨154⟩⟦43⟧⟨155⟩⟦219⟧⟨156⟩⟦193⟧⟨157⟩⟦207⟧⟨158⟩
+[Battle of Bunker Hill] ⟦209⟧⟨159⟩⟦40⟧⟨160⟩⟦47⟧⟨161⟩⟦58⟧⟨162⟩⟦128⟧⟨163⟩⟦209⟧⟨164⟩⟦40⟧⟨165⟩
+[Battle of Bunker Hill] ⟨166⟩⟦236⟧⟨167⟩⟦145⟧⟨168⟩⟦44⟧⟨169⟩⟦268⟧⟨170⟩⟦231⟧⟨171⟩⟦126⟧⟨172⟩⟦68⟧⟨173⟩⟦68⟧⟨174⟩⟦158⟧⟨175⟩⟦158⟧⟨176⟩⟦204⟧⟨177⟩⟦100⟧⟨178⟩⟦46⟧⟨179⟩
+[Cemetery Ridge] ⟦53⟧⟨180⟩⟦14⟧⟨181⟩⟦85⟧⟨182⟩⟦96⟧⟨183⟩⟦253⟧⟨184⟩⟦265⟧⟨185⟩⟦95⟧⟨186⟩⟦154⟧⟨187⟩⟦209⟧⟨188⟩⟦95⟧⟨189⟩⟦112⟧⟨190⟩
+[Cemetery Ridge] ⟨191⟩⟦19⟧⟨192⟩⟦164⟧⟨193⟩⟦255⟧⟨194⟩⟦209⟧⟨195⟩⟦40⟧⟨196⟩⟦178⟧⟨197⟩⟦55⟧⟨198⟩⟦201⟧⟨199⟩⟦88⟧⟨200⟩⟦104⟧⟨201⟩⟦122⟧⟨202⟩
+[Cemetery Ridge] ⟦216⟧⟨203⟩⟦34⟧⟨204⟩⟦36⟧⟨205⟩⟦36⟧⟨206⟩⟦256⟧⟨207⟩⟦165⟧⟨208⟩⟦244⟧⟨209⟩⟦72⟧⟨210⟩⟦209⟧⟨211⟩⟦40⟧⟨212⟩⟦264⟧⟨213⟩
+[Missionary Ridge] ⟦134⟧⟨214⟩⟦14⟧⟨215⟩⟦85⟧⟨216⟩⟦59⟧⟨217⟩⟦199⟧⟨218⟩⟦186⟧⟨219⟩⟦186⟧⟨220⟩⟦209⟧⟨221⟩⟦134⟧⟨222⟩⟦9⟧⟨223⟩⟦40⟧⟨224⟩⟦205⟧⟨225⟩⟦144⟧⟨226⟩
+[Missionary Ridge] ⟦273⟧⟨227⟩⟦90⟧⟨228⟩⟦125⟧⟨229⟩
+[Missionary Ridge] ⟦272⟧⟨230⟩⟦279⟧⟨231⟩⟦94⟧⟨232⟩⟦71⟧⟨233⟩⟦90⟧⟨234⟩⟦93⟧⟨235⟩⟦245⟧⟨236⟩⟦185⟧⟨237⟩⟦212⟧⟨238⟩⟦62⟧⟨239⟩
+[Otselic, New York] ⟦150⟧⟨240⟩⟦24⟧⟨241⟩⟦265⟧⟨242⟩⟦60⟧⟨243⟩⟦274⟧⟨244⟩⟦234⟧⟨245⟩⟦141⟧⟨246⟩⟦42⟧⟨247⟩⟦60⟧⟨248⟩⟦142⟧⟨249⟩⟦142⟧⟨250⟩⟦212⟧⟨251⟩⟦62⟧⟨252⟩⟦143⟧⟨253⟩
+[Otselic, New York] ⟦241⟧⟨254⟩⟦163⟧⟨255⟩⟦253⟧⟨256⟩⟦265⟧⟨257⟩⟦203⟧⟨258⟩⟦54⟧⟨259⟩
+[Otselic, New York] ⟦253⟧⟨260⟩⟦265⟧⟨261⟩⟦21⟧⟨262⟩⟦177⟧⟨263⟩⟦237⟧⟨264⟩⟦29⟧⟨265⟩⟦281⟧⟨266⟩⟦158⟧⟨267⟩⟦158⟧⟨268⟩⟦278⟧⟨269⟩⟦160⟧⟨270⟩
+[Otselic, New York] ⟦238⟧⟨271⟩⟦275⟧⟨272⟩⟦242⟧⟨273⟩⟦85⟧⟨274⟩⟦253⟧⟨275⟩⟦265⟧⟨276⟩⟦249⟧⟨277⟩⟦175⟧⟨278⟩⟦141⟧⟨279⟩⟦191⟧⟨280⟩
+[Kings Mountain, California] ⟦114⟧⟨281⟩⟦115⟧⟨282⟩⟦30⟧⟨283⟩⟦70⟧⟨284⟩⟦179⟧⟨285⟩⟦48⟧⟨286⟩⟦194⟧⟨287⟩⟦188⟧⟨288⟩⟦187⟧⟨289⟩⟦157⟧⟨290⟩
+[Kings Mountain, California] ⟨291⟩⟦25⟧⟨292⟩⟦133⟧⟨293⟩⟦6⟧⟨294⟩⟦116⟧⟨295⟩⟦141⟧⟨296⟩⟦141⟧⟨297⟩⟦280⟧⟨298⟩⟦192⟧⟨299⟩
+[Kings Mountain, California] ⟨300⟩⟦254⟧⟨301⟩⟦136⟧⟨302⟩⟦208⟧⟨303⟩⟦31⟧⟨304⟩⟦14⟧⟨305⟩⟦85⟧⟨306⟩⟦270⟧⟨307⟩⟦271⟧⟨308⟩⟦195⟧⟨309⟩⟦18⟧⟨310⟩⟦158⟧⟨311⟩
+[Kings Mountain, California] ⟦215⟧⟨312⟩⟦70⟧⟨313⟩⟦31⟧⟨314⟩⟦32⟧⟨315⟩⟦64⟧⟨316⟩⟦258⟧⟨317⟩
+[James Swan (financier)] ⟦111⟧⟨318⟩⟦13⟧⟨319⟩⟦156⟧⟨320⟩⟦43⟧⟨321⟩⟦202⟧⟨322⟩⟦56⟧⟨323⟩
+[James Swan (financier)] ⟨324⟩⟦16⟧⟨325⟩⟦130⟧⟨326⟩⟦247⟧⟨327⟩⟦120⟧⟨328⟩⟦210⟧⟨329⟩
+[James Swan (financier)] ⟦196⟧⟨330⟩⟦209⟧⟨331⟩⟦47⟧⟨332⟩⟦182⟧⟨333⟩⟦182⟧⟨334⟩⟦232⟧⟨335⟩⟦276⟧⟨336⟩⟦230⟧⟨337⟩⟦119⟧⟨338⟩
+[James Swan (financier)] ⟨339⟩⟦252⟧⟨340⟩⟦263⟧⟨341⟩⟦200⟧⟨342⟩⟦147⟧⟨343⟩⟦102⟧⟨344⟩⟦92⟧⟨345⟩⟦217⟧⟨346⟩⟦74⟧⟨347⟩⟦138⟧⟨348⟩⟦92⟧⟨349⟩⟦92⟧⟨350⟩⟦246⟧⟨351⟩⟦189⟧⟨352⟩⟦43⟧⟨353⟩⟦27⟧⟨354⟩⟦152⟧⟨355⟩⟦139⟧⟨356⟩
+[James Swan (financier)] ⟨357⟩⟦206⟧⟨358⟩⟦221⟧⟨359⟩⟦73⟧⟨360⟩⟦22⟧⟨361⟩⟦106⟧⟨362⟩⟦174⟧⟨363⟩
+[James Swan (financier)] ⟦196⟧⟨364⟩⟦261⟧⟨365⟩⟦73⟧⟨366⟩⟦20⟧⟨367⟩⟦169⟧⟨368⟩⟦76⟧⟨369⟩⟦127⟧⟨370⟩
+[James Swan (financier)] ⟦257⟧⟨371⟩⟦135⟧⟨372⟩⟦135⟧⟨373⟩⟦91⟧⟨374⟩⟦97⟧⟨375⟩⟦135⟧⟨376⟩⟦135⟧⟨377⟩⟦168⟧⟨378⟩⟦107⟧⟨379⟩⟦257⟧⟨380⟩⟦82⟧⟨381⟩
+[James Swan (financier)] ⟨382⟩⟦259⟧⟨383⟩⟦23⟧⟨384⟩⟦89⟧⟨385⟩
+[James Swan (financier)] ⟨386⟩⟦166⟧⟨387⟩⟦166⟧⟨388⟩⟦123⟧⟨389⟩⟦123⟧⟨390⟩⟦7⟧⟨391⟩⟦282⟧⟨392⟩⟦173⟧⟨393⟩⟦101⟧⟨394⟩⟦121⟧⟨395⟩⟦17⟧⟨396⟩⟦167⟧⟨397⟩
+
+[user]
+
+问题：
+What town's geographic feature is the battle James Swan was twice wounded at named for?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

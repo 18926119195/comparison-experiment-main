@@ -1,0 +1,84 @@
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟦186⟧⟨Ƅ⟩⟦10⟧⟨ƅ⟩⟦20⟧⟦69⟧⟨Ɔ⟩⟨Ƈ⟩⟨ƈ⟩⟨Ɖ⟩
+⟦243⟧⟦102⟧⟨Ƒ⟩⟨ƒ⟩⟦268⟧⟨Ɣ⟩⟨Ɠ⟩⟨ƕ⟩
+⟦208⟧⟨Ɩ⟩⟦29⟧⟨Ɨ⟩⟨Ƙ⟩
+⟦71⟧⟦71⟧ | ⟦71⟧ | ⟨ƙ⟩⟦271⟧⟦71⟧⟨ƚ⟩⟨ƛ⟩⟦254⟧⟨Ɯ⟩
+⟨Ɲ⟩⟦300⟧⟨ƞ⟩⟦67⟧⟨Ɵ⟩⟦76⟧⟨Ơ⟩⟦137⟧⟨ơ⟩⟦114⟧⟨Ƣ⟩
+⟦297⟧
+⟦160⟧
+
+符号表：
+⟦10⟧ = 26 March
+⟦20⟧ = a French composer
+⟦29⟧ = a New Zealand-born British conductor
+⟦67⟧ = Clifford Curzon
+⟦69⟧ = composer
+⟦71⟧ = conductor
+⟦76⟧ = David Oistrakh
+⟦102⟧ = figures
+⟦114⟧ = George Malcolm
+⟦137⟧ = Kentner
+⟦160⟧ = music
+⟦186⟧ = Pierre Louis Joseph Boulez CBE
+⟦208⟧ = Ross Pople
+⟦243⟧ = the dominant figures
+⟦254⟧ = The London Festival Orchestra
+⟦268⟧ = the post-war classical music world
+⟦271⟧ = the principal conductor
+⟦297⟧ = world
+⟦300⟧ = Yehudi Menuhin
+
+占位符映射：
+⟨Ƅ⟩ =  (] ; 
+⟨ƅ⟩ =  1925 – 5 January 2016) was 
+⟨Ɔ⟩ = 
+⟨Ƈ⟩ = , 
+⟨ƈ⟩ = 
+⟨Ɖ⟩ = , 
+⟨Ƒ⟩ = 
+⟨ƒ⟩ =  of 
+⟨Ɠ⟩ = 
+⟨Ɣ⟩ =  
+⟨ƕ⟩ = .
+⟨Ɩ⟩ =  (born 11 May 1945) is 
+⟨Ɨ⟩ = 
+⟨Ƙ⟩ = .
+⟨ƙ⟩ =  He is 
+⟨ƚ⟩ = 
+⟨ƛ⟩ =  of 
+⟨Ɯ⟩ = .
+⟨Ɲ⟩ =  He has worked with 
+⟨ƞ⟩ = , 
+⟨Ɵ⟩ = , 
+⟨Ơ⟩ = , 
+⟨ơ⟩ = , 
+⟨Ƣ⟩ = , 
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Ross Pople worked with this French dominant figure of the post-war classical music world.

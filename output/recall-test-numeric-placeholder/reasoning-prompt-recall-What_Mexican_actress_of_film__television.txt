@@ -1,0 +1,89 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Silvia Navarro] ⟨104⟩⟦170⟧⟨105⟩⟦165⟧⟨106⟩⟦98⟧⟨107⟩⟦84⟧⟨108⟩⟨109⟩⟨110⟩⟨111⟩⟨112⟩⟨113⟩⟨114⟩⟨115⟩⟦216⟧⟦216⟧⟨116⟩⟨117⟩⟦168⟧⟨118⟩
+[La heredera] ⟦102⟧⟨221⟩⟦193⟧⟨222⟩⟦20⟧⟨223⟩⟨224⟩⟨225⟩
+[La heredera] ⟦172⟧ | ⟨226⟩⟦209⟧⟦157⟧⟨227⟩⟨228⟩⟦172⟧⟨229⟩⟦166⟧⟨230⟩⟦150⟧⟦150⟧⟨231⟩⟨232⟩
+[Rita Macedo] ⟦81⟧⟦81⟧
+[Gabriel Porras] ⟦223⟧
+[Marlene Favela] ⟦127⟧⟦19⟧⟦32⟧
+[Marlene Favela] ⟦185⟧⟦185⟧ | ⟦222⟧
+
+符号表：
+⟦19⟧ = a Mexican actress
+⟦20⟧ = a Mexican telenovela
+⟦32⟧ = actress
+⟦81⟧ = film
+⟦84⟧ = Guanajuato
+⟦98⟧ = Irapuato
+⟦102⟧ = La Heredera
+⟦127⟧ = Mexico
+⟦150⟧ = protagonists
+⟦157⟧ = reunion
+⟦165⟧ = September
+⟦166⟧ = Sergio Basañez
+⟦168⟧ = several telenovelas
+⟦170⟧ = Silvia Angélica Navarro Barba
+⟦172⟧ = Silvia Navarro
+⟦185⟧ = television
+⟦193⟧ = The Heiress
+⟦209⟧ = the third reunion
+⟦216⟧ = theatre
+⟦222⟧ = TV
+⟦223⟧ = TV Azteca
+
+占位符映射：
+⟨104⟩ =  (born as 
+⟨105⟩ =  on 
+⟨106⟩ =  14, 1978 in 
+⟨107⟩ = , 
+⟨108⟩ = , 
+⟨109⟩ = ) is 
+⟨110⟩ = 
+⟨111⟩ =  of 
+⟨112⟩ = 
+⟨113⟩ = , 
+⟨114⟩ = 
+⟨115⟩ = , and 
+⟨116⟩ = 
+⟨117⟩ = , primarily known for starring in 
+⟨118⟩ = .
+⟨221⟩ =  (
+⟨222⟩ = ) is 
+⟨223⟩ =  produced by 
+⟨224⟩ = 
+⟨225⟩ = .
+⟨226⟩ =  It marked 
+⟨227⟩ = 
+⟨228⟩ =  for 
+⟨229⟩ =  and 
+⟨230⟩ =  as 
+⟨231⟩ = 
+⟨232⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What Mexican actress of film, television, and theatre was a protagonist in La Heredera?

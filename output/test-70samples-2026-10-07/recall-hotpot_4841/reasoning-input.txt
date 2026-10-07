@@ -1,0 +1,67 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Blank Check (film)] ⟨54⟩⟦9⟧⟨56⟩⟨55⟩
+[Blank Check (film)] ⟨66⟩⟦62⟧⟨67⟩⟦170⟧⟨68⟩
+[Air Bud: World Pup] ⟨69⟩⟦173⟧⟨70⟩⟨71⟩⟦91⟧⟦55⟧⟨72⟩⟨73⟩⟦11⟧⟨74⟩
+[The Magnificent Marble Machine] ⟦39⟧ | ⟦39⟧
+[Air Bud] ⟦54⟧ | ⟦26⟧⟨232⟩⟦10⟧⟦54⟧⟨234⟩⟨233⟩ | ⟦26⟧⟦26⟧
+[Air Bud] ⟦63⟧ | ⟦63⟧ | ⟦63⟧
+
+符号表：
+⟦9⟧ = a 1994 American comedy film
+⟦10⟧ = a 1997 American comedy film
+⟦11⟧ = a 2000 made-for-video American film
+⟦26⟧ = Air Bud
+⟦39⟧ = Blank Check
+⟦54⟧ = comedy
+⟦55⟧ = countries
+⟦62⟧ = February
+⟦63⟧ = film
+⟦91⟧ = most other countries
+⟦170⟧ = Walt Disney Pictures
+⟦173⟧ = World Pup
+
+占位符映射：
+⟨54⟩ =  is 
+⟨55⟩ = 
+⟨56⟩ =  
+⟨66⟩ =  It was released on 
+⟨67⟩ =  11, 1994 by 
+⟨68⟩ = .
+⟨69⟩ = : 
+⟨70⟩ =  (also known as 
+⟨71⟩ =  3 in 
+⟨72⟩ = 
+⟨73⟩ = ) is 
+⟨74⟩ = 
+⟨232⟩ =  is 
+⟨233⟩ = 
+⟨234⟩ =  
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Blank Check and Air Bud are both examples of what type of movie?

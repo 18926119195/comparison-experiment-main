@@ -1,0 +1,359 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Arts & Architecture" magazine
+⟦2⟧ = "Huntin’ Fool
+⟦3⟧ = "JPG Magazine
+⟦4⟧ = "Sunset
+⟦5⟧ = "The Wall Street Journal
+⟦6⟧ = (Case Study House
+⟦7⟧ = (India
+⟦8⟧ = 12 issues
+⟦9⟧ = 1930s
+⟦10⟧ = 1940s
+⟦11⟧ = a degree
+⟦12⟧ = a finalist
+⟦13⟧ = a focus
+⟦14⟧ = a Japanese subsidiary
+⟦15⟧ = a journalist
+⟦16⟧ = a lifestyle magazine
+⟦17⟧ = a luxury glossy news and lifestyle monthly magazine
+⟦18⟧ = a midcentury American modern designer
+⟦19⟧ = a monthly magazine
+⟦20⟧ = a monthly news
+⟦21⟧ = a non-profit cancer organization
+⟦22⟧ = a place
+⟦23⟧ = a popular brand
+⟦24⟧ = a quarterly
+⟦25⟧ = a resource
+⟦26⟧ = a stable circulation
+⟦27⟧ = a subsidiary
+⟦28⟧ = a United States freelance photographer
+⟦29⟧ = advertisements
+⟦30⟧ = Albert Levy
+⟦31⟧ = America
+⟦32⟧ = an American lifestyle
+⟦33⟧ = an American monthly magazine
+⟦34⟧ = an architectural photographer
+⟦35⟧ = an exhibit
+⟦36⟧ = Anthony Cenname
+⟦37⟧ = architect
+⟦38⟧ = architectural photography
+⟦39⟧ = Architectural Record
+⟦40⟧ = architecture
+⟦41⟧ = area
+⟦42⟧ = Arizona
+⟦43⟧ = art
+⟦44⟧ = Arts & Architecture magazine's Case Study House program
+⟦45⟧ = Asia
+⟦46⟧ = Asian grocery stores
+⟦47⟧ = assistant
+⟦48⟧ = Atlanta
+⟦49⟧ = August
+⟦50⟧ = Bahrain
+⟦51⟧ = Better Homes
+⟦52⟧ = beverage
+⟦53⟧ = big game hunting
+⟦54⟧ = brand
+⟦55⟧ = brands
+⟦56⟧ = Britain
+⟦57⟧ = Brooklyn
+⟦58⟧ = builder
+⟦59⟧ = California
+⟦60⟧ = cancer
+⟦61⟧ = Carter Hunter Services
+⟦62⟧ = category
+⟦63⟧ = Cendant Corporation
+⟦64⟧ = Chief
+⟦65⟧ = circulation
+⟦66⟧ = city
+⟦67⟧ = coast
+⟦68⟧ = Coca-Cola
+⟦69⟧ = Coca-Cola (Japan) Company
+⟦70⟧ = Coca-Cola's home state
+⟦71⟧ = coffee
+⟦72⟧ = coffee drinks
+⟦73⟧ = Colorado
+⟦74⟧ = Columbus
+⟦75⟧ = company
+⟦76⟧ = consumer
+⟦77⟧ = cooking
+⟦78⟧ = Country Living
+⟦79⟧ = coverage
+⟦80⟧ = culture
+⟦81⟧ = DC
+⟦82⟧ = decor
+⟦83⟧ = degree
+⟦84⟧ = design
+⟦85⟧ = designer
+⟦86⟧ = designs
+⟦87⟧ = desk
+⟦88⟧ = Diana Lemieux
+⟦89⟧ = DIY
+⟦90⟧ = downtown
+⟦91⟧ = downtown Manhattan
+⟦92⟧ = drinks
+⟦93⟧ = Early architectural photographers
+⟦94⟧ = Editor
+⟦95⟧ = entertainment
+⟦96⟧ = Europe
+⟦97⟧ = events
+⟦98⟧ = exhibit
+⟦99⟧ = Eyes
+⟦100⟧ = Ezra Stoller
+⟦101⟧ = fashion
+⟦102⟧ = finalist
+⟦103⟧ = focus
+⟦104⟧ = food
+⟦105⟧ = four Country Living Fairs
+⟦106⟧ = Francis Frith
+⟦107⟧ = freelance
+⟦108⟧ = funding
+⟦109⟧ = GA
+⟦110⟧ = game
+⟦111⟧ = gardening
+⟦112⟧ = Gardens
+⟦113⟧ = general interest magazine
+⟦114⟧ = Georgia
+⟦115⟧ = Georgia coffee
+⟦116⟧ = Georgia's sales
+⟦117⟧ = grocery
+⟦118⟧ = Her photograph
+⟦119⟧ = his homes
+⟦120⟧ = home
+⟦121⟧ = home decor
+⟦122⟧ = home magazine
+⟦123⟧ = home renovation
+⟦124⟧ = homes
+⟦125⟧ = houses
+⟦126⟧ = hunters
+⟦127⟧ = Huntin' Fool Magazine
+⟦128⟧ = hunting
+⟦129⟧ = Idaho
+⟦130⟧ = images
+⟦131⟧ = India
+⟦132⟧ = interest
+⟦133⟧ = issue
+⟦134⟧ = issues
+⟦135⟧ = its coverage
+⟦136⟧ = Its coverage spans art
+⟦137⟧ = its first year
+⟦138⟧ = Japan
+⟦139⟧ = Japanese canned coffee
+⟦140⟧ = Jōjia
+⟦141⟧ = journalist
+⟦142⟧ = Julius Shulman
+⟦143⟧ = July
+⟦144⟧ = Kansas
+⟦145⟧ = Kristina
+⟦146⟧ = large United States markets
+⟦147⟧ = later RailNews
+⟦148⟧ = less-detailed news
+⟦149⟧ = lifestyle
+⟦150⟧ = luxury
+⟦151⟧ = luxury consumer products advertisements
+⟦152⟧ = magazine
+⟦153⟧ = many brands
+⟦154⟧ = markets
+⟦155⟧ = Mexico
+⟦156⟧ = midcentury
+⟦157⟧ = Middle East
+⟦158⟧ = Montana
+⟦159⟧ = name
+⟦160⟧ = Nashville
+⟦161⟧ = Nevada
+⟦162⟧ = New Mexico
+⟦163⟧ = New York
+⟦164⟧ = news
+⟦165⟧ = Nicole
+⟦166⟧ = non-resident hunters
+⟦167⟧ = non-western states
+⟦168⟧ = NY
+⟦169⟧ = OH
+⟦170⟧ = On
+⟦171⟧ = Oregon
+⟦172⟧ = organization
+⟦173⟧ = Our Reader's Eyes
+⟦174⟧ = Pacific News
+⟦175⟧ = Pacific RailNews
+⟦176⟧ = part
+⟦177⟧ = photograph
+⟦178⟧ = photographer
+⟦179⟧ = photographers
+⟦180⟧ = photography
+⟦181⟧ = place
+⟦182⟧ = Portland
+⟦183⟧ = Portland Monthly
+⟦184⟧ = Portland Monthly Magazine
+⟦185⟧ = practitioners
+⟦186⟧ = PRN
+⟦187⟧ = products
+⟦188⟧ = program
+⟦189⟧ = publication
+⟦190⟧ = Publisher
+⟦191⟧ = publishers
+⟦192⟧ = Pursuits
+⟦193⟧ = quarterly
+⟦194⟧ = rail
+⟦195⟧ = rail transit
+⟦196⟧ = rail-transit
+⟦197⟧ = railfans
+⟦198⟧ = railroads
+⟦199⟧ = Reader
+⟦200⟧ = renovation
+⟦201⟧ = residential architecture
+⟦202⟧ = resource
+⟦203⟧ = Rhinebeck
+⟦204⟧ = Richard Neutra's houses
+⟦205⟧ = Rodney Walker
+⟦206⟧ = Roger Fenton
+⟦207⟧ = sales
+⟦208⟧ = Samuel Bourne
+⟦209⟧ = Scott
+⟦210⟧ = Scott Vogel
+⟦211⟧ = Shulman
+⟦212⟧ = siblings
+⟦213⟧ = siblings Nicole
+⟦214⟧ = Singapore
+⟦215⟧ = Smithsonian Magazine
+⟦216⟧ = some images
+⟦217⟧ = some trouble
+⟦218⟧ = South Korea
+⟦219⟧ = Southern Progress Corporation
+⟦220⟧ = spans
+⟦221⟧ = speciality
+⟦222⟧ = state
+⟦223⟧ = states
+⟦224⟧ = Stoller
+⟦225⟧ = stores
+⟦226⟧ = subscribers
+⟦227⟧ = subsidiary
+⟦228⟧ = success
+⟦229⟧ = Sunset
+⟦230⟧ = the "Los Angeles Times Home" magazine
+⟦231⟧ = the 1930s
+⟦232⟧ = the 4th Annual Smithsonian Magazine Photo Contest
+⟦233⟧ = the architect's desk
+⟦234⟧ = the assistant
+⟦235⟧ = The brand
+⟦236⟧ = The Coca-Cola Company
+⟦237⟧ = the company
+⟦238⟧ = the December 2006/January 2007 issue
+⟦239⟧ = the east coast
+⟦240⟧ = the Hearst Corporation
+⟦241⟧ = the highest-grossing beverage
+⟦242⟧ = the highest-grossing coffee beverage
+⟦243⟧ = the June 2007 issue
+⟦244⟧ = the late 1940s
+⟦245⟧ = the Lymphoma Research Foundation
+⟦246⟧ = The magazine
+⟦247⟧ = the modern speciality
+⟦248⟧ = The monthly magazine
+⟦249⟧ = the most success
+⟦250⟧ = the name
+⟦251⟧ = The New York Times
+⟦252⟧ = The photograph
+⟦253⟧ = the President
+⟦254⟧ = The publication
+⟦255⟧ = the publishers
+⟦256⟧ = the Road
+⟦257⟧ = the sales
+⟦258⟧ = the same photograph
+⟦259⟧ = the seventh-largest city magazine
+⟦260⟧ = the Smithsonian
+⟦261⟧ = the Southern California area
+⟦262⟧ = the Sunset Publishing Corporation
+⟦263⟧ = the travel category
+⟦264⟧ = the United States
+⟦265⟧ = the way
+⟦266⟧ = the West Coast
+⟦267⟧ = the Western United States
+⟦268⟧ = their way
+⟦269⟧ = three designs
+⟦270⟧ = Time Warner
+⟦271⟧ = TN
+⟦272⟧ = transit
+⟦273⟧ = travel
+⟦274⟧ = trophy
+⟦275⟧ = trophy hunting
+⟦276⟧ = trouble
+⟦277⟧ = United States
+⟦278⟧ = Utah
+⟦279⟧ = Washington
+⟦280⟧ = way
+⟦281⟧ = western Canada
+⟦282⟧ = WSJ
+⟦283⟧ = Wyoming
+⟦284⟧ = year
+⟦285⟧ = ジョージア
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Huntin' Fool] ⟦127⟧⟨1⟩⟦19⟧⟨2⟩⟦152⟧⟨3⟩⟦53⟧⟨4⟩⟦110⟧⟨5⟩⟦128⟧⟨6⟩⟦267⟧⟨7⟩
+[Huntin' Fool] ⟦246⟧⟨8⟩⟦152⟧⟨9⟩⟦176⟧⟨10⟩⟦176⟧⟨11⟩⟦61⟧⟨12⟩
+[Huntin' Fool] ⟦2⟧⟨13⟩⟦25⟧⟨14⟩⟦202⟧⟨15⟩⟦166⟧⟨16⟩⟦126⟧⟨17⟩⟦274⟧⟨18⟩⟦275⟧⟨19⟩⟦128⟧⟨20⟩
+[Huntin' Fool] ⟦254⟧⟨21⟩⟦189⟧⟨22⟩⟦53⟧⟨23⟩⟦110⟧⟨24⟩⟦128⟧⟨25⟩⟦42⟧⟨26⟩⟦59⟧⟨27⟩⟦73⟧⟨28⟩⟦129⟧⟨29⟩⟦144⟧⟨30⟩⟦158⟧⟨31⟩⟦161⟧⟨32⟩⟦162⟧⟨33⟩⟦171⟧⟨34⟩⟦278⟧⟨35⟩⟦279⟧⟨36⟩⟦283⟧⟨37⟩
+[Architectural photographers] ⟦93⟧⟨38⟩⟦179⟧⟨39⟩⟦206⟧⟨40⟩⟦106⟧⟨41⟩⟦157⟧⟨42⟩⟦56⟧⟨43⟩⟦208⟧⟨44⟩⟦7⟧⟨45⟩⟦30⟧⟨46⟩⟦277⟧⟨47⟩⟦96⟧⟨48⟩
+[Architectural photographers] ⟨49⟩⟦265⟧⟨50⟩⟦280⟧⟨51⟩⟦247⟧⟨52⟩⟦221⟧⟨53⟩⟦38⟧⟨54⟩⟦180⟧⟨55⟩
+[Architectural photographers] ⟨56⟩⟦38⟧⟨57⟩⟦180⟧⟨58⟩⟦185⟧⟨59⟩⟦185⟧⟨60⟩⟦100⟧⟨61⟩⟦142⟧⟨62⟩
+[Architectural photographers] ⟦224⟧⟨63⟩⟦239⟧⟨64⟩⟦67⟧⟨65⟩⟦31⟧⟨66⟩⟦11⟧⟨67⟩⟦83⟧⟨68⟩⟦40⟧⟨69⟩⟦40⟧⟨70⟩⟦231⟧⟨71⟩⟦9⟧⟨72⟩
+[Architectural photographers] ⟦211⟧⟨73⟩⟦266⟧⟨74⟩⟦34⟧⟨75⟩⟦178⟧⟨76⟩⟦216⟧⟨77⟩⟦130⟧⟨78⟩⟦204⟧⟨79⟩⟦125⟧⟨80⟩⟦59⟧⟨81⟩⟦268⟧⟨82⟩⟦280⟧⟨83⟩⟦233⟧⟨84⟩⟦37⟧⟨85⟩⟦87⟧⟨86⟩
+[Diana Lemieux] ⟦88⟧⟨87⟩⟦28⟧⟨88⟩⟦107⟧⟨89⟩⟦178⟧⟨90⟩⟦234⟧⟨91⟩⟦47⟧⟨92⟩⟦253⟧⟨93⟩⟦245⟧⟨94⟩⟦21⟧⟨95⟩⟦60⟧⟨96⟩⟦172⟧⟨97⟩⟦90⟧⟨98⟩⟦91⟧⟨99⟩
+[Diana Lemieux] ⟨100⟩⟦57⟧⟨101⟩⟦163⟧⟨102⟩
+[Diana Lemieux] ⟦118⟧⟨103⟩⟦177⟧⟨104⟩⟦256⟧⟨105⟩⟦170⟧⟨106⟩⟦238⟧⟨107⟩⟦133⟧⟨108⟩⟦3⟧⟨109⟩
+[Diana Lemieux] ⟨110⟩⟦258⟧⟨111⟩⟦177⟧⟨112⟩⟦243⟧⟨113⟩⟦133⟧⟨114⟩⟦215⟧⟨115⟩
+[Diana Lemieux] ⟦252⟧⟨116⟩⟦177⟧⟨117⟩⟦22⟧⟨118⟩⟦181⟧⟨119⟩⟦12⟧⟨120⟩⟦102⟧⟨121⟩⟦232⟧⟨122⟩⟦263⟧⟨123⟩⟦273⟧⟨124⟩⟦62⟧⟨125⟩⟦35⟧⟨126⟩⟦98⟧⟨127⟩⟦173⟧⟨128⟩⟦199⟧⟨129⟩⟦99⟧⟨130⟩⟦260⟧⟨131⟩⟦279⟧⟨132⟩⟦81⟧⟨133⟩⟦143⟧⟨134⟩⟦49⟧⟨135⟩
+[Country Living] ⟦78⟧⟨136⟩⟦32⟧⟨137⟩⟦149⟧⟨138⟩⟦120⟧⟨139⟩⟦122⟧⟨140⟩⟦152⟧⟨141⟩⟦240⟧⟨142⟩
+[Country Living] ⟦248⟧⟨143⟩⟦152⟧⟨144⟩⟦104⟧⟨145⟩⟦104⟧⟨146⟩⟦120⟧⟨147⟩⟦123⟧⟨148⟩⟦200⟧⟨149⟩⟦120⟧⟨150⟩⟦121⟧⟨151⟩⟦82⟧⟨152⟩⟦89⟧⟨153⟩⟦149⟧⟨154⟩⟦149⟧⟨155⟩
+[Country Living] ⟦246⟧⟨156⟩⟦152⟧⟨157⟩⟦105⟧⟨158⟩⟦284⟧⟨159⟩⟦203⟧⟨160⟩⟦168⟧⟨161⟩⟦160⟧⟨162⟩⟦271⟧⟨163⟩⟦74⟧⟨164⟩⟦169⟧⟨165⟩⟦48⟧⟨166⟩⟦109⟧⟨167⟩
+[WSJ.] ⟦282⟧⟨168⟩
+[WSJ.] ⟦152⟧⟨169⟩⟦19⟧⟨170⟩⟦152⟧⟨171⟩⟦192⟧⟨172⟩⟦17⟧⟨173⟩⟦150⟧⟨174⟩⟦164⟧⟨175⟩⟦152⟧⟨176⟩⟦255⟧⟨177⟩⟦191⟧⟨178⟩⟦5⟧⟨179⟩
+[WSJ.] ⟨180⟩⟦150⟧⟨181⟩⟦151⟧⟨182⟩⟦76⟧⟨183⟩⟦187⟧⟨184⟩⟦29⟧⟨185⟩⟦226⟧⟨186⟩⟦226⟧⟨187⟩⟦146⟧⟨188⟩⟦154⟧⟨189⟩⟦96⟧⟨190⟩⟦45⟧⟨191⟩
+[WSJ.] ⟦136⟧⟨192⟩⟦79⟧⟨193⟩⟦220⟧⟨194⟩⟦43⟧⟨195⟩⟦101⟧⟨196⟩⟦101⟧⟨197⟩⟦95⟧⟨198⟩⟦95⟧⟨199⟩⟦84⟧⟨200⟩⟦84⟧⟨201⟩⟦104⟧⟨202⟩⟦104⟧⟨203⟩⟦40⟧⟨204⟩⟦40⟧⟨205⟩⟦273⟧⟨206⟩⟦273⟧⟨207⟩
+[WSJ.] ⟦145⟧⟨208⟩⟦94⟧⟨209⟩⟦64⟧⟨210⟩⟦36⟧⟨211⟩⟦190⟧⟨212⟩
+[WSJ.] ⟨213⟩⟦24⟧⟨214⟩⟦193⟧⟨215⟩⟦246⟧⟨216⟩⟦152⟧⟨217⟩⟦8⟧⟨218⟩⟦134⟧⟨219⟩⟦284⟧⟨220⟩
+[Pacific RailNews] ⟦175⟧⟨221⟩⟦186⟧⟨222⟩⟦174⟧⟨223⟩⟦147⟧⟨224⟩⟦33⟧⟨225⟩⟦152⟧⟨226⟩⟦198⟧⟨227⟩⟦198⟧⟨228⟩⟦194⟧⟨229⟩⟦195⟧⟨230⟩⟦272⟧⟨231⟩⟦197⟧⟨232⟩⟦197⟧⟨233⟩
+[Pacific RailNews] ⟨234⟩⟦135⟧⟨235⟩⟦79⟧⟨236⟩⟦267⟧⟨237⟩⟦281⟧⟨238⟩⟦246⟧⟨239⟩⟦152⟧⟨240⟩⟦148⟧⟨241⟩⟦164⟧⟨242⟩⟦198⟧⟨243⟩⟦198⟧⟨244⟩⟦194⟧⟨245⟩⟦196⟧⟨246⟩⟦272⟧⟨247⟩⟦167⟧⟨248⟩⟦223⟧⟨249⟩⟦155⟧⟨250⟩
+[Sunset (magazine)] ⟦229⟧⟨251⟩⟦229⟧⟨252⟩⟦16⟧⟨253⟩⟦149⟧⟨254⟩⟦152⟧⟨255⟩⟦264⟧⟨256⟩
+[Sunset (magazine)] ⟦4⟧⟨257⟩⟦124⟧⟨258⟩⟦124⟧⟨259⟩⟦77⟧⟨260⟩⟦77⟧⟨261⟩⟦111⟧⟨262⟩⟦111⟧⟨263⟩⟦273⟧⟨264⟩⟦273⟧⟨265⟩⟦13⟧⟨266⟩⟦103⟧⟨267⟩⟦267⟧⟨268⟩
+[Sunset (magazine)] ⟦246⟧⟨269⟩⟦152⟧⟨270⟩⟦262⟧⟨271⟩⟦176⟧⟨272⟩⟦176⟧⟨273⟩⟦219⟧⟨274⟩⟦27⟧⟨275⟩⟦227⟧⟨276⟩⟦270⟧⟨277⟩
+[Rodney Walker (architect)] ⟦205⟧⟨278⟩⟦18⟧⟨279⟩⟦156⟧⟨280⟩⟦85⟧⟨281⟩⟦58⟧⟨282⟩⟦58⟧⟨283⟩⟦201⟧⟨284⟩⟦40⟧⟨285⟩⟦261⟧⟨286⟩⟦41⟧⟨287⟩
+[Rodney Walker (architect)] ⟨288⟩⟦269⟧⟨289⟩⟦86⟧⟨290⟩⟦44⟧⟨291⟩⟦152⟧⟨292⟩⟦188⟧⟨293⟩⟦244⟧⟨294⟩⟦10⟧⟨295⟩⟦6⟧⟨296⟩
+[Rodney Walker (architect)] ⟨297⟩⟦119⟧⟨298⟩⟦124⟧⟨299⟩⟦142⟧⟨300⟩⟦1⟧⟨301⟩⟦152⟧⟨302⟩⟦51⟧⟨303⟩⟦112⟧⟨304⟩⟦39⟧⟨305⟩⟦4⟧⟨306⟩⟦229⟧⟨307⟩⟦230⟧⟨308⟩⟦152⟧⟨309⟩
+[Portland Monthly] ⟦183⟧⟨310⟩⟦184⟧⟨311⟩⟦20⟧⟨312⟩⟦164⟧⟨313⟩⟦113⟧⟨314⟩⟦132⟧⟨315⟩⟦152⟧⟨316⟩⟦97⟧⟨317⟩⟦97⟧⟨318⟩⟦80⟧⟨319⟩⟦80⟧⟨320⟩⟦182⟧⟨321⟩⟦171⟧⟨322⟩
+[Portland Monthly] ⟦246⟧⟨323⟩⟦152⟧⟨324⟩⟦212⟧⟨325⟩⟦213⟧⟨326⟩⟦210⟧⟨327⟩
+[Portland Monthly] ⟦165⟧⟨328⟩⟦63⟧⟨329⟩⟦270⟧⟨330⟩⟦209⟧⟨331⟩⟦15⟧⟨332⟩⟦141⟧⟨333⟩⟦251⟧⟨334⟩
+[Portland Monthly] ⟨335⟩⟦246⟧⟨336⟩⟦152⟧⟨337⟩⟦217⟧⟨338⟩⟦276⟧⟨339⟩⟦108⟧⟨340⟩⟦108⟧⟨341⟩⟦137⟧⟨342⟩⟦284⟧⟨343⟩⟦26⟧⟨344⟩⟦65⟧⟨345⟩⟦259⟧⟨346⟩⟦66⟧⟨347⟩⟦152⟧⟨348⟩⟦264⟧⟨349⟩
+[Georgia (coffee)] ⟦114⟧⟨350⟩⟦285⟧⟨351⟩⟦285⟧⟨352⟩⟦140⟧⟨353⟩⟦250⟧⟨354⟩⟦159⟧⟨355⟩⟦23⟧⟨356⟩⟦54⟧⟨357⟩⟦71⟧⟨358⟩⟦72⟧⟨359⟩⟦92⟧⟨360⟩⟦236⟧⟨361⟩
+[Georgia (coffee)] ⟦235⟧⟨362⟩⟦54⟧⟨363⟩⟦70⟧⟨364⟩⟦120⟧⟨365⟩⟦222⟧⟨366⟩⟦114⟧⟨367⟩
+[Georgia (coffee)] ⟨368⟩⟦69⟧⟨369⟩⟦14⟧⟨370⟩⟦227⟧⟨371⟩⟦237⟧⟨372⟩⟦75⟧⟨373⟩
+[Georgia (coffee)] ⟨374⟩⟦154⟧⟨375⟩⟦154⟧⟨376⟩⟦214⟧⟨377⟩⟦218⟧⟨378⟩⟦131⟧⟨379⟩⟦50⟧⟨380⟩⟦264⟧⟨381⟩⟦31⟧⟨382⟩
+[Georgia (coffee)] ⟦114⟧⟨383⟩⟦249⟧⟨384⟩⟦228⟧⟨385⟩⟦138⟧⟨386⟩⟦242⟧⟨387⟩⟦71⟧⟨388⟩⟦52⟧⟨389⟩
+[Georgia (coffee)] ⟨390⟩⟦241⟧⟨391⟩⟦52⟧⟨392⟩⟦69⟧⟨393⟩
+[Georgia (coffee)] ⟨394⟩⟦138⟧⟨395⟩⟦116⟧⟨396⟩⟦207⟧⟨397⟩⟦257⟧⟨398⟩⟦207⟧⟨399⟩⟦68⟧⟨400⟩
+[Georgia (coffee)] ⟦114⟧⟨401⟩⟦153⟧⟨402⟩⟦55⟧⟨403⟩⟦139⟧⟨404⟩⟦71⟧⟨405⟩
+[Georgia (coffee)] ⟦115⟧⟨406⟩⟦71⟧⟨407⟩⟦264⟧⟨408⟩⟦46⟧⟨409⟩⟦117⟧⟨410⟩⟦225⟧⟨411⟩
+
+[user]
+
+问题：
+What corporation does the company that publishes the monthly magazine that focuses almost exclusively on the Western United States and featured photograph by Julius Shulman of a home designed by Rodney Walker belong to?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

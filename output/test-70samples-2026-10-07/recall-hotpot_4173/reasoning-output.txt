@@ -1,0 +1,29 @@
+# 路径一：从选秀信息定位人物，再追踪其主持节目
+
+步骤1：使用⟦160⟧，提取“the 1995 NFL Draft”这一选秀事件，结合⟨278⟩“eighth overall in”，锁定“在1995年NFL选秀中第八顺位被选中”的人。
+
+步骤2：综合⟦82⟧⟦12⟧⟦228⟧，确认该人物为 Joseph Scott Galloway（Joey Galloway），身份是 former American football wide receiver。
+
+步骤3：使用⟦47⟧，提取 Galloway 当前身份为“current college football analyst”，并结合⟦56⟧⟦57⟧，判断其参与主持的节目名称为 ESPN College Football Friday Primetime。
+
+结论：该节目名为 **ESPN College Football Friday Primetime**。
+
+# 路径二：从节目材料反向验证主持人身份
+
+步骤1：使用⟦57⟧，提取节目名称“ESPN College Football Friday Primetime”，并综合⟦56⟧⟦17⟧⟦127⟧，确认该节目是 ESPN 的一档 live game presentation。
+
+步骤2：综合⟦41⟧⟦61⟧⟦51⟧，提取节目内容为 college football / Division 1-A college football，与 Galloway 的“college football analyst”身份⟦47⟧一致。
+
+步骤3：使用⟦82⟧，确认 Joey Galloway 的全名为 Joseph Scott Galloway，再结合⟦160⟧⟨278⟩，交叉验证其1995年第八顺位被选中的经历，确认节目主持人正是此人。
+
+结论：Galloway 联合主持的节目是 **ESPN College Football Friday Primetime**。
+
+# 路径三：通过职业生涯轨迹排除干扰项
+
+步骤1：综合⟦213⟧⟦179⟧⟦154⟧⟦104⟧⟦119⟧⟦225⟧，提取 Galloway 曾效力的多支 NFL 球队（Seahawks、Cowboys、Buccaneers、Patriots、Steelers、Redskins），确认其球员生涯⟦200⟧。
+
+步骤2：使用⟦47⟧，提取其退役后转型为“current college football analyst”，与球员身份形成对比，排除其他球队相关节目。
+
+步骤3：综合⟦56⟧⟦57⟧⟦145⟧，确认其主持节目为 ESPN College Football Friday Primetime，有时在 ESPN2 播出。
+
+结论：该节目名称为 **ESPN College Football Friday Primetime**。

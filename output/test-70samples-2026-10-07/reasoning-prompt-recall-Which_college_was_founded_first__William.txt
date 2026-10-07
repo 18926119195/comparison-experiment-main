@@ -1,0 +1,80 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[University of Southern California] ⟨306⟩⟦222⟧⟨307⟩⟨308⟩⟦218⟧⟨309⟩⟦20⟧⟨311⟩⟨310⟩⟨312⟩⟨313⟩⟨314⟩
+[University of Southern California] ⟨315⟩⟦269⟧⟨317⟩⟨316⟩⟨318⟩⟨319⟩
+[University of Southern California] ⟦282⟧⟦293⟧⟦166⟧⟦212⟧ | ⟦293⟧⟦212⟧
+[University of Southern California] ⟦294⟧⟦58⟧ | ⟦58⟧
+[Williams College] ⟨354⟩⟦19⟧⟨356⟩⟨355⟩⟨357⟩⟦304⟧⟨358⟩⟦171⟧⟨359⟩⟦291⟧⟨360⟩
+[Williams College] ⟦43⟧
+[Frank &quot;Buck&quot; O'Neill] ⟦71⟧
+[Zephaniah Swift Moore] ⟦302⟧
+
+符号表：
+⟦19⟧ = a private liberal arts college
+⟦20⟧ = a private research university
+⟦43⟧ = arts
+⟦58⟧ = California
+⟦71⟧ = college
+⟦166⟧ = Los Angeles
+⟦171⟧ = Massachusetts
+⟦212⟧ = research
+⟦218⟧ = SC
+⟦222⟧ = Southern California
+⟦269⟧ = the oldest private research university
+⟦282⟧ = the University
+⟦291⟧ = United States
+⟦293⟧ = university
+⟦294⟧ = USC
+⟦302⟧ = Williams College
+⟦304⟧ = Williamstown
+
+占位符映射：
+⟨306⟩ =  of 
+⟨307⟩ =  (
+⟨308⟩ =  or 
+⟨309⟩ = ) is 
+⟨310⟩ = 
+⟨311⟩ =  
+⟨312⟩ =  located in 
+⟨313⟩ = , 
+⟨314⟩ = .
+⟨315⟩ =  Founded in 1880, it is 
+⟨316⟩ = 
+⟨317⟩ =  
+⟨318⟩ =  in 
+⟨319⟩ = .
+⟨354⟩ =  is 
+⟨355⟩ = 
+⟨356⟩ =  
+⟨357⟩ =  in 
+⟨358⟩ = , 
+⟨359⟩ = , 
+⟨360⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which college was founded first, Williams College or University of Southern California?

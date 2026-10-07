@@ -1,0 +1,92 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Boeing Field] ⟨1⟩⟦136⟧⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦104⟧⟨6⟩⟨7⟩⟦35⟧⟦35⟧⟨8⟩⟨9⟩⟨10⟩⟨11⟩⟨12⟩⟦70⟧⟨13⟩⟨14⟩
+[Downtown Burbank station] ⟦125⟧
+[Boeing Plant 2] ⟦107⟧
+[Boeing Plant 2] ⟦43⟧
+[Bob Hope Airport] ⟦95⟧⟦96⟧⟦74⟧⟦12⟧ | ⟦37⟧⟨263⟩⟦90⟧⟨264⟩⟦95⟧⟨265⟩⟨266⟩⟦96⟧⟨267⟩⟦105⟧⟨268⟩⟦74⟧⟨269⟩⟦47⟧⟦47⟧⟨270⟩⟦12⟧⟨271⟩⟨272⟩⟦2⟧⟦124⟧⟨273⟩⟨274⟩⟦67⟧⟨275⟩⟨276⟩⟦116⟧⟨277⟩⟦50⟧⟨278⟩
+[Bob Hope Airport] ⟦20⟧⟦66⟧ | ⟦20⟧⟦66⟧
+
+符号表：
+⟦2⟧ = 3 mi
+⟦12⟧ = a public airport
+⟦20⟧ = airport
+⟦35⟧ = BFI
+⟦37⟧ = Bob Hope Airport
+⟦43⟧ = Boeing Field
+⟦47⟧ = BUR
+⟦50⟧ = California
+⟦66⟧ = downtown
+⟦67⟧ = Downtown Burbank
+⟦70⟧ = downtown Seattle
+⟦74⟧ = FAA LID
+⟦90⟧ = Hollywood Burbank Airport
+⟦95⟧ = IATA
+⟦96⟧ = ICAO
+⟦104⟧ = KBFI
+⟦105⟧ = KBUR
+⟦107⟧ = King County
+⟦116⟧ = Los Angeles County
+⟦124⟧ = mi
+⟦125⟧ = miles
+⟦136⟧ = officially King County International Airport
+
+占位符映射：
+⟨1⟩ = , 
+⟨2⟩ =  (
+⟨3⟩ = : 
+⟨4⟩ = , 
+⟨5⟩ = : 
+⟨6⟩ = , 
+⟨7⟩ = : 
+⟨8⟩ = ) , is 
+⟨9⟩ = 
+⟨10⟩ =  owned and operated by 
+⟨11⟩ = , five 
+⟨12⟩ =  south of 
+⟨13⟩ = 
+⟨14⟩ = , Washington.
+⟨263⟩ = , branded as 
+⟨264⟩ =  (
+⟨265⟩ = : 
+⟨266⟩ = , 
+⟨267⟩ = : 
+⟨268⟩ = , 
+⟨269⟩ = : 
+⟨270⟩ = ) is 
+⟨271⟩ = 
+⟨272⟩ =  
+⟨273⟩ = 
+⟨274⟩ =  northwest of 
+⟨275⟩ = 
+⟨276⟩ = , in 
+⟨277⟩ = , 
+⟨278⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What type of community does Bob Hope Airport and Boeing Field have in common?

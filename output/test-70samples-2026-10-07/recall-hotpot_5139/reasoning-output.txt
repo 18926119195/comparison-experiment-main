@@ -1,0 +1,23 @@
+# 路径一：从职业角色清单直接定位
+
+步骤1：使用⟦163⟧，提取 Mark Delavan 的 roles 信息，其中包含 ⟦246⟧（Verdi's "Rigoletto"）。
+步骤2：综合⟦172⟧⟦246⟧，对比角色名与歌剧归属：Sparafucile 是 Verdi 歌剧《Rigoletto》中的角色。
+步骤3：使用⟦48⟧⟦51⟧，确认 Ara Berberian 是 bass（男低音），而 Sparafucile 正是男低音角色，与 Ara Berberian 的声部匹配。
+
+结论：Ara Berberian 在 Giuseppe Verdi 的歌剧《Rigoletto》中演唱 Sparafucile 这一角色。
+
+# 路径二：从 Ara Berberian 的职业记录交叉验证
+
+步骤1：使用⟦57⟧⟦97⟧，提取 Ara Berberian 的 career 信息，其中提到他演唱过多个角色。
+步骤2：综合⟦172⟧⟦246⟧，从 Mark Delavan 的角色记录中确认 Sparafucile 属于 Verdi's "Rigoletto"。
+步骤3：综合⟦51⟧⟦172⟧，交叉验证：Ara Berberian 是 bass，Sparafucile 是 Verdi 歌剧中的男低音角色，两者声部与剧目归属一致。
+
+结论：Ara Berberian 为 Verdi 歌剧《Rigoletto》演唱了 Sparafucile 这一角色。
+
+# 路径三：从歌剧角色与作曲家归属排除法
+
+步骤1：使用⟦122⟧⟦135⟧⟦222⟧，提取 Mozart's "Abduction" 中的 Osmin 角色，确认其作曲家为 Mozart 而非 Verdi。
+步骤2：使用⟦172⟧⟦246⟧，提取 Sparafucile 与 Verdi's "Rigoletto" 的关联，确认作曲家为 Verdi。
+步骤3：综合⟦48⟧⟦51⟧⟦172⟧，对比 Ara Berberian 的声部（bass）与两个角色的声部要求，Sparafucile 为男低音角色，且属于 Verdi 歌剧。
+
+结论：Ara Berberian 演唱的 Verdi 歌剧角色是《Rigoletto》中的 Sparafucile。

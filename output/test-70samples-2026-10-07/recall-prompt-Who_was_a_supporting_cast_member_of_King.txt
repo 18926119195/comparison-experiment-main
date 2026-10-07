@@ -1,0 +1,457 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = ' s list
+⟦2⟧ = "Blume
+⟦3⟧ = "General Hospital
+⟦4⟧ = "King Rat
+⟦5⟧ = "Rolling Stone" magazine
+⟦6⟧ = "The Dresser
+⟦7⟧ = "The Hot Rock
+⟦8⟧ = "The Young
+⟦9⟧ = (later Budgen
+⟦10⟧ = (later Chalk
+⟦11⟧ = 10 June
+⟦12⟧ = 1960s
+⟦13⟧ = 1970s
+⟦14⟧ = 1990s
+⟦15⟧ = 21-year-old Kyle Christie
+⟦16⟧ = 23 August
+⟦17⟧ = 25 March
+⟦18⟧ = 3 June
+⟦19⟧ = a 1965 World War II film
+⟦20⟧ = a bigger storyline
+⟦21⟧ = a British television programme
+⟦22⟧ = a cast member
+⟦23⟧ = a centuries-old rivalry
+⟦24⟧ = a contract release
+⟦25⟧ = a fictional character
+⟦26⟧ = a knighthood
+⟦27⟧ = a list
+⟦28⟧ = a one-night stand
+⟦29⟧ = a POW
+⟦30⟧ = a pregnant teenager
+⟦31⟧ = a racial slur
+⟦32⟧ = a regular cast member
+⟦33⟧ = a single
+⟦34⟧ = a song
+⟦35⟧ = a special appearance
+⟦36⟧ = a squalid camp
+⟦37⟧ = a succession
+⟦38⟧ = A Touch
+⟦39⟧ = ABC
+⟦40⟧ = actor
+⟦41⟧ = actors
+⟦42⟧ = Actors Genie Francis
+⟦43⟧ = actress
+⟦44⟧ = Actress Jacklyn Zeman
+⟦45⟧ = Actress Jane Elliot
+⟦46⟧ = adaptation
+⟦47⟧ = addition
+⟦48⟧ = Afraid
+⟦49⟧ = album
+⟦50⟧ = All other cast members
+⟦51⟧ = American indie rock band Modest Mouse
+⟦52⟧ = American soap operas
+⟦53⟧ = Ames
+⟦54⟧ = an Academy Award nomination
+⟦55⟧ = an American actor
+⟦56⟧ = an American actress
+⟦57⟧ = an English actor
+⟦58⟧ = an episode
+⟦59⟧ = An exclusive first trailer
+⟦60⟧ = an urban fantasy novel
+⟦61⟧ = Angus Deayton
+⟦62⟧ = Angus Hancock
+⟦63⟧ = anniversary
+⟦64⟧ = another new cast member
+⟦65⟧ = appearance
+⟦66⟧ = appearances
+⟦67⟧ = April
+⟦68⟧ = Audrey Hardy
+⟦69⟧ = August
+⟦70⟧ = band
+⟦71⟧ = befriends
+⟦72⟧ = Best Actor
+⟦73⟧ = Billboard's" Modern Rock Tracks chart
+⟦74⟧ = Billy
+⟦75⟧ = Blume
+⟦76⟧ = Bobbie Spencer
+⟦77⟧ = both dramatic and comedic roles
+⟦78⟧ = boyfriend
+⟦79⟧ = British writer China Miéville
+⟦80⟧ = Broadway
+⟦81⟧ = Bryan Forbes
+⟦82⟧ = California Split
+⟦83⟧ = camp
+⟦84⟧ = cast
+⟦85⟧ = cast member Holly Hagan
+⟦86⟧ = cast members
+⟦87⟧ = centuries
+⟦88⟧ = Changi Prison
+⟦89⟧ = character
+⟦90⟧ = characters
+⟦91⟧ = chart
+⟦92⟧ = children
+⟦93⟧ = Christine Blair
+⟦94⟧ = Christine's son
+⟦95⟧ = cinema
+⟦96⟧ = Class
+⟦97⟧ = Clavell's experiences
+⟦98⟧ = Cleghorne
+⟦99⟧ = comedian
+⟦100⟧ = comedy
+⟦101⟧ = Connor Mulgrew
+⟦102⟧ = contract
+⟦103⟧ = Corporal King
+⟦104⟧ = Danitra Vance
+⟦105⟧ = Dashboard
+⟦106⟧ = death
+⟦107⟧ = debut
+⟦108⟧ = December
+⟦109⟧ = departure
+⟦110⟧ = Deputy Head
+⟦111⟧ = Disaster
+⟦112⟧ = Dr. Monica Quartermaine
+⟦113⟧ = drama
+⟦114⟧ = Dynasty
+⟦115⟧ = early February
+⟦116⟧ = Ellen Cleghorne
+⟦117⟧ = End
+⟦118⟧ = English
+⟦119⟧ = episode
+⟦120⟧ = Episode Eight
+⟦121⟧ = Episode Eleven
+⟦122⟧ = Episode Five
+⟦123⟧ = Episode Nine
+⟦124⟧ = Episode Ten
+⟦125⟧ = episode Twenty-Nine
+⟦126⟧ = episode Twenty-Seven
+⟦127⟧ = episodes
+⟦128⟧ = Ex
+⟦129⟧ = experiences
+⟦130⟧ = family
+⟦131⟧ = fantasy
+⟦132⟧ = father
+⟦133⟧ = February
+⟦134⟧ = fifteen years
+⟦135⟧ = film
+⟦136⟧ = Filming
+⟦137⟧ = films
+⟦138⟧ = following
+⟦139⟧ = Fools
+⟦140⟧ = Former cast member Anthony Geary
+⟦141⟧ = Former cast member Rachel Ames
+⟦142⟧ = former cast member Sophie Kasaei
+⟦143⟧ = Frank and Doris Hursley
+⟦144⟧ = Gaz
+⟦145⟧ = General Hospital
+⟦146⟧ = Geordie Shore
+⟦147⟧ = George Segal
+⟦148⟧ = George Segal Jr.
+⟦149⟧ = George Windsor
+⟦150⟧ = Greenock Education
+⟦151⟧ = guest
+⟦152⟧ = guest appearances
+⟦153⟧ = Head
+⟦154⟧ = her children Barry
+⟦155⟧ = her departure
+⟦156⟧ = his Bas-Lag novels
+⟦157⟧ = his death
+⟦158⟧ = his father
+⟦159⟧ = his first appearance
+⟦160⟧ = his meeting
+⟦161⟧ = his most acclaimed roles
+⟦162⟧ = his service
+⟦163⟧ = his wing
+⟦164⟧ = his work
+⟦165⟧ = History
+⟦166⟧ = Holly
+⟦167⟧ = Hot
+⟦168⟧ = Imogen Stewart
+⟦169⟧ = Imogen's mother
+⟦170⟧ = its 40th anniversary special
+⟦171⟧ = its eleventh season
+⟦172⟧ = Jade Fleming
+⟦173⟧ = James Clavell's novel
+⟦174⟧ = James Fox
+⟦175⟧ = John Mills
+⟦176⟧ = July
+⟦177⟧ = June
+⟦178⟧ = Kacey
+⟦179⟧ = Kevin Skelton
+⟦180⟧ = Kin Shriner
+⟦181⟧ = King Rat
+⟦182⟧ = knighthood
+⟦183⟧ = late May
+⟦184⟧ = later Head Teacher
+⟦185⟧ = Laura Spencer
+⟦186⟧ = Lauralee Bell
+⟦187⟧ = Leslie Charleson
+⟦188⟧ = life
+⟦189⟧ = list
+⟦190⟧ = London
+⟦191⟧ = Lorraine Donnegan
+⟦192⟧ = Lorraine's sister
+⟦193⟧ = Love
+⟦194⟧ = Luke Spencer
+⟦195⟧ = Lula Tsibi
+⟦196⟧ = magazine
+⟦197⟧ = Maggie Croft
+⟦198⟧ = Maintenance Assistant Ndale Kayuni
+⟦199⟧ = man
+⟦200⟧ = Marlowe
+⟦201⟧ = May
+⟦202⟧ = meeting
+⟦203⟧ = member
+⟦204⟧ = members
+⟦205⟧ = Michael Byrne's father
+⟦206⟧ = mid-1960s
+⟦207⟧ = Miéville's debut novel
+⟦208⟧ = Modern Languages George Windsor
+⟦209⟧ = more than one season
+⟦210⟧ = mother
+⟦211⟧ = mother Carol
+⟦212⟧ = musician
+⟦213⟧ = new cast member Aaron Chalmers
+⟦214⟧ = New Main Cast Members
+⟦215⟧ = New Pupil Characters
+⟦216⟧ = Newcastle
+⟦217⟧ = night
+⟦218⟧ = Nina Webster
+⟦219⟧ = nomination
+⟦220⟧ = novel
+⟦221⟧ = novels
+⟦222⟧ = November
+⟦223⟧ = occasional appearances
+⟦224⟧ = October
+⟦225⟧ = opera
+⟦226⟧ = operas
+⟦227⟧ = order
+⟦228⟧ = Poppa
+⟦229⟧ = POW
+⟦230⟧ = Princess
+⟦231⟧ = prisoners
+⟦232⟧ = programme
+⟦233⟧ = prominence
+⟦234⟧ = pupil
+⟦235⟧ = pupil Jack MacAllister
+⟦236⟧ = Pupil Liberty Gordon
+⟦237⟧ = release
+⟦238⟧ = Rhiannon Salt
+⟦239⟧ = Richard Mylan
+⟦240⟧ = rival school
+⟦241⟧ = rivalry
+⟦242⟧ = rock
+⟦243⟧ = roles
+⟦244⟧ = Rolling Stone
+⟦245⟧ = Sally Stewart
+⟦246⟧ = Saturday Night Live
+⟦247⟧ = Saul
+⟦248⟧ = Saul Garamond
+⟦249⟧ = school
+⟦250⟧ = School Secretary
+⟦251⟧ = Science
+⟦252⟧ = Scott Baldwin
+⟦253⟧ = season
+⟦254⟧ = Segal
+⟦255⟧ = serial
+⟦256⟧ = series
+⟦257⟧ = service
+⟦258⟧ = several appearances
+⟦259⟧ = several guest spots
+⟦260⟧ = Ship
+⟦261⟧ = show
+⟦262⟧ = side
+⟦263⟧ = Simon Lowsley
+⟦264⟧ = Singapore
+⟦265⟧ = single
+⟦266⟧ = Sir Thomas Daniel Courtenay
+⟦267⟧ = sister
+⟦268⟧ = sketch
+⟦269⟧ = slur
+⟦270⟧ = soap
+⟦271⟧ = son
+⟦272⟧ = song
+⟦273⟧ = Sonya Donnegan
+⟦274⟧ = special
+⟦275⟧ = spots
+⟦276⟧ = stand
+⟦277⟧ = storyline
+⟦278⟧ = succession
+⟦279⟧ = Teacher
+⟦280⟧ = teenager
+⟦281⟧ = television
+⟦282⟧ = that album
+⟦283⟧ = the "Billboard
+⟦284⟧ = the 100 Best Songs
+⟦285⟧ = the 1960s
+⟦286⟧ = the 69th greatest "Saturday Night Live" cast member
+⟦287⟧ = the actress
+⟦288⟧ = the addition
+⟦289⟧ = the American CBS soap opera
+⟦290⟧ = the B-side
+⟦291⟧ = the band's UK tour
+⟦292⟧ = the Barry family
+⟦293⟧ = the BBC school drama
+⟦294⟧ = The Beach
+⟦295⟧ = the Boys
+⟦296⟧ = the cast
+⟦297⟧ = the death
+⟦298⟧ = the early 1960s
+⟦299⟧ = The eighth series
+⟦300⟧ = the end
+⟦301⟧ = the episode
+⟦302⟧ = the fifth longest-running cast member
+⟦303⟧ = The film
+⟦304⟧ = the film adaptation
+⟦305⟧ = the first African-American female cast member
+⟦306⟧ = the first five episodes
+⟦307⟧ = the first single
+⟦308⟧ = The following
+⟦309⟧ = The following list
+⟦310⟧ = the fourth longest-running cast member
+⟦311⟧ = the late 1990s
+⟦312⟧ = the life
+⟦313⟧ = The Loneliness
+⟦314⟧ = the Long Distance Runner
+⟦315⟧ = the longest running American television serial drama
+⟦316⟧ = The longest-running cast member
+⟦317⟧ = the longest-tenured actors
+⟦318⟧ = the main and recurring cast members
+⟦319⟧ = the Main Cast
+⟦320⟧ = the mid-1960s
+⟦321⟧ = the previous series
+⟦322⟧ = the Restless
+⟦323⟧ = the same episode
+⟦324⟧ = the second and third longest-running cast members
+⟦325⟧ = the second track
+⟦326⟧ = the Second World War
+⟦327⟧ = the serial
+⟦328⟧ = the series
+⟦329⟧ = the series' fiftieth anniversary
+⟦330⟧ = the series' longest-running cast member
+⟦331⟧ = the seventh series
+⟦332⟧ = the Ship
+⟦333⟧ = the show
+⟦334⟧ = the sixth longest-running cast member
+⟦335⟧ = the sketch comedy show's second African-American female repertory cast member
+⟦336⟧ = The song
+⟦337⟧ = the supporting cast
+⟦338⟧ = the theatre
+⟦339⟧ = the United Kingdom
+⟦340⟧ = the West End
+⟦341⟧ = the young man
+⟦342⟧ = theatre
+⟦343⟧ = their 2007 album
+⟦344⟧ = Thirty Episodes
+⟦345⟧ = this series
+⟦346⟧ = This single
+⟦347⟧ = This song
+⟦348⟧ = Tom Courtenay
+⟦349⟧ = tour
+⟦350⟧ = track
+⟦351⟧ = Tracy Quartermaine
+⟦352⟧ = trailer
+⟦353⟧ = Tricia Cast
+⟦354⟧ = turn
+⟦355⟧ = Twenty-Nine
+⟦356⟧ = Twenty-Seven
+⟦357⟧ = Twitter
+⟦358⟧ = two World War II prisoners
+⟦359⟧ = Tyne
+⟦360⟧ = Virginia Woolf
+⟦361⟧ = war
+⟦362⟧ = Waterloo Road
+⟦363⟧ = wife
+⟦364⟧ = wing
+⟦365⟧ = work
+⟦366⟧ = writer
+⟦367⟧ = year
+⟦368⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Tom Courtenay] ⟦266⟧⟨1⟩⟦57⟧⟨2⟩⟦40⟧⟨3⟩⟦233⟧⟨4⟩⟦233⟧⟨5⟩⟦298⟧⟨6⟩⟦12⟧⟨7⟩⟦37⟧⟨8⟩⟦278⟧⟨9⟩⟦137⟧⟨10⟩⟦137⟧⟨11⟩⟦313⟧⟨12⟩⟦314⟧⟨13⟩
+[Tom Courtenay] ⟨14⟩⟦320⟧⟨15⟩⟦206⟧⟨16⟩⟦164⟧⟨17⟩⟦365⟧⟨18⟩⟦338⟧⟨19⟩⟦342⟧⟨20⟩⟦54⟧⟨21⟩⟦219⟧⟨22⟩⟦72⟧⟨23⟩⟦304⟧⟨24⟩⟦135⟧⟨25⟩⟦46⟧⟨26⟩⟦6⟧⟨27⟩⟦340⟧⟨28⟩⟦117⟧⟨29⟩⟦80⟧⟨30⟩
+[Tom Courtenay] ⟨31⟩⟦26⟧⟨32⟩⟦182⟧⟨33⟩⟦133⟧⟨34⟩⟦162⟧⟨35⟩⟦257⟧⟨36⟩⟦95⟧⟨37⟩⟦95⟧⟨38⟩⟦342⟧⟨39⟩⟦342⟧⟨40⟩
+[King Rat (film)] ⟦181⟧⟨41⟩⟦19⟧⟨42⟩⟦135⟧⟨43⟩⟦81⟧⟨44⟩⟦147⟧⟨45⟩⟦103⟧⟨46⟩⟦174⟧⟨47⟩⟦200⟧⟨48⟩⟦358⟧⟨49⟩⟦231⟧⟨50⟩⟦361⟧⟨51⟩⟦361⟧⟨52⟩⟦36⟧⟨53⟩⟦83⟧⟨54⟩⟦264⟧⟨55⟩
+[King Rat (film)] ⟨56⟩⟦337⟧⟨57⟩⟦84⟧⟨58⟩⟦175⟧⟨59⟩⟦348⟧⟨60⟩
+[King Rat (film)] ⟦303⟧⟨61⟩⟦135⟧⟨62⟩⟦173⟧⟨63⟩⟦220⟧⟨64⟩⟦4⟧⟨65⟩⟦354⟧⟨66⟩⟦354⟧⟨67⟩⟦97⟧⟨68⟩⟦129⟧⟨69⟩⟦29⟧⟨70⟩⟦229⟧⟨71⟩⟦88⟧⟨72⟩⟦326⟧⟨73⟩
+[George Segal] ⟦148⟧⟨74⟩⟦55⟧⟨75⟩⟦40⟧⟨76⟩⟦212⟧⟨77⟩⟦212⟧⟨78⟩
+[George Segal] ⟦254⟧⟨79⟩⟦285⟧⟨80⟩⟦12⟧⟨81⟩⟦13⟧⟨82⟩⟦13⟧⟨83⟩⟦77⟧⟨84⟩⟦243⟧⟨85⟩
+[George Segal] ⟨86⟩⟦161⟧⟨87⟩⟦243⟧⟨88⟩⟦137⟧⟨89⟩⟦137⟧⟨90⟩⟦260⟧⟨91⟩⟦139⟧⟨92⟩⟦48⟧⟨93⟩⟦360⟧⟨94⟩
+[George Segal] ⟨95⟩⟦228⟧⟨96⟩
+[George Segal] ⟨97⟩⟦7⟧⟨98⟩⟦2⟧⟨99⟩⟦75⟧⟨100⟩⟦193⟧⟨101⟩⟦193⟧⟨102⟩⟦38⟧⟨103⟩⟦96⟧⟨104⟩⟦96⟧⟨105⟩⟦82⟧⟨106⟩⟦295⟧⟨107⟩⟦111⟧⟨108⟩⟦111⟧⟨109⟩
+[Ellen Cleghorne] ⟦116⟧⟨110⟩⟦56⟧⟨111⟩⟦43⟧⟨112⟩⟦99⟧⟨113⟩⟦99⟧⟨114⟩⟦22⟧⟨115⟩⟦84⟧⟨116⟩⟦203⟧⟨117⟩⟦246⟧⟨118⟩
+[Ellen Cleghorne] ⟦98⟧⟨119⟩⟦335⟧⟨120⟩⟦268⟧⟨121⟩⟦100⟧⟨122⟩⟦261⟧⟨123⟩⟦84⟧⟨124⟩⟦203⟧⟨125⟩⟦104⟧⟨126⟩⟦171⟧⟨127⟩⟦253⟧⟨128⟩⟦305⟧⟨129⟩⟦84⟧⟨130⟩⟦203⟧⟨131⟩⟦209⟧⟨132⟩⟦253⟧⟨133⟩
+[Ellen Cleghorne] ⟨134⟩⟦170⟧⟨135⟩⟦63⟧⟨136⟩⟦274⟧⟨137⟩⟦133⟧⟨138⟩
+[Ellen Cleghorne] ⟦98⟧⟨139⟩⟦286⟧⟨140⟩⟦84⟧⟨141⟩⟦203⟧⟨142⟩⟦5⟧⟨143⟩⟦196⟧⟨144⟩
+[Geordie Shore (series 8)] ⟦299⟧⟨145⟩⟦256⟧⟨146⟩⟦146⟧⟨147⟩⟦21⟧⟨148⟩⟦281⟧⟨149⟩⟦232⟧⟨150⟩⟦216⟧⟨151⟩⟦359⟧⟨152⟩⟦224⟧⟨153⟩⟦84⟧⟨154⟩⟦85⟧⟨155⟩⟦203⟧⟨156⟩⟦357⟧⟨157⟩
+[Geordie Shore (series 8)] ⟦136⟧⟨158⟩⟦345⟧⟨159⟩⟦256⟧⟨160⟩⟦17⟧⟨161⟩
+[Geordie Shore (series 8)] ⟦345⟧⟨162⟩⟦256⟧⟨163⟩⟦142⟧⟨164⟩⟦84⟧⟨165⟩⟦203⟧⟨166⟩⟦331⟧⟨167⟩⟦256⟧⟨168⟩⟦31⟧⟨169⟩⟦269⟧⟨170⟩
+[Geordie Shore (series 8)] ⟦50⟧⟨171⟩⟦204⟧⟨172⟩⟦321⟧⟨173⟩⟦256⟧⟨174⟩⟦288⟧⟨175⟩⟦47⟧⟨176⟩⟦213⟧⟨177⟩⟦84⟧⟨178⟩⟦203⟧⟨179⟩⟦256⟧⟨180⟩⟦256⟧⟨181⟩⟦333⟧⟨182⟩⟦261⟧⟨183⟩⟦28⟧⟨184⟩⟦217⟧⟨185⟩⟦276⟧⟨186⟩⟦166⟧⟨187⟩
+[Geordie Shore (series 8)] ⟨188⟩⟦201⟧⟨189⟩⟦144⟧⟨190⟩⟦328⟧⟨191⟩⟦256⟧⟨192⟩⟦176⟧⟨193⟩
+[Geordie Shore (series 8)] ⟦59⟧⟨194⟩⟦352⟧⟨195⟩⟦328⟧⟨196⟩⟦256⟧⟨197⟩⟦58⟧⟨198⟩⟦119⟧⟨199⟩⟦128⟧⟨200⟩⟦294⟧⟨201⟩⟦18⟧⟨202⟩
+[Geordie Shore (series 8)] ⟨203⟩⟦11⟧⟨204⟩⟦64⟧⟨205⟩⟦84⟧⟨206⟩⟦203⟧⟨207⟩⟦15⟧⟨208⟩⟦367⟧⟨209⟩
+[King Rat (Miéville novel)] ⟦181⟧⟨210⟩⟦60⟧⟨211⟩⟦131⟧⟨212⟩⟦220⟧⟨213⟩⟦79⟧⟨214⟩⟦366⟧⟨215⟩
+[King Rat (Miéville novel)] ⟨216⟩⟦156⟧⟨217⟩⟦221⟧⟨218⟩⟦190⟧⟨219⟩⟦311⟧⟨220⟩⟦14⟧⟨221⟩
+[King Rat (Miéville novel)] ⟨222⟩⟦312⟧⟨223⟩⟦188⟧⟨224⟩⟦248⟧⟨225⟩⟦297⟧⟨226⟩⟦106⟧⟨227⟩⟦158⟧⟨228⟩⟦132⟧⟨229⟩⟦160⟧⟨230⟩⟦202⟧⟨231⟩⟦181⟧⟨232⟩
+[King Rat (Miéville novel)] ⟨233⟩⟦181⟧⟨234⟩⟦247⟧⟨235⟩⟦163⟧⟨236⟩⟦364⟧⟨237⟩⟦341⟧⟨238⟩⟦199⟧⟨239⟩⟦23⟧⟨240⟩⟦87⟧⟨241⟩⟦241⟧⟨242⟩
+[King Rat (Miéville novel)] ⟦4⟧⟨243⟩⟦207⟧⟨244⟩⟦107⟧⟨245⟩⟦220⟧⟨246⟩
+[Nina Webster] ⟦218⟧⟨247⟩⟦25⟧⟨248⟩⟦89⟧⟨249⟩⟦289⟧⟨250⟩⟦270⟧⟨251⟩⟦225⟧⟨252⟩⟦8⟧⟨253⟩⟦322⟧⟨254⟩⟦353⟧⟨255⟩
+[Nina Webster] ⟨256⟩⟦301⟧⟨257⟩⟦119⟧⟨258⟩⟦177⟧⟨259⟩⟦30⟧⟨260⟩⟦280⟧⟨261⟩⟦93⟧⟨262⟩⟦186⟧⟨263⟩⟦71⟧⟨264⟩
+[Nina Webster] ⟦84⟧⟨265⟩⟦32⟧⟨266⟩⟦84⟧⟨267⟩⟦203⟧⟨268⟩⟦134⟧⟨269⟩⟦368⟧⟨270⟩⟦24⟧⟨271⟩⟦102⟧⟨272⟩⟦237⟧⟨273⟩⟦133⟧⟨274⟩
+[Nina Webster] ⟨275⟩⟦287⟧⟨276⟩⟦43⟧⟨277⟩⟦259⟧⟨278⟩⟦151⟧⟨279⟩⟦275⟧⟨280⟩⟦367⟧⟨281⟩⟦20⟧⟨282⟩⟦277⟧⟨283⟩⟦223⟧⟨284⟩⟦66⟧⟨285⟩
+[Dashboard (song)] ⟨286⟩⟦105⟧⟨287⟩⟦34⟧⟨288⟩⟦272⟧⟨289⟩⟦51⟧⟨290⟩⟦242⟧⟨291⟩⟦70⟧⟨292⟩⟦325⟧⟨293⟩⟦350⟧⟨294⟩⟦343⟧⟨295⟩⟦49⟧⟨296⟩⟦332⟧⟨297⟩⟦260⟧⟨298⟩
+[Dashboard (song)] ⟦336⟧⟨299⟩⟦272⟧⟨300⟩⟦307⟧⟨301⟩⟦265⟧⟨302⟩⟦282⟧⟨303⟩⟦49⟧⟨304⟩⟦73⟧⟨305⟩⟦91⟧⟨306⟩
+[Dashboard (song)] ⟨307⟩⟦283⟧⟨308⟩⟦167⟧⟨309⟩⟦115⟧⟨310⟩
+[Dashboard (song)] ⟨311⟩⟦183⟧⟨312⟩⟦336⟧⟨313⟩⟦272⟧⟨314⟩⟦33⟧⟨315⟩⟦265⟧⟨316⟩⟦339⟧⟨317⟩⟦181⟧⟨318⟩⟦290⟧⟨319⟩⟦262⟧⟨320⟩
+[Dashboard (song)] ⟦346⟧⟨321⟩⟦265⟧⟨322⟩⟦291⟧⟨323⟩⟦70⟧⟨324⟩⟦349⟧⟨325⟩
+[Dashboard (song)] ⟦347⟧⟨326⟩⟦272⟧⟨327⟩⟦244⟧⟨328⟩⟦1⟧⟨329⟩⟦189⟧⟨330⟩⟦284⟧⟨331⟩
+[List of Waterloo Road characters (series 8)] ⟦308⟧⟨332⟩⟦138⟧⟨333⟩⟦27⟧⟨334⟩⟦189⟧⟨335⟩⟦90⟧⟨336⟩⟦90⟧⟨337⟩⟦299⟧⟨338⟩⟦256⟧⟨339⟩⟦293⟧⟨340⟩⟦249⟧⟨341⟩⟦113⟧⟨342⟩⟦362⟧⟨343⟩⟦227⟧⟨344⟩⟦227⟧⟨345⟩⟦65⟧⟨346⟩⟦65⟧⟨347⟩
+[List of Waterloo Road characters (series 8)] ⟦299⟧⟨348⟩⟦344⟧⟨349⟩⟦16⟧⟨350⟩
+[List of Waterloo Road characters (series 8)] ⟦61⟧⟨351⟩⟦239⟧⟨352⟩⟦296⟧⟨353⟩⟦84⟧⟨354⟩⟦153⟧⟨355⟩⟦208⟧⟨356⟩⟦110⟧⟨357⟩⟦263⟧⟨358⟩⟦127⟧⟨359⟩⟦127⟧⟨360⟩⟦356⟧⟨361⟩⟦355⟧⟨362⟩
+[List of Waterloo Road characters (series 8)] ⟨363⟩⟦89⟧⟨364⟩⟦153⟧⟨365⟩⟦150⟧⟨366⟩⟦159⟧⟨367⟩⟦65⟧⟨368⟩⟦119⟧⟨369⟩⟦126⟧⟨370⟩⟦363⟧⟨371⟩⟦363⟧⟨372⟩⟦149⟧⟨373⟩⟦230⟧⟨374⟩⟦125⟧⟨375⟩
+[List of Waterloo Road characters (series 8)] ⟦214⟧⟨376⟩⟦119⟧⟨377⟩⟦153⟧⟨378⟩⟦118⟧⟨379⟩⟦184⟧⟨380⟩⟦279⟧⟨381⟩⟦165⟧⟨382⟩⟦279⟧⟨383⟩⟦197⟧⟨384⟩⟦9⟧⟨385⟩⟦191⟧⟨386⟩⟦319⟧⟨387⟩
+[List of Waterloo Road characters (series 8)] ⟦215⟧⟨388⟩⟦119⟧⟨389⟩⟦94⟧⟨390⟩⟦271⟧⟨391⟩⟦101⟧⟨392⟩⟦168⟧⟨393⟩⟦172⟧⟨394⟩⟦195⟧⟨395⟩⟦238⟧⟨396⟩⟦62⟧⟨397⟩
+[List of Waterloo Road characters (series 8)] ⟨398⟩⟦240⟧⟨399⟩⟦249⟧⟨400⟩⟦306⟧⟨401⟩⟦127⟧⟨402⟩
+[List of Waterloo Road characters (series 8)] ⟦119⟧⟨403⟩⟦258⟧⟨404⟩⟦66⟧⟨405⟩⟦169⟧⟨406⟩⟦210⟧⟨407⟩⟦245⟧⟨408⟩⟦205⟧⟨409⟩⟦132⟧⟨410⟩⟦74⟧⟨411⟩⟦323⟧⟨412⟩⟦119⟧⟨413⟩⟦157⟧⟨414⟩⟦106⟧⟨415⟩⟦124⟧⟨416⟩
+[List of Waterloo Road characters (series 8)] ⟦236⟧⟨417⟩⟦122⟧⟨418⟩⟦179⟧⟨419⟩⟦10⟧⟨420⟩⟦337⟧⟨421⟩⟦84⟧⟨422⟩⟦120⟧⟨423⟩
+[List of Waterloo Road characters (series 8)] ⟦192⟧⟨424⟩⟦267⟧⟨425⟩⟦273⟧⟨426⟩⟦319⟧⟨427⟩⟦84⟧⟨428⟩⟦250⟧⟨429⟩⟦123⟧⟨430⟩
+[List of Waterloo Road characters (series 8)] ⟦121⟧⟨431⟩⟦292⟧⟨432⟩⟦130⟧⟨433⟩⟦210⟧⟨434⟩⟦211⟧⟨435⟩⟦154⟧⟨436⟩⟦92⟧⟨437⟩⟦114⟧⟨438⟩⟦178⟧⟨439⟩⟦337⟧⟨440⟩⟦84⟧⟨441⟩⟦234⟧⟨442⟩⟦235⟧⟨443⟩⟦323⟧⟨444⟩⟦119⟧⟨445⟩
+[List of Waterloo Road characters (series 8)] ⟨446⟩⟦300⟧⟨447⟩⟦117⟧⟨448⟩⟦328⟧⟨449⟩⟦256⟧⟨450⟩⟦90⟧⟨451⟩⟦90⟧⟨452⟩⟦198⟧⟨453⟩⟦78⟧⟨454⟩⟦251⟧⟨455⟩
+[General Hospital cast members] ⟨456⟩⟦145⟧⟨457⟩⟦315⟧⟨458⟩⟦281⟧⟨459⟩⟦113⟧⟨460⟩⟦39⟧⟨461⟩
+[General Hospital cast members] ⟨462⟩⟦143⟧⟨463⟩⟦256⟧⟨464⟩⟦67⟧⟨465⟩
+[General Hospital cast members] ⟦316⟧⟨466⟩⟦84⟧⟨467⟩⟦203⟧⟨468⟩⟦187⟧⟨469⟩⟦112⟧⟨470⟩⟦69⟧⟨471⟩⟦317⟧⟨472⟩⟦41⟧⟨473⟩⟦52⟧⟨474⟩⟦270⟧⟨475⟩⟦226⟧⟨476⟩
+[General Hospital cast members] ⟦141⟧⟨477⟩⟦84⟧⟨478⟩⟦203⟧⟨479⟩⟦330⟧⟨480⟩⟦256⟧⟨481⟩⟦84⟧⟨482⟩⟦203⟧⟨483⟩⟦68⟧⟨484⟩⟦151⟧⟨485⟩⟦152⟧⟨486⟩⟦66⟧⟨487⟩⟦329⟧⟨488⟩⟦256⟧⟨489⟩⟦63⟧⟨490⟩
+[General Hospital cast members] ⟦53⟧⟨491⟩⟦35⟧⟨492⟩⟦65⟧⟨493⟩⟦224⟧⟨494⟩
+[General Hospital cast members] ⟦42⟧⟨495⟩⟦180⟧⟨496⟩⟦185⟧⟨497⟩⟦252⟧⟨498⟩⟦324⟧⟨499⟩⟦84⟧⟨500⟩⟦204⟧⟨501⟩⟦3⟧⟨502⟩⟦133⟧⟨503⟩⟦69⟧⟨504⟩
+[General Hospital cast members] ⟦44⟧⟨505⟩⟦76⟧⟨506⟩⟦310⟧⟨507⟩⟦84⟧⟨508⟩⟦203⟧⟨509⟩⟦327⟧⟨510⟩⟦255⟧⟨511⟩⟦108⟧⟨512⟩
+[General Hospital cast members] ⟦45⟧⟨513⟩⟦327⟧⟨514⟩⟦255⟧⟨515⟩⟦177⟧⟨516⟩⟦351⟧⟨517⟩⟦302⟧⟨518⟩⟦84⟧⟨519⟩⟦203⟧⟨520⟩⟦3⟧⟨521⟩⟦177⟧⟨522⟩⟦155⟧⟨523⟩⟦109⟧⟨524⟩⟦201⟧⟨525⟩
+[General Hospital cast members] ⟦140⟧⟨526⟩⟦84⟧⟨527⟩⟦203⟧⟨528⟩⟦194⟧⟨529⟩⟦334⟧⟨530⟩⟦84⟧⟨531⟩⟦203⟧⟨532⟩⟦3⟧⟨533⟩⟦222⟧⟨534⟩
+[General Hospital cast members] ⟦309⟧⟨535⟩⟦189⟧⟨536⟩⟦86⟧⟨537⟩⟦204⟧⟨538⟩⟦333⟧⟨539⟩⟦261⟧⟨540⟩⟦318⟧⟨541⟩⟦84⟧⟨542⟩⟦204⟧⟨543⟩⟦328⟧⟨544⟩⟦256⟧⟨545⟩
+
+[user]
+
+问题：
+Who was a supporting cast member of King Rat and was knighted in February 2001?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

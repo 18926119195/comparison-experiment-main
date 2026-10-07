@@ -1,0 +1,69 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Mazda6] ⟦160⟧⟨238⟩⟦99⟧⟨239⟩⟦161⟧⟨240⟩⟦44⟧⟨241⟩⟦79⟧⟨242⟩⟦155⟧⟦30⟧⟨243⟩⟨244⟩⟦14⟧⟦60⟧⟨245⟩⟨246⟩⟦158⟧⟦37⟧⟨248⟩⟨247⟩⟨249⟩
+[Mazda6] ⟦168⟧⟨252⟩⟦105⟧⟦192⟧⟨253⟩⟨254⟩⟦22⟧⟨255⟩
+[Bahman Group] ⟦87⟧
+
+符号表：
+⟦14⟧ = a Midsize family
+⟦22⟧ = all previous Mazdas
+⟦30⟧ = attenzione
+⟦37⟧ = car
+⟦44⟧ = China
+⟦60⟧ = family
+⟦79⟧ = Japan
+⟦87⟧ = manufacturer
+⟦99⟧ = Mazda6
+⟦105⟧ = more than one million units
+⟦155⟧ = the Italian "attenzione
+⟦158⟧ = the Japanese car manufacturer
+⟦160⟧ = The Mazda
+⟦161⟧ = the Mazda Atenza
+⟦168⟧ = The Mazda6
+⟦192⟧ = units
+
+占位符映射：
+⟨238⟩ =  6 or 
+⟨239⟩ =  (known as 
+⟨240⟩ =  in 
+⟨241⟩ =  and 
+⟨242⟩ = , derived from 
+⟨243⟩ = 
+⟨244⟩ = ") is 
+⟨245⟩ = 
+⟨246⟩ =  produced by 
+⟨247⟩ = 
+⟨248⟩ =  
+⟨249⟩ =  Mazda since 2002.
+⟨252⟩ =  sold 
+⟨253⟩ = 
+⟨254⟩ =  faster than 
+⟨255⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Mazda's Mazda6 belongs to which country's car manufacturer?

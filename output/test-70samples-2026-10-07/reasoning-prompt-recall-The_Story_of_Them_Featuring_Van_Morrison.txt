@@ -1,0 +1,103 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Story of Them Featuring Van Morrison] ⟦212⟧⟨117⟩⟨118⟩⟨120⟩⟨119⟩⟨121⟩⟦30⟧⟦168⟧⟨122⟩⟨123⟩⟦205⟧⟨124⟩⟨125⟩⟦214⟧⟨127⟩⟦91⟧⟨126⟩⟨128⟩⟨129⟩⟨130⟩⟨131⟩⟦220⟧⟦238⟧⟨132⟩⟨133⟩⟨134⟩⟨135⟩
+[Them (band)] ⟨204⟩⟦23⟧⟨205⟩⟨206⟩⟨207⟩⟦32⟧⟨208⟩⟦200⟧⟦73⟧⟨210⟩⟦154⟧⟨211⟩⟦171⟧⟨212⟩⟨209⟩⟦166⟧⟨213⟩⟨214⟩⟨215⟩
+[Them (band)] ⟦203⟧⟦78⟧
+[The Best of Van Morrison] ⟦17⟧⟦54⟧
+[The Best of Van Morrison] ⟦45⟧
+[Van Morrison in Ireland] ⟦37⟧
+[Van Morrison in Ireland] ⟦186⟧⟦36⟧⟦36⟧ | ⟦36⟧
+[Duets: Re-working the Catalogue] ⟦28⟧
+[Van Morrison: The Concert] ⟦243⟧
+[Van Morrison: The Concert] ⟦165⟧
+[Van Morrison: The Concert] ⟦232⟧⟦232⟧
+
+符号表：
+⟦17⟧ = a compilation album
+⟦23⟧ = a Northern Irish band
+⟦28⟧ = album
+⟦30⟧ = almost every song
+⟦32⟧ = April
+⟦36⟧ = band
+⟦37⟧ = Belfast
+⟦45⟧ = career
+⟦54⟧ = compilation
+⟦73⟧ = garage
+⟦78⟧ = group
+⟦91⟧ = history
+⟦154⟧ = rock
+⟦165⟧ = singer
+⟦166⟧ = singer Van Morrison's musical career
+⟦168⟧ = song
+⟦171⟧ = standard
+⟦186⟧ = the band
+⟦200⟧ = the garage rock standard "Gloria
+⟦203⟧ = the group
+⟦205⟧ = the Northern Irish band
+⟦212⟧ = The Story
+⟦214⟧ = the two-year history
+⟦220⟧ = the vocalist
+⟦232⟧ = Van Morrison
+⟦238⟧ = vocalist
+⟦243⟧ = year
+
+占位符映射：
+⟨117⟩ =  of Them Featuring 
+⟨118⟩ =  is 
+⟨119⟩ = 
+⟨120⟩ =  
+⟨121⟩ =  that includes 
+⟨122⟩ = 
+⟨123⟩ =  recorded by 
+⟨124⟩ = 
+⟨125⟩ =  Them during 
+⟨126⟩ = 
+⟨127⟩ =  
+⟨128⟩ =  of 
+⟨129⟩ = 
+⟨130⟩ =  when it featured 
+⟨131⟩ =  as 
+⟨132⟩ = 
+⟨133⟩ =  for 
+⟨134⟩ = 
+⟨135⟩ = .
+⟨204⟩ = Them were 
+⟨205⟩ = 
+⟨206⟩ =  formed in 
+⟨207⟩ =  in 
+⟨208⟩ =  1964, most prominently known for 
+⟨209⟩ = 
+⟨210⟩ =  
+⟨211⟩ =  
+⟨212⟩ =  "Gloria" and launching 
+⟨213⟩ = 
+⟨214⟩ = 
+⟨215⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The Story of Them Featuring Van Morrison is a compilation album recorded by what Northern Irish band formed in Belfast in April 1964?

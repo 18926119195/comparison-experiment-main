@@ -1,0 +1,36 @@
+[
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "predictedAnswer": "# 路径一：从《La Heredera》的剧集属性定位主角\n\n步骤1：使用⟦102⟧⟦20⟧，提取：《La Heredera》（The Heiress）是一部墨西哥电视剧（a Mexican telenovela）。  \n步骤2：使用⟦223⟧，交叉验证：该剧由 TV Azteca 制作。  \n步骤3：使用⟦149⟧，结合问题中的“protagonist”，判断需寻找该剧的女主角。  \n步骤4：综合已知事实：2004 年 TV Azteca 版《La Heredera》的女主角是 Silvia Navarro，她是一位横跨电影、电视与戏剧的墨西哥女演员。  \n\n结论：该女演员是 **Silvia Navarro**。\n\n---\n\n# 路径二：排除 Angélica Vale 的干扰\n\n步骤1：使用⟦42⟧⟦6⟧⟦202⟧⟦149⟧，提取：Angélica Vale 于 2006 年成为《La Fea Más Bella》（The Prettiest Ugly Girl）的女主角。  \n步骤2：对比⟦102⟧⟦20⟧，确认《La Heredera》是另一部墨西哥电视剧，并非《La Fea Más Bella》。  \n步骤3：综合⟦42⟧与⟦102⟧，Angélica Vale 与《La Heredera》并无主角关联。  \n步骤4：因此，问题所指的女演员不是 Angélica Vale，而是《La Heredera》的主演 Silvia Navarro。  \n\n结论：排除 Angélica Vale，答案为 **Silvia Navarro**。\n\n---\n\n# 路径三：从“墨西哥女演员”描述与剧名交叉验证\n\n步骤1：使用⟦19⟧⟦32⟧⟦37⟧，提取：材料中存在“a Mexican actress”“actress”等描述，指向一位墨西哥女演员。  \n步骤2：使用⟦102⟧⟦149⟧，提取：《La Heredera》需要一位女主角（protagonist）。  \n步骤3：综合上述线索，并对照《La Heredera》的演员表，确认其女主角为 Silvia Navarro。  \n步骤4：Silvia Navarro 的公开资料常被描述为“Mexican actress of film, television, and theatre”，与问题描述完全吻合。  \n\n结论：该女演员是 **Silvia Navarro**。\n\n---\n\n# 路径四：通过改编关系反向确认原版主角\n\n步骤1：使用⟦102⟧⟦193⟧，提取：《La Heredera》（The Heiress）是墨西哥原版剧集。  \n步骤2：使用⟦204⟧⟦167⟧⟦38⟧⟦36⟧，提取：该剧后来被改编为美国电视剧《American Heiress》。  \n步骤3：交叉验证：作为原版《La Heredera》的墨西哥电视剧，其主角由 Silvia Navarro 担任。  \n步骤4：因此，改编关系进一步确认原版主角是 Silvia Navarro。  \n\n结论：该女演员是 **Silvia Navarro**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩⟨G⟩⟦173⟧⟦128⟧",
+    "nounCount": 318,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5500,
+      "completion_tokens": 358,
+      "total_tokens": 5858,
+      "prompt_tokens_details": {
+        "cached_tokens": 5248
+      },
+      "prompt_cache_hit_tokens": 5248,
+      "prompt_cache_miss_tokens": 252
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1287,
+      "completion_tokens": 15343,
+      "total_tokens": 16630,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 14685
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1287
+    }
+  }
+]

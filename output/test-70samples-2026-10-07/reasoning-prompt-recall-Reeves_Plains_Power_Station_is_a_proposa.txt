@@ -1,0 +1,80 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Reeves Plains Power Station] ⟦149⟧⟨73⟩⟦23⟧⟦142⟧⟨74⟩⟨75⟩⟨76⟩⟦15⟧⟨78⟩⟨79⟩⟨77⟩⟨80⟩⟦148⟧⟨81⟩⟦87⟧⟨82⟩⟦110⟧⟨83⟩⟦162⟧⟨84⟩
+[Alinta Energy] ⟨139⟩⟦31⟧⟨140⟩⟨141⟩⟦72⟧⟨142⟩⟨144⟩⟦153⟧⟨145⟩⟨143⟩⟨146⟩⟦94⟧⟨147⟩
+[Alinta Energy] ⟦27⟧⟦86⟧ | ⟦27⟧⟦86⟧
+[Bełchatów Power Station] ⟦71⟧⟦88⟧
+[Millmerran Power Station] ⟦53⟧
+[Lake Margaret Power Station] ⟦137⟧⟦166⟧
+
+符号表：
+⟦15⟧ = a gas-fired power station
+⟦23⟧ = a proposal
+⟦27⟧ = Alinta Energy
+⟦31⟧ = an Australian generation
+⟦53⟧ = company
+⟦71⟧ = electricity
+⟦72⟧ = electricity and gas retailing private company
+⟦86⟧ = gas
+⟦87⟧ = Gawler
+⟦88⟧ = generation
+⟦94⟧ = Hong Kong-based Chow Tai Fook Enterprises
+⟦110⟧ = Mallala
+⟦137⟧ = power
+⟦142⟧ = proposal
+⟦148⟧ = Reeves Plains
+⟦149⟧ = Reeves Plains Power Station
+⟦153⟧ = retailing
+⟦162⟧ = South Australia
+⟦166⟧ = station
+
+占位符映射：
+⟨73⟩ =  is 
+⟨74⟩ = 
+⟨75⟩ =  from 
+⟨76⟩ =  to build 
+⟨77⟩ = 
+⟨78⟩ = -fired 
+⟨79⟩ =  
+⟨80⟩ =  at 
+⟨81⟩ =  between 
+⟨82⟩ =  and 
+⟨83⟩ =  in 
+⟨84⟩ = .
+⟨139⟩ =  is 
+⟨140⟩ = 
+⟨141⟩ = , 
+⟨142⟩ = 
+⟨143⟩ = 
+⟨144⟩ =  
+⟨145⟩ =  private 
+⟨146⟩ =  that is owned by 
+⟨147⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Reeves Plains Power Station is a proposal from a company owned by who?

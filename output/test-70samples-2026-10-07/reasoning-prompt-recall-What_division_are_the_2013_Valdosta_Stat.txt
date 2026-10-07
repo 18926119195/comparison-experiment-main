@@ -1,0 +1,81 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Gulf South Conference] ⟨1⟩⟨2⟩⟦8⟧⟨3⟩⟨4⟩⟦97⟧⟨5⟩⟦84⟧⟨6⟩⟦170⟧⟨7⟩
+[2013 Valdosta State Blazers football team] ⟦141⟧⟨32⟩⟨31⟩⟨33⟩⟨34⟩⟦139⟧⟨36⟩⟨35⟩⟨37⟩
+[Jim Yarbrough (basketball)] ⟦121⟧
+[Jim Yarbrough (basketball)] ⟦43⟧
+[Valdosta State Blazers football] ⟨296⟩⟨297⟩⟨298⟩⟨299⟩⟨300⟩⟨301⟩
+[List of Valdosta State Blazers football seasons] ⟦61⟧ | ⟦61⟧⟦98⟧
+[List of Valdosta State Blazers football seasons] ⟦147⟧
+[Kerwin Bell] ⟦50⟧⟦50⟧⟦134⟧
+[Valdosta State Blazers] ⟦192⟧
+[Valdosta State Blazers] ⟦153⟧ | ⟦12⟧⟦87⟧⟦153⟧
+
+符号表：
+⟦8⟧ = a collegiate athletic conference
+⟦12⟧ = a member
+⟦43⟧ = conference
+⟦50⟧ = football
+⟦61⟧ = GSC
+⟦84⟧ = level
+⟦87⟧ = member
+⟦97⟧ = NCAA
+⟦98⟧ = NCAA Division II
+⟦121⟧ = season
+⟦134⟧ = team
+⟦139⟧ = the 2013 NCAA Division II football season
+⟦141⟧ = The 2013 Valdosta State Blazers football team
+⟦147⟧ = The Blazers
+⟦153⟧ = The Gulf South Conference
+⟦170⟧ = the southeastern United States
+⟦192⟧ = Valdosta State University
+
+占位符映射：
+⟨1⟩ =  (
+⟨2⟩ = ) is 
+⟨3⟩ = 
+⟨4⟩ =  affiliated at the National Collegiate Athletic Association (
+⟨5⟩ = ) Division II 
+⟨6⟩ =  which operates in 
+⟨7⟩ = .
+⟨31⟩ = 
+⟨32⟩ =  
+⟨33⟩ =  represented 
+⟨34⟩ =  during 
+⟨35⟩ = 
+⟨36⟩ =  
+⟨37⟩ = .
+⟨296⟩ =  are 
+⟨297⟩ = 
+⟨298⟩ =  of 
+⟨299⟩ =  (
+⟨300⟩ = ) in 
+⟨301⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What division are the 2013 Valdosta State Blazers football team and the Gulf South Conference a part of? 

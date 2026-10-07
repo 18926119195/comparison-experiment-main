@@ -1,0 +1,444 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = " compilation albums series
+⟦2⟧ = "1600 Penn
+⟦3⟧ = "American Idol
+⟦4⟧ = "Ballad
+⟦5⟧ = "Chewbacca
+⟦6⟧ = "Chris & Kevin's Excellent Adventure
+⟦7⟧ = "Classic Soul Ballads
+⟦8⟧ = "Liquid Dreams
+⟦9⟧ = "Liquid Tension Experiment
+⟦10⟧ = "Love Stinks
+⟦11⟧ = "Mr. Wrong
+⟦12⟧ = "MTV Party
+⟦13⟧ = "Muskrat Candlelight
+⟦14⟧ = "Muskrat Love
+⟦15⟧ = "New Zealand Idol
+⟦16⟧ = "Real Love
+⟦17⟧ = "Scarlet
+⟦18⟧ = "Tender Love
+⟦19⟧ = "The Ballad
+⟦20⟧ = "The Wedding Singer
+⟦21⟧ = "White Heat
+⟦22⟧ = "Wishbone
+⟦23⟧ = 19-year-old Victor Sulfa
+⟦24⟧ = 3/4 Time
+⟦25⟧ = 500,000 copies
+⟦26⟧ = a 1965 song
+⟦27⟧ = a concert
+⟦28⟧ = a country gospel song
+⟦29⟧ = a country gospel standard
+⟦30⟧ = a different direction
+⟦31⟧ = a different source
+⟦32⟧ = a different team
+⟦33⟧ = A few songs
+⟦34⟧ = a gold certification
+⟦35⟧ = a good time
+⟦36⟧ = a Grammy Award
+⟦37⟧ = a heartfelt tribute
+⟦38⟧ = a Japanese/Korean singer
+⟦39⟧ = a modest hit
+⟦40⟧ = a reference
+⟦41⟧ = a remark
+⟦42⟧ = a room
+⟦43⟧ = a show
+⟦44⟧ = a song
+⟦45⟧ = a total
+⟦46⟧ = a very simple love song
+⟦47⟧ = acts
+⟦48⟧ = Adam Sandler
+⟦49⟧ = Adult Contemporary
+⟦50⟧ = Adult Pop Songs
+⟦51⟧ = Alabama
+⟦52⟧ = album
+⟦53⟧ = albums
+⟦54⟧ = America
+⟦55⟧ = American entertainer Dolly Parton
+⟦56⟧ = American pop rock band
+⟦57⟧ = American R&B singer Tevin Campbell
+⟦58⟧ = American singer Kim Carnes
+⟦59⟧ = American singer-songwriter Beth Hart
+⟦60⟧ = an Adult Contemporary hit
+⟦61⟧ = an album
+⟦62⟧ = an English singer
+⟦63⟧ = an improvisational song
+⟦64⟧ = Anderson
+⟦65⟧ = artists
+⟦66⟧ = Asia
+⟦67⟧ = at least two different compilation albums
+⟦68⟧ = Babyface
+⟦69⟧ = band
+⟦70⟧ = bandmates
+⟦71⟧ = Best R&B/Soul Single - Male
+⟦72⟧ = Best Rhythm & Blues Vocal Performance - Male
+⟦73⟧ = Bill & Ted's Excellent Adventure
+⟦74⟧ = birth
+⟦75⟧ = Bonnie Charlie
+⟦76⟧ = boyband
+⟦77⟧ = British boyband Code Red
+⟦78⟧ = Canada
+⟦79⟧ = Captain
+⟦80⟧ = Carl Radle
+⟦81⟧ = certification
+⟦82⟧ = chart
+⟦83⟧ = charts
+⟦84⟧ = Chris
+⟦85⟧ = Chris Collins
+⟦86⟧ = Chris Keup/Stewart Myers
+⟦87⟧ = Chris White
+⟦88⟧ = Christopher Taylor "Chris" White
+⟦89⟧ = closing
+⟦90⟧ = compilation
+⟦91⟧ = concert
+⟦92⟧ = copies
+⟦93⟧ = country
+⟦94⟧ = country rock
+⟦95⟧ = Cover versions
+⟦96⟧ = Dancing
+⟦97⟧ = date
+⟦98⟧ = debut
+⟦99⟧ = direction
+⟦100⟧ = Disc
+⟦101⟧ = Dusty Springfield
+⟦102⟧ = Dying
+⟦103⟧ = entertainer
+⟦104⟧ = experiments
+⟦105⟧ = film
+⟦106⟧ = finals
+⟦107⟧ = folk
+⟦108⟧ = folk rock
+⟦109⟧ = foreign translations
+⟦110⟧ = front
+⟦111⟧ = genre
+⟦112⟧ = Geraldine
+⟦113⟧ = girls
+⟦114⟧ = Gold
+⟦115⟧ = gospel
+⟦116⟧ = group
+⟦117⟧ = guest
+⟦118⟧ = habit
+⟦119⟧ = half
+⟦120⟧ = Hank Williams
+⟦121⟧ = Hart
+⟦122⟧ = Hart's husband
+⟦123⟧ = Heatseekers Songs
+⟦124⟧ = her 1981 album
+⟦125⟧ = her last three albums
+⟦126⟧ = her manager
+⟦127⟧ = Himalayaz
+⟦128⟧ = hip
+⟦129⟧ = hip hop duo Luniz's song
+⟦130⟧ = his 1974 album
+⟦131⟧ = his 2005 album
+⟦132⟧ = his double platinum second release
+⟦133⟧ = his first session
+⟦134⟧ = his most popular tunes
+⟦135⟧ = his mother
+⟦136⟧ = his wife
+⟦137⟧ = hit
+⟦138⟧ = Home
+⟦139⟧ = hop
+⟦140⟧ = Hot
+⟦141⟧ = husband
+⟦142⟧ = improvisations
+⟦143⟧ = its initial release
+⟦144⟧ = jam
+⟦145⟧ = January
+⟦146⟧ = Japan Hot 100 charts
+⟦147⟧ = Jazz
+⟦148⟧ = Jazz Odyssey
+⟦149⟧ = Jim Keltner
+⟦150⟧ = Jimmy Buffett
+⟦151⟧ = Joan Jett
+⟦152⟧ = John Petrucci
+⟦153⟧ = Jordan Rudess
+⟦154⟧ = joy
+⟦155⟧ = June
+⟦156⟧ = Kevin
+⟦157⟧ = Kevin Moore
+⟦158⟧ = Kevin Shirley
+⟦159⟧ = Kevin's Bogus Journey
+⟦160⟧ = keyboards
+⟦161⟧ = Kirk Whalum
+⟦162⟧ = Kyle Kelso
+⟦163⟧ = label
+⟦164⟧ = lead
+⟦165⟧ = Leon
+⟦166⟧ = Leon Russell's Shelter label
+⟦167⟧ = Light
+⟦168⟧ = Liquid Tension Experiment
+⟦169⟧ = Liquid Tension Experiment's first album
+⟦170⟧ = Living
+⟦171⟧ = Love
+⟦172⟧ = Love Stinks
+⟦173⟧ = major success
+⟦174⟧ = manager
+⟦175⟧ = May
+⟦176⟧ = member
+⟦177⟧ = metal
+⟦178⟧ = MGM Records
+⟦179⟧ = Michael Stevens
+⟦180⟧ = Mike Portnoy
+⟦181⟧ = Mistaken Identity
+⟦182⟧ = Montgomery
+⟦183⟧ = mother
+⟦184⟧ = movie
+⟦185⟧ = Ms. Toi
+⟦186⟧ = MTV's "Party
+⟦187⟧ = music
+⟦188⟧ = musician
+⟦189⟧ = musicians
+⟦190⟧ = my joy
+⟦191⟧ = my love
+⟦192⟧ = name
+⟦193⟧ = Nikko Smith
+⟦194⟧ = not the Jeanne Pruett song
+⟦195⟧ = number
+⟦196⟧ = October
+⟦197⟧ = Oklahoma
+⟦198⟧ = One song
+⟦199⟧ = opening
+⟦200⟧ = Operation Stackola
+⟦201⟧ = Opie
+⟦202⟧ = other acts
+⟦203⟧ = Other guest musicians
+⟦204⟧ = Parachute
+⟦205⟧ = People
+⟦206⟧ = period
+⟦207⟧ = Peter Wolf
+⟦208⟧ = Petrucci's former Dream Theater bandmates
+⟦209⟧ = photographer
+⟦210⟧ = piano
+⟦211⟧ = platinum
+⟦212⟧ = Playa Hata
+⟦213⟧ = pop
+⟦214⟧ = Portnoy
+⟦215⟧ = producer
+⟦216⟧ = production
+⟦217⟧ = progressive metal group Liquid Trio Experiment
+⟦218⟧ = record
+⟦219⟧ = record producer
+⟦220⟧ = Red Rhodes
+⟦221⟧ = reference
+⟦222⟧ = reflection
+⟦223⟧ = regret
+⟦224⟧ = release
+⟦225⟧ = remark
+⟦226⟧ = result
+⟦227⟧ = Rob Mathes
+⟦228⟧ = rock
+⟦229⟧ = room
+⟦230⟧ = round
+⟦231⟧ = Russ Kunkel
+⟦232⟧ = Sanchez
+⟦233⟧ = season
+⟦234⟧ = semi
+⟦235⟧ = September
+⟦236⟧ = sequel
+⟦237⟧ = session
+⟦238⟧ = sessions
+⟦239⟧ = Seth Justman
+⟦240⟧ = several other artists
+⟦241⟧ = Sheets
+⟦242⟧ = show
+⟦243⟧ = shows
+⟦244⟧ = singer
+⟦245⟧ = single
+⟦246⟧ = sitcom
+⟦247⟧ = Sleep
+⟦248⟧ = song
+⟦249⟧ = songs
+⟦250⟧ = Songwriter
+⟦251⟧ = soundtrack
+⟦252⟧ = source
+⟦253⟧ = Spider John
+⟦254⟧ = Spinal Tap
+⟦255⟧ = Spontaneous Combustion
+⟦256⟧ = standard
+⟦257⟧ = studio
+⟦258⟧ = success
+⟦259⟧ = team
+⟦260⟧ = Tennille
+⟦261⟧ = the "Billboard
+⟦262⟧ = the "Billboard" Hot Country Singles & Tracks chart
+⟦263⟧ = the 1991 film "Bill & Ted's Bogus Journey
+⟦264⟧ = the 1996 movie
+⟦265⟧ = the 2012 sitcom
+⟦266⟧ = the Adult Alternative Songs
+⟦267⟧ = the album
+⟦268⟧ = The album version
+⟦269⟧ = The album's genre
+⟦270⟧ = the Babyface Songbook
+⟦271⟧ = the band
+⟦272⟧ = the band's photographer's habit
+⟦273⟧ = The Bellamy Brothers
+⟦274⟧ = the darker themes
+⟦275⟧ = the film
+⟦276⟧ = the first single
+⟦277⟧ = The full band version
+⟦278⟧ = the hit song
+⟦279⟧ = the Honeybee
+⟦280⟧ = the J. Geils Band's 1980 album
+⟦281⟧ = the Kennedy Center Honors
+⟦282⟧ = the lead
+⟦283⟧ = the Light
+⟦284⟧ = the movie
+⟦285⟧ = the opening theme
+⟦286⟧ = the pop charts
+⟦287⟧ = the production team
+⟦288⟧ = the Recording Industry Association
+⟦289⟧ = the reflection
+⟦290⟧ = the result
+⟦291⟧ = the RIAA
+⟦292⟧ = the same name
+⟦293⟧ = the semi
+⟦294⟧ = the sequel
+⟦295⟧ = the seventh solo studio album
+⟦296⟧ = the shows' closing song
+⟦297⟧ = the sole studio release
+⟦298⟧ = The song
+⟦299⟧ = The Song "Satin Sheets
+⟦300⟧ = The songs
+⟦301⟧ = the Soul Train Music Award
+⟦302⟧ = the soundtrack
+⟦303⟧ = the studio improvisations
+⟦304⟧ = the Texas songwriter
+⟦305⟧ = the title
+⟦306⟧ = the title track
+⟦307⟧ = the Top
+⟦308⟧ = the Top 10 round
+⟦309⟧ = the track
+⟦310⟧ = the traditional Scottish folk tune
+⟦311⟧ = The trio
+⟦312⟧ = the tune
+⟦313⟧ = The tunes
+⟦314⟧ = the US
+⟦315⟧ = the US R&B chart
+⟦316⟧ = The Whispers
+⟦317⟧ = The Zombies
+⟦318⟧ = their albums
+⟦319⟧ = their debut album
+⟦320⟧ = their member
+⟦321⟧ = their only song
+⟦322⟧ = theme
+⟦323⟧ = themes
+⟦324⟧ = these jam sessions
+⟦325⟧ = this period
+⟦326⟧ = three weeks
+⟦327⟧ = time
+⟦328⟧ = times
+⟦329⟧ = title
+⟦330⟧ = Tony Levin
+⟦331⟧ = total
+⟦332⟧ = touches
+⟦333⟧ = track
+⟦334⟧ = translations
+⟦335⟧ = tribute
+⟦336⟧ = trio
+⟦337⟧ = tune
+⟦338⟧ = tunes
+⟦339⟧ = version
+⟦340⟧ = versions
+⟦341⟧ = Volume
+⟦342⟧ = Wedding
+⟦343⟧ = weeks
+⟦344⟧ = Widespread Panic
+⟦345⟧ = wife
+⟦346⟧ = Williams
+⟦347⟧ = Williams' version
+⟦348⟧ = Willis Alan Ramsey
+⟦349⟧ = Woody Guthrie
+⟦350⟧ = year
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Spontaneous Combustion (album)] ⟦255⟧⟨1⟩⟦61⟧⟨2⟩⟦52⟧⟨3⟩⟦217⟧⟨4⟩⟦177⟧⟨5⟩⟦116⟧⟨6⟩⟦290⟧⟨7⟩⟦226⟧⟨8⟩⟦303⟧⟨9⟩⟦257⟧⟨10⟩⟦142⟧⟨11⟩⟦168⟧⟨12⟩⟦152⟧⟨13⟩⟦136⟧⟨14⟩⟦345⟧⟨15⟩⟦74⟧⟨16⟩⟦74⟧⟨17⟩
+[Spontaneous Combustion (album)] ⟦311⟧⟨18⟩⟦336⟧⟨19⟩⟦180⟧⟨20⟩⟦330⟧⟨21⟩⟦153⟧⟨22⟩⟦187⟧⟨23⟩⟦187⟧⟨24⟩⟦325⟧⟨25⟩⟦206⟧⟨26⟩
+[Spontaneous Combustion (album)] ⟨27⟩⟦196⟧⟨28⟩
+[Spontaneous Combustion (album)] ⟦33⟧⟨29⟩⟦249⟧⟨30⟩⟦9⟧⟨31⟩⟦324⟧⟨32⟩⟦144⟧⟨33⟩⟦238⟧⟨34⟩⟦5⟧⟨35⟩⟦8⟧⟨36⟩
+[Spontaneous Combustion (album)] ⟦298⟧⟨37⟩⟦248⟧⟨38⟩⟦84⟧⟨39⟩⟦159⟧⟨40⟩⟦40⟧⟨41⟩⟦221⟧⟨42⟩⟦214⟧⟨43⟩⟦208⟧⟨44⟩⟦70⟧⟨45⟩⟦85⟧⟨46⟩⟦157⟧⟨47⟩⟦309⟧⟨48⟩⟦333⟧⟨49⟩⟦169⟧⟨50⟩⟦52⟧⟨51⟩⟦6⟧⟨52⟩⟦40⟧⟨53⟩⟦221⟧⟨54⟩⟦272⟧⟨55⟩⟦69⟧⟨56⟩⟦209⟧⟨57⟩⟦118⟧⟨58⟩⟦180⟧⟨59⟩⟦330⟧⟨60⟩⟦84⟧⟨61⟩⟦156⟧⟨62⟩⟦328⟧⟨63⟩
+[Spontaneous Combustion (album)] ⟨64⟩⟦40⟧⟨65⟩⟦221⟧⟨66⟩⟦263⟧⟨67⟩⟦105⟧⟨68⟩⟦294⟧⟨69⟩⟦236⟧⟨70⟩⟦73⟧⟨71⟩
+[Spontaneous Combustion (album)] ⟦298⟧⟨72⟩⟦248⟧⟨73⟩⟦147⟧⟨74⟩⟦148⟧⟨75⟩⟦40⟧⟨76⟩⟦221⟧⟨77⟩⟦284⟧⟨78⟩⟦184⟧⟨79⟩⟦254⟧⟨80⟩⟦104⟧⟨81⟩⟦63⟧⟨82⟩⟦248⟧⟨83⟩⟦292⟧⟨84⟩⟦192⟧⟨85⟩
+[She Is Love (Parachute song)] ⟨86⟩⟦171⟧⟨87⟩⟦98⟧⟨88⟩⟦56⟧⟨89⟩⟦213⟧⟨90⟩⟦228⟧⟨91⟩⟦69⟧⟨92⟩⟦204⟧⟨93⟩⟦282⟧⟨94⟩⟦164⟧⟨95⟩⟦319⟧⟨96⟩⟦98⟧⟨97⟩⟦52⟧⟨98⟩⟦247⟧⟨99⟩⟦247⟧⟨100⟩
+[She Is Love (Parachute song)] ⟨101⟩⟦175⟧⟨102⟩
+[She Is Love (Parachute song)] ⟨103⟩⟦321⟧⟨104⟩⟦248⟧⟨105⟩⟦261⟧⟨106⟩⟦140⟧⟨107⟩⟦97⟧⟨108⟩⟦97⟧⟨109⟩
+[She Is Love (Parachute song)] ⟦298⟧⟨110⟩⟦248⟧⟨111⟩⟦97⟧⟨112⟩⟦97⟧⟨113⟩⟦266⟧⟨114⟩⟦49⟧⟨115⟩⟦50⟧⟨116⟩⟦249⟧⟨117⟩⟦123⟧⟨118⟩⟦146⟧⟨119⟩⟦83⟧⟨120⟩⟦114⟧⟨121⟩⟦291⟧⟨122⟩
+[She Is Love (Parachute song)] ⟦268⟧⟨123⟩⟦52⟧⟨124⟩⟦339⟧⟨125⟩⟦86⟧⟨126⟩
+[She Is Love (Parachute song)] ⟦277⟧⟨127⟩⟦69⟧⟨128⟩⟦339⟧⟨129⟩⟦162⟧⟨130⟩
+[She Is Love (Parachute song)] ⟦250⟧⟨131⟩⟦64⟧⟨132⟩⟦46⟧⟨133⟩⟦171⟧⟨134⟩⟦248⟧⟨135⟩⟦110⟧⟨136⟩⟦110⟧⟨137⟩⟦42⟧⟨138⟩⟦229⟧⟨139⟩⟦113⟧⟨140⟩⟦113⟧⟨141⟩⟦43⟧⟨142⟩⟦242⟧⟨143⟩
+[Don't Call It Love] ⟨144⟩⟦171⟧⟨145⟩⟦171⟧⟨146⟩⟦44⟧⟨147⟩⟦248⟧⟨148⟩⟦58⟧⟨149⟩⟦244⟧⟨150⟩⟦124⟧⟨151⟩⟦52⟧⟨152⟩⟦181⟧⟨153⟩
+[Don't Call It Love] ⟨154⟩⟦350⟧⟨155⟩⟦79⟧⟨156⟩⟦260⟧⟨157⟩⟦101⟧⟨158⟩⟦318⟧⟨159⟩⟦53⟧⟨160⟩⟦96⟧⟨161⟩⟦96⟧⟨162⟩⟦21⟧⟨163⟩
+[Don't Call It Love] ⟨164⟩⟦298⟧⟨165⟩⟦248⟧⟨166⟩⟦55⟧⟨167⟩⟦103⟧⟨168⟩
+[Don't Call It Love] ⟨169⟩⟦145⟧⟨170⟩⟦276⟧⟨171⟩⟦245⟧⟨172⟩⟦267⟧⟨173⟩⟦52⟧⟨174⟩⟦16⟧⟨175⟩
+[Don't Call It Love] ⟦298⟧⟨176⟩⟦248⟧⟨177⟩⟦195⟧⟨178⟩⟦195⟧⟨179⟩⟦262⟧⟨180⟩⟦82⟧⟨181⟩
+[Don't Call It Love] ⟨182⟩⟦171⟧⟨183⟩⟦171⟧⟨184⟩⟦60⟧⟨185⟩⟦137⟧⟨186⟩⟦195⟧⟨187⟩⟦195⟧⟨188⟩⟦314⟧⟨189⟩⟦195⟧⟨190⟩⟦195⟧⟨191⟩⟦78⟧⟨192⟩
+[Love Stinks (song)] ⟨193⟩⟦171⟧⟨194⟩⟦172⟧⟨195⟩⟦44⟧⟨196⟩⟦248⟧⟨197⟩⟦207⟧⟨198⟩⟦239⟧⟨199⟩⟦306⟧⟨200⟩⟦329⟧⟨201⟩⟦333⟧⟨202⟩⟦280⟧⟨203⟩⟦52⟧⟨204⟩⟦172⟧⟨205⟩
+[Love Stinks (song)] ⟦298⟧⟨206⟩⟦248⟧⟨207⟩⟦314⟧⟨208⟩⟦326⟧⟨209⟩⟦343⟧⟨210⟩⟦307⟧⟨211⟩
+[Love Stinks (song)] ⟨212⟩⟦78⟧⟨213⟩⟦298⟧⟨214⟩⟦248⟧⟨215⟩⟦195⟧⟨216⟩⟦195⟧⟨217⟩
+[Love Stinks (song)] ⟦151⟧⟨218⟩⟦298⟧⟨219⟩⟦248⟧⟨220⟩⟦302⟧⟨221⟩⟦251⟧⟨222⟩⟦264⟧⟨223⟩⟦184⟧⟨224⟩⟦11⟧⟨225⟩
+[Love Stinks (song)] ⟦298⟧⟨226⟩⟦248⟧⟨227⟩⟦275⟧⟨228⟩⟦105⟧⟨229⟩⟦201⟧⟨230⟩
+[Love Stinks (song)] ⟨231⟩⟦48⟧⟨232⟩⟦284⟧⟨233⟩⟦184⟧⟨234⟩⟦20⟧⟨235⟩⟦342⟧⟨236⟩⟦244⟧⟨237⟩⟦127⟧⟨238⟩⟦185⟧⟨239⟩⟦284⟧⟨240⟩⟦184⟧⟨241⟩⟦10⟧⟨242⟩
+[I Love You (The Zombies song)] ⟨243⟩⟦26⟧⟨244⟩⟦248⟧⟨245⟩⟦317⟧⟨246⟩⟦320⟧⟨247⟩⟦176⟧⟨248⟩⟦87⟧⟨249⟩⟦205⟧⟨250⟩⟦205⟧⟨251⟩
+[I Love You (The Zombies song)] ⟨252⟩⟦240⟧⟨253⟩⟦65⟧⟨254⟩⟦109⟧⟨255⟩⟦334⟧⟨256⟩
+[Better Than Home] ⟨257⟩⟦138⟧⟨258⟩⟦295⟧⟨259⟩⟦257⟧⟨260⟩⟦52⟧⟨261⟩⟦59⟧⟨262⟩⟦244⟧⟨263⟩⟦250⟧⟨264⟩
+[Better Than Home] ⟦122⟧⟨265⟩⟦141⟧⟨266⟩⟦126⟧⟨267⟩⟦174⟧⟨268⟩⟦287⟧⟨269⟩⟦216⟧⟨270⟩⟦259⟧⟨271⟩⟦227⟧⟨272⟩⟦179⟧⟨273⟩⟦281⟧⟨274⟩
+[Better Than Home] ⟦121⟧⟨275⟩⟦158⟧⟨276⟩⟦125⟧⟨277⟩⟦53⟧⟨278⟩⟦32⟧⟨279⟩⟦259⟧⟨280⟩⟦30⟧⟨281⟩⟦99⟧⟨282⟩
+[Better Than Home] ⟦287⟧⟨283⟩⟦216⟧⟨284⟩⟦259⟧⟨285⟩⟦121⟧⟨286⟩⟦274⟧⟨287⟩⟦323⟧⟨288⟩⟦190⟧⟨289⟩⟦154⟧⟨290⟩⟦191⟧⟨291⟩⟦171⟧⟨292⟩
+[Better Than Home] ⟦121⟧⟨293⟩⟦249⟧⟨294⟩⟦249⟧⟨295⟩⟦31⟧⟨296⟩⟦252⟧⟨297⟩⟦35⟧⟨298⟩⟦327⟧⟨299⟩
+[Better Than Home] ⟦198⟧⟨300⟩⟦248⟧⟨301⟩⟦267⟧⟨302⟩⟦52⟧⟨303⟩⟦350⟧⟨304⟩⟦119⟧⟨305⟩
+[I Saw the Light (Hank Williams song)] ⟨306⟩⟦283⟧⟨307⟩⟦167⟧⟨308⟩⟦28⟧⟨309⟩⟦93⟧⟨310⟩⟦115⟧⟨311⟩⟦248⟧⟨312⟩⟦120⟧⟨313⟩
+[I Saw the Light (Hank Williams song)] ⟦346⟧⟨314⟩⟦298⟧⟨315⟩⟦248⟧⟨316⟩⟦27⟧⟨317⟩⟦91⟧⟨318⟩⟦41⟧⟨319⟩⟦225⟧⟨320⟩⟦135⟧⟨321⟩⟦183⟧⟨322⟩⟦182⟧⟨323⟩⟦51⟧⟨324⟩
+[I Saw the Light (Hank Williams song)] ⟨325⟩⟦298⟧⟨326⟩⟦248⟧⟨327⟩⟦133⟧⟨328⟩⟦237⟧⟨329⟩⟦178⟧⟨330⟩⟦235⟧⟨331⟩
+[I Saw the Light (Hank Williams song)] ⟦298⟧⟨332⟩⟦248⟧⟨333⟩⟦312⟧⟨334⟩⟦337⟧⟨335⟩⟦310⟧⟨336⟩⟦107⟧⟨337⟩⟦337⟧⟨338⟩⟦75⟧⟨339⟩
+[I Saw the Light (Hank Williams song)] ⟦298⟧⟨340⟩⟦248⟧⟨341⟩⟦296⟧⟨342⟩⟦243⟧⟨343⟩⟦89⟧⟨344⟩⟦248⟧⟨345⟩⟦346⟧⟨346⟩⟦134⟧⟨347⟩⟦338⟧⟨348⟩
+[I Saw the Light (Hank Williams song)] ⟦347⟧⟨349⟩⟦339⟧⟨350⟩⟦173⟧⟨351⟩⟦258⟧⟨352⟩⟦143⟧⟨353⟩⟦224⟧⟨354⟩
+[I Saw the Light (Hank Williams song)] ⟦298⟧⟨355⟩⟦248⟧⟨356⟩⟦202⟧⟨357⟩⟦47⟧⟨358⟩⟦327⟧⟨359⟩⟦327⟧⟨360⟩⟦29⟧⟨361⟩⟦93⟧⟨362⟩⟦115⟧⟨363⟩⟦256⟧⟨364⟩
+[Can We Talk] ⟨365⟩⟦44⟧⟨366⟩⟦248⟧⟨367⟩⟦57⟧⟨368⟩⟦244⟧⟨369⟩⟦68⟧⟨370⟩
+[Can We Talk] ⟨371⟩⟦132⟧⟨372⟩⟦211⟧⟨373⟩⟦224⟧⟨374⟩
+[Can We Talk] ⟦298⟧⟨375⟩⟦248⟧⟨376⟩⟦128⟧⟨377⟩⟦129⟧⟨378⟩⟦139⟧⟨379⟩⟦248⟧⟨380⟩⟦212⟧⟨381⟩⟦319⟧⟨382⟩⟦52⟧⟨383⟩⟦200⟧⟨384⟩
+[Can We Talk] ⟦298⟧⟨385⟩⟦248⟧⟨386⟩⟦23⟧⟨387⟩⟦350⟧⟨388⟩⟦293⟧⟨389⟩⟦234⟧⟨390⟩⟦106⟧⟨391⟩⟦106⟧⟨392⟩⟦233⟧⟨393⟩⟦233⟧⟨394⟩⟦15⟧⟨395⟩⟦193⟧⟨396⟩⟦308⟧⟨397⟩⟦230⟧⟨398⟩⟦233⟧⟨399⟩⟦233⟧⟨400⟩⟦3⟧⟨401⟩
+[Can We Talk] ⟦298⟧⟨402⟩⟦248⟧⟨403⟩⟦67⟧⟨404⟩⟦90⟧⟨405⟩⟦53⟧⟨406⟩⟦100⟧⟨407⟩⟦7⟧⟨408⟩⟦18⟧⟨409⟩⟦341⟧⟨410⟩⟦341⟧⟨411⟩⟦186⟧⟨412⟩⟦1⟧⟨413⟩⟦90⟧⟨414⟩⟦53⟧⟨415⟩⟦12⟧⟨416⟩
+[Can We Talk] ⟦298⟧⟨417⟩⟦248⟧⟨418⟩⟦286⟧⟨419⟩⟦213⟧⟨420⟩⟦83⟧⟨421⟩⟦195⟧⟨422⟩⟦195⟧⟨423⟩⟦261⟧⟨424⟩⟦140⟧⟨425⟩⟦45⟧⟨426⟩⟦331⟧⟨427⟩⟦326⟧⟨428⟩⟦343⟧⟨429⟩⟦195⟧⟨430⟩⟦195⟧⟨431⟩⟦315⟧⟨432⟩⟦82⟧⟨433⟩
+[Can We Talk] ⟨434⟩⟦25⟧⟨435⟩⟦92⟧⟨436⟩⟦34⟧⟨437⟩⟦114⟧⟨438⟩⟦81⟧⟨439⟩⟦288⟧⟨440⟩⟦54⟧⟨441⟩
+[Can We Talk] ⟦298⟧⟨442⟩⟦248⟧⟨443⟩⟦36⟧⟨444⟩⟦72⟧⟨445⟩
+[Can We Talk] ⟨446⟩⟦301⟧⟨447⟩⟦71⟧⟨448⟩
+[Can We Talk] ⟦95⟧⟨449⟩⟦340⟧⟨450⟩⟦278⟧⟨451⟩⟦248⟧⟨452⟩⟦316⟧⟨453⟩⟦232⟧⟨454⟩⟦161⟧⟨455⟩⟦131⟧⟨456⟩⟦52⟧⟨457⟩⟦161⟧⟨458⟩⟦270⟧⟨459⟩
+[Can We Talk] ⟦298⟧⟨460⟩⟦248⟧⟨461⟩⟦77⟧⟨462⟩⟦76⟧⟨463⟩⟦319⟧⟨464⟩⟦52⟧⟨465⟩⟦17⟧⟨466⟩⟦52⟧⟨467⟩⟦39⟧⟨468⟩⟦137⟧⟨469⟩⟦66⟧⟨470⟩
+[Can We Talk] ⟦298⟧⟨471⟩⟦248⟧⟨472⟩⟦38⟧⟨473⟩⟦244⟧⟨474⟩⟦155⟧⟨475⟩
+[Can We Talk] ⟦298⟧⟨476⟩⟦248⟧⟨477⟩⟦285⟧⟨478⟩⟦199⟧⟨479⟩⟦322⟧⟨480⟩⟦265⟧⟨481⟩⟦246⟧⟨482⟩⟦2⟧⟨483⟩
+[Chris White (musician)] ⟦88⟧⟨484⟩⟦62⟧⟨485⟩⟦244⟧⟨486⟩⟦250⟧⟨487⟩⟦250⟧⟨488⟩⟦188⟧⟨489⟩⟦188⟧⟨490⟩⟦218⟧⟨491⟩⟦219⟧⟨492⟩⟦215⟧⟨493⟩
+[Willis Alan Ramsey (album)] ⟦348⟧⟨494⟩⟦297⟧⟨495⟩⟦257⟧⟨496⟩⟦224⟧⟨497⟩⟦304⟧⟨498⟩⟦250⟧⟨499⟩⟦348⟧⟨500⟩
+[Willis Alan Ramsey (album)] ⟦269⟧⟨501⟩⟦52⟧⟨502⟩⟦111⟧⟨503⟩⟦332⟧⟨504⟩⟦332⟧⟨505⟩⟦93⟧⟨506⟩⟦93⟧⟨507⟩⟦93⟧⟨508⟩⟦94⟧⟨509⟩⟦228⟧⟨510⟩⟦107⟧⟨511⟩⟦107⟧⟨512⟩⟦107⟧⟨513⟩⟦108⟧⟨514⟩⟦228⟧⟨515⟩
+[Willis Alan Ramsey (album)] ⟦313⟧⟨516⟩⟦338⟧⟨517⟩⟦289⟧⟨518⟩⟦222⟧⟨519⟩⟦223⟧⟨520⟩⟦223⟧⟨521⟩⟦19⟧⟨522⟩⟦253⟧⟨523⟩⟦37⟧⟨524⟩⟦335⟧⟨525⟩⟦349⟧⟨526⟩⟦197⟧⟨527⟩
+[Willis Alan Ramsey (album)] ⟨528⟩⟦166⟧⟨529⟩⟦163⟧⟨530⟩⟦165⟧⟨531⟩⟦210⟧⟨532⟩⟦210⟧⟨533⟩⟦160⟧⟨534⟩⟦160⟧⟨535⟩
+[Willis Alan Ramsey (album)] ⟦203⟧⟨536⟩⟦117⟧⟨537⟩⟦189⟧⟨538⟩⟦80⟧⟨539⟩⟦149⟧⟨540⟩⟦220⟧⟨541⟩⟦231⟧⟨542⟩
+[Willis Alan Ramsey (album)] ⟦298⟧⟨543⟩⟦248⟧⟨544⟩⟦13⟧⟨545⟩⟦271⟧⟨546⟩⟦69⟧⟨547⟩⟦54⟧⟨548⟩⟦79⟧⟨549⟩⟦260⟧⟨550⟩⟦305⟧⟨551⟩⟦329⟧⟨552⟩⟦14⟧⟨553⟩
+[Willis Alan Ramsey (album)] ⟦4⟧⟨554⟩⟦253⟧⟨555⟩⟦150⟧⟨556⟩⟦130⟧⟨557⟩⟦52⟧⟨558⟩⟦170⟧⟨559⟩⟦102⟧⟨560⟩⟦24⟧⟨561⟩
+[Willis Alan Ramsey (album)] ⟦299⟧⟨562⟩⟦241⟧⟨563⟩⟦194⟧⟨564⟩⟦248⟧⟨565⟩⟦292⟧⟨566⟩⟦192⟧⟨567⟩⟦273⟧⟨568⟩
+[Willis Alan Ramsey (album)] ⟦300⟧⟨569⟩⟦249⟧⟨570⟩⟦112⟧⟨571⟩⟦279⟧⟨572⟩⟦22⟧⟨573⟩⟦328⟧⟨574⟩⟦344⟧
+
+[user]
+
+问题：
+Who covered the song I Love You by Chris Write?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

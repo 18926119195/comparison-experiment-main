@@ -1,0 +1,89 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Lake Winnipesaukee] ⟨1⟩⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦268⟧⟨6⟩⟨7⟩
+[Lake Kanasatka] ⟦439⟧ | ⟦223⟧⟨670⟩⟦24⟧⟨672⟩⟨671⟩⟨673⟩⟦120⟧⟨674⟩⟦439⟧⟨675⟩⟦123⟧⟨676⟩⟦557⟧⟨677⟩⟨678⟩⟨679⟩⟦259⟧⟨680⟩
+[Lake Kanasatka] ⟦225⟧ | ⟨688⟩⟨689⟩⟦195⟧⟨690⟩⟨691⟩⟨692⟩⟦225⟧⟨693⟩
+[List of lakes in Wisconsin] ⟦76⟧
+[Tustumena Lake] ⟦513⟧⟦545⟧
+[Tustumena Lake] ⟦440⟧
+[Tustumena Lake] ⟦438⟧
+[Nohokomeen Glacier] ⟦517⟧⟦366⟧
+[Nohokomeen Glacier] ⟦221⟧ | ⟦221⟧ | ⟦221⟧
+[Lake Beseck] ⟦252⟧
+[Stony Man Mountain] ⟦170⟧
+
+符号表：
+⟦24⟧ = a 371 acre lake
+⟦76⟧ = acre
+⟦120⟧ = Carroll County
+⟦123⟧ = central New Hampshire
+⟦170⟧ = feet
+⟦195⟧ = half
+⟦221⟧ = lake
+⟦223⟧ = Lake Kanasatka
+⟦225⟧ = Lake Winnipesaukee
+⟦252⟧ = mile
+⟦259⟧ = Moultonborough
+⟦268⟧ = New Hampshire
+⟦366⟧ = state
+⟦438⟧ = the lake
+⟦439⟧ = the Lakes Region
+⟦440⟧ = the largest lake
+⟦513⟧ = the town
+⟦517⟧ = the U.S. state
+⟦545⟧ = town
+⟦557⟧ = United States
+
+占位符映射：
+⟨1⟩ =  ( ) is 
+⟨2⟩ = 
+⟨3⟩ =  in 
+⟨4⟩ = 
+⟨5⟩ =  of 
+⟨6⟩ = , located in 
+⟨7⟩ = .
+⟨670⟩ =  is 
+⟨671⟩ = 
+⟨672⟩ =  
+⟨673⟩ =  located in 
+⟨674⟩ =  in 
+⟨675⟩ =  of 
+⟨676⟩ = , 
+⟨677⟩ = , in 
+⟨678⟩ = 
+⟨679⟩ =  of 
+⟨680⟩ = .
+⟨688⟩ = 
+⟨689⟩ =  is located one-
+⟨690⟩ =  
+⟨691⟩ =  north of and nine vertical 
+⟨692⟩ =  higher than 
+⟨693⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The largest lake in New Hampshire sits how many vertical feet lower than Lake Kanasatka?

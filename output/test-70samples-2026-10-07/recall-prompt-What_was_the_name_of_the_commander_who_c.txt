@@ -1,0 +1,360 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , "Lynx
+⟦2⟧ = "Blackoal
+⟦3⟧ = "Dauphine
+⟦4⟧ = "Fidèle
+⟦5⟧ = "Hampton Court
+⟦6⟧ = "Lynx
+⟦7⟧ = "Royal Oak
+⟦8⟧ = "Vénus
+⟦9⟧ = ("contre-torpilleur
+⟦10⟧ = 12 feet
+⟦11⟧ = 18 November
+⟦12⟧ = 2 May
+⟦13⟧ = 21–22 December
+⟦14⟧ = 27 November
+⟦15⟧ = 29 June
+⟦16⟧ = 3 ships
+⟦17⟧ = 6 February
+⟦18⟧ = 7 French ships
+⟦19⟧ = 7 October
+⟦20⟧ = 9 am
+⟦21⟧ = a "Chacal"-class destroyer
+⟦22⟧ = a brief fight
+⟦23⟧ = a British 74-gun ship
+⟦24⟧ = A British squadron
+⟦25⟧ = a close-fought action
+⟦26⟧ = a corvette
+⟦27⟧ = a force
+⟦28⟧ = a French convoy
+⟦29⟧ = a French squadron
+⟦30⟧ = A frigate
+⟦31⟧ = a large British convoy
+⟦32⟧ = a naval action
+⟦33⟧ = a naval battle
+⟦34⟧ = a naval engagement
+⟦35⟧ = a patrolling British frigate
+⟦36⟧ = a sea battle
+⟦37⟧ = a sinking condition
+⟦38⟧ = a small squadron
+⟦39⟧ = a training ship
+⟦40⟧ = a winter hurricane
+⟦41⟧ = action
+⟦42⟧ = all the HEIC ships
+⟦43⟧ = all three French ships
+⟦44⟧ = am
+⟦45⟧ = battle
+⟦46⟧ = Beachy Head
+⟦47⟧ = Bishops Court
+⟦48⟧ = blockade
+⟦49⟧ = Britain
+⟦50⟧ = British and French warships
+⟦51⟧ = Cadiz
+⟦52⟧ = campaign
+⟦53⟧ = captain
+⟦54⟧ = casualties
+⟦55⟧ = centuries
+⟦56⟧ = Claude de Forbin
+⟦57⟧ = Claude Forbin's 60-gun "Mars
+⟦58⟧ = co
+⟦59⟧ = coast
+⟦60⟧ = colonial
+⟦61⟧ = commander
+⟦62⟧ = Commodore Baron Wylde
+⟦63⟧ = Commodore Thomas Taylor
+⟦64⟧ = Commodore William Cornwallis
+⟦65⟧ = condition
+⟦66⟧ = conflict
+⟦67⟧ = contre
+⟦68⟧ = Contre-Admiral Corentin Urbain Leissègues
+⟦69⟧ = convoy
+⟦70⟧ = convoy escort duties
+⟦71⟧ = corvette
+⟦72⟧ = damage
+⟦73⟧ = day
+⟦74⟧ = De Vries
+⟦75⟧ = destroyer
+⟦76⟧ = disaster
+⟦77⟧ = division
+⟦78⟧ = Downs
+⟦79⟧ = Duckworth
+⟦80⟧ = Dungeness
+⟦81⟧ = duties
+⟦82⟧ = engagement
+⟦83⟧ = escort
+⟦84⟧ = escort vessels
+⟦85⟧ = failure
+⟦86⟧ = famed commander François Thurot
+⟦87⟧ = feet
+⟦88⟧ = fight
+⟦89⟧ = five ships
+⟦90⟧ = flagship
+⟦91⟧ = fleet
+⟦92⟧ = force
+⟦93⟧ = France
+⟦94⟧ = French casualties
+⟦95⟧ = French occupation
+⟦96⟧ = French ships
+⟦97⟧ = French support
+⟦98⟧ = frigate
+⟦99⟧ = frigates
+⟦100⟧ = Gibraltar
+⟦101⟧ = Guadeloupe
+⟦102⟧ = gun
+⟦103⟧ = Hamelin's raiding campaign
+⟦104⟧ = head
+⟦105⟧ = heart
+⟦106⟧ = her captain
+⟦107⟧ = her wells
+⟦108⟧ = Her wreck
+⟦109⟧ = Hidde de Vries
+⟦110⟧ = his flagship "Vénus
+⟦111⟧ = his leading ships
+⟦112⟧ = his prizes
+⟦113⟧ = his ships
+⟦114⟧ = his squadron
+⟦115⟧ = his superior numbers
+⟦116⟧ = HMS
+⟦117⟧ = HMS "Grafton
+⟦118⟧ = hours
+⟦119⟧ = hurricane
+⟦120⟧ = Ile de France
+⟦121⟧ = Ireland
+⟦122⟧ = island
+⟦123⟧ = its prizes
+⟦124⟧ = Jean Bart
+⟦125⟧ = Joshua Rowley
+⟦126⟧ = July
+⟦127⟧ = just over two hours
+⟦128⟧ = leader
+⟦129⟧ = Leissègues
+⟦130⟧ = Leissègues' flagship
+⟦131⟧ = line
+⟦132⟧ = Mahé
+⟦133⟧ = Man
+⟦134⟧ = Mangalore
+⟦135⟧ = men
+⟦136⟧ = merchant
+⟦137⟧ = merchantmen
+⟦138⟧ = Mers-el-Kébir
+⟦139⟧ = miles
+⟦140⟧ = month
+⟦141⟧ = more than 1,500 men
+⟦142⟧ = Mysore
+⟦143⟧ = nearly 350 casualties
+⟦144⟧ = November
+⟦145⟧ = number
+⟦146⟧ = numbers
+⟦147⟧ = occupation
+⟦148⟧ = one merchantmen
+⟦149⟧ = operation
+⟦150⟧ = patrols
+⟦151⟧ = place
+⟦152⟧ = port
+⟦153⟧ = power
+⟦154⟧ = prisoners
+⟦155⟧ = prizes
+⟦156⟧ = Rear-Admiral Joseph de Richery
+⟦157⟧ = reserve
+⟦158⟧ = resistance
+⟦159⟧ = roles
+⟦160⟧ = Royal Navy patrols
+⟦161⟧ = San Domingo
+⟦162⟧ = Santo Domingo
+⟦163⟧ = school
+⟦164⟧ = sea
+⟦165⟧ = September
+⟦166⟧ = seven ships
+⟦167⟧ = several frigates
+⟦168⟧ = several types
+⟦169⟧ = ship
+⟦170⟧ = ships
+⟦171⟧ = size
+⟦172⟧ = sizes
+⟦173⟧ = speed
+⟦174⟧ = spirited resistance
+⟦175⟧ = squadron
+⟦176⟧ = start
+⟦177⟧ = storm
+⟦178⟧ = stragglers
+⟦179⟧ = submission
+⟦180⟧ = support
+⟦181⟧ = Tellicherry
+⟦182⟧ = term
+⟦183⟧ = Texel
+⟦184⟧ = The "Chacal"s
+⟦185⟧ = the "Grifon
+⟦186⟧ = the 120-gun "Impérial
+⟦187⟧ = the 8-ship escorting force
+⟦188⟧ = The Action
+⟦189⟧ = the Anglo-French War
+⟦190⟧ = the Atlantic
+⟦191⟧ = The Battle
+⟦192⟧ = the British
+⟦193⟧ = the British blockade
+⟦194⟧ = The British convoy
+⟦195⟧ = the British East India Company
+⟦196⟧ = the British port
+⟦197⟧ = the British prisoners
+⟦198⟧ = the Captain Edward Acton
+⟦199⟧ = the captured Indiamen
+⟦200⟧ = the Caribbean
+⟦201⟧ = the co
+⟦202⟧ = the coast
+⟦203⟧ = the conflict
+⟦204⟧ = The convoy
+⟦205⟧ = The Defeat
+⟦206⟧ = the Downs
+⟦207⟧ = the Dutch
+⟦208⟧ = the engagement
+⟦209⟧ = the failure
+⟦210⟧ = the French
+⟦211⟧ = The French destroyer
+⟦212⟧ = The French force
+⟦213⟧ = the French frigates
+⟦214⟧ = the French island
+⟦215⟧ = the French line
+⟦216⟧ = the French Navy
+⟦217⟧ = the French Revolutionary Wars
+⟦218⟧ = the French ships
+⟦219⟧ = the French ships "Blackoal
+⟦220⟧ = the French stragglers
+⟦221⟧ = the Germans
+⟦222⟧ = the head
+⟦223⟧ = the heart
+⟦224⟧ = the Indian port
+⟦225⟧ = the Irish sea
+⟦226⟧ = the Isle
+⟦227⟧ = the Kingdom
+⟦228⟧ = the larger, faster French warships
+⟦229⟧ = the largest British merchant ship
+⟦230⟧ = the last British escort
+⟦231⟧ = the last few centuries
+⟦232⟧ = the last fleet engagement
+⟦233⟧ = the line
+⟦234⟧ = the Mysorean port
+⟦235⟧ = the Napoleonic Wars
+⟦236⟧ = the next two years
+⟦237⟧ = the Nine Years' War
+⟦238⟧ = the number
+⟦239⟧ = The only French ships
+⟦240⟧ = the other Indiamen
+⟦241⟧ = the Royal Navy
+⟦242⟧ = the same storm
+⟦243⟧ = the San Domingo coast
+⟦244⟧ = the Seven Years' War
+⟦245⟧ = the ship
+⟦246⟧ = the size
+⟦247⟧ = the slower eastern division
+⟦248⟧ = the Southern coast
+⟦249⟧ = the Spanish colonial Captaincy General
+⟦250⟧ = the Spanish Succession
+⟦251⟧ = the squadron
+⟦252⟧ = the start
+⟦253⟧ = the term
+⟦254⟧ = the Third Anglo-Mysore War
+⟦255⟧ = the time
+⟦256⟧ = the torpedo school
+⟦257⟧ = the voyage
+⟦258⟧ = the War
+⟦259⟧ = their leader
+⟦260⟧ = thirty-one merchant vessels
+⟦261⟧ = three British ships
+⟦262⟧ = three French Navy frigates
+⟦263⟧ = three French ships
+⟦264⟧ = three Royal Navy ships
+⟦265⟧ = three ships
+⟦266⟧ = Thurot
+⟦267⟧ = Thurot's force
+⟦268⟧ = time
+⟦269⟧ = torpedo
+⟦270⟧ = torpilleur
+⟦271⟧ = Toulon
+⟦272⟧ = training
+⟦273⟧ = two frigates
+⟦274⟧ = types
+⟦275⟧ = various sizes
+⟦276⟧ = vessels
+⟦277⟧ = Vice-Admiral Sir John Thomas Duckworth
+⟦278⟧ = victory
+⟦279⟧ = voyage
+⟦280⟧ = war
+⟦281⟧ = warship
+⟦282⟧ = warships
+⟦283⟧ = water
+⟦284⟧ = wells
+⟦285⟧ = westwards
+⟦286⟧ = Windham
+⟦287⟧ = winter
+⟦288⟧ = World War II
+⟦289⟧ = wounds
+⟦290⟧ = wreck
+⟦291⟧ = year
+⟦292⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Action of 2 May 1707] ⟦188⟧⟨1⟩⟦12⟧⟨2⟩⟦46⟧⟨3⟩⟦33⟧⟨4⟩⟦45⟧⟨5⟩⟦258⟧⟨6⟩⟦250⟧⟨7⟩⟦29⟧⟨8⟩⟦175⟧⟨9⟩⟦56⟧⟨10⟩⟦31⟧⟨11⟩⟦69⟧⟨12⟩⟦265⟧⟨13⟩⟦170⟧⟨14⟩⟦233⟧⟨15⟩⟦131⟧⟨16⟩⟦62⟧⟨17⟩
+[Action of 2 May 1707] ⟦188⟧⟨18⟩⟦41⟧⟨19⟩⟦263⟧⟨20⟩⟦170⟧⟨21⟩⟦185⟧⟨22⟩⟦2⟧⟨23⟩⟦3⟧⟨24⟩⟦116⟧⟨25⟩⟦5⟧⟨26⟩⟦106⟧⟨27⟩⟦53⟧⟨28⟩
+[Action of 2 May 1707] ⟦57⟧⟨29⟩⟦102⟧⟨30⟩⟦117⟧⟨31⟩⟦219⟧⟨32⟩⟦170⟧⟨33⟩⟦4⟧⟨34⟩⟦198⟧⟨35⟩
+[Action of 2 May 1707] ⟦204⟧⟨36⟩⟦69⟧⟨37⟩⟦230⟧⟨38⟩⟦83⟧⟨39⟩⟦116⟧⟨40⟩⟦7⟧⟨41⟩⟦10⟧⟨42⟩⟦87⟧⟨43⟩⟦283⟧⟨44⟩⟦283⟧⟨45⟩⟦107⟧⟨46⟩⟦284⟧⟨47⟩⟦80⟧⟨48⟩⟦73⟧⟨49⟩⟦206⟧⟨50⟩⟦78⟧⟨51⟩
+[Action of 7 October 1795] ⟦188⟧⟨52⟩⟦19⟧⟨53⟩⟦34⟧⟨54⟩⟦82⟧⟨55⟩⟦217⟧⟨56⟩⟦29⟧⟨57⟩⟦175⟧⟨58⟩⟦156⟧⟨59⟩⟦31⟧⟨60⟩⟦69⟧⟨61⟩⟦260⟧⟨62⟩⟦136⟧⟨63⟩⟦276⟧⟨64⟩
+[Action of 7 October 1795] ⟦194⟧⟨65⟩⟦69⟧⟨66⟩⟦265⟧⟨67⟩⟦170⟧⟨68⟩⟦131⟧⟨69⟩⟦131⟧⟨70⟩⟦167⟧⟨71⟩⟦99⟧⟨72⟩⟦63⟧⟨73⟩⟦100⟧⟨74⟩⟦19⟧⟨75⟩⟦29⟧⟨76⟩⟦175⟧⟨77⟩⟦291⟧⟨78⟩⟦193⟧⟨79⟩⟦48⟧⟨80⟩⟦271⟧⟨81⟩
+[Action of 7 October 1795] ⟨82⟩⟦188⟧⟨83⟩⟦41⟧⟨84⟩⟦218⟧⟨85⟩⟦170⟧⟨86⟩⟦23⟧⟨87⟩⟦102⟧⟨88⟩⟦169⟧⟨89⟩⟦131⟧⟨90⟩⟦131⟧⟨91⟩⟦148⟧⟨92⟩⟦137⟧⟨93⟩
+[Action of 7 October 1795] ⟨94⟩⟦112⟧⟨95⟩⟦155⟧⟨96⟩⟦51⟧⟨97⟩
+[Action of 7 October 1795] ⟨98⟩⟦241⟧⟨99⟩⟦238⟧⟨100⟩⟦145⟧⟨101⟩⟦83⟧⟨102⟩⟦84⟧⟨103⟩⟦276⟧⟨104⟩
+[Battle of Tellicherry] ⟦191⟧⟨105⟩⟦181⟧⟨106⟩⟦32⟧⟨107⟩⟦41⟧⟨108⟩⟦224⟧⟨109⟩⟦152⟧⟨110⟩⟦181⟧⟨111⟩⟦50⟧⟨112⟩⟦282⟧⟨113⟩⟦11⟧⟨114⟩⟦254⟧⟨115⟩
+[Battle of Tellicherry] ⟦49⟧⟨116⟩⟦93⟧⟨117⟩⟦280⟧⟨118⟩⟦280⟧⟨119⟩⟦255⟧⟨120⟩⟦268⟧⟨121⟩⟦208⟧⟨122⟩⟦82⟧⟨123⟩⟦97⟧⟨124⟩⟦180⟧⟨125⟩⟦227⟧⟨126⟩⟦142⟧⟨127⟩⟦203⟧⟨128⟩⟦66⟧⟨129⟩⟦195⟧⟨130⟩⟦160⟧⟨131⟩⟦150⟧⟨132⟩⟦96⟧⟨133⟩⟦170⟧⟨134⟩⟦234⟧⟨135⟩⟦152⟧⟨136⟩⟦134⟧⟨137⟩
+[Battle of Tellicherry] ⟨138⟩⟦28⟧⟨139⟩⟦69⟧⟨140⟩⟦132⟧⟨141⟩⟦196⟧⟨142⟩⟦152⟧⟨143⟩⟦181⟧⟨144⟩⟦144⟧⟨145⟩⟦64⟧⟨146⟩⟦38⟧⟨147⟩⟦175⟧⟨148⟩⟦218⟧⟨149⟩⟦170⟧⟨150⟩
+[Action of 18 November 1809] ⟨151⟩⟦174⟧⟨152⟩⟦158⟧⟨153⟩⟦229⟧⟨154⟩⟦136⟧⟨155⟩⟦169⟧⟨156⟩⟦286⟧⟨157⟩⟦209⟧⟨158⟩⟦85⟧⟨159⟩⟦240⟧⟨160⟩⟦259⟧⟨161⟩⟦128⟧⟨162⟩⟦246⟧⟨163⟩⟦171⟧⟨164⟩⟦153⟧⟨165⟩⟦153⟧⟨166⟩⟦218⟧⟨167⟩⟦170⟧⟨168⟩⟦192⟧⟨169⟩⟦42⟧⟨170⟩⟦170⟧⟨171⟩⟦228⟧⟨172⟩⟦282⟧⟨173⟩
+[Action of 18 November 1809] ⟨174⟩⟦140⟧⟨175⟩⟦103⟧⟨176⟩⟦52⟧⟨177⟩⟦76⟧⟨178⟩⟦76⟧⟨179⟩⟦40⟧⟨180⟩⟦287⟧⟨181⟩⟦119⟧⟨182⟩⟦257⟧⟨183⟩⟦279⟧⟨184⟩⟦120⟧⟨185⟩⟦110⟧⟨186⟩⟦90⟧⟨187⟩
+[Action of 18 November 1809] ⟦8⟧⟨188⟩⟦201⟧⟨189⟩⟦58⟧⟨190⟩⟦149⟧⟨191⟩⟦149⟧⟨192⟩⟦197⟧⟨193⟩⟦154⟧⟨194⟩⟦245⟧⟨195⟩⟦169⟧⟨196⟩⟦152⟧⟨197⟩⟦152⟧⟨198⟩
+[Action of 18 November 1809] ⟨199⟩⟦199⟧⟨200⟩⟦120⟧⟨201⟩⟦242⟧⟨202⟩⟦177⟧⟨203⟩⟦8⟧⟨204⟩⟦251⟧⟨205⟩⟦175⟧⟨206⟩⟦123⟧⟨207⟩⟦155⟧⟨208⟩⟦35⟧⟨209⟩⟦98⟧⟨210⟩⟦286⟧⟨211⟩⟦139⟧⟨212⟩⟦214⟧⟨213⟩⟦122⟧⟨214⟩
+[Frigate] ⟦30⟧⟨215⟩⟦98⟧⟨216⟩⟦168⟧⟨217⟩⟦274⟧⟨218⟩⟦281⟧⟨219⟩⟦281⟧⟨220⟩⟦253⟧⟨221⟩⟦182⟧⟨222⟩⟦170⟧⟨223⟩⟦170⟧⟨224⟩⟦275⟧⟨225⟩⟦172⟧⟨226⟩⟦159⟧⟨227⟩⟦159⟧⟨228⟩⟦231⟧⟨229⟩⟦55⟧⟨230⟩
+[Battle of Texel (1694)] ⟦191⟧⟨231⟩⟦183⟧⟨232⟩⟦36⟧⟨233⟩⟦164⟧⟨234⟩⟦45⟧⟨235⟩⟦237⟧⟨236⟩⟦15⟧⟨237⟩⟦27⟧⟨238⟩⟦92⟧⟨239⟩⟦18⟧⟨240⟩⟦170⟧⟨241⟩⟦124⟧⟨242⟩⟦28⟧⟨243⟩⟦69⟧⟨244⟩⟦140⟧⟨245⟩⟦207⟧⟨246⟩⟦16⟧⟨247⟩⟦170⟧⟨248⟩⟦187⟧⟨249⟩⟦169⟧⟨250⟩⟦92⟧⟨251⟩⟦109⟧⟨252⟩
+[Battle of Texel (1694)] ⟦74⟧⟨253⟩⟦210⟧⟨254⟩⟦289⟧⟨255⟩⟦289⟧⟨256⟩
+[French destroyer Lynx] ⟦211⟧⟨257⟩⟦75⟧⟨258⟩⟦6⟧⟨259⟩⟦21⟧⟨260⟩⟦75⟧⟨261⟩⟦9⟧⟨262⟩⟦67⟧⟨263⟩⟦270⟧⟨264⟩⟦216⟧⟨265⟩
+[French destroyer Lynx] ⟦184⟧⟨266⟩⟦6⟧⟨267⟩⟦39⟧⟨268⟩⟦272⟧⟨269⟩⟦169⟧⟨270⟩⟦256⟧⟨271⟩⟦269⟧⟨272⟩⟦163⟧⟨273⟩⟦271⟧⟨274⟩⟦291⟧⟨275⟩
+[French destroyer Lynx] ⟨276⟩⟦69⟧⟨277⟩⟦70⟧⟨278⟩⟦83⟧⟨279⟩⟦81⟧⟨280⟩⟦190⟧⟨281⟩⟦252⟧⟨282⟩⟦176⟧⟨283⟩⟦288⟧⟨284⟩⟦165⟧⟨285⟩
+[French destroyer Lynx] ⟨286⟩⟦126⟧⟨287⟩⟦245⟧⟨288⟩⟦169⟧⟨289⟩⟦192⟧⟨290⟩⟦218⟧⟨291⟩⟦170⟧⟨292⟩⟦138⟧⟨293⟩⟦72⟧⟨294⟩⟦72⟧⟨295⟩
+[French destroyer Lynx] ⟨296⟩⟦271⟧⟨297⟩⟦1⟧⟨298⟩⟦157⟧⟨299⟩⟦157⟧⟨300⟩⟦236⟧⟨301⟩⟦292⟧⟨302⟩
+[French destroyer Lynx] ⟨303⟩⟦14⟧⟨304⟩⟦271⟧⟨305⟩⟦221⟧⟨306⟩⟦218⟧⟨307⟩⟦170⟧⟨308⟩
+[French destroyer Lynx] ⟦108⟧⟨309⟩⟦290⟧⟨310⟩
+[Order of battle at the Battle of San Domingo] ⟦191⟧⟨311⟩⟦161⟧⟨312⟩⟦232⟧⟨313⟩⟦91⟧⟨314⟩⟦82⟧⟨315⟩⟦235⟧⟨316⟩⟦248⟧⟨317⟩⟦59⟧⟨318⟩⟦249⟧⟨319⟩⟦60⟧⟨320⟩⟦162⟧⟨321⟩⟦95⟧⟨322⟩⟦147⟧⟨323⟩⟦17⟧⟨324⟩
+[Order of battle at the Battle of San Domingo] ⟦24⟧⟨325⟩⟦175⟧⟨326⟩⟦166⟧⟨327⟩⟦170⟧⟨328⟩⟦233⟧⟨329⟩⟦131⟧⟨330⟩⟦277⟧⟨331⟩⟦29⟧⟨332⟩⟦175⟧⟨333⟩⟦89⟧⟨334⟩⟦170⟧⟨335⟩⟦233⟧⟨336⟩⟦131⟧⟨337⟩⟦68⟧⟨338⟩⟦285⟧⟨339⟩⟦285⟧⟨340⟩⟦243⟧⟨341⟩⟦59⟧⟨342⟩
+[Order of battle at the Battle of San Domingo] ⟨343⟩⟦115⟧⟨344⟩⟦146⟧⟨345⟩⟦173⟧⟨346⟩⟦173⟧⟨347⟩⟦79⟧⟨348⟩⟦222⟧⟨349⟩⟦104⟧⟨350⟩⟦215⟧⟨351⟩⟦131⟧⟨352⟩⟦111⟧⟨353⟩⟦170⟧⟨354⟩⟦247⟧⟨355⟩⟦77⟧⟨356⟩⟦114⟧⟨357⟩⟦175⟧⟨358⟩⟦220⟧⟨359⟩⟦178⟧⟨360⟩
+[Order of battle at the Battle of San Domingo] ⟦239⟧⟨361⟩⟦170⟧⟨362⟩⟦273⟧⟨363⟩⟦99⟧⟨364⟩⟦26⟧⟨365⟩⟦71⟧⟨366⟩⟦265⟧⟨367⟩⟦170⟧⟨368⟩⟦233⟧⟨369⟩⟦131⟧⟨370⟩⟦129⟧⟨371⟩⟦130⟧⟨372⟩⟦90⟧⟨373⟩⟦186⟧⟨374⟩⟦102⟧⟨375⟩
+[Order of battle at the Battle of San Domingo] ⟦94⟧⟨376⟩⟦54⟧⟨377⟩⟦141⟧⟨378⟩⟦135⟧⟨379⟩⟦192⟧⟨380⟩⟦143⟧⟨381⟩⟦54⟧⟨382⟩⟦208⟧⟨383⟩⟦82⟧⟨384⟩⟦127⟧⟨385⟩⟦118⟧⟨386⟩
+[Battle of Guadeloupe (1779)] ⟦191⟧⟨387⟩⟦101⟧⟨388⟩⟦188⟧⟨389⟩⟦13⟧⟨390⟩⟦34⟧⟨391⟩⟦82⟧⟨392⟩⟦151⟧⟨393⟩⟦151⟧⟨394⟩⟦214⟧⟨395⟩⟦122⟧⟨396⟩⟦101⟧⟨397⟩⟦200⟧⟨398⟩⟦189⟧⟨399⟩⟦264⟧⟨400⟩⟦170⟧⟨401⟩⟦262⟧⟨402⟩⟦99⟧⟨403⟩
+[Battle of Guadeloupe (1779)] ⟦241⟧⟨404⟩⟦125⟧⟨405⟩⟦213⟧⟨406⟩⟦99⟧⟨407⟩⟦22⟧⟨408⟩⟦88⟧⟨409⟩
+[Battle of Bishops Court] ⟦191⟧⟨410⟩⟦47⟧⟨411⟩⟦205⟧⟨412⟩⟦266⟧⟨413⟩⟦34⟧⟨414⟩⟦82⟧⟨415⟩⟦151⟧⟨416⟩⟦151⟧⟨417⟩⟦244⟧⟨418⟩⟦280⟧⟨419⟩⟦261⟧⟨420⟩⟦170⟧⟨421⟩⟦263⟧⟨422⟩⟦170⟧⟨423⟩
+[Battle of Bishops Court] ⟦212⟧⟨424⟩⟦92⟧⟨425⟩⟦86⟧⟨426⟩⟦61⟧⟨427⟩⟦45⟧⟨428⟩⟦45⟧⟨429⟩⟦225⟧⟨430⟩⟦164⟧⟨431⟩⟦226⟧⟨432⟩⟦133⟧⟨433⟩⟦202⟧⟨434⟩⟦59⟧⟨435⟩⟦121⟧⟨436⟩⟦20⟧⟨437⟩⟦44⟧⟨438⟩
+[Battle of Bishops Court] ⟨439⟩⟦25⟧⟨440⟩⟦41⟧⟨441⟩⟦267⟧⟨442⟩⟦92⟧⟨443⟩⟦179⟧⟨444⟩⟦179⟧⟨445⟩⟦113⟧⟨446⟩⟦170⟧⟨447⟩⟦37⟧⟨448⟩⟦65⟧⟨449⟩
+[Battle of Bishops Court] ⟦266⟧⟨450⟩⟦223⟧⟨451⟩⟦105⟧⟨452⟩⟦188⟧⟨453⟩⟦41⟧⟨454⟩
+[Battle of Bishops Court] ⟦192⟧⟨455⟩⟦43⟧⟨456⟩⟦170⟧⟨457⟩⟦278⟧⟨458⟩⟦278⟧⟨459⟩
+
+[user]
+
+问题：
+What was the name of the commander who captured all of the French ships that varied in size?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

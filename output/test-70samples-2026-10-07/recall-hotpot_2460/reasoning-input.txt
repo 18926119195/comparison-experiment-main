@@ -1,0 +1,103 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Stephan Lichtsteiner] ⟦153⟧⟨231⟩⟦19⟧⟦61⟧⟨232⟩⟨233⟩⟦85⟧⟦47⟧⟨235⟩⟨234⟩⟦182⟧⟦157⟧⟨236⟩⟨237⟩
+[Stephan Lichtsteiner] ⟨238⟩⟦129⟧⟨239⟩⟨240⟩⟨241⟩⟦31⟧⟦31⟧⟨242⟩⟦79⟧⟦135⟧⟨243⟩⟨244⟩⟦174⟧⟦194⟧⟦194⟧⟨245⟩⟨246⟩⟦81⟧⟦150⟧⟨247⟩⟨248⟩⟦29⟧⟦29⟧⟨249⟩⟨250⟩⟦171⟧⟦109⟧⟨251⟩⟨252⟩⟦2⟧⟨253⟩⟦6⟧⟨254⟩
+[Forrest Gump] ⟨255⟩⟦10⟧⟦51⟧⟨257⟩⟦55⟧⟨258⟩⟨256⟩⟨259⟩⟦160⟧⟨260⟩⟨261⟩⟦176⟧⟦108⟧⟨262⟩⟨263⟩⟦195⟧⟨264⟩
+[Forrest Gump] ⟦63⟧
+[Forrest Gump] ⟦59⟧⟦111⟧
+
+符号表：
+⟦2⟧ = "Forrest Gump
+⟦6⟧ = "The Swiss Express
+⟦10⟧ = a 1994 American comedy-drama film
+⟦19⟧ = a Swiss professional footballer
+⟦29⟧ = athleticism
+⟦31⟧ = back
+⟦47⟧ = club
+⟦51⟧ = comedy
+⟦55⟧ = drama
+⟦59⟧ = film
+⟦61⟧ = footballer
+⟦63⟧ = Forrest Gump
+⟦79⟧ = his energetic runs
+⟦81⟧ = his stamina
+⟦85⟧ = Italian club Juventus
+⟦108⟧ = name
+⟦109⟧ = nicknames
+⟦111⟧ = novel
+⟦129⟧ = right
+⟦135⟧ = runs
+⟦150⟧ = stamina
+⟦153⟧ = Stephan Lichtsteiner
+⟦157⟧ = team
+⟦160⟧ = the 1986 novel
+⟦171⟧ = the nicknames
+⟦174⟧ = the right wing
+⟦176⟧ = the same name
+⟦182⟧ = the Switzerland national team
+⟦194⟧ = wing
+⟦195⟧ = Winston Groom
+
+占位符映射：
+⟨231⟩ =  (born 16 January 1984) is 
+⟨232⟩ = 
+⟨233⟩ =  who plays for 
+⟨234⟩ = 
+⟨235⟩ =  Juventus and 
+⟨236⟩ = 
+⟨237⟩ = .
+⟨238⟩ =  An attacking 
+⟨239⟩ = -
+⟨240⟩ =  or 
+⟨241⟩ = -
+⟨242⟩ = , he is known for 
+⟨243⟩ = 
+⟨244⟩ =  down 
+⟨245⟩ = 
+⟨246⟩ = , as well as 
+⟨247⟩ = 
+⟨248⟩ =  and 
+⟨249⟩ = 
+⟨250⟩ = , which earned him 
+⟨251⟩ = 
+⟨252⟩ =  
+⟨253⟩ = " and 
+⟨254⟩ = ".
+⟨255⟩ =  is 
+⟨256⟩ = 
+⟨257⟩ = -
+⟨258⟩ =  
+⟨259⟩ =  based on 
+⟨260⟩ = 
+⟨261⟩ =  of 
+⟨262⟩ = 
+⟨263⟩ =  by 
+⟨264⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the nickname of Stephan Lichtsteiner that refers to the character from the 1994 American comedy-drama film based on the novel by Winston Groom?

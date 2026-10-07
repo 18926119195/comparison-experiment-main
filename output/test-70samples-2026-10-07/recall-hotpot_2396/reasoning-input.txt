@@ -1,0 +1,90 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Dacrydium] ⟨106⟩⟨107⟩⟨108⟩⟨109⟩⟦74⟧⟦74⟧⟨110⟩⟨111⟩⟦269⟧⟦191⟧⟨113⟩⟨112⟩⟨114⟩
+[Dacrydium] ⟨121⟩⟨122⟩⟦232⟧⟨123⟩⟦157⟧⟨124⟩⟨125⟩⟦221⟧⟦222⟧⟨126⟩⟨127⟩⟦109⟧⟨128⟩
+[Dacrydium] ⟦83⟧⟦83⟧
+[Centaurium] ⟨220⟩⟦8⟧⟨221⟩⟦24⟧⟨222⟩⟨223⟩⟦15⟧⟨224⟩⟨225⟩⟨226⟩⟨227⟩⟦115⟧⟨228⟩⟦68⟧⟨229⟩⟦240⟧⟨230⟩ | ⟦24⟧
+[Centaurium] ⟦116⟧ | ⟦116⟧ | ⟦259⟧⟦116⟧
+[Centaurium pulchellum] ⟦62⟧⟦258⟧⟦104⟧ | ⟦104⟧
+[Plant cover] ⟦235⟧ | ⟦235⟧
+
+符号表：
+⟦8⟧ = (Centaury
+⟦15⟧ = 20 species
+⟦24⟧ = a genus
+⟦62⟧ = Centaurium
+⟦68⟧ = Chironieae
+⟦74⟧ = conifers
+⟦83⟧ = Dacrydium
+⟦104⟧ = family
+⟦109⟧ = Florin
+⟦115⟧ = Gentianaceae
+⟦116⟧ = genus
+⟦157⟧ = many more species
+⟦191⟧ = podocarp
+⟦221⟧ = sections
+⟦222⟧ = sections A
+⟦232⟧ = Solander
+⟦235⟧ = species
+⟦240⟧ = subtribe Chironiinae
+⟦258⟧ = the gentian family
+⟦259⟧ = The genus
+⟦269⟧ = the podocarp family
+
+占位符映射：
+⟨106⟩ = 
+⟨107⟩ =  is 
+⟨108⟩ = 
+⟨109⟩ =  of 
+⟨110⟩ = 
+⟨111⟩ =  belonging to 
+⟨112⟩ = 
+⟨113⟩ =  
+⟨114⟩ =  Podocarpaceae.
+⟨121⟩ = 
+⟨122⟩ =  was first described by 
+⟨123⟩ =  in 1786, and formerly included 
+⟨124⟩ = 
+⟨125⟩ = , which were divided into 
+⟨126⟩ = 
+⟨127⟩ = , B, and C by 
+⟨128⟩ =  in 1931.
+⟨220⟩ =  
+⟨221⟩ = ) is 
+⟨222⟩ = 
+⟨223⟩ =  of 
+⟨224⟩ = 
+⟨225⟩ =  in 
+⟨226⟩ = 
+⟨227⟩ =  (
+⟨228⟩ = ), tribe 
+⟨229⟩ = , 
+⟨230⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Are Centaurium and Dacrydium both genuses of plant species?

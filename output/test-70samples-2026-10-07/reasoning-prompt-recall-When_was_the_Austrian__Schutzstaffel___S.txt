@@ -1,0 +1,111 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Alois Brunner] ⟨1⟩⟦9⟧⟨2⟩⟦32⟧⟨3⟩⟨4⟩⟦22⟧⟦41⟧⟨5⟩⟨6⟩
+[Esther Schapira] ⟦184⟧⟨275⟩⟨276⟩⟨277⟩⟦45⟧⟦45⟧⟨278⟩⟨279⟩⟦4⟧⟨280⟩⟦27⟧⟨281⟩⟨282⟩⟨283⟩⟦255⟧⟨285⟩⟦85⟧⟨284⟩⟨286⟩⟦87⟧⟨287⟩⟦90⟧⟦90⟧⟨288⟩⟨289⟩⟦6⟧⟦54⟧⟨290⟩⟨291⟩⟦11⟧⟨292⟩⟨293⟩⟨294⟩⟨295⟩⟦151⟧⟨296⟩⟦102⟧⟨297⟩⟦1⟧⟨298⟩⟦29⟧⟦92⟧⟨300⟩⟨299⟩⟦76⟧⟨301⟩⟨302⟩⟦217⟧⟦137⟧⟨303⟩⟨304⟩⟦88⟧⟦98⟧⟨305⟩⟨306⟩⟦246⟧⟦246⟧⟨307⟩ | ⟦27⟧
+[Esther Schapira] ⟦66⟧⟦66⟧⟦172⟧⟦172⟧⟦46⟧
+[Esther Schapira] ⟦64⟧⟦207⟧⟦77⟧
+[Fridolin Glass] ⟦159⟧
+
+符号表：
+⟦1⟧ = "Der Tag
+⟦4⟧ = "The Act
+⟦6⟧ = ("Three bullets
+⟦9⟧ = 8 April
+⟦11⟧ = a dead child
+⟦22⟧ = Adolf Eichmann's assistant
+⟦27⟧ = Alois Brunner
+⟦29⟧ = als Theo van Gogh ermordet wurde
+⟦32⟧ = an Austrian "Schutzstaffel" (SS) officer
+⟦41⟧ = assistant
+⟦45⟧ = author
+⟦46⟧ = award
+⟦54⟧ = bullets
+⟦64⟧ = child
+⟦66⟧ = co
+⟦76⟧ = day
+⟦77⟧ = death
+⟦85⟧ = documentaries
+⟦87⟧ = Drei Kugeln
+⟦88⟧ = Dutch filmmaker
+⟦90⟧ = ein
+⟦92⟧ = ermordet
+⟦98⟧ = filmmaker
+⟦102⟧ = Gaza
+⟦137⟧ = killing
+⟦151⟧ = Muhammad al-Durrah
+⟦159⟧ = officer
+⟦172⟧ = producer
+⟦184⟧ = Schapira
+⟦207⟧ = the death
+⟦217⟧ = the killing
+⟦246⟧ = Theo van Gogh
+⟦255⟧ = two award-winning documentaries
+
+占位符映射：
+⟨1⟩ =  (
+⟨2⟩ =  1912 – 2001 or 2010) was 
+⟨3⟩ = 
+⟨4⟩ =  who worked as 
+⟨5⟩ = 
+⟨6⟩ = .
+⟨275⟩ =  is 
+⟨276⟩ = 
+⟨277⟩ = -
+⟨278⟩ = 
+⟨279⟩ =  of 
+⟨280⟩ =  of 
+⟨281⟩ = ", and 
+⟨282⟩ = 
+⟨283⟩ =  of 
+⟨284⟩ = 
+⟨285⟩ = -winning 
+⟨286⟩ = , "
+⟨287⟩ =  und 
+⟨288⟩ = 
+⟨289⟩ =  totes Kind" 
+⟨290⟩ = 
+⟨291⟩ =  and 
+⟨292⟩ = 
+⟨293⟩ = ") (2002), about 
+⟨294⟩ = 
+⟨295⟩ =  of 
+⟨296⟩ =  in 
+⟨297⟩ =  in 2000, and 
+⟨298⟩ = , 
+⟨299⟩ = 
+⟨300⟩ =  wurde" ("The 
+⟨301⟩ =  
+⟨302⟩ =  was murdered") (2007), about 
+⟨303⟩ = 
+⟨304⟩ =  in 2004 of 
+⟨305⟩ = 
+⟨306⟩ = , 
+⟨307⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+When was the Austrian "Schutzstaffel" (SS) officer born based on who's life Schapira co-authored a book?

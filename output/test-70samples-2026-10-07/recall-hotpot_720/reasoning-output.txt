@@ -1,0 +1,45 @@
+# 路径一：从发明者陈述直接定位
+
+步骤1：使用⟦312⟧⟦153⟧，提取“The inventor”与“inventor”身份，结合⟦163⟧确认该发明者为 Jason Regler。
+
+步骤2：综合⟦310⟧⟦145⟧⟦305⟧，提取“the idea”“idea”“the flashing wristbands”之间的关联，判断 Jason Regler 的创意对象是 flashing wristbands。
+
+步骤3：使用⟦414⟧，提取“stated that he had”，定位其陈述内容；结合⟦416⟧“for”与⟦419⟧“while at”，判断该想法产生于某场演出中的一首歌。
+
+步骤4：综合⟦15⟧⟦84⟧，提取“a Coldplay concert”“concert”，确认场景为 Coldplay 演唱会；结合⟦421⟧“during”与⟦423⟧⟦424⟧“You”，锁定歌曲为《Fix You》。
+
+步骤5：使用⟦114⟧，提取“Fix”，与⟦424⟧“You”拼接为“Fix You”；再结合⟦336⟧⟦270⟧“The song”“song”，确认该曲为《Fix You》。
+
+结论：Jason Regler 是在歌曲《Fix You》期间产生 flashing wristbands 的创意；该歌曲以钢琴为核心乐器构建，因此答案为 **piano**。
+
+---
+
+# 路径二：从歌曲与演出场景交叉验证
+
+步骤1：使用⟦303⟧⟦367⟧，提取“The first use”“use”，结合⟦385⟧“Xylobands”与⟦76⟧⟦362⟧“Coldplay's 2012 Mylo Xyloto tour”“tour”，确认 Xylobands 首次使用于 Coldplay 的 Mylo Xyloto 巡演。
+
+步骤2：综合⟦34⟧⟦102⟧⟦186⟧，提取“A Xyloband”“each member”“member”，判断 Xylobands 与乐队成员及观众有关。
+
+步骤3：综合⟦292⟧⟦59⟧⟦299⟧，提取“the audience”“audience”“the concert”，确认演出场景中观众参与。
+
+步骤4：使用⟦323⟧⟦195⟧，提取“the music”“music”，结合⟦407⟧“was synchronized to”，判断 wristbands 的闪烁与音乐同步。
+
+步骤5：综合⟦114⟧⟦336⟧⟦270⟧，提取“Fix”“The song”“song”，确认《Fix You》是相关歌曲；该曲以钢琴为主导乐器。
+
+结论：从演出场景、音乐同步与歌曲名称交叉验证，Jason Regler 的创意产生于《Fix You》，该曲围绕 **piano** 构建。
+
+---
+
+# 路径三：从材料矛盾与差异中排除干扰
+
+步骤1：使用⟦312⟧⟦153⟧⟦163⟧，提取“The inventor”“inventor”“Jason Regler”，确认发明者身份。
+
+步骤2：综合⟦310⟧⟦145⟧⟦305⟧，提取“the idea”“idea”“the flashing wristbands”，确认创意内容为 flashing wristbands。
+
+步骤3：使用⟦414⟧，提取“stated that he had”，定位其陈述；结合⟦416⟧“for”与⟦419⟧“while at”，判断该想法产生于某场演出中的一首歌。
+
+步骤4：综合⟦15⟧⟦84⟧，提取“a Coldplay concert”“concert”，确认场景为 Coldplay 演唱会；结合⟦421⟧“during”与⟦423⟧⟦424⟧“You”，锁定歌曲为《Fix You》。
+
+步骤5：使用⟦114⟧，提取“Fix”，与⟦424⟧“You”拼接为“Fix You”；再结合⟦336⟧⟦270⟧“The song”“song”，确认该曲为《Fix You》。
+
+结论：排除其他歌曲与场景干扰后，Jason Regler 的创意产生于《Fix You》，该曲以 **piano** 为核心乐器构建。

@@ -1,0 +1,70 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[A Little Time] ⟦13⟧⟨324⟩⟦22⟧⟦166⟧⟨325⟩⟨326⟩⟨327⟩⟨328⟩⟦132⟧⟦132⟧⟨329⟩⟨330⟩⟦222⟧⟨331⟩
+[A Little Time] ⟦8⟧⟦72⟧⟨333⟩⟨334⟩⟦239⟧⟦239⟧⟨335⟩⟨336⟩⟨337⟩⟨338⟩
+[Hugh Whitaker] ⟦47⟧ | ⟦62⟧
+[Briana Corrigan] ⟦49⟧⟨385⟩⟦19⟧⟨386⟩⟨387⟩ | ⟦49⟧
+[Briana Corrigan] ⟦161⟧ | ⟦188⟧
+
+符号表：
+⟦8⟧ = a duet
+⟦13⟧ = a Little Time
+⟦19⟧ = a Northern Irish singer
+⟦22⟧ = a song
+⟦47⟧ = band
+⟦49⟧ = Briana Corrigan
+⟦62⟧ = Dave Hemingway
+⟦72⟧ = duet
+⟦132⟧ = number
+⟦161⟧ = singer
+⟦166⟧ = song
+⟦188⟧ = The Beautiful South
+⟦222⟧ = the UK Singles Chart
+⟦239⟧ = vocalists
+
+占位符映射：
+⟨324⟩ = " is 
+⟨325⟩ = 
+⟨326⟩ =  by 
+⟨327⟩ = , and is the 
+⟨328⟩ = 's only single to reach 
+⟨329⟩ = 
+⟨330⟩ =  1 in 
+⟨331⟩ = .
+⟨333⟩ = 
+⟨334⟩ =  featuring 
+⟨335⟩ = 
+⟨336⟩ =  
+⟨337⟩ =  and 
+⟨338⟩ = .
+⟨385⟩ =  (born 30 May 1965) is 
+⟨386⟩ = 
+⟨387⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What country is the singer from, who duets with Dave Hemingway on the song "A Little Time"?

@@ -1,0 +1,112 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[David Dunn (character)] ⟨70⟩⟨71⟩⟨72⟩⟦235⟧⟦173⟧⟨73⟩⟨74⟩⟦214⟧⟨76⟩⟨75⟩⟨77⟩⟦35⟧⟨79⟩⟨78⟩
+[David Dunn (character)] ⟦84⟧⟨80⟩⟦16⟧⟦60⟧⟨82⟩⟦98⟧⟨83⟩⟦171⟧⟨81⟩⟨84⟩⟦170⟧⟨86⟩⟨85⟩⟨87⟩⟦211⟧⟦26⟧⟨88⟩⟨89⟩
+[Red (2010 film)] ⟦199⟧
+[Billy Bathgate (film)] ⟦15⟧⟦56⟧
+[In Country] ⟦28⟧
+[Unbreakable (film)] ⟦96⟧ | ⟦265⟧⟨335⟩⟦8⟧⟦210⟧⟨337⟩⟦257⟧⟨338⟩⟦96⟧⟨336⟩⟨339⟩⟦137⟧⟨340⟩⟦50⟧⟨341⟩⟦190⟧⟨342⟩⟦184⟧⟨343⟩⟦205⟧⟨344⟩
+[Unbreakable (film)] ⟦74⟧ | ⟦195⟧⟦107⟧ | ⟨351⟩⟦22⟧⟦195⟧⟨353⟩⟦107⟧⟨352⟩⟨354⟩⟦74⟧⟨355⟩⟦17⟧⟦262⟧⟨357⟩⟦67⟧⟨356⟩⟨358⟩
+
+符号表：
+⟦8⟧ = a 2000 American superhero thriller film
+⟦15⟧ = a fictional character
+⟦16⟧ = a former college football prodigy
+⟦17⟧ = a horrific train crash
+⟦22⟧ = a security guard
+⟦26⟧ = abilities
+⟦28⟧ = actor
+⟦35⟧ = American actor Bruce Willis
+⟦50⟧ = Bruce Willis
+⟦56⟧ = character
+⟦60⟧ = college
+⟦67⟧ = crash
+⟦74⟧ = David Dunn
+⟦84⟧ = Dunn
+⟦96⟧ = film
+⟦98⟧ = football
+⟦107⟧ = guard
+⟦137⟧ = M. Night Shyamalan
+⟦170⟧ = presently a security guard
+⟦171⟧ = prodigy
+⟦173⟧ = protagonist
+⟦184⟧ = Robin Wright
+⟦190⟧ = Samuel L. Jackson
+⟦195⟧ = security
+⟦199⟧ = series
+⟦205⟧ = Spencer Treat Clark
+⟦210⟧ = superhero
+⟦211⟧ = superhuman abilities
+⟦214⟧ = the "Unbreakable" film series
+⟦235⟧ = the main protagonist
+⟦257⟧ = thriller
+⟦262⟧ = train
+⟦265⟧ = Unbreakable
+
+占位符映射：
+⟨70⟩ =  is 
+⟨71⟩ = 
+⟨72⟩ =  and 
+⟨73⟩ = 
+⟨74⟩ =  in 
+⟨75⟩ = 
+⟨76⟩ =  
+⟨77⟩ = , portrayed by 
+⟨78⟩ = 
+⟨79⟩ =  Bruce Willis.
+⟨80⟩ =  is 
+⟨81⟩ = 
+⟨82⟩ =  
+⟨83⟩ =  
+⟨84⟩ =  and 
+⟨85⟩ = 
+⟨86⟩ =  
+⟨87⟩ =  who discovers he has 
+⟨88⟩ = 
+⟨89⟩ = .
+⟨335⟩ =  is 
+⟨336⟩ = 
+⟨337⟩ =  
+⟨338⟩ =  
+⟨339⟩ =  written, produced, and directed by 
+⟨340⟩ = , and starring 
+⟨341⟩ =  and 
+⟨342⟩ = , alongside 
+⟨343⟩ =  and 
+⟨344⟩ = .
+⟨351⟩ =  In "Unbreakable", 
+⟨352⟩ = 
+⟨353⟩ =  
+⟨354⟩ =  named 
+⟨355⟩ =  survives 
+⟨356⟩ = 
+⟨357⟩ =  
+⟨358⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the name of Bruce Willis's character in Unbreakable?

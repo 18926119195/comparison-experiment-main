@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_6376",
+  "question": "The chorus of \"On the Radio\" contains references to the song \"November Rain\" whose band's lead singer is?",
+  "expectedAnswer": "Axl Rose",
+  "predictedAnswer": "# 路径一：直接链式推理\n\n步骤1：使用⟦239⟧⟦78⟧，提取\"The chorus\"与\"chorus\"的对应关系，确认问题所指的chorus部分。\n\n步骤2：使用⟦4⟧⟦115⟧，提取\"November Rain\"与\"Guns N' Roses\"的关联，确认该歌曲所属乐队。\n\n步骤3：使用⟦237⟧，提取\"the band's lead singer Axl Rose\"，确认乐队主唱身份。\n\n结论：Axl Rose\n\n---\n\n# 路径二：交叉验证路径\n\n步骤1：使用⟦188⟧⟦201⟧，提取\"Rain\"与\"Roses\"的片段信息，交叉验证\"November Rain\"与\"Roses\"（即Guns N' Roses）的关联。\n\n步骤2：综合⟦237⟧⟦211⟧，提取\"the band's lead singer\"与\"singer\"的对应，确认主唱为Axl Rose。\n\n步骤3：使用⟦282⟧⟦311⟧，提取\"their third studio album\"与\"Your Illusion\"的信息，验证\"November Rain\"收录于Guns N' Roses的专辑中，进一步确认乐队身份。\n\n结论：Axl Rose\n\n---\n\n# 路径三：综合支撑路径\n\n步骤1：使用⟦239⟧⟦78⟧，确认\"The chorus\"指代\"On the Radio\"的副歌部分。\n\n步骤2：综合⟦4⟧⟦115⟧⟦237⟧，提取\"November Rain\"所属乐队为Guns N' Roses，且该乐队主唱为Axl Rose。\n\n步骤3：使用⟦201⟧⟦203⟧，提取\"Roses\"与\"sadomasochism\"的片段，辅助确认\"November Rain\"与Guns N' Roses的关联链条完整。\n\n结论：Axl Rose",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦239⟧⟦78⟧⟨59⟩⟨60⟩⟨61⟩⟨62⟩⟨63⟩⟨64⟩⟦4⟧⟨65⟩⟨66⟩⟦115⟧",
+  "nounCount": 476,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7621,
+    "completion_tokens": 166,
+    "total_tokens": 7787,
+    "prompt_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "prompt_cache_hit_tokens": 7424,
+    "prompt_cache_miss_tokens": 197
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 786,
+    "completion_tokens": 408,
+    "total_tokens": 1194,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 786
+  }
+}

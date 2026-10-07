@@ -1,0 +1,97 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[WCSH] ⟨43⟩⟨44⟩⟨46⟩⟨45⟩⟨47⟩⟨48⟩⟨49⟩⟨50⟩⟨51⟩⟨52⟩⟨53⟩⟨54⟩⟦261⟧⟨55⟩⟦179⟧⟨56⟩
+[WPBN-TV] ⟦255⟧
+[WSIL-TV] ⟦167⟧
+[WSIL-TV] ⟦17⟧⟦77⟧⟦185⟧⟦25⟧
+[AksyonTV] ⟦243⟧
+[K20JX-D] ⟦251⟧⟦63⟧⟦63⟧
+[Cindy Williams (journalist)] ⟦64⟧⟨458⟩⟦41⟧⟦49⟧⟨460⟩⟦145⟧⟨461⟩⟦44⟧⟨459⟩⟨462⟩⟦256⟧⟨463⟩⟦161⟧⟨464⟩⟦129⟧⟨465⟩ | ⟦256⟧⟦161⟧
+[Cindy Williams (journalist)] ⟦260⟧⟨466⟩⟦182⟧⟦50⟧⟨467⟩⟨468⟩⟦209⟧⟨469⟩⟦221⟧⟨470⟩⟦55⟧⟨471⟩⟦45⟧⟨472⟩
+
+符号表：
+⟦17⟧ = a high definition digital signal
+⟦25⟧ = a transmitter
+⟦41⟧ = an award-winning news anchor
+⟦44⟧ = anchor
+⟦45⟧ = anchoring
+⟦49⟧ = award
+⟦50⟧ = awards
+⟦55⟧ = Broadcasters
+⟦63⟧ = channel
+⟦64⟧ = Cindy Williams
+⟦77⟧ = definition
+⟦129⟧ = Maine
+⟦145⟧ = news
+⟦161⟧ = Portland
+⟦167⟧ = PSIP
+⟦179⟧ = Sebago
+⟦182⟧ = several awards
+⟦185⟧ = signal
+⟦209⟧ = the Associated Press
+⟦221⟧ = the Maine Association
+⟦243⟧ = transmitter
+⟦251⟧ = UHF channel
+⟦255⟧ = virtual channel
+⟦256⟧ = WCSH
+⟦260⟧ = Williams
+⟦261⟧ = Winn Mountain
+
+占位符映射：
+⟨43⟩ =  Licensed to 
+⟨44⟩ = , it broadcasts 
+⟨45⟩ = 
+⟨46⟩ =  digital 
+⟨47⟩ =  on 
+⟨48⟩ = 
+⟨49⟩ =  44 (or 
+⟨50⟩ = 
+⟨51⟩ =  6 via 
+⟨52⟩ = ) from 
+⟨53⟩ = 
+⟨54⟩ =  on 
+⟨55⟩ =  in 
+⟨56⟩ = .
+⟨458⟩ =  (born 1963) is 
+⟨459⟩ = 
+⟨460⟩ = -winning 
+⟨461⟩ =  
+⟨462⟩ =  with 
+⟨463⟩ =  6 in 
+⟨464⟩ = , 
+⟨465⟩ = .
+⟨466⟩ =  has won 
+⟨467⟩ = 
+⟨468⟩ =  from 
+⟨469⟩ =  and 
+⟨470⟩ =  of 
+⟨471⟩ =  for her 
+⟨472⟩ =  and reporting.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+On what UHF channel is the station that Cindy Williams is on broadcast?

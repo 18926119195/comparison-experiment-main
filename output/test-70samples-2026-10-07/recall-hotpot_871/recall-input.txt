@@ -1,0 +1,410 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "A Midsummer Night's Dream
+⟦2⟧ = "De Mi Alma Latina
+⟦3⟧ = "Ernani
+⟦4⟧ = "Manhã de Carnaval
+⟦5⟧ = "The Enchanted Island
+⟦6⟧ = "The Tempest
+⟦7⟧ = "Werther", Don José
+⟦8⟧ = ("Faust
+⟦9⟧ = ("Otello
+⟦10⟧ = 147 different roles
+⟦11⟧ = 147 roles
+⟦12⟧ = 1940s
+⟦13⟧ = 2010s
+⟦14⟧ = 8 March
+⟦15⟧ = a "pasticcio
+⟦16⟧ = a 1982 Italian film
+⟦17⟧ = a 1994 Latin music album
+⟦18⟧ = a 1996 "Washington Post" article
+⟦19⟧ = a 2012 popular song album
+⟦20⟧ = a Buenos Aires
+⟦21⟧ = a duet
+⟦22⟧ = a follow-up album
+⟦23⟧ = a gossip biography
+⟦24⟧ = a Grammy Award
+⟦25⟧ = a performance
+⟦26⟧ = a Pulitzer Prize-winner
+⟦27⟧ = a soloist
+⟦28⟧ = a Spanish Basque soprano
+⟦29⟧ = a Spanish tenor
+⟦30⟧ = a Spanish zarzuela baritone
+⟦31⟧ = a successful zarzuela company
+⟦32⟧ = acts
+⟦33⟧ = additions
+⟦34⟧ = administrator
+⟦35⟧ = affair
+⟦36⟧ = Aida
+⟦37⟧ = album
+⟦38⟧ = All the songs
+⟦39⟧ = alla
+⟦40⟧ = allegations
+⟦41⟧ = almost exclusively baritone parts
+⟦42⟧ = an affair
+⟦43⟧ = an Italian libretto
+⟦44⟧ = an opera
+⟦45⟧ = Andrea Maffei
+⟦46⟧ = Antonio Vivaldi
+⟦47⟧ = Aquarela
+⟦48⟧ = Aragon
+⟦49⟧ = article
+⟦50⟧ = arts
+⟦51⟧ = August
+⟦52⟧ = author
+⟦53⟧ = baritone
+⟦54⟧ = Basque
+⟦55⟧ = Best Latin Pop Album
+⟦56⟧ = biography
+⟦57⟧ = book
+⟦58⟧ = Brasil
+⟦59⟧ = broadcast
+⟦60⟧ = Canio
+⟦61⟧ = capital
+⟦62⟧ = career
+⟦63⟧ = Carmen
+⟦64⟧ = Cavalleria rusticana
+⟦65⟧ = Cavaradossi
+⟦66⟧ = choir
+⟦67⟧ = choirs
+⟦68⟧ = company
+⟦69⟧ = composers
+⟦70⟧ = composition
+⟦71⟧ = concerts
+⟦72⟧ = conductor
+⟦73⟧ = conductor and arts administrator
+⟦74⟧ = course
+⟦75⟧ = criticism
+⟦76⟧ = Danielle de Niese
+⟦77⟧ = Daniels
+⟦78⟧ = David Daniels
+⟦79⟧ = De México
+⟦80⟧ = De Mi Alma Latina
+⟦81⟧ = debuts
+⟦82⟧ = December
+⟦83⟧ = Des Grieux
+⟦84⟧ = Deutsche Grammophon
+⟦85⟧ = Dick Johnson
+⟦86⟧ = DiDonato
+⟦87⟧ = Domingo
+⟦88⟧ = Domingo Ferrer
+⟦89⟧ = Domingo's son
+⟦90⟧ = Don Carlo
+⟦91⟧ = Don José
+⟦92⟧ = Dream
+⟦93⟧ = duet
+⟦94⟧ = DVD
+⟦95⟧ = Embil
+⟦96⟧ = English
+⟦97⟧ = Eresoinka
+⟦98⟧ = Eugene Kohn
+⟦99⟧ = fanciulla
+⟦100⟧ = father
+⟦101⟧ = February
+⟦102⟧ = Federico Moreno Torroba
+⟦103⟧ = film
+⟦104⟧ = four acts
+⟦105⟧ = France
+⟦106⟧ = Francesco Maria Piave
+⟦107⟧ = Franco Zeffirelli
+⟦108⟧ = French
+⟦109⟧ = generation
+⟦110⟧ = George Frideric Handel
+⟦111⟧ = Georges Prêtre
+⟦112⟧ = German ("Lohengrin", "Parsifal
+⟦113⟧ = Gianni Schicchi
+⟦114⟧ = Giuseppe Verdi
+⟦115⟧ = god Neptune
+⟦116⟧ = gossip
+⟦117⟧ = Guests
+⟦118⟧ = Harry Connick Jr.
+⟦119⟧ = HD series
+⟦120⟧ = her baritone husband
+⟦121⟧ = her career
+⟦122⟧ = her professional career singing
+⟦123⟧ = her son
+⟦124⟧ = her twenties
+⟦125⟧ = high-level publicity
+⟦126⟧ = hints
+⟦127⟧ = his career
+⟦128⟧ = his Cavaradossi
+⟦129⟧ = his early career
+⟦130⟧ = his generation
+⟦131⟧ = His main repertoire
+⟦132⟧ = his most recent debuts
+⟦133⟧ = his repertoire
+⟦134⟧ = his son
+⟦135⟧ = his soprano wife
+⟦136⟧ = his subsequent Latin music concerts
+⟦137⟧ = his versatility
+⟦138⟧ = Hoffmann
+⟦139⟧ = houses
+⟦140⟧ = husband
+⟦141⟧ = Jacinto Guerrero
+⟦142⟧ = Jean-Philippe Rameau
+⟦143⟧ = Jeremy Sams
+⟦144⟧ = José Carreras
+⟦145⟧ = José Plácido Domingo Embil
+⟦146⟧ = Josefa "Pepita" Embil Echániz
+⟦147⟧ = Josefa Enbil Etxaniz
+⟦148⟧ = journalists
+⟦149⟧ = Joyce DiDonato
+⟦150⟧ = Julian Crouch
+⟦151⟧ = La fanciulla del West
+⟦152⟧ = Latin America
+⟦153⟧ = level
+⟦154⟧ = Lewinsky’s then-unproven allegations
+⟦155⟧ = Lewis
+⟦156⟧ = Lewis' "hints
+⟦157⟧ = libretto
+⟦158⟧ = lirico
+⟦159⟧ = Lisette Oropesa
+⟦160⟧ = Lives
+⟦161⟧ = Luca Pisaroni
+⟦162⟧ = Luciano Pavarotti
+⟦163⟧ = Macbeth
+⟦164⟧ = Manon Lescaut
+⟦165⟧ = Marcia Lewis
+⟦166⟧ = medleys
+⟦167⟧ = melodies
+⟦168⟧ = Mexican television
+⟦169⟧ = Mexico
+⟦170⟧ = mezzo
+⟦171⟧ = mezzo-soprano Elena Obraztsova
+⟦172⟧ = Monica Lewinsky
+⟦173⟧ = month
+⟦174⟧ = more dramatic roles
+⟦175⟧ = more operas
+⟦176⟧ = most notably Simon Boccanegra
+⟦177⟧ = mother
+⟦178⟧ = movie
+⟦179⟧ = movie theaters
+⟦180⟧ = music
+⟦181⟧ = music criticism
+⟦182⟧ = My Latin Soul
+⟦183⟧ = name
+⟦184⟧ = names
+⟦185⟧ = one author
+⟦186⟧ = opera
+⟦187⟧ = operas
+⟦188⟧ = operetta
+⟦189⟧ = orchestra
+⟦190⟧ = over a hundred complete operas
+⟦191⟧ = Pablo Sorozábal
+⟦192⟧ = Pagliacci
+⟦193⟧ = part
+⟦194⟧ = parts
+⟦195⟧ = pasticcio
+⟦196⟧ = pastiche
+⟦197⟧ = Pepita Embil
+⟦198⟧ = performance
+⟦199⟧ = Phelim McDermott
+⟦200⟧ = Pietro Mascagni's 1890 opera
+⟦201⟧ = Plácido Domingo
+⟦202⟧ = Plácido Domingo Ferrer
+⟦203⟧ = Plácido Domingo Jr.
+⟦204⟧ = play
+⟦205⟧ = popular opera singer
+⟦206⟧ = popular operatic tenor
+⟦207⟧ = Portuguese
+⟦208⟧ = premiere
+⟦209⟧ = premieres
+⟦210⟧ = primarily a "lirico-spinto" tenor
+⟦211⟧ = productions
+⟦212⟧ = public
+⟦213⟧ = publicity
+⟦214⟧ = recordings
+⟦215⟧ = Renato Bruson
+⟦216⟧ = repertoire
+⟦217⟧ = repertory
+⟦218⟧ = role
+⟦219⟧ = roles
+⟦220⟧ = Russian
+⟦221⟧ = rusticana
+⟦222⟧ = Samson
+⟦223⟧ = Samson et Dalila
+⟦224⟧ = Scala Orchestra
+⟦225⟧ = scandal
+⟦226⟧ = sea
+⟦227⟧ = seasons
+⟦228⟧ = series
+⟦229⟧ = several new zarzuelas
+⟦230⟧ = several recordings
+⟦231⟧ = Siegmund
+⟦232⟧ = singer
+⟦233⟧ = singing
+⟦234⟧ = soloist
+⟦235⟧ = son
+⟦236⟧ = song
+⟦237⟧ = Songs
+⟦238⟧ = Sony Classical
+⟦239⟧ = soprano
+⟦240⟧ = soundtrack
+⟦241⟧ = Sous le ciel de Paris
+⟦242⟧ = Spain
+⟦243⟧ = Spanish
+⟦244⟧ = Spanish tenor Plácido Domingo
+⟦245⟧ = spinto
+⟦246⟧ = Susan Boyle
+⟦247⟧ = Susan Graham
+⟦248⟧ = Sycorax
+⟦249⟧ = television
+⟦250⟧ = tenor
+⟦251⟧ = tenors
+⟦252⟧ = tenors Plácido Domingo
+⟦253⟧ = the "pasticcio
+⟦254⟧ = the "Queen
+⟦255⟧ = the 1940s
+⟦256⟧ = the 1998 Lewinsky scandal
+⟦257⟧ = the album
+⟦258⟧ = the Americas
+⟦259⟧ = the baritone repertoire
+⟦260⟧ = the Basque national choir
+⟦261⟧ = the Berliner Staatsoper
+⟦262⟧ = The book
+⟦263⟧ = the capital
+⟦264⟧ = the course
+⟦265⟧ = the early 2010s
+⟦266⟧ = The Enchanted Island
+⟦267⟧ = The film
+⟦268⟧ = the internationally famous operatic tenor
+⟦269⟧ = the Latino world's most memorable melodies
+⟦270⟧ = the Los Angeles Opera
+⟦271⟧ = The Met
+⟦272⟧ = the Metropolitan Opera
+⟦273⟧ = the Metropolitan Opera Live
+⟦274⟧ = the most acclaimed Otello
+⟦275⟧ = the most prestigious opera houses
+⟦276⟧ = the most prominent Spanish composers
+⟦277⟧ = the most versatile, intelligent and altogether accomplished operatic tenor
+⟦278⟧ = the mother
+⟦279⟧ = the movie's soundtrack
+⟦280⟧ = the names
+⟦281⟧ = The only new composition
+⟦282⟧ = The orchestra
+⟦283⟧ = The popular 70-year-old Spanish tenor
+⟦284⟧ = the premiere
+⟦285⟧ = The Private Lives
+⟦286⟧ = the public
+⟦287⟧ = the role
+⟦288⟧ = the same name
+⟦289⟧ = the sea
+⟦290⟧ = the small but important part
+⟦291⟧ = the Spanish Civil War
+⟦292⟧ = the Teatro alla
+⟦293⟧ = the tenor
+⟦294⟧ = the Three Tenors
+⟦295⟧ = the tracks
+⟦296⟧ = the words
+⟦297⟧ = the world
+⟦298⟧ = the world premieres
+⟦299⟧ = the year
+⟦300⟧ = theaters
+⟦301⟧ = their own roles
+⟦302⟧ = their own zarzuela company
+⟦303⟧ = their roles
+⟦304⟧ = this broadcast version
+⟦305⟧ = Tim Page
+⟦306⟧ = Time
+⟦307⟧ = Tosca
+⟦308⟧ = tracks
+⟦309⟧ = twenties
+⟦310⟧ = U.S. President Bill Clinton
+⟦311⟧ = various baroque composers
+⟦312⟧ = Verdi baritone roles
+⟦313⟧ = versatility
+⟦314⟧ = version
+⟦315⟧ = Virgin Classics
+⟦316⟧ = Walküre
+⟦317⟧ = What May
+⟦318⟧ = whose early career
+⟦319⟧ = wife
+⟦320⟧ = William Shakespeare
+⟦321⟧ = William Shakespeare's play
+⟦322⟧ = winner
+⟦323⟧ = words
+⟦324⟧ = world
+⟦325⟧ = year
+⟦326⟧ = Zaragoza
+⟦327⟧ = Zarzuela
+⟦328⟧ = zarzuela and operetta productions
+⟦329⟧ = zarzuela music
+⟦330⟧ = zarzuelas
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Cavalleria rusticana (1982 film)] ⟦64⟧⟨1⟩⟦221⟧⟨2⟩⟦16⟧⟨3⟩⟦103⟧⟨4⟩⟦107⟧⟨5⟩⟦200⟧⟨6⟩⟦186⟧⟨7⟩⟦288⟧⟨8⟩⟦183⟧⟨9⟩
+[Cavalleria rusticana (1982 film)] ⟨10⟩⟦250⟧⟨11⟩⟦250⟧⟨12⟩⟦201⟧⟨13⟩⟦170⟧⟨14⟩⟦171⟧⟨15⟩⟦239⟧⟨16⟩⟦215⟧⟨17⟩⟦301⟧⟨18⟩⟦219⟧⟨19⟩
+[Cavalleria rusticana (1982 film)] ⟦111⟧⟨20⟩⟦292⟧⟨21⟩⟦39⟧⟨22⟩⟦224⟧⟨23⟩⟦279⟧⟨24⟩⟦178⟧⟨25⟩⟦240⟧⟨26⟩
+[Cavalleria rusticana (1982 film)] ⟦267⟧⟨27⟩⟦103⟧⟨28⟩⟦59⟧⟨29⟩⟦59⟧⟨30⟩⟦249⟧⟨31⟩⟦249⟧⟨32⟩
+[Cavalleria rusticana (1982 film)] ⟨33⟩⟦94⟧⟨34⟩⟦94⟧⟨35⟩⟦84⟧⟨36⟩⟦192⟧⟨37⟩⟦201⟧⟨38⟩⟦107⟧⟨39⟩
+[The Enchanted Island (opera)] ⟦266⟧⟨40⟩⟦15⟧⟨41⟩⟦195⟧⟨42⟩⟦196⟧⟨43⟩⟦196⟧⟨44⟩⟦180⟧⟨45⟩⟦180⟧⟨46⟩⟦311⟧⟨47⟩⟦69⟧⟨48⟩⟦110⟧⟨49⟩⟦46⟧⟨50⟩⟦142⟧⟨51⟩⟦143⟧⟨52⟩⟦6⟧⟨53⟩⟦1⟧⟨54⟩⟦92⟧⟨55⟩⟦320⟧⟨56⟩
+[The Enchanted Island (opera)] ⟨57⟩⟦150⟧⟨58⟩⟦199⟧⟨59⟩⟦272⟧⟨60⟩⟦82⟧⟨61⟩⟦78⟧⟨62⟩⟦149⟧⟨63⟩⟦76⟧⟨64⟩⟦161⟧⟨65⟩⟦159⟧⟨66⟩
+[The Enchanted Island (opera)] ⟦283⟧⟨67⟩⟦325⟧⟨68⟩⟦250⟧⟨69⟩⟦201⟧⟨70⟩⟦290⟧⟨71⟩⟦193⟧⟨72⟩⟦289⟧⟨73⟩⟦226⟧⟨74⟩⟦115⟧⟨75⟩
+[The Enchanted Island (opera)] ⟨76⟩⟦173⟧⟨77⟩⟦25⟧⟨78⟩⟦198⟧⟨79⟩⟦253⟧⟨80⟩⟦195⟧⟨81⟩⟦178⟧⟨82⟩⟦179⟧⟨83⟩⟦300⟧⟨84⟩⟦297⟧⟨85⟩⟦324⟧⟨86⟩⟦193⟧⟨87⟩⟦193⟧⟨88⟩⟦273⟧⟨89⟩⟦119⟧⟨90⟩⟦228⟧⟨91⟩
+[The Enchanted Island (opera)] ⟨92⟩⟦315⟧⟨93⟩⟦304⟧⟨94⟩⟦59⟧⟨95⟩⟦314⟧⟨96⟩⟦94⟧⟨97⟩
+[The Enchanted Island (opera)] ⟦271⟧⟨98⟩⟦5⟧⟨99⟩⟦227⟧⟨100⟩
+[The Enchanted Island (opera)] ⟦77⟧⟨101⟩⟦87⟧⟨102⟩⟦303⟧⟨103⟩⟦219⟧⟨104⟩⟦284⟧⟨105⟩⟦208⟧⟨106⟩
+[The Enchanted Island (opera)] ⟦247⟧⟨107⟩⟦287⟧⟨108⟩⟦218⟧⟨109⟩⟦248⟧⟨110⟩⟦248⟧⟨111⟩⟦86⟧⟨112⟩
+[Songs (2012 Plácido Domingo album)] ⟦237⟧⟨113⟩⟦237⟧⟨114⟩⟦19⟧⟨115⟩⟦236⟧⟨116⟩⟦37⟧⟨117⟩⟦201⟧⟨118⟩⟦238⟧⟨119⟩
+[Songs (2012 Plácido Domingo album)] ⟦117⟧⟨120⟩⟦257⟧⟨121⟩⟦37⟧⟨122⟩⟦317⟧⟨123⟩⟦241⟧⟨124⟩⟦246⟧⟨125⟩⟦118⟧⟨126⟩⟦306⟧⟨127⟩⟦306⟧⟨128⟩⟦21⟧⟨129⟩⟦93⟧⟨130⟩⟦134⟧⟨131⟩⟦235⟧⟨132⟩⟦203⟧
+[Songs (2012 Plácido Domingo album)] ⟦282⟧⟨133⟩⟦189⟧⟨134⟩⟦98⟧⟨135⟩
+[Macbeth (opera)] ⟦163⟧⟨136⟩⟦44⟧⟨137⟩⟦186⟧⟨138⟩⟦104⟧⟨139⟩⟦32⟧⟨140⟩⟦114⟧⟨141⟩⟦43⟧⟨142⟩⟦157⟧⟨143⟩⟦106⟧⟨144⟩⟦33⟧⟨145⟩⟦33⟧⟨146⟩⟦45⟧⟨147⟩⟦321⟧⟨148⟩⟦204⟧⟨149⟩⟦288⟧⟨150⟩⟦183⟧⟨151⟩
+[De Mi Alma Latina] ⟦80⟧⟨152⟩⟦182⟧⟨153⟩⟦17⟧⟨154⟩⟦180⟧⟨155⟩⟦37⟧⟨156⟩⟦244⟧⟨157⟩⟦250⟧⟨158⟩
+[De Mi Alma Latina] ⟨159⟩⟦24⟧⟨160⟩⟦55⟧⟨161⟩⟦299⟧⟨162⟩⟦325⟧⟨163⟩
+[De Mi Alma Latina] ⟨164⟩⟦295⟧⟨165⟩⟦308⟧⟨166⟩⟦257⟧⟨167⟩⟦37⟧⟨168⟩⟦166⟧⟨169⟩⟦166⟧⟨170⟩⟦296⟧⟨171⟩⟦323⟧⟨172⟩⟦185⟧⟨173⟩⟦52⟧⟨174⟩⟦269⟧⟨175⟩⟦324⟧⟨176⟩⟦167⟧⟨177⟩
+[De Mi Alma Latina] ⟦281⟧⟨178⟩⟦70⟧⟨179⟩⟦257⟧⟨180⟩⟦37⟧⟨181⟩⟦79⟧⟨182⟩⟦20⟧⟨183⟩⟦89⟧⟨184⟩⟦235⟧⟨185⟩⟦203⟧⟨186⟩⟦38⟧⟨187⟩⟦237⟧⟨188⟩⟦243⟧⟨189⟩⟦4⟧⟨190⟩⟦47⟧⟨191⟩⟦58⟧⟨192⟩⟦207⟧⟨193⟩
+[De Mi Alma Latina] ⟦87⟧⟨194⟩⟦2⟧⟨195⟩⟦182⟧⟨196⟩⟦280⟧⟨197⟩⟦184⟧⟨198⟩⟦136⟧⟨199⟩⟦180⟧⟨200⟩⟦71⟧⟨201⟩
+[De Mi Alma Latina] ⟨202⟩⟦22⟧⟨203⟩⟦37⟧⟨204⟩⟦80⟧⟨205⟩
+[Repertoire of Plácido Domingo] ⟦244⟧⟨206⟩⟦250⟧⟨207⟩⟦11⟧⟨208⟩⟦219⟧⟨209⟩
+[Repertoire of Plácido Domingo] ⟨210⟩⟦131⟧⟨211⟩⟦216⟧⟨212⟩⟦9⟧⟨213⟩⟦65⟧⟨214⟩⟦307⟧⟨215⟩⟦90⟧⟨216⟩⟦83⟧⟨217⟩⟦164⟧⟨218⟩⟦85⟧⟨219⟩⟦151⟧⟨220⟩⟦99⟧⟨221⟩⟦36⟧⟨222⟩⟦108⟧⟨223⟩⟦8⟧⟨224⟩⟦7⟧⟨225⟩⟦63⟧⟨226⟩⟦222⟧⟨227⟩⟦223⟧⟨228⟩⟦112⟧⟨229⟩⟦231⟧⟨230⟩⟦316⟧⟨231⟩
+[Repertoire of Plácido Domingo] ⟦87⟧⟨232⟩⟦175⟧⟨233⟩⟦187⟧⟨234⟩⟦133⟧⟨235⟩⟦216⟧⟨236⟩
+[Repertoire of Plácido Domingo] ⟨237⟩⟦259⟧⟨238⟩⟦53⟧⟨239⟩⟦216⟧⟨240⟩⟦312⟧⟨241⟩⟦53⟧⟨242⟩⟦219⟧⟨243⟩
+[Repertoire of Plácido Domingo] ⟨244⟩⟦132⟧⟨245⟩⟦81⟧⟨246⟩⟦163⟧⟨247⟩⟦261⟧⟨248⟩⟦90⟧⟨249⟩⟦3⟧⟨250⟩⟦272⟧⟨251⟩⟦113⟧⟨252⟩⟦270⟧⟨253⟩
+[Repertoire of Plácido Domingo] ⟦305⟧⟨254⟩⟦26⟧⟨255⟩⟦322⟧⟨256⟩⟦180⟧⟨257⟩⟦181⟧⟨258⟩⟦75⟧⟨259⟩⟦87⟧⟨260⟩⟦18⟧⟨261⟩⟦49⟧⟨262⟩⟦277⟧⟨263⟩⟦250⟧⟨264⟩⟦286⟧⟨265⟩⟦212⟧⟨266⟩
+[Plácido Domingo] ⟦145⟧⟨267⟩⟦201⟧⟨268⟩⟦29⟧⟨269⟩⟦250⟧⟨270⟩⟦72⟧⟨271⟩⟦73⟧⟨272⟩⟦50⟧⟨273⟩⟦34⟧⟨274⟩
+[Plácido Domingo] ⟨275⟩⟦190⟧⟨276⟩⟦187⟧⟨277⟩⟦137⟧⟨278⟩⟦313⟧⟨279⟩⟦96⟧⟨280⟩⟦220⟧⟨281⟩⟦275⟧⟨282⟩⟦186⟧⟨283⟩⟦139⟧⟨284⟩⟦297⟧⟨285⟩⟦324⟧⟨286⟩
+[Plácido Domingo] ⟨287⟩⟦210⟧⟨288⟩⟦158⟧⟨289⟩⟦245⟧⟨290⟩⟦250⟧⟨291⟩⟦127⟧⟨292⟩⟦62⟧⟨293⟩⟦128⟧⟨294⟩⟦138⟧⟨295⟩⟦91⟧⟨296⟩⟦60⟧⟨297⟩⟦174⟧⟨298⟩⟦219⟧⟨299⟩⟦274⟧⟨300⟩⟦130⟧⟨301⟩⟦109⟧⟨302⟩
+[Plácido Domingo] ⟨303⟩⟦265⟧⟨304⟩⟦13⟧⟨305⟩⟦293⟧⟨306⟩⟦250⟧⟨307⟩⟦217⟧⟨308⟩⟦217⟧⟨309⟩⟦41⟧⟨310⟩⟦53⟧⟨311⟩⟦194⟧⟨312⟩⟦176⟧⟨313⟩
+[Plácido Domingo] ⟨314⟩⟦10⟧⟨315⟩⟦219⟧⟨316⟩
+[Pepita Embil] ⟦146⟧⟨317⟩⟦54⟧⟨318⟩⟦147⟧⟨319⟩⟦101⟧⟨320⟩⟦51⟧⟨321⟩⟦28⟧⟨322⟩⟦239⟧⟨323⟩⟦328⟧⟨324⟩⟦188⟧⟨325⟩⟦211⟧⟨326⟩⟦242⟧⟨327⟩⟦152⟧⟨328⟩
+[Pepita Embil] ⟨329⟩⟦254⟧⟨330⟩⟦327⟧⟨331⟩⟦123⟧⟨332⟩⟦235⟧⟨333⟩⟦268⟧⟨334⟩⟦250⟧⟨335⟩⟦201⟧⟨336⟩⟦318⟧⟨337⟩⟦62⟧⟨338⟩
+[Pepita Embil] ⟦95⟧⟨339⟩⟦122⟧⟨340⟩⟦62⟧⟨341⟩⟦233⟧⟨342⟩⟦27⟧⟨343⟩⟦234⟧⟨344⟩⟦67⟧⟨345⟩⟦67⟧⟨346⟩⟦260⟧⟨347⟩⟦66⟧⟨348⟩⟦97⟧⟨349⟩⟦105⟧⟨350⟩⟦291⟧⟨351⟩
+[Pepita Embil] ⟨352⟩⟦124⟧⟨353⟩⟦309⟧⟨354⟩⟦298⟧⟨355⟩⟦324⟧⟨356⟩⟦209⟧⟨357⟩⟦229⟧⟨358⟩⟦330⟧⟨359⟩
+[Pepita Embil] ⟨360⟩⟦276⟧⟨361⟩⟦69⟧⟨362⟩⟦255⟧⟨363⟩⟦12⟧⟨364⟩⟦102⟧⟨365⟩⟦141⟧⟨366⟩⟦191⟧⟨367⟩
+[Pepita Embil] ⟨368⟩⟦169⟧⟨369⟩⟦120⟧⟨370⟩⟦53⟧⟨371⟩⟦140⟧⟨372⟩⟦202⟧⟨373⟩
+[Pepita Embil] ⟨374⟩⟦169⟧⟨375⟩⟦31⟧⟨376⟩⟦68⟧⟨377⟩⟦258⟧⟨378⟩
+[Pepita Embil] ⟨379⟩⟦264⟧⟨380⟩⟦74⟧⟨381⟩⟦121⟧⟨382⟩⟦62⟧⟨383⟩⟦95⟧⟨384⟩⟦230⟧⟨385⟩⟦214⟧⟨386⟩⟦329⟧⟨387⟩⟦180⟧⟨388⟩
+[The Private Lives of the Three Tenors] ⟦285⟧⟨389⟩⟦160⟧⟨390⟩⟦294⟧⟨391⟩⟦23⟧⟨392⟩⟦116⟧⟨393⟩⟦56⟧⟨394⟩⟦251⟧⟨395⟩⟦252⟧⟨396⟩⟦162⟧⟨397⟩⟦144⟧⟨398⟩⟦165⟧⟨399⟩⟦278⟧⟨400⟩⟦177⟧⟨401⟩⟦172⟧⟨402⟩
+[The Private Lives of the Three Tenors] ⟦262⟧⟨403⟩⟦57⟧⟨404⟩⟦125⟧⟨405⟩⟦153⟧⟨406⟩⟦213⟧⟨407⟩⟦256⟧⟨408⟩⟦225⟧⟨409⟩⟦148⟧⟨410⟩⟦148⟧⟨411⟩⟦156⟧⟨412⟩⟦126⟧⟨413⟩⟦42⟧⟨414⟩⟦35⟧⟨415⟩⟦205⟧⟨416⟩⟦186⟧⟨417⟩⟦232⟧⟨418⟩⟦201⟧⟨419⟩⟦154⟧⟨420⟩⟦40⟧⟨421⟩⟦310⟧⟨422⟩
+[The Private Lives of the Three Tenors] ⟦87⟧⟨423⟩⟦155⟧⟨424⟩
+[Plácido Domingo Ferrer] ⟨425⟩⟦88⟧⟨426⟩⟦14⟧⟨427⟩⟦30⟧⟨428⟩⟦327⟧⟨429⟩⟦53⟧⟨430⟩⟦100⟧⟨431⟩⟦100⟧⟨432⟩⟦206⟧⟨433⟩⟦250⟧⟨434⟩⟦201⟧⟨435⟩
+[Plácido Domingo Ferrer] ⟨436⟩⟦129⟧⟨437⟩⟦62⟧⟨438⟩⟦326⟧⟨439⟩⟦263⟧⟨440⟩⟦61⟧⟨441⟩⟦48⟧⟨442⟩
+[Plácido Domingo Ferrer] ⟨443⟩⟦242⟧⟨444⟩⟦135⟧⟨445⟩⟦239⟧⟨446⟩⟦319⟧⟨447⟩⟦197⟧⟨448⟩
+[Plácido Domingo Ferrer] ⟨449⟩⟦169⟧⟨450⟩⟦302⟧⟨451⟩⟦68⟧⟨452⟩
+[Plácido Domingo Ferrer] ⟨453⟩⟦214⟧⟨454⟩⟦214⟧⟨455⟩⟦168⟧⟨456⟩⟦249⟧⟨457⟩
+
+[user]
+
+问题：
+Repertoire of Plácido Domingo appeared in an opera written by whom which was based on a play by William Shakespeare?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

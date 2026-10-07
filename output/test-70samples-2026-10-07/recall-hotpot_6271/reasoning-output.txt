@@ -1,0 +1,33 @@
+# 路径一：通过球员身份与选秀信息定位
+
+步骤1：使用⟦163⟧⟦164⟧，提取 Markelle Fultz 的全名与身份信息，确认其为 2017 年选秀球员，且被定位为“newly drafted point guard”⟦176⟧。
+
+步骤2：综合⟦263⟧⟦296⟧，交叉验证 2017 年 NBA 选秀中，Markelle Fultz 是“the first overall pick”，即状元秀，被 Philadelphia 76ers 选中。
+
+步骤3：使用⟦75⟧⟦350⟧，提取 Markelle Fultz 在大学时期效力于“the Washington Huskies”，即华盛顿大学篮球队。
+
+结论：Markelle Fultz 在大学时期效力于 Washington Huskies（华盛顿大学）。
+
+---
+
+# 路径二：通过 2017-18 赛季阵容与核心球员描述定位
+
+步骤1：使用⟦264⟧⟦267⟧，提取 2017-18 赛季 Philadelphia 76ers 的赛季描述，确认该赛季球队阵容中包含多名年轻核心球员。
+
+步骤2：综合⟦79⟧⟦143⟧⟦163⟧⟦176⟧，交叉验证球队年轻核心包括 Dario Saric、Joel Embiid、Markelle Fultz 等人，其中 Markelle Fultz 被明确标注为“newly drafted point guard”⟦176⟧。
+
+步骤3：使用⟦75⟧⟦350⟧，提取该新秀控球后卫在大学时期的具体球队为 Washington Huskies。
+
+结论：带领 76 人队前进的控球后卫是 Markelle Fultz，他在大学时期效力于 Washington Huskies。
+
+---
+
+# 路径三：通过选秀来源与大学篮球经历交叉验证
+
+步骤1：使用⟦52⟧⟦75⟧，提取 Markelle Fultz 是一名美国职业篮球运动员，曾参加大学篮球比赛。
+
+步骤2：综合⟦263⟧⟦296⟧⟦350⟧，交叉验证 2017 年 NBA 选秀中，Markelle Fultz 以状元身份被选中，选秀前效力于 Washington Huskies。
+
+步骤3：使用⟦176⟧⟦264⟧，确认 2017-18 赛季 76 人队中“newly drafted point guard”即为 Markelle Fultz，其大学球队为 Washington Huskies。
+
+结论：Markelle Fultz 在 Washington Huskies 打大学篮球，并于 2017 年成为 76 人队控球后卫。

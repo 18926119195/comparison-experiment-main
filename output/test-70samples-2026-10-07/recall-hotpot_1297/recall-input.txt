@@ -1,0 +1,301 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Academically Acceptable
+⟦2⟧ = "Forbes" magazine
+⟦3⟧ = (Ector
+⟦4⟧ = (formerly, the Presidential Museum
+⟦5⟧ = 4919 East University Blvd
+⟦6⟧ = a 2010 census population
+⟦7⟧ = a city
+⟦8⟧ = a component
+⟦9⟧ = a former county
+⟦10⟧ = a former state court judge
+⟦11⟧ = a historic bank building
+⟦12⟧ = a historic commercial building
+⟦13⟧ = a large area
+⟦14⟧ = a major metropolitan area
+⟦15⟧ = a museum and library complex
+⟦16⟧ = a new building
+⟦17⟧ = a one-story
+⟦18⟧ = a population
+⟦19⟧ = a projecting parapet
+⟦20⟧ = a public high school
+⟦21⟧ = a recent report
+⟦22⟧ = a Republican former member
+⟦23⟧ = a Republican member
+⟦24⟧ = a small portion
+⟦25⟧ = a state park
+⟦26⟧ = a two-story
+⟦27⟧ = a voting-age population
+⟦28⟧ = acre
+⟦29⟧ = act
+⟦30⟧ = age
+⟦31⟧ = an attached one-story shed-roof side porch
+⟦32⟧ = an attorney
+⟦33⟧ = an AVID National Demonstration School
+⟦34⟧ = an entertainment venue
+⟦35⟧ = an exterior fireplace
+⟦36⟧ = an exterior stone chimney
+⟦37⟧ = an unincorporated community
+⟦38⟧ = Andrews
+⟦39⟧ = any individual
+⟦40⟧ = approximately 4.7 mi
+⟦41⟧ = April
+⟦42⟧ = architect
+⟦43⟧ = area
+⟦44⟧ = attorney
+⟦45⟧ = bank
+⟦46⟧ = bay
+⟦47⟧ = Boones Ferry Road
+⟦48⟧ = brick
+⟦49⟧ = Brooks Frederick Landgraf
+⟦50⟧ = building
+⟦51⟧ = campus
+⟦52⟧ = census
+⟦53⟧ = Cherryville
+⟦54⟧ = Cherryville Township
+⟦55⟧ = chimney
+⟦56⟧ = city
+⟦57⟧ = Clackamas County
+⟦58⟧ = community
+⟦59⟧ = complex
+⟦60⟧ = component
+⟦61⟧ = counties
+⟦62⟧ = country
+⟦63⟧ = county
+⟦64⟧ = court
+⟦65⟧ = dances
+⟦66⟧ = David Crockett Junior High School
+⟦67⟧ = dinners
+⟦68⟧ = District
+⟦69⟧ = downtown
+⟦70⟧ = downtown Odessa
+⟦71⟧ = Ector
+⟦72⟧ = Ector County
+⟦73⟧ = election
+⟦74⟧ = entertainment
+⟦75⟧ = estimates
+⟦76⟧ = fireplace
+⟦77⟧ = five bay, side-gable log building
+⟦78⟧ = gable
+⟦79⟧ = Gaston County
+⟦80⟧ = governor
+⟦81⟧ = granite
+⟦82⟧ = granite quoins
+⟦83⟧ = his native Odessa
+⟦84⟧ = inaccurate and delayed surveying
+⟦85⟧ = individual
+⟦86⟧ = January
+⟦87⟧ = judge
+⟦88⟧ = July
+⟦89⟧ = just OHS
+⟦90⟧ = law
+⟦91⟧ = Leadership Library
+⟦92⟧ = legislation
+⟦93⟧ = libraries
+⟦94⟧ = library
+⟦95⟧ = lies
+⟦96⟧ = log
+⟦97⟧ = magazine
+⟦98⟧ = March
+⟦99⟧ = Mecklenburg County west
+⟦100⟧ = member
+⟦101⟧ = mi
+⟦102⟧ = Midland County
+⟦103⟧ = Multnomah County
+⟦104⟧ = museum
+⟦105⟧ = name
+⟦106⟧ = newspaper
+⟦107⟧ = nomination
+⟦108⟧ = north
+⟦109⟧ = North Carolina
+⟦110⟧ = North Carolina Highway
+⟦111⟧ = northern Lake Oswego
+⟦112⟧ = northwestern South Carolina
+⟦113⟧ = noted architect J. Foster Searles
+⟦114⟧ = Odessa
+⟦115⟧ = Odessa High
+⟦116⟧ = Odessa High School
+⟦117⟧ = Odessa Junior High School
+⟦118⟧ = Odessa Senior High School
+⟦119⟧ = Odessa's population
+⟦120⟧ = office
+⟦121⟧ = OHS
+⟦122⟧ = Oregon
+⟦123⟧ = parapet
+⟦124⟧ = park
+⟦125⟧ = part
+⟦126⟧ = performances
+⟦127⟧ = Polk County
+⟦128⟧ = population
+⟦129⟧ = porch
+⟦130⟧ = portion
+⟦131⟧ = Portland
+⟦132⟧ = position
+⟦133⟧ = precinct
+⟦134⟧ = quoins
+⟦135⟧ = re
+⟦136⟧ = receptions
+⟦137⟧ = report
+⟦138⟧ = Representatives
+⟦139⟧ = Romanesque Revival style brick
+⟦140⟧ = roof
+⟦141⟧ = school
+⟦142⟧ = schools
+⟦143⟧ = seat
+⟦144⟧ = second-story Palladian-type windows
+⟦145⟧ = shed
+⟦146⟧ = side
+⟦147⟧ = south
+⟦148⟧ = southwest Portland
+⟦149⟧ = state
+⟦150⟧ = stone
+⟦151⟧ = stone building
+⟦152⟧ = story
+⟦153⟧ = style
+⟦154⟧ = Sunnydale
+⟦155⟧ = surveying
+⟦156⟧ = term
+⟦157⟧ = Terwilliger Boulevard
+⟦158⟧ = Texas
+⟦159⟧ = the "Tryon Daily Bulletin
+⟦160⟧ = the 2000 Census
+⟦161⟧ = the 2010 census
+⟦162⟧ = The 645 acre park
+⟦163⟧ = The building
+⟦164⟧ = the campus
+⟦165⟧ = the Catawba River
+⟦166⟧ = the city
+⟦167⟧ = the combined population
+⟦168⟧ = the country
+⟦169⟧ = the county seat
+⟦170⟧ = the Ector County Independent School District
+⟦171⟧ = the Ellen Noel Art Museum
+⟦172⟧ = The full name
+⟦173⟧ = The highest ranking schools
+⟦174⟧ = the larger Midland–Odessa combined statistical area
+⟦175⟧ = the late State Representative George E. "Buddy" West
+⟦176⟧ = the legislative act
+⟦177⟧ = the many presidential libraries
+⟦178⟧ = The metropolitan area
+⟦179⟧ = the museum
+⟦180⟧ = The museum-library
+⟦181⟧ = the North Carolina Colony
+⟦182⟧ = the Odessa Metropolitan Statistical Area
+⟦183⟧ = the office
+⟦184⟧ = the only Oregon state park
+⟦185⟧ = the part
+⟦186⟧ = the Permian Basin
+⟦187⟧ = the position
+⟦188⟧ = the President
+⟦189⟧ = The Presidential Archives
+⟦190⟧ = the primary election
+⟦191⟧ = the principal city
+⟦192⟧ = The rural Gaston County election precinct
+⟦193⟧ = the school
+⟦194⟧ = the Texas Education Agency
+⟦195⟧ = the Texas House
+⟦196⟧ = the third fastest-growing small city
+⟦197⟧ = the three-term Republican Tryon D. Lewis
+⟦198⟧ = The Tryon Creek State Natural Area
+⟦199⟧ = the Tryon Daily Bulletin Building and Hester Building
+⟦200⟧ = the U.S. state
+⟦201⟧ = the United States
+⟦202⟧ = the United States Census Bureau
+⟦203⟧ = the University
+⟦204⟧ = the UTPB campus
+⟦205⟧ = the world’s smallest daily newspaper
+⟦206⟧ = theatrical performances
+⟦207⟧ = then Governor George W. Bush
+⟦208⟧ = This name
+⟦209⟧ = this title
+⟦210⟧ = three high schools
+⟦211⟧ = title
+⟦212⟧ = Tryon
+⟦213⟧ = Tryon Building
+⟦214⟧ = Tryon County
+⟦215⟧ = Tryon Creek
+⟦216⟧ = Tryon Dexter Lewis
+⟦217⟧ = Tryon Little Theater
+⟦218⟧ = two bay
+⟦219⟧ = two bay setback side-gable wings
+⟦220⟧ = type
+⟦221⟧ = United States
+⟦222⟧ = venue
+⟦223⟧ = voting
+⟦224⟧ = Ward
+⟦225⟧ = west
+⟦226⟧ = William Tryon
+⟦227⟧ = windows
+⟦228⟧ = wings
+⟦229⟧ = Winkler
+⟦230⟧ = Winkler counties
+⟦231⟧ = world
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Sunnydale (Tryon, North Carolina)] ⟦154⟧⟨1⟩⟦12⟧⟨2⟩⟦50⟧⟨3⟩⟦212⟧⟨4⟩⟦127⟧⟨5⟩
+[Sunnydale (Tryon, North Carolina)] ⟨6⟩⟦113⟧⟨7⟩⟦42⟧⟨8⟩
+[Sunnydale (Tryon, North Carolina)] ⟨9⟩⟦17⟧⟨10⟩⟦152⟧⟨11⟩⟦77⟧⟨12⟩⟦46⟧⟨13⟩⟦146⟧⟨14⟩⟦78⟧⟨15⟩⟦96⟧⟨16⟩⟦50⟧⟨17⟩⟦219⟧⟨18⟩⟦46⟧⟨19⟩⟦146⟧⟨20⟩⟦78⟧⟨21⟩⟦228⟧⟨22⟩
+[Sunnydale (Tryon, North Carolina)] ⟨23⟩⟦36⟧⟨24⟩⟦150⟧⟨25⟩⟦55⟧⟨26⟩⟦35⟧⟨27⟩⟦76⟧⟨28⟩⟦31⟧⟨29⟩⟦152⟧⟨30⟩⟦145⟧⟨31⟩⟦140⟧⟨32⟩⟦146⟧⟨33⟩⟦129⟧⟨34⟩
+[Sunnydale (Tryon, North Carolina)] ⟨35⟩⟦34⟧⟨36⟩⟦74⟧⟨37⟩⟦222⟧⟨38⟩⟦67⟧⟨39⟩⟦67⟧⟨40⟩⟦65⟧⟨41⟩⟦65⟧⟨42⟩⟦136⟧⟨43⟩⟦136⟧⟨44⟩⟦206⟧⟨45⟩⟦126⟧⟨46⟩
+[Sunnydale (Tryon, North Carolina)] ⟦163⟧⟨47⟩⟦50⟧⟨48⟩⟦217⟧⟨49⟩
+[Tryon, Gaston County, North Carolina] ⟦212⟧⟨50⟩⟦37⟧⟨51⟩⟦58⟧⟨52⟩⟦79⟧⟨53⟩⟦109⟧⟨54⟩⟦221⟧⟨55⟩
+[Tryon, Gaston County, North Carolina] ⟨56⟩⟦54⟧⟨57⟩⟦40⟧⟨58⟩⟦101⟧⟨59⟩⟦166⟧⟨60⟩⟦56⟧⟨61⟩⟦53⟧⟨62⟩⟦110⟧⟨63⟩
+[Tryon, Gaston County, North Carolina] ⟦192⟧⟨64⟩⟦73⟧⟨65⟩⟦133⟧⟨66⟩⟦212⟧⟨67⟩⟦27⟧⟨68⟩⟦223⟧⟨69⟩⟦30⟧⟨70⟩⟦128⟧⟨71⟩⟦160⟧⟨72⟩
+[Tryon County, North Carolina] ⟦214⟧⟨73⟩⟦9⟧⟨74⟩⟦63⟧⟨75⟩⟦200⟧⟨76⟩⟦149⟧⟨77⟩⟦109⟧⟨78⟩
+[Tryon County, North Carolina] ⟨79⟩⟦185⟧⟨80⟩⟦125⟧⟨81⟩⟦99⟧⟨82⟩⟦225⟧⟨83⟩⟦165⟧⟨84⟩⟦176⟧⟨85⟩⟦29⟧⟨86⟩⟦41⟧⟨87⟩
+[Tryon County, North Carolina] ⟨88⟩⟦84⟧⟨89⟩⟦155⟧⟨90⟩⟦214⟧⟨91⟩⟦13⟧⟨92⟩⟦43⟧⟨93⟩⟦112⟧⟨94⟩
+[Tryon County, North Carolina] ⟨95⟩⟦226⟧⟨96⟩⟦80⟧⟨97⟩⟦80⟧⟨98⟩⟦181⟧⟨99⟩
+[Odessa High School] ⟦116⟧⟨100⟩⟦121⟧⟨101⟩⟦20⟧⟨102⟩⟦141⟧⟨103⟩⟦114⟧⟨104⟩⟦158⟧⟨105⟩⟦221⟧⟨106⟩
+[Odessa High School] ⟨107⟩⟦210⟧⟨108⟩⟦142⟧⟨109⟩⟦170⟧⟨110⟩
+[Odessa High School] ⟦172⟧⟨111⟩⟦105⟧⟨112⟩⟦193⟧⟨113⟩⟦141⟧⟨114⟩⟦118⟧⟨115⟩
+[Odessa High School] ⟦208⟧⟨116⟩⟦105⟧⟨117⟩⟦117⟧⟨118⟩⟦66⟧⟨119⟩
+[Odessa High School] ⟨120⟩⟦193⟧⟨121⟩⟦141⟧⟨122⟩⟦115⟧⟨123⟩⟦89⟧⟨124⟩
+[Odessa High School] ⟨125⟩⟦193⟧⟨126⟩⟦141⟧⟨127⟩⟦1⟧⟨128⟩⟦194⟧⟨129⟩
+[Odessa High School] ⟨130⟩⟦41⟧⟨131⟩⟦116⟧⟨132⟩⟦33⟧⟨133⟩⟦173⟧⟨134⟩⟦142⟧⟨135⟩⟦168⟧⟨136⟩⟦62⟧⟨137⟩⟦209⟧⟨138⟩⟦211⟧⟨139⟩
+[Bank of Tryon Building] ⟦45⟧⟨140⟩⟦213⟧⟨141⟩⟦199⟧⟨142⟩⟦11⟧⟨143⟩⟦45⟧⟨144⟩⟦50⟧⟨145⟩⟦212⟧⟨146⟩⟦127⟧⟨147⟩
+[Bank of Tryon Building] ⟨148⟩⟦26⟧⟨149⟩⟦152⟧⟨150⟩⟦218⟧⟨151⟩⟦46⟧⟨152⟩⟦139⟧⟨153⟩⟦153⟧⟨154⟩⟦48⟧⟨155⟩⟦150⟧⟨156⟩⟦151⟧⟨157⟩⟦50⟧⟨158⟩
+[Bank of Tryon Building] ⟨159⟩⟦81⟧⟨160⟩⟦82⟧⟨161⟩⟦134⟧⟨162⟩⟦144⟧⟨163⟩⟦152⟧⟨164⟩⟦220⟧⟨165⟩⟦227⟧⟨166⟩⟦19⟧⟨167⟩⟦123⟧⟨168⟩
+[Bank of Tryon Building] ⟨169⟩⟦163⟧⟨170⟩⟦50⟧⟨171⟩⟦159⟧⟨172⟩⟦205⟧⟨173⟩⟦231⟧⟨174⟩⟦106⟧⟨175⟩
+[Odessa, Texas] ⟦114⟧⟨176⟩⟦7⟧⟨177⟩⟦56⟧⟨178⟩⟦169⟧⟨179⟩⟦63⟧⟨180⟩⟦143⟧⟨181⟩⟦72⟧⟨182⟩⟦158⟧⟨183⟩⟦221⟧⟨184⟩
+[Odessa, Texas] ⟨185⟩⟦72⟧⟨186⟩⟦24⟧⟨187⟩⟦130⟧⟨188⟩⟦166⟧⟨189⟩⟦56⟧⟨190⟩⟦102⟧⟨191⟩
+[Odessa, Texas] ⟦119⟧⟨192⟩⟦128⟧⟨193⟩⟦161⟧⟨194⟩⟦52⟧⟨195⟩⟦56⟧⟨196⟩⟦158⟧⟨197⟩⟦75⟧⟨198⟩⟦75⟧⟨199⟩⟦88⟧⟨200⟩⟦18⟧⟨201⟩⟦128⟧⟨202⟩⟦166⟧⟨203⟩⟦56⟧⟨204⟩
+[Odessa, Texas] ⟨205⟩⟦191⟧⟨206⟩⟦56⟧⟨207⟩⟦182⟧⟨208⟩⟦72⟧⟨209⟩
+[Odessa, Texas] ⟦178⟧⟨210⟩⟦43⟧⟨211⟩⟦8⟧⟨212⟩⟦60⟧⟨213⟩⟦174⟧⟨214⟩⟦43⟧⟨215⟩⟦6⟧⟨216⟩⟦52⟧⟨217⟩⟦128⟧⟨218⟩⟦21⟧⟨219⟩⟦137⟧⟨220⟩⟦202⟧⟨221⟩⟦167⟧⟨222⟩⟦128⟧⟨223⟩⟦88⟧⟨224⟩
+[Odessa, Texas] ⟨225⟩⟦2⟧⟨226⟩⟦97⟧⟨227⟩⟦114⟧⟨228⟩⟦196⟧⟨229⟩⟦56⟧⟨230⟩⟦201⟧⟨231⟩
+[Brooks Landgraf] ⟦49⟧⟨232⟩⟦32⟧⟨233⟩⟦44⟧⟨234⟩⟦83⟧⟨235⟩⟦158⟧⟨236⟩⟦23⟧⟨237⟩⟦100⟧⟨238⟩⟦195⟧⟨239⟩⟦138⟧⟨240⟩⟦68⟧⟨241⟩⟦71⟧⟨242⟩⟦38⟧⟨243⟩⟦224⟧⟨244⟩⟦229⟧⟨245⟩⟦61⟧⟨246⟩⟦61⟧⟨247⟩
+[Brooks Landgraf] ⟨248⟩⟦86⟧⟨249⟩⟦197⟧⟨250⟩⟦156⟧⟨251⟩⟦135⟧⟨252⟩⟦135⟧⟨253⟩⟦107⟧⟨254⟩⟦107⟧⟨255⟩⟦190⟧⟨256⟩⟦73⟧⟨257⟩⟦98⟧⟨258⟩
+[Tryon D. Lewis] ⟦216⟧⟨259⟩⟦32⟧⟨260⟩⟦44⟧⟨261⟩⟦114⟧⟨262⟩⟦158⟧⟨263⟩⟦22⟧⟨264⟩⟦100⟧⟨265⟩⟦195⟧⟨266⟩⟦138⟧⟨267⟩⟦68⟧⟨268⟩⟦3⟧⟨269⟩⟦38⟧⟨270⟩⟦230⟧⟨271⟩⟦61⟧⟨272⟩
+[Tryon D. Lewis] ⟨273⟩⟦10⟧⟨274⟩⟦149⟧⟨275⟩⟦64⟧⟨276⟩⟦87⟧⟨277⟩
+[Presidential Museum and Leadership Library] ⟦189⟧⟨278⟩⟦91⟧⟨279⟩⟦4⟧⟨280⟩⟦15⟧⟨281⟩⟦104⟧⟨282⟩⟦94⟧⟨283⟩⟦59⟧⟨284⟩⟦5⟧⟨285⟩⟦114⟧⟨286⟩⟦158⟧⟨287⟩⟦164⟧⟨288⟩⟦51⟧⟨289⟩⟦203⟧⟨290⟩⟦158⟧⟨291⟩⟦186⟧⟨292⟩
+[Presidential Museum and Leadership Library] ⟨293⟩⟦177⟧⟨294⟩⟦93⟧⟨295⟩⟦179⟧⟨296⟩⟦104⟧⟨297⟩⟦183⟧⟨298⟩⟦120⟧⟨299⟩⟦188⟧⟨300⟩⟦201⟧⟨301⟩⟦39⟧⟨302⟩⟦85⟧⟨303⟩⟦187⟧⟨304⟩⟦132⟧⟨305⟩
+[Presidential Museum and Leadership Library] ⟦180⟧⟨306⟩⟦104⟧⟨307⟩⟦94⟧⟨308⟩⟦69⟧⟨309⟩⟦70⟧⟨310⟩⟦92⟧⟨311⟩⟦92⟧⟨312⟩⟦175⟧⟨313⟩⟦114⟧⟨314⟩⟦90⟧⟨315⟩⟦90⟧⟨316⟩⟦207⟧⟨317⟩⟦179⟧⟨318⟩⟦16⟧⟨319⟩⟦50⟧⟨320⟩⟦171⟧⟨321⟩⟦204⟧⟨322⟩⟦51⟧⟨323⟩
+[Tryon Creek State Natural Area] ⟦198⟧⟨324⟩⟦25⟧⟨325⟩⟦149⟧⟨326⟩⟦124⟧⟨327⟩⟦131⟧⟨328⟩⟦200⟧⟨329⟩⟦149⟧⟨330⟩⟦122⟧⟨331⟩
+[Tryon Creek State Natural Area] ⟨332⟩⟦184⟧⟨333⟩⟦149⟧⟨334⟩⟦124⟧⟨335⟩⟦14⟧⟨336⟩⟦43⟧⟨337⟩
+[Tryon Creek State Natural Area] ⟦162⟧⟨338⟩⟦28⟧⟨339⟩⟦124⟧⟨340⟩⟦95⟧⟨341⟩⟦47⟧⟨342⟩⟦157⟧⟨343⟩⟦148⟧⟨344⟩⟦103⟧⟨345⟩⟦111⟧⟨346⟩⟦57⟧⟨347⟩⟦108⟧⟨348⟩⟦108⟧⟨349⟩⟦147⟧⟨350⟩⟦147⟧⟨351⟩⟦215⟧⟨352⟩
+
+[user]
+
+问题：
+Tryon D. Lewis is a lawyer from Odessa, Texas which is located in what county?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

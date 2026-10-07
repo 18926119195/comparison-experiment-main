@@ -1,0 +1,151 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Casino, New South Wales] ⟨48⟩⟨49⟩⟨50⟩⟨51⟩⟦126⟧⟨52⟩⟨53⟩⟨54⟩⟨55⟩⟨56⟩⟨57⟩⟦12⟧⟨58⟩⟨59⟩⟦98⟧⟨60⟩⟨61⟩
+[Casino, New South Wales] ⟨62⟩⟦103⟧⟦30⟧⟨63⟩⟨64⟩⟦132⟧⟨65⟩⟦117⟧⟦57⟧⟨66⟩⟨67⟩⟨68⟩⟦137⟧⟨69⟩
+[Mummulgum] ⟨96⟩⟦17⟧⟨97⟩⟨98⟩⟦128⟧⟨99⟩⟨100⟩⟨101⟩⟨102⟩⟨103⟩⟦135⟧⟨105⟩⟦36⟧⟨104⟩⟨106⟩⟨107⟩
+[Mummulgum] ⟨108⟩⟦87⟧⟨109⟩⟨110⟩⟨111⟩⟨112⟩⟨113⟩
+[Mummulgum] ⟨114⟩⟦11⟧⟨115⟩⟨116⟩⟦88⟧⟨117⟩⟨118⟩⟦61⟧⟨119⟩⟨120⟩⟨121⟩⟦92⟧⟨122⟩⟨123⟩⟦62⟧⟨124⟩
+[Mummulgum] ⟦58⟧⟦67⟧ | ⟦37⟧⟦67⟧ | ⟦118⟧⟨125⟩⟨126⟩⟦37⟧⟦37⟧⟨127⟩⟨128⟩⟦58⟧⟨129⟩⟦67⟧⟨130⟩ | ⟦37⟧⟦37⟧
+[Bruxner Highway] ⟦89⟧
+[Bruxner Highway] ⟦50⟧
+[Alstonville, New South Wales] ⟦59⟧⟦146⟧
+[Tenterfield, New South Wales] ⟦19⟧
+[Tenterfield, New South Wales] ⟦81⟧
+[Tenterfield, New South Wales] ⟦142⟧ | ⟦142⟧
+[Bonshaw, New South Wales] ⟦93⟧
+[Bonshaw, New South Wales] ⟦140⟧
+[Bonshaw, New South Wales] ⟦95⟧
+[Bonshaw, New South Wales] ⟦145⟧ | ⟦145⟧⟦25⟧ | ⟦25⟧
+[Goonellabah, New South Wales] ⟦70⟧⟦28⟧ | ⟦105⟧ | ⟦70⟧⟦28⟧ | ⟦105⟧
+[Goonellabah, New South Wales] ⟦38⟧⟦15⟧⟦78⟧⟦76⟧
+
+符号表：
+⟦11⟧ = 58 km
+⟦12⟧ = 9,629 people
+⟦15⟧ = a population
+⟦17⟧ = a small rural village
+⟦19⟧ = a town
+⟦25⟧ = area
+⟦28⟧ = Australia
+⟦30⟧ = banks
+⟦36⟧ = capital
+⟦37⟧ = Casino
+⟦38⟧ = census
+⟦50⟧ = Highway
+⟦57⟧ = junction
+⟦58⟧ = kilometres
+⟦59⟧ = km
+⟦61⟧ = Kyogle
+⟦62⟧ = Kyogle Council
+⟦67⟧ = Mummulgum
+⟦70⟧ = New South Wales
+⟦76⟧ = people
+⟦78⟧ = population
+⟦81⟧ = region
+⟦87⟧ = Shannon Brook
+⟦88⟧ = south-west
+⟦89⟧ = state
+⟦92⟧ = surrounding area
+⟦93⟧ = Sydney
+⟦95⟧ = Tenterfield
+⟦98⟧ = the 2011 census
+⟦103⟧ = the banks
+⟦105⟧ = the Bruxner Highway
+⟦117⟧ = the junction
+⟦118⟧ = The nearest large town
+⟦126⟧ = the Northern Rivers area
+⟦128⟧ = the Northern Rivers region
+⟦132⟧ = the Richmond River
+⟦135⟧ = the state capital
+⟦137⟧ = the Summerland Way
+⟦140⟧ = the village
+⟦142⟧ = town
+⟦145⟧ = village
+⟦146⟧ = west
+
+占位符映射：
+⟨48⟩ = 
+⟨49⟩ =  is 
+⟨50⟩ = 
+⟨51⟩ =  in 
+⟨52⟩ = 
+⟨53⟩ =  of 
+⟨54⟩ = , 
+⟨55⟩ = , with 
+⟨56⟩ = 
+⟨57⟩ =  of 
+⟨58⟩ = 
+⟨59⟩ =  at 
+⟨60⟩ = 
+⟨61⟩ =  .
+⟨62⟩ =  It lies on 
+⟨63⟩ = 
+⟨64⟩ =  of 
+⟨65⟩ =  and is situated at 
+⟨66⟩ = 
+⟨67⟩ =  of 
+⟨68⟩ =  and 
+⟨69⟩ = .
+⟨96⟩ =  is 
+⟨97⟩ = 
+⟨98⟩ =  in 
+⟨99⟩ = 
+⟨100⟩ =  of 
+⟨101⟩ = , 
+⟨102⟩ = , 740 
+⟨103⟩ =  from 
+⟨104⟩ = 
+⟨105⟩ =  
+⟨106⟩ = , 
+⟨107⟩ = .
+⟨108⟩ =  is located on 
+⟨109⟩ =  between 
+⟨110⟩ =  and 
+⟨111⟩ =  on 
+⟨112⟩ =  (
+⟨113⟩ =  44).
+⟨114⟩ =  It is 
+⟨115⟩ = 
+⟨116⟩ =  
+⟨117⟩ = 
+⟨118⟩ =  of 
+⟨119⟩ =  with 
+⟨120⟩ = 
+⟨121⟩ =  and 
+⟨122⟩ = 
+⟨123⟩ =  being locally administered by 
+⟨124⟩ = .
+⟨125⟩ = 
+⟨126⟩ =  is 
+⟨127⟩ = 
+⟨128⟩ =  which is 27 
+⟨129⟩ =  east of 
+⟨130⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?

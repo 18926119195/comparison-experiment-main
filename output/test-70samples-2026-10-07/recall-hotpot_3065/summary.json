@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_3065",
+  "question": "Kasper Peter Schmeichel is the son of a professional footballer who was voted what in 1992 and 1993?",
+  "expectedAnswer": "IFFHS World's Best Goalkeeper",
+  "predictedAnswer": "# 路径一：父子关系链推理\n\n步骤1：使用⟦59⟧，提取 Kasper Peter Schmeichel 的身份信息，确认其为丹麦职业足球运动员。\n\n步骤2：综合⟦91⟧⟦111⟧，对比两条材料中关于“son”的表述——⟦91⟧指出 Kasper 是某人的 son，⟦111⟧同样指出 Kasper 是 the son，交叉验证确认 Kasper 的父亲是一位足球运动员。\n\n步骤3：使用⟦76⟧，提取 Peter Bolesław Schmeichel MBE 的身份，确认其为丹麦前职业足球运动员。\n\n步骤4：综合⟦108⟧⟦152⟧⟦153⟧，提取 Peter Schmeichel 曾被 voted 为 the IFFHS World's Best Goalkeeper，且该荣誉发生在 1992 和 1993 年。\n\n结论：Kasper Peter Schmeichel 的父亲 Peter Schmeichel 在 1992 和 1993 年被 voted 为 **the IFFHS World's Best Goalkeeper**（IFFHS 世界最佳门将）。\n\n---\n\n# 路径二：荣誉时间线交叉验证\n\n步骤1：使用⟦76⟧，提取 Peter Bolesław Schmeichel MBE 的基本信息，确认其出生于 1963 年 11 月 18 日，是丹麦前职业足球运动员。\n\n步骤2：使用⟦152⟧，提取关键信息——他被 voted 为某荣誉，且该投票发生在 1992 和 1993 年。\n\n步骤3：使用⟦108⟧，提取具体荣誉名称为 the IFFHS World's Best Goalkeeper。\n\n步骤4：综合⟦108⟧⟦152⟧⟦153⟧，将荣誉名称与时间节点对应，确认 1992 和 1993 年获得的荣誉即为 the IFFHS World's Best Goalkeeper。\n\n结论：答案为 **the IFFHS World's Best Goalkeeper**。\n\n---\n\n# 路径三：排除法定位答案\n\n步骤1：使用⟦59⟧⟦5⟧⟦10⟧，提取 Kasper Schmeichel 是丹麦职业足球运动员，司职门将（goalkeeper）。\n\n步骤2：使用⟦91⟧⟦111⟧，确认 Kasper 的父亲是一位足球运动员，结合⟦76⟧可知该父亲为 Peter Schmeichel。\n\n步骤3：使用⟦98⟧⟦114⟧，提取 Peter Schmeichel 的其他成就——赢得 1999 UEFA Champions League 和 UEFA Euro 1992，但这些并非“被投票选出”的荣誉。\n\n步骤4：综合⟦108⟧⟦152⟧⟦153⟧，排除团队荣誉后，定位到个人投票荣誉——the IFFHS World's Best Goalkeeper，且时间恰好为 1992 和 1993 年。\n\n结论：Peter Schmeichel 在 1992 和 1993 年被 voted 为 **the IFFHS World's Best Goalkeeper**。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦59⟧⟨184⟩⟦5⟧⟦37⟧⟨185⟩⟨186⟩⟦10⟧⟨187⟩⟨188⟩⟦80⟧⟦25⟧⟨190⟩",
+  "nounCount": 188,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 3305,
+    "completion_tokens": 233,
+    "total_tokens": 3538,
+    "prompt_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "prompt_cache_hit_tokens": 3072,
+    "prompt_cache_miss_tokens": 233
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 664,
+    "total_tokens": 1654,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 990
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_1813",
+  "question": "MadMaze was developed by Eric Goldberg as what type of game? ",
+  "expectedAnswer": "role-playing game",
+  "predictedAnswer": "# 路径一：直接属性提取\n\n步骤1：使用⟦130⟧，提取 MadMaze 的基本定义信息，判断其游戏类型。\n\n步骤2：综合⟦130⟧⟦31⟧，交叉验证 MadMaze 与 \"an online video game\" 之间的对应关系，确认其类型归属。\n\n结论：MadMaze 是一款在线电子游戏（an online video game）。\n\n# 路径二：开发者关联验证\n\n步骤1：使用⟦76⟧，提取 Eric Goldberg 的身份信息，判断其与 MadMaze 的关联。\n\n步骤2：综合⟦130⟧⟦76⟧，对比开发者与游戏类型之间的对应关系，确认 Eric Goldberg 作为 MadMaze 开发者的角色定位。\n\n结论：Eric Goldberg 是 MadMaze 的开发者，该游戏为在线电子游戏类型。\n\n# 路径三：符号化拓扑链综合推理\n\n步骤1：使用⟦130⟧，提取 MadMaze 在拓扑链中的位置及其关联的占位符序列。\n\n步骤2：综合⟦130⟧⟦31⟧⟦76⟧，从拓扑链中提取 \"MadMaze is an online video game designed by Eric Goldberg\" 的完整语义结构。\n\n结论：MadMaze 是由 Eric Goldberg 设计的在线电子游戏（online video game）。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦130⟧⟨224⟩⟦31⟧⟦240⟧⟨226⟩⟨225⟩⟨227⟩⟨228⟩⟦98⟧⟦93⟧⟦76⟧⟨237⟩",
+  "nounCount": 342,
+  "score": 0.5,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5878,
+    "completion_tokens": 174,
+    "total_tokens": 6052,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632
+    },
+    "prompt_cache_hit_tokens": 5632,
+    "prompt_cache_miss_tokens": 246
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 736,
+    "completion_tokens": 286,
+    "total_tokens": 1022,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 736
+  }
+}

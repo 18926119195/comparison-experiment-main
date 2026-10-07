@@ -1,0 +1,84 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Band-e Amir National Park] ⟦26⟧⟨1⟩⟦3⟧⟨2⟩⟦101⟧⟨3⟩⟦16⟧⟨4⟩⟦80⟧⟨5⟩
+[Band-e Amir National Park] ⟦87⟧⟨18⟩⟨19⟩⟦86⟧⟦56⟧⟨20⟩⟨21⟩⟦29⟧⟨22⟩⟦20⟧⟨23⟩⟦41⟧⟦41⟧⟨24⟩⟨25⟩⟦95⟧⟨26⟩⟨27⟩⟦84⟧⟨28⟩⟦23⟧⟨29⟩
+[Band-e-Amir Dragons] ⟦50⟧ | ⟦89⟧⟦73⟧⟨199⟩⟨200⟩⟦81⟧⟨201⟩⟦13⟧⟦66⟧⟨202⟩⟨203⟩⟦69⟧⟦50⟧⟨204⟩⟨205⟩⟦25⟧⟨206⟩
+
+符号表：
+⟦3⟧ = (Persian
+⟦13⟧ = a series
+⟦16⟧ = Afghanistan's first national park
+⟦20⟧ = approximately 3000 m
+⟦23⟧ = Bamiyan
+⟦25⟧ = Bamyan Province
+⟦26⟧ = Band-e Amir National Park
+⟦29⟧ = central Afghanistan
+⟦41⟧ = elevation
+⟦50⟧ = lakes
+⟦56⟧ = mountains
+⟦66⟧ = series
+⟦69⟧ = six deep blue lakes
+⟦73⟧ = team
+⟦80⟧ = the Bamyan Province
+⟦81⟧ = the Band-e Amir
+⟦84⟧ = the famous Buddhas
+⟦86⟧ = the Hindu Kush mountains
+⟦87⟧ = The lakes
+⟦89⟧ = The team
+⟦95⟧ = west
+⟦101⟧ = بند امیر‎ ‎
+
+占位符映射：
+⟨1⟩ =  
+⟨2⟩ = : 
+⟨3⟩ =  ) is 
+⟨4⟩ = , located in 
+⟨5⟩ = .
+⟨18⟩ = 
+⟨19⟩ =  are situated in 
+⟨20⟩ = 
+⟨21⟩ =  of 
+⟨22⟩ =  at 
+⟨23⟩ =  of 
+⟨24⟩ = 
+⟨25⟩ = , 
+⟨26⟩ = 
+⟨27⟩ =  of 
+⟨28⟩ =  of 
+⟨29⟩ = .
+⟨199⟩ = 
+⟨200⟩ =  is named after 
+⟨201⟩ = , 
+⟨202⟩ = 
+⟨203⟩ =  of 
+⟨204⟩ = 
+⟨205⟩ =  in 
+⟨206⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Band-e-Amir Dragons is named after the lakes in which Afghan national park?

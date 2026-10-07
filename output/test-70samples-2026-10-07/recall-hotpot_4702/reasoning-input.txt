@@ -1,0 +1,100 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Elena Krykanova] ⟦49⟧⟨1⟩⟦89⟧⟨2⟩⟦204⟧⟨3⟩⟦10⟧⟨5⟩⟨4⟩⟨6⟩⟨7⟩
+[Elena Krykanova] ⟨8⟩⟦58⟧⟨10⟩⟨9⟩⟦19⟧⟨12⟩⟨11⟩⟨13⟩
+[Ludmila Belousova] ⟦164⟧
+[Oksana Grishuk] ⟦113⟧
+[Evgeni Platov] ⟦81⟧⟦44⟧ | ⟦50⟧⟨292⟩⟨293⟩⟦203⟧⟨294⟩⟦13⟧⟦81⟧⟨296⟩⟦44⟧⟨295⟩⟨297⟩
+[Evgeni Platov] ⟨298⟩⟦75⟧⟦114⟧⟨299⟩⟨300⟩⟦107⟧⟨301⟩
+[Evgeni Platov] ⟦40⟧ | ⟨302⟩⟦69⟧⟨303⟩⟨305⟩⟨304⟩⟨306⟩⟦61⟧⟨308⟩⟨307⟩⟨309⟩⟦174⟧⟨311⟩⟦40⟧⟦40⟧⟦40⟧⟨310⟩⟨312⟩
+[Roman Vlasov] ⟦131⟧
+[Roman Vlasov] ⟦176⟧ | ⟦22⟧⟦176⟧⟦176⟧⟦176⟧
+
+符号表：
+⟦10⟧ = a former ice dancer
+⟦13⟧ = a Russian former competitive ice dancer
+⟦19⟧ = a three-time World Junior champion
+⟦22⟧ = a two-time Olympic Champion
+⟦40⟧ = champion
+⟦44⟧ = dancer
+⟦49⟧ = Elena Krykanova
+⟦50⟧ = Evgeni Arkadievich Platov
+⟦58⟧ = former partner Evgeni Platov
+⟦61⟧ = four-time World champion
+⟦69⟧ = Grishuk
+⟦75⟧ = his partnership
+⟦81⟧ = ice
+⟦89⟧ = Krikanova
+⟦107⟧ = Oksana Grishuk
+⟦113⟧ = partner
+⟦114⟧ = partnership
+⟦131⟧ = Russian
+⟦164⟧ = the Soviet Union
+⟦174⟧ = three-time European champion
+⟦176⟧ = time
+⟦203⟧ = Евгений Аркадьевич Платов
+⟦204⟧ = Елена Крыканова
+
+占位符映射：
+⟨1⟩ = , also romanized as 
+⟨2⟩ = , (Russian: 
+⟨3⟩ =  ) is 
+⟨4⟩ = 
+⟨5⟩ =  
+⟨6⟩ =  who represented 
+⟨7⟩ = .
+⟨8⟩ =  With 
+⟨9⟩ = 
+⟨10⟩ =  Evgeni Platov, she is 
+⟨11⟩ = 
+⟨12⟩ =  World Junior 
+⟨13⟩ =  (1984–1986).
+⟨292⟩ =  (
+⟨293⟩ = : 
+⟨294⟩ =  , born August 7, 1967) is 
+⟨295⟩ = 
+⟨296⟩ =  
+⟨297⟩ = .
+⟨298⟩ =  He is best known for 
+⟨299⟩ = 
+⟨300⟩ =  with 
+⟨301⟩ =  from 1989–1998.
+⟨302⟩ =  With 
+⟨303⟩ = , he is 
+⟨304⟩ = 
+⟨305⟩ =  Olympic 
+⟨306⟩ =  (1994, 1998), 
+⟨307⟩ = 
+⟨308⟩ =  World 
+⟨309⟩ =  (1994–1997), and 
+⟨310⟩ = 
+⟨311⟩ =  European 
+⟨312⟩ =  (1996–1998).
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+With whom was a notable partner of Elena Krykanova a two-time Olympic champion with?

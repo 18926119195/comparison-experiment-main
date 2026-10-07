@@ -1,0 +1,88 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Great Antonine Altar] ⟨151⟩⟦27⟧⟦158⟧⟨152⟩⟨153⟩⟦126⟧⟦99⟧⟨154⟩⟨155⟩⟨156⟩
+[History of the Roman Empire] ⟦119⟧ | ⟦324⟧⟨364⟩⟦258⟧⟦109⟧⟨365⟩⟨366⟩⟦245⟧⟨367⟩⟨368⟩⟨369⟩⟨370⟩⟦236⟧⟨371⟩⟦174⟧⟨372⟩⟦318⟧⟨373⟩⟦119⟧⟨374⟩⟨375⟩⟦282⟧⟨376⟩
+[Antoninus Pius] ⟦47⟧⟨454⟩⟦4⟧⟨455⟩⟦317⟧⟨456⟩⟦9⟧⟨457⟩⟦159⟧⟨458⟩⟦46⟧⟨459⟩⟦203⟧⟦85⟧⟨460⟩⟨461⟩ | ⟦47⟧ | ⟦47⟧
+[Antoninus Pius] ⟦278⟧⟦84⟧⟦84⟧
+
+符号表：
+⟦4⟧ = (Latin
+⟦9⟧ = 19 September
+⟦27⟧ = a prideful, mature man
+⟦46⟧ = Antoninus
+⟦47⟧ = Antoninus Pius
+⟦84⟧ = dynasty
+⟦85⟧ = emperor
+⟦99⟧ = father
+⟦109⟧ = founder
+⟦119⟧ = Hadrian
+⟦126⟧ = his father
+⟦158⟧ = man
+⟦159⟧ = March
+⟦174⟧ = Nerva
+⟦203⟧ = Roman emperor
+⟦236⟧ = the "Five Good Emperors
+⟦245⟧ = the brief Flavian dynasty
+⟦258⟧ = the founder
+⟦278⟧ = the Nerva–Antonine dynasty
+⟦282⟧ = the philosophically inclined Marcus Aurelius
+⟦317⟧ = Titus Aelius Hadrianus Antoninus Augustus Pius
+⟦318⟧ = Trajan
+⟦324⟧ = Vespasian
+
+占位符映射：
+⟨151⟩ =  stands as 
+⟨152⟩ = 
+⟨153⟩ = , bearded, as 
+⟨154⟩ = 
+⟨155⟩ = , 
+⟨156⟩ = , was known to be.
+⟨364⟩ =  became 
+⟨365⟩ = 
+⟨366⟩ =  of 
+⟨367⟩ = 
+⟨368⟩ = , to be followed by 
+⟨369⟩ = 
+⟨370⟩ =  which produced 
+⟨371⟩ = ": 
+⟨372⟩ = , 
+⟨373⟩ = , 
+⟨374⟩ = , 
+⟨375⟩ =  and 
+⟨376⟩ = .
+⟨454⟩ =  
+⟨455⟩ = : "
+⟨456⟩ = " ; 
+⟨457⟩ =  867 
+⟨458⟩ =  161), also known as 
+⟨459⟩ = , was 
+⟨460⟩ = 
+⟨461⟩ =  from 138 to 161.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+When did the the Antonine who was known as the third of the five good emperors live?

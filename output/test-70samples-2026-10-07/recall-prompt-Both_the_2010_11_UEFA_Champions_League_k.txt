@@ -1,0 +1,229 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "European Cup
+⟦2⟧ = 13 February
+⟦3⟧ = 14 February
+⟦4⟧ = 15 February
+⟦5⟧ = 16 February
+⟦6⟧ = 16 teams
+⟦7⟧ = 17 February
+⟦8⟧ = 18 May
+⟦9⟧ = 19th
+⟦10⟧ = 2015–16
+⟦11⟧ = 26 August
+⟦12⟧ = 26 May
+⟦13⟧ = 28 May
+⟦14⟧ = 3 June
+⟦15⟧ = 32 teams
+⟦16⟧ = 4–1
+⟦17⟧ = 6 June
+⟦18⟧ = a 1–1 draw
+⟦19⟧ = a football match
+⟦20⟧ = a repeat
+⟦21⟧ = a row
+⟦22⟧ = A total
+⟦23⟧ = all four games
+⟦24⟧ = Arsenal and Leeds United
+⟦25⟧ = Aviva Stadium
+⟦26⟧ = Barcelona
+⟦27⟧ = Bayern
+⟦28⟧ = Bayern Munich
+⟦29⟧ = Berlin
+⟦30⟧ = body
+⟦31⟧ = Cardiff
+⟦32⟧ = champions
+⟦33⟧ = club
+⟦34⟧ = competition
+⟦35⟧ = competitions
+⟦36⟧ = culmination
+⟦37⟧ = defeat
+⟦38⟧ = draw
+⟦39⟧ = Dublin
+⟦40⟧ = each group
+⟦41⟧ = England
+⟦42⟧ = English sides
+⟦43⟧ = era
+⟦44⟧ = Europe's premier club football tournament
+⟦45⟧ = extra time
+⟦46⟧ = final
+⟦47⟧ = finals
+⟦48⟧ = first title
+⟦49⟧ = football
+⟦50⟧ = games
+⟦51⟧ = Germany
+⟦52⟧ = group
+⟦53⟧ = groups
+⟦54⟧ = hand
+⟦55⟧ = holders
+⟦56⟧ = Ireland
+⟦57⟧ = Italy
+⟦58⟧ = Juventus
+⟦59⟧ = Kiev
+⟦60⟧ = knockout
+⟦61⟧ = London
+⟦62⟧ = Manchester United
+⟦63⟧ = match
+⟦64⟧ = Milan
+⟦65⟧ = Millennium Stadium
+⟦66⟧ = Monaco
+⟦67⟧ = nine finals
+⟦68⟧ = Olympiastadion
+⟦69⟧ = penalties
+⟦70⟧ = phase
+⟦71⟧ = place
+⟦72⟧ = Porto
+⟦73⟧ = Porto 2–0
+⟦74⟧ = Portugal
+⟦75⟧ = premier
+⟦76⟧ = process
+⟦77⟧ = Real Madrid
+⟦78⟧ = repeat
+⟦79⟧ = Republic
+⟦80⟧ = route
+⟦81⟧ = row
+⟦82⟧ = San Siro
+⟦83⟧ = season
+⟦84⟧ = side
+⟦85⟧ = sides
+⟦86⟧ = Spain
+⟦87⟧ = Spanish side and title holders
+⟦88⟧ = stage
+⟦89⟧ = team
+⟦90⟧ = teams
+⟦91⟧ = the "European Champion Clubs' Cup
+⟦92⟧ = the 16 teams
+⟦93⟧ = the 1998 final
+⟦94⟧ = the 19th
+⟦95⟧ = The 2000–01 UEFA Champions League
+⟦96⟧ = the 2010–11 season
+⟦97⟧ = the 2010–11 UEFA Champions League
+⟦98⟧ = the 2010–11 UEFA Champions League winners
+⟦99⟧ = the 2010–11 UEFA Europa League
+⟦100⟧ = the 2010–11 UEFA Europa League winners
+⟦101⟧ = The 2011 final
+⟦102⟧ = The 2011 UEFA Champions League Final
+⟦103⟧ = The 2011 UEFA Super Cup
+⟦104⟧ = the 2014–15 UEFA Champions League
+⟦105⟧ = The 2014–15 UEFA Champions League knockout phase
+⟦106⟧ = the 2015–16 UEFA Champions League
+⟦107⟧ = The 2015–16 UEFA Champions League knockout phase
+⟦108⟧ = the 2016–17 UEFA Champions League
+⟦109⟧ = The 2016–17 UEFA Champions League knockout phase
+⟦110⟧ = The 2017 UEFA Champions League Final
+⟦111⟧ = the 2017–18 UEFA Champions League
+⟦112⟧ = The 2017–18 UEFA Champions League knockout phase
+⟦113⟧ = the 24 teams
+⟦114⟧ = the 25th season
+⟦115⟧ = the 36th UEFA Super Cup
+⟦116⟧ = the 46th season
+⟦117⟧ = the 56th season
+⟦118⟧ = the 62nd season
+⟦119⟧ = the champions
+⟦120⟧ = the Champions League era
+⟦121⟧ = The competition
+⟦122⟧ = the culmination
+⟦123⟧ = the defending champions
+⟦124⟧ = the eight teams
+⟦125⟧ = the European Champion Clubs' Cup
+⟦126⟧ = the European Cup
+⟦127⟧ = the European football governing body UEFA
+⟦128⟧ = the final match
+⟦129⟧ = the first ever team
+⟦130⟧ = the group stage
+⟦131⟧ = the knockout phase
+⟦132⟧ = the match
+⟦133⟧ = the Millennium Stadium
+⟦134⟧ = the NSC Olimpiyskiy Stadium
+⟦135⟧ = the other hand
+⟦136⟧ = the preceding two Champions League winners
+⟦137⟧ = the previous season
+⟦138⟧ = the process
+⟦139⟧ = the reigning champions
+⟦140⟧ = the Stade Louis II
+⟦141⟧ = the title
+⟦142⟧ = the tournament
+⟦143⟧ = the two club competitions
+⟦144⟧ = the UEFA Champions League
+⟦145⟧ = the UEFA Champions League group stage
+⟦146⟧ = the UEFA Europa League
+⟦147⟧ = the winner
+⟦148⟧ = The winners
+⟦149⟧ = their 12th title
+⟦150⟧ = their first UEFA Champions League title
+⟦151⟧ = their groups
+⟦152⟧ = their title
+⟦153⟧ = third place
+⟦154⟧ = this competition
+⟦155⟧ = this victory
+⟦156⟧ = time
+⟦157⟧ = title
+⟦158⟧ = total
+⟦159⟧ = tournament
+⟦160⟧ = UEFA
+⟦161⟧ = UEFA's premier European club football tournament
+⟦162⟧ = Ukraine
+⟦163⟧ = Valencia
+⟦164⟧ = Valencia 5–4
+⟦165⟧ = Valencia's second consecutive final defeat
+⟦166⟧ = victory
+⟦167⟧ = Wales
+⟦168⟧ = Wembley Stadium
+⟦169⟧ = winner
+⟦170⟧ = winners
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[2011 UEFA Super Cup] ⟦103⟧⟨1⟩⟦115⟧⟨2⟩⟦139⟧⟨3⟩⟦32⟧⟨4⟩⟦143⟧⟨5⟩⟦33⟧⟨6⟩⟦35⟧⟨7⟩⟦127⟧⟨8⟩⟦49⟧⟨9⟩⟦30⟧⟨10⟩⟦144⟧⟨11⟩⟦146⟧⟨12⟩
+[2011 UEFA Super Cup] ⟨13⟩⟦71⟧⟨14⟩⟦71⟧⟨15⟩⟦140⟧⟨16⟩⟦66⟧⟨17⟩⟦11⟧⟨18⟩
+[2011 UEFA Super Cup] ⟨19⟩⟦98⟧⟨20⟩⟦170⟧⟨21⟩⟦26⟧⟨22⟩⟦86⟧⟨23⟩⟦100⟧⟨24⟩⟦170⟧⟨25⟩⟦72⟧⟨26⟩⟦74⟧⟨27⟩
+[2011 UEFA Super Cup] ⟦26⟧⟨28⟩⟦141⟧⟨29⟩⟦157⟧⟨30⟩⟦73⟧⟨31⟩
+[2017–18 UEFA Champions League knockout phase] ⟦112⟧⟨32⟩⟦60⟧⟨33⟩⟦70⟧⟨34⟩⟦2⟧⟨35⟩⟦12⟧⟨36⟩⟦134⟧⟨37⟩⟦59⟧⟨38⟩⟦162⟧⟨39⟩⟦119⟧⟨40⟩⟦32⟧⟨41⟩⟦111⟧⟨42⟩
+[2017–18 UEFA Champions League knockout phase] ⟦22⟧⟨43⟩⟦158⟧⟨44⟩⟦6⟧⟨45⟩⟦90⟧⟨46⟩⟦131⟧⟨47⟩⟦60⟧⟨48⟩⟦70⟧⟨49⟩
+[2010–11 UEFA Champions League knockout phase] ⟦131⟧⟨50⟩⟦60⟧⟨51⟩⟦70⟧⟨52⟩⟦97⟧⟨53⟩⟦4⟧⟨54⟩⟦13⟧⟨55⟩⟦168⟧⟨56⟩⟦61⟧⟨57⟩⟦41⟧⟨58⟩
+[2010–11 UEFA Champions League knockout phase] ⟦131⟧⟨59⟩⟦60⟧⟨60⟩⟦70⟧⟨61⟩⟦92⟧⟨62⟩⟦90⟧⟨63⟩⟦151⟧⟨64⟩⟦53⟧⟨65⟩⟦130⟧⟨66⟩⟦52⟧⟨67⟩⟦88⟧⟨68⟩
+[2015–16 UEFA Champions League knockout phase] ⟦107⟧⟨69⟩⟦10⟧⟨70⟩⟦60⟧⟨71⟩⟦70⟧⟨72⟩⟦5⟧⟨73⟩⟦13⟧⟨74⟩⟦82⟧⟨75⟩⟦64⟧⟨76⟩⟦57⟧⟨77⟩⟦119⟧⟨78⟩⟦32⟧⟨79⟩⟦106⟧⟨80⟩
+[2015–16 UEFA Champions League knockout phase] ⟦22⟧⟨81⟩⟦158⟧⟨82⟩⟦6⟧⟨83⟩⟦90⟧⟨84⟩⟦131⟧⟨85⟩⟦60⟧⟨86⟩⟦70⟧⟨87⟩
+[2000–01 UEFA Champions League] ⟦95⟧⟨88⟩⟦116⟧⟨89⟩⟦83⟧⟨90⟩⟦144⟧⟨91⟩⟦161⟧⟨92⟩⟦33⟧⟨93⟩⟦49⟧⟨94⟩⟦159⟧⟨95⟩⟦91⟧⟨96⟩⟦1⟧⟨97⟩
+[2000–01 UEFA Champions League] ⟦121⟧⟨98⟩⟦34⟧⟨99⟩⟦28⟧⟨100⟩⟦48⟧⟨101⟩⟦157⟧⟨102⟩⟦164⟧⟨103⟩⟦69⟧⟨104⟩⟦69⟧⟨105⟩⟦18⟧⟨106⟩⟦38⟧⟨107⟩⟦45⟧⟨108⟩⟦156⟧⟨109⟩
+[2000–01 UEFA Champions League] ⟨110⟩⟦150⟧⟨111⟩⟦157⟧⟨112⟩⟦157⟧⟨113⟩⟦165⟧⟨114⟩⟦37⟧⟨115⟩⟦77⟧⟨116⟩⟦137⟧⟨117⟩⟦83⟧⟨118⟩
+[2000–01 UEFA Champions League] ⟦131⟧⟨119⟩⟦60⟧⟨120⟩⟦70⟧⟨121⟩⟦27⟧⟨122⟩⟦136⟧⟨123⟩⟦170⟧⟨124⟩⟦62⟧⟨125⟩⟦77⟧⟨126⟩⟦23⟧⟨127⟩⟦50⟧⟨128⟩⟦138⟧⟨129⟩⟦76⟧⟨130⟩
+[2000–01 UEFA Champions League] ⟦163⟧⟨131⟩⟦42⟧⟨132⟩⟦85⟧⟨133⟩⟦24⟧⟨134⟩⟦131⟧⟨135⟩⟦60⟧⟨136⟩⟦70⟧⟨137⟩⟦80⟧⟨138⟩⟦80⟧⟨139⟩
+[2010–11 UEFA Europa League knockout phase] ⟦131⟧⟨140⟩⟦60⟧⟨141⟩⟦70⟧⟨142⟩⟦99⟧⟨143⟩⟦4⟧⟨144⟩⟦8⟧⟨145⟩⟦25⟧⟨146⟩⟦39⟧⟨147⟩⟦79⟧⟨148⟩⟦56⟧⟨149⟩
+[2010–11 UEFA Europa League knockout phase] ⟦131⟧⟨150⟩⟦60⟧⟨151⟩⟦70⟧⟨152⟩⟦15⟧⟨153⟩⟦90⟧⟨154⟩⟦113⟧⟨155⟩⟦90⟧⟨156⟩⟦40⟧⟨157⟩⟦52⟧⟨158⟩⟦130⟧⟨159⟩⟦52⟧⟨160⟩⟦88⟧⟨161⟩⟦124⟧⟨162⟩⟦90⟧⟨163⟩⟦153⟧⟨164⟩⟦71⟧⟨165⟩⟦145⟧⟨166⟩⟦52⟧⟨167⟩⟦88⟧⟨168⟩
+[2014–15 UEFA Champions League knockout phase] ⟦105⟧⟨169⟩⟦60⟧⟨170⟩⟦70⟧⟨171⟩⟦7⟧⟨172⟩⟦17⟧⟨173⟩⟦68⟧⟨174⟩⟦29⟧⟨175⟩⟦51⟧⟨176⟩⟦119⟧⟨177⟩⟦32⟧⟨178⟩⟦104⟧⟨179⟩
+[2014–15 UEFA Champions League knockout phase] ⟦22⟧⟨180⟩⟦158⟧⟨181⟩⟦6⟧⟨182⟩⟦90⟧⟨183⟩⟦131⟧⟨184⟩⟦60⟧⟨185⟩⟦70⟧⟨186⟩
+[2016–17 UEFA Champions League knockout phase] ⟦109⟧⟨187⟩⟦60⟧⟨188⟩⟦70⟧⟨189⟩⟦3⟧⟨190⟩⟦14⟧⟨191⟩⟦65⟧⟨192⟩⟦31⟧⟨193⟩⟦167⟧⟨194⟩⟦119⟧⟨195⟩⟦32⟧⟨196⟩⟦108⟧⟨197⟩
+[2016–17 UEFA Champions League knockout phase] ⟦22⟧⟨198⟩⟦158⟧⟨199⟩⟦6⟧⟨200⟩⟦90⟧⟨201⟩⟦131⟧⟨202⟩⟦60⟧⟨203⟩⟦70⟧⟨204⟩
+[2017 UEFA Champions League Final] ⟦110⟧⟨205⟩⟦128⟧⟨206⟩⟦63⟧⟨207⟩⟦108⟧⟨208⟩⟦118⟧⟨209⟩⟦83⟧⟨210⟩⟦44⟧⟨211⟩⟦75⟧⟨212⟩⟦33⟧⟨213⟩⟦49⟧⟨214⟩⟦159⟧⟨215⟩⟦160⟧⟨216⟩⟦114⟧⟨217⟩⟦83⟧⟨218⟩⟦125⟧⟨219⟩⟦144⟧⟨220⟩
+[2017 UEFA Champions League Final] ⟨221⟩⟦133⟧⟨222⟩⟦31⟧⟨223⟩⟦167⟧⟨224⟩⟦14⟧⟨225⟩⟦84⟧⟨226⟩⟦58⟧⟨227⟩⟦87⟧⟨228⟩⟦84⟧⟨229⟩⟦157⟧⟨230⟩⟦55⟧⟨231⟩⟦20⟧⟨232⟩⟦78⟧⟨233⟩⟦93⟧⟨234⟩⟦46⟧⟨235⟩
+[2017 UEFA Champions League Final] ⟦77⟧⟨236⟩⟦132⟧⟨237⟩⟦63⟧⟨238⟩⟦16⟧⟨239⟩⟦16⟧⟨240⟩⟦149⟧⟨241⟩⟦157⟧⟨242⟩⟦154⟧⟨243⟩⟦34⟧⟨244⟩
+[2017 UEFA Champions League Final] ⟨245⟩⟦155⟧⟨246⟩⟦166⟧⟨247⟩⟦123⟧⟨248⟩⟦32⟧⟨249⟩⟦77⟧⟨250⟩⟦129⟧⟨251⟩⟦89⟧⟨252⟩⟦152⟧⟨253⟩⟦157⟧⟨254⟩⟦120⟧⟨255⟩⟦43⟧⟨256⟩⟦64⟧⟨257⟩
+[2017 UEFA Champions League Final] ⟨258⟩⟦135⟧⟨259⟩⟦54⟧⟨260⟩⟦58⟧⟨261⟩⟦21⟧⟨262⟩⟦81⟧⟨263⟩⟦67⟧⟨264⟩⟦47⟧⟨265⟩
+[2011 UEFA Champions League Final] ⟦102⟧⟨266⟩⟦19⟧⟨267⟩⟦49⟧⟨268⟩⟦63⟧⟨269⟩⟦13⟧⟨270⟩⟦168⟧⟨271⟩⟦61⟧⟨272⟩⟦147⟧⟨273⟩⟦169⟧⟨274⟩⟦96⟧⟨275⟩⟦83⟧⟨276⟩⟦144⟧⟨277⟩
+[2011 UEFA Champions League Final] ⟦148⟧⟨278⟩⟦170⟧⟨279⟩⟦125⟧⟨280⟩⟦126⟧⟨281⟩
+[2011 UEFA Champions League Final] ⟦101⟧⟨282⟩⟦46⟧⟨283⟩⟦122⟧⟨284⟩⟦36⟧⟨285⟩⟦117⟧⟨286⟩⟦83⟧⟨287⟩⟦142⟧⟨288⟩⟦159⟧⟨289⟩⟦94⟧⟨290⟩⟦9⟧⟨291⟩⟦120⟧⟨292⟩⟦43⟧⟨293⟩
+
+[user]
+
+问题：
+Both the 2010–11 UEFA Champions League knockout phase  and 011 UEFA Champions League Final were held at what London stadium?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

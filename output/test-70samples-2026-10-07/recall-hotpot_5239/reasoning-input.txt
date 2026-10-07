@@ -1,0 +1,65 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Jixi] ⟨10⟩⟦9⟧⟨11⟩⟨12⟩⟦70⟧⟨13⟩
+[Dafeng District] ⟨108⟩⟦10⟧⟨109⟩⟨110⟩⟦76⟧⟦15⟧⟨111⟩⟨112⟩⟨113⟩⟨114⟩⟨115⟩
+[Dafeng District] ⟦30⟧
+[Tinghu District] ⟦44⟧
+[Tinghu District] ⟦95⟧
+[Hengshan District, Jixi] ⟦34⟧⟦65⟧⟦23⟧ | ⟦25⟧⟦47⟧⟦23⟧
+
+符号表：
+⟦9⟧ = a city
+⟦10⟧ = a coastal district
+⟦15⟧ = administration
+⟦23⟧ = China
+⟦25⟧ = city
+⟦30⟧ = Dafeng
+⟦34⟧ = district
+⟦44⟧ = Jiangsu province
+⟦47⟧ = Jixi
+⟦65⟧ = province
+⟦70⟧ = southeastern Heilongjiang Province
+⟦76⟧ = the administration
+⟦95⟧ = Yancheng
+
+占位符映射：
+⟨10⟩ =  () is 
+⟨11⟩ = 
+⟨12⟩ =  in 
+⟨13⟩ = , People's Republic of 
+⟨108⟩ =  () is 
+⟨109⟩ = 
+⟨110⟩ =  under 
+⟨111⟩ = 
+⟨112⟩ =  of 
+⟨113⟩ = , 
+⟨114⟩ = 
+⟨115⟩ = , 
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What country are both Dafeng District and Jixi in?

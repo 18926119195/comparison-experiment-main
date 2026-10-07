@@ -1,0 +1,60 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Brent Barry] ⟦260⟧⟦123⟧⟨244⟩⟨245⟩⟦9⟧⟦128⟧⟨246⟩⟨247⟩⟦286⟧⟨248⟩⟦335⟧⟦76⟧⟨249⟩⟨250⟩⟦293⟧⟨251⟩
+[Drew Barry] ⟦100⟧⟨387⟩⟦35⟧⟦51⟧⟨389⟩⟦200⟧⟨388⟩⟨390⟩
+
+符号表：
+⟦9⟧ = 210 lb shooting guard
+⟦35⟧ = an American retired professional basketball player
+⟦51⟧ = basketball
+⟦76⟧ = championships
+⟦100⟧ = Drew William Barry
+⟦123⟧ = ft
+⟦128⟧ = guard
+⟦200⟧ = player
+⟦260⟧ = The 6 ft
+⟦286⟧ = the National Basketball Association
+⟦293⟧ = the San Antonio Spurs
+⟦335⟧ = two championships
+
+占位符映射：
+⟨244⟩ = 
+⟨245⟩ =  , 
+⟨246⟩ = 
+⟨247⟩ =  played professionally in 
+⟨248⟩ = , winning 
+⟨249⟩ = 
+⟨250⟩ =  with 
+⟨251⟩ = .
+⟨387⟩ =  (born February 17, 1973) is 
+⟨388⟩ = 
+⟨389⟩ =  
+⟨390⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+How tall was one of Drew Barry's brothers? 

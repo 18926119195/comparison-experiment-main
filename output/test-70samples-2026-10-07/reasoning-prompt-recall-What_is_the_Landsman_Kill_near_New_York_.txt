@@ -1,0 +1,107 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[New York State Route 308] ⟨112⟩⟨113⟩⟦25⟧⟨115⟩⟨114⟩⟨116⟩⟦9⟧⟨117⟩⟨118⟩⟦86⟧⟦86⟧⟨119⟩⟨120⟩⟦105⟧⟨121⟩⟨122⟩⟨123⟩⟦101⟧⟨124⟩
+[New York State Route 308] ⟦106⟧
+[New York State Route 308] ⟨151⟩⟨152⟩⟦162⟧⟨153⟩⟦129⟧⟦85⟧⟨154⟩⟨155⟩⟦170⟧⟨156⟩
+[Washington State Route 308] ⟦165⟧
+[Pennsylvania Route 44] ⟦91⟧
+[Pennsylvania Route 44] ⟦102⟧
+[Kill (body of water)] ⟨342⟩⟦14⟧⟦43⟧⟨343⟩⟨344⟩⟨345⟩⟨346⟩⟦19⟧⟦83⟧⟨347⟩⟨348⟩⟦15⟧⟦57⟧⟨349⟩⟨350⟩
+[Kill (body of water)] ⟦216⟧⟦216⟧ | ⟦200⟧⟦220⟧⟨351⟩⟨352⟩⟦1⟧⟦121⟧⟨353⟩⟨354⟩⟦2⟧⟦216⟧⟨356⟩⟦52⟧⟨355⟩⟨357⟩
+[Georgia State Route 308] ⟦71⟧⟦192⟧⟦140⟧⟦140⟧ | ⟦71⟧
+
+符号表：
+⟦1⟧ = "riverbed
+⟦2⟧ = "water channel
+⟦9⟧ = 6.19 mi
+⟦14⟧ = a body
+⟦15⟧ = a creek
+⟦19⟧ = a kill
+⟦25⟧ = a short state highway
+⟦43⟧ = body
+⟦52⟧ = channel
+⟦57⟧ = creek
+⟦71⟧ = highway
+⟦83⟧ = kill
+⟦85⟧ = landmarks
+⟦86⟧ = length
+⟦91⟧ = mi
+⟦101⟧ = New York
+⟦102⟧ = New York State Route
+⟦105⟧ = northern Dutchess County
+⟦106⟧ = NY
+⟦121⟧ = riverbed
+⟦129⟧ = several historical landmarks
+⟦140⟧ = state
+⟦162⟧ = the Dutchess County Fairgrounds
+⟦165⟧ = The highway
+⟦170⟧ = the Landsman Kill
+⟦192⟧ = the U.S. state
+⟦200⟧ = The word
+⟦216⟧ = water
+⟦220⟧ = word
+
+占位符映射：
+⟨112⟩ =  308 (
+⟨113⟩ =  308) is 
+⟨114⟩ = 
+⟨115⟩ =  
+⟨116⟩ = , 
+⟨117⟩ = 
+⟨118⟩ =  in 
+⟨119⟩ = 
+⟨120⟩ = , located entirely in 
+⟨121⟩ = , in 
+⟨122⟩ = 
+⟨123⟩ =  of 
+⟨124⟩ = .
+⟨151⟩ = 
+⟨152⟩ =  passes near 
+⟨153⟩ = , 
+⟨154⟩ = 
+⟨155⟩ = , and 
+⟨156⟩ = .
+⟨342⟩ = As 
+⟨343⟩ = 
+⟨344⟩ =  of 
+⟨345⟩ = 
+⟨346⟩ = , 
+⟨347⟩ = 
+⟨348⟩ =  is 
+⟨349⟩ = 
+⟨350⟩ = .
+⟨351⟩ = 
+⟨352⟩ =  comes from the Middle Dutch "kille", meaning 
+⟨353⟩ = 
+⟨354⟩ = " or 
+⟨355⟩ = 
+⟨356⟩ =  
+⟨357⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the Landsman Kill near New York State Route 308?

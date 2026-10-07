@@ -1,0 +1,331 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Forrest Gump
+⟦2⟧ = "Risky Business
+⟦3⟧ = "The Testimony
+⟦4⟧ = (MLB
+⟦5⟧ = (U.S. Travel
+⟦6⟧ = 74 entries
+⟦7⟧ = a 2015 American short-documentary film
+⟦8⟧ = a baseball park
+⟦9⟧ = a board member
+⟦10⟧ = a British sports pundit
+⟦11⟧ = a businessman and angel investor
+⟦12⟧ = a co
+⟦13⟧ = a defunct association football club
+⟦14⟧ = a film and television producer
+⟦15⟧ = a game analyst
+⟦16⟧ = a holding company
+⟦17⟧ = a member
+⟦18⟧ = a part
+⟦19⟧ = a radio color commentator
+⟦20⟧ = a radio commentator
+⟦21⟧ = a result
+⟦22⟧ = a seed-stage capital firm
+⟦23⟧ = a segment
+⟦24⟧ = a Super Bowl
+⟦25⟧ = a travel industry lobbying group
+⟦26⟧ = a trustee
+⟦27⟧ = a two-time Pro Bowl selection
+⟦28⟧ = addition
+⟦29⟧ = American businessman Laurence Tisch
+⟦30⟧ = an American businessman
+⟦31⟧ = an American film producer
+⟦32⟧ = an American football punter
+⟦33⟧ = analyst
+⟦34⟧ = Andrew
+⟦35⟧ = Andrew Tisch
+⟦36⟧ = angel
+⟦37⟧ = announcers
+⟦38⟧ = association
+⟦39⟧ = AT&T Park
+⟦40⟧ = Australia
+⟦41⟧ = baseball
+⟦42⟧ = billionaire
+⟦43⟧ = Block
+⟦44⟧ = board
+⟦45⟧ = Bob Tisch
+⟦46⟧ = booth
+⟦47⟧ = BoxGroup
+⟦48⟧ = brother
+⟦49⟧ = businessman
+⟦50⟧ = buyout
+⟦51⟧ = California
+⟦52⟧ = capital
+⟦53⟧ = category
+⟦54⟧ = CBS television network
+⟦55⟧ = CEO
+⟦56⟧ = chair
+⟦57⟧ = chairman
+⟦58⟧ = Chairman Emeritus
+⟦59⟧ = city
+⟦60⟧ = club
+⟦61⟧ = co
+⟦62⟧ = college
+⟦63⟧ = college football
+⟦64⟧ = color
+⟦65⟧ = commentator
+⟦66⟧ = company
+⟦67⟧ = competition
+⟦68⟧ = cousin
+⟦69⟧ = Dalmatinac
+⟦70⟧ = David Tisch
+⟦71⟧ = David Tuthill "Dave" Jennings
+⟦72⟧ = Dick Lynch
+⟦73⟧ = directors
+⟦74⟧ = disease
+⟦75⟧ = documentaries
+⟦76⟧ = documentary
+⟦77⟧ = Documentary Short Subject category
+⟦78⟧ = end
+⟦79⟧ = entries
+⟦80⟧ = Executive Vice President
+⟦81⟧ = family
+⟦82⟧ = father
+⟦83⟧ = fighting
+⟦84⟧ = film
+⟦85⟧ = films
+⟦86⟧ = firm
+⟦87⟧ = football
+⟦88⟧ = former American Football defensive end
+⟦89⟧ = former Giants co
+⟦90⟧ = former Giants linebacker Carl Banks
+⟦91⟧ = former Giants player Willie McCovey
+⟦92⟧ = former Giants teammate Lawrence Tynes
+⟦93⟧ = founder
+⟦94⟧ = founders
+⟦95⟧ = four British-born players
+⟦96⟧ = franchise
+⟦97⟧ = game
+⟦98⟧ = games
+⟦99⟧ = giants
+⟦100⟧ = Giants games
+⟦101⟧ = grandson
+⟦102⟧ = group
+⟦103⟧ = his booth work
+⟦104⟧ = his brother
+⟦105⟧ = his family
+⟦106⟧ = his father
+⟦107⟧ = his first cousin
+⟦108⟧ = His great-uncle
+⟦109⟧ = His mother
+⟦110⟧ = history
+⟦111⟧ = home
+⟦112⟧ = honor
+⟦113⟧ = hotels
+⟦114⟧ = immigrants
+⟦115⟧ = industry
+⟦116⟧ = insurance
+⟦117⟧ = interviews
+⟦118⟧ = investor
+⟦119⟧ = its founders
+⟦120⟧ = James S. Tisch
+⟦121⟧ = January
+⟦122⟧ = Jennings
+⟦123⟧ = Jets games
+⟦124⟧ = Jonathan Tisch
+⟦125⟧ = June
+⟦126⟧ = Larry Tisch
+⟦127⟧ = Laurence Alan "Larry" Tisch
+⟦128⟧ = linebacker
+⟦129⟧ = lobbying
+⟦130⟧ = locker
+⟦131⟧ = Loews Corporation
+⟦132⟧ = M23 rebellion fighting
+⟦133⟧ = March
+⟦134⟧ = Marvin Allen
+⟦135⟧ = McCovey Cove
+⟦136⟧ = member
+⟦137⟧ = Michael Sarnoski
+⟦138⟧ = mid-1950s
+⟦139⟧ = Mitchell Block
+⟦140⟧ = most sacks
+⟦141⟧ = mother
+⟦142⟧ = neighborhood
+⟦143⟧ = network
+⟦144⟧ = New South Wales
+⟦145⟧ = New York City
+⟦146⟧ = NFL
+⟦147⟧ = nominations
+⟦148⟧ = November
+⟦149⟧ = oil
+⟦150⟧ = one game
+⟦151⟧ = origins
+⟦152⟧ = Ositadimma "Osi" Umenyiora
+⟦153⟧ = other former giants
+⟦154⟧ = owner
+⟦155⟧ = owner Bob Tisch
+⟦156⟧ = Pacific Bell
+⟦157⟧ = Pacific Bell Park
+⟦158⟧ = Pan
+⟦159⟧ = park
+⟦160⟧ = Parkinson's disease
+⟦161⟧ = part
+⟦162⟧ = part owner
+⟦163⟧ = partner
+⟦164⟧ = player
+⟦165⟧ = player interviews
+⟦166⟧ = players
+⟦167⟧ = Polonia
+⟦168⟧ = post game shows
+⟦169⟧ = Preston Robert Tisch
+⟦170⟧ = producer
+⟦171⟧ = pundit
+⟦172⟧ = punter
+⟦173⟧ = radio
+⟦174⟧ = rape
+⟦175⟧ = rebellion
+⟦176⟧ = record
+⟦177⟧ = result
+⟦178⟧ = room
+⟦179⟧ = round
+⟦180⟧ = sacks
+⟦181⟧ = San Francisco
+⟦182⟧ = SBC Communications
+⟦183⟧ = SBC's buyout
+⟦184⟧ = Scott McCready
+⟦185⟧ = season
+⟦186⟧ = seed
+⟦187⟧ = segment
+⟦188⟧ = selection
+⟦189⟧ = shows
+⟦190⟧ = soccer
+⟦191⟧ = Soccer Club's Second Division Competition
+⟦192⟧ = son
+⟦193⟧ = sports
+⟦194⟧ = stadium
+⟦195⟧ = stage
+⟦196⟧ = Steve Tisch
+⟦197⟧ = Steven Elliot Tisch
+⟦198⟧ = Sydney
+⟦199⟧ = Sydney Olympic FC
+⟦200⟧ = Sydney Soccer Club Yugal
+⟦201⟧ = team
+⟦202⟧ = teammate
+⟦203⟧ = TechStars New York City
+⟦204⟧ = television
+⟦205⟧ = ten other documentaries
+⟦206⟧ = the "United States Travel Association
+⟦207⟧ = the 2003 NFL Draft
+⟦208⟧ = the 2008 season
+⟦209⟧ = the 2014 NY/NJ Super Bowl Host Committee
+⟦210⟧ = the 88th Academy Awards
+⟦211⟧ = the board
+⟦212⟧ = the CEO
+⟦213⟧ = the chairman
+⟦214⟧ = The club
+⟦215⟧ = the co
+⟦216⟧ = the company
+⟦217⟧ = the Congo
+⟦218⟧ = the Dalmatian origins
+⟦219⟧ = the Democratic Republic
+⟦220⟧ = the films
+⟦221⟧ = The final five nominations
+⟦222⟧ = the Giants franchise record
+⟦223⟧ = the grandson
+⟦224⟧ = the Granville District competition
+⟦225⟧ = the history
+⟦226⟧ = the home
+⟦227⟧ = the largest rape tribunal
+⟦228⟧ = the locker room
+⟦229⟧ = the Loews Corporation
+⟦230⟧ = the mid-1950s
+⟦231⟧ = the National Football League
+⟦232⟧ = the New South Wales Federation
+⟦233⟧ = the New York Football Giants
+⟦234⟧ = the New York Giants
+⟦235⟧ = the New York Jets
+⟦236⟧ = the NFL team
+⟦237⟧ = The park
+⟦238⟧ = the San Francisco Bay
+⟦239⟧ = the San Francisco Giants
+⟦240⟧ = the second round
+⟦241⟧ = the son
+⟦242⟧ = the South Beach neighborhood
+⟦243⟧ = the stadium
+⟦244⟧ = The Testimony
+⟦245⟧ = the Tribeca Film Institute
+⟦246⟧ = then SBC Park
+⟦247⟧ = time
+⟦248⟧ = travel
+⟦249⟧ = treasurer
+⟦250⟧ = tribunal
+⟦251⟧ = Troy University
+⟦252⟧ = trustee
+⟦253⟧ = Tufts University
+⟦254⟧ = Umenyiora
+⟦255⟧ = uncle
+⟦256⟧ = uncle Bob Tisch
+⟦257⟧ = Vanessa Block
+⟦258⟧ = Wall Street investor
+⟦259⟧ = WFAN Giants announcers Bob Papa
+⟦260⟧ = Wilma "Billie" Stein
+⟦261⟧ = work
+⟦262⟧ = year
+⟦263⟧ = Yugoslav immigrants
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[David Tisch] ⟦70⟧⟨1⟩⟦11⟧⟨2⟩⟦49⟧⟨3⟩⟦36⟧⟨4⟩⟦118⟧⟨5⟩⟦145⟧⟨6⟩
+[David Tisch] ⟨7⟩⟦163⟧⟨8⟩⟦163⟧⟨9⟩⟦47⟧⟨10⟩⟦22⟧⟨11⟩⟦186⟧⟨12⟩⟦195⟧⟨13⟩⟦52⟧⟨14⟩⟦86⟧⟨15⟩⟦12⟧⟨16⟩⟦61⟧⟨17⟩⟦93⟧⟨18⟩⟦93⟧⟨19⟩⟦203⟧⟨20⟩
+[David Tisch] ⟨21⟩⟦223⟧⟨22⟩⟦101⟧⟨23⟩⟦29⟧⟨24⟩⟦49⟧⟨25⟩⟦61⟧⟨26⟩⟦61⟧⟨27⟩⟦154⟧⟨28⟩⟦154⟧⟨29⟩⟦131⟧⟨30⟩
+[David Tisch] ⟨31⟩⟦108⟧⟨32⟩⟦255⟧⟨33⟩⟦169⟧⟨34⟩⟦234⟧⟨35⟩⟦196⟧⟨36⟩⟦220⟧⟨37⟩⟦85⟧⟨38⟩⟦1⟧⟨39⟩⟦2⟧⟨40⟩
+[Jonathan Tisch] ⟦124⟧⟨41⟩⟦58⟧⟨42⟩⟦206⟧⟨43⟩⟦5⟧⟨44⟩⟦25⟧⟨45⟩⟦248⟧⟨46⟩⟦115⟧⟨47⟩⟦129⟧⟨48⟩⟦102⟧⟨49⟩⟦26⟧⟨50⟩⟦252⟧⟨51⟩⟦253⟧⟨52⟩⟦9⟧⟨53⟩⟦44⟧⟨54⟩⟦136⟧⟨55⟩⟦245⟧⟨56⟩
+[Jonathan Tisch] ⟨57⟩⟦12⟧⟨58⟩⟦61⟧⟨59⟩⟦154⟧⟨60⟩⟦154⟧⟨61⟩⟦17⟧⟨62⟩⟦136⟧⟨63⟩⟦211⟧⟨64⟩⟦44⟧⟨65⟩⟦73⟧⟨66⟩⟦73⟧⟨67⟩⟦249⟧⟨68⟩⟦249⟧⟨69⟩⟦233⟧⟨70⟩
+[Jonathan Tisch] ⟨71⟩⟦61⟧⟨72⟩⟦61⟧⟨73⟩⟦57⟧⟨74⟩⟦57⟧⟨75⟩⟦209⟧⟨76⟩
+[Dave Jennings (American football)] ⟦71⟧⟨77⟩⟦125⟧⟨78⟩⟦125⟧⟨79⟩⟦32⟧⟨80⟩⟦87⟧⟨81⟩⟦172⟧⟨82⟩⟦231⟧⟨83⟩⟦146⟧⟨84⟩
+[Dave Jennings (American football)] ⟨85⟩⟦234⟧⟨86⟩⟦235⟧⟨87⟩
+[Dave Jennings (American football)] ⟨88⟩⟦19⟧⟨89⟩⟦173⟧⟨90⟩⟦64⟧⟨91⟩⟦65⟧⟨92⟩⟦100⟧⟨93⟩⟦98⟧⟨94⟩⟦90⟧⟨95⟩⟦128⟧⟨96⟩
+[Dave Jennings (American football)] ⟨97⟩⟦20⟧⟨98⟩⟦173⟧⟨99⟩⟦65⟧⟨100⟩⟦123⟧⟨101⟩⟦98⟧⟨102⟩
+[Dave Jennings (American football)] ⟦122⟧⟨103⟩⟦15⟧⟨104⟩⟦97⟧⟨105⟩⟦33⟧⟨106⟩⟦259⟧⟨107⟩⟦37⟧⟨108⟩⟦72⟧⟨109⟩
+[Dave Jennings (American football)] ⟨110⟩⟦28⟧⟨111⟩⟦28⟧⟨112⟩⟦103⟧⟨113⟩⟦46⟧⟨114⟩⟦261⟧⟨115⟩⟦122⟧⟨116⟩⟦18⟧⟨117⟩⟦161⟧⟨118⟩⟦168⟧⟨119⟩⟦97⟧⟨120⟩⟦189⟧⟨121⟩⟦164⟧⟨122⟩⟦165⟧⟨123⟩⟦117⟧⟨124⟩⟦228⟧⟨125⟩⟦130⟧⟨126⟩⟦178⟧⟨127⟩
+[Dave Jennings (American football)] ⟦122⟧⟨128⟩⟦160⟧⟨129⟩⟦74⟧⟨130⟩⟦208⟧⟨131⟩⟦185⟧⟨132⟩
+[AT&amp;T Park] ⟦39⟧⟨133⟩⟦8⟧⟨134⟩⟦41⟧⟨135⟩⟦159⟧⟨136⟩⟦242⟧⟨137⟩⟦142⟧⟨138⟩⟦181⟧⟨139⟩⟦51⟧⟨140⟩
+[AT&amp;T Park] ⟨141⟩⟦226⟧⟨142⟩⟦111⟧⟨143⟩⟦239⟧⟨144⟩⟦59⟧⟨145⟩⟦4⟧⟨146⟩⟦96⟧⟨147⟩
+[AT&amp;T Park] ⟨148⟩⟦157⟧⟨149⟩⟦246⟧⟨150⟩⟦182⟧⟨151⟩⟦156⟧⟨152⟩⟦243⟧⟨153⟩⟦194⟧⟨154⟩⟦39⟧⟨155⟩⟦183⟧⟨156⟩⟦50⟧⟨157⟩
+[AT&amp;T Park] ⟦237⟧⟨158⟩⟦159⟧⟨159⟩⟦238⟧⟨160⟩⟦23⟧⟨161⟩⟦187⟧⟨162⟩⟦135⟧⟨163⟩⟦112⟧⟨164⟩⟦112⟧⟨165⟩⟦91⟧⟨166⟩⟦164⟧⟨167⟩
+[Laurence Tisch] ⟦127⟧⟨168⟩⟦133⟧⟨169⟩⟦148⟧⟨170⟩⟦30⟧⟨171⟩⟦49⟧⟨172⟩⟦258⟧⟨173⟩⟦118⟧⟨174⟩⟦42⟧⟨175⟩⟦42⟧⟨176⟩
+[Laurence Tisch] ⟨177⟩⟦212⟧⟨178⟩⟦55⟧⟨179⟩⟦54⟧⟨180⟩⟦204⟧⟨181⟩⟦143⟧⟨182⟩
+[Laurence Tisch] ⟨183⟩⟦104⟧⟨184⟩⟦48⟧⟨185⟩⟦45⟧⟨186⟩⟦161⟧⟨187⟩⟦162⟧⟨188⟩⟦154⟧⟨189⟩⟦229⟧⟨190⟩
+[Osi Umenyiora] ⟦152⟧⟨191⟩⟦10⟧⟨192⟩⟦193⟧⟨193⟩⟦171⟧⟨194⟩⟦88⟧⟨195⟩⟦78⟧⟨196⟩⟦231⟧⟨197⟩⟦146⟧⟨198⟩
+[Osi Umenyiora] ⟨199⟩⟦62⟧⟨200⟩⟦63⟧⟨201⟩⟦87⟧⟨202⟩⟦251⟧⟨203⟩⟦234⟧⟨204⟩⟦240⟧⟨205⟩⟦179⟧⟨206⟩⟦207⟧⟨207⟩
+[Osi Umenyiora] ⟦254⟧⟨208⟩⟦27⟧⟨209⟩⟦247⟧⟨210⟩⟦188⟧⟨211⟩⟦222⟧⟨212⟩⟦96⟧⟨213⟩⟦176⟧⟨214⟩⟦140⟧⟨215⟩⟦180⟧⟨216⟩⟦150⟧⟨217⟩⟦97⟧⟨218⟩
+[Osi Umenyiora] ⟨219⟩⟦95⟧⟨220⟩⟦166⟧⟨221⟩⟦24⟧⟨222⟩⟦134⟧⟨223⟩⟦184⟧⟨224⟩⟦92⟧⟨225⟩⟦202⟧⟨226⟩
+[Andrew Tisch] ⟦35⟧⟨227⟩⟦215⟧⟨228⟩⟦61⟧⟨229⟩⟦56⟧⟨230⟩⟦56⟧⟨231⟩⟦131⟧⟨232⟩⟦216⟧⟨233⟩⟦66⟧⟨234⟩⟦106⟧⟨235⟩⟦82⟧⟨236⟩⟦126⟧⟨237⟩⟦255⟧⟨238⟩⟦256⟧⟨239⟩
+[Andrew Tisch] ⟨240⟩⟦104⟧⟨241⟩⟦48⟧⟨242⟩⟦120⟧⟨243⟩⟦107⟧⟨244⟩⟦68⟧⟨245⟩⟦124⟧⟨246⟩⟦34⟧⟨247⟩⟦16⟧⟨248⟩⟦66⟧⟨249⟩⟦113⟧⟨250⟩⟦113⟧⟨251⟩⟦149⟧⟨252⟩⟦149⟧⟨253⟩⟦116⟧⟨254⟩⟦116⟧⟨255⟩
+[Andrew Tisch] ⟨256⟩⟦109⟧⟨257⟩⟦141⟧⟨258⟩⟦260⟧⟨259⟩
+[The Testimony (2015 film)] ⟦244⟧⟨260⟩⟦7⟧⟨261⟩⟦76⟧⟨262⟩⟦84⟧⟨263⟩⟦227⟧⟨264⟩⟦174⟧⟨265⟩⟦250⟧⟨266⟩⟦225⟧⟨267⟩⟦110⟧⟨268⟩⟦219⟧⟨269⟩⟦217⟧⟨270⟩⟦21⟧⟨271⟩⟦177⟧⟨272⟩⟦132⟧⟨273⟩⟦175⟧⟨274⟩⟦83⟧⟨275⟩
+[The Testimony (2015 film)] ⟨276⟩⟦257⟧⟨277⟩⟦43⟧⟨278⟩⟦196⟧⟨279⟩⟦139⟧⟨280⟩⟦137⟧⟨281⟩
+[The Testimony (2015 film)] ⟦3⟧⟨282⟩⟦205⟧⟨283⟩⟦75⟧⟨284⟩⟦6⟧⟨285⟩⟦79⟧⟨286⟩⟦210⟧⟨287⟩⟦77⟧⟨288⟩⟦53⟧⟨289⟩
+[The Testimony (2015 film)] ⟦221⟧⟨290⟩⟦147⟧⟨291⟩⟦121⟧⟨292⟩
+[Steve Tisch] ⟦197⟧⟨293⟩⟦31⟧⟨294⟩⟦84⟧⟨295⟩⟦170⟧⟨296⟩⟦49⟧⟨297⟩⟦49⟧⟨298⟩
+[Steve Tisch] ⟨299⟩⟦213⟧⟨300⟩⟦57⟧⟨301⟩⟦80⟧⟨302⟩⟦234⟧⟨303⟩⟦236⟧⟨304⟩⟦201⟧⟨305⟩⟦105⟧⟨306⟩⟦81⟧⟨307⟩⟦14⟧⟨308⟩⟦84⟧⟨309⟩⟦204⟧⟨310⟩⟦170⟧⟨311⟩
+[Steve Tisch] ⟨312⟩⟦241⟧⟨313⟩⟦192⟧⟨314⟩⟦89⟧⟨315⟩⟦61⟧⟨316⟩⟦154⟧⟨317⟩⟦155⟧⟨318⟩
+[SSC Yugal] ⟦200⟧⟨319⟩⟦13⟧⟨320⟩⟦38⟧⟨321⟩⟦87⟧⟨322⟩⟦60⟧⟨323⟩⟦198⟧⟨324⟩⟦40⟧⟨325⟩
+[SSC Yugal] ⟦214⟧⟨326⟩⟦60⟧⟨327⟩⟦263⟧⟨328⟩⟦114⟧⟨329⟩⟦230⟧⟨330⟩⟦138⟧⟨331⟩⟦69⟧⟨332⟩⟦218⟧⟨333⟩⟦151⟧⟨334⟩⟦119⟧⟨335⟩⟦94⟧⟨336⟩
+[SSC Yugal] ⟨337⟩⟦224⟧⟨338⟩⟦67⟧⟨339⟩⟦232⟧⟨340⟩⟦191⟧⟨341⟩⟦262⟧⟨342⟩⟦153⟧⟨343⟩⟦99⟧⟨344⟩⟦190⟧⟨345⟩⟦190⟧⟨346⟩⟦144⟧⟨347⟩⟦158⟧⟨348⟩⟦199⟧⟨349⟩⟦167⟧⟨350⟩
+
+[user]
+
+问题：
+The son of former Giants co-owner Bob Tisch worked with who to produce The Testimony?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

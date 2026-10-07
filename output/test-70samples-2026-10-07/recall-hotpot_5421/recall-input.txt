@@ -1,0 +1,337 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , performance goals
+⟦2⟧ = "business performance management
+⟦3⟧ = "corporate performance management
+⟦4⟧ = "enterprise performance management
+⟦5⟧ = (APM) software company
+⟦6⟧ = (BI
+⟦7⟧ = (EUM
+⟦8⟧ = (PMW
+⟦9⟧ = 3rd Generation family business
+⟦10⟧ = a co
+⟦11⟧ = a comprehensive coordination
+⟦12⟧ = a description
+⟦13⟧ = a key component
+⟦14⟧ = a manner
+⟦15⟧ = a method
+⟦16⟧ = a more general context
+⟦17⟧ = a part
+⟦18⟧ = a service company
+⟦19⟧ = a set
+⟦20⟧ = a standalone company
+⟦21⟧ = a website monitoring service
+⟦22⟧ = a-Service
+⟦23⟧ = access
+⟦24⟧ = activities
+⟦25⟧ = actual downtime
+⟦26⟧ = advisor
+⟦27⟧ = all activities
+⟦28⟧ = all SPE and APM activities
+⟦29⟧ = almost 3,500 people
+⟦30⟧ = an active angel investor
+⟦31⟧ = an American application performance management
+⟦32⟧ = an AS, namely systems development and IT operations
+⟦33⟧ = an executive
+⟦34⟧ = an important means
+⟦35⟧ = an increased complexity
+⟦36⟧ = an Information Technology context
+⟦37⟧ = an Internet entrepreneur
+⟦38⟧ = an Internet performance management company
+⟦39⟧ = an investor
+⟦40⟧ = an offering
+⟦41⟧ = an organization's performance
+⟦42⟧ = an Ottawa, Ontario-based company
+⟦43⟧ = analytic processes
+⟦44⟧ = angel
+⟦45⟧ = angel investor
+⟦46⟧ = APM
+⟦47⟧ = application
+⟦48⟧ = Application Diagnostics
+⟦49⟧ = Application Discovery
+⟦50⟧ = application systems
+⟦51⟧ = applications
+⟦52⟧ = architectures
+⟦53⟧ = AS
+⟦54⟧ = AS architectures
+⟦55⟧ = Assessing competencies
+⟦56⟧ = availability
+⟦57⟧ = boards
+⟦58⟧ = both SaaS
+⟦59⟧ = brand
+⟦60⟧ = Business
+⟦61⟧ = business intelligence
+⟦62⟧ = business intelligence and performance management products
+⟦63⟧ = Business performance management
+⟦64⟧ = businesses
+⟦65⟧ = Canada
+⟦66⟧ = capabilities
+⟦67⟧ = Chief Strategy Officer
+⟦68⟧ = Cisco
+⟦69⟧ = cloud
+⟦70⟧ = cloud migration
+⟦71⟧ = CloudApp
+⟦72⟧ = co
+⟦73⟧ = Cognizant
+⟦74⟧ = Cognos
+⟦75⟧ = Cognos Incorporated
+⟦76⟧ = companies
+⟦77⟧ = company
+⟦78⟧ = competencies
+⟦79⟧ = complexity
+⟦80⟧ = component
+⟦81⟧ = Compuware
+⟦82⟧ = context
+⟦83⟧ = control
+⟦84⟧ = coordination
+⟦85⟧ = countries
+⟦86⟧ = CPM
+⟦87⟧ = customers
+⟦88⟧ = Datanyze
+⟦89⟧ = December
+⟦90⟧ = deep transaction
+⟦91⟧ = delivery
+⟦92⟧ = demonstration
+⟦93⟧ = departments
+⟦94⟧ = description
+⟦95⟧ = development
+⟦96⟧ = DevOps
+⟦97⟧ = diagnose
+⟦98⟧ = different lifecycle phases
+⟦99⟧ = digital business owners
+⟦100⟧ = downtime
+⟦101⟧ = dozens
+⟦102⟧ = Dyn
+⟦103⟧ = Dyn, Inc.
+⟦104⟧ = Dynatrace
+⟦105⟧ = eight successful exits
+⟦106⟧ = email
+⟦107⟧ = email products
+⟦108⟧ = employee
+⟦109⟧ = employees
+⟦110⟧ = End User Management
+⟦111⟧ = engineering
+⟦112⟧ = enterprise
+⟦113⟧ = entrepreneur
+⟦114⟧ = entry
+⟦115⟧ = environments
+⟦116⟧ = equity
+⟦117⟧ = executive
+⟦118⟧ = exits
+⟦119⟧ = expectations
+⟦120⟧ = experience
+⟦121⟧ = expert
+⟦122⟧ = family
+⟦123⟧ = fast growth Internet companies
+⟦124⟧ = feedback
+⟦125⟧ = firm
+⟦126⟧ = form
+⟦127⟧ = founder
+⟦128⟧ = goals
+⟦129⟧ = growth
+⟦130⟧ = HR
+⟦131⟧ = hybrid
+⟦132⟧ = hybrid cloud strategy
+⟦133⟧ = i.e., their demonstration
+⟦134⟧ = IBM
+⟦135⟧ = IBM Application Performance Management
+⟦136⟧ = IBM Application Performance Management solutions
+⟦137⟧ = IBM Cloud solutions
+⟦138⟧ = IBM Tivoli brand
+⟦139⟧ = IBM's line
+⟦140⟧ = impact
+⟦141⟧ = information
+⟦142⟧ = Infrastructure
+⟦143⟧ = Integrating competencies
+⟦144⟧ = intelligence
+⟦145⟧ = Internet
+⟦146⟧ = internet security
+⟦147⟧ = investor
+⟦148⟧ = IT
+⟦149⟧ = IT operations
+⟦150⟧ = IT Operations Analytics
+⟦151⟧ = its peak
+⟦152⟧ = January
+⟦153⟧ = Kyle York
+⟦154⟧ = leader
+⟦155⟧ = lifecycle
+⟦156⟧ = line
+⟦157⟧ = lives
+⟦158⟧ = locations
+⟦159⟧ = management
+⟦160⟧ = Manchester
+⟦161⟧ = manner
+⟦162⟧ = market
+⟦163⟧ = means
+⟦164⟧ = medium and large businesses
+⟦165⟧ = method
+⟦166⟧ = migration
+⟦167⟧ = models
+⟦168⟧ = monitoring
+⟦169⟧ = more than 23,000 customers
+⟦170⟧ = Multi-source feedback
+⟦171⟧ = multiple locations
+⟦172⟧ = name
+⟦173⟧ = network
+⟦174⟧ = network monitoring
+⟦175⟧ = New Hampshire
+⟦176⟧ = New Relic
+⟦177⟧ = not an HR application
+⟦178⟧ = November
+⟦179⟧ = offering
+⟦180⟧ = one or more pre-selected goals
+⟦181⟧ = online infrastructure
+⟦182⟧ = operations
+⟦183⟧ = Oracle
+⟦184⟧ = Oracle Corporation
+⟦185⟧ = organization
+⟦186⟧ = organizational expectations
+⟦187⟧ = over 135 countries
+⟦188⟧ = owners
+⟦189⟧ = part
+⟦190⟧ = peak
+⟦191⟧ = people
+⟦192⟧ = performance
+⟦193⟧ = performance expectations
+⟦194⟧ = performance management
+⟦195⟧ = performance management (PM) software
+⟦196⟧ = performance management software
+⟦197⟧ = Performance management work
+⟦198⟧ = performance requirements
+⟦199⟧ = personnel
+⟦200⟧ = phases
+⟦201⟧ = PMW
+⟦202⟧ = portfolio
+⟦203⟧ = premises
+⟦204⟧ = private equity firm Thoma Bravo
+⟦205⟧ = problems
+⟦206⟧ = process
+⟦207⟧ = processes
+⟦208⟧ = production
+⟦209⟧ = production environments
+⟦210⟧ = products
+⟦211⟧ = profiling
+⟦212⟧ = programs
+⟦213⟧ = provision
+⟦214⟧ = real user monitoring
+⟦215⟧ = registration
+⟦216⟧ = registration services
+⟦217⟧ = requirements
+⟦218⟧ = results
+⟦219⟧ = routing
+⟦220⟧ = routing and access problems
+⟦221⟧ = SaaS
+⟦222⟧ = security
+⟦223⟧ = service
+⟦224⟧ = services
+⟦225⟧ = set
+⟦226⟧ = software
+⟦227⟧ = software applications
+⟦228⟧ = solution
+⟦229⟧ = solutions
+⟦230⟧ = Sophos
+⟦231⟧ = sought-after global public speaker
+⟦232⟧ = SPE
+⟦233⟧ = speaker
+⟦234⟧ = startup advisor
+⟦235⟧ = strategy
+⟦236⟧ = Synonyms
+⟦237⟧ = synthetic monitoring
+⟦238⟧ = systems
+⟦239⟧ = technology
+⟦240⟧ = the availability
+⟦241⟧ = the boards
+⟦242⟧ = the cloud
+⟦243⟧ = the Cognos name
+⟦244⟧ = The company
+⟦245⟧ = The company's services
+⟦246⟧ = the competencies
+⟦247⟧ = the form
+⟦248⟧ = the IBM IT Service Management portfolio
+⟦249⟧ = the impact
+⟦250⟧ = the information technology departments
+⟦251⟧ = the management
+⟦252⟧ = The offering
+⟦253⟧ = the performance management process
+⟦254⟧ = the provision
+⟦255⟧ = The solution
+⟦256⟧ = the work
+⟦257⟧ = their hybrid cloud development
+⟦258⟧ = their work
+⟦259⟧ = This entry
+⟦260⟧ = This software
+⟦261⟧ = Toronto
+⟦262⟧ = transaction
+⟦263⟧ = Transaction profiling
+⟦264⟧ = user
+⟦265⟧ = user experience
+⟦266⟧ = Verelo
+⟦267⟧ = website
+⟦268⟧ = websites
+⟦269⟧ = work
+⟦270⟧ = York
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Business performance management] ⟦60⟧⟨1⟩⟦63⟧⟨2⟩⟦192⟧⟨3⟩⟦159⟧⟨4⟩⟦19⟧⟨5⟩⟦225⟧⟨6⟩⟦192⟧⟨7⟩⟦194⟧⟨8⟩⟦159⟧⟨9⟩⟦43⟧⟨10⟩⟦207⟧⟨11⟩⟦251⟧⟨12⟩⟦159⟧⟨13⟩⟦41⟧⟨14⟩⟦185⟧⟨15⟩⟦192⟧⟨16⟩⟦180⟧⟨17⟩⟦128⟧⟨18⟩
+[Business performance management] ⟦236⟧⟨19⟩⟦2⟧⟨20⟩⟦60⟧⟨21⟩⟦192⟧⟨22⟩⟦159⟧⟨23⟩⟦3⟧⟨24⟩⟦192⟧⟨25⟩⟦159⟧⟨26⟩⟦86⟧⟨27⟩⟦4⟧⟨28⟩⟦112⟧⟨29⟩⟦192⟧⟨30⟩⟦159⟧⟨31⟩
+[Kyle York (entrepreneur)] ⟦153⟧⟨32⟩⟦37⟧⟨33⟩⟦145⟧⟨34⟩⟦113⟧⟨35⟩⟦234⟧⟨36⟩⟦26⟧⟨37⟩⟦44⟧⟨38⟩⟦45⟧⟨39⟩⟦147⟧⟨40⟩⟦69⟧⟨41⟩⟦69⟧⟨42⟩⟦142⟧⟨43⟩⟦22⟧⟨44⟩⟦121⟧⟨45⟩⟦121⟧⟨46⟩⟦231⟧⟨47⟩⟦233⟧⟨48⟩⟦70⟧⟨49⟩⟦166⟧⟨50⟩⟦145⟧⟨51⟩⟦146⟧⟨52⟩⟦222⟧⟨53⟩⟦132⟧⟨54⟩⟦69⟧⟨55⟩⟦235⟧⟨56⟩
+[Kyle York (entrepreneur)] ⟦270⟧⟨57⟩⟦33⟧⟨58⟩⟦117⟧⟨59⟩⟦102⟧⟨60⟩⟦67⟧⟨61⟩
+[Kyle York (entrepreneur)] ⟦102⟧⟨62⟩⟦183⟧⟨63⟩⟦178⟧⟨64⟩
+[Kyle York (entrepreneur)] ⟦270⟧⟨65⟩⟦241⟧⟨66⟩⟦57⟧⟨67⟩⟦88⟧⟨68⟩⟦71⟧⟨69⟩⟦9⟧⟨70⟩⟦122⟧⟨71⟩⟦60⟧⟨72⟩
+[Kyle York (entrepreneur)] ⟨73⟩⟦10⟧⟨74⟩⟦72⟧⟨75⟩⟦127⟧⟨76⟩⟦127⟧⟨77⟩
+[Kyle York (entrepreneur)] ⟦270⟧⟨78⟩⟦30⟧⟨79⟩⟦44⟧⟨80⟩⟦147⟧⟨81⟩⟦26⟧⟨82⟩⟦26⟧⟨83⟩⟦101⟧⟨84⟩⟦101⟧⟨85⟩⟦123⟧⟨86⟩⟦129⟧⟨87⟩⟦145⟧⟨88⟩⟦76⟧⟨89⟩
+[Kyle York (entrepreneur)] ⟨90⟩⟦189⟧⟨91⟩⟦189⟧⟨92⟩⟦105⟧⟨93⟩⟦118⟧⟨94⟩⟦39⟧⟨95⟩⟦147⟧⟨96⟩⟦108⟧⟨97⟩⟦108⟧⟨98⟩
+[Kyle York (entrepreneur)] ⟦76⟧⟨99⟩⟦76⟧⟨100⟩⟦162⟧⟨101⟩⟦162⟧⟨102⟩⟦154⟧⟨103⟩⟦68⟧⟨104⟩⟦73⟧⟨105⟩⟦176⟧⟨106⟩⟦183⟧⟨107⟩⟦230⟧⟨108⟩
+[Performance management work] ⟦192⟧⟨109⟩⟦197⟧⟨110⟩⟦159⟧⟨111⟩⟦269⟧⟨112⟩⟦8⟧⟨113⟩⟦201⟧⟨114⟩⟦27⟧⟨115⟩⟦24⟧⟨116⟩⟦192⟧⟨117⟩⟦198⟧⟨118⟩⟦217⟧⟨119⟩⟦47⟧⟨120⟩⟦50⟧⟨121⟩⟦238⟧⟨122⟩⟦53⟧⟨123⟩
+[Performance management work] ⟨124⟩⟦201⟧⟨125⟩⟦201⟧⟨126⟩⟦226⟧⟨127⟩⟦192⟧⟨128⟩⟦111⟧⟨129⟩⟦232⟧⟨130⟩⟦47⟧⟨131⟩⟦192⟧⟨132⟩⟦159⟧⟨133⟩⟦24⟧⟨134⟩
+[Performance management work] ⟦232⟧⟨135⟩⟦46⟧⟨136⟩⟦189⟧⟨137⟩⟦189⟧⟨138⟩⟦98⟧⟨139⟩⟦155⟧⟨140⟩⟦200⟧⟨141⟩⟦32⟧⟨142⟩⟦238⟧⟨143⟩⟦95⟧⟨144⟩⟦148⟧⟨145⟩⟦182⟧⟨146⟩
+[Performance management work] ⟦201⟧⟨147⟩⟦201⟧⟨148⟩⟦11⟧⟨149⟩⟦84⟧⟨150⟩⟦28⟧⟨151⟩⟦24⟧⟨152⟩⟦35⟧⟨153⟩⟦79⟧⟨154⟩⟦54⟧⟨155⟩⟦52⟧⟨156⟩
+[Competency-based performance management] ⟦192⟧⟨157⟩⟦194⟧⟨158⟩⟦159⟧⟨159⟩⟦218⟧⟨160⟩⟦218⟧⟨161⟩⟦14⟧⟨162⟩⟦161⟧⟨163⟩⟦186⟧⟨164⟩⟦119⟧⟨165⟩
+[Competency-based performance management] ⟦143⟧⟨166⟩⟦78⟧⟨167⟩⟦253⟧⟨168⟩⟦192⟧⟨169⟩⟦159⟧⟨170⟩⟦206⟧⟨171⟩⟦254⟧⟨172⟩⟦213⟧⟨173⟩⟦124⟧⟨174⟩⟦124⟧⟨175⟩⟦109⟧⟨176⟩⟦109⟧⟨177⟩⟦1⟧⟨178⟩⟦192⟧⟨179⟩⟦128⟧⟨180⟩⟦256⟧⟨181⟩⟦269⟧⟨182⟩⟦78⟧⟨183⟩⟦78⟧⟨184⟩⟦124⟧⟨185⟩⟦124⟧⟨186⟩
+[Competency-based performance management] ⟦55⟧⟨187⟩⟦78⟧⟨188⟩⟦17⟧⟨189⟩⟦189⟧⟨190⟩⟦192⟧⟨191⟩⟦194⟧⟨192⟩⟦159⟧⟨193⟩⟦34⟧⟨194⟩⟦163⟧⟨195⟩⟦109⟧⟨196⟩⟦109⟧⟨197⟩⟦192⟧⟨198⟩⟦193⟧⟨199⟩⟦119⟧⟨200⟩⟦78⟧⟨201⟩⟦78⟧⟨202⟩
+[Competency-based performance management] ⟦170⟧⟨203⟩⟦124⟧⟨204⟩⟦177⟧⟨205⟩⟦130⟧⟨206⟩⟦47⟧⟨207⟩⟦15⟧⟨208⟩⟦165⟧⟨209⟩⟦192⟧⟨210⟩⟦194⟧⟨211⟩⟦159⟧⟨212⟩⟦109⟧⟨213⟩⟦109⟧⟨214⟩⟦124⟧⟨215⟩⟦124⟧⟨216⟩⟦258⟧⟨217⟩⟦269⟧⟨218⟩⟦133⟧⟨219⟩⟦92⟧⟨220⟩⟦246⟧⟨221⟩⟦78⟧⟨222⟩
+[Dynatrace] ⟦104⟧⟨223⟩⟦104⟧⟨224⟩⟦31⟧⟨225⟩⟦47⟧⟨226⟩⟦192⟧⟨227⟩⟦159⟧⟨228⟩⟦5⟧⟨229⟩⟦226⟧⟨230⟩⟦77⟧⟨231⟩⟦210⟧⟨232⟩⟦210⟧⟨233⟩⟦250⟧⟨234⟩⟦141⟧⟨235⟩⟦239⟧⟨236⟩⟦93⟧⟨237⟩⟦99⟧⟨238⟩⟦60⟧⟨239⟩⟦188⟧⟨240⟩⟦164⟧⟨241⟩⟦64⟧⟨242⟩
+[Dynatrace] ⟦245⟧⟨243⟩⟦77⟧⟨244⟩⟦224⟧⟨245⟩⟦192⟧⟨246⟩⟦196⟧⟨247⟩⟦159⟧⟨248⟩⟦226⟧⟨249⟩⟦212⟧⟨250⟩⟦212⟧⟨251⟩⟦203⟧⟨252⟩⟦203⟧⟨253⟩⟦242⟧⟨254⟩⟦69⟧⟨255⟩
+[Dynatrace] ⟦260⟧⟨256⟩⟦226⟧⟨257⟩⟦240⟧⟨258⟩⟦56⟧⟨259⟩⟦192⟧⟨260⟩⟦192⟧⟨261⟩⟦226⟧⟨262⟩⟦227⟧⟨263⟩⟦51⟧⟨264⟩⟦249⟧⟨265⟩⟦140⟧⟨266⟩⟦264⟧⟨267⟩⟦265⟧⟨268⟩⟦120⟧⟨269⟩⟦247⟧⟨270⟩⟦126⟧⟨271⟩⟦90⟧⟨272⟩⟦262⟧⟨273⟩⟦237⟧⟨274⟩⟦168⟧⟨275⟩⟦214⟧⟨276⟩⟦264⟧⟨277⟩⟦168⟧⟨278⟩⟦173⟧⟨279⟩⟦174⟧⟨280⟩⟦168⟧⟨281⟩
+[Dynatrace] ⟦244⟧⟨282⟩⟦77⟧⟨283⟩⟦81⟧⟨284⟩⟦89⟧⟨285⟩⟦204⟧⟨286⟩⟦116⟧⟨287⟩⟦125⟧⟨288⟩⟦20⟧⟨289⟩⟦77⟧⟨290⟩
+[Verelo] ⟦266⟧⟨291⟩⟦261⟧⟨292⟩⟦65⟧⟨293⟩⟦142⟧⟨294⟩⟦142⟧⟨295⟩⟦18⟧⟨296⟩⟦223⟧⟨297⟩⟦77⟧⟨298⟩⟦102⟧⟨299⟩⟦152⟧⟨300⟩⟦21⟧⟨301⟩⟦267⟧⟨302⟩⟦168⟧⟨303⟩⟦223⟧⟨304⟩⟦267⟧⟨305⟩⟦100⟧⟨306⟩⟦100⟧⟨307⟩⟦192⟧⟨308⟩⟦192⟧⟨309⟩
+[Verelo] ⟦266⟧⟨310⟩⟦268⟧⟨311⟩⟦268⟧⟨312⟩⟦171⟧⟨313⟩⟦158⟧⟨314⟩⟦25⟧⟨315⟩⟦100⟧⟨316⟩⟦219⟧⟨317⟩⟦220⟧⟨318⟩⟦23⟧⟨319⟩⟦205⟧⟨320⟩
+[Verelo] ⟦266⟧⟨321⟩⟦100⟧⟨322⟩⟦100⟧⟨323⟩⟦157⟧⟨324⟩⟦157⟧⟨325⟩⟦160⟧⟨326⟩⟦175⟧⟨327⟩
+[Cognos] ⟦74⟧⟨328⟩⟦75⟧⟨329⟩⟦42⟧⟨330⟩⟦77⟧⟨331⟩⟦60⟧⟨332⟩⟦61⟧⟨333⟩⟦144⟧⟨334⟩⟦6⟧⟨335⟩⟦192⟧⟨336⟩⟦195⟧⟨337⟩⟦159⟧⟨338⟩⟦226⟧⟨339⟩
+[Cognos] ⟨340⟩⟦151⟧⟨341⟩⟦190⟧⟨342⟩⟦74⟧⟨343⟩⟦29⟧⟨344⟩⟦191⟧⟨345⟩⟦169⟧⟨346⟩⟦87⟧⟨347⟩⟦187⟧⟨348⟩⟦85⟧⟨349⟩⟦134⟧⟨350⟩⟦152⟧⟨351⟩
+[Cognos] ⟨352⟩⟦77⟧⟨353⟩⟦243⟧⟨354⟩⟦172⟧⟨355⟩⟦139⟧⟨356⟩⟦156⟧⟨357⟩⟦60⟧⟨358⟩⟦62⟧⟨359⟩⟦144⟧⟨360⟩⟦192⟧⟨361⟩⟦159⟧⟨362⟩⟦210⟧⟨363⟩
+[Dyn (company)] ⟦103⟧⟨364⟩⟦38⟧⟨365⟩⟦145⟧⟨366⟩⟦192⟧⟨367⟩⟦159⟧⟨368⟩⟦77⟧⟨369⟩⟦210⟧⟨370⟩⟦210⟧⟨371⟩⟦83⟧⟨372⟩⟦181⟧⟨373⟩⟦142⟧⟨374⟩⟦215⟧⟨375⟩⟦216⟧⟨376⟩⟦224⟧⟨377⟩⟦106⟧⟨378⟩⟦107⟧⟨379⟩⟦210⟧⟨380⟩
+[Dyn (company)] ⟦244⟧⟨381⟩⟦77⟧⟨382⟩⟦184⟧⟨383⟩
+[IBM Application Performance Management] ⟦135⟧⟨384⟩⟦40⟧⟨385⟩⟦179⟧⟨386⟩⟦149⟧⟨387⟩⟦182⟧⟨388⟩⟦96⟧⟨389⟩⟦199⟧⟨390⟩⟦199⟧⟨391⟩⟦97⟧⟨392⟩⟦205⟧⟨393⟩⟦257⟧⟨394⟩⟦69⟧⟨395⟩⟦95⟧⟨396⟩⟦208⟧⟨397⟩⟦209⟧⟨398⟩⟦115⟧⟨399⟩
+[IBM Application Performance Management] ⟦255⟧⟨400⟩⟦228⟧⟨401⟩⟦189⟧⟨402⟩⟦189⟧⟨403⟩⟦248⟧⟨404⟩⟦202⟧⟨405⟩⟦13⟧⟨406⟩⟦80⟧⟨407⟩⟦137⟧⟨408⟩⟦229⟧⟨409⟩
+[IBM Application Performance Management] ⟦252⟧⟨410⟩⟦179⟧⟨411⟩⟦66⟧⟨412⟩⟦66⟧⟨413⟩⟦110⟧⟨414⟩⟦7⟧⟨415⟩⟦49⟧⟨416⟩⟦48⟧⟨417⟩⟦263⟧⟨418⟩⟦211⟧⟨419⟩⟦150⟧⟨420⟩
+[IBM Application Performance Management] ⟦136⟧⟨421⟩⟦229⟧⟨422⟩⟦58⟧⟨423⟩⟦221⟧⟨424⟩⟦226⟧⟨425⟩⟦22⟧⟨426⟩⟦223⟧⟨427⟩⟦131⟧⟨428⟩⟦203⟧⟨429⟩⟦203⟧⟨430⟩⟦91⟧⟨431⟩⟦167⟧⟨432⟩
+[IBM Application Performance Management] ⟦135⟧⟨433⟩⟦17⟧⟨434⟩⟦189⟧⟨435⟩⟦138⟧⟨436⟩⟦59⟧⟨437⟩
+[IT performance management] ⟨438⟩⟦259⟧⟨439⟩⟦114⟧⟨440⟩⟦192⟧⟨441⟩⟦194⟧⟨442⟩⟦159⟧⟨443⟩⟦36⟧⟨444⟩⟦82⟧⟨445⟩
+[IT performance management] ⟨446⟩⟦194⟧⟨447⟩⟦12⟧⟨448⟩⟦94⟧⟨449⟩⟦192⟧⟨450⟩⟦194⟧⟨451⟩⟦159⟧⟨452⟩⟦16⟧⟨453⟩⟦82⟧⟨454⟩
+
+[user]
+
+问题：
+What position does Kyle York hold at the internet performance management company Dyn?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,537 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 1730s
+⟦2⟧ = 1763–1817
+⟦3⟧ = 1850s
+⟦4⟧ = 1960s
+⟦5⟧ = 1970s
+⟦6⟧ = 28 June
+⟦7⟧ = a "religious revival
+⟦8⟧ = a body
+⟦9⟧ = a building
+⟦10⟧ = a Christian religious awakening
+⟦11⟧ = a Christian restorationist church
+⟦12⟧ = a church
+⟦13⟧ = a congregation
+⟦14⟧ = a connectional polity
+⟦15⟧ = a daily cross
+⟦16⟧ = a fixed resolution
+⟦17⟧ = a Fourth Great Awakening
+⟦18⟧ = a great deal
+⟦19⟧ = a great desire
+⟦20⟧ = a greater and more glorious work
+⟦21⟧ = a large area
+⟦22⟧ = a large component
+⟦23⟧ = a large degree
+⟦24⟧ = a leader
+⟦25⟧ = a list
+⟦26⟧ = a mainline Protestant denomination
+⟦27⟧ = a major part
+⟦28⟧ = a major religious movement
+⟦29⟧ = a membership
+⟦30⟧ = a number
+⟦31⟧ = a particular site
+⟦32⟧ = a people
+⟦33⟧ = a Presbyterian minister
+⟦34⟧ = a Protestant religious revival
+⟦35⟧ = a rejection
+⟦36⟧ = a revival movement
+⟦37⟧ = a revivalist
+⟦38⟧ = a second wave
+⟦39⟧ = a series
+⟦40⟧ = a singular kind
+⟦41⟧ = a subject
+⟦42⟧ = a sure foundation
+⟦43⟧ = a synod
+⟦44⟧ = a typical feature
+⟦45⟧ = a whole
+⟦46⟧ = a witness
+⟦47⟧ = accomplishment
+⟦48⟧ = account
+⟦49⟧ = air
+⟦50⟧ = Albany
+⟦51⟧ = all sin
+⟦52⟧ = all the leading members
+⟦53⟧ = America
+⟦54⟧ = an account
+⟦55⟧ = an appeal
+⟦56⟧ = an English Anglican cleric
+⟦57⟧ = an evidence
+⟦58⟧ = an independent presbytery
+⟦59⟧ = another visit
+⟦60⟧ = appeal
+⟦61⟧ = area
+⟦62⟧ = Ashfield
+⟦63⟧ = aspects
+⟦64⟧ = awakening
+⟦65⟧ = awakenings
+⟦66⟧ = Baptist and Methodist congregations
+⟦67⟧ = Baptists
+⟦68⟧ = Barton W. Stone
+⟦69⟧ = beginning
+⟦70⟧ = Bible societies
+⟦71⟧ = Bishop
+⟦72⟧ = body
+⟦73⟧ = both liturgical and evangelical elements
+⟦74⟧ = brother
+⟦75⟧ = building
+⟦76⟧ = buildings
+⟦77⟧ = camp
+⟦78⟧ = camp meetings
+⟦79⟧ = campgrounds
+⟦80⟧ = centers
+⟦81⟧ = century
+⟦82⟧ = changes
+⟦83⟧ = Charles
+⟦84⟧ = Charles Wesley
+⟦85⟧ = Christ
+⟦86⟧ = church
+⟦87⟧ = Churches
+⟦88⟧ = city
+⟦89⟧ = classes
+⟦90⟧ = cleric
+⟦91⟧ = commitment
+⟦92⟧ = company
+⟦93⟧ = component
+⟦94⟧ = conference
+⟦95⟧ = conference centers
+⟦96⟧ = congregation
+⟦97⟧ = congregations
+⟦98⟧ = Connecticut
+⟦99⟧ = conversion
+⟦100⟧ = converts
+⟦101⟧ = cross
+⟦102⟧ = Dallas
+⟦103⟧ = day
+⟦104⟧ = deal
+⟦105⟧ = decade
+⟦106⟧ = definition
+⟦107⟧ = degree
+⟦108⟧ = deism
+⟦109⟧ = denomination
+⟦110⟧ = denominations
+⟦111⟧ = deportment
+⟦112⟧ = desire
+⟦113⟧ = Disciples
+⟦114⟧ = divine light
+⟦115⟧ = doctrine
+⟦116⟧ = early 1970s
+⟦117⟧ = early nineteenth century
+⟦118⟧ = Easter Ross
+⟦119⟧ = effect
+⟦120⟧ = elements
+⟦121⟧ = emotion
+⟦122⟧ = England
+⟦123⟧ = enthusiasm
+⟦124⟧ = era
+⟦125⟧ = Evangelicalism
+⟦126⟧ = evening
+⟦127⟧ = events
+⟦128⟧ = every wrong
+⟦129⟧ = evidence
+⟦130⟧ = example
+⟦131⟧ = exercises
+⟦132⟧ = expansion
+⟦133⟧ = experiences
+⟦134⟧ = faith
+⟦135⟧ = feature
+⟦136⟧ = fellow cleric
+⟦137⟧ = figures
+⟦138⟧ = foundation
+⟦139⟧ = frontier
+⟦140⟧ = gathering
+⟦141⟧ = gatherings
+⟦142⟧ = George Whitefield
+⟦143⟧ = Glasgow
+⟦144⟧ = God
+⟦145⟧ = Great Britain
+⟦146⟧ = great light
+⟦147⟧ = groups
+⟦148⟧ = Hancock
+⟦149⟧ = hand
+⟦150⟧ = Harvard
+⟦151⟧ = health
+⟦152⟧ = heart
+⟦153⟧ = heavenly visions
+⟦154⟧ = her successors
+⟦155⟧ = his brother
+⟦156⟧ = his experiences
+⟦157⟧ = historian
+⟦158⟧ = historians
+⟦159⟧ = historic sites
+⟦160⟧ = hopes
+⟦161⟧ = idea
+⟦162⟧ = impressions
+⟦163⟧ = improvement
+⟦164⟧ = improvement classes
+⟦165⟧ = instruction
+⟦166⟧ = intense "awakenings
+⟦167⟧ = Islands
+⟦168⟧ = itinerant preachers
+⟦169⟧ = its main predecessor
+⟦170⟧ = its members
+⟦171⟧ = its opposition
+⟦172⟧ = its peak
+⟦173⟧ = its roots
+⟦174⟧ = Jesus Christ
+⟦175⟧ = John
+⟦176⟧ = John Wesley
+⟦177⟧ = Joseph Smith
+⟦178⟧ = June
+⟦179⟧ = Kentucky
+⟦180⟧ = Kentucky Synod
+⟦181⟧ = kind
+⟦182⟧ = kindness
+⟦183⟧ = large open-air gatherings
+⟦184⟧ = Latter-day Saints
+⟦185⟧ = leader
+⟦186⟧ = life
+⟦187⟧ = light
+⟦188⟧ = list
+⟦189⟧ = major participants
+⟦190⟧ = Many
+⟦191⟧ = many aspects
+⟦192⟧ = many historians
+⟦193⟧ = meetings
+⟦194⟧ = members
+⟦195⟧ = membership
+⟦196⟧ = men
+⟦197⟧ = Methodism
+⟦198⟧ = Methodist churches
+⟦199⟧ = Methodist denominations
+⟦200⟧ = Methodists
+⟦201⟧ = middle
+⟦202⟧ = mind
+⟦203⟧ = minister
+⟦204⟧ = ministers
+⟦205⟧ = mission
+⟦206⟧ = mission schools
+⟦207⟧ = missionaries
+⟦208⟧ = momentum
+⟦209⟧ = Monday
+⟦210⟧ = most notably economic historian Robert Fogel
+⟦211⟧ = Mother Ann
+⟦212⟧ = movement
+⟦213⟧ = movements
+⟦214⟧ = my faith
+⟦215⟧ = my great satisfaction
+⟦216⟧ = my hopes
+⟦217⟧ = my mind
+⟦218⟧ = my pursuit
+⟦219⟧ = My reputation
+⟦220⟧ = my salvation
+⟦221⟧ = my sins
+⟦222⟧ = New Lebanon
+⟦223⟧ = notable churches
+⟦224⟧ = number
+⟦225⟧ = NY
+⟦226⟧ = O.S.
+⟦227⟧ = opposition
+⟦228⟧ = organisations
+⟦229⟧ = orientation
+⟦230⟧ = other Protestants
+⟦231⟧ = others
+⟦232⟧ = over 70,000 missionaries
+⟦233⟧ = part
+⟦234⟧ = participants
+⟦235⟧ = past churches
+⟦236⟧ = peak
+⟦237⟧ = people
+⟦238⟧ = period
+⟦239⟧ = periodic revivals
+⟦240⟧ = place
+⟦241⟧ = places
+⟦242⟧ = polity
+⟦243⟧ = power
+⟦244⟧ = prayers
+⟦245⟧ = preachers
+⟦246⟧ = precepts
+⟦247⟧ = predecessor
+⟦248⟧ = presbytery
+⟦249⟧ = prime
+⟦250⟧ = principles
+⟦251⟧ = prospects
+⟦252⟧ = purity
+⟦253⟧ = pursuit
+⟦254⟧ = ragged schools
+⟦255⟧ = rapid expansion
+⟦256⟧ = rationalism
+⟦257⟧ = rejection
+⟦258⟧ = religion
+⟦259⟧ = religious exercises
+⟦260⟧ = religious movements
+⟦261⟧ = religious revival
+⟦262⟧ = renewed commitment
+⟦263⟧ = reputation
+⟦264⟧ = resolution
+⟦265⟧ = restoration
+⟦266⟧ = restorationist
+⟦267⟧ = retreats
+⟦268⟧ = Rev. James McGready
+⟦269⟧ = revival
+⟦270⟧ = revivalist
+⟦271⟧ = revivalist Presbyterian ministers
+⟦272⟧ = revivals
+⟦273⟧ = rise
+⟦274⟧ = Romanticism
+⟦275⟧ = roots
+⟦276⟧ = Saints
+⟦277⟧ = Salt Lake City
+⟦278⟧ = salvation
+⟦279⟧ = satisfaction
+⟦280⟧ = Saturday evening
+⟦281⟧ = scholars
+⟦282⟧ = schools
+⟦283⟧ = Scotland
+⟦284⟧ = secession
+⟦285⟧ = selected notable Methodist theological buildings
+⟦286⟧ = sense
+⟦287⟧ = September
+⟦288⟧ = series
+⟦289⟧ = several others
+⟦290⟧ = Shaker Elder Henry C. Blinn
+⟦291⟧ = Shakerism
+⟦292⟧ = significant Methodist gathering places
+⟦293⟧ = simplicity
+⟦294⟧ = sin
+⟦295⟧ = singing
+⟦296⟧ = sins
+⟦297⟧ = site
+⟦298⟧ = sites
+⟦299⟧ = societies
+⟦300⟧ = society
+⟦301⟧ = some scholars
+⟦302⟧ = spirit
+⟦303⟧ = spiritual impressions
+⟦304⟧ = spiritual power
+⟦305⟧ = spring
+⟦306⟧ = Springfield Presbytery
+⟦307⟧ = Stamford
+⟦308⟧ = strangers
+⟦309⟧ = subject
+⟦310⟧ = successors
+⟦311⟧ = Sunday Schools
+⟦312⟧ = synod
+⟦313⟧ = temples
+⟦314⟧ = temptations
+⟦315⟧ = terminology
+⟦316⟧ = testimony
+⟦317⟧ = Texas
+⟦318⟧ = the 19th century
+⟦319⟧ = the accomplishment
+⟦320⟧ = the American frontier
+⟦321⟧ = the apostolic faith
+⟦322⟧ = the beginning
+⟦323⟧ = the Cambuslang Wark
+⟦324⟧ = the Central Belt
+⟦325⟧ = the Christ-like simplicity
+⟦326⟧ = the Christian Church
+⟦327⟧ = the church
+⟦328⟧ = the church's theological orientation
+⟦329⟧ = the city
+⟦330⟧ = the colloquial sense
+⟦331⟧ = The cross
+⟦332⟧ = the Cumberland Presbyterian Church
+⟦333⟧ = The doctrine
+⟦334⟧ = the early 19th century
+⟦335⟧ = the early revival
+⟦336⟧ = the effect
+⟦337⟧ = the eighteenth century
+⟦338⟧ = the Elders
+⟦339⟧ = the Enlightenment
+⟦340⟧ = the era
+⟦341⟧ = The evangelical revival
+⟦342⟧ = the Evangelical United Brethren Church
+⟦343⟧ = the first three great awakenings
+⟦344⟧ = the former Cumberland Presbytery
+⟦345⟧ = The Fourth Great Awakening
+⟦346⟧ = the fourth-largest Christian denomination
+⟦347⟧ = the Great Awakening
+⟦348⟧ = the Highlands
+⟦349⟧ = the idea
+⟦350⟧ = the Kilsyth Revival
+⟦351⟧ = the largest denomination
+⟦352⟧ = the late 1850s
+⟦353⟧ = the late 18th century
+⟦354⟧ = the late 1960s
+⟦355⟧ = the late eighteenth century
+⟦356⟧ = the later 1730s
+⟦357⟧ = the Latter Day Saint movement
+⟦358⟧ = the LDS Church
+⟦359⟧ = The list
+⟦360⟧ = the lower groups
+⟦361⟧ = the Methodist Church
+⟦362⟧ = the middle
+⟦363⟧ = the Mormon Church
+⟦364⟧ = the most important figures
+⟦365⟧ = The movement
+⟦366⟧ = the National Council
+⟦367⟧ = the new converts
+⟦368⟧ = the New Testament definition
+⟦369⟧ = the nineteenth century
+⟦370⟧ = the one hand
+⟦371⟧ = the organisations
+⟦372⟧ = the original church
+⟦373⟧ = the other hand
+⟦374⟧ = the period
+⟦375⟧ = the precepts
+⟦376⟧ = the Presbyterian Church
+⟦377⟧ = the prime
+⟦378⟧ = the principles
+⟦379⟧ = the prophetic spirit
+⟦380⟧ = the prospects
+⟦381⟧ = the purity
+⟦382⟧ = the religious changes
+⟦383⟧ = the restoration
+⟦384⟧ = the revival
+⟦385⟧ = the revival movement
+⟦386⟧ = the secession churches
+⟦387⟧ = the Second Great Awakening
+⟦388⟧ = The singing
+⟦389⟧ = the skeptical rationalism
+⟦390⟧ = the Society
+⟦391⟧ = the spirit
+⟦392⟧ = the spring
+⟦393⟧ = The terminology
+⟦394⟧ = the testimony
+⟦395⟧ = the true witnesses
+⟦396⟧ = the truth
+⟦397⟧ = the twentieth century
+⟦398⟧ = The UMC
+⟦399⟧ = The United Methodist Church
+⟦400⟧ = the United States
+⟦401⟧ = the US
+⟦402⟧ = the vigor
+⟦403⟧ = the winter
+⟦404⟧ = The wisdom
+⟦405⟧ = the work
+⟦406⟧ = the world
+⟦407⟧ = their deportment
+⟦408⟧ = their doctrine
+⟦409⟧ = their former congregations
+⟦410⟧ = their instruction
+⟦411⟧ = their meetings
+⟦412⟧ = their religion
+⟦413⟧ = their testimony
+⟦414⟧ = these men
+⟦415⟧ = these strangers
+⟦416⟧ = these years
+⟦417⟧ = times
+⟦418⟧ = truth
+⟦419⟧ = UMC
+⟦420⟧ = union
+⟦421⟧ = United States
+⟦422⟧ = Utah
+⟦423⟧ = vigor
+⟦424⟧ = visions
+⟦425⟧ = visit
+⟦426⟧ = Washington Presbytery
+⟦427⟧ = Watervliet
+⟦428⟧ = wave
+⟦429⟧ = whole
+⟦430⟧ = whose preachers
+⟦431⟧ = winter
+⟦432⟧ = wisdom
+⟦433⟧ = witness
+⟦434⟧ = witnesses
+⟦435⟧ = work
+⟦436⟧ = world
+⟦437⟧ = World War II
+⟦438⟧ = writing:"I
+⟦439⟧ = wrong
+⟦440⟧ = years
+⟦441⟧ = zealous prayers
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[John Wesley] ⟦176⟧⟨1⟩⟦6⟧⟨2⟩⟦226⟧⟨3⟩⟦56⟧⟨4⟩⟦90⟧⟨5⟩⟦155⟧⟨6⟩⟦74⟧⟨7⟩⟦83⟧⟨8⟩⟦136⟧⟨9⟩⟦90⟧⟨10⟩⟦142⟧⟨11⟩⟦197⟧⟨12⟩
+[Kentucky Synod] ⟦180⟧⟨13⟩⟦43⟧⟨14⟩⟦312⟧⟨15⟩⟦376⟧⟨16⟩⟦400⟧⟨17⟩⟦53⟧⟨18⟩⟦353⟧⟨19⟩⟦81⟧⟨20⟩
+[Kentucky Synod] ⟨21⟩⟦8⟧⟨22⟩⟦72⟧⟨23⟩⟦180⟧⟨24⟩⟦18⟧⟨25⟩⟦104⟧⟨26⟩⟦376⟧⟨27⟩⟦45⟧⟨28⟩⟦429⟧⟨29⟩⟦171⟧⟨30⟩⟦227⟧⟨31⟩⟦191⟧⟨32⟩⟦63⟧⟨33⟩⟦387⟧⟨34⟩⟦36⟧⟨35⟩⟦269⟧⟨36⟩⟦212⟧⟨37⟩⟦179⟧⟨38⟩
+[Kentucky Synod] ⟦312⟧⟨39⟩⟦30⟧⟨40⟩⟦224⟧⟨41⟩⟦271⟧⟨42⟩⟦204⟧⟨43⟩⟦414⟧⟨44⟩⟦196⟧⟨45⟩⟦409⟧⟨46⟩⟦97⟧⟨47⟩
+[Kentucky Synod] ⟨48⟩⟦68⟧⟨49⟩⟦426⟧⟨50⟩⟦306⟧⟨51⟩⟦326⟧⟨52⟩⟦113⟧⟨53⟩⟦85⟧⟨54⟩
+[Kentucky Synod] ⟨55⟩⟦204⟧⟨56⟩⟦204⟧⟨57⟩⟦344⟧⟨58⟩⟦312⟧⟨59⟩⟦440⟧⟨60⟩⟦327⟧⟨61⟩⟦86⟧⟨62⟩⟦58⟧⟨63⟩⟦248⟧⟨64⟩⟦332⟧⟨65⟩
+[The Church of Jesus Christ of Latter-day Saints] ⟦327⟧⟨66⟩⟦174⟧⟨67⟩⟦184⟧⟨68⟩⟦103⟧⟨69⟩⟦276⟧⟨70⟩⟦358⟧⟨71⟩⟦363⟧⟨72⟩⟦11⟧⟨73⟩⟦266⟧⟨74⟩⟦86⟧⟨75⟩⟦170⟧⟨76⟩⟦194⟧⟨77⟩⟦383⟧⟨78⟩⟦265⟧⟨79⟩⟦372⟧⟨80⟩⟦86⟧⟨81⟩⟦174⟧⟨82⟩
+[The Church of Jesus Christ of Latter-day Saints] ⟦327⟧⟨83⟩⟦86⟧⟨84⟩⟦277⟧⟨85⟩⟦422⟧⟨86⟩⟦97⟧⟨87⟩⟦97⟧⟨88⟩⟦313⟧⟨89⟩⟦313⟧⟨90⟩
+[The Church of Jesus Christ of Latter-day Saints] ⟨91⟩⟦327⟧⟨92⟩⟦86⟧⟨93⟩⟦232⟧⟨94⟩⟦207⟧⟨95⟩⟦29⟧⟨96⟩⟦195⟧⟨97⟩
+[The Church of Jesus Christ of Latter-day Saints] ⟨98⟩⟦366⟧⟨99⟩⟦87⟧⟨100⟩⟦346⟧⟨101⟩⟦109⟧⟨102⟩⟦400⟧⟨103⟩
+[The Church of Jesus Christ of Latter-day Saints] ⟨104⟩⟦351⟧⟨105⟩⟦109⟧⟨106⟩⟦357⟧⟨107⟩⟦212⟧⟨108⟩⟦177⟧⟨109⟩⟦374⟧⟨110⟩⟦238⟧⟨111⟩⟦261⟧⟨112⟩⟦269⟧⟨113⟩⟦387⟧⟨114⟩
+[Job Bishop] ⟦71⟧⟨115⟩⟦287⟧⟨116⟩⟦307⟧⟨117⟩⟦98⟧⟨118⟩⟦421⟧⟨119⟩
+[Job Bishop] ⟨120⟩⟦290⟧⟨121⟩⟦71⟧⟨122⟩⟦7⟧⟨123⟩⟦269⟧⟨124⟩⟦105⟧⟨125⟩⟦322⟧⟨126⟩⟦69⟧⟨127⟩⟦387⟧⟨128⟩
+[Job Bishop] ⟦404⟧⟨129⟩⟦432⟧⟨130⟩⟦410⟧⟨131⟩⟦165⟧⟨132⟩⟦381⟧⟨133⟩⟦252⟧⟨134⟩⟦408⟧⟨135⟩⟦115⟧⟨136⟩⟦325⟧⟨137⟩⟦293⟧⟨138⟩⟦407⟧⟨139⟩⟦111⟧⟨140⟩⟦321⟧⟨141⟩⟦134⟧⟨142⟩
+[Job Bishop] ⟨143⟩⟦405⟧⟨144⟩⟦435⟧⟨145⟩⟦144⟧⟨146⟩⟦220⟧⟨147⟩⟦278⟧⟨148⟩⟦331⟧⟨149⟩⟦101⟧⟨150⟩⟦57⟧⟨151⟩⟦129⟧⟨152⟩⟦391⟧⟨153⟩⟦302⟧⟨154⟩⟦394⟧⟨155⟩⟦316⟧⟨156⟩
+[Job Bishop] ⟨157⟩⟦370⟧⟨158⟩⟦149⟧⟨159⟩⟦380⟧⟨160⟩⟦251⟧⟨161⟩⟦406⟧⟨162⟩⟦436⟧⟨163⟩⟦217⟧⟨164⟩⟦202⟧⟨165⟩
+[Job Bishop] ⟨166⟩⟦377⟧⟨167⟩⟦249⟧⟨168⟩⟦186⟧⟨169⟩⟦186⟧⟨170⟩⟦402⟧⟨171⟩⟦423⟧⟨172⟩⟦151⟧⟨173⟩⟦151⟧⟨174⟩
+[Job Bishop] ⟨175⟩⟦219⟧⟨176⟩⟦263⟧⟨177⟩⟦216⟧⟨178⟩⟦160⟧⟨179⟩⟦373⟧⟨180⟩⟦149⟧⟨181⟩⟦258⟧⟨182⟩⟦258⟧⟨183⟩⟦218⟧⟨184⟩⟦253⟧⟨185⟩
+[Job Bishop] ⟦384⟧⟨186⟩⟦269⟧⟨187⟩⟦216⟧⟨188⟩⟦160⟧⟨189⟩⟦214⟧⟨190⟩⟦134⟧⟨191⟩⟦20⟧⟨192⟩⟦435⟧⟨193⟩
+[Job Bishop] ⟨194⟩⟦59⟧⟨195⟩⟦425⟧⟨196⟩⟦182⟧⟨197⟩⟦182⟧⟨198⟩
+[Job Bishop] ⟨199⟩⟦221⟧⟨200⟩⟦296⟧⟨201⟩⟦144⟧⟨202⟩⟦16⟧⟨203⟩⟦264⟧⟨204⟩⟦331⟧⟨205⟩⟦101⟧⟨206⟩⟦85⟧⟨207⟩
+[Job Bishop] ⟨208⟩⟦128⟧⟨209⟩⟦439⟧⟨210⟩⟦51⟧⟨211⟩⟦294⟧⟨212⟩⟦15⟧⟨213⟩⟦101⟧⟨214⟩
+[Job Bishop] ⟨215⟩⟦211⟧⟨216⟩⟦338⟧⟨217⟩⟦46⟧⟨218⟩⟦433⟧⟨219⟩⟦381⟧⟨220⟩⟦252⟧⟨221⟩⟦186⟧⟨222⟩⟦186⟧⟨223⟩
+[Job Bishop] ⟨224⟩⟦54⟧⟨225⟩⟦48⟧⟨226⟩⟦156⟧⟨227⟩⟦133⟧⟨228⟩⟦99⟧⟨229⟩⟦99⟧⟨230⟩⟦291⟧⟨231⟩⟦438⟧⟨232⟩⟦438⟧⟨233⟩⟦391⟧⟨234⟩⟦302⟧⟨235⟩⟦405⟧⟨236⟩⟦435⟧⟨237⟩⟦146⟧⟨238⟩⟦187⟧⟨239⟩
+[Job Bishop] ⟦333⟧⟨240⟩⟦115⟧⟨241⟩⟦375⟧⟨242⟩⟦246⟧⟨243⟩⟦130⟧⟨244⟩⟦130⟧⟨245⟩⟦174⟧⟨246⟩
+[Job Bishop] ⟨247⟩⟦410⟧⟨248⟩⟦165⟧⟨249⟩⟦396⟧⟨250⟩⟦418⟧⟨251⟩⟦413⟧⟨252⟩⟦316⟧⟨253⟩
+[Job Bishop] ⟨254⟩⟦153⟧⟨255⟩⟦424⟧⟨256⟩⟦214⟧⟨257⟩⟦134⟧⟨258⟩⟦42⟧⟨259⟩⟦138⟧⟨260⟩⟦211⟧⟨261⟩⟦338⟧⟨262⟩⟦417⟧⟨263⟩⟦427⟧⟨264⟩⟦150⟧⟨265⟩⟦62⟧⟨266⟩⟦148⟧⟨267⟩⟦222⟧⟨268⟩⟦52⟧⟨269⟩⟦194⟧⟨270⟩⟦390⟧⟨271⟩
+[Job Bishop] ⟨272⟩⟦215⟧⟨273⟩⟦279⟧⟨274⟩⟦378⟧⟨275⟩⟦250⟧⟨276⟩⟦211⟧⟨277⟩⟦154⟧⟨278⟩⟦310⟧⟨279⟩
+[Job Bishop] ⟨280⟩⟦441⟧⟨281⟩⟦244⟧⟨282⟩⟦259⟧⟨283⟩⟦131⟧⟨284⟩⟦336⟧⟨285⟩⟦119⟧⟨286⟩⟦303⟧⟨287⟩⟦162⟧⟨288⟩⟦41⟧⟨289⟩⟦309⟧⟨290⟩⟦314⟧⟨291⟩⟦314⟧⟨292⟩
+[Job Bishop] ⟨293⟩⟦403⟧⟨294⟩⟦431⟧⟨295⟩⟦319⟧⟨296⟩⟦47⟧⟨297⟩⟦379⟧⟨298⟩⟦302⟧⟨299⟩⟦384⟧⟨300⟩⟦269⟧⟨301⟩⟦392⟧⟨302⟩⟦305⟧⟨303⟩⟦32⟧⟨304⟩⟦237⟧⟨305⟩⟦329⟧⟨306⟩⟦88⟧⟨307⟩⟦50⟧⟨308⟩⟦225⟧⟨309⟩⟦40⟧⟨310⟩⟦181⟧⟨311⟩⟦258⟧⟨312⟩⟦258⟧⟨313⟩⟦23⟧⟨314⟩⟦107⟧⟨315⟩⟦114⟧⟨316⟩⟦187⟧⟨317⟩⟦304⟧⟨318⟩⟦243⟧⟨319⟩
+[Job Bishop] ⟦190⟧⟨320⟩⟦395⟧⟨321⟩⟦434⟧⟨322⟩⟦144⟧⟨323⟩
+[Job Bishop] ⟦405⟧⟨324⟩⟦435⟧⟨325⟩⟦19⟧⟨326⟩⟦112⟧⟨327⟩⟦415⟧⟨328⟩⟦308⟧⟨329⟩⟦412⟧⟨330⟩⟦258⟧⟨331⟩⟦178⟧⟨332⟩⟦92⟧⟨333⟩⟦92⟧⟨334⟩⟦289⟧⟨335⟩⟦231⟧⟨336⟩⟦425⟧⟨337⟩
+[Job Bishop] ⟨338⟩⟦280⟧⟨339⟩⟦126⟧⟨340⟩⟦209⟧⟨341⟩
+[Job Bishop] ⟨342⟩⟦411⟧⟨343⟩⟦193⟧⟨344⟩
+[Job Bishop] ⟦388⟧⟨345⟩⟦295⟧⟨346⟩⟦152⟧⟨347⟩
+[List of Methodist churches in the United States] ⟨348⟩⟦25⟧⟨349⟩⟦188⟧⟨350⟩⟦198⟧⟨351⟩⟦87⟧⟨352⟩⟦400⟧⟨353⟩
+[List of Methodist churches in the United States] ⟨354⟩⟦223⟧⟨355⟩⟦87⟧⟨356⟩⟦12⟧⟨357⟩⟦86⟧⟨358⟩⟦13⟧⟨359⟩⟦96⟧⟨360⟩⟦368⟧⟨361⟩⟦106⟧⟨362⟩⟦12⟧⟨363⟩⟦86⟧⟨364⟩⟦9⟧⟨365⟩⟦75⟧⟨366⟩⟦330⟧⟨367⟩⟦286⟧⟨368⟩
+[List of Methodist churches in the United States] ⟨369⟩⟦79⟧⟨370⟩⟦79⟧⟨371⟩⟦94⟧⟨372⟩⟦95⟧⟨373⟩⟦80⟧⟨374⟩⟦267⟧⟨375⟩⟦267⟧⟨376⟩⟦292⟧⟨377⟩⟦140⟧⟨378⟩⟦241⟧⟨379⟩⟦30⟧⟨380⟩⟦224⟧⟨381⟩⟦159⟧⟨382⟩⟦298⟧⟨383⟩⟦77⟧⟨384⟩⟦78⟧⟨385⟩⟦193⟧⟨386⟩⟦197⟧⟨387⟩⟦197⟧⟨388⟩⟦22⟧⟨389⟩⟦93⟧⟨390⟩⟦35⟧⟨391⟩⟦257⟧⟨392⟩⟦235⟧⟨393⟩⟦87⟧⟨394⟩⟦176⟧⟨395⟩⟦231⟧⟨396⟩⟦231⟧⟨397⟩⟦183⟧⟨398⟩⟦49⟧⟨399⟩⟦141⟧⟨400⟩⟦145⟧⟨401⟩
+[List of Methodist churches in the United States] ⟨402⟩⟦400⟧⟨403⟩⟦200⟧⟨404⟩⟦67⟧⟨405⟩⟦230⟧⟨406⟩⟦189⟧⟨407⟩⟦234⟧⟨408⟩⟦387⟧⟨409⟩⟦237⟧⟨410⟩⟦237⟧⟨411⟩⟦21⟧⟨412⟩⟦61⟧⟨413⟩⟦31⟧⟨414⟩⟦297⟧⟨415⟩⟦77⟧⟨416⟩⟦77⟧⟨417⟩⟦168⟧⟨418⟩⟦245⟧⟨419⟩
+[List of Methodist churches in the United States] ⟦359⟧⟨420⟩⟦188⟧⟨421⟩⟦285⟧⟨422⟩⟦76⟧⟨423⟩
+[James McGready] ⟦268⟧⟨424⟩⟦2⟧⟨425⟩⟦33⟧⟨426⟩⟦203⟧⟨427⟩⟦37⟧⟨428⟩⟦270⟧⟨429⟩⟦387⟧⟨430⟩⟦400⟧⟨431⟩⟦53⟧⟨432⟩
+[James McGready] ⟨433⟩⟦364⟧⟨434⟩⟦137⟧⟨435⟩⟦387⟧⟨436⟩⟦320⟧⟨437⟩⟦139⟧⟨438⟩
+[Fourth Great Awakening] ⟦345⟧⟨439⟩⟦10⟧⟨440⟩⟦64⟧⟨441⟩⟦301⟧⟨442⟩⟦281⟧⟨443⟩⟦210⟧⟨444⟩⟦157⟧⟨445⟩⟦240⟧⟨446⟩⟦240⟧⟨447⟩⟦400⟧⟨448⟩⟦354⟧⟨449⟩⟦4⟧⟨450⟩⟦116⟧⟨451⟩⟦5⟧⟨452⟩⟦231⟧⟨453⟩⟦231⟧⟨454⟩⟦340⟧⟨455⟩⟦124⟧⟨456⟩⟦437⟧⟨457⟩
+[Fourth Great Awakening] ⟦393⟧⟨458⟩⟦315⟧⟨459⟩⟦192⟧⟨460⟩⟦158⟧⟨461⟩⟦382⟧⟨462⟩⟦82⟧⟨463⟩⟦240⟧⟨464⟩⟦240⟧⟨465⟩⟦401⟧⟨466⟩⟦416⟧⟨467⟩⟦440⟧⟨468⟩⟦343⟧⟨469⟩⟦65⟧⟨470⟩
+[Fourth Great Awakening] ⟨471⟩⟦349⟧⟨472⟩⟦161⟧⟨473⟩⟦17⟧⟨474⟩
+[Evangelical revival in Scotland] ⟦341⟧⟨475⟩⟦269⟧⟨476⟩⟦283⟧⟨477⟩⟦39⟧⟨478⟩⟦288⟧⟨479⟩⟦260⟧⟨480⟩⟦213⟧⟨481⟩⟦283⟧⟨482⟩⟦337⟧⟨483⟩⟦81⟧⟨484⟩⟦239⟧⟨485⟩⟦272⟧⟨486⟩⟦397⟧⟨487⟩⟦81⟧⟨488⟩
+[Evangelical revival in Scotland] ⟨489⟩⟦356⟧⟨490⟩⟦1⟧⟨491⟩⟦97⟧⟨492⟩⟦97⟧⟨493⟩⟦166⟧⟨494⟩⟦65⟧⟨495⟩⟦123⟧⟨496⟩⟦123⟧⟨497⟩⟦262⟧⟨498⟩⟦91⟧⟨499⟩⟦255⟧⟨500⟩⟦132⟧⟨501⟩
+[Evangelical revival in Scotland] ⟨502⟩⟦118⟧⟨503⟩⟦348⟧⟨504⟩⟦323⟧⟨505⟩⟦143⟧⟨506⟩
+[Evangelical revival in Scotland] ⟨507⟩⟦367⟧⟨508⟩⟦100⟧⟨509⟩⟦360⟧⟨510⟩⟦147⟧⟨511⟩⟦300⟧⟨512⟩⟦300⟧⟨513⟩
+[Evangelical revival in Scotland] ⟨514⟩⟦65⟧⟨515⟩⟦65⟧⟨516⟩⟦335⟧⟨517⟩⟦269⟧⟨518⟩⟦283⟧⟨519⟩⟦273⟧⟨520⟩⟦273⟧⟨521⟩⟦28⟧⟨522⟩⟦212⟧⟨523⟩⟦386⟧⟨524⟩⟦284⟧⟨525⟩⟦87⟧⟨526⟩⟦327⟧⟨527⟩⟦283⟧⟨528⟩
+[Evangelical revival in Scotland] ⟨529⟩⟦355⟧⟨530⟩⟦81⟧⟨531⟩⟦117⟧⟨532⟩⟦81⟧⟨533⟩⟦384⟧⟨534⟩⟦269⟧⟨535⟩⟦38⟧⟨536⟩⟦428⟧⟨537⟩⟦401⟧⟨538⟩⟦387⟧⟨539⟩
+[Evangelical revival in Scotland] ⟨540⟩⟦283⟧⟨541⟩⟦127⟧⟨542⟩⟦127⟧⟨543⟩⟦350⟧⟨544⟩
+[Evangelical revival in Scotland] ⟦335⟧⟨545⟩⟦269⟧⟨546⟩⟦324⟧⟨547⟩⟦348⟧⟨548⟩⟦167⟧⟨549⟩⟦362⟧⟨550⟩⟦201⟧⟨551⟩⟦369⟧⟨552⟩⟦81⟧⟨553⟩
+[Evangelical revival in Scotland] ⟦283⟧⟨554⟩⟦371⟧⟨555⟩⟦228⟧⟨556⟩⟦384⟧⟨557⟩⟦269⟧⟨558⟩⟦122⟧⟨559⟩⟦311⟧⟨560⟩⟦205⟧⟨561⟩⟦206⟧⟨562⟩⟦282⟧⟨563⟩⟦254⟧⟨564⟩⟦282⟧⟨565⟩⟦70⟧⟨566⟩⟦299⟧⟨567⟩⟦163⟧⟨568⟩⟦164⟧⟨569⟩⟦89⟧⟨570⟩
+[Second Great Awakening] ⟦387⟧⟨571⟩⟦34⟧⟨572⟩⟦269⟧⟨573⟩⟦334⟧⟨574⟩⟦81⟧⟨575⟩⟦400⟧⟨576⟩
+[Second Great Awakening] ⟦365⟧⟨577⟩⟦212⟧⟨578⟩⟦208⟧⟨579⟩⟦208⟧⟨580⟩⟦195⟧⟨581⟩⟦195⟧⟨582⟩⟦66⟧⟨583⟩⟦97⟧⟨584⟩⟦430⟧⟨585⟩⟦245⟧⟨586⟩⟦365⟧⟨587⟩⟦212⟧⟨588⟩
+[Second Great Awakening] ⟨589⟩⟦172⟧⟨590⟩⟦236⟧⟨591⟩⟦352⟧⟨592⟩⟦3⟧⟨593⟩
+[Second Great Awakening] ⟦387⟧⟨594⟩⟦274⟧⟨595⟩⟦274⟧⟨596⟩⟦123⟧⟨597⟩⟦123⟧⟨598⟩⟦121⟧⟨599⟩⟦121⟧⟨600⟩⟦55⟧⟨601⟩⟦60⟧⟨602⟩
+[Second Great Awakening] ⟨603⟩⟦389⟧⟨604⟩⟦256⟧⟨605⟩⟦108⟧⟨606⟩⟦108⟧⟨607⟩⟦339⟧⟨608⟩
+[United Methodist Church] ⟦399⟧⟨609⟩⟦419⟧⟨610⟩⟦26⟧⟨611⟩⟦109⟧⟨612⟩⟦27⟧⟨613⟩⟦233⟧⟨614⟩⟦197⟧⟨615⟩⟦197⟧⟨616⟩
+[United Methodist Church] ⟨617⟩⟦318⟧⟨618⟩⟦81⟧⟨619⟩⟦169⟧⟨620⟩⟦247⟧⟨621⟩⟦361⟧⟨622⟩⟦24⟧⟨623⟩⟦185⟧⟨624⟩⟦125⟧⟨625⟩
+[United Methodist Church] ⟨626⟩⟦102⟧⟨627⟩⟦317⟧⟨628⟩⟦421⟧⟨629⟩⟦420⟧⟨630⟩⟦420⟧⟨631⟩⟦361⟧⟨632⟩⟦342⟧⟨633⟩
+[United Methodist Church] ⟦398⟧⟨634⟩⟦173⟧⟨635⟩⟦275⟧⟨636⟩⟦385⟧⟨637⟩⟦269⟧⟨638⟩⟦212⟧⟨639⟩⟦175⟧⟨640⟩⟦84⟧⟨641⟩⟦122⟧⟨642⟩⟦347⟧⟨643⟩⟦400⟧⟨644⟩
+[United Methodist Church] ⟨645⟩⟦328⟧⟨646⟩⟦86⟧⟨647⟩⟦229⟧⟨648⟩
+[United Methodist Church] ⟨649⟩⟦73⟧⟨650⟩⟦120⟧⟨651⟩
+[United Methodist Church] ⟨652⟩⟦14⟧⟨653⟩⟦242⟧⟨654⟩⟦44⟧⟨655⟩⟦135⟧⟨656⟩⟦30⟧⟨657⟩⟦224⟧⟨658⟩⟦199⟧⟨659⟩⟦110⟧⟨660⟩
+
+[user]
+
+问题：
+Who founded Methodism along with the man who was also part of the revival movement in England and the Great Awakening in the United States?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

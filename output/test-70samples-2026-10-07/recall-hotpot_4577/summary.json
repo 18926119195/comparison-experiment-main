@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_4577",
+  "question": "In which year did this Russian actress  who produced and performed in the 1922 American silent drama film \"A Doll's House\" immigrate to the United States?",
+  "expectedAnswer": "1905",
+  "predictedAnswer": "# 路径一：从女演员身份直接定位移民年份\n\n步骤1：使用⟦8⟧⟦46⟧⟦49⟧⟦50⟧，提取《A Doll's House》是一部1922年美国默片，由她制作、主演并执导，判断该片与目标女演员直接相关。\n\n步骤2：综合⟦20⟧⟦13⟧⟦4⟧⟦77⟧⟦135⟧，提取 Alla Nazimova 是俄罗斯女演员，原名 Алла Назимова / Marem-Ides Leventon，确认其俄罗斯出身。\n\n步骤3：使用⟦20⟧⟦146⟧⟦121⟧⟦147⟧，提取她移民到美国的时间为 1905 年。\n\n结论：这位俄罗斯女演员于 **1905 年**移民美国。\n\n# 路径二：通过影片与人物交叉验证\n\n步骤1：综合⟦8⟧⟦46⟧⟦60⟧⟦62⟧⟦32⟧，提取《A Doll's House》由她与丈夫 Charles Bryant 合作完成，说明影片主创与 Alla Nazimova 关联明确。\n\n步骤2：综合⟦20⟧⟦13⟧⟦16⟧⟦121⟧，交叉验证 Alla Nazimova 是俄罗斯女演员，且后来在美国活动。\n\n步骤3：使用⟦20⟧⟦147⟧，提取其移民美国年份为 1905 年。\n\n结论：交叉验证后，移民年份仍为 **1905 年**。\n\n# 路径三：利用生平信息排除歧义\n\n步骤1：使用⟦20⟧⟦142⟧⟦143⟧⟦144⟧，提取 Alla Nazimova 的生卒与出生信息，确认其身份唯一。\n\n步骤2：综合⟦20⟧⟦146⟧⟦121⟧⟦147⟧，提取她“immigrated to the United States in 1905”，直接回答移民年份。\n\n结论：该俄罗斯女演员于 **1905 年**移民美国。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦20⟧⟨141⟩⟦4⟧⟨142⟩⟦135⟧⟨143⟩⟦77⟧⟨144⟩⟦13⟧⟦16⟧⟨145⟩⟨146⟩",
+  "nounCount": 218,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 3760,
+    "completion_tokens": 162,
+    "total_tokens": 3922,
+    "prompt_tokens_details": {
+      "cached_tokens": 3584
+    },
+    "prompt_cache_hit_tokens": 3584,
+    "prompt_cache_miss_tokens": 176
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 802,
+    "completion_tokens": 465,
+    "total_tokens": 1267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 802
+  }
+}

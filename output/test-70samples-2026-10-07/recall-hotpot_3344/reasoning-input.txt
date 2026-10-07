@@ -1,0 +1,98 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Liberty Square (Magic Kingdom)] ⟨33⟩⟦180⟧⟦119⟧⟨34⟩⟨35⟩⟨36⟩⟦27⟧⟨38⟩⟨37⟩⟨39⟩⟦256⟧⟨40⟩⟦114⟧⟨41⟩⟦88⟧⟨42⟩
+[Liberty Square (Magic Kingdom)] ⟦221⟧
+[Liberty Square (Magic Kingdom)] ⟨68⟩⟦20⟧⟦281⟧⟨69⟩⟨70⟩⟨71⟩⟨72⟩⟦201⟧⟦187⟧⟨74⟩⟦147⟧⟨75⟩⟦73⟧⟨73⟩⟨76⟩⟦19⟧⟦117⟧⟨77⟩⟨78⟩
+[Liberty Square (Magic Kingdom)] ⟦218⟧⟦116⟧⟨79⟩⟨80⟩⟦83⟧⟦278⟧⟨81⟩⟨82⟩⟦241⟧⟦167⟧⟨83⟩⟨84⟩⟦265⟧⟨85⟩⟦30⟧⟨86⟩
+[Mark Twain Riverboat] ⟦261⟧ | ⟦242⟧⟦33⟧
+[Passyunk Square, Philadelphia] ⟦148⟧
+[15 Temmuz Kızılay Milli İrade Meydanı] ⟦120⟧ | ⟦120⟧
+
+符号表：
+⟦19⟧ = a landing
+⟦20⟧ = a long waterfront
+⟦27⟧ = a theme park
+⟦30⟧ = adjacent Frontierland
+⟦33⟧ = America
+⟦73⟧ = departs
+⟦83⟧ = excellent views
+⟦88⟧ = Florida
+⟦114⟧ = Lake Buena Vista
+⟦116⟧ = land
+⟦117⟧ = landing
+⟦119⟧ = lands
+⟦120⟧ = Liberty Square
+⟦147⟧ = paddleboat
+⟦148⟧ = park
+⟦167⟧ = river
+⟦180⟧ = six "themed lands
+⟦187⟧ = steam
+⟦201⟧ = the "Liberty Belle" Riverboat steam paddleboat departs
+⟦218⟧ = The land
+⟦221⟧ = the Magic Kingdom
+⟦241⟧ = the river
+⟦242⟧ = the Rivers
+⟦256⟧ = the Walt Disney World Resort
+⟦261⟧ = theme
+⟦265⟧ = Tom Sawyer Island
+⟦278⟧ = views
+⟦281⟧ = waterfront
+
+占位符映射：
+⟨33⟩ =  is one of 
+⟨34⟩ = 
+⟨35⟩ = " and is exclusive to 
+⟨36⟩ = , 
+⟨37⟩ = 
+⟨38⟩ =  
+⟨39⟩ =  at 
+⟨40⟩ =  in 
+⟨41⟩ = , 
+⟨42⟩ = .
+⟨68⟩ =  has 
+⟨69⟩ = 
+⟨70⟩ =  on 
+⟨71⟩ =  of 
+⟨72⟩ =  and 
+⟨73⟩ = 
+⟨74⟩ =  
+⟨75⟩ =  
+⟨76⟩ =  from 
+⟨77⟩ = 
+⟨78⟩ =  here.
+⟨79⟩ = 
+⟨80⟩ =  affords 
+⟨81⟩ = 
+⟨82⟩ =  of 
+⟨83⟩ = 
+⟨84⟩ =  and 
+⟨85⟩ =  in 
+⟨86⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Where is the location of Liberty Square park in Disneyland California?

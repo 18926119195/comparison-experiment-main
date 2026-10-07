@@ -1,0 +1,117 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Hamdard University] ⟨143⟩⟦311⟧⟨144⟩⟦28⟧⟨146⟩⟨145⟩⟨147⟩⟨148⟩⟨149⟩⟨150⟩⟦117⟧⟨151⟩⟨152⟩
+[Hamdard University] ⟨153⟩⟦274⟧⟦179⟧⟨154⟩⟨155⟩⟦253⟧⟨156⟩
+[Hamdard University] ⟦175⟧ | ⟦106⟧⟨157⟩⟦250⟧⟦114⟧⟨158⟩⟨159⟩⟦108⟧⟨160⟩⟨161⟩⟦175⟧⟨162⟩
+[Hamdard University] ⟦128⟧⟦107⟧ | ⟨163⟩⟦128⟧⟨164⟩⟦107⟧⟨165⟩⟦258⟧⟨167⟩⟨166⟩⟨168⟩⟦21⟧⟨170⟩⟦51⟧⟨169⟩⟨171⟩⟦173⟧⟦35⟧⟨172⟩⟨173⟩
+[University of California, Santa Barbara] ⟨226⟩⟨227⟩⟨228⟩⟦306⟧⟨229⟩⟨230⟩⟦29⟧⟦196⟧⟨232⟩⟦310⟧⟨231⟩⟨233⟩⟦237⟧⟦60⟧⟨234⟩⟨235⟩⟨236⟩⟨237⟩ | ⟦196⟧⟦310⟧⟦60⟧⟦60⟧ | ⟦196⟧⟦310⟧
+[University of California, Santa Barbara] ⟦307⟧⟦231⟧ | ⟦90⟧
+[KUSC] ⟦294⟧
+[Santa Barbara City College] ⟦59⟧
+[Santa Barbara City College] ⟦57⟧⟦57⟧⟦205⟧
+
+符号表：
+⟦21⟧ = a campus area
+⟦28⟧ = a private research university
+⟦29⟧ = a public research university
+⟦35⟧ = acres
+⟦51⟧ = area
+⟦57⟧ = California
+⟦59⟧ = campus
+⟦60⟧ = campuses
+⟦90⟧ = education
+⟦106⟧ = Hamdard
+⟦107⟧ = Hamdard University
+⟦108⟧ = higher education
+⟦114⟧ = institutions
+⟦117⟧ = Islamabad
+⟦128⟧ = Karachi
+⟦173⟧ = over 350 acres
+⟦175⟧ = Pakistan
+⟦179⟧ = philanthropist
+⟦196⟧ = research
+⟦205⟧ = Santa Barbara
+⟦231⟧ = system
+⟦237⟧ = the 10 campuses
+⟦250⟧ = the first and the oldest private institutions
+⟦253⟧ = the Hamdard Foundation
+⟦258⟧ = the largest private research university
+⟦274⟧ = the renowned philanthropist
+⟦294⟧ = The University
+⟦306⟧ = UC Santa Barbara
+⟦307⟧ = UCSB
+⟦310⟧ = university
+⟦311⟧ = Urdu
+
+占位符映射：
+⟨143⟩ =  (
+⟨144⟩ = : ) is 
+⟨145⟩ = 
+⟨146⟩ =  
+⟨147⟩ =  with 
+⟨148⟩ = 
+⟨149⟩ =  in 
+⟨150⟩ =  and 
+⟨151⟩ = , 
+⟨152⟩ = .
+⟨153⟩ =  It was founded in 1991 by 
+⟨154⟩ = 
+⟨155⟩ =  Hakim Said of 
+⟨156⟩ = .
+⟨157⟩ =  is one of 
+⟨158⟩ = 
+⟨159⟩ =  of 
+⟨160⟩ = 
+⟨161⟩ =  in 
+⟨162⟩ = .
+⟨163⟩ =  In 
+⟨164⟩ = , 
+⟨165⟩ =  is 
+⟨166⟩ = 
+⟨167⟩ =  
+⟨168⟩ =  with 
+⟨169⟩ = 
+⟨170⟩ =  
+⟨171⟩ =  of 
+⟨172⟩ = 
+⟨173⟩ = .
+⟨226⟩ =  of 
+⟨227⟩ = , 
+⟨228⟩ =  (commonly referred to as 
+⟨229⟩ =  or 
+⟨230⟩ = ) is 
+⟨231⟩ = 
+⟨232⟩ =  
+⟨233⟩ =  and one of 
+⟨234⟩ = 
+⟨235⟩ =  of the University of 
+⟨236⟩ =  
+⟨237⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which was founded first, University of California, Santa Barbara or Hamdard University?

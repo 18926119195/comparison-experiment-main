@@ -1,0 +1,87 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Marry Me a Little, Marry Me a Little More] ⟦19⟧⟦129⟧⟨320⟩⟨319⟩⟨321⟩⟦190⟧⟦188⟧⟨323⟩⟨322⟩⟨324⟩⟦220⟧⟨325⟩⟦91⟧⟨326⟩⟦3⟧⟦171⟧⟨327⟩⟨328⟩
+[Marry Me a Little, Marry Me a Little More] ⟦174⟧
+[Marry Me a Little, Marry Me a Little More] ⟦79⟧ | ⟦194⟧⟦79⟧⟨335⟩⟨336⟩⟦201⟧⟨337⟩⟦148⟧⟨338⟩⟦213⟧⟨339⟩⟦152⟧⟨340⟩
+[Marry Me a Little, Marry Me a Little More] ⟦97⟧⟦96⟧⟨342⟩⟦184⟧⟨341⟩⟨343⟩⟦25⟧⟨344⟩⟦2⟧⟨345⟩⟦98⟧⟨346⟩⟦125⟧⟨347⟩⟦122⟧⟨348⟩⟦72⟧⟨349⟩
+
+符号表：
+⟦2⟧ = , Marry
+⟦3⟧ = ' s fifth season
+⟦19⟧ = a double-length episode
+⟦25⟧ = a Little
+⟦72⟧ = Debbie Reynolds
+⟦79⟧ = episode
+⟦91⟧ = Grace
+⟦96⟧ = Guest
+⟦97⟧ = Guest stars
+⟦98⟧ = Harry Connick Jr.
+⟦122⟧ = Judith Ivey
+⟦125⟧ = Katie Couric
+⟦129⟧ = length
+⟦148⟧ = NBC
+⟦152⟧ = November
+⟦171⟧ = season
+⟦174⟧ = series
+⟦184⟧ = stars
+⟦188⟧ = television
+⟦190⟧ = the American television series
+⟦194⟧ = the episode
+⟦201⟧ = the National Broadcasting Company
+⟦213⟧ = the United States
+⟦220⟧ = Will
+
+占位符映射：
+⟨319⟩ = 
+⟨320⟩ =  
+⟨321⟩ =  of 
+⟨322⟩ = 
+⟨323⟩ =  
+⟨324⟩ =  "
+⟨325⟩ =  & 
+⟨326⟩ = "
+⟨327⟩ = 
+⟨328⟩ = .
+⟨335⟩ = 
+⟨336⟩ =  originally aired on 
+⟨337⟩ =  (
+⟨338⟩ = ) in 
+⟨339⟩ =  on 
+⟨340⟩ =  21, 2002.
+⟨341⟩ = 
+⟨342⟩ =  
+⟨343⟩ =  in "Marry Me 
+⟨344⟩ = 
+⟨345⟩ =  Me a Little More" include 
+⟨346⟩ = , 
+⟨347⟩ = , 
+⟨348⟩ = , and 
+⟨349⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What station broadcast the episode "Marry Me a Little, Marry Me a Little More" , of the series created by Max Mutchnick and David Kohan?

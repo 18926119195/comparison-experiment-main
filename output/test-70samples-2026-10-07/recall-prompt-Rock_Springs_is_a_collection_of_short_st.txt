@@ -1,0 +1,356 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = -chaired Thomas' reelection campaign
+⟦2⟧ = "A Good Man
+⟦3⟧ = "Ambulanse
+⟦4⟧ = "Eve
+⟦5⟧ = "Eve" character
+⟦6⟧ = "Glimmer Train" competitions
+⟦7⟧ = "Ninth Letter
+⟦8⟧ = "Novel
+⟦9⟧ = "Rock Springs
+⟦10⟧ = "The Beetle
+⟦11⟧ = "The First Line
+⟦12⟧ = "The Hidden Light
+⟦13⟧ = "The Lay
+⟦14⟧ = "The River
+⟦15⟧ = "The Sportswriter
+⟦16⟧ = "Vacuum Diagrams
+⟦17⟧ = (Original title
+⟦18⟧ = 12 October
+⟦19⟧ = 9 August
+⟦20⟧ = a collection
+⟦21⟧ = a former American football linebacker
+⟦22⟧ = a god-like being
+⟦23⟧ = A Good Man
+⟦24⟧ = a good woman
+⟦25⟧ = a lawyer
+⟦26⟧ = a man
+⟦27⟧ = a notable writer
+⟦28⟧ = a Senate vote
+⟦29⟧ = a spiritual change
+⟦30⟧ = a structure
+⟦31⟧ = A.
+⟦32⟧ = Ambulance
+⟦33⟧ = American author Flannery O'Connor
+⟦34⟧ = American writer Isaac Asimov
+⟦35⟧ = an ambulance
+⟦36⟧ = an American novelist
+⟦37⟧ = an ending
+⟦38⟧ = an introduction
+⟦39⟧ = an unnamed city
+⟦40⟧ = angles
+⟦41⟧ = Another collection
+⟦42⟧ = anthology
+⟦43⟧ = Asimov
+⟦44⟧ = author
+⟦45⟧ = author Richard Ford
+⟦46⟧ = baptism
+⟦47⟧ = Barack Obama
+⟦48⟧ = beginning
+⟦49⟧ = being
+⟦50⟧ = Bloomsbury
+⟦51⟧ = both novels
+⟦52⟧ = Bram Stoker's "Dracula
+⟦53⟧ = British writer Stephen Baxter
+⟦54⟧ = Bush
+⟦55⟧ = campaign
+⟦56⟧ = candidacy
+⟦57⟧ = Catholicism
+⟦58⟧ = century
+⟦59⟧ = change
+⟦60⟧ = character
+⟦61⟧ = characters
+⟦62⟧ = Cheyenne
+⟦63⟧ = city
+⟦64⟧ = collection
+⟦65⟧ = college
+⟦66⟧ = college football
+⟦67⟧ = committee
+⟦68⟧ = competitions
+⟦69⟧ = confirmation
+⟦70⟧ = context
+⟦71⟧ = crime
+⟦72⟧ = death
+⟦73⟧ = different angles
+⟦74⟧ = dysfunctional mothers
+⟦75⟧ = each "era
+⟦76⟧ = each short story
+⟦77⟧ = effects
+⟦78⟧ = eight short stories
+⟦79⟧ = eleven short stories
+⟦80⟧ = Elijah Baley
+⟦81⟧ = ending
+⟦82⟧ = England
+⟦83⟧ = era
+⟦84⟧ = evaluation
+⟦85⟧ = Eve
+⟦86⟧ = events
+⟦87⟧ = exploitation
+⟦88⟧ = fathers
+⟦89⟧ = fiction
+⟦90⟧ = football
+⟦91⟧ = Frank
+⟦92⟧ = genres
+⟦93⟧ = ghosts
+⟦94⟧ = god
+⟦95⟧ = grandson
+⟦96⟧ = greed
+⟦97⟧ = her first collection
+⟦98⟧ = her life
+⟦99⟧ = Her short stories
+⟦100⟧ = her stories
+⟦101⟧ = His best-known works
+⟦102⟧ = his candidacy
+⟦103⟧ = his confirmation
+⟦104⟧ = his supernatural thriller novel
+⟦105⟧ = history
+⟦106⟧ = Honaker
+⟦107⟧ = honorable mention
+⟦108⟧ = horror
+⟦109⟧ = human greed
+⟦110⟧ = humour
+⟦111⟧ = Independence Day
+⟦112⟧ = instance
+⟦113⟧ = introduction
+⟦114⟧ = its sequels
+⟦115⟧ = J. J. Syvrud
+⟦116⟧ = Jamestown College
+⟦117⟧ = jarring violent scenes
+⟦118⟧ = Johan Harstad
+⟦119⟧ = Judge Clarence A. Brimmer
+⟦120⟧ = killers
+⟦121⟧ = lawyer
+⟦122⟧ = length
+⟦123⟧ = Life
+⟦124⟧ = life and death scenarios
+⟦125⟧ = Line
+⟦126⟧ = linebacker
+⟦127⟧ = link
+⟦128⟧ = linked short stories
+⟦129⟧ = Mai Al-Nakib
+⟦130⟧ = majority
+⟦131⟧ = man
+⟦132⟧ = mankind
+⟦133⟧ = March
+⟦134⟧ = Marsh
+⟦135⟧ = Marsh's grandson
+⟦136⟧ = mention
+⟦137⟧ = minute
+⟦138⟧ = months
+⟦139⟧ = mothers
+⟦140⟧ = Nancy D. Freudenthal
+⟦141⟧ = narrators
+⟦142⟧ = nearly 80 volumes
+⟦143⟧ = nomination
+⟦144⟧ = None
+⟦145⟧ = novel
+⟦146⟧ = novelist
+⟦147⟧ = novels
+⟦148⟧ = numerous short stories
+⟦149⟧ = Objects
+⟦150⟧ = one season
+⟦151⟧ = Other Stories
+⟦152⟧ = Other Tales
+⟦153⟧ = part
+⟦154⟧ = period
+⟦155⟧ = place
+⟦156⟧ = plot
+⟦157⟧ = portion
+⟦158⟧ = positronic robots
+⟦159⟧ = presidency
+⟦160⟧ = print
+⟦161⟧ = pseudonym
+⟦162⟧ = rating
+⟦163⟧ = reelection
+⟦164⟧ = Rest
+⟦165⟧ = Richard Bernard Heldmann
+⟦166⟧ = Richard Ford
+⟦167⟧ = Richard Henderson Honaker
+⟦168⟧ = Richard Marsh
+⟦169⟧ = Robert Aickman
+⟦170⟧ = Robot
+⟦171⟧ = robots
+⟦172⟧ = Rock Springs
+⟦173⟧ = Rock Springs High School
+⟦174⟧ = romance
+⟦175⟧ = round
+⟦176⟧ = scenarios
+⟦177⟧ = scenes
+⟦178⟧ = science
+⟦179⟧ = science fiction
+⟦180⟧ = season
+⟦181⟧ = seat
+⟦182⟧ = section
+⟦183⟧ = seemingly Jack Raoul
+⟦184⟧ = self
+⟦185⟧ = sequels
+⟦186⟧ = serial killers
+⟦187⟧ = series
+⟦188⟧ = several stories
+⟦189⟧ = several widely anthologized stories
+⟦190⟧ = short "strange stories
+⟦191⟧ = short scenes
+⟦192⟧ = short stories
+⟦193⟧ = short story writer
+⟦194⟧ = silver
+⟦195⟧ = Sportswriter
+⟦196⟧ = states
+⟦197⟧ = stories
+⟦198⟧ = story
+⟦199⟧ = structure
+⟦200⟧ = subjects
+⟦201⟧ = succession
+⟦202⟧ = the "Eve" story
+⟦203⟧ = the "Foundation" universe
+⟦204⟧ = the "Robot" series
+⟦205⟧ = the 1999 NFL Draft
+⟦206⟧ = the American Bar Association
+⟦207⟧ = the anthology
+⟦208⟧ = The Artificial Nigger
+⟦209⟧ = the beginning
+⟦210⟧ = the characters
+⟦211⟧ = The collection
+⟦212⟧ = The Complete Robot
+⟦213⟧ = the context
+⟦214⟧ = the District
+⟦215⟧ = the Edinburgh International Book Festival's 2014 First Book Award
+⟦216⟧ = the Edwardian period
+⟦217⟧ = the English author
+⟦218⟧ = the events
+⟦219⟧ = the first collection
+⟦220⟧ = the first story
+⟦221⟧ = The Hidden Light
+⟦222⟧ = the highest "well qualified" rating
+⟦223⟧ = the history
+⟦224⟧ = the judicial evaluation committee
+⟦225⟧ = the Land
+⟦226⟧ = the late 19th century
+⟦227⟧ = The Life
+⟦228⟧ = The main character
+⟦229⟧ = The majority
+⟦230⟧ = the National Football League
+⟦231⟧ = the New York Jets
+⟦232⟧ = the next section
+⟦233⟧ = The nomination
+⟦234⟧ = the Norwegian author
+⟦235⟧ = the novel
+⟦236⟧ = the novels
+⟦237⟧ = The overall link
+⟦238⟧ = the Philip K. Dick Award
+⟦239⟧ = the plot
+⟦240⟧ = the portion
+⟦241⟧ = the presidency
+⟦242⟧ = the previous year
+⟦243⟧ = the pseudonym
+⟦244⟧ = The Rest
+⟦245⟧ = the Robots
+⟦246⟧ = the seat
+⟦247⟧ = the seventh round
+⟦248⟧ = the short stories
+⟦249⟧ = the short story collection
+⟦250⟧ = the silver ghosts
+⟦251⟧ = the stories
+⟦252⟧ = the story
+⟦253⟧ = The subjects
+⟦254⟧ = The succession
+⟦255⟧ = the timeline
+⟦256⟧ = the villain states
+⟦257⟧ = the World
+⟦258⟧ = the Xeelee Sequence
+⟦259⟧ = the Xeelee universe
+⟦260⟧ = their effects
+⟦261⟧ = this collection
+⟦262⟧ = three U.S. District Judges
+⟦263⟧ = thriller
+⟦264⟧ = timeline
+⟦265⟧ = title
+⟦266⟧ = tones
+⟦267⟧ = two full-length novels
+⟦268⟧ = U.S. President George W. Bush
+⟦269⟧ = U.S. Senator Craig L. Thomas
+⟦270⟧ = ultimately the universe
+⟦271⟧ = universe
+⟦272⟧ = Vacuum Diagrams
+⟦273⟧ = villain
+⟦274⟧ = volumes
+⟦275⟧ = vote
+⟦276⟧ = woman
+⟦277⟧ = works
+⟦278⟧ = World
+⟦279⟧ = writer
+⟦280⟧ = Wyoming
+⟦281⟧ = year
+⟦282⟧ = young male narrators
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Vacuum Diagrams] ⟦272⟧⟨1⟩⟦20⟧⟨2⟩⟦64⟧⟨3⟩⟦178⟧⟨4⟩⟦179⟧⟨5⟩⟦89⟧⟨6⟩⟦192⟧⟨7⟩⟦197⟧⟨8⟩⟦53⟧⟨9⟩⟦279⟧⟨10⟩
+[Vacuum Diagrams] ⟦211⟧⟨11⟩⟦64⟧⟨12⟩⟦236⟧⟨13⟩⟦147⟧⟨14⟩⟦258⟧⟨15⟩⟦223⟧⟨16⟩⟦105⟧⟨17⟩⟦132⟧⟨18⟩⟦132⟧⟨19⟩⟦259⟧⟨20⟩⟦271⟧⟨21⟩⟦270⟧⟨22⟩⟦271⟧⟨23⟩
+[Vacuum Diagrams] ⟨24⟩⟦76⟧⟨25⟩⟦198⟧⟨26⟩⟦211⟧⟨27⟩⟦64⟧⟨28⟩⟦184⟧⟨29⟩⟦251⟧⟨30⟩⟦197⟧⟨31⟩⟦213⟧⟨32⟩⟦70⟧⟨33⟩⟦220⟧⟨34⟩⟦198⟧⟨35⟩⟦85⟧⟨36⟩⟦26⟧⟨37⟩⟦131⟧⟨38⟩⟦183⟧⟨39⟩⟦240⟧⟨40⟩⟦157⟧⟨41⟩⟦255⟧⟨42⟩⟦264⟧⟨43⟩⟦250⟧⟨44⟩⟦194⟧⟨45⟩⟦93⟧⟨46⟩⟦218⟧⟨47⟩⟦86⟧⟨48⟩⟦248⟧⟨49⟩⟦197⟧⟨50⟩⟦22⟧⟨51⟩⟦94⟧⟨52⟩⟦49⟧⟨53⟩
+[Vacuum Diagrams] ⟦4⟧⟨54⟩⟦30⟧⟨55⟩⟦199⟧⟨56⟩⟦248⟧⟨57⟩⟦197⟧⟨58⟩⟦38⟧⟨59⟩⟦113⟧⟨60⟩⟦209⟧⟨61⟩⟦48⟧⟨62⟩⟦16⟧⟨63⟩⟦191⟧⟨64⟩⟦177⟧⟨65⟩⟦75⟧⟨66⟩⟦83⟧⟨67⟩⟦5⟧⟨68⟩⟦60⟧⟨69⟩⟦232⟧⟨70⟩⟦182⟧⟨71⟩⟦37⟧⟨72⟩⟦81⟧⟨73⟩⟦239⟧⟨74⟩⟦156⟧⟨75⟩⟦202⟧⟨76⟩⟦198⟧⟨77⟩
+[Vacuum Diagrams] ⟦16⟧⟨78⟩⟦238⟧⟨79⟩
+[Mai Al-Nakib] ⟦129⟧⟨80⟩⟦44⟧⟨81⟩⟦44⟧⟨82⟩⟦12⟧⟨83⟩⟦149⟧⟨84⟩⟦20⟧⟨85⟩⟦64⟧⟨86⟩⟦128⟧⟨87⟩⟦197⟧⟨88⟩⟦50⟧⟨89⟩
+[Mai Al-Nakib] ⟦211⟧⟨90⟩⟦64⟧⟨91⟩⟦215⟧⟨92⟩⟦219⟧⟨93⟩⟦64⟧⟨94⟩⟦192⟧⟨95⟩⟦197⟧⟨96⟩
+[Mai Al-Nakib] ⟦99⟧⟨97⟩⟦197⟧⟨98⟩⟦7⟧⟨99⟩⟦11⟧⟨100⟩⟦125⟧⟨101⟩⟦207⟧⟨102⟩⟦42⟧⟨103⟩⟦8⟧⟨104⟩⟦257⟧⟨105⟩⟦278⟧⟨106⟩
+[Mai Al-Nakib] ⟨107⟩⟦100⟧⟨108⟩⟦197⟧⟨109⟩⟦107⟧⟨110⟩⟦136⟧⟨111⟩⟦6⟧⟨112⟩⟦68⟧⟨113⟩
+[Mai Al-Nakib] ⟨114⟩⟦221⟧⟨115⟩⟦149⟧⟨116⟩⟦97⟧⟨117⟩⟦64⟧⟨118⟩⟦192⟧⟨119⟩⟦197⟧⟨120⟩
+[The Rest of the Robots] ⟦244⟧⟨121⟩⟦164⟧⟨122⟩⟦245⟧⟨123⟩⟦20⟧⟨124⟩⟦64⟧⟨125⟩⟦78⟧⟨126⟩⟦197⟧⟨127⟩⟦267⟧⟨128⟩⟦122⟧⟨129⟩⟦147⟧⟨130⟩⟦34⟧⟨131⟩⟦279⟧⟨132⟩
+[The Rest of the Robots] ⟦251⟧⟨133⟩⟦197⟧⟨134⟩⟦158⟧⟨135⟩⟦171⟧⟨136⟩⟦153⟧⟨137⟩⟦153⟧⟨138⟩⟦204⟧⟨139⟩⟦187⟧⟨140⟩⟦155⟧⟨141⟩⟦155⟧⟨142⟩⟦203⟧⟨143⟩⟦271⟧⟨144⟩
+[The Rest of the Robots] ⟦41⟧⟨145⟩⟦64⟧⟨146⟩⟦192⟧⟨147⟩⟦197⟧⟨148⟩⟦171⟧⟨149⟩⟦171⟧⟨150⟩⟦170⟧⟨151⟩⟦242⟧⟨152⟩⟦281⟧⟨153⟩⟦43⟧⟨154⟩⟦211⟧⟨155⟩⟦64⟧⟨156⟩⟦244⟧⟨157⟩⟦164⟧⟨158⟩⟦245⟧⟨159⟩⟦171⟧⟨160⟩
+[The Rest of the Robots] ⟦144⟧⟨161⟩⟦144⟧⟨162⟩⟦248⟧⟨163⟩⟦197⟧⟨164⟩⟦261⟧⟨165⟩⟦64⟧⟨166⟩⟦170⟧⟨167⟩⟦212⟧⟨168⟩⟦51⟧⟨169⟩⟦147⟧⟨170⟩⟦80⟧⟨171⟩
+[Richard Ford] ⟦166⟧⟨172⟩⟦36⟧⟨173⟩⟦146⟧⟨174⟩⟦193⟧⟨175⟩⟦198⟧⟨176⟩⟦279⟧⟨177⟩
+[Richard Ford] ⟨178⟩⟦101⟧⟨179⟩⟦277⟧⟨180⟩⟦235⟧⟨181⟩⟦145⟧⟨182⟩⟦15⟧⟨183⟩⟦195⟧⟨184⟩⟦114⟧⟨185⟩⟦185⟧⟨186⟩⟦111⟧⟨187⟩⟦13⟧⟨188⟩⟦225⟧⟨189⟩⟦91⟧⟨190⟩⟦249⟧⟨191⟩⟦198⟧⟨192⟩⟦64⟧⟨193⟩⟦9⟧⟨194⟩⟦189⟧⟨195⟩⟦197⟧⟨196⟩
+[Rock Springs (short story collection)] ⟦172⟧⟨197⟩⟦20⟧⟨198⟩⟦64⟧⟨199⟩⟦192⟧⟨200⟩⟦197⟧⟨201⟩⟦44⟧⟨202⟩⟦45⟧⟨203⟩⟦74⟧⟨204⟩⟦139⟧⟨205⟩⟦88⟧⟨206⟩⟦88⟧⟨207⟩⟦260⟧⟨208⟩⟦77⟧⟨209⟩⟦282⟧⟨210⟩⟦141⟧⟨211⟩
+[Ambulanse] ⟦32⟧⟨212⟩⟦32⟧⟨213⟩⟦17⟧⟨214⟩⟦265⟧⟨215⟩⟦3⟧⟨216⟩⟦20⟧⟨217⟩⟦64⟧⟨218⟩⟦192⟧⟨219⟩⟦197⟧⟨220⟩⟦234⟧⟨221⟩⟦44⟧⟨222⟩⟦118⟧⟨223⟩
+[Ambulanse] ⟦211⟧⟨224⟩⟦64⟧⟨225⟩⟦79⟧⟨226⟩⟦197⟧⟨227⟩
+[Ambulanse] ⟦228⟧⟨228⟩⟦60⟧⟨229⟩⟦251⟧⟨230⟩⟦197⟧⟨231⟩⟦188⟧⟨232⟩⟦197⟧⟨233⟩⟦73⟧⟨234⟩⟦40⟧⟨235⟩
+[Ambulanse] ⟦237⟧⟨236⟩⟦127⟧⟨237⟩⟦248⟧⟨238⟩⟦197⟧⟨239⟩⟦35⟧⟨240⟩⟦32⟧⟨241⟩⟦39⟧⟨242⟩⟦63⟧⟨243⟩
+[J. J. Syvrud] ⟦115⟧⟨244⟩⟦21⟧⟨245⟩⟦90⟧⟨246⟩⟦126⟧⟨247⟩⟦150⟧⟨248⟩⟦180⟧⟨249⟩⟦231⟧⟨250⟩⟦230⟧⟨251⟩
+[J. J. Syvrud] ⟨252⟩⟦231⟧⟨253⟩⟦247⟧⟨254⟩⟦175⟧⟨255⟩⟦205⟧⟨256⟩
+[J. J. Syvrud] ⟨257⟩⟦65⟧⟨258⟩⟦66⟧⟨259⟩⟦90⟧⟨260⟩⟦116⟧⟨261⟩⟦173⟧⟨262⟩⟦172⟧⟨263⟩⟦280⟧⟨264⟩
+[Richard Marsh (author)] ⟦168⟧⟨265⟩⟦18⟧⟨266⟩⟦19⟧⟨267⟩⟦243⟧⟨268⟩⟦161⟧⟨269⟩⟦217⟧⟨270⟩⟦44⟧⟨271⟩⟦165⟧⟨272⟩
+[Richard Marsh (author)] ⟨273⟩⟦44⟧⟨274⟩⟦226⟧⟨275⟩⟦58⟧⟨276⟩⟦216⟧⟨277⟩⟦154⟧⟨278⟩⟦134⟧⟨279⟩⟦104⟧⟨280⟩⟦263⟧⟨281⟩⟦145⟧⟨282⟩⟦10⟧⟨283⟩⟦281⟧⟨284⟩⟦52⟧⟨285⟩
+[Richard Marsh (author)] ⟦10⟧⟨286⟩⟦160⟧⟨287⟩⟦160⟧⟨288⟩
+[Richard Marsh (author)] ⟦134⟧⟨289⟩⟦142⟧⟨290⟩⟦274⟧⟨291⟩⟦89⟧⟨292⟩⟦89⟧⟨293⟩⟦148⟧⟨294⟩⟦197⟧⟨295⟩⟦92⟧⟨296⟩⟦92⟧⟨297⟩⟦108⟧⟨298⟩⟦108⟧⟨299⟩⟦71⟧⟨300⟩⟦71⟧⟨301⟩⟦174⟧⟨302⟩⟦174⟧⟨303⟩⟦110⟧⟨304⟩⟦110⟧⟨305⟩
+[Richard Marsh (author)] ⟨306⟩⟦10⟧⟨307⟩
+[Richard Marsh (author)] ⟦135⟧⟨308⟩⟦95⟧⟨309⟩⟦169⟧⟨310⟩⟦27⟧⟨311⟩⟦279⟧⟨312⟩⟦190⟧⟨313⟩⟦197⟧⟨314⟩
+[Richard Honaker] ⟦167⟧⟨315⟩⟦25⟧⟨316⟩⟦121⟧⟨317⟩⟦172⟧⟨318⟩⟦280⟧⟨319⟩⟦133⟧⟨320⟩⟦268⟧⟨321⟩⟦262⟧⟨322⟩⟦214⟧⟨323⟩⟦280⟧⟨324⟩
+[Richard Honaker] ⟦233⟧⟨325⟩⟦143⟧⟨326⟩⟦222⟧⟨327⟩⟦162⟧⟨328⟩⟦224⟧⟨329⟩⟦84⟧⟨330⟩⟦67⟧⟨331⟩⟦206⟧⟨332⟩
+[Richard Honaker] ⟦106⟧⟨333⟩⟦54⟧⟨334⟩⟦269⟧⟨335⟩⟦280⟧⟨336⟩⟦138⟧⟨337⟩
+[Richard Honaker] ⟦106⟧⟨338⟩⟦1⟧⟨339⟩⟦163⟧⟨340⟩⟦55⟧⟨341⟩⟦172⟧⟨342⟩
+[Richard Honaker] ⟦106⟧⟨343⟩⟦28⟧⟨344⟩⟦275⟧⟨345⟩⟦103⟧⟨346⟩⟦69⟧⟨347⟩
+[Richard Honaker] ⟦254⟧⟨348⟩⟦201⟧⟨349⟩⟦47⟧⟨350⟩⟦241⟧⟨351⟩⟦159⟧⟨352⟩⟦102⟧⟨353⟩⟦56⟧⟨354⟩
+[Richard Honaker] ⟨355⟩⟦106⟧⟨356⟩⟦119⟧⟨357⟩⟦31⟧⟨358⟩⟦62⟧⟨359⟩
+[Richard Honaker] ⟦140⟧⟨360⟩⟦246⟧⟨361⟩⟦181⟧⟨362⟩
+[A Good Man Is Hard to Find and Other Stories] ⟦23⟧⟨363⟩⟦131⟧⟨364⟩⟦151⟧⟨365⟩⟦82⟧⟨366⟩⟦208⟧⟨367⟩⟦152⟧⟨368⟩⟦20⟧⟨369⟩⟦64⟧⟨370⟩⟦192⟧⟨371⟩⟦197⟧⟨372⟩⟦33⟧⟨373⟩⟦44⟧⟨374⟩
+[A Good Man Is Hard to Find and Other Stories] ⟦211⟧⟨375⟩⟦64⟧⟨376⟩
+[A Good Man Is Hard to Find and Other Stories] ⟦253⟧⟨377⟩⟦200⟧⟨378⟩⟦248⟧⟨379⟩⟦197⟧⟨380⟩⟦46⟧⟨381⟩⟦46⟧⟨382⟩⟦14⟧⟨383⟩⟦186⟧⟨384⟩⟦120⟧⟨385⟩⟦23⟧⟨386⟩⟦131⟧⟨387⟩⟦109⟧⟨388⟩⟦96⟧⟨389⟩⟦87⟧⟨390⟩⟦87⟧⟨391⟩⟦227⟧⟨392⟩⟦123⟧⟨393⟩
+[A Good Man Is Hard to Find and Other Stories] ⟦229⟧⟨394⟩⟦130⟧⟨395⟩⟦251⟧⟨396⟩⟦197⟧⟨397⟩⟦117⟧⟨398⟩⟦177⟧⟨399⟩⟦210⟧⟨400⟩⟦61⟧⟨401⟩⟦29⟧⟨402⟩⟦59⟧⟨403⟩
+[A Good Man Is Hard to Find and Other Stories] ⟦248⟧⟨404⟩⟦197⟧⟨405⟩⟦266⟧⟨406⟩⟦266⟧⟨407⟩⟦57⟧⟨408⟩⟦123⟧⟨409⟩⟦124⟧⟨410⟩⟦72⟧⟨411⟩⟦176⟧⟨412⟩
+[A Good Man Is Hard to Find and Other Stories] ⟨413⟩⟦112⟧⟨414⟩⟦112⟧⟨415⟩⟦252⟧⟨416⟩⟦198⟧⟨417⟩⟦2⟧⟨418⟩⟦131⟧⟨419⟩⟦256⟧⟨420⟩⟦273⟧⟨421⟩⟦196⟧⟨422⟩⟦24⟧⟨423⟩⟦276⟧⟨424⟩⟦137⟧⟨425⟩⟦98⟧⟨426⟩⟦123⟧⟨427⟩
+
+[user]
+
+问题：
+Rock Springs is a collection of short stories by an author born in what year?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

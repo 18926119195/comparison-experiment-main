@@ -1,0 +1,29 @@
+# 路径一：从“最大航空公司”到“子公司”的链式定位
+
+步骤1：使用⟦141⟧⟦234⟧⟦49⟧，提取“largest airline”与“the flag carrier”及“CAL”的对应关系，判断中华航空（China Airlines）是台湾（Republic of China）的最大航空公司、载旗航空公司。
+
+步骤2：综合⟦64⟧⟦260⟧⟦205⟧，提取China Airlines Group拥有“three airline subsidiaries”（三个航空子公司），且“subsidiaries”属于该集团。
+
+步骤3：使用⟦150⟧⟦62⟧⟦259⟧，提取Mandarin Airlines（华信航空）是China Airlines的子公司（⟦62⟧ = China Airlines，⟦259⟧ = () is），并基于⟦214⟧⟦247⟧，确认其以台北（Taipei）为基地、以台中机场（Taichung Airport）为主要枢纽。
+
+结论：华信航空（Mandarin Airlines）是台湾最大航空公司中华航空的子公司，其主要枢纽位于台中机场。
+
+# 路径二：从“台中机场枢纽”反向追溯母公司
+
+步骤1：使用⟦247⟧⟦125⟧，提取“the Taichung Airport”与“Its other main hub”的关联，判断某航空公司以台中机场为另一主要枢纽。
+
+步骤2：综合⟦150⟧⟦62⟧⟦170⟧，提取Mandarin Airlines的“parent”为China Airlines（⟦62⟧），且⟦170⟧ = parent，确认华信航空的母公司是中华航空。
+
+步骤3：使用⟦141⟧⟦234⟧，交叉验证中华航空是台湾的“largest airline”和“the flag carrier”，从而确认华信航空是最大航空公司的子公司。
+
+结论：以台中机场为主要枢纽的华信航空，其母公司正是台湾最大航空公司中华航空。
+
+# 路径三：集团架构与子公司名单的交叉验证
+
+步骤1：使用⟦64⟧⟦260⟧，提取China Airlines Group包含“three airline subsidiaries”（三个航空子公司），确定子公司范围。
+
+步骤2：综合⟦150⟧⟦62⟧⟦259⟧⟦260⟧，对比子公司名单：Mandarin Airlines（华信航空）明确标注为China Airlines的子公司，且⟦260⟧ = three airline subsidiaries，说明华信航空是三个子公司之一。
+
+步骤3：使用⟦214⟧⟦247⟧⟦125⟧，提取华信航空以台中机场（Taichung Airport）为主要枢纽（⟦125⟧ = Its other main hub），与问题中的“main hub at Taichung Airport”完全匹配。
+
+结论：在中华航空集团的三个航空子公司中，华信航空是唯一以台中机场为主要枢纽的子公司，因此答案为华信航空（Mandarin Airlines）。

@@ -1,0 +1,838 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Conseil Européen des Fédérations de l'Industrie Chimique
+⟦2⟧ = "Watch Dog
+⟦3⟧ = 11 a.m.
+⟦4⟧ = 16 October
+⟦5⟧ = 18 stores
+⟦6⟧ = 1930s
+⟦7⟧ = 1970s
+⟦8⟧ = 2,300 administration staff
+⟦9⟧ = 222 freelance contributors
+⟦10⟧ = 29,000 large, medium and small chemical companies
+⟦11⟧ = 3 p.m.
+⟦12⟧ = 40%
+⟦13⟧ = 5 p.m. day
+⟦14⟧ = a "bandwidth" period
+⟦15⟧ = a "core" period
+⟦16⟧ = a 2016 BBC documentary
+⟦17⟧ = a annual or semi annual equity check
+⟦18⟧ = a balloon
+⟦19⟧ = a British public service broadcaster
+⟦20⟧ = a coeducational free school
+⟦21⟧ = a digital media company
+⟦22⟧ = a fix
+⟦23⟧ = a fixed wing aircraft
+⟦24⟧ = a flexible hours schedule
+⟦25⟧ = a flexplace policy
+⟦26⟧ = A flextime policy
+⟦27⟧ = a full-time staff
+⟦28⟧ = a furniture retail company
+⟦29⟧ = a great and dangerous undertaking
+⟦30⟧ = a greater range
+⟦31⟧ = a ground attack role
+⟦32⟧ = a matter
+⟦33⟧ = a modification
+⟦34⟧ = a mortgage
+⟦35⟧ = a processed check
+⟦36⟧ = a simple "fake world
+⟦37⟧ = a target
+⟦38⟧ = a total
+⟦39⟧ = a total staff
+⟦40⟧ = a total staff complement
+⟦41⟧ = a.m.
+⟦42⟧ = accurate strafing
+⟦43⟧ = action
+⟦44⟧ = actions
+⟦45⟧ = activity
+⟦46⟧ = ad
+⟦47⟧ = addition
+⟦48⟧ = additional armour
+⟦49⟧ = Additionally Modifications
+⟦50⟧ = administration
+⟦51⟧ = Advantages
+⟦52⟧ = again bank
+⟦53⟧ = agencies
+⟦54⟧ = agreements
+⟦55⟧ = aimable (flexible) guns
+⟦56⟧ = aimable weapons
+⟦57⟧ = air
+⟦58⟧ = air combat
+⟦59⟧ = aircraft
+⟦60⟧ = aircraft-mounted automatic weapons
+⟦61⟧ = airspeed
+⟦62⟧ = all required hours
+⟦63⟧ = all staff
+⟦64⟧ = alteration
+⟦65⟧ = altitude
+⟦66⟧ = America
+⟦67⟧ = amount
+⟦68⟧ = an aircraft
+⟦69⟧ = an attorney
+⟦70⟧ = an concerted effort
+⟦71⟧ = an effort
+⟦72⟧ = anti-aircraft artillery
+⟦73⟧ = anti-aircraft fire
+⟦74⟧ = anti-aircraft weapons
+⟦75⟧ = areas
+⟦76⟧ = arena
+⟦77⟧ = arenas
+⟦78⟧ = armor
+⟦79⟧ = armour
+⟦80⟧ = arms
+⟦81⟧ = around 170 pupils
+⟦82⟧ = arrangements
+⟦83⟧ = artillery
+⟦84⟧ = assistance
+⟦85⟧ = association
+⟦86⟧ = assumption
+⟦87⟧ = assumptions
+⟦88⟧ = attack
+⟦89⟧ = attorney
+⟦90⟧ = attorneys
+⟦91⟧ = Austin
+⟦92⟧ = autocannons
+⟦93⟧ = automatic weapons fire
+⟦94⟧ = Bahrain
+⟦95⟧ = bail
+⟦96⟧ = balances
+⟦97⟧ = balloon
+⟦98⟧ = balloon mortgages
+⟦99⟧ = Balloon Mortgages lending product
+⟦100⟧ = bank
+⟦101⟧ = banking
+⟦102⟧ = Bankruptcies
+⟦103⟧ = Banks
+⟦104⟧ = BBC
+⟦105⟧ = behalf
+⟦106⟧ = billing
+⟦107⟧ = birth
+⟦108⟧ = bombers
+⟦109⟧ = bombing
+⟦110⟧ = bombing or rocket fire
+⟦111⟧ = books
+⟦112⟧ = borrowers
+⟦113⟧ = both types
+⟦114⟧ = both vehicle
+⟦115⟧ = brand
+⟦116⟧ = branding
+⟦117⟧ = British English
+⟦118⟧ = British filmmaker Adam Curtis
+⟦119⟧ = broadcaster
+⟦120⟧ = broadcasting
+⟦121⟧ = Broadcasting House
+⟦122⟧ = brokers
+⟦123⟧ = Brussels
+⟦124⟧ = business
+⟦125⟧ = caliber
+⟦126⟧ = cannons
+⟦127⟧ = cases
+⟦128⟧ = cash
+⟦129⟧ = cause
+⟦130⟧ = Cefic
+⟦131⟧ = century
+⟦132⟧ = changes
+⟦133⟧ = charges
+⟦134⟧ = Chase
+⟦135⟧ = Chase Home Finance
+⟦136⟧ = check
+⟦137⟧ = chemical
+⟦138⟧ = Chemicals
+⟦139⟧ = Chemicals companies
+⟦140⟧ = children
+⟦141⟧ = Christine Inchley
+⟦142⟧ = CIA
+⟦143⟧ = claim
+⟦144⟧ = Clare
+⟦145⟧ = clarity
+⟦146⟧ = cockpit
+⟦147⟧ = collision
+⟦148⟧ = collusion
+⟦149⟧ = combat
+⟦150⟧ = companies
+⟦151⟧ = company
+⟦152⟧ = complement
+⟦153⟧ = components
+⟦154⟧ = Comptroller
+⟦155⟧ = COMPTROLLER< Federal Trade Commission Consumer Protection Bureau
+⟦156⟧ = computer
+⟦157⟧ = computer crimes
+⟦158⟧ = condition
+⟦159⟧ = conferences
+⟦160⟧ = confusion
+⟦161⟧ = congestion
+⟦162⟧ = consumers
+⟦163⟧ = Consumers ignorance
+⟦164⟧ = contract
+⟦165⟧ = contract law
+⟦166⟧ = contrast
+⟦167⟧ = contributors
+⟦168⟧ = convergence
+⟦169⟧ = core
+⟦170⟧ = corporations
+⟦171⟧ = county
+⟦172⟧ = court
+⟦173⟧ = crash
+⟦174⟧ = creation
+⟦175⟧ = Creditors
+⟦176⟧ = crime
+⟦177⟧ = crimes
+⟦178⟧ = crisis
+⟦179⟧ = culture
+⟦180⟧ = Curtis
+⟦181⟧ = daily traffic patterns
+⟦182⟧ = damage
+⟦183⟧ = date
+⟦184⟧ = day
+⟦185⟧ = December
+⟦186⟧ = deeds
+⟦187⟧ = defense
+⟦188⟧ = defense purposes
+⟦189⟧ = definition
+⟦190⟧ = departments
+⟦191⟧ = destabilization
+⟦192⟧ = direction
+⟦193⟧ = directions
+⟦194⟧ = district
+⟦195⟧ = division
+⟦196⟧ = documentary
+⟦197⟧ = documents
+⟦198⟧ = dog
+⟦199⟧ = effect
+⟦200⟧ = effort
+⟦201⟧ = either air-combat missions
+⟦202⟧ = either fixed guns
+⟦203⟧ = employees
+⟦204⟧ = employers
+⟦205⟧ = enforcements
+⟦206⟧ = engines
+⟦207⟧ = England
+⟦208⟧ = entrepreneur
+⟦209⟧ = equity
+⟦210⟧ = escrow
+⟦211⟧ = estate
+⟦212⟧ = estates
+⟦213⟧ = Europe
+⟦214⟧ = evidence
+⟦215⟧ = existence
+⟦216⟧ = expectation
+⟦217⟧ = Experience
+⟦218⟧ = explosion
+⟦219⟧ = fact
+⟦220⟧ = falsifications
+⟦221⟧ = fashion
+⟦222⟧ = fast money
+⟦223⟧ = FBI
+⟦224⟧ = FBI Mortgage Fraud Department
+⟦225⟧ = Federal Law
+⟦226⟧ = Federal Trade Commission
+⟦227⟧ = fees
+⟦228⟧ = fighter
+⟦229⟧ = fighter-bombers
+⟦230⟧ = filing
+⟦231⟧ = film
+⟦232⟧ = filmmaker
+⟦233⟧ = financial pressure
+⟦234⟧ = financiers
+⟦235⟧ = finish
+⟦236⟧ = fire
+⟦237⟧ = fix
+⟦238⟧ = Fixed guns
+⟦239⟧ = fixed wing aircraft
+⟦240⟧ = flex-time
+⟦241⟧ = flexible guns
+⟦242⟧ = flexible time
+⟦243⟧ = flexible working
+⟦244⟧ = flexitime
+⟦245⟧ = flexplace
+⟦246⟧ = Flextime
+⟦247⟧ = flextime schedules
+⟦248⟧ = flight
+⟦249⟧ = Florida
+⟦250⟧ = foreclose
+⟦251⟧ = foreclosure
+⟦252⟧ = foreclosures
+⟦253⟧ = form
+⟦254⟧ = fraud
+⟦255⟧ = fraudulent documents
+⟦256⟧ = fraudulent mortgages
+⟦257⟧ = fraudulently deeds
+⟦258⟧ = free homes
+⟦259⟧ = freelance
+⟦260⟧ = funds
+⟦261⟧ = furniture
+⟦262⟧ = further economic destabilization
+⟦263⟧ = gain
+⟦264⟧ = government
+⟦265⟧ = government agencies
+⟦266⟧ = Government Debited office
+⟦267⟧ = governments
+⟦268⟧ = ground
+⟦269⟧ = ground attack
+⟦270⟧ = ground attack missions
+⟦271⟧ = ground targets
+⟦272⟧ = guns
+⟦273⟧ = HAMP
+⟦274⟧ = HAMP TEAM
+⟦275⟧ = hand
+⟦276⟧ = HARP
+⟦277⟧ = headquarters
+⟦278⟧ = headteacher
+⟦279⟧ = helicopters
+⟦280⟧ = high congestion times
+⟦281⟧ = history
+⟦282⟧ = holder
+⟦283⟧ = holders
+⟦284⟧ = home
+⟦285⟧ = homeowner
+⟦286⟧ = homeowner foreclose
+⟦287⟧ = homeowners
+⟦288⟧ = homes
+⟦289⟧ = hoper
+⟦290⟧ = hour
+⟦291⟧ = hours
+⟦292⟧ = houses
+⟦293⟧ = Housing
+⟦294⟧ = HyperNormalisation
+⟦295⟧ = ICE
+⟦296⟧ = ignorance
+⟦297⟧ = illegal activity
+⟦298⟧ = illegal transactions
+⟦299⟧ = illegal, computer fraud
+⟦300⟧ = inappropriate mortgage charges
+⟦301⟧ = inception
+⟦302⟧ = industry
+⟦303⟧ = institution
+⟦304⟧ = institution violations
+⟦305⟧ = institutional staff
+⟦306⟧ = institutions
+⟦307⟧ = interest
+⟦308⟧ = interest rates
+⟦309⟧ = international and EU institutions
+⟦310⟧ = Internet
+⟦311⟧ = Internet culture
+⟦312⟧ = intuitions
+⟦313⟧ = Investigation
+⟦314⟧ = Iraq
+⟦315⟧ = IRS
+⟦316⟧ = IRS Inception
+⟦317⟧ = IRS staff
+⟦318⟧ = issues
+⟦319⟧ = its former French name
+⟦320⟧ = its headquarters
+⟦321⟧ = its history
+⟦322⟧ = its total staff
+⟦323⟧ = Jordan
+⟦324⟧ = JP Morgan
+⟦325⟧ = Justice
+⟦326⟧ = keeping
+⟦327⟧ = keeping staff
+⟦328⟧ = key
+⟦329⟧ = key flight components
+⟦330⟧ = Kuwait
+⟦331⟧ = law
+⟦332⟧ = laws
+⟦333⟧ = Lebanon
+⟦334⟧ = Legal action
+⟦335⟧ = legal precedence
+⟦336⟧ = legal staff
+⟦337⟧ = lenders
+⟦338⟧ = lenders staff
+⟦339⟧ = Lending
+⟦340⟧ = Lending institutions
+⟦341⟧ = lending product
+⟦342⟧ = letters
+⟦343⟧ = level
+⟦344⟧ = levels
+⟦345⟧ = life
+⟦346⟧ = limited effect
+⟦347⟧ = lines
+⟦348⟧ = litigation
+⟦349⟧ = Loan
+⟦350⟧ = loan assumption
+⟦351⟧ = Loan assumptions
+⟦352⟧ = loan bail out programs
+⟦353⟧ = loan foreclosures
+⟦354⟧ = Loan holders
+⟦355⟧ = Loan modification
+⟦356⟧ = Loan modifications
+⟦357⟧ = Loan transfers
+⟦358⟧ = loans
+⟦359⟧ = Local Police Department
+⟦360⟧ = local residential Tax Assessing Staff
+⟦361⟧ = London
+⟦362⟧ = low-flying aircraft
+⟦363⟧ = machine
+⟦364⟧ = machine guns
+⟦365⟧ = many different directions
+⟦366⟧ = Many people
+⟦367⟧ = Market
+⟦368⟧ = matter
+⟦369⟧ = media
+⟦370⟧ = members
+⟦371⟧ = MER
+⟦372⟧ = missiles
+⟦373⟧ = missions
+⟦374⟧ = mm
+⟦375⟧ = modification
+⟦376⟧ = Modification owners
+⟦377⟧ = modifications
+⟦378⟧ = Modifications HMAP HARP
+⟦379⟧ = modifications loan holders
+⟦380⟧ = money
+⟦381⟧ = monies
+⟦382⟧ = monthly payments
+⟦383⟧ = mortgage
+⟦384⟧ = Mortgage ad
+⟦385⟧ = mortgage loan agreements
+⟦386⟧ = mortgage loan terms
+⟦387⟧ = mortgage terms
+⟦388⟧ = mortgages
+⟦389⟧ = most cases
+⟦390⟧ = Most Creditors
+⟦391⟧ = most Homeowners
+⟦392⟧ = much ground fire
+⟦393⟧ = name
+⟦394⟧ = national policy
+⟦395⟧ = nature
+⟦396⟧ = New York City
+⟦397⟧ = Nicholas White
+⟦398⟧ = no reason
+⟦399⟧ = non-governmental organisations
+⟦400⟧ = non-teaching support staff
+⟦401⟧ = North Africa
+⟦402⟧ = not the governments
+⟦403⟧ = note
+⟦404⟧ = Note Holders
+⟦405⟧ = Notes
+⟦406⟧ = number
+⟦407⟧ = obstacles
+⟦408⟧ = office
+⟦409⟧ = offices
+⟦410⟧ = opportunity
+⟦411⟧ = Ordinance Staff
+⟦412⟧ = organisation
+⟦413⟧ = organisations
+⟦414⟧ = other aircraft
+⟦415⟧ = other contributors
+⟦416⟧ = other illegal actions
+⟦417⟧ = other lending
+⟦418⟧ = other stakeholders
+⟦419⟧ = other vulnerable areas
+⟦420⟧ = other watch dog agencies
+⟦421⟧ = others
+⟦422⟧ = over 20,950 staff
+⟦423⟧ = over 6,500 teachers
+⟦424⟧ = owners
+⟦425⟧ = p.m.
+⟦426⟧ = part
+⟦427⟧ = part-time, flexible, and fixed contract staff
+⟦428⟧ = patterns
+⟦429⟧ = payments
+⟦430⟧ = people
+⟦431⟧ = period
+⟦432⟧ = personal profits
+⟦433⟧ = philanthropist
+⟦434⟧ = philanthropist Thomas Lundgren
+⟦435⟧ = pilot
+⟦436⟧ = place
+⟦437⟧ = Planes
+⟦438⟧ = point
+⟦439⟧ = Police Staff
+⟦440⟧ = policy
+⟦441⟧ = politicians
+⟦442⟧ = potential damage
+⟦443⟧ = power
+⟦444⟧ = power lines
+⟦445⟧ = practice
+⟦446⟧ = practices
+⟦447⟧ = precedence
+⟦448⟧ = precedent
+⟦449⟧ = precedent cases
+⟦450⟧ = precedents
+⟦451⟧ = predatory lending practices
+⟦452⟧ = predatory lending station
+⟦453⟧ = President Obamas Inception
+⟦454⟧ = President Obamas letters
+⟦455⟧ = pressure
+⟦456⟧ = principal balances
+⟦457⟧ = prize
+⟦458⟧ = problems
+⟦459⟧ = process
+⟦460⟧ = product
+⟦461⟧ = products
+⟦462⟧ = profit
+⟦463⟧ = profits
+⟦464⟧ = programs
+⟦465⟧ = proper lower interest
+⟦466⟧ = properties
+⟦467⟧ = public
+⟦468⟧ = public court records
+⟦469⟧ = public sector broadcasting
+⟦470⟧ = public transport schedules
+⟦471⟧ = pupils
+⟦472⟧ = purpose
+⟦473⟧ = purposes
+⟦474⟧ = Qatar
+⟦475⟧ = range
+⟦476⟧ = rates
+⟦477⟧ = real estate
+⟦478⟧ = Real Estate Staff
+⟦479⟧ = real estate terms
+⟦480⟧ = real estates
+⟦481⟧ = REAL STATE
+⟦482⟧ = real-estate
+⟦483⟧ = reals
+⟦484⟧ = reals estate
+⟦485⟧ = rear
+⟦486⟧ = reason
+⟦487⟧ = Recession
+⟦488⟧ = record
+⟦489⟧ = records
+⟦490⟧ = reduced mortgage
+⟦491⟧ = relatively low airspeed
+⟦492⟧ = reporting
+⟦493⟧ = reporting agencies
+⟦494⟧ = rights
+⟦495⟧ = risk
+⟦496⟧ = rocket
+⟦497⟧ = role
+⟦498⟧ = rotary cannons
+⟦499⟧ = rush
+⟦500⟧ = rush hour
+⟦501⟧ = San Francisco
+⟦502⟧ = scams
+⟦503⟧ = schedule
+⟦504⟧ = schedules
+⟦505⟧ = school
+⟦506⟧ = schools
+⟦507⟧ = sector
+⟦508⟧ = September
+⟦509⟧ = service
+⟦510⟧ = Shturmovik
+⟦511⟧ = sides
+⟦512⟧ = small arms
+⟦513⟧ = small caliber weapons fire
+⟦514⟧ = Some fixed wing aircraft
+⟦515⟧ = squeaky
+⟦516⟧ = St. Lucie County
+⟦517⟧ = St. Lucie County Public Schools
+⟦518⟧ = St. Lucie County School District
+⟦519⟧ = staff
+⟦520⟧ = stakeholders
+⟦521⟧ = start
+⟦522⟧ = state
+⟦523⟧ = State Code
+⟦524⟧ = station
+⟦525⟧ = stores
+⟦526⟧ = Stour Valley Community School
+⟦527⟧ = Strafing
+⟦528⟧ = such a common practice
+⟦529⟧ = such business practices
+⟦530⟧ = such illegal actions
+⟦531⟧ = such scams
+⟦532⟧ = Suffolk
+⟦533⟧ = support
+⟦534⟧ = surface
+⟦535⟧ = Swedish entrepreneur
+⟦536⟧ = target
+⟦537⟧ = targets
+⟦538⟧ = tax
+⟦539⟧ = tax fees
+⟦540⟧ = teachers
+⟦541⟧ = TEAMS
+⟦542⟧ = technological utopians
+⟦543⟧ = term
+⟦544⟧ = terms
+⟦545⟧ = terrain
+⟦546⟧ = Texas
+⟦547⟧ = the "bandwidth" period
+⟦548⟧ = the "core" period
+⟦549⟧ = the 1930s
+⟦550⟧ = the 1970s
+⟦551⟧ = The 2008 Crash
+⟦552⟧ = the aircraft
+⟦553⟧ = the amount
+⟦554⟧ = the arena
+⟦555⟧ = the Banks
+⟦556⟧ = The BBC
+⟦557⟧ = the BBC iPlayer
+⟦558⟧ = the branding
+⟦559⟧ = The British Broadcasting Corporation
+⟦560⟧ = the cause
+⟦561⟧ = the chemical industry
+⟦562⟧ = the cockpit
+⟦563⟧ = the complex "real world
+⟦564⟧ = the condition
+⟦565⟧ = the consumers
+⟦566⟧ = the convergence point
+⟦567⟧ = the crash
+⟦568⟧ = the creation
+⟦569⟧ = the crisis
+⟦570⟧ = The Daily Dot
+⟦571⟧ = the day
+⟦572⟧ = the Democratic process
+⟦573⟧ = the direction
+⟦574⟧ = the district
+⟦575⟧ = the early 21st century
+⟦576⟧ = the English county
+⟦577⟧ = The Escrow
+⟦578⟧ = The European Chemical Industry Council
+⟦579⟧ = the European Union
+⟦580⟧ = the expectation
+⟦581⟧ = the falsifications
+⟦582⟧ = The FBI online Computer crime division
+⟦583⟧ = the Federal Bureau
+⟦584⟧ = the film
+⟦585⟧ = the first 24 free schools
+⟦586⟧ = the fixed weapons
+⟦587⟧ = the Great Depression
+⟦588⟧ = the ground
+⟦589⟧ = the guns
+⟦590⟧ = the HAMP TEAMS
+⟦591⟧ = The headteacher
+⟦592⟧ = the home fashion brand
+⟦593⟧ = the Homeowners
+⟦594⟧ = the homeowners funds
+⟦595⟧ = the hoper
+⟦596⟧ = the House
+⟦597⟧ = the Housing Crash
+⟦598⟧ = The Housing Market
+⟦599⟧ = The immoral and illegal actions
+⟦600⟧ = the inception
+⟦601⟧ = the interest
+⟦602⟧ = the international media
+⟦603⟧ = the issues
+⟦604⟧ = The key
+⟦605⟧ = the largest broadcaster
+⟦606⟧ = The legal precedents
+⟦607⟧ = the lenders
+⟦608⟧ = the lending institutions
+⟦609⟧ = the loan holders
+⟦610⟧ = the Loan Note Holder
+⟦611⟧ = the loan product
+⟦612⟧ = the low altitude
+⟦613⟧ = the main European trade association
+⟦614⟧ = The Market
+⟦615⟧ = the Middle East
+⟦616⟧ = the Midwest
+⟦617⟧ = the military practice
+⟦618⟧ = the Modifications
+⟦619⟧ = the money
+⟦620⟧ = the money note holders
+⟦621⟧ = the Mortgage Crash
+⟦622⟧ = the mortgage holders
+⟦623⟧ = the nature
+⟦624⟧ = the necessary work
+⟦625⟧ = the new products
+⟦626⟧ = the note
+⟦627⟧ = the Note Holder
+⟦628⟧ = the Note Holders
+⟦629⟧ = the Notes
+⟦630⟧ = The One Total Home Experience
+⟦631⟧ = the owners or Rental properties
+⟦632⟧ = the payments
+⟦633⟧ = the pilot
+⟦634⟧ = the prize
+⟦635⟧ = the profit
+⟦636⟧ = the public
+⟦637⟧ = the purpose
+⟦638⟧ = the range
+⟦639⟧ = the Real Estate Chain
+⟦640⟧ = the Real Estate Crash
+⟦641⟧ = the Real Estate Market
+⟦642⟧ = the real prize
+⟦643⟧ = the rear
+⟦644⟧ = the risk
+⟦645⟧ = the schedules
+⟦646⟧ = The school
+⟦647⟧ = the school district
+⟦648⟧ = the sides
+⟦649⟧ = the so-called "Great Recession
+⟦650⟧ = the squeaky
+⟦651⟧ = the staff
+⟦652⟧ = the state
+⟦653⟧ = the state level
+⟦654⟧ = the systematic alteration
+⟦655⟧ = the target
+⟦656⟧ = the term
+⟦657⟧ = The total number
+⟦658⟧ = the total staff
+⟦659⟧ = The total working time
+⟦660⟧ = the United Arab Emirates
+⟦661⟧ = the United States
+⟦662⟧ = The United States Department
+⟦663⟧ = the United States Government and State Government
+⟦664⟧ = The United States IRS
+⟦665⟧ = the USA Government
+⟦666⟧ = the victimization
+⟦667⟧ = the violations
+⟦668⟧ = the way
+⟦669⟧ = the web
+⟦670⟧ = The working day
+⟦671⟧ = the world
+⟦672⟧ = the world's oldest national broadcasting organisation
+⟦673⟧ = their armor
+⟦674⟧ = their children
+⟦675⟧ = their deviant practices
+⟦676⟧ = their escrow
+⟦677⟧ = their homes
+⟦678⟧ = their members
+⟦679⟧ = their monetary rights
+⟦680⟧ = their staff
+⟦681⟧ = their work hours
+⟦682⟧ = these actions
+⟦683⟧ = these arenas
+⟦684⟧ = these changes
+⟦685⟧ = these monies
+⟦686⟧ = these unethical profits
+⟦687⟧ = this money
+⟦688⟧ = this monies
+⟦689⟧ = those various departments
+⟦690⟧ = Thunderbolt
+⟦691⟧ = Thus the birth
+⟦692⟧ = time
+⟦693⟧ = times
+⟦694⟧ = title
+⟦695⟧ = title companies
+⟦696⟧ = total
+⟦697⟧ = total daily, weekly or monthly hours
+⟦698⟧ = trade
+⟦699⟧ = traditional work arrangements
+⟦700⟧ = traditional work schedules
+⟦701⟧ = traffic
+⟦702⟧ = transactions
+⟦703⟧ = transfers
+⟦704⟧ = transport
+⟦705⟧ = Tunisia
+⟦706⟧ = types
+⟦707⟧ = typically 20mm
+⟦708⟧ = typically Attorneys
+⟦709⟧ = undertaking
+⟦710⟧ = unethical financial gain
+⟦711⟧ = unethical staff
+⟦712⟧ = United States Laws
+⟦713⟧ = USA
+⟦714⟧ = USA Government
+⟦715⟧ = utopians
+⟦716⟧ = various actions
+⟦717⟧ = various arenas
+⟦718⟧ = various staff
+⟦719⟧ = vehicle
+⟦720⟧ = victimization
+⟦721⟧ = victims
+⟦722⟧ = violations
+⟦723⟧ = Washington Mutual
+⟦724⟧ = watch
+⟦725⟧ = way
+⟦726⟧ = weapons
+⟦727⟧ = web
+⟦728⟧ = what money
+⟦729⟧ = wing
+⟦730⟧ = work
+⟦731⟧ = workday
+⟦732⟧ = workday start
+⟦733⟧ = workers
+⟦734⟧ = working
+⟦735⟧ = world
+⟦736⟧ = y deliberate confusion consumers
+⟦737⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[BBC] ⟦559⟧⟨1⟩⟦104⟧⟨2⟩⟦19⟧⟨3⟩⟦509⟧⟨4⟩⟦119⟧⟨5⟩⟦320⟧⟨6⟩⟦277⟧⟨7⟩⟦121⟧⟨8⟩⟦361⟧⟨9⟩
+[BBC] ⟦556⟧⟨10⟩⟦672⟧⟨11⟩⟦735⟧⟨12⟩⟦120⟧⟨13⟩⟦412⟧⟨14⟩⟦605⟧⟨15⟩⟦119⟧⟨16⟩⟦671⟧⟨17⟩⟦735⟧⟨18⟩⟦406⟧⟨19⟩⟦406⟧⟨20⟩⟦203⟧⟨21⟩⟦203⟧⟨22⟩
+[BBC] ⟨23⟩⟦422⟧⟨24⟩⟦519⟧⟨25⟩⟦696⟧⟨26⟩⟦696⟧⟨27⟩⟦469⟧⟨28⟩⟦507⟧⟨29⟩⟦120⟧⟨30⟩
+[BBC] ⟦657⟧⟨31⟩⟦406⟧⟨32⟩⟦519⟧⟨33⟩⟦519⟧⟨34⟩⟦426⟧⟨35⟩⟦427⟧⟨36⟩⟦692⟧⟨37⟩⟦164⟧⟨38⟩⟦519⟧⟨39⟩
+[HyperNormalisation] ⟦294⟧⟨40⟩⟦16⟧⟨41⟩⟦196⟧⟨42⟩⟦118⟧⟨43⟩⟦232⟧⟨44⟩
+[HyperNormalisation] ⟨45⟩⟦584⟧⟨46⟩⟦231⟧⟨47⟩⟦180⟧⟨48⟩⟦550⟧⟨49⟩⟦7⟧⟨50⟩⟦267⟧⟨51⟩⟦267⟧⟨52⟩⟦234⟧⟨53⟩⟦234⟧⟨54⟩⟦542⟧⟨55⟩⟦715⟧⟨56⟩⟦563⟧⟨57⟩⟦735⟧⟨58⟩⟦36⟧⟨59⟩⟦735⟧⟨60⟩⟦170⟧⟨61⟩⟦170⟧⟨62⟩⟦441⟧⟨63⟩⟦441⟧⟨64⟩
+[HyperNormalisation] ⟦584⟧⟨65⟩⟦231⟧⟨66⟩⟦4⟧⟨67⟩⟦557⟧⟨68⟩
+[The One (company)] ⟦630⟧⟨69⟩⟦217⟧⟨70⟩⟦28⟧⟨71⟩⟦261⟧⟨72⟩⟦151⟧⟨73⟩⟦535⟧⟨74⟩⟦208⟧⟨75⟩⟦433⟧⟨76⟩⟦434⟧⟨77⟩
+[The One (company)] ⟨78⟩⟦185⟧⟨79⟩⟦592⟧⟨80⟩⟦284⟧⟨81⟩⟦221⟧⟨82⟩⟦115⟧⟨83⟩⟦38⟧⟨84⟩⟦696⟧⟨85⟩⟦5⟧⟨86⟩⟦525⟧⟨87⟩⟦615⟧⟨88⟩⟦401⟧⟨89⟩⟦94⟧⟨90⟩⟦314⟧⟨91⟩⟦323⟧⟨92⟩⟦330⟧⟨93⟩⟦333⟧⟨94⟩⟦474⟧⟨95⟩⟦705⟧⟨96⟩⟦660⟧⟨97⟩⟦40⟧⟨98⟩⟦519⟧⟨99⟩⟦152⟧⟨100⟩
+[Strafing] ⟦527⟧⟨101⟩⟦527⟧⟨102⟩⟦617⟧⟨103⟩⟦445⟧⟨104⟩⟦268⟧⟨105⟩⟦271⟧⟨106⟩⟦537⟧⟨107⟩⟦362⟧⟨108⟩⟦59⟧⟨109⟩⟦59⟧⟨110⟩⟦60⟧⟨111⟩⟦726⟧⟨112⟩⟦363⟧⟨113⟩⟦364⟧⟨114⟩⟦272⟧⟨115⟩⟦92⟧⟨116⟩⟦92⟧⟨117⟩⟦498⟧⟨118⟩⟦126⟧⟨119⟩⟦707⟧⟨120⟩⟦374⟧⟨121⟩
+[Strafing] ⟨122⟩⟦268⟧⟨123⟩⟦269⟧⟨124⟩⟦88⟧⟨125⟩⟦93⟧⟨126⟩⟦726⟧⟨127⟩⟦236⟧⟨128⟩⟦109⟧⟨129⟩⟦110⟧⟨130⟩⟦496⟧⟨131⟩⟦236⟧⟨132⟩⟦656⟧⟨133⟩⟦543⟧⟨134⟩
+[Strafing] ⟦656⟧⟨135⟩⟦543⟧⟨136⟩⟦202⟧⟨137⟩⟦272⟧⟨138⟩⟦55⟧⟨139⟩⟦272⟧⟨140⟩
+[Strafing] ⟦238⟧⟨141⟩⟦272⟧⟨142⟩⟦239⟧⟨143⟩⟦729⟧⟨144⟩⟦59⟧⟨145⟩⟦279⟧⟨146⟩⟦279⟧⟨147⟩⟦56⟧⟨148⟩⟦726⟧⟨149⟩⟦365⟧⟨150⟩⟦193⟧⟨151⟩⟦573⟧⟨152⟩⟦192⟧⟨153⟩⟦552⟧⟨154⟩⟦59⟧⟨155⟩⟦389⟧⟨156⟩⟦127⟧⟨157⟩⟦241⟧⟨158⟩⟦272⟧⟨159⟩⟦23⟧⟨160⟩⟦729⟧⟨161⟩⟦59⟧⟨162⟩⟦187⟧⟨163⟩⟦188⟧⟨164⟩⟦473⟧⟨165⟩⟦268⟧⟨166⟩⟦271⟧⟨167⟩⟦537⟧⟨168⟩⟦346⟧⟨169⟩⟦199⟧⟨170⟩
+[Strafing] ⟦514⟧⟨171⟩⟦729⟧⟨172⟩⟦59⟧⟨173⟩⟦228⟧⟨174⟩⟦229⟧⟨175⟩⟦108⟧⟨176⟩⟦201⟧⟨177⟩⟦57⟧⟨178⟩⟦149⟧⟨179⟩⟦373⟧⟨180⟩⟦268⟧⟨181⟩⟦270⟧⟨182⟩⟦88⟧⟨183⟩⟦373⟧⟨184⟩⟦690⟧⟨185⟩⟦421⟧⟨186⟩⟦421⟧⟨187⟩⟦268⟧⟨188⟩⟦88⟧⟨189⟩⟦706⟧⟨190⟩⟦510⟧⟨191⟩
+[Strafing] ⟨192⟩⟦127⟧⟨193⟩⟦127⟧⟨194⟩⟦68⟧⟨195⟩⟦59⟧⟨196⟩⟦113⟧⟨197⟩⟦706⟧⟨198⟩⟦149⟧⟨199⟩⟦149⟧⟨200⟩⟦31⟧⟨201⟩⟦268⟧⟨202⟩⟦88⟧⟨203⟩⟦497⟧⟨204⟩⟦589⟧⟨205⟩⟦272⟧⟨206⟩⟦527⟧⟨207⟩⟦527⟧⟨208⟩⟦586⟧⟨209⟩⟦726⟧⟨210⟩⟦566⟧⟨211⟩⟦168⟧⟨212⟩⟦438⟧⟨213⟩⟦30⟧⟨214⟩⟦475⟧⟨215⟩⟦57⟧⟨216⟩⟦58⟧⟨217⟩⟦149⟧⟨218⟩
+[Strafing] ⟨219⟩⟦633⟧⟨220⟩⟦435⟧⟨221⟩⟦37⟧⟨222⟩⟦536⟧⟨223⟩⟦588⟧⟨224⟩⟦268⟧⟨225⟩⟦644⟧⟨226⟩⟦495⟧⟨227⟩⟦147⟧⟨228⟩⟦147⟧⟨229⟩⟦588⟧⟨230⟩⟦268⟧⟨231⟩⟦553⟧⟨232⟩⟦67⟧⟨233⟩⟦692⟧⟨234⟩⟦692⟧⟨235⟩⟦638⟧⟨236⟩⟦475⟧⟨237⟩⟦655⟧⟨238⟩⟦536⟧⟨239⟩⟦73⟧⟨240⟩⟦236⟧⟨241⟩⟦442⟧⟨242⟩⟦182⟧⟨243⟩⟦537⟧⟨244⟩⟦537⟧⟨245⟩
+[Strafing] ⟨246⟩⟦612⟧⟨247⟩⟦65⟧⟨248⟩⟦491⟧⟨249⟩⟦61⟧⟨250⟩⟦42⟧⟨251⟩⟦527⟧⟨252⟩⟦633⟧⟨253⟩⟦435⟧⟨254⟩⟦644⟧⟨255⟩⟦495⟧⟨256⟩⟦248⟧⟨257⟩⟦545⟧⟨258⟩⟦545⟧⟨259⟩⟦407⟧⟨260⟩⟦443⟧⟨261⟩⟦444⟧⟨262⟩⟦347⟧⟨263⟩⟦74⟧⟨264⟩⟦726⟧⟨265⟩⟦534⟧⟨266⟩⟦57⟧⟨267⟩⟦57⟧⟨268⟩⟦372⟧⟨269⟩⟦114⟧⟨270⟩⟦719⟧⟨271⟩⟦275⟧⟨272⟩⟦72⟧⟨273⟩⟦83⟧⟨274⟩⟦513⟧⟨275⟩⟦125⟧⟨276⟩⟦726⟧⟨277⟩⟦236⟧⟨278⟩⟦363⟧⟨279⟩⟦364⟧⟨280⟩⟦272⟧⟨281⟩⟦512⟧⟨282⟩⟦80⟧⟨283⟩
+[Strafing] ⟦437⟧⟨284⟩⟦437⟧⟨285⟩⟦268⟧⟨286⟩⟦269⟧⟨287⟩⟦88⟧⟨288⟩⟦48⟧⟨289⟩⟦79⟧⟨290⟩⟦562⟧⟨291⟩⟦146⟧⟨292⟩⟦419⟧⟨293⟩⟦75⟧⟨294⟩⟦206⟧⟨295⟩⟦206⟧⟨296⟩⟦633⟧⟨297⟩⟦435⟧⟨298⟩⟦329⟧⟨299⟩⟦248⟧⟨300⟩⟦153⟧⟨301⟩⟦59⟧⟨302⟩⟦59⟧⟨303⟩⟦57⟧⟨304⟩⟦58⟧⟨305⟩⟦149⟧⟨306⟩⟦673⟧⟨307⟩⟦78⟧⟨308⟩⟦643⟧⟨309⟩⟦485⟧⟨310⟩⟦236⟧⟨311⟩⟦236⟧⟨312⟩⟦414⟧⟨313⟩⟦59⟧⟨314⟩⟦236⟧⟨315⟩⟦236⟧⟨316⟩⟦648⟧⟨317⟩⟦511⟧⟨318⟩⟦392⟧⟨319⟩⟦268⟧⟨320⟩⟦236⟧⟨321⟩
+[European Chemical Industry Council] ⟦578⟧⟨322⟩⟦130⟧⟨323⟩⟦319⟧⟨324⟩⟦393⟧⟨325⟩⟦1⟧⟨326⟩⟦613⟧⟨327⟩⟦698⟧⟨328⟩⟦85⟧⟨329⟩⟦561⟧⟨330⟩⟦137⟧⟨331⟩⟦302⟧⟨332⟩
+[European Chemical Industry Council] ⟨333⟩⟦321⟧⟨334⟩⟦281⟧⟨335⟩⟦568⟧⟨336⟩⟦174⟧⟨337⟩⟦579⟧⟨338⟩
+[European Chemical Industry Council] ⟦320⟧⟨339⟩⟦277⟧⟨340⟩⟦123⟧⟨341⟩
+[European Chemical Industry Council] ⟦130⟧⟨342⟩⟦10⟧⟨343⟩⟦137⟧⟨344⟩⟦150⟧⟨345⟩⟦213⟧⟨346⟩⟦105⟧⟨347⟩⟦105⟧⟨348⟩⟦678⟧⟨349⟩⟦370⟧⟨350⟩⟦309⟧⟨351⟩⟦306⟧⟨352⟩⟦399⟧⟨353⟩⟦413⟧⟨354⟩⟦602⟧⟨355⟩⟦369⟧⟨356⟩⟦418⟧⟨357⟩⟦520⟧⟨358⟩
+[European Chemical Industry Council] ⟦139⟧⟨359⟩⟦138⟧⟨360⟩⟦150⟧⟨361⟩⟦579⟧⟨362⟩⟦39⟧⟨363⟩⟦519⟧⟨364⟩
+[St. Lucie County Public Schools] ⟦517⟧⟨365⟩⟦558⟧⟨366⟩⟦116⟧⟨367⟩⟦518⟧⟨368⟩⟦647⟧⟨369⟩⟦505⟧⟨370⟩⟦194⟧⟨371⟩⟦506⟧⟨372⟩⟦506⟧⟨373⟩⟦516⟧⟨374⟩⟦249⟧⟨375⟩⟦713⟧⟨376⟩
+[St. Lucie County Public Schools] ⟨377⟩⟦658⟧⟨378⟩⟦519⟧⟨379⟩⟦574⟧⟨380⟩⟦194⟧⟨381⟩⟦423⟧⟨382⟩⟦540⟧⟨383⟩⟦8⟧⟨384⟩⟦50⟧⟨385⟩⟦519⟧⟨386⟩
+[Stour Valley Community School] ⟦526⟧⟨387⟩⟦20⟧⟨388⟩⟦505⟧⟨389⟩⟦471⟧⟨390⟩⟦471⟧⟨391⟩⟦144⟧⟨392⟩⟦576⟧⟨393⟩⟦171⟧⟨394⟩⟦532⟧⟨395⟩
+[Stour Valley Community School] ⟦646⟧⟨396⟩⟦505⟧⟨397⟩⟦508⟧⟨398⟩⟦585⟧⟨399⟩⟦506⟧⟨400⟩⟦207⟧⟨401⟩
+[Stour Valley Community School] ⟦646⟧⟨402⟩⟦505⟧⟨403⟩⟦81⟧⟨404⟩⟦471⟧⟨405⟩⟦39⟧⟨406⟩⟦519⟧⟨407⟩⟦400⟧⟨408⟩⟦533⟧⟨409⟩⟦519⟧⟨410⟩
+[Stour Valley Community School] ⟦591⟧⟨411⟩⟦278⟧⟨412⟩⟦141⟧⟨413⟩
+[The Daily Dot] ⟦570⟧⟨414⟩⟦21⟧⟨415⟩⟦369⟧⟨416⟩⟦151⟧⟨417⟩⟦310⟧⟨418⟩⟦311⟧⟨419⟩⟦179⟧⟨420⟩⟦345⟧⟨421⟩⟦345⟧⟨422⟩⟦669⟧⟨423⟩⟦727⟧⟨424⟩
+[The Daily Dot] ⟨425⟩⟦397⟧⟨426⟩⟦570⟧⟨427⟩⟦91⟧⟨428⟩⟦546⟧⟨429⟩⟦409⟧⟨430⟩⟦409⟧⟨431⟩⟦396⟧⟨432⟩⟦501⟧⟨433⟩
+[The Daily Dot] ⟨434⟩⟦27⟧⟨435⟩⟦692⟧⟨436⟩⟦519⟧⟨437⟩⟦47⟧⟨438⟩⟦47⟧⟨439⟩⟦9⟧⟨440⟩⟦259⟧⟨441⟩⟦167⟧⟨442⟩⟦12⟧⟨443⟩⟦322⟧⟨444⟩⟦519⟧⟨445⟩⟦508⟧⟨446⟩
+[Loan modification in the United States] ⟦349⟧⟨447⟩⟦355⟧⟨448⟩⟦375⟧⟨449⟩⟦654⟧⟨450⟩⟦64⟧⟨451⟩⟦383⟧⟨452⟩⟦385⟧⟨453⟩⟦349⟧⟨454⟩⟦54⟧⟨455⟩⟦458⟧⟨456⟩⟦458⟧⟨457⟩⟦632⟧⟨458⟩⟦429⟧⟨459⟩⟦307⟧⟨460⟩⟦308⟧⟨461⟩⟦476⟧⟨462⟩⟦382⟧⟨463⟩⟦429⟧⟨464⟩⟦456⟧⟨465⟩⟦96⟧⟨466⟩
+[Loan modification in the United States] ⟦340⟧⟨467⟩⟦339⟧⟨468⟩⟦306⟧⟨469⟩⟦684⟧⟨470⟩⟦132⟧⟨471⟩⟦233⟧⟨472⟩⟦455⟧⟨473⟩⟦112⟧⟨474⟩⟦112⟧⟨475⟩⟦564⟧⟨476⟩⟦158⟧⟨477⟩⟦251⟧⟨478⟩⟦251⟧⟨479⟩
+[Loan modification in the United States] ⟦375⟧⟨480⟩⟦22⟧⟨481⟩⟦237⟧⟨482⟩⟦567⟧⟨483⟩⟦173⟧⟨484⟩⟦348⟧⟨485⟩⟦348⟧⟨486⟩⟦607⟧⟨487⟩⟦337⟧⟨488⟩⟦608⟧⟨489⟩⟦339⟧⟨490⟩⟦306⟧⟨491⟩⟦264⟧⟨492⟩⟦265⟧⟨493⟩⟦53⟧⟨494⟩
+[Loan modification in the United States] ⟨495⟩⟦377⟧⟨496⟩⟦379⟧⟨497⟩⟦349⟧⟨498⟩⟦283⟧⟨499⟩⟦178⟧⟨500⟩⟦178⟧⟨501⟩⟦351⟧⟨502⟩⟦87⟧⟨503⟩⟦357⟧⟨504⟩⟦703⟧⟨505⟩⟦626⟧⟨506⟩⟦403⟧⟨507⟩⟦549⟧⟨508⟩⟦6⟧⟨509⟩
+[Loan modification in the United States] ⟨510⟩⟦587⟧⟨511⟩⟦349⟧⟨512⟩⟦357⟧⟨513⟩⟦703⟧⟨514⟩⟦349⟧⟨515⟩⟦350⟧⟨516⟩⟦86⟧⟨517⟩⟦349⟧⟨518⟩⟦352⟧⟨519⟩⟦95⟧⟨520⟩⟦464⟧⟨521⟩⟦436⟧⟨522⟩⟦436⟧⟨523⟩⟦653⟧⟨524⟩⟦522⟧⟨525⟩⟦343⟧⟨526⟩⟦71⟧⟨527⟩⟦200⟧⟨528⟩⟦344⟧⟨529⟩⟦344⟧⟨530⟩⟦349⟧⟨531⟩⟦353⟧⟨532⟩⟦252⟧⟨533⟩⟦583⟧⟨534⟩⟦313⟧⟨535⟩⟦226⟧⟨536⟩⟦154⟧⟨537⟩⟦663⟧⟨538⟩⟦303⟧⟨539⟩⟦304⟧⟨540⟩⟦722⟧⟨541⟩⟦331⟧⟨542⟩⟦331⟧⟨543⟩⟦683⟧⟨544⟩⟦77⟧⟨545⟩⟦468⟧⟨546⟩⟦172⟧⟨547⟩⟦489⟧⟨548⟩⟦335⟧⟨549⟩⟦447⟧⟨550⟩⟦530⟧⟨551⟩⟦44⟧⟨552⟩
+[Loan modification in the United States] ⟦606⟧⟨553⟩⟦450⟧⟨554⟩⟦492⟧⟨555⟩⟦493⟧⟨556⟩⟦53⟧⟨557⟩⟦667⟧⟨558⟩⟦722⟧⟨559⟩⟦332⟧⟨560⟩⟦332⟧⟨561⟩⟦162⟧⟨562⟩⟦162⟧⟨563⟩⟦618⟧⟨564⟩⟦565⟧⟨565⟩⟦162⟧⟨566⟩⟦721⟧⟨567⟩⟦721⟧⟨568⟩⟦451⟧⟨569⟩⟦339⟧⟨570⟩⟦446⟧⟨571⟩
+[Loan modification in the United States] ⟨572⟩⟦649⟧⟨573⟩⟦487⟧⟨574⟩⟦575⟧⟨575⟩⟦131⟧⟨576⟩⟦349⟧⟨577⟩⟦355⟧⟨578⟩⟦375⟧⟨579⟩⟦32⟧⟨580⟩⟦368⟧⟨581⟩⟦394⟧⟨582⟩⟦440⟧⟨583⟩⟦716⟧⟨584⟩⟦44⟧⟨585⟩⟦383⟧⟨586⟩⟦386⟧⟨587⟩⟦349⟧⟨588⟩⟦544⟧⟨589⟩⟦262⟧⟨590⟩⟦191⟧⟨591⟩
+[Loan modification in the United States] ⟨592⟩⟦432⟧⟨593⟩⟦463⟧⟨594⟩⟦287⟧⟨595⟩⟦175⟧⟨596⟩⟦175⟧⟨597⟩⟦687⟧⟨598⟩⟦380⟧⟨599⟩⟦209⟧⟨600⟩⟦209⟧⟨601⟩⟦210⟧⟨602⟩⟦210⟧⟨603⟩⟦610⟧⟨604⟩⟦403⟧⟨605⟩⟦679⟧⟨606⟩⟦494⟧⟨607⟩⟦642⟧⟨608⟩⟦457⟧⟨609⟩⟦486⟧⟨610⟩⟦486⟧⟨611⟩⟦597⟧⟨612⟩⟦635⟧⟨613⟩⟦462⟧⟨614⟩⟦622⟧⟨615⟩⟦383⟧⟨616⟩⟦283⟧⟨617⟩
+[Loan modification in the United States] ⟦577⟧⟨618⟩⟦209⟧⟨619⟩⟦253⟧⟨620⟩⟦628⟧⟨621⟩⟦718⟧⟨622⟩⟦519⟧⟨623⟩⟦661⟧⟨624⟩⟦63⟧⟨625⟩⟦519⟧⟨626⟩⟦482⟧⟨627⟩⟦211⟧⟨628⟩⟦360⟧⟨629⟩⟦478⟧⟨630⟩⟦411⟧⟨631⟩⟦439⟧⟨632⟩⟦122⟧⟨633⟩⟦122⟧⟨634⟩⟦90⟧⟨635⟩⟦90⟧⟨636⟩⟦305⟧⟨637⟩⟦519⟧⟨638⟩⟦708⟧⟨639⟩⟦90⟧⟨640⟩⟦631⟧⟨641⟩⟦424⟧⟨642⟩⟦466⟧⟨643⟩⟦102⟧⟨644⟩
+[Loan modification in the United States] ⟨645⟩⟦577⟧⟨646⟩⟦593⟧⟨647⟩⟦391⟧⟨648⟩⟦287⟧⟨649⟩⟦728⟧⟨650⟩⟦380⟧⟨651⟩⟦676⟧⟨652⟩⟦210⟧⟨653⟩
+[Loan modification in the United States] ⟦390⟧⟨654⟩⟦403⟧⟨655⟩⟦282⟧⟨656⟩⟦627⟧⟨657⟩⟦17⟧⟨658⟩⟦209⟧⟨659⟩⟦136⟧⟨660⟩⟦52⟧⟨661⟩⟦100⟧⟨662⟩⟦417⟧⟨663⟩⟦339⟧⟨664⟩⟦312⟧⟨665⟩⟦519⟧⟨666⟩⟦519⟧⟨667⟩⟦688⟧⟨668⟩⟦381⟧⟨669⟩
+[Loan modification in the United States] ⟦687⟧⟨670⟩⟦380⟧⟨671⟩⟦404⟧⟨672⟩⟦283⟧⟨673⟩⟦634⟧⟨674⟩⟦457⟧⟨675⟩⟦477⟧⟨676⟩⟦211⟧⟨677⟩⟦560⟧⟨678⟩⟦129⟧⟨679⟩⟦640⟧⟨680⟩⟦340⟧⟨681⟩⟦388⟧⟨682⟩⟦388⟧⟨683⟩⟦430⟧⟨684⟩⟦430⟧⟨685⟩⟦737⟧⟨686⟩⟦354⟧⟨687⟩⟦283⟧⟨688⟩⟦99⟧⟨689⟩⟦339⟧⟨690⟩⟦460⟧⟨691⟩⟦222⟧⟨692⟩⟦380⟧⟨693⟩⟦627⟧⟨694⟩⟦403⟧⟨695⟩⟦282⟧⟨696⟩⟦676⟧⟨697⟩⟦210⟧⟨698⟩⟦209⟧⟨699⟩⟦209⟧⟨700⟩⟦159⟧⟨701⟩⟦159⟧⟨702⟩⟦111⟧⟨703⟩⟦111⟧⟨704⟩⟦380⟧⟨705⟩⟦380⟧⟨706⟩⟦481⟧⟨707⟩⟦522⟧⟨708⟩⟦219⟧⟨709⟩⟦219⟧⟨710⟩⟦619⟧⟨711⟩⟦380⟧⟨712⟩⟦627⟧⟨713⟩
+[Loan modification in the United States] ⟦356⟧⟨714⟩⟦377⟧⟨715⟩⟦661⟧⟨716⟩⟦551⟧⟨717⟩⟦598⟧⟨718⟩⟦723⟧⟨719⟩⟦135⟧⟨720⟩⟦134⟧⟨721⟩⟦324⟧⟨722⟩⟦134⟧⟨723⟩⟦415⟧⟨724⟩⟦167⟧⟨725⟩⟦371⟧⟨726⟩
+[Loan modification in the United States] ⟦604⟧⟨727⟩⟦328⟧⟨728⟩⟦567⟧⟨729⟩⟦173⟧⟨730⟩⟦596⟧⟨731⟩⟦611⟧⟨732⟩⟦349⟧⟨733⟩⟦460⟧⟨734⟩⟦601⟧⟨735⟩⟦307⟧⟨736⟩⟦380⟧⟨737⟩⟦380⟧⟨738⟩⟦628⟧⟨739⟩⟦403⟧⟨740⟩⟦283⟧⟨741⟩
+[Loan modification in the United States] ⟦599⟧⟨742⟩⟦44⟧⟨743⟩⟦452⟧⟨744⟩⟦339⟧⟨745⟩⟦524⟧⟨746⟩⟦680⟧⟨747⟩⟦519⟧⟨748⟩⟦600⟧⟨749⟩⟦301⟧⟨750⟩⟦97⟧⟨751⟩⟦98⟧⟨752⟩⟦388⟧⟨753⟩⟦297⟧⟨754⟩⟦45⟧⟨755⟩⟦554⟧⟨756⟩⟦76⟧⟨757⟩⟦567⟧⟨758⟩⟦173⟧⟨759⟩⟦2⟧⟨760⟩⟦274⟧⟨761⟩⟦315⟧⟨762⟩⟦155⟧⟨763⟩⟦223⟧⟨764⟩⟦142⟧⟨765⟩⟦359⟧⟨766⟩⟦295⟧⟨767⟩⟦582⟧⟨768⟩⟦176⟧⟨769⟩⟦195⟧⟨770⟩⟦156⟧⟨771⟩⟦157⟧⟨772⟩⟦177⟧⟨773⟩⟦488⟧⟨774⟩⟦326⟧⟨775⟩⟦327⟧⟨776⟩⟦519⟧⟨777⟩⟦694⟧⟨778⟩⟦695⟧⟨779⟩⟦150⟧⟨780⟩⟦305⟧⟨781⟩⟦519⟧⟨782⟩⟦336⟧⟨783⟩⟦519⟧⟨784⟩⟦421⟧⟨785⟩⟦421⟧⟨786⟩⟦255⟧⟨787⟩⟦197⟧⟨788⟩⟦429⟧⟨789⟩⟦429⟧⟨790⟩⟦106⟧⟨791⟩⟦106⟧⟨792⟩⟦403⟧⟨793⟩⟦404⟧⟨794⟩⟦283⟧⟨795⟩⟦620⟧⟨796⟩⟦380⟧⟨797⟩⟦403⟧⟨798⟩⟦283⟧⟨799⟩⟦420⟧⟨800⟩⟦724⟧⟨801⟩⟦198⟧⟨802⟩⟦53⟧⟨803⟩⟦215⟧⟨804⟩⟦215⟧⟨805⟩⟦292⟧⟨806⟩⟦292⟧⟨807⟩⟦35⟧⟨808⟩⟦136⟧⟨809⟩⟦266⟧⟨810⟩⟦408⟧⟨811⟩⟦258⟧⟨812⟩⟦288⟧⟨813⟩
+[Loan modification in the United States] ⟨814⟩⟦530⟧⟨815⟩⟦44⟧⟨816⟩
+[Loan modification in the United States] ⟦377⟧⟨817⟩⟦629⟧⟨818⟩⟦405⟧⟨819⟩⟦465⟧⟨820⟩⟦307⟧⟨821⟩⟦210⟧⟨822⟩⟦210⟧⟨823⟩⟦538⟧⟨824⟩⟦539⟧⟨825⟩⟦227⟧⟨826⟩⟦519⟧⟨827⟩⟦519⟧⟨828⟩⟦398⟧⟨829⟩⟦486⟧⟨830⟩
+[Loan modification in the United States] ⟦366⟧⟨831⟩⟦430⟧⟨832⟩⟦717⟧⟨833⟩⟦77⟧⟨834⟩⟦483⟧⟨835⟩⟦484⟧⟨836⟩⟦211⟧⟨837⟩⟦682⟧⟨838⟩⟦44⟧⟨839⟩⟦416⟧⟨840⟩⟦44⟧⟨841⟩⟦33⟧⟨842⟩⟦375⟧⟨843⟩
+[Loan modification in the United States] ⟦49⟧⟨844⟩⟦581⟧⟨845⟩⟦220⟧⟨846⟩⟦300⟧⟨847⟩⟦383⟧⟨848⟩⟦133⟧⟨849⟩⟦230⟧⟨850⟩⟦257⟧⟨851⟩⟦186⟧⟨852⟩⟦693⟧⟨853⟩⟦693⟧⟨854⟩⟦230⟧⟨855⟩⟦230⟧⟨856⟩⟦256⟧⟨857⟩⟦388⟧⟨858⟩⟦337⟧⟨859⟩⟦338⟧⟨860⟩⟦519⟧⟨861⟩⟦90⟧⟨862⟩⟦90⟧⟨863⟩⟦122⟧⟨864⟩⟦122⟧⟨865⟩⟦639⟧⟨866⟩⟦603⟧⟨867⟩⟦318⟧⟨868⟩⟦479⟧⟨869⟩⟦211⟧⟨870⟩⟦544⟧⟨871⟩⟦712⟧⟨872⟩⟦164⟧⟨873⟩⟦165⟧⟨874⟩⟦331⟧⟨875⟩⟦335⟧⟨876⟩⟦447⟧⟨877⟩⟦148⟧⟨878⟩⟦148⟧⟨879⟩⟦627⟧⟨880⟩⟦528⟧⟨881⟩⟦445⟧⟨882⟩⟦214⟧⟨883⟩⟦214⟧⟨884⟩⟦621⟧⟨885⟩⟦637⟧⟨886⟩⟦472⟧⟨887⟩⟦634⟧⟨888⟩⟦457⟧⟨889⟩⟦253⟧⟨890⟩⟦253⟧⟨891⟩⟦287⟧⟨892⟩⟦685⟧⟨893⟩⟦381⟧⟨894⟩⟦404⟧⟨895⟩⟦283⟧⟨896⟩⟦98⟧⟨897⟩⟦388⟧⟨898⟩⟦358⟧⟨899⟩⟦358⟧⟨900⟩⟦651⟧⟨901⟩⟦519⟧⟨902⟩⟦641⟧⟨903⟩⟦595⟧⟨904⟩⟦289⟧⟨905⟩⟦580⟧⟨906⟩⟦216⟧⟨907⟩⟦609⟧⟨908⟩⟦349⟧⟨909⟩⟦283⟧⟨910⟩⟦410⟧⟨911⟩⟦410⟧⟨912⟩⟦298⟧⟨913⟩⟦702⟧⟨914⟩⟦594⟧⟨915⟩⟦287⟧⟨916⟩⟦260⟧⟨917⟩
+[Loan modification in the United States] ⟨918⟩⟦531⟧⟨919⟩⟦502⟧⟨920⟩⟦377⟧⟨921⟩⟦377⟧⟨922⟩
+[Loan modification in the United States] ⟦614⟧⟨923⟩⟦367⟧⟨924⟩⟦162⟧⟨925⟩⟦163⟧⟨926⟩⟦296⟧⟨927⟩⟦296⟧⟨928⟩⟦296⟧⟨929⟩⟦479⟧⟨930⟩⟦211⟧⟨931⟩⟦544⟧⟨932⟩⟦296⟧⟨933⟩⟦710⟧⟨934⟩⟦263⟧⟨935⟩⟦519⟧⟨936⟩⟦519⟧⟨937⟩⟦480⟧⟨938⟩⟦212⟧⟨939⟩⟦77⟧⟨940⟩⟦77⟧⟨941⟩⟦544⟧⟨942⟩⟦544⟧⟨943⟩⟦736⟧⟨944⟩⟦160⟧⟨945⟩⟦162⟧⟨946⟩⟦128⟧⟨947⟩⟦128⟧⟨948⟩⟦288⟧⟨949⟩⟦288⟧⟨950⟩⟦665⟧⟨951⟩⟦325⟧⟨952⟩⟦453⟧⟨953⟩⟦316⟧⟨954⟩⟦377⟧⟨955⟩⟦686⟧⟨956⟩⟦463⟧⟨957⟩⟦484⟧⟨958⟩
+[Loan modification in the United States] ⟨959⟩⟦276⟧⟨960⟩⟦273⟧⟨961⟩⟦377⟧⟨962⟩⟦666⟧⟨963⟩⟦720⟧⟨964⟩⟦404⟧⟨965⟩
+[Loan modification in the United States] ⟨966⟩⟦555⟧⟨967⟩⟦103⟧⟨968⟩⟦714⟧⟨969⟩⟦29⟧⟨970⟩⟦709⟧⟨971⟩⟦66⟧⟨972⟩⟦325⟧⟨973⟩⟦162⟧⟨974⟩⟦162⟧⟨975⟩
+[Loan modification in the United States] ⟨976⟩⟦384⟧⟨977⟩⟦46⟧⟨978⟩⟦650⟧⟨979⟩⟦515⟧⟨980⟩⟦675⟧⟨981⟩⟦446⟧⟨982⟩⟦652⟧⟨983⟩⟦522⟧⟨984⟩
+[Loan modification in the United States] ⟦334⟧⟨985⟩⟦43⟧⟨986⟩⟦306⟧⟨987⟩⟦306⟧⟨988⟩⟦529⟧⟨989⟩⟦124⟧⟨990⟩⟦446⟧⟨991⟩⟦523⟧⟨992⟩⟦331⟧⟨993⟩⟦225⟧⟨994⟩⟦448⟧⟨995⟩⟦449⟧⟨996⟩⟦127⟧⟨997⟩⟦636⟧⟨998⟩⟦467⟧⟨999⟩
+[Loan modification in the United States] ⟨1000⟩⟦69⟧⟨1001⟩⟦89⟧⟨1002⟩⟦101⟧⟨1003⟩⟦519⟧⟨1004⟩⟦544⟧⟨1005⟩⟦544⟧⟨1006⟩⟦34⟧⟨1007⟩⟦383⟧⟨1008⟩⟦339⟧⟨1009⟩⟦341⟧⟨1010⟩⟦460⟧⟨1011⟩⟦18⟧⟨1012⟩⟦97⟧⟨1013⟩⟦70⟧⟨1014⟩⟦200⟧⟨1015⟩⟦285⟧⟨1016⟩⟦286⟧⟨1017⟩⟦250⟧⟨1018⟩⟦299⟧⟨1019⟩⟦156⟧⟨1020⟩⟦254⟧⟨1021⟩⟦402⟧⟨1022⟩⟦267⟧⟨1023⟩⟦472⟧⟨1024⟩⟦472⟧⟨1025⟩⟦189⟧⟨1026⟩⟦189⟧⟨1027⟩⟦33⟧⟨1028⟩⟦375⟧⟨1029⟩
+[Loan modification in the United States] ⟦376⟧⟨1030⟩⟦424⟧⟨1031⟩⟦662⟧⟨1032⟩⟦293⟧⟨1033⟩⟦664⟧⟨1034⟩⟦454⟧⟨1035⟩⟦342⟧⟨1036⟩⟦404⟧⟨1037⟩⟦689⟧⟨1038⟩⟦190⟧⟨1039⟩⟦572⟧⟨1040⟩⟦459⟧⟨1041⟩⟦677⟧⟨1042⟩⟦288⟧⟨1043⟩⟦218⟧⟨1044⟩⟦218⟧⟨1045⟩
+[Loan modification in the United States] ⟦691⟧⟨1046⟩⟦107⟧⟨1047⟩⟦377⟧⟨1048⟩
+[Loan modification in the United States] ⟨1049⟩⟦183⟧⟨1050⟩⟦183⟧⟨1051⟩⟦145⟧⟨1052⟩⟦145⟧⟨1053⟩⟦205⟧⟨1054⟩⟦205⟧⟨1055⟩⟦215⟧⟨1056⟩⟦215⟧⟨1057⟩⟦403⟧⟨1058⟩⟦404⟧⟨1059⟩⟦283⟧⟨1060⟩⟦616⟧⟨1061⟩⟦572⟧⟨1062⟩⟦84⟧⟨1063⟩⟦84⟧⟨1064⟩
+[Loan modification in the United States] ⟦224⟧⟨1065⟩⟦215⟧⟨1066⟩⟦215⟧⟨1067⟩
+[Loan modification in the United States] ⟦378⟧⟨1068⟩⟦283⟧⟨1069⟩⟦283⟧⟨1070⟩⟦325⟧⟨1071⟩⟦490⟧⟨1072⟩⟦383⟧⟨1073⟩⟦544⟧⟨1074⟩⟦544⟧⟨1075⟩
+[Loan modification in the United States] ⟦375⟧⟨1076⟩⟦383⟧⟨1077⟩⟦387⟧⟨1078⟩⟦544⟧⟨1079⟩⟦317⟧⟨1080⟩⟦519⟧⟨1081⟩⟦569⟧⟨1082⟩⟦178⟧⟨1083⟩⟦590⟧⟨1084⟩⟦541⟧⟨1085⟩⟦661⟧⟨1086⟩⟦625⟧⟨1087⟩⟦461⟧⟨1088⟩⟦287⟧⟨1089⟩⟦287⟧⟨1090⟩⟦721⟧⟨1091⟩⟦721⟧⟨1092⟩⟦451⟧⟨1093⟩⟦339⟧⟨1094⟩⟦446⟧⟨1095⟩⟦711⟧⟨1096⟩⟦519⟧⟨1097⟩⟦122⟧⟨1098⟩⟦122⟧⟨1099⟩⟦90⟧⟨1100⟩⟦90⟧⟨1101⟩⟦337⟧⟨1102⟩⟦337⟧⟨1103⟩⟦567⟧⟨1104⟩⟦173⟧⟨1105⟩
+[Flextime] ⟦246⟧⟨1106⟩⟦246⟧⟨1107⟩⟦244⟧⟨1108⟩⟦117⟧⟨1109⟩⟦240⟧⟨1110⟩⟦692⟧⟨1111⟩⟦24⟧⟨1112⟩⟦291⟧⟨1113⟩⟦503⟧⟨1114⟩⟦733⟧⟨1115⟩⟦733⟧⟨1116⟩⟦731⟧⟨1117⟩⟦732⟧⟨1118⟩⟦521⟧⟨1119⟩⟦235⟧⟨1120⟩⟦693⟧⟨1121⟩⟦693⟧⟨1122⟩
+[Flextime] ⟨1123⟩⟦166⟧⟨1124⟩⟦166⟧⟨1125⟩⟦699⟧⟨1126⟩⟦730⟧⟨1127⟩⟦82⟧⟨1128⟩⟦203⟧⟨1129⟩⟦203⟧⟨1130⟩⟦41⟧⟨1131⟩⟦13⟧⟨1132⟩⟦425⟧⟨1133⟩⟦184⟧⟨1134⟩⟦246⟧⟨1135⟩⟦246⟧⟨1136⟩⟦15⟧⟨1137⟩⟦169⟧⟨1138⟩⟦431⟧⟨1139⟩⟦571⟧⟨1140⟩⟦184⟧⟨1141⟩⟦203⟧⟨1142⟩⟦203⟧⟨1143⟩⟦730⟧⟨1144⟩⟦730⟧⟨1145⟩⟦3⟧⟨1146⟩⟦41⟧⟨1147⟩⟦11⟧⟨1148⟩⟦425⟧⟨1149⟩⟦14⟧⟨1150⟩⟦431⟧⟨1151⟩⟦62⟧⟨1152⟩⟦291⟧⟨1153⟩⟦41⟧⟨1154⟩
+[Flextime] ⟦670⟧⟨1155⟩⟦184⟧⟨1156⟩⟦548⟧⟨1157⟩⟦169⟧⟨1158⟩⟦431⟧⟨1159⟩⟦242⟧⟨1160⟩⟦692⟧⟨1161⟩⟦203⟧⟨1162⟩⟦203⟧⟨1163⟩⟦697⟧⟨1164⟩⟦291⟧⟨1165⟩⟦547⟧⟨1166⟩⟦431⟧⟨1167⟩⟦204⟧⟨1168⟩⟦204⟧⟨1169⟩⟦624⟧⟨1170⟩⟦730⟧⟨1171⟩
+[Flextime] ⟦659⟧⟨1172⟩⟦734⟧⟨1173⟩⟦692⟧⟨1174⟩⟦203⟧⟨1175⟩⟦203⟧⟨1176⟩⟦246⟧⟨1177⟩⟦247⟧⟨1178⟩⟦504⟧⟨1179⟩⟦700⟧⟨1180⟩⟦730⟧⟨1181⟩⟦504⟧⟨1182⟩
+[Flextime] ⟦26⟧⟨1183⟩⟦246⟧⟨1184⟩⟦440⟧⟨1185⟩⟦519⟧⟨1186⟩⟦519⟧⟨1187⟩⟦25⟧⟨1188⟩⟦245⟧⟨1189⟩⟦440⟧⟨1190⟩⟦519⟧⟨1191⟩⟦519⟧⟨1192⟩
+[Flextime] ⟦51⟧⟨1193⟩⟦51⟧⟨1194⟩⟦203⟧⟨1195⟩⟦203⟧⟨1196⟩⟦681⟧⟨1197⟩⟦730⟧⟨1198⟩⟦291⟧⟨1199⟩⟦470⟧⟨1200⟩⟦704⟧⟨1201⟩⟦504⟧⟨1202⟩⟦645⟧⟨1203⟩⟦504⟧⟨1204⟩⟦674⟧⟨1205⟩⟦140⟧⟨1206⟩⟦181⟧⟨1207⟩⟦701⟧⟨1208⟩⟦428⟧⟨1209⟩⟦280⟧⟨1210⟩⟦161⟧⟨1211⟩⟦693⟧⟨1212⟩⟦499⟧⟨1213⟩⟦500⟧⟨1214⟩⟦290⟧⟨1215⟩
+[Flextime] ⟨1216⟩⟦143⟧⟨1217⟩⟦243⟧⟨1218⟩⟦734⟧⟨1219⟩⟦623⟧⟨1220⟩⟦395⟧⟨1221⟩⟦668⟧⟨1222⟩⟦725⟧⟨1223⟩
+
+[user]
+
+问题：
+How many total staff (including part-time, flexible, and fixed contract staff) does the broadcaster, who released HyperNormalisation, employ?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,82 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Seth Harris] ⟦201⟧⟨294⟩⟦215⟧⟨295⟩⟨296⟩⟦203⟧⟦142⟧⟨297⟩⟨298⟩⟦221⟧⟨299⟩⟨300⟩⟨301⟩⟨302⟩⟦170⟧⟨303⟩
+[Seth Harris] ⟨304⟩⟦173⟧⟨305⟩⟨306⟩⟨307⟩⟨308⟩⟦136⟧⟨309⟩⟦19⟧⟨310⟩⟨311⟩⟦253⟧⟦188⟧⟨312⟩⟨313⟩⟦102⟧⟨314⟩⟨315⟩
+[Seth Harris] ⟦117⟧
+[Seth Harris] ⟦10⟧ | ⟦93⟧
+[W.A. Barrows] ⟦84⟧⟦264⟧
+[W.A. Barrows] ⟦138⟧
+[United States Deputy Secretary of Labor] ⟦119⟧⟦119⟧ | ⟦119⟧
+
+符号表：
+⟦10⟧ = a member
+⟦19⟧ = Acting Secretary
+⟦84⟧ = February
+⟦93⟧ = Harris
+⟦102⟧ = Hilda Solis
+⟦117⟧ = January
+⟦119⟧ = Labor
+⟦136⟧ = May
+⟦138⟧ = member
+⟦142⟧ = months
+⟦170⟧ = President Barack Obama's Cabinet
+⟦173⟧ = President Obama
+⟦188⟧ = resignation
+⟦201⟧ = Seth D. Harris
+⟦203⟧ = six months
+⟦215⟧ = the 11th United States Deputy Secretary
+⟦221⟧ = the Acting U.S. Secretary
+⟦253⟧ = the resignation
+⟦264⟧ = the U.S. Senate
+
+占位符映射：
+⟨294⟩ =  (born October 12, 1962) was 
+⟨295⟩ =  of 
+⟨296⟩ = , and served for 
+⟨297⟩ = 
+⟨298⟩ =  as 
+⟨299⟩ =  of 
+⟨300⟩ =  and 
+⟨301⟩ = 
+⟨302⟩ =  of 
+⟨303⟩ = .
+⟨304⟩ =  Nominated by 
+⟨305⟩ =  in 
+⟨306⟩ =  2009, 
+⟨307⟩ =  was unanimously confirmed by 
+⟨308⟩ =  in 
+⟨309⟩ =  2009, and became 
+⟨310⟩ =  of 
+⟨311⟩ =  following 
+⟨312⟩ = 
+⟨313⟩ =  of 
+⟨314⟩ =  in 
+⟨315⟩ =  2013.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who was President of the United States when Jennifer Hunt served under Secretary of Labor Seth Harris?

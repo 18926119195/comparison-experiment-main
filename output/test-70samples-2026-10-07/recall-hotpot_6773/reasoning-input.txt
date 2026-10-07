@@ -1,0 +1,94 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Aspidistra] ⟨1⟩⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟨6⟩⟨7⟩⟦49⟧⟨8⟩⟦242⟧⟨9⟩⟦90⟧⟨10⟩⟦197⟧⟨11⟩⟦323⟧⟨12⟩
+[Aspidistra] ⟦50⟧
+[Arbutus] ⟦19⟧⟦118⟧⟦104⟧⟦262⟧ | ⟦47⟧⟨443⟩⟦19⟧⟦118⟧⟨444⟩⟨445⟩⟦8⟧⟨446⟩⟨447⟩⟦104⟧⟨448⟩⟨449⟩⟦262⟧⟨450⟩⟨451⟩⟦94⟧⟨452⟩⟦329⟧⟦250⟧⟨454⟩⟦217⟧⟨453⟩⟨455⟩⟦271⟧⟨456⟩⟦331⟧⟨457⟩⟦258⟧⟨458⟩⟦251⟧⟨459⟩⟦184⟧⟨460⟩
+[Thorius munificus] ⟦99⟧ | ⟦99⟧
+[Thorius munificus] ⟦235⟧
+[False vivipary] ⟦207⟧ | ⟦207⟧
+
+符号表：
+⟦8⟧ = 11 accepted species
+⟦19⟧ = a genus
+⟦47⟧ = Arbutus
+⟦49⟧ = Asparagaceae
+⟦50⟧ = Aspidistra
+⟦90⟧ = eastern and southeastern Asia
+⟦94⟧ = Ericaceae
+⟦99⟧ = family
+⟦104⟧ = flowering plants
+⟦118⟧ = genus
+⟦184⟧ = North America
+⟦197⟧ = particularly China
+⟦207⟧ = plants
+⟦217⟧ = regions
+⟦235⟧ = species
+⟦242⟧ = subfamily Nolinoideae
+⟦250⟧ = temperate
+⟦251⟧ = Teneriffa
+⟦258⟧ = the Canary Islands
+⟦262⟧ = the family
+⟦271⟧ = the Mediterranean
+⟦323⟧ = Vietnam
+⟦329⟧ = warm temperate regions
+⟦331⟧ = western Europe
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  of 
+⟨4⟩ = 
+⟨5⟩ =  in 
+⟨6⟩ = 
+⟨7⟩ =  
+⟨8⟩ = , 
+⟨9⟩ = , native to 
+⟨10⟩ = , 
+⟨11⟩ =  and 
+⟨12⟩ = .
+⟨443⟩ =  is 
+⟨444⟩ = 
+⟨445⟩ =  of 
+⟨446⟩ = 
+⟨447⟩ =  of 
+⟨448⟩ = 
+⟨449⟩ =  in 
+⟨450⟩ = 
+⟨451⟩ =  
+⟨452⟩ = , native to 
+⟨453⟩ = 
+⟨454⟩ =  
+⟨455⟩ =  of 
+⟨456⟩ = , 
+⟨457⟩ = , 
+⟨458⟩ =  (
+⟨459⟩ = ) and 
+⟨460⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Arbutus and Aspidistra are what types of plants?

@@ -1,0 +1,245 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Citizen Kane
+⟦2⟧ = "NME
+⟦3⟧ = "The Drum
+⟦4⟧ = "The Four Feathers
+⟦5⟧ = "The Sand Pebbles
+⟦6⟧ = "The Sound
+⟦7⟧ = a 'Record
+⟦8⟧ = a 1932 British drama film
+⟦9⟧ = a 1933 British comedy film
+⟦10⟧ = a 1937 British adventure film
+⟦11⟧ = a 1938 British Technicolor film
+⟦12⟧ = a 1939 British Technicolor adventure film
+⟦13⟧ = a 1947 movie
+⟦14⟧ = a 1955 film adaptation
+⟦15⟧ = a fatal triangle
+⟦16⟧ = a frustrated wife
+⟦17⟧ = a Hungarian-born motion picture screenwriter
+⟦18⟧ = a man
+⟦19⟧ = a weak husband
+⟦20⟧ = A. E. W. Mason
+⟦21⟧ = A.E.W. Mason
+⟦22⟧ = Academy Awards
+⟦23⟧ = action
+⟦24⟧ = adaptation
+⟦25⟧ = adaptations
+⟦26⟧ = adventure
+⟦27⟧ = age
+⟦28⟧ = Alexander Korda
+⟦29⟧ = Alexander Korda's London Film Productions
+⟦30⟧ = an American film director
+⟦31⟧ = an English indie musician
+⟦32⟧ = Anthony Gibbs
+⟦33⟧ = Anthony Steel
+⟦34⟧ = Arthur Wimperis
+⟦35⟧ = Baxter Dury
+⟦36⟧ = Best Director
+⟦37⟧ = Best Film Editing
+⟦38⟧ = Best Picture
+⟦39⟧ = book
+⟦40⟧ = both "West Side Story
+⟦41⟧ = British East Africa
+⟦42⟧ = brother
+⟦43⟧ = C. Aubrey Smith
+⟦44⟧ = Cash
+⟦45⟧ = Christopher Lee
+⟦46⟧ = CinemaScope
+⟦47⟧ = comedy
+⟦48⟧ = composer
+⟦49⟧ = cover
+⟦50⟧ = cowardice
+⟦51⟧ = debut
+⟦52⟧ = Denham
+⟦53⟧ = director
+⟦54⟧ = director Zoltan Korda
+⟦55⟧ = Documentary filmmaker Robert J. Flaherty
+⟦56⟧ = drama
+⟦57⟧ = Drum
+⟦58⟧ = Drums
+⟦59⟧ = Editing
+⟦60⟧ = editor
+⟦61⟧ = Edmund Gwenn
+⟦62⟧ = Elephant Boy
+⟦63⟧ = Emlyn Williams
+⟦64⟧ = Feathers
+⟦65⟧ = film
+⟦66⟧ = film-making
+⟦67⟧ = filmmaker
+⟦68⟧ = footage
+⟦69⟧ = granddaughter
+⟦70⟧ = Gregory Peck
+⟦71⟧ = his brother
+⟦72⟧ = his film debut
+⟦73⟧ = his first film
+⟦74⟧ = Hollywood
+⟦75⟧ = Hungary
+⟦76⟧ = hunter
+⟦77⟧ = husband
+⟦78⟧ = Ian Carmichael
+⟦79⟧ = Ian Dury
+⟦80⟧ = Ian's LP "New Boots
+⟦81⟧ = India
+⟦82⟧ = indie
+⟦83⟧ = industry
+⟦84⟧ = James Robertson Justice
+⟦85⟧ = Joan Bennett
+⟦86⟧ = Joan Gardner
+⟦87⟧ = John Clements
+⟦88⟧ = June
+⟦89⟧ = June Duprez
+⟦90⟧ = Korda
+⟦91⟧ = Kosmo Korda Dury
+⟦92⟧ = Laurence Harvey
+⟦93⟧ = Leontine Sagan
+⟦94⟧ = line
+⟦95⟧ = location
+⟦96⟧ = London
+⟦97⟧ = making
+⟦98⟧ = man
+⟦99⟧ = Mary Ure
+⟦100⟧ = Maurice Braddell
+⟦101⟧ = Men
+⟦102⟧ = Michael Hordern
+⟦103⟧ = mother
+⟦104⟧ = motion
+⟦105⟧ = movie
+⟦106⟧ = music
+⟦107⟧ = musician
+⟦108⟧ = Mysore
+⟦109⟧ = name
+⟦110⟧ = novel
+⟦111⟧ = October
+⟦112⟧ = one son
+⟦113⟧ = Oscar Brown EP
+⟦114⟧ = Panties
+⟦115⟧ = picture
+⟦116⟧ = pieces
+⟦117⟧ = producer
+⟦118⟧ = Queen Victoria
+⟦119⟧ = Ralph Richardson
+⟦120⟧ = Raymond Massey
+⟦121⟧ = reign
+⟦122⟧ = remake
+⟦123⟧ = Robert Donat
+⟦124⟧ = Robert Donat's movie debut
+⟦125⟧ = Robert Earl Wise
+⟦126⟧ = Robert Preston
+⟦127⟧ = Roger Livesey
+⟦128⟧ = Rough Trade Records
+⟦129⟧ = Rudyard Kipling's "The Jungle Book
+⟦130⟧ = Sabu
+⟦131⟧ = Sabu Dastagir
+⟦132⟧ = scenes
+⟦133⟧ = school
+⟦134⟧ = screenwriter
+⟦135⟧ = September
+⟦136⟧ = Several pieces
+⟦137⟧ = shot
+⟦138⟧ = son
+⟦139⟧ = Storm
+⟦140⟧ = story
+⟦141⟧ = studios
+⟦142⟧ = Terence Young
+⟦143⟧ = the 1902 novel
+⟦144⟧ = the 1939 film version
+⟦145⟧ = the action scenes
+⟦146⟧ = the age
+⟦147⟧ = the American film industry
+⟦148⟧ = the Best Director Award
+⟦149⟧ = the book
+⟦150⟧ = The Drum
+⟦151⟧ = the earlier film
+⟦152⟧ = the Elephants
+⟦153⟧ = The film
+⟦154⟧ = The Four Feathers
+⟦155⟧ = the front cover
+⟦156⟧ = the granddaughter
+⟦157⟧ = the Indian footage
+⟦158⟧ = the London Films studios
+⟦159⟧ = The Macomber Affair
+⟦160⟧ = the Nile
+⟦161⟧ = the novel
+⟦162⟧ = the numerous film adaptations
+⟦163⟧ = the original composer Miklos Rozsa
+⟦164⟧ = the professional hunter
+⟦165⟧ = the reign
+⟦166⟧ = the same name
+⟦167⟧ = the son
+⟦168⟧ = the story
+⟦169⟧ = the Sudan
+⟦170⟧ = the U.S.
+⟦171⟧ = the United States
+⟦172⟧ = the Venice Film Festival
+⟦173⟧ = the Week
+⟦174⟧ = Tomorrow
+⟦175⟧ = Toomai
+⟦176⟧ = triangle
+⟦177⟧ = United Artists
+⟦178⟧ = Valerie Hobson
+⟦179⟧ = version
+⟦180⟧ = Wendy Barrie
+⟦181⟧ = whose mother
+⟦182⟧ = wife
+⟦183⟧ = year
+⟦184⟧ = Zoltan Korda
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Zoltan Korda] ⟦184⟧⟨1⟩⟦88⟧⟨2⟩⟦111⟧⟨3⟩⟦17⟧⟨4⟩⟦104⟧⟨5⟩⟦115⟧⟨6⟩⟦134⟧⟨7⟩⟦53⟧⟨8⟩⟦53⟧⟨9⟩⟦117⟧⟨10⟩⟦117⟧⟨11⟩
+[Zoltan Korda] ⟨12⟩⟦73⟧⟨13⟩⟦65⟧⟨14⟩⟦75⟧⟨15⟩⟦71⟧⟨16⟩⟦42⟧⟨17⟩⟦28⟧⟨18⟩⟦65⟧⟨19⟩⟦66⟧⟨20⟩⟦97⟧⟨21⟩⟦96⟧⟨22⟩
+[Zoltan Korda] ⟨23⟩⟦171⟧⟨24⟩⟦74⟧⟨25⟩⟦147⟧⟨26⟩⟦65⟧⟨27⟩⟦83⟧⟨28⟩
+[Baxter Dury] ⟦35⟧⟨29⟩⟦31⟧⟨30⟩⟦82⟧⟨31⟩⟦107⟧⟨32⟩⟦128⟧⟨33⟩
+[Baxter Dury] ⟨34⟩⟦167⟧⟨35⟩⟦138⟧⟨36⟩⟦79⟧⟨37⟩⟦183⟧⟨38⟩⟦155⟧⟨39⟩⟦49⟧⟨40⟩⟦80⟧⟨41⟩⟦114⟧⟨42⟩
+[Baxter Dury] ⟨43⟩⟦133⟧⟨44⟩⟦133⟧⟨45⟩⟦146⟧⟨46⟩⟦27⟧⟨47⟩
+[Baxter Dury] ⟨48⟩⟦7⟧⟨49⟩⟦173⟧⟨50⟩⟦2⟧⟨51⟩⟦113⟧⟨52⟩
+[Baxter Dury] ⟨53⟩⟦112⟧⟨54⟩⟦138⟧⟨55⟩⟦91⟧⟨56⟩⟦181⟧⟨57⟩⟦103⟧⟨58⟩⟦156⟧⟨59⟩⟦69⟧⟨60⟩⟦184⟧⟨61⟩
+[The Drum (1938 film)] ⟦150⟧⟨62⟩⟦170⟧⟨63⟩⟦58⟧⟨64⟩⟦11⟧⟨65⟩⟦65⟧⟨66⟩⟦149⟧⟨67⟩⟦39⟧⟨68⟩⟦3⟧⟨69⟩⟦57⟧⟨70⟩⟦20⟧⟨71⟩
+[The Drum (1938 film)] ⟦153⟧⟨72⟩⟦65⟧⟨73⟩⟦184⟧⟨74⟩⟦28⟧⟨75⟩
+[The Drum (1938 film)] ⟨76⟩⟦131⟧⟨77⟩⟦120⟧⟨78⟩⟦127⟧⟨79⟩⟦178⟧⟨80⟩
+[The Macomber Affair] ⟦159⟧⟨81⟩⟦13⟧⟨82⟩⟦105⟧⟨83⟩⟦41⟧⟨84⟩⟦15⟧⟨85⟩⟦176⟧⟨86⟩⟦16⟧⟨87⟩⟦182⟧⟨88⟩⟦19⟧⟨89⟩⟦77⟧⟨90⟩⟦164⟧⟨91⟩⟦76⟧⟨92⟩
+[The Macomber Affair] ⟦153⟧⟨93⟩⟦65⟧⟨94⟩⟦177⟧⟨95⟩⟦184⟧⟨96⟩⟦70⟧⟨97⟩⟦85⟧⟨98⟩⟦126⟧⟨99⟩
+[Elephant Boy (film)] ⟦62⟧⟨100⟩⟦10⟧⟨101⟩⟦26⟧⟨102⟩⟦65⟧⟨103⟩⟦130⟧⟨104⟩⟦72⟧⟨105⟩⟦65⟧⟨106⟩⟦51⟧⟨107⟩
+[Elephant Boy (film)] ⟦55⟧⟨108⟩⟦67⟧⟨109⟩⟦157⟧⟨110⟩⟦68⟧⟨111⟩⟦53⟧⟨112⟩⟦54⟧⟨113⟩⟦153⟧⟨114⟩⟦65⟧⟨115⟩⟦148⟧⟨116⟩⟦172⟧⟨117⟩
+[Elephant Boy (film)] ⟦153⟧⟨118⟩⟦65⟧⟨119⟩⟦158⟧⟨120⟩⟦141⟧⟨121⟩⟦52⟧⟨122⟩⟦108⟧⟨123⟩⟦81⟧⟨124⟩⟦168⟧⟨125⟩⟦140⟧⟨126⟩⟦175⟧⟨127⟩⟦152⟧⟨128⟩⟦129⟧⟨129⟩
+[The Four Feathers (1939 film)] ⟦154⟧⟨130⟩⟦64⟧⟨131⟩⟦12⟧⟨132⟩⟦26⟧⟨133⟩⟦65⟧⟨134⟩⟦184⟧⟨135⟩⟦87⟧⟨136⟩⟦119⟧⟨137⟩⟦89⟧⟨138⟩⟦43⟧⟨139⟩
+[The Four Feathers (1939 film)] ⟨140⟩⟦165⟧⟨141⟩⟦121⟧⟨142⟩⟦118⟧⟨143⟩⟦168⟧⟨144⟩⟦140⟧⟨145⟩⟦18⟧⟨146⟩⟦98⟧⟨147⟩⟦50⟧⟨148⟩⟦50⟧⟨149⟩
+[The Four Feathers (1939 film)] ⟨150⟩⟦162⟧⟨151⟩⟦65⟧⟨152⟩⟦25⟧⟨153⟩⟦143⟧⟨154⟩⟦110⟧⟨155⟩⟦166⟧⟨156⟩⟦109⟧⟨157⟩⟦21⟧⟨158⟩
+[Storm Over the Nile] ⟦139⟧⟨159⟩⟦139⟧⟨160⟩⟦160⟧⟨161⟩⟦14⟧⟨162⟩⟦65⟧⟨163⟩⟦24⟧⟨164⟩⟦161⟧⟨165⟩⟦110⟧⟨166⟩⟦4⟧⟨167⟩⟦64⟧⟨168⟩⟦142⟧⟨169⟩⟦184⟧⟨170⟩
+[Storm Over the Nile] ⟦153⟧⟨171⟩⟦65⟧⟨172⟩⟦68⟧⟨173⟩⟦68⟧⟨174⟩⟦145⟧⟨175⟩⟦23⟧⟨176⟩⟦132⟧⟨177⟩⟦144⟧⟨178⟩⟦65⟧⟨179⟩⟦179⟧⟨180⟩⟦46⟧⟨181⟩⟦137⟧⟨182⟩⟦137⟧⟨183⟩⟦137⟧⟨184⟩⟦94⟧⟨185⟩⟦94⟧⟨186⟩⟦94⟧⟨187⟩⟦122⟧⟨188⟩⟦151⟧⟨189⟩⟦65⟧⟨190⟩⟦90⟧⟨191⟩
+[Storm Over the Nile] ⟦136⟧⟨192⟩⟦116⟧⟨193⟩⟦106⟧⟨194⟩⟦106⟧⟨195⟩⟦163⟧⟨196⟩⟦48⟧⟨197⟩
+[Storm Over the Nile] ⟨198⟩⟦33⟧⟨199⟩⟦92⟧⟨200⟩⟦84⟧⟨201⟩⟦99⟧⟨202⟩⟦78⟧⟨203⟩⟦102⟧⟨204⟩⟦45⟧⟨205⟩
+[Storm Over the Nile] ⟦153⟧⟨206⟩⟦65⟧⟨207⟩⟦95⟧⟨208⟩⟦95⟧⟨209⟩⟦169⟧⟨210⟩
+[Men of Tomorrow] ⟦101⟧⟨211⟩⟦101⟧⟨212⟩⟦174⟧⟨213⟩⟦8⟧⟨214⟩⟦56⟧⟨215⟩⟦65⟧⟨216⟩⟦184⟧⟨217⟩⟦93⟧⟨218⟩⟦28⟧⟨219⟩⟦32⟧⟨220⟩⟦34⟧⟨221⟩
+[Men of Tomorrow] ⟨222⟩⟦100⟧⟨223⟩⟦86⟧⟨224⟩⟦63⟧⟨225⟩⟦124⟧⟨226⟩⟦105⟧⟨227⟩⟦51⟧⟨228⟩
+[Robert Wise] ⟦125⟧⟨229⟩⟦135⟧⟨230⟩⟦135⟧⟨231⟩⟦30⟧⟨232⟩⟦65⟧⟨233⟩⟦53⟧⟨234⟩⟦117⟧⟨235⟩⟦117⟧⟨236⟩⟦60⟧⟨237⟩⟦60⟧⟨238⟩
+[Robert Wise] ⟨239⟩⟦22⟧⟨240⟩⟦36⟧⟨241⟩⟦38⟧⟨242⟩⟦40⟧⟨243⟩⟦6⟧⟨244⟩⟦106⟧⟨245⟩⟦106⟧⟨246⟩
+[Robert Wise] ⟨247⟩⟦37⟧⟨248⟩⟦59⟧⟨249⟩⟦1⟧⟨250⟩⟦5⟧⟨251⟩⟦38⟧⟨252⟩
+[Cash (1933 film)] ⟦44⟧⟨253⟩⟦44⟧⟨254⟩⟦9⟧⟨255⟩⟦47⟧⟨256⟩⟦65⟧⟨257⟩⟦184⟧⟨258⟩⟦61⟧⟨259⟩⟦180⟧⟨260⟩⟦123⟧⟨261⟩
+[Cash (1933 film)] ⟨262⟩⟦29⟧⟨263⟩
+
+[user]
+
+问题：
+did Robert Wise have more award nominations than Zoltan Korda?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

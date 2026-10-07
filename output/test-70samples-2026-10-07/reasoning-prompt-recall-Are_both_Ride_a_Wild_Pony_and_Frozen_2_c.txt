@@ -1,0 +1,83 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Independence, Virginia] ⟦71⟧
+[Frozen 2] ⟦42⟧⟨67⟩⟨66⟩⟨68⟩⟦248⟧⟨69⟩⟦249⟧⟨70⟩
+[Frozen 2] ⟨71⟩ | ⟦23⟧⟦173⟧⟨72⟩⟨73⟩⟦193⟧⟨74⟩⟨75⟩
+[Preston Stutzman] ⟨76⟩
+[Shrek (franchise)] ⟦67⟧
+[Ride a Wild Pony] ⟦31⟧⟨219⟩⟦9⟧⟦85⟧⟨221⟩⟦36⟧⟨222⟩⟦89⟧⟨220⟩⟨223⟩⟦250⟧⟨224⟩⟦78⟧⟨225⟩⟦218⟧⟦218⟧⟦130⟧⟨226⟩⟨227⟩⟦1⟧⟨228⟩⟦117⟧⟨229⟩ | ⟦89⟧ | ⟦89⟧
+[Pony ride] ⟦65⟧
+
+符号表：
+⟦1⟧ = "A Sporting Proposition
+⟦9⟧ = a 1975 American-Australian family adventure film
+⟦23⟧ = a sequel
+⟦31⟧ = a Wild Pony
+⟦36⟧ = adventure
+⟦42⟧ = an upcoming American computer-animated film
+⟦65⟧ = circle
+⟦67⟧ = computer
+⟦71⟧ = county
+⟦78⟧ = Don Chaffey
+⟦85⟧ = family
+⟦89⟧ = film
+⟦117⟧ = James Aldridge
+⟦130⟧ = novel
+⟦173⟧ = sequel
+⟦193⟧ = the 2013 film
+⟦218⟧ = the novel
+⟦248⟧ = Walt Disney Animation Studios
+⟦249⟧ = Walt Disney Pictures
+⟦250⟧ = Walt Disney Productions
+
+占位符映射：
+⟨66⟩ = 
+⟨67⟩ = -animated 
+⟨68⟩ =  produced by 
+⟨69⟩ =  and will be released by 
+⟨70⟩ = .
+⟨71⟩ =  It is 
+⟨72⟩ = 
+⟨73⟩ =  to 
+⟨74⟩ = 
+⟨75⟩ = , "Frozen".
+⟨76⟩ =  is 
+⟨219⟩ =  is 
+⟨220⟩ = 
+⟨221⟩ =  
+⟨222⟩ =  
+⟨223⟩ =  produced by 
+⟨224⟩ = , directed by 
+⟨225⟩ =  and based on 
+⟨226⟩ = 
+⟨227⟩ =  
+⟨228⟩ = " by 
+⟨229⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Are both Ride a Wild Pony and Frozen 2 computer-animated films?

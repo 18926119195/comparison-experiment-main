@@ -1,0 +1,427 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "breeds
+⟦2⟧ = "German warmblood
+⟦3⟧ = ("le Grand
+⟦4⟧ = (bef
+⟦5⟧ = (ZfDP
+⟦6⟧ = [20 January/6 May
+⟦7⟧ = 18th
+⟦8⟧ = 19 September
+⟦9⟧ = 1st Earl
+⟦10⟧ = 2 July
+⟦11⟧ = 26 Italian provinces
+⟦12⟧ = 3556 stud book entries
+⟦13⟧ = a “performance test
+⟦14⟧ = a "true" breed
+⟦15⟧ = a breed
+⟦16⟧ = a closed stud book
+⟦17⟧ = a defined set
+⟦18⟧ = a genetic reservoir
+⟦19⟧ = a horse
+⟦20⟧ = a horse breed
+⟦21⟧ = a horse breeding farm
+⟦22⟧ = a knight
+⟦23⟧ = a law
+⟦24⟧ = a mix
+⟦25⟧ = a monastery
+⟦26⟧ = a notable Crusader
+⟦27⟧ = a participant
+⟦28⟧ = a plan
+⟦29⟧ = a recent study
+⟦30⟧ = a robust, hardy breed
+⟦31⟧ = a similar role
+⟦32⟧ = a singular standard
+⟦33⟧ = a sister
+⟦34⟧ = a sport horse
+⟦35⟧ = a sport pony
+⟦36⟧ = a stud book
+⟦37⟧ = a warmblood
+⟦38⟧ = a warmblood horse
+⟦39⟧ = adult
+⟦40⟧ = agriculture
+⟦41⟧ = Aleppo
+⟦42⟧ = all females
+⟦43⟧ = an equine breed
+⟦44⟧ = an interesting and useful thing
+⟦45⟧ = an open stud book
+⟦46⟧ = ancestors
+⟦47⟧ = Andalusia
+⟦48⟧ = Anglo Arabo Sardo
+⟦49⟧ = Anglo-Arabians
+⟦50⟧ = animal
+⟦51⟧ = Arabian
+⟦52⟧ = Arabian blood
+⟦53⟧ = Arabian horses
+⟦54⟧ = area
+⟦55⟧ = association
+⟦56⟧ = Bardi
+⟦57⟧ = Beatrix de Ramerupt
+⟦58⟧ = Bedouin tribes
+⟦59⟧ = bef
+⟦60⟧ = Bishop
+⟦61⟧ = blood
+⟦62⟧ = bloodlines
+⟦63⟧ = book
+⟦64⟧ = both breeds
+⟦65⟧ = breed
+⟦66⟧ = breeders
+⟦67⟧ = breeding
+⟦68⟧ = breeds
+⟦69⟧ = Catania
+⟦70⟧ = cavalry
+⟦71⟧ = cavalry horses
+⟦72⟧ = centuries
+⟦73⟧ = century
+⟦74⟧ = characteristics
+⟦75⟧ = Châteaudun
+⟦76⟧ = children
+⟦77⟧ = city
+⟦78⟧ = color
+⟦79⟧ = competition
+⟦80⟧ = Count
+⟦81⟧ = countries
+⟦82⟧ = country
+⟦83⟧ = Crabbet Park
+⟦84⟧ = creation
+⟦85⟧ = Cross
+⟦86⟧ = Crusader
+⟦87⟧ = daughter
+⟦88⟧ = day
+⟦89⟧ = de Jerez de la Frontera
+⟦90⟧ = depots
+⟦91⟧ = desert
+⟦92⟧ = difficult ground
+⟦93⟧ = disciplines
+⟦94⟧ = draft
+⟦95⟧ = draft horse
+⟦96⟧ = dressage
+⟦97⟧ = early 19th centuries
+⟦98⟧ = eastern Spain
+⟦99⟧ = emissaries
+⟦100⟧ = emphasis
+⟦101⟧ = en: “Oriental Purebred
+⟦102⟧ = England
+⟦103⟧ = English riding disciplines
+⟦104⟧ = entries
+⟦105⟧ = environment
+⟦106⟧ = equine
+⟦107⟧ = estate
+⟦108⟧ = eventing
+⟦109⟧ = Exeter
+⟦110⟧ = Exports
+⟦111⟧ = extinction
+⟦112⟧ = facilities
+⟦113⟧ = farm
+⟦114⟧ = females
+⟦115⟧ = foals
+⟦116⟧ = foundations
+⟦117⟧ = France
+⟦118⟧ = French and British pony breeds
+⟦119⟧ = genetic material
+⟦120⟧ = Geoffrey II
+⟦121⟧ = German Warmblood
+⟦122⟧ = Germany
+⟦123⟧ = goods
+⟦124⟧ = ground
+⟦125⟧ = hands
+⟦126⟧ = Hawise
+⟦127⟧ = heavy goods
+⟦128⟧ = Henry
+⟦129⟧ = Henry I
+⟦130⟧ = high quality Arabian horses
+⟦131⟧ = Hilduin IV
+⟦132⟧ = his creation
+⟦133⟧ = His mother
+⟦134⟧ = his wife
+⟦135⟧ = home
+⟦136⟧ = horse
+⟦137⟧ = horse breeding
+⟦138⟧ = horses
+⟦139⟧ = individual German warmblood types
+⟦140⟧ = intelligence
+⟦141⟧ = Italy
+⟦142⟧ = its home country
+⟦143⟧ = its name
+⟦144⟧ = January/6
+⟦145⟧ = John FitzGilbert
+⟦146⟧ = jumping
+⟦147⟧ = knight
+⟦148⟧ = La Trappe
+⟦149⟧ = Lady Anne
+⟦150⟧ = Lady Anne Blunt
+⟦151⟧ = Lady Anne's words
+⟦152⟧ = law
+⟦153⟧ = level
+⟦154⟧ = living horses
+⟦155⟧ = males
+⟦156⟧ = Maremmano, Salernitano and Persano horse
+⟦157⟧ = mares
+⟦158⟧ = material
+⟦159⟧ = Matilda
+⟦160⟧ = memory
+⟦161⟧ = Mesopotamia
+⟦162⟧ = Military Stud
+⟦163⟧ = mix
+⟦164⟧ = monastery
+⟦165⟧ = Montdidier
+⟦166⟧ = months
+⟦167⟧ = Mortagne
+⟦168⟧ = mother
+⟦169⟧ = mountain
+⟦170⟧ = multiple stallion depots
+⟦171⟧ = name
+⟦172⟧ = Navarre
+⟦173⟧ = need
+⟦174⟧ = number
+⟦175⟧ = numbers
+⟦176⟧ = Numerous stallions
+⟦177⟧ = origins
+⟦178⟧ = other countries
+⟦179⟧ = other European warmbloods
+⟦180⟧ = other warmblood types
+⟦181⟧ = Parma
+⟦182⟧ = part
+⟦183⟧ = participant
+⟦184⟧ = Patrick
+⟦185⟧ = Patrick’s sister
+⟦186⟧ = Perch
+⟦187⟧ = Perche
+⟦188⟧ = Percherons
+⟦189⟧ = performance
+⟦190⟧ = physical characteristics
+⟦191⟧ = plan
+⟦192⟧ = Poney Français de Selle
+⟦193⟧ = pony
+⟦194⟧ = pony breed
+⟦195⟧ = private horse breeders
+⟦196⟧ = progeny
+⟦197⟧ = province
+⟦198⟧ = provinces
+⟦199⟧ = PSO
+⟦200⟧ = purebred Andalusian horses
+⟦201⟧ = Puro Sangue Orientale
+⟦202⟧ = Purosangue Orientale
+⟦203⟧ = quality
+⟦204⟧ = region
+⟦205⟧ = registry
+⟦206⟧ = reservoir
+⟦207⟧ = riders
+⟦208⟧ = riding
+⟦209⟧ = rise
+⟦210⟧ = risk
+⟦211⟧ = river
+⟦212⟧ = role
+⟦213⟧ = Rotrou
+⟦214⟧ = Rotrou III
+⟦215⟧ = Rotrou IV
+⟦216⟧ = Royal Decree
+⟦217⟧ = said horses
+⟦218⟧ = Salisbury
+⟦219⟧ = Sella Italiano
+⟦220⟧ = service
+⟦221⟧ = set
+⟦222⟧ = several regional variations
+⟦223⟧ = show
+⟦224⟧ = show jumping
+⟦225⟧ = Sibilla de Chaworth
+⟦226⟧ = Sibyll
+⟦227⟧ = Sicily
+⟦228⟧ = sister
+⟦229⟧ = small horse
+⟦230⟧ = smaller adult riders
+⟦231⟧ = some males
+⟦232⟧ = son
+⟦233⟧ = Spain
+⟦234⟧ = sport
+⟦235⟧ = stagecoaches
+⟦236⟧ = stallion
+⟦237⟧ = stallions
+⟦238⟧ = standard
+⟦239⟧ = state
+⟦240⟧ = steep, rough terrain
+⟦241⟧ = stud
+⟦242⟧ = study
+⟦243⟧ = Sussex
+⟦244⟧ = Syria
+⟦245⟧ = term
+⟦246⟧ = terrain
+⟦247⟧ = test
+⟦248⟧ = the "Reconquista
+⟦249⟧ = the 17th century
+⟦250⟧ = the 20th century
+⟦251⟧ = the ancestors
+⟦252⟧ = the Apennines
+⟦253⟧ = the area
+⟦254⟧ = the Associazione Provinciale Allevatori
+⟦255⟧ = The Bardigiano
+⟦256⟧ = the best Arabian horses
+⟦257⟧ = the bloodlines
+⟦258⟧ = The breed
+⟦259⟧ = the breed registry
+⟦260⟧ = the British Riding Pony
+⟦261⟧ = the city
+⟦262⟧ = the Count
+⟦263⟧ = the country
+⟦264⟧ = The Crabbet Arabian Stud
+⟦265⟧ = the Crabbet Park Stud
+⟦266⟧ = the Emilia Romagna region
+⟦267⟧ = the first Arabian horses
+⟦268⟧ = the first purely Percheron stud book
+⟦269⟧ = the former Perche province
+⟦270⟧ = the foundations
+⟦271⟧ = The French Saddle Pony
+⟦272⟧ = the German riding pony
+⟦273⟧ = the horse
+⟦274⟧ = the Horses
+⟦275⟧ = the House
+⟦276⟧ = the Huisne river valley
+⟦277⟧ = the international level
+⟦278⟧ = the Italian Government
+⟦279⟧ = the Jerez de la Frontera area
+⟦280⟧ = the Kingdom
+⟦281⟧ = the large number
+⟦282⟧ = the late 18th
+⟦283⟧ = the late 19th century
+⟦284⟧ = the later Trappists
+⟦285⟧ = the Marshal
+⟦286⟧ = the military Spanish stud farm
+⟦287⟧ = The mountain environment
+⟦288⟧ = the nationwide German Horse Breeding Society
+⟦289⟧ = the new breed
+⟦290⟧ = the Perche
+⟦291⟧ = The Percheron
+⟦292⟧ = the Percheron breed
+⟦293⟧ = the performance test
+⟦294⟧ = the Poney de Croisement
+⟦295⟧ = the Poney Français de Selle
+⟦296⟧ = The progeny
+⟦297⟧ = the Pure Spanish Horse
+⟦298⟧ = The Purosangue Orientale
+⟦299⟧ = the regional animal breeders' association
+⟦300⟧ = the remnant indigenous Italian breeds
+⟦301⟧ = the Royal Remount Station
+⟦302⟧ = the service
+⟦303⟧ = the son
+⟦304⟧ = the state military stud farm
+⟦305⟧ = The stud book
+⟦306⟧ = the stud's emphasis
+⟦307⟧ = the surrounding area
+⟦308⟧ = the Thoroughbred
+⟦309⟧ = the town
+⟦310⟧ = The Trakehner
+⟦311⟧ = the umbrella term
+⟦312⟧ = the United States
+⟦313⟧ = the Valle del Ceno
+⟦314⟧ = the valley
+⟦315⟧ = the various warmblood horses
+⟦316⟧ = the Viscounts
+⟦317⟧ = the Yeguada Militar
+⟦318⟧ = their estate
+⟦319⟧ = their exact origins
+⟦320⟧ = their intelligence
+⟦321⟧ = these relatively large numbers
+⟦322⟧ = thing
+⟦323⟧ = Thoroughbred
+⟦324⟧ = three-day eventing
+⟦325⟧ = time
+⟦326⟧ = today
+⟦327⟧ = town
+⟦328⟧ = Trakehner
+⟦329⟧ = Trappists
+⟦330⟧ = tribes
+⟦331⟧ = Tudela
+⟦332⟧ = two facilities
+⟦333⟧ = types
+⟦334⟧ = umbrella
+⟦335⟧ = use
+⟦336⟧ = valley
+⟦337⟧ = variations
+⟦338⟧ = Walter
+⟦339⟧ = war
+⟦340⟧ = war horses
+⟦341⟧ = warmblood
+⟦342⟧ = warmbloods
+⟦343⟧ = western France
+⟦344⟧ = whose son
+⟦345⟧ = wife
+⟦346⟧ = Wilfrid
+⟦347⟧ = Wilfrid Scawen Blunt
+⟦348⟧ = willingness
+⟦349⟧ = words
+⟦350⟧ = Yeguada Militar de Jerez de la Frontera
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Rotrou IV, Count of Perche] ⟦215⟧⟨1⟩⟦80⟧⟨2⟩⟦187⟧⟨3⟩⟦232⟧⟨4⟩⟦232⟧⟨5⟩⟦214⟧⟨6⟩⟦80⟧⟨7⟩⟦187⟧⟨8⟩⟦126⟧⟨9⟩⟦87⟧⟨10⟩⟦87⟧⟨11⟩⟦338⟧⟨12⟩⟦218⟧⟨13⟩⟦225⟧⟨14⟩
+[Rotrou IV, Count of Perche] ⟦213⟧⟨15⟩⟦275⟧⟨16⟩⟦75⟧⟨17⟩⟦316⟧⟨18⟩⟦75⟧⟨19⟩
+[Rotrou IV, Count of Perche] ⟨20⟩⟦133⟧⟨21⟩⟦168⟧⟨22⟩⟦33⟧⟨23⟩⟦228⟧⟨24⟩⟦184⟧⟨25⟩⟦218⟧⟨26⟩⟦9⟧⟨27⟩⟦218⟧⟨28⟩
+[Rotrou IV, Count of Perche] ⟦185⟧⟨29⟩⟦228⟧⟨30⟩⟦226⟧⟨31⟩⟦145⟧⟨32⟩⟦285⟧⟨33⟩⟦274⟧⟨34⟩⟦344⟧⟨35⟩⟦232⟧⟨36⟩⟦128⟧⟨37⟩⟦60⟧⟨38⟩⟦109⟧⟨39⟩⟦22⟧⟨40⟩⟦147⟧⟨41⟩⟦302⟧⟨42⟩⟦220⟧⟨43⟩⟦213⟧⟨44⟩
+[Crabbet Arabian Stud] ⟦264⟧⟨45⟩⟦265⟧⟨46⟩⟦21⟧⟨47⟩⟦136⟧⟨48⟩⟦67⟧⟨49⟩⟦113⟧⟨50⟩⟦10⟧⟨51⟩⟦267⟧⟨52⟩⟦138⟧⟨53⟩⟦102⟧⟨54⟩⟦347⟧⟨55⟩⟦150⟧⟨56⟩⟦83⟧⟨57⟩⟦318⟧⟨58⟩⟦107⟧⟨59⟩⟦243⟧⟨60⟩
+[Crabbet Arabian Stud] ⟨61⟩⟦166⟧⟨62⟩⟦41⟧⟨63⟩⟦346⟧⟨64⟩⟦149⟧⟨65⟩⟦28⟧⟨66⟩⟦191⟧⟨67⟩⟦256⟧⟨68⟩⟦138⟧⟨69⟩⟦102⟧⟨70⟩
+[Crabbet Arabian Stud] ⟨71⟩⟦151⟧⟨72⟩⟦349⟧⟨73⟩⟦44⟧⟨74⟩⟦322⟧⟨75⟩
+[Rotrou III, Count of Perche] ⟦214⟧⟨76⟩⟦4⟧⟨77⟩⟦59⟧⟨78⟩
+[Rotrou III, Count of Perche] ⟨79⟩⟦6⟧⟨80⟩⟦144⟧⟨81⟩⟦3⟧⟨82⟩⟦262⟧⟨83⟩⟦187⟧⟨84⟩⟦167⟧⟨85⟩
+[Rotrou III, Count of Perche] ⟨86⟩⟦303⟧⟨87⟩⟦232⟧⟨88⟩⟦120⟧⟨89⟩⟦80⟧⟨90⟩⟦186⟧⟨91⟩⟦57⟧⟨92⟩⟦87⟧⟨93⟩⟦87⟧⟨94⟩⟦131⟧⟨95⟩⟦80⟧⟨96⟩⟦165⟧⟨97⟩
+[Rotrou III, Count of Perche] ⟨98⟩⟦26⟧⟨99⟩⟦86⟧⟨100⟩⟦27⟧⟨101⟩⟦183⟧⟨102⟩⟦248⟧⟨103⟩⟦98⟧⟨104⟩⟦261⟧⟨105⟩⟦77⟧⟨106⟩⟦331⟧⟨107⟩⟦172⟧⟨108⟩
+[Rotrou III, Count of Perche] ⟨109⟩⟦53⟧⟨110⟩⟦138⟧⟨111⟩⟦290⟧⟨112⟩⟦209⟧⟨113⟩⟦209⟧⟨114⟩⟦292⟧⟨115⟩⟦65⟧⟨116⟩
+[Rotrou III, Count of Perche] ⟨117⟩⟦132⟧⟨118⟩⟦84⟧⟨119⟩⟦25⟧⟨120⟩⟦164⟧⟨121⟩⟦148⟧⟨122⟩⟦160⟧⟨123⟩⟦160⟧⟨124⟩⟦134⟧⟨125⟩⟦345⟧⟨126⟩⟦159⟧⟨127⟩⟦87⟧⟨128⟩⟦87⟧⟨129⟩⟦129⟧⟨130⟩⟦102⟧⟨131⟩⟦270⟧⟨132⟩⟦116⟧⟨133⟩⟦284⟧⟨134⟩⟦329⟧⟨135⟩
+[German Warmblood] ⟦121⟧⟨136⟩⟦315⟧⟨137⟩⟦341⟧⟨138⟩⟦138⟧⟨139⟩⟦122⟧⟨140⟩⟦37⟧⟨141⟩⟦341⟧⟨142⟩⟦288⟧⟨143⟩⟦5⟧⟨144⟩
+[German Warmblood] ⟨145⟩⟦311⟧⟨146⟩⟦334⟧⟨147⟩⟦245⟧⟨148⟩⟦2⟧⟨149⟩⟦341⟧⟨150⟩⟦222⟧⟨151⟩⟦337⟧⟨152⟩⟦32⟧⟨153⟩⟦238⟧⟨154⟩⟦139⟧⟨155⟩⟦341⟧⟨156⟩⟦333⟧⟨157⟩⟦1⟧⟨158⟩⟦68⟧⟨159⟩⟦45⟧⟨160⟩⟦241⟧⟨161⟩⟦63⟧⟨162⟩⟦119⟧⟨163⟩⟦158⟧⟨164⟩⟦180⟧⟨165⟩⟦341⟧⟨166⟩⟦333⟧⟨167⟩⟦49⟧⟨168⟩⟦68⟧⟨169⟩⟦68⟧⟨170⟩⟦308⟧⟨171⟩⟦51⟧⟨172⟩⟦328⟧⟨173⟩
+[German Warmblood] ⟨174⟩⟦310⟧⟨175⟩⟦38⟧⟨176⟩⟦341⟧⟨177⟩⟦136⟧⟨178⟩⟦122⟧⟨179⟩⟦16⟧⟨180⟩⟦241⟧⟨181⟩⟦63⟧⟨182⟩⟦308⟧⟨183⟩⟦51⟧⟨184⟩⟦14⟧⟨185⟩⟦65⟧⟨186⟩
+[Bardigiano] ⟦255⟧⟨187⟩⟦15⟧⟨188⟩⟦65⟧⟨189⟩⟦229⟧⟨190⟩⟦136⟧⟨191⟩⟦266⟧⟨192⟩⟦204⟧⟨193⟩⟦141⟧⟨194⟩
+[Bardigiano] ⟨195⟩⟦143⟧⟨196⟩⟦171⟧⟨197⟩⟦309⟧⟨198⟩⟦327⟧⟨199⟩⟦56⟧⟨200⟩⟦252⟧⟨201⟩⟦181⟧⟨202⟩⟦307⟧⟨203⟩⟦54⟧⟨204⟩⟦313⟧⟨205⟩
+[Bardigiano] ⟦287⟧⟨206⟩⟦169⟧⟨207⟩⟦105⟧⟨208⟩⟦240⟧⟨209⟩⟦246⟧⟨210⟩⟦253⟧⟨211⟩⟦54⟧⟨212⟩⟦30⟧⟨213⟩⟦65⟧⟨214⟩⟦92⟧⟨215⟩⟦124⟧⟨216⟩
+[Bardigiano] ⟨217⟩⟦231⟧⟨218⟩⟦155⟧⟨219⟩⟦42⟧⟨220⟩⟦114⟧⟨221⟩⟦125⟧⟨222⟩⟦125⟧⟨223⟩⟦255⟧⟨224⟩⟦19⟧⟨225⟩⟦136⟧⟨226⟩⟦142⟧⟨227⟩⟦135⟧⟨228⟩⟦82⟧⟨229⟩
+[Bardigiano] ⟦305⟧⟨230⟩⟦241⟧⟨231⟩⟦63⟧⟨232⟩⟦254⟧⟨233⟩⟦299⟧⟨234⟩⟦50⟧⟨235⟩⟦66⟧⟨236⟩⟦55⟧⟨237⟩⟦181⟧⟨238⟩
+[Bardigiano] ⟦258⟧⟨239⟩⟦65⟧⟨240⟩⟦141⟧⟨241⟩⟦66⟧⟨242⟩⟦66⟧⟨243⟩⟦11⟧⟨244⟩⟦198⟧⟨245⟩⟦29⟧⟨246⟩⟦242⟧⟨247⟩⟦12⟧⟨248⟩⟦241⟧⟨249⟩⟦63⟧⟨250⟩⟦104⟧⟨251⟩⟦154⟧⟨252⟩⟦138⟧⟨253⟩
+[Bardigiano] ⟨254⟩⟦321⟧⟨255⟩⟦175⟧⟨256⟩⟦258⟧⟨257⟩⟦65⟧⟨258⟩⟦210⟧⟨259⟩⟦210⟧⟨260⟩⟦111⟧⟨261⟩⟦111⟧⟨262⟩
+[French Saddle Pony] ⟦271⟧⟨263⟩⟦295⟧⟨264⟩⟦194⟧⟨265⟩⟦65⟧⟨266⟩⟦35⟧⟨267⟩⟦234⟧⟨268⟩⟦193⟧⟨269⟩⟦76⟧⟨270⟩⟦76⟧⟨271⟩⟦230⟧⟨272⟩⟦39⟧⟨273⟩⟦207⟧⟨274⟩
+[French Saddle Pony] ⟨275⟩⟦294⟧⟨276⟩⟦85⟧⟨277⟩⟦36⟧⟨278⟩⟦241⟧⟨279⟩⟦63⟧⟨280⟩
+[French Saddle Pony] ⟨281⟩⟦305⟧⟨282⟩⟦63⟧⟨283⟩⟦258⟧⟨284⟩⟦65⟧⟨285⟩⟦192⟧⟨286⟩
+[French Saddle Pony] ⟦258⟧⟨287⟩⟦65⟧⟨288⟩⟦24⟧⟨289⟩⟦163⟧⟨290⟩⟦118⟧⟨291⟩⟦193⟧⟨292⟩⟦68⟧⟨293⟩⟦323⟧⟨294⟩⟦52⟧⟨295⟩⟦61⟧⟨296⟩⟦273⟧⟨297⟩⟦136⟧⟨298⟩⟦326⟧⟨299⟩
+[French Saddle Pony] ⟨300⟩⟦281⟧⟨301⟩⟦174⟧⟨302⟩⟦68⟧⟨303⟩⟦68⟧⟨304⟩⟦271⟧⟨305⟩⟦17⟧⟨306⟩⟦221⟧⟨307⟩⟦190⟧⟨308⟩⟦74⟧⟨309⟩⟦258⟧⟨310⟩⟦65⟧⟨311⟩⟦79⟧⟨312⟩⟦79⟧⟨313⟩⟦103⟧⟨314⟩⟦208⟧⟨315⟩⟦93⟧⟨316⟩⟦96⟧⟨317⟩⟦96⟧⟨318⟩⟦223⟧⟨319⟩⟦224⟧⟨320⟩⟦146⟧⟨321⟩⟦324⟧⟨322⟩⟦88⟧⟨323⟩⟦108⟧⟨324⟩
+[French Saddle Pony] ⟨325⟩⟦31⟧⟨326⟩⟦212⟧⟨327⟩⟦260⟧⟨328⟩⟦272⟧⟨329⟩⟦208⟧⟨330⟩⟦193⟧⟨331⟩
+[Purosangue Orientale] ⟦298⟧⟨332⟩⟦201⟧⟨333⟩⟦199⟧⟨334⟩⟦101⟧⟨335⟩⟦20⟧⟨336⟩⟦136⟧⟨337⟩⟦65⟧⟨338⟩⟦280⟧⟨339⟩⟦141⟧⟨340⟩⟦216⟧⟨341⟩⟦8⟧⟨342⟩⟦36⟧⟨343⟩⟦241⟧⟨344⟩⟦63⟧⟨345⟩⟦258⟧⟨346⟩⟦65⟧⟨347⟩
+[Purosangue Orientale] ⟨348⟩⟦278⟧⟨349⟩⟦99⟧⟨350⟩⟦99⟧⟨351⟩⟦244⟧⟨352⟩⟦161⟧⟨353⟩⟦91⟧⟨354⟩⟦91⟧⟨355⟩⟦53⟧⟨356⟩⟦138⟧⟨357⟩⟦58⟧⟨358⟩⟦330⟧⟨359⟩
+[Purosangue Orientale] ⟦176⟧⟨360⟩⟦237⟧⟨361⟩⟦157⟧⟨362⟩⟦157⟧⟨363⟩⟦227⟧⟨364⟩⟦301⟧⟨365⟩⟦69⟧⟨366⟩
+[Sella Italiano] ⟦219⟧⟨367⟩⟦43⟧⟨368⟩⟦106⟧⟨369⟩⟦65⟧⟨370⟩⟦141⟧⟨371⟩
+[Sella Italiano] ⟦278⟧⟨372⟩⟦23⟧⟨373⟩⟦152⟧⟨374⟩⟦36⟧⟨375⟩⟦241⟧⟨376⟩⟦63⟧⟨377⟩⟦289⟧⟨378⟩⟦65⟧⟨379⟩
+[Sella Italiano] ⟦258⟧⟨380⟩⟦65⟧⟨381⟩⟦300⟧⟨382⟩⟦68⟧⟨383⟩⟦156⟧⟨384⟩⟦136⟧⟨385⟩⟦48⟧⟨386⟩⟦202⟧⟨387⟩⟦51⟧⟨388⟩⟦323⟧⟨389⟩
+[Sella Italiano] ⟦296⟧⟨390⟩⟦196⟧⟨391⟩⟦217⟧⟨392⟩⟦138⟧⟨393⟩⟦219⟧⟨394⟩⟦13⟧⟨395⟩⟦189⟧⟨396⟩⟦247⟧⟨397⟩
+[Sella Italiano] ⟨398⟩⟦305⟧⟨399⟩⟦241⟧⟨400⟩⟦63⟧⟨401⟩⟦179⟧⟨402⟩⟦342⟧⟨403⟩⟦293⟧⟨404⟩⟦189⟧⟨405⟩⟦247⟧⟨406⟩⟦259⟧⟨407⟩⟦65⟧⟨408⟩⟦205⟧⟨409⟩
+[Sella Italiano] ⟦258⟧⟨410⟩⟦65⟧⟨411⟩⟦34⟧⟨412⟩⟦234⟧⟨413⟩⟦136⟧⟨414⟩⟦277⟧⟨415⟩⟦153⟧⟨416⟩
+[Yeguada Militar de Jerez de la Frontera] ⟦350⟧⟨417⟩⟦162⟧⟨418⟩⟦89⟧⟨419⟩⟦233⟧⟨420⟩⟦317⟧⟨421⟩⟦286⟧⟨422⟩⟦241⟧⟨423⟩⟦113⟧⟨424⟩⟦47⟧⟨425⟩⟦233⟧⟨426⟩⟦136⟧⟨427⟩⟦137⟧⟨428⟩⟦67⟧⟨429⟩⟦200⟧⟨430⟩⟦138⟧⟨431⟩⟦53⟧⟨432⟩⟦138⟧⟨433⟩⟦304⟧⟨434⟩⟦239⟧⟨435⟩⟦241⟧⟨436⟩⟦113⟧⟨437⟩
+[Yeguada Militar de Jerez de la Frontera] ⟨438⟩⟦250⟧⟨439⟩⟦73⟧⟨440⟩⟦173⟧⟨441⟩⟦173⟧⟨442⟩⟦70⟧⟨443⟩⟦71⟧⟨444⟩⟦138⟧⟨445⟩⟦306⟧⟨446⟩⟦241⟧⟨447⟩⟦100⟧⟨448⟩⟦18⟧⟨449⟩⟦206⟧⟨450⟩⟦257⟧⟨451⟩⟦62⟧⟨452⟩⟦297⟧⟨453⟩⟦130⟧⟨454⟩⟦203⟧⟨455⟩⟦138⟧⟨456⟩⟦237⟧⟨457⟩⟦237⟧⟨458⟩⟦64⟧⟨459⟩⟦68⟧⟨460⟩⟦195⟧⟨461⟩⟦136⟧⟨462⟩⟦66⟧⟨463⟩⟦274⟧⟨464⟩⟦138⟧⟨465⟩⟦233⟧⟨466⟩
+[Yeguada Militar de Jerez de la Frontera] ⟨467⟩⟦326⟧⟨468⟩⟦332⟧⟨469⟩⟦112⟧⟨470⟩⟦279⟧⟨471⟩⟦54⟧⟨472⟩⟦237⟧⟨473⟩⟦237⟧⟨474⟩⟦157⟧⟨475⟩⟦157⟧⟨476⟩⟦115⟧⟨477⟩⟦115⟧⟨478⟩⟦170⟧⟨479⟩⟦236⟧⟨480⟩⟦90⟧⟨481⟩⟦263⟧⟨482⟩⟦82⟧⟨483⟩
+[Percheron] ⟦291⟧⟨484⟩⟦15⟧⟨485⟩⟦65⟧⟨486⟩⟦94⟧⟨487⟩⟦95⟧⟨488⟩⟦136⟧⟨489⟩⟦276⟧⟨490⟩⟦211⟧⟨491⟩⟦336⟧⟨492⟩⟦343⟧⟨493⟩⟦182⟧⟨494⟩⟦182⟧⟨495⟩⟦269⟧⟨496⟩⟦197⟧⟨497⟩⟦258⟧⟨498⟩⟦65⟧⟨499⟩⟦143⟧⟨500⟩⟦171⟧⟨501⟩
+[Percheron] ⟨502⟩⟦78⟧⟨503⟩⟦78⟧⟨504⟩⟦188⟧⟨505⟩⟦188⟧⟨506⟩⟦320⟧⟨507⟩⟦140⟧⟨508⟩⟦348⟧⟨509⟩⟦348⟧⟨510⟩
+[Percheron] ⟨511⟩⟦319⟧⟨512⟩⟦177⟧⟨513⟩⟦251⟧⟨514⟩⟦46⟧⟨515⟩⟦258⟧⟨516⟩⟦65⟧⟨517⟩⟦314⟧⟨518⟩⟦336⟧⟨519⟩⟦249⟧⟨520⟩⟦73⟧⟨521⟩
+[Percheron] ⟨522⟩⟦335⟧⟨523⟩⟦335⟧⟨524⟩⟦339⟧⟨525⟩⟦340⟧⟨526⟩⟦138⟧⟨527⟩⟦325⟧⟨528⟩⟦325⟧⟨529⟩⟦235⟧⟨530⟩⟦235⟧⟨531⟩⟦40⟧⟨532⟩⟦40⟧⟨533⟩⟦127⟧⟨534⟩⟦123⟧⟨535⟩
+[Percheron] ⟨536⟩⟦282⟧⟨537⟩⟦7⟧⟨538⟩⟦97⟧⟨539⟩⟦72⟧⟨540⟩⟦52⟧⟨541⟩⟦61⟧⟨542⟩⟦258⟧⟨543⟩⟦65⟧⟨544⟩
+[Percheron] ⟦110⟧⟨545⟩⟦110⟧⟨546⟩⟦188⟧⟨547⟩⟦117⟧⟨548⟩⟦312⟧⟨549⟩⟦178⟧⟨550⟩⟦81⟧⟨551⟩⟦283⟧⟨552⟩⟦73⟧⟨553⟩⟦268⟧⟨554⟩⟦241⟧⟨555⟩⟦63⟧⟨556⟩⟦117⟧⟨557⟩
+
+[user]
+
+问题：
+When was the first stud book created for the breed of horse that came from Rotrou introducing Arabian horses to Perche?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

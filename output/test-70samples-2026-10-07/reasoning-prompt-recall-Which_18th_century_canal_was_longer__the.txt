@@ -1,0 +1,113 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Morris Canal] ⟨64⟩⟨65⟩⟦2⟧⟨66⟩⟨67⟩⟦68⟧⟨68⟩⟨69⟩⟨70⟩⟦168⟧⟨71⟩⟨72⟩⟦318⟧⟦66⟧⟨73⟩⟨74⟩⟨75⟩⟨76⟩⟨77⟩⟦128⟧⟦234⟧⟨78⟩⟨79⟩⟨80⟩⟨81⟩⟨82⟩⟦288⟧⟦147⟧⟨83⟩⟨84⟩⟦126⟧⟦233⟧⟨85⟩⟨86⟩⟦164⟧⟨87⟩⟦262⟧⟨88⟩⟨89⟩
+[Sandy and Beaver Canal] ⟨100⟩⟦6⟧⟨101⟩⟨102⟩⟦289⟧⟨103⟩⟦100⟧⟨104⟩⟦52⟧⟨105⟩⟨106⟩⟦290⟧⟨107⟩⟦108⟧⟨108⟩⟨109⟩
+[Beaver Creek State Park] ⟦170⟧ | ⟦320⟧
+[Beaver Creek State Park] ⟦306⟧
+[Belvidere Delaware Railroad] ⟦163⟧
+[Pennsylvania Canal (Delaware Division)] ⟦148⟧
+[Pennsylvania Canal (Delaware Division)] ⟦75⟧
+[Waterloo Village, New Jersey] ⟦180⟧ | ⟦149⟧⟦131⟧⟦276⟧⟦159⟧⟦159⟧⟦255⟧⟦95⟧⟦180⟧
+[Waterloo Village, New Jersey] ⟦63⟧⟦183⟧
+
+符号表：
+⟦2⟧ = 172-km
+⟦6⟧ = 73 mi
+⟦52⟧ = Bolivar
+⟦63⟧ = canal
+⟦66⟧ = canals
+⟦68⟧ = carrier
+⟦75⟧ = coal
+⟦95⟧ = Easton
+⟦100⟧ = Erie Canal
+⟦108⟧ = Glasgow
+⟦126⟧ = its eastern terminals
+⟦128⟧ = its western terminus
+⟦131⟧ = km
+⟦147⟧ = markets
+⟦148⟧ = mi
+⟦149⟧ = mile
+⟦159⟧ = New Jersey
+⟦163⟧ = New York Harbor
+⟦164⟧ = Newark
+⟦168⟧ = northern New Jersey
+⟦170⟧ = Ohio
+⟦180⟧ = Pennsylvania
+⟦183⟧ = Phillipsburg
+⟦233⟧ = terminals
+⟦234⟧ = terminus
+⟦255⟧ = the Delaware River
+⟦262⟧ = the Hudson River Jersey City
+⟦276⟧ = the Morris Canal
+⟦288⟧ = the New York City markets
+⟦289⟧ = the Ohio
+⟦290⟧ = the Ohio River
+⟦306⟧ = The Sandy and Beaver Canal
+⟦318⟧ = the two industrial canals
+⟦320⟧ = the United States
+
+占位符映射：
+⟨64⟩ =  (1829–1924) was a 107-
+⟨65⟩ =  (
+⟨66⟩ = 
+⟨67⟩ = ) common 
+⟨68⟩ =  
+⟨69⟩ =  
+⟨70⟩ =  across 
+⟨71⟩ =  in 
+⟨72⟩ =  that connected 
+⟨73⟩ = 
+⟨74⟩ =  at 
+⟨75⟩ = , 
+⟨76⟩ = , across 
+⟨77⟩ =  from 
+⟨78⟩ = 
+⟨79⟩ =  at 
+⟨80⟩ = , 
+⟨81⟩ = , to 
+⟨82⟩ =  and 
+⟨83⟩ = 
+⟨84⟩ =  via 
+⟨85⟩ = 
+⟨86⟩ =  in 
+⟨87⟩ =  and on 
+⟨88⟩ = , 
+⟨89⟩ = .
+⟨100⟩ =  ran 
+⟨101⟩ = 
+⟨102⟩ =  from 
+⟨103⟩ =  and 
+⟨104⟩ =  at 
+⟨105⟩ = , 
+⟨106⟩ = , to 
+⟨107⟩ =  at 
+⟨108⟩ = , 
+⟨109⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which 18th-century canal was longer, the Sandy and Beaver Canal in Ohio or New Jersey's Morris Canal?

@@ -1,0 +1,101 @@
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟨Ƙ⟩⟨ƙ⟩
+⟨ƚ⟩⟨ƛ⟩⟨Ɯ⟩⟦341⟧⟨Ɲ⟩
+⟨ƞ⟩⟨Ơ⟩⟨Ɵ⟩⟨ơ⟩⟦2⟧⟨Ƣ⟩
+⟦125⟧
+⟦263⟧
+⟦231⟧
+⟦357⟧
+⟦246⟧
+⟦230⟧
+⟦81⟧⟨ʰ⟩⟦339⟧⟨ʱ⟩⟦163⟧⟨ʲ⟩⟦43⟧⟦63⟧⟨ʳ⟩⟨ʴ⟩⟦313⟧⟨ʵ⟩⟦1⟧⟨ʶ⟩ | ⟦339⟧⟦163⟧
+⟨ʷ⟩⟦340⟧⟨ʸ⟩⟦355⟧⟨ʹ⟩⟦53⟧⟨ʺ⟩⟦106⟧⟨ʻ⟩⟦68⟧⟨ʼ⟩
+⟨ʽ⟩⟦19⟧⟦177⟧⟨ʾ⟩⟨ʿ⟩⟦254⟧⟨ˀ⟩⟦126⟧⟦358⟧⟨ˁ⟩⟨˂⟩
+
+符号表：
+⟦1⟧ = (PBA) Tour
+⟦2⟧ = 1,840 students
+⟦19⟧ = a member
+⟦43⟧ = an American professional bowler
+⟦53⟧ = arts
+⟦63⟧ = bowler
+⟦68⟧ = Business Management
+⟦81⟧ = Chris Barnes
+⟦106⟧ = degree
+⟦125⟧ = four high schools
+⟦126⟧ = four years
+⟦163⟧ = Kansas
+⟦177⟧ = member
+⟦230⟧ = school
+⟦231⟧ = Schools
+⟦246⟧ = students
+⟦254⟧ = Team USA
+⟦263⟧ = the 2010-2011 school year
+⟦313⟧ = the Professional Bowlers Association
+⟦339⟧ = Topeka
+⟦340⟧ = Topeka High School
+⟦341⟧ = Topeka Public Schools
+⟦355⟧ = Wichita State University
+⟦357⟧ = year
+⟦358⟧ = years
+
+占位符映射：
+⟨Ƙ⟩ = , 
+⟨ƙ⟩ = .
+⟨ƚ⟩ =  It is one of 
+⟨ƛ⟩ = 
+⟨Ɯ⟩ =  within 
+⟨Ɲ⟩ = .
+⟨ƞ⟩ =  In 
+⟨Ɵ⟩ = 
+⟨Ơ⟩ =  
+⟨ơ⟩ = , there were 
+⟨Ƣ⟩ = 
+⟨ʰ⟩ =  (born February 25, 1970 in 
+⟨ʱ⟩ = , 
+⟨ʲ⟩ = ) is 
+⟨ʳ⟩ = 
+⟨ʴ⟩ =  currently on 
+⟨ʵ⟩ =  
+⟨ʶ⟩ = .
+⟨ʷ⟩ =  He attended 
+⟨ʸ⟩ = , and then bowled collegiately at 
+⟨ʹ⟩ = , where he earned a Bachelor of 
+⟨ʺ⟩ =  
+⟨ʻ⟩ =  in 
+⟨ʼ⟩ = .
+⟨ʽ⟩ =  He was 
+⟨ʾ⟩ = 
+⟨ʿ⟩ =  of 
+⟨ˀ⟩ =  for 
+⟨ˁ⟩ = 
+⟨˂⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+How many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year?

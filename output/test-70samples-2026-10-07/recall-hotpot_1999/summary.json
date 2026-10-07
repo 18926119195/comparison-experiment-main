@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_1999",
+  "question": "What American corporation owns Claim Jumper?",
+  "expectedAnswer": "Landry's",
+  "predictedAnswer": "# 路径一：直接所有权链推理\n\n步骤1：使用⟦58⟧，提取“Claim jumper”这一实体名称，确认其为待查询的餐厅品牌。\n\n步骤2：综合⟦59⟧⟦27⟧⟦54⟧，交叉验证 Claim Jumper 的性质——⟦59⟧表明其为“Claim Jumper Restaurant”，⟦27⟧表明其为“an American restaurant chain”，⟦54⟧确认其为“chain”，三者一致指向 Claim Jumper 是一家美国连锁餐厅。\n\n步骤3：使用⟦115⟧，提取“Landry's, Inc.”这一实体，结合⟦315⟧中“is wholly owned by”的关系表述，判断 Claim Jumper 被 Landry's, Inc. 全资拥有。\n\n结论：Landry's, Inc. 拥有 Claim Jumper。\n\n# 路径二：地理位置与公司归属交叉验证\n\n步骤1：使用⟦102⟧，提取“Houston”这一地点信息，判断 Claim Jumper 的母公司位于休斯顿。\n\n步骤2：综合⟦67⟧⟦187⟧⟦177⟧，提取“company”与“Texas”信息——⟦187⟧表明“The company”与⟦67⟧“company”指向同一实体，⟦177⟧表明该实体位于德克萨斯州，与⟦102⟧“Houston”形成地理交叉验证（休斯顿位于德克萨斯州）。\n\n步骤3：综合⟦115⟧⟦315⟧，确认 Landry's, Inc. 为最终母公司，且其总部位于休斯顿/德克萨斯州，与步骤1、2的地理信息一致。\n\n结论：Landry's, Inc. 作为总部位于休斯顿的德克萨斯州公司，全资拥有 Claim Jumper。\n\n# 路径三：规模特征辅助确认\n\n步骤1：使用⟦126⟧⟦122⟧，提取“more than 40 locations”和“locations”，判断 Claim Jumper 是一家拥有超过40家门店的连锁品牌。\n\n步骤2：综合⟦54⟧⟦27⟧，交叉验证其连锁属性——⟦54⟧“chain”与⟦27⟧“an American restaurant chain”一致，确认其规模符合被大型餐饮集团收购的特征。\n\n步骤3：使用⟦115⟧，提取“Landry's, Inc.”作为拥有该规模连锁品牌的美国公司，结合⟦315⟧的所有权关系，确认最终归属。\n\n结论：Landry's, Inc. 是拥有 Claim Jumper 这一超过40家门店连锁品牌的美国公司。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦59⟧⟨304⟩⟦160⟧⟨305⟩⟦27⟧⟦156⟧⟨307⟩⟦54⟧⟨306⟩⟨308⟩⟦126⟧⟦122⟧",
+  "nounCount": 309,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5302,
+    "completion_tokens": 103,
+    "total_tokens": 5405,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 5302
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 541,
+    "completion_tokens": 557,
+    "total_tokens": 1098,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 541
+  }
+}

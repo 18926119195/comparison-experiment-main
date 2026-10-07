@@ -1,0 +1,112 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Eastview High School] ⟨91⟩⟦2⟧⟨92⟩⟨93⟩⟨94⟩
+[Eastview High School] ⟨95⟩⟨96⟩⟦321⟧⟨97⟩⟦295⟧⟨98⟩⟨99⟩⟨100⟩⟦41⟧⟨101⟩⟨102⟩⟦190⟧⟨103⟩
+[Eastview High School] ⟦122⟧ | ⟦122⟧ | ⟨104⟩⟨106⟩⟨105⟩⟨107⟩⟦122⟧⟨108⟩⟦27⟧⟦188⟧⟨109⟩⟨110⟩⟦292⟧⟨111⟩⟦293⟧⟨112⟩⟨113⟩⟦208⟧⟦208⟧⟨114⟩⟨115⟩⟦313⟧⟨116⟩
+[William Fremd High School] ⟦355⟧
+[High School Confidential (TV series)] ⟦150⟧⟨239⟩⟦56⟧⟨241⟩⟦119⟧⟨242⟩⟦264⟧⟨243⟩⟨240⟩⟨244⟩⟦249⟧⟨245⟩⟦340⟧⟨247⟩⟦263⟧⟨246⟩⟨248⟩⟦76⟧⟨249⟩
+[High School Confidential (TV series)] ⟦247⟧
+[Patrick Henry High School (Ashland, Virginia)] ⟦270⟧
+[Blue Valley West High School] ⟦324⟧
+[Atlantic Community High School] ⟦52⟧
+[Bonita Vista High School] ⟦241⟧ | ⟦241⟧ | ⟦356⟧⟦241⟧
+[Bonita Vista High School] ⟦216⟧
+[Bonita Vista High School] ⟦242⟧ | ⟦242⟧
+
+符号表：
+⟦2⟧ = "US News
+⟦27⟧ = a member
+⟦41⟧ = a top comprehensive high school
+⟦52⟧ = America's Best High Schools
+⟦56⟧ = an eight-part documentary television series
+⟦76⟧ = Blue Valley Northwest High
+⟦119⟧ = documentary
+⟦122⟧ = Eastview
+⟦150⟧ = High School Confidential
+⟦188⟧ = member
+⟦190⟧ = Minnesota
+⟦208⟧ = order
+⟦216⟧ = part
+⟦241⟧ = school
+⟦242⟧ = schools
+⟦247⟧ = series
+⟦249⟧ = Sharon Liese
+⟦263⟧ = teenagers
+⟦264⟧ = television
+⟦270⟧ = the 2010-2011 school year
+⟦292⟧ = the Lake Conference
+⟦293⟧ = the Lake Conference schools
+⟦295⟧ = the most challenging high schools
+⟦313⟧ = the South Suburban Conference
+⟦321⟧ = the top 3%
+⟦324⟧ = the United States
+⟦340⟧ = twelve high school teenagers
+⟦355⟧ = World Report
+⟦356⟧ = year
+
+占位符映射：
+⟨91⟩ =  has also been recognized by 
+⟨92⟩ =  & 
+⟨93⟩ = " as one of 
+⟨94⟩ = .
+⟨95⟩ =  In 2013, 
+⟨96⟩ =  was ranked in 
+⟨97⟩ =  of 
+⟨98⟩ = 
+⟨99⟩ =  in 
+⟨100⟩ = , as well as 
+⟨101⟩ = 
+⟨102⟩ =  in 
+⟨103⟩ = .
+⟨104⟩ =  Prior to 
+⟨105⟩ = 
+⟨106⟩ =  
+⟨107⟩ = , 
+⟨108⟩ =  was 
+⟨109⟩ = 
+⟨110⟩ =  of 
+⟨111⟩ = , but then broke off with most of 
+⟨112⟩ = 
+⟨113⟩ =  in 
+⟨114⟩ = 
+⟨115⟩ =  to create 
+⟨116⟩ = .
+⟨239⟩ =  is 
+⟨240⟩ = 
+⟨241⟩ =  
+⟨242⟩ =  
+⟨243⟩ =  
+⟨244⟩ =  created by 
+⟨245⟩ = , following 
+⟨246⟩ = 
+⟨247⟩ =  
+⟨248⟩ =  from 
+⟨249⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+High School Confidential, an eight part documentary followed twelve high school teenagers from a high school in Overland Park, Kansas that ranked what in the 2009 Newsweek ranking of the top 1,500 high schools in the United States?

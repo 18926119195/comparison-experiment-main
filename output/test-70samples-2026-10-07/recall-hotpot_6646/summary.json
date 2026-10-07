@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_6646",
+  "question": "Buck Rogers XXVC is a published campaign setting or a homebrew campaign setting?",
+  "expectedAnswer": "published campaign settings",
+  "predictedAnswer": "# 路径一：基于设定性质的直接判定\n\n步骤1：使用⟦54⟧，提取“Buck Rogers XXVC”这一名称，并注意到其与⟦21⟧（a game setting）的关联，判断其属于游戏设定类别。\n\n步骤2：综合⟦54⟧⟦184⟧⟦21⟧，交叉验证该设定与“the 25th Century”背景及“a game setting”的对应关系，确认其为一个正式发布的设定而非玩家自创。\n\n步骤3：使用⟦78⟧，提取“was active from 1988 until 1995”这一时间信息，表明该设定有明确的商业出版周期，符合published campaign setting的特征。\n\n结论：Buck Rogers XXVC 是一个 published campaign setting（已出版的战役设定），而非 homebrew campaign setting。\n\n# 路径二：基于出版主体与产品线的交叉验证\n\n步骤1：使用⟦214⟧，提取“TSR, Inc.”作为出版主体，判断该设定由正规游戏公司发行。\n\n步骤2：综合⟦141⟧⟦205⟧，对比“Al-Qadim”的“Products”与“Masque of the Red Death (Ravenloft)”的“The setting”，发现它们均属于TSR旗下的正式产品线，而Buck Rogers XXVC 与这些设定并列出现，进一步支持其published属性。\n\n步骤3：使用⟦23⟧，提取“a role-playing game”这一类别，结合⟦214⟧的出版主体，确认该设定是作为角色扮演游戏产品的一部分正式出版。\n\n结论：Buck Rogers XXVC 是由 TSR, Inc. 正式出版的战役设定，属于 published campaign setting。\n\n# 路径三：基于媒体衍生与游戏形式的综合判断\n\n步骤1：使用⟦93⟧⟦221⟧，提取“graphic novels”和“video games”等衍生媒体形式，判断该设定具有跨媒体商业开发的特征。\n\n步骤2：综合⟦49⟧⟦88⟧⟦150⟧，对比“board game”“game”“role”等术语，发现该设定涉及多种游戏形式（如 board game、RPG、video games），这些均需正式出版才能实现。\n\n步骤3：使用⟦160⟧，提取“setting”这一核心词，结合上述多媒体验证，确认其为一个被正式出版并扩展至多种媒体的 campaign setting。\n\n结论：Buck Rogers XXVC 是一个 published campaign setting，其多平台衍生内容进一步排除了 homebrew 的可能性。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦54⟧⟨52⟩⟨53⟩⟦184⟧⟨54⟩⟦21⟧⟨56⟩⟨55⟩⟨57⟩⟨58⟩⟦214⟧⟦53⟧",
+  "nounCount": 376,
+  "score": 0.6666666666666666,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5832,
+    "completion_tokens": 218,
+    "total_tokens": 6050,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632
+    },
+    "prompt_cache_hit_tokens": 5632,
+    "prompt_cache_miss_tokens": 200
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 903,
+    "completion_tokens": 536,
+    "total_tokens": 1439,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 903
+  }
+}

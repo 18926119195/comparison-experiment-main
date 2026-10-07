@@ -1,0 +1,23 @@
+# 路径一：直接定位导演
+
+步骤1：使用⟦10⟧，提取“a 2002 American biopic drama film”这一描述，确认该电影为2002年传记剧情片。
+
+步骤2：综合⟦59⟧⟦79⟧，交叉验证：⟦59⟧指向“Frida”，⟦79⟧明确给出“Julie Taymor”作为导演。
+
+结论：Mía Maestro出演的2002年传记片由Julie Taymor执导。
+
+# 路径二：通过Mía Maestro的角色链定位
+
+步骤1：使用⟦25⟧，提取Mía Maestro是“an Argentine actress”。
+
+步骤2：综合⟦68⟧⟦59⟧⟦79⟧，从Mía Maestro的“her role”关联到电影“Frida”，再关联到导演“Julie Taymor”。
+
+结论：通过Mía Maestro的角色关联，确认该片导演为Julie Taymor。
+
+# 路径三：通过Frida电影条目交叉验证
+
+步骤1：使用⟦10⟧⟦29⟧，提取2002年传记片类型信息。
+
+步骤2：综合⟦59⟧⟦79⟧，将“Frida”与“Julie Taymor”直接关联，确认导演身份。
+
+结论：Frida（2002）的导演是Julie Taymor。

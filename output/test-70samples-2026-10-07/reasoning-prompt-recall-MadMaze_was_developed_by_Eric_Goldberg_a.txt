@@ -1,0 +1,77 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[MadMaze] ⟦130⟧⟨224⟩⟦31⟧⟦240⟧⟨226⟩⟨225⟩⟨227⟩⟨228⟩
+[MadMaze] ⟨237⟩⟨238⟩⟦200⟧⟦62⟧⟨239⟩⟨240⟩⟦222⟧⟨241⟩⟨242⟩⟦220⟧⟦153⟧⟨243⟩⟨244⟩⟦227⟧⟦177⟧⟦177⟧⟨245⟩⟨246⟩⟦199⟧⟦56⟧⟨247⟩⟨248⟩⟦81⟧⟦81⟧⟨249⟩⟨250⟩⟨251⟩⟨252⟩
+[Paranoia (role-playing game)] ⟦98⟧
+[Paranoia (role-playing game)] ⟦93⟧ | ⟦208⟧⟦208⟧⟦93⟧⟦93⟧
+[Eric Goldberg (artist)] ⟦76⟧
+
+符号表：
+⟦31⟧ = an online video game
+⟦56⟧ = creators
+⟦62⟧ = death
+⟦76⟧ = Eric Goldberg
+⟦81⟧ = fans
+⟦93⟧ = game
+⟦98⟧ = Greg Costikyan
+⟦130⟧ = MadMaze
+⟦153⟧ = permission
+⟦177⟧ = service
+⟦199⟧ = the creators
+⟦200⟧ = the death
+⟦208⟧ = The game
+⟦220⟧ = the permission
+⟦222⟧ = the Prodigy service
+⟦227⟧ = the service
+⟦240⟧ = video
+
+占位符映射：
+⟨224⟩ =  is 
+⟨225⟩ = 
+⟨226⟩ =  
+⟨227⟩ =  designed by 
+⟨228⟩ =  and developed by 
+⟨237⟩ = 
+⟨238⟩ =  disappeared in 1999 with 
+⟨239⟩ = 
+⟨240⟩ =  of 
+⟨241⟩ = 
+⟨242⟩ = , but with 
+⟨243⟩ = 
+⟨244⟩ =  from 
+⟨245⟩ = 
+⟨246⟩ =  and 
+⟨247⟩ = 
+⟨248⟩ = , 
+⟨249⟩ = 
+⟨250⟩ =  of 
+⟨251⟩ = 
+⟨252⟩ =  have rehosted it.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+MadMaze was developed by Eric Goldberg as what type of game? 

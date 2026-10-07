@@ -1,0 +1,111 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Special Correspondents] ⟦206⟧⟨43⟩⟦23⟧⟨45⟩⟨44⟩⟨46⟩⟨47⟩
+[Special Correspondents] ⟨48⟩⟨49⟩⟦38⟧⟦186⟧⟨50⟩⟨51⟩⟦209⟧⟨52⟩⟨53⟩⟦282⟧⟨54⟩⟦140⟧⟨55⟩⟦141⟧⟨56⟩⟦63⟧⟨57⟩⟦46⟧⟨58⟩⟦183⟧⟨59⟩
+[Eric Bana] ⟦92⟧⟨260⟩⟨261⟩⟦48⟧⟨262⟩⟨263⟩⟦75⟧⟦75⟧⟨264⟩⟨265⟩
+[Eric Bana] ⟨266⟩⟦116⟧⟦68⟧⟨267⟩⟨268⟩⟦256⟧⟨270⟩⟨269⟩⟨271⟩⟨272⟩⟦83⟧⟦184⟧⟨273⟩⟨274⟩⟦224⟧⟦82⟧⟨276⟩⟨275⟩⟨277⟩⟦1⟧⟨278⟩
+[Full Frontal (Australian TV series)] ⟦104⟧
+[Full Frontal (Australian TV series)] ⟦91⟧ | ⟦91⟧
+[David Brent: Life on the Road] ⟦228⟧
+[David Brent: Life on the Road] ⟦99⟧ | ⟦99⟧ | ⟦99⟧
+[List of The Ricky Gervais Show episodes] ⟦187⟧
+[List of The Ricky Gervais Show episodes] ⟦196⟧
+[Michael Veitch] ⟦78⟧ | ⟦44⟧ | ⟦78⟧
+
+符号表：
+⟦1⟧ = "Chopper
+⟦23⟧ = a 2016 British-Canadian-American satirical comedy film
+⟦38⟧ = a remake
+⟦44⟧ = actor
+⟦46⟧ = America Ferrera
+⟦48⟧ = an Australian actor
+⟦63⟧ = Benjamin Bratt
+⟦68⟧ = career
+⟦75⟧ = comedian
+⟦78⟧ = comedy
+⟦82⟧ = crime
+⟦83⟧ = critical recognition
+⟦91⟧ = Eric Bana
+⟦92⟧ = Eric Banadinović
+⟦99⟧ = film
+⟦104⟧ = Full Frontal
+⟦116⟧ = his career
+⟦140⟧ = Kelly Macdonald
+⟦141⟧ = Kevin Pollak
+⟦183⟧ = Raúl Castillo
+⟦184⟧ = recognition
+⟦186⟧ = remake
+⟦187⟧ = Ricky Gervais
+⟦196⟧ = series
+⟦206⟧ = Special Correspondents
+⟦209⟧ = stars Gervais
+⟦224⟧ = the biographical crime film
+⟦228⟧ = The film
+⟦256⟧ = the sketch comedy series
+⟦282⟧ = Vera Farmiga
+
+占位符映射：
+⟨43⟩ =  is 
+⟨44⟩ = 
+⟨45⟩ =  
+⟨46⟩ =  written, directed by and starring 
+⟨47⟩ = .
+⟨48⟩ = 
+⟨49⟩ =  is 
+⟨50⟩ = 
+⟨51⟩ =  of the , and 
+⟨52⟩ = , 
+⟨53⟩ = , 
+⟨54⟩ = , 
+⟨55⟩ = , 
+⟨56⟩ = , 
+⟨57⟩ = , 
+⟨58⟩ =  and 
+⟨59⟩ = .
+⟨260⟩ =  (born 9 August 1968), known professionally as 
+⟨261⟩ = , is 
+⟨262⟩ = 
+⟨263⟩ =  and 
+⟨264⟩ = 
+⟨265⟩ = .
+⟨266⟩ =  He began 
+⟨267⟩ = 
+⟨268⟩ =  in 
+⟨269⟩ = 
+⟨270⟩ =  
+⟨271⟩ =  "
+⟨272⟩ = " before gaining 
+⟨273⟩ = 
+⟨274⟩ =  in 
+⟨275⟩ = 
+⟨276⟩ =  
+⟨277⟩ =  
+⟨278⟩ = " (2000).
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which Star of British-Canadian-American satirical comedy, co starting with Ricky Gervais, began his career in sketch comedy series"Full Frontal" ?

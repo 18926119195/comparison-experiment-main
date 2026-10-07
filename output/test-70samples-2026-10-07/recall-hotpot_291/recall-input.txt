@@ -1,0 +1,396 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (I-40
+⟦2⟧ = (IDOT
+⟦3⟧ = (Stoneman's 1865 Raid
+⟦4⟧ = (US
+⟦5⟧ = 0.80 mi
+⟦6⟧ = 0.9 mi
+⟦7⟧ = 0.90 mi
+⟦8⟧ = 11 auxiliary highways
+⟦9⟧ = 110.01 mi
+⟦10⟧ = 117/NC
+⟦11⟧ = 117/North Carolina Highway
+⟦12⟧ = 12.08 mi
+⟦13⟧ = 13 primary highways
+⟦14⟧ = 16 Interstate Highways
+⟦15⟧ = 17.62 mi
+⟦16⟧ = 2,248.93 mi
+⟦17⟧ = 23 auxiliary routes
+⟦18⟧ = 32 Interstate Highways—9 main routes
+⟦19⟧ = 3239.7 mi
+⟦20⟧ = 324.92 mi
+⟦21⟧ = 358.57 mi
+⟦22⟧ = 423.55 mi
+⟦23⟧ = 51.48 mi
+⟦24⟧ = 68.64 mi
+⟦25⟧ = 878.6 mi
+⟦26⟧ = 90%
+⟦27⟧ = a crossroads
+⟦28⟧ = a few unsigned highways
+⟦29⟧ = a larger change
+⟦30⟧ = a list
+⟦31⟧ = a much more north-south alignment
+⟦32⟧ = a number
+⟦33⟧ = a part
+⟦34⟧ = a signer
+⟦35⟧ = a single route number
+⟦36⟧ = a small part
+⟦37⟧ = a strategic importance
+⟦38⟧ = a supplemental subset
+⟦39⟧ = a total
+⟦40⟧ = a town
+⟦41⟧ = access
+⟦42⟧ = additional changes
+⟦43⟧ = agency
+⟦44⟧ = Alabama
+⟦45⟧ = alignment
+⟦46⟧ = all Interstate Highway Standards
+⟦47⟧ = All Interstates
+⟦48⟧ = all mainline Interstate Highways
+⟦49⟧ = an 855 mi highway
+⟦50⟧ = any other primary Interstate
+⟦51⟧ = any other state's portion
+⟦52⟧ = area
+⟦53⟧ = areas
+⟦54⟧ = Asheville
+⟦55⟧ = auxiliary Interstates
+⟦56⟧ = Baltimore
+⟦57⟧ = Barstow
+⟦58⟧ = birthplace
+⟦59⟧ = borders
+⟦60⟧ = both Fort Worth
+⟦61⟧ = Bracey north
+⟦62⟧ = branches
+⟦63⟧ = Bristol
+⟦64⟧ = bulk
+⟦65⟧ = business
+⟦66⟧ = California
+⟦67⟧ = cases
+⟦68⟧ = census
+⟦69⟧ = change
+⟦70⟧ = changes
+⟦71⟧ = cities
+⟦72⟧ = communities
+⟦73⟧ = concurrences
+⟦74⟧ = connection
+⟦75⟧ = construction
+⟦76⟧ = core
+⟦77⟧ = corridors
+⟦78⟧ = county
+⟦79⟧ = crossroads
+⟦80⟧ = Dallas
+⟦81⟧ = day
+⟦82⟧ = designation
+⟦83⟧ = designations
+⟦84⟧ = digit
+⟦85⟧ = documents
+⟦86⟧ = duplication
+⟦87⟧ = Durham
+⟦88⟧ = east
+⟦89⟧ = east-west
+⟦90⟧ = eastern North Carolina farmland
+⟦91⟧ = Edith Bolling Wilson
+⟦92⟧ = effect
+⟦93⟧ = even-numbered Interstate highways
+⟦94⟧ = exceptions
+⟦95⟧ = farmland
+⟦96⟧ = federal funding
+⟦97⟧ = five auxiliary Interstates
+⟦98⟧ = following
+⟦99⟧ = foothills
+⟦100⟧ = freeways
+⟦101⟧ = funding
+⟦102⟧ = future construction
+⟦103⟧ = future corridors
+⟦104⟧ = George Wythe
+⟦105⟧ = Greensboro
+⟦106⟧ = highway
+⟦107⟧ = highways
+⟦108⟧ = Hillsboro
+⟦109⟧ = I-110
+⟦110⟧ = I-295
+⟦111⟧ = I-395
+⟦112⟧ = I-40
+⟦113⟧ = I-595
+⟦114⟧ = I-695
+⟦115⟧ = I-85
+⟦116⟧ = I-86
+⟦117⟧ = I-895
+⟦118⟧ = Illinois
+⟦119⟧ = importance
+⟦120⟧ = Independence
+⟦121⟧ = institutions
+⟦122⟧ = internal documents
+⟦123⟧ = intersection
+⟦124⟧ = Interstate
+⟦125⟧ = Interstate Highway
+⟦126⟧ = Interstate Highway numbers
+⟦127⟧ = Interstate Highways
+⟦128⟧ = Interstates
+⟦129⟧ = its entire length
+⟦130⟧ = landscapes
+⟦131⟧ = legislative
+⟦132⟧ = legislature
+⟦133⟧ = length
+⟦134⟧ = letter
+⟦135⟧ = line
+⟦136⟧ = list
+⟦137⟧ = loop
+⟦138⟧ = mainline
+⟦139⟧ = maintenance
+⟦140⟧ = markers
+⟦141⟧ = Maryland
+⟦142⟧ = mentor
+⟦143⟧ = mi
+⟦144⟧ = Montgomery
+⟦145⟧ = multiple designations
+⟦146⟧ = New York
+⟦147⟧ = north
+⟦148⟧ = North Carolina
+⟦149⟧ = number
+⟦150⟧ = numbers
+⟦151⟧ = numerical duplication
+⟦152⟧ = NY
+⟦153⟧ = NYSDOT
+⟦154⟧ = one business loop
+⟦155⟧ = one county
+⟦156⟧ = one former Interstate, I-170
+⟦157⟧ = one unsigned Interstate
+⟦158⟧ = operations
+⟦159⟧ = other federal standards
+⟦160⟧ = other major metropolitan areas
+⟦161⟧ = parks
+⟦162⟧ = part
+⟦163⟧ = percentage
+⟦164⟧ = Petersburg
+⟦165⟧ = population
+⟦166⟧ = portion
+⟦167⟧ = President Woodrow Wilson
+⟦168⟧ = primary Interstates
+⟦169⟧ = process
+⟦170⟧ = public
+⟦171⟧ = Raleigh
+⟦172⟧ = rare exceptions
+⟦173⟧ = reference
+⟦174⟧ = reference markers
+⟦175⟧ = route
+⟦176⟧ = route designations
+⟦177⟧ = route numbers
+⟦178⟧ = routes
+⟦179⟧ = seat
+⟦180⟧ = section
+⟦181⟧ = segment
+⟦182⟧ = segments
+⟦183⟧ = seven auxiliary routes
+⟦184⟧ = several changes
+⟦185⟧ = several Interstate Highways and state routes
+⟦186⟧ = Several other routes
+⟦187⟧ = several Piedmont cities
+⟦188⟧ = several routes
+⟦189⟧ = signer
+⟦190⟧ = some exceptions
+⟦191⟧ = some other states
+⟦192⟧ = south
+⟦193⟧ = South Hill
+⟦194⟧ = Southside Virginia
+⟦195⟧ = Southside's major east–west highway
+⟦196⟧ = standards
+⟦197⟧ = state
+⟦198⟧ = state parks
+⟦199⟧ = states
+⟦200⟧ = subset
+⟦201⟧ = suburban communities
+⟦202⟧ = suffix
+⟦203⟧ = surface
+⟦204⟧ = system
+⟦205⟧ = Tennessee
+⟦206⟧ = Texas
+⟦207⟧ = that highway
+⟦208⟧ = the "I" suffix
+⟦209⟧ = the 2010 census
+⟦210⟧ = the agency
+⟦211⟧ = the American Civil War
+⟦212⟧ = The auxiliary Interstate Highways
+⟦213⟧ = the birthplace
+⟦214⟧ = the Blue Ridge Mountains
+⟦215⟧ = the borders
+⟦216⟧ = The bulk
+⟦217⟧ = the changes
+⟦218⟧ = the cities
+⟦219⟧ = the county seat
+⟦220⟧ = the designation
+⟦221⟧ = the eastern part
+⟦222⟧ = the eastern portion
+⟦223⟧ = the entire route
+⟦224⟧ = the entire state
+⟦225⟧ = The following
+⟦226⟧ = the freeways
+⟦227⟧ = the highway
+⟦228⟧ = The Illinois Department
+⟦229⟧ = the intersection
+⟦230⟧ = The Interstate Highway
+⟦231⟧ = the Interstate Highway and state route
+⟦232⟧ = the Interstate Highway corridors
+⟦233⟧ = the Interstate Highway System
+⟦234⟧ = The Interstate Highways
+⟦235⟧ = The landscapes
+⟦236⟧ = the legislative change
+⟦237⟧ = The legislature
+⟦238⟧ = the letter
+⟦239⟧ = the list
+⟦240⟧ = The longest auxiliary Interstate
+⟦241⟧ = the longest interstate highway
+⟦242⟧ = The longest primary Interstate
+⟦243⟧ = the longest section
+⟦244⟧ = The longest segment
+⟦245⟧ = the mainline
+⟦246⟧ = the Maryland State Highway Administration
+⟦247⟧ = the National Highway System
+⟦248⟧ = the New York State Department
+⟦249⟧ = the North Carolina state line
+⟦250⟧ = the number
+⟦251⟧ = the only primary Interstate
+⟦252⟧ = the Pigeon River Gorge
+⟦253⟧ = the portion
+⟦254⟧ = the primary connection
+⟦255⟧ = The primary effect
+⟦256⟧ = the primary Interstates
+⟦257⟧ = the process
+⟦258⟧ = the public
+⟦259⟧ = the Research Triangle
+⟦260⟧ = the Richmond–Petersburg metropolitan area
+⟦261⟧ = The route
+⟦262⟧ = the same percentage
+⟦263⟧ = The shortest auxiliary Interstate
+⟦264⟧ = the shortest intrastate Interstate
+⟦265⟧ = The shortest primary Interstate
+⟦266⟧ = the state
+⟦267⟧ = the surface
+⟦268⟧ = the Tennessee state line
+⟦269⟧ = The Texas Department
+⟦270⟧ = the town
+⟦271⟧ = the U.S. state
+⟦272⟧ = the United States
+⟦273⟧ = the United States Declaration
+⟦274⟧ = the urban core
+⟦275⟧ = the Utah State Legislature
+⟦276⟧ = the Utah State Route system
+⟦277⟧ = the West Virginia state line
+⟦278⟧ = their number
+⟦279⟧ = these changes
+⟦280⟧ = these highways
+⟦281⟧ = Thomas Jefferson
+⟦282⟧ = three-digit Interstate Highways
+⟦283⟧ = today
+⟦284⟧ = Toland's Raid
+⟦285⟧ = total
+⟦286⟧ = town
+⟦287⟧ = Transportation
+⟦288⟧ = travelers
+⟦289⟧ = twelve primary routes
+⟦290⟧ = two branches
+⟦291⟧ = TxDOT
+⟦292⟧ = U.S. Highway
+⟦293⟧ = U.S. Route
+⟦294⟧ = United States
+⟦295⟧ = unsigned legislative
+⟦296⟧ = unsigned legislative designations
+⟦297⟧ = US
+⟦298⟧ = Utah
+⟦299⟧ = Virginia
+⟦300⟧ = western North Carolina
+⟦301⟧ = wife
+⟦302⟧ = Wilmington
+⟦303⟧ = Winchester
+⟦304⟧ = Winston-Salem
+⟦305⟧ = Wythe County
+⟦306⟧ = Wytheville
+⟦307⟧ = Wytheville's population
+⟦308⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Interstate 40 in North Carolina] ⟦124⟧⟨1⟩⟦124⟧⟨2⟩⟦1⟧⟨3⟩⟦33⟧⟨4⟩⟦162⟧⟨5⟩⟦233⟧⟨6⟩⟦57⟧⟨7⟩⟦66⟧⟨8⟩⟦302⟧⟨9⟩⟦148⟧⟨10⟩
+[Interstate 40 in North Carolina] ⟨11⟩⟦148⟧⟨12⟩⟦266⟧⟨13⟩⟦197⟧⟨14⟩⟦252⟧⟨15⟩⟦205⟧⟨16⟩
+[Interstate 40 in North Carolina] ⟨17⟩⟦224⟧⟨18⟩⟦197⟧⟨19⟩⟦218⟧⟨20⟩⟦71⟧⟨21⟩⟦54⟧⟨22⟩⟦304⟧⟨23⟩⟦105⟧⟨24⟩⟦87⟧⟨25⟩⟦171⟧⟨26⟩⟦292⟧⟨27⟩⟦11⟧⟨28⟩⟦4⟧⟨29⟩⟦10⟧⟨30⟩⟦302⟧⟨31⟩
+[Interstate 40 in North Carolina] ⟦235⟧⟨32⟩⟦130⟧⟨33⟩⟦112⟧⟨34⟩⟦112⟧⟨35⟩⟦214⟧⟨36⟩⟦99⟧⟨37⟩⟦99⟧⟨38⟩⟦300⟧⟨39⟩⟦201⟧⟨40⟩⟦72⟧⟨41⟩⟦274⟧⟨42⟩⟦76⟧⟨43⟩⟦187⟧⟨44⟩⟦71⟧⟨45⟩⟦90⟧⟨46⟩⟦95⟧⟨47⟩
+[Interstate 40 in North Carolina] ⟨48⟩⟦39⟧⟨49⟩⟦285⟧⟨50⟩⟦22⟧⟨51⟩⟦143⟧⟨52⟩⟦241⟧⟨53⟩⟦106⟧⟨54⟩⟦148⟧⟨55⟩
+[Interstate 40 in North Carolina] ⟨56⟩⟦97⟧⟨57⟩⟦128⟧⟨58⟩⟦266⟧⟨59⟩⟦197⟧⟨60⟩⟦154⟧⟨61⟩⟦65⟧⟨62⟩⟦137⟧⟨63⟩⟦304⟧⟨64⟩
+[Interstate 40 in North Carolina] ⟦261⟧⟨65⟩⟦175⟧⟨66⟩⟦89⟧⟨67⟩⟦223⟧⟨68⟩⟦175⟧⟨69⟩⟦93⟧⟨70⟩⟦107⟧⟨71⟩⟦222⟧⟨72⟩⟦166⟧⟨73⟩⟦108⟧⟨74⟩⟦302⟧⟨75⟩⟦31⟧⟨76⟩⟦147⟧⟨77⟩⟦192⟧⟨78⟩⟦45⟧⟨79⟩
+[List of Interstate Highways in New York] ⟨80⟩⟦18⟧⟨81⟩⟦178⟧⟨82⟩⟦17⟧⟨83⟩⟦178⟧⟨84⟩⟦271⟧⟨85⟩⟦197⟧⟨86⟩⟦146⟧⟨87⟩
+[List of Interstate Highways in New York] ⟨88⟩⟦146⟧⟨89⟩⟦127⟧⟨90⟩⟦248⟧⟨91⟩⟦287⟧⟨92⟩⟦153⟧⟨93⟩⟦190⟧⟨94⟩⟦94⟧⟨95⟩
+[List of Interstate Highways in New York] ⟨96⟩⟦191⟧⟨97⟩⟦199⟧⟨98⟩⟦127⟧⟨99⟩⟦146⟧⟨100⟩⟦153⟧⟨101⟩⟦278⟧⟨102⟩⟦149⟧⟨103⟩⟦238⟧⟨104⟩⟦134⟧⟨105⟩⟦250⟧⟨106⟩⟦149⟧⟨107⟩⟦261⟧⟨108⟩⟦175⟧⟨109⟩⟦173⟧⟨110⟩⟦174⟧⟨111⟩⟦140⟧⟨112⟩⟦122⟧⟨113⟩⟦85⟧⟨114⟩
+[List of Interstate Highways in New York] ⟨115⟩⟦267⟧⟨116⟩⟦203⟧⟨117⟩⟦151⟧⟨118⟩⟦86⟧⟨119⟩⟦185⟧⟨120⟩⟦197⟧⟨121⟩⟦178⟧⟨122⟩⟦116⟧⟨123⟩⟦116⟧⟨124⟩⟦116⟧⟨125⟩⟦116⟧⟨126⟩⟦152⟧⟨127⟩⟦208⟧⟨128⟩⟦202⟧⟨129⟩⟦126⟧⟨130⟩⟦150⟧⟨131⟩⟦231⟧⟨132⟩⟦197⟧⟨133⟩⟦175⟧⟨134⟩
+[Wytheville, Virginia] ⟦306⟧⟨135⟩⟦40⟧⟨136⟩⟦286⟧⟨137⟩⟦219⟧⟨138⟩⟦78⟧⟨139⟩⟦179⟧⟨140⟩⟦305⟧⟨141⟩⟦299⟧⟨142⟩⟦294⟧⟨143⟩
+[Wytheville, Virginia] ⟨144⟩⟦104⟧⟨145⟩⟦34⟧⟨146⟩⟦189⟧⟨147⟩⟦273⟧⟨148⟩⟦120⟧⟨149⟩⟦142⟧⟨150⟩⟦142⟧⟨151⟩⟦281⟧⟨152⟩
+[Wytheville, Virginia] ⟦307⟧⟨153⟩⟦165⟧⟨154⟩⟦209⟧⟨155⟩⟦68⟧⟨156⟩
+[Wytheville, Virginia] ⟨157⟩⟦229⟧⟨158⟩⟦123⟧⟨159⟩⟦127⟧⟨160⟩⟦270⟧⟨161⟩⟦286⟧⟨162⟩⟦27⟧⟨163⟩⟦79⟧⟨164⟩⟦288⟧⟨165⟩⟦288⟧⟨166⟩
+[Wytheville, Virginia] ⟨167⟩⟦211⟧⟨168⟩⟦306⟧⟨169⟩⟦37⟧⟨170⟩⟦119⟧⟨171⟩⟦284⟧⟨172⟩⟦3⟧⟨173⟩
+[Wytheville, Virginia] ⟦270⟧⟨174⟩⟦286⟧⟨175⟩⟦213⟧⟨176⟩⟦58⟧⟨177⟩⟦91⟧⟨178⟩⟦301⟧⟨179⟩⟦301⟧⟨180⟩⟦167⟧⟨181⟩
+[List of Interstate Highways in Illinois] ⟦234⟧⟨182⟩⟦118⟧⟨183⟩⟦182⟧⟨184⟩⟦182⟧⟨185⟩⟦233⟧⟨186⟩⟦271⟧⟨187⟩⟦197⟧⟨188⟩⟦118⟧⟨189⟩
+[List of Interstate Highways in Illinois] ⟦228⟧⟨190⟩⟦287⟧⟨191⟩⟦2⟧⟨192⟩⟦280⟧⟨193⟩⟦107⟧⟨194⟩⟦118⟧⟨195⟩
+[List of Interstate Highways in Illinois] ⟦233⟧⟨196⟩⟦118⟧⟨197⟩⟦13⟧⟨198⟩⟦107⟧⟨199⟩⟦8⟧⟨200⟩⟦107⟧⟨201⟩⟦16⟧⟨202⟩⟦143⟧⟨203⟩
+[List of Interstate Highways in Illinois] ⟦230⟧⟨204⟩⟦243⟧⟨205⟩⟦180⟧⟨206⟩⟦118⟧⟨207⟩⟦124⟧⟨208⟩⟦21⟧⟨209⟩⟦143⟧⟨210⟩⟦124⟧⟨211⟩⟦7⟧⟨212⟩
+[List of Interstate Highways in Maryland] ⟦225⟧⟨213⟩⟦98⟧⟨214⟩⟦30⟧⟨215⟩⟦136⟧⟨216⟩⟦127⟧⟨217⟩⟦141⟧⟨218⟩
+[List of Interstate Highways in Maryland] ⟨219⟩⟦14⟧⟨220⟩⟦271⟧⟨221⟩⟦197⟧⟨222⟩⟦141⟧⟨223⟩
+[List of Interstate Highways in Maryland] ⟦141⟧⟨224⟩⟦157⟧⟨225⟩⟦113⟧⟨226⟩⟦207⟧⟨227⟩⟦106⟧⟨228⟩⟦293⟧⟨229⟩⟦297⟧⟨230⟩⟦113⟧⟨231⟩⟦129⟧⟨232⟩⟦133⟧⟨233⟩
+[List of Interstate Highways in Maryland] ⟦141⟧⟨234⟩⟦156⟧⟨235⟩⟦239⟧⟨236⟩⟦136⟧⟨237⟩
+[List of Interstate Highways in Maryland] ⟨238⟩⟦168⟧⟨239⟩⟦128⟧⟨240⟩⟦55⟧⟨241⟩⟦128⟧⟨242⟩⟦256⟧⟨243⟩⟦128⟧⟨244⟩
+[List of Interstate Highways in Maryland] ⟦242⟧⟨245⟩⟦141⟧⟨246⟩⟦124⟧⟨247⟩⟦9⟧⟨248⟩⟦143⟧⟨249⟩
+[List of Interstate Highways in Maryland] ⟦265⟧⟨250⟩⟦141⟧⟨251⟩⟦12⟧⟨252⟩⟦143⟧⟨253⟩
+[List of Interstate Highways in Maryland] ⟨254⟩⟦265⟧⟨255⟩⟦15⟧⟨256⟩⟦143⟧⟨257⟩⟦264⟧⟨258⟩
+[List of Interstate Highways in Maryland] ⟨259⟩⟦251⟧⟨260⟩⟦124⟧⟨261⟩⟦155⟧⟨262⟩⟦78⟧⟨263⟩⟦50⟧⟨264⟩
+[List of Interstate Highways in Maryland] ⟦240⟧⟨265⟩⟦141⟧⟨266⟩⟦114⟧⟨267⟩⟦23⟧⟨268⟩⟦143⟧⟨269⟩
+[List of Interstate Highways in Maryland] ⟦263⟧⟨270⟩⟦141⟧⟨271⟩⟦110⟧⟨272⟩⟦5⟧⟨273⟩⟦143⟧⟨274⟩
+[List of Interstate Highways in Maryland] ⟦47⟧⟨275⟩⟦246⟧⟨276⟩⟦111⟧⟨277⟩⟦117⟧⟨278⟩⟦36⟧⟨279⟩⟦162⟧⟨280⟩⟦114⟧⟨281⟩⟦147⟧⟨282⟩⟦56⟧⟨283⟩⟦56⟧⟨284⟩
+[1962 Utah state route renumbering] ⟨285⟩⟦220⟧⟨286⟩⟦82⟧⟨287⟩⟦188⟧⟨288⟩⟦178⟧⟨289⟩⟦233⟧⟨290⟩⟦298⟧⟨291⟩⟦275⟧⟨292⟩⟦184⟧⟨293⟩⟦70⟧⟨294⟩⟦276⟧⟨295⟩⟦204⟧⟨296⟩
+[1962 Utah state route renumbering] ⟦216⟧⟨297⟩⟦64⟧⟨298⟩⟦279⟧⟨299⟩⟦70⟧⟨300⟩⟦258⟧⟨301⟩⟦170⟧⟨302⟩⟦296⟧⟨303⟩⟦83⟧⟨304⟩
+[1962 Utah state route renumbering] ⟦255⟧⟨305⟩⟦92⟧⟨306⟩⟦175⟧⟨307⟩⟦177⟧⟨308⟩⟦150⟧⟨309⟩⟦103⟧⟨310⟩⟦77⟧⟨311⟩⟦234⟧⟨312⟩⟦298⟧⟨313⟩
+[1962 Utah state route renumbering] ⟨314⟩⟦70⟧⟨315⟩⟦70⟧⟨316⟩⟦28⟧⟨317⟩⟦107⟧⟨318⟩⟦197⟧⟨319⟩⟦198⟧⟨320⟩⟦161⟧⟨321⟩⟦121⟧⟨322⟩⟦121⟧⟨323⟩
+[1962 Utah state route renumbering] ⟦186⟧⟨324⟩⟦178⟧⟨325⟩⟦145⟧⟨326⟩⟦83⟧⟨327⟩⟦232⟧⟨328⟩⟦77⟧⟨329⟩⟦35⟧⟨330⟩⟦175⟧⟨331⟩⟦149⟧⟨332⟩
+[1962 Utah state route renumbering] ⟨333⟩⟦233⟧⟨334⟩⟦298⟧⟨335⟩⟦279⟧⟨336⟩⟦70⟧⟨337⟩⟦102⟧⟨338⟩⟦75⟧⟨339⟩
+[1962 Utah state route renumbering] ⟨340⟩⟦32⟧⟨341⟩⟦149⟧⟨342⟩⟦67⟧⟨343⟩⟦67⟧⟨344⟩⟦236⟧⟨345⟩⟦69⟧⟨346⟩⟦308⟧⟨347⟩
+[1962 Utah state route renumbering] ⟨348⟩⟦217⟧⟨349⟩⟦70⟧⟨350⟩⟦283⟧⟨351⟩
+[1962 Utah state route renumbering] ⟨352⟩⟦75⟧⟨353⟩⟦75⟧⟨354⟩⟦233⟧⟨355⟩⟦204⟧⟨356⟩⟦42⟧⟨357⟩⟦70⟧⟨358⟩
+[1962 Utah state route renumbering] ⟦237⟧⟨359⟩⟦132⟧⟨360⟩⟦29⟧⟨361⟩⟦69⟧⟨362⟩⟦175⟧⟨363⟩⟦176⟧⟨364⟩⟦83⟧⟨365⟩⟦295⟧⟨366⟩⟦131⟧⟨367⟩⟦73⟧⟨368⟩⟦73⟧⟨369⟩⟦257⟧⟨370⟩⟦169⟧⟨371⟩
+[List of auxiliary Interstate Highways] ⟦212⟧⟨372⟩⟦282⟧⟨373⟩⟦84⟧⟨374⟩⟦38⟧⟨375⟩⟦200⟧⟨376⟩⟦226⟧⟨377⟩⟦100⟧⟨378⟩⟦233⟧⟨379⟩⟦272⟧⟨380⟩
+[List of auxiliary Interstate Highways] ⟨381⟩⟦245⟧⟨382⟩⟦138⟧⟨383⟩⟦127⟧⟨384⟩⟦280⟧⟨385⟩⟦107⟧⟨386⟩⟦46⟧⟨387⟩⟦172⟧⟨388⟩⟦94⟧⟨389⟩⟦262⟧⟨390⟩⟦163⟧⟨391⟩⟦96⟧⟨392⟩⟦101⟧⟨393⟩⟦26⟧⟨394⟩⟦159⟧⟨395⟩⟦196⟧⟨396⟩
+[Interstate 81 in Virginia] ⟦124⟧⟨397⟩⟦49⟧⟨398⟩⟦143⟧⟨399⟩⟦106⟧⟨400⟩
+[Interstate 81 in Virginia] ⟨401⟩⟦271⟧⟨402⟩⟦197⟧⟨403⟩⟦299⟧⟨404⟩⟦20⟧⟨405⟩⟦143⟧⟨406⟩⟦253⟧⟨407⟩⟦166⟧⟨408⟩⟦299⟧⟨409⟩⟦51⟧⟨410⟩⟦197⟧⟨411⟩⟦166⟧⟨412⟩
+[Interstate 81 in Virginia] ⟨413⟩⟦241⟧⟨414⟩⟦106⟧⟨415⟩⟦215⟧⟨416⟩⟦59⟧⟨417⟩⟦299⟧⟨418⟩
+[Interstate 81 in Virginia] ⟨419⟩⟦268⟧⟨420⟩⟦197⟧⟨421⟩⟦135⟧⟨422⟩⟦63⟧⟨423⟩⟦277⟧⟨424⟩⟦197⟧⟨425⟩⟦135⟧⟨426⟩⟦303⟧⟨427⟩
+[List of Interstate Highways in Texas] ⟦234⟧⟨428⟩⟦206⟧⟨429⟩⟦271⟧⟨430⟩⟦197⟧⟨431⟩⟦206⟧⟨432⟩
+[List of Interstate Highways in Texas] ⟦269⟧⟨433⟩⟦287⟧⟨434⟩⟦291⟧⟨435⟩⟦210⟧⟨436⟩⟦43⟧⟨437⟩⟦81⟧⟨438⟩⟦81⟧⟨439⟩⟦81⟧⟨440⟩⟦139⟧⟨441⟩⟦158⟧⟨442⟩⟦158⟧⟨443⟩⟦234⟧⟨444⟩⟦206⟧⟨445⟩
+[List of Interstate Highways in Texas] ⟦233⟧⟨446⟩⟦206⟧⟨447⟩⟦19⟧⟨448⟩⟦143⟧⟨449⟩⟦289⟧⟨450⟩⟦178⟧⟨451⟩⟦183⟧⟨452⟩⟦178⟧⟨453⟩⟦124⟧⟨454⟩⟦290⟧⟨455⟩⟦62⟧⟨456⟩⟦41⟧⟨457⟩⟦41⟧⟨458⟩⟦60⟧⟨459⟩⟦80⟧⟨460⟩
+[List of Interstate Highways in Texas] ⟦244⟧⟨461⟩⟦181⟧⟨462⟩⟦125⟧⟨463⟩⟦206⟧⟨464⟩⟦25⟧⟨465⟩⟦143⟧⟨466⟩⟦109⟧⟨467⟩⟦6⟧⟨468⟩⟦143⟧⟨469⟩
+[Interstate 85 in Virginia] ⟦124⟧⟨470⟩⟦124⟧⟨471⟩⟦33⟧⟨472⟩⟦162⟧⟨473⟩⟦233⟧⟨474⟩⟦144⟧⟨475⟩⟦44⟧⟨476⟩⟦164⟧⟨477⟩⟦299⟧⟨478⟩
+[Interstate 85 in Virginia] ⟨479⟩⟦299⟧⟨480⟩⟦230⟧⟨481⟩⟦24⟧⟨482⟩⟦143⟧⟨483⟩⟦249⟧⟨484⟩⟦197⟧⟨485⟩⟦135⟧⟨486⟩⟦61⟧⟨487⟩⟦147⟧⟨488⟩⟦164⟧⟨489⟩
+[Interstate 85 in Virginia] ⟦115⟧⟨490⟩⟦221⟧⟨491⟩⟦162⟧⟨492⟩⟦194⟧⟨493⟩⟦293⟧⟨494⟩⟦297⟧⟨495⟩⟦164⟧⟨496⟩⟦227⟧⟨497⟩⟦106⟧⟨498⟩⟦297⟧⟨499⟩⟦192⟧⟨500⟩⟦192⟧⟨501⟩⟦193⟧⟨502⟩⟦227⟧⟨503⟩⟦106⟧⟨504⟩⟦195⟧⟨505⟩⟦88⟧⟨506⟩⟦106⟧⟨507⟩⟦297⟧⟨508⟩
+[Interstate 85 in Virginia] ⟦230⟧⟨509⟩⟦254⟧⟨510⟩⟦74⟧⟨511⟩⟦260⟧⟨512⟩⟦52⟧⟨513⟩⟦259⟧⟨514⟩⟦160⟧⟨515⟩⟦53⟧⟨516⟩⟦148⟧⟨517⟩
+[Interstate 85 in Virginia] ⟨518⟩⟦48⟧⟨519⟩⟦33⟧⟨520⟩⟦162⟧⟨521⟩⟦247⟧⟨522⟩⟦129⟧⟨523⟩⟦133⟧⟨524⟩⟦299⟧⟨525⟩
+
+[user]
+
+问题：
+What is the population of the town at the intersection of Interstate Highways 77 and  the longest Interstate highway within the borders of Virginia?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

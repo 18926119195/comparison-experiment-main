@@ -1,0 +1,501 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , German
+⟦2⟧ = , Kingston University
+⟦3⟧ = (PGSS
+⟦4⟧ = 1,312 students
+⟦5⟧ = 1990s
+⟦6⟧ = 450 students
+⟦7⟧ = 56 to 60 slots
+⟦8⟧ = 8 August
+⟦9⟧ = a Christian missionary
+⟦10⟧ = a common platform
+⟦11⟧ = a group
+⟦12⟧ = a lab course
+⟦13⟧ = a major figure
+⟦14⟧ = a major spiritual influence
+⟦15⟧ = a member
+⟦16⟧ = a message
+⟦17⟧ = a new faculty
+⟦18⟧ = a number
+⟦19⟧ = a part
+⟦20⟧ = a public coeducational high school
+⟦21⟧ = a renovated version
+⟦22⟧ = a research-style team project
+⟦23⟧ = a social touch
+⟦24⟧ = a specific area
+⟦25⟧ = a strong bond
+⟦26⟧ = a student housing cooperative
+⟦27⟧ = a Swiss chemist
+⟦28⟧ = a Swiss New Testament scholar
+⟦29⟧ = a time
+⟦30⟧ = a Western university
+⟦31⟧ = academic work
+⟦32⟧ = academics
+⟦33⟧ = addition
+⟦34⟧ = Admission
+⟦35⟧ = AIDS awareness
+⟦36⟧ = aim
+⟦37⟧ = an annual summer school
+⟦38⟧ = an Army display
+⟦39⟧ = an English-language high school debate league
+⟦40⟧ = an enrollment
+⟦41⟧ = an extended period
+⟦42⟧ = an honorary Doctorate
+⟦43⟧ = an impressive number
+⟦44⟧ = an organized reunion
+⟦45⟧ = any college
+⟦46⟧ = application
+⟦47⟧ = appropriate research skills
+⟦48⟧ = Approximately 400 students
+⟦49⟧ = April
+⟦50⟧ = area
+⟦51⟧ = around 12,000 students
+⟦52⟧ = around 50,000 students
+⟦53⟧ = Arthur Glasser
+⟦54⟧ = artists
+⟦55⟧ = arts
+⟦56⟧ = at least one event
+⟦57⟧ = athletic programs
+⟦58⟧ = Auto Shows
+⟦59⟧ = awareness
+⟦60⟧ = Beijing
+⟦61⟧ = Biblical Studies
+⟦62⟧ = Biology
+⟦63⟧ = BMVA
+⟦64⟧ = BMVA Summer School
+⟦65⟧ = Bombay Vikings
+⟦66⟧ = bond
+⟦67⟧ = both UK
+⟦68⟧ = British Columbia
+⟦69⟧ = buildings
+⟦70⟧ = caeeers
+⟦71⟧ = calendar
+⟦72⟧ = California
+⟦73⟧ = camaraderie
+⟦74⟧ = campus
+⟦75⟧ = Carnegie Mellon University
+⟦76⟧ = championship
+⟦77⟧ = chemist
+⟦78⟧ = Chemistry
+⟦79⟧ = Chicago
+⟦80⟧ = China
+⟦81⟧ = China's first ever English-language high school national debate tournaments
+⟦82⟧ = China's Lost Generation
+⟦83⟧ = cities
+⟦84⟧ = city
+⟦85⟧ = classes
+⟦86⟧ = college
+⟦87⟧ = colleges
+⟦88⟧ = competition
+⟦89⟧ = competition - students
+⟦90⟧ = computer
+⟦91⟧ = Computer Science
+⟦92⟧ = computer vision
+⟦93⟧ = Computer Vision research
+⟦94⟧ = contacts
+⟦95⟧ = conversion
+⟦96⟧ = cooperation
+⟦97⟧ = cooperative
+⟦98⟧ = core
+⟦99⟧ = Cornell University
+⟦100⟧ = course
+⟦101⟧ = courses
+⟦102⟧ = cultural landmark
+⟦103⟧ = curriculum
+⟦104⟧ = Dagar
+⟦105⟧ = Dartmouth College
+⟦106⟧ = day
+⟦107⟧ = days
+⟦108⟧ = debate
+⟦109⟧ = decade
+⟦110⟧ = development
+⟦111⟧ = diploma
+⟦112⟧ = display
+⟦113⟧ = districts
+⟦114⟧ = Donald B. Fullerton
+⟦115⟧ = Doors
+⟦116⟧ = dorm
+⟦117⟧ = dormitories
+⟦118⟧ = Dr. Fullerton
+⟦119⟧ = Eduard Schweizer
+⟦120⟧ = efforts
+⟦121⟧ = electives
+⟦122⟧ = emphasis
+⟦123⟧ = Engineering
+⟦124⟧ = Engineering and Management institutes
+⟦125⟧ = enrollment
+⟦126⟧ = Essene Hall
+⟦127⟧ = event
+⟦128⟧ = events
+⟦129⟧ = Excellence
+⟦130⟧ = existing technical courses
+⟦131⟧ = faculty
+⟦132⟧ = faith
+⟦133⟧ = fees
+⟦134⟧ = festival
+⟦135⟧ = figure
+⟦136⟧ = film
+⟦137⟧ = filming locations
+⟦138⟧ = five "core" courses
+⟦139⟧ = five-week summer programs
+⟦140⟧ = format
+⟦141⟧ = friendship
+⟦142⟧ = generation
+⟦143⟧ = gifted high school students
+⟦144⟧ = Grace Theological Seminary
+⟦145⟧ = grades
+⟦146⟧ = Green Day
+⟦147⟧ = group
+⟦148⟧ = Hardman-Hansen
+⟦149⟧ = Hardman-Hansen Hall
+⟦150⟧ = Hariharan
+⟦151⟧ = Hariprasad Chaurasia
+⟦152⟧ = Harvard College Mentors
+⟦153⟧ = Harvard University
+⟦154⟧ = his conversion
+⟦155⟧ = his evangelistic efforts
+⟦156⟧ = his time
+⟦157⟧ = horror
+⟦158⟧ = housing
+⟦159⟧ = housing UCLA students
+⟦160⟧ = image
+⟦161⟧ = Image Computing and Pattern Recognition
+⟦162⟧ = image processing
+⟦163⟧ = inception
+⟦164⟧ = Indus Creed
+⟦165⟧ = influence
+⟦166⟧ = institutes
+⟦167⟧ = interest
+⟦168⟧ = its academics
+⟦169⟧ = its debate workshops
+⟦170⟧ = its inception
+⟦171⟧ = its name
+⟦172⟧ = its national debate championship
+⟦173⟧ = its regional or national tournaments
+⟦174⟧ = its students
+⟦175⟧ = Jim Morrison
+⟦176⟧ = July
+⟦177⟧ = K. J. Somaiya College
+⟦178⟧ = KK
+⟦179⟧ = knowledge
+⟦180⟧ = lab
+⟦181⟧ = landmark
+⟦182⟧ = language
+⟦183⟧ = law
+⟦184⟧ = league
+⟦185⟧ = lectures
+⟦186⟧ = lives
+⟦187⟧ = lobby
+⟦188⟧ = local students
+⟦189⟧ = locations
+⟦190⟧ = Los Angeles
+⟦191⟧ = Louis Banks
+⟦192⟧ = magnitude
+⟦193⟧ = Mainland China
+⟦194⟧ = Manchester
+⟦195⟧ = Many students
+⟦196⟧ = Margaret Cho
+⟦197⟧ = material
+⟦198⟧ = Mathematics
+⟦199⟧ = Matthias Eduard Schweizer
+⟦200⟧ = May
+⟦201⟧ = medicine
+⟦202⟧ = member
+⟦203⟧ = memories
+⟦204⟧ = message
+⟦205⟧ = Ministry
+⟦206⟧ = missionary
+⟦207⟧ = more than 33 cities
+⟦208⟧ = more than 9000 students
+⟦209⟧ = music
+⟦210⟧ = musical arts
+⟦211⟧ = name
+⟦212⟧ = NHSDLC
+⟦213⟧ = non-UK students
+⟦214⟧ = non-UK universities
+⟦215⟧ = number
+⟦216⟧ = numerous electives
+⟦217⟧ = organization
+⟦218⟧ = other districts
+⟦219⟧ = other students
+⟦220⟧ = over 26,000 students
+⟦221⟧ = over five days
+⟦222⟧ = Parikrama
+⟦223⟧ = part
+⟦224⟧ = Participants
+⟦225⟧ = pattern
+⟦226⟧ = Pattern Recognition
+⟦227⟧ = Paul Pressler
+⟦228⟧ = peers
+⟦229⟧ = Peking University
+⟦230⟧ = Penn
+⟦231⟧ = Pennsylvania
+⟦232⟧ = Pennsylvania high school students
+⟦233⟧ = period
+⟦234⟧ = PGSS
+⟦235⟧ = phase
+⟦236⟧ = philosophy
+⟦237⟧ = Physics
+⟦238⟧ = Physics Professor Dr. Barry Luokkala
+⟦239⟧ = Pittsburgh
+⟦240⟧ = platform
+⟦241⟧ = popularity
+⟦242⟧ = Port Moody
+⟦243⟧ = Port Moody Secondary
+⟦244⟧ = Port Moody Secondary School
+⟦245⟧ = postgraduate
+⟦246⟧ = postgraduate training
+⟦247⟧ = practicals
+⟦248⟧ = Princeton University
+⟦249⟧ = processing
+⟦250⟧ = program
+⟦251⟧ = programme
+⟦252⟧ = programs
+⟦253⟧ = project
+⟦254⟧ = Pt
+⟦255⟧ = Pt ShivKumar Sharma
+⟦256⟧ = recognition
+⟦257⟧ = registration
+⟦258⟧ = research
+⟦259⟧ = researchers
+⟦260⟧ = resurgence
+⟦261⟧ = reunion
+⟦262⟧ = Richard Neutra
+⟦263⟧ = Robison Hall
+⟦264⟧ = Robison Halls
+⟦265⟧ = Santa Monica College
+⟦266⟧ = scholar
+⟦267⟧ = school
+⟦268⟧ = schools
+⟦269⟧ = science
+⟦270⟧ = selectivities
+⟦271⟧ = Shows
+⟦272⟧ = simply NHSDLC
+⟦273⟧ = skills
+⟦274⟧ = slots
+⟦275⟧ = Society
+⟦276⟧ = staff
+⟦277⟧ = stage
+⟦278⟧ = state
+⟦279⟧ = strong camaraderie
+⟦280⟧ = structured social events
+⟦281⟧ = student
+⟦282⟧ = students
+⟦283⟧ = students' knowledge
+⟦284⟧ = style
+⟦285⟧ = summer
+⟦286⟧ = Sunrise International Education
+⟦287⟧ = Suraj Jagan
+⟦288⟧ = Swansea
+⟦289⟧ = Switzerland
+⟦290⟧ = Symphony
+⟦291⟧ = talents
+⟦292⟧ = Taufiq Qureshi
+⟦293⟧ = teacher
+⟦294⟧ = team
+⟦295⟧ = teamwork
+⟦296⟧ = techniques
+⟦297⟧ = the 1982 horror film
+⟦298⟧ = the 4th week
+⟦299⟧ = the active researchers
+⟦300⟧ = The aim
+⟦301⟧ = the annual cultural festival
+⟦302⟧ = the area
+⟦303⟧ = the British Machine Vision Association
+⟦304⟧ = the Burkitt Medal
+⟦305⟧ = the Career Preparation Program
+⟦306⟧ = the Chicago Debate Society
+⟦307⟧ = the Christian faith
+⟦308⟧ = the city
+⟦309⟧ = the classical, vocal and instrumental music
+⟦310⟧ = the Conservative resurgence
+⟦311⟧ = The course
+⟦312⟧ = The curriculum
+⟦313⟧ = The Doors
+⟦314⟧ = The Dorm
+⟦315⟧ = the dorm lobby
+⟦316⟧ = the dormitories
+⟦317⟧ = the early 1990s
+⟦318⟧ = The Economist
+⟦319⟧ = The emphasis
+⟦320⟧ = The event
+⟦321⟧ = the existing colleges
+⟦322⟧ = the full five weeks
+⟦323⟧ = the International Baccalaureate diploma programme tracks
+⟦324⟧ = the International Baccalaureate Program
+⟦325⟧ = the Keswick Bible Conference
+⟦326⟧ = the Landfair Apartments
+⟦327⟧ = the largest university
+⟦328⟧ = the last decade
+⟦329⟧ = the magnitude
+⟦330⟧ = The main aim
+⟦331⟧ = the material
+⟦332⟧ = the memories
+⟦333⟧ = the most scientifically gifted students
+⟦334⟧ = The National High School Debate League
+⟦335⟧ = the NHSDLC
+⟦336⟧ = the noted Reformed theologian John Frame
+⟦337⟧ = The organization
+⟦338⟧ = the past three years
+⟦339⟧ = The Pennsylvania Governor's School
+⟦340⟧ = the Pennsylvania Governor's Schools
+⟦341⟧ = the pre-International Baccalaureate Diploma programme
+⟦342⟧ = the Princeton Evangelical Fellowship
+⟦343⟧ = the Princeton University Class
+⟦344⟧ = the program
+⟦345⟧ = the Public Forum debate format
+⟦346⟧ = The registration fees
+⟦347⟧ = The Residence Life staff
+⟦348⟧ = The school
+⟦349⟧ = the Sciences
+⟦350⟧ = the scientific knowledge
+⟦351⟧ = the social calendar
+⟦352⟧ = the social development
+⟦353⟧ = the Southern Baptist Convention
+⟦354⟧ = the Stanford Youth Debate Initiative
+⟦355⟧ = the state
+⟦356⟧ = The students
+⟦357⟧ = The summer school
+⟦358⟧ = the talents
+⟦359⟧ = the times
+⟦360⟧ = the truth
+⟦361⟧ = the UCLA campus
+⟦362⟧ = the UCLA Extension
+⟦363⟧ = The University
+⟦364⟧ = the world's most selectivities
+⟦365⟧ = the Yale Debate Association
+⟦366⟧ = their application
+⟦367⟧ = their early stage
+⟦368⟧ = their junior and senior years
+⟦369⟧ = their lives
+⟦370⟧ = their own generation
+⟦371⟧ = their peers
+⟦372⟧ = theologian
+⟦373⟧ = theology
+⟦374⟧ = this festival
+⟦375⟧ = this phase
+⟦376⟧ = three buildings
+⟦377⟧ = time
+⟦378⟧ = times
+⟦379⟧ = topics
+⟦380⟧ = touch
+⟦381⟧ = tournaments
+⟦382⟧ = tracks
+⟦383⟧ = training
+⟦384⟧ = truth
+⟦385⟧ = UC Berkeley
+⟦386⟧ = UCHA
+⟦387⟧ = UCLA
+⟦388⟧ = UK
+⟦389⟧ = Universität Zürich
+⟦390⟧ = universities
+⟦391⟧ = university
+⟦392⟧ = University Cooperative Housing Association
+⟦393⟧ = Urban Debate
+⟦394⟧ = Ustad Zakir Hussain
+⟦395⟧ = UZH
+⟦396⟧ = various institutes
+⟦397⟧ = various universities
+⟦398⟧ = version
+⟦399⟧ = vision
+⟦400⟧ = visual arts
+⟦401⟧ = week
+⟦402⟧ = weeks
+⟦403⟧ = Westwood
+⟦404⟧ = work
+⟦405⟧ = workshops
+⟦406⟧ = world
+⟦407⟧ = year
+⟦408⟧ = years
+⟦409⟧ = Youth Debate
+⟦410⟧ = Zurich
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[University of Zurich] ⟦363⟧⟨1⟩⟦410⟧⟨2⟩⟦395⟧⟨3⟩⟦1⟧⟨4⟩⟦389⟧⟨5⟩⟦308⟧⟨6⟩⟦84⟧⟨7⟩⟦410⟧⟨8⟩⟦327⟧⟨9⟩⟦391⟧⟨10⟩⟦289⟧⟨11⟩⟦220⟧⟨12⟩⟦282⟧⟨13⟩
+[University of Zurich] ⟨14⟩⟦321⟧⟨15⟩⟦87⟧⟨16⟩⟦373⟧⟨17⟩⟦373⟧⟨18⟩⟦183⟧⟨19⟩⟦183⟧⟨20⟩⟦201⟧⟨21⟩⟦201⟧⟨22⟩⟦17⟧⟨23⟩⟦131⟧⟨24⟩⟦236⟧⟨25⟩⟦236⟧⟨26⟩
+[BMVA Summer School] ⟦64⟧⟨27⟩⟦37⟧⟨28⟩⟦285⟧⟨29⟩⟦267⟧⟨30⟩⟦90⟧⟨31⟩⟦92⟧⟨32⟩⟦399⟧⟨33⟩⟦303⟧⟨34⟩⟦275⟧⟨35⟩⟦226⟧⟨36⟩⟦63⟧⟨37⟩
+[BMVA Summer School] ⟦311⟧⟨38⟩⟦100⟧⟨39⟩⟦221⟧⟨40⟩⟦107⟧⟨41⟩⟦185⟧⟨42⟩⟦185⟧⟨43⟩⟦247⟧⟨44⟩⟦247⟧⟨45⟩⟦379⟧⟨46⟩⟦379⟧⟨47⟩⟦160⟧⟨48⟩⟦162⟧⟨49⟩⟦249⟧⟨50⟩⟦90⟧⟨51⟩⟦92⟧⟨52⟩⟦399⟧⟨53⟩⟦225⟧⟨54⟩⟦226⟧⟨55⟩⟦256⟧⟨56⟩
+[BMVA Summer School] ⟨57⟩⟦311⟧⟨58⟩⟦100⟧⟨59⟩⟦331⟧⟨60⟩⟦197⟧⟨61⟩⟦130⟧⟨62⟩⟦101⟧⟨63⟩⟦282⟧⟨64⟩⟦259⟧⟨65⟩⟦259⟧⟨66⟩⟦367⟧⟨67⟩⟦277⟧⟨68⟩⟦245⟧⟨69⟩⟦246⟧⟨70⟩⟦383⟧⟨71⟩⟦70⟧⟨72⟩⟦70⟧⟨73⟩
+[BMVA Summer School] ⟨74⟩⟦59⟧⟨75⟩⟦59⟧⟨76⟩⟦179⟧⟨77⟩⟦179⟧⟨78⟩⟦296⟧⟨79⟩⟦296⟧⟨80⟩⟦399⟧⟨81⟩⟦161⟧⟨82⟩⟦47⟧⟨83⟩⟦258⟧⟨84⟩⟦273⟧⟨85⟩⟦282⟧⟨86⟩⟦282⟧⟨87⟩⟦371⟧⟨88⟩⟦228⟧⟨89⟩⟦94⟧⟨90⟩⟦94⟧⟨91⟩⟦299⟧⟨92⟩⟦259⟧⟨93⟩⟦370⟧⟨94⟩⟦142⟧⟨95⟩
+[BMVA Summer School] ⟨96⟩⟦282⟧⟨97⟩⟦282⟧⟨98⟩⟦67⟧⟨99⟩⟦214⟧⟨100⟩⟦390⟧⟨101⟩
+[BMVA Summer School] ⟦346⟧⟨102⟩⟦257⟧⟨103⟩⟦133⟧⟨104⟩⟦377⟧⟨105⟩⟦377⟧⟨106⟩⟦257⟧⟨107⟩⟦257⟧⟨108⟩⟦213⟧⟨109⟩⟦282⟧⟨110⟩
+[BMVA Summer School] ⟦357⟧⟨111⟩⟦285⟧⟨112⟩⟦267⟧⟨113⟩⟦397⟧⟨114⟩⟦390⟧⟨115⟩⟦388⟧⟨116⟩⟦93⟧⟨117⟩⟦258⟧⟨118⟩⟦2⟧⟨119⟩⟦363⟧⟨120⟩⟦194⟧⟨121⟩⟦288⟧⟨122⟩⟦391⟧⟨123⟩
+[University Cooperative Housing Association] ⟦392⟧⟨124⟩⟦386⟧⟨125⟩⟦26⟧⟨126⟩⟦281⟧⟨127⟩⟦158⟧⟨128⟩⟦97⟧⟨129⟩⟦403⟧⟨130⟩⟦190⟧⟨131⟩⟦72⟧⟨132⟩⟦74⟧⟨133⟩
+[University Cooperative Housing Association] ⟦48⟧⟨134⟩⟦282⟧⟨135⟩⟦33⟧⟨136⟩⟦33⟧⟨137⟩⟦158⟧⟨138⟩⟦159⟧⟨139⟩⟦282⟧⟨140⟩⟦386⟧⟨141⟩⟦158⟧⟨142⟩⟦158⟧⟨143⟩⟦282⟧⟨144⟩⟦282⟧⟨145⟩⟦45⟧⟨146⟩⟦86⟧⟨147⟩⟦362⟧⟨148⟩⟦265⟧⟨149⟩
+[University Cooperative Housing Association] ⟦386⟧⟨150⟩⟦376⟧⟨151⟩⟦69⟧⟨152⟩⟦149⟧⟨153⟩⟦126⟧⟨154⟩⟦263⟧⟨155⟩⟦21⟧⟨156⟩⟦398⟧⟨157⟩⟦326⟧⟨158⟩⟦102⟧⟨159⟩⟦181⟧⟨160⟩⟦262⟧⟨161⟩
+[University Cooperative Housing Association] ⟦175⟧⟨162⟩⟦313⟧⟨163⟩⟦115⟧⟨164⟩⟦386⟧⟨165⟩⟦156⟧⟨166⟩⟦377⟧⟨167⟩⟦387⟧⟨168⟩
+[University Cooperative Housing Association] ⟦146⟧⟨169⟩⟦196⟧⟨170⟩⟦386⟧⟨171⟩⟦317⟧⟨172⟩⟦5⟧⟨173⟩
+[University Cooperative Housing Association] ⟨174⟩⟦33⟧⟨175⟩⟦33⟧⟨176⟩⟦361⟧⟨177⟩⟦74⟧⟨178⟩⟦148⟧⟨179⟩⟦264⟧⟨180⟩⟦137⟧⟨181⟩⟦189⟧⟨182⟩⟦297⟧⟨183⟩⟦157⟧⟨184⟩⟦136⟧⟨185⟩⟦314⟧⟨186⟩
+[University Cooperative Housing Association] ⟦195⟧⟨187⟩⟦282⟧⟨188⟩⟦82⟧⟨189⟩⟦387⟧⟨190⟩⟦386⟧⟨191⟩
+[Eduard Schweizer] ⟦119⟧⟨192⟩⟦28⟧⟨193⟩⟦266⟧⟨194⟩⟦363⟧⟨195⟩⟦410⟧⟨196⟩⟦41⟧⟨197⟩⟦233⟧⟨198⟩
+[Eduard Schweizer] ⟨199⟩⟦304⟧⟨200⟩⟦61⟧⟨201⟩
+[National High School Debate League of China] ⟦334⟧⟨202⟩⟦80⟧⟨203⟩⟦272⟧⟨204⟩⟦39⟧⟨205⟩⟦182⟧⟨206⟩⟦267⟧⟨207⟩⟦108⟧⟨208⟩⟦184⟧⟨209⟩⟦193⟧⟨210⟩
+[National High School Debate League of China] ⟨211⟩⟦345⟧⟨212⟩⟦108⟧⟨213⟩⟦140⟧⟨214⟩
+[National High School Debate League of China] ⟨215⟩⟦407⟧⟨216⟩⟦335⟧⟨217⟩⟦52⟧⟨218⟩⟦282⟧⟨219⟩⟦169⟧⟨220⟩⟦108⟧⟨221⟩⟦405⟧⟨222⟩⟦51⟧⟨223⟩⟦282⟧⟨224⟩⟦173⟧⟨225⟩⟦381⟧⟨226⟩⟦207⟧⟨227⟩⟦83⟧⟨228⟩⟦80⟧⟨229⟩
+[National High School Debate League of China] ⟨230⟩⟦318⟧⟨231⟩⟦195⟧⟨232⟩⟦282⟧⟨233⟩⟦366⟧⟨234⟩⟦46⟧⟨235⟩⟦30⟧⟨236⟩⟦391⟧⟨237⟩
+[National High School Debate League of China] ⟨238⟩⟦81⟧⟨239⟩⟦182⟧⟨240⟩⟦267⟧⟨241⟩⟦108⟧⟨242⟩⟦381⟧⟨243⟩⟦188⟧⟨244⟩⟦282⟧⟨245⟩⟦229⟧⟨246⟩⟦200⟧⟨247⟩
+[National High School Debate League of China] ⟨248⟩⟦407⟧⟨249⟩⟦172⟧⟨250⟩⟦108⟧⟨251⟩⟦76⟧⟨252⟩⟦60⟧⟨253⟩⟦6⟧⟨254⟩⟦282⟧⟨255⟩⟦80⟧⟨256⟩
+[National High School Debate League of China] ⟦212⟧⟨257⟩⟦152⟧⟨258⟩⟦393⟧⟨259⟩⟦230⟧⟨260⟩⟦409⟧⟨261⟩⟦306⟧⟨262⟩⟦365⟧⟨263⟩⟦286⟧⟨264⟩⟦354⟧⟨265⟩
+[Donald B. Fullerton] ⟦114⟧⟨266⟩⟦176⟧⟨267⟩⟦49⟧⟨268⟩⟦9⟧⟨269⟩⟦206⟧⟨270⟩⟦293⟧⟨271⟩⟦293⟧⟨272⟩⟦342⟧⟨273⟩
+[Donald B. Fullerton] ⟨274⟩⟦195⟧⟨275⟩⟦282⟧⟨276⟩⟦248⟧⟨277⟩⟦360⟧⟨278⟩⟦384⟧⟨279⟩⟦307⟧⟨280⟩⟦132⟧⟨281⟩
+[Donald B. Fullerton] ⟦53⟧⟨282⟩⟦154⟧⟨283⟩⟦95⟧⟨284⟩⟦118⟧⟨285⟩⟦325⟧⟨286⟩
+[Donald B. Fullerton] ⟨287⟩⟦33⟧⟨288⟩⟦33⟧⟨289⟩⟦155⟧⟨290⟩⟦120⟧⟨291⟩⟦118⟧⟨292⟩⟦14⟧⟨293⟩⟦165⟧⟨294⟩⟦195⟧⟨295⟩⟦282⟧⟨296⟩⟦227⟧⟨297⟩⟦13⟧⟨298⟩⟦135⟧⟨299⟩⟦310⟧⟨300⟩⟦260⟧⟨301⟩⟦353⟧⟨302⟩⟦336⟧⟨303⟩⟦372⟧⟨304⟩
+[Donald B. Fullerton] ⟨305⟩⟦15⟧⟨306⟩⟦202⟧⟨307⟩⟦343⟧⟨308⟩⟦42⟧⟨309⟩⟦205⟧⟨310⟩⟦144⟧⟨311⟩
+[Matthias Eduard Schweizer] ⟦199⟧⟨312⟩⟦8⟧⟨313⟩⟦27⟧⟨314⟩⟦77⟧⟨315⟩
+[Port Moody Secondary School] ⟦244⟧⟨316⟩⟦20⟧⟨317⟩⟦267⟧⟨318⟩⟦242⟧⟨319⟩⟦68⟧⟨320⟩
+[Port Moody Secondary School] ⟦348⟧⟨321⟩⟦267⟧⟨322⟩⟦324⟧⟨323⟩⟦305⟧⟨324⟩⟦174⟧⟨325⟩⟦282⟧⟨326⟩⟦195⟧⟨327⟩⟦282⟧⟨328⟩⟦218⟧⟨329⟩⟦113⟧⟨330⟩
+[Port Moody Secondary School] ⟨331⟩⟦48⟧⟨332⟩⟦282⟧⟨333⟩⟦341⟧⟨334⟩⟦251⟧⟨335⟩⟦323⟧⟨336⟩⟦111⟧⟨337⟩⟦251⟧⟨338⟩⟦382⟧⟨339⟩
+[Port Moody Secondary School] ⟦243⟧⟨340⟩⟦302⟧⟨341⟩⟦50⟧⟨342⟩⟦43⟧⟨343⟩⟦215⟧⟨344⟩⟦282⟧⟨345⟩⟦282⟧⟨346⟩⟦364⟧⟨347⟩⟦406⟧⟨348⟩⟦270⟧⟨349⟩⟦390⟧⟨350⟩⟦390⟧⟨351⟩
+[Port Moody Secondary School] ⟨352⟩⟦338⟧⟨353⟩⟦408⟧⟨354⟩⟦282⟧⟨355⟩⟦282⟧⟨356⟩⟦268⟧⟨357⟩⟦268⟧⟨358⟩⟦153⟧⟨359⟩⟦248⟧⟨360⟩⟦391⟧⟨361⟩⟦79⟧⟨362⟩⟦391⟧⟨363⟩⟦231⟧⟨364⟩⟦99⟧⟨365⟩⟦385⟧⟨366⟩⟦105⟧⟨367⟩
+[Port Moody Secondary School] ⟦242⟧⟨368⟩⟦145⟧⟨369⟩⟦145⟧⟨370⟩⟦40⟧⟨371⟩⟦125⟧⟨372⟩⟦4⟧⟨373⟩⟦282⟧⟨374⟩
+[Port Moody Secondary School] ⟦348⟧⟨375⟩⟦267⟧⟨376⟩⟦168⟧⟨377⟩⟦32⟧⟨378⟩⟦400⟧⟨379⟩⟦55⟧⟨380⟩⟦210⟧⟨381⟩⟦55⟧⟨382⟩⟦57⟧⟨383⟩⟦252⟧⟨384⟩
+[Pennsylvania Governor's School for the Sciences] ⟦339⟧⟨385⟩⟦349⟧⟨386⟩⟦3⟧⟨387⟩⟦340⟧⟨388⟩⟦129⟧⟨389⟩⟦11⟧⟨390⟩⟦147⟧⟨391⟩⟦139⟧⟨392⟩⟦401⟧⟨393⟩⟦285⟧⟨394⟩⟦252⟧⟨395⟩⟦143⟧⟨396⟩⟦267⟧⟨397⟩⟦282⟧⟨398⟩⟦355⟧⟨399⟩⟦278⟧⟨400⟩⟦231⟧⟨401⟩
+[Pennsylvania Governor's School for the Sciences] ⟦75⟧⟨402⟩⟦239⟧⟨403⟩⟦344⟧⟨404⟩⟦250⟧⟨405⟩⟦170⟧⟨406⟩⟦163⟧⟨407⟩
+[Pennsylvania Governor's School for the Sciences] ⟨408⟩⟦56⟧⟨409⟩⟦127⟧⟨410⟩⟦106⟧⟨411⟩⟦106⟧⟨412⟩⟦351⟧⟨413⟩⟦71⟧⟨414⟩⟦315⟧⟨415⟩⟦116⟧⟨416⟩⟦187⟧⟨417⟩
+[Pennsylvania Governor's School for the Sciences] ⟨418⟩⟦195⟧⟨419⟩⟦282⟧⟨420⟩⟦352⟧⟨421⟩⟦110⟧⟨422⟩⟦344⟧⟨423⟩⟦250⟧⟨424⟩⟦350⟧⟨425⟩⟦179⟧⟨426⟩
+[Pennsylvania Governor's School for the Sciences] ⟦356⟧⟨427⟩⟦282⟧⟨428⟩⟦344⟧⟨429⟩⟦250⟧⟨430⟩⟦25⟧⟨431⟩⟦66⟧⟨432⟩⟦44⟧⟨433⟩⟦261⟧⟨434⟩⟦407⟧⟨435⟩⟦298⟧⟨436⟩⟦401⟧⟨437⟩⟦344⟧⟨438⟩⟦250⟧⟨439⟩
+[Pennsylvania Governor's School for the Sciences] ⟨440⟩⟦238⟧⟨441⟩
+[Pennsylvania Governor's School for the Sciences] ⟦224⟧⟨442⟩⟦224⟧⟨443⟩⟦232⟧⟨444⟩⟦267⟧⟨445⟩⟦282⟧⟨446⟩⟦368⟧⟨447⟩⟦408⟧⟨448⟩⟦316⟧⟨449⟩⟦117⟧⟨450⟩⟦322⟧⟨451⟩⟦402⟧⟨452⟩⟦344⟧⟨453⟩⟦250⟧⟨454⟩
+[Pennsylvania Governor's School for the Sciences] ⟦34⟧⟨455⟩⟦333⟧⟨456⟩⟦282⟧⟨457⟩⟦355⟧⟨458⟩⟦278⟧⟨459⟩⟦7⟧⟨460⟩⟦274⟧⟨461⟩⟦344⟧⟨462⟩⟦250⟧⟨463⟩
+[Pennsylvania Governor's School for the Sciences] ⟦300⟧⟨464⟩⟦36⟧⟨465⟩⟦234⟧⟨466⟩⟦167⟧⟨467⟩⟦167⟧⟨468⟩⟦269⟧⟨469⟩⟦269⟧⟨470⟩⟦282⟧⟨471⟩⟦283⟧⟨472⟩⟦179⟧⟨473⟩⟦24⟧⟨474⟩⟦50⟧⟨475⟩
+[Pennsylvania Governor's School for the Sciences] ⟦312⟧⟨476⟩⟦103⟧⟨477⟩⟦138⟧⟨478⟩⟦98⟧⟨479⟩⟦101⟧⟨480⟩⟦62⟧⟨481⟩⟦78⟧⟨482⟩⟦91⟧⟨483⟩⟦198⟧⟨484⟩⟦237⟧⟨485⟩⟦216⟧⟨486⟩⟦121⟧⟨487⟩
+[Pennsylvania Governor's School for the Sciences] ⟨488⟩⟦33⟧⟨489⟩⟦33⟧⟨490⟩⟦85⟧⟨491⟩⟦85⟧⟨492⟩⟦282⟧⟨493⟩⟦282⟧⟨494⟩⟦12⟧⟨495⟩⟦180⟧⟨496⟩⟦100⟧⟨497⟩⟦22⟧⟨498⟩⟦258⟧⟨499⟩⟦284⟧⟨500⟩⟦294⟧⟨501⟩⟦253⟧⟨502⟩
+[Pennsylvania Governor's School for the Sciences] ⟦319⟧⟨503⟩⟦122⟧⟨504⟩⟦96⟧⟨505⟩⟦96⟧⟨506⟩⟦88⟧⟨507⟩⟦89⟧⟨508⟩⟦282⟧⟨509⟩⟦219⟧⟨510⟩⟦282⟧⟨511⟩⟦31⟧⟨512⟩⟦404⟧⟨513⟩
+[Pennsylvania Governor's School for the Sciences] ⟦347⟧⟨514⟩⟦276⟧⟨515⟩⟦18⟧⟨516⟩⟦215⟧⟨517⟩⟦280⟧⟨518⟩⟦128⟧⟨519⟩⟦141⟧⟨520⟩⟦141⟧⟨521⟩⟦295⟧⟨522⟩⟦295⟧⟨523⟩
+[KJSCE Symphony] ⟦290⟧⟨524⟩⟦301⟧⟨525⟩⟦134⟧⟨526⟩⟦177⟧⟨527⟩⟦123⟧⟨528⟩⟦171⟧⟨529⟩⟦211⟧⟨530⟩⟦241⟧⟨531⟩⟦241⟧⟨532⟩⟦124⟧⟨533⟩⟦166⟧⟨534⟩⟦328⟧⟨535⟩⟦109⟧⟨536⟩
+[KJSCE Symphony] ⟨537⟩⟦407⟧⟨538⟩⟦195⟧⟨539⟩⟦282⟧⟨540⟩⟦396⟧⟨541⟩⟦166⟧⟨542⟩⟦19⟧⟨543⟩⟦223⟧⟨544⟩⟦374⟧⟨545⟩⟦134⟧⟨546⟩
+[KJSCE Symphony] ⟦330⟧⟨547⟩⟦36⟧⟨548⟩⟦358⟧⟨549⟩⟦291⟧⟨550⟩⟦356⟧⟨551⟩⟦282⟧⟨552⟩⟦10⟧⟨553⟩⟦240⟧⟨554⟩⟦167⟧⟨555⟩⟦167⟧⟨556⟩⟦309⟧⟨557⟩⟦209⟧⟨558⟩
+[KJSCE Symphony] ⟦290⟧⟨559⟩⟦208⟧⟨560⟩⟦282⟧⟨561⟩⟦407⟧⟨562⟩
+[KJSCE Symphony] ⟦290⟧⟨563⟩⟦54⟧⟨564⟩⟦54⟧⟨565⟩⟦329⟧⟨566⟩⟦192⟧⟨567⟩⟦254⟧⟨568⟩
+[KJSCE Symphony] ⟦151⟧⟨569⟩⟦255⟧⟨570⟩⟦191⟧⟨571⟩⟦150⟧⟨572⟩⟦164⟧⟨573⟩⟦222⟧⟨574⟩⟦178⟧⟨575⟩⟦65⟧⟨576⟩⟦292⟧⟨577⟩⟦104⟧⟨578⟩⟦287⟧⟨579⟩⟦394⟧⟨580⟩
+[KJSCE Symphony] ⟦320⟧⟨581⟩⟦127⟧⟨582⟩⟦23⟧⟨583⟩⟦380⟧⟨584⟩⟦16⟧⟨585⟩⟦204⟧⟨586⟩⟦359⟧⟨587⟩⟦378⟧⟨588⟩⟦35⟧⟨589⟩⟦59⟧⟨590⟩
+[KJSCE Symphony] ⟨591⟩⟦58⟧⟨592⟩⟦271⟧⟨593⟩⟦38⟧⟨594⟩⟦112⟧⟨595⟩⟦290⟧⟨596⟩
+[KJSCE Symphony] ⟦337⟧⟨597⟩⟦217⟧⟨598⟩⟦282⟧⟨599⟩⟦282⟧⟨600⟩⟦29⟧⟨601⟩⟦377⟧⟨602⟩⟦279⟧⟨603⟩⟦73⟧⟨604⟩⟦295⟧⟨605⟩⟦295⟧⟨606⟩
+[KJSCE Symphony] ⟦195⟧⟨607⟩⟦282⟧⟨608⟩⟦332⟧⟨609⟩⟦203⟧⟨610⟩⟦375⟧⟨611⟩⟦235⟧⟨612⟩⟦369⟧⟨613⟩⟦186⟧⟨614⟩
+
+[user]
+
+问题：
+Eduard Schweizer teaches at a German university with over how many students? 
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

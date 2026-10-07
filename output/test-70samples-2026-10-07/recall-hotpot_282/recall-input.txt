@@ -1,0 +1,411 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "El Batouty
+⟦2⟧ = (Arabic
+⟦3⟧ = (MS990/MSR990
+⟦4⟧ = (N526FE
+⟦5⟧ = 2 February
+⟦6⟧ = 21:48 UTC
+⟦7⟧ = 31 October
+⟦8⟧ = 501(c)(3
+⟦9⟧ = 6:48 am
+⟦10⟧ = 7 March
+⟦11⟧ = a Beech 1900D
+⟦12⟧ = a Boeing
+⟦13⟧ = a contract
+⟦14⟧ = a field
+⟦15⟧ = a former officer
+⟦16⟧ = a founding member
+⟦17⟧ = a hijacker
+⟦18⟧ = a junior first officer rank
+⟦19⟧ = a landing
+⟦20⟧ = a lesser used civil aviation rank
+⟦21⟧ = a Let L-410
+⟦22⟧ = a national 501(c)(3
+⟦23⟧ = a pilot
+⟦24⟧ = a regularly scheduled flight
+⟦25⟧ = a relief pilot
+⟦26⟧ = a repositioning flight
+⟦27⟧ = a rest
+⟦28⟧ = a rest period
+⟦29⟧ = a rice field
+⟦30⟧ = a scheduled cargo flight
+⟦31⟧ = a scheduled domestic passenger flight
+⟦32⟧ = a second officer
+⟦33⟧ = a series
+⟦34⟧ = a stop
+⟦35⟧ = a twin engine turboprop
+⟦36⟧ = about 1404 Local Time
+⟦37⟧ = accident
+⟦38⟧ = action
+⟦39⟧ = actions
+⟦40⟧ = address
+⟦41⟧ = Adisucipto International Airport
+⟦42⟧ = air
+⟦43⟧ = Air Tahoma
+⟦44⟧ = Air Tahoma Flight
+⟦45⟧ = air traffic controllers
+⟦46⟧ = aircraft
+⟦47⟧ = airframe
+⟦48⟧ = airline
+⟦49⟧ = Al-Batouti
+⟦50⟧ = Albany
+⟦51⟧ = all 217 people
+⟦52⟧ = am
+⟦53⟧ = an all visual runway
+⟦54⟧ = an American singer
+⟦55⟧ = another crew member
+⟦56⟧ = any instrument approach guidance
+⟦57⟧ = approach
+⟦58⟧ = art
+⟦59⟧ = attack
+⟦60⟧ = attempt
+⟦61⟧ = attempts
+⟦62⟧ = August
+⟦63⟧ = Aurelio Valle
+⟦64⟧ = autopilot
+⟦65⟧ = aviation
+⟦66⟧ = band
+⟦67⟧ = Barnstable Municipal Airport
+⟦68⟧ = board
+⟦69⟧ = Both the captain
+⟦70⟧ = cabin
+⟦71⟧ = Cairo International Airport
+⟦72⟧ = CALLA
+⟦73⟧ = captain
+⟦74⟧ = Captain Scott Knabe
+⟦75⟧ = cargo
+⟦76⟧ = cases
+⟦77⟧ = cause
+⟦78⟧ = Chiba Prefecture
+⟦79⟧ = Chicago
+⟦80⟧ = China
+⟦81⟧ = Clipper Ships
+⟦82⟧ = Clippers
+⟦83⟧ = co
+⟦84⟧ = cockpit
+⟦85⟧ = Colgan Air
+⟦86⟧ = Colgan Air Flight
+⟦87⟧ = command
+⟦88⟧ = composer
+⟦89⟧ = conditions
+⟦90⟧ = consciousness
+⟦91⟧ = contract
+⟦92⟧ = control
+⟦93⟧ = control inputs
+⟦94⟧ = controllers
+⟦95⟧ = Convair
+⟦96⟧ = coordinates
+⟦97⟧ = courier
+⟦98⟧ = courier firm DHL
+⟦99⟧ = crash
+⟦100⟧ = crashes
+⟦101⟧ = crew
+⟦102⟧ = crews
+⟦103⟧ = CVR transcripts
+⟦104⟧ = D.C.
+⟦105⟧ = Dahl
+⟦106⟧ = deliberate action
+⟦107⟧ = Egypt
+⟦108⟧ = EgyptAir
+⟦109⟧ = EgyptAir Flight
+⟦110⟧ = engine
+⟦111⟧ = engineer
+⟦112⟧ = extended range airline routes
+⟦113⟧ = failure
+⟦114⟧ = FedEx Express Flight
+⟦115⟧ = field
+⟦116⟧ = final approach
+⟦117⟧ = firm
+⟦118⟧ = first officer
+⟦119⟧ = First Officer LeRoy W. Homer Jr
+⟦120⟧ = First Officer Steven Dean
+⟦121⟧ = flames
+⟦122⟧ = flare
+⟦123⟧ = flight
+⟦124⟧ = flight engineer positions
+⟦125⟧ = Foundation
+⟦126⟧ = freight
+⟦127⟧ = freight parcels
+⟦128⟧ = GA200/GIA
+⟦129⟧ = Gameel Al-Batouti
+⟦130⟧ = Gamil El Batouti
+⟦131⟧ = Garuda Indonesia
+⟦132⟧ = gear
+⟦133⟧ = GIA
+⟦134⟧ = ground
+⟦135⟧ = ground fog
+⟦136⟧ = group
+⟦137⟧ = Guangzhou Baiyun International Airport
+⟦138⟧ = guidance
+⟦139⟧ = guitarist
+⟦140⟧ = gusty
+⟦141⟧ = gusty wind conditions
+⟦142⟧ = hijacker
+⟦143⟧ = hijackers
+⟦144⟧ = hijacking
+⟦145⟧ = Hillary Airport
+⟦146⟧ = his work
+⟦147⟧ = Homer
+⟦148⟧ = Illinois
+⟦149⟧ = impact
+⟦150⟧ = Indonesia
+⟦151⟧ = infancy
+⟦152⟧ = injuries
+⟦153⟧ = inputs
+⟦154⟧ = its "Clippers
+⟦155⟧ = its intended target
+⟦156⟧ = Jakarta
+⟦157⟧ = Jarrah's attempts
+⟦158⟧ = jet
+⟦159⟧ = John F. Kennedy International Airport
+⟦160⟧ = JST
+⟦161⟧ = Kingsville
+⟦162⟧ = landing
+⟦163⟧ = LeRoy Homer
+⟦164⟧ = Let
+⟦165⟧ = level
+⟦166⟧ = local visibility
+⟦167⟧ = Los Angeles International Airport
+⟦168⟧ = Lukla's runway
+⟦169⟧ = March
+⟦170⟧ = Massachusetts
+⟦171⟧ = May
+⟦172⟧ = member
+⟦173⟧ = member Peter Gannon
+⟦174⟧ = memory
+⟦175⟧ = Memphis
+⟦176⟧ = mi
+⟦177⟧ = microphones
+⟦178⟧ = mile
+⟦179⟧ = minor injuries
+⟦180⟧ = modern civil aviation
+⟦181⟧ = MS990
+⟦182⟧ = Nantucket Island
+⟦183⟧ = Narita
+⟦184⟧ = Narita International Airport
+⟦185⟧ = Nepal
+⟦186⟧ = New York
+⟦187⟧ = New York City
+⟦188⟧ = New York City/Brooklyn
+⟦189⟧ = non-profit organization
+⟦190⟧ = NTSB
+⟦191⟧ = occupants
+⟦192⟧ = October
+⟦193⟧ = officer
+⟦194⟧ = officers
+⟦195⟧ = one crew member
+⟦196⟧ = order
+⟦197⟧ = organization
+⟦198⟧ = output
+⟦199⟧ = Pan American World Airways
+⟦200⟧ = parcels
+⟦201⟧ = part
+⟦202⟧ = passenger
+⟦203⟧ = passengers
+⟦204⟧ = Pennsylvania
+⟦205⟧ = Pennsylvania2002
+⟦206⟧ = people
+⟦207⟧ = period
+⟦208⟧ = pilot
+⟦209⟧ = pilots
+⟦210⟧ = place
+⟦211⟧ = plane
+⟦212⟧ = position
+⟦213⟧ = positions
+⟦214⟧ = radio
+⟦215⟧ = radio officer
+⟦216⟧ = range
+⟦217⟧ = rank
+⟦218⟧ = recordings
+⟦219⟧ = relief
+⟦220⟧ = relief first officer
+⟦221⟧ = reports
+⟦222⟧ = rest
+⟦223⟧ = result
+⟦224⟧ = rice
+⟦225⟧ = rock
+⟦226⟧ = route
+⟦227⟧ = routes
+⟦228⟧ = runway
+⟦229⟧ = runway level
+⟦230⟧ = Sean Donovan
+⟦231⟧ = September
+⟦232⟧ = series
+⟦233⟧ = Shanksville
+⟦234⟧ = singer
+⟦235⟧ = slope
+⟦236⟧ = some cases
+⟦237⟧ = southeast
+⟦238⟧ = speakers
+⟦239⟧ = Stonycreek Township
+⟦240⟧ = stop
+⟦241⟧ = structural failure
+⟦242⟧ = Summit Air flight
+⟦243⟧ = target
+⟦244⟧ = Tenzing
+⟦245⟧ = Texas
+⟦246⟧ = that group
+⟦247⟧ = the accident
+⟦248⟧ = the aircraft
+⟦249⟧ = the Atlantic Ocean
+⟦250⟧ = the attempt
+⟦251⟧ = the autopilot
+⟦252⟧ = The band
+⟦253⟧ = the cabin address
+⟦254⟧ = The captain
+⟦255⟧ = the Cincinnati/Northern Kentucky International Airport
+⟦256⟧ = the co
+⟦257⟧ = the cockpit
+⟦258⟧ = The Convair
+⟦259⟧ = the crash
+⟦260⟧ = the crew
+⟦261⟧ = the earlier crashes
+⟦262⟧ = the Egyptian Air Force
+⟦263⟧ = the experimental rock group
+⟦264⟧ = the final attack
+⟦265⟧ = the first officer
+⟦266⟧ = the flight
+⟦267⟧ = The flight recordings
+⟦268⟧ = the ground
+⟦269⟧ = the hijackers
+⟦270⟧ = the hijacking
+⟦271⟧ = the infancy
+⟦272⟧ = the initial attack
+⟦273⟧ = the jet's only occupants
+⟦274⟧ = the landing gear
+⟦275⟧ = The LeRoy W. Homer Jr.
+⟦276⟧ = the official probable cause
+⟦277⟧ = the output
+⟦278⟧ = the passengers
+⟦279⟧ = the Pentagon
+⟦280⟧ = the People's Republic
+⟦281⟧ = the pilot
+⟦282⟧ = the pilots' microphones
+⟦283⟧ = the plane
+⟦284⟧ = the plane's target coordinates
+⟦285⟧ = the position
+⟦286⟧ = the primary crews
+⟦287⟧ = the radio transmitter
+⟦288⟧ = the relief first officer
+⟦289⟧ = the route
+⟦290⟧ = the runway
+⟦291⟧ = the runway threshold
+⟦292⟧ = the slope
+⟦293⟧ = The third officer
+⟦294⟧ = the thumb|right|World Trade CenterMelodie
+⟦295⟧ = the time
+⟦296⟧ = The up-slope runway
+⟦297⟧ = the uprising
+⟦298⟧ = The US National Transportation Safety Board
+⟦299⟧ = The World
+⟦300⟧ = these relief pilots
+⟦301⟧ = Third officer
+⟦302⟧ = Third officers
+⟦303⟧ = threshold
+⟦304⟧ = thumb|right|World
+⟦305⟧ = time
+⟦306⟧ = Tokyo
+⟦307⟧ = toLaurel
+⟦308⟧ = toLaurel Homer
+⟦309⟧ = touchdown
+⟦310⟧ = traffic
+⟦311⟧ = transcripts
+⟦312⟧ = transmitter
+⟦313⟧ = trees
+⟦314⟧ = turboprop
+⟦315⟧ = Twenty passengers
+⟦316⟧ = U.S.
+⟦317⟧ = U.S. official reports
+⟦318⟧ = United Airlines Flight
+⟦319⟧ = United States
+⟦320⟧ = uprising
+⟦321⟧ = US Airways Express
+⟦322⟧ = visibility
+⟦323⟧ = visual art
+⟦324⟧ = Washington
+⟦325⟧ = water
+⟦326⟧ = Wayne Magruder
+⟦327⟧ = wind
+⟦328⟧ = work
+⟦329⟧ = yards
+⟦330⟧ = Yarmouth
+⟦331⟧ = Yogyakarta
+⟦332⟧ = البطوطي‎
+⟦333⟧ = جميل
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Summit Air Flight 409] ⟨1⟩⟦171⟧⟨2⟩⟦242⟧⟨3⟩⟦123⟧⟨4⟩⟦21⟧⟨5⟩⟦164⟧⟨6⟩⟦291⟧⟨7⟩⟦228⟧⟨8⟩⟦303⟧⟨9⟩⟦162⟧⟨10⟩⟦162⟧⟨11⟩⟦244⟧⟨12⟩⟦145⟧⟨13⟩⟦185⟧⟨14⟩
+[Summit Air Flight 409] ⟨15⟩⟦116⟧⟨16⟩⟦57⟧⟨17⟩⟦168⟧⟨18⟩⟦228⟧⟨19⟩⟦36⟧⟨20⟩⟦248⟧⟨21⟩⟦46⟧⟨22⟩⟦313⟧⟨23⟩⟦313⟧⟨24⟩⟦290⟧⟨25⟩⟦228⟧⟨26⟩⟦268⟧⟨27⟩⟦134⟧⟨28⟩⟦228⟧⟨29⟩⟦229⟧⟨30⟩⟦165⟧⟨31⟩
+[Summit Air Flight 409] ⟦248⟧⟨32⟩⟦46⟧⟨33⟩⟦292⟧⟨34⟩⟦235⟧⟨35⟩⟦27⟧⟨36⟩⟦222⟧⟨37⟩⟦228⟧⟨38⟩⟦229⟧⟨39⟩⟦165⟧⟨40⟩
+[Summit Air Flight 409] ⟦254⟧⟨41⟩⟦73⟧⟨42⟩⟦265⟧⟨43⟩⟦193⟧⟨44⟩⟦223⟧⟨45⟩⟦223⟧⟨46⟩⟦247⟧⟨47⟩⟦37⟧⟨48⟩⟦55⟧⟨49⟩⟦101⟧⟨50⟩⟦172⟧⟨51⟩⟦152⟧⟨52⟩⟦152⟧⟨53⟩
+[Summit Air Flight 409] ⟨54⟩⟦295⟧⟨55⟩⟦305⟧⟨56⟩⟦247⟧⟨57⟩⟦37⟧⟨58⟩⟦166⟧⟨59⟩⟦322⟧⟨60⟩⟦135⟧⟨61⟩
+[Summit Air Flight 409] ⟦296⟧⟨62⟩⟦235⟧⟨63⟩⟦228⟧⟨64⟩⟦53⟧⟨65⟩⟦228⟧⟨66⟩⟦56⟧⟨67⟩⟦57⟧⟨68⟩⟦138⟧⟨69⟩
+[FedEx Express Flight 80] ⟦114⟧⟨70⟩⟦30⟧⟨71⟩⟦75⟧⟨72⟩⟦123⟧⟨73⟩⟦137⟧⟨74⟩⟦280⟧⟨75⟩⟦80⟧⟨76⟩⟦184⟧⟨77⟩⟦183⟧⟨78⟩⟦78⟧⟨79⟩⟦306⟧⟨80⟩
+[FedEx Express Flight 80] ⟨81⟩⟦169⟧⟨82⟩⟦4⟧⟨83⟩⟦266⟧⟨84⟩⟦123⟧⟨85⟩⟦9⟧⟨86⟩⟦52⟧⟨87⟩⟦160⟧⟨88⟩⟦6⟧⟨89⟩⟦169⟧⟨90⟩⟦19⟧⟨91⟩⟦162⟧⟨92⟩⟦228⟧⟨93⟩⟦140⟧⟨94⟩⟦141⟧⟨95⟩⟦327⟧⟨96⟩⟦89⟧⟨97⟩
+[FedEx Express Flight 80] ⟦248⟧⟨98⟩⟦46⟧⟨99⟩⟦122⟧⟨100⟩⟦122⟧⟨101⟩⟦309⟧⟨102⟩⟦309⟧⟨103⟩⟦241⟧⟨104⟩⟦113⟧⟨105⟩⟦274⟧⟨106⟩⟦162⟧⟨107⟩⟦132⟧⟨108⟩⟦47⟧⟨109⟩⟦47⟧⟨110⟩⟦290⟧⟨111⟩⟦228⟧⟨112⟩
+[FedEx Express Flight 80] ⟦254⟧⟨113⟩⟦73⟧⟨114⟩⟦118⟧⟨115⟩⟦193⟧⟨116⟩⟦273⟧⟨117⟩⟦158⟧⟨118⟩⟦191⟧⟨119⟩
+[Gameel Al-Batouti] ⟦129⟧⟨120⟩⟦2⟧⟨121⟩⟦333⟧⟨122⟩⟦332⟧⟨123⟩⟦130⟧⟨124⟩⟦1⟧⟨125⟩⟦317⟧⟨126⟩⟦221⟧⟨127⟩⟦5⟧⟨128⟩⟦192⟧⟨129⟩⟦23⟧⟨130⟩⟦208⟧⟨131⟩⟦108⟧⟨132⟩⟦15⟧⟨133⟩⟦193⟧⟨134⟩⟦262⟧⟨135⟩
+[Gameel Al-Batouti] ⟨136⟩⟦7⟧⟨137⟩⟦51⟧⟨138⟩⟦206⟧⟨139⟩⟦109⟧⟨140⟩⟦249⟧⟨141⟩⟦176⟧⟨142⟩⟦237⟧⟨143⟩⟦182⟧⟨144⟩⟦170⟧⟨145⟩
+[Gameel Al-Batouti] ⟦298⟧⟨146⟩⟦190⟧⟨147⟩⟦276⟧⟨148⟩⟦77⟧⟨149⟩⟦259⟧⟨150⟩⟦99⟧⟨151⟩⟦33⟧⟨152⟩⟦232⟧⟨153⟩⟦92⟧⟨154⟩⟦93⟧⟨155⟩⟦153⟧⟨156⟩⟦49⟧⟨157⟩⟦285⟧⟨158⟩⟦212⟧⟨159⟩⟦219⟧⟨160⟩⟦220⟧⟨161⟩⟦193⟧⟨162⟩⟦87⟧⟨163⟩⟦87⟧⟨164⟩⟦295⟧⟨165⟩⟦305⟧⟨166⟩⟦259⟧⟨167⟩⟦99⟧⟨168⟩
+[EgyptAir Flight 990] ⟦109⟧⟨169⟩⟦3⟧⟨170⟩⟦181⟧⟨171⟩⟦24⟧⟨172⟩⟦123⟧⟨173⟩⟦167⟧⟨174⟩⟦319⟧⟨175⟩⟦71⟧⟨176⟩⟦107⟧⟨177⟩⟦34⟧⟨178⟩⟦240⟧⟨179⟩⟦159⟧⟨180⟩⟦187⟧⟨181⟩
+[EgyptAir Flight 990] ⟨182⟩⟦192⟧⟨183⟩⟦289⟧⟨184⟩⟦226⟧⟨185⟩⟦249⟧⟨186⟩⟦176⟧⟨187⟩⟦182⟧⟨188⟩⟦170⟧⟨189⟩⟦51⟧⟨190⟩⟦206⟧⟨191⟩⟦68⟧⟨192⟩⟦68⟧⟨193⟩
+[EgyptAir Flight 990] ⟦276⟧⟨194⟩⟦77⟧⟨195⟩⟦259⟧⟨196⟩⟦99⟧⟨197⟩⟦106⟧⟨198⟩⟦38⟧⟨199⟩⟦288⟧⟨200⟩⟦219⟧⟨201⟩⟦193⟧⟨202⟩
+[Garuda Indonesia Flight 200] ⟦131⟧⟨203⟩⟦123⟧⟨204⟩⟦128⟧⟨205⟩⟦133⟧⟨206⟩⟦31⟧⟨207⟩⟦202⟧⟨208⟩⟦123⟧⟨209⟩⟦12⟧⟨210⟩⟦131⟧⟨211⟩⟦156⟧⟨212⟩⟦331⟧⟨213⟩⟦150⟧⟨214⟩
+[Garuda Indonesia Flight 200] ⟦248⟧⟨215⟩⟦46⟧⟨216⟩⟦290⟧⟨217⟩⟦228⟧⟨218⟩⟦29⟧⟨219⟩⟦224⟧⟨220⟩⟦115⟧⟨221⟩⟦121⟧⟨222⟩⟦121⟧⟨223⟩⟦41⟧⟨224⟩⟦10⟧⟨225⟩
+[Garuda Indonesia Flight 200] ⟦315⟧⟨226⟩⟦203⟧⟨227⟩⟦195⟧⟨228⟩⟦101⟧⟨229⟩⟦172⟧⟨230⟩
+[Garuda Indonesia Flight 200] ⟦69⟧⟨231⟩⟦73⟧⟨232⟩⟦265⟧⟨233⟩⟦193⟧⟨234⟩
+[LeRoy W. Homer Jr. Foundation] ⟦275⟧
+[LeRoy W. Homer Jr. Foundation] ⟦125⟧⟨235⟩⟦22⟧⟨236⟩⟦8⟧⟨237⟩⟦189⟧⟨238⟩⟦197⟧⟨239⟩⟦174⟧⟨240⟩⟦174⟧⟨241⟩⟦119⟧⟨242⟩
+[LeRoy W. Homer Jr. Foundation] ⟦259⟧⟨243⟩⟦99⟧⟨244⟩⟦68⟧⟨245⟩⟦68⟧⟨246⟩
+[LeRoy W. Homer Jr. Foundation] ⟨247⟩⟦283⟧⟨248⟩⟦211⟧⟨249⟩⟦90⟧⟨250⟩⟦90⟧⟨251⟩⟦201⟧⟨252⟩⟦201⟧⟨253⟩⟦264⟧⟨254⟩⟦59⟧⟨255⟩⟦283⟧⟨256⟩⟦211⟧⟨257⟩⟦155⟧⟨258⟩⟦243⟧⟨259⟩⟦324⟧⟨260⟩⟦104⟧⟨261⟩
+[LeRoy W. Homer Jr. Foundation] ⟦163⟧⟨262⟩⟦256⟧⟨263⟩⟦83⟧⟨264⟩⟦208⟧⟨265⟩⟦208⟧⟨266⟩⟦318⟧⟨267⟩⟦233⟧⟨268⟩⟦204⟧⟨269⟩⟦231⟧⟨270⟩
+[LeRoy W. Homer Jr. Foundation] ⟦267⟧⟨271⟩⟦123⟧⟨272⟩⟦218⟧⟨273⟩⟦105⟧⟨274⟩⟦147⟧⟨275⟩⟦272⟧⟨276⟩⟦59⟧⟨277⟩⟦269⟧⟨278⟩⟦143⟧⟨279⟩⟦283⟧⟨280⟩⟦211⟧⟨281⟩
+[LeRoy W. Homer Jr. Foundation] ⟨282⟩⟦105⟧⟨283⟩⟦147⟧⟨284⟩⟦39⟧⟨285⟩⟦39⟧⟨286⟩⟦269⟧⟨287⟩⟦143⟧⟨288⟩⟦251⟧⟨289⟩⟦64⟧⟨290⟩⟦269⟧⟨291⟩⟦143⟧⟨292⟩⟦196⟧⟨293⟩⟦196⟧⟨294⟩⟦284⟧⟨295⟩⟦211⟧⟨296⟩⟦243⟧⟨297⟩⟦96⟧⟨298⟩⟦324⟧⟨299⟩⟦104⟧⟨300⟩⟦277⟧⟨301⟩⟦198⟧⟨302⟩⟦282⟧⟨303⟩⟦209⟧⟨304⟩⟦177⟧⟨305⟩⟦253⟧⟨306⟩⟦70⟧⟨307⟩⟦40⟧⟨308⟩⟦238⟧⟨309⟩⟦238⟧⟨310⟩⟦287⟧⟨311⟩⟦214⟧⟨312⟩⟦312⟧⟨313⟩⟦157⟧⟨314⟩⟦61⟧⟨315⟩⟦278⟧⟨316⟩⟦203⟧⟨317⟩⟦42⟧⟨318⟩⟦45⟧⟨319⟩⟦310⟧⟨320⟩⟦94⟧⟨321⟩
+[LeRoy W. Homer Jr. Foundation] ⟨322⟩⟦261⟧⟨323⟩⟦100⟧⟨324⟩⟦294⟧⟨325⟩⟦304⟧⟨326⟩⟦279⟧⟨327⟩⟦260⟧⟨328⟩⟦101⟧⟨329⟩⟦203⟧⟨330⟩⟦203⟧⟨331⟩⟦270⟧⟨332⟩⟦144⟧⟨333⟩⟦248⟧⟨334⟩⟦46⟧⟨335⟩
+[LeRoy W. Homer Jr. Foundation] ⟨336⟩⟦269⟧⟨337⟩⟦143⟧⟨338⟩⟦251⟧⟨339⟩⟦64⟧⟨340⟩
+[LeRoy W. Homer Jr. Foundation] ⟦105⟧⟨341⟩⟦257⟧⟨342⟩⟦84⟧⟨343⟩⟦17⟧⟨344⟩⟦142⟧⟨345⟩⟦251⟧⟨346⟩⟦64⟧⟨347⟩⟦283⟧⟨348⟩⟦211⟧⟨349⟩
+[LeRoy W. Homer Jr. Foundation] ⟦269⟧⟨350⟩⟦143⟧⟨351⟩⟦281⟧⟨352⟩⟦208⟧⟨353⟩⟦281⟧⟨354⟩⟦208⟧⟨355⟩⟦307⟧⟨356⟩⟦308⟧⟨357⟩⟦103⟧⟨358⟩⟦311⟧⟨359⟩
+[LeRoy W. Homer Jr. Foundation] ⟨360⟩⟦297⟧⟨361⟩⟦320⟧⟨362⟩⟦101⟧⟨363⟩⟦101⟧⟨364⟩⟦203⟧⟨365⟩⟦203⟧⟨366⟩⟦210⟧⟨367⟩⟦210⟧⟨368⟩⟦250⟧⟨369⟩⟦60⟧⟨370⟩⟦283⟧⟨371⟩⟦211⟧⟨372⟩⟦14⟧⟨373⟩⟦115⟧⟨374⟩⟦239⟧⟨375⟩⟦205⟧⟨376⟩
+[Air Tahoma Flight 185] ⟦44⟧⟨377⟩⟦30⟧⟨378⟩⟦75⟧⟨379⟩⟦123⟧⟨380⟩⟦175⟧⟨381⟩⟦255⟧⟨382⟩⟦43⟧⟨383⟩⟦201⟧⟨384⟩⟦201⟧⟨385⟩⟦13⟧⟨386⟩⟦91⟧⟨387⟩⟦126⟧⟨388⟩⟦127⟧⟨389⟩⟦200⟧⟨390⟩⟦97⟧⟨391⟩⟦98⟧⟨392⟩⟦117⟧⟨393⟩
+[Air Tahoma Flight 185] ⟨394⟩⟦62⟧⟨395⟩⟦266⟧⟨396⟩⟦123⟧⟨397⟩⟦57⟧⟨398⟩⟦57⟧⟨399⟩⟦178⟧⟨400⟩⟦290⟧⟨401⟩⟦228⟧⟨402⟩
+[Air Tahoma Flight 185] ⟦258⟧⟨403⟩⟦95⟧⟨404⟩⟦35⟧⟨405⟩⟦110⟧⟨406⟩⟦314⟧⟨407⟩⟦149⟧⟨408⟩⟦149⟧⟨409⟩
+[Air Tahoma Flight 185] ⟦265⟧⟨410⟩⟦193⟧⟨411⟩⟦254⟧⟨412⟩⟦73⟧⟨413⟩⟦179⟧⟨414⟩⟦152⟧⟨415⟩
+[Colgan Air Flight 9446] ⟦86⟧⟨416⟩⟦26⟧⟨417⟩⟦123⟧⟨418⟩⟦85⟧⟨419⟩⟦321⟧⟨420⟩
+[Colgan Air Flight 9446] ⟨421⟩⟦62⟧⟨422⟩⟦11⟧⟨423⟩⟦325⟧⟨424⟩⟦325⟧⟨425⟩⟦329⟧⟨426⟩⟦330⟧⟨427⟩⟦170⟧⟨428⟩⟦319⟧⟨429⟩⟦67⟧⟨430⟩⟦330⟧⟨431⟩
+[Colgan Air Flight 9446] ⟦74⟧⟨432⟩⟦120⟧⟨433⟩
+[Colgan Air Flight 9446] ⟦283⟧⟨434⟩⟦211⟧⟨435⟩⟦50⟧⟨436⟩⟦186⟧⟨437⟩⟦316⟧
+[Third officer (aeronautics)] ⟦301⟧⟨438⟩⟦193⟧⟨439⟩⟦20⟧⟨440⟩⟦65⟧⟨441⟩⟦217⟧⟨442⟩
+[Third officer (aeronautics)] ⟨443⟩⟦199⟧⟨444⟩⟦154⟧⟨445⟩⟦82⟧⟨446⟩⟦271⟧⟨447⟩⟦151⟧⟨448⟩⟦112⟧⟨449⟩⟦216⟧⟨450⟩⟦48⟧⟨451⟩⟦227⟧⟨452⟩
+[Third officer (aeronautics)] ⟦293⟧⟨453⟩⟦193⟧⟨454⟩⟦25⟧⟨455⟩⟦219⟧⟨456⟩⟦208⟧⟨457⟩⟦172⟧⟨458⟩⟦172⟧⟨459⟩⟦208⟧⟨460⟩⟦208⟧⟨461⟩⟦83⟧⟨462⟩⟦83⟧⟨463⟩⟦214⟧⟨464⟩⟦215⟧⟨465⟩⟦193⟧⟨466⟩⟦123⟧⟨467⟩⟦124⟧⟨468⟩⟦111⟧⟨469⟩⟦213⟧⟨470⟩⟦28⟧⟨471⟩⟦222⟧⟨472⟩⟦207⟧⟨473⟩⟦286⟧⟨474⟩⟦102⟧⟨475⟩⟦299⟧⟨476⟩⟦81⟧⟨477⟩
+[Third officer (aeronautics)] ⟦302⟧⟨478⟩⟦194⟧⟨479⟩⟦180⟧⟨480⟩⟦65⟧⟨481⟩
+[Third officer (aeronautics)] ⟨482⟩⟦300⟧⟨483⟩⟦219⟧⟨484⟩⟦209⟧⟨485⟩⟦18⟧⟨486⟩⟦193⟧⟨487⟩⟦217⟧⟨488⟩⟦236⟧⟨489⟩⟦76⟧⟨490⟩⟦32⟧⟨491⟩⟦193⟧⟨492⟩⟦217⟧⟨493⟩
+[Aurelio Valle] ⟦63⟧⟨494⟩⟦54⟧⟨495⟩⟦234⟧⟨496⟩⟦139⟧⟨497⟩⟦139⟧⟨498⟩⟦88⟧⟨499⟩⟦88⟧⟨500⟩⟦323⟧⟨501⟩⟦58⟧⟨502⟩⟦186⟧⟨503⟩⟦186⟧⟨504⟩⟦79⟧⟨505⟩⟦148⟧⟨506⟩⟦161⟧⟨507⟩⟦245⟧⟨508⟩
+[Aurelio Valle] ⟨509⟩⟦16⟧⟨510⟩⟦172⟧⟨511⟩⟦263⟧⟨512⟩⟦225⟧⟨513⟩⟦136⟧⟨514⟩⟦72⟧⟨515⟩⟦188⟧⟨516⟩⟦146⟧⟨517⟩⟦328⟧⟨518⟩⟦246⟧⟨519⟩⟦136⟧⟨520⟩
+[Aurelio Valle] ⟦252⟧⟨521⟩⟦66⟧⟨522⟩⟦187⟧⟨523⟩⟦326⟧⟨524⟩⟦230⟧⟨525⟩⟦172⟧⟨526⟩⟦173⟧⟨527⟩
+
+[user]
+
+问题：
+In what month was the relief first officer of the flight that crashed on its way to Cairo with a stop in New York Born?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

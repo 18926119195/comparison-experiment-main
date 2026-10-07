@@ -1,0 +1,75 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Juan Rulfo] ⟦123⟧⟨50⟩⟦124⟧⟨51⟩⟦10⟧⟨52⟩⟦116⟧⟨53⟩⟦26⟧⟨54⟩⟨55⟩⟦171⟧⟦171⟧⟨56⟩⟨57⟩⟦159⟧⟦159⟧⟨58⟩⟨59⟩
+[Joseph Hone] ⟦253⟧
+[John le Carré] ⟦72⟧⟨300⟩⟦223⟧⟦164⟧⟨301⟩⟨302⟩⟨303⟩⟦17⟧⟨304⟩⟨305⟩⟦83⟧⟦84⟧⟨306⟩⟨307⟩⟨308⟩
+[John le Carré] ⟦45⟧
+[The Incongruous Spy] ⟦118⟧⟦147⟧
+
+符号表：
+⟦10⟧ = 16 May
+⟦17⟧ = a British author
+⟦26⟧ = a Mexican writer
+⟦45⟧ = author
+⟦72⟧ = David John Moore Cornwell
+⟦83⟧ = espionage
+⟦84⟧ = espionage novels
+⟦116⟧ = January
+⟦118⟧ = John le Carré
+⟦123⟧ = Juan Nepomuceno Carlos Pérez Rulfo Vizcaíno
+⟦124⟧ = Juan Rulfo
+⟦147⟧ = novels
+⟦159⟧ = photographer
+⟦164⟧ = pseudonym
+⟦171⟧ = screenwriter
+⟦223⟧ = the pseudonym
+⟦253⟧ = writer
+
+占位符映射：
+⟨50⟩ = , best known as 
+⟨51⟩ =  (]    ; 
+⟨52⟩ =  1917 – 7 
+⟨53⟩ =  1986), was 
+⟨54⟩ = 
+⟨55⟩ = , 
+⟨56⟩ = 
+⟨57⟩ =  and 
+⟨58⟩ = 
+⟨59⟩ = .
+⟨300⟩ =  (born 19 October 1931), known by 
+⟨301⟩ = 
+⟨302⟩ =  
+⟨303⟩ =  ( ), is 
+⟨304⟩ = 
+⟨305⟩ =  of 
+⟨306⟩ = 
+⟨307⟩ = 
+⟨308⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who was born first, Juan Rulfo or John le Carré?

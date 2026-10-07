@@ -1,0 +1,33 @@
+# 路径一：从电影作品直接定位
+
+步骤1：使用⟦219⟧，提取 *Twisted Fortune* 这一电影条目，确认其存在及关联信息。
+
+步骤2：综合⟦219⟧⟦11⟧⟦70⟧⟦56⟧，提取该电影中由 Charlie Murphy 饰演的角色——一个笨拙的小偷（a bumbling small-time crook）。
+
+步骤3：使用⟦203⟧，提取 Charlie Murphy 被明确标注为“the older brother”（哥哥）。
+
+结论：Victor Varnada 执导的 *Twisted Fortune* 由 Eddie Murphy 的哥哥 Charlie Murphy 主演。
+
+---
+
+# 路径二：从人物关系交叉验证
+
+步骤1：使用⟦55⟧⟦56⟧，提取 Charlie Murphy 的全名 Charles Quinton Murphy，确认其身份。
+
+步骤2：综合⟦47⟧⟦203⟧，提取 Charlie Murphy 与 Eddie Murphy 的兄弟关系，其中⟦203⟧明确其为“the older brother”。
+
+步骤3：综合⟦219⟧⟦56⟧，将 *Twisted Fortune* 与 Charlie Murphy 关联，确认其出演该片。
+
+结论：Eddie Murphy 的哥哥是 Charlie Murphy，而 Charlie Murphy 主演了 *Twisted Fortune*。
+
+---
+
+# 路径三：从演员作品列表反向确认
+
+步骤1：使用⟦56⟧，提取 Charlie Murphy 的演员条目，确认其参演作品包括 *Twisted Fortune*。
+
+步骤2：综合⟦219⟧⟦11⟧，提取 *Twisted Fortune* 的剧情信息，其中 Charlie Murphy 饰演一个笨拙的小偷。
+
+步骤3：使用⟦203⟧，确认 Charlie Murphy 是 Eddie Murphy 的哥哥。
+
+结论：综合电影条目与人物关系，*Twisted Fortune* 的主演是 Eddie Murphy 的哥哥 Charlie Murphy。

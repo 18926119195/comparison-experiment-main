@@ -1,0 +1,505 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Manseng
+⟦2⟧ = "Morellino
+⟦3⟧ = "morello
+⟦4⟧ = "pigna
+⟦5⟧ = "Vernaccia
+⟦6⟧ = "Vitis vinifera" vineyards
+⟦7⟧ = ("Brown French
+⟦8⟧ = (brown
+⟦9⟧ = (DOC
+⟦10⟧ = 1830s
+⟦11⟧ = a black grape
+⟦12⟧ = a black grape variety
+⟦13⟧ = a common threat
+⟦14⟧ = a cross
+⟦15⟧ = a dark red cherry
+⟦16⟧ = a late harvest dessert wine
+⟦17⟧ = a late harvest wine
+⟦18⟧ = a lesser extent
+⟦19⟧ = a list
+⟦20⟧ = a London-based artist and entertainment management company
+⟦21⟧ = a man
+⟦22⟧ = a member
+⟦23⟧ = A possible reason
+⟦24⟧ = a prominent variety
+⟦25⟧ = a red Italian wine grape
+⟦26⟧ = a rock band
+⟦27⟧ = a rootstock
+⟦28⟧ = a rustic variety
+⟦29⟧ = a seedling
+⟦30⟧ = a white grape
+⟦31⟧ = a white strain
+⟦32⟧ = a white wine grape
+⟦33⟧ = a white wine grape variety
+⟦34⟧ = Abbot Giobatta Michieli's late 17th century book
+⟦35⟧ = accessions
+⟦36⟧ = acidity
+⟦37⟧ = album
+⟦38⟧ = albums
+⟦39⟧ = also Black Spanish
+⟦40⟧ = Ampelographers
+⟦41⟧ = an American alternative rock band
+⟦42⟧ = an American hybrid grape
+⟦43⟧ = an ancient but obscure tradition
+⟦44⟧ = an English percussionist
+⟦45⟧ = an important direct producing grape
+⟦46⟧ = an Italian red wine
+⟦47⟧ = an unknown "Vitis vinifera" pollen donor
+⟦48⟧ = analyses
+⟦49⟧ = any grape
+⟦50⟧ = any local grape
+⟦51⟧ = any non-aromatic black grape varieties
+⟦52⟧ = areas
+⟦53⟧ = around 15 hl
+⟦54⟧ = artist
+⟦55⟧ = at least 85% Sangiovese
+⟦56⟧ = Australia
+⟦57⟧ = author
+⟦58⟧ = authorities
+⟦59⟧ = Bacchus
+⟦60⟧ = Balance
+⟦61⟧ = band
+⟦62⟧ = bands
+⟦63⟧ = basis
+⟦64⟧ = Basque settlers
+⟦65⟧ = berries
+⟦66⟧ = Bez
+⟦67⟧ = Black Grape
+⟦68⟧ = Black Grape Global
+⟦69⟧ = Black Grape's founder
+⟦70⟧ = Black Spanish
+⟦71⟧ = blackberry
+⟦72⟧ = Blue French
+⟦73⟧ = book
+⟦74⟧ = Brand New
+⟦75⟧ = breakup
+⟦76⟧ = breeder
+⟦77⟧ = Brunello di Montalcino
+⟦78⟧ = California
+⟦79⟧ = case
+⟦80⟧ = Catalan
+⟦81⟧ = Catalan dialects
+⟦82⟧ = Catalonia
+⟦83⟧ = cava
+⟦84⟧ = century
+⟦85⟧ = Champagne
+⟦86⟧ = charts
+⟦87⟧ = cherry
+⟦88⟧ = chimoi
+⟦89⟧ = coastal Tuscany
+⟦90⟧ = collections
+⟦91⟧ = colour
+⟦92⟧ = Columbia
+⟦93⟧ = comedian
+⟦94⟧ = company
+⟦95⟧ = Composure
+⟦96⟧ = cone
+⟦97⟧ = cones
+⟦98⟧ = controllata
+⟦99⟧ = crisis
+⟦100⟧ = cross
+⟦101⟧ = cultivar
+⟦102⟧ = cultivars
+⟦103⟧ = dancer
+⟦104⟧ = December
+⟦105⟧ = del
+⟦106⟧ = Denison
+⟦107⟧ = dessert
+⟦108⟧ = development
+⟦109⟧ = dialects
+⟦110⟧ = different names
+⟦111⟧ = discussion
+⟦112⟧ = DOC status
+⟦113⟧ = DOCG
+⟦114⟧ = DOCG status
+⟦115⟧ = donor
+⟦116⟧ = Doylestown
+⟦117⟧ = Dr Jerry Rodrigues
+⟦118⟧ = drinkers
+⟦119⟧ = drought
+⟦120⟧ = du
+⟦121⟧ = du Vic-Bilh
+⟦122⟧ = El Paso
+⟦123⟧ = electronic programming
+⟦124⟧ = electronic rock
+⟦125⟧ = England
+⟦126⟧ = entertainment
+⟦127⟧ = environs
+⟦128⟧ = EPs
+⟦129⟧ = EU
+⟦130⟧ = Europe
+⟦131⟧ = European "Vitis vinifera" winegrapes
+⟦132⟧ = events
+⟦133⟧ = example
+⟦134⟧ = examples
+⟦135⟧ = excellent black wine
+⟦136⟧ = experts
+⟦137⟧ = extent
+⟦138⟧ = family
+⟦139⟧ = farmers
+⟦140⟧ = five EPs
+⟦141⟧ = flavor
+⟦142⟧ = flavor notes
+⟦143⟧ = form
+⟦144⟧ = former members
+⟦145⟧ = founder
+⟦146⟧ = France
+⟦147⟧ = French vintners
+⟦148⟧ = Friuli
+⟦149⟧ = funk
+⟦150⟧ = Gascony
+⟦151⟧ = good balance
+⟦152⟧ = GR
+⟦153⟧ = grape
+⟦154⟧ = grapes
+⟦155⟧ = grapevine
+⟦156⟧ = grapevine collections
+⟦157⟧ = great tartness
+⟦158⟧ = Happy Mondays
+⟦159⟧ = harvest
+⟦160⟧ = hectare
+⟦161⟧ = Herbemont
+⟦162⟧ = hills
+⟦163⟧ = his promotion
+⟦164⟧ = his stage name
+⟦165⟧ = history
+⟦166⟧ = hl
+⟦167⟧ = home
+⟦168⟧ = horses
+⟦169⟧ = hybridization
+⟦170⟧ = inception
+⟦171⟧ = interest
+⟦172⟧ = Italian
+⟦173⟧ = Its former presence
+⟦174⟧ = its nearly raisin
+⟦175⟧ = its similarity
+⟦176⟧ = its small, thick skin berries
+⟦177⟧ = its use
+⟦178⟧ = its way
+⟦179⟧ = its wild South Carolina parent
+⟦180⟧ = Jack
+⟦181⟧ = Jacquet
+⟦182⟧ = Jacquez
+⟦183⟧ = Jaquez
+⟦184⟧ = Jurançon
+⟦185⟧ = just "Manseng
+⟦186⟧ = Kingston University
+⟦187⟧ = Lenoir
+⟦188⟧ = Lenoir seeds
+⟦189⟧ = list
+⟦190⟧ = man
+⟦191⟧ = management
+⟦192⟧ = many clonal varieties
+⟦193⟧ = many Italian wines
+⟦194⟧ = Many other historical names
+⟦195⟧ = Many people
+⟦196⟧ = maracas
+⟦197⟧ = Mark Berry
+⟦198⟧ = media
+⟦199⟧ = media personality
+⟦200⟧ = member
+⟦201⟧ = members
+⟦202⟧ = mention
+⟦203⟧ = Morellino
+⟦204⟧ = Morellino di Scansano DOCG
+⟦205⟧ = Most experts
+⟦206⟧ = most Petit Manseng farmers
+⟦207⟧ = Munson
+⟦208⟧ = music
+⟦209⟧ = name
+⟦210⟧ = names
+⟦211⟧ = natural resistance
+⟦212⟧ = New World wine regions
+⟦213⟧ = New York
+⟦214⟧ = Nicholas Herbemont
+⟦215⟧ = Nirvana
+⟦216⟧ = North Georgia
+⟦217⟧ = northeast Italy
+⟦218⟧ = notes
+⟦219⟧ = number
+⟦220⟧ = oak
+⟦221⟧ = Ohio
+⟦222⟧ = organised events
+⟦223⟧ = originates
+⟦224⟧ = origine
+⟦225⟧ = other universities
+⟦226⟧ = others
+⟦227⟧ = Pacherenc
+⟦228⟧ = parent
+⟦229⟧ = path
+⟦230⟧ = Pennsylvania
+⟦231⟧ = people
+⟦232⟧ = percussionist
+⟦233⟧ = personality
+⟦234⟧ = pest
+⟦235⟧ = Petit Manseng
+⟦236⟧ = phylloxera
+⟦237⟧ = Pignolo
+⟦238⟧ = pine cone
+⟦239⟧ = pine cones
+⟦240⟧ = plum
+⟦241⟧ = pollen
+⟦242⟧ = popularity
+⟦243⟧ = presence
+⟦244⟧ = programming
+⟦245⟧ = promotion
+⟦246⟧ = quality
+⟦247⟧ = raisin
+⟦248⟧ = rarely "Little Manseng
+⟦249⟧ = reason
+⟦250⟧ = red, white, rosé wines and cava (Catalan form
+⟦251⟧ = region
+⟦252⟧ = regions
+⟦253⟧ = resistance
+⟦254⟧ = rich, deep colored, full bodied wine
+⟦255⟧ = rock
+⟦256⟧ = root
+⟦257⟧ = rootstock
+⟦258⟧ = Rosazzo
+⟦259⟧ = rosé
+⟦260⟧ = Ruthless Rap Assassins
+⟦261⟧ = samples
+⟦262⟧ = Scansano
+⟦263⟧ = scene
+⟦264⟧ = seedling
+⟦265⟧ = seedlings
+⟦266⟧ = seeds
+⟦267⟧ = settlers
+⟦268⟧ = similarities
+⟦269⟧ = similarity
+⟦270⟧ = Simple Sequence Repeats
+⟦271⟧ = skin
+⟦272⟧ = Small Manseng
+⟦273⟧ = some extent
+⟦274⟧ = some Italian vines
+⟦275⟧ = some time
+⟦276⟧ = somoll
+⟦277⟧ = South Carolina
+⟦278⟧ = South West France
+⟦279⟧ = species
+⟦280⟧ = SSRs
+⟦281⟧ = stage
+⟦282⟧ = Stateburg SC
+⟦283⟧ = status
+⟦284⟧ = strain
+⟦285⟧ = studio
+⟦286⟧ = style
+⟦287⟧ = sumoi
+⟦288⟧ = Tannat
+⟦289⟧ = tannins
+⟦290⟧ = tartness
+⟦291⟧ = Texas
+⟦292⟧ = that variety
+⟦293⟧ = the 1830s
+⟦294⟧ = the 18th century
+⟦295⟧ = the 2007 vintage
+⟦296⟧ = the American "Vitis aestivalis" species
+⟦297⟧ = the American vines
+⟦298⟧ = The band's music
+⟦299⟧ = the basis
+⟦300⟧ = the black grape
+⟦301⟧ = the breakup
+⟦302⟧ = the case
+⟦303⟧ = the classic vinifera grapes
+⟦304⟧ = the Colli Orientali del Friuli "Denominazione di origine controllata
+⟦305⟧ = the colour
+⟦306⟧ = the deadly Pierce's Disease
+⟦307⟧ = the early American grape cultivars
+⟦308⟧ = the early history
+⟦309⟧ = the early North American grapes
+⟦310⟧ = the European accessions
+⟦311⟧ = The first recorded mention
+⟦312⟧ = the Friuli-Venezia Giulia region
+⟦313⟧ = The grape
+⟦314⟧ = the grape breeder Thomas Volney Munson
+⟦315⟧ = the grape's acidity
+⟦316⟧ = the grapes
+⟦317⟧ = the grapevine
+⟦318⟧ = the highest quality wine
+⟦319⟧ = the hills
+⟦320⟧ = the hilly environs
+⟦321⟧ = the Independent Albums
+⟦322⟧ = the late 19th Century
+⟦323⟧ = the local name
+⟦324⟧ = the Lombardy Pignola grape
+⟦325⟧ = the Madeira Islands
+⟦326⟧ = the Madeira Jacquez
+⟦327⟧ = the Manseng family
+⟦328⟧ = the maracas
+⟦329⟧ = the Marche "Vernaccia di Serrapetrona
+⟦330⟧ = the Maremma region
+⟦331⟧ = the microsatellite DNA
+⟦332⟧ = the mid-19th Century
+⟦333⟧ = the Modern Rock/Alternative Albums
+⟦334⟧ = the morello cherry
+⟦335⟧ = the name
+⟦336⟧ = the names
+⟦337⟧ = the number
+⟦338⟧ = the oldest known Jacquez cultivar
+⟦339⟧ = The original American hybrid grape parent
+⟦340⟧ = the Penedès region
+⟦341⟧ = the phylloxera crisis
+⟦342⟧ = the Phylloxera pest
+⟦343⟧ = The reason
+⟦344⟧ = the red sparkling wine
+⟦345⟧ = the region's horses
+⟦346⟧ = The remaining 15%
+⟦347⟧ = the Rock Albums charts
+⟦348⟧ = the rock bands
+⟦349⟧ = the root
+⟦350⟧ = the Sangiovese grape variety
+⟦351⟧ = the Santee River
+⟦352⟧ = the Sardinian varieties
+⟦353⟧ = the scene
+⟦354⟧ = the seminal discussion
+⟦355⟧ = the Sherry-like wine "Vernaccia di Oristano
+⟦356⟧ = the similar, lighter-skinned variety "Warren
+⟦357⟧ = the small yields
+⟦358⟧ = the so-called Traditional Method
+⟦359⟧ = The Sumoll
+⟦360⟧ = The Things
+⟦361⟧ = the Trentino-Alto Adige/Südtirol red wine grape
+⟦362⟧ = the Tuscan wine
+⟦363⟧ = the Tuscan wines Chianti
+⟦364⟧ = the United Kingdom
+⟦365⟧ = the United States
+⟦366⟧ = the Valtellina region
+⟦367⟧ = the Vernaccia vine
+⟦368⟧ = the vicinity
+⟦369⟧ = the village
+⟦370⟧ = the vine
+⟦371⟧ = The wine
+⟦372⟧ = the winter
+⟦373⟧ = their inception
+⟦374⟧ = Their musical style
+⟦375⟧ = their new home
+⟦376⟧ = Their second album
+⟦377⟧ = thence
+⟦378⟧ = these Jacquez seedlings
+⟦379⟧ = Things
+⟦380⟧ = This hybridization
+⟦381⟧ = threat
+⟦382⟧ = three studio albums
+⟦383⟧ = time
+⟦384⟧ = Title Fight
+⟦385⟧ = Today
+⟦386⟧ = tradition
+⟦387⟧ = true Manseng
+⟦388⟧ = Tuscan wine authorities
+⟦389⟧ = two local Doylestown bands
+⟦390⟧ = Ulysses P. Hedrick's famous "Grapes
+⟦391⟧ = uniform development
+⟦392⟧ = universities
+⟦393⟧ = Uruguay
+⟦394⟧ = use
+⟦395⟧ = varieties
+⟦396⟧ = variety
+⟦397⟧ = various 'Jacquez cultivars
+⟦398⟧ = Vernaccia
+⟦399⟧ = Vernaccia di San Gimignano
+⟦400⟧ = Vernatsch
+⟦401⟧ = vicinity
+⟦402⟧ = village
+⟦403⟧ = vine
+⟦404⟧ = vines
+⟦405⟧ = vineyards
+⟦406⟧ = vinifera
+⟦407⟧ = Vino Nobile di Montepulciano
+⟦408⟧ = vintage
+⟦409⟧ = vintners
+⟦410⟧ = Viognier's path
+⟦411⟧ = Virginia
+⟦412⟧ = warm winter areas
+⟦413⟧ = way
+⟦414⟧ = white wine drinkers
+⟦415⟧ = wine
+⟦416⟧ = winegrapes
+⟦417⟧ = wines
+⟦418⟧ = winter
+⟦419⟧ = yields
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Sumoll] ⟦359⟧⟨1⟩⟦12⟧⟨2⟩⟦153⟧⟨3⟩⟦396⟧⟨4⟩⟦31⟧⟨5⟩⟦284⟧⟨6⟩
+[Sumoll] ⟨7⟩⟦28⟧⟨8⟩⟦396⟧⟨9⟩⟦340⟧⟨10⟩⟦251⟧⟨11⟩⟦82⟧⟨12⟩⟦129⟧⟨13⟩⟦119⟧⟨14⟩⟦391⟧⟨15⟩⟦108⟧⟨16⟩
+[Sumoll] ⟦313⟧⟨17⟩⟦153⟧⟨18⟩
+[Sumoll] ⟨19⟩⟦250⟧⟨20⟩⟦259⟧⟨21⟩⟦417⟧⟨22⟩⟦83⟧⟨23⟩⟦80⟧⟨24⟩⟦143⟧⟨25⟩⟦85⟧⟨26⟩⟦358⟧⟨27⟩
+[Sumoll] ⟨28⟩⟦173⟧⟨29⟩⟦243⟧⟨30⟩⟦337⟧⟨31⟩⟦219⟧⟨32⟩⟦110⟧⟨33⟩⟦210⟧⟨34⟩⟦81⟧⟨35⟩⟦109⟧⟨36⟩⟦287⟧⟨37⟩⟦88⟧⟨38⟩⟦276⟧⟨39⟩⟦226⟧⟨40⟩⟦226⟧⟨41⟩
+[Vernaccia] ⟦398⟧⟨42⟩⟦32⟧⟨43⟩⟦415⟧⟨44⟩⟦153⟧⟨45⟩⟦193⟧⟨46⟩⟦417⟧⟨47⟩⟦362⟧⟨48⟩⟦415⟧⟨49⟩⟦399⟧⟨50⟩
+[Vernaccia] ⟦40⟧⟨51⟩⟦40⟧⟨52⟩⟦367⟧⟨53⟩⟦403⟧⟨54⟩⟦192⟧⟨55⟩⟦395⟧⟨56⟩⟦274⟧⟨57⟩⟦404⟧⟨58⟩⟦5⟧⟨59⟩⟦352⟧⟨60⟩⟦395⟧⟨61⟩⟦355⟧⟨62⟩⟦415⟧⟨63⟩⟦361⟧⟨64⟩⟦415⟧⟨65⟩⟦153⟧⟨66⟩⟦400⟧⟨67⟩⟦300⟧⟨68⟩⟦153⟧⟨69⟩⟦344⟧⟨70⟩⟦415⟧⟨71⟩⟦329⟧⟨72⟩
+[Vernaccia] ⟦23⟧⟨73⟩⟦249⟧⟨74⟩⟦349⟧⟨75⟩⟦256⟧⟨76⟩⟦335⟧⟨77⟩⟦209⟧⟨78⟩⟦398⟧⟨79⟩⟦50⟧⟨80⟩⟦153⟧⟨81⟩
+[Balance and Composure] ⟦60⟧⟨82⟩⟦60⟧⟨83⟩⟦95⟧⟨84⟩⟦41⟧⟨85⟩⟦255⟧⟨86⟩⟦61⟧⟨87⟩⟦116⟧⟨88⟩⟦230⟧⟨89⟩
+[Balance and Composure] ⟨90⟩⟦372⟧⟨91⟩⟦418⟧⟨92⟩⟦301⟧⟨93⟩⟦75⟧⟨94⟩⟦389⟧⟨95⟩⟦62⟧⟨96⟩
+[Balance and Composure] ⟦298⟧⟨97⟩⟦61⟧⟨98⟩⟦208⟧⟨99⟩⟦268⟧⟨100⟩⟦268⟧⟨101⟩⟦384⟧⟨102⟩⟦74⟧⟨103⟩⟦215⟧⟨104⟩
+[Balance and Composure] ⟨105⟩⟦382⟧⟨106⟩⟦285⟧⟨107⟩⟦38⟧⟨108⟩⟦140⟧⟨109⟩⟦128⟧⟨110⟩⟦373⟧⟨111⟩⟦170⟧⟨112⟩
+[Balance and Composure] ⟨113⟩⟦376⟧⟨114⟩⟦37⟧⟨115⟩⟦360⟧⟨116⟩⟦379⟧⟨117⟩⟦219⟧⟨118⟩⟦219⟧⟨119⟩⟦219⟧⟨120⟩⟦219⟧⟨121⟩⟦321⟧⟨122⟩⟦219⟧⟨123⟩⟦219⟧⟨124⟩⟦333⟧⟨125⟩⟦219⟧⟨126⟩⟦219⟧⟨127⟩⟦347⟧⟨128⟩⟦86⟧⟨129⟩
+[Morellino di Scansano] ⟦204⟧⟨130⟩⟦113⟧⟨131⟩⟦46⟧⟨132⟩⟦415⟧⟨133⟩⟦320⟧⟨134⟩⟦127⟧⟨135⟩⟦369⟧⟨136⟩⟦402⟧⟨137⟩⟦262⟧⟨138⟩⟦152⟧⟨139⟩⟦330⟧⟨140⟩⟦251⟧⟨141⟩⟦89⟧⟨142⟩⟦43⟧⟨143⟩⟦386⟧⟨144⟩
+[Morellino di Scansano] ⟦203⟧⟨145⟩⟦323⟧⟨146⟩⟦209⟧⟨147⟩⟦350⟧⟨148⟩⟦153⟧⟨149⟩⟦396⟧⟨150⟩
+[Morellino di Scansano] ⟦195⟧⟨151⟩⟦231⟧⟨152⟩⟦335⟧⟨153⟩⟦209⟧⟨154⟩⟦2⟧⟨155⟩⟦3⟧⟨156⟩⟦8⟧⟨157⟩⟦305⟧⟨158⟩⟦91⟧⟨159⟩⟦345⟧⟨160⟩⟦251⟧⟨161⟩⟦168⟧⟨162⟩
+[Morellino di Scansano] ⟦335⟧⟨163⟩⟦209⟧⟨164⟩⟦334⟧⟨165⟩⟦87⟧⟨166⟩⟦15⟧⟨167⟩⟦87⟧⟨168⟩⟦157⟧⟨169⟩⟦290⟧⟨170⟩⟦36⟧⟨171⟩⟦36⟧⟨172⟩
+[Morellino di Scansano] ⟦371⟧⟨173⟩⟦415⟧⟨174⟩⟦112⟧⟨175⟩⟦283⟧⟨176⟩⟦114⟧⟨177⟩⟦283⟧⟨178⟩⟦295⟧⟨179⟩⟦408⟧⟨180⟩⟦55⟧⟨181⟩⟦299⟧⟨182⟩⟦63⟧⟨183⟩⟦363⟧⟨184⟩⟦417⟧⟨185⟩⟦77⟧⟨186⟩⟦407⟧⟨187⟩
+[Morellino di Scansano] ⟦346⟧⟨188⟩⟦51⟧⟨189⟩⟦153⟧⟨190⟩⟦395⟧⟨191⟩⟦19⟧⟨192⟩⟦189⟧⟨193⟩⟦388⟧⟨194⟩⟦415⟧⟨195⟩⟦58⟧⟨196⟩
+[Pignolo (grape)] ⟦237⟧⟨197⟩⟦25⟧⟨198⟩⟦415⟧⟨199⟩⟦153⟧⟨200⟩⟦312⟧⟨201⟩⟦251⟧⟨202⟩⟦217⟧⟨203⟩
+[Pignolo (grape)] ⟨204⟩⟦319⟧⟨205⟩⟦162⟧⟨206⟩⟦258⟧⟨207⟩⟦313⟧⟨208⟩⟦153⟧⟨209⟩⟦24⟧⟨210⟩⟦396⟧⟨211⟩⟦304⟧⟨212⟩⟦105⟧⟨213⟩⟦224⟧⟨214⟩⟦98⟧⟨215⟩⟦9⟧⟨216⟩
+[Pignolo (grape)] ⟨217⟩⟦172⟧⟨218⟩⟦153⟧⟨219⟩⟦209⟧⟨220⟩⟦223⟧⟨221⟩⟦4⟧⟨222⟩⟦238⟧⟨223⟩⟦96⟧⟨224⟩⟦316⟧⟨225⟩⟦154⟧⟨226⟩⟦239⟧⟨227⟩⟦97⟧⟨228⟩
+[Pignolo (grape)] ⟦311⟧⟨229⟩⟦202⟧⟨230⟩⟦313⟧⟨231⟩⟦153⟧⟨232⟩⟦34⟧⟨233⟩⟦84⟧⟨234⟩⟦73⟧⟨235⟩⟦59⟧⟨236⟩⟦148⟧⟨237⟩⟦313⟧⟨238⟩⟦153⟧⟨239⟩⟦135⟧⟨240⟩⟦415⟧⟨241⟩
+[Pignolo (grape)] ⟨242⟩⟦385⟧⟨243⟩⟦313⟧⟨244⟩⟦153⟧⟨245⟩⟦254⟧⟨246⟩⟦415⟧⟨247⟩⟦275⟧⟨248⟩⟦383⟧⟨249⟩⟦220⟧⟨250⟩⟦220⟧⟨251⟩
+[Pignolo (grape)] ⟨252⟩⟦134⟧⟨253⟩⟦134⟧⟨254⟩⟦371⟧⟨255⟩⟦415⟧⟨256⟩⟦151⟧⟨257⟩⟦60⟧⟨258⟩⟦315⟧⟨259⟩⟦153⟧⟨260⟩⟦36⟧⟨261⟩⟦289⟧⟨262⟩⟦289⟧⟨263⟩⟦141⟧⟨264⟩⟦142⟧⟨265⟩⟦218⟧⟨266⟩⟦240⟧⟨267⟩⟦240⟧⟨268⟩⟦71⟧⟨269⟩⟦71⟧⟨270⟩
+[Pignolo (grape)] ⟦205⟧⟨271⟩⟦136⟧⟨272⟩⟦324⟧⟨273⟩⟦153⟧⟨274⟩⟦366⟧⟨275⟩⟦251⟧⟨276⟩
+[Black Grape] ⟦67⟧⟨277⟩⟦26⟧⟨278⟩⟦255⟧⟨279⟩⟦61⟧⟨280⟩⟦125⟧⟨281⟩⟦144⟧⟨282⟩⟦201⟧⟨283⟩⟦158⟧⟨284⟩⟦260⟧⟨285⟩
+[Black Grape] ⟨286⟩⟦374⟧⟨287⟩⟦286⟧⟨288⟩⟦149⟧⟨289⟩⟦149⟧⟨290⟩⟦124⟧⟨291⟩⟦255⟧⟨292⟩⟦123⟧⟨293⟩⟦244⟧⟨294⟩⟦261⟧⟨295⟩⟦261⟧⟨296⟩
+[Black Spanish (grape)] ⟦70⟧⟨297⟩⟦29⟧⟨298⟩⟦264⟧⟨299⟩⟦42⟧⟨300⟩⟦153⟧⟨301⟩⟦14⟧⟨302⟩⟦100⟧⟨303⟩⟦296⟧⟨304⟩⟦279⟧⟨305⟩⟦153⟧⟨306⟩⟦153⟧⟨307⟩⟦47⟧⟨308⟩⟦406⟧⟨309⟩⟦241⟧⟨310⟩⟦115⟧⟨311⟩
+[Black Spanish (grape)] ⟦380⟧⟨312⟩⟦169⟧⟨313⟩⟦302⟧⟨314⟩⟦79⟧⟨315⟩⟦307⟧⟨316⟩⟦153⟧⟨317⟩⟦102⟧⟨318⟩
+[Black Spanish (grape)] ⟨319⟩⟦177⟧⟨320⟩⟦394⟧⟨321⟩⟦207⟧⟨322⟩⟦187⟧⟨323⟩⟦415⟧⟨324⟩⟦415⟧⟨325⟩⟦214⟧⟨326⟩⟦92⟧⟨327⟩⟦277⟧⟨328⟩⟦293⟧⟨329⟩⟦10⟧⟨330⟩⟦18⟧⟨331⟩⟦137⟧⟨332⟩⟦356⟧⟨333⟩⟦396⟧⟨334⟩⟦7⟧⟨335⟩⟦161⟧⟨336⟩⟦163⟧⟨337⟩⟦245⟧⟨338⟩⟦292⟧⟨339⟩⟦396⟧⟨340⟩
+[Black Spanish (grape)] ⟦187⟧⟨341⟩⟦130⟧⟨342⟩⟦332⟧⟨343⟩⟦147⟧⟨344⟩⟦409⟧⟨345⟩⟦175⟧⟨346⟩⟦269⟧⟨347⟩⟦131⟧⟨348⟩⟦406⟧⟨349⟩⟦416⟧⟨350⟩⟦336⟧⟨351⟩⟦210⟧⟨352⟩⟦182⟧⟨353⟩⟦181⟧⟨354⟩
+[Black Spanish (grape)] ⟨355⟩⟦45⟧⟨356⟩⟦153⟧⟨357⟩⟦130⟧⟨358⟩⟦341⟧⟨359⟩⟦236⟧⟨360⟩⟦99⟧⟨361⟩⟦273⟧⟨362⟩⟦137⟧⟨363⟩⟦27⟧⟨364⟩⟦257⟧⟨365⟩⟦303⟧⟨366⟩⟦406⟧⟨367⟩⟦154⟧⟨368⟩
+[Black Spanish (grape)] ⟦390⟧⟨369⟩⟦154⟧⟨370⟩⟦213⟧⟨371⟩⟦354⟧⟨372⟩⟦111⟧⟨373⟩⟦187⟧⟨374⟩⟦309⟧⟨375⟩⟦154⟧⟨376⟩
+[Black Spanish (grape)] ⟨377⟩⟦331⟧⟨378⟩⟦270⟧⟨379⟩⟦280⟧⟨380⟩⟦48⟧⟨381⟩⟦397⟧⟨382⟩⟦102⟧⟨383⟩⟦117⟧⟨384⟩⟦310⟧⟨385⟩⟦35⟧⟨386⟩⟦155⟧⟨387⟩⟦156⟧⟨388⟩⟦90⟧⟨389⟩⟦130⟧⟨390⟩⟦338⟧⟨391⟩⟦101⟧⟨392⟩⟦326⟧⟨393⟩
+[Black Spanish (grape)] ⟦339⟧⟨394⟩⟦153⟧⟨395⟩⟦228⟧⟨396⟩⟦178⟧⟨397⟩⟦413⟧⟨398⟩⟦325⟧⟨399⟩⟦294⟧⟨400⟩⟦84⟧⟨401⟩⟦183⟧⟨402⟩⟦181⟧⟨403⟩⟦377⟧⟨404⟩⟦377⟧⟨405⟩⟦146⟧⟨406⟩
+[Black Spanish (grape)] ⟦187⟧⟨407⟩⟦70⟧⟨408⟩⟦161⟧⟨409⟩
+[Black Spanish (grape)] ⟦194⟧⟨410⟩⟦210⟧⟨411⟩⟦353⟧⟨412⟩⟦263⟧⟨413⟩⟦308⟧⟨414⟩⟦165⟧⟨415⟩⟦378⟧⟨416⟩⟦265⟧⟨417⟩⟦180⟧⟨418⟩⟦72⟧⟨419⟩⟦221⟧⟨420⟩⟦122⟧⟨421⟩⟦226⟧⟨422⟩⟦226⟧⟨423⟩
+[Black Spanish (grape)] ⟨424⟩⟦133⟧⟨425⟩⟦133⟧⟨426⟩⟦161⟧⟨427⟩⟦188⟧⟨428⟩⟦266⟧⟨429⟩⟦21⟧⟨430⟩⟦190⟧⟨431⟩⟦187⟧⟨432⟩⟦282⟧⟨433⟩⟦368⟧⟨434⟩⟦401⟧⟨435⟩⟦351⟧⟨436⟩⟦294⟧⟨437⟩
+[Black Spanish (grape)] ⟦187⟧⟨438⟩⟦178⟧⟨439⟩⟦413⟧⟨440⟩⟦291⟧⟨441⟩⟦336⟧⟨442⟩⟦210⟧⟨443⟩⟦122⟧⟨444⟩⟦70⟧⟨445⟩
+[Black Spanish (grape)] ⟨446⟩⟦179⟧⟨447⟩⟦228⟧⟨448⟩⟦187⟧⟨449⟩⟦39⟧⟨450⟩⟦211⟧⟨451⟩⟦253⟧⟨452⟩⟦342⟧⟨453⟩⟦234⟧⟨454⟩⟦306⟧⟨455⟩⟦13⟧⟨456⟩⟦381⟧⟨457⟩⟦6⟧⟨458⟩⟦406⟧⟨459⟩⟦405⟧⟨460⟩⟦412⟧⟨461⟩⟦418⟧⟨462⟩⟦52⟧⟨463⟩⟦365⟧⟨464⟩
+[Black Spanish (grape)] ⟦187⟧⟨465⟩⟦297⟧⟨466⟩⟦404⟧⟨467⟩⟦314⟧⟨468⟩⟦153⟧⟨469⟩⟦76⟧⟨470⟩⟦322⟧⟨471⟩⟦106⟧⟨472⟩⟦291⟧⟨473⟩
+[Black Grape Global] ⟦68⟧⟨474⟩⟦20⟧⟨475⟩⟦54⟧⟨476⟩⟦126⟧⟨477⟩⟦191⟧⟨478⟩⟦94⟧⟨479⟩
+[Black Grape Global] ⟦69⟧⟨480⟩⟦145⟧⟨481⟩⟦186⟧⟨482⟩⟦222⟧⟨483⟩⟦132⟧⟨484⟩⟦225⟧⟨485⟩⟦392⟧⟨486⟩⟦364⟧⟨487⟩
+[Petit Manseng] ⟦235⟧⟨488⟩⟦272⟧⟨489⟩⟦248⟧⟨490⟩⟦33⟧⟨491⟩⟦415⟧⟨492⟩⟦153⟧⟨493⟩⟦396⟧⟨494⟩⟦278⟧⟨495⟩
+[Petit Manseng] ⟨496⟩⟦318⟧⟨497⟩⟦246⟧⟨498⟩⟦415⟧⟨499⟩⟦49⟧⟨500⟩⟦153⟧⟨501⟩⟦327⟧⟨502⟩⟦138⟧⟨503⟩
+[Petit Manseng] ⟦335⟧⟨504⟩⟦209⟧⟨505⟩⟦176⟧⟨506⟩⟦271⟧⟨507⟩⟦65⟧⟨508⟩
+[Petit Manseng] ⟨509⟩⟦357⟧⟨510⟩⟦419⟧⟨511⟩⟦317⟧⟨512⟩⟦155⟧⟨513⟩⟦206⟧⟨514⟩⟦139⟧⟨515⟩⟦53⟧⟨516⟩⟦166⟧⟨517⟩⟦415⟧⟨518⟩⟦415⟧⟨519⟩⟦160⟧⟨520⟩
+[Petit Manseng] ⟦313⟧⟨521⟩⟦153⟧⟨522⟩⟦370⟧⟨523⟩⟦403⟧⟨524⟩⟦104⟧⟨525⟩⟦16⟧⟨526⟩⟦159⟧⟨527⟩⟦107⟧⟨528⟩⟦415⟧⟨529⟩
+[Petit Manseng] ⟦313⟧⟨530⟩⟦153⟧⟨531⟩⟦150⟧⟨532⟩⟦184⟧⟨533⟩⟦227⟧⟨534⟩⟦120⟧⟨535⟩⟦121⟧⟨536⟩⟦171⟧⟨537⟩⟦171⟧⟨538⟩⟦212⟧⟨539⟩⟦415⟧⟨540⟩⟦252⟧⟨541⟩⟦78⟧⟨542⟩⟦216⟧⟨543⟩⟦411⟧⟨544⟩⟦221⟧⟨545⟩⟦56⟧⟨546⟩
+[Petit Manseng] ⟦343⟧⟨547⟩⟦249⟧⟨548⟩⟦410⟧⟨549⟩⟦229⟧⟨550⟩⟦242⟧⟨551⟩⟦242⟧⟨552⟩⟦414⟧⟨553⟩⟦415⟧⟨554⟩⟦118⟧⟨555⟩
+[Petit Manseng] ⟨556⟩⟦393⟧⟨557⟩⟦64⟧⟨558⟩⟦267⟧⟨559⟩⟦1⟧⟨560⟩⟦288⟧⟨561⟩⟦375⟧⟨562⟩⟦167⟧⟨563⟩
+[Petit Manseng] ⟨564⟩⟦30⟧⟨565⟩⟦153⟧⟨566⟩⟦387⟧⟨567⟩⟦11⟧⟨568⟩⟦153⟧⟨569⟩⟦415⟧⟨570⟩⟦415⟧⟨571⟩⟦235⟧⟨572⟩⟦185⟧⟨573⟩
+[Petit Manseng] ⟦313⟧⟨574⟩⟦153⟧⟨575⟩⟦370⟧⟨576⟩⟦403⟧⟨577⟩⟦17⟧⟨578⟩⟦159⟧⟨579⟩⟦415⟧⟨580⟩⟦174⟧⟨581⟩⟦247⟧⟨582⟩⟦154⟧⟨583⟩⟦154⟧⟨584⟩
+[Bez (dancer)] ⟦197⟧⟨585⟩⟦164⟧⟨586⟩⟦281⟧⟨587⟩⟦209⟧⟨588⟩⟦66⟧⟨589⟩⟦44⟧⟨590⟩⟦232⟧⟨591⟩⟦57⟧⟨592⟩⟦57⟧⟨593⟩⟦103⟧⟨594⟩⟦103⟧⟨595⟩⟦198⟧⟨596⟩⟦199⟧⟨597⟩⟦233⟧⟨598⟩⟦93⟧⟨599⟩⟦93⟧⟨600⟩
+[Bez (dancer)] ⟨601⟩⟦22⟧⟨602⟩⟦200⟧⟨603⟩⟦348⟧⟨604⟩⟦255⟧⟨605⟩⟦62⟧⟨606⟩⟦158⟧⟨607⟩⟦67⟧⟨608⟩⟦328⟧⟨609⟩⟦196⟧⟨610⟩
+
+[user]
+
+问题：
+Are the bands "Black Grape" and "Balance and Composure" from the same country?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

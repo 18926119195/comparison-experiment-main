@@ -1,0 +1,107 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Gone Girl (film)] ⟦86⟧⟨121⟩⟦6⟧⟨123⟩⟨122⟩⟨124⟩⟦69⟧⟨125⟩⟦83⟧⟨126⟩⟦89⟧⟨127⟩⟨128⟩⟨129⟩⟨130⟩
+[Gone Girl (film)] ⟨137⟩⟦119⟧⟨138⟩⟦197⟧⟦162⟧⟨139⟩⟨140⟩⟦14⟧⟦121⟧⟨141⟩⟨142⟩⟦173⟧⟦76⟧⟨143⟩⟨144⟩⟦125⟧⟨145⟩⟦26⟧⟨146⟩⟦186⟧⟦164⟧⟨147⟩⟨148⟩⟦198⟧⟦74⟧⟨149⟩⟨150⟩⟦92⟧⟦213⟧⟨151⟩⟨152⟩⟦29⟧⟨153⟩⟦4⟧⟨154⟩
+[Carrie Coon] ⟦203⟧ | ⟨169⟩⟨170⟩⟨171⟩⟦113⟧⟨172⟩⟦170⟧⟦203⟧⟨174⟩⟨173⟩⟨175⟩⟦1⟧⟦84⟧⟨176⟩⟨177⟩
+[In Love and War (1958 film)] ⟦79⟧ | ⟦79⟧⟦79⟧⟦79⟧
+[List of The Leftovers episodes] ⟦129⟧⟦188⟧⟦122⟧
+
+符号表：
+⟦1⟧ = "Gone Girl
+⟦4⟧ = (Pike
+⟦6⟧ = a 2014 American psychological thriller film
+⟦14⟧ = a mystery
+⟦26⟧ = Affleck
+⟦29⟧ = Amy
+⟦69⟧ = David Fincher
+⟦74⟧ = disappearance
+⟦76⟧ = events
+⟦79⟧ = film
+⟦83⟧ = Gillian Flynn
+⟦84⟧ = Girl
+⟦86⟧ = Gone Girl
+⟦89⟧ = her 2012 novel
+⟦92⟧ = his wife
+⟦113⟧ = Margo Dunne
+⟦119⟧ = Missouri
+⟦121⟧ = mystery
+⟦122⟧ = name
+⟦125⟧ = Nick Dunne
+⟦129⟧ = novel
+⟦162⟧ = story
+⟦164⟧ = suspect
+⟦170⟧ = the 2014 thriller film
+⟦173⟧ = the events
+⟦186⟧ = the primary suspect
+⟦188⟧ = the same name
+⟦197⟧ = the story
+⟦198⟧ = the sudden disappearance
+⟦203⟧ = thriller
+⟦213⟧ = wife
+
+占位符映射：
+⟨121⟩ =  is 
+⟨122⟩ = 
+⟨123⟩ =  
+⟨124⟩ =  directed by 
+⟨125⟩ =  and written by 
+⟨126⟩ = , based on 
+⟨127⟩ = 
+⟨128⟩ =  of 
+⟨129⟩ = 
+⟨130⟩ = .
+⟨137⟩ =  Set in 
+⟨138⟩ = , 
+⟨139⟩ = 
+⟨140⟩ =  begins as 
+⟨141⟩ = 
+⟨142⟩ =  that follows 
+⟨143⟩ = 
+⟨144⟩ =  surrounding 
+⟨145⟩ =  (
+⟨146⟩ = ), who becomes 
+⟨147⟩ = 
+⟨148⟩ =  in 
+⟨149⟩ = 
+⟨150⟩ =  of 
+⟨151⟩ = 
+⟨152⟩ = , 
+⟨153⟩ =  
+⟨154⟩ = ).
+⟨169⟩ =  In 
+⟨170⟩ = 
+⟨171⟩ = , she starred as 
+⟨172⟩ =  in 
+⟨173⟩ = 
+⟨174⟩ =  
+⟨175⟩ =  
+⟨176⟩ = 
+⟨177⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Carrie Coon plays Margo Dunne in a 2014 film set in what state?

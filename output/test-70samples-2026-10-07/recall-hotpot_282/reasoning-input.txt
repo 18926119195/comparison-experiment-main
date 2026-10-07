@@ -1,0 +1,118 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Gameel Al-Batouti] ⟦129⟧⟨120⟩⟦2⟧⟨121⟩⟦333⟧⟨122⟩⟦332⟧⟨123⟩⟦130⟧⟨124⟩⟦1⟧⟨125⟩⟦317⟧⟦221⟧⟨126⟩⟨127⟩⟦5⟧⟨128⟩⟨129⟩⟦23⟧⟨130⟩⟨131⟩⟦108⟧⟨132⟩⟦15⟧⟨133⟩⟨134⟩⟦262⟧⟨135⟩
+[EgyptAir Flight 990] ⟦109⟧⟨169⟩⟦3⟧⟦181⟧⟨171⟩⟨170⟩⟦24⟧⟨172⟩⟨173⟩⟦167⟧⟨174⟩⟨175⟩⟦71⟧⟨176⟩⟦107⟧⟨177⟩⟦34⟧⟦240⟧⟨178⟩⟨179⟩⟦159⟧⟨180⟩⟨181⟩
+[EgyptAir Flight 990] ⟦192⟧
+[EgyptAir Flight 990] ⟦276⟧⟦77⟧⟨194⟩⟨195⟩⟨196⟩⟨197⟩⟦106⟧⟦38⟧⟨198⟩⟨199⟩⟦288⟧⟨201⟩⟨200⟩⟨202⟩
+[LeRoy W. Homer Jr. Foundation] ⟦259⟧⟦99⟧
+[Colgan Air Flight 9446] ⟦319⟧
+[Third officer (aeronautics)] ⟦208⟧ | ⟦123⟧
+[Third officer (aeronautics)] ⟦193⟧ | ⟦219⟧⟦193⟧
+[Aurelio Valle] ⟦187⟧
+
+符号表：
+⟦1⟧ = "El Batouty
+⟦2⟧ = (Arabic
+⟦3⟧ = (MS990/MSR990
+⟦5⟧ = 2 February
+⟦15⟧ = a former officer
+⟦23⟧ = a pilot
+⟦24⟧ = a regularly scheduled flight
+⟦34⟧ = a stop
+⟦38⟧ = action
+⟦71⟧ = Cairo International Airport
+⟦77⟧ = cause
+⟦99⟧ = crash
+⟦106⟧ = deliberate action
+⟦107⟧ = Egypt
+⟦108⟧ = EgyptAir
+⟦109⟧ = EgyptAir Flight
+⟦123⟧ = flight
+⟦129⟧ = Gameel Al-Batouti
+⟦130⟧ = Gamil El Batouti
+⟦159⟧ = John F. Kennedy International Airport
+⟦167⟧ = Los Angeles International Airport
+⟦181⟧ = MS990
+⟦187⟧ = New York City
+⟦192⟧ = October
+⟦193⟧ = officer
+⟦208⟧ = pilot
+⟦219⟧ = relief
+⟦221⟧ = reports
+⟦240⟧ = stop
+⟦259⟧ = the crash
+⟦262⟧ = the Egyptian Air Force
+⟦276⟧ = the official probable cause
+⟦288⟧ = the relief first officer
+⟦317⟧ = U.S. official reports
+⟦319⟧ = United States
+⟦332⟧ = البطوطي‎
+⟦333⟧ = جميل
+
+占位符映射：
+⟨120⟩ =  
+⟨121⟩ = : 
+⟨122⟩ =  
+⟨123⟩ =  ‎ ; also rendered "
+⟨124⟩ = " or 
+⟨125⟩ = " in 
+⟨126⟩ = 
+⟨127⟩ = ; 
+⟨128⟩ =  1940 – 31 
+⟨129⟩ =  1999) was 
+⟨130⟩ = 
+⟨131⟩ =  for 
+⟨132⟩ =  and 
+⟨133⟩ = 
+⟨134⟩ =  for 
+⟨135⟩ = .
+⟨169⟩ =  990 
+⟨170⟩ = 
+⟨171⟩ = /MSR990) was 
+⟨172⟩ = 
+⟨173⟩ =  from 
+⟨174⟩ = , 
+⟨175⟩ = , to 
+⟨176⟩ = , 
+⟨177⟩ = , with 
+⟨178⟩ = 
+⟨179⟩ =  at 
+⟨180⟩ = , 
+⟨181⟩ = .
+⟨194⟩ = 
+⟨195⟩ =  of 
+⟨196⟩ = 
+⟨197⟩ =  was 
+⟨198⟩ = 
+⟨199⟩ =  by 
+⟨200⟩ = 
+⟨201⟩ =  first 
+⟨202⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+In what month was the relief first officer of the flight that crashed on its way to Cairo with a stop in New York Born?

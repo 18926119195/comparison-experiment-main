@@ -1,0 +1,384 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , assurances
+⟦2⟧ = "A Trip
+⟦3⟧ = 350 acre
+⟦4⟧ = 9:30 am
+⟦5⟧ = a Bronze Clock
+⟦6⟧ = a chair
+⟦7⟧ = a child
+⟦8⟧ = a concert hall
+⟦9⟧ = a fixture
+⟦10⟧ = a furniture manufacturer
+⟦11⟧ = a great calamity
+⟦12⟧ = a line
+⟦13⟧ = a medallion portrait
+⟦14⟧ = a member
+⟦15⟧ = A memorial fountain
+⟦16⟧ = a monument
+⟦17⟧ = a part Native Hawaiian female educator
+⟦18⟧ = a pupil
+⟦19⟧ = a quadriga
+⟦20⟧ = a song
+⟦21⟧ = a style
+⟦22⟧ = a Victory
+⟦23⟧ = a World's Fair
+⟦24⟧ = A.J. Forbes
+⟦25⟧ = abdomen
+⟦26⟧ = Abraham Lincoln
+⟦27⟧ = acre
+⟦28⟧ = affliction
+⟦29⟧ = Alice Russell Glenny
+⟦30⟧ = am
+⟦31⟧ = an American painter
+⟦32⟧ = an American sculptor
+⟦33⟧ = an anarchist
+⟦34⟧ = an imagined political debt
+⟦35⟧ = an initial period
+⟦36⟧ = anarchist
+⟦37⟧ = Art Students' League
+⟦38⟧ = artist
+⟦39⟧ = Artists
+⟦40⟧ = Arts
+⟦41⟧ = assassination
+⟦42⟧ = assistant
+⟦43⟧ = assistant secretary
+⟦44⟧ = assurances
+⟦45⟧ = auditorium
+⟦46⟧ = Augustus Saint-Gaudens
+⟦47⟧ = both houses
+⟦48⟧ = both the United States
+⟦49⟧ = Buffalo
+⟦50⟧ = Buffalo's city hall
+⟦51⟧ = Buffalo's Pan-American Exposition
+⟦52⟧ = building
+⟦53⟧ = buildings
+⟦54⟧ = calamity
+⟦55⟧ = Caroline Peddle Ball
+⟦56⟧ = century
+⟦57⟧ = chair
+⟦58⟧ = chairs
+⟦59⟧ = Charles J. Guiteau
+⟦60⟧ = Chester A. Arthur
+⟦61⟧ = child
+⟦62⟧ = Chinatown
+⟦63⟧ = city
+⟦64⟧ = colonial California
+⟦65⟧ = concert
+⟦66⟧ = connection
+⟦67⟧ = Crafts
+⟦68⟧ = D.C.
+⟦69⟧ = days
+⟦70⟧ = death
+⟦71⟧ = debt
+⟦72⟧ = December
+⟦73⟧ = Delaware Avenue
+⟦74⟧ = Delaware Park
+⟦75⟧ = design
+⟦76⟧ = edge
+⟦77⟧ = Education
+⟦78⟧ = educator
+⟦79⟧ = Elberon
+⟦80⟧ = Elmwood Avenue
+⟦81⟧ = event
+⟦82⟧ = every quarter
+⟦83⟧ = exposition
+⟦84⟧ = Fair
+⟦85⟧ = figure
+⟦86⟧ = fixture
+⟦87⟧ = Flushing
+⟦88⟧ = fountain
+⟦89⟧ = four Presidents
+⟦90⟧ = fourteenth
+⟦91⟧ = France
+⟦92⟧ = furnishings
+⟦93⟧ = furniture
+⟦94⟧ = gangrene
+⟦95⟧ = Garfield
+⟦96⟧ = Glenny
+⟦97⟧ = good will
+⟦98⟧ = governmental social worker
+⟦99⟧ = graphic artist
+⟦100⟧ = Great Arrow Avenue
+⟦101⟧ = grief
+⟦102⟧ = grounds
+⟦103⟧ = Guiteau's motive
+⟦104⟧ = gunshot
+⟦105⟧ = Gustav Boulanger
+⟦106⟧ = hall
+⟦107⟧ = hands
+⟦108⟧ = Harry Dillon
+⟦109⟧ = Hawaii
+⟦110⟧ = hearts
+⟦111⟧ = her Art Nouveau posters
+⟦112⟧ = her important works
+⟦113⟧ = Her posters
+⟦114⟧ = her time
+⟦115⟧ = his term
+⟦116⟧ = His Vice President
+⟦117⟧ = honorable mention
+⟦118⟧ = houses
+⟦119⟧ = illustrations
+⟦120⟧ = Indiana
+⟦121⟧ = its origins
+⟦122⟧ = James A. Garfield
+⟦123⟧ = John Dillon
+⟦124⟧ = John F. Kennedy
+⟦125⟧ = Joseph P. McHugh
+⟦126⟧ = July
+⟦127⟧ = Kenyon Cox
+⟦128⟧ = land
+⟦129⟧ = lawn
+⟦130⟧ = League
+⟦131⟧ = Leon Czolgosz
+⟦132⟧ = less than four months
+⟦133⟧ = line
+⟦134⟧ = location
+⟦135⟧ = Long Island
+⟦136⟧ = lyrics
+⟦137⟧ = magazine
+⟦138⟧ = magazine illustrations
+⟦139⟧ = mankind
+⟦140⟧ = manufacturer
+⟦141⟧ = May
+⟦142⟧ = McKinley
+⟦143⟧ = medallion
+⟦144⟧ = member
+⟦145⟧ = mention
+⟦146⟧ = midst
+⟦147⟧ = Miss Cox
+⟦148⟧ = Mission
+⟦149⟧ = Mission furniture
+⟦150⟧ = missions
+⟦151⟧ = month
+⟦152⟧ = months
+⟦153⟧ = monument
+⟦154⟧ = most Mission Style furniture
+⟦155⟧ = motive
+⟦156⟧ = movement
+⟦157⟧ = Music
+⟦158⟧ = mutual respect
+⟦159⟧ = nations
+⟦160⟧ = New Jersey
+⟦161⟧ = New York
+⟦162⟧ = newspapers
+⟦163⟧ = November
+⟦164⟧ = origins
+⟦165⟧ = our affliction
+⟦166⟧ = our people
+⟦167⟧ = our policy
+⟦168⟧ = painter
+⟦169⟧ = Paris
+⟦170⟧ = Paris Exhibition
+⟦171⟧ = part
+⟦172⟧ = peace
+⟦173⟧ = people
+⟦174⟧ = period
+⟦175⟧ = philanthropist
+⟦176⟧ = play
+⟦177⟧ = policy
+⟦178⟧ = popularity
+⟦179⟧ = portrait
+⟦180⟧ = posters
+⟦181⟧ = president
+⟦182⟧ = President McKinley
+⟦183⟧ = President William McKinley
+⟦184⟧ = Presidents
+⟦185⟧ = public
+⟦186⟧ = pupil
+⟦187⟧ = quadriga
+⟦188⟧ = quarter
+⟦189⟧ = references
+⟦190⟧ = regard
+⟦191⟧ = relations
+⟦192⟧ = respect
+⟦193⟧ = retailer
+⟦194⟧ = revenge
+⟦195⟧ = Rosalie Compton Kahipuleokalaniahumanu Davison
+⟦196⟧ = Rose C. Davison
+⟦197⟧ = San Francisco's Swedenborgian Church
+⟦198⟧ = scene
+⟦199⟧ = sculptor
+⟦200⟧ = secretary
+⟦201⟧ = September
+⟦202⟧ = shadow
+⟦203⟧ = shooting
+⟦204⟧ = song
+⟦205⟧ = structure
+⟦206⟧ = Students
+⟦207⟧ = style
+⟦208⟧ = stylistically related furnishings
+⟦209⟧ = such grief
+⟦210⟧ = teachers
+⟦211⟧ = team
+⟦212⟧ = term
+⟦213⟧ = Terre Haute
+⟦214⟧ = that city
+⟦215⟧ = that month
+⟦216⟧ = the 1901 Pan-American Exposition
+⟦217⟧ = The 1901 State
+⟦218⟧ = the 20th President
+⟦219⟧ = the 25th President
+⟦220⟧ = the 26th President
+⟦221⟧ = the 57th United States Congress
+⟦222⟧ = the abdomen
+⟦223⟧ = the Almighty
+⟦224⟧ = the American Arts and Crafts movement
+⟦225⟧ = the Art Students' League
+⟦226⟧ = the assassination
+⟦227⟧ = the Baltimore and Potomac Railroad Station
+⟦228⟧ = the Board
+⟦229⟧ = the Buffalo Society
+⟦230⟧ = the Buffalo-Courier Express
+⟦231⟧ = the building
+⟦232⟧ = the Christ
+⟦233⟧ = the city's top artists
+⟦234⟧ = the civilized world
+⟦235⟧ = The Congress
+⟦236⟧ = the design
+⟦237⟧ = the Dillon Brothers
+⟦238⟧ = the early twentieth century
+⟦239⟧ = the event
+⟦240⟧ = the exposition
+⟦241⟧ = The fair
+⟦242⟧ = the figure
+⟦243⟧ = the fourteenth
+⟦244⟧ = the grounds
+⟦245⟧ = the Guild
+⟦246⟧ = the gunshot wounds
+⟦247⟧ = the hearts
+⟦248⟧ = the late 19th century
+⟦249⟧ = the lawn
+⟦250⟧ = the location
+⟦251⟧ = the major newspapers
+⟦252⟧ = the midst
+⟦253⟧ = the nations
+⟦254⟧ = the original furnishings
+⟦255⟧ = the other buildings
+⟦256⟧ = The Pan-American Exposition
+⟦257⟧ = the play
+⟦258⟧ = the President's death
+⟦259⟧ = the public
+⟦260⟧ = the Sacred Heart
+⟦261⟧ = the same city
+⟦262⟧ = the shadow
+⟦263⟧ = the shooting
+⟦264⟧ = The song's lyrics
+⟦265⟧ = the Spanish missions
+⟦266⟧ = The structure
+⟦267⟧ = The style
+⟦268⟧ = The Temple
+⟦269⟧ = The term mission furniture
+⟦270⟧ = the Territory
+⟦271⟧ = the third American president
+⟦272⟧ = the thriving artistic scene
+⟦273⟧ = the Tiffany Glass Company
+⟦274⟧ = the time
+⟦275⟧ = the tune
+⟦276⟧ = the Union Address
+⟦277⟧ = the United States
+⟦278⟧ = the United States Building
+⟦279⟧ = the vaudeville team
+⟦280⟧ = the western edge
+⟦281⟧ = The word "mission" references
+⟦282⟧ = the Young Virgin
+⟦283⟧ = Theodore Roosevelt
+⟦284⟧ = these chairs
+⟦285⟧ = these international relations
+⟦286⟧ = these missions
+⟦287⟧ = This sculptor
+⟦288⟧ = time
+⟦289⟧ = Today
+⟦290⟧ = top teachers
+⟦291⟧ = Trip
+⟦292⟧ = Tuesday
+⟦293⟧ = tune
+⟦294⟧ = U.S. President William McKinley
+⟦295⟧ = United States
+⟦296⟧ = vaudeville
+⟦297⟧ = Victory
+⟦298⟧ = Washington
+⟦299⟧ = will
+⟦300⟧ = William McKinley
+⟦301⟧ = William Merritt Chase
+⟦302⟧ = word
+⟦303⟧ = worker
+⟦304⟧ = works
+⟦305⟧ = world
+⟦306⟧ = wounds
+⟦307⟧ = year
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Alice Russell Glenny] ⟦29⟧⟨1⟩⟦31⟧⟨2⟩⟦168⟧⟨3⟩⟦199⟧⟨4⟩⟦199⟧⟨5⟩⟦99⟧⟨6⟩⟦38⟧⟨7⟩⟦49⟧⟨8⟩⟦161⟧⟨9⟩
+[Alice Russell Glenny] ⟦96⟧⟨10⟩⟦9⟧⟨11⟩⟦86⟧⟨12⟩⟦272⟧⟨13⟩⟦198⟧⟨14⟩⟦49⟧⟨15⟩⟦238⟧⟨16⟩⟦56⟧⟨17⟩
+[Alice Russell Glenny] ⟨18⟩⟦181⟧⟨19⟩⟦181⟧⟨20⟩⟦229⟧⟨21⟩⟦39⟧⟨22⟩
+[Alice Russell Glenny] ⟨23⟩⟦290⟧⟨24⟩⟦210⟧⟨25⟩⟦301⟧⟨26⟩⟦105⟧⟨27⟩⟦48⟧⟨28⟩⟦91⟧⟨29⟩⟦114⟧⟨30⟩⟦288⟧⟨31⟩⟦233⟧⟨32⟩⟦63⟧⟨33⟩⟦39⟧⟨34⟩
+[Alice Russell Glenny] ⟨35⟩⟦289⟧⟨36⟩⟦96⟧⟨37⟩⟦111⟧⟨38⟩⟦180⟧⟨39⟩⟦137⟧⟨40⟩⟦138⟧⟨41⟩⟦119⟧⟨42⟩
+[Alice Russell Glenny] ⟦113⟧⟨43⟩⟦180⟧⟨44⟩⟦51⟧⟨45⟩⟦250⟧⟨46⟩⟦134⟧⟨47⟩⟦263⟧⟨48⟩⟦203⟧⟨49⟩⟦183⟧⟨50⟩
+[Alice Russell Glenny] ⟨51⟩⟦119⟧⟨52⟩⟦119⟧⟨53⟩⟦230⟧⟨54⟩⟦251⟧⟨55⟩⟦162⟧⟨56⟩⟦49⟧⟨57⟩⟦274⟧⟨58⟩⟦288⟧⟨59⟩
+[Assassination of James A. Garfield] ⟦122⟧⟨60⟩⟦218⟧⟨61⟩⟦277⟧⟨62⟩⟦4⟧⟨63⟩⟦30⟧⟨64⟩⟦126⟧⟨65⟩⟦132⟧⟨66⟩⟦152⟧⟨67⟩⟦115⟧⟨68⟩⟦212⟧⟨69⟩⟦181⟧⟨70⟩
+[Assassination of James A. Garfield] ⟨71⟩⟦59⟧⟨72⟩⟦227⟧⟨73⟩⟦298⟧⟨74⟩⟦68⟧⟨75⟩⟦79⟧⟨76⟩⟦160⟧⟨77⟩⟦201⟧⟨78⟩
+[Assassination of James A. Garfield] ⟦103⟧⟨79⟩⟦155⟧⟨80⟩⟦194⟧⟨81⟩⟦194⟧⟨82⟩⟦95⟧⟨83⟩⟦34⟧⟨84⟩⟦71⟧⟨85⟩
+[Assassination of James A. Garfield] ⟦95⟧⟨86⟩⟦89⟧⟨87⟩⟦184⟧⟨88⟩⟦26⟧⟨89⟩⟦300⟧⟨90⟩⟦124⟧⟨91⟩
+[Assassination of James A. Garfield] ⟨92⟩⟦116⟧⟨93⟩⟦60⟧⟨94⟩⟦95⟧⟨95⟩⟦181⟧⟨96⟩
+[Rose C. Davison] ⟦195⟧⟨97⟩⟦196⟧⟨98⟩⟦201⟧⟨99⟩⟦141⟧⟨100⟩⟦17⟧⟨101⟩⟦171⟧⟨102⟩⟦78⟧⟨103⟩⟦175⟧⟨104⟩⟦175⟧⟨105⟩⟦98⟧⟨106⟩⟦303⟧⟨107⟩
+[Rose C. Davison] ⟨108⟩⟦42⟧⟨109⟩⟦43⟧⟨110⟩⟦200⟧⟨111⟩⟦228⟧⟨112⟩⟦77⟧⟨113⟩⟦270⟧⟨114⟩⟦109⟧⟨115⟩⟦109⟧⟨116⟩⟦216⟧⟨117⟩⟦49⟧⟨118⟩⟦161⟧⟨119⟩
+[Mission style furniture] ⟦148⟧⟨120⟩⟦149⟧⟨121⟩⟦93⟧⟨122⟩⟦21⟧⟨123⟩⟦207⟧⟨124⟩⟦93⟧⟨125⟩⟦93⟧⟨126⟩⟦248⟧⟨127⟩⟦56⟧⟨128⟩
+[Mission style furniture] ⟨129⟩⟦121⟧⟨130⟩⟦164⟧⟨131⟩⟦6⟧⟨132⟩⟦57⟧⟨133⟩⟦24⟧⟨134⟩⟦197⟧⟨135⟩
+[Mission style furniture] ⟦269⟧⟨136⟩⟦212⟧⟨137⟩⟦148⟧⟨138⟩⟦93⟧⟨139⟩⟦125⟧⟨140⟩⟦161⟧⟨141⟩⟦10⟧⟨142⟩⟦93⟧⟨143⟩⟦140⟧⟨144⟩⟦193⟧⟨145⟩⟦193⟧⟨146⟩⟦284⟧⟨147⟩⟦58⟧⟨148⟩⟦12⟧⟨149⟩⟦133⟧⟨150⟩⟦208⟧⟨151⟩⟦92⟧⟨152⟩
+[Mission style furniture] ⟦281⟧⟨153⟩⟦302⟧⟨154⟩⟦148⟧⟨155⟩⟦189⟧⟨156⟩⟦265⟧⟨157⟩⟦150⟧⟨158⟩⟦64⟧⟨159⟩⟦236⟧⟨160⟩⟦75⟧⟨161⟩⟦154⟧⟨162⟩⟦93⟧⟨163⟩⟦254⟧⟨164⟩⟦92⟧⟨165⟩⟦286⟧⟨166⟩⟦150⟧⟨167⟩
+[Mission style furniture] ⟦267⟧⟨168⟩⟦207⟧⟨169⟩⟦216⟧⟨170⟩⟦49⟧⟨171⟩
+[Mission style furniture] ⟦267⟧⟨172⟩⟦207⟧⟨173⟩⟦224⟧⟨174⟩⟦156⟧⟨175⟩
+[Pan-American Exposition] ⟦256⟧⟨176⟩⟦23⟧⟨177⟩⟦84⟧⟨178⟩⟦49⟧⟨179⟩⟦161⟧⟨180⟩⟦295⟧⟨181⟩⟦141⟧⟨182⟩⟦163⟧⟨183⟩
+[Pan-American Exposition] ⟦241⟧⟨184⟩⟦84⟧⟨185⟩⟦3⟧⟨186⟩⟦27⟧⟨187⟩⟦128⟧⟨188⟩⟦128⟧⟨189⟩⟦280⟧⟨190⟩⟦76⟧⟨191⟩⟦74⟧⟨192⟩⟦73⟧⟨193⟩⟦80⟧⟨194⟩⟦100⟧⟨195⟩
+[Pan-American Exposition] ⟨196⟩⟦289⟧⟨197⟩⟦250⟧⟨198⟩⟦134⟧⟨199⟩⟦226⟧⟨200⟩⟦41⟧⟨201⟩⟦183⟧⟨202⟩
+[Caroline Peddle Ball] ⟦55⟧⟨203⟩⟦32⟧⟨204⟩⟦199⟧⟨205⟩
+[Caroline Peddle Ball] ⟨206⟩⟦213⟧⟨207⟩⟦120⟧⟨208⟩⟦18⟧⟨209⟩⟦186⟧⟨210⟩⟦225⟧⟨211⟩⟦130⟧⟨212⟩⟦46⟧⟨213⟩⟦127⟧⟨214⟩
+[Caroline Peddle Ball] ⟨215⟩⟦117⟧⟨216⟩⟦145⟧⟨217⟩⟦170⟧⟨218⟩
+[Caroline Peddle Ball] ⟨219⟩⟦14⟧⟨220⟩⟦144⟧⟨221⟩⟦245⟧⟨222⟩⟦40⟧⟨223⟩⟦67⟧⟨224⟩⟦37⟧⟨225⟩⟦206⟧⟨226⟩
+[Caroline Peddle Ball] ⟦287⟧⟨227⟩⟦199⟧⟨228⟩⟦169⟧⟨229⟩⟦5⟧⟨230⟩
+[Caroline Peddle Ball] ⟨231⟩⟦273⟧⟨232⟩⟦242⟧⟨233⟩⟦85⟧⟨234⟩⟦282⟧⟨235⟩⟦232⟧⟨236⟩⟦260⟧⟨237⟩
+[Caroline Peddle Ball] ⟦15⟧⟨238⟩⟦88⟧⟨239⟩⟦87⟧⟨240⟩⟦135⟧⟨241⟩⟦13⟧⟨242⟩⟦143⟧⟨243⟩⟦179⟧⟨244⟩⟦147⟧⟨245⟩⟦213⟧⟨246⟩⟦16⟧⟨247⟩⟦153⟧⟨248⟩⟦7⟧⟨249⟩⟦61⟧⟨250⟩⟦261⟧⟨251⟩⟦63⟧⟨252⟩⟦22⟧⟨253⟩⟦297⟧⟨254⟩⟦19⟧⟨255⟩⟦187⟧⟨256⟩⟦278⟧⟨257⟩⟦169⟧⟨258⟩⟦256⟧⟨259⟩⟦49⟧⟨260⟩⟦161⟧⟨261⟩⟦112⟧⟨262⟩⟦304⟧⟨263⟩
+[Temple of Music] ⟦268⟧⟨264⟩⟦157⟧⟨265⟩⟦8⟧⟨266⟩⟦65⟧⟨267⟩⟦106⟧⟨268⟩⟦45⟧⟨269⟩⟦45⟧⟨270⟩⟦256⟧⟨271⟩⟦49⟧⟨272⟩⟦161⟧⟨273⟩
+[Temple of Music] ⟦294⟧⟨274⟩⟦231⟧⟨275⟩⟦52⟧⟨276⟩⟦201⟧⟨277⟩
+[Temple of Music] ⟦266⟧⟨278⟩⟦205⟧⟨279⟩⟦255⟧⟨280⟩⟦53⟧⟨281⟩⟦240⟧⟨282⟩⟦83⟧⟨283⟩⟦241⟧⟨284⟩⟦84⟧⟨285⟩
+[1901 State of the Union Address] ⟦217⟧⟨286⟩⟦276⟧⟨287⟩⟦292⟧⟨288⟩⟦72⟧⟨289⟩⟦220⟧⟨290⟩⟦277⟧⟨291⟩⟦283⟧⟨292⟩
+[1901 State of the Union Address] ⟨293⟩⟦47⟧⟨294⟩⟦118⟧⟨295⟩⟦221⟧⟨296⟩
+[1901 State of the Union Address] ⟨297⟩⟦235⟧⟨298⟩⟦307⟧⟨299⟩⟦262⟧⟨300⟩⟦202⟧⟨301⟩⟦11⟧⟨302⟩⟦54⟧⟨303⟩
+[1901 State of the Union Address] ⟨304⟩⟦201⟧⟨305⟩⟦182⟧⟨306⟩⟦33⟧⟨307⟩⟦36⟧⟨308⟩⟦256⟧⟨309⟩⟦49⟧⟨310⟩⟦214⟧⟨311⟩⟦63⟧⟨312⟩⟦243⟧⟨313⟩⟦90⟧⟨314⟩⟦215⟧⟨315⟩⟦151⟧⟨316⟩
+[1901 State of the Union Address] ⟨317⟩⟦82⟧⟨318⟩⟦188⟧⟨319⟩⟦234⟧⟨320⟩⟦305⟧⟨321⟩⟦274⟧⟨322⟩⟦288⟧⟨323⟩⟦258⟧⟨324⟩⟦70⟧⟨325⟩⟦1⟧⟨326⟩⟦44⟧⟨327⟩⟦209⟧⟨328⟩⟦101⟧⟨329⟩⟦190⟧⟨330⟩⟦190⟧⟨331⟩⟦247⟧⟨332⟩⟦110⟧⟨333⟩⟦166⟧⟨334⟩⟦173⟧⟨335⟩
+[1901 State of the Union Address] ⟨336⟩⟦252⟧⟨337⟩⟦146⟧⟨338⟩⟦165⟧⟨339⟩⟦28⟧⟨340⟩⟦223⟧⟨341⟩⟦172⟧⟨342⟩⟦172⟧⟨343⟩⟦253⟧⟨344⟩⟦159⟧⟨345⟩⟦139⟧⟨346⟩⟦139⟧⟨347⟩⟦167⟧⟨348⟩⟦177⟧⟨349⟩⟦285⟧⟨350⟩⟦191⟧⟨351⟩⟦158⟧⟨352⟩⟦192⟧⟨353⟩⟦97⟧⟨354⟩⟦299⟧⟨355⟩
+[Put Me Off at Buffalo] ⟨356⟩⟦49⟧⟨357⟩⟦20⟧⟨358⟩⟦204⟧⟨359⟩⟦279⟧⟨360⟩⟦296⟧⟨361⟩⟦211⟧⟨362⟩⟦237⟧⟨363⟩⟦136⟧⟨364⟩⟦136⟧⟨365⟩⟦108⟧⟨366⟩⟦157⟧⟨367⟩⟦157⟧⟨368⟩⟦123⟧⟨369⟩
+[Put Me Off at Buffalo] ⟨370⟩⟦257⟧⟨371⟩⟦176⟧⟨372⟩⟦2⟧⟨373⟩⟦291⟧⟨374⟩⟦62⟧⟨375⟩
+[Put Me Off at Buffalo] ⟨376⟩⟦35⟧⟨377⟩⟦174⟧⟨378⟩⟦178⟧⟨379⟩⟦178⟧⟨380⟩⟦275⟧⟨381⟩⟦293⟧⟨382⟩⟦66⟧⟨383⟩⟦66⟧⟨384⟩⟦256⟧⟨385⟩⟦49⟧⟨386⟩
+[Put Me Off at Buffalo] ⟦264⟧⟨387⟩⟦204⟧⟨388⟩⟦136⟧⟨389⟩⟦249⟧⟨390⟩⟦129⟧⟨391⟩⟦50⟧⟨392⟩⟦63⟧⟨393⟩⟦106⟧⟨394⟩⟦239⟧⟨395⟩⟦81⟧⟨396⟩
+[Assassination of William McKinley] ⟨397⟩⟦201⟧⟨398⟩⟦300⟧⟨399⟩⟦219⟧⟨400⟩⟦277⟧⟨401⟩⟦244⟧⟨402⟩⟦102⟧⟨403⟩⟦256⟧⟨404⟩⟦268⟧⟨405⟩⟦157⟧⟨406⟩⟦49⟧⟨407⟩⟦161⟧⟨408⟩
+[Assassination of William McKinley] ⟨409⟩⟦107⟧⟨410⟩⟦107⟧⟨411⟩⟦259⟧⟨412⟩⟦185⟧⟨413⟩⟦131⟧⟨414⟩⟦33⟧⟨415⟩⟦36⟧⟨416⟩⟦222⟧⟨417⟩⟦25⟧⟨418⟩
+[Assassination of William McKinley] ⟦142⟧⟨419⟩⟦69⟧⟨420⟩⟦201⟧⟨421⟩⟦94⟧⟨422⟩⟦94⟧⟨423⟩⟦246⟧⟨424⟩⟦104⟧⟨425⟩⟦306⟧⟨426⟩
+[Assassination of William McKinley] ⟨427⟩⟦271⟧⟨428⟩⟦181⟧⟨429⟩⟦26⟧⟨430⟩⟦122⟧⟨431⟩
+
+[user]
+
+问题：
+Which of the four US Presidents who have been assinated was shot on the grounds of the Pan-American Exposition at the Temple of Music in Buffalo, New York?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,383 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "fire
+⟦2⟧ = "Free Inquiry
+⟦3⟧ = "Schenck
+⟦4⟧ = "Slate
+⟦5⟧ = “The Education
+⟦6⟧ = "Vanity Fair
+⟦7⟧ = (永昌大君
+⟦8⟧ = (Georgian
+⟦9⟧ = (Thai
+⟦10⟧ = 2 December
+⟦11⟧ = 21 September
+⟦12⟧ = 235 cm
+⟦13⟧ = 330 cm
+⟦14⟧ = 光海君
+⟦15⟧ = 臨海君
+⟦16⟧ = a "paşalık
+⟦17⟧ = a "significant contribution
+⟦18⟧ = a 1965 oil
+⟦19⟧ = a 1984 sculpture
+⟦20⟧ = a 2007 book
+⟦21⟧ = a case
+⟦22⟧ = a concubine
+⟦23⟧ = a crowded theater
+⟦24⟧ = a fan page
+⟦25⟧ = a group
+⟦26⟧ = a house-painter's brush
+⟦27⟧ = a living American artist
+⟦28⟧ = a New Zealand anthropologist
+⟦29⟧ = a painting
+⟦30⟧ = a paraphrasing
+⟦31⟧ = a period
+⟦32⟧ = a popular metaphor
+⟦33⟧ = a puppet ruler
+⟦34⟧ = a record auction price
+⟦35⟧ = a small event
+⟦36⟧ = A staple
+⟦37⟧ = access
+⟦38⟧ = actions
+⟦39⟧ = administrator
+⟦40⟧ = agencies
+⟦41⟧ = an Anglo-American author
+⟦42⟧ = an effect
+⟦43⟧ = an English criminal law case
+⟦44⟧ = an outstanding administrator
+⟦45⟧ = Anglo-American author
+⟦46⟧ = anthropologist
+⟦47⟧ = anti
+⟦48⟧ = any information
+⟦49⟧ = Appeal
+⟦50⟧ = appreciation
+⟦51⟧ = April
+⟦52⟧ = aristocrats
+⟦53⟧ = army
+⟦54⟧ = army camp
+⟦55⟧ = artist
+⟦56⟧ = artworks
+⟦57⟧ = assistance
+⟦58⟧ = atabeg
+⟦59⟧ = Atlantic Books
+⟦60⟧ = auction
+⟦61⟧ = author
+⟦62⟧ = authorities
+⟦63⟧ = b.
+⟦64⟧ = Big Painting
+⟦65⟧ = Big Painting No
+⟦66⟧ = Big Painting VI
+⟦67⟧ = book
+⟦68⟧ = books
+⟦69⟧ = brush
+⟦70⟧ = Brushstrokes
+⟦71⟧ = camp
+⟦72⟧ = canvas
+⟦73⟧ = canvas painting
+⟦74⟧ = case
+⟦75⟧ = causes
+⟦76⟧ = Cheshire
+⟦77⟧ = Chinese villages
+⟦78⟧ = Christopher Eric Hitchens
+⟦79⟧ = cm
+⟦80⟧ = co
+⟦81⟧ = collection
+⟦82⟧ = collections
+⟦83⟧ = Columbus
+⟦84⟧ = columnist
+⟦85⟧ = community
+⟦86⟧ = concubine
+⟦87⟧ = Continued Ottoman actions
+⟦88⟧ = contribution
+⟦89⟧ = core
+⟦90⟧ = country
+⟦91⟧ = coup
+⟦92⟧ = Coup d'état
+⟦93⟧ = court
+⟦94⟧ = critic
+⟦95⟧ = Croll
+⟦96⟧ = d.
+⟦97⟧ = death
+⟦98⟧ = debate
+⟦99⟧ = December
+⟦100⟧ = defendant
+⟦101⟧ = different causes
+⟦102⟧ = diplomat
+⟦103⟧ = direct assistance
+⟦104⟧ = discourse
+⟦105⟧ = draft
+⟦106⟧ = editor
+⟦107⟧ = Education
+⟦108⟧ = effect
+⟦109⟧ = Elisabeth Joan "Lisa" Croll
+⟦110⟧ = essayist
+⟦111⟧ = essays
+⟦112⟧ = event
+⟦113⟧ = Facebook
+⟦114⟧ = fact
+⟦115⟧ = factions
+⟦116⟧ = fan
+⟦117⟧ = fellowships
+⟦118⟧ = feuds
+⟦119⟧ = figure
+⟦120⟧ = figures
+⟦121⟧ = fire
+⟦122⟧ = five collections
+⟦123⟧ = Flight
+⟦124⟧ = flowers
+⟦125⟧ = foreigners
+⟦126⟧ = free speech
+⟦127⟧ = front
+⟦128⟧ = God
+⟦129⟧ = government
+⟦130⟧ = Grand Prince Yeongchang
+⟦131⟧ = great diplomat
+⟦132⟧ = Greater Northerners
+⟦133⟧ = group
+⟦134⟧ = Gwanghae
+⟦135⟧ = Gwanghae's plan
+⟦136⟧ = high school students
+⟦137⟧ = his confrontational style
+⟦138⟧ = his principality
+⟦139⟧ = his suzerain
+⟦140⟧ = his throne
+⟦141⟧ = Hitchens
+⟦142⟧ = hong
+⟦143⟧ = house
+⟦144⟧ = incessant Iranian–Ottoman rivalry
+⟦145⟧ = information
+⟦146⟧ = injury
+⟦147⟧ = institutions
+⟦148⟧ = intellectual
+⟦149⟧ = international non-government organisations
+⟦150⟧ = internecine
+⟦151⟧ = internecine feuds
+⟦152⟧ = Iranian suzerainty
+⟦153⟧ = January
+⟦154⟧ = Jaqeli
+⟦155⟧ = Jeong In
+⟦156⟧ = journalist
+⟦157⟧ = journalist Christopher Hitchens
+⟦158⟧ = Jr.'s opinion
+⟦159⟧ = jury
+⟦160⟧ = Kaikhosro II Jaqeli
+⟦161⟧ = Kaikhosro II's further tenure
+⟦162⟧ = king
+⟦163⟧ = King Gwanghae
+⟦164⟧ = law
+⟦165⟧ = Lesser Northerners
+⟦166⟧ = liability
+⟦167⟧ = Liberation
+⟦168⟧ = literature
+⟦169⟧ = London Review
+⟦170⟧ = Magna
+⟦171⟧ = many politicians
+⟦172⟧ = members
+⟦173⟧ = metaphor
+⟦174⟧ = minor factions
+⟦175⟧ = misconducts
+⟦176⟧ = Nation
+⟦177⟧ = negligence
+⟦178⟧ = neighboring Georgian polities
+⟦179⟧ = Netiwit Chotiphatphisal
+⟦180⟧ = New Statesman
+⟦181⟧ = No
+⟦182⟧ = officers
+⟦183⟧ = Ohio
+⟦184⟧ = oil
+⟦185⟧ = Oliver Wendell Holmes
+⟦186⟧ = opinion
+⟦187⟧ = opinions
+⟦188⟧ = opposition
+⟦189⟧ = orator
+⟦190⟧ = organisations
+⟦191⟧ = organized religion
+⟦192⟧ = over 30 books
+⟦193⟧ = page
+⟦194⟧ = painter
+⟦195⟧ = painting
+⟦196⟧ = paintings
+⟦197⟧ = panic
+⟦198⟧ = paraphrasing
+⟦199⟧ = part
+⟦200⟧ = paşalık
+⟦201⟧ = period
+⟦202⟧ = phrase
+⟦203⟧ = plan
+⟦204⟧ = political actions
+⟦205⟧ = politicians
+⟦206⟧ = politics
+⟦207⟧ = polities
+⟦208⟧ = price
+⟦209⟧ = prince
+⟦210⟧ = Prince Imhae
+⟦211⟧ = principality
+⟦212⟧ = public discourse
+⟦213⟧ = purpose
+⟦214⟧ = queen
+⟦215⟧ = questionable actions
+⟦216⟧ = Qvarqvare III
+⟦217⟧ = r.
+⟦218⟧ = record
+⟦219⟧ = relations
+⟦220⟧ = religion
+⟦221⟧ = rivalry
+⟦222⟧ = role
+⟦223⟧ = Roy Lichtenstein
+⟦224⟧ = ruler
+⟦225⟧ = Samtskhe
+⟦226⟧ = scholars
+⟦227⟧ = school
+⟦228⟧ = sculpture
+⟦229⟧ = sculptures
+⟦230⟧ = secretary
+⟦231⟧ = Seonjo
+⟦232⟧ = series
+⟦233⟧ = several paintings
+⟦234⟧ = several short-term fellowships
+⟦235⟧ = Siam
+⟦236⟧ = social critic
+⟦237⟧ = son
+⟦238⟧ = speech
+⟦239⟧ = staple
+⟦240⟧ = students
+⟦241⟧ = style
+⟦242⟧ = subject
+⟦243⟧ = subsequent medical negligence
+⟦244⟧ = suzerain
+⟦245⟧ = suzerainty
+⟦246⟧ = system
+⟦247⟧ = Tahmasp I
+⟦248⟧ = tenure
+⟦249⟧ = term
+⟦250⟧ = Thai education system
+⟦251⟧ = Thailand
+⟦252⟧ = the "Brushstrokes" series
+⟦253⟧ = the actions
+⟦254⟧ = The Atlantic
+⟦255⟧ = the author
+⟦256⟧ = The Case
+⟦257⟧ = the core members
+⟦258⟧ = the country
+⟦259⟧ = The Court
+⟦260⟧ = the defendant's actions
+⟦261⟧ = the defendant's speech
+⟦262⟧ = the draft
+⟦263⟧ = the eastern part
+⟦264⟧ = the event
+⟦265⟧ = the First Amendment
+⟦266⟧ = the first anthropologist
+⟦267⟧ = the first secretary
+⟦268⟧ = the government
+⟦269⟧ = the Greater Northerners
+⟦270⟧ = the group
+⟦271⟧ = the hereditary title
+⟦272⟧ = the House
+⟦273⟧ = the Iranian royal court
+⟦274⟧ = the John Glenn Columbus International Airport
+⟦275⟧ = the jury
+⟦276⟧ = the Kunstsammlung Nordrhein-Westfalen collection
+⟦277⟧ = the military officers
+⟦278⟧ = The Nation
+⟦279⟧ = the oldest son
+⟦280⟧ = the original injury
+⟦281⟧ = the Ottomans
+⟦282⟧ = The painting
+⟦283⟧ = The phrase
+⟦284⟧ = the principal purpose
+⟦285⟧ = the queen's son
+⟦286⟧ = the role
+⟦287⟧ = the subject
+⟦288⟧ = the Thai educational community
+⟦289⟧ = the Thailand Educational Revolution Alliance
+⟦290⟧ = The Times Literary Supplement
+⟦291⟧ = the United Kingdom
+⟦292⟧ = the United States Constitution
+⟦293⟧ = the United States Supreme Court case
+⟦294⟧ = the victim's death
+⟦295⟧ = The Weekly Standard
+⟦296⟧ = the western part
+⟦297⟧ = theater
+⟦298⟧ = this group
+⟦299⟧ = those opinions
+⟦300⟧ = throne
+⟦301⟧ = title
+⟦302⟧ = uneasy relations
+⟦303⟧ = United Nations agencies
+⟦304⟧ = United States
+⟦305⟧ = unnecessary panic
+⟦306⟧ = various educational institutions
+⟦307⟧ = victim
+⟦308⟧ = villages
+⟦309⟧ = wealthy aristocrats
+⟦310⟧ = whose subject
+⟦311⟧ = WLR
+⟦312⟧ = World War
+⟦313⟧ = years
+⟦314⟧ = Yi Icheom
+⟦315⟧ = ქაიხოსრო
+⟦316⟧ = ქაიხოსრო II ჯაყელი
+⟦317⟧ = ჯაყელი
+⟦318⟧ = กลุ่มการศึกษาเพื่อความเป็นไท
+⟦319⟧ = 광해군
+⟦320⟧ = 영창대군
+⟦321⟧ = 임해군
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Shouting fire in a crowded theater] ⟨1⟩⟦1⟧⟨2⟩⟦121⟧⟨3⟩⟦23⟧⟨4⟩⟦297⟧⟨5⟩⟦32⟧⟨6⟩⟦173⟧⟨7⟩⟦238⟧⟨8⟩⟦238⟧⟨9⟩⟦38⟧⟨10⟩⟦38⟧⟨11⟩⟦284⟧⟨12⟩⟦213⟧⟨13⟩⟦305⟧⟨14⟩⟦197⟧⟨15⟩
+[Shouting fire in a crowded theater] ⟦283⟧⟨16⟩⟦202⟧⟨17⟩⟦30⟧⟨18⟩⟦198⟧⟨19⟩⟦185⟧⟨20⟩⟦158⟧⟨21⟩⟦186⟧⟨22⟩⟦293⟧⟨23⟩⟦74⟧⟨24⟩⟦3⟧⟨25⟩⟦304⟧⟨26⟩⟦261⟧⟨27⟩⟦100⟧⟨28⟩⟦238⟧⟨29⟩⟦188⟧⟨30⟩⟦188⟧⟨31⟩⟦262⟧⟨32⟩⟦105⟧⟨33⟩⟦312⟧⟨34⟩⟦126⟧⟨35⟩⟦238⟧⟨36⟩⟦265⟧⟨37⟩⟦292⟧⟨38⟩
+[R v Cheshire] ⟨39⟩⟦76⟧⟨40⟩⟦76⟧⟨41⟩⟦311⟧⟨42⟩⟦43⟧⟨43⟩⟦164⟧⟨44⟩⟦74⟧⟨45⟩⟦286⟧⟨46⟩⟦222⟧⟨47⟩⟦275⟧⟨48⟩⟦159⟧⟨49⟩⟦166⟧⟨50⟩⟦166⟧⟨51⟩⟦97⟧⟨52⟩⟦97⟧⟨53⟩⟦243⟧⟨54⟩⟦177⟧⟨55⟩⟦280⟧⟨56⟩⟦146⟧⟨57⟩
+[R v Cheshire] ⟦259⟧⟨58⟩⟦49⟧⟨59⟩⟦275⟧⟨60⟩⟦159⟧⟨61⟩⟦101⟧⟨62⟩⟦75⟧⟨63⟩⟦97⟧⟨64⟩⟦97⟧⟨65⟩⟦260⟧⟨66⟩⟦100⟧⟨67⟩⟦38⟧⟨68⟩⟦17⟧⟨69⟩⟦88⟧⟨70⟩⟦294⟧⟨71⟩⟦307⟧⟨72⟩⟦97⟧⟨73⟩
+[Kaikhosro II Jaqeli] ⟦160⟧⟨74⟩⟦8⟧⟨75⟩⟦315⟧⟨76⟩⟦316⟧⟨77⟩⟦317⟧⟨78⟩⟦63⟧⟨79⟩⟦96⟧⟨80⟩⟦272⟧⟨81⟩⟦154⟧⟨82⟩⟦237⟧⟨83⟩⟦237⟧⟨84⟩⟦216⟧⟨85⟩⟦209⟧⟨86⟩⟦209⟧⟨87⟩⟦225⟧⟨88⟩⟦271⟧⟨89⟩⟦301⟧⟨90⟩⟦58⟧⟨91⟩⟦58⟧⟨92⟩
+[Kaikhosro II Jaqeli] ⟨93⟩⟦33⟧⟨94⟩⟦224⟧⟨95⟩⟦281⟧⟨96⟩⟦161⟧⟨97⟩⟦248⟧⟨98⟩⟦225⟧⟨99⟩⟦144⟧⟨100⟩⟦221⟧⟨101⟩⟦302⟧⟨102⟩⟦219⟧⟨103⟩⟦178⟧⟨104⟩⟦207⟧⟨105⟩⟦150⟧⟨106⟩⟦151⟧⟨107⟩⟦118⟧⟨108⟩
+[Kaikhosro II Jaqeli] ⟨109⟩⟦296⟧⟨110⟩⟦199⟧⟨111⟩⟦138⟧⟨112⟩⟦211⟧⟨113⟩⟦281⟧⟨114⟩⟦16⟧⟨115⟩⟦200⟧⟨116⟩⟦263⟧⟨117⟩⟦199⟧⟨118⟩⟦152⟧⟨119⟩⟦245⟧⟨120⟩
+[Kaikhosro II Jaqeli] ⟦87⟧⟨121⟩⟦38⟧⟨122⟩⟦103⟧⟨123⟩⟦57⟧⟨124⟩⟦139⟧⟨125⟩⟦244⟧⟨126⟩⟦162⟧⟨127⟩⟦162⟧⟨128⟩⟦247⟧⟨129⟩⟦217⟧⟨130⟩⟦273⟧⟨131⟩⟦93⟧⟨132⟩⟦313⟧⟨133⟩
+[God Is Not Great] ⟦128⟧⟨134⟩⟦20⟧⟨135⟩⟦67⟧⟨136⟩⟦45⟧⟨137⟩⟦61⟧⟨138⟩⟦156⟧⟨139⟩⟦157⟧⟨140⟩⟦21⟧⟨141⟩⟦74⟧⟨142⟩⟦191⟧⟨143⟩⟦220⟧⟨144⟩
+[God Is Not Great] ⟨145⟩⟦59⟧⟨146⟩⟦291⟧⟨147⟩⟦128⟧⟨148⟩⟦256⟧⟨149⟩⟦220⟧⟨150⟩
+[Big Painting No. 6] ⟦65⟧⟨151⟩⟦181⟧⟨152⟩⟦64⟧⟨153⟩⟦66⟧⟨154⟩⟦18⟧⟨155⟩⟦184⟧⟨156⟩⟦170⟧⟨157⟩⟦72⟧⟨158⟩⟦73⟧⟨159⟩⟦195⟧⟨160⟩⟦223⟧⟨161⟩
+[Big Painting No. 6] ⟨162⟩⟦12⟧⟨163⟩⟦79⟧⟨164⟩⟦13⟧⟨165⟩⟦79⟧⟨166⟩⟦199⟧⟨167⟩⟦199⟧⟨168⟩⟦252⟧⟨169⟩⟦70⟧⟨170⟩⟦232⟧⟨171⟩⟦56⟧⟨172⟩⟦56⟧⟨173⟩⟦233⟧⟨174⟩⟦196⟧⟨175⟩⟦229⟧⟨176⟩⟦229⟧⟨177⟩⟦310⟧⟨178⟩⟦242⟧⟨179⟩⟦253⟧⟨180⟩⟦38⟧⟨181⟩⟦26⟧⟨182⟩⟦143⟧⟨183⟩⟦194⟧⟨184⟩⟦69⟧⟨185⟩
+[Big Painting No. 6] ⟨186⟩⟦34⟧⟨187⟩⟦218⟧⟨188⟩⟦60⟧⟨189⟩⟦208⟧⟨190⟩⟦29⟧⟨191⟩⟦195⟧⟨192⟩⟦27⟧⟨193⟩⟦55⟧⟨194⟩
+[Big Painting No. 6] ⟦282⟧⟨195⟩⟦195⟧⟨196⟩⟦276⟧⟨197⟩⟦81⟧⟨198⟩
+[Christopher Hitchens] ⟦78⟧⟨199⟩⟦51⟧⟨200⟩⟦99⟧⟨201⟩⟦41⟧⟨202⟩⟦61⟧⟨203⟩⟦84⟧⟨204⟩⟦84⟧⟨205⟩⟦110⟧⟨206⟩⟦110⟧⟨207⟩⟦189⟧⟨208⟩⟦189⟧⟨209⟩⟦94⟧⟨210⟩⟦94⟧⟨211⟩⟦236⟧⟨212⟩⟦94⟧⟨213⟩⟦156⟧⟨214⟩⟦156⟧⟨215⟩
+[Christopher Hitchens] ⟦141⟧⟨216⟩⟦255⟧⟨217⟩⟦61⟧⟨218⟩⟦80⟧⟨219⟩⟦80⟧⟨220⟩⟦61⟧⟨221⟩⟦61⟧⟨222⟩⟦106⟧⟨223⟩⟦106⟧⟨224⟩⟦80⟧⟨225⟩⟦80⟧⟨226⟩⟦106⟧⟨227⟩⟦106⟧⟨228⟩⟦192⟧⟨229⟩⟦68⟧⟨230⟩⟦122⟧⟨231⟩⟦82⟧⟨232⟩⟦111⟧⟨233⟩⟦111⟧⟨234⟩⟦206⟧⟨235⟩⟦206⟧⟨236⟩⟦168⟧⟨237⟩⟦168⟧⟨238⟩⟦220⟧⟨239⟩⟦220⟧⟨240⟩
+[Christopher Hitchens] ⟦36⟧⟨241⟩⟦239⟧⟨242⟩⟦212⟧⟨243⟩⟦104⟧⟨244⟩⟦137⟧⟨245⟩⟦241⟧⟨246⟩⟦98⟧⟨247⟩⟦98⟧⟨248⟩⟦148⟧⟨249⟩⟦119⟧⟨250⟩
+[Christopher Hitchens] ⟨251⟩⟦180⟧⟨252⟩⟦278⟧⟨253⟩⟦176⟧⟨254⟩⟦295⟧⟨255⟩⟦254⟧⟨256⟩⟦169⟧⟨257⟩⟦68⟧⟨258⟩⟦290⟧⟨259⟩⟦4⟧⟨260⟩⟦2⟧⟨261⟩⟦6⟧⟨262⟩
+[Injo coup] ⟦163⟧⟨263⟩⟦14⟧⟨264⟩⟦319⟧⟨265⟩⟦44⟧⟨266⟩⟦39⟧⟨267⟩⟦131⟧⟨268⟩⟦102⟧⟨269⟩⟦171⟧⟨270⟩⟦205⟧⟨271⟩⟦226⟧⟨272⟩⟦226⟧⟨273⟩⟦52⟧⟨274⟩⟦52⟧⟨275⟩⟦22⟧⟨276⟩⟦86⟧⟨277⟩
+[Injo coup] ⟦132⟧⟨278⟩⟦299⟧⟨279⟩⟦187⟧⟨280⟩⟦165⟧⟨281⟩⟦210⟧⟨282⟩⟦15⟧⟨283⟩⟦321⟧⟨284⟩⟦279⟧⟨285⟩⟦237⟧⟨286⟩⟦231⟧⟨287⟩⟦130⟧⟨288⟩⟦7⟧⟨289⟩⟦320⟧⟨290⟩⟦320⟧⟨291⟩⟦285⟧⟨292⟩⟦214⟧⟨293⟩⟦237⟧⟨294⟩
+[Injo coup] ⟨295⟩⟦135⟧⟨296⟩⟦203⟧⟨297⟩⟦140⟧⟨298⟩⟦300⟧⟨299⟩⟦114⟧⟨300⟩⟦114⟧⟨301⟩⟦174⟧⟨302⟩⟦115⟧⟨303⟩⟦268⟧⟨304⟩⟦129⟧⟨305⟩⟦188⟧⟨306⟩⟦188⟧⟨307⟩⟦172⟧⟨308⟩⟦172⟧⟨309⟩⟦269⟧⟨310⟩⟦155⟧⟨311⟩⟦142⟧⟨312⟩⟦314⟧⟨313⟩
+[Injo coup] ⟦253⟧⟨314⟩⟦38⟧⟨315⟩⟦134⟧⟨316⟩⟦309⟧⟨317⟩⟦52⟧⟨318⟩
+[Education for Liberation of Siam] ⟦107⟧⟨319⟩⟦107⟧⟨320⟩⟦167⟧⟨321⟩⟦235⟧⟨322⟩⟦9⟧⟨323⟩⟦318⟧⟨324⟩⟦25⟧⟨325⟩⟦133⟧⟨326⟩⟦136⟧⟨327⟩⟦227⟧⟨328⟩⟦240⟧⟨329⟩⟦250⟧⟨330⟩⟦107⟧⟨331⟩⟦246⟧⟨332⟩⟦257⟧⟨333⟩⟦89⟧⟨334⟩⟦172⟧⟨335⟩⟦289⟧⟨336⟩
+[Education for Liberation of Siam] ⟨337⟩⟦10⟧⟨338⟩⟦179⟧⟨339⟩⟦267⟧⟨340⟩⟦230⟧⟨341⟩⟦270⟧⟨342⟩⟦133⟧⟨343⟩
+[Education for Liberation of Siam] ⟨344⟩⟦24⟧⟨345⟩⟦116⟧⟨346⟩⟦193⟧⟨347⟩⟦113⟧⟨348⟩⟦5⟧⟨349⟩⟦167⟧⟨350⟩⟦235⟧⟨351⟩⟦48⟧⟨352⟩⟦145⟧⟨353⟩⟦175⟧⟨354⟩⟦175⟧⟨355⟩⟦215⟧⟨356⟩⟦38⟧⟨357⟩⟦205⟧⟨358⟩⟦205⟧⟨359⟩⟦120⟧⟨360⟩⟦120⟧⟨361⟩⟦62⟧⟨362⟩⟦62⟧⟨363⟩⟦42⟧⟨364⟩⟦108⟧⟨365⟩⟦288⟧⟨366⟩⟦85⟧⟨367⟩
+[Education for Liberation of Siam] ⟨368⟩⟦92⟧⟨369⟩⟦251⟧⟨370⟩⟦153⟧⟨371⟩⟦298⟧⟨372⟩⟦133⟧⟨373⟩⟦264⟧⟨374⟩⟦112⟧⟨375⟩⟦47⟧⟨376⟩⟦47⟧⟨377⟩⟦91⟧⟨378⟩⟦91⟧⟨379⟩⟦127⟧⟨380⟩⟦127⟧⟨381⟩⟦53⟧⟨382⟩⟦54⟧⟨383⟩⟦71⟧⟨384⟩⟦35⟧⟨385⟩⟦112⟧⟨386⟩⟦124⟧⟨387⟩⟦124⟧⟨388⟩⟦50⟧⟨389⟩⟦50⟧⟨390⟩⟦277⟧⟨391⟩⟦182⟧⟨392⟩⟦92⟧⟨393⟩
+[Elisabeth Croll] ⟦109⟧⟨394⟩⟦11⟧⟨395⟩⟦28⟧⟨396⟩⟦46⟧⟨397⟩
+[Elisabeth Croll] ⟨398⟩⟦266⟧⟨399⟩⟦46⟧⟨400⟩⟦77⟧⟨401⟩⟦308⟧⟨402⟩⟦31⟧⟨403⟩⟦201⟧⟨404⟩⟦204⟧⟨405⟩⟦38⟧⟨406⟩⟦37⟧⟨407⟩⟦37⟧⟨408⟩⟦258⟧⟨409⟩⟦90⟧⟨410⟩⟦125⟧⟨411⟩⟦125⟧⟨412⟩
+[Elisabeth Croll] ⟦95⟧⟨413⟩⟦68⟧⟨414⟩⟦68⟧⟨415⟩⟦287⟧⟨416⟩⟦242⟧⟨417⟩⟦234⟧⟨418⟩⟦249⟧⟨419⟩⟦117⟧⟨420⟩⟦306⟧⟨421⟩⟦147⟧⟨422⟩
+[Elisabeth Croll] ⟨423⟩⟦303⟧⟨424⟩⟦40⟧⟨425⟩⟦149⟧⟨426⟩⟦190⟧⟨427⟩
+[Brushstrokes in Flight] ⟦70⟧⟨428⟩⟦70⟧⟨429⟩⟦123⟧⟨430⟩⟦19⟧⟨431⟩⟦228⟧⟨432⟩⟦223⟧⟨433⟩⟦274⟧⟨434⟩⟦83⟧⟨435⟩⟦183⟧⟨436⟩
+[Brushstrokes in Flight] ⟨437⟩⟦199⟧⟨438⟩⟦199⟧⟨439⟩⟦252⟧⟨440⟩⟦70⟧⟨441⟩⟦232⟧⟨442⟩⟦56⟧⟨443⟩⟦56⟧⟨444⟩⟦233⟧⟨445⟩⟦196⟧⟨446⟩⟦229⟧⟨447⟩⟦229⟧⟨448⟩⟦310⟧⟨449⟩⟦242⟧⟨450⟩⟦253⟧⟨451⟩⟦38⟧⟨452⟩⟦26⟧⟨453⟩⟦143⟧⟨454⟩⟦194⟧⟨455⟩⟦69⟧⟨456⟩
+
+[user]
+
+问题：
+God Is Not Great is by a journalist which due to his actions made him what?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

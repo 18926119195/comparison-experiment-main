@@ -1,0 +1,6617 @@
+{
+  "question": {
+    "id": "hotpot_3790",
+    "text": "Who gave the mother of Alberic II of Spoleto the title \"patricia\" of Rome?",
+    "expectedAnswer": "Pope John X"
+  },
+  "mode": "recall",
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false,
+    "CACHE_WAIT_MS": null
+  },
+  "step1_buildContext": {
+    "nounCount": 176,
+    "displaySymbolTable": {
+      "(Aubry de Dammartin": 1,
+      "10 May": 2,
+      "1200 AD": 3,
+      "21 September": 4,
+      "3 January": 5,
+      "912–954": 6,
+      "a Benedictine monk": 7,
+      "a bishop": 8,
+      "a French count": 9,
+      "A nominee": 10,
+      "a Roman noblewoman": 11,
+      "a son": 12,
+      "AD": 13,
+      "Adela": 14,
+      "Alberic": 15,
+      "Alberic I": 16,
+      "Alberic II": 17,
+      "Alberic III": 18,
+      "Alda": 19,
+      "ambition": 20,
+      "Aubry de Dammartin": 21,
+      "Aubry de Mello": 22,
+      "Aumale": 23,
+      "authority": 24,
+      "Bar": 25,
+      "bishop": 26,
+      "Boulogne": 27,
+      "brother": 28,
+      "church": 29,
+      "Clémence de Bar": 30,
+      "Clermont": 31,
+      "count": 32,
+      "d.": 33,
+      "Dammartin": 34,
+      "daughter": 35,
+      "de Dammartin": 36,
+      "death": 37,
+      "dux": 38,
+      "election": 39,
+      "et": 40,
+      "Hilda": 41,
+      "his authority": 42,
+      "his death": 43,
+      "His half-brother": 44,
+      "his mother": 45,
+      "his pontificate": 46,
+      "his second wife": 47,
+      "his stepfather": 48,
+      "his wife": 49,
+      "Hugh": 50,
+      "Hugh I": 51,
+      "Italy": 52,
+      "King": 53,
+      "King Hugh": 54,
+      "Latin": 55,
+      "Leo": 56,
+      "Leo VII": 57,
+      "Leo VII's election": 58,
+      "little ambition": 59,
+      "Maria": 60,
+      "Mariozza": 61,
+      "Mariuccia": 62,
+      "Marozia": 63,
+      "Mathilde": 64,
+      "Mathildis": 65,
+      "mistress": 66,
+      "monk": 67,
+      "mother": 68,
+      "noblewoman": 69,
+      "nominee": 70,
+      "obscurum": 71,
+      "papacy": 72,
+      "period": 73,
+      "pontificate": 74,
+      "Pope": 75,
+      "Pope Agapetus II": 76,
+      "Pope John X.": 77,
+      "Pope John XI": 78,
+      "Pope John XII": 79,
+      "Pope Leo VII": 80,
+      "Pope Sergius III": 81,
+      "Pope Stephen VIII": 82,
+      "possibly the son": 83,
+      "praefectus": 84,
+      "pressure": 85,
+      "priest": 86,
+      "Reginald": 87,
+      "Reginald I": 88,
+      "Rome": 89,
+      "ruler": 90,
+      "senatoress": 91,
+      "senatrix": 92,
+      "Simon": 93,
+      "son": 94,
+      "Spoleto": 95,
+      "St. Sixtus": 96,
+      "stepfather": 97,
+      "the alleged mistress": 98,
+      "the church": 99,
+      "the Count": 100,
+      "the papacy": 101,
+      "the period": 102,
+      "the pope": 103,
+      "the priest": 104,
+      "the Princeps": 105,
+      "the ruler": 106,
+      "the Saeculum obscurum": 107,
+      "the son": 108,
+      "the time": 109,
+      "the unprecedented titles \"senatrix": 110,
+      "time": 111,
+      "titles": 112,
+      "Tusculum": 113,
+      "Utrecht": 114,
+      "Vienne": 115,
+      "vir illustrissimus": 116,
+      "wife": 117
+    },
+    "auditSymbolTable": {
+      "1": {
+        "normalized": "(aubry de dammartin",
+        "firstOriginal": "(Aubry de Dammartin",
+        "allVariants": [
+          "(Aubry de Dammartin"
+        ]
+      },
+      "2": {
+        "normalized": "10 may",
+        "firstOriginal": "10 May",
+        "allVariants": [
+          "10 May"
+        ]
+      },
+      "3": {
+        "normalized": "1200 ad",
+        "firstOriginal": "1200 AD",
+        "allVariants": [
+          "1200 AD"
+        ]
+      },
+      "4": {
+        "normalized": "21 september",
+        "firstOriginal": "21 September",
+        "allVariants": [
+          "21 September"
+        ]
+      },
+      "5": {
+        "normalized": "3 january",
+        "firstOriginal": "3 January",
+        "allVariants": [
+          "3 January"
+        ]
+      },
+      "6": {
+        "normalized": "912–954",
+        "firstOriginal": "912–954",
+        "allVariants": [
+          "912–954"
+        ]
+      },
+      "7": {
+        "normalized": "a benedictine monk",
+        "firstOriginal": "a Benedictine monk",
+        "allVariants": [
+          "a Benedictine monk"
+        ]
+      },
+      "8": {
+        "normalized": "a bishop",
+        "firstOriginal": "a bishop",
+        "allVariants": [
+          "a bishop"
+        ]
+      },
+      "9": {
+        "normalized": "a french count",
+        "firstOriginal": "a French count",
+        "allVariants": [
+          "a French count"
+        ]
+      },
+      "10": {
+        "normalized": "a nominee",
+        "firstOriginal": "A nominee",
+        "allVariants": [
+          "A nominee"
+        ]
+      },
+      "11": {
+        "normalized": "a roman noblewoman",
+        "firstOriginal": "a Roman noblewoman",
+        "allVariants": [
+          "a Roman noblewoman"
+        ]
+      },
+      "12": {
+        "normalized": "a son",
+        "firstOriginal": "a son",
+        "allVariants": [
+          "a son"
+        ]
+      },
+      "13": {
+        "normalized": "ad",
+        "firstOriginal": "AD",
+        "allVariants": [
+          "AD"
+        ]
+      },
+      "14": {
+        "normalized": "adela",
+        "firstOriginal": "Adela",
+        "allVariants": [
+          "Adela"
+        ]
+      },
+      "15": {
+        "normalized": "alberic",
+        "firstOriginal": "Alberic",
+        "allVariants": [
+          "Alberic"
+        ]
+      },
+      "16": {
+        "normalized": "alberic i",
+        "firstOriginal": "Alberic I",
+        "allVariants": [
+          "Alberic I"
+        ]
+      },
+      "17": {
+        "normalized": "alberic ii",
+        "firstOriginal": "Alberic II",
+        "allVariants": [
+          "Alberic II"
+        ]
+      },
+      "18": {
+        "normalized": "alberic iii",
+        "firstOriginal": "Alberic III",
+        "allVariants": [
+          "Alberic III"
+        ]
+      },
+      "19": {
+        "normalized": "alda",
+        "firstOriginal": "Alda",
+        "allVariants": [
+          "Alda"
+        ]
+      },
+      "20": {
+        "normalized": "ambition",
+        "firstOriginal": "ambition",
+        "allVariants": [
+          "ambition"
+        ]
+      },
+      "21": {
+        "normalized": "aubry de dammartin",
+        "firstOriginal": "Aubry de Dammartin",
+        "allVariants": [
+          "Aubry de Dammartin"
+        ]
+      },
+      "22": {
+        "normalized": "aubry de mello",
+        "firstOriginal": "Aubry de Mello",
+        "allVariants": [
+          "Aubry de Mello"
+        ]
+      },
+      "23": {
+        "normalized": "aumale",
+        "firstOriginal": "Aumale",
+        "allVariants": [
+          "Aumale"
+        ]
+      },
+      "24": {
+        "normalized": "authority",
+        "firstOriginal": "authority",
+        "allVariants": [
+          "authority"
+        ]
+      },
+      "25": {
+        "normalized": "bar",
+        "firstOriginal": "Bar",
+        "allVariants": [
+          "Bar"
+        ]
+      },
+      "26": {
+        "normalized": "bishop",
+        "firstOriginal": "bishop",
+        "allVariants": [
+          "bishop"
+        ]
+      },
+      "27": {
+        "normalized": "boulogne",
+        "firstOriginal": "Boulogne",
+        "allVariants": [
+          "Boulogne"
+        ]
+      },
+      "28": {
+        "normalized": "brother",
+        "firstOriginal": "brother",
+        "allVariants": [
+          "brother"
+        ]
+      },
+      "29": {
+        "normalized": "church",
+        "firstOriginal": "church",
+        "allVariants": [
+          "church"
+        ]
+      },
+      "30": {
+        "normalized": "clemence de bar",
+        "firstOriginal": "Clémence de Bar",
+        "allVariants": [
+          "Clémence de Bar"
+        ]
+      },
+      "31": {
+        "normalized": "clermont",
+        "firstOriginal": "Clermont",
+        "allVariants": [
+          "Clermont"
+        ]
+      },
+      "32": {
+        "normalized": "count",
+        "firstOriginal": "count",
+        "allVariants": [
+          "count"
+        ]
+      },
+      "33": {
+        "normalized": "d.",
+        "firstOriginal": "d.",
+        "allVariants": [
+          "d."
+        ]
+      },
+      "34": {
+        "normalized": "dammartin",
+        "firstOriginal": "Dammartin",
+        "allVariants": [
+          "Dammartin"
+        ]
+      },
+      "35": {
+        "normalized": "daughter",
+        "firstOriginal": "daughter",
+        "allVariants": [
+          "daughter"
+        ]
+      },
+      "36": {
+        "normalized": "de dammartin",
+        "firstOriginal": "de Dammartin",
+        "allVariants": [
+          "de Dammartin"
+        ]
+      },
+      "37": {
+        "normalized": "death",
+        "firstOriginal": "death",
+        "allVariants": [
+          "death"
+        ]
+      },
+      "38": {
+        "normalized": "dux",
+        "firstOriginal": "dux",
+        "allVariants": [
+          "dux"
+        ]
+      },
+      "39": {
+        "normalized": "election",
+        "firstOriginal": "election",
+        "allVariants": [
+          "election"
+        ]
+      },
+      "40": {
+        "normalized": "et",
+        "firstOriginal": "et",
+        "allVariants": [
+          "et"
+        ]
+      },
+      "41": {
+        "normalized": "hilda",
+        "firstOriginal": "Hilda",
+        "allVariants": [
+          "Hilda"
+        ]
+      },
+      "42": {
+        "normalized": "his authority",
+        "firstOriginal": "his authority",
+        "allVariants": [
+          "his authority"
+        ]
+      },
+      "43": {
+        "normalized": "his death",
+        "firstOriginal": "his death",
+        "allVariants": [
+          "his death"
+        ]
+      },
+      "44": {
+        "normalized": "his half-brother",
+        "firstOriginal": "His half-brother",
+        "allVariants": [
+          "His half-brother"
+        ]
+      },
+      "45": {
+        "normalized": "his mother",
+        "firstOriginal": "his mother",
+        "allVariants": [
+          "his mother"
+        ]
+      },
+      "46": {
+        "normalized": "his pontificate",
+        "firstOriginal": "his pontificate",
+        "allVariants": [
+          "his pontificate"
+        ]
+      },
+      "47": {
+        "normalized": "his second wife",
+        "firstOriginal": "his second wife",
+        "allVariants": [
+          "his second wife"
+        ]
+      },
+      "48": {
+        "normalized": "his stepfather",
+        "firstOriginal": "his stepfather",
+        "allVariants": [
+          "his stepfather"
+        ]
+      },
+      "49": {
+        "normalized": "his wife",
+        "firstOriginal": "his wife",
+        "allVariants": [
+          "his wife"
+        ]
+      },
+      "50": {
+        "normalized": "hugh",
+        "firstOriginal": "Hugh",
+        "allVariants": [
+          "Hugh"
+        ]
+      },
+      "51": {
+        "normalized": "hugh i",
+        "firstOriginal": "Hugh I",
+        "allVariants": [
+          "Hugh I"
+        ]
+      },
+      "52": {
+        "normalized": "italy",
+        "firstOriginal": "Italy",
+        "allVariants": [
+          "Italy"
+        ]
+      },
+      "53": {
+        "normalized": "king",
+        "firstOriginal": "King",
+        "allVariants": [
+          "King"
+        ]
+      },
+      "54": {
+        "normalized": "king hugh",
+        "firstOriginal": "King Hugh",
+        "allVariants": [
+          "King Hugh"
+        ]
+      },
+      "55": {
+        "normalized": "latin",
+        "firstOriginal": "Latin",
+        "allVariants": [
+          "Latin"
+        ]
+      },
+      "56": {
+        "normalized": "leo",
+        "firstOriginal": "Leo",
+        "allVariants": [
+          "Leo"
+        ]
+      },
+      "57": {
+        "normalized": "leo vii",
+        "firstOriginal": "Leo VII",
+        "allVariants": [
+          "Leo VII"
+        ]
+      },
+      "58": {
+        "normalized": "leo vii's election",
+        "firstOriginal": "Leo VII's election",
+        "allVariants": [
+          "Leo VII's election"
+        ]
+      },
+      "59": {
+        "normalized": "little ambition",
+        "firstOriginal": "little ambition",
+        "allVariants": [
+          "little ambition"
+        ]
+      },
+      "60": {
+        "normalized": "maria",
+        "firstOriginal": "Maria",
+        "allVariants": [
+          "Maria"
+        ]
+      },
+      "61": {
+        "normalized": "mariozza",
+        "firstOriginal": "Mariozza",
+        "allVariants": [
+          "Mariozza"
+        ]
+      },
+      "62": {
+        "normalized": "mariuccia",
+        "firstOriginal": "Mariuccia",
+        "allVariants": [
+          "Mariuccia"
+        ]
+      },
+      "63": {
+        "normalized": "marozia",
+        "firstOriginal": "Marozia",
+        "allVariants": [
+          "Marozia"
+        ]
+      },
+      "64": {
+        "normalized": "mathilde",
+        "firstOriginal": "Mathilde",
+        "allVariants": [
+          "Mathilde"
+        ]
+      },
+      "65": {
+        "normalized": "mathildis",
+        "firstOriginal": "Mathildis",
+        "allVariants": [
+          "Mathildis"
+        ]
+      },
+      "66": {
+        "normalized": "mistress",
+        "firstOriginal": "mistress",
+        "allVariants": [
+          "mistress"
+        ]
+      },
+      "67": {
+        "normalized": "monk",
+        "firstOriginal": "monk",
+        "allVariants": [
+          "monk"
+        ]
+      },
+      "68": {
+        "normalized": "mother",
+        "firstOriginal": "mother",
+        "allVariants": [
+          "mother"
+        ]
+      },
+      "69": {
+        "normalized": "noblewoman",
+        "firstOriginal": "noblewoman",
+        "allVariants": [
+          "noblewoman"
+        ]
+      },
+      "70": {
+        "normalized": "nominee",
+        "firstOriginal": "nominee",
+        "allVariants": [
+          "nominee"
+        ]
+      },
+      "71": {
+        "normalized": "obscurum",
+        "firstOriginal": "obscurum",
+        "allVariants": [
+          "obscurum"
+        ]
+      },
+      "72": {
+        "normalized": "papacy",
+        "firstOriginal": "papacy",
+        "allVariants": [
+          "papacy"
+        ]
+      },
+      "73": {
+        "normalized": "period",
+        "firstOriginal": "period",
+        "allVariants": [
+          "period"
+        ]
+      },
+      "74": {
+        "normalized": "pontificate",
+        "firstOriginal": "pontificate",
+        "allVariants": [
+          "pontificate"
+        ]
+      },
+      "75": {
+        "normalized": "pope",
+        "firstOriginal": "Pope",
+        "allVariants": [
+          "Pope"
+        ]
+      },
+      "76": {
+        "normalized": "pope agapetus ii",
+        "firstOriginal": "Pope Agapetus II",
+        "allVariants": [
+          "Pope Agapetus II"
+        ]
+      },
+      "77": {
+        "normalized": "pope john x.",
+        "firstOriginal": "Pope John X.",
+        "allVariants": [
+          "Pope John X."
+        ]
+      },
+      "78": {
+        "normalized": "pope john xi",
+        "firstOriginal": "Pope John XI",
+        "allVariants": [
+          "Pope John XI"
+        ]
+      },
+      "79": {
+        "normalized": "pope john xii",
+        "firstOriginal": "Pope John XII",
+        "allVariants": [
+          "Pope John XII"
+        ]
+      },
+      "80": {
+        "normalized": "pope leo vii",
+        "firstOriginal": "Pope Leo VII",
+        "allVariants": [
+          "Pope Leo VII"
+        ]
+      },
+      "81": {
+        "normalized": "pope sergius iii",
+        "firstOriginal": "Pope Sergius III",
+        "allVariants": [
+          "Pope Sergius III"
+        ]
+      },
+      "82": {
+        "normalized": "pope stephen viii",
+        "firstOriginal": "Pope Stephen VIII",
+        "allVariants": [
+          "Pope Stephen VIII"
+        ]
+      },
+      "83": {
+        "normalized": "possibly the son",
+        "firstOriginal": "possibly the son",
+        "allVariants": [
+          "possibly the son"
+        ]
+      },
+      "84": {
+        "normalized": "praefectus",
+        "firstOriginal": "praefectus",
+        "allVariants": [
+          "praefectus"
+        ]
+      },
+      "85": {
+        "normalized": "pressure",
+        "firstOriginal": "pressure",
+        "allVariants": [
+          "pressure"
+        ]
+      },
+      "86": {
+        "normalized": "priest",
+        "firstOriginal": "priest",
+        "allVariants": [
+          "priest"
+        ]
+      },
+      "87": {
+        "normalized": "reginald",
+        "firstOriginal": "Reginald",
+        "allVariants": [
+          "Reginald"
+        ]
+      },
+      "88": {
+        "normalized": "reginald i",
+        "firstOriginal": "Reginald I",
+        "allVariants": [
+          "Reginald I"
+        ]
+      },
+      "89": {
+        "normalized": "rome",
+        "firstOriginal": "Rome",
+        "allVariants": [
+          "Rome"
+        ]
+      },
+      "90": {
+        "normalized": "ruler",
+        "firstOriginal": "ruler",
+        "allVariants": [
+          "ruler"
+        ]
+      },
+      "91": {
+        "normalized": "senatoress",
+        "firstOriginal": "senatoress",
+        "allVariants": [
+          "senatoress"
+        ]
+      },
+      "92": {
+        "normalized": "senatrix",
+        "firstOriginal": "senatrix",
+        "allVariants": [
+          "senatrix"
+        ]
+      },
+      "93": {
+        "normalized": "simon",
+        "firstOriginal": "Simon",
+        "allVariants": [
+          "Simon"
+        ]
+      },
+      "94": {
+        "normalized": "son",
+        "firstOriginal": "son",
+        "allVariants": [
+          "son"
+        ]
+      },
+      "95": {
+        "normalized": "spoleto",
+        "firstOriginal": "Spoleto",
+        "allVariants": [
+          "Spoleto"
+        ]
+      },
+      "96": {
+        "normalized": "st. sixtus",
+        "firstOriginal": "St. Sixtus",
+        "allVariants": [
+          "St. Sixtus"
+        ]
+      },
+      "97": {
+        "normalized": "stepfather",
+        "firstOriginal": "stepfather",
+        "allVariants": [
+          "stepfather"
+        ]
+      },
+      "98": {
+        "normalized": "the alleged mistress",
+        "firstOriginal": "the alleged mistress",
+        "allVariants": [
+          "the alleged mistress"
+        ]
+      },
+      "99": {
+        "normalized": "the church",
+        "firstOriginal": "the church",
+        "allVariants": [
+          "the church"
+        ]
+      },
+      "100": {
+        "normalized": "the count",
+        "firstOriginal": "the Count",
+        "allVariants": [
+          "the Count"
+        ]
+      },
+      "101": {
+        "normalized": "the papacy",
+        "firstOriginal": "the papacy",
+        "allVariants": [
+          "the papacy"
+        ]
+      },
+      "102": {
+        "normalized": "the period",
+        "firstOriginal": "the period",
+        "allVariants": [
+          "the period"
+        ]
+      },
+      "103": {
+        "normalized": "the pope",
+        "firstOriginal": "the pope",
+        "allVariants": [
+          "the pope"
+        ]
+      },
+      "104": {
+        "normalized": "the priest",
+        "firstOriginal": "the priest",
+        "allVariants": [
+          "the priest"
+        ]
+      },
+      "105": {
+        "normalized": "the princeps",
+        "firstOriginal": "the Princeps",
+        "allVariants": [
+          "the Princeps"
+        ]
+      },
+      "106": {
+        "normalized": "the ruler",
+        "firstOriginal": "the ruler",
+        "allVariants": [
+          "the ruler"
+        ]
+      },
+      "107": {
+        "normalized": "the saeculum obscurum",
+        "firstOriginal": "the Saeculum obscurum",
+        "allVariants": [
+          "the Saeculum obscurum"
+        ]
+      },
+      "108": {
+        "normalized": "the son",
+        "firstOriginal": "the son",
+        "allVariants": [
+          "the son"
+        ]
+      },
+      "109": {
+        "normalized": "the time",
+        "firstOriginal": "the time",
+        "allVariants": [
+          "the time"
+        ]
+      },
+      "110": {
+        "normalized": "the unprecedented titles \"senatrix",
+        "firstOriginal": "the unprecedented titles \"senatrix",
+        "allVariants": [
+          "the unprecedented titles \"senatrix"
+        ]
+      },
+      "111": {
+        "normalized": "time",
+        "firstOriginal": "time",
+        "allVariants": [
+          "time"
+        ]
+      },
+      "112": {
+        "normalized": "titles",
+        "firstOriginal": "titles",
+        "allVariants": [
+          "titles"
+        ]
+      },
+      "113": {
+        "normalized": "tusculum",
+        "firstOriginal": "Tusculum",
+        "allVariants": [
+          "Tusculum"
+        ]
+      },
+      "114": {
+        "normalized": "utrecht",
+        "firstOriginal": "Utrecht",
+        "allVariants": [
+          "Utrecht"
+        ]
+      },
+      "115": {
+        "normalized": "vienne",
+        "firstOriginal": "Vienne",
+        "allVariants": [
+          "Vienne"
+        ]
+      },
+      "116": {
+        "normalized": "vir illustrissimus",
+        "firstOriginal": "vir illustrissimus",
+        "allVariants": [
+          "vir illustrissimus"
+        ]
+      },
+      "117": {
+        "normalized": "wife",
+        "firstOriginal": "wife",
+        "allVariants": [
+          "wife"
+        ]
+      }
+    },
+    "baseTopologyChain": [
+      {
+        "type": "noun",
+        "symbol": "⟦17⟧",
+        "symbolIdx": 17,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 0,
+        "end": 10,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨1⟩",
+        "relId": "rel_0",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 10,
+        "end": 12,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦6⟧",
+        "symbolIdx": 6,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 12,
+        "end": 19,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨2⟩",
+        "relId": "rel_1",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 19,
+        "end": 25,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦90⟧",
+        "symbolIdx": 90,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 25,
+        "end": 30,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨3⟩",
+        "relId": "rel_2",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 30,
+        "end": 25,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦90⟧",
+        "symbolIdx": 90,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 25,
+        "end": 30,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨4⟩",
+        "relId": "rel_3",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 30,
+        "end": 34,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦89⟧",
+        "symbolIdx": 89,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 34,
+        "end": 38,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨5⟩",
+        "relId": "rel_4",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 38,
+        "end": 71,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦45⟧",
+        "symbolIdx": 45,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 71,
+        "end": 81,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨6⟩",
+        "relId": "rel_5",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 81,
+        "end": 75,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦68⟧",
+        "symbolIdx": 68,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 75,
+        "end": 81,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨7⟩",
+        "relId": "rel_6",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 81,
+        "end": 82,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦63⟧",
+        "symbolIdx": 63,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 82,
+        "end": 89,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨8⟩",
+        "relId": "rel_7",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 89,
+        "end": 94,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦48⟧",
+        "symbolIdx": 48,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 94,
+        "end": 108,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨9⟩",
+        "relId": "rel_8",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 108,
+        "end": 98,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦97⟧",
+        "symbolIdx": 97,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 98,
+        "end": 108,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨10⟩",
+        "relId": "rel_9",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 108,
+        "end": 110,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦54⟧",
+        "symbolIdx": 54,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 110,
+        "end": 119,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨11⟩",
+        "relId": "rel_10",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 119,
+        "end": 123,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦52⟧",
+        "symbolIdx": 52,
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 123,
+        "end": 128,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨12⟩",
+        "relId": "rel_11",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 128,
+        "end": 129,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦80⟧",
+        "symbolIdx": 80,
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 0,
+        "end": 12,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨13⟩",
+        "relId": "rel_12",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 12,
+        "end": 14,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦55⟧",
+        "symbolIdx": 55,
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 14,
+        "end": 19,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨14⟩",
+        "relId": "rel_13",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 19,
+        "end": 22,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦57⟧",
+        "symbolIdx": 57,
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 22,
+        "end": 29,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨15⟩",
+        "relId": "rel_14",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 29,
+        "end": 33,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦33⟧",
+        "symbolIdx": 33,
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 33,
+        "end": 35,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨16⟩",
+        "relId": "rel_15",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 35,
+        "end": 53,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦75⟧",
+        "symbolIdx": 75,
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 53,
+        "end": 57,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨17⟩",
+        "relId": "rel_16",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 57,
+        "end": 63,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦5⟧",
+        "symbolIdx": 5,
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 63,
+        "end": 72,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨18⟩",
+        "relId": "rel_17",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 72,
+        "end": 80,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦43⟧",
+        "symbolIdx": 43,
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 80,
+        "end": 89,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨19⟩",
+        "relId": "rel_18",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 89,
+        "end": 84,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦37⟧",
+        "symbolIdx": 37,
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 84,
+        "end": 89,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨20⟩",
+        "relId": "rel_19",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 89,
+        "end": 97,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨21⟩",
+        "relId": "rel_20",
+        "chunkKey": "hotpot_3790_ctx_1_sent_1",
+        "start": 0,
+        "end": 20,
+        "isHead": true,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦78⟧",
+        "symbolIdx": 78,
+        "chunkKey": "hotpot_3790_ctx_1_sent_1",
+        "start": 20,
+        "end": 32,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨22⟩",
+        "relId": "rel_21",
+        "chunkKey": "hotpot_3790_ctx_1_sent_1",
+        "start": 32,
+        "end": 49,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦82⟧",
+        "symbolIdx": 82,
+        "chunkKey": "hotpot_3790_ctx_1_sent_1",
+        "start": 49,
+        "end": 66,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨23⟩",
+        "relId": "rel_22",
+        "chunkKey": "hotpot_3790_ctx_1_sent_1",
+        "start": 66,
+        "end": 67,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦58⟧",
+        "symbolIdx": 58,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 0,
+        "end": 19,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨24⟩",
+        "relId": "rel_23",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 19,
+        "end": 11,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦39⟧",
+        "symbolIdx": 39,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 11,
+        "end": 19,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨25⟩",
+        "relId": "rel_24",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 19,
+        "end": 23,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦101⟧",
+        "symbolIdx": 101,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 23,
+        "end": 33,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨26⟩",
+        "relId": "rel_25",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 33,
+        "end": 27,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦72⟧",
+        "symbolIdx": 72,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 27,
+        "end": 33,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨27⟩",
+        "relId": "rel_26",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 33,
+        "end": 49,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦17⟧",
+        "symbolIdx": 17,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 49,
+        "end": 59,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨28⟩",
+        "relId": "rel_27",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 59,
+        "end": 63,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦95⟧",
+        "symbolIdx": 95,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 63,
+        "end": 70,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨29⟩",
+        "relId": "rel_28",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 70,
+        "end": 72,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦106⟧",
+        "symbolIdx": 106,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 72,
+        "end": 81,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨30⟩",
+        "relId": "rel_29",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 81,
+        "end": 76,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦90⟧",
+        "symbolIdx": 90,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 76,
+        "end": 81,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨31⟩",
+        "relId": "rel_30",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 81,
+        "end": 85,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦89⟧",
+        "symbolIdx": 89,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 85,
+        "end": 89,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨32⟩",
+        "relId": "rel_31",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 89,
+        "end": 93,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦109⟧",
+        "symbolIdx": 109,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 93,
+        "end": 101,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨33⟩",
+        "relId": "rel_32",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 101,
+        "end": 97,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦111⟧",
+        "symbolIdx": 111,
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 97,
+        "end": 101,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨34⟩",
+        "relId": "rel_33",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 101,
+        "end": 102,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦15⟧",
+        "symbolIdx": 15,
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 0,
+        "end": 8,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨35⟩",
+        "relId": "rel_34",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 8,
+        "end": 26,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦103⟧",
+        "symbolIdx": 103,
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 26,
+        "end": 34,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨36⟩",
+        "relId": "rel_35",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 34,
+        "end": 30,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦75⟧",
+        "symbolIdx": 75,
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 30,
+        "end": 34,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨37⟩",
+        "relId": "rel_36",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 34,
+        "end": 43,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦101⟧",
+        "symbolIdx": 101,
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 43,
+        "end": 53,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨38⟩",
+        "relId": "rel_37",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 53,
+        "end": 47,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦72⟧",
+        "symbolIdx": 72,
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 47,
+        "end": 53,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨39⟩",
+        "relId": "rel_38",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 53,
+        "end": 81,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦42⟧",
+        "symbolIdx": 42,
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 81,
+        "end": 94,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨40⟩",
+        "relId": "rel_39",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 94,
+        "end": 85,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦24⟧",
+        "symbolIdx": 24,
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 85,
+        "end": 94,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨41⟩",
+        "relId": "rel_40",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 94,
+        "end": 95,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦56⟧",
+        "symbolIdx": 56,
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 0,
+        "end": 4,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨42⟩",
+        "relId": "rel_41",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 4,
+        "end": 9,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦104⟧",
+        "symbolIdx": 104,
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 9,
+        "end": 19,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨43⟩",
+        "relId": "rel_42",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 19,
+        "end": 13,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦86⟧",
+        "symbolIdx": 86,
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 13,
+        "end": 19,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨44⟩",
+        "relId": "rel_43",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 19,
+        "end": 23,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦99⟧",
+        "symbolIdx": 99,
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 23,
+        "end": 33,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨45⟩",
+        "relId": "rel_44",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 33,
+        "end": 27,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦29⟧",
+        "symbolIdx": 29,
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 27,
+        "end": 33,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨46⟩",
+        "relId": "rel_45",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 33,
+        "end": 37,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦96⟧",
+        "symbolIdx": 96,
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 37,
+        "end": 47,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨47⟩",
+        "relId": "rel_46",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 47,
+        "end": 51,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦89⟧",
+        "symbolIdx": 89,
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 51,
+        "end": 55,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨48⟩",
+        "relId": "rel_47",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 55,
+        "end": 71,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦7⟧",
+        "symbolIdx": 7,
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 71,
+        "end": 89,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨49⟩",
+        "relId": "rel_48",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 89,
+        "end": 85,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦67⟧",
+        "symbolIdx": 67,
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 85,
+        "end": 89,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨50⟩",
+        "relId": "rel_49",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 89,
+        "end": 90,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨51⟩",
+        "relId": "rel_50",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 0,
+        "end": 8,
+        "isHead": true,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦59⟧",
+        "symbolIdx": 59,
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 8,
+        "end": 23,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨52⟩",
+        "relId": "rel_51",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 23,
+        "end": 15,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦20⟧",
+        "symbolIdx": 20,
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 15,
+        "end": 23,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨53⟩",
+        "relId": "rel_52",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 23,
+        "end": 32,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦101⟧",
+        "symbolIdx": 101,
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 32,
+        "end": 42,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨54⟩",
+        "relId": "rel_53",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 42,
+        "end": 36,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦72⟧",
+        "symbolIdx": 72,
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 36,
+        "end": 42,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨55⟩",
+        "relId": "rel_54",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 42,
+        "end": 64,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦85⟧",
+        "symbolIdx": 85,
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 64,
+        "end": 72,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨56⟩",
+        "relId": "rel_55",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 72,
+        "end": 64,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦85⟧",
+        "symbolIdx": 85,
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 64,
+        "end": 72,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨57⟩",
+        "relId": "rel_56",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 72,
+        "end": 73,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨58⟩",
+        "relId": "rel_57",
+        "chunkKey": "hotpot_3790_ctx_2_sent_0",
+        "start": 0,
+        "end": 14,
+        "isHead": true,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦100⟧",
+        "symbolIdx": 100,
+        "chunkKey": "hotpot_3790_ctx_2_sent_0",
+        "start": 14,
+        "end": 23,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨59⟩",
+        "relId": "rel_58",
+        "chunkKey": "hotpot_3790_ctx_2_sent_0",
+        "start": 23,
+        "end": 27,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦113⟧",
+        "symbolIdx": 113,
+        "chunkKey": "hotpot_3790_ctx_2_sent_0",
+        "start": 27,
+        "end": 35,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨60⟩",
+        "relId": "rel_59",
+        "chunkKey": "hotpot_3790_ctx_2_sent_0",
+        "start": 35,
+        "end": 66,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨61⟩",
+        "relId": "rel_60",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 0,
+        "end": 8,
+        "isHead": true,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦40⟧",
+        "symbolIdx": 40,
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 8,
+        "end": 10,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨62⟩",
+        "relId": "rel_61",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 10,
+        "end": 11,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦38⟧",
+        "symbolIdx": 38,
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 11,
+        "end": 14,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨63⟩",
+        "relId": "rel_62",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 14,
+        "end": 20,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦116⟧",
+        "symbolIdx": 116,
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 20,
+        "end": 38,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨64⟩",
+        "relId": "rel_63",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 38,
+        "end": 44,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦84⟧",
+        "symbolIdx": 84,
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 44,
+        "end": 54,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨65⟩",
+        "relId": "rel_64",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 54,
+        "end": 44,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦84⟧",
+        "symbolIdx": 84,
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 44,
+        "end": 54,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨66⟩",
+        "relId": "rel_65",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 54,
+        "end": 67,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨67⟩",
+        "relId": "rel_66",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 0,
+        "end": 8,
+        "isHead": true,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦108⟧",
+        "symbolIdx": 108,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 8,
+        "end": 15,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨68⟩",
+        "relId": "rel_67",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 15,
+        "end": 12,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦94⟧",
+        "symbolIdx": 94,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 12,
+        "end": 15,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨69⟩",
+        "relId": "rel_68",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 15,
+        "end": 19,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦17⟧",
+        "symbolIdx": 17,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 19,
+        "end": 29,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨70⟩",
+        "relId": "rel_69",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 29,
+        "end": 31,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦94⟧",
+        "symbolIdx": 94,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 31,
+        "end": 34,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨71⟩",
+        "relId": "rel_70",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 34,
+        "end": 31,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦94⟧",
+        "symbolIdx": 94,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 31,
+        "end": 34,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨72⟩",
+        "relId": "rel_71",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 34,
+        "end": 38,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦16⟧",
+        "symbolIdx": 16,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 38,
+        "end": 47,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨73⟩",
+        "relId": "rel_72",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 47,
+        "end": 51,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦95⟧",
+        "symbolIdx": 95,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 51,
+        "end": 58,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨74⟩",
+        "relId": "rel_73",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 58,
+        "end": 63,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦63⟧",
+        "symbolIdx": 63,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 63,
+        "end": 70,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨75⟩",
+        "relId": "rel_74",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 70,
+        "end": 77,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦19⟧",
+        "symbolIdx": 19,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 77,
+        "end": 81,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨76⟩",
+        "relId": "rel_75",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 81,
+        "end": 85,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦115⟧",
+        "symbolIdx": 115,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 85,
+        "end": 91,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨77⟩",
+        "relId": "rel_76",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 91,
+        "end": 93,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦35⟧",
+        "symbolIdx": 35,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 93,
+        "end": 101,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨78⟩",
+        "relId": "rel_77",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 101,
+        "end": 93,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦35⟧",
+        "symbolIdx": 35,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 93,
+        "end": 101,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨79⟩",
+        "relId": "rel_78",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 101,
+        "end": 105,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦50⟧",
+        "symbolIdx": 50,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 105,
+        "end": 109,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨80⟩",
+        "relId": "rel_79",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 109,
+        "end": 111,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦53⟧",
+        "symbolIdx": 53,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 111,
+        "end": 115,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨81⟩",
+        "relId": "rel_80",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 115,
+        "end": 119,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦52⟧",
+        "symbolIdx": 52,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 119,
+        "end": 124,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨82⟩",
+        "relId": "rel_81",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 124,
+        "end": 129,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦47⟧",
+        "symbolIdx": 47,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 129,
+        "end": 144,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨83⟩",
+        "relId": "rel_82",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 144,
+        "end": 140,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦117⟧",
+        "symbolIdx": 117,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 140,
+        "end": 144,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨84⟩",
+        "relId": "rel_83",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 144,
+        "end": 146,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦19⟧",
+        "symbolIdx": 19,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 146,
+        "end": 150,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨85⟩",
+        "relId": "rel_84",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 150,
+        "end": 155,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦41⟧",
+        "symbolIdx": 41,
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 155,
+        "end": 160,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨86⟩",
+        "relId": "rel_85",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 160,
+        "end": 163,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦44⟧",
+        "symbolIdx": 44,
+        "chunkKey": "hotpot_3790_ctx_2_sent_3",
+        "start": 0,
+        "end": 17,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨87⟩",
+        "relId": "rel_86",
+        "chunkKey": "hotpot_3790_ctx_2_sent_3",
+        "start": 17,
+        "end": 10,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦28⟧",
+        "symbolIdx": 28,
+        "chunkKey": "hotpot_3790_ctx_2_sent_3",
+        "start": 10,
+        "end": 17,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨88⟩",
+        "relId": "rel_87",
+        "chunkKey": "hotpot_3790_ctx_2_sent_3",
+        "start": 17,
+        "end": 22,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦79⟧",
+        "symbolIdx": 79,
+        "chunkKey": "hotpot_3790_ctx_2_sent_3",
+        "start": 22,
+        "end": 35,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨89⟩",
+        "relId": "rel_88",
+        "chunkKey": "hotpot_3790_ctx_2_sent_3",
+        "start": 35,
+        "end": 36,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦63⟧",
+        "symbolIdx": 63,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 0,
+        "end": 7,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨90⟩",
+        "relId": "rel_89",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 7,
+        "end": 14,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦60⟧",
+        "symbolIdx": 60,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 14,
+        "end": 19,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨91⟩",
+        "relId": "rel_90",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 19,
+        "end": 38,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦62⟧",
+        "symbolIdx": 62,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 38,
+        "end": 47,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨92⟩",
+        "relId": "rel_91",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 47,
+        "end": 51,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦61⟧",
+        "symbolIdx": 61,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 51,
+        "end": 59,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨93⟩",
+        "relId": "rel_92",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 59,
+        "end": 78,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦11⟧",
+        "symbolIdx": 11,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 78,
+        "end": 96,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨94⟩",
+        "relId": "rel_93",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 96,
+        "end": 86,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦69⟧",
+        "symbolIdx": 69,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 86,
+        "end": 96,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨95⟩",
+        "relId": "rel_94",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 96,
+        "end": 105,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦98⟧",
+        "symbolIdx": 98,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 105,
+        "end": 125,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨96⟩",
+        "relId": "rel_95",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 125,
+        "end": 117,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦66⟧",
+        "symbolIdx": 66,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 117,
+        "end": 125,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨97⟩",
+        "relId": "rel_96",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 125,
+        "end": 129,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦81⟧",
+        "symbolIdx": 81,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 129,
+        "end": 145,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨98⟩",
+        "relId": "rel_97",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 145,
+        "end": 160,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦110⟧",
+        "symbolIdx": 110,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 160,
+        "end": 194,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨99⟩",
+        "relId": "rel_98",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 194,
+        "end": 178,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦112⟧",
+        "symbolIdx": 112,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 178,
+        "end": 184,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨100⟩",
+        "relId": "rel_99",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 184,
+        "end": 186,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦92⟧",
+        "symbolIdx": 92,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 186,
+        "end": 194,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨101⟩",
+        "relId": "rel_100",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 194,
+        "end": 198,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦91⟧",
+        "symbolIdx": 91,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 198,
+        "end": 208,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨102⟩",
+        "relId": "rel_101",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 208,
+        "end": 229,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦89⟧",
+        "symbolIdx": 89,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 229,
+        "end": 233,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨103⟩",
+        "relId": "rel_102",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 233,
+        "end": 237,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦77⟧",
+        "symbolIdx": 77,
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 237,
+        "end": 249,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦18⟧",
+        "symbolIdx": 18,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 0,
+        "end": 11,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨104⟩",
+        "relId": "rel_103",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 11,
+        "end": 15,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦34⟧",
+        "symbolIdx": 34,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 15,
+        "end": 24,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨105⟩",
+        "relId": "rel_104",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 24,
+        "end": 25,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦1⟧",
+        "symbolIdx": 1,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 25,
+        "end": 44,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨106⟩",
+        "relId": "rel_105",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 44,
+        "end": 52,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦3⟧",
+        "symbolIdx": 3,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 52,
+        "end": 59,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨107⟩",
+        "relId": "rel_106",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 59,
+        "end": 57,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦13⟧",
+        "symbolIdx": 13,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 57,
+        "end": 59,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨108⟩",
+        "relId": "rel_107",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 59,
+        "end": 65,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦9⟧",
+        "symbolIdx": 9,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 65,
+        "end": 79,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨109⟩",
+        "relId": "rel_108",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 79,
+        "end": 74,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦32⟧",
+        "symbolIdx": 32,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 74,
+        "end": 79,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨110⟩",
+        "relId": "rel_109",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 79,
+        "end": 84,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦94⟧",
+        "symbolIdx": 94,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 84,
+        "end": 87,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨111⟩",
+        "relId": "rel_110",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 87,
+        "end": 84,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦94⟧",
+        "symbolIdx": 94,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 84,
+        "end": 87,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨112⟩",
+        "relId": "rel_111",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 87,
+        "end": 91,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦17⟧",
+        "symbolIdx": 17,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 91,
+        "end": 101,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨113⟩",
+        "relId": "rel_112",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 101,
+        "end": 103,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦32⟧",
+        "symbolIdx": 32,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 103,
+        "end": 108,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨114⟩",
+        "relId": "rel_113",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 108,
+        "end": 112,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦34⟧",
+        "symbolIdx": 34,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 112,
+        "end": 121,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨115⟩",
+        "relId": "rel_114",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 121,
+        "end": 127,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦30⟧",
+        "symbolIdx": 30,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 127,
+        "end": 142,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨116⟩",
+        "relId": "rel_115",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 142,
+        "end": 144,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦35⟧",
+        "symbolIdx": 35,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 144,
+        "end": 152,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨117⟩",
+        "relId": "rel_116",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 152,
+        "end": 144,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦35⟧",
+        "symbolIdx": 35,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 144,
+        "end": 152,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨118⟩",
+        "relId": "rel_117",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 152,
+        "end": 156,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦88⟧",
+        "symbolIdx": 88,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 156,
+        "end": 166,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨119⟩",
+        "relId": "rel_118",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 166,
+        "end": 168,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦32⟧",
+        "symbolIdx": 32,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 168,
+        "end": 173,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨120⟩",
+        "relId": "rel_119",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 173,
+        "end": 177,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦25⟧",
+        "symbolIdx": 25,
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 177,
+        "end": 180,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨121⟩",
+        "relId": "rel_120",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 180,
+        "end": 181,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦17⟧",
+        "symbolIdx": 17,
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 0,
+        "end": 10,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨122⟩",
+        "relId": "rel_121",
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 10,
+        "end": 15,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦8⟧",
+        "symbolIdx": 8,
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 15,
+        "end": 23,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨123⟩",
+        "relId": "rel_122",
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 23,
+        "end": 17,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦26⟧",
+        "symbolIdx": 26,
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 17,
+        "end": 23,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨124⟩",
+        "relId": "rel_123",
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 23,
+        "end": 27,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦114⟧",
+        "symbolIdx": 114,
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 27,
+        "end": 34,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨125⟩",
+        "relId": "rel_124",
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 34,
+        "end": 51,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦17⟧",
+        "symbolIdx": 17,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 0,
+        "end": 10,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨126⟩",
+        "relId": "rel_125",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 10,
+        "end": 33,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦34⟧",
+        "symbolIdx": 34,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 33,
+        "end": 42,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨127⟩",
+        "relId": "rel_126",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 42,
+        "end": 44,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦83⟧",
+        "symbolIdx": 83,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 44,
+        "end": 60,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨128⟩",
+        "relId": "rel_127",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 60,
+        "end": 57,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦94⟧",
+        "symbolIdx": 94,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 57,
+        "end": 60,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨129⟩",
+        "relId": "rel_128",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 60,
+        "end": 64,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦22⟧",
+        "symbolIdx": 22,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 64,
+        "end": 78,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨130⟩",
+        "relId": "rel_129",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 78,
+        "end": 80,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦32⟧",
+        "symbolIdx": 32,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 80,
+        "end": 85,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨131⟩",
+        "relId": "rel_130",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 85,
+        "end": 89,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦34⟧",
+        "symbolIdx": 34,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 89,
+        "end": 98,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨132⟩",
+        "relId": "rel_131",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 98,
+        "end": 104,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦14⟧",
+        "symbolIdx": 14,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 104,
+        "end": 109,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨133⟩",
+        "relId": "rel_132",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 109,
+        "end": 111,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦35⟧",
+        "symbolIdx": 35,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 111,
+        "end": 119,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨134⟩",
+        "relId": "rel_133",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 119,
+        "end": 111,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦35⟧",
+        "symbolIdx": 35,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 111,
+        "end": 119,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨135⟩",
+        "relId": "rel_134",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 119,
+        "end": 123,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦51⟧",
+        "symbolIdx": 51,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 123,
+        "end": 129,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨136⟩",
+        "relId": "rel_135",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 129,
+        "end": 131,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦32⟧",
+        "symbolIdx": 32,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 131,
+        "end": 136,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨137⟩",
+        "relId": "rel_136",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 136,
+        "end": 140,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦34⟧",
+        "symbolIdx": 34,
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 140,
+        "end": 149,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨138⟩",
+        "relId": "rel_137",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 149,
+        "end": 150,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦76⟧",
+        "symbolIdx": 76,
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 0,
+        "end": 16,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨139⟩",
+        "relId": "rel_138",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 16,
+        "end": 43,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦75⟧",
+        "symbolIdx": 75,
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 43,
+        "end": 47,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨140⟩",
+        "relId": "rel_139",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 47,
+        "end": 53,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦2⟧",
+        "symbolIdx": 2,
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 53,
+        "end": 59,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨141⟩",
+        "relId": "rel_140",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 59,
+        "end": 67,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦43⟧",
+        "symbolIdx": 43,
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 67,
+        "end": 76,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨142⟩",
+        "relId": "rel_141",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 76,
+        "end": 71,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦37⟧",
+        "symbolIdx": 37,
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 71,
+        "end": 76,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨143⟩",
+        "relId": "rel_142",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 76,
+        "end": 84,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦10⟧",
+        "symbolIdx": 10,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 0,
+        "end": 10,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨144⟩",
+        "relId": "rel_143",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 10,
+        "end": 3,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦70⟧",
+        "symbolIdx": 70,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 3,
+        "end": 10,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨145⟩",
+        "relId": "rel_144",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 10,
+        "end": 14,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦105⟧",
+        "symbolIdx": 105,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 14,
+        "end": 26,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨146⟩",
+        "relId": "rel_145",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 26,
+        "end": 30,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦89⟧",
+        "symbolIdx": 89,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 30,
+        "end": 34,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨147⟩",
+        "relId": "rel_146",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 34,
+        "end": 36,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦17⟧",
+        "symbolIdx": 17,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 36,
+        "end": 46,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨148⟩",
+        "relId": "rel_147",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 46,
+        "end": 48,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦46⟧",
+        "symbolIdx": 46,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 48,
+        "end": 63,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨149⟩",
+        "relId": "rel_148",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 63,
+        "end": 52,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦74⟧",
+        "symbolIdx": 74,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 52,
+        "end": 63,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨150⟩",
+        "relId": "rel_149",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 63,
+        "end": 80,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦102⟧",
+        "symbolIdx": 102,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 80,
+        "end": 90,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨151⟩",
+        "relId": "rel_150",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 90,
+        "end": 84,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦73⟧",
+        "symbolIdx": 73,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 84,
+        "end": 90,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨152⟩",
+        "relId": "rel_151",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 90,
+        "end": 100,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦107⟧",
+        "symbolIdx": 107,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 100,
+        "end": 121,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨153⟩",
+        "relId": "rel_152",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 121,
+        "end": 113,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦71⟧",
+        "symbolIdx": 71,
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 113,
+        "end": 121,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨154⟩",
+        "relId": "rel_153",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 121,
+        "end": 122,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦93⟧",
+        "symbolIdx": 93,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 0,
+        "end": 5,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨155⟩",
+        "relId": "rel_154",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 5,
+        "end": 9,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦34⟧",
+        "symbolIdx": 34,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 9,
+        "end": 18,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨156⟩",
+        "relId": "rel_155",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 18,
+        "end": 27,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦4⟧",
+        "symbolIdx": 4,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 27,
+        "end": 39,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨157⟩",
+        "relId": "rel_156",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 39,
+        "end": 50,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦12⟧",
+        "symbolIdx": 12,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 50,
+        "end": 55,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨158⟩",
+        "relId": "rel_157",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 55,
+        "end": 52,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦94⟧",
+        "symbolIdx": 94,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 52,
+        "end": 55,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨159⟩",
+        "relId": "rel_158",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 55,
+        "end": 59,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦17⟧",
+        "symbolIdx": 17,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 59,
+        "end": 69,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨160⟩",
+        "relId": "rel_159",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 69,
+        "end": 73,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦34⟧",
+        "symbolIdx": 34,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 73,
+        "end": 82,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨161⟩",
+        "relId": "rel_160",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 82,
+        "end": 84,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦21⟧",
+        "symbolIdx": 21,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 84,
+        "end": 102,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨162⟩",
+        "relId": "rel_161",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 102,
+        "end": 108,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦49⟧",
+        "symbolIdx": 49,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 108,
+        "end": 116,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨163⟩",
+        "relId": "rel_162",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 116,
+        "end": 112,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦117⟧",
+        "symbolIdx": 117,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 112,
+        "end": 116,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨164⟩",
+        "relId": "rel_163",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 116,
+        "end": 117,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦65⟧",
+        "symbolIdx": 65,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 117,
+        "end": 126,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨165⟩",
+        "relId": "rel_164",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 126,
+        "end": 130,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦31⟧",
+        "symbolIdx": 31,
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 130,
+        "end": 138,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨166⟩",
+        "relId": "rel_165",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 138,
+        "end": 139,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨167⟩",
+        "relId": "rel_166",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 0,
+        "end": 7,
+        "isHead": true,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦36⟧",
+        "symbolIdx": 36,
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 7,
+        "end": 19,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨168⟩",
+        "relId": "rel_167",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 19,
+        "end": 21,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦87⟧",
+        "symbolIdx": 87,
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 21,
+        "end": 29,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨169⟩",
+        "relId": "rel_168",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 29,
+        "end": 33,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦27⟧",
+        "symbolIdx": 27,
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 33,
+        "end": 41,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨170⟩",
+        "relId": "rel_169",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 41,
+        "end": 64,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦32⟧",
+        "symbolIdx": 32,
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 64,
+        "end": 69,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨171⟩",
+        "relId": "rel_170",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 69,
+        "end": 73,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦27⟧",
+        "symbolIdx": 27,
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 73,
+        "end": 81,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨172⟩",
+        "relId": "rel_171",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 81,
+        "end": 93,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦32⟧",
+        "symbolIdx": 32,
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 93,
+        "end": 98,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨173⟩",
+        "relId": "rel_172",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 98,
+        "end": 102,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦34⟧",
+        "symbolIdx": 34,
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 102,
+        "end": 111,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨174⟩",
+        "relId": "rel_173",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 111,
+        "end": 143,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦23⟧",
+        "symbolIdx": 23,
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 143,
+        "end": 149,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨175⟩",
+        "relId": "rel_174",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 149,
+        "end": 168,
+        "isHead": false,
+        "isTail": true
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨176⟩",
+        "relId": "rel_175",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 0,
+        "end": 8,
+        "isHead": true,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦94⟧",
+        "symbolIdx": 94,
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 8,
+        "end": 11,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨177⟩",
+        "relId": "rel_176",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 11,
+        "end": 8,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦94⟧",
+        "symbolIdx": 94,
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 8,
+        "end": 11,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨178⟩",
+        "relId": "rel_177",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 11,
+        "end": 15,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦17⟧",
+        "symbolIdx": 17,
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 15,
+        "end": 25,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨179⟩",
+        "relId": "rel_178",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 25,
+        "end": 29,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦34⟧",
+        "symbolIdx": 34,
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 29,
+        "end": 38,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨180⟩",
+        "relId": "rel_179",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 38,
+        "end": 44,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦64⟧",
+        "symbolIdx": 64,
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 44,
+        "end": 52,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨181⟩",
+        "relId": "rel_180",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 52,
+        "end": 56,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦31⟧",
+        "symbolIdx": 31,
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 56,
+        "end": 64,
+        "isHead": false,
+        "isTail": false
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨182⟩",
+        "relId": "rel_181",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 64,
+        "end": 65,
+        "isHead": false,
+        "isTail": true
+      }
+    ],
+    "nonNounPlaceholders": {
+      "rel_0": {
+        "placeholder": "⟨1⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 10,
+        "end": 12
+      },
+      "rel_1": {
+        "placeholder": "⟨2⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 19,
+        "end": 25
+      },
+      "rel_2": {
+        "placeholder": "⟨3⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 30,
+        "end": 25
+      },
+      "rel_3": {
+        "placeholder": "⟨4⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 30,
+        "end": 34
+      },
+      "rel_4": {
+        "placeholder": "⟨5⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 38,
+        "end": 71
+      },
+      "rel_5": {
+        "placeholder": "⟨6⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 81,
+        "end": 75
+      },
+      "rel_6": {
+        "placeholder": "⟨7⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 81,
+        "end": 82
+      },
+      "rel_7": {
+        "placeholder": "⟨8⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 89,
+        "end": 94
+      },
+      "rel_8": {
+        "placeholder": "⟨9⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 108,
+        "end": 98
+      },
+      "rel_9": {
+        "placeholder": "⟨10⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 108,
+        "end": 110
+      },
+      "rel_10": {
+        "placeholder": "⟨11⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 119,
+        "end": 123
+      },
+      "rel_11": {
+        "placeholder": "⟨12⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 128,
+        "end": 129
+      },
+      "rel_12": {
+        "placeholder": "⟨13⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 12,
+        "end": 14
+      },
+      "rel_13": {
+        "placeholder": "⟨14⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 19,
+        "end": 22
+      },
+      "rel_14": {
+        "placeholder": "⟨15⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 29,
+        "end": 33
+      },
+      "rel_15": {
+        "placeholder": "⟨16⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 35,
+        "end": 53
+      },
+      "rel_16": {
+        "placeholder": "⟨17⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 57,
+        "end": 63
+      },
+      "rel_17": {
+        "placeholder": "⟨18⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 72,
+        "end": 80
+      },
+      "rel_18": {
+        "placeholder": "⟨19⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 89,
+        "end": 84
+      },
+      "rel_19": {
+        "placeholder": "⟨20⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_0",
+        "start": 89,
+        "end": 97
+      },
+      "rel_20": {
+        "placeholder": "⟨21⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_1",
+        "start": 0,
+        "end": 20
+      },
+      "rel_21": {
+        "placeholder": "⟨22⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_1",
+        "start": 32,
+        "end": 49
+      },
+      "rel_22": {
+        "placeholder": "⟨23⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_1",
+        "start": 66,
+        "end": 67
+      },
+      "rel_23": {
+        "placeholder": "⟨24⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 19,
+        "end": 11
+      },
+      "rel_24": {
+        "placeholder": "⟨25⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 19,
+        "end": 23
+      },
+      "rel_25": {
+        "placeholder": "⟨26⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 33,
+        "end": 27
+      },
+      "rel_26": {
+        "placeholder": "⟨27⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 33,
+        "end": 49
+      },
+      "rel_27": {
+        "placeholder": "⟨28⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 59,
+        "end": 63
+      },
+      "rel_28": {
+        "placeholder": "⟨29⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 70,
+        "end": 72
+      },
+      "rel_29": {
+        "placeholder": "⟨30⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 81,
+        "end": 76
+      },
+      "rel_30": {
+        "placeholder": "⟨31⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 81,
+        "end": 85
+      },
+      "rel_31": {
+        "placeholder": "⟨32⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 89,
+        "end": 93
+      },
+      "rel_32": {
+        "placeholder": "⟨33⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 101,
+        "end": 97
+      },
+      "rel_33": {
+        "placeholder": "⟨34⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_2",
+        "start": 101,
+        "end": 102
+      },
+      "rel_34": {
+        "placeholder": "⟨35⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 8,
+        "end": 26
+      },
+      "rel_35": {
+        "placeholder": "⟨36⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 34,
+        "end": 30
+      },
+      "rel_36": {
+        "placeholder": "⟨37⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 34,
+        "end": 43
+      },
+      "rel_37": {
+        "placeholder": "⟨38⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 53,
+        "end": 47
+      },
+      "rel_38": {
+        "placeholder": "⟨39⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 53,
+        "end": 81
+      },
+      "rel_39": {
+        "placeholder": "⟨40⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 94,
+        "end": 85
+      },
+      "rel_40": {
+        "placeholder": "⟨41⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_3",
+        "start": 94,
+        "end": 95
+      },
+      "rel_41": {
+        "placeholder": "⟨42⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 4,
+        "end": 9
+      },
+      "rel_42": {
+        "placeholder": "⟨43⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 19,
+        "end": 13
+      },
+      "rel_43": {
+        "placeholder": "⟨44⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 19,
+        "end": 23
+      },
+      "rel_44": {
+        "placeholder": "⟨45⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 33,
+        "end": 27
+      },
+      "rel_45": {
+        "placeholder": "⟨46⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 33,
+        "end": 37
+      },
+      "rel_46": {
+        "placeholder": "⟨47⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 47,
+        "end": 51
+      },
+      "rel_47": {
+        "placeholder": "⟨48⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 55,
+        "end": 71
+      },
+      "rel_48": {
+        "placeholder": "⟨49⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 89,
+        "end": 85
+      },
+      "rel_49": {
+        "placeholder": "⟨50⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_4",
+        "start": 89,
+        "end": 90
+      },
+      "rel_50": {
+        "placeholder": "⟨51⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 0,
+        "end": 8
+      },
+      "rel_51": {
+        "placeholder": "⟨52⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 23,
+        "end": 15
+      },
+      "rel_52": {
+        "placeholder": "⟨53⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 23,
+        "end": 32
+      },
+      "rel_53": {
+        "placeholder": "⟨54⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 42,
+        "end": 36
+      },
+      "rel_54": {
+        "placeholder": "⟨55⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 42,
+        "end": 64
+      },
+      "rel_55": {
+        "placeholder": "⟨56⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 72,
+        "end": 64
+      },
+      "rel_56": {
+        "placeholder": "⟨57⟩",
+        "chunkKey": "hotpot_3790_ctx_1_sent_5",
+        "start": 72,
+        "end": 73
+      },
+      "rel_57": {
+        "placeholder": "⟨58⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_0",
+        "start": 0,
+        "end": 14
+      },
+      "rel_58": {
+        "placeholder": "⟨59⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_0",
+        "start": 23,
+        "end": 27
+      },
+      "rel_59": {
+        "placeholder": "⟨60⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_0",
+        "start": 35,
+        "end": 66
+      },
+      "rel_60": {
+        "placeholder": "⟨61⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 0,
+        "end": 8
+      },
+      "rel_61": {
+        "placeholder": "⟨62⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 10,
+        "end": 11
+      },
+      "rel_62": {
+        "placeholder": "⟨63⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 14,
+        "end": 20
+      },
+      "rel_63": {
+        "placeholder": "⟨64⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 38,
+        "end": 44
+      },
+      "rel_64": {
+        "placeholder": "⟨65⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 54,
+        "end": 44
+      },
+      "rel_65": {
+        "placeholder": "⟨66⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_1",
+        "start": 54,
+        "end": 67
+      },
+      "rel_66": {
+        "placeholder": "⟨67⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 0,
+        "end": 8
+      },
+      "rel_67": {
+        "placeholder": "⟨68⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 15,
+        "end": 12
+      },
+      "rel_68": {
+        "placeholder": "⟨69⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 15,
+        "end": 19
+      },
+      "rel_69": {
+        "placeholder": "⟨70⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 29,
+        "end": 31
+      },
+      "rel_70": {
+        "placeholder": "⟨71⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 34,
+        "end": 31
+      },
+      "rel_71": {
+        "placeholder": "⟨72⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 34,
+        "end": 38
+      },
+      "rel_72": {
+        "placeholder": "⟨73⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 47,
+        "end": 51
+      },
+      "rel_73": {
+        "placeholder": "⟨74⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 58,
+        "end": 63
+      },
+      "rel_74": {
+        "placeholder": "⟨75⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 70,
+        "end": 77
+      },
+      "rel_75": {
+        "placeholder": "⟨76⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 81,
+        "end": 85
+      },
+      "rel_76": {
+        "placeholder": "⟨77⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 91,
+        "end": 93
+      },
+      "rel_77": {
+        "placeholder": "⟨78⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 101,
+        "end": 93
+      },
+      "rel_78": {
+        "placeholder": "⟨79⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 101,
+        "end": 105
+      },
+      "rel_79": {
+        "placeholder": "⟨80⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 109,
+        "end": 111
+      },
+      "rel_80": {
+        "placeholder": "⟨81⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 115,
+        "end": 119
+      },
+      "rel_81": {
+        "placeholder": "⟨82⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 124,
+        "end": 129
+      },
+      "rel_82": {
+        "placeholder": "⟨83⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 144,
+        "end": 140
+      },
+      "rel_83": {
+        "placeholder": "⟨84⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 144,
+        "end": 146
+      },
+      "rel_84": {
+        "placeholder": "⟨85⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 150,
+        "end": 155
+      },
+      "rel_85": {
+        "placeholder": "⟨86⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_2",
+        "start": 160,
+        "end": 163
+      },
+      "rel_86": {
+        "placeholder": "⟨87⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_3",
+        "start": 17,
+        "end": 10
+      },
+      "rel_87": {
+        "placeholder": "⟨88⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_3",
+        "start": 17,
+        "end": 22
+      },
+      "rel_88": {
+        "placeholder": "⟨89⟩",
+        "chunkKey": "hotpot_3790_ctx_2_sent_3",
+        "start": 35,
+        "end": 36
+      },
+      "rel_89": {
+        "placeholder": "⟨90⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 7,
+        "end": 14
+      },
+      "rel_90": {
+        "placeholder": "⟨91⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 19,
+        "end": 38
+      },
+      "rel_91": {
+        "placeholder": "⟨92⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 47,
+        "end": 51
+      },
+      "rel_92": {
+        "placeholder": "⟨93⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 59,
+        "end": 78
+      },
+      "rel_93": {
+        "placeholder": "⟨94⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 96,
+        "end": 86
+      },
+      "rel_94": {
+        "placeholder": "⟨95⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 96,
+        "end": 105
+      },
+      "rel_95": {
+        "placeholder": "⟨96⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 125,
+        "end": 117
+      },
+      "rel_96": {
+        "placeholder": "⟨97⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 125,
+        "end": 129
+      },
+      "rel_97": {
+        "placeholder": "⟨98⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 145,
+        "end": 160
+      },
+      "rel_98": {
+        "placeholder": "⟨99⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 194,
+        "end": 178
+      },
+      "rel_99": {
+        "placeholder": "⟨100⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 184,
+        "end": 186
+      },
+      "rel_100": {
+        "placeholder": "⟨101⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 194,
+        "end": 198
+      },
+      "rel_101": {
+        "placeholder": "⟨102⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 208,
+        "end": 229
+      },
+      "rel_102": {
+        "placeholder": "⟨103⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 233,
+        "end": 237
+      },
+      "rel_103": {
+        "placeholder": "⟨104⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 11,
+        "end": 15
+      },
+      "rel_104": {
+        "placeholder": "⟨105⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 24,
+        "end": 25
+      },
+      "rel_105": {
+        "placeholder": "⟨106⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 44,
+        "end": 52
+      },
+      "rel_106": {
+        "placeholder": "⟨107⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 59,
+        "end": 57
+      },
+      "rel_107": {
+        "placeholder": "⟨108⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 59,
+        "end": 65
+      },
+      "rel_108": {
+        "placeholder": "⟨109⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 79,
+        "end": 74
+      },
+      "rel_109": {
+        "placeholder": "⟨110⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 79,
+        "end": 84
+      },
+      "rel_110": {
+        "placeholder": "⟨111⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 87,
+        "end": 84
+      },
+      "rel_111": {
+        "placeholder": "⟨112⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 87,
+        "end": 91
+      },
+      "rel_112": {
+        "placeholder": "⟨113⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 101,
+        "end": 103
+      },
+      "rel_113": {
+        "placeholder": "⟨114⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 108,
+        "end": 112
+      },
+      "rel_114": {
+        "placeholder": "⟨115⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 121,
+        "end": 127
+      },
+      "rel_115": {
+        "placeholder": "⟨116⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 142,
+        "end": 144
+      },
+      "rel_116": {
+        "placeholder": "⟨117⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 152,
+        "end": 144
+      },
+      "rel_117": {
+        "placeholder": "⟨118⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 152,
+        "end": 156
+      },
+      "rel_118": {
+        "placeholder": "⟨119⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 166,
+        "end": 168
+      },
+      "rel_119": {
+        "placeholder": "⟨120⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 173,
+        "end": 177
+      },
+      "rel_120": {
+        "placeholder": "⟨121⟩",
+        "chunkKey": "hotpot_3790_ctx_4_sent_0",
+        "start": 180,
+        "end": 181
+      },
+      "rel_121": {
+        "placeholder": "⟨122⟩",
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 10,
+        "end": 15
+      },
+      "rel_122": {
+        "placeholder": "⟨123⟩",
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 23,
+        "end": 17
+      },
+      "rel_123": {
+        "placeholder": "⟨124⟩",
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 23,
+        "end": 27
+      },
+      "rel_124": {
+        "placeholder": "⟨125⟩",
+        "chunkKey": "hotpot_3790_ctx_5_sent_0",
+        "start": 34,
+        "end": 51
+      },
+      "rel_125": {
+        "placeholder": "⟨126⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 10,
+        "end": 33
+      },
+      "rel_126": {
+        "placeholder": "⟨127⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 42,
+        "end": 44
+      },
+      "rel_127": {
+        "placeholder": "⟨128⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 60,
+        "end": 57
+      },
+      "rel_128": {
+        "placeholder": "⟨129⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 60,
+        "end": 64
+      },
+      "rel_129": {
+        "placeholder": "⟨130⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 78,
+        "end": 80
+      },
+      "rel_130": {
+        "placeholder": "⟨131⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 85,
+        "end": 89
+      },
+      "rel_131": {
+        "placeholder": "⟨132⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 98,
+        "end": 104
+      },
+      "rel_132": {
+        "placeholder": "⟨133⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 109,
+        "end": 111
+      },
+      "rel_133": {
+        "placeholder": "⟨134⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 119,
+        "end": 111
+      },
+      "rel_134": {
+        "placeholder": "⟨135⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 119,
+        "end": 123
+      },
+      "rel_135": {
+        "placeholder": "⟨136⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 129,
+        "end": 131
+      },
+      "rel_136": {
+        "placeholder": "⟨137⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 136,
+        "end": 140
+      },
+      "rel_137": {
+        "placeholder": "⟨138⟩",
+        "chunkKey": "hotpot_3790_ctx_6_sent_0",
+        "start": 149,
+        "end": 150
+      },
+      "rel_138": {
+        "placeholder": "⟨139⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 16,
+        "end": 43
+      },
+      "rel_139": {
+        "placeholder": "⟨140⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 47,
+        "end": 53
+      },
+      "rel_140": {
+        "placeholder": "⟨141⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 59,
+        "end": 67
+      },
+      "rel_141": {
+        "placeholder": "⟨142⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 76,
+        "end": 71
+      },
+      "rel_142": {
+        "placeholder": "⟨143⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_0",
+        "start": 76,
+        "end": 84
+      },
+      "rel_143": {
+        "placeholder": "⟨144⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 10,
+        "end": 3
+      },
+      "rel_144": {
+        "placeholder": "⟨145⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 10,
+        "end": 14
+      },
+      "rel_145": {
+        "placeholder": "⟨146⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 26,
+        "end": 30
+      },
+      "rel_146": {
+        "placeholder": "⟨147⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 34,
+        "end": 36
+      },
+      "rel_147": {
+        "placeholder": "⟨148⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 46,
+        "end": 48
+      },
+      "rel_148": {
+        "placeholder": "⟨149⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 63,
+        "end": 52
+      },
+      "rel_149": {
+        "placeholder": "⟨150⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 63,
+        "end": 80
+      },
+      "rel_150": {
+        "placeholder": "⟨151⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 90,
+        "end": 84
+      },
+      "rel_151": {
+        "placeholder": "⟨152⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 90,
+        "end": 100
+      },
+      "rel_152": {
+        "placeholder": "⟨153⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 121,
+        "end": 113
+      },
+      "rel_153": {
+        "placeholder": "⟨154⟩",
+        "chunkKey": "hotpot_3790_ctx_7_sent_1",
+        "start": 121,
+        "end": 122
+      },
+      "rel_154": {
+        "placeholder": "⟨155⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 5,
+        "end": 9
+      },
+      "rel_155": {
+        "placeholder": "⟨156⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 18,
+        "end": 27
+      },
+      "rel_156": {
+        "placeholder": "⟨157⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 39,
+        "end": 50
+      },
+      "rel_157": {
+        "placeholder": "⟨158⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 55,
+        "end": 52
+      },
+      "rel_158": {
+        "placeholder": "⟨159⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 55,
+        "end": 59
+      },
+      "rel_159": {
+        "placeholder": "⟨160⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 69,
+        "end": 73
+      },
+      "rel_160": {
+        "placeholder": "⟨161⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 82,
+        "end": 84
+      },
+      "rel_161": {
+        "placeholder": "⟨162⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 102,
+        "end": 108
+      },
+      "rel_162": {
+        "placeholder": "⟨163⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 116,
+        "end": 112
+      },
+      "rel_163": {
+        "placeholder": "⟨164⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 116,
+        "end": 117
+      },
+      "rel_164": {
+        "placeholder": "⟨165⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 126,
+        "end": 130
+      },
+      "rel_165": {
+        "placeholder": "⟨166⟩",
+        "chunkKey": "hotpot_3790_ctx_8_sent_0",
+        "start": 138,
+        "end": 139
+      },
+      "rel_166": {
+        "placeholder": "⟨167⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 0,
+        "end": 7
+      },
+      "rel_167": {
+        "placeholder": "⟨168⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 19,
+        "end": 21
+      },
+      "rel_168": {
+        "placeholder": "⟨169⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 29,
+        "end": 33
+      },
+      "rel_169": {
+        "placeholder": "⟨170⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 41,
+        "end": 64
+      },
+      "rel_170": {
+        "placeholder": "⟨171⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 69,
+        "end": 73
+      },
+      "rel_171": {
+        "placeholder": "⟨172⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 81,
+        "end": 93
+      },
+      "rel_172": {
+        "placeholder": "⟨173⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 98,
+        "end": 102
+      },
+      "rel_173": {
+        "placeholder": "⟨174⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 111,
+        "end": 143
+      },
+      "rel_174": {
+        "placeholder": "⟨175⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_0",
+        "start": 149,
+        "end": 168
+      },
+      "rel_175": {
+        "placeholder": "⟨176⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 0,
+        "end": 8
+      },
+      "rel_176": {
+        "placeholder": "⟨177⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 11,
+        "end": 8
+      },
+      "rel_177": {
+        "placeholder": "⟨178⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 11,
+        "end": 15
+      },
+      "rel_178": {
+        "placeholder": "⟨179⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 25,
+        "end": 29
+      },
+      "rel_179": {
+        "placeholder": "⟨180⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 38,
+        "end": 44
+      },
+      "rel_180": {
+        "placeholder": "⟨181⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 52,
+        "end": 56
+      },
+      "rel_181": {
+        "placeholder": "⟨182⟩",
+        "chunkKey": "hotpot_3790_ctx_9_sent_1",
+        "start": 64,
+        "end": 65
+      }
+    }
+  },
+  "step2_recall": {
+    "promptLength": 4534,
+    "rawResponse": "⟦17⟧⟨1⟩⟦6⟧⟨2⟩⟦90⟧⟨3⟩⟦90⟧⟨4⟩⟦89⟧⟨5⟩⟦45⟧⟨6⟩⟦68⟧⟨7⟩⟦63⟧⟨8⟩⟦48⟧⟨9⟩⟦97⟧⟨10⟩⟦54⟧⟨11⟩⟦52⟧⟨12⟩ | ⟦63⟧⟨90⟩⟦60⟧⟨91⟩⟦62⟧⟨92⟩⟦61⟧⟨93⟩⟦11⟧⟨94⟩⟦69⟧⟨95⟩⟦98⟧⟨96⟩⟦66⟧⟨97⟩⟦81⟧⟨98⟩⟦110⟧⟨99⟩⟦112⟧⟨100⟩⟦92⟧⟨101⟩⟦91⟧⟨102⟩⟦89⟧⟨103⟩⟦77⟧",
+    "parsed": {
+      "truncatedSegments": [
+        [
+          {
+            "type": "relation",
+            "placeholder": "⟨1⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦6⟧",
+            "symbolIdx": 6
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨2⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨3⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨4⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨5⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦45⟧",
+            "symbolIdx": 45
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦68⟧",
+            "symbolIdx": 68
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨6⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨7⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨8⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦48⟧",
+            "symbolIdx": 48
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦97⟧",
+            "symbolIdx": 97
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨9⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨10⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦54⟧",
+            "symbolIdx": 54
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨11⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨12⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦90⟧",
+            "symbolIdx": 90
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦90⟧",
+            "symbolIdx": 90
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦52⟧",
+            "symbolIdx": 52
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦63⟧",
+            "symbolIdx": 63
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦89⟧",
+            "symbolIdx": 89
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦17⟧",
+            "symbolIdx": 17
+          }
+        ],
+        [
+          {
+            "type": "noun",
+            "symbol": "⟦63⟧",
+            "symbolIdx": 63
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨90⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦60⟧",
+            "symbolIdx": 60
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨91⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦62⟧",
+            "symbolIdx": 62
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨92⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦61⟧",
+            "symbolIdx": 61
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨93⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦11⟧",
+            "symbolIdx": 11
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦69⟧",
+            "symbolIdx": 69
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨94⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨95⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦98⟧",
+            "symbolIdx": 98
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦66⟧",
+            "symbolIdx": 66
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨96⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨97⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦81⟧",
+            "symbolIdx": 81
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨98⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦110⟧",
+            "symbolIdx": 110
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦112⟧",
+            "symbolIdx": 112
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨100⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦92⟧",
+            "symbolIdx": 92
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨99⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨101⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦91⟧",
+            "symbolIdx": 91
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨102⟩"
+          },
+          {
+            "type": "relation",
+            "placeholder": "⟨103⟩"
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦77⟧",
+            "symbolIdx": 77
+          },
+          {
+            "type": "noun",
+            "symbol": "⟦89⟧",
+            "symbolIdx": 89
+          }
+        ]
+      ],
+      "usedRelIds": [
+        "rel_0",
+        "rel_1",
+        "rel_2",
+        "rel_3",
+        "rel_4",
+        "rel_5",
+        "rel_6",
+        "rel_7",
+        "rel_8",
+        "rel_9",
+        "rel_10",
+        "rel_11",
+        "rel_89",
+        "rel_90",
+        "rel_91",
+        "rel_92",
+        "rel_93",
+        "rel_94",
+        "rel_95",
+        "rel_96",
+        "rel_97",
+        "rel_98",
+        "rel_99",
+        "rel_100",
+        "rel_101",
+        "rel_102"
+      ],
+      "valid": true
+    },
+    "enableThinking": false,
+    "usage": {
+      "prompt_tokens": 3069,
+      "completion_tokens": 214,
+      "total_tokens": 3283,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 3069
+    },
+    "recallValid": true,
+    "usedRelIds": [
+      "rel_0",
+      "rel_1",
+      "rel_2",
+      "rel_3",
+      "rel_4",
+      "rel_5",
+      "rel_6",
+      "rel_7",
+      "rel_8",
+      "rel_9",
+      "rel_10",
+      "rel_11",
+      "rel_89",
+      "rel_90",
+      "rel_91",
+      "rel_92",
+      "rel_93",
+      "rel_94",
+      "rel_95",
+      "rel_96",
+      "rel_97",
+      "rel_98",
+      "rel_99",
+      "rel_100",
+      "rel_101",
+      "rel_102"
+    ],
+    "segmentsCount": 2
+  },
+  "step3_handoff": {
+    "segmentsCount": 2,
+    "nodeCount": 53,
+    "truncatedSegmentsOrChain": [
+      [
+        {
+          "type": "relation",
+          "placeholder": "⟨1⟩",
+          "relId": "rel_0",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦6⟧",
+          "symbolIdx": 6,
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 12,
+          "end": 19
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨2⟩",
+          "relId": "rel_1",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 19,
+          "end": 25
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨3⟩",
+          "relId": "rel_2",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 30,
+          "end": 25
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨4⟩",
+          "relId": "rel_3",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 30,
+          "end": 34
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨5⟩",
+          "relId": "rel_4",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 38,
+          "end": 71
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦45⟧",
+          "symbolIdx": 45,
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 71,
+          "end": 81
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦68⟧",
+          "symbolIdx": 68,
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 75,
+          "end": 81
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨6⟩",
+          "relId": "rel_5",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 81,
+          "end": 75
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨7⟩",
+          "relId": "rel_6",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 81,
+          "end": 82
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨8⟩",
+          "relId": "rel_7",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 89,
+          "end": 94
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦48⟧",
+          "symbolIdx": 48,
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 94,
+          "end": 108
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦97⟧",
+          "symbolIdx": 97,
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 98,
+          "end": 108
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨9⟩",
+          "relId": "rel_8",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 108,
+          "end": 98
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨10⟩",
+          "relId": "rel_9",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 108,
+          "end": 110
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦54⟧",
+          "symbolIdx": 54,
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 110,
+          "end": 119
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨11⟩",
+          "relId": "rel_10",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 119,
+          "end": 123
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨12⟩",
+          "relId": "rel_11",
+          "chunkKey": "hotpot_3790_ctx_0_sent_0",
+          "start": 128,
+          "end": 129
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦90⟧",
+          "symbolIdx": 90,
+          "chunkKey": "hotpot_3790_ctx_1_sent_2",
+          "start": 76,
+          "end": 81
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦90⟧",
+          "symbolIdx": 90,
+          "chunkKey": "hotpot_3790_ctx_1_sent_2",
+          "start": 76,
+          "end": 81
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦52⟧",
+          "symbolIdx": 52,
+          "chunkKey": "hotpot_3790_ctx_2_sent_2",
+          "start": 119,
+          "end": 124
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦63⟧",
+          "symbolIdx": 63,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦89⟧",
+          "symbolIdx": 89,
+          "chunkKey": "hotpot_3790_ctx_7_sent_1",
+          "start": 30,
+          "end": 34
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦17⟧",
+          "symbolIdx": 17,
+          "chunkKey": "hotpot_3790_ctx_9_sent_1",
+          "start": 15,
+          "end": 25
+        }
+      ],
+      [
+        {
+          "type": "noun",
+          "symbol": "⟦63⟧",
+          "symbolIdx": 63,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨90⟩",
+          "relId": "rel_89",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 7,
+          "end": 14
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦60⟧",
+          "symbolIdx": 60,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 14,
+          "end": 19
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨91⟩",
+          "relId": "rel_90",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 19,
+          "end": 38
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦62⟧",
+          "symbolIdx": 62,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 38,
+          "end": 47
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨92⟩",
+          "relId": "rel_91",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 47,
+          "end": 51
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦61⟧",
+          "symbolIdx": 61,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 51,
+          "end": 59
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨93⟩",
+          "relId": "rel_92",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 59,
+          "end": 78
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦11⟧",
+          "symbolIdx": 11,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 78,
+          "end": 96
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦69⟧",
+          "symbolIdx": 69,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 86,
+          "end": 96
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨94⟩",
+          "relId": "rel_93",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 96,
+          "end": 86
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨95⟩",
+          "relId": "rel_94",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 96,
+          "end": 105
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦98⟧",
+          "symbolIdx": 98,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 105,
+          "end": 125
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦66⟧",
+          "symbolIdx": 66,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 117,
+          "end": 125
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨96⟩",
+          "relId": "rel_95",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 125,
+          "end": 117
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨97⟩",
+          "relId": "rel_96",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 125,
+          "end": 129
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦81⟧",
+          "symbolIdx": 81,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 129,
+          "end": 145
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨98⟩",
+          "relId": "rel_97",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 145,
+          "end": 160
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦110⟧",
+          "symbolIdx": 110,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 160,
+          "end": 194
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦112⟧",
+          "symbolIdx": 112,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 178,
+          "end": 184
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨100⟩",
+          "relId": "rel_99",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 184,
+          "end": 186
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦92⟧",
+          "symbolIdx": 92,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 186,
+          "end": 194
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨99⟩",
+          "relId": "rel_98",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 194,
+          "end": 178
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨101⟩",
+          "relId": "rel_100",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 194,
+          "end": 198
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦91⟧",
+          "symbolIdx": 91,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 198,
+          "end": 208
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨102⟩",
+          "relId": "rel_101",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 208,
+          "end": 229
+        },
+        {
+          "type": "relation",
+          "placeholder": "⟨103⟩",
+          "relId": "rel_102",
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 233,
+          "end": 237
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦77⟧",
+          "symbolIdx": 77,
+          "chunkKey": "hotpot_3790_ctx_3_sent_0",
+          "start": 237,
+          "end": 249
+        },
+        {
+          "type": "noun",
+          "symbol": "⟦89⟧",
+          "symbolIdx": 89,
+          "chunkKey": "hotpot_3790_ctx_7_sent_1",
+          "start": 30,
+          "end": 34
+        }
+      ]
+    ],
+    "usedRelIds": [
+      "rel_0",
+      "rel_1",
+      "rel_2",
+      "rel_3",
+      "rel_4",
+      "rel_5",
+      "rel_6",
+      "rel_7",
+      "rel_8",
+      "rel_9",
+      "rel_10",
+      "rel_11",
+      "rel_89",
+      "rel_90",
+      "rel_91",
+      "rel_92",
+      "rel_93",
+      "rel_94",
+      "rel_95",
+      "rel_96",
+      "rel_97",
+      "rel_98",
+      "rel_99",
+      "rel_100",
+      "rel_101",
+      "rel_102"
+    ],
+    "reasoningNonNounPlaceholders": {
+      "rel_0": {
+        "placeholder": "⟨1⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 10,
+        "end": 12
+      },
+      "rel_1": {
+        "placeholder": "⟨2⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 19,
+        "end": 25
+      },
+      "rel_2": {
+        "placeholder": "⟨3⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 30,
+        "end": 25
+      },
+      "rel_3": {
+        "placeholder": "⟨4⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 30,
+        "end": 34
+      },
+      "rel_4": {
+        "placeholder": "⟨5⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 38,
+        "end": 71
+      },
+      "rel_5": {
+        "placeholder": "⟨6⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 81,
+        "end": 75
+      },
+      "rel_6": {
+        "placeholder": "⟨7⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 81,
+        "end": 82
+      },
+      "rel_7": {
+        "placeholder": "⟨8⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 89,
+        "end": 94
+      },
+      "rel_8": {
+        "placeholder": "⟨9⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 108,
+        "end": 98
+      },
+      "rel_9": {
+        "placeholder": "⟨10⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 108,
+        "end": 110
+      },
+      "rel_10": {
+        "placeholder": "⟨11⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 119,
+        "end": 123
+      },
+      "rel_11": {
+        "placeholder": "⟨12⟩",
+        "chunkKey": "hotpot_3790_ctx_0_sent_0",
+        "start": 128,
+        "end": 129
+      },
+      "rel_89": {
+        "placeholder": "⟨90⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 7,
+        "end": 14
+      },
+      "rel_90": {
+        "placeholder": "⟨91⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 19,
+        "end": 38
+      },
+      "rel_91": {
+        "placeholder": "⟨92⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 47,
+        "end": 51
+      },
+      "rel_92": {
+        "placeholder": "⟨93⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 59,
+        "end": 78
+      },
+      "rel_93": {
+        "placeholder": "⟨94⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 96,
+        "end": 86
+      },
+      "rel_94": {
+        "placeholder": "⟨95⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 96,
+        "end": 105
+      },
+      "rel_95": {
+        "placeholder": "⟨96⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 125,
+        "end": 117
+      },
+      "rel_96": {
+        "placeholder": "⟨97⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 125,
+        "end": 129
+      },
+      "rel_97": {
+        "placeholder": "⟨98⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 145,
+        "end": 160
+      },
+      "rel_98": {
+        "placeholder": "⟨99⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 194,
+        "end": 178
+      },
+      "rel_99": {
+        "placeholder": "⟨100⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 184,
+        "end": 186
+      },
+      "rel_100": {
+        "placeholder": "⟨101⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 194,
+        "end": 198
+      },
+      "rel_101": {
+        "placeholder": "⟨102⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 208,
+        "end": 229
+      },
+      "rel_102": {
+        "placeholder": "⟨103⟩",
+        "chunkKey": "hotpot_3790_ctx_3_sent_0",
+        "start": 233,
+        "end": 237
+      }
+    }
+  },
+  "step4_reasoning": {
+    "promptLength": 1576,
+    "filteredSymbolTable": {
+      "912–954": 6,
+      "a Roman noblewoman": 11,
+      "Alberic II": 17,
+      "his mother": 45,
+      "his stepfather": 48,
+      "Italy": 52,
+      "King Hugh": 54,
+      "Maria": 60,
+      "Mariozza": 61,
+      "Mariuccia": 62,
+      "Marozia": 63,
+      "mistress": 66,
+      "mother": 68,
+      "noblewoman": 69,
+      "Pope John X.": 77,
+      "Pope Sergius III": 81,
+      "Rome": 89,
+      "ruler": 90,
+      "senatoress": 91,
+      "senatrix": 92,
+      "stepfather": 97,
+      "the alleged mistress": 98,
+      "the unprecedented titles \"senatrix": 110,
+      "titles": 112
+    },
+    "filteredSymbolCount": 24,
+    "answer": "# 路径一：通过Alberic II条目直接追溯\n\n步骤1：使用⟦17⟧，提取Alberic II的身份信息，确认其为\"Alberic II\"（即Alberic II of Spoleto）。\n\n步骤2：综合⟦45⟧⟦68⟧，提取Alberic II的\"母亲\"（his mother / mother）身份，确认其母亲为Marozia。\n\n步骤3：使用⟦63⟧，提取Marozia的完整身份信息，确认其获得\"patricia\" of Rome称号的相关记载。\n\n步骤4：综合⟦110⟧⟦112⟧⟦100⟧⟦101⟧⟦102⟧⟦103⟧，提取Marozia被授予\"senatrix\"和\"patricia\"称号的记载，并追溯授予者信息。\n\n结论：此路径指向Pope John X（⟦77⟧）授予了Marozia\"patricia\" of Rome的称号。\n\n---\n\n# 路径二：通过Marozia条目中的称号授予链追溯\n\n步骤1：使用⟦63⟧，提取Marozia的完整信息，确认其为\"a Roman noblewoman\"（⟦11⟧⟦69⟧），且拥有\"senatrix\"（⟦92⟧⟦91⟧）和\"patricia\"（⟦102⟧）称号。\n\n步骤2：综合⟦110⟧⟦112⟧⟦100⟧⟦101⟧，提取Marozia获得\"the unprecedented titles 'senatrix'\"和\"patricia\"的记载。\n\n步骤3：使用⟦103⟧，提取授予者信息——\"by\"后接的授予者。\n\n步骤4：综合⟦77⟧，确认Pope John X为授予者。\n\n结论：Marozia的\"patricia\" of Rome称号由Pope John X授予。\n\n---\n\n# 路径三：通过家族关系链交叉验证\n\n步骤1：使用⟦17⟧，确认Alberic II of Spoleto的身份。\n\n步骤2：综合⟦45⟧⟦68⟧，确认Alberic II的母亲为Marozia（⟦63⟧）。\n\n步骤3：使用⟦63⟧，提取Marozia的称号信息，确认其拥有\"patricia\" of Rome称号（⟦102⟧）。\n\n步骤4：综合⟦103⟧⟦77⟧，追溯授予者——Pope John X。\n\n步骤5：交叉验证⟦81⟧（Pope Sergius III）与⟦77⟧（Pope John X），排除Pope Sergius III为授予者，确认Pope John X为正确授予者。\n\n结论：综合多条材料交叉验证，授予Marozia\"patricia\" of Rome称号的是Pope John X。\n\n---\n\n# 路径四：通过称号\"patricia\"的独特记载定位\n\n步骤1：使用⟦102⟧，提取\"patricia\" of Rome这一独特称号的记载。\n\n步骤2：综合⟦100⟧⟦101⟧⟦110⟧⟦112⟧，提取Marozia获得\"senatrix\"和\"patricia\"称号的完整语境。\n\n步骤3：使用⟦103⟧，提取授予者——\"by\"后接的授予者信息。\n\n步骤4：综合⟦77⟧，确认授予者为Pope John X。\n\n结论：Pope John X授予了Alberic II的母亲Marozia\"patricia\" of Rome的称号。",
+    "enableThinking": false,
+    "usage": {
+      "prompt_tokens": 927,
+      "completion_tokens": 759,
+      "total_tokens": 1686,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 927
+    }
+  },
+  "finalScore": 0.8
+}

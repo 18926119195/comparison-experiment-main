@@ -1,0 +1,84 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Hannah Montana Hits Remixed] ⟦83⟧⟨84⟩⟨86⟩⟨85⟩⟨87⟩⟦33⟧⟨89⟩⟨90⟩⟦42⟧⟨91⟩⟨88⟩⟦215⟧⟦155⟧⟨92⟩⟨93⟩⟨94⟩⟨95⟩⟨96⟩
+[Bloom: Remix Album] ⟦220⟧
+[Thalía's Hits Remixed] ⟦139⟧
+[Hannah Montana 2: Non-Stop Dance Party] ⟦148⟧
+[Miley Cyrus] ⟦120⟧⟨357⟩⟦68⟧⟨358⟩⟦132⟧⟨359⟩⟦37⟧⟦164⟧⟨360⟩⟨361⟩⟦168⟧⟦168⟧⟨362⟩⟨363⟩⟨364⟩⟨365⟩
+[Miley Cyrus] ⟦188⟧⟦53⟧⟦82⟧
+[Miley Cyrus] ⟦147⟧
+[Miley Cyrus] ⟦26⟧ | ⟦25⟧⟦25⟧
+
+符号表：
+⟦25⟧ = actress
+⟦26⟧ = album
+⟦33⟧ = American pop recording artist Miley Cyrus
+⟦37⟧ = an American singer
+⟦42⟧ = artist
+⟦53⟧ = character
+⟦68⟧ = Destiny Hope Cyrus
+⟦82⟧ = Hannah Montana
+⟦83⟧ = Hannah Montana Hits Remixed
+⟦120⟧ = Miley Ray Cyrus
+⟦132⟧ = November
+⟦139⟧ = pop
+⟦147⟧ = recording
+⟦148⟧ = remix
+⟦155⟧ = role
+⟦164⟧ = singer
+⟦168⟧ = songwriter
+⟦188⟧ = the character
+⟦215⟧ = the role
+⟦220⟧ = the second remix album
+
+占位符映射：
+⟨84⟩ =  is 
+⟨85⟩ = 
+⟨86⟩ =  
+⟨87⟩ =  by 
+⟨88⟩ = 
+⟨89⟩ =  
+⟨90⟩ =  
+⟨91⟩ =  Miley Cyrus, in 
+⟨92⟩ = 
+⟨93⟩ =  of 
+⟨94⟩ = 
+⟨95⟩ =  
+⟨96⟩ = .
+⟨357⟩ =  (born 
+⟨358⟩ = ; 
+⟨359⟩ =  23, 1992) is 
+⟨360⟩ = 
+⟨361⟩ = , 
+⟨362⟩ = 
+⟨363⟩ = , and 
+⟨364⟩ = 
+⟨365⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+In what year was the singer whose second remix album was "Hannah Montana Hits Remixed" born?

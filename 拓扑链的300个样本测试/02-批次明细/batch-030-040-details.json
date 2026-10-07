@@ -1,0 +1,334 @@
+[
+  {
+    "qid": "hotpot_5606",
+    "question": "Faruk Halibegovic was born in what city that is the capital and largest city of Bosnia and Herzegovi",
+    "expectedAnswer": "Sarajevo",
+    "predictedAnswer": "ERROR: fetch failed",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦76⟧⟨80⟩⟨81⟩⟨82⟩⟨83⟩⟦14⟧⟦86⟧⟨84⟩⟨85⟩⟦144⟧⟦54⟧⟨87⟩",
+    "nounCount": 402,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6493,
+      "completion_tokens": 169,
+      "total_tokens": 6662,
+      "prompt_tokens_details": {
+        "cached_tokens": 6272
+      },
+      "prompt_cache_hit_tokens": 6272,
+      "prompt_cache_miss_tokens": 221
+    },
+    "reasoningUsage": null
+  },
+  {
+    "qid": "hotpot_1356",
+    "question": "Ælfgifu of Exeter and Ælfgifu of Shaftesbury are both known for being what?",
+    "expectedAnswer": "saint",
+    "predictedAnswer": "# 路径一：基于身份与关系的直接提取\n\n步骤1：使用⟦217⟧⟦218⟧，提取“Saint Ælfgifu”与“Saint Elgiva”的称号，判断Ælfgifu of Shaftesbury被明确标识为圣徒。\n\n步骤2：综合⟦260⟧⟦308⟧，提取“the first wife”与“two future kings”，判断Ælfgifu of Shaftesbury是埃德蒙一世的妻子，并生下两位未来的国王。\n\n步骤3：使用⟦320⟧⟦226⟧，提取“wife”与“Shaftesbury wife”，判断Ælfgifu of Exeter同样以“妻子”身份被记载。\n\n结论：两人共同点是都作为王室妻子（王后/王妃）而闻名，且都与Ælfgifu这一名字相关。\n\n# 路径二：基于圣徒身份与宗教关联的交叉验证\n\n步骤1：使用⟦37⟧⟦216⟧，提取“an Anglo-Saxon saint”与“saint”，判断Ælfgifu of Exeter被关联为盎格鲁-撒克逊圣徒。\n\n步骤2：综合⟦217⟧⟦218⟧，对比Ælfgifu of Shaftesbury同样被冠以“Saint”称号，判断两人均具有圣徒身份。\n\n步骤3：使用⟦212⟧⟦213⟧⟦319⟧，提取“relic”“relics”“whose relics”，判断两人的圣徒身份与遗物崇拜相关。\n\n结论：两人共同点是都被尊为圣徒（Anglo-Saxon saint），且其遗物受到宗教崇拜。\n\n# 路径三：基于历史记载中身份混淆的对比论证\n\n步骤1：使用⟦335⟧⟦226⟧，提取“It is possible that she is”与“Shaftesbury wife”，判断Ælfgifu of Exeter可能与Ælfgifu of Shaftesbury被混淆。\n\n步骤2：综合⟦341⟧⟦344⟧，提取“of Edmund I (as”与“more likely...that she was not”，判断历史学家对Ælfgifu of Exeter是否为埃德蒙一世之妻存在争议。\n\n步骤3：使用⟦320⟧⟦226⟧，对比两人均以“wife”身份被记载，但Ælfgifu of Shaftesbury的婚姻关系更为确定。\n\n结论：两人共同点是都作为“妻子”被记载，且历史记载中存在身份混淆的可能性，但Ælfgifu of Shaftesbury的王后身份更为确凿。\n\n# 路径四：基于王室关联与宗教角色的综合支撑\n\n步骤1：使用⟦154⟧⟦308⟧，提取“kings”与“two future kings”，判断Ælfgifu of Shaftesbury与王室继承直接相关。\n\n步骤2：综合⟦30⟧⟦238⟧，提取“abbess”与“the 10th-century royal abbess”，判断Ælfgifu of Exeter被关联为王室女修道院长。\n\n步骤3：使用⟦67⟧⟦68⟧⟦78⟧⟦123⟧，提取“Christ”“church”“confession”“her confession”，判断Ælfgifu of Exeter的宗教虔诚行为被记载。\n\n结论：两人共同点是都与王室和宗教机构有紧密关联，但Ælfgifu of Shaftesbury以王后和圣徒身份闻名，Ælfgifu of Exeter以王室女修道院长和圣徒身份闻名。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦217⟧⟨281⟩⟨282⟩⟦218⟧⟨283⟩⟦260⟧⟨284⟩⟨285⟩⟨286⟩⟦308⟧⟦154⟧⟨287⟩",
+    "nounCount": 417,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7236,
+      "completion_tokens": 353,
+      "total_tokens": 7589,
+      "prompt_tokens_details": {
+        "cached_tokens": 7040
+      },
+      "prompt_cache_hit_tokens": 7040,
+      "prompt_cache_miss_tokens": 196
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1346,
+      "completion_tokens": 776,
+      "total_tokens": 2122,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1346
+    }
+  },
+  {
+    "qid": "hotpot_5139",
+    "question": "Ara Berberian sand for which role an opera by Giuseppe Verdi?",
+    "expectedAnswer": "Sparafucile",
+    "predictedAnswer": "# 路径一：从职业角色清单直接定位\n\n步骤1：使用⟦163⟧，提取 Mark Delavan 的 roles 信息，其中包含 ⟦246⟧（Verdi's \"Rigoletto\"）。\n步骤2：综合⟦172⟧⟦246⟧，对比角色名与歌剧归属：Sparafucile 是 Verdi 歌剧《Rigoletto》中的角色。\n步骤3：使用⟦48⟧⟦51⟧，确认 Ara Berberian 是 bass（男低音），而 Sparafucile 正是男低音角色，与 Ara Berberian 的声部匹配。\n\n结论：Ara Berberian 在 Giuseppe Verdi 的歌剧《Rigoletto》中演唱 Sparafucile 这一角色。\n\n# 路径二：从 Ara Berberian 的职业记录交叉验证\n\n步骤1：使用⟦57⟧⟦97⟧，提取 Ara Berberian 的 career 信息，其中提到他演唱过多个角色。\n步骤2：综合⟦172⟧⟦246⟧，从 Mark Delavan 的角色记录中确认 Sparafucile 属于 Verdi's \"Rigoletto\"。\n步骤3：综合⟦51⟧⟦172⟧，交叉验证：Ara Berberian 是 bass，Sparafucile 是 Verdi 歌剧中的男低音角色，两者声部与剧目归属一致。\n\n结论：Ara Berberian 为 Verdi 歌剧《Rigoletto》演唱了 Sparafucile 这一角色。\n\n# 路径三：从歌剧角色与作曲家归属排除法\n\n步骤1：使用⟦122⟧⟦135⟧⟦222⟧，提取 Mozart's \"Abduction\" 中的 Osmin 角色，确认其作曲家为 Mozart 而非 Verdi。\n步骤2：使用⟦172⟧⟦246⟧，提取 Sparafucile 与 Verdi's \"Rigoletto\" 的关联，确认作曲家为 Verdi。\n步骤3：综合⟦48⟧⟦51⟧⟦172⟧，对比 Ara Berberian 的声部（bass）与两个角色的声部要求，Sparafucile 为男低音角色，且属于 Verdi 歌剧。\n\n结论：Ara Berberian 演唱的 Verdi 歌剧角色是《Rigoletto》中的 Sparafucile。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦48⟧⟨161⟩⟦6⟧⟨162⟩⟦258⟧⟨163⟩⟦118⟧⟨164⟩⟦76⟧⟨165⟩⟦54⟧⟨166⟩",
+    "nounCount": 330,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5889,
+      "completion_tokens": 284,
+      "total_tokens": 6173,
+      "prompt_tokens_details": {
+        "cached_tokens": 5755
+      },
+      "prompt_cache_hit_tokens": 5755,
+      "prompt_cache_miss_tokens": 134
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1082,
+      "completion_tokens": 532,
+      "total_tokens": 1614,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1082
+    }
+  },
+  {
+    "qid": "hotpot_5406",
+    "question": "Who was the electoral division that James Tully  represented in 1928 named after?",
+    "expectedAnswer": "Sir Edmund Barton",
+    "predictedAnswer": "# 路径一：直接溯源命名对象\n\n步骤1：使用⟦107⟧，提取“James Thomas Tully”这一人物全名，确认问题所指对象为澳大利亚政治家 James Tully。\n\n步骤2：综合⟦107⟧⟦155⟧⟦248⟧，交叉验证其政治活动时间与地点：材料显示其活跃于“October”相关时间节点及“time”背景，结合其代表选区信息，锁定其1928年所代表的选区。\n\n步骤3：使用⟦179⟧，提取“Sir Edmund Barton”这一人名，判断该选区命名来源。\n\n结论：James Tully 在1928年代表的选区是以 Sir Edmund Barton（澳大利亚首任总理）命名的。\n\n# 路径二：选区与命名人物关联验证\n\n步骤1：使用⟦31⟧，提取“an Australian electoral division”这一类别信息，确认问题涉及的是澳大利亚联邦选区。\n\n步骤2：综合⟦179⟧⟦212⟧，对比命名人物身份：⟦179⟧给出“Sir Edmund Barton”，⟦212⟧补充其为“the first Prime Minister”，两者指向同一人，交叉验证命名对象的一致性。\n\n步骤3：使用⟦46⟧，提取“Barton”这一选区名称，与⟦179⟧⟦212⟧形成对应，确认该选区名称直接来源于 Sir Edmund Barton 的姓氏。\n\n结论：该选区名为“Barton”，是以澳大利亚首任总理 Sir Edmund Barton 命名的。\n\n# 路径三：排除干扰项，锁定唯一命名来源\n\n步骤1：使用⟦32⟧⟦163⟧，提取“an Australian politician”与“politician”信息，确认 James Tully 的政治身份，排除非政治人物命名的可能性。\n\n步骤2：综合⟦107⟧⟦234⟧⟦257⟧，分析其选举经历：材料提及“the same seat”“two sitting members”等，说明其代表选区具有特定历史背景，但命名来源需独立确认。\n\n步骤3：使用⟦179⟧，提取“Sir Edmund Barton”作为命名来源，与⟦46⟧“Barton”形成唯一对应，排除其他人物命名的可能。\n\n结论：综合多条材料，James Tully 1928年所代表的选区（Barton）是以 Sir Edmund Barton 命名的。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦107⟧⟨65⟩⟦155⟧⟨66⟩⟨67⟩⟨68⟩⟦32⟧⟦163⟧⟨101⟩⟨102⟩⟨103⟩⟦248⟧",
+    "nounCount": 383,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6479,
+      "completion_tokens": 211,
+      "total_tokens": 6690,
+      "prompt_tokens_details": {
+        "cached_tokens": 6272
+      },
+      "prompt_cache_hit_tokens": 6272,
+      "prompt_cache_miss_tokens": 207
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 933,
+      "completion_tokens": 498,
+      "total_tokens": 1431,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 933
+    }
+  },
+  {
+    "qid": "hotpot_4173",
+    "question": "What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-h",
+    "expectedAnswer": "College Football Scoreboard",
+    "predictedAnswer": "# 路径一：从选秀信息定位人物，再追踪其主持节目\n\n步骤1：使用⟦160⟧，提取“the 1995 NFL Draft”这一选秀事件，结合⟨278⟩“eighth overall in”，锁定“在1995年NFL选秀中第八顺位被选中”的人。\n\n步骤2：综合⟦82⟧⟦12⟧⟦228⟧，确认该人物为 Joseph Scott Galloway（Joey Galloway），身份是 former American football wide receiver。\n\n步骤3：使用⟦47⟧，提取 Galloway 当前身份为“current college football analyst”，并结合⟦56⟧⟦57⟧，判断其参与主持的节目名称为 ESPN College Football Friday Primetime。\n\n结论：该节目名为 **ESPN College Football Friday Primetime**。\n\n# 路径二：从节目材料反向验证主持人身份\n\n步骤1：使用⟦57⟧，提取节目名称“ESPN College Football Friday Primetime”，并综合⟦56⟧⟦17⟧⟦127⟧，确认该节目是 ESPN 的一档 live game presentation。\n\n步骤2：综合⟦41⟧⟦61⟧⟦51⟧，提取节目内容为 college football / Division 1-A college football，与 Galloway 的“college football analyst”身份⟦47⟧一致。\n\n步骤3：使用⟦82⟧，确认 Joey Galloway 的全名为 Joseph Scott Galloway，再结合⟦160⟧⟨278⟩，交叉验证其1995年第八顺位被选中的经历，确认节目主持人正是此人。\n\n结论：Galloway 联合主持的节目是 **ESPN College Football Friday Primetime**。\n\n# 路径三：通过职业生涯轨迹排除干扰项\n\n步骤1：综合⟦213⟧⟦179⟧⟦154⟧⟦104⟧⟦119⟧⟦225⟧，提取 Galloway 曾效力的多支 NFL 球队（Seahawks、Cowboys、Buccaneers、Patriots、Steelers、Redskins），确认其球员生涯⟦200⟧。\n\n步骤2：使用⟦47⟧，提取其退役后转型为“current college football analyst”，与球员身份形成对比，排除其他球队相关节目。\n\n步骤3：综合⟦56⟧⟦57⟧⟦145⟧，确认其主持节目为 ESPN College Football Friday Primetime，有时在 ESPN2 播出。\n\n结论：该节目名称为 **ESPN College Football Friday Primetime**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦82⟧⟨266⟩⟦12⟧⟨267⟩⟨268⟩⟦228⟧⟦129⟧⟨269⟩⟨270⟩⟦200⟧⟨271⟩⟦47⟧",
+    "nounCount": 323,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 5655,
+      "completion_tokens": 229,
+      "total_tokens": 5884,
+      "prompt_tokens_details": {
+        "cached_tokens": 5504
+      },
+      "prompt_cache_hit_tokens": 5504,
+      "prompt_cache_miss_tokens": 151
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 950,
+      "completion_tokens": 553,
+      "total_tokens": 1503,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 950
+    }
+  },
+  {
+    "qid": "hotpot_948",
+    "question": "Tamanchey is a comedy film that starred the actress who works in what type of films?",
+    "expectedAnswer": "Hindi",
+    "predictedAnswer": "# 路径一：从 Tamanchey 到 Richa Chadda 再到电影类型\n\n步骤1：使用⟦231⟧⟦49⟧⟦76⟧⟦71⟧，提取 Tamanchey 是一部印度浪漫犯罪喜剧电影，包含喜剧和犯罪元素。\n\n步骤2：使用⟦231⟧⟦199⟧，提取 Tamanchey 的主演之一是 Richa Chadda。\n\n步骤3：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，提取 Richa Chadda 是一名在 Hindi films（印地语电影）中工作的女演员。\n\n结论：Tamanchey 主演的女演员 Richa Chadda 从事 Hindi films（印地语电影）。\n\n# 路径二：通过演员表交叉验证\n\n步骤1：使用⟦231⟧⟦365⟧⟦366⟧⟦168⟧⟦367⟧⟦170⟧⟦368⟧⟦199⟧，提取 Tamanchey 由 Navneet Behal 执导，Nikhil Dwivedi 和 Richa Chadda 主演。\n\n步骤2：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，确认 Richa Chadda 是在 Hindi films 中工作的女演员。\n\n步骤3：综合⟦231⟧⟦199⟧⟦124⟧，交叉验证 Tamanchey 的主演 Richa Chadda 的工作领域为 Hindi films。\n\n结论：该女演员从事 Hindi films（印地语电影）。\n\n# 路径三：排除干扰项，锁定唯一女演员\n\n步骤1：使用⟦231⟧⟦49⟧⟦76⟧⟦71⟧，确认 Tamanchey 是一部印度浪漫犯罪喜剧电影。\n\n步骤2：使用⟦231⟧⟦199⟧，提取主演中的女演员为 Richa Chadda（Nikhil Dwivedi 为男演员，不构成“actress”）。\n\n步骤3：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，提取 Richa Chadda 的工作类型为 Hindi films。\n\n结论：Tamanchey 主演的女演员从事 Hindi films（印地语电影）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦231⟧⟨357⟩⟦14⟧⟨358⟩⟦102⟧⟨359⟩⟦49⟧⟦76⟧⟨361⟩⟨362⟩⟨360⟩⟨363⟩",
+    "nounCount": 494,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8031,
+      "completion_tokens": 162,
+      "total_tokens": 8193,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 8031
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 746,
+      "completion_tokens": 496,
+      "total_tokens": 1242,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 746
+    }
+  },
+  {
+    "qid": "hotpot_3707",
+    "question": "What is the city in which Bauerfield International Ariport is based out of?",
+    "expectedAnswer": "Port Vila",
+    "predictedAnswer": "# 路径一：机场与城市直接关联\n\n步骤1：使用⟦53⟧，提取“Bauerfield International Airport”这一机场名称，确认其为待查机场。\n\n步骤2：综合⟦227⟧⟦43⟧，提取“Port Vila”与“an airport”的关联，判断Port Vila是机场所在城市。\n\n步骤3：使用⟦313⟧，提取“Vanuatu”，确认Port Vila位于Vanuatu，进一步验证城市归属。\n\n结论：Bauerfield International Airport位于Port Vila。\n\n# 路径二：机场代码与城市交叉验证\n\n步骤1：使用⟦143⟧⟦321⟧，提取IATA代码“VLI”，确认Bauerfield International Airport的IATA代码为VLI。\n\n步骤2：综合⟦144⟧⟦208⟧，提取ICAO代码“NVVV”，确认该机场的ICAO代码为NVVV。\n\n步骤3：综合⟦227⟧⟦313⟧，提取“Port Vila”与“Vanuatu”的关联，判断Port Vila是Vanuatu的城市，且为机场所在城市。\n\n结论：通过IATA和ICAO代码交叉验证，Bauerfield International Airport位于Port Vila。\n\n# 路径三：航空公司总部与机场位置关联\n\n步骤1：使用⟦36⟧⟦155⟧，提取“Air Vanuatu”与“its head office”，确认Air Vanuatu的总部位置。\n\n步骤2：综合⟦260⟧⟦58⟧，提取“the Air Vanuatu House”与“in”的关联，判断Air Vanuatu总部位于某地。\n\n步骤3：综合⟦53⟧⟦227⟧，提取“Bauerfield International Airport”与“Port Vila”的关联，判断机场位于Port Vila，且Air Vanuatu总部也位于Port Vila。\n\n结论：通过Air Vanuatu总部位置与机场位置的关联，Bauerfield International Airport位于Port Vila。\n\n# 路径四：机场设施与城市综合推断\n\n步骤1：使用⟦263⟧⟦38⟧，提取“The airport”与“airport”的关联，确认Bauerfield International Airport为机场。\n\n步骤2：综合⟦157⟧⟦234⟧⟦250⟧，提取“its runway”、“runway”、“size”等设施信息，判断机场规模较小。\n\n步骤3：综合⟦227⟧⟦313⟧，提取“Port Vila”与“Vanuatu”的关联，判断Port Vila是Vanuatu的城市，且为机场所在城市。\n\n结论：通过机场设施信息与城市关联，Bauerfield International Airport位于Port Vila。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦53⟧⟨74⟩⟦143⟧⟨75⟩⟦321⟧⟨76⟩⟦144⟧⟨77⟩⟦208⟧⟨78⟩⟦43⟧⟨79⟩",
+    "nounCount": 438,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7512,
+      "completion_tokens": 242,
+      "total_tokens": 7754,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7512
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 924,
+      "completion_tokens": 577,
+      "total_tokens": 1501,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 924
+    }
+  },
+  {
+    "qid": "hotpot_5603",
+    "question": "Kurt Cobain: Montage of Heck documents the life of Cobain until his suicide in what state?",
+    "expectedAnswer": "Washington",
+    "predictedAnswer": "# 路径一：直接定位纪录片内容\n\n步骤1：使用⟦4⟧，提取该纪录片为2015年上映的关于Kurt Cobain的纪录片，结合⟦183⟧可知其讲述的是Nirvana主唱Kurt Cobain的故事。\n\n步骤2：综合⟦271⟧⟦129⟧⟦134⟧⟦104⟧⟦160⟧，提取纪录片记录了Cobain从出生、早年家庭生活与青少年时期、成名到其一生直至去世的完整历程。\n\n步骤3：使用⟦305⟧，提取Washington这一地点信息，结合⟦83⟧⟦131⟧可知Cobain的死亡地点位于Washington州。\n\n结论：Kurt Cobain: Montage of Heck记录了Cobain的一生直至其自杀，自杀地点在Washington州。\n\n# 路径二：交叉验证死亡地点\n\n步骤1：使用⟦181⟧⟦217⟧，提取Nirvana乐队与Seattle的关联信息，结合⟦158⟧⟦225⟧可知Cobain作为乐队主唱与Seattle有密切关系。\n\n步骤2：使用⟦305⟧，提取Washington这一州名，结合⟦28⟧⟦310⟧可知Aberdeen位于Washington州，是Cobain的出生地和早年生活地。\n\n步骤3：综合⟦83⟧⟦131⟧，对比Cobain的死亡信息，结合⟦305⟧确认其自杀地点在Washington州。\n\n结论：通过交叉验证，Cobain在Washington州自杀身亡，纪录片记录了这一完整生命历程。\n\n# 路径三：从纪录片主题推断\n\n步骤1：使用⟦4⟧⟦90⟧，提取该纪录片是关于Kurt Cobain的纪录片作品。\n\n步骤2：综合⟦52⟧⟦53⟧⟦54⟧⟦55⟧⟦56⟧⟦57⟧，提取纪录片标题全称为Kurt Cobain: Montage of Heck，是关于Kurt Cobain的传记纪录片。\n\n步骤3：使用⟦305⟧，提取Washington作为关键地点信息，结合⟦83⟧⟦131⟧可知纪录片涵盖Cobain直至死亡的完整人生，死亡地点为Washington州。\n\n结论：该纪录片记录Cobain的一生直至其在Washington州自杀，答案为Washington。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨76⟩⟨77⟩⟦271⟧⟨78⟩⟨79⟩⟨80⟩⟦129⟧⟦52⟧⟨81⟩⟨82⟩⟨83⟩⟨84⟩",
+    "nounCount": 454,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7425,
+      "completion_tokens": 289,
+      "total_tokens": 7714,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7425
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1175,
+      "completion_tokens": 504,
+      "total_tokens": 1679,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1175
+    }
+  },
+  {
+    "qid": "hotpot_2577",
+    "question": "At what height does State Route 160 start?",
+    "expectedAnswer": "4145 ft",
+    "predictedAnswer": "# 路径一：华盛顿州路线起点海拔\n\n步骤1：使用⟦138⟧，提取“the highway”作为华盛顿州160号公路的指代对象，判断该路线在华盛顿州内的起点位置信息。\n\n步骤2：综合⟦105⟧⟦149⟧，对比“Port Orchard”与“the Southworth ferry terminal”两个地点，确认华盛顿州160号公路的起点位于Southworth ferry terminal。\n\n步骤3：使用⟦8⟧，提取“a ferry”作为该起点的交通方式特征，判断起点为渡轮码头而非普通陆地路段。\n\n结论：华盛顿州160号公路起点位于Southworth ferry terminal，为渡轮码头，但材料中未给出具体海拔高度。\n\n# 路径二：弗吉尼亚州路线起点海拔\n\n步骤1：使用⟦12⟧，提取“a primary state highway”作为弗吉尼亚州160号公路的路线等级，判断其为州级主要公路。\n\n步骤2：综合⟦1⟧⟦2⟧，提取“160 (”与“160) is”作为路线编号与描述框架，确认该路线为弗吉尼亚州160号公路。\n\n步骤3：使用⟦173⟧，提取“Virginia”作为该路线的所属州，判断其位于弗吉尼亚州境内。\n\n结论：弗吉尼亚州160号公路为州级主要公路，位于弗吉尼亚州，但材料中未给出具体起点海拔高度。\n\n# 路径三：跨州路线起点特征对比\n\n步骤1：综合⟦144⟧⟦30⟧，提取“the only state highway”与“Blount County”，判断阿拉巴马州160号公路是唯一完全位于Blount County的州级公路。\n\n步骤2：综合⟦105⟧⟦134⟧⟦149⟧，对比“Port Orchard”“the Fauntleroy ferry terminal”“the Southworth ferry terminal”，确认华盛顿州160号公路起于Southworth ferry terminal，与Fauntleroy ferry terminal通过渡轮连接。\n\n步骤3：综合⟦11⟧⟦100⟧，提取“a north–south state highway”与“Ohio”，判断俄亥俄州160号公路为南北向州级公路。\n\n结论：各州160号公路起点特征各异，但所有材料均未提供任何一条160号公路起点的具体海拔高度数据。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟨2⟩⟦12⟧⟨4⟩⟨3⟩⟨5⟩⟨6⟩⟨7⟩⟨8⟩⟦119⟧⟦66⟧⟦155⟧",
+    "nounCount": 324,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 4879,
+      "completion_tokens": 744,
+      "total_tokens": 5623,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4879
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 2192,
+      "completion_tokens": 508,
+      "total_tokens": 2700,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2192
+    }
+  },
+  {
+    "qid": "hotpot_6902",
+    "question": "For which band, was the female member of Fitz and The Tantrums, the front woman for ten years ?",
+    "expectedAnswer": "The Rebirth",
+    "predictedAnswer": "# 路径一：从人物身份到乐队归属\n\n步骤1：使用⟦129⟧，提取“Noelle Scaggs”这一姓名，确认其为 Fitz and The Tantrums 的女性成员。\n\n步骤2：综合⟦78⟧⟦170⟧，提取“front-woman”与“ten years”两个关键信息，判断 Noelle Scaggs 曾担任某乐队的主唱长达十年。\n\n步骤3：综合⟦195⟧⟦162⟧，将“The Rebirth”与“soul band”关联，确认 Noelle Scaggs 担任主唱的乐队是 The Rebirth。\n\n结论：Noelle Scaggs 担任主唱十年的乐队是 The Rebirth。\n\n# 路径二：从合作经历反向定位\n\n步骤1：使用⟦129⟧，确认 Noelle Scaggs 是 Fitz and The Tantrums 的女性成员。\n\n步骤2：综合⟦111⟧⟦139⟧⟦179⟧⟦61⟧⟦59⟧⟦56⟧，提取 Noelle Scaggs 的合作对象包括 Mayer Hawthorne、Quantic、The Black Eyed Peas、Dilated Peoples、Defari、Damian Marley 等。\n\n步骤3：综合⟦195⟧⟦162⟧，在这些合作信息中定位到 The Rebirth 这一 soul band，并确认 Noelle Scaggs 曾是其 front-woman。\n\n结论：通过合作经历交叉验证，Noelle Scaggs 担任主唱十年的乐队是 The Rebirth。\n\n# 路径三：从乐队风格与人物角色综合推断\n\n步骤1：使用⟦161⟧⟦162⟧，提取“soul”与“soul band”的风格标签，锁定目标乐队为一支灵魂乐乐队。\n\n步骤2：综合⟦129⟧⟦78⟧⟦170⟧，确认 Fitz and The Tantrums 的女性成员 Noelle Scaggs 曾担任某乐队 front-woman 十年。\n\n步骤3：综合⟦195⟧，将“The Rebirth”与前述 soul band 及 front-woman 十年经历匹配，确认答案。\n\n结论：综合风格标签与人物角色，Noelle Scaggs 担任主唱十年的乐队是 The Rebirth。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨102⟩⟦26⟧⟨103⟩⟨104⟩⟨105⟩⟨106⟩⟨107⟩⟨108⟩⟦118⟧⟦150⟧⟦129⟧⟦149⟧",
+    "nounCount": 345,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5584,
+      "completion_tokens": 220,
+      "total_tokens": 5804,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5584
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 934,
+      "completion_tokens": 485,
+      "total_tokens": 1419,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 934
+    }
+  },
+  {
+    "qid": "hotpot_1642",
+    "question": "Which American film director and actor famous for his role as Donny \"The Bear Jew\" Donowitz wrote th",
+    "expectedAnswer": "Eli Roth",
+    "predictedAnswer": "# 路径一：从角色到导演的识别\n\n步骤1：使用⟦75⟧，提取 Donny \"The Bear Jew\" Donowitz 这一角色名称，判断该角色是问题的关键标识。\n\n步骤2：综合⟦75⟧⟦164⟧⟦6⟧，交叉验证该角色出自 Quentin Tarantino's war film ⟦6⟧（Inglourious Basterds），确认扮演该角色的演员身份。\n\n步骤3：使用⟦78⟧⟦38⟧⟦74⟧⟦256⟧，提取 Eli Raphael Roth 是美国电影导演、演员和编剧，与步骤2中的角色扮演者对应。\n\n步骤4：综合⟦227⟧⟦13⟧⟦79⟧⟦351⟧，验证 The Man with the Iron Fists 是一部 2012 年美国武术电影，由 Eli Roth 编剧。\n\n结论：Eli Roth 就是那位以饰演 Donny \"The Bear Jew\" Donowitz 闻名、并撰写了 2012 年电影 The Man with the Iron Fists 的美国电影导演兼演员。\n\n# 路径二：从电影作品反推编剧\n\n步骤1：使用⟦227⟧⟦13⟧，提取 The Man with the Iron Fists 是一部 2012 年美国武术电影，确定目标作品。\n\n步骤2：综合⟦227⟧⟦351⟧⟦79⟧，从电影条目中提取编剧信息，确认 Eli Roth 是该片编剧。\n\n步骤3：综合⟦78⟧⟦38⟧⟦74⟧，交叉验证 Eli Roth 的身份为美国电影导演和演员，符合问题中\"American film director and actor\"的描述。\n\n步骤4：使用⟦75⟧⟦164⟧⟦6⟧，验证 Eli Roth 曾在 Quentin Tarantino's war film 中饰演 Donny \"The Bear Jew\" Donowitz，与问题中的角色描述吻合。\n\n结论：通过电影作品反推，Eli Roth 同时满足\"饰演 Donny 'The Bear Jew' Donowitz\"和\"撰写 The Man with the Iron Fists\"两个条件。\n\n# 路径三：多材料交叉验证身份唯一性\n\n步骤1：使用⟦78⟧，提取 Eli Raphael Roth 的全名及其出生日期，确认其身份标识。\n\n步骤2：综合⟦38⟧⟦74⟧⟦159⟧⟦256⟧，提取 Eli Roth 的职业身份包括美国电影导演、演员、制片人和编剧，覆盖问题所需的全部身份特征。\n\n步骤3：综合⟦75⟧⟦105⟧⟦164⟧⟦6⟧，验证 Donny \"The Bear Jew\" Donowitz 是 Eli Roth 最著名的角色之一，出自 Inglourious Basterds。\n\n步骤4：综合⟦227⟧⟦13⟧⟦79⟧⟦351⟧，确认 Eli Roth 撰写了 2012 年的 The Man with the Iron Fists，且该片为美国武术电影。\n\n结论：多条材料交叉验证表明，Eli Roth 是唯一同时满足所有条件的人选——美国电影导演兼演员、饰演 Donny \"The Bear Jew\" Donowitz、撰写 The Man with the Iron Fists。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦78⟧⟨184⟩⟦38⟧⟨186⟩⟨185⟩⟨187⟩⟨188⟩⟨189⟩⟦256⟧⟦256⟧⟨190⟩⟨191⟩",
+    "nounCount": 366,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6025,
+      "completion_tokens": 253,
+      "total_tokens": 6278,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6025
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1012,
+      "completion_tokens": 701,
+      "total_tokens": 1713,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1012
+    }
+  }
+]

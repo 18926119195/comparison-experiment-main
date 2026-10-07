@@ -1,0 +1,315 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨A⟩、⟨B⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "' s album charts
+⟦2⟧ = "Double J
+⟦3⟧ = "Face/Off
+⟦4⟧ = "Grease
+⟦5⟧ = "Hairspray
+⟦6⟧ = "Pulp Fiction
+⟦7⟧ = "Stayin' Alive
+⟦8⟧ = "Suicide Kings
+⟦9⟧ = "Swordfish
+⟦10⟧ = 100 Songs survey
+⟦11⟧ = 120 weeks
+⟦12⟧ = 13 December
+⟦13⟧ = 15× Platinum
+⟦14⟧ = 18 consecutive weeks
+⟦15⟧ = 1950s
+⟦16⟧ = 1970s
+⟦17⟧ = 1977's "Saturday Night Fever
+⟦18⟧ = 1979's "Voices
+⟦19⟧ = 1990s
+⟦20⟧ = 24 straight weeks
+⟦21⟧ = a 1978 American musical romantic comedy film
+⟦22⟧ = a 1983 American dance film
+⟦23⟧ = a 1989 American comedy film
+⟦24⟧ = a disco song
+⟦25⟧ = a movie
+⟦26⟧ = a resurgence
+⟦27⟧ = a song
+⟦28⟧ = a supporting role
+⟦29⟧ = a top 10 position
+⟦30⟧ = a UK television poll
+⟦31⟧ = actor
+⟦32⟧ = AFI's 100 Years
+⟦33⟧ = airplay
+⟦34⟧ = Albhy Galuten
+⟦35⟧ = album
+⟦36⟧ = All Time
+⟦37⟧ = American cinema
+⟦38⟧ = an American actor
+⟦39⟧ = an American actor and voice actor
+⟦40⟧ = an international sensation
+⟦41⟧ = artists
+⟦42⟧ = Arye Gross
+⟦43⟧ = at least 15 million units
+⟦44⟧ = background
+⟦45⟧ = background music
+⟦46⟧ = Barry
+⟦47⟧ = Billboard
+⟦48⟧ = blockbuster
+⟦49⟧ = both sides
+⟦50⟧ = box
+⟦51⟧ = Bronte Woodard
+⟦52⟧ = brothers
+⟦53⟧ = career
+⟦54⟧ = charts
+⟦55⟧ = chief
+⟦56⟧ = choreography
+⟦57⟧ = cinema
+⟦58⟧ = comedy
+⟦59⟧ = Congress
+⟦60⟧ = Cynthia Rhodes
+⟦61⟧ = dance
+⟦62⟧ = dancer
+⟦63⟧ = dancer Tony Manero
+⟦64⟧ = dancers
+⟦65⟧ = dancers Viktor Manoel
+⟦66⟧ = Danny
+⟦67⟧ = Dave Thomas
+⟦68⟧ = debut
+⟦69⟧ = December
+⟦70⟧ = Dennon
+⟦71⟧ = Director Sylvester Stallone
+⟦72⟧ = disco
+⟦73⟧ = displeasure
+⟦74⟧ = Eric Alter
+⟦75⟧ = feature
+⟦76⟧ = film
+⟦77⟧ = films
+⟦78⟧ = Finola Hughes
+⟦79⟧ = five songs
+⟦80⟧ = game
+⟦81⟧ = Grease
+⟦82⟧ = hearts
+⟦83⟧ = hesitation
+⟦84⟧ = His acting career
+⟦85⟧ = his role
+⟦86⟧ = his theatrical feature film debut
+⟦87⟧ = interviews
+⟦88⟧ = ITV
+⟦89⟧ = January
+⟦90⟧ = Jim Jacobs
+⟦91⟧ = Joey
+⟦92⟧ = John Joseph Travolta
+⟦93⟧ = John Travolta
+⟦94⟧ = Joseph Cali
+⟦95⟧ = Joyce Hyser
+⟦96⟧ = Julie Bovasso
+⟦97⟧ = July
+⟦98⟧ = Karl Richardson
+⟦99⟧ = Kelly Preston
+⟦100⟧ = Kevyn Morrow
+⟦101⟧ = Kings
+⟦102⟧ = life
+⟦103⟧ = list
+⟦104⟧ = Lt. Jack M. Keller
+⟦105⟧ = March
+⟦106⟧ = Maurice Gibb
+⟦107⟧ = members
+⟦108⟧ = more airplay
+⟦109⟧ = motion
+⟦110⟧ = movie
+⟦111⟧ = music
+⟦112⟧ = name
+⟦113⟧ = Nick Thiel
+⟦114⟧ = Night Fever
+⟦115⟧ = No
+⟦116⟧ = number
+⟦117⟧ = office
+⟦118⟧ = Olivia Newton-John
+⟦119⟧ = other artists
+⟦120⟧ = over 20 films
+⟦121⟧ = Paramount chief Ned Tannen
+⟦122⟧ = Paul Pape
+⟦123⟧ = phenomenon
+⟦124⟧ = picture
+⟦125⟧ = poll
+⟦126⟧ = position
+⟦127⟧ = previous two singles
+⟦128⟧ = producer
+⟦129⟧ = Producer Robert Stigwood
+⟦130⟧ = production
+⟦131⟧ = projects
+⟦132⟧ = Randal Kleiser
+⟦133⟧ = Rawles
+⟦134⟧ = release
+⟦135⟧ = request
+⟦136⟧ = resurgence
+⟦137⟧ = rewrites
+⟦138⟧ = Robin
+⟦139⟧ = role
+⟦140⟧ = Rolling Stone's 500 Greatest Songs
+⟦141⟧ = Rydell High School students
+⟦142⟧ = Sandy
+⟦143⟧ = Saturday Night Fever
+⟦144⟧ = Sayhber Rawles
+⟦145⟧ = scene
+⟦146⟧ = script
+⟦147⟧ = selling
+⟦148⟧ = sensation
+⟦149⟧ = sequel
+⟦150⟧ = series
+⟦151⟧ = several uncredited rewrites
+⟦152⟧ = shipments
+⟦153⟧ = sides
+⟦154⟧ = signature
+⟦155⟧ = singer
+⟦156⟧ = singer Robin Gibb
+⟦157⟧ = single
+⟦158⟧ = singles
+⟦159⟧ = solo projects
+⟦160⟧ = song
+⟦161⟧ = songs
+⟦162⟧ = soundtrack
+⟦163⟧ = Stayin' Alive
+⟦164⟧ = Staying Alive
+⟦165⟧ = Steven Greene
+⟦166⟧ = Stigwood
+⟦167⟧ = students
+⟦168⟧ = successes
+⟦169⟧ = survey
+⟦170⟧ = Sylvester Stallone
+⟦171⟧ = talents
+⟦172⟧ = television
+⟦173⟧ = that name
+⟦174⟧ = the "Saturday Night Fever" motion picture soundtrack
+⟦175⟧ = the "Saturday Night Fever" soundtrack
+⟦176⟧ = the "Staying Alive" movie
+⟦177⟧ = the 1970s
+⟦178⟧ = the 1977 blockbuster
+⟦179⟧ = the 1977 film
+⟦180⟧ = the 1990s
+⟦181⟧ = the 2008 racing video game
+⟦182⟧ = the album
+⟦183⟧ = the album charts
+⟦184⟧ = the Atlantic
+⟦185⟧ = the Bee Gees
+⟦186⟧ = the Bee Gees members
+⟦187⟧ = the Bee Gees song
+⟦188⟧ = the Bee Gees songs
+⟦189⟧ = the box office successes
+⟦190⟧ = the brothers
+⟦191⟧ = The choreography
+⟦192⟧ = The Competition
+⟦193⟧ = the disco phenomenon
+⟦194⟧ = The Experts
+⟦195⟧ = the film
+⟦196⟧ = the final scene
+⟦197⟧ = the late 1950s
+⟦198⟧ = the Library
+⟦199⟧ = the life
+⟦200⟧ = the list
+⟦201⟧ = the movie
+⟦202⟧ = the music
+⟦203⟧ = The Nation's Favourite Bee Gees Song
+⟦204⟧ = the National Recording Registry
+⟦205⟧ = The Original Movie Sound Track
+⟦206⟧ = the release
+⟦207⟧ = the request
+⟦208⟧ = the role
+⟦209⟧ = the same name
+⟦210⟧ = the script
+⟦211⟧ = the second single
+⟦212⟧ = the second-best selling album
+⟦213⟧ = the sequel
+⟦214⟧ = The song
+⟦215⟧ = the soundtrack album
+⟦216⟧ = the television series
+⟦217⟧ = the theme song
+⟦218⟧ = The title
+⟦219⟧ = the UK
+⟦220⟧ = the United States
+⟦221⟧ = the way
+⟦222⟧ = The Woman
+⟦223⟧ = the year
+⟦224⟧ = their displeasure
+⟦225⟧ = their hearts
+⟦226⟧ = their signature songs
+⟦227⟧ = their songs
+⟦228⟧ = their talents
+⟦229⟧ = theme
+⟦230⟧ = Thomas
+⟦231⟧ = title
+⟦232⟧ = top tunes
+⟦233⟧ = Travolta
+⟦234⟧ = tunes
+⟦235⟧ = units
+⟦236⟧ = video
+⟦237⟧ = voice
+⟦238⟧ = Voices
+⟦239⟧ = Warren Casey
+⟦240⟧ = way
+⟦241⟧ = weeks
+⟦242⟧ = Wild Hogs
+⟦243⟧ = Woman
+⟦244⟧ = year
+⟦245⟧ = Years
+
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟨A⟩⟦222⟧⟨B⟩⟦243⟧⟨C⟩⟦79⟧⟨D⟩⟦161⟧⟨E⟩⟦185⟧⟨F⟩⟦195⟧⟨G⟩⟦76⟧⟨H⟩⟦213⟧⟨I⟩⟦149⟧⟨J⟩⟦143⟧⟨K⟩
+⟦71⟧⟨L⟩⟦188⟧⟨M⟩⟦161⟧⟨N⟩⟦201⟧⟨O⟩⟦110⟧⟨P⟩⟦44⟧⟨Q⟩⟦45⟧⟨R⟩⟦111⟧⟨S⟩⟦240⟧⟨T⟩⟦143⟧⟨U⟩
+⟨V⟩⟦108⟧⟨W⟩⟦33⟧⟨X⟩⟦185⟧⟨Y⟩⟦127⟧⟨Z⟩⟦158⟧⟨[⟩⟦29⟧⟨\⟩⟦126⟧⟨]⟩
+⟨^⟩⟦87⟧⟨_⟩⟦87⟧⟨`⟩⟦206⟧⟨a⟩⟦134⟧⟨b⟩⟦195⟧⟨c⟩⟦76⟧⟨d⟩⟦190⟧⟨e⟩⟦52⟧⟨f⟩⟦224⟧⟨g⟩⟦73⟧⟨h⟩⟦221⟧⟨i⟩⟦240⟧⟨j⟩⟦227⟧⟨k⟩⟦161⟧⟨l⟩⟦225⟧⟨m⟩⟦82⟧⟨n⟩⟦202⟧⟨o⟩⟦111⟧⟨p⟩
+⟨q⟩⟦185⟧⟨r⟩⟦228⟧⟨s⟩⟦171⟧⟨t⟩⟦159⟧⟨u⟩⟦131⟧⟨v⟩⟦130⟧⟨w⟩⟦130⟧⟨x⟩⟦119⟧⟨y⟩⟦41⟧⟨z⟩⟦176⟧⟨{⟩⟦110⟧⟨|⟩
+⟦194⟧⟨}⟩⟦23⟧⟨~⟩⟦58⟧⟨⟩⟦76⟧⟨⟩⟦93⟧⟨⟩⟦42⟧⟨⟩⟦99⟧⟨⟩
+⟨⟩⟦165⟧⟨⟩⟦74⟧⟨⟩⟦113⟧⟨⟩⟦67⟧⟨⟩
+⟨⟩⟦130⟧⟨⟩⟦130⟧⟨⟩⟦151⟧⟨⟩⟦137⟧⟨⟩⟦210⟧⟨⟩⟦146⟧⟨⟩⟦230⟧⟨⟩⟦207⟧⟨⟩⟦135⟧⟨⟩⟦121⟧⟨⟩⟦55⟧⟨⟩
+⟦164⟧⟨⟩⟦22⟧⟨⟩⟦61⟧⟨⟩⟦76⟧⟨⟩⟦93⟧⟨⟩⟦62⟧⟨⟩⟦63⟧⟨⟩⟦60⟧⟨⟩⟦78⟧⟨⟩⟦95⟧⟨⟩⟦96⟧⟨⟩⟦64⟧⟨ ⟩⟦65⟧⟨¡⟩⟦100⟧⟨¢⟩
+⟦213⟧⟨£⟩⟦149⟧⟨¤⟩⟦17⟧⟨¥⟩⟦170⟧⟨¦⟩
+⟦218⟧⟨§⟩⟦231⟧⟨¨⟩⟦187⟧⟨©⟩⟦160⟧⟨ª⟩⟦209⟧⟨«⟩⟦112⟧⟨¬⟩⟦217⟧⟨­⟩⟦229⟧⟨®⟩⟦160⟧⟨¯⟩⟦143⟧⟨°⟩⟦196⟧⟨±⟩⟦145⟧⟨²⟩
+⟦191⟧⟨³⟩⟦56⟧⟨´⟩⟦70⟧⟨µ⟩⟦144⟧⟨¶⟩⟦133⟧
+⟦81⟧⟨·⟩⟦81⟧⟨¸⟩⟦21⟧⟨¹⟩⟦58⟧⟨º⟩⟦76⟧⟨»⟩⟦90⟧⟨¼⟩⟦239⟧⟨½⟩⟦209⟧⟨¾⟩⟦112⟧⟨¿⟩
+⟨À⟩⟦51⟧⟨Á⟩⟦132⟧⟨Â⟩⟦86⟧⟨Ã⟩⟦75⟧⟨Ä⟩⟦76⟧⟨Å⟩⟦68⟧⟨Æ⟩⟦195⟧⟨Ç⟩⟦76⟧⟨È⟩⟦199⟧⟨É⟩⟦102⟧⟨Ê⟩⟦141⟧⟨Ë⟩⟦167⟧⟨Ì⟩⟦66⟧⟨Í⟩⟦93⟧⟨Î⟩⟦142⟧⟨Ï⟩⟦118⟧⟨Ð⟩⟦197⟧⟨Ñ⟩⟦15⟧⟨Ò⟩
+⟦4⟧⟨Ó⟩
+⟨Ô⟩⟦212⟧⟨Õ⟩⟦147⟧⟨Ö⟩⟦35⟧⟨×⟩⟦223⟧⟨Ø⟩⟦244⟧⟨Ù⟩⟦220⟧⟨Ú⟩⟦178⟧⟨Û⟩⟦48⟧⟨Ü⟩⟦143⟧⟨Ý⟩
+⟨Þ⟩⟦114⟧⟨ß⟩⟦27⟧⟨à⟩⟦160⟧⟨á⟩⟦185⟧⟨â⟩
+⟨ã⟩⟦143⟧⟨ä⟩
+⟦129⟧⟨å⟩⟦195⟧⟨æ⟩⟦76⟧⟨ç⟩⟦155⟧⟨è⟩⟦156⟧⟨é⟩⟦83⟧⟨ê⟩⟦83⟧⟨ë⟩⟦218⟧⟨ì⟩⟦231⟧⟨í⟩
+⟦166⟧⟨î⟩⟦218⟧⟨ï⟩⟦231⟧⟨ð⟩⟦114⟧⟨ñ⟩⟦25⟧⟨ò⟩⟦110⟧⟨ó⟩⟦173⟧⟨ô⟩⟦112⟧⟨õ⟩
+⟦94⟧⟨ö⟩⟦38⟧⟨÷⟩⟦31⟧⟨ø⟩⟦208⟧⟨ù⟩⟦139⟧⟨ú⟩⟦91⟧⟨û⟩⟦179⟧⟨ü⟩⟦76⟧⟨ý⟩⟦143⟧⟨þ⟩
+⟨ÿ⟩⟦172⟧⟨Ā⟩⟦172⟧⟨ā⟩⟦77⟧⟨Ă⟩⟦77⟧⟨ă⟩⟦18⟧⟨Ą⟩⟦238⟧⟨ą⟩⟦192⟧⟨Ć⟩⟦8⟧⟨ć⟩⟦101⟧⟨Ĉ⟩
+⟦122⟧⟨ĉ⟩⟦39⟧⟨Ċ⟩⟦31⟧⟨ċ⟩⟦237⟧⟨Č⟩⟦31⟧⟨č⟩⟦208⟧⟨Ď⟩⟦139⟧⟨ď⟩⟦2⟧⟨Đ⟩⟦179⟧⟨đ⟩⟦76⟧⟨Ē⟩⟦143⟧⟨ē⟩
+⟨Ĕ⟩⟦120⟧⟨ĕ⟩⟦77⟧⟨Ė⟩
+⟨ė⟩⟦28⟧⟨Ę⟩⟦139⟧⟨ę⟩⟦181⟧⟨Ě⟩⟦236⟧⟨ě⟩⟦80⟧⟨Ĝ⟩⟦104⟧⟨ĝ⟩
+⟦143⟧⟨Ğ⟩⟦205⟧⟨ğ⟩⟦215⟧⟨Ġ⟩⟦162⟧⟨ġ⟩⟦35⟧⟨Ģ⟩⟦179⟧⟨ģ⟩⟦76⟧⟨Ĥ⟩⟦143⟧⟨ĥ⟩⟦93⟧⟨Ħ⟩
+⟨ħ⟩⟦220⟧⟨Ĩ⟩⟦182⟧⟨ĩ⟩⟦35⟧⟨Ī⟩⟦13⟧⟨ī⟩⟦152⟧⟨Ĭ⟩⟦152⟧⟨ĭ⟩⟦43⟧⟨Į⟩⟦235⟧⟨į⟩
+⟦182⟧⟨İ⟩⟦35⟧⟨ı⟩⟦183⟧⟨Ĳ⟩⟦35⟧⟨ĳ⟩⟦54⟧⟨Ĵ⟩⟦20⟧⟨ĵ⟩⟦241⟧⟨Ķ⟩⟦89⟧⟨ķ⟩⟦97⟧⟨ĸ⟩⟦47⟧⟨Ĺ⟩⟦47⟧⟨ĺ⟩⟦1⟧⟨Ļ⟩⟦35⟧⟨ļ⟩⟦54⟧⟨Ľ⟩⟦11⟧⟨ľ⟩⟦241⟧⟨Ŀ⟩⟦105⟧⟨ŀ⟩
+⟨Ł⟩⟦219⟧⟨ł⟩⟦182⟧⟨Ń⟩⟦35⟧⟨ń⟩⟦14⟧⟨Ņ⟩⟦241⟧⟨ņ⟩⟦115⟧⟨Ň⟩⟦115⟧⟨ň⟩
+⟦182⟧⟨ŉ⟩⟦35⟧⟨Ŋ⟩⟦193⟧⟨ŋ⟩⟦72⟧⟨Ō⟩⟦123⟧⟨ō⟩⟦49⟧⟨Ŏ⟩⟦153⟧⟨ŏ⟩⟦184⟧⟨Ő⟩⟦40⟧⟨ő⟩⟦148⟧⟨Œ⟩
+⟦182⟧⟨œ⟩⟦35⟧⟨Ŕ⟩⟦204⟧⟨ŕ⟩⟦198⟧⟨Ŗ⟩⟦59⟧⟨ŗ⟩
+⟦92⟧⟨Ř⟩⟦38⟧⟨ř⟩⟦31⟧⟨Ś⟩⟦128⟧⟨ś⟩⟦128⟧⟨Ŝ⟩⟦62⟧⟨ŝ⟩⟦62⟧⟨Ş⟩⟦155⟧⟨ş⟩⟦155⟧⟨Š⟩
+⟦233⟧⟨š⟩⟦177⟧⟨Ţ⟩⟦16⟧⟨ţ⟩⟦216⟧⟨Ť⟩⟦172⟧⟨ť⟩⟦150⟧⟨Ŧ⟩⟦189⟧⟨ŧ⟩⟦50⟧⟨Ũ⟩⟦117⟧⟨ũ⟩⟦168⟧⟨Ū⟩
+⟨ū⟩⟦84⟧⟨Ŭ⟩⟦53⟧⟨ŭ⟩⟦26⟧⟨Ů⟩⟦136⟧⟨ů⟩⟦180⟧⟨Ű⟩⟦19⟧⟨ű⟩⟦85⟧⟨Ų⟩⟦139⟧⟨ų⟩⟦6⟧⟨Ŵ⟩⟦77⟧⟨ŵ⟩⟦77⟧⟨Ŷ⟩⟦3⟧⟨ŷ⟩⟦9⟧⟨Ÿ⟩⟦242⟧⟨Ź⟩⟦5⟧⟨ź⟩
+⟨Ż⟩⟦163⟧⟨ż⟩⟦24⟧⟨Ž⟩⟦72⟧⟨ž⟩⟦160⟧⟨ſ⟩⟦185⟧⟨ƀ⟩⟦174⟧⟨Ɓ⟩⟦109⟧⟨Ƃ⟩⟦124⟧⟨ƃ⟩⟦162⟧⟨Ƅ⟩
+⟦214⟧⟨ƅ⟩⟦160⟧⟨Ɔ⟩⟦186⟧⟨Ƈ⟩⟦107⟧⟨ƈ⟩⟦46⟧⟨Ɖ⟩⟦138⟧⟨Ɗ⟩⟦106⟧⟨Ƌ⟩⟦185⟧⟨ƌ⟩⟦34⟧⟨ƍ⟩⟦98⟧⟨Ǝ⟩
+⟨Ə⟩⟦12⟧⟨Ɛ⟩⟦211⟧⟨Ƒ⟩⟦157⟧⟨ƒ⟩⟦175⟧⟨Ɠ⟩⟦162⟧⟨Ɣ⟩
+⟨ƕ⟩⟦226⟧⟨Ɩ⟩⟦154⟧⟨Ɨ⟩⟦161⟧⟨Ƙ⟩
+⟨ƙ⟩⟦7⟧⟨ƚ⟩⟦116⟧⟨ƛ⟩⟦116⟧⟨Ɯ⟩⟦200⟧⟨Ɲ⟩⟦103⟧⟨ƞ⟩⟦140⟧⟨Ɵ⟩⟦36⟧⟨Ơ⟩
+⟨ơ⟩⟦115⟧⟨Ƣ⟩⟦115⟧⟨ƣ⟩⟦32⟧⟨Ƥ⟩⟦245⟧⟨ƥ⟩⟦10⟧⟨Ʀ⟩⟦161⟧⟨Ƨ⟩⟦169⟧⟨ƨ⟩⟦232⟧⟨Ʃ⟩⟦234⟧⟨ƪ⟩⟦37⟧⟨ƫ⟩⟦57⟧⟨Ƭ⟩
+⟨ƭ⟩⟦30⟧⟨Ʈ⟩⟦172⟧⟨Ư⟩⟦125⟧⟨ư⟩⟦88⟧⟨Ʊ⟩⟦69⟧⟨Ʋ⟩⟦203⟧⟨Ƴ⟩
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+约束：
+- 必须先把整个拓扑链从头到尾完整看完，再决定截断片段
+- 每个截断必须是拓扑链中连续的符号序列
+- 多个截断必须按拓扑链中的原始顺序排列（不允许交叉）
+- 不能编造不存在的符号
+- 不能重排符号顺序
+- 段长建议：每个段至少 3 个名词 + 2 个占位符（左右各留 1 个占位符给出上下文）
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨A⟩⟦2⟧ | ⟦3⟧⟨B⟩⟦5⟧
+长段示例：⟦2⟧⟨B⟩⟦3⟧⟨C⟩⟦4⟧⟨D⟩⟦5⟧⟨E⟩⟦6⟧ | ⟦8⟧⟨F⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：
+
+[user]
+
+问题：
+The Experts stars what actor known for "Saturday Night Fever" and "Grease"?

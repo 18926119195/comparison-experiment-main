@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_6933",
+  "question": "Which was formed first, Noori or Test Icicles?",
+  "expectedAnswer": "Noori",
+  "predictedAnswer": "# 路径一：直接比较成立年份\n\n步骤1：使用⟦100⟧⟦203⟧，提取 Noori 的成立信息——Noori 是一支来自巴基斯坦拉合尔的摇滚乐队，成立于1996年。\n\n步骤2：使用⟦16⟧⟦102⟧，提取 Test Icicles 的成立信息——Test Icicles 是一支短命的 dance-punk 乐队，于2004年由 Devonte Hynes 和 Sam Mehran 组建。\n\n步骤3：综合⟦203⟧⟦102⟧，对比两个年份：1996年 vs 2004年。\n\n结论：Noori 成立于1996年，Test Icicles 成立于2004年，因此 **Noori 成立更早**。\n\n---\n\n# 路径二：通过成员年龄与活跃时期交叉验证\n\n步骤1：使用⟦107⟧⟦108⟧，提取 Test Icicles 成员相关信息——Mehran 和 Hynes 在乐队成立时都只有18岁。\n\n步骤2：使用⟦182⟧⟦161⟧，提取 Test Icicles 的时间线索——乐队仅存在了几年时间，属于短命乐队。\n\n步骤3：使用⟦100⟧⟦203⟧，提取 Noori 的成立时间——1996年成立，且至今仍活跃于巴基斯坦摇滚乐坛。\n\n步骤4：综合⟦102⟧⟦203⟧，对比：Noori 成立于1996年，Test Icicles 成立于2004年，两者相差8年。\n\n结论：Noori 比 Test Icicles 早成立约8年，**Noori 成立更早**。\n\n---\n\n# 路径三：通过乐队性质与历史背景推断\n\n步骤1：使用⟦16⟧⟦42⟧⟦54⟧，提取 Test Icicles 的特征——短命的 dance-punk 乐队，来自英格兰，属于2000年代中期的音乐场景。\n\n步骤2：使用⟦100⟧⟦176⟧⟦106⟧，提取 Noori 的特征——来自巴基斯坦的摇滚乐队，成立于1996年，是巴基斯坦摇滚乐的先驱之一。\n\n步骤3：综合⟦203⟧⟦102⟧，对比两者的成立年份：Noori（1996年）明显早于 Test Icicles（2004年）。\n\n结论：从乐队成立年份来看，**Noori 成立更早**，比 Test Icicles 早8年。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦100⟧⟨191⟩⟦176⟧⟦185⟧⟨192⟩⟨193⟩⟦85⟧⟦168⟧⟨194⟩⟨195⟩⟦82⟧⟦82⟧",
+  "nounCount": 271,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 4478,
+    "completion_tokens": 705,
+    "total_tokens": 5183,
+    "prompt_tokens_details": {
+      "cached_tokens": 4224
+    },
+    "prompt_cache_hit_tokens": 4224,
+    "prompt_cache_miss_tokens": 254
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 2168,
+    "completion_tokens": 533,
+    "total_tokens": 2701,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 2168
+  }
+}

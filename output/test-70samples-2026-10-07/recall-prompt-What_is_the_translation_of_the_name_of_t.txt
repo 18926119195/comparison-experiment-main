@@ -1,0 +1,374 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Lac qui parle
+⟦2⟧ = "listed building
+⟦3⟧ = "River
+⟦4⟧ = 1 mile
+⟦5⟧ = 1,156 sqmi
+⟦6⟧ = 1,989 megawatts
+⟦7⟧ = 10 chains
+⟦8⟧ = 16 mi
+⟦9⟧ = 190 km
+⟦10⟧ = 1975–77
+⟦11⟧ = 21 buildings
+⟦12⟧ = 31 chains
+⟦13⟧ = 361 yards
+⟦14⟧ = 8 mi
+⟦15⟧ = 9 km
+⟦16⟧ = a 50 mi river
+⟦17⟧ = a bid
+⟦18⟧ = a building
+⟦19⟧ = a cantilevered footway
+⟦20⟧ = a coal fired power station
+⟦21⟧ = a creek
+⟦22⟧ = a designated Grade II listed building
+⟦23⟧ = a generating capacity
+⟦24⟧ = a lake
+⟦25⟧ = a main arch span
+⟦26⟧ = a map
+⟦27⟧ = a modern OS Map
+⟦28⟧ = a multi-million pound transport scheme
+⟦29⟧ = A number
+⟦30⟧ = a replacement
+⟦31⟧ = a river
+⟦32⟧ = a science centre
+⟦33⟧ = a translation
+⟦34⟧ = a tributary
+⟦35⟧ = an agricultural region
+⟦36⟧ = an area
+⟦37⟧ = an article
+⟦38⟧ = an industrial town
+⟦39⟧ = an industrial town and cargo port
+⟦40⟧ = another translation
+⟦41⟧ = arch bridge
+⟦42⟧ = area
+⟦43⟧ = article
+⟦44⟧ = bid
+⟦45⟧ = biomass
+⟦46⟧ = bone
+⟦47⟧ = border
+⟦48⟧ = boundary
+⟦49⟧ = boundary river
+⟦50⟧ = bridge
+⟦51⟧ = Budd Inlet
+⟦52⟧ = building
+⟦53⟧ = buildings
+⟦54⟧ = capacity
+⟦55⟧ = cargo
+⟦56⟧ = Carterhouse Junction
+⟦57⟧ = centre
+⟦58⟧ = centuries
+⟦59⟧ = chains
+⟦60⟧ = chemical
+⟦61⟧ = chemistry
+⟦62⟧ = Cheshire
+⟦63⟧ = Chinook Jargon
+⟦64⟧ = city
+⟦65⟧ = co-firing biomass
+⟦66⟧ = coal
+⟦67⟧ = construction
+⟦68⟧ = convergence
+⟦69⟧ = counties
+⟦70⟧ = creek
+⟦71⟧ = crossing
+⟦72⟧ = Cuerdley railway station
+⟦73⟧ = Cuerdley station
+⟦74⟧ = Culture
+⟦75⟧ = data
+⟦76⟧ = database
+⟦77⟧ = day
+⟦78⟧ = design
+⟦79⟧ = direction
+⟦80⟧ = distance
+⟦81⟧ = each direction
+⟦82⟧ = east
+⟦83⟧ = eastern South Dakota
+⟦84⟧ = edge
+⟦85⟧ = efforts
+⟦86⟧ = ELR
+⟦87⟧ = empties
+⟦88⟧ = engineering
+⟦89⟧ = England
+⟦90⟧ = English Heritage
+⟦91⟧ = Fiddlers Ferry and Penketh station
+⟦92⟧ = Fiddlers Ferry Power Station
+⟦93⟧ = footway
+⟦94⟧ = French fur traders
+⟦95⟧ = fur
+⟦96⟧ = Gainsborough
+⟦97⟧ = generating
+⟦98⟧ = generator
+⟦99⟧ = Grade II
+⟦100⟧ = grades
+⟦101⟧ = grading
+⟦102⟧ = Halton
+⟦103⟧ = highway
+⟦104⟧ = history
+⟦105⟧ = honour
+⟦106⟧ = industry
+⟦107⟧ = interchanges
+⟦108⟧ = interest
+⟦109⟧ = Its name
+⟦110⟧ = its official name
+⟦111⟧ = Its source
+⟦112⟧ = junction
+⟦113⟧ = kingdoms
+⟦114⟧ = km
+⟦115⟧ = Lac qui Parle
+⟦116⟧ = lake
+⟦117⟧ = Lancashire
+⟦118⟧ = lanes
+⟦119⟧ = language
+⟦120⟧ = Lewis County
+⟦121⟧ = listed buildings
+⟦122⟧ = Liverpool
+⟦123⟧ = local interest
+⟦124⟧ = location
+⟦125⟧ = major civil engineering work
+⟦126⟧ = map
+⟦127⟧ = Media
+⟦128⟧ = megawatts
+⟦129⟧ = Mercia
+⟦130⟧ = mi
+⟦131⟧ = mile
+⟦132⟧ = miles
+⟦133⟧ = Minnesota
+⟦134⟧ = Moss Lane
+⟦135⟧ = mouth
+⟦136⟧ = museum
+⟦137⟧ = MW
+⟦138⟧ = name
+⟦139⟧ = network
+⟦140⟧ = new interchanges
+⟦141⟧ = no Grade
+⟦142⟧ = north
+⟦143⟧ = North Nottinghamshire
+⟦144⟧ = North West England
+⟦145⟧ = northeast
+⟦146⟧ = Northumbria
+⟦147⟧ = number
+⟦148⟧ = Olympia
+⟦149⟧ = one
+⟦150⟧ = One source
+⟦151⟧ = only 31 chains
+⟦152⟧ = OS
+⟦153⟧ = other structure
+⟦154⟧ = outstanding architectural or historical interest
+⟦155⟧ = part
+⟦156⟧ = particularly significant buildings
+⟦157⟧ = plant
+⟦158⟧ = population
+⟦159⟧ = port
+⟦160⟧ = pound
+⟦161⟧ = power
+⟦162⟧ = project
+⟦163⟧ = Puget Sound
+⟦164⟧ = qui
+⟦165⟧ = railway
+⟦166⟧ = recommendations
+⟦167⟧ = region
+⟦168⟧ = replacement
+⟦169⟧ = Retford
+⟦170⟧ = river
+⟦171⟧ = Rivière des Chutes
+⟦172⟧ = road
+⟦173⟧ = Runcorn
+⟦174⟧ = Runcorn Bridge
+⟦175⟧ = Runcorn Gap
+⟦176⟧ = Runcorn's population
+⟦177⟧ = scheme
+⟦178⟧ = science
+⟦179⟧ = significance
+⟦180⟧ = site
+⟦181⟧ = Slightly more than two-thirds
+⟦182⟧ = source
+⟦183⟧ = southwestern Minnesota
+⟦184⟧ = span
+⟦185⟧ = special architectural or historical interest
+⟦186⟧ = special architectural, historical, or cultural significance
+⟦187⟧ = Spike Island
+⟦188⟧ = Sport
+⟦189⟧ = sqmi
+⟦190⟧ = State
+⟦191⟧ = station
+⟦192⟧ = Stations
+⟦193⟧ = structure
+⟦194⟧ = term
+⟦195⟧ = the "Mersey Gateway" toll bridge
+⟦196⟧ = the 1849 OS Map
+⟦197⟧ = the A533 road
+⟦198⟧ = the ancient kingdoms
+⟦199⟧ = the Anglo-Saxon language
+⟦200⟧ = the Arts Council England
+⟦201⟧ = The authoritative "Disused Stations" website
+⟦202⟧ = the Boiler and Turbo-generator plant
+⟦203⟧ = the border
+⟦204⟧ = the Borough
+⟦205⟧ = the boundary
+⟦206⟧ = The bridge
+⟦207⟧ = The Catalyst Science Discovery Centre
+⟦208⟧ = the Chemical Industry
+⟦209⟧ = The city
+⟦210⟧ = the construction
+⟦211⟧ = the convergence
+⟦212⟧ = The crossing
+⟦213⟧ = The Deschutes River
+⟦214⟧ = the east
+⟦215⟧ = the ELR data
+⟦216⟧ = the existing road network
+⟦217⟧ = the existing Silver Jubilee Bridge
+⟦218⟧ = the Falls
+⟦219⟧ = the First Nations name
+⟦220⟧ = the French language
+⟦221⟧ = the Gifford Pinchot National Forest
+⟦222⟧ = the grading
+⟦223⟧ = the historic counties
+⟦224⟧ = the history
+⟦225⟧ = The Lac qui Parle River
+⟦226⟧ = the Lac qui Parle watershed
+⟦227⟧ = the lake
+⟦228⟧ = The main part
+⟦229⟧ = the Manchester Ship Canal
+⟦230⟧ = The Mersey Gateway
+⟦231⟧ = the Minnesota River
+⟦232⟧ = the Mississippi River
+⟦233⟧ = the modern-day junction
+⟦234⟧ = the mouth
+⟦235⟧ = The Museum
+⟦236⟧ = the National Heritage List
+⟦237⟧ = the new bridge
+⟦238⟧ = the north
+⟦239⟧ = the north bank
+⟦240⟧ = the North West
+⟦241⟧ = the northeast
+⟦242⟧ = the project
+⟦243⟧ = the Queen's Silver Jubilee
+⟦244⟧ = the railway
+⟦245⟧ = The river
+⟦246⟧ = the River Mersey
+⟦247⟧ = the Runcorn Bridge
+⟦248⟧ = the Runcorn Gap
+⟦249⟧ = the same location
+⟦250⟧ = the Sankey Canal
+⟦251⟧ = the Secretary
+⟦252⟧ = The Silver Jubilee Bridge
+⟦253⟧ = the Sioux name
+⟦254⟧ = the site
+⟦255⟧ = the southeastern edge
+⟦256⟧ = the southern bank
+⟦257⟧ = the station
+⟦258⟧ = the station site
+⟦259⟧ = the term
+⟦260⟧ = the then bone works
+⟦261⟧ = the tidal River Mersey
+⟦262⟧ = The town
+⟦263⟧ = the towns
+⟦264⟧ = the United Kingdom
+⟦265⟧ = the United States
+⟦266⟧ = the watershed
+⟦267⟧ = the west
+⟦268⟧ = the West Branch Lac qui Parle River
+⟦269⟧ = the Widnes-Runcorn Transporter Bridge
+⟦270⟧ = these only Moss Lane
+⟦271⟧ = thirds
+⟦272⟧ = this one
+⟦273⟧ = three grades
+⟦274⟧ = three traffic lanes
+⟦275⟧ = Thurston County
+⟦276⟧ = toll
+⟦277⟧ = town
+⟦278⟧ = towns
+⟦279⟧ = traders
+⟦280⟧ = traffic
+⟦281⟧ = translation
+⟦282⟧ = transport
+⟦283⟧ = tributaries
+⟦284⟧ = tributary
+⟦285⟧ = Tumwater
+⟦286⟧ = United States
+⟦287⟧ = Upstream
+⟦288⟧ = Via
+⟦289⟧ = Warrington
+⟦290⟧ = Washington
+⟦291⟧ = waterfall
+⟦292⟧ = watershed
+⟦293⟧ = website
+⟦294⟧ = west
+⟦295⟧ = West Burton power station
+⟦296⟧ = Widnes
+⟦297⟧ = Widnes Bridge
+⟦298⟧ = work
+⟦299⟧ = works
+⟦300⟧ = yards
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Silver Jubilee Bridge] ⟦252⟧⟨1⟩⟦173⟧⟨2⟩⟦174⟧⟨3⟩⟦246⟧⟨4⟩⟦229⟧⟨5⟩⟦175⟧⟨6⟩⟦173⟧⟨7⟩⟦296⟧⟨8⟩⟦102⟧⟨9⟩⟦89⟧⟨10⟩
+[Silver Jubilee Bridge] ⟨11⟩⟦41⟧⟨12⟩⟦50⟧⟨13⟩⟦25⟧⟨14⟩⟦184⟧⟨15⟩⟦13⟧⟨16⟩⟦300⟧⟨17⟩
+[Silver Jubilee Bridge] ⟨18⟩⟦30⟧⟨19⟩⟦168⟧⟨20⟩⟦269⟧⟨21⟩⟦247⟧⟨22⟩⟦173⟧⟨23⟩⟦297⟧⟨24⟩
+[Silver Jubilee Bridge] ⟨25⟩⟦10⟧⟨26⟩⟦10⟧⟨27⟩⟦110⟧⟨28⟩⟦138⟧⟨29⟩⟦105⟧⟨30⟩⟦105⟧⟨31⟩⟦243⟧⟨32⟩
+[Silver Jubilee Bridge] ⟨33⟩⟦197⟧⟨34⟩⟦172⟧⟨35⟩⟦19⟧⟨36⟩⟦93⟧⟨37⟩
+[Silver Jubilee Bridge] ⟦206⟧⟨38⟩⟦50⟧⟨39⟩⟦236⟧⟨40⟩⟦89⟧⟨41⟩⟦22⟧⟨42⟩⟦52⟧⟨43⟩
+[River Mersey] ⟦246⟧⟨44⟩⟦31⟧⟨45⟩⟦170⟧⟨46⟩⟦240⟧⟨47⟩⟦89⟧⟨48⟩
+[River Mersey] ⟦109⟧⟨49⟩⟦138⟧⟨50⟩⟦199⟧⟨51⟩⟦119⟧⟨52⟩⟦48⟧⟨53⟩⟦49⟧⟨54⟩⟦170⟧⟨55⟩
+[River Mersey] ⟦245⟧⟨56⟩⟦170⟧⟨57⟩⟦203⟧⟨58⟩⟦47⟧⟨59⟩⟦198⟧⟨60⟩⟦113⟧⟨61⟩⟦129⟧⟨62⟩⟦146⟧⟨63⟩⟦58⟧⟨64⟩⟦58⟧⟨65⟩⟦155⟧⟨66⟩⟦155⟧⟨67⟩⟦205⟧⟨68⟩⟦48⟧⟨69⟩⟦223⟧⟨70⟩⟦69⟧⟨71⟩⟦117⟧⟨72⟩⟦62⟧⟨73⟩
+[Deschutes River (Washington)] ⟦213⟧⟨74⟩⟦16⟧⟨75⟩⟦130⟧⟨76⟩⟦170⟧⟨77⟩⟦290⟧⟨78⟩⟦286⟧⟨79⟩
+[Deschutes River (Washington)] ⟨80⟩⟦111⟧⟨81⟩⟦182⟧⟨82⟩⟦221⟧⟨83⟩⟦120⟧⟨84⟩⟦87⟧⟨85⟩⟦51⟧⟨86⟩⟦163⟧⟨87⟩⟦148⟧⟨88⟩⟦275⟧⟨89⟩
+[Deschutes River (Washington)] ⟨90⟩⟦109⟧⟨91⟩⟦138⟧⟨92⟩⟦94⟧⟨93⟩⟦95⟧⟨94⟩⟦279⟧⟨95⟩⟦171⟧⟨96⟩⟦3⟧⟨97⟩⟦218⟧⟨98⟩⟦33⟧⟨99⟩⟦281⟧⟨100⟩⟦219⟧⟨101⟩⟦138⟧⟨102⟩⟦254⟧⟨103⟩⟦180⟧⟨104⟩
+[Deschutes River (Washington)] ⟨105⟩⟦209⟧⟨106⟩⟦64⟧⟨107⟩⟦285⟧⟨108⟩⟦249⟧⟨109⟩⟦124⟧⟨110⟩⟦109⟧⟨111⟩⟦138⟧⟨112⟩⟦40⟧⟨113⟩⟦281⟧⟨114⟩⟦291⟧⟨115⟩⟦272⟧⟨116⟩⟦149⟧⟨117⟩⟦63⟧⟨118⟩
+[Catalyst Science Discovery Centre] ⟦207⟧⟨119⟩⟦235⟧⟨120⟩⟦208⟧⟨121⟩⟦32⟧⟨122⟩⟦178⟧⟨123⟩⟦57⟧⟨124⟩⟦136⟧⟨125⟩⟦136⟧⟨126⟩⟦61⟧⟨127⟩⟦61⟧⟨128⟩⟦224⟧⟨129⟩⟦104⟧⟨130⟩⟦208⟧⟨131⟩⟦60⟧⟨132⟩⟦106⟧⟨133⟩
+[Catalyst Science Discovery Centre] ⟨134⟩⟦187⟧⟨135⟩⟦296⟧⟨136⟩⟦62⟧⟨137⟩⟦246⟧⟨138⟩
+[Catalyst Science Discovery Centre] ⟦235⟧⟨139⟩⟦136⟧⟨140⟩⟦200⟧⟨141⟩
+[Fiddlers Ferry power station] ⟦92⟧⟨142⟩⟦20⟧⟨143⟩⟦66⟧⟨144⟩⟦161⟧⟨145⟩⟦191⟧⟨146⟩⟦289⟧⟨147⟩⟦62⟧⟨148⟩⟦144⟧⟨149⟩⟦65⟧⟨150⟩⟦45⟧⟨151⟩
+[Fiddlers Ferry power station] ⟨152⟩⟦239⟧⟨153⟩⟦246⟧⟨154⟩⟦263⟧⟨155⟩⟦278⟧⟨156⟩⟦296⟧⟨157⟩⟦289⟧⟨158⟩
+[Fiddlers Ferry power station] ⟨159⟩⟦257⟧⟨160⟩⟦191⟧⟨161⟩⟦23⟧⟨162⟩⟦97⟧⟨163⟩⟦54⟧⟨164⟩⟦6⟧⟨165⟩⟦128⟧⟨166⟩⟦137⟧⟨167⟩
+[Fiddlers Ferry power station] ⟨168⟩⟦17⟧⟨169⟩⟦44⟧⟨170⟩⟦85⟧⟨171⟩⟦85⟧⟨172⟩⟦78⟧⟨173⟩⟦67⟧⟨174⟩⟦202⟧⟨175⟩⟦98⟧⟨176⟩⟦157⟧⟨177⟩⟦295⟧⟨178⟩⟦161⟧⟨179⟩⟦191⟧⟨180⟩⟦169⟧⟨181⟩⟦96⟧⟨182⟩⟦143⟧⟨183⟩
+[Mersey Gateway] ⟦230⟧⟨184⟩⟦28⟧⟨185⟩⟦160⟧⟨186⟩⟦282⟧⟨187⟩⟦177⟧⟨188⟩⟦173⟧⟨189⟩⟦296⟧⟨190⟩⟦62⟧⟨191⟩⟦89⟧⟨192⟩
+[Mersey Gateway] ⟦228⟧⟨193⟩⟦155⟧⟨194⟩⟦242⟧⟨195⟩⟦162⟧⟨196⟩⟦210⟧⟨197⟩⟦67⟧⟨198⟩⟦195⟧⟨199⟩⟦276⟧⟨200⟩⟦50⟧⟨201⟩⟦246⟧⟨202⟩⟦229⟧⟨203⟩
+[Mersey Gateway] ⟦212⟧⟨204⟩⟦71⟧⟨205⟩⟦274⟧⟨206⟩⟦280⟧⟨207⟩⟦118⟧⟨208⟩⟦81⟧⟨209⟩⟦79⟧⟨210⟩⟦114⟧⟨211⟩⟦214⟧⟨212⟩⟦82⟧⟨213⟩⟦217⟧⟨214⟩
+[Mersey Gateway] ⟨215⟩⟦237⟧⟨216⟩⟦50⟧⟨217⟩⟦242⟧⟨218⟩⟦162⟧⟨219⟩⟦125⟧⟨220⟩⟦88⟧⟨221⟩⟦298⟧⟨222⟩⟦216⟧⟨223⟩⟦172⟧⟨224⟩⟦139⟧⟨225⟩⟦140⟧⟨226⟩⟦107⟧⟨227⟩⟦15⟧⟨228⟩⟦114⟧⟨229⟩⟦103⟧⟨230⟩⟦103⟧⟨231⟩
+[Runcorn] ⟦173⟧⟨232⟩⟦173⟧⟨233⟩⟦39⟧⟨234⟩⟦277⟧⟨235⟩⟦55⟧⟨236⟩⟦159⟧⟨237⟩⟦62⟧⟨238⟩⟦89⟧⟨239⟩⟦204⟧⟨240⟩⟦102⟧⟨241⟩
+[Runcorn] ⟨242⟩⟦176⟧⟨243⟩⟦158⟧⟨244⟩
+[Runcorn] ⟦262⟧⟨245⟩⟦277⟧⟨246⟩⟦256⟧⟨247⟩⟦246⟧⟨248⟩⟦248⟧⟨249⟩
+[Runcorn] ⟨250⟩⟦238⟧⟨251⟩⟦142⟧⟨252⟩⟦246⟧⟨253⟩⟦262⟧⟨254⟩⟦277⟧⟨255⟩⟦296⟧⟨256⟩
+[Runcorn] ⟦287⟧⟨257⟩⟦14⟧⟨258⟩⟦130⟧⟨259⟩⟦241⟧⟨260⟩⟦145⟧⟨261⟩⟦262⟧⟨262⟩⟦277⟧⟨263⟩⟦289⟧⟨264⟩⟦8⟧⟨265⟩⟦130⟧⟨266⟩⟦267⟧⟨267⟩⟦294⟧⟨268⟩⟦209⟧⟨269⟩⟦64⟧⟨270⟩⟦122⟧⟨271⟩
+[Listed buildings in Widnes] ⟦296⟧⟨272⟩⟦296⟧⟨273⟩⟦38⟧⟨274⟩⟦277⟧⟨275⟩⟦204⟧⟨276⟩⟦102⟧⟨277⟩⟦62⟧⟨278⟩⟦89⟧⟨279⟩⟦239⟧⟨280⟩⟦246⟧⟨281⟩⟦175⟧⟨282⟩
+[Listed buildings in Widnes] ⟦262⟧⟨283⟩⟦277⟧⟨284⟩⟦11⟧⟨285⟩⟦53⟧⟨286⟩⟦236⟧⟨287⟩⟦89⟧⟨288⟩⟦121⟧⟨289⟩⟦53⟧⟨290⟩⟦99⟧⟨291⟩⟦99⟧⟨292⟩⟦296⟧⟨293⟩⟦141⟧⟨294⟩⟦53⟧⟨295⟩⟦53⟧⟨296⟩
+[Listed buildings in Widnes] ⟨297⟩⟦264⟧⟨298⟩⟦259⟧⟨299⟩⟦194⟧⟨300⟩⟦2⟧⟨301⟩⟦52⟧⟨302⟩⟦18⟧⟨303⟩⟦52⟧⟨304⟩⟦153⟧⟨305⟩⟦193⟧⟨306⟩⟦186⟧⟨307⟩⟦179⟧⟨308⟩
+[Listed buildings in Widnes] ⟦121⟧⟨309⟩⟦53⟧⟨310⟩⟦273⟧⟨311⟩⟦100⟧⟨312⟩⟦53⟧⟨313⟩⟦53⟧⟨314⟩⟦154⟧⟨315⟩⟦108⟧⟨316⟩⟦99⟧⟨317⟩⟦156⟧⟨318⟩⟦53⟧⟨319⟩⟦123⟧⟨320⟩⟦108⟧⟨321⟩⟦99⟧⟨322⟩⟦53⟧⟨323⟩⟦53⟧⟨324⟩⟦185⟧⟨325⟩⟦108⟧⟨326⟩
+[Listed buildings in Widnes] ⟦53⟧⟨327⟩⟦53⟧⟨328⟩⟦89⟧⟨329⟩⟦251⟧⟨330⟩⟦190⟧⟨331⟩⟦74⟧⟨332⟩⟦127⟧⟨333⟩⟦188⟧⟨334⟩⟦166⟧⟨335⟩⟦166⟧⟨336⟩⟦90⟧⟨337⟩⟦222⟧⟨338⟩⟦101⟧⟨339⟩
+[Lac qui Parle River] ⟦225⟧⟨340⟩⟦164⟧⟨341⟩⟦34⟧⟨342⟩⟦284⟧⟨343⟩⟦231⟧⟨344⟩⟦132⟧⟨345⟩⟦9⟧⟨346⟩⟦114⟧⟨347⟩⟦183⟧⟨348⟩⟦265⟧⟨349⟩
+[Lac qui Parle River] ⟦29⟧⟨350⟩⟦147⟧⟨351⟩⟦283⟧⟨352⟩⟦283⟧⟨353⟩⟦245⟧⟨354⟩⟦170⟧⟨355⟩⟦268⟧⟨356⟩⟦83⟧⟨357⟩
+[Lac qui Parle River] ⟦288⟧⟨358⟩⟦231⟧⟨359⟩⟦225⟧⟨360⟩⟦155⟧⟨361⟩⟦155⟧⟨362⟩⟦266⟧⟨363⟩⟦292⟧⟨364⟩⟦232⟧⟨365⟩⟦36⟧⟨366⟩⟦42⟧⟨367⟩⟦5⟧⟨368⟩⟦189⟧⟨369⟩⟦35⟧⟨370⟩⟦167⟧⟨371⟩
+[Lac qui Parle River] ⟦181⟧⟨372⟩⟦271⟧⟨373⟩⟦226⟧⟨374⟩⟦292⟧⟨375⟩⟦133⟧⟨376⟩
+[Lac qui Parle River] ⟦1⟧⟨377⟩⟦227⟧⟨378⟩⟦116⟧⟨379⟩⟦220⟧⟨380⟩⟦119⟧⟨381⟩⟦33⟧⟨382⟩⟦281⟧⟨383⟩⟦253⟧⟨384⟩⟦138⟧⟨385⟩⟦115⟧⟨386⟩⟦24⟧⟨387⟩⟦116⟧⟨388⟩⟦231⟧⟨389⟩⟦234⟧⟨390⟩⟦135⟧⟨391⟩⟦225⟧⟨392⟩
+[Cuerdley railway station] ⟦150⟧⟨393⟩⟦182⟧⟨394⟩⟦72⟧⟨395⟩⟦165⟧⟨396⟩⟦191⟧⟨397⟩⟦255⟧⟨398⟩⟦84⟧⟨399⟩⟦296⟧⟨400⟩⟦89⟧⟨401⟩⟦260⟧⟨402⟩⟦46⟧⟨403⟩⟦299⟧⟨404⟩⟦196⟧⟨405⟩⟦211⟧⟨406⟩⟦68⟧⟨407⟩⟦134⟧⟨408⟩⟦244⟧⟨409⟩⟦165⟧⟨410⟩⟦250⟧⟨411⟩⟦21⟧⟨412⟩⟦70⟧⟨413⟩⟦239⟧⟨414⟩⟦261⟧⟨415⟩
+[Cuerdley railway station] ⟨416⟩⟦270⟧⟨417⟩⟦27⟧⟨418⟩⟦152⟧⟨419⟩
+[Cuerdley railway station] ⟦201⟧⟨420⟩⟦192⟧⟨421⟩⟦293⟧⟨422⟩⟦37⟧⟨423⟩⟦43⟧⟨424⟩⟦73⟧⟨425⟩⟦191⟧⟨426⟩⟦26⟧⟨427⟩⟦126⟧⟨428⟩⟦73⟧⟨429⟩⟦191⟧⟨430⟩⟦80⟧⟨431⟩
+[Cuerdley railway station] ⟨432⟩⟦86⟧⟨433⟩⟦76⟧⟨434⟩⟦73⟧⟨435⟩⟦191⟧⟨436⟩⟦4⟧⟨437⟩⟦131⟧⟨438⟩⟦7⟧⟨439⟩⟦59⟧⟨440⟩⟦91⟧⟨441⟩⟦191⟧⟨442⟩⟦131⟧⟨443⟩⟦12⟧⟨444⟩⟦59⟧⟨445⟩⟦56⟧⟨446⟩
+[Cuerdley railway station] ⟨447⟩⟦215⟧⟨448⟩⟦75⟧⟨449⟩⟦258⟧⟨450⟩⟦191⟧⟨451⟩⟦180⟧⟨452⟩⟦151⟧⟨453⟩⟦59⟧⟨454⟩⟦233⟧⟨455⟩⟦77⟧⟨456⟩⟦112⟧⟨457⟩⟦92⟧⟨458⟩⟦191⟧⟨459⟩
+
+[user]
+
+问题：
+What is the translation of the name of the river on which Widnes is located ?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

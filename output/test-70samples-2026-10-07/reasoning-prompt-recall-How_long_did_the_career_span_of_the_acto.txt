@@ -1,0 +1,158 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Bob Hope] ⟨101⟩⟦130⟧⟦76⟧⟨102⟩⟨103⟩⟦17⟧⟨104⟩⟨105⟩⟦1⟧⟦160⟧⟨107⟩⟦133⟧⟨106⟩⟨108⟩
+[Bob Hope] ⟦234⟧⟦181⟧⟨127⟩⟨128⟩⟦193⟧⟦193⟧⟨129⟩⟨130⟩⟦218⟧⟦123⟧⟨131⟩⟨132⟩⟦90⟧⟦176⟧⟨134⟩⟦249⟧⟨133⟩⟨135⟩
+[The Atomic Kid] ⟦199⟧⟨198⟩⟦6⟧⟦168⟧⟨200⟩⟦74⟧⟨201⟩⟨202⟩⟨199⟩⟨203⟩⟦154⟧⟨204⟩⟦119⟧⟨205⟩⟨206⟩⟦110⟧⟨207⟩⟨208⟩⟦161⟧⟨209⟩
+[Off Limits (1953 film)] ⟨240⟩⟦12⟧⟦115⟧⟨241⟩⟨242⟩⟦198⟧⟦36⟧⟨243⟩⟨244⟩⟦33⟧⟦72⟧⟨245⟩⟨246⟩⟦86⟧⟦44⟧⟨247⟩⟨248⟩
+[Off Limits (1953 film)] ⟦93⟧ | ⟦226⟧⟦143⟧⟨249⟩⟨250⟩⟦81⟧⟨251⟩⟦99⟧⟨252⟩⟦236⟧⟨253⟩⟦128⟧⟨254⟩⟦205⟧⟦53⟧⟨255⟩⟨256⟩⟦93⟧⟨257⟩⟦165⟧⟨258⟩⟦220⟧⟦145⟧⟨259⟩⟨260⟩ | ⟦93⟧
+[The Extraordinary Seaman] ⟦57⟧ | ⟦211⟧⟨261⟩⟦7⟧⟦57⟧⟨263⟩⟦255⟧⟨264⟩⟨262⟩⟨265⟩⟦102⟧⟨266⟩⟦62⟧⟨267⟩⟦73⟧⟨268⟩⟦28⟧⟨269⟩⟨270⟩⟦98⟧⟨271⟩
+[The Extraordinary Seaman] ⟦75⟧ | ⟦75⟧
+[The Adventures of the Black Stallion] ⟦171⟧
+[The Adventures of the Black Stallion] ⟦125⟧⟦125⟧ | ⟦125⟧
+
+符号表：
+⟦1⟧ = "Road" movies
+⟦6⟧ = a 1954 American black-and-white science fiction comedy film
+⟦7⟧ = a 1969 American comedy war film
+⟦12⟧ = a manager
+⟦17⟧ = a series
+⟦28⟧ = Alan Alda
+⟦33⟧ = an eye
+⟦36⟧ = army
+⟦44⟧ = boxer
+⟦53⟧ = characters
+⟦57⟧ = comedy
+⟦62⟧ = David Niven
+⟦72⟧ = eye
+⟦73⟧ = Faye Dunaway
+⟦74⟧ = fiction
+⟦75⟧ = film
+⟦76⟧ = films
+⟦81⟧ = Hal Kanter
+⟦86⟧ = his boxer
+⟦90⟧ = his signature tune
+⟦93⟧ = Hope
+⟦98⟧ = Jack Carter
+⟦99⟧ = Jack Sher
+⟦102⟧ = John Frankenheimer
+⟦110⟧ = Leslie H. Martinson
+⟦115⟧ = manager
+⟦119⟧ = Maurice Duke
+⟦123⟧ = Memory
+⟦125⟧ = Mickey Rooney
+⟦128⟧ = Military Policemen
+⟦130⟧ = more than 70 short and feature films
+⟦133⟧ = movies
+⟦143⟧ = picture
+⟦145⟧ = police
+⟦154⟧ = Republic Pictures
+⟦160⟧ = Road
+⟦161⟧ = Robert Strauss
+⟦165⟧ = Rooney
+⟦168⟧ = science
+⟦171⟧ = series
+⟦176⟧ = signature
+⟦181⟧ = song
+⟦193⟧ = Thanks
+⟦198⟧ = the army
+⟦199⟧ = The Atomic Kid
+⟦205⟧ = the characters
+⟦211⟧ = The Extraordinary Seaman
+⟦218⟧ = the Memory
+⟦220⟧ = the military police
+⟦226⟧ = The picture
+⟦234⟧ = The song
+⟦236⟧ = the UK
+⟦249⟧ = tune
+⟦255⟧ = war
+
+占位符映射：
+⟨101⟩ =  appeared in 
+⟨102⟩ = 
+⟨103⟩ = , including 
+⟨104⟩ = 
+⟨105⟩ =  of 
+⟨106⟩ = 
+⟨107⟩ = " 
+⟨108⟩ = .
+⟨127⟩ = 
+⟨128⟩ =  "
+⟨129⟩ = 
+⟨130⟩ =  for 
+⟨131⟩ = 
+⟨132⟩ = " is widely regarded as 
+⟨133⟩ = 
+⟨134⟩ =  
+⟨135⟩ = .
+⟨198⟩ =  is 
+⟨199⟩ = 
+⟨200⟩ =  
+⟨201⟩ =  
+⟨202⟩ =  
+⟨203⟩ =  from 
+⟨204⟩ = , produced by 
+⟨205⟩ =  and 
+⟨206⟩ = , directed by 
+⟨207⟩ = , that stars 
+⟨208⟩ =  and 
+⟨209⟩ = .
+⟨240⟩ =  plays 
+⟨241⟩ = 
+⟨242⟩ =  who enlists in 
+⟨243⟩ = 
+⟨244⟩ =  to keep 
+⟨245⟩ = 
+⟨246⟩ =  on 
+⟨247⟩ = 
+⟨248⟩ = , who has been drafted.
+⟨249⟩ = 
+⟨250⟩ =  was written by 
+⟨251⟩ =  and 
+⟨252⟩ = , and was released in 
+⟨253⟩ =  as 
+⟨254⟩ = , as 
+⟨255⟩ = 
+⟨256⟩ =  played by 
+⟨257⟩ =  and 
+⟨258⟩ =  join 
+⟨259⟩ = 
+⟨260⟩ = .
+⟨261⟩ =  is 
+⟨262⟩ = 
+⟨263⟩ =  
+⟨264⟩ =  
+⟨265⟩ =  directed by 
+⟨266⟩ =  and starring 
+⟨267⟩ = , 
+⟨268⟩ = , 
+⟨269⟩ = , 
+⟨270⟩ = , and 
+⟨271⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+How long did the career span of the actor who starred with Mickey Rooney and Marilyn Maxwell in Off Limits?

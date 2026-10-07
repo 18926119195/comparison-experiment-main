@@ -1,0 +1,75 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Edwin Thomas Smith] ⟦84⟧⟨7⟩⟦41⟧⟨8⟩⟦20⟧⟨9⟩⟨10⟩⟦31⟧⟦31⟧⟨11⟩⟨12⟩⟦37⟧⟨13⟩⟦68⟧⟦68⟧⟨14⟩⟨15⟩⟦74⟧⟦74⟧⟨16⟩⟨17⟩⟦24⟧⟦24⟧⟨18⟩⟨19⟩
+[South Australian Brewing Company] ⟨33⟩⟦62⟧⟨34⟩⟦92⟧⟦13⟧⟨35⟩⟨36⟩⟦83⟧⟨37⟩⟦114⟧⟨39⟩⟨38⟩
+[West End Draught] ⟦107⟧
+[West End Draught] ⟦47⟧
+[Copper Coast Wines] ⟦29⟧
+
+符号表：
+⟦13⟧ = amalgamation
+⟦20⟧ = an English-born South Australian brewer
+⟦24⟧ = benefactor
+⟦29⟧ = brewer
+⟦31⟧ = businessman
+⟦37⟧ = councillor
+⟦41⟧ = December
+⟦47⟧ = End
+⟦62⟧ = Limited
+⟦68⟧ = mayor
+⟦74⟧ = politician
+⟦83⟧ = Sir Edwin Smith's Kent Town Brewery
+⟦84⟧ = Sir Edwin Thomas Smith
+⟦92⟧ = the amalgamation
+⟦107⟧ = The South Australian Brewing Company
+⟦114⟧ = W. K. Simms's West End Brewery
+
+占位符映射：
+⟨7⟩ =  {'1': ", '2': ", '3': ", '4': "} (6 April 1830 – 25 
+⟨8⟩ =  1919) was 
+⟨9⟩ = 
+⟨10⟩ = , 
+⟨11⟩ = 
+⟨12⟩ = , 
+⟨13⟩ = , 
+⟨14⟩ = 
+⟨15⟩ = , 
+⟨16⟩ = 
+⟨17⟩ =  and 
+⟨18⟩ = 
+⟨19⟩ = .
+⟨33⟩ = , 
+⟨34⟩ = , was established in 1888 by 
+⟨35⟩ = 
+⟨36⟩ =  of 
+⟨37⟩ =  and 
+⟨38⟩ = 
+⟨39⟩ =  Brewery.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+When was the English-born South Australian brewer whose brewery was amalgamated with W. K. Simms's West End Brewery. born 

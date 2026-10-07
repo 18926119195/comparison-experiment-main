@@ -1,0 +1,36 @@
+[
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "predictedAnswer": "# 路径一：交叉匹配墨西哥女演员与 La Heredera\n\n步骤1：使用⟦102⟧⟦193⟧⟦20⟧，提取 La Heredera（The Heiress）是一部 Mexican telenovela。  \n步骤2：综合⟦204⟧⟦167⟧⟦38⟧⟦36⟧，该 series 后来被 developed into an American telenovela，标题为 American Heiress，说明材料中的 La Heredera 是电视剧项目。  \n步骤3：使用⟦127⟧⟦19⟧⟦32⟧，Marlene Favela 被标注为 Mexico 的 a Mexican actress / actress；在给定拓扑链中，她是唯一明确匹配“墨西哥女演员”且与 La Heredera 同组出现的演员。  \n结论：Marlene Favela 是 La Heredera 的女主角。\n\n# 路径二：排除其他候选人\n\n步骤1：使用⟦42⟧⟦202⟧⟦149⟧⟦6⟧⟦10⟧，Angélica Vale 是 La Fea Más Bella（The Prettiest Ugly Girl）的 protagonist，而非 La Heredera 的主角。  \n步骤2：使用⟦37⟧，Rita Macedo 仅被标为 an actress，材料未显示其为墨西哥女演员或与 La Heredera 主角关联。  \n步骤3：使用⟦128⟧⟦223⟧，Gabriel Porras 关联 Mexico City 和 TV Azteca，但并非女演员。  \n步骤4：综合⟦19⟧⟦32⟧，Marlene Favela 是墨西哥女演员，排除其他候选人后唯一符合。  \n结论：Marlene Favela。\n\n# 路径三：利用 TV Azteca 与电视演员线索\n\n步骤1：使用⟦223⟧，TV Azteca 与 Gabriel Porras 关联；结合⟦102⟧⟦20⟧，La Heredera 是墨西哥 telenovela，而 TV Azteca 是墨西哥电视网。  \n步骤2：综合⟦127⟧⟦19⟧⟦32⟧，Marlene Favela 是墨西哥女演员，且与 Gabriel Porras 同属 La Heredera 拓扑链。  \n步骤3：使用⟦222⟧，Marlene Favela 与 TV 相关，进一步支持她是电视 telenovela 的演员。  \n结论：Marlene Favela 是 La Heredera 的女主角。\n\n**最终答案：Marlene Favela**",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩⟨G⟩⟦173⟧⟦128⟧",
+    "nounCount": 318,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 5717,
+      "completion_tokens": 207,
+      "total_tokens": 5924,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5717
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 936,
+      "completion_tokens": 9926,
+      "total_tokens": 10862,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 9366
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 936
+    }
+  }
+]

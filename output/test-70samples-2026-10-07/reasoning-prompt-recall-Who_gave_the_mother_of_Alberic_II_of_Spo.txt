@@ -1,0 +1,90 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Alberic II of Spoleto] ⟨1⟩⟦6⟧⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦45⟧⟦68⟧⟨6⟩⟨7⟩⟨8⟩⟦48⟧⟦97⟧⟨9⟩⟨10⟩⟦54⟧⟨11⟩⟨12⟩
+[Pope Leo VII] ⟦90⟧⟦90⟧
+[Gregory I, Count of Tusculum] ⟦52⟧
+[Marozia] ⟦63⟧ | ⟦63⟧⟨90⟩⟦60⟧⟨91⟩⟦62⟧⟨92⟩⟦61⟧⟨93⟩⟦11⟧⟦69⟧⟨94⟩⟨95⟩⟦98⟧⟦66⟧⟨96⟩⟨97⟩⟦81⟧⟨98⟩⟦110⟧⟦112⟧⟨100⟩⟦92⟧⟨99⟩⟨101⟩⟦91⟧⟨102⟩⟨103⟩⟦77⟧
+[Pope Agapetus II] ⟦89⟧ | ⟦89⟧
+[Renaud I, Count of Dammartin] ⟦17⟧
+
+符号表：
+⟦6⟧ = 912–954
+⟦11⟧ = a Roman noblewoman
+⟦17⟧ = Alberic II
+⟦45⟧ = his mother
+⟦48⟧ = his stepfather
+⟦52⟧ = Italy
+⟦54⟧ = King Hugh
+⟦60⟧ = Maria
+⟦61⟧ = Mariozza
+⟦62⟧ = Mariuccia
+⟦63⟧ = Marozia
+⟦66⟧ = mistress
+⟦68⟧ = mother
+⟦69⟧ = noblewoman
+⟦77⟧ = Pope John X.
+⟦81⟧ = Pope Sergius III
+⟦89⟧ = Rome
+⟦90⟧ = ruler
+⟦91⟧ = senatoress
+⟦92⟧ = senatrix
+⟦97⟧ = stepfather
+⟦98⟧ = the alleged mistress
+⟦110⟧ = the unprecedented titles "senatrix
+⟦112⟧ = titles
+
+占位符映射：
+⟨1⟩ =  (
+⟨2⟩ = ) was 
+⟨3⟩ = 
+⟨4⟩ =  of 
+⟨5⟩ =  from 932 to 954, after deposing 
+⟨6⟩ = 
+⟨7⟩ =  
+⟨8⟩ =  and 
+⟨9⟩ = 
+⟨10⟩ = , 
+⟨11⟩ =  of 
+⟨12⟩ = .
+⟨90⟩ = , born 
+⟨91⟩ =  and also known as 
+⟨92⟩ =  or 
+⟨93⟩ =  ( 890 – 937), was 
+⟨94⟩ = 
+⟨95⟩ =  who was 
+⟨96⟩ = 
+⟨97⟩ =  of 
+⟨98⟩ =  and was given 
+⟨99⟩ = 
+⟨100⟩ =  "
+⟨101⟩ = " ("
+⟨102⟩ = ") and "patricia" of 
+⟨103⟩ =  by 
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who gave the mother of Alberic II of Spoleto the title "patricia" of Rome?

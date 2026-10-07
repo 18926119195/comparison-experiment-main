@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_3015",
+  "question": "Who directed the film where Susanne Pollatschek voiced Olivia Flaversham?",
+  "expectedAnswer": "Burny Mattinson, David Michener, and the team of John Musker and Ron Clements",
+  "predictedAnswer": "# 路径一：从配音角色反向追溯导演\n\n步骤1：使用⟦209⟧，提取 Susanne Pollatschek 的身份信息——她是苏格兰出生的格拉斯哥女演员，曾为 Olivia Flaversham 配音。\n\n步骤2：综合⟦164⟧⟦217⟧，确认 Olivia Flaversham 是 1986 年迪士尼动画电影中的角色，该片即《The Great Mouse Detective》。\n\n步骤3：综合⟦211⟧⟦212⟧⟦213⟧⟦214⟧⟦215⟧⟦216⟧，提取该片的导演信息——影片由 Burny Mattinson、David Michener、John Musker 和 Ron Clements 共同执导。\n\n结论：Susanne Pollatschek 为 Olivia Flaversham 配音的电影是《The Great Mouse Detective》，其导演为 Burny Mattinson、David Michener、John Musker 和 Ron Clements。\n\n# 路径二：从电影条目直接提取导演\n\n步骤1：使用⟦232⟧，定位到《The Great Mouse Detective》这一电影条目。\n\n步骤2：综合⟦55⟧⟦75⟧⟦136⟧⟦190⟧，提取该片导演名单——Burny Mattinson、David Michener、John Musker、Ron Clements。\n\n步骤3：综合⟦209⟧⟦349⟧⟦350⟧，交叉验证 Susanne Pollatschek 确实为 Olivia Flaversham 配音，且该角色出自⟦217⟧所指的 1986 年迪士尼动画电影，即⟦232⟧。\n\n结论：该片导演为 Burny Mattinson、David Michener、John Musker 和 Ron Clements。\n\n# 路径三：通过配音演员与电影的关联链确认\n\n步骤1：使用⟦209⟧，提取 Susanne Pollatschek 的出生信息及配音经历。\n\n步骤2：综合⟦349⟧⟦350⟧⟦351⟧⟦352⟧⟦353⟧⟦354⟧，确认她为 Olivia Flaversham 配音时年仅八岁，且该角色出自⟦217⟧。\n\n步骤3：综合⟦4⟧⟦217⟧⟦232⟧，确认⟦217⟧即《The Great Mouse Detective》，与⟦232⟧为同一部电影。\n\n步骤4：综合⟦55⟧⟦75⟧⟦136⟧⟦190⟧，提取该片导演为 Burny Mattinson、David Michener、John Musker 和 Ron Clements。\n\n结论：Susanne Pollatschek 配音的电影由 Burny Mattinson、David Michener、John Musker 和 Ron Clements 执导。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦209⟧⟨347⟩⟦26⟧⟦30⟧⟨348⟩⟨349⟩⟦164⟧⟨350⟩⟦217⟧⟨351⟩⟨352⟩⟦4⟧",
+  "nounCount": 361,
+  "score": 0.5833333333333334,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6206,
+    "completion_tokens": 242,
+    "total_tokens": 6448,
+    "prompt_tokens_details": {
+      "cached_tokens": 6016
+    },
+    "prompt_cache_hit_tokens": 6016,
+    "prompt_cache_miss_tokens": 190
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 601,
+    "total_tokens": 1626,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1025
+  }
+}

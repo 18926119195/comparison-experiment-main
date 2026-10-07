@@ -1,0 +1,23 @@
+{
+  "batch_100": {
+    "file": "output/fulltext-baseline-noCoT-100-2026-10-07T11-27-29",
+    "n": 100,
+    "strict_em": 60,
+    "semantic_correct": 82,
+    "newly_accepted_by_semantic": 22
+  },
+  "batch_200": {
+    "file": "output/fulltext-baseline-noCoT-200-2026-10-07T11-44-23",
+    "n": 200,
+    "strict_em": 137,
+    "semantic_correct": 183,
+    "newly_accepted_by_semantic": 46
+  },
+  "combined_300": {
+    "n": 300,
+    "strict_em": 197,
+    "strict_em_pct": 65.67,
+    "semantic_correct": 265,
+    "semantic_pct": 88.33
+  }
+}

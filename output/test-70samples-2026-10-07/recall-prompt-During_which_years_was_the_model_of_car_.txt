@@ -1,0 +1,415 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "classic car
+⟦2⟧ = "Demons
+⟦3⟧ = "Italian Automobile Factory Legnano
+⟦4⟧ = "The Glorious Burden
+⟦5⟧ = "ʾAšmədʾāy
+⟦6⟧ = ("Fabbrica Italiana Automobili Legnano
+⟦7⟧ = (2842mm
+⟦8⟧ = (An "early model car
+⟦9⟧ = 1 o'clock
+⟦10⟧ = 1995's Sunn Amps
+⟦11⟧ = a "king
+⟦12⟧ = A "late model car
+⟦13⟧ = a "Sassy Grass Green
+⟦14⟧ = a car
+⟦15⟧ = a company
+⟦16⟧ = a concept show car
+⟦17⟧ = a corvette
+⟦18⟧ = a cover
+⟦19⟧ = a departure
+⟦20⟧ = a few Iced Earth albums
+⟦21⟧ = a five-seater, two-door roadster body
+⟦22⟧ = a four-cylinder engine
+⟦23⟧ = a more rock-oriented sound
+⟦24⟧ = a power metal band
+⟦25⟧ = a side-project
+⟦26⟧ = A six-cylinder model
+⟦27⟧ = a sports car
+⟦28⟧ = a style
+⟦29⟧ = a two-cylinder 1135 cc engine
+⟦30⟧ = a two-door car
+⟦31⟧ = a very minimalist style
+⟦32⟧ = album
+⟦33⟧ = albums
+⟦34⟧ = also a reference
+⟦35⟧ = American post-hardcore band Get Scared
+⟦36⟧ = an alternative take
+⟦37⟧ = an apparent reference
+⟦38⟧ = an automobile
+⟦39⟧ = an unmarked, late model sedan
+⟦40⟧ = angels
+⟦41⟧ = antagonist
+⟦42⟧ = artillery
+⟦43⟧ = Ashmedai
+⟦44⟧ = Asmodaios
+⟦45⟧ = Asmodeus
+⟦46⟧ = automobile
+⟦47⟧ = band
+⟦48⟧ = bankruptcy
+⟦49⟧ = Binsfeld's classification
+⟦50⟧ = biography
+⟦51⟧ = Blame
+⟦52⟧ = Blind Guardian
+⟦53⟧ = body
+⟦54⟧ = book
+⟦55⟧ = booklet
+⟦56⟧ = Bowling Green
+⟦57⟧ = brand
+⟦58⟧ = business
+⟦59⟧ = car
+⟦60⟧ = car production
+⟦61⟧ = car racing
+⟦62⟧ = cars
+⟦63⟧ = CD
+⟦64⟧ = Century Media
+⟦65⟧ = Century Media Records
+⟦66⟧ = Chevrolet
+⟦67⟧ = Chevy Corvette
+⟦68⟧ = Chrysler
+⟦69⟧ = classification
+⟦70⟧ = clock
+⟦71⟧ = comments
+⟦72⟧ = common use
+⟦73⟧ = company
+⟦74⟧ = compilation
+⟦75⟧ = compilation album
+⟦76⟧ = concept
+⟦77⟧ = construction
+⟦78⟧ = corvette
+⟦79⟧ = cover
+⟦80⟧ = cylinder
+⟦81⟧ = demon
+⟦82⟧ = demons
+⟦83⟧ = departure
+⟦84⟧ = desires
+⟦85⟧ = direct translation
+⟦86⟧ = display
+⟦87⟧ = doom
+⟦88⟧ = door
+⟦89⟧ = drone
+⟦90⟧ = drummer
+⟦91⟧ = Earth
+⟦92⟧ = effect
+⟦93⟧ = either angels
+⟦94⟧ = elements
+⟦95⟧ = engine
+⟦96⟧ = engines
+⟦97⟧ = Envy
+⟦98⟧ = Erik Ron
+⟦99⟧ = fact
+⟦100⟧ = favor
+⟦101⟧ = Fearless Records
+⟦102⟧ = Ferrario
+⟦103⟧ = fewer than fifty cars
+⟦104⟧ = Fial
+⟦105⟧ = Flint
+⟦106⟧ = generations
+⟦107⟧ = Gluttony
+⟦108⟧ = Greed
+⟦109⟧ = Greek
+⟦110⟧ = guitar
+⟦111⟧ = guitarist
+⟦112⟧ = hand
+⟦113⟧ = hands
+⟦114⟧ = Hansi Kürsch
+⟦115⟧ = Hebrew
+⟦116⟧ = Hell
+⟦117⟧ = his life
+⟦118⟧ = historical interest
+⟦119⟧ = hockey
+⟦120⟧ = hours
+⟦121⟧ = Iced Earth
+⟦122⟧ = inch
+⟦123⟧ = industrial and marine engines
+⟦124⟧ = instance
+⟦125⟧ = interest
+⟦126⟧ = its predecessor
+⟦127⟧ = January
+⟦128⟧ = Jewish and Islamic lore
+⟦129⟧ = Jim Morris
+⟦130⟧ = Jon Schaffer
+⟦131⟧ = Jon Schaffer's comments
+⟦132⟧ = Kentucky
+⟦133⟧ = king
+⟦134⟧ = Kürsch
+⟦135⟧ = label
+⟦136⟧ = legends
+⟦137⟧ = Legnano
+⟦138⟧ = Legnano Type A 6/8 HP
+⟦139⟧ = length
+⟦140⟧ = life
+⟦141⟧ = line
+⟦142⟧ = liquidation
+⟦143⟧ = logo
+⟦144⟧ = lore
+⟦145⟧ = Lust
+⟦146⟧ = lyrics
+⟦147⟧ = Mark Prator
+⟦148⟧ = Media
+⟦149⟧ = mention
+⟦150⟧ = metal
+⟦151⟧ = metalcore elements
+⟦152⟧ = Michigan
+⟦153⟧ = millions
+⟦154⟧ = minute
+⟦155⟧ = Mississippi
+⟦156⟧ = Missouri
+⟦157⟧ = mm
+⟦158⟧ = model
+⟦159⟧ = Morris
+⟦160⟧ = Museo Nazionale dell'Automobile
+⟦161⟧ = music
+⟦162⟧ = Myron Scott
+⟦163⟧ = no effect
+⟦164⟧ = no mention
+⟦165⟧ = no usual intermediate term
+⟦166⟧ = o'clock
+⟦167⟧ = October
+⟦168⟧ = officer
+⟦169⟧ = often the latest model
+⟦170⟧ = one car
+⟦171⟧ = options
+⟦172⟧ = other variations
+⟦173⟧ = Otis Friend
+⟦174⟧ = parent
+⟦175⟧ = parent company
+⟦176⟧ = past
+⟦177⟧ = Peace
+⟦178⟧ = Pentastar
+⟦179⟧ = people
+⟦180⟧ = people's sexual desires
+⟦181⟧ = Plymouth
+⟦182⟧ = Plymouth Barracuda
+⟦183⟧ = Pontiac
+⟦184⟧ = positive reviews
+⟦185⟧ = power
+⟦186⟧ = predecessor
+⟦187⟧ = previous albums
+⟦188⟧ = previous releases
+⟦189⟧ = price
+⟦190⟧ = Pride
+⟦191⟧ = princes
+⟦192⟧ = production
+⟦193⟧ = project
+⟦194⟧ = racing
+⟦195⟧ = record
+⟦196⟧ = recording
+⟦197⟧ = reference
+⟦198⟧ = release
+⟦199⟧ = releases
+⟦200⟧ = reviews
+⟦201⟧ = roadster
+⟦202⟧ = rock
+⟦203⟧ = Rosa
+⟦204⟧ = sales
+⟦205⟧ = Schaffer
+⟦206⟧ = seater
+⟦207⟧ = sedan
+⟦208⟧ = seven generations
+⟦209⟧ = Shame
+⟦210⟧ = Shedim/Jinn
+⟦211⟧ = show
+⟦212⟧ = side
+⟦213⟧ = sins
+⟦214⟧ = Sloth
+⟦215⟧ = small, maneuverable warship
+⟦216⟧ = Smashed Guitars
+⟦217⟧ = Solomon
+⟦218⟧ = solos
+⟦219⟧ = some Renaissance Christians
+⟦220⟧ = some Talmudic legends
+⟦221⟧ = song
+⟦222⟧ = sound
+⟦223⟧ = sports
+⟦224⟧ = SPV
+⟦225⟧ = St. Louis
+⟦226⟧ = stick
+⟦227⟧ = story
+⟦228⟧ = studio
+⟦229⟧ = style
+⟦230⟧ = take
+⟦231⟧ = term
+⟦232⟧ = that car
+⟦233⟧ = The "Pentastar
+⟦234⟧ = the 1964 to 1974 model years
+⟦235⟧ = The 6/8 model
+⟦236⟧ = The album
+⟦237⟧ = the album title
+⟦238⟧ = the American heavy metal band
+⟦239⟧ = the automobile business
+⟦240⟧ = the band
+⟦241⟧ = the band's 2009 EP "Cheap Tricks
+⟦242⟧ = The band's line-up
+⟦243⟧ = the biography
+⟦244⟧ = the book
+⟦245⟧ = The booklet
+⟦246⟧ = the brand logo
+⟦247⟧ = The car
+⟦248⟧ = the CD
+⟦249⟧ = The CD-booklet
+⟦250⟧ = The Chevrolet Corvette
+⟦251⟧ = the clock
+⟦252⟧ = the Commonwealth
+⟦253⟧ = the company
+⟦254⟧ = the construction
+⟦255⟧ = the Corvette
+⟦256⟧ = the cover
+⟦257⟧ = the cover show time
+⟦258⟧ = the Damned
+⟦259⟧ = The demon
+⟦260⟧ = the demons
+⟦261⟧ = the deuterocanonical Book
+⟦262⟧ = the drone doom band Earth
+⟦263⟧ = the drummer
+⟦264⟧ = the fact
+⟦265⟧ = the fifth CD
+⟦266⟧ = The first model
+⟦267⟧ = The Friend
+⟦268⟧ = the Friend Motors Corporation
+⟦269⟧ = The Glorious Burden
+⟦270⟧ = the GM Motorama
+⟦271⟧ = the guitar solos
+⟦272⟧ = the guitarist
+⟦273⟧ = the hand
+⟦274⟧ = The hands
+⟦275⟧ = the hours
+⟦276⟧ = the Jimi Hendrix song
+⟦277⟧ = the King
+⟦278⟧ = The Legnano
+⟦279⟧ = the lyrics
+⟦280⟧ = the minute hand
+⟦281⟧ = the music
+⟦282⟧ = the New York Automobile Show
+⟦283⟧ = the Nine Hells
+⟦284⟧ = The officer
+⟦285⟧ = the official sports car
+⟦286⟧ = the Olympian Motor Company
+⟦287⟧ = the only model
+⟦288⟧ = The original vinyl release
+⟦289⟧ = the past
+⟦290⟧ = The Plymouth Barracuda
+⟦291⟧ = the price
+⟦292⟧ = the primary antagonist
+⟦293⟧ = the recording
+⟦294⟧ = the seven deadly sins
+⟦295⟧ = the seven princes
+⟦296⟧ = the story
+⟦297⟧ = the Style
+⟦298⟧ = the Temple
+⟦299⟧ = The term
+⟦300⟧ = the third full-length studio album
+⟦301⟧ = the third studio album
+⟦302⟧ = the type
+⟦303⟧ = the Vette
+⟦304⟧ = Theatrics
+⟦305⟧ = their earlier drone doom work
+⟦306⟧ = their first album
+⟦307⟧ = their record label
+⟦308⟧ = these princes
+⟦309⟧ = this album
+⟦310⟧ = this compilation album
+⟦311⟧ = time
+⟦312⟧ = title
+⟦313⟧ = Tobias
+⟦314⟧ = Tobit
+⟦315⟧ = translation
+⟦316⟧ = Turin
+⟦317⟧ = turn
+⟦318⟧ = type
+⟦319⟧ = up
+⟦320⟧ = use
+⟦321⟧ = variations
+⟦322⟧ = vinyl
+⟦323⟧ = vocalist
+⟦324⟧ = warship
+⟦325⟧ = wheelbase
+⟦326⟧ = wheels
+⟦327⟧ = wire
+⟦328⟧ = Wizards
+⟦329⟧ = Wooden artillery and wire wheels
+⟦330⟧ = work
+⟦331⟧ = Wrath
+⟦332⟧ = years
+⟦333⟧ = Ασμοδαίος
+⟦334⟧ = אַשְמְדּאָי‎ ‎
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Chevrolet Corvette] ⟦250⟧⟨1⟩⟦303⟧⟨2⟩⟦67⟧⟨3⟩⟦27⟧⟨4⟩⟦223⟧⟨5⟩⟦59⟧⟨6⟩⟦66⟧⟨7⟩
+[Chevrolet Corvette] ⟦247⟧⟨8⟩⟦59⟧⟨9⟩⟦208⟧⟨10⟩⟦106⟧⟨11⟩
+[Chevrolet Corvette] ⟦266⟧⟨12⟩⟦158⟧⟨13⟩⟦270⟧⟨14⟩⟦16⟧⟨15⟩⟦76⟧⟨16⟩⟦211⟧⟨17⟩⟦59⟧⟨18⟩
+[Chevrolet Corvette] ⟦162⟧⟨19⟩⟦247⟧⟨20⟩⟦59⟧⟨21⟩⟦302⟧⟨22⟩⟦318⟧⟨23⟩⟦215⟧⟨24⟩⟦324⟧⟨25⟩⟦17⟧⟨26⟩⟦78⟧⟨27⟩
+[Chevrolet Corvette] ⟨28⟩⟦105⟧⟨29⟩⟦152⟧⟨30⟩⟦225⟧⟨31⟩⟦156⟧⟨32⟩⟦255⟧⟨33⟩⟦56⟧⟨34⟩⟦132⟧⟨35⟩⟦285⟧⟨36⟩⟦223⟧⟨37⟩⟦59⟧⟨38⟩⟦252⟧⟨39⟩⟦132⟧⟨40⟩
+[Asmodeus] ⟨41⟩⟦109⟧⟨42⟩⟦333⟧⟨43⟩⟦44⟧⟨44⟩⟦43⟧⟨45⟩⟦115⟧⟨46⟩⟦334⟧⟨47⟩⟦5⟧⟨48⟩⟦172⟧⟨49⟩⟦321⟧⟨50⟩⟦11⟧⟨51⟩⟦133⟧⟨52⟩⟦82⟧⟨53⟩⟦82⟧⟨54⟩⟦261⟧⟨55⟩⟦314⟧⟨56⟩⟦292⟧⟨57⟩⟦41⟧⟨58⟩
+[Asmodeus] ⟦259⟧⟨59⟩⟦81⟧⟨60⟩⟦220⟧⟨61⟩⟦136⟧⟨62⟩⟦124⟧⟨63⟩⟦124⟧⟨64⟩⟦296⟧⟨65⟩⟦227⟧⟨66⟩⟦254⟧⟨67⟩⟦77⟧⟨68⟩⟦298⟧⟨69⟩⟦217⟧⟨70⟩
+[Asmodeus] ⟨71⟩⟦219⟧⟨72⟩⟦277⟧⟨73⟩⟦283⟧⟨74⟩
+[Asmodeus] ⟦45⟧⟨75⟩⟦295⟧⟨76⟩⟦191⟧⟨77⟩⟦116⟧⟨78⟩
+[Asmodeus] ⟨79⟩⟦49⟧⟨80⟩⟦69⟧⟨81⟩⟦82⟧⟨82⟩⟦82⟧⟨83⟩⟦308⟧⟨84⟩⟦191⟧⟨85⟩⟦294⟧⟨86⟩⟦213⟧⟨87⟩⟦145⟧⟨88⟩⟦107⟧⟨89⟩⟦108⟧⟨90⟩⟦214⟧⟨91⟩⟦331⟧⟨92⟩⟦97⟧⟨93⟩⟦190⟧⟨94⟩
+[Asmodeus] ⟦45⟧⟨95⟩⟦259⟧⟨96⟩⟦81⟧⟨97⟩⟦145⟧⟨98⟩⟦145⟧⟨99⟩⟦179⟧⟨100⟩⟦180⟧⟨101⟩⟦84⟧⟨102⟩⟦244⟧⟨103⟩⟦54⟧⟨104⟩⟦313⟧⟨105⟩
+[Asmodeus] ⟨106⟩⟦91⟧⟨107⟩⟦153⟧⟨108⟩⟦153⟧⟨109⟩⟦332⟧⟨110⟩⟦332⟧⟨111⟩⟦116⟧⟨112⟩⟦116⟧⟨113⟩
+[Asmodeus] ⟨114⟩⟦128⟧⟨115⟩⟦144⟧⟨116⟩⟦277⟧⟨117⟩⟦133⟧⟨118⟩⟦260⟧⟨119⟩⟦82⟧⟨120⟩⟦210⟧⟨121⟩
+[The Blessed and the Damned] ⟨122⟩⟦258⟧⟨123⟩⟦63⟧⟨124⟩⟦74⟧⟨125⟩⟦75⟧⟨126⟩⟦32⟧⟨127⟩⟦238⟧⟨128⟩⟦150⟧⟨129⟩⟦47⟧⟨130⟩⟦121⟧⟨131⟩
+[The Blessed and the Damned] ⟦249⟧⟨132⟩⟦63⟧⟨133⟩⟦55⟧⟨134⟩⟦93⟧⟨135⟩⟦40⟧⟨136⟩⟦82⟧⟨137⟩⟦82⟧⟨138⟩⟦256⟧⟨139⟩⟦79⟧⟨140⟩
+[The Blessed and the Damned] ⟦245⟧⟨141⟩⟦55⟧⟨142⟩⟦131⟧⟨143⟩⟦71⟧⟨144⟩⟦187⟧⟨145⟩⟦33⟧⟨146⟩⟦117⟧⟨147⟩⟦140⟧⟨148⟩
+[The Blessed and the Damned] ⟨149⟩⟦248⟧⟨150⟩⟦4⟧⟨151⟩⟦243⟧⟨152⟩⟦50⟧⟨153⟩⟦245⟧⟨154⟩⟦55⟧⟨155⟩⟦164⟧⟨156⟩⟦149⟧⟨157⟩
+[The Blessed and the Damned] ⟨158⟩⟦121⟧⟨159⟩⟦307⟧⟨160⟩⟦195⟧⟨161⟩⟦135⟧⟨162⟩⟦65⟧⟨163⟩⟦269⟧⟨164⟩⟦224⟧⟨165⟩
+[The Blessed and the Damned] ⟨166⟩⟦317⟧⟨167⟩⟦317⟧⟨168⟩⟦64⟧⟨169⟩⟦148⟧⟨170⟩⟦310⟧⟨171⟩⟦74⟧⟨172⟩⟦32⟧⟨173⟩
+[Pentastar: In the Style of Demons] ⟦178⟧⟨174⟩⟦297⟧⟨175⟩⟦82⟧⟨176⟩⟦300⟧⟨177⟩⟦139⟧⟨178⟩⟦228⟧⟨179⟩⟦32⟧⟨180⟩⟦262⟧⟨181⟩⟦89⟧⟨182⟩⟦87⟧⟨183⟩⟦47⟧⟨184⟩
+[Pentastar: In the Style of Demons] ⟨185⟩⟦23⟧⟨186⟩⟦202⟧⟨187⟩⟦222⟧⟨188⟩⟦305⟧⟨189⟩⟦89⟧⟨190⟩⟦87⟧⟨191⟩⟦330⟧⟨192⟩⟦31⟧⟨193⟩⟦229⟧⟨194⟩
+[Pentastar: In the Style of Demons] ⟨195⟩⟦177⟧⟨196⟩⟦155⟧⟨197⟩⟦18⟧⟨198⟩⟦79⟧⟨199⟩⟦276⟧⟨200⟩⟦221⟧⟨201⟩
+[Pentastar: In the Style of Demons] ⟦288⟧⟨202⟩⟦322⟧⟨203⟩⟦198⟧⟨204⟩⟦309⟧⟨205⟩⟦32⟧⟨206⟩⟦36⟧⟨207⟩⟦230⟧⟨208⟩⟦177⟧⟨209⟩⟦155⟧⟨210⟩
+[Pentastar: In the Style of Demons] ⟦247⟧⟨211⟩⟦59⟧⟨212⟩⟦256⟧⟨213⟩⟦79⟧⟨214⟩⟦13⟧⟨215⟩⟦182⟧⟨216⟩⟦59⟧⟨217⟩⟦119⟧⟨218⟩⟦226⟧⟨219⟩⟦91⟧⟨220⟩
+[Pentastar: In the Style of Demons] ⟦233⟧⟨221⟩⟦237⟧⟨222⟩⟦32⟧⟨223⟩⟦312⟧⟨224⟩⟦37⟧⟨225⟩⟦197⟧⟨226⟩⟦246⟧⟨227⟩⟦57⟧⟨228⟩⟦143⟧⟨229⟩⟦68⟧⟨230⟩⟦174⟧⟨231⟩⟦175⟧⟨232⟩⟦73⟧⟨233⟩⟦181⟧⟨234⟩⟦34⟧⟨235⟩⟦197⟧⟨236⟩⟦264⟧⟨237⟩⟦99⟧⟨238⟩⟦265⟧⟨239⟩⟦63⟧⟨240⟩⟦91⟧⟨241⟩⟦126⟧⟨242⟩⟦186⟧⟨243⟩⟦10⟧⟨244⟩⟦216⟧⟨245⟩
+[Fial] ⟦104⟧⟨246⟩⟦6⟧⟨247⟩⟦85⟧⟨248⟩⟦315⟧⟨249⟩⟦3⟧⟨250⟩⟦15⟧⟨251⟩⟦73⟧⟨252⟩⟦123⟧⟨253⟩⟦96⟧⟨254⟩⟦137⟧⟨255⟩
+[Fial] ⟨256⟩⟦239⟧⟨257⟩⟦46⟧⟨258⟩⟦58⟧⟨259⟩⟦170⟧⟨260⟩⟦59⟧⟨261⟩⟦138⟧⟨262⟩
+[Fial] ⟦247⟧⟨263⟩⟦59⟧⟨264⟩⟦29⟧⟨265⟩⟦80⟧⟨266⟩⟦95⟧⟨267⟩
+[Fial] ⟨268⟩⟦332⟧⟨269⟩⟦253⟧⟨270⟩⟦73⟧⟨271⟩⟦142⟧⟨272⟩⟦142⟧⟨273⟩⟦48⟧⟨274⟩⟦48⟧⟨275⟩
+[Fial] ⟨276⟩⟦253⟧⟨277⟩⟦73⟧⟨278⟩⟦203⟧⟨279⟩⟦102⟧⟨280⟩⟦59⟧⟨281⟩⟦60⟧⟨282⟩⟦192⟧⟨283⟩
+[Fial] ⟦235⟧⟨284⟩⟦158⟧⟨285⟩⟦287⟧⟨286⟩⟦158⟧⟨287⟩
+[Fial] ⟦278⟧⟨288⟩⟦86⟧⟨289⟩⟦86⟧⟨290⟩⟦160⟧⟨291⟩⟦316⟧⟨292⟩
+[Plymouth Barracuda] ⟦290⟧⟨293⟩⟦30⟧⟨294⟩⟦88⟧⟨295⟩⟦59⟧⟨296⟩⟦181⟧⟨297⟩⟦234⟧⟨298⟩⟦158⟧⟨299⟩⟦332⟧⟨300⟩
+[Friend (automobile)] ⟦267⟧⟨301⟩⟦38⟧⟨302⟩⟦46⟧⟨303⟩⟦183⟧⟨304⟩⟦152⟧⟨305⟩⟦268⟧⟨306⟩
+[Friend (automobile)] ⟦173⟧⟨307⟩⟦286⟧⟨308⟩⟦232⟧⟨309⟩⟦59⟧⟨310⟩⟦247⟧⟨311⟩⟦59⟧⟨312⟩
+[Friend (automobile)] ⟦267⟧⟨313⟩⟦282⟧⟨314⟩⟦127⟧⟨315⟩⟦22⟧⟨316⟩⟦80⟧⟨317⟩⟦95⟧⟨318⟩⟦122⟧⟨319⟩⟦7⟧⟨320⟩⟦157⟧⟨321⟩⟦325⟧⟨322⟩⟦21⟧⟨323⟩⟦206⟧⟨324⟩⟦88⟧⟨325⟩⟦201⟧⟨326⟩⟦53⟧⟨327⟩
+[Friend (automobile)] ⟦329⟧⟨328⟩⟦42⟧⟨329⟩⟦327⟧⟨330⟩⟦326⟧⟨331⟩⟦171⟧⟨332⟩⟦171⟧⟨333⟩
+[Friend (automobile)] ⟦267⟧⟨334⟩
+[Friend (automobile)] ⟨335⟩⟦204⟧⟨336⟩⟦204⟧⟨337⟩⟦291⟧⟨338⟩⟦189⟧⟨339⟩⟦163⟧⟨340⟩⟦92⟧⟨341⟩⟦192⟧⟨342⟩⟦192⟧⟨343⟩⟦103⟧⟨344⟩⟦62⟧⟨345⟩
+[Friend (automobile)] ⟦26⟧⟨346⟩⟦80⟧⟨347⟩⟦158⟧⟨348⟩⟦253⟧⟨349⟩⟦73⟧⟨350⟩⟦58⟧⟨351⟩⟦58⟧⟨352⟩
+[Demons and Wizards (band)] ⟦82⟧⟨353⟩⟦82⟧⟨354⟩⟦328⟧⟨355⟩⟦24⟧⟨356⟩⟦185⟧⟨357⟩⟦150⟧⟨358⟩⟦47⟧⟨359⟩⟦25⟧⟨360⟩⟦212⟧⟨361⟩⟦193⟧⟨362⟩⟦323⟧⟨363⟩⟦323⟧⟨364⟩⟦52⟧⟨365⟩⟦114⟧⟨366⟩⟦272⟧⟨367⟩⟦111⟧⟨368⟩⟦121⟧⟨369⟩⟦130⟧⟨370⟩
+[Demons and Wizards (band)] ⟦205⟧⟨371⟩⟦281⟧⟨372⟩⟦161⟧⟨373⟩⟦134⟧⟨374⟩⟦279⟧⟨375⟩⟦146⟧⟨376⟩
+[Demons and Wizards (band)] ⟦242⟧⟨377⟩⟦47⟧⟨378⟩⟦141⟧⟨379⟩⟦319⟧⟨380⟩⟦293⟧⟨381⟩⟦196⟧⟨382⟩⟦306⟧⟨383⟩⟦32⟧⟨384⟩⟦147⟧⟨385⟩⟦263⟧⟨386⟩⟦90⟧⟨387⟩⟦20⟧⟨388⟩⟦33⟧⟨389⟩⟦129⟧⟨390⟩⟦271⟧⟨391⟩⟦110⟧⟨392⟩⟦218⟧⟨393⟩⟦159⟧⟨394⟩⟦121⟧⟨395⟩⟦289⟧⟨396⟩⟦176⟧⟨397⟩
+[Late model] ⟦12⟧⟨398⟩⟦158⟧⟨399⟩⟦59⟧⟨400⟩⟦14⟧⟨401⟩⟦59⟧⟨402⟩⟦169⟧⟨403⟩⟦158⟧⟨404⟩
+[Late model] ⟦8⟧⟨405⟩⟦158⟧⟨406⟩⟦59⟧⟨407⟩⟦1⟧⟨408⟩⟦59⟧⟨409⟩⟦14⟧⟨410⟩⟦59⟧⟨411⟩⟦118⟧⟨412⟩⟦125⟧⟨413⟩⟦165⟧⟨414⟩⟦231⟧⟨415⟩
+[Late model] ⟦299⟧⟨416⟩⟦231⟧⟨417⟩⟦59⟧⟨418⟩⟦61⟧⟨419⟩⟦194⟧⟨420⟩⟦72⟧⟨421⟩⟦320⟧⟨422⟩⟦284⟧⟨423⟩⟦168⟧⟨424⟩⟦39⟧⟨425⟩⟦158⟧⟨426⟩⟦207⟧⟨427⟩
+[Demons (Get Scared album)] ⟦82⟧⟨428⟩⟦82⟧⟨429⟩⟦301⟧⟨430⟩⟦228⟧⟨431⟩⟦32⟧⟨432⟩⟦35⟧⟨433⟩⟦47⟧⟨434⟩⟦167⟧⟨435⟩⟦101⟧⟨436⟩
+[Demons (Get Scared album)] ⟦236⟧⟨437⟩⟦32⟧⟨438⟩⟦19⟧⟨439⟩⟦83⟧⟨440⟩⟦188⟧⟨441⟩⟦199⟧⟨442⟩⟦51⟧⟨443⟩⟦209⟧⟨444⟩⟦100⟧⟨445⟩⟦100⟧⟨446⟩⟦28⟧⟨447⟩⟦229⟧⟨448⟩⟦241⟧⟨449⟩⟦47⟧⟨450⟩⟦304⟧⟨451⟩⟦151⟧⟨452⟩⟦94⟧⟨453⟩
+[Demons (Get Scared album)] ⟦2⟧⟨454⟩⟦82⟧⟨455⟩⟦98⟧⟨456⟩⟦240⟧⟨457⟩⟦47⟧⟨458⟩⟦51⟧⟨459⟩⟦209⟧⟨460⟩⟦184⟧⟨461⟩⟦200⟧⟨462⟩⟦198⟧⟨463⟩⟦198⟧⟨464⟩
+[Demons (Get Scared album)] ⟦274⟧⟨465⟩⟦113⟧⟨466⟩⟦251⟧⟨467⟩⟦70⟧⟨468⟩⟦257⟧⟨469⟩⟦79⟧⟨470⟩⟦211⟧⟨471⟩⟦311⟧⟨472⟩
+[Demons (Get Scared album)] ⟨473⟩⟦273⟧⟨474⟩⟦112⟧⟨475⟩⟦275⟧⟨476⟩⟦120⟧⟨477⟩⟦9⟧⟨478⟩⟦166⟧⟨479⟩⟦280⟧⟨480⟩⟦154⟧⟨481⟩⟦112⟧⟨482⟩
+
+[user]
+
+问题：
+During which years was the model of car, featured on the cover of Earth's "Pentastar: In the Style of Demons" manufactured?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

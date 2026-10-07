@@ -1,0 +1,97 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Eli Roth] ⟦78⟧⟨184⟩⟦38⟧⟨186⟩⟨185⟩⟨187⟩⟨188⟩⟨189⟩⟦256⟧⟦256⟧⟨190⟩⟨191⟩⟨192⟩⟨193⟩
+[Eli Roth] ⟦74⟧⟦159⟧⟦159⟧
+[Eli Roth] ⟨208⟩⟦36⟧⟨209⟩⟨210⟩⟦105⟧⟨211⟩⟨212⟩⟦75⟧⟨213⟩⟦164⟧⟦250⟧⟨215⟩⟨214⟩⟨216⟩⟦6⟧⟦53⟧⟨217⟩⟨218⟩⟦55⟧⟨219⟩⟦14⟧⟨220⟩⟦54⟧⟨221⟩
+[Grace Huang] ⟦175⟧
+[Byron Mann] ⟦30⟧⟦30⟧ | ⟦30⟧
+[The Man with the Iron Fists] ⟦227⟧⟨344⟩⟦224⟧⟨345⟩⟦13⟧⟦48⟧⟨347⟩⟨346⟩⟨348⟩⟨349⟩⟦180⟧⟦180⟧⟨350⟩⟦79⟧⟨351⟩
+[The Man with the Iron Fists] ⟦81⟧ | ⟦81⟧ | ⟦81⟧
+
+符号表：
+⟦6⟧ = "Inglourious Basterds
+⟦13⟧ = a 2012 American martial arts film
+⟦14⟧ = a BFCA Critic's Choice Award
+⟦30⟧ = actor
+⟦36⟧ = an actor
+⟦38⟧ = an American film director
+⟦48⟧ = arts
+⟦53⟧ = Basterds
+⟦54⟧ = Best Acting Ensemble
+⟦55⟧ = Best Ensemble
+⟦74⟧ = director
+⟦75⟧ = Donny "The Bear Jew" Donowitz
+⟦78⟧ = Eli Raphael Roth
+⟦79⟧ = Eli Roth
+⟦81⟧ = film
+⟦105⟧ = his most prominent role
+⟦159⟧ = producer
+⟦164⟧ = Quentin Tarantino's war film
+⟦175⟧ = role
+⟦180⟧ = RZA
+⟦224⟧ = the Iron Fists
+⟦227⟧ = The Man
+⟦250⟧ = war
+⟦256⟧ = writer
+
+占位符映射：
+⟨184⟩ =  (born April 18, 1972) is 
+⟨185⟩ = 
+⟨186⟩ =  
+⟨187⟩ = , 
+⟨188⟩ = 
+⟨189⟩ = , 
+⟨190⟩ = 
+⟨191⟩ = , and 
+⟨192⟩ = 
+⟨193⟩ = .
+⟨208⟩ =  As 
+⟨209⟩ = 
+⟨210⟩ = , 
+⟨211⟩ = 
+⟨212⟩ =  was as 
+⟨213⟩ =  in 
+⟨214⟩ = 
+⟨215⟩ =  
+⟨216⟩ =  
+⟨217⟩ = 
+⟨218⟩ = " for which he won both a SAG Award (
+⟨219⟩ = ) and 
+⟨220⟩ =  (
+⟨221⟩ = ).
+⟨344⟩ =  with 
+⟨345⟩ =  is 
+⟨346⟩ = 
+⟨347⟩ =  
+⟨348⟩ =  directed by 
+⟨349⟩ =  and written by 
+⟨350⟩ =  and 
+⟨351⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which American film director and actor famous for his role as Donny "The Bear Jew" Donowitz wrote the 2012 film "The Man with the Iron Fists"?

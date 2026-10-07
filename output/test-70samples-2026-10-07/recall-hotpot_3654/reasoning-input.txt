@@ -1,0 +1,104 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[BBC] ⟦556⟧⟨10⟩⟦672⟧⟨12⟩⟨13⟩⟦412⟧⟨11⟩⟨14⟩⟦605⟧⟦119⟧⟨15⟩⟨16⟩⟦671⟧⟨17⟩⟨18⟩⟨19⟩⟨20⟩⟨21⟩⟨22⟩
+[BBC] ⟦120⟧ | ⟨23⟩⟦422⟧⟨24⟩⟨25⟩⟨26⟩⟨27⟩⟦469⟧⟦507⟧⟨29⟩⟦120⟧⟨28⟩⟨30⟩
+[BBC] ⟦406⟧⟦406⟧ | ⟦657⟧⟦406⟧⟨31⟩⟨32⟩⟨33⟩⟨34⟩⟦426⟧⟦427⟧⟨35⟩⟨37⟩⟨38⟩⟨36⟩⟨39⟩
+[HyperNormalisation] ⟦294⟧⟨40⟩⟦16⟧⟦196⟧⟨41⟩⟨42⟩⟦118⟧⟦232⟧⟨44⟩⟨43⟩
+[HyperNormalisation] ⟦735⟧⟦735⟧
+[The One (company)] ⟦696⟧⟦696⟧
+[Loan modification in the United States] ⟦164⟧
+[Flextime] ⟦692⟧
+[Flextime] ⟦519⟧ | ⟦519⟧⟦519⟧⟦519⟧
+[Flextime] ⟦203⟧⟦203⟧
+
+符号表：
+⟦16⟧ = a 2016 BBC documentary
+⟦118⟧ = British filmmaker Adam Curtis
+⟦119⟧ = broadcaster
+⟦120⟧ = broadcasting
+⟦164⟧ = contract
+⟦196⟧ = documentary
+⟦203⟧ = employees
+⟦232⟧ = filmmaker
+⟦294⟧ = HyperNormalisation
+⟦406⟧ = number
+⟦412⟧ = organisation
+⟦422⟧ = over 20,950 staff
+⟦426⟧ = part
+⟦427⟧ = part-time, flexible, and fixed contract staff
+⟦469⟧ = public sector broadcasting
+⟦507⟧ = sector
+⟦519⟧ = staff
+⟦556⟧ = The BBC
+⟦605⟧ = the largest broadcaster
+⟦657⟧ = The total number
+⟦671⟧ = the world
+⟦672⟧ = the world's oldest national broadcasting organisation
+⟦692⟧ = time
+⟦696⟧ = total
+⟦735⟧ = world
+
+占位符映射：
+⟨10⟩ =  is 
+⟨11⟩ = 
+⟨12⟩ = 's oldest national 
+⟨13⟩ =  
+⟨14⟩ =  and 
+⟨15⟩ = 
+⟨16⟩ =  in 
+⟨17⟩ = 
+⟨18⟩ =  by 
+⟨19⟩ = 
+⟨20⟩ =  of 
+⟨21⟩ = 
+⟨22⟩ = .
+⟨23⟩ =  It employs 
+⟨24⟩ = 
+⟨25⟩ =  in 
+⟨26⟩ = 
+⟨27⟩ = , 16,672 of whom are in 
+⟨28⟩ = 
+⟨29⟩ =  
+⟨30⟩ = .
+⟨31⟩ = 
+⟨32⟩ =  of 
+⟨33⟩ = 
+⟨34⟩ =  is 35,402 when 
+⟨35⟩ = 
+⟨36⟩ = 
+⟨37⟩ = , flexible, and fixed 
+⟨38⟩ =  
+⟨39⟩ =  are included.
+⟨40⟩ =  is 
+⟨41⟩ = 
+⟨42⟩ =  by 
+⟨43⟩ = 
+⟨44⟩ =  Adam Curtis.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+How many total staff (including part-time, flexible, and fixed contract staff) does the broadcaster, who released HyperNormalisation, employ?

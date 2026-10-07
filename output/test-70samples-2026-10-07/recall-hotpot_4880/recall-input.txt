@@ -1,0 +1,316 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "' s album charts
+⟦2⟧ = "Double J
+⟦3⟧ = "Face/Off
+⟦4⟧ = "Grease
+⟦5⟧ = "Hairspray
+⟦6⟧ = "Pulp Fiction
+⟦7⟧ = "Stayin' Alive
+⟦8⟧ = "Suicide Kings
+⟦9⟧ = "Swordfish
+⟦10⟧ = 100 Songs survey
+⟦11⟧ = 120 weeks
+⟦12⟧ = 13 December
+⟦13⟧ = 15× Platinum
+⟦14⟧ = 18 consecutive weeks
+⟦15⟧ = 1950s
+⟦16⟧ = 1970s
+⟦17⟧ = 1977's "Saturday Night Fever
+⟦18⟧ = 1979's "Voices
+⟦19⟧ = 1990s
+⟦20⟧ = 24 straight weeks
+⟦21⟧ = a 1978 American musical romantic comedy film
+⟦22⟧ = a 1983 American dance film
+⟦23⟧ = a 1989 American comedy film
+⟦24⟧ = a disco song
+⟦25⟧ = a movie
+⟦26⟧ = a resurgence
+⟦27⟧ = a song
+⟦28⟧ = a supporting role
+⟦29⟧ = a top 10 position
+⟦30⟧ = a UK television poll
+⟦31⟧ = actor
+⟦32⟧ = AFI's 100 Years
+⟦33⟧ = airplay
+⟦34⟧ = Albhy Galuten
+⟦35⟧ = album
+⟦36⟧ = All Time
+⟦37⟧ = American cinema
+⟦38⟧ = an American actor
+⟦39⟧ = an American actor and voice actor
+⟦40⟧ = an international sensation
+⟦41⟧ = artists
+⟦42⟧ = Arye Gross
+⟦43⟧ = at least 15 million units
+⟦44⟧ = background
+⟦45⟧ = background music
+⟦46⟧ = Barry
+⟦47⟧ = Billboard
+⟦48⟧ = blockbuster
+⟦49⟧ = both sides
+⟦50⟧ = box
+⟦51⟧ = Bronte Woodard
+⟦52⟧ = brothers
+⟦53⟧ = career
+⟦54⟧ = charts
+⟦55⟧ = chief
+⟦56⟧ = choreography
+⟦57⟧ = cinema
+⟦58⟧ = comedy
+⟦59⟧ = Congress
+⟦60⟧ = Cynthia Rhodes
+⟦61⟧ = dance
+⟦62⟧ = dancer
+⟦63⟧ = dancer Tony Manero
+⟦64⟧ = dancers
+⟦65⟧ = dancers Viktor Manoel
+⟦66⟧ = Danny
+⟦67⟧ = Dave Thomas
+⟦68⟧ = debut
+⟦69⟧ = December
+⟦70⟧ = Dennon
+⟦71⟧ = Director Sylvester Stallone
+⟦72⟧ = disco
+⟦73⟧ = displeasure
+⟦74⟧ = Eric Alter
+⟦75⟧ = feature
+⟦76⟧ = film
+⟦77⟧ = films
+⟦78⟧ = Finola Hughes
+⟦79⟧ = five songs
+⟦80⟧ = game
+⟦81⟧ = Grease
+⟦82⟧ = hearts
+⟦83⟧ = hesitation
+⟦84⟧ = His acting career
+⟦85⟧ = his role
+⟦86⟧ = his theatrical feature film debut
+⟦87⟧ = interviews
+⟦88⟧ = ITV
+⟦89⟧ = January
+⟦90⟧ = Jim Jacobs
+⟦91⟧ = Joey
+⟦92⟧ = John Joseph Travolta
+⟦93⟧ = John Travolta
+⟦94⟧ = Joseph Cali
+⟦95⟧ = Joyce Hyser
+⟦96⟧ = Julie Bovasso
+⟦97⟧ = July
+⟦98⟧ = Karl Richardson
+⟦99⟧ = Kelly Preston
+⟦100⟧ = Kevyn Morrow
+⟦101⟧ = Kings
+⟦102⟧ = life
+⟦103⟧ = list
+⟦104⟧ = Lt. Jack M. Keller
+⟦105⟧ = March
+⟦106⟧ = Maurice Gibb
+⟦107⟧ = members
+⟦108⟧ = more airplay
+⟦109⟧ = motion
+⟦110⟧ = movie
+⟦111⟧ = music
+⟦112⟧ = name
+⟦113⟧ = Nick Thiel
+⟦114⟧ = Night Fever
+⟦115⟧ = No
+⟦116⟧ = number
+⟦117⟧ = office
+⟦118⟧ = Olivia Newton-John
+⟦119⟧ = other artists
+⟦120⟧ = over 20 films
+⟦121⟧ = Paramount chief Ned Tannen
+⟦122⟧ = Paul Pape
+⟦123⟧ = phenomenon
+⟦124⟧ = picture
+⟦125⟧ = poll
+⟦126⟧ = position
+⟦127⟧ = previous two singles
+⟦128⟧ = producer
+⟦129⟧ = Producer Robert Stigwood
+⟦130⟧ = production
+⟦131⟧ = projects
+⟦132⟧ = Randal Kleiser
+⟦133⟧ = Rawles
+⟦134⟧ = release
+⟦135⟧ = request
+⟦136⟧ = resurgence
+⟦137⟧ = rewrites
+⟦138⟧ = Robin
+⟦139⟧ = role
+⟦140⟧ = Rolling Stone's 500 Greatest Songs
+⟦141⟧ = Rydell High School students
+⟦142⟧ = Sandy
+⟦143⟧ = Saturday Night Fever
+⟦144⟧ = Sayhber Rawles
+⟦145⟧ = scene
+⟦146⟧ = script
+⟦147⟧ = selling
+⟦148⟧ = sensation
+⟦149⟧ = sequel
+⟦150⟧ = series
+⟦151⟧ = several uncredited rewrites
+⟦152⟧ = shipments
+⟦153⟧ = sides
+⟦154⟧ = signature
+⟦155⟧ = singer
+⟦156⟧ = singer Robin Gibb
+⟦157⟧ = single
+⟦158⟧ = singles
+⟦159⟧ = solo projects
+⟦160⟧ = song
+⟦161⟧ = songs
+⟦162⟧ = soundtrack
+⟦163⟧ = Stayin' Alive
+⟦164⟧ = Staying Alive
+⟦165⟧ = Steven Greene
+⟦166⟧ = Stigwood
+⟦167⟧ = students
+⟦168⟧ = successes
+⟦169⟧ = survey
+⟦170⟧ = Sylvester Stallone
+⟦171⟧ = talents
+⟦172⟧ = television
+⟦173⟧ = that name
+⟦174⟧ = the "Saturday Night Fever" motion picture soundtrack
+⟦175⟧ = the "Saturday Night Fever" soundtrack
+⟦176⟧ = the "Staying Alive" movie
+⟦177⟧ = the 1970s
+⟦178⟧ = the 1977 blockbuster
+⟦179⟧ = the 1977 film
+⟦180⟧ = the 1990s
+⟦181⟧ = the 2008 racing video game
+⟦182⟧ = the album
+⟦183⟧ = the album charts
+⟦184⟧ = the Atlantic
+⟦185⟧ = the Bee Gees
+⟦186⟧ = the Bee Gees members
+⟦187⟧ = the Bee Gees song
+⟦188⟧ = the Bee Gees songs
+⟦189⟧ = the box office successes
+⟦190⟧ = the brothers
+⟦191⟧ = The choreography
+⟦192⟧ = The Competition
+⟦193⟧ = the disco phenomenon
+⟦194⟧ = The Experts
+⟦195⟧ = the film
+⟦196⟧ = the final scene
+⟦197⟧ = the late 1950s
+⟦198⟧ = the Library
+⟦199⟧ = the life
+⟦200⟧ = the list
+⟦201⟧ = the movie
+⟦202⟧ = the music
+⟦203⟧ = The Nation's Favourite Bee Gees Song
+⟦204⟧ = the National Recording Registry
+⟦205⟧ = The Original Movie Sound Track
+⟦206⟧ = the release
+⟦207⟧ = the request
+⟦208⟧ = the role
+⟦209⟧ = the same name
+⟦210⟧ = the script
+⟦211⟧ = the second single
+⟦212⟧ = the second-best selling album
+⟦213⟧ = the sequel
+⟦214⟧ = The song
+⟦215⟧ = the soundtrack album
+⟦216⟧ = the television series
+⟦217⟧ = the theme song
+⟦218⟧ = The title
+⟦219⟧ = the UK
+⟦220⟧ = the United States
+⟦221⟧ = the way
+⟦222⟧ = The Woman
+⟦223⟧ = the year
+⟦224⟧ = their displeasure
+⟦225⟧ = their hearts
+⟦226⟧ = their signature songs
+⟦227⟧ = their songs
+⟦228⟧ = their talents
+⟦229⟧ = theme
+⟦230⟧ = Thomas
+⟦231⟧ = title
+⟦232⟧ = top tunes
+⟦233⟧ = Travolta
+⟦234⟧ = tunes
+⟦235⟧ = units
+⟦236⟧ = video
+⟦237⟧ = voice
+⟦238⟧ = Voices
+⟦239⟧ = Warren Casey
+⟦240⟧ = way
+⟦241⟧ = weeks
+⟦242⟧ = Wild Hogs
+⟦243⟧ = Woman
+⟦244⟧ = year
+⟦245⟧ = Years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Woman in You] ⟨1⟩⟦222⟧⟨2⟩⟦243⟧⟨3⟩⟦79⟧⟨4⟩⟦161⟧⟨5⟩⟦185⟧⟨6⟩⟦195⟧⟨7⟩⟦76⟧⟨8⟩⟦213⟧⟨9⟩⟦149⟧⟨10⟩⟦143⟧⟨11⟩
+[The Woman in You] ⟦71⟧⟨12⟩⟦188⟧⟨13⟩⟦161⟧⟨14⟩⟦201⟧⟨15⟩⟦110⟧⟨16⟩⟦44⟧⟨17⟩⟦45⟧⟨18⟩⟦111⟧⟨19⟩⟦240⟧⟨20⟩⟦143⟧⟨21⟩
+[The Woman in You] ⟨22⟩⟦108⟧⟨23⟩⟦33⟧⟨24⟩⟦185⟧⟨25⟩⟦127⟧⟨26⟩⟦158⟧⟨27⟩⟦29⟧⟨28⟩⟦126⟧⟨29⟩
+[The Woman in You] ⟨30⟩⟦87⟧⟨31⟩⟦87⟧⟨32⟩⟦206⟧⟨33⟩⟦134⟧⟨34⟩⟦195⟧⟨35⟩⟦76⟧⟨36⟩⟦190⟧⟨37⟩⟦52⟧⟨38⟩⟦224⟧⟨39⟩⟦73⟧⟨40⟩⟦221⟧⟨41⟩⟦240⟧⟨42⟩⟦227⟧⟨43⟩⟦161⟧⟨44⟩⟦225⟧⟨45⟩⟦82⟧⟨46⟩⟦202⟧⟨47⟩⟦111⟧⟨48⟩
+[The Woman in You] ⟨49⟩⟦185⟧⟨50⟩⟦228⟧⟨51⟩⟦171⟧⟨52⟩⟦159⟧⟨53⟩⟦131⟧⟨54⟩⟦130⟧⟨55⟩⟦130⟧⟨56⟩⟦119⟧⟨57⟩⟦41⟧⟨58⟩⟦176⟧⟨59⟩⟦110⟧⟨60⟩
+[The Experts (1989 film)] ⟦194⟧⟨61⟩⟦23⟧⟨62⟩⟦58⟧⟨63⟩⟦76⟧⟨64⟩⟦93⟧⟨65⟩⟦42⟧⟨66⟩⟦99⟧⟨67⟩
+[The Experts (1989 film)] ⟨68⟩⟦165⟧⟨69⟩⟦74⟧⟨70⟩⟦113⟧⟨71⟩⟦67⟧⟨72⟩
+[The Experts (1989 film)] ⟨73⟩⟦130⟧⟨74⟩⟦130⟧⟨75⟩⟦151⟧⟨76⟩⟦137⟧⟨77⟩⟦210⟧⟨78⟩⟦146⟧⟨79⟩⟦230⟧⟨80⟩⟦207⟧⟨81⟩⟦135⟧⟨82⟩⟦121⟧⟨83⟩⟦55⟧⟨84⟩
+[Staying Alive (1983 film)] ⟦164⟧⟨85⟩⟦22⟧⟨86⟩⟦61⟧⟨87⟩⟦76⟧⟨88⟩⟦93⟧⟨89⟩⟦62⟧⟨90⟩⟦63⟧⟨91⟩⟦60⟧⟨92⟩⟦78⟧⟨93⟩⟦95⟧⟨94⟩⟦96⟧⟨95⟩⟦64⟧⟨96⟩⟦65⟧⟨97⟩⟦100⟧⟨98⟩
+[Staying Alive (1983 film)] ⟦213⟧⟨99⟩⟦149⟧⟨100⟩⟦17⟧⟨101⟩⟦170⟧⟨102⟩
+[Staying Alive (1983 film)] ⟦218⟧⟨103⟩⟦231⟧⟨104⟩⟦187⟧⟨105⟩⟦160⟧⟨106⟩⟦209⟧⟨107⟩⟦112⟧⟨108⟩⟦217⟧⟨109⟩⟦229⟧⟨110⟩⟦160⟧⟨111⟩⟦143⟧⟨112⟩⟦196⟧⟨113⟩⟦145⟧⟨114⟩
+[Staying Alive (1983 film)] ⟦191⟧⟨115⟩⟦56⟧⟨116⟩⟦70⟧⟨117⟩⟦144⟧⟨118⟩⟦133⟧
+[Grease (film)] ⟦81⟧⟨119⟩⟦81⟧⟨120⟩⟦21⟧⟨121⟩⟦58⟧⟨122⟩⟦76⟧⟨123⟩⟦90⟧⟨124⟩⟦239⟧⟨125⟩⟦209⟧⟨126⟩⟦112⟧⟨127⟩
+[Grease (film)] ⟨128⟩⟦51⟧⟨129⟩⟦132⟧⟨130⟩⟦86⟧⟨131⟩⟦75⟧⟨132⟩⟦76⟧⟨133⟩⟦68⟧⟨134⟩⟦195⟧⟨135⟩⟦76⟧⟨136⟩⟦199⟧⟨137⟩⟦102⟧⟨138⟩⟦141⟧⟨139⟩⟦167⟧⟨140⟩⟦66⟧⟨141⟩⟦93⟧⟨142⟩⟦142⟧⟨143⟩⟦118⟧⟨144⟩⟦197⟧⟨145⟩⟦15⟧⟨146⟩
+[Grease (film)] ⟦4⟧⟨147⟩
+[Grease (film)] ⟨148⟩⟦212⟧⟨149⟩⟦147⟧⟨150⟩⟦35⟧⟨151⟩⟦223⟧⟨152⟩⟦244⟧⟨153⟩⟦220⟧⟨154⟩⟦178⟧⟨155⟩⟦48⟧⟨156⟩⟦143⟧⟨157⟩
+[Night Fever] ⟨158⟩⟦114⟧⟨159⟩⟦27⟧⟨160⟩⟦160⟧⟨161⟩⟦185⟧⟨162⟩
+[Night Fever] ⟨163⟩⟦143⟧⟨164⟩
+[Night Fever] ⟦129⟧⟨165⟩⟦195⟧⟨166⟩⟦76⟧⟨167⟩⟦155⟧⟨168⟩⟦156⟧⟨169⟩⟦83⟧⟨170⟩⟦83⟧⟨171⟩⟦218⟧⟨172⟩⟦231⟧⟨173⟩
+[Night Fever] ⟦166⟧⟨174⟩⟦218⟧⟨175⟩⟦231⟧⟨176⟩⟦114⟧⟨177⟩⟦25⟧⟨178⟩⟦110⟧⟨179⟩⟦173⟧⟨180⟩⟦112⟧⟨181⟩
+[Joseph Cali] ⟦94⟧⟨182⟩⟦38⟧⟨183⟩⟦31⟧⟨184⟩⟦208⟧⟨185⟩⟦139⟧⟨186⟩⟦91⟧⟨187⟩⟦179⟧⟨188⟩⟦76⟧⟨189⟩⟦143⟧⟨190⟩
+[Joseph Cali] ⟨191⟩⟦172⟧⟨192⟩⟦172⟧⟨193⟩⟦77⟧⟨194⟩⟦77⟧⟨195⟩⟦18⟧⟨196⟩⟦238⟧⟨197⟩⟦192⟧⟨198⟩⟦8⟧⟨199⟩⟦101⟧⟨200⟩
+[Paul Pape] ⟦122⟧⟨201⟩⟦39⟧⟨202⟩⟦31⟧⟨203⟩⟦237⟧⟨204⟩⟦31⟧⟨205⟩⟦208⟧⟨206⟩⟦139⟧⟨207⟩⟦2⟧⟨208⟩⟦179⟧⟨209⟩⟦76⟧⟨210⟩⟦143⟧⟨211⟩
+[Paul Pape] ⟨212⟩⟦120⟧⟨213⟩⟦77⟧⟨214⟩
+[Paul Pape] ⟨215⟩⟦28⟧⟨216⟩⟦139⟧⟨217⟩⟦181⟧⟨218⟩⟦236⟧⟨219⟩⟦80⟧⟨220⟩⟦104⟧⟨221⟩
+[Saturday Night Fever (soundtrack)] ⟦143⟧⟨222⟩⟦205⟧⟨223⟩⟦215⟧⟨224⟩⟦162⟧⟨225⟩⟦35⟧⟨226⟩⟦179⟧⟨227⟩⟦76⟧⟨228⟩⟦143⟧⟨229⟩⟦93⟧⟨230⟩
+[Saturday Night Fever (soundtrack)] ⟨231⟩⟦220⟧⟨232⟩⟦182⟧⟨233⟩⟦35⟧⟨234⟩⟦13⟧⟨235⟩⟦152⟧⟨236⟩⟦152⟧⟨237⟩⟦43⟧⟨238⟩⟦235⟧⟨239⟩
+[Saturday Night Fever (soundtrack)] ⟦182⟧⟨240⟩⟦35⟧⟨241⟩⟦183⟧⟨242⟩⟦35⟧⟨243⟩⟦54⟧⟨244⟩⟦20⟧⟨245⟩⟦241⟧⟨246⟩⟦89⟧⟨247⟩⟦97⟧⟨248⟩⟦47⟧⟨249⟩⟦47⟧⟨250⟩⟦1⟧⟨251⟩⟦35⟧⟨252⟩⟦54⟧⟨253⟩⟦11⟧⟨254⟩⟦241⟧⟨255⟩⟦105⟧⟨256⟩
+[Saturday Night Fever (soundtrack)] ⟨257⟩⟦219⟧⟨258⟩⟦182⟧⟨259⟩⟦35⟧⟨260⟩⟦14⟧⟨261⟩⟦241⟧⟨262⟩⟦115⟧⟨263⟩⟦115⟧⟨264⟩
+[Saturday Night Fever (soundtrack)] ⟦182⟧⟨265⟩⟦35⟧⟨266⟩⟦193⟧⟨267⟩⟦72⟧⟨268⟩⟦123⟧⟨269⟩⟦49⟧⟨270⟩⟦153⟧⟨271⟩⟦184⟧⟨272⟩⟦40⟧⟨273⟩⟦148⟧⟨274⟩
+[Saturday Night Fever (soundtrack)] ⟦182⟧⟨275⟩⟦35⟧⟨276⟩⟦204⟧⟨277⟩⟦198⟧⟨278⟩⟦59⟧⟨279⟩
+[John Travolta] ⟦92⟧⟨280⟩⟦38⟧⟨281⟩⟦31⟧⟨282⟩⟦128⟧⟨283⟩⟦128⟧⟨284⟩⟦62⟧⟨285⟩⟦62⟧⟨286⟩⟦155⟧⟨287⟩⟦155⟧⟨288⟩
+[John Travolta] ⟦233⟧⟨289⟩⟦177⟧⟨290⟩⟦16⟧⟨291⟩⟦216⟧⟨292⟩⟦172⟧⟨293⟩⟦150⟧⟨294⟩⟦189⟧⟨295⟩⟦50⟧⟨296⟩⟦117⟧⟨297⟩⟦168⟧⟨298⟩
+[John Travolta] ⟨299⟩⟦84⟧⟨300⟩⟦53⟧⟨301⟩⟦26⟧⟨302⟩⟦136⟧⟨303⟩⟦180⟧⟨304⟩⟦19⟧⟨305⟩⟦85⟧⟨306⟩⟦139⟧⟨307⟩⟦6⟧⟨308⟩⟦77⟧⟨309⟩⟦77⟧⟨310⟩⟦3⟧⟨311⟩⟦9⟧⟨312⟩⟦242⟧⟨313⟩⟦5⟧⟨314⟩
+[Stayin' Alive] ⟨315⟩⟦163⟧⟨316⟩⟦24⟧⟨317⟩⟦72⟧⟨318⟩⟦160⟧⟨319⟩⟦185⟧⟨320⟩⟦174⟧⟨321⟩⟦109⟧⟨322⟩⟦124⟧⟨323⟩⟦162⟧⟨324⟩
+[Stayin' Alive] ⟦214⟧⟨325⟩⟦160⟧⟨326⟩⟦186⟧⟨327⟩⟦107⟧⟨328⟩⟦46⟧⟨329⟩⟦138⟧⟨330⟩⟦106⟧⟨331⟩⟦185⟧⟨332⟩⟦34⟧⟨333⟩⟦98⟧⟨334⟩
+[Stayin' Alive] ⟨335⟩⟦12⟧⟨336⟩⟦211⟧⟨337⟩⟦157⟧⟨338⟩⟦175⟧⟨339⟩⟦162⟧⟨340⟩
+[Stayin' Alive] ⟨341⟩⟦226⟧⟨342⟩⟦154⟧⟨343⟩⟦161⟧⟨344⟩
+[Stayin' Alive] ⟨345⟩⟦7⟧⟨346⟩⟦116⟧⟨347⟩⟦116⟧⟨348⟩⟦200⟧⟨349⟩⟦103⟧⟨350⟩⟦140⟧⟨351⟩⟦36⟧⟨352⟩
+[Stayin' Alive] ⟨353⟩⟦115⟧⟨354⟩⟦115⟧⟨355⟩⟦32⟧⟨356⟩⟦245⟧⟨357⟩⟦10⟧⟨358⟩⟦161⟧⟨359⟩⟦169⟧⟨360⟩⟦232⟧⟨361⟩⟦234⟧⟨362⟩⟦37⟧⟨363⟩⟦57⟧⟨364⟩
+[Stayin' Alive] ⟨365⟩⟦30⟧⟨366⟩⟦172⟧⟨367⟩⟦125⟧⟨368⟩⟦88⟧⟨369⟩⟦69⟧⟨370⟩⟦203⟧⟨371⟩
+
+[user]
+
+问题：
+The Experts stars what actor known for "Saturday Night Fever" and "Grease"?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

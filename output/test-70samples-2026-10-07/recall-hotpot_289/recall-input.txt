@@ -1,0 +1,452 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = -story
+⟦2⟧ = "economy
+⟦3⟧ = "Monopoly
+⟦4⟧ = "politics
+⟦5⟧ = "Soft Gold
+⟦6⟧ = a 1 ⁄ -story kitchen wing
+⟦7⟧ = a board game
+⟦8⟧ = a breed
+⟦9⟧ = a children's board game
+⟦10⟧ = a Danish manufacturing company
+⟦11⟧ = a Danish school
+⟦12⟧ = A fascination
+⟦13⟧ = a fine type
+⟦14⟧ = a flamenco guitar solo
+⟦15⟧ = a future
+⟦16⟧ = a Georgian-style brick dwelling
+⟦17⟧ = a Goat
+⟦18⟧ = a half century
+⟦19⟧ = a historic home
+⟦20⟧ = a keyboard flourish
+⟦21⟧ = a large five-bay, two-story main block
+⟦22⟧ = a marching drum beat
+⟦23⟧ = a market
+⟦24⟧ = a mesh
+⟦25⟧ = a partnership
+⟦26⟧ = a phenomenal success
+⟦27⟧ = a plant-based haemophilic polymer
+⟦28⟧ = a plant-derived injectable gel
+⟦29⟧ = a portmanteau
+⟦30⟧ = a principal architect
+⟦31⟧ = a product
+⟦32⟧ = a roof
+⟦33⟧ = a song
+⟦34⟧ = a staple
+⟦35⟧ = a steep gable roof
+⟦36⟧ = a tall frame smokehouse
+⟦37⟧ = a two-bay one-story passage
+⟦38⟧ = a V engine
+⟦39⟧ = a V8 engine
+⟦40⟧ = a veterinary product
+⟦41⟧ = a wearable ring
+⟦42⟧ = about half an inch
+⟦43⟧ = activity
+⟦44⟧ = advertisements
+⟦45⟧ = agreement
+⟦46⟧ = album
+⟦47⟧ = all player cash
+⟦48⟧ = all players
+⟦49⟧ = an American biotechnology company
+⟦50⟧ = Another objective
+⟦51⟧ = approval
+⟦52⟧ = architect
+⟦53⟧ = area
+⟦54⟧ = aspect
+⟦55⟧ = assets
+⟦56⟧ = Badadup
+⟦57⟧ = bank
+⟦58⟧ = batten
+⟦59⟧ = bay
+⟦60⟧ = bazaars
+⟦61⟧ = beat
+⟦62⟧ = better storage
+⟦63⟧ = biotechnology
+⟦64⟧ = block
+⟦65⟧ = board
+⟦66⟧ = board-and-batten siding
+⟦67⟧ = bonds
+⟦68⟧ = Brazilian singer
+⟦69⟧ = breed
+⟦70⟧ = breeds
+⟦71⟧ = brick
+⟦72⟧ = car
+⟦73⟧ = Carlos Santana
+⟦74⟧ = cars
+⟦75⟧ = cash
+⟦76⟧ = cashmere
+⟦77⟧ = cashmere wool
+⟦78⟧ = century
+⟦79⟧ = changes
+⟦80⟧ = Chatta Bazaar
+⟦81⟧ = Chatta Bazar
+⟦82⟧ = children
+⟦83⟧ = Chyangara or Nepalese Pashmina goat
+⟦84⟧ = coda
+⟦85⟧ = companies
+⟦86⟧ = company
+⟦87⟧ = conclusion
+⟦88⟧ = configuration
+⟦89⟧ = consumer
+⟦90⟧ = context
+⟦91⟧ = countries
+⟦92⟧ = cylinder
+⟦93⟧ = dairying
+⟦94⟧ = decade
+⟦95⟧ = design
+⟦96⟧ = developments
+⟦97⟧ = diameter
+⟦98⟧ = Different editions
+⟦99⟧ = Dorchester County
+⟦100⟧ = drum
+⟦101⟧ = dwelling
+⟦102⟧ = e.g. 2 hours
+⟦103⟧ = East New Market
+⟦104⟧ = economics
+⟦105⟧ = economy
+⟦106⟧ = editions
+⟦107⟧ = Elis Regina
+⟦108⟧ = emergency
+⟦109⟧ = engine
+⟦110⟧ = engines
+⟦111⟧ = English
+⟦112⟧ = Ernst Günter Albers
+⟦113⟧ = Europeans
+⟦114⟧ = ever-more-powerful engines
+⟦115⟧ = external and internal wounds
+⟦116⟧ = family
+⟦117⟧ = farmers
+⟦118⟧ = farms
+⟦119⟧ = fascination
+⟦120⟧ = FDA approval
+⟦121⟧ = fibre
+⟦122⟧ = fine cashmere fibre
+⟦123⟧ = flamenco
+⟦124⟧ = flathead
+⟦125⟧ = flathead Ford
+⟦126⟧ = flathead V8
+⟦127⟧ = flatty
+⟦128⟧ = flourish
+⟦129⟧ = Ford
+⟦130⟧ = Ford passenger cars
+⟦131⟧ = founder
+⟦132⟧ = four distinct breeds
+⟦133⟧ = frame
+⟦134⟧ = France
+⟦135⟧ = French farms
+⟦136⟧ = Friendship Hall
+⟦137⟧ = fundamentals
+⟦138⟧ = future
+⟦139⟧ = game
+⟦140⟧ = gel
+⟦141⟧ = goat
+⟦142⟧ = goat meat
+⟦143⟧ = goods
+⟦144⟧ = government
+⟦145⟧ = guitar
+⟦146⟧ = hand
+⟦147⟧ = Himachal Pradesh
+⟦148⟧ = hobbies
+⟦149⟧ = homage
+⟦150⟧ = home
+⟦151⟧ = hot rodders
+⟦152⟧ = hot-rodding
+⟦153⟧ = hours
+⟦154⟧ = human products
+⟦155⟧ = Hyderabad
+⟦156⟧ = inch
+⟦157⟧ = India
+⟦158⟧ = insurance
+⟦159⟧ = interact
+⟦160⟧ = intro
+⟦161⟧ = introduction
+⟦162⟧ = investments
+⟦163⟧ = its introduction
+⟦164⟧ = Its name
+⟦165⟧ = its new engine
+⟦166⟧ = its technology
+⟦167⟧ = Julia
+⟦168⟧ = Kargil area
+⟦169⟧ = Kashmir
+⟦170⟧ = Kashmir Pashmina
+⟦171⟧ = Kashmir region
+⟦172⟧ = Kashmiri
+⟦173⟧ = keyboard
+⟦174⟧ = kitchen
+⟦175⟧ = licensees
+⟦176⟧ = list
+⟦177⟧ = maracas
+⟦178⟧ = market
+⟦179⟧ = Maryland
+⟦180⟧ = mass
+⟦181⟧ = Mass Effect
+⟦182⟧ = mass production
+⟦183⟧ = Maxine Willard Waters
+⟦184⟧ = meat
+⟦185⟧ = Medi-Gel
+⟦186⟧ = medicine
+⟦187⟧ = mesh
+⟦188⟧ = military
+⟦189⟧ = model
+⟦190⟧ = moment
+⟦191⟧ = more than 5000 registered Roves
+⟦192⟧ = name
+⟦193⟧ = namely the Changthangi
+⟦194⟧ = Nepal
+⟦195⟧ = New Zealander Bruce E. Hatherley
+⟦196⟧ = no major ones
+⟦197⟧ = no more companies
+⟦198⟧ = northern India
+⟦199⟧ = objective
+⟦200⟧ = ones
+⟦201⟧ = Oren
+⟦202⟧ = other assets
+⟦203⟧ = other popular V8s
+⟦204⟧ = overhead-valve engines
+⟦205⟧ = Pakistan
+⟦206⟧ = Parker Brothers
+⟦207⟧ = partnership
+⟦208⟧ = Pashmina
+⟦209⟧ = Pashmina shawls
+⟦210⟧ = passage
+⟦211⟧ = passenger
+⟦212⟧ = Persian
+⟦213⟧ = plant
+⟦214⟧ = plateau
+⟦215⟧ = player
+⟦216⟧ = Players
+⟦217⟧ = playing
+⟦218⟧ = Poleconomy
+⟦219⟧ = politics
+⟦220⟧ = polymer
+⟦221⟧ = polysaccharides
+⟦222⟧ = portmanteau
+⟦223⟧ = product
+⟦224⟧ = production
+⟦225⟧ = products
+⟦226⟧ = properties
+⟦227⟧ = property
+⟦228⟧ = region
+⟦229⟧ = respect
+⟦230⟧ = ring
+⟦231⟧ = rodders
+⟦232⟧ = rodding
+⟦233⟧ = roof
+⟦234⟧ = roof market
+⟦235⟧ = roof windows
+⟦236⟧ = Roves
+⟦237⟧ = run
+⟦238⟧ = Santana
+⟦239⟧ = school
+⟦240⟧ = several different countries
+⟦241⟧ = shawls
+⟦242⟧ = shops
+⟦243⟧ = siding
+⟦244⟧ = simply the Ford flathead
+⟦245⟧ = singer
+⟦246⟧ = skylights
+⟦247⟧ = smokehouse
+⟦248⟧ = solo
+⟦249⟧ = some excellent acoustic guitar
+⟦250⟧ = song
+⟦251⟧ = sons
+⟦252⟧ = staple
+⟦253⟧ = storage
+⟦254⟧ = story
+⟦255⟧ = style
+⟦256⟧ = stylized economic and political activity
+⟦257⟧ = success
+⟦258⟧ = sum
+⟦259⟧ = Suneris Inc
+⟦260⟧ = technology
+⟦261⟧ = textiles
+⟦262⟧ = that market
+⟦263⟧ = the "Ford V‑8
+⟦264⟧ = the 10 best engines
+⟦265⟧ = the 19-year run
+⟦266⟧ = the 20th century
+⟦267⟧ = the album "Festival
+⟦268⟧ = the American car and truck market
+⟦269⟧ = the bank
+⟦270⟧ = the board
+⟦271⟧ = The breed
+⟦272⟧ = the Cashmere goat
+⟦273⟧ = the Changthang plateau
+⟦274⟧ = the Chegu
+⟦275⟧ = the classic car hobbies
+⟦276⟧ = the coda
+⟦277⟧ = The company
+⟦278⟧ = the company's most important developments
+⟦279⟧ = the conclusion
+⟦280⟧ = the context
+⟦281⟧ = the cultural moment
+⟦282⟧ = the current French market
+⟦283⟧ = the economy
+⟦284⟧ = the emergency medicine market
+⟦285⟧ = the emerging mass market consumer
+⟦286⟧ = The engine
+⟦287⟧ = The engine design
+⟦288⟧ = the engine's 21-year production
+⟦289⟧ = the engine's first decade
+⟦290⟧ = the first car model
+⟦291⟧ = the first time
+⟦292⟧ = The first VELUX roof window
+⟦293⟧ = The flamenco guitar solo
+⟦294⟧ = The Ford
+⟦295⟧ = the Ford company
+⟦296⟧ = The Ford flathead V8
+⟦297⟧ = the Ford Model T engine
+⟦298⟧ = the Ford Motor Company
+⟦299⟧ = the Ford V‑8
+⟦300⟧ = the Ford V8
+⟦301⟧ = the founder
+⟦302⟧ = the fundamentals
+⟦303⟧ = The game
+⟦304⟧ = the German market
+⟦305⟧ = The goat
+⟦306⟧ = the government
+⟦307⟧ = the huge variety
+⟦308⟧ = the human surgical market
+⟦309⟧ = the intro
+⟦310⟧ = the locally prominent Sulivane family
+⟦311⟧ = the Malra
+⟦312⟧ = the meaningless words
+⟦313⟧ = the military
+⟦314⟧ = the Model
+⟦315⟧ = the monetary sum
+⟦316⟧ = the most salient aspect
+⟦317⟧ = The name
+⟦318⟧ = The name "Poleconomy
+⟦319⟧ = the oldest bazaars
+⟦320⟧ = The playing time
+⟦321⟧ = the property
+⟦322⟧ = the respect
+⟦323⟧ = the Roof
+⟦324⟧ = The Rove
+⟦325⟧ = the sons
+⟦326⟧ = The textiles
+⟦327⟧ = the treasury
+⟦328⟧ = the U.S. consumer market
+⟦329⟧ = the V8 configuration
+⟦330⟧ = the video game
+⟦331⟧ = The Waters Family backing vocalists
+⟦332⟧ = the way
+⟦333⟧ = the ways
+⟦334⟧ = the West
+⟦335⟧ = the winner
+⟦336⟧ = The wool
+⟦337⟧ = the wound
+⟦338⟧ = These shawls
+⟦339⟧ = this fibre
+⟦340⟧ = This song
+⟦341⟧ = time
+⟦342⟧ = today
+⟦343⟧ = Tom Coster
+⟦344⟧ = treasury
+⟦345⟧ = truck
+⟦346⟧ = trucks
+⟦347⟧ = tune
+⟦348⟧ = type
+⟦349⟧ = V8
+⟦350⟧ = V8 engine
+⟦351⟧ = valve
+⟦352⟧ = variety
+⟦353⟧ = various changes
+⟦354⟧ = various licensees
+⟦355⟧ = VELUX
+⟦356⟧ = Verão Vermelho
+⟦357⟧ = Veti-gel
+⟦358⟧ = video
+⟦359⟧ = vocalists
+⟦360⟧ = Ward's list
+⟦361⟧ = way
+⟦362⟧ = ways
+⟦363⟧ = window
+⟦364⟧ = windows
+⟦365⟧ = wing
+⟦366⟧ = winner
+⟦367⟧ = wool
+⟦368⟧ = words
+⟦369⟧ = wound
+⟦370⟧ = wounds
+⟦371⟧ = year
+⟦372⟧ = years
+⟦373⟧ = پشمینه‎ ‎ / "pašmina
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Pashmina] ⟦208⟧⟨1⟩⟦13⟧⟨2⟩⟦348⟧⟨3⟩⟦76⟧⟨4⟩⟦77⟧⟨5⟩⟦367⟧⟨6⟩
+[Pashmina] ⟦326⟧⟨7⟩⟦261⟧⟨8⟩⟦169⟧⟨9⟩⟦157⟧⟨10⟩
+[Pashmina] ⟦317⟧⟨11⟩⟦192⟧⟨12⟩⟦212⟧⟨13⟩⟦373⟧⟨14⟩⟦367⟧⟨15⟩⟦367⟧⟨16⟩⟦5⟧⟨17⟩⟦172⟧⟨18⟩
+[Pashmina] ⟦209⟧⟨19⟩⟦241⟧⟨20⟩⟦41⟧⟨21⟩⟦230⟧⟨22⟩⟦97⟧⟨23⟩⟦97⟧⟨24⟩⟦42⟧⟨25⟩⟦156⟧⟨26⟩
+[Pashmina] ⟦208⟧⟨27⟩⟦76⟧⟨28⟩⟦76⟧⟨29⟩⟦334⟧⟨30⟩⟦113⟧⟨31⟩⟦339⟧⟨32⟩⟦121⟧⟨33⟩⟦169⟧⟨34⟩
+[Pashmina] ⟦336⟧⟨35⟩⟦367⟧⟨36⟩⟦132⟧⟨37⟩⟦70⟧⟨38⟩⟦272⟧⟨39⟩⟦141⟧⟨40⟩⟦193⟧⟨41⟩⟦170⟧⟨42⟩⟦141⟧⟨43⟩⟦141⟧⟨44⟩⟦273⟧⟨45⟩⟦214⟧⟨46⟩⟦171⟧⟨47⟩⟦228⟧⟨48⟩⟦311⟧⟨49⟩⟦168⟧⟨50⟩⟦53⟧⟨51⟩⟦171⟧⟨52⟩⟦228⟧⟨53⟩⟦274⟧⟨54⟩⟦147⟧⟨55⟩⟦198⟧⟨56⟩⟦205⟧⟨57⟩⟦83⟧⟨58⟩⟦141⟧⟨59⟩⟦194⟧⟨60⟩
+[Pashmina] ⟦338⟧⟨61⟩⟦241⟧⟨62⟩⟦146⟧⟨63⟩⟦169⟧⟨64⟩⟦194⟧⟨65⟩⟦122⟧⟨66⟩⟦76⟧⟨67⟩⟦121⟧⟨68⟩
+[Hey Pa! There's a Goat on the Roof] ⟨69⟩⟦17⟧⟨70⟩⟦323⟧⟨71⟩⟦9⟧⟨72⟩⟦82⟧⟨73⟩⟦65⟧⟨74⟩⟦139⟧⟨75⟩⟦206⟧⟨76⟩
+[Poleconomy] ⟦218⟧⟨77⟩⟦218⟧⟨78⟩⟦7⟧⟨79⟩⟦65⟧⟨80⟩⟦139⟧⟨81⟩⟦195⟧⟨82⟩
+[Poleconomy] ⟨83⟩⟦3⟧⟨84⟩⟦270⟧⟨85⟩⟦65⟧⟨86⟩⟦85⟧⟨87⟩⟦85⟧⟨88⟩⟦226⟧⟨89⟩⟦226⟧⟨90⟩
+[Poleconomy] ⟦216⟧⟨91⟩⟦216⟧⟨92⟩⟦226⟧⟨93⟩⟦226⟧⟨94⟩⟦162⟧⟨95⟩⟦162⟧⟨96⟩⟦256⟧⟨97⟩⟦43⟧⟨98⟩
+[Poleconomy] ⟦320⟧⟨99⟩⟦217⟧⟨100⟩⟦341⟧⟨101⟩⟦45⟧⟨102⟩⟦45⟧⟨103⟩⟦48⟧⟨104⟩⟦216⟧⟨105⟩⟦102⟧⟨106⟩⟦153⟧⟨107⟩⟦335⟧⟨108⟩⟦366⟧⟨109⟩⟦315⟧⟨110⟩⟦258⟧⟨111⟩⟦47⟧⟨112⟩⟦215⟧⟨113⟩⟦75⟧⟨114⟩⟦85⟧⟨115⟩⟦85⟧⟨116⟩⟦158⟧⟨117⟩⟦158⟧⟨118⟩⟦202⟧⟨119⟩⟦55⟧⟨120⟩
+[Poleconomy] ⟦303⟧⟨121⟩⟦139⟧⟨122⟩⟦197⟧⟨123⟩⟦85⟧⟨124⟩⟦44⟧⟨125⟩⟦44⟧⟨126⟩⟦269⟧⟨127⟩⟦57⟧⟨128⟩⟦67⟧⟨129⟩⟦67⟧⟨130⟩⟦327⟧⟨131⟩⟦344⟧⟨132⟩
+[Poleconomy] ⟦50⟧⟨133⟩⟦199⟧⟨134⟩⟦303⟧⟨135⟩⟦139⟧⟨136⟩⟦216⟧⟨137⟩⟦216⟧⟨138⟩⟦302⟧⟨139⟩⟦137⟧⟨140⟩⟦104⟧⟨141⟩⟦104⟧⟨142⟩⟦333⟧⟨143⟩⟦362⟧⟨144⟩⟦283⟧⟨145⟩⟦105⟧⟨146⟩⟦306⟧⟨147⟩⟦144⟧⟨148⟩⟦159⟧⟨149⟩
+[Poleconomy] ⟦98⟧⟨150⟩⟦106⟧⟨151⟩⟦240⟧⟨152⟩⟦91⟧⟨153⟩
+[Poleconomy] ⟦318⟧⟨154⟩⟦192⟧⟨155⟩⟦218⟧⟨156⟩⟦29⟧⟨157⟩⟦222⟧⟨158⟩⟦4⟧⟨159⟩⟦219⟧⟨160⟩⟦2⟧⟨161⟩⟦105⟧⟨162⟩
+[Verão Vermelho] ⟨163⟩⟦356⟧⟨164⟩⟦33⟧⟨165⟩⟦250⟧⟨166⟩⟦238⟧⟨167⟩⟦267⟧⟨168⟩⟦46⟧⟨169⟩
+[Verão Vermelho] ⟦73⟧⟨170⟩⟦149⟧⟨171⟩⟦149⟧⟨172⟩⟦68⟧⟨173⟩⟦245⟧⟨174⟩⟦107⟧⟨175⟩
+[Verão Vermelho] ⟦340⟧⟨176⟩⟦250⟧⟨177⟩⟦249⟧⟨178⟩⟦145⟧⟨179⟩⟦331⟧⟨180⟩⟦359⟧⟨181⟩⟦167⟧⟨182⟩⟦201⟧⟨183⟩⟦183⟧⟨184⟩⟦312⟧⟨185⟩⟦368⟧⟨186⟩⟦56⟧⟨187⟩⟦56⟧⟨188⟩⟦56⟧⟨189⟩
+[Verão Vermelho] ⟨190⟩⟦22⟧⟨191⟩⟦100⟧⟨192⟩⟦61⟧⟨193⟩⟦177⟧⟨194⟩⟦177⟧⟨195⟩⟦238⟧⟨196⟩⟦14⟧⟨197⟩⟦123⟧⟨198⟩⟦145⟧⟨199⟩⟦248⟧⟨200⟩⟦309⟧⟨201⟩⟦160⟧⟨202⟩⟦279⟧⟨203⟩⟦87⟧⟨204⟩
+[Verão Vermelho] ⟦293⟧⟨205⟩⟦123⟧⟨206⟩⟦145⟧⟨207⟩⟦248⟧⟨208⟩⟦276⟧⟨209⟩⟦84⟧⟨210⟩⟦20⟧⟨211⟩⟦173⟧⟨212⟩⟦128⟧⟨213⟩⟦343⟧⟨214⟩
+[Ford flathead V8 engine] ⟦294⟧⟨215⟩⟦126⟧⟨216⟩⟦244⟧⟨217⟩⟦124⟧⟨218⟩⟦125⟧⟨219⟩⟦127⟧⟨220⟩⟦127⟧⟨221⟩⟦280⟧⟨222⟩⟦90⟧⟨223⟩⟦152⟧⟨224⟩⟦232⟧⟨225⟩⟦39⟧⟨226⟩⟦349⟧⟨227⟩⟦109⟧⟨228⟩⟦64⟧⟨229⟩⟦64⟧⟨230⟩⟦348⟧⟨231⟩⟦298⟧⟨232⟩⟦129⟧⟨233⟩⟦354⟧⟨234⟩⟦175⟧⟨235⟩
+[Ford flathead V8 engine] ⟨236⟩⟦289⟧⟨237⟩⟦109⟧⟨238⟩⟦94⟧⟨239⟩⟦224⟧⟨240⟩⟦224⟧⟨241⟩⟦204⟧⟨242⟩⟦351⟧⟨243⟩⟦110⟧⟨244⟩⟦299⟧⟨245⟩⟦290⟧⟨246⟩⟦72⟧⟨247⟩⟦189⟧⟨248⟩⟦314⟧⟨249⟩⟦263⟧⟨250⟩⟦165⟧⟨251⟩⟦109⟧⟨252⟩
+[Ford flathead V8 engine] ⟨253⟩⟦329⟧⟨254⟩⟦88⟧⟨255⟩⟦300⟧⟨256⟩⟦23⟧⟨257⟩⟦178⟧⟨258⟩⟦322⟧⟨259⟩⟦229⟧⟨260⟩⟦92⟧⟨261⟩⟦38⟧⟨262⟩⟦109⟧⟨263⟩⟦285⟧⟨264⟩⟦180⟧⟨265⟩⟦178⟧⟨266⟩⟦89⟧⟨267⟩⟦291⟧⟨268⟩⟦341⟧⟨269⟩
+[Ford flathead V8 engine] ⟨270⟩⟦350⟧⟨271⟩⟦109⟧⟨272⟩⟦129⟧⟨273⟩⟦180⟧⟨274⟩⟦182⟧⟨275⟩⟦224⟧⟨276⟩⟦278⟧⟨277⟩⟦86⟧⟨278⟩⟦96⟧⟨279⟩
+[Ford flathead V8 engine] ⟦12⟧⟨280⟩⟦119⟧⟨281⟩⟦114⟧⟨282⟩⟦110⟧⟨283⟩⟦316⟧⟨284⟩⟦54⟧⟨285⟩⟦268⟧⟨286⟩⟦72⟧⟨287⟩⟦345⟧⟨288⟩⟦178⟧⟨289⟩⟦18⟧⟨290⟩⟦78⟧⟨291⟩
+[Ford flathead V8 engine] ⟦296⟧⟨292⟩⟦347⟧⟨293⟩⟦347⟧⟨294⟩⟦281⟧⟨295⟩⟦190⟧⟨296⟩⟦163⟧⟨297⟩⟦161⟧⟨298⟩⟦332⟧⟨299⟩⟦361⟧⟨300⟩⟦15⟧⟨301⟩⟦138⟧⟨302⟩⟦295⟧⟨303⟩⟦86⟧⟨304⟩⟦30⟧⟨305⟩⟦52⟧⟨306⟩
+[Ford flathead V8 engine] ⟨307⟩⟦26⟧⟨308⟩⟦257⟧⟨309⟩
+[Ford flathead V8 engine] ⟦287⟧⟨310⟩⟦109⟧⟨311⟩⟦95⟧⟨312⟩⟦353⟧⟨313⟩⟦79⟧⟨314⟩⟦196⟧⟨315⟩⟦200⟧⟨316⟩⟦130⟧⟨317⟩⟦211⟧⟨318⟩⟦74⟧⟨319⟩⟦346⟧⟨320⟩⟦346⟧⟨321⟩⟦288⟧⟨322⟩⟦109⟧⟨323⟩⟦371⟧⟨324⟩⟦224⟧⟨325⟩⟦237⟧⟨326⟩⟦328⟧⟨327⟩⟦89⟧⟨328⟩⟦178⟧⟨329⟩⟦265⟧⟨330⟩⟦371⟧⟨331⟩⟦237⟧⟨332⟩⟦297⟧⟨333⟩⟦109⟧⟨334⟩⟦262⟧⟨335⟩⟦178⟧⟨336⟩
+[Ford flathead V8 engine] ⟦286⟧⟨337⟩⟦109⟧⟨338⟩⟦360⟧⟨339⟩⟦176⟧⟨340⟩⟦264⟧⟨341⟩⟦110⟧⟨342⟩⟦266⟧⟨343⟩⟦78⟧⟨344⟩
+[Ford flathead V8 engine] ⟨345⟩⟦34⟧⟨346⟩⟦252⟧⟨347⟩⟦151⟧⟨348⟩⟦231⟧⟨349⟩⟦275⟧⟨350⟩⟦72⟧⟨351⟩⟦148⟧⟨352⟩⟦342⟧⟨353⟩⟦307⟧⟨354⟩⟦352⟧⟨355⟩⟦203⟧⟨356⟩
+[Friendship Hall] ⟦136⟧⟨357⟩⟦19⟧⟨358⟩⟦150⟧⟨359⟩⟦103⟧⟨360⟩⟦99⟧⟨361⟩⟦179⟧⟨362⟩
+[Friendship Hall] ⟨363⟩⟦16⟧⟨364⟩⟦255⟧⟨365⟩⟦71⟧⟨366⟩⟦101⟧⟨367⟩
+[Friendship Hall] ⟨368⟩⟦21⟧⟨369⟩⟦59⟧⟨370⟩⟦254⟧⟨371⟩⟦64⟧⟨372⟩⟦37⟧⟨373⟩⟦59⟧⟨374⟩⟦254⟧⟨375⟩⟦210⟧⟨376⟩⟦6⟧⟨377⟩⟦1⟧⟨378⟩⟦174⟧⟨379⟩⟦365⟧⟨380⟩
+[Friendship Hall] ⟨381⟩⟦321⟧⟨382⟩⟦227⟧⟨383⟩⟦36⟧⟨384⟩⟦133⟧⟨385⟩⟦247⟧⟨386⟩⟦65⟧⟨387⟩⟦66⟧⟨388⟩⟦58⟧⟨389⟩⟦243⟧⟨390⟩⟦35⟧⟨391⟩⟦233⟧⟨392⟩
+[Friendship Hall] ⟨393⟩⟦310⟧⟨394⟩⟦116⟧⟨395⟩⟦179⟧⟨396⟩
+[Vetigel] ⟦357⟧⟨397⟩⟦40⟧⟨398⟩⟦223⟧⟨399⟩⟦28⟧⟨400⟩⟦213⟧⟨401⟩⟦140⟧⟨402⟩⟦115⟧⟨403⟩⟦370⟧⟨404⟩
+[Vetigel] ⟦164⟧⟨405⟩⟦192⟧⟨406⟩⟦185⟧⟨407⟩⟦330⟧⟨408⟩⟦358⟧⟨409⟩⟦139⟧⟨410⟩⟦181⟧⟨411⟩
+[Vetigel] ⟨412⟩⟦27⟧⟨413⟩⟦213⟧⟨414⟩⟦220⟧⟨415⟩⟦221⟧⟨416⟩⟦221⟧⟨417⟩⟦24⟧⟨418⟩⟦187⟧⟨419⟩⟦337⟧⟨420⟩⟦369⟧⟨421⟩
+[Vetigel] ⟨422⟩⟦259⟧⟨423⟩⟦49⟧⟨424⟩⟦63⟧⟨425⟩⟦86⟧⟨426⟩⟦154⟧⟨427⟩⟦225⟧⟨428⟩⟦166⟧⟨429⟩⟦260⟧⟨430⟩
+[Vetigel] ⟦277⟧⟨431⟩⟦86⟧⟨432⟩⟦31⟧⟨433⟩⟦223⟧⟨434⟩⟦313⟧⟨435⟩⟦188⟧⟨436⟩⟦284⟧⟨437⟩⟦108⟧⟨438⟩⟦186⟧⟨439⟩⟦178⟧⟨440⟩⟦31⟧⟨441⟩⟦223⟧⟨442⟩⟦308⟧⟨443⟩⟦178⟧⟨444⟩⟦120⟧⟨445⟩⟦51⟧⟨446⟩
+[Rove goat] ⟦324⟧⟨447⟩⟦8⟧⟨448⟩⟦69⟧⟨449⟩⟦141⟧⟨450⟩⟦134⟧⟨451⟩
+[Rove goat] ⟦271⟧⟨452⟩⟦69⟧⟨453⟩⟦191⟧⟨454⟩⟦236⟧⟨455⟩⟦135⟧⟨456⟩⟦118⟧⟨457⟩
+[Rove goat] ⟦305⟧⟨458⟩⟦141⟧⟨459⟩⟦184⟧⟨460⟩⟦184⟧⟨461⟩⟦282⟧⟨462⟩⟦178⟧⟨463⟩⟦142⟧⟨464⟩⟦184⟧⟨465⟩⟦117⟧⟨466⟩⟦117⟧⟨467⟩⟦324⟧⟨468⟩⟦93⟧⟨469⟩⟦93⟧⟨470⟩
+[Chatta Bazaar] ⟦80⟧⟨471⟩⟦111⟧⟨472⟩⟦233⟧⟨473⟩⟦234⟧⟨474⟩⟦178⟧⟨475⟩⟦155⟧⟨476⟩⟦157⟧⟨477⟩
+[Chatta Bazaar] ⟦81⟧⟨478⟩⟦319⟧⟨479⟩⟦60⟧⟨480⟩⟦155⟧⟨481⟩⟦242⟧⟨482⟩⟦242⟧⟨483⟩⟦32⟧⟨484⟩⟦233⟧⟨485⟩⟦62⟧⟨486⟩⟦253⟧⟨487⟩⟦143⟧⟨488⟩⟦143⟧⟨489⟩
+[VELUX] ⟦355⟧⟨490⟩⟦355⟧⟨491⟩⟦10⟧⟨492⟩⟦86⟧⟨493⟩⟦233⟧⟨494⟩⟦235⟧⟨495⟩⟦364⟧⟨496⟩⟦246⟧⟨497⟩⟦246⟧⟨498⟩
+[VELUX] ⟦292⟧⟨499⟩⟦233⟧⟨500⟩⟦363⟧⟨501⟩⟦11⟧⟨502⟩⟦239⟧⟨503⟩⟦372⟧⟨504⟩⟦301⟧⟨505⟩⟦131⟧⟨506⟩⟦277⟧⟨507⟩⟦86⟧⟨508⟩
+[VELUX] ⟦277⟧⟨509⟩⟦86⟧⟨510⟩⟦304⟧⟨511⟩⟦178⟧⟨512⟩⟦25⟧⟨513⟩⟦207⟧⟨514⟩⟦112⟧⟨515⟩⟦325⟧⟨516⟩⟦251⟧⟨517⟩
+
+[user]
+
+问题：
+Which came to market first, "Hey Pa! There's a Goat on the Roof" or "Poleconomy"
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,83 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Visit (2015 American film)] ⟦212⟧⟨109⟩⟦16⟧⟨110⟩⟨111⟩⟨113⟩⟨112⟩⟨114⟩⟨115⟩⟨116⟩⟦77⟧⟨117⟩⟦71⟧⟨118⟩⟦157⟧⟨119⟩⟦123⟧⟨120⟩
+[Signs (film)] ⟦132⟧
+[The Houses October Built] ⟦94⟧
+[Olivia DeJonge] ⟦150⟧ | ⟦150⟧⟨292⟩⟦39⟧⟦35⟧⟨293⟩⟨294⟩⟦189⟧⟨295⟩⟦208⟧⟦174⟧⟨296⟩⟨297⟩⟦2⟧⟨298⟩⟦47⟧⟨299⟩⟨300⟩⟨301⟩⟦7⟧⟨302⟩
+[Meet Me There] ⟦109⟧
+[Meet Me There] ⟦90⟧ | ⟦197⟧⟦90⟧
+
+符号表：
+⟦2⟧ = "Hiding
+⟦7⟧ = "The Visit
+⟦16⟧ = a 2015 American
+⟦35⟧ = actress
+⟦39⟧ = an Australian actress
+⟦47⟧ = Becca
+⟦71⟧ = Deanna Dunagan
+⟦77⟧ = Ed Oxenbould
+⟦90⟧ = film
+⟦94⟧ = footage horror film
+⟦109⟧ = horror
+⟦123⟧ = Kathryn Hahn
+⟦132⟧ = M. Night Shyamalan
+⟦150⟧ = Olivia DeJonge
+⟦157⟧ = Peter McRobbie
+⟦174⟧ = series
+⟦189⟧ = Tara Swift / Shaneen Quigg
+⟦197⟧ = The film
+⟦208⟧ = the series
+⟦212⟧ = The Visit
+
+占位符映射：
+⟨109⟩ =  is 
+⟨110⟩ =  found 
+⟨111⟩ = 
+⟨112⟩ = 
+⟨113⟩ =  
+⟨114⟩ =  written and directed by 
+⟨115⟩ = , and starring 
+⟨116⟩ = , 
+⟨117⟩ = , 
+⟨118⟩ = , 
+⟨119⟩ = , and 
+⟨120⟩ = .
+⟨292⟩ =  (born 30 April 1998) is 
+⟨293⟩ = 
+⟨294⟩ = , known for playing 
+⟨295⟩ =  in 
+⟨296⟩ = 
+⟨297⟩ =  
+⟨298⟩ = " and 
+⟨299⟩ =  in 
+⟨300⟩ = 
+⟨301⟩ =  
+⟨302⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Olivia DeJonge starred in an American horror film directed by Shyamalan called what

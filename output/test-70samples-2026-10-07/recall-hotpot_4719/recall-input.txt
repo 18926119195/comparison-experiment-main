@@ -1,0 +1,325 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "New Jack City
+⟦2⟧ = "new jack swing
+⟦3⟧ = "street" beats
+⟦4⟧ = "The New Formula
+⟦5⟧ = 1970s
+⟦6⟧ = 1980s
+⟦7⟧ = 1990s
+⟦8⟧ = 25 best new jack swing songs
+⟦9⟧ = a 2006 concert tour
+⟦10⟧ = a current member
+⟦11⟧ = a fusion genre
+⟦12⟧ = a hybrid style
+⟦13⟧ = a major impact
+⟦14⟧ = a member
+⟦15⟧ = a new jack swing song
+⟦16⟧ = a song
+⟦17⟧ = Aaron Hall
+⟦18⟧ = age
+⟦19⟧ = album
+⟦20⟧ = all time
+⟦21⟧ = American R&B singer Keith Sweat
+⟦22⟧ = an African-American R&B singer
+⟦23⟧ = an American singer-songwriter
+⟦24⟧ = an American soul singer
+⟦25⟧ = artists
+⟦26⟧ = as many previous music styles
+⟦27⟧ = as many previous R&B styles
+⟦28⟧ = August
+⟦29⟧ = beats
+⟦30⟧ = Bernard Belle
+⟦31⟧ = Billboard's Hot R&B/Hip-Hop Songs chart
+⟦32⟧ = Blackstreet
+⟦33⟧ = Bobby Brown
+⟦34⟧ = both vinyl
+⟦35⟧ = Brooklyn
+⟦36⟧ = brother
+⟦37⟧ = cassette
+⟦38⟧ = certified platinum
+⟦39⟧ = Chanté Moore
+⟦40⟧ = chart
+⟦41⟧ = chart-topping R&B and hip-hop artists
+⟦42⟧ = charts
+⟦43⟧ = club
+⟦44⟧ = Color Me Badd
+⟦45⟧ = complex.com's list
+⟦46⟧ = concert
+⟦47⟧ = contemporary R&B
+⟦48⟧ = contemporary R&B style singing
+⟦49⟧ = continuation
+⟦50⟧ = copies
+⟦51⟧ = creation
+⟦52⟧ = culture
+⟦53⟧ = Damion "Crazy Legs" Hall
+⟦54⟧ = Damion Hall
+⟦55⟧ = dance
+⟦56⟧ = dance-pop
+⟦57⟧ = dance-pop music
+⟦58⟧ = dance-pop style
+⟦59⟧ = dance-pop trends
+⟦60⟧ = debut
+⟦61⟧ = decade
+⟦62⟧ = Doug E. Fresh
+⟦63⟧ = drum
+⟦64⟧ = drum machine
+⟦65⟧ = Edward Theodore Riley
+⟦66⟧ = elements
+⟦67⟧ = eleven original songs
+⟦68⟧ = End
+⟦69⟧ = era
+⟦70⟧ = F.S. Effect
+⟦71⟧ = Feeling
+⟦72⟧ = film
+⟦73⟧ = formation
+⟦74⟧ = funk
+⟦75⟧ = fusion
+⟦76⟧ = fusion genres
+⟦77⟧ = game
+⟦78⟧ = genre
+⟦79⟧ = genres
+⟦80⟧ = Giant Records
+⟦81⟧ = Groove
+⟦82⟧ = group
+⟦83⟧ = groups
+⟦84⟧ = Guy
+⟦85⟧ = Guy member
+⟦86⟧ = Hall
+⟦87⟧ = Hall's brother
+⟦88⟧ = hardware
+⟦89⟧ = hardware samplers
+⟦90⟧ = Heavy D.
+⟦91⟧ = hip
+⟦92⟧ = hip hop
+⟦93⟧ = hip hop soul
+⟦94⟧ = hip-hop
+⟦95⟧ = his debut album
+⟦96⟧ = his membership
+⟦97⟧ = his production work
+⟦98⟧ = hop
+⟦99⟧ = Hot
+⟦100⟧ = impact
+⟦101⟧ = influence
+⟦102⟧ = influences
+⟦103⟧ = instrumentation
+⟦104⟧ = Its influence
+⟦105⟧ = jack
+⟦106⟧ = Jane Child
+⟦107⟧ = jazz
+⟦108⟧ = Johnny Gill
+⟦109⟧ = Keith Sweat
+⟦110⟧ = keyboardist
+⟦111⟧ = late-1980s
+⟦112⟧ = list
+⟦113⟧ = Long Island
+⟦114⟧ = Love
+⟦115⟧ = machine
+⟦116⟧ = mellifluously soulful solo
+⟦117⟧ = member
+⟦118⟧ = members
+⟦119⟧ = membership
+⟦120⟧ = Michael Jackson
+⟦121⟧ = mid-1980s
+⟦122⟧ = music
+⟦123⟧ = musician
+⟦124⟧ = My Love
+⟦125⟧ = neo
+⟦126⟧ = New Jack City
+⟦127⟧ = New jack swing
+⟦128⟧ = New jack swing producer Teddy Riley
+⟦129⟧ = newer sensibilities
+⟦130⟧ = newer trends
+⟦131⟧ = number
+⟦132⟧ = older styles
+⟦133⟧ = one solo album
+⟦134⟧ = over a million copies
+⟦135⟧ = platinum
+⟦136⟧ = pop
+⟦137⟧ = pop culture
+⟦138⟧ = Popular music
+⟦139⟧ = producer
+⟦140⟧ = producers
+⟦141⟧ = production
+⟦142⟧ = production techniques
+⟦143⟧ = Prominent artists
+⟦144⟧ = R&B style vocals
+⟦145⟧ = R&B.
+⟦146⟧ = radio
+⟦147⟧ = rap
+⟦148⟧ = record
+⟦149⟧ = record producer
+⟦150⟧ = Records
+⟦151⟧ = reggae
+⟦152⟧ = Reprise Records
+⟦153⟧ = rhythms
+⟦154⟧ = Riley
+⟦155⟧ = Roosevelt
+⟦156⟧ = samplers
+⟦157⟧ = samples
+⟦158⟧ = scene
+⟦159⟧ = seminal influence
+⟦160⟧ = sensibilities
+⟦161⟧ = singer
+⟦162⟧ = singers
+⟦163⟧ = singing
+⟦164⟧ = single
+⟦165⟧ = solo
+⟦166⟧ = song
+⟦167⟧ = songs
+⟦168⟧ = songwriter
+⟦169⟧ = songwriter Timmy Gatling
+⟦170⟧ = soul
+⟦171⟧ = sound
+⟦172⟧ = soundtrack
+⟦173⟧ = station
+⟦174⟧ = street
+⟦175⟧ = style
+⟦176⟧ = styles
+⟦177⟧ = swing
+⟦178⟧ = swingbeat
+⟦179⟧ = swingbeat) style
+⟦180⟧ = techniques
+⟦181⟧ = Teddy Riley
+⟦182⟧ = teen pop
+⟦183⟧ = That song
+⟦184⟧ = the "Billboard
+⟦185⟧ = the 1970s
+⟦186⟧ = the 1990s
+⟦187⟧ = the 1991 film
+⟦188⟧ = the 2004 video game
+⟦189⟧ = the Billboard Hot R&B chart
+⟦190⟧ = the Billboard R&B charts
+⟦191⟧ = The Bronx, New York City
+⟦192⟧ = the brother
+⟦193⟧ = the continuation
+⟦194⟧ = the creation
+⟦195⟧ = the dance chart
+⟦196⟧ = the decade
+⟦197⟧ = the definitive sound
+⟦198⟧ = the early 1990s
+⟦199⟧ = the Feeling
+⟦200⟧ = the first new jack swing song
+⟦201⟧ = the first single
+⟦202⟧ = The first track
+⟦203⟧ = the formation
+⟦204⟧ = the genre's golden age
+⟦205⟧ = the Golden Age
+⟦206⟧ = the group
+⟦207⟧ = the group Guy
+⟦208⟧ = the groups
+⟦209⟧ = the hip hop "swing" beats
+⟦210⟧ = the Hot R&B/Hip-Hop Singles & Tracks chart
+⟦211⟧ = the inventive black New York club scene
+⟦212⟧ = the late 1980s
+⟦213⟧ = the late-1980s
+⟦214⟧ = the mid-1980s
+⟦215⟧ = the most successful number
+⟦216⟧ = the Motown artists
+⟦217⟧ = The music
+⟦218⟧ = The New Jack Reunion Tour
+⟦219⟧ = the new jack swing
+⟦220⟧ = the new jack swing era
+⟦221⟧ = the new jack swing genre
+⟦222⟧ = the new jack swing group
+⟦223⟧ = the new jack swing radio station
+⟦224⟧ = The new jack swing style
+⟦225⟧ = the original soundtrack
+⟦226⟧ = the Point
+⟦227⟧ = the R&B Billboard Year-End chart
+⟦228⟧ = the R&B charts
+⟦229⟧ = the rhythms
+⟦230⟧ = The song
+⟦231⟧ = The sound
+⟦232⟧ = The soundtrack
+⟦233⟧ = the time
+⟦234⟧ = the track
+⟦235⟧ = the urban contemporary sound
+⟦236⟧ = their debut album
+⟦237⟧ = This list
+⟦238⟧ = three weeks
+⟦239⟧ = time
+⟦240⟧ = Today
+⟦241⟧ = Today's album
+⟦242⟧ = tour
+⟦243⟧ = track
+⟦244⟧ = trends
+⟦245⟧ = urban music
+⟦246⟧ = urban musical influences
+⟦247⟧ = Usher
+⟦248⟧ = video
+⟦249⟧ = vinyl
+⟦250⟧ = vocals
+⟦251⟧ = Warner Bros.
+⟦252⟧ = weeks
+⟦253⟧ = work
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Teddy Riley] ⟦65⟧⟨1⟩⟦23⟧⟨2⟩⟦161⟧⟨3⟩⟦168⟧⟨4⟩⟦123⟧⟨5⟩⟦123⟧⟨6⟩⟦110⟧⟨7⟩⟦110⟧⟨8⟩⟦148⟧⟨9⟩⟦149⟧⟨10⟩⟦139⟧⟨11⟩⟦194⟧⟨12⟩⟦51⟧⟨13⟩⟦221⟧⟨14⟩⟦177⟧⟨15⟩⟦78⟧⟨16⟩
+[Teddy Riley] ⟨17⟩⟦97⟧⟨18⟩⟦141⟧⟨19⟩⟦253⟧⟨20⟩⟦25⟧⟨21⟩⟦25⟧⟨22⟩⟦120⟧⟨23⟩⟦33⟧⟨24⟩⟦62⟧⟨25⟩⟦109⟧⟨26⟩⟦90⟧⟨27⟩⟦247⟧⟨28⟩⟦106⟧⟨29⟩⟦96⟧⟨30⟩⟦119⟧⟨31⟩⟦208⟧⟨32⟩⟦83⟧⟨33⟩⟦84⟧⟨34⟩⟦32⟧⟨35⟩⟦154⟧⟨36⟩⟦13⟧⟨37⟩⟦100⟧⟨38⟩⟦159⟧⟨39⟩⟦101⟧⟨40⟩⟦203⟧⟨41⟩⟦73⟧⟨42⟩⟦47⟧⟨43⟩⟦91⟧⟨44⟩⟦94⟧⟨45⟩⟦98⟧⟨46⟩⟦170⟧⟨47⟩⟦170⟧⟨48⟩⟦136⟧⟨49⟩⟦136⟧⟨50⟩
+[New jack swing] ⟦127⟧⟨51⟩⟦105⟧⟨52⟩⟦177⟧⟨53⟩⟦178⟧⟨54⟩⟦178⟧⟨55⟩⟦11⟧⟨56⟩⟦75⟧⟨57⟩⟦78⟧⟨58⟩⟦181⟧⟨59⟩⟦30⟧⟨60⟩⟦212⟧⟨61⟩⟦6⟧⟨62⟩⟦198⟧⟨63⟩⟦7⟧⟨64⟩
+[New jack swing] ⟦104⟧⟨65⟩⟦101⟧⟨66⟩⟦91⟧⟨67⟩⟦92⟧⟨68⟩⟦98⟧⟨69⟩⟦136⟧⟨70⟩⟦137⟧⟨71⟩⟦52⟧⟨72⟩⟦197⟧⟨73⟩⟦171⟧⟨74⟩⟦211⟧⟨75⟩⟦43⟧⟨76⟩⟦158⟧⟨77⟩
+[New jack swing] ⟨78⟩⟦229⟧⟨79⟩⟦153⟧⟨80⟩⟦157⟧⟨81⟩⟦157⟧⟨82⟩⟦141⟧⟨83⟩⟦142⟧⟨84⟩⟦180⟧⟨85⟩⟦91⟧⟨86⟩⟦92⟧⟨87⟩⟦98⟧⟨88⟩⟦55⟧⟨89⟩⟦56⟧⟨90⟩⟦136⟧⟨91⟩⟦235⟧⟨92⟩⟦171⟧⟨93⟩⟦145⟧⟨94⟩⟦145⟧
+[New jack swing] ⟦224⟧⟨95⟩⟦177⟧⟨96⟩⟦175⟧⟨97⟩⟦26⟧⟨98⟩⟦122⟧⟨99⟩⟦176⟧⟨100⟩⟦66⟧⟨101⟩⟦66⟧⟨102⟩⟦132⟧⟨103⟩⟦176⟧⟨104⟩⟦129⟧⟨105⟩⟦160⟧⟨106⟩
+[New jack swing] ⟨107⟩⟦144⟧⟨108⟩⟦175⟧⟨109⟩⟦250⟧⟨110⟩⟦91⟧⟨111⟩⟦92⟧⟨112⟩⟦98⟧⟨113⟩⟦55⟧⟨114⟩⟦58⟧⟨115⟩⟦136⟧⟨116⟩⟦175⟧⟨117⟩⟦103⟧⟨118⟩⟦103⟧⟨119⟩
+[New jack swing] ⟦231⟧⟨120⟩⟦171⟧⟨121⟩⟦127⟧⟨122⟩⟦177⟧⟨123⟩⟦209⟧⟨124⟩⟦91⟧⟨125⟩⟦98⟧⟨126⟩⟦177⟧⟨127⟩⟦29⟧⟨128⟩⟦63⟧⟨129⟩⟦64⟧⟨130⟩⟦115⟧⟨131⟩⟦88⟧⟨132⟩⟦89⟧⟨133⟩⟦156⟧⟨134⟩⟦205⟧⟨135⟩⟦92⟧⟨136⟩⟦48⟧⟨137⟩⟦175⟧⟨138⟩⟦163⟧⟨139⟩
+[I Want Her] ⟨140⟩⟦16⟧⟨141⟩⟦166⟧⟨142⟩⟦21⟧⟨143⟩⟦161⟧⟨144⟩
+[I Want Her] ⟨145⟩⟦201⟧⟨146⟩⟦164⟧⟨147⟩⟦95⟧⟨148⟩⟦60⟧⟨149⟩⟦19⟧⟨150⟩⟦131⟧⟨151⟩⟦131⟧⟨152⟩⟦184⟧⟨153⟩⟦99⟧⟨154⟩⟦131⟧⟨155⟩⟦131⟧⟨156⟩⟦210⟧⟨157⟩⟦40⟧⟨158⟩⟦238⟧⟨159⟩⟦252⟧⟨160⟩
+[I Want Her] ⟨161⟩⟦215⟧⟨162⟩⟦131⟧⟨163⟩⟦189⟧⟨164⟩⟦40⟧⟨165⟩
+[I Want Her] ⟨166⟩⟦200⟧⟨167⟩⟦166⟧⟨168⟩⟦228⟧⟨169⟩⟦42⟧⟨170⟩
+[I Want Her] ⟨171⟩⟦131⟧⟨172⟩⟦131⟧⟨173⟩⟦195⟧⟨174⟩⟦55⟧⟨175⟩⟦40⟧⟨176⟩
+[I Want Her] ⟦230⟧⟨177⟩⟦166⟧⟨178⟩⟦227⟧⟨179⟩⟦68⟧⟨180⟩⟦40⟧⟨181⟩
+[I Want Her] ⟨182⟩⟦131⟧⟨183⟩⟦131⟧⟨184⟩⟦45⟧⟨185⟩⟦112⟧⟨186⟩⟦8⟧⟨187⟩⟦105⟧⟨188⟩⟦177⟧⟨189⟩⟦167⟧⟨190⟩⟦20⟧⟨191⟩⟦239⟧⟨192⟩
+[I Got the Feeling (Today song)] ⟨193⟩⟦199⟧⟨194⟩⟦71⟧⟨195⟩⟦15⟧⟨196⟩⟦105⟧⟨197⟩⟦177⟧⟨198⟩⟦166⟧⟨199⟩⟦216⟧⟨200⟩⟦25⟧⟨201⟩⟦240⟧⟨202⟩
+[I Got the Feeling (Today song)] ⟦202⟧⟨203⟩⟦243⟧⟨204⟩⟦241⟧⟨205⟩⟦19⟧⟨206⟩⟦4⟧⟨207⟩⟦28⟧⟨208⟩⟦34⟧⟨209⟩⟦249⟧⟨210⟩⟦37⟧⟨211⟩⟦37⟧⟨212⟩
+[I Got the Feeling (Today song)] ⟦230⟧⟨213⟩⟦166⟧⟨214⟩⟦31⟧⟨215⟩⟦40⟧⟨216⟩
+[I Got the Feeling (Today song)] ⟨217⟩⟦188⟧⟨218⟩⟦248⟧⟨219⟩⟦77⟧⟨220⟩⟦223⟧⟨221⟩⟦177⟧⟨222⟩⟦146⟧⟨223⟩⟦173⟧⟨224⟩
+[Damion Hall] ⟦54⟧⟨225⟩⟦53⟧⟨226⟩⟦22⟧⟨227⟩⟦161⟧⟨228⟩
+[Damion Hall] ⟨229⟩⟦14⟧⟨230⟩⟦117⟧⟨231⟩⟦222⟧⟨232⟩⟦82⟧⟨233⟩⟦84⟧⟨234⟩⟦192⟧⟨235⟩⟦36⟧⟨236⟩⟦85⟧⟨237⟩⟦117⟧⟨238⟩⟦17⟧⟨239⟩
+[Damion Hall] ⟨240⟩⟦133⟧⟨241⟩⟦165⟧⟨242⟩⟦19⟧⟨243⟩⟦226⟧⟨244⟩⟦39⟧⟨245⟩
+[Damion Hall] ⟦183⟧⟨246⟩⟦166⟧⟨247⟩⟦190⟧⟨248⟩⟦42⟧⟨249⟩
+[New Jack City (soundtrack)] ⟦126⟧⟨250⟩⟦225⟧⟨251⟩⟦172⟧⟨252⟩⟦187⟧⟨253⟩⟦72⟧⟨254⟩⟦1⟧⟨255⟩⟦80⟧⟨256⟩⟦152⟧⟨257⟩⟦251⟧
+[New Jack City (soundtrack)] ⟦150⟧⟨258⟩
+[New Jack City (soundtrack)] ⟦232⟧⟨259⟩⟦172⟧⟨260⟩⟦67⟧⟨261⟩⟦167⟧⟨262⟩⟦40⟧⟨263⟩⟦41⟧⟨264⟩⟦91⟧⟨265⟩⟦98⟧⟨266⟩⟦25⟧⟨267⟩⟦233⟧⟨268⟩⟦239⟧⟨269⟩
+[New Jack City (soundtrack)] ⟦217⟧⟨270⟩⟦122⟧⟨271⟩⟦221⟧⟨272⟩⟦177⟧⟨273⟩⟦78⟧⟨274⟩
+[New Jack City (soundtrack)] ⟦143⟧⟨275⟩⟦25⟧⟨276⟩⟦140⟧⟨277⟩⟦140⟧⟨278⟩⟦220⟧⟨279⟩⟦69⟧⟨280⟩⟦232⟧⟨281⟩⟦172⟧⟨282⟩⟦84⟧⟨283⟩⟦181⟧⟨284⟩⟦109⟧⟨285⟩⟦44⟧⟨286⟩⟦108⟧⟨287⟩
+[New Jack City (soundtrack)] ⟨288⟩⟦234⟧⟨289⟩⟦243⟧⟨290⟩⟦70⟧⟨291⟩
+[1990s in music] ⟦138⟧⟨292⟩⟦122⟧⟨293⟩⟦186⟧⟨294⟩⟦7⟧⟨295⟩⟦193⟧⟨296⟩⟦49⟧⟨297⟩⟦182⟧⟨298⟩⟦136⟧⟨299⟩⟦55⟧⟨300⟩⟦59⟧⟨301⟩⟦136⟧⟨302⟩⟦244⟧⟨303⟩⟦185⟧⟨304⟩⟦5⟧⟨305⟩⟦6⟧⟨306⟩⟦6⟧⟨307⟩
+[1990s in music] ⟨308⟩⟦91⟧⟨309⟩⟦92⟧⟨310⟩⟦98⟧⟨311⟩⟦196⟧⟨312⟩⟦61⟧⟨313⟩⟦193⟧⟨314⟩⟦49⟧⟨315⟩⟦204⟧⟨316⟩⟦78⟧⟨317⟩⟦18⟧⟨318⟩
+[1990s in music] ⟨319⟩⟦147⟧⟨320⟩⟦147⟧⟨321⟩⟦151⟧⟨322⟩⟦47⟧⟨323⟩⟦245⟧⟨324⟩⟦122⟧⟨325⟩⟦196⟧⟨326⟩⟦61⟧⟨327⟩⟦245⟧⟨328⟩⟦122⟧⟨329⟩⟦213⟧⟨330⟩⟦111⟧⟨331⟩⟦7⟧⟨332⟩⟦7⟧⟨333⟩⟦176⟧⟨334⟩⟦176⟧⟨335⟩⟦170⟧⟨336⟩⟦170⟧⟨337⟩⟦74⟧⟨338⟩⟦74⟧⟨339⟩⟦107⟧⟨340⟩⟦107⟧⟨341⟩⟦75⟧⟨342⟩⟦76⟧⟨343⟩⟦79⟧⟨344⟩⟦127⟧⟨345⟩⟦105⟧⟨346⟩⟦177⟧⟨347⟩⟦125⟧⟨348⟩⟦125⟧⟨349⟩⟦170⟧⟨350⟩⟦170⟧⟨351⟩⟦91⟧⟨352⟩⟦93⟧⟨353⟩⟦98⟧⟨354⟩⟦170⟧⟨355⟩⟦74⟧⟨356⟩⟦74⟧⟨357⟩
+[New Jack Reunion Tour] ⟦218⟧⟨358⟩⟦9⟧⟨359⟩⟦46⟧⟨360⟩⟦242⟧⟨361⟩⟦118⟧⟨362⟩⟦122⟧⟨363⟩⟦122⟧⟨364⟩⟦2⟧⟨365⟩⟦105⟧⟨366⟩⟦177⟧⟨367⟩⟦181⟧⟨368⟩
+[List of new jack swing artists] ⟦237⟧⟨369⟩⟦112⟧⟨370⟩⟦162⟧⟨371⟩⟦162⟧⟨372⟩⟦83⟧⟨373⟩⟦83⟧⟨374⟩⟦219⟧⟨375⟩⟦177⟧⟨376⟩⟦178⟧⟨377⟩⟦179⟧⟨378⟩⟦175⟧⟨379⟩⟦12⟧⟨380⟩⟦175⟧⟨381⟩⟦214⟧⟨382⟩⟦121⟧⟨383⟩⟦198⟧⟨384⟩⟦7⟧⟨385⟩
+[List of new jack swing artists] ⟨386⟩⟦229⟧⟨387⟩⟦153⟧⟨388⟩⟦157⟧⟨389⟩⟦157⟧⟨390⟩⟦141⟧⟨391⟩⟦142⟧⟨392⟩⟦180⟧⟨393⟩⟦91⟧⟨394⟩⟦92⟧⟨395⟩⟦98⟧⟨396⟩⟦55⟧⟨397⟩⟦57⟧⟨398⟩⟦136⟧⟨399⟩⟦122⟧⟨400⟩⟦235⟧⟨401⟩⟦171⟧⟨402⟩⟦145⟧⟨403⟩⟦145⟧
+[List of new jack swing artists] ⟦224⟧⟨404⟩⟦177⟧⟨405⟩⟦175⟧⟨406⟩⟦27⟧⟨407⟩⟦176⟧⟨408⟩⟦66⟧⟨409⟩⟦66⟧⟨410⟩⟦132⟧⟨411⟩⟦176⟧⟨412⟩⟦130⟧⟨413⟩⟦244⟧⟨414⟩
+[List of new jack swing artists] ⟨415⟩⟦116⟧⟨416⟩⟦165⟧⟨417⟩⟦250⟧⟨418⟩⟦250⟧⟨419⟩⟦153⟧⟨420⟩⟦153⟧⟨421⟩⟦3⟧⟨422⟩⟦174⟧⟨423⟩⟦29⟧⟨424⟩⟦246⟧⟨425⟩⟦102⟧⟨426⟩
+[List of new jack swing artists] ⟦231⟧⟨427⟩⟦171⟧⟨428⟩⟦127⟧⟨429⟩⟦177⟧⟨430⟩⟦209⟧⟨431⟩⟦91⟧⟨432⟩⟦98⟧⟨433⟩⟦177⟧⟨434⟩⟦29⟧⟨435⟩⟦63⟧⟨436⟩⟦64⟧⟨437⟩⟦115⟧⟨438⟩⟦88⟧⟨439⟩⟦89⟧⟨440⟩⟦156⟧⟨441⟩⟦205⟧⟨442⟩⟦18⟧⟨443⟩⟦91⟧⟨444⟩⟦92⟧⟨445⟩⟦98⟧⟨446⟩⟦48⟧⟨447⟩⟦175⟧⟨448⟩⟦163⟧⟨449⟩
+[Aaron Hall (singer)] ⟦17⟧⟨450⟩⟦191⟧⟨451⟩⟦35⟧⟨452⟩⟦155⟧⟨453⟩⟦113⟧⟨454⟩⟦24⟧⟨455⟩⟦170⟧⟨456⟩⟦161⟧⟨457⟩⟦168⟧⟨458⟩⟦168⟧⟨459⟩
+[Aaron Hall (singer)] ⟨460⟩⟦10⟧⟨461⟩⟦117⟧⟨462⟩⟦207⟧⟨463⟩⟦82⟧⟨464⟩⟦212⟧⟨465⟩⟦6⟧⟨466⟩⟦128⟧⟨467⟩⟦105⟧⟨468⟩⟦177⟧⟨469⟩⟦139⟧⟨470⟩⟦168⟧⟨471⟩⟦169⟧⟨472⟩⟦87⟧⟨473⟩⟦36⟧⟨474⟩⟦54⟧⟨475⟩
+[Aaron Hall (singer)] ⟨476⟩⟦236⟧⟨477⟩⟦19⟧⟨478⟩⟦134⟧⟨479⟩⟦50⟧⟨480⟩⟦38⟧⟨481⟩⟦135⟧⟨482⟩
+[Aaron Hall (singer)] ⟦86⟧⟨483⟩⟦206⟧⟨484⟩⟦82⟧⟨485⟩⟦167⟧⟨486⟩⟦167⟧⟨487⟩⟦81⟧⟨488⟩⟦81⟧⟨489⟩⟦124⟧⟨490⟩⟦114⟧⟨491⟩
+
+[user]
+
+问题：
+Which member of the music group Guy spearheaded the fusion genre New Jack Swing with Bernard Belle in the 1980's? 
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

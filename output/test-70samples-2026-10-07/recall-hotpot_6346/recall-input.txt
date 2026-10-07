@@ -1,0 +1,435 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (now Fredrick Douglass High School
+⟦2⟧ = 104 bed
+⟦3⟧ = 120,316 out-patients
+⟦4⟧ = 16,720 patients
+⟦5⟧ = 20,143-day cases
+⟦6⟧ = 5.8 nights
+⟦7⟧ = 56,528 patients
+⟦8⟧ = 72.8%
+⟦9⟧ = a 24-hour emergency department
+⟦10⟧ = a café
+⟦11⟧ = a child:"I
+⟦12⟧ = a clinic
+⟦13⟧ = a combined art and historical museum
+⟦14⟧ = a five year grant
+⟦15⟧ = a free student-run health care clinic
+⟦16⟧ = a graduate
+⟦17⟧ = a historic African American community
+⟦18⟧ = a historic cemetery
+⟦19⟧ = a hospital
+⟦20⟧ = a low-priced clinic
+⟦21⟧ = a major hospital
+⟦22⟧ = a manualized form
+⟦23⟧ = a member
+⟦24⟧ = a part
+⟦25⟧ = a place
+⟦26⟧ = a Professor
+⟦27⟧ = a Psychiatric Researcher
+⟦28⟧ = a short-term, private hospital
+⟦29⟧ = Aarhus
+⟦30⟧ = Aarhus University Hospital
+⟦31⟧ = abuse
+⟦32⟧ = access
+⟦33⟧ = accident
+⟦34⟧ = accommodations
+⟦35⟧ = activist
+⟦36⟧ = acute-care hospital services
+⟦37⟧ = addiction
+⟦38⟧ = admissions
+⟦39⟧ = adolescents
+⟦40⟧ = adults
+⟦41⟧ = African American ancestry
+⟦42⟧ = African American medical students
+⟦43⟧ = African Americans
+⟦44⟧ = an African American surgeon
+⟦45⟧ = an agricultural community
+⟦46⟧ = an American physician
+⟦47⟧ = an average stay
+⟦48⟧ = an intern
+⟦49⟧ = an open atelier
+⟦50⟧ = an outcome study
+⟦51⟧ = ancestry
+⟦52⟧ = anxiety
+⟦53⟧ = anxiety disorders
+⟦54⟧ = any health facility
+⟦55⟧ = approaches
+⟦56⟧ = area
+⟦57⟧ = art
+⟦58⟧ = atelier
+⟦59⟧ = bachelor
+⟦60⟧ = Baltimore
+⟦61⟧ = bed
+⟦62⟧ = behavioral healthcare
+⟦63⟧ = board
+⟦64⟧ = buildings
+⟦65⟧ = café
+⟦66⟧ = care
+⟦67⟧ = cases
+⟦68⟧ = cemetery
+⟦69⟧ = certification
+⟦70⟧ = change
+⟦71⟧ = Charles DeWitt Watts
+⟦72⟧ = chief
+⟦73⟧ = child:"I
+⟦74⟧ = children
+⟦75⟧ = churches
+⟦76⟧ = city
+⟦77⟧ = civic organizations
+⟦78⟧ = Clare
+⟦79⟧ = clinic
+⟦80⟧ = Clinical Psychiatry
+⟦81⟧ = closure
+⟦82⟧ = colleges
+⟦83⟧ = Columbia University
+⟦84⟧ = Columbia University College
+⟦85⟧ = community
+⟦86⟧ = Cornell University Medical School/New York-Presbyterian Hospital
+⟦87⟧ = counties
+⟦88⟧ = creative workshops
+⟦89⟧ = customs
+⟦90⟧ = D.C.
+⟦91⟧ = D.C. General Hospital
+⟦92⟧ = day
+⟦93⟧ = DC
+⟦94⟧ = death
+⟦95⟧ = decade
+⟦96⟧ = decades
+⟦97⟧ = degree
+⟦98⟧ = DeKalb County
+⟦99⟧ = Denmark
+⟦100⟧ = department
+⟦101⟧ = disorder
+⟦102⟧ = disorders
+⟦103⟧ = doctors
+⟦104⟧ = Dooradoyle
+⟦105⟧ = Dr. Howard E. Young
+⟦106⟧ = Dr. Markowitz
+⟦107⟧ = drugstore
+⟦108⟧ = Durham
+⟦109⟧ = Durham's Lincoln Hospital
+⟦110⟧ = dysthymic disorder
+⟦111⟧ = emancipation
+⟦112⟧ = emergency
+⟦113⟧ = establishment
+⟦114⟧ = Estelle Hall Young
+⟦115⟧ = facilities
+⟦116⟧ = facility
+⟦117⟧ = farms
+⟦118⟧ = father
+⟦119⟧ = figures
+⟦120⟧ = five years
+⟦121⟧ = Flat Rock
+⟦122⟧ = Flat Rock Archives
+⟦123⟧ = form
+⟦124⟧ = former slaves
+⟦125⟧ = Freedman's Hospital
+⟦126⟧ = Freedmen's Hospital
+⟦127⟧ = Freedmen’s Hospital
+⟦128⟧ = freedom
+⟦129⟧ = general hospital facilities
+⟦130⟧ = Georgia
+⟦131⟧ = Girls
+⟦132⟧ = graduate
+⟦133⟧ = graduation
+⟦134⟧ = grant
+⟦135⟧ = group
+⟦136⟧ = group treatment programs
+⟦137⟧ = health
+⟦138⟧ = healthcare
+⟦139⟧ = heart
+⟦140⟧ = her bachelor
+⟦141⟧ = her father's drugstore
+⟦142⟧ = Her father's pharmacy
+⟦143⟧ = her graduation
+⟦144⟧ = her internship
+⟦145⟧ = her medical degree
+⟦146⟧ = her own practice
+⟦147⟧ = his medical degree
+⟦148⟧ = his psychiatric residency training
+⟦149⟧ = history
+⟦150⟧ = hospital
+⟦151⟧ = hospitalization
+⟦152⟧ = hour
+⟦153⟧ = housing
+⟦154⟧ = housing accommodations
+⟦155⟧ = Howard University
+⟦156⟧ = Howard University College
+⟦157⟧ = Howard University Hospital
+⟦158⟧ = HUCM
+⟦159⟧ = HUH
+⟦160⟧ = HUH's original name - Freedmen's Hospital
+⟦161⟧ = illnesses
+⟦162⟧ = inspiration
+⟦163⟧ = institutions
+⟦164⟧ = intern
+⟦165⟧ = internship
+⟦166⟧ = interpersonal psychotherapy
+⟦167⟧ = IPT
+⟦168⟧ = Ireland
+⟦169⟧ = Ireland's Mid West Region
+⟦170⟧ = its kind
+⟦171⟧ = its name
+⟦172⟧ = its third name change
+⟦173⟧ = John C. Markowitz
+⟦174⟧ = Johnson farms
+⟦175⟧ = July
+⟦176⟧ = June
+⟦177⟧ = kind
+⟦178⟧ = laboratories
+⟦179⟧ = lack
+⟦180⟧ = lawsuits
+⟦181⟧ = Limerick
+⟦182⟧ = Limerick Regional Hospital
+⟦183⟧ = Lithonia
+⟦184⟧ = Lyon
+⟦185⟧ = M.D.
+⟦186⟧ = major depressive disorder
+⟦187⟧ = Manhattan
+⟦188⟧ = many former slaves
+⟦189⟧ = many professional colleges
+⟦190⟧ = Maryland
+⟦191⟧ = Maryland's first African American pharmacist
+⟦192⟧ = medical services
+⟦193⟧ = medical treatment
+⟦194⟧ = medications
+⟦195⟧ = medicine
+⟦196⟧ = member
+⟦197⟧ = mental and addictive illnesses
+⟦198⟧ = Mental Health
+⟦199⟧ = mental illnesses
+⟦200⟧ = Mid-Western Regional Hospital
+⟦201⟧ = mood
+⟦202⟧ = mood disorders
+⟦203⟧ = museum
+⟦204⟧ = my father's drugstore
+⟦205⟧ = my prescriptions
+⟦206⟧ = name
+⟦207⟧ = needs
+⟦208⟧ = neighborhood
+⟦209⟧ = Nellie Louise Young
+⟦210⟧ = New York City
+⟦211⟧ = nights
+⟦212⟧ = North Carolina
+⟦213⟧ = North Tipperary
+⟦214⟧ = now New York-Presbyterian Hospital
+⟦215⟧ = obstacles
+⟦216⟧ = offices
+⟦217⟧ = organizations
+⟦218⟧ = outcome
+⟦219⟧ = outpatient
+⟦220⟧ = over 150 years
+⟦221⟧ = part
+⟦222⟧ = partial and intensive outpatient hospitalization
+⟦223⟧ = patients
+⟦224⟧ = personality
+⟦225⟧ = personality disorders
+⟦226⟧ = pharmacist
+⟦227⟧ = pharmacy
+⟦228⟧ = physician
+⟦229⟧ = Physicians
+⟦230⟧ = PIW
+⟦231⟧ = place
+⟦232⟧ = population
+⟦233⟧ = Posttraumatic Stress Disorder
+⟦234⟧ = practice
+⟦235⟧ = Presbyterian Hospital
+⟦236⟧ = prescriptions
+⟦237⟧ = programmes
+⟦238⟧ = programs
+⟦239⟧ = psychiatric patients
+⟦240⟧ = psychiatric treatment
+⟦241⟧ = psychotherapies
+⟦242⟧ = psychotherapy
+⟦243⟧ = racial obstacles
+⟦244⟧ = rate
+⟦245⟧ = research
+⟦246⟧ = research laboratories
+⟦247⟧ = residency
+⟦248⟧ = Risskov
+⟦249⟧ = schools
+⟦250⟧ = science
+⟦251⟧ = science degree
+⟦252⟧ = sciences
+⟦253⟧ = September
+⟦254⟧ = services
+⟦255⟧ = settlement
+⟦256⟧ = several decades
+⟦257⟧ = site
+⟦258⟧ = slaves
+⟦259⟧ = social programmes
+⟦260⟧ = social sciences
+⟦261⟧ = South Tipperary
+⟦262⟧ = staff
+⟦263⟧ = staff physician
+⟦264⟧ = stay
+⟦265⟧ = student
+⟦266⟧ = students
+⟦267⟧ = study
+⟦268⟧ = substance
+⟦269⟧ = substance abuse
+⟦270⟧ = summer
+⟦271⟧ = surgeon
+⟦272⟧ = Surgeons
+⟦273⟧ = surgery
+⟦274⟧ = surgical training
+⟦275⟧ = teaching
+⟦276⟧ = term
+⟦277⟧ = thanks
+⟦278⟧ = the accident and emergency department
+⟦279⟧ = the African American community
+⟦280⟧ = the American College
+⟦281⟧ = the area
+⟦282⟧ = the area's African-American community
+⟦283⟧ = the care
+⟦284⟧ = the city
+⟦285⟧ = the Civil War
+⟦286⟧ = the closure
+⟦287⟧ = the Columbia University College
+⟦288⟧ = the Columbia University Medical Center
+⟦289⟧ = The community
+⟦290⟧ = the doctors
+⟦291⟧ = the emergency department
+⟦292⟧ = the establishment
+⟦293⟧ = the first African American board certified surgeon
+⟦294⟧ = the first African American woman
+⟦295⟧ = the first institutions
+⟦296⟧ = the first surgeon
+⟦297⟧ = the Graduate Medical School
+⟦298⟧ = The Great Migration
+⟦299⟧ = the heart
+⟦300⟧ = the highest rate
+⟦301⟧ = the history
+⟦302⟧ = The hospital
+⟦303⟧ = the Howard University School
+⟦304⟧ = the Institute
+⟦305⟧ = the Institute's psychiatric services
+⟦306⟧ = the Irish Government's Health Service Executive
+⟦307⟧ = the key figures
+⟦308⟧ = the lack
+⟦309⟧ = the large South
+⟦310⟧ = the late Gerald L. Klerman
+⟦311⟧ = the Lincoln Community Health Center
+⟦312⟧ = the major hospital
+⟦313⟧ = the Maryland Training School
+⟦314⟧ = the medical needs
+⟦315⟧ = The museum
+⟦316⟧ = the National Institute
+⟦317⟧ = The New Freedmen's Clinic
+⟦318⟧ = the New York State Psychiatric Institute
+⟦319⟧ = the old Colored High School
+⟦320⟧ = the oldest African American settlement
+⟦321⟧ = the Payne Whitney Psychiatric Clinic
+⟦322⟧ = the population
+⟦323⟧ = the previous decade
+⟦324⟧ = the previous Griffith Stadium
+⟦325⟧ = the Provident Hospital
+⟦326⟧ = the Psychiatric Hospital
+⟦327⟧ = The Psychiatric Institute
+⟦328⟧ = the Risskov Psychiatric Hospital
+⟦329⟧ = the same buildings
+⟦330⟧ = the same time
+⟦331⟧ = the same year
+⟦332⟧ = the site
+⟦333⟧ = the social customs
+⟦334⟧ = the summer
+⟦335⟧ = the thousands
+⟦336⟧ = the United States
+⟦337⟧ = the University
+⟦338⟧ = the Washington Heights neighborhood
+⟦339⟧ = their freedom
+⟦340⟧ = therapeutic approaches
+⟦341⟧ = thousands
+⟦342⟧ = three psychotherapies
+⟦343⟧ = time
+⟦344⟧ = total
+⟦345⟧ = training
+⟦346⟧ = treatment
+⟦347⟧ = treatments
+⟦348⟧ = University Hospital Limerick
+⟦349⟧ = Washington
+⟦350⟧ = Washington D.C.
+⟦351⟧ = Watts
+⟦352⟧ = woman
+⟦353⟧ = women
+⟦354⟧ = workshops
+⟦355⟧ = wrongful death lawsuits
+⟦356⟧ = year
+⟦357⟧ = years
+⟦358⟧ = Young
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Flat Rock, Georgia] ⟦121⟧⟨1⟩⟦17⟧⟨2⟩⟦85⟧⟨3⟩⟦98⟧⟨4⟩⟦130⟧⟨5⟩
+[Flat Rock, Georgia] ⟨6⟩⟦284⟧⟨7⟩⟦76⟧⟨8⟩⟦183⟧⟨9⟩
+[Flat Rock, Georgia] ⟦121⟧⟨10⟩⟦320⟧⟨11⟩⟦255⟧⟨12⟩⟦98⟧⟨13⟩⟦130⟧⟨14⟩
+[Flat Rock, Georgia] ⟨15⟩⟦45⟧⟨16⟩⟦85⟧⟨17⟩⟦309⟧⟨18⟩⟦184⟧⟨19⟩⟦174⟧⟨20⟩⟦117⟧⟨21⟩
+[Flat Rock, Georgia] ⟨22⟩⟦111⟧⟨23⟩⟦111⟧⟨24⟩⟦188⟧⟨25⟩⟦258⟧⟨26⟩⟦281⟧⟨27⟩⟦56⟧⟨28⟩⟦249⟧⟨29⟩⟦249⟧⟨30⟩⟦75⟧⟨31⟩⟦75⟧⟨32⟩⟦77⟧⟨33⟩⟦217⟧⟨34⟩
+[Flat Rock, Georgia] ⟦289⟧⟨35⟩⟦85⟧⟨36⟩⟦298⟧⟨37⟩⟦332⟧⟨38⟩⟦257⟧⟨39⟩⟦122⟧⟨40⟩⟦18⟧⟨41⟩⟦68⟧⟨42⟩
+[John Markowitz] ⟦173⟧⟨43⟩⟦210⟧⟨44⟩⟦46⟧⟨45⟩⟦228⟧⟨46⟩⟦26⟧⟨47⟩⟦80⟧⟨48⟩⟦287⟧⟨49⟩⟦229⟧⟨50⟩⟦272⟧⟨51⟩⟦27⟧⟨52⟩⟦318⟧⟨53⟩
+[John Markowitz] ⟨54⟩⟦256⟧⟨55⟩⟦96⟧⟨56⟩⟦245⟧⟨57⟩⟦245⟧⟨58⟩⟦241⟧⟨59⟩⟦241⟧⟨60⟩⟦194⟧⟨61⟩⟦194⟧⟨62⟩⟦347⟧⟨63⟩⟦347⟧⟨64⟩⟦201⟧⟨65⟩⟦202⟧⟨66⟩⟦102⟧⟨67⟩⟦186⟧⟨68⟩⟦101⟧⟨69⟩⟦110⟧⟨70⟩⟦101⟧⟨71⟩⟦52⟧⟨72⟩⟦53⟧⟨73⟩⟦102⟧⟨74⟩⟦224⟧⟨75⟩⟦225⟧⟨76⟩⟦102⟧⟨77⟩
+[John Markowitz] ⟨78⟩⟦50⟧⟨79⟩⟦218⟧⟨80⟩⟦267⟧⟨81⟩⟦342⟧⟨82⟩⟦241⟧⟨83⟩⟦233⟧⟨84⟩⟦277⟧⟨85⟩⟦14⟧⟨86⟩⟦356⟧⟨87⟩⟦134⟧⟨88⟩⟦316⟧⟨89⟩⟦198⟧⟨90⟩
+[John Markowitz] ⟨91⟩⟦281⟧⟨92⟩⟦56⟧⟨93⟩⟦166⟧⟨94⟩⟦242⟧⟨95⟩⟦167⟧⟨96⟩⟦22⟧⟨97⟩⟦123⟧⟨98⟩⟦346⟧⟨99⟩⟦346⟧⟨100⟩⟦310⟧⟨101⟩⟦185⟧⟨102⟩⟦106⟧⟨103⟩⟦16⟧⟨104⟩⟦132⟧⟨105⟩⟦83⟧⟨106⟩⟦84⟧⟨107⟩⟦229⟧⟨108⟩⟦272⟧⟨109⟩⟦148⟧⟨110⟩⟦247⟧⟨111⟩⟦345⟧⟨112⟩⟦321⟧⟨113⟩⟦86⟧⟨114⟩
+[N. Louise Young] ⟦209⟧⟨115⟩⟦176⟧⟨116⟩⟦253⟧⟨117⟩⟦294⟧⟨118⟩⟦352⟧⟨119⟩⟦195⟧⟨120⟩⟦195⟧⟨121⟩⟦190⟧⟨122⟩
+[N. Louise Young] ⟦358⟧⟨123⟩⟦60⟧⟨124⟩⟦190⟧⟨125⟩⟦105⟧⟨126⟩⟦191⟧⟨127⟩⟦226⟧⟨128⟩⟦114⟧⟨129⟩
+[N. Louise Young] ⟦142⟧⟨130⟩⟦118⟧⟨131⟩⟦227⟧⟨132⟩⟦25⟧⟨133⟩⟦231⟧⟨134⟩⟦162⟧⟨135⟩⟦162⟧⟨136⟩⟦358⟧⟨137⟩⟦11⟧⟨138⟩⟦73⟧⟨139⟩⟦290⟧⟨140⟩⟦103⟧⟨141⟩⟦205⟧⟨142⟩⟦236⟧⟨143⟩⟦204⟧⟨144⟩⟦118⟧⟨145⟩⟦107⟧⟨146⟩
+[N. Louise Young] ⟨147⟩⟦319⟧⟨148⟩⟦1⟧⟨149⟩⟦60⟧⟨150⟩
+[N. Louise Young] ⟨151⟩⟦143⟧⟨152⟩⟦133⟧⟨153⟩⟦358⟧⟨154⟩⟦155⟧⟨155⟩⟦140⟧⟨156⟩⟦59⟧⟨157⟩⟦250⟧⟨158⟩⟦251⟧⟨159⟩⟦97⟧⟨160⟩⟦260⟧⟨161⟩⟦252⟧⟨162⟩⟦145⟧⟨163⟩⟦97⟧⟨164⟩⟦303⟧⟨165⟩⟦195⟧⟨166⟩
+[N. Louise Young] ⟦358⟧⟨167⟩⟦48⟧⟨168⟩⟦164⟧⟨169⟩⟦127⟧⟨170⟩⟦349⟧⟨171⟩⟦90⟧⟨172⟩⟦325⟧⟨173⟩⟦60⟧⟨174⟩⟦308⟧⟨175⟩⟦179⟧⟨176⟩⟦153⟧⟨177⟩⟦154⟧⟨178⟩⟦34⟧⟨179⟩⟦353⟧⟨180⟩⟦353⟧⟨181⟩
+[N. Louise Young] ⟨182⟩⟦144⟧⟨183⟩⟦165⟧⟨184⟩⟦358⟧⟨185⟩⟦146⟧⟨186⟩⟦234⟧⟨187⟩⟦216⟧⟨188⟩⟦216⟧⟨189⟩⟦141⟧⟨190⟩⟦118⟧⟨191⟩⟦107⟧⟨192⟩
+[N. Louise Young] ⟨193⟩⟦330⟧⟨194⟩⟦343⟧⟨195⟩⟦262⟧⟨196⟩⟦263⟧⟨197⟩⟦228⟧⟨198⟩⟦313⟧⟨199⟩⟦131⟧⟨200⟩
+[Museum Ovartaci] ⟨201⟩⟦29⟧⟨202⟩⟦99⟧⟨203⟩⟦13⟧⟨204⟩⟦57⟧⟨205⟩⟦203⟧⟨206⟩⟦301⟧⟨207⟩⟦149⟧⟨208⟩⟦240⟧⟨209⟩⟦346⟧⟨210⟩⟦57⟧⟨211⟩⟦57⟧⟨212⟩⟦223⟧⟨213⟩⟦223⟧⟨214⟩⟦328⟧⟨215⟩
+[Museum Ovartaci] ⟨216⟩⟦24⟧⟨217⟩⟦221⟧⟨218⟩⟦30⟧⟨219⟩⟦329⟧⟨220⟩⟦64⟧⟨221⟩⟦326⟧⟨222⟩⟦248⟧⟨223⟩
+[Museum Ovartaci] ⟦315⟧⟨224⟩⟦203⟧⟨225⟩⟦259⟧⟨226⟩⟦237⟧⟨227⟩⟦239⟧⟨228⟩⟦223⟧⟨229⟩⟦49⟧⟨230⟩⟦58⟧⟨231⟩⟦88⟧⟨232⟩⟦354⟧⟨233⟩⟦10⟧⟨234⟩⟦65⟧⟨235⟩
+[New York State Psychiatric Institute] ⟦318⟧⟨236⟩⟦288⟧⟨237⟩⟦338⟧⟨238⟩⟦208⟧⟨239⟩⟦187⟧⟨240⟩⟦210⟧⟨241⟩⟦295⟧⟨242⟩⟦163⟧⟨243⟩⟦336⟧⟨244⟩⟦275⟧⟨245⟩⟦275⟧⟨246⟩⟦245⟧⟨247⟩⟦245⟧⟨248⟩⟦340⟧⟨249⟩⟦55⟧⟨250⟩⟦283⟧⟨251⟩⟦66⟧⟨252⟩⟦223⟧⟨253⟩⟦223⟧⟨254⟩⟦199⟧⟨255⟩⟦161⟧⟨256⟩
+[New York State Psychiatric Institute] ⟨257⟩⟦304⟧⟨258⟩⟦235⟧⟨259⟩⟦214⟧⟨260⟩⟦129⟧⟨261⟩⟦150⟧⟨262⟩⟦115⟧⟨263⟩⟦305⟧⟨264⟩⟦254⟧⟨265⟩⟦245⟧⟨266⟩⟦246⟧⟨267⟩⟦178⟧⟨268⟩
+[Howard University Hospital] ⟦157⟧⟨269⟩⟦126⟧⟨270⟩⟦150⟧⟨271⟩⟦21⟧⟨272⟩⟦150⟧⟨273⟩⟦349⟧⟨274⟩⟦90⟧⟨275⟩⟦332⟧⟨276⟩⟦257⟧⟨277⟩⟦324⟧⟨278⟩
+[Howard University Hospital] ⟦302⟧⟨279⟩⟦150⟧⟨280⟩⟦279⟧⟨281⟩⟦85⟧⟨282⟩⟦281⟧⟨283⟩⟦56⟧⟨284⟩⟦220⟧⟨285⟩⟦357⟧⟨286⟩⟦314⟧⟨287⟩⟦207⟧⟨288⟩⟦335⟧⟨289⟩⟦341⟧⟨290⟩⟦43⟧⟨291⟩⟦349⟧⟨292⟩⟦285⟧⟨293⟩⟦339⟧⟨294⟩⟦128⟧⟨295⟩
+[Howard University Hospital] ⟨296⟩⟦150⟧⟨297⟩⟦170⟧⟨298⟩⟦177⟧⟨299⟩⟦193⟧⟨300⟩⟦346⟧⟨301⟩⟦124⟧⟨302⟩⟦258⟧⟨303⟩⟦312⟧⟨304⟩⟦150⟧⟨305⟩⟦282⟧⟨306⟩⟦56⟧⟨307⟩⟦85⟧⟨308⟩
+[Howard University Hospital] ⟨309⟩⟦286⟧⟨310⟩⟦81⟧⟨311⟩⟦91⟧⟨312⟩⟦302⟧⟨313⟩⟦150⟧⟨314⟩⟦300⟧⟨315⟩⟦244⟧⟨316⟩⟦355⟧⟨317⟩⟦94⟧⟨318⟩⟦180⟧⟨319⟩⟦54⟧⟨320⟩⟦137⟧⟨321⟩⟦116⟧⟨322⟩⟦350⟧⟨323⟩⟦323⟧⟨324⟩⟦95⟧⟨325⟩
+[Psychiatric Institute of Washington] ⟦327⟧⟨326⟩⟦349⟧⟨327⟩⟦230⟧⟨328⟩⟦2⟧⟨329⟩⟦61⟧⟨330⟩⟦150⟧⟨331⟩⟦349⟧⟨332⟩⟦230⟧⟨333⟩⟦28⟧⟨334⟩⟦276⟧⟨335⟩⟦150⟧⟨336⟩
+[Psychiatric Institute of Washington] ⟨337⟩⟦62⟧⟨338⟩⟦138⟧⟨339⟩⟦223⟧⟨340⟩⟦223⟧⟨341⟩⟦197⟧⟨342⟩⟦161⟧⟨343⟩⟦74⟧⟨344⟩⟦74⟧⟨345⟩⟦39⟧⟨346⟩⟦39⟧⟨347⟩⟦40⟧⟨348⟩⟦40⟧⟨349⟩
+[Psychiatric Institute of Washington] ⟦254⟧⟨350⟩⟦254⟧⟨351⟩⟦230⟧⟨352⟩⟦222⟧⟨353⟩⟦219⟧⟨354⟩⟦151⟧⟨355⟩⟦135⟧⟨356⟩⟦136⟧⟨357⟩⟦346⟧⟨358⟩⟦238⟧⟨359⟩⟦268⟧⟨360⟩⟦269⟧⟨361⟩⟦31⟧⟨362⟩⟦37⟧⟨363⟩⟦37⟧⟨364⟩
+[The New Freedmen's Clinic] ⟦317⟧⟨365⟩⟦334⟧⟨366⟩⟦270⟧⟨367⟩⟦15⟧⟨368⟩⟦265⟧⟨369⟩⟦137⟧⟨370⟩⟦66⟧⟨371⟩⟦79⟧⟨372⟩⟦157⟧⟨373⟩⟦159⟧⟨374⟩⟦156⟧⟨375⟩⟦195⟧⟨376⟩⟦158⟧⟨377⟩⟦158⟧⟨378⟩
+[The New Freedmen's Clinic] ⟨379⟩⟦171⟧⟨380⟩⟦206⟧⟨381⟩⟦160⟧⟨382⟩⟦206⟧⟨383⟩⟦150⟧⟨384⟩
+[The New Freedmen's Clinic] ⟨385⟩⟦299⟧⟨386⟩⟦139⟧⟨387⟩⟦349⟧⟨388⟩⟦93⟧⟨389⟩⟦159⟧⟨390⟩
+[University Hospital Limerick] ⟦348⟧⟨391⟩⟦182⟧⟨392⟩⟦200⟧⟨393⟩⟦181⟧⟨394⟩⟦19⟧⟨395⟩⟦150⟧⟨396⟩⟦104⟧⟨397⟩⟦181⟧⟨398⟩⟦168⟧⟨399⟩
+[University Hospital Limerick] ⟨400⟩⟦306⟧⟨401⟩⟦36⟧⟨402⟩⟦66⟧⟨403⟩⟦150⟧⟨404⟩⟦254⟧⟨405⟩⟦9⟧⟨406⟩⟦152⟧⟨407⟩⟦112⟧⟨408⟩⟦100⟧⟨409⟩⟦322⟧⟨410⟩⟦232⟧⟨411⟩⟦169⟧⟨412⟩⟦87⟧⟨413⟩⟦87⟧⟨414⟩⟦181⟧⟨415⟩⟦78⟧⟨416⟩⟦213⟧⟨417⟩⟦261⟧⟨418⟩
+[University Hospital Limerick] ⟨419⟩⟦302⟧⟨420⟩⟦150⟧⟨421⟩⟦3⟧⟨422⟩⟦223⟧⟨423⟩⟦223⟧⟨424⟩⟦223⟧⟨425⟩⟦47⟧⟨426⟩⟦264⟧⟨427⟩⟦6⟧⟨428⟩⟦211⟧⟨429⟩
+[University Hospital Limerick] ⟦8⟧⟨430⟩⟦38⟧⟨431⟩⟦38⟧⟨432⟩⟦278⟧⟨433⟩⟦33⟧⟨434⟩⟦112⟧⟨435⟩⟦4⟧⟨436⟩⟦223⟧⟨437⟩
+[University Hospital Limerick] ⟨438⟩⟦344⟧⟨439⟩⟦344⟧⟨440⟩⟦7⟧⟨441⟩⟦223⟧⟨442⟩⟦291⟧⟨443⟩⟦112⟧⟨444⟩⟦100⟧⟨445⟩
+[University Hospital Limerick] ⟦302⟧⟨446⟩⟦150⟧⟨447⟩⟦5⟧⟨448⟩⟦92⟧⟨449⟩⟦67⟧⟨450⟩⟦331⟧⟨451⟩⟦356⟧⟨452⟩
+[University Hospital Limerick] ⟨453⟩⟦175⟧⟨454⟩⟦302⟧⟨455⟩⟦150⟧⟨456⟩⟦172⟧⟨457⟩⟦206⟧⟨458⟩⟦70⟧⟨459⟩⟦120⟧⟨460⟩⟦357⟧⟨461⟩⟦348⟧⟨462⟩⟦292⟧⟨463⟩⟦113⟧⟨464⟩⟦297⟧⟨465⟩⟦337⟧⟨466⟩⟦181⟧⟨467⟩⟦302⟧⟨468⟩⟦150⟧⟨469⟩
+[Charles DeWitt Watts] ⟦71⟧⟨470⟩⟦253⟧⟨471⟩⟦175⟧⟨472⟩⟦44⟧⟨473⟩⟦271⟧⟨474⟩⟦35⟧⟨475⟩⟦35⟧⟨476⟩
+[Charles DeWitt Watts] ⟦351⟧⟨477⟩⟦296⟧⟨478⟩⟦271⟧⟨479⟩⟦41⟧⟨480⟩⟦51⟧⟨481⟩⟦212⟧⟨482⟩
+[Charles DeWitt Watts] ⟨483⟩⟦147⟧⟨484⟩⟦97⟧⟨485⟩⟦156⟧⟨486⟩⟦293⟧⟨487⟩⟦63⟧⟨488⟩⟦271⟧⟨489⟩⟦212⟧⟨490⟩
+[Charles DeWitt Watts] ⟨491⟩⟦274⟧⟨492⟩⟦345⟧⟨493⟩⟦125⟧⟨494⟩⟦349⟧⟨495⟩⟦90⟧⟨496⟩⟦108⟧⟨497⟩⟦212⟧⟨498⟩⟦12⟧⟨499⟩⟦79⟧⟨500⟩⟦32⟧⟨501⟩⟦32⟧⟨502⟩⟦192⟧⟨503⟩⟦254⟧⟨504⟩
+[Charles DeWitt Watts] ⟨505⟩⟦333⟧⟨506⟩⟦89⟧⟨507⟩⟦243⟧⟨508⟩⟦215⟧⟨509⟩⟦69⟧⟨510⟩⟦69⟧⟨511⟩⟦42⟧⟨512⟩⟦266⟧⟨513⟩
+[Charles DeWitt Watts] ⟨514⟩⟦23⟧⟨515⟩⟦196⟧⟨516⟩⟦189⟧⟨517⟩⟦82⟧⟨518⟩⟦250⟧⟨519⟩⟦195⟧⟨520⟩⟦280⟧⟨521⟩⟦272⟧⟨522⟩
+[Charles DeWitt Watts] ⟨523⟩⟦72⟧⟨524⟩⟦72⟧⟨525⟩⟦273⟧⟨526⟩⟦273⟧⟨527⟩⟦109⟧⟨528⟩⟦307⟧⟨529⟩⟦119⟧⟨530⟩⟦311⟧⟨531⟩⟦20⟧⟨532⟩⟦79⟧⟨533⟩
+
+[user]
+
+问题：
+Which hospital, the Psychiatric Institute of Washington or Howard University Hospital, is known for serving the African American community including former slaves?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

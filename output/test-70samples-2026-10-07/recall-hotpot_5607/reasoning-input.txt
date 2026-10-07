@@ -1,0 +1,142 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Love Thy Neighbor (1940 film)] ⟨1⟩⟦22⟧⟨2⟩⟨3⟩⟦138⟧⟨4⟩⟦105⟧⟨5⟩⟦83⟧⟨6⟩⟦122⟧⟨7⟩
+[John Ritter] ⟦109⟧⟨45⟩⟨46⟩⟦159⟧⟦159⟧⟨47⟩⟨48⟩⟨49⟩⟨50⟩⟨51⟩
+[John Ritter] ⟦170⟧⟨53⟩⟦199⟧⟦166⟧⟨55⟩⟦174⟧⟨54⟩⟨56⟩⟦182⟧⟨57⟩⟦193⟧⟦78⟧⟨58⟩⟨59⟩⟦34⟧⟦35⟧⟨60⟩⟨61⟩⟦220⟧⟨62⟩⟨63⟩⟨64⟩⟦106⟧⟨65⟩⟦185⟧⟨66⟩⟨67⟩⟦18⟧⟦64⟧⟨68⟩⟨69⟩⟦29⟧⟨70⟩⟦23⟧⟨71⟩
+[John Ritter] ⟦208⟧⟨73⟩⟨74⟩⟦212⟧⟦171⟧⟨76⟩⟦133⟧⟨75⟩⟨77⟩⟦17⟧⟦67⟧⟨78⟩⟨79⟩⟦134⟧⟦157⟧⟨80⟩⟨81⟩
+[Love Thy Neighbor (1984 film)] ⟨82⟩⟨83⟩⟨84⟩⟨85⟩⟨86⟩⟦108⟧⟨87⟩⟦143⟧⟨88⟩⟦55⟧⟨89⟩⟦49⟧⟨90⟩⟦66⟧⟨91⟩
+[Andre Hall (actor)] ⟦43⟧⟦33⟧
+[Andre Hall (actor)] ⟦99⟧
+[George Arthur Bloom] ⟦120⟧ | ⟦180⟧⟦180⟧⟦120⟧
+[Patrice Lovely] ⟦61⟧⟦61⟧
+[Patrice Lovely] ⟦79⟧ | ⟦62⟧⟦79⟧ | ⟦152⟧⟦167⟧ | ⟦152⟧
+
+符号表：
+⟦17⟧ = "Three's a Crowd
+⟦18⟧ = "Three's Company
+⟦22⟧ = a film
+⟦23⟧ = a Golden Globe Award
+⟦29⟧ = a Primetime Emmy Award
+⟦33⟧ = actor
+⟦34⟧ = actors
+⟦35⟧ = actors Jason Ritter
+⟦43⟧ = an American actor
+⟦49⟧ = Bert Convy
+⟦55⟧ = Cassie Yates
+⟦61⟧ = comedian
+⟦62⟧ = comedy
+⟦64⟧ = Company
+⟦66⟧ = Constance McCashin
+⟦67⟧ = Crowd
+⟦78⟧ = father
+⟦79⟧ = film
+⟦83⟧ = Fred Allen
+⟦99⟧ = his role
+⟦105⟧ = Jack Benny
+⟦106⟧ = Jack Tripper
+⟦108⟧ = John Ritter
+⟦109⟧ = Jonathan Southworth Ritter
+⟦120⟧ = Love Thy Neighbor
+⟦122⟧ = Mark Sandrich
+⟦133⟧ = off
+⟦134⟧ = one season
+⟦138⟧ = Paramount
+⟦143⟧ = Penny Marshall
+⟦152⟧ = role
+⟦157⟧ = season
+⟦159⟧ = September
+⟦166⟧ = singing
+⟦167⟧ = sitcom
+⟦170⟧ = son
+⟦171⟧ = spin
+⟦174⟧ = star
+⟦180⟧ = television
+⟦182⟧ = Tex Ritter
+⟦185⟧ = the ABC sitcom
+⟦193⟧ = the father
+⟦199⟧ = the late singing cowboy star
+⟦208⟧ = the role
+⟦212⟧ = the spin-off
+⟦220⟧ = Tyler Ritter
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  produced by 
+⟨4⟩ =  in 1940 which starred 
+⟨5⟩ =  and 
+⟨6⟩ = , directed by 
+⟨7⟩ = .
+⟨45⟩ =  (
+⟨46⟩ =  17, 1948 – 
+⟨47⟩ =  11, 2003) was 
+⟨48⟩ = 
+⟨49⟩ =  and 
+⟨50⟩ = 
+⟨51⟩ = .
+⟨53⟩ =  of 
+⟨54⟩ = 
+⟨55⟩ =  cowboy 
+⟨56⟩ =  
+⟨57⟩ =  and 
+⟨58⟩ = 
+⟨59⟩ =  of 
+⟨60⟩ = 
+⟨61⟩ =  and 
+⟨62⟩ = , he was best known for 
+⟨63⟩ = 
+⟨64⟩ =  as 
+⟨65⟩ =  on 
+⟨66⟩ = 
+⟨67⟩ =  
+⟨68⟩ = 
+⟨69⟩ = " (1977–84), for which he received 
+⟨70⟩ =  and 
+⟨71⟩ =  in 1984.
+⟨73⟩ = 
+⟨74⟩ =  on 
+⟨75⟩ = 
+⟨76⟩ = -
+⟨77⟩ =  
+⟨78⟩ = 
+⟨79⟩ = ", which aired for 
+⟨80⟩ = 
+⟨81⟩ = .
+⟨82⟩ =  is a 1984 American made-for-
+⟨83⟩ = 
+⟨84⟩ =  romantic 
+⟨85⟩ =  
+⟨86⟩ =  starring 
+⟨87⟩ = , 
+⟨88⟩ = , 
+⟨89⟩ = , 
+⟨90⟩ =  and 
+⟨91⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Love Thy Neighbor starred an AMerican actor who was best known for his role as Jack Tripper on what sitcom?

@@ -1,0 +1,402 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "413 Hope St.
+⟦2⟧ = "Bama Vijayam
+⟦3⟧ = "Bionic Showdown
+⟦4⟧ = "Bluffmaster
+⟦5⟧ = "Demolition Man
+⟦6⟧ = "Don
+⟦7⟧ = "Gangs
+⟦8⟧ = "Mujhse Shaadi Karogi
+⟦9⟧ = "Pehla Pehla Pyar
+⟦10⟧ = "Prem
+⟦11⟧ = "Preminchi Choodu
+⟦12⟧ = "Saajan Ki Baahon Mein
+⟦13⟧ = "Working Girl
+⟦14⟧ = (English
+⟦15⟧ = 10 October
+⟦16⟧ = 200 films
+⟦17⟧ = 2000s
+⟦18⟧ = 2003 spy thriller
+⟦19⟧ = a 2005 South Korean romantic comedy film
+⟦20⟧ = a bit role
+⟦21⟧ = a breakthrough
+⟦22⟧ = a Drama Series nomination
+⟦23⟧ = a Filmfare award
+⟦24⟧ = a gangster
+⟦25⟧ = a leading actress
+⟦26⟧ = a minor role
+⟦27⟧ = a Negative Role
+⟦28⟧ = a noted South Indian film actress
+⟦29⟧ = a person's blood type
+⟦30⟧ = A Prairie Home Companion
+⟦31⟧ = a second Best Supporting Actress nomination
+⟦32⟧ = a series
+⟦33⟧ = a supporting actress
+⟦34⟧ = a supporting character
+⟦35⟧ = a supporting role
+⟦36⟧ = a teenager
+⟦37⟧ = a young woman
+⟦38⟧ = A.I. Artificial Intelligence
+⟦39⟧ = acclaim
+⟦40⟧ = action
+⟦41⟧ = actor
+⟦42⟧ = actress
+⟦43⟧ = Adaptation
+⟦44⟧ = All My Children
+⟦45⟧ = America
+⟦46⟧ = an American actor
+⟦47⟧ = an American actress
+⟦48⟧ = an Indian actress
+⟦49⟧ = an Indian romantic crime comedy film
+⟦50⟧ = Angels
+⟦51⟧ = award
+⟦52⟧ = beginning
+⟦53⟧ = bellicose
+⟦54⟧ = Bengali films
+⟦55⟧ = Best Actress
+⟦56⟧ = Best Female Debut
+⟦57⟧ = Best Performance
+⟦58⟧ = bit
+⟦59⟧ = blood
+⟦60⟧ = Bollywood
+⟦61⟧ = box
+⟦62⟧ = breakthrough
+⟦63⟧ = Brian Backer
+⟦64⟧ = Bullock
+⟦65⟧ = career
+⟦66⟧ = character
+⟦67⟧ = Children
+⟦68⟧ = Chopra
+⟦69⟧ = Chopra's role
+⟦70⟧ = cinema
+⟦71⟧ = comedy
+⟦72⟧ = comedy film
+⟦73⟧ = company
+⟦74⟧ = concert
+⟦75⟧ = Coolie No
+⟦76⟧ = crime
+⟦77⟧ = critical acclaim
+⟦78⟧ = daytime
+⟦79⟧ = debut
+⟦80⟧ = Delhi Mappilai
+⟦81⟧ = Demolition
+⟦82⟧ = Det
+⟦83⟧ = Dev Anand's "Hum Naujawan
+⟦84⟧ = drama
+⟦85⟧ = Egypt
+⟦86⟧ = English
+⟦87⟧ = Events
+⟦88⟧ = executive
+⟦89⟧ = extremely foul-tongued wife
+⟦90⟧ = Fantastic Mr. Fox
+⟦91⟧ = film
+⟦92⟧ = films
+⟦93⟧ = folklore
+⟦94⟧ = foray
+⟦95⟧ = former model
+⟦96⟧ = Fortis Films
+⟦97⟧ = gangster
+⟦98⟧ = Goliyon Ki Rasleela Ram-Leela
+⟦99⟧ = Govinda
+⟦100⟧ = Gracy
+⟦101⟧ = Gulzar's "Maachis
+⟦102⟧ = Gun
+⟦103⟧ = Headley
+⟦104⟧ = her "Speed" role
+⟦105⟧ = her breakthrough
+⟦106⟧ = her breakthrough role
+⟦107⟧ = her career
+⟦108⟧ = Her Children
+⟦109⟧ = her debut film "Bharya
+⟦110⟧ = her film
+⟦111⟧ = her first film
+⟦112⟧ = her first major role
+⟦113⟧ = her first nomination
+⟦114⟧ = her love interest
+⟦115⟧ = Her major breakthrough
+⟦116⟧ = her own production company
+⟦117⟧ = Her performance
+⟦118⟧ = her portrayal
+⟦119⟧ = her role
+⟦120⟧ = Her sole foray
+⟦121⟧ = her voice
+⟦122⟧ = heroine
+⟦123⟧ = Hindi
+⟦124⟧ = Hindi films
+⟦125⟧ = His other films
+⟦126⟧ = his role
+⟦127⟧ = Hope Floats
+⟦128⟧ = Indian actress Tabu
+⟦129⟧ = Indian cinema
+⟦130⟧ = insurgency
+⟦131⟧ = interest
+⟦132⟧ = John Grisham's novel "A Time
+⟦133⟧ = Julia
+⟦134⟧ = Julie
+⟦135⟧ = Kaadhalikka Neramillai
+⟦136⟧ = Kadhalikka Neram Illai
+⟦137⟧ = Kannada
+⟦138⟧ = Karisma Kapoor
+⟦139⟧ = Kunchakko
+⟦140⟧ = Lambs
+⟦141⟧ = languages
+⟦142⟧ = lead actress
+⟦143⟧ = leads
+⟦144⟧ = Lions
+⟦145⟧ = Lisa McDowell
+⟦146⟧ = love
+⟦147⟧ = Lucky Oye
+⟦148⟧ = Magic
+⟦149⟧ = mainstream cinema
+⟦150⟧ = Malayalam
+⟦151⟧ = Man
+⟦152⟧ = many cinematic and theatrical productions
+⟦153⟧ = Matthew McConaughey
+⟦154⟧ = Meryl Streep
+⟦155⟧ = Mimi Reed
+⟦156⟧ = Miriam
+⟦157⟧ = model
+⟦158⟧ = Motion Picture Comedy
+⟦159⟧ = movie
+⟦160⟧ = movie star Bhama
+⟦161⟧ = movies
+⟦162⟧ = Moving Violations
+⟦163⟧ = Musical
+⟦164⟧ = musical "Andaaz
+⟦165⟧ = My Boyfriend
+⟦166⟧ = N. T. Rama Rao
+⟦167⟧ = NAACP Image Award
+⟦168⟧ = Navneet Behal
+⟦169⟧ = Neeyum Nannum
+⟦170⟧ = Nikhil Dwivedi
+⟦171⟧ = Nimmi
+⟦172⟧ = Ninne Pelladata
+⟦173⟧ = No
+⟦174⟧ = nomination
+⟦175⟧ = non-folklore social films
+⟦176⟧ = novel
+⟦177⟧ = office
+⟦178⟧ = opera
+⟦179⟧ = Outstanding Actress
+⟦180⟧ = Oye Lucky
+⟦181⟧ = performance
+⟦182⟧ = person
+⟦183⟧ = personality
+⟦184⟧ = play
+⟦185⟧ = poorly received films
+⟦186⟧ = portrayal
+⟦187⟧ = Practical Magic
+⟦188⟧ = premise
+⟦189⟧ = Prime
+⟦190⟧ = princess
+⟦191⟧ = Priyanka Chopra
+⟦192⟧ = production
+⟦193⟧ = productions
+⟦194⟧ = Rajashri
+⟦195⟧ = Rajasree
+⟦196⟧ = Rajasri
+⟦197⟧ = Rajasri's roles
+⟦198⟧ = Ravichandran
+⟦199⟧ = Richa Chadda
+⟦200⟧ = Ridgemont High
+⟦201⟧ = role
+⟦202⟧ = roles
+⟦203⟧ = romance
+⟦204⟧ = romantic comedy film
+⟦205⟧ = Saajan Chale Sasural
+⟦206⟧ = saga
+⟦207⟧ = Sandra Bullock
+⟦208⟧ = Scott Greeber
+⟦209⟧ = Seagull
+⟦210⟧ = sequel
+⟦211⟧ = series
+⟦212⟧ = several films
+⟦213⟧ = several folklore Telugu movies
+⟦214⟧ = Shari Headley
+⟦215⟧ = shy teenager Mark "Rat" Ratner
+⟦216⟧ = sitcom
+⟦217⟧ = six films
+⟦218⟧ = soap
+⟦219⟧ = Speed
+⟦220⟧ = spy
+⟦221⟧ = stage
+⟦222⟧ = star
+⟦223⟧ = Streep
+⟦224⟧ = Streep’s voice
+⟦225⟧ = superhero
+⟦226⟧ = Sylvester Stallone
+⟦227⟧ = Tabbu
+⟦228⟧ = Tabu
+⟦229⟧ = Tabu's first credited role
+⟦230⟧ = Tadepalli Lakshmi Kanta Rao
+⟦231⟧ = Tamanchey
+⟦232⟧ = Tamil
+⟦233⟧ = Tamil film
+⟦234⟧ = teenager
+⟦235⟧ = television
+⟦236⟧ = Telugu
+⟦237⟧ = Telugu: మెజెస్టి
+⟦238⟧ = that same year
+⟦239⟧ = the 1982 hit comedy film "Fast Times
+⟦240⟧ = the 1985 comedy film
+⟦241⟧ = the 1987 comedy film
+⟦242⟧ = the 1987 thriller "Hangmen
+⟦243⟧ = the 1988 box-office
+⟦244⟧ = the 2000s
+⟦245⟧ = the ABC daytime soap opera
+⟦246⟧ = the action drama
+⟦247⟧ = the action film "Speed
+⟦248⟧ = the action thriller
+⟦249⟧ = the AFI Life Achievement Award
+⟦250⟧ = the animated biblical film
+⟦251⟧ = the animated film
+⟦252⟧ = the annual Nobel Peace Prize concert
+⟦253⟧ = The basic premise
+⟦254⟧ = the bellicose
+⟦255⟧ = the Bionic Woman
+⟦256⟧ = the blood type personality theory
+⟦257⟧ = the box-office
+⟦258⟧ = the comedy
+⟦259⟧ = the comedy film
+⟦260⟧ = the commercially successful comedy film
+⟦261⟧ = The Devil Wears Prada
+⟦262⟧ = the film
+⟦263⟧ = the film adaptation
+⟦264⟧ = the film noir gangster saga
+⟦265⟧ = the Filmfare Award
+⟦266⟧ = the films
+⟦267⟧ = the Fox short-lived drama series
+⟦268⟧ = the Golden Globe Award
+⟦269⟧ = the Have Nots
+⟦270⟧ = The Haves
+⟦271⟧ = the HBO
+⟦272⟧ = The heroine
+⟦273⟧ = the highest-grossing films
+⟦274⟧ = the highly successful comedy
+⟦275⟧ = The Hours
+⟦276⟧ = the languages
+⟦277⟧ = the lead role
+⟦278⟧ = the Malayalam movies
+⟦279⟧ = the National Film Award
+⟦280⟧ = the Oprah Winfrey Network primetime soap opera
+⟦281⟧ = the popular play
+⟦282⟧ = The Prince
+⟦283⟧ = the Punjab insurgency
+⟦284⟧ = the role
+⟦285⟧ = the romance
+⟦286⟧ = the romantic comedy
+⟦287⟧ = the romantic drama
+⟦288⟧ = The Seagull
+⟦289⟧ = the sequel
+⟦290⟧ = the short-lived sitcom
+⟦291⟧ = The Six Million Dollar Man
+⟦292⟧ = the stage production Mother Courage
+⟦293⟧ = the Tamil comedy films
+⟦294⟧ = the television film
+⟦295⟧ = the Telugu film
+⟦296⟧ = the thriller "Aitraaz
+⟦297⟧ = the year
+⟦298⟧ = the yearthe superhero film "Krrish
+⟦299⟧ = their personality traits
+⟦300⟧ = theory
+⟦301⟧ = thriller
+⟦302⟧ = Time
+⟦303⟧ = traits
+⟦304⟧ = two Hindi filmsthe romance
+⟦305⟧ = type
+⟦306⟧ = Type B
+⟦307⟧ = Unfortunate Events
+⟦308⟧ = Vijaypath"and
+⟦309⟧ = villainous Jennifer Sallison
+⟦310⟧ = Violations
+⟦311⟧ = voice
+⟦312⟧ = Wasseypur
+⟦313⟧ = wife
+⟦314⟧ = woman
+⟦315⟧ = year
+⟦316⟧ = మెజెస్టి
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Tabu filmography] ⟦128⟧⟨1⟩⟦42⟧⟨2⟩⟦227⟧⟨3⟩⟦123⟧⟨4⟩⟦236⟧⟨5⟩⟦86⟧⟨6⟩⟦232⟧⟨7⟩⟦150⟧⟨8⟩⟦54⟧⟨9⟩⟦92⟧⟨10⟩
+[Tabu filmography] ⟦229⟧⟨11⟩⟦201⟧⟨12⟩⟦36⟧⟨13⟩⟦234⟧⟨14⟩⟦83⟧⟨15⟩⟦112⟧⟨16⟩⟦201⟧⟨17⟩⟦295⟧⟨18⟩⟦91⟧⟨19⟩⟦75⟧⟨20⟩⟦173⟧⟨21⟩
+[Tabu filmography] ⟨22⟩⟦304⟧⟨23⟩⟦203⟧⟨24⟩⟦9⟧⟨25⟩⟦246⟧⟨26⟩⟦40⟧⟨27⟩⟦84⟧⟨28⟩⟦308⟧⟨29⟩⟦308⟧⟨30⟩⟦265⟧⟨31⟩⟦56⟧⟨32⟩
+[Tabu filmography] ⟨33⟩⟦32⟧⟨34⟩⟦211⟧⟨35⟩⟦185⟧⟨36⟩⟦92⟧⟨37⟩⟦10⟧⟨38⟩⟦12⟧⟨39⟩⟦297⟧⟨40⟩⟦315⟧⟨41⟩⟦228⟧⟨42⟩
+[Tabu filmography] ⟦117⟧⟨43⟩⟦181⟧⟨44⟩⟦37⟧⟨45⟩⟦314⟧⟨46⟩⟦283⟧⟨47⟩⟦130⟧⟨48⟩⟦101⟧⟨49⟩⟦21⟧⟨50⟩⟦62⟧⟨51⟩⟦279⟧⟨52⟩⟦55⟧⟨53⟩
+[Tabu filmography] ⟨54⟩⟦315⟧⟨55⟩⟦228⟧⟨56⟩⟦265⟧⟨57⟩⟦55⟧⟨58⟩⟦236⟧⟨59⟩⟦236⟧⟨60⟩⟦285⟧⟨61⟩⟦203⟧⟨62⟩⟦172⟧⟨63⟩⟦99⟧⟨64⟩⟦138⟧⟨65⟩⟦260⟧⟨66⟩⟦71⟧⟨67⟩⟦91⟧⟨68⟩⟦205⟧⟨69⟩
+[My Boyfriend Is Type B] ⟦165⟧⟨70⟩⟦306⟧⟨71⟩⟦19⟧⟨72⟩⟦71⟧⟨73⟩⟦91⟧⟨74⟩
+[My Boyfriend Is Type B] ⟦253⟧⟨75⟩⟦188⟧⟨76⟩⟦262⟧⟨77⟩⟦91⟧⟨78⟩⟦256⟧⟨79⟩⟦59⟧⟨80⟩⟦305⟧⟨81⟩⟦183⟧⟨82⟩⟦300⟧⟨83⟩⟦29⟧⟨84⟩⟦182⟧⟨85⟩⟦59⟧⟨86⟩⟦305⟧⟨87⟩⟦299⟧⟨88⟩⟦183⟧⟨89⟩⟦303⟧⟨90⟩
+[My Boyfriend Is Type B] ⟦272⟧⟨91⟩⟦122⟧⟨92⟩⟦114⟧⟨93⟩⟦146⟧⟨94⟩⟦131⟧⟨95⟩⟦305⟧⟨96⟩⟦306⟧⟨97⟩
+[Richa Chadda] ⟦199⟧⟨98⟩⟦48⟧⟨99⟩⟦42⟧⟨100⟩⟦124⟧⟨101⟩⟦92⟧⟨102⟩
+[Richa Chadda] ⟨103⟩⟦20⟧⟨104⟩⟦58⟧⟨105⟩⟦201⟧⟨106⟩⟦259⟧⟨107⟩⟦71⟧⟨108⟩⟦91⟧⟨109⟩⟦180⟧⟨110⟩
+[Richa Chadda] ⟦147⟧⟨111⟩
+[Richa Chadda] ⟨112⟩⟦33⟧⟨113⟩⟦42⟧⟨114⟩⟦212⟧⟨115⟩⟦92⟧⟨116⟩
+[Richa Chadda] ⟨117⟩⟦115⟧⟨118⟩⟦62⟧⟨119⟩⟦35⟧⟨120⟩⟦201⟧⟨121⟩⟦264⟧⟨122⟩⟦91⟧⟨123⟩⟦97⟧⟨124⟩⟦206⟧⟨125⟩⟦7⟧⟨126⟩⟦312⟧⟨127⟩⟦119⟧⟨128⟩⟦201⟧⟨129⟩⟦254⟧⟨130⟩⟦53⟧⟨131⟩⟦89⟧⟨132⟩⟦313⟧⟨133⟩⟦24⟧⟨134⟩⟦97⟧⟨135⟩⟦23⟧⟨136⟩⟦51⟧⟨137⟩
+[Richa Chadda] ⟦120⟧⟨138⟩⟦94⟧⟨139⟩⟦149⟧⟨140⟩⟦70⟧⟨141⟩⟦34⟧⟨142⟩⟦66⟧⟨143⟩⟦98⟧⟨144⟩
+[Priyanka Chopra filmography] ⟦191⟧⟨145⟩⟦48⟧⟨146⟩⟦42⟧⟨147⟩⟦25⟧⟨148⟩⟦42⟧⟨149⟩⟦129⟧⟨150⟩⟦70⟧⟨151⟩
+[Priyanka Chopra filmography] ⟨152⟩⟦60⟧⟨153⟩⟦79⟧⟨154⟩⟦18⟧⟨155⟩⟦220⟧⟨156⟩⟦301⟧⟨157⟩
+[Priyanka Chopra filmography] ⟨158⟩⟦315⟧⟨159⟩⟦69⟧⟨160⟩⟦201⟧⟨161⟩⟦257⟧⟨162⟩⟦61⟧⟨163⟩⟦177⟧⟨164⟩⟦164⟧⟨165⟩⟦265⟧⟨166⟩⟦56⟧⟨167⟩⟦79⟧⟨168⟩
+[Priyanka Chopra filmography] ⟨169⟩⟦274⟧⟨170⟩⟦71⟧⟨171⟩⟦8⟧⟨172⟩⟦77⟧⟨173⟩⟦39⟧⟨174⟩⟦106⟧⟨175⟩⟦201⟧⟨176⟩⟦296⟧⟨177⟩⟦301⟧⟨178⟩⟦265⟧⟨179⟩⟦57⟧⟨180⟩⟦27⟧⟨181⟩⟦31⟧⟨182⟩⟦174⟧⟨183⟩
+[Priyanka Chopra filmography] ⟦68⟧⟨184⟩⟦217⟧⟨185⟩⟦92⟧⟨186⟩⟦4⟧⟨187⟩
+[Priyanka Chopra filmography] ⟨188⟩⟦273⟧⟨189⟩⟦92⟧⟨190⟩⟦298⟧⟨191⟩⟦225⟧⟨192⟩⟦91⟧⟨193⟩⟦248⟧⟨194⟩⟦40⟧⟨195⟩⟦301⟧⟨196⟩⟦6⟧⟨197⟩
+[Shari Headley] ⟦214⟧⟨198⟩⟦47⟧⟨199⟩⟦42⟧⟨200⟩⟦95⟧⟨201⟩⟦157⟧⟨202⟩
+[Shari Headley] ⟦103⟧⟨203⟩⟦119⟧⟨204⟩⟦201⟧⟨205⟩⟦145⟧⟨206⟩⟦243⟧⟨207⟩⟦61⟧⟨208⟩⟦177⟧⟨209⟩⟦204⟧⟨210⟩⟦71⟧⟨211⟩⟦91⟧⟨212⟩⟦45⟧⟨213⟩
+[Shari Headley] ⟦103⟧⟨214⟩⟦92⟧⟨215⟩⟦92⟧⟨216⟩⟦313⟧⟨217⟩
+[Shari Headley] ⟨218⟩⟦235⟧⟨219⟩⟦235⟧⟨220⟩⟦103⟧⟨221⟩⟦82⟧⟨222⟩⟦155⟧⟨223⟩⟦245⟧⟨224⟩⟦78⟧⟨225⟩⟦218⟧⟨226⟩⟦178⟧⟨227⟩⟦44⟧⟨228⟩⟦67⟧⟨229⟩
+[Shari Headley] ⟨230⟩⟦142⟧⟨231⟩⟦42⟧⟨232⟩⟦267⟧⟨233⟩⟦84⟧⟨234⟩⟦211⟧⟨235⟩⟦1⟧⟨236⟩⟦167⟧⟨237⟩⟦179⟧⟨238⟩⟦22⟧⟨239⟩⟦174⟧⟨240⟩
+[Shari Headley] ⟨241⟩⟦103⟧⟨242⟩⟦309⟧⟨243⟩⟦280⟧⟨244⟩⟦218⟧⟨245⟩⟦178⟧⟨246⟩⟦270⟧⟨247⟩⟦269⟧⟨248⟩
+[Brian Backer] ⟦63⟧⟨249⟩⟦46⟧⟨250⟩⟦41⟧⟨251⟩⟦91⟧⟨252⟩⟦91⟧⟨253⟩⟦235⟧⟨254⟩⟦235⟧⟨255⟩
+[Brian Backer] ⟨256⟩⟦126⟧⟨257⟩⟦201⟧⟨258⟩⟦239⟧⟨259⟩⟦71⟧⟨260⟩⟦91⟧⟨261⟩⟦200⟧⟨262⟩⟦215⟧⟨263⟩⟦234⟧⟨264⟩
+[Brian Backer] ⟦125⟧⟨265⟩⟦92⟧⟨266⟩⟦240⟧⟨267⟩⟦71⟧⟨268⟩⟦91⟧⟨269⟩⟦162⟧⟨270⟩⟦310⟧⟨271⟩⟦284⟧⟨272⟩⟦201⟧⟨273⟩⟦208⟧⟨274⟩⟦241⟧⟨275⟩⟦71⟧⟨276⟩⟦91⟧⟨277⟩
+[Meryl Streep in the 2000s] ⟦154⟧⟨278⟩⟦244⟧⟨279⟩⟦17⟧⟨280⟩⟦152⟧⟨281⟩⟦193⟧⟨282⟩
+[Meryl Streep in the 2000s] ⟨283⟩⟦224⟧⟨284⟩⟦311⟧⟨285⟩⟦251⟧⟨286⟩⟦91⟧⟨287⟩⟦38⟧⟨288⟩
+[Meryl Streep in the 2000s] ⟨289⟩⟦223⟧⟨290⟩⟦134⟧⟨291⟩⟦133⟧⟨292⟩⟦121⟧⟨293⟩⟦311⟧⟨294⟩⟦251⟧⟨295⟩⟦91⟧⟨296⟩⟦90⟧⟨297⟩
+[Meryl Streep in the 2000s] ⟦223⟧⟨298⟩⟦315⟧⟨299⟩⟦252⟧⟨300⟩⟦74⟧⟨301⟩⟦281⟧⟨302⟩⟦184⟧⟨303⟩⟦288⟧⟨304⟩⟦209⟧⟨305⟩
+[Meryl Streep in the 2000s] ⟨306⟩⟦223⟧⟨307⟩⟦266⟧⟨308⟩⟦92⟧⟨309⟩⟦43⟧⟨310⟩⟦275⟧⟨311⟩
+[Meryl Streep in the 2000s] ⟨312⟩⟦223⟧⟨313⟩⟦258⟧⟨314⟩⟦71⟧⟨315⟩⟦271⟧⟨316⟩⟦43⟧⟨317⟩⟦43⟧⟨318⟩⟦50⟧⟨319⟩⟦45⟧⟨320⟩
+[Meryl Streep in the 2000s] ⟨321⟩⟦223⟧⟨322⟩⟦249⟧⟨323⟩⟦238⟧⟨324⟩⟦315⟧⟨325⟩⟦266⟧⟨326⟩⟦92⟧⟨327⟩⟦307⟧⟨328⟩⟦87⟧⟨329⟩
+[Meryl Streep in the 2000s] ⟨330⟩⟦223⟧⟨331⟩⟦262⟧⟨332⟩⟦91⟧⟨333⟩⟦189⟧⟨334⟩
+[Meryl Streep in the 2000s] ⟦223⟧⟨335⟩⟦262⟧⟨336⟩⟦91⟧⟨337⟩⟦30⟧⟨338⟩⟦238⟧⟨339⟩⟦315⟧⟨340⟩⟦261⟧⟨341⟩⟦292⟧⟨342⟩⟦221⟧⟨343⟩⟦192⟧⟨344⟩⟦108⟧⟨345⟩⟦67⟧⟨346⟩
+[Meryl Streep in the 2000s] ⟨347⟩⟦223⟧⟨348⟩⟦266⟧⟨349⟩⟦92⟧⟨350⟩⟦144⟧⟨351⟩⟦140⟧⟨352⟩
+[Meryl Streep in the 2000s] ⟨353⟩⟦223⟧⟨354⟩⟦266⟧⟨355⟩⟦92⟧⟨356⟩
+[Tamanchey] ⟦231⟧⟨357⟩⟦14⟧⟨358⟩⟦102⟧⟨359⟩⟦49⟧⟨360⟩⟦76⟧⟨361⟩⟦71⟧⟨362⟩⟦91⟧⟨363⟩⟦15⟧⟨364⟩
+[Tamanchey] ⟦262⟧⟨365⟩⟦91⟧⟨366⟩⟦168⟧⟨367⟩⟦170⟧⟨368⟩⟦199⟧⟨369⟩⟦143⟧⟨370⟩⟦143⟧⟨371⟩
+[Rajasree] ⟦195⟧⟨372⟩⟦237⟧⟨373⟩⟦316⟧⟨374⟩⟦196⟧⟨375⟩⟦194⟧⟨376⟩⟦28⟧⟨377⟩⟦91⟧⟨378⟩⟦42⟧⟨379⟩
+[Rajasree] ⟨380⟩⟦118⟧⟨381⟩⟦186⟧⟨382⟩⟦190⟧⟨383⟩⟦190⟧⟨384⟩⟦213⟧⟨385⟩⟦93⟧⟨386⟩⟦161⟧⟨387⟩⟦166⟧⟨388⟩⟦230⟧⟨389⟩⟦198⟧⟨390⟩⟦293⟧⟨391⟩⟦71⟧⟨392⟩⟦92⟧⟨393⟩⟦169⟧⟨394⟩⟦136⟧⟨395⟩⟦80⟧⟨396⟩
+[Rajasree] ⟨397⟩⟦197⟧⟨398⟩⟦202⟧⟨399⟩⟦175⟧⟨400⟩⟦92⟧⟨401⟩⟦232⟧⟨402⟩⟦171⟧⟨403⟩⟦232⟧⟨404⟩⟦71⟧⟨405⟩⟦72⟧⟨406⟩⟦91⟧⟨407⟩⟦135⟧⟨408⟩⟦11⟧⟨409⟩⟦236⟧⟨410⟩⟦159⟧⟨411⟩⟦160⟧⟨412⟩⟦222⟧⟨413⟩⟦233⟧⟨414⟩⟦91⟧⟨415⟩⟦2⟧⟨416⟩
+[Rajasree] ⟨417⟩⟦100⟧⟨418⟩⟦278⟧⟨419⟩⟦161⟧⟨420⟩⟦107⟧⟨421⟩⟦65⟧⟨422⟩⟦109⟧⟨423⟩⟦91⟧⟨424⟩⟦139⟧⟨425⟩
+[Rajasree] ⟦195⟧⟨426⟩⟦16⟧⟨427⟩⟦92⟧⟨428⟩⟦276⟧⟨429⟩⟦141⟧⟨430⟩⟦236⟧⟨431⟩⟦232⟧⟨432⟩⟦137⟧⟨433⟩⟦150⟧⟨434⟩⟦100⟧⟨435⟩⟦123⟧⟨436⟩⟦52⟧⟨437⟩⟦52⟧⟨438⟩
+[Sandra Bullock filmography] ⟦207⟧⟨439⟩⟦47⟧⟨440⟩⟦42⟧⟨441⟩⟦110⟧⟨442⟩⟦91⟧⟨443⟩⟦26⟧⟨444⟩⟦201⟧⟨445⟩⟦242⟧⟨446⟩⟦301⟧⟨447⟩
+[Sandra Bullock filmography] ⟨448⟩⟦235⟧⟨449⟩⟦79⟧⟨450⟩⟦294⟧⟨451⟩⟦235⟧⟨452⟩⟦91⟧⟨453⟩⟦3⟧⟨454⟩⟦291⟧⟨455⟩⟦255⟧⟨456⟩⟦277⟧⟨457⟩⟦201⟧⟨458⟩⟦290⟧⟨459⟩⟦216⟧⟨460⟩⟦13⟧⟨461⟩⟦105⟧⟨462⟩⟦62⟧⟨463⟩⟦247⟧⟨464⟩⟦40⟧⟨465⟩⟦91⟧⟨466⟩⟦219⟧⟨467⟩
+[Sandra Bullock filmography] ⟨468⟩⟦226⟧⟨469⟩⟦5⟧⟨470⟩⟦81⟧⟨471⟩⟦151⟧⟨472⟩
+[Sandra Bullock filmography] ⟦64⟧⟨473⟩⟦116⟧⟨474⟩⟦192⟧⟨475⟩⟦73⟧⟨476⟩⟦96⟧⟨477⟩⟦286⟧⟨478⟩⟦71⟧⟨479⟩
+[Sandra Bullock filmography] ⟦117⟧⟨480⟩⟦181⟧⟨481⟩⟦262⟧⟨482⟩⟦91⟧⟨483⟩⟦113⟧⟨484⟩⟦174⟧⟨485⟩⟦268⟧⟨486⟩⟦55⟧⟨487⟩⟦158⟧⟨488⟩⟦163⟧⟨489⟩
+[Sandra Bullock filmography] ⟨490⟩⟦315⟧⟨491⟩⟦64⟧⟨492⟩⟦153⟧⟨493⟩⟦263⟧⟨494⟩⟦91⟧⟨495⟩⟦43⟧⟨496⟩⟦132⟧⟨497⟩⟦176⟧⟨498⟩⟦302⟧⟨499⟩
+[Sandra Bullock filmography] ⟨500⟩⟦104⟧⟨501⟩⟦219⟧⟨502⟩⟦201⟧⟨503⟩⟦289⟧⟨504⟩⟦210⟧⟨505⟩
+[Sandra Bullock filmography] ⟨506⟩⟦315⟧⟨507⟩⟦64⟧⟨508⟩⟦286⟧⟨509⟩⟦71⟧⟨510⟩⟦187⟧⟨511⟩⟦148⟧⟨512⟩⟦156⟧⟨513⟩⟦250⟧⟨514⟩⟦91⟧⟨515⟩⟦282⟧⟨516⟩⟦85⟧⟨517⟩⟦88⟧⟨518⟩⟦88⟧⟨519⟩⟦111⟧⟨520⟩⟦91⟧⟨521⟩⟦287⟧⟨522⟩⟦84⟧⟨523⟩⟦127⟧⟨524⟩
+
+[user]
+
+问题：
+Tamanchey is a comedy film that starred the actress who works in what type of films?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

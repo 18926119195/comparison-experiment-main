@@ -1,0 +1,100 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Mosholu Parkway] ⟦238⟧⟨208⟩⟦21⟧⟦76⟧⟨210⟩⟨211⟩⟦79⟧⟨212⟩⟦116⟧⟨213⟩⟨209⟩⟨214⟩⟦245⟧⟨215⟩⟨216⟩⟨217⟩⟨218⟩⟨219⟩⟦267⟧⟨221⟩⟦137⟧⟨220⟩⟨222⟩
+[Mosholu Parkway] ⟦176⟧⟦176⟧
+[Robert Moses] ⟦178⟧ | ⟦178⟧⟨301⟩⟦61⟧⟨302⟩⟦109⟧⟨303⟩⟦28⟧⟦149⟧⟨304⟩⟨305⟩⟦247⟧⟨306⟩⟨307⟩
+[Robert Moses] ⟦131⟧⟨350⟩⟦10⟧⟦60⟧⟨351⟩⟨352⟩⟦235⟧⟦125⟧⟨353⟩⟨354⟩⟦11⟧⟦123⟧⟨356⟩⟦48⟧⟨355⟩⟨357⟩
+[Merritt Parkway] ⟦158⟧⟦158⟧
+[Merritt Parkway] ⟦40⟧
+[Pelham Parkway] ⟦45⟧⟦210⟧
+[Heckscher State Parkway] ⟦156⟧
+
+符号表：
+⟦10⟧ = a "coordinator
+⟦11⟧ = a "master builder
+⟦21⟧ = a hybrid freeway-standard parkway and grade-level roadway
+⟦28⟧ = a public official
+⟦40⟧ = area
+⟦45⟧ = borough
+⟦48⟧ = builder
+⟦60⟧ = coordinator
+⟦61⟧ = December
+⟦76⟧ = freeway
+⟦79⟧ = grade
+⟦109⟧ = July
+⟦116⟧ = level
+⟦123⟧ = master
+⟦125⟧ = media
+⟦131⟧ = Moses
+⟦137⟧ = network
+⟦149⟧ = official
+⟦156⟧ = parkway
+⟦158⟧ = part
+⟦176⟧ = roadway
+⟦178⟧ = Robert Moses
+⟦210⟧ = the Bronx
+⟦235⟧ = the media
+⟦238⟧ = The Mosholu Parkway
+⟦245⟧ = the New York City borough
+⟦247⟧ = the New York metropolitan area
+⟦267⟧ = the roadway network
+
+占位符映射：
+⟨208⟩ =  is 
+⟨209⟩ = 
+⟨210⟩ = -standard 
+⟨211⟩ =  and 
+⟨212⟩ = -
+⟨213⟩ =  
+⟨214⟩ =  in 
+⟨215⟩ = 
+⟨216⟩ =  of 
+⟨217⟩ = , constructed from 1935 to 1937 as 
+⟨218⟩ = 
+⟨219⟩ =  of 
+⟨220⟩ = 
+⟨221⟩ =  
+⟨222⟩ =  created under 
+⟨301⟩ =  (
+⟨302⟩ =  18, 1888 – 
+⟨303⟩ =  29, 1981) was 
+⟨304⟩ = 
+⟨305⟩ =  who worked mainly in 
+⟨306⟩ = 
+⟨307⟩ = .
+⟨350⟩ =  would call himself 
+⟨351⟩ = 
+⟨352⟩ = " and was referred to in 
+⟨353⟩ = 
+⟨354⟩ =  as 
+⟨355⟩ = 
+⟨356⟩ =  
+⟨357⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What was the creator of the Moshulu Parkway known as?

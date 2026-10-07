@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_4780",
+  "question": "Carrie Coon plays Margo Dunne in a 2014 film set in what state?",
+  "expectedAnswer": "Missouri",
+  "predictedAnswer": "# 路径一：从角色到电影再到拍摄地\n\n步骤1：使用⟦203⟧，提取Carrie Coon出演的惊悚片信息，判断其与2014年电影相关。\n步骤2：综合⟦170⟧⟦113⟧，对比确认Carrie Coon在2014年惊悚片中饰演Margo Dunne。\n步骤3：使用⟦86⟧⟦6⟧，提取该2014年电影为《Gone Girl》，是一部美国心理惊悚片。\n步骤4：综合⟦137⟧⟦119⟧，提取电影故事设定在密苏里州（Missouri）。\n\n结论：Carrie Coon饰演Margo Dunne的2014年电影设定在密苏里州（Missouri）。\n\n# 路径二：从电影名称到故事背景\n\n步骤1：使用⟦86⟧⟦6⟧，提取《Gone Girl》是2014年美国心理惊悚片。\n步骤2：综合⟦137⟧⟦119⟧，提取该片故事背景设定在密苏里州。\n步骤3：使用⟦203⟧⟦113⟧，验证Carrie Coon在该片中饰演Margo Dunne。\n\n结论：该2014年电影设定在密苏里州（Missouri）。\n\n# 路径三：从Carrie Coon作品交叉验证\n\n步骤1：使用⟦203⟧，提取Carrie Coon出演的惊悚片。\n步骤2：综合⟦170⟧⟦113⟧，确认她在2014年惊悚片中饰演Margo Dunne。\n步骤3：使用⟦86⟧⟦6⟧，确认该片为《Gone Girl》。\n步骤4：综合⟦137⟧⟦119⟧，提取故事设定在密苏里州。\n\n结论：Carrie Coon饰演Margo Dunne的2014年电影设定在密苏里州（Missouri）。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦86⟧⟨121⟩⟦6⟧⟨123⟩⟨122⟩⟨124⟩⟦69⟧⟨125⟩⟦83⟧⟨126⟩⟦89⟧⟨127⟩",
+  "nounCount": 304,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5169,
+    "completion_tokens": 288,
+    "total_tokens": 5457,
+    "prompt_tokens_details": {
+      "cached_tokens": 4992
+    },
+    "prompt_cache_hit_tokens": 4992,
+    "prompt_cache_miss_tokens": 177
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1087,
+    "completion_tokens": 418,
+    "total_tokens": 1505,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1087
+  }
+}

@@ -1,0 +1,335 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "DJ
+⟦2⟧ = "Open House Party
+⟦3⟧ = "The World's Greatest Disc Jockey
+⟦4⟧ = 1950s
+⟦5⟧ = 1960s
+⟦6⟧ = 5000 watts
+⟦7⟧ = 560 kHz
+⟦8⟧ = a "disc jockey
+⟦9⟧ = a 6-9 a.m. weekday program
+⟦10⟧ = a cabin-like home
+⟦11⟧ = a continuous flow
+⟦12⟧ = a daytime series
+⟦13⟧ = a disc jockey
+⟦14⟧ = a disc jockey and radio personality
+⟦15⟧ = a disc jockey series
+⟦16⟧ = a high rotation
+⟦17⟧ = a lip-sync series
+⟦18⟧ = a listener request
+⟦19⟧ = a live music series
+⟦20⟧ = a long period
+⟦21⟧ = a person
+⟦22⟧ = a radio host
+⟦23⟧ = a radio jockey
+⟦24⟧ = a radio personality
+⟦25⟧ = a radio show
+⟦26⟧ = a riverfront home
+⟦27⟧ = a San Francisco
+⟦28⟧ = a single city
+⟦29⟧ = a.m.
+⟦30⟧ = actor
+⟦31⟧ = Ada
+⟦32⟧ = addition
+⟦33⟧ = afternoon
+⟦34⟧ = age
+⟦35⟧ = air
+⟦36⟧ = Alan Freed
+⟦37⟧ = AM/FM radio show hosts
+⟦38⟧ = Ameen Sayani
+⟦39⟧ = American English
+⟦40⟧ = American radio personality John Garabedian
+⟦41⟧ = an American actor, disc jockey and radio personality
+⟦42⟧ = an American banker
+⟦43⟧ = an American radio personality
+⟦44⟧ = an American radio show
+⟦45⟧ = an Australian television daytime series
+⟦46⟧ = an offstage announcer
+⟦47⟧ = announcer
+⟦48⟧ = archival
+⟦49⟧ = banker
+⟦50⟧ = baritone
+⟦51⟧ = baritone Charles Skase
+⟦52⟧ = Big Wilson
+⟦53⟧ = both Saturday and Sunday nights
+⟦54⟧ = Brehmer
+⟦55⟧ = British English
+⟦56⟧ = Broadcast radio personalities
+⟦57⟧ = broadcasting
+⟦58⟧ = cabin
+⟦59⟧ = cable
+⟦60⟧ = cable companies
+⟦61⟧ = Cabot
+⟦62⟧ = California
+⟦63⟧ = Cape Cod
+⟦64⟧ = career
+⟦65⟧ = Casey Kasem
+⟦66⟧ = chairman
+⟦67⟧ = Charles A. Agemian
+⟦68⟧ = Chase Manhattan Bank
+⟦69⟧ = Chicago
+⟦70⟧ = chief executive officer
+⟦71⟧ = city
+⟦72⟧ = Cleveland
+⟦73⟧ = companies
+⟦74⟧ = computer
+⟦75⟧ = computer systems
+⟦76⟧ = contemporary hit radio (CHR) music
+⟦77⟧ = cowboy
+⟦78⟧ = creator
+⟦79⟧ = daytime
+⟦80⟧ = December
+⟦81⟧ = Delilah Luke
+⟦82⟧ = Dick Clark
+⟦83⟧ = disc
+⟦84⟧ = disc jockey
+⟦85⟧ = disc jockeys
+⟦86⟧ = distribution
+⟦87⟧ = DJ
+⟦88⟧ = Don Imus
+⟦89⟧ = Don Sherwood
+⟦90⟧ = drive
+⟦91⟧ = early retirement
+⟦92⟧ = every song
+⟦93⟧ = executive vice president
+⟦94⟧ = flow
+⟦95⟧ = former long-time host
+⟦96⟧ = game
+⟦97⟧ = Garabedian
+⟦98⟧ = Garden State National Bank
+⟦99⟧ = Gary Sinclair
+⟦100⟧ = his career
+⟦101⟧ = his wife
+⟦102⟧ = Hit Parade
+⟦103⟧ = home
+⟦104⟧ = homes
+⟦105⟧ = host
+⟦106⟧ = hosts
+⟦107⟧ = Howard Stern
+⟦108⟧ = Illinois
+⟦109⟧ = India
+⟦110⟧ = individual selections
+⟦111⟧ = Information
+⟦112⟧ = January
+⟦113⟧ = jockey
+⟦114⟧ = jockeys
+⟦115⟧ = jocks
+⟦116⟧ = Jody
+⟦117⟧ = John Garabedian
+⟦118⟧ = John H. Garabedian
+⟦119⟧ = Jr.
+⟦120⟧ = July
+⟦121⟧ = Kannon
+⟦122⟧ = Kelly
+⟦123⟧ = kHz
+⟦124⟧ = KSFO
+⟦125⟧ = Lin Brehmer
+⟦126⟧ = lip
+⟦127⟧ = listener
+⟦128⟧ = Low
+⟦129⟧ = Machine Gun Kelly
+⟦130⟧ = Malcolm John Wilson
+⟦131⟧ = March
+⟦132⟧ = Massachusetts
+⟦133⟧ = Massachusetts radio and television stations
+⟦134⟧ = May
+⟦135⟧ = Melbourne station HSV-7
+⟦136⟧ = Miami
+⟦137⟧ = Michael Gary “M.G.” Kelly
+⟦138⟧ = Mike Francesa
+⟦139⟧ = more than 50 stations
+⟦140⟧ = morning
+⟦141⟧ = most radio stations
+⟦142⟧ = music
+⟦143⟧ = network
+⟦144⟧ = New England
+⟦145⟧ = New York City
+⟦146⟧ = nights
+⟦147⟧ = Notable radio personalities
+⟦148⟧ = November
+⟦149⟧ = NYC
+⟦150⟧ = October
+⟦151⟧ = officer
+⟦152⟧ = offstage
+⟦153⟧ = Ohio
+⟦154⟧ = OHP
+⟦155⟧ = Oklahoma
+⟦156⟧ = Open House Party
+⟦157⟧ = operations
+⟦158⟧ = other well-known persons
+⟦159⟧ = over fifty years
+⟦160⟧ = Pakistan
+⟦161⟧ = period
+⟦162⟧ = person
+⟦163⟧ = personalities
+⟦164⟧ = personality
+⟦165⟧ = persons
+⟦166⟧ = political talk hosts
+⟦167⟧ = pop music radio hosts Martin Block
+⟦168⟧ = position
+⟦169⟧ = presenter
+⟦170⟧ = president
+⟦171⟧ = program
+⟦172⟧ = programs
+⟦173⟧ = radio
+⟦174⟧ = radio broadcasting
+⟦175⟧ = Radio personalities
+⟦176⟧ = radio presenter
+⟦177⟧ = real time
+⟦178⟧ = recorded music
+⟦179⟧ = recordings
+⟦180⟧ = remixes
+⟦181⟧ = Request
+⟦182⟧ = requested songs
+⟦183⟧ = retirement
+⟦184⟧ = riverfront
+⟦185⟧ = Rocky River
+⟦186⟧ = roles
+⟦187⟧ = rotation
+⟦188⟧ = Rush Limbaugh
+⟦189⟧ = San Francisco
+⟦190⟧ = satellite
+⟦191⟧ = satellite radio program hosts
+⟦192⟧ = Saturday and Sunday nights
+⟦193⟧ = selections
+⟦194⟧ = September
+⟦195⟧ = series
+⟦196⟧ = several acting roles
+⟦197⟧ = several radio programs
+⟦198⟧ = Sherwood
+⟦199⟧ = shock
+⟦200⟧ = shock jocks
+⟦201⟧ = show
+⟦202⟧ = shows
+⟦203⟧ = singing
+⟦204⟧ = slot
+⟦205⟧ = some years
+⟦206⟧ = song
+⟦207⟧ = songs
+⟦208⟧ = Southborough
+⟦209⟧ = sports
+⟦210⟧ = sports talk hosts
+⟦211⟧ = station
+⟦212⟧ = stations
+⟦213⟧ = status
+⟦214⟧ = Sweet
+⟦215⟧ = sync
+⟦216⟧ = systems
+⟦217⟧ = talk
+⟦218⟧ = talk radio hosts
+⟦219⟧ = television
+⟦220⟧ = term
+⟦221⟧ = the 1950s
+⟦222⟧ = the afternoon drive slot
+⟦223⟧ = The archival status
+⟦224⟧ = the Biggest Party
+⟦225⟧ = the creator
+⟦226⟧ = the early 1960s
+⟦227⟧ = the Hackensack Trust Co.
+⟦228⟧ = the last two hosts
+⟦229⟧ = the leading radio personality
+⟦230⟧ = the morning-drive slot disc jockey
+⟦231⟧ = the NBC network program Monitor
+⟦232⟧ = the Planet
+⟦233⟧ = The series
+⟦234⟧ = The show
+⟦235⟧ = the singing cowboy actor Gene Autry
+⟦236⟧ = The term
+⟦237⟧ = the time
+⟦238⟧ = the world
+⟦239⟧ = the years
+⟦240⟧ = their home
+⟦241⟧ = these songs
+⟦242⟧ = this series
+⟦243⟧ = three homes
+⟦244⟧ = Tim Conway
+⟦245⟧ = time
+⟦246⟧ = Top
+⟦247⟧ = Tuesdays
+⟦248⟧ = TV
+⟦249⟧ = TV Disc Jockey
+⟦250⟧ = two game shows
+⟦251⟧ = Vermont
+⟦252⟧ = vice
+⟦253⟧ = watts
+⟦254⟧ = WCIX-TV
+⟦255⟧ = weekday
+⟦256⟧ = wife
+⟦257⟧ = Wilson
+⟦258⟧ = WIOD
+⟦259⟧ = WNBC AM
+⟦260⟧ = Wolfman Jack
+⟦261⟧ = world
+⟦262⟧ = WXRT
+⟦263⟧ = XY.tv
+⟦264⟧ = years
+⟦265⟧ = Your Request
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Don Sherwood (DJ)] ⟦89⟧⟨1⟩⟦194⟧⟨2⟩⟦148⟧⟨3⟩⟦43⟧⟨4⟩⟦173⟧⟨5⟩⟦164⟧⟨6⟩
+[Don Sherwood (DJ)] ⟨7⟩⟦27⟧⟨8⟩⟦62⟧⟨9⟩⟦83⟧⟨10⟩⟦84⟧⟨11⟩⟦113⟧⟨12⟩⟦221⟧⟨13⟩⟦4⟧⟨14⟩⟦5⟧⟨15⟩⟦5⟧⟨16⟩
+[Don Sherwood (DJ)] ⟨17⟩⟦3⟧⟨18⟩⟦198⟧⟨19⟩⟦100⟧⟨20⟩⟦64⟧⟨21⟩⟦9⟧⟨22⟩⟦29⟧⟨23⟩⟦255⟧⟨24⟩⟦171⟧⟨25⟩⟦124⟧⟨26⟩⟦189⟧⟨27⟩⟦7⟧⟨28⟩⟦123⟧⟨29⟩⟦6⟧⟨30⟩⟦253⟧⟨31⟩⟦235⟧⟨32⟩⟦203⟧⟨33⟩⟦77⟧⟨34⟩⟦30⟧⟨35⟩
+[M. G. Kelly] ⟦99⟧⟨36⟩⟦31⟧⟨37⟩⟦155⟧⟨38⟩⟦137⟧⟨39⟩⟦129⟧⟨40⟩⟦41⟧⟨41⟩⟦30⟧⟨42⟩⟦83⟧⟨43⟩⟦113⟧⟨44⟩⟦173⟧⟨45⟩⟦164⟧⟨46⟩
+[M. G. Kelly] ⟨47⟩⟦32⟧⟨48⟩⟦32⟧⟨49⟩⟦197⟧⟨50⟩⟦173⟧⟨51⟩⟦172⟧⟨52⟩⟦239⟧⟨53⟩⟦264⟧⟨54⟩⟦122⟧⟨55⟩⟦196⟧⟨56⟩⟦186⟧⟨57⟩⟦13⟧⟨58⟩⟦83⟧⟨59⟩⟦113⟧⟨60⟩⟦46⟧⟨61⟩⟦152⟧⟨62⟩⟦47⟧⟨63⟩⟦250⟧⟨64⟩⟦96⟧⟨65⟩⟦202⟧⟨66⟩
+[At Your Request] ⟨67⟩⟦265⟧⟨68⟩⟦181⟧⟨69⟩⟦45⟧⟨70⟩⟦219⟧⟨71⟩⟦79⟧⟨72⟩⟦195⟧⟨73⟩
+[At Your Request] ⟦233⟧⟨74⟩⟦195⟧⟨75⟩⟦247⟧⟨76⟩⟦135⟧⟨77⟩⟦211⟧⟨78⟩⟦50⟧⟨79⟩⟦51⟧⟨80⟩⟦24⟧⟨81⟩⟦173⟧⟨82⟩⟦164⟧⟨83⟩
+[At Your Request] ⟦111⟧⟨84⟩⟦111⟧⟨85⟩⟦242⟧⟨86⟩⟦195⟧⟨87⟩
+[At Your Request] ⟦233⟧⟨88⟩⟦195⟧⟨89⟩⟦182⟧⟨90⟩⟦207⟧⟨91⟩⟦241⟧⟨92⟩⟦207⟧⟨93⟩⟦15⟧⟨94⟩⟦83⟧⟨95⟩⟦113⟧⟨96⟩⟦195⟧⟨97⟩⟦249⟧⟨98⟩⟦17⟧⟨99⟩⟦126⟧⟨100⟩⟦215⟧⟨101⟩⟦195⟧⟨102⟩⟦102⟧⟨103⟩⟦19⟧⟨104⟩⟦142⟧⟨105⟩⟦195⟧⟨106⟩⟦214⟧⟨107⟩⟦128⟧⟨108⟩
+[At Your Request] ⟦223⟧⟨109⟩⟦48⟧⟨110⟩⟦213⟧⟨111⟩⟦233⟧⟨112⟩⟦195⟧⟨113⟩⟦12⟧⟨114⟩⟦195⟧⟨115⟩⟦28⟧⟨116⟩⟦71⟧⟨117⟩⟦179⟧⟨118⟩⟦179⟧⟨119⟩
+[XY TV] ⟨120⟩⟦80⟧⟨121⟩⟦86⟧⟨122⟩⟦86⟧⟨123⟩⟦59⟧⟨124⟩⟦60⟧⟨125⟩⟦73⟧⟨126⟩
+[XY TV] ⟨127⟩⟦134⟧⟨128⟩⟦263⟧⟨129⟩⟦157⟧⟨130⟩⟦157⟧⟨131⟩
+[XY TV] ⟨132⟩⟦40⟧⟨133⟩⟦173⟧⟨134⟩⟦164⟧⟨135⟩
+[Radio personality] ⟦24⟧⟨136⟩⟦173⟧⟨137⟩⟦164⟧⟨138⟩⟦39⟧⟨139⟩⟦173⟧⟨140⟩⟦176⟧⟨141⟩⟦169⟧⟨142⟩⟦55⟧⟨143⟩⟦8⟧⟨144⟩⟦83⟧⟨145⟩⟦113⟧⟨146⟩⟦1⟧⟨147⟩⟦87⟧⟨148⟩⟦21⟧⟨149⟩⟦162⟧⟨150⟩⟦35⟧⟨151⟩⟦35⟧⟨152⟩⟦168⟧⟨153⟩⟦173⟧⟨154⟩⟦174⟧⟨155⟩⟦57⟧⟨156⟩
+[Radio personality] ⟦24⟧⟨157⟩⟦173⟧⟨158⟩⟦164⟧⟨159⟩⟦25⟧⟨160⟩⟦173⟧⟨161⟩⟦201⟧⟨162⟩⟦22⟧⟨163⟩⟦173⟧⟨164⟩⟦105⟧⟨165⟩⟦109⟧⟨166⟩⟦160⟧⟨167⟩⟦23⟧⟨168⟩⟦173⟧⟨169⟩⟦113⟧⟨170⟩
+[Radio personality] ⟦175⟧⟨171⟩⟦173⟧⟨172⟩⟦163⟧⟨173⟩⟦110⟧⟨174⟩⟦193⟧⟨175⟩⟦178⟧⟨176⟩⟦142⟧⟨177⟩⟦83⟧⟨178⟩⟦85⟧⟨179⟩⟦114⟧⟨180⟩
+[Radio personality] ⟦236⟧⟨181⟩⟦220⟧⟨182⟩⟦21⟧⟨183⟩⟦162⟧⟨184⟩⟦11⟧⟨185⟩⟦94⟧⟨186⟩⟦178⟧⟨187⟩⟦142⟧⟨188⟩⟦177⟧⟨189⟩⟦245⟧⟨190⟩
+[Radio personality] ⟦56⟧⟨191⟩⟦173⟧⟨192⟩⟦163⟧⟨193⟩⟦217⟧⟨194⟩⟦218⟧⟨195⟩⟦173⟧⟨196⟩⟦106⟧⟨197⟩⟦37⟧⟨198⟩⟦173⟧⟨199⟩⟦201⟧⟨200⟩⟦106⟧⟨201⟩⟦190⟧⟨202⟩⟦191⟧⟨203⟩⟦173⟧⟨204⟩⟦171⟧⟨205⟩⟦106⟧⟨206⟩
+[Radio personality] ⟦147⟧⟨207⟩⟦173⟧⟨208⟩⟦163⟧⟨209⟩⟦167⟧⟨210⟩⟦142⟧⟨211⟩⟦173⟧⟨212⟩⟦106⟧⟨213⟩⟦36⟧⟨214⟩⟦82⟧⟨215⟩⟦81⟧⟨216⟩⟦38⟧⟨217⟩⟦260⟧⟨218⟩⟦65⟧⟨219⟩⟦199⟧⟨220⟩⟦200⟧⟨221⟩⟦115⟧⟨222⟩⟦88⟧⟨223⟩⟦107⟧⟨224⟩⟦209⟧⟨225⟩⟦210⟧⟨226⟩⟦217⟧⟨227⟩⟦106⟧⟨228⟩⟦138⟧⟨229⟩⟦166⟧⟨230⟩⟦217⟧⟨231⟩⟦106⟧⟨232⟩⟦188⟧⟨233⟩
+[Lin Brehmer] ⟦125⟧⟨234⟩⟦14⟧⟨235⟩⟦83⟧⟨236⟩⟦113⟧⟨237⟩⟦173⟧⟨238⟩⟦164⟧⟨239⟩⟦262⟧⟨240⟩⟦69⟧⟨241⟩⟦108⟧⟨242⟩
+[Lin Brehmer] ⟦54⟧⟨243⟩⟦230⟧⟨244⟩⟦140⟧⟨245⟩⟦90⟧⟨246⟩⟦204⟧⟨247⟩⟦83⟧⟨248⟩⟦113⟧⟨249⟩
+[Big Wilson] ⟦52⟧⟨250⟩⟦130⟧⟨251⟩⟦119⟧⟨252⟩⟦150⟧⟨253⟩⟦150⟧⟨254⟩⟦43⟧⟨255⟩⟦173⟧⟨256⟩⟦164⟧⟨257⟩
+[Big Wilson] ⟨258⟩⟦13⟧⟨259⟩⟦83⟧⟨260⟩⟦113⟧⟨261⟩⟦259⟧⟨262⟩⟦145⟧⟨263⟩⟦226⟧⟨264⟩⟦5⟧⟨265⟩⟦136⟧⟨266⟩⟦258⟧⟨267⟩⟦254⟧⟨268⟩⟦248⟧⟨269⟩
+[Big Wilson] ⟨270⟩⟦228⟧⟨271⟩⟦106⟧⟨272⟩⟦231⟧⟨273⟩⟦143⟧⟨274⟩⟦171⟧⟨275⟩
+[Big Wilson] ⟨276⟩⟦149⟧⟨277⟩⟦257⟧⟨278⟩⟦101⟧⟨279⟩⟦256⟧⟨280⟩⟦116⟧⟨281⟩⟦26⟧⟨282⟩⟦184⟧⟨283⟩⟦103⟧⟨284⟩⟦185⟧⟨285⟩⟦153⟧⟨286⟩
+[Big Wilson] ⟨287⟩⟦72⟧⟨288⟩⟦229⟧⟨289⟩⟦173⟧⟨290⟩⟦164⟧⟨291⟩⟦205⟧⟨292⟩⟦264⟧⟨293⟩
+[Big Wilson] ⟦244⟧⟨294⟩⟦158⟧⟨295⟩⟦165⟧⟨296⟩⟦240⟧⟨297⟩⟦103⟧⟨298⟩
+[Charles A. Agemian] ⟦67⟧⟨299⟩⟦120⟧⟨300⟩⟦131⟧⟨301⟩⟦42⟧⟨302⟩⟦49⟧⟨303⟩⟦91⟧⟨304⟩⟦183⟧⟨305⟩⟦68⟧⟨306⟩⟦93⟧⟨307⟩⟦252⟧⟨308⟩⟦170⟧⟨309⟩⟦157⟧⟨310⟩⟦157⟧⟨311⟩⟦66⟧⟨312⟩⟦66⟧⟨313⟩⟦70⟧⟨314⟩⟦151⟧⟨315⟩⟦227⟧⟨316⟩⟦98⟧⟨317⟩
+[Open House Party] ⟦156⟧⟨318⟩⟦237⟧⟨319⟩⟦245⟧⟨320⟩⟦154⟧⟨321⟩⟦44⟧⟨322⟩⟦173⟧⟨323⟩⟦201⟧⟨324⟩⟦192⟧⟨325⟩⟦146⟧⟨326⟩⟦121⟧⟨327⟩⟦222⟧⟨328⟩⟦33⟧⟨329⟩⟦90⟧⟨330⟩⟦204⟧⟨331⟩
+[Open House Party] ⟦234⟧⟨332⟩⟦201⟧⟨333⟩⟦224⟧⟨334⟩⟦232⟧⟨335⟩
+[Open House Party] ⟨336⟩⟦76⟧⟨337⟩⟦173⟧⟨338⟩⟦142⟧⟨339⟩⟦246⟧⟨340⟩
+[Open House Party] ⟦234⟧⟨341⟩⟦201⟧⟨342⟩⟦16⟧⟨343⟩⟦187⟧⟨344⟩⟦180⟧⟨345⟩⟦180⟧⟨346⟩
+[Open House Party] ⟨347⟩⟦141⟧⟨348⟩⟦173⟧⟨349⟩⟦212⟧⟨350⟩⟦172⟧⟨351⟩⟦172⟧⟨352⟩⟦92⟧⟨353⟩⟦206⟧⟨354⟩⟦154⟧⟨355⟩⟦18⟧⟨356⟩⟦127⟧⟨357⟩⟦181⟧⟨358⟩⟦74⟧⟨359⟩⟦75⟧⟨360⟩⟦216⟧⟨361⟩⟦207⟧⟨362⟩⟦207⟧⟨363⟩
+[Open House Party] ⟦234⟧⟨364⟩⟦201⟧⟨365⟩⟦117⟧⟨366⟩⟦194⟧⟨367⟩⟦112⟧⟨368⟩
+[Open House Party] ⟦97⟧⟨369⟩⟦234⟧⟨370⟩⟦201⟧⟨371⟩⟦53⟧⟨372⟩⟦146⟧⟨373⟩⟦20⟧⟨374⟩⟦161⟧⟨375⟩⟦245⟧⟨376⟩⟦245⟧⟨377⟩
+[Open House Party] ⟦156⟧⟨378⟩⟦139⟧⟨379⟩⟦212⟧⟨380⟩⟦238⟧⟨381⟩⟦261⟧⟨382⟩
+[John Garabedian] ⟦118⟧⟨383⟩⟦43⟧⟨384⟩⟦173⟧⟨385⟩⟦164⟧⟨386⟩⟦83⟧⟨387⟩⟦84⟧⟨388⟩⟦113⟧⟨389⟩⟦80⟧⟨390⟩⟦34⟧⟨391⟩⟦34⟧⟨392⟩
+[John Garabedian] ⟨393⟩⟦225⟧⟨394⟩⟦78⟧⟨395⟩⟦95⟧⟨396⟩⟦245⟧⟨397⟩⟦105⟧⟨398⟩⟦2⟧⟨399⟩
+[John Garabedian] ⟨400⟩⟦133⟧⟨401⟩⟦173⟧⟨402⟩⟦219⟧⟨403⟩⟦212⟧⟨404⟩⟦159⟧⟨405⟩⟦264⟧⟨406⟩
+[John Garabedian] ⟦97⟧⟨407⟩⟦243⟧⟨408⟩⟦104⟧⟨409⟩⟦144⟧⟨410⟩⟦208⟧⟨411⟩⟦132⟧⟨412⟩⟦63⟧⟨413⟩⟦10⟧⟨414⟩⟦58⟧⟨415⟩⟦103⟧⟨416⟩⟦61⟧⟨417⟩⟦251⟧⟨418⟩
+
+[user]
+
+问题：
+Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemian?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

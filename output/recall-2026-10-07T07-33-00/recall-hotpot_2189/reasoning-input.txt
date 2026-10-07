@@ -1,0 +1,67 @@
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟦83⟧⟨Ƽ⟩⟦57⟧⟨ƽ⟩⟦152⟧⟨ƾ⟩⟦15⟧⟦59⟧⟨ǀ⟩⟦78⟧⟨ƿ⟩⟨ǁ⟩⟦49⟧⟦130⟧⟨ǂ⟩⟨ǃ⟩
+⟨Ǆ⟩⟦108⟧⟨ǅ⟩⟦95⟧⟨ǆ⟩⟦204⟧⟨Ǉ⟩⟨ǈ⟩⟦54⟧⟦92⟧⟨ǉ⟩⟨Ǌ⟩
+⟦137⟧⟦131⟧
+
+符号表：
+⟦15⟧ = a former American college football
+⟦49⟧ = Canadian Football League player
+⟦54⟧ = CFL history
+⟦57⟧ = CM
+⟦59⟧ = college
+⟦78⟧ = football
+⟦83⟧ = George Robert Reed
+⟦92⟧ = history
+⟦95⟧ = Johnny Bright
+⟦108⟧ = Mike Pringle
+⟦130⟧ = player
+⟦131⟧ = players
+⟦137⟧ = Reed
+⟦152⟧ = SOM
+⟦204⟧ = the players
+
+占位符映射：
+⟨Ƽ⟩ = , 
+⟨ƽ⟩ = , 
+⟨ƾ⟩ =  (born October 2, 1939), is 
+⟨ƿ⟩ = 
+⟨ǀ⟩ =  
+⟨ǁ⟩ =  and 
+⟨ǂ⟩ = 
+⟨ǃ⟩ = .
+⟨Ǆ⟩ = , along with 
+⟨ǅ⟩ =  and 
+⟨ǆ⟩ = , is one of 
+⟨Ǉ⟩ = 
+⟨ǈ⟩ =  most often mentioned as being the greatest running back in 
+⟨ǉ⟩ = 
+⟨Ǌ⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+George Reed was, along with which Drake University player, one of the greatest running backs in CFL history?

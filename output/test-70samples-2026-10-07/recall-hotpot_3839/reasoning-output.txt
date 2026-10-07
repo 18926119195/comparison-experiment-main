@@ -1,0 +1,23 @@
+# 路径一：从决赛事件到球员出生年份
+
+步骤1：使用⟦170⟧⟦82⟧，提取“The final”和“final”指向2009 DFB-Pokal Final这一赛事，确认问题中的决赛实体。
+步骤2：综合⟦18⟧⟦116⟧，提取“a 58th-minute goal”和“midfielder Mesut Özil”，判断在2009 DFB-Pokal Final中射入制胜球的中场球员是Mesut Özil。
+步骤3：使用⟦21⟧，提取Mesut Özil是“a German professional footballer”，并结合占位符⟨211⟩中“born 15 October 1988”的信息，确定其出生年份为1988年。
+
+结论：射入2009年德国杯决赛制胜球的中场球员Mesut Özil出生于1988年。
+
+# 路径二：从决赛结果反推进球者并核验出生信息
+
+步骤1：使用⟦207⟧，提取“Werder Bremen”为2009 DFB-Pokal Final的参赛/获胜俱乐部之一，结合⟦225⟧“won with”和⟦18⟧“a 58th-minute goal”，锁定制胜球发生在该场决赛。
+步骤2：综合⟦116⟧⟦117⟧，提取“midfielder Mesut Özil”和“minute”，交叉验证第58分钟的进球由中场球员Mesut Özil完成。
+步骤3：使用占位符⟨211⟩，提取“Mesut Özil ... born 15 October 1988”，直接得到出生年份。
+
+结论：该中场球员为Mesut Özil，出生于1988年。
+
+# 路径三：利用球员职业生涯信息交叉验证身份与出生年份
+
+步骤1：使用⟦21⟧⟦73⟧，提取Mesut Özil是“a German professional footballer”且效力于“English club Arsenal”，确认其球员身份。
+步骤2：综合⟦174⟧⟦215⟧，提取他代表“the Germany national team”并“plays for Arsenal”，与2009年德国杯决赛中的中场球员身份一致。
+步骤3：使用占位符⟨211⟩，提取“born 15 October 1988”，得出出生年份为1988年。
+
+结论：Mesut Özil出生于1988年，即射入2009年德国杯决赛制胜球的中场球员的出生年份。

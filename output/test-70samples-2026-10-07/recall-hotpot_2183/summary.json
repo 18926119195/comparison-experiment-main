@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_2183",
+  "question": "Which facility was founded in Missouri, Discovery Zone or Valentino's?",
+  "expectedAnswer": "Discovery Zone",
+  "predictedAnswer": "# 路径一：直接定位创始地点\n\n步骤1：使用⟦85⟧⟦268⟧⟦292⟧⟦293⟧⟦294⟧⟦295⟧，提取 Discovery Zone 的创立信息：The chain was founded by Ronald Matsch, Jim Jorgensen and Dr. David Schoenstadt in 1989。\n\n步骤2：使用⟦284⟧⟦297⟧⟦298⟧⟦299⟧⟦300⟧，提取 The first location 的开业信息：was opened in Kansas City, in 1989。\n\n步骤3：综合⟦142⟧⟦168⟧，确认 Kansas City 位于 Missouri，因此 Discovery Zone 的首个设施创立于 Missouri。\n\n结论：Discovery Zone 创立于 Missouri。\n\n# 路径二：对比两候选设施的创立地点\n\n步骤1：使用⟦56⟧⟦310⟧⟦22⟧⟦313⟧⟦314⟧⟦315⟧，提取 Valentino's 的信息：chain's is a regional Italian restaurant chain based in Lincoln, Nebraska，即 Valentino's 总部位于 Nebraska，而非 Missouri。\n\n步骤2：使用⟦217⟧⟦320⟧⟦331⟧⟦322⟧⟦323⟧⟦324⟧，提取 The restaurant 的收购与扩张信息：was purchased by two Lincoln families in 1971 and began franchising additional locations，进一步确认其根基在 Lincoln, Nebraska。\n\n步骤3：综合⟦142⟧⟦168⟧⟦284⟧⟦297⟧⟦298⟧⟦299⟧，对比 Discovery Zone 的首个 location 在 Kansas City（Missouri），而 Valentino's 基于 Lincoln（Nebraska）。\n\n结论：在 Missouri 创立的是 Discovery Zone，不是 Valentino's。\n\n# 路径三：排除法与地理交叉验证\n\n步骤1：使用⟦180⟧⟦337⟧，提取 Valentino SpA 的 October 与 Valentino 信息，判断该材料指向 Valentino 品牌，但其地理线索未指向 Missouri。\n\n步骤2：使用⟦101⟧⟦96⟧⟦168⟧，提取 Aliso Canyon Oil Field 的 facilities 与 Missouri Theatre 的 entertainment 信息，确认 Missouri 相关设施中不包含 Valentino's 的创立记录。\n\n步骤3：综合⟦85⟧⟦268⟧⟦292⟧⟦293⟧⟦294⟧⟦295⟧⟦284⟧⟦297⟧⟦298⟧⟦299⟧⟦300⟧，交叉验证 Discovery Zone 由 Ronald Matsch、Jim Jorgensen 和 Dr. David Schoenstadt 于 1989 年创立，首个 location 在 Kansas City（Missouri）。\n\n结论：排除 Valentino's 后，创立于 Missouri 的设施是 Discovery Zone。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦85⟧⟨266⟩⟦2⟧⟨267⟩⟦8⟧⟨268⟩⟨269⟩⟦97⟧⟨270⟩⟨271⟩⟨272⟩⟨273⟩",
+  "nounCount": 464,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7792,
+    "completion_tokens": 348,
+    "total_tokens": 8140,
+    "prompt_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "prompt_cache_hit_tokens": 7552,
+    "prompt_cache_miss_tokens": 240
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 628,
+    "total_tokens": 1897,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1269
+  }
+}

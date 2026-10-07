@@ -1,0 +1,122 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Helter Skelter (song)] ⟨301⟩⟨302⟩⟦14⟧⟦176⟧⟨303⟩⟨304⟩⟦141⟧⟨305⟩⟨306⟩⟦18⟧⟦204⟧⟨307⟩⟨308⟩
+[Helter Skelter (song)] ⟦227⟧⟦181⟧⟨309⟩⟨310⟩⟦112⟧⟨312⟩⟦187⟧⟨311⟩⟨313⟩⟦155⟧⟦156⟧⟨314⟩⟦105⟧⟨315⟩⟨316⟩⟦12⟧⟦109⟧⟨317⟩⟨318⟩⟦236⟧⟦77⟧⟨319⟩⟨320⟩⟦98⟧⟦145⟧⟦145⟧⟨321⟩⟨322⟩
+[Man That You Fear] ⟦255⟧⟦201⟧
+[Helter Skelter (album)] ⟦100⟧⟨376⟩⟦254⟧⟨378⟩⟨377⟩⟨379⟩⟦233⟧⟨380⟩⟦114⟧⟨381⟩
+[Helter Skelter (album)] ⟦41⟧
+[Helter Skelter (album)] ⟦250⟧⟦157⟧⟨396⟩⟨397⟩⟨398⟩⟨399⟩⟦16⟧⟨400⟩⟨401⟩⟦55⟧⟦107⟧⟨402⟩⟨403⟩⟦226⟧⟨404⟩⟦237⟧⟦83⟧⟨405⟩⟨406⟩⟦259⟧⟦280⟧⟨407⟩⟨408⟩
+[Portrait of an American Family] ⟦207⟧
+[Portrait of an American Family] ⟦23⟧ | ⟦213⟧⟦23⟧⟦182⟧
+
+符号表：
+⟦12⟧ = a key influence
+⟦14⟧ = a product
+⟦16⟧ = a reference
+⟦18⟧ = a sound
+⟦23⟧ = album
+⟦41⟧ = attempt
+⟦55⟧ = Charles Manson's idea
+⟦77⟧ = development
+⟦83⟧ = end
+⟦98⟧ = heavy metal
+⟦100⟧ = Helter Skelter
+⟦105⟧ = historians
+⟦107⟧ = idea
+⟦109⟧ = influence
+⟦112⟧ = its "proto-metal roar
+⟦114⟧ = January
+⟦141⟧ = McCartney's attempt
+⟦145⟧ = metal
+⟦155⟧ = music
+⟦156⟧ = music historians
+⟦157⟧ = name
+⟦176⟧ = product
+⟦181⟧ = recording
+⟦182⟧ = reference
+⟦187⟧ = roar
+⟦201⟧ = song
+⟦204⟧ = sound
+⟦207⟧ = studio
+⟦213⟧ = The album
+⟦226⟧ = The Beatles' "Helter Skelter
+⟦227⟧ = The Beatles' recording
+⟦233⟧ = The D.O.C.
+⟦236⟧ = the early development
+⟦237⟧ = the end
+⟦250⟧ = The name
+⟦254⟧ = the second studio album
+⟦255⟧ = The song
+⟦259⟧ = the world
+⟦280⟧ = world
+
+占位符映射：
+⟨301⟩ = 
+⟨302⟩ =  was 
+⟨303⟩ = 
+⟨304⟩ =  of 
+⟨305⟩ = 
+⟨306⟩ =  to create 
+⟨307⟩ = 
+⟨308⟩ =  as loud and dirty as possible.
+⟨309⟩ = 
+⟨310⟩ =  has been noted for 
+⟨311⟩ = 
+⟨312⟩ =  
+⟨313⟩ = " and is considered by 
+⟨314⟩ = 
+⟨315⟩ = 
+⟨316⟩ =  to be 
+⟨317⟩ = 
+⟨318⟩ =  in 
+⟨319⟩ = 
+⟨320⟩ =  of 
+⟨321⟩ = 
+⟨322⟩ = . "
+⟨376⟩ =  is 
+⟨377⟩ = 
+⟨378⟩ =  
+⟨379⟩ =  by 
+⟨380⟩ = ; released on 
+⟨381⟩ =  23, 1996.
+⟨396⟩ = 
+⟨397⟩ =  of 
+⟨398⟩ = 
+⟨399⟩ =  is 
+⟨400⟩ = 
+⟨401⟩ =  to 
+⟨402⟩ = 
+⟨403⟩ =  of 
+⟨404⟩ = " prophesying 
+⟨405⟩ = 
+⟨406⟩ =  of 
+⟨407⟩ = 
+⟨408⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The second studio album by The D.O.C was named as a reference to Charles Manson's idea of a Beatles' song which was a product of McCartney's attempt to create what kind of sound?  

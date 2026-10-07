@@ -1,0 +1,176 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Frank Borman] ⟦101⟧⟨313⟩⟦2⟧⟨314⟩⟦261⟧⟨315⟩
+[Frank Borman] ⟨316⟩⟦31⟧⟨317⟩⟨318⟩⟦38⟧⟦87⟧⟨319⟩⟨320⟩⟦182⟧⟦183⟧⟨321⟩⟦154⟧⟦154⟧⟨322⟩⟨323⟩⟦140⟧⟨324⟩⟨325⟩⟦199⟧⟨326⟩⟨327⟩⟦216⟧⟨328⟩⟨329⟩⟨330⟩⟦73⟧⟨331⟩⟦131⟧⟨332⟩⟨333⟩⟦116⟧⟨334⟩⟦53⟧⟨335⟩⟦148⟧⟨336⟩⟨337⟩
+[Apollo 8] ⟦43⟧⟨361⟩⟦238⟧⟨363⟩⟨362⟩⟨364⟩⟦253⟧⟦174⟧⟨366⟩⟦160⟧⟨365⟩⟨367⟩⟦78⟧⟨368⟩⟦209⟧⟦175⟧⟨369⟩⟨370⟩⟦82⟧⟨371⟩⟨372⟩⟦204⟧⟨373⟩⟨374⟩ | ⟦43⟧
+[Apollo 8] ⟦149⟧⟦81⟧ | ⟦251⟧⟦49⟧⟨376⟩⟦72⟧⟨375⟩⟨377⟩⟦66⟧⟨378⟩⟦64⟧⟨379⟩⟦128⟧⟨380⟩⟦213⟧⟦109⟧⟨381⟩⟨382⟩⟦124⟧⟦149⟧⟨383⟩⟨384⟩⟦83⟧⟨385⟩⟨386⟩⟨387⟩⟦35⟧⟦155⟧⟨388⟩⟨389⟩⟨390⟩⟨391⟩⟨392⟩⟨393⟩⟨394⟩⟨395⟩⟨396⟩⟨397⟩⟨398⟩⟨399⟩⟨400⟩⟦207⟧⟦172⟧⟨401⟩⟨402⟩⟦232⟧⟨403⟩⟦256⟧⟦92⟧⟨404⟩⟨405⟩⟦39⟧⟨406⟩⟦222⟧⟦222⟧⟦105⟧⟦105⟧⟦105⟧⟨407⟩⟨408⟩⟦42⟧⟦42⟧⟦42⟧⟦55⟧⟦55⟧⟦55⟧⟨409⟩⟨410⟩⟦84⟧⟦84⟧⟦84⟧⟦138⟧⟦138⟧⟦138⟧⟨411⟩⟨412⟩⟦221⟧⟦263⟧⟦263⟧⟨413⟩⟨414⟩⟦81⟧⟦81⟧⟨415⟩ | ⟦49⟧⟦72⟧⟦109⟧⟦232⟧
+[Apollo 8] ⟦135⟧⟦176⟧ | ⟦135⟧
+
+符号表：
+⟦2⟧ = (Col
+⟦31⟧ = a retired United States Air Force pilot
+⟦35⟧ = a whole planet
+⟦38⟧ = aeronautical engineer
+⟦39⟧ = an Earthrise
+⟦42⟧ = another celestial body
+⟦43⟧ = Apollo
+⟦49⟧ = astronaut
+⟦53⟧ = Bill Anders
+⟦55⟧ = body
+⟦64⟧ = Command Module Pilot James Lovell
+⟦66⟧ = Commander Frank Borman
+⟦72⟧ = crew
+⟦73⟧ = crew mates
+⟦78⟧ = December
+⟦81⟧ = Earth
+⟦82⟧ = Earth orbit
+⟦83⟧ = Earth's gravity
+⟦84⟧ = Earth's moon
+⟦87⟧ = engineer
+⟦92⟧ = eyes
+⟦101⟧ = Frank Frederick Borman II
+⟦105⟧ = gravity
+⟦109⟧ = humans
+⟦116⟧ = Jim Lovell
+⟦124⟧ = low Earth orbit
+⟦128⟧ = Lunar Module Pilot William Anders
+⟦131⟧ = mates
+⟦135⟧ = mission
+⟦138⟧ = moon
+⟦140⟧ = NASA astronaut
+⟦148⟧ = only 24 humans
+⟦149⟧ = orbit
+⟦154⟧ = pilot
+⟦155⟧ = planet
+⟦160⟧ = program
+⟦172⟧ = side
+⟦174⟧ = space
+⟦175⟧ = spacecraft
+⟦176⟧ = spaceflight
+⟦182⟧ = test
+⟦183⟧ = test pilot
+⟦199⟧ = the Commander
+⟦204⟧ = the Earth's Moon
+⟦207⟧ = the far side
+⟦209⟧ = the first crewed spacecraft
+⟦213⟧ = the first humans
+⟦216⟧ = the first mission
+⟦221⟧ = the gravitational well
+⟦222⟧ = the gravity
+⟦232⟧ = the Moon
+⟦238⟧ = the second human spaceflight mission
+⟦251⟧ = The three-astronaut crew
+⟦253⟧ = the United States Apollo space program
+⟦256⟧ = their own eyes
+⟦261⟧ = USAF
+⟦263⟧ = well
+
+占位符映射：
+⟨313⟩ =  (born March 14, 1928), 
+⟨314⟩ = , 
+⟨315⟩ = , Ret.)
+⟨316⟩ = , is 
+⟨317⟩ = 
+⟨318⟩ = , 
+⟨319⟩ = 
+⟨320⟩ = , 
+⟨321⟩ = 
+⟨322⟩ = 
+⟨323⟩ = , and 
+⟨324⟩ = 
+⟨325⟩ = , best remembered as 
+⟨326⟩ =  of 
+⟨327⟩ =  8, 
+⟨328⟩ = 
+⟨329⟩ =  to fly around 
+⟨330⟩ = , making him, along with 
+⟨331⟩ = 
+⟨332⟩ = 
+⟨333⟩ =  
+⟨334⟩ =  and 
+⟨335⟩ = , the first of 
+⟨336⟩ = 
+⟨337⟩ =  to do so.
+⟨361⟩ =  8, 
+⟨362⟩ = 
+⟨363⟩ =  
+⟨364⟩ =  in 
+⟨365⟩ = 
+⟨366⟩ =  
+⟨367⟩ = , was launched on 
+⟨368⟩ =  21, 1968, and became 
+⟨369⟩ = 
+⟨370⟩ =  to leave 
+⟨371⟩ = 
+⟨372⟩ = , reach 
+⟨373⟩ = , orbit it and return safely to 
+⟨374⟩ = .
+⟨375⟩ = 
+⟨376⟩ =  
+⟨377⟩ =  — 
+⟨378⟩ = , 
+⟨379⟩ = , and 
+⟨380⟩ =  — became 
+⟨381⟩ = 
+⟨382⟩ =  to: travel beyond 
+⟨383⟩ = 
+⟨384⟩ = ; escape 
+⟨385⟩ = 
+⟨386⟩ = ; see 
+⟨387⟩ =  as 
+⟨388⟩ = 
+⟨389⟩ = ; enter 
+⟨390⟩ = 
+⟨391⟩ =  
+⟨392⟩ =  of 
+⟨393⟩ = 
+⟨394⟩ =  (
+⟨395⟩ = 
+⟨396⟩ = ); orbit 
+⟨397⟩ = 
+⟨398⟩ =  (
+⟨399⟩ = 
+⟨400⟩ = ); directly see 
+⟨401⟩ = 
+⟨402⟩ =  of 
+⟨403⟩ =  with 
+⟨404⟩ = 
+⟨405⟩ = ; witness 
+⟨406⟩ = ; escape 
+⟨407⟩ = 
+⟨408⟩ =  of 
+⟨409⟩ = 
+⟨410⟩ =  (
+⟨411⟩ = 
+⟨412⟩ = ); and re-enter 
+⟨413⟩ = 
+⟨414⟩ =  of 
+⟨415⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+In what year was the Commander of the second human spaceflight mission in the United States Apollo space program born?

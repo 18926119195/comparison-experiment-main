@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_2189",
+  "question": "George Reed was, along with which Drake University player, one of the greatest running backs in CFL history?",
+  "expectedAnswer": "Johnny D. Bright",
+  "predictedAnswer": "# 路径一：直接实体匹配\n\n步骤1：使用⟦83⟧，提取“George Robert Reed”这一全名，确认材料讨论的主体是George Reed。\n\n步骤2：综合⟦83⟧⟦57⟧⟦152⟧⟦15⟧⟦59⟧，提取George Reed的大学背景信息，判断其毕业于Drake University，且曾是一名美国大学橄榄球运动员。\n\n步骤3：使用⟦95⟧，提取“Johnny Bright”这一人名，结合⟦96⟧确认其全名为Johnny D. Bright。\n\n步骤4：综合⟦388⟧⟦95⟧⟦108⟧⟦204⟧，提取“along with Johnny Bright and Mike Pringle, is one of the players most often mentioned as being the greatest running back in CFL history”这一表述，判断与George Reed并列被提及的Drake University球员是Johnny Bright。\n\n结论：与George Reed并列、同为Drake University出身且被誉为CFL历史上最伟大跑卫之一的是Johnny Bright。\n\n# 路径二：大学关联交叉验证\n\n步骤1：使用⟦15⟧，提取“a former American college football”这一描述，判断该材料指向某位曾在美国大学橄榄球体系效力的球员。\n\n步骤2：综合⟦83⟧⟦59⟧，交叉验证George Reed的大学经历，确认其与Drake University的关联。\n\n步骤3：使用⟦95⟧，提取“Johnny Bright”这一人名，结合⟦96⟧确认其身份标识。\n\n步骤4：综合⟦95⟧⟦57⟧⟦152⟧，对比Johnny Bright与George Reed在CFL历史评价中的位置，判断二者同属Drake University出身且均被列为CFL历史最伟大跑卫之一。\n\n结论：Drake University出身的另一位CFL伟大跑卫是Johnny Bright。\n\n# 路径三：CFL历史地位综合支撑\n\n步骤1：使用⟦54⟧，提取“CFL history”这一主题词，确定讨论范围是加拿大橄榄球联盟历史。\n\n步骤2：综合⟦83⟧⟦130⟧⟦57⟧，提取George Reed作为CFL球员的身份及其历史地位描述。\n\n步骤3：综合⟦388⟧⟦95⟧⟦108⟧⟦204⟧，提取“along with Johnny Bright and Mike Pringle, is one of the players most often mentioned as being the greatest running back in CFL history”这一并列结构，判断Johnny Bright与George Reed同属被提及的伟大跑卫。\n\n步骤4：使用⟦15⟧⟦59⟧，验证Johnny Bright的大学背景与Drake University的关联，确认其符合问题中“Drake University player”的限定条件。\n\n结论：综合CFL历史地位与大学背景两重证据，与George Reed并列的Drake University球员是Johnny Bright。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨388⟩⟦108⟧⟨389⟩⟦95⟧⟨390⟩⟦204⟧⟨391⟩⟨392⟩⟦54⟧⟦92⟧⟨393⟩⟨394⟩",
+  "nounCount": 381,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6072,
+    "completion_tokens": 178,
+    "total_tokens": 6250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 6072
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 801,
+    "completion_tokens": 634,
+    "total_tokens": 1435,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 801
+  }
+}

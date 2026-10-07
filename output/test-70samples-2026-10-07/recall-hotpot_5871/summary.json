@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_5871",
+  "question": "Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network?",
+  "expectedAnswer": "Cartoon Network Too",
+  "predictedAnswer": "# 路径一：从 Nick Jr. Too 的推出日期出发\n\n步骤1：使用⟦126⟧⟦139⟧⟦140⟧，提取 Nick Jr. Too（原名 Nick Jr. 2）于 2006 年 4 月 24 日推出，且该日期与某个“rival channel”相同。\n\n步骤2：使用⟦158⟧，确认该“rival channel”即为与 Nick Jr. Too 同日推出的对手频道。\n\n步骤3：综合⟦90⟧⟦197⟧，提取该对手频道与“day”相关的信息，指向其推出日期同为 2006 年 4 月 24 日。\n\n结论：Nick Jr. Too 与一个由 Turner Broadcasting 创建、且为 Cartoon Network 姊妹台的对手频道同日推出。\n\n# 路径二：从 Turner Broadcasting 的资产与频道关系出发\n\n步骤1：使用⟦236⟧⟦305⟧⟦306⟧⟦307⟧，提取 Turner Broadcasting System（又称 Turner）是一家美国媒体集团。\n\n步骤2：综合⟦195⟧⟦331⟧⟦333⟧⟦83⟧⟦108⟧⟦181⟧⟦228⟧⟦239⟧⟦232⟧，提取 Turner 的资产包括 CNN、HLN、TBS、TNT、Turner Classic Movies、Boomerang 和 TruTV 等。\n\n步骤3：使用⟦58⟧⟦133⟧，确认 Turner 管理多个有线电视网络，其中包括 Cartoon Network 及其姊妹频道。\n\n结论：Turner Broadcasting 旗下拥有 Cartoon Network 及其姊妹台，该姊妹台即为与 Nick Jr. Too 同日推出的对手频道。\n\n# 路径三：从 Cartoon Network 的姊妹台与推出日期交叉验证\n\n步骤1：使用⟦62⟧⟦77⟧⟦190⟧，提取 Cartoon Network 是一个频道，且存在其姊妹台的相关信息。\n\n步骤2：综合⟦139⟧⟦140⟧⟦141⟧⟦142⟧⟦143⟧，提取 Nick Jr. Too 于 2006 年 4 月 24 日推出，同日还有另一个频道推出。\n\n步骤3：使用⟦158⟧，确认该同日推出的频道为“rival channel”，且该频道由 Turner Broadcasting 创建、是 Cartoon Network 的姊妹台。\n\n结论：与 Nick Jr. Too 同日推出的对手频道是 Cartoon Network 的姊妹台，由 Turner Broadcasting 创建。\n\n# 路径四：综合多材料锁定唯一频道\n\n步骤1：使用⟦126⟧⟦139⟧，提取 Nick Jr. Too 的推出日期为 2006 年 4 月 24 日。\n\n步骤2：综合⟦158⟧⟦90⟧⟦197⟧，确认存在一个与 Nick Jr. Too 同日推出的“rival channel”。\n\n步骤3：综合⟦236⟧⟦195⟧⟦58⟧⟦133⟧⟦62⟧，确认该频道由 Turner Broadcasting 创建，且为 Cartoon Network 的姊妹台。\n\n结论：该频道即为 Cartoon Network 的姊妹台，由 Turner Broadcasting 创建，与 Nick Jr. Too 同日（2006 年 4 月 24 日）推出。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨126⟩⟦189⟧⟨127⟩⟨128⟩⟨129⟩⟦221⟧⟨130⟩⟦213⟧⟨131⟩⟦116⟧⟨132⟩⟦149⟧",
+  "nounCount": 416,
+  "score": 1,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6668,
+    "completion_tokens": 421,
+    "total_tokens": 7089,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 6668
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1523,
+    "completion_tokens": 737,
+    "total_tokens": 2260,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1523
+  }
+}

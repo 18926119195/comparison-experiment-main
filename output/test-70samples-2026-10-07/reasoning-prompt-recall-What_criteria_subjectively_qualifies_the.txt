@@ -1,0 +1,94 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Astrodome] ⟦186⟧⟨118⟩⟨119⟩⟦25⟧⟨120⟩⟦219⟧⟨121⟩⟦132⟧⟦133⟧⟨122⟩⟨123⟩⟨124⟩⟨125⟩⟨126⟩
+[Astrodome] ⟦134⟧
+[Astrodome] ⟨156⟩⟦172⟧⟨157⟩⟦48⟧⟨158⟩⟦142⟧⟦218⟧⟨159⟩⟨160⟩⟨161⟩
+[Eighth Wonder of the World] ⟦202⟧ | ⟦50⟧⟨249⟩⟨250⟩⟦24⟧⟨251⟩⟨252⟩⟦95⟧⟦33⟧⟨253⟩⟨254⟩⟦135⟧⟦135⟧⟨255⟩⟨256⟩⟦108⟧⟦108⟧⟨257⟩⟨258⟩⟦53⟧⟦47⟧⟨259⟩⟨260⟩⟦193⟧⟨261⟩⟦202⟧⟦202⟧⟨262⟩
+[Brewster McCloud] ⟦211⟧
+[Brewster McCloud] ⟦74⟧⟦141⟧
+[Brewster McCloud] ⟦174⟧
+
+符号表：
+⟦24⟧ = an unofficial title
+⟦25⟧ = astrodome
+⟦33⟧ = buildings
+⟦47⟧ = designs
+⟦48⟧ = Domed Stadium
+⟦50⟧ = Eighth Wonder
+⟦53⟧ = even designs
+⟦74⟧ = Houston
+⟦95⟧ = new buildings
+⟦108⟧ = projects
+⟦132⟧ = sports
+⟦133⟧ = sports stadium
+⟦134⟧ = stadium
+⟦135⟧ = structures
+⟦141⟧ = Texas
+⟦142⟧ = the "Eighth Wonder
+⟦172⟧ = the Harris County
+⟦174⟧ = the Houston Astrodome
+⟦186⟧ = The NRG Astrodome
+⟦193⟧ = the seven Wonders
+⟦202⟧ = the World
+⟦211⟧ = title
+⟦218⟧ = Wonder
+⟦219⟧ = world
+
+占位符映射：
+⟨118⟩ = , also known as 
+⟨119⟩ =  or simply The 
+⟨120⟩ = , is the 
+⟨121⟩ = 's first multi-purpose, domed 
+⟨122⟩ = 
+⟨123⟩ = 
+⟨124⟩ = , located in 
+⟨125⟩ = , 
+⟨126⟩ = .
+⟨156⟩ =  When opened, it was named 
+⟨157⟩ =  
+⟨158⟩ =  and was nicknamed 
+⟨159⟩ = 
+⟨160⟩ =  of 
+⟨161⟩ = ".
+⟨249⟩ =  of 
+⟨250⟩ =  is 
+⟨251⟩ = 
+⟨252⟩ =  sometimes given to 
+⟨253⟩ = 
+⟨254⟩ = , 
+⟨255⟩ = 
+⟨256⟩ = , 
+⟨257⟩ = 
+⟨258⟩ = , or 
+⟨259⟩ = 
+⟨260⟩ =  that are deemed to be comparable to 
+⟨261⟩ =  of 
+⟨262⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What criteria subjectively qualifies the Houston Astrodome to be called the Eighth Wonder of the World?

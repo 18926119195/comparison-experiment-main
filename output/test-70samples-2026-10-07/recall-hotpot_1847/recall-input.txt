@@ -1,0 +1,329 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "True Way
+⟦2⟧ = 12 February
+⟦3⟧ = 13,000 US barrels
+⟦4⟧ = 2016 sales volume
+⟦5⟧ = 30,000 barrels
+⟦6⟧ = 5 million hls
+⟦7⟧ = a 61% shareholding
+⟦8⟧ = a brewery
+⟦9⟧ = a craft brewery
+⟦10⟧ = a former professor
+⟦11⟧ = a large East London brewery
+⟦12⟧ = a local brewery
+⟦13⟧ = a major expansion
+⟦14⟧ = a New Age UFO cult
+⟦15⟧ = a plot
+⟦16⟧ = a religious cultivation group
+⟦17⟧ = a UFO religion
+⟦18⟧ = agriculture
+⟦19⟧ = Albuquerque
+⟦20⟧ = an annual production volume
+⟦21⟧ = an important person
+⟦22⟧ = ancestors
+⟦23⟧ = annual production
+⟦24⟧ = another fellow-cultivator
+⟦25⟧ = approximately 30 years
+⟦26⟧ = Austria-Hungary
+⟦27⟧ = awards
+⟦28⟧ = barrels
+⟦29⟧ = Bavaria
+⟦30⟧ = beer
+⟦31⟧ = beers
+⟦32⟧ = Benjamin Truman
+⟦33⟧ = brewer
+⟦34⟧ = breweries
+⟦35⟧ = brewers
+⟦36⟧ = brewery
+⟦37⟧ = brewing
+⟦38⟧ = Brewmaster
+⟦39⟧ = brewpubs
+⟦40⟧ = Brick Lane
+⟦41⟧ = Browar Łomża Sp
+⟦42⟧ = Burton
+⟦43⟧ = business
+⟦44⟧ = California
+⟦45⟧ = California-based craft brewery
+⟦46⟧ = capacities
+⟦47⟧ = capacity
+⟦48⟧ = century
+⟦49⟧ = Chen
+⟦50⟧ = Chen Tao
+⟦51⟧ = Christian motifs
+⟦52⟧ = Cieszyn Brewery
+⟦53⟧ = company
+⟦54⟧ = control
+⟦55⟧ = cosmology
+⟦56⟧ = county
+⟦57⟧ = craft
+⟦58⟧ = cult
+⟦59⟧ = cultivation
+⟦60⟧ = cultivator
+⟦61⟧ = day
+⟦62⟧ = demand
+⟦63⟧ = E1
+⟦64⟧ = eight medals
+⟦65⟧ = Elbrewery
+⟦66⟧ = elements
+⟦67⟧ = eleven brewpub locations
+⟦68⟧ = end
+⟦69⟧ = estate
+⟦70⟧ = expansion
+⟦71⟧ = family
+⟦72⟧ = father
+⟦73⟧ = fellow
+⟦74⟧ = five hundred million litres
+⟦75⟧ = five main breweries
+⟦76⟧ = Flying Dog
+⟦77⟧ = Flying Dog Brewery
+⟦78⟧ = flying saucers
+⟦79⟧ = founder
+⟦80⟧ = four gold medals
+⟦81⟧ = Frederick
+⟦82⟧ = Frederick Brewing Company
+⟦83⟧ = generation
+⟦84⟧ = generations
+⟦85⟧ = George Stranahan
+⟦86⟧ = gold
+⟦87⟧ = group
+⟦88⟧ = groups
+⟦89⟧ = growth
+⟦90⟧ = Grupa Żywiec
+⟦91⟧ = Grupa Żywiec S.A.
+⟦92⟧ = Heineken International Beheer B.V.
+⟦93⟧ = his ancestors
+⟦94⟧ = hls
+⟦95⟧ = Hon-Ming Chen
+⟦96⟧ = Indiana
+⟦97⟧ = Indianapolis
+⟦98⟧ = industry
+⟦99⟧ = information
+⟦100⟧ = Its beers
+⟦101⟧ = its brewery and pub estate
+⟦102⟧ = its grand opening
+⟦103⟧ = Its growth
+⟦104⟧ = its own brewpubs
+⟦105⟧ = its present-day success
+⟦106⟧ = its transformation
+⟦107⟧ = J.F. (Johannes) Swinkels
+⟦108⟧ = Johannes
+⟦109⟧ = Karl Strauss
+⟦110⟧ = Karl Strauss Brewing Company
+⟦111⟧ = Kevin Brannon
+⟦112⟧ = land
+⟦113⟧ = Leżajsk
+⟦114⟧ = Lieshout
+⟦115⟧ = Lieshout surroundings
+⟦116⟧ = litres
+⟦117⟧ = location
+⟦118⟧ = locations
+⟦119⟧ = Łomża
+⟦120⟧ = London
+⟦121⟧ = Ma
+⟦122⟧ = major operations
+⟦123⟧ = management
+⟦124⟧ = Marble Brewery
+⟦125⟧ = Marjorie McGinnis
+⟦126⟧ = Maryland
+⟦127⟧ = medals
+⟦128⟧ = motifs
+⟦129⟧ = neighborhood
+⟦130⟧ = new elements
+⟦131⟧ = New Mexico
+⟦132⟧ = North Brabant
+⟦133⟧ = one point
+⟦134⟧ = opening
+⟦135⟧ = operations
+⟦136⟧ = part
+⟦137⟧ = person
+⟦138⟧ = Philips Brewery
+⟦139⟧ = plant
+⟦140⟧ = plot
+⟦141⟧ = point
+⟦142⟧ = Poland
+⟦143⟧ = Poland's fourth largest brewery
+⟦144⟧ = Polish Brewery Van Pur
+⟦145⟧ = porter
+⟦146⟧ = production
+⟦147⟧ = professor
+⟦148⟧ = prominence
+⟦149⟧ = prophecy
+⟦150⟧ = pub
+⟦151⟧ = receivership
+⟦152⟧ = religion
+⟦153⟧ = Richard McIntyre
+⟦154⟧ = rise
+⟦155⟧ = room
+⟦156⟧ = Royal Unibrew
+⟦157⟧ = sales
+⟦158⟧ = San Diego
+⟦159⟧ = San Diego County
+⟦160⟧ = Santa Fe Brewing Company
+⟦161⟧ = saucers
+⟦162⟧ = several awards
+⟦163⟧ = shareholding
+⟦164⟧ = Small Brewery
+⟦165⟧ = Snyder International Brewing Group
+⟦166⟧ = some point
+⟦167⟧ = Southern California
+⟦168⟧ = state
+⟦169⟧ = Steve Nordahl
+⟦170⟧ = still family owned company
+⟦171⟧ = success
+⟦172⟧ = Sun King
+⟦173⟧ = Sun King Brewing
+⟦174⟧ = surroundings
+⟦175⟧ = Swinkels family
+⟦176⟧ = Taiwan
+⟦177⟧ = tasting
+⟦178⟧ = teacher
+⟦179⟧ = Teacher Yu-Hsia Chen
+⟦180⟧ = the 18th century
+⟦181⟧ = the 19th century
+⟦182⟧ = the 2014 Great American Beer Festival
+⟦183⟧ = the 37th largest craft brewery
+⟦184⟧ = the 47th largest brewery
+⟦185⟧ = the Black Eagle Brewery
+⟦186⟧ = the brewery
+⟦187⟧ = the brewing business
+⟦188⟧ = The Browar Łomża
+⟦189⟧ = The Browar Łomża brewery
+⟦190⟧ = the capacity
+⟦191⟧ = the Cole-Noble District
+⟦192⟧ = The company
+⟦193⟧ = the company’s beers
+⟦194⟧ = the county's rise
+⟦195⟧ = the craft brewing industry
+⟦196⟧ = the demand
+⟦197⟧ = the Dutch brewing industry
+⟦198⟧ = the Dutch Heineken Group
+⟦199⟧ = the Dutch village
+⟦200⟧ = the end
+⟦201⟧ = the expansion
+⟦202⟧ = the favourable location
+⟦203⟧ = the first brewer
+⟦204⟧ = the first commercial brewery
+⟦205⟧ = the founding father
+⟦206⟧ = the fourth generation
+⟦207⟧ = the Great American Beer Festival
+⟦208⟧ = the great tribulation
+⟦209⟧ = the group
+⟦210⟧ = the largest brewers
+⟦211⟧ = the largest brewery
+⟦212⟧ = the management
+⟦213⟧ = the Mid-Size Brewery
+⟦214⟧ = the Netherlands
+⟦215⟧ = the oldest surviving brewery
+⟦216⟧ = the original female founder
+⟦217⟧ = the Pacific Beach neighborhood
+⟦218⟧ = the plant
+⟦219⟧ = the production capacity
+⟦220⟧ = the prophecy
+⟦221⟧ = the pseudo-scientific information
+⟦222⟧ = the second largest brewery
+⟦223⟧ = the Second World War
+⟦224⟧ = the state
+⟦225⟧ = the third-generation teacher
+⟦226⟧ = the United States
+⟦227⟧ = the US
+⟦228⟧ = the Wedgewood Business Park
+⟦229⟧ = the world
+⟦230⟧ = the Year
+⟦231⟧ = their main brewery
+⟦232⟧ = their own groups
+⟦233⟧ = their professional capacities
+⟦234⟧ = then part
+⟦235⟧ = transformation
+⟦236⟧ = tribulation
+⟦237⟧ = Truman's Brewery
+⟦238⟧ = two generations
+⟦239⟧ = UFOs
+⟦240⟧ = United States
+⟦241⟧ = village
+⟦242⟧ = volume
+⟦243⟧ = Warka Brewery
+⟦244⟧ = Warsaw
+⟦245⟧ = Way
+⟦246⟧ = Wild Goose Brewery
+⟦247⟧ = world
+⟦248⟧ = year
+⟦249⟧ = years
+⟦250⟧ = z o.o
+⟦251⟧ = Żywiec
+⟦252⟧ = Żywiec Brewery
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Flying Dog Brewery] ⟦77⟧⟨1⟩⟦9⟧⟨2⟩⟦57⟧⟨3⟩⟦36⟧⟨4⟩⟦81⟧⟨5⟩⟦126⟧⟨6⟩
+[Flying Dog Brewery] ⟨7⟩⟦85⟧⟨8⟩⟦153⟧⟨9⟩⟦211⟧⟨10⟩⟦36⟧⟨11⟩⟦126⟧⟨12⟩
+[Flying Dog Brewery] ⟨13⟩⟦76⟧⟨14⟩⟦183⟧⟨15⟩⟦57⟧⟨16⟩⟦36⟧⟨17⟩⟦226⟧⟨18⟩
+[Sun King Brewing] ⟦173⟧⟨19⟩⟦8⟧⟨20⟩⟦36⟧⟨21⟩⟦191⟧⟨22⟩⟦97⟧⟨23⟩⟦96⟧⟨24⟩⟦240⟧⟨25⟩
+[Sun King Brewing] ⟨26⟩⟦211⟧⟨27⟩⟦36⟧⟨28⟩⟦97⟧⟨29⟩⟦222⟧⟨30⟩⟦36⟧⟨31⟩⟦224⟧⟨32⟩⟦168⟧⟨33⟩
+[Sun King Brewing] ⟨34⟩⟦172⟧⟨35⟩⟦64⟧⟨36⟩⟦127⟧⟨37⟩⟦80⟧⟨38⟩⟦86⟧⟨39⟩⟦127⟧⟨40⟩⟦207⟧⟨41⟩
+[Sun King Brewing] ⟦172⟧⟨42⟩⟦204⟧⟨43⟩⟦36⟧⟨44⟩⟦25⟧⟨45⟩⟦249⟧⟨46⟩⟦97⟧⟨47⟩
+[Johannes Franciscus Swinkels] ⟦107⟧⟨48⟩⟦21⟧⟨49⟩⟦137⟧⟨50⟩⟦197⟧⟨51⟩⟦37⟧⟨52⟩⟦98⟧⟨53⟩
+[Johannes Franciscus Swinkels] ⟨54⟩⟦206⟧⟨55⟩⟦83⟧⟨56⟩⟦175⟧⟨57⟩⟦71⟧⟨58⟩⟦8⟧⟨59⟩⟦36⟧⟨60⟩⟦199⟧⟨61⟩⟦241⟧⟨62⟩⟦114⟧⟨63⟩⟦132⟧⟨64⟩
+[Johannes Franciscus Swinkels] ⟨65⟩⟦186⟧⟨66⟩⟦36⟧⟨67⟩⟦106⟧⟨68⟩⟦235⟧⟨69⟩⟦12⟧⟨70⟩⟦36⟧⟨71⟩⟦170⟧⟨72⟩⟦71⟧⟨73⟩⟦53⟧⟨74⟩⟦23⟧⟨75⟩⟦146⟧⟨76⟩⟦74⟧⟨77⟩⟦116⟧⟨78⟩⟦30⟧⟨79⟩⟦30⟧⟨80⟩
+[Johannes Franciscus Swinkels] ⟨81⟩⟦29⟧⟨82⟩⟦222⟧⟨83⟩⟦36⟧⟨84⟩⟦214⟧⟨85⟩⟦108⟧⟨86⟩⟦205⟧⟨87⟩⟦72⟧⟨88⟩⟦105⟧⟨89⟩⟦61⟧⟨90⟩⟦171⟧⟨91⟩
+[Johannes Franciscus Swinkels] ⟦108⟧⟨92⟩⟦203⟧⟨93⟩⟦33⟧⟨94⟩⟦114⟧⟨95⟩⟦187⟧⟨96⟩⟦37⟧⟨97⟩⟦43⟧⟨98⟩⟦93⟧⟨99⟩⟦22⟧⟨100⟩⟦233⟧⟨101⟩⟦46⟧⟨102⟩⟦36⟧⟨103⟩⟦36⟧⟨104⟩⟦18⟧⟨105⟩⟦18⟧⟨106⟩⟦202⟧⟨107⟩⟦117⟧⟨108⟩⟦115⟧⟨109⟩⟦174⟧⟨110⟩
+[Marble Brewery (Albuquerque, New Mexico)] ⟦124⟧⟨111⟩⟦8⟧⟨112⟩⟦36⟧⟨113⟩⟦19⟧⟨114⟩⟦131⟧⟨115⟩
+[Marble Brewery (Albuquerque, New Mexico)] ⟨116⟩⟦222⟧⟨117⟩⟦36⟧⟨118⟩⟦131⟧⟨119⟩⟦160⟧⟨120⟩⟦20⟧⟨121⟩⟦146⟧⟨122⟩⟦242⟧⟨123⟩⟦3⟧⟨124⟩⟦28⟧⟨125⟩
+[Marble Brewery (Albuquerque, New Mexico)] ⟨126⟩⟦186⟧⟨127⟩⟦36⟧⟨128⟩⟦13⟧⟨129⟩⟦70⟧⟨130⟩⟦219⟧⟨131⟩⟦146⟧⟨132⟩⟦47⟧⟨133⟩⟦5⟧⟨134⟩⟦28⟧⟨135⟩
+[Marble Brewery (Albuquerque, New Mexico)] ⟦100⟧⟨136⟩⟦31⟧⟨137⟩⟦162⟧⟨138⟩⟦27⟧⟨139⟩⟦164⟧⟨140⟩⟦38⟧⟨141⟩⟦230⟧⟨142⟩⟦182⟧⟨143⟩
+[Frederick Brewing Company] ⟦82⟧⟨144⟩⟦133⟧⟨145⟩⟦141⟧⟨146⟩⟦246⟧⟨147⟩⟦8⟧⟨148⟩⟦36⟧⟨149⟩⟦228⟧⟨150⟩⟦81⟧⟨151⟩⟦126⟧⟨152⟩⟦240⟧⟨153⟩
+[Frederick Brewing Company] ⟨154⟩⟦125⟧⟨155⟩⟦111⟧⟨156⟩⟦169⟧⟨157⟩⟦102⟧⟨158⟩⟦134⟧⟨159⟩⟦2⟧⟨160⟩
+[Frederick Brewing Company] ⟦192⟧⟨161⟩⟦53⟧⟨162⟩⟦165⟧⟨163⟩⟦165⟧⟨164⟩
+[Frederick Brewing Company] ⟨165⟩⟦192⟧⟨166⟩⟦53⟧⟨167⟩⟦151⟧⟨168⟩⟦151⟧⟨169⟩⟦77⟧⟨170⟩⟦246⟧⟨171⟩
+[Frederick Brewing Company] ⟨172⟩⟦166⟧⟨173⟩⟦141⟧⟨174⟩⟦186⟧⟨175⟩⟦36⟧⟨176⟩⟦246⟧⟨177⟩⟦77⟧⟨178⟩
+[Truman's Brewery] ⟦237⟧⟨179⟩⟦11⟧⟨180⟩⟦36⟧⟨181⟩⟦210⟧⟨182⟩⟦35⟧⟨183⟩⟦229⟧⟨184⟩⟦247⟧⟨185⟩⟦200⟧⟨186⟩⟦68⟧⟨187⟩⟦181⟧⟨188⟩⟦48⟧⟨189⟩
+[Truman's Brewery] ⟨190⟩⟦185⟧⟨191⟩⟦15⟧⟨192⟩⟦140⟧⟨193⟩⟦112⟧⟨194⟩⟦112⟧⟨195⟩⟦40⟧⟨196⟩⟦120⟧⟨197⟩⟦63⟧⟨198⟩
+[Truman's Brewery] ⟨199⟩⟦180⟧⟨200⟩⟦48⟧⟨201⟩⟦212⟧⟨202⟩⟦123⟧⟨203⟩⟦32⟧⟨204⟩⟦196⟧⟨205⟩⟦62⟧⟨206⟩⟦145⟧⟨207⟩⟦145⟧⟨208⟩⟦210⟧⟨209⟩⟦35⟧⟨210⟩⟦120⟧⟨211⟩
+[Truman's Brewery] ⟦103⟧⟨212⟩⟦89⟧⟨213⟩⟦181⟧⟨214⟩⟦48⟧⟨215⟩⟦201⟧⟨216⟩⟦70⟧⟨217⟩⟦101⟧⟨218⟩⟦36⟧⟨219⟩⟦150⟧⟨220⟩⟦69⟧⟨221⟩
+[Truman's Brewery] ⟨222⟩⟦138⟧⟨223⟩⟦42⟧⟨224⟩⟦211⟧⟨225⟩⟦36⟧⟨226⟩⟦229⟧⟨227⟩⟦247⟧⟨228⟩
+[Żywiec Brewery] ⟦252⟧⟨229⟩⟦8⟧⟨230⟩⟦36⟧⟨231⟩⟦251⟧⟨232⟩⟦142⟧⟨233⟩⟦234⟧⟨234⟩⟦136⟧⟨235⟩⟦26⟧⟨236⟩
+[Żywiec Brewery] ⟨237⟩⟦223⟧⟨238⟩
+[Żywiec Brewery] ⟦91⟧⟨239⟩⟦75⟧⟨240⟩⟦34⟧⟨241⟩⟦252⟧⟨242⟩⟦65⟧⟨243⟩⟦113⟧⟨244⟩⟦243⟧⟨245⟩⟦52⟧⟨246⟩
+[Żywiec Brewery] ⟨247⟩⟦198⟧⟨248⟩⟦92⟧⟨249⟩⟦7⟧⟨250⟩⟦163⟧⟨251⟩⟦54⟧⟨252⟩⟦54⟧⟨253⟩⟦122⟧⟨254⟩⟦135⟧⟨255⟩
+[Żywiec Brewery] ⟦186⟧⟨256⟩⟦36⟧⟨257⟩⟦190⟧⟨258⟩⟦47⟧⟨259⟩⟦6⟧⟨260⟩⟦94⟧⟨261⟩⟦248⟧⟨262⟩⟦36⟧⟨263⟩⟦90⟧⟨264⟩
+[Browar Łomża] ⟦188⟧⟨265⟩⟦143⟧⟨266⟩⟦36⟧⟨267⟩
+[Browar Łomża] ⟦41⟧⟨268⟩
+[Browar Łomża] ⟦250⟧⟨269⟩⟦218⟧⟨270⟩⟦139⟧⟨271⟩
+[Browar Łomża] ⟨272⟩⟦156⟧⟨273⟩
+[Browar Łomża] ⟨274⟩⟦144⟧⟨275⟩⟦244⟧⟨276⟩
+[Browar Łomża] ⟦189⟧⟨277⟩⟦36⟧⟨278⟩⟦119⟧⟨279⟩⟦142⟧⟨280⟩
+[Chen Tao (True Way Cult)] ⟦50⟧⟨281⟩⟦1⟧⟨282⟩⟦245⟧⟨283⟩⟦17⟧⟨284⟩⟦152⟧⟨285⟩⟦176⟧⟨286⟩
+[Chen Tao (True Way Cult)] ⟨287⟩⟦95⟧⟨288⟩⟦239⟧⟨289⟩⟦239⟧⟨290⟩⟦209⟧⟨291⟩⟦87⟧⟨292⟩⟦14⟧⟨293⟩⟦58⟧⟨294⟩
+[Chen Tao (True Way Cult)] ⟦49⟧⟨295⟩⟦10⟧⟨296⟩⟦147⟧⟨297⟩⟦16⟧⟨298⟩⟦59⟧⟨299⟩⟦87⟧⟨300⟩⟦238⟧⟨301⟩⟦84⟧⟨302⟩⟦216⟧⟨303⟩⟦79⟧⟨304⟩⟦179⟧⟨305⟩
+[Chen Tao (True Way Cult)] ⟨306⟩⟦209⟧⟨307⟩⟦87⟧⟨308⟩⟦225⟧⟨309⟩⟦83⟧⟨310⟩⟦178⟧⟨311⟩⟦24⟧⟨312⟩⟦73⟧⟨313⟩⟦60⟧⟨314⟩⟦232⟧⟨315⟩⟦88⟧⟨316⟩
+[Chen Tao (True Way Cult)] ⟨317⟩⟦121⟧⟨318⟩⟦227⟧⟨319⟩⟦130⟧⟨320⟩⟦66⟧⟨321⟩⟦221⟧⟨322⟩⟦99⟧⟨323⟩⟦55⟧⟨324⟩⟦55⟧⟨325⟩⟦78⟧⟨326⟩⟦161⟧⟨327⟩⟦51⟧⟨328⟩⟦128⟧⟨329⟩⟦220⟧⟨330⟩⟦149⟧⟨331⟩⟦200⟧⟨332⟩⟦68⟧⟨333⟩⟦208⟧⟨334⟩⟦236⟧⟨335⟩⟦209⟧⟨336⟩⟦87⟧⟨337⟩
+[Karl Strauss Brewing Company] ⟦110⟧⟨338⟩⟦45⟧⟨339⟩⟦57⟧⟨340⟩⟦36⟧⟨341⟩⟦67⟧⟨342⟩⟦118⟧⟨343⟩⟦167⟧⟨344⟩⟦177⟧⟨345⟩⟦155⟧⟨346⟩⟦231⟧⟨347⟩⟦36⟧⟨348⟩⟦217⟧⟨349⟩⟦129⟧⟨350⟩⟦158⟧⟨351⟩
+[Karl Strauss Brewing Company] ⟨352⟩⟦104⟧⟨353⟩⟦39⟧⟨354⟩⟦193⟧⟨355⟩⟦53⟧⟨356⟩⟦31⟧⟨357⟩⟦44⟧⟨358⟩
+[Karl Strauss Brewing Company] ⟦109⟧⟨359⟩⟦215⟧⟨360⟩⟦36⟧⟨361⟩⟦159⟧⟨362⟩⟦194⟧⟨363⟩⟦56⟧⟨364⟩⟦154⟧⟨365⟩⟦148⟧⟨366⟩⟦148⟧⟨367⟩⟦195⟧⟨368⟩⟦57⟧⟨369⟩⟦37⟧⟨370⟩⟦98⟧⟨371⟩
+[Karl Strauss Brewing Company] ⟨372⟩⟦4⟧⟨373⟩⟦157⟧⟨374⟩⟦242⟧⟨375⟩⟦184⟧⟨376⟩⟦36⟧⟨377⟩⟦226⟧⟨378⟩
+[Karl Strauss Brewing Company] ⟨379⟩⟦109⟧⟨380⟩⟦213⟧⟨381⟩⟦230⟧⟨382⟩⟦207⟧⟨383⟩
+
+[user]
+
+问题：
+Who was the original female founder of the brewery that was purchased in 2006 by the largest brewery in the state of Maryland?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

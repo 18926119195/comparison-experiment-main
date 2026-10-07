@@ -1,0 +1,455 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "counter
+⟦2⟧ = (Unidades Militares de Ayuda
+⟦3⟧ = 10 to 12 hours
+⟦4⟧ = 16 times
+⟦5⟧ = 1790000 sqft
+⟦6⟧ = 8 km
+⟦7⟧ = 8-lanes
+⟦8⟧ = 愛岐大橋
+⟦9⟧ = A 1967 human rights report
+⟦10⟧ = a 2010 interview
+⟦11⟧ = a 302 km controlled-access highway
+⟦12⟧ = a 6-lane expressway
+⟦13⟧ = a bypass route
+⟦14⟧ = a circle
+⟦15⟧ = a daily ridership
+⟦16⟧ = a fixed span concrete bridge
+⟦17⟧ = a form
+⟦18⟧ = a highly experienced shiphandler
+⟦19⟧ = a la Producción
+⟦20⟧ = a marine pilot
+⟦21⟧ = A maritime pilot
+⟦22⟧ = a navigational expert
+⟦23⟧ = a pilot
+⟦24⟧ = a proposed toll road
+⟦25⟧ = a question
+⟦26⟧ = a rapid transit rail line
+⟦27⟧ = a ring
+⟦28⟧ = a sailor
+⟦29⟧ = a shopping mall
+⟦30⟧ = A small portion
+⟦31⟧ = a time
+⟦32⟧ = a truss bridge
+⟦33⟧ = a variety
+⟦34⟧ = about 8% to 9%
+⟦35⟧ = access
+⟦36⟧ = addition
+⟦37⟧ = Adventists
+⟦38⟧ = agent
+⟦39⟧ = Agra
+⟦40⟧ = agricultural labor camps
+⟦41⟧ = Aichi Prefecture
+⟦42⟧ = Aichi-Gifu Prefectural Route
+⟦43⟧ = Aigi ōhashi
+⟦44⟧ = alimentation
+⟦45⟧ = already congested roads
+⟦46⟧ = alternative
+⟦47⟧ = alternative civilian service
+⟦48⟧ = American States
+⟦49⟧ = an essential link
+⟦50⟧ = an estimated 5000 trucks
+⟦51⟧ = an ex ship captain
+⟦52⟧ = an iron beam bridge
+⟦53⟧ = any time
+⟦54⟧ = approximately 35,000 internees
+⟦55⟧ = April
+⟦56⟧ = area
+⟦57⟧ = areas
+⟦58⟧ = Australia
+⟦59⟧ = average
+⟦60⟧ = barracks
+⟦61⟧ = beam
+⟦62⟧ = Black Friday
+⟦63⟧ = Black Friday weekend
+⟦64⟧ = body
+⟦65⟧ = bride
+⟦66⟧ = bridge
+⟦67⟧ = bridges
+⟦68⟧ = bypass
+⟦69⟧ = call
+⟦70⟧ = Camagüey
+⟦71⟧ = camps
+⟦72⟧ = capacity
+⟦73⟧ = captain
+⟦74⟧ = car
+⟦75⟧ = carbon
+⟦76⟧ = Catholic priests
+⟦77⟧ = center
+⟦78⟧ = Charlotte
+⟦79⟧ = Chesapeake
+⟦80⟧ = Christians
+⟦81⟧ = circle
+⟦82⟧ = cities
+⟦83⟧ = city
+⟦84⟧ = clearance
+⟦85⟧ = collectivization
+⟦86⟧ = communist organizations
+⟦87⟧ = congested barracks
+⟦88⟧ = congested city center stations
+⟦89⟧ = congested I-64 High Rise Bridge traffic
+⟦90⟧ = conscientious objectors
+⟦91⟧ = construction
+⟦92⟧ = contracts
+⟦93⟧ = corner
+⟦94⟧ = corridor
+⟦95⟧ = counter
+⟦96⟧ = country
+⟦97⟧ = Cubans
+⟦98⟧ = dangerous or congested waters
+⟦99⟧ = day
+⟦100⟧ = days
+⟦101⟧ = demand
+⟦102⟧ = depth
+⟦103⟧ = detailed knowledge
+⟦104⟧ = direction
+⟦105⟧ = distance
+⟦106⟧ = Dominion Blvd
+⟦107⟧ = e.g. actual depth
+⟦108⟧ = edge
+⟦109⟧ = election
+⟦110⟧ = electricity
+⟦111⟧ = enemies
+⟦112⟧ = engineers
+⟦113⟧ = ex
+⟦114⟧ = expert
+⟦115⟧ = expressway
+⟦116⟧ = Fairview Roads
+⟦117⟧ = Fangcun
+⟦118⟧ = farmers
+⟦119⟧ = farms
+⟦120⟧ = Fidel Castro
+⟦121⟧ = food
+⟦122⟧ = foot
+⟦123⟧ = footprint
+⟦124⟧ = form
+⟦125⟧ = Former Intelligence Directorate agent Norberto Fuentes
+⟦126⟧ = forming government
+⟦127⟧ = four lanes
+⟦128⟧ = free labor
+⟦129⟧ = freight
+⟦130⟧ = future
+⟦131⟧ = Gifu Prefecture
+⟦132⟧ = government
+⟦133⟧ = great injustice
+⟦134⟧ = Guangzhou
+⟦135⟧ = Guangzhou East Railway Station
+⟦136⟧ = Guangzhou Railway Station
+⟦137⟧ = Gujō
+⟦138⟧ = harbor
+⟦139⟧ = harbor pilot
+⟦140⟧ = harbors
+⟦141⟧ = heavy freight vehicles
+⟦142⟧ = high capacity 8 car wide body A size rolling stock
+⟦143⟧ = highway
+⟦144⟧ = his communist revolution
+⟦145⟧ = homeless day laborers
+⟦146⟧ = homosexual men
+⟦147⟧ = homosexuals
+⟦148⟧ = hours
+⟦149⟧ = immates
+⟦150⟧ = India
+⟦151⟧ = injustice
+⟦152⟧ = intellectuals
+⟦153⟧ = internees
+⟦154⟧ = interview
+⟦155⟧ = Inuyama
+⟦156⟧ = iron
+⟦157⟧ = its 11-foot underwater clearance
+⟦158⟧ = its northbound span
+⟦159⟧ = Japan
+⟦160⟧ = Jehovah's Witnesses
+⟦161⟧ = Jesuit Social Center Osaka
+⟦162⟧ = July
+⟦163⟧ = Kakamigahara
+⟦164⟧ = Kamagasaki
+⟦165⟧ = km
+⟦166⟧ = knowledge
+⟦167⟧ = Komaki
+⟦168⟧ = La Jornada
+⟦169⟧ = labor
+⟦170⟧ = labor camps
+⟦171⟧ = Labor's alternative
+⟦172⟧ = laborers
+⟦173⟧ = lane
+⟦174⟧ = lanes
+⟦175⟧ = latrines
+⟦176⟧ = Line
+⟦177⟧ = lines
+⟦178⟧ = link
+⟦179⟧ = Lucknow
+⟦180⟧ = maintenance
+⟦181⟧ = majority
+⟦182⟧ = mall
+⟦183⟧ = malls
+⟦184⟧ = Melbourne
+⟦185⟧ = men
+⟦186⟧ = metro
+⟦187⟧ = miles
+⟦188⟧ = military
+⟦189⟧ = military service
+⟦190⟧ = Military Units
+⟦191⟧ = ministers
+⟦192⟧ = moments
+⟦193⟧ = months
+⟦194⟧ = mouths
+⟦195⟧ = Nagoya
+⟦196⟧ = neighborhood
+⟦197⟧ = no electricity
+⟦198⟧ = no other bridges
+⟦199⟧ = no showers
+⟦200⟧ = North Carolina
+⟦201⟧ = November
+⟦202⟧ = numerous regional rail lines
+⟦203⟧ = objectives
+⟦204⟧ = objectors
+⟦205⟧ = orbital and tangential traffic
+⟦206⟧ = organizations
+⟦207⟧ = Osaka
+⟦208⟧ = other metro lines
+⟦209⟧ = other religious people
+⟦210⟧ = over 1.2 million passengers
+⟦211⟧ = over 30,000 internees
+⟦212⟧ = part
+⟦213⟧ = passengers
+⟦214⟧ = Pazhou
+⟦215⟧ = people
+⟦216⟧ = pilot
+⟦217⟧ = plates
+⟦218⟧ = political enemies
+⟦219⟧ = political prisoners
+⟦220⟧ = pollution
+⟦221⟧ = pollution and carbon footprint
+⟦222⟧ = port
+⟦223⟧ = portion
+⟦224⟧ = priests
+⟦225⟧ = prisoners
+⟦226⟧ = Production
+⟦227⟧ = project
+⟦228⟧ = Protestant ministers
+⟦229⟧ = province
+⟦230⟧ = psychiatric wards
+⟦231⟧ = question
+⟦232⟧ = rail
+⟦233⟧ = report
+⟦234⟧ = response
+⟦235⟧ = revolution
+⟦236⟧ = revolutionary
+⟦237⟧ = rice
+⟦238⟧ = ridership
+⟦239⟧ = rights
+⟦240⟧ = ring
+⟦241⟧ = river
+⟦242⟧ = river mouths
+⟦243⟧ = road
+⟦244⟧ = roads
+⟦245⟧ = route
+⟦246⟧ = sailor
+⟦247⟧ = sales
+⟦248⟧ = Seki
+⟦249⟧ = service
+⟦250⟧ = servicemen
+⟦251⟧ = services
+⟦252⟧ = Seventh-day Adventists
+⟦253⟧ = Sharon
+⟦254⟧ = ship
+⟦255⟧ = shiphandler
+⟦256⟧ = ships
+⟦257⟧ = shopping
+⟦258⟧ = showers
+⟦259⟧ = six months
+⟦260⟧ = size
+⟦261⟧ = slum
+⟦262⟧ = south
+⟦263⟧ = southeastern Virginia
+⟦264⟧ = SouthPark
+⟦265⟧ = span
+⟦266⟧ = spoiled food
+⟦267⟧ = sqft
+⟦268⟧ = square foot
+⟦269⟧ = state
+⟦270⟧ = state farms
+⟦271⟧ = stations
+⟦272⟧ = stock
+⟦273⟧ = strength
+⟦274⟧ = suicide
+⟦275⟧ = sunrise
+⟦276⟧ = sunset
+⟦277⟧ = system
+⟦278⟧ = Tabiji
+⟦279⟧ = Thanksgiving Day
+⟦280⟧ = the 2014 state election
+⟦281⟧ = the affluent SouthPark neighborhood
+⟦282⟧ = The Agra Lucknow Expressway
+⟦283⟧ = the Aichi Prefecture
+⟦284⟧ = The Aigiōhashi Bridge
+⟦285⟧ = The bride
+⟦286⟧ = The bridge
+⟦287⟧ = the Carolinas
+⟦288⟧ = the cities
+⟦289⟧ = the congested slum
+⟦290⟧ = the congested West Gate Bridge
+⟦291⟧ = the corner
+⟦292⟧ = The corridor
+⟦293⟧ = the country
+⟦294⟧ = the Cuban government
+⟦295⟧ = the day
+⟦296⟧ = the Deep Creek neighborhood
+⟦297⟧ = the dense central areas
+⟦298⟧ = the distance
+⟦299⟧ = the East Coast
+⟦300⟧ = the edge
+⟦301⟧ = the Elizabeth River
+⟦302⟧ = the entire bridge
+⟦303⟧ = The expressway
+⟦304⟧ = the Gifu Prefecture
+⟦305⟧ = the Guangzhou Metro
+⟦306⟧ = the immates
+⟦307⟧ = the Indian state
+⟦308⟧ = the Kiso River
+⟦309⟧ = the Kōnanseki Route
+⟦310⟧ = the large expected demand
+⟦311⟧ = the largest mall
+⟦312⟧ = The line
+⟦313⟧ = the line's 32 stations
+⟦314⟧ = the longest expressway
+⟦315⟧ = The majority
+⟦316⟧ = the mall
+⟦317⟧ = the military
+⟦318⟧ = the most congested shopping area
+⟦319⟧ = the most profitable malls
+⟦320⟧ = the much shorter and smaller Dominon Boulevard Steel Bridge
+⟦321⟧ = the Napthine government's controversial $18 billion East West Link
+⟦322⟧ = the Organization
+⟦323⟧ = the particular waterway
+⟦324⟧ = the Pearl River Delta Rapid Transit system
+⟦325⟧ = The pilot
+⟦326⟧ = the Port
+⟦327⟧ = The project
+⟦328⟧ = the province
+⟦329⟧ = The report
+⟦330⟧ = the ring line
+⟦331⟧ = the road
+⟦332⟧ = the route
+⟦333⟧ = the same treatment
+⟦334⟧ = the southbound span
+⟦335⟧ = the Southern Branch
+⟦336⟧ = the state
+⟦337⟧ = the then Chief Minister
+⟦338⟧ = the then Victorian Labor Opposition
+⟦339⟧ = The UMAP camps
+⟦340⟧ = the UMAPs
+⟦341⟧ = the United States
+⟦342⟧ = the Uttar Pradesh Expressways Industrial Development Authority
+⟦343⟧ = The Veterans Bridge
+⟦344⟧ = The West Gate Distributor
+⟦345⟧ = the West Gate Distributor project
+⟦346⟧ = the West Gate Freeway
+⟦347⟧ = the wind
+⟦348⟧ = tide
+⟦349⟧ = time
+⟦350⟧ = times
+⟦351⟧ = toll
+⟦352⟧ = torture
+⟦353⟧ = traffic
+⟦354⟧ = transfers
+⟦355⟧ = transit
+⟦356⟧ = treatment
+⟦357⟧ = trucks
+⟦358⟧ = two lanes
+⟦359⟧ = two objectives
+⟦360⟧ = U.S. Route
+⟦361⟧ = UMAP servicemen
+⟦362⟧ = UMAPs
+⟦363⟧ = unclean plates
+⟦364⟧ = unhealthy water
+⟦365⟧ = Uptown Charlotte
+⟦366⟧ = US
+⟦367⟧ = USA
+⟦368⟧ = Uttar Pradesh
+⟦369⟧ = Uttar Pradesh Akhilesh Yadav
+⟦370⟧ = variety
+⟦371⟧ = vehicles
+⟦372⟧ = wards
+⟦373⟧ = water
+⟦374⟧ = waters
+⟦375⟧ = waterway
+⟦376⟧ = week
+⟦377⟧ = weekend
+⟦378⟧ = wind
+⟦379⟧ = Witnesses
+⟦380⟧ = young people
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Jesuit Social Center Osaka] ⟦161⟧⟨1⟩⟦278⟧⟨2⟩⟦33⟧⟨3⟩⟦370⟧⟨4⟩⟦251⟧⟨5⟩⟦251⟧⟨6⟩⟦145⟧⟨7⟩⟦99⟧⟨8⟩⟦172⟧⟨9⟩⟦289⟧⟨10⟩⟦261⟧⟨11⟩⟦164⟧⟨12⟩⟦207⟧⟨13⟩⟦159⟧⟨14⟩
+[SouthPark Mall (Charlotte, North Carolina)] ⟦264⟧⟨15⟩⟦29⟧⟨16⟩⟦257⟧⟨17⟩⟦182⟧⟨18⟩⟦281⟧⟨19⟩⟦196⟧⟨20⟩⟦316⟧⟨21⟩⟦182⟧⟨22⟩
+[SouthPark Mall (Charlotte, North Carolina)] ⟦316⟧⟨23⟩⟦182⟧⟨24⟩⟦187⟧⟨25⟩⟦6⟧⟨26⟩⟦165⟧⟨27⟩⟦262⟧⟨28⟩⟦262⟧⟨29⟩⟦365⟧⟨30⟩⟦200⟧⟨31⟩⟦291⟧⟨32⟩⟦93⟧⟨33⟩⟦253⟧⟨34⟩⟦116⟧⟨35⟩
+[SouthPark Mall (Charlotte, North Carolina)] ⟨36⟩⟦5⟧⟨37⟩⟦267⟧⟨38⟩⟦264⟧⟨39⟩⟦311⟧⟨40⟩⟦182⟧⟨41⟩⟦78⟧⟨42⟩⟦287⟧⟨43⟩⟦319⟧⟨44⟩⟦183⟧⟨45⟩⟦293⟧⟨46⟩⟦96⟧⟨47⟩⟦247⟧⟨48⟩⟦247⟧⟨49⟩⟦268⟧⟨50⟩⟦122⟧⟨51⟩
+[SouthPark Mall (Charlotte, North Carolina)] ⟨52⟩⟦299⟧⟨53⟩⟦341⟧⟨54⟩
+[SouthPark Mall (Charlotte, North Carolina)] ⟦264⟧⟨55⟩⟦318⟧⟨56⟩⟦257⟧⟨57⟩⟦56⟧⟨58⟩⟦341⟧⟨59⟩⟦63⟧⟨60⟩⟦377⟧⟨61⟩
+[Aigi Bridge] ⟦284⟧⟨62⟩⟦8⟧⟨63⟩⟦43⟧⟨64⟩⟦32⟧⟨65⟩⟦66⟧⟨66⟩⟦308⟧⟨67⟩⟦159⟧⟨68⟩
+[Aigi Bridge] ⟨69⟩⟦52⟧⟨70⟩⟦156⟧⟨71⟩⟦61⟧⟨72⟩⟦66⟧⟨73⟩⟦163⟧⟨74⟩⟦304⟧⟨75⟩⟦155⟧⟨76⟩⟦283⟧⟨77⟩
+[Aigi Bridge] ⟦285⟧⟨78⟩⟦65⟧⟨79⟩⟦212⟧⟨80⟩⟦212⟧⟨81⟩⟦42⟧⟨82⟩⟦309⟧⟨83⟩
+[Aigi Bridge] ⟦286⟧⟨84⟩⟦66⟧⟨85⟩⟦49⟧⟨86⟩⟦178⟧⟨87⟩⟦332⟧⟨88⟩⟦245⟧⟨89⟩⟦195⟧⟨90⟩⟦167⟧⟨91⟩⟦41⟧⟨92⟩⟦163⟧⟨93⟩⟦248⟧⟨94⟩⟦137⟧⟨95⟩⟦131⟧⟨96⟩
+[Aigi Bridge] ⟨97⟩⟦198⟧⟨98⟩⟦67⟧⟨99⟩⟦165⟧⟨100⟩⟦286⟧⟨101⟩⟦66⟧⟨102⟩⟦99⟧⟨103⟩
+[Aigi Bridge] ⟦286⟧⟨104⟩⟦66⟧⟨105⟩⟦31⟧⟨106⟩⟦349⟧⟨107⟩⟦180⟧⟨108⟩⟦180⟧⟨109⟩
+[Military Units to Aid Production] ⟦190⟧⟨110⟩⟦226⟧⟨111⟩⟦226⟧⟨112⟩⟦362⟧⟨113⟩⟦362⟧⟨114⟩⟦2⟧⟨115⟩⟦19⟧⟨116⟩⟦40⟧⟨117⟩⟦169⟧⟨118⟩⟦71⟧⟨119⟩⟦294⟧⟨120⟩⟦132⟧⟨121⟩⟦201⟧⟨122⟩⟦162⟧⟨123⟩⟦328⟧⟨124⟩⟦229⟧⟨125⟩⟦70⟧⟨126⟩
+[Military Units to Aid Production] ⟦339⟧⟨127⟩⟦71⟧⟨128⟩⟦17⟧⟨129⟩⟦124⟧⟨130⟩⟦47⟧⟨131⟩⟦249⟧⟨132⟩⟦97⟧⟨133⟩⟦317⟧⟨134⟩⟦188⟧⟨135⟩⟦90⟧⟨136⟩⟦204⟧⟨137⟩⟦80⟧⟨138⟩⟦209⟧⟨139⟩⟦215⟧⟨140⟩⟦147⟧⟨141⟩⟦147⟧⟨142⟩⟦218⟧⟨143⟩⟦111⟧⟨144⟩⟦120⟧⟨145⟩⟦144⟧⟨146⟩⟦235⟧⟨147⟩
+[Military Units to Aid Production] ⟦315⟧⟨148⟩⟦181⟧⟨149⟩⟦361⟧⟨150⟩⟦250⟧⟨151⟩⟦90⟧⟨152⟩⟦204⟧⟨153⟩
+[Military Units to Aid Production] ⟦30⟧⟨154⟩⟦223⟧⟨155⟩⟦34⟧⟨156⟩⟦306⟧⟨157⟩⟦149⟧⟨158⟩⟦146⟧⟨159⟩⟦185⟧⟨160⟩⟦160⟧⟨161⟩⟦379⟧⟨162⟩⟦252⟧⟨163⟩⟦99⟧⟨164⟩⟦37⟧⟨165⟩⟦76⟧⟨166⟩⟦224⟧⟨167⟩⟦228⟧⟨168⟩⟦191⟧⟨169⟩⟦152⟧⟨170⟩⟦152⟧⟨171⟩⟦118⟧⟨172⟩⟦118⟧⟨173⟩⟦85⟧⟨174⟩⟦85⟧⟨175⟩⟦1⟧⟨176⟩⟦95⟧⟨177⟩⟦236⟧⟨178⟩⟦236⟧⟨179⟩
+[Military Units to Aid Production] ⟦125⟧⟨180⟩⟦38⟧⟨181⟩⟦54⟧⟨182⟩⟦153⟧⟨183⟩⟦230⟧⟨184⟩⟦372⟧⟨185⟩⟦352⟧⟨186⟩⟦352⟧⟨187⟩⟦274⟧⟨188⟩
+[Military Units to Aid Production] ⟦9⟧⟨189⟩⟦239⟧⟨190⟩⟦233⟧⟨191⟩⟦322⟧⟨192⟩⟦48⟧⟨193⟩⟦211⟧⟨194⟩⟦153⟧⟨195⟩⟦269⟧⟨196⟩⟦270⟧⟨197⟩⟦119⟧⟨198⟩⟦3⟧⟨199⟩⟦148⟧⟨200⟩⟦99⟧⟨201⟩⟦275⟧⟨202⟩⟦275⟧⟨203⟩⟦276⟧⟨204⟩⟦276⟧⟨205⟩⟦100⟧⟨206⟩⟦376⟧⟨207⟩⟦376⟧⟨208⟩⟦44⟧⟨209⟩⟦237⟧⟨210⟩⟦237⟧⟨211⟩⟦266⟧⟨212⟩⟦121⟧⟨213⟩⟦364⟧⟨214⟩⟦373⟧⟨215⟩⟦363⟧⟨216⟩⟦217⟧⟨217⟩⟦87⟧⟨218⟩⟦60⟧⟨219⟩⟦197⟧⟨220⟩⟦110⟧⟨221⟩⟦175⟧⟨222⟩⟦175⟧⟨223⟩⟦199⟧⟨224⟩⟦258⟧⟨225⟩⟦149⟧⟨226⟩⟦149⟧⟨227⟩⟦333⟧⟨228⟩⟦356⟧⟨229⟩⟦219⟧⟨230⟩⟦225⟧⟨231⟩
+[Military Units to Aid Production] ⟦329⟧⟨232⟩⟦233⟧⟨233⟩⟦339⟧⟨234⟩⟦71⟧⟨235⟩⟦359⟧⟨236⟩⟦203⟧⟨237⟩⟦128⟧⟨238⟩⟦169⟧⟨239⟩⟦336⟧⟨240⟩⟦269⟧⟨241⟩⟦380⟧⟨242⟩⟦215⟧⟨243⟩⟦86⟧⟨244⟩⟦206⟧⟨245⟩
+[Military Units to Aid Production] ⟦294⟧⟨246⟩⟦132⟧⟨247⟩⟦340⟧⟨248⟩⟦362⟧⟨249⟩⟦169⟧⟨250⟩⟦170⟧⟨251⟩⟦71⟧⟨252⟩⟦212⟧⟨253⟩⟦189⟧⟨254⟩⟦249⟧⟨255⟩
+[Military Units to Aid Production] ⟨256⟩⟦10⟧⟨257⟩⟦154⟧⟨258⟩⟦168⟧⟨259⟩⟦120⟧⟨260⟩⟦234⟧⟨261⟩⟦234⟧⟨262⟩⟦25⟧⟨263⟩⟦231⟧⟨264⟩⟦339⟧⟨265⟩⟦71⟧⟨266⟩⟦192⟧⟨267⟩⟦192⟧⟨268⟩⟦133⟧⟨269⟩⟦151⟧⟨270⟩⟦133⟧⟨271⟩⟦151⟧⟨272⟩
+[Black Friday (shopping)] ⟦62⟧⟨273⟩⟦295⟧⟨274⟩⟦99⟧⟨275⟩⟦279⟧⟨276⟩⟦341⟧⟨277⟩⟦201⟧⟨278⟩
+[Agra Lucknow Expressway] ⟦282⟧⟨279⟩⟦11⟧⟨280⟩⟦35⟧⟨281⟩⟦143⟧⟨282⟩⟦115⟧⟨283⟩⟦115⟧⟨284⟩⟦342⟧⟨285⟩⟦353⟧⟨286⟩⟦353⟧⟨287⟩⟦45⟧⟨288⟩⟦244⟧⟨289⟩⟦220⟧⟨290⟩⟦221⟧⟨291⟩⟦75⟧⟨292⟩⟦123⟧⟨293⟩
+[Agra Lucknow Expressway] ⟨294⟩⟦314⟧⟨295⟩⟦115⟧⟨296⟩⟦150⟧⟨297⟩
+[Agra Lucknow Expressway] ⟦303⟧⟨298⟩⟦115⟧⟨299⟩⟦298⟧⟨300⟩⟦105⟧⟨301⟩⟦288⟧⟨302⟩⟦82⟧⟨303⟩⟦39⟧⟨304⟩⟦179⟧⟨305⟩⟦307⟧⟨306⟩⟦269⟧⟨307⟩⟦368⟧⟨308⟩
+[Agra Lucknow Expressway] ⟨309⟩⟦12⟧⟨310⟩⟦173⟧⟨311⟩⟦115⟧⟨312⟩⟦7⟧⟨313⟩⟦174⟧⟨314⟩⟦130⟧⟨315⟩⟦130⟧⟨316⟩⟦337⟧⟨317⟩⟦369⟧⟨318⟩
+[West Gate Distributor] ⟦344⟧⟨319⟩⟦24⟧⟨320⟩⟦351⟧⟨321⟩⟦243⟧⟨322⟩⟦184⟧⟨323⟩⟦58⟧⟨324⟩⟦35⟧⟨325⟩⟦35⟧⟨326⟩⟦346⟧⟨327⟩⟦326⟧⟨328⟩⟦184⟧⟨329⟩⟦141⟧⟨330⟩⟦129⟧⟨331⟩⟦371⟧⟨332⟩
+[West Gate Distributor] ⟦327⟧⟨333⟩⟦227⟧⟨334⟩⟦338⟧⟨335⟩⟦50⟧⟨336⟩⟦357⟧⟨337⟩⟦99⟧⟨338⟩⟦290⟧⟨339⟩
+[West Gate Distributor] ⟦327⟧⟨340⟩⟦227⟧⟨341⟩⟦171⟧⟨342⟩⟦46⟧⟨343⟩⟦321⟧⟨344⟩⟦132⟧⟨345⟩⟦55⟧⟨346⟩
+[West Gate Distributor] ⟦169⟧⟨347⟩⟦92⟧⟨348⟩⟦92⟧⟨349⟩⟦345⟧⟨350⟩⟦227⟧⟨351⟩⟦259⟧⟨352⟩⟦193⟧⟨353⟩⟦126⟧⟨354⟩⟦132⟧⟨355⟩⟦280⟧⟨356⟩⟦269⟧⟨357⟩⟦109⟧⟨358⟩⟦331⟧⟨359⟩⟦243⟧⟨360⟩
+[Veterans Bridge (Chesapeake, Virginia)] ⟦343⟧⟨361⟩⟦16⟧⟨362⟩⟦265⟧⟨363⟩⟦66⟧⟨364⟩⟦335⟧⟨365⟩⟦301⟧⟨366⟩⟦296⟧⟨367⟩⟦196⟧⟨368⟩⟦79⟧⟨369⟩⟦263⟧⟨370⟩⟦367⟧⟨371⟩
+[Veterans Bridge (Chesapeake, Virginia)] ⟦286⟧⟨372⟩⟦66⟧⟨373⟩⟦358⟧⟨374⟩⟦174⟧⟨375⟩⟦360⟧⟨376⟩⟦366⟧⟨377⟩⟦106⟧⟨378⟩⟦158⟧⟨379⟩⟦265⟧⟨380⟩
+[Veterans Bridge (Chesapeake, Virginia)] ⟨381⟩⟦334⟧⟨382⟩⟦265⟧⟨383⟩⟦302⟧⟨384⟩⟦66⟧⟨385⟩⟦127⟧⟨386⟩⟦174⟧⟨387⟩
+[Veterans Bridge (Chesapeake, Virginia)] ⟦292⟧⟨388⟩⟦94⟧⟨389⟩⟦13⟧⟨390⟩⟦68⟧⟨391⟩⟦245⟧⟨392⟩⟦89⟧⟨393⟩⟦353⟧⟨394⟩
+[Veterans Bridge (Chesapeake, Virginia)] ⟨395⟩⟦320⟧⟨396⟩⟦157⟧⟨397⟩⟦122⟧⟨398⟩⟦84⟧⟨399⟩⟦59⟧⟨400⟩⟦59⟧⟨401⟩⟦4⟧⟨402⟩⟦350⟧⟨403⟩⟦99⟧⟨404⟩⟦99⟧⟨405⟩
+[Maritime pilot] ⟦21⟧⟨406⟩⟦216⟧⟨407⟩⟦20⟧⟨408⟩⟦216⟧⟨409⟩⟦138⟧⟨410⟩⟦139⟧⟨411⟩⟦216⟧⟨412⟩⟦23⟧⟨413⟩⟦216⟧⟨414⟩⟦28⟧⟨415⟩⟦246⟧⟨416⟩⟦256⟧⟨417⟩⟦256⟧⟨418⟩⟦98⟧⟨419⟩⟦374⟧⟨420⟩⟦140⟧⟨421⟩⟦140⟧⟨422⟩⟦241⟧⟨423⟩⟦242⟧⟨424⟩⟦194⟧⟨425⟩
+[Maritime pilot] ⟨426⟩⟦51⟧⟨427⟩⟦113⟧⟨428⟩⟦254⟧⟨429⟩⟦73⟧⟨430⟩⟦18⟧⟨431⟩⟦255⟧⟨432⟩⟦103⟧⟨433⟩⟦166⟧⟨434⟩⟦323⟧⟨435⟩⟦375⟧⟨436⟩⟦107⟧⟨437⟩⟦102⟧⟨438⟩⟦104⟧⟨439⟩⟦104⟧⟨440⟩⟦273⟧⟨441⟩⟦273⟧⟨442⟩⟦347⟧⟨443⟩⟦378⟧⟨444⟩⟦348⟧⟨445⟩⟦348⟧⟨446⟩⟦53⟧⟨447⟩⟦349⟧⟨448⟩⟦295⟧⟨449⟩⟦99⟧⟨450⟩
+[Maritime pilot] ⟦325⟧⟨451⟩⟦216⟧⟨452⟩⟦22⟧⟨453⟩⟦114⟧⟨454⟩⟦326⟧⟨455⟩⟦222⟧⟨456⟩⟦69⟧⟨457⟩⟦69⟧⟨458⟩
+[Line 11, Guangzhou Metro] ⟦176⟧⟨459⟩⟦176⟧⟨460⟩⟦305⟧⟨461⟩⟦26⟧⟨462⟩⟦355⟧⟨463⟩⟦232⟧⟨464⟩⟦176⟧⟨465⟩⟦91⟧⟨466⟩⟦91⟧⟨467⟩⟦134⟧⟨468⟩
+[Line 11, Guangzhou Metro] ⟨469⟩⟦14⟧⟨470⟩⟦81⟧⟨471⟩⟦134⟧⟨472⟩⟦136⟧⟨473⟩⟦135⟧⟨474⟩⟦214⟧⟨475⟩⟦117⟧⟨476⟩
+[Line 11, Guangzhou Metro] ⟦312⟧⟨477⟩⟦176⟧⟨478⟩⟦27⟧⟨479⟩⟦240⟧⟨480⟩⟦300⟧⟨481⟩⟦108⟧⟨482⟩⟦297⟧⟨483⟩⟦57⟧⟨484⟩⟦134⟧⟨485⟩⟦205⟧⟨486⟩⟦353⟧⟨487⟩⟦88⟧⟨488⟩⟦83⟧⟨489⟩⟦77⟧⟨490⟩⟦271⟧⟨491⟩
+[Line 11, Guangzhou Metro] ⟨492⟩⟦313⟧⟨493⟩⟦176⟧⟨494⟩⟦271⟧⟨495⟩⟦354⟧⟨496⟩⟦354⟧⟨497⟩⟦208⟧⟨498⟩⟦186⟧⟨499⟩⟦177⟧⟨500⟩
+[Line 11, Guangzhou Metro] ⟨501⟩⟦36⟧⟨502⟩⟦36⟧⟨503⟩⟦202⟧⟨504⟩⟦232⟧⟨505⟩⟦177⟧⟨506⟩⟦324⟧⟨507⟩⟦277⟧⟨508⟩⟦271⟧⟨509⟩⟦271⟧⟨510⟩⟦330⟧⟨511⟩⟦240⟧⟨512⟩⟦176⟧⟨513⟩
+[Line 11, Guangzhou Metro] ⟦312⟧⟨514⟩⟦176⟧⟨515⟩⟦15⟧⟨516⟩⟦238⟧⟨517⟩⟦210⟧⟨518⟩⟦213⟧⟨519⟩⟦99⟧⟨520⟩⟦99⟧⟨521⟩
+[Line 11, Guangzhou Metro] ⟨522⟩⟦310⟧⟨523⟩⟦101⟧⟨524⟩⟦112⟧⟨525⟩⟦112⟧⟨526⟩⟦312⟧⟨527⟩⟦176⟧⟨528⟩⟦305⟧⟨529⟩⟦142⟧⟨530⟩⟦72⟧⟨531⟩⟦74⟧⟨532⟩⟦64⟧⟨533⟩⟦260⟧⟨534⟩⟦272⟧⟨535⟩
+
+[user]
+
+问题：
+What day in November is Southpark most congested?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

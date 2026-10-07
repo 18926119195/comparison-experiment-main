@@ -1,0 +1,402 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , rural half marathon
+⟦2⟧ = "Alboynus
+⟦3⟧ = "Ēadgār
+⟦4⟧ = (a Latinised version
+⟦5⟧ = 1070s
+⟦6⟧ = 10k
+⟦7⟧ = 10k course
+⟦8⟧ = 12 June
+⟦9⟧ = 12th Earl
+⟦10⟧ = 131 leaves
+⟦11⟧ = 17 March 1040 Ælfwine
+⟦12⟧ = 18 May
+⟦13⟧ = 23 April
+⟦14⟧ = 30 November
+⟦15⟧ = 60 years
+⟦16⟧ = 6th Duke
+⟦17⟧ = A canal
+⟦18⟧ = a cognate
+⟦19⟧ = a grandson
+⟦20⟧ = a King "Heroldus
+⟦21⟧ = a new canal basin
+⟦22⟧ = a part
+⟦23⟧ = a port
+⟦24⟧ = a pre-Conquest tradition
+⟦25⟧ = a saint
+⟦26⟧ = a sandstone ledge
+⟦27⟧ = a teenager
+⟦28⟧ = a tenth-century book
+⟦29⟧ = a war
+⟦30⟧ = abbess
+⟦31⟧ = Academy students
+⟦32⟧ = access
+⟦33⟧ = advisor
+⟦34⟧ = Ælfgifu
+⟦35⟧ = Ælfwine
+⟦36⟧ = Ælfwine Haroldsson
+⟦37⟧ = an Anglo-Saxon saint
+⟦38⟧ = an anthology
+⟦39⟧ = an early twelfth-century cartulary
+⟦40⟧ = an English peer
+⟦41⟧ = an illegitimate son
+⟦42⟧ = an inn
+⟦43⟧ = an off-road
+⟦44⟧ = Anglo-Saxon poetry
+⟦45⟧ = anthology
+⟦46⟧ = any claim
+⟦47⟧ = any shipping
+⟦48⟧ = Aquitaine
+⟦49⟧ = Archbishop
+⟦50⟧ = authorities
+⟦51⟧ = basin
+⟦52⟧ = basis
+⟦53⟧ = Bath
+⟦54⟧ = bishop
+⟦55⟧ = book
+⟦56⟧ = Both courses
+⟦57⟧ = brother
+⟦58⟧ = campus
+⟦59⟧ = canal
+⟦60⟧ = candidate
+⟦61⟧ = Canterbury
+⟦62⟧ = care
+⟦63⟧ = cartulary
+⟦64⟧ = century
+⟦65⟧ = ceremony
+⟦66⟧ = Charles
+⟦67⟧ = Christ
+⟦68⟧ = church
+⟦69⟧ = city
+⟦70⟧ = claim
+⟦71⟧ = Cnut
+⟦72⟧ = codex
+⟦73⟧ = codices
+⟦74⟧ = cognate
+⟦75⟧ = cognomen
+⟦76⟧ = collection
+⟦77⟧ = complex
+⟦78⟧ = confession
+⟦79⟧ = connection
+⟦80⟧ = Conques
+⟦81⟧ = coronation
+⟦82⟧ = course
+⟦83⟧ = courses
+⟦84⟧ = date
+⟦85⟧ = day
+⟦86⟧ = death
+⟦87⟧ = distance
+⟦88⟧ = Dorset
+⟦89⟧ = downtown
+⟦90⟧ = Dunstan
+⟦91⟧ = Eadwig
+⟦92⟧ = Earl
+⟦93⟧ = Edgar
+⟦94⟧ = Edgar's reign
+⟦95⟧ = Edmund II
+⟦96⟧ = Edmund Ironside
+⟦97⟧ = Edmund's reign
+⟦98⟧ = Edward
+⟦99⟧ = England
+⟦100⟧ = estate
+⟦101⟧ = event
+⟦102⟧ = Exeter
+⟦103⟧ = Exeter Cathedral
+⟦104⟧ = Exeter Cathedral Library MS
+⟦105⟧ = Exeter Quay
+⟦106⟧ = Exeter Quayside
+⟦107⟧ = exile
+⟦108⟧ = existence
+⟦109⟧ = expansion
+⟦110⟧ = family
+⟦111⟧ = father
+⟦112⟧ = feast
+⟦113⟧ = Front Street
+⟦114⟧ = Further expansion
+⟦115⟧ = Gerald Grosvenor
+⟦116⟧ = godson
+⟦117⟧ = grandmother
+⟦118⟧ = grandson
+⟦119⟧ = Guests
+⟦120⟧ = half
+⟦121⟧ = Harold
+⟦122⟧ = Harold Harefoot's sudden death
+⟦123⟧ = her confession
+⟦124⟧ = her feast day
+⟦125⟧ = her mother
+⟦126⟧ = his brother
+⟦127⟧ = his cognomen
+⟦128⟧ = his coronation
+⟦129⟧ = his death
+⟦130⟧ = his father
+⟦131⟧ = his first wife
+⟦132⟧ = His most trusted advisor
+⟦133⟧ = his mother
+⟦134⟧ = his older brother
+⟦135⟧ = his otherwise unknown mother's care
+⟦136⟧ = his powerful and influential grandmother
+⟦137⟧ = his predecessors
+⟦138⟧ = his reign
+⟦139⟧ = his son
+⟦140⟧ = his valour
+⟦141⟧ = historian
+⟦142⟧ = historian John Blair
+⟦143⟧ = historic downtown Exeter
+⟦144⟧ = home
+⟦145⟧ = if unknown connection
+⟦146⟧ = inn
+⟦147⟧ = invasion
+⟦148⟧ = its relative stability
+⟦149⟧ = its walking distance proximity
+⟦150⟧ = King
+⟦151⟧ = King Æthelred
+⟦152⟧ = King Alfred
+⟦153⟧ = King Harold Harefoot
+⟦154⟧ = kings
+⟦155⟧ = landowner
+⟦156⟧ = Latinised
+⟦157⟧ = law
+⟦158⟧ = leaves
+⟦159⟧ = ledge
+⟦160⟧ = leisure
+⟦161⟧ = Leofric
+⟦162⟧ = library
+⟦163⟧ = list
+⟦164⟧ = literature
+⟦165⟧ = Little
+⟦166⟧ = London
+⟦167⟧ = manuscript
+⟦168⟧ = many parents
+⟦169⟧ = marathon
+⟦170⟧ = monastery
+⟦171⟧ = mother
+⟦172⟧ = motif
+⟦173⟧ = MS Junius
+⟦174⟧ = New Hampshire
+⟦175⟧ = Nicholas Edmund Anthony Ashley-Cooper
+⟦176⟧ = Nick Ashley-Cooper
+⟦177⟧ = Northampton
+⟦178⟧ = Nowell Codex
+⟦179⟧ = number
+⟦180⟧ = nunnery
+⟦181⟧ = Old English
+⟦182⟧ = Old English literature
+⟦183⟧ = one "Alveva
+⟦184⟧ = one 12th-century writer
+⟦185⟧ = origin
+⟦186⟧ = other leaves
+⟦187⟧ = overseas traders
+⟦188⟧ = pages
+⟦189⟧ = parents
+⟦190⟧ = park
+⟦191⟧ = part
+⟦192⟧ = peer
+⟦193⟧ = philanthropist
+⟦194⟧ = Phillips Exeter Academy
+⟦195⟧ = pilgrimage
+⟦196⟧ = pinnacle
+⟦197⟧ = place
+⟦198⟧ = poetry
+⟦199⟧ = port
+⟦200⟧ = predecessors
+⟦201⟧ = prehistoric times
+⟦202⟧ = Prince
+⟦203⟧ = proximity
+⟦204⟧ = public
+⟦205⟧ = quay
+⟦206⟧ = quayside
+⟦207⟧ = r.
+⟦208⟧ = railways
+⟦209⟧ = record
+⟦210⟧ = records
+⟦211⟧ = reign
+⟦212⟧ = relic
+⟦213⟧ = relics
+⟦214⟧ = river
+⟦215⟧ = road
+⟦216⟧ = saint
+⟦217⟧ = Saint Ælfgifu
+⟦218⟧ = Saint Elgiva
+⟦219⟧ = Sainte Foi
+⟦220⟧ = sandstone
+⟦221⟧ = Scandinavia
+⟦222⟧ = school
+⟦223⟧ = servant
+⟦224⟧ = Shaftesbury
+⟦225⟧ = Shaftesbury Bt
+⟦226⟧ = Shaftesbury wife
+⟦227⟧ = shipping
+⟦228⟧ = ships
+⟦229⟧ = Simon Elliot
+⟦230⟧ = son
+⟦231⟧ = St Giles House
+⟦232⟧ = stability
+⟦233⟧ = students
+⟦234⟧ = style
+⟦235⟧ = succession
+⟦236⟧ = teenager
+⟦237⟧ = the 1070s
+⟦238⟧ = the 10th-century royal abbess
+⟦239⟧ = The 12th Earl
+⟦240⟧ = the 2,200 ha historic Shaftesbury Estate
+⟦241⟧ = the Ælfgifu
+⟦242⟧ = the basis
+⟦243⟧ = The book
+⟦244⟧ = the Cædmon manuscript
+⟦245⟧ = the campus
+⟦246⟧ = the church
+⟦247⟧ = the city
+⟦248⟧ = the Codex Exoniensis
+⟦249⟧ = the Countess Weir
+⟦250⟧ = the current coronation ceremony
+⟦251⟧ = the Danish invasion
+⟦252⟧ = the death
+⟦253⟧ = the Earls
+⟦254⟧ = The Exeter Book
+⟦255⟧ = The Exeter Inn
+⟦256⟧ = the Exeter Ship Canal
+⟦257⟧ = the family estate
+⟦258⟧ = the first bishop
+⟦259⟧ = the first time
+⟦260⟧ = the first wife
+⟦261⟧ = the four major Anglo-Saxon literature codices
+⟦262⟧ = the Georgian style complex
+⟦263⟧ = the godson
+⟦264⟧ = The Grand Shaftesbury Run
+⟦265⟧ = the Great
+⟦266⟧ = the Great Shaftesbury Run
+⟦267⟧ = the historic home
+⟦268⟧ = the holy servant
+⟦269⟧ = The inaugural event
+⟦270⟧ = The Inn
+⟦271⟧ = the largest known collection
+⟦272⟧ = the late 17th century
+⟦273⟧ = the library
+⟦274⟧ = the local authorities
+⟦275⟧ = the monastery
+⟦276⟧ = the number
+⟦277⟧ = the Old English Exeter relic-list
+⟦278⟧ = the only chronologically plausible candidate
+⟦279⟧ = the original first 8 pages
+⟦280⟧ = the park
+⟦281⟧ = the Peaceable
+⟦282⟧ = the Peaceful
+⟦283⟧ = The pinnacle
+⟦284⟧ = the political unity
+⟦285⟧ = the public
+⟦286⟧ = the quay
+⟦287⟧ = the quayside
+⟦288⟧ = the railways
+⟦289⟧ = the record
+⟦290⟧ = the records
+⟦291⟧ = the river
+⟦292⟧ = the River Exe
+⟦293⟧ = the royal nunnery
+⟦294⟧ = the school's architectural motif
+⟦295⟧ = the shipping
+⟦296⟧ = the ships
+⟦297⟧ = the son
+⟦298⟧ = the succession
+⟦299⟧ = the throne
+⟦300⟧ = the Unready
+⟦301⟧ = the Vercelli Book
+⟦302⟧ = the younger son
+⟦303⟧ = throne
+⟦304⟧ = time
+⟦305⟧ = times
+⟦306⟧ = traders
+⟦307⟧ = tradition
+⟦308⟧ = two future kings
+⟦309⟧ = United States
+⟦310⟧ = unity
+⟦311⟧ = unknown date
+⟦312⟧ = valour
+⟦313⟧ = version
+⟦314⟧ = W. H. Stevenson
+⟦315⟧ = Wales
+⟦316⟧ = walking
+⟦317⟧ = war
+⟦318⟧ = Westminster
+⟦319⟧ = whose relics
+⟦320⟧ = wife
+⟦321⟧ = Wimborne St Giles
+⟦322⟧ = Winchester
+⟦323⟧ = writer
+⟦324⟧ = Wynflaed
+⟦325⟧ = years
+⟦326⟧ = York
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Ælfwine Haroldsson] ⟦36⟧⟨1⟩⟦35⟧⟨2⟩⟦41⟧⟨3⟩⟦230⟧⟨4⟩⟦153⟧⟨5⟩⟦99⟧⟨6⟩
+[Ælfwine Haroldsson] ⟨7⟩⟦221⟧⟨8⟩⟦99⟧⟨9⟩
+[Ælfwine Haroldsson] ⟨10⟩⟦39⟧⟨11⟩⟦64⟧⟨12⟩⟦63⟧⟨13⟩⟦275⟧⟨14⟩⟦170⟧⟨15⟩⟦219⟧⟨16⟩⟦80⟧⟨17⟩⟦48⟧⟨18⟩⟦2⟧⟨19⟩⟦18⟧⟨20⟩⟦74⟧⟨21⟩⟦35⟧⟨22⟩⟦290⟧⟨23⟩⟦210⟧⟨24⟩⟦166⟧⟨25⟩⟦297⟧⟨26⟩⟦230⟧⟨27⟩⟦20⟧⟨28⟩⟦4⟧⟨29⟩⟦313⟧⟨30⟩⟦121⟧⟨31⟩⟦183⟧⟨32⟩⟦156⟧⟨33⟩
+[Ælfwine Haroldsson] ⟨34⟩⟦80⟧⟨35⟩⟦195⟧⟨36⟩⟦195⟧⟨37⟩⟦274⟧⟨38⟩⟦50⟧⟨39⟩⟦246⟧⟨40⟩⟦68⟧⟨41⟩
+[Ælfwine Haroldsson] ⟦314⟧⟨42⟩⟦278⟧⟨43⟩⟦60⟧⟨44⟩⟦130⟧⟨45⟩⟦111⟧⟨46⟩⟦153⟧⟨47⟩
+[Ælfwine Haroldsson] ⟨48⟩⟦122⟧⟨49⟩⟦86⟧⟨50⟩⟦11⟧⟨51⟩⟦135⟧⟨52⟩⟦171⟧⟨53⟩⟦62⟧⟨54⟩⟦136⟧⟨55⟩⟦117⟧⟨56⟩⟦34⟧⟨57⟩⟦177⟧⟨58⟩⟦241⟧⟨59⟩⟦289⟧⟨60⟩⟦209⟧⟨61⟩⟦133⟧⟨62⟩⟦171⟧⟨63⟩
+[Ælfwine Haroldsson] ⟨64⟩⟦46⟧⟨65⟩⟦70⟧⟨66⟩⟦299⟧⟨67⟩⟦303⟧⟨68⟩⟦99⟧⟨69⟩
+[Ælfwine Haroldsson] ⟦165⟧⟨70⟩⟦237⟧⟨71⟩⟦5⟧⟨72⟩
+[Ælfwine Haroldsson] ⟨73⟩⟦19⟧⟨74⟩⟦118⟧⟨75⟩⟦71⟧⟨76⟩⟦265⟧⟨77⟩
+[Grand Shaftesbury Run] ⟦264⟧⟨78⟩⟦266⟧⟨79⟩⟦43⟧⟨80⟩⟦215⟧⟨81⟩⟦1⟧⟨82⟩⟦120⟧⟨83⟩⟦169⟧⟨84⟩⟦6⟧⟨85⟩⟦7⟧⟨86⟩⟦82⟧⟨87⟩⟦197⟧⟨88⟩⟦197⟧⟨89⟩⟦240⟧⟨90⟩⟦321⟧⟨91⟩⟦88⟧⟨92⟩⟦99⟧⟨93⟩
+[Grand Shaftesbury Run] ⟦56⟧⟨94⟩⟦83⟧⟨95⟩⟦280⟧⟨96⟩⟦190⟧⟨97⟩⟦231⟧⟨98⟩⟦267⟧⟨99⟩⟦144⟧⟨100⟩⟦253⟧⟨101⟩⟦224⟧⟨102⟩
+[Grand Shaftesbury Run] ⟦269⟧⟨103⟩⟦101⟧⟨104⟩⟦8⟧⟨105⟩⟦257⟧⟨106⟩⟦110⟧⟨107⟩⟦100⟧⟨108⟩⟦285⟧⟨109⟩⟦204⟧⟨110⟩⟦259⟧⟨111⟩⟦304⟧⟨112⟩⟦15⟧⟨113⟩⟦325⟧⟨114⟩
+[Exeter Book] ⟦254⟧⟨115⟩⟦104⟧⟨116⟩⟦248⟧⟨117⟩⟦28⟧⟨118⟩⟦64⟧⟨119⟩⟦55⟧⟨120⟩⟦72⟧⟨121⟩⟦72⟧⟨122⟩⟦38⟧⟨123⟩⟦45⟧⟨124⟩⟦44⟧⟨125⟩⟦198⟧⟨126⟩
+[Exeter Book] ⟨127⟩⟦261⟧⟨128⟩⟦164⟧⟨129⟩⟦73⟧⟨130⟩⟦301⟧⟨131⟩⟦178⟧⟨132⟩⟦244⟧⟨133⟩⟦167⟧⟨134⟩⟦173⟧⟨135⟩
+[Exeter Book] ⟦243⟧⟨136⟩⟦55⟧⟨137⟩⟦273⟧⟨138⟩⟦162⟧⟨139⟩⟦103⟧⟨140⟩⟦161⟧⟨141⟩⟦258⟧⟨142⟩⟦54⟧⟨143⟩⟦102⟧⟨144⟩
+[Exeter Book] ⟨145⟩⟦10⟧⟨146⟩⟦158⟧⟨147⟩⟦186⟧⟨148⟩⟦158⟧⟨149⟩⟦279⟧⟨150⟩⟦188⟧⟨151⟩
+[Exeter Book] ⟦254⟧⟨152⟩⟦271⟧⟨153⟩⟦76⟧⟨154⟩⟦182⟧⟨155⟩⟦164⟧⟨156⟩⟦108⟧⟨157⟩⟦108⟧⟨158⟩
+[Exeter Quay] ⟦105⟧⟨159⟩⟦106⟧⟨160⟩⟦22⟧⟨161⟩⟦191⟧⟨162⟩⟦247⟧⟨163⟩⟦69⟧⟨164⟩⟦102⟧⟨165⟩⟦292⟧⟨166⟩⟦256⟧⟨167⟩
+[Exeter Quay] ⟨168⟩⟦23⟧⟨169⟩⟦199⟧⟨170⟩⟦201⟧⟨171⟩⟦305⟧⟨172⟩⟦26⟧⟨173⟩⟦220⟧⟨174⟩⟦159⟧⟨175⟩⟦296⟧⟨176⟩⟦228⟧⟨177⟩⟦187⟧⟨178⟩⟦306⟧⟨179⟩
+[Exeter Quay] ⟨180⟩⟦249⟧⟨181⟩⟦291⟧⟨182⟩⟦214⟧⟨183⟩⟦227⟧⟨184⟩⟦227⟧⟨185⟩
+[Exeter Quay] ⟦17⟧⟨186⟩⟦59⟧⟨187⟩⟦32⟧⟨188⟩⟦32⟧⟨189⟩⟦228⟧⟨190⟩⟦228⟧⟨191⟩
+[Exeter Quay] ⟨192⟩⟦304⟧⟨193⟩⟦304⟧⟨194⟩⟦276⟧⟨195⟩⟦179⟧⟨196⟩⟦228⟧⟨197⟩⟦228⟧⟨198⟩⟦287⟧⟨199⟩⟦206⟧⟨200⟩⟦286⟧⟨201⟩⟦205⟧⟨202⟩⟦272⟧⟨203⟩⟦64⟧⟨204⟩
+[Exeter Quay] ⟦114⟧⟨205⟩⟦109⟧⟨206⟩⟦21⟧⟨207⟩⟦59⟧⟨208⟩⟦51⟧⟨209⟩
+[Exeter Quay] ⟨210⟩⟦288⟧⟨211⟩⟦208⟧⟨212⟩⟦102⟧⟨213⟩⟦295⟧⟨214⟩⟦227⟧⟨215⟩
+[Exeter Quay] ⟦287⟧⟨216⟩⟦206⟧⟨217⟩⟦47⟧⟨218⟩⟦227⟧⟨219⟩⟦160⟧⟨220⟩⟦160⟧⟨221⟩
+[Nicholas Ashley-Cooper, 12th Earl of Shaftesbury] ⟦175⟧⟨222⟩⟦9⟧⟨223⟩⟦225⟧⟨224⟩⟦176⟧⟨225⟩⟦40⟧⟨226⟩⟦192⟧⟨227⟩⟦155⟧⟨228⟩⟦155⟧⟨229⟩⟦193⟧⟨230⟩⟦193⟧⟨231⟩
+[Nicholas Ashley-Cooper, 12th Earl of Shaftesbury] ⟨232⟩⟦126⟧⟨233⟩⟦57⟧⟨234⟩⟦92⟧⟨235⟩⟦224⟧⟨236⟩
+[Nicholas Ashley-Cooper, 12th Earl of Shaftesbury] ⟦239⟧⟨237⟩⟦224⟧⟨238⟩⟦263⟧⟨239⟩⟦116⟧⟨240⟩⟦115⟧⟨241⟩⟦16⟧⟨242⟩⟦318⟧⟨243⟩⟦229⟧⟨244⟩⟦57⟧⟨245⟩⟦57⟧⟨246⟩⟦157⟧⟨247⟩⟦157⟧⟨248⟩⟦66⟧⟨249⟩⟦202⟧⟨250⟩⟦315⟧⟨251⟩
+[Edmund Ironside] ⟦95⟧⟨252⟩⟦96⟧⟨253⟩⟦150⟧⟨254⟩⟦99⟧⟨255⟩⟦13⟧⟨256⟩⟦14⟧⟨257⟩
+[Edmund Ironside] ⟨258⟩⟦297⟧⟨259⟩⟦230⟧⟨260⟩⟦151⟧⟨261⟩⟦300⟧⟨262⟩⟦131⟧⟨263⟩⟦320⟧⟨264⟩⟦34⟧⟨265⟩⟦326⟧⟨266⟩
+[Edmund Ironside] ⟦97⟧⟨267⟩⟦211⟧⟨268⟩⟦29⟧⟨269⟩⟦317⟧⟨270⟩⟦130⟧⟨271⟩⟦111⟧⟨272⟩⟦127⟧⟨273⟩⟦75⟧⟨274⟩⟦140⟧⟨275⟩⟦312⟧⟨276⟩⟦251⟧⟨277⟩⟦147⟧⟨278⟩⟦71⟧⟨279⟩⟦265⟧⟨280⟩
+[Ælfgifu of Shaftesbury] ⟦217⟧⟨281⟩⟦224⟧⟨282⟩⟦218⟧⟨283⟩⟦260⟧⟨284⟩⟦320⟧⟨285⟩⟦207⟧⟨286⟩⟦308⟧⟨287⟩⟦154⟧⟨288⟩⟦91⟧⟨289⟩⟦93⟧⟨290⟩⟦207⟧⟨291⟩
+[Ælfgifu of Shaftesbury] ⟨292⟩⟦125⟧⟨293⟩⟦171⟧⟨294⟩⟦324⟧⟨295⟩⟦145⟧⟨296⟩⟦79⟧⟨297⟩⟦293⟧⟨298⟩⟦180⟧⟨299⟩⟦224⟧⟨300⟩⟦88⟧⟨301⟩⟦152⟧⟨302⟩⟦25⟧⟨303⟩⟦216⟧⟨304⟩
+[Ælfgifu of Shaftesbury] ⟨305⟩⟦24⟧⟨306⟩⟦307⟧⟨307⟩⟦322⟧⟨308⟩⟦124⟧⟨309⟩⟦112⟧⟨310⟩⟦85⟧⟨311⟩⟦12⟧⟨312⟩
+[Ælfgifu of Exeter] ⟦34⟧⟨313⟩⟦102⟧⟨314⟩⟦37⟧⟨315⟩⟦216⟧⟨316⟩⟦311⟧⟨317⟩⟦84⟧⟨318⟩⟦185⟧⟨319⟩⟦185⟧⟨320⟩⟦319⟧⟨321⟩⟦213⟧⟨322⟩⟦103⟧⟨323⟩
+[Ælfgifu of Exeter] ⟨324⟩⟦277⟧⟨325⟩⟦212⟧⟨326⟩⟦163⟧⟨327⟩⟦268⟧⟨328⟩⟦223⟧⟨329⟩⟦67⟧⟨330⟩⟦123⟧⟨331⟩⟦78⟧⟨332⟩⟦68⟧⟨333⟩⟦68⟧⟨334⟩
+[Ælfgifu of Exeter] ⟨335⟩⟦238⟧⟨336⟩⟦64⟧⟨337⟩⟦30⟧⟨338⟩⟦34⟧⟨339⟩⟦226⟧⟨340⟩⟦320⟧⟨341⟩⟦184⟧⟨342⟩⟦64⟧⟨343⟩⟦323⟧⟨344⟩⟦141⟧⟨345⟩⟦142⟧⟨346⟩
+[Exeter Inn] ⟦255⟧⟨347⟩⟦270⟧⟨348⟩⟦102⟧⟨349⟩⟦42⟧⟨350⟩⟦146⟧⟨351⟩⟦102⟧⟨352⟩⟦174⟧⟨353⟩⟦309⟧⟨354⟩
+[Exeter Inn] ⟨355⟩⟦113⟧⟨356⟩⟦245⟧⟨357⟩⟦58⟧⟨358⟩⟦194⟧⟨359⟩⟦262⟧⟨360⟩⟦234⟧⟨361⟩⟦77⟧⟨362⟩⟦294⟧⟨363⟩⟦222⟧⟨364⟩⟦172⟧⟨365⟩
+[Exeter Inn] ⟦119⟧⟨366⟩⟦119⟧⟨367⟩⟦168⟧⟨368⟩⟦189⟧⟨369⟩⟦31⟧⟨370⟩⟦233⟧⟨371⟩⟦149⟧⟨372⟩⟦316⟧⟨373⟩⟦87⟧⟨374⟩⟦203⟧⟨375⟩⟦143⟧⟨376⟩⟦89⟧⟨377⟩
+[Edgar the Peaceful] ⟨378⟩⟦181⟧⟨379⟩⟦3⟧⟨380⟩⟦282⟧⟨381⟩⟦281⟧⟨382⟩⟦150⟧⟨383⟩⟦99⟧⟨384⟩⟦129⟧⟨385⟩⟦86⟧⟨386⟩
+[Edgar the Peaceful] ⟨387⟩⟦302⟧⟨388⟩⟦230⟧⟨389⟩⟦34⟧⟨390⟩⟦224⟧⟨391⟩⟦299⟧⟨392⟩⟦303⟧⟨393⟩⟦27⟧⟨394⟩⟦236⟧⟨395⟩⟦252⟧⟨396⟩⟦86⟧⟨397⟩⟦134⟧⟨398⟩⟦57⟧⟨399⟩⟦91⟧⟨400⟩
+[Edgar the Peaceful] ⟨401⟩⟦150⟧⟨402⟩⟦150⟧⟨403⟩⟦93⟧⟨404⟩⟦284⟧⟨405⟩⟦310⟧⟨406⟩⟦137⟧⟨407⟩⟦200⟧⟨408⟩⟦138⟧⟨409⟩⟦211⟧⟨410⟩⟦148⟧⟨411⟩⟦232⟧⟨412⟩
+[Edgar the Peaceful] ⟦132⟧⟨413⟩⟦33⟧⟨414⟩⟦90⟧⟨415⟩⟦107⟧⟨416⟩⟦107⟧⟨417⟩⟦49⟧⟨418⟩⟦61⟧⟨419⟩
+[Edgar the Peaceful] ⟦283⟧⟨420⟩⟦196⟧⟨421⟩⟦94⟧⟨422⟩⟦211⟧⟨423⟩⟦128⟧⟨424⟩⟦81⟧⟨425⟩⟦53⟧⟨426⟩⟦90⟧⟨427⟩⟦242⟧⟨428⟩⟦52⟧⟨429⟩⟦250⟧⟨430⟩⟦81⟧⟨431⟩⟦65⟧⟨432⟩
+[Edgar the Peaceful] ⟨433⟩⟦129⟧⟨434⟩⟦86⟧⟨435⟩⟦139⟧⟨436⟩⟦230⟧⟨437⟩⟦98⟧⟨438⟩⟦298⟧⟨439⟩⟦235⟧⟨440⟩
+
+[user]
+
+问题：
+Ælfgifu of Exeter and Ælfgifu of Shaftesbury are both known for being what?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,519 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 1880s
+⟦2⟧ = 1930s
+⟦3⟧ = 1940s
+⟦4⟧ = 1960s
+⟦5⟧ = a brick mason
+⟦6⟧ = a building boom
+⟦7⟧ = a carpenter
+⟦8⟧ = a cereal manufacturer
+⟦9⟧ = a city hall
+⟦10⟧ = a contributing building
+⟦11⟧ = a contributing property
+⟦12⟧ = a factory
+⟦13⟧ = a fire
+⟦14⟧ = a flat roof
+⟦15⟧ = a historic building
+⟦16⟧ = a hotel
+⟦17⟧ = a jail
+⟦18⟧ = a local grocer
+⟦19⟧ = a local merchant
+⟦20⟧ = A Masonic lodge
+⟦21⟧ = a new community building
+⟦22⟧ = a new factory
+⟦23⟧ = a number
+⟦24⟧ = a period
+⟦25⟧ = a public library
+⟦26⟧ = a representative
+⟦27⟧ = a retail company
+⟦28⟧ = a saloon
+⟦29⟧ = a shift
+⟦30⟧ = a short-term lock-up
+⟦31⟧ = a two-story annex
+⟦32⟧ = A variety
+⟦33⟧ = a warehouse
+⟦34⟧ = addition
+⟦35⟧ = agricultural implements
+⟦36⟧ = an area
+⟦37⟧ = an elaborate cornice
+⟦38⟧ = an end
+⟦39⟧ = an entrepreneur
+⟦40⟧ = an example
+⟦41⟧ = an exchange
+⟦42⟧ = an historic building
+⟦43⟧ = an industrial area
+⟦44⟧ = an international mail order business
+⟦45⟧ = annex
+⟦46⟧ = apartments
+⟦47⟧ = appearance
+⟦48⟧ = architect
+⟦49⟧ = architecture
+⟦50⟧ = area
+⟦51⟧ = artists
+⟦52⟧ = Artspace, Inc.
+⟦53⟧ = attic level
+⟦54⟧ = Baby Face Nelson
+⟦55⟧ = back
+⟦56⟧ = bank
+⟦57⟧ = bankruptcy
+⟦58⟧ = bars
+⟦59⟧ = Bekins Van and Storage Company
+⟦60⟧ = block
+⟦61⟧ = boom
+⟦62⟧ = Breeders Supply Company
+⟦63⟧ = brick
+⟦64⟧ = builders
+⟦65⟧ = building
+⟦66⟧ = buildings
+⟦67⟧ = bunks
+⟦68⟧ = business
+⟦69⟧ = business interests
+⟦70⟧ = businesses
+⟦71⟧ = businessman
+⟦72⟧ = C.E. Atkinson
+⟦73⟧ = C.M. Sanborn
+⟦74⟧ = carpenter
+⟦75⟧ = Cedar Rapids
+⟦76⟧ = cereal
+⟦77⟧ = chain
+⟦78⟧ = city
+⟦79⟧ = City Center
+⟦80⟧ = commission
+⟦81⟧ = community
+⟦82⟧ = company
+⟦83⟧ = construction
+⟦84⟧ = contractor
+⟦85⟧ = cornice
+⟦86⟧ = council
+⟦87⟧ = Council Bluffs
+⟦88⟧ = Cyrus McCormick
+⟦89⟧ = department
+⟦90⟧ = department stores
+⟦91⟧ = designs
+⟦92⟧ = Dillinger
+⟦93⟧ = dime
+⟦94⟧ = district
+⟦95⟧ = door
+⟦96⟧ = Dwarfies
+⟦97⟧ = Dwarfies Corporation
+⟦98⟧ = dwellers
+⟦99⟧ = east
+⟦100⟧ = Eli Shugart
+⟦101⟧ = end
+⟦102⟧ = entrepreneur
+⟦103⟧ = establishments
+⟦104⟧ = Evans' quarry
+⟦105⟧ = example
+⟦106⟧ = exchange
+⟦107⟧ = F.R. Davis
+⟦108⟧ = facades
+⟦109⟧ = factory
+⟦110⟧ = farm
+⟦111⟧ = features
+⟦112⟧ = Ferdinand Weis
+⟦113⟧ = fire
+⟦114⟧ = firm
+⟦115⟧ = five floors
+⟦116⟧ = floor
+⟦117⟧ = floors
+⟦118⟧ = food
+⟦119⟧ = food processing
+⟦120⟧ = founder
+⟦121⟧ = Frank W. Woolworth
+⟦122⟧ = Fred T. Evans
+⟦123⟧ = Gere
+⟦124⟧ = grocer
+⟦125⟧ = grocery
+⟦126⟧ = growth
+⟦127⟧ = gunfire
+⟦128⟧ = hall
+⟦129⟧ = Hamilton
+⟦130⟧ = heist
+⟦131⟧ = High Victorian Italianate architecture
+⟦132⟧ = his business
+⟦133⟧ = his company
+⟦134⟧ = his grocery store
+⟦135⟧ = his mechanical reaper
+⟦136⟧ = his office and council meetings
+⟦137⟧ = Historic Places
+⟦138⟧ = home
+⟦139⟧ = hoodmolds
+⟦140⟧ = hotel
+⟦141⟧ = house
+⟦142⟧ = house Northwestern National Bank
+⟦143⟧ = Howell Co.
+⟦144⟧ = Hubbard
+⟦145⟧ = IH
+⟦146⟧ = implement
+⟦147⟧ = implements
+⟦148⟧ = infractions
+⟦149⟧ = interests
+⟦150⟧ = International Harvester
+⟦151⟧ = Iowa
+⟦152⟧ = its business
+⟦153⟧ = its owner
+⟦154⟧ = its use
+⟦155⟧ = Jail
+⟦156⟧ = January
+⟦157⟧ = John Dillinger
+⟦158⟧ = John Hamilton
+⟦159⟧ = large round arch openings
+⟦160⟧ = level
+⟦161⟧ = library
+⟦162⟧ = Liebbe
+⟦163⟧ = lines
+⟦164⟧ = live/work spaces
+⟦165⟧ = Local architect Charles Brown
+⟦166⟧ = local businessman
+⟦167⟧ = lock
+⟦168⟧ = lodge
+⟦169⟧ = mail
+⟦170⟧ = Mankato
+⟦171⟧ = manufacturer
+⟦172⟧ = manufacturers
+⟦173⟧ = manufactures
+⟦174⟧ = Maquoketa
+⟦175⟧ = March
+⟦176⟧ = markets
+⟦177⟧ = Marseilles
+⟦178⟧ = Marseilles Manufacturing Building
+⟦179⟧ = mason
+⟦180⟧ = Mason City
+⟦181⟧ = Mason City Inc.
+⟦182⟧ = May
+⟦183⟧ = Maynard
+⟦184⟧ = Maynard Town Hall
+⟦185⟧ = mayor
+⟦186⟧ = meetings
+⟦187⟧ = merchant
+⟦188⟧ = Minnesota architect William D. McLaughlin
+⟦189⟧ = minor infractions
+⟦190⟧ = model
+⟦191⟧ = modestly decorated main floor
+⟦192⟧ = Nebraska
+⟦193⟧ = new markets
+⟦194⟧ = New York
+⟦195⟧ = night
+⟦196⟧ = no building
+⟦197⟧ = north
+⟦198⟧ = Northwestern National Bank Building
+⟦199⟧ = Norwest Bank Building and City Center
+⟦200⟧ = Nourse
+⟦201⟧ = number
+⟦202⟧ = office
+⟦203⟧ = office space
+⟦204⟧ = offices
+⟦205⟧ = openings
+⟦206⟧ = operation
+⟦207⟧ = operations
+⟦208⟧ = order
+⟦209⟧ = other implement manufactures
+⟦210⟧ = other implements
+⟦211⟧ = other industrial buildings
+⟦212⟧ = other offices
+⟦213⟧ = other tenants
+⟦214⟧ = others
+⟦215⟧ = owner
+⟦216⟧ = period
+⟦217⟧ = Pioneer Implement Company
+⟦218⟧ = pioneers
+⟦219⟧ = place
+⟦220⟧ = Plans
+⟦221⟧ = politician
+⟦222⟧ = president
+⟦223⟧ = press
+⟦224⟧ = processing
+⟦225⟧ = product
+⟦226⟧ = product lines
+⟦227⟧ = production
+⟦228⟧ = professional offices
+⟦229⟧ = property
+⟦230⟧ = quarry
+⟦231⟧ = Rasmussen
+⟦232⟧ = rather plain brick construction
+⟦233⟧ = reaper
+⟦234⟧ = representative
+⟦235⟧ = retail establishments
+⟦236⟧ = roof
+⟦237⟧ = room
+⟦238⟧ = saloon
+⟦239⟧ = Sanborn
+⟦240⟧ = sandstone
+⟦241⟧ = Sandwich
+⟦242⟧ = section
+⟦243⟧ = several other H.F. Liebbe designs
+⟦244⟧ = shift
+⟦245⟧ = side
+⟦246⟧ = Sioux City
+⟦247⟧ = Sioux City architect E.W. Loft
+⟦248⟧ = Sioux City's building boom
+⟦249⟧ = smaller windows
+⟦250⟧ = south
+⟦251⟧ = South Dakota
+⟦252⟧ = space
+⟦253⟧ = spaces
+⟦254⟧ = state
+⟦255⟧ = store
+⟦256⟧ = stores
+⟦257⟧ = story
+⟦258⟧ = structure
+⟦259⟧ = sturcture
+⟦260⟧ = style
+⟦261⟧ = supplies
+⟦262⟧ = ten years
+⟦263⟧ = tenant
+⟦264⟧ = tenants
+⟦265⟧ = term
+⟦266⟧ = that time
+⟦267⟧ = the 1940s
+⟦268⟧ = the 1960s
+⟦269⟧ = The 6½-story building
+⟦270⟧ = the addition
+⟦271⟧ = the American Linseed Oil Company
+⟦272⟧ = the area's business interests
+⟦273⟧ = the back
+⟦274⟧ = The bank
+⟦275⟧ = The bank building
+⟦276⟧ = The Black Hills sandstone
+⟦277⟧ = the building
+⟦278⟧ = The C.M. Sanborn Building
+⟦279⟧ = the central business district
+⟦280⟧ = the city
+⟦281⟧ = the city hall
+⟦282⟧ = the city's "Implement District
+⟦283⟧ = The company
+⟦284⟧ = the construction
+⟦285⟧ = the Des Moines architectural firm
+⟦286⟧ = the district
+⟦287⟧ = the Dwarfies/Breeders Supply Building
+⟦288⟧ = the Early Commercial style
+⟦289⟧ = the east
+⟦290⟧ = the entire state
+⟦291⟧ = The Evans Block
+⟦292⟧ = The F. W. Woolworth Company
+⟦293⟧ = the first floor
+⟦294⟧ = the five-and-dime store
+⟦295⟧ = the founder
+⟦296⟧ = the four-story Late Victorian section
+⟦297⟧ = the four-story Romanesque Revival style building
+⟦298⟧ = The four-story, brick, Romanesque Revival sturcture
+⟦299⟧ = the Fourth Street Historic District
+⟦300⟧ = the gable roof
+⟦301⟧ = the general contractor
+⟦302⟧ = the Hach Brothers Company
+⟦303⟧ = The Hamilton Brothers Building
+⟦304⟧ = the heist
+⟦305⟧ = the Implement District
+⟦306⟧ = the International Harvester Transfer House
+⟦307⟧ = the largest building
+⟦308⟧ = the late 1880s
+⟦309⟧ = the late 1930s
+⟦310⟧ = the local area
+⟦311⟧ = the main floor
+⟦312⟧ = the main level
+⟦313⟧ = the Marseilles Manufacturing Company
+⟦314⟧ = the Mason City Downtown Historic District
+⟦315⟧ = The Masons
+⟦316⟧ = the mayor's house
+⟦317⟧ = the modern retail model
+⟦318⟧ = the most successful American and international five-and-dime business
+⟦319⟧ = the National Register
+⟦320⟧ = the night
+⟦321⟧ = the north
+⟦322⟧ = the north side
+⟦323⟧ = the office space
+⟦324⟧ = the only building
+⟦325⟧ = the only extant building
+⟦326⟧ = the only farm implement
+⟦327⟧ = the only Mason City commission
+⟦328⟧ = the only remaining building
+⟦329⟧ = the original building
+⟦330⟧ = the original pioneers
+⟦331⟧ = the original structure
+⟦332⟧ = the other office space
+⟦333⟧ = the others
+⟦334⟧ = The Panic
+⟦335⟧ = The Pioneer Implement Company
+⟦336⟧ = the president
+⟦337⟧ = the primary tenant
+⟦338⟧ = the public facades
+⟦339⟧ = the Public Square Historic District
+⟦340⟧ = the rebuilt press room annex
+⟦341⟧ = The Sandwich
+⟦342⟧ = the Sandwich Manufacturing Company
+⟦343⟧ = the second floor
+⟦344⟧ = the single story brick addition
+⟦345⟧ = the single-story addition
+⟦346⟧ = The Sioux City Linseed Oil Works
+⟦347⟧ = the south
+⟦348⟧ = the south side
+⟦349⟧ = the third floor
+⟦350⟧ = The three-story, brick building features
+⟦351⟧ = the time
+⟦352⟧ = the town
+⟦353⟧ = The two-story section
+⟦354⟧ = the upper floors
+⟦355⟧ = the westernmost wing
+⟦356⟧ = the whole building
+⟦357⟧ = the windows
+⟦358⟧ = The Woolworth Building
+⟦359⟧ = the Woolworth's chain
+⟦360⟧ = the work
+⟦361⟧ = the years
+⟦362⟧ = their Council Bluffs operation
+⟦363⟧ = this building
+⟦364⟧ = this company
+⟦365⟧ = this firm
+⟦366⟧ = this shift
+⟦367⟧ = this type
+⟦368⟧ = time
+⟦369⟧ = to farm implement manufacturers
+⟦370⟧ = today
+⟦371⟧ = Tommy Carroll
+⟦372⟧ = town
+⟦373⟧ = trends
+⟦374⟧ = twin oriel windows
+⟦375⟧ = two floors
+⟦376⟧ = two local builders
+⟦377⟧ = type
+⟦378⟧ = U.S. Route
+⟦379⟧ = United Parcel Service
+⟦380⟧ = United States
+⟦381⟧ = up
+⟦382⟧ = urban dwellers
+⟦383⟧ = use
+⟦384⟧ = variety
+⟦385⟧ = various businesses
+⟦386⟧ = W.P. Thomas
+⟦387⟧ = warehouse
+⟦388⟧ = warehouses
+⟦389⟧ = Warfield-Pratt
+⟦390⟧ = Watertown
+⟦391⟧ = Webster City
+⟦392⟧ = Wholesale Grocers
+⟦393⟧ = whose business
+⟦394⟧ = William Hancock
+⟦395⟧ = windows
+⟦396⟧ = wing
+⟦397⟧ = Woolworth
+⟦398⟧ = work
+⟦399⟧ = year
+⟦400⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[F. W. Woolworth Company] ⟦292⟧⟨1⟩⟦397⟧⟨2⟩⟦397⟧⟨3⟩⟦27⟧⟨4⟩⟦82⟧⟨5⟩⟦330⟧⟨6⟩⟦218⟧⟨7⟩⟦294⟧⟨8⟩⟦93⟧⟨9⟩⟦255⟧⟨10⟩
+[F. W. Woolworth Company] ⟨11⟩⟦318⟧⟨12⟩⟦93⟧⟨13⟩⟦68⟧⟨14⟩⟦373⟧⟨15⟩⟦373⟧⟨16⟩⟦317⟧⟨17⟩⟦190⟧⟨18⟩⟦256⟧⟨19⟩⟦256⟧⟨20⟩⟦370⟧⟨21⟩
+[C.M. Sanborn Building] ⟦278⟧⟨22⟩⟦15⟧⟨23⟩⟦65⟧⟨24⟩⟦174⟧⟨25⟩⟦151⟧⟨26⟩⟦380⟧⟨27⟩
+[C.M. Sanborn Building] ⟨28⟩⟦40⟧⟨29⟩⟦105⟧⟨30⟩⟦131⟧⟨31⟩⟦49⟧⟨32⟩
+[C.M. Sanborn Building] ⟦277⟧⟨33⟩⟦65⟧⟨34⟩⟦319⟧⟨35⟩⟦137⟧⟨36⟩
+[C.M. Sanborn Building] ⟦350⟧⟨37⟩⟦257⟧⟨38⟩⟦63⟧⟨39⟩⟦65⟧⟨40⟩⟦111⟧⟨41⟩⟦139⟧⟨42⟩⟦139⟧⟨43⟩⟦357⟧⟨44⟩⟦395⟧⟨45⟩⟦374⟧⟨46⟩⟦395⟧⟨47⟩⟦37⟧⟨48⟩⟦85⟧⟨49⟩
+[C.M. Sanborn Building] ⟦73⟧⟨50⟩⟦18⟧⟨51⟩⟦124⟧⟨52⟩⟦393⟧⟨53⟩⟦68⟧⟨54⟩⟦23⟧⟨55⟩⟦201⟧⟨56⟩⟦66⟧⟨57⟩⟦66⟧⟨58⟩⟦279⟧⟨59⟩⟦68⟧⟨60⟩⟦94⟧⟨61⟩⟦363⟧⟨62⟩⟦65⟧⟨63⟩
+[C.M. Sanborn Building] ⟨64⟩⟦301⟧⟨65⟩⟦84⟧⟨66⟩⟦284⟧⟨67⟩⟦83⟧⟨68⟩⟦363⟧⟨69⟩⟦65⟧⟨70⟩⟦376⟧⟨71⟩⟦64⟧⟨72⟩
+[C.M. Sanborn Building] ⟦394⟧⟨73⟩⟦5⟧⟨74⟩⟦63⟧⟨75⟩⟦179⟧⟨76⟩⟦386⟧⟨77⟩⟦7⟧⟨78⟩⟦74⟧⟨79⟩
+[C.M. Sanborn Building] ⟦239⟧⟨80⟩⟦57⟧⟨81⟩⟦57⟧⟨82⟩⟦277⟧⟨83⟩⟦65⟧⟨84⟩
+[C.M. Sanborn Building] ⟦32⟧⟨85⟩⟦384⟧⟨86⟩⟦235⟧⟨87⟩⟦103⟧⟨88⟩⟦311⟧⟨89⟩⟦116⟧⟨90⟩⟦343⟧⟨91⟩⟦116⟧⟨92⟩⟦202⟧⟨93⟩⟦203⟧⟨94⟩⟦252⟧⟨95⟩
+[C.M. Sanborn Building] ⟦20⟧⟨96⟩⟦168⟧⟨97⟩⟦349⟧⟨98⟩⟦116⟧⟨99⟩⟦277⟧⟨100⟩⟦65⟧⟨101⟩
+[C.M. Sanborn Building] ⟦315⟧⟨102⟩⟦277⟧⟨103⟩⟦65⟧⟨104⟩⟦266⟧⟨105⟩⟦368⟧⟨106⟩
+[Maynard Town Hall and Jail] ⟦184⟧⟨107⟩⟦155⟧⟨108⟩⟦15⟧⟨109⟩⟦65⟧⟨110⟩⟦183⟧⟨111⟩⟦151⟧⟨112⟩⟦380⟧⟨113⟩
+[Maynard Town Hall and Jail] ⟨114⟩⟦363⟧⟨115⟩⟦65⟧⟨116⟩⟦352⟧⟨117⟩⟦372⟧⟨118⟩⟦196⟧⟨119⟩⟦65⟧⟨120⟩⟦152⟧⟨121⟩⟦68⟧⟨122⟩
+[Maynard Town Hall and Jail] ⟨123⟩⟦316⟧⟨124⟩⟦185⟧⟨125⟩⟦141⟧⟨126⟩⟦219⟧⟨127⟩⟦219⟧⟨128⟩⟦68⟧⟨129⟩⟦68⟧⟨130⟩⟦136⟧⟨131⟩⟦202⟧⟨132⟩⟦86⟧⟨133⟩⟦186⟧⟨134⟩
+[Maynard Town Hall and Jail] ⟨135⟩⟦363⟧⟨136⟩⟦65⟧⟨137⟩⟦17⟧⟨138⟩⟦155⟧⟨139⟩⟦309⟧⟨140⟩⟦2⟧⟨141⟩⟦281⟧⟨142⟩⟦78⟧⟨143⟩⟦128⟧⟨144⟩⟦21⟧⟨145⟩⟦81⟧⟨146⟩⟦65⟧⟨147⟩
+[Maynard Town Hall and Jail] ⟨148⟩⟦351⟧⟨149⟩⟦368⟧⟨150⟩⟦17⟧⟨151⟩⟦155⟧⟨152⟩⟦58⟧⟨153⟩⟦58⟧⟨154⟩⟦67⟧⟨155⟩⟦67⟧⟨156⟩
+[Maynard Town Hall and Jail] ⟨157⟩⟦30⟧⟨158⟩⟦265⟧⟨159⟩⟦167⟧⟨160⟩⟦381⟧⟨161⟩⟦189⟧⟨162⟩⟦148⟧⟨163⟩
+[Maynard Town Hall and Jail] ⟨164⟩⟦25⟧⟨165⟩⟦161⟧⟨166⟩⟦267⟧⟨167⟩⟦3⟧⟨168⟩
+[Maynard Town Hall and Jail] ⟨169⟩⟦154⟧⟨170⟩⟦383⟧⟨171⟩⟦9⟧⟨172⟩⟦78⟧⟨173⟩⟦128⟧⟨174⟩⟦19⟧⟨175⟩⟦187⟧⟨176⟩⟦383⟧⟨177⟩⟦383⟧⟨178⟩⟦134⟧⟨179⟩⟦125⟧⟨180⟩⟦255⟧⟨181⟩
+[Maynard Town Hall and Jail] ⟦277⟧⟨182⟩⟦65⟧⟨183⟩⟦319⟧⟨184⟩⟦137⟧⟨185⟩
+[Pioneer Implement Company] ⟦335⟧⟨186⟩⟦306⟧⟨187⟩⟦15⟧⟨188⟩⟦65⟧⟨189⟩⟦87⟧⟨190⟩⟦151⟧⟨191⟩⟦380⟧⟨192⟩
+[Pioneer Implement Company] ⟦100⟧⟨193⟩⟦112⟧⟨194⟩⟦107⟧⟨195⟩⟦217⟧⟨196⟩⟦296⟧⟨197⟩⟦257⟧⟨198⟩⟦242⟧⟨199⟩⟦277⟧⟨200⟩⟦65⟧⟨201⟩⟦399⟧⟨202⟩
+[Pioneer Implement Company] ⟨203⟩⟦24⟧⟨204⟩⟦216⟧⟨205⟩⟦126⟧⟨206⟩⟦126⟧⟨207⟩⟦282⟧⟨208⟩⟦78⟧⟨209⟩⟦347⟧⟨210⟩⟦250⟧⟨211⟩⟦279⟧⟨212⟩⟦68⟧⟨213⟩⟦94⟧⟨214⟩
+[Pioneer Implement Company] ⟨215⟩⟦364⟧⟨216⟩⟦82⟧⟨217⟩⟦333⟧⟨218⟩⟦214⟧⟨219⟩⟦286⟧⟨220⟩⟦94⟧⟨221⟩⟦146⟧⟨222⟩⟦68⟧⟨223⟩⟦12⟧⟨224⟩⟦109⟧⟨225⟩⟦289⟧⟨226⟩⟦99⟧⟨227⟩
+[Pioneer Implement Company] ⟦283⟧⟨228⟩⟦82⟧⟨229⟩⟦68⟧⟨230⟩⟦68⟧⟨231⟩⟦277⟧⟨232⟩⟦65⟧⟨233⟩⟦150⟧⟨234⟩⟦277⟧⟨235⟩⟦65⟧⟨236⟩⟦95⟧⟨237⟩
+[Pioneer Implement Company] ⟨238⟩⟦344⟧⟨239⟩⟦257⟧⟨240⟩⟦63⟧⟨241⟩⟦34⟧⟨242⟩⟦347⟧⟨243⟩⟦250⟧⟨244⟩
+[Pioneer Implement Company] ⟨245⟩⟦145⟧⟨246⟩⟦362⟧⟨247⟩⟦206⟧⟨248⟩⟦326⟧⟨249⟩⟦110⟧⟨250⟩⟦146⟧⟨251⟩⟦68⟧⟨252⟩⟦68⟧⟨253⟩⟦305⟧⟨254⟩
+[Pioneer Implement Company] ⟦277⟧⟨255⟩⟦65⟧⟨256⟩⟦385⟧⟨257⟩⟦70⟧⟨258⟩⟦379⟧⟨259⟩
+[Pioneer Implement Company] ⟦52⟧⟨260⟩⟦277⟧⟨261⟩⟦65⟧⟨262⟩⟦164⟧⟨263⟩⟦398⟧⟨264⟩⟦253⟧⟨265⟩⟦51⟧⟨266⟩⟦51⟧⟨267⟩
+[Pioneer Implement Company] ⟦277⟧⟨268⟩⟦65⟧⟨269⟩⟦319⟧⟨270⟩⟦137⟧⟨271⟩
+[Sioux City Linseed Oil Works] ⟦346⟧⟨272⟩⟦15⟧⟨273⟩⟦65⟧⟨274⟩⟦246⟧⟨275⟩⟦151⟧⟨276⟩⟦380⟧⟨277⟩
+[Sioux City Linseed Oil Works] ⟨278⟩⟦36⟧⟨279⟩⟦50⟧⟨280⟩⟦279⟧⟨281⟩⟦68⟧⟨282⟩⟦94⟧⟨283⟩⟦388⟧⟨284⟩⟦388⟧⟨285⟩⟦211⟧⟨286⟩⟦66⟧⟨287⟩
+[Sioux City Linseed Oil Works] ⟦277⟧⟨288⟩⟦65⟧⟨289⟩⟦319⟧⟨290⟩⟦137⟧⟨291⟩
+[Sioux City Linseed Oil Works] ⟨292⟩⟦346⟧⟨293⟩⟦144⟧⟨294⟩⟦123⟧⟨295⟩⟦153⟧⟨296⟩⟦215⟧⟨297⟩⟦271⟧⟨298⟩⟦227⟧⟨299⟩⟦227⟧⟨300⟩
+[Sioux City Linseed Oil Works] ⟦277⟧⟨301⟩⟦65⟧⟨302⟩⟦13⟧⟨303⟩⟦113⟧⟨304⟩⟦320⟧⟨305⟩⟦195⟧⟨306⟩⟦182⟧⟨307⟩
+[Sioux City Linseed Oil Works] ⟦170⟧⟨308⟩⟦188⟧⟨309⟩⟦48⟧⟨310⟩⟦360⟧⟨311⟩⟦398⟧⟨312⟩⟦247⟧⟨313⟩⟦48⟧⟨314⟩
+[Sioux City Linseed Oil Works] ⟨315⟩⟦277⟧⟨316⟩⟦65⟧⟨317⟩⟦47⟧⟨318⟩⟦47⟧⟨319⟩⟦331⟧⟨320⟩⟦258⟧⟨321⟩
+[Sioux City Linseed Oil Works] ⟨322⟩⟦300⟧⟨323⟩⟦236⟧⟨324⟩⟦355⟧⟨325⟩⟦396⟧⟨326⟩⟦14⟧⟨327⟩⟦236⟧⟨328⟩⟦375⟧⟨329⟩⟦117⟧⟨330⟩⟦340⟧⟨331⟩⟦223⟧⟨332⟩⟦237⟧⟨333⟩⟦45⟧⟨334⟩⟦273⟧⟨335⟩⟦55⟧⟨336⟩
+[Sioux City Linseed Oil Works] ⟦277⟧⟨337⟩⟦65⟧⟨338⟩⟦59⟧⟨339⟩
+[Sioux City Linseed Oil Works] ⟨340⟩⟦207⟧⟨341⟩⟦207⟧⟨342⟩⟦400⟧⟨343⟩⟦337⟧⟨344⟩⟦263⟧⟨345⟩⟦277⟧⟨346⟩⟦65⟧⟨347⟩
+[Sioux City Linseed Oil Works] ⟨348⟩⟦32⟧⟨349⟩⟦384⟧⟨350⟩⟦213⟧⟨351⟩⟦264⟧⟨352⟩⟦361⟧⟨353⟩⟦400⟧⟨354⟩
+[Sandwich–Marseilles Manufacturing Building] ⟦341⟧⟨355⟩⟦178⟧⟨356⟩⟦287⟧⟨357⟩⟦15⟧⟨358⟩⟦65⟧⟨359⟩⟦87⟧⟨360⟩⟦151⟧⟨361⟩⟦380⟧⟨362⟩
+[Sandwich–Marseilles Manufacturing Building] ⟦363⟧⟨363⟩⟦65⟧⟨364⟩⟦342⟧⟨365⟩⟦313⟧⟨366⟩⟦305⟧⟨367⟩⟦43⟧⟨368⟩⟦50⟧⟨369⟩⟦279⟧⟨370⟩⟦68⟧⟨371⟩⟦94⟧⟨372⟩⟦138⟧⟨373⟩⟦369⟧⟨374⟩⟦146⟧⟨375⟩⟦172⟧⟨376⟩
+[Sandwich–Marseilles Manufacturing Building] ⟨377⟩⟦33⟧⟨378⟩⟦387⟧⟨379⟩⟦262⟧⟨380⟩⟦400⟧⟨381⟩
+[Sandwich–Marseilles Manufacturing Building] ⟦277⟧⟨382⟩⟦65⟧⟨383⟩⟦319⟧⟨384⟩⟦137⟧⟨385⟩
+[Sandwich–Marseilles Manufacturing Building] ⟦353⟧⟨386⟩⟦257⟧⟨387⟩⟦242⟧⟨388⟩⟦322⟧⟨389⟩⟦197⟧⟨390⟩⟦245⟧⟨391⟩⟦345⟧⟨392⟩⟦257⟧⟨393⟩⟦34⟧⟨394⟩⟦348⟧⟨395⟩⟦245⟧⟨396⟩
+[Sandwich–Marseilles Manufacturing Building] ⟦177⟧⟨397⟩⟦270⟧⟨398⟩⟦34⟧⟨399⟩⟦241⟧⟨400⟩⟦329⟧⟨401⟩⟦65⟧⟨402⟩
+[Sandwich–Marseilles Manufacturing Building] ⟨403⟩⟦29⟧⟨404⟩⟦244⟧⟨405⟩⟦35⟧⟨406⟩⟦147⟧⟨407⟩⟦118⟧⟨408⟩⟦119⟧⟨409⟩⟦224⟧⟨410⟩⟦272⟧⟨411⟩⟦50⟧⟨412⟩⟦68⟧⟨413⟩⟦149⟧⟨414⟩
+[Sandwich–Marseilles Manufacturing Building] ⟦97⟧⟨415⟩⟦8⟧⟨416⟩⟦76⟧⟨417⟩⟦171⟧⟨418⟩⟦277⟧⟨419⟩⟦65⟧⟨420⟩
+[Sandwich–Marseilles Manufacturing Building] ⟨421⟩⟦328⟧⟨422⟩⟦65⟧⟨423⟩⟦280⟧⟨424⟩⟦78⟧⟨425⟩⟦366⟧⟨426⟩⟦244⟧⟨427⟩
+[Sandwich–Marseilles Manufacturing Building] ⟦277⟧⟨428⟩⟦65⟧⟨429⟩⟦13⟧⟨430⟩⟦113⟧⟨431⟩
+[Sandwich–Marseilles Manufacturing Building] ⟦96⟧⟨432⟩⟦363⟧⟨433⟩⟦65⟧⟨434⟩⟦22⟧⟨435⟩⟦109⟧⟨436⟩⟦378⟧⟨437⟩
+[Sandwich–Marseilles Manufacturing Building] ⟦62⟧⟨438⟩⟦44⟧⟨439⟩⟦169⟧⟨440⟩⟦208⟧⟨441⟩⟦68⟧⟨442⟩⟦261⟧⟨443⟩⟦261⟧⟨444⟩⟦363⟧⟨445⟩⟦65⟧⟨446⟩⟦399⟧⟨447⟩
+[First National Bank of Mason City] ⟨448⟩⟦179⟧⟨449⟩⟦199⟧⟨450⟩⟦180⟧⟨451⟩⟦15⟧⟨452⟩⟦65⟧⟨453⟩⟦180⟧⟨454⟩⟦151⟧⟨455⟩⟦380⟧⟨456⟩
+[First National Bank of Mason City] ⟨457⟩⟦285⟧⟨458⟩⟦114⟧⟨459⟩⟦162⟧⟨460⟩⟦200⟧⟨461⟩⟦231⟧⟨462⟩⟦327⟧⟨463⟩⟦80⟧⟨464⟩⟦365⟧⟨465⟩⟦114⟧⟨466⟩
+[First National Bank of Mason City] ⟦275⟧⟨467⟩⟦56⟧⟨468⟩⟦65⟧⟨469⟩⟦319⟧⟨470⟩⟦137⟧⟨471⟩⟦11⟧⟨472⟩⟦229⟧⟨473⟩⟦314⟧⟨474⟩
+[First National Bank of Mason City] ⟦79⟧⟨475⟩⟦181⟧⟨476⟩⟦277⟧⟨477⟩⟦65⟧⟨478⟩⟦46⟧⟨479⟩⟦46⟧⟨480⟩⟦204⟧⟨481⟩⟦204⟧⟨482⟩
+[First National Bank of Mason City] ⟨483⟩⟦72⟧⟨484⟩⟦391⟧⟨485⟩⟦151⟧⟨486⟩⟦243⟧⟨487⟩⟦91⟧⟨488⟩
+[First National Bank of Mason City] ⟦269⟧⟨489⟩⟦65⟧⟨490⟩⟦288⟧⟨491⟩⟦260⟧⟨492⟩
+[First National Bank of Mason City] ⟨493⟩⟦191⟧⟨494⟩⟦116⟧⟨495⟩⟦53⟧⟨496⟩⟦160⟧⟨497⟩⟦115⟧⟨498⟩⟦117⟧⟨499⟩⟦232⟧⟨500⟩⟦63⟧⟨501⟩⟦83⟧⟨502⟩
+[First National Bank of Mason City] ⟦274⟧⟨503⟩⟦56⟧⟨504⟩⟦293⟧⟨505⟩⟦116⟧⟨506⟩⟦323⟧⟨507⟩⟦202⟧⟨508⟩⟦252⟧⟨509⟩⟦332⟧⟨510⟩⟦202⟧⟨511⟩⟦252⟧⟨512⟩⟦228⟧⟨513⟩⟦204⟧⟨514⟩
+[First National Bank of Mason City] ⟨515⟩⟦268⟧⟨516⟩⟦4⟧⟨517⟩⟦274⟧⟨518⟩⟦56⟧⟨519⟩⟦356⟧⟨520⟩⟦65⟧⟨521⟩
+[First National Bank of Mason City] ⟦157⟧⟨522⟩⟦54⟧⟨523⟩⟦158⟧⟨524⟩⟦371⟧⟨525⟩⟦274⟧⟨526⟩⟦56⟧⟨527⟩⟦175⟧⟨528⟩
+[First National Bank of Mason City] ⟦92⟧⟨529⟩⟦41⟧⟨530⟩⟦106⟧⟨531⟩⟦127⟧⟨532⟩⟦127⟧⟨533⟩⟦304⟧⟨534⟩⟦130⟧⟨535⟩
+[First National Bank of Mason City] ⟦277⟧⟨536⟩⟦65⟧⟨537⟩⟦321⟧⟨538⟩⟦197⟧⟨539⟩⟦274⟧⟨540⟩⟦56⟧⟨541⟩⟦31⟧⟨542⟩⟦257⟧⟨543⟩⟦45⟧⟨544⟩⟦274⟧⟨545⟩⟦56⟧⟨546⟩
+[Hamilton Brothers Building] ⟦303⟧⟨547⟩⟦389⟧⟨548⟩⟦143⟧
+[Hamilton Brothers Building] ⟦392⟧⟨549⟩⟦302⟧⟨550⟩⟦15⟧⟨551⟩⟦65⟧⟨552⟩⟦75⟧⟨553⟩⟦151⟧⟨554⟩⟦380⟧⟨555⟩
+[Hamilton Brothers Building] ⟨556⟩⟦325⟧⟨557⟩⟦65⟧⟨558⟩⟦166⟧⟨559⟩⟦71⟧⟨560⟩⟦221⟧⟨561⟩⟦221⟧⟨562⟩
+[Hamilton Brothers Building] ⟨563⟩⟦26⟧⟨564⟩⟦234⟧⟨565⟩⟦88⟧⟨566⟩⟦351⟧⟨567⟩⟦368⟧⟨568⟩⟦133⟧⟨569⟩⟦82⟧⟨570⟩⟦193⟧⟨571⟩⟦176⟧⟨572⟩⟦135⟧⟨573⟩⟦233⟧⟨574⟩⟦210⟧⟨575⟩⟦147⟧⟨576⟩
+[Hamilton Brothers Building] ⟦129⟧⟨577⟩⟦132⟧⟨578⟩⟦68⟧⟨579⟩⟦209⟧⟨580⟩⟦146⟧⟨581⟩⟦173⟧⟨582⟩⟦225⟧⟨583⟩⟦226⟧⟨584⟩⟦163⟧⟨585⟩⟦382⟧⟨586⟩⟦98⟧⟨587⟩
+[Hamilton Brothers Building] ⟦132⟧⟨588⟩⟦68⟧⟨589⟩⟦310⟧⟨590⟩⟦50⟧⟨591⟩⟦290⟧⟨592⟩⟦254⟧⟨593⟩
+[Hamilton Brothers Building] ⟨594⟩⟦33⟧⟨595⟩⟦387⟧⟨596⟩⟦324⟧⟨597⟩⟦65⟧⟨598⟩⟦367⟧⟨599⟩⟦377⟧⟨600⟩⟦279⟧⟨601⟩⟦68⟧⟨602⟩⟦94⟧⟨603⟩
+[Hamilton Brothers Building] ⟨604⟩⟦307⟧⟨605⟩⟦65⟧⟨606⟩⟦367⟧⟨607⟩⟦377⟧⟨608⟩⟦280⟧⟨609⟩⟦78⟧⟨610⟩
+[Hamilton Brothers Building] ⟦298⟧⟨611⟩⟦257⟧⟨612⟩⟦63⟧⟨613⟩⟦259⟧⟨614⟩⟦159⟧⟨615⟩⟦205⟧⟨616⟩⟦311⟧⟨617⟩⟦116⟧⟨618⟩⟦249⟧⟨619⟩⟦395⟧⟨620⟩⟦354⟧⟨621⟩⟦117⟧⟨622⟩
+[Hamilton Brothers Building] ⟨623⟩⟦319⟧⟨624⟩⟦137⟧⟨625⟩
+[Evans Block (Sioux City, Iowa)] ⟦291⟧⟨626⟩⟦198⟧⟨627⟩⟦15⟧⟨628⟩⟦65⟧⟨629⟩⟦246⟧⟨630⟩⟦151⟧⟨631⟩⟦380⟧⟨632⟩
+[Evans Block (Sioux City, Iowa)] ⟦280⟧⟨633⟩⟦78⟧⟨634⟩⟦6⟧⟨635⟩⟦65⟧⟨636⟩⟦61⟧⟨637⟩⟦308⟧⟨638⟩⟦1⟧⟨639⟩
+[Evans Block (Sioux City, Iowa)] ⟦122⟧⟨640⟩⟦39⟧⟨641⟩⟦102⟧⟨642⟩⟦68⟧⟨643⟩⟦69⟧⟨644⟩⟦149⟧⟨645⟩⟦151⟧⟨646⟩⟦192⟧⟨647⟩⟦251⟧⟨648⟩⟦363⟧⟨649⟩⟦65⟧⟨650⟩⟦141⟧⟨651⟩⟦142⟧⟨652⟩⟦336⟧⟨653⟩⟦222⟧⟨654⟩
+[Evans Block (Sioux City, Iowa)] ⟦274⟧⟨655⟩⟦56⟧⟨656⟩⟦312⟧⟨657⟩⟦160⟧⟨658⟩⟦212⟧⟨659⟩⟦204⟧⟨660⟩⟦354⟧⟨661⟩⟦117⟧⟨662⟩
+[Evans Block (Sioux City, Iowa)] ⟦165⟧⟨663⟩⟦48⟧⟨664⟩⟦297⟧⟨665⟩⟦257⟧⟨666⟩⟦260⟧⟨667⟩⟦65⟧⟨668⟩
+[Evans Block (Sioux City, Iowa)] ⟦276⟧⟨669⟩⟦240⟧⟨670⟩⟦338⟧⟨671⟩⟦108⟧⟨672⟩⟦104⟧⟨673⟩⟦230⟧⟨674⟩
+[Evans Block (Sioux City, Iowa)] ⟦334⟧⟨675⟩⟦248⟧⟨676⟩⟦65⟧⟨677⟩⟦61⟧⟨678⟩⟦38⟧⟨679⟩⟦101⟧⟨680⟩⟦291⟧⟨681⟩⟦60⟧⟨682⟩⟦156⟧⟨683⟩
+[Evans Block (Sioux City, Iowa)] ⟨684⟩⟦277⟧⟨685⟩⟦65⟧⟨686⟩⟦16⟧⟨687⟩⟦140⟧⟨688⟩⟦12⟧⟨689⟩⟦109⟧⟨690⟩⟦28⟧⟨691⟩⟦238⟧⟨692⟩⟦32⟧⟨693⟩⟦384⟧⟨694⟩⟦256⟧⟨695⟩⟦256⟧⟨696⟩
+[Evans Block (Sioux City, Iowa)] ⟨697⟩⟦319⟧⟨698⟩⟦137⟧⟨699⟩⟦11⟧⟨700⟩⟦229⟧⟨701⟩⟦299⟧⟨702⟩
+[F. W. Woolworth Building (Watertown, New York)] ⟦358⟧⟨703⟩⟦42⟧⟨704⟩⟦65⟧⟨705⟩⟦390⟧⟨706⟩⟦194⟧⟨707⟩
+[F. W. Woolworth Building (Watertown, New York)] ⟨708⟩⟦10⟧⟨709⟩⟦65⟧⟨710⟩⟦339⟧⟨711⟩
+[F. W. Woolworth Building (Watertown, New York)] ⟦220⟧⟨712⟩⟦220⟧⟨713⟩⟦358⟧⟨714⟩⟦121⟧⟨715⟩⟦295⟧⟨716⟩⟦120⟧⟨717⟩⟦359⟧⟨718⟩⟦77⟧⟨719⟩⟦89⟧⟨720⟩⟦90⟧⟨721⟩⟦256⟧⟨722⟩
+
+[user]
+
+问题：
+In what city does the most successful American and international five-and-dime business have a historic building?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,126 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Discovery Zone] ⟦85⟧⟨266⟩⟦2⟧⟨267⟩⟦8⟧⟨268⟩⟨269⟩⟦97⟧⟨270⟩⟨271⟩⟨272⟩⟨273⟩⟨274⟩⟦91⟧⟦162⟧⟨275⟩⟨276⟩⟦351⟧⟦58⟧⟨277⟩⟨278⟩⟦220⟧⟦221⟧⟨279⟩⟦238⟧⟨280⟩⟨281⟩⟦246⟧⟦246⟧⟨282⟩⟨283⟩⟦43⟧⟦44⟧⟨284⟩⟦196⟧⟨285⟩⟨286⟩
+[Discovery Zone] ⟦112⟧⟦112⟧
+[Discovery Zone] ⟦268⟧⟨291⟩⟨292⟩⟦223⟧⟨293⟩⟦140⟧⟨294⟩⟦89⟧⟨295⟩
+[Discovery Zone] ⟦284⟧⟦152⟧⟨296⟩⟨297⟩⟦142⟧⟨298⟩⟨299⟩⟨300⟩
+[Valentino's] ⟦56⟧ | ⟦56⟧ | ⟨310⟩⟦22⟧⟨312⟩⟦56⟧⟨311⟩⟨313⟩⟦151⟧⟨314⟩⟦174⟧⟨315⟩
+[Valentino's] ⟦217⟧ | ⟦313⟧⟦217⟧⟨319⟩⟨320⟩⟦331⟧⟦103⟧⟨321⟩⟨322⟩⟦29⟧⟦153⟧⟨323⟩⟨324⟩
+[Valentino SpA] ⟦180⟧
+[Valentino SpA] ⟦337⟧
+[Aliso Canyon Oil Field] ⟦101⟧
+[Missouri Theatre (Columbia, Missouri)] ⟦96⟧
+[Missouri Theatre (Columbia, Missouri)] ⟦168⟧
+
+符号表：
+⟦2⟧ = (DZ
+⟦8⟧ = a chain
+⟦22⟧ = a regional Italian restaurant chain
+⟦29⟧ = additional locations
+⟦43⟧ = ball
+⟦44⟧ = ball pits
+⟦56⟧ = chain
+⟦58⟧ = children
+⟦85⟧ = Discovery Zone
+⟦89⟧ = Dr. David Schoenstadt
+⟦91⟧ = elaborate indoor mazes
+⟦96⟧ = entertainment
+⟦97⟧ = entertainment facilities
+⟦101⟧ = facilities
+⟦103⟧ = families
+⟦112⟧ = games
+⟦140⟧ = Jim Jorgensen
+⟦142⟧ = Kansas City
+⟦151⟧ = Lincoln
+⟦152⟧ = location
+⟦153⟧ = locations
+⟦162⟧ = mazes
+⟦168⟧ = Missouri
+⟦174⟧ = Nebraska
+⟦180⟧ = October
+⟦196⟧ = pits
+⟦217⟧ = restaurant
+⟦220⟧ = roller
+⟦221⟧ = roller slides
+⟦223⟧ = Ronald Matsch
+⟦238⟧ = slides
+⟦246⟧ = structures
+⟦268⟧ = The chain
+⟦284⟧ = The first location
+⟦313⟧ = The restaurant
+⟦331⟧ = two Lincoln families
+⟦337⟧ = Valentino
+⟦351⟧ = young children
+
+占位符映射：
+⟨266⟩ =  
+⟨267⟩ = ) was 
+⟨268⟩ = 
+⟨269⟩ =  of 
+⟨270⟩ = 
+⟨271⟩ = 
+⟨272⟩ =  featuring 
+⟨273⟩ = 
+⟨274⟩ =  and 
+⟨275⟩ = 
+⟨276⟩ =  designed for 
+⟨277⟩ = 
+⟨278⟩ = , including 
+⟨279⟩ = 
+⟨280⟩ = 
+⟨281⟩ = , climbing play 
+⟨282⟩ = 
+⟨283⟩ =  and 
+⟨284⟩ = 
+⟨285⟩ = 
+⟨286⟩ = .
+⟨291⟩ = 
+⟨292⟩ =  was founded by 
+⟨293⟩ = , 
+⟨294⟩ =  and 
+⟨295⟩ =  in 1989.
+⟨296⟩ = 
+⟨297⟩ =  was opened in 
+⟨298⟩ = , 
+⟨299⟩ =  in 
+⟨300⟩ =  1989.
+⟨310⟩ = 's is 
+⟨311⟩ = 
+⟨312⟩ =  
+⟨313⟩ =  based in 
+⟨314⟩ = , 
+⟨315⟩ = .
+⟨319⟩ = 
+⟨320⟩ =  was purchased by 
+⟨321⟩ = 
+⟨322⟩ =  in 1971 and began franchising 
+⟨323⟩ = 
+⟨324⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which facility was founded in Missouri, Discovery Zone or Valentino's?

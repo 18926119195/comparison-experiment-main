@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_2514",
+  "question": "Where was the community schools to which Franklin Community High School was part of headquartered ?",
+  "expectedAnswer": "Franklin, Indiana",
+  "predictedAnswer": "# 路径一：基于学校隶属关系的直接推理\n\n步骤1：使用⟦55⟧，提取 Franklin Community High School 的完整名称，判断其为 Franklin Community Schools 下属的一所社区高中。\n\n步骤2：综合⟦56⟧⟦54⟧，交叉验证 Franklin Community Schools 与 Franklin 的关联，确认该社区学校系统的总部所在地为 Franklin。\n\n步骤3：使用⟦62⟧，提取 Indiana 作为地理范围限定，判断 Franklin 位于 Indiana 州。\n\n结论：Franklin Community High School 所属的社区学校系统总部位于 Indiana 州的 Franklin。\n\n---\n\n# 路径二：基于材料结构关系的对比推理\n\n步骤1：使用⟦8⟧，提取 \"a community high school\" 的定义，判断 Franklin Community High School 属于社区高中类型。\n\n步骤2：综合⟦55⟧⟦56⟧，对比两所学校的名称结构，确认 Franklin Community High School 是 Franklin Community Schools 的组成部分。\n\n步骤3：使用⟦54⟧，提取 Franklin 作为总部所在地的直接证据，结合⟦62⟧确认其所属州为 Indiana。\n\n结论：该社区学校系统总部位于 Franklin, Indiana。\n\n---\n\n# 路径三：基于符号表交叉验证的推理\n\n步骤1：使用⟦17⟧，提取 \"a school district\" 的定义，判断 Franklin Community Schools 为一个学区。\n\n步骤2：综合⟦56⟧⟦54⟧⟦62⟧，交叉验证 Franklin Community Schools 与 Franklin、Indiana 的层级关系，确认总部所在地。\n\n步骤3：使用⟦55⟧，提取 Franklin Community High School 与 Franklin Community Schools 的隶属关系，反向确认总部位置。\n\n结论：Franklin Community High School 所属社区学校系统的总部位于 Indiana 州的 Franklin。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦55⟧⟨57⟩⟦8⟧⟦36⟧⟨59⟩⟨58⟩⟨60⟩⟦54⟧⟨61⟩⟨62⟩⟦62⟧⟦110⟧",
+  "nounCount": 259,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 4369,
+    "completion_tokens": 97,
+    "total_tokens": 4466,
+    "prompt_tokens_details": {
+      "cached_tokens": 4224
+    },
+    "prompt_cache_hit_tokens": 4224,
+    "prompt_cache_miss_tokens": 145
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 545,
+    "completion_tokens": 381,
+    "total_tokens": 926,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 545
+  }
+}

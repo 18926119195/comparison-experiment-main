@@ -1,0 +1,33 @@
+# 路径一：从“2006年被收购”事件反向定位
+
+步骤1：使用⟦192⟧⟦165⟧⟦166⟧⟦167⟧⟦151⟧⟦169⟧⟦170⟧⟦171⟧，提取 Frederick Brewing Company 的后续归属链：公司在某个时间点被置于破产管理（receivership），随后在2006年被 Snyder International Brewing Group 收购并更名。
+
+步骤2：综合⟦82⟧⟦81⟧⟦126⟧⟦240⟧，确认 Frederick Brewing Company 位于 Maryland 的 Frederick，即该州内的酿酒厂。
+
+步骤3：使用⟦154⟧⟦155⟧⟦156⟧⟦157⟧⟦111⟧⟦125⟧，提取创始团队信息：公司由 Kevin Brannon、Marjorie McGinnis 和 Steve Nordahl 于1992至1993年间创立。其中 Marjorie McGinnis 为女性。
+
+结论：被2006年收购的酿酒厂是 Frederick Brewing Company，其原始女性创始人是 Marjorie McGinnis。
+
+---
+
+# 路径二：从“马里兰州最大酿酒厂”身份交叉验证
+
+步骤1：使用⟦82⟧⟦81⟧⟦126⟧，提取 Frederick Brewing Company 的名称与地点，确认其位于 Maryland 州 Frederick 市。
+
+步骤2：综合⟦165⟧⟦169⟧⟦170⟧⟦171⟧，提取收购方为 Snyder International Brewing Group，收购发生在2006年，且收购后公司被更名。
+
+步骤3：使用⟦154⟧⟦155⟧⟦156⟧⟦157⟧，提取创始团队名单，识别其中女性成员 Marjorie McGinnis。
+
+结论：Maryland 州最大酿酒厂为 Frederick Brewing Company，2006年被收购，其原始女性创始人为 Marjorie McGinnis。
+
+---
+
+# 路径三：从创始团队性别构成直接定位
+
+步骤1：使用⟦154⟧⟦155⟧⟦156⟧⟦157⟧，提取 Frederick Brewing Company 的创始团队：Kevin Brannon、Marjorie McGinnis、Steve Nordahl。
+
+步骤2：综合⟦82⟧⟦81⟧⟦126⟧⟦240⟧，确认该公司位于 Maryland 州，且为问题所指的酿酒厂。
+
+步骤3：使用⟦192⟧⟦165⟧⟦169⟧⟦170⟧⟦171⟧，验证该公司在2006年被 Snyder International Brewing Group 收购，与问题中的“2006年被收购”条件吻合。
+
+结论：创始团队中唯一的女性是 Marjorie McGinnis，她即为该酿酒厂的原始女性创始人。

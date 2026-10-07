@@ -1,0 +1,370 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 'Don Carlos
+⟦2⟧ = "Calvary
+⟦3⟧ = "Droga donikąd
+⟦4⟧ = "Ritter
+⟦5⟧ = "The Guard
+⟦6⟧ = "von
+⟦7⟧ = “von
+⟦8⟧ = 17 June
+⟦9⟧ = 1990s
+⟦10⟧ = 29 March
+⟦11⟧ = 4th Earl
+⟦12⟧ = 6th Earl
+⟦13⟧ = 7th Earl
+⟦14⟧ = a 2003 Chilean film
+⟦15⟧ = a BAFTA Award nomination
+⟦16⟧ = a Bavarian-German general
+⟦17⟧ = a British peer
+⟦18⟧ = a dancer
+⟦19⟧ = a Dutch former professional footballer
+⟦20⟧ = a folk musician
+⟦21⟧ = a former Dutch football (soccer) player
+⟦22⟧ = a French professional road bicycle racer
+⟦23⟧ = a job
+⟦24⟧ = a mildly critical review
+⟦25⟧ = a more melodic and experimental sound
+⟦26⟧ = a musician
+⟦27⟧ = a nightclub
+⟦28⟧ = a patent
+⟦29⟧ = a Polish writer
+⟦30⟧ = a screenwriter and film director
+⟦31⟧ = a singer
+⟦32⟧ = a small town
+⟦33⟧ = a striker
+⟦34⟧ = a writer
+⟦35⟧ = active service
+⟦36⟧ = album
+⟦37⟧ = albums
+⟦38⟧ = Alejandro Trejo
+⟦39⟧ = Aloud
+⟦40⟧ = an "anticommunist
+⟦41⟧ = an Infante
+⟦42⟧ = an older brother
+⟦43⟧ = Andres Waissbluth
+⟦44⟧ = anticommunist
+⟦45⟧ = Antonella Rios
+⟦46⟧ = April
+⟦47⟧ = artist
+⟦48⟧ = artwork
+⟦49⟧ = assaults
+⟦50⟧ = Athens
+⟦51⟧ = AZ Alkmaar
+⟦52⟧ = band
+⟦53⟧ = bandmates
+⟦54⟧ = Baron Burghersh
+⟦55⟧ = Basque provinces
+⟦56⟧ = Best Foreign Language Film
+⟦57⟧ = bicycle
+⟦58⟧ = birth
+⟦59⟧ = birthday
+⟦60⟧ = Blood
+⟦61⟧ = both brothers
+⟦62⟧ = both films
+⟦63⟧ = both World Wars
+⟦64⟧ = Brendan Gleeson
+⟦65⟧ = British and Irish nationality
+⟦66⟧ = brother
+⟦67⟧ = brothers
+⟦68⟧ = Cannes
+⟦69⟧ = career
+⟦70⟧ = Carlist
+⟦71⟧ = Carlos Hasselbaink
+⟦72⟧ = Carlos V
+⟦73⟧ = Catalonia
+⟦74⟧ = category
+⟦75⟧ = cause
+⟦76⟧ = century
+⟦77⟧ = claim
+⟦78⟧ = claimants
+⟦79⟧ = club
+⟦80⟧ = clubs
+⟦81⟧ = Cody
+⟦82⟧ = Cody Votolato
+⟦83⟧ = Cold Cave
+⟦84⟧ = commentator
+⟦85⟧ = communism
+⟦86⟧ = conferment
+⟦87⟧ = conservative
+⟦88⟧ = current manager
+⟦89⟧ = cyclist
+⟦90⟧ = cyclist Apo Lazaridès
+⟦91⟧ = dancer
+⟦92⟧ = daughter
+⟦93⟧ = death
+⟦94⟧ = December
+⟦95⟧ = director
+⟦96⟧ = documentary
+⟦97⟧ = Don Carlos
+⟦98⟧ = Don Pascual
+⟦99⟧ = donikąd
+⟦100⟧ = dreams
+⟦101⟧ = Droga
+⟦102⟧ = drummer
+⟦103⟧ = DVD
+⟦104⟧ = early Blood Brothers albums
+⟦105⟧ = EFL League One club Northampton Town
+⟦106⟧ = Emil Leeb
+⟦107⟧ = exile
+⟦108⟧ = FC Utrecht
+⟦109⟧ = Field Marshal Wilhelm Ritter von Leeb
+⟦110⟧ = film
+⟦111⟧ = filmmaker
+⟦112⟧ = filmmaker Martin McDonagh
+⟦113⟧ = films
+⟦114⟧ = folk
+⟦115⟧ = football
+⟦116⟧ = footballer
+⟦117⟧ = forces
+⟦118⟧ = former Chelsea and Middlesbrough striker Jimmy Floyd Hasselbaink
+⟦119⟧ = general
+⟦120⟧ = Gracia
+⟦121⟧ = Greece
+⟦122⟧ = Greek nationality
+⟦123⟧ = Guard
+⟦124⟧ = guitarist
+⟦125⟧ = Head Wound City
+⟦126⟧ = heirs
+⟦127⟧ = HFC Haarlem
+⟦128⟧ = His accomplished thrashy and discordant style
+⟦129⟧ = his bandmates
+⟦130⟧ = his brother
+⟦131⟧ = his brother's further titles
+⟦132⟧ = his career
+⟦133⟧ = His claim
+⟦134⟧ = his documentary novels
+⟦135⟧ = His heirs
+⟦136⟧ = his names
+⟦137⟧ = his older brother
+⟦138⟧ = his wife
+⟦139⟧ = infant
+⟦140⟧ = Infante
+⟦141⟧ = Infante Carlos
+⟦142⟧ = issue
+⟦143⟧ = January
+⟦144⟧ = Jerrel "Jimmy" Floyd Hasselbaink
+⟦145⟧ = job
+⟦146⟧ = John Fane
+⟦147⟧ = John Michael McDonagh
+⟦148⟧ = Józef Mackiewicz
+⟦149⟧ = Juan Pablo Miranda
+⟦150⟧ = king
+⟦151⟧ = King Charles IV
+⟦152⟧ = King Ferdinand VII
+⟦153⟧ = Lazaridès
+⟦154⟧ = liberal forces
+⟦155⟧ = liberalism
+⟦156⟧ = London
+⟦157⟧ = Lord le Despencer
+⟦158⟧ = Lords
+⟦159⟧ = Los Debutantes
+⟦160⟧ = Lucien Lazaridès
+⟦161⟧ = Mackiewicz
+⟦162⟧ = manager
+⟦163⟧ = Maria Luisa
+⟦164⟧ = Max Joseph
+⟦165⟧ = member
+⟦166⟧ = musician
+⟦167⟧ = names
+⟦168⟧ = nationality
+⟦169⟧ = Nestor Castillana
+⟦170⟧ = nightclub
+⟦171⟧ = nobility
+⟦172⟧ = nomination
+⟦173⟧ = novelist
+⟦174⟧ = novels
+⟦175⟧ = Nowhere
+⟦176⟧ = owner
+⟦177⟧ = Paramaribo
+⟦178⟧ = Parma
+⟦179⟧ = particle
+⟦180⟧ = patent
+⟦181⟧ = peer
+⟦182⟧ = perspective
+⟦183⟧ = perspectives
+⟦184⟧ = place
+⟦185⟧ = player
+⟦186⟧ = playwright
+⟦187⟧ = podium
+⟦188⟧ = political commentator
+⟦189⟧ = provinces
+⟦190⟧ = racer
+⟦191⟧ = Rachel Bence
+⟦192⟧ = rank
+⟦193⟧ = Rashomon style
+⟦194⟧ = recent years
+⟦195⟧ = Redmond
+⟦196⟧ = Redmond High School
+⟦197⟧ = result
+⟦198⟧ = review
+⟦199⟧ = road
+⟦200⟧ = Rocky Votolato
+⟦201⟧ = Rudy Gajadhar
+⟦202⟧ = Santiago
+⟦203⟧ = screenwriter
+⟦204⟧ = Seattle
+⟦205⟧ = second surviving son
+⟦206⟧ = September
+⟦207⟧ = service
+⟦208⟧ = several Dutch clubs
+⟦209⟧ = singer
+⟦210⟧ = soccer
+⟦211⟧ = solo
+⟦212⟧ = solo artist
+⟦213⟧ = son
+⟦214⟧ = sound
+⟦215⟧ = Spain
+⟦216⟧ = Spring
+⟦217⟧ = stages
+⟦218⟧ = Stanisław Mackiewicz
+⟦219⟧ = story
+⟦220⟧ = striker
+⟦221⟧ = style
+⟦222⟧ = submission
+⟦223⟧ = suburbs
+⟦224⟧ = support
+⟦225⟧ = Suriname
+⟦226⟧ = Telstar
+⟦227⟧ = thanks
+⟦228⟧ = the 76th Academy Awards
+⟦229⟧ = the arch-conservative cause
+⟦230⟧ = the band
+⟦231⟧ = the Bavarian Military Order
+⟦232⟧ = The Blood Brothers
+⟦233⟧ = The Blood Brothers' album
+⟦234⟧ = The Blood Brothers' drummer Mark Gajadhar
+⟦235⟧ = the bloody First Carlist War
+⟦236⟧ = the Carlist claimants
+⟦237⟧ = the category Academy Award
+⟦238⟧ = the Catholic Church
+⟦239⟧ = the Chilean submission
+⟦240⟧ = the club
+⟦241⟧ = the club owner
+⟦242⟧ = the conferment
+⟦243⟧ = the Dauphiné Libéré
+⟦244⟧ = the dead king's infant daughter
+⟦245⟧ = the death
+⟦246⟧ = the Earldom
+⟦247⟧ = the eastside suburbs
+⟦248⟧ = The film
+⟦249⟧ = the five nominated films
+⟦250⟧ = the Goya Awards
+⟦251⟧ = the guitarist
+⟦252⟧ = The Honourable Thomas Fane
+⟦253⟧ = the House
+⟦254⟧ = the knightly rank
+⟦255⟧ = the late 1990s
+⟦256⟧ = the mid-20th century
+⟦257⟧ = the nobiliary particle
+⟦258⟧ = the older brother
+⟦259⟧ = the perspective
+⟦260⟧ = the podium
+⟦261⟧ = the post-hardcore band
+⟦262⟧ = The result
+⟦263⟧ = The Road
+⟦264⟧ = the second surviving son
+⟦265⟧ = the story
+⟦266⟧ = the third son
+⟦267⟧ = the throne
+⟦268⟧ = the Tour de France
+⟦269⟧ = the UK
+⟦270⟧ = the war
+⟦271⟧ = the younger brother
+⟦272⟧ = the younger brother's 17th birthday
+⟦273⟧ = Thomas Fane
+⟦274⟧ = three different perspectives
+⟦275⟧ = throne
+⟦276⟧ = Time Out
+⟦277⟧ = titles
+⟦278⟧ = town
+⟦279⟧ = trzeba
+⟦280⟧ = two brothers
+⟦281⟧ = two more "Carlist" wars
+⟦282⟧ = two Tour de France stages
+⟦283⟧ = Vere
+⟦284⟧ = Vere Fane
+⟦285⟧ = Votolato
+⟦286⟧ = Votolato's older brother
+⟦287⟧ = VVV-Venlo
+⟦288⟧ = war
+⟦289⟧ = wars
+⟦290⟧ = Washington
+⟦291⟧ = Westmorland
+⟦292⟧ = wife
+⟦293⟧ = writer
+⟦294⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Thomas Fane, 6th Earl of Westmorland] ⟦273⟧⟨1⟩⟦12⟧⟨2⟩⟦291⟧⟨3⟩⟦252⟧⟨4⟩⟦17⟧⟨5⟩⟦181⟧⟨6⟩⟦165⟧⟨7⟩⟦165⟧⟨8⟩⟦253⟧⟨9⟩⟦158⟧⟨10⟩
+[Thomas Fane, 6th Earl of Westmorland] ⟨11⟩⟦266⟧⟨12⟩⟦213⟧⟨13⟩⟦205⟧⟨14⟩⟦213⟧⟨15⟩⟦284⟧⟨16⟩⟦11⟧⟨17⟩⟦291⟧⟨18⟩⟦138⟧⟨19⟩⟦292⟧⟨20⟩⟦191⟧⟨21⟩⟦271⟧⟨22⟩⟦66⟧⟨23⟩⟦284⟧⟨24⟩⟦258⟧⟨25⟩⟦66⟧⟨26⟩⟦146⟧⟨27⟩⟦13⟧⟨28⟩⟦291⟧⟨29⟩
+[Thomas Fane, 6th Earl of Westmorland] ⟨30⟩⟦137⟧⟨31⟩⟦66⟧⟨32⟩⟦283⟧⟨33⟩⟦142⟧⟨34⟩⟦142⟧⟨35⟩⟦273⟧⟨36⟩⟦246⟧⟨37⟩⟦291⟧⟨38⟩⟦131⟧⟨39⟩⟦66⟧⟨40⟩⟦277⟧⟨41⟩⟦54⟧⟨42⟩⟦157⟧⟨43⟩
+[Lucien Lazaridès] ⟦160⟧⟨44⟩⟦50⟧⟨45⟩⟦121⟧⟨46⟩⟦94⟧⟨47⟩⟦68⟧⟨48⟩⟦68⟧⟨49⟩⟦22⟧⟨50⟩⟦199⟧⟨51⟩⟦57⟧⟨52⟩⟦190⟧⟨53⟩
+[Lucien Lazaridès] ⟦153⟧⟨54⟩⟦122⟧⟨55⟩⟦168⟧⟨56⟩
+[Lucien Lazaridès] ⟦160⟧⟨57⟩⟦42⟧⟨58⟩⟦66⟧⟨59⟩⟦89⟧⟨60⟩⟦90⟧⟨61⟩
+[Lucien Lazaridès] ⟦153⟧⟨62⟩⟦243⟧⟨63⟩⟦260⟧⟨64⟩⟦187⟧⟨65⟩⟦268⟧⟨66⟩
+[Lucien Lazaridès] ⟨67⟩⟦132⟧⟨68⟩⟦69⟧⟨69⟩⟦282⟧⟨70⟩⟦217⟧⟨71⟩
+[Józef Mackiewicz] ⟦148⟧⟨72⟩⟦46⟧⟨73⟩⟦143⟧⟨74⟩⟦29⟧⟨75⟩⟦293⟧⟨76⟩⟦173⟧⟨77⟩⟦173⟧⟨78⟩⟦188⟧⟨79⟩⟦84⟧⟨80⟩⟦134⟧⟨81⟩⟦96⟧⟨82⟩⟦174⟧⟨83⟩⟦279⟧⟨84⟩⟦39⟧⟨85⟩⟦3⟧⟨86⟩⟦101⟧⟨87⟩⟦99⟧⟨88⟩⟦263⟧⟨89⟩⟦175⟧⟨90⟩
+[Józef Mackiewicz] ⟨91⟩⟦85⟧⟨92⟩⟦85⟧⟨93⟩⟦40⟧⟨94⟩⟦44⟧⟨95⟩⟦168⟧⟨96⟩⟦168⟧⟨97⟩
+[Józef Mackiewicz] ⟦161⟧⟨98⟩⟦107⟧⟨99⟩⟦107⟧⟨100⟩
+[Józef Mackiewicz] ⟦137⟧⟨101⟩⟦66⟧⟨102⟩⟦218⟧⟨103⟩⟦34⟧⟨104⟩⟦293⟧⟨105⟩
+[Los Debutantes] ⟦159⟧⟨106⟩⟦14⟧⟨107⟩⟦110⟧⟨108⟩⟦43⟧⟨109⟩⟦45⟧⟨110⟩⟦38⟧⟨111⟩
+[Los Debutantes] ⟨112⟩⟦265⟧⟨113⟩⟦219⟧⟨114⟩⟦280⟧⟨115⟩⟦67⟧⟨116⟩⟦32⟧⟨117⟩⟦278⟧⟨118⟩⟦169⟧⟨119⟩⟦149⟧⟨120⟩⟦202⟧⟨121⟩⟦27⟧⟨122⟩⟦170⟧⟨123⟩⟦272⟧⟨124⟩⟦66⟧⟨125⟩⟦59⟧⟨126⟩
+[Los Debutantes] ⟦258⟧⟨127⟩⟦66⟧⟨128⟩⟦23⟧⟨129⟩⟦145⟧⟨130⟩⟦241⟧⟨131⟩⟦79⟧⟨132⟩⟦176⟧⟨133⟩⟦98⟧⟨134⟩⟦38⟧⟨135⟩⟦61⟧⟨136⟩⟦67⟧⟨137⟩⟦120⟧⟨138⟩⟦18⟧⟨139⟩⟦91⟧⟨140⟩⟦240⟧⟨141⟩⟦79⟧⟨142⟩⟦100⟧⟨143⟩⟦100⟧⟨144⟩⟦31⟧⟨145⟩⟦209⟧⟨146⟩⟦45⟧⟨147⟩
+[Los Debutantes] ⟦265⟧⟨148⟩⟦219⟧⟨149⟩⟦193⟧⟨150⟩⟦221⟧⟨151⟩⟦274⟧⟨152⟩⟦183⟧⟨153⟩⟦259⟧⟨154⟩⟦182⟧⟨155⟩⟦271⟧⟨156⟩⟦66⟧⟨157⟩⟦259⟧⟨158⟩⟦182⟧⟨159⟩⟦258⟧⟨160⟩⟦66⟧⟨161⟩⟦259⟧⟨162⟩⟦182⟧⟨163⟩⟦120⟧⟨164⟩
+[Los Debutantes] ⟦248⟧⟨165⟩⟦110⟧⟨166⟩⟦239⟧⟨167⟩⟦222⟧⟨168⟩⟦228⟧⟨169⟩⟦237⟧⟨170⟩⟦74⟧⟨171⟩⟦56⟧⟨172⟩⟦184⟧⟨173⟩⟦184⟧⟨174⟩⟦249⟧⟨175⟩⟦113⟧⟨176⟩
+[Los Debutantes] ⟨177⟩⟦250⟧⟨178⟩
+[Los Debutantes] ⟦248⟧⟨179⟩⟦110⟧⟨180⟩⟦103⟧⟨181⟩⟦103⟧⟨182⟩⟦269⟧⟨183⟩⟦24⟧⟨184⟩⟦198⟧⟨185⟩⟦276⟧⟨186⟩
+[Infante Carlos, Count of Molina] ⟦140⟧⟨187⟩⟦141⟧⟨188⟩⟦215⟧⟨189⟩⟦10⟧⟨190⟩⟦41⟧⟨191⟩⟦215⟧⟨192⟩⟦264⟧⟨193⟩⟦213⟧⟨194⟩⟦151⟧⟨195⟩⟦215⟧⟨196⟩⟦138⟧⟨197⟩⟦292⟧⟨198⟩⟦163⟧⟨199⟩⟦178⟧⟨200⟩
+[Infante Carlos, Count of Molina] ⟨201⟩⟦72⟧⟨202⟩⟦236⟧⟨203⟩⟦78⟧⟨204⟩⟦267⟧⟨205⟩⟦275⟧⟨206⟩⟦215⟧⟨207⟩
+[Infante Carlos, Count of Molina] ⟨208⟩⟦1⟧⟨209⟩
+[Infante Carlos, Count of Molina] ⟨210⟩⟦155⟧⟨211⟩⟦155⟧⟨212⟩⟦215⟧⟨213⟩⟦49⟧⟨214⟩⟦238⟧⟨215⟩
+[Infante Carlos, Count of Molina] ⟨216⟩⟦267⟧⟨217⟩⟦275⟧⟨218⟩⟦215⟧⟨219⟩⟦245⟧⟨220⟩⟦93⟧⟨221⟩⟦137⟧⟨222⟩⟦66⟧⟨223⟩⟦152⟧⟨224⟩
+[Infante Carlos, Count of Molina] ⟨225⟩⟦133⟧⟨226⟩⟦77⟧⟨227⟩⟦154⟧⟨228⟩⟦117⟧⟨229⟩⟦244⟧⟨230⟩⟦150⟧⟨231⟩⟦139⟧⟨232⟩⟦92⟧⟨233⟩
+[Infante Carlos, Count of Molina] ⟦262⟧⟨234⟩⟦197⟧⟨235⟩⟦235⟧⟨236⟩
+[Infante Carlos, Count of Molina] ⟦97⟧⟨237⟩⟦224⟧⟨238⟩⟦224⟧⟨239⟩⟦55⟧⟨240⟩⟦189⟧⟨241⟩⟦73⟧⟨242⟩⟦270⟧⟨243⟩⟦288⟧⟨244⟩⟦150⟧⟨245⟩⟦150⟧⟨246⟩
+[Infante Carlos, Count of Molina] ⟦135⟧⟨247⟩⟦126⟧⟨248⟩⟦229⟧⟨249⟩⟦87⟧⟨250⟩⟦75⟧⟨251⟩⟦281⟧⟨252⟩⟦70⟧⟨253⟩⟦289⟧⟨254⟩⟦256⟧⟨255⟩⟦76⟧⟨256⟩⟦267⟧⟨257⟩⟦275⟧⟨258⟩
+[Carlos Hasselbaink] ⟦71⟧⟨259⟩⟦177⟧⟨260⟩⟦225⟧⟨261⟩⟦21⟧⟨262⟩⟦115⟧⟨263⟩⟦210⟧⟨264⟩⟦185⟧⟨265⟩
+[Carlos Hasselbaink] ⟨266⟩⟦33⟧⟨267⟩⟦220⟧⟨268⟩⟦208⟧⟨269⟩⟦80⟧⟨270⟩⟦51⟧⟨271⟩⟦226⟧⟨272⟩⟦287⟧⟨273⟩⟦108⟧⟨274⟩⟦127⟧⟨275⟩
+[Carlos Hasselbaink] ⟨276⟩⟦258⟧⟨277⟩⟦66⟧⟨278⟩⟦118⟧⟨279⟩
+[Cody Votolato] ⟦82⟧⟨280⟩⟦26⟧⟨281⟩⟦166⟧⟨282⟩⟦195⟧⟨283⟩⟦290⟧⟨284⟩⟦251⟧⟨285⟩⟦124⟧⟨286⟩⟦261⟧⟨287⟩⟦52⟧⟨288⟩⟦232⟧⟨289⟩⟦60⟧⟨290⟩
+[Cody Votolato] ⟨291⟩⟦247⟧⟨292⟩⟦223⟧⟨293⟩⟦204⟧⟨294⟩
+[Cody Votolato] ⟦81⟧⟨295⟩⟦196⟧⟨296⟩⟦129⟧⟨297⟩⟦53⟧⟨298⟩⟦255⟧⟨299⟩⟦9⟧⟨300⟩⟦230⟧⟨301⟩⟦52⟧⟨302⟩⟦216⟧⟨303⟩
+[Cody Votolato] ⟨304⟩⟦128⟧⟨305⟩⟦221⟧⟨306⟩⟦104⟧⟨307⟩⟦60⟧⟨308⟩⟦37⟧⟨309⟩⟦125⟧⟨310⟩⟦25⟧⟨311⟩⟦214⟧⟨312⟩⟦194⟧⟨313⟩⟦294⟧⟨314⟩
+[Cody Votolato] ⟦286⟧⟨315⟩⟦66⟧⟨316⟩⟦200⟧⟨317⟩⟦20⟧⟨318⟩⟦114⟧⟨319⟩⟦166⟧⟨320⟩⟦211⟧⟨321⟩⟦212⟧⟨322⟩⟦47⟧⟨323⟩⟦230⟧⟨324⟩⟦52⟧⟨325⟩⟦130⟧⟨326⟩⟦66⟧⟨327⟩⟦201⟧⟨328⟩⟦258⟧⟨329⟩⟦66⟧⟨330⟩⟦234⟧⟨331⟩⟦102⟧⟨332⟩
+[Cody Votolato] ⟦285⟧⟨333⟩⟦48⟧⟨334⟩⟦48⟧⟨335⟩⟦233⟧⟨336⟩⟦36⟧⟨337⟩
+[Cody Votolato] ⟨338⟩⟦206⟧⟨339⟩⟦81⟧⟨340⟩⟦83⟧⟨341⟩⟦124⟧⟨342⟩⟦124⟧⟨343⟩
+[Emil Leeb] ⟦106⟧⟨344⟩⟦8⟧⟨345⟩⟦206⟧⟨346⟩⟦16⟧⟨347⟩⟦119⟧⟨348⟩⟦35⟧⟨349⟩⟦207⟧⟨350⟩⟦63⟧⟨351⟩
+[Emil Leeb] ⟦137⟧⟨352⟩⟦66⟧⟨353⟩⟦109⟧⟨354⟩⟦254⟧⟨355⟩⟦192⟧⟨356⟩⟦4⟧⟨357⟩⟦257⟧⟨358⟩⟦179⟧⟨359⟩⟦6⟧⟨360⟩⟦58⟧⟨361⟩⟦58⟧⟨362⟩⟦227⟧⟨363⟩⟦227⟧⟨364⟩⟦242⟧⟨365⟩⟦86⟧⟨366⟩⟦231⟧⟨367⟩⟦164⟧⟨368⟩⟦28⟧⟨369⟩⟦180⟧⟨370⟩⟦171⟧⟨371⟩⟦171⟧⟨372⟩
+[Emil Leeb] ⟨373⟩⟦258⟧⟨374⟩⟦66⟧⟨375⟩⟦7⟧⟨376⟩⟦136⟧⟨377⟩⟦167⟧⟨378⟩⟦271⟧⟨379⟩⟦66⟧⟨380⟩
+[Jimmy Floyd Hasselbaink] ⟦144⟧⟨381⟩⟦19⟧⟨382⟩⟦116⟧⟨383⟩⟦88⟧⟨384⟩⟦162⟧⟨385⟩⟦105⟧⟨386⟩⟦79⟧⟨387⟩
+[John Michael McDonagh] ⟦147⟧⟨388⟩⟦30⟧⟨389⟩⟦203⟧⟨390⟩⟦110⟧⟨391⟩⟦95⟧⟨392⟩⟦65⟧⟨393⟩⟦168⟧⟨394⟩
+[John Michael McDonagh] ⟨395⟩⟦5⟧⟨396⟩⟦123⟧⟨397⟩⟦2⟧⟨398⟩⟦62⟧⟨399⟩⟦113⟧⟨400⟩⟦64⟧⟨401⟩⟦15⟧⟨402⟩⟦172⟧⟨403⟩
+[John Michael McDonagh] ⟨404⟩⟦156⟧⟨405⟩
+[John Michael McDonagh] ⟨406⟩⟦258⟧⟨407⟩⟦66⟧⟨408⟩⟦186⟧⟨409⟩⟦186⟧⟨410⟩⟦111⟧⟨411⟩⟦112⟧⟨412⟩
+
+[user]
+
+问题：
+Carlos Hasselbaink is the older brother of the footballer of what nationality?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

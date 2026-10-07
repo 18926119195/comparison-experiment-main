@@ -1,0 +1,161 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[China Airlines] ⟨145⟩⟦49⟧⟨146⟩⟦234⟧⟦86⟧⟨148⟩⟨147⟩⟨149⟩⟦141⟧⟨150⟩⟨151⟩⟨152⟩⟨153⟩⟨154⟩
+[China Airlines] ⟨192⟩⟦260⟧⟨194⟩⟦205⟧⟨193⟩⟨195⟩⟨196⟩⟨197⟩⟨198⟩⟦80⟧⟦76⟧⟨200⟩⟨199⟩⟨201⟩⟦63⟧⟨202⟩⟦22⟧⟦154⟧⟨203⟩⟨204⟩⟦200⟧⟨205⟩⟦18⟧⟨206⟩⟨207⟩⟦92⟧⟦93⟧⟨208⟩⟦32⟧⟨209⟩⟨210⟩⟦126⟧⟨212⟩⟨213⟩⟦52⟧⟨214⟩⟦103⟧⟨215⟩⟦50⟧⟨211⟩⟨216⟩⟦262⟧⟨217⟩⟦19⟧⟨219⟩⟨218⟩⟨220⟩⟨221⟩⟦195⟧⟨223⟩⟦94⟧⟨224⟩⟨222⟩⟦64⟧⟨225⟩
+[Mandarin Airlines] ⟦62⟧ | ⟦150⟧⟦62⟧⟦62⟧ | ⟦150⟧⟨259⟩⟦39⟧⟨260⟩⟨261⟩⟦214⟧⟨262⟩⟨263⟩⟦269⟧⟨265⟩⟨264⟩⟨266⟩⟦62⟧⟨267⟩
+[Mandarin Airlines] ⟦170⟧ | ⟦170⟧ | ⟦249⟧⟨268⟩⟨269⟩⟦81⟧⟨270⟩⟨271⟩⟦127⟧⟦170⟧⟨273⟩⟨272⟩⟨274⟩⟦118⟧⟦168⟧⟨275⟩⟨276⟩
+[Mandarin Airlines] ⟦69⟧ | ⟦69⟧
+[Mandarin Airlines] ⟨281⟩⟦125⟧⟨282⟩⟨283⟩⟦247⟧⟨284⟩
+[AirAsia] ⟦87⟧
+[AirAsia] ⟦89⟧⟦89⟧⟦77⟧ | ⟦89⟧
+[AirAsia] ⟦53⟧ | ⟦71⟧⟦53⟧ | ⟦53⟧ | ⟦107⟧
+[AirAsia] ⟦33⟧ | ⟦33⟧⟦33⟧⟦33⟧ | ⟦33⟧
+[2007 Baseball World Cup] ⟦245⟧⟦216⟧ | ⟦216⟧
+[2007 Baseball World Cup] ⟦61⟧
+
+符号表：
+⟦18⟧ = a fleet
+⟦19⟧ = a low-cost carrier
+⟦22⟧ = a member
+⟦32⟧ = aircraft
+⟦33⟧ = airline
+⟦39⟧ = an airline
+⟦49⟧ = CAL
+⟦50⟧ = capacity
+⟦52⟧ = cargo
+⟦53⟧ = carrier
+⟦61⟧ = China
+⟦62⟧ = China Airlines
+⟦63⟧ = China Airlines Cargo
+⟦64⟧ = China Airlines Group
+⟦69⟧ = company
+⟦71⟧ = cost
+⟦76⟧ = demand
+⟦77⟧ = destinations
+⟦80⟧ = domestic and low-demand regional destinations
+⟦81⟧ = domestic and regional international flights
+⟦86⟧ = flag
+⟦87⟧ = fleet
+⟦89⟧ = flights
+⟦92⟧ = freighter
+⟦93⟧ = freighter aircraft
+⟦94⟧ = group
+⟦103⟧ = hold
+⟦107⟧ = hub
+⟦118⟧ = international operations
+⟦125⟧ = Its other main hub
+⟦126⟧ = its parent airline's cargo-hold capacity
+⟦127⟧ = its parent company
+⟦141⟧ = largest airline
+⟦150⟧ = Mandarin Airlines
+⟦154⟧ = member
+⟦168⟧ = operations
+⟦170⟧ = parent
+⟦195⟧ = Singaporean airline group Tigerair Holdings
+⟦200⟧ = Skyteam Cargo
+⟦205⟧ = subsidiaries
+⟦214⟧ = Taipei
+⟦216⟧ = Taiwan
+⟦234⟧ = the flag carrier
+⟦245⟧ = the Republic
+⟦247⟧ = the Taichung Airport
+⟦249⟧ = The Taiwanese carrier
+⟦260⟧ = three airline subsidiaries
+⟦262⟧ = Tigerair Taiwan
+⟦269⟧ = whose parent company
+
+占位符映射：
+⟨145⟩ =  (
+⟨146⟩ = ) () () is 
+⟨147⟩ = 
+⟨148⟩ =  
+⟨149⟩ =  and 
+⟨150⟩ = 
+⟨151⟩ =  of 
+⟨152⟩ =  of 
+⟨153⟩ =  (
+⟨154⟩ = ).
+⟨192⟩ =  has 
+⟨193⟩ = 
+⟨194⟩ =  
+⟨195⟩ = : 
+⟨196⟩ =  operates 
+⟨197⟩ = 
+⟨198⟩ =  to 
+⟨199⟩ = 
+⟨200⟩ =  regional 
+⟨201⟩ = ; 
+⟨202⟩ = , 
+⟨203⟩ = 
+⟨204⟩ =  of 
+⟨205⟩ = , operates 
+⟨206⟩ = 
+⟨207⟩ =  of 
+⟨208⟩ = 
+⟨209⟩ = 
+⟨210⟩ =  and manages 
+⟨211⟩ = 
+⟨212⟩ =  
+⟨213⟩ = 's 
+⟨214⟩ = -
+⟨215⟩ =  
+⟨216⟩ = ; 
+⟨217⟩ =  is 
+⟨218⟩ = 
+⟨219⟩ =  
+⟨220⟩ =  established by 
+⟨221⟩ =  and 
+⟨222⟩ = 
+⟨223⟩ =  
+⟨224⟩ =  Tigerair Holdings and is wholly owned by 
+⟨225⟩ = .
+⟨259⟩ =  () is 
+⟨260⟩ = 
+⟨261⟩ =  based in 
+⟨262⟩ = , 
+⟨263⟩ = , 
+⟨264⟩ = 
+⟨265⟩ =  
+⟨266⟩ =  is 
+⟨267⟩ = .
+⟨268⟩ = 
+⟨269⟩ =  operates 
+⟨270⟩ = 
+⟨271⟩ = , while 
+⟨272⟩ = 
+⟨273⟩ =  
+⟨274⟩ =  focuses on 
+⟨275⟩ = 
+⟨276⟩ = .
+⟨281⟩ =  
+⟨282⟩ = 
+⟨283⟩ =  is 
+⟨284⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What subsidiary of the largest airline of the Republic of China (Taiwan) has a main hub at Taichung Airport?

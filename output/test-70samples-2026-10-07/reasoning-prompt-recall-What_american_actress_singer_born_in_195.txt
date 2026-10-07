@@ -1,0 +1,94 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Paige O'Hara] ⟦152⟧⟨365⟩⟦35⟧⟨366⟩⟨367⟩⟦176⟧⟦176⟧⟨368⟩⟨369⟩⟦153⟧⟦153⟧⟨370⟩⟨371⟩
+[Paige O'Hara] ⟦25⟧
+[Something There] ⟦30⟧⟨426⟩⟨425⟩⟨427⟩⟦164⟧⟨428⟩⟨429⟩⟦242⟧⟦242⟧⟨430⟩⟨431⟩⟦23⟧⟦23⟧⟦24⟧⟨432⟩⟨433⟩⟦38⟧⟨434⟩⟦72⟧⟨435⟩⟦118⟧⟨436⟩⟦135⟧⟨437⟩⟦65⟧⟨438⟩
+[Something There] ⟦216⟧⟦179⟧⟨439⟩⟨440⟩⟨441⟩⟦46⟧⟨442⟩⟨443⟩⟦16⟧⟦168⟧⟨444⟩⟨445⟩⟦47⟧⟨446⟩⟦192⟧⟦192⟧⟦192⟧⟨447⟩⟦232⟧⟦92⟧⟨448⟩⟨449⟩ | ⟦47⟧⟦192⟧
+
+符号表：
+⟦16⟧ = a scene
+⟦23⟧ = actors
+⟦24⟧ = actors Jerry Orbach
+⟦25⟧ = actress
+⟦30⟧ = American actors Paige O'Hara
+⟦35⟧ = an American actress
+⟦38⟧ = Angela Lansbury
+⟦46⟧ = Beauty
+⟦47⟧ = Belle
+⟦65⟧ = Cogsworth
+⟦72⟧ = David Ogden Stiers
+⟦92⟧ = feelings
+⟦118⟧ = Lumiere
+⟦135⟧ = Mrs. Potts
+⟦152⟧ = Paige O'Hara
+⟦153⟧ = painter
+⟦164⟧ = Robby Benson
+⟦168⟧ = scene
+⟦176⟧ = singer
+⟦179⟧ = song
+⟦192⟧ = The Beast
+⟦216⟧ = The only song
+⟦232⟧ = their own feelings
+⟦242⟧ = voice
+
+占位符映射：
+⟨365⟩ =  (born May 10, 1956), is 
+⟨366⟩ = 
+⟨367⟩ = , 
+⟨368⟩ = 
+⟨369⟩ =  and 
+⟨370⟩ = 
+⟨371⟩ = .
+⟨425⟩ = 
+⟨426⟩ =  Paige O'Hara as 
+⟨427⟩ =  and 
+⟨428⟩ =  as 
+⟨429⟩ =  via 
+⟨430⟩ = 
+⟨431⟩ =  over, featuring 
+⟨432⟩ = 
+⟨433⟩ = , 
+⟨434⟩ =  and 
+⟨435⟩ =  as 
+⟨436⟩ = , 
+⟨437⟩ =  and 
+⟨438⟩ = , respectively.
+⟨439⟩ = 
+⟨440⟩ =  performed by 
+⟨441⟩ = , "Something There" is heard midway through "
+⟨442⟩ =  and 
+⟨443⟩ =  "during 
+⟨444⟩ = 
+⟨445⟩ =  in which 
+⟨446⟩ =  and 
+⟨447⟩ =  finally begin to acknowledge 
+⟨448⟩ = 
+⟨449⟩ =  for each other.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What american actress/singer born in 1956 recorded the song Something there for beauty and the beast?

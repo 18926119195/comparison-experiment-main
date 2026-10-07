@@ -1,0 +1,342 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Jambo
+⟦2⟧ = "the Jamboree
+⟦3⟧ = (French
+⟦4⟧ = 25,000 Scouts
+⟦5⟧ = 30–35 years
+⟦6⟧ = 4:06.91
+⟦7⟧ = a 1986 decision
+⟦8⟧ = a ballot
+⟦9⟧ = a former female middle distance runner
+⟦10⟧ = a gathering
+⟦11⟧ = a major international sporting event
+⟦12⟧ = a multi-sport event
+⟦13⟧ = a multi-sport games
+⟦14⟧ = a new four-year cycle
+⟦15⟧ = a polio outbreak
+⟦16⟧ = a three-month residency requirement
+⟦17⟧ = a variety
+⟦18⟧ = accordance
+⟦19⟧ = Africa
+⟦20⟧ = age
+⟦21⟧ = all members
+⟦22⟧ = America
+⟦23⟧ = anniversary
+⟦24⟧ = approach
+⟦25⟧ = Arabic
+⟦26⟧ = Asia
+⟦27⟧ = athletes
+⟦28⟧ = August
+⟦29⟧ = auspices
+⟦30⟧ = ballot
+⟦31⟧ = Belfast
+⟦32⟧ = bidding
+⟦33⟧ = body
+⟦34⟧ = categories
+⟦35⟧ = caucuses
+⟦36⟧ = Chamonix
+⟦37⟧ = championships
+⟦38⟧ = CIJM
+⟦39⟧ = cities
+⟦40⟧ = committees
+⟦41⟧ = Communications
+⟦42⟧ = competition
+⟦43⟧ = competitions
+⟦44⟧ = conflict
+⟦45⟧ = Councillors
+⟦46⟧ = cross-country skiing
+⟦47⟧ = curling
+⟦48⟧ = cycle
+⟦49⟧ = cycles
+⟦50⟧ = D.C.
+⟦51⟧ = death
+⟦52⟧ = decision
+⟦53⟧ = direction
+⟦54⟧ = disciplines
+⟦55⟧ = distance
+⟦56⟧ = Dublin
+⟦57⟧ = each administrative level
+⟦58⟧ = each general election
+⟦59⟧ = election
+⟦60⟧ = election committees
+⟦61⟧ = elections
+⟦62⟧ = eleven Israeli athletes
+⟦63⟧ = EMG
+⟦64⟧ = Europe
+⟦65⟧ = even-numbered years
+⟦66⟧ = event
+⟦67⟧ = events
+⟦68⟧ = every four years
+⟦69⟧ = every three years
+⟦70⟧ = experiences
+⟦71⟧ = Fatma Lanouar
+⟦72⟧ = field
+⟦73⟧ = France
+⟦74⟧ = French
+⟦75⟧ = games
+⟦76⟧ = gathering
+⟦77⟧ = general elections
+⟦78⟧ = gold
+⟦79⟧ = governing
+⟦80⟧ = government
+⟦81⟧ = gubernatorial elections
+⟦82⟧ = half
+⟦83⟧ = hockey
+⟦84⟧ = house
+⟦85⟧ = ice
+⟦86⟧ = IMGA
+⟦87⟧ = Internal Affairs
+⟦88⟧ = international sporting events
+⟦89⟧ = IOC
+⟦90⟧ = Iowa
+⟦91⟧ = Ireland
+⟦92⟧ = Italy
+⟦93⟧ = its approach
+⟦94⟧ = its members
+⟦95⟧ = jamboree
+⟦96⟧ = Japan's non-compulsory electoral system
+⟦97⟧ = Jeux
+⟦98⟧ = judicial retention elections
+⟦99⟧ = jumping
+⟦100⟧ = June
+⟦101⟧ = Lanouar
+⟦102⟧ = Lausanne
+⟦103⟧ = level
+⟦104⟧ = local elections
+⟦105⟧ = Malmö
+⟦106⟧ = many anti-Semitic occasions
+⟦107⟧ = medal
+⟦108⟧ = medallist
+⟦109⟧ = media
+⟦110⟧ = Mediterranean Games
+⟦111⟧ = members
+⟦112⟧ = metres
+⟦113⟧ = MIC
+⟦114⟧ = military
+⟦115⟧ = month
+⟦116⟧ = more than 200 nations
+⟦117⟧ = name
+⟦118⟧ = nation
+⟦119⟧ = national media
+⟦120⟧ = nations
+⟦121⟧ = Nice
+⟦122⟧ = nine disciplines
+⟦123⟧ = Northern Ireland
+⟦124⟧ = NSJ
+⟦125⟧ = number
+⟦126⟧ = occasions
+⟦127⟧ = offices
+⟦128⟧ = official name
+⟦129⟧ = officials
+⟦130⟧ = Olympics
+⟦131⟧ = one-half
+⟦132⟧ = opportunity
+⟦133⟧ = organization
+⟦134⟧ = outbreak
+⟦135⟧ = part
+⟦136⟧ = patrol
+⟦137⟧ = peace
+⟦138⟧ = people
+⟦139⟧ = placing
+⟦140⟧ = polio
+⟦141⟧ = politics
+⟦142⟧ = prefectures
+⟦143⟧ = President Franklin D. Roosevelt
+⟦144⟧ = Presidential elections
+⟦145⟧ = presidential primaries
+⟦146⟧ = primaries
+⟦147⟧ = referenda
+⟦148⟧ = Representatives
+⟦149⟧ = requirement
+⟦150⟧ = residency
+⟦151⟧ = retention
+⟦152⟧ = rugby union
+⟦153⟧ = runner
+⟦154⟧ = Scouting
+⟦155⟧ = Scouts
+⟦156⟧ = separate four-year cycles
+⟦157⟧ = several unique experiences
+⟦158⟧ = silver
+⟦159⟧ = skating
+⟦160⟧ = ski
+⟦161⟧ = ski jumping
+⟦162⟧ = skiing
+⟦163⟧ = snow
+⟦164⟧ = speed
+⟦165⟧ = sport
+⟦166⟧ = sporting
+⟦167⟧ = sports
+⟦168⟧ = state
+⟦169⟧ = summer
+⟦170⟧ = summer and winter sports competitions
+⟦171⟧ = summer sports
+⟦172⟧ = Switzerland
+⟦173⟧ = system
+⟦174⟧ = the 1,500 metres
+⟦175⟧ = the 1924 Winter Olympics
+⟦176⟧ = The 1937 jamboree
+⟦177⟧ = the 2001 Jeux de la Francophonie
+⟦178⟧ = the 25th anniversary
+⟦179⟧ = The age categories
+⟦180⟧ = the auspices
+⟦181⟧ = the bidding
+⟦182⟧ = the body
+⟦183⟧ = the Boy Scouts
+⟦184⟧ = the Central Election Administration Committee
+⟦185⟧ = The championships
+⟦186⟧ = the competition
+⟦187⟧ = the death
+⟦188⟧ = the disciplines
+⟦189⟧ = the disciplines military patrol
+⟦190⟧ = The European Masters Games
+⟦191⟧ = the event
+⟦192⟧ = The first games
+⟦193⟧ = The first jamboree
+⟦194⟧ = the first state
+⟦195⟧ = The first Winter Olympics
+⟦196⟧ = the games
+⟦197⟧ = the general direction
+⟦198⟧ = the gold medal
+⟦199⟧ = the House
+⟦200⟧ = the International Committee
+⟦201⟧ = The International Masters Games Association
+⟦202⟧ = the International Olympic Committee
+⟦203⟧ = the Iowa House
+⟦204⟧ = the Iowa Senate
+⟦205⟧ = The Japanese political system
+⟦206⟧ = the last games
+⟦207⟧ = the lower house
+⟦208⟧ = the Mediterranean Games
+⟦209⟧ = the Mediterranean Sea
+⟦210⟧ = The minimum voting age
+⟦211⟧ = the Ministry
+⟦212⟧ = The modern Olympic Games
+⟦213⟧ = the nation
+⟦214⟧ = the National Council
+⟦215⟧ = The national Scout jamboree
+⟦216⟧ = the next games
+⟦217⟧ = the next Winter Olympics
+⟦218⟧ = the next World Cup
+⟦219⟧ = The number
+⟦220⟧ = The Olympic Games
+⟦221⟧ = The Olympic Winter Games
+⟦222⟧ = the Olympics
+⟦223⟧ = the opportunity
+⟦224⟧ = The original five sports
+⟦225⟧ = the politics
+⟦226⟧ = the premier international competition
+⟦227⟧ = the presidential election
+⟦228⟧ = the same years
+⟦229⟧ = the Senate
+⟦230⟧ = the silver medallist
+⟦231⟧ = the sport
+⟦232⟧ = the sport's governing body
+⟦233⟧ = the sports field
+⟦234⟧ = the Summer and Winter Games
+⟦235⟧ = The tournament
+⟦236⟧ = the Washington Monument
+⟦237⟧ = the Winter and Summer Olympic Games
+⟦238⟧ = the women's 1500 metres
+⟦239⟧ = The Women's Rugby World Cup
+⟦240⟧ = the world
+⟦241⟧ = the world's foremost sports competition
+⟦242⟧ = the years
+⟦243⟧ = their caucuses
+⟦244⟧ = thousands
+⟦245⟧ = three types
+⟦246⟧ = Tidal Basin
+⟦247⟧ = Torino
+⟦248⟧ = tournament
+⟦249⟧ = Tunisia
+⟦250⟧ = twenty to eighteen years
+⟦251⟧ = types
+⟦252⟧ = variety
+⟦253⟧ = various elections
+⟦254⟧ = various government officials
+⟦255⟧ = villages
+⟦256⟧ = Voters
+⟦257⟧ = voting
+⟦258⟧ = Washington
+⟦259⟧ = winter
+⟦260⟧ = women
+⟦261⟧ = Women's World Cup Sevens
+⟦262⟧ = world
+⟦263⟧ = World Rugby
+⟦264⟧ = World War II
+⟦265⟧ = year
+⟦266⟧ = years
+⟦267⟧ = فاطمة
+⟦268⟧ = فاطمة لأنور
+⟦269⟧ = لأنور
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[European Masters Games] ⟦190⟧⟨1⟩⟦63⟧⟨2⟩⟦12⟧⟨3⟩⟦66⟧⟨4⟩⟦169⟧⟨5⟩⟦171⟧⟨6⟩⟦167⟧⟨7⟩⟦266⟧⟨8⟩
+[European Masters Games] ⟦179⟧⟨9⟩⟦20⟧⟨10⟩⟦34⟧⟨11⟩⟦231⟧⟨12⟩⟦165⟧⟨13⟩⟦186⟧⟨14⟩⟦42⟧⟨15⟩⟦138⟧⟨16⟩⟦138⟧⟨17⟩⟦5⟧⟨18⟩⟦266⟧⟨19⟩
+[European Masters Games] ⟦192⟧⟨20⟩⟦75⟧⟨21⟩⟦105⟧⟨22⟩
+[European Masters Games] ⟦190⟧⟨23⟩⟦265⟧⟨24⟩⟦206⟧⟨25⟩⟦75⟧⟨26⟩⟦121⟧⟨27⟩⟦73⟧⟨28⟩⟦216⟧⟨29⟩⟦75⟧⟨30⟩⟦247⟧⟨31⟩⟦92⟧⟨32⟩
+[European Masters Games] ⟦201⟧⟨33⟩⟦86⟧⟨34⟩⟦102⟧⟨35⟩⟦172⟧⟨36⟩⟦182⟧⟨37⟩⟦33⟧⟨38⟩⟦181⟧⟨39⟩⟦32⟧⟨40⟩⟦139⟧⟨41⟩⟦139⟧⟨42⟩⟦196⟧⟨43⟩⟦75⟧⟨44⟩
+[Antisemitism in the Olympic Games] ⟦212⟧⟨45⟩⟦130⟧⟨46⟩⟦74⟧⟨47⟩⟦97⟧⟨48⟩⟦88⟧⟨49⟩⟦166⟧⟨50⟩⟦67⟧⟨51⟩⟦169⟧⟨52⟩⟦170⟧⟨53⟩⟦259⟧⟨54⟩⟦167⟧⟨55⟩⟦43⟧⟨56⟩⟦244⟧⟨57⟩⟦244⟧⟨58⟩⟦27⟧⟨59⟩⟦27⟧⟨60⟩⟦240⟧⟨61⟩⟦262⟧⟨62⟩⟦17⟧⟨63⟩⟦252⟧⟨64⟩⟦43⟧⟨65⟩⟦43⟧⟨66⟩
+[Antisemitism in the Olympic Games] ⟦220⟧⟨67⟩⟦241⟧⟨68⟩⟦262⟧⟨69⟩⟦167⟧⟨70⟩⟦42⟧⟨71⟩⟦116⟧⟨72⟩⟦120⟧⟨73⟩
+[Antisemitism in the Olympic Games] ⟦220⟧⟨74⟩⟦266⟧⟨75⟩⟦234⟧⟨76⟩⟦68⟧⟨77⟩⟦266⟧⟨78⟩⟦266⟧⟨79⟩
+[Antisemitism in the Olympic Games] ⟨80⟩⟦220⟧⟨81⟩⟦75⟧⟨82⟩⟦242⟧⟨83⟩⟦266⟧⟨84⟩⟦93⟧⟨85⟩⟦24⟧⟨86⟩⟦137⟧⟨87⟩⟦137⟧⟨88⟩⟦165⟧⟨89⟩⟦165⟧⟨90⟩⟦106⟧⟨91⟩⟦126⟧⟨92⟩⟦225⟧⟨93⟩⟦141⟧⟨94⟩⟦233⟧⟨95⟩⟦167⟧⟨96⟩⟦72⟧⟨97⟩⟦187⟧⟨98⟩⟦51⟧⟨99⟩⟦62⟧⟨100⟩⟦27⟧⟨101⟩
+[Olympic Games] ⟦212⟧⟨102⟩⟦130⟧⟨103⟩⟦74⟧⟨104⟩⟦97⟧⟨105⟩⟦88⟧⟨106⟩⟦166⟧⟨107⟩⟦67⟧⟨108⟩⟦169⟧⟨109⟩⟦170⟧⟨110⟩⟦259⟧⟨111⟩⟦167⟧⟨112⟩⟦43⟧⟨113⟩⟦244⟧⟨114⟩⟦244⟧⟨115⟩⟦27⟧⟨116⟩⟦27⟧⟨117⟩⟦240⟧⟨118⟩⟦262⟧⟨119⟩⟦17⟧⟨120⟩⟦252⟧⟨121⟩⟦43⟧⟨122⟩⟦43⟧⟨123⟩
+[Olympic Games] ⟦220⟧⟨124⟩⟦241⟧⟨125⟩⟦262⟧⟨126⟩⟦167⟧⟨127⟩⟦42⟧⟨128⟩⟦116⟧⟨129⟩⟦120⟧⟨130⟩
+[Olympic Games] ⟦220⟧⟨131⟩⟦266⟧⟨132⟩⟦234⟧⟨133⟩⟦68⟧⟨134⟩⟦266⟧⟨135⟩⟦266⟧⟨136⟩
+[Elections in Japan] ⟦205⟧⟨137⟩⟦173⟧⟨138⟩⟦245⟧⟨139⟩⟦251⟧⟨140⟩⟦61⟧⟨141⟩⟦61⟧⟨142⟩⟦77⟧⟨143⟩⟦61⟧⟨144⟩⟦199⟧⟨145⟩⟦148⟧⟨146⟩⟦68⟧⟨147⟩⟦266⟧⟨148⟩⟦207⟧⟨149⟩⟦84⟧⟨150⟩⟦61⟧⟨151⟩⟦61⟧⟨152⟩⟦199⟧⟨153⟩⟦45⟧⟨154⟩⟦69⟧⟨155⟩⟦266⟧⟨156⟩⟦131⟧⟨157⟩⟦82⟧⟨158⟩⟦94⟧⟨159⟩⟦111⟧⟨160⟩⟦104⟧⟨161⟩⟦61⟧⟨162⟩⟦266⟧⟨163⟩⟦127⟧⟨164⟩⟦127⟧⟨165⟩⟦142⟧⟨166⟩⟦142⟧⟨167⟩⟦39⟧⟨168⟩⟦39⟧⟨169⟩⟦255⟧⟨170⟩⟦255⟧⟨171⟩
+[Elections in Japan] ⟦61⟧⟨172⟩⟦61⟧⟨173⟩⟦59⟧⟨174⟩⟦60⟧⟨175⟩⟦40⟧⟨176⟩⟦57⟧⟨177⟩⟦103⟧⟨178⟩⟦197⟧⟨179⟩⟦53⟧⟨180⟩⟦184⟧⟨181⟩⟦133⟧⟨182⟩⟦211⟧⟨183⟩⟦87⟧⟨184⟩⟦41⟧⟨185⟩⟦113⟧⟨186⟩
+[Elections in Japan] ⟦210⟧⟨187⟩⟦257⟧⟨188⟩⟦20⟧⟨189⟩⟦96⟧⟨190⟩⟦173⟧⟨191⟩⟦250⟧⟨192⟩⟦266⟧⟨193⟩⟦100⟧⟨194⟩
+[Elections in Japan] ⟦256⟧⟨195⟩⟦256⟧⟨196⟩⟦16⟧⟨197⟩⟦115⟧⟨198⟩⟦150⟧⟨199⟩⟦149⟧⟨200⟩⟦8⟧⟨201⟩⟦30⟧⟨202⟩
+[Winter Olympic Games] ⟦221⟧⟨203⟩⟦128⟧⟨204⟩⟦117⟧⟨205⟩⟦3⟧⟨206⟩⟦97⟧⟨207⟩⟦11⟧⟨208⟩⟦166⟧⟨209⟩⟦66⟧⟨210⟩⟦266⟧⟨211⟩⟦167⟧⟨212⟩⟦167⟧⟨213⟩⟦163⟧⟨214⟩⟦163⟧⟨215⟩⟦85⟧⟨216⟩⟦85⟧⟨217⟩
+[Winter Olympic Games] ⟦195⟧⟨218⟩⟦175⟧⟨219⟩⟦36⟧⟨220⟩⟦73⟧⟨221⟩
+[Winter Olympic Games] ⟦224⟧⟨222⟩⟦167⟧⟨223⟩⟦122⟧⟨224⟩⟦54⟧⟨225⟩⟦47⟧⟨226⟩⟦85⟧⟨227⟩⟦83⟧⟨228⟩⟦162⟧⟨229⟩⟦189⟧⟨230⟩⟦54⟧⟨231⟩⟦114⟧⟨232⟩⟦136⟧⟨233⟩⟦46⟧⟨234⟩⟦162⟧⟨235⟩⟦160⟧⟨236⟩⟦161⟧⟨237⟩⟦99⟧⟨238⟩⟦188⟧⟨239⟩⟦54⟧⟨240⟩⟦159⟧⟨241⟩⟦164⟧⟨242⟩⟦159⟧⟨243⟩
+[Winter Olympic Games] ⟦196⟧⟨244⟩⟦266⟧⟨245⟩⟦264⟧⟨246⟩
+[Winter Olympic Games] ⟨247⟩⟦237⟧⟨248⟩⟦228⟧⟨249⟩⟦266⟧⟨250⟩⟦18⟧⟨251⟩⟦18⟧⟨252⟩⟦7⟧⟨253⟩⟦52⟧⟨254⟩⟦202⟧⟨255⟩⟦89⟧⟨256⟩⟦234⟧⟨257⟩⟦156⟧⟨258⟩⟦265⟧⟨259⟩⟦49⟧⟨260⟩⟦65⟧⟨261⟩⟦266⟧⟨262⟩⟦217⟧⟨263⟩
+[Fatma Lanouar] ⟦71⟧⟨264⟩⟦25⟧⟨265⟩⟦267⟧⟨266⟩⟦268⟧⟨267⟩⟦269⟧⟨268⟩⟦9⟧⟨269⟩⟦55⟧⟨270⟩⟦153⟧⟨271⟩⟦249⟧⟨272⟩
+[Fatma Lanouar] ⟨273⟩⟦198⟧⟨274⟩⟦78⟧⟨275⟩⟦107⟧⟨276⟩⟦208⟧⟨277⟩⟦238⟧⟨278⟩⟦260⟧⟨279⟩⟦112⟧⟨280⟩
+[Fatma Lanouar] ⟦101⟧⟨281⟩⟦6⟧⟨282⟩⟦6⟧⟨283⟩⟦174⟧⟨284⟩⟦112⟧⟨285⟩
+[Fatma Lanouar] ⟨286⟩⟦230⟧⟨287⟩⟦158⟧⟨288⟩⟦108⟧⟨289⟩⟦177⟧⟨290⟩
+[Women's Rugby World Cup] ⟦239⟧⟨291⟩⟦226⟧⟨292⟩⟦42⟧⟨293⟩⟦152⟧⟨294⟩⟦260⟧⟨295⟩⟦260⟧⟨296⟩
+[Women's Rugby World Cup] ⟦235⟧⟨297⟩⟦248⟧⟨298⟩⟦232⟧⟨299⟩⟦165⟧⟨300⟩⟦79⟧⟨301⟩⟦33⟧⟨302⟩⟦263⟧⟨303⟩
+[Women's Rugby World Cup] ⟦185⟧⟨304⟩⟦37⟧⟨305⟩⟦68⟧⟨306⟩⟦266⟧⟨307⟩⟦191⟧⟨308⟩⟦66⟧⟨309⟩⟦73⟧⟨310⟩⟦28⟧⟨311⟩
+[Women's Rugby World Cup] ⟦263⟧⟨312⟩⟦235⟧⟨313⟩⟦248⟧⟨314⟩⟦14⟧⟨315⟩⟦265⟧⟨316⟩⟦48⟧⟨317⟩⟦44⟧⟨318⟩⟦44⟧⟨319⟩⟦222⟧⟨320⟩⟦261⟧⟨321⟩⟦218⟧⟨322⟩⟦56⟧⟨323⟩⟦91⟧⟨324⟩⟦31⟧⟨325⟩⟦123⟧⟨326⟩⟦266⟧⟨327⟩
+[Elections in Iowa] ⟦219⟧⟨328⟩⟦125⟧⟨329⟩⟦61⟧⟨330⟩⟦61⟧⟨331⟩⟦90⟧⟨332⟩⟦265⟧⟨333⟩⟦265⟧⟨334⟩⟦265⟧⟨335⟩⟦265⟧⟨336⟩
+[Elections in Iowa] ⟦144⟧⟨337⟩⟦61⟧⟨338⟩⟦266⟧⟨339⟩
+[Elections in Iowa] ⟨340⟩⟦90⟧⟨341⟩⟦194⟧⟨342⟩⟦168⟧⟨343⟩⟦145⟧⟨344⟩⟦146⟧⟨345⟩⟦243⟧⟨346⟩⟦35⟧⟨347⟩
+[Elections in Iowa] ⟨348⟩⟦144⟧⟨349⟩⟦61⟧⟨350⟩⟦81⟧⟨351⟩⟦61⟧⟨352⟩⟦266⟧⟨353⟩⟦77⟧⟨354⟩⟦61⟧⟨355⟩⟦227⟧⟨356⟩⟦59⟧⟨357⟩
+[Elections in Iowa] ⟦111⟧⟨358⟩⟦204⟧⟨359⟩⟦266⟧⟨360⟩⟦82⟧⟨361⟩⟦82⟧⟨362⟩⟦229⟧⟨363⟩⟦58⟧⟨364⟩⟦59⟧⟨365⟩⟦21⟧⟨366⟩⟦111⟧⟨367⟩⟦203⟧⟨368⟩⟦148⟧⟨369⟩⟦266⟧⟨370⟩
+[Elections in Iowa] ⟨371⟩⟦61⟧⟨372⟩⟦61⟧⟨373⟩⟦254⟧⟨374⟩⟦80⟧⟨375⟩⟦129⟧⟨376⟩⟦98⟧⟨377⟩⟦151⟧⟨378⟩⟦61⟧⟨379⟩⟦61⟧⟨380⟩⟦61⟧⟨381⟩⟦147⟧⟨382⟩⟦135⟧⟨383⟩⟦135⟧⟨384⟩⟦253⟧⟨385⟩⟦61⟧⟨386⟩⟦90⟧⟨387⟩
+[National Scout jamboree (Boy Scouts of America)] ⟦215⟧⟨388⟩⟦95⟧⟨389⟩⟦10⟧⟨390⟩⟦76⟧⟨391⟩⟦95⟧⟨392⟩⟦95⟧⟨393⟩⟦244⟧⟨394⟩⟦244⟧⟨395⟩⟦111⟧⟨396⟩⟦111⟧⟨397⟩⟦183⟧⟨398⟩⟦22⟧⟨399⟩⟦68⟧⟨400⟩⟦266⟧⟨401⟩⟦214⟧⟨402⟩⟦183⟧⟨403⟩⟦22⟧⟨404⟩
+[National Scout jamboree (Boy Scouts of America)] ⟨405⟩⟦2⟧⟨406⟩⟦1⟧⟨407⟩⟦124⟧⟨408⟩⟦155⟧⟨409⟩⟦155⟧⟨410⟩⟦213⟧⟨411⟩⟦118⟧⟨412⟩⟦262⟧⟨413⟩⟦262⟧⟨414⟩⟦223⟧⟨415⟩⟦132⟧⟨416⟩
+[National Scout jamboree (Boy Scouts of America)] ⟨417⟩⟦157⟧⟨418⟩⟦70⟧⟨419⟩⟦183⟧⟨420⟩⟦22⟧⟨421⟩
+[National Scout jamboree (Boy Scouts of America)] ⟦193⟧⟨422⟩⟦95⟧⟨423⟩⟦258⟧⟨424⟩⟦50⟧⟨425⟩⟦178⟧⟨426⟩⟦23⟧⟨427⟩⟦154⟧⟨428⟩⟦266⟧⟨429⟩⟦15⟧⟨430⟩⟦140⟧⟨431⟩⟦134⟧⟨432⟩
+[National Scout jamboree (Boy Scouts of America)] ⟦176⟧⟨433⟩⟦95⟧⟨434⟩⟦258⟧⟨435⟩⟦4⟧⟨436⟩⟦155⟧⟨437⟩⟦236⟧⟨438⟩⟦246⟧⟨439⟩
+[National Scout jamboree (Boy Scouts of America)] ⟦191⟧⟨440⟩⟦66⟧⟨441⟩⟦119⟧⟨442⟩⟦109⟧⟨443⟩⟦143⟧⟨444⟩
+[Mediterranean Games] ⟦208⟧⟨445⟩⟦13⟧⟨446⟩⟦75⟧⟨447⟩⟦266⟧⟨448⟩⟦120⟧⟨449⟩⟦120⟧⟨450⟩⟦209⟧⟨451⟩⟦64⟧⟨452⟩⟦19⟧⟨453⟩⟦26⟧⟨454⟩
+[Mediterranean Games] ⟦196⟧⟨455⟩⟦75⟧⟨456⟩⟦180⟧⟨457⟩⟦29⟧⟨458⟩⟦200⟧⟨459⟩⟦110⟧⟨460⟩⟦38⟧⟨461⟩
+
+[user]
+
+问题：
+In the muti-sport games usually held every four years between nations around the Mediterranean Sea, Fatma Lanouar is best known for winning gold in which event?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

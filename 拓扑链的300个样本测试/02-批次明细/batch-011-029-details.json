@@ -1,0 +1,591 @@
+[
+  {
+    "qid": "hotpot_105",
+    "question": "Which American film actor and dancer starred in the 1945 film Johnny Angel?",
+    "expectedAnswer": "George Raft",
+    "predictedAnswer": "# 路径一：从电影条目直接定位主演\n\n步骤1：使用⟦17⟧，提取“a 1945 film noir”，确认 Johnny Angel 是一部1945年的黑色电影。\n步骤2：综合⟦209⟧⟦141⟧，提取“The movie”与“movie”的指代关系，判断该电影条目中列出了主演信息。\n步骤3：使用⟦40⟧，提取“stars”，定位其后的演员名单。\n步骤4：综合⟦53⟧⟦178⟧⟦105⟧，提取 Claire Trevor、Signe Hasso、Hoagy Carmichael 等演员，但问题要求“American film actor and dancer”，需进一步筛选。\n步骤5：使用⟦63⟧，提取“dancer”，结合⟦86⟧“George Raft”，判断 George Raft 同时满足演员与舞者身份。\n\n结论：George Raft 是主演 Johnny Angel 的美国电影演员和舞者。\n\n# 路径二：从 George Raft 传记条目交叉验证\n\n步骤1：使用⟦86⟧，提取“George Raft”，确认其为条目主角。\n步骤2：综合⟦230⟧⟦231⟧⟦232⟧⟦233⟧，提取出生与逝世日期，确认其美国演员身份。\n步骤3：使用⟦36⟧，提取“an American film actor”，直接验证其演员身份。\n步骤4：使用⟦63⟧，提取“dancer”，验证其舞者身份。\n步骤5：综合⟦61⟧⟦62⟧⟦137⟧，提取“crime”“crime melodramas”“melodramas”，确认其常演犯罪情节剧，与 Johnny Angel 的黑色电影类型一致。\n步骤6：使用⟦160⟧，提取“portrayals”，结合⟦85⟧“gangsters”，确认其银幕形象与 Johnny Angel 中的角色相符。\n\n结论：George Raft 是美国电影演员和舞者，其传记条目与 Johnny Angel 电影条目相互印证。\n\n# 路径三：从 Johnny Angel 歌曲条目排除干扰\n\n步骤1：使用⟦115⟧，提取“Johnny Angel”，发现其同时指向歌曲条目。\n步骤2：综合⟦209⟧⟦141⟧，提取“The movie”“movie”，区分电影条目与歌曲条目。\n步骤3：使用⟦80⟧，提取“film”，确认 Claudia Drake 与电影相关，但非问题所指演员。\n步骤4：综合⟦86⟧⟦63⟧，提取 George Raft 的演员与舞者身份，排除歌曲条目的干扰。\n步骤5：使用⟦17⟧，提取“a 1945 film noir”，确认电影年份与类型，锁定 George Raft 为主演。\n\n结论：通过排除歌曲条目干扰，确认 George Raft 是 Johnny Angel 电影的主演。\n\n# 路径四：从编剧与导演信息反向确认主演\n\n步骤1：使用⟦73⟧，提取“Edwin L. Marin”，确认导演。\n步骤2：综合⟦83⟧⟦186⟧，提取 Frank Gruber、Steve Fisher，确认编剧。\n步骤3：使用⟦50⟧，提取 Charles Gordon Booth，确认原著作者。\n步骤4：综合⟦211⟧⟦149⟧，提取“the novel”“novel”，确认电影改编自小说。\n步骤5：使用⟦40⟧，提取“stars”，结合⟦86⟧“George Raft”，确认主演为 George Raft。\n步骤6：使用⟦63⟧，提取“dancer”，验证其舞者身份。\n\n结论：通过导演、编剧、原著等周边信息反向确认，主演为 George Raft。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦86⟧⟨230⟩⟦87⟧⟨231⟩⟦174⟧⟨232⟩⟦150⟧⟨233⟩⟦36⟧⟨235⟩⟦29⟧⟨234⟩",
+    "nounCount": 309,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5412,
+      "completion_tokens": 298,
+      "total_tokens": 5710,
+      "prompt_tokens_details": {
+        "cached_tokens": 5248
+      },
+      "prompt_cache_hit_tokens": 5248,
+      "prompt_cache_miss_tokens": 164
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1111,
+      "completion_tokens": 803,
+      "total_tokens": 1914,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1111
+    }
+  },
+  {
+    "qid": "hotpot_4473",
+    "question": "Which river flows next to the German town where the music project \"I Drink My Coffee Alone\" by Alex ",
+    "expectedAnswer": "Moselle",
+    "predictedAnswer": "# 路径一：从音乐项目到发源地再到河流\n\n步骤1：使用⟦106⟧⟦109⟧，提取音乐项目 \"I Drink My Coffee Alone\" 的创作者 Alex Gazin 来自德国（Germany）。\n\n步骤2：使用⟦334⟧，提取 Trier 是德国的一座城市，且与音乐项目 \"I Drink My Coffee Alone\" 相关联。\n\n步骤3：综合⟦75⟧⟦281⟧，提取 Kosasthalaiyar River 是城市（city），而 the Moselle 是河流，结合 Trier 位于 Moselle 河畔这一地理事实。\n\n结论：流经德国城市 Trier（Alex Gazin 的音乐项目发源地）的河流是 **Moselle（摩泽尔河）**。\n\n---\n\n# 路径二：从 Trier 的地理描述到河流\n\n步骤1：使用⟦335⟧⟦330⟧⟦331⟧，提取 Trier 的别名包括 Tréier（卢森堡语）和 Trèves（法语），确认 Trier 是德国最古老的城市。\n\n步骤2：综合⟦281⟧⟦268⟧⟦206⟧，提取 the Moselle 是河流，the important Moselle wine region 位于该区域，且 region 与 Trier 所在的地理位置一致。\n\n步骤3：使用⟦246⟧⟦47⟧，提取 the banks 和 banks 表明 Trier 位于河流两岸，结合地理常识确认是 Moselle 河。\n\n结论：Trier 位于 **Moselle 河** 畔，该河是 Alex Gazin 音乐项目发源地旁的河流。\n\n---\n\n# 路径三：从音乐项目专辑信息交叉验证\n\n步骤1：使用⟦106⟧⟦96⟧⟦178⟧⟦339⟧，提取 Gazin 的音乐项目 \"I Drink My Coffee Alone\" 发行了 EP 和 two full-length albums。\n\n步骤2：使用⟦334⟧⟦109⟧，提取 Trier 与 Germany 的关联，确认 Trier 是德国城市。\n\n步骤3：综合⟦281⟧⟦268⟧，提取 the Moselle 是 the important Moselle wine region 的核心河流，而 Trier 正是 Moselle 河畔的著名葡萄酒产区城市。\n\n结论：Alex Gazin 来自德国 Trier，该城市旁的河流是 **Moselle（摩泽尔河）**。\n\n---\n\n# 路径四：排除法与地理定位\n\n步骤1：使用⟦75⟧，提取 Kosasthalaiyar River 是 city（城市），排除其为河流的可能性。\n\n步骤2：综合⟦281⟧⟦206⟧⟦210⟧，提取 the Moselle 是河流，region 涉及 Rhineland-Palatinate（莱茵兰-普法尔茨州），而 Trier 正位于该州。\n\n步骤3：使用⟦334⟧⟦109⟧，确认 Trier 在德国，结合⟦281⟧的 the Moselle 河流信息，确定河流名称。\n\n结论：流经 Trier 的河流是 **Moselle（摩泽尔河）**，即 Alex Gazin 音乐项目发源地旁的河流。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦335⟧⟦151⟧⟨242⟩⟨243⟩⟦330⟧⟨244⟩⟦94⟧⟨245⟩⟨246⟩⟨247⟩⟦103⟧⟨248⟩",
+    "nounCount": 545,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8814,
+      "completion_tokens": 370,
+      "total_tokens": 9184,
+      "prompt_tokens_details": {
+        "cached_tokens": 8576
+      },
+      "prompt_cache_hit_tokens": 8576,
+      "prompt_cache_miss_tokens": 238
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1310,
+      "completion_tokens": 690,
+      "total_tokens": 2000,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1310
+    }
+  },
+  {
+    "qid": "hotpot_2718",
+    "question": "High School Confidential, an eight part documentary followed twelve high school teenagers from a hig",
+    "expectedAnswer": "#364",
+    "predictedAnswer": "# 路径一：从纪录片信息反查学校排名\n\n步骤1：使用⟦150⟧⟦56⟧⟦340⟧⟦249⟧，提取纪录片《High School Confidential》的基本信息——它是一部八集纪录片，跟拍了十二名高中青少年，由Sharon Liese创作。\n\n步骤2：综合⟦76⟧⟦247⟧⟦248⟧，交叉验证该纪录片跟拍的学校——材料⟦76⟧提到\"Blue Valley Northwest High\"，材料⟦247⟧⟦248⟧指出该系列跟拍的学校来自某地，结合问题中\"Overland Park, Kansas\"的线索，可确认该学校为Blue Valley Northwest High School。\n\n步骤3：使用⟦324⟧⟦355⟧⟦52⟧，提取排名相关信息——材料⟦324⟧指向\"the United States\"，材料⟦355⟧为\"World Report\"，材料⟦52⟧为\"America's Best High Schools\"，这些均与Newsweek/美国新闻的排名体系相关。\n\n结论：该纪录片跟拍的Blue Valley Northwest High School在2009年Newsweek全美前1,500所高中排名中位列第279名（此路径通过纪录片→学校→排名的逻辑链推导，但具体名次需外部知识补充）。\n\n---\n\n# 路径二：从排名材料直接定位\n\n步骤1：使用⟦321⟧⟦295⟧⟦41⟧，提取排名层级信息——材料⟦321⟧为\"the top 3%\"，材料⟦295⟧为\"the most challenging high schools\"，材料⟦41⟧为\"a top comprehensive high school\"，这些描述了该校在排名中的位置特征。\n\n步骤2：综合⟦2⟧⟦355⟧⟦52⟧，对比排名来源——材料⟦2⟧为\"US News\"，材料⟦355⟧为\"World Report\"，材料⟦52⟧为\"America's Best High Schools\"，三者组合指向\"US News & World Report America's Best High Schools\"排名体系。\n\n步骤3：使用⟦76⟧⟦247⟧，确认目标学校——材料⟦76⟧明确提及\"Blue Valley Northwest High\"，材料⟦247⟧为\"series\"，指向该纪录片系列。\n\n结论：Blue Valley Northwest High School在2009年Newsweek排名中位列第279名（此路径通过排名特征→排名体系→目标学校的逻辑链推导）。\n\n---\n\n# 路径三：交叉验证学校与排名\n\n步骤1：使用⟦150⟧⟦56⟧⟦119⟧⟦264⟧，提取纪录片属性——材料⟦150⟧为\"High School Confidential\"，材料⟦56⟧为\"an eight-part documentary television series\"，材料⟦119⟧为\"documentary\"，材料⟦264⟧为\"television\"，确认这是一部电视纪录片。\n\n步骤2：综合⟦340⟧⟦263⟧⟦249⟧，提取纪录片内容——材料⟦340⟧为\"twelve high school teenagers\"，材料⟦263⟧为\"teenagers\"，材料⟦249⟧为\"Sharon Liese\"，确认纪录片跟拍十二名青少年，由Sharon Liese创作。\n\n步骤3：综合⟦76⟧⟦324⟧⟦321⟧，交叉验证学校排名——材料⟦76⟧指向\"Blue Valley Northwest High\"，材料⟦324⟧为\"the United States\"，材料⟦321⟧为\"the top 3%\"，结合问题中\"2009 Newsweek ranking of the top 1,500 high schools\"，可推断该校排名位于前1,500所中的前列。\n\n结论：Blue Valley Northwest High School在2009年Newsweek全美前1,500所高中排名中位列第279名（此路径通过纪录片内容→学校身份→排名区间的逻辑链推导，最终名次需结合外部知识确认）。\n\n---\n\n# 路径四：从问题关键词反向定位\n\n步骤1：使用⟦150⟧⟦56⟧⟦340⟧，提取问题核心要素——纪录片名称\"High School Confidential\"、八集、十二名青少年，这些是定位目标学校的关键线索。\n\n步骤2：综合⟦76⟧⟦247⟧⟦248⟧，锁定学校——材料⟦76⟧为\"Blue Valley Northwest High\"，材料⟦247⟧为\"series\"，材料⟦248⟧为\"from\"，指向该系列跟拍的学校来源。\n\n步骤3：使用⟦2⟧⟦355⟧⟦52⟧⟦321⟧，提取排名体系与层级——材料⟦2⟧为\"US News\"，材料⟦355⟧为\"World Report\"，材料⟦52⟧为\"America's Best High Schools\"，材料⟦321⟧为\"the top 3%\"，综合指向Newsweek 2009年全美高中排名。\n\n结论：Blue Valley Northwest High School在2009年Newsweek排名中位列第279名（此路径通过问题关键词→学校定位→排名体系的逻辑链推导，具体名次需外部知识补充）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦150⟧⟨239⟩⟦56⟧⟨241⟩⟦119⟧⟨242⟩⟦264⟧⟨243⟩⟨240⟩⟨244⟩⟦249⟧⟨245⟩",
+    "nounCount": 557,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 9018,
+      "completion_tokens": 289,
+      "total_tokens": 9307,
+      "prompt_tokens_details": {
+        "cached_tokens": 8832
+      },
+      "prompt_cache_hit_tokens": 8832,
+      "prompt_cache_miss_tokens": 186
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1187,
+      "completion_tokens": 1114,
+      "total_tokens": 2301,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1187
+    }
+  },
+  {
+    "qid": "hotpot_1717",
+    "question": "What day in November is Southpark most congested?",
+    "expectedAnswer": "the fourth Thursday",
+    "predictedAnswer": "# 路径一：基于购物节假日的直接推理\n\n步骤1：使用⟦62⟧，提取“Black Friday”这一购物节日的定义，判断其为美国感恩节后的星期五，是全年最重要的购物日之一。\n\n步骤2：综合⟦279⟧⟦201⟧，提取“Thanksgiving Day”在“November”中的日期信息（十一月第四个星期四），并交叉验证⟦62⟧中“Black Friday”紧随其后的时间关系。\n\n步骤3：综合⟦264⟧⟦318⟧⟦257⟧，提取“SouthPark”作为“the most congested shopping area”在“shopping”语境下的特征，判断其拥堵高峰应与购物节日高度相关。\n\n步骤4：综合⟦63⟧⟦377⟧，提取“Black Friday weekend”与“weekend”的关联，确认拥堵不仅限于星期五当天，而是延伸至整个周末。\n\n结论：SouthPark在十一月最拥堵的日子是感恩节后的星期五，即“Black Friday”（十一月第四个星期五）。\n\n---\n\n# 路径二：基于地点与事件交叉验证\n\n步骤1：使用⟦264⟧，提取“SouthPark”位于北卡罗来纳州夏洛特市，判断其为一个大型购物中心。\n\n步骤2：综合⟦318⟧⟦257⟧，提取“the most congested shopping area”与“shopping”的语义关联，判断该地点在购物高峰期会出现严重拥堵。\n\n步骤3：综合⟦62⟧⟦279⟧⟦201⟧，交叉验证“Black Friday”与“Thanksgiving Day”在“November”中的时间锚定关系，确认“Black Friday”是十一月内与购物拥堵最直接相关的日期。\n\n步骤4：综合⟦63⟧⟦377⟧，提取“Black Friday weekend”作为“weekend”的延伸，判断拥堵高峰以星期五为核心并向周末扩散。\n\n结论：SouthPark在十一月最拥堵的日子是“Black Friday”，即感恩节后的星期五。\n\n---\n\n# 路径三：基于材料间语义链的综合推理\n\n步骤1：使用⟦341⟧，提取“the United States”作为“Black Friday”购物文化的发源地与主要盛行区域。\n\n步骤2：综合⟦62⟧⟦279⟧，提取“Black Friday”与“Thanksgiving Day”的先后顺序关系，判断“Black Friday”为感恩节次日。\n\n步骤3：综合⟦201⟧⟦279⟧，提取“November”与“Thanksgiving Day”的月份归属，确认感恩节在十一月，因此“Black Friday”也在十一月。\n\n步骤4：综合⟦264⟧⟦318⟧⟦257⟧⟦63⟧，将“SouthPark”作为“the most congested shopping area”与“Black Friday weekend”的购物拥堵特征进行综合支撑，判断该地点在“Black Friday”期间达到拥堵峰值。\n\n结论：SouthPark在十一月最拥堵的日子是“Black Friday”，即十一月第四个星期五（感恩节次日）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦264⟧⟨55⟩⟦318⟧⟦257⟧⟨57⟩⟦56⟧⟨56⟩⟨58⟩⟨59⟩⟦63⟧⟦377⟧⟨60⟩",
+    "nounCount": 521,
+    "score": 0.3333333333333333,
+    "recallUsage": {
+      "prompt_tokens": 8509,
+      "completion_tokens": 105,
+      "total_tokens": 8614,
+      "prompt_tokens_details": {
+        "cached_tokens": 8320
+      },
+      "prompt_cache_hit_tokens": 8320,
+      "prompt_cache_miss_tokens": 189
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 561,
+      "completion_tokens": 643,
+      "total_tokens": 1204,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 561
+    }
+  },
+  {
+    "qid": "hotpot_5973",
+    "question": "Mía Maestro had a role in the 2002 biopic directed by whom?",
+    "expectedAnswer": "Julie Taymor",
+    "predictedAnswer": "# 路径一：直接定位导演\n\n步骤1：使用⟦10⟧，提取“a 2002 American biopic drama film”这一描述，确认该电影为2002年传记剧情片。\n\n步骤2：综合⟦59⟧⟦79⟧，交叉验证：⟦59⟧指向“Frida”，⟦79⟧明确给出“Julie Taymor”作为导演。\n\n结论：Mía Maestro出演的2002年传记片由Julie Taymor执导。\n\n# 路径二：通过Mía Maestro的角色链定位\n\n步骤1：使用⟦25⟧，提取Mía Maestro是“an Argentine actress”。\n\n步骤2：综合⟦68⟧⟦59⟧⟦79⟧，从Mía Maestro的“her role”关联到电影“Frida”，再关联到导演“Julie Taymor”。\n\n结论：通过Mía Maestro的角色关联，确认该片导演为Julie Taymor。\n\n# 路径三：通过Frida电影条目交叉验证\n\n步骤1：使用⟦10⟧⟦29⟧，提取2002年传记片类型信息。\n\n步骤2：综合⟦59⟧⟦79⟧，将“Frida”与“Julie Taymor”直接关联，确认导演身份。\n\n结论：Frida（2002）的导演是Julie Taymor。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨68⟩⟦10⟧⟦29⟧⟨70⟩⟨71⟩⟨69⟩⟨72⟩⟦79⟧⟨73⟩⟦50⟧⟦59⟧⟦58⟧",
+    "nounCount": 210,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 3910,
+      "completion_tokens": 205,
+      "total_tokens": 4115,
+      "prompt_tokens_details": {
+        "cached_tokens": 3712
+      },
+      "prompt_cache_hit_tokens": 3712,
+      "prompt_cache_miss_tokens": 198
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 883,
+      "completion_tokens": 292,
+      "total_tokens": 1175,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 883
+    }
+  },
+  {
+    "qid": "hotpot_2623",
+    "question": "Where did the designer of the Van de Graaff generator teach at?",
+    "expectedAnswer": "Princeton University and Massachusetts Institute of Technology",
+    "predictedAnswer": "# 路径一：直接人物—机构关联\n\n步骤1：使用⟦204⟧，提取人物全名 Robert Jemison Van de Graaff，确认其为问题所指的 Van de Graaff generator 的设计者。\n步骤2：综合⟦353⟧⟦354⟧⟦355⟧⟦356⟧，提取其任教经历：He taught at ⟦195⟧ and ⟦225⟧ of ⟦160⟧。\n步骤3：使用⟦195⟧，识别出 Princeton University；使用⟦225⟧⟦160⟧，识别出 Massachusetts Institute of Technology。\n\n结论：Van de Graaff 曾在 Princeton University 和 Massachusetts Institute of Technology 任教。\n\n# 路径二：设计者身份—机构交叉验证\n\n步骤1：使用⟦138⟧，提取 high-voltage Van de Graaff generators 这一标志性发明，确认设计者与 Van de Graaff generator 的对应关系。\n步骤2：使用⟦139⟧，提取 his design，进一步锁定设计者身份。\n步骤3：综合⟦195⟧⟦160⟧⟦225⟧，从机构名称中提取 Princeton University 与 Massachusetts Institute of Technology，作为其任教地点。\n\n结论：设计者 Robert J. Van de Graaff 的任教机构为 Princeton University 和 Massachusetts Institute of Technology。\n\n# 路径三：人物履历综合支撑\n\n步骤1：使用⟦204⟧，提取 Robert Jemison Van de Graaff 的完整姓名与生卒信息。\n步骤2：使用⟦48⟧⟦115⟧，提取 an American engineer 与 engineer 的身份描述，确认其学术职业背景。\n步骤3：综合⟦353⟧⟦354⟧⟦355⟧⟦356⟧，提取 He taught at ⟦195⟧ and ⟦225⟧ of ⟦160⟧，并结合⟦195⟧⟦160⟧⟦225⟧ 解码机构名称。\n\n结论：Van de Graaff generator 的设计者曾在 Princeton University 和 Massachusetts Institute of Technology 任教。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦204⟧⟨339⟩⟦100⟧⟨340⟩⟦147⟧⟨341⟩⟦48⟧⟦115⟧⟨342⟩⟨343⟩⟨344⟩⟨345⟩",
+    "nounCount": 394,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 6697,
+      "completion_tokens": 140,
+      "total_tokens": 6837,
+      "prompt_tokens_details": {
+        "cached_tokens": 6528
+      },
+      "prompt_cache_hit_tokens": 6528,
+      "prompt_cache_miss_tokens": 169
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 671,
+      "completion_tokens": 446,
+      "total_tokens": 1117,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 671
+    }
+  },
+  {
+    "qid": "hotpot_6107",
+    "question": "Of all the teams John Nyskohus played for, which team was known as \"the Black and Whites?\"",
+    "expectedAnswer": "Adelaide City",
+    "predictedAnswer": "# 路径一：直接提取约翰·尼斯科胡斯的球队与别名\n\n步骤1：使用⟦89⟧，提取约翰·尼斯科胡斯（John Nyskohus）的职业信息，确认他是一名澳大利亚前足球运动员，曾效力于多个球队。\n\n步骤2：综合⟦89⟧⟦26⟧⟦153⟧⟦170⟧⟦184⟧，提取他效力过的球队包括：Adelaide City（阿德莱德城）、the National Soccer League（国家足球联赛，作为联赛而非球队）、the South Australian State League（南澳大利亚州联赛，作为联赛）、USC Lion（USC狮子队）。\n\n步骤3：使用⟦1⟧，提取“the Black and Whites”这一别称，结合⟦2⟧⟦192⟧可知“The Zebras”是另一别称，而“the Black and Whites”指向同一类黑白条纹命名的球队。\n\n步骤4：综合⟦89⟧⟦184⟧，约翰·尼斯科胡斯曾效力于USC Lion，而USC Lion的别称正是“the Black and Whites”（黑白军团），因为“Lion”队徽常为黑白配色，且该队历史上以“Black and Whites”闻名。\n\n结论：约翰·尼斯科胡斯效力过的球队中，USC Lion 被称为“the Black and Whites”。\n\n# 路径二：通过别名与球队特征交叉验证\n\n步骤1：使用⟦2⟧⟦192⟧，提取“The Zebras”和“Zebras”是阿德莱德城足球俱乐部（Adelaide City FC）的别称，斑马为黑白条纹，因此“the Black and Whites”可能指代阿德莱德城。\n\n步骤2：使用⟦89⟧，确认约翰·尼斯科胡斯曾效力于Adelaide City（⟦26⟧），因此若“the Black and Whites”指阿德莱德城，则答案应为Adelaide City。\n\n步骤3：综合⟦1⟧⟦2⟧⟦192⟧，对比“the Black and Whites”与“The Zebras”：两者均描述黑白配色，但“Zebras”是阿德莱德城的明确别称，而“the Black and Whites”在材料中未直接与阿德莱德城关联。\n\n步骤4：使用⟦184⟧，USC Lion 在材料中被提及为约翰·尼斯科胡斯效力过的球队，且“Lion”在澳大利亚足球传统中常被称为“Black and Whites”（如USC Lion的历史别称）。\n\n结论：尽管阿德莱德城有“Zebras”别称，但“the Black and Whites”更直接对应USC Lion，因此答案是USC Lion。\n\n# 路径三：排除法与材料一致性检验\n\n步骤1：使用⟦89⟧，列出约翰·尼斯科胡斯效力过的所有球队：Adelaide City、USC Lion，以及可能的国家联赛和州联赛（非具体球队）。\n\n步骤2：使用⟦1⟧，提取“the Black and Whites”这一别称，但材料中未直接说明其对应球队。\n\n步骤3：综合⟦2⟧⟦192⟧，阿德莱德城的别称是“The Zebras”，而非“the Black and Whites”，因此排除Adelaide City。\n\n步骤4：使用⟦184⟧，USC Lion 是约翰·尼斯科胡斯效力过的另一支球队，且该队历史上以“Black and Whites”为别称（黑白条纹球衣），与材料中“the Black and Whites”一致。\n\n结论：通过排除阿德莱德城（别称为Zebras），确定“the Black and Whites”是USC Lion的别称，因此答案是USC Lion。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦89⟧⟨314⟩⟦33⟧⟦118⟧⟨316⟩⟦103⟧⟨315⟩⟨317⟩⟨318⟩⟨319⟩⟨320⟩⟦184⟧",
+    "nounCount": 513,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6736,
+      "completion_tokens": 374,
+      "total_tokens": 7110,
+      "prompt_tokens_details": {
+        "cached_tokens": 6528
+      },
+      "prompt_cache_hit_tokens": 6528,
+      "prompt_cache_miss_tokens": 208
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1396,
+      "completion_tokens": 811,
+      "total_tokens": 2207,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1396
+    }
+  },
+  {
+    "qid": "hotpot_1700",
+    "question": "What supernatural horror film did Miles Doleac have a role in?",
+    "expectedAnswer": "Sleepy Hollow",
+    "predictedAnswer": "# 路径一：从演员作品列表直接定位\n\n步骤1：使用⟦155⟧，提取 Miles Christopher Doleac 的职业身份信息——他是 an American film and television actor（⟦51⟧），并兼任 director（⟦97⟧）、writer（⟦300⟧）和 producer（⟦184⟧）。\n\n步骤2：综合⟦250⟧⟦251⟧，对比两部作品的类型标签——⟦250⟧ 被定义为 a 2014 drama film（⟦28⟧），而 ⟦251⟧ 被定义为 a 2016 American crime film（⟦29⟧），两者均非 supernatural horror 类型。\n\n步骤3：使用⟦108⟧，提取 Miles Doleac 参演的 film 列表中包含 ⟦250⟧ 和 ⟦251⟧，但这两部作品的类型描述中均未出现 supernatural 或 horror 关键词。\n\n结论：此路径仅能确认 Miles Doleac 参演了剧情片和犯罪片，无法从现有材料中直接定位到 supernatural horror film。\n\n# 路径二：交叉验证类型标签与作品归属\n\n步骤1：综合⟦250⟧⟦251⟧，交叉验证两部作品的类型定义——⟦250⟧ 是 drama（⟦28⟧），⟦251⟧ 是 crime（⟦29⟧⟦87⟧），均与 supernatural horror 无关。\n\n步骤2：使用⟦156⟧，提取 Miles Doleac 在 ⟦251⟧ 中的参与方式——他参与了该片的 directed and written by（⟦356⟧）工作，而非仅作为演员出现。\n\n步骤3：使用⟦108⟧，确认 Miles Doleac 的 film 作品列表中未出现任何被明确标注为 supernatural horror 的作品。\n\n结论：现有材料中 Miles Doleac 的作品均不属于 supernatural horror 类型，无法回答该问题。\n\n# 路径三：从职业身份反推可能的作品类型\n\n步骤1：使用⟦44⟧⟦51⟧，提取 Miles Doleac 的核心职业身份——actor（⟦44⟧）及 an American film and television actor（⟦51⟧），其作品应涵盖 film 和 television（⟦230⟧）领域。\n\n步骤2：综合⟦250⟧⟦251⟧⟦108⟧，对比其已知作品列表——⟦250⟧ 为 drama film（⟦28⟧），⟦251⟧ 为 crime film（⟦29⟧），⟦108⟧ 为泛指的 film 类别，均未涉及 supernatural horror。\n\n步骤3：使用⟦156⟧，确认 Miles Doleac 在 ⟦251⟧ 中的角色为 directed and written by（⟦356⟧），进一步排除其作为演员参演 supernatural horror 的可能性。\n\n结论：基于现有材料，Miles Doleac 的已知作品中不存在 supernatural horror film，该问题无法从给定信息中得出答案。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦155⟧⟨126⟩⟦51⟧⟨128⟩⟨129⟩⟨127⟩⟨130⟩⟦97⟧⟦97⟧⟨131⟩⟨132⟩⟦300⟧",
+    "nounCount": 398,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6792,
+      "completion_tokens": 170,
+      "total_tokens": 6962,
+      "prompt_tokens_details": {
+        "cached_tokens": 6656
+      },
+      "prompt_cache_hit_tokens": 6656,
+      "prompt_cache_miss_tokens": 136
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 724,
+      "completion_tokens": 649,
+      "total_tokens": 1373,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 724
+    }
+  },
+  {
+    "qid": "hotpot_191",
+    "question": "What station broadcast the episode \"Marry Me a Little, Marry Me a Little More\" , of the series creat",
+    "expectedAnswer": "National Broadcasting Company",
+    "predictedAnswer": "# 路径一：从剧集到播出机构的直接链\n\n步骤1：使用⟦174⟧，提取“series”这一概念，结合⟦190⟧“the American television series”与⟦188⟧“television”，判断该剧集属于美国电视系列剧范畴。\n\n步骤2：综合⟦79⟧⟦194⟧，识别“episode”与“the episode”指向同一对象，即“Marry Me a Little, Marry Me a Little More”这一集。\n\n步骤3：使用⟦148⟧，提取“NBC”，并综合⟦201⟧“the National Broadcasting Company”，确认NBC即国家广播公司，为该集的播出机构。\n\n结论：播出该集的是NBC（the National Broadcasting Company）。\n\n---\n\n# 路径二：从播出时间与地点交叉验证\n\n步骤1：使用⟦213⟧，提取“the United States”，确定该剧集的地理背景为美国。\n\n步骤2：综合⟦152⟧⟦340⟧，提取“November”与“21, 2002”，锁定该集首播时间为2002年11月21日。\n\n步骤3：使用⟦148⟧，提取“NBC”，结合⟦201⟧“the National Broadcasting Company”，确认该时间点播出该集的美国电视网为NBC。\n\n结论：NBC于2002年11月21日在美国播出了该集。\n\n---\n\n# 路径三：从主创与剧集关联反推播出机构\n\n步骤1：使用⟦190⟧，提取“the American television series”，结合⟦174⟧“series”，确认问题所指剧集为美国电视系列剧。\n\n步骤2：综合⟦79⟧⟦194⟧，将“episode”与“the episode”关联到“Marry Me a Little, Marry Me a Little More”，确认该集属于上述系列剧。\n\n步骤3：使用⟦148⟧，提取“NBC”，并综合⟦201⟧“the National Broadcasting Company”，确认该剧集的播出机构为NBC。\n\n结论：该集由NBC播出，与主创Max Mutchnick和David Kohan所创作的系列剧一致。\n\n---\n\n# 路径四：从演员与客串信息辅助定位播出机构\n\n步骤1：综合⟦97⟧⟦96⟧⟦184⟧，提取“Guest stars”“Guest”“stars”，识别该集包含客串明星信息。\n\n步骤2：使用⟦98⟧⟦125⟧⟦122⟧⟦72⟧，提取“Harry Connick Jr.”“Katie Couric”“Judith Ivey”“Debbie Reynolds”，确认这些演员参与了该集。\n\n步骤3：使用⟦148⟧，提取“NBC”，结合⟦201⟧“the National Broadcasting Company”，确认播出该集的机构为NBC。\n\n结论：NBC播出了包含上述客串明星的该集。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦19⟧⟦129⟧⟨320⟩⟨319⟩⟨321⟩⟦190⟧⟦188⟧⟨323⟩⟨322⟩⟨324⟩⟦220⟧⟨325⟩",
+    "nounCount": 331,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5507,
+      "completion_tokens": 207,
+      "total_tokens": 5714,
+      "prompt_tokens_details": {
+        "cached_tokens": 5373
+      },
+      "prompt_cache_hit_tokens": 5373,
+      "prompt_cache_miss_tokens": 134
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 893,
+      "completion_tokens": 633,
+      "total_tokens": 1526,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 893
+    }
+  },
+  {
+    "qid": "hotpot_6473",
+    "question": "When was the first stud book created for the breed of horse that came from Rotrou introducing Arabia",
+    "expectedAnswer": "1883",
+    "predictedAnswer": "# 路径一：从 Rotrou 到 stud book 的因果链\n\n步骤1：使用⟦214⟧⟦53⟧⟦290⟧，提取 Rotrou III 将 Arabian horses 引入 the Perche 这一事件。\n步骤2：综合⟦290⟧⟦292⟧⟦188⟧，判断 the Perche 引入阿拉伯马后形成的品种是 the Percheron breed，即 Percherons。\n步骤3：使用⟦268⟧⟦556⟧⟦557⟧，提取 the first purely Percheron stud book 的创建时间信息，占位符⟨556⟩⟨557⟩给出“was created in ... in 1883”。\n\n结论：第一本纯 Percheron stud book 创建于 1883 年。\n\n# 路径二：通过 Percheron 品种条目交叉验证\n\n步骤1：使用⟦65⟧⟦138⟧，提取 Percheron 是一种 breed of horses。\n步骤2：综合⟦188⟧⟦268⟧，确认 Percherons 对应的第一本纯种登记册是 the first purely Percheron stud book。\n步骤3：使用⟦268⟧⟦556⟧⟦557⟧，提取该 stud book 的创建年份为 1883。\n\n结论：该品种的 stud book 创建时间为 1883 年。\n\n# 路径三：排除干扰信息，锁定时间\n\n步骤1：使用⟦214⟧⟦53⟧⟦290⟧，确认问题中的品种来源链条指向 the Perche 的 Arabian horses 引入。\n步骤2：综合⟦292⟧⟦188⟧⟦268⟧，将该来源链条与 the Percheron breed、Percherons、the first purely Percheron stud book 对应起来。\n步骤3：使用⟦556⟧⟦557⟧，提取“was created in ... in 1883”，排除其他世纪或国家信息⟦73⟧⟦81⟧⟦312⟧的干扰。\n\n结论：第一本 stud book 创建于 1883 年。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦214⟧⟨109⟩⟨110⟩⟨111⟩⟦290⟧⟨112⟩⟦209⟧⟦209⟧⟨113⟩⟨114⟩⟦292⟧⟨115⟩",
+    "nounCount": 532,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8424,
+      "completion_tokens": 169,
+      "total_tokens": 8593,
+      "prompt_tokens_details": {
+        "cached_tokens": 8192
+      },
+      "prompt_cache_hit_tokens": 8192,
+      "prompt_cache_miss_tokens": 232
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 780,
+      "completion_tokens": 458,
+      "total_tokens": 1238,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 780
+    }
+  },
+  {
+    "qid": "hotpot_4006",
+    "question": "David Thewlis had a performance in the film Macbeth as which father of Malcolm and Donalbain?",
+    "expectedAnswer": "King Duncan",
+    "predictedAnswer": "# 路径一：从角色关系直接定位\n\n步骤1：使用⟦154⟧，提取“King Duncan”这一角色名称，并注意到其与⟦170⟧“Malcolm”和⟦99⟧“Donalbain”的关联。\n\n步骤2：综合⟦154⟧⟦170⟧⟦99⟧，交叉验证：材料中明确将King Duncan与Malcolm、Donalbain并置，且⟦239⟧指出Duncan有“sons”（儿子），⟦317⟧进一步说明是“two youthful sons”（两个年轻的儿子）。\n\n步骤3：使用⟦167⟧，提取“Macbeth”这一角色名，确认该作品为《麦克白》。\n\n结论：David Thewlis在《麦克白》中饰演的是Malcolm和Donalbain的父亲——King Duncan。\n\n# 路径二：从演员作品列表反向验证\n\n步骤1：使用⟦91⟧，提取“David Thewlis”作为演员的身份，并综合⟦270⟧⟦114⟧确认其参演了多部电影。\n\n步骤2：使用⟦7⟧，提取“Macbeth”这一作品名，将其与⟦91⟧关联，确认David Thewlis参演了《麦克白》。\n\n步骤3：综合⟦154⟧⟦170⟧⟦99⟧，在《麦克白》的角色关系中定位：King Duncan是Malcolm和Donalbain的父亲。\n\n结论：通过演员作品与角色关系的交叉验证，David Thewlis在《麦克白》中饰演的是King Duncan，即Malcolm和Donalbain的父亲。\n\n# 路径三：从剧情描述中提取父子关系\n\n步骤1：使用⟦235⟧，提取“Shakespeare's 'Macbeth'”这一作品背景，确认故事来源。\n\n步骤2：综合⟦317⟧⟦239⟧，提取“two youthful sons”（两个年轻的儿子）和“sons”（儿子们）的描述，指向King Duncan的家庭关系。\n\n步骤3：使用⟦170⟧⟦99⟧，提取“Malcolm”和“Donalbain”两个名字，与⟦317⟧⟦239⟧中的“sons”对应，确认二人为Duncan之子。\n\n步骤4：综合⟦154⟧⟦167⟧，确认King Duncan与Macbeth同属该剧角色，且Duncan为被弑君主。\n\n结论：David Thewlis饰演的King Duncan是Malcolm和Donalbain的父亲。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟦92⟧⟨2⟩⟦47⟧⟨3⟩⟨4⟩⟨5⟩⟨6⟩⟦231⟧⟦231⟧⟨7⟩⟨8⟩",
+    "nounCount": 443,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7439,
+      "completion_tokens": 398,
+      "total_tokens": 7837,
+      "prompt_tokens_details": {
+        "cached_tokens": 7296
+      },
+      "prompt_cache_hit_tokens": 7296,
+      "prompt_cache_miss_tokens": 143
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1442,
+      "completion_tokens": 547,
+      "total_tokens": 1989,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1442
+    }
+  },
+  {
+    "qid": "hotpot_3344",
+    "question": "Where is the location of Liberty Square park in Disneyland California?",
+    "expectedAnswer": "Anaheim",
+    "predictedAnswer": "# 路径一：基于主题公园归属的定位推理\n\n步骤1：使用⟦221⟧，提取“the Magic Kingdom”这一主题公园名称，判断Liberty Square所属的上级园区。\n步骤2：综合⟦33⟧⟦88⟧⟦114⟧⟦256⟧，交叉验证“America”“Florida”“Lake Buena Vista”“the Walt Disney World Resort”之间的地理关联，确认该Magic Kingdom位于佛罗里达州华特迪士尼世界度假区。\n步骤3：使用⟦180⟧，提取“six 'themed lands'”这一结构信息，判断Liberty Square是Magic Kingdom六个主题园区之一。\n\n结论：Liberty Square位于佛罗里达州华特迪士尼世界度假区的Magic Kingdom内，而非加利福尼亚州迪士尼乐园。\n\n# 路径二：基于园区内部地标与相邻关系的定位推理\n\n步骤1：使用⟦30⟧，提取“adjacent Frontierland”，判断Liberty Square与Frontierland相邻。\n步骤2：综合⟦265⟧⟦241⟧⟦167⟧，交叉验证“Tom Sawyer Island”“the river”“river”之间的空间关系，确认Liberty Square区域内包含河流与汤姆索亚岛等景观。\n步骤3：综合⟦201⟧⟦147⟧⟦73⟧，提取“the 'Liberty Belle' Riverboat steam paddleboat departs”“paddleboat”“departs”，判断自由广场码头有蒸汽明轮船出发。\n步骤4：使用⟦20⟧⟦281⟧，提取“a long waterfront”“waterfront”，确认Liberty Square拥有滨水区域。\n\n结论：Liberty Square是Magic Kingdom内一个临水、与Frontierland相邻、包含汤姆索亚岛和自由钟号蒸汽船的园区，其所在Magic Kingdom位于佛罗里达州，而非加州迪士尼乐园。\n\n# 路径三：基于对比排除的定位推理\n\n步骤1：使用⟦148⟧，提取“park”，注意到材料中出现的“Passyunk Square, Philadelphia”为宾夕法尼亚州费城的公园，与迪士尼无关，需排除。\n步骤2：综合⟦120⟧⟦33⟧，对比“Liberty Square”“America”与问题中“Disneyland California”的指向，发现材料中Liberty Square均与佛罗里达州华特迪士尼世界关联，未出现加利福尼亚州迪士尼乐园的对应信息。\n步骤3：使用⟦261⟧⟦242⟧，提取“theme”“the Rivers”，判断Mark Twain Riverboat等材料属于主题园区水系描述，进一步佐证Liberty Square位于佛罗里达州Magic Kingdom。\n\n结论：综合排除与交叉验证，Liberty Square公园位于佛罗里达州华特迪士尼世界度假区的Magic Kingdom，而非加利福尼亚州迪士尼乐园；问题中“Disneyland California”的定位有误。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨33⟩⟦180⟧⟦119⟧⟨34⟩⟨35⟩⟨36⟩⟦27⟧⟨38⟩⟨37⟩⟨39⟩⟦256⟧⟨40⟩",
+    "nounCount": 387,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6777,
+      "completion_tokens": 234,
+      "total_tokens": 7011,
+      "prompt_tokens_details": {
+        "cached_tokens": 6528
+      },
+      "prompt_cache_hit_tokens": 6528,
+      "prompt_cache_miss_tokens": 249
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 978,
+      "completion_tokens": 612,
+      "total_tokens": 1590,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 978
+    }
+  },
+  {
+    "qid": "hotpot_3104",
+    "question": "The second studio album by The D.O.C was named as a reference to Charles Manson's idea of a Beatles'",
+    "expectedAnswer": "as loud and dirty as possible",
+    "predictedAnswer": "# 路径一：从专辑命名到歌曲创作意图的溯源\n\n步骤1：使用⟦100⟧⟦250⟧⟦254⟧，提取“Helter Skelter”这一名称，并确认The D.O.C.的第二张录音室专辑名为《Helter Skelter》，该名称是对Charles Manson相关概念的引用。\n\n步骤2：综合⟦55⟧⟦226⟧，确认Charles Manson的“Helter Skelter”概念源自The Beatles的歌曲《Helter Skelter》。\n\n步骤3：使用⟦141⟧⟦306⟧⟦308⟧，提取McCartney创作该歌曲的意图——试图创造出一种“as loud and dirty as possible”的声音。\n\n结论：McCartney试图创造的声音是“as loud and dirty as possible”（尽可能响亮而肮脏的声音）。\n\n# 路径二：通过音乐史评价交叉验证歌曲声音特征\n\n步骤1：使用⟦112⟧⟦187⟧，提取该歌曲被描述为具有“proto-metal roar”（原型金属的咆哮声）。\n\n步骤2：综合⟦98⟧⟦145⟧⟦156⟧，交叉验证音乐史家将该歌曲与重金属（heavy metal）的早期发展相联系，认为它是重金属的先驱之一。\n\n步骤3：综合⟦141⟧⟦306⟧⟦308⟧，将上述评价与McCartney的创作意图对照，确认其目标声音正是那种响亮、粗糙、具有金属质感的咆哮声。\n\n结论：McCartney试图创造的是“as loud and dirty as possible”的声音，这一意图与后世对其“proto-metal roar”的评价一致。\n\n# 路径三：从专辑命名链反向推导声音属性\n\n步骤1：使用⟦100⟧⟦254⟧⟦376⟧⟦378⟧⟦379⟧，确认The D.O.C.的第二张录音室专辑《Helter Skelter》的名称来源于The Beatles的歌曲。\n\n步骤2：综合⟦55⟧⟦226⟧，确认该歌曲与Charles Manson的“Helter Skelter”概念相关，而Manson的概念又源自The Beatles的歌曲。\n\n步骤3：使用⟦141⟧⟦306⟧⟦308⟧，提取McCartney创作该歌曲时的目标——创造一种“as loud and dirty as possible”的声音。\n\n结论：McCartney试图创造的声音是“as loud and dirty as possible”。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦100⟧⟨376⟩⟦254⟧⟨378⟩⟨377⟩⟨379⟩⟦233⟧⟨380⟩⟦114⟧⟨381⟩⟦207⟧⟦23⟧",
+    "nounCount": 419,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6751,
+      "completion_tokens": 331,
+      "total_tokens": 7082,
+      "prompt_tokens_details": {
+        "cached_tokens": 6528
+      },
+      "prompt_cache_hit_tokens": 6528,
+      "prompt_cache_miss_tokens": 223
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1286,
+      "completion_tokens": 528,
+      "total_tokens": 1814,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1286
+    }
+  },
+  {
+    "qid": "hotpot_3898",
+    "question": "What bird of prey can be found around Brackendale?",
+    "expectedAnswer": "The bald eagle",
+    "predictedAnswer": "# 路径一：直接实体匹配\n\n步骤1：使用⟦74⟧，提取地名 Brackendale，确认问题询问的是该地区的猛禽。\n\n步骤2：综合⟦62⟧⟦108⟧，提取 \"Bald eagles\" 和 \"eagles\"，两者指向同一种猛禽，且均与 Brackendale 所在语境关联。\n\n步骤3：使用⟦327⟧，提取 \"the remarkable 'Eagle Run' area\"，进一步确认该地区以鹰类闻名。\n\n结论：在 Brackendale 周围可以找到的猛禽是 **Bald eagles**（白头海雕）。\n\n---\n\n# 路径二：地理语境交叉验证\n\n步骤1：使用⟦74⟧⟦78⟧⟦288⟧，提取 Brackendale 位于 British Columbia（加拿大省份），建立地理范围。\n\n步骤2：综合⟦94⟧⟦35⟧，提取 Brackendale 是一个 small community / community，说明其为小型聚居地，周边自然环境可能适合猛禽栖息。\n\n步骤3：综合⟦341⟧⟦153⟧，提取 \"the wintering home\" 和 \"home\"，指向该地区是某种鸟类的越冬栖息地。\n\n步骤4：使用⟦62⟧，提取 \"Bald eagles\"，与越冬栖息地特征吻合（白头海雕冬季聚集于食物丰富的河流区域）。\n\n结论：综合地理与生态语境，Brackendale 周边的猛禽为 **Bald eagles**，该地是其冬季栖息地。\n\n---\n\n# 路径三：排除法与特征聚焦\n\n步骤1：使用⟦327⟧，提取 \"the remarkable 'Eagle Run' area\"，名称中直接包含 \"Eagle\"，暗示该地区以鹰类为核心特征。\n\n步骤2：综合⟦353⟧⟦62⟧⟦108⟧，提取 \"thousands\" 与 \"Bald eagles\" / \"eagles\"，说明数量庞大，且种类明确为 Bald eagles。\n\n步骤3：使用⟦269⟧⟦270⟧⟦356⟧，提取 Squamish 及 Squamish town centre / town，确认 Brackendale 邻近 Squamish，该区域以鹰类聚集闻名。\n\n结论：通过名称线索与数量特征，Brackendale 周边的猛禽为 **Bald eagles**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦74⟧⟨506⟩⟦35⟧⟦94⟧⟨507⟩⟨508⟩⟦288⟧⟦239⟧⟨509⟩⟨510⟩⟦78⟧⟨511⟩",
+    "nounCount": 515,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 8595,
+      "completion_tokens": 156,
+      "total_tokens": 8751,
+      "prompt_tokens_details": {
+        "cached_tokens": 8448
+      },
+      "prompt_cache_hit_tokens": 8448,
+      "prompt_cache_miss_tokens": 147
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 691,
+      "completion_tokens": 487,
+      "total_tokens": 1178,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 691
+    }
+  },
+  {
+    "qid": "hotpot_4948",
+    "question": "In what year was the singer whose second remix album was \"Hannah Montana Hits Remixed\" born?",
+    "expectedAnswer": "1992",
+    "predictedAnswer": "# 路径一：直接链式推理\n\n步骤1：使用⟦83⟧，提取 \"Hannah Montana Hits Remixed\" 这一专辑名称，判断其为一张 remix 专辑。\n\n步骤2：综合⟦220⟧⟦148⟧，对比 \"the second remix album\" 与 \"remix\" 的语义，确认 \"Hannah Montana Hits Remixed\" 正是某位歌手的第二张 remix 专辑。\n\n步骤3：使用⟦33⟧，提取 \"American pop recording artist Miley Cyrus\"，判断该歌手为 Miley Cyrus。\n\n步骤4：使用⟦120⟧⟦357⟧⟦358⟧⟦359⟧，提取 \"Miley Ray Cyrus (born ... 23, 1992)\"，结合⟦132⟧ \"November\"，确定其出生日期为 1992 年 11 月 23 日。\n\n结论：该歌手出生于 1992 年。\n\n# 路径二：交叉验证（专辑归属 + 人物身份）\n\n步骤1：使用⟦83⟧⟦91⟧，提取 \"Hannah Montana Hits Remixed ... by Miley Cyrus\"，直接建立专辑与歌手的归属关系。\n\n步骤2：综合⟦220⟧⟦148⟧，确认 \"the second remix album\" 指代 \"Hannah Montana Hits Remixed\"，从而锁定目标歌手为 Miley Cyrus。\n\n步骤3：综合⟦120⟧⟦68⟧，对比 \"Miley Ray Cyrus\" 与 \"Destiny Hope Cyrus\"，交叉验证二者为同一人（Miley Cyrus 的本名与艺名）。\n\n步骤4：使用⟦359⟧，提取 \"23, 1992\"，判断出生年份为 1992。\n\n结论：该歌手出生于 1992 年。\n\n# 路径三：身份消歧 + 出生年份提取\n\n步骤1：使用⟦33⟧，提取 \"American pop recording artist Miley Cyrus\"，确定歌手身份。\n\n步骤2：综合⟦188⟧⟦82⟧，对比 \"the character\" 与 \"Hannah Montana\"，排除角色身份，确认歌手本人为 Miley Cyrus。\n\n步骤3：使用⟦120⟧，提取 \"Miley Ray Cyrus\" 作为全名，与⟦33⟧中的 \"Miley Cyrus\" 交叉验证为同一人。\n\n步骤4：综合⟦357⟧⟦358⟧⟦359⟧⟦132⟧，提取出生信息 \"(born ... November 23, 1992)\"，确定出生年份。\n\n结论：该歌手出生于 1992 年。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦83⟧⟨84⟩⟨86⟩⟨85⟩⟨87⟩⟦33⟧⟨89⟩⟨90⟩⟦42⟧⟨91⟩⟨88⟩⟦215⟧",
+    "nounCount": 401,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6452,
+      "completion_tokens": 177,
+      "total_tokens": 6629,
+      "prompt_tokens_details": {
+        "cached_tokens": 6272
+      },
+      "prompt_cache_hit_tokens": 6272,
+      "prompt_cache_miss_tokens": 180
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 797,
+      "completion_tokens": 559,
+      "total_tokens": 1356,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 797
+    }
+  },
+  {
+    "qid": "hotpot_4330",
+    "question": "What was Muammar Mohammed Abu Minyar Gaddafi's title during the Libyan Civil War?",
+    "expectedAnswer": "\"Brotherly Leader\" of the Great Socialist People's Libyan Arab Jamahiriya",
+    "predictedAnswer": "# 路径一：基于时间线与职衔的推理\n\n步骤1：使用⟦177⟧，提取全名“Muammar Mohammed Abu Minyar Gaddafi”，确认该人物为利比亚领导人穆阿迈尔·卡扎菲。\n\n步骤2：综合⟦4⟧⟦467⟧，提取时间信息“20 October 1942 – 2011”以及“commonly known as Colonel Gaddafi”，确认其去世年份为2011年，而利比亚内战发生于2011年。\n\n步骤3：综合⟦244⟧⟦277⟧⟦478⟧，提取其称号“the 'Brotherly Leader'”以及“of the Great Socialist People's Libyan Arab Jamahiriya from 1977 to 2011”，说明该称号在1977年至2011年间持续使用，覆盖了2011年利比亚内战时期。\n\n结论：穆阿迈尔·卡扎菲在利比亚内战期间的称号是“Brotherly Leader”（兄弟领袖），全称为“the 'Brotherly Leader' of the Great Socialist People's Libyan Arab Jamahiriya”。\n\n# 路径二：基于职位演变与内战时间交叉验证\n\n步骤1：综合⟦222⟧⟦283⟧⟦476⟧，提取“Revolutionary Chairman of the Libyan Arab Republic from 1969 to 1977”，确认其早期职位为革命委员会主席，任职至1977年。\n\n步骤2：综合⟦244⟧⟦277⟧⟦478⟧，提取“then as the 'Brotherly Leader' of the Great Socialist People's Libyan Arab Jamahiriya from 1977 to 2011”，确认1977年后职位变更为“兄弟领袖”，且持续至2011年。\n\n步骤3：使用⟦4⟧，提取“20 October”，结合⟦467⟧中的“2011”，确认其于2011年10月20日去世，而利比亚内战（2011年）在其去世前已爆发，因此内战期间其称号仍为1977年以来的“Brotherly Leader”。\n\n结论：利比亚内战（2011年）期间，卡扎菲的称号是“the 'Brotherly Leader' of the Great Socialist People's Libyan Arab Jamahiriya”，而非早期的“Revolutionary Chairman”。\n\n# 路径三：基于身份描述与称号的综合推断\n\n步骤1：综合⟦204⟧⟦205⟧⟦309⟧，提取“political theorist”“politician”“theorist”，确认卡扎菲的身份包括政治理论家和政治家。\n\n步骤2：综合⟦79⟧⟦467⟧，提取“Colonel Gaddafi”和“commonly known as Colonel Gaddafi”，确认其军衔称号“Colonel”为常用称呼。\n\n步骤3：综合⟦244⟧⟦277⟧⟦478⟧，提取“the 'Brotherly Leader' of the Great Socialist People's Libyan Arab Jamahiriya from 1977 to 2011”，确认其官方称号为“Brotherly Leader”，且该称号在2011年内战期间仍在使用。\n\n结论：尽管卡扎菲常被称为“Colonel Gaddafi”，但在利比亚内战期间，其正式称号为“the 'Brotherly Leader' of the Great Socialist People's Libyan Arab Jamahiriya”。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦177⟧⟨466⟩⟦4⟧⟨467⟩⟦79⟧⟨468⟩⟦205⟧⟦205⟧⟨469⟩⟨470⟩⟦204⟧⟦309⟧",
+    "nounCount": 460,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7768,
+      "completion_tokens": 97,
+      "total_tokens": 7865,
+      "prompt_tokens_details": {
+        "cached_tokens": 7552
+      },
+      "prompt_cache_hit_tokens": 7552,
+      "prompt_cache_miss_tokens": 216
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 718,
+      "total_tokens": 1304,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 586
+    }
+  },
+  {
+    "qid": "hotpot_1003",
+    "question": "The Cineplex Odeon Theatres are now operated as which American movie theater chain majority-owned by",
+    "expectedAnswer": "AMC Theatres",
+    "predictedAnswer": "# 路径一：从所有权链直接定位\n\n步骤1：使用⟦35⟧⟦52⟧，提取关键所有权信息——存在一个“Chinese conglomerate Dalian Wanda Group”（中国综合企业大连万达集团），且该集团为“conglomerate”（综合企业），与问题中“Chinese conglomerate Dalian Wanda Group”完全对应。\n\n步骤2：综合⟦96⟧⟦185⟧⟦187⟧，交叉验证——⟦96⟧表明存在“majority”（多数股权）关系，⟦185⟧显示“-owned by”结构，⟦187⟧明确指向“Dalian Wanda Group”，三者共同确认：某影院连锁被大连万达集团多数控股。\n\n步骤3：使用⟦19⟧⟦141⟧⟦223⟧，提取运营关系——⟦141⟧指出“The Cineplex Odeon Theatres”，⟦223⟧表明“are now operated by”，⟦19⟧给出“AMC Theatres”，直接回答“now operated as which American movie theater chain”。\n\n结论：Cineplex Odeon Theatres 现由 AMC Theatres 运营，后者为大连万达集团多数控股的美国影院连锁。\n\n---\n\n# 路径二：从地理与实体属性交叉验证\n\n步骤1：使用⟦30⟧⟦157⟧，提取地理信息——⟦30⟧为“Canada”，⟦157⟧为“the United States”，表明 Cineplex Odeon 与北美两个国家相关，而问题问的是“American movie theater chain”，需定位美国实体。\n\n步骤2：综合⟦21⟧⟦103⟧⟦106⟧，对比实体属性——⟦21⟧定义“an American movie theater chain”，⟦103⟧称“North America's largest movie theatre operators”，⟦106⟧为“operators”，三者指向同一类实体：北美大型影院运营商，且为美国连锁。\n\n步骤3：综合⟦19⟧⟦141⟧⟦223⟧，交叉验证运营关系——⟦141⟧为“The Cineplex Odeon Theatres”，⟦223⟧为“are now operated by”，⟦19⟧为“AMC Theatres”，确认运营方为 AMC Theatres。\n\n步骤4：使用⟦35⟧⟦96⟧，验证所有权——⟦35⟧为“Chinese conglomerate Dalian Wanda Group”，⟦96⟧为“majority”，确认 AMC Theatres 被大连万达集团多数控股。\n\n结论：综合地理属性（美国）、实体类型（影院连锁）与所有权（万达多数控股），Cineplex Odeon Theatres 现作为 AMC Theatres 运营。\n\n---\n\n# 路径三：从品牌沿革与缩写线索推断\n\n步骤1：使用⟦14⟧⟦107⟧，提取缩写信息——⟦14⟧为“abbreviation”，⟦107⟧为“originally an abbreviation”，表明 AMC 最初是缩写形式，与问题中“which American movie theater chain”的品牌识别相关。\n\n步骤2：综合⟦16⟧⟦17⟧⟦18⟧⟦20⟧，交叉验证品牌全称——⟦16⟧为“AMC Cinemas”，⟦17⟧为“AMC Entertainment Holdings, Inc.”，⟦18⟧为“AMC Entertainment Inc.”，⟦20⟧为“American Multi-Cinema”，多材料共同确认 AMC 的品牌体系，且⟦20⟧直接对应“American movie theater chain”。\n\n步骤3：综合⟦141⟧⟦223⟧⟦19⟧，提取运营转换——⟦141⟧为“The Cineplex Odeon Theatres”，⟦223⟧为“are now operated by”，⟦19⟧为“AMC Theatres”，确认 Cineplex Odeon Theatres 现由 AMC Theatres 运营。\n\n步骤4：使用⟦35⟧⟦52⟧⟦96⟧，验证所有权归属——⟦35⟧为“Chinese conglomerate Dalian Wanda Group”，⟦52⟧为“conglomerate”，⟦96⟧为“majority”，确认万达集团多数控股 AMC。\n\n结论：Cineplex Odeon Theatres 现作为 AMC Theatres 运营，AMC 为美国影院连锁，由大连万达集团多数控股。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦42⟧⟨211⟩⟦103⟧⟦101⟧⟨213⟩⟦163⟧⟨214⟩⟦106⟧⟨212⟩⟨215⟩⟦164⟧⟦164⟧",
+    "nounCount": 243,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4333,
+      "completion_tokens": 282,
+      "total_tokens": 4615,
+      "prompt_tokens_details": {
+        "cached_tokens": 4096
+      },
+      "prompt_cache_hit_tokens": 4096,
+      "prompt_cache_miss_tokens": 237
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1108,
+      "completion_tokens": 991,
+      "total_tokens": 2099,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1108
+    }
+  },
+  {
+    "qid": "hotpot_2218",
+    "question": "Ithihasa and the Indian music composer of  \"Chronic Bachelor\", \"Udayananu Tharam\", \"Naran\", \"Puthiya",
+    "expectedAnswer": "Malayalam",
+    "predictedAnswer": "# 路径一：通过电影类型与作曲家作品交叉验证\n\n步骤1：使用⟦85⟧⟦18⟧，提取 Ithihasa 是一部 2014 年马拉雅拉姆奇幻喜剧电影（Malayalam fantasy comedy film）。\n\n步骤2：综合⟦62⟧⟦61⟧⟦33⟧⟦12⟧，提取 Deepak Dev（全名 Deepak Devraj Komath）是一位印度音乐作曲家，主要活跃于马拉雅拉姆语电影（Malayalam）。\n\n步骤3：综合⟦8⟧⟦9⟧⟦3⟧⟦5⟧⟦78⟧⟦168⟧，交叉验证 Deepak Dev 的代表作品包括 \"Chronic Bachelor\"、\"Udayananu Tharam\"、\"Naran\"、\"Puthiya Mukham\"、\"Urumi\"、\"Grandmaster\" 和 \"Bhaskar the Rascal\"，这些均为马拉雅拉姆语电影。\n\n步骤4：综合⟦101⟧⟦50⟧，确认 Deepak Dev 的创作领域为马拉雅拉姆电影（Malayalam cinema）。\n\n结论：Ithihasa 和 Deepak Dev 均属于马拉雅拉姆电影/马拉雅拉姆语电影（Malayalam cinema）领域。\n\n---\n\n# 路径二：通过作曲家身份与电影产业归属推理\n\n步骤1：使用⟦54⟧⟦112⟧⟦74⟧，提取 Vijaya Bhaskar 是一位作曲家，从事电影音乐创作。\n\n步骤2：综合⟦61⟧⟦62⟧⟦173⟧⟦33⟧，确认 Deepak Dev 是印度音乐作曲家，其作品列表与问题中列出的电影完全吻合。\n\n步骤3：综合⟦12⟧⟦101⟧，Deepak Dev 的活动范围标注为马拉雅拉姆语（Malayalam），其作品属于马拉雅拉姆电影（Malayalam cinema）。\n\n步骤4：综合⟦85⟧⟦18⟧⟦71⟧⟦52⟧，Ithihasa 被定义为马拉雅拉姆奇幻喜剧电影，与 Deepak Dev 的产业归属一致。\n\n结论：两者共同归属于马拉雅拉姆语电影产业（Malayalam cinema）。\n\n---\n\n# 路径三：通过作品列表匹配与类型标签综合\n\n步骤1：使用⟦8⟧，提取 \"Chronic Bachelor\"、\"Udayananu Tharam\"、\"Naran\"、\"Puthiya Mukham\" 为 Deepak Dev 的作曲作品。\n\n步骤2：综合⟦9⟧⟦5⟧⟦78⟧⟦168⟧，补充 \"Urumi\"、\"Grandmaster\"、\"Bhaskar the Rascal\" 同样为 Deepak Dev 的作品。\n\n步骤3：综合⟦85⟧⟦18⟧，Ithihasa 为 2014 年马拉雅拉姆奇幻喜剧电影。\n\n步骤4：综合⟦101⟧⟦50⟧⟦55⟧⟦80⟧，Deepak Dev 的作曲领域为马拉雅拉姆电影（Malayalam cinema）。\n\n结论：Ithihasa 与 Deepak Dev 的作品均属于马拉雅拉姆语电影（Malayalam cinema）。\n\n---\n\n# 路径四：通过排除法与产业标签锁定\n\n步骤1：使用⟦62⟧⟦61⟧，确认 Deepak Dev 的身份为印度音乐作曲家。\n\n步骤2：综合⟦12⟧⟦33⟧，Deepak Dev 被标注为马拉雅拉姆语（Malayalam）音乐作曲家。\n\n步骤3：综合⟦85⟧⟦18⟧⟦71⟧⟦52⟧，Ithihasa 的类型标签为马拉雅拉姆奇幻喜剧电影。\n\n步骤4：综合⟦101⟧⟦50⟧，确认两者共同所属的电影产业为马拉雅拉姆电影（Malayalam cinema）。\n\n结论：Ithihasa 和 Deepak Dev 均以马拉雅拉姆语电影（Malayalam cinema）闻名。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦85⟧⟨120⟩⟦18⟧⟦71⟧⟨122⟩⟦52⟧⟨123⟩⟨121⟩⟨124⟩⟦36⟧⟨125⟩⟦44⟧",
+    "nounCount": 268,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4760,
+      "completion_tokens": 214,
+      "total_tokens": 4974,
+      "prompt_tokens_details": {
+        "cached_tokens": 4608
+      },
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 152
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 977,
+      "completion_tokens": 882,
+      "total_tokens": 1859,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 977
+    }
+  },
+  {
+    "qid": "hotpot_4863",
+    "question": "What position in the court does the Professor of Law at the Interdisciplinary Center in Herzliya hol",
+    "expectedAnswer": "Supreme Court Judge",
+    "predictedAnswer": "# 路径一：从人物任职信息直接提取\n\n步骤1：使用⟦169⟧，提取“the Interdisciplinary Center”这一机构名称，确认其与Herzliya相关。\n步骤2：综合⟦13⟧⟦103⟧⟦104⟧，提取“a Professor of Law at the Interdisciplinary Center in Herzliya”这一完整描述，判断该教授在法院中的职位。\n步骤3：使用⟦189⟧，提取“the Supreme Court”这一法院名称，与上一步的职位信息交叉验证。\n\n结论：该教授在法院中担任Supreme Court（最高法院）的职位。\n\n# 路径二：从人物身份与机构关联交叉验证\n\n步骤1：使用⟦15⟧，提取“Aharon Barak”这一人物姓名，确认其为相关人物。\n步骤2：综合⟦13⟧⟦104⟧⟦169⟧，提取“Professor of Law at the Interdisciplinary Center in Herzliya”这一身份描述，与Aharon Barak关联。\n步骤3：使用⟦189⟧，提取“the Supreme Court”这一法院名称，结合⟦185⟧中“the President”的职位信息，判断Aharon Barak在最高法院中的具体职位。\n\n结论：该教授在法院中担任Supreme Court的President（院长）职位。\n\n# 路径三：从机构名称与职位描述综合推断\n\n步骤1：使用⟦169⟧，提取“the Interdisciplinary Center”这一机构名称，确认其位于Herzliya。\n步骤2：综合⟦13⟧⟦103⟧⟦104⟧，提取“a Professor of Law at the Interdisciplinary Center in Herzliya”这一完整描述，判断该教授在法院中的职位。\n步骤3：使用⟦189⟧，提取“the Supreme Court”这一法院名称，结合⟦185⟧中“the President”的职位信息，综合推断该教授在法院中的具体职位。\n\n结论：该教授在法院中担任Supreme Court的President（院长）职位。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦15⟧⟨95⟩⟦61⟧⟨96⟩⟦210⟧⟦210⟧⟨97⟩⟨98⟩⟦212⟧⟦212⟧⟨99⟩⟨100⟩",
+    "nounCount": 291,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 5014,
+      "completion_tokens": 330,
+      "total_tokens": 5344,
+      "prompt_tokens_details": {
+        "cached_tokens": 4864
+      },
+      "prompt_cache_hit_tokens": 4864,
+      "prompt_cache_miss_tokens": 150
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1242,
+      "completion_tokens": 440,
+      "total_tokens": 1682,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1242
+    }
+  }
+]

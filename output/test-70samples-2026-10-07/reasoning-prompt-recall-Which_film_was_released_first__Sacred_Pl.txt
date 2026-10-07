@@ -1,0 +1,84 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Oz the Great and Powerful] ⟨1⟩⟦25⟧⟨3⟩⟦42⟧⟨4⟩⟨2⟩⟨5⟩⟦217⟧⟨6⟩⟦145⟧⟨7⟩⟦34⟧⟦219⟧⟨8⟩⟨9⟩⟦89⟧⟨10⟩⟦169⟧⟨11⟩
+[Toys in the Attic (2009 film)] ⟦107⟧
+[Sacred Planet] ⟦216⟧⟨417⟩⟦24⟧⟦96⟧⟨418⟩⟨419⟩⟦148⟧⟨420⟩⟦127⟧⟨421⟩
+[Sacred Planet] ⟦213⟧⟨422⟩⟦176⟧⟦176⟧⟨423⟩⟨424⟩⟨425⟩⟨426⟩
+[Sacred Planet] ⟦254⟧⟦113⟧ | ⟦254⟧⟦113⟧⟨427⟩⟨428⟩⟦298⟧⟨429⟩⟦57⟧⟨430⟩ | ⟦113⟧
+
+符号表：
+⟦24⟧ = a 2004 documentary
+⟦25⟧ = a 2013 American fantasy adventure film
+⟦34⟧ = a screenplay
+⟦42⟧ = adventure
+⟦57⟧ = April
+⟦89⟧ = David Lindsay-Abaire
+⟦96⟧ = documentary
+⟦107⟧ = fantasy
+⟦113⟧ = film
+⟦127⟧ = Hairul Salleh Askor
+⟦145⟧ = Joe Roth
+⟦148⟧ = Jon Long
+⟦169⟧ = Mitchell Kapner
+⟦176⟧ = narration
+⟦213⟧ = Robert Redford
+⟦216⟧ = Sacred Planet
+⟦217⟧ = Sam Raimi
+⟦219⟧ = screenplay
+⟦254⟧ = The film
+⟦298⟧ = Walt Disney Pictures
+
+占位符映射：
+⟨1⟩ = Oz the Great and Powerful is 
+⟨2⟩ = 
+⟨3⟩ =  
+⟨4⟩ =  
+⟨5⟩ =  directed by 
+⟨6⟩ =  and produced by 
+⟨7⟩ = , from 
+⟨8⟩ = 
+⟨9⟩ =  written by 
+⟨10⟩ =  and 
+⟨11⟩ = .
+⟨417⟩ =  is 
+⟨418⟩ = 
+⟨419⟩ =  directed by 
+⟨420⟩ =  and 
+⟨421⟩ = .
+⟨422⟩ =  provided 
+⟨423⟩ = 
+⟨424⟩ =  for 
+⟨425⟩ = 
+⟨426⟩ = .
+⟨427⟩ = 
+⟨428⟩ =  was released by 
+⟨429⟩ =  on 
+⟨430⟩ =  22, 2004, and grossed $1,108,356.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which film was released first: Sacred Planet or Oz the Great and Powerful?

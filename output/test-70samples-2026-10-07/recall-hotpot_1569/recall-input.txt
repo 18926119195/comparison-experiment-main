@@ -1,0 +1,416 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "The Story
+⟦2⟧ = ("commander
+⟦3⟧ = ("the best ruler
+⟦4⟧ = (Latin
+⟦5⟧ = 117AD
+⟦6⟧ = 17 March 180 AD
+⟦7⟧ = 18 September 538August 117 AD
+⟦8⟧ = 180 AD
+⟦9⟧ = 19 September
+⟦10⟧ = 24 January
+⟦11⟧ = 26 April
+⟦12⟧ = 27 BC
+⟦13⟧ = 284 AD
+⟦14⟧ = 31 BC
+⟦15⟧ = 476 AD
+⟦16⟧ = 69 AD
+⟦17⟧ = a book
+⟦18⟧ = A Brief History
+⟦19⟧ = a contemporary observer
+⟦20⟧ = a fire
+⟦21⟧ = a former temple
+⟦22⟧ = a high relief monument
+⟦23⟧ = a humanist
+⟦24⟧ = a kingdom
+⟦25⟧ = a name
+⟦26⟧ = a number
+⟦27⟧ = a prideful, mature man
+⟦28⟧ = a public park
+⟦29⟧ = a series
+⟦30⟧ = a site
+⟦31⟧ = a successful soldier-emperor
+⟦32⟧ = a summary
+⟦33⟧ = a young woman
+⟦34⟧ = abdication
+⟦35⟧ = academy
+⟦36⟧ = accession
+⟦37⟧ = Actium
+⟦38⟧ = AD
+⟦39⟧ = Akhenaton
+⟦40⟧ = an academy secondary school
+⟦41⟧ = an annual income
+⟦42⟧ = an era
+⟦43⟧ = ancient China
+⟦44⟧ = Ancient Rome
+⟦45⟧ = Ancient Times
+⟦46⟧ = Antoninus
+⟦47⟧ = Antoninus Pius
+⟦48⟧ = Antony
+⟦49⟧ = Ariel Durant
+⟦50⟧ = around 169 CE
+⟦51⟧ = audio lectures
+⟦52⟧ = Augustus
+⟦53⟧ = BC
+⟦54⟧ = beginning
+⟦55⟧ = Berkshire
+⟦56⟧ = book
+⟦57⟧ = Britannia
+⟦58⟧ = building
+⟦59⟧ = Caligula
+⟦60⟧ = center
+⟦61⟧ = century
+⟦62⟧ = chapters
+⟦63⟧ = China
+⟦64⟧ = city
+⟦65⟧ = Civil war
+⟦66⟧ = Civilization
+⟦67⟧ = Claudius
+⟦68⟧ = commander
+⟦69⟧ = comment
+⟦70⟧ = Commodus
+⟦71⟧ = Commodus' reign
+⟦72⟧ = contextual value added results
+⟦73⟧ = control
+⟦74⟧ = damage
+⟦75⟧ = daughter
+⟦76⟧ = death
+⟦77⟧ = decline
+⟦78⟧ = descent
+⟦79⟧ = Dio Cassius
+⟦80⟧ = Diocletian's Tetrarchy
+⟦81⟧ = donations
+⟦82⟧ = Durant
+⟦83⟧ = dynastic succession
+⟦84⟧ = dynasty
+⟦85⟧ = emperor
+⟦86⟧ = emperors
+⟦87⟧ = empire
+⟦88⟧ = England
+⟦89⟧ = English world
+⟦90⟧ = Ephesus
+⟦91⟧ = epoch
+⟦92⟧ = era
+⟦93⟧ = Euripides
+⟦94⟧ = events
+⟦95⟧ = expansion
+⟦96⟧ = extensive public building programs
+⟦97⟧ = extent
+⟦98⟧ = fall
+⟦99⟧ = father
+⟦100⟧ = Faustina
+⟦101⟧ = filius
+⟦102⟧ = fire
+⟦103⟧ = Five Emperors
+⟦104⟧ = five good GCSEs
+⟦105⟧ = flood
+⟦106⟧ = flood control
+⟦107⟧ = flood damage
+⟦108⟧ = foundation
+⟦109⟧ = founder
+⟦110⟧ = founding
+⟦111⟧ = Four Emperors
+⟦112⟧ = four more emperors
+⟦113⟧ = fu
+⟦114⟧ = Gaijiagou Village
+⟦115⟧ = GCSEs
+⟦116⟧ = gens
+⟦117⟧ = gens Aurelia
+⟦118⟧ = gold
+⟦119⟧ = Hadrian
+⟦120⟧ = Hadrian ( ; Latin
+⟦121⟧ = Hadrian's Wall
+⟦122⟧ = heirs
+⟦123⟧ = Heroes
+⟦124⟧ = his death
+⟦125⟧ = his enduring reputation
+⟦126⟧ = his father
+⟦127⟧ = his philanthropic rule
+⟦128⟧ = his right
+⟦129⟧ = his son
+⟦130⟧ = his tastes
+⟦131⟧ = historian
+⟦132⟧ = historians
+⟦133⟧ = history
+⟦134⟧ = humanist
+⟦135⟧ = image
+⟦136⟧ = imperator
+⟦137⟧ = Imperator Caesar Nerva Traianus Divi Nervae filius
+⟦138⟧ = important personalities
+⟦139⟧ = income
+⟦140⟧ = inhabitants
+⟦141⟧ = its maximum territorial extent
+⟦142⟧ = Jesus Christ
+⟦143⟧ = Jewish prophets
+⟦144⟧ = Jinan
+⟦145⟧ = Julius Caesar
+⟦146⟧ = July
+⟦147⟧ = just Marcus Aurelius
+⟦148⟧ = Kennet
+⟦149⟧ = Kennet School
+⟦150⟧ = kingdom
+⟦151⟧ = Laozi
+⟦152⟧ = Latin
+⟦153⟧ = lectures
+⟦154⟧ = Leonardo da Vinci
+⟦155⟧ = limit
+⟦156⟧ = Lorenzo de Medici
+⟦157⟧ = Lucius Verus
+⟦158⟧ = man
+⟦159⟧ = March
+⟦160⟧ = Marcus Aurelius
+⟦161⟧ = Marcus Aurelius Antoninus Augustus
+⟦162⟧ = Marcus Aurelius Valerius "Maxentius" Augustus (Maxentius
+⟦163⟧ = Mark Antony
+⟦164⟧ = Martin Luther
+⟦165⟧ = members
+⟦166⟧ = men
+⟦167⟧ = Mohandas K. Gandhi
+⟦168⟧ = money
+⟦169⟧ = monument
+⟦170⟧ = Muhammad
+⟦171⟧ = name
+⟦172⟧ = nearby Gaijiagou Village
+⟦173⟧ = Nero
+⟦174⟧ = Nerva
+⟦175⟧ = notably Edward Gibbon
+⟦176⟧ = number
+⟦177⟧ = observer
+⟦178⟧ = Octavian
+⟦179⟧ = Octavian "imperator
+⟦180⟧ = optimus
+⟦181⟧ = others
+⟦182⟧ = park
+⟦183⟧ = peace
+⟦184⟧ = People
+⟦185⟧ = Pericles
+⟦186⟧ = personalities
+⟦187⟧ = philanthropic
+⟦188⟧ = policies
+⟦189⟧ = Pompey
+⟦190⟧ = princeps
+⟦191⟧ = principles
+⟦192⟧ = programs
+⟦193⟧ = prophets
+⟦194⟧ = prosperity
+⟦195⟧ = Publius Aelius Hadrianus Augustus
+⟦196⟧ = Rebuilding
+⟦197⟧ = reign
+⟦198⟧ = relief
+⟦199⟧ = reputation
+⟦200⟧ = results
+⟦201⟧ = right
+⟦202⟧ = Roma
+⟦203⟧ = Roman emperor
+⟦204⟧ = Roman history
+⟦205⟧ = Roman imperial history
+⟦206⟧ = Rome
+⟦207⟧ = rule
+⟦208⟧ = ruler
+⟦209⟧ = rulers
+⟦210⟧ = rust
+⟦211⟧ = rust and iron"—a famous comment
+⟦212⟧ = school
+⟦213⟧ = sculpture
+⟦214⟧ = second
+⟦215⟧ = series
+⟦216⟧ = Shandong
+⟦217⟧ = Shun
+⟦218⟧ = Sir Francis Bacon
+⟦219⟧ = site
+⟦220⟧ = social welfare policies
+⟦221⟧ = Socrates
+⟦222⟧ = soldier
+⟦223⟧ = Solon
+⟦224⟧ = some historians
+⟦225⟧ = son
+⟦226⟧ = state
+⟦227⟧ = strife
+⟦228⟧ = student
+⟦229⟧ = success
+⟦230⟧ = succession
+⟦231⟧ = summary
+⟦232⟧ = talented potential heirs
+⟦233⟧ = tastes
+⟦234⟧ = temple
+⟦235⟧ = Thatcham
+⟦236⟧ = the "Five Good Emperors
+⟦237⟧ = the 3rd century BC
+⟦238⟧ = the 6th century
+⟦239⟧ = the abdication
+⟦240⟧ = the accession
+⟦241⟧ = The Antonines
+⟦242⟧ = the Aurelii
+⟦243⟧ = the Battle
+⟦244⟧ = the beginning
+⟦245⟧ = the brief Flavian dynasty
+⟦246⟧ = The Buddha
+⟦247⟧ = the city center
+⟦248⟧ = the daughter
+⟦249⟧ = the Dawn
+⟦250⟧ = the decline
+⟦251⟧ = the descent
+⟦252⟧ = the emperor
+⟦253⟧ = the empire
+⟦254⟧ = the fall
+⟦255⟧ = the first epoch
+⟦256⟧ = the five emperors
+⟦257⟧ = the Five Good Emperors
+⟦258⟧ = the founder
+⟦259⟧ = the founding
+⟦260⟧ = the future wife
+⟦261⟧ = the Great
+⟦262⟧ = The Great Antonine Altar
+⟦263⟧ = the greatest military expansion
+⟦264⟧ = the Greek historian
+⟦265⟧ = the highest achieving state school
+⟦266⟧ = The history
+⟦267⟧ = the image
+⟦268⟧ = the inhabitants
+⟦269⟧ = the Italian Peninsula
+⟦270⟧ = the Julio-Claudian dynasty
+⟦271⟧ = the Kunsthistorisches Museum
+⟦272⟧ = the last Western emperor
+⟦273⟧ = the Mediterranean world
+⟦274⟧ = the mid 1st century BC
+⟦275⟧ = the Modern Age
+⟦276⟧ = The most famous members
+⟦277⟧ = the name
+⟦278⟧ = the Nerva–Antonine dynasty
+⟦279⟧ = the northern limit
+⟦280⟧ = the Pantheon
+⟦281⟧ = the park
+⟦282⟧ = the philosophically inclined Marcus Aurelius
+⟦283⟧ = the Principate
+⟦284⟧ = the Republic
+⟦285⟧ = the right
+⟦286⟧ = the Roman Emperors
+⟦287⟧ = the Roman Empire
+⟦288⟧ = the Roman Republic
+⟦289⟧ = the Roman state
+⟦290⟧ = the rulers
+⟦291⟧ = The school
+⟦292⟧ = The sculpture
+⟦293⟧ = the second
+⟦294⟧ = the Senate
+⟦295⟧ = the Senate "optimus princeps
+⟦296⟧ = the site
+⟦297⟧ = the so-called Five Good Emperors
+⟦298⟧ = the southern bank
+⟦299⟧ = the strife-torn Year
+⟦300⟧ = The success
+⟦301⟧ = the temple
+⟦302⟧ = The temple's foundation
+⟦303⟧ = the third
+⟦304⟧ = The third ruler
+⟦305⟧ = The Three Officials Temple Scenic Area
+⟦306⟧ = the Three Sovereigns
+⟦307⟧ = the time
+⟦308⟧ = the view
+⟦309⟧ = The villagers
+⟦310⟧ = the Yellow River
+⟦311⟧ = the Younger
+⟦312⟧ = These 'Heroes
+⟦313⟧ = third
+⟦314⟧ = three legendary rulers
+⟦315⟧ = Tiberius
+⟦316⟧ = time
+⟦317⟧ = Titus Aelius Hadrianus Antoninus Augustus Pius
+⟦318⟧ = Trajan
+⟦319⟧ = twenty-three chapters
+⟦320⟧ = Tze
+⟦321⟧ = value
+⟦322⟧ = Venus
+⟦323⟧ = Verus' death
+⟦324⟧ = Vespasian
+⟦325⟧ = victor
+⟦326⟧ = Vienna
+⟦327⟧ = view
+⟦328⟧ = villagers
+⟦329⟧ = war
+⟦330⟧ = welfare
+⟦331⟧ = West Berkshire
+⟦332⟧ = wife
+⟦333⟧ = Will
+⟦334⟧ = Will Durant
+⟦335⟧ = William Shakespeare
+⟦336⟧ = woman
+⟦337⟧ = world
+⟦338⟧ = worship
+⟦339⟧ = Yao
+⟦340⟧ = year
+⟦341⟧ = years
+⟦342⟧ = Yu
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Trajan] ⟦318⟧⟨1⟩⟦152⟧⟨2⟩⟦152⟧⟨3⟩⟦137⟧⟨4⟩⟦101⟧⟨5⟩⟦52⟧⟨6⟩⟦7⟧⟨7⟩⟦38⟧⟨8⟩⟦203⟧⟨9⟩⟦85⟧⟨10⟩⟦5⟧⟨11⟩
+[Trajan] ⟨12⟩⟦295⟧⟨13⟩⟦180⟧⟨14⟩⟦190⟧⟨15⟩⟦3⟧⟨16⟩⟦208⟧⟨17⟩⟦318⟧⟨18⟩⟦31⟧⟨19⟩⟦222⟧⟨20⟩⟦85⟧⟨21⟩⟦263⟧⟨22⟩⟦95⟧⟨23⟩⟦204⟧⟨24⟩⟦133⟧⟨25⟩⟦253⟧⟨26⟩⟦87⟧⟨27⟩⟦141⟧⟨28⟩⟦97⟧⟨29⟩⟦307⟧⟨30⟩⟦316⟧⟨31⟩⟦124⟧⟨32⟩⟦76⟧⟨33⟩
+[Trajan] ⟨34⟩⟦127⟧⟨35⟩⟦187⟧⟨36⟩⟦207⟧⟨37⟩⟦96⟧⟨38⟩⟦58⟧⟨39⟩⟦192⟧⟨40⟩⟦220⟧⟨41⟩⟦330⟧⟨42⟩⟦188⟧⟨43⟩⟦125⟧⟨44⟩⟦199⟧⟨45⟩⟦293⟧⟨46⟩⟦214⟧⟨47⟩⟦257⟧⟨48⟩⟦42⟧⟨49⟩⟦92⟧⟨50⟩⟦183⟧⟨51⟩⟦183⟧⟨52⟩⟦194⟧⟨53⟩⟦194⟧⟨54⟩⟦273⟧⟨55⟩⟦337⟧⟨56⟩
+[Heroes of History] ⟦123⟧⟨57⟩⟦133⟧⟨58⟩⟦133⟧⟨59⟩⟦18⟧⟨60⟩⟦133⟧⟨61⟩⟦66⟧⟨62⟩⟦45⟧⟨63⟩⟦249⟧⟨64⟩⟦275⟧⟨65⟩⟦17⟧⟨66⟩⟦56⟧⟨67⟩⟦334⟧⟨68⟩⟦32⟧⟨69⟩⟦231⟧⟨70⟩⟦333⟧⟨71⟩⟦49⟧⟨72⟩⟦1⟧⟨73⟩⟦66⟧⟨74⟩
+[Heroes of History] ⟨75⟩⟦138⟧⟨76⟩⟦186⟧⟨77⟩⟦94⟧⟨78⟩⟦94⟧⟨79⟩⟦133⟧⟨80⟩⟦133⟧⟨81⟩
+[Heroes of History] ⟦312⟧⟨82⟩⟦123⟧⟨83⟩⟦151⟧⟨84⟩⟦170⟧⟨85⟩⟦113⟧⟨86⟩⟦320⟧⟨87⟩⟦246⟧⟨88⟩⟦167⟧⟨89⟩⟦39⟧⟨90⟩⟦143⟧⟨91⟩⟦193⟧⟨92⟩⟦223⟧⟨93⟩⟦185⟧⟨94⟩⟦93⟧⟨95⟩⟦221⟧⟨96⟩⟦145⟧⟨97⟩⟦52⟧⟨98⟩⟦257⟧⟨99⟩⟦142⟧⟨100⟩⟦156⟧⟨101⟩⟦154⟧⟨102⟩⟦164⟧⟨103⟩⟦335⟧⟨104⟩⟦218⟧⟨105⟩⟦181⟧⟨106⟩⟦181⟧⟨107⟩
+[Heroes of History] ⟨108⟩⟦29⟧⟨109⟩⟦215⟧⟨110⟩⟦51⟧⟨111⟩⟦153⟧⟨112⟩⟦123⟧⟨113⟩⟦133⟧⟨114⟩⟦133⟧⟨115⟩⟦319⟧⟨116⟩⟦62⟧⟨117⟩⟦82⟧⟨118⟩⟦124⟧⟨119⟩⟦76⟧⟨120⟩
+[Marcus Aurelius (disambiguation)] ⟦160⟧⟨121⟩⟦25⟧⟨122⟩⟦171⟧⟨123⟩⟦166⟧⟨124⟩⟦166⟧⟨125⟩⟦116⟧⟨126⟩⟦117⟧⟨127⟩
+[Marcus Aurelius (disambiguation)] ⟦276⟧⟨128⟩⟦165⟧⟨129⟩⟦286⟧⟨130⟩⟦278⟧⟨131⟩⟦84⟧⟨132⟩⟦89⟧⟨133⟩⟦337⟧⟨134⟩⟦147⟧⟨135⟩⟦162⟧⟨136⟩⟦80⟧⟨137⟩
+[Great Antonine Altar] ⟦262⟧⟨138⟩⟦22⟧⟨139⟩⟦198⟧⟨140⟩⟦169⟧⟨141⟩⟦90⟧⟨142⟩⟦50⟧⟨143⟩
+[Great Antonine Altar] ⟦292⟧⟨144⟩⟦213⟧⟨145⟩⟦241⟧⟨146⟩
+[Great Antonine Altar] ⟨147⟩⟦160⟧⟨148⟩⟦341⟧⟨149⟩
+[Great Antonine Altar] ⟨150⟩⟦47⟧⟨151⟩⟦27⟧⟨152⟩⟦158⟧⟨153⟩⟦126⟧⟨154⟩⟦99⟧⟨155⟩⟦119⟧⟨156⟩
+[Great Antonine Altar] ⟨157⟩⟦285⟧⟨158⟩⟦201⟧⟨159⟩⟦47⟧⟨160⟩⟦157⟧⟨161⟩
+[Great Antonine Altar] ⟨162⟩⟦128⟧⟨163⟩⟦201⟧⟨164⟩⟦119⟧⟨165⟩⟦267⟧⟨166⟩⟦135⟧⟨167⟩⟦33⟧⟨168⟩⟦336⟧⟨169⟩⟦100⟧⟨170⟩⟦311⟧⟨171⟩
+[Great Antonine Altar] ⟨172⟩⟦248⟧⟨173⟩⟦75⟧⟨174⟩⟦47⟧⟨175⟩⟦260⟧⟨176⟩⟦332⟧⟨177⟩⟦160⟧⟨178⟩
+[Great Antonine Altar] ⟦292⟧⟨179⟩⟦213⟧⟨180⟩⟦271⟧⟨181⟩⟦326⟧⟨182⟩
+[Three Officials Temple Scenic Area] ⟦305⟧⟨183⟩⟦28⟧⟨184⟩⟦182⟧⟨185⟩⟦298⟧⟨186⟩⟦310⟧⟨187⟩⟦247⟧⟨188⟩⟦64⟧⟨189⟩⟦60⟧⟨190⟩⟦144⟧⟨191⟩⟦216⟧⟨192⟩⟦63⟧⟨193⟩
+[Three Officials Temple Scenic Area] ⟨194⟩⟦281⟧⟨195⟩⟦182⟧⟨196⟩⟦296⟧⟨197⟩⟦219⟧⟨198⟩⟦21⟧⟨199⟩⟦234⟧⟨200⟩⟦314⟧⟨201⟩⟦209⟧⟨202⟩⟦43⟧⟨203⟩
+[Three Officials Temple Scenic Area] ⟨204⟩⟦290⟧⟨205⟩⟦209⟧⟨206⟩⟦339⟧⟨207⟩⟦217⟧⟨208⟩⟦256⟧⟨209⟩⟦86⟧⟨210⟩⟦306⟧⟨211⟩⟦103⟧⟨212⟩
+[Three Officials Temple Scenic Area] ⟦304⟧⟨213⟩⟦208⟧⟨214⟩⟦301⟧⟨215⟩⟦234⟧⟨216⟩⟦342⟧⟨217⟩⟦261⟧⟨218⟩⟦105⟧⟨219⟩⟦106⟧⟨220⟩⟦73⟧⟨221⟩⟦63⟧⟨222⟩
+[Three Officials Temple Scenic Area] ⟦302⟧⟨223⟩⟦234⟧⟨224⟩⟦108⟧⟨225⟩⟦105⟧⟨226⟩⟦107⟧⟨227⟩⟦74⟧⟨228⟩⟦172⟧⟨229⟩
+[Three Officials Temple Scenic Area] ⟦309⟧⟨230⟩⟦328⟧⟨231⟩⟦168⟧⟨232⟩⟦168⟧⟨233⟩⟦301⟧⟨234⟩⟦234⟧⟨235⟩⟦30⟧⟨236⟩⟦219⟧⟨237⟩⟦338⟧⟨238⟩⟦338⟧⟨239⟩
+[Three Officials Temple Scenic Area] ⟨240⟩⟦20⟧⟨241⟩⟦102⟧⟨242⟩
+[Three Officials Temple Scenic Area] ⟦196⟧⟨243⟩⟦196⟧⟨244⟩⟦296⟧⟨245⟩⟦219⟧⟨246⟩⟦81⟧⟨247⟩⟦81⟧⟨248⟩⟦268⟧⟨249⟩⟦140⟧⟨250⟩⟦114⟧⟨251⟩
+[Hadrian] ⟦120⟧⟨252⟩⟦152⟧⟨253⟩⟦195⟧⟨254⟩⟦10⟧⟨255⟩⟦146⟧⟨256⟩⟦203⟧⟨257⟩⟦85⟧⟨258⟩
+[Hadrian] ⟨259⟩⟦121⟧⟨260⟩⟦279⟧⟨261⟩⟦155⟧⟨262⟩⟦57⟧⟨263⟩
+[Hadrian] ⟨264⟩⟦280⟧⟨265⟩⟦301⟧⟨266⟩⟦322⟧⟨267⟩⟦202⟧⟨268⟩
+[Hadrian] ⟨269⟩⟦130⟧⟨270⟩⟦233⟧⟨271⟩⟦23⟧⟨272⟩⟦134⟧⟨273⟩⟦303⟧⟨274⟩⟦313⟧⟨275⟩⟦257⟧⟨276⟩
+[History of the Roman Empire] ⟦266⟧⟨277⟩⟦133⟧⟨278⟩⟦287⟧⟨279⟩⟦266⟧⟨280⟩⟦133⟧⟨281⟩⟦44⟧⟨282⟩⟦254⟧⟨283⟩⟦98⟧⟨284⟩⟦288⟧⟨285⟩⟦12⟧⟨286⟩⟦239⟧⟨287⟩⟦34⟧⟨288⟩⟦272⟧⟨289⟩⟦85⟧⟨290⟩⟦15⟧⟨291⟩⟦38⟧⟨292⟩
+[History of the Roman Empire] ⟦206⟧⟨293⟩⟦259⟧⟨294⟩⟦110⟧⟨295⟩⟦284⟧⟨296⟩⟦238⟧⟨297⟩⟦61⟧⟨298⟩⟦53⟧⟨299⟩⟦269⟧⟨300⟩⟦237⟧⟨301⟩⟦61⟧⟨302⟩
+[History of the Roman Empire] ⟦65⟧⟨303⟩⟦329⟧⟨304⟩⟦289⟧⟨305⟩⟦226⟧⟨306⟩⟦274⟧⟨307⟩⟦61⟧⟨308⟩⟦145⟧⟨309⟩⟦189⟧⟨310⟩⟦178⟧⟨311⟩⟦163⟧⟨312⟩
+[History of the Roman Empire] ⟦48⟧⟨313⟩⟦243⟧⟨314⟩⟦37⟧⟨315⟩⟦14⟧⟨316⟩
+[History of the Roman Empire] ⟨317⟩⟦12⟧⟨318⟩⟦294⟧⟨319⟩⟦184⟧⟨320⟩⟦206⟧⟨321⟩⟦179⟧⟨322⟩⟦136⟧⟨323⟩⟦2⟧⟨324⟩⟦68⟧⟨325⟩⟦283⟧⟨326⟩⟦255⟧⟨327⟩⟦91⟧⟨328⟩⟦205⟧⟨329⟩⟦133⟧⟨330⟩⟦12⟧⟨331⟩⟦13⟧⟨332⟩⟦38⟧⟨333⟩⟦277⟧⟨334⟩⟦171⟧⟨335⟩⟦52⟧⟨336⟩
+[History of the Roman Empire] ⟦300⟧⟨337⟩⟦229⟧⟨338⟩⟦52⟧⟨339⟩⟦191⟧⟨340⟩⟦191⟧⟨341⟩⟦83⟧⟨342⟩⟦230⟧⟨343⟩⟦26⟧⟨344⟩⟦176⟧⟨345⟩⟦232⟧⟨346⟩⟦122⟧⟨347⟩⟦270⟧⟨348⟩⟦84⟧⟨349⟩⟦112⟧⟨350⟩⟦86⟧⟨351⟩⟦315⟧⟨352⟩⟦59⟧⟨353⟩⟦67⟧⟨354⟩⟦173⟧⟨355⟩⟦16⟧⟨356⟩⟦38⟧⟨357⟩⟦299⟧⟨358⟩⟦227⟧⟨359⟩⟦111⟧⟨360⟩⟦324⟧⟨361⟩⟦325⟧⟨362⟩⟦325⟧⟨363⟩
+[History of the Roman Empire] ⟦324⟧⟨364⟩⟦258⟧⟨365⟩⟦109⟧⟨366⟩⟦245⟧⟨367⟩⟦84⟧⟨368⟩⟦278⟧⟨369⟩⟦84⟧⟨370⟩⟦236⟧⟨371⟩⟦174⟧⟨372⟩⟦318⟧⟨373⟩⟦119⟧⟨374⟩⟦47⟧⟨375⟩⟦282⟧⟨376⟩
+[History of the Roman Empire] ⟨377⟩⟦308⟧⟨378⟩⟦327⟧⟨379⟩⟦264⟧⟨380⟩⟦131⟧⟨381⟩⟦79⟧⟨382⟩⟦19⟧⟨383⟩⟦177⟧⟨384⟩⟦240⟧⟨385⟩⟦36⟧⟨386⟩⟦252⟧⟨387⟩⟦85⟧⟨388⟩⟦70⟧⟨389⟩⟦8⟧⟨390⟩⟦38⟧⟨391⟩⟦251⟧⟨392⟩⟦78⟧⟨393⟩⟦24⟧⟨394⟩⟦150⟧⟨395⟩⟦118⟧⟨396⟩⟦118⟧⟨397⟩⟦210⟧⟨398⟩⟦211⟧⟨399⟩⟦69⟧⟨400⟩⟦224⟧⟨401⟩⟦132⟧⟨402⟩⟦175⟧⟨403⟩⟦71⟧⟨404⟩⟦197⟧⟨405⟩⟦244⟧⟨406⟩⟦54⟧⟨407⟩⟦250⟧⟨408⟩⟦77⟧⟨409⟩⟦287⟧⟨410⟩
+[Marcus Aurelius] ⟦160⟧⟨411⟩⟦152⟧⟨412⟩⟦152⟧⟨413⟩⟦161⟧⟨414⟩⟦11⟧⟨415⟩⟦6⟧⟨416⟩⟦38⟧⟨417⟩⟦203⟧⟨418⟩⟦85⟧⟨419⟩⟦157⟧⟨420⟩⟦323⟧⟨421⟩⟦76⟧⟨422⟩⟦129⟧⟨423⟩⟦225⟧⟨424⟩⟦70⟧⟨425⟩
+[Marcus Aurelius] ⟨426⟩⟦297⟧⟨427⟩
+[Kennet School] ⟦149⟧⟨428⟩⟦40⟧⟨429⟩⟦35⟧⟨430⟩⟦212⟧⟨431⟩⟦235⟧⟨432⟩⟦55⟧⟨433⟩⟦88⟧⟨434⟩
+[Kennet School] ⟨435⟩⟦148⟧⟨436⟩⟦265⟧⟨437⟩⟦226⟧⟨438⟩⟦212⟧⟨439⟩⟦331⟧⟨440⟩⟦72⟧⟨441⟩⟦321⟧⟨442⟩⟦200⟧⟨443⟩⟦104⟧⟨444⟩⟦115⟧⟨445⟩
+[Kennet School] ⟦291⟧⟨446⟩⟦212⟧⟨447⟩⟦41⟧⟨448⟩⟦139⟧⟨449⟩⟦228⟧⟨450⟩⟦228⟧⟨451⟩⟦340⟧⟨452⟩⟦340⟧⟨453⟩
+[Antoninus Pius] ⟦47⟧⟨454⟩⟦4⟧⟨455⟩⟦317⟧⟨456⟩⟦9⟧⟨457⟩⟦159⟧⟨458⟩⟦46⟧⟨459⟩⟦203⟧⟨460⟩⟦85⟧⟨461⟩
+[Antoninus Pius] ⟨462⟩⟦257⟧⟨463⟩⟦278⟧⟨464⟩⟦84⟧⟨465⟩⟦242⟧⟨466⟩
+
+[user]
+
+问题：
+When did the the Antonine who was known as the third of the five good emperors live?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

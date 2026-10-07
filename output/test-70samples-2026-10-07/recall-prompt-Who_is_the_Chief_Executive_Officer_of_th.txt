@@ -1,0 +1,578 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = “All Star
+⟦2⟧ = “Marketer
+⟦3⟧ = (MBA
+⟦4⟧ = 18 affiliated REITs
+⟦5⟧ = a Bachelor
+⟦6⟧ = a bachelor's degree
+⟦7⟧ = a consultant
+⟦8⟧ = a director
+⟦9⟧ = a European airline
+⟦10⟧ = a global advisory capacity
+⟦11⟧ = a joint venture
+⟦12⟧ = a Korean-based company
+⟦13⟧ = a management consulting firm
+⟦14⟧ = a Masters
+⟦15⟧ = a member
+⟦16⟧ = a new line
+⟦17⟧ = a part
+⟦18⟧ = a predecessor corporation
+⟦19⟧ = a REIT or real estate investment trust
+⟦20⟧ = a senior managing officer
+⟦21⟧ = a small expendable launch vehicle
+⟦22⟧ = a variety
+⟦23⟧ = activities
+⟦24⟧ = administration
+⟦25⟧ = Advertising Age
+⟦26⟧ = advisors
+⟦27⟧ = advisory
+⟦28⟧ = affiliate
+⟦29⟧ = airline
+⟦30⟧ = Airport Services
+⟦31⟧ = all his life
+⟦32⟧ = all sales
+⟦33⟧ = alma
+⟦34⟧ = Alumni
+⟦35⟧ = America
+⟦36⟧ = an Advisor
+⟦37⟧ = an affiliated REIT
+⟦38⟧ = an American privately held electronic systems provider
+⟦39⟧ = an Automotive News
+⟦40⟧ = an executive chairman
+⟦41⟧ = an independent director
+⟦42⟧ = an MBA
+⟦43⟧ = an S&P 500 integrated communications service provider
+⟦44⟧ = an undergraduate degree
+⟦45⟧ = Andersen Consulting
+⟦46⟧ = April
+⟦47⟧ = arm
+⟦48⟧ = Arts
+⟦49⟧ = Associates
+⟦50⟧ = August
+⟦51⟧ = Auto Finance
+⟦52⟧ = Avant Credit Corporation
+⟦53⟧ = B. Wayne Hughes
+⟦54⟧ = bachelor
+⟦55⟧ = bad loans
+⟦56⟧ = board
+⟦57⟧ = boards
+⟦58⟧ = Boston Consulting Group Financial Services Practice
+⟦59⟧ = Bradley Wayne Hughes
+⟦60⟧ = Business
+⟦61⟧ = Business Administration
+⟦62⟧ = Business Distinguished
+⟦63⟧ = businesses
+⟦64⟧ = California
+⟦65⟧ = Canada
+⟦66⟧ = capacity
+⟦67⟧ = card
+⟦68⟧ = cards
+⟦69⟧ = CAT
+⟦70⟧ = CBS Corporation
+⟦71⟧ = CenturyLink
+⟦72⟧ = CenturyTel
+⟦73⟧ = CEO
+⟦74⟧ = chairman
+⟦75⟧ = Chicago
+⟦76⟧ = Chicago Laboratory Schools
+⟦77⟧ = Chicago Public Education Fund
+⟦78⟧ = chief executive officer
+⟦79⟧ = chief financial officer
+⟦80⟧ = chief operating officer
+⟦81⟧ = Cinemark
+⟦82⟧ = Cinemark Inc.
+⟦83⟧ = Cinemark USA Inc.
+⟦84⟧ = Cinemark, Inc.
+⟦85⟧ = co
+⟦86⟧ = Co-Chief Executive Officer
+⟦87⟧ = collaboration
+⟦88⟧ = commercial orbital transportation services
+⟦89⟧ = communications
+⟦90⟧ = companies
+⟦91⟧ = company
+⟦92⟧ = components
+⟦93⟧ = consultant
+⟦94⟧ = consulting
+⟦95⟧ = consumer
+⟦96⟧ = Continental Airlines
+⟦97⟧ = Continental Express
+⟦98⟧ = Core2 Group
+⟦99⟧ = corporate development
+⟦100⟧ = corporate marketing
+⟦101⟧ = corporation
+⟦102⟧ = credit
+⟦103⟧ = Credit Card Services
+⟦104⟧ = credit cards
+⟦105⟧ = Dallas County Community College
+⟦106⟧ = Daniels College
+⟦107⟧ = Dartmouth College
+⟦108⟧ = Datacard
+⟦109⟧ = dates
+⟦110⟧ = David Thomas McLaughlin
+⟦111⟧ = December
+⟦112⟧ = degree
+⟦113⟧ = Denver
+⟦114⟧ = descent
+⟦115⟧ = development
+⟦116⟧ = director
+⟦117⟧ = directors
+⟦118⟧ = distribution
+⟦119⟧ = distributors
+⟦120⟧ = division
+⟦121⟧ = DU
+⟦122⟧ = Earthlink
+⟦123⟧ = economics
+⟦124⟧ = Eren Ozmen
+⟦125⟧ = estate
+⟦126⟧ = executive
+⟦127⟧ = Executive Director
+⟦128⟧ = executive vice president
+⟦129⟧ = Fatih Ozmen
+⟦130⟧ = February
+⟦131⟧ = field
+⟦132⟧ = field operations manager
+⟦133⟧ = field training manager
+⟦134⟧ = firm
+⟦135⟧ = forecast
+⟦136⟧ = former CEO
+⟦137⟧ = founder
+⟦138⟧ = general manager
+⟦139⟧ = general manager Lentz
+⟦140⟧ = Glen F. Post III
+⟦141⟧ = Global Board
+⟦142⟧ = group
+⟦143⟧ = group executive
+⟦144⟧ = group managing director
+⟦145⟧ = head
+⟦146⟧ = His honors
+⟦147⟧ = his middle name
+⟦148⟧ = his role
+⟦149⟧ = holding
+⟦150⟧ = honors
+⟦151⟧ = Household International Inc.
+⟦152⟧ = HS BC North America Holdings Inc.
+⟦153⟧ = HSBC Bank USA
+⟦154⟧ = HSBC Finance Corp.
+⟦155⟧ = HSBC Finance Corporation
+⟦156⟧ = HSBC Financial Corp.
+⟦157⟧ = HSBC Financial Corporation Limited
+⟦158⟧ = HSBC Holdings PLC
+⟦159⟧ = HSBC North America
+⟦160⟧ = HSBC North America Holdings Inc.
+⟦161⟧ = HSBC's global credit card services
+⟦162⟧ = Hughes
+⟦163⟧ = Inc.
+⟦164⟧ = Indian descent
+⟦165⟧ = Industry Leader
+⟦166⟧ = Infininity Broadcasting Corporation
+⟦167⟧ = Institute
+⟦168⟧ = integrator
+⟦169⟧ = interim chief executive officer
+⟦170⟧ = international advisors
+⟦171⟧ = International Studies
+⟦172⟧ = investment
+⟦173⟧ = its board member
+⟦174⟧ = its chairman
+⟦175⟧ = its chief executive officer
+⟦176⟧ = its first mortgage operation
+⟦177⟧ = its forecast
+⟦178⟧ = its North American consumer lending and mortgage services businesses
+⟦179⟧ = its Portland
+⟦180⟧ = its spaceflight and microsatellite work
+⟦181⟧ = its unit chief executive officer
+⟦182⟧ = January
+⟦183⟧ = Japan
+⟦184⟧ = Jim Lentz
+⟦185⟧ = Jonathan Ornstein
+⟦186⟧ = July
+⟦187⟧ = June
+⟦188⟧ = launch
+⟦189⟧ = leader
+⟦190⟧ = leaders
+⟦191⟧ = leadership
+⟦192⟧ = Lee Roy Mitchell
+⟦193⟧ = lender
+⟦194⟧ = lending
+⟦195⟧ = Lentz
+⟦196⟧ = life
+⟦197⟧ = Lifetime Achievement Award
+⟦198⟧ = line
+⟦199⟧ = loans
+⟦200⟧ = logistics
+⟦201⟧ = Los Angeles
+⟦202⟧ = Louisiana
+⟦203⟧ = Louisiana Tech
+⟦204⟧ = Louisiana Tech College
+⟦205⟧ = Louisiana Tech University
+⟦206⟧ = Louisiana Tech University Tower Medallion Award
+⟦207⟧ = Ltd.
+⟦208⟧ = Lunsford
+⟦209⟧ = Madden
+⟦210⟧ = management
+⟦211⟧ = manager
+⟦212⟧ = Manufacturing
+⟦213⟧ = March
+⟦214⟧ = marketing
+⟦215⟧ = marketing activities
+⟦216⟧ = marketing services
+⟦217⟧ = Maryland
+⟦218⟧ = MasterCard Incorporated
+⟦219⟧ = MasterCard International Inc.
+⟦220⟧ = MasterCard Worldwide
+⟦221⟧ = MasterCard’s U.S. region board
+⟦222⟧ = Masters
+⟦223⟧ = mater
+⟦224⟧ = May
+⟦225⟧ = MBA
+⟦226⟧ = McLaughlin
+⟦227⟧ = Mehta
+⟦228⟧ = member
+⟦229⟧ = merchandising
+⟦230⟧ = merger
+⟦231⟧ = Mesa Air Group
+⟦232⟧ = micro- and nano-satellites
+⟦233⟧ = microsatellite
+⟦234⟧ = microsatellites
+⟦235⟧ = Mike Lunsford
+⟦236⟧ = Monroe
+⟦237⟧ = mortgage
+⟦238⟧ = motors
+⟦239⟧ = movie
+⟦240⟧ = Mr. Mitchell
+⟦241⟧ = N.A.
+⟦242⟧ = name
+⟦243⟧ = nano
+⟦244⟧ = NASA
+⟦245⟧ = National Association
+⟦246⟧ = National CineMedia LLC
+⟦247⟧ = National CineMedia, Inc.
+⟦248⟧ = Nevada
+⟦249⟧ = non-executive independent director
+⟦250⟧ = North America
+⟦251⟧ = North Carolina
+⟦252⟧ = November
+⟦253⟧ = now Accenture
+⟦254⟧ = October
+⟦255⟧ = officer
+⟦256⟧ = offices
+⟦257⟧ = operating
+⟦258⟧ = operation
+⟦259⟧ = operations
+⟦260⟧ = orbital spaceship
+⟦261⟧ = Oregon region
+⟦262⟧ = Orion Safety Products
+⟦263⟧ = Ornstein
+⟦264⟧ = over 30 years
+⟦265⟧ = oversight
+⟦266⟧ = parent
+⟦267⟧ = part
+⟦268⟧ = Paul Allen's Tier One suborbital SpaceShipOne space program
+⟦269⟧ = Piramal Enterprises Ltd
+⟦270⟧ = planning
+⟦271⟧ = positions
+⟦272⟧ = Post
+⟦273⟧ = predecessor
+⟦274⟧ = president
+⟦275⟧ = private spaceflight companies
+⟦276⟧ = program
+⟦277⟧ = provider
+⟦278⟧ = PS Business Parks
+⟦279⟧ = Public Storage
+⟦280⟧ = Public Storage Properties XI
+⟦281⟧ = Raleigh
+⟦282⟧ = RealNetworks
+⟦283⟧ = region
+⟦284⟧ = regional sales offices
+⟦285⟧ = REIT
+⟦286⟧ = REITs
+⟦287⟧ = responsibilities
+⟦288⟧ = responsibility
+⟦289⟧ = Rhapsody
+⟦290⟧ = rocket
+⟦291⟧ = role
+⟦292⟧ = sales
+⟦293⟧ = sales administration manager
+⟦294⟧ = satellites
+⟦295⟧ = Scaled Composites
+⟦296⟧ = Scion
+⟦297⟧ = Scott
+⟦298⟧ = self
+⟦299⟧ = senior vice president
+⟦300⟧ = September
+⟦301⟧ = service
+⟦302⟧ = services
+⟦303⟧ = several executive positions
+⟦304⟧ = several other TMS positions
+⟦305⟧ = several years
+⟦306⟧ = Siddharth
+⟦307⟧ = Siddharth N. "Bobby" Mehta
+⟦308⟧ = Sierra Nevada Corporation
+⟦309⟧ = SK Planet
+⟦310⟧ = SNC
+⟦311⟧ = sole Chief Executive Officer
+⟦312⟧ = space
+⟦313⟧ = SpaceDev
+⟦314⟧ = spaceflight
+⟦315⟧ = spaceship
+⟦316⟧ = Sparks
+⟦317⟧ = storage
+⟦318⟧ = strategic planning
+⟦319⟧ = subsidiaries
+⟦320⟧ = subsidiary
+⟦321⟧ = systems
+⟦322⟧ = systems integrator
+⟦323⟧ = team
+⟦324⟧ = telemedicine
+⟦325⟧ = TEMA
+⟦326⟧ = Texas Capital BancShares Inc.
+⟦327⟧ = Texas Capital Bank
+⟦328⟧ = Texas Capital Bank N.A
+⟦329⟧ = that general manager
+⟦330⟧ = that role
+⟦331⟧ = the "Space Systems Business
+⟦332⟧ = the 14th President
+⟦333⟧ = the advisory board
+⟦334⟧ = the affiliate companies
+⟦335⟧ = The Allstate Corporation
+⟦336⟧ = the Aspen Institute
+⟦337⟧ = the board
+⟦338⟧ = the Board and Chief Executive Officer
+⟦339⟧ = the boards
+⟦340⟧ = The Boston Consulting Group
+⟦341⟧ = the CBS merger
+⟦342⟧ = the CenturyTel board
+⟦343⟧ = the chairman
+⟦344⟧ = the chief executive
+⟦345⟧ = the chief executive officer
+⟦346⟧ = the Cinemark subsidiaries
+⟦347⟧ = the company
+⟦348⟧ = the company's President
+⟦349⟧ = the company’s WestAir Holding, Inc., subsidiary
+⟦350⟧ = the distribution manager
+⟦351⟧ = The Economic Club
+⟦352⟧ = the executive advisory board
+⟦353⟧ = the field
+⟦354⟧ = The Field Museum and Myelin Repair Foundation
+⟦355⟧ = the Financial Services Roundtable
+⟦356⟧ = the following year
+⟦357⟧ = the former chief executive officer
+⟦358⟧ = the former executive vice president
+⟦359⟧ = the former president
+⟦360⟧ = the founder
+⟦361⟧ = The Global Automakers
+⟦362⟧ = the group vice president
+⟦363⟧ = the HSBC Group
+⟦364⟧ = the hybrid rocket motors
+⟦365⟧ = the Infinity merger
+⟦366⟧ = the initial launch
+⟦367⟧ = the largest self-storage company
+⟦368⟧ = the leadership
+⟦369⟧ = the lender
+⟦370⟧ = the London School
+⟦371⟧ = the Los Angeles region
+⟦372⟧ = the managing officer
+⟦373⟧ = the merchandising manager
+⟦374⟧ = the Monterey
+⟦375⟧ = the movie theater business
+⟦376⟧ = the Myelin Repair Foundation
+⟦377⟧ = the National Association
+⟦378⟧ = the North American Executive Committee
+⟦379⟧ = the North American unit
+⟦380⟧ = the parent company
+⟦381⟧ = the positions
+⟦382⟧ = the president
+⟦383⟧ = the real estate investment field
+⟦384⟧ = the respective dates
+⟦385⟧ = the San Francisco region
+⟦386⟧ = the SpaceDev Dream Chaser
+⟦387⟧ = the SpaceDev Streaker
+⟦388⟧ = the strategic management
+⟦389⟧ = the top leaders
+⟦390⟧ = the Toyota division
+⟦391⟧ = the U.S.
+⟦392⟧ = the U.S. arm
+⟦393⟧ = the United States
+⟦394⟧ = the United States Armed Forces
+⟦395⟧ = the University
+⟦396⟧ = the Year
+⟦397⟧ = theater
+⟦398⟧ = Theatre Owners
+⟦399⟧ = TMA
+⟦400⟧ = TMC
+⟦401⟧ = TMMC
+⟦402⟧ = TMS
+⟦403⟧ = Toro Company
+⟦404⟧ = Toyota
+⟦405⟧ = Toyota Canada
+⟦406⟧ = Toyota division group vice president
+⟦407⟧ = Toyota Motor Corporation
+⟦408⟧ = Toyota Motor Engineering
+⟦409⟧ = Toyota Motor Manufacturing Canada Inc.
+⟦410⟧ = Toyota Motor North America
+⟦411⟧ = Toyota Motor Sales
+⟦412⟧ = Toyota North America
+⟦413⟧ = Toyota’s North American affiliate companies
+⟦414⟧ = training
+⟦415⟧ = transportation
+⟦416⟧ = TransUnion
+⟦417⟧ = TransUnion Corp.
+⟦418⟧ = Transunion Financing Corp.
+⟦419⟧ = TransUnion LLC
+⟦420⟧ = treasurer
+⟦421⟧ = truck
+⟦422⟧ = truck sales team member
+⟦423⟧ = trust
+⟦424⟧ = TX
+⟦425⟧ = U.S.A.
+⟦426⟧ = unit
+⟦427⟧ = unit chairman
+⟦428⟧ = University
+⟦429⟧ = variety
+⟦430⟧ = various management positions
+⟦431⟧ = vehicle
+⟦432⟧ = vehicles
+⟦433⟧ = venture
+⟦434⟧ = Viacom
+⟦435⟧ = vice
+⟦436⟧ = vice chairman
+⟦437⟧ = vice president
+⟦438⟧ = Virgin Express
+⟦439⟧ = Virgin Express Holdings, Inc.
+⟦440⟧ = work
+⟦441⟧ = year
+⟦442⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Jim Lentz] ⟦184⟧⟨1⟩⟦345⟧⟨2⟩⟦255⟧⟨3⟩⟦412⟧⟨4⟩⟦274⟧⟨5⟩⟦274⟧⟨6⟩⟦80⟧⟨7⟩⟦257⟧⟨8⟩⟦255⟧⟨9⟩⟦410⟧⟨10⟩⟦163⟧⟨11⟩⟦399⟧⟨12⟩⟦20⟧⟨13⟩⟦255⟧⟨14⟩⟦380⟧⟨15⟩⟦266⟧⟨16⟩⟦91⟧⟨17⟩⟦407⟧⟨18⟩⟦400⟧⟨19⟩⟦183⟧⟨20⟩
+[Jim Lentz] ⟨21⟩⟦330⟧⟨22⟩⟦291⟧⟨23⟩⟦195⟧⟨24⟩⟦413⟧⟨25⟩⟦28⟧⟨26⟩⟦90⟧⟨27⟩⟦399⟧⟨28⟩⟦411⟧⟨29⟩⟦425⟧⟨30⟩⟦163⟧⟨31⟩⟦402⟧⟨32⟩⟦408⟧⟨33⟩⟦212⟧⟨34⟩⟦250⟧⟨35⟩⟦163⟧⟨36⟩⟦325⟧⟨37⟩⟦287⟧⟨38⟩⟦287⟧⟨39⟩⟦409⟧⟨40⟩⟦401⟧⟨41⟩⟦265⟧⟨42⟩⟦265⟧⟨43⟩⟦405⟧⟨44⟩⟦163⟧⟨45⟩
+[Jim Lentz] ⟨46⟩⟦304⟧⟨47⟩⟦271⟧⟨48⟩⟦131⟧⟨49⟩⟦133⟧⟨50⟩⟦414⟧⟨51⟩⟦211⟧⟨52⟩⟦292⟧⟨53⟩⟦293⟧⟨54⟩⟦24⟧⟨55⟩⟦211⟧⟨56⟩⟦421⟧⟨57⟩⟦422⟧⟨58⟩⟦292⟧⟨59⟩⟦323⟧⟨60⟩⟦228⟧⟨61⟩
+[Jim Lentz] ⟦195⟧⟨62⟩⟦404⟧⟨63⟩⟦373⟧⟨64⟩⟦229⟧⟨65⟩⟦211⟧⟨66⟩⟦179⟧⟨67⟩⟦261⟧⟨68⟩⟦283⟧⟨69⟩⟦350⟧⟨70⟩⟦118⟧⟨71⟩⟦211⟧⟨72⟩⟦131⟧⟨73⟩⟦132⟧⟨74⟩⟦259⟧⟨75⟩⟦211⟧⟨76⟩
+[Jim Lentz] ⟨77⟩⟦74⟧⟨78⟩⟦74⟧⟨79⟩⟦337⟧⟨80⟩⟦56⟧⟨81⟩⟦117⟧⟨82⟩⟦117⟧⟨83⟩⟦361⟧⟨84⟩⟦15⟧⟨85⟩⟦228⟧⟨86⟩⟦352⟧⟨87⟩⟦27⟧⟨88⟩⟦56⟧⟨89⟩⟦106⟧⟨90⟩⟦60⟧⟨91⟩⟦395⟧⟨92⟩⟦113⟧⟨93⟩⟦121⟧⟨94⟩⟦33⟧⟨95⟩⟦223⟧⟨96⟩
+[Jim Lentz] ⟨97⟩⟦2⟧⟨98⟩⟦396⟧⟨99⟩⟦25⟧⟨100⟩⟦39⟧⟨101⟩⟦1⟧⟨102⟩⟦165⟧⟨103⟩⟦396⟧⟨104⟩⟦441⟧⟨105⟩
+[Jim Lentz] ⟦195⟧⟨106⟩⟦343⟧⟨107⟩⟦74⟧⟨108⟩⟦378⟧⟨109⟩
+[Jim Lentz] ⟨110⟩⟦389⟧⟨111⟩⟦190⟧⟨112⟩⟦334⟧⟨113⟩⟦28⟧⟨114⟩⟦90⟧⟨115⟩
+[Jim Lentz] ⟨116⟩⟦195⟧⟨117⟩⟦382⟧⟨118⟩⟦274⟧⟨119⟩⟦78⟧⟨120⟩⟦255⟧⟨121⟩⟦402⟧⟨122⟩⟦299⟧⟨123⟩⟦435⟧⟨124⟩⟦274⟧⟨125⟩⟦399⟧⟨126⟩⟦10⟧⟨127⟩⟦66⟧⟨128⟩⟦372⟧⟨129⟩⟦255⟧⟨130⟩⟦400⟧⟨131⟩
+[Jim Lentz] ⟨132⟩⟦274⟧⟨133⟩⟦274⟧⟨134⟩⟦80⟧⟨135⟩⟦257⟧⟨136⟩⟦255⟧⟨137⟩⟦128⟧⟨138⟩⟦435⟧⟨139⟩⟦274⟧⟨140⟩⟦402⟧⟨141⟩
+[Jim Lentz] ⟦195⟧⟨142⟩⟦303⟧⟨143⟩⟦271⟧⟨144⟩⟦406⟧⟨145⟩⟦120⟧⟨146⟩⟦142⟧⟨147⟩⟦435⟧⟨148⟩⟦274⟧⟨149⟩⟦138⟧⟨150⟩⟦211⟧⟨151⟩⟦32⟧⟨152⟩⟦292⟧⟨153⟩⟦200⟧⟨154⟩⟦200⟧⟨155⟩⟦214⟧⟨156⟩⟦215⟧⟨157⟩⟦23⟧⟨158⟩⟦404⟧⟨159⟩⟦296⟧⟨160⟩⟦296⟧⟨161⟩⟦284⟧⟨162⟩⟦292⟧⟨163⟩⟦256⟧⟨164⟩⟦119⟧⟨165⟩⟦119⟧⟨166⟩
+[Jim Lentz] ⟨167⟩⟦362⟧⟨168⟩⟦142⟧⟨169⟩⟦435⟧⟨170⟩⟦274⟧⟨171⟩⟦214⟧⟨172⟩⟦214⟧⟨173⟩⟦390⟧⟨174⟩⟦120⟧⟨175⟩⟦435⟧⟨176⟩⟦437⟧⟨177⟩⟦274⟧⟨178⟩⟦296⟧⟨179⟩⟦366⟧⟨180⟩⟦188⟧⟨181⟩⟦16⟧⟨182⟩⟦198⟧⟨183⟩⟦432⟧⟨184⟩⟦432⟧⟨185⟩
+[Jim Lentz] ⟦195⟧⟨186⟩⟦305⟧⟨187⟩⟦442⟧⟨188⟩⟦353⟧⟨189⟩⟦131⟧⟨190⟩⟦435⟧⟨191⟩⟦437⟧⟨192⟩⟦274⟧⟨193⟩⟦138⟧⟨194⟩⟦211⟧⟨195⟩⟦371⟧⟨196⟩⟦283⟧⟨197⟩⟦329⟧⟨198⟩⟦211⟧⟨199⟩⟦385⟧⟨200⟩⟦283⟧⟨201⟩
+[Jim Lentz] ⟨202⟩⟦148⟧⟨203⟩⟦291⟧⟨204⟩⟦139⟧⟨205⟩⟦211⟧⟨206⟩⟦435⟧⟨207⟩⟦437⟧⟨208⟩⟦274⟧⟨209⟩⟦214⟧⟨210⟩⟦216⟧⟨211⟩⟦302⟧⟨212⟩⟦69⟧⟨213⟩⟦217⟧⟨214⟩
+[Bobby Mehta] ⟦306⟧⟨215⟩⟦307⟧⟨216⟩⟦136⟧⟨217⟩⟦73⟧⟨218⟩⟦435⟧⟨219⟩⟦436⟧⟨220⟩⟦74⟧⟨221⟩⟦159⟧⟨222⟩
+[Bobby Mehta] ⟦227⟧⟨223⟩⟦36⟧⟨224⟩⟦416⟧⟨225⟩⟦111⟧⟨226⟩
+[Bobby Mehta] ⟦227⟧⟨227⟩⟦78⟧⟨228⟩⟦255⟧⟨229⟩⟦159⟧⟨230⟩⟦130⟧⟨231⟩
+[Bobby Mehta] ⟦227⟧⟨232⟩⟦93⟧⟨233⟩⟦93⟧⟨234⟩⟦416⟧⟨235⟩⟦224⟧⟨236⟩⟦186⟧⟨237⟩
+[Bobby Mehta] ⟦227⟧⟨238⟩⟦142⟧⟨239⟩⟦144⟧⟨240⟩⟦116⟧⟨241⟩⟦158⟧⟨242⟩⟦154⟧⟨243⟩⟦46⟧⟨244⟩⟦181⟧⟨245⟩⟦255⟧⟨246⟩⟦213⟧⟨247⟩
+[Bobby Mehta] ⟨248⟩⟦344⟧⟨249⟩⟦126⟧⟨250⟩⟦152⟧⟨251⟩⟦154⟧⟨252⟩⟦213⟧⟨253⟩⟦130⟧⟨254⟩
+[Bobby Mehta] ⟨255⟩⟦40⟧⟨256⟩⟦74⟧⟨257⟩⟦157⟧⟨258⟩⟦46⟧⟨259⟩⟦175⟧⟨260⟩⟦255⟧⟨261⟩⟦46⟧⟨262⟩⟦130⟧⟨263⟩
+[Bobby Mehta] ⟨264⟩⟦345⟧⟨265⟩⟦255⟧⟨266⟩⟦153⟧⟨267⟩⟦241⟧⟨268⟩⟦130⟧⟨269⟩
+[Bobby Mehta] ⟨270⟩⟦345⟧⟨271⟩⟦255⟧⟨272⟩⟦160⟧⟨273⟩⟦213⟧⟨274⟩
+[Bobby Mehta] ⟨275⟩⟦74⟧⟨276⟩⟦74⟧⟨277⟩⟦78⟧⟨278⟩⟦255⟧⟨279⟩⟦156⟧⟨280⟩⟦207⟧
+[Bobby Mehta] ⟨281⟩⟦161⟧⟨282⟩⟦102⟧⟨283⟩⟦67⟧⟨284⟩⟦302⟧⟨285⟩⟦178⟧⟨286⟩⟦95⟧⟨287⟩⟦194⟧⟨288⟩⟦237⟧⟨289⟩⟦302⟧⟨290⟩⟦63⟧⟨291⟩⟦176⟧⟨292⟩⟦237⟧⟨293⟩⟦258⟧⟨294⟩
+[Bobby Mehta] ⟨295⟩⟦100⟧⟨296⟩⟦214⟧⟨297⟩⟦318⟧⟨298⟩⟦270⟧⟨299⟩⟦99⟧⟨300⟩⟦115⟧⟨301⟩⟦160⟧⟨302⟩⟦288⟧⟨303⟩⟦288⟧⟨304⟩⟦388⟧⟨305⟩⟦210⟧⟨306⟩⟦102⟧⟨307⟩⟦104⟧⟨308⟩⟦68⟧⟨309⟩⟦363⟧⟨310⟩
+[Bobby Mehta] ⟦227⟧⟨311⟩⟦93⟧⟨312⟩⟦93⟧⟨313⟩⟦416⟧⟨314⟩
+[Bobby Mehta] ⟦227⟧⟨315⟩⟦142⟧⟨316⟩⟦143⟧⟨317⟩⟦126⟧⟨318⟩⟦103⟧⟨319⟩⟦51⟧⟨320⟩⟦65⟧⟨321⟩⟦151⟧⟨322⟩⟦186⟧⟨323⟩
+[Bobby Mehta] ⟨324⟩⟦221⟧⟨325⟩⟦283⟧⟨326⟩⟦56⟧⟨327⟩⟦213⟧⟨328⟩
+[Bobby Mehta] ⟦227⟧⟨329⟩⟦151⟧⟨330⟩
+[Bobby Mehta] ⟨331⟩⟦299⟧⟨332⟩⟦435⟧⟨333⟩⟦274⟧⟨334⟩⟦340⟧⟨335⟩⟦201⟧⟨336⟩⟦85⟧⟨337⟩⟦85⟧⟨338⟩⟦189⟧⟨339⟩⟦189⟧⟨340⟩⟦58⟧⟨341⟩⟦393⟧⟨342⟩
+[Bobby Mehta] ⟦227⟧⟨343⟩⟦8⟧⟨344⟩⟦116⟧⟨345⟩⟦141⟧⟨346⟩⟦218⟧⟨347⟩⟦213⟧⟨348⟩
+[Bobby Mehta] ⟨349⟩⟦426⟧⟨350⟩⟦427⟧⟨351⟩⟦74⟧⟨352⟩⟦158⟧⟨353⟩⟦173⟧⟨354⟩⟦56⟧⟨355⟩⟦228⟧⟨356⟩⟦213⟧⟨357⟩
+[Bobby Mehta] ⟨358⟩⟦435⟧⟨359⟩⟦436⟧⟨360⟩⟦74⟧⟨361⟩⟦116⟧⟨362⟩⟦116⟧⟨363⟩⟦157⟧⟨364⟩
+[Bobby Mehta] ⟨365⟩⟦8⟧⟨366⟩⟦116⟧⟨367⟩⟦52⟧⟨368⟩⟦111⟧⟨369⟩
+[Bobby Mehta] ⟨370⟩⟦41⟧⟨371⟩⟦116⟧⟨372⟩⟦335⟧⟨373⟩⟦130⟧⟨374⟩
+[Bobby Mehta] ⟨375⟩⟦15⟧⟨376⟩⟦228⟧⟨377⟩⟦333⟧⟨378⟩⟦56⟧⟨379⟩⟦98⟧⟨380⟩⟦163⟧
+[Bobby Mehta] ⟨381⟩⟦345⟧⟨382⟩⟦255⟧⟨383⟩⟦274⟧⟨384⟩⟦274⟧⟨385⟩⟦416⟧⟨386⟩⟦50⟧⟨387⟩⟦111⟧⟨388⟩⟦418⟧⟨389⟩⟦111⟧⟨390⟩
+[Bobby Mehta] ⟨391⟩⟦249⟧⟨392⟩⟦116⟧⟨393⟩⟦269⟧⟨394⟩⟦46⟧⟨395⟩
+[Bobby Mehta] ⟨396⟩⟦339⟧⟨397⟩⟦57⟧⟨398⟩⟦108⟧⟨399⟩⟦77⟧⟨400⟩⟦428⟧⟨401⟩⟦76⟧⟨402⟩⟦351⟧⟨403⟩⟦75⟧⟨404⟩⟦354⟧⟨405⟩
+[Bobby Mehta] ⟨406⟩⟦8⟧⟨407⟩⟦116⟧⟨408⟩⟦417⟧⟨409⟩⟦419⟧⟨410⟩
+[Bobby Mehta] ⟨411⟩⟦8⟧⟨412⟩⟦116⟧⟨413⟩⟦219⟧⟨414⟩⟦220⟧⟨415⟩⟦213⟧⟨416⟩
+[Bobby Mehta] ⟨417⟩⟦8⟧⟨418⟩⟦116⟧⟨419⟩⟦156⟧
+[Bobby Mehta] ⟦207⟧
+[Bobby Mehta] ⟨420⟩⟦8⟧⟨421⟩⟦116⟧⟨422⟩⟦416⟧⟨423⟩⟦46⟧⟨424⟩
+[Bobby Mehta] ⟦227⟧⟨425⟩⟦337⟧⟨426⟩⟦56⟧⟨427⟩⟦170⟧⟨428⟩⟦26⟧⟨429⟩⟦374⟧⟨430⟩⟦64⟧⟨431⟩⟦167⟧⟨432⟩⟦171⟧⟨433⟩⟦15⟧⟨434⟩⟦228⟧⟨435⟩⟦355⟧⟨436⟩
+[Bobby Mehta] ⟨437⟩⟦337⟧⟨438⟩⟦56⟧⟨439⟩⟦26⟧⟨440⟩⟦26⟧⟨441⟩⟦376⟧⟨442⟩
+[Bobby Mehta] ⟦227⟧⟨443⟩⟦5⟧⟨444⟩⟦48⟧⟨445⟩⟦123⟧⟨446⟩⟦123⟧⟨447⟩⟦370⟧⟨448⟩⟦123⟧⟨449⟩⟦222⟧⟨450⟩⟦61⟧⟨451⟩⟦395⟧⟨452⟩⟦75⟧⟨453⟩
+[Bobby Mehta] ⟨454⟩⟦224⟧⟨455⟩⟦186⟧⟨456⟩⟦7⟧⟨457⟩⟦93⟧⟨458⟩⟦337⟧⟨459⟩⟦56⟧⟨460⟩⟦117⟧⟨461⟩⟦117⟧⟨462⟩⟦416⟧⟨463⟩
+[Bobby Mehta] ⟨464⟩⟦145⟧⟨465⟩⟦145⟧⟨466⟩⟦379⟧⟨467⟩⟦426⟧⟨468⟩⟦369⟧⟨469⟩⟦193⟧⟨470⟩⟦177⟧⟨471⟩⟦135⟧⟨472⟩⟦55⟧⟨473⟩⟦199⟧⟨474⟩⟦391⟧
+[Bobby Mehta] ⟨475⟩⟦164⟧⟨476⟩⟦114⟧⟨477⟩
+[Bobby Mehta] ⟨478⟩⟦345⟧⟨479⟩⟦255⟧⟨480⟩⟦274⟧⟨481⟩⟦274⟧⟨482⟩⟦416⟧⟨483⟩⟦111⟧⟨484⟩
+[Bobby Mehta] ⟨485⟩⟦345⟧⟨486⟩⟦255⟧⟨487⟩⟦419⟧⟨488⟩
+[Bobby Mehta] ⟨489⟩⟦74⟧⟨490⟩⟦74⟧⟨491⟩⟦337⟧⟨492⟩⟦56⟧⟨493⟩⟦78⟧⟨494⟩⟦255⟧⟨495⟩⟦155⟧⟨496⟩⟦46⟧⟨497⟩⟦130⟧⟨498⟩
+[Bobby Mehta] ⟨499⟩⟦78⟧⟨500⟩⟦255⟧⟨501⟩⟦274⟧⟨502⟩⟦274⟧⟨503⟩⟦419⟧⟨504⟩
+[Bobby Mehta] ⟨505⟩⟦22⟧⟨506⟩⟦429⟧⟨507⟩⟦271⟧⟨508⟩⟦271⟧⟨509⟩⟦155⟧⟨510⟩
+[Lee Roy Mitchell] ⟦192⟧⟨511⟩⟦82⟧⟨512⟩⟦175⟧⟨513⟩⟦111⟧⟨514⟩
+[Lee Roy Mitchell] ⟦240⟧⟨515⟩⟦382⟧⟨516⟩⟦84⟧⟨517⟩⟦213⟧⟨518⟩⟦78⟧⟨519⟩⟦83⟧⟨520⟩⟦111⟧⟨521⟩
+[Lee Roy Mitchell] ⟨522⟩⟦382⟧⟨523⟩⟦78⟧⟨524⟩⟦18⟧⟨525⟩⟦273⟧⟨526⟩⟦101⟧⟨527⟩
+[Lee Roy Mitchell] ⟨528⟩⟦375⟧⟨529⟩⟦239⟧⟨530⟩⟦397⟧⟨531⟩⟦60⟧⟨532⟩⟦442⟧⟨533⟩
+[Lee Roy Mitchell] ⟨534⟩⟦81⟧⟨535⟩⟦381⟧⟨536⟩⟦271⟧⟨537⟩⟦74⟧⟨538⟩⟦436⟧⟨539⟩⟦127⟧⟨540⟩⟦116⟧⟨541⟩⟦346⟧⟨542⟩⟦319⟧⟨543⟩
+[Lee Roy Mitchell] ⟨544⟩⟦8⟧⟨545⟩⟦327⟧⟨546⟩⟦245⟧⟨547⟩⟦105⟧⟨548⟩
+[Lee Roy Mitchell] ⟨549⟩⟦8⟧⟨550⟩⟦326⟧⟨551⟩⟦424⟧⟨552⟩⟦149⟧⟨553⟩⟦328⟧⟨554⟩⟦187⟧⟨555⟩⟦224⟧⟨556⟩
+[Lee Roy Mitchell] ⟨557⟩⟦337⟧⟨558⟩⟦117⟧⟨559⟩⟦377⟧⟨560⟩⟦398⟧⟨561⟩
+[Lee Roy Mitchell] ⟨562⟩⟦8⟧⟨563⟩⟦247⟧⟨564⟩⟦254⟧⟨565⟩⟦246⟧⟨566⟩⟦186⟧⟨567⟩
+[Lee Roy Mitchell] ⟨568⟩⟦8⟧⟨569⟩⟦82⟧⟨570⟩
+[SpaceDev] ⟦313⟧⟨571⟩⟦17⟧⟨572⟩⟦267⟧⟨573⟩⟦331⟧⟨574⟩⟦308⟧⟨575⟩⟦180⟧⟨576⟩⟦314⟧⟨577⟩⟦233⟧⟨578⟩⟦440⟧⟨579⟩
+[SpaceDev] ⟨580⟩⟦92⟧⟨581⟩⟦92⟧⟨582⟩⟦364⟧⟨583⟩⟦290⟧⟨584⟩⟦238⟧⟨585⟩⟦268⟧⟨586⟩⟦312⟧⟨587⟩⟦276⟧⟨588⟩⟦295⟧⟨589⟩
+[SpaceDev] ⟨590⟩⟦232⟧⟨591⟩⟦243⟧⟨592⟩⟦294⟧⟨593⟩⟦21⟧⟨594⟩⟦188⟧⟨595⟩⟦431⟧⟨596⟩⟦387⟧⟨597⟩⟦260⟧⟨598⟩⟦315⟧⟨599⟩⟦386⟧⟨600⟩⟦87⟧⟨601⟩⟦87⟧⟨602⟩⟦244⟧⟨603⟩
+[Mike Lunsford] ⟦235⟧⟨604⟩⟦345⟧⟨605⟩⟦255⟧⟨606⟩⟦309⟧⟨607⟩⟦163⟧⟨608⟩⟦392⟧⟨609⟩⟦47⟧⟨610⟩⟦309⟧⟨611⟩⟦207⟧⟨612⟩⟦12⟧⟨613⟩⟦91⟧⟨614⟩
+[Mike Lunsford] ⟨615⟩⟦358⟧⟨616⟩⟦435⟧⟨617⟩⟦274⟧⟨618⟩⟦169⟧⟨619⟩⟦255⟧⟨620⟩⟦282⟧⟨621⟩⟦357⟧⟨622⟩⟦255⟧⟨623⟩⟦289⟧⟨624⟩⟦11⟧⟨625⟩⟦433⟧⟨626⟩⟦282⟧⟨627⟩⟦434⟧⟨628⟩⟦359⟧⟨629⟩⟦274⟧⟨630⟩⟦169⟧⟨631⟩⟦255⟧⟨632⟩⟦122⟧⟨633⟩
+[Mike Lunsford] ⟨634⟩⟦122⟧⟨635⟩⟦208⟧⟨636⟩⟦7⟧⟨637⟩⟦93⟧⟨638⟩⟦45⟧⟨639⟩⟦253⟧⟨640⟩⟦75⟧⟨641⟩⟦297⟧⟨642⟩⟦209⟧⟨643⟩⟦49⟧⟨644⟩⟦13⟧⟨645⟩⟦210⟧⟨646⟩⟦94⟧⟨647⟩⟦134⟧⟨648⟩⟦281⟧⟨649⟩⟦251⟧⟨650⟩
+[Mike Lunsford] ⟨651⟩⟦44⟧⟨652⟩⟦112⟧⟨653⟩⟦14⟧⟨654⟩⟦61⟧⟨655⟩⟦3⟧⟨656⟩⟦395⟧⟨657⟩⟦251⟧⟨658⟩
+[David T. McLaughlin] ⟦110⟧⟨659⟩⟦213⟧⟨660⟩⟦50⟧⟨661⟩⟦332⟧⟨662⟩⟦107⟧⟨663⟩
+[David T. McLaughlin] ⟦226⟧⟨664⟩⟦78⟧⟨665⟩⟦255⟧⟨666⟩⟦262⟧⟨667⟩⟦111⟧⟨668⟩
+[David T. McLaughlin] ⟨669⟩⟦274⟧⟨670⟩⟦274⟧⟨671⟩⟦78⟧⟨672⟩⟦255⟧⟨673⟩⟦336⟧⟨674⟩⟦174⟧⟨675⟩⟦74⟧⟨676⟩
+[David T. McLaughlin] ⟨677⟩⟦74⟧⟨678⟩⟦74⟧⟨679⟩⟦78⟧⟨680⟩⟦255⟧⟨681⟩⟦403⟧⟨682⟩⟦430⟧⟨683⟩⟦210⟧⟨684⟩⟦271⟧⟨685⟩⟦403⟧⟨686⟩
+[David T. McLaughlin] ⟦226⟧⟨687⟩⟦8⟧⟨688⟩⟦116⟧⟨689⟩⟦70⟧⟨690⟩⟦74⟧⟨691⟩⟦74⟧⟨692⟩⟦337⟧⟨693⟩⟦56⟧⟨694⟩⟦182⟧⟨695⟩⟦341⟧⟨696⟩⟦230⟧⟨697⟩
+[David T. McLaughlin] ⟨698⟩⟦8⟧⟨699⟩⟦116⟧⟨700⟩⟦166⟧⟨701⟩⟦365⟧⟨702⟩⟦230⟧⟨703⟩
+[Jonathan G. Ornstein] ⟦185⟧⟨704⟩⟦74⟧⟨705⟩⟦78⟧⟨706⟩⟦231⟧⟨707⟩⟦163⟧⟨708⟩
+[Jonathan G. Ornstein] ⟨709⟩⟦46⟧⟨710⟩⟦347⟧⟨711⟩⟦91⟧⟨712⟩⟦78⟧⟨713⟩⟦263⟧⟨714⟩⟦274⟧⟨715⟩⟦78⟧⟨716⟩⟦74⟧⟨717⟩⟦438⟧⟨718⟩⟦9⟧⟨719⟩⟦29⟧⟨720⟩
+[Jonathan G. Ornstein] ⟨721⟩⟦46⟧⟨722⟩⟦263⟧⟨723⟩⟦78⟧⟨724⟩⟦439⟧
+[Jonathan G. Ornstein] ⟦263⟧⟨725⟩⟦97⟧⟨726⟩⟦274⟧⟨727⟩⟦78⟧⟨728⟩⟦186⟧⟨729⟩⟦252⟧⟨730⟩⟦299⟧⟨731⟩⟦30⟧⟨732⟩⟦96⟧⟨733⟩
+[Jonathan G. Ornstein] ⟦263⟧⟨734⟩⟦347⟧⟨735⟩⟦91⟧⟨736⟩⟦128⟧⟨737⟩⟦274⟧⟨738⟩⟦349⟧⟨739⟩⟦91⟧⟨740⟩⟦320⟧⟨741⟩
+[Glen Post] ⟦140⟧⟨742⟩⟦345⟧⟨743⟩⟦255⟧⟨744⟩⟦274⟧⟨745⟩⟦274⟧⟨746⟩⟦71⟧⟨747⟩⟦43⟧⟨748⟩⟦89⟧⟨749⟩⟦301⟧⟨750⟩⟦277⟧⟨751⟩⟦236⟧⟨752⟩⟦202⟧⟨753⟩
+[Glen Post] ⟨754⟩⟦6⟧⟨755⟩⟦54⟧⟨756⟩⟦112⟧⟨757⟩⟦205⟧⟨758⟩⟦42⟧⟨759⟩⟦225⟧⟨760⟩⟦203⟧⟨761⟩
+[Glen Post] ⟦146⟧⟨762⟩⟦150⟧⟨763⟩⟦204⟧⟨764⟩⟦24⟧⟨765⟩⟦62⟧⟨766⟩⟦34⟧⟨767⟩⟦34⟧⟨768⟩⟦206⟧⟨769⟩⟦197⟧⟨770⟩⟦60⟧⟨771⟩
+[Glen Post] ⟦272⟧⟨772⟩⟦72⟧⟨773⟩
+[Glen Post] ⟨774⟩⟦435⟧⟨775⟩⟦437⟧⟨776⟩⟦274⟧⟨777⟩⟦299⟧⟨778⟩⟦435⟧⟨779⟩⟦274⟧⟨780⟩⟦420⟧⟨781⟩⟦420⟧⟨782⟩
+[Glen Post] ⟨783⟩⟦342⟧⟨784⟩⟦56⟧⟨785⟩⟦117⟧⟨786⟩⟦117⟧⟨787⟩⟦356⟧⟨788⟩⟦441⟧⟨789⟩⟦299⟧⟨790⟩⟦435⟧⟨791⟩⟦274⟧⟨792⟩⟦79⟧⟨793⟩⟦255⟧⟨794⟩
+[Glen Post] ⟨795⟩⟦272⟧⟨796⟩⟦128⟧⟨797⟩⟦435⟧⟨798⟩⟦274⟧⟨799⟩⟦80⟧⟨800⟩⟦257⟧⟨801⟩⟦255⟧⟨802⟩
+[Glen Post] ⟨803⟩⟦382⟧⟨804⟩⟦274⟧⟨805⟩⟦80⟧⟨806⟩⟦255⟧⟨807⟩⟦72⟧⟨808⟩
+[Glen Post] ⟨809⟩⟦272⟧⟨810⟩⟦435⟧⟨811⟩⟦436⟧⟨812⟩⟦74⟧⟨813⟩⟦337⟧⟨814⟩⟦56⟧⟨815⟩⟦274⟧⟨816⟩⟦274⟧⟨817⟩⟦78⟧⟨818⟩⟦255⟧⟨819⟩
+[Glen Post] ⟨820⟩⟦74⟧⟨821⟩⟦74⟧⟨822⟩⟦337⟧⟨823⟩⟦56⟧⟨824⟩⟦78⟧⟨825⟩⟦255⟧⟨826⟩
+[Glen Post] ⟨827⟩⟦272⟧⟨828⟩⟦78⟧⟨829⟩⟦255⟧⟨830⟩⟦274⟧⟨831⟩⟦274⟧⟨832⟩⟦71⟧⟨833⟩
+[B. Wayne Hughes] ⟦59⟧⟨834⟩⟦360⟧⟨835⟩⟦137⟧⟨836⟩⟦74⟧⟨837⟩⟦74⟧⟨838⟩⟦279⟧⟨839⟩⟦367⟧⟨840⟩⟦298⟧⟨841⟩⟦317⟧⟨842⟩⟦91⟧⟨843⟩⟦35⟧⟨844⟩⟦60⟧⟨845⟩⟦60⟧⟨846⟩⟦19⟧⟨847⟩⟦125⟧⟨848⟩⟦172⟧⟨849⟩⟦423⟧⟨850⟩
+[B. Wayne Hughes] ⟨851⟩⟦162⟧⟨852⟩
+[B. Wayne Hughes] ⟨853⟩⟦31⟧⟨854⟩⟦196⟧⟨855⟩⟦147⟧⟨856⟩⟦242⟧⟨857⟩⟦53⟧⟨858⟩⟦348⟧⟨859⟩⟦91⟧⟨860⟩⟦86⟧⟨861⟩⟦252⟧⟨862⟩⟦74⟧⟨863⟩⟦337⟧⟨864⟩⟦311⟧⟨865⟩
+[B. Wayne Hughes] ⟨866⟩⟦78⟧⟨867⟩⟦252⟧⟨868⟩⟦74⟧⟨869⟩⟦337⟧⟨870⟩
+[B. Wayne Hughes] ⟨871⟩⟦74⟧⟨872⟩⟦338⟧⟨873⟩⟦213⟧⟨874⟩⟦280⟧⟨875⟩⟦163⟧⟨876⟩⟦278⟧⟨877⟩⟦163⟧⟨878⟩⟦37⟧⟨879⟩⟦285⟧⟨880⟩
+[B. Wayne Hughes] ⟨881⟩⟦384⟧⟨882⟩⟦109⟧⟨883⟩⟦230⟧⟨884⟩⟦230⟧⟨885⟩⟦74⟧⟨886⟩⟦338⟧⟨887⟩⟦4⟧⟨888⟩⟦286⟧⟨889⟩⟦347⟧⟨890⟩⟦300⟧⟨891⟩⟦224⟧⟨892⟩
+[B. Wayne Hughes] ⟨893⟩⟦383⟧⟨894⟩⟦125⟧⟨895⟩⟦172⟧⟨896⟩⟦131⟧⟨897⟩⟦264⟧⟨898⟩⟦442⟧⟨899⟩
+[Sierra Nevada Corporation] ⟦308⟧⟨900⟩⟦310⟧⟨901⟩⟦38⟧⟨902⟩⟦321⟧⟨903⟩⟦277⟧⟨904⟩⟦321⟧⟨905⟩⟦322⟧⟨906⟩⟦168⟧⟨907⟩⟦234⟧⟨908⟩⟦234⟧⟨909⟩⟦324⟧⟨910⟩⟦324⟧⟨911⟩⟦88⟧⟨912⟩⟦415⟧⟨913⟩⟦302⟧⟨914⟩
+[Sierra Nevada Corporation] ⟦308⟧⟨915⟩⟦368⟧⟨916⟩⟦191⟧⟨917⟩⟦78⟧⟨918⟩⟦129⟧⟨919⟩⟦274⟧⟨920⟩⟦124⟧⟨921⟩
+[Sierra Nevada Corporation] ⟦347⟧⟨922⟩⟦91⟧⟨923⟩⟦394⟧⟨924⟩⟦244⟧⟨925⟩⟦275⟧⟨926⟩⟦314⟧⟨927⟩⟦90⟧⟨928⟩
+[Sierra Nevada Corporation] ⟨929⟩⟦316⟧⟨930⟩⟦248⟧⟨931⟩
+
+[user]
+
+问题：
+Who is the Chief Executive Officer of the corporation that owns Space Dev?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

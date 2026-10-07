@@ -1,0 +1,102 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Josh Powell] ⟦99⟧⟨454⟩⟦18⟧⟦29⟧⟨456⟩⟦128⟧⟨455⟩⟨457⟩⟦251⟧⟨458⟩⟦201⟧⟨459⟩⟦114⟧⟨460⟩
+[Josh Powell] ⟨461⟩⟦253⟧⟦33⟧⟨462⟩⟨463⟩⟦205⟧⟨464⟩⟦249⟧⟦249⟧⟨465⟩⟨466⟩⟦184⟧⟨467⟩⟦92⟧⟨468⟩⟦28⟧⟨469⟩⟦111⟧⟨470⟩⟦79⟧⟨471⟩⟦90⟧⟨472⟩
+[Josh Powell] ⟦132⟧ | ⟨473⟩⟦132⟧⟨474⟩⟦9⟧⟦118⟧⟨475⟩⟨476⟩⟦216⟧⟦151⟧⟨477⟩⟨478⟩⟦187⟧⟦32⟧⟨479⟩⟨480⟩
+[Josh Powell] ⟨481⟩⟦143⟧⟨482⟩⟦95⟧⟨483⟩⟦27⟧⟨484⟩⟦135⟧⟨485⟩⟦37⟧⟨486⟩⟦219⟧⟨487⟩
+
+符号表：
+⟦9⟧ = a member
+⟦18⟧ = an American professional basketball player
+⟦27⟧ = Argentina
+⟦28⟧ = Atlanta Hawks
+⟦29⟧ = basketball
+⟦32⟧ = championship
+⟦33⟧ = championships
+⟦37⟧ = China
+⟦79⟧ = Golden State Warriors
+⟦90⟧ = Houston Rockets
+⟦92⟧ = Indiana Pacers
+⟦95⟧ = Italy
+⟦99⟧ = Josh Powell
+⟦111⟧ = Los Angeles Clippers
+⟦114⟧ = LPB
+⟦118⟧ = member
+⟦128⟧ = player
+⟦132⟧ = Powell
+⟦135⟧ = Puerto Rico
+⟦143⟧ = Russia
+⟦151⟧ = side
+⟦184⟧ = the Dallas Mavericks
+⟦187⟧ = the EuroLeague championship
+⟦201⟧ = the Liga Profesional de Baloncesto
+⟦205⟧ = the Los Angeles Lakers
+⟦216⟧ = the Olympiacos side
+⟦219⟧ = the Philippines
+⟦249⟧ = time
+⟦251⟧ = Trotamundos de Carabobo
+⟦253⟧ = two NBA championships
+
+占位符映射：
+⟨454⟩ =  (born January 25, 1983) is 
+⟨455⟩ = 
+⟨456⟩ =  
+⟨457⟩ =  for 
+⟨458⟩ =  of 
+⟨459⟩ =  (
+⟨460⟩ = ).
+⟨461⟩ =  won 
+⟨462⟩ = 
+⟨463⟩ =  with 
+⟨464⟩ =  in 2009 and 2010, and has also spent 
+⟨465⟩ = 
+⟨466⟩ =  with 
+⟨467⟩ = , 
+⟨468⟩ = , 
+⟨469⟩ = , 
+⟨470⟩ = , 
+⟨471⟩ =  and 
+⟨472⟩ = .
+⟨473⟩ =  In 2013, 
+⟨474⟩ =  was 
+⟨475⟩ = 
+⟨476⟩ =  of 
+⟨477⟩ = 
+⟨478⟩ =  that won 
+⟨479⟩ = 
+⟨480⟩ = .
+⟨481⟩ =  He has also played in 
+⟨482⟩ = , 
+⟨483⟩ = , 
+⟨484⟩ = , 
+⟨485⟩ = , 
+⟨486⟩ =  and 
+⟨487⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What year was the player the Los Angeles Clippers aquired from the Atlanta Hawks born?

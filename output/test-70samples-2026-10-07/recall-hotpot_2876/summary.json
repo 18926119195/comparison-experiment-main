@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_2876",
+  "question": "Who is the Chief Executive Officer of the corporation that owns Space Dev?",
+  "expectedAnswer": "Fatih Ozmen",
+  "predictedAnswer": "# 路径一：通过所有权链直接定位 CEO\n\n步骤1：使用⟦313⟧，提取 SpaceDev 这一实体，确认其为问题中提到的 \"Space Dev\"。\n步骤2：综合⟦313⟧⟦331⟧⟦180⟧，SpaceDev 的 \"spaceflight and microsatellite work\" 属于 \"Space Systems Business\" 板块，而该板块的归属指向 Sierra Nevada Corporation。\n步骤3：使用⟦308⟧，确认 Sierra Nevada Corporation 是拥有 SpaceDev 的母公司。\n步骤4：综合⟦78⟧⟦124⟧⟦129⟧，提取 Sierra Nevada Corporation 的 CEO 信息，即 Eren Ozmen 和 Fatih Ozmen 共同担任该职务。\n\n结论：SpaceDev 的母公司 Sierra Nevada Corporation 的 CEO 是 Eren Ozmen 和 Fatih Ozmen（两人共同担任）。\n\n# 路径二：通过 SNC 领导层交叉验证\n\n步骤1：使用⟦310⟧，提取 SNC 这一缩写，确认其与 Sierra Nevada Corporation 的对应关系。\n步骤2：综合⟦308⟧⟦310⟧⟦191⟧⟦368⟧，SNC 即 Sierra Nevada Corporation，其 leadership 信息在材料中多次出现。\n步骤3：综合⟦124⟧⟦129⟧⟦274⟧，提取领导层具体人物：Eren Ozmen 担任 president，Fatih Ozmen 也在领导层中，两人均为 CEO。\n步骤4：使用⟦313⟧，确认 SpaceDev 被 Sierra Nevada Corporation 拥有，从而将 CEO 归属到 SNC 的领导层。\n\n结论：通过 SNC 领导层信息交叉验证，SpaceDev 所属公司的 CEO 为 Eren Ozmen 和 Fatih Ozmen。\n\n# 路径三：通过业务整合关系反推所有权\n\n步骤1：使用⟦313⟧，提取 SpaceDev 作为 \"a part\" 的身份。\n步骤2：综合⟦267⟧⟦331⟧⟦180⟧，SpaceDev 是 \"the Space Systems Business\" 的一部分，而该业务板块的 \"spaceflight and microsatellite work\" 与 Sierra Nevada Corporation 的业务描述一致。\n步骤3：综合⟦308⟧⟦314⟧，Sierra Nevada Corporation 的业务涵盖 spaceflight，与 SpaceDev 的业务直接对应，确认所有权关系。\n步骤4：使用⟦78⟧，提取 Sierra Nevada Corporation 的 CEO 为 Eren Ozmen 和 Fatih Ozmen。\n\n结论：通过业务整合关系反推，SpaceDev 属于 Sierra Nevada Corporation，其 CEO 为 Eren Ozmen 和 Fatih Ozmen。\n\n# 路径四：通过材料中的直接陈述确认\n\n步骤1：使用⟦313⟧，提取 SpaceDev 实体。\n步骤2：综合⟦308⟧⟦331⟧，材料中明确将 SpaceDev 与 Sierra Nevada Corporation 的 \"Space Systems Business\" 关联。\n步骤3：使用⟦78⟧，直接提取 Sierra Nevada Corporation 的 CEO 信息。\n步骤4：综合⟦124⟧⟦129⟧，确认 CEO 的具体姓名为 Eren Ozmen 和 Fatih Ozmen。\n\n结论：综合多条材料直接陈述，SpaceDev 所属公司 Sierra Nevada Corporation 的 CEO 是 Eren Ozmen 和 Fatih Ozmen。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦313⟧⟨571⟩⟦17⟧⟦267⟧⟨572⟩⟨573⟩⟦331⟧⟨574⟩⟨575⟩⟦180⟧⟨577⟩⟦233⟧",
+  "nounCount": 865,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 12336,
+    "completion_tokens": 250,
+    "total_tokens": 12586,
+    "prompt_tokens_details": {
+      "cached_tokens": 12160
+    },
+    "prompt_cache_hit_tokens": 12160,
+    "prompt_cache_miss_tokens": 176
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 942,
+    "completion_tokens": 729,
+    "total_tokens": 1671,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 942
+  }
+}

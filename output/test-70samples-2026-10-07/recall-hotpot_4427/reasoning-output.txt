@@ -1,0 +1,31 @@
+# 路径一：直接身份验证
+
+步骤1：使用⟦118⟧，提取 Michael Carl Bryan 的身份信息，结合占位符⟨118⟩可知其全名为 Mike Bryan，出生于1978年4月29日。
+
+步骤2：使用⟦34⟧，提取其职业身份为 "an American professional tennis player"（美国职业网球运动员）。
+
+步骤3：使用⟦151⟧，提取 Raymond Owen "Ray" Ruffels 的全名信息，结合占位符⟨176⟩可知其出生于1946年3月23日于悉尼。
+
+步骤4：使用⟦36⟧，提取其职业身份为 "an Australian former professional tennis player"（澳大利亚前职业网球运动员）。
+
+结论：Mike Bryan 是职业网球运动员，Ray Ruffels 也是职业网球运动员，两人均为网球运动员。
+
+# 路径二：交叉验证职业类别
+
+步骤1：使用⟦142⟧，提取 "player"（运动员）这一职业标签，该标签同时出现在 Mike Bryan 和 Ray Ruffels 的拓扑链中。
+
+步骤2：综合⟦174⟧，提取 "tennis"（网球）这一运动项目标签，该标签在 Tennis New Zealand 相关条目中出现，与网球运动直接关联。
+
+步骤3：综合⟦34⟧⟦36⟧，对比两人身份描述：Mike Bryan 为 "American professional tennis player"，Ray Ruffels 为 "Australian former professional tennis player"，两者均包含 "tennis player" 核心词组。
+
+结论：通过职业标签⟦142⟧和运动项目⟦174⟧的交叉验证，确认两人共享 "tennis player" 这一身份特征。
+
+# 路径三：国籍与职业状态对比
+
+步骤1：使用⟦34⟧，提取 Mike Bryan 的国籍为美国（American），职业状态为现役职业（professional）。
+
+步骤2：使用⟦36⟧，提取 Ray Ruffels 的国籍为澳大利亚（Australian），职业状态为前职业（former professional）。
+
+步骤3：综合⟦34⟧⟦36⟧，对比两人差异：国籍不同（美国 vs 澳大利亚），职业状态不同（现役 vs 退役），但共同点为均为 "tennis player"。
+
+结论：尽管国籍和职业阶段存在差异，但两人的核心职业身份一致，均为网球运动员。

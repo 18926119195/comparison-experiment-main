@@ -1,0 +1,296 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Andre
+⟦2⟧ = "Banjo Paterson's The Man
+⟦3⟧ = "Cheetah
+⟦4⟧ = "Gross Misconduct
+⟦5⟧ = "Phar Lap
+⟦6⟧ = "Saltbush Bill
+⟦7⟧ = "The Man
+⟦8⟧ = (English
+⟦9⟧ = 170 kilometres
+⟦10⟧ = 26 April
+⟦11⟧ = a 1982 Australian drama film
+⟦12⟧ = a 1988 Australian drama film
+⟦13⟧ = a 2016 Indian Hindi-language biographical sports drama film
+⟦14⟧ = a cast
+⟦15⟧ = a character
+⟦16⟧ = a dual role
+⟦17⟧ = a famous dispute
+⟦18⟧ = a number
+⟦19⟧ = a partly unsealed alpine road
+⟦20⟧ = a poem
+⟦21⟧ = a silver medal
+⟦22⟧ = a total distance
+⟦23⟧ = a well-known Australian composer
+⟦24⟧ = Aamir Khan
+⟦25⟧ = Aamir Khan Productions
+⟦26⟧ = adventure
+⟦27⟧ = album
+⟦28⟧ = alpine
+⟦29⟧ = amounts
+⟦30⟧ = an amateur wrestler
+⟦31⟧ = an Australian adventure drama television series
+⟦32⟧ = an Australian news magazine
+⟦33⟧ = Angus
+⟦34⟧ = Aparshakti Khurana
+⟦35⟧ = Australia
+⟦36⟧ = Australian poet Banjo Paterson
+⟦37⟧ = Babita
+⟦38⟧ = Babita Kumari
+⟦39⟧ = Banjo Paterson's poem
+⟦40⟧ = border
+⟦41⟧ = Both daughters
+⟦42⟧ = Both films
+⟦43⟧ = both the United States
+⟦44⟧ = brothers
+⟦45⟧ = Bruce Rowland
+⟦46⟧ = Buchan
+⟦47⟧ = Bushfire Moon
+⟦48⟧ = campsites
+⟦49⟧ = cast
+⟦50⟧ = character
+⟦51⟧ = Chris Haywood
+⟦52⟧ = Clancy
+⟦53⟧ = class
+⟦54⟧ = collection
+⟦55⟧ = competition
+⟦56⟧ = composer
+⟦57⟧ = considerable amounts
+⟦58⟧ = cousin
+⟦59⟧ = Curly
+⟦60⟧ = Dangal
+⟦61⟧ = dangerous ice
+⟦62⟧ = daughter
+⟦63⟧ = daughters
+⟦64⟧ = dispute
+⟦65⟧ = distance
+⟦66⟧ = dozens
+⟦67⟧ = drama
+⟦68⟧ = efforts
+⟦69⟧ = father
+⟦70⟧ = Fatima Sana Shaikh
+⟦71⟧ = film
+⟦72⟧ = films
+⟦73⟧ = Geeta
+⟦74⟧ = Geeta Phogat
+⟦75⟧ = gold
+⟦76⟧ = hardback
+⟦77⟧ = Harrison
+⟦78⟧ = Harrison's daughter
+⟦79⟧ = heavy snowfalls
+⟦80⟧ = Henry Craig
+⟦81⟧ = Henry Lawson
+⟦82⟧ = his daughters
+⟦83⟧ = His other film scores
+⟦84⟧ = ice
+⟦85⟧ = Indian women
+⟦86⟧ = Ingebirah Gap
+⟦87⟧ = Ironbark
+⟦88⟧ = its 1988 sequel
+⟦89⟧ = Jack Thompson
+⟦90⟧ = Jacobs River southwards
+⟦91⟧ = Jessica
+⟦92⟧ = Jim Craig
+⟦93⟧ = Jim's father
+⟦94⟧ = Jindabyne
+⟦95⟧ = Jindabyne southwest
+⟦96⟧ = Kate
+⟦97⟧ = kg
+⟦98⟧ = kilometres
+⟦99⟧ = Kirk Douglas
+⟦100⟧ = language
+⟦101⟧ = Lightning Jack
+⟦102⟧ = magazine
+⟦103⟧ = Mahavir Singh Phogat
+⟦104⟧ = Mahavir's efforts
+⟦105⟧ = medal
+⟦106⟧ = medals
+⟦107⟧ = Melbourne
+⟦108⟧ = months
+⟦109⟧ = mother
+⟦110⟧ = motion
+⟦111⟧ = mountains
+⟦112⟧ = movie
+⟦113⟧ = news
+⟦114⟧ = Nitesh Tiwari
+⟦115⟧ = no services
+⟦116⟧ = number
+⟦117⟧ = October
+⟦118⟧ = other poems
+⟦119⟧ = Other Verses
+⟦120⟧ = Overflow
+⟦121⟧ = Paterson
+⟦122⟧ = Paterson's poems
+⟦123⟧ = picture
+⟦124⟧ = poem
+⟦125⟧ = poems
+⟦126⟧ = poet
+⟦127⟧ = rays
+⟦128⟧ = region
+⟦129⟧ = Return
+⟦130⟧ = road
+⟦131⟧ = Robertson
+⟦132⟧ = role
+⟦133⟧ = Roxanne
+⟦134⟧ = Sakshi Tanwar
+⟦135⟧ = Sanya Malhotra
+⟦136⟧ = scenery
+⟦137⟧ = scores
+⟦138⟧ = selves
+⟦139⟧ = sequel
+⟦140⟧ = series
+⟦141⟧ = services
+⟦142⟧ = Sigrid Thornton
+⟦143⟧ = silver
+⟦144⟧ = sisters
+⟦145⟧ = snowfalls
+⟦146⟧ = Snowy River
+⟦147⟧ = Snowy River II
+⟦148⟧ = Snowy River Road
+⟦149⟧ = some very remote and unspoilt wilderness
+⟦150⟧ = soundtrack
+⟦151⟧ = southwards
+⟦152⟧ = southwest
+⟦153⟧ = sports
+⟦154⟧ = Spur
+⟦155⟧ = story
+⟦156⟧ = summer
+⟦157⟧ = sun
+⟦158⟧ = television
+⟦159⟧ = Terence Donovan
+⟦160⟧ = the 1982 film
+⟦161⟧ = the 1982 movie
+⟦162⟧ = the 1988 film
+⟦163⟧ = the 2010 Commonwealth Games
+⟦164⟧ = the 2014 Glasgow Games
+⟦165⟧ = the 51 kg class
+⟦166⟧ = the 55 kg class
+⟦167⟧ = the American title
+⟦168⟧ = the Australian Alps
+⟦169⟧ = the Banjo Paterson poem
+⟦170⟧ = The Barry Way
+⟦171⟧ = the brothers
+⟦172⟧ = The Bulletin
+⟦173⟧ = The Bulletin Debate
+⟦174⟧ = The Bulletin" magazine
+⟦175⟧ = the father
+⟦176⟧ = the film
+⟦177⟧ = the first 27 kilometres
+⟦178⟧ = the first collection
+⟦179⟧ = the first Indian female wrestler
+⟦180⟧ = the Games
+⟦181⟧ = the Gippsland region
+⟦182⟧ = The Man
+⟦183⟧ = The McGregor Saga
+⟦184⟧ = the NSW/VIC border
+⟦185⟧ = the older selves
+⟦186⟧ = the Olympics
+⟦187⟧ = the original motion picture soundtrack
+⟦188⟧ = the Overflow
+⟦189⟧ = the poet's first two poems
+⟦190⟧ = the poet's widely anthologised poems
+⟦191⟧ = The road
+⟦192⟧ = The scenery
+⟦193⟧ = the sequel
+⟦194⟧ = the series
+⟦195⟧ = the sisters
+⟦196⟧ = the Snowy River Road
+⟦197⟧ = the Snowy River valley
+⟦198⟧ = the soundtrack
+⟦199⟧ = The soundtrack album
+⟦200⟧ = the story
+⟦201⟧ = the summer months
+⟦202⟧ = the sun's rays
+⟦203⟧ = the surrounding mountains
+⟦204⟧ = the TV movie
+⟦205⟧ = the United Kingdom
+⟦206⟧ = the United Kingdom title
+⟦207⟧ = the United States title
+⟦208⟧ = the Victorian border
+⟦209⟧ = the weather
+⟦210⟧ = their cousin
+⟦211⟧ = their mother
+⟦212⟧ = time
+⟦213⟧ = title
+⟦214⟧ = Tom Burlinson
+⟦215⟧ = towns
+⟦216⟧ = TV
+⟦217⟧ = UTV Motion Pictures
+⟦218⟧ = valley
+⟦219⟧ = Victoria
+⟦220⟧ = views
+⟦221⟧ = Walt Disney Pictures
+⟦222⟧ = weather
+⟦223⟧ = Weekend
+⟦224⟧ = wilderness
+⟦225⟧ = winter
+⟦226⟧ = women
+⟦227⟧ = world
+⟦228⟧ = world-class wrestlers
+⟦229⟧ = wrestler
+⟦230⟧ = wrestlers
+⟦231⟧ = Wrestling
+⟦232⟧ = Wrestling competition
+⟦233⟧ = Zeus
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Bruce Rowland] ⟦45⟧⟨1⟩⟦107⟧⟨2⟩⟦23⟧⟨3⟩⟦56⟧⟨4⟩
+[Bruce Rowland] ⟨5⟩⟦198⟧⟨6⟩⟦150⟧⟨7⟩⟦161⟧⟨8⟩⟦112⟧⟨9⟩⟦7⟧⟨10⟩⟦146⟧⟨11⟩⟦198⟧⟨12⟩⟦150⟧⟨13⟩⟦88⟧⟨14⟩⟦139⟧⟨15⟩⟦182⟧⟨16⟩⟦147⟧⟨17⟩⟦207⟧⟨18⟩⟦213⟧⟨19⟩⟦129⟧⟨20⟩⟦146⟧⟨21⟩⟦206⟧⟨22⟩⟦213⟧⟨23⟩
+[Bruce Rowland] ⟦42⟧⟨24⟩⟦72⟧⟨25⟩⟦39⟧⟨26⟩⟦124⟧⟨27⟩⟦182⟧⟨28⟩⟦146⟧⟨29⟩
+[Bruce Rowland] ⟨30⟩⟦83⟧⟨31⟩⟦71⟧⟨32⟩⟦137⟧⟨33⟩⟦5⟧⟨34⟩⟦47⟧⟨35⟩⟦3⟧⟨36⟩⟦223⟧⟨37⟩⟦223⟧⟨38⟩⟦96⟧⟨39⟩⟦4⟧⟨40⟩⟦1⟧⟨41⟩⟦101⟧⟨42⟩⟦233⟧⟨43⟩⟦133⟧⟨44⟩⟦204⟧⟨45⟩⟦216⟧⟨46⟩⟦112⟧⟨47⟩
+[The Man from Snowy River (soundtrack)] ⟨48⟩⟦182⟧⟨49⟩⟦146⟧⟨50⟩⟦187⟧⟨51⟩⟦110⟧⟨52⟩⟦123⟧⟨53⟩⟦150⟧⟨54⟩⟦160⟧⟨55⟩⟦71⟧⟨56⟩⟦7⟧⟨57⟩⟦146⟧⟨58⟩
+[Dangal (film)] ⟦60⟧⟨59⟩⟦8⟧⟨60⟩⟦231⟧⟨61⟩⟦232⟧⟨62⟩⟦55⟧⟨63⟩⟦13⟧⟨64⟩⟦100⟧⟨65⟩⟦153⟧⟨66⟩⟦67⟧⟨67⟩⟦71⟧⟨68⟩⟦200⟧⟨69⟩⟦155⟧⟨70⟩⟦103⟧⟨71⟩⟦30⟧⟨72⟩⟦229⟧⟨73⟩⟦82⟧⟨74⟩⟦63⟧⟨75⟩⟦74⟧⟨76⟩⟦38⟧⟨77⟩⟦227⟧⟨78⟩⟦228⟧⟨79⟩⟦53⟧⟨80⟩⟦230⟧⟨81⟩
+[Dangal (film)] ⟨82⟩⟦114⟧⟨83⟩
+[Dangal (film)] ⟨84⟩⟦221⟧⟨85⟩⟦25⟧⟨86⟩⟦217⟧⟨87⟩⟦24⟧⟨88⟩⟦175⟧⟨89⟩⟦69⟧⟨90⟩
+[Dangal (film)] ⟦41⟧⟨91⟩⟦63⟧⟨92⟩⟦106⟧⟨93⟩⟦106⟧⟨94⟩⟦163⟧⟨95⟩
+[Dangal (film)] ⟦37⟧⟨96⟩⟦21⟧⟨97⟩⟦143⟧⟨98⟩⟦105⟧⟨99⟩⟦180⟧⟨100⟩⟦165⟧⟨101⟩⟦97⟧⟨102⟩⟦53⟧⟨103⟩⟦75⟧⟨104⟩⟦75⟧⟨105⟩⟦164⟧⟨106⟩⟦166⟧⟨107⟩⟦97⟧⟨108⟩⟦53⟧⟨109⟩
+[Dangal (film)] ⟨110⟩⟦73⟧⟨111⟩⟦179⟧⟨112⟩⟦229⟧⟨113⟩⟦186⟧⟨114⟩
+[Dangal (film)] ⟦104⟧⟨115⟩⟦68⟧⟨116⟩⟦66⟧⟨117⟩⟦66⟧⟨118⟩⟦85⟧⟨119⟩⟦226⟧⟨120⟩⟦231⟧⟨121⟩⟦231⟧⟨122⟩
+[Dangal (film)] ⟦70⟧⟨123⟩⟦135⟧⟨124⟩⟦185⟧⟨125⟩⟦138⟧⟨126⟩⟦195⟧⟨127⟩⟦144⟧⟨128⟩⟦134⟧⟨129⟩⟦211⟧⟨130⟩⟦109⟧⟨131⟩⟦34⟧⟨132⟩⟦210⟧⟨133⟩⟦58⟧⟨134⟩
+[Return to Snowy River] ⟨135⟩⟦146⟧⟨136⟩⟦187⟧⟨137⟩⟦110⟧⟨138⟩⟦123⟧⟨139⟩⟦150⟧⟨140⟩⟦162⟧⟨141⟩⟦71⟧⟨142⟩⟦7⟧⟨143⟩⟦147⟧⟨144⟩
+[Return to Snowy River] ⟦199⟧⟨145⟩⟦150⟧⟨146⟩⟦27⟧⟨147⟩⟦167⟧⟨148⟩⟦213⟧⟨149⟩⟦176⟧⟨150⟩⟦71⟧⟨151⟩
+[Barry Way] ⟦170⟧⟨152⟩⟦19⟧⟨153⟩⟦28⟧⟨154⟩⟦130⟧⟨155⟩⟦95⟧⟨156⟩⟦152⟧⟨157⟩⟦208⟧⟨158⟩⟦40⟧⟨159⟩⟦196⟧⟨160⟩
+[Barry Way] ⟨161⟩⟦46⟧⟨162⟩⟦22⟧⟨163⟩⟦65⟧⟨164⟩⟦9⟧⟨165⟩⟦98⟧⟨166⟩⟦115⟧⟨167⟩⟦141⟧⟨168⟩⟦215⟧⟨169⟩⟦215⟧⟨170⟩
+[Barry Way] ⟨171⟩⟦177⟧⟨172⟩⟦98⟧⟨173⟩⟦94⟧⟨174⟩⟦86⟧⟨175⟩⟦208⟧⟨176⟩⟦40⟧⟨177⟩
+[Barry Way] ⟦191⟧⟨178⟩⟦130⟧⟨179⟩⟦149⟧⟨180⟩⟦224⟧⟨181⟩⟦168⟧⟨182⟩
+[Barry Way] ⟦192⟧⟨183⟩⟦136⟧⟨184⟩⟦191⟧⟨185⟩⟦130⟧⟨186⟩⟦220⟧⟨187⟩⟦220⟧⟨188⟩⟦197⟧⟨189⟩⟦218⟧⟨190⟩⟦203⟧⟨191⟩⟦111⟧⟨192⟩
+[Barry Way] ⟨193⟩⟦18⟧⟨194⟩⟦116⟧⟨195⟩⟦48⟧⟨196⟩⟦48⟧⟨197⟩⟦191⟧⟨198⟩⟦130⟧⟨199⟩⟦90⟧⟨200⟩⟦151⟧⟨201⟩
+[Barry Way] ⟨202⟩⟦201⟧⟨203⟩⟦156⟧⟨204⟩⟦108⟧⟨205⟩⟦209⟧⟨206⟩⟦222⟧⟨207⟩⟦170⟧⟨208⟩⟦202⟧⟨209⟩⟦157⟧⟨210⟩⟦127⟧⟨211⟩⟦225⟧⟨212⟩⟦225⟧⟨213⟩⟦191⟧⟨214⟩⟦130⟧⟨215⟩⟦57⟧⟨216⟩⟦29⟧⟨217⟩⟦212⟧⟨218⟩⟦212⟧⟨219⟩⟦79⟧⟨220⟩⟦145⟧⟨221⟩⟦61⟧⟨222⟩⟦84⟧⟨223⟩
+[Barry Way] ⟨224⟩⟦184⟧⟨225⟩⟦40⟧⟨226⟩⟦170⟧⟨227⟩⟦148⟧⟨228⟩⟦181⟧⟨229⟩⟦128⟧⟨230⟩⟦219⟧⟨231⟩
+[The Man from Snowy River (poem)] ⟨232⟩⟦182⟧⟨233⟩⟦146⟧⟨234⟩⟦20⟧⟨235⟩⟦124⟧⟨236⟩⟦126⟧⟨237⟩
+[The Man from Snowy River (poem)] ⟨238⟩⟦172⟧⟨239⟩⟦32⟧⟨240⟩⟦113⟧⟨241⟩⟦102⟧⟨242⟩⟦10⟧⟨243⟩⟦33⟧⟨244⟩⟦131⟧⟨245⟩⟦117⟧⟨246⟩⟦118⟧⟨247⟩⟦125⟧⟨248⟩⟦121⟧⟨249⟩⟦182⟧⟨250⟩⟦146⟧⟨251⟩⟦119⟧⟨252⟩
+[The Man from Snowy River and Other Verses] ⟦182⟧⟨253⟩⟦146⟧⟨254⟩⟦119⟧⟨255⟩⟦178⟧⟨256⟩⟦54⟧⟨257⟩⟦125⟧⟨258⟩⟦125⟧⟨259⟩⟦36⟧⟨260⟩⟦126⟧⟨261⟩
+[The Man from Snowy River and Other Verses] ⟨262⟩⟦76⟧⟨263⟩⟦76⟧⟨264⟩⟦33⟧⟨265⟩⟦131⟧⟨266⟩⟦190⟧⟨267⟩⟦126⟧⟨268⟩⟦125⟧⟨269⟩⟦182⟧⟨270⟩⟦146⟧⟨271⟩⟦52⟧⟨272⟩⟦188⟧⟨273⟩⟦120⟧⟨274⟩⟦6⟧⟨275⟩⟦7⟧⟨276⟩⟦87⟧⟨277⟩
+[The Man from Snowy River and Other Verses] ⟨278⟩⟦189⟧⟨279⟩⟦126⟧⟨280⟩⟦125⟧⟨281⟩⟦173⟧⟨282⟩⟦17⟧⟨283⟩⟦64⟧⟨284⟩⟦174⟧⟨285⟩⟦102⟧⟨286⟩⟦121⟧⟨287⟩⟦81⟧⟨288⟩
+[The Man from Snowy River II] ⟦182⟧⟨289⟩⟦147⟧⟨290⟩⟦12⟧⟨291⟩⟦67⟧⟨292⟩⟦71⟧⟨293⟩⟦193⟧⟨294⟩⟦139⟧⟨295⟩⟦160⟧⟨296⟩⟦71⟧⟨297⟩⟦7⟧⟨298⟩⟦146⟧⟨299⟩
+[The Man from Snowy River (TV series)] ⟦182⟧⟨300⟩⟦146⟧⟨301⟩⟦31⟧⟨302⟩⟦26⟧⟨303⟩⟦67⟧⟨304⟩⟦158⟧⟨305⟩⟦140⟧⟨306⟩⟦39⟧⟨307⟩⟦124⟧⟨308⟩⟦7⟧⟨309⟩⟦146⟧⟨310⟩
+[The Man from Snowy River (TV series)] ⟨311⟩⟦35⟧⟨312⟩⟦2⟧⟨313⟩⟦146⟧⟨314⟩⟦194⟧⟨315⟩⟦140⟧⟨316⟩⟦43⟧⟨317⟩⟦205⟧⟨318⟩⟦146⟧⟨319⟩⟦183⟧⟨320⟩
+[The Man from Snowy River (1982 film)] ⟦182⟧⟨321⟩⟦146⟧⟨322⟩⟦11⟧⟨323⟩⟦67⟧⟨324⟩⟦71⟧⟨325⟩⟦169⟧⟨326⟩⟦124⟧⟨327⟩⟦7⟧⟨328⟩⟦146⟧⟨329⟩
+[The Man from Snowy River (1982 film)] ⟦176⟧⟨330⟩⟦71⟧⟨331⟩⟦14⟧⟨332⟩⟦49⟧⟨333⟩⟦99⟧⟨334⟩⟦16⟧⟨335⟩⟦132⟧⟨336⟩⟦171⟧⟨337⟩⟦44⟧⟨338⟩⟦77⟧⟨339⟩⟦15⟧⟨340⟩⟦50⟧⟨341⟩⟦122⟧⟨342⟩⟦125⟧⟨343⟩⟦154⟧⟨344⟩⟦89⟧⟨345⟩⟦52⟧⟨346⟩⟦214⟧⟨347⟩⟦92⟧⟨348⟩⟦142⟧⟨349⟩⟦78⟧⟨350⟩⟦62⟧⟨351⟩⟦91⟧⟨352⟩⟦159⟧⟨353⟩⟦93⟧⟨354⟩⟦69⟧⟨355⟩⟦80⟧⟨356⟩⟦51⟧⟨357⟩⟦59⟧⟨358⟩
+
+[user]
+
+问题：
+Which film was produced first, Dangal or The Man from Snowy River II?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

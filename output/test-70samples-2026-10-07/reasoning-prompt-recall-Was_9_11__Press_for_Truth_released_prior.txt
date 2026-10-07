@@ -1,0 +1,70 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Chasing Coral] ⟨107⟩⟦12⟧⟨108⟩⟦43⟧
+[9/11: Press for Truth] ⟨243⟩⟨244⟩⟨245⟩⟦118⟧⟦118⟧⟦118⟧⟨246⟩⟦214⟧⟦214⟧⟨247⟩⟦11⟧⟨249⟩⟨248⟩⟨250⟩⟦186⟧⟦34⟧⟨251⟩⟨252⟩⟦201⟧⟨253⟩⟦164⟧⟨255⟩⟨254⟩⟦197⟧⟨256⟩⟦114⟧⟨257⟩
+[Jeff Orlowski] ⟦69⟧
+[Jeff Orlowski] ⟦55⟧ | ⟦55⟧
+[Catlin Seaview Survey] ⟦68⟧
+
+符号表：
+⟦11⟧ = a 2006 documentary film
+⟦12⟧ = a 2017 documentary film
+⟦34⟧ = attacks
+⟦43⟧ = Chasing Coral
+⟦55⟧ = documentary
+⟦68⟧ = film
+⟦69⟧ = filmmaker
+⟦114⟧ = Paul Thompson
+⟦118⟧ = Press
+⟦164⟧ = the American filmmaker Ray Nowosielski
+⟦186⟧ = the September 11 attacks
+⟦197⟧ = The Terror Timeline
+⟦201⟧ = the United States
+⟦214⟧ = Truth
+
+占位符映射：
+⟨107⟩ =  is 
+⟨108⟩ = 
+⟨243⟩ = 
+⟨244⟩ =  for 
+⟨245⟩ =  (also known as 
+⟨246⟩ =  for 
+⟨247⟩ = ) is 
+⟨248⟩ = 
+⟨249⟩ =  
+⟨250⟩ =  about 
+⟨251⟩ = 
+⟨252⟩ =  on 
+⟨253⟩ = , directed by 
+⟨254⟩ = 
+⟨255⟩ =  Ray Nowosielski, and partially based on "
+⟨256⟩ = ", by 
+⟨257⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Was 9/11: Press for Truth released prior to Chasing Coral?

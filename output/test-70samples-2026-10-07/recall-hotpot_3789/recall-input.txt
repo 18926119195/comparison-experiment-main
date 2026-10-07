@@ -1,0 +1,390 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "bruksmäcka
+⟦2⟧ = "Ivan Vasilyevich menyayet professiyu
+⟦3⟧ = (Armenian
+⟦4⟧ = (Leonty
+⟦5⟧ = (Russian
+⟦6⟧ = a bullying cycle
+⟦7⟧ = A common misconception
+⟦8⟧ = A convention
+⟦9⟧ = a course
+⟦10⟧ = a discussion
+⟦11⟧ = a female construction worker
+⟦12⟧ = a gathering
+⟦13⟧ = a generalized idea
+⟦14⟧ = a great strike action
+⟦15⟧ = a group
+⟦16⟧ = a means
+⟦17⟧ = a meeting
+⟦18⟧ = A mursmäcka
+⟦19⟧ = a naughty nurse
+⟦20⟧ = a nurse
+⟦21⟧ = a particular industry
+⟦22⟧ = a particular person
+⟦23⟧ = a polynomial running time
+⟦24⟧ = a poor uneducated women
+⟦25⟧ = a Russian mathematician
+⟦26⟧ = a sex symbol
+⟦27⟧ = a significant theoretical breakthrough
+⟦28⟧ = a skewed image
+⟦29⟧ = A small number
+⟦30⟧ = a Soviet comic science fiction film
+⟦31⟧ = a Soviet mathematician
+⟦32⟧ = A stereotype
+⟦33⟧ = a university undergraduate
+⟦34⟧ = a very hard but common work
+⟦35⟧ = action
+⟦36⟧ = activities
+⟦37⟧ = admission
+⟦38⟧ = advancements
+⟦39⟧ = advent
+⟦40⟧ = algorithm
+⟦41⟧ = algorithms
+⟦42⟧ = all nurses
+⟦43⟧ = an arranged place
+⟦44⟧ = an experienced lawyer
+⟦45⟧ = an extended internship
+⟦46⟧ = an historical profession
+⟦47⟧ = angel
+⟦48⟧ = apprenticeship
+⟦49⟧ = April
+⟦50⟧ = Armenian descent
+⟦51⟧ = attendees
+⟦52⟧ = attention
+⟦53⟧ = authority
+⟦54⟧ = balance
+⟦55⟧ = Bekish
+⟦56⟧ = boards
+⟦57⟧ = both branches
+⟦58⟧ = both professional conventions
+⟦59⟧ = branches
+⟦60⟧ = breakthrough
+⟦61⟧ = bruksmäcka
+⟦62⟧ = buffoon
+⟦63⟧ = bullying
+⟦64⟧ = cards
+⟦65⟧ = celebrities
+⟦66⟧ = century
+⟦67⟧ = common admission
+⟦68⟧ = common law countries
+⟦69⟧ = Common stereotypes
+⟦70⟧ = communities
+⟦71⟧ = Computer Science
+⟦72⟧ = concern
+⟦73⟧ = conservative traditional hierarchical structures
+⟦74⟧ = considerable attention
+⟦75⟧ = construction
+⟦76⟧ = construction work
+⟦77⟧ = contemporary Sweden
+⟦78⟧ = convention
+⟦79⟧ = conventions
+⟦80⟧ = convex programming
+⟦81⟧ = countries
+⟦82⟧ = course
+⟦83⟧ = culture
+⟦84⟧ = cycle
+⟦85⟧ = death
+⟦86⟧ = degree
+⟦87⟧ = descent
+⟦88⟧ = discussion
+⟦89⟧ = displays
+⟦90⟧ = educator
+⟦91⟧ = effects
+⟦92⟧ = effeminate
+⟦93⟧ = England
+⟦94⟧ = event
+⟦95⟧ = fan
+⟦96⟧ = Fan conventions
+⟦97⟧ = fandom
+⟦98⟧ = fiction
+⟦99⟧ = film
+⟦100⟧ = Future
+⟦101⟧ = gaming
+⟦102⟧ = gaming or model railroads
+⟦103⟧ = gathering
+⟦104⟧ = get
+⟦105⟧ = get-well cards
+⟦106⟧ = group
+⟦107⟧ = guest
+⟦108⟧ = guest celebrities
+⟦109⟧ = hand
+⟦110⟧ = handmaiden
+⟦111⟧ = his death
+⟦112⟧ = his ellipsoid algorithm
+⟦113⟧ = history
+⟦114⟧ = hobbies
+⟦115⟧ = homosexual male
+⟦116⟧ = idea
+⟦117⟧ = ideas
+⟦118⟧ = image
+⟦119⟧ = images
+⟦120⟧ = individual members
+⟦121⟧ = individuals
+⟦122⟧ = industry
+⟦123⟧ = industry segment
+⟦124⟧ = information
+⟦125⟧ = interest
+⟦126⟧ = internship
+⟦127⟧ = issues
+⟦128⟧ = its running time
+⟦129⟧ = Ivan Vasilievich
+⟦130⟧ = Ivan Vasilievich Changes Profession
+⟦131⟧ = July
+⟦132⟧ = June
+⟦133⟧ = jurisdictions
+⟦134⟧ = keynote speakers
+⟦135⟧ = Kremenetz
+⟦136⟧ = law
+⟦137⟧ = law schools
+⟦138⟧ = lawyer
+⟦139⟧ = lawyers
+⟦140⟧ = Leonid Gaidai
+⟦141⟧ = Leonid Genrikhovich Khachiyan
+⟦142⟧ = Leonty Filippovich Magnitsky
+⟦143⟧ = linear programming
+⟦144⟧ = male
+⟦145⟧ = male nurses
+⟦146⟧ = mathematician
+⟦147⟧ = May
+⟦148⟧ = means
+⟦149⟧ = media
+⟦150⟧ = meeting
+⟦151⟧ = members
+⟦152⟧ = mentoring
+⟦153⟧ = merger
+⟦154⟧ = method
+⟦155⟧ = methods
+⟦156⟧ = Metropolitan Irenaeus
+⟦157⟧ = Metropolitan Leontius
+⟦158⟧ = Mikhail Bulgakov
+⟦159⟧ = misconception
+⟦160⟧ = misconceptions
+⟦161⟧ = model
+⟦162⟧ = more than 60 million tickets
+⟦163⟧ = mortar
+⟦164⟧ = Moscow
+⟦165⟧ = movies
+⟦166⟧ = Mursmäcka
+⟦167⟧ = name
+⟦168⟧ = nature
+⟦169⟧ = negative portrayals
+⟦170⟧ = New South Wales
+⟦171⟧ = novels
+⟦172⟧ = number
+⟦173⟧ = nurse
+⟦174⟧ = nurses
+⟦175⟧ = Nursing
+⟦176⟧ = nymphomaniac
+⟦177⟧ = October
+⟦178⟧ = only "smäcka
+⟦179⟧ = order
+⟦180⟧ = organizers
+⟦181⟧ = Ostashkov
+⟦182⟧ = other information
+⟦183⟧ = other randomized algorithms
+⟦184⟧ = outcome
+⟦185⟧ = part
+⟦186⟧ = particularly the United States
+⟦187⟧ = person
+⟦188⟧ = persons
+⟦189⟧ = physicians
+⟦190⟧ = place
+⟦191⟧ = play
+⟦192⟧ = polynomial
+⟦193⟧ = pop
+⟦194⟧ = pop culture
+⟦195⟧ = portrayal
+⟦196⟧ = portrayals
+⟦197⟧ = practice
+⟦198⟧ = prejudice
+⟦199⟧ = profession
+⟦200⟧ = Professional conventions
+⟦201⟧ = professiyu
+⟦202⟧ = programming
+⟦203⟧ = promotion
+⟦204⟧ = railroads
+⟦205⟧ = running
+⟦206⟧ = Russian
+⟦207⟧ = Rutgers University
+⟦208⟧ = sales
+⟦209⟧ = schools
+⟦210⟧ = science
+⟦211⟧ = Science fiction conventions
+⟦212⟧ = secular name Leonid Ieronimovich Turkevich
+⟦213⟧ = segment
+⟦214⟧ = sense
+⟦215⟧ = several other popular images
+⟦216⟧ = sex
+⟦217⟧ = shows
+⟦218⟧ = societies
+⟦219⟧ = some common interest
+⟦220⟧ = speakers
+⟦221⟧ = stereotype
+⟦222⟧ = Stereotypes
+⟦223⟧ = Stockholm
+⟦224⟧ = strike
+⟦225⟧ = structures
+⟦226⟧ = student
+⟦227⟧ = student or trainee physicians
+⟦228⟧ = studies
+⟦229⟧ = Such conventions
+⟦230⟧ = Sweden
+⟦231⟧ = symbol
+⟦232⟧ = task
+⟦233⟧ = teaching
+⟦234⟧ = teaching methods
+⟦235⟧ = television
+⟦236⟧ = television shows
+⟦237⟧ = Telyatin
+⟦238⟧ = The "Legal Profession Act
+⟦239⟧ = the 19th century
+⟦240⟧ = the admission
+⟦241⟧ = the advent
+⟦242⟧ = the balance
+⟦243⟧ = the effects
+⟦244⟧ = the event organizers
+⟦245⟧ = the film
+⟦246⟧ = the first such algorithm
+⟦247⟧ = the Future
+⟦248⟧ = the high degree
+⟦249⟧ = the history
+⟦250⟧ = The image
+⟦251⟧ = the law
+⟦252⟧ = the legal profession
+⟦253⟧ = The Legal Profession Admission Board
+⟦254⟧ = the media
+⟦255⟧ = the medical profession
+⟦256⟧ = the merger
+⟦257⟧ = the method
+⟦258⟧ = the Metropolitan
+⟦259⟧ = the most attended movies
+⟦260⟧ = The most common conventions
+⟦261⟧ = the Mursmäcka
+⟦262⟧ = the nature
+⟦263⟧ = the North American Diocese
+⟦264⟧ = the nursing profession
+⟦265⟧ = The over-sexualized nurse
+⟦266⟧ = the play
+⟦267⟧ = the polynomial
+⟦268⟧ = the profession
+⟦269⟧ = the Russian Orthodox Church
+⟦270⟧ = the sense
+⟦271⟧ = the Soviet Union
+⟦272⟧ = the statutory authority
+⟦273⟧ = the stereotype
+⟦274⟧ = the task
+⟦275⟧ = the title
+⟦276⟧ = the topic
+⟦277⟧ = the tutelage
+⟦278⟧ = the two boards
+⟦279⟧ = the United States
+⟦280⟧ = these common stereotypes
+⟦281⟧ = These generalized ideas
+⟦282⟧ = these misconceptions
+⟦283⟧ = thing
+⟦284⟧ = this algorithm
+⟦285⟧ = This film
+⟦286⟧ = this idea
+⟦287⟧ = this practice
+⟦288⟧ = This usage
+⟦289⟧ = tickets
+⟦290⟧ = time
+⟦291⟧ = title
+⟦292⟧ = to hand mortar
+⟦293⟧ = today
+⟦294⟧ = topic
+⟦295⟧ = torturer
+⟦296⟧ = Trade conventions
+⟦297⟧ = trainee
+⟦298⟧ = tutelage
+⟦299⟧ = two separate boards
+⟦300⟧ = U.S. jurisdictions
+⟦301⟧ = undergraduate
+⟦302⟧ = university
+⟦303⟧ = usage
+⟦304⟧ = various hobbies
+⟦305⟧ = vendor
+⟦306⟧ = vendor displays
+⟦307⟧ = victim
+⟦308⟧ = Volhynia
+⟦309⟧ = well
+⟦310⟧ = woman
+⟦311⟧ = women
+⟦312⟧ = work
+⟦313⟧ = worker
+⟦314⟧ = Иван Васильевич меняет
+⟦315⟧ = Леонид Генрихович Хачиян
+⟦316⟧ = Леонид Иеронимович Туркевич
+⟦317⟧ = Леонтий Филиппович Магницкий
+⟦318⟧ = меняет
+⟦319⟧ = профессию
+⟦320⟧ = Телятин
+⟦321⟧ = Լեոնիդ Գենրիխովիչ Խաչիյան
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Bullying in medicine] ⟨1⟩⟦255⟧⟨2⟩⟦199⟧⟨3⟩⟦226⟧⟨4⟩⟦227⟧⟨5⟩⟦297⟧⟨6⟩⟦189⟧⟨7⟩
+[Bullying in medicine] ⟨8⟩⟦185⟧⟨9⟩⟦185⟧⟨10⟩⟦184⟧⟨11⟩⟦73⟧⟨12⟩⟦225⟧⟨13⟩⟦233⟧⟨14⟩⟦234⟧⟨15⟩⟦155⟧⟨16⟩⟦255⟧⟨17⟩⟦199⟧⟨18⟩⟦6⟧⟨19⟩⟦63⟧⟨20⟩⟦84⟧⟨21⟩
+[Ivan Vasilievich: Back to the Future] ⟦130⟧⟨22⟩⟦206⟧⟨23⟩⟦314⟧⟨24⟩⟦318⟧⟨25⟩⟦319⟧⟨26⟩⟦319⟧⟨27⟩⟦2⟧⟨28⟩⟦201⟧⟨29⟩⟦30⟧⟨30⟩⟦210⟧⟨31⟩⟦98⟧⟨32⟩⟦99⟧⟨33⟩⟦140⟧⟨34⟩
+[Ivan Vasilievich: Back to the Future] ⟨35⟩⟦279⟧⟨36⟩⟦245⟧⟨37⟩⟦99⟧⟨38⟩⟦275⟧⟨39⟩⟦291⟧⟨40⟩⟦129⟧⟨41⟩⟦247⟧⟨42⟩⟦100⟧⟨43⟩
+[Ivan Vasilievich: Back to the Future] ⟦285⟧⟨44⟩⟦99⟧⟨45⟩⟦266⟧⟨46⟩⟦191⟧⟨47⟩⟦158⟧⟨48⟩⟦259⟧⟨49⟩⟦165⟧⟨50⟩⟦271⟧⟨51⟩⟦162⟧⟨52⟩⟦289⟧⟨53⟩
+[Leonty Magnitsky] ⟦142⟧⟨54⟩⟦206⟧⟨55⟩⟦317⟧⟨56⟩⟦237⟧⟨57⟩⟦5⟧⟨58⟩⟦320⟧⟨59⟩⟦132⟧⟨60⟩⟦181⟧⟨61⟩⟦177⟧⟨62⟩⟦164⟧⟨63⟩⟦25⟧⟨64⟩⟦146⟧⟨65⟩⟦90⟧⟨66⟩⟦90⟧⟨67⟩
+[Nurse stereotypes] ⟦32⟧⟨68⟩⟦221⟧⟨69⟩⟦13⟧⟨70⟩⟦116⟧⟨71⟩⟦118⟧⟨72⟩⟦118⟧⟨73⟩⟦22⟧⟨74⟩⟦187⟧⟨75⟩⟦283⟧⟨76⟩⟦283⟧⟨77⟩
+[Nurse stereotypes] ⟦222⟧⟨78⟩⟦222⟧⟨79⟩⟦307⟧⟨80⟩⟦307⟧⟨81⟩⟦198⟧⟨82⟩⟦198⟧⟨83⟩⟦169⟧⟨84⟩⟦196⟧⟨85⟩⟦15⟧⟨86⟩⟦106⟧⟨87⟩⟦120⟧⟨88⟩⟦151⟧⟨89⟩
+[Nurse stereotypes] ⟦175⟧⟨90⟩⟦249⟧⟨91⟩⟦113⟧⟨92⟩⟦268⟧⟨93⟩⟦199⟧⟨94⟩
+[Nurse stereotypes] ⟦7⟧⟨95⟩⟦159⟧⟨96⟩⟦42⟧⟨97⟩⟦174⟧⟨98⟩⟦273⟧⟨99⟩⟦221⟧⟨100⟩⟦145⟧⟨101⟩⟦174⟧⟨102⟩⟦92⟧⟨103⟩
+[Nurse stereotypes] ⟦281⟧⟨104⟩⟦117⟧⟨105⟩⟦264⟧⟨106⟩⟦175⟧⟨107⟩⟦199⟧⟨108⟩⟦28⟧⟨109⟩⟦118⟧⟨110⟩⟦174⟧⟨111⟩⟦174⟧⟨112⟩⟦254⟧⟨113⟩⟦149⟧⟨114⟩
+[Nurse stereotypes] ⟦250⟧⟨115⟩⟦118⟧⟨116⟩⟦20⟧⟨117⟩⟦173⟧⟨118⟩⟦254⟧⟨119⟩⟦149⟧⟨120⟩⟦286⟧⟨121⟩⟦116⟧⟨122⟩⟦104⟧⟨123⟩⟦105⟧⟨124⟩⟦309⟧⟨125⟩⟦64⟧⟨126⟩⟦235⟧⟨127⟩⟦236⟧⟨128⟩⟦217⟧⟨129⟩⟦171⟧⟨130⟩⟦171⟧⟨131⟩
+[Nurse stereotypes] ⟦265⟧⟨132⟩⟦173⟧⟨133⟩⟦19⟧⟨134⟩⟦173⟧⟨135⟩⟦26⟧⟨136⟩⟦216⟧⟨137⟩⟦231⟧⟨138⟩⟦176⟧⟨139⟩⟦176⟧⟨140⟩⟦280⟧⟨141⟩⟦222⟧⟨142⟩⟦228⟧⟨143⟩⟦228⟧⟨144⟩⟦215⟧⟨145⟩⟦119⟧⟨146⟩⟦149⟧⟨147⟩⟦149⟧⟨148⟩⟦110⟧⟨149⟩⟦47⟧⟨150⟩⟦47⟧⟨151⟩⟦295⟧⟨152⟩⟦295⟧⟨153⟩⟦115⟧⟨154⟩⟦144⟧⟨155⟩⟦62⟧⟨156⟩⟦62⟧⟨157⟩⟦310⟧⟨158⟩⟦310⟧⟨159⟩
+[Nurse stereotypes] ⟦69⟧⟨160⟩⟦222⟧⟨161⟩⟦175⟧⟨162⟩⟦175⟧⟨163⟩⟦195⟧⟨164⟩⟦195⟧⟨165⟩⟦282⟧⟨166⟩⟦160⟧⟨167⟩⟦10⟧⟨168⟩⟦88⟧⟨169⟩⟦243⟧⟨170⟩⟦91⟧⟨171⟩⟦268⟧⟨172⟩⟦199⟧⟨173⟩
+[Leonid Khachiyan] ⟦141⟧⟨174⟩⟦3⟧⟨175⟩⟦321⟧⟨176⟩⟦206⟧⟨177⟩⟦315⟧⟨178⟩⟦147⟧⟨179⟩⟦49⟧⟨180⟩⟦31⟧⟨181⟩⟦146⟧⟨182⟩⟦50⟧⟨183⟩⟦87⟧⟨184⟩⟦71⟧⟨185⟩⟦207⟧⟨186⟩
+[Leonid Khachiyan] ⟨187⟩⟦112⟧⟨188⟩⟦143⟧⟨189⟩⟦202⟧⟨190⟩⟦246⟧⟨191⟩⟦40⟧⟨192⟩⟦23⟧⟨193⟩⟦205⟧⟨194⟩⟦290⟧⟨195⟩
+[Leonid Khachiyan] ⟨196⟩⟦284⟧⟨197⟩⟦40⟧⟨198⟩⟦248⟧⟨199⟩⟦86⟧⟨200⟩⟦267⟧⟨201⟩⟦192⟧⟨202⟩⟦128⟧⟨203⟩⟦205⟧⟨204⟩⟦290⟧⟨205⟩⟦183⟧⟨206⟩⟦41⟧⟨207⟩⟦80⟧⟨208⟩⟦202⟧⟨209⟩⟦27⟧⟨210⟩⟦60⟧⟨211⟩
+[Reading law] ⟨212⟩⟦136⟧⟨213⟩⟦136⟧⟨214⟩⟦257⟧⟨215⟩⟦154⟧⟨216⟩⟦188⟧⟨217⟩⟦188⟧⟨218⟩⟦68⟧⟨219⟩⟦136⟧⟨220⟩⟦81⟧⟨221⟩⟦186⟧⟨222⟩⟦252⟧⟨223⟩⟦199⟧⟨224⟩⟦241⟧⟨225⟩⟦39⟧⟨226⟩⟦136⟧⟨227⟩⟦137⟧⟨228⟩⟦209⟧⟨229⟩
+[Reading law] ⟦288⟧⟨230⟩⟦303⟧⟨231⟩⟦16⟧⟨232⟩⟦148⟧⟨233⟩⟦268⟧⟨234⟩⟦199⟧⟨235⟩⟦93⟧⟨236⟩⟦33⟧⟨237⟩⟦302⟧⟨238⟩⟦301⟧⟨239⟩⟦9⟧⟨240⟩⟦82⟧⟨241⟩⟦136⟧⟨242⟩⟦136⟧⟨243⟩
+[Reading law] ⟨244⟩⟦251⟧⟨245⟩⟦136⟧⟨246⟩⟦45⟧⟨247⟩⟦126⟧⟨248⟩⟦48⟧⟨249⟩⟦48⟧⟨250⟩⟦277⟧⟨251⟩⟦298⟧⟨252⟩⟦152⟧⟨253⟩⟦152⟧⟨254⟩⟦44⟧⟨255⟩⟦138⟧⟨256⟩
+[Reading law] ⟦29⟧⟨257⟩⟦172⟧⟨258⟩⟦300⟧⟨259⟩⟦133⟧⟨260⟩⟦287⟧⟨261⟩⟦197⟧⟨262⟩⟦293⟧⟨263⟩
+[Mursmäcka] ⟦166⟧⟨264⟩⟦1⟧⟨265⟩⟦61⟧⟨266⟩⟦178⟧⟨267⟩⟦46⟧⟨268⟩⟦199⟧⟨269⟩⟦311⟧⟨270⟩⟦311⟧⟨271⟩⟦230⟧⟨272⟩
+[Mursmäcka] ⟦18⟧⟨273⟩⟦166⟧⟨274⟩⟦11⟧⟨275⟩⟦75⟧⟨276⟩⟦313⟧⟨277⟩⟦274⟧⟨278⟩⟦232⟧⟨279⟩⟦292⟧⟨280⟩⟦109⟧⟨281⟩⟦163⟧⟨282⟩⟦75⟧⟨283⟩⟦76⟧⟨284⟩⟦312⟧⟨285⟩
+[Mursmäcka] ⟦268⟧⟨286⟩⟦199⟧⟨287⟩⟦167⟧⟨288⟩⟦167⟧⟨289⟩
+[Mursmäcka] ⟨290⟩⟦34⟧⟨291⟩⟦312⟧⟨292⟩⟦24⟧⟨293⟩⟦311⟧⟨294⟩⟦239⟧⟨295⟩⟦66⟧⟨296⟩⟦223⟧⟨297⟩
+[Mursmäcka] ⟨298⟩⟦131⟧⟨299⟩⟦261⟧⟨300⟩⟦223⟧⟨301⟩⟦14⟧⟨302⟩⟦224⟧⟨303⟩⟦35⟧⟨304⟩⟦74⟧⟨305⟩⟦52⟧⟨306⟩⟦77⟧⟨307⟩
+[Legal Profession Admission Board] ⟦253⟧⟨308⟩⟦272⟧⟨309⟩⟦53⟧⟨310⟩⟦240⟧⟨311⟩⟦37⟧⟨312⟩⟦139⟧⟨313⟩⟦139⟧⟨314⟩⟦170⟧⟨315⟩
+[Legal Profession Admission Board] ⟨316⟩⟦299⟧⟨317⟩⟦56⟧⟨318⟩
+[Legal Profession Admission Board] ⟦238⟧⟨319⟩⟦67⟧⟨320⟩⟦37⟧⟨321⟩⟦57⟧⟨322⟩⟦59⟧⟨323⟩⟦268⟧⟨324⟩⟦199⟧⟨325⟩⟦256⟧⟨326⟩⟦153⟧⟨327⟩⟦278⟧⟨328⟩⟦56⟧⟨329⟩
+[Convention (meeting)] ⟦8⟧⟨330⟩⟦78⟧⟨331⟩⟦270⟧⟨332⟩⟦214⟧⟨333⟩⟦17⟧⟨334⟩⟦150⟧⟨335⟩⟦12⟧⟨336⟩⟦103⟧⟨337⟩⟦121⟧⟨338⟩⟦121⟧⟨339⟩⟦43⟧⟨340⟩⟦190⟧⟨341⟩⟦290⟧⟨342⟩⟦290⟧⟨343⟩⟦179⟧⟨344⟩⟦179⟧⟨345⟩⟦219⟧⟨346⟩⟦125⟧⟨347⟩
+[Convention (meeting)] ⟦260⟧⟨348⟩⟦79⟧⟨349⟩⟦122⟧⟨350⟩⟦122⟧⟨351⟩⟦199⟧⟨352⟩⟦199⟧⟨353⟩⟦97⟧⟨354⟩⟦97⟧⟨355⟩
+[Convention (meeting)] ⟦296⟧⟨356⟩⟦79⟧⟨357⟩⟦21⟧⟨358⟩⟦122⟧⟨359⟩⟦122⟧⟨360⟩⟦123⟧⟨361⟩⟦213⟧⟨362⟩⟦134⟧⟨363⟩⟦220⟧⟨364⟩⟦305⟧⟨365⟩⟦306⟧⟨366⟩⟦89⟧⟨367⟩⟦182⟧⟨368⟩⟦124⟧⟨369⟩⟦36⟧⟨370⟩⟦36⟧⟨371⟩⟦125⟧⟨372⟩⟦125⟧⟨373⟩⟦244⟧⟨374⟩⟦94⟧⟨375⟩⟦180⟧⟨376⟩⟦51⟧⟨377⟩⟦51⟧⟨378⟩
+[Convention (meeting)] ⟦200⟧⟨379⟩⟦79⟧⟨380⟩⟦127⟧⟨381⟩⟦127⟧⟨382⟩⟦72⟧⟨383⟩⟦72⟧⟨384⟩⟦268⟧⟨385⟩⟦199⟧⟨386⟩⟦38⟧⟨387⟩⟦38⟧⟨388⟩⟦268⟧⟨389⟩⟦199⟧⟨390⟩
+[Convention (meeting)] ⟦229⟧⟨391⟩⟦79⟧⟨392⟩⟦218⟧⟨393⟩⟦218⟧⟨394⟩⟦70⟧⟨395⟩⟦70⟧⟨396⟩⟦203⟧⟨397⟩⟦203⟧⟨398⟩⟦276⟧⟨399⟩⟦294⟧⟨400⟩⟦125⟧⟨401⟩⟦125⟧⟨402⟩
+[Convention (meeting)] ⟦96⟧⟨403⟩⟦79⟧⟨404⟩⟦89⟧⟨405⟩⟦89⟧⟨406⟩⟦217⟧⟨407⟩⟦217⟧⟨408⟩⟦208⟧⟨409⟩⟦208⟧⟨410⟩⟦193⟧⟨411⟩⟦194⟧⟨412⟩⟦83⟧⟨413⟩⟦107⟧⟨414⟩⟦108⟧⟨415⟩⟦65⟧⟨416⟩
+[Convention (meeting)] ⟦211⟧⟨417⟩⟦98⟧⟨418⟩⟦79⟧⟨419⟩⟦262⟧⟨420⟩⟦168⟧⟨421⟩⟦58⟧⟨422⟩⟦79⟧⟨423⟩⟦95⟧⟨424⟩⟦96⟧⟨425⟩⟦79⟧⟨426⟩⟦242⟧⟨427⟩⟦54⟧⟨428⟩
+[Convention (meeting)] ⟦79⟧⟨429⟩⟦79⟧⟨430⟩⟦304⟧⟨431⟩⟦114⟧⟨432⟩⟦101⟧⟨433⟩⟦102⟧⟨434⟩⟦161⟧⟨435⟩⟦204⟧⟨436⟩
+[Leontius (Turkevich)] ⟦157⟧⟨437⟩⟦4⟧⟨438⟩⟦212⟧⟨439⟩⟦167⟧⟨440⟩⟦316⟧⟨441⟩⟦135⟧⟨442⟩⟦308⟧⟨443⟩⟦147⟧⟨444⟩⟦258⟧⟨445⟩⟦263⟧⟨446⟩⟦269⟧⟨447⟩⟦111⟧⟨448⟩⟦85⟧⟨449⟩
+[Leontius (Turkevich)] ⟨450⟩⟦156⟧⟨451⟩⟦55⟧⟨452⟩
+
+[user]
+
+问题：
+What profession does Leonty Magnitsky and Leonid Khachiyan have in common?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

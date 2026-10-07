@@ -1,0 +1,29 @@
+# 路径一：直接比较成立年份
+
+步骤1：使用⟦302⟧，提取 Williams College 的成立信息，判断其历史定位。
+
+步骤2：综合⟦269⟧⟦315⟧，提取 University of Southern California 的成立年份为 1880 年。
+
+步骤3：对比两者成立时间，Williams College 成立于 1793 年，早于 USC 的 1880 年。
+
+结论：Williams College 成立更早。
+
+# 路径二：通过“最古老”属性交叉验证
+
+步骤1：使用⟦269⟧，提取 USC 是“the oldest private research university”这一信息，注意其“最古老”限定在“private research university”类别内，而非所有大学。
+
+步骤2：综合⟦19⟧⟦302⟧，提取 Williams College 是一所 private liberal arts college，成立于 1793 年，属于更早建立的文理学院。
+
+步骤3：对比两者类别与成立时间，USC 的“最古老”仅限研究型大学范畴，不能推出它比 Williams College 更早。
+
+结论：Williams College 成立更早。
+
+# 路径三：地理与建校背景辅助判断
+
+步骤1：综合⟦58⟧⟦166⟧⟦294⟧，提取 USC 位于 California 的 Los Angeles，是西海岸较早的研究型大学。
+
+步骤2：综合⟦171⟧⟦304⟧⟦302⟧，提取 Williams College 位于 Massachusetts 的 Williamstown，属于美国东北部历史悠久的文理学院。
+
+步骤3：结合美国高等教育史，东北部文理学院普遍早于西部研究型大学建立，Williams College（1793）早于 USC（1880）。
+
+结论：Williams College 成立更早。

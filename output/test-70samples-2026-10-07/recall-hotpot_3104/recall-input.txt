@@ -1,0 +1,351 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Helter Skelter
+⟦2⟧ = "Portrait
+⟦3⟧ = "Scatology
+⟦4⟧ = "The Manson Family Album
+⟦5⟧ = 52nd
+⟦6⟧ = a child
+⟦7⟧ = a coffee
+⟦8⟧ = a comeback
+⟦9⟧ = a direct reference
+⟦10⟧ = a double entendre
+⟦11⟧ = a Down
+⟦12⟧ = a key influence
+⟦13⟧ = a precursor
+⟦14⟧ = a product
+⟦15⟧ = a prominent appearance
+⟦16⟧ = a reference
+⟦17⟧ = a song
+⟦18⟧ = a sound
+⟦19⟧ = a story
+⟦20⟧ = abortion
+⟦21⟧ = abortion cribs
+⟦22⟧ = addiction
+⟦23⟧ = album
+⟦24⟧ = Alfred Jarry
+⟦25⟧ = all your infants
+⟦26⟧ = alternative metal
+⟦27⟧ = America
+⟦28⟧ = American rock band Marilyn Manson
+⟦29⟧ = American rock band Sonic Youth
+⟦30⟧ = an aborted fetus
+⟦31⟧ = an altered version
+⟦32⟧ = an American Family
+⟦33⟧ = an apocalyptic war
+⟦34⟧ = an attempt
+⟦35⟧ = Antichrist Superstar
+⟦36⟧ = appeal
+⟦37⟧ = appearance
+⟦38⟧ = approach
+⟦39⟧ = art
+⟦40⟧ = art metal
+⟦41⟧ = attempt
+⟦42⟧ = August
+⟦43⟧ = band
+⟦44⟧ = base
+⟦45⟧ = base matter
+⟦46⟧ = beliefs
+⟦47⟧ = blacks
+⟦48⟧ = Bluebirds
+⟦49⟧ = blues
+⟦50⟧ = British experimental band Coil
+⟦51⟧ = car
+⟦52⟧ = ceremony
+⟦53⟧ = Charles Manson
+⟦54⟧ = Charles Manson's beliefs
+⟦55⟧ = Charles Manson's idea
+⟦56⟧ = child
+⟦57⟧ = coffee
+⟦58⟧ = Coil
+⟦59⟧ = Coil's official member
+⟦60⟧ = Columbia Records
+⟦61⟧ = comeback
+⟦62⟧ = commune
+⟦63⟧ = conspirator
+⟦64⟧ = contents
+⟦65⟧ = conviction
+⟦66⟧ = cords
+⟦67⟧ = court
+⟦68⟧ = cousin
+⟦69⟧ = crash
+⟦70⟧ = cribs
+⟦71⟧ = cult
+⟦72⟧ = cult leader Charles Manson
+⟦73⟧ = D.O.C
+⟦74⟧ = debut
+⟦75⟧ = December
+⟦76⟧ = Dennis Wilson
+⟦77⟧ = development
+⟦78⟧ = drug
+⟦79⟧ = drug addiction
+⟦80⟧ = early European settlers' encounters
+⟦81⟧ = elements
+⟦82⟧ = encounters
+⟦83⟧ = end
+⟦84⟧ = entendre
+⟦85⟧ = environment
+⟦86⟧ = Examples
+⟦87⟧ = fetus
+⟦88⟧ = figures
+⟦89⟧ = folk
+⟦90⟧ = folk singer-songwriter
+⟦91⟧ = frontman
+⟦92⟧ = genres
+⟦93⟧ = gold
+⟦94⟧ = group
+⟦95⟧ = group sex
+⟦96⟧ = groupies
+⟦97⟧ = hard rock
+⟦98⟧ = heavy metal
+⟦99⟧ = Hell
+⟦100⟧ = Helter Skelter
+⟦101⟧ = his "Family
+⟦102⟧ = his conviction
+⟦103⟧ = His mother
+⟦104⟧ = his vocal cords
+⟦105⟧ = historians
+⟦106⟧ = Horse Rotorvator
+⟦107⟧ = idea
+⟦108⟧ = infants
+⟦109⟧ = influence
+⟦110⟧ = insanity
+⟦111⟧ = Interscope Records
+⟦112⟧ = its "proto-metal roar
+⟦113⟧ = its list
+⟦114⟧ = January
+⟦115⟧ = jazz
+⟦116⟧ = JG Thirlwell
+⟦117⟧ = July
+⟦118⟧ = killer
+⟦119⟧ = killings
+⟦120⟧ = labels
+⟦121⟧ = leader
+⟦122⟧ = length
+⟦123⟧ = Lennon
+⟦124⟧ = line
+⟦125⟧ = list
+⟦126⟧ = Los Angeles
+⟦127⟧ = Love
+⟦128⟧ = lyrics
+⟦129⟧ = magazine
+⟦130⟧ = majority
+⟦131⟧ = man
+⟦132⟧ = Manson
+⟦133⟧ = Manson's appeal
+⟦134⟧ = Manson's blues influence
+⟦135⟧ = Manson's cousin Chad's wedding ceremony
+⟦136⟧ = March
+⟦137⟧ = Marilyn Manson's second studio album
+⟦138⟧ = Marquis de Sade
+⟦139⟧ = matter
+⟦140⟧ = McCartney
+⟦141⟧ = McCartney's attempt
+⟦142⟧ = meat
+⟦143⟧ = member
+⟦144⟧ = members
+⟦145⟧ = metal
+⟦146⟧ = mixes
+⟦147⟧ = monster
+⟦148⟧ = months
+⟦149⟧ = Mosimann's production
+⟦150⟧ = mother
+⟦151⟧ = Mountain
+⟦152⟧ = multiple genres
+⟦153⟧ = murder
+⟦154⟧ = murders
+⟦155⟧ = music
+⟦156⟧ = music historians
+⟦157⟧ = name
+⟦158⟧ = Native Americans
+⟦159⟧ = Nine Inch Nails
+⟦160⟧ = Nine Inch Nails frontman Trent Reznor
+⟦161⟧ = non-political themes
+⟦162⟧ = Not to Love
+⟦163⟧ = Nothing
+⟦164⟧ = nu metal
+⟦165⟧ = obsession
+⟦166⟧ = original takes
+⟦167⟧ = others
+⟦168⟧ = overpopulation
+⟦169⟧ = particularly songs
+⟦170⟧ = Paul McCartney
+⟦171⟧ = people
+⟦172⟧ = pop
+⟦173⟧ = Portrait
+⟦174⟧ = precursor
+⟦175⟧ = prisons
+⟦176⟧ = product
+⟦177⟧ = production
+⟦178⟧ = racial tensions
+⟦179⟧ = record
+⟦180⟧ = record labels
+⟦181⟧ = recording
+⟦182⟧ = reference
+⟦183⟧ = references
+⟦184⟧ = release
+⟦185⟧ = representative
+⟦186⟧ = Revelation
+⟦187⟧ = roar
+⟦188⟧ = rock
+⟦189⟧ = Roli Mosimann
+⟦190⟧ = Rolling Stone" magazine
+⟦191⟧ = Salvador Dali
+⟦192⟧ = Satanism
+⟦193⟧ = Scatology
+⟦194⟧ = self
+⟦195⟧ = September
+⟦196⟧ = serial killer Charles Manson's own band
+⟦197⟧ = settlers
+⟦198⟧ = sex
+⟦199⟧ = side
+⟦200⟧ = singer
+⟦201⟧ = song
+⟦202⟧ = songs
+⟦203⟧ = songwriter
+⟦204⟧ = sound
+⟦205⟧ = Stephen Thrower
+⟦206⟧ = story
+⟦207⟧ = studio
+⟦208⟧ = such a prominent figures
+⟦209⟧ = System
+⟦210⟧ = takes
+⟦211⟧ = tensions
+⟦212⟧ = the "100 Greatest Beatles songs
+⟦213⟧ = The album
+⟦214⟧ = the album's lyrics
+⟦215⟧ = The album's title
+⟦216⟧ = the American rock band
+⟦217⟧ = the Armenian-American heavy metal band System
+⟦218⟧ = the B-side
+⟦219⟧ = the band's debut studio album
+⟦220⟧ = the band's eponymous vocalist
+⟦221⟧ = the band's established sound
+⟦222⟧ = the band's pop-oriented approach
+⟦223⟧ = the Beach Boys
+⟦224⟧ = the Beach Boys' 15th studio album
+⟦225⟧ = the Beatles
+⟦226⟧ = The Beatles' "Helter Skelter
+⟦227⟧ = The Beatles' recording
+⟦228⟧ = the car crash
+⟦229⟧ = the CIA
+⟦230⟧ = the commune
+⟦231⟧ = The contents
+⟦232⟧ = the court
+⟦233⟧ = The D.O.C.
+⟦234⟧ = the dark side
+⟦235⟧ = the debut full-length studio album
+⟦236⟧ = the early development
+⟦237⟧ = the end
+⟦238⟧ = the English rock band
+⟦239⟧ = the environment
+⟦240⟧ = the final song
+⟦241⟧ = the first studio recording
+⟦242⟧ = the group's "Bluebirds
+⟦243⟧ = the killings
+⟦244⟧ = The line
+⟦245⟧ = The Long Hard Road
+⟦246⟧ = The majority
+⟦247⟧ = The Manson Family Album
+⟦248⟧ = the members
+⟦249⟧ = the months
+⟦250⟧ = The name
+⟦251⟧ = the New Testament's Book
+⟦252⟧ = the overpopulation
+⟦253⟧ = the Record Plant
+⟦254⟧ = the second studio album
+⟦255⟧ = The song
+⟦256⟧ = the Tate/LaBianca murders
+⟦257⟧ = the US
+⟦258⟧ = the White Album
+⟦259⟧ = the world
+⟦260⟧ = their 1968 double album
+⟦261⟧ = their debut
+⟦262⟧ = their next studio album
+⟦263⟧ = their self-titled double album
+⟦264⟧ = themes
+⟦265⟧ = This "chimerical vision"—as
+⟦266⟧ = This album
+⟦267⟧ = thrash
+⟦268⟧ = title
+⟦269⟧ = topics
+⟦270⟧ = Toxicity
+⟦271⟧ = Toxicity"'s lyrics
+⟦272⟧ = Trent Reznor
+⟦273⟧ = version
+⟦274⟧ = vision"—as
+⟦275⟧ = vocalist
+⟦276⟧ = war
+⟦277⟧ = wedding
+⟦278⟧ = whites
+⟦279⟧ = Wilson
+⟦280⟧ = world
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Scatology (album)] ⟦193⟧⟨1⟩⟦193⟧⟨2⟩⟦235⟧⟨3⟩⟦122⟧⟨4⟩⟦207⟧⟨5⟩⟦23⟧⟨6⟩⟦50⟧⟨7⟩⟦43⟧⟨8⟩
+[Scatology (album)] ⟨9⟩⟦3⟧⟨10⟩⟦193⟧⟨11⟩⟦58⟧⟨12⟩⟦116⟧⟨13⟩⟦15⟧⟨14⟩⟦37⟧⟨15⟩⟦205⟧⟨16⟩⟦59⟧⟨17⟩⟦143⟧⟨18⟩⟦262⟧⟨19⟩⟦207⟧⟨20⟩⟦23⟧⟨21⟩⟦106⟧⟨22⟩
+[Scatology (album)] ⟦213⟧⟨23⟩⟦23⟧⟨24⟩⟦107⟧⟨25⟩⟦44⟧⟨26⟩⟦45⟧⟨27⟩⟦139⟧⟨28⟩⟦93⟧⟨29⟩⟦93⟧⟨30⟩
+[Scatology (album)] ⟦231⟧⟨31⟩⟦64⟧⟨32⟩⟦213⟧⟨33⟩⟦23⟧⟨34⟩⟦183⟧⟨35⟩⟦183⟧⟨36⟩⟦208⟧⟨37⟩⟦88⟧⟨38⟩⟦138⟧⟨39⟩⟦24⟧⟨40⟩⟦191⟧⟨41⟩⟦53⟧⟨42⟩⟦167⟧⟨43⟩⟦167⟧⟨44⟩
+[Toxicity (album)] ⟦270⟧⟨45⟩⟦270⟧⟨46⟩⟦254⟧⟨47⟩⟦207⟧⟨48⟩⟦23⟧⟨49⟩⟦217⟧⟨50⟩⟦145⟧⟨51⟩⟦43⟧⟨52⟩⟦209⟧⟨53⟩⟦11⟧⟨54⟩⟦195⟧⟨55⟩⟦60⟧⟨56⟩
+[Toxicity (album)] ⟨57⟩⟦26⟧⟨58⟩⟦145⟧⟨59⟩⟦267⟧⟨60⟩⟦145⟧⟨61⟩⟦145⟧⟨62⟩⟦97⟧⟨63⟩⟦188⟧⟨64⟩⟦39⟧⟨65⟩⟦40⟧⟨66⟩⟦145⟧⟨67⟩⟦98⟧⟨68⟩⟦145⟧⟨69⟩⟦164⟧⟨70⟩⟦145⟧⟨71⟩⟦270⟧⟨72⟩⟦270⟧⟨73⟩⟦81⟧⟨74⟩⟦81⟧⟨75⟩⟦152⟧⟨76⟩⟦92⟧⟨77⟩⟦155⟧⟨78⟩⟦155⟧⟨79⟩⟦89⟧⟨80⟩⟦145⟧⟨81⟩⟦188⟧⟨82⟩⟦115⟧⟨83⟩⟦155⟧⟨84⟩⟦155⟧⟨85⟩
+[Toxicity (album)] ⟨86⟩⟦214⟧⟨87⟩⟦23⟧⟨88⟩⟦128⟧⟨89⟩⟦269⟧⟨90⟩⟦269⟧⟨91⟩⟦252⟧⟨92⟩⟦168⟧⟨93⟩⟦175⟧⟨94⟩⟦175⟧⟨95⟩⟦229⟧⟨96⟩⟦54⟧⟨97⟩⟦46⟧⟨98⟩⟦239⟧⟨99⟩⟦85⟧⟨100⟩
+[Toxicity (album)] ⟦86⟧⟨101⟩⟦161⟧⟨102⟩⟦264⟧⟨103⟩⟦270⟧⟨104⟩⟦271⟧⟨105⟩⟦128⟧⟨106⟩⟦94⟧⟨107⟩⟦95⟧⟨108⟩⟦198⟧⟨109⟩⟦78⟧⟨110⟩⟦79⟧⟨111⟩⟦22⟧⟨112⟩⟦96⟧⟨113⟩⟦96⟧⟨114⟩
+[Never Learn Not to Love] ⟨115⟩⟦127⟧⟨116⟩⟦127⟧⟨117⟩⟦17⟧⟨118⟩⟦201⟧⟨119⟩⟦216⟧⟨120⟩⟦188⟧⟨121⟩⟦43⟧⟨122⟩⟦223⟧⟨123⟩⟦76⟧⟨124⟩⟦218⟧⟨125⟩⟦199⟧⟨126⟩⟦242⟧⟨127⟩⟦94⟧⟨128⟩⟦48⟧⟨129⟩⟦151⟧⟨130⟩⟦75⟧⟨131⟩
+[Never Learn Not to Love] ⟨132⟩⟦162⟧⟨133⟩⟦127⟧⟨134⟩⟦224⟧⟨135⟩⟦207⟧⟨136⟩⟦23⟧⟨137⟩
+[Never Learn Not to Love] ⟦255⟧⟨138⟩⟦201⟧⟨139⟩⟦31⟧⟨140⟩⟦273⟧⟨141⟩⟦89⟧⟨142⟩⟦90⟧⟨143⟩⟦200⟧⟨144⟩⟦203⟧⟨145⟩⟦153⟧⟨146⟩⟦63⟧⟨147⟩
+[Never Learn Not to Love] ⟨148⟩⟦279⟧⟨149⟩⟦134⟧⟨150⟩⟦49⟧⟨151⟩⟦109⟧⟨152⟩⟦222⟧⟨153⟩⟦43⟧⟨154⟩⟦172⟧⟨155⟩⟦38⟧⟨156⟩
+[Helter Skelter (Manson scenario)] ⟨157⟩⟦249⟧⟨158⟩⟦148⟧⟨159⟩⟦256⟧⟨160⟩⟦154⟧⟨161⟩⟦42⟧⟨162⟩⟦53⟧⟨163⟩⟦248⟧⟨164⟩⟦144⟧⟨165⟩⟦101⟧⟨166⟩⟦100⟧⟨167⟩⟦33⟧⟨168⟩⟦276⟧⟨169⟩⟦178⟧⟨170⟩⟦211⟧⟨171⟩⟦47⟧⟨172⟩⟦47⟧⟨173⟩⟦278⟧⟨174⟩⟦278⟧⟨175⟩
+[Helter Skelter (Manson scenario)] ⟦265⟧⟨176⟩⟦274⟧⟨177⟩⟦232⟧⟨178⟩⟦67⟧⟨179⟩⟦133⟧⟨180⟩⟦36⟧⟨181⟩⟦102⟧⟨182⟩⟦65⟧⟨183⟩⟦243⟧⟨184⟩⟦119⟧⟨185⟩⟦182⟧⟨186⟩⟦182⟧⟨187⟩⟦155⟧⟨188⟩⟦155⟧⟨189⟩⟦225⟧⟨190⟩⟦169⟧⟨191⟩⟦202⟧⟨192⟩⟦260⟧⟨193⟩⟦23⟧⟨194⟩⟦225⟧⟨195⟩⟦258⟧⟨196⟩⟦251⟧⟨197⟩⟦186⟧⟨198⟩
+[Bad Moon Rising (album)] ⟨199⟩⟦254⟧⟨200⟩⟦207⟧⟨201⟩⟦23⟧⟨202⟩⟦29⟧⟨203⟩⟦188⟧⟨204⟩⟦43⟧⟨205⟩
+[Bad Moon Rising (album)] ⟨206⟩⟦136⟧⟨207⟩⟦179⟧⟨208⟩⟦180⟧⟨209⟩⟦120⟧⟨210⟩
+[Bad Moon Rising (album)] ⟦213⟧⟨211⟩⟦23⟧⟨212⟩⟦234⟧⟨213⟩⟦199⟧⟨214⟩⟦27⟧⟨215⟩⟦183⟧⟨216⟩⟦183⟧⟨217⟩⟦165⟧⟨218⟩⟦165⟧⟨219⟩⟦110⟧⟨220⟩⟦110⟧⟨221⟩⟦98⟧⟨222⟩⟦145⟧⟨223⟩⟦192⟧⟨224⟩⟦80⟧⟨225⟩⟦197⟧⟨226⟩⟦82⟧⟨227⟩⟦158⟧⟨228⟩
+[The Manson Family Album] ⟦247⟧⟨229⟩⟦241⟧⟨230⟩⟦207⟧⟨231⟩⟦181⟧⟨232⟩⟦28⟧⟨233⟩⟦188⟧⟨234⟩⟦43⟧⟨235⟩
+[The Manson Family Album] ⟨236⟩⟦13⟧⟨237⟩⟦174⟧⟨238⟩⟦219⟧⟨239⟩⟦43⟧⟨240⟩⟦207⟧⟨241⟩⟦23⟧⟨242⟩⟦2⟧⟨243⟩⟦173⟧⟨244⟩⟦32⟧⟨245⟩
+[The Manson Family Album] ⟨246⟩⟦189⟧⟨247⟩⟦166⟧⟨248⟩⟦210⟧⟨249⟩⟦146⟧⟨250⟩⟦146⟧⟨251⟩⟦202⟧⟨252⟩⟦202⟧⟨253⟩⟦261⟧⟨254⟩⟦74⟧⟨255⟩
+[The Manson Family Album] ⟨256⟩⟦220⟧⟨257⟩⟦43⟧⟨258⟩⟦275⟧⟨259⟩⟦149⟧⟨260⟩⟦177⟧⟨261⟩⟦185⟧⟨262⟩⟦221⟧⟨263⟩⟦43⟧⟨264⟩⟦204⟧⟨265⟩
+[The Manson Family Album] ⟦246⟧⟨266⟩⟦130⟧⟨267⟩⟦202⟧⟨268⟩⟦202⟧⟨269⟩⟦4⟧⟨270⟩⟦160⟧⟨271⟩⟦91⟧⟨272⟩⟦253⟧⟨273⟩⟦126⟧⟨274⟩
+[The Manson Family Album] ⟦215⟧⟨275⟩⟦23⟧⟨276⟩⟦268⟧⟨277⟩⟦10⟧⟨278⟩⟦84⟧⟨279⟩⟦230⟧⟨280⟩⟦62⟧⟨281⟩⟦71⟧⟨282⟩⟦72⟧⟨283⟩⟦121⟧⟨284⟩
+[Helter Skelter (song)] ⟨285⟩⟦100⟧⟨286⟩⟦17⟧⟨287⟩⟦201⟧⟨288⟩⟦238⟧⟨289⟩⟦188⟧⟨290⟩⟦43⟧⟨291⟩⟦225⟧⟨292⟩⟦263⟧⟨293⟩⟦194⟧⟨294⟩⟦23⟧⟨295⟩⟦258⟧⟨296⟩
+[Helter Skelter (song)] ⟨297⟩⟦170⟧⟨298⟩⟦123⟧⟨299⟩⟦140⟧⟨300⟩
+[Helter Skelter (song)] ⟦255⟧⟨301⟩⟦201⟧⟨302⟩⟦14⟧⟨303⟩⟦176⟧⟨304⟩⟦141⟧⟨305⟩⟦41⟧⟨306⟩⟦18⟧⟨307⟩⟦204⟧⟨308⟩
+[Helter Skelter (song)] ⟦227⟧⟨309⟩⟦181⟧⟨310⟩⟦112⟧⟨311⟩⟦145⟧⟨312⟩⟦187⟧⟨313⟩⟦155⟧⟨314⟩⟦156⟧⟨315⟩⟦105⟧⟨316⟩⟦12⟧⟨317⟩⟦109⟧⟨318⟩⟦236⟧⟨319⟩⟦77⟧⟨320⟩⟦98⟧⟨321⟩⟦145⟧⟨322⟩
+[Helter Skelter (song)] ⟦190⟧⟨323⟩⟦129⟧⟨324⟩⟦1⟧⟨325⟩⟦5⟧⟨326⟩⟦5⟧⟨327⟩⟦113⟧⟨328⟩⟦125⟧⟨329⟩⟦212⟧⟨330⟩⟦202⟧⟨331⟩
+[Man That You Fear] ⟨332⟩⟦137⟧⟨333⟩⟦207⟧⟨334⟩⟦23⟧⟨335⟩⟦35⟧⟨336⟩⟦240⟧⟨337⟩⟦201⟧⟨338⟩⟦213⟧⟨339⟩⟦23⟧⟨340⟩
+[Man That You Fear] ⟦255⟧⟨341⟩⟦201⟧⟨342⟩⟦132⟧⟨343⟩⟦131⟧⟨344⟩⟦147⟧⟨345⟩⟦171⟧⟨346⟩⟦171⟧⟨347⟩
+[Man That You Fear] ⟦244⟧⟨348⟩⟦124⟧⟨349⟩⟦25⟧⟨350⟩⟦108⟧⟨351⟩⟦20⟧⟨352⟩⟦21⟧⟨353⟩⟦70⟧⟨354⟩⟦19⟧⟨355⟩⟦206⟧⟨356⟩⟦245⟧⟨357⟩⟦99⟧⟨358⟩⟦132⟧⟨359⟩⟦6⟧⟨360⟩⟦56⟧⟨361⟩⟦7⟧⟨362⟩⟦57⟧⟨363⟩
+[Man That You Fear] ⟦103⟧⟨364⟩⟦150⟧⟨365⟩⟦142⟧⟨366⟩⟦142⟧⟨367⟩⟦30⟧⟨368⟩⟦87⟧⟨369⟩
+[Man That You Fear] ⟦255⟧⟨370⟩⟦201⟧⟨371⟩⟦135⟧⟨372⟩⟦68⟧⟨373⟩⟦277⟧⟨374⟩⟦52⟧⟨375⟩
+[Helter Skelter (album)] ⟦100⟧⟨376⟩⟦254⟧⟨377⟩⟦207⟧⟨378⟩⟦23⟧⟨379⟩⟦233⟧⟨380⟩⟦114⟧⟨381⟩
+[Helter Skelter (album)] ⟦266⟧⟨382⟩⟦23⟧⟨383⟩⟦34⟧⟨384⟩⟦41⟧⟨385⟩⟦8⟧⟨386⟩⟦61⟧⟨387⟩⟦228⟧⟨388⟩⟦51⟧⟨389⟩⟦69⟧⟨390⟩⟦104⟧⟨391⟩⟦66⟧⟨392⟩
+[Helter Skelter (album)] ⟦213⟧⟨393⟩⟦23⟧⟨394⟩⟦73⟧⟨395⟩
+[Helter Skelter (album)] ⟦250⟧⟨396⟩⟦157⟧⟨397⟩⟦213⟧⟨398⟩⟦23⟧⟨399⟩⟦16⟧⟨400⟩⟦182⟧⟨401⟩⟦55⟧⟨402⟩⟦107⟧⟨403⟩⟦226⟧⟨404⟩⟦237⟧⟨405⟩⟦83⟧⟨406⟩⟦259⟧⟨407⟩⟦280⟧⟨408⟩
+[Portrait of an American Family] ⟦173⟧⟨409⟩⟦173⟧⟨410⟩⟦32⟧⟨411⟩⟦235⟧⟨412⟩⟦122⟧⟨413⟩⟦207⟧⟨414⟩⟦23⟧⟨415⟩⟦28⟧⟨416⟩⟦188⟧⟨417⟩⟦43⟧⟨418⟩
+[Portrait of an American Family] ⟨419⟩⟦117⟧⟨420⟩⟦257⟧⟨421⟩⟦163⟧⟨422⟩⟦111⟧⟨423⟩
+[Portrait of an American Family] ⟨424⟩⟦272⟧⟨425⟩⟦159⟧⟨426⟩
+[Portrait of an American Family] ⟦213⟧⟨427⟩⟦23⟧⟨428⟩⟦4⟧⟨429⟩⟦9⟧⟨430⟩⟦182⟧⟨431⟩⟦196⟧⟨432⟩⟦118⟧⟨433⟩⟦43⟧⟨434⟩⟦184⟧⟨435⟩⟦184⟧⟨436⟩
+
+[user]
+
+问题：
+The second studio album by The D.O.C was named as a reference to Charles Manson's idea of a Beatles' song which was a product of McCartney's attempt to create what kind of sound?  
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

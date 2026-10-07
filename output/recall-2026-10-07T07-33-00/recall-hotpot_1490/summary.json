@@ -1,0 +1,39 @@
+{
+  "qid": "hotpot_1490",
+  "question": "Li Yitong made her television debut on which network?",
+  "expectedAnswer": "Dragon TV",
+  "predictedAnswer": "# 路径一：从出道作品直接定位\n\n步骤1：使用⟦186⟧⟦20⟧⟦27⟧⟦35⟧，提取 Li Yitong 是中文名李一桐的中国女演员。  \n步骤2：综合⟦138⟧⟦47⟧⟦304⟧⟦324⟧⟦6⟧⟦332⟧，提取她于2016年以 Yu Zheng 制作的网络剧《Demon Girl》中的主演角色实现演艺出道。  \n步骤3：结合《Demon Girl》作为网络剧的首播网络信息，确认其首播网络为 iQiyi。  \n\n结论：Li Yitong 的电视/网络首秀是在 iQiyi（爱奇艺）。\n\n# 路径二：通过网络剧与制作方交叉验证\n\n步骤1：使用⟦304⟧⟦324⟧⟦6⟧，提取她的出道作品是网络剧《Demon Girl》。  \n步骤2：使用⟦332⟧，提取该剧与 Yu Zheng 相关，属于其制作的网络剧项目。  \n步骤3：综合⟦138⟧⟦47⟧，确认这是她的首个主演兼出道作品；结合《Demon Girl》的发行记录，其首播平台为 iQiyi。  \n\n结论：iQiyi。\n\n# 路径三：从演员出道角色与系列剧定位\n\n步骤1：使用⟦96⟧⟦63⟧⟦107⟧⟦233⟧⟦240⟧，提取她是中国女演员，其出道角色来自一部系列剧。  \n步骤2：综合⟦186⟧⟦138⟧⟦304⟧⟦6⟧，将该出道系列剧定位为《Demon Girl》。  \n步骤3：根据《Demon Girl》的首播网络记录，判断该网络为 iQiyi。  \n\n结论：Li Yitong made her television debut on iQiyi（爱奇艺）。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦186⟧⟨Ŧ⟩⟦20⟧⟨ŧ⟩⟦27⟧⟦27⟧⟨Ũ⟩⟨ũ⟩⟦35⟧⟨Ū⟩⟨ū⟩⟦63⟧",
+  "nounCount": 462,
+  "score": 0,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": true
+  },
+  "recallUsage": {
+    "prompt_tokens": 5754,
+    "completion_tokens": 114,
+    "total_tokens": 5868,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 5754
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 808,
+    "completion_tokens": 5511,
+    "total_tokens": 6319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5085
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 808
+  }
+}

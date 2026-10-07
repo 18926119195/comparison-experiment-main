@@ -1,0 +1,348 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "potato masher
+⟦2⟧ = "stalk hand grenade
+⟦3⟧ = "Willie Pete
+⟦4⟧ = ("Egg grenade
+⟦5⟧ = (fragmentation grenade
+⟦6⟧ = (Polish
+⟦7⟧ = (this added stability
+⟦8⟧ = 1914 goda
+⟦9⟧ = 1914 года
+⟦10⟧ = 1930s
+⟦11⟧ = 1950s
+⟦12⟧ = 3 oz
+⟦13⟧ = 31 fuse
+⟦14⟧ = 31 time fuse
+⟦15⟧ = 85 g
+⟦16⟧ = 九八式柄付手榴弾
+⟦17⟧ = a "stick grenade
+⟦18⟧ = a better hand grip
+⟦19⟧ = a British anti-tank hand grenade
+⟦20⟧ = a British hand grenade
+⟦21⟧ = a burning type smoke grenade
+⟦22⟧ = a casualty-producing grenade
+⟦23⟧ = a chemical grenade
+⟦24⟧ = a concussion grenade
+⟦25⟧ = a five-second fuse
+⟦26⟧ = a fragmentation hand grenade
+⟦27⟧ = a German hand grenade
+⟦28⟧ = a glass sphere
+⟦29⟧ = a hand-grenade
+⟦30⟧ = a lack
+⟦31⟧ = a lever
+⟦32⟧ = a number
+⟦33⟧ = a pin
+⟦34⟧ = a pull ring
+⟦35⟧ = a raised band
+⟦36⟧ = a rifle grenade
+⟦37⟧ = a Russian stick concussion grenade
+⟦38⟧ = a segmented body
+⟦39⟧ = a sheet-metal casing
+⟦40⟧ = a small defensive and offensive hand grenade
+⟦41⟧ = a strong adhesive
+⟦42⟧ = a team
+⟦43⟧ = a tube-shaped device
+⟦44⟧ = a variety
+⟦45⟧ = acid
+⟦46⟧ = ad
+⟦47⟧ = adapters
+⟦48⟧ = addition
+⟦49⟧ = additives
+⟦50⟧ = adhesive
+⟦51⟧ = aftermath
+⟦52⟧ = an "ad hoc" solution
+⟦53⟧ = an add-on 22mm stabilizer tube
+⟦54⟧ = an enemy tank
+⟦55⟧ = an expedient rifle grenade
+⟦56⟧ = an optional jacket
+⟦57⟧ = another pin
+⟦58⟧ = Anti-tank
+⟦59⟧ = Anti-Tank No
+⟦60⟧ = anti-tank weapons
+⟦61⟧ = appearance
+⟦62⟧ = arms
+⟦63⟧ = attachment
+⟦64⟧ = band
+⟦65⟧ = barrel
+⟦66⟧ = base
+⟦67⟧ = better grip
+⟦68⟧ = Blank cartridges
+⟦69⟧ = body
+⟦70⟧ = bomb
+⟦71⟧ = British Army slang
+⟦72⟧ = cartridges
+⟦73⟧ = casing
+⟦74⟧ = casualty
+⟦75⟧ = century
+⟦76⟧ = charge
+⟦77⟧ = chemical
+⟦78⟧ = concussion
+⟦79⟧ = considerable force
+⟦80⟧ = cord
+⟦81⟧ = delay
+⟦82⟧ = design
+⟦83⟧ = device
+⟦84⟧ = different fuses
+⟦85⟧ = early 1930s
+⟦86⟧ = effect
+⟦87⟧ = egg
+⟦88⟧ = end
+⟦89⟧ = enemy
+⟦90⟧ = evacuation
+⟦91⟧ = expedient
+⟦92⟧ = explosive
+⟦93⟧ = fins
+⟦94⟧ = firing
+⟦95⟧ = force
+⟦96⟧ = forces
+⟦97⟧ = four to five seconds
+⟦98⟧ = fragmentation
+⟦99⟧ = fuse
+⟦100⟧ = fuses
+⟦101⟧ = gases
+⟦102⟧ = Germany
+⟦103⟧ = glass
+⟦104⟧ = go
+⟦105⟧ = goda
+⟦106⟧ = Gr
+⟦107⟧ = granata
+⟦108⟧ = grenade
+⟦109⟧ = grenades
+⟦110⟧ = grip
+⟦111⟧ = groove
+⟦112⟧ = guns
+⟦113⟧ = hand
+⟦114⟧ = Hand Grenade Pattern
+⟦115⟧ = hand grenades
+⟦116⟧ = handle
+⟦117⟧ = head
+⟦118⟧ = Home Guard
+⟦119⟧ = infantry
+⟦120⟧ = injuries
+⟦121⟧ = issue
+⟦122⟧ = its squash-head-like effect
+⟦123⟧ = jacket
+⟦124⟧ = Korea
+⟦125⟧ = Kyūhachi-shiki etsuki teryūdan
+⟦126⟧ = lack
+⟦127⟧ = launcher attachment
+⟦128⟧ = launching
+⟦129⟧ = lever
+⟦130⟧ = M2-series grenade launching adapters
+⟦131⟧ = M7
+⟦132⟧ = Major Millis Jefferis
+⟦133⟧ = masher
+⟦134⟧ = maximum
+⟦135⟧ = mechanism
+⟦136⟧ = metal
+⟦137⟧ = meters
+⟦138⟧ = MIR(c
+⟦139⟧ = mix
+⟦140⟧ = mm
+⟦141⟧ = Nazi Germany's Wehrmacht
+⟦142⟧ = nitroglycerin
+⟦143⟧ = No
+⟦144⟧ = number
+⟦145⟧ = Offensive grenade
+⟦146⟧ = one end
+⟦147⟧ = other vehicle
+⟦148⟧ = oval
+⟦149⟧ = oz
+⟦150⟧ = picric acid
+⟦151⟧ = pin
+⟦152⟧ = place
+⟦153⟧ = potato
+⟦154⟧ = previous grenades
+⟦155⟧ = pull
+⟦156⟧ = rifle
+⟦157⟧ = ring
+⟦158⟧ = Rocky Mountain Arsenal
+⟦159⟧ = Ruchnaya granata
+⟦160⟧ = second
+⟦161⟧ = seconds
+⟦162⟧ = series
+⟦163⟧ = sheet
+⟦164⟧ = shell
+⟦165⟧ = slang
+⟦166⟧ = smoke
+⟦167⟧ = soldier
+⟦168⟧ = solution
+⟦169⟧ = sphere
+⟦170⟧ = stability
+⟦171⟧ = stabilizer
+⟦172⟧ = stalk
+⟦173⟧ = stick
+⟦174⟧ = sticky bomb
+⟦175⟧ = Stuart Macrae
+⟦176⟧ = sufficient anti-tank guns
+⟦177⟧ = tank
+⟦178⟧ = team
+⟦179⟧ = the 20th century
+⟦180⟧ = the actual fuse delay
+⟦181⟧ = the adapter arms
+⟦182⟧ = the addition
+⟦183⟧ = the aftermath
+⟦184⟧ = the American Military
+⟦185⟧ = the AN-M8 white smoke
+⟦186⟧ = The average soldier
+⟦187⟧ = the barrel
+⟦188⟧ = The body
+⟦189⟧ = the British Army
+⟦190⟧ = the cartridges
+⟦191⟧ = the casing
+⟦192⟧ = the Defensive grenade
+⟦193⟧ = the design
+⟦194⟧ = the Dunkirk evacuation
+⟦195⟧ = the expanding gases
+⟦196⟧ = The explosive charge
+⟦197⟧ = the firing mechanism
+⟦198⟧ = the First Gulf War
+⟦199⟧ = the German Empire
+⟦200⟧ = the German Model 24) stick grenade
+⟦201⟧ = The Granat zaczepny
+⟦202⟧ = The Grenade
+⟦203⟧ = The Grenade Projection Adapter
+⟦204⟧ = the groove
+⟦205⟧ = the handle
+⟦206⟧ = the Hawkins grenade
+⟦207⟧ = the heavier Kugelhandgranate
+⟦208⟧ = the igniting cord
+⟦209⟧ = the Imperial Japanese Army
+⟦210⟧ = the infamously issue
+⟦211⟧ = the Korean War
+⟦212⟧ = the late 1950s
+⟦213⟧ = the M1 Garand rifle
+⟦214⟧ = The M15
+⟦215⟧ = the M17 rifle grenade
+⟦216⟧ = The M34
+⟦217⟧ = The M34 White Phosphorus Smoke Grenade
+⟦218⟧ = The M34 WP Grenade
+⟦219⟧ = The M7
+⟦220⟧ = The M7 grenade
+⟦221⟧ = the maximum
+⟦222⟧ = the mix
+⟦223⟧ = The Model 17 Eierhandgranate
+⟦224⟧ = The Model 1914 grenade
+⟦225⟧ = the most easily recognized infantry weapons
+⟦226⟧ = the nitroglycerin
+⟦227⟧ = the original wz.24 grenade
+⟦228⟧ = The oval egg-shaped shell casing
+⟦229⟧ = the Polish Army
+⟦230⟧ = the rifle
+⟦231⟧ = the S.T. Grenade
+⟦232⟧ = the Second World War
+⟦233⟧ = The smooth-bodied M15
+⟦234⟧ = the standard issue
+⟦235⟧ = the standard Zapalnik
+⟦236⟧ = the Stick grenade
+⟦237⟧ = the sticky sphere
+⟦238⟧ = The Stielhandgranate
+⟦239⟧ = the tapered base
+⟦240⟧ = the Type 23 (Chinese version
+⟦241⟧ = The Type 98 Hand Grenade
+⟦242⟧ = the user
+⟦243⟧ = The very distinctive appearance
+⟦244⟧ = the Vietnam War
+⟦245⟧ = The weapon
+⟦246⟧ = the World War II M15 WP grenade
+⟦247⟧ = the wz
+⟦248⟧ = thin sheet metal
+⟦249⟧ = time
+⟦250⟧ = TNT
+⟦251⟧ = today
+⟦252⟧ = tube
+⟦253⟧ = type
+⟦254⟧ = U.S. forces
+⟦255⟧ = unique design
+⟦256⟧ = up to 350 m
+⟦257⟧ = use
+⟦258⟧ = user
+⟦259⟧ = variety
+⟦260⟧ = vehicle
+⟦261⟧ = version
+⟦262⟧ = Vietnam
+⟦263⟧ = weapon
+⟦264⟧ = weapons
+⟦265⟧ = widespread use
+⟦266⟧ = World War I
+⟦267⟧ = World War I.
+⟦268⟧ = World War II
+⟦269⟧ = wz
+⟦270⟧ = wz.33
+⟦271⟧ = year
+⟦272⟧ = zaczepny
+⟦273⟧ = года
+⟦274⟧ = граната
+⟦275⟧ = Ручная граната
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Sticky bomb] ⟦202⟧⟨1⟩⟦113⟧⟨2⟩⟦59⟧⟨3⟩⟦143⟧⟨4⟩⟦231⟧⟨5⟩⟦174⟧⟨6⟩⟦70⟧⟨7⟩⟦20⟧⟨8⟩⟦113⟧⟨9⟩⟦108⟧⟨10⟩⟦232⟧⟨11⟩
+[Sticky bomb] ⟦202⟧⟨12⟩⟦108⟧⟨13⟩⟦32⟧⟨14⟩⟦144⟧⟨15⟩⟦60⟧⟨16⟩⟦264⟧⟨17⟩⟦257⟧⟨18⟩⟦257⟧⟨19⟩⟦189⟧⟨20⟩⟦118⟧⟨21⟩⟦52⟧⟨22⟩⟦46⟧⟨23⟩⟦168⟧⟨24⟩⟦30⟧⟨25⟩⟦126⟧⟨26⟩⟦176⟧⟨27⟩⟦112⟧⟨28⟩⟦183⟧⟨29⟩⟦51⟧⟨30⟩⟦194⟧⟨31⟩⟦90⟧⟨32⟩
+[Sticky bomb] ⟨33⟩⟦42⟧⟨34⟩⟦178⟧⟨35⟩⟦138⟧⟨36⟩⟦132⟧⟨37⟩⟦175⟧⟨38⟩⟦202⟧⟨39⟩⟦108⟧⟨40⟩⟦28⟧⟨41⟩⟦103⟧⟨42⟩⟦169⟧⟨43⟩⟦142⟧⟨44⟩⟦142⟧⟨45⟩⟦49⟧⟨46⟩⟦49⟧⟨47⟩⟦7⟧⟨48⟩⟦170⟧⟨49⟩⟦222⟧⟨50⟩⟦139⟧⟨51⟩⟦122⟧⟨52⟩⟦117⟧⟨53⟩⟦86⟧⟨54⟩⟦41⟧⟨55⟩⟦50⟧⟨56⟩⟦39⟧⟨57⟩⟦163⟧⟨58⟩⟦136⟧⟨59⟩⟦73⟧⟨60⟩
+[Sticky bomb] ⟨61⟩⟦242⟧⟨62⟩⟦258⟧⟨63⟩⟦33⟧⟨64⟩⟦151⟧⟨65⟩⟦205⟧⟨66⟩⟦116⟧⟨67⟩⟦202⟧⟨68⟩⟦108⟧⟨69⟩⟦191⟧⟨70⟩⟦73⟧⟨71⟩⟦237⟧⟨72⟩⟦169⟧⟨73⟩
+[Sticky bomb] ⟨74⟩⟦57⟧⟨75⟩⟦151⟧⟨76⟩⟦197⟧⟨77⟩⟦94⟧⟨78⟩⟦135⟧⟨79⟩⟦242⟧⟨80⟩⟦258⟧⟨81⟩⟦202⟧⟨82⟩⟦108⟧⟨83⟩⟦54⟧⟨84⟩⟦89⟧⟨85⟩⟦177⟧⟨86⟩⟦147⟧⟨87⟩⟦260⟧⟨88⟩
+[Sticky bomb] ⟨89⟩⟦104⟧⟨90⟩⟦104⟧⟨91⟩⟦205⟧⟨92⟩⟦116⟧⟨93⟩⟦31⟧⟨94⟩⟦129⟧⟨95⟩⟦25⟧⟨96⟩⟦160⟧⟨97⟩⟦99⟧⟨98⟩⟦226⟧⟨99⟩⟦142⟧⟨100⟩
+[Model 17 grenade] ⟦223⟧⟨101⟩⟦4⟧⟨102⟩⟦108⟧⟨103⟩⟦40⟧⟨104⟩⟦113⟧⟨105⟩⟦108⟧⟨106⟩⟦102⟧⟨107⟩⟦267⟧
+[Model 17 grenade] ⟦186⟧⟨108⟩⟦167⟧⟨109⟩⟦137⟧⟨110⟩
+[Model 17 grenade] ⟨111⟩⟦207⟧⟨112⟩⟦236⟧⟨113⟩⟦108⟧⟨114⟩
+[Model 17 grenade] ⟦188⟧⟨115⟩⟦69⟧⟨116⟩⟦202⟧⟨117⟩⟦108⟧⟨118⟩⟦193⟧⟨119⟩⟦82⟧⟨120⟩⟦182⟧⟨121⟩⟦48⟧⟨122⟩⟦35⟧⟨123⟩⟦64⟧⟨124⟩⟦67⟧⟨125⟩⟦110⟧⟨126⟩
+[Model 1914 grenade] ⟦224⟧⟨127⟩⟦108⟧⟨128⟩⟦275⟧⟨129⟩⟦274⟧⟨130⟩⟦9⟧⟨131⟩⟦273⟧⟨132⟩⟦159⟧⟨133⟩⟦107⟧⟨134⟩⟦8⟧⟨135⟩⟦105⟧⟨136⟩⟦114⟧⟨137⟩⟦271⟧⟨138⟩⟦271⟧⟨139⟩⟦37⟧⟨140⟩⟦173⟧⟨141⟩⟦78⟧⟨142⟩⟦108⟧⟨143⟩⟦5⟧⟨144⟩⟦98⟧⟨145⟩⟦108⟧⟨146⟩⟦56⟧⟨147⟩⟦123⟧⟨148⟩⟦266⟧⟨149⟩⟦268⟧⟨150⟩
+[M34 grenade] ⟦217⟧⟨151⟩⟦3⟧⟨152⟩⟦23⟧⟨153⟩⟦77⟧⟨154⟩⟦108⟧⟨155⟩⟦158⟧⟨156⟩⟦212⟧⟨157⟩⟦11⟧⟨158⟩⟦254⟧⟨159⟩⟦96⟧⟨160⟩⟦244⟧⟨161⟩⟦198⟧⟨162⟩
+[M34 grenade] ⟦218⟧⟨163⟩⟦246⟧⟨164⟩⟦108⟧⟨165⟩
+[M34 grenade] ⟦216⟧⟨166⟩⟦156⟧⟨167⟩⟦108⟧⟨168⟩⟦130⟧⟨169⟩⟦162⟧⟨170⟩⟦108⟧⟨171⟩⟦128⟧⟨172⟩⟦47⟧⟨173⟩⟦204⟧⟨174⟩⟦111⟧⟨175⟩⟦239⟧⟨176⟩⟦66⟧⟨177⟩⟦181⟧⟨178⟩⟦62⟧⟨179⟩
+[M34 grenade] ⟦214⟧⟨180⟩⟦36⟧⟨181⟩⟦156⟧⟨182⟩⟦108⟧⟨183⟩
+[M34 grenade] ⟦216⟧⟨184⟩⟦38⟧⟨185⟩⟦69⟧⟨186⟩⟦18⟧⟨187⟩⟦113⟧⟨188⟩⟦110⟧⟨189⟩⟦22⟧⟨190⟩⟦74⟧⟨191⟩⟦108⟧⟨192⟩
+[M34 grenade] ⟦233⟧⟨193⟩⟦21⟧⟨194⟩⟦253⟧⟨195⟩⟦166⟧⟨196⟩⟦108⟧⟨197⟩⟦185⟧⟨198⟩⟦166⟧⟨199⟩⟦120⟧⟨200⟩⟦120⟧⟨201⟩
+[Type 98 grenade] ⟦241⟧⟨202⟩⟦16⟧⟨203⟩⟦125⟧⟨204⟩⟦26⟧⟨205⟩⟦98⟧⟨206⟩⟦113⟧⟨207⟩⟦108⟧⟨208⟩⟦209⟧⟨209⟩⟦268⟧⟨210⟩
+[Type 98 grenade] ⟦196⟧⟨211⟩⟦76⟧⟨212⟩⟦12⟧⟨213⟩⟦149⟧⟨214⟩⟦15⟧⟨215⟩⟦150⟧⟨216⟩⟦92⟧⟨217⟩⟦250⟧⟨218⟩
+[Type 98 grenade] ⟦245⟧⟨219⟩⟦263⟧⟨220⟩⟦240⟧⟨221⟩⟦261⟧⟨222⟩⟦200⟧⟨223⟩⟦173⟧⟨224⟩⟦108⟧⟨225⟩⟦34⟧⟨226⟩⟦155⟧⟨227⟩⟦157⟧⟨228⟩⟦208⟧⟨229⟩⟦80⟧⟨230⟩⟦180⟧⟨231⟩⟦99⟧⟨232⟩⟦81⟧⟨233⟩⟦97⟧⟨234⟩⟦161⟧⟨235⟩⟦108⟧⟨236⟩⟦108⟧⟨237⟩⟦108⟧⟨238⟩⟦108⟧⟨239⟩
+[M7 grenade launcher] ⟦220⟧⟨240⟩⟦108⟧⟨241⟩⟦131⟧⟨242⟩⟦140⟧⟨243⟩⟦156⟧⟨244⟩⟦127⟧⟨245⟩⟦63⟧⟨246⟩⟦213⟧⟨247⟩⟦156⟧⟨248⟩⟦265⟧⟨249⟩⟦257⟧⟨250⟩⟦268⟧⟨251⟩⟦211⟧⟨252⟩
+[M7 grenade launcher] ⟦219⟧⟨253⟩⟦43⟧⟨254⟩⟦252⟧⟨255⟩⟦83⟧⟨256⟩⟦146⟧⟨257⟩⟦88⟧⟨258⟩⟦187⟧⟨259⟩⟦65⟧⟨260⟩⟦230⟧⟨261⟩⟦156⟧⟨262⟩⟦88⟧⟨263⟩⟦202⟧⟨264⟩⟦108⟧⟨265⟩⟦152⟧⟨266⟩⟦152⟧⟨267⟩
+[M7 grenade launcher] ⟦68⟧⟨268⟩⟦72⟧⟨269⟩⟦230⟧⟨270⟩⟦156⟧⟨271⟩
+[M7 grenade launcher] ⟨272⟩⟦195⟧⟨273⟩⟦101⟧⟨274⟩⟦190⟧⟨275⟩⟦72⟧⟨276⟩⟦202⟧⟨277⟩⟦108⟧⟨278⟩⟦79⟧⟨279⟩⟦95⟧⟨280⟩
+[M7 grenade launcher] ⟦219⟧⟨281⟩⟦256⟧⟨282⟩⟦221⟧⟨283⟩⟦134⟧⟨284⟩⟦113⟧⟨285⟩⟦115⟧⟨286⟩⟦109⟧⟨287⟩
+[Offensive grenade wz. 24] ⟦201⟧⟨288⟩⟦272⟧⟨289⟩⟦6⟧⟨290⟩⟦145⟧⟨291⟩⟦108⟧⟨292⟩⟦24⟧⟨293⟩⟦78⟧⟨294⟩⟦108⟧⟨295⟩⟦229⟧⟨296⟩⟦268⟧⟨297⟩
+[Offensive grenade wz. 24] ⟦228⟧⟨298⟩⟦148⟧⟨299⟩⟦87⟧⟨300⟩⟦164⟧⟨301⟩⟦73⟧⟨302⟩⟦248⟧⟨303⟩⟦163⟧⟨304⟩⟦136⟧⟨305⟩⟦150⟧⟨306⟩⟦45⟧⟨307⟩⟦250⟧⟨308⟩
+[Offensive grenade wz. 24] ⟨309⟩⟦44⟧⟨310⟩⟦259⟧⟨311⟩⟦100⟧⟨312⟩⟦100⟧⟨313⟩⟦85⟧⟨314⟩⟦10⟧⟨315⟩⟦202⟧⟨316⟩⟦108⟧⟨317⟩⟦235⟧⟨318⟩
+[Offensive grenade wz. 24] ⟦106⟧⟨319⟩
+[Offensive grenade wz. 24] ⟦14⟧⟨320⟩⟦249⟧⟨321⟩⟦99⟧⟨322⟩⟦192⟧⟨323⟩⟦108⟧⟨324⟩⟦270⟧⟨325⟩⟦270⟧⟨326⟩
+[Offensive grenade wz. 24] ⟦202⟧⟨327⟩⟦108⟧⟨328⟩⟦247⟧⟨329⟩⟦269⟧⟨330⟩
+[Offensive grenade wz. 24] ⟦106⟧⟨331⟩
+[Offensive grenade wz. 24] ⟦13⟧⟨332⟩⟦99⟧⟨333⟩⟦269⟧⟨334⟩
+[Offensive grenade wz. 24] ⟨335⟩⟦227⟧⟨336⟩⟦108⟧⟨337⟩⟦84⟧⟨338⟩⟦100⟧⟨339⟩
+[Stielhandgranate] ⟦238⟧⟨340⟩⟦2⟧⟨341⟩⟦172⟧⟨342⟩⟦113⟧⟨343⟩⟦108⟧⟨344⟩⟦27⟧⟨345⟩⟦113⟧⟨346⟩⟦108⟧⟨347⟩⟦255⟧⟨348⟩⟦82⟧⟨349⟩
+[Stielhandgranate] ⟨350⟩⟦234⟧⟨351⟩⟦121⟧⟨352⟩⟦199⟧⟨353⟩⟦266⟧⟨354⟩⟦268⟧⟨355⟩⟦210⟧⟨356⟩⟦121⟧⟨357⟩⟦141⟧⟨358⟩
+[Stielhandgranate] ⟦243⟧⟨359⟩⟦61⟧⟨360⟩⟦17⟧⟨361⟩⟦173⟧⟨362⟩⟦108⟧⟨363⟩⟦1⟧⟨364⟩⟦153⟧⟨365⟩⟦133⟧⟨366⟩⟦71⟧⟨367⟩⟦165⟧⟨368⟩⟦251⟧⟨369⟩⟦225⟧⟨370⟩⟦119⟧⟨371⟩⟦264⟧⟨372⟩⟦179⟧⟨373⟩⟦75⟧⟨374⟩
+[M1 Grenade Adapter] ⟦203⟧⟨375⟩⟦55⟧⟨376⟩⟦91⟧⟨377⟩⟦156⟧⟨378⟩⟦108⟧⟨379⟩⟦184⟧⟨380⟩⟦268⟧⟨381⟩⟦124⟧⟨382⟩⟦262⟧⟨383⟩
+[M1 Grenade Adapter] ⟨384⟩⟦53⟧⟨385⟩⟦140⟧⟨386⟩⟦171⟧⟨387⟩⟦252⟧⟨388⟩⟦93⟧⟨389⟩⟦93⟧⟨390⟩⟦29⟧⟨391⟩⟦113⟧⟨392⟩⟦108⟧⟨393⟩⟦36⟧⟨394⟩⟦156⟧⟨395⟩⟦108⟧⟨396⟩
+[M1 Grenade Adapter] ⟨397⟩⟦215⟧⟨398⟩⟦156⟧⟨399⟩⟦108⟧⟨400⟩⟦140⟧⟨401⟩⟦108⟧⟨402⟩
+[Hawkins grenade] ⟦202⟧⟨403⟩⟦113⟧⟨404⟩⟦58⟧⟨405⟩⟦177⟧⟨406⟩⟦143⟧⟨407⟩⟦206⟧⟨408⟩⟦108⟧⟨409⟩⟦19⟧⟨410⟩⟦113⟧⟨411⟩⟦108⟧⟨412⟩⟦268⟧⟨413⟩
+[Hawkins grenade] ⟨414⟩⟦32⟧⟨415⟩⟦144⟧⟨416⟩⟦109⟧⟨417⟩⟦109⟧⟨418⟩⟦257⟧⟨419⟩⟦257⟧⟨420⟩⟦189⟧⟨421⟩⟦118⟧⟨422⟩⟦183⟧⟨423⟩⟦51⟧⟨424⟩⟦194⟧⟨425⟩⟦90⟧⟨426⟩
+[Hawkins grenade] ⟦202⟧⟨427⟩⟦108⟧⟨428⟩⟦154⟧⟨429⟩⟦109⟧⟨430⟩⟦202⟧⟨431⟩⟦113⟧⟨432⟩⟦59⟧⟨433⟩⟦177⟧⟨434⟩⟦143⟧⟨435⟩⟦202⟧⟨436⟩⟦113⟧⟨437⟩⟦58⟧⟨438⟩⟦143⟧⟨439⟩
+
+[user]
+
+问题：
+What was the alternate slang name for the World War I era grenade that the egg grenade was less awkward than to handle?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

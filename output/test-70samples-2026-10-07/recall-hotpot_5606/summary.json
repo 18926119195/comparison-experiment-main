@@ -1,0 +1,27 @@
+{
+  "qid": "hotpot_5606",
+  "question": "Faruk Halibegovic was born in what city that is the capital and largest city of Bosnia and Herzegovina with a population of 275,524?",
+  "expectedAnswer": "Sarajevo",
+  "predictedAnswer": "ERROR: fetch failed",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦76⟧⟨80⟩⟨81⟩⟨82⟩⟨83⟩⟦14⟧⟦86⟧⟨84⟩⟨85⟩⟦144⟧⟦54⟧⟨87⟩",
+  "nounCount": 402,
+  "score": 0,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6493,
+    "completion_tokens": 169,
+    "total_tokens": 6662,
+    "prompt_tokens_details": {
+      "cached_tokens": 6272
+    },
+    "prompt_cache_hit_tokens": 6272,
+    "prompt_cache_miss_tokens": 221
+  },
+  "reasoningUsage": null
+}

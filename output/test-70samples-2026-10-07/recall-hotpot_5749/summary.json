@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_5749",
+  "question": "Which has more species, Lysiloma or Hydrocotyle umbellata?",
+  "expectedAnswer": "Lysiloma",
+  "predictedAnswer": "# 路径一：基于分类层级与物种数量的直接对比\n\n步骤1：使用⟦136⟧⟦17⟧，提取 Lysiloma 是一个属（genus），属级分类单元通常包含多个物种。\n\n步骤2：使用⟦105⟧⟦201⟧，提取 Hydrocotyle umbellata 是一个物种（species），物种是分类学中最基本的单元，仅代表单一物种。\n\n步骤3：综合⟦136⟧⟦17⟧⟦105⟧⟦201⟧，对比分类层级：Lysiloma 为属，Hydrocotyle umbellata 为种。属包含一个或多个种，而种是单一实体，因此 Lysiloma 在分类层级上高于 Hydrocotyle umbellata，物种数量必然更多。\n\n结论：Lysiloma 拥有更多物种，因为它是属级分类单元，而 Hydrocotyle umbellata 仅为单一物种。\n\n---\n\n# 路径二：基于材料中物种列举与命名结构的交叉验证\n\n步骤1：使用⟦137⟧⟦126⟧，提取 Lysiloma latisiliquum 是 Lysiloma 属下的一个具体物种，说明 Lysiloma 属至少包含一个已命名的物种。\n\n步骤2：使用⟦105⟧⟦257⟧，提取 Hydrocotyle umbellata 本身即为一个完整物种名，材料中未提及其下有任何亚种或变种。\n\n步骤3：综合⟦136⟧⟦137⟧⟦105⟧，交叉验证：Lysiloma 作为属，其下已明确列出 Lysiloma latisiliquum 这一物种；而 Hydrocotyle umbellata 在材料中始终以单一物种身份出现，无下属分类单元。属级单元天然涵盖多个物种，而单一物种不具备“更多物种”的比较基础。\n\n结论：Lysiloma 的物种数量多于 Hydrocotyle umbellata，因为前者是包含多个物种的属，后者仅为单一物种。\n\n---\n\n# 路径三：基于分类学常识与材料中属种关系的综合支撑\n\n步骤1：使用⟦91⟧⟦241⟧，提取 Sabicu wood 和 Hunteria umbellata 分别被描述为属（genus）和物种（The species），进一步印证材料中属与种的区分标准。\n\n步骤2：使用⟦136⟧⟦105⟧，综合提取：Lysiloma 被明确标注为属（a genus），Hydrocotyle umbellata 被明确标注为物种（species）。\n\n步骤3：综合⟦17⟧⟦201⟧，对比分类学定义：属（genus）是高于物种（species）的分类层级，一个属通常包含多个物种，而一个物种仅代表单一生物类群。因此，Lysiloma 作为属，其包含的物种数量必然多于作为单一物种的 Hydrocotyle umbellata。\n\n结论：Lysiloma 拥有更多物种，这是由属与种的分类层级关系决定的。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦136⟧⟨1⟩⟦17⟧⟨2⟩⟨3⟩⟦85⟧⟨4⟩⟨5⟩⟦232⟧⟦129⟧⟨7⟩⟨6⟩",
+  "nounCount": 390,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6630,
+    "completion_tokens": 331,
+    "total_tokens": 6961,
+    "prompt_tokens_details": {
+      "cached_tokens": 6400
+    },
+    "prompt_cache_hit_tokens": 6400,
+    "prompt_cache_miss_tokens": 230
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 651,
+    "total_tokens": 1883,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1232
+  }
+}

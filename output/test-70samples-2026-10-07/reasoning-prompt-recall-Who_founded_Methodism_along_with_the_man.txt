@@ -1,0 +1,93 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[John Wesley] ⟨1⟩⟦6⟧⟨2⟩⟦226⟧⟨3⟩⟦56⟧⟨4⟩⟨5⟩⟦155⟧⟦74⟧⟨6⟩⟨7⟩⟦83⟧⟨8⟩⟦136⟧⟦90⟧⟦90⟧⟨9⟩⟨10⟩⟦142⟧⟨11⟩⟨12⟩
+[List of Methodist churches in the United States] ⟦176⟧
+[James McGready] ⟦268⟧⟨424⟩⟦2⟧⟨425⟩⟦33⟧⟦203⟧⟨426⟩⟨427⟩⟦37⟧⟦270⟧⟨428⟩⟨429⟩⟨430⟩⟨431⟩⟦53⟧⟨432⟩
+[Second Great Awakening] ⟨571⟩⟦34⟧⟨572⟩⟨573⟩⟦334⟧⟨574⟩⟨575⟩⟨576⟩
+[Second Great Awakening] ⟦387⟧ | ⟦387⟧
+[United Methodist Church] ⟦197⟧
+[United Methodist Church] ⟦81⟧
+[United Methodist Church] ⟦400⟧ | ⟦269⟧⟦400⟧
+
+符号表：
+⟦2⟧ = 1763–1817
+⟦6⟧ = 28 June
+⟦33⟧ = a Presbyterian minister
+⟦34⟧ = a Protestant religious revival
+⟦37⟧ = a revivalist
+⟦53⟧ = America
+⟦56⟧ = an English Anglican cleric
+⟦74⟧ = brother
+⟦81⟧ = century
+⟦83⟧ = Charles
+⟦90⟧ = cleric
+⟦136⟧ = fellow cleric
+⟦142⟧ = George Whitefield
+⟦155⟧ = his brother
+⟦176⟧ = John Wesley
+⟦197⟧ = Methodism
+⟦203⟧ = minister
+⟦226⟧ = O.S.
+⟦268⟧ = Rev. James McGready
+⟦269⟧ = revival
+⟦270⟧ = revivalist
+⟦334⟧ = the early 19th century
+⟦387⟧ = the Second Great Awakening
+⟦400⟧ = the United States
+
+占位符映射：
+⟨1⟩ =  ( or ; 
+⟨2⟩ =  [
+⟨3⟩ =  17 June] 1703 2 March 1791) was 
+⟨4⟩ = 
+⟨5⟩ =  and theologian who, with 
+⟨6⟩ = 
+⟨7⟩ =  
+⟨8⟩ =  and 
+⟨9⟩ = 
+⟨10⟩ =  
+⟨11⟩ = , founded 
+⟨12⟩ = .
+⟨424⟩ =  (
+⟨425⟩ = ) was 
+⟨426⟩ = 
+⟨427⟩ =  and 
+⟨428⟩ = 
+⟨429⟩ =  during 
+⟨430⟩ =  in 
+⟨431⟩ =  of 
+⟨432⟩ = .
+⟨571⟩ =  was 
+⟨572⟩ = 
+⟨573⟩ =  during 
+⟨574⟩ = 
+⟨575⟩ =  in 
+⟨576⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who founded Methodism along with the man who was also part of the revival movement in England and the Great Awakening in the United States?

@@ -1,0 +1,528 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Detroit's Main Street
+⟦2⟧ = "The Settlers III
+⟦3⟧ = "Track Town USA
+⟦4⟧ = (elevation
+⟦5⟧ = (German
+⟦6⟧ = (the namesake
+⟦7⟧ = 12 mi
+⟦8⟧ = 9027 acre
+⟦9⟧ = a 2001 real-time strategy video game
+⟦10⟧ = a cargo
+⟦11⟧ = a dedicated path
+⟦12⟧ = a flood
+⟦13⟧ = a four-mile-long running and walking trail
+⟦14⟧ = a hiking and bicycling trail
+⟦15⟧ = a looping trail
+⟦16⟧ = a major north
+⟦17⟧ = a major transportation corridor
+⟦18⟧ = a map editor
+⟦19⟧ = a north–south state trunkline highway
+⟦20⟧ = a partially completed network
+⟦21⟧ = a pioneer settler
+⟦22⟧ = a PK-8 school district
+⟦23⟧ = A plaque
+⟦24⟧ = a prekindergarten program
+⟦25⟧ = a Pure Michigan Byway
+⟦26⟧ = a random map generator
+⟦27⟧ = a sandbar
+⟦28⟧ = a second expansion
+⟦29⟧ = a section
+⟦30⟧ = a segment
+⟦31⟧ = a shipmate
+⟦32⟧ = a structure
+⟦33⟧ = a three-masted schooner
+⟦34⟧ = a total
+⟦35⟧ = a tragic accident
+⟦36⟧ = accident
+⟦37⟧ = acre
+⟦38⟧ = addition
+⟦39⟧ = age
+⟦40⟧ = all nine grades
+⟦41⟧ = Alton Baker Park
+⟦42⟧ = an accident
+⟦43⟧ = an All-American Road
+⟦44⟧ = an American middle and long-distance runner
+⟦45⟧ = an automobile accident
+⟦46⟧ = an expansion
+⟦47⟧ = an extensive network
+⟦48⟧ = Android
+⟦49⟧ = architecture
+⟦50⟧ = area
+⟦51⟧ = areas
+⟦52⟧ = arts
+⟦53⟧ = athlete
+⟦54⟧ = attempts
+⟦55⟧ = attractions
+⟦56⟧ = August
+⟦57⟧ = automobile
+⟦58⟧ = avenues
+⟦59⟧ = bada
+⟦60⟧ = Baltimore
+⟦61⟧ = bark
+⟦62⟧ = beautiful parks
+⟦63⟧ = Bell Mountain
+⟦64⟧ = bicycles
+⟦65⟧ = bicycling
+⟦66⟧ = bike
+⟦67⟧ = Blue Byte
+⟦68⟧ = body
+⟦69⟧ = both expansions
+⟦70⟧ = both single-player
+⟦71⟧ = branch
+⟦72⟧ = Brunswick
+⟦73⟧ = building
+⟦74⟧ = campaign
+⟦75⟧ = campaigns
+⟦76⟧ = capital
+⟦77⟧ = cargo
+⟦78⟧ = champion
+⟦79⟧ = city
+⟦80⟧ = co
+⟦81⟧ = Cobb’s Salvaging Company
+⟦82⟧ = controls
+⟦83⟧ = cook
+⟦84⟧ = corridor
+⟦85⟧ = crew
+⟦86⟧ = cross
+⟦87⟧ = cross ties
+⟦88⟧ = days
+⟦89⟧ = December
+⟦90⟧ = der
+⟦91⟧ = Detroit
+⟦92⟧ = Detroit north
+⟦93⟧ = Die Siedler IV
+⟦94⟧ = Die Trojaner und das Elixier der Macht
+⟦95⟧ = distance
+⟦96⟧ = district
+⟦97⟧ = dogs
+⟦98⟧ = downtown
+⟦99⟧ = Dr. Cheryl Caesar
+⟦100⟧ = Dr. Ellen Mauer
+⟦101⟧ = drama
+⟦102⟧ = driver
+⟦103⟧ = driver Daniel Barritt
+⟦104⟧ = drives
+⟦105⟧ = drowning
+⟦106⟧ = Druid Hill Reservoir
+⟦107⟧ = duck
+⟦108⟧ = duck ponds
+⟦109⟧ = editor
+⟦110⟧ = Education
+⟦111⟧ = efforts
+⟦112⟧ = eight wilderness areas
+⟦113⟧ = elevation
+⟦114⟧ = Eugene
+⟦115⟧ = events
+⟦116⟧ = expansion
+⟦117⟧ = expansions
+⟦118⟧ = fan
+⟦119⟧ = fan-made maps
+⟦120⟧ = fauna
+⟦121⟧ = Ferd Waterhouse’s rescue efforts
+⟦122⟧ = FHWA
+⟦123⟧ = fish
+⟦124⟧ = Five Senses Garden
+⟦125⟧ = flood
+⟦126⟧ = flora
+⟦127⟧ = Florida
+⟦128⟧ = formation
+⟦129⟧ = founder
+⟦130⟧ = four days
+⟦131⟧ = four schools
+⟦132⟧ = Fourth Edition
+⟦133⟧ = game
+⟦134⟧ = game mechanics
+⟦135⟧ = Gameloft
+⟦136⟧ = gameplay
+⟦137⟧ = generator
+⟦138⟧ = Georgia
+⟦139⟧ = GOG.com
+⟦140⟧ = Gold Edition
+⟦141⟧ = graders
+⟦142⟧ = grades
+⟦143⟧ = Grand River
+⟦144⟧ = graphics
+⟦145⟧ = grasslands
+⟦146⟧ = Gratiot
+⟦147⟧ = guide
+⟦148⟧ = guide signs
+⟦149⟧ = Gurnee
+⟦150⟧ = Gurnee School District
+⟦151⟧ = Harrisburg
+⟦152⟧ = HD
+⟦153⟧ = HD versions
+⟦154⟧ = heavy seas
+⟦155⟧ = Henry Bell
+⟦156⟧ = highway
+⟦157⟧ = hiking
+⟦158⟧ = his co-driver Roger Freeman
+⟦159⟧ = history
+⟦160⟧ = Illinois
+⟦161⟧ = iOS
+⟦162⟧ = iPad
+⟦163⟧ = its beautiful architecture
+⟦164⟧ = its highest point
+⟦165⟧ = its namesake park
+⟦166⟧ = its namesake's history
+⟦167⟧ = its wonderful drama and arts programs
+⟦168⟧ = January
+⟦169⟧ = JFT
+⟦170⟧ = jog
+⟦171⟧ = John Harris Sr
+⟦172⟧ = Jonel Broscanc
+⟦173⟧ = Jones Falls
+⟦174⟧ = Jones Falls Trail
+⟦175⟧ = Judge Augustus B. Woodward
+⟦176⟧ = Kevin Simmons
+⟦177⟧ = length
+⟦178⟧ = locals
+⟦179⟧ = loop
+⟦180⟧ = M-1
+⟦181⟧ = Manxman David Higgins
+⟦182⟧ = map
+⟦183⟧ = maps
+⟦184⟧ = Mark Lovell
+⟦185⟧ = Maryland
+⟦186⟧ = masts
+⟦187⟧ = materials
+⟦188⟧ = May
+⟦189⟧ = MDOT
+⟦190⟧ = mechanics
+⟦191⟧ = members
+⟦192⟧ = meters
+⟦193⟧ = mi
+⟦194⟧ = Michigan
+⟦195⟧ = Microsoft Windows
+⟦196⟧ = mile
+⟦197⟧ = minigames
+⟦198⟧ = missions
+⟦199⟧ = Missouri
+⟦200⟧ = mode
+⟦201⟧ = multiplayer
+⟦202⟧ = multiplayer mode
+⟦203⟧ = name
+⟦204⟧ = namesake
+⟦205⟧ = native flora
+⟦206⟧ = nature
+⟦207⟧ = Near downtown Eugene
+⟦208⟧ = neighboring
+⟦209⟧ = neighboring Springfield
+⟦210⟧ = network
+⟦211⟧ = new maps
+⟦212⟧ = new single-player campaign missions
+⟦213⟧ = new single-player campaigns
+⟦214⟧ = New York
+⟦215⟧ = Nine rounds
+⟦216⟧ = no other crew members
+⟦217⟧ = north
+⟦218⟧ = North America
+⟦219⟧ = opportunities
+⟦220⟧ = Oregon
+⟦221⟧ = original
+⟦222⟧ = Ormond Beach
+⟦223⟧ = Ormond Beach’s Historic Trail
+⟦224⟧ = park
+⟦225⟧ = parks
+⟦226⟧ = part
+⟦227⟧ = parts
+⟦228⟧ = path
+⟦229⟧ = Patrick Jones
+⟦230⟧ = Pennsylvania
+⟦231⟧ = Pennsylvania's capital city
+⟦232⟧ = pioneer
+⟦233⟧ = plaque
+⟦234⟧ = player
+⟦235⟧ = point
+⟦236⟧ = ponds
+⟦237⟧ = Pontiac
+⟦238⟧ = Potosi
+⟦239⟧ = Power
+⟦240⟧ = Prairie Trail
+⟦241⟧ = Prairie Trail School
+⟦242⟧ = Pre's Trail
+⟦243⟧ = Prefontaine
+⟦244⟧ = principal
+⟦245⟧ = program
+⟦246⟧ = programs
+⟦247⟧ = record
+⟦248⟧ = rescue
+⟦249⟧ = Rescue attempts
+⟦250⟧ = rescues
+⟦251⟧ = Reservoir Park
+⟦252⟧ = ride
+⟦253⟧ = ride bicycles
+⟦254⟧ = riparian scenery
+⟦255⟧ = Riverfront Park
+⟦256⟧ = road
+⟦257⟧ = roads
+⟦258⟧ = rounds
+⟦259⟧ = route
+⟦260⟧ = routes
+⟦261⟧ = runner
+⟦262⟧ = running
+⟦263⟧ = sandbar
+⟦264⟧ = SCCA
+⟦265⟧ = scenery
+⟦266⟧ = school
+⟦267⟧ = schools
+⟦268⟧ = schooner
+⟦269⟧ = seas
+⟦270⟧ = season
+⟦271⟧ = section
+⟦272⟧ = segment
+⟦273⟧ = series
+⟦274⟧ = services
+⟦275⟧ = settler
+⟦276⟧ = seven different distance track events
+⟦277⟧ = Sheryl Gray
+⟦278⟧ = ship
+⟦279⟧ = shipbuilder
+⟦280⟧ = shipmate
+⟦281⟧ = ships
+⟦282⟧ = shipwreck
+⟦283⟧ = shipwreck rescues
+⟦284⟧ = side
+⟦285⟧ = signs
+⟦286⟧ = site
+⟦287⟧ = sixth, seventh, and eighth graders
+⟦288⟧ = skate
+⟦289⟧ = some historical attractions
+⟦290⟧ = south
+⟦291⟧ = south stream
+⟦292⟧ = Spaulding Elementary School
+⟦293⟧ = state
+⟦294⟧ = Steve Roland "Pre" Prefontaine
+⟦295⟧ = storyline
+⟦296⟧ = stranded ships
+⟦297⟧ = strategy
+⟦298⟧ = stream
+⟦299⟧ = streets
+⟦300⟧ = structure
+⟦301⟧ = succession
+⟦302⟧ = Symbian
+⟦303⟧ = the "Gold Edition
+⟦304⟧ = the "Nathan F. Cobb
+⟦305⟧ = the 10,000 meters
+⟦306⟧ = the 1972 Olympics
+⟦307⟧ = the 1992 Susquehannock Trail Performance Rally
+⟦308⟧ = the 2,000 meters
+⟦309⟧ = the 2001 champion
+⟦310⟧ = The 2003 SCCA ProRally Season
+⟦311⟧ = the 31st season
+⟦312⟧ = the age
+⟦313⟧ = the American record
+⟦314⟧ = The area
+⟦315⟧ = the assistant principal
+⟦316⟧ = the Automotive Heritage Trail
+⟦317⟧ = the Bell Mountain Wilderness
+⟦318⟧ = the bike path
+⟦319⟧ = The Capital Area Greenbelt
+⟦320⟧ = the city
+⟦321⟧ = The Cobb Cottage
+⟦322⟧ = The cook
+⟦323⟧ = The crew
+⟦324⟧ = The current Viking School
+⟦325⟧ = the district's education
+⟦326⟧ = the drowning
+⟦327⟧ = the East Coast
+⟦328⟧ = the East Coast Greenway
+⟦329⟧ = the Elixir
+⟦330⟧ = The Federal Highway Administration
+⟦331⟧ = the first and second grades
+⟦332⟧ = the five principal avenues
+⟦333⟧ = the formation
+⟦334⟧ = the fourth game
+⟦335⟧ = the gameplay
+⟦336⟧ = the Governor's Mansion
+⟦337⟧ = the grave site
+⟦338⟧ = The highway
+⟦339⟧ = The Jones Falls Trail
+⟦340⟧ = The last section
+⟦341⟧ = the length
+⟦342⟧ = the loop
+⟦343⟧ = the Mark Twain National Forest
+⟦344⟧ = the Metro Detroit area
+⟦345⟧ = the Michigan Department
+⟦346⟧ = the MotorCities National Heritage Area
+⟦347⟧ = the name
+⟦348⟧ = the namesake
+⟦349⟧ = The Nathan F. Cobb
+⟦350⟧ = the National Civil War Museum
+⟦351⟧ = the National Scenic Byways Program
+⟦352⟧ = the north side
+⟦353⟧ = the northern Lake County village
+⟦354⟧ = the Oregon Trail Rally
+⟦355⟧ = the original
+⟦356⟧ = the original game
+⟦357⟧ = the Ozark Trail
+⟦358⟧ = the Palm Pre
+⟦359⟧ = the Potosi-Fredericktown Ranger District
+⟦360⟧ = The principal
+⟦361⟧ = the Saint Francois Mountains
+⟦362⟧ = the SCCA ProRally
+⟦363⟧ = the school district's namesake
+⟦364⟧ = the school's principal
+⟦365⟧ = the season
+⟦366⟧ = the second and third drives
+⟦367⟧ = the series
+⟦368⟧ = The Settlers
+⟦369⟧ = The Settlers II
+⟦370⟧ = The Settlers IV
+⟦371⟧ = The Settlers IV Mission CD
+⟦372⟧ = The Settlers" series
+⟦373⟧ = the ship
+⟦374⟧ = the shipbuilder
+⟦375⟧ = the Susquehanna River
+⟦376⟧ = the three masts
+⟦377⟧ = the title
+⟦378⟧ = the trail
+⟦379⟧ = The Trojans
+⟦380⟧ = the United States
+⟦381⟧ = The United States Congress
+⟦382⟧ = the United States Life-Saving Service
+⟦383⟧ = the university town
+⟦384⟧ = the US Congress
+⟦385⟧ = the US state
+⟦386⟧ = the vessel
+⟦387⟧ = The wilderness
+⟦388⟧ = The wilderness area
+⟦389⟧ = the Willamette River
+⟦390⟧ = The woodchip-and-bark trail
+⟦391⟧ = their dogs
+⟦392⟧ = These streets
+⟦393⟧ = third, fourth, and fifth graders
+⟦394⟧ = This 20-mile loop
+⟦395⟧ = this branch
+⟦396⟧ = this school district
+⟦397⟧ = three primary trailheads
+⟦398⟧ = three schools
+⟦399⟧ = ties
+⟦400⟧ = timber
+⟦401⟧ = time
+⟦402⟧ = title
+⟦403⟧ = total
+⟦404⟧ = touch
+⟦405⟧ = touch controls
+⟦406⟧ = tourists
+⟦407⟧ = town
+⟦408⟧ = track
+⟦409⟧ = trail
+⟦410⟧ = trail maps
+⟦411⟧ = trailheads
+⟦412⟧ = trails
+⟦413⟧ = transportation
+⟦414⟧ = trunkline
+⟦415⟧ = two minigames
+⟦416⟧ = Ubi Soft Entertainment
+⟦417⟧ = United States
+⟦418⟧ = university
+⟦419⟧ = updated graphics
+⟦420⟧ = versions
+⟦421⟧ = vessel
+⟦422⟧ = video
+⟦423⟧ = Viking
+⟦424⟧ = Viking Middle
+⟦425⟧ = Viking Middle School
+⟦426⟧ = village
+⟦427⟧ = violent seas
+⟦428⟧ = visitors
+⟦429⟧ = volunteer
+⟦430⟧ = volunteer Ferd Waterhouse
+⟦431⟧ = Warren Township High School
+⟦432⟧ = webOS
+⟦433⟧ = whose body
+⟦434⟧ = whose many rescues
+⟦435⟧ = whose principal
+⟦436⟧ = wilderness
+⟦437⟧ = Wildwood Park and Nature Center
+⟦438⟧ = woodchip
+⟦439⟧ = woods
+⟦440⟧ = Woodward Avenue
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Settlers IV] ⟦370⟧⟨1⟩⟦5⟧⟨2⟩⟦93⟧⟨3⟩⟦368⟧⟨4⟩⟦132⟧⟨5⟩⟦218⟧⟨6⟩⟦9⟧⟨7⟩⟦401⟧⟨8⟩⟦297⟧⟨9⟩⟦422⟧⟨10⟩⟦133⟧⟨11⟩⟦67⟧⟨12⟩⟦416⟧⟨13⟩⟦195⟧⟨14⟩
+[The Settlers IV] ⟨15⟩⟦334⟧⟨16⟩⟦133⟧⟨17⟩⟦372⟧⟨18⟩⟦273⟧⟨19⟩⟦368⟧⟨20⟩⟦369⟧⟨21⟩⟦2⟧⟨22⟩
+[The Settlers IV] ⟨23⟩⟦56⟧⟨24⟩⟦67⟧⟨25⟩⟦46⟧⟨26⟩⟦116⟧⟨27⟩⟦371⟧⟨28⟩⟦212⟧⟨29⟩⟦234⟧⟨30⟩⟦74⟧⟨31⟩⟦198⟧⟨32⟩⟦211⟧⟨33⟩⟦183⟧⟨34⟩⟦70⟧⟨35⟩⟦234⟧⟨36⟩⟦201⟧⟨37⟩⟦201⟧⟨38⟩⟦26⟧⟨39⟩⟦182⟧⟨40⟩⟦137⟧⟨41⟩⟦18⟧⟨42⟩⟦182⟧⟨43⟩⟦109⟧⟨44⟩
+[The Settlers IV] ⟨45⟩⟦89⟧⟨46⟩⟦28⟧⟨47⟩⟦116⟧⟨48⟩⟦370⟧⟨49⟩⟦379⟧⟨50⟩⟦329⟧⟨51⟩⟦239⟧⟨52⟩⟦5⟧⟨53⟩⟦93⟧⟨54⟩⟦94⟧⟨55⟩⟦90⟧⟨56⟩⟦213⟧⟨57⟩⟦234⟧⟨58⟩⟦75⟧⟨59⟩⟦201⟧⟨60⟩⟦183⟧⟨61⟩
+[The Settlers IV] ⟨62⟩⟦370⟧⟨63⟩⟦140⟧⟨64⟩⟦356⟧⟨65⟩⟦133⟧⟨66⟩⟦69⟧⟨67⟩⟦117⟧⟨68⟩⟦118⟧⟨69⟩⟦119⟧⟨70⟩⟦183⟧⟨71⟩⟦201⟧⟨72⟩⟦202⟧⟨73⟩⟦200⟧⟨74⟩⟦415⟧⟨75⟩⟦197⟧⟨76⟩
+[The Settlers IV] ⟨77⟩⟦135⟧⟨78⟩⟦356⟧⟨79⟩⟦133⟧⟨80⟩⟦161⟧⟨81⟩⟦377⟧⟨82⟩⟦402⟧⟨83⟩⟦368⟧⟨84⟩
+[The Settlers IV] ⟨85⟩⟦419⟧⟨86⟩⟦144⟧⟨87⟩⟦404⟧⟨88⟩⟦405⟧⟨89⟩⟦82⟧⟨90⟩⟦335⟧⟨91⟩⟦136⟧⟨92⟩⟦133⟧⟨93⟩⟦134⟧⟨94⟩⟦190⟧⟨95⟩⟦295⟧⟨96⟩⟦295⟧⟨97⟩⟦355⟧⟨98⟩⟦221⟧⟨99⟩
+[The Settlers IV] ⟨100⟩⟦368⟧⟨101⟩⟦432⟧⟨102⟩⟦358⟧⟨103⟩
+[The Settlers IV] ⟦135⟧⟨104⟩⟦152⟧⟨105⟩⟦153⟧⟨106⟩⟦420⟧⟨107⟩⟦162⟧⟨108⟩⟦59⟧⟨109⟩⟦59⟧⟨110⟩⟦302⟧⟨111⟩⟦48⟧⟨112⟩
+[The Settlers IV] ⟨113⟩⟦303⟧⟨114⟩⟦139⟧⟨115⟩⟦139⟧⟨116⟩
+[Jones Falls Trail] ⟦174⟧⟨117⟩⟦169⟧⟨118⟩⟦14⟧⟨119⟩⟦157⟧⟨120⟩⟦65⟧⟨121⟩⟦409⟧⟨122⟩⟦60⟧⟨123⟩⟦185⟧⟨124⟩
+[Jones Falls Trail] ⟨125⟩⟦341⟧⟨126⟩⟦177⟧⟨127⟩⟦348⟧⟨128⟩⟦204⟧⟨129⟩⟦173⟧⟨130⟩⟦16⟧⟨131⟩⟦217⟧⟨132⟩⟦291⟧⟨133⟩⟦298⟧⟨134⟩⟦217⟧⟨135⟩⟦320⟧⟨136⟩⟦79⟧⟨137⟩⟦17⟧⟨138⟩⟦413⟧⟨139⟩⟦84⟧⟨140⟩⟦320⟧⟨141⟩⟦79⟧⟨142⟩
+[Jones Falls Trail] ⟨143⟩⟦318⟧⟨144⟩⟦66⟧⟨145⟩⟦228⟧⟨146⟩⟦106⟧⟨147⟩⟦165⟧⟨148⟩⟦204⟧⟨149⟩⟦224⟧⟨150⟩
+[Jones Falls Trail] ⟦339⟧⟨151⟩⟦30⟧⟨152⟩⟦272⟧⟨153⟩⟦328⟧⟨154⟩⟦20⟧⟨155⟩⟦210⟧⟨156⟩⟦256⟧⟨157⟩⟦256⟧⟨158⟩⟦65⟧⟨159⟩⟦260⟧⟨160⟩⟦341⟧⟨161⟩⟦177⟧⟨162⟩⟦327⟧⟨163⟩
+[M-1 (Michigan highway)] ⟦180⟧⟨164⟩⟦440⟧⟨165⟩⟦19⟧⟨166⟩⟦217⟧⟨167⟩⟦293⟧⟨168⟩⟦414⟧⟨169⟩⟦156⟧⟨170⟩⟦344⟧⟨171⟩⟦50⟧⟨172⟩⟦385⟧⟨173⟩⟦293⟧⟨174⟩⟦194⟧⟨175⟩
+[M-1 (Michigan highway)] ⟦338⟧⟨176⟩⟦156⟧⟨177⟩⟦1⟧⟨178⟩⟦92⟧⟨179⟩⟦217⟧⟨180⟩⟦237⟧⟨181⟩
+[M-1 (Michigan highway)] ⟨182⟩⟦332⟧⟨183⟩⟦58⟧⟨184⟩⟦91⟧⟨185⟩⟦194⟧⟨186⟩⟦143⟧⟨187⟩⟦146⟧⟨188⟩
+[M-1 (Michigan highway)] ⟦392⟧⟨189⟩⟦299⟧⟨190⟩⟦175⟧⟨191⟩⟦204⟧⟨192⟩⟦204⟧⟨193⟩⟦440⟧⟨194⟩
+[M-1 (Michigan highway)] ⟦330⟧⟨195⟩⟦122⟧⟨196⟩⟦338⟧⟨197⟩⟦156⟧⟨198⟩⟦316⟧⟨199⟩⟦43⟧⟨200⟩⟦351⟧⟨201⟩
+[M-1 (Michigan highway)] ⟨202⟩⟦25⟧⟨203⟩⟦345⟧⟨204⟩⟦413⟧⟨205⟩⟦189⟧⟨206⟩⟦346⟧⟨207⟩⟦384⟧⟨208⟩
+[Nathan F. Cobb] ⟦349⟧⟨209⟩⟦33⟧⟨210⟩⟦268⟧⟨211⟩⟦374⟧⟨212⟩⟦279⟧⟨213⟩⟦129⟧⟨214⟩⟦129⟧⟨215⟩⟦81⟧⟨216⟩⟦434⟧⟨217⟩⟦250⟧⟨218⟩⟦296⟧⟨219⟩⟦281⟧⟨220⟩⟦333⟧⟨221⟩⟦128⟧⟨222⟩⟦382⟧⟨223⟩
+[Nathan F. Cobb] ⟨224⟩⟦166⟧⟨225⟩⟦204⟧⟨226⟩⟦159⟧⟨227⟩⟦282⟧⟨228⟩⟦283⟧⟨229⟩⟦250⟧⟨230⟩⟦304⟧⟨231⟩⟦154⟧⟨232⟩⟦269⟧⟨233⟩⟦259⟧⟨234⟩⟦259⟧⟨235⟩⟦72⟧⟨236⟩⟦138⟧⟨237⟩⟦214⟧⟨238⟩⟦10⟧⟨239⟩⟦77⟧⟨240⟩⟦400⟧⟨241⟩⟦400⟧⟨242⟩⟦86⟧⟨243⟩⟦87⟧⟨244⟩⟦399⟧⟨245⟩
+[Nathan F. Cobb] ⟦322⟧⟨246⟩⟦83⟧⟨247⟩⟦31⟧⟨248⟩⟦280⟧⟨249⟩⟦427⟧⟨250⟩⟦269⟧⟨251⟩
+[Nathan F. Cobb] ⟦323⟧⟨252⟩⟦85⟧⟨253⟩⟦386⟧⟨254⟩⟦421⟧⟨255⟩⟦376⟧⟨256⟩⟦186⟧⟨257⟩⟦130⟧⟨258⟩⟦88⟧⟨259⟩⟦27⟧⟨260⟩⟦263⟧⟨261⟩⟦222⟧⟨262⟩⟦127⟧⟨263⟩
+[Nathan F. Cobb] ⟦249⟧⟨264⟩⟦54⟧⟨265⟩⟦326⟧⟨266⟩⟦105⟧⟨267⟩⟦429⟧⟨268⟩⟦430⟧⟨269⟩⟦433⟧⟨270⟩⟦68⟧⟨271⟩⟦216⟧⟨272⟩⟦85⟧⟨273⟩⟦191⟧⟨274⟩
+[Nathan F. Cobb] ⟦23⟧⟨275⟩⟦233⟧⟨276⟩⟦121⟧⟨277⟩⟦248⟧⟨278⟩⟦111⟧⟨279⟩
+[Nathan F. Cobb] ⟦321⟧⟨280⟩⟦32⟧⟨281⟩⟦300⟧⟨282⟩⟦187⟧⟨283⟩⟦187⟧⟨284⟩⟦373⟧⟨285⟩⟦278⟧⟨286⟩⟦226⟧⟨287⟩⟦226⟧⟨288⟩⟦223⟧⟨289⟩
+[Gurnee School District 56] ⟦150⟧⟨290⟩⟦22⟧⟨291⟩⟦266⟧⟨292⟩⟦96⟧⟨293⟩⟦353⟧⟨294⟩⟦426⟧⟨295⟩⟦363⟧⟨296⟩⟦266⟧⟨297⟩⟦96⟧⟨298⟩⟦204⟧⟨299⟩⟦160⟧⟨300⟩
+[Gurnee School District 56] ⟦150⟧⟨301⟩⟦131⟧⟨302⟩⟦267⟧⟨303⟩⟦398⟧⟨304⟩⟦267⟧⟨305⟩⟦301⟧⟨306⟩⟦301⟧⟨307⟩⟦274⟧⟨308⟩⟦40⟧⟨309⟩⟦142⟧⟨310⟩
+[Gurnee School District 56] ⟦110⟧⟨311⟩⟦396⟧⟨312⟩⟦266⟧⟨313⟩⟦96⟧⟨314⟩⟦292⟧⟨315⟩⟦331⟧⟨316⟩⟦142⟧⟨317⟩⟦24⟧⟨318⟩⟦245⟧⟨319⟩
+[Gurnee School District 56] ⟦360⟧⟨320⟩⟦244⟧⟨321⟩⟦100⟧⟨322⟩⟦315⟧⟨323⟩⟦244⟧⟨324⟩⟦99⟧⟨325⟩
+[Gurnee School District 56] ⟨326⟩⟦241⟧⟨327⟩⟦393⟧⟨328⟩⟦141⟧⟨329⟩
+[Gurnee School District 56] ⟦176⟧⟨330⟩⟦364⟧⟨331⟩⟦266⟧⟨332⟩⟦244⟧⟨333⟩⟦277⟧⟨334⟩⟦315⟧⟨335⟩⟦244⟧⟨336⟩⟦240⟧⟨337⟩
+[Gurnee School District 56] ⟦340⟧⟨338⟩⟦271⟧⟨339⟩⟦395⟧⟨340⟩⟦71⟧⟨341⟩⟦325⟧⟨342⟩⟦96⟧⟨343⟩⟦110⟧⟨344⟩⟦287⟧⟨345⟩⟦141⟧⟨346⟩⟦425⟧⟨347⟩⟦435⟧⟨348⟩⟦244⟧⟨349⟩⟦229⟧⟨350⟩
+[Gurnee School District 56] ⟦423⟧⟨351⟩⟦167⟧⟨352⟩⟦101⟧⟨353⟩⟦52⟧⟨354⟩⟦246⟧⟨355⟩⟦163⟧⟨356⟩⟦49⟧⟨357⟩
+[Gurnee School District 56] ⟦424⟧⟨358⟩⟦431⟧⟨359⟩⟦149⟧⟨360⟩⟦160⟧⟨361⟩
+[Gurnee School District 56] ⟦324⟧⟨362⟩⟦12⟧⟨363⟩⟦125⟧⟨364⟩⟦73⟧⟨365⟩
+[Steve Prefontaine] ⟦294⟧⟨366⟩⟦168⟧⟨367⟩⟦188⟧⟨368⟩⟦44⟧⟨369⟩⟦95⟧⟨370⟩⟦261⟧⟨371⟩⟦306⟧⟨372⟩
+[Steve Prefontaine] ⟦243⟧⟨373⟩⟦313⟧⟨374⟩⟦247⟧⟨375⟩⟦276⟧⟨376⟩⟦95⟧⟨377⟩⟦408⟧⟨378⟩⟦115⟧⟨379⟩⟦308⟧⟨380⟩⟦192⟧⟨381⟩⟦305⟧⟨382⟩⟦192⟧⟨383⟩
+[Steve Prefontaine] ⟦243⟧⟨384⟩⟦188⟧⟨385⟩⟦312⟧⟨386⟩⟦39⟧⟨387⟩⟦45⟧⟨388⟩⟦57⟧⟨389⟩⟦36⟧⟨390⟩⟦114⟧⟨391⟩⟦220⟧⟨392⟩
+[2003 SCCA ProRally season] ⟦310⟧⟨393⟩⟦264⟧⟨394⟩⟦311⟧⟨395⟩⟦270⟧⟨396⟩⟦362⟧⟨397⟩⟦181⟧⟨398⟩⟦80⟧⟨399⟩⟦80⟧⟨400⟩⟦102⟧⟨401⟩⟦103⟧⟨402⟩
+[2003 SCCA ProRally season] ⟦215⟧⟨403⟩⟦258⟧⟨404⟩⟦365⟧⟨405⟩⟦270⟧⟨406⟩⟦35⟧⟨407⟩⟦36⟧⟨408⟩⟦354⟧⟨409⟩⟦309⟧⟨410⟩⟦78⟧⟨411⟩⟦184⟧⟨412⟩⟦158⟧⟨413⟩⟦80⟧⟨414⟩⟦102⟧⟨415⟩
+[2003 SCCA ProRally season] ⟨416⟩⟦366⟧⟨417⟩⟦104⟧⟨418⟩⟦367⟧⟨419⟩⟦273⟧⟨420⟩⟦172⟧⟨421⟩⟦42⟧⟨422⟩⟦36⟧⟨423⟩⟦307⟧⟨424⟩
+[Bell Mountain Wilderness] ⟦381⟧⟨425⟩⟦317⟧⟨426⟩
+[Bell Mountain Wilderness] ⟦388⟧⟨427⟩⟦436⟧⟨428⟩⟦50⟧⟨429⟩⟦34⟧⟨430⟩⟦403⟧⟨431⟩⟦8⟧⟨432⟩⟦37⟧⟨433⟩
+[Bell Mountain Wilderness] ⟦63⟧⟨434⟩⟦359⟧⟨435⟩⟦343⟧⟨436⟩⟦290⟧⟨437⟩⟦238⟧⟨438⟩⟦199⟧⟨439⟩⟦380⟧⟨440⟩
+[Bell Mountain Wilderness] ⟦387⟧⟨441⟩⟦436⟧⟨442⟩⟦361⟧⟨443⟩⟦164⟧⟨444⟩⟦235⟧⟨445⟩⟦63⟧⟨446⟩⟦4⟧⟨447⟩⟦113⟧⟨448⟩
+[Bell Mountain Wilderness] ⟨449⟩⟦204⟧⟨450⟩⟦63⟧⟨451⟩⟦347⟧⟨452⟩⟦203⟧⟨453⟩⟦155⟧⟨454⟩⟦21⟧⟨455⟩⟦232⟧⟨456⟩⟦275⟧⟨457⟩
+[Bell Mountain Wilderness] ⟦317⟧⟨458⟩⟦112⟧⟨459⟩⟦436⟧⟨460⟩⟦51⟧⟨461⟩⟦199⟧⟨462⟩
+[Bell Mountain Wilderness] ⟦314⟧⟨463⟩⟦50⟧⟨464⟩⟦7⟧⟨465⟩⟦193⟧⟨466⟩⟦409⟧⟨467⟩⟦409⟧⟨468⟩⟦29⟧⟨469⟩⟦271⟧⟨470⟩⟦357⟧⟨471⟩
+[Pre's Trail] ⟦242⟧⟨472⟩⟦352⟧⟨473⟩⟦217⟧⟨474⟩⟦284⟧⟨475⟩⟦389⟧⟨476⟩⟦114⟧⟨477⟩⟦220⟧⟨478⟩⟦417⟧⟨479⟩⟦3⟧⟨480⟩⟦13⟧⟨481⟩⟦196⟧⟨482⟩⟦262⟧⟨483⟩⟦409⟧⟨484⟩⟦220⟧⟨485⟩⟦53⟧⟨486⟩
+[Pre's Trail] ⟦390⟧⟨487⟩⟦438⟧⟨488⟩⟦61⟧⟨489⟩⟦409⟧⟨490⟩⟦254⟧⟨491⟩⟦265⟧⟨492⟩⟦145⟧⟨493⟩⟦145⟧⟨494⟩⟦107⟧⟨495⟩⟦108⟧⟨496⟩⟦236⟧⟨497⟩⟦439⟧⟨498⟩⟦439⟧⟨499⟩⟦147⟧⟨500⟩⟦148⟧⟨501⟩⟦285⟧⟨502⟩⟦409⟧⟨503⟩⟦410⟧⟨504⟩⟦183⟧⟨505⟩⟦397⟧⟨506⟩⟦411⟧⟨507⟩
+[Pre's Trail] ⟦207⟧⟨508⟩⟦98⟧⟨509⟩⟦41⟧⟨510⟩⟦242⟧⟨511⟩⟦226⟧⟨512⟩⟦226⟧⟨513⟩⟦47⟧⟨514⟩⟦210⟧⟨515⟩⟦412⟧⟨516⟩⟦412⟧⟨517⟩⟦383⟧⟨518⟩⟦418⟧⟨519⟩⟦407⟧⟨520⟩⟦208⟧⟨521⟩⟦209⟧⟨522⟩
+[Capital Area Greenbelt] ⟦319⟧⟨523⟩⟦15⟧⟨524⟩⟦409⟧⟨525⟩⟦314⟧⟨526⟩⟦50⟧⟨527⟩⟦151⟧⟨528⟩⟦230⟧⟨529⟩
+[Capital Area Greenbelt] ⟦394⟧⟨530⟩⟦196⟧⟨531⟩⟦179⟧⟨532⟩⟦231⟧⟨533⟩⟦76⟧⟨534⟩⟦79⟧⟨535⟩⟦428⟧⟨536⟩⟦428⟧⟨537⟩⟦406⟧⟨538⟩⟦406⟧⟨539⟩⟦219⟧⟨540⟩⟦219⟧⟨541⟩⟦252⟧⟨542⟩⟦253⟧⟨543⟩⟦64⟧⟨544⟩⟦288⟧⟨545⟩⟦288⟧⟨546⟩⟦170⟧⟨547⟩⟦170⟧⟨548⟩⟦123⟧⟨549⟩⟦123⟧⟨550⟩⟦391⟧⟨551⟩⟦97⟧⟨552⟩⟦205⟧⟨553⟩⟦126⟧⟨554⟩⟦120⟧⟨555⟩⟦120⟧⟨556⟩⟦206⟧⟨557⟩⟦206⟧⟨558⟩
+[Capital Area Greenbelt] ⟨559⟩⟦227⟧⟨560⟩⟦227⟧⟨561⟩⟦378⟧⟨562⟩⟦409⟧⟨563⟩⟦257⟧⟨564⟩⟦257⟧⟨565⟩⟦342⟧⟨566⟩⟦179⟧⟨567⟩⟦11⟧⟨568⟩⟦228⟧⟨569⟩
+[Capital Area Greenbelt] ⟦378⟧⟨570⟩⟦178⟧⟨571⟩⟦178⟧⟨572⟩⟦375⟧⟨573⟩⟦251⟧⟨574⟩⟦255⟧⟨575⟩⟦124⟧⟨576⟩⟦437⟧⟨577⟩
+[Capital Area Greenbelt] ⟨578⟩⟦38⟧⟨579⟩⟦38⟧⟨580⟩⟦62⟧⟨581⟩⟦225⟧⟨582⟩⟦319⟧⟨583⟩⟦289⟧⟨584⟩⟦55⟧⟨585⟩⟦337⟧⟨586⟩⟦286⟧⟨587⟩⟦171⟧⟨588⟩⟦6⟧⟨589⟩⟦204⟧⟨590⟩⟦320⟧⟨591⟩⟦79⟧⟨592⟩⟦151⟧⟨593⟩⟦336⟧⟨594⟩⟦350⟧⟨595⟩
+
+[user]
+
+问题：
+How did Pre's Trail's namesake die?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

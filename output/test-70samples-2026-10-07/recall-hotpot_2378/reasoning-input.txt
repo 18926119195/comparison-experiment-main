@@ -1,0 +1,114 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Homotopy analysis method] ⟦274⟧⟨217⟩⟨218⟩⟨216⟩⟨219⟩⟦267⟧⟦81⟧⟨220⟩⟨221⟩⟦273⟧⟨222⟩⟨223⟩⟨224⟩⟨225⟩⟦9⟧⟦84⟧⟨227⟩⟨228⟩⟦246⟧⟨226⟩⟨229⟩⟦178⟧⟨230⟩⟨231⟩
+[Homotopy analysis method] ⟨232⟩⟦13⟧⟨234⟩⟨233⟩⟨235⟩⟦284⟧⟦180⟧⟨236⟩⟨237⟩⟦292⟧⟦256⟧⟨238⟩⟨239⟩
+[Taylor series] ⟦30⟧⟦225⟧⟨265⟩⟨266⟩⟦19⟧⟦209⟧⟨267⟩⟨268⟩⟦12⟧⟨269⟩⟨270⟩⟦44⟧⟦255⟧⟨271⟩⟨272⟩⟦262⟧⟦262⟧⟨273⟩⟨274⟩⟦294⟧⟦308⟧⟨275⟩⟨276⟩⟦272⟧⟦125⟧⟦125⟧⟨278⟩⟦92⟧⟨277⟩⟨279⟩⟦26⟧⟦193⟧⟨280⟩ | ⟦225⟧ | ⟦225⟧
+[Weighted correlation network analysis] ⟦303⟧⟦303⟧
+[Weighted correlation network analysis] ⟦257⟧
+[Classifying space] ⟦138⟧⟦138⟧ | ⟦138⟧
+[Newmark's sliding block] ⟦160⟧⟦46⟧
+
+符号表：
+⟦9⟧ = a convergent series solution
+⟦12⟧ = a function
+⟦13⟧ = a homotopy-Maclaurin series
+⟦19⟧ = a representation
+⟦26⟧ = a single point
+⟦30⟧ = a Taylor series
+⟦44⟧ = an infinite sum
+⟦46⟧ = analysis
+⟦81⟧ = concept
+⟦84⟧ = convergent
+⟦92⟧ = derivatives
+⟦125⟧ = function
+⟦138⟧ = homotopy
+⟦160⟧ = method
+⟦178⟧ = nonlinear systems
+⟦180⟧ = nonlinearities
+⟦193⟧ = point
+⟦209⟧ = representation
+⟦225⟧ = series
+⟦246⟧ = solution
+⟦255⟧ = sum
+⟦256⟧ = system
+⟦257⟧ = systems
+⟦262⟧ = terms
+⟦267⟧ = the concept
+⟦272⟧ = the function's derivatives
+⟦273⟧ = the homotopy
+⟦274⟧ = The homotopy analysis method
+⟦284⟧ = the nonlinearities
+⟦292⟧ = the system
+⟦294⟧ = the values
+⟦303⟧ = topology
+⟦308⟧ = values
+
+占位符映射：
+⟨216⟩ = 
+⟨217⟩ =  
+⟨218⟩ =  
+⟨219⟩ =  employs 
+⟨220⟩ = 
+⟨221⟩ =  of 
+⟨222⟩ = 
+⟨223⟩ =  from 
+⟨224⟩ = 
+⟨225⟩ =  to generate 
+⟨226⟩ = 
+⟨227⟩ =  
+⟨228⟩ =  
+⟨229⟩ =  for 
+⟨230⟩ = 
+⟨231⟩ = .
+⟨232⟩ =  This is enabled by utilizing 
+⟨233⟩ = 
+⟨234⟩ = -Maclaurin 
+⟨235⟩ =  to deal with 
+⟨236⟩ = 
+⟨237⟩ =  in 
+⟨238⟩ = 
+⟨239⟩ = .
+⟨265⟩ = 
+⟨266⟩ =  is 
+⟨267⟩ = 
+⟨268⟩ =  of 
+⟨269⟩ = 
+⟨270⟩ =  as 
+⟨271⟩ = 
+⟨272⟩ =  of 
+⟨273⟩ = 
+⟨274⟩ =  that are calculated from 
+⟨275⟩ = 
+⟨276⟩ =  of 
+⟨277⟩ = 
+⟨278⟩ = 's 
+⟨279⟩ =  at 
+⟨280⟩ = 
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+How does this series represent a function, which is also used in the Homotopy analysis method?

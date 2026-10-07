@@ -1,0 +1,62 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Franklin Community Schools] ⟨51⟩⟨53⟩⟨52⟩⟨54⟩⟨55⟩⟨56⟩
+[Franklin Community High School] ⟦55⟧⟨57⟩⟦8⟧⟦36⟧⟨59⟩⟨58⟩⟨60⟩⟦54⟧⟨61⟩⟨62⟩ | ⟦54⟧
+[Franklin Community High School] ⟦56⟧
+[St. Charles Community Schools] ⟦17⟧
+[Culver Community High School] ⟦62⟧ | ⟦62⟧
+[East Peoria Community High School] ⟦110⟧ | ⟦110⟧
+[East Peoria Community High School] ⟦41⟧
+
+符号表：
+⟦8⟧ = a community high school
+⟦17⟧ = a school district
+⟦36⟧ = Community
+⟦41⟧ = district
+⟦54⟧ = Franklin
+⟦55⟧ = Franklin Community High School
+⟦56⟧ = Franklin Community Schools
+⟦62⟧ = Indiana
+⟦110⟧ = school
+
+占位符映射：
+⟨51⟩ =  is 
+⟨52⟩ = 
+⟨53⟩ =  
+⟨54⟩ =  headquartered in 
+⟨55⟩ = , 
+⟨56⟩ = .
+⟨57⟩ =  is 
+⟨58⟩ = 
+⟨59⟩ =  high 
+⟨60⟩ =  based in 
+⟨61⟩ = , 
+⟨62⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Where was the community schools to which Franklin Community High School was part of headquartered ?

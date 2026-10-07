@@ -1,0 +1,127 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Trier] ⟦335⟧⟦151⟧⟨242⟩⟨243⟩⟦330⟧⟨244⟩⟦94⟧⟨245⟩⟨246⟩⟨247⟩⟦103⟧⟨248⟩⟦1⟧⟦331⟧⟦331⟧⟦331⟧⟨249⟩⟨250⟩⟦336⟧⟦336⟧⟨251⟩⟨252⟩⟦171⟧⟦171⟧⟨253⟩⟨254⟩⟦180⟧⟦140⟧⟨255⟩⟨256⟩⟦21⟧⟨257⟩⟨258⟩⟨259⟩⟦246⟧⟦47⟧⟨260⟩⟨261⟩⟦281⟧⟨262⟩
+[Trier] ⟨263⟩⟦30⟧⟦344⟧⟨264⟩⟨265⟩⟦147⟧⟦350⟧⟨267⟩⟦115⟧⟨266⟩⟨268⟩⟦205⟧⟦216⟧⟨269⟩⟨270⟩⟦321⟧⟦356⟧⟨271⟩⟨272⟩⟦314⟧⟦232⟧⟨273⟩⟨274⟩⟦210⟧⟨275⟩⟦251⟧⟦56⟧⟨276⟩⟨277⟩⟦150⟧⟨278⟩⟦268⟧⟦359⟧⟨280⟩⟦206⟧⟨279⟩⟨281⟩
+[Kosasthalaiyar River] ⟦75⟧
+[I Drink My Coffee Alone] ⟦109⟧ | ⟦334⟧
+[I Drink My Coffee Alone] ⟦106⟧⟨564⟩⟦178⟧⟦96⟧⟨565⟩⟨566⟩⟦339⟧⟦142⟧⟨568⟩⟦34⟧⟨567⟩⟨569⟩
+
+符号表：
+⟦1⟧ = : "Trèves
+⟦21⟧ = a city
+⟦30⟧ = a valley
+⟦34⟧ = albums
+⟦47⟧ = banks
+⟦56⟧ = border
+⟦75⟧ = city
+⟦94⟧ = English
+⟦96⟧ = EP
+⟦103⟧ = French
+⟦106⟧ = Gazin
+⟦109⟧ = Germany
+⟦115⟧ = hills
+⟦140⟧ = languages
+⟦142⟧ = length
+⟦147⟧ = low vine-covered hills
+⟦150⟧ = Luxembourg
+⟦151⟧ = Luxembourgish
+⟦171⟧ = names
+⟦178⟧ = one EP
+⟦180⟧ = other languages
+⟦205⟧ = red sandstone
+⟦206⟧ = region
+⟦210⟧ = Rhineland-Palatinate
+⟦216⟧ = sandstone
+⟦232⟧ = state
+⟦246⟧ = the banks
+⟦251⟧ = the border
+⟦268⟧ = the important Moselle wine region
+⟦281⟧ = the Moselle
+⟦314⟧ = the state
+⟦321⟧ = the west
+⟦330⟧ = Tréier
+⟦331⟧ = Trèves
+⟦334⟧ = Trier
+⟦335⟧ = Trier (] ; Luxembourgish
+⟦336⟧ = Triers
+⟦339⟧ = two full-length albums
+⟦344⟧ = valley
+⟦350⟧ = vine
+⟦356⟧ = west
+⟦359⟧ = wine
+
+占位符映射：
+⟨242⟩ = 
+⟨243⟩ = : "
+⟨244⟩ = " ] ), formerly known in 
+⟨245⟩ =  as 
+⟨246⟩ = 
+⟨247⟩ =  (
+⟨248⟩ = 
+⟨249⟩ = 
+⟨250⟩ = " , ] ) and 
+⟨251⟩ = 
+⟨252⟩ =  (see also 
+⟨253⟩ = 
+⟨254⟩ =  in 
+⟨255⟩ = 
+⟨256⟩ = ), is 
+⟨257⟩ = 
+⟨258⟩ =  in 
+⟨259⟩ =  on 
+⟨260⟩ = 
+⟨261⟩ =  of 
+⟨262⟩ = .
+⟨263⟩ =  lies in 
+⟨264⟩ = 
+⟨265⟩ =  between 
+⟨266⟩ = 
+⟨267⟩ = -covered 
+⟨268⟩ =  of 
+⟨269⟩ = 
+⟨270⟩ =  in 
+⟨271⟩ = 
+⟨272⟩ =  of 
+⟨273⟩ = 
+⟨274⟩ =  of 
+⟨275⟩ = , near 
+⟨276⟩ = 
+⟨277⟩ =  with 
+⟨278⟩ =  and within 
+⟨279⟩ = 
+⟨280⟩ =  
+⟨281⟩ = .
+⟨564⟩ =  has previously released 
+⟨565⟩ = 
+⟨566⟩ =  and 
+⟨567⟩ = 
+⟨568⟩ =  
+⟨569⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which river flows next to the German town where the music project "I Drink My Coffee Alone" by Alex Gazin originates from?

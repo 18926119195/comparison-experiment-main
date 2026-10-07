@@ -1,0 +1,115 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Hot toddy] ⟦13⟧⟨1⟩⟨2⟩⟦93⟧⟦207⟧⟨3⟩⟨4⟩⟦95⟧⟨5⟩⟨6⟩⟨7⟩⟦106⟧⟦106⟧⟨8⟩⟨9⟩⟦204⟧⟦204⟧⟨10⟩⟨11⟩⟨12⟩⟨13⟩⟦146⟧⟨14⟩⟨15⟩⟦154⟧⟦154⟧⟨16⟩⟨17⟩⟦81⟧⟦81⟧⟨18⟩⟨19⟩⟨20⟩⟨21⟩⟦148⟧⟦148⟧⟨22⟩⟨23⟩
+[Hot toddy] ⟦135⟧ | ⟦92⟧⟨25⟩⟦135⟧⟨24⟩⟨26⟩⟦178⟧⟦118⟧⟨27⟩⟨28⟩⟦206⟧⟦205⟧⟨29⟩⟨30⟩
+[Hot toddy] ⟦87⟧⟦87⟧
+[Hot toddy (disambiguation)] ⟦17⟧⟦63⟧
+[Kir (cocktail)] ⟦102⟧⟨154⟩⟦18⟧⟨155⟩⟨156⟩⟦15⟧⟦110⟧⟨157⟩⟨158⟩⟦55⟧⟦44⟧⟨159⟩⟨160⟩⟦2⟧⟦39⟧⟨162⟩⟨161⟩⟦208⟧⟨163⟩⟨164⟩
+[Vino cotto] ⟦209⟧
+[Blueberry Tea] ⟦157⟧⟦157⟧ | ⟦51⟧
+[Blueberry Tea] ⟦189⟧ | ⟦189⟧
+
+符号表：
+⟦2⟧ = (blackcurrant liqueur
+⟦13⟧ = A hot toddy
+⟦15⟧ = a measure
+⟦17⟧ = a mixed drink
+⟦18⟧ = a popular French cocktail
+⟦39⟧ = blackcurrant
+⟦44⟧ = cassis
+⟦51⟧ = cocktail
+⟦55⟧ = crème de cassis
+⟦63⟧ = drink
+⟦81⟧ = herbs
+⟦87⟧ = honey
+⟦92⟧ = Hot toddy recipes
+⟦93⟧ = hot whiskey
+⟦95⟧ = Ireland
+⟦102⟧ = Kir
+⟦106⟧ = liquor
+⟦110⟧ = measure
+⟦118⟧ = night
+⟦135⟧ = recipes
+⟦146⟧ = some recipes
+⟦148⟧ = spices
+⟦154⟧ = sugar
+⟦157⟧ = tea
+⟦178⟧ = the night
+⟦189⟧ = toddy
+⟦204⟧ = water
+⟦205⟧ = weather
+⟦206⟧ = wet or cold weather
+⟦207⟧ = whiskey
+⟦208⟧ = white wine
+⟦209⟧ = wine
+
+占位符映射：
+⟨1⟩ = 
+⟨2⟩ = , also known as 
+⟨3⟩ = 
+⟨4⟩ =  in 
+⟨5⟩ = , is typically 
+⟨6⟩ = 
+⟨7⟩ =  made of 
+⟨8⟩ = 
+⟨9⟩ =  and 
+⟨10⟩ = 
+⟨11⟩ =  with 
+⟨12⟩ = 
+⟨13⟩ =  (or, in 
+⟨14⟩ = 
+⟨15⟩ = , 
+⟨16⟩ = 
+⟨17⟩ = ), 
+⟨18⟩ = 
+⟨19⟩ =  (such as 
+⟨20⟩ = 
+⟨21⟩ = ) and 
+⟨22⟩ = 
+⟨23⟩ = , and served hot.
+⟨24⟩ = 
+⟨25⟩ =  
+⟨26⟩ =  vary and are traditionally drunk before retiring for 
+⟨27⟩ = 
+⟨28⟩ = , or in 
+⟨29⟩ = 
+⟨30⟩ = .
+⟨154⟩ =  is 
+⟨155⟩ = 
+⟨156⟩ =  made with 
+⟨157⟩ = 
+⟨158⟩ =  of 
+⟨159⟩ = 
+⟨160⟩ =  
+⟨161⟩ = 
+⟨162⟩ =  liqueur) topped up with 
+⟨163⟩ = 
+⟨164⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+which is traditionally drunk before retiring to bed, Hot toddy or Kir?

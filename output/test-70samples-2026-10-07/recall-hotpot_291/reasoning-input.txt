@@ -1,0 +1,98 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Wytheville, Virginia] ⟨135⟩⟦40⟧⟨136⟩⟨137⟩⟦219⟧⟨139⟩⟦179⟧⟨138⟩⟨140⟩⟦305⟧⟨141⟩⟨142⟩⟦294⟧⟨143⟩
+[Wytheville, Virginia] ⟦307⟧⟦165⟧⟨153⟩⟨154⟩⟦209⟧⟦68⟧⟨155⟩⟨156⟩
+[Wytheville, Virginia] ⟦306⟧
+[Wytheville, Virginia] ⟦286⟧
+[List of Interstate Highways in Maryland] ⟦78⟧
+[Interstate 81 in Virginia] ⟨397⟩⟦49⟧⟨399⟩⟨398⟩⟨400⟩
+[Interstate 81 in Virginia] ⟨401⟩⟨402⟩⟨403⟩⟨404⟩⟦20⟧⟨405⟩⟨406⟩⟦253⟧⟨407⟩⟨408⟩⟨409⟩⟦51⟧⟨411⟩⟦166⟧⟦166⟧⟨410⟩⟨412⟩
+[List of Interstate Highways in Texas] ⟦271⟧
+[Interstate 85 in Virginia] ⟦124⟧
+[Interstate 85 in Virginia] ⟦143⟧ | ⟦143⟧⟦197⟧⟦197⟧
+[Interstate 85 in Virginia] ⟦106⟧
+[Interstate 85 in Virginia] ⟦299⟧ | ⟦299⟧⟦299⟧
+
+符号表：
+⟦20⟧ = 324.92 mi
+⟦40⟧ = a town
+⟦49⟧ = an 855 mi highway
+⟦51⟧ = any other state's portion
+⟦68⟧ = census
+⟦78⟧ = county
+⟦106⟧ = highway
+⟦124⟧ = Interstate
+⟦143⟧ = mi
+⟦165⟧ = population
+⟦166⟧ = portion
+⟦179⟧ = seat
+⟦197⟧ = state
+⟦209⟧ = the 2010 census
+⟦219⟧ = the county seat
+⟦253⟧ = the portion
+⟦271⟧ = the U.S. state
+⟦286⟧ = town
+⟦294⟧ = United States
+⟦299⟧ = Virginia
+⟦305⟧ = Wythe County
+⟦306⟧ = Wytheville
+⟦307⟧ = Wytheville's population
+
+占位符映射：
+⟨135⟩ =  ( ) is 
+⟨136⟩ = 
+⟨137⟩ =  in, and 
+⟨138⟩ = 
+⟨139⟩ =  
+⟨140⟩ =  of, 
+⟨141⟩ = , 
+⟨142⟩ = , 
+⟨143⟩ = .
+⟨153⟩ = 
+⟨154⟩ =  was 8,211 at 
+⟨155⟩ = 
+⟨156⟩ = .
+⟨397⟩ =  81 (I-81) is 
+⟨398⟩ = 
+⟨399⟩ =  
+⟨400⟩ = .
+⟨401⟩ =  In 
+⟨402⟩ = 
+⟨403⟩ =  of 
+⟨404⟩ = , I-81 runs for 
+⟨405⟩ = 
+⟨406⟩ =  , making 
+⟨407⟩ = 
+⟨408⟩ =  in 
+⟨409⟩ =  longer than 
+⟨410⟩ = 
+⟨411⟩ = 's 
+⟨412⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the population of the town at the intersection of Interstate Highways 77 and  the longest Interstate highway within the borders of Virginia?

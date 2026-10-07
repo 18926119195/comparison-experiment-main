@@ -1,0 +1,93 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Sanctuary (band)] ⟨1⟩⟦28⟧⟨3⟩⟨2⟩⟨4⟩⟨5⟩
+[Nevermore (album)] ⟦185⟧
+[Nevermore] ⟦186⟧
+[Warrel Dane] ⟦291⟧⟨289⟩⟦238⟧⟨291⟩⟨290⟩⟨292⟩⟦221⟧⟦169⟧⟨294⟩⟨295⟩⟨296⟩⟨293⟩
+[Toshi (musician)] ⟦195⟧ | ⟦276⟧⟨318⟩⟦4⟧⟦7⟧⟨319⟩⟨320⟩⟦78⟧⟨321⟩⟦216⟧⟨322⟩⟦57⟧⟨323⟩⟦116⟧⟦206⟧⟨325⟩⟦149⟧⟨324⟩⟨326⟩⟨327⟩⟦14⟧⟦195⟧⟨328⟩⟨329⟩⟨330⟩⟨331⟩
+[Toshi (musician)] ⟦275⟧
+[Peter Wichers] ⟦128⟧ | ⟦203⟧⟦203⟧
+[Praises to the War Machine] ⟦146⟧ | ⟦146⟧
+[Praises to the War Machine] ⟦41⟧ | ⟦41⟧
+
+符号表：
+⟦4⟧ = (出山利三
+⟦7⟧ = 出山利三
+⟦14⟧ = a Japanese singer
+⟦28⟧ = an American heavy metal band
+⟦41⟧ = band
+⟦57⟧ = Chiba
+⟦78⟧ = Deyama Toshimitsu
+⟦116⟧ = his stage name
+⟦128⟧ = lead
+⟦146⟧ = metal
+⟦149⟧ = name
+⟦169⟧ = power
+⟦185⟧ = Sanctuary
+⟦186⟧ = Seattle
+⟦195⟧ = singer
+⟦203⟧ = songwriter
+⟦206⟧ = stage
+⟦216⟧ = Tateyama
+⟦221⟧ = the American power metal band Sanctuary
+⟦238⟧ = the lead singer
+⟦275⟧ = Toshi
+⟦276⟧ = Toshimitsu Deyama
+⟦291⟧ = Warrel Dane
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  
+⟨4⟩ =  founded in 
+⟨5⟩ =  in 1985.
+⟨289⟩ =  (born March 7, 1969) is 
+⟨290⟩ = 
+⟨291⟩ =  
+⟨292⟩ =  of 
+⟨293⟩ = 
+⟨294⟩ =  
+⟨295⟩ =  
+⟨296⟩ =  Sanctuary.
+⟨318⟩ =  
+⟨319⟩ = 
+⟨320⟩ =  , 
+⟨321⟩ =  , born October 10, 1965 in 
+⟨322⟩ = , 
+⟨323⟩ = ) , known exclusively by 
+⟨324⟩ = 
+⟨325⟩ =  
+⟨326⟩ =  
+⟨327⟩ = , is 
+⟨328⟩ = 
+⟨329⟩ =  and 
+⟨330⟩ = 
+⟨331⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Are Toshi and Warrel Dane both in the band Sanctuary?

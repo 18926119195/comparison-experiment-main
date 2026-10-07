@@ -1,0 +1,326 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "A Sporting Proposition
+⟦2⟧ = "Chillicothe
+⟦3⟧ = “finely chopped beef
+⟦4⟧ = "Shrek
+⟦5⟧ = "The Wild Pony
+⟦6⟧ = ("Anne
+⟦7⟧ = 94-score butter
+⟦8⟧ = a "pony wheel
+⟦9⟧ = a 1975 American-Australian family adventure film
+⟦10⟧ = a 2019 or 2020 release
+⟦11⟧ = a book
+⟦12⟧ = a Canadian film
+⟦13⟧ = a fifth film
+⟦14⟧ = a film producer
+⟦15⟧ = a group
+⟦16⟧ = a high-risk activity
+⟦17⟧ = a major town celebration
+⟦18⟧ = a parade
+⟦19⟧ = a paramount concern
+⟦20⟧ = a Pony Auction
+⟦21⟧ = A pony ride
+⟦22⟧ = a race
+⟦23⟧ = a sequel
+⟦24⟧ = A short 4-D film
+⟦25⟧ = a short time
+⟦26⟧ = a small circle
+⟦27⟧ = a small type
+⟦28⟧ = a theme park ride
+⟦29⟧ = a town
+⟦30⟧ = a walk
+⟦31⟧ = a Wild Pony
+⟦32⟧ = a wild pony sale
+⟦33⟧ = a Wild Pony Swim
+⟦34⟧ = activity
+⟦35⟧ = actor
+⟦36⟧ = adventure
+⟦37⟧ = Alberta
+⟦38⟧ = all ponies
+⟦39⟧ = American author Walt Morey
+⟦40⟧ = an annual event
+⟦41⟧ = an opportunity
+⟦42⟧ = an upcoming American computer-animated film
+⟦43⟧ = Art Hindle
+⟦44⟧ = arts
+⟦45⟧ = Assateague Island
+⟦46⟧ = author
+⟦47⟧ = autumn
+⟦48⟧ = backdrop
+⟦49⟧ = beef
+⟦50⟧ = bluegrass
+⟦51⟧ = Bonnee Buttered Beef Steaks
+⟦52⟧ = book
+⟦53⟧ = butter
+⟦54⟧ = Buttered
+⟦55⟧ = Calgary
+⟦56⟧ = camps
+⟦57⟧ = Canadian Actors Marilyn Lightstone
+⟦58⟧ = celebration
+⟦59⟧ = census
+⟦60⟧ = channel
+⟦61⟧ = children
+⟦62⟧ = Chincoteague
+⟦63⟧ = Chincoteague Island
+⟦64⟧ = Chúcaro
+⟦65⟧ = circle
+⟦66⟧ = companies
+⟦67⟧ = computer
+⟦68⟧ = concern
+⟦69⟧ = concerns
+⟦70⟧ = contestants
+⟦71⟧ = county
+⟦72⟧ = courthouse
+⟦73⟧ = cowboys
+⟦74⟧ = crafts
+⟦75⟧ = dance
+⟦76⟧ = details
+⟦77⟧ = distinction
+⟦78⟧ = Don Chaffey
+⟦79⟧ = DreamWorks Animation
+⟦80⟧ = Eda Lishman
+⟦81⟧ = event
+⟦82⟧ = example
+⟦83⟧ = factual information
+⟦84⟧ = fairs
+⟦85⟧ = family
+⟦86⟧ = feral Chincoteague Ponies
+⟦87⟧ = fewer handlers
+⟦88⟧ = fiction
+⟦89⟧ = film
+⟦90⟧ = films
+⟦91⟧ = flagship
+⟦92⟧ = foals
+⟦93⟧ = food
+⟦94⟧ = four computer-animated films
+⟦95⟧ = four frozen 2-ounce beef patties
+⟦96⟧ = four frozen pats
+⟦97⟧ = franchise
+⟦98⟧ = Francis Kalnay
+⟦99⟧ = front
+⟦100⟧ = frozen tamales
+⟦101⟧ = gauchos
+⟦102⟧ = Grayson County
+⟦103⟧ = Green Gables
+⟦104⟧ = group
+⟦105⟧ = guest
+⟦106⟧ = guest ranches
+⟦107⟧ = hand
+⟦108⟧ = handlers
+⟦109⟧ = head
+⟦110⟧ = home
+⟦111⟧ = hot walker
+⟦112⟧ = Independence
+⟦113⟧ = individually hand-led ponies
+⟦114⟧ = information
+⟦115⟧ = insurance
+⟦116⟧ = insurance companies
+⟦117⟧ = James Aldridge
+⟦118⟧ = Josh Byrne
+⟦119⟧ = Julian De Miskey
+⟦120⟧ = July
+⟦121⟧ = Kevin Sullivan
+⟦122⟧ = life
+⟦123⟧ = Lishman
+⟦124⟧ = location
+⟦125⟧ = minimal tidal movement
+⟦126⟧ = movement
+⟦127⟧ = movie
+⟦128⟧ = music
+⟦129⟧ = Newbery Honor
+⟦130⟧ = novel
+⟦131⟧ = old-time music
+⟦132⟧ = opportunity
+⟦133⟧ = ounce
+⟦134⟧ = outhouses
+⟦135⟧ = packages
+⟦136⟧ = pampas
+⟦137⟧ = parade
+⟦138⟧ = park
+⟦139⟧ = parties
+⟦140⟧ = pats
+⟦141⟧ = patties
+⟦142⟧ = pay
+⟦143⟧ = pay-TV
+⟦144⟧ = pay-TV movie
+⟦145⟧ = pens
+⟦146⟧ = picture
+⟦147⟧ = places
+⟦148⟧ = ponies
+⟦149⟧ = pony
+⟦150⟧ = Pony Penning
+⟦151⟧ = pony rides
+⟦152⟧ = population
+⟦153⟧ = Preston Stutzman
+⟦154⟧ = private children's parties
+⟦155⟧ = producer
+⟦156⟧ = product
+⟦157⟧ = race
+⟦158⟧ = ranches
+⟦159⟧ = real ponies
+⟦160⟧ = release
+⟦161⟧ = ride
+⟦162⟧ = rides
+⟦163⟧ = risk
+⟦164⟧ = Rockies
+⟦165⟧ = role
+⟦166⟧ = Safety
+⟦167⟧ = sale
+⟦168⟧ = salt
+⟦169⟧ = Salt Water Cowboys
+⟦170⟧ = score
+⟦171⟧ = screenplay
+⟦172⟧ = seat
+⟦173⟧ = sequel
+⟦174⟧ = Shrek
+⟦175⟧ = Shrek 4-D
+⟦176⟧ = Shrek the Third
+⟦177⟧ = similar places
+⟦178⟧ = slack
+⟦179⟧ = slack tide
+⟦180⟧ = some ponies
+⟦181⟧ = South America
+⟦182⟧ = steaks
+⟦183⟧ = Sullivan
+⟦184⟧ = summer
+⟦185⟧ = summer camps
+⟦186⟧ = support
+⟦187⟧ = tamales
+⟦188⟧ = The "Shrek" franchise
+⟦189⟧ = the 1908 courthouse
+⟦190⟧ = the 1999 independent film
+⟦191⟧ = the 2005 independent computer-animated film
+⟦192⟧ = the 2010 census
+⟦193⟧ = the 2013 film
+⟦194⟧ = the Assateague Channel
+⟦195⟧ = the autumn
+⟦196⟧ = the backdrop
+⟦197⟧ = the Black Pony
+⟦198⟧ = the Bonnee Frozen Products Company
+⟦199⟧ = the book
+⟦200⟧ = the Canadian Rockies
+⟦201⟧ = the channel
+⟦202⟧ = the Chincoteague Carnival Grounds
+⟦203⟧ = The Chincoteague Volunteer Fire Department
+⟦204⟧ = the county seat
+⟦205⟧ = The courthouse
+⟦206⟧ = the distinction
+⟦207⟧ = the event
+⟦208⟧ = The film
+⟦209⟧ = the first computer-animated films
+⟦210⟧ = the first example
+⟦211⟧ = the flagship product
+⟦212⟧ = the foals
+⟦213⟧ = the Grand Privy Race
+⟦214⟧ = the last consecutive Wednesday
+⟦215⟧ = the location
+⟦216⟧ = the minor role
+⟦217⟧ = the Mountain Foliage Festival
+⟦218⟧ = the novel
+⟦219⟧ = the Pampa
+⟦220⟧ = the pampas
+⟦221⟧ = The ponies
+⟦222⟧ = the pony
+⟦223⟧ = The population
+⟦224⟧ = the salt water cowboys
+⟦225⟧ = the screenplay
+⟦226⟧ = the Sundance Film Festival
+⟦227⟧ = the water
+⟦228⟧ = the welfare
+⟦229⟧ = The Wild Pony
+⟦230⟧ = the Wild Pony Swim
+⟦231⟧ = The Year
+⟦232⟧ = their head
+⟦233⟧ = their way
+⟦234⟧ = their work
+⟦235⟧ = theme
+⟦236⟧ = Thursday
+⟦237⟧ = tide
+⟦238⟧ = time
+⟦239⟧ = Timmy
+⟦240⟧ = town
+⟦241⟧ = TV
+⟦242⟧ = type
+⟦243⟧ = United States
+⟦244⟧ = Veteran’s Memorial Park
+⟦245⟧ = Virginia
+⟦246⟧ = walk
+⟦247⟧ = walker
+⟦248⟧ = Walt Disney Animation Studios
+⟦249⟧ = Walt Disney Pictures
+⟦250⟧ = Walt Disney Productions
+⟦251⟧ = water
+⟦252⟧ = way
+⟦253⟧ = Wednesday
+⟦254⟧ = welfare
+⟦255⟧ = wheel
+⟦256⟧ = Wild Pony
+⟦257⟧ = William Steig's picture book
+⟦258⟧ = work
+⟦259⟧ = year
+⟦260⟧ = zoos
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Independence, Virginia] ⟦112⟧⟨1⟩⟦112⟧⟨2⟩⟦29⟧⟨3⟩⟦240⟧⟨4⟩⟦102⟧⟨5⟩⟦245⟧⟨6⟩⟦243⟧⟨7⟩
+[Independence, Virginia] ⟦223⟧⟨8⟩⟦152⟧⟨9⟩⟦192⟧⟨10⟩⟦59⟧⟨11⟩
+[Independence, Virginia] ⟨12⟩⟦204⟧⟨13⟩⟦71⟧⟨14⟩⟦172⟧⟨15⟩⟦102⟧⟨16⟩
+[Independence, Virginia] ⟦112⟧⟨17⟩⟦110⟧⟨18⟩⟦110⟧⟨19⟩⟦17⟧⟨20⟩⟦240⟧⟨21⟩⟦58⟧⟨22⟩⟦120⟧⟨23⟩⟦259⟧⟨24⟩⟦99⟧⟨25⟩⟦99⟧⟨26⟩⟦189⟧⟨27⟩⟦72⟧⟨28⟩
+[Independence, Virginia] ⟨29⟩⟦50⟧⟨30⟩⟦50⟧⟨31⟩⟦131⟧⟨32⟩⟦238⟧⟨33⟩⟦128⟧⟨34⟩⟦75⟧⟨35⟩⟦75⟧⟨36⟩⟦93⟧⟨37⟩⟦93⟧⟨38⟩⟦74⟧⟨39⟩⟦74⟧⟨40⟩⟦32⟧⟨41⟩⟦167⟧⟨42⟩
+[Independence, Virginia] ⟦205⟧⟨43⟩⟦72⟧⟨44⟩⟦215⟧⟨45⟩⟦124⟧⟨46⟩⟦217⟧⟨47⟩⟦195⟧⟨48⟩⟦47⟧⟨49⟩⟦18⟧⟨50⟩⟦137⟧⟨51⟩⟦74⟧⟨52⟩⟦74⟧⟨53⟩⟦44⟧⟨54⟩⟦44⟧⟨55⟩⟦128⟧⟨56⟩⟦128⟧⟨57⟩⟦22⟧⟨58⟩⟦157⟧⟨59⟩⟦70⟧⟨60⟩⟦70⟧⟨61⟩⟦134⟧⟨62⟩⟦134⟧⟨63⟩⟦213⟧⟨64⟩
+[Frozen 2] ⟨65⟩⟦42⟧⟨66⟩⟦67⟧⟨67⟩⟦89⟧⟨68⟩⟦248⟧⟨69⟩⟦249⟧⟨70⟩
+[Frozen 2] ⟨71⟩⟦23⟧⟨72⟩⟦173⟧⟨73⟩⟦193⟧⟨74⟩⟦89⟧⟨75⟩
+[Preston Stutzman] ⟦153⟧⟨76⟩⟦14⟧⟨77⟩⟦89⟧⟨78⟩⟦155⟧⟨79⟩⟦35⟧⟨80⟩⟦35⟧⟨81⟩
+[Preston Stutzman] ⟨82⟩⟦190⟧⟨83⟩⟦89⟧⟨84⟩⟦2⟧⟨85⟩⟦226⟧⟨86⟩⟦191⟧⟨87⟩⟦67⟧⟨88⟩⟦89⟧⟨89⟩
+[Preston Stutzman] ⟨90⟩⟦209⟧⟨91⟩⟦67⟧⟨92⟩⟦90⟧⟨93⟩
+[Preston Stutzman] ⟨94⟩⟦216⟧⟨95⟩⟦165⟧⟨96⟩⟦239⟧⟨97⟩
+[Shrek (franchise)] ⟦188⟧⟨98⟩⟦174⟧⟨99⟩⟦97⟧⟨100⟩⟦79⟧⟨101⟩⟦257⟧⟨102⟩⟦146⟧⟨103⟩⟦52⟧⟨104⟩⟦4⟧⟨105⟩⟦174⟧⟨106⟩
+[Shrek (franchise)] ⟨107⟩⟦94⟧⟨108⟩⟦67⟧⟨109⟩⟦90⟧⟨110⟩⟦4⟧⟨111⟩⟦174⟧⟨112⟩⟦174⟧⟨113⟩⟦174⟧⟨114⟩⟦176⟧⟨115⟩⟦13⟧⟨116⟩⟦89⟧⟨117⟩⟦10⟧⟨118⟩⟦160⟧⟨119⟩
+[Shrek (franchise)] ⟦24⟧⟨120⟩⟦89⟧⟨121⟩⟦174⟧⟨122⟩⟦175⟧⟨123⟩⟦28⟧⟨124⟩⟦235⟧⟨125⟩⟦138⟧⟨126⟩⟦161⟧⟨127⟩
+[Pony Penning] ⟦150⟧⟨128⟩⟦40⟧⟨129⟩⟦81⟧⟨130⟩⟦62⟧⟨131⟩⟦245⟧⟨132⟩⟦214⟧⟨133⟩⟦236⟧⟨134⟩⟦120⟧⟨135⟩
+[Pony Penning] ⟦203⟧⟨136⟩⟦207⟧⟨137⟩⟦81⟧⟨138⟩⟦33⟧⟨139⟩⟦253⟧⟨140⟩⟦20⟧⟨141⟩⟦236⟧⟨142⟩
+[Pony Penning] ⟨143⟩⟦230⟧⟨144⟩⟦169⟧⟨145⟩⟦86⟧⟨146⟩⟦45⟧⟨147⟩⟦194⟧⟨148⟩⟦244⟧⟨149⟩⟦63⟧⟨150⟩
+[Pony Penning] ⟦221⟧⟨151⟩⟦148⟧⟨152⟩⟦201⟧⟨153⟩⟦60⟧⟨154⟩⟦178⟧⟨155⟩⟦179⟧⟨156⟩⟦237⟧⟨157⟩⟦227⟧⟨158⟩⟦251⟧⟨159⟩⟦125⟧⟨160⟩⟦126⟧⟨161⟩
+[Pony Penning] ⟨162⟩⟦63⟧⟨163⟩⟦224⟧⟨164⟩⟦168⟧⟨165⟩⟦251⟧⟨166⟩⟦73⟧⟨167⟩⟦221⟧⟨168⟩⟦148⟧⟨169⟩⟦145⟧⟨170⟩⟦145⟧⟨171⟩⟦202⟧⟨172⟩⟦62⟧⟨173⟩⟦212⟧⟨174⟩⟦92⟧⟨175⟩⟦236⟧⟨176⟩
+[The Wild Pony] ⟦229⟧⟨177⟩⟦142⟧⟨178⟩⟦144⟧⟨179⟩⟦241⟧⟨180⟩⟦127⟧⟨181⟩⟦121⟧⟨182⟩⟦6⟧⟨183⟩⟦103⟧⟨184⟩⟦80⟧⟨185⟩
+[The Wild Pony] ⟦183⟧⟨186⟩⟦123⟧⟨187⟩⟦225⟧⟨188⟩⟦171⟧⟨189⟩⟦199⟧⟨190⟩⟦52⟧⟨191⟩⟦231⟧⟨192⟩⟦197⟧⟨193⟩⟦39⟧⟨194⟩⟦46⟧⟨195⟩
+[The Wild Pony] ⟦5⟧⟨196⟩⟦206⟧⟨197⟩⟦77⟧⟨198⟩⟦210⟧⟨199⟩⟦82⟧⟨200⟩⟦12⟧⟨201⟩⟦89⟧⟨202⟩⟦142⟧⟨203⟩⟦143⟧⟨204⟩⟦241⟧⟨205⟩
+[The Wild Pony] ⟦208⟧⟨206⟩⟦89⟧⟨207⟩⟦121⟧⟨208⟩⟦57⟧⟨209⟩⟦43⟧⟨210⟩⟦118⟧⟨211⟩⟦55⟧⟨212⟩⟦37⟧⟨213⟩⟦196⟧⟨214⟩⟦48⟧⟨215⟩⟦200⟧⟨216⟩⟦164⟧⟨217⟩
+[Ride a Wild Pony] ⟨218⟩⟦31⟧⟨219⟩⟦9⟧⟨220⟩⟦85⟧⟨221⟩⟦36⟧⟨222⟩⟦89⟧⟨223⟩⟦250⟧⟨224⟩⟦78⟧⟨225⟩⟦218⟧⟨226⟩⟦130⟧⟨227⟩⟦1⟧⟨228⟩⟦117⟧⟨229⟩
+[Chucaro: Wild Pony of the Pampa] ⟦64⟧⟨230⟩⟦64⟧⟨231⟩⟦256⟧⟨232⟩⟦219⟧⟨233⟩⟦11⟧⟨234⟩⟦52⟧⟨235⟩⟦98⟧⟨236⟩⟦119⟧⟨237⟩
+[Chucaro: Wild Pony of the Pampa] ⟨238⟩⟦129⟧⟨239⟩
+[Chucaro: Wild Pony of the Pampa] ⟨240⟩⟦258⟧⟨241⟩⟦88⟧⟨242⟩⟦88⟧⟨243⟩⟦83⟧⟨244⟩⟦114⟧⟨245⟩⟦101⟧⟨246⟩⟦101⟧⟨247⟩⟦220⟧⟨248⟩⟦136⟧⟨249⟩⟦181⟧⟨250⟩⟦233⟧⟨251⟩⟦252⟧⟨252⟩⟦122⟧⟨253⟩⟦122⟧⟨254⟩⟦76⟧⟨255⟩⟦76⟧⟨256⟩⟦234⟧⟨257⟩⟦258⟧⟨258⟩
+[Bonnee Buttered Beef Steaks] ⟦51⟧⟨259⟩⟦211⟧⟨260⟩⟦91⟧⟨261⟩⟦156⟧⟨262⟩⟦198⟧⟨263⟩⟦100⟧⟨264⟩⟦187⟧⟨265⟩⟦182⟧⟨266⟩
+[Bonnee Buttered Beef Steaks] ⟨267⟩⟦54⟧⟨268⟩⟦3⟧⟨269⟩⟦49⟧⟨270⟩
+[Bonnee Buttered Beef Steaks] ⟨271⟩⟦135⟧⟨272⟩⟦135⟧⟨273⟩⟦95⟧⟨274⟩⟦133⟧⟨275⟩⟦49⟧⟨276⟩⟦141⟧⟨277⟩⟦96⟧⟨278⟩⟦140⟧⟨279⟩⟦7⟧⟨280⟩⟦170⟧⟨281⟩⟦53⟧⟨282⟩
+[Pony ride] ⟦21⟧⟨283⟩⟦161⟧⟨284⟩⟦41⟧⟨285⟩⟦132⟧⟨286⟩⟦61⟧⟨287⟩⟦61⟧⟨288⟩⟦159⟧⟨289⟩⟦148⟧⟨290⟩⟦25⟧⟨291⟩⟦238⟧⟨292⟩⟦84⟧⟨293⟩⟦84⟧⟨294⟩⟦105⟧⟨295⟩⟦106⟧⟨296⟩⟦158⟧⟨297⟩⟦260⟧⟨298⟩⟦260⟧⟨299⟩⟦184⟧⟨300⟩⟦185⟧⟨301⟩⟦56⟧⟨302⟩⟦154⟧⟨303⟩⟦61⟧⟨304⟩⟦139⟧⟨305⟩⟦177⟧⟨306⟩⟦147⟧⟨307⟩
+[Pony ride] ⟦61⟧⟨308⟩⟦61⟧⟨309⟩⟦151⟧⟨310⟩⟦162⟧⟨311⟩⟦222⟧⟨312⟩⟦149⟧⟨313⟩⟦232⟧⟨314⟩⟦109⟧⟨315⟩⟦186⟧⟨316⟩⟦186⟧⟨317⟩
+[Pony ride] ⟦151⟧⟨318⟩⟦162⟧⟨319⟩⟦113⟧⟨320⟩⟦107⟧⟨321⟩⟦148⟧⟨322⟩⟦15⟧⟨323⟩⟦104⟧⟨324⟩⟦148⟧⟨325⟩⟦148⟧⟨326⟩⟦8⟧⟨327⟩⟦255⟧⟨328⟩⟦27⟧⟨329⟩⟦242⟧⟨330⟩⟦111⟧⟨331⟩⟦247⟧⟨332⟩⟦38⟧⟨333⟩⟦148⟧⟨334⟩⟦30⟧⟨335⟩⟦246⟧⟨336⟩⟦26⟧⟨337⟩⟦65⟧⟨338⟩⟦87⟧⟨339⟩⟦108⟧⟨340⟩
+[Pony ride] ⟦166⟧⟨341⟩⟦19⟧⟨342⟩⟦68⟧⟨343⟩⟦115⟧⟨344⟩⟦116⟧⟨345⟩⟦66⟧⟨346⟩⟦151⟧⟨347⟩⟦162⟧⟨348⟩⟦16⟧⟨349⟩⟦163⟧⟨350⟩⟦34⟧⟨351⟩
+[Pony ride] ⟨352⟩⟦69⟧⟨353⟩⟦69⟧⟨354⟩⟦228⟧⟨355⟩⟦254⟧⟨356⟩⟦180⟧⟨357⟩⟦148⟧⟨358⟩⟦151⟧⟨359⟩⟦162⟧⟨360⟩
+
+[user]
+
+问题：
+Are both Ride a Wild Pony and Frozen 2 computer-animated films?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

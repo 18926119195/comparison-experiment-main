@@ -1,0 +1,282 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 'Anne de Boulogne fille de Jehan Comte de Boulogne et Auvergne
+⟦2⟧ = "La Jolie Fille de Gand
+⟦3⟧ = "La jolie fille de Perth
+⟦4⟧ = "Lucio Silla
+⟦5⟧ = "Mithridate
+⟦6⟧ = "Regio-Ducal Teatro
+⟦7⟧ = "Teatro Regio Ducale
+⟦8⟧ = "The Abbot
+⟦9⟧ = ("Mithridates
+⟦10⟧ = ("The Daughter
+⟦11⟧ = 10 December
+⟦12⟧ = 2 acts
+⟦13⟧ = 20 October
+⟦14⟧ = 230 times
+⟦15⟧ = 24 February
+⟦16⟧ = 25 February
+⟦17⟧ = 26 December
+⟦18⟧ = 27 or 28 October
+⟦19⟧ = 74a
+⟦20⟧ = a 19th-century ballerina
+⟦21⟧ = a ballet-pantomime
+⟦22⟧ = a carnival gala
+⟦23⟧ = a dramma
+⟦24⟧ = a female composer
+⟦25⟧ = a few appearances
+⟦26⟧ = a French Thoroughbred racehorse
+⟦27⟧ = a ghost
+⟦28⟧ = a hidden fortune
+⟦29⟧ = a libretto
+⟦30⟧ = a lost heir
+⟦31⟧ = a model
+⟦32⟧ = a mysterious castle
+⟦33⟧ = acts
+⟦34⟧ = advance
+⟦35⟧ = Alba
+⟦36⟧ = Albany
+⟦37⟧ = an early opera seria
+⟦38⟧ = an exotic Scottish locale
+⟦39⟧ = an opera
+⟦40⟧ = an opéra comique
+⟦41⟧ = Anne de La Tour
+⟦42⟧ = Antonio Vivaldi
+⟦43⟧ = appearance
+⟦44⟧ = appearances
+⟦45⟧ = Armenia
+⟦46⟧ = Arsilda
+⟦47⟧ = Arthur Saint-Léon
+⟦48⟧ = attempts
+⟦49⟧ = Auvergne
+⟦50⟧ = ballet
+⟦51⟧ = bayadere
+⟦52⟧ = Bizet's advance
+⟦53⟧ = blanche
+⟦54⟧ = carnival
+⟦55⟧ = case
+⟦56⟧ = castle
+⟦57⟧ = century
+⟦58⟧ = Cesare Pugni
+⟦59⟧ = Charles Gounod's "Faust
+⟦60⟧ = Charles Lecocq
+⟦61⟧ = Clairville
+⟦62⟧ = comique
+⟦63⟧ = composer
+⟦64⟧ = composers
+⟦65⟧ = construction
+⟦66⟧ = contract
+⟦67⟧ = Countess
+⟦68⟧ = criticism
+⟦69⟧ = dame
+⟦70⟧ = Daughter
+⟦71⟧ = de Madame Angot
+⟦72⟧ = Detroit
+⟦73⟧ = devices
+⟦74⟧ = di Ponto
+⟦75⟧ = diable
+⟦76⟧ = dramma
+⟦77⟧ = Duchess
+⟦78⟧ = Duke
+⟦79⟧ = elements
+⟦80⟧ = episodes
+⟦81⟧ = Eugène Scribe
+⟦82⟧ = events
+⟦83⟧ = fantastic
+⟦84⟧ = Fitzjames
+⟦85⟧ = forms
+⟦86⟧ = fortune
+⟦87⟧ = four acts
+⟦88⟧ = François-Adrien Boieldieu
+⟦89⟧ = gala
+⟦90⟧ = Georges Bizet
+⟦91⟧ = ghost
+⟦92⟧ = Giacomo Meyerbeer's "Robert le diable
+⟦93⟧ = Giuseppe Parini's Italian translation
+⟦94⟧ = Guy Mannering
+⟦95⟧ = heir
+⟦96⟧ = her emaciated appearance
+⟦97⟧ = her first four races
+⟦98⟧ = her marriage contract
+⟦99⟧ = his earlier operas
+⟦100⟧ = his novels
+⟦101⟧ = his striking melodic and instrumental ideas
+⟦102⟧ = house
+⟦103⟧ = ideas
+⟦104⟧ = improbable events
+⟦105⟧ = its Gothic mode
+⟦106⟧ = Jean Racine's play
+⟦107⟧ = John Stewart
+⟦108⟧ = Jules Adenis
+⟦109⟧ = Jules-Henri Vernoy de Saint-Georges
+⟦110⟧ = King
+⟦111⟧ = la
+⟦112⟧ = La dame blanche
+⟦113⟧ = La fille
+⟦114⟧ = La Fille de marbre
+⟦115⟧ = La jolie fille de Perth
+⟦116⟧ = later operas
+⟦117⟧ = le
+⟦118⟧ = Le Dieu
+⟦119⟧ = librettists
+⟦120⟧ = libretto
+⟦121⟧ = locale
+⟦122⟧ = Louise Fitzjames
+⟦123⟧ = Lucia di Lammermoor
+⟦124⟧ = Madame Angot
+⟦125⟧ = Many famous composers
+⟦126⟧ = Many writers
+⟦127⟧ = Maria Teresa Agnesi Pinottini's "Ciro
+⟦128⟧ = Marie Taglioni
+⟦129⟧ = marriage
+⟦130⟧ = May
+⟦131⟧ = Milan
+⟦132⟧ = Mitridate
+⟦133⟧ = mode
+⟦134⟧ = model
+⟦135⟧ = Mozart's "Ascanio
+⟦136⟧ = music
+⟦137⟧ = musica
+⟦138⟧ = no fewer than five works
+⟦139⟧ = novel
+⟦140⟧ = novels
+⟦141⟧ = opéra
+⟦142⟧ = operas
+⟦143⟧ = Other roles
+⟦144⟧ = pantomime
+⟦145⟧ = Paris
+⟦146⟧ = Paris Opera
+⟦147⟧ = Paul Siraudin
+⟦148⟧ = Perth
+⟦149⟧ = pieces
+⟦150⟧ = play
+⟦151⟧ = poet
+⟦152⟧ = poet Théophile Gautier
+⟦153⟧ = Pontus
+⟦154⟧ = premiere
+⟦155⟧ = premieres
+⟦156⟧ = Prix Chloé
+⟦157⟧ = Prix de la Nonette
+⟦158⟧ = racehorse
+⟦159⟧ = races
+⟦160⟧ = record time
+⟦161⟧ = regina di Ponto
+⟦162⟧ = Robert le
+⟦163⟧ = role
+⟦164⟧ = roles
+⟦165⟧ = seria
+⟦166⟧ = set pieces
+⟦167⟧ = severe criticism
+⟦168⟧ = Sir Walter Scott
+⟦169⟧ = stock
+⟦170⟧ = style
+⟦171⟧ = Taglioni's role
+⟦172⟧ = text
+⟦173⟧ = the Abbess
+⟦174⟧ = the Arc
+⟦175⟧ = the Arc de Triomphe winner Carnegie
+⟦176⟧ = the earliest successfully received operas
+⟦177⟧ = The Fair Maid
+⟦178⟧ = the fantastic
+⟦179⟧ = the first attempts
+⟦180⟧ = the French composer
+⟦181⟧ = The French text
+⟦182⟧ = the librettists
+⟦183⟧ = The libretto
+⟦184⟧ = The Monastery
+⟦185⟧ = the novel
+⟦186⟧ = The opera
+⟦187⟧ = the Opéra de Paris
+⟦188⟧ = the opera house
+⟦189⟧ = The opera's musical style
+⟦190⟧ = the premiere
+⟦191⟧ = the premieres
+⟦192⟧ = the Prix de l'Arc de Triomphe
+⟦193⟧ = the Prix Fille de l'Air
+⟦194⟧ = the Prix Foy
+⟦195⟧ = the Prix Vermeille
+⟦196⟧ = the Romantic
+⟦197⟧ = the Scottish writer
+⟦198⟧ = The Teatro Regio Ducal (Italian, "Royal Ducal Theatre
+⟦199⟧ = the Teatro Sant'Angelo
+⟦200⟧ = The White Lady
+⟦201⟧ = The work
+⟦202⟧ = their operas
+⟦203⟧ = their stock devices
+⟦204⟧ = this case
+⟦205⟧ = three acts
+⟦206⟧ = three more races
+⟦207⟧ = time
+⟦208⟧ = times
+⟦209⟧ = training
+⟦210⟧ = translation
+⟦211⟧ = typical elements
+⟦212⟧ = Variant forms
+⟦213⟧ = Venice
+⟦214⟧ = Victor Koning
+⟦215⟧ = winner
+⟦216⟧ = Wolfgang Amadeus Mozart
+⟦217⟧ = work
+⟦218⟧ = works
+⟦219⟧ = writer
+⟦220⟧ = writers
+⟦221⟧ = year
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Mitridate, re di Ponto] ⟦132⟧⟨1⟩⟦74⟧⟨2⟩⟦9⟧⟨3⟩⟦110⟧⟨4⟩⟦153⟧⟨5⟩⟦19⟧⟨6⟩⟦37⟧⟨7⟩⟦141⟧⟨8⟩⟦165⟧⟨9⟩⟦205⟧⟨10⟩⟦33⟧⟨11⟩⟦216⟧⟨12⟩
+[Mitridate, re di Ponto] ⟦183⟧⟨13⟩⟦120⟧⟨14⟩⟦93⟧⟨15⟩⟦210⟧⟨16⟩⟦106⟧⟨17⟩⟦150⟧⟨18⟩⟦5⟧⟨19⟩
+[La fille de Madame Angot] ⟦113⟧⟨20⟩⟦71⟧⟨21⟩⟦10⟧⟨22⟩⟦70⟧⟨23⟩⟦124⟧⟨24⟩⟦40⟧⟨25⟩⟦141⟧⟨26⟩⟦62⟧⟨27⟩⟦205⟧⟨28⟩⟦33⟧⟨29⟩⟦60⟧⟨30⟩
+[La fille de Madame Angot] ⟦181⟧⟨31⟩⟦172⟧⟨32⟩⟦61⟧⟨33⟩⟦147⟧⟨34⟩⟦214⟧⟨35⟩
+[Arsilda, regina di Ponto] ⟦46⟧⟨36⟩⟦161⟧⟨37⟩⟦23⟧⟨38⟩⟦76⟧⟨39⟩⟦137⟧⟨40⟩⟦42⟧⟨41⟩
+[Arsilda, regina di Ponto] ⟦186⟧⟨42⟩⟦141⟧⟨43⟩⟦199⟧⟨44⟩⟦213⟧⟨45⟩⟦18⟧⟨46⟩
+[Anne de La Tour d'Auvergne] ⟦41⟧⟨47⟩⟦67⟧⟨48⟩⟦49⟧⟨49⟩⟦77⟧⟨50⟩⟦36⟧⟨51⟩⟦129⟧⟨52⟩⟦129⟧⟨53⟩⟦107⟧⟨54⟩⟦78⟧⟨55⟩⟦36⟧⟨56⟩
+[Anne de La Tour d'Auvergne] ⟨57⟩⟦98⟧⟨58⟩⟦129⟧⟨59⟩⟦66⟧⟨60⟩⟦1⟧⟨61⟩
+[La jolie fille de Perth] ⟦115⟧⟨62⟩⟦177⟧⟨63⟩⟦148⟧⟨64⟩⟦39⟧⟨65⟩⟦141⟧⟨66⟩⟦87⟧⟨67⟩⟦33⟧⟨68⟩⟦90⟧⟨69⟩⟦29⟧⟨70⟩⟦120⟧⟨71⟩⟦109⟧⟨72⟩⟦108⟧⟨73⟩⟦185⟧⟨74⟩⟦139⟧⟨75⟩⟦168⟧⟨76⟩
+[La jolie fille de Perth] ⟦126⟧⟨77⟩⟦220⟧⟨78⟩⟦167⟧⟨79⟩⟦68⟧⟨80⟩⟦182⟧⟨81⟩⟦119⟧⟨82⟩⟦203⟧⟨83⟩⟦169⟧⟨84⟩⟦73⟧⟨85⟩⟦104⟧⟨86⟩⟦82⟧⟨87⟩⟦52⟧⟨88⟩⟦34⟧⟨89⟩⟦99⟧⟨90⟩⟦142⟧⟨91⟩⟦65⟧⟨92⟩⟦65⟧⟨93⟩⟦166⟧⟨94⟩⟦149⟧⟨95⟩⟦101⟧⟨96⟩⟦103⟧⟨97⟩
+[La Fille de marbre] ⟦114⟧⟨98⟩⟦21⟧⟨99⟩⟦50⟧⟨100⟩⟦144⟧⟨101⟩⟦12⟧⟨102⟩⟦33⟧⟨103⟩⟦47⟧⟨104⟩⟦136⟧⟨105⟩⟦136⟧⟨106⟩⟦58⟧⟨107⟩⟦13⟧⟨108⟩⟦187⟧⟨109⟩
+[Detroit (horse)] ⟦72⟧⟨110⟩⟦15⟧⟨111⟩⟦130⟧⟨112⟩⟦26⟧⟨113⟩⟦158⟧⟨114⟩⟦192⟧⟨115⟩
+[Detroit (horse)] ⟨116⟩⟦221⟧⟨117⟩⟦72⟧⟨118⟩⟦97⟧⟨119⟩⟦159⟧⟨120⟩⟦193⟧⟨121⟩⟦156⟧⟨122⟩⟦157⟧⟨123⟩
+[Detroit (horse)] ⟨124⟩⟦195⟧⟨125⟩⟦174⟧⟨126⟩⟦160⟧⟨127⟩⟦207⟧⟨128⟩
+[Detroit (horse)] ⟨129⟩⟦209⟧⟨130⟩⟦209⟧⟨131⟩⟦221⟧⟨132⟩⟦206⟧⟨133⟩⟦159⟧⟨134⟩⟦194⟧⟨135⟩
+[Detroit (horse)] ⟨136⟩⟦175⟧⟨137⟩⟦215⟧⟨138⟩
+[Teatro Regio Ducal] ⟦198⟧⟨139⟩⟦188⟧⟨140⟩⟦141⟧⟨141⟩⟦102⟧⟨142⟩⟦131⟧⟨143⟩⟦17⟧⟨144⟩⟦16⟧⟨145⟩⟦22⟧⟨146⟩⟦54⟧⟨147⟩⟦89⟧⟨148⟩
+[Teatro Regio Ducal] ⟦125⟧⟨149⟩⟦64⟧⟨150⟩⟦202⟧⟨151⟩⟦142⟧⟨152⟩⟦191⟧⟨153⟩⟦155⟧⟨154⟩⟦135⟧⟨155⟩⟦35⟧⟨156⟩⟦74⟧⟨157⟩⟦4⟧⟨158⟩
+[Teatro Regio Ducal] ⟦188⟧⟨159⟩⟦141⟧⟨160⟩⟦102⟧⟨161⟩⟦190⟧⟨162⟩⟦154⟧⟨163⟩⟦127⟧⟨164⟩⟦45⟧⟨165⟩⟦176⟧⟨166⟩⟦142⟧⟨167⟩⟦24⟧⟨168⟩⟦63⟧⟨169⟩
+[Teatro Regio Ducal] ⟦212⟧⟨170⟩⟦85⟧⟨171⟩⟦6⟧⟨172⟩⟦7⟧⟨173⟩
+[Louise Fitzjames] ⟦122⟧⟨174⟩⟦20⟧⟨175⟩⟦57⟧⟨176⟩
+[Louise Fitzjames] ⟨177⟩⟦11⟧⟨178⟩⟦145⟧⟨179⟩⟦146⟧⟨180⟩
+[Louise Fitzjames] ⟨181⟩⟦128⟧⟨182⟩⟦162⟧⟨183⟩⟦117⟧⟨184⟩⟦25⟧⟨185⟩⟦44⟧⟨186⟩⟦84⟧⟨187⟩⟦84⟧⟨188⟩⟦171⟧⟨189⟩⟦163⟧⟨190⟩⟦173⟧⟨191⟩
+[Louise Fitzjames] ⟨192⟩⟦173⟧⟨193⟩⟦14⟧⟨194⟩⟦208⟧⟨195⟩
+[Louise Fitzjames] ⟨196⟩⟦151⟧⟨197⟩⟦152⟧⟨198⟩⟦96⟧⟨199⟩⟦43⟧⟨200⟩
+[Louise Fitzjames] ⟦143⟧⟨201⟩⟦164⟧⟨202⟩⟦118⟧⟨203⟩⟦111⟧⟨204⟩⟦51⟧⟨205⟩⟦2⟧⟨206⟩
+[La dame blanche] ⟦112⟧⟨207⟩⟦69⟧⟨208⟩⟦53⟧⟨209⟩⟦200⟧⟨210⟩⟦40⟧⟨211⟩⟦141⟧⟨212⟩⟦62⟧⟨213⟩⟦205⟧⟨214⟩⟦33⟧⟨215⟩⟦180⟧⟨216⟩⟦63⟧⟨217⟩⟦88⟧⟨218⟩
+[La dame blanche] ⟦183⟧⟨219⟩⟦120⟧⟨220⟩⟦81⟧⟨221⟩⟦80⟧⟨222⟩⟦80⟧⟨223⟩⟦138⟧⟨224⟩⟦218⟧⟨225⟩⟦197⟧⟨226⟩⟦219⟧⟨227⟩⟦168⟧⟨228⟩⟦100⟧⟨229⟩⟦140⟧⟨230⟩⟦184⟧⟨231⟩⟦94⟧⟨232⟩⟦8⟧⟨233⟩
+[La dame blanche] ⟦186⟧⟨234⟩⟦141⟧⟨235⟩⟦211⟧⟨236⟩⟦79⟧⟨237⟩⟦196⟧⟨238⟩⟦105⟧⟨239⟩⟦133⟧⟨240⟩⟦38⟧⟨241⟩⟦121⟧⟨242⟩⟦30⟧⟨243⟩⟦95⟧⟨244⟩⟦32⟧⟨245⟩⟦56⟧⟨246⟩⟦28⟧⟨247⟩⟦86⟧⟨248⟩⟦27⟧⟨249⟩⟦91⟧⟨250⟩⟦204⟧⟨251⟩⟦55⟧⟨252⟩
+[La dame blanche] ⟦201⟧⟨253⟩⟦217⟧⟨254⟩⟦179⟧⟨255⟩⟦48⟧⟨256⟩⟦178⟧⟨257⟩⟦83⟧⟨258⟩⟦141⟧⟨259⟩⟦141⟧⟨260⟩⟦31⟧⟨261⟩⟦134⟧⟨262⟩⟦218⟧⟨263⟩⟦218⟧⟨264⟩⟦92⟧⟨265⟩⟦75⟧⟨266⟩⟦59⟧⟨267⟩
+[La dame blanche] ⟦189⟧⟨268⟩⟦141⟧⟨269⟩⟦170⟧⟨270⟩⟦116⟧⟨271⟩⟦142⟧⟨272⟩⟦123⟧⟨273⟩⟦3⟧⟨274⟩
+
+[user]
+
+问题：
+Which opera has more acts, La jolie fille de Perth or Mitridate, re di Ponto?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

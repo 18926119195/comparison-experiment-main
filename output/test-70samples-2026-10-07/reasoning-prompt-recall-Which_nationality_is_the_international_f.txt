@@ -1,0 +1,109 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[2002–03 Atlético Madrid season] ⟦44⟧⟨1⟩⟨2⟩⟦36⟧⟦188⟧⟨4⟩⟦37⟧⟨3⟩⟨5⟩⟦28⟧⟦118⟧⟨6⟩⟨7⟩⟦165⟧⟦102⟧⟨8⟩⟨9⟩⟦98⟧⟨10⟩
+[2002–03 Atlético Madrid season] ⟨11⟩⟨12⟩⟦145⟧⟦49⟧⟨13⟩⟨14⟩⟦70⟧⟨15⟩⟦171⟧⟨16⟩⟨17⟩⟦82⟧⟨18⟩⟦60⟧⟨19⟩⟦170⟧⟦131⟧⟨20⟩⟨21⟩⟨22⟩⟨23⟩⟦6⟧⟨25⟩⟨24⟩⟨26⟩⟦35⟧⟦135⟧⟨27⟩⟨28⟩
+[Fernando Torres] ⟦69⟧⟨235⟩⟦33⟧⟦74⟧⟨236⟩⟨237⟩⟦34⟧⟦132⟧⟨238⟩⟨239⟩⟦89⟧⟨241⟩⟨240⟩⟦169⟧⟦134⟧⟨242⟩⟨243⟩ | ⟦132⟧
+[1997–98 Atlético Madrid season] ⟦53⟧ | ⟦78⟧⟦93⟧⟦167⟧⟦167⟧⟦121⟧⟦121⟧ | ⟦88⟧
+
+符号表：
+⟦6⟧ = 13 league goals
+⟦28⟧ = a safe ride
+⟦33⟧ = a Spanish professional footballer
+⟦34⟧ = a striker
+⟦35⟧ = a teenager
+⟦36⟧ = a two-year absence
+⟦37⟧ = absence
+⟦44⟧ = Atlético de Madrid
+⟦49⟧ = breakthrough
+⟦53⟧ = club
+⟦60⟧ = debut
+⟦69⟧ = Fernando José Torres Sanz
+⟦70⟧ = Fernando Torres
+⟦74⟧ = footballer
+⟦78⟧ = goals
+⟦82⟧ = his La Liga
+⟦88⟧ = La Liga
+⟦89⟧ = La Liga club Atlético Madrid
+⟦93⟧ = league
+⟦98⟧ = Luis Aragonés
+⟦102⟧ = midfield
+⟦118⟧ = ride
+⟦121⟧ = season
+⟦131⟧ = start
+⟦132⟧ = striker
+⟦134⟧ = team
+⟦135⟧ = teenager
+⟦145⟧ = the breakthrough
+⟦165⟧ = the midfield
+⟦167⟧ = The season
+⟦169⟧ = the Spain national team
+⟦170⟧ = the start
+⟦171⟧ = the striker
+⟦188⟧ = year
+
+占位符映射：
+⟨1⟩ =  returned to 
+⟨2⟩ =  following 
+⟨3⟩ = 
+⟨4⟩ =  
+⟨5⟩ = , having 
+⟨6⟩ = 
+⟨7⟩ =  in 
+⟨8⟩ = 
+⟨9⟩ =  under 
+⟨10⟩ = .
+⟨11⟩ = 
+⟨12⟩ =  marked 
+⟨13⟩ = 
+⟨14⟩ =  of 
+⟨15⟩ = , 
+⟨16⟩ = 
+⟨17⟩ =  making 
+⟨18⟩ =  
+⟨19⟩ =  by 
+⟨20⟩ = 
+⟨21⟩ =  of 
+⟨22⟩ = 
+⟨23⟩ = , scoring 
+⟨24⟩ = 
+⟨25⟩ =  
+⟨26⟩ =  as 
+⟨27⟩ = 
+⟨28⟩ = .
+⟨235⟩ =  (] ; born 20 March 1984) is 
+⟨236⟩ = 
+⟨237⟩ =  who plays as 
+⟨238⟩ = 
+⟨239⟩ =  for 
+⟨240⟩ = 
+⟨241⟩ =  Atlético Madrid and 
+⟨242⟩ = 
+⟨243⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which nationality is the international footballer, born 20 March 1984, who made his breakthrough La Liga debut in the 2002–03 Atlético Madrid season, scoring 13 league goals as a teenager?

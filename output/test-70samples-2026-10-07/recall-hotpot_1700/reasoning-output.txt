@@ -1,0 +1,29 @@
+# 路径一：从演员作品列表直接定位
+
+步骤1：使用⟦155⟧，提取 Miles Christopher Doleac 的职业身份信息——他是 an American film and television actor（⟦51⟧），并兼任 director（⟦97⟧）、writer（⟦300⟧）和 producer（⟦184⟧）。
+
+步骤2：综合⟦250⟧⟦251⟧，对比两部作品的类型标签——⟦250⟧ 被定义为 a 2014 drama film（⟦28⟧），而 ⟦251⟧ 被定义为 a 2016 American crime film（⟦29⟧），两者均非 supernatural horror 类型。
+
+步骤3：使用⟦108⟧，提取 Miles Doleac 参演的 film 列表中包含 ⟦250⟧ 和 ⟦251⟧，但这两部作品的类型描述中均未出现 supernatural 或 horror 关键词。
+
+结论：此路径仅能确认 Miles Doleac 参演了剧情片和犯罪片，无法从现有材料中直接定位到 supernatural horror film。
+
+# 路径二：交叉验证类型标签与作品归属
+
+步骤1：综合⟦250⟧⟦251⟧，交叉验证两部作品的类型定义——⟦250⟧ 是 drama（⟦28⟧），⟦251⟧ 是 crime（⟦29⟧⟦87⟧），均与 supernatural horror 无关。
+
+步骤2：使用⟦156⟧，提取 Miles Doleac 在 ⟦251⟧ 中的参与方式——他参与了该片的 directed and written by（⟦356⟧）工作，而非仅作为演员出现。
+
+步骤3：使用⟦108⟧，确认 Miles Doleac 的 film 作品列表中未出现任何被明确标注为 supernatural horror 的作品。
+
+结论：现有材料中 Miles Doleac 的作品均不属于 supernatural horror 类型，无法回答该问题。
+
+# 路径三：从职业身份反推可能的作品类型
+
+步骤1：使用⟦44⟧⟦51⟧，提取 Miles Doleac 的核心职业身份——actor（⟦44⟧）及 an American film and television actor（⟦51⟧），其作品应涵盖 film 和 television（⟦230⟧）领域。
+
+步骤2：综合⟦250⟧⟦251⟧⟦108⟧，对比其已知作品列表——⟦250⟧ 为 drama film（⟦28⟧），⟦251⟧ 为 crime film（⟦29⟧），⟦108⟧ 为泛指的 film 类别，均未涉及 supernatural horror。
+
+步骤3：使用⟦156⟧，确认 Miles Doleac 在 ⟦251⟧ 中的角色为 directed and written by（⟦356⟧），进一步排除其作为演员参演 supernatural horror 的可能性。
+
+结论：基于现有材料，Miles Doleac 的已知作品中不存在 supernatural horror film，该问题无法从给定信息中得出答案。

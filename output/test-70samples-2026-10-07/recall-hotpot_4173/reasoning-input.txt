@@ -1,0 +1,92 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Joey Galloway] ⟦82⟧⟨266⟩⟦12⟧⟨267⟩⟨268⟩⟦228⟧⟦129⟧⟨269⟩⟨270⟩⟦200⟧⟨271⟩⟦47⟧⟨273⟩⟨274⟩⟦33⟧⟨272⟩⟨275⟩⟨276⟩
+[Joey Galloway] ⟨277⟩⟦213⟧⟨278⟩⟦160⟧⟨279⟩⟦179⟧⟨280⟩⟦154⟧⟦36⟧⟨281⟩⟨282⟩⟦104⟧⟨283⟩⟦119⟧⟨284⟩⟦225⟧⟨285⟩
+[ESPN College Football Friday Primetime] ⟦56⟧ | ⟦57⟧⟨310⟩⟦17⟧⟨312⟩⟦127⟧⟨311⟩⟨313⟩⟦51⟧⟨315⟩⟨314⟩⟨316⟩⟦56⟧⟨317⟩⟦145⟧⟨318⟩
+[ESPN College Football Friday Primetime] ⟦41⟧⟦61⟧⟦61⟧ | ⟦41⟧⟦61⟧
+[ESPN College Football Friday Primetime] ⟦62⟧
+
+符号表：
+⟦12⟧ = a former American football
+⟦17⟧ = a live game presentation
+⟦33⟧ = analyst
+⟦36⟧ = Buccaneers
+⟦41⟧ = college
+⟦47⟧ = current college football analyst
+⟦51⟧ = Division 1-A college football
+⟦56⟧ = ESPN
+⟦57⟧ = ESPN College Football Friday Primetime
+⟦61⟧ = football
+⟦62⟧ = game
+⟦82⟧ = Joseph Scott Galloway
+⟦104⟧ = New England Patriots
+⟦119⟧ = Pittsburgh Steelers
+⟦127⟧ = presentation
+⟦129⟧ = receiver
+⟦145⟧ = sometimes ESPN2
+⟦154⟧ = Tampa Bay Buccaneers
+⟦160⟧ = the 1995 NFL Draft
+⟦179⟧ = the Dallas Cowboys
+⟦200⟧ = the National Football League
+⟦213⟧ = the Seattle Seahawks
+⟦225⟧ = Washington Redskins
+⟦228⟧ = wide receiver
+
+占位符映射：
+⟨266⟩ =  (born November 20, 1971) is 
+⟨267⟩ = 
+⟨268⟩ =  
+⟨269⟩ = 
+⟨270⟩ =  in 
+⟨271⟩ =  and 
+⟨272⟩ = 
+⟨273⟩ =  
+⟨274⟩ =  
+⟨275⟩ =  with 
+⟨276⟩ = .
+⟨277⟩ =  He was drafted by 
+⟨278⟩ =  eighth overall in 
+⟨279⟩ =  and also played for 
+⟨280⟩ = , 
+⟨281⟩ = 
+⟨282⟩ = , 
+⟨283⟩ = , 
+⟨284⟩ =  and 
+⟨285⟩ = .
+⟨310⟩ =  is 
+⟨311⟩ = 
+⟨312⟩ =  
+⟨313⟩ =  of 
+⟨314⟩ = 
+⟨315⟩ =  
+⟨316⟩ =  on 
+⟨317⟩ =  or 
+⟨318⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-hosts?

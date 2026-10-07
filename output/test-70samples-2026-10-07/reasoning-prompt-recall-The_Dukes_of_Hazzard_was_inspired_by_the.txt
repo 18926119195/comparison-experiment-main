@@ -1,0 +1,125 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Moonrunners] ⟨196⟩⟨197⟩⟨198⟩⟨199⟩⟦122⟧⟨200⟩⟦18⟧⟨201⟩⟨202⟩⟦49⟧⟦130⟧⟨203⟩⟨204⟩
+[Moonrunners] ⟦147⟧⟨216⟩⟦110⟧⟦89⟧⟨217⟩⟨218⟩⟦186⟧⟨219⟩⟦256⟧⟦184⟧⟨220⟩⟨221⟩⟦279⟧⟨222⟩⟦149⟧⟦150⟧⟨223⟩⟦50⟧⟨224⟩⟨225⟩⟦88⟧⟦57⟧⟨226⟩⟨227⟩⟦91⟧⟦27⟧⟨228⟩⟨229⟩
+[Jaws (franchise)] ⟦10⟧
+[Jaws (franchise)] ⟦87⟧
+[The Dukes of Hazzard] ⟦223⟧⟨377⟩⟦108⟧⟨378⟩⟦29⟧⟦25⟧⟨380⟩⟦70⟧⟨381⟩⟦215⟧⟨382⟩⟨379⟩⟨383⟩⟦59⟧⟨384⟩⟦123⟧⟨385⟩⟦90⟧⟨386⟩
+[The Dukes of Hazzard] ⟦196⟧ | ⟦252⟧⟦196⟧⟨395⟩⟨396⟩⟦219⟧⟦94⟧⟨397⟩⟨398⟩⟦3⟧⟦148⟧⟨399⟩⟨400⟩⟦104⟧⟨401⟩⟦135⟧⟦60⟧⟨403⟩⟦155⟧⟨402⟩⟨404⟩⟦71⟧⟦71⟧⟨405⟩⟨406⟩ | ⟦94⟧⟦148⟧⟦148⟧
+
+符号表：
+⟦3⟧ = "Moonrunners
+⟦10⟧ = a 1975 film
+⟦18⟧ = a Southern family
+⟦25⟧ = action
+⟦27⟧ = agents
+⟦29⟧ = an American action-comedy television series
+⟦49⟧ = bootleg liquor
+⟦50⟧ = bootleggers
+⟦57⟧ = cars
+⟦59⟧ = CBS
+⟦60⟧ = character
+⟦70⟧ = comedy
+⟦71⟧ = concepts
+⟦87⟧ = family
+⟦88⟧ = fast cars
+⟦89⟧ = father
+⟦90⟧ = February
+⟦91⟧ = federal agents
+⟦94⟧ = film
+⟦104⟧ = Gy Waldron
+⟦108⟧ = Hazzard
+⟦110⟧ = his father
+⟦122⟧ = James Mitchum
+⟦123⟧ = January
+⟦130⟧ = liquor
+⟦135⟧ = many identical or similar character names
+⟦147⟧ = Mitchum
+⟦148⟧ = Moonrunners
+⟦149⟧ = moonshine
+⟦150⟧ = moonshine-running bootleggers
+⟦155⟧ = names
+⟦184⟧ = Road
+⟦186⟧ = Robert Mitchum
+⟦196⟧ = series
+⟦215⟧ = television
+⟦219⟧ = the 1975 film
+⟦223⟧ = The Dukes
+⟦252⟧ = The series
+⟦256⟧ = the similar drive-in favorite "Thunder Road
+⟦279⟧ = years
+
+占位符映射：
+⟨196⟩ = 
+⟨197⟩ =  is 
+⟨198⟩ = 
+⟨199⟩ = , starring 
+⟨200⟩ = , about 
+⟨201⟩ = 
+⟨202⟩ =  that runs 
+⟨203⟩ = 
+⟨204⟩ = .
+⟨216⟩ =  had co-starred with 
+⟨217⟩ = 
+⟨218⟩ = , 
+⟨219⟩ = , in 
+⟨220⟩ = 
+⟨221⟩ = " eighteen 
+⟨222⟩ =  earlier, which also focused upon 
+⟨223⟩ = 
+⟨224⟩ = 
+⟨225⟩ =  using 
+⟨226⟩ = 
+⟨227⟩ =  to elude 
+⟨228⟩ = 
+⟨229⟩ = .
+⟨377⟩ =  of 
+⟨378⟩ =  is 
+⟨379⟩ = 
+⟨380⟩ = -
+⟨381⟩ =  
+⟨382⟩ =  
+⟨383⟩ =  that aired on 
+⟨384⟩ =  from 
+⟨385⟩ =  26, 1979, to 
+⟨386⟩ =  8, 1985.
+⟨395⟩ = 
+⟨396⟩ =  was inspired by 
+⟨397⟩ = 
+⟨398⟩ =  
+⟨399⟩ = 
+⟨400⟩ = ", which was also created by 
+⟨401⟩ =  and had 
+⟨402⟩ = 
+⟨403⟩ =  
+⟨404⟩ =  and 
+⟨405⟩ = 
+⟨406⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The Dukes of Hazzard was inspired by the 1975 film starring whom?

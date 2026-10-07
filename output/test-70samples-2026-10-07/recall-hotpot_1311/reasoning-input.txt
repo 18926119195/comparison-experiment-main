@@ -1,0 +1,140 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[A Bug's Life] ⟦20⟧⟨201⟩⟨202⟩⟦13⟧⟨204⟩⟦34⟧⟨205⟩⟨206⟩⟨203⟩⟨207⟩⟨208⟩⟨209⟩
+[A Bug's Life] ⟨210⟩⟨211⟩⟨212⟩⟨213⟩⟦130⟧⟨214⟩⟦5⟧⟦321⟧⟨215⟩⟨216⟩⟦143⟧⟦88⟧⟨217⟩⟨218⟩⟦137⟧⟦136⟧⟨219⟩⟨220⟩⟦22⟧⟦138⟧⟨221⟩⟨222⟩⟦70⟧⟦70⟧⟨223⟩⟨224⟩⟦46⟧⟦81⟧⟨226⟩⟦310⟧⟨225⟩⟨227⟩
+[Andrew Stanton] ⟨464⟩⟦43⟧⟨466⟩⟨465⟩⟨467⟩⟦238⟧⟦238⟧⟨468⟩⟨469⟩⟦220⟧⟦220⟧⟨470⟩⟨471⟩⟦316⟧⟦317⟧⟨472⟩⟦33⟧⟨473⟩⟨474⟩⟦211⟧⟨475⟩
+[Andrew Stanton] ⟦100⟧ | ⟨476⟩⟦146⟧⟨478⟩⟦325⟧⟨477⟩⟨479⟩⟦213⟧⟦69⟧⟨481⟩⟦185⟧⟨480⟩⟨482⟩⟦84⟧⟦84⟧⟨483⟩⟨484⟩⟦100⟧⟦100⟧⟨485⟩⟨486⟩⟦1⟧⟨487⟩⟦7⟧⟨488⟩⟦276⟧⟦32⟧⟨490⟩⟨489⟩⟨491⟩⟦102⟧⟨492⟩ | ⟦185⟧
+[Monsters, Inc.] ⟦90⟧⟦89⟧⟦212⟧⟦320⟧
+[Monsters, Inc.] ⟦49⟧ | ⟦167⟧
+[Monsters, Inc.] ⟦126⟧ | ⟦126⟧⟦126⟧ | ⟦126⟧ | ⟦263⟧⟦126⟧
+
+符号表：
+⟦1⟧ = "Finding Nemo
+⟦5⟧ = "tough warriors
+⟦7⟧ = "WALL-E
+⟦13⟧ = a 1998 American computer-animated adventure comedy film
+⟦20⟧ = A Bug's Life
+⟦22⟧ = a group
+⟦32⟧ = action
+⟦33⟧ = actor
+⟦34⟧ = adventure
+⟦43⟧ = an American film director
+⟦46⟧ = an inept circus troupe
+⟦49⟧ = Andrew Stanton
+⟦69⟧ = Bug
+⟦70⟧ = bugs
+⟦81⟧ = circus
+⟦84⟧ = co
+⟦88⟧ = colony
+⟦89⟧ = comedy
+⟦90⟧ = computer
+⟦100⟧ = director
+⟦102⟧ = Disney's "John Carter
+⟦126⟧ = film
+⟦130⟧ = Flik
+⟦136⟧ = grasshoppers
+⟦137⟧ = greedy grasshoppers
+⟦138⟧ = group
+⟦143⟧ = his colony
+⟦146⟧ = His film work
+⟦167⟧ = John Lasseter
+⟦185⟧ = Life
+⟦211⟧ = Pixar
+⟦212⟧ = Pixar Animation Studios
+⟦213⟧ = Pixar's "A Bug's Life
+⟦220⟧ = producer
+⟦238⟧ = screenwriter
+⟦263⟧ = The film
+⟦276⟧ = the live-action film
+⟦310⟧ = troupe
+⟦316⟧ = voice
+⟦317⟧ = voice actor
+⟦320⟧ = Walt Disney Pictures
+⟦321⟧ = warriors
+⟦325⟧ = work
+
+占位符映射：
+⟨201⟩ = 
+⟨202⟩ =  is 
+⟨203⟩ = 
+⟨204⟩ = -animated 
+⟨205⟩ =  
+⟨206⟩ =  
+⟨207⟩ =  produced by 
+⟨208⟩ =  for 
+⟨209⟩ = .
+⟨210⟩ =  Directed by 
+⟨211⟩ = , 
+⟨212⟩ = 
+⟨213⟩ =  involves a misfit ant named 
+⟨214⟩ =  that is looking for 
+⟨215⟩ = 
+⟨216⟩ = " to save 
+⟨217⟩ = 
+⟨218⟩ =  from 
+⟨219⟩ = 
+⟨220⟩ = , only to recruit 
+⟨221⟩ = 
+⟨222⟩ =  of 
+⟨223⟩ = 
+⟨224⟩ =  that turn out to be 
+⟨225⟩ = 
+⟨226⟩ =  
+⟨227⟩ = .
+⟨464⟩ =  (born December 3, 1965) is 
+⟨465⟩ = 
+⟨466⟩ =  
+⟨467⟩ = , 
+⟨468⟩ = 
+⟨469⟩ = , 
+⟨470⟩ = 
+⟨471⟩ =  and 
+⟨472⟩ = 
+⟨473⟩ = 
+⟨474⟩ =  based at 
+⟨475⟩ = .
+⟨476⟩ =  
+⟨477⟩ = 
+⟨478⟩ =  
+⟨479⟩ =  includes writing and directing 
+⟨480⟩ = 
+⟨481⟩ = 's 
+⟨482⟩ = " (1998) (as 
+⟨483⟩ = 
+⟨484⟩ = -
+⟨485⟩ = 
+⟨486⟩ = ), 
+⟨487⟩ = " (2003), and 
+⟨488⟩ = " (2008), and 
+⟨489⟩ = 
+⟨490⟩ =  
+⟨491⟩ = , 
+⟨492⟩ = " (2012).
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Andrew Stanton co-directed which film which featured greedy grasshoppers?

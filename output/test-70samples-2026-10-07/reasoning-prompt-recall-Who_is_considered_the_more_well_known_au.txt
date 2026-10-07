@@ -1,0 +1,85 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Roger Angell] ⟨36⟩⟦25⟧⟦49⟧⟨37⟩⟨38⟩⟦61⟧⟦181⟧⟨39⟩⟨40⟩⟦124⟧⟦124⟧⟨41⟩⟨42⟩⟦48⟧⟨43⟩⟨44⟩
+[Season Ticket: A Baseball Companion] ⟦111⟧
+[Season Ticket: A Baseball Companion] ⟦31⟧
+[Harry Stephen Keeler] ⟦55⟧⟨85⟩⟦93⟧⟨86⟩⟦66⟧⟨87⟩⟦12⟧⟨88⟩⟨89⟩⟦86⟧⟦86⟧⟨90⟩⟨91⟩⟦112⟧⟦113⟧⟨92⟩⟦51⟧⟨93⟩⟨94⟩
+[Mr. Limberham; or, the Kind Keeper] ⟦67⟧⟨120⟩⟦16⟧⟨121⟩⟨122⟩⟦162⟧⟦178⟧⟨123⟩⟨124⟩
+[Abdelaziz al-Maghrawi] ⟦30⟧ | ⟦30⟧
+
+符号表：
+⟦12⟧ = a prolific but little-known American author
+⟦16⟧ = a very well known author
+⟦25⟧ = an American essayist
+⟦30⟧ = author
+⟦31⟧ = baseball
+⟦48⟧ = especially baseball
+⟦49⟧ = essayist
+⟦51⟧ = fiction
+⟦55⟧ = Harry Stephen Keeler
+⟦61⟧ = his writing
+⟦66⟧ = January
+⟦67⟧ = John Dryden
+⟦86⟧ = mysteries
+⟦93⟧ = November
+⟦111⟧ = Roger Angell
+⟦112⟧ = science
+⟦113⟧ = science fiction
+⟦124⟧ = sports
+⟦162⟧ = this work
+⟦178⟧ = work
+⟦181⟧ = writing
+
+占位符映射：
+⟨36⟩ =  (born September 19, 1920) is 
+⟨37⟩ = 
+⟨38⟩ =  known for 
+⟨39⟩ = 
+⟨40⟩ =  on 
+⟨41⟩ = 
+⟨42⟩ = , 
+⟨43⟩ = 
+⟨44⟩ = .
+⟨85⟩ =  (
+⟨86⟩ =  3, 1890 – 
+⟨87⟩ =  22, 1967) was 
+⟨88⟩ = 
+⟨89⟩ =  of 
+⟨90⟩ = 
+⟨91⟩ =  and 
+⟨92⟩ = 
+⟨93⟩ = 
+⟨94⟩ = .
+⟨120⟩ =  was 
+⟨121⟩ = 
+⟨122⟩ = , however, 
+⟨123⟩ = 
+⟨124⟩ =  is lesser known.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who is considered the more well known author, Roger Angell or Harry Stephen Keeler?

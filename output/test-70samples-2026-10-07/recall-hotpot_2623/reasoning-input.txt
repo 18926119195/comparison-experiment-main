@@ -1,0 +1,71 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Robert J. Van de Graaff] ⟦204⟧⟨339⟩⟦100⟧⟨340⟩⟦147⟧⟨341⟩⟦48⟧⟦115⟧⟨342⟩⟨343⟩⟨344⟩⟨345⟩⟦139⟧⟦101⟧⟨346⟩⟨347⟩⟦94⟧⟦94⟧⟨348⟩⟨349⟩⟦138⟧⟨351⟩⟦128⟧⟨350⟩⟨352⟩
+[Robert J. Van de Graaff] ⟨353⟩⟦195⟧⟨354⟩⟦160⟧⟨355⟩⟦225⟧⟨356⟩
+[Van de Graaff generator] ⟦287⟧
+[Van de Graaff generator] ⟦185⟧⟦185⟧
+
+符号表：
+⟦48⟧ = an American engineer
+⟦94⟧ = construction
+⟦100⟧ = December
+⟦101⟧ = design
+⟦115⟧ = engineer
+⟦128⟧ = generators
+⟦138⟧ = high-voltage Van de Graaff generators
+⟦139⟧ = his design
+⟦147⟧ = January
+⟦160⟧ = Massachusetts Institute
+⟦185⟧ = physicist
+⟦195⟧ = Princeton University
+⟦204⟧ = Robert Jemison Van de Graaff
+⟦225⟧ = Technology
+⟦287⟧ = voltage
+
+占位符映射：
+⟨339⟩ =  (
+⟨340⟩ =  20, 1901 – 
+⟨341⟩ =  16, 1967) was 
+⟨342⟩ = 
+⟨343⟩ = , 
+⟨344⟩ = 
+⟨345⟩ = , and noted for 
+⟨346⟩ = 
+⟨347⟩ =  and 
+⟨348⟩ = 
+⟨349⟩ =  of 
+⟨350⟩ = 
+⟨351⟩ =  Van de Graaff 
+⟨352⟩ = .
+⟨353⟩ =  He taught at 
+⟨354⟩ =  and 
+⟨355⟩ =  of 
+⟨356⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Where did the designer of the Van de Graaff generator teach at?

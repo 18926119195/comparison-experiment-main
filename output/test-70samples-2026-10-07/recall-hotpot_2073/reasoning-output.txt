@@ -1,0 +1,29 @@
+# 路径一：直接实体匹配
+
+步骤1：使用⟦106⟧，提取“Rani Jhansi Marine National Park”这一公园名称，判断其名称中包含“Rani Jhansi”这一指称。
+
+步骤2：综合⟦74⟧⟦169⟧，提取“Lakshmibai”与“the Rani”的对应关系，确认“Rani Jhansi”即指 Lakshmibai。
+
+步骤3：综合⟦59⟧⟦166⟧⟦120⟧，提取“Jhansi”与“the princely state”及“state”的关联，确认 Jhansi 是一个 princely state。
+
+结论：Rani Jhansi Marine National Park commemorates Lakshmibai，即 the queen of the princely state of Jhansi。
+
+# 路径二：纪念对象与身份交叉验证
+
+步骤1：使用⟦106⟧，提取公园名称“Rani Jhansi Marine National Park”，判断其纪念对象与“Rani Jhansi”相关。
+
+步骤2：综合⟦74⟧⟦104⟧⟦168⟧，提取“Lakshmibai”与“queen”“the queen”的对应关系，确认 Lakshmibai 的身份是 queen。
+
+步骤3：综合⟦59⟧⟦60⟧⟦181⟧，提取“Jhansi”“Jhansi district”“Uttar Pradesh”的地理关联，确认 Jhansi 位于 North India 的 Uttar Pradesh。
+
+结论：该公园纪念的是 Jhansi  princely state 的 queen Lakshmibai。
+
+# 路径三：名称结构与历史身份综合
+
+步骤1：使用⟦106⟧，提取“Rani Jhansi Marine National Park”中的“Rani Jhansi”部分，判断“Rani”是对 queen 的称呼。
+
+步骤2：综合⟦74⟧⟦169⟧⟦104⟧，提取“Lakshmibai”“the Rani”“queen”的同一性，确认 Lakshmibai 就是被称为 Rani 的 queen。
+
+步骤3：综合⟦166⟧⟦120⟧⟦50⟧，提取“the princely state”“state”“India”的层级关系，确认 Jhansi 是 India 中的一个 princely state。
+
+结论：Rani Jhansi Marine National Park commemorates Lakshmibai, the queen of the princely state of Jhansi in North India。

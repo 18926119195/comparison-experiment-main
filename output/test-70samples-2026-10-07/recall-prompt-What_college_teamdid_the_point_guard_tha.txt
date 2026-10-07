@@ -1,0 +1,487 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "The Process
+⟦2⟧ = 10 rounds
+⟦3⟧ = 11 and 13-game losing streaks
+⟦4⟧ = 173 players
+⟦5⟧ = 18 NBA teams
+⟦6⟧ = 1975 supplementary draft American Basketball Association (ABA) players
+⟦7⟧ = 1983–84
+⟦8⟧ = 1997 Rookie
+⟦9⟧ = 2015–16
+⟦10⟧ = 21 wins
+⟦11⟧ = 21st season
+⟦12⟧ = 22nd
+⟦13⟧ = 23.5 points
+⟦14⟧ = 26 college underclassmen
+⟦15⟧ = 27 straight losses
+⟦16⟧ = 28 games
+⟦17⟧ = 30 regular season games
+⟦18⟧ = 34th season
+⟦19⟧ = 48th season
+⟦20⟧ = 7 NBA seasons
+⟦21⟧ = 76ers
+⟦22⟧ = 76ers fans
+⟦23⟧ = 9–73
+⟦24⟧ = a 114–116 loss
+⟦25⟧ = a 2020 second round pick
+⟦26⟧ = a 22–60 record
+⟦27⟧ = a 52-30 record
+⟦28⟧ = A 6'1" point guard
+⟦29⟧ = a 7–8 start
+⟦30⟧ = a Cameroonian professional basketball player
+⟦31⟧ = a coin flip
+⟦32⟧ = a Dispersal draft
+⟦33⟧ = a leg injury
+⟦34⟧ = a legitimate change
+⟦35⟧ = a member
+⟦36⟧ = A player
+⟦37⟧ = a playoff run
+⟦38⟧ = a playoff series
+⟦39⟧ = a previous trade
+⟦40⟧ = a record
+⟦41⟧ = a refrain
+⟦42⟧ = a season
+⟦43⟧ = a team
+⟦44⟧ = ABA players
+⟦45⟧ = agency
+⟦46⟧ = agents
+⟦47⟧ = all three post season games
+⟦48⟧ = All-Rookie First Team
+⟦49⟧ = amateur U.S. college basketball players
+⟦50⟧ = American professional sports history
+⟦51⟧ = an American former professional basketball player
+⟦52⟧ = an American professional basketball player
+⟦53⟧ = an American professional basketball team
+⟦54⟧ = an associate head coach
+⟦55⟧ = another first round pick
+⟦56⟧ = April
+⟦57⟧ = August
+⟦58⟧ = basketball
+⟦59⟧ = Basketball Operations
+⟦60⟧ = Ben Simmons
+⟦61⟧ = Brett Brown
+⟦62⟧ = Bryan Colangelo
+⟦63⟧ = campaign
+⟦64⟧ = candidates
+⟦65⟧ = careers
+⟦66⟧ = change
+⟦67⟧ = city
+⟦68⟧ = class
+⟦69⟧ = Cleveland State University
+⟦70⟧ = club
+⟦71⟧ = coach
+⟦72⟧ = coach Al Cervi
+⟦73⟧ = coin
+⟦74⟧ = college
+⟦75⟧ = college basketball
+⟦76⟧ = conference
+⟦77⟧ = core
+⟦78⟧ = crown
+⟦79⟧ = Dario Saric
+⟦80⟧ = days
+⟦81⟧ = December
+⟦82⟧ = demotion
+⟦83⟧ = difference
+⟦84⟧ = Don MacLean
+⟦85⟧ = Doug Collins
+⟦86⟧ = draft
+⟦87⟧ = each conference
+⟦88⟧ = Edwards
+⟦89⟧ = eligibility
+⟦90⟧ = end
+⟦91⟧ = entry
+⟦92⟧ = era
+⟦93⟧ = evidence
+⟦94⟧ = exchange
+⟦95⟧ = fans
+⟦96⟧ = February
+⟦97⟧ = financial hardship
+⟦98⟧ = flip
+⟦99⟧ = format
+⟦100⟧ = former Denver Nuggets
+⟦101⟧ = former Phoenix Suns owner
+⟦102⟧ = former small forward Paul Pierce
+⟦103⟧ = four games
+⟦104⟧ = four-time NBA Executive
+⟦105⟧ = franchise
+⟦106⟧ = Franklin Delano Edwards
+⟦107⟧ = free agency
+⟦108⟧ = free agents Mark Davis
+⟦109⟧ = fruition
+⟦110⟧ = full fruition
+⟦111⟧ = game
+⟦112⟧ = games
+⟦113⟧ = general manager
+⟦114⟧ = general manager Sam Hinkie
+⟦115⟧ = George McGinnis
+⟦116⟧ = Georgetown
+⟦117⟧ = goal
+⟦118⟧ = Gordon Hayward
+⟦119⟧ = guard
+⟦120⟧ = guards
+⟦121⟧ = hardship
+⟦122⟧ = head
+⟦123⟧ = head coach
+⟦124⟧ = his college class
+⟦125⟧ = his four-year college eligibility
+⟦126⟧ = his original position
+⟦127⟧ = his personal demotion
+⟦128⟧ = his position
+⟦129⟧ = his resignation
+⟦130⟧ = history
+⟦131⟧ = home
+⟦132⟧ = Ike Richma
+⟦133⟧ = injury
+⟦134⟧ = international players
+⟦135⟧ = Irving's former team
+⟦136⟧ = Iverson
+⟦137⟧ = Jae Crowder
+⟦138⟧ = Jahlil Okafor
+⟦139⟧ = Jayson Tatum
+⟦140⟧ = Jerry
+⟦141⟧ = Jerry's son
+⟦142⟧ = Jerryd Bayless
+⟦143⟧ = Joel Embiid
+⟦144⟧ = Joel Hans Embiid
+⟦145⟧ = July
+⟦146⟧ = June
+⟦147⟧ = Kansas
+⟦148⟧ = Kings
+⟦149⟧ = Kobe Bryant's last game
+⟦150⟧ = Kyrie Irving
+⟦151⟧ = last season
+⟦152⟧ = league
+⟦153⟧ = leg
+⟦154⟧ = living
+⟦155⟧ = longest opening season losing streak
+⟦156⟧ = Los Angeles Clippers
+⟦157⟧ = Los Angeles Lakers
+⟦158⟧ = losing
+⟦159⟧ = loss
+⟦160⟧ = losses
+⟦161⟧ = Lucious Harris
+⟦162⟧ = manager
+⟦163⟧ = Markelle Fultz
+⟦164⟧ = Markelle N'Gai Fultz
+⟦165⟧ = May
+⟦166⟧ = member
+⟦167⟧ = merger
+⟦168⟧ = method
+⟦169⟧ = Michael Cage
+⟦170⟧ = most losses
+⟦171⟧ = name
+⟦172⟧ = name change
+⟦173⟧ = NBA
+⟦174⟧ = NBA season
+⟦175⟧ = New York Knicks
+⟦176⟧ = newly drafted point guard
+⟦177⟧ = November
+⟦178⟧ = number
+⟦179⟧ = October
+⟦180⟧ = offseason
+⟦181⟧ = one season
+⟦182⟧ = one year
+⟦183⟧ = only 13 early entry candidates
+⟦184⟧ = opening
+⟦185⟧ = order
+⟦186⟧ = other eligible players
+⟦187⟧ = owner
+⟦188⟧ = participation
+⟦189⟧ = Pennsylvania
+⟦190⟧ = Philadelphia
+⟦191⟧ = Philadelphian Irv Kosloff
+⟦192⟧ = Phoenix Suns
+⟦193⟧ = pick
+⟦194⟧ = picks
+⟦195⟧ = player
+⟦196⟧ = players
+⟦197⟧ = playoff
+⟦198⟧ = point
+⟦199⟧ = point guard Allen Iverson
+⟦200⟧ = point guard Markelle Fultz
+⟦201⟧ = points
+⟦202⟧ = position
+⟦203⟧ = post
+⟦204⟧ = process
+⟦205⟧ = professional basketball
+⟦206⟧ = record
+⟦207⟧ = refrain
+⟦208⟧ = resignation
+⟦209⟧ = response
+⟦210⟧ = reverse order
+⟦211⟧ = right
+⟦212⟧ = rights
+⟦213⟧ = road
+⟦214⟧ = Robert Covington
+⟦215⟧ = rookie
+⟦216⟧ = rookie Ante Žižić
+⟦217⟧ = round
+⟦218⟧ = rounds
+⟦219⟧ = rule
+⟦220⟧ = run
+⟦221⟧ = Sacramento Kings
+⟦222⟧ = Sam Hinkie's goal
+⟦223⟧ = Sam Hinkie's infamous tanking method
+⟦224⟧ = season
+⟦225⟧ = seasons
+⟦226⟧ = selection
+⟦227⟧ = series
+⟦228⟧ = shift
+⟦229⟧ = significant time
+⟦230⟧ = signing
+⟦231⟧ = Sixers
+⟦232⟧ = son
+⟦233⟧ = Spectrum
+⟦234⟧ = Spirits
+⟦235⟧ = sports
+⟦236⟧ = spring
+⟦237⟧ = St. Louis
+⟦238⟧ = star point guard Isaiah Thomas
+⟦239⟧ = start
+⟦240⟧ = streak
+⟦241⟧ = streaks
+⟦242⟧ = team
+⟦243⟧ = teams
+⟦244⟧ = that point
+⟦245⟧ = the  National Basketball Association
+⟦246⟧ = the "hardship" rule
+⟦247⟧ = the #1 pick
+⟦248⟧ = the #1 selection
+⟦249⟧ = the 18 straight losses
+⟦250⟧ = The 1976 NBA draft
+⟦251⟧ = the 1976–77 season
+⟦252⟧ = the 1981 NBA draft
+⟦253⟧ = The 1983–84
+⟦254⟧ = the 1996 NBA draft
+⟦255⟧ = The 1996–97 NBA season
+⟦256⟧ = the 2009–10 New Jersey Nets
+⟦257⟧ = the 2012–13 season
+⟦258⟧ = the 2013-14 season
+⟦259⟧ = the 2014 NBA draft
+⟦260⟧ = The 2015–16 Philadelphia 76ers season
+⟦261⟧ = the 2016 NBA draft
+⟦262⟧ = the 2016–17 season
+⟦263⟧ = the 2017 NBA draft
+⟦264⟧ = The 2017–18 76ers season
+⟦265⟧ = The 2017–18 Boston Celtics season
+⟦266⟧ = the 2017–18 campaign
+⟦267⟧ = The 2017–18 Philadelphia 76ers season
+⟦268⟧ = the 2018 NBA draft
+⟦269⟧ = the 30th annual draft
+⟦270⟧ = the 72nd season
+⟦271⟧ = the 76ers
+⟦272⟧ = the 76ers' 35th season
+⟦273⟧ = the 77th season
+⟦274⟧ = the 79th season
+⟦275⟧ = the ABA–NBA merger
+⟦276⟧ = The Atlanta Hawks
+⟦277⟧ = the Atlantic Division
+⟦278⟧ = the Boston Celtics
+⟦279⟧ = the Brooklyn Nets
+⟦280⟧ = the Brooklyn Nets' completely unprotected first round pick
+⟦281⟧ = the Buffalo Braves
+⟦282⟧ = the Cavs
+⟦283⟧ = The Celtics
+⟦284⟧ = the Chicago Bulls
+⟦285⟧ = the city
+⟦286⟧ = the Cleveland Cavaliers
+⟦287⟧ = the club
+⟦288⟧ = the coin flip
+⟦289⟧ = the defending NBA Champions
+⟦290⟧ = the Denver Nuggets
+⟦291⟧ = The draft
+⟦292⟧ = the Eastern Conference
+⟦293⟧ = the Eastern Division crown
+⟦294⟧ = the end
+⟦295⟧ = the first game
+⟦296⟧ = the first overall pick
+⟦297⟧ = the first pick
+⟦298⟧ = the first round
+⟦299⟧ = the first time
+⟦300⟧ = The first two picks
+⟦301⟧ = the franchise
+⟦302⟧ = the Golden State Warriors
+⟦303⟧ = The Hawks
+⟦304⟧ = the head coach
+⟦305⟧ = the Houston Rockets
+⟦306⟧ = the Kentucky Colonels
+⟦307⟧ = the league
+⟦308⟧ = the longest losing streak
+⟦309⟧ = the Los Angeles Lakers
+⟦310⟧ = The losing streak
+⟦311⟧ = The major difference
+⟦312⟧ = the Miami Heat
+⟦313⟧ = the National Basketball Association
+⟦314⟧ = The Nationals
+⟦315⟧ = the NBA
+⟦316⟧ = the NBA Championship
+⟦317⟧ = the NBA draft
+⟦318⟧ = the NBA record
+⟦319⟧ = the New Jersey Nets
+⟦320⟧ = The New York Knicks
+⟦321⟧ = the newly expanded playoff format
+⟦322⟧ = the number
+⟦323⟧ = the offseason
+⟦324⟧ = the order
+⟦325⟧ = the Philadelphia 76ers
+⟦326⟧ = the Philidelphia 76ers
+⟦327⟧ = the premier point guards
+⟦328⟧ = the previous season
+⟦329⟧ = the process
+⟦330⟧ = the record
+⟦331⟧ = the regular season
+⟦332⟧ = The remaining first-round picks
+⟦333⟧ = the right
+⟦334⟧ = the road
+⟦335⟧ = the Sam Hinkie-era
+⟦336⟧ = the season
+⟦337⟧ = the second pick
+⟦338⟧ = the second straight season
+⟦339⟧ = the selection
+⟦340⟧ = the Sixers
+⟦341⟧ = The Spectrum
+⟦342⟧ = the spring
+⟦343⟧ = the start
+⟦344⟧ = the subsequent rounds
+⟦345⟧ = the Syracuse Nationals
+⟦346⟧ = the team
+⟦347⟧ = the teams
+⟦348⟧ = the third overall pick
+⟦349⟧ = the University
+⟦350⟧ = the Washington Huskies
+⟦351⟧ = the way
+⟦352⟧ = the year
+⟦353⟧ = the Year winner Jerry Colangelo
+⟦354⟧ = their #3 pick
+⟦355⟧ = their 1972–73 season
+⟦356⟧ = their Chairman
+⟦357⟧ = their final eleven games
+⟦358⟧ = their first 26 games
+⟦359⟧ = their first NBA season
+⟦360⟧ = their first victory
+⟦361⟧ = their first-round draft pick
+⟦362⟧ = their franchise shift
+⟦363⟧ = their franchise's young core
+⟦364⟧ = their illegal signing
+⟦365⟧ = their living
+⟦366⟧ = their NBA history
+⟦367⟧ = their next 24 games
+⟦368⟧ = their participation
+⟦369⟧ = their professional careers
+⟦370⟧ = their second, third and fourth-round pick
+⟦371⟧ = their third pick
+⟦372⟧ = their win–loss record
+⟦373⟧ = These players
+⟦374⟧ = this draft
+⟦375⟧ = this season
+⟦376⟧ = this time
+⟦377⟧ = time
+⟦378⟧ = Timothe Luwawu-Cabarrot
+⟦379⟧ = trade
+⟦380⟧ = turns
+⟦381⟧ = two different draft picks
+⟦382⟧ = two seasons
+⟦383⟧ = underclassmen
+⟦384⟧ = victory
+⟦385⟧ = way
+⟦386⟧ = whose rights
+⟦387⟧ = win
+⟦388⟧ = winner
+⟦389⟧ = wins
+⟦390⟧ = year
+⟦391⟧ = young core
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Joel Embiid] ⟦144⟧⟨1⟩⟦30⟧⟨2⟩⟦58⟧⟨3⟩⟦195⟧⟨4⟩⟦325⟧⟨5⟩⟦21⟧⟨6⟩⟦313⟧⟨7⟩⟦173⟧⟨8⟩
+[Joel Embiid] ⟨9⟩⟦182⟧⟨10⟩⟦390⟧⟨11⟩⟦74⟧⟨12⟩⟦75⟧⟨13⟩⟦58⟧⟨14⟩⟦349⟧⟨15⟩⟦147⟧⟨16⟩⟦348⟧⟨17⟩⟦193⟧⟨18⟩⟦259⟧⟨19⟩⟦86⟧⟨20⟩⟦271⟧⟨21⟩⟦21⟧⟨22⟩
+[Joel Embiid] ⟨23⟩⟦1⟧⟨24⟩⟦209⟧⟨25⟩⟦209⟧⟨26⟩⟦41⟧⟨27⟩⟦207⟧⟨28⟩⟦21⟧⟨29⟩⟦22⟧⟨30⟩⟦95⟧⟨31⟩⟦335⟧⟨32⟩⟦92⟧⟨33⟩⟦329⟧⟨34⟩⟦204⟧⟨35⟩
+[Markelle Fultz] ⟦164⟧⟨36⟩⟦52⟧⟨37⟩⟦58⟧⟨38⟩⟦195⟧⟨39⟩⟦325⟧⟨40⟩⟦21⟧⟨41⟩⟦245⟧⟨42⟩⟦173⟧⟨43⟩
+[Markelle Fultz] ⟨44⟩⟦74⟧⟨45⟩⟦75⟧⟨46⟩⟦58⟧⟨47⟩⟦181⟧⟨48⟩⟦224⟧⟨49⟩⟦350⟧⟨50⟩⟦296⟧⟨51⟩⟦193⟧⟨52⟩⟦263⟧⟨53⟩⟦86⟧⟨54⟩⟦271⟧⟨55⟩⟦21⟧⟨56⟩
+[2015–16 Philadelphia 76ers season] ⟦260⟧⟨57⟩⟦9⟧⟨58⟩⟦21⟧⟨59⟩⟦224⟧⟨60⟩⟦273⟧⟨61⟩⟦224⟧⟨62⟩⟦301⟧⟨63⟩⟦105⟧⟨64⟩⟦313⟧⟨65⟩⟦173⟧⟨66⟩
+[2015–16 Philadelphia 76ers season] ⟨67⟩⟦338⟧⟨68⟩⟦224⟧⟨69⟩⟦143⟧⟨70⟩⟦371⟧⟨71⟩⟦193⟧⟨72⟩⟦259⟧⟨73⟩⟦86⟧⟨74⟩⟦271⟧⟨75⟩⟦21⟧⟨76⟩⟦33⟧⟨77⟩⟦153⟧⟨78⟩⟦133⟧⟨79⟩
+[2015–16 Philadelphia 76ers season] ⟦190⟧⟨80⟩⟦330⟧⟨81⟩⟦206⟧⟨82⟩⟦308⟧⟨83⟩⟦158⟧⟨84⟩⟦240⟧⟨85⟩⟦50⟧⟨86⟩⟦235⟧⟨87⟩⟦130⟧⟨88⟩⟦15⟧⟨89⟩⟦160⟧⟨90⟩⟦375⟧⟨91⟩⟦224⟧⟨92⟩⟦151⟧⟨93⟩⟦224⟧⟨94⟩⟦24⟧⟨95⟩⟦159⟧⟨96⟩⟦305⟧⟨97⟩
+[2015–16 Philadelphia 76ers season] ⟦310⟧⟨98⟩⟦240⟧⟨99⟩⟦16⟧⟨100⟩⟦112⟧⟨101⟩⟦249⟧⟨102⟩⟦160⟧⟨103⟩⟦330⟧⟨104⟩⟦206⟧⟨105⟩⟦155⟧⟨106⟩⟦184⟧⟨107⟩⟦224⟧⟨108⟩⟦158⟧⟨109⟩⟦240⟧⟨110⟩⟦256⟧⟨111⟩⟦360⟧⟨112⟩⟦384⟧⟨113⟩⟦131⟧⟨114⟩⟦131⟧⟨115⟩⟦309⟧⟨116⟩⟦149⟧⟨117⟩⟦111⟧⟨118⟩⟦271⟧⟨119⟩⟦21⟧⟨120⟩⟦190⟧⟨121⟩
+[2015–16 Philadelphia 76ers season] ⟦190⟧⟨122⟩⟦101⟧⟨123⟩⟦187⟧⟨124⟩⟦71⟧⟨125⟩⟦71⟧⟨126⟩⟦113⟧⟨127⟩⟦162⟧⟨128⟩⟦104⟧⟨129⟩⟦377⟧⟨130⟩⟦353⟧⟨131⟩⟦388⟧⟨132⟩⟦81⟧⟨133⟩⟦356⟧⟨134⟩⟦59⟧⟨135⟩
+[2015–16 Philadelphia 76ers season] ⟨136⟩⟦80⟧⟨137⟩⟦100⟧⟨138⟩⟦192⟧⟨139⟩⟦175⟧⟨140⟩⟦157⟧⟨141⟩⟦122⟧⟨142⟩⟦71⟧⟨143⟩⟦346⟧⟨144⟩⟦242⟧⟨145⟩⟦54⟧⟨146⟩⟦122⟧⟨147⟩⟦71⟧⟨148⟩
+[2015–16 Philadelphia 76ers season] ⟨149⟩⟦294⟧⟨150⟩⟦90⟧⟨151⟩⟦336⟧⟨152⟩⟦224⟧⟨153⟩⟦114⟧⟨154⟩⟦162⟧⟨155⟩⟦129⟧⟨156⟩⟦208⟧⟨157⟩⟦128⟧⟨158⟩⟦202⟧⟨159⟩⟦141⟧⟨160⟩⟦232⟧⟨161⟩⟦62⟧⟨162⟩⟦294⟧⟨163⟩⟦90⟧⟨164⟩⟦336⟧⟨165⟩⟦224⟧⟨166⟩
+[2015–16 Philadelphia 76ers season] ⟦140⟧⟨167⟩⟦127⟧⟨168⟩⟦82⟧⟨169⟩⟦126⟧⟨170⟩⟦202⟧⟨171⟩
+[2015–16 Philadelphia 76ers season] ⟨172⟩⟦111⟧⟨173⟩⟦318⟧⟨174⟩⟦206⟧⟨175⟩⟦170⟧⟨176⟩⟦160⟧⟨177⟩⟦42⟧⟨178⟩⟦224⟧⟨179⟩⟦355⟧⟨180⟩⟦224⟧⟨181⟩⟦23⟧⟨182⟩
+[2015–16 Philadelphia 76ers season] ⟨183⟩⟦336⟧⟨184⟩⟦224⟧⟨185⟩⟦222⟧⟨186⟩⟦117⟧⟨187⟩⟦1⟧⟨188⟩⟦110⟧⟨189⟩⟦109⟧⟨190⟩⟦248⟧⟨191⟩⟦226⟧⟨192⟩⟦261⟧⟨193⟩⟦86⟧⟨194⟩
+[List of Philadelphia 76ers head coaches] ⟦325⟧⟨195⟩⟦21⟧⟨196⟩⟦53⟧⟨197⟩⟦58⟧⟨198⟩⟦242⟧⟨199⟩⟦190⟧⟨200⟩⟦189⟧⟨201⟩
+[List of Philadelphia 76ers head coaches] ⟨202⟩⟦35⟧⟨203⟩⟦166⟧⟨204⟩⟦277⟧⟨205⟩⟦292⟧⟨206⟩⟦313⟧⟨207⟩⟦173⟧⟨208⟩
+[List of Philadelphia 76ers head coaches] ⟨209⟩⟦345⟧⟨210⟩⟦271⟧⟨211⟩⟦21⟧⟨212⟩⟦315⟧⟨213⟩
+[List of Philadelphia 76ers head coaches] ⟦314⟧⟨214⟩⟦40⟧⟨215⟩⟦206⟧⟨216⟩⟦359⟧⟨217⟩⟦224⟧⟨218⟩⟦71⟧⟨219⟩⟦72⟧⟨220⟩⟦293⟧⟨221⟩⟦78⟧⟨222⟩
+[List of Philadelphia 76ers head coaches] ⟦301⟧⟨223⟩⟦105⟧⟨224⟩⟦191⟧⟨225⟩⟦132⟧⟨226⟩⟦342⟧⟨227⟩⟦236⟧⟨228⟩⟦315⟧⟨229⟩⟦362⟧⟨230⟩⟦105⟧⟨231⟩⟦228⟧⟨232⟩⟦165⟧⟨233⟩⟦171⟧⟨234⟩⟦172⟧⟨235⟩⟦66⟧⟨236⟩⟦325⟧⟨237⟩⟦21⟧⟨238⟩⟦57⟧⟨239⟩
+[List of Philadelphia 76ers head coaches] ⟨240⟩⟦205⟧⟨241⟩⟦58⟧⟨242⟩⟦285⟧⟨243⟩⟦67⟧⟨244⟩⟦43⟧⟨245⟩⟦242⟧⟨246⟩⟦302⟧⟨247⟩⟦190⟧⟨248⟩
+[List of Philadelphia 76ers head coaches] ⟨249⟩⟦271⟧⟨250⟩⟦21⟧⟨251⟩⟦85⟧⟨252⟩⟦122⟧⟨253⟩⟦123⟧⟨254⟩⟦71⟧⟨255⟩⟦56⟧⟨256⟩⟦257⟧⟨257⟩⟦224⟧⟨258⟩
+[List of Philadelphia 76ers head coaches] ⟦61⟧⟨259⟩⟦304⟧⟨260⟩⟦122⟧⟨261⟩⟦71⟧⟨262⟩⟦271⟧⟨263⟩⟦21⟧⟨264⟩⟦57⟧⟨265⟩⟦343⟧⟨266⟩⟦239⟧⟨267⟩⟦258⟧⟨268⟩⟦224⟧⟨269⟩
+[Franklin Edwards] ⟦106⟧⟨270⟩⟦51⟧⟨271⟩⟦58⟧⟨272⟩⟦195⟧⟨273⟩⟦325⟧⟨274⟩⟦21⟧⟨275⟩⟦298⟧⟨276⟩⟦217⟧⟨277⟩⟦12⟧⟨278⟩⟦252⟧⟨279⟩⟦86⟧⟨280⟩
+[Franklin Edwards] ⟦28⟧⟨281⟩⟦198⟧⟨282⟩⟦119⟧⟨283⟩⟦69⟧⟨284⟩⟦88⟧⟨285⟩⟦20⟧⟨286⟩⟦225⟧⟨287⟩
+[Franklin Edwards] ⟨288⟩⟦271⟧⟨289⟩⟦21⟧⟨290⟩⟦156⟧⟨291⟩⟦221⟧⟨292⟩⟦148⟧⟨293⟩
+[2017–18 Philadelphia 76ers season] ⟦267⟧⟨294⟩⟦21⟧⟨295⟩⟦224⟧⟨296⟩⟦274⟧⟨297⟩⟦224⟧⟨298⟩⟦301⟧⟨299⟩⟦105⟧⟨300⟩⟦313⟧⟨301⟩⟦173⟧⟨302⟩
+[2017–18 Philadelphia 76ers season] ⟦264⟧⟨303⟩⟦21⟧⟨304⟩⟦224⟧⟨305⟩⟦299⟧⟨306⟩⟦377⟧⟨307⟩⟦363⟧⟨308⟩⟦105⟧⟨309⟩⟦77⟧⟨310⟩⟦196⟧⟨311⟩⟦196⟧⟨312⟩⟦143⟧⟨313⟩⟦60⟧⟨314⟩⟦79⟧⟨315⟩⟦378⟧⟨316⟩⟦176⟧⟨317⟩⟦198⟧⟨318⟩⟦119⟧⟨319⟩⟦163⟧⟨320⟩⟦351⟧⟨321⟩⟦385⟧⟨322⟩
+[2017–18 Philadelphia 76ers season] ⟨323⟩⟦262⟧⟨324⟩⟦224⟧⟨325⟩⟦287⟧⟨326⟩⟦70⟧⟨327⟩⟦133⟧⟨328⟩⟦133⟧⟨329⟩⟦60⟧⟨330⟩⟦138⟧⟨331⟩⟦142⟧⟨332⟩⟦143⟧⟨333⟩⟦214⟧⟨334⟩
+[2017–18 Philadelphia 76ers season] ⟨335⟩⟦229⟧⟨336⟩⟦377⟧⟨337⟩
+[2017–18 Philadelphia 76ers season] ⟨338⟩⟦247⟧⟨339⟩⟦193⟧⟨340⟩⟦376⟧⟨341⟩⟦377⟧⟨342⟩⟦198⟧⟨343⟩⟦200⟧⟨344⟩⟦119⟧⟨345⟩⟦278⟧⟨346⟩⟦146⟧⟨347⟩⟦80⟧⟨348⟩⟦263⟧⟨349⟩⟦94⟧⟨350⟩⟦94⟧⟨351⟩⟦354⟧⟨352⟩⟦193⟧⟨353⟩⟦390⟧⟨354⟩⟦139⟧⟨355⟩⟦55⟧⟨356⟩⟦217⟧⟨357⟩⟦193⟧⟨358⟩
+[2017–18 Philadelphia 76ers season] ⟨359⟩⟦266⟧⟨360⟩⟦63⟧⟨361⟩⟦340⟧⟨362⟩⟦391⟧⟨363⟩⟦77⟧⟨364⟩⟦34⟧⟨365⟩⟦66⟧⟨366⟩⟦37⟧⟨367⟩⟦197⟧⟨368⟩⟦220⟧⟨369⟩⟦223⟧⟨370⟩⟦168⟧⟨371⟩
+[1983–84 Philadelphia 76ers season] ⟦253⟧⟨372⟩⟦7⟧⟨373⟩⟦174⟧⟨374⟩⟦224⟧⟨375⟩⟦272⟧⟨376⟩⟦21⟧⟨377⟩⟦224⟧⟨378⟩⟦315⟧⟨379⟩⟦11⟧⟨380⟩⟦224⟧⟨381⟩⟦190⟧⟨382⟩
+[1983–84 Philadelphia 76ers season] ⟦271⟧⟨383⟩⟦21⟧⟨384⟩⟦336⟧⟨385⟩⟦224⟧⟨386⟩⟦289⟧⟨387⟩⟦316⟧⟨388⟩⟦390⟧⟨389⟩⟦309⟧⟨390⟩⟦103⟧⟨391⟩⟦112⟧⟨392⟩
+[1983–84 Philadelphia 76ers season] ⟦346⟧⟨393⟩⟦242⟧⟨394⟩⟦10⟧⟨395⟩⟦389⟧⟨396⟩⟦358⟧⟨397⟩⟦112⟧⟨398⟩⟦27⟧⟨399⟩⟦206⟧⟨400⟩
+[1983–84 Philadelphia 76ers season] ⟦311⟧⟨401⟩⟦83⟧⟨402⟩⟦334⟧⟨403⟩⟦213⟧⟨404⟩⟦352⟧⟨405⟩⟦390⟧⟨406⟩⟦328⟧⟨407⟩⟦224⟧⟨408⟩⟦17⟧⟨409⟩⟦224⟧⟨410⟩⟦112⟧⟨411⟩⟦190⟧⟨412⟩
+[1983–84 Philadelphia 76ers season] ⟦271⟧⟨413⟩⟦21⟧⟨414⟩⟦298⟧⟨415⟩⟦217⟧⟨416⟩⟦321⟧⟨417⟩⟦197⟧⟨418⟩⟦99⟧⟨419⟩⟦319⟧⟨420⟩⟦38⟧⟨421⟩⟦197⟧⟨422⟩⟦227⟧⟨423⟩⟦366⟧⟨424⟩⟦130⟧⟨425⟩⟦244⟧⟨426⟩⟦198⟧⟨427⟩
+[1983–84 Philadelphia 76ers season] ⟦271⟧⟨428⟩⟦21⟧⟨429⟩⟦47⟧⟨430⟩⟦203⟧⟨431⟩⟦224⟧⟨432⟩⟦112⟧⟨433⟩⟦341⟧⟨434⟩⟦233⟧⟨435⟩
+[1976 NBA draft] ⟦250⟧⟨436⟩⟦86⟧⟨437⟩⟦269⟧⟨438⟩⟦86⟧⟨439⟩⟦313⟧⟨440⟩⟦173⟧⟨441⟩
+[1976 NBA draft] ⟦291⟧⟨442⟩⟦86⟧⟨443⟩⟦146⟧⟨444⟩⟦251⟧⟨445⟩⟦224⟧⟨446⟩
+[1976 NBA draft] ⟨447⟩⟦36⟧⟨448⟩⟦195⟧⟨449⟩⟦74⟧⟨450⟩⟦74⟧⟨451⟩⟦226⟧⟨452⟩⟦226⟧⟨453⟩⟦124⟧⟨454⟩⟦74⟧⟨455⟩⟦68⟧⟨456⟩
+[1976 NBA draft] ⟨457⟩⟦291⟧⟨458⟩⟦86⟧⟨459⟩⟦14⟧⟨460⟩⟦74⟧⟨461⟩⟦383⟧⟨462⟩⟦226⟧⟨463⟩⟦226⟧⟨464⟩⟦246⟧⟨465⟩⟦121⟧⟨466⟩⟦219⟧⟨467⟩
+[1976 NBA draft] ⟨468⟩⟦291⟧⟨469⟩⟦86⟧⟨470⟩⟦183⟧⟨471⟩⟦91⟧⟨472⟩⟦64⟧⟨473⟩⟦226⟧⟨474⟩⟦226⟧⟨475⟩
+[1976 NBA draft] ⟦373⟧⟨476⟩⟦196⟧⟨477⟩⟦93⟧⟨478⟩⟦93⟧⟨479⟩⟦97⟧⟨480⟩⟦121⟧⟨481⟩⟦307⟧⟨482⟩⟦152⟧⟨483⟩⟦333⟧⟨484⟩⟦211⟧⟨485⟩⟦365⟧⟨486⟩⟦154⟧⟨487⟩⟦369⟧⟨488⟩⟦65⟧⟨489⟩
+[1976 NBA draft] ⟦291⟧⟨490⟩⟦86⟧⟨491⟩⟦2⟧⟨492⟩⟦218⟧⟨493⟩⟦339⟧⟨494⟩⟦226⟧⟨495⟩⟦4⟧⟨496⟩⟦196⟧⟨497⟩
+[1976 NBA draft] ⟨498⟩⟦57⟧⟨499⟩⟦307⟧⟨500⟩⟦152⟧⟨501⟩⟦32⟧⟨502⟩⟦86⟧⟨503⟩⟦44⟧⟨504⟩⟦196⟧⟨505⟩⟦306⟧⟨506⟩⟦234⟧⟨507⟩⟦237⟧⟨508⟩⟦275⟧⟨509⟩⟦167⟧⟨510⟩
+[1976 NBA draft] ⟨511⟩⟦374⟧⟨512⟩⟦86⟧⟨513⟩⟦5⟧⟨514⟩⟦243⟧⟨515⟩⟦380⟧⟨516⟩⟦380⟧⟨517⟩⟦49⟧⟨518⟩⟦74⟧⟨519⟩⟦58⟧⟨520⟩⟦196⟧⟨521⟩⟦186⟧⟨522⟩⟦196⟧⟨523⟩⟦134⟧⟨524⟩⟦196⟧⟨525⟩
+[1976 NBA draft] ⟦300⟧⟨526⟩⟦194⟧⟨527⟩⟦291⟧⟨528⟩⟦86⟧⟨529⟩⟦347⟧⟨530⟩⟦243⟧⟨531⟩⟦87⟧⟨532⟩⟦76⟧⟨533⟩⟦324⟧⟨534⟩⟦185⟧⟨535⟩⟦31⟧⟨536⟩⟦73⟧⟨537⟩⟦98⟧⟨538⟩
+[1976 NBA draft] ⟦276⟧⟨539⟩⟦288⟧⟨540⟩⟦73⟧⟨541⟩⟦98⟧⟨542⟩⟦296⟧⟨543⟩⟦193⟧⟨544⟩⟦284⟧⟨545⟩⟦337⟧⟨546⟩⟦193⟧⟨547⟩
+[1976 NBA draft] ⟦303⟧⟨548⟩⟦297⟧⟨549⟩⟦193⟧⟨550⟩⟦305⟧⟨551⟩⟦291⟧⟨552⟩⟦86⟧⟨553⟩
+[1976 NBA draft] ⟦332⟧⟨554⟩⟦217⟧⟨555⟩⟦194⟧⟨556⟩⟦344⟧⟨557⟩⟦218⟧⟨558⟩⟦243⟧⟨559⟩⟦243⟧⟨560⟩⟦210⟧⟨561⟩⟦185⟧⟨562⟩⟦372⟧⟨563⟩⟦387⟧⟨564⟩⟦159⟧⟨565⟩⟦206⟧⟨566⟩⟦328⟧⟨567⟩⟦224⟧⟨568⟩
+[1976 NBA draft] ⟦320⟧⟨569⟩⟦361⟧⟨570⟩⟦217⟧⟨571⟩⟦86⟧⟨572⟩⟦193⟧⟨573⟩⟦364⟧⟨574⟩⟦230⟧⟨575⟩⟦115⟧⟨576⟩⟦386⟧⟨577⟩⟦212⟧⟨578⟩⟦325⟧⟨579⟩⟦21⟧⟨580⟩
+[1976 NBA draft] ⟦271⟧⟨581⟩⟦21⟧⟨582⟩⟦302⟧⟨583⟩⟦281⟧⟨584⟩⟦370⟧⟨585⟩⟦217⟧⟨586⟩⟦193⟧⟨587⟩⟦368⟧⟨588⟩⟦188⟧⟨589⟩⟦6⟧⟨590⟩⟦86⟧⟨591⟩⟦196⟧⟨592⟩⟦315⟧⟨593⟩
+[1976 NBA draft] ⟦36⟧⟨594⟩⟦195⟧⟨595⟩⟦125⟧⟨596⟩⟦390⟧⟨597⟩⟦74⟧⟨598⟩⟦89⟧⟨599⟩⟦226⟧⟨600⟩⟦226⟧⟨601⟩
+[1996–97 Philadelphia 76ers season] ⟦255⟧⟨602⟩⟦224⟧⟨603⟩⟦271⟧⟨604⟩⟦21⟧⟨605⟩⟦19⟧⟨606⟩⟦224⟧⟨607⟩⟦313⟧⟨608⟩⟦18⟧⟨609⟩⟦224⟧⟨610⟩⟦190⟧⟨611⟩
+[1996–97 Philadelphia 76ers season] ⟨612⟩⟦382⟧⟨613⟩⟦225⟧⟨614⟩⟦116⟧⟨615⟩⟦198⟧⟨616⟩⟦199⟧⟨617⟩⟦119⟧⟨618⟩⟦325⟧⟨619⟩⟦21⟧⟨620⟩⟦254⟧⟨621⟩⟦86⟧⟨622⟩
+[1996–97 Philadelphia 76ers season] ⟦136⟧⟨623⟩⟦327⟧⟨624⟩⟦198⟧⟨625⟩⟦120⟧⟨626⟩⟦315⟧⟨627⟩⟦13⟧⟨628⟩⟦201⟧⟨629⟩⟦111⟧⟨630⟩⟦111⟧⟨631⟩
+[1996–97 Philadelphia 76ers season] ⟨632⟩⟦8⟧⟨633⟩⟦352⟧⟨634⟩⟦35⟧⟨635⟩⟦166⟧⟨636⟩⟦315⟧⟨637⟩⟦48⟧⟨638⟩
+[1996–97 Philadelphia 76ers season] ⟨639⟩⟦323⟧⟨640⟩⟦180⟧⟨641⟩⟦340⟧⟨642⟩⟦231⟧⟨643⟩⟦84⟧⟨644⟩⟦290⟧⟨645⟩⟦108⟧⟨646⟩⟦46⟧⟨647⟩⟦161⟧⟨648⟩⟦169⟧⟨649⟩
+[1996–97 Philadelphia 76ers season] ⟦340⟧⟨650⟩⟦231⟧⟨651⟩⟦177⟧⟨652⟩⟦29⟧⟨653⟩⟦239⟧⟨654⟩⟦336⟧⟨655⟩⟦224⟧⟨656⟩
+[1996–97 Philadelphia 76ers season] ⟨657⟩⟦367⟧⟨658⟩⟦112⟧⟨659⟩⟦3⟧⟨660⟩⟦111⟧⟨661⟩⟦158⟧⟨662⟩⟦241⟧⟨663⟩
+[1996–97 Philadelphia 76ers season] ⟦340⟧⟨664⟩⟦357⟧⟨665⟩⟦112⟧⟨666⟩⟦277⟧⟨667⟩⟦26⟧⟨668⟩⟦206⟧⟨669⟩
+[2017–18 Boston Celtics season] ⟦265⟧⟨670⟩⟦224⟧⟨671⟩⟦270⟧⟨672⟩⟦224⟧⟨673⟩⟦301⟧⟨674⟩⟦105⟧⟨675⟩⟦313⟧⟨676⟩⟦173⟧⟨677⟩
+[2017–18 Boston Celtics season] ⟨678⟩⟦247⟧⟨679⟩⟦193⟧⟨680⟩⟦317⟧⟨681⟩⟦86⟧⟨682⟩⟦39⟧⟨683⟩⟦379⟧⟨684⟩⟦279⟧⟨685⟩⟦247⟧⟨686⟩⟦193⟧⟨687⟩⟦317⟧⟨688⟩⟦86⟧⟨689⟩⟦326⟧⟨690⟩⟦21⟧⟨691⟩⟦94⟧⟨692⟩⟦94⟧⟨693⟩⟦381⟧⟨694⟩⟦86⟧⟨695⟩⟦194⟧⟨696⟩
+[2017–18 Boston Celtics season] ⟨697⟩⟦118⟧⟨698⟩⟦107⟧⟨699⟩⟦45⟧⟨700⟩⟦145⟧⟨701⟩⟦150⟧⟨702⟩⟦379⟧⟨703⟩⟦379⟧⟨704⟩⟦57⟧⟨705⟩⟦94⟧⟨706⟩⟦94⟧⟨707⟩⟦215⟧⟨708⟩⟦216⟧⟨709⟩⟦137⟧⟨710⟩⟦238⟧⟨711⟩⟦198⟧⟨712⟩⟦119⟧⟨713⟩⟦280⟧⟨714⟩⟦193⟧⟨715⟩⟦268⟧⟨716⟩⟦86⟧⟨717⟩⟦25⟧⟨718⟩⟦217⟧⟨719⟩⟦193⟧⟨720⟩⟦312⟧⟨721⟩⟦80⟧⟨722⟩
+[2017–18 Boston Celtics season] ⟦283⟧⟨723⟩⟦295⟧⟨724⟩⟦111⟧⟨725⟩⟦331⟧⟨726⟩⟦224⟧⟨727⟩⟦179⟧⟨728⟩⟦286⟧⟨729⟩⟦135⟧⟨730⟩⟦242⟧⟨731⟩⟦322⟧⟨732⟩⟦178⟧⟨733⟩⟦102⟧⟨734⟩⟦96⟧⟨735⟩⟦282⟧⟨736⟩
+
+[user]
+
+问题：
+What college teamdid the point guard that led the way for Philedlphia 76ers in the 2017-18 season play basketball in?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

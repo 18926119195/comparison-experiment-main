@@ -1,0 +1,107 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Action of 2 May 1707] ⟨18⟩⟨19⟩⟨20⟩⟨21⟩⟦185⟧⟨22⟩⟦2⟧⟨23⟩⟦3⟧⟨24⟩⟨25⟩⟦5⟧⟨26⟩⟦106⟧⟦53⟧⟨27⟩⟨28⟩
+[Action of 2 May 1707] ⟦57⟧⟨30⟩⟨29⟩⟦117⟧⟨31⟩⟦219⟧⟨33⟩⟨32⟩⟦4⟧⟨34⟩⟦198⟧⟨35⟩
+[Action of 2 May 1707] ⟦116⟧ | ⟦204⟧⟨36⟩⟨37⟩⟦230⟧⟨38⟩⟨39⟩⟦116⟧⟨40⟩⟦7⟧⟨41⟩⟦10⟧⟦87⟧⟨42⟩⟨43⟩⟦283⟧⟦283⟧⟨44⟩⟨45⟩⟦107⟧⟦284⟧⟨46⟩⟨47⟩⟦80⟧⟨48⟩⟦73⟧⟨49⟩⟦206⟧⟦78⟧⟨50⟩⟨51⟩
+[French destroyer Lynx] ⟦69⟧⟦83⟧
+[Order of battle at the Battle of San Domingo] ⟦102⟧
+[Battle of Bishops Court] ⟦263⟧
+[Battle of Bishops Court] ⟦188⟧⟦41⟧
+[Battle of Bishops Court] ⟦170⟧ | ⟦170⟧
+
+符号表：
+⟦2⟧ = "Blackoal
+⟦3⟧ = "Dauphine
+⟦4⟧ = "Fidèle
+⟦5⟧ = "Hampton Court
+⟦7⟧ = "Royal Oak
+⟦10⟧ = 12 feet
+⟦41⟧ = action
+⟦53⟧ = captain
+⟦57⟧ = Claude Forbin's 60-gun "Mars
+⟦69⟧ = convoy
+⟦73⟧ = day
+⟦78⟧ = Downs
+⟦80⟧ = Dungeness
+⟦83⟧ = escort
+⟦87⟧ = feet
+⟦102⟧ = gun
+⟦106⟧ = her captain
+⟦107⟧ = her wells
+⟦116⟧ = HMS
+⟦117⟧ = HMS "Grafton
+⟦170⟧ = ships
+⟦185⟧ = the "Grifon
+⟦188⟧ = The Action
+⟦198⟧ = the Captain Edward Acton
+⟦204⟧ = The convoy
+⟦206⟧ = the Downs
+⟦219⟧ = the French ships "Blackoal
+⟦230⟧ = the last British escort
+⟦263⟧ = three French ships
+⟦283⟧ = water
+⟦284⟧ = wells
+
+占位符映射：
+⟨18⟩ = 
+⟨19⟩ =  began when 
+⟨20⟩ = 
+⟨21⟩ = , 
+⟨22⟩ = ", 
+⟨23⟩ = " and 
+⟨24⟩ = ", grappled 
+⟨25⟩ =  
+⟨26⟩ = " , killing 
+⟨27⟩ = 
+⟨28⟩ = , George Clements, and taking her.
+⟨29⟩ = 
+⟨30⟩ =  "Mars" next attacked 
+⟨31⟩ = " and, when joined by 
+⟨32⟩ = 
+⟨33⟩ =  "Blackoal" and 
+⟨34⟩ = ", killed 
+⟨35⟩ = , and took her too.
+⟨36⟩ = 
+⟨37⟩ =  was scattered and 
+⟨38⟩ = 
+⟨39⟩ = , 
+⟨40⟩ =  
+⟨41⟩ = " , badly hit and with 
+⟨42⟩ = 
+⟨43⟩ =  of 
+⟨44⟩ = 
+⟨45⟩ =  in 
+⟨46⟩ = 
+⟨47⟩ = , managed to escape by running ashore near 
+⟨48⟩ = , from where she was carried the next 
+⟨49⟩ =  into 
+⟨50⟩ = 
+⟨51⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What was the name of the commander who captured all of the French ships that varied in size?

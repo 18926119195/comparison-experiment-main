@@ -1,0 +1,83 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Life University] ⟨450⟩⟦15⟧⟦215⟧⟨451⟩⟨452⟩⟦164⟧⟦122⟧⟨453⟩⟨454⟩⟦82⟧⟨455⟩⟦58⟧⟨456⟩⟦214⟧⟨457⟩⟦85⟧⟦85⟧⟨458⟩⟨459⟩⟦12⟧⟨460⟩⟨461⟩
+[Life University] ⟦43⟧
+[2000 NAIA Division I Men's Basketball Tournament] ⟦79⟧ | ⟦169⟧⟨496⟩⟨495⟩⟨497⟩⟦79⟧⟨498⟩⟦3⟧⟨499⟩⟦52⟧⟨500⟩⟦76⟧⟨501⟩
+[2000 NAIA Division I Men's Basketball Tournament] ⟦78⟧⟨502⟩⟦51⟧⟨503⟩⟦18⟧⟦113⟧⟨504⟩⟨505⟩
+[1988–89 Georgetown Hoyas men's basketball team] ⟦34⟧⟦49⟧
+
+符号表：
+⟦3⟧ = (Ga.
+⟦12⟧ = a doctoral degree
+⟦15⟧ = a private university
+⟦18⟧ = a score
+⟦34⟧ = championship
+⟦43⟧ = degree
+⟦49⟧ = game
+⟦51⟧ = Georgetown
+⟦52⟧ = Georgetown College
+⟦58⟧ = Georgia
+⟦76⟧ = Ky.
+⟦78⟧ = Life
+⟦79⟧ = Life University
+⟦82⟧ = Marietta
+⟦85⟧ = masters
+⟦113⟧ = score
+⟦122⟧ = suburb
+⟦164⟧ = the Atlanta suburb
+⟦169⟧ = The championship game
+⟦214⟧ = United States
+⟦215⟧ = university
+
+占位符映射：
+⟨450⟩ =  is 
+⟨451⟩ = 
+⟨452⟩ =  in 
+⟨453⟩ = 
+⟨454⟩ =  of 
+⟨455⟩ = , 
+⟨456⟩ = , 
+⟨457⟩ = , that offers undergraduate, 
+⟨458⟩ = 
+⟨459⟩ = , and 
+⟨460⟩ = 
+⟨461⟩ = .
+⟨495⟩ = 
+⟨496⟩ =  
+⟨497⟩ =  featured 
+⟨498⟩ =  
+⟨499⟩ = ) and 
+⟨500⟩ =  (
+⟨501⟩ = ).
+⟨502⟩ =  would defeat 
+⟨503⟩ =  by 
+⟨504⟩ = 
+⟨505⟩ =  of 63 to 59.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+A private university that beat Georgetown during a basketball tournament is from what U.S. city?

@@ -1,0 +1,79 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Arvo Pärt] ⟨1⟩⟦34⟧⟨2⟩⟨3⟩⟦61⟧⟨4⟩⟨5⟩
+[Arvo Pärt] ⟦63⟧
+[Italian classical music] ⟦135⟧
+[Magnificat (Pärt)] ⟦42⟧ | ⟦42⟧⟨321⟩⟦248⟧⟨322⟩⟨323⟩⟨324⟩⟨325⟩
+[Magnificat (Pärt)] ⟦227⟧⟦64⟧⟨342⟩⟨343⟩⟦298⟧⟦299⟧⟨344⟩⟨345⟩⟨346⟩⟦25⟧⟦203⟧⟦203⟧⟨347⟩⟨348⟩⟦150⟧⟨349⟩⟦254⟧⟦123⟧⟨350⟩⟨351⟩
+[Meine Seele erhebt den Herren] ⟦251⟧⟦49⟧
+[Semiology (Gregorian Chant)] ⟦209⟧
+
+符号表：
+⟦25⟧ = a style
+⟦34⟧ = an Estonian composer
+⟦42⟧ = Arvo Pärt
+⟦49⟧ = canticle
+⟦61⟧ = classical and religious music
+⟦63⟧ = composer
+⟦64⟧ = composition
+⟦123⟧ = mid-1970s
+⟦135⟧ = music
+⟦150⟧ = part
+⟦203⟧ = style
+⟦209⟧ = text
+⟦227⟧ = The composition
+⟦248⟧ = the Latin text
+⟦251⟧ = the Magnificat canticle
+⟦254⟧ = the mid-1970s
+⟦298⟧ = tintinnabuli
+⟦299⟧ = tintinnabuli style
+
+占位符映射：
+⟨1⟩ =  (] ; born 11 September 1935) is 
+⟨2⟩ = 
+⟨3⟩ =  of 
+⟨4⟩ = 
+⟨5⟩ = .
+⟨321⟩ =  set 
+⟨322⟩ = 
+⟨323⟩ =  of 
+⟨324⟩ = 
+⟨325⟩ =  in 1989.
+⟨342⟩ = 
+⟨343⟩ =  is in 
+⟨344⟩ = 
+⟨345⟩ = 
+⟨346⟩ = , 
+⟨347⟩ = 
+⟨348⟩ =  which 
+⟨349⟩ =  had invented in 
+⟨350⟩ = 
+⟨351⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What Estonian composer whose music is partly inspired by Gregorian chant set the Latin text of the Magnificat canticle in 1989?

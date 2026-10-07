@@ -1,0 +1,41 @@
+# 路径一：从Swan的参战经历定位战斗
+
+步骤1：使用⟦196⟧，提取“Swan”这一人物实体，确认James Swan的身份指向。
+
+步骤2：综合⟦330⟧⟦331⟧⟦47⟧，提取“was twice wounded at”与“of”与“Bunker Hill”的组合，判断James Swan twice wounded at the Battle of Bunker Hill。
+
+步骤3：使用⟦209⟧⟦47⟧，确认“The Battle”与“Bunker Hill”构成完整战斗名称，即Battle of Bunker Hill。
+
+结论：James Swan twice wounded at the Battle of Bunker Hill。
+
+# 路径二：从战斗名称追溯其命名的地理特征
+
+步骤1：使用⟦160⟧⟦161⟧，提取“is named after”与“in”的命名关系结构，判断该战斗是以某地命名的。
+
+步骤2：综合⟦46⟧⟦100⟧⟦178⟧，提取“Breed's Hill”与“hill”与“which later became known as”的关联，判断Breed's Hill是实际发生战斗的adjacent hill，后来被称为Bunker Hill。
+
+步骤3：综合⟦204⟧⟦46⟧，对比“the adjacent hill”与“Breed's Hill”，确认战斗实际发生在Breed's Hill，但以Bunker Hill命名。
+
+结论：Battle of Bunker Hill named for Bunker Hill，而Bunker Hill是位于Charlestown的地理特征。
+
+# 路径三：从Charlestown定位城镇
+
+步骤1：使用⟦58⟧，提取“Charlestown”这一地名实体。
+
+步骤2：综合⟦155⟧⟦58⟧，提取“in”与“Charlestown”的组合，判断战斗发生在Charlestown。
+
+步骤3：综合⟦158⟧⟦58⟧，提取“place”与“Charlestown”的关联，确认Charlestown是战斗发生的地点。
+
+结论：Charlestown的Bunker Hill是Battle of Bunker Hill命名的地理特征来源。
+
+# 路径四：交叉验证城镇与地理特征
+
+步骤1：综合⟦47⟧⟦46⟧⟦58⟧，对比“Bunker Hill”与“Breed's Hill”与“Charlestown”，确认Bunker Hill位于Charlestown。
+
+步骤2：综合⟦209⟧⟦47⟧⟦160⟧⟦161⟧，交叉验证“The Battle”+“Bunker Hill”+“is named after”+“in”的结构，确认Battle of Bunker Hill以Bunker Hill命名，而Bunker Hill在Charlestown。
+
+步骤3：综合⟦196⟧⟦330⟧⟦331⟧⟦47⟧，从Swan的受伤经历反向验证战斗名称为Battle of Bunker Hill。
+
+结论：James Swan twice wounded at the Battle of Bunker Hill，该战斗以Charlestown的Bunker Hill命名。
+
+**最终答案：Charlestown**

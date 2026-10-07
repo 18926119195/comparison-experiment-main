@@ -1,0 +1,91 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[KULR-TV] ⟦101⟧⟨412⟩⟦200⟧⟨413⟩⟨414⟩⟦36⟧⟦31⟧⟨416⟩⟦45⟧⟨415⟩⟨417⟩⟨418⟩⟨419⟩⟨420⟩
+[SWX Right Now] ⟦50⟧⟦50⟧⟦50⟧⟦41⟧⟦123⟧ | ⟦176⟧⟦50⟧⟨483⟩⟨484⟩⟦59⟧⟨485⟩⟦32⟧⟦32⟧⟨486⟩⟨487⟩⟦60⟧⟦51⟧⟨488⟩⟨489⟩⟦66⟧⟨490⟩⟦161⟧⟨491⟩⟦95⟧⟨492⟩⟦205⟧⟨493⟩⟦150⟧⟨494⟩⟦41⟧⟦42⟧⟨495⟩⟦100⟧⟨496⟩⟨497⟩⟦123⟧⟨498⟩⟦125⟧⟦47⟧⟨500⟩⟦169⟧⟨499⟩⟨501⟩⟦180⟧⟦117⟧⟨502⟩⟨503⟩
+
+符号表：
+⟦31⟧ = affiliate
+⟦32⟧ = airs
+⟦36⟧ = an NBC affiliate broadcasting
+⟦41⟧ = Billings
+⟦42⟧ = Billings' KULR
+⟦45⟧ = broadcasting
+⟦47⟧ = cable
+⟦50⟧ = channel
+⟦51⟧ = channels
+⟦59⟧ = Cowles Company
+⟦60⟧ = Cowles' three NBC affiliated channels
+⟦66⟧ = Eastern Washington
+⟦95⟧ = KNDO
+⟦100⟧ = KULR
+⟦101⟧ = KULR-TV
+⟦117⟧ = markets
+⟦123⟧ = Montana
+⟦125⟧ = most cable systems
+⟦150⟧ = Richland's KNDU
+⟦161⟧ = Spokane's KHQ
+⟦169⟧ = systems
+⟦176⟧ = The channel
+⟦180⟧ = the markets
+⟦200⟧ = virtual channel
+⟦205⟧ = Yakima
+
+占位符映射：
+⟨412⟩ = , 
+⟨413⟩ = 
+⟨414⟩ =  8, is 
+⟨415⟩ = 
+⟨416⟩ =  
+⟨417⟩ =  on 
+⟨418⟩ = 
+⟨419⟩ =  11 in 
+⟨420⟩ = , 
+⟨483⟩ = 
+⟨484⟩ =  is operated by 
+⟨485⟩ =  and 
+⟨486⟩ = 
+⟨487⟩ =  over 
+⟨488⟩ = 
+⟨489⟩ =  in 
+⟨490⟩ = , including 
+⟨491⟩ = , 
+⟨492⟩ =  in 
+⟨493⟩ =  and 
+⟨494⟩ = , as well as 
+⟨495⟩ = 
+⟨496⟩ = 
+⟨497⟩ =  in 
+⟨498⟩ = , and on 
+⟨499⟩ = 
+⟨500⟩ =  
+⟨501⟩ =  throughout 
+⟨502⟩ = 
+⟨503⟩ =  they serve.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+SWX Right Now airs on the station that broadcasts on what channel in Billings, Montana?

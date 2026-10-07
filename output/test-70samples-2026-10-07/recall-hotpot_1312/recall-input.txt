@@ -1,0 +1,245 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Lock
+⟦2⟧ = "My Favorite Wife
+⟦3⟧ = "Strange Fruit
+⟦4⟧ = a 1967 American musical film comedy
+⟦5⟧ = a 1990 American dark romantic comedy
+⟦6⟧ = a 1998 American independent romantic comedy
+⟦7⟧ = a 1998 British comedy film
+⟦8⟧ = a 1998 British crime comedy film
+⟦9⟧ = a British comedy feature film
+⟦10⟧ = a feature length silent film comedy
+⟦11⟧ = a fictional 1970s rock band
+⟦12⟧ = a journey
+⟦13⟧ = a reunion
+⟦14⟧ = a screwball comedy
+⟦15⟧ = a Sexist Pig
+⟦16⟧ = a short-lived stint
+⟦17⟧ = actor
+⟦18⟧ = adaptation
+⟦19⟧ = Adrienne Shelly
+⟦20⟧ = age
+⟦21⟧ = Alan Ayckbourn
+⟦22⟧ = an English actor
+⟦23⟧ = an ensemble cast
+⟦24⟧ = an unfinished 1962 American feature film
+⟦25⟧ = Antonio Aakeel
+⟦26⟧ = approaching middle-age
+⟦27⟧ = Asim Chaudhry
+⟦28⟧ = Associated First National Pictures
+⟦29⟧ = August
+⟦30⟧ = Band
+⟦31⟧ = beginning
+⟦32⟧ = best comedy
+⟦33⟧ = Best Feature Film
+⟦34⟧ = brothers
+⟦35⟧ = Bugsy Malone
+⟦36⟧ = career
+⟦37⟧ = Cary Grant
+⟦38⟧ = cast
+⟦39⟧ = Channel 4's "GamesMaster
+⟦40⟧ = child
+⟦41⟧ = child actor Jackie Coogan
+⟦42⟧ = children
+⟦43⟧ = Circus Days
+⟦44⟧ = co
+⟦45⟧ = Comedies
+⟦46⟧ = comedy
+⟦47⟧ = company
+⟦48⟧ = concert
+⟦49⟧ = Confessions
+⟦50⟧ = Crazy
+⟦51⟧ = Crime
+⟦52⟧ = Crime comedy
+⟦53⟧ = Cyd Charisse
+⟦54⟧ = daughters
+⟦55⟧ = day
+⟦56⟧ = Days
+⟦57⟧ = Dean Martin
+⟦58⟧ = death
+⟦59⟧ = decades
+⟦60⟧ = Dexter Fletcher
+⟦61⟧ = director
+⟦62⟧ = drama
+⟦63⟧ = Easy Come
+⟦64⟧ = Easy Go
+⟦65⟧ = Eddie
+⟦66⟧ = Eddie Cline
+⟦67⟧ = Edward Kerr
+⟦68⟧ = Elsa Lanchester
+⟦69⟧ = Elvis Presley
+⟦70⟧ = experiences
+⟦71⟧ = father
+⟦72⟧ = feature
+⟦73⟧ = film
+⟦74⟧ = footage
+⟦75⟧ = Frank McHugh
+⟦76⟧ = George Cukor
+⟦77⟧ = gig
+⟦78⟧ = Guy Ritchie
+⟦79⟧ = Hal Wallis
+⟦80⟧ = half-brothers Omar
+⟦81⟧ = her death
+⟦82⟧ = her personal troubles
+⟦83⟧ = his career
+⟦84⟧ = his daughters
+⟦85⟧ = his final movie
+⟦86⟧ = Hotel Babylon
+⟦87⟧ = Irene Dunne
+⟦88⟧ = its completed footage
+⟦89⟧ = its production
+⟦90⟧ = Jack Carroll
+⟦91⟧ = Jackie Coogan's own production company
+⟦92⟧ = Jason Flemyng
+⟦93⟧ = Jason Statham
+⟦94⟧ = Jason Wingard
+⟦95⟧ = Johnny Vegas
+⟦96⟧ = journey
+⟦97⟧ = Jr.
+⟦98⟧ = length
+⟦99⟧ = Lions
+⟦100⟧ = list
+⟦101⟧ = lives
+⟦102⟧ = Lock
+⟦103⟧ = magazine
+⟦104⟧ = Malcolm Mowbray
+⟦105⟧ = many years
+⟦106⟧ = Marilyn Monroe
+⟦107⟧ = Martin Donovan
+⟦108⟧ = Matthew Vaughn
+⟦109⟧ = McHugh's last feature film
+⟦110⟧ = Mecca
+⟦111⟧ = members
+⟦112⟧ = Monroe's last work
+⟦113⟧ = movie
+⟦114⟧ = Nick Moran
+⟦115⟧ = office
+⟦116⟧ = Omar's estranged father
+⟦117⟧ = Paramount Pictures
+⟦118⟧ = part
+⟦119⟧ = party
+⟦120⟧ = Pat Priest
+⟦121⟧ = Pete
+⟦122⟧ = play
+⟦123⟧ = Press Gang
+⟦124⟧ = production
+⟦125⟧ = remake
+⟦126⟧ = reunion
+⟦127⟧ = rock
+⟦128⟧ = roles
+⟦129⟧ = Sandy Tung
+⟦130⟧ = screenplay
+⟦131⟧ = screwball
+⟦132⟧ = series
+⟦133⟧ = show
+⟦134⟧ = shows
+⟦135⟧ = Smoking Barrels
+⟦136⟧ = Smoking Guns
+⟦137⟧ = Sol Lesser
+⟦138⟧ = starred Dodie Marshall
+⟦139⟧ = Steven Mackintosh
+⟦140⟧ = Sting
+⟦141⟧ = stint
+⟦142⟧ = Stock
+⟦143⟧ = success
+⟦144⟧ = such shows
+⟦145⟧ = Sweet Revenge
+⟦146⟧ = television
+⟦147⟧ = television roles
+⟦148⟧ = the "Variety" magazine national box office list
+⟦149⟧ = the band members
+⟦150⟧ = the beginning
+⟦151⟧ = the comedy-drama
+⟦152⟧ = the day
+⟦153⟧ = the director's 2013 short film
+⟦154⟧ = the Eagle
+⟦155⟧ = the epic two-part
+⟦156⟧ = The feature
+⟦157⟧ = the feature film
+⟦158⟧ = the feature-length adaptation
+⟦159⟧ = The film
+⟦160⟧ = the Guy Ritchie film
+⟦161⟧ = the HBO series
+⟦162⟧ = the Manchester International Film Festival
+⟦163⟧ = the Mannheim-Heidelberg International Film Festival
+⟦164⟧ = The movie
+⟦165⟧ = the New Orleans International Film Festival
+⟦166⟧ = the personal lives
+⟦167⟧ = The Revengers' Comedies
+⟦168⟧ = the same concert venue
+⟦169⟧ = The screenplay
+⟦170⟧ = the second feature film
+⟦171⟧ = the success
+⟦172⟧ = the third series
+⟦173⟧ = the Werner Fassbinder Award
+⟦174⟧ = their individual experiences
+⟦175⟧ = their last gig
+⟦176⟧ = Traylor Howard
+⟦177⟧ = troubles
+⟦178⟧ = Trust
+⟦179⟧ = Twentieth Century-Fox
+⟦180⟧ = two decades
+⟦181⟧ = Two Smoking Barrels
+⟦182⟧ = venue
+⟦183⟧ = Vinnie Jones
+⟦184⟧ = Wife
+⟦185⟧ = work
+⟦186⟧ = writer
+⟦187⟧ = writer-director Hal Hartley
+⟦188⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Eaten by Lions (film)] ⟨1⟩⟦99⟧⟨2⟩⟦99⟧⟨3⟩⟦9⟧⟨4⟩⟦46⟧⟨5⟩⟦72⟧⟨6⟩⟦73⟧⟨7⟩⟦94⟧⟨8⟩
+[Eaten by Lions (film)] ⟦159⟧⟨9⟩⟦73⟧⟨10⟩⟦25⟧⟨11⟩⟦90⟧⟨12⟩⟦95⟧⟨13⟩⟦27⟧⟨14⟩
+[Eaten by Lions (film)] ⟦159⟧⟨15⟩⟦158⟧⟨16⟩⟦72⟧⟨17⟩⟦98⟧⟨18⟩⟦18⟧⟨19⟩⟦153⟧⟨20⟩⟦61⟧⟨21⟩⟦73⟧⟨22⟩⟦110⟧⟨23⟩⟦32⟧⟨24⟩⟦46⟧⟨25⟩⟦162⟧⟨26⟩
+[Eaten by Lions (film)] ⟦156⟧⟨27⟩⟦72⟧⟨28⟩⟦80⟧⟨29⟩⟦34⟧⟨30⟩⟦121⟧⟨31⟩⟦12⟧⟨32⟩⟦96⟧⟨33⟩⟦116⟧⟨34⟩⟦71⟧⟨35⟩⟦152⟧⟨36⟩⟦55⟧⟨37⟩⟦84⟧⟨38⟩⟦54⟧⟨39⟩⟦119⟧⟨40⟩⟦119⟧⟨41⟩
+[Circus Days] ⟦43⟧⟨42⟩⟦56⟧⟨43⟩⟦10⟧⟨44⟩⟦72⟧⟨45⟩⟦98⟧⟨46⟩⟦73⟧⟨47⟩⟦46⟧⟨48⟩⟦40⟧⟨49⟩⟦41⟧⟨50⟩⟦17⟧⟨51⟩⟦66⟧⟨52⟩⟦137⟧⟨53⟩⟦91⟧⟨54⟩⟦124⟧⟨55⟩⟦47⟧⟨56⟩⟦28⟧⟨57⟩
+[Trust (1990 film)] ⟦178⟧⟨58⟩⟦178⟧⟨59⟩⟦5⟧⟨60⟩⟦46⟧⟨61⟩⟦19⟧⟨62⟩⟦107⟧⟨63⟩
+[Trust (1990 film)] ⟨64⟩⟦170⟧⟨65⟩⟦72⟧⟨66⟩⟦73⟧⟨67⟩⟦186⟧⟨68⟩⟦187⟧⟨69⟩⟦61⟧⟨70⟩
+[Something's Got to Give] ⟨71⟩⟦24⟧⟨72⟩⟦72⟧⟨73⟩⟦73⟧⟨74⟩⟦76⟧⟨75⟩⟦179⟧⟨76⟩⟦106⟧⟨77⟩⟦57⟧⟨78⟩⟦53⟧⟨79⟩
+[Something's Got to Give] ⟨80⟩⟦125⟧⟨81⟩⟦2⟧⟨82⟩⟦184⟧⟨83⟩⟦14⟧⟨84⟩⟦131⟧⟨85⟩⟦46⟧⟨86⟩⟦37⟧⟨87⟩⟦87⟧⟨88⟩⟦112⟧⟨89⟩⟦185⟧⟨90⟩⟦150⟧⟨91⟩⟦31⟧⟨92⟩⟦89⟧⟨93⟩⟦124⟧⟨94⟩⟦82⟧⟨95⟩⟦177⟧⟨96⟩⟦81⟧⟨97⟩⟦58⟧⟨98⟩⟦29⟧⟨99⟩⟦159⟧⟨100⟩⟦73⟧⟨101⟩
+[Something's Got to Give] ⟨102⟩⟦88⟧⟨103⟩⟦74⟧⟨104⟩⟦105⟧⟨105⟩⟦188⟧⟨106⟩
+[Confessions of a Sexist Pig] ⟦49⟧⟨107⟩⟦49⟧⟨108⟩⟦15⟧⟨109⟩⟦6⟧⟨110⟩⟦46⟧⟨111⟩⟦67⟧⟨112⟩⟦176⟧⟨113⟩
+[Confessions of a Sexist Pig] ⟨114⟩⟦129⟧⟨115⟩
+[Confessions of a Sexist Pig] ⟨116⟩⟦33⟧⟨117⟩⟦165⟧⟨118⟩⟦173⟧⟨119⟩⟦163⟧⟨120⟩
+[Dexter Fletcher] ⟦60⟧⟨121⟩⟦22⟧⟨122⟩⟦17⟧⟨123⟩⟦61⟧⟨124⟩⟦61⟧⟨125⟩
+[Dexter Fletcher] ⟨126⟩⟦160⟧⟨127⟩⟦73⟧⟨128⟩⟦1⟧⟨129⟩⟦142⟧⟨130⟩⟦135⟧⟨131⟩⟦51⟧⟨132⟩⟦52⟧⟨133⟩⟦46⟧⟨134⟩⟦136⟧⟨135⟩⟦146⟧⟨136⟩⟦147⟧⟨137⟩⟦128⟧⟨138⟩⟦144⟧⟨139⟩⟦134⟧⟨140⟩⟦151⟧⟨141⟩⟦46⟧⟨142⟩⟦62⟧⟨143⟩⟦86⟧⟨144⟩⟦161⟧⟨145⟩⟦132⟧⟨146⟩⟦30⟧⟨147⟩⟦34⟧⟨148⟩⟦83⟧⟨149⟩⟦36⟧⟨150⟩⟦42⟧⟨151⟩⟦133⟧⟨152⟩⟦123⟧⟨153⟩⟦73⟧⟨154⟩⟦35⟧⟨155⟩
+[Dexter Fletcher] ⟨156⟩⟦16⟧⟨157⟩⟦141⟧⟨158⟩⟦172⟧⟨159⟩⟦132⟧⟨160⟩⟦39⟧⟨161⟩
+[Dexter Fletcher] ⟨162⟩⟦157⟧⟨163⟩⟦72⟧⟨164⟩⟦73⟧⟨165⟩⟦65⟧⟨166⟩⟦154⟧⟨167⟩
+[Sweet Revenge (1998 film)] ⟦145⟧⟨168⟩⟦7⟧⟨169⟩⟦46⟧⟨170⟩⟦73⟧⟨171⟩⟦104⟧⟨172⟩
+[Sweet Revenge (1998 film)] ⟦169⟧⟨173⟩⟦130⟧⟨174⟩⟦155⟧⟨175⟩⟦118⟧⟨176⟩⟦122⟧⟨177⟩⟦167⟧⟨178⟩⟦45⟧⟨179⟩⟦21⟧⟨180⟩
+[Still Crazy] ⟨181⟩⟦50⟧⟨182⟩⟦7⟧⟨183⟩⟦46⟧⟨184⟩⟦73⟧⟨185⟩⟦11⟧⟨186⟩⟦127⟧⟨187⟩⟦30⟧⟨188⟩⟦3⟧⟨189⟩⟦180⟧⟨190⟩⟦59⟧⟨191⟩⟦13⟧⟨192⟩⟦126⟧⟨193⟩⟦168⟧⟨194⟩⟦48⟧⟨195⟩⟦182⟧⟨196⟩⟦175⟧⟨197⟩⟦77⟧⟨198⟩
+[Still Crazy] ⟦159⟧⟨199⟩⟦73⟧⟨200⟩⟦166⟧⟨201⟩⟦101⟧⟨202⟩⟦149⟧⟨203⟩⟦30⟧⟨204⟩⟦111⟧⟨205⟩⟦174⟧⟨206⟩⟦70⟧⟨207⟩⟦26⟧⟨208⟩⟦20⟧⟨209⟩⟦171⟧⟨210⟩⟦143⟧⟨211⟩
+[Easy Come, Easy Go (1967 film)] ⟦63⟧⟨212⟩⟦64⟧⟨213⟩⟦4⟧⟨214⟩⟦73⟧⟨215⟩⟦46⟧⟨216⟩⟦69⟧⟨217⟩
+[Easy Come, Easy Go (1967 film)] ⟦79⟧⟨218⟩⟦159⟧⟨219⟩⟦73⟧⟨220⟩⟦117⟧⟨221⟩⟦85⟧⟨222⟩⟦113⟧⟨223⟩⟦69⟧⟨224⟩
+[Easy Come, Easy Go (1967 film)] ⟦159⟧⟨225⟩⟦73⟧⟨226⟩⟦44⟧⟨227⟩⟦44⟧⟨228⟩⟦138⟧⟨229⟩⟦97⟧⟨230⟩⟦120⟧⟨231⟩⟦68⟧⟨232⟩⟦75⟧⟨233⟩
+[Easy Come, Easy Go (1967 film)] ⟨234⟩⟦109⟧⟨235⟩⟦72⟧⟨236⟩⟦73⟧⟨237⟩
+[Easy Come, Easy Go (1967 film)] ⟦164⟧⟨238⟩⟦113⟧⟨239⟩⟦148⟧⟨240⟩⟦103⟧⟨241⟩⟦115⟧⟨242⟩⟦100⟧⟨243⟩
+[Lock, Stock and Two Smoking Barrels] ⟦102⟧⟨244⟩⟦142⟧⟨245⟩⟦181⟧⟨246⟩⟦8⟧⟨247⟩⟦51⟧⟨248⟩⟦46⟧⟨249⟩⟦73⟧⟨250⟩⟦78⟧⟨251⟩⟦108⟧⟨252⟩⟦23⟧⟨253⟩⟦38⟧⟨254⟩⟦92⟧⟨255⟩⟦60⟧⟨256⟩⟦114⟧⟨257⟩⟦93⟧⟨258⟩⟦139⟧⟨259⟩⟦183⟧⟨260⟩⟦140⟧⟨261⟩
+
+[user]
+
+问题：
+Who produced the 1998 British comedy starring the director of the feature film "Eddie the Eagle"?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

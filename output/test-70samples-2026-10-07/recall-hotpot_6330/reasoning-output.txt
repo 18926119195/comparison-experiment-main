@@ -1,0 +1,45 @@
+# 路径一：从合作名单直接定位
+
+步骤1：使用⟦208⟧，提取 Ross Pople 的身份信息——他是“a New Zealand-born British conductor”（⟦29⟧），其合作对象列表出现在后续材料中。
+
+步骤2：综合⟦349⟧⟦300⟧⟦67⟧⟦76⟧⟦137⟧⟦114⟧⟦218⟧⟦211⟧⟦51⟧⟦296⟧⟦140⟧⟦153⟧⟦112⟧⟦113⟧⟦134⟧⟦89⟧⟦148⟧⟦135⟧⟦149⟧⟦185⟧⟦176⟧⟦61⟧⟦219⟧，提取 Ross Pople 合作过的音乐家名单，其中⟦185⟧明确列为“Pierre Boulez”。
+
+步骤3：使用⟦186⟧⟦10⟧⟦325⟧，确认 Pierre Boulez 的全名与生卒信息（1925 – 5 January 2016），并综合⟦20⟧⟦69⟧⟦298⟧⟦177⟧，确认其身份为“a French composer”（⟦20⟧）、“composer”（⟦69⟧）、“writer”（⟦298⟧）、“organiser”（⟦177⟧）。
+
+结论：Ross Pople 合作过的法国人物是 Pierre Boulez。
+
+---
+
+# 路径二：从“战后古典音乐界主导人物”反向匹配
+
+步骤1：使用⟦243⟧⟦268⟧，提取“the dominant figures”（⟦243⟧）与“the post-war classical music world”（⟦268⟧）这一描述，指向战后古典音乐界的主导人物。
+
+步骤2：综合⟦336⟧⟦243⟧⟦268⟧，该描述用于 Pierre Boulez 的条目中——“He was one of the dominant figures of the post-war classical music world”（⟦336⟧+⟦243⟧+⟦268⟧），确认 Pierre Boulez 符合“French dominant figure of the post-war classical music world”这一描述。
+
+步骤3：使用⟦185⟧，确认 Pierre Boulez 出现在 Ross Pople 的合作名单中（⟦349⟧引导的合作列表包含⟦185⟧）。
+
+结论：Ross Pople 合作的这位法国战后古典音乐界主导人物是 Pierre Boulez。
+
+---
+
+# 路径三：交叉验证国籍、时代与职业身份
+
+步骤1：使用⟦20⟧，提取“a French composer”，确认目标人物为法国作曲家。
+
+步骤2：综合⟦186⟧⟦325⟧，提取 Pierre Boulez 的全名“Pierre Louis Joseph Boulez CBE”及生卒年“1925 – 5 January 2016”，其活跃期覆盖战后时期。
+
+步骤3：综合⟦298⟧⟦177⟧⟦130⟧，提取 Pierre Boulez 同时是“writer”（⟦298⟧）、“organiser”（⟦177⟧），并与“institutions”（⟦130⟧）相关，符合“dominant figure”的多重身份特征。
+
+步骤4：使用⟦185⟧，确认 Ross Pople 的合作名单中包含 Pierre Boulez。
+
+结论：综合国籍（法国）、时代（战后）、职业身份（作曲家/作家/组织者）及合作关系，目标人物为 Pierre Boulez。
+
+---
+
+# 路径四：排除法与唯一性验证
+
+步骤1：使用⟦208⟧⟦29⟧，确认 Ross Pople 为新西兰出生的英国指挥家，其合作对象列表见⟦349⟧之后。
+
+步骤2：综合⟦349⟧至⟦375⟧的合作名单，逐一排查：⟦67⟧Clifford Curzon、⟦76⟧David Oistrakh、⟦137⟧Kentner、⟦114⟧George Malcolm、⟦218⟧Sir Adrian Boult、⟦211⟧Rudolf Kempe、⟦51⟧Benjamin Britten、⟦296⟧Witold Lutosławski、⟦140⟧Krzysztof Penderecki、⟦153⟧Michael Tippett、⟦112⟧Georg Solti、⟦113⟧George Benjamin、⟦134⟧John Casken、⟦89⟧Edwin Roxburgh、⟦148⟧Luciano Berio、⟦135⟧John Taverner、⟦149⟧Malcolm Arnold、⟦185⟧Pierre Boulez。其中唯一被明确标注为法国作曲家（⟦20⟧）且被描述为战后古典音乐界主导人物（⟦243⟧⟦268⟧）的是⟦185⟧Pierre Boulez。
+
+结论：在 Ross Pople 的全部合作对象中，唯一符合“French dominant figure of the post-war classical music world”描述的是 Pierre Boulez。

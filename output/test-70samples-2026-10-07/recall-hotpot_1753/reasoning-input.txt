@@ -1,0 +1,127 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The O2 Arena] ⟦193⟧⟨55⟩⟦154⟧⟨57⟩⟨56⟩⟦157⟧⟨58⟩⟦8⟧⟨59⟩⟦18⟧⟨60⟩⟨61⟩⟦177⟧⟦51⟧⟨62⟩⟨63⟩⟦194⟧⟦76⟧⟨65⟩⟨64⟩⟨66⟩⟦188⟧⟨67⟩⟦146⟧⟦71⟧⟨69⟩⟨68⟩
+[The O2 Arena] ⟨70⟩⟨71⟩⟦185⟧⟨72⟩⟦17⟧⟨74⟩⟦49⟧⟨73⟩⟨75⟩⟦32⟧⟦80⟧⟨76⟩⟨77⟩⟦203⟧⟦220⟧⟨78⟩⟨79⟩⟦201⟧⟦109⟧⟨80⟩⟨81⟩⟦180⟧⟦67⟧⟦67⟧⟨83⟩⟦149⟧⟨82⟩⟨84⟩⟨85⟩⟨86⟩⟦4⟧⟨87⟩⟦19⟧⟨88⟩⟨89⟩⟦56⟧⟦222⟧⟨90⟩⟨91⟩⟦208⟧⟦223⟧⟨92⟩⟨93⟩
+[The O2 Arena] ⟦34⟧⟦58⟧⟦147⟧ | ⟦166⟧⟦166⟧⟦34⟧⟦34⟧ | ⟦166⟧⟦34⟧⟨94⟩⟨95⟩⟦202⟧⟦58⟧⟨96⟩⟨97⟩⟦101⟧⟦147⟧⟨98⟩⟨99⟩⟦200⟧⟦153⟧⟨101⟩⟦57⟧⟨100⟩⟨102⟩⟦119⟧
+[Brit Awards] ⟦116⟧
+
+符号表：
+⟦4⟧ = "The Dome
+⟦8⟧ = 2012 Summer Paralympics
+⟦17⟧ = a large dome-shaped building
+⟦18⟧ = a multi-purpose indoor arena
+⟦19⟧ = a name
+⟦32⟧ = an exhibition
+⟦34⟧ = arena
+⟦49⟧ = building
+⟦51⟧ = centre
+⟦56⟧ = common usage
+⟦57⟧ = company
+⟦58⟧ = complex
+⟦67⟧ = dome
+⟦71⟧ = east
+⟦76⟧ = entertainment
+⟦80⟧ = exhibition
+⟦101⟧ = its primary sponsor
+⟦109⟧ = millennium
+⟦116⟧ = name
+⟦119⟧ = O.
+⟦146⟧ = south-east London
+⟦147⟧ = sponsor
+⟦149⟧ = structure
+⟦153⟧ = telecommunications
+⟦154⟧ = temporarily the sponsor-neutral "North Greenwich Arena
+⟦157⟧ = the 2012 Summer Olympics
+⟦166⟧ = The arena
+⟦177⟧ = the centre
+⟦180⟧ = the dome-shaped structure
+⟦185⟧ = the former Millennium Dome
+⟦188⟧ = the Greenwich Peninsula
+⟦193⟧ = The O2 Arena
+⟦194⟧ = The O2 entertainment complex
+⟦200⟧ = the telecommunications company
+⟦201⟧ = the third millennium
+⟦202⟧ = the total O2 complex
+⟦203⟧ = the turn
+⟦208⟧ = the venue
+⟦220⟧ = turn
+⟦222⟧ = usage
+⟦223⟧ = venue
+
+占位符映射：
+⟨55⟩ =  (
+⟨56⟩ = 
+⟨57⟩ = -neutral "North Greenwich Arena", during 
+⟨58⟩ =  and 
+⟨59⟩ = ), is 
+⟨60⟩ = 
+⟨61⟩ =  located in 
+⟨62⟩ = 
+⟨63⟩ =  of 
+⟨64⟩ = 
+⟨65⟩ =  
+⟨66⟩ =  on 
+⟨67⟩ =  in 
+⟨68⟩ = 
+⟨69⟩ =  London.
+⟨70⟩ = 
+⟨71⟩ =  was built under 
+⟨72⟩ = , 
+⟨73⟩ = 
+⟨74⟩ = -shaped 
+⟨75⟩ =  built to house 
+⟨76⟩ = 
+⟨77⟩ =  celebrating 
+⟨78⟩ = 
+⟨79⟩ =  of 
+⟨80⟩ = 
+⟨81⟩ = ; as 
+⟨82⟩ = 
+⟨83⟩ = -shaped 
+⟨84⟩ =  still stands over 
+⟨85⟩ = 
+⟨86⟩ = , 
+⟨87⟩ = " remains 
+⟨88⟩ = 
+⟨89⟩ =  in 
+⟨90⟩ = 
+⟨91⟩ =  for 
+⟨92⟩ = 
+⟨93⟩ = .
+⟨94⟩ = 
+⟨95⟩ = , as well as 
+⟨96⟩ = 
+⟨97⟩ = , is named after 
+⟨98⟩ = 
+⟨99⟩ = , 
+⟨100⟩ = 
+⟨101⟩ =  
+⟨102⟩ =  
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What was the arena, in which the 2017 Brit Awards were held, called during the 2012 Olympics ?

@@ -1,0 +1,33 @@
+[
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "predictedAnswer": "# 路径一：通过作品与演员身份交叉验证\n\n步骤1：使用⟦6⟧，提取“La Fea Más Bella”这一作品名称；使用⟦19⟧，提取“a Mexican actress”这一身份描述；使用⟦20⟧，提取“a Mexican telenovela”这一作品类型。\n\n步骤2：综合⟦20⟧⟦37⟧⟦127⟧⟦128⟧，对比“La heredera”与“Mexico”“Mexico City”等地理及行业信息，确认该问题的核心是寻找一位墨西哥女演员，且她曾是《La Heredera》的主演。\n\n步骤3：使用⟦42⟧，提取“Angélica Vale”这一人名；综合⟦49⟧⟦59⟧⟦60⟧，交叉验证其出生于墨西哥、是喜剧演员及歌手Raúl Vale的女儿，符合墨西哥女演员的身份。\n\n结论：Angélica Vale 是墨西哥电影、电视和戏剧女演员，并且是《La Heredera》的主演。\n\n# 路径二：通过主演角色与作品名称匹配\n\n步骤1：使用⟦149⟧，提取“protagonist”这一角色定位；使用⟦202⟧，提取“the protagonist”这一描述，确认问题指向某部作品的主演。\n\n步骤2：综合⟦20⟧⟦35⟧⟦213⟧，对比“La heredera”与“the webnovela”“She starred in”等信息，确认《La Heredera》是一部网络小说剧，且其主演为一位墨西哥女演员。\n\n步骤3：使用⟦42⟧，提取“Angélica Vale”；综合⟦41⟧⟦91⟧⟦103⟧，交叉验证其母亲为Angélica María，且她被称为“La Novia de Mexico”，进一步确认其墨西哥女演员身份。\n\n结论：Angélica Vale 是《La Heredera》的主演，且符合墨西哥电影、电视和戏剧女演员的身份。\n\n# 路径三：通过作品关联与人物身份综合推断\n\n步骤1：使用⟦6⟧，提取“La Fea Más Bella”；使用⟦10⟧，提取“The Prettiest Ugly Girl”；使用⟦140⟧，提取“November”，确认该演员参演过知名作品并在11月出生。\n\n步骤2：综合⟦42⟧⟦49⟧⟦129⟧，对比“Angélica Vale”“born Angélica María Vale Hartman”“Mexico's Sweetheart”等信息，确认其全名、出生信息及墨西哥国籍。\n\n步骤3：使用⟦35⟧，提取“almost 30 years”；使用⟦79⟧，提取“fame”；使用⟦149⟧，提取“protagonist”，综合判断该演员在近30年职业生涯中成为主演，并因《La Heredera》获得关注。\n\n结论：Angélica Vale 是墨西哥电影、电视和戏剧女演员，并担任《La Heredera》的主演。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦42⟧⟨1⟩⟦49⟧⟨2⟩⟦140⟧⟨3⟩⟨4⟩⟨5⟩⟨6⟩⟨7⟩⟨8⟩⟨9⟩",
+    "nounCount": 318,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 5586,
+      "completion_tokens": 427,
+      "total_tokens": 6013,
+      "prompt_tokens_details": {
+        "cached_tokens": 5376
+      },
+      "prompt_cache_hit_tokens": 5376,
+      "prompt_cache_miss_tokens": 210
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1501,
+      "completion_tokens": 647,
+      "total_tokens": 2148,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1501
+    }
+  }
+]

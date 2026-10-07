@@ -1,0 +1,92 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Charles A. Agemian] ⟦67⟧⟨299⟩⟦120⟧⟨300⟩⟦131⟧⟨301⟩⟦42⟧⟦49⟧⟨302⟩⟨303⟩⟦91⟧⟦183⟧⟨304⟩⟨305⟩⟦68⟧⟨306⟩⟦93⟧⟦252⟧⟨308⟩⟦170⟧⟨307⟩⟨309⟩⟦157⟧⟦157⟧⟨310⟩⟨311⟩⟦66⟧⟦66⟧⟨312⟩⟨313⟩⟦70⟧⟦151⟧⟨314⟩⟨315⟩⟦227⟧⟨316⟩⟦98⟧⟨317⟩
+[John Garabedian] ⟦118⟧⟨383⟩⟦43⟧⟨385⟩⟦164⟧⟨384⟩⟨386⟩⟦83⟧⟦84⟧⟨387⟩⟦113⟧⟨388⟩⟨389⟩⟦80⟧⟨390⟩⟦34⟧⟦34⟧⟨391⟩⟨392⟩
+[John Garabedian] ⟦173⟧
+
+符号表：
+⟦34⟧ = age
+⟦42⟧ = an American banker
+⟦43⟧ = an American radio personality
+⟦49⟧ = banker
+⟦66⟧ = chairman
+⟦67⟧ = Charles A. Agemian
+⟦68⟧ = Chase Manhattan Bank
+⟦70⟧ = chief executive officer
+⟦80⟧ = December
+⟦83⟧ = disc
+⟦84⟧ = disc jockey
+⟦91⟧ = early retirement
+⟦93⟧ = executive vice president
+⟦98⟧ = Garden State National Bank
+⟦113⟧ = jockey
+⟦118⟧ = John H. Garabedian
+⟦120⟧ = July
+⟦131⟧ = March
+⟦151⟧ = officer
+⟦157⟧ = operations
+⟦164⟧ = personality
+⟦170⟧ = president
+⟦173⟧ = radio
+⟦183⟧ = retirement
+⟦227⟧ = the Hackensack Trust Co.
+⟦252⟧ = vice
+
+占位符映射：
+⟨299⟩ =  (
+⟨300⟩ =  22, 1909 – 
+⟨301⟩ =  30, 1996) was 
+⟨302⟩ = 
+⟨303⟩ =  who took 
+⟨304⟩ = 
+⟨305⟩ =  from 
+⟨306⟩ = , where he was 
+⟨307⟩ = 
+⟨308⟩ =  
+⟨309⟩ =  of 
+⟨310⟩ = 
+⟨311⟩ = , to become 
+⟨312⟩ = 
+⟨313⟩ =  and 
+⟨314⟩ = 
+⟨315⟩ =  of 
+⟨316⟩ = , which later was renamed 
+⟨317⟩ = .
+⟨383⟩ =  is 
+⟨384⟩ = 
+⟨385⟩ =  
+⟨386⟩ =  and 
+⟨387⟩ = 
+⟨388⟩ = 
+⟨389⟩ =  born on 
+⟨390⟩ =  20, 1941 (
+⟨391⟩ = 
+⟨392⟩ =  75).
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemian?

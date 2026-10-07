@@ -1,0 +1,169 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Third Eye Blind (album)] ⟨1⟩⟦175⟧⟨3⟩⟨2⟩⟨4⟩⟨6⟩⟨7⟩⟨5⟩⟦38⟧⟨8⟩
+[Third Eye Blind] ⟨18⟩⟦31⟧⟨20⟩⟨19⟩⟨21⟩⟦140⟧⟨22⟩
+[Third Eye Blind] ⟨38⟩⟨39⟩⟦203⟧⟦142⟧⟨41⟩⟨40⟩⟨42⟩⟨43⟩⟨44⟩⟨45⟩⟨46⟩⟦91⟧⟦225⟧⟨47⟩⟨48⟩⟦137⟧⟨49⟩⟨50⟩⟦89⟧⟨51⟩⟨52⟩⟦43⟧⟦77⟧⟦77⟧⟨53⟩⟨54⟩⟦63⟧⟦63⟧⟨55⟩⟨56⟩
+[Kevin Cadogan] ⟦86⟧⟨71⟩⟦32⟧⟨73⟩⟨72⟩⟨74⟩⟦127⟧⟦127⟧⟨75⟩⟨76⟩⟦139⟧⟨77⟩⟨78⟩⟨79⟩
+[Kevin Cadogan] ⟨80⟩⟦103⟧⟨81⟩⟨82⟩⟨83⟩⟨84⟩⟨85⟩⟨86⟩
+[Kevin Cadogan] ⟨87⟩⟦208⟧⟨88⟩⟨89⟩⟨90⟩⟦6⟧⟨91⟩⟦163⟧⟨92⟩⟨93⟩⟦198⟧⟨94⟩⟨95⟩⟨96⟩
+[Sick Puppies] ⟨97⟩⟦33⟧⟨99⟩⟨98⟩⟨100⟩
+[Sick Puppies] ⟦146⟧ | ⟦146⟧⟨101⟩⟦128⟧⟦128⟧⟨102⟩⟨103⟩⟦204⟧⟦152⟧⟨104⟩⟨105⟩⟦26⟧⟨106⟩⟦21⟧⟨107⟩⟨108⟩⟦230⟧⟨109⟩
+[Blue (Third Eye Blind album)] ⟦48⟧
+[Red Star (EP)] ⟦153⟧
+[Red Star (EP)] ⟦222⟧
+[The Nod] ⟦166⟧⟦166⟧ | ⟦166⟧⟦166⟧
+[Out of the Vein] ⟦138⟧ | ⟦158⟧⟦28⟧⟦138⟧ | ⟦138⟧ | ⟦138⟧
+[Out of the Vein] ⟦78⟧
+[Out of the Vein] ⟦23⟧ | ⟦23⟧ | ⟦23⟧
+[Stephan Jenkins] ⟦149⟧⟦154⟧
+[Stephan Jenkins] ⟦206⟧ | ⟦206⟧ | ⟦206⟧ | ⟦206⟧ | ⟦206⟧
+[Stephan Jenkins] ⟦42⟧ | ⟦42⟧ | ⟦42⟧ | ⟦83⟧⟦42⟧⟦42⟧ | ⟦42⟧⟦42⟧ | ⟦80⟧⟦22⟧
+
+符号表：
+⟦6⟧ = "Graduate
+⟦21⟧ = a video
+⟦22⟧ = a Whole Year
+⟦23⟧ = album
+⟦26⟧ = All the Same
+⟦28⟧ = American rock band Third Eye Blind
+⟦31⟧ = an American rock band
+⟦32⟧ = an American singer/songwriter
+⟦33⟧ = an Australian rock band
+⟦38⟧ = April
+⟦42⟧ = band
+⟦43⟧ = bass guitar
+⟦48⟧ = Cadogan
+⟦63⟧ = drums
+⟦77⟧ = guitar
+⟦78⟧ = guitarist
+⟦80⟧ = hits
+⟦83⟧ = Jenkins
+⟦86⟧ = Kevin Rene Cadogan
+⟦89⟧ = lead guitar
+⟦91⟧ = lead vocals
+⟦103⟧ = member
+⟦127⟧ = producer
+⟦128⟧ = prominence
+⟦137⟧ = rhythm guitar
+⟦138⟧ = rock
+⟦139⟧ = rock guitarist
+⟦140⟧ = San Francisco
+⟦142⟧ = self
+⟦146⟧ = Sick Puppies
+⟦149⟧ = singer
+⟦152⟧ = song
+⟦153⟧ = songs
+⟦154⟧ = songwriter
+⟦158⟧ = studio
+⟦163⟧ = the 14 songs
+⟦166⟧ = The band
+⟦175⟧ = the debut studio album
+⟦198⟧ = their debut album
+⟦203⟧ = their self-titled album
+⟦204⟧ = their song
+⟦206⟧ = Third Eye Blind
+⟦208⟧ = Third Eye Blind's most notable hits
+⟦222⟧ = video
+⟦225⟧ = vocals
+⟦230⟧ = YouTube
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  
+⟨4⟩ =  by 
+⟨5⟩ = 
+⟨6⟩ =  
+⟨7⟩ =  Third Eye Blind, released on 
+⟨8⟩ =  8, 1997.
+⟨18⟩ =  is 
+⟨19⟩ = 
+⟨20⟩ =  
+⟨21⟩ =  formed in 
+⟨22⟩ =  in 1993.
+⟨38⟩ = 
+⟨39⟩ =  released 
+⟨40⟩ = 
+⟨41⟩ = -titled 
+⟨42⟩ = , "
+⟨43⟩ = ", in 1997, with 
+⟨44⟩ = 
+⟨45⟩ =  largely consisting of 
+⟨46⟩ =  (
+⟨47⟩ = 
+⟨48⟩ = , 
+⟨49⟩ = ), 
+⟨50⟩ =  (
+⟨51⟩ = 
+⟨52⟩ = ), Arion Salazar (
+⟨53⟩ = 
+⟨54⟩ = ), and Brad Hargreaves (
+⟨55⟩ = 
+⟨56⟩ = ).
+⟨71⟩ =  (born August 14, 1970) is 
+⟨72⟩ = 
+⟨73⟩ = /
+⟨74⟩ = , 
+⟨75⟩ = 
+⟨76⟩ =  and 
+⟨77⟩ = 
+⟨78⟩ = 
+⟨79⟩ = .
+⟨80⟩ =  A founding 
+⟨81⟩ =  of 
+⟨82⟩ = 
+⟨83⟩ =  
+⟨84⟩ = , he performed with 
+⟨85⟩ = 
+⟨86⟩ =  from 1993 to 2000.
+⟨87⟩ =  He co-wrote some of 
+⟨88⟩ = 
+⟨89⟩ = , including "How's It Going to Be", "Losing 
+⟨90⟩ = ", and 
+⟨91⟩ = ", and 10 of 
+⟨92⟩ = 
+⟨93⟩ =  on 
+⟨94⟩ = 
+⟨95⟩ =  "
+⟨96⟩ = ".
+⟨97⟩ =  is 
+⟨98⟩ = 
+⟨99⟩ =  
+⟨100⟩ = , formed in 1997.
+⟨101⟩ =  rose to 
+⟨102⟩ = 
+⟨103⟩ =  in 2006 when 
+⟨104⟩ = 
+⟨105⟩ =  "
+⟨106⟩ = " was uploaded along with 
+⟨107⟩ = 
+⟨108⟩ =  to 
+⟨109⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which band has released more albums with their original members, Sick Puppies or Third Eye Blind?

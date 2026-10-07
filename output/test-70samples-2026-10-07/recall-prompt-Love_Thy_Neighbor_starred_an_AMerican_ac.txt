@@ -1,0 +1,285 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , "Alice
+⟦2⟧ = , several sketches
+⟦3⟧ = "CBS Library
+⟦4⟧ = "Cher
+⟦5⟧ = "Cinderella
+⟦6⟧ = "Cyberchase
+⟦7⟧ = "Love Thy Neighbor
+⟦8⟧ = "My Little Pony
+⟦9⟧ = "My Little Pony 'n Friends
+⟦10⟧ = "My Little Pony Tales
+⟦11⟧ = "Salty's Lighthouse
+⟦12⟧ = "Sanford Arms
+⟦13⟧ = "Starsky
+⟦14⟧ = "The Glo Friends
+⟦15⟧ = "The Magic School Bus
+⟦16⟧ = "The Transformers
+⟦17⟧ = "Three's a Crowd
+⟦18⟧ = "Three's Company
+⟦19⟧ = "Throb
+⟦20⟧ = "Tyler Perry's Love Thy Neighbor
+⟦21⟧ = a diner
+⟦22⟧ = a film
+⟦23⟧ = a Golden Globe Award
+⟦24⟧ = a half-hour sitcom
+⟦25⟧ = A Knife
+⟦26⟧ = a location
+⟦27⟧ = A Madea Halloween
+⟦28⟧ = a number
+⟦29⟧ = a Primetime Emmy Award
+⟦30⟧ = a scriptwriter
+⟦31⟧ = a stage revue
+⟦32⟧ = a whole lot
+⟦33⟧ = actor
+⟦34⟧ = actors
+⟦35⟧ = actors Jason Ritter
+⟦36⟧ = actress
+⟦37⟧ = adults
+⟦38⟧ = advice
+⟦39⟧ = Alice
+⟦40⟧ = all walks
+⟦41⟧ = American sitcom television series
+⟦42⟧ = an "ABC Movie Special
+⟦43⟧ = an American actor
+⟦44⟧ = an American actress
+⟦45⟧ = an American born Canadian screenwriter
+⟦46⟧ = an American stage
+⟦47⟧ = an old locomotive car
+⟦48⟧ = Andre Hall
+⟦49⟧ = Bert Convy
+⟦50⟧ = Bloom
+⟦51⟧ = both "Tyler Perry's House
+⟦52⟧ = Bucky O'Hare
+⟦53⟧ = car
+⟦54⟧ = Carter Country
+⟦55⟧ = Cassie Yates
+⟦56⟧ = Charmkins
+⟦57⟧ = Chico
+⟦58⟧ = children
+⟦59⟧ = class
+⟦60⟧ = coat
+⟦61⟧ = comedian
+⟦62⟧ = comedy
+⟦63⟧ = Comfort
+⟦64⟧ = Company
+⟦65⟧ = Conan
+⟦66⟧ = Constance McCashin
+⟦67⟧ = Crowd
+⟦68⟧ = customers
+⟦69⟧ = Daddy
+⟦70⟧ = Danny Harris
+⟦71⟧ = Darmirra Brunson
+⟦72⟧ = diner
+⟦73⟧ = diner owner Hattie Mae Love
+⟦74⟧ = Disney's "The Last Flight
+⟦75⟧ = Drew
+⟦76⟧ = family
+⟦77⟧ = Family Feud
+⟦78⟧ = father
+⟦79⟧ = film
+⟦80⟧ = films
+⟦81⟧ = Floyd Jackson
+⟦82⟧ = food
+⟦83⟧ = Fred Allen
+⟦84⟧ = Friends
+⟦85⟧ = fun
+⟦86⟧ = fur
+⟦87⟧ = game
+⟦88⟧ = George Arthur Bloom
+⟦89⟧ = GoodTimes Home Video's 1994 animated films
+⟦90⟧ = great food
+⟦91⟧ = Hattie Love
+⟦92⟧ = Hattie Mae's old recipes
+⟦93⟧ = Heart
+⟦94⟧ = her famous fur coat
+⟦95⟧ = her middle-class family's daily triumphs
+⟦96⟧ = her role
+⟦97⟧ = Her Upcoming New Netflix Sitcom ATL
+⟦98⟧ = his family
+⟦99⟧ = his role
+⟦100⟧ = his work
+⟦101⟧ = hour
+⟦102⟧ = Hutch
+⟦103⟧ = installments
+⟦104⟧ = its customers
+⟦105⟧ = Jack Benny
+⟦106⟧ = Jack Tripper
+⟦107⟧ = Jem
+⟦108⟧ = John Ritter
+⟦109⟧ = Jonathan Southworth Ritter
+⟦110⟧ = Just Friends
+⟦111⟧ = Kendra C. Johnson
+⟦112⟧ = Keri Lewis
+⟦113⟧ = Ladies
+⟦114⟧ = life
+⟦115⟧ = Lighthouse
+⟦116⟧ = Linda Love-Harris
+⟦117⟧ = location
+⟦118⟧ = lot
+⟦119⟧ = Love
+⟦120⟧ = Love Thy Neighbor
+⟦121⟧ = Man
+⟦122⟧ = Mark Sandrich
+⟦123⟧ = Mary Martin
+⟦124⟧ = May
+⟦125⟧ = model
+⟦126⟧ = My Heart
+⟦127⟧ = Nature Cat
+⟦128⟧ = neighborhood
+⟦129⟧ = Nelvana television titles
+⟦130⟧ = Netflix
+⟦131⟧ = Noah's Ark
+⟦132⟧ = number
+⟦133⟧ = off
+⟦134⟧ = one season
+⟦135⟧ = Only", "Love
+⟦136⟧ = owner
+⟦137⟧ = Palmer Williams Jr.
+⟦138⟧ = Paramount
+⟦139⟧ = Party Games
+⟦140⟧ = Patrice
+⟦141⟧ = Patrice Lovely
+⟦142⟧ = Payne
+⟦143⟧ = Penny Marshall
+⟦144⟧ = performance
+⟦145⟧ = pic
+⟦146⟧ = pilots
+⟦147⟧ = point
+⟦148⟧ = Potato Head Kids
+⟦149⟧ = producer
+⟦150⟧ = recipes
+⟦151⟧ = revue
+⟦152⟧ = role
+⟦153⟧ = Romance Theatre
+⟦154⟧ = screenwriter
+⟦155⟧ = scripts
+⟦156⟧ = scriptwriter
+⟦157⟧ = season
+⟦158⟧ = segments
+⟦159⟧ = September
+⟦160⟧ = series
+⟦161⟧ = several scripts
+⟦162⟧ = show
+⟦163⟧ = shows
+⟦164⟧ = Sidney
+⟦165⟧ = singer
+⟦166⟧ = singing
+⟦167⟧ = sitcom
+⟦168⟧ = sketches
+⟦169⟧ = Solid Gold
+⟦170⟧ = son
+⟦171⟧ = spin
+⟦172⟧ = spot
+⟦173⟧ = stage
+⟦174⟧ = star
+⟦175⟧ = Stockard Channing
+⟦176⟧ = story
+⟦177⟧ = Street Sharks
+⟦178⟧ = striptease
+⟦179⟧ = struggles
+⟦180⟧ = television
+⟦181⟧ = television actor
+⟦182⟧ = Tex Ritter
+⟦183⟧ = the "My Little Pony" series
+⟦184⟧ = the "Tugs" segments
+⟦185⟧ = the ABC sitcom
+⟦186⟧ = the Adventurer
+⟦187⟧ = the American version
+⟦188⟧ = the British sitcom
+⟦189⟧ = The Charmkins
+⟦190⟧ = the comedy film "Boo
+⟦191⟧ = The Dean Martin Show
+⟦192⟧ = the Family
+⟦193⟧ = the father
+⟦194⟧ = The focal point
+⟦195⟧ = the Holograms
+⟦196⟧ = The Incredible Hulk
+⟦197⟧ = The Julie Andrews Hour
+⟦198⟧ = the Ladies
+⟦199⟧ = the late singing cowboy star
+⟦200⟧ = the Love Train Diner
+⟦201⟧ = the Man
+⟦202⟧ = the neighborhood
+⟦203⟧ = the new sitcom
+⟦204⟧ = the Oprah Winfrey Network
+⟦205⟧ = the pilots
+⟦206⟧ = the popular American game show
+⟦207⟧ = The Powder Room
+⟦208⟧ = the role
+⟦209⟧ = The series
+⟦210⟧ = the show
+⟦211⟧ = the sitcom
+⟦212⟧ = the spin-off
+⟦213⟧ = the Toad Wars
+⟦214⟧ = the Toni Braxton Bio-pic
+⟦215⟧ = the Tyler Perry sitcom
+⟦216⟧ = titles
+⟦217⟧ = triumphs
+⟦218⟧ = Tugs
+⟦219⟧ = Tyler Perry
+⟦220⟧ = Tyler Ritter
+⟦221⟧ = Van
+⟦222⟧ = various television shows
+⟦223⟧ = version
+⟦224⟧ = walks
+⟦225⟧ = Wonderland
+⟦226⟧ = work
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Love Thy Neighbor (1940 film)] ⟦120⟧⟨1⟩⟦22⟧⟨2⟩⟦79⟧⟨3⟩⟦138⟧⟨4⟩⟦105⟧⟨5⟩⟦83⟧⟨6⟩⟦122⟧⟨7⟩
+[Love Thy Neighbor (1940 film)] ⟨8⟩⟦123⟧⟨9⟩⟦94⟧⟨10⟩⟦86⟧⟨11⟩⟦60⟧⟨12⟩⟦178⟧⟨13⟩⟦144⟧⟨14⟩⟦144⟧⟨15⟩⟦126⟧⟨16⟩⟦93⟧⟨17⟩⟦69⟧⟨18⟩⟦69⟧⟨19⟩⟦31⟧⟨20⟩⟦173⟧⟨21⟩⟦151⟧⟨22⟩
+[Palmer Williams Jr.] ⟦137⟧⟨23⟩⟦46⟧⟨24⟩⟦173⟧⟨25⟩⟦180⟧⟨26⟩⟦181⟧⟨27⟩⟦33⟧⟨28⟩
+[Palmer Williams Jr.] ⟨29⟩⟦99⟧⟨30⟩⟦152⟧⟨31⟩⟦81⟧⟨32⟩⟦51⟧⟨33⟩⟦142⟧⟨34⟩⟦211⟧⟨35⟩⟦167⟧⟨36⟩⟦120⟧⟨37⟩
+[Palmer Williams Jr.] ⟨38⟩⟦98⟧⟨39⟩⟦76⟧⟨40⟩⟦206⟧⟨41⟩⟦87⟧⟨42⟩⟦162⟧⟨43⟩⟦77⟧⟨44⟩
+[John Ritter] ⟦109⟧⟨45⟩⟦159⟧⟨46⟩⟦159⟧⟨47⟩⟦43⟧⟨48⟩⟦33⟧⟨49⟩⟦61⟧⟨50⟩⟦61⟧⟨51⟩
+[John Ritter] ⟨52⟩⟦170⟧⟨53⟩⟦199⟧⟨54⟩⟦166⟧⟨55⟩⟦174⟧⟨56⟩⟦182⟧⟨57⟩⟦193⟧⟨58⟩⟦78⟧⟨59⟩⟦34⟧⟨60⟩⟦35⟧⟨61⟩⟦220⟧⟨62⟩⟦99⟧⟨63⟩⟦152⟧⟨64⟩⟦106⟧⟨65⟩⟦185⟧⟨66⟩⟦167⟧⟨67⟩⟦18⟧⟨68⟩⟦64⟧⟨69⟩⟦29⟧⟨70⟩⟦23⟧⟨71⟩
+[John Ritter] ⟨72⟩⟦208⟧⟨73⟩⟦152⟧⟨74⟩⟦212⟧⟨75⟩⟦171⟧⟨76⟩⟦133⟧⟨77⟩⟦17⟧⟨78⟩⟦67⟧⟨79⟩⟦134⟧⟨80⟩⟦157⟧⟨81⟩
+[Love Thy Neighbor (1984 film)] ⟦120⟧⟨82⟩⟦180⟧⟨83⟩⟦180⟧⟨84⟩⟦62⟧⟨85⟩⟦79⟧⟨86⟩⟦108⟧⟨87⟩⟦143⟧⟨88⟩⟦55⟧⟨89⟩⟦49⟧⟨90⟩⟦66⟧⟨91⟩
+[Love Thy Neighbor (1984 film)] ⟨92⟩⟦42⟧⟨93⟩⟦124⟧⟨94⟩
+[Darmirra Brunson] ⟦71⟧⟨95⟩⟦44⟧⟨96⟩⟦36⟧⟨97⟩⟦61⟧⟨98⟩⟦61⟧⟨99⟩⟦165⟧⟨100⟩⟦165⟧⟨101⟩
+[Darmirra Brunson] ⟨102⟩⟦96⟧⟨103⟩⟦152⟧⟨104⟩⟦75⟧⟨105⟩⟦203⟧⟨106⟩⟦167⟧⟨107⟩⟦120⟧⟨108⟩
+[Darmirra Brunson] ⟨109⟩⟦97⟧⟨110⟩⟦130⟧⟨111⟩
+[Kendra C. Johnson] ⟦111⟧⟨112⟩⟦44⟧⟨113⟩⟦36⟧⟨114⟩
+[Kendra C. Johnson] ⟨115⟩⟦96⟧⟨116⟩⟦152⟧⟨117⟩⟦116⟧⟨118⟩⟦203⟧⟨119⟩⟦167⟧⟨120⟩⟦20⟧⟨121⟩
+[Andre Hall (actor)] ⟦48⟧⟨122⟩⟦43⟧⟨123⟩⟦33⟧⟨124⟩⟦125⟧⟨125⟩⟦125⟧⟨126⟩
+[Andre Hall (actor)] ⟨127⟩⟦99⟧⟨128⟩⟦152⟧⟨129⟩⟦112⟧⟨130⟩⟦214⟧⟨131⟩⟦145⟧⟨132⟩⟦70⟧⟨133⟩⟦215⟧⟨134⟩⟦167⟧⟨135⟩⟦120⟧⟨136⟩
+[List of Love Thy Neighbor episodes] ⟨137⟩⟦120⟧⟨138⟩⟦41⟧⟨139⟩⟦167⟧⟨140⟩⟦180⟧⟨141⟩⟦160⟧⟨142⟩⟦204⟧⟨143⟩⟦124⟧⟨144⟩
+[List of Love Thy Neighbor episodes] ⟦7⟧⟨145⟩⟦24⟧⟨146⟩⟦101⟧⟨147⟩⟦167⟧⟨148⟩⟦73⟧⟨149⟩⟦136⟧⟨150⟩⟦95⟧⟨151⟩⟦59⟧⟨152⟩⟦76⟧⟨153⟩⟦217⟧⟨154⟩⟦179⟧⟨155⟩⟦179⟧⟨156⟩
+[List of Love Thy Neighbor episodes] ⟦194⟧⟨157⟩⟦147⟧⟨158⟩⟦210⟧⟨159⟩⟦162⟧⟨160⟩⟦26⟧⟨161⟩⟦117⟧⟨162⟩⟦200⟧⟨163⟩⟦47⟧⟨164⟩⟦53⟧⟨165⟩⟦21⟧⟨166⟩⟦72⟧⟨167⟩⟦92⟧⟨168⟩⟦150⟧⟨169⟩
+[List of Love Thy Neighbor episodes] ⟨170⟩⟦202⟧⟨171⟩⟦128⟧⟨172⟩⟦172⟧⟨173⟩⟦172⟧⟨174⟩⟦90⟧⟨175⟩⟦82⟧⟨176⟩⟦32⟧⟨177⟩⟦118⟧⟨178⟩⟦85⟧⟨179⟩⟦85⟧⟨180⟩⟦38⟧⟨181⟩⟦38⟧⟨182⟩⟦104⟧⟨183⟩⟦68⟧⟨184⟩⟦40⟧⟨185⟩⟦224⟧⟨186⟩⟦114⟧⟨187⟩⟦114⟧⟨188⟩
+[List of Love Thy Neighbor episodes] ⟦209⟧⟨189⟩⟦160⟧⟨190⟩⟦219⟧⟨191⟩
+[George Arthur Bloom] ⟦88⟧⟨192⟩⟦45⟧⟨193⟩⟦154⟧⟨194⟩⟦149⟧⟨195⟩⟦149⟧⟨196⟩⟦100⟧⟨197⟩⟦226⟧⟨198⟩⟦129⟧⟨199⟩⟦180⟧⟨200⟩⟦216⟧⟨201⟩⟦15⟧⟨202⟩⟦6⟧⟨203⟩
+[George Arthur Bloom] ⟨204⟩⟦205⟧⟨205⟩⟦146⟧⟨206⟩⟦16⟧⟨207⟩⟦8⟧⟨208⟩⟦28⟧⟨209⟩⟦132⟧⟨210⟩⟦103⟧⟨211⟩⟦103⟧⟨212⟩⟦183⟧⟨213⟩⟦160⟧⟨214⟩⟦9⟧⟨215⟩⟦10⟧⟨216⟩
+[George Arthur Bloom] ⟨217⟩⟦30⟧⟨218⟩⟦156⟧⟨219⟩⟦74⟧⟨220⟩⟦131⟧⟨221⟩⟦161⟧⟨222⟩⟦155⟧⟨223⟩⟦176⟧⟨224⟩⟦222⟧⟨225⟩⟦180⟧⟨226⟩⟦163⟧⟨227⟩⟦80⟧⟨228⟩⟦80⟧⟨229⟩⟦58⟧⟨230⟩⟦58⟧⟨231⟩⟦37⟧⟨232⟩⟦37⟧⟨233⟩⟦12⟧⟨234⟩⟦187⟧⟨235⟩⟦223⟧⟨236⟩⟦188⟧⟨237⟩⟦167⟧⟨238⟩⟦120⟧⟨239⟩⟦52⟧⟨240⟩⟦213⟧⟨241⟩⟦177⟧⟨242⟩⟦184⟧⟨243⟩⟦218⟧⟨244⟩⟦158⟧⟨245⟩⟦11⟧⟨246⟩⟦115⟧⟨247⟩⟦175⟧⟨248⟩⟦110⟧⟨249⟩⟦84⟧⟨250⟩⟦25⟧⟨251⟩⟦198⟧⟨252⟩⟦113⟧⟨253⟩⟦2⟧⟨254⟩⟦168⟧⟨255⟩⟦4⟧⟨256⟩⟦3⟧⟨257⟩⟦13⟧⟨258⟩⟦102⟧⟨259⟩⟦57⟧⟨260⟩⟦201⟧⟨261⟩⟦121⟧⟨262⟩⟦1⟧⟨263⟩⟦107⟧⟨264⟩⟦195⟧⟨265⟩⟦65⟧⟨266⟩⟦186⟧⟨267⟩⟦153⟧⟨268⟩⟦19⟧⟨269⟩⟦192⟧⟨270⟩⟦221⟧⟨271⟩⟦119⟧⟨272⟩⟦119⟧⟨273⟩⟦80⟧⟨274⟩⟦169⟧⟨275⟩⟦191⟧⟨276⟩⟦54⟧⟨277⟩⟦196⟧⟨278⟩⟦127⟧⟨279⟩⟦197⟧⟨280⟩⟦189⟧⟨281⟩⟦56⟧⟨282⟩⟦63⟧⟨283⟩⟦139⟧⟨284⟩⟦37⟧⟨285⟩⟦135⟧⟨286⟩⟦164⟧⟨287⟩⟦207⟧⟨288⟩⟦148⟧⟨289⟩⟦14⟧⟨290⟩
+[George Arthur Bloom] ⟦50⟧⟨291⟩⟦89⟧⟨292⟩⟦80⟧⟨293⟩⟦5⟧⟨294⟩⟦39⟧⟨295⟩⟦225⟧⟨296⟩
+[Patrice Lovely] ⟦140⟧⟨297⟩⟦141⟧⟨298⟩⟦44⟧⟨299⟩⟦36⟧⟨300⟩⟦61⟧⟨301⟩⟦61⟧⟨302⟩
+[Patrice Lovely] ⟨303⟩⟦96⟧⟨304⟩⟦152⟧⟨305⟩⟦91⟧⟨306⟩⟦211⟧⟨307⟩⟦167⟧⟨308⟩⟦7⟧⟨309⟩⟦190⟧⟨310⟩⟦62⟧⟨311⟩⟦79⟧⟨312⟩
+[Patrice Lovely] ⟦27⟧⟨313⟩
+
+[user]
+
+问题：
+Love Thy Neighbor starred an AMerican actor who was best known for his role as Jack Tripper on what sitcom?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

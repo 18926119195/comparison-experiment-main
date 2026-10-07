@@ -1,0 +1,378 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Harry Potter
+⟦2⟧ = 1 November
+⟦3⟧ = 11 November
+⟦4⟧ = 21 July
+⟦5⟧ = 22 February
+⟦6⟧ = 3DS
+⟦7⟧ = 5 January
+⟦8⟧ = 5–7
+⟦9⟧ = 7 March
+⟦10⟧ = a 2001 book
+⟦11⟧ = a 2001 British-American fantasy film
+⟦12⟧ = a BAFTA Award
+⟦13⟧ = a book
+⟦14⟧ = a certified life coach
+⟦15⟧ = a cloak
+⟦16⟧ = a famous wizard
+⟦17⟧ = a four-part British sitcom
+⟦18⟧ = a Lego theme
+⟦19⟧ = a Lego-themed action-adventure video game
+⟦20⟧ = a mother
+⟦21⟧ = a parody
+⟦22⟧ = a road trip
+⟦23⟧ = a stone
+⟦24⟧ = A Very Potter Musical
+⟦25⟧ = A. J. Holmes
+⟦26⟧ = action
+⟦27⟧ = actress
+⟦28⟧ = adventure
+⟦29⟧ = aim
+⟦30⟧ = all the books
+⟦31⟧ = an English character actress
+⟦32⟧ = an Episcopal priest
+⟦33⟧ = an Ivy League Classroom
+⟦34⟧ = Android
+⟦35⟧ = artist
+⟦36⟧ = author
+⟦37⟧ = AVPM
+⟦38⟧ = Azkaban
+⟦39⟧ = beasts
+⟦40⟧ = Blood
+⟦41⟧ = Bloomsbury Publishing
+⟦42⟧ = book
+⟦43⟧ = books
+⟦44⟧ = Brian Holden
+⟦45⟧ = British author J. K. Rowling
+⟦46⟧ = bucket
+⟦47⟧ = Canada
+⟦48⟧ = character
+⟦49⟧ = characters
+⟦50⟧ = Chris Columbus
+⟦51⟧ = cloak
+⟦52⟧ = co-starred Miriam Margolyes
+⟦53⟧ = coach
+⟦54⟧ = comedian Frog Stone
+⟦55⟧ = commentator
+⟦56⟧ = conference
+⟦57⟧ = confrontation
+⟦58⟧ = copy
+⟦59⟧ = counterparts
+⟦60⟧ = countries
+⟦61⟧ = course
+⟦62⟧ = creatures
+⟦63⟧ = Dallas
+⟦64⟧ = Daniel Radcliffe
+⟦65⟧ = Danielle Elizabeth Tumminio
+⟦66⟧ = Darren Criss
+⟦67⟧ = daughter
+⟦68⟧ = David Heyman
+⟦69⟧ = demo
+⟦70⟧ = education
+⟦71⟧ = Emma Watson
+⟦72⟧ = Europe
+⟦73⟧ = events
+⟦74⟧ = experiences
+⟦75⟧ = Faith and Fantasy Fiction
+⟦76⟧ = Fantastic Beasts
+⟦77⟧ = fantasy
+⟦78⟧ = Feral Interactive
+⟦79⟧ = film
+⟦80⟧ = films
+⟦81⟧ = Fire
+⟦82⟧ = Florida
+⟦83⟧ = four films
+⟦84⟧ = Fran
+⟦85⟧ = Fran's mother
+⟦86⟧ = franchise
+⟦87⟧ = future installations
+⟦88⟧ = game
+⟦89⟧ = God
+⟦90⟧ = Harry
+⟦91⟧ = Harry Potter
+⟦92⟧ = Harry Potter commentator John Granger
+⟦93⟧ = Harry Potter's copy
+⟦94⟧ = Harry Potter's first year
+⟦95⟧ = Her earliest roles
+⟦96⟧ = her role
+⟦97⟧ = Her teaching
+⟦98⟧ = Hermione Granger
+⟦99⟧ = his education
+⟦100⟧ = his Hogwarts Professor website
+⟦101⟧ = Hogwarts School
+⟦102⟧ = important scenes
+⟦103⟧ = Innocence
+⟦104⟧ = installations
+⟦105⟧ = instalment
+⟦106⟧ = instructor
+⟦107⟧ = Interactive Entertainment
+⟦108⟧ = intersection
+⟦109⟧ = invisibility
+⟦110⟧ = iOS
+⟦111⟧ = items
+⟦112⟧ = its predecessor
+⟦113⟧ = its sequel
+⟦114⟧ = Its story
+⟦115⟧ = its storyline
+⟦116⟧ = J. K. Rowling
+⟦117⟧ = jokes
+⟦118⟧ = Lego "Harry Potter
+⟦119⟧ = Lego models
+⟦120⟧ = life
+⟦121⟧ = line
+⟦122⟧ = list
+⟦123⟧ = Lord Voldemort
+⟦124⟧ = lyrics
+⟦125⟧ = material
+⟦126⟧ = Matt Lang
+⟦127⟧ = Microsoft Windows
+⟦128⟧ = Mim
+⟦129⟧ = Miriam Margolyes
+⟦130⟧ = models
+⟦131⟧ = mother
+⟦132⟧ = music
+⟦133⟧ = name
+⟦134⟧ = Newt Scamander
+⟦135⟧ = Nick Lang
+⟦136⟧ = Nintendo 3DS
+⟦137⟧ = Nintendo DS
+⟦138⟧ = North America
+⟦139⟧ = notes
+⟦140⟧ = novel
+⟦141⟧ = novels
+⟦142⟧ = objects
+⟦143⟧ = October
+⟦144⟧ = Order
+⟦145⟧ = Orlando
+⟦146⟧ = OS
+⟦147⟧ = OS X
+⟦148⟧ = panel
+⟦149⟧ = parody
+⟦150⟧ = part
+⟦151⟧ = particularly "Harry Potter
+⟦152⟧ = pen
+⟦153⟧ = Pictures
+⟦154⟧ = PlayStation
+⟦155⟧ = PlayStation Portable
+⟦156⟧ = PlayStation Vita
+⟦157⟧ = predecessor
+⟦158⟧ = priest
+⟦159⟧ = Professor Sprout
+⟦160⟧ = publication
+⟦161⟧ = purports
+⟦162⟧ = Raincoast Books
+⟦163⟧ = release
+⟦164⟧ = Religion
+⟦165⟧ = road
+⟦166⟧ = role
+⟦167⟧ = roles
+⟦168⟧ = Ron Weasley
+⟦169⟧ = Rupert Grint
+⟦170⟧ = scenes
+⟦171⟧ = Scholastic
+⟦172⟧ = Secrets
+⟦173⟧ = seminar
+⟦174⟧ = sequel
+⟦175⟧ = series
+⟦176⟧ = sets
+⟦177⟧ = several main characters
+⟦178⟧ = several notes
+⟦179⟧ = several supporting roles
+⟦180⟧ = sitcom
+⟦181⟧ = some countries
+⟦182⟧ = spinning instructor
+⟦183⟧ = spring
+⟦184⟧ = starred actress
+⟦185⟧ = Steam
+⟦186⟧ = Steve Kloves
+⟦187⟧ = stone
+⟦188⟧ = story
+⟦189⟧ = storyline
+⟦190⟧ = Subsequent sets
+⟦191⟧ = summer
+⟦192⟧ = teaching
+⟦193⟧ = television
+⟦194⟧ = Texas
+⟦195⟧ = textbook
+⟦196⟧ = the "Christian Theology and Harry Potter" seminar
+⟦197⟧ = the "Deathly Hallows"—an unbeatable wand
+⟦198⟧ = the "Harry Potter" film series
+⟦199⟧ = the "Harry Potter" novels
+⟦200⟧ = the "Harry Potter" series
+⟦201⟧ = the "Harry Potter" universe
+⟦202⟧ = the "Lego Harry Potter Collection
+⟦203⟧ = The Age
+⟦204⟧ = the aim
+⟦205⟧ = the author
+⟦206⟧ = the beasts
+⟦207⟧ = The book
+⟦208⟧ = the Chamber
+⟦209⟧ = the course
+⟦210⟧ = the Deathly Hallows
+⟦211⟧ = the demo
+⟦212⟧ = the events
+⟦213⟧ = the fictitious author
+⟦214⟧ = The film
+⟦215⟧ = the films
+⟦216⟧ = the final confrontation
+⟦217⟧ = the final three books
+⟦218⟧ = the first film
+⟦219⟧ = the first four films
+⟦220⟧ = the first instalment
+⟦221⟧ = the first novel
+⟦222⟧ = The first sets
+⟦223⟧ = the first six films
+⟦224⟧ = The first trailer
+⟦225⟧ = the game
+⟦226⟧ = the Goblet
+⟦227⟧ = the Half-Blood Prince
+⟦228⟧ = the Harry Potter franchise
+⟦229⟧ = the Harry Potter series
+⟦230⟧ = the Infinitus Symposium
+⟦231⟧ = the instructor
+⟦232⟧ = the intersection
+⟦233⟧ = the Lego Harry Potter line
+⟦234⟧ = The line
+⟦235⟧ = the long-running "Harry Potter" film series
+⟦236⟧ = the magical creatures
+⟦237⟧ = the mother's bucket list
+⟦238⟧ = the new films
+⟦239⟧ = the novel
+⟦240⟧ = the Order
+⟦241⟧ = the original series
+⟦242⟧ = The original version purports
+⟦243⟧ = The OS X version
+⟦244⟧ = the panel
+⟦245⟧ = the pen name
+⟦246⟧ = the Philosopher's Stone
+⟦247⟧ = the Phoenix
+⟦248⟧ = the PlayStation
+⟦249⟧ = the Portus Symposium
+⟦250⟧ = the previously concealed back story
+⟦251⟧ = the Prisoner
+⟦252⟧ = the publication
+⟦253⟧ = the release
+⟦254⟧ = the role
+⟦255⟧ = the same name
+⟦256⟧ = The series
+⟦257⟧ = the seventh and final novel
+⟦258⟧ = the Sorcerer's Stone
+⟦259⟧ = the spring
+⟦260⟧ = The story
+⟦261⟧ = the summer
+⟦262⟧ = the textbook
+⟦263⟧ = the theme
+⟦264⟧ = The title
+⟦265⟧ = the United Kingdom
+⟦266⟧ = the United States
+⟦267⟧ = the US
+⟦268⟧ = the Wii
+⟦269⟧ = the wizards
+⟦270⟧ = theatre
+⟦271⟧ = their film counterparts
+⟦272⟧ = their own experiences
+⟦273⟧ = theme
+⟦274⟧ = theologian
+⟦275⟧ = theology
+⟦276⟧ = three mythical objects
+⟦277⟧ = three trailers
+⟦278⟧ = three years
+⟦279⟧ = title
+⟦280⟧ = trailer
+⟦281⟧ = trailers
+⟦282⟧ = Traveller's Tales
+⟦283⟧ = trip
+⟦284⟧ = Tufts University
+⟦285⟧ = Tumminio
+⟦286⟧ = universe
+⟦287⟧ = vehicles
+⟦288⟧ = version
+⟦289⟧ = video
+⟦290⟧ = voice
+⟦291⟧ = voice artist
+⟦292⟧ = wand
+⟦293⟧ = Warner Bros.
+⟦294⟧ = website
+⟦295⟧ = Wii
+⟦296⟧ = Witchcraft
+⟦297⟧ = wizard
+⟦298⟧ = Wizardry
+⟦299⟧ = wizards
+⟦300⟧ = Xbox
+⟦301⟧ = Yale
+⟦302⟧ = Yale University
+⟦303⟧ = year
+⟦304⟧ = years
+⟦305⟧ = Years 1–4
+⟦306⟧ = Years 5–7
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Harry Potter and the Philosopher's Stone (film)] ⟦91⟧⟨1⟩⟦246⟧⟨2⟩⟦181⟧⟨3⟩⟦60⟧⟨4⟩⟦91⟧⟨5⟩⟦258⟧⟨6⟩⟦11⟧⟨7⟩⟦77⟧⟨8⟩⟦79⟧⟨9⟩⟦50⟧⟨10⟩⟦293⟧
+[Harry Potter and the Philosopher's Stone (film)] ⟦153⟧⟨11⟩
+[Harry Potter and the Philosopher's Stone (film)] ⟨12⟩⟦239⟧⟨13⟩⟦140⟧⟨14⟩⟦255⟧⟨15⟩⟦133⟧⟨16⟩⟦116⟧⟨17⟩
+[Harry Potter and the Philosopher's Stone (film)] ⟦214⟧⟨18⟩⟦79⟧⟨19⟩⟦220⟧⟨20⟩⟦105⟧⟨21⟩⟦235⟧⟨22⟩⟦79⟧⟨23⟩⟦175⟧⟨24⟩⟦186⟧⟨25⟩⟦68⟧⟨26⟩
+[Harry Potter and the Philosopher's Stone (film)] ⟦114⟧⟨27⟩⟦188⟧⟨28⟩⟦94⟧⟨29⟩⟦303⟧⟨30⟩⟦101⟧⟨31⟩⟦296⟧⟨32⟩⟦298⟧⟨33⟩⟦16⟧⟨34⟩⟦297⟧⟨35⟩⟦99⟧⟨36⟩⟦70⟧⟨37⟩
+[Harry Potter and the Philosopher's Stone (film)] ⟦214⟧⟨38⟩⟦79⟧⟨39⟩⟦64⟧⟨40⟩⟦91⟧⟨41⟩⟦169⟧⟨42⟩⟦168⟧⟨43⟩⟦71⟧⟨44⟩⟦98⟧⟨45⟩
+[Danielle Elizabeth Tumminio] ⟦65⟧⟨46⟩⟦32⟧⟨47⟩⟦158⟧⟨48⟩⟦274⟧⟨49⟩⟦14⟧⟨50⟩⟦120⟧⟨51⟩⟦53⟧⟨52⟩⟦182⟧⟨53⟩⟦106⟧⟨54⟩⟦205⟧⟨55⟩⟦36⟧⟨56⟩⟦89⟧⟨57⟩⟦91⟧⟨58⟩⟦301⟧⟨59⟩⟦75⟧⟨60⟩⟦33⟧⟨61⟩
+[Danielle Elizabeth Tumminio] ⟨62⟩⟦231⟧⟨63⟩⟦106⟧⟨64⟩⟦196⟧⟨65⟩⟦173⟧⟨66⟩⟦302⟧⟨67⟩⟦259⟧⟨68⟩⟦183⟧⟨69⟩⟦209⟧⟨70⟩⟦61⟧⟨71⟩⟦284⟧⟨72⟩
+[Danielle Elizabeth Tumminio] ⟦285⟧⟨73⟩⟦125⟧⟨74⟩⟦125⟧⟨75⟩⟦232⟧⟨76⟩⟦108⟧⟨77⟩⟦275⟧⟨78⟩⟦275⟧⟨79⟩⟦229⟧⟨80⟩⟦175⟧⟨81⟩⟦230⟧⟨82⟩⟦145⟧⟨83⟩⟦82⟧⟨84⟩⟦249⟧⟨85⟩⟦63⟧⟨86⟩⟦194⟧⟨87⟩⟦261⟧⟨88⟩⟦191⟧⟨89⟩⟦244⟧⟨90⟩⟦148⟧⟨91⟩⟦91⟧⟨92⟩⟦164⟧⟨93⟩⟦164⟧⟨94⟩⟦56⟧⟨95⟩
+[Danielle Elizabeth Tumminio] ⟦97⟧⟨96⟩⟦192⟧⟨97⟩⟦92⟧⟨98⟩⟦55⟧⟨99⟩⟦100⟧⟨100⟩⟦294⟧⟨101⟩
+[Lego Harry Potter] ⟦118⟧⟨102⟩⟦18⟧⟨103⟩⟦273⟧⟨104⟩⟦215⟧⟨105⟩⟦80⟧⟨106⟩⟦200⟧⟨107⟩⟦175⟧⟨108⟩
+[Lego Harry Potter] ⟦119⟧⟨109⟩⟦130⟧⟨110⟩⟦102⟧⟨111⟩⟦170⟧⟨112⟩⟦287⟧⟨113⟩⟦287⟧⟨114⟩⟦49⟧⟨115⟩⟦49⟧⟨116⟩⟦223⟧⟨117⟩⟦80⟧⟨118⟩⟦30⟧⟨119⟩⟦43⟧⟨120⟩
+[Lego Harry Potter] ⟦222⟧⟨121⟩⟦176⟧⟨122⟩⟦253⟧⟨123⟩⟦163⟧⟨124⟩⟦218⟧⟨125⟩⟦79⟧⟨126⟩⟦1⟧⟨127⟩⟦246⟧⟨128⟩⟦91⟧⟨129⟩⟦258⟧⟨130⟩⟦266⟧⟨131⟩
+[Lego Harry Potter] ⟦190⟧⟨132⟩⟦176⟧⟨133⟩⟦238⟧⟨134⟩⟦80⟧⟨135⟩⟦91⟧⟨136⟩⟦240⟧⟨137⟩⟦144⟧⟨138⟩⟦247⟧⟨139⟩
+[Lego Harry Potter] ⟦234⟧⟨140⟩⟦121⟧⟨141⟩⟦278⟧⟨142⟩⟦304⟧⟨143⟩
+[Lego Harry Potter] ⟨144⟩⟦263⟧⟨145⟩⟦273⟧⟨146⟩⟦87⟧⟨147⟩⟦104⟧⟨148⟩⟦228⟧⟨149⟩⟦86⟧⟨150⟩⟦214⟧⟨151⟩⟦79⟧⟨152⟩⟦76⟧⟨153⟩
+[A Very Potter Musical] ⟦24⟧⟨154⟩⟦91⟧⟨155⟩⟦37⟧⟨156⟩⟦132⟧⟨157⟩⟦132⟧⟨158⟩⟦124⟧⟨159⟩⟦124⟧⟨160⟩⟦66⟧⟨161⟩⟦25⟧⟨162⟩⟦13⟧⟨163⟩⟦42⟧⟨164⟩⟦126⟧⟨165⟩⟦135⟧⟨166⟩⟦44⟧⟨167⟩
+[A Very Potter Musical] ⟦260⟧⟨168⟩⟦188⟧⟨169⟩⟦21⟧⟨170⟩⟦149⟧⟨171⟩⟦199⟧⟨172⟩⟦141⟧⟨173⟩⟦151⟧⟨174⟩⟦246⟧⟨175⟩⟦91⟧⟨176⟩⟦226⟧⟨177⟩⟦81⟧⟨178⟩⟦81⟧⟨179⟩⟦1⟧⟨180⟩⟦210⟧⟨181⟩⟦116⟧⟨182⟩⟦271⟧⟨183⟩⟦79⟧⟨184⟩⟦59⟧⟨185⟩
+[Bucket (TV series)] ⟦46⟧⟨186⟩⟦17⟧⟨187⟩⟦150⟧⟨188⟩⟦180⟧⟨189⟩⟦20⟧⟨190⟩⟦131⟧⟨191⟩⟦67⟧⟨192⟩⟦67⟧⟨193⟩⟦22⟧⟨194⟩⟦165⟧⟨195⟩⟦283⟧⟨196⟩⟦204⟧⟨197⟩⟦29⟧⟨198⟩⟦111⟧⟨199⟩⟦111⟧⟨200⟩⟦237⟧⟨201⟩⟦131⟧⟨202⟩⟦46⟧⟨203⟩⟦122⟧⟨204⟩
+[Bucket (TV series)] ⟦256⟧⟨205⟩⟦175⟧⟨206⟩⟦184⟧⟨207⟩⟦27⟧⟨208⟩⟦54⟧⟨209⟩⟦84⟧⟨210⟩⟦52⟧⟨211⟩⟦85⟧⟨212⟩⟦131⟧⟨213⟩⟦128⟧⟨214⟩
+[Lego Harry Potter: Years 5–7] ⟨215⟩⟦306⟧⟨216⟩⟦8⟧⟨217⟩⟦19⟧⟨218⟩⟦26⟧⟨219⟩⟦28⟧⟨220⟩⟦289⟧⟨221⟩⟦88⟧⟨222⟩⟦282⟧⟨223⟩⟦293⟧
+[Lego Harry Potter: Years 5–7] ⟦107⟧⟨224⟩
+[Lego Harry Potter: Years 5–7] ⟨225⟩⟦3⟧⟨226⟩⟦138⟧⟨227⟩⟦72⟧⟨228⟩⟦225⟧⟨229⟩⟦88⟧⟨230⟩⟦233⟧⟨231⟩⟦121⟧⟨232⟩⟦217⟧⟨233⟩⟦43⟧⟨234⟩⟦83⟧⟨235⟩⟦80⟧⟨236⟩⟦200⟧⟨237⟩⟦175⟧⟨238⟩⟦91⟧⟨239⟩⟦240⟧⟨240⟩⟦144⟧⟨241⟩⟦247⟧⟨242⟩⟦91⟧⟨243⟩⟦227⟧⟨244⟩⟦40⟧⟨245⟩⟦91⟧⟨246⟩⟦210⟧⟨247⟩⟦150⟧⟨248⟩⟦1⟧⟨249⟩⟦210⟧⟨250⟩⟦150⟧⟨251⟩
+[Lego Harry Potter: Years 5–7] ⟦225⟧⟨252⟩⟦88⟧⟨253⟩⟦248⟧⟨254⟩⟦300⟧⟨255⟩⟦155⟧⟨256⟩⟦156⟧⟨257⟩⟦295⟧⟨258⟩⟦137⟧⟨259⟩⟦136⟧⟨260⟩⟦6⟧⟨261⟩⟦127⟧⟨262⟩⟦110⟧⟨263⟩⟦34⟧⟨264⟩
+[Lego Harry Potter: Years 5–7] ⟦224⟧⟨265⟩⟦280⟧⟨266⟩⟦277⟧⟨267⟩⟦281⟧⟨268⟩⟦211⟧⟨269⟩⟦69⟧⟨270⟩⟦2⟧⟨271⟩
+[Lego Harry Potter: Years 5–7] ⟦225⟧⟨272⟩⟦88⟧⟨273⟩⟦185⟧⟨274⟩⟦7⟧⟨275⟩
+[Lego Harry Potter: Years 5–7] ⟦243⟧⟨276⟩⟦146⟧⟨277⟩⟦288⟧⟨278⟩⟦225⟧⟨279⟩⟦88⟧⟨280⟩⟦78⟧⟨281⟩⟦9⟧⟨282⟩
+[Lego Harry Potter: Years 5–7] ⟦225⟧⟨283⟩⟦88⟧⟨284⟩⟦248⟧⟨285⟩⟦143⟧⟨286⟩⟦150⟧⟨287⟩⟦150⟧⟨288⟩⟦202⟧⟨289⟩⟦225⟧⟨290⟩⟦88⟧⟨291⟩⟦112⟧⟨292⟩⟦157⟧⟨293⟩
+[Lego Harry Potter: Years 1–4] ⟨294⟩⟦305⟧⟨295⟩⟦19⟧⟨296⟩⟦26⟧⟨297⟩⟦28⟧⟨298⟩⟦289⟧⟨299⟩⟦88⟧⟨300⟩⟦282⟧⟨301⟩⟦293⟧
+[Lego Harry Potter: Years 1–4] ⟦225⟧⟨302⟩⟦88⟧⟨303⟩⟦233⟧⟨304⟩⟦121⟧⟨305⟩⟦115⟧⟨306⟩⟦189⟧⟨307⟩⟦219⟧⟨308⟩⟦80⟧⟨309⟩⟦200⟧⟨310⟩⟦175⟧⟨311⟩⟦91⟧⟨312⟩⟦258⟧⟨313⟩⟦91⟧⟨314⟩⟦208⟧⟨315⟩⟦172⟧⟨316⟩⟦91⟧⟨317⟩⟦251⟧⟨318⟩⟦38⟧⟨319⟩⟦1⟧⟨320⟩⟦226⟧⟨321⟩⟦81⟧⟨322⟩⟦81⟧⟨323⟩
+[Lego Harry Potter: Years 1–4] ⟦225⟧⟨324⟩⟦88⟧⟨325⟩⟦268⟧⟨326⟩⟦300⟧⟨327⟩⟦154⟧⟨328⟩⟦137⟧⟨329⟩⟦155⟧⟨330⟩⟦127⟧⟨331⟩⟦146⟧⟨332⟩⟦147⟧⟨333⟩⟦110⟧⟨334⟩⟦34⟧⟨335⟩
+[Lego Harry Potter: Years 1–4] ⟦243⟧⟨336⟩⟦146⟧⟨337⟩⟦288⟧⟨338⟩⟦225⟧⟨339⟩⟦88⟧⟨340⟩⟦5⟧⟨341⟩⟦78⟧⟨342⟩
+[Lego Harry Potter: Years 1–4] ⟦225⟧⟨343⟩⟦88⟧⟨344⟩⟦248⟧⟨345⟩⟦143⟧⟨346⟩⟦150⟧⟨347⟩⟦150⟧⟨348⟩⟦202⟧⟨349⟩⟦225⟧⟨350⟩⟦88⟧⟨351⟩⟦113⟧⟨352⟩⟦174⟧⟨353⟩
+[Fantastic Beasts and Where to Find Them] ⟦76⟧⟨354⟩⟦10⟧⟨355⟩⟦42⟧⟨356⟩⟦45⟧⟨357⟩⟦36⟧⟨358⟩⟦245⟧⟨359⟩⟦152⟧⟨360⟩⟦133⟧⟨361⟩⟦213⟧⟨362⟩⟦36⟧⟨363⟩⟦134⟧⟨364⟩⟦236⟧⟨365⟩⟦62⟧⟨366⟩⟦201⟧⟨367⟩⟦286⟧⟨368⟩
+[Fantastic Beasts and Where to Find Them] ⟦242⟧⟨369⟩⟦288⟧⟨370⟩⟦161⟧⟨371⟩⟦93⟧⟨372⟩⟦58⟧⟨373⟩⟦262⟧⟨374⟩⟦195⟧⟨375⟩⟦255⟧⟨376⟩⟦133⟧⟨377⟩⟦91⟧⟨378⟩⟦246⟧⟨379⟩⟦267⟧⟨380⟩⟦221⟧⟨381⟩⟦140⟧⟨382⟩⟦200⟧⟨383⟩⟦175⟧⟨384⟩
+[Fantastic Beasts and Where to Find Them] ⟨385⟩⟦178⟧⟨386⟩⟦139⟧⟨387⟩⟦90⟧⟨388⟩⟦168⟧⟨389⟩⟦98⟧⟨390⟩⟦272⟧⟨391⟩⟦74⟧⟨392⟩⟦206⟧⟨393⟩⟦39⟧⟨394⟩⟦117⟧⟨395⟩⟦117⟧⟨396⟩⟦241⟧⟨397⟩⟦175⟧⟨398⟩
+[Miriam Margolyes] ⟦129⟧⟨399⟩⟦31⟧⟨400⟩⟦48⟧⟨401⟩⟦27⟧⟨402⟩⟦290⟧⟨403⟩⟦291⟧⟨404⟩⟦35⟧⟨405⟩
+[Miriam Margolyes] ⟦95⟧⟨406⟩⟦167⟧⟨407⟩⟦270⟧⟨408⟩⟦270⟧⟨409⟩⟦179⟧⟨410⟩⟦167⟧⟨411⟩⟦79⟧⟨412⟩⟦79⟧⟨413⟩⟦193⟧⟨414⟩⟦193⟧⟨415⟩⟦12⟧⟨416⟩⟦96⟧⟨417⟩⟦166⟧⟨418⟩⟦203⟧⟨419⟩⟦103⟧⟨420⟩⟦254⟧⟨421⟩⟦166⟧⟨422⟩⟦159⟧⟨423⟩⟦198⟧⟨424⟩⟦79⟧⟨425⟩⟦175⟧⟨426⟩
+[Harry Potter and the Deathly Hallows] ⟦91⟧⟨427⟩⟦210⟧⟨428⟩⟦257⟧⟨429⟩⟦140⟧⟨430⟩⟦200⟧⟨431⟩⟦175⟧⟨432⟩⟦45⟧⟨433⟩⟦36⟧⟨434⟩
+[Harry Potter and the Deathly Hallows] ⟦207⟧⟨435⟩⟦42⟧⟨436⟩⟦4⟧⟨437⟩⟦304⟧⟨438⟩⟦160⟧⟨439⟩⟦160⟧⟨440⟩⟦1⟧⟨441⟩⟦246⟧⟨442⟩⟦41⟧⟨443⟩⟦265⟧⟨444⟩⟦266⟧⟨445⟩⟦171⟧⟨446⟩⟦47⟧⟨447⟩⟦162⟧⟨448⟩⟦256⟧⟨449⟩⟦175⟧⟨450⟩⟦252⟧⟨451⟩⟦160⟧⟨452⟩⟦1⟧⟨453⟩⟦246⟧⟨454⟩
+[Harry Potter and the Deathly Hallows] ⟦239⟧⟨455⟩⟦140⟧⟨456⟩⟦212⟧⟨457⟩⟦73⟧⟨458⟩⟦91⟧⟨459⟩⟦227⟧⟨460⟩⟦40⟧⟨461⟩⟦216⟧⟨462⟩⟦57⟧⟨463⟩⟦269⟧⟨464⟩⟦299⟧⟨465⟩⟦91⟧⟨466⟩⟦123⟧⟨467⟩⟦250⟧⟨468⟩⟦188⟧⟨469⟩⟦177⟧⟨470⟩⟦49⟧⟨471⟩
+[Harry Potter and the Deathly Hallows] ⟦264⟧⟨472⟩⟦279⟧⟨473⟩⟦207⟧⟨474⟩⟦42⟧⟨475⟩⟦276⟧⟨476⟩⟦142⟧⟨477⟩⟦260⟧⟨478⟩⟦188⟧⟨479⟩⟦197⟧⟨480⟩⟦292⟧⟨481⟩⟦23⟧⟨482⟩⟦187⟧⟨483⟩⟦120⟧⟨484⟩⟦120⟧⟨485⟩⟦15⟧⟨486⟩⟦51⟧⟨487⟩⟦109⟧⟨488⟩⟦109⟧⟨489⟩
+
+[user]
+
+问题：
+The actor of Professor Sprout in "Harry Potter" acted as a mother in a sitcom. In that sitcom, what was the daughter's name?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

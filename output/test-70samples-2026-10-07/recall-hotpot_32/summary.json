@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_32",
+  "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+  "expectedAnswer": "Charles Eugène",
+  "predictedAnswer": "# 路径一：从飞机名称与飞行员对应关系切入\n\n步骤1：使用⟦107⟧，提取“L'Oiseau Blanc”这一名称，并综合⟦181⟧，确认其英文通称为“The White Bird”。\n\n步骤2：综合⟦270⟧⟦271⟧⟦272⟧⟦273⟧⟦274⟧⟦275⟧，提取关键信息：“was flown by French World War I”后接两个人物，分别为⟦56⟧（Charles Nungesser）和⟦85⟧（François Coli），且两者之间由⟦274⟧（and）连接。\n\n步骤3：综合⟦56⟧⟦85⟧，确认L'Oiseau Blanc的飞行员为Charles Nungesser和François Coli两人。问题问的是“French ace pilot and adventurer”，其中Nungesser是法国一战王牌飞行员（ace pilot），Coli是冒险家（adventurer），两者共同驾驶。\n\n结论：驾驶L'Oiseau Blanc的法国王牌飞行员和冒险家是Charles Nungesser（王牌飞行员）和François Coli（冒险家）。\n\n---\n\n# 路径二：从飞行任务与人物角色交叉验证\n\n步骤1：使用⟦262⟧，提取“that disappeared in 1927, during”，结合⟦35⟧⟦43⟧，确认L'Oiseau Blanc在1927年消失于一次尝试中。\n\n步骤2：综合⟦264⟧⟦265⟧⟦266⟧⟦267⟧，提取“to make ... between ... and ...”，结合⟦161⟧⟦120⟧⟦129⟧，确认这次尝试是“the first non-stop transatlantic flight between New York City and Paris”。\n\n步骤3：综合⟦270⟧⟦271⟧⟦272⟧⟦273⟧⟦274⟧⟦275⟧，提取飞行员信息为⟦56⟧（Charles Nungesser）和⟦85⟧（François Coli）。再综合⟦93⟧，确认两人被称为“heroes”。\n\n步骤4：综合⟦55⟧⟦283⟧⟦284⟧⟦285⟧⟦286⟧⟦287⟧⟦288⟧⟦289⟧，对比Charles Lindbergh在数周后成功完成同一旅程并赢得⟦136⟧（prize），反衬Nungesser和Coli是先驱但失踪的飞行员。\n\n结论：L'Oiseau Blanc由Charles Nungesser和François Coli驾驶，其中Nungesser是法国一战王牌飞行员，Coli是冒险家，两人共同尝试首次纽约至巴黎不停顿跨大西洋飞行。\n\n---\n\n# 路径三：从符号表直接定位人物身份\n\n步骤1：使用⟦56⟧，提取“Charles Nungesser”；使用⟦85⟧，提取“François Coli”。\n\n步骤2：综合⟦271⟧⟦272⟧⟦273⟧⟦274⟧⟦275⟧，确认“was flown by French World War I ... , ... and ...”结构，将⟦56⟧和⟦85⟧填入飞行员位置。\n\n步骤3：综合⟦93⟧，确认两人为“heroes”；综合⟦262⟧，确认飞机于1927年失踪。\n\n步骤4：问题要求“French ace pilot and adventurer”，其中Nungesser以一战王牌飞行员身份著称，Coli以冒险家身份著称，两者共同驾驶L'Oiseau Blanc。\n\n结论：Charles Nungesser（法国王牌飞行员）和François Coli（冒险家）共同驾驶了L'Oiseau Blanc。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦107⟧⟨255⟩⟦159⟧⟦203⟧⟨256⟩⟨257⟩⟦181⟧⟨258⟩⟦15⟧⟨259⟩⟦135⟧⟨260⟩",
+  "nounCount": 282,
+  "score": 0.5,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 4918,
+    "completion_tokens": 278,
+    "total_tokens": 5196,
+    "prompt_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "prompt_cache_hit_tokens": 4736,
+    "prompt_cache_miss_tokens": 182
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 802,
+    "total_tokens": 1881,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1079
+  }
+}

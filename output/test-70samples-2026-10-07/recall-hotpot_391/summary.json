@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_391",
+  "question": "Which cast member of Alice Upside Down also stars in the ABC Family/Freeform drama \"Switched at Birth?\"",
+  "expectedAnswer": "Lucas Stephen Grabeel",
+  "predictedAnswer": "# 路径一：从《Alice Upside Down》演员表出发\n\n步骤1：使用⟦29⟧，提取《Alice Upside Down》的演员信息，该片由⟦31⟧、⟦126⟧、⟦128⟧、⟦146⟧、⟦49⟧等人主演。\n\n步骤2：综合⟦126⟧⟦200⟧⟦106⟧⟦107⟧，Lucas Grabeel 是《Alice Upside Down》的演员之一，而 Constance Marie 从2011-2017年联合主演了 Freeform（原 ABC Family）剧集《Switched at Birth》。\n\n步骤3：综合⟦68⟧⟦69⟧⟦186⟧⟦153⟧，Constance Marie（全名 Constance Marie Lopez）在 ABC Family/Freeform 剧集《Switched at Birth》中饰演 Regina Vasquez。\n\n结论：Constance Marie 既是《Alice Upside Down》的演员，也是《Switched at Birth》的主演。\n\n# 路径二：从《Switched at Birth》演员表反向查找\n\n步骤1：使用⟦186⟧，提取《Switched at Birth》是 ABC Family/Freeform 的剧集。\n\n步骤2：综合⟦106⟧⟦107⟧⟦116⟧，Constance Marie 在该剧中饰演 Kathryn Kennish。\n\n步骤3：综合⟦68⟧⟦69⟧⟦29⟧，Constance Marie 也出演了《Alice Upside Down》。\n\n结论：Constance Marie 是同时出现在两部作品中的演员。\n\n# 路径三：交叉验证 Lea Thompson 与 Constance Marie\n\n步骤1：使用⟦120⟧，提取 Lea Thompson 的信息，她是一位电视导演和电视制片人。\n\n步骤2：综合⟦89⟧⟦106⟧⟦155⟧，Constance Marie 的影视角色包括在《Switched at Birth》中的角色。\n\n步骤3：综合⟦29⟧⟦68⟧，对比《Alice Upside Down》的演员名单，确认 Constance Marie 是同时参演两部作品的演员。\n\n结论：在《Alice Upside Down》的演员中，Constance Marie 是唯一同时主演《Switched at Birth》的成员。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦29⟧⟨1⟩⟦10⟧⟦66⟧⟨3⟩⟨4⟩⟨2⟩⟨5⟩⟦183⟧⟨6⟩⟨7⟩⟦147⟧",
+  "nounCount": 409,
+  "score": 0.6666666666666666,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6409,
+    "completion_tokens": 576,
+    "total_tokens": 6985,
+    "prompt_tokens_details": {
+      "cached_tokens": 6272
+    },
+    "prompt_cache_hit_tokens": 6272,
+    "prompt_cache_miss_tokens": 137
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1930,
+    "completion_tokens": 497,
+    "total_tokens": 2427,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1930
+  }
+}

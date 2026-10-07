@@ -1,0 +1,111 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[John le Carré] ⟦77⟧⟨41⟩⟦236⟧⟦178⟧⟨42⟩⟨43⟩⟨44⟩⟦16⟧⟨45⟩⟨46⟩⟦88⟧⟨47⟩⟨48⟩⟨49⟩
+[John le Carré] ⟦46⟧
+[The Deadly Affair] ⟦87⟧
+[Joseph Hone] ⟦132⟧⟨208⟩⟦92⟧⟨209⟩⟦45⟧⟨210⟩⟦40⟧⟦268⟧⟨211⟩⟨212⟩⟦248⟧⟨214⟩⟦157⟧⟨213⟩⟨215⟩
+[Joseph Hone] ⟦158⟧
+[Joseph Hone] ⟦197⟧
+[Hart Crane] ⟦105⟧⟨298⟩⟦134⟧⟨299⟩⟦41⟧⟨300⟩⟦36⟧⟦172⟧⟨301⟩⟨302⟩
+[Hart Crane] ⟨303⟩⟦54⟧⟦123⟧⟨304⟩⟨305⟩⟦177⟧⟦177⟧⟨306⟩⟨307⟩⟦235⟧⟨308⟩⟨309⟩⟦204⟧⟨310⟩⟨311⟩⟦154⟧⟦173⟧⟦173⟧⟨312⟩⟨313⟩⟦126⟧⟦185⟧⟨314⟩⟨315⟩
+[Hart Crane] ⟦74⟧
+[Bill Haydon] ⟦129⟧
+
+符号表：
+⟦16⟧ = a British author
+⟦36⟧ = an American poet
+⟦40⟧ = an Irish writer
+⟦41⟧ = April
+⟦45⟧ = August
+⟦46⟧ = author
+⟦54⟧ = both inspiration
+⟦74⟧ = Crane
+⟦77⟧ = David John Moore Cornwell
+⟦87⟧ = espionage
+⟦88⟧ = espionage novels
+⟦92⟧ = February
+⟦105⟧ = Harold Hart Crane
+⟦123⟧ = inspiration
+⟦126⟧ = its scope
+⟦129⟧ = John le Carré
+⟦132⟧ = Joseph Hone
+⟦134⟧ = July
+⟦154⟧ = modernist poetry
+⟦157⟧ = novel
+⟦158⟧ = novels
+⟦172⟧ = poet
+⟦173⟧ = poetry
+⟦177⟧ = provocation
+⟦178⟧ = pseudonym
+⟦185⟧ = scope
+⟦197⟧ = spy
+⟦204⟧ = T. S. Eliot
+⟦235⟧ = the poetry
+⟦236⟧ = the pseudonym
+⟦248⟧ = the spy novel
+⟦268⟧ = writer
+
+占位符映射：
+⟨41⟩ =  (born 19 October 1931), known by 
+⟨42⟩ = 
+⟨43⟩ =  
+⟨44⟩ =  ( ), is 
+⟨45⟩ = 
+⟨46⟩ =  of 
+⟨47⟩ = 
+⟨48⟩ = 
+⟨49⟩ = .
+⟨208⟩ =  (
+⟨209⟩ =  25, 1937 – 
+⟨210⟩ =  15, 2016) was 
+⟨211⟩ = 
+⟨212⟩ =  of 
+⟨213⟩ = 
+⟨214⟩ =  
+⟨215⟩ = .
+⟨298⟩ =  (
+⟨299⟩ =  21, 1899 – 
+⟨300⟩ =  27, 1932) was 
+⟨301⟩ = 
+⟨302⟩ = .
+⟨303⟩ =  Finding 
+⟨304⟩ = 
+⟨305⟩ =  and 
+⟨306⟩ = 
+⟨307⟩ =  in 
+⟨308⟩ = 
+⟨309⟩ =  of 
+⟨310⟩ = , 
+⟨311⟩ =  wrote 
+⟨312⟩ = 
+⟨313⟩ =  that was difficult, highly stylized, and ambitious in 
+⟨314⟩ = 
+⟨315⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which author found inspiration in their career prior to writing, Hart Crane or John le Carré?

@@ -1,0 +1,39 @@
+{
+  "qid": "hotpot_2189",
+  "question": "George Reed was, along with which Drake University player, one of the greatest running backs in CFL history?",
+  "expectedAnswer": "Johnny D. Bright",
+  "predictedAnswer": "# 路径一：直接链式抽取\n\n步骤1：使用⟦83⟧，提取主体为 George Robert Reed。  \n步骤2：综合⟦108⟧⟦95⟧，提取“along with”结构中的并列人选：Mike Pringle 和 Johnny Bright。  \n步骤3：结合⟦204⟧⟦54⟧，这些名字被描述为最常被提到是 CFL 历史上最伟大跑卫之一的球员；题干限定“Drake University player”，对应的是 Johnny Bright。  \n\n结论：Johnny Bright。\n\n# 路径二：候选排除\n\n步骤1：使用⟦108⟧，提取候选 Mike Pringle。  \n步骤2：使用⟦95⟧，提取候选 Johnny Bright。  \n步骤3：使用⟦83⟧⟦137⟧，确认 George Reed 是提问主体而非候选人；在并列候选中，Mike Pringle 不符合 Drake University 线索，Johnny Bright 符合。  \n\n结论：Johnny Bright。\n\n# 路径三：交叉验证\n\n步骤1：使用⟦83⟧⟦137⟧，确认 George Reed 的身份。  \n步骤2：综合⟦108⟧⟦95⟧，发现“along with”结构只列出 Mike Pringle 与 Johnny Bright。  \n步骤3：再综合⟦204⟧⟦54⟧，确认这些球员共同属于“CFL 历史最伟大跑卫”讨论；其中 Drake University 出身的球员是 Johnny Bright。  \n\n结论：Johnny Bright。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦83⟧⟨Ƽ⟩⟦57⟧⟨ƽ⟩⟦152⟧⟨ƾ⟩⟦15⟧⟦59⟧⟨ǀ⟩⟦78⟧⟨ƿ⟩⟨ǁ⟩",
+  "nounCount": 381,
+  "score": 0.6666666666666666,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": true
+  },
+  "recallUsage": {
+    "prompt_tokens": 4620,
+    "completion_tokens": 185,
+    "total_tokens": 4805,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 4620
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 664,
+    "completion_tokens": 4658,
+    "total_tokens": 5322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4328
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 664
+  }
+}

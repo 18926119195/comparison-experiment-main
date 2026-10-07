@@ -1,0 +1,81 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Minnesota House of Representatives] ⟨280⟩⟨281⟩⟦102⟧⟨282⟩⟨283⟩⟦214⟧⟨284⟩⟦242⟧⟨285⟩⟨286⟩⟦124⟧⟨287⟩
+[Minnesota House of Representatives] ⟦73⟧⟦175⟧⟨292⟩⟨293⟩⟦222⟧⟦260⟧⟨294⟩⟨295⟩⟦236⟧⟨296⟩⟦166⟧⟨297⟩
+[Phyllis Kahn] ⟦143⟧⟨298⟩⟦16⟧⟨299⟩⟨300⟩⟦75⟧⟨301⟩⟨302⟩⟦219⟧⟨303⟩⟨304⟩ | ⟦219⟧
+[Hideo Hiraoka] ⟦147⟧⟦119⟧
+[Hideo Hiraoka] ⟦159⟧ | ⟦159⟧
+[Hideo Hiraoka] ⟦216⟧
+[Hideo Hiraoka] ⟦178⟧
+
+符号表：
+⟦16⟧ = a Minnesota politician
+⟦73⟧ = Floor sessions
+⟦75⟧ = former member
+⟦102⟧ = house
+⟦119⟧ = member
+⟦124⟧ = Minnesota
+⟦143⟧ = Phyllis Lorberblatt Kahn
+⟦147⟧ = politician
+⟦159⟧ = Representatives
+⟦166⟧ = Saint Paul
+⟦175⟧ = sessions
+⟦178⟧ = state
+⟦214⟧ = the legislature
+⟦216⟧ = the lower house
+⟦219⟧ = The Minnesota House
+⟦222⟧ = the north wing
+⟦236⟧ = the State Capitol
+⟦242⟧ = the U.S. state
+⟦260⟧ = wing
+
+占位符映射：
+⟨280⟩ =  of 
+⟨281⟩ =  is 
+⟨282⟩ = 
+⟨283⟩ =  of 
+⟨284⟩ =  of 
+⟨285⟩ = 
+⟨286⟩ =  of 
+⟨287⟩ = .
+⟨292⟩ = 
+⟨293⟩ =  are held in 
+⟨294⟩ = 
+⟨295⟩ =  of 
+⟨296⟩ =  in 
+⟨297⟩ = .
+⟨298⟩ =  (born March 23, 1937) is 
+⟨299⟩ = 
+⟨300⟩ =  and 
+⟨301⟩ = 
+⟨302⟩ =  of 
+⟨303⟩ =  of 
+⟨304⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Phyllis Kohn holds a seat in the House of Representatives which meets where?

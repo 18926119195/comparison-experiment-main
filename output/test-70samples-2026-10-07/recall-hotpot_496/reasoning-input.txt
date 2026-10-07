@@ -1,0 +1,104 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Anthony Avent] ⟦43⟧⟨1⟩⟦24⟧⟨3⟩⟨2⟩⟨4⟩⟦264⟧⟨5⟩⟦274⟧⟨7⟩⟨6⟩⟨8⟩⟦256⟧⟨9⟩ | ⟦43⟧ | ⟦43⟧ | ⟦43⟧
+[Anthony Avent] ⟨10⟩⟦226⟧⟨11⟩⟦188⟧⟨12⟩⟨13⟩⟦286⟧⟨14⟩⟦196⟧⟨15⟩⟦330⟧⟨16⟩⟦326⟧⟨17⟩⟦166⟧⟨18⟩⟦241⟧⟨19⟩⟨20⟩
+[Anthony Avent] ⟨21⟩⟦236⟧⟨22⟩⟦255⟧⟨24⟩⟨23⟩⟨25⟩
+[Anthony Avent] ⟦53⟧ | ⟨26⟩⟦235⟧⟨27⟩⟦53⟧⟨28⟩⟦168⟧⟨29⟩⟨30⟩⟨31⟩
+[Weldon Drew] ⟦71⟧
+[Weldon Drew] ⟦233⟧
+[Newark, New Jersey] ⟦181⟧
+[Newark, New Jersey] ⟦184⟧
+[Larry Friend] ⟦203⟧⟦227⟧
+[Larry Friend] ⟦115⟧
+[Jeff Horner] ⟦206⟧
+[Jeff Horner] ⟦57⟧
+
+符号表：
+⟦24⟧ = a retired American professional basketball player
+⟦43⟧ = Anthony Avent
+⟦53⟧ = Avent
+⟦57⟧ = basketball
+⟦71⟧ = championship
+⟦115⟧ = game
+⟦166⟧ = Los Angeles Clippers
+⟦168⟧ = Malcolm X Shabazz High School
+⟦181⟧ = New Jersey
+⟦184⟧ = Newark
+⟦188⟧ = North Carolina
+⟦196⟧ = Orlando Magic
+⟦203⟧ = pick
+⟦206⟧ = player
+⟦226⟧ = Rocky Mount
+⟦227⟧ = round
+⟦233⟧ = seasons
+⟦235⟧ = Seton Hall
+⟦236⟧ = Seton Hall University
+⟦241⟧ = six NBA seasons
+⟦255⟧ = the 1989 NCAA championship game
+⟦256⟧ = the 1991 NBA Draft
+⟦264⟧ = the Atlanta Hawks
+⟦274⟧ = the first round (15th pick
+⟦286⟧ = the Milwaukee Bucks
+⟦326⟧ = Utah Jazz
+⟦330⟧ = Vancouver Grizzlies
+
+占位符映射：
+⟨1⟩ =  (born October 18, 1969) is 
+⟨2⟩ = 
+⟨3⟩ =  
+⟨4⟩ =  who was selected by 
+⟨5⟩ =  in 
+⟨6⟩ = 
+⟨7⟩ =  (15th 
+⟨8⟩ =  overall) of 
+⟨9⟩ = .
+⟨10⟩ =  Born in 
+⟨11⟩ = , 
+⟨12⟩ = , 
+⟨13⟩ =  played for 
+⟨14⟩ = , 
+⟨15⟩ = , 
+⟨16⟩ = , 
+⟨17⟩ =  and 
+⟨18⟩ =  in 
+⟨19⟩ = 
+⟨20⟩ = .
+⟨21⟩ =  He played collegiately at 
+⟨22⟩ =  where he played in 
+⟨23⟩ = 
+⟨24⟩ =  
+⟨25⟩ = .
+⟨26⟩ =  Prior to 
+⟨27⟩ = , 
+⟨28⟩ =  played at 
+⟨29⟩ =  in 
+⟨30⟩ = , 
+⟨31⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Anthony Avent played basketball fo a High School that is located in a city approcimately 8 mi west of where?

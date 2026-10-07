@@ -1,0 +1,409 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = -May
+⟦2⟧ = "Chemistry
+⟦3⟧ = 15 students
+⟦4⟧ = 1810s
+⟦5⟧ = 1930s
+⟦6⟧ = a career
+⟦7⟧ = a career college football coaching record
+⟦8⟧ = a coach
+⟦9⟧ = a colonist
+⟦10⟧ = a few children's books
+⟦11⟧ = a Guggenheim Fellowship
+⟦12⟧ = a historian
+⟦13⟧ = a house
+⟦14⟧ = a large number
+⟦15⟧ = a measure
+⟦16⟧ = a monograph
+⟦17⟧ = a named professorship
+⟦18⟧ = a philosopher
+⟦19⟧ = a private liberal arts college
+⟦20⟧ = a private research university
+⟦21⟧ = a prize
+⟦22⟧ = a professor
+⟦23⟧ = a reserve foreign service officer
+⟦24⟧ = a second lieutenant
+⟦25⟧ = a textbook author
+⟦26⟧ = a trustee
+⟦27⟧ = a two-sport athlete
+⟦28⟧ = account
+⟦29⟧ = activity
+⟦30⟧ = age
+⟦31⟧ = America's Top Colleges
+⟦32⟧ = Amherst
+⟦33⟧ = Amherst College
+⟦34⟧ = an African-American lawyer
+⟦35⟧ = an American Congregational clergyman
+⟦36⟧ = an American football player
+⟦37⟧ = an emeritus professor
+⟦38⟧ = An engine
+⟦39⟧ = April
+⟦40⟧ = architecture
+⟦41⟧ = area
+⟦42⟧ = art
+⟦43⟧ = arts
+⟦44⟧ = Asia
+⟦45⟧ = assistant
+⟦46⟧ = assistant and then associate professor
+⟦47⟧ = assistant military attaché
+⟦48⟧ = assistant state attorney
+⟦49⟧ = athlete
+⟦50⟧ = attaché
+⟦51⟧ = attorney
+⟦52⟧ = author
+⟦53⟧ = Birdsall
+⟦54⟧ = Bonn
+⟦55⟧ = books
+⟦56⟧ = Brian Lukacher
+⟦57⟧ = business
+⟦58⟧ = California
+⟦59⟧ = campus
+⟦60⟧ = career
+⟦61⟧ = century
+⟦62⟧ = Charles Howard McIlwain
+⟦63⟧ = Chemistry
+⟦64⟧ = Chicago
+⟦65⟧ = children
+⟦66⟧ = Christiansted
+⟦67⟧ = clergyman
+⟦68⟧ = coach
+⟦69⟧ = coaching
+⟦70⟧ = Colgate University
+⟦71⟧ = college
+⟦72⟧ = colleges
+⟦73⟧ = colonist
+⟦74⟧ = Columbia University
+⟦75⟧ = Cook County
+⟦76⟧ = critic
+⟦77⟧ = cultural critic
+⟦78⟧ = Dartmouth College
+⟦79⟧ = Dartmouth's Blunt Alumni Center
+⟦80⟧ = day
+⟦81⟧ = Dean
+⟦82⟧ = death
+⟦83⟧ = decades
+⟦84⟧ = degree
+⟦85⟧ = Delaware
+⟦86⟧ = department
+⟦87⟧ = departure
+⟦88⟧ = derision
+⟦89⟧ = diplomat
+⟦90⟧ = doctorate
+⟦91⟧ = Dülken
+⟦92⟧ = economic activity
+⟦93⟧ = economics
+⟦94⟧ = economy
+⟦95⟧ = edition
+⟦96⟧ = educator
+⟦97⟧ = Edward Everett Wilson
+⟦98⟧ = eight years
+⟦99⟧ = engine
+⟦100⟧ = Ephraim Williams
+⟦101⟧ = estate
+⟦102⟧ = esthetic philosophy
+⟦103⟧ = European history
+⟦104⟧ = European military or strategic history
+⟦105⟧ = faculty
+⟦106⟧ = Fame
+⟦107⟧ = February
+⟦108⟧ = field
+⟦109⟧ = football
+⟦110⟧ = foundation
+⟦111⟧ = France
+⟦112⟧ = Frank J. "Buck" O'Neill
+⟦113⟧ = funds
+⟦114⟧ = Gatzke
+⟦115⟧ = German foreign policy
+⟦116⟧ = Germany
+⟦117⟧ = government
+⟦118⟧ = government service
+⟦119⟧ = Hanover
+⟦120⟧ = Hans Wilhelm Gatzke
+⟦121⟧ = Harvard University
+⟦122⟧ = head
+⟦123⟧ = head football coach
+⟦124⟧ = Heman Humphrey
+⟦125⟧ = his B.Sc
+⟦126⟧ = his death
+⟦127⟧ = his degree
+⟦128⟧ = His departure
+⟦129⟧ = his doctorate
+⟦130⟧ = his honor
+⟦131⟧ = His involvement
+⟦132⟧ = his M.A.
+⟦133⟧ = His most popular textbook
+⟦134⟧ = his PhD
+⟦135⟧ = his postdoctoral research
+⟦136⟧ = His research interests
+⟦137⟧ = his retirement
+⟦138⟧ = his time
+⟦139⟧ = historian
+⟦140⟧ = history
+⟦141⟧ = Hong Kong
+⟦142⟧ = honor
+⟦143⟧ = honors
+⟦144⟧ = house
+⟦145⟧ = Howard University
+⟦146⟧ = Hudson
+⟦147⟧ = Hunter College
+⟦148⟧ = Illinois
+⟦149⟧ = influence
+⟦150⟧ = institutions
+⟦151⟧ = interests
+⟦152⟧ = involvement
+⟦153⟧ = its location
+⟦154⟧ = January
+⟦155⟧ = Johns Hopkins University
+⟦156⟧ = Joseph Gandy
+⟦157⟧ = June
+⟦158⟧ = Laws
+⟦159⟧ = lawyer
+⟦160⟧ = leaders
+⟦161⟧ = liberal art colleges
+⟦162⟧ = library
+⟦163⟧ = lieutenant
+⟦164⟧ = location
+⟦165⟧ = London
+⟦166⟧ = Los Angeles
+⟦167⟧ = Lukacher
+⟦168⟧ = magazine
+⟦169⟧ = March
+⟦170⟧ = Mark C. Taylor
+⟦171⟧ = Massachusetts
+⟦172⟧ = Massachusetts Bay
+⟦173⟧ = measure
+⟦174⟧ = media
+⟦175⟧ = Modern European History
+⟦176⟧ = monograph
+⟦177⟧ = Moore
+⟦178⟧ = more than twenty books
+⟦179⟧ = Munich
+⟦180⟧ = New Hampshire
+⟦181⟧ = New York
+⟦182⟧ = nineteenth-century British art
+⟦183⟧ = November
+⟦184⟧ = number
+⟦185⟧ = Oberlin College
+⟦186⟧ = obituaries
+⟦187⟧ = officer
+⟦188⟧ = order
+⟦189⟧ = Paris
+⟦190⟧ = Paul M. Birdsall
+⟦191⟧ = Ph.D.
+⟦192⟧ = PhD
+⟦193⟧ = philosopher
+⟦194⟧ = philosophy
+⟦195⟧ = player
+⟦196⟧ = policy
+⟦197⟧ = portions
+⟦198⟧ = post
+⟦199⟧ = present
+⟦200⟧ = prize
+⟦201⟧ = professionals
+⟦202⟧ = professor
+⟦203⟧ = Professor Chang
+⟦204⟧ = professorship
+⟦205⟧ = ranking
+⟦206⟧ = Raymond Chang
+⟦207⟧ = recent decades
+⟦208⟧ = record
+⟦209⟧ = region
+⟦210⟧ = relationships
+⟦211⟧ = religion
+⟦212⟧ = research
+⟦213⟧ = research and cultural institutions
+⟦214⟧ = reserve
+⟦215⟧ = retirement
+⟦216⟧ = rivalry
+⟦217⟧ = Samuel H. Kress Fellowship
+⟦218⟧ = SC
+⟦219⟧ = sciences
+⟦220⟧ = service
+⟦221⟧ = society
+⟦222⟧ = Southern California
+⟦223⟧ = sport
+⟦224⟧ = St. Louis
+⟦225⟧ = St. Paul's School
+⟦226⟧ = state
+⟦227⟧ = Stockholm
+⟦228⟧ = Strategic Services
+⟦229⟧ = Students
+⟦230⟧ = study
+⟦231⟧ = Taylor
+⟦232⟧ = technology
+⟦233⟧ = Texas
+⟦234⟧ = textbook
+⟦235⟧ = Thames
+⟦236⟧ = that honor
+⟦237⟧ = the "U.S. News & World Report"' s liberal arts
+⟦238⟧ = the 15th consecutive year
+⟦239⟧ = the 2017 "Forbes" magazine ranking
+⟦240⟧ = the age
+⟦241⟧ = the American Historical Association
+⟦242⟧ = the annual Soane Lecture
+⟦243⟧ = the architecture
+⟦244⟧ = the best work
+⟦245⟧ = the Brookings Institution
+⟦246⟧ = the Central Intelligence Agency
+⟦247⟧ = the Chester A. Dale
+⟦248⟧ = the City University
+⟦249⟧ = The college
+⟦250⟧ = the College Football Hall
+⟦251⟧ = the department
+⟦252⟧ = the early 1810s
+⟦253⟧ = the economy
+⟦254⟧ = the estate
+⟦255⟧ = the faculty
+⟦256⟧ = the field
+⟦257⟧ = the first African Americans
+⟦258⟧ = the first President
+⟦259⟧ = the foundation
+⟦260⟧ = the French and Indian War
+⟦261⟧ = the Hans W. Gatzke '38 Professor
+⟦262⟧ = the influence
+⟦263⟧ = the intense Williams-Amherst rivalry
+⟦264⟧ = the late 1930s
+⟦265⟧ = the Los Angeles metropolitan area
+⟦266⟧ = the National Gallery
+⟦267⟧ = the natural sciences
+⟦268⟧ = the Office
+⟦269⟧ = the oldest private research university
+⟦270⟧ = the Pacific Rim
+⟦271⟧ = the Phi Beta Kappa honorary society
+⟦272⟧ = the post
+⟦273⟧ = the present
+⟦274⟧ = the President
+⟦275⟧ = the Province
+⟦276⟧ = the region's business leaders
+⟦277⟧ = the social history
+⟦278⟧ = the study
+⟦279⟧ = the twelfth edition
+⟦280⟧ = the U.S. Embassy
+⟦281⟧ = the United States Army
+⟦282⟧ = the University
+⟦283⟧ = the Williams campus
+⟦284⟧ = the Williams College library
+⟦285⟧ = theology
+⟦286⟧ = this account
+⟦287⟧ = this day
+⟦288⟧ = time
+⟦289⟧ = track
+⟦290⟧ = trustee
+⟦291⟧ = United States
+⟦292⟧ = United States Virgin Islands
+⟦293⟧ = university
+⟦294⟧ = USC
+⟦295⟧ = vacation
+⟦296⟧ = Vassar College
+⟦297⟧ = Washington
+⟦298⟧ = Washington University
+⟦299⟧ = Wesleyan University
+⟦300⟧ = which time
+⟦301⟧ = Williams
+⟦302⟧ = Williams College
+⟦303⟧ = Williams College President Harry C. Payne
+⟦304⟧ = Williamstown
+⟦305⟧ = Wilson
+⟦306⟧ = work
+⟦307⟧ = World War
+⟦308⟧ = World War I.
+⟦309⟧ = World War II
+⟦310⟧ = Yale University
+⟦311⟧ = year
+⟦312⟧ = years
+⟦313⟧ = Zephaniah Swift Moore
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Paul M. Birdsall] ⟦190⟧⟨1⟩
+[Paul M. Birdsall] ⟦1⟧⟨2⟩⟦1⟧⟨3⟩⟦12⟧⟨4⟩⟦139⟧⟨5⟩⟦89⟧⟨6⟩⟦89⟧⟨7⟩
+[Paul M. Birdsall] ⟨8⟩⟦23⟧⟨9⟩⟦214⟧⟨10⟩⟦220⟧⟨11⟩⟦187⟧⟨12⟩⟦189⟧⟨13⟩⟦280⟧⟨14⟩⟦227⟧⟨15⟩
+[Paul M. Birdsall] ⟨16⟩⟦186⟧⟨17⟩⟦186⟧⟨18⟩⟦246⟧⟨19⟩
+[Paul M. Birdsall] ⟦53⟧⟨20⟩⟦240⟧⟨21⟩⟦30⟧⟨22⟩⟦66⟧⟨23⟩⟦292⟧⟨24⟩⟦215⟧⟨25⟩⟦215⟧⟨26⟩⟦98⟧⟨27⟩⟦312⟧⟨28⟩
+[Paul M. Birdsall] ⟨29⟩⟦225⟧⟨30⟩⟦129⟧⟨31⟩⟦90⟧⟨32⟩⟦121⟧⟨33⟩⟦262⟧⟨34⟩⟦149⟧⟨35⟩⟦62⟧⟨36⟩
+[Paul M. Birdsall] ⟨37⟩⟦103⟧⟨38⟩⟦140⟧⟨39⟩⟦302⟧⟨40⟩⟦45⟧⟨41⟩⟦46⟧⟨42⟩⟦202⟧⟨43⟩
+[Paul M. Birdsall] ⟨44⟩⟦81⟧⟨45⟩⟦229⟧⟨46⟩⟦302⟧⟨47⟩
+[Paul M. Birdsall] ⟨48⟩⟦26⟧⟨49⟩⟦290⟧⟨50⟩⟦296⟧⟨51⟩
+[Paul M. Birdsall] ⟨52⟩⟦6⟧⟨53⟩⟦60⟧⟨54⟩⟦117⟧⟨55⟩⟦118⟧⟨56⟩⟦220⟧⟨57⟩
+[Paul M. Birdsall] ⟨58⟩⟦307⟧⟨59⟩⟦268⟧⟨60⟩⟦228⟧⟨61⟩
+[Paul M. Birdsall] ⟨62⟩⟦47⟧⟨63⟩⟦50⟧⟨64⟩⟦280⟧⟨65⟩⟦189⟧⟨66⟩
+[Paul M. Birdsall] ⟨67⟩⟦245⟧⟨68⟩
+[Hans W. Gatzke] ⟦120⟧⟨69⟩⟦12⟧⟨70⟩⟦139⟧⟨71⟩⟦115⟧⟨72⟩⟦196⟧⟨73⟩⟦308⟧
+[Hans W. Gatzke] ⟨74⟩⟦91⟧⟨75⟩⟦116⟧⟨76⟩⟦282⟧⟨77⟩⟦54⟧⟨78⟩⟦282⟧⟨79⟩⟦179⟧⟨80⟩⟦302⟧⟨81⟩
+[Hans W. Gatzke] ⟨82⟩⟦281⟧⟨83⟩⟦309⟧⟨84⟩⟦24⟧⟨85⟩⟦163⟧⟨86⟩⟦132⟧⟨87⟩
+[Hans W. Gatzke] ⟨88⟩⟦121⟧⟨89⟩
+[Hans W. Gatzke] ⟨90⟩⟦155⟧⟨91⟩⟦300⟧⟨92⟩⟦288⟧⟨93⟩⟦11⟧⟨94⟩
+[Hans W. Gatzke] ⟨95⟩⟦251⟧⟨96⟩⟦86⟧⟨97⟩⟦140⟧⟨98⟩⟦140⟧⟨99⟩⟦310⟧⟨100⟩⟦137⟧⟨101⟩⟦215⟧⟨102⟩
+[Hans W. Gatzke] ⟦114⟧⟨103⟩⟦21⟧⟨104⟩⟦200⟧⟨105⟩⟦241⟧⟨106⟩⟦142⟧⟨107⟩⟦142⟧⟨108⟩⟦190⟧⟨109⟩⟦81⟧⟨110⟩⟦229⟧⟨111⟩⟦301⟧⟨112⟩⟦114⟧⟨113⟩⟦264⟧⟨114⟩⟦5⟧⟨115⟩⟦244⟧⟨116⟩⟦306⟧⟨117⟩⟦256⟧⟨118⟩⟦108⟧⟨119⟩⟦104⟧⟨120⟩⟦140⟧⟨121⟩
+[Hans W. Gatzke] ⟨122⟩⟦131⟧⟨123⟩⟦152⟧⟨124⟩⟦126⟧⟨125⟩⟦82⟧⟨126⟩
+[Hans W. Gatzke] ⟨127⟩⟦17⟧⟨128⟩⟦204⟧⟨129⟩⟦130⟧⟨130⟩⟦142⟧⟨131⟩⟦261⟧⟨132⟩⟦175⟧⟨133⟩⟦140⟧⟨134⟩⟦302⟧⟨135⟩
+[Edward E. Wilson] ⟦97⟧⟨136⟩⟦34⟧⟨137⟩⟦159⟧⟨138⟩⟦233⟧⟨139⟩⟦154⟧⟨140⟩
+[Edward E. Wilson] ⟨141⟩⟦185⟧⟨142⟩⟦302⟧⟨143⟩
+[Edward E. Wilson] ⟨144⟩⟦127⟧⟨145⟩⟦84⟧⟨146⟩⟦143⟧⟨147⟩⟦143⟧⟨148⟩⟦302⟧⟨149⟩
+[Edward E. Wilson] ⟦305⟧⟨150⟩⟦271⟧⟨151⟩⟦221⟧⟨152⟩⟦257⟧⟨153⟩⟦236⟧⟨154⟩⟦142⟧⟨155⟩
+[Edward E. Wilson] ⟨156⟩⟦158⟧⟨157⟩⟦84⟧⟨158⟩⟦145⟧⟨159⟩
+[Edward E. Wilson] ⟨160⟩⟦64⟧⟨161⟩⟦272⟧⟨162⟩⟦198⟧⟨163⟩⟦48⟧⟨164⟩⟦226⟧⟨165⟩⟦51⟧⟨166⟩⟦75⟧⟨167⟩⟦148⟧⟨168⟩⟦137⟧⟨169⟩⟦215⟧⟨170⟩
+[Edward E. Wilson] ⟦305⟧⟨171⟩⟦111⟧⟨172⟩⟦295⟧⟨173⟩⟦295⟧⟨174⟩⟦107⟧⟨175⟩
+[Brian Lukacher] ⟦56⟧⟨176⟩⟦202⟧⟨177⟩⟦202⟧⟨178⟩⟦42⟧⟨179⟩⟦42⟧⟨180⟩⟦296⟧⟨181⟩
+[Brian Lukacher] ⟦167⟧⟨182⟩⟦132⟧⟨183⟩⟦302⟧⟨184⟩⟦134⟧⟨185⟩⟦192⟧⟨186⟩⟦282⟧⟨187⟩⟦85⟧⟨188⟩
+[Brian Lukacher] ⟨189⟩⟦138⟧⟨190⟩⟦288⟧⟨191⟩⟦302⟧⟨192⟩⟦167⟧⟨193⟩⟦247⟧⟨194⟩⟦217⟧⟨195⟩⟦266⟧⟨196⟩⟦42⟧⟨197⟩⟦297⟧⟨198⟩⟦136⟧⟨199⟩⟦212⟧⟨200⟩⟦151⟧⟨201⟩⟦277⟧⟨202⟩⟦140⟧⟨203⟩⟦102⟧⟨204⟩⟦194⟧⟨205⟩⟦182⟧⟨206⟩⟦61⟧⟨207⟩⟦42⟧⟨208⟩⟦40⟧⟨209⟩⟦40⟧⟨210⟩
+[Brian Lukacher] ⟦167⟧⟨211⟩⟦134⟧⟨212⟩⟦192⟧⟨213⟩⟦243⟧⟨214⟩⟦40⟧⟨215⟩⟦156⟧⟨216⟩⟦16⟧⟨217⟩⟦176⟧⟨218⟩⟦235⟧⟨219⟩⟦146⟧⟨220⟩
+[Brian Lukacher] ⟨221⟩⟦242⟧⟨222⟩⟦156⟧⟨223⟩
+[Mark C. Taylor] ⟦170⟧⟨224⟩⟦18⟧⟨225⟩⟦193⟧⟨226⟩⟦211⟧⟨227⟩⟦211⟧⟨228⟩⟦77⟧⟨229⟩⟦76⟧⟨230⟩⟦178⟧⟨231⟩⟦55⟧⟨232⟩⟦285⟧⟨233⟩⟦285⟧⟨234⟩⟦194⟧⟨235⟩⟦194⟧⟨236⟩⟦42⟧⟨237⟩⟦42⟧⟨238⟩⟦40⟧⟨239⟩⟦40⟧⟨240⟩⟦174⟧⟨241⟩⟦174⟧⟨242⟩⟦232⟧⟨243⟩⟦232⟧⟨244⟩⟦93⟧⟨245⟩⟦93⟧⟨246⟩⟦267⟧⟨247⟩⟦219⟧⟨248⟩
+[Mark C. Taylor] ⟨249⟩⟦299⟧⟨250⟩⟦129⟧⟨251⟩⟦90⟧⟨252⟩⟦278⟧⟨253⟩⟦230⟧⟨254⟩⟦211⟧⟨255⟩⟦211⟧⟨256⟩⟦121⟧⟨257⟩⟦302⟧⟨258⟩
+[Mark C. Taylor] ⟨259⟩⟦231⟧⟨260⟩⟦302⟧⟨261⟩⟦74⟧⟨262⟩⟦251⟧⟨263⟩⟦211⟧⟨264⟩
+[Raymond Chang (chemist)] ⟦206⟧⟨265⟩⟦37⟧⟨266⟩⟦202⟧⟨267⟩⟦302⟧⟨268⟩⟦251⟧⟨269⟩⟦63⟧⟨270⟩⟦25⟧⟨271⟩⟦234⟧⟨272⟩⟦52⟧⟨273⟩
+[Raymond Chang (chemist)] ⟦133⟧⟨274⟩⟦234⟧⟨275⟩⟦2⟧⟨276⟩⟦279⟧⟨277⟩⟦95⟧⟨278⟩
+[Raymond Chang (chemist)] ⟨279⟩⟦10⟧⟨280⟩⟦65⟧⟨281⟩⟦55⟧⟨282⟩
+[Raymond Chang (chemist)] ⟨283⟩⟦125⟧⟨284⟩
+[Raymond Chang (chemist)] ⟨285⟩⟦282⟧⟨286⟩⟦165⟧⟨287⟩⟦191⟧⟨288⟩⟦191⟧
+[Raymond Chang (chemist)] ⟨289⟩⟦310⟧⟨290⟩
+[Raymond Chang (chemist)] ⟦203⟧⟨291⟩⟦141⟧⟨292⟩
+[Raymond Chang (chemist)] ⟨293⟩⟦135⟧⟨294⟩⟦212⟧⟨295⟩⟦298⟧⟨296⟩⟦224⟧⟨297⟩⟦22⟧⟨298⟩⟦202⟧⟨299⟩⟦147⟧⟨300⟩⟦248⟧⟨301⟩⟦181⟧⟨302⟩⟦255⟧⟨303⟩⟦105⟧⟨304⟩⟦302⟧⟨305⟩
+[University of Southern California] ⟦282⟧⟨306⟩⟦222⟧⟨307⟩⟦294⟧⟨308⟩⟦218⟧⟨309⟩⟦20⟧⟨310⟩⟦212⟧⟨311⟩⟦293⟧⟨312⟩⟦166⟧⟨313⟩⟦58⟧⟨314⟩
+[University of Southern California] ⟨315⟩⟦269⟧⟨316⟩⟦212⟧⟨317⟩⟦293⟧⟨318⟩⟦58⟧⟨319⟩
+[University of Southern California] ⟦294⟧⟨320⟩⟦14⟧⟨321⟩⟦184⟧⟨322⟩⟦276⟧⟨323⟩⟦209⟧⟨324⟩⟦57⟧⟨325⟩⟦160⟧⟨326⟩⟦201⟧⟨327⟩⟦201⟧⟨328⟩
+[University of Southern California] ⟨329⟩⟦207⟧⟨330⟩⟦83⟧⟨331⟩⟦282⟧⟨332⟩⟦293⟧⟨333⟩⟦153⟧⟨334⟩⟦164⟧⟨335⟩⟦166⟧⟨336⟩⟦210⟧⟨337⟩⟦210⟧⟨338⟩⟦212⟧⟨339⟩⟦213⟧⟨340⟩⟦150⟧⟨341⟩⟦44⟧⟨342⟩⟦270⟧⟨343⟩
+[University of Southern California] ⟦38⟧⟨344⟩⟦99⟧⟨345⟩⟦92⟧⟨346⟩⟦29⟧⟨347⟩⟦294⟧⟨348⟩⟦253⟧⟨349⟩⟦94⟧⟨350⟩⟦265⟧⟨351⟩⟦41⟧⟨352⟩⟦58⟧⟨353⟩
+[Williams College] ⟦302⟧⟨354⟩⟦19⟧⟨355⟩⟦43⟧⟨356⟩⟦71⟧⟨357⟩⟦304⟧⟨358⟩⟦171⟧⟨359⟩⟦291⟧⟨360⟩
+[Williams College] ⟨361⟩⟦113⟧⟨362⟩⟦113⟧⟨363⟩⟦254⟧⟨364⟩⟦101⟧⟨365⟩⟦100⟧⟨366⟩⟦9⟧⟨367⟩⟦73⟧⟨368⟩⟦275⟧⟨369⟩⟦172⟧⟨370⟩⟦260⟧⟨371⟩
+[Williams College] ⟦249⟧⟨372⟩⟦71⟧⟨373⟩⟦237⟧⟨374⟩⟦43⟧⟨375⟩⟦238⟧⟨376⟩⟦311⟧⟨377⟩⟦161⟧⟨378⟩⟦42⟧⟨379⟩⟦72⟧⟨380⟩⟦239⟧⟨381⟩⟦168⟧⟨382⟩⟦205⟧⟨383⟩⟦31⟧⟨384⟩
+[Frank &quot;Buck&quot; O'Neill] ⟦112⟧⟨385⟩⟦169⟧⟨386⟩⟦39⟧⟨387⟩⟦36⟧⟨388⟩⟦109⟧⟨389⟩⟦195⟧⟨390⟩⟦68⟧⟨391⟩⟦68⟧⟨392⟩
+[Frank &quot;Buck&quot; O'Neill] ⟨393⟩⟦122⟧⟨394⟩⟦123⟧⟨395⟩⟦109⟧⟨396⟩⟦68⟧⟨397⟩⟦70⟧⟨398⟩⟦7⟧⟨399⟩⟦60⟧⟨400⟩⟦71⟧⟨401⟩⟦109⟧⟨402⟩⟦69⟧⟨403⟩⟦208⟧⟨404⟩
+[Frank &quot;Buck&quot; O'Neill] ⟨405⟩⟦27⟧⟨406⟩⟦223⟧⟨407⟩⟦49⟧⟨408⟩⟦302⟧⟨409⟩⟦109⟧⟨410⟩⟦109⟧⟨411⟩⟦289⟧⟨412⟩⟦289⟧⟨413⟩
+[Frank &quot;Buck&quot; O'Neill] ⟨414⟩⟦250⟧⟨415⟩⟦106⟧⟨416⟩⟦8⟧⟨417⟩⟦68⟧⟨418⟩
+[Zephaniah Swift Moore] ⟦313⟧⟨419⟩⟦183⟧⟨420⟩⟦157⟧⟨421⟩⟦35⟧⟨422⟩⟦67⟧⟨423⟩⟦96⟧⟨424⟩⟦96⟧⟨425⟩
+[Zephaniah Swift Moore] ⟨426⟩⟦78⟧⟨427⟩⟦252⟧⟨428⟩⟦4⟧⟨429⟩⟦13⟧⟨430⟩⟦144⟧⟨431⟩⟦119⟧⟨432⟩⟦180⟧⟨433⟩⟦79⟧⟨434⟩
+[Zephaniah Swift Moore] ⟨435⟩⟦274⟧⟨436⟩⟦302⟧⟨437⟩⟦258⟧⟨438⟩⟦33⟧⟨439⟩
+[Zephaniah Swift Moore] ⟨440⟩⟦301⟧⟨441⟩⟦188⟧⟨442⟩⟦188⟧⟨443⟩⟦255⟧⟨444⟩⟦105⟧⟨445⟩⟦3⟧⟨446⟩⟦229⟧⟨447⟩
+[Zephaniah Swift Moore] ⟨448⟩⟦197⟧⟨449⟩⟦197⟧⟨450⟩⟦284⟧⟨451⟩⟦162⟧⟨452⟩
+[Zephaniah Swift Moore] ⟨453⟩⟦286⟧⟨454⟩⟦28⟧⟨455⟩⟦303⟧⟨456⟩
+[Zephaniah Swift Moore] ⟦177⟧⟨457⟩⟦312⟧⟨458⟩⟦32⟧⟨459⟩⟦124⟧⟨460⟩⟦26⟧⟨461⟩⟦290⟧⟨462⟩⟦302⟧⟨463⟩
+[Zephaniah Swift Moore] ⟦128⟧⟨464⟩⟦87⟧⟨465⟩⟦301⟧⟨466⟩⟦259⟧⟨467⟩⟦110⟧⟨468⟩⟦263⟧⟨469⟩⟦216⟧⟨470⟩⟦273⟧⟨471⟩⟦199⟧⟨472⟩
+[Zephaniah Swift Moore] ⟨473⟩⟦287⟧⟨474⟩⟦80⟧⟨475⟩⟦15⟧⟨476⟩⟦173⟧⟨477⟩⟦88⟧⟨478⟩⟦88⟧⟨479⟩⟦283⟧⟨480⟩⟦59⟧⟨481⟩
+
+[user]
+
+问题：
+Which college was founded first, Williams College or University of Southern California?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

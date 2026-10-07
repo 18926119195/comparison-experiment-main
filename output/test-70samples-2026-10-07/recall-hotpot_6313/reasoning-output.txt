@@ -1,0 +1,39 @@
+# 路径一：通过代理人关系锁定雇主
+
+步骤1：使用⟦11⟧⟦12⟧，提取“agent”这一角色信息，判断Christopher Mont曾担任某人的代理人。
+
+步骤2：综合⟦37⟧⟦144⟧，交叉验证：Christopher Mont（⟦37⟧）与Thomas Cromwell（⟦144⟧）之间存在代理关系，Cromwell是Mont的雇主。
+
+步骤3：使用⟦35⟧，提取“denization”（归化/授予公民权）这一关键事件，判断该雇主曾被授予denization。
+
+步骤4：综合⟦65⟧⟦162⟧，提取地点信息：Koblenz（⟦65⟧）与“where he became”（⟦162⟧）关联，判断授予denization的地点。
+
+结论：Thomas Cromwell在Koblenz被授予denization。
+
+---
+
+# 路径二：通过Mont的职业身份反推雇主
+
+步骤1：使用⟦8⟧⟦36⟧，提取Christopher Mont的职业身份为“a sixteenth-century diplomat”（十六世纪外交官）和“diplomat”（外交官）。
+
+步骤2：综合⟦2⟧⟦19⟧，提取时间信息：Mont生活于1496/7–1572（⟦2⟧），属于十六世纪（⟦19⟧），与外交官身份一致。
+
+步骤3：使用⟦144⟧，提取Thomas Cromwell作为Mont的关联人物，判断Cromwell是雇佣Mont作为代理人的英国律师。
+
+步骤4：综合⟦35⟧⟦65⟧，交叉验证：Cromwell被授予denization（⟦35⟧），地点为Koblenz（⟦65⟧）。
+
+结论：该英国律师（Thomas Cromwell）在Koblenz被授予denization。
+
+---
+
+# 路径三：通过地理与事件链综合推断
+
+步骤1：使用⟦37⟧，提取“Dr. Christopher Mont”这一完整称谓，确认其身份为Christopher Mont。
+
+步骤2：综合⟦11⟧⟦144⟧，提取代理关系：Mont是agent（⟦11⟧），其雇主为Thomas Cromwell（⟦144⟧）。
+
+步骤3：使用⟦65⟧⟦162⟧，提取地点与事件关联：Koblenz（⟦65⟧）与“where he became”（⟦162⟧）构成地点-事件链，判断denization授予发生在Koblenz。
+
+步骤4：综合⟦35⟧⟦159⟧，交叉验证：denization（⟦35⟧）与“but in 1531 awarded”（⟦159⟧）关联，确认授予时间为1531年，地点为Koblenz。
+
+结论：Thomas Cromwell于1531年在Koblenz被授予denization。

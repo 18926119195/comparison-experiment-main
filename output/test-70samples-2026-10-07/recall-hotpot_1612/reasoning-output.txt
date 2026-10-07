@@ -1,0 +1,33 @@
+# 路径一：从 KSCW-DT 的共享关系出发
+
+步骤1：使用⟦95⟧，提取 KSCW 的呼号信息，确认 KSCW-DT 即 KSCW 的 digital television 信号。
+
+步骤2：综合⟦98⟧⟦136⟧，提取 KSCW 与 KWCH 共享 studio facilities 的信息，判断 KSCW-DT 与 KWCH 存在 duopoly 关系。
+
+步骤3：使用⟦190⟧，提取 KWCH 的 virtual channel 为 12，确认与 KSCW-DT 形成 duopoly 的 virtual channel 12 是 KWCH。
+
+结论：KSCW-DT 与 virtual channel 12（KWCH）在 Wichita 形成 duopoly。
+
+# 路径二：从 KMBC-TV 材料中的关联信息出发
+
+步骤1：使用⟦94⟧，提取 KMBC-TV 的呼号信息，确认其为 Kansas City 的 station。
+
+步骤2：综合⟦87⟧⟦88⟧，提取 Kansas 和 Kansas City 的地理信息，判断 KMBC-TV 位于 Kansas City。
+
+步骤3：使用⟦91⟧，提取 KDCU's master control operations 的信息，判断 KDCU 与 KMBC-TV 存在关联，但 KDCU 并非 KSCW-DT 的 duopoly 伙伴。
+
+步骤4：综合⟦95⟧⟦98⟧，对比 KSCW 与 KWCH 的共享关系，确认 KSCW-DT 的 duopoly 伙伴是 KWCH，其 virtual channel 为 12。
+
+结论：KSCW-DT 的 duopoly 伙伴是 KWCH，virtual channel 12。
+
+# 路径三：从 KDCU-DT 的 master control 信息出发
+
+步骤1：使用⟦101⟧⟦121⟧，提取 master control operations 的信息，判断 KDCU-DT 的 master control 由 KSCW 或相关 station 负责。
+
+步骤2：综合⟦91⟧⟦95⟧，提取 KDCU's master control operations 与 KSCW 的关联，判断 KSCW 负责 KDCU 的 master control，但 KDCU 并非 KSCW-DT 的 duopoly 伙伴。
+
+步骤3：使用⟦190⟧，提取 virtual channel 12 的信息，确认 KWCH 的 virtual channel 为 12。
+
+步骤4：综合⟦98⟧⟦136⟧，交叉验证 KSCW 与 KWCH 共享 studio facilities，确认 KSCW-DT 的 duopoly 伙伴是 KWCH。
+
+结论：KSCW-DT 与 virtual channel 12（KWCH）形成 duopoly。

@@ -1,0 +1,108 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Young Sheldon] ⟨194⟩⟨195⟩⟦66⟧⟨197⟩⟨196⟩⟨198⟩⟦91⟧⟨199⟩⟦96⟧⟨200⟩⟦245⟧⟨201⟩
+[Young Sheldon] ⟨202⟩⟨203⟩⟦38⟧⟦239⟧⟨205⟩⟦193⟧⟨206⟩⟦213⟧⟨204⟩⟨207⟩⟨208⟩⟨209⟩⟨210⟩⟨211⟩⟦259⟧⟦54⟧⟨212⟩⟨213⟩⟦146⟧⟦125⟧⟨214⟩⟨215⟩⟦113⟧⟨216⟩⟦144⟧⟦223⟧⟨217⟩⟨218⟩
+[Young Sheldon] ⟦320⟧⟦320⟧
+[Young Sheldon] ⟨226⟩⟦60⟧⟦52⟧⟨228⟩⟨227⟩⟨229⟩⟨230⟩⟨231⟩⟨232⟩⟦69⟧⟦215⟧⟨233⟩⟨234⟩
+[Euglossa bazinga] ⟦252⟧
+[Damon Dark] ⟦266⟧
+[Penny (The Big Bang Theory)] ⟦237⟧ | ⟦262⟧ | ⟦262⟧⟦299⟧
+[Penny (The Big Bang Theory)] ⟦232⟧ | ⟦164⟧
+[Penny (The Big Bang Theory)] ⟦287⟧⟦228⟧ | ⟦287⟧⟦228⟧
+[Penny (The Big Bang Theory)] ⟦92⟧
+
+符号表：
+⟦38⟧ = a spin-off prequel
+⟦52⟧ = adult
+⟦54⟧ = age
+⟦60⟧ = an adult Sheldon Cooper
+⟦66⟧ = an American television sitcom
+⟦69⟧ = an executive producer
+⟦91⟧ = CBS
+⟦92⟧ = character
+⟦96⟧ = Chuck Lorre
+⟦113⟧ = East Texas
+⟦125⟧ = family
+⟦144⟧ = high school
+⟦146⟧ = his family
+⟦164⟧ = Jim Parsons
+⟦193⟧ = off
+⟦213⟧ = prequel
+⟦215⟧ = producer
+⟦223⟧ = school
+⟦228⟧ = series
+⟦232⟧ = Sheldon Cooper
+⟦237⟧ = sitcom
+⟦239⟧ = spin
+⟦245⟧ = Steven Molaro
+⟦252⟧ = television
+⟦259⟧ = the age
+⟦262⟧ = The Big Bang Theory
+⟦266⟧ = the character
+⟦287⟧ = The series
+⟦299⟧ = Theory
+⟦320⟧ = Young Sheldon
+
+占位符映射：
+⟨194⟩ =  (stylized as 
+⟨195⟩ = ) is 
+⟨196⟩ = 
+⟨197⟩ =  
+⟨198⟩ =  on 
+⟨199⟩ =  created by 
+⟨200⟩ =  and 
+⟨201⟩ = .
+⟨202⟩ = 
+⟨203⟩ =  is 
+⟨204⟩ = 
+⟨205⟩ = -
+⟨206⟩ =  
+⟨207⟩ =  to "
+⟨208⟩ = " and follows 
+⟨209⟩ = 
+⟨210⟩ =  
+⟨211⟩ =  at 
+⟨212⟩ = 
+⟨213⟩ =  of 9, living with 
+⟨214⟩ = 
+⟨215⟩ =  in 
+⟨216⟩ =  and going to 
+⟨217⟩ = 
+⟨218⟩ = .
+⟨226⟩ = , who portrays 
+⟨227⟩ = 
+⟨228⟩ =  Sheldon Cooper on "
+⟨229⟩ = 
+⟨230⟩ = ", narrates 
+⟨231⟩ = 
+⟨232⟩ =  and serves as 
+⟨233⟩ = 
+⟨234⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Young Sheldon, the tv series that follows the character Sheldon Cooper at the age of 9, is a spin-off from what prequel?

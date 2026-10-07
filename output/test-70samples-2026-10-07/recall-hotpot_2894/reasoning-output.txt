@@ -1,0 +1,29 @@
+# 路径一：从任务到指挥官再到出生年份
+
+步骤1：使用⟦238⟧，提取“the second human spaceflight mission”这一描述，结合⟦43⟧可知该任务属于Apollo计划，即Apollo 8。
+
+步骤2：综合⟦199⟧⟦66⟧，提取Apollo 8的Commander为Frank Borman（⟦66⟧明确为Commander Frank Borman）。
+
+步骤3：使用⟦101⟧，提取Frank Borman的全名Frank Frederick Borman II，并结合占位符⟨313⟩中的“(born March 14, 1928)”，得到其出生年份为1928年。
+
+结论：Apollo 8任务的指挥官Frank Borman出生于1928年。
+
+# 路径二：从任务成员列表交叉验证指挥官身份
+
+步骤1：使用⟦251⟧，提取“The three-astronaut crew”这一描述，结合⟦64⟧⟦66⟧⟦128⟧可知Apollo 8的三名宇航员分别为Command Module Pilot James Lovell、Commander Frank Borman、Lunar Module Pilot William Anders。
+
+步骤2：综合⟦199⟧⟦66⟧，确认Commander一职由Frank Borman担任，与路径一一致。
+
+步骤3：使用⟦101⟧及占位符⟨313⟩，提取Frank Borman的出生日期为1928年3月14日。
+
+结论：通过任务成员列表交叉验证，Apollo 8指挥官Frank Borman出生于1928年。
+
+# 路径三：从“second human spaceflight mission”定义出发
+
+步骤1：使用⟦238⟧，提取“the second human spaceflight mission in the United States Apollo space program”这一完整描述，结合⟦43⟧确认其为Apollo 8。
+
+步骤2：综合⟦199⟧⟦66⟧⟦101⟧，提取Apollo 8指挥官为Frank Borman，其全名为Frank Frederick Borman II。
+
+步骤3：使用占位符⟨313⟩，提取“(born March 14, 1928)”，确定出生年份为1928年。
+
+结论：综合任务定义与指挥官身份，Frank Borman出生于1928年。

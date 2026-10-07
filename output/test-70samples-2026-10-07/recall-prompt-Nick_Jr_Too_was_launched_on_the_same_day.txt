@@ -1,0 +1,338 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (a semi-autonomous unit
+⟦2⟧ = 1 April
+⟦3⟧ = 1 March
+⟦4⟧ = 1 September
+⟦5⟧ = 10:10 AM GST
+⟦6⟧ = 12:00 am
+⟦7⟧ = 14 March
+⟦8⟧ = 24 hours
+⟦9⟧ = 3.0 branding
+⟦10⟧ = 30 September
+⟦11⟧ = 4.0 branding package
+⟦12⟧ = 4.0 bumpers
+⟦13⟧ = a British TV network
+⟦14⟧ = a cable and satellite television channel
+⟦15⟧ = a children's channel broadcasting
+⟦16⟧ = a Czech sub
+⟦17⟧ = a division
+⟦18⟧ = a free trial
+⟦19⟧ = a line-up
+⟦20⟧ = a nearly identical schedule
+⟦21⟧ = a pan-Arab audience
+⟦22⟧ = a Polish language cartoon channel broadcasting
+⟦23⟧ = a Polish, Romanian, Hungarian and English audio track
+⟦24⟧ = a Portuguese digital cable
+⟦25⟧ = a schedule
+⟦26⟧ = a semi-autonomous unit
+⟦27⟧ = a separate channel
+⟦28⟧ = a separate feed
+⟦29⟧ = a subscription entertainment package
+⟦30⟧ = a Toonami programming block
+⟦31⟧ = a unit
+⟦32⟧ = action
+⟦33⟧ = additional providers
+⟦34⟧ = Adult Swim
+⟦35⟧ = adventure
+⟦36⟧ = air
+⟦37⟧ = am
+⟦38⟧ = an American media conglomerate
+⟦39⟧ = an HD pay TV channel
+⟦40⟧ = animated programming
+⟦41⟧ = animated programs
+⟦42⟧ = animation
+⟦43⟧ = April
+⟦44⟧ = Arabic
+⟦45⟧ = assets
+⟦46⟧ = audience
+⟦47⟧ = audio
+⟦48⟧ = August
+⟦49⟧ = beIN
+⟦50⟧ = block
+⟦51⟧ = Boomerang
+⟦52⟧ = both English
+⟦53⟧ = both the CNN Center
+⟦54⟧ = branding
+⟦55⟧ = broadcasting
+⟦56⟧ = bumpers
+⟦57⟧ = cable
+⟦58⟧ = cable television networks
+⟦59⟧ = campus
+⟦60⟧ = Canal Panda
+⟦61⟧ = cartoon
+⟦62⟧ = Cartoon Network
+⟦63⟧ = Cartoon Network Africa
+⟦64⟧ = Cartoon Network Arabic
+⟦65⟧ = Cartoon Network CEE
+⟦66⟧ = Cartoon Network Central Eastern Europe
+⟦67⟧ = Cartoon Network Czech Republic
+⟦68⟧ = Cartoon Network HQ
+⟦69⟧ = Cartoon Network Hungary and Cartoon Network Romania
+⟦70⟧ = Cartoon Network MENA
+⟦71⟧ = Cartoon Network Poland
+⟦72⟧ = Cartoon Network South Korea
+⟦73⟧ = Cartoon Network UK
+⟦74⟧ = Cartoon Network UK/Europe
+⟦75⟧ = CEO
+⟦76⟧ = chairman
+⟦77⟧ = channel
+⟦78⟧ = channels
+⟦79⟧ = Check
+⟦80⟧ = children
+⟦81⟧ = classic animation
+⟦82⟧ = CN
+⟦83⟧ = CNN
+⟦84⟧ = collection
+⟦85⟧ = company
+⟦86⟧ = conglomerate
+⟦87⟧ = country
+⟦88⟧ = Cyprus
+⟦89⟧ = Czech Republic
+⟦90⟧ = day
+⟦91⟧ = daytime
+⟦92⟧ = December
+⟦93⟧ = demand
+⟦94⟧ = Disney Channel
+⟦95⟧ = division
+⟦96⟧ = Downtown Atlanta
+⟦97⟧ = Dubai Media City
+⟦98⟧ = dubbing
+⟦99⟧ = entertainment
+⟦100⟧ = existing Check
+⟦101⟧ = feed
+⟦102⟧ = Fetch TV
+⟦103⟧ = flagship
+⟦104⟧ = graphics
+⟦105⟧ = Hanna-Barbera
+⟦106⟧ = headquarters
+⟦107⟧ = high demand
+⟦108⟧ = HLN
+⟦109⟧ = home
+⟦110⟧ = hours
+⟦111⟧ = Hungary
+⟦112⟧ = i.e. "Skatoony
+⟦113⟧ = idents
+⟦114⟧ = Inc.
+⟦115⟧ = Iran
+⟦116⟧ = Ireland
+⟦117⟧ = ISPs
+⟦118⟧ = Israel
+⟦119⟧ = its main flagship channel
+⟦120⟧ = its TBS cable network
+⟦121⟧ = John K. Martin
+⟦122⟧ = kids
+⟦123⟧ = language
+⟦124⟧ = launch
+⟦125⟧ = line
+⟦126⟧ = Master Film and Studio Genetix Film Factory
+⟦127⟧ = media
+⟦128⟧ = midnight
+⟦129⟧ = Midtown Atlanta
+⟦130⟧ = Moldova
+⟦131⟧ = more contemporary programming
+⟦132⟧ = network
+⟦133⟧ = networks
+⟦134⟧ = Nick Jr.
+⟦135⟧ = North Africa region
+⟦136⟧ = November
+⟦137⟧ = October
+⟦138⟧ = offices
+⟦139⟧ = only a Polish and English audio track
+⟦140⟧ = opening
+⟦141⟧ = other times
+⟦142⟧ = overnight hours
+⟦143⟧ = package
+⟦144⟧ = part
+⟦145⟧ = pay
+⟦146⟧ = Peachtree TV
+⟦147⟧ = people
+⟦148⟧ = Poland
+⟦149⟧ = popular Nick Jr. programming
+⟦150⟧ = Portugal
+⟦151⟧ = precursor
+⟦152⟧ = programmes
+⟦153⟧ = programming
+⟦154⟧ = programs
+⟦155⟧ = properties
+⟦156⟧ = providers
+⟦157⟧ = region
+⟦158⟧ = rival channel
+⟦159⟧ = Romania
+⟦160⟧ = satellite
+⟦161⟧ = satellite television channel
+⟦162⟧ = schedule
+⟦163⟧ = SDI Media Polska
+⟦164⟧ = September
+⟦165⟧ = shows
+⟦166⟧ = sister
+⟦167⟧ = Slovakia
+⟦168⟧ = some action-adventure programming
+⟦169⟧ = some ISPs
+⟦170⟧ = some Polish dubbing studios
+⟦171⟧ = some shows
+⟦172⟧ = Start International Polska
+⟦173⟧ = station
+⟦174⟧ = status
+⟦175⟧ = Studio Sonica
+⟦176⟧ = studios
+⟦177⟧ = sub
+⟦178⟧ = Sub-Saharan Africa
+⟦179⟧ = subscription
+⟦180⟧ = superstation
+⟦181⟧ = TBS
+⟦182⟧ = TCM
+⟦183⟧ = Techwood Drive
+⟦184⟧ = Ted Turner
+⟦185⟧ = teens
+⟦186⟧ = teens' channel
+⟦187⟧ = television
+⟦188⟧ = The Australian version
+⟦189⟧ = the British second channel
+⟦190⟧ = the channel
+⟦191⟧ = the channel's launch
+⟦192⟧ = the Check
+⟦193⟧ = the collection
+⟦194⟧ = The company
+⟦195⟧ = The company's assets
+⟦196⟧ = The company's current chairman
+⟦197⟧ = the day
+⟦198⟧ = the daytime
+⟦199⟧ = the direct precursor
+⟦200⟧ = the EMEA region
+⟦201⟧ = the Foxtel Digital launch
+⟦202⟧ = The free trial
+⟦203⟧ = the free trial status
+⟦204⟧ = The headquarters
+⟦205⟧ = the last country
+⟦206⟧ = the main Cartoon Network
+⟦207⟧ = the main Nick Jr. channel
+⟦208⟧ = the Middle East
+⟦209⟧ = the Middle East and North Africa region
+⟦210⟧ = the opening
+⟦211⟧ = the original American Cartoon Network television channel
+⟦212⟧ = the original home
+⟦213⟧ = the Republic
+⟦214⟧ = the Romanian and Polish feed
+⟦215⟧ = the second most-watched kids
+⟦216⟧ = the sister station
+⟦217⟧ = the South Korean version
+⟦218⟧ = the Techwood campus
+⟦219⟧ = the Turner Broadcasting campus
+⟦220⟧ = the UK feed
+⟦221⟧ = the United Kingdom
+⟦222⟧ = the United States
+⟦223⟧ = the US and UK version
+⟦224⟧ = This channel
+⟦225⟧ = time
+⟦226⟧ = Time Warner
+⟦227⟧ = times
+⟦228⟧ = TNT
+⟦229⟧ = today
+⟦230⟧ = track
+⟦231⟧ = trial
+⟦232⟧ = TruTV
+⟦233⟧ = Turkey
+⟦234⟧ = Turner
+⟦235⟧ = Turner Broadcasting
+⟦236⟧ = Turner Broadcasting System
+⟦237⟧ = Turner Broadcasting System Europe
+⟦238⟧ = Turner Broadcasting System Europe's offices
+⟦239⟧ = Turner Classic Movies
+⟦240⟧ = Turner Studios
+⟦241⟧ = Turner's properties
+⟦242⟧ = Turner's WTBS superstation
+⟦243⟧ = TV
+⟦244⟧ = two Arabic-language versions
+⟦245⟧ = two digital children's TV channels
+⟦246⟧ = unit
+⟦247⟧ = up
+⟦248⟧ = version
+⟦249⟧ = versions
+⟦250⟧ = Warsaw
+⟦251⟧ = while
+⟦252⟧ = Williams Street Productions
+⟦253⟧ = بالعربية‎
+⟦254⟧ = كرتون
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Cartoon Network (Middle East and Africa)] ⟦62⟧⟨1⟩⟦245⟧⟨2⟩⟦80⟧⟨3⟩⟦243⟧⟨4⟩⟦78⟧⟨5⟩⟦41⟧⟨6⟩⟦154⟧⟨7⟩⟦70⟧⟨8⟩⟦209⟧⟨9⟩⟦157⟧⟨10⟩⟦118⟧⟨11⟩⟦115⟧⟨12⟩⟦233⟧⟨13⟩⟦88⟧⟨14⟩⟦63⟧⟨15⟩⟦68⟧⟨16⟩⟦178⟧⟨17⟩
+[Cartoon Network (Middle East and Africa)] ⟦62⟧⟨18⟩⟦236⟧⟨19⟩⟦31⟧⟨20⟩⟦246⟧⟨21⟩⟦226⟧⟨22⟩
+[Cartoon Network (Middle East and Africa)] ⟦74⟧⟨23⟩⟦199⟧⟨24⟩⟦151⟧⟨25⟩⟦62⟧⟨26⟩⟦200⟧⟨27⟩⟦157⟧⟨28⟩⟦68⟧⟨29⟩⟦164⟧⟨30⟩
+[Cartoon Network (Middle East and Africa)] ⟨31⟩⟦137⟧⟨32⟩⟦73⟧⟨33⟩⟦28⟧⟨34⟩⟦101⟧⟨35⟩⟦68⟧⟨36⟩⟦20⟧⟨37⟩⟦162⟧⟨38⟩⟦68⟧⟨39⟩⟦220⟧⟨40⟩⟦101⟧⟨41⟩
+[Cartoon Network (Portugal)] ⟦62⟧⟨42⟩⟦82⟧⟨43⟩⟦24⟧⟨44⟩⟦57⟧⟨45⟩⟦160⟧⟨46⟩⟦161⟧⟨47⟩⟦187⟧⟨48⟩⟦77⟧⟨49⟩⟦92⟧⟨50⟩⟦237⟧⟨51⟩⟦1⟧⟨52⟩⟦246⟧⟨53⟩⟦226⟧⟨54⟩
+[Cartoon Network (Portugal)] ⟨55⟩⟦62⟧⟨56⟩⟦215⟧⟨57⟩⟦122⟧⟨58⟩⟦185⟧⟨59⟩⟦186⟧⟨60⟩⟦77⟧⟨61⟩⟦150⟧⟨62⟩⟦60⟧⟨63⟩⟦94⟧⟨64⟩
+[Boomerang (Australia and New Zealand)] ⟦51⟧⟨65⟩⟦14⟧⟨66⟩⟦57⟧⟨67⟩⟦160⟧⟨68⟩⟦187⟧⟨69⟩⟦77⟧⟨70⟩⟦236⟧⟨71⟩⟦31⟧⟨72⟩⟦246⟧⟨73⟩⟦226⟧⟨74⟩⟦119⟧⟨75⟩⟦103⟧⟨76⟩⟦77⟧⟨77⟩⟦62⟧⟨78⟩
+[Boomerang (Australia and New Zealand)] ⟦188⟧⟨79⟩⟦248⟧⟨80⟩⟦51⟧⟨81⟩⟦7⟧⟨82⟩⟦144⟧⟨83⟩⟦144⟧⟨84⟩⟦201⟧⟨85⟩⟦124⟧⟨86⟩⟦19⟧⟨87⟩⟦125⟧⟨88⟩⟦247⟧⟨89⟩⟦223⟧⟨90⟩⟦248⟧⟨91⟩
+[Boomerang (Australia and New Zealand)] ⟨92⟩⟦81⟧⟨93⟩⟦42⟧⟨94⟩⟦176⟧⟨95⟩⟦176⟧⟨96⟩⟦105⟧⟨97⟩⟦190⟧⟨98⟩⟦77⟧⟨99⟩⟦131⟧⟨100⟩⟦153⟧⟨101⟩
+[Boomerang (Australia and New Zealand)] ⟦224⟧⟨102⟩⟦77⟧⟨103⟩⟦18⟧⟨104⟩⟦231⟧⟨105⟩⟦29⟧⟨106⟩⟦179⟧⟨107⟩⟦99⟧⟨108⟩⟦143⟧⟨109⟩⟦102⟧⟨110⟩⟦243⟧⟨111⟩⟦169⟧⟨112⟩⟦117⟧⟨113⟩
+[Boomerang (Australia and New Zealand)] ⟦202⟧⟨114⟩⟦231⟧⟨115⟩⟦51⟧⟨116⟩⟦62⟧⟨117⟩
+[Boomerang (Australia and New Zealand)] ⟨118⟩⟦202⟧⟨119⟩⟦231⟧⟨120⟩⟦51⟧⟨121⟩⟦102⟧⟨122⟩⟦203⟧⟨123⟩⟦231⟧⟨124⟩⟦174⟧⟨125⟩
+[Nick Jr. Too] ⟦134⟧
+[Nick Jr. Too] ⟨126⟩⟦189⟧⟨127⟩⟦77⟧⟨128⟩⟦134⟧⟨129⟩⟦221⟧⟨130⟩⟦213⟧⟨131⟩⟦116⟧⟨132⟩⟦149⟧⟨133⟩⟦153⟧⟨134⟩⟦141⟧⟨135⟩⟦227⟧⟨136⟩⟦197⟧⟨137⟩⟦90⟧⟨138⟩
+[Nick Jr. Too] ⟨139⟩⟦90⟧⟨140⟩⟦158⟧⟨141⟩⟦77⟧⟨142⟩⟦62⟧⟨143⟩
+[Nick Jr. Too] ⟦134⟧
+[Nick Jr. Too] ⟨144⟩⟦25⟧⟨145⟩⟦162⟧⟨146⟩⟦207⟧⟨147⟩⟦77⟧⟨148⟩
+[Nick Jr. Too] ⟦190⟧⟨149⟩⟦77⟧⟨150⟩⟦134⟧
+[Nick Jr. Too] ⟨151⟩⟦136⟧⟨152⟩
+[Cartoon Network (Poland)] ⟦71⟧⟨153⟩⟦22⟧⟨154⟩⟦123⟧⟨155⟩⟦61⟧⟨156⟩⟦77⟧⟨157⟩⟦55⟧⟨158⟩⟦147⟧⟨159⟩⟦147⟧⟨160⟩⟦148⟧⟨161⟩
+[Cartoon Network (Poland)] ⟦190⟧⟨162⟩⟦77⟧⟨163⟩⟦4⟧⟨164⟩⟦6⟧⟨165⟩⟦37⟧⟨166⟩⟦225⟧⟨167⟩
+[Cartoon Network (Poland)] ⟨168⟩⟦4⟧⟨169⟩⟦104⟧⟨170⟩⟦104⟧⟨171⟩⟦192⟧⟨172⟩⟦11⟧⟨173⟩⟦143⟧⟨174⟩
+[Cartoon Network (Poland)] ⟨175⟩⟦3⟧⟨176⟩⟦110⟧⟨177⟩⟦90⟧⟨178⟩
+[Cartoon Network (Poland)] ⟨179⟩⟦10⟧⟨180⟩⟦190⟧⟨181⟩⟦77⟧⟨182⟩⟦111⟧⟨183⟩⟦159⟧⟨184⟩
+[Cartoon Network (Poland)] ⟨185⟩⟦27⟧⟨186⟩⟦77⟧⟨187⟩⟦111⟧⟨188⟩⟦159⟧⟨189⟩
+[Cartoon Network (Poland)] ⟨190⟩⟦250⟧⟨191⟩
+[Cartoon Network (Poland)] ⟨192⟩⟦23⟧⟨193⟩⟦47⟧⟨194⟩⟦230⟧⟨195⟩
+[Cartoon Network (Poland)] ⟨196⟩⟦139⟧⟨197⟩⟦47⟧⟨198⟩⟦230⟧⟨199⟩
+[Cartoon Network (Poland)] ⟦190⟧⟨200⟩⟦77⟧⟨201⟩⟦237⟧⟨202⟩
+[Cartoon Network (Poland)] ⟦190⟧⟨203⟩⟦77⟧⟨204⟩⟦30⟧⟨205⟩⟦153⟧⟨206⟩⟦50⟧⟨207⟩⟦190⟧⟨208⟩⟦77⟧⟨209⟩⟦170⟧⟨210⟩⟦98⟧⟨211⟩⟦176⟧⟨212⟩⟦175⟧⟨213⟩⟦172⟧⟨214⟩⟦163⟧⟨215⟩⟦126⟧⟨216⟩
+[Cartoon Network Too] ⟨217⟩⟦13⟧⟨218⟩⟦243⟧⟨219⟩⟦132⟧⟨220⟩⟦235⟧⟨221⟩
+[Cartoon Network Too] ⟨222⟩⟦216⟧⟨223⟩⟦166⟧⟨224⟩⟦173⟧⟨225⟩⟦62⟧⟨226⟩⟦152⟧⟨227⟩⟦152⟧⟨228⟩⟦251⟧⟨229⟩⟦206⟧⟨230⟩
+[Cartoon Network Too] ⟨231⟩⟦198⟧⟨232⟩⟦91⟧⟨233⟩⟦168⟧⟨234⟩⟦32⟧⟨235⟩⟦35⟧⟨236⟩⟦153⟧⟨237⟩
+[Cartoon Network Too] ⟨238⟩⟦142⟧⟨239⟩⟦110⟧⟨240⟩⟦128⟧⟨241⟩⟦128⟧⟨242⟩⟦171⟧⟨243⟩⟦165⟧⟨244⟩⟦107⟧⟨245⟩⟦93⟧⟨246⟩⟦112⟧⟨247⟩
+[Cartoon Network Too] ⟨248⟩⟦2⟧⟨249⟩
+[Cartoon Network (Central and Eastern Europe)] ⟦65⟧⟨250⟩⟦67⟧⟨251⟩⟦69⟧⟨252⟩⟦15⟧⟨253⟩⟦80⟧⟨254⟩⟦77⟧⟨255⟩⟦55⟧⟨256⟩⟦147⟧⟨257⟩⟦147⟧⟨258⟩⟦89⟧⟨259⟩⟦111⟧⟨260⟩⟦130⟧⟨261⟩⟦159⟧⟨262⟩⟦167⟧⟨263⟩
+[Cartoon Network (Central and Eastern Europe)] ⟦190⟧⟨264⟩⟦77⟧⟨265⟩⟦214⟧⟨266⟩⟦101⟧⟨267⟩
+[Cartoon Network (Central and Eastern Europe)] ⟦190⟧⟨268⟩⟦77⟧⟨269⟩⟦237⟧⟨270⟩
+[Cartoon Network (Central and Eastern Europe)] ⟦190⟧⟨271⟩⟦77⟧⟨272⟩⟦30⟧⟨273⟩⟦153⟧⟨274⟩⟦50⟧⟨275⟩
+[Cartoon Network (Central and Eastern Europe)] ⟨276⟩⟦43⟧⟨277⟩⟦62⟧⟨278⟩⟦8⟧⟨279⟩⟦110⟧⟨280⟩⟦90⟧⟨281⟩⟦111⟧⟨282⟩
+[Cartoon Network (Central and Eastern Europe)] ⟦111⟧⟨283⟩⟦205⟧⟨284⟩⟦87⟧⟨285⟩⟦62⟧⟨286⟩⟦182⟧⟨287⟩
+[Cartoon Network (Central and Eastern Europe)] ⟨288⟩⟦48⟧⟨289⟩⟦66⟧⟨290⟩⟦12⟧⟨291⟩⟦56⟧⟨292⟩⟦113⟧⟨293⟩⟦113⟧⟨294⟩⟦100⟧⟨295⟩⟦79⟧⟨296⟩⟦9⟧⟨297⟩⟦54⟧⟨298⟩
+[Cartoon Network (Central and Eastern Europe)] ⟨299⟩⟦164⟧⟨300⟩⟦16⟧⟨301⟩⟦177⟧⟨302⟩⟦101⟧⟨303⟩⟦101⟧⟨304⟩
+[Turner Broadcasting System] ⟦236⟧⟨305⟩⟦114⟧⟨306⟩⟦234⟧⟨307⟩⟦38⟧⟨308⟩⟦127⟧⟨309⟩⟦86⟧⟨310⟩⟦17⟧⟨311⟩⟦95⟧⟨312⟩⟦226⟧⟨313⟩⟦193⟧⟨314⟩⟦84⟧⟨315⟩⟦57⟧⟨316⟩⟦58⟧⟨317⟩⟦187⟧⟨318⟩⟦133⟧⟨319⟩⟦155⟧⟨320⟩⟦155⟧⟨321⟩⟦184⟧⟨322⟩
+[Turner Broadcasting System] ⟦194⟧⟨323⟩⟦85⟧⟨324⟩⟦226⟧⟨325⟩⟦137⟧⟨326⟩
+[Turner Broadcasting System] ⟨327⟩⟦26⟧⟨328⟩⟦246⟧⟨329⟩⟦226⟧⟨330⟩
+[Turner Broadcasting System] ⟦195⟧⟨331⟩⟦85⟧⟨332⟩⟦45⟧⟨333⟩⟦83⟧⟨334⟩⟦108⟧⟨335⟩⟦181⟧⟨336⟩⟦228⟧⟨337⟩⟦239⟧⟨338⟩⟦62⟧⟨339⟩⟦34⟧⟨340⟩⟦51⟧⟨341⟩⟦232⟧⟨342⟩
+[Turner Broadcasting System] ⟦196⟧⟨343⟩⟦85⟧⟨344⟩⟦76⟧⟨345⟩⟦75⟧⟨346⟩⟦121⟧⟨347⟩
+[Turner Broadcasting System] ⟦204⟧⟨348⟩⟦106⟧⟨349⟩⟦241⟧⟨350⟩⟦155⟧⟨351⟩⟦53⟧⟨352⟩⟦96⟧⟨353⟩⟦219⟧⟨354⟩⟦59⟧⟨355⟩⟦183⟧⟨356⟩⟦129⟧⟨357⟩⟦240⟧⟨358⟩
+[Turner Broadcasting System] ⟨359⟩⟦218⟧⟨360⟩⟦59⟧⟨361⟩⟦212⟧⟨362⟩⟦109⟧⟨363⟩⟦242⟧⟨364⟩⟦180⟧⟨365⟩⟦120⟧⟨366⟩⟦57⟧⟨367⟩⟦132⟧⟨368⟩⟦146⟧⟨369⟩⟦229⟧⟨370⟩⟦204⟧⟨371⟩⟦106⟧⟨372⟩⟦34⟧⟨373⟩⟦252⟧⟨374⟩
+[Cartoon Network (South Korea)] ⟦72⟧⟨375⟩⟦217⟧⟨376⟩⟦248⟧⟨377⟩⟦211⟧⟨378⟩⟦187⟧⟨379⟩⟦77⟧⟨380⟩⟦222⟧⟨381⟩⟦14⟧⟨382⟩⟦57⟧⟨383⟩⟦160⟧⟨384⟩⟦187⟧⟨385⟩⟦77⟧⟨386⟩⟦235⟧⟨387⟩⟦31⟧⟨388⟩⟦246⟧⟨389⟩⟦226⟧⟨390⟩⟦40⟧⟨391⟩⟦153⟧⟨392⟩
+[Cartoon Network (South Korea)] ⟨393⟩⟦136⟧⟨394⟩
+[Cartoon Network Arabic] ⟦64⟧⟨395⟩⟦44⟧⟨396⟩⟦254⟧⟨397⟩⟦253⟧⟨398⟩⟦36⟧⟨399⟩⟦36⟧⟨400⟩⟦160⟧⟨401⟩⟦80⟧⟨402⟩⟦77⟧⟨403⟩⟦21⟧⟨404⟩⟦46⟧⟨405⟩⟦208⟧⟨406⟩⟦135⟧⟨407⟩⟦157⟧⟨408⟩⟦118⟧⟨409⟩⟦115⟧⟨410⟩⟦233⟧⟨411⟩⟦88⟧⟨412⟩⟦244⟧⟨413⟩⟦123⟧⟨414⟩⟦249⟧⟨415⟩⟦62⟧⟨416⟩⟦39⟧⟨417⟩⟦145⟧⟨418⟩⟦243⟧⟨419⟩⟦77⟧⟨420⟩⟦49⟧⟨421⟩⟦49⟧⟨422⟩⟦33⟧⟨423⟩⟦156⟧⟨424⟩⟦70⟧⟨425⟩⟦52⟧⟨426⟩⟦44⟧⟨427⟩
+[Cartoon Network Arabic] ⟦190⟧⟨428⟩⟦77⟧⟨429⟩⟦137⟧⟨430⟩⟦5⟧⟨431⟩⟦191⟧⟨432⟩⟦77⟧⟨433⟩⟦124⟧⟨434⟩⟦210⟧⟨435⟩⟦140⟧⟨436⟩⟦238⟧⟨437⟩⟦138⟧⟨438⟩⟦97⟧⟨439⟩
+
+[user]
+
+问题：
+Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

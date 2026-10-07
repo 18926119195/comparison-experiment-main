@@ -1,0 +1,119 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Jeder Rappen zählt] ⟦158⟧⟦375⟧⟨96⟩⟨97⟩⟦159⟧⟨98⟩⟦170⟧⟦200⟧⟨100⟩⟦81⟧⟨99⟩⟨101⟩⟦336⟧⟦360⟧⟨102⟩⟨103⟩⟦334⟧⟨104⟩⟦99⟧⟨106⟩⟨105⟩⟨107⟩
+[Serious Request] ⟦265⟧⟨213⟩⟦16⟧⟦113⟧⟨214⟩⟨215⟩⟦46⟧⟦190⟧⟨216⟩⟨217⟩⟦87⟧⟦87⟧⟨218⟩⟨219⟩⟦1⟧⟦191⟧⟨221⟩⟦123⟧⟨222⟩⟦110⟧⟨220⟩⟨223⟩⟦150⟧⟦145⟧⟨224⟩⟨225⟩⟦246⟧⟨226⟩⟦272⟧⟨227⟩⟨228⟩⟦338⟧⟦364⟧⟨229⟩⟨230⟩⟦67⟧⟨231⟩
+[Serious Request] ⟦2⟧⟦237⟧⟨240⟩⟨241⟩⟦58⟧⟨242⟩⟦278⟧⟨243⟩⟦277⟧⟨244⟩⟦162⟧⟨245⟩⟦268⟧⟨246⟩⟦54⟧⟨247⟩⟦167⟧⟨248⟩⟦226⟧⟨249⟩
+[High Resolution Microwave Survey] ⟦245⟧ | ⟦245⟧
+[Dragonfly Project] ⟦283⟧
+
+符号表：
+⟦1⟧ = , multimedia fundraising events
+⟦2⟧ = "Serious Request" projects
+⟦16⟧ = a family
+⟦46⟧ = annual multi
+⟦54⟧ = Austria
+⟦58⟧ = Belgium
+⟦67⟧ = Christmas
+⟦81⟧ = counts
+⟦87⟧ = day
+⟦99⟧ = Dutch radio/television
+⟦110⟧ = events
+⟦113⟧ = family
+⟦123⟧ = fundraising
+⟦145⟧ = initiatives
+⟦150⟧ = International Red Cross initiatives
+⟦158⟧ = Jeder Rappen zählt
+⟦159⟧ = JRZ
+⟦162⟧ = Kenya
+⟦167⟧ = Latvia
+⟦170⟧ = literally Every rappen (nickel) counts
+⟦190⟧ = multi
+⟦191⟧ = multimedia
+⟦200⟧ = nickel
+⟦226⟧ = Portugal
+⟦237⟧ = projects
+⟦245⟧ = radio
+⟦246⟧ = radio stations
+⟦265⟧ = Serious Request
+⟦268⟧ = South Korea
+⟦272⟧ = stations
+⟦277⟧ = Sweden
+⟦278⟧ = Switzerland
+⟦283⟧ = television
+⟦334⟧ = the Serious Request
+⟦336⟧ = the Swiss version
+⟦338⟧ = the week
+⟦360⟧ = version
+⟦364⟧ = week
+⟦375⟧ = zählt
+
+占位符映射：
+⟨96⟩ = 
+⟨97⟩ =  (
+⟨98⟩ = ) "(
+⟨99⟩ = 
+⟨100⟩ = ) 
+⟨101⟩ = )" is 
+⟨102⟩ = 
+⟨103⟩ =  of 
+⟨104⟩ =  that broadcasts on 
+⟨105⟩ = 
+⟨106⟩ = /
+⟨107⟩ = .
+⟨213⟩ =  is 
+⟨214⟩ = 
+⟨215⟩ =  of 
+⟨216⟩ = 
+⟨217⟩ = -
+⟨218⟩ = 
+⟨219⟩ = 
+⟨220⟩ = 
+⟨221⟩ =  
+⟨222⟩ =  
+⟨223⟩ =  for 
+⟨224⟩ = 
+⟨225⟩ = , typically hosted by 
+⟨226⟩ = 
+⟨227⟩ = 
+⟨228⟩ =  in 
+⟨229⟩ = 
+⟨230⟩ =  before 
+⟨231⟩ = .
+⟨240⟩ = 
+⟨241⟩ =  have since been adopted in 
+⟨242⟩ = , 
+⟨243⟩ = , 
+⟨244⟩ = , 
+⟨245⟩ = , 
+⟨246⟩ = , 
+⟨247⟩ = , 
+⟨248⟩ =  and 
+⟨249⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The project that Jeder Rappen zählt is inspired by began in what year?

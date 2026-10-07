@@ -1,0 +1,319 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "General Hospital
+⟦2⟧ = "George Lopez
+⟦3⟧ = "Red Dawn
+⟦4⟧ = "Selena
+⟦5⟧ = "Some Kind
+⟦6⟧ = "The Beverly Hillbillies
+⟦7⟧ = 21 episodes
+⟦8⟧ = 22 episodes
+⟦9⟧ = 9:00 ET/PT
+⟦10⟧ = a 2007 comedy-drama film
+⟦11⟧ = a fifth and final season
+⟦12⟧ = a fourth season
+⟦13⟧ = a full 22-episode third season
+⟦14⟧ = a new school
+⟦15⟧ = a second season
+⟦16⟧ = a special appearance
+⟦17⟧ = a young Lex Luthor
+⟦18⟧ = ABC
+⟦19⟧ = ABC Family
+⟦20⟧ = ABC Family
+⟦21⟧ = ABC Family drama television series
+⟦22⟧ = actor
+⟦23⟧ = actors
+⟦24⟧ = Actors Genie Francis
+⟦25⟧ = actress
+⟦26⟧ = Actress Jacklyn Zeman
+⟦27⟧ = Actress Jane Elliot
+⟦28⟧ = Alice
+⟦29⟧ = Alice Upside Down
+⟦30⟧ = All the Right Moves
+⟦31⟧ = Alyson Stoner
+⟦32⟧ = American Sign Language
+⟦33⟧ = American soap operas
+⟦34⟧ = Ames
+⟦35⟧ = an 11-year-old girl
+⟦36⟧ = an affluent suburb
+⟦37⟧ = an American actor
+⟦38⟧ = an American actress
+⟦39⟧ = an American teen/family drama television series
+⟦40⟧ = an American television drama series
+⟦41⟧ = Angie Lopez
+⟦42⟧ = anniversary
+⟦43⟧ = appearance
+⟦44⟧ = appearances
+⟦45⟧ = April
+⟦46⟧ = area
+⟦47⟧ = areas
+⟦48⟧ = artwork
+⟦49⟧ = Ashley Eckstein
+⟦50⟧ = ASL
+⟦51⟧ = Audrey Hardy
+⟦52⟧ = August
+⟦53⟧ = Back
+⟦54⟧ = Becky Hartman Edwards
+⟦55⟧ = Birth
+⟦56⟧ = Bishop DuBourg High School
+⟦57⟧ = Bobbie Spencer
+⟦58⟧ = Bridgit Mendler
+⟦59⟧ = Caroline
+⟦60⟧ = cast
+⟦61⟧ = cast members
+⟦62⟧ = centers
+⟦63⟧ = character
+⟦64⟧ = cinema
+⟦65⟧ = class
+⟦66⟧ = comedy
+⟦67⟧ = Conner Kent
+⟦68⟧ = Constance Marie
+⟦69⟧ = Constance Marie Lopez
+⟦70⟧ = course
+⟦71⟧ = creator
+⟦72⟧ = December
+⟦73⟧ = demand
+⟦74⟧ = departure
+⟦75⟧ = Deputy Peck
+⟦76⟧ = director
+⟦77⟧ = Dr. Monica Quartermaine
+⟦78⟧ = drama
+⟦79⟧ = Duck
+⟦80⟧ = DVD
+⟦81⟧ = environments
+⟦82⟧ = episode
+⟦83⟧ = episodes
+⟦84⟧ = Ethan Dalloway
+⟦85⟧ = executive producers
+⟦86⟧ = Ezra Chase
+⟦87⟧ = Family
+⟦88⟧ = February
+⟦89⟧ = film
+⟦90⟧ = films
+⟦91⟧ = Food Boy
+⟦92⟧ = Former cast member Anthony Geary
+⟦93⟧ = Former cast member Rachel Ames
+⟦94⟧ = Frank and Doris Hursley
+⟦95⟧ = Freeform
+⟦96⟧ = General Hospital
+⟦97⟧ = girl
+⟦98⟧ = girls
+⟦99⟧ = grade
+⟦100⟧ = guest
+⟦101⟧ = guest appearances
+⟦102⟧ = half
+⟦103⟧ = Halloweentown
+⟦104⟧ = hearing
+⟦105⟧ = her departure
+⟦106⟧ = her role
+⟦107⟧ = hour
+⟦108⟧ = Howard the Duck
+⟦109⟧ = installments
+⟦110⟧ = its hit original drama series
+⟦111⟧ = its name
+⟦112⟧ = January
+⟦113⟧ = John Ziffren
+⟦114⟧ = July
+⟦115⟧ = June
+⟦116⟧ = Kathryn Kennish
+⟦117⟧ = Kin Shriner
+⟦118⟧ = Kind
+⟦119⟧ = Laura Spencer
+⟦120⟧ = Lea Katherine Thompson
+⟦121⟧ = Leslie Charleson
+⟦122⟧ = limited cinema
+⟦123⟧ = list
+⟦124⟧ = Lizzy Weiss
+⟦125⟧ = Lorraine Baines
+⟦126⟧ = Lucas Grabeel
+⟦127⟧ = Lucas Stephen Grabeel
+⟦128⟧ = Luke Perry
+⟦129⟧ = Luke Spencer
+⟦130⟧ = mainstream
+⟦131⟧ = Marcela Quintanilla
+⟦132⟧ = May
+⟦133⟧ = member
+⟦134⟧ = members
+⟦135⟧ = Missouri
+⟦136⟧ = mother
+⟦137⟧ = Moves
+⟦138⟧ = name
+⟦139⟧ = names
+⟦140⟧ = North America
+⟦141⟧ = November
+⟦142⟧ = October
+⟦143⟧ = operas
+⟦144⟧ = Other films
+⟦145⟧ = Paul Stupin
+⟦146⟧ = Penny Marshall
+⟦147⟧ = Phyllis Reynolds Naylor
+⟦148⟧ = pieces
+⟦149⟧ = Pirates' Cove Entertainment
+⟦150⟧ = plot
+⟦151⟧ = producer
+⟦152⟧ = producers
+⟦153⟧ = Regina Vasquez
+⟦154⟧ = regulars
+⟦155⟧ = role
+⟦156⟧ = roles
+⟦157⟧ = Ryan Evans
+⟦158⟧ = scenes
+⟦159⟧ = school
+⟦160⟧ = Scott Baldwin
+⟦161⟧ = season
+⟦162⟧ = seasons
+⟦163⟧ = Selena
+⟦164⟧ = serial
+⟦165⟧ = series
+⟦166⟧ = series creator Lizzy Weiss
+⟦167⟧ = Sheriff Callie's Wild West
+⟦168⟧ = show
+⟦169⟧ = singer
+⟦170⟧ = Smallville
+⟦171⟧ = soap
+⟦172⟧ = songwriter
+⟦173⟧ = St. Louis
+⟦174⟧ = Starz Kids
+⟦175⟧ = straight
+⟦176⟧ = suburb
+⟦177⟧ = Suzy B Productions
+⟦178⟧ = teen
+⟦179⟧ = teenagers
+⟦180⟧ = television
+⟦181⟧ = television director
+⟦182⟧ = television producer
+⟦183⟧ = the "Alice" series
+⟦184⟧ = the "High School Musical" film series
+⟦185⟧ = the 1997 film
+⟦186⟧ = the ABC Family/Freeform drama
+⟦187⟧ = The Adventures
+⟦188⟧ = the City
+⟦189⟧ = the course
+⟦190⟧ = the Disney Junior TV series
+⟦191⟧ = the early years
+⟦192⟧ = the episode titles
+⟦193⟧ = the fifth longest-running cast member
+⟦194⟧ = The fifth season
+⟦195⟧ = The film
+⟦196⟧ = The film's plot centers
+⟦197⟧ = the first mainstream television series
+⟦198⟧ = The following list
+⟦199⟧ = the fourth longest-running cast member
+⟦200⟧ = the Freeform
+⟦201⟧ = the Future
+⟦202⟧ = the Halloweentown series
+⟦203⟧ = the Kansas City metropolitan area
+⟦204⟧ = the longest running American television serial drama
+⟦205⟧ = The longest-running cast member
+⟦206⟧ = the longest-tenured actors
+⟦207⟧ = the main and recurring cast members
+⟦208⟧ = The one-hour scripted drama
+⟦209⟧ = The season
+⟦210⟧ = the second and third longest-running cast members
+⟦211⟧ = The second half
+⟦212⟧ = The second season
+⟦213⟧ = the serial
+⟦214⟧ = the series
+⟦215⟧ = the series' fiftieth anniversary
+⟦216⟧ = the series' longest-running cast member
+⟦217⟧ = the show
+⟦218⟧ = the sixth grade
+⟦219⟧ = the sixth longest-running cast member
+⟦220⟧ = the television series
+⟦221⟧ = the third and fourth installments
+⟦222⟧ = The third season
+⟦223⟧ = the title character
+⟦224⟧ = the United States
+⟦225⟧ = the voice
+⟦226⟧ = their names
+⟦227⟧ = title
+⟦228⟧ = titles
+⟦229⟧ = Toby Kennish
+⟦230⟧ = Tracy Quartermaine
+⟦231⟧ = trilogy
+⟦232⟧ = two teenage girls
+⟦233⟧ = two teenagers
+⟦234⟧ = United States
+⟦235⟧ = very different environments
+⟦236⟧ = voice
+⟦237⟧ = Wednesday
+⟦238⟧ = working
+⟦239⟧ = working-class areas
+⟦240⟧ = year
+⟦241⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Alice Upside Down] ⟦29⟧⟨1⟩⟦10⟧⟨2⟩⟦66⟧⟨3⟩⟦78⟧⟨4⟩⟦89⟧⟨5⟩⟦183⟧⟨6⟩⟦165⟧⟨7⟩⟦147⟧⟨8⟩
+[Alice Upside Down] ⟦195⟧⟨9⟩⟦89⟧⟨10⟩⟦56⟧⟨11⟩⟦173⟧⟨12⟩⟦135⟧⟨13⟩⟦234⟧⟨14⟩
+[Alice Upside Down] ⟨15⟩⟦122⟧⟨16⟩⟦64⟧⟨17⟩⟦175⟧⟨18⟩⟦80⟧⟨19⟩⟦80⟧⟨20⟩⟦114⟧⟨21⟩
+[Alice Upside Down] ⟨22⟩⟦140⟧⟨23⟩⟦174⟧⟨24⟩⟦87⟧⟨25⟩⟦191⟧⟨26⟩⟦241⟧⟨27⟩⟦73⟧⟨28⟩⟦73⟧⟨29⟩
+[Alice Upside Down] ⟦196⟧⟨30⟩⟦89⟧⟨31⟩⟦150⟧⟨32⟩⟦62⟧⟨33⟩⟦28⟧⟨34⟩⟦35⟧⟨35⟩⟦240⟧⟨36⟩⟦97⟧⟨37⟩⟦218⟧⟨38⟩⟦99⟧⟨39⟩⟦14⟧⟨40⟩⟦159⟧⟨41⟩
+[Alice Upside Down] ⟨42⟩⟦31⟧⟨43⟩⟦126⟧⟨44⟩⟦58⟧⟨45⟩⟦128⟧⟨46⟩⟦146⟧⟨47⟩⟦49⟧⟨48⟩
+[Switched at Birth (season 2)] ⟦212⟧⟨49⟩⟦161⟧⟨50⟩⟦21⟧⟨51⟩⟦78⟧⟨52⟩⟦180⟧⟨53⟩⟦165⟧⟨54⟩⟦55⟧⟨55⟩⟦52⟧⟨56⟩
+[Switched at Birth (season 2)] ⟨57⟩⟦112⟧⟨58⟩⟦224⟧⟨59⟩⟦7⟧⟨60⟩⟦83⟧⟨61⟩
+[Switched at Birth (season 2)] ⟦209⟧⟨62⟩⟦161⟧⟨63⟩⟦19⟧⟨64⟩⟦149⟧⟨65⟩⟦177⟧⟨66⟩⟦145⟧⟨67⟩⟦54⟧⟨68⟩⟦113⟧⟨69⟩⟦165⟧⟨70⟩⟦166⟧⟨71⟩⟦71⟧⟨72⟩⟦85⟧⟨73⟩⟦152⟧⟨74⟩
+[Lea Thompson] ⟦120⟧⟨75⟩⟦38⟧⟨76⟩⟦25⟧⟨77⟩⟦180⟧⟨78⟩⟦181⟧⟨79⟩⟦76⟧⟨80⟩⟦180⟧⟨81⟩⟦182⟧⟨82⟩⟦151⟧⟨83⟩
+[Lea Thompson] ⟨84⟩⟦106⟧⟨85⟩⟦155⟧⟨86⟩⟦125⟧⟨87⟩⟦53⟧⟨88⟩⟦201⟧⟨89⟩⟦231⟧⟨90⟩⟦223⟧⟨91⟩⟦227⟧⟨92⟩⟦63⟧⟨93⟩⟦59⟧⟨94⟩⟦188⟧⟨95⟩
+[Lea Thompson] ⟦144⟧⟨96⟩⟦90⟧⟨97⟩⟦30⟧⟨98⟩⟦137⟧⟨99⟩⟦3⟧⟨100⟩⟦108⟧⟨101⟩⟦79⟧⟨102⟩⟦5⟧⟨103⟩⟦118⟧⟨104⟩⟦6⟧⟨105⟩
+[Lea Thompson] ⟨106⟩⟦116⟧⟨107⟩⟦200⟧⟨108⟩⟦165⟧⟨109⟩⟦55⟧⟨110⟩
+[Lucas Grabeel] ⟦127⟧⟨111⟩⟦37⟧⟨112⟩⟦22⟧⟨113⟩⟦76⟧⟨114⟩⟦76⟧⟨115⟩⟦151⟧⟨116⟩⟦151⟧⟨117⟩⟦169⟧⟨118⟩⟦169⟧⟨119⟩⟦172⟧⟨120⟩⟦172⟧⟨121⟩
+[Lucas Grabeel] ⟨122⟩⟦156⟧⟨123⟩⟦156⟧⟨124⟩⟦157⟧⟨125⟩⟦184⟧⟨126⟩⟦89⟧⟨127⟩⟦165⟧⟨128⟩⟦86⟧⟨129⟩⟦187⟧⟨130⟩⟦91⟧⟨131⟩⟦84⟧⟨132⟩⟦221⟧⟨133⟩⟦109⟧⟨134⟩⟦202⟧⟨135⟩⟦165⟧⟨136⟩⟦103⟧⟨137⟩
+[Lucas Grabeel] ⟨138⟩⟦17⟧⟨139⟩⟦67⟧⟨140⟩⟦220⟧⟨141⟩⟦180⟧⟨142⟩⟦165⟧⟨143⟩⟦170⟧⟨144⟩
+[Lucas Grabeel] ⟨145⟩⟦229⟧⟨146⟩⟦186⟧⟨147⟩⟦78⟧⟨148⟩⟦55⟧⟨149⟩
+[Lucas Grabeel] ⟨150⟩⟦225⟧⟨151⟩⟦236⟧⟨152⟩⟦75⟧⟨153⟩⟦190⟧⟨154⟩⟦165⟧⟨155⟩⟦167⟧⟨156⟩
+[Switched at Birth (TV series)] ⟨157⟩⟦55⟧⟨158⟩⟦39⟧⟨159⟩⟦178⟧⟨160⟩⟦87⟧⟨161⟩⟦78⟧⟨162⟩⟦180⟧⟨163⟩⟦165⟧⟨164⟩⟦20⟧⟨165⟩⟦115⟧⟨166⟩⟦9⟧⟨167⟩
+[Switched at Birth (TV series)] ⟦208⟧⟨168⟩⟦107⟧⟨169⟩⟦78⟧⟨170⟩⟦203⟧⟨171⟩⟦46⟧⟨172⟩⟦233⟧⟨173⟩⟦179⟧⟨174⟩⟦55⟧⟨175⟩⟦55⟧⟨176⟩⟦235⟧⟨177⟩⟦81⟧⟨178⟩⟦36⟧⟨179⟩⟦176⟧⟨180⟩⟦238⟧⟨181⟩⟦239⟧⟨182⟩⟦65⟧⟨183⟩⟦47⟧⟨184⟩
+[Switched at Birth (TV series)] ⟨185⟩⟦19⟧⟨186⟩⟦197⟧⟨187⟩⟦130⟧⟨188⟩⟦180⟧⟨189⟩⟦165⟧⟨190⟩⟦104⟧⟨191⟩⟦104⟧⟨192⟩⟦165⟧⟨193⟩⟦154⟧⟨194⟩⟦158⟧⟨195⟩⟦158⟧⟨196⟩⟦32⟧⟨197⟩⟦50⟧⟨198⟩
+[List of Switched at Birth episodes] ⟨199⟩⟦55⟧⟨200⟩⟦40⟧⟨201⟩⟦180⟧⟨202⟩⟦78⟧⟨203⟩⟦165⟧⟨204⟩⟦19⟧⟨205⟩⟦115⟧⟨206⟩
+[List of Switched at Birth episodes] ⟨207⟩⟦124⟧⟨208⟩⟦214⟧⟨209⟩⟦165⟧⟨210⟩⟦232⟧⟨211⟩⟦98⟧⟨212⟩⟦55⟧⟨213⟩⟦55⟧⟨214⟩
+[List of Switched at Birth episodes] ⟨215⟩⟦52⟧⟨216⟩⟦19⟧⟨217⟩⟦55⟧⟨218⟩⟦15⟧⟨219⟩⟦161⟧⟨220⟩⟦112⟧⟨221⟩
+[List of Switched at Birth episodes] ⟨222⟩⟦192⟧⟨223⟩⟦82⟧⟨224⟩⟦228⟧⟨225⟩⟦226⟧⟨226⟩⟦139⟧⟨227⟩⟦148⟧⟨228⟩⟦148⟧⟨229⟩⟦48⟧⟨230⟩⟦48⟧⟨231⟩
+[List of Switched at Birth episodes] ⟨232⟩⟦114⟧⟨233⟩⟦19⟧⟨234⟩⟦214⟧⟨235⟩⟦165⟧⟨236⟩⟦13⟧⟨237⟩⟦82⟧⟨238⟩⟦161⟧⟨239⟩⟦112⟧⟨240⟩
+[List of Switched at Birth episodes] ⟦211⟧⟨241⟩⟦102⟧⟨242⟩⟦161⟧⟨243⟩⟦161⟧⟨244⟩⟦115⟧⟨245⟩
+[List of Switched at Birth episodes] ⟨246⟩⟦52⟧⟨247⟩⟦214⟧⟨248⟩⟦165⟧⟨249⟩⟦12⟧⟨250⟩⟦161⟧⟨251⟩⟦112⟧⟨252⟩
+[List of Switched at Birth episodes] ⟦19⟧⟨253⟩⟦111⟧⟨254⟩⟦138⟧⟨255⟩⟦95⟧⟨256⟩⟦95⟧⟨257⟩⟦112⟧⟨258⟩⟦237⟧⟨259⟩⟦142⟧⟨260⟩⟦214⟧⟨261⟩⟦165⟧⟨262⟩⟦11⟧⟨263⟩⟦161⟧⟨264⟩
+[List of Switched at Birth episodes] ⟦194⟧⟨265⟩⟦161⟧⟨266⟩⟦112⟧⟨267⟩⟦45⟧⟨268⟩
+[List of Switched at Birth episodes] ⟨269⟩⟦189⟧⟨270⟩⟦70⟧⟨271⟩⟦214⟧⟨272⟩⟦165⟧⟨273⟩⟦83⟧⟨274⟩⟦83⟧⟨275⟩⟦55⟧⟨276⟩⟦162⟧⟨277⟩⟦162⟧⟨278⟩
+[Switched at Birth (season 3)] ⟦222⟧⟨279⟩⟦161⟧⟨280⟩⟦21⟧⟨281⟩⟦78⟧⟨282⟩⟦180⟧⟨283⟩⟦165⟧⟨284⟩⟦55⟧⟨285⟩⟦112⟧⟨286⟩⟦8⟧⟨287⟩⟦83⟧⟨288⟩
+[Switched at Birth (season 3)] ⟦209⟧⟨289⟩⟦161⟧⟨290⟩⟦19⟧⟨291⟩⟦149⟧⟨292⟩⟦177⟧⟨293⟩⟦145⟧⟨294⟩⟦165⟧⟨295⟩⟦166⟧⟨296⟩⟦71⟧⟨297⟩⟦85⟧⟨298⟩⟦152⟧⟨299⟩
+[Switched at Birth (season 4)] ⟨300⟩⟦52⟧⟨301⟩⟦19⟧⟨302⟩⟦12⟧⟨303⟩⟦161⟧⟨304⟩⟦110⟧⟨305⟩⟦78⟧⟨306⟩⟦165⟧⟨307⟩⟦55⟧⟨308⟩⟦112⟧⟨309⟩
+[Switched at Birth (season 4)] ⟦209⟧⟨310⟩⟦161⟧⟨311⟩⟦19⟧⟨312⟩⟦149⟧⟨313⟩⟦177⟧⟨314⟩⟦145⟧⟨315⟩⟦165⟧⟨316⟩⟦166⟧⟨317⟩⟦71⟧⟨318⟩⟦85⟧⟨319⟩⟦152⟧⟨320⟩
+[General Hospital cast members] ⟨321⟩⟦96⟧⟨322⟩⟦204⟧⟨323⟩⟦180⟧⟨324⟩⟦78⟧⟨325⟩⟦18⟧⟨326⟩
+[General Hospital cast members] ⟨327⟩⟦94⟧⟨328⟩⟦165⟧⟨329⟩⟦45⟧⟨330⟩
+[General Hospital cast members] ⟦205⟧⟨331⟩⟦60⟧⟨332⟩⟦133⟧⟨333⟩⟦121⟧⟨334⟩⟦77⟧⟨335⟩⟦52⟧⟨336⟩⟦206⟧⟨337⟩⟦23⟧⟨338⟩⟦33⟧⟨339⟩⟦171⟧⟨340⟩⟦143⟧⟨341⟩
+[General Hospital cast members] ⟦93⟧⟨342⟩⟦60⟧⟨343⟩⟦133⟧⟨344⟩⟦216⟧⟨345⟩⟦165⟧⟨346⟩⟦60⟧⟨347⟩⟦133⟧⟨348⟩⟦51⟧⟨349⟩⟦100⟧⟨350⟩⟦101⟧⟨351⟩⟦44⟧⟨352⟩⟦215⟧⟨353⟩⟦165⟧⟨354⟩⟦42⟧⟨355⟩
+[General Hospital cast members] ⟦34⟧⟨356⟩⟦16⟧⟨357⟩⟦43⟧⟨358⟩⟦142⟧⟨359⟩
+[General Hospital cast members] ⟦24⟧⟨360⟩⟦117⟧⟨361⟩⟦119⟧⟨362⟩⟦160⟧⟨363⟩⟦210⟧⟨364⟩⟦60⟧⟨365⟩⟦134⟧⟨366⟩⟦1⟧⟨367⟩⟦88⟧⟨368⟩⟦52⟧⟨369⟩
+[General Hospital cast members] ⟦26⟧⟨370⟩⟦57⟧⟨371⟩⟦199⟧⟨372⟩⟦60⟧⟨373⟩⟦133⟧⟨374⟩⟦213⟧⟨375⟩⟦164⟧⟨376⟩⟦72⟧⟨377⟩
+[General Hospital cast members] ⟦27⟧⟨378⟩⟦213⟧⟨379⟩⟦164⟧⟨380⟩⟦115⟧⟨381⟩⟦230⟧⟨382⟩⟦193⟧⟨383⟩⟦60⟧⟨384⟩⟦133⟧⟨385⟩⟦1⟧⟨386⟩⟦115⟧⟨387⟩⟦105⟧⟨388⟩⟦74⟧⟨389⟩⟦132⟧⟨390⟩
+[General Hospital cast members] ⟦92⟧⟨391⟩⟦60⟧⟨392⟩⟦133⟧⟨393⟩⟦129⟧⟨394⟩⟦219⟧⟨395⟩⟦60⟧⟨396⟩⟦133⟧⟨397⟩⟦1⟧⟨398⟩⟦141⟧⟨399⟩
+[General Hospital cast members] ⟦198⟧⟨400⟩⟦123⟧⟨401⟩⟦61⟧⟨402⟩⟦134⟧⟨403⟩⟦217⟧⟨404⟩⟦168⟧⟨405⟩⟦207⟧⟨406⟩⟦60⟧⟨407⟩⟦134⟧⟨408⟩⟦214⟧⟨409⟩⟦165⟧⟨410⟩
+[Constance Marie] ⟦69⟧⟨411⟩⟦68⟧⟨412⟩⟦38⟧⟨413⟩⟦25⟧⟨414⟩
+[Constance Marie] ⟨415⟩⟦106⟧⟨416⟩⟦155⟧⟨417⟩⟦41⟧⟨418⟩⟦2⟧⟨419⟩⟦106⟧⟨420⟩⟦155⟧⟨421⟩⟦131⟧⟨422⟩⟦136⟧⟨423⟩⟦136⟧⟨424⟩⟦163⟧⟨425⟩⟦185⟧⟨426⟩⟦89⟧⟨427⟩⟦4⟧⟨428⟩
+[Constance Marie] ⟨429⟩⟦153⟧⟨430⟩⟦186⟧⟨431⟩⟦78⟧⟨432⟩⟦55⟧⟨433⟩
+
+[user]
+
+问题：
+Which cast member of Alice Upside Down also stars in the ABC Family/Freeform drama "Switched at Birth?"
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

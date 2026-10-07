@@ -1,0 +1,343 @@
+[
+  {
+    "qid": "hotpot_282",
+    "question": "In what month was the relief first officer of the flight that crashed on its way to Cairo with a sto",
+    "expectedAnswer": "February",
+    "predictedAnswer": "# 路径一：通过航班与人员身份定位出生月份\n\n步骤1：使用⟦109⟧⟦3⟧⟦181⟧，提取“EgyptAir Flight 990 (MS990/MSR990)”这一航班信息，确认该航班即为飞往开罗、经停纽约的失事航班。\n\n步骤2：综合⟦276⟧⟦77⟧⟨194⟩⟨195⟩⟨196⟩⟨197⟩⟦106⟧⟦38⟧⟨198⟩⟨199⟩⟦288⟧⟨201⟩⟨200⟩⟨202⟩，提取官方可能原因中明确指出“the relief first officer”实施了“deliberate action”，从而确认该航班的relief first officer身份。\n\n步骤3：使用⟦129⟧⟨120⟩⟨121⟩⟨122⟩⟨123⟩⟨124⟩⟨125⟩⟦1⟧⟨126⟩⟨127⟩⟦5⟧⟨128⟩⟨129⟩⟦23⟧⟨130⟩⟨131⟩⟦108⟧⟨132⟩⟦15⟧⟨133⟩⟨134⟩⟦262⟧⟨135⟩，提取Gameel Al-Batouti的出生日期信息，其中⟦5⟧明确为“2 February”，即出生月份为二月。\n\n结论：该航班（EgyptAir Flight 990）的relief first officer是Gameel Al-Batouti，其出生月份为二月（February）。\n\n# 路径二：通过姓名与职务交叉验证出生月份\n\n步骤1：使用⟦129⟧⟦130⟧⟦332⟧⟦333⟧，提取Gameel Al-Batouti（Gamil El Batouti / جميل البطوطي）的姓名信息，确认其身份。\n\n步骤2：综合⟦23⟧⟦15⟧⟦262⟧，提取其曾为“a pilot”和“a former officer”以及“the Egyptian Air Force”的背景，确认其航空职务经历。\n\n步骤3：综合⟦288⟧⟦201⟧⟦200⟧，提取“the relief first officer”这一职务，与路径一中的航班信息交叉验证，确认Gameel Al-Batouti即为EgyptAir Flight 990的relief first officer。\n\n步骤4：使用⟦5⟧，提取“2 February”这一出生日期信息，确定其出生月份为二月。\n\n结论：Gameel Al-Batouti作为EgyptAir Flight 990的relief first officer，出生于二月（February）。\n\n# 路径三：通过航班航线与人员职务综合定位\n\n步骤1：综合⟦109⟧⟦3⟧⟦181⟧⟨169⟩⟨170⟩⟨171⟩⟨172⟩⟨173⟩⟦71⟧⟨174⟩⟨175⟩⟦167⟧⟨176⟩⟦107⟧⟨177⟩⟦34⟧⟦240⟧⟨178⟩⟨179⟩⟦159⟧⟨180⟩⟨181⟩，提取航班从洛杉矶国际机场出发，经停纽约肯尼迪国际机场，最终飞往开罗国际机场的航线信息，确认该航班为EgyptAir Flight 990。\n\n步骤2：综合⟦276⟧⟦106⟧⟦38⟧⟦288⟧，提取官方可能原因中“the relief first officer”的“deliberate action”，确认该航班relief first officer的身份。\n\n步骤3：使用⟦129⟧⟨120⟩⟨121⟩⟨122⟩⟨123⟩⟨124⟩⟨125⟩⟦1⟧⟨126⟩⟨127⟩⟦5⟧⟨128⟩⟨129⟩⟦23⟧⟨130⟩⟨131⟩⟦108⟧⟨132⟩⟦15⟧⟨133⟩⟨134⟩⟦262⟧⟨135⟩，提取Gameel Al-Batouti的出生日期为“2 February 1940 – 31 October 1999”，确认其出生月份为二月。\n\n结论：该航班relief first officer为Gameel Al-Batouti，出生于二月（February）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦129⟧⟨120⟩⟦2⟧⟨121⟩⟦333⟧⟨122⟩⟦332⟧⟨123⟩⟦130⟧⟨124⟩⟦1⟧⟨125⟩",
+    "nounCount": 513,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8057,
+      "completion_tokens": 306,
+      "total_tokens": 8363,
+      "prompt_tokens_details": {
+        "cached_tokens": 7808
+      },
+      "prompt_cache_hit_tokens": 7808,
+      "prompt_cache_miss_tokens": 249
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1236,
+      "completion_tokens": 867,
+      "total_tokens": 2103,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1236
+    }
+  },
+  {
+    "qid": "hotpot_1796",
+    "question": "What party was Johan Henrik Deuntzer a part of before the party that translates to the \"Radical Left",
+    "expectedAnswer": "Liberal \"Venstre\" party",
+    "predictedAnswer": "# 路径一：通过政党演变时间线推理\n\n步骤1：使用⟦93⟧⟦101⟧⟦110⟧⟦12⟧，提取 Johan Henrik Deuntzer（1845年5月20日－1918年11月16日）是一位丹麦政治家，其政治生涯跨越多个政党。\n\n步骤2：使用⟦185⟧⟦156⟧⟦157⟧，提取 Deuntzer 属于自由党\"Venstre\"，直到1905年他加入了另一个政党。\n\n步骤3：使用⟦171⟧⟦104⟧，提取丹麦社会自由党（Danish Social Liberal Party）的成员信息，该党即\"Radical Left\"的对应翻译。\n\n步骤4：综合⟦157⟧⟦171⟧，Deuntzer 在1905年离开 Venstre 后加入的正是丹麦社会自由党（Radical Left），因此在此之前他属于 Venstre。\n\n结论：Johan Henrik Deuntzer 在加入\"Radical Left\"（丹麦社会自由党）之前，属于自由党\"Venstre\"。\n\n---\n\n# 路径二：通过内阁与政党关联交叉验证\n\n步骤1：使用⟦159⟧⟦169⟧⟦51⟧，提取1901年丹麦议会选举后，Johan Henrik Deuntzer 成为丹麦首届自由政府的内阁主席。\n\n步骤2：使用⟦185⟧，提取 Deuntzer 所属的\"Venstre\"（自由党）是当时组建政府的政党。\n\n步骤3：使用⟦157⟧⟦171⟧，交叉验证 Deuntzer 直到1905年才加入丹麦社会自由党（即\"Radical Left\"）。\n\n步骤4：综合⟦51⟧⟦185⟧⟦157⟧，Deuntzer 在1901年领导自由政府时属于 Venstre，1905年才转入社会自由党。\n\n结论：Deuntzer 在加入\"Radical Left\"之前是 Venstre（自由党）成员。\n\n---\n\n# 路径三：通过\"Radical Left\"名称溯源推理\n\n步骤1：使用⟦171⟧，提取\"Danish Social Liberal Party\"这一政党名称。\n\n步骤2：使用⟦119⟧⟦117⟧，提取该党与\"people\"和\"party\"相关的信息，确认其即通常译为\"Radical Left\"的丹麦政党。\n\n步骤3：使用⟦157⟧，提取 Deuntzer 于1905年加入该党，此前属于另一政党。\n\n步骤4：使用⟦185⟧，提取该另一政党为自由党\"Venstre\"。\n\n结论：Johan Henrik Deuntzer 在加入译为\"Radical Left\"的丹麦社会自由党之前，是自由党\"Venstre\"的成员。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦93⟧⟨149⟩⟦101⟧⟨150⟩⟦110⟧⟨151⟩⟦12⟧⟦124⟧⟨152⟩⟨153⟩⟨154⟩⟨155⟩",
+    "nounCount": 299,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 5198,
+      "completion_tokens": 320,
+      "total_tokens": 5518,
+      "prompt_tokens_details": {
+        "cached_tokens": 4992
+      },
+      "prompt_cache_hit_tokens": 4992,
+      "prompt_cache_miss_tokens": 206
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1211,
+      "completion_tokens": 594,
+      "total_tokens": 1805,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1211
+    }
+  },
+  {
+    "qid": "hotpot_5987",
+    "question": "What else was Baghdad known as during the Abbasid Caliphate?",
+    "expectedAnswer": "the City of Peace",
+    "predictedAnswer": "# 路径一：基于首都地位的称谓推理\n\n步骤1：使用⟦90⟧，提取“capital”这一属性，判断Baghdad在阿拔斯王朝时期具有首都地位。\n\n步骤2：综合⟦311⟧⟦402⟧，对比“the Abbasid capital”与“the then capital”两种表述，交叉验证Baghdad作为阿拔斯王朝首都的身份一致性。\n\n步骤3：使用⟦264⟧，提取“seat”一词，判断Baghdad也被称为阿拔斯王朝的权力中心/所在地。\n\n结论：Baghdad在阿拔斯哈里发时期被称为“the Abbasid capital”（阿拔斯首都）以及“the then capital”（当时的首都），并被视为政权的“seat”（中心所在地）。\n\n# 路径二：基于城市名称与地理实体的推理\n\n步骤1：使用⟦80⟧，提取“Baghdad”作为城市名称，判断其为阿拔斯王朝的核心城市。\n\n步骤2：使用⟦100⟧，提取“city”这一通用属性，综合⟦80⟧⟦100⟧，确认Baghdad是一座城市。\n\n步骤3：综合⟦345⟧，对比“the City”这一表述，判断在特定语境下Baghdad也被简称为“the City”（这座城市）。\n\n结论：Baghdad在阿拔斯哈里发时期也被称为“the City”（这座城市），作为其首都城市的简称。\n\n# 路径三：基于历史事件语境的称谓推理\n\n步骤1：使用⟦218⟧，提取“Peace”一词，判断其可能与Baghdad的称号相关（如“City of Peace”）。\n\n步骤2：综合⟦90⟧⟦402⟧，对比“capital”与“the then capital”，交叉验证Baghdad在阿拔斯王朝时期的政治地位。\n\n步骤3：使用⟦396⟧，提取“the stories”，判断Baghdad在文学语境中与《一千零一夜》等故事相关联，可能被称为故事之城。\n\n结论：Baghdad在阿拔斯哈里发时期还可能被称为“Peace”（和平之城）以及与“the stories”（故事）相关的称号，反映其作为文化中心的地位。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨103⟩⟨104⟩⟦396⟧⟦345⟧⟦218⟧⟦311⟧⟨314⟩⟨315⟩⟦90⟧⟦80⟧⟦402⟧⟦90⟧",
+    "nounCount": 609,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 10150,
+      "completion_tokens": 101,
+      "total_tokens": 10251,
+      "prompt_tokens_details": {
+        "cached_tokens": 9984
+      },
+      "prompt_cache_hit_tokens": 9984,
+      "prompt_cache_miss_tokens": 166
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 535,
+      "completion_tokens": 450,
+      "total_tokens": 985,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 535
+    }
+  },
+  {
+    "qid": "hotpot_2876",
+    "question": "Who is the Chief Executive Officer of the corporation that owns Space Dev?",
+    "expectedAnswer": "Fatih Ozmen",
+    "predictedAnswer": "# 路径一：通过所有权链直接定位 CEO\n\n步骤1：使用⟦313⟧，提取 SpaceDev 这一实体，确认其为问题中提到的 \"Space Dev\"。\n步骤2：综合⟦313⟧⟦331⟧⟦180⟧，SpaceDev 的 \"spaceflight and microsatellite work\" 属于 \"Space Systems Business\" 板块，而该板块的归属指向 Sierra Nevada Corporation。\n步骤3：使用⟦308⟧，确认 Sierra Nevada Corporation 是拥有 SpaceDev 的母公司。\n步骤4：综合⟦78⟧⟦124⟧⟦129⟧，提取 Sierra Nevada Corporation 的 CEO 信息，即 Eren Ozmen 和 Fatih Ozmen 共同担任该职务。\n\n结论：SpaceDev 的母公司 Sierra Nevada Corporation 的 CEO 是 Eren Ozmen 和 Fatih Ozmen（两人共同担任）。\n\n# 路径二：通过 SNC 领导层交叉验证\n\n步骤1：使用⟦310⟧，提取 SNC 这一缩写，确认其与 Sierra Nevada Corporation 的对应关系。\n步骤2：综合⟦308⟧⟦310⟧⟦191⟧⟦368⟧，SNC 即 Sierra Nevada Corporation，其 leadership 信息在材料中多次出现。\n步骤3：综合⟦124⟧⟦129⟧⟦274⟧，提取领导层具体人物：Eren Ozmen 担任 president，Fatih Ozmen 也在领导层中，两人均为 CEO。\n步骤4：使用⟦313⟧，确认 SpaceDev 被 Sierra Nevada Corporation 拥有，从而将 CEO 归属到 SNC 的领导层。\n\n结论：通过 SNC 领导层信息交叉验证，SpaceDev 所属公司的 CEO 为 Eren Ozmen 和 Fatih Ozmen。\n\n# 路径三：通过业务整合关系反推所有权\n\n步骤1：使用⟦313⟧，提取 SpaceDev 作为 \"a part\" 的身份。\n步骤2：综合⟦267⟧⟦331⟧⟦180⟧，SpaceDev 是 \"the Space Systems Business\" 的一部分，而该业务板块的 \"spaceflight and microsatellite work\" 与 Sierra Nevada Corporation 的业务描述一致。\n步骤3：综合⟦308⟧⟦314⟧，Sierra Nevada Corporation 的业务涵盖 spaceflight，与 SpaceDev 的业务直接对应，确认所有权关系。\n步骤4：使用⟦78⟧，提取 Sierra Nevada Corporation 的 CEO 为 Eren Ozmen 和 Fatih Ozmen。\n\n结论：通过业务整合关系反推，SpaceDev 属于 Sierra Nevada Corporation，其 CEO 为 Eren Ozmen 和 Fatih Ozmen。\n\n# 路径四：通过材料中的直接陈述确认\n\n步骤1：使用⟦313⟧，提取 SpaceDev 实体。\n步骤2：综合⟦308⟧⟦331⟧，材料中明确将 SpaceDev 与 Sierra Nevada Corporation 的 \"Space Systems Business\" 关联。\n步骤3：使用⟦78⟧，直接提取 Sierra Nevada Corporation 的 CEO 信息。\n步骤4：综合⟦124⟧⟦129⟧，确认 CEO 的具体姓名为 Eren Ozmen 和 Fatih Ozmen。\n\n结论：综合多条材料直接陈述，SpaceDev 所属公司 Sierra Nevada Corporation 的 CEO 是 Eren Ozmen 和 Fatih Ozmen。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦313⟧⟨571⟩⟦17⟧⟦267⟧⟨572⟩⟨573⟩⟦331⟧⟨574⟩⟨575⟩⟦180⟧⟨577⟩⟦233⟧",
+    "nounCount": 865,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 12336,
+      "completion_tokens": 250,
+      "total_tokens": 12586,
+      "prompt_tokens_details": {
+        "cached_tokens": 12160
+      },
+      "prompt_cache_hit_tokens": 12160,
+      "prompt_cache_miss_tokens": 176
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 942,
+      "completion_tokens": 729,
+      "total_tokens": 1671,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 942
+    }
+  },
+  {
+    "qid": "hotpot_6152",
+    "question": "What is the name of the American author, songwriter, educator, lawyer, diplomat, civil rights activi",
+    "expectedAnswer": "James Weldon Johnson",
+    "predictedAnswer": "# 路径一：通过多重身份与配偶关系锁定人物\n\n步骤1：使用⟦131⟧，提取核心人名“James Weldon Johnson”，并综合⟦31⟧⟦210⟧⟦89⟧⟦141⟧⟦81⟧⟦9⟧，确认其身份标签涵盖“American author”“songwriter”“educator”“lawyer”“diplomat”“civil rights activist”，与问题描述的多重身份完全吻合。\n\n步骤2：使用⟦105⟧，提取“Grace Nail Johnson”这一姓名，结合⟦258⟧⟦262⟧，确认Grace Nail Johnson是“writer James Weldon Johnson”的“wife”，即James Weldon Johnson是Grace Nail Johnson的丈夫，满足“husband to Grace Nail Johnson”的条件。\n\n步骤3：综合⟦93⟧⟦94⟧⟦203⟧⟦245⟧⟦68⟧，提取“executive secretary”这一职位，并交叉验证⟦235⟧，确认James Weldon Johnson是“the first African American”担任该职位，且该组织为“the National Association for the Advancement of Colored People (NAACP)”。\n\n结论：James Weldon Johnson 是符合所有条件的人。\n\n# 路径二：通过NAACP执行秘书职位与“首位非裔”身份交叉验证\n\n步骤1：使用⟦235⟧，提取“the first African American”这一关键限定，结合⟦93⟧⟦94⟧，确认该人物是首位非裔“executive secretary”。\n\n步骤2：综合⟦245⟧⟦224⟧⟦68⟧，提取组织全称“the National Association for the Advancement of Colored People”，并交叉验证⟦163⟧，确认该组织缩写为NAACP，与问题中的组织名称一致。\n\n步骤3：使用⟦131⟧，提取“James Weldon Johnson”这一姓名，综合⟦132⟧，确认“Johnson”即为该组织的执行秘书，且其身份标签与问题描述的多重身份相符。\n\n结论：James Weldon Johnson 是首位非裔NAACP执行秘书。\n\n# 路径三：通过配偶关系与职业身份综合锁定\n\n步骤1：使用⟦105⟧，提取“Grace Nail Johnson”这一姓名，结合⟦258⟧⟦262⟧，确认其丈夫为“writer James Weldon Johnson”。\n\n步骤2：综合⟦31⟧⟦210⟧⟦89⟧⟦141⟧⟦81⟧⟦9⟧，提取“American author”“songwriter”“educator”“lawyer”“diplomat”“civil rights activist”等多重身份，与问题描述完全匹配。\n\n步骤3：使用⟦93⟧⟦94⟧⟦203⟧，提取“executive secretary”职位，结合⟦245⟧⟦224⟧⟦68⟧，确认该职位属于NAACP，且⟦235⟧确认其为首位非裔担任者。\n\n结论：综合配偶关系与职业身份，该人物为James Weldon Johnson。\n\n# 路径四：通过时间线与组织角色排除其他候选人\n\n步骤1：使用⟦95⟧⟦171⟧⟦136⟧，提取“February”“November”“June”等时间信息，结合⟦98⟧，确认James Weldon Johnson于1917年开始在NAACP工作，1920年被选为执行秘书。\n\n步骤2：综合⟦99⟧⟦100⟧⟦101⟧⟦102⟧⟦103⟧，提取“In 1920 he was”“to be chosen as”“of”等片段，交叉验证⟦93⟧⟦94⟧，确认其被选为“executive secretary of the organization”。\n\n步骤3：使用⟦43⟧⟦141⟧⟦163⟧，提取“author”“lawyer”“NAACP”等标签，对比其他候选人（如W. E. B. Du Bois、Clement G. Morgan等），确认只有James Weldon Johnson同时满足所有身份与职位条件。\n\n结论：James Weldon Johnson 是唯一同时满足多重身份、配偶关系及NAACP执行秘书职位的人。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦131⟧⟨77⟩⟨78⟩⟦31⟧⟨79⟩⟨80⟩⟦89⟧⟦89⟧⟨81⟩⟨82⟩⟨83⟩⟨84⟩",
+    "nounCount": 398,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6357,
+      "completion_tokens": 358,
+      "total_tokens": 6715,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 213
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1353,
+      "completion_tokens": 925,
+      "total_tokens": 2278,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1353
+    }
+  },
+  {
+    "qid": "hotpot_4241",
+    "question": "The Story of Them Featuring Van Morrison is a compilation album recorded by what Northern Irish band",
+    "expectedAnswer": "Them",
+    "predictedAnswer": "# 路径一：直接实体匹配\n\n步骤1：使用⟦212⟧⟦117⟧⟦118⟧⟦17⟧，提取\"The Story of Them Featuring Van Morrison\"的定义——它是一张compilation album，标题中直接包含\"Them\"这一名称。\n\n步骤2：综合⟦23⟧⟦205⟧⟦206⟧⟦207⟧，提取\"Them were a Northern Irish band formed in Belfast in April 1964\"——该材料明确给出了问题所问的乐队全称、国籍、成立地点和时间。\n\n步骤3：综合⟦212⟧⟦23⟧，交叉验证：⟦212⟧中的\"Them\"与⟦23⟧中的\"Them (band)\"指向同一实体，且⟦23⟧的成立信息（Belfast, April 1964）与问题描述完全吻合。\n\n结论：The Story of Them Featuring Van Morrison 是由 **Them** 录制的合辑，Them 是一支1964年4月成立于贝尔法斯特的北爱尔兰乐队。\n\n---\n\n# 路径二：成员与作品关联验证\n\n步骤1：使用⟦212⟧⟦238⟧⟦220⟧，提取该合辑与vocalist（主唱）Van Morrison的关联——标题中\"Featuring Van Morrison\"表明Van Morrison是Them的主唱。\n\n步骤2：综合⟦166⟧⟦232⟧，提取\"singer Van Morrison's musical career\"以及⟦232⟧中\"Van Morrison\"的身份信息，确认Van Morrison与Them的从属关系。\n\n步骤3：综合⟦200⟧⟦171⟧⟦154⟧，提取Them最著名的作品\"Gloria\"是garage rock standard，而⟦212⟧中该合辑也包含\"Gloria\"，进一步确认Them与Van Morrison的绑定关系。\n\n结论：通过主唱Van Morrison与Them的关联，以及代表作品\"Gloria\"的交叉验证，确认该合辑的录制乐队为 **Them**。\n\n---\n\n# 路径三：历史脉络综合推断\n\n步骤1：使用⟦214⟧⟦91⟧，提取\"the two-year history\"和\"history\"——Them是一支存在时间较短的乐队（约两年），其历史被收录于该合辑中。\n\n步骤2：综合⟦205⟧⟦206⟧⟦207⟧⟦32⟧，提取\"The Northern Irish band formed in Belfast in April\"——⟦32⟧对应\"April\"，与问题中的\"April 1964\"直接对应。\n\n步骤3：综合⟦204⟧⟦208⟧⟦200⟧，提取\"Them were... 1964, most prominently known for the garage rock standard 'Gloria'\"——⟦208⟧中的\"1964\"与⟦207⟧中的成立时间一致，形成时间线的交叉支撑。\n\n结论：综合历史脉络、成立时间（1964年4月，贝尔法斯特）及代表作品，该合辑的录制乐队为 **Them**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦212⟧⟨117⟩⟨118⟩⟨120⟩⟨119⟩⟨121⟩⟦30⟧⟦168⟧⟨122⟩⟨123⟩⟦205⟧⟨124⟩",
+    "nounCount": 384,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6212,
+      "completion_tokens": 244,
+      "total_tokens": 6456,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6212
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1029,
+      "completion_tokens": 675,
+      "total_tokens": 1704,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1029
+    }
+  },
+  {
+    "qid": "hotpot_5055",
+    "question": "Which American actor tries to make his long distance relationship with Priya work in \"The Infestatio",
+    "expectedAnswer": "John Mark Galecki",
+    "predictedAnswer": "# 路径一：基于剧集与角色关系的直接推理\n\n步骤1：使用⟦283⟧⟦296⟧⟦274⟧⟦6⟧，提取“The Infestation Hypothesis”是《The Big Bang Theory》第五季的第二集，确定该集的基本信息。\n\n步骤2：综合⟦91⟧⟦242⟧⟦190⟧⟦20⟧⟦61⟧，提取该集剧情中Sheldon（⟦242⟧）和Penny（⟦190⟧）因a new chair（⟦20⟧）产生互动，但未直接涉及Priya。\n\n步骤3：综合⟦144⟧⟦201⟧⟦125⟧⟦101⟧，提取Leonard（⟦144⟧）与Priya（⟦201⟧）处于his long distance relationship（⟦125⟧）中，且该集（⟦101⟧）涉及这一关系。\n\n步骤4：综合⟦139⟧⟦137⟧⟦314⟧，提取Johnny Galecki（⟦139⟧）是饰演Leonard的演员，Jim Parsons（⟦137⟧）饰演Sheldon，确认Johnny Galecki为美国演员。\n\n结论：Johnny Galecki饰演的Leonard在“The Infestation Hypothesis”中试图维持与Priya的异地恋。\n\n# 路径二：基于演员与角色对应关系的交叉验证\n\n步骤1：使用⟦139⟧⟦314⟧，提取Johnny Galecki与“Theory”关联，结合⟦6⟧确认其出演《The Big Bang Theory》。\n\n步骤2：综合⟦144⟧⟦201⟧⟦125⟧，提取Leonard与Priya的异地恋关系，且⟦101⟧表明该集涉及此情节。\n\n步骤3：综合⟦137⟧⟦242⟧⟦190⟧，排除Jim Parsons（Sheldon）和Penny作为与Priya异地恋的对象，交叉验证只有Leonard符合条件。\n\n结论：通过角色与演员的对应关系，确认Johnny Galecki是答案。\n\n# 路径三：基于剧情冲突与角色动机的推理\n\n步骤1：使用⟦283⟧⟦296⟧，提取“The Infestation Hypothesis”为特定剧集，结合⟦274⟧确认其属于第五季。\n\n步骤2：综合⟦91⟧⟦242⟧⟦190⟧⟦20⟧，提取该集主要冲突围绕Sheldon和Penny的椅子，但⟦101⟧⟦102⟧提示另有角色关系线索。\n\n步骤3：综合⟦144⟧⟦201⟧⟦125⟧，提取Leonard试图维持与Priya的异地恋，且⟦139⟧确认Johnny Galecki饰演Leonard。\n\n结论：剧情中唯一试图维持与Priya异地恋的角色是Leonard，由Johnny Galecki饰演。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦283⟧⟨79⟩⟦296⟧⟨80⟩⟨81⟩⟦274⟧⟨82⟩⟨83⟩⟦6⟧⟨84⟩⟨85⟩⟦58⟧",
+    "nounCount": 445,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 7403,
+      "completion_tokens": 164,
+      "total_tokens": 7567,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7403
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 774,
+      "completion_tokens": 646,
+      "total_tokens": 1420,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 774
+    }
+  },
+  {
+    "qid": "hotpot_4980",
+    "question": "Igor Naming Agency named a resort located where?",
+    "expectedAnswer": "Las Vegas Strip",
+    "predictedAnswer": "# 路径一：直接定位命名对象\n\n步骤1：使用⟦139⟧，提取\"Igor Naming Agency\"这一命名机构的基本信息，确认其为一家美国命名机构。\n\n步骤2：综合⟦257⟧⟦220⟧，识别\"Igor Naming Agency\"所命名的度假村为\"the Aria Resort\"，且该度假村位于\"Sausalito\"。\n\n结论：Igor Naming Agency 命名的度假村位于 Sausalito。\n\n# 路径二：通过命名案例交叉验证\n\n步骤1：使用⟦139⟧⟦257⟧，提取\"Igor Naming Agency\"与\"the Aria Resort\"之间的命名关系，确认该机构确实为这家度假村命名。\n\n步骤2：综合⟦220⟧⟦257⟧，将\"Sausalito\"与\"the Aria Resort\"关联，确认该度假村的地理位置。\n\n结论：该度假村位于 Sausalito，与路径一结论一致。\n\n# 路径三：排除干扰项\n\n步骤1：使用⟦65⟧，提取\"California\"这一地名信息，判断其是否与\"Igor Naming Agency\"命名的度假村直接相关。\n\n步骤2：综合⟦139⟧⟦257⟧⟦220⟧，对比\"California\"与\"Sausalito\"两个地名，确认\"Sausalito\"才是与\"Igor Naming Agency\"命名的度假村直接关联的地点。\n\n结论：Igor Naming Agency 命名的度假村位于 Sausalito，而非仅泛泛提及的 California。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦139⟧⟨81⟩⟦42⟧⟨82⟩⟨83⟩⟦37⟧⟦139⟧⟨84⟩⟦220⟧⟨85⟩⟨86⟩⟦138⟧",
+    "nounCount": 397,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7092,
+      "completion_tokens": 242,
+      "total_tokens": 7334,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7092
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 929,
+      "completion_tokens": 329,
+      "total_tokens": 1258,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 929
+    }
+  },
+  {
+    "qid": "hotpot_6470",
+    "question": "Which of the teams that Sun-woo Kim played on never won a division title?",
+    "expectedAnswer": "Colorado Rockies",
+    "predictedAnswer": "# 路径一：从金善宇的球队列表中筛选\n\n步骤1：使用⟦246⟧，提取 Sun-woo \"Sunny\" Kim 的身份信息，确认其为韩国职业棒球投手。\n\n步骤2：综合⟦495⟧⟦496⟧⟦497⟧⟦498⟧⟦499⟧⟦500⟧，提取金善宇曾效力的球队列表：Boston Red Sox、Montreal Expos/Washington Nationals、Colorado Rockies、Cincinnati Reds、Miami Marlins。\n\n步骤3：综合⟦92⟧⟦93⟧⟦94⟧⟦95⟧⟦96⟧⟦97⟧⟦98⟧⟦99⟧⟦100⟧，提取 Colorado Rockies 是两支从未赢得过分区冠军的 MLB 球队之一。\n\n步骤4：综合⟦321⟧⟦345⟧⟦341⟧⟦203⟧⟦203⟧⟦38⟧⟦209⟧，交叉验证 Colorado Rockies 虽曾获得外卡席位，但从未赢得过分区冠军。\n\n结论：在 Sun-woo Kim 效力过的球队中，**Colorado Rockies** 从未赢得过分区冠军。\n\n---\n\n# 路径二：从“从未赢得分区冠军”的球队反向匹配\n\n步骤1：使用⟦92⟧⟦93⟧⟦94⟧⟦95⟧⟦96⟧⟦97⟧⟦98⟧⟦99⟧⟦100⟧，提取关键信息：Colorado Rockies 是两支从未赢得过分区冠军的 MLB 球队之一。\n\n步骤2：使用⟦246⟧⟦495⟧⟦496⟧⟦497⟧⟦498⟧⟦499⟧⟦500⟧，确认金善宇曾效力于 Colorado Rockies。\n\n步骤3：综合⟦356⟧⟦128⟧，确认金善宇效力过多支 MLB 球队，需逐一排查。\n\n步骤4：综合⟦273⟧⟦184⟧⟦305⟧⟦77⟧，对比其他球队（Boston Red Sox、Montreal Expos/Washington Nationals、Miami Marlins、Cincinnati Reds），这些球队均有赢得过分区冠军的历史记录。\n\n结论：唯一符合“金善宇效力过且从未赢得分区冠军”条件的球队是 **Colorado Rockies**。\n\n---\n\n# 路径三：交叉验证——排除法与直接证据结合\n\n步骤1：使用⟦246⟧⟦495⟧⟦496⟧⟦497⟧⟦498⟧⟦499⟧⟦500⟧，列出金善宇的全部效力球队：Boston Red Sox、Montreal Expos/Washington Nationals、Colorado Rockies、Cincinnati Reds、Miami Marlins。\n\n步骤2：综合⟦92⟧⟦93⟧⟦94⟧⟦95⟧⟦96⟧⟦97⟧⟦98⟧⟦99⟧⟦100⟧，直接提取“Colorado Rockies 从未赢得过分区冠军”这一事实。\n\n步骤3：综合⟦321⟧⟦345⟧⟦341⟧⟦203⟧⟦203⟧⟦38⟧⟦209⟧，验证 Colorado Rockies 的最佳战绩仅为外卡席位，从未获得分区冠军。\n\n步骤4：使用⟦273⟧⟦184⟧⟦305⟧⟦77⟧，确认其他球队均有过分区冠军记录，排除可能性。\n\n结论：通过直接证据与排除法交叉验证，**Colorado Rockies** 是金善宇效力过且从未赢得分区冠军的球队。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦246⟧⟦370⟧⟨483⟩⟨482⟩⟦2⟧⟨484⟩⟦376⟧⟦376⟧⟨485⟩⟨486⟩⟦130⟧⟨487⟩",
+    "nounCount": 476,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8312,
+      "completion_tokens": 289,
+      "total_tokens": 8601,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 8312
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1164,
+      "completion_tokens": 797,
+      "total_tokens": 1961,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1164
+    }
+  },
+  {
+    "qid": "hotpot_3790",
+    "question": "Who gave the mother of Alberic II of Spoleto the title \"patricia\" of Rome?",
+    "expectedAnswer": "Pope John X",
+    "predictedAnswer": "# 路径一：通过Alberic II条目直接追溯\n\n步骤1：使用⟦17⟧，提取Alberic II的身份信息，确认其为\"Alberic II\"（即Alberic II of Spoleto）。\n\n步骤2：综合⟦45⟧⟦68⟧，提取Alberic II的\"母亲\"（his mother / mother）身份，确认其母亲为Marozia。\n\n步骤3：使用⟦63⟧，提取Marozia的完整身份信息，确认其获得\"patricia\" of Rome称号的相关记载。\n\n步骤4：综合⟦110⟧⟦112⟧⟦100⟧⟦101⟧⟦102⟧⟦103⟧，提取Marozia被授予\"senatrix\"和\"patricia\"称号的记载，并追溯授予者信息。\n\n结论：此路径指向Pope John X（⟦77⟧）授予了Marozia\"patricia\" of Rome的称号。\n\n---\n\n# 路径二：通过Marozia条目中的称号授予链追溯\n\n步骤1：使用⟦63⟧，提取Marozia的完整信息，确认其为\"a Roman noblewoman\"（⟦11⟧⟦69⟧），且拥有\"senatrix\"（⟦92⟧⟦91⟧）和\"patricia\"（⟦102⟧）称号。\n\n步骤2：综合⟦110⟧⟦112⟧⟦100⟧⟦101⟧，提取Marozia获得\"the unprecedented titles 'senatrix'\"和\"patricia\"的记载。\n\n步骤3：使用⟦103⟧，提取授予者信息——\"by\"后接的授予者。\n\n步骤4：综合⟦77⟧，确认Pope John X为授予者。\n\n结论：Marozia的\"patricia\" of Rome称号由Pope John X授予。\n\n---\n\n# 路径三：通过家族关系链交叉验证\n\n步骤1：使用⟦17⟧，确认Alberic II of Spoleto的身份。\n\n步骤2：综合⟦45⟧⟦68⟧，确认Alberic II的母亲为Marozia（⟦63⟧）。\n\n步骤3：使用⟦63⟧，提取Marozia的称号信息，确认其拥有\"patricia\" of Rome称号（⟦102⟧）。\n\n步骤4：综合⟦103⟧⟦77⟧，追溯授予者——Pope John X。\n\n步骤5：交叉验证⟦81⟧（Pope Sergius III）与⟦77⟧（Pope John X），排除Pope Sergius III为授予者，确认Pope John X为正确授予者。\n\n结论：综合多条材料交叉验证，授予Marozia\"patricia\" of Rome称号的是Pope John X。\n\n---\n\n# 路径四：通过称号\"patricia\"的独特记载定位\n\n步骤1：使用⟦102⟧，提取\"patricia\" of Rome这一独特称号的记载。\n\n步骤2：综合⟦100⟧⟦101⟧⟦110⟧⟦112⟧，提取Marozia获得\"senatrix\"和\"patricia\"称号的完整语境。\n\n步骤3：使用⟦103⟧，提取授予者——\"by\"后接的授予者信息。\n\n步骤4：综合⟦77⟧，确认授予者为Pope John X。\n\n结论：Pope John X授予了Alberic II的母亲Marozia\"patricia\" of Rome的称号。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟦6⟧⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦45⟧⟦68⟧⟨6⟩⟨7⟩⟨8⟩⟦48⟧",
+    "nounCount": 176,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 3069,
+      "completion_tokens": 214,
+      "total_tokens": 3283,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 3069
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 927,
+      "completion_tokens": 759,
+      "total_tokens": 1686,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 927
+    }
+  },
+  {
+    "qid": "hotpot_1999",
+    "question": "What American corporation owns Claim Jumper?",
+    "expectedAnswer": "Landry's",
+    "predictedAnswer": "# 路径一：直接所有权链推理\n\n步骤1：使用⟦58⟧，提取“Claim jumper”这一实体名称，确认其为待查询的餐厅品牌。\n\n步骤2：综合⟦59⟧⟦27⟧⟦54⟧，交叉验证 Claim Jumper 的性质——⟦59⟧表明其为“Claim Jumper Restaurant”，⟦27⟧表明其为“an American restaurant chain”，⟦54⟧确认其为“chain”，三者一致指向 Claim Jumper 是一家美国连锁餐厅。\n\n步骤3：使用⟦115⟧，提取“Landry's, Inc.”这一实体，结合⟦315⟧中“is wholly owned by”的关系表述，判断 Claim Jumper 被 Landry's, Inc. 全资拥有。\n\n结论：Landry's, Inc. 拥有 Claim Jumper。\n\n# 路径二：地理位置与公司归属交叉验证\n\n步骤1：使用⟦102⟧，提取“Houston”这一地点信息，判断 Claim Jumper 的母公司位于休斯顿。\n\n步骤2：综合⟦67⟧⟦187⟧⟦177⟧，提取“company”与“Texas”信息——⟦187⟧表明“The company”与⟦67⟧“company”指向同一实体，⟦177⟧表明该实体位于德克萨斯州，与⟦102⟧“Houston”形成地理交叉验证（休斯顿位于德克萨斯州）。\n\n步骤3：综合⟦115⟧⟦315⟧，确认 Landry's, Inc. 为最终母公司，且其总部位于休斯顿/德克萨斯州，与步骤1、2的地理信息一致。\n\n结论：Landry's, Inc. 作为总部位于休斯顿的德克萨斯州公司，全资拥有 Claim Jumper。\n\n# 路径三：规模特征辅助确认\n\n步骤1：使用⟦126⟧⟦122⟧，提取“more than 40 locations”和“locations”，判断 Claim Jumper 是一家拥有超过40家门店的连锁品牌。\n\n步骤2：综合⟦54⟧⟦27⟧，交叉验证其连锁属性——⟦54⟧“chain”与⟦27⟧“an American restaurant chain”一致，确认其规模符合被大型餐饮集团收购的特征。\n\n步骤3：使用⟦115⟧，提取“Landry's, Inc.”作为拥有该规模连锁品牌的美国公司，结合⟦315⟧的所有权关系，确认最终归属。\n\n结论：Landry's, Inc. 是拥有 Claim Jumper 这一超过40家门店连锁品牌的美国公司。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦59⟧⟨304⟩⟦160⟧⟨305⟩⟦27⟧⟦156⟧⟨307⟩⟦54⟧⟨306⟩⟨308⟩⟦126⟧⟦122⟧",
+    "nounCount": 309,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5302,
+      "completion_tokens": 103,
+      "total_tokens": 5405,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5302
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 541,
+      "completion_tokens": 557,
+      "total_tokens": 1098,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 541
+    }
+  }
+]

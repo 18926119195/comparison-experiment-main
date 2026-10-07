@@ -1,0 +1,86 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Rani Jhansi Marine National Park] ⟦106⟧⟨1⟩⟨2⟩⟦132⟧⟨3⟩⟦28⟧⟨4⟩ | ⟦106⟧ | ⟦106⟧
+[Rani Jhansi Marine National Park] ⟨5⟩⟦4⟧⟦72⟧⟨6⟩⟨7⟩
+[Rani Jhansi Marine National Park] ⟨8⟩⟨9⟩⟨10⟩⟨11⟩
+[South Button Island National Park] ⟦131⟧
+[Rani of Jhansi] ⟦74⟧⟦169⟧⟦59⟧ | ⟦74⟧⟨201⟩⟦169⟧⟨202⟩⟨203⟩⟦3⟧⟨204⟩⟦63⟧⟨205⟩⟦168⟧⟦104⟧⟨206⟩⟨207⟩⟦166⟧⟦120⟧⟨208⟩⟨209⟩⟦59⟧⟦59⟧⟨210⟩⟨211⟩⟦60⟧⟦41⟧⟨212⟩⟨213⟩⟦181⟧⟨214⟩⟦50⟧⟨215⟩
+[North Zone women's cricket team] ⟦89⟧
+
+符号表：
+⟦3⟧ = 19 November
+⟦4⟧ = 256.14 km²
+⟦28⟧ = Bengal
+⟦41⟧ = district
+⟦50⟧ = India
+⟦59⟧ = Jhansi
+⟦60⟧ = Jhansi district
+⟦63⟧ = June
+⟦72⟧ = km²
+⟦74⟧ = Lakshmibai
+⟦89⟧ = North India
+⟦104⟧ = queen
+⟦106⟧ = Rani Jhansi Marine National Park
+⟦120⟧ = state
+⟦131⟧ = the Andaman and Nicobar Islands
+⟦132⟧ = the Bay
+⟦166⟧ = the princely state
+⟦168⟧ = the queen
+⟦169⟧ = the Rani
+⟦181⟧ = Uttar Pradesh
+
+占位符映射：
+⟨1⟩ =  is located in 
+⟨2⟩ =  in 
+⟨3⟩ =  of 
+⟨4⟩ = .
+⟨5⟩ =  It was founded in 1996, and covers 
+⟨6⟩ = 
+⟨7⟩ = .
+⟨8⟩ =  It commemorates 
+⟨9⟩ = , 
+⟨10⟩ =  of 
+⟨11⟩ =  (1828-58).
+⟨201⟩ = , 
+⟨202⟩ =  of 
+⟨203⟩ =  (   ; 
+⟨204⟩ =  1828 – 18 
+⟨205⟩ =  1858), was 
+⟨206⟩ = 
+⟨207⟩ =  of 
+⟨208⟩ = 
+⟨209⟩ =  of 
+⟨210⟩ =  in 
+⟨211⟩ =  currently present in 
+⟨212⟩ = 
+⟨213⟩ =  in 
+⟨214⟩ = , 
+⟨215⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Rani Jhansi Marine National Park commemorates what queen of the princely state of Jhansi in North India?

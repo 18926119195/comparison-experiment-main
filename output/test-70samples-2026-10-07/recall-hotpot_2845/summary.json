@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_2845",
+  "question": "Which singer is younger, Terri Nunn or Sonya Scarlet? ",
+  "expectedAnswer": "Sonya Scarlet",
+  "predictedAnswer": "# 路径一：出生日期直接对比\n\n步骤1：使用⟦144⟧，提取 Terri Nunn 的全名 Terri Kathleen Nunn，并判断其出生日期为 June 26, 1961。\n\n步骤2：使用⟦137⟧，提取 Sonya Scarlet 的身份信息，并判断其出生日期为 April 2, 1980。\n\n步骤3：综合⟦144⟧⟦137⟧，对比两者出生日期：1961年6月26日 与 1980年4月2日。1980年晚于1961年，因此 Sonya Scarlet 更年轻。\n\n结论：Sonya Scarlet 比 Terri Nunn 年轻。\n\n# 路径二：身份与年龄交叉验证\n\n步骤1：使用⟦29⟧⟦144⟧，确认 Terri Nunn 是一位美国歌手，出生于1961年。\n\n步骤2：使用⟦177⟧⟦137⟧，确认 Sonya Scarlet 是歌手，出生于1980年。\n\n步骤3：综合⟦144⟧⟦137⟧，比较出生年份：1961 vs 1980。Sonya Scarlet 出生更晚，年龄更小。\n\n结论：Sonya Scarlet 更年轻。\n\n# 路径三：乐队背景辅助验证\n\n步骤1：使用⟦166⟧⟦182⟧，提取 Sonya Scarlet 是意大利极端哥特金属乐队 Theatres des Vampires 的歌手。\n\n步骤2：使用⟦20⟧⟦132⟧，提取 Terri Nunn 是歌手及演员，与乐队 Moment of Truth 相关。\n\n步骤3：综合⟦144⟧⟦137⟧，尽管两者音乐背景不同，但出生日期明确：Terri Nunn 1961年，Sonya Scarlet 1980年。Sonya Scarlet 更年轻。\n\n结论：Sonya Scarlet 比 Terri Nunn 年轻。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦144⟧⟨78⟩⟦29⟧⟨79⟩⟨80⟩⟨81⟩⟨82⟩⟦20⟧⟦20⟧⟦132⟧⟦137⟧⟨69⟩",
+  "nounCount": 296,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 4936,
+    "completion_tokens": 113,
+    "total_tokens": 5049,
+    "prompt_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "prompt_cache_hit_tokens": 4736,
+    "prompt_cache_miss_tokens": 200
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 578,
+    "completion_tokens": 416,
+    "total_tokens": 994,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 578
+  }
+}

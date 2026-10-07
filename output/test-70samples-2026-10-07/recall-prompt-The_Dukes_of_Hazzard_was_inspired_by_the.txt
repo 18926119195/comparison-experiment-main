@@ -1,0 +1,352 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = " Catherine Bach
+⟦2⟧ = "Jaws
+⟦3⟧ = "Moonrunners
+⟦4⟧ = "The Stepford Wives
+⟦5⟧ = 147 episodes
+⟦6⟧ = 1970s
+⟦7⟧ = 1975 सामाजिक
+⟦8⟧ = a 1974 detective film
+⟦9⟧ = a 1974 novel
+⟦10⟧ = a 1975 film
+⟦11⟧ = a B movie
+⟦12⟧ = a great white shark
+⟦13⟧ = a novel
+⟦14⟧ = a pre-"Dukes
+⟦15⟧ = a screenplay
+⟦16⟧ = a series
+⟦17⟧ = a small fishing village
+⟦18⟧ = a Southern family
+⟦19⟧ = a spoof
+⟦20⟧ = a super-hit musical movie
+⟦21⟧ = a theme park ride
+⟦22⟧ = a total
+⟦23⟧ = a United States Coast Guard station
+⟦24⟧ = Aasia
+⟦25⟧ = action
+⟦26⟧ = actor
+⟦27⟧ = agents
+⟦28⟧ = Alan J. Levi
+⟦29⟧ = an American action-comedy television series
+⟦30⟧ = an American natural horror film series
+⟦31⟧ = Anjanette Comer
+⟦32⟧ = antithesis
+⟦33⟧ = any capacity
+⟦34⟧ = Aquinnah
+⟦35⟧ = areas
+⟦36⟧ = Asad Bukhari
+⟦37⟧ = Asim Ilyas
+⟦38⟧ = attacks
+⟦39⟧ = background
+⟦40⟧ = Badmash (1975 film)′′ (Punjabi
+⟦41⟧ = Barbara Eden
+⟦42⟧ = Barbara Harris
+⟦43⟧ = beach
+⟦44⟧ = Benchley
+⟦45⟧ = bicycle
+⟦46⟧ = Bill Bleich
+⟦47⟧ = boats
+⟦48⟧ = boom
+⟦49⟧ = bootleg liquor
+⟦50⟧ = bootleggers
+⟦51⟧ = brothers
+⟦52⟧ = brothers Ken Wheat
+⟦53⟧ = Burt Lancaster
+⟦54⟧ = Cameron Mitchell
+⟦55⟧ = capacity
+⟦56⟧ = Carl Gottlieb
+⟦57⟧ = cars
+⟦58⟧ = cast
+⟦59⟧ = CBS
+⟦60⟧ = character
+⟦61⟧ = Charles Tyner
+⟦62⟧ = charter
+⟦63⟧ = charter boats
+⟦64⟧ = charter fishing
+⟦65⟧ = Chilmark
+⟦66⟧ = Cindy Williams
+⟦67⟧ = cinemas
+⟦68⟧ = coast
+⟦69⟧ = Coast Guard Station Menemsha
+⟦70⟧ = comedy
+⟦71⟧ = concepts
+⟦72⟧ = cruises
+⟦73⟧ = David Wiltse
+⟦74⟧ = Dean Hargrove
+⟦75⟧ = Dell
+⟦76⟧ = departure
+⟦77⟧ = detective
+⟦78⟧ = Don Murray
+⟦79⟧ = Donna Mills
+⟦80⟧ = drama
+⟦81⟧ = Dukes County
+⟦82⟧ = Ed Lauter
+⟦83⟧ = end
+⟦84⟧ = episodes
+⟦85⟧ = Falcon
+⟦86⟧ = families
+⟦87⟧ = family
+⟦88⟧ = fast cars
+⟦89⟧ = father
+⟦90⟧ = February
+⟦91⟧ = federal agents
+⟦92⟧ = ferry
+⟦93⟧ = fiction
+⟦94⟧ = film
+⟦95⟧ = Film starring actor Mumtaz
+⟦96⟧ = films
+⟦97⟧ = fishermen
+⟦98⟧ = fishing
+⟦99⟧ = former “Bowery Boys" members
+⟦100⟧ = Fred Walton
+⟦101⟧ = freshly cooked seafood
+⟦102⟧ = Gabriel Dell
+⟦103⟧ = Gottlieb
+⟦104⟧ = Gy Waldron
+⟦105⟧ = harbor
+⟦106⟧ = Hargrove
+⟦107⟧ = Harris Yulin
+⟦108⟧ = Hazzard
+⟦109⟧ = help
+⟦110⟧ = his father
+⟦111⟧ = his novel
+⟦112⟧ = horror
+⟦113⟧ = Howard Sackler
+⟦114⟧ = Humphrey Bogart
+⟦115⟧ = Huntz Hall
+⟦116⟧ = Iqbal Kashmiri
+⟦117⟧ = island
+⟦118⟧ = its attacks
+⟦119⟧ = its Golden Jubilee
+⟦120⟧ = Its soundtrack
+⟦121⟧ = Jackie Coogan
+⟦122⟧ = James Mitchum
+⟦123⟧ = January
+⟦124⟧ = Jaws
+⟦125⟧ = Jim Wheat
+⟦126⟧ = Joan Lorring
+⟦127⟧ = Joyce Van Patten
+⟦128⟧ = language
+⟦129⟧ = Lawrence Dobkin
+⟦130⟧ = liquor
+⟦131⟧ = local fishermen
+⟦132⟧ = location
+⟦133⟧ = Louise Fletcher
+⟦134⟧ = many excellent places
+⟦135⟧ = many identical or similar character names
+⟦136⟧ = many similar concepts
+⟦137⟧ = Martha's Vineyard
+⟦138⟧ = Massachusetts
+⟦139⟧ = Mayhews
+⟦140⟧ = members
+⟦141⟧ = Menemsha
+⟦142⟧ = Menemsha Creek
+⟦143⟧ = Menemsha Pond
+⟦144⟧ = merchandise
+⟦145⟧ = Michael Ontkean
+⟦146⟧ = Mills Watson
+⟦147⟧ = Mitchum
+⟦148⟧ = Moonrunners
+⟦149⟧ = moonshine
+⟦150⟧ = moonshine-running bootleggers
+⟦151⟧ = Morgan Woodward
+⟦152⟧ = movie
+⟦153⟧ = multi-generational fishing families
+⟦154⟧ = music
+⟦155⟧ = names
+⟦156⟧ = neither Benchley
+⟦157⟧ = New England
+⟦158⟧ = Nicholas Colasanto
+⟦159⟧ = Nita Talbot
+⟦160⟧ = noir
+⟦161⟧ = novel
+⟦162⟧ = opening
+⟦163⟧ = other possibilities
+⟦164⟧ = other tie-in merchandise
+⟦165⟧ = outlaw
+⟦166⟧ = over a year
+⟦167⟧ = Pakistani cinemas
+⟦168⟧ = park
+⟦169⟧ = Pat Corley
+⟦170⟧ = pen
+⟦171⟧ = people
+⟦172⟧ = Peter Benchley
+⟦173⟧ = places
+⟦174⟧ = point
+⟦175⟧ = pond
+⟦176⟧ = Pooles
+⟦177⟧ = possibilities
+⟦178⟧ = productions
+⟦179⟧ = Randall Batinkoff
+⟦180⟧ = recreation
+⟦181⟧ = release
+⟦182⟧ = Revenge
+⟦183⟧ = ride
+⟦184⟧ = Road
+⟦185⟧ = Robert Fuest
+⟦186⟧ = Robert Mitchum
+⟦187⟧ = Robert Quarry
+⟦188⟧ = role
+⟦189⟧ = saga
+⟦190⟧ = Sarah Douglas
+⟦191⟧ = science
+⟦192⟧ = screenplay
+⟦193⟧ = seafood
+⟦194⟧ = seasons
+⟦195⟧ = sequels
+⟦196⟧ = series
+⟦197⟧ = seven seasons
+⟦198⟧ = shark
+⟦199⟧ = Sharon Gless
+⟦200⟧ = show
+⟦201⟧ = Sorrell Booke
+⟦202⟧ = soundtrack
+⟦203⟧ = specific areas
+⟦204⟧ = Spielberg
+⟦205⟧ = spoof
+⟦206⟧ = station
+⟦207⟧ = Steven Spielberg
+⟦208⟧ = Steven Spielberg's 1975 film "Jaws
+⟦209⟧ = subject
+⟦210⟧ = such the two productions
+⟦211⟧ = Sultan Rahi
+⟦212⟧ = sunsets
+⟦213⟧ = Susan Clark
+⟦214⟧ = Tammy Lauren
+⟦215⟧ = television
+⟦216⟧ = the 1941 film noir
+⟦217⟧ = the 1970s
+⟦218⟧ = the 1972 novel
+⟦219⟧ = the 1975 film
+⟦220⟧ = the bicycle ferry
+⟦221⟧ = The Brody family
+⟦222⟧ = The cast
+⟦223⟧ = The Dukes
+⟦224⟧ = the east coast
+⟦225⟧ = the Elizabeth Islands
+⟦226⟧ = the fictional "Amity Island
+⟦227⟧ = The film
+⟦228⟧ = the film series
+⟦229⟧ = the films
+⟦230⟧ = the harbor
+⟦231⟧ = the Ira Levin novel
+⟦232⟧ = the island
+⟦233⟧ = the Jersey Shore shark attacks
+⟦234⟧ = the Larsens
+⟦235⟧ = the lead role
+⟦236⟧ = the location
+⟦237⟧ = The main subject
+⟦238⟧ = The Maltese Falcon
+⟦239⟧ = The Manchu Eagle Murder Caper Mystery
+⟦240⟧ = The Midnight Man
+⟦241⟧ = the most dramatic sunsets
+⟦242⟧ = the opening
+⟦243⟧ = the original 1975 film
+⟦244⟧ = The original film
+⟦245⟧ = the outlaw music boom
+⟦246⟧ = the point
+⟦247⟧ = the pond's northern end
+⟦248⟧ = the popular long-running television series
+⟦249⟧ = the primary antithesis
+⟦250⟧ = the public beach
+⟦251⟧ = the saga
+⟦252⟧ = The series
+⟦253⟧ = the shark
+⟦254⟧ = the shooting background
+⟦255⟧ = The show
+⟦256⟧ = the similar drive-in favorite "Thunder Road
+⟦257⟧ = The Stepford Children
+⟦258⟧ = The Stepford Husbands
+⟦259⟧ = the Stepford Wives
+⟦260⟧ = the three sequels
+⟦261⟧ = the town
+⟦262⟧ = the United States
+⟦263⟧ = The village's historic harbor
+⟦264⟧ = the villain
+⟦265⟧ = the Vineyard Sound
+⟦266⟧ = theme
+⟦267⟧ = three sequels
+⟦268⟧ = thriller
+⟦269⟧ = tie
+⟦270⟧ = total
+⟦271⟧ = town
+⟦272⟧ = United Artists
+⟦273⟧ = United States
+⟦274⟧ = village
+⟦275⟧ = villain
+⟦276⟧ = Vincent Gardenia
+⟦277⟧ = Will Geer
+⟦278⟧ = year
+⟦279⟧ = years
+⟦280⟧ = Yousuf Khan
+⟦281⟧ = फिल्म Pakistani Punjabi language action film
+⟦282⟧ = सामाजिक
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Stepford Husbands] ⟦258⟧⟨1⟩⟦215⟧⟨2⟩⟦215⟧⟨3⟩⟦268⟧⟨4⟩⟦80⟧⟨5⟩⟦94⟧⟨6⟩⟦231⟧⟨7⟩⟦161⟧⟨8⟩⟦4⟧⟨9⟩
+[The Stepford Husbands] ⟨10⟩⟦100⟧⟨11⟩⟦15⟧⟨12⟩⟦192⟧⟨13⟩⟦51⟧⟨14⟩⟦52⟧⟨15⟩⟦125⟧⟨16⟩⟦79⟧⟨17⟩⟦145⟧⟨18⟩⟦66⟧⟨19⟩⟦190⟧⟨20⟩⟦133⟧⟨21⟩
+[The Stepford Husbands] ⟨22⟩⟦16⟧⟨23⟩⟦196⟧⟨24⟩⟦195⟧⟨25⟩⟦195⟧⟨26⟩⟦218⟧⟨27⟩⟦161⟧⟨28⟩⟦94⟧⟨29⟩⟦4⟧⟨30⟩
+[The Midnight Man (1974 film)] ⟦240⟧⟨31⟩⟦8⟧⟨32⟩⟦77⟧⟨33⟩⟦94⟧⟨34⟩⟦53⟧⟨35⟩
+[The Midnight Man (1974 film)] ⟦227⟧⟨36⟩⟦94⟧⟨37⟩⟦213⟧⟨38⟩⟦54⟧⟨39⟩⟦151⟧⟨40⟩⟦107⟧⟨41⟩⟦187⟧⟨42⟩⟦126⟧⟨43⟩⟦129⟧⟨44⟩⟦82⟧⟨45⟩⟦146⟧⟨46⟩⟦61⟧⟨47⟩⟦14⟧⟨48⟩⟦108⟧⟨49⟩⟦1⟧⟨50⟩
+[The Manchu Eagle Murder Caper Mystery] ⟦239⟧⟨51⟩⟦10⟧⟨52⟩⟦94⟧⟨53⟩⟦99⟧⟨54⟩⟦140⟧⟨55⟩⟦102⟧⟨56⟩⟦115⟧⟨57⟩⟦121⟧⟨58⟩⟦127⟧⟨59⟩
+[The Manchu Eagle Murder Caper Mystery] ⟦227⟧⟨60⟩⟦94⟧⟨61⟩⟦19⟧⟨62⟩⟦205⟧⟨63⟩⟦216⟧⟨64⟩⟦94⟧⟨65⟩⟦160⟧⟨66⟩⟦238⟧⟨67⟩⟦85⟧⟨68⟩⟦114⟧⟨69⟩
+[The Manchu Eagle Murder Caper Mystery] ⟦222⟧⟨70⟩⟦58⟧⟨71⟩⟦42⟧⟨72⟩⟦31⟧⟨73⟩⟦277⟧⟨74⟩⟦201⟧⟨75⟩⟦276⟧⟨76⟩⟦159⟧⟨77⟩⟦158⟧⟨78⟩
+[The Manchu Eagle Murder Caper Mystery] ⟦227⟧⟨79⟩⟦94⟧⟨80⟩⟦75⟧⟨81⟩⟦74⟧⟨82⟩⟦106⟧⟨83⟩
+[The Manchu Eagle Murder Caper Mystery] ⟨84⟩⟦272⟧⟨85⟩
+[Revenge of the Stepford Wives] ⟦182⟧⟨86⟩⟦182⟧⟨87⟩⟦259⟧⟨88⟩⟦215⟧⟨89⟩⟦215⟧⟨90⟩⟦191⟧⟨91⟩⟦93⟧⟨92⟩⟦268⟧⟨93⟩⟦94⟧⟨94⟩⟦231⟧⟨95⟩⟦161⟧⟨96⟩⟦4⟧⟨97⟩
+[Revenge of the Stepford Wives] ⟨98⟩⟦185⟧⟨99⟩⟦15⟧⟨100⟩⟦192⟧⟨101⟩⟦73⟧⟨102⟩⟦199⟧⟨103⟩
+[Revenge of the Stepford Wives] ⟨104⟩⟦16⟧⟨105⟩⟦196⟧⟨106⟩⟦195⟧⟨107⟩⟦195⟧⟨108⟩⟦218⟧⟨109⟩⟦161⟧⟨110⟩⟦94⟧⟨111⟩⟦4⟧⟨112⟩
+[Menemsha, Massachusetts] ⟦141⟧⟨113⟩⟦17⟧⟨114⟩⟦98⟧⟨115⟩⟦274⟧⟨116⟩⟦261⟧⟨117⟩⟦271⟧⟨118⟩⟦65⟧⟨119⟩⟦232⟧⟨120⟩⟦117⟧⟨121⟩⟦137⟧⟨122⟩⟦81⟧⟨123⟩⟦138⟧⟨124⟩⟦273⟧⟨125⟩
+[Menemsha, Massachusetts] ⟨126⟩⟦224⟧⟨127⟩⟦68⟧⟨128⟩⟦143⟧⟨129⟩⟦242⟧⟨130⟩⟦162⟧⟨131⟩⟦265⟧⟨132⟩⟦247⟧⟨133⟩⟦175⟧⟨134⟩⟦83⟧⟨135⟩
+[Menemsha, Massachusetts] ⟦263⟧⟨136⟩⟦274⟧⟨137⟩⟦105⟧⟨138⟩⟦246⟧⟨139⟩⟦174⟧⟨140⟩⟦76⟧⟨141⟩⟦76⟧⟨142⟩⟦131⟧⟨143⟩⟦97⟧⟨144⟩⟦153⟧⟨145⟩⟦98⟧⟨146⟩⟦86⟧⟨147⟩⟦234⟧⟨148⟩⟦176⟧⟨149⟩⟦139⟧⟨150⟩⟦62⟧⟨151⟩⟦63⟧⟨152⟩⟦47⟧⟨153⟩⟦225⟧⟨154⟩
+[Menemsha, Massachusetts] ⟨155⟩⟦62⟧⟨156⟩⟦64⟧⟨157⟩⟦98⟧⟨158⟩⟦72⟧⟨159⟩⟦72⟧⟨160⟩⟦163⟧⟨161⟩⟦177⟧⟨162⟩⟦180⟧⟨163⟩⟦180⟧⟨164⟩⟦250⟧⟨165⟩⟦43⟧⟨166⟩⟦230⟧⟨167⟩⟦105⟧⟨168⟩⟦220⟧⟨169⟩⟦45⟧⟨170⟩⟦92⟧⟨171⟩⟦143⟧⟨172⟩⟦34⟧⟨173⟩⟦134⟧⟨174⟩⟦173⟧⟨175⟩⟦101⟧⟨176⟩⟦193⟧⟨177⟩
+[Menemsha, Massachusetts] ⟨178⟩⟦241⟧⟨179⟩⟦212⟧⟨180⟩⟦157⟧⟨181⟩
+[Menemsha, Massachusetts] ⟦141⟧⟨182⟩⟦236⟧⟨183⟩⟦132⟧⟨184⟩⟦23⟧⟨185⟩⟦206⟧⟨186⟩⟦69⟧⟨187⟩⟦142⟧⟨188⟩
+[Menemsha, Massachusetts] ⟨189⟩⟦254⟧⟨190⟩⟦39⟧⟨191⟩⟦226⟧⟨192⟩⟦208⟧⟨193⟩⟦94⟧⟨194⟩⟦124⟧⟨195⟩
+[Moonrunners] ⟦148⟧⟨196⟩⟦148⟧⟨197⟩⟦10⟧⟨198⟩⟦94⟧⟨199⟩⟦122⟧⟨200⟩⟦18⟧⟨201⟩⟦87⟧⟨202⟩⟦49⟧⟨203⟩⟦130⟧⟨204⟩
+[Moonrunners] ⟨205⟩⟦279⟧⟨206⟩⟦248⟧⟨207⟩⟦215⟧⟨208⟩⟦196⟧⟨209⟩⟦223⟧⟨210⟩⟦108⟧⟨211⟩⟦210⟧⟨212⟩⟦178⟧⟨213⟩⟦136⟧⟨214⟩⟦71⟧⟨215⟩
+[Moonrunners] ⟦147⟧⟨216⟩⟦110⟧⟨217⟩⟦89⟧⟨218⟩⟦186⟧⟨219⟩⟦256⟧⟨220⟩⟦184⟧⟨221⟩⟦279⟧⟨222⟩⟦149⟧⟨223⟩⟦150⟧⟨224⟩⟦50⟧⟨225⟩⟦88⟧⟨226⟩⟦57⟧⟨227⟩⟦91⟧⟨228⟩⟦27⟧⟨229⟩
+[Moonrunners] ⟦3⟧⟨230⟩⟦148⟧⟨231⟩⟦11⟧⟨232⟩⟦152⟧⟨233⟩⟦181⟧⟨234⟩⟦181⟧⟨235⟩⟦166⟧⟨236⟩⟦278⟧⟨237⟩
+[Moonrunners] ⟦120⟧⟨238⟩⟦202⟧⟨239⟩⟦245⟧⟨240⟩⟦165⟧⟨241⟩⟦154⟧⟨242⟩⟦48⟧⟨243⟩⟦217⟧⟨244⟩⟦6⟧⟨245⟩⟦227⟧⟨246⟩⟦94⟧⟨247⟩
+[The Stepford Children] ⟦257⟧⟨248⟩⟦215⟧⟨249⟩⟦215⟧⟨250⟩⟦191⟧⟨251⟩⟦93⟧⟨252⟩⟦268⟧⟨253⟩⟦94⟧⟨254⟩⟦231⟧⟨255⟩⟦161⟧⟨256⟩⟦4⟧⟨257⟩
+[The Stepford Children] ⟨258⟩⟦28⟧⟨259⟩⟦15⟧⟨260⟩⟦192⟧⟨261⟩⟦46⟧⟨262⟩⟦41⟧⟨263⟩⟦78⟧⟨264⟩⟦214⟧⟨265⟩⟦179⟧⟨266⟩⟦169⟧⟨267⟩
+[The Stepford Children] ⟨268⟩⟦16⟧⟨269⟩⟦196⟧⟨270⟩⟦195⟧⟨271⟩⟦195⟧⟨272⟩⟦218⟧⟨273⟩⟦161⟧⟨274⟩⟦243⟧⟨275⟩⟦94⟧⟨276⟩⟦4⟧⟨277⟩
+[Sharif Badmash (1975 film)] ⟨278⟩⟦40⟧⟨279⟩⟦7⟧⟨280⟩⟦282⟧⟨281⟩⟦281⟧⟨282⟩⟦128⟧⟨283⟩⟦25⟧⟨284⟩⟦94⟧⟨285⟩⟦116⟧⟨286⟩⟦37⟧⟨287⟩
+[Sharif Badmash (1975 film)] ⟦95⟧⟨288⟩⟦26⟧⟨289⟩⟦235⟧⟨290⟩⟦188⟧⟨291⟩⟦280⟧⟨292⟩⟦24⟧⟨293⟩⟦211⟧⟨294⟩⟦36⟧⟨295⟩⟦264⟧⟨296⟩⟦275⟧⟨297⟩
+[Sharif Badmash (1975 film)] ⟨298⟩⟦20⟧⟨299⟩⟦152⟧⟨300⟩⟦119⟧⟨301⟩⟦167⟧⟨302⟩⟦67⟧⟨303⟩
+[Jaws (franchise)] ⟦124⟧⟨304⟩⟦124⟧⟨305⟩⟦30⟧⟨306⟩⟦112⟧⟨307⟩⟦94⟧⟨308⟩⟦196⟧⟨309⟩⟦10⟧⟨310⟩⟦94⟧⟨311⟩⟦267⟧⟨312⟩⟦195⟧⟨313⟩⟦21⟧⟨314⟩⟦266⟧⟨315⟩⟦168⟧⟨316⟩⟦183⟧⟨317⟩⟦164⟧⟨318⟩⟦269⟧⟨319⟩⟦144⟧⟨320⟩⟦9⟧⟨321⟩⟦161⟧⟨322⟩
+[Jaws (franchise)] ⟦237⟧⟨323⟩⟦209⟧⟨324⟩⟦251⟧⟨325⟩⟦189⟧⟨326⟩⟦12⟧⟨327⟩⟦198⟧⟨328⟩⟦118⟧⟨329⟩⟦38⟧⟨330⟩⟦171⟧⟨331⟩⟦171⟧⟨332⟩⟦203⟧⟨333⟩⟦35⟧⟨334⟩⟦262⟧⟨335⟩
+[Jaws (franchise)] ⟦221⟧⟨336⟩⟦87⟧⟨337⟩⟦229⟧⟨338⟩⟦96⟧⟨339⟩⟦249⟧⟨340⟩⟦32⟧⟨341⟩⟦253⟧⟨342⟩⟦198⟧⟨343⟩
+[Jaws (franchise)] ⟦244⟧⟨344⟩⟦94⟧⟨345⟩⟦13⟧⟨346⟩⟦161⟧⟨347⟩⟦172⟧⟨348⟩⟦233⟧⟨349⟩⟦198⟧⟨350⟩⟦38⟧⟨351⟩
+[Jaws (franchise)] ⟦44⟧⟨352⟩⟦111⟧⟨353⟩⟦161⟧⟨354⟩⟦109⟧⟨355⟩⟦109⟧⟨356⟩⟦56⟧⟨357⟩⟦113⟧⟨358⟩⟦219⟧⟨359⟩⟦94⟧⟨360⟩⟦2⟧⟨361⟩⟦124⟧⟨362⟩⟦207⟧⟨363⟩
+[Jaws (franchise)] ⟨364⟩⟦103⟧⟨365⟩⟦170⟧⟨366⟩⟦170⟧⟨367⟩⟦260⟧⟨368⟩⟦195⟧⟨369⟩⟦156⟧⟨370⟩⟦204⟧⟨371⟩⟦228⟧⟨372⟩⟦94⟧⟨373⟩⟦196⟧⟨374⟩⟦33⟧⟨375⟩⟦55⟧⟨376⟩
+[The Dukes of Hazzard] ⟦223⟧⟨377⟩⟦108⟧⟨378⟩⟦29⟧⟨379⟩⟦25⟧⟨380⟩⟦70⟧⟨381⟩⟦215⟧⟨382⟩⟦196⟧⟨383⟩⟦59⟧⟨384⟩⟦123⟧⟨385⟩⟦90⟧⟨386⟩
+[The Dukes of Hazzard] ⟦255⟧⟨387⟩⟦200⟧⟨388⟩⟦22⟧⟨389⟩⟦270⟧⟨390⟩⟦5⟧⟨391⟩⟦84⟧⟨392⟩⟦197⟧⟨393⟩⟦194⟧⟨394⟩
+[The Dukes of Hazzard] ⟦252⟧⟨395⟩⟦196⟧⟨396⟩⟦219⟧⟨397⟩⟦94⟧⟨398⟩⟦3⟧⟨399⟩⟦148⟧⟨400⟩⟦104⟧⟨401⟩⟦135⟧⟨402⟩⟦60⟧⟨403⟩⟦155⟧⟨404⟩⟦71⟧⟨405⟩⟦71⟧⟨406⟩
+
+[user]
+
+问题：
+The Dukes of Hazzard was inspired by the 1975 film starring whom?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_289",
+  "question": "Which came to market first, \"Hey Pa! There's a Goat on the Roof\" or \"Poleconomy\"",
+  "expectedAnswer": "Hey Pa! There's a Goat on the Roof",
+  "predictedAnswer": "# 路径一：直接比较发行年份\n\n步骤1：使用⟦17⟧⟦323⟧⟦9⟧⟦206⟧，提取 \"Hey Pa! There's a Goat on the Roof\" 的相关信息——这是一款儿童棋盘游戏（⟦9⟧），由 Parker Brothers（⟦206⟧）于 1966 年发行。\n\n步骤2：使用⟦7⟧⟦195⟧⟦82⟧，提取 \"Poleconomy\" 的相关信息——这是一款棋盘游戏（⟦7⟧），由新西兰人 Bruce E. Hatherley（⟦195⟧）发明，并于 1980 年首次出版。\n\n步骤3：综合⟦206⟧⟦195⟧，对比两者的发行年份：1966 年 vs. 1980 年。\n\n结论：\"Hey Pa! There's a Goat on the Roof\" 于 1966 年发行，早于 \"Poleconomy\" 的 1980 年，因此前者更早进入市场。\n\n---\n\n# 路径二：交叉验证发行主体与时间线\n\n步骤1：使用⟦17⟧⟦323⟧⟦206⟧，确认 \"Hey Pa! There's a Goat on the Roof\" 由 Parker Brothers 发行，这是一家历史悠久的美国游戏公司，其发行时间标注为 1966 年。\n\n步骤2：使用⟦218⟧⟦195⟧，确认 \"Poleconomy\" 的发明者为 Bruce E. Hatherley，且该游戏与新西兰相关，首次出版时间为 1980 年。\n\n步骤3：综合⟦206⟧⟦195⟧，交叉验证：Parker Brothers 在 1966 年已是一家成熟公司，而 Poleconomy 的发明者直到 1980 年才将其推向市场，两者时间差为 14 年。\n\n结论：通过发行主体和时间线的交叉验证，\"Hey Pa! There's a Goat on the Roof\"（1966）比 \"Poleconomy\"（1980）早 14 年进入市场。\n\n---\n\n# 路径三：排除法——从游戏类型与出版背景推断\n\n步骤1：使用⟦9⟧⟦82⟧，识别 \"Hey Pa! There's a Goat on the Roof\" 为儿童棋盘游戏，这类游戏在 1960 年代由 Parker Brothers 大量生产。\n\n步骤2：使用⟦7⟧⟦195⟧，识别 \"Poleconomy\" 为一般棋盘游戏，由个人发明者 Bruce E. Hatherley 创作，1980 年才首次出版。\n\n步骤3：综合⟦9⟧⟦7⟧，对比两者类型与出版模式：Parker Brothers 的商业化儿童游戏 vs. 个人发明者的经济主题游戏，后者通常需要更长的开发与出版周期。\n\n结论：从游戏类型与出版背景推断，\"Hey Pa! There's a Goat on the Roof\" 作为 1966 年 Parker Brothers 的商业产品，必然早于 1980 年才出版的 \"Poleconomy\"。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦17⟧⟨70⟩⟦323⟧⟨71⟩⟦9⟧⟦82⟧⟨73⟩⟨74⟩⟨72⟩⟨75⟩⟦206⟧⟨76⟩",
+  "nounCount": 502,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 8271,
+    "completion_tokens": 105,
+    "total_tokens": 8376,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 8271
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 583,
+    "completion_tokens": 677,
+    "total_tokens": 1260,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 583
+  }
+}

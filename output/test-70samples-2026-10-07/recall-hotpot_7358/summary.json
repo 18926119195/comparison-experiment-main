@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_7358",
+  "question": "What type of community does Bob Hope Airport and Boeing Field have in common?",
+  "expectedAnswer": "public",
+  "predictedAnswer": "# 路径一：基于机场性质与位置的对比\n\n步骤1：使用⟦12⟧，提取 Bob Hope Airport 被描述为 “a public airport”，判断其社区类型属于公共航空设施。\n\n步骤2：使用⟦136⟧⟦43⟧，提取 Boeing Field 的正式名称为 “officially King County International Airport”，且别名为 Boeing Field，判断其同样为公共机场。\n\n步骤3：综合⟦12⟧⟦136⟧，对比两者性质，发现 Bob Hope Airport 和 Boeing Field 均为公共机场（public airport），因此它们共同拥有的社区类型是“公共机场社区”。\n\n结论：Bob Hope Airport 和 Boeing Field 共同拥有的社区类型是公共机场（public airport）。\n\n# 路径二：基于地理位置与行政归属的交叉验证\n\n步骤1：使用⟦70⟧，提取 Boeing Field 位于 “downtown Seattle”，判断其所在社区为西雅图市中心区域。\n\n步骤2：使用⟦67⟧⟦66⟧，提取 Bob Hope Airport 附近有 “Downtown Burbank” 和 “downtown”，判断其所在社区为伯班克市中心区域。\n\n步骤3：综合⟦70⟧⟦67⟧，对比两者均位于市中心附近，但分属不同城市，因此共同点在于它们都服务于城市中心社区，而非同一具体社区。\n\n结论：Bob Hope Airport 和 Boeing Field 共同拥有的社区类型是城市中心社区（downtown community），即两者均位于市中心附近。\n\n# 路径三：基于航空代码与运营特征的交叉验证\n\n步骤1：使用⟦95⟧⟦96⟧⟦74⟧，提取 Bob Hope Airport 拥有 IATA、ICAO 和 FAA LID 代码，判断其为正规公共机场。\n\n步骤2：使用⟦104⟧⟦35⟧，提取 Boeing Field 的 FAA LID 为 BFI，IATA 代码为 BFI，判断其同样为正规公共机场。\n\n步骤3：综合⟦95⟧⟦96⟧⟦74⟧⟦104⟧⟦35⟧，对比两者均具备完整的航空代码体系，且均为公共机场，因此它们共同拥有的社区类型是“公共航空社区”。\n\n结论：Bob Hope Airport 和 Boeing Field 共同拥有的社区类型是公共航空社区（public aviation community），即两者均为具备完整航空代码的公共机场。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨1⟩⟦136⟧⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦104⟧⟨6⟩⟨7⟩⟦35⟧⟦35⟧⟨8⟩",
+  "nounCount": 297,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5078,
+    "completion_tokens": 241,
+    "total_tokens": 5319,
+    "prompt_tokens_details": {
+      "cached_tokens": 4864
+    },
+    "prompt_cache_hit_tokens": 4864,
+    "prompt_cache_miss_tokens": 214
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 913,
+    "completion_tokens": 518,
+    "total_tokens": 1431,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 913
+  }
+}

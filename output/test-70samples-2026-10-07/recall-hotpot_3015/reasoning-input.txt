@@ -1,0 +1,99 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Great Mouse Detective] ⟨199⟩⟦13⟧⟦154⟧⟨201⟩⟨202⟩⟨200⟩⟨203⟩⟦262⟧⟨204⟩⟦263⟧⟨205⟩
+[The Great Mouse Detective] ⟦220⟧⟨206⟩⟦95⟧⟦96⟧⟨207⟩⟨208⟩⟨209⟩⟨210⟩⟨211⟩⟦55⟧⟨212⟩⟦75⟧⟨213⟩⟨214⟩⟦136⟧⟨215⟩⟦190⟧⟨216⟩⟦80⟧⟨217⟩⟨218⟩⟦5⟧⟨219⟩⟦2⟧⟨220⟩
+[The Great Mouse Detective] ⟦232⟧
+[Brothers (2009 film)] ⟦99⟧
+[Brothers (2009 film)] ⟦227⟧
+[Shrek 2] ⟦212⟧
+[Susanne Pollatschek] ⟦209⟧⟨347⟩⟦26⟧⟦30⟧⟨348⟩⟨349⟩⟦164⟧⟨350⟩⟦217⟧⟨351⟩⟨352⟩⟦4⟧⟨353⟩⟦268⟧⟨354⟩
+[My Niece Susanne] ⟦98⟧ | ⟦66⟧⟦98⟧ | ⟦98⟧⟦98⟧
+
+符号表：
+⟦2⟧ = "Aladdin
+⟦4⟧ = "The Great Mouse Detective
+⟦5⟧ = "The Little Mermaid
+⟦13⟧ = a 1986 American animated mystery comedy film
+⟦26⟧ = a Scottish-born Glaswegian actress
+⟦30⟧ = actress
+⟦55⟧ = Burny Mattinson
+⟦66⟧ = comedy
+⟦75⟧ = David Michener
+⟦80⟧ = Disney's hit films
+⟦95⟧ = feature
+⟦96⟧ = feature film
+⟦98⟧ = film
+⟦99⟧ = films
+⟦136⟧ = John Musker
+⟦154⟧ = mystery
+⟦164⟧ = Olivia Flaversham
+⟦190⟧ = Ron Clements
+⟦209⟧ = Susanne Pollatschek
+⟦212⟧ = team
+⟦217⟧ = the 1986 Disney animated film
+⟦220⟧ = The 26th Disney
+⟦227⟧ = The film
+⟦232⟧ = The Great Mouse Detective
+⟦262⟧ = Walt Disney Feature Animation
+⟦263⟧ = Walt Disney Pictures
+⟦268⟧ = years
+
+占位符映射：
+⟨199⟩ =  is 
+⟨200⟩ = 
+⟨201⟩ =  
+⟨202⟩ =  
+⟨203⟩ =  produced by 
+⟨204⟩ =  and released by 
+⟨205⟩ = .
+⟨206⟩ =  animated 
+⟨207⟩ = 
+⟨208⟩ = 
+⟨209⟩ = , 
+⟨210⟩ = 
+⟨211⟩ =  was directed by 
+⟨212⟩ = , 
+⟨213⟩ = , and the 
+⟨214⟩ =  of 
+⟨215⟩ =  and 
+⟨216⟩ = , who later directed 
+⟨217⟩ = 
+⟨218⟩ =  
+⟨219⟩ = " and 
+⟨220⟩ = ".
+⟨347⟩ =  (born February 7, 1977) is 
+⟨348⟩ = 
+⟨349⟩ = , who voiced 
+⟨350⟩ =  in 
+⟨351⟩ = 
+⟨352⟩ =  
+⟨353⟩ = " when she was eight 
+⟨354⟩ =  old.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who directed the film where Susanne Pollatschek voiced Olivia Flaversham?

@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_6274",
+  "question": "What year was the player the Los Angeles Clippers aquired from the Atlanta Hawks born?",
+  "expectedAnswer": "1961",
+  "predictedAnswer": "# 路径一：直接交易链推理\n\n步骤1：使用⟦111⟧⟦28⟧，提取“Los Angeles Clippers”与“Atlanta Hawks”之间的球员交易关系，判断该球员身份。\n\n步骤2：综合⟦99⟧⟦18⟧⟦454⟧，交叉验证该球员为 Josh Powell，并提取其出生日期为 January 25, 1983。\n\n结论：该球员出生于 1983 年。\n\n# 路径二：球员履历交叉验证\n\n步骤1：使用⟦99⟧⟦128⟧⟦111⟧，提取 Josh Powell 曾效力 Los Angeles Clippers 的信息。\n\n步骤2：综合⟦99⟧⟦28⟧⟦18⟧，确认 Josh Powell 也曾效力 Atlanta Hawks，且为 American professional basketball player。\n\n步骤3：使用⟦454⟧，提取其出生年份为 1983。\n\n结论：快船从老鹰获得的球员是 Josh Powell，他出生于 1983 年。\n\n# 路径三：排除法与身份锁定\n\n步骤1：综合⟦111⟧⟦28⟧⟦99⟧，锁定交易涉及球员为 Josh Powell，而非其他材料中提到的球队成员。\n\n步骤2：使用⟦454⟧，直接读取出生日期 January 25, 1983，确认出生年份。\n\n结论：该球员出生于 1983 年。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦99⟧⟨454⟩⟦18⟧⟦29⟧⟨456⟩⟦128⟧⟨455⟩⟨457⟩⟦251⟧⟨458⟩⟦201⟧⟨459⟩",
+  "nounCount": 464,
+  "score": 0,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7192,
+    "completion_tokens": 265,
+    "total_tokens": 7457,
+    "prompt_tokens_details": {
+      "cached_tokens": 7040
+    },
+    "prompt_cache_hit_tokens": 7040,
+    "prompt_cache_miss_tokens": 152
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1044,
+    "completion_tokens": 304,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1044
+  }
+}

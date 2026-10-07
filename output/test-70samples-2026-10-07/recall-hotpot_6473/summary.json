@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_6473",
+  "question": "When was the first stud book created for the breed of horse that came from Rotrou introducing Arabian horses to Perche?",
+  "expectedAnswer": "1883",
+  "predictedAnswer": "# 路径一：从 Rotrou 到 stud book 的因果链\n\n步骤1：使用⟦214⟧⟦53⟧⟦290⟧，提取 Rotrou III 将 Arabian horses 引入 the Perche 这一事件。\n步骤2：综合⟦290⟧⟦292⟧⟦188⟧，判断 the Perche 引入阿拉伯马后形成的品种是 the Percheron breed，即 Percherons。\n步骤3：使用⟦268⟧⟦556⟧⟦557⟧，提取 the first purely Percheron stud book 的创建时间信息，占位符⟨556⟩⟨557⟩给出“was created in ... in 1883”。\n\n结论：第一本纯 Percheron stud book 创建于 1883 年。\n\n# 路径二：通过 Percheron 品种条目交叉验证\n\n步骤1：使用⟦65⟧⟦138⟧，提取 Percheron 是一种 breed of horses。\n步骤2：综合⟦188⟧⟦268⟧，确认 Percherons 对应的第一本纯种登记册是 the first purely Percheron stud book。\n步骤3：使用⟦268⟧⟦556⟧⟦557⟧，提取该 stud book 的创建年份为 1883。\n\n结论：该品种的 stud book 创建时间为 1883 年。\n\n# 路径三：排除干扰信息，锁定时间\n\n步骤1：使用⟦214⟧⟦53⟧⟦290⟧，确认问题中的品种来源链条指向 the Perche 的 Arabian horses 引入。\n步骤2：综合⟦292⟧⟦188⟧⟦268⟧，将该来源链条与 the Percheron breed、Percherons、the first purely Percheron stud book 对应起来。\n步骤3：使用⟦556⟧⟦557⟧，提取“was created in ... in 1883”，排除其他世纪或国家信息⟦73⟧⟦81⟧⟦312⟧的干扰。\n\n结论：第一本 stud book 创建于 1883 年。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦214⟧⟨109⟩⟨110⟩⟨111⟩⟦290⟧⟨112⟩⟦209⟧⟦209⟧⟨113⟩⟨114⟩⟦292⟧⟨115⟩",
+  "nounCount": 532,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 8424,
+    "completion_tokens": 169,
+    "total_tokens": 8593,
+    "prompt_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "prompt_cache_hit_tokens": 8192,
+    "prompt_cache_miss_tokens": 232
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 780,
+    "completion_tokens": 458,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 780
+  }
+}

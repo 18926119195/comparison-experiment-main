@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_871",
+  "question": "Repertoire of Plácido Domingo appeared in an opera written by whom which was based on a play by William Shakespeare?",
+  "expectedAnswer": "Giuseppe Verdi",
+  "predictedAnswer": "# 路径一：从《麦克白》歌剧条目直接定位作曲家\n\n步骤1：使用⟦44⟧⟦104⟧⟦32⟧，提取《麦克白》是一部歌剧，共四幕。\n\n步骤2：综合⟦114⟧⟦43⟧⟦157⟧⟦45⟧，交叉验证该歌剧由朱塞佩·威尔第作曲，脚本为意大利语，由安德烈亚·马费伊撰写。\n\n步骤3：综合⟦321⟧⟦204⟧⟦288⟧，确认该歌剧基于威廉·莎士比亚的同名戏剧。\n\n结论：该歌剧由朱塞佩·威尔第（Giuseppe Verdi）作曲。\n\n# 路径二：从多明戈剧目列表反向匹配\n\n步骤1：使用⟦244⟧⟦11⟧，提取西班牙男高音普拉西多·多明戈正式演唱过147个角色。\n\n步骤2：综合⟦163⟧⟦90⟧，从剧目列表中定位到《麦克白》和《唐卡洛》等威尔第作品。\n\n步骤3：综合⟦114⟧⟦321⟧，确认《麦克白》的作曲者为朱塞佩·威尔第，且该剧基于莎士比亚戏剧。\n\n结论：多明戈剧目中的《麦克白》由朱塞佩·威尔第作曲，基于莎士比亚戏剧。\n\n# 路径三：通过莎士比亚戏剧改编线索交叉验证\n\n步骤1：使用⟦321⟧⟦204⟧，提取《麦克白》歌剧基于威廉·莎士比亚的戏剧。\n\n步骤2：综合⟦114⟧⟦43⟧⟦106⟧，对比威尔第与脚本作者弗朗切斯科·玛丽亚·皮亚韦的关联，确认威尔第是《麦克白》的作曲家。\n\n步骤3：综合⟦163⟧⟦216⟧，确认《麦克白》出现在多明戈的剧目中。\n\n结论：答案是朱塞佩·威尔第（Giuseppe Verdi）。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨136⟩⟦44⟧⟨137⟩⟨138⟩⟦104⟧⟦32⟧⟨139⟩⟨140⟩⟦114⟧⟨141⟩⟦43⟧⟦157⟧",
+  "nounCount": 432,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7630,
+    "completion_tokens": 333,
+    "total_tokens": 7963,
+    "prompt_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "prompt_cache_hit_tokens": 7424,
+    "prompt_cache_miss_tokens": 206
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 430,
+    "total_tokens": 1771,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1341
+  }
+}

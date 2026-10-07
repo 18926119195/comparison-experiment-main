@@ -1,0 +1,112 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Kurt Cobain: Montage of Heck] ⟨52⟩⟨53⟩⟨54⟩⟨55⟩⟨56⟩⟨57⟩⟦4⟧⟨59⟩⟨58⟩⟨60⟩⟦183⟧⟨62⟩⟨63⟩⟨61⟩
+[Kurt Cobain: Montage of Heck] ⟨76⟩⟨77⟩⟦271⟧⟨78⟩⟨79⟩⟨80⟩⟦129⟧⟦52⟧⟨81⟩⟨82⟩⟨83⟩⟨84⟩⟦134⟧⟦105⟧⟨86⟩⟦160⟧⟦160⟧⟨87⟩⟨85⟩⟨88⟩⟦104⟧⟦104⟧⟨89⟩⟨90⟩⟦116⟧⟦166⟧⟨91⟩⟨92⟩⟨93⟩⟨94⟩⟨95⟩⟨96⟩⟨97⟩⟦245⟧⟦30⟧⟨98⟩⟨99⟩
+[Suicide of Kurt Cobain] ⟦181⟧⟦217⟧ | ⟦158⟧⟦225⟧
+[Suicide of Kurt Cobain] ⟦38⟧
+[Montage of Heck: The Home Recordings] ⟦173⟧⟦173⟧⟦126⟧⟦126⟧
+[Montage of Heck: The Home Recordings] ⟦254⟧
+[Soaked in Bleach] ⟦110⟧
+[Kurt Cobain Memorial Park] ⟦305⟧
+[Kurt Cobain Memorial Park] ⟦28⟧⟦310⟧⟦131⟧⟦83⟧
+[Kurt Cobain Memorial Park] ⟦65⟧
+[Teen Spirit: The Tribute to Kurt Cobain] ⟦152⟧ | ⟦152⟧
+[Teen Spirit: The Tribute to Kurt Cobain] ⟦90⟧ | ⟦90⟧
+
+符号表：
+⟦4⟧ = a 2015 documentary film
+⟦28⟧ = Aberdeen
+⟦30⟧ = age
+⟦38⟧ = April
+⟦52⟧ = birth
+⟦65⟧ = Cobain
+⟦83⟧ = death
+⟦90⟧ = documentary
+⟦104⟧ = fame
+⟦105⟧ = family
+⟦110⟧ = film
+⟦116⟧ = front man
+⟦126⟧ = HECK
+⟦129⟧ = his birth
+⟦131⟧ = his death
+⟦134⟧ = his troubled early family life and teenage years
+⟦152⟧ = KURT COBAIN
+⟦158⟧ = lead
+⟦160⟧ = life
+⟦166⟧ = man
+⟦173⟧ = MONTAGE
+⟦181⟧ = Nirvana
+⟦183⟧ = Nirvana lead singer Kurt Cobain
+⟦217⟧ = Seattle
+⟦225⟧ = singer
+⟦245⟧ = the age
+⟦254⟧ = The documentary
+⟦271⟧ = the life
+⟦305⟧ = Washington
+⟦310⟧ = years
+
+占位符映射：
+⟨52⟩ = : 
+⟨53⟩ =  of 
+⟨54⟩ =  (also billed as 
+⟨55⟩ = : 
+⟨56⟩ =  of 
+⟨57⟩ = ) is 
+⟨58⟩ = 
+⟨59⟩ =  
+⟨60⟩ =  about 
+⟨61⟩ = 
+⟨62⟩ =  
+⟨63⟩ =  Kurt Cobain.
+⟨76⟩ = 
+⟨77⟩ =  chronicles 
+⟨78⟩ = 
+⟨79⟩ =  of 
+⟨80⟩ =  from 
+⟨81⟩ = 
+⟨82⟩ =  in 
+⟨83⟩ = , 
+⟨84⟩ =  in 1967, through 
+⟨85⟩ = 
+⟨86⟩ =  
+⟨87⟩ =  and teenage 
+⟨88⟩ =  and rise to 
+⟨89⟩ = 
+⟨90⟩ =  as 
+⟨91⟩ = 
+⟨92⟩ =  of 
+⟨93⟩ = , up to 
+⟨94⟩ = 
+⟨95⟩ =  in 
+⟨96⟩ =  1994 in 
+⟨97⟩ =  at 
+⟨98⟩ = 
+⟨99⟩ =  of 27.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Kurt Cobain: Montage of Heck documents the life of Cobain until his suicide in what state?

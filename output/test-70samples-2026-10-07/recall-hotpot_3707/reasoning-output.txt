@@ -1,0 +1,39 @@
+# 路径一：机场与城市直接关联
+
+步骤1：使用⟦53⟧，提取“Bauerfield International Airport”这一机场名称，确认其为待查机场。
+
+步骤2：综合⟦227⟧⟦43⟧，提取“Port Vila”与“an airport”的关联，判断Port Vila是机场所在城市。
+
+步骤3：使用⟦313⟧，提取“Vanuatu”，确认Port Vila位于Vanuatu，进一步验证城市归属。
+
+结论：Bauerfield International Airport位于Port Vila。
+
+# 路径二：机场代码与城市交叉验证
+
+步骤1：使用⟦143⟧⟦321⟧，提取IATA代码“VLI”，确认Bauerfield International Airport的IATA代码为VLI。
+
+步骤2：综合⟦144⟧⟦208⟧，提取ICAO代码“NVVV”，确认该机场的ICAO代码为NVVV。
+
+步骤3：综合⟦227⟧⟦313⟧，提取“Port Vila”与“Vanuatu”的关联，判断Port Vila是Vanuatu的城市，且为机场所在城市。
+
+结论：通过IATA和ICAO代码交叉验证，Bauerfield International Airport位于Port Vila。
+
+# 路径三：航空公司总部与机场位置关联
+
+步骤1：使用⟦36⟧⟦155⟧，提取“Air Vanuatu”与“its head office”，确认Air Vanuatu的总部位置。
+
+步骤2：综合⟦260⟧⟦58⟧，提取“the Air Vanuatu House”与“in”的关联，判断Air Vanuatu总部位于某地。
+
+步骤3：综合⟦53⟧⟦227⟧，提取“Bauerfield International Airport”与“Port Vila”的关联，判断机场位于Port Vila，且Air Vanuatu总部也位于Port Vila。
+
+结论：通过Air Vanuatu总部位置与机场位置的关联，Bauerfield International Airport位于Port Vila。
+
+# 路径四：机场设施与城市综合推断
+
+步骤1：使用⟦263⟧⟦38⟧，提取“The airport”与“airport”的关联，确认Bauerfield International Airport为机场。
+
+步骤2：综合⟦157⟧⟦234⟧⟦250⟧，提取“its runway”、“runway”、“size”等设施信息，判断机场规模较小。
+
+步骤3：综合⟦227⟧⟦313⟧，提取“Port Vila”与“Vanuatu”的关联，判断Port Vila是Vanuatu的城市，且为机场所在城市。
+
+结论：通过机场设施信息与城市关联，Bauerfield International Airport位于Port Vila。

@@ -1,0 +1,102 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Taigan] ⟦168⟧⟨24⟩⟦14⟧⟨25⟩⟦177⟧⟨26⟩⟦86⟧⟨27⟩⟦87⟧⟨28⟩⟦110⟧⟨29⟩⟦33⟧⟨30⟩⟨31⟩⟦88⟧⟨32⟩⟨33⟩⟦29⟧⟨34⟩⟨35⟩⟦84⟧⟨36⟩⟦53⟧⟨37⟩⟨38⟩⟦98⟧⟦90⟧⟨39⟩⟨40⟩
+[Continental bulldog] ⟦141⟧
+[Continental bulldog] ⟦83⟧
+[Korean Jindo] ⟦152⟧⟨206⟩⟦12⟧⟨207⟩⟦72⟧⟨208⟩⟦18⟧⟨209⟩⟦19⟧⟨210⟩⟨211⟩⟨212⟩⟨213⟩⟦82⟧⟨214⟩⟦118⟧⟨215⟩
+[Korean Jindo] ⟦149⟧⟨226⟩⟨227⟩⟦170⟧⟨228⟩⟦81⟧⟨229⟩⟨230⟩
+[List of dog breeds recognized by the FCI] ⟦60⟧⟦60⟧ | ⟦143⟧
+[List of dog breeds recognized by the FCI] ⟦48⟧ | ⟦48⟧ | ⟦101⟧⟦48⟧
+
+符号表：
+⟦12⟧ = (Hangul
+⟦14⟧ = (Kyrgyz
+⟦18⟧ = 珍島狗
+⟦19⟧ = a breed
+⟦29⟧ = a number
+⟦33⟧ = a sighthound breed
+⟦48⟧ = breed
+⟦53⟧ = clubs
+⟦60⟧ = dog
+⟦72⟧ = Hanja
+⟦81⟧ = January
+⟦82⟧ = Jindo Island
+⟦83⟧ = kennel
+⟦84⟧ = kennel clubs
+⟦86⟧ = Kyrgyzdyn Taighany
+⟦87⟧ = Kyrgyzskaya Borzaya Taigan
+⟦88⟧ = Kyrgyzstan
+⟦90⟧ = level
+⟦98⟧ = national level
+⟦101⟧ = number
+⟦110⟧ = Russian
+⟦118⟧ = South Korea
+⟦141⟧ = the FCI
+⟦143⟧ = the Fédération Cynologique Internationale
+⟦149⟧ = The Jindo breed
+⟦152⟧ = The Korean Jindo
+⟦168⟧ = The Taigan
+⟦170⟧ = the United Kennel Club
+⟦177⟧ = Тайган
+
+占位符映射：
+⟨24⟩ =  
+⟨25⟩ = : 
+⟨26⟩ =  ) also known as 
+⟨27⟩ =  (
+⟨28⟩ =  in 
+⟨29⟩ = ) is 
+⟨30⟩ = 
+⟨31⟩ =  from 
+⟨32⟩ = , which is not yet recognized by 
+⟨33⟩ = , but is recognized by 
+⟨34⟩ = 
+⟨35⟩ =  of 
+⟨36⟩ = 
+⟨37⟩ = 
+⟨38⟩ =  on 
+⟨39⟩ = 
+⟨40⟩ = .
+⟨206⟩ =  
+⟨207⟩ = : 진돗개 ; 
+⟨208⟩ = : 
+⟨209⟩ =  ) is 
+⟨210⟩ = 
+⟨211⟩ =  of hunting 
+⟨212⟩ = 
+⟨213⟩ =  that originated on 
+⟨214⟩ =  in 
+⟨215⟩ = .
+⟨226⟩ = 
+⟨227⟩ =  became recognized by 
+⟨228⟩ =  on 
+⟨229⟩ =  1, 1998 and by 
+⟨230⟩ =  in 2005.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which dog breed is NOT recognized by the Fédération Cynologique Internationale (FCI), the Korean Jindo or the Taigan?

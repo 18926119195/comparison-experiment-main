@@ -1,0 +1,424 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (DOI
+⟦2⟧ = (TC LID
+⟦3⟧ = 1790s
+⟦4⟧ = 180 ft
+⟦5⟧ = 180 ft Cascadero Falls
+⟦6⟧ = 400 km
+⟦7⟧ = a block caving mine
+⟦8⟧ = a cavity
+⟦9⟧ = a central circular pressure plate
+⟦10⟧ = a central circular ribbed pressure plate
+⟦11⟧ = A GLM-2 electronic booby trap
+⟦12⟧ = a location
+⟦13⟧ = A major cleanup effort
+⟦14⟧ = a national inventory
+⟦15⟧ = a new company
+⟦16⟧ = a point
+⟦17⟧ = a privately owned and operated open pit gold mine
+⟦18⟧ = a profit
+⟦19⟧ = a school district
+⟦20⟧ = a secondary fuse
+⟦21⟧ = a series
+⟦22⟧ = a square case
+⟦23⟧ = a steel disc
+⟦24⟧ = a twisting course
+⟦25⟧ = a waterfall
+⟦26⟧ = A yellow canvas
+⟦27⟧ = abandoned mines
+⟦28⟧ = About 40 km
+⟦29⟧ = addition
+⟦30⟧ = Afghanistan
+⟦31⟧ = an emergency
+⟦32⟧ = an iron and copper property
+⟦33⟧ = an open-pit copper
+⟦34⟧ = analysis
+⟦35⟧ = Angola
+⟦36⟧ = anti-handling devices
+⟦37⟧ = anti-personnel mines
+⟦38⟧ = aperture
+⟦39⟧ = area
+⟦40⟧ = AuRico Gold
+⟦41⟧ = AuRico Metals
+⟦42⟧ = authority
+⟦43⟧ = bankruptcy
+⟦44⟧ = Berkley
+⟦45⟧ = blast
+⟦46⟧ = block
+⟦47⟧ = booby
+⟦48⟧ = Both mines
+⟦49⟧ = Both Neptune Resources
+⟦50⟧ = both surface
+⟦51⟧ = bottom
+⟦52⟧ = British Columbia
+⟦53⟧ = Canada
+⟦54⟧ = canvas
+⟦55⟧ = cards
+⟦56⟧ = caribou
+⟦57⟧ = Cascadero Falls
+⟦58⟧ = cascades
+⟦59⟧ = case
+⟦60⟧ = cataracts
+⟦61⟧ = caving
+⟦62⟧ = cavity
+⟦63⟧ = CFY8
+⟦64⟧ = charge
+⟦65⟧ = cleanup
+⟦66⟧ = closure
+⟦67⟧ = coal
+⟦68⟧ = coal mines
+⟦69⟧ = collects
+⟦70⟧ = Colomac Airport
+⟦71⟧ = Colomac Mine
+⟦72⟧ = company
+⟦73⟧ = congressman
+⟦74⟧ = connection
+⟦75⟧ = construction
+⟦76⟧ = contracting
+⟦77⟧ = Conventional Weapons
+⟦78⟧ = copper
+⟦79⟧ = cost
+⟦80⟧ = country
+⟦81⟧ = course
+⟦82⟧ = data
+⟦83⟧ = day
+⟦84⟧ = department
+⟦85⟧ = detection
+⟦86⟧ = development
+⟦87⟧ = devices
+⟦88⟧ = disc
+⟦89⟧ = discs
+⟦90⟧ = district
+⟦91⟧ = documentation
+⟦92⟧ = easternmost
+⟦93⟧ = economic analysis
+⟦94⟧ = effort
+⟦95⟧ = emergency
+⟦96⟧ = end
+⟦97⟧ = Enforcement
+⟦98⟧ = enough pressure
+⟦99⟧ = environment
+⟦100⟧ = Eritrea
+⟦101⟧ = Ethiopia
+⟦102⟧ = facility
+⟦103⟧ = falls
+⟦104⟧ = foot
+⟦105⟧ = former United States congressman
+⟦106⟧ = formerly Royal Oak High School
+⟦107⟧ = fuse
+⟦108⟧ = George A. Dondero High School
+⟦109⟧ = gold
+⟦110⟧ = gold mine
+⟦111⟧ = government
+⟦112⟧ = Greater Detroit
+⟦113⟧ = Green Tree
+⟦114⟧ = head
+⟦115⟧ = health
+⟦116⟧ = height
+⟦117⟧ = high cost
+⟦118⟧ = highway
+⟦119⟧ = highway construction
+⟦120⟧ = hydroelectric development
+⟦121⟧ = images
+⟦122⟧ = industrial and commercial development
+⟦123⟧ = information
+⟦124⟧ = interests
+⟦125⟧ = inventory
+⟦126⟧ = iron
+⟦127⟧ = issues
+⟦128⟧ = items
+⟦129⟧ = its closure
+⟦130⟧ = its main northeastward trend
+⟦131⟧ = its operation
+⟦132⟧ = its owner
+⟦133⟧ = its portion
+⟦134⟧ = Kemess Creek
+⟦135⟧ = kemess Mine ownership
+⟦136⟧ = km
+⟦137⟧ = lake
+⟦138⟧ = land
+⟦139⟧ = lead
+⟦140⟧ = length
+⟦141⟧ = little success
+⟦142⟧ = location
+⟦143⟧ = low gold prices
+⟦144⟧ = map information
+⟦145⟧ = maps
+⟦146⟧ = metal
+⟦147⟧ = Michigan
+⟦148⟧ = microfilm
+⟦149⟧ = mine
+⟦150⟧ = mine maps
+⟦151⟧ = mine related data
+⟦152⟧ = mine workings
+⟦153⟧ = mines
+⟦154⟧ = mining
+⟦155⟧ = Mk2
+⟦156⟧ = municipality
+⟦157⟧ = name
+⟦158⟧ = needs
+⟦159⟧ = Neptune Resources Limited
+⟦160⟧ = northeastern Pennsylvania
+⟦161⟧ = northeastward
+⟦162⟧ = Northgate
+⟦163⟧ = Northgate Minerals
+⟦164⟧ = Northgate Minerals Inc.
+⟦165⟧ = numerous cascades
+⟦166⟧ = Office
+⟦167⟧ = only a detectable version
+⟦168⟧ = operation
+⟦169⟧ = operations
+⟦170⟧ = ores
+⟦171⟧ = OSM
+⟦172⟧ = OSMRE
+⟦173⟧ = other information
+⟦174⟧ = other resource routes
+⟦175⟧ = outlet
+⟦176⟧ = over 182,000 maps
+⟦177⟧ = owner
+⟦178⟧ = owners
+⟦179⟧ = ownership
+⟦180⟧ = P2
+⟦181⟧ = P3 Mk2
+⟦182⟧ = Pakistan
+⟦183⟧ = Pakistani plastic
+⟦184⟧ = Pakistani stocks
+⟦185⟧ = part
+⟦186⟧ = Peggy Witte
+⟦187⟧ = Pennsylvania
+⟦188⟧ = permission
+⟦189⟧ = permits
+⟦190⟧ = pit
+⟦191⟧ = place
+⟦192⟧ = plastic
+⟦193⟧ = plate
+⟦194⟧ = plunges
+⟦195⟧ = point
+⟦196⟧ = portion
+⟦197⟧ = power
+⟦198⟧ = preservation
+⟦199⟧ = pressure
+⟦200⟧ = prices
+⟦201⟧ = Prince George
+⟦202⟧ = Prior permission
+⟦203⟧ = private and public interests
+⟦204⟧ = private and public sectors
+⟦205⟧ = profit
+⟦206⟧ = property
+⟦207⟧ = protocol
+⟦208⟧ = protocol II
+⟦209⟧ = public health
+⟦210⟧ = public school services
+⟦211⟧ = Public Works and Government services
+⟦212⟧ = rapids
+⟦213⟧ = reference
+⟦214⟧ = region
+⟦215⟧ = related information
+⟦216⟧ = repository
+⟦217⟧ = resource
+⟦218⟧ = risk
+⟦219⟧ = river
+⟦220⟧ = road
+⟦221⟧ = ROSD
+⟦222⟧ = routes
+⟦223⟧ = Royal Oak
+⟦224⟧ = Royal Oak Mines
+⟦225⟧ = Royal Oak Mines Inc.
+⟦226⟧ = Royal Oak Mines Incorporated
+⟦227⟧ = Royal Oak Neighborhood Schools
+⟦228⟧ = Royal Oak School Board President George A. Dondero
+⟦229⟧ = Royal Oak School District
+⟦230⟧ = runway
+⟦231⟧ = safety
+⟦232⟧ = school
+⟦233⟧ = School District
+⟦234⟧ = sectors
+⟦235⟧ = series
+⟦236⟧ = services
+⟦237⟧ = several mining operations
+⟦238⟧ = side
+⟦239⟧ = silver
+⟦240⟧ = site
+⟦241⟧ = Smithers
+⟦242⟧ = Somalia
+⟦243⟧ = source
+⟦244⟧ = stage
+⟦245⟧ = steel
+⟦246⟧ = steel detection discs
+⟦247⟧ = stocks
+⟦248⟧ = stores
+⟦249⟧ = strap
+⟦250⟧ = suburb
+⟦251⟧ = success
+⟦252⟧ = surface
+⟦253⟧ = Surface Mining Reclamation
+⟦254⟧ = Tajikistan
+⟦255⟧ = that river's head
+⟦256⟧ = the 1790s
+⟦257⟧ = the anthracite coal region
+⟦258⟧ = The anti-personnel mine
+⟦259⟧ = The area
+⟦260⟧ = the area's mines
+⟦261⟧ = the bottom
+⟦262⟧ = the case
+⟦263⟧ = the cavity
+⟦264⟧ = the City
+⟦265⟧ = The Colomac Mine
+⟦266⟧ = the Convention
+⟦267⟧ = the current contracting authority
+⟦268⟧ = The district
+⟦269⟧ = the easternmost portion
+⟦270⟧ = the entire country
+⟦271⟧ = the environment
+⟦272⟧ = the falls
+⟦273⟧ = The Federal Government
+⟦274⟧ = the Finlay River
+⟦275⟧ = the foot
+⟦276⟧ = the fuse
+⟦277⟧ = the Giant Mine Heritage Group
+⟦278⟧ = the Giant Mine site
+⟦279⟧ = The Green Tree facility
+⟦280⟧ = the head
+⟦281⟧ = The height
+⟦282⟧ = the Indigenous and Northern Affairs department
+⟦283⟧ = the Interior
+⟦284⟧ = the Kemess Mine
+⟦285⟧ = the lake
+⟦286⟧ = the Mackenzie River
+⟦287⟧ = the main charge
+⟦288⟧ = the mine
+⟦289⟧ = The mines
+⟦290⟧ = the municipality
+⟦291⟧ = The N.W.T. Mining Heritage Society
+⟦292⟧ = The National Mine Map Repository (NMMR
+⟦293⟧ = the new Royal Oak High School
+⟦294⟧ = The NMMR
+⟦295⟧ = the northeast end
+⟦296⟧ = the Northern Interior
+⟦297⟧ = the Northwest Territories
+⟦298⟧ = The official name
+⟦299⟧ = the Omineca Mountains
+⟦300⟧ = the Omineca Resource Road
+⟦301⟧ = the outlet
+⟦302⟧ = The P2 Mk2
+⟦303⟧ = the P3
+⟦304⟧ = the P4
+⟦305⟧ = the Peace River
+⟦306⟧ = the Pittsburgh suburb
+⟦307⟧ = the potential risk
+⟦308⟧ = the power needs
+⟦309⟧ = the present day
+⟦310⟧ = the preservation
+⟦311⟧ = the pressure plate
+⟦312⟧ = the related environmental issues
+⟦313⟧ = the repository
+⟦314⟧ = the river's general northeastward trend
+⟦315⟧ = the Royal Oak Neighborhood Schools
+⟦316⟧ = the runway
+⟦317⟧ = the side
+⟦318⟧ = the ultimate source
+⟦319⟧ = the United States
+⟦320⟧ = the United States Department
+⟦321⟧ = the valley
+⟦322⟧ = this area
+⟦323⟧ = This mine
+⟦324⟧ = This repository
+⟦325⟧ = this stage
+⟦326⟧ = Thutade Lake
+⟦327⟧ = trap
+⟦328⟧ = trend
+⟦329⟧ = twisting
+⟦330⟧ = underground mines
+⟦331⟧ = underground mining
+⟦332⟧ = valley
+⟦333⟧ = version
+⟦334⟧ = waterfall
+⟦335⟧ = way
+⟦336⟧ = welfare
+⟦337⟧ = Williston Lake
+⟦338⟧ = workings
+⟦339⟧ = year
+⟦340⟧ = Yellowknife
+⟦341⟧ = zinc
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[P3 Mk2 mine] ⟦302⟧⟨1⟩⟦155⟧⟨2⟩⟦181⟧⟨3⟩⟦155⟧⟨4⟩⟦183⟧⟨5⟩⟦192⟧⟨6⟩⟦146⟧⟨7⟩⟦45⟧⟨8⟩⟦153⟧⟨9⟩
+[P3 Mk2 mine] ⟦302⟧⟨10⟩⟦155⟧⟨11⟩⟦22⟧⟨12⟩⟦59⟧⟨13⟩⟦10⟧⟨14⟩⟦199⟧⟨15⟩⟦193⟧⟨16⟩⟦303⟧⟨17⟩⟦9⟧⟨18⟩⟦199⟧⟨19⟩⟦193⟧⟨20⟩
+[P3 Mk2 mine] ⟦48⟧⟨21⟩⟦153⟧⟨22⟩⟦37⟧⟨23⟩⟦153⟧⟨24⟩⟦276⟧⟨25⟩⟦107⟧⟨26⟩⟦304⟧⟨27⟩⟦180⟧⟨28⟩⟦180⟧⟨29⟩⟦37⟧⟨30⟩⟦153⟧⟨31⟩
+[P3 Mk2 mine] ⟦258⟧⟨32⟩⟦149⟧⟨33⟩⟦8⟧⟨34⟩⟦62⟧⟨35⟩⟦311⟧⟨36⟩⟦199⟧⟨37⟩⟦193⟧⟨38⟩⟦98⟧⟨39⟩⟦199⟧⟨40⟩⟦191⟧⟨41⟩⟦191⟧⟨42⟩⟦311⟧⟨43⟩⟦199⟧⟨44⟩⟦193⟧⟨45⟩⟦288⟧⟨46⟩⟦149⟧⟨47⟩⟦258⟧⟨48⟩⟦149⟧⟨49⟩⟦287⟧⟨50⟩⟦64⟧⟨51⟩
+[P3 Mk2 mine] ⟦26⟧⟨52⟩⟦54⟧⟨53⟩⟦249⟧⟨54⟩⟦249⟧⟨55⟩⟦317⟧⟨56⟩⟦238⟧⟨57⟩⟦288⟧⟨58⟩⟦149⟧⟨59⟩
+[P3 Mk2 mine] ⟦289⟧⟨60⟩⟦153⟧⟨61⟩⟦20⟧⟨62⟩⟦107⟧⟨63⟩⟦261⟧⟨64⟩⟦51⟧⟨65⟩⟦36⟧⟨66⟩⟦87⟧⟨67⟩
+[P3 Mk2 mine] ⟦11⟧⟨68⟩⟦47⟧⟨69⟩⟦327⟧⟨70⟩⟦263⟧⟨71⟩⟦62⟧⟨72⟩⟦311⟧⟨73⟩⟦199⟧⟨74⟩⟦193⟧⟨75⟩
+[P3 Mk2 mine] ⟦288⟧⟨76⟩⟦149⟧⟨77⟩⟦23⟧⟨78⟩⟦245⟧⟨79⟩⟦88⟧⟨80⟩⟦288⟧⟨81⟩⟦149⟧⟨82⟩
+[P3 Mk2 mine] ⟨83⟩⟦167⟧⟨84⟩⟦333⟧⟨85⟩⟦288⟧⟨86⟩⟦149⟧⟨87⟩⟦266⟧⟨88⟩⟦77⟧⟨89⟩⟦207⟧⟨90⟩⟦208⟧⟨91⟩⟦184⟧⟨92⟩⟦247⟧⟨93⟩⟦288⟧⟨94⟩⟦149⟧⟨95⟩⟦245⟧⟨96⟩⟦246⟧⟨97⟩⟦85⟧⟨98⟩⟦89⟧⟨99⟩
+[P3 Mk2 mine] ⟦289⟧⟨100⟩⟦153⟧⟨101⟩⟦30⟧⟨102⟩⟦35⟧⟨103⟩⟦100⟧⟨104⟩⟦101⟧⟨105⟩⟦182⟧⟨106⟩⟦242⟧⟨107⟩⟦254⟧⟨108⟩
+[N.W.T. Mining Heritage Society] ⟦291⟧⟨109⟩⟦297⟧⟨110⟩⟦53⟧⟨111⟩⟦277⟧⟨112⟩⟦128⟧⟨113⟩⟦128⟧⟨114⟩⟦278⟧⟨115⟩⟦240⟧⟨116⟩⟦132⟧⟨117⟩⟦177⟧⟨118⟩⟦226⟧⟨119⟩
+[Cascadero Falls] ⟦57⟧⟨120⟩⟦25⟧⟨121⟩⟦334⟧⟨122⟩⟦274⟧⟨123⟩⟦296⟧⟨124⟩⟦52⟧⟨125⟩⟦53⟧⟨126⟩⟦255⟧⟨127⟩⟦219⟧⟨128⟩⟦114⟧⟨129⟩⟦301⟧⟨130⟩⟦175⟧⟨131⟩⟦326⟧⟨132⟩
+[Cascadero Falls] ⟦281⟧⟨133⟩⟦116⟧⟨134⟩⟦272⟧⟨135⟩⟦103⟧⟨136⟩⟦4⟧⟨137⟩⟦165⟧⟨138⟩⟦58⟧⟨139⟩⟦212⟧⟨140⟩⟦212⟧⟨141⟩⟦24⟧⟨142⟩⟦329⟧⟨143⟩⟦81⟧⟨144⟩⟦314⟧⟨145⟩⟦219⟧⟨146⟩⟦161⟧⟨147⟩⟦328⟧⟨148⟩⟦322⟧⟨149⟩⟦39⟧⟨150⟩
+[Cascadero Falls] ⟦272⟧⟨151⟩⟦103⟧⟨152⟩⟦120⟧⟨153⟩⟦86⟧⟨154⟩⟦74⟧⟨155⟩⟦74⟧⟨156⟩⟦260⟧⟨157⟩⟦39⟧⟨158⟩⟦153⟧⟨159⟩⟦284⟧⟨160⟩⟦164⟧⟨161⟩⟦275⟧⟨162⟩⟦104⟧⟨163⟩⟦326⟧⟨164⟩⟦321⟧⟨165⟩⟦332⟧⟨166⟩⟦134⟧⟨167⟩
+[National Mine Map Repository] ⟦292⟧⟨168⟩⟦185⟧⟨169⟩⟦185⟧⟨170⟩⟦320⟧⟨171⟩⟦283⟧⟨172⟩⟦1⟧⟨173⟩⟦166⟧⟨174⟩⟦253⟧⟨175⟩⟦97⟧⟨176⟩⟦172⟧⟨177⟩⟦171⟧⟨178⟩
+[National Mine Map Repository] ⟨179⟩⟦306⟧⟨180⟩⟦250⟧⟨181⟩⟦113⟧⟨182⟩⟦187⟧⟨183⟩⟦69⟧⟨184⟩⟦69⟧⟨185⟩⟦149⟧⟨186⟩⟦149⟧⟨187⟩⟦144⟧⟨188⟩⟦123⟧⟨189⟩⟦121⟧⟨190⟩⟦121⟧⟨191⟩⟦270⟧⟨192⟩⟦80⟧⟨193⟩⟦82⟧⟨194⟩⟦82⟧⟨195⟩⟦145⟧⟨196⟩⟦145⟧⟨197⟩⟦67⟧⟨198⟩⟦68⟧⟨199⟩⟦153⟧⟨200⟩⟦257⟧⟨201⟩⟦67⟧⟨202⟩⟦214⟧⟨203⟩⟦160⟧⟨204⟩
+[National Mine Map Repository] ⟦279⟧⟨205⟩⟦102⟧⟨206⟩⟦248⟧⟨207⟩⟦248⟧⟨208⟩⟦148⟧⟨209⟩⟦148⟧⟨210⟩⟦38⟧⟨211⟩⟦55⟧⟨212⟩⟦176⟧⟨213⟩⟦145⟧⟨214⟩⟦27⟧⟨215⟩⟦153⟧⟨216⟩
+[National Mine Map Repository] ⟦324⟧⟨217⟩⟦216⟧⟨218⟩⟦145⟧⟨219⟩⟦145⟧⟨220⟩⟦152⟧⟨221⟩⟦338⟧⟨222⟩⟦256⟧⟨223⟩⟦3⟧⟨224⟩⟦309⟧⟨225⟩⟦83⟧⟨226⟩
+[National Mine Map Repository] ⟨227⟩⟦16⟧⟨228⟩⟦195⟧⟨229⟩⟦213⟧⟨230⟩⟦213⟧⟨231⟩⟦149⟧⟨232⟩⟦150⟧⟨233⟩⟦145⟧⟨234⟩⟦173⟧⟨235⟩⟦123⟧⟨236⟩⟦50⟧⟨237⟩⟦252⟧⟨238⟩⟦330⟧⟨239⟩⟦153⟧⟨240⟩⟦319⟧⟨241⟩
+[National Mine Map Repository] ⟨242⟩⟦12⟧⟨243⟩⟦142⟧⟨244⟩⟦149⟧⟨245⟩⟦150⟧⟨246⟩⟦145⟧⟨247⟩⟦31⟧⟨248⟩⟦95⟧⟨249⟩
+[National Mine Map Repository] ⟦294⟧⟨250⟩⟦236⟧⟨251⟩⟦236⟧⟨252⟩⟦149⟧⟨253⟩⟦151⟧⟨254⟩⟦82⟧⟨255⟩⟦93⟧⟨256⟩⟦34⟧⟨257⟩⟦307⟧⟨258⟩⟦218⟧⟨259⟩⟦331⟧⟨260⟩⟦154⟧⟨261⟩
+[National Mine Map Repository] ⟨262⟩⟦34⟧⟨263⟩⟦34⟧⟨264⟩⟦149⟧⟨265⟩⟦150⟧⟨266⟩⟦145⟧⟨267⟩⟦215⟧⟨268⟩⟦123⟧⟨269⟩⟦313⟧⟨270⟩⟦216⟧⟨271⟩⟦204⟧⟨272⟩⟦234⟧⟨273⟩⟦122⟧⟨274⟩⟦86⟧⟨275⟩⟦118⟧⟨276⟩⟦119⟧⟨277⟩⟦75⟧⟨278⟩⟦310⟧⟨279⟩⟦198⟧⟨280⟩⟦209⟧⟨281⟩⟦115⟧⟨282⟩⟦231⟧⟨283⟩⟦231⟧⟨284⟩⟦336⟧⟨285⟩⟦336⟧⟨286⟩
+[National Mine Map Repository] ⟨287⟩⟦29⟧⟨288⟩⟦29⟧⟨289⟩⟦14⟧⟨290⟩⟦125⟧⟨291⟩⟦149⟧⟨292⟩⟦150⟧⟨293⟩⟦145⟧⟨294⟩⟦91⟧⟨295⟩⟦91⟧⟨296⟩⟦203⟧⟨297⟩⟦124⟧⟨298⟩
+[Dondero High School] ⟦108⟧⟨299⟩⟦106⟧⟨300⟩⟦223⟧⟨301⟩⟦147⟧⟨302⟩⟦112⟧⟨303⟩
+[Dondero High School] ⟨304⟩⟦105⟧⟨305⟩⟦73⟧⟨306⟩⟦228⟧⟨307⟩
+[Dondero High School] ⟨308⟩⟦185⟧⟨309⟩⟦315⟧⟨310⟩⟦293⟧⟨311⟩
+[Colomac Mine] ⟦265⟧⟨312⟩⟦17⟧⟨313⟩⟦190⟧⟨314⟩⟦109⟧⟨315⟩⟦149⟧⟨316⟩⟦136⟧⟨317⟩⟦340⟧⟨318⟩⟦297⟧⟨319⟩⟦53⟧⟨320⟩
+[Colomac Mine] ⟦265⟧⟨321⟩⟦149⟧⟨322⟩
+[Colomac Mine] ⟨323⟩⟦159⟧⟨324⟩⟦141⟧⟨325⟩⟦251⟧⟨326⟩⟦18⟧⟨327⟩⟦205⟧⟨328⟩⟦131⟧⟨329⟩⟦168⟧⟨330⟩
+[Colomac Mine] ⟨331⟩⟦288⟧⟨332⟩⟦149⟧⟨333⟩⟦225⟧
+[Colomac Mine] ⟦49⟧⟨334⟩⟦224⟧⟨335⟩⟦186⟧⟨336⟩
+[Colomac Mine] ⟨337⟩⟦143⟧⟨338⟩⟦109⟧⟨339⟩⟦200⟧⟨340⟩⟦117⟧⟨341⟩⟦79⟧⟨342⟩⟦154⟧⟨343⟩⟦154⟧⟨344⟩⟦224⟧⟨345⟩⟦43⟧⟨346⟩⟦43⟧⟨347⟩
+[Colomac Mine] ⟦273⟧⟨348⟩⟦53⟧⟨349⟩⟦178⟧⟨350⟩⟦178⟧⟨351⟩⟦288⟧⟨352⟩⟦149⟧⟨353⟩⟦312⟧⟨354⟩⟦127⟧⟨355⟩
+[Colomac Mine] ⟦13⟧⟨356⟩⟦65⟧⟨357⟩⟦94⟧⟨358⟩⟦335⟧⟨359⟩⟦335⟧⟨360⟩⟦288⟧⟨361⟩⟦149⟧⟨362⟩⟦271⟧⟨363⟩⟦99⟧⟨364⟩⟦325⟧⟨365⟩⟦244⟧⟨366⟩
+[Colomac Mine] ⟦323⟧⟨367⟩⟦149⟧⟨368⟩⟦282⟧⟨369⟩⟦84⟧⟨370⟩⟦273⟧⟨371⟩⟦111⟧⟨372⟩⟦211⟧⟨373⟩⟦236⟧⟨374⟩⟦267⟧⟨375⟩⟦76⟧⟨376⟩⟦42⟧⟨377⟩
+[Royal Oak Neighborhood Schools] ⟦227⟧⟨378⟩⟦229⟧⟨379⟩⟦221⟧⟨380⟩⟦19⟧⟨381⟩⟦232⟧⟨382⟩⟦90⟧⟨383⟩⟦112⟧⟨384⟩⟦147⟧⟨385⟩
+[Royal Oak Neighborhood Schools] ⟦268⟧⟨386⟩⟦90⟧⟨387⟩⟦210⟧⟨388⟩⟦232⟧⟨389⟩⟦236⟧⟨390⟩⟦290⟧⟨391⟩⟦156⟧⟨392⟩⟦223⟧⟨393⟩⟦269⟧⟨394⟩⟦92⟧⟨395⟩⟦196⟧⟨396⟩⟦44⟧⟨397⟩
+[Royal Oak Neighborhood Schools] ⟦298⟧⟨398⟩⟦157⟧⟨399⟩⟦233⟧⟨400⟩⟦264⟧⟨401⟩⟦223⟧⟨402⟩
+[Kemess Mine] ⟦284⟧⟨403⟩⟦33⟧⟨404⟩⟦190⟧⟨405⟩⟦78⟧⟨406⟩⟦109⟧⟨407⟩⟦110⟧⟨408⟩⟦149⟧⟨409⟩⟦275⟧⟨410⟩⟦104⟧⟨411⟩⟦326⟧⟨412⟩⟦280⟧⟨413⟩⟦114⟧⟨414⟩⟦274⟧⟨415⟩⟦299⟧⟨416⟩⟦296⟧⟨417⟩⟦52⟧⟨418⟩⟦53⟧⟨419⟩
+[Kemess Mine] ⟨420⟩⟦224⟧⟨421⟩⟦163⟧⟨422⟩
+[Kemess Mine] ⟦162⟧⟨423⟩⟦288⟧⟨424⟩⟦149⟧⟨425⟩⟦129⟧⟨426⟩⟦66⟧⟨427⟩⟦339⟧⟨428⟩⟦162⟧⟨429⟩⟦40⟧⟨430⟩
+[Kemess Mine] ⟨431⟩⟦40⟧⟨432⟩⟦133⟧⟨433⟩⟦196⟧⟨434⟩⟦135⟧⟨435⟩⟦179⟧⟨436⟩⟦15⟧⟨437⟩⟦72⟧⟨438⟩⟦41⟧⟨439⟩
+[Kemess Mine] ⟦41⟧⟨440⟩⟦189⟧⟨441⟩⟦189⟧⟨442⟩⟦7⟧⟨443⟩⟦46⟧⟨444⟩⟦61⟧⟨445⟩⟦149⟧⟨446⟩
+[Thutade Lake] ⟦326⟧⟨447⟩⟦299⟧⟨448⟩⟦296⟧⟨449⟩⟦52⟧⟨450⟩⟦53⟧⟨451⟩
+[Thutade Lake] ⟦28⟧⟨452⟩⟦136⟧⟨453⟩⟦140⟧⟨454⟩⟦140⟧⟨455⟩⟦136⟧⟨456⟩⟦285⟧⟨457⟩⟦137⟧⟨458⟩⟦318⟧⟨459⟩⟦243⟧⟨460⟩⟦286⟧⟨461⟩
+[Thutade Lake] ⟦285⟧⟨462⟩⟦137⟧⟨463⟩⟦280⟧⟨464⟩⟦114⟧⟨465⟩⟦274⟧⟨466⟩⟦305⟧⟨467⟩⟦337⟧⟨468⟩
+[Thutade Lake] ⟦259⟧⟨469⟩⟦39⟧⟨470⟩⟦136⟧⟨471⟩⟦241⟧⟨472⟩⟦237⟧⟨473⟩⟦154⟧⟨474⟩⟦169⟧⟨475⟩⟦170⟧⟨476⟩⟦170⟧⟨477⟩⟦78⟧⟨478⟩⟦78⟧⟨479⟩⟦139⟧⟨480⟩⟦139⟧⟨481⟩⟦341⟧⟨482⟩⟦341⟧⟨483⟩⟦239⟧⟨484⟩⟦239⟧⟨485⟩⟦285⟧⟨486⟩⟦137⟧⟨487⟩
+[Thutade Lake] ⟨488⟩⟦284⟧⟨489⟩⟦32⟧⟨490⟩⟦126⟧⟨491⟩⟦78⟧⟨492⟩⟦206⟧⟨493⟩⟦224⟧⟨494⟩⟦163⟧⟨495⟩⟦321⟧⟨496⟩⟦332⟧⟨497⟩⟦134⟧⟨498⟩⟦295⟧⟨499⟩⟦96⟧⟨500⟩⟦326⟧⟨501⟩
+[Thutade Lake] ⟦288⟧⟨502⟩⟦149⟧⟨503⟩⟦300⟧⟨504⟩⟦174⟧⟨505⟩⟦217⟧⟨506⟩⟦222⟧⟨507⟩⟦6⟧⟨508⟩⟦136⟧⟨509⟩⟦220⟧⟨510⟩⟦220⟧⟨511⟩⟦201⟧⟨512⟩
+[Thutade Lake] ⟨513⟩⟦301⟧⟨514⟩⟦175⟧⟨515⟩⟦326⟧⟨516⟩⟦194⟧⟨517⟩⟦5⟧⟨518⟩⟦21⟧⟨519⟩⟦235⟧⟨520⟩⟦60⟧⟨521⟩⟦60⟧⟨522⟩⟦24⟧⟨523⟩⟦329⟧⟨524⟩⟦81⟧⟨525⟩⟦130⟧⟨526⟩⟦161⟧⟨527⟩⟦328⟧⟨528⟩
+[Thutade Lake] ⟦57⟧⟨529⟩⟦120⟧⟨530⟩⟦86⟧⟨531⟩⟦74⟧⟨532⟩⟦74⟧⟨533⟩⟦308⟧⟨534⟩⟦197⟧⟨535⟩⟦158⟧⟨536⟩⟦260⟧⟨537⟩⟦39⟧⟨538⟩⟦153⟧⟨539⟩
+[Colomac Airport] ⟦70⟧⟨540⟩⟦2⟧⟨541⟩⟦63⟧⟨542⟩⟦71⟧⟨543⟩⟦297⟧⟨544⟩⟦53⟧⟨545⟩⟦56⟧⟨546⟩⟦316⟧⟨547⟩⟦230⟧⟨548⟩
+[Colomac Airport] ⟦202⟧⟨549⟩⟦188⟧⟨550⟩⟦138⟧⟨551⟩⟦262⟧⟨552⟩⟦59⟧⟨553⟩⟦31⟧⟨554⟩⟦95⟧⟨555⟩
+
+[user]
+
+问题：
+What mine was operated by Royal Oak Mines at at earlier date, Kemess Mine or Colomac Mine?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

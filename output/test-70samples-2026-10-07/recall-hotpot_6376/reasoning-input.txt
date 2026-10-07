@@ -1,0 +1,81 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[On the Radio (Regina Spektor song)] ⟦239⟧⟦78⟧⟨59⟩⟨60⟩⟨61⟩⟨62⟩⟨63⟩⟨64⟩⟦4⟧⟨65⟩⟨66⟩⟦115⟧⟨67⟩⟨68⟩
+[November Rain] ⟦188⟧
+[November Rain] ⟦237⟧⟨205⟩⟨206⟩⟨207⟩⟨204⟩⟨208⟩⟨209⟩⟦282⟧⟨211⟩⟨210⟩⟨212⟩⟦311⟧⟨213⟩
+[November Rain] ⟦201⟧
+[Mirrors (Natalia Kills song)] ⟦203⟧
+[Aziz Ibrahim] ⟦211⟧
+[Till I Die (Machine Gun Kelly song)] ⟦141⟧
+[I Miss You (Blink-182 song)] ⟦59⟧⟦227⟧⟦36⟧
+[I Miss You (Blink-182 song)] ⟦265⟧⟦214⟧⟦194⟧⟦194⟧ | ⟦265⟧⟦214⟧
+
+符号表：
+⟦4⟧ = "November Rain
+⟦36⟧ = album
+⟦59⟧ = band
+⟦78⟧ = chorus
+⟦115⟧ = Guns N' Roses
+⟦141⟧ = lead
+⟦188⟧ = Rain
+⟦194⟧ = references
+⟦201⟧ = Roses
+⟦203⟧ = sadomasochism
+⟦211⟧ = singer
+⟦214⟧ = song
+⟦227⟧ = studio
+⟦237⟧ = the band's lead singer Axl Rose
+⟦239⟧ = The chorus
+⟦265⟧ = The song
+⟦282⟧ = their third studio album
+⟦311⟧ = Your Illusion
+
+占位符映射：
+⟨59⟩ = 
+⟨60⟩ =  contains 
+⟨61⟩ = 
+⟨62⟩ =  to 
+⟨63⟩ = 
+⟨64⟩ =  
+⟨65⟩ = 
+⟨66⟩ = " by 
+⟨67⟩ = 
+⟨68⟩ = .
+⟨204⟩ = 
+⟨205⟩ = 's 
+⟨206⟩ =  
+⟨207⟩ =  Axl Rose, 
+⟨208⟩ = 
+⟨209⟩ =  was released as a single in 1992 from 
+⟨210⟩ = 
+⟨211⟩ =  
+⟨212⟩ = , "Use 
+⟨213⟩ =  I" (1991).
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The chorus of "On the Radio" contains references to the song "November Rain" whose band's lead singer is?

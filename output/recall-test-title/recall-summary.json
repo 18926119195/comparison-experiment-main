@@ -1,0 +1,29 @@
+{
+  "mode": "recall",
+  "total": 1,
+  "exactMatches": 0,
+  "averageScore": 0,
+  "recallUsage": {
+    "callsWithUsage": 1,
+    "promptTokens": 5717,
+    "completionTokens": 184,
+    "totalTokens": 5901,
+    "cacheHitTokens": 2304,
+    "cacheMissTokens": 3413,
+    "cacheHitRate": 0.403
+  },
+  "reasoningUsage": {
+    "callsWithUsage": 1,
+    "promptTokens": 799,
+    "completionTokens": 8458,
+    "totalTokens": 9257,
+    "cacheHitTokens": 0,
+    "cacheMissTokens": 799,
+    "cacheHitRate": 0
+  },
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": true
+  }
+}

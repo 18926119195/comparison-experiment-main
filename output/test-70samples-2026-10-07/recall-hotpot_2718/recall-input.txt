@@ -1,0 +1,455 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = “America’s Best High Schools
+⟦2⟧ = "US News
+⟦3⟧ = (BVNW
+⟦4⟧ = (LBHS
+⟦5⟧ = 1st
+⟦6⟧ = 20 km
+⟦7⟧ = 4.2 exams
+⟦8⟧ = 424th
+⟦9⟧ = 79th
+⟦10⟧ = 89th
+⟦11⟧ = 9–12
+⟦12⟧ = 99 outstanding high schools
+⟦13⟧ = a Baron
+⟦14⟧ = a bio-technology lab
+⟦15⟧ = a broadcasting studio
+⟦16⟧ = a California Distinguished High School
+⟦17⟧ = a campus style school
+⟦18⟧ = a communication technology center
+⟦19⟧ = a complex
+⟦20⟧ = a comprehensive and college preparatory public high school
+⟦21⟧ = a computer-assisted drafting lab
+⟦22⟧ = a construction-oriented magnet program
+⟦23⟧ = a current enrollment
+⟦24⟧ = a freshman academy
+⟦25⟧ = a fully accredited public high school
+⟦26⟧ = a high school
+⟦27⟧ = a member
+⟦28⟧ = a middle school
+⟦29⟧ = A new addition/renovation
+⟦30⟧ = a new junior high school
+⟦31⟧ = a NJROTC program
+⟦32⟧ = a northwest suburb
+⟦33⟧ = a patriotic symbol
+⟦34⟧ = a program
+⟦35⟧ = a public four-year high school
+⟦36⟧ = a public high school
+⟦37⟧ = a public high school serving grade levels
+⟦38⟧ = a public, four-year (grade levels 9–12
+⟦39⟧ = a senior high school serving students
+⟦40⟧ = a suburban community
+⟦41⟧ = a top comprehensive high school
+⟦42⟧ = a top-rated school
+⟦43⟧ = about 2,800 students
+⟦44⟧ = academics
+⟦45⟧ = academy
+⟦46⟧ = addition
+⟦47⟧ = Additions
+⟦48⟧ = administration
+⟦49⟧ = airs
+⟦50⟧ = Altamonte Springs
+⟦51⟧ = America
+⟦52⟧ = America's Best High Schools
+⟦53⟧ = an all-enclosed facility
+⟦54⟧ = an API score
+⟦55⟧ = an auditorium
+⟦56⟧ = an eight-part documentary television series
+⟦57⟧ = an International Baccalaureate program
+⟦58⟧ = anniversary
+⟦59⟧ = AP
+⟦60⟧ = API
+⟦61⟧ = Apple Valley
+⟦62⟧ = approximately 1280 students
+⟦63⟧ = approximately 13 miles
+⟦64⟧ = April
+⟦65⟧ = art
+⟦66⟧ = arts
+⟦67⟧ = Ashland
+⟦68⟧ = ATL
+⟦69⟧ = Atlantic
+⟦70⟧ = Atlantic Community High School
+⟦71⟧ = Atlantic High
+⟦72⟧ = auditorium
+⟦73⟧ = August
+⟦74⟧ = Beaverdam
+⟦75⟧ = Blue Valley Northwest
+⟦76⟧ = Blue Valley Northwest High
+⟦77⟧ = Blue Valley Northwest High School
+⟦78⟧ = Blue Valley West
+⟦79⟧ = Blue Valley West High School
+⟦80⟧ = body
+⟦81⟧ = Bonita
+⟦82⟧ = Bonita Vista High School
+⟦83⟧ = both the IB and AP programs
+⟦84⟧ = Brett Potts
+⟦85⟧ = broadcasting
+⟦86⟧ = buildings
+⟦87⟧ = BVH
+⟦88⟧ = BVH's Mascot
+⟦89⟧ = cafeteria
+⟦90⟧ = California
+⟦91⟧ = campus
+⟦92⟧ = career
+⟦93⟧ = Carl Sandburg Junior High
+⟦94⟧ = CCSD
+⟦95⟧ = center
+⟦96⟧ = Central Road
+⟦97⟧ = championships
+⟦98⟧ = Chicago
+⟦99⟧ = Chula Vista
+⟦100⟧ = citizen
+⟦101⟧ = city
+⟦102⟧ = Clarkstown High School South
+⟦103⟧ = Clarkstown South
+⟦104⟧ = classrooms
+⟦105⟧ = college
+⟦106⟧ = colors
+⟦107⟧ = communication
+⟦108⟧ = community
+⟦109⟧ = complex
+⟦110⟧ = computer
+⟦111⟧ = consolidation
+⟦112⟧ = construction
+⟦113⟧ = county
+⟦114⟧ = currently operated high schools
+⟦115⟧ = deliberation
+⟦116⟧ = Delray Beach
+⟦117⟧ = dimensions
+⟦118⟧ = District
+⟦119⟧ = documentary
+⟦120⟧ = drafting
+⟦121⟧ = drama
+⟦122⟧ = Eastview
+⟦123⟧ = Eastview High School
+⟦124⟧ = Education
+⟦125⟧ = enrollment
+⟦126⟧ = Even the school colors
+⟦127⟧ = exams
+⟦128⟧ = excellence
+⟦129⟧ = facility
+⟦130⟧ = Fairview
+⟦131⟧ = fall
+⟦132⟧ = Feeder elementary schools
+⟦133⟧ = Feeder schools
+⟦134⟧ = finalists
+⟦135⟧ = FL
+⟦136⟧ = Florida
+⟦137⟧ = four high schools
+⟦138⟧ = Frank C. Whiteley
+⟦139⟧ = Fremd
+⟦140⟧ = Fremd High School
+⟦141⟧ = freshman
+⟦142⟧ = grade
+⟦143⟧ = grades
+⟦144⟧ = gymnasium
+⟦145⟧ = half
+⟦146⟧ = Hanover County
+⟦147⟧ = Hanover County's most illustrious citizen
+⟦148⟧ = Henry Clay
+⟦149⟧ = high school
+⟦150⟧ = High School Confidential
+⟦151⟧ = history
+⟦152⟧ = Hoffman Estates High School
+⟦153⟧ = Hunting Ridge
+⟦154⟧ = IB
+⟦155⟧ = Illinois
+⟦156⟧ = Independent School District
+⟦157⟧ = Inverness
+⟦158⟧ = its 50th anniversary
+⟦159⟧ = its academic excellence
+⟦160⟧ = its academics
+⟦161⟧ = its athletic, drama
+⟦162⟧ = its current location
+⟦163⟧ = its literary publications
+⟦164⟧ = its NJROTC program
+⟦165⟧ = its ranking
+⟦166⟧ = its theatre program
+⟦167⟧ = Its two feeder schools
+⟦168⟧ = James B. Conant High School
+⟦169⟧ = John M. Gandy High School
+⟦170⟧ = Kansas
+⟦171⟧ = km
+⟦172⟧ = lab
+⟦173⟧ = Lake Brantley High School
+⟦174⟧ = Lakewood Middle School
+⟦175⟧ = levels
+⟦176⟧ = limits
+⟦177⟧ = Line
+⟦178⟧ = list
+⟦179⟧ = location
+⟦180⟧ = magazine
+⟦181⟧ = magnet
+⟦182⟧ = many students
+⟦183⟧ = many years
+⟦184⟧ = March
+⟦185⟧ = Marion Jordan
+⟦186⟧ = mascot
+⟦187⟧ = media
+⟦188⟧ = member
+⟦189⟧ = miles
+⟦190⟧ = Minnesota
+⟦191⟧ = Montpelier
+⟦192⟧ = music
+⟦193⟧ = music programs
+⟦194⟧ = name
+⟦195⟧ = nation
+⟦196⟧ = needs
+⟦197⟧ = new gymnasium
+⟦198⟧ = Newsweek
+⟦199⟧ = Newsweek magazine's 2005 list
+⟦200⟧ = Newsweek's list
+⟦201⟧ = north
+⟦202⟧ = north Hoffman Estates
+⟦203⟧ = north Schaumburg
+⟦204⟧ = number
+⟦205⟧ = offices
+⟦206⟧ = one Integrated student body
+⟦207⟧ = opportunities
+⟦208⟧ = order
+⟦209⟧ = Orlando
+⟦210⟧ = Overland Park
+⟦211⟧ = Paddock
+⟦212⟧ = Palatine
+⟦213⟧ = Palatine High School
+⟦214⟧ = Palatine High School South
+⟦215⟧ = Palm Beach County
+⟦216⟧ = part
+⟦217⟧ = Patrick Henry
+⟦218⟧ = Patrick Henry High
+⟦219⟧ = Patrick Henry High School
+⟦220⟧ = place
+⟦221⟧ = Pleasant Hill
+⟦222⟧ = Pleasant Ridge Middle School
+⟦223⟧ = Plum Grove Junior High
+⟦224⟧ = population
+⟦225⟧ = principal
+⟦226⟧ = program
+⟦227⟧ = programs
+⟦228⟧ = publications
+⟦229⟧ = Race
+⟦230⟧ = Rachel's Challenge
+⟦231⟧ = railroad
+⟦232⟧ = ranking
+⟦233⟧ = rankings
+⟦234⟧ = recent years
+⟦235⟧ = reference
+⟦236⟧ = renovation
+⟦237⟧ = renovations
+⟦238⟧ = Rockville high schools
+⟦239⟧ = run
+⟦240⟧ = Schaumburg High School
+⟦241⟧ = school
+⟦242⟧ = schools
+⟦243⟧ = score
+⟦244⟧ = Seminole County
+⟦245⟧ = Seminole County Public Schools
+⟦246⟧ = September
+⟦247⟧ = series
+⟦248⟧ = several schools
+⟦249⟧ = Sharon Liese
+⟦250⟧ = simply "South
+⟦251⟧ = southeast Inverness
+⟦252⟧ = southwest
+⟦253⟧ = state
+⟦254⟧ = state championships
+⟦255⟧ = student
+⟦256⟧ = students
+⟦257⟧ = studio
+⟦258⟧ = style
+⟦259⟧ = suburb
+⟦260⟧ = symbol
+⟦261⟧ = taker
+⟦262⟧ = technology
+⟦263⟧ = teenagers
+⟦264⟧ = television
+⟦265⟧ = test
+⟦266⟧ = that school year
+⟦267⟧ = the 2000 best public high schools
+⟦268⟧ = the 2009 Newsweek list
+⟦269⟧ = the 2010 Newsweek ranking
+⟦270⟧ = the 2010-2011 school year
+⟦271⟧ = the 2013 Newsweek rankings
+⟦272⟧ = the 500 top high schools
+⟦273⟧ = the average AP test taker
+⟦274⟧ = the Blue Valley Unified School District
+⟦275⟧ = the city
+⟦276⟧ = the city limits
+⟦277⟧ = the Clarkstown Central School District
+⟦278⟧ = the consolidation
+⟦279⟧ = the county
+⟦280⟧ = the Department
+⟦281⟧ = the dimensions
+⟦282⟧ = the district
+⟦283⟧ = the facility
+⟦284⟧ = the fall
+⟦285⟧ = the few schools
+⟦286⟧ = the first annual Race
+⟦287⟧ = the four high schools
+⟦288⟧ = the highest number
+⟦289⟧ = the history
+⟦290⟧ = the Jaguar
+⟦291⟧ = the junior high school
+⟦292⟧ = the Lake Conference
+⟦293⟧ = the Lake Conference schools
+⟦294⟧ = the media center and administrative offices
+⟦295⟧ = the most challenging high schools
+⟦296⟧ = the nation
+⟦297⟧ = the needs
+⟦298⟧ = the Obama administration
+⟦299⟧ = the only High school
+⟦300⟧ = The Orator
+⟦301⟧ = The original run
+⟦302⟧ = the population
+⟦303⟧ = The principal
+⟦304⟧ = The school
+⟦305⟧ = The school campus
+⟦306⟧ = the school colors
+⟦307⟧ = the School District
+⟦308⟧ = The school mascot
+⟦309⟧ = the school's International Baccalaureate program
+⟦310⟧ = The series
+⟦311⟧ = the six finalists
+⟦312⟧ = the sixth consecutive time
+⟦313⟧ = the South Suburban Conference
+⟦314⟧ = The Spark
+⟦315⟧ = the state
+⟦316⟧ = the Sweetwater Union High School District
+⟦317⟧ = the top
+⟦318⟧ = the top 1,500 high schools
+⟦319⟧ = the top 100 high schools
+⟦320⟧ = the top 2000 public schools
+⟦321⟧ = the top 3%
+⟦322⟧ = the Top High School Commencement Challenge
+⟦323⟧ = the Top High Schools
+⟦324⟧ = the United States
+⟦325⟧ = the UP NW Line railroad tracks
+⟦326⟧ = The Voice
+⟦327⟧ = the western half
+⟦328⟧ = The western Hanover County high school
+⟦329⟧ = the-art
+⟦330⟧ = theatre
+⟦331⟧ = their "List
+⟦332⟧ = This addition
+⟦333⟧ = Thomas Jefferson
+⟦334⟧ = three classrooms
+⟦335⟧ = time
+⟦336⟧ = top
+⟦337⟧ = Township High School District
+⟦338⟧ = tracks
+⟦339⟧ = TV
+⟦340⟧ = twelve high school teenagers
+⟦341⟧ = two high schools
+⟦342⟧ = U.S. News
+⟦343⟧ = United States
+⟦344⟧ = USA
+⟦345⟧ = Virginia
+⟦346⟧ = visual arts
+⟦347⟧ = Walter Sundling Junior High and Margaret Mead Junior High
+⟦348⟧ = WE TV
+⟦349⟧ = west
+⟦350⟧ = West Nyack
+⟦351⟧ = West Patrick Henry Road
+⟦352⟧ = west Rolling Meadows
+⟦353⟧ = William Fremd High School
+⟦354⟧ = Willow Bend
+⟦355⟧ = World Report
+⟦356⟧ = year
+⟦357⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Clarkstown High School South] ⟦102⟧⟨1⟩⟦36⟧⟨2⟩⟦241⟧⟨3⟩⟦350⟧⟨4⟩
+[Clarkstown High School South] ⟦304⟧⟨5⟩⟦241⟧⟨6⟩⟦256⟧⟨7⟩⟦256⟧⟨8⟩⟦143⟧⟨9⟩⟦143⟧⟨10⟩⟦341⟧⟨11⟩⟦242⟧⟨12⟩⟦277⟧⟨13⟩⟦94⟧⟨14⟩
+[Clarkstown High School South] ⟨15⟩⟦103⟧⟨16⟩⟦250⟧⟨17⟩
+[Clarkstown High School South] ⟨18⟩⟦103⟧⟨19⟩⟦200⟧⟨20⟩⟦178⟧⟨21⟩⟦267⟧⟨22⟩⟦242⟧⟨23⟩⟦324⟧⟨24⟩
+[Clarkstown High School South] ⟨25⟩⟦103⟧⟨26⟩⟦200⟧⟨27⟩⟦178⟧⟨28⟩⟦272⟧⟨29⟩⟦242⟧⟨30⟩⟦324⟧⟨31⟩⟦220⟧⟨32⟩
+[Lake Brantley High School] ⟦173⟧⟨33⟩⟦4⟧⟨34⟩⟦50⟧⟨35⟩⟦136⟧⟨36⟩⟦40⟧⟨37⟩⟦108⟧⟨38⟩⟦63⟧⟨39⟩⟦189⟧⟨40⟩⟦6⟧⟨41⟩⟦171⟧⟨42⟩⟦201⟧⟨43⟩⟦201⟧⟨44⟩⟦209⟧⟨45⟩
+[Lake Brantley High School] ⟨46⟩⟦37⟧⟨47⟩⟦241⟧⟨48⟩⟦142⟧⟨49⟩⟦175⟧⟨50⟩⟦11⟧⟨51⟩⟦244⟧⟨52⟩⟦135⟧⟨53⟩⟦245⟧⟨54⟩
+[Lake Brantley High School] ⟦304⟧⟨55⟩⟦241⟧⟨56⟩⟦9⟧⟨57⟩⟦9⟧⟨58⟩⟦199⟧⟨59⟩⟦180⟧⟨60⟩⟦178⟧⟨61⟩⟦319⟧⟨62⟩⟦242⟧⟨63⟩⟦324⟧⟨64⟩⟦8⟧⟨65⟩⟦8⟧⟨66⟩⟦268⟧⟨67⟩⟦178⟧⟨68⟩
+[Eastview High School] ⟦123⟧⟨69⟩⟦20⟧⟨70⟩⟦105⟧⟨71⟩⟦241⟧⟨72⟩⟦118⟧⟨73⟩⟦61⟧⟨74⟩⟦190⟧⟨75⟩⟦344⟧⟨76⟩
+[Eastview High School] ⟨77⟩⟦122⟧⟨78⟩⟦287⟧⟨79⟩⟦242⟧⟨80⟩⟦156⟧⟨81⟩
+[Eastview High School] ⟦198⟧⟨82⟩⟦304⟧⟨83⟩⟦241⟧⟨84⟩⟦331⟧⟨85⟩⟦178⟧⟨86⟩⟦323⟧⟨87⟩⟦51⟧⟨88⟩⟦312⟧⟨89⟩⟦335⟧⟨90⟩
+[Eastview High School] ⟦122⟧⟨91⟩⟦2⟧⟨92⟩⟦355⟧⟨93⟩⟦52⟧⟨94⟩
+[Eastview High School] ⟨95⟩⟦122⟧⟨96⟩⟦321⟧⟨97⟩⟦295⟧⟨98⟩⟦242⟧⟨99⟩⟦324⟧⟨100⟩⟦41⟧⟨101⟩⟦241⟧⟨102⟩⟦190⟧⟨103⟩
+[Eastview High School] ⟨104⟩⟦270⟧⟨105⟩⟦241⟧⟨106⟩⟦356⟧⟨107⟩⟦122⟧⟨108⟩⟦27⟧⟨109⟩⟦188⟧⟨110⟩⟦292⟧⟨111⟩⟦293⟧⟨112⟩⟦242⟧⟨113⟩⟦208⟧⟨114⟩⟦208⟧⟨115⟩⟦313⟧⟨116⟩
+[Blue Valley Northwest High School] ⟦77⟧⟨117⟩⟦3⟧⟨118⟩⟦26⟧⟨119⟩⟦241⟧⟨120⟩⟦210⟧⟨121⟩⟦170⟧⟨122⟩⟦343⟧⟨123⟩
+[Blue Valley Northwest High School] ⟨124⟩⟦216⟧⟨125⟩⟦216⟧⟨126⟩⟦274⟧⟨127⟩
+[Blue Valley Northwest High School] ⟦75⟧⟨128⟩⟦248⟧⟨129⟩⟦242⟧⟨130⟩⟦276⟧⟨131⟩⟦101⟧⟨132⟩⟦176⟧⟨133⟩⟦210⟧⟨134⟩
+[Blue Valley Northwest High School] ⟨135⟩⟦318⟧⟨136⟩⟦242⟧⟨137⟩⟦324⟧⟨138⟩⟦75⟧⟨139⟩⟦282⟧⟨140⟩⟦118⟧⟨141⟩⟦315⟧⟨142⟩⟦253⟧⟨143⟩
+[Blue Valley Northwest High School] ⟦304⟧⟨144⟩⟦241⟧⟨145⟩
+[Blue Valley Northwest High School] ⟨146⟩⟦75⟧⟨147⟩⟦311⟧⟨148⟩⟦134⟧⟨149⟩⟦286⟧⟨150⟩⟦229⟧⟨151⟩⟦322⟧⟨152⟩⟦280⟧⟨153⟩⟦124⟧⟨154⟩⟦298⟧⟨155⟩⟦48⟧⟨156⟩
+[William Fremd High School] ⟦353⟧⟨157⟩⟦139⟧⟨158⟩⟦214⟧⟨159⟩⟦35⟧⟨160⟩⟦356⟧⟨161⟩⟦241⟧⟨162⟩⟦212⟧⟨163⟩⟦155⟧⟨164⟩⟦32⟧⟨165⟩⟦259⟧⟨166⟩⟦98⟧⟨167⟩⟦155⟧⟨168⟩⟦324⟧⟨169⟩
+[William Fremd High School] ⟨170⟩⟦216⟧⟨171⟩⟦216⟧⟨172⟩⟦337⟧⟨173⟩⟦168⟧⟨174⟩⟦152⟧⟨175⟩⟦213⟧⟨176⟩⟦240⟧⟨177⟩
+[William Fremd High School] ⟦304⟧⟨178⟩⟦241⟧⟨179⟩⟦159⟧⟨180⟩⟦128⟧⟨181⟩⟦161⟧⟨182⟩⟦121⟧⟨183⟩⟦346⟧⟨184⟩⟦66⟧⟨185⟩⟦192⟧⟨186⟩⟦193⟧⟨187⟩⟦227⟧⟨188⟩⟦253⟧⟨189⟩⟦254⟧⟨190⟩⟦97⟧⟨191⟩⟦234⟧⟨192⟩⟦357⟧⟨193⟩
+[William Fremd High School] ⟨194⟩⟦140⟧⟨195⟩⟦198⟧⟨196⟩⟦1⟧⟨197⟩⟦342⟧⟨198⟩⟦355⟧⟨199⟩⟦12⟧⟨200⟩⟦242⟧⟨201⟩⟦324⟧⟨202⟩⟦273⟧⟨203⟩⟦265⟧⟨204⟩⟦261⟧⟨205⟩⟦7⟧⟨206⟩⟦127⟧⟨207⟩
+[William Fremd High School] ⟦139⟧⟨208⟩⟦212⟧⟨209⟩⟦252⟧⟨210⟩⟦252⟧⟨211⟩⟦325⟧⟨212⟩⟦177⟧⟨213⟩⟦231⟧⟨214⟩⟦338⟧⟨215⟩⟦202⟧⟨216⟩⟦349⟧⟨217⟩⟦352⟧⟨218⟩⟦201⟧⟨219⟩⟦203⟧⟨220⟩⟦251⟧⟨221⟩⟦157⟧⟨222⟩
+[William Fremd High School] ⟦133⟧⟨223⟩⟦242⟧⟨224⟩⟦223⟧⟨225⟩⟦93⟧⟨226⟩⟦347⟧⟨227⟩
+[William Fremd High School] ⟦132⟧⟨228⟩⟦242⟧⟨229⟩⟦221⟧⟨230⟩⟦211⟧⟨231⟩⟦153⟧⟨232⟩⟦96⟧⟨233⟩⟦354⟧⟨234⟩⟦333⟧⟨235⟩⟦185⟧⟨236⟩⟦130⟧⟨237⟩⟦138⟧⟨238⟩
+[High School Confidential (TV series)] ⟦150⟧⟨239⟩⟦56⟧⟨240⟩⟦216⟧⟨241⟩⟦119⟧⟨242⟩⟦264⟧⟨243⟩⟦247⟧⟨244⟩⟦249⟧⟨245⟩⟦340⟧⟨246⟩⟦241⟧⟨247⟩⟦263⟧⟨248⟩⟦76⟧⟨249⟩
+[High School Confidential (TV series)] ⟦310⟧⟨250⟩⟦247⟧⟨251⟩⟦49⟧⟨252⟩⟦49⟧⟨253⟩⟦348⟧⟨254⟩⟦339⟧⟨255⟩
+[High School Confidential (TV series)] ⟦301⟧⟨256⟩⟦239⟧⟨257⟩⟦184⟧⟨258⟩⟦64⟧⟨259⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦219⟧⟨260⟩⟦26⟧⟨261⟩⟦241⟧⟨262⟩⟦67⟧⟨263⟩⟦345⟧⟨264⟩⟦146⟧⟨265⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦217⟧⟨266⟩⟦137⟧⟨267⟩⟦242⟧⟨268⟩⟦146⟧⟨269⟩⟦299⟧⟨270⟩⟦241⟧⟨271⟩⟦327⟧⟨272⟩⟦145⟧⟨273⟩⟦279⟧⟨274⟩⟦113⟧⟨275⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦47⟧⟨276⟩⟦47⟧⟨277⟩⟦55⟧⟨278⟩⟦72⟧⟨279⟩⟦104⟧⟨280⟩⟦104⟧⟨281⟩⟦89⟧⟨282⟩⟦89⟧⟨283⟩⟦197⟧⟨284⟩⟦144⟧⟨285⟩⟦237⟧⟨286⟩⟦237⟧⟨287⟩⟦294⟧⟨288⟩⟦187⟧⟨289⟩⟦95⟧⟨290⟩⟦205⟧⟨291⟩⟦53⟧⟨292⟩⟦129⟧⟨293⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨294⟩⟦302⟧⟨295⟩⟦224⟧⟨296⟩⟦297⟧⟨297⟩⟦196⟧⟨298⟩⟦304⟧⟨299⟩⟦241⟧⟨300⟩⟦281⟧⟨301⟩⟦117⟧⟨302⟩⟦304⟧⟨303⟩⟦241⟧⟨304⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦29⟧⟨305⟩⟦46⟧⟨306⟩⟦236⟧⟨307⟩⟦283⟧⟨308⟩⟦129⟧⟨309⟩⟦284⟧⟨310⟩⟦131⟧⟨311⟩⟦253⟧⟨312⟩⟦329⟧⟨313⟩⟦65⟧⟨314⟩⟦92⟧⟨315⟩⟦124⟧⟨316⟩⟦207⟧⟨317⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦332⟧⟨318⟩⟦46⟧⟨319⟩⟦15⟧⟨320⟩⟦85⟧⟨321⟩⟦257⟧⟨322⟩⟦14⟧⟨323⟩⟦262⟧⟨324⟩⟦172⟧⟨325⟩⟦18⟧⟨326⟩⟦107⟧⟨327⟩⟦262⟧⟨328⟩⟦95⟧⟨329⟩⟦21⟧⟨330⟩⟦110⟧⟨331⟩⟦120⟧⟨332⟩⟦172⟧⟨333⟩⟦334⟧⟨334⟩⟦104⟧⟨335⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦217⟧⟨336⟩⟦158⟧⟨337⟩⟦58⟧⟨338⟩⟦246⟧⟨339⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦218⟧⟨340⟩⟦57⟧⟨341⟩⟦226⟧⟨342⟩⟦31⟧⟨343⟩⟦226⟧⟨344⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦218⟧⟨345⟩⟦164⟧⟨346⟩⟦226⟧⟨347⟩⟦317⟧⟨348⟩⟦336⟧⟨349⟩⟦315⟧⟨350⟩⟦253⟧⟨351⟩⟦345⟧⟨352⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨353⟩⟦270⟧⟨354⟩⟦241⟧⟨355⟩⟦356⟧⟨356⟩⟦34⟧⟨357⟩⟦226⟧⟨358⟩⟦230⟧⟨359⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦218⟧⟨360⟩⟦166⟧⟨361⟩⟦330⟧⟨362⟩⟦226⟧⟨363⟩⟦279⟧⟨364⟩⟦113⟧⟨365⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨366⟩⟦357⟧⟨367⟩⟦357⟧⟨368⟩⟦115⟧⟨369⟩⟦115⟧⟨370⟩⟦219⟧⟨371⟩⟦278⟧⟨372⟩⟦111⟧⟨373⟩⟦74⟧⟨374⟩⟦148⟧⟨375⟩⟦191⟧⟨376⟩⟦238⟧⟨377⟩⟦242⟧⟨378⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦328⟧⟨379⟩⟦241⟧⟨380⟩⟦256⟧⟨381⟩⟦256⟧⟨382⟩⟦143⟧⟨383⟩⟦143⟧⟨384⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨385⟩⟦194⟧⟨386⟩⟦304⟧⟨387⟩⟦241⟧⟨388⟩⟦194⟧⟨389⟩⟦163⟧⟨390⟩⟦228⟧⟨391⟩⟦326⟧⟨392⟩⟦314⟧⟨393⟩⟦300⟧⟨394⟩⟦235⟧⟨395⟩⟦289⟧⟨396⟩⟦151⟧⟨397⟩⟦217⟧⟨398⟩⟦147⟧⟨399⟩⟦100⟧⟨400⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦126⟧⟨401⟩⟦241⟧⟨402⟩⟦106⟧⟨403⟩⟦33⟧⟨404⟩⟦260⟧⟨405⟩⟦151⟧⟨406⟩⟦151⟧⟨407⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨408⟩⟦218⟧⟨409⟩⟦169⟧⟨410⟩⟦206⟧⟨411⟩⟦255⟧⟨412⟩⟦80⟧⟨413⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨414⟩⟦30⟧⟨415⟩⟦241⟧⟨416⟩⟦217⟧⟨417⟩⟦266⟧⟨418⟩⟦241⟧⟨419⟩⟦356⟧⟨420⟩⟦39⟧⟨421⟩⟦241⟧⟨422⟩⟦256⟧⟨423⟩⟦143⟧⟨424⟩⟦143⟧⟨425⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨426⟩⟦291⟧⟨427⟩⟦241⟧⟨428⟩⟦28⟧⟨429⟩⟦241⟧⟨430⟩⟦217⟧⟨431⟩⟦26⟧⟨432⟩⟦241⟧⟨433⟩⟦256⟧⟨434⟩⟦256⟧⟨435⟩⟦143⟧⟨436⟩⟦143⟧⟨437⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦305⟧⟨438⟩⟦241⟧⟨439⟩⟦91⟧⟨440⟩⟦351⟧⟨441⟩⟦19⟧⟨442⟩⟦109⟧⟨443⟩⟦86⟧⟨444⟩⟦86⟧⟨445⟩⟦17⟧⟨446⟩⟦91⟧⟨447⟩⟦258⟧⟨448⟩⟦241⟧⟨449⟩
+[Blue Valley West High School] ⟦79⟧⟨450⟩⟦25⟧⟨451⟩⟦241⟧⟨452⟩⟦210⟧⟨453⟩⟦170⟧⟨454⟩⟦343⟧⟨455⟩⟦114⟧⟨456⟩⟦242⟧⟨457⟩⟦274⟧⟨458⟩
+[Blue Valley West High School] ⟦304⟧⟨459⟩⟦241⟧⟨460⟩⟦73⟧⟨461⟩⟦23⟧⟨462⟩⟦125⟧⟨463⟩⟦62⟧⟨464⟩⟦256⟧⟨465⟩
+[Blue Valley West High School] ⟦303⟧⟨466⟩⟦225⟧⟨467⟩⟦84⟧⟨468⟩
+[Blue Valley West High School] ⟦167⟧⟨469⟩⟦242⟧⟨470⟩⟦174⟧⟨471⟩⟦222⟧⟨472⟩
+[Blue Valley West High School] ⟦308⟧⟨473⟩⟦241⟧⟨474⟩⟦186⟧⟨475⟩⟦290⟧⟨476⟩⟦306⟧⟨477⟩⟦241⟧⟨478⟩⟦106⟧⟨479⟩
+[Blue Valley West High School] ⟨480⟩⟦271⟧⟨481⟩⟦233⟧⟨482⟩⟦320⟧⟨483⟩⟦242⟧⟨484⟩⟦324⟧⟨485⟩⟦78⟧⟨486⟩⟦5⟧⟨487⟩⟦5⟧⟨488⟩⟦315⟧⟨489⟩⟦253⟧⟨490⟩⟦170⟧⟨491⟩⟦296⟧⟨492⟩⟦195⟧⟨493⟩
+[Atlantic Community High School] ⟦70⟧⟨494⟩⟦69⟧⟨495⟩⟦68⟧⟨496⟩⟦36⟧⟨497⟩⟦241⟧⟨498⟩⟦116⟧⟨499⟩⟦136⟧⟨500⟩
+[Atlantic Community High School] ⟨501⟩⟦216⟧⟨502⟩⟦216⟧⟨503⟩⟦307⟧⟨504⟩⟦215⟧⟨505⟩
+[Atlantic Community High School] ⟨506⟩⟦160⟧⟨507⟩⟦44⟧⟨508⟩⟦182⟧⟨509⟩⟦256⟧⟨510⟩⟦309⟧⟨511⟩⟦241⟧⟨512⟩⟦226⟧⟨513⟩⟦165⟧⟨514⟩⟦232⟧⟨515⟩⟦42⟧⟨516⟩⟦241⟧⟨517⟩⟦183⟧⟨518⟩⟦357⟧⟨519⟩
+[Atlantic Community High School] ⟨520⟩⟦269⟧⟨521⟩⟦232⟧⟨522⟩⟦52⟧⟨523⟩⟦242⟧⟨524⟩⟦71⟧⟨525⟩⟦10⟧⟨526⟩
+[Atlantic Community High School] ⟨527⟩⟦304⟧⟨528⟩⟦241⟧⟨529⟩⟦162⟧⟨530⟩⟦179⟧⟨531⟩⟦24⟧⟨532⟩⟦141⟧⟨533⟩⟦45⟧⟨534⟩⟦22⟧⟨535⟩⟦112⟧⟨536⟩⟦181⟧⟨537⟩⟦226⟧⟨538⟩
+[Bonita Vista High School] ⟦82⟧⟨539⟩⟦87⟧⟨540⟩⟦38⟧⟨541⟩⟦356⟧⟨542⟩⟦142⟧⟨543⟩⟦175⟧⟨544⟩⟦149⟧⟨545⟩⟦241⟧⟨546⟩⟦275⟧⟨547⟩⟦101⟧⟨548⟩⟦99⟧⟨549⟩⟦90⟧⟨550⟩
+[Bonita Vista High School] ⟦82⟧⟨551⟩⟦285⟧⟨552⟩⟦242⟧⟨553⟩⟦83⟧⟨554⟩⟦227⟧⟨555⟩
+[Bonita Vista High School] ⟨556⟩⟦216⟧⟨557⟩⟦216⟧⟨558⟩⟦316⟧⟨559⟩⟦43⟧⟨560⟩⟦256⟧⟨561⟩
+[Bonita Vista High School] ⟦88⟧⟨562⟩⟦13⟧⟨563⟩
+[Bonita Vista High School] ⟦82⟧⟨564⟩⟦16⟧⟨565⟩
+[Bonita Vista High School] ⟦81⟧⟨566⟩⟦318⟧⟨567⟩⟦242⟧⟨568⟩⟦296⟧⟨569⟩⟦195⟧⟨570⟩⟦198⟧⟨571⟩
+[Bonita Vista High School] ⟨572⟩⟦54⟧⟨573⟩⟦60⟧⟨574⟩⟦243⟧⟨575⟩⟦316⟧⟨576⟩
+[Bonita Vista High School] ⟦87⟧⟨577⟩⟦288⟧⟨578⟩⟦204⟧⟨579⟩⟦59⟧⟨580⟩⟦154⟧⟨581⟩⟦282⟧⟨582⟩⟦118⟧⟨583⟩
+
+[user]
+
+问题：
+High School Confidential, an eight part documentary followed twelve high school teenagers from a high school in Overland Park, Kansas that ranked what in the 2009 Newsweek ranking of the top 1,500 high schools in the United States?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

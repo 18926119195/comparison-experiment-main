@@ -1,0 +1,82 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Cricket fighting] ⟨502⟩⟨503⟩⟨504⟩⟦17⟧⟨506⟩⟨505⟩⟨507⟩⟦348⟧⟨508⟩⟨509⟩⟦217⟧⟦105⟧⟨510⟩⟨511⟩
+[Cricket fighting] ⟦67⟧⟦102⟧⟦103⟧⟦146⟧⟦146⟧
+[Cricket fighting] ⟨523⟩⟦28⟧⟦252⟧⟨524⟩⟨525⟩⟨526⟩⟦230⟧⟨527⟩⟨528⟩⟨529⟩
+[Cricket fighting] ⟦291⟧ | ⟨530⟩⟦400⟧⟦291⟧⟨531⟩⟨532⟩⟦203⟧⟦265⟧⟨533⟩⟨534⟩⟨535⟩
+[Shanhua Temple] ⟦404⟧
+[Shanhua Temple] ⟦455⟧
+[Shanhua Temple] ⟦82⟧ | ⟦82⟧
+
+符号表：
+⟦17⟧ = a blood sport
+⟦28⟧ = a popular pastime
+⟦67⟧ = blood
+⟦82⟧ = China
+⟦102⟧ = cricket
+⟦103⟧ = Cricket fighting
+⟦105⟧ = crickets
+⟦146⟧ = fighting
+⟦203⟧ = its popularity
+⟦217⟧ = male crickets
+⟦230⟧ = more than 1,000 years
+⟦252⟧ = pastime
+⟦265⟧ = popularity
+⟦291⟧ = sport
+⟦348⟧ = the fighting
+⟦400⟧ = the sport
+⟦404⟧ = the Tang Dynasty
+⟦455⟧ = years
+
+占位符映射：
+⟨502⟩ = 
+⟨503⟩ = 
+⟨504⟩ =  is 
+⟨505⟩ = 
+⟨506⟩ =  
+⟨507⟩ =  involving 
+⟨508⟩ = 
+⟨509⟩ =  of 
+⟨510⟩ = 
+⟨511⟩ = .
+⟨523⟩ =  It is 
+⟨524⟩ = 
+⟨525⟩ =  in 
+⟨526⟩ =  and dates back 
+⟨527⟩ = 
+⟨528⟩ =  to 
+⟨529⟩ = .
+⟨530⟩ =  However, 
+⟨531⟩ = 
+⟨532⟩ =  has been losing 
+⟨533⟩ = 
+⟨534⟩ =  in 
+⟨535⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What "sport" involving animals dates all the way back to the Tang Dynasty and continued to the beginning of the 19th century?

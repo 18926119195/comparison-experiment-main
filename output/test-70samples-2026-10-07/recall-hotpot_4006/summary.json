@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_4006",
+  "question": "David Thewlis had a performance in the film Macbeth as which father of Malcolm and Donalbain?",
+  "expectedAnswer": "King Duncan",
+  "predictedAnswer": "# 路径一：从角色关系直接定位\n\n步骤1：使用⟦154⟧，提取“King Duncan”这一角色名称，并注意到其与⟦170⟧“Malcolm”和⟦99⟧“Donalbain”的关联。\n\n步骤2：综合⟦154⟧⟦170⟧⟦99⟧，交叉验证：材料中明确将King Duncan与Malcolm、Donalbain并置，且⟦239⟧指出Duncan有“sons”（儿子），⟦317⟧进一步说明是“two youthful sons”（两个年轻的儿子）。\n\n步骤3：使用⟦167⟧，提取“Macbeth”这一角色名，确认该作品为《麦克白》。\n\n结论：David Thewlis在《麦克白》中饰演的是Malcolm和Donalbain的父亲——King Duncan。\n\n# 路径二：从演员作品列表反向验证\n\n步骤1：使用⟦91⟧，提取“David Thewlis”作为演员的身份，并综合⟦270⟧⟦114⟧确认其参演了多部电影。\n\n步骤2：使用⟦7⟧，提取“Macbeth”这一作品名，将其与⟦91⟧关联，确认David Thewlis参演了《麦克白》。\n\n步骤3：综合⟦154⟧⟦170⟧⟦99⟧，在《麦克白》的角色关系中定位：King Duncan是Malcolm和Donalbain的父亲。\n\n结论：通过演员作品与角色关系的交叉验证，David Thewlis在《麦克白》中饰演的是King Duncan，即Malcolm和Donalbain的父亲。\n\n# 路径三：从剧情描述中提取父子关系\n\n步骤1：使用⟦235⟧，提取“Shakespeare's 'Macbeth'”这一作品背景，确认故事来源。\n\n步骤2：综合⟦317⟧⟦239⟧，提取“two youthful sons”（两个年轻的儿子）和“sons”（儿子们）的描述，指向King Duncan的家庭关系。\n\n步骤3：使用⟦170⟧⟦99⟧，提取“Malcolm”和“Donalbain”两个名字，与⟦317⟧⟦239⟧中的“sons”对应，确认二人为Duncan之子。\n\n步骤4：综合⟦154⟧⟦167⟧，确认King Duncan与Macbeth同属该剧角色，且Duncan为被弑君主。\n\n结论：David Thewlis饰演的King Duncan是Malcolm和Donalbain的父亲。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨1⟩⟦92⟧⟨2⟩⟦47⟧⟨3⟩⟨4⟩⟨5⟩⟨6⟩⟦231⟧⟦231⟧⟨7⟩⟨8⟩",
+  "nounCount": 443,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7439,
+    "completion_tokens": 398,
+    "total_tokens": 7837,
+    "prompt_tokens_details": {
+      "cached_tokens": 7296
+    },
+    "prompt_cache_hit_tokens": 7296,
+    "prompt_cache_miss_tokens": 143
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1442,
+    "completion_tokens": 547,
+    "total_tokens": 1989,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1442
+  }
+}

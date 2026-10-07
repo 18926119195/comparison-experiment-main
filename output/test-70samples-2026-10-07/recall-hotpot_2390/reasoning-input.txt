@@ -1,0 +1,102 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Computer Wore Tennis Shoes] ⟨1⟩⟨2⟩⟦10⟧⟨4⟩⟨3⟩⟨5⟩⟨6⟩⟦38⟧⟨7⟩⟦75⟧⟨8⟩⟦170⟧⟨9⟩
+[The Computer Wore Tennis Shoes (1995 film)] ⟦42⟧ | ⟨165⟩⟨166⟩⟨167⟩⟨168⟩⟦42⟧⟨169⟩⟦105⟧⟨170⟩⟦55⟧⟨171⟩⟨172⟩⟦20⟧⟦100⟧⟨173⟩⟨174⟩⟨175⟩⟨176⟩⟦146⟧⟦90⟧⟨177⟩⟨178⟩⟦168⟧⟨179⟩⟦54⟧⟨180⟩⟦98⟧⟦98⟧⟨181⟩⟨182⟩⟦157⟧⟨183⟩⟦47⟧⟨184⟩
+[The Computer Wore Tennis Shoes (1995 film)] ⟦125⟧⟦125⟧
+[National Treasure (film)] ⟦91⟧⟨217⟩⟦13⟧⟦25⟧⟨219⟩⟦67⟧⟨220⟩⟨218⟩⟨221⟩⟦166⟧⟨222⟩
+[Now You See Him, Now You Don't] ⟦134⟧
+[Celebration of Annihilation] ⟦139⟧⟦128⟧⟦56⟧⟦80⟧ | ⟦56⟧ | ⟦139⟧⟦128⟧⟦56⟧⟦56⟧
+
+符号表：
+⟦10⟧ = a 1969 American comedy film
+⟦13⟧ = a 2004 American adventure heist film
+⟦20⟧ = a remake
+⟦25⟧ = adventure
+⟦38⟧ = Cesar Romero
+⟦42⟧ = comedy
+⟦47⟧ = Disney
+⟦54⟧ = February
+⟦55⟧ = fiction
+⟦56⟧ = film
+⟦67⟧ = heist
+⟦75⟧ = Joe Flynn
+⟦80⟧ = Kurt Russell
+⟦90⟧ = name
+⟦91⟧ = National Treasure
+⟦98⟧ = part
+⟦100⟧ = remake
+⟦105⟧ = science
+⟦125⟧ = television
+⟦128⟧ = Tennis Shoes
+⟦134⟧ = the 1969 film
+⟦139⟧ = The Computer
+⟦146⟧ = the same name
+⟦157⟧ = The Wonderful World
+⟦166⟧ = Walt Disney Pictures
+⟦168⟧ = Walt Disney Television
+⟦170⟧ = William Schallert
+
+占位符映射：
+⟨1⟩ =  Wore 
+⟨2⟩ =  is 
+⟨3⟩ = 
+⟨4⟩ =  
+⟨5⟩ =  starring 
+⟨6⟩ = , 
+⟨7⟩ = , 
+⟨8⟩ =  and 
+⟨9⟩ = .
+⟨165⟩ =  Wore 
+⟨166⟩ =  is a 1995 American made-for-
+⟨167⟩ = 
+⟨168⟩ =  
+⟨169⟩ =  
+⟨170⟩ =  
+⟨171⟩ =  
+⟨172⟩ =  and 
+⟨173⟩ = 
+⟨174⟩ =  of 
+⟨175⟩ = 
+⟨176⟩ =  of 
+⟨177⟩ = 
+⟨178⟩ =  produced by 
+⟨179⟩ =  which premiered on 
+⟨180⟩ =  18, 1995 as 
+⟨181⟩ = 
+⟨182⟩ =  of "
+⟨183⟩ =  of 
+⟨184⟩ = ".
+⟨217⟩ =  is 
+⟨218⟩ = 
+⟨219⟩ =  
+⟨220⟩ =  
+⟨221⟩ =  produced and released by 
+⟨222⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What film studio produced both National Treasure and The Computer Wore Tennis Shoes?

@@ -1,0 +1,128 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[DeSean Jackson] ⟦92⟧⟨129⟩⟦43⟧⟨130⟩⟨131⟩⟦359⟧⟨132⟩⟨133⟩⟦326⟧⟨134⟩⟨135⟩⟨136⟩⟨137⟩
+[DeSean Jackson] ⟨159⟩⟨160⟩⟦348⟧⟨161⟩⟦287⟧⟨162⟩⟨163⟩⟦317⟧⟦317⟧⟨164⟩⟦351⟧⟦193⟧⟨165⟩⟨166⟩⟦321⟧⟨167⟩⟨168⟩⟦245⟧⟨169⟩⟦35⟧⟨171⟩⟦203⟧⟨172⟩⟦223⟧⟨170⟩⟨173⟩
+[1986 Tampa Bay Buccaneers season] ⟦142⟧⟦368⟧
+[1986 Tampa Bay Buccaneers season] ⟦66⟧
+[Don Looney] ⟦144⟧⟨417⟩⟦217⟧⟨418⟩⟦57⟧⟨419⟩⟦26⟧⟦112⟧⟨421⟩⟦99⟧⟨420⟩⟨422⟩⟦305⟧ | ⟦112⟧⟦305⟧
+[Don Looney] ⟦199⟧ | ⟦199⟧ | ⟨432⟩⟦288⟧⟦199⟧⟨433⟩⟨434⟩⟦169⟧⟨435⟩⟨436⟩⟦179⟧⟦367⟧⟨437⟩⟨438⟩⟦129⟧⟦122⟧⟨439⟩⟨440⟩⟦19⟧⟦107⟧⟨441⟩⟨442⟩⟦242⟧⟦212⟧⟨443⟩⟨444⟩⟦51⟧⟨445⟩⟦1⟧⟨446⟩
+[Don Looney] ⟦189⟧
+[Don Looney] ⟦168⟧
+[Tereza Vilišová] ⟦132⟧
+
+符号表：
+⟦1⟧ = , DeSean Jackson
+⟦19⟧ = a feat
+⟦26⟧ = a professional American football end
+⟦35⟧ = a wide receiver and return specialist
+⟦43⟧ = an American football
+⟦51⟧ = another Eagles
+⟦57⟧ = April
+⟦66⟧ = Buccaneers
+⟦92⟧ = DeSean William Jackson
+⟦99⟧ = end
+⟦107⟧ = feat
+⟦112⟧ = football
+⟦122⟧ = games
+⟦129⟧ = his first two games
+⟦132⟧ = history
+⟦142⟧ = Jackson
+⟦144⟧ = John Don Looney
+⟦168⟧ = NFL
+⟦169⟧ = NFL history
+⟦179⟧ = over 100 yards
+⟦189⟧ = player
+⟦193⟧ = positions
+⟦199⟧ = receiver
+⟦203⟧ = return
+⟦212⟧ = season
+⟦217⟧ = September
+⟦223⟧ = specialist
+⟦242⟧ = the 2008 NFL season
+⟦245⟧ = the 2010 Pro Bowl
+⟦287⟧ = the first player
+⟦288⟧ = the first receiver
+⟦305⟧ = the National Football League
+⟦317⟧ = the Pro Bowl
+⟦321⟧ = the same year
+⟦326⟧ = the Tampa Bay Buccaneers
+⟦348⟧ = times
+⟦351⟧ = two different positions
+⟦359⟧ = wide receiver
+⟦367⟧ = yards
+⟦368⟧ = year
+
+占位符映射：
+⟨129⟩ =  (born December 1, 1986) is 
+⟨130⟩ = 
+⟨131⟩ =  
+⟨132⟩ = 
+⟨133⟩ =  for 
+⟨134⟩ = 
+⟨135⟩ =  of 
+⟨136⟩ =  (
+⟨137⟩ = ).
+⟨159⟩ =  has been selected to 
+⟨160⟩ =  three 
+⟨161⟩ = , and was 
+⟨162⟩ = 
+⟨163⟩ =  selected to 
+⟨164⟩ =  at 
+⟨165⟩ = 
+⟨166⟩ =  in 
+⟨167⟩ = 
+⟨168⟩ =  when he was named to 
+⟨169⟩ =  as 
+⟨170⟩ = 
+⟨171⟩ =  and 
+⟨172⟩ =  
+⟨173⟩ = .
+⟨417⟩ =  (
+⟨418⟩ =  2, 1916 – 
+⟨419⟩ =  5, 2015) was 
+⟨420⟩ = 
+⟨421⟩ =  
+⟨422⟩ =  in 
+⟨432⟩ =  He was 
+⟨433⟩ = 
+⟨434⟩ =  in 
+⟨435⟩ = 
+⟨436⟩ =  to have 
+⟨437⟩ = 
+⟨438⟩ =  receiving in each of 
+⟨439⟩ = 
+⟨440⟩ = , 
+⟨441⟩ = 
+⟨442⟩ =  which was not equaled until 
+⟨443⟩ = 
+⟨444⟩ =  by 
+⟨445⟩ =  wide receiver
+⟨446⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which NFL team did both Don Looney and DeSean Jackson play for?

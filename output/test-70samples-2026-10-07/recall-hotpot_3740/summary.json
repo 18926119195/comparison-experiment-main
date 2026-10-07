@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_3740",
+  "question": "What was the alternate slang name for the World War I era grenade that the egg grenade was less awkward than to handle?",
+  "expectedAnswer": "potato masher",
+  "predictedAnswer": "# 路径一：从“更易操作”的比较对象反推\n\n步骤1：使用⟦223⟧⟦111⟧⟦207⟧，提取 Model 17 Eierhandgranate（蛋形手榴弹）比 the heavier Kugelhandgranate 更便携，且比 the Stick grenade 更不笨拙（less awkward to handle）。\n\n步骤2：综合⟦236⟧⟦173⟧⟦82⟧，确认 the Stick grenade 即 Stielhandgranate，其字面义为“棍棒手榴弹”，是第一次世界大战时期德国的手榴弹。\n\n步骤3：使用⟦266⟧⟦267⟧，验证 Stielhandgranate 属于 World War I 时期，符合题干“World War I era grenade”的限定。\n\n结论：蛋形手榴弹比之更易操作的是一战时期的 Stielhandgranate（棍棒手榴弹），其替代俚语名称为“stick grenade”。\n\n# 路径二：从“棍棒”俚语名称交叉验证\n\n步骤1：使用⟦173⟧，提取“stick”这一关键词，对应 Stielhandgranate 的俗称。\n\n步骤2：综合⟦82⟧⟦266⟧，确认 Stielhandgranate 的设计属于 World War I 时期，且其名称本身即含“棍棒”之意。\n\n步骤3：使用⟦236⟧⟦111⟧，交叉验证 the Stick grenade 正是被 Model 17 Eierhandgranate 在便携性和操作便利性上超越的对象。\n\n结论：该一战手榴弹的替代俚语名称为“stick grenade”，对应德语 Stielhandgranate。\n\n# 路径三：从蛋形手榴弹条目直接定位比较对象\n\n步骤1：使用⟦223⟧，提取 Model 17 Eierhandgranate 的完整描述，其中明确提到它比 the Stick grenade 更不笨拙。\n\n步骤2：使用⟦236⟧，确认 the Stick grenade 即 Stielhandgranate，为一战时期德国制式手榴弹。\n\n步骤3：综合⟦266⟧⟦267⟧，验证时间范围为一战，排除其他时期的手榴弹。\n\n结论：答案为“stick grenade”（Stielhandgranate），即一战时期蛋形手榴弹比之更易操作的棍棒手榴弹的俚语名称。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦223⟧⟨101⟩⟦4⟧⟨102⟩⟨103⟩⟦40⟧⟨105⟩⟨104⟩⟨106⟩⟦102⟧⟨107⟩⟦267⟧",
+  "nounCount": 428,
+  "score": 0,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6868,
+    "completion_tokens": 404,
+    "total_tokens": 7272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 6868
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1509,
+    "completion_tokens": 528,
+    "total_tokens": 2037,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1509
+  }
+}

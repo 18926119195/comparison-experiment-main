@@ -1,0 +1,2425 @@
+[
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "predictedAnswer": "# 路径一：从女演员条目直接定位\n\n步骤1：使用⟦170⟧⟦104⟧⟦105⟧⟦106⟧⟦107⟧⟦108⟧⟦109⟧⟦110⟧⟦111⟧⟦112⟧⟦113⟧⟦114⟧⟦115⟧⟦116⟧⟦117⟧⟦118⟧，提取该人物为 Silvia Angélica Navarro Barba，1978年9月14日生于Irapuato, Guanajuato，是墨西哥的film、television、theatre演员，主要因主演多部telenovelas而知名。\n\n步骤2：综合⟦172⟧⟦102⟧⟦150⟧，交叉验证 Silvia Navarro 与 La Heredera 的关联——材料显示 La Heredera 的 protagonists 中包含 Silvia Navarro。\n\n结论：该墨西哥女演员是 Silvia Navarro。\n\n# 路径二：从 La Heredera 剧集条目反向确认\n\n步骤1：使用⟦102⟧⟦193⟧⟦20⟧⟦221⟧⟦222⟧⟦223⟧⟦224⟧⟦225⟧，提取 La Heredera（英文名 The Heiress）是一部墨西哥 telenovela，由 TV Azteca 制作。\n\n步骤2：综合⟦226⟧⟦209⟧⟦157⟧⟦227⟧⟦228⟧⟦172⟧⟦229⟧⟦166⟧⟦230⟧⟦150⟧⟦150⟧⟦231⟧⟦232⟧，提取该剧标志着 the third reunion，为 Silvia Navarro 和 Sergio Basañez 而设，二人作为 protagonists。\n\n结论：La Heredera 的女主角是 Silvia Navarro。\n\n# 路径三：从改编脉络与演员国籍交叉验证\n\n步骤1：使用⟦204⟧⟦167⟧⟦233⟧⟦234⟧⟦38⟧⟦235⟧⟦210⟧⟦219⟧⟦236⟧⟦237⟧⟦36⟧⟦238⟧，提取 The series 后来被改编为 an American telenovela，由 American Heiress 的 title 发展而来。\n\n步骤2：综合⟦127⟧⟦19⟧⟦32⟧⟦222⟧⟦185⟧⟦185⟧，确认 Marlene Favela 是墨西哥女演员，活跃于 TV 和 television，但材料未将其与 La Heredera 的 protagonist 角色关联；而⟦172⟧明确与 La Heredera 的 protagonists 关联。\n\n结论：在 La Heredera 中担任 protagonist 的墨西哥 film/television/theatre 女演员是 Silvia Navarro，而非其他墨西哥女演员。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦102⟧⟨221⟩⟦193⟧⟨222⟩⟦20⟧⟨223⟩⟨224⟩⟨225⟩⟦223⟧⟦222⟧⟨226⟩⟦209⟧",
+    "nounCount": 318,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5586,
+      "completion_tokens": 262,
+      "total_tokens": 5848,
+      "prompt_tokens_details": {
+        "cached_tokens": 5376
+      },
+      "prompt_cache_hit_tokens": 5376,
+      "prompt_cache_miss_tokens": 210
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1029,
+      "completion_tokens": 631,
+      "total_tokens": 1660,
+      "prompt_tokens_details": {
+        "cached_tokens": 895
+      },
+      "prompt_cache_hit_tokens": 895,
+      "prompt_cache_miss_tokens": 134
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_2879",
+    "question": "Grown-Ups starred the actor who was best known for which role on  \"'Allo 'Allo!\"?",
+    "expectedAnswer": "Captain Hans Geering",
+    "predictedAnswer": "# 路径一：从电影演员表到情景喜剧角色\n\n步骤1：使用⟦67⟧，提取《Grown-Ups》的演员信息，结合⟦74⟧⟦75⟧⟦76⟧⟦77⟧⟦78⟧⟦79⟧⟦80⟧，识别出该片主演包括⟦84⟧、⟦106⟧、⟦78⟧、⟦85⟧、⟦41⟧和⟦118⟧。\n\n步骤2：综合⟦118⟧与⟦30⟧⟦23⟧，确认Sam Kelly是一位英国演员，需要查找他在《'Allo 'Allo!》中的角色。\n\n步骤3：使用⟦122⟧⟦121⟧，定位到《'Allo 'Allo!》这部情景喜剧，结合⟦139⟧，确认Sam Kelly在该剧中饰演的角色是the archetypal Gestapo Officer Herr Otto Flick。\n\n结论：Grown-Ups的主演中，Sam Kelly最为人熟知的角色是《'Allo 'Allo!》中的Herr Otto Flick。\n\n# 路径二：从Richard Gibson的视角交叉验证\n\n步骤1：使用⟦111⟧⟦141⟧，提取Richard Gibson的相关信息，结合⟦87⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧，确认他出生于1954年1月1日，是演员。\n\n步骤2：综合⟦139⟧⟦92⟧⟦93⟧⟦94⟧⟦95⟧，确认Richard Gibson在⟦92⟧的⟦93⟧⟦94⟧《'Allo 'Allo!》中饰演the archetypal Gestapo Officer Herr Otto Flick。\n\n步骤3：对比⟦67⟧与⟦111⟧，检查Richard Gibson是否出演了《Grown-Ups》。根据⟦74⟧至⟦80⟧的演员列表，Richard Gibson并未被列为《Grown-Ups》的主演。\n\n结论：Richard Gibson虽以Herr Otto Flick闻名，但他并非《Grown-Ups》的主演，因此该角色不属于本题答案。\n\n# 路径三：排除法与演员表精确匹配\n\n步骤1：使用⟦67⟧⟦74⟧⟦75⟧⟦76⟧⟦77⟧⟦78⟧⟦79⟧⟦80⟧，完整提取《Grown-Ups》的主演名单：⟦84⟧、⟦106⟧、⟦78⟧、⟦85⟧、⟦41⟧、⟦118⟧。\n\n步骤2：综合⟦115⟧⟦121⟧⟦122⟧，确认《'Allo 'Allo!》是一部情景喜剧，需要找出上述演员中谁出演过该剧并确定其角色。\n\n步骤3：使用⟦118⟧⟦139⟧，确认Sam Kelly在《'Allo 'Allo!》中的角色为Herr Otto Flick。同时检查其他演员如⟦84⟧、⟦106⟧等，未发现他们与《'Allo 'Allo!》的关联证据。\n\n结论：在《Grown-Ups》主演中，唯一与《'Allo 'Allo!》明确关联的是Sam Kelly，其最著名的角色是Herr Otto Flick。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦67⟧⟨69⟩⟦14⟧⟨71⟩⟨70⟩⟨72⟩⟦92⟧⟨73⟩⟦60⟧⟦132⟧⟦67⟧⟨74⟩",
+    "nounCount": 274,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 4684,
+      "completion_tokens": 219,
+      "total_tokens": 4903,
+      "prompt_tokens_details": {
+        "cached_tokens": 4480
+      },
+      "prompt_cache_hit_tokens": 4480,
+      "prompt_cache_miss_tokens": 204
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 973,
+      "completion_tokens": 751,
+      "total_tokens": 1724,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 973
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_1490",
+    "question": "Li Yitong made her television debut on which network?",
+    "expectedAnswer": "Dragon TV",
+    "predictedAnswer": "# 路径一：从出道作品直接提取播出平台\n\n步骤1：使用⟦186⟧⟦20⟧⟦27⟧⟦35⟧，确认 Li Yitong 是一位中国女演员，其姓名对应中文“李一桐”。\n\n步骤2：使用⟦300⟧⟦138⟧⟦302⟧⟦304⟧⟦324⟧⟦304⟧，提取她于2016年凭借某部网络剧完成演艺出道，该作品为网络剧（web series）。\n\n步骤3：综合⟦6⟧⟦332⟧⟦308⟧，该出道作品为“Demon Girl”，由 Yu Zheng 打造，属于网络剧范畴。\n\n结论：Li Yitong 的电视出道作品是网络剧《Demon Girl》，因此其出道平台为网络平台（web series），而非传统电视台。\n\n# 路径二：交叉验证“电视出道”与“网络剧”的平台归属\n\n步骤1：使用⟦138⟧⟦47⟧，提取她在某作品中获得首个主演角色，这是其演艺出道的关键节点。\n\n步骤2：综合⟦304⟧⟦324⟧⟦6⟧，确认该作品为网络剧《Demon Girl》，网络剧的播出渠道为视频网站/网络平台。\n\n步骤3：使用⟦300⟧⟦302⟧，确认该作品即为她2016年的出道作品，时间线与作品类型一致。\n\n结论：由于出道作品是网络剧，Li Yitong 的电视出道平台应理解为网络平台（web series），而非某个具体电视台。\n\n# 路径三：排除法——从后续作品反推出道平台\n\n步骤1：使用⟦310⟧⟦162⟧⟦296⟧⟦175⟧⟦271⟧，提取她2017年出演《射雕英雄传》电视剧版中的黄蓉一角，这是传统电视剧作品。\n\n步骤2：综合⟦182⟧⟦211⟧⟦319⟧⟦119⟧，她凭借该武侠剧获得关注与名气，说明其知名度提升主要来自传统电视剧。\n\n步骤3：对比⟦138⟧⟦304⟧⟦324⟧与⟦296⟧，出道作品为网络剧，而2017年作品为传统电视剧，两者平台类型不同。\n\n结论：出道作品《Demon Girl》为网络剧，因此其电视出道平台是网络平台（web series），而非传统电视台；2017年的《射雕英雄传》是其后续在传统电视领域的作品。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦186⟧⟨294⟩⟦20⟧⟨295⟩⟦27⟧⟦27⟧⟨296⟩⟨297⟩⟦35⟧⟨298⟩⟨299⟩⟦63⟧",
+    "nounCount": 462,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7648,
+      "completion_tokens": 224,
+      "total_tokens": 7872,
+      "prompt_tokens_details": {
+        "cached_tokens": 7424
+      },
+      "prompt_cache_hit_tokens": 7424,
+      "prompt_cache_miss_tokens": 224
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 944,
+      "completion_tokens": 549,
+      "total_tokens": 1493,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 944
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_6330",
+    "question": "Ross Pople worked with this French dominant figure of the post-war classical music world.",
+    "expectedAnswer": "Pierre Louis Joseph Boulez",
+    "predictedAnswer": "# 路径一：从合作名单直接定位\n\n步骤1：使用⟦208⟧，提取 Ross Pople 的身份信息——他是“a New Zealand-born British conductor”（⟦29⟧），其合作对象列表出现在后续材料中。\n\n步骤2：综合⟦349⟧⟦300⟧⟦67⟧⟦76⟧⟦137⟧⟦114⟧⟦218⟧⟦211⟧⟦51⟧⟦296⟧⟦140⟧⟦153⟧⟦112⟧⟦113⟧⟦134⟧⟦89⟧⟦148⟧⟦135⟧⟦149⟧⟦185⟧⟦176⟧⟦61⟧⟦219⟧，提取 Ross Pople 合作过的音乐家名单，其中⟦185⟧明确列为“Pierre Boulez”。\n\n步骤3：使用⟦186⟧⟦10⟧⟦325⟧，确认 Pierre Boulez 的全名与生卒信息（1925 – 5 January 2016），并综合⟦20⟧⟦69⟧⟦298⟧⟦177⟧，确认其身份为“a French composer”（⟦20⟧）、“composer”（⟦69⟧）、“writer”（⟦298⟧）、“organiser”（⟦177⟧）。\n\n结论：Ross Pople 合作过的法国人物是 Pierre Boulez。\n\n---\n\n# 路径二：从“战后古典音乐界主导人物”反向匹配\n\n步骤1：使用⟦243⟧⟦268⟧，提取“the dominant figures”（⟦243⟧）与“the post-war classical music world”（⟦268⟧）这一描述，指向战后古典音乐界的主导人物。\n\n步骤2：综合⟦336⟧⟦243⟧⟦268⟧，该描述用于 Pierre Boulez 的条目中——“He was one of the dominant figures of the post-war classical music world”（⟦336⟧+⟦243⟧+⟦268⟧），确认 Pierre Boulez 符合“French dominant figure of the post-war classical music world”这一描述。\n\n步骤3：使用⟦185⟧，确认 Pierre Boulez 出现在 Ross Pople 的合作名单中（⟦349⟧引导的合作列表包含⟦185⟧）。\n\n结论：Ross Pople 合作的这位法国战后古典音乐界主导人物是 Pierre Boulez。\n\n---\n\n# 路径三：交叉验证国籍、时代与职业身份\n\n步骤1：使用⟦20⟧，提取“a French composer”，确认目标人物为法国作曲家。\n\n步骤2：综合⟦186⟧⟦325⟧，提取 Pierre Boulez 的全名“Pierre Louis Joseph Boulez CBE”及生卒年“1925 – 5 January 2016”，其活跃期覆盖战后时期。\n\n步骤3：综合⟦298⟧⟦177⟧⟦130⟧，提取 Pierre Boulez 同时是“writer”（⟦298⟧）、“organiser”（⟦177⟧），并与“institutions”（⟦130⟧）相关，符合“dominant figure”的多重身份特征。\n\n步骤4：使用⟦185⟧，确认 Ross Pople 的合作名单中包含 Pierre Boulez。\n\n结论：综合国籍（法国）、时代（战后）、职业身份（作曲家/作家/组织者）及合作关系，目标人物为 Pierre Boulez。\n\n---\n\n# 路径四：排除法与唯一性验证\n\n步骤1：使用⟦208⟧⟦29⟧，确认 Ross Pople 为新西兰出生的英国指挥家，其合作对象列表见⟦349⟧之后。\n\n步骤2：综合⟦349⟧至⟦375⟧的合作名单，逐一排查：⟦67⟧Clifford Curzon、⟦76⟧David Oistrakh、⟦137⟧Kentner、⟦114⟧George Malcolm、⟦218⟧Sir Adrian Boult、⟦211⟧Rudolf Kempe、⟦51⟧Benjamin Britten、⟦296⟧Witold Lutosławski、⟦140⟧Krzysztof Penderecki、⟦153⟧Michael Tippett、⟦112⟧Georg Solti、⟦113⟧George Benjamin、⟦134⟧John Casken、⟦89⟧Edwin Roxburgh、⟦148⟧Luciano Berio、⟦135⟧John Taverner、⟦149⟧Malcolm Arnold、⟦185⟧Pierre Boulez。其中唯一被明确标注为法国作曲家（⟦20⟧）且被描述为战后古典音乐界主导人物（⟦243⟧⟦268⟧）的是⟦185⟧Pierre Boulez。\n\n结论：在 Ross Pople 的全部合作对象中，唯一符合“French dominant figure of the post-war classical music world”描述的是 Pierre Boulez。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦208⟧⟨342⟩⟦29⟧⟨343⟩⟨344⟩⟦71⟧⟦208⟧⟨349⟩⟦300⟧⟨350⟩⟦67⟧⟨351⟩",
+    "nounCount": 425,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6938,
+      "completion_tokens": 382,
+      "total_tokens": 7320,
+      "prompt_tokens_details": {
+        "cached_tokens": 6784
+      },
+      "prompt_cache_hit_tokens": 6784,
+      "prompt_cache_miss_tokens": 154
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1365,
+      "completion_tokens": 1082,
+      "total_tokens": 2447,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1365
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_7251",
+    "question": "How many students were enrolled in American professional bowler Chris Barnes' high school in the 201",
+    "expectedAnswer": "1,840 students",
+    "predictedAnswer": "# 路径一：从人物到学校的直接链\n\n步骤1：使用⟦81⟧，提取“Chris Barnes”这一人物实体，判断其为美国职业保龄球手。\n步骤2：综合⟦43⟧⟦63⟧⟦313⟧，确认Chris Barnes是American professional bowler，且隶属于Professional Bowlers Association，锁定人物身份。\n步骤3：使用⟦624⟧，提取其出生地信息“born February 25, 1970 in Topeka”，得到Topeka这一地点线索。\n步骤4：综合⟦339⟧⟦340⟧，将Topeka与Topeka High School关联，判断Chris Barnes的高中为Topeka High School。\n步骤5：使用⟦2⟧，提取“1,840 students”，并结合⟦350⟧⟦353⟧⟦355⟧所表示的“In ..., there were ... enrolled”结构，确认该校在2010-2011学年的注册学生人数。\n\n结论：Chris Barnes的高中为Topeka High School，该校在2010-2011学年共有1,840名学生注册。\n\n# 路径二：从学校条目反向定位人物\n\n步骤1：使用⟦337⟧⟦340⟧，提取Topeka High School这一学校实体，并综合⟦17⟧判断其为一所完全认证的高中。\n步骤2：综合⟦131⟧⟦338⟧⟦341⟧，提取该校提供grades 9–12，位于Kansas。\n步骤3：使用⟦2⟧，提取该校学生人数为1,840 students，并结合⟦350⟧⟦352⟧⟦353⟧⟦354⟧⟦355⟧的占位结构，确认该数字对应2010-2011学年。\n步骤4：综合⟦81⟧⟦624⟧⟦339⟧，将Chris Barnes的出生地Topeka与Topeka High School交叉验证，确认二者为同一学校。\n步骤5：综合⟦43⟧⟦63⟧，确认Chris Barnes为American professional bowler，从而完成“人物—学校—人数”的闭环。\n\n结论：American professional bowler Chris Barnes的高中是Topeka High School，2010-2011学年注册学生数为1,840人。\n\n# 路径三：排除干扰项并交叉验证\n\n步骤1：使用⟦263⟧⟦357⟧，提取Patrick Henry High School (Ashland, Virginia)的2010-2011 school year信息，判断其为潜在干扰学校。\n步骤2：综合⟦246⟧⟦230⟧，提取该校的students与school信息，但与Chris Barnes的出生地Topeka不符，排除该学校。\n步骤3：使用⟦81⟧⟦624⟧，确认Chris Barnes出生于Topeka，而非Ashland, Virginia。\n步骤4：综合⟦339⟧⟦340⟧⟦2⟧，锁定Topeka High School及其1,840 students，并与⟦350⟧⟦353⟧⟦355⟧的2010-2011学年注册结构交叉验证。\n步骤5：综合⟦43⟧⟦63⟧⟦313⟧，再次确认Chris Barnes为American professional bowler，确保人物身份无误。\n\n结论：排除Patrick Henry High School后，确认Chris Barnes的高中为Topeka High School，2010-2011学年注册学生数为1,840人。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦81⟧⟨624⟩⟦339⟧⟨625⟩⟦163⟧⟨626⟩⟦43⟧⟦63⟧⟨627⟩⟨628⟩⟦313⟧⟨629⟩",
+    "nounCount": 608,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 9469,
+      "completion_tokens": 181,
+      "total_tokens": 9650,
+      "prompt_tokens_details": {
+        "cached_tokens": 9216
+      },
+      "prompt_cache_hit_tokens": 9216,
+      "prompt_cache_miss_tokens": 253
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 825,
+      "completion_tokens": 734,
+      "total_tokens": 1559,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 185
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_5871",
+    "question": "Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasti",
+    "expectedAnswer": "Cartoon Network Too",
+    "predictedAnswer": "# 路径一：从 Nick Jr. Too 的推出日期出发\n\n步骤1：使用⟦126⟧⟦139⟧⟦140⟧，提取 Nick Jr. Too（原名 Nick Jr. 2）于 2006 年 4 月 24 日推出，且该日期与某个“rival channel”相同。\n\n步骤2：使用⟦158⟧，确认该“rival channel”即为与 Nick Jr. Too 同日推出的对手频道。\n\n步骤3：综合⟦90⟧⟦197⟧，提取该对手频道与“day”相关的信息，指向其推出日期同为 2006 年 4 月 24 日。\n\n结论：Nick Jr. Too 与一个由 Turner Broadcasting 创建、且为 Cartoon Network 姊妹台的对手频道同日推出。\n\n# 路径二：从 Turner Broadcasting 的资产与频道关系出发\n\n步骤1：使用⟦236⟧⟦305⟧⟦306⟧⟦307⟧，提取 Turner Broadcasting System（又称 Turner）是一家美国媒体集团。\n\n步骤2：综合⟦195⟧⟦331⟧⟦333⟧⟦83⟧⟦108⟧⟦181⟧⟦228⟧⟦239⟧⟦232⟧，提取 Turner 的资产包括 CNN、HLN、TBS、TNT、Turner Classic Movies、Boomerang 和 TruTV 等。\n\n步骤3：使用⟦58⟧⟦133⟧，确认 Turner 管理多个有线电视网络，其中包括 Cartoon Network 及其姊妹频道。\n\n结论：Turner Broadcasting 旗下拥有 Cartoon Network 及其姊妹台，该姊妹台即为与 Nick Jr. Too 同日推出的对手频道。\n\n# 路径三：从 Cartoon Network 的姊妹台与推出日期交叉验证\n\n步骤1：使用⟦62⟧⟦77⟧⟦190⟧，提取 Cartoon Network 是一个频道，且存在其姊妹台的相关信息。\n\n步骤2：综合⟦139⟧⟦140⟧⟦141⟧⟦142⟧⟦143⟧，提取 Nick Jr. Too 于 2006 年 4 月 24 日推出，同日还有另一个频道推出。\n\n步骤3：使用⟦158⟧，确认该同日推出的频道为“rival channel”，且该频道由 Turner Broadcasting 创建、是 Cartoon Network 的姊妹台。\n\n结论：与 Nick Jr. Too 同日推出的对手频道是 Cartoon Network 的姊妹台，由 Turner Broadcasting 创建。\n\n# 路径四：综合多材料锁定唯一频道\n\n步骤1：使用⟦126⟧⟦139⟧，提取 Nick Jr. Too 的推出日期为 2006 年 4 月 24 日。\n\n步骤2：综合⟦158⟧⟦90⟧⟦197⟧，确认存在一个与 Nick Jr. Too 同日推出的“rival channel”。\n\n步骤3：综合⟦236⟧⟦195⟧⟦58⟧⟦133⟧⟦62⟧，确认该频道由 Turner Broadcasting 创建，且为 Cartoon Network 的姊妹台。\n\n结论：该频道即为 Cartoon Network 的姊妹台，由 Turner Broadcasting 创建，与 Nick Jr. Too 同日（2006 年 4 月 24 日）推出。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨126⟩⟦189⟧⟨127⟩⟨128⟩⟨129⟩⟦221⟧⟨130⟩⟦213⟧⟨131⟩⟦116⟧⟨132⟩⟦149⟧",
+    "nounCount": 416,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 6668,
+      "completion_tokens": 421,
+      "total_tokens": 7089,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6668
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1523,
+      "completion_tokens": 737,
+      "total_tokens": 2260,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1523
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_4880",
+    "question": "The Experts stars what actor known for \"Saturday Night Fever\" and \"Grease\"?",
+    "expectedAnswer": "John Travolta",
+    "predictedAnswer": "# 路径一：直接电影关联推理\n\n步骤1：使用⟦194⟧，提取《The Experts》的基本信息，判断这是一部1989年的美国喜剧电影，主演包括⟦42⟧（Arye Gross）和⟦99⟧（Kelly Preston）。\n\n步骤2：综合⟦194⟧⟦99⟧，注意到《The Experts》的主演名单中包含Kelly Preston，但问题询问的是“known for 'Saturday Night Fever' and 'Grease'”的演员，需要进一步关联。\n\n步骤3：使用⟦92⟧，提取John Joseph Travolta的信息，判断其出生于1954年2月18日，是美国演员，并且其代表作品包括《Saturday Night Fever》和《Grease》。\n\n结论：综合以上信息，《The Experts》的主演中，John Travolta（⟦92⟧）是那位以《Saturday Night Fever》和《Grease》闻名的演员。\n\n# 路径二：作品交叉验证推理\n\n步骤1：使用⟦21⟧，提取《Grease》的信息，判断这是一部1978年的美国音乐浪漫喜剧电影，其中包含演员John Travolta。\n\n步骤2：使用⟦76⟧⟦93⟧，提取《Saturday Night Fever (soundtrack)》的信息，判断其与电影《Saturday Night Fever》相关，并且John Travolta是该电影的主演。\n\n步骤3：综合⟦194⟧⟦92⟧，对比《The Experts》的主演名单与John Travolta的演艺经历，确认John Travolta同时出现在《The Experts》和上述两部作品中。\n\n结论：通过交叉验证，《The Experts》的主演是John Travolta，他因《Saturday Night Fever》和《Grease》而广为人知。\n\n# 路径三：演员身份与作品关联推理\n\n步骤1：使用⟦38⟧，提取John Travolta的身份信息，判断他是一位美国演员。\n\n步骤2：使用⟦62⟧⟦128⟧⟦155⟧，提取John Travolta的多重身份，包括舞者、制片人和歌手，这些身份与他在《Saturday Night Fever》和《Grease》中的表演相符。\n\n步骤3：综合⟦194⟧⟦92⟧，将John Travolta的身份与《The Experts》的主演名单进行匹配，确认他是该电影的主演之一。\n\n结论：John Travolta（⟦92⟧）是《The Experts》的主演，并且他因《Saturday Night Fever》和《Grease》而闻名。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦194⟧⟨61⟩⟦23⟧⟨63⟩⟨62⟩⟨64⟩⟨65⟩⟦42⟧⟨66⟩⟦99⟧⟨67⟩⟦58⟧",
+    "nounCount": 350,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5855,
+      "completion_tokens": 202,
+      "total_tokens": 6057,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5855
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 816,
+      "completion_tokens": 545,
+      "total_tokens": 1361,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 816
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_6995",
+    "question": "What was the name of the commander who captured all of the French ships that varied in size?",
+    "expectedAnswer": "Joshua Rowley",
+    "predictedAnswer": "# 路径一：从英军指挥官角度追踪俘获者\n\n步骤1：使用⟦198⟧，提取“the Captain Edward Acton”，判断这是英方参战指挥官之一。\n\n步骤2：综合⟦185⟧⟦219⟧，对比“the Grifon”与“the French ships Blackoal”，确认这些是法方被俘舰船。\n\n步骤3：使用⟦28⟧，提取“George Clements, and taking her”，判断George Clements参与了俘获行动。\n\n步骤4：综合⟦34⟧⟦35⟧，交叉验证“killed...and took her too”，确认同一指挥官连续俘获多艘法舰。\n\n结论：俘获所有不同大小法国舰船的指挥官是Edward Acton。\n\n# 路径二：从法舰被俘记录反推指挥官\n\n步骤1：使用⟦2⟧⟦3⟧，提取“Blackoal”和“Dauphine”，确认这是两艘被俘法舰。\n\n步骤2：综合⟦4⟧⟦5⟧，对比“Fidèle”和“Hampton Court”，确认更多被俘舰船名单。\n\n步骤3：使用⟦198⟧，提取“the Captain Edward Acton”，判断此人是英方指挥官。\n\n步骤4：综合⟦28⟧⟦35⟧，交叉验证“taking her”和“took her too”，确认同一人指挥了多次俘获。\n\n结论：Edward Acton是俘获所有法舰的指挥官。\n\n# 路径三：从战斗叙述中定位俘获者\n\n步骤1：使用⟦57⟧，提取“Claude Forbin's 60-gun Mars”，确认法方旗舰。\n\n步骤2：综合⟦30⟧⟦31⟧，对比“Mars next attacked”和“when joined by”，确认战斗过程。\n\n步骤3：使用⟦198⟧，提取“the Captain Edward Acton”，判断其为英方指挥官。\n\n步骤4：综合⟦34⟧⟦35⟧，交叉验证“killed...and took her too”，确认俘获行动由Edward Acton指挥。\n\n结论：Edward Acton是俘获所有法舰的指挥官。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨18⟩⟨19⟩⟨20⟩⟨21⟩⟦185⟧⟨22⟩⟦2⟧⟨23⟩⟦3⟧⟨24⟩⟨25⟩⟦5⟧",
+    "nounCount": 446,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7159,
+      "completion_tokens": 274,
+      "total_tokens": 7433,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7159
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1144,
+      "completion_tokens": 475,
+      "total_tokens": 1619,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1144
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_2189",
+    "question": "George Reed was, along with which Drake University player, one of the greatest running backs in CFL ",
+    "expectedAnswer": "Johnny D. Bright",
+    "predictedAnswer": "# 路径一：直接实体匹配\n\n步骤1：使用⟦83⟧，提取“George Robert Reed”这一全名，确认材料讨论的主体是George Reed。\n\n步骤2：综合⟦83⟧⟦57⟧⟦152⟧⟦15⟧⟦59⟧，提取George Reed的大学背景信息，判断其毕业于Drake University，且曾是一名美国大学橄榄球运动员。\n\n步骤3：使用⟦95⟧，提取“Johnny Bright”这一人名，结合⟦96⟧确认其全名为Johnny D. Bright。\n\n步骤4：综合⟦388⟧⟦95⟧⟦108⟧⟦204⟧，提取“along with Johnny Bright and Mike Pringle, is one of the players most often mentioned as being the greatest running back in CFL history”这一表述，判断与George Reed并列被提及的Drake University球员是Johnny Bright。\n\n结论：与George Reed并列、同为Drake University出身且被誉为CFL历史上最伟大跑卫之一的是Johnny Bright。\n\n# 路径二：大学关联交叉验证\n\n步骤1：使用⟦15⟧，提取“a former American college football”这一描述，判断该材料指向某位曾在美国大学橄榄球体系效力的球员。\n\n步骤2：综合⟦83⟧⟦59⟧，交叉验证George Reed的大学经历，确认其与Drake University的关联。\n\n步骤3：使用⟦95⟧，提取“Johnny Bright”这一人名，结合⟦96⟧确认其身份标识。\n\n步骤4：综合⟦95⟧⟦57⟧⟦152⟧，对比Johnny Bright与George Reed在CFL历史评价中的位置，判断二者同属Drake University出身且均被列为CFL历史最伟大跑卫之一。\n\n结论：Drake University出身的另一位CFL伟大跑卫是Johnny Bright。\n\n# 路径三：CFL历史地位综合支撑\n\n步骤1：使用⟦54⟧，提取“CFL history”这一主题词，确定讨论范围是加拿大橄榄球联盟历史。\n\n步骤2：综合⟦83⟧⟦130⟧⟦57⟧，提取George Reed作为CFL球员的身份及其历史地位描述。\n\n步骤3：综合⟦388⟧⟦95⟧⟦108⟧⟦204⟧，提取“along with Johnny Bright and Mike Pringle, is one of the players most often mentioned as being the greatest running back in CFL history”这一并列结构，判断Johnny Bright与George Reed同属被提及的伟大跑卫。\n\n步骤4：使用⟦15⟧⟦59⟧，验证Johnny Bright的大学背景与Drake University的关联，确认其符合问题中“Drake University player”的限定条件。\n\n结论：综合CFL历史地位与大学背景两重证据，与George Reed并列的Drake University球员是Johnny Bright。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨388⟩⟦108⟧⟨389⟩⟦95⟧⟨390⟩⟦204⟧⟨391⟩⟨392⟩⟦54⟧⟦92⟧⟨393⟩⟨394⟩",
+    "nounCount": 381,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6072,
+      "completion_tokens": 178,
+      "total_tokens": 6250,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6072
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 801,
+      "completion_tokens": 634,
+      "total_tokens": 1435,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 801
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_6831",
+    "question": "Where is the home of the common party princess voiced by Idina Menzel?",
+    "expectedAnswer": "Arendelle",
+    "predictedAnswer": "# 路径一：从角色配音与角色归属推理\n\n步骤1：使用⟦115⟧，提取“princesses”这一关键词，判断问题中的“party princess”指向公主类角色。\n步骤2：综合⟦107⟧⟦64⟧，提取“party”与“Elsa”的关联，判断常见派对公主中包括 Elsa。\n步骤3：使用⟦119⟧，提取“Queen Elsa”，确认 Elsa 是《Frozen》中的角色。\n步骤4：综合⟦31⟧⟦1⟧，提取“Arendelle”与“Frozen”，判断 Elsa 的家乡是 Arendelle。\n\n结论：常见派对公主中由 Idina Menzel 配音的角色是 Elsa，其家乡是 Arendelle。\n\n# 路径二：从配音演员 Idina Menzel 与角色交叉验证\n\n步骤1：使用⟦64⟧，提取“Elsa”，判断 Idina Menzel 与 Elsa 相关。\n步骤2：综合⟦119⟧⟦11⟧⟦42⟧，提取“Queen Elsa”“a fictional character”“character”，确认 Elsa 是虚构角色。\n步骤3：综合⟦31⟧⟦186⟧⟦1⟧，提取“Arendelle”“Walt Disney Animation Studios' 53rd animated film”“Frozen”，判断 Elsa 所属故事发生在 Arendelle。\n\n结论：Idina Menzel 配音的常见派对公主是 Elsa，其家乡为 Arendelle。\n\n# 路径三：从派对公主常见角色列表排除与定位\n\n步骤1：综合⟦167⟧⟦47⟧⟦142⟧⟦166⟧，提取“The most common party princesses costumes”“Cinderella”“Sleeping Beauty”“The Little Mermaid”，列出常见派对公主角色。\n步骤2：使用⟦64⟧，提取“Elsa”，判断 Elsa 也属于常见派对公主之一。\n步骤3：综合⟦119⟧⟦31⟧，提取“Queen Elsa”与“Arendelle”，确认 Elsa 的家乡。\n步骤4：使用⟦115⟧，提取“princesses”，与问题中的“party princess”对应，确认答案指向公主角色的家乡。\n\n结论：在常见派对公主中，Idina Menzel 配音的是 Elsa，其家乡是 Arendelle。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦119⟧⟨271⟩⟦31⟧⟨272⟩⟦11⟧⟦42⟧⟨273⟩⟨274⟩⟦186⟧⟨275⟩⟨276⟩⟦1⟧",
+    "nounCount": 287,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4752,
+      "completion_tokens": 118,
+      "total_tokens": 4870,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4752
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 627,
+      "completion_tokens": 515,
+      "total_tokens": 1142,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 627
+    },
+    "batch": "001-010"
+  },
+  {
+    "qid": "hotpot_5606",
+    "question": "Faruk Halibegovic was born in what city that is the capital and largest city of Bosnia and Herzegovi",
+    "expectedAnswer": "Sarajevo",
+    "predictedAnswer": "ERROR: fetch failed",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦76⟧⟨80⟩⟨81⟩⟨82⟩⟨83⟩⟦14⟧⟦86⟧⟨84⟩⟨85⟩⟦144⟧⟦54⟧⟨87⟩",
+    "nounCount": 402,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6493,
+      "completion_tokens": 169,
+      "total_tokens": 6662,
+      "prompt_tokens_details": {
+        "cached_tokens": 6272
+      },
+      "prompt_cache_hit_tokens": 6272,
+      "prompt_cache_miss_tokens": 221
+    },
+    "reasoningUsage": null,
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_1356",
+    "question": "Ælfgifu of Exeter and Ælfgifu of Shaftesbury are both known for being what?",
+    "expectedAnswer": "saint",
+    "predictedAnswer": "# 路径一：基于身份与关系的直接提取\n\n步骤1：使用⟦217⟧⟦218⟧，提取“Saint Ælfgifu”与“Saint Elgiva”的称号，判断Ælfgifu of Shaftesbury被明确标识为圣徒。\n\n步骤2：综合⟦260⟧⟦308⟧，提取“the first wife”与“two future kings”，判断Ælfgifu of Shaftesbury是埃德蒙一世的妻子，并生下两位未来的国王。\n\n步骤3：使用⟦320⟧⟦226⟧，提取“wife”与“Shaftesbury wife”，判断Ælfgifu of Exeter同样以“妻子”身份被记载。\n\n结论：两人共同点是都作为王室妻子（王后/王妃）而闻名，且都与Ælfgifu这一名字相关。\n\n# 路径二：基于圣徒身份与宗教关联的交叉验证\n\n步骤1：使用⟦37⟧⟦216⟧，提取“an Anglo-Saxon saint”与“saint”，判断Ælfgifu of Exeter被关联为盎格鲁-撒克逊圣徒。\n\n步骤2：综合⟦217⟧⟦218⟧，对比Ælfgifu of Shaftesbury同样被冠以“Saint”称号，判断两人均具有圣徒身份。\n\n步骤3：使用⟦212⟧⟦213⟧⟦319⟧，提取“relic”“relics”“whose relics”，判断两人的圣徒身份与遗物崇拜相关。\n\n结论：两人共同点是都被尊为圣徒（Anglo-Saxon saint），且其遗物受到宗教崇拜。\n\n# 路径三：基于历史记载中身份混淆的对比论证\n\n步骤1：使用⟦335⟧⟦226⟧，提取“It is possible that she is”与“Shaftesbury wife”，判断Ælfgifu of Exeter可能与Ælfgifu of Shaftesbury被混淆。\n\n步骤2：综合⟦341⟧⟦344⟧，提取“of Edmund I (as”与“more likely...that she was not”，判断历史学家对Ælfgifu of Exeter是否为埃德蒙一世之妻存在争议。\n\n步骤3：使用⟦320⟧⟦226⟧，对比两人均以“wife”身份被记载，但Ælfgifu of Shaftesbury的婚姻关系更为确定。\n\n结论：两人共同点是都作为“妻子”被记载，且历史记载中存在身份混淆的可能性，但Ælfgifu of Shaftesbury的王后身份更为确凿。\n\n# 路径四：基于王室关联与宗教角色的综合支撑\n\n步骤1：使用⟦154⟧⟦308⟧，提取“kings”与“two future kings”，判断Ælfgifu of Shaftesbury与王室继承直接相关。\n\n步骤2：综合⟦30⟧⟦238⟧，提取“abbess”与“the 10th-century royal abbess”，判断Ælfgifu of Exeter被关联为王室女修道院长。\n\n步骤3：使用⟦67⟧⟦68⟧⟦78⟧⟦123⟧，提取“Christ”“church”“confession”“her confession”，判断Ælfgifu of Exeter的宗教虔诚行为被记载。\n\n结论：两人共同点是都与王室和宗教机构有紧密关联，但Ælfgifu of Shaftesbury以王后和圣徒身份闻名，Ælfgifu of Exeter以王室女修道院长和圣徒身份闻名。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦217⟧⟨281⟩⟨282⟩⟦218⟧⟨283⟩⟦260⟧⟨284⟩⟨285⟩⟨286⟩⟦308⟧⟦154⟧⟨287⟩",
+    "nounCount": 417,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7236,
+      "completion_tokens": 353,
+      "total_tokens": 7589,
+      "prompt_tokens_details": {
+        "cached_tokens": 7040
+      },
+      "prompt_cache_hit_tokens": 7040,
+      "prompt_cache_miss_tokens": 196
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1346,
+      "completion_tokens": 776,
+      "total_tokens": 2122,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1346
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_5139",
+    "question": "Ara Berberian sand for which role an opera by Giuseppe Verdi?",
+    "expectedAnswer": "Sparafucile",
+    "predictedAnswer": "# 路径一：从职业角色清单直接定位\n\n步骤1：使用⟦163⟧，提取 Mark Delavan 的 roles 信息，其中包含 ⟦246⟧（Verdi's \"Rigoletto\"）。\n步骤2：综合⟦172⟧⟦246⟧，对比角色名与歌剧归属：Sparafucile 是 Verdi 歌剧《Rigoletto》中的角色。\n步骤3：使用⟦48⟧⟦51⟧，确认 Ara Berberian 是 bass（男低音），而 Sparafucile 正是男低音角色，与 Ara Berberian 的声部匹配。\n\n结论：Ara Berberian 在 Giuseppe Verdi 的歌剧《Rigoletto》中演唱 Sparafucile 这一角色。\n\n# 路径二：从 Ara Berberian 的职业记录交叉验证\n\n步骤1：使用⟦57⟧⟦97⟧，提取 Ara Berberian 的 career 信息，其中提到他演唱过多个角色。\n步骤2：综合⟦172⟧⟦246⟧，从 Mark Delavan 的角色记录中确认 Sparafucile 属于 Verdi's \"Rigoletto\"。\n步骤3：综合⟦51⟧⟦172⟧，交叉验证：Ara Berberian 是 bass，Sparafucile 是 Verdi 歌剧中的男低音角色，两者声部与剧目归属一致。\n\n结论：Ara Berberian 为 Verdi 歌剧《Rigoletto》演唱了 Sparafucile 这一角色。\n\n# 路径三：从歌剧角色与作曲家归属排除法\n\n步骤1：使用⟦122⟧⟦135⟧⟦222⟧，提取 Mozart's \"Abduction\" 中的 Osmin 角色，确认其作曲家为 Mozart 而非 Verdi。\n步骤2：使用⟦172⟧⟦246⟧，提取 Sparafucile 与 Verdi's \"Rigoletto\" 的关联，确认作曲家为 Verdi。\n步骤3：综合⟦48⟧⟦51⟧⟦172⟧，对比 Ara Berberian 的声部（bass）与两个角色的声部要求，Sparafucile 为男低音角色，且属于 Verdi 歌剧。\n\n结论：Ara Berberian 演唱的 Verdi 歌剧角色是《Rigoletto》中的 Sparafucile。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦48⟧⟨161⟩⟦6⟧⟨162⟩⟦258⟧⟨163⟩⟦118⟧⟨164⟩⟦76⟧⟨165⟩⟦54⟧⟨166⟩",
+    "nounCount": 330,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5889,
+      "completion_tokens": 284,
+      "total_tokens": 6173,
+      "prompt_tokens_details": {
+        "cached_tokens": 5755
+      },
+      "prompt_cache_hit_tokens": 5755,
+      "prompt_cache_miss_tokens": 134
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1082,
+      "completion_tokens": 532,
+      "total_tokens": 1614,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1082
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_5406",
+    "question": "Who was the electoral division that James Tully  represented in 1928 named after?",
+    "expectedAnswer": "Sir Edmund Barton",
+    "predictedAnswer": "# 路径一：直接溯源命名对象\n\n步骤1：使用⟦107⟧，提取“James Thomas Tully”这一人物全名，确认问题所指对象为澳大利亚政治家 James Tully。\n\n步骤2：综合⟦107⟧⟦155⟧⟦248⟧，交叉验证其政治活动时间与地点：材料显示其活跃于“October”相关时间节点及“time”背景，结合其代表选区信息，锁定其1928年所代表的选区。\n\n步骤3：使用⟦179⟧，提取“Sir Edmund Barton”这一人名，判断该选区命名来源。\n\n结论：James Tully 在1928年代表的选区是以 Sir Edmund Barton（澳大利亚首任总理）命名的。\n\n# 路径二：选区与命名人物关联验证\n\n步骤1：使用⟦31⟧，提取“an Australian electoral division”这一类别信息，确认问题涉及的是澳大利亚联邦选区。\n\n步骤2：综合⟦179⟧⟦212⟧，对比命名人物身份：⟦179⟧给出“Sir Edmund Barton”，⟦212⟧补充其为“the first Prime Minister”，两者指向同一人，交叉验证命名对象的一致性。\n\n步骤3：使用⟦46⟧，提取“Barton”这一选区名称，与⟦179⟧⟦212⟧形成对应，确认该选区名称直接来源于 Sir Edmund Barton 的姓氏。\n\n结论：该选区名为“Barton”，是以澳大利亚首任总理 Sir Edmund Barton 命名的。\n\n# 路径三：排除干扰项，锁定唯一命名来源\n\n步骤1：使用⟦32⟧⟦163⟧，提取“an Australian politician”与“politician”信息，确认 James Tully 的政治身份，排除非政治人物命名的可能性。\n\n步骤2：综合⟦107⟧⟦234⟧⟦257⟧，分析其选举经历：材料提及“the same seat”“two sitting members”等，说明其代表选区具有特定历史背景，但命名来源需独立确认。\n\n步骤3：使用⟦179⟧，提取“Sir Edmund Barton”作为命名来源，与⟦46⟧“Barton”形成唯一对应，排除其他人物命名的可能。\n\n结论：综合多条材料，James Tully 1928年所代表的选区（Barton）是以 Sir Edmund Barton 命名的。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦107⟧⟨65⟩⟦155⟧⟨66⟩⟨67⟩⟨68⟩⟦32⟧⟦163⟧⟨101⟩⟨102⟩⟨103⟩⟦248⟧",
+    "nounCount": 383,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6479,
+      "completion_tokens": 211,
+      "total_tokens": 6690,
+      "prompt_tokens_details": {
+        "cached_tokens": 6272
+      },
+      "prompt_cache_hit_tokens": 6272,
+      "prompt_cache_miss_tokens": 207
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 933,
+      "completion_tokens": 498,
+      "total_tokens": 1431,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 933
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_4173",
+    "question": "What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-h",
+    "expectedAnswer": "College Football Scoreboard",
+    "predictedAnswer": "# 路径一：从选秀信息定位人物，再追踪其主持节目\n\n步骤1：使用⟦160⟧，提取“the 1995 NFL Draft”这一选秀事件，结合⟨278⟩“eighth overall in”，锁定“在1995年NFL选秀中第八顺位被选中”的人。\n\n步骤2：综合⟦82⟧⟦12⟧⟦228⟧，确认该人物为 Joseph Scott Galloway（Joey Galloway），身份是 former American football wide receiver。\n\n步骤3：使用⟦47⟧，提取 Galloway 当前身份为“current college football analyst”，并结合⟦56⟧⟦57⟧，判断其参与主持的节目名称为 ESPN College Football Friday Primetime。\n\n结论：该节目名为 **ESPN College Football Friday Primetime**。\n\n# 路径二：从节目材料反向验证主持人身份\n\n步骤1：使用⟦57⟧，提取节目名称“ESPN College Football Friday Primetime”，并综合⟦56⟧⟦17⟧⟦127⟧，确认该节目是 ESPN 的一档 live game presentation。\n\n步骤2：综合⟦41⟧⟦61⟧⟦51⟧，提取节目内容为 college football / Division 1-A college football，与 Galloway 的“college football analyst”身份⟦47⟧一致。\n\n步骤3：使用⟦82⟧，确认 Joey Galloway 的全名为 Joseph Scott Galloway，再结合⟦160⟧⟨278⟩，交叉验证其1995年第八顺位被选中的经历，确认节目主持人正是此人。\n\n结论：Galloway 联合主持的节目是 **ESPN College Football Friday Primetime**。\n\n# 路径三：通过职业生涯轨迹排除干扰项\n\n步骤1：综合⟦213⟧⟦179⟧⟦154⟧⟦104⟧⟦119⟧⟦225⟧，提取 Galloway 曾效力的多支 NFL 球队（Seahawks、Cowboys、Buccaneers、Patriots、Steelers、Redskins），确认其球员生涯⟦200⟧。\n\n步骤2：使用⟦47⟧，提取其退役后转型为“current college football analyst”，与球员身份形成对比，排除其他球队相关节目。\n\n步骤3：综合⟦56⟧⟦57⟧⟦145⟧，确认其主持节目为 ESPN College Football Friday Primetime，有时在 ESPN2 播出。\n\n结论：该节目名称为 **ESPN College Football Friday Primetime**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦82⟧⟨266⟩⟦12⟧⟨267⟩⟨268⟩⟦228⟧⟦129⟧⟨269⟩⟨270⟩⟦200⟧⟨271⟩⟦47⟧",
+    "nounCount": 323,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 5655,
+      "completion_tokens": 229,
+      "total_tokens": 5884,
+      "prompt_tokens_details": {
+        "cached_tokens": 5504
+      },
+      "prompt_cache_hit_tokens": 5504,
+      "prompt_cache_miss_tokens": 151
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 950,
+      "completion_tokens": 553,
+      "total_tokens": 1503,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 950
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_948",
+    "question": "Tamanchey is a comedy film that starred the actress who works in what type of films?",
+    "expectedAnswer": "Hindi",
+    "predictedAnswer": "# 路径一：从 Tamanchey 到 Richa Chadda 再到电影类型\n\n步骤1：使用⟦231⟧⟦49⟧⟦76⟧⟦71⟧，提取 Tamanchey 是一部印度浪漫犯罪喜剧电影，包含喜剧和犯罪元素。\n\n步骤2：使用⟦231⟧⟦199⟧，提取 Tamanchey 的主演之一是 Richa Chadda。\n\n步骤3：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，提取 Richa Chadda 是一名在 Hindi films（印地语电影）中工作的女演员。\n\n结论：Tamanchey 主演的女演员 Richa Chadda 从事 Hindi films（印地语电影）。\n\n# 路径二：通过演员表交叉验证\n\n步骤1：使用⟦231⟧⟦365⟧⟦366⟧⟦168⟧⟦367⟧⟦170⟧⟦368⟧⟦199⟧，提取 Tamanchey 由 Navneet Behal 执导，Nikhil Dwivedi 和 Richa Chadda 主演。\n\n步骤2：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，确认 Richa Chadda 是在 Hindi films 中工作的女演员。\n\n步骤3：综合⟦231⟧⟦199⟧⟦124⟧，交叉验证 Tamanchey 的主演 Richa Chadda 的工作领域为 Hindi films。\n\n结论：该女演员从事 Hindi films（印地语电影）。\n\n# 路径三：排除干扰项，锁定唯一女演员\n\n步骤1：使用⟦231⟧⟦49⟧⟦76⟧⟦71⟧，确认 Tamanchey 是一部印度浪漫犯罪喜剧电影。\n\n步骤2：使用⟦231⟧⟦199⟧，提取主演中的女演员为 Richa Chadda（Nikhil Dwivedi 为男演员，不构成“actress”）。\n\n步骤3：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，提取 Richa Chadda 的工作类型为 Hindi films。\n\n结论：Tamanchey 主演的女演员从事 Hindi films（印地语电影）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦231⟧⟨357⟩⟦14⟧⟨358⟩⟦102⟧⟨359⟩⟦49⟧⟦76⟧⟨361⟩⟨362⟩⟨360⟩⟨363⟩",
+    "nounCount": 494,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8031,
+      "completion_tokens": 162,
+      "total_tokens": 8193,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 8031
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 746,
+      "completion_tokens": 496,
+      "total_tokens": 1242,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 746
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_3707",
+    "question": "What is the city in which Bauerfield International Ariport is based out of?",
+    "expectedAnswer": "Port Vila",
+    "predictedAnswer": "# 路径一：机场与城市直接关联\n\n步骤1：使用⟦53⟧，提取“Bauerfield International Airport”这一机场名称，确认其为待查机场。\n\n步骤2：综合⟦227⟧⟦43⟧，提取“Port Vila”与“an airport”的关联，判断Port Vila是机场所在城市。\n\n步骤3：使用⟦313⟧，提取“Vanuatu”，确认Port Vila位于Vanuatu，进一步验证城市归属。\n\n结论：Bauerfield International Airport位于Port Vila。\n\n# 路径二：机场代码与城市交叉验证\n\n步骤1：使用⟦143⟧⟦321⟧，提取IATA代码“VLI”，确认Bauerfield International Airport的IATA代码为VLI。\n\n步骤2：综合⟦144⟧⟦208⟧，提取ICAO代码“NVVV”，确认该机场的ICAO代码为NVVV。\n\n步骤3：综合⟦227⟧⟦313⟧，提取“Port Vila”与“Vanuatu”的关联，判断Port Vila是Vanuatu的城市，且为机场所在城市。\n\n结论：通过IATA和ICAO代码交叉验证，Bauerfield International Airport位于Port Vila。\n\n# 路径三：航空公司总部与机场位置关联\n\n步骤1：使用⟦36⟧⟦155⟧，提取“Air Vanuatu”与“its head office”，确认Air Vanuatu的总部位置。\n\n步骤2：综合⟦260⟧⟦58⟧，提取“the Air Vanuatu House”与“in”的关联，判断Air Vanuatu总部位于某地。\n\n步骤3：综合⟦53⟧⟦227⟧，提取“Bauerfield International Airport”与“Port Vila”的关联，判断机场位于Port Vila，且Air Vanuatu总部也位于Port Vila。\n\n结论：通过Air Vanuatu总部位置与机场位置的关联，Bauerfield International Airport位于Port Vila。\n\n# 路径四：机场设施与城市综合推断\n\n步骤1：使用⟦263⟧⟦38⟧，提取“The airport”与“airport”的关联，确认Bauerfield International Airport为机场。\n\n步骤2：综合⟦157⟧⟦234⟧⟦250⟧，提取“its runway”、“runway”、“size”等设施信息，判断机场规模较小。\n\n步骤3：综合⟦227⟧⟦313⟧，提取“Port Vila”与“Vanuatu”的关联，判断Port Vila是Vanuatu的城市，且为机场所在城市。\n\n结论：通过机场设施信息与城市关联，Bauerfield International Airport位于Port Vila。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦53⟧⟨74⟩⟦143⟧⟨75⟩⟦321⟧⟨76⟩⟦144⟧⟨77⟩⟦208⟧⟨78⟩⟦43⟧⟨79⟩",
+    "nounCount": 438,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7512,
+      "completion_tokens": 242,
+      "total_tokens": 7754,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7512
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 924,
+      "completion_tokens": 577,
+      "total_tokens": 1501,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 924
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_5603",
+    "question": "Kurt Cobain: Montage of Heck documents the life of Cobain until his suicide in what state?",
+    "expectedAnswer": "Washington",
+    "predictedAnswer": "# 路径一：直接定位纪录片内容\n\n步骤1：使用⟦4⟧，提取该纪录片为2015年上映的关于Kurt Cobain的纪录片，结合⟦183⟧可知其讲述的是Nirvana主唱Kurt Cobain的故事。\n\n步骤2：综合⟦271⟧⟦129⟧⟦134⟧⟦104⟧⟦160⟧，提取纪录片记录了Cobain从出生、早年家庭生活与青少年时期、成名到其一生直至去世的完整历程。\n\n步骤3：使用⟦305⟧，提取Washington这一地点信息，结合⟦83⟧⟦131⟧可知Cobain的死亡地点位于Washington州。\n\n结论：Kurt Cobain: Montage of Heck记录了Cobain的一生直至其自杀，自杀地点在Washington州。\n\n# 路径二：交叉验证死亡地点\n\n步骤1：使用⟦181⟧⟦217⟧，提取Nirvana乐队与Seattle的关联信息，结合⟦158⟧⟦225⟧可知Cobain作为乐队主唱与Seattle有密切关系。\n\n步骤2：使用⟦305⟧，提取Washington这一州名，结合⟦28⟧⟦310⟧可知Aberdeen位于Washington州，是Cobain的出生地和早年生活地。\n\n步骤3：综合⟦83⟧⟦131⟧，对比Cobain的死亡信息，结合⟦305⟧确认其自杀地点在Washington州。\n\n结论：通过交叉验证，Cobain在Washington州自杀身亡，纪录片记录了这一完整生命历程。\n\n# 路径三：从纪录片主题推断\n\n步骤1：使用⟦4⟧⟦90⟧，提取该纪录片是关于Kurt Cobain的纪录片作品。\n\n步骤2：综合⟦52⟧⟦53⟧⟦54⟧⟦55⟧⟦56⟧⟦57⟧，提取纪录片标题全称为Kurt Cobain: Montage of Heck，是关于Kurt Cobain的传记纪录片。\n\n步骤3：使用⟦305⟧，提取Washington作为关键地点信息，结合⟦83⟧⟦131⟧可知纪录片涵盖Cobain直至死亡的完整人生，死亡地点为Washington州。\n\n结论：该纪录片记录Cobain的一生直至其在Washington州自杀，答案为Washington。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨76⟩⟨77⟩⟦271⟧⟨78⟩⟨79⟩⟨80⟩⟦129⟧⟦52⟧⟨81⟩⟨82⟩⟨83⟩⟨84⟩",
+    "nounCount": 454,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7425,
+      "completion_tokens": 289,
+      "total_tokens": 7714,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7425
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1175,
+      "completion_tokens": 504,
+      "total_tokens": 1679,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1175
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_2577",
+    "question": "At what height does State Route 160 start?",
+    "expectedAnswer": "4145 ft",
+    "predictedAnswer": "# 路径一：华盛顿州路线起点海拔\n\n步骤1：使用⟦138⟧，提取“the highway”作为华盛顿州160号公路的指代对象，判断该路线在华盛顿州内的起点位置信息。\n\n步骤2：综合⟦105⟧⟦149⟧，对比“Port Orchard”与“the Southworth ferry terminal”两个地点，确认华盛顿州160号公路的起点位于Southworth ferry terminal。\n\n步骤3：使用⟦8⟧，提取“a ferry”作为该起点的交通方式特征，判断起点为渡轮码头而非普通陆地路段。\n\n结论：华盛顿州160号公路起点位于Southworth ferry terminal，为渡轮码头，但材料中未给出具体海拔高度。\n\n# 路径二：弗吉尼亚州路线起点海拔\n\n步骤1：使用⟦12⟧，提取“a primary state highway”作为弗吉尼亚州160号公路的路线等级，判断其为州级主要公路。\n\n步骤2：综合⟦1⟧⟦2⟧，提取“160 (”与“160) is”作为路线编号与描述框架，确认该路线为弗吉尼亚州160号公路。\n\n步骤3：使用⟦173⟧，提取“Virginia”作为该路线的所属州，判断其位于弗吉尼亚州境内。\n\n结论：弗吉尼亚州160号公路为州级主要公路，位于弗吉尼亚州，但材料中未给出具体起点海拔高度。\n\n# 路径三：跨州路线起点特征对比\n\n步骤1：综合⟦144⟧⟦30⟧，提取“the only state highway”与“Blount County”，判断阿拉巴马州160号公路是唯一完全位于Blount County的州级公路。\n\n步骤2：综合⟦105⟧⟦134⟧⟦149⟧，对比“Port Orchard”“the Fauntleroy ferry terminal”“the Southworth ferry terminal”，确认华盛顿州160号公路起于Southworth ferry terminal，与Fauntleroy ferry terminal通过渡轮连接。\n\n步骤3：综合⟦11⟧⟦100⟧，提取“a north–south state highway”与“Ohio”，判断俄亥俄州160号公路为南北向州级公路。\n\n结论：各州160号公路起点特征各异，但所有材料均未提供任何一条160号公路起点的具体海拔高度数据。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟨2⟩⟦12⟧⟨4⟩⟨3⟩⟨5⟩⟨6⟩⟨7⟩⟨8⟩⟦119⟧⟦66⟧⟦155⟧",
+    "nounCount": 324,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 4879,
+      "completion_tokens": 744,
+      "total_tokens": 5623,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4879
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 2192,
+      "completion_tokens": 508,
+      "total_tokens": 2700,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2192
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_6902",
+    "question": "For which band, was the female member of Fitz and The Tantrums, the front woman for ten years ?",
+    "expectedAnswer": "The Rebirth",
+    "predictedAnswer": "# 路径一：从人物身份到乐队归属\n\n步骤1：使用⟦129⟧，提取“Noelle Scaggs”这一姓名，确认其为 Fitz and The Tantrums 的女性成员。\n\n步骤2：综合⟦78⟧⟦170⟧，提取“front-woman”与“ten years”两个关键信息，判断 Noelle Scaggs 曾担任某乐队的主唱长达十年。\n\n步骤3：综合⟦195⟧⟦162⟧，将“The Rebirth”与“soul band”关联，确认 Noelle Scaggs 担任主唱的乐队是 The Rebirth。\n\n结论：Noelle Scaggs 担任主唱十年的乐队是 The Rebirth。\n\n# 路径二：从合作经历反向定位\n\n步骤1：使用⟦129⟧，确认 Noelle Scaggs 是 Fitz and The Tantrums 的女性成员。\n\n步骤2：综合⟦111⟧⟦139⟧⟦179⟧⟦61⟧⟦59⟧⟦56⟧，提取 Noelle Scaggs 的合作对象包括 Mayer Hawthorne、Quantic、The Black Eyed Peas、Dilated Peoples、Defari、Damian Marley 等。\n\n步骤3：综合⟦195⟧⟦162⟧，在这些合作信息中定位到 The Rebirth 这一 soul band，并确认 Noelle Scaggs 曾是其 front-woman。\n\n结论：通过合作经历交叉验证，Noelle Scaggs 担任主唱十年的乐队是 The Rebirth。\n\n# 路径三：从乐队风格与人物角色综合推断\n\n步骤1：使用⟦161⟧⟦162⟧，提取“soul”与“soul band”的风格标签，锁定目标乐队为一支灵魂乐乐队。\n\n步骤2：综合⟦129⟧⟦78⟧⟦170⟧，确认 Fitz and The Tantrums 的女性成员 Noelle Scaggs 曾担任某乐队 front-woman 十年。\n\n步骤3：综合⟦195⟧，将“The Rebirth”与前述 soul band 及 front-woman 十年经历匹配，确认答案。\n\n结论：综合风格标签与人物角色，Noelle Scaggs 担任主唱十年的乐队是 The Rebirth。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨102⟩⟦26⟧⟨103⟩⟨104⟩⟨105⟩⟨106⟩⟨107⟩⟨108⟩⟦118⟧⟦150⟧⟦129⟧⟦149⟧",
+    "nounCount": 345,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5584,
+      "completion_tokens": 220,
+      "total_tokens": 5804,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5584
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 934,
+      "completion_tokens": 485,
+      "total_tokens": 1419,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 934
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_1642",
+    "question": "Which American film director and actor famous for his role as Donny \"The Bear Jew\" Donowitz wrote th",
+    "expectedAnswer": "Eli Roth",
+    "predictedAnswer": "# 路径一：从角色到导演的识别\n\n步骤1：使用⟦75⟧，提取 Donny \"The Bear Jew\" Donowitz 这一角色名称，判断该角色是问题的关键标识。\n\n步骤2：综合⟦75⟧⟦164⟧⟦6⟧，交叉验证该角色出自 Quentin Tarantino's war film ⟦6⟧（Inglourious Basterds），确认扮演该角色的演员身份。\n\n步骤3：使用⟦78⟧⟦38⟧⟦74⟧⟦256⟧，提取 Eli Raphael Roth 是美国电影导演、演员和编剧，与步骤2中的角色扮演者对应。\n\n步骤4：综合⟦227⟧⟦13⟧⟦79⟧⟦351⟧，验证 The Man with the Iron Fists 是一部 2012 年美国武术电影，由 Eli Roth 编剧。\n\n结论：Eli Roth 就是那位以饰演 Donny \"The Bear Jew\" Donowitz 闻名、并撰写了 2012 年电影 The Man with the Iron Fists 的美国电影导演兼演员。\n\n# 路径二：从电影作品反推编剧\n\n步骤1：使用⟦227⟧⟦13⟧，提取 The Man with the Iron Fists 是一部 2012 年美国武术电影，确定目标作品。\n\n步骤2：综合⟦227⟧⟦351⟧⟦79⟧，从电影条目中提取编剧信息，确认 Eli Roth 是该片编剧。\n\n步骤3：综合⟦78⟧⟦38⟧⟦74⟧，交叉验证 Eli Roth 的身份为美国电影导演和演员，符合问题中\"American film director and actor\"的描述。\n\n步骤4：使用⟦75⟧⟦164⟧⟦6⟧，验证 Eli Roth 曾在 Quentin Tarantino's war film 中饰演 Donny \"The Bear Jew\" Donowitz，与问题中的角色描述吻合。\n\n结论：通过电影作品反推，Eli Roth 同时满足\"饰演 Donny 'The Bear Jew' Donowitz\"和\"撰写 The Man with the Iron Fists\"两个条件。\n\n# 路径三：多材料交叉验证身份唯一性\n\n步骤1：使用⟦78⟧，提取 Eli Raphael Roth 的全名及其出生日期，确认其身份标识。\n\n步骤2：综合⟦38⟧⟦74⟧⟦159⟧⟦256⟧，提取 Eli Roth 的职业身份包括美国电影导演、演员、制片人和编剧，覆盖问题所需的全部身份特征。\n\n步骤3：综合⟦75⟧⟦105⟧⟦164⟧⟦6⟧，验证 Donny \"The Bear Jew\" Donowitz 是 Eli Roth 最著名的角色之一，出自 Inglourious Basterds。\n\n步骤4：综合⟦227⟧⟦13⟧⟦79⟧⟦351⟧，确认 Eli Roth 撰写了 2012 年的 The Man with the Iron Fists，且该片为美国武术电影。\n\n结论：多条材料交叉验证表明，Eli Roth 是唯一同时满足所有条件的人选——美国电影导演兼演员、饰演 Donny \"The Bear Jew\" Donowitz、撰写 The Man with the Iron Fists。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦78⟧⟨184⟩⟦38⟧⟨186⟩⟨185⟩⟨187⟩⟨188⟩⟨189⟩⟦256⟧⟦256⟧⟨190⟩⟨191⟩",
+    "nounCount": 366,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6025,
+      "completion_tokens": 253,
+      "total_tokens": 6278,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6025
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1012,
+      "completion_tokens": 701,
+      "total_tokens": 1713,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1012
+    },
+    "batch": "030-040"
+  },
+  {
+    "qid": "hotpot_4448",
+    "question": "Who created the series in which Liza Weil played Bonnie Winterbottom?",
+    "expectedAnswer": "Peter Nowalk",
+    "predictedAnswer": "# 路径一：从角色到创作者的直接链\n\n步骤1：使用⟦57⟧，提取“Bonnie Winterbottom”这一角色名称，确认其为该系列中的角色。\n步骤2：综合⟦57⟧⟦160⟧，交叉验证“Bonnie Winterbottom”所属系列由Peter Nowalk创作。\n步骤3：使用⟦188⟧，确认Liza Weil出演了该系列，从而将“Liza Weil played Bonnie Winterbottom”与系列关联。\n\n结论：Peter Nowalk创作了Liza Weil饰演Bonnie Winterbottom的系列。\n\n# 路径二：通过剧集列表与角色列表交叉验证\n\n步骤1：使用⟦57⟧，提取“Bonnie Winterbottom”作为角色条目，出现在《List of How to Get Away with Murder episodes》中。\n步骤2：综合⟦160⟧⟦190⟧，对比角色列表中的创作者信息，确认Peter Nowalk为创作者，Shonda Rhimes为制片人之一。\n步骤3：使用⟦188⟧，确认Liza Weil在该系列中饰演Bonnie Winterbottom，从而锁定系列名称。\n\n结论：该系列由Peter Nowalk创作。\n\n# 路径三：从系列制作信息反推\n\n步骤1：使用⟦118⟧⟦119⟧⟦120⟧，提取系列创作与制作信息，显示“was created by”后接创作者姓名。\n步骤2：综合⟦160⟧⟦176⟧，交叉验证Peter Nowalk为创作者，ShondaLand为制作公司。\n步骤3：使用⟦57⟧⟦188⟧，确认Bonnie Winterbottom由Liza Weil饰演，且属于该系列。\n\n结论：Peter Nowalk是Liza Weil饰演Bonnie Winterbottom的系列的创作者。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟦7⟧⟦65⟧⟨2⟩⟨3⟩⟨4⟩⟦57⟧⟦160⟧⟨118⟩⟨119⟩⟨120⟩⟨121⟩",
+    "nounCount": 345,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5905,
+      "completion_tokens": 154,
+      "total_tokens": 6059,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 145
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 720,
+      "completion_tokens": 380,
+      "total_tokens": 1100,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 208
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_2475",
+    "question": "What country is the singer from, who duets with Dave Hemingway on the song \"A Little Time\"?",
+    "expectedAnswer": "Northern Irish",
+    "predictedAnswer": "# 路径一：从歌曲到歌手国籍的直接链\n\n步骤1：使用⟦13⟧⟦22⟧⟦166⟧，提取 \"A Little Time\" 是一首歌曲（⟦22⟧/⟦166⟧），且与 \"A Little Time\"（⟦13⟧）相关，判断该歌曲即为问题所指的 \"A Little Time\"。\n\n步骤2：综合⟦8⟧⟦72⟧⟦239⟧，对比 \"a duet\"（⟦8⟧）与 \"duet\"（⟦72⟧）以及 \"vocalists\"（⟦239⟧），确认 \"A Little Time\" 是一首二重唱，由两位歌手共同演唱。\n\n步骤3：使用⟦62⟧，提取 Dave Hemingway 是其中一位演唱者，结合问题中 \"duets with Dave Hemingway\"，判断另一位歌手即为与 Dave Hemingway 对唱的歌手。\n\n步骤4：使用⟦49⟧⟦19⟧，提取 Briana Corrigan（⟦49⟧）是 \"a Northern Irish singer\"（⟦19⟧），判断该歌手来自北爱尔兰。\n\n结论：与 Dave Hemingway 对唱 \"A Little Time\" 的歌手是 Briana Corrigan，她来自北爱尔兰（Northern Ireland）。\n\n# 路径二：从歌手身份到乐队归属再到国籍\n\n步骤1：使用⟦49⟧⟦161⟧⟦188⟧，提取 Briana Corrigan（⟦49⟧）是 \"singer\"（⟦161⟧），且与 \"The Beautiful South\"（⟦188⟧）相关，判断她是 The Beautiful South 的歌手。\n\n步骤2：使用⟦47⟧⟦62⟧，提取 Dave Hemingway（⟦62⟧）属于某 \"band\"（⟦47⟧），结合⟦188⟧，判断 Dave Hemingway 与 Briana Corrigan 同属 The Beautiful South。\n\n步骤3：综合⟦13⟧⟦22⟧⟦166⟧⟦8⟧⟦72⟧，确认 \"A Little Time\" 是 The Beautiful South 的一首二重唱歌曲，由 Dave Hemingway 与 Briana Corrigan 共同演唱。\n\n步骤4：使用⟦49⟧⟦19⟧，提取 Briana Corrigan 是 \"a Northern Irish singer\"（⟦19⟧），判断其来自北爱尔兰。\n\n结论：歌手 Briana Corrigan 来自北爱尔兰，她与 Dave Hemingway 同属 The Beautiful South，并共同演唱了 \"A Little Time\"。\n\n# 路径三：交叉验证——歌曲成绩与歌手身份\n\n步骤1：使用⟦13⟧⟦132⟧⟦222⟧，提取 \"A Little Time\"（⟦13⟧）在 \"the UK Singles Chart\"（⟦222⟧）上达到 \"number\"（⟦132⟧）某位置，判断该歌曲在英国单曲榜上有成绩。\n\n步骤2：综合⟦324⟧⟦326⟧⟦327⟧⟦328⟧，提取 \"A Little Time\" 是 \"by\"（⟦326⟧）某乐队的 \"only single to reach\"（⟦328⟧）某成绩，结合⟦188⟧，判断该乐队为 The Beautiful South。\n\n步骤3：使用⟦49⟧⟦62⟧，提取 Briana Corrigan（⟦49⟧）与 Dave Hemingway（⟦62⟧）均为该乐队成员，且⟦49⟧与⟦62⟧在材料中并列出现，交叉验证两人为对唱搭档。\n\n步骤4：使用⟦49⟧⟦19⟧，提取 Briana Corrigan 是 \"a Northern Irish singer\"（⟦19⟧），判断其国籍为北爱尔兰。\n\n结论：与 Dave Hemingway 对唱 \"A Little Time\" 的歌手是 Briana Corrigan，来自北爱尔兰，该歌曲是 The Beautiful South 在英国单曲榜上唯一达到该成绩的单曲。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦49⟧⟨385⟩⟦19⟧⟨386⟩⟨387⟩⟦161⟧⟦13⟧⟨324⟩⟦22⟧⟦166⟧⟨325⟩⟨326⟩",
+    "nounCount": 369,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5999,
+      "completion_tokens": 138,
+      "total_tokens": 6137,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 239
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 658,
+      "completion_tokens": 889,
+      "total_tokens": 1547,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 658
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_3669",
+    "question": "Viscount Yamaji Motoharu was a general in the early Imperial Japanese Army which belonged to which E",
+    "expectedAnswer": "Empire of Japan",
+    "predictedAnswer": "# 路径一：直接实体链推理\n\n步骤1：使用⟦168⟧，提取 \"Viscount Yamaji Motoharu\" 的身份信息，判断其为 a Japanese general（⟦18⟧）。\n\n步骤2：综合⟦122⟧⟦64⟧，确认 Yamaji Motoharu 是 the early Imperial Japanese Army 中的 general。\n\n步骤3：使用⟦124⟧，提取 the early Imperial Japanese Army 隶属于 the Empire。\n\n结论：Viscount Yamaji Motoharu 所属的 early Imperial Japanese Army 属于 the Empire（⟦124⟧），即大日本帝国。\n\n---\n\n# 路径二：机构名称与帝国实体交叉验证\n\n步骤1：使用⟦5⟧⟦13⟧，提取 \"IJA\" 与 \"大日本帝國陸軍\" 的对应关系，确认 Imperial Japanese Army 即大日本帝國陸軍。\n\n步骤2：综合⟦2⟧⟦128⟧，提取 \"Dai-Nippon Teikoku Rikugun\" 与 \"the Greater Japanese Empire\" 的关联，确认该军队隶属于 Greater Japanese Empire。\n\n步骤3：综合⟦150⟧⟦83⟧，交叉验证 the official ground-based armed force 与 -based armed force 均指向同一帝国实体。\n\n结论：Imperial Japanese Army 隶属于 the Greater Japanese Empire（⟦128⟧），即大日本帝国。\n\n---\n\n# 路径三：时间线与历史背景综合推理\n\n步骤1：使用⟦86⟧，提取该军队存在时间为 from 1868 to 1945，对应日本帝国时期。\n\n步骤2：综合⟦78⟧⟦124⟧，确认 Japan 与 the Empire 在此语境下指向同一政治实体。\n\n步骤3：综合⟦168⟧⟦236⟧⟦237⟧，提取 Yamaji Motoharu 的生卒年（1841–1897），其活跃期完全落在 1868–1945 时间范围内，进一步确认其所属军队的帝国归属。\n\n结论：综合时间线与实体信息，Viscount Yamaji Motoharu 所属的 early Imperial Japanese Army 属于 the Empire（⟦124⟧），即大日本帝国。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦168⟧⟨235⟩⟦4⟧⟨236⟩⟦92⟧⟨237⟩⟦18⟧⟦64⟧⟨238⟩⟨239⟩⟦122⟧⟨240⟩",
+    "nounCount": 239,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 4197,
+      "completion_tokens": 145,
+      "total_tokens": 4342,
+      "prompt_tokens_details": {
+        "cached_tokens": 3968
+      },
+      "prompt_cache_hit_tokens": 3968,
+      "prompt_cache_miss_tokens": 229
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 736,
+      "completion_tokens": 471,
+      "total_tokens": 1207,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 224
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_6981",
+    "question": "What part of Australia is Alice River and Rupertswood in?",
+    "expectedAnswer": "Victoria",
+    "predictedAnswer": "# 路径一：基于地名消歧的直接定位\n\n步骤1：使用⟦18⟧，提取“Alice River”这一地名，判断其可能指代多个地理实体（河流、郊区等）。\n\n步骤2：综合⟦12⟧⟦79⟧，对比“Alice River”作为河流的定位——位于Far North Queensland，即澳大利亚昆士兰州北部。\n\n步骤3：综合⟦14⟧⟦168⟧⟦223⟧，交叉验证“Alice River”作为郊区的定位——位于Townsville（汤斯维尔），属于North Queensland⟦132⟧。\n\n步骤4：使用⟦154⟧⟦171⟧⟦226⟧，提取“Rupertswood”的定位——位于Sunbury, Victoria（维多利亚州桑伯里）。\n\n结论：Alice River位于澳大利亚昆士兰州北部（Far North Queensland / North Queensland），Rupertswood位于澳大利亚维多利亚州（Victoria）。\n\n---\n\n# 路径二：基于Rupertswood历史渊源的反向验证\n\n步骤1：使用⟦9⟧⟦121⟧，提取“Rupertswood”是一座豪宅和乡村庄园（a mansion and country estate）。\n\n步骤2：综合⟦88⟧⟦96⟧⟦158⟧，交叉验证“Rupertswood”是Sir Rupert Clarke的祖宅（his ancestral home），进一步确认其历史地理背景。\n\n步骤3：综合⟦125⟧⟦135⟧⟦201⟧，提取“Rupertswood”位于Melbourne（墨尔本）郊外（outskirts），而墨尔本属于Victoria⟦226⟧。\n\n步骤4：使用⟦152⟧⟦174⟧，对比“The Alice River”作为河流的定位，确认其与Rupertswood分属不同州。\n\n结论：Rupertswood位于维多利亚州墨尔本郊外；Alice River位于昆士兰州北部。两者分属澳大利亚不同州。\n\n---\n\n# 路径三：基于“Alice River”多义性的交叉消歧\n\n步骤1：综合⟦18⟧⟦30⟧，提取“Alice River”在澳大利亚有多处指代，需消歧。\n\n步骤2：综合⟦12⟧⟦79⟧，确认其一为Far North Queensland的河流。\n\n步骤3：综合⟦14⟧⟦168⟧⟦181⟧⟦223⟧，确认其二为Townsville的郊区，属于the City of Townsville，位于North Queensland⟦132⟧。\n\n步骤4：使用⟦154⟧⟦171⟧⟦226⟧，提取Rupertswood位于Sunbury, Victoria，与Alice River的昆士兰定位形成对比。\n\n结论：无论“Alice River”指河流还是郊区，均位于昆士兰州北部；Rupertswood位于维多利亚州。两者分属澳大利亚东北部和东南部。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟦12⟧⟨2⟩⟨3⟩⟨4⟩⟦79⟧⟨5⟩⟨6⟩⟦179⟧⟦30⟧⟦152⟧⟦174⟧",
+    "nounCount": 299,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5220,
+      "completion_tokens": 315,
+      "total_tokens": 5535,
+      "prompt_tokens_details": {
+        "cached_tokens": 4992
+      },
+      "prompt_cache_hit_tokens": 4992,
+      "prompt_cache_miss_tokens": 228
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1138,
+      "completion_tokens": 625,
+      "total_tokens": 1763,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1138
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_930",
+    "question": "Victor Varnada directed Twisted Fortune, which starred which brother of Eddie Murphy?",
+    "expectedAnswer": "Charlie Murphy",
+    "predictedAnswer": "# 路径一：从电影作品直接定位\n\n步骤1：使用⟦219⟧，提取 *Twisted Fortune* 这一电影条目，确认其存在及关联信息。\n\n步骤2：综合⟦219⟧⟦11⟧⟦70⟧⟦56⟧，提取该电影中由 Charlie Murphy 饰演的角色——一个笨拙的小偷（a bumbling small-time crook）。\n\n步骤3：使用⟦203⟧，提取 Charlie Murphy 被明确标注为“the older brother”（哥哥）。\n\n结论：Victor Varnada 执导的 *Twisted Fortune* 由 Eddie Murphy 的哥哥 Charlie Murphy 主演。\n\n---\n\n# 路径二：从人物关系交叉验证\n\n步骤1：使用⟦55⟧⟦56⟧，提取 Charlie Murphy 的全名 Charles Quinton Murphy，确认其身份。\n\n步骤2：综合⟦47⟧⟦203⟧，提取 Charlie Murphy 与 Eddie Murphy 的兄弟关系，其中⟦203⟧明确其为“the older brother”。\n\n步骤3：综合⟦219⟧⟦56⟧，将 *Twisted Fortune* 与 Charlie Murphy 关联，确认其出演该片。\n\n结论：Eddie Murphy 的哥哥是 Charlie Murphy，而 Charlie Murphy 主演了 *Twisted Fortune*。\n\n---\n\n# 路径三：从演员作品列表反向确认\n\n步骤1：使用⟦56⟧，提取 Charlie Murphy 的演员条目，确认其参演作品包括 *Twisted Fortune*。\n\n步骤2：综合⟦219⟧⟦11⟧，提取 *Twisted Fortune* 的剧情信息，其中 Charlie Murphy 饰演一个笨拙的小偷。\n\n步骤3：使用⟦203⟧，确认 Charlie Murphy 是 Eddie Murphy 的哥哥。\n\n结论：综合电影条目与人物关系，*Twisted Fortune* 的主演是 Eddie Murphy 的哥哥 Charlie Murphy。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦219⟧⟨1⟩⟦9⟧⟨2⟩⟨3⟩⟦11⟧⟨5⟩⟦70⟧⟨4⟩⟨6⟩⟦56⟧⟨7⟩",
+    "nounCount": 327,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5469,
+      "completion_tokens": 294,
+      "total_tokens": 5763,
+      "prompt_tokens_details": {
+        "cached_tokens": 5248
+      },
+      "prompt_cache_hit_tokens": 5248,
+      "prompt_cache_miss_tokens": 221
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1143,
+      "completion_tokens": 407,
+      "total_tokens": 1550,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1143
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_4317",
+    "question": "The largest lake in New Hampshire sits how many vertical feet lower than Lake Kanasatka?",
+    "expectedAnswer": "nine vertical feet",
+    "predictedAnswer": "# 路径一：直接定位与数值比较\n\n步骤1：使用⟦268⟧，提取 Lake Winnipesaukee 位于 New Hampshire，结合占位符 ⟨1⟩⟨2⟩⟨3⟩⟨4⟩⟨5⟩ 判断其为该州最大湖泊。\n步骤2：综合⟦225⟧⟦223⟧，对比 Lake Winnipesaukee 与 Lake Kanasatka 的拓扑链，发现两者均关联 Lakes Region，且 Lake Kanasatka 的链中出现 ⟦195⟧（half）与 ⟦225⟧（Lake Winnipesaukee），暗示两者存在高度差关系。\n步骤3：使用⟦195⟧，提取“half”这一数值线索，结合 Lake Kanasatka 链中 ⟨689⟩“is located one-”与 ⟨691⟩“north of and nine vertical”推断垂直落差为 9 英尺的一半，即 4.5 英尺。\n\n结论：Lake Winnipesaukee 比 Lake Kanasatka 低约 4.5 垂直英尺。\n\n# 路径二：交叉验证湖泊身份与落差描述\n\n步骤1：使用⟦440⟧，提取“the largest lake”这一描述，结合⟦268⟧确认其指代 Lake Winnipesaukee 位于 New Hampshire。\n步骤2：综合⟦223⟧⟦225⟧，对比 Lake Kanasatka 与 Lake Winnipesaukee 的拓扑链，发现 Lake Kanasatka 链中明确出现 ⟦225⟧（Lake Winnipesaukee）以及 ⟨691⟩“north of and nine vertical”，表明 Lake Kanasatka 位于 Lake Winnipesaukee 以北且垂直高出 9 英尺。\n步骤3：使用⟦195⟧，提取“half”修饰该 9 英尺落差，计算 9 ÷ 2 = 4.5。\n\n结论：Lake Winnipesaukee 比 Lake Kanasatka 低 4.5 垂直英尺。\n\n# 路径三：排除干扰项与单位确认\n\n步骤1：使用⟦170⟧，提取“feet”作为高度单位，确认问题中的“vertical feet”对应同一单位体系。\n步骤2：综合⟦223⟧⟦225⟧⟦195⟧，交叉验证 Lake Kanasatka 链中 ⟨691⟩“nine vertical”与 ⟦195⟧“half”的组合，排除其他湖泊（如 Tustumena Lake、Lake Beseck）的干扰，锁定唯一高度差关系。\n步骤3：使用⟦439⟧，提取“the Lakes Region”作为地理背景，确认两湖同属该区域，高度差描述具有地理一致性。\n\n结论：Lake Winnipesaukee 比 Lake Kanasatka 低 4.5 垂直英尺。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦268⟧⟨6⟩⟨7⟩⟦439⟧⟦225⟧⟦440⟧⟦517⟧",
+    "nounCount": 947,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 14313,
+      "completion_tokens": 194,
+      "total_tokens": 14507,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 14313
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 862,
+      "completion_tokens": 603,
+      "total_tokens": 1465,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 862
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_1520",
+    "question": "Vestfold and Telemark each border what other Norwegian county?",
+    "expectedAnswer": "Buskerud",
+    "predictedAnswer": "# 路径一：直接边界提取\n\n步骤1：使用⟦216⟧，提取 Vestfold 的边界信息，其与 ⟦38⟧（Buskerud）接壤。\n\n步骤2：使用⟦147⟧，提取 Telemark 的边界信息，其同样与 ⟦38⟧（Buskerud）接壤。\n\n结论：Vestfold 和 Telemark 共同接壤的挪威郡是 Buskerud（⟦38⟧）。\n\n# 路径二：交叉验证边界列表\n\n步骤1：综合⟦216⟧⟦12⟧⟦38⟧，Vestfold 的相邻郡包括 Buskerud 等多个郡。\n\n步骤2：综合⟦147⟧⟦73⟧⟦126⟧⟦28⟧，Telemark 的相邻郡包括 Hordaland、Rogaland、Aust-Agder 等。\n\n步骤3：对比两组边界列表，取交集，唯一共同出现的郡为 ⟦38⟧（Buskerud）。\n\n结论：通过交叉比对两个郡的完整边界列表，共同接壤的郡确认为 Buskerud。\n\n# 路径三：地理方位综合推断\n\n步骤1：使用⟦216⟧，Vestfold 位于挪威东南部，其西侧与 Buskerud 接壤。\n\n步骤2：使用⟦147⟧，Telemark 位于 Vestfold 以西，其东侧同样与 Buskerud 接壤。\n\n步骤3：综合⟦216⟧⟦147⟧，两郡在地理上均与 Buskerud 相邻，形成连续边界。\n\n结论：Buskerud 是 Vestfold 与 Telemark 共同接壤的挪威郡。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨145⟩⟨146⟩⟨147⟩⟨148⟩⟨149⟩⟨150⟩⟦73⟧⟨151⟩⟦126⟧⟨152⟩⟦28⟧⟨153⟩",
+    "nounCount": 423,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6244,
+      "completion_tokens": 262,
+      "total_tokens": 6506,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6244
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 930,
+      "completion_tokens": 368,
+      "total_tokens": 1298,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 930
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_7097",
+    "question": "The actor of Professor Sprout in \"Harry Potter\" acted as a mother in a sitcom. In that sitcom, what ",
+    "expectedAnswer": "Fran",
+    "predictedAnswer": "# 路径一：从演员到角色再到剧集\n\n步骤1：使用⟦159⟧，提取 Miriam Margolyes 在《哈利·波特》系列中饰演 Professor Sprout 这一角色信息。\n步骤2：综合⟦129⟧⟦31⟧⟦48⟧，确认 Miriam Margolyes 是一位英国角色女演员，她在某部情景喜剧中饰演了一个母亲角色。\n步骤3：使用⟦17⟧⟦180⟧，提取该情景喜剧是一部四集英国情景喜剧（即《Bucket》）。\n步骤4：综合⟦67⟧⟦20⟧⟦46⟧⟦237⟧，在该情景喜剧中，母亲有一个女儿，剧情围绕母亲的“遗愿清单”展开。\n步骤5：使用⟦128⟧，提取女儿的名字为 Mim。\n\n结论：在该情景喜剧中，女儿的名字是 Mim。\n\n# 路径二：从剧集信息反推角色关系\n\n步骤1：使用⟦17⟧⟦186⟧⟦188⟧，提取《Bucket》是一部四集英国情景喜剧。\n步骤2：综合⟦189⟧⟦20⟧⟦67⟧，该剧讲述的是关于一位母亲和她的女儿的故事。\n步骤3：使用⟦22⟧⟦283⟧⟦165⟧，剧情涉及一场公路旅行（road trip），是母亲遗愿清单上的事项。\n步骤4：综合⟦52⟧⟦84⟧⟦85⟧⟦128⟧，Miriam Margolyes 饰演 Fran 的母亲，而女儿 Fran 由 Frog Stone 饰演，但剧中女儿角色的名字是 Mim。\n\n结论：该情景喜剧中女儿的名字是 Mim。\n\n# 路径三：交叉验证演员与角色\n\n步骤1：使用⟦129⟧⟦399⟧⟦31⟧，确认 Miriam Margolyes 是英国角色女演员，出生于1941年。\n步骤2：综合⟦150⟧⟦159⟧，她在《哈利·波特》系列中饰演 Professor Sprout。\n步骤3：使用⟦17⟧⟦180⟧⟦48⟧，她在情景喜剧《Bucket》中饰演一位母亲角色。\n步骤4：综合⟦67⟧⟦128⟧⟦237⟧，该剧中女儿的名字是 Mim，剧情围绕母亲的遗愿清单展开。\n\n结论：综合多条材料交叉验证，女儿的名字是 Mim。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦129⟧⟨399⟩⟦31⟧⟦48⟧⟨401⟩⟦27⟧⟨400⟩⟨402⟩⟦290⟧⟦291⟧⟨403⟩⟦35⟧",
+    "nounCount": 485,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7565,
+      "completion_tokens": 459,
+      "total_tokens": 8024,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7565
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1549,
+      "completion_tokens": 527,
+      "total_tokens": 2076,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1549
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_5764",
+    "question": "The Dukes of Hazzard was inspired by the 1975 film starring whom?",
+    "expectedAnswer": "James Mitchum",
+    "predictedAnswer": "# 路径一：直接溯源链\n\n步骤1：使用⟦223⟧，提取\"The Dukes\"这一标题片段，判断其指向《The Dukes of Hazzard》这一作品。\n\n步骤2：综合⟦395⟧⟦396⟧⟦397⟧⟦398⟧，提取\"The series was inspired by\"这一关键表述，确认该系列剧的灵感来源是一部1975年的电影。\n\n步骤3：使用⟦219⟧，提取\"the 1975 film\"这一指称，锁定目标电影。\n\n步骤4：综合⟦147⟧⟦148⟧，提取\"Mitchum\"与\"Moonrunners\"的关联，判断该1975年电影为《Moonrunners》，其主演为Mitchum家族成员。\n\n结论：The Dukes of Hazzard 的灵感来源于1975年电影《Moonrunners》，该片由Mitchum家族成员主演。\n\n---\n\n# 路径二：主演姓名交叉验证\n\n步骤1：使用⟦122⟧，提取\"James Mitchum\"这一人名，判断其为《Moonrunners》的主演之一。\n\n步骤2：综合⟦147⟧⟦186⟧，提取\"Mitchum\"与\"Robert Mitchum\"的关联，确认Mitchum家族在《Moonrunners》中的参与。\n\n步骤3：综合⟦216⟧⟦219⟧，提取\"had co-starred with...in...the 1975 film\"这一表述，交叉验证1975年电影中Mitchum家族成员的共同出演关系。\n\n步骤4：使用⟦148⟧，提取\"Moonrunners\"作为电影标题，与⟦219⟧的\"the 1975 film\"形成对应。\n\n结论：1975年电影《Moonrunners》由James Mitchum主演，且Robert Mitchum亦有参与，Mitchum家族是该片的核心主演阵容。\n\n---\n\n# 路径三：主题特征综合支撑\n\n步骤1：使用⟦49⟧，提取\"bootleg liquor\"这一主题元素，判断其与《Moonrunners》及《The Dukes of Hazzard》的关联。\n\n步骤2：综合⟦50⟧⟦149⟧⟦150⟧，提取\"bootleggers\"、\"moonshine\"、\"moonshine-running bootleggers\"等关键词，确认两部作品共享私酒贩运的主题。\n\n步骤3：综合⟦88⟧⟦57⟧，提取\"fast cars\"与\"cars\"的关联，判断飞车追逐是两部作品的共同特征。\n\n步骤4：综合⟦91⟧⟦27⟧，提取\"federal agents\"与\"agents\"的关联，确认联邦探员追捕是两部作品的共同叙事元素。\n\n步骤5：综合⟦222⟧⟦256⟧，提取\"which also focused upon\"与\"the similar drive-in favorite 'Thunder Road'\"的表述，确认《Moonrunners》与《The Dukes of Hazzard》在主题上的高度相似性。\n\n结论：通过主题特征（私酒、飞车、联邦探员追捕）的综合比对，《The Dukes of Hazzard》与1975年电影《Moonrunners》高度一致，而该片由Mitchum家族主演。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦223⟧⟨377⟩⟦108⟧⟨378⟩⟦29⟧⟦25⟧⟨380⟩⟦70⟧⟨381⟩⟦215⟧⟨382⟩⟨379⟩",
+    "nounCount": 391,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6595,
+      "completion_tokens": 363,
+      "total_tokens": 6958,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6595
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1325,
+      "completion_tokens": 704,
+      "total_tokens": 2029,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1325
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_1866",
+    "question": "Olivia DeJonge starred in an American horror film directed by Shyamalan called what",
+    "expectedAnswer": "The Visit",
+    "predictedAnswer": "# 路径一：从演员作品列表直接定位\n\n步骤1：使用⟦150⟧，提取 Olivia DeJonge 的演艺经历信息，其中提到她 known for playing ⟦189⟧ in ⟦208⟧，以及出演 ⟦47⟧ in ⟦7⟧。\n\n步骤2：综合⟦150⟧⟦7⟧，确认 Olivia DeJonge 出演了名为 \"The Visit\" 的作品。\n\n步骤3：使用⟦212⟧⟦16⟧⟦114⟧⟦132⟧，提取 \"The Visit\" 是一部 2015 年美国电影，由 M. Night Shyamalan 编剧并执导。\n\n结论：Olivia DeJonge 主演的、由 Shyamalan 执导的美国恐怖片是 **The Visit**。\n\n---\n\n# 路径二：从导演作品反向验证\n\n步骤1：使用⟦132⟧，提取 M. Night Shyamalan 的信息，确认其为导演。\n\n步骤2：使用⟦212⟧⟦16⟧⟦109⟧⟦110⟧⟦114⟧⟦132⟧，提取 \"The Visit\" 是一部 2015 年美国恐怖片，由 M. Night Shyamalan 编剧并执导。\n\n步骤3：综合⟦150⟧⟦7⟧，交叉验证 Olivia DeJonge 出演了 \"The Visit\"，与导演信息吻合。\n\n结论：Shyamalan 执导的恐怖片为 **The Visit**，Olivia DeJonge 参演其中，答案一致。\n\n---\n\n# 路径三：排除法与其他作品对比\n\n步骤1：使用⟦150⟧，提取 Olivia DeJonge 的其他作品信息，包括 ⟦208⟧（即 ⟦174⟧）和 ⟦7⟧。\n\n步骤2：使用⟦132⟧，确认 Shyamalan 为导演；综合⟦212⟧⟦16⟧⟦114⟧，确认 Shyamalan 执导的作品是 \"The Visit\" 而非其他。\n\n步骤3：对比⟦150⟧中提到的其他作品（如 ⟦174⟧），均非 Shyamalan 执导，排除干扰项。\n\n结论：唯一符合\"Olivia DeJonge 主演 + Shyamalan 执导 + 美国恐怖片\"三个条件的作品是 **The Visit**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦212⟧⟨109⟩⟦16⟧⟨110⟩⟨111⟩⟨113⟩⟨112⟩⟨114⟩⟨115⟩⟨116⟩⟦77⟧⟨117⟩",
+    "nounCount": 325,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5511,
+      "completion_tokens": 184,
+      "total_tokens": 5695,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5511
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 814,
+      "completion_tokens": 503,
+      "total_tokens": 1317,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 814
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_6789",
+    "question": "What is the name of the basketball team that trained under assistant coach, Steven Michael Henson at",
+    "expectedAnswer": "Oklahoma Sooners men's basketball",
+    "predictedAnswer": "# 路径一：从主叙述链提取球队名称\n\n步骤1：使用⟦171⟧，提取人物全名 Steven Michael Henson，确认其为退役美国职业篮球运动员。\n\n步骤2：综合⟦28⟧⟦214⟧，判断 Henson 是 the Milwaukee Bucks 的助理篮球教练。\n\n步骤3：综合⟦216⟧⟦217⟧⟦218⟧⟦219⟧，提取他在 the NCAA Tournament 期间于 University of Oklahoma 担任助理教练。\n\n步骤4：使用⟦160⟧，提取 Sooners 这一球队名称，结合⟦225⟧⟦232⟧确认其与 University of Oklahoma 的关联。\n\n结论：该篮球队名称为 **Sooners**（即 Oklahoma Sooners）。\n\n---\n\n# 路径二：通过教练任职与球队归属交叉验证\n\n步骤1：使用⟦107⟧，提取 Lon Kruger 为 Henson 的前任大学教练。\n\n步骤2：综合⟦91⟧⟦216⟧，判断 Henson 在 the NCAA Tournament 期间于其前大学教练手下担任助理教练。\n\n步骤3：综合⟦123⟧⟦160⟧，交叉验证 Oklahoma 与 Sooners 的对应关系，确认 Sooners 是 University of Oklahoma 的球队。\n\n步骤4：使用⟦232⟧，提取 the University 与 Sooners 的关联，确认球队归属。\n\n结论：在 University of Oklahoma 接受助理教练 Steven Michael Henson 训练的篮球队是 **Sooners**。\n\n---\n\n# 路径三：通过任职时间线与球队名称综合支撑\n\n步骤1：综合⟦224⟧⟦225⟧⟦226⟧，提取 2016 年 4 月 1 日 Henson 被聘为助理教练。\n\n步骤2：综合⟦229⟧⟦230⟧，提取其任职地点为 University of Oklahoma 的篮球队。\n\n步骤3：使用⟦160⟧，提取 Sooners 作为该球队的昵称，结合⟦232⟧确认 the University 与 Sooners 的从属关系。\n\n步骤4：综合⟦225⟧⟦232⟧，确认 Sooners 的退出（⟦225⟧）与 the University 的关联，锁定球队名称。\n\n结论：该篮球队名称为 **Sooners**（Oklahoma Sooners）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦171⟧⟨205⟩⟦19⟧⟨207⟩⟨206⟩⟨208⟩⟦214⟧⟨209⟩⟦189⟧⟦147⟧⟨210⟩⟨211⟩",
+    "nounCount": 469,
+    "score": 0.5,
+    "recallUsage": {
+      "prompt_tokens": 7133,
+      "completion_tokens": 272,
+      "total_tokens": 7405,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7133
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1093,
+      "completion_tokens": 510,
+      "total_tokens": 1603,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1093
+    },
+    "batch": "070-080"
+  },
+  {
+    "qid": "hotpot_282",
+    "question": "In what month was the relief first officer of the flight that crashed on its way to Cairo with a sto",
+    "expectedAnswer": "February",
+    "predictedAnswer": "# 路径一：通过航班与人员身份定位出生月份\n\n步骤1：使用⟦109⟧⟦3⟧⟦181⟧，提取“EgyptAir Flight 990 (MS990/MSR990)”这一航班信息，确认该航班即为飞往开罗、经停纽约的失事航班。\n\n步骤2：综合⟦276⟧⟦77⟧⟨194⟩⟨195⟩⟨196⟩⟨197⟩⟦106⟧⟦38⟧⟨198⟩⟨199⟩⟦288⟧⟨201⟩⟨200⟩⟨202⟩，提取官方可能原因中明确指出“the relief first officer”实施了“deliberate action”，从而确认该航班的relief first officer身份。\n\n步骤3：使用⟦129⟧⟨120⟩⟨121⟩⟨122⟩⟨123⟩⟨124⟩⟨125⟩⟦1⟧⟨126⟩⟨127⟩⟦5⟧⟨128⟩⟨129⟩⟦23⟧⟨130⟩⟨131⟩⟦108⟧⟨132⟩⟦15⟧⟨133⟩⟨134⟩⟦262⟧⟨135⟩，提取Gameel Al-Batouti的出生日期信息，其中⟦5⟧明确为“2 February”，即出生月份为二月。\n\n结论：该航班（EgyptAir Flight 990）的relief first officer是Gameel Al-Batouti，其出生月份为二月（February）。\n\n# 路径二：通过姓名与职务交叉验证出生月份\n\n步骤1：使用⟦129⟧⟦130⟧⟦332⟧⟦333⟧，提取Gameel Al-Batouti（Gamil El Batouti / جميل البطوطي）的姓名信息，确认其身份。\n\n步骤2：综合⟦23⟧⟦15⟧⟦262⟧，提取其曾为“a pilot”和“a former officer”以及“the Egyptian Air Force”的背景，确认其航空职务经历。\n\n步骤3：综合⟦288⟧⟦201⟧⟦200⟧，提取“the relief first officer”这一职务，与路径一中的航班信息交叉验证，确认Gameel Al-Batouti即为EgyptAir Flight 990的relief first officer。\n\n步骤4：使用⟦5⟧，提取“2 February”这一出生日期信息，确定其出生月份为二月。\n\n结论：Gameel Al-Batouti作为EgyptAir Flight 990的relief first officer，出生于二月（February）。\n\n# 路径三：通过航班航线与人员职务综合定位\n\n步骤1：综合⟦109⟧⟦3⟧⟦181⟧⟨169⟩⟨170⟩⟨171⟩⟨172⟩⟨173⟩⟦71⟧⟨174⟩⟨175⟩⟦167⟧⟨176⟩⟦107⟧⟨177⟩⟦34⟧⟦240⟧⟨178⟩⟨179⟩⟦159⟧⟨180⟩⟨181⟩，提取航班从洛杉矶国际机场出发，经停纽约肯尼迪国际机场，最终飞往开罗国际机场的航线信息，确认该航班为EgyptAir Flight 990。\n\n步骤2：综合⟦276⟧⟦106⟧⟦38⟧⟦288⟧，提取官方可能原因中“the relief first officer”的“deliberate action”，确认该航班relief first officer的身份。\n\n步骤3：使用⟦129⟧⟨120⟩⟨121⟩⟨122⟩⟨123⟩⟨124⟩⟨125⟩⟦1⟧⟨126⟩⟨127⟩⟦5⟧⟨128⟩⟨129⟩⟦23⟧⟨130⟩⟨131⟩⟦108⟧⟨132⟩⟦15⟧⟨133⟩⟨134⟩⟦262⟧⟨135⟩，提取Gameel Al-Batouti的出生日期为“2 February 1940 – 31 October 1999”，确认其出生月份为二月。\n\n结论：该航班relief first officer为Gameel Al-Batouti，出生于二月（February）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦129⟧⟨120⟩⟦2⟧⟨121⟩⟦333⟧⟨122⟩⟦332⟧⟨123⟩⟦130⟧⟨124⟩⟦1⟧⟨125⟩",
+    "nounCount": 513,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8057,
+      "completion_tokens": 306,
+      "total_tokens": 8363,
+      "prompt_tokens_details": {
+        "cached_tokens": 7808
+      },
+      "prompt_cache_hit_tokens": 7808,
+      "prompt_cache_miss_tokens": 249
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1236,
+      "completion_tokens": 867,
+      "total_tokens": 2103,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1236
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_1796",
+    "question": "What party was Johan Henrik Deuntzer a part of before the party that translates to the \"Radical Left",
+    "expectedAnswer": "Liberal \"Venstre\" party",
+    "predictedAnswer": "# 路径一：通过政党演变时间线推理\n\n步骤1：使用⟦93⟧⟦101⟧⟦110⟧⟦12⟧，提取 Johan Henrik Deuntzer（1845年5月20日－1918年11月16日）是一位丹麦政治家，其政治生涯跨越多个政党。\n\n步骤2：使用⟦185⟧⟦156⟧⟦157⟧，提取 Deuntzer 属于自由党\"Venstre\"，直到1905年他加入了另一个政党。\n\n步骤3：使用⟦171⟧⟦104⟧，提取丹麦社会自由党（Danish Social Liberal Party）的成员信息，该党即\"Radical Left\"的对应翻译。\n\n步骤4：综合⟦157⟧⟦171⟧，Deuntzer 在1905年离开 Venstre 后加入的正是丹麦社会自由党（Radical Left），因此在此之前他属于 Venstre。\n\n结论：Johan Henrik Deuntzer 在加入\"Radical Left\"（丹麦社会自由党）之前，属于自由党\"Venstre\"。\n\n---\n\n# 路径二：通过内阁与政党关联交叉验证\n\n步骤1：使用⟦159⟧⟦169⟧⟦51⟧，提取1901年丹麦议会选举后，Johan Henrik Deuntzer 成为丹麦首届自由政府的内阁主席。\n\n步骤2：使用⟦185⟧，提取 Deuntzer 所属的\"Venstre\"（自由党）是当时组建政府的政党。\n\n步骤3：使用⟦157⟧⟦171⟧，交叉验证 Deuntzer 直到1905年才加入丹麦社会自由党（即\"Radical Left\"）。\n\n步骤4：综合⟦51⟧⟦185⟧⟦157⟧，Deuntzer 在1901年领导自由政府时属于 Venstre，1905年才转入社会自由党。\n\n结论：Deuntzer 在加入\"Radical Left\"之前是 Venstre（自由党）成员。\n\n---\n\n# 路径三：通过\"Radical Left\"名称溯源推理\n\n步骤1：使用⟦171⟧，提取\"Danish Social Liberal Party\"这一政党名称。\n\n步骤2：使用⟦119⟧⟦117⟧，提取该党与\"people\"和\"party\"相关的信息，确认其即通常译为\"Radical Left\"的丹麦政党。\n\n步骤3：使用⟦157⟧，提取 Deuntzer 于1905年加入该党，此前属于另一政党。\n\n步骤4：使用⟦185⟧，提取该另一政党为自由党\"Venstre\"。\n\n结论：Johan Henrik Deuntzer 在加入译为\"Radical Left\"的丹麦社会自由党之前，是自由党\"Venstre\"的成员。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦93⟧⟨149⟩⟦101⟧⟨150⟩⟦110⟧⟨151⟩⟦12⟧⟦124⟧⟨152⟩⟨153⟩⟨154⟩⟨155⟩",
+    "nounCount": 299,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 5198,
+      "completion_tokens": 320,
+      "total_tokens": 5518,
+      "prompt_tokens_details": {
+        "cached_tokens": 4992
+      },
+      "prompt_cache_hit_tokens": 4992,
+      "prompt_cache_miss_tokens": 206
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1211,
+      "completion_tokens": 594,
+      "total_tokens": 1805,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1211
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_5987",
+    "question": "What else was Baghdad known as during the Abbasid Caliphate?",
+    "expectedAnswer": "the City of Peace",
+    "predictedAnswer": "# 路径一：基于首都地位的称谓推理\n\n步骤1：使用⟦90⟧，提取“capital”这一属性，判断Baghdad在阿拔斯王朝时期具有首都地位。\n\n步骤2：综合⟦311⟧⟦402⟧，对比“the Abbasid capital”与“the then capital”两种表述，交叉验证Baghdad作为阿拔斯王朝首都的身份一致性。\n\n步骤3：使用⟦264⟧，提取“seat”一词，判断Baghdad也被称为阿拔斯王朝的权力中心/所在地。\n\n结论：Baghdad在阿拔斯哈里发时期被称为“the Abbasid capital”（阿拔斯首都）以及“the then capital”（当时的首都），并被视为政权的“seat”（中心所在地）。\n\n# 路径二：基于城市名称与地理实体的推理\n\n步骤1：使用⟦80⟧，提取“Baghdad”作为城市名称，判断其为阿拔斯王朝的核心城市。\n\n步骤2：使用⟦100⟧，提取“city”这一通用属性，综合⟦80⟧⟦100⟧，确认Baghdad是一座城市。\n\n步骤3：综合⟦345⟧，对比“the City”这一表述，判断在特定语境下Baghdad也被简称为“the City”（这座城市）。\n\n结论：Baghdad在阿拔斯哈里发时期也被称为“the City”（这座城市），作为其首都城市的简称。\n\n# 路径三：基于历史事件语境的称谓推理\n\n步骤1：使用⟦218⟧，提取“Peace”一词，判断其可能与Baghdad的称号相关（如“City of Peace”）。\n\n步骤2：综合⟦90⟧⟦402⟧，对比“capital”与“the then capital”，交叉验证Baghdad在阿拔斯王朝时期的政治地位。\n\n步骤3：使用⟦396⟧，提取“the stories”，判断Baghdad在文学语境中与《一千零一夜》等故事相关联，可能被称为故事之城。\n\n结论：Baghdad在阿拔斯哈里发时期还可能被称为“Peace”（和平之城）以及与“the stories”（故事）相关的称号，反映其作为文化中心的地位。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨103⟩⟨104⟩⟦396⟧⟦345⟧⟦218⟧⟦311⟧⟨314⟩⟨315⟩⟦90⟧⟦80⟧⟦402⟧⟦90⟧",
+    "nounCount": 609,
+    "score": 1,
+    "recallUsage": {
+      "prompt_tokens": 10150,
+      "completion_tokens": 101,
+      "total_tokens": 10251,
+      "prompt_tokens_details": {
+        "cached_tokens": 9984
+      },
+      "prompt_cache_hit_tokens": 9984,
+      "prompt_cache_miss_tokens": 166
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 535,
+      "completion_tokens": 450,
+      "total_tokens": 985,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 535
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_2876",
+    "question": "Who is the Chief Executive Officer of the corporation that owns Space Dev?",
+    "expectedAnswer": "Fatih Ozmen",
+    "predictedAnswer": "# 路径一：通过所有权链直接定位 CEO\n\n步骤1：使用⟦313⟧，提取 SpaceDev 这一实体，确认其为问题中提到的 \"Space Dev\"。\n步骤2：综合⟦313⟧⟦331⟧⟦180⟧，SpaceDev 的 \"spaceflight and microsatellite work\" 属于 \"Space Systems Business\" 板块，而该板块的归属指向 Sierra Nevada Corporation。\n步骤3：使用⟦308⟧，确认 Sierra Nevada Corporation 是拥有 SpaceDev 的母公司。\n步骤4：综合⟦78⟧⟦124⟧⟦129⟧，提取 Sierra Nevada Corporation 的 CEO 信息，即 Eren Ozmen 和 Fatih Ozmen 共同担任该职务。\n\n结论：SpaceDev 的母公司 Sierra Nevada Corporation 的 CEO 是 Eren Ozmen 和 Fatih Ozmen（两人共同担任）。\n\n# 路径二：通过 SNC 领导层交叉验证\n\n步骤1：使用⟦310⟧，提取 SNC 这一缩写，确认其与 Sierra Nevada Corporation 的对应关系。\n步骤2：综合⟦308⟧⟦310⟧⟦191⟧⟦368⟧，SNC 即 Sierra Nevada Corporation，其 leadership 信息在材料中多次出现。\n步骤3：综合⟦124⟧⟦129⟧⟦274⟧，提取领导层具体人物：Eren Ozmen 担任 president，Fatih Ozmen 也在领导层中，两人均为 CEO。\n步骤4：使用⟦313⟧，确认 SpaceDev 被 Sierra Nevada Corporation 拥有，从而将 CEO 归属到 SNC 的领导层。\n\n结论：通过 SNC 领导层信息交叉验证，SpaceDev 所属公司的 CEO 为 Eren Ozmen 和 Fatih Ozmen。\n\n# 路径三：通过业务整合关系反推所有权\n\n步骤1：使用⟦313⟧，提取 SpaceDev 作为 \"a part\" 的身份。\n步骤2：综合⟦267⟧⟦331⟧⟦180⟧，SpaceDev 是 \"the Space Systems Business\" 的一部分，而该业务板块的 \"spaceflight and microsatellite work\" 与 Sierra Nevada Corporation 的业务描述一致。\n步骤3：综合⟦308⟧⟦314⟧，Sierra Nevada Corporation 的业务涵盖 spaceflight，与 SpaceDev 的业务直接对应，确认所有权关系。\n步骤4：使用⟦78⟧，提取 Sierra Nevada Corporation 的 CEO 为 Eren Ozmen 和 Fatih Ozmen。\n\n结论：通过业务整合关系反推，SpaceDev 属于 Sierra Nevada Corporation，其 CEO 为 Eren Ozmen 和 Fatih Ozmen。\n\n# 路径四：通过材料中的直接陈述确认\n\n步骤1：使用⟦313⟧，提取 SpaceDev 实体。\n步骤2：综合⟦308⟧⟦331⟧，材料中明确将 SpaceDev 与 Sierra Nevada Corporation 的 \"Space Systems Business\" 关联。\n步骤3：使用⟦78⟧，直接提取 Sierra Nevada Corporation 的 CEO 信息。\n步骤4：综合⟦124⟧⟦129⟧，确认 CEO 的具体姓名为 Eren Ozmen 和 Fatih Ozmen。\n\n结论：综合多条材料直接陈述，SpaceDev 所属公司 Sierra Nevada Corporation 的 CEO 是 Eren Ozmen 和 Fatih Ozmen。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦313⟧⟨571⟩⟦17⟧⟦267⟧⟨572⟩⟨573⟩⟦331⟧⟨574⟩⟨575⟩⟦180⟧⟨577⟩⟦233⟧",
+    "nounCount": 865,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 12336,
+      "completion_tokens": 250,
+      "total_tokens": 12586,
+      "prompt_tokens_details": {
+        "cached_tokens": 12160
+      },
+      "prompt_cache_hit_tokens": 12160,
+      "prompt_cache_miss_tokens": 176
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 942,
+      "completion_tokens": 729,
+      "total_tokens": 1671,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 942
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_6152",
+    "question": "What is the name of the American author, songwriter, educator, lawyer, diplomat, civil rights activi",
+    "expectedAnswer": "James Weldon Johnson",
+    "predictedAnswer": "# 路径一：通过多重身份与配偶关系锁定人物\n\n步骤1：使用⟦131⟧，提取核心人名“James Weldon Johnson”，并综合⟦31⟧⟦210⟧⟦89⟧⟦141⟧⟦81⟧⟦9⟧，确认其身份标签涵盖“American author”“songwriter”“educator”“lawyer”“diplomat”“civil rights activist”，与问题描述的多重身份完全吻合。\n\n步骤2：使用⟦105⟧，提取“Grace Nail Johnson”这一姓名，结合⟦258⟧⟦262⟧，确认Grace Nail Johnson是“writer James Weldon Johnson”的“wife”，即James Weldon Johnson是Grace Nail Johnson的丈夫，满足“husband to Grace Nail Johnson”的条件。\n\n步骤3：综合⟦93⟧⟦94⟧⟦203⟧⟦245⟧⟦68⟧，提取“executive secretary”这一职位，并交叉验证⟦235⟧，确认James Weldon Johnson是“the first African American”担任该职位，且该组织为“the National Association for the Advancement of Colored People (NAACP)”。\n\n结论：James Weldon Johnson 是符合所有条件的人。\n\n# 路径二：通过NAACP执行秘书职位与“首位非裔”身份交叉验证\n\n步骤1：使用⟦235⟧，提取“the first African American”这一关键限定，结合⟦93⟧⟦94⟧，确认该人物是首位非裔“executive secretary”。\n\n步骤2：综合⟦245⟧⟦224⟧⟦68⟧，提取组织全称“the National Association for the Advancement of Colored People”，并交叉验证⟦163⟧，确认该组织缩写为NAACP，与问题中的组织名称一致。\n\n步骤3：使用⟦131⟧，提取“James Weldon Johnson”这一姓名，综合⟦132⟧，确认“Johnson”即为该组织的执行秘书，且其身份标签与问题描述的多重身份相符。\n\n结论：James Weldon Johnson 是首位非裔NAACP执行秘书。\n\n# 路径三：通过配偶关系与职业身份综合锁定\n\n步骤1：使用⟦105⟧，提取“Grace Nail Johnson”这一姓名，结合⟦258⟧⟦262⟧，确认其丈夫为“writer James Weldon Johnson”。\n\n步骤2：综合⟦31⟧⟦210⟧⟦89⟧⟦141⟧⟦81⟧⟦9⟧，提取“American author”“songwriter”“educator”“lawyer”“diplomat”“civil rights activist”等多重身份，与问题描述完全匹配。\n\n步骤3：使用⟦93⟧⟦94⟧⟦203⟧，提取“executive secretary”职位，结合⟦245⟧⟦224⟧⟦68⟧，确认该职位属于NAACP，且⟦235⟧确认其为首位非裔担任者。\n\n结论：综合配偶关系与职业身份，该人物为James Weldon Johnson。\n\n# 路径四：通过时间线与组织角色排除其他候选人\n\n步骤1：使用⟦95⟧⟦171⟧⟦136⟧，提取“February”“November”“June”等时间信息，结合⟦98⟧，确认James Weldon Johnson于1917年开始在NAACP工作，1920年被选为执行秘书。\n\n步骤2：综合⟦99⟧⟦100⟧⟦101⟧⟦102⟧⟦103⟧，提取“In 1920 he was”“to be chosen as”“of”等片段，交叉验证⟦93⟧⟦94⟧，确认其被选为“executive secretary of the organization”。\n\n步骤3：使用⟦43⟧⟦141⟧⟦163⟧，提取“author”“lawyer”“NAACP”等标签，对比其他候选人（如W. E. B. Du Bois、Clement G. Morgan等），确认只有James Weldon Johnson同时满足所有身份与职位条件。\n\n结论：James Weldon Johnson 是唯一同时满足多重身份、配偶关系及NAACP执行秘书职位的人。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦131⟧⟨77⟩⟨78⟩⟦31⟧⟨79⟩⟨80⟩⟦89⟧⟦89⟧⟨81⟩⟨82⟩⟨83⟩⟨84⟩",
+    "nounCount": 398,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6357,
+      "completion_tokens": 358,
+      "total_tokens": 6715,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 213
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1353,
+      "completion_tokens": 925,
+      "total_tokens": 2278,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1353
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_4241",
+    "question": "The Story of Them Featuring Van Morrison is a compilation album recorded by what Northern Irish band",
+    "expectedAnswer": "Them",
+    "predictedAnswer": "# 路径一：直接实体匹配\n\n步骤1：使用⟦212⟧⟦117⟧⟦118⟧⟦17⟧，提取\"The Story of Them Featuring Van Morrison\"的定义——它是一张compilation album，标题中直接包含\"Them\"这一名称。\n\n步骤2：综合⟦23⟧⟦205⟧⟦206⟧⟦207⟧，提取\"Them were a Northern Irish band formed in Belfast in April 1964\"——该材料明确给出了问题所问的乐队全称、国籍、成立地点和时间。\n\n步骤3：综合⟦212⟧⟦23⟧，交叉验证：⟦212⟧中的\"Them\"与⟦23⟧中的\"Them (band)\"指向同一实体，且⟦23⟧的成立信息（Belfast, April 1964）与问题描述完全吻合。\n\n结论：The Story of Them Featuring Van Morrison 是由 **Them** 录制的合辑，Them 是一支1964年4月成立于贝尔法斯特的北爱尔兰乐队。\n\n---\n\n# 路径二：成员与作品关联验证\n\n步骤1：使用⟦212⟧⟦238⟧⟦220⟧，提取该合辑与vocalist（主唱）Van Morrison的关联——标题中\"Featuring Van Morrison\"表明Van Morrison是Them的主唱。\n\n步骤2：综合⟦166⟧⟦232⟧，提取\"singer Van Morrison's musical career\"以及⟦232⟧中\"Van Morrison\"的身份信息，确认Van Morrison与Them的从属关系。\n\n步骤3：综合⟦200⟧⟦171⟧⟦154⟧，提取Them最著名的作品\"Gloria\"是garage rock standard，而⟦212⟧中该合辑也包含\"Gloria\"，进一步确认Them与Van Morrison的绑定关系。\n\n结论：通过主唱Van Morrison与Them的关联，以及代表作品\"Gloria\"的交叉验证，确认该合辑的录制乐队为 **Them**。\n\n---\n\n# 路径三：历史脉络综合推断\n\n步骤1：使用⟦214⟧⟦91⟧，提取\"the two-year history\"和\"history\"——Them是一支存在时间较短的乐队（约两年），其历史被收录于该合辑中。\n\n步骤2：综合⟦205⟧⟦206⟧⟦207⟧⟦32⟧，提取\"The Northern Irish band formed in Belfast in April\"——⟦32⟧对应\"April\"，与问题中的\"April 1964\"直接对应。\n\n步骤3：综合⟦204⟧⟦208⟧⟦200⟧，提取\"Them were... 1964, most prominently known for the garage rock standard 'Gloria'\"——⟦208⟧中的\"1964\"与⟦207⟧中的成立时间一致，形成时间线的交叉支撑。\n\n结论：综合历史脉络、成立时间（1964年4月，贝尔法斯特）及代表作品，该合辑的录制乐队为 **Them**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦212⟧⟨117⟩⟨118⟩⟨120⟩⟨119⟩⟨121⟩⟦30⟧⟦168⟧⟨122⟩⟨123⟩⟦205⟧⟨124⟩",
+    "nounCount": 384,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6212,
+      "completion_tokens": 244,
+      "total_tokens": 6456,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6212
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1029,
+      "completion_tokens": 675,
+      "total_tokens": 1704,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1029
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_5055",
+    "question": "Which American actor tries to make his long distance relationship with Priya work in \"The Infestatio",
+    "expectedAnswer": "John Mark Galecki",
+    "predictedAnswer": "# 路径一：基于剧集与角色关系的直接推理\n\n步骤1：使用⟦283⟧⟦296⟧⟦274⟧⟦6⟧，提取“The Infestation Hypothesis”是《The Big Bang Theory》第五季的第二集，确定该集的基本信息。\n\n步骤2：综合⟦91⟧⟦242⟧⟦190⟧⟦20⟧⟦61⟧，提取该集剧情中Sheldon（⟦242⟧）和Penny（⟦190⟧）因a new chair（⟦20⟧）产生互动，但未直接涉及Priya。\n\n步骤3：综合⟦144⟧⟦201⟧⟦125⟧⟦101⟧，提取Leonard（⟦144⟧）与Priya（⟦201⟧）处于his long distance relationship（⟦125⟧）中，且该集（⟦101⟧）涉及这一关系。\n\n步骤4：综合⟦139⟧⟦137⟧⟦314⟧，提取Johnny Galecki（⟦139⟧）是饰演Leonard的演员，Jim Parsons（⟦137⟧）饰演Sheldon，确认Johnny Galecki为美国演员。\n\n结论：Johnny Galecki饰演的Leonard在“The Infestation Hypothesis”中试图维持与Priya的异地恋。\n\n# 路径二：基于演员与角色对应关系的交叉验证\n\n步骤1：使用⟦139⟧⟦314⟧，提取Johnny Galecki与“Theory”关联，结合⟦6⟧确认其出演《The Big Bang Theory》。\n\n步骤2：综合⟦144⟧⟦201⟧⟦125⟧，提取Leonard与Priya的异地恋关系，且⟦101⟧表明该集涉及此情节。\n\n步骤3：综合⟦137⟧⟦242⟧⟦190⟧，排除Jim Parsons（Sheldon）和Penny作为与Priya异地恋的对象，交叉验证只有Leonard符合条件。\n\n结论：通过角色与演员的对应关系，确认Johnny Galecki是答案。\n\n# 路径三：基于剧情冲突与角色动机的推理\n\n步骤1：使用⟦283⟧⟦296⟧，提取“The Infestation Hypothesis”为特定剧集，结合⟦274⟧确认其属于第五季。\n\n步骤2：综合⟦91⟧⟦242⟧⟦190⟧⟦20⟧，提取该集主要冲突围绕Sheldon和Penny的椅子，但⟦101⟧⟦102⟧提示另有角色关系线索。\n\n步骤3：综合⟦144⟧⟦201⟧⟦125⟧，提取Leonard试图维持与Priya的异地恋，且⟦139⟧确认Johnny Galecki饰演Leonard。\n\n结论：剧情中唯一试图维持与Priya异地恋的角色是Leonard，由Johnny Galecki饰演。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦283⟧⟨79⟩⟦296⟧⟨80⟩⟨81⟩⟦274⟧⟨82⟩⟨83⟩⟦6⟧⟨84⟩⟨85⟩⟦58⟧",
+    "nounCount": 445,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 7403,
+      "completion_tokens": 164,
+      "total_tokens": 7567,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7403
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 774,
+      "completion_tokens": 646,
+      "total_tokens": 1420,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 774
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_4980",
+    "question": "Igor Naming Agency named a resort located where?",
+    "expectedAnswer": "Las Vegas Strip",
+    "predictedAnswer": "# 路径一：直接定位命名对象\n\n步骤1：使用⟦139⟧，提取\"Igor Naming Agency\"这一命名机构的基本信息，确认其为一家美国命名机构。\n\n步骤2：综合⟦257⟧⟦220⟧，识别\"Igor Naming Agency\"所命名的度假村为\"the Aria Resort\"，且该度假村位于\"Sausalito\"。\n\n结论：Igor Naming Agency 命名的度假村位于 Sausalito。\n\n# 路径二：通过命名案例交叉验证\n\n步骤1：使用⟦139⟧⟦257⟧，提取\"Igor Naming Agency\"与\"the Aria Resort\"之间的命名关系，确认该机构确实为这家度假村命名。\n\n步骤2：综合⟦220⟧⟦257⟧，将\"Sausalito\"与\"the Aria Resort\"关联，确认该度假村的地理位置。\n\n结论：该度假村位于 Sausalito，与路径一结论一致。\n\n# 路径三：排除干扰项\n\n步骤1：使用⟦65⟧，提取\"California\"这一地名信息，判断其是否与\"Igor Naming Agency\"命名的度假村直接相关。\n\n步骤2：综合⟦139⟧⟦257⟧⟦220⟧，对比\"California\"与\"Sausalito\"两个地名，确认\"Sausalito\"才是与\"Igor Naming Agency\"命名的度假村直接关联的地点。\n\n结论：Igor Naming Agency 命名的度假村位于 Sausalito，而非仅泛泛提及的 California。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦139⟧⟨81⟩⟦42⟧⟨82⟩⟨83⟩⟦37⟧⟦139⟧⟨84⟩⟦220⟧⟨85⟩⟨86⟩⟦138⟧",
+    "nounCount": 397,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7092,
+      "completion_tokens": 242,
+      "total_tokens": 7334,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7092
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 929,
+      "completion_tokens": 329,
+      "total_tokens": 1258,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 929
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_6470",
+    "question": "Which of the teams that Sun-woo Kim played on never won a division title?",
+    "expectedAnswer": "Colorado Rockies",
+    "predictedAnswer": "# 路径一：从金善宇的球队列表中筛选\n\n步骤1：使用⟦246⟧，提取 Sun-woo \"Sunny\" Kim 的身份信息，确认其为韩国职业棒球投手。\n\n步骤2：综合⟦495⟧⟦496⟧⟦497⟧⟦498⟧⟦499⟧⟦500⟧，提取金善宇曾效力的球队列表：Boston Red Sox、Montreal Expos/Washington Nationals、Colorado Rockies、Cincinnati Reds、Miami Marlins。\n\n步骤3：综合⟦92⟧⟦93⟧⟦94⟧⟦95⟧⟦96⟧⟦97⟧⟦98⟧⟦99⟧⟦100⟧，提取 Colorado Rockies 是两支从未赢得过分区冠军的 MLB 球队之一。\n\n步骤4：综合⟦321⟧⟦345⟧⟦341⟧⟦203⟧⟦203⟧⟦38⟧⟦209⟧，交叉验证 Colorado Rockies 虽曾获得外卡席位，但从未赢得过分区冠军。\n\n结论：在 Sun-woo Kim 效力过的球队中，**Colorado Rockies** 从未赢得过分区冠军。\n\n---\n\n# 路径二：从“从未赢得分区冠军”的球队反向匹配\n\n步骤1：使用⟦92⟧⟦93⟧⟦94⟧⟦95⟧⟦96⟧⟦97⟧⟦98⟧⟦99⟧⟦100⟧，提取关键信息：Colorado Rockies 是两支从未赢得过分区冠军的 MLB 球队之一。\n\n步骤2：使用⟦246⟧⟦495⟧⟦496⟧⟦497⟧⟦498⟧⟦499⟧⟦500⟧，确认金善宇曾效力于 Colorado Rockies。\n\n步骤3：综合⟦356⟧⟦128⟧，确认金善宇效力过多支 MLB 球队，需逐一排查。\n\n步骤4：综合⟦273⟧⟦184⟧⟦305⟧⟦77⟧，对比其他球队（Boston Red Sox、Montreal Expos/Washington Nationals、Miami Marlins、Cincinnati Reds），这些球队均有赢得过分区冠军的历史记录。\n\n结论：唯一符合“金善宇效力过且从未赢得分区冠军”条件的球队是 **Colorado Rockies**。\n\n---\n\n# 路径三：交叉验证——排除法与直接证据结合\n\n步骤1：使用⟦246⟧⟦495⟧⟦496⟧⟦497⟧⟦498⟧⟦499⟧⟦500⟧，列出金善宇的全部效力球队：Boston Red Sox、Montreal Expos/Washington Nationals、Colorado Rockies、Cincinnati Reds、Miami Marlins。\n\n步骤2：综合⟦92⟧⟦93⟧⟦94⟧⟦95⟧⟦96⟧⟦97⟧⟦98⟧⟦99⟧⟦100⟧，直接提取“Colorado Rockies 从未赢得过分区冠军”这一事实。\n\n步骤3：综合⟦321⟧⟦345⟧⟦341⟧⟦203⟧⟦203⟧⟦38⟧⟦209⟧，验证 Colorado Rockies 的最佳战绩仅为外卡席位，从未获得分区冠军。\n\n步骤4：使用⟦273⟧⟦184⟧⟦305⟧⟦77⟧，确认其他球队均有过分区冠军记录，排除可能性。\n\n结论：通过直接证据与排除法交叉验证，**Colorado Rockies** 是金善宇效力过且从未赢得分区冠军的球队。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦246⟧⟦370⟧⟨483⟩⟨482⟩⟦2⟧⟨484⟩⟦376⟧⟦376⟧⟨485⟩⟨486⟩⟦130⟧⟨487⟩",
+    "nounCount": 476,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8312,
+      "completion_tokens": 289,
+      "total_tokens": 8601,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 8312
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1164,
+      "completion_tokens": 797,
+      "total_tokens": 1961,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1164
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_3790",
+    "question": "Who gave the mother of Alberic II of Spoleto the title \"patricia\" of Rome?",
+    "expectedAnswer": "Pope John X",
+    "predictedAnswer": "# 路径一：通过Alberic II条目直接追溯\n\n步骤1：使用⟦17⟧，提取Alberic II的身份信息，确认其为\"Alberic II\"（即Alberic II of Spoleto）。\n\n步骤2：综合⟦45⟧⟦68⟧，提取Alberic II的\"母亲\"（his mother / mother）身份，确认其母亲为Marozia。\n\n步骤3：使用⟦63⟧，提取Marozia的完整身份信息，确认其获得\"patricia\" of Rome称号的相关记载。\n\n步骤4：综合⟦110⟧⟦112⟧⟦100⟧⟦101⟧⟦102⟧⟦103⟧，提取Marozia被授予\"senatrix\"和\"patricia\"称号的记载，并追溯授予者信息。\n\n结论：此路径指向Pope John X（⟦77⟧）授予了Marozia\"patricia\" of Rome的称号。\n\n---\n\n# 路径二：通过Marozia条目中的称号授予链追溯\n\n步骤1：使用⟦63⟧，提取Marozia的完整信息，确认其为\"a Roman noblewoman\"（⟦11⟧⟦69⟧），且拥有\"senatrix\"（⟦92⟧⟦91⟧）和\"patricia\"（⟦102⟧）称号。\n\n步骤2：综合⟦110⟧⟦112⟧⟦100⟧⟦101⟧，提取Marozia获得\"the unprecedented titles 'senatrix'\"和\"patricia\"的记载。\n\n步骤3：使用⟦103⟧，提取授予者信息——\"by\"后接的授予者。\n\n步骤4：综合⟦77⟧，确认Pope John X为授予者。\n\n结论：Marozia的\"patricia\" of Rome称号由Pope John X授予。\n\n---\n\n# 路径三：通过家族关系链交叉验证\n\n步骤1：使用⟦17⟧，确认Alberic II of Spoleto的身份。\n\n步骤2：综合⟦45⟧⟦68⟧，确认Alberic II的母亲为Marozia（⟦63⟧）。\n\n步骤3：使用⟦63⟧，提取Marozia的称号信息，确认其拥有\"patricia\" of Rome称号（⟦102⟧）。\n\n步骤4：综合⟦103⟧⟦77⟧，追溯授予者——Pope John X。\n\n步骤5：交叉验证⟦81⟧（Pope Sergius III）与⟦77⟧（Pope John X），排除Pope Sergius III为授予者，确认Pope John X为正确授予者。\n\n结论：综合多条材料交叉验证，授予Marozia\"patricia\" of Rome称号的是Pope John X。\n\n---\n\n# 路径四：通过称号\"patricia\"的独特记载定位\n\n步骤1：使用⟦102⟧，提取\"patricia\" of Rome这一独特称号的记载。\n\n步骤2：综合⟦100⟧⟦101⟧⟦110⟧⟦112⟧，提取Marozia获得\"senatrix\"和\"patricia\"称号的完整语境。\n\n步骤3：使用⟦103⟧，提取授予者——\"by\"后接的授予者信息。\n\n步骤4：综合⟦77⟧，确认授予者为Pope John X。\n\n结论：Pope John X授予了Alberic II的母亲Marozia\"patricia\" of Rome的称号。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟦6⟧⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦45⟧⟦68⟧⟨6⟩⟨7⟩⟨8⟩⟦48⟧",
+    "nounCount": 176,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 3069,
+      "completion_tokens": 214,
+      "total_tokens": 3283,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 3069
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 927,
+      "completion_tokens": 759,
+      "total_tokens": 1686,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 927
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_1999",
+    "question": "What American corporation owns Claim Jumper?",
+    "expectedAnswer": "Landry's",
+    "predictedAnswer": "# 路径一：直接所有权链推理\n\n步骤1：使用⟦58⟧，提取“Claim jumper”这一实体名称，确认其为待查询的餐厅品牌。\n\n步骤2：综合⟦59⟧⟦27⟧⟦54⟧，交叉验证 Claim Jumper 的性质——⟦59⟧表明其为“Claim Jumper Restaurant”，⟦27⟧表明其为“an American restaurant chain”，⟦54⟧确认其为“chain”，三者一致指向 Claim Jumper 是一家美国连锁餐厅。\n\n步骤3：使用⟦115⟧，提取“Landry's, Inc.”这一实体，结合⟦315⟧中“is wholly owned by”的关系表述，判断 Claim Jumper 被 Landry's, Inc. 全资拥有。\n\n结论：Landry's, Inc. 拥有 Claim Jumper。\n\n# 路径二：地理位置与公司归属交叉验证\n\n步骤1：使用⟦102⟧，提取“Houston”这一地点信息，判断 Claim Jumper 的母公司位于休斯顿。\n\n步骤2：综合⟦67⟧⟦187⟧⟦177⟧，提取“company”与“Texas”信息——⟦187⟧表明“The company”与⟦67⟧“company”指向同一实体，⟦177⟧表明该实体位于德克萨斯州，与⟦102⟧“Houston”形成地理交叉验证（休斯顿位于德克萨斯州）。\n\n步骤3：综合⟦115⟧⟦315⟧，确认 Landry's, Inc. 为最终母公司，且其总部位于休斯顿/德克萨斯州，与步骤1、2的地理信息一致。\n\n结论：Landry's, Inc. 作为总部位于休斯顿的德克萨斯州公司，全资拥有 Claim Jumper。\n\n# 路径三：规模特征辅助确认\n\n步骤1：使用⟦126⟧⟦122⟧，提取“more than 40 locations”和“locations”，判断 Claim Jumper 是一家拥有超过40家门店的连锁品牌。\n\n步骤2：综合⟦54⟧⟦27⟧，交叉验证其连锁属性——⟦54⟧“chain”与⟦27⟧“an American restaurant chain”一致，确认其规模符合被大型餐饮集团收购的特征。\n\n步骤3：使用⟦115⟧，提取“Landry's, Inc.”作为拥有该规模连锁品牌的美国公司，结合⟦315⟧的所有权关系，确认最终归属。\n\n结论：Landry's, Inc. 是拥有 Claim Jumper 这一超过40家门店连锁品牌的美国公司。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦59⟧⟨304⟩⟦160⟧⟨305⟩⟦27⟧⟦156⟧⟨307⟩⟦54⟧⟨306⟩⟨308⟩⟦126⟧⟦122⟧",
+    "nounCount": 309,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5302,
+      "completion_tokens": 103,
+      "total_tokens": 5405,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5302
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 541,
+      "completion_tokens": 557,
+      "total_tokens": 1098,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 541
+    },
+    "batch": "100-110"
+  },
+  {
+    "qid": "hotpot_5914",
+    "question": "Along which river is the Kentucky Department of Corrections headquarted?",
+    "expectedAnswer": "Kentucky River",
+    "predictedAnswer": "# 路径一：机构总部与地理实体关联推理\n\n步骤1：使用⟦188⟧⟦54⟧，提取“the Kentucky Department of Corrections”这一机构名称，确认其为肯塔基州政府下属的惩教管理机构。\n\n步骤2：综合⟦19⟧⟦167⟧⟨283⟩，提取“The agency is headquartered in”这一表述，确认该机构总部位于某地，但材料未直接给出河流名称。\n\n步骤3：综合⟦79⟧⟦40⟧⟦46⟧，提取“Frankfort”为肯塔基州首府（capital city），结合⟦102⟧确认Frankfort位于肯塔基州。\n\n结论：该路径确认肯塔基州惩教部总部位于Frankfort，但材料中未直接提及河流名称，需结合外部地理知识推断Frankfort位于Kentucky River沿岸。\n\n---\n\n# 路径二：地理坐标与河流交叉验证推理\n\n步骤1：使用⟦79⟧⟦102⟧，提取“Frankfort”与“Kentucky”的关联，确认Frankfort是肯塔基州的首府城市。\n\n步骤2：综合⟦173⟧⟦174⟧⟦205⟧，提取“the capital city of the Commonwealth”和“the seat of”等表述，交叉验证Frankfort作为州首府和政府所在地的地位。\n\n步骤3：综合⟦81⟧⟦147⟧，提取“Franklin County”和“seat”信息，确认Frankfort是Franklin County的县治所在地。\n\n结论：该路径通过多材料交叉验证确认Frankfort为肯塔基州首府及Franklin County县治，结合地理常识可知Frankfort位于Kentucky River沿岸，故惩教部总部位于Kentucky River。\n\n---\n\n# 路径三：机构隶属与地理位置综合支撑推理\n\n步骤1：使用⟦189⟧⟦188⟧，提取“the Kentucky Justice & Public Safety Cabinet”和“the Kentucky Department”，确认惩教部隶属于肯塔基州司法与公共安全内阁。\n\n步骤2：综合⟦16⟧⟦18⟧⟦158⟧，提取“a state agency”“adult”“state-owned adult correctional facilities”等信息，确认该机构为州级机构，管理成人惩教设施。\n\n步骤3：综合⟦19⟧⟦167⟧⟨283⟩⟦79⟧，将机构总部位置与Frankfort关联，确认总部设在Frankfort。\n\n结论：该路径通过机构隶属关系和职能描述确认惩教部为州级机构，总部位于Frankfort，结合地理知识推断Frankfort位于Kentucky River沿岸，故答案为Kentucky River。\n\n---\n\n# 路径四：排除法与地理常识补充推理\n\n步骤1：使用⟦58⟧⟦59⟧⟦97⟧，提取“county”“county jails”“jails”等信息，确认惩教部管理县监狱等设施，但未提及河流。\n\n步骤2：综合⟦131⟧⟦156⟧，提取“oversight”“standards”等信息，确认该机构负责监督和制定标准，但材料未涉及总部具体河流位置。\n\n步骤3：综合⟦79⟧⟦40⟧⟦46⟧⟦102⟧，确认Frankfort为肯塔基州首府，结合外部地理知识（Frankfort位于Kentucky River沿岸），推断惩教部总部位于Kentucky River。\n\n结论：该路径通过排除材料中未直接提及河流的信息，结合Frankfort的地理位置常识，推断肯塔基州惩教部总部位于Kentucky River沿岸。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦188⟧⟨257⟩⟦54⟧⟨258⟩⟦16⟧⟨260⟩⟨259⟩⟨261⟩⟦189⟧⟨262⟩⟦158⟧⟨263⟩",
+    "nounCount": 327,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5404,
+      "completion_tokens": 250,
+      "total_tokens": 5654,
+      "prompt_tokens_details": {
+        "cached_tokens": 5248
+      },
+      "prompt_cache_hit_tokens": 5248,
+      "prompt_cache_miss_tokens": 156
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 948,
+      "completion_tokens": 774,
+      "total_tokens": 1722,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 948
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_6115",
+    "question": "The reporter who digs into the campaign of a former Marine Colonel, worked where in Cleveland?",
+    "expectedAnswer": "Cleveland Press",
+    "predictedAnswer": "# 路径一：从职业履历直接定位\n\n步骤1：使用⟦89⟧，提取 Don Baker 的全名 Donald Parks Baker，确认其为记者身份。\n步骤2：综合⟦215⟧⟦238⟧，得知他曾是《华盛顿邮报》的前里士满分社社长，说明其职业轨迹覆盖多个媒体机构。\n步骤3：使用⟦209⟧，提取他在克利夫兰工作过的媒体为《克利夫兰新闻报》（The Cleveland Press）。\n\n结论：该记者在克利夫兰工作于 The Cleveland Press。\n\n# 路径二：从纪录片角色反推记者身份\n\n步骤1：使用⟦19⟧，提取纪录片《A Perfect Candidate》，该片记录竞选过程。\n步骤2：综合⟦130⟧⟦239⟧，得知 Don Baker 在片中的纪录片角色是“监督记者”（watchdog reporter），专门深入调查竞选。\n步骤3：综合⟦242⟧⟦168⟧，确认竞选者为前美国参议院候选人 Oliver North（前海军陆战队上校）。\n步骤4：使用⟦209⟧，锁定该记者在克利夫兰的任职媒体为 The Cleveland Press。\n\n结论：通过纪录片角色与竞选对象交叉验证，该记者在克利夫兰工作于 The Cleveland Press。\n\n# 路径三：从职业经历排除与确认\n\n步骤1：综合⟦217⟧⟦238⟧，提取他曾任职《印第安纳波利斯时报》和《华盛顿邮报》，均不在克利夫兰。\n步骤2：使用⟦215⟧，确认其“前里士满分社社长”身份，进一步排除克利夫兰。\n步骤3：使用⟦209⟧，唯一与克利夫兰相关的任职记录为 The Cleveland Press。\n\n结论：排除其他城市任职后，唯一在克利夫兰的工作单位为 The Cleveland Press。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦89⟧⟨26⟩⟦215⟧⟦50⟧⟨28⟩⟦63⟧⟨27⟩⟨29⟩⟨30⟩⟦238⟧⟨31⟩⟦238⟧",
+    "nounCount": 334,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5938,
+      "completion_tokens": 160,
+      "total_tokens": 6098,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 178
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 741,
+      "completion_tokens": 394,
+      "total_tokens": 1135,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 741
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_1004",
+    "question": "Who was involved in the arrest of Dread Pirate Roberts?",
+    "expectedAnswer": "Christopher \"Chris\" Tarbell",
+    "predictedAnswer": "# 路径一：从直接参与者角度\n\n步骤1：使用⟦90⟧，提取“Dread Pirate Roberts”这一化名，确认其指向的是暗网丝绸之路的运营者。\n\n步骤2：综合⟦69⟧⟦34⟧⟦15⟧，提取Chris Tarbell的身份信息——他是前FBI特别探员，参与了针对该化名者的执法行动。\n\n步骤3：综合⟦188⟧⟦237⟧，交叉验证Ross Ulbricht在Glen Park公共图书馆被捕的事实，确认Dread Pirate Roberts即Ross Ulbricht。\n\n结论：Chris Tarbell（作为FBI探员）参与了逮捕Dread Pirate Roberts（即Ross Ulbricht）的行动。\n\n# 路径二：从线人与黑客组织角度\n\n步骤1：使用⟦192⟧，提取Sabu这一关键人物，确认其为黑客组织成员。\n\n步骤2：综合⟦240⟧⟦103⟧⟦101⟧，提取Lulzsec黑客组织的背景，确认Sabu属于该组织。\n\n步骤3：综合⟦38⟧⟦117⟧，对比“线人”与“告密者”的表述，确认Sabu转变为线人身份。\n\n步骤4：综合⟦133⟧⟦134⟧⟦136⟧，提取“他将其转变为线人并使其对抗Lulzsec”的转化过程，判断Sabu被招募为线人后协助执法。\n\n结论：Sabu（作为Lulzsec成员转变为线人）参与了导致Dread Pirate Roberts被捕的行动。\n\n# 路径三：从团队协作与追踪角度\n\n步骤1：使用⟦215⟧⟦264⟧，提取“团队”这一集体行动主体，确认存在一个专门负责追踪的团队。\n\n步骤2：综合⟦266⟧⟦276⟧，对比“追踪”与“追踪过程”的表述，确认该团队执行了对目标的追踪任务。\n\n步骤3：综合⟦140⟧⟦142⟧⟦144⟧，提取“他后来领导了……导致……被捕”的因果链条，确认Chris Tarbell领导了该团队。\n\n步骤4：综合⟦145⟧⟦237⟧，交叉验证逮捕地点为Glen Park公共图书馆，确认行动最终实施。\n\n结论：Chris Tarbell领导的追踪团队（包括线人Sabu的协助）共同参与了逮捕Dread Pirate Roberts的行动。\n\n# 路径四：综合多主体参与\n\n步骤1：综合⟦69⟧⟦192⟧，对比Chris Tarbell与Sabu两个关键人物，确认二者分别代表执法方与线人方。\n\n步骤2：综合⟦50⟧⟦51⟧，提取“both Anonymous”与“both Sabu”的并列关系，确认Sabu与Anonymous组织存在关联。\n\n步骤3：综合⟦204⟧⟦259⟧，交叉验证Silk Road与the Silk Road为同一目标，确认逮捕行动针对的是该暗网平台运营者。\n\n步骤4：综合⟦188⟧⟦90⟧，确认Ross Ulbricht即Dread Pirate Roberts，为最终被捕对象。\n\n结论：Chris Tarbell（FBI探员）、Sabu（线人，与Anonymous/Lulzsec有关联）以及追踪团队共同参与了逮捕Dread Pirate Roberts（Ross Ulbricht）的行动。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦69⟧⟨118⟩⟦15⟧⟦34⟧⟨119⟩⟨120⟩⟦50⟧⟨121⟩⟦259⟧⟨122⟩⟨123⟩⟦266⟧",
+    "nounCount": 377,
+    "score": 0.3333333333333333,
+    "recallUsage": {
+      "prompt_tokens": 6339,
+      "completion_tokens": 220,
+      "total_tokens": 6559,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 195
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 908,
+      "completion_tokens": 733,
+      "total_tokens": 1641,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 908
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_6471",
+    "question": "What football club was owned by the singer of \"Grow Some Funk of Your Own\"?",
+    "expectedAnswer": "Watford Football Club",
+    "predictedAnswer": "# 路径一：从歌手到俱乐部的直接关联\n\n步骤1：使用⟦158⟧⟦144⟧⟦25⟧⟦155⟧，提取“Sir Elton Hercules John”（出生名“Reginald Kenneth Dwight”）是“an English singer”和“singer”，确认其歌手身份。\n\n步骤2：使用⟦107⟧⟦234⟧⟨352⟩⟨353⟩，提取“John owned Watford Football Club from 1976 to 1987, and 1997 to 2002”，直接建立歌手与足球俱乐部的所有权关系。\n\n步骤3：综合⟦53⟧⟦136⟧，交叉验证Elton John同时是“composer”和“pianist”，与⟦25⟧⟦155⟧的歌手身份一致，确认“Grow Some Funk of Your Own”的演唱者即Elton John。\n\n结论：Elton John拥有的足球俱乐部是Watford Football Club。\n\n# 路径二：通过歌曲归属与俱乐部关联验证\n\n步骤1：使用⟦158⟧⟦144⟧，提取“Sir Elton Hercules John”出生名为“Reginald Kenneth Dwight”，锁定人物唯一身份。\n\n步骤2：使用⟦107⟧⟦234⟧⟨352⟩⟨353⟩，提取“John owned Watford Football Club”，将Elton John与Watford F.C.直接关联。\n\n步骤3：综合⟦25⟧⟦155⟧⟦53⟧⟦136⟧，确认Elton John是“an English singer”“singer”“composer”“pianist”，而“Grow Some Funk of Your Own”是其演唱歌曲，因此问题中的歌手即Elton John。\n\n结论：该足球俱乐部为Watford Football Club。\n\n# 路径三：排除其他俱乐部并锁定答案\n\n步骤1：使用⟦97⟧⟦162⟧⟦183⟧⟦50⟧，提取“home”“stadium”“The club”“club”等词，涉及Tatung F.C.和List of Liverpool F.C. players等材料，但这些材料未提及与Elton John的所有权关系。\n\n步骤2：使用⟦107⟧⟦234⟧⟨352⟩⟨353⟩，提取“John owned Watford Football Club from 1976 to 1987, and 1997 to 2002”，明确所有权归属。\n\n步骤3：综合⟦158⟧⟦25⟧⟦155⟧，确认Elton John的歌手身份与“Grow Some Funk of Your Own”的演唱者一致，排除其他俱乐部材料⟦97⟧⟦162⟧⟦183⟧的干扰。\n\n结论：被Elton John拥有的足球俱乐部是Watford Football Club。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦158⟧⟨280⟩⟦144⟧⟨281⟩⟦4⟧⟨282⟩⟦25⟧⟦155⟧⟨283⟩⟨284⟩⟦136⟧⟦136⟧",
+    "nounCount": 474,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7041,
+      "completion_tokens": 165,
+      "total_tokens": 7206,
+      "prompt_tokens_details": {
+        "cached_tokens": 6907
+      },
+      "prompt_cache_hit_tokens": 6907,
+      "prompt_cache_miss_tokens": 134
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 769,
+      "completion_tokens": 592,
+      "total_tokens": 1361,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 769
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_2301",
+    "question": "What company started the urban complex development that included the highrise building, The Harmon?",
+    "expectedAnswer": "MGM Resorts International",
+    "predictedAnswer": "# 路径一：从开发主体直接溯源\n\n步骤1：使用⟦185⟧，提取 \"the CityCenter development\" 这一表述，确认 The Harmon 属于 CityCenter 开发项目的一部分。\n\n步骤2：使用⟦194⟧，提取 \"The Harmon\" 为 \"a highrise building\"，与问题中的 \"highrise building\" 对应，确认目标实体。\n\n步骤3：综合⟦57⟧⟦127⟧，CityCenter 与 \"MGM Resorts International\" 相关联，且⟦139⟧显示 \"was started by\"，指向开发启动方。\n\n结论：MGM Resorts International 启动了包含 The Harmon 在内的 CityCenter 城市综合体开发。\n\n---\n\n# 路径二：从项目历史与合作伙伴交叉验证\n\n步骤1：使用⟦198⟧⟦105⟧，提取 \"the history\" 相关信息，定位 CityCenter 项目的历史记载。\n\n步骤2：综合⟦79⟧⟦22⟧⟦144⟧，Dubai World 作为 \"a joint partner\" / \"partner\" 参与其中，说明开发涉及合作方，但启动方需另寻。\n\n步骤3：综合⟦139⟧⟦127⟧，材料明确 \"was started by MGM Resorts International\"，将启动主体锁定为 MGM Resorts International。\n\n结论：尽管 Dubai World 是合资伙伴，但项目的启动方是 MGM Resorts International。\n\n---\n\n# 路径三：从品牌与命名演变反推开发公司\n\n步骤1：使用⟦171⟧⟦91⟧，提取 \"the 'CityCenter' branding\" 及 \"formerly 'CityCenter Art Collection'\"，说明 CityCenter 品牌由特定公司运营。\n\n步骤2：综合⟦176⟧⟦49⟧⟦170⟧，the Aria brand 与 \"brand\" 相关，且 \"the 'Aria Express'\" 为项目内设施，品牌归属指向 MGM。\n\n步骤3：综合⟦127⟧⟦57⟧，MGM Resorts International 与 CityCenter 直接关联，且⟦139⟧明确其 \"started\" 该项目。\n\n结论：通过品牌归属与命名演变可确认，启动 CityCenter 开发的公司是 MGM Resorts International。\n\n---\n\n# 路径四：从地理位置与项目规模综合定位\n\n步骤1：使用⟦142⟧⟦133⟧，提取 CityCenter 位于 Paradise, Nevada，确认项目地理位置。\n\n步骤2：综合⟦201⟧⟦225⟧，CityCenter 是 \"the largest privately funded construction project\" in \"the United States\"，说明其规模与开发主体应为大型企业。\n\n步骤3：综合⟦127⟧⟦139⟧，MGM Resorts International 作为 CityCenter 的关联公司，且材料明确其 \"started\" 该项目。\n\n结论：综合地理位置、项目规模与公司关联，启动该城市综合体开发的公司为 MGM Resorts International。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦194⟧⟨1⟩⟦21⟧⟨3⟩⟨2⟩⟨4⟩⟦185⟧⟨5⟩⟨6⟩⟨7⟩⟨8⟩⟦142⟧",
+    "nounCount": 363,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5981,
+      "completion_tokens": 491,
+      "total_tokens": 6472,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 221
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1677,
+      "completion_tokens": 633,
+      "total_tokens": 2310,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1677
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_3307",
+    "question": "What corporation does the company that publishes the monthly magazine that focuses almost exclusivel",
+    "expectedAnswer": "Southern Progress Corporation",
+    "predictedAnswer": "# 路径一：从杂志特征锁定出版方\n\n步骤1：使用⟦267⟧，提取关键特征——该杂志\"almost exclusively on the Western United States\"（几乎完全聚焦美国西部）。\n\n步骤2：综合⟦273⟧⟦267⟧，确认该杂志还涉及travel（旅行）内容，且聚焦美国西部。\n\n步骤3：使用⟦269⟧，提取\"three designs\"（三个设计）这一线索，结合⟦270⟧，判断该杂志由Time Warner出版。\n\n步骤4：综合⟦262⟧⟦270⟧，确认Sunset Publishing Corporation是Time Warner的子公司，而Sunset杂志正是聚焦美国西部的月刊。\n\n结论：该杂志是《Sunset》，其出版公司Sunset Publishing Corporation属于Time Warner。\n\n---\n\n# 路径二：从摄影师与设计师交叉验证\n\n步骤1：使用⟦142⟧，提取\"Julius Shulman\"（朱利叶斯·舒尔曼）——著名建筑摄影师。\n\n步骤2：综合⟦205⟧⟦142⟧，Rodney Walker是midcentury American modern designer，其作品被Julius Shulman拍摄。\n\n步骤3：使用⟦300⟧，提取Shulman为⟦1⟧（Arts & Architecture magazine）拍摄了Rodney Walker的设计。\n\n步骤4：综合⟦269⟧⟦270⟧，但问题指向的是\"monthly magazine that focuses almost exclusively on the Western United States\"，即Sunset杂志，而非Arts & Architecture。\n\n步骤5：使用⟦270⟧，确认Sunset由Time Warner出版。\n\n结论：尽管Shulman也为Arts & Architecture拍摄，但聚焦美国西部的月刊是Sunset，其母公司为Time Warner。\n\n---\n\n# 路径三：从杂志定位与出版结构推理\n\n步骤1：使用⟦267⟧，提取\"almost exclusively on the Western United States\"——这是Sunset杂志的核心定位。\n\n步骤2：综合⟦273⟧⟦77⟧⟦111⟧，Sunset杂志涵盖travel、cooking、gardening等内容，符合其生活方式杂志定位。\n\n步骤3：使用⟦270⟧，提取\"is published monthly by Time Warner\"——Sunset由Time Warner每月出版。\n\n步骤4：综合⟦262⟧⟦270⟧，Sunset Publishing Corporation是Time Warner的子公司，负责出版Sunset杂志。\n\n结论：出版Sunset杂志的公司属于Time Warner。\n\n---\n\n# 路径四：排除法与特征匹配\n\n步骤1：使用⟦1⟧，Arts & Architecture杂志虽与Case Study House program相关，但并非\"聚焦美国西部的月刊\"。\n\n步骤2：综合⟦246⟧⟦152⟧，Portland Monthly是另一本杂志，但聚焦波特兰地区，不符合\"美国西部\"的广泛定位。\n\n步骤3：使用⟦267⟧⟦273⟧，只有Sunset杂志同时满足\"月刊\"、\"聚焦美国西部\"、\"涵盖旅行\"等特征。\n\n步骤4：综合⟦270⟧⟦262⟧，Sunset由Time Warner出版，其出版公司Sunset Publishing Corporation属于Time Warner。\n\n结论：该杂志为Sunset，其出版公司属于Time Warner。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨257⟩⟨258⟩⟨259⟩⟦77⟧⟦77⟧⟨260⟩⟨261⟩⟦111⟧⟦111⟧⟨262⟩⟨263⟩⟦273⟧",
+    "nounCount": 397,
+    "score": 0.3333333333333333,
+    "recallUsage": {
+      "prompt_tokens": 6480,
+      "completion_tokens": 418,
+      "total_tokens": 6898,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6480
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1464,
+      "completion_tokens": 685,
+      "total_tokens": 2149,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1464
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_872",
+    "question": "Naval Air Station Ellyson Field was an auxiliary facility to the air station in which community?",
+    "expectedAnswer": "Warrington",
+    "predictedAnswer": "# 路径一：基于基地隶属关系的直接推理\n\n步骤1：使用⟦169⟧⟦21⟧，提取 Naval Air Station Ellyson Field 的基本定位——它是“a former U.S. Navy training base”，即一个昔日的美国海军训练基地。\n\n步骤2：综合⟦48⟧⟦79⟧⟦107⟧，对比其名称演变与功能定位——Ellyson Field 曾被称为 Chevalier Field，且被明确标注为“an auxiliary facility”（辅助设施），说明它并非独立主基地，而是隶属于某个更大的航空站。\n\n步骤3：使用⟦175⟧⟦163⟧，提取其隶属对象——材料直接给出“Naval Air Station Pensacola”及其缩写“NAS Pensacola”，表明 Ellyson Field 的上级航空站就是彭萨科拉海军航空站。\n\n结论：Naval Air Station Ellyson Field 是 Naval Air Station Pensacola（NAS Pensacola）的辅助设施，因此其所属社区为 Pensacola。\n\n# 路径二：基于地理位置与隶属关系的交叉验证\n\n步骤1：使用⟦109⟧⟦155⟧，提取地理位置信息——Ellyson Field 位于 Escambia Bay 附近，距离某处 16 miles。\n\n步骤2：综合⟦21⟧⟦175⟧，交叉验证隶属关系——材料将 Ellyson Field 描述为“a former U.S. Navy training base”，同时将 NAS Pensacola 列为独立的航空站，二者之间存在主从关系。\n\n步骤3：使用⟦163⟧，确认 NAS Pensacola 的完整名称——⟦163⟧ 明确指向“NAS Pensacola”，即 Naval Air Station Pensacola，说明 Ellyson Field 作为辅助设施，其上级单位位于 Pensacola。\n\n结论：Ellyson Field 作为辅助设施，隶属于位于 Pensacola 的 NAS Pensacola，因此其所属社区为 Pensacola。\n\n# 路径三：基于历史命名与功能演变的综合推理\n\n步骤1：使用⟦204⟧⟦234⟧，提取历史命名信息——Ellyson Field 最初被指定为“Base Field”，且与“Site”相关，说明其早期定位是某个主基地的附属场地。\n\n步骤2：综合⟦75⟧⟦107⟧⟦135⟧，对比命名由来——该基地以 CDR Theodore G. “Spuds” Ellyson 命名，而 Ellyson 是“the Navy’s first aviator”（⟦280⟧），这一命名行为通常由上级主基地或海军航空局主导，进一步印证其从属地位。\n\n步骤3：使用⟦175⟧⟦305⟧，提取功能定位——NAS Pensacola 被标注为“training”（训练），而 Ellyson Field 同样是训练基地，二者功能一致，说明 Ellyson Field 是 NAS Pensacola 训练体系下的辅助设施。\n\n结论：综合命名由来、功能定位与隶属关系，Ellyson Field 是 NAS Pensacola 的辅助训练设施，其所属社区为 Pensacola。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦169⟧⟨1⟩⟦21⟧⟨3⟩⟨2⟩⟨4⟩⟨5⟩⟨6⟩⟦284⟧⟦205⟧⟨7⟩⟨8⟩",
+    "nounCount": 418,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7391,
+      "completion_tokens": 262,
+      "total_tokens": 7653,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7391
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1073,
+      "completion_tokens": 674,
+      "total_tokens": 1747,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1073
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_5364",
+    "question": "Aerodynamik is a Kraftwerk song on an album recorded for what anniversity of the Tour de France bicy",
+    "expectedAnswer": "100th",
+    "predictedAnswer": "# 路径一：从专辑条目直接定位周年纪念\n\n步骤1：使用⟦214⟧，提取 \"Tour de France Soundtracks\" 是 Kraftwerk 的专辑名称，这是问题的核心专辑。\n\n步骤2：综合⟦195⟧⟦85⟧⟦171⟧，确认 \"Tour de France Soundtracks\" 是 Kraftwerk（德国电子乐团）的第十张录音室专辑。\n\n步骤3：综合⟦158⟧⟦329⟧⟦139⟧，提取该专辑是为 \"the 100th anniversary\"（第100周年）录制的。\n\n步骤4：综合⟦167⟧⟦139⟧，确认该周年纪念对应的是 \"the first 'Tour de France' bicycle race\" 的100周年。\n\n结论：Aerodynamik 所在的专辑是为环法自行车赛100周年录制的。\n\n---\n\n# 路径二：通过发行时间与赛事历史交叉验证\n\n步骤1：使用⟦214⟧⟦321⟧⟦322⟧，提取 \"Tour de France Soundtracks\" 发行于2003年。\n\n步骤2：综合⟦167⟧⟦139⟧，提取首届环法自行车赛的100周年纪念这一信息。\n\n步骤3：综合⟦139⟧⟦34⟧，交叉验证：100周年纪念与2003年发行时间吻合（首届环法赛事于1903年举办，2003年正好是100周年）。\n\n结论：通过发行年份与首届赛事时间的交叉验证，确认专辑是为环法自行车赛100周年而录制。\n\n---\n\n# 路径三：从专辑创作背景与赛事关联性论证\n\n步骤1：综合⟦214⟧⟦158⟧⟦329⟧，提取专辑 \"Tour de France Soundtracks\" 是为某个周年纪念录制的。\n\n步骤2：综合⟦167⟧⟦139⟧⟦157⟧，提取 \"the first 'Tour de France' bicycle race\" 的100周年纪念，以及 \"the actual tour\"（实际赛事）的相关信息。\n\n步骤3：综合⟦195⟧⟦85⟧，确认这是 Kraftwerk 的第十张录音室专辑，其主题与环法自行车赛直接相关。\n\n步骤4：综合⟦139⟧，最终确认周年纪念为100周年。\n\n结论：综合专辑主题、赛事历史与创作背景，Aerodynamik 所在专辑是为环法自行车赛100周年纪念录制。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦214⟧⟨315⟩⟦195⟧⟨317⟩⟨316⟩⟨318⟩⟦171⟧⟨319⟩⟨320⟩⟦85⟧⟨321⟩⟨322⟩",
+    "nounCount": 371,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5966,
+      "completion_tokens": 298,
+      "total_tokens": 6264,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5966
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1118,
+      "completion_tokens": 527,
+      "total_tokens": 1645,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1118
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_1713",
+    "question": "Killing You is a song by a band that consists of lead vocalist Danny Worsnop, guitarists Ben Bruce a",
+    "expectedAnswer": "Sam Bettley",
+    "predictedAnswer": "# 路径一：从歌曲到乐队成员的直接链式推理\n\n步骤1：使用⟦20⟧，提取 \"Killing You\" 是一首歌曲，且根据占位符⟨298⟩可知其演唱者为 \"Asking Alexandria\"。\n\n步骤2：使用⟦69⟧，确认 \"English Metalcore band Asking Alexandria\" 即该乐队，并综合⟦30⟧⟦25⟧⟦223⟧，验证 Asking Alexandria 是一支来自英格兰约克（York, North Yorkshire）的英国摇滚乐队。\n\n步骤3：综合⟦39⟧⟦45⟧⟦60⟧⟦213⟧⟦216⟧，提取乐队成员构成：主唱 Danny Worsnop、吉他手 Ben Bruce 和 Cameron Liddell、鼓手 James Cassells，以及贝斯手 Sam Bettley（⟦38⟧）。\n\n结论：Killing You 的演唱乐队 Asking Alexandria 中，贝斯手是 **Sam Bettley**。\n\n---\n\n# 路径二：通过乐队成员列表交叉验证\n\n步骤1：使用⟦213⟧，提取 \"vocalist Danny Worsnop, guitarists...\" 这一成员列举结构，确认该乐队成员名单中包含主唱、吉他手、鼓手和贝斯手。\n\n步骤2：综合⟦39⟧⟦45⟧⟦60⟧⟦38⟧，交叉验证成员对应关系：Ben Bruce（⟦39⟧）和 Cameron Liddell（⟦45⟧）为吉他手，James Cassells（⟦60⟧）为鼓手，Sam Bettley（⟦38⟧）为贝斯手。\n\n步骤3：使用⟦20⟧⟦69⟧，确认 \"Killing You\" 由 Asking Alexandria 演唱，而该乐队成员列表与上述完全吻合。\n\n结论：该乐队贝斯手为 **Sam Bettley**。\n\n---\n\n# 路径三：排除法与成员角色定位\n\n步骤1：使用⟦94⟧，提取 \"lead vocalist Danny Worsnop\" 确认主唱身份，排除贝斯手可能。\n\n步骤2：综合⟦39⟧⟦45⟧，确认 Ben Bruce 和 Cameron Liddell 均为吉他手，排除贝斯手可能。\n\n步骤3：使用⟦60⟧，确认 James Cassells 为鼓手，排除贝斯手可能。\n\n步骤4：使用⟦38⟧，提取 \"bassist Sam Bettley\"，确认唯一剩余的贝斯手角色由 Sam Bettley 担任。\n\n结论：Killing You 所属乐队的贝斯手是 **Sam Bettley**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦219⟧⟨1⟩⟦27⟧⟨2⟩⟨3⟩⟦91⟧⟨4⟩⟦156⟧⟨5⟩⟦35⟧⟦175⟧⟦77⟧",
+    "nounCount": 383,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6003,
+      "completion_tokens": 248,
+      "total_tokens": 6251,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6003
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1062,
+      "completion_tokens": 571,
+      "total_tokens": 1633,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1062
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_6213",
+    "question": "The son of former Giants co-owner Bob Tisch worked with who to produce The Testimony?",
+    "expectedAnswer": "Mitchell Block and Michael Sarnoski",
+    "predictedAnswer": "# 路径一：从电影制作人员信息直接匹配\n\n步骤1：使用⟦244⟧，提取《The Testimony》的基本信息，确认其为2015年美国短纪录片。\n\n步骤2：综合⟦257⟧⟦139⟧⟦196⟧，提取该片的导演、制片人等制作人员信息。其中⟦257⟧（Vanessa Block）为导演兼摄影，⟦139⟧（Mitchell Block）为制片人，⟦196⟧（Steve Tisch）也出现在制作人员中。\n\n步骤3：使用⟦197⟧，确认Steve Tisch的全名为Steven Elliot Tisch，是Bob Tisch的儿子。\n\n步骤4：综合⟦196⟧⟦197⟧⟦139⟧，交叉验证：Steve Tisch与Mitchell Block共同参与了《The Testimony》的制作。\n\n结论：Bob Tisch的儿子Steve Tisch与Mitchell Block合作制作了《The Testimony》。\n\n# 路径二：从Steve Tisch的身份与职业网络推理\n\n步骤1：使用⟦197⟧，提取Steve Tisch的全名及出生信息，确认其为Steven Elliot Tisch。\n\n步骤2：使用⟦31⟧⟦49⟧，提取Steve Tisch的职业身份——美国电影制片人及商人。\n\n步骤3：综合⟦196⟧⟦139⟧，在《The Testimony》的制作人员中定位Steve Tisch与Mitchell Block的共同出现。\n\n步骤4：使用⟦84⟧⟦170⟧，确认Steve Tisch作为电影制片人的角色，与Mitchell Block的制片人身份形成合作对应。\n\n结论：Steve Tisch以制片人身份与Mitchell Block合作完成了《The Testimony》的制作。\n\n# 路径三：从电影内容与制作背景交叉验证\n\n步骤1：使用⟦244⟧⟦7⟧⟦76⟧，提取《The Testimony》的影片类型——2015年美国短纪录片。\n\n步骤2：综合⟦227⟧⟦250⟧⟦174⟧⟦132⟧，提取影片内容涉及刚果最大强奸法庭及M23叛乱等主题。\n\n步骤3：综合⟦257⟧⟦139⟧⟦196⟧，确认该片的导演为Vanessa Block，制片人为Mitchell Block，Steve Tisch亦参与制作。\n\n步骤4：使用⟦197⟧，确认Steve Tisch为Bob Tisch之子，从而将问题中的“Bob Tisch的儿子”与制作人员中的Steve Tisch对应。\n\n结论：Bob Tisch的儿子Steve Tisch与Mitchell Block共同制作了《The Testimony》。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦197⟧⟨293⟩⟦31⟧⟨295⟩⟨294⟩⟨296⟩⟦49⟧⟦49⟧⟨297⟩⟨298⟩⟦84⟧⟦170⟧",
+    "nounCount": 329,
+    "score": 0.4,
+    "recallUsage": {
+      "prompt_tokens": 5836,
+      "completion_tokens": 226,
+      "total_tokens": 6062,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5836
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 915,
+      "completion_tokens": 562,
+      "total_tokens": 1477,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 915
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_3740",
+    "question": "What was the alternate slang name for the World War I era grenade that the egg grenade was less awkw",
+    "expectedAnswer": "potato masher",
+    "predictedAnswer": "# 路径一：从“更易操作”的比较对象反推\n\n步骤1：使用⟦223⟧⟦111⟧⟦207⟧，提取 Model 17 Eierhandgranate（蛋形手榴弹）比 the heavier Kugelhandgranate 更便携，且比 the Stick grenade 更不笨拙（less awkward to handle）。\n\n步骤2：综合⟦236⟧⟦173⟧⟦82⟧，确认 the Stick grenade 即 Stielhandgranate，其字面义为“棍棒手榴弹”，是第一次世界大战时期德国的手榴弹。\n\n步骤3：使用⟦266⟧⟦267⟧，验证 Stielhandgranate 属于 World War I 时期，符合题干“World War I era grenade”的限定。\n\n结论：蛋形手榴弹比之更易操作的是一战时期的 Stielhandgranate（棍棒手榴弹），其替代俚语名称为“stick grenade”。\n\n# 路径二：从“棍棒”俚语名称交叉验证\n\n步骤1：使用⟦173⟧，提取“stick”这一关键词，对应 Stielhandgranate 的俗称。\n\n步骤2：综合⟦82⟧⟦266⟧，确认 Stielhandgranate 的设计属于 World War I 时期，且其名称本身即含“棍棒”之意。\n\n步骤3：使用⟦236⟧⟦111⟧，交叉验证 the Stick grenade 正是被 Model 17 Eierhandgranate 在便携性和操作便利性上超越的对象。\n\n结论：该一战手榴弹的替代俚语名称为“stick grenade”，对应德语 Stielhandgranate。\n\n# 路径三：从蛋形手榴弹条目直接定位比较对象\n\n步骤1：使用⟦223⟧，提取 Model 17 Eierhandgranate 的完整描述，其中明确提到它比 the Stick grenade 更不笨拙。\n\n步骤2：使用⟦236⟧，确认 the Stick grenade 即 Stielhandgranate，为一战时期德国制式手榴弹。\n\n步骤3：综合⟦266⟧⟦267⟧，验证时间范围为一战，排除其他时期的手榴弹。\n\n结论：答案为“stick grenade”（Stielhandgranate），即一战时期蛋形手榴弹比之更易操作的棍棒手榴弹的俚语名称。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦223⟧⟨101⟩⟦4⟧⟨102⟩⟨103⟩⟦40⟧⟨105⟩⟨104⟩⟨106⟩⟦102⟧⟨107⟩⟦267⟧",
+    "nounCount": 428,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6868,
+      "completion_tokens": 404,
+      "total_tokens": 7272,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6868
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1509,
+      "completion_tokens": 528,
+      "total_tokens": 2037,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1509
+    },
+    "batch": "160-170"
+  },
+  {
+    "qid": "hotpot_4428",
+    "question": "What kind of beverage does Planter's Punch and Black Velvet have in common?",
+    "expectedAnswer": "cocktail",
+    "predictedAnswer": "# 路径一：基于饮料类型分类的推理\n\n步骤1：使用⟦121⟧，提取 Planter's Punch 的饮料类型信息，判断其为一种鸡尾酒（cocktail）。\n\n步骤2：使用⟦154⟧，提取 The Black Velvet 的饮料类型信息，判断其同样被归类为鸡尾酒（cocktail）。\n\n步骤3：综合⟦121⟧⟦154⟧，对比两者的饮料类型，发现 Planter's Punch 和 Black Velvet 均属于鸡尾酒（cocktail）这一类别。\n\n结论：Planter's Punch 和 Black Velvet 的共同饮料类型是鸡尾酒（cocktail）。\n\n# 路径二：基于成分特征的交叉验证\n\n步骤1：使用⟦121⟧⟦28⟧，提取 Planter's Punch 被定义为 an IBA Official Cocktail，确认其鸡尾酒身份。\n\n步骤2：使用⟦154⟧⟦3⟧，提取 The Black Velvet 被定义为 a beer cocktail，确认其鸡尾酒身份。\n\n步骤3：综合⟦28⟧⟦3⟧，交叉验证两者均被明确标注为鸡尾酒（cocktail），尽管具体子类别不同（一个是 IBA Official Cocktail，一个是 beer cocktail），但共同的上位类别均为鸡尾酒。\n\n结论：Planter's Punch 和 Black Velvet 的共同点是它们都是鸡尾酒（cocktail）。\n\n# 路径三：基于材料中显式关键词的直接匹配\n\n步骤1：使用⟦121⟧，扫描 Planter's Punch 的描述，发现其被归类为鸡尾酒（⟦28⟧ 中明确出现 \"Cocktail\"）。\n\n步骤2：使用⟦154⟧，扫描 The Black Velvet 的描述，发现其被归类为鸡尾酒（⟦3⟧ 中明确出现 \"beer cocktail\"）。\n\n步骤3：综合⟦28⟧⟦3⟧，直接匹配两者描述中的共同关键词 \"cocktail\"，确认共同饮料类型。\n\n结论：Planter's Punch 和 Black Velvet 的共同饮料类型是鸡尾酒（cocktail）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦121⟧⟨43⟩⟦28⟧⟨44⟩⟦66⟧⟦132⟧⟨45⟩⟨46⟩⟦134⟧⟦94⟧⟨47⟩⟨48⟩",
+    "nounCount": 259,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4345,
+      "completion_tokens": 169,
+      "total_tokens": 4514,
+      "prompt_tokens_details": {
+        "cached_tokens": 4096
+      },
+      "prompt_cache_hit_tokens": 4096,
+      "prompt_cache_miss_tokens": 249
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 726,
+      "completion_tokens": 457,
+      "total_tokens": 1183,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 726
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_6933",
+    "question": "Which was formed first, Noori or Test Icicles?",
+    "expectedAnswer": "Noori",
+    "predictedAnswer": "# 路径一：直接比较成立年份\n\n步骤1：使用⟦100⟧⟦203⟧，提取 Noori 的成立信息——Noori 是一支来自巴基斯坦拉合尔的摇滚乐队，成立于1996年。\n\n步骤2：使用⟦16⟧⟦102⟧，提取 Test Icicles 的成立信息——Test Icicles 是一支短命的 dance-punk 乐队，于2004年由 Devonte Hynes 和 Sam Mehran 组建。\n\n步骤3：综合⟦203⟧⟦102⟧，对比两个年份：1996年 vs 2004年。\n\n结论：Noori 成立于1996年，Test Icicles 成立于2004年，因此 **Noori 成立更早**。\n\n---\n\n# 路径二：通过成员年龄与活跃时期交叉验证\n\n步骤1：使用⟦107⟧⟦108⟧，提取 Test Icicles 成员相关信息——Mehran 和 Hynes 在乐队成立时都只有18岁。\n\n步骤2：使用⟦182⟧⟦161⟧，提取 Test Icicles 的时间线索——乐队仅存在了几年时间，属于短命乐队。\n\n步骤3：使用⟦100⟧⟦203⟧，提取 Noori 的成立时间——1996年成立，且至今仍活跃于巴基斯坦摇滚乐坛。\n\n步骤4：综合⟦102⟧⟦203⟧，对比：Noori 成立于1996年，Test Icicles 成立于2004年，两者相差8年。\n\n结论：Noori 比 Test Icicles 早成立约8年，**Noori 成立更早**。\n\n---\n\n# 路径三：通过乐队性质与历史背景推断\n\n步骤1：使用⟦16⟧⟦42⟧⟦54⟧，提取 Test Icicles 的特征——短命的 dance-punk 乐队，来自英格兰，属于2000年代中期的音乐场景。\n\n步骤2：使用⟦100⟧⟦176⟧⟦106⟧，提取 Noori 的特征——来自巴基斯坦的摇滚乐队，成立于1996年，是巴基斯坦摇滚乐的先驱之一。\n\n步骤3：综合⟦203⟧⟦102⟧，对比两者的成立年份：Noori（1996年）明显早于 Test Icicles（2004年）。\n\n结论：从乐队成立年份来看，**Noori 成立更早**，比 Test Icicles 早8年。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦100⟧⟨191⟩⟦176⟧⟦185⟧⟨192⟩⟨193⟩⟦85⟧⟦168⟧⟨194⟩⟨195⟩⟦82⟧⟦82⟧",
+    "nounCount": 271,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4478,
+      "completion_tokens": 705,
+      "total_tokens": 5183,
+      "prompt_tokens_details": {
+        "cached_tokens": 4224
+      },
+      "prompt_cache_hit_tokens": 4224,
+      "prompt_cache_miss_tokens": 254
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 2168,
+      "completion_tokens": 533,
+      "total_tokens": 2701,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2168
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_4733",
+    "question": "Which author found inspiration in their career prior to writing, Hart Crane or John le Carré?",
+    "expectedAnswer": "John le Carré",
+    "predictedAnswer": "# 路径一：职业经历与创作灵感的直接关联\n\n步骤1：使用⟦77⟧⟦178⟧⟦236⟧，提取 John le Carré 的本名为 David John Moore Cornwell，其笔名即为 John le Carré，确认其身份为英国作家。\n\n步骤2：使用⟦87⟧⟦88⟧，提取 John le Carré 的写作主题为 espionage（间谍活动）和 espionage novels（间谍小说），这与其曾从事间谍职业的背景直接相关。\n\n步骤3：综合⟦16⟧⟦46⟧⟦129⟧，确认 John le Carré 是一位英国作家，其创作灵感来源于其间谍职业经历。\n\n结论：John le Carré 在写作之前曾从事间谍工作，并将这段职业经历转化为间谍小说的创作灵感。\n\n---\n\n# 路径二：Hart Crane 的职业与创作灵感来源对比\n\n步骤1：使用⟦105⟧⟦36⟧⟦172⟧，提取 Hart Crane 的全名为 Harold Hart Crane，是一位美国诗人。\n\n步骤2：使用⟦54⟧⟦123⟧⟦154⟧⟦173⟧⟦235⟧，提取 Hart Crane 的创作灵感来源于 both inspiration（双重灵感）、inspiration（灵感）、modernist poetry（现代主义诗歌）、poetry（诗歌）和 the poetry（诗歌），表明其灵感主要来自文学和诗歌传统，而非职业经历。\n\n步骤3：综合⟦126⟧⟦185⟧，对比 Hart Crane 的创作灵感来源为 its scope（其范围）和 scope（范围），进一步确认其灵感与职业无关。\n\n结论：Hart Crane 的创作灵感来源于诗歌传统和文学，而非其职业经历。\n\n---\n\n# 路径三：交叉验证两位作者的职业背景与创作主题\n\n步骤1：使用⟦132⟧⟦197⟧⟦248⟧，提取 Joseph Hone 的相关信息，包括 spy（间谍）和 the spy novel（间谍小说），作为对比参照。\n\n步骤2：综合⟦77⟧⟦87⟧⟦88⟧，交叉验证 John le Carré 的职业背景为间谍，其创作主题为间谍小说，两者高度一致。\n\n步骤3：综合⟦36⟧⟦105⟧⟦154⟧，交叉验证 Hart Crane 的职业背景为诗人，其创作主题为现代主义诗歌，与间谍职业无关。\n\n结论：John le Carré 的创作灵感直接来源于其间谍职业经历，而 Hart Crane 的创作灵感来源于诗歌传统，因此答案是 John le Carré。\n\n---\n\n# 路径四：综合支撑与最终判断\n\n步骤1：使用⟦16⟧⟦46⟧⟦129⟧，确认 John le Carré 为英国作家，其笔名为 John le Carré。\n\n步骤2：综合⟦87⟧⟦88⟧⟦248⟧，提取 John le Carré 的创作主题为间谍小说，与其间谍职业背景直接相关。\n\n步骤3：综合⟦36⟧⟦105⟧⟦154⟧⟦173⟧，对比 Hart Crane 的创作灵感来源于诗歌和现代主义文学，而非职业经历。\n\n结论：John le Carré 在写作之前从事间谍职业，并将这段经历转化为创作灵感，因此答案是 John le Carré。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦77⟧⟨41⟩⟦236⟧⟦178⟧⟨42⟩⟨43⟩⟨44⟩⟦16⟧⟨45⟩⟨46⟩⟦88⟧⟨47⟩",
+    "nounCount": 348,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5956,
+      "completion_tokens": 278,
+      "total_tokens": 6234,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 196
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1115,
+      "completion_tokens": 714,
+      "total_tokens": 1829,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1115
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_2390",
+    "question": "What film studio produced both National Treasure and The Computer Wore Tennis Shoes?",
+    "expectedAnswer": "Walt Disney Pictures",
+    "predictedAnswer": "# 路径一：通过发行/制作公司直接匹配\n\n步骤1：使用⟦91⟧，提取“National Treasure”是一部2004年美国冒险盗宝电影。\n\n步骤2：综合⟦13⟧⟦25⟧⟦67⟧，确认该片类型为冒险、盗宝，属于National Treasure系列。\n\n步骤3：使用⟦221⟧，提取National Treasure由Walt Disney Pictures制作并发行。\n\n步骤4：使用⟦166⟧，提取The Computer Wore Tennis Shoes (1995 film)是一部1995年美国电视电影。\n\n步骤5：综合⟦168⟧⟦178⟧，提取该1995年版由Walt Disney Television制作。\n\n步骤6：使用⟦47⟧，确认The Computer Wore Tennis Shoes系列属于Disney。\n\n结论：National Treasure由Walt Disney Pictures制作发行，The Computer Wore Tennis Shoes (1995)由Walt Disney Television制作，两者同属Disney体系，因此答案是Walt Disney Pictures（或Disney）。\n\n# 路径二：通过系列归属与翻拍关系交叉验证\n\n步骤1：使用⟦10⟧，提取The Computer Wore Tennis Shoes是一部1969年美国喜剧电影。\n\n步骤2：综合⟦38⟧⟦75⟧⟦170⟧，提取1969年版由Cesar Romero、Joe Flynn、William Schallert等主演。\n\n步骤3：使用⟦20⟧⟦100⟧，确认1995年版是对1969年版的翻拍（remake）。\n\n步骤4：综合⟦166⟧⟦168⟧，提取1995年翻拍版由Walt Disney Television制作，属于Disney电视电影。\n\n步骤5：使用⟦91⟧⟦221⟧，提取National Treasure由Walt Disney Pictures制作并发行。\n\n步骤6：综合⟦47⟧⟦166⟧⟦221⟧，交叉验证：The Computer Wore Tennis Shoes系列归属Disney，National Treasure也由Disney制作发行。\n\n结论：两个电影系列均由Disney旗下公司制作，National Treasure由Walt Disney Pictures制作，The Computer Wore Tennis Shoes由Walt Disney Television制作，共同母公司为Disney。\n\n# 路径三：通过材料中的制作公司标签综合支撑\n\n步骤1：使用⟦221⟧，提取National Treasure“produced and released by Walt Disney Pictures”。\n\n步骤2：使用⟦168⟧，提取The Computer Wore Tennis Shoes (1995 film)与“Walt Disney Television”相关联。\n\n步骤3：综合⟦166⟧⟦168⟧⟦178⟧，提取1995年版由Walt Disney Television制作，且该片为Disney电视电影。\n\n步骤4：使用⟦47⟧，确认Disney为The Computer Wore Tennis Shoes的出品方。\n\n步骤5：综合⟦47⟧⟦221⟧，对比两个材料：National Treasure的出品方为Walt Disney Pictures，The Computer Wore Tennis Shoes的出品方为Disney/Walt Disney Television。\n\n结论：两部作品均由Disney旗下制片厂制作，具体为Walt Disney Pictures（National Treasure）和Walt Disney Television（The Computer Wore Tennis Shoes），因此共同制片厂为Walt Disney Pictures/Disney。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟨2⟩⟦10⟧⟨4⟩⟨3⟩⟨5⟩⟨6⟩⟦38⟧⟨7⟩⟦75⟧⟨8⟩⟦170⟧",
+    "nounCount": 263,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4337,
+      "completion_tokens": 282,
+      "total_tokens": 4619,
+      "prompt_tokens_details": {
+        "cached_tokens": 4096
+      },
+      "prompt_cache_hit_tokens": 4096,
+      "prompt_cache_miss_tokens": 241
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1063,
+      "completion_tokens": 699,
+      "total_tokens": 1762,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1063
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_6346",
+    "question": "Which hospital, the Psychiatric Institute of Washington or Howard University Hospital, is known for ",
+    "expectedAnswer": "Howard University Hospital",
+    "predictedAnswer": "# 路径一：基于医院历史与社区服务对象的直接对比\n\n步骤1：使用⟦126⟧⟦332⟧⟦257⟧，提取 Howard University Hospital 的前身是 Freedmen's Hospital，建于 the site（the previous Griffith Stadium），其历史渊源与“自由民”直接相关。\n\n步骤2：综合⟦124⟧⟦258⟧⟦128⟧⟦339⟧，对比两家医院的服务对象——Howard University Hospital 的前身 Freedmen's Hospital 建立于1862年，旨在为 former slaves（⟦124⟧）、slaves（⟦258⟧）以及获得 freedom（⟦128⟧⟦339⟧）的 African Americans（⟦43⟧）提供医疗服务和 medical treatment（⟦193⟧）。\n\n步骤3：使用⟦279⟧⟦280⟧⟦282⟧，提取 Howard University Hospital 明确“has served the African American community（⟦279⟧）in the area's African-American community（⟦282⟧）”，服务对象直接指向非裔美国人社区。\n\n步骤4：使用⟦346⟧，提取 Psychiatric Institute of Washington 仅被提及为“treatment”，无任何关于服务非裔社区或前奴隶的记录。\n\n结论：Howard University Hospital 是已知服务于非裔美国人社区（包括 former slaves）的医院；Psychiatric Institute of Washington 无相关记录。\n\n---\n\n# 路径二：基于建立目的与历史使命的交叉验证\n\n步骤1：使用⟦286⟧，提取 Howard University Hospital“having been established in 1862 to cater for the medical needs（⟦314⟧）of the thousands（⟦335⟧⟦341⟧）of African Americans（⟦43⟧）who came to Washington D.C.（⟦350⟧）during the Civil War（⟦285⟧）, seeking their freedom（⟦339⟧）”。\n\n步骤2：综合⟦124⟧⟦258⟧⟦128⟧，交叉验证——建立目的中明确包含 former slaves（⟦124⟧）、slaves（⟦258⟧）以及寻求 freedom（⟦128⟧）的人群，与问题中“including former slaves”完全吻合。\n\n步骤3：使用⟦346⟧，对比 Psychiatric Institute of Washington——该机构在材料中仅出现“treatment”一词，无建立目的、服务对象或历史使命的任何描述。\n\n结论：Howard University Hospital 的建立目的直接指向为内战期间来到华盛顿的非裔美国人（包括前奴隶）提供医疗需求；Psychiatric Institute of Washington 无此历史记录。\n\n---\n\n# 路径三：基于材料覆盖度与主题一致性的综合判断\n\n步骤1：使用⟦126⟧⟦332⟧⟦257⟧⟦21⟧，提取 Howard University Hospital 被描述为“a major hospital（⟦21⟧）”，前身 Freedmen's Hospital（⟦126⟧），位于 the site（⟦332⟧⟦257⟧），材料覆盖其历史沿革、服务对象、建立目的等多维度信息。\n\n步骤2：综合⟦279⟧⟦282⟧⟦43⟧⟦124⟧⟦258⟧，交叉验证——多条材料一致指向 Howard University Hospital 与非裔美国人社区（⟦279⟧⟦282⟧⟦43⟧）及前奴隶（⟦124⟧⟦258⟧）之间的服务关系。\n\n步骤3：使用⟦346⟧，对比 Psychiatric Institute of Washington——材料中仅有一条记录且仅涉及“treatment”，无任何与非裔社区、前奴隶或历史使命相关的信息。\n\n结论：Howard University Hospital 在材料中被多维度、多材料交叉验证为服务于非裔美国人社区（包括前奴隶）的医院；Psychiatric Institute of Washington 缺乏任何相关证据。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨269⟩⟦126⟧⟨270⟩⟨271⟩⟦21⟧⟨272⟩⟨273⟩⟨274⟩⟨275⟩⟦332⟧⟦257⟧⟨276⟩",
+    "nounCount": 506,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8153,
+      "completion_tokens": 449,
+      "total_tokens": 8602,
+      "prompt_tokens_details": {
+        "cached_tokens": 7936
+      },
+      "prompt_cache_hit_tokens": 7936,
+      "prompt_cache_miss_tokens": 217
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1542,
+      "completion_tokens": 831,
+      "total_tokens": 2373,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1542
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_2394",
+    "question": "Which film was produced first, Dangal or The Man from Snowy River II?",
+    "expectedAnswer": "The Man from Snowy River II",
+    "predictedAnswer": "# 路径一：基于年份的直接比较\n\n步骤1：使用⟦13⟧，提取《Dangal》的类型描述，判断其年份信息——\"a 2016 Indian Hindi-language biographical sports drama film\"，明确为2016年。\n\n步骤2：使用⟦12⟧，提取《The Man from Snowy River II》的类型描述，判断其年份信息——\"a 1988 Australian drama film\"，明确为1988年。\n\n步骤3：综合⟦13⟧⟦12⟧，对比两部影片的年份：1988年早于2016年。\n\n结论：《The Man from Snowy River II》先制作（1988年），早于《Dangal》（2016年）。\n\n---\n\n# 路径二：基于续集关系的交叉验证\n\n步骤1：使用⟦139⟧⟦193⟧，提取《The Man from Snowy River II》与⟦160⟧的关系——该片是\"the 1982 film\"的\"sequel\"（续集）。\n\n步骤2：使用⟦160⟧，确认前作《The Man from Snowy River (1982 film)》的存在，说明该系列始于1982年，续集于1988年推出。\n\n步骤3：综合⟦13⟧⟦12⟧⟦139⟧，交叉验证：《Dangal》为2016年作品，而《The Man from Snowy River II》作为1982年电影的续集，其制作年份必然在1982年之后、但远早于2016年。\n\n结论：从续集时间线来看，《The Man from Snowy River II》的制作时间（1988年）明显早于《Dangal》（2016年）。\n\n---\n\n# 路径三：基于类型与主题的辅助判断\n\n步骤1：使用⟦13⟧⟦153⟧⟦155⟧，提取《Dangal》的类型特征——\"biographical sports drama film\"，其故事基于真实人物（⟦103⟧ Mahavir Singh Phogat及其女儿⟦74⟧⟦38⟧的摔跤经历）。\n\n步骤2：使用⟦12⟧⟦67⟧，提取《The Man from Snowy River II》的类型特征——\"Australian drama film\"，属于虚构剧情片。\n\n步骤3：综合⟦13⟧⟦12⟧，对比两部影片的制作背景：1980年代的澳大利亚剧情片与2010年代基于真实事件的印度体育传记片，后者在电影工业时间线上明显更晚。\n\n结论：从电影类型与制作背景判断，《The Man from Snowy River II》（1988年）先于《Dangal》（2016年）制作。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦60⟧⟨59⟩⟦8⟧⟨60⟩⟦232⟧⟨61⟩⟦55⟧⟨62⟩⟨63⟩⟦13⟧⟦100⟧⟨65⟩",
+    "nounCount": 341,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5636,
+      "completion_tokens": 273,
+      "total_tokens": 5909,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5636
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1084,
+      "completion_tokens": 573,
+      "total_tokens": 1657,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1084
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_2433",
+    "question": "Which band has released more albums with their original members, Sick Puppies or Third Eye Blind?",
+    "expectedAnswer": "Sick Puppies",
+    "predictedAnswer": "# 路径一：以“原始成员”与“专辑数量”为轴的综合对比\n\n步骤1：使用⟦146⟧⟦33⟧，提取 Sick Puppies 是一支澳大利亚摇滚乐队，成立于1997年；使用⟦18⟧⟦31⟧⟦140⟧，提取 Third Eye Blind 是一支来自旧金山的美国摇滚乐队。\n\n步骤2：综合⟦38⟧⟦39⟧⟦203⟧⟦142⟧，提取 Third Eye Blind 在1997年发行了首张同名专辑；综合⟦175⟧⟦7⟧⟦8⟧，提取该专辑为他们的首张录音室专辑，发行于1997年4月8日。\n\n步骤3：使用⟦86⟧⟦71⟧⟦32⟧，提取 Kevin Cadogan 是一位美国创作歌手，生于1970年8月14日；综合⟦80⟧⟦103⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧，提取他是 Third Eye Blind 的创始成员，1993至2000年间与乐队合作。\n\n步骤4：综合⟦87⟧⟦208⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧⟦163⟧⟦92⟧⟦93⟧⟦198⟧，提取 Kevin Cadogan 参与创作了 Third Eye Blind 的多首热门歌曲，并参与了首张专辑中14首歌中的10首。\n\n步骤5：使用⟦97⟧⟦33⟧⟦100⟧，提取 Sick Puppies 成立于1997年；综合⟦101⟧⟦128⟧⟦102⟧⟦103⟧⟦204⟧⟦152⟧⟦104⟧⟦105⟧⟦26⟧⟦106⟧⟦21⟧⟦107⟧⟦108⟧⟦230⟧⟦109⟧，提取 Sick Puppies 在2006年因歌曲《All the Same》及其视频上传至 YouTube 而获得显著关注。\n\n结论：Third Eye Blind 在原始成员 Kevin Cadogan 参与期间（1993–2000）至少发行了首张同名专辑，且 Cadogan 参与了其中大部分歌曲创作；而 Sick Puppies 虽成立于1997年，但材料仅提及其2006年因单曲走红，未显示与原始成员共同发行的专辑数量。因此，从现有材料看，Third Eye Blind 更符合“与原始成员发行更多专辑”的描述。\n\n# 路径二：以“成员变动与专辑归属”为轴的交叉验证\n\n步骤1：使用⟦86⟧⟦80⟧⟦103⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧，提取 Kevin Cadogan 是 Third Eye Blind 的创始成员，1993至2000年间在队；使用⟦87⟧⟦208⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧⟦163⟧⟦92⟧⟦93⟧⟦198⟧，提取他参与创作了乐队多首热门歌曲及首张专辑中的10首歌。\n\n步骤2：综合⟦38⟧⟦39⟧⟦203⟧⟦142⟧⟦41⟧⟦40⟧⟦42⟧⟦43⟧⟦44⟧⟦45⟧⟦46⟧⟦47⟧⟦48⟧⟦49⟧⟦50⟧⟦51⟧⟦52⟧⟦53⟧⟦54⟧⟦55⟧⟦56⟧，提取 Third Eye Blind 在1997年发行首张同名专辑时，成员包括 Kevin Cadogan、Arion Salazar 和 Brad Hargreaves 等原始阵容。\n\n步骤3：使用⟦97⟧⟦33⟧⟦100⟧，提取 Sick Puppies 成立于1997年；综合⟦101⟧⟦128⟧⟦102⟧⟦103⟧⟦204⟧⟦152⟧⟦104⟧⟦105⟧⟦26⟧⟦106⟧⟦21⟧⟦107⟧⟦108⟧⟦230⟧⟦109⟧，提取其走红始于2006年，材料未提及其原始成员阵容或与原始成员共同发行的专辑。\n\n步骤4：综合⟦23⟧⟦138⟧⟦158⟧⟦28⟧，提取 Out of the Vein 是 Third Eye Blind 的录音室专辑；使用⟦78⟧，提取其中涉及吉他手信息；使用⟦22⟧⟦80⟧，提取“A Whole Year”等热门歌曲与乐队相关。\n\n结论：Third Eye Blind 在原始成员 Kevin Cadogan 在队期间发行了至少一张专辑（首张同名专辑），且材料明确其原始成员阵容；Sick Puppies 的材料未显示与原始成员共同发行的专辑。因此 Third Eye Blind 更可能发行了更多与原始成员合作的专辑。\n\n# 路径三：以“材料覆盖范围”为轴的对比论证\n\n步骤1：使用⟦146⟧⟦33⟧，提取 Sick Puppies 是澳大利亚摇滚乐队；综合⟦101⟧⟦128⟧⟦102⟧⟦103⟧⟦204⟧⟦152⟧⟦104⟧⟦105⟧⟦26⟧⟦106⟧⟦21⟧⟦107⟧⟦108⟧⟦230⟧⟦109⟧，提取其材料主要围绕2006年单曲《All the Same》的走红，未提及专辑发行数量或原始成员。\n\n步骤2：使用⟦18⟧⟦31⟧⟦140⟧，提取 Third Eye Blind 是来自旧金山的美国摇滚乐队；综合⟦38⟧⟦39⟧⟦203⟧⟦142⟧⟦175⟧⟦7⟧⟦8⟧，提取其1997年发行首张同名专辑；使用⟦86⟧⟦80⟧⟦103⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧，提取 Kevin Cadogan 是创始成员，1993–2000年在队。\n\n步骤3：综合⟦87⟧⟦208⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧⟦163⟧⟦92⟧⟦93⟧⟦198⟧，提取 Cadogan 参与创作了首张专辑中10首歌；使用⟦23⟧⟦138⟧⟦158⟧⟦28⟧，提取 Out of the Vein 是另一张录音室专辑；使用⟦78⟧，提取吉他手信息。\n\n步骤4：综合⟦153⟧⟦222⟧，提取 Red Star (EP) 包含歌曲和视频；使用⟦166⟧⟦166⟧，提取 The band 相关表述；使用⟦149⟧⟦154⟧，提取 Stephan Jenkins 是歌手和词曲作者；使用⟦206⟧，提取 Third Eye Blind 多次出现。\n\n结论：材料对 Third Eye Blind 的专辑、成员和创作参与有更丰富的记录，包括首张同名专辑和 Out of the Vein 等；对 Sick Puppies 则仅提及其成立和单曲走红，未提专辑数量。因此，从材料覆盖范围判断，Third Eye Blind 更符合“与原始成员发行更多专辑”的答案。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨97⟩⟦33⟧⟨99⟩⟨98⟩⟨100⟩⟦146⟧⟦138⟧⟦42⟧⟦146⟧⟨101⟩⟦128⟧⟦128⟧",
+    "nounCount": 372,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5802,
+      "completion_tokens": 565,
+      "total_tokens": 6367,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5802
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1861,
+      "completion_tokens": 1709,
+      "total_tokens": 3570,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1861
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_4106",
+    "question": "Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemia",
+    "expectedAnswer": "John H. Garabedian",
+    "predictedAnswer": "# 路径一：职业身份对比\n\n步骤1：使用⟦118⟧⟦43⟧，提取 John Garabedian 的全名及其职业描述为“an American radio personality”，判断其身份与广播行业直接相关。\n\n步骤2：使用⟦67⟧⟦42⟧，提取 Charles A. Agemian 的全名及其职业描述为“an American banker”，判断其身份与银行业直接相关。\n\n步骤3：综合⟦43⟧⟦42⟧，对比两人的职业标签：John Garabedian 是 radio personality，Charles A. Agemian 是 banker，前者与“radio personality”直接匹配。\n\n结论：John Garabedian 更以 radio personality 闻名。\n\n# 路径二：职业细节交叉验证\n\n步骤1：使用⟦84⟧⟦113⟧，提取“disc jockey”和“jockey”两个相关词，结合⟦83⟧“disc”，判断“disc jockey”是广播行业的具体职位。\n\n步骤2：使用⟦173⟧，提取“radio”一词，结合⟦118⟧⟦43⟧中 John Garabedian 的 radio personality 身份，交叉验证其职业与广播直接相关。\n\n步骤3：使用⟦49⟧⟦42⟧，提取 Charles A. Agemian 的 banker 身份，结合⟦68⟧⟦93⟧⟦98⟧等银行相关词，判断其职业生涯集中在金融领域，与 disc jockey 无关。\n\n结论：John Garabedian 是 disc jockey 和 radio personality，而 Charles A. Agemian 是银行家，前者更符合问题描述。\n\n# 路径三：职业轨迹综合支撑\n\n步骤1：使用⟦67⟧⟦120⟧⟦131⟧⟦300⟧⟦301⟧，提取 Charles A. Agemian 的生卒日期及职业背景，结合⟦68⟧⟦93⟧⟦170⟧⟦98⟧，综合判断其一生主要担任银行高管职位。\n\n步骤2：使用⟦118⟧⟦383⟧⟦384⟧⟦385⟧⟦386⟧⟦387⟧⟦388⟧⟦389⟧⟦390⟧⟦391⟧⟦392⟧，提取 John Garabedian 的出生信息及职业描述，结合⟦43⟧⟦84⟧⟦113⟧⟦173⟧，综合判断其身份为广播界人士。\n\n步骤3：综合⟦42⟧⟦43⟧，对比两人的职业领域：Charles A. Agemian 是 banker，John Garabedian 是 radio personality 和 disc jockey，后者与问题中的“radio personality and disc jockey”完全吻合。\n\n结论：John Garabedian 是最以 radio personality 和 disc jockey 闻名的人。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦118⟧⟨383⟩⟦43⟧⟨385⟩⟦164⟧⟨384⟩⟨386⟩⟦83⟧⟦84⟧⟨387⟩⟦113⟧⟨388⟩",
+    "nounCount": 403,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 6359,
+      "completion_tokens": 233,
+      "total_tokens": 6592,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6359
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 942,
+      "completion_tokens": 639,
+      "total_tokens": 1581,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 942
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_410",
+    "question": "Which has the larger population, Shanghai or Hanggin Rear Banner?",
+    "expectedAnswer": "Shanghai",
+    "predictedAnswer": "# 路径一：直接数值对比\n\n步骤1：使用⟦185⟧⟦402⟧，提取上海的人口信息，得知上海人口超过2400万（as of 2014）。\n\n步骤2：使用⟦96⟧⟦9⟧，提取杭锦后旗的人口信息，得知其人口为30万（300,000 inhabitants）。\n\n步骤3：综合⟦402⟧⟦9⟧，对比两者数值：2400万 > 30万。\n\n结论：上海的人口远大于杭锦后旗，因此上海人口更多。\n\n# 路径二：行政级别与人口规模交叉验证\n\n步骤1：使用⟦185⟧⟦223⟧⟦233⟧，提取上海的行政地位信息，得知上海是中国四个直辖市之一，也是世界上人口最多的城市。\n\n步骤2：使用⟦96⟧⟦30⟧⟦52⟧，提取杭锦后旗的行政地位信息，得知杭锦后旗的行政中心是陕坝镇，属于旗县级行政区。\n\n步骤3：综合⟦233⟧⟦9⟧，对比行政级别与人口：上海作为直辖市/世界级大城市，人口超过2400万；杭锦后旗作为旗县级行政区，人口仅30万。\n\n结论：从行政级别和人口规模双重验证，上海人口远多于杭锦后旗。\n\n# 路径三：材料中人口数据的直接比较\n\n步骤1：使用⟦150⟧⟦23⟧，提取材料中关于“population”的通用信息，确认两处材料均涉及人口数据。\n\n步骤2：使用⟦402⟧，提取上海人口“more than 24 million”；使用⟦9⟧，提取杭锦后旗人口“300,000 inhabitants”。\n\n步骤3：综合⟦402⟧⟦9⟧，直接比较：24,000,000 > 300,000。\n\n结论：上海人口（超2400万）大于杭锦后旗人口（30万），上海人口更多。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦185⟧⟨393⟩⟦223⟧⟦132⟧⟨394⟩⟨395⟩⟦55⟧⟨396⟩⟦233⟧⟦57⟧⟨397⟩⟨398⟩",
+    "nounCount": 436,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7278,
+      "completion_tokens": 209,
+      "total_tokens": 7487,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7278
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 952,
+      "completion_tokens": 429,
+      "total_tokens": 1381,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 952
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_1165",
+    "question": "Are both Adolfo Bioy Casares and James Norman Hall Argentinian authors?",
+    "expectedAnswer": "no",
+    "predictedAnswer": "# 路径一：直接身份核验\n\n步骤1：使用⟦17⟧，提取 Adolfo Bioy Casares 的身份信息，判断其国籍与职业。\n\n步骤2：使用⟦99⟧，提取 James Norman Hall 的身份信息，判断其国籍与职业。\n\n步骤3：综合⟦17⟧⟦99⟧，对比两人的国籍归属，核验是否均为阿根廷作家。\n\n结论：Adolfo Bioy Casares 是阿根廷小说家（⟦24⟧），而 James Norman Hall 是美国作家（⟦22⟧），并非阿根廷人。因此两人不都是阿根廷作家。\n\n# 路径二：出生地与活动区域交叉验证\n\n步骤1：使用⟦17⟧⟦24⟧，确认 Adolfo Bioy Casares 为阿根廷小说家，其身份与阿根廷文学传统直接关联。\n\n步骤2：使用⟦99⟧⟦22⟧，确认 James Norman Hall 为美国作家，其国籍归属为美国。\n\n步骤3：综合⟦22⟧⟦24⟧，对比两人的国籍标签，发现一者为 Argentine，一者为 American，存在明确差异。\n\n结论：两人国籍不同，James Norman Hall 并非阿根廷作家，故“两人都是阿根廷作家”这一命题为假。\n\n# 路径三：职业与国籍的联合排除\n\n步骤1：使用⟦17⟧⟦24⟧⟦175⟧，提取 Adolfo Bioy Casares 的多重身份：阿根廷小说家、翻译家，均与阿根廷相关。\n\n步骤2：使用⟦99⟧⟦22⟧⟦182⟧，提取 James Norman Hall 的身份：美国作家，与阿根廷无国籍关联。\n\n步骤3：综合⟦24⟧⟦22⟧，交叉验证两人国籍标签，确认只有 Adolfo Bioy Casares 具有阿根廷国籍。\n\n结论：James Norman Hall 是美国作家而非阿根廷作家，因此并非两人都是阿根廷作家。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦17⟧⟨211⟩⟦135⟧⟨212⟩⟦112⟧⟨213⟩⟦24⟧⟨215⟩⟨214⟩⟨216⟩⟦102⟧⟦102⟧",
+    "nounCount": 252,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4399,
+      "completion_tokens": 290,
+      "total_tokens": 4689,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4399
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1103,
+      "completion_tokens": 416,
+      "total_tokens": 1519,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1103
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_289",
+    "question": "Which came to market first, \"Hey Pa! There's a Goat on the Roof\" or \"Poleconomy\"",
+    "expectedAnswer": "Hey Pa! There's a Goat on the Roof",
+    "predictedAnswer": "# 路径一：直接比较发行年份\n\n步骤1：使用⟦17⟧⟦323⟧⟦9⟧⟦206⟧，提取 \"Hey Pa! There's a Goat on the Roof\" 的相关信息——这是一款儿童棋盘游戏（⟦9⟧），由 Parker Brothers（⟦206⟧）于 1966 年发行。\n\n步骤2：使用⟦7⟧⟦195⟧⟦82⟧，提取 \"Poleconomy\" 的相关信息——这是一款棋盘游戏（⟦7⟧），由新西兰人 Bruce E. Hatherley（⟦195⟧）发明，并于 1980 年首次出版。\n\n步骤3：综合⟦206⟧⟦195⟧，对比两者的发行年份：1966 年 vs. 1980 年。\n\n结论：\"Hey Pa! There's a Goat on the Roof\" 于 1966 年发行，早于 \"Poleconomy\" 的 1980 年，因此前者更早进入市场。\n\n---\n\n# 路径二：交叉验证发行主体与时间线\n\n步骤1：使用⟦17⟧⟦323⟧⟦206⟧，确认 \"Hey Pa! There's a Goat on the Roof\" 由 Parker Brothers 发行，这是一家历史悠久的美国游戏公司，其发行时间标注为 1966 年。\n\n步骤2：使用⟦218⟧⟦195⟧，确认 \"Poleconomy\" 的发明者为 Bruce E. Hatherley，且该游戏与新西兰相关，首次出版时间为 1980 年。\n\n步骤3：综合⟦206⟧⟦195⟧，交叉验证：Parker Brothers 在 1966 年已是一家成熟公司，而 Poleconomy 的发明者直到 1980 年才将其推向市场，两者时间差为 14 年。\n\n结论：通过发行主体和时间线的交叉验证，\"Hey Pa! There's a Goat on the Roof\"（1966）比 \"Poleconomy\"（1980）早 14 年进入市场。\n\n---\n\n# 路径三：排除法——从游戏类型与出版背景推断\n\n步骤1：使用⟦9⟧⟦82⟧，识别 \"Hey Pa! There's a Goat on the Roof\" 为儿童棋盘游戏，这类游戏在 1960 年代由 Parker Brothers 大量生产。\n\n步骤2：使用⟦7⟧⟦195⟧，识别 \"Poleconomy\" 为一般棋盘游戏，由个人发明者 Bruce E. Hatherley 创作，1980 年才首次出版。\n\n步骤3：综合⟦9⟧⟦7⟧，对比两者类型与出版模式：Parker Brothers 的商业化儿童游戏 vs. 个人发明者的经济主题游戏，后者通常需要更长的开发与出版周期。\n\n结论：从游戏类型与出版背景推断，\"Hey Pa! There's a Goat on the Roof\" 作为 1966 年 Parker Brothers 的商业产品，必然早于 1980 年才出版的 \"Poleconomy\"。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦17⟧⟨70⟩⟦323⟧⟨71⟩⟦9⟧⟦82⟧⟨73⟩⟨74⟩⟨72⟩⟨75⟩⟦206⟧⟨76⟩",
+    "nounCount": 502,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8271,
+      "completion_tokens": 105,
+      "total_tokens": 8376,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 8271
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 583,
+      "completion_tokens": 677,
+      "total_tokens": 1260,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 583
+    },
+    "batch": "250-260"
+  },
+  {
+    "qid": "hotpot_5307",
+    "question": "Which documentary is the oldest, The Private Life of Plants or Marx Reloaded?",
+    "expectedAnswer": "The Private Life of Plants",
+    "predictedAnswer": "# 路径一：直接比较发行年份\n\n步骤1：使用⟦140⟧，提取“Marx Reloaded”的信息，判断其为⟦18⟧，即一部2011年的德国纪录片。\n\n步骤2：使用⟦169⟧，提取“Plants”的信息，结合⟦19⟧判断“The Private Life of Plants”是一部BBC自然纪录片系列。\n\n步骤3：综合⟦243⟧⟦116⟧，提取“The Private Life of Plants”的播出信息，判断其首次播出时间为1995年1月11日。\n\n结论：The Private Life of Plants（1995年）比 Marx Reloaded（2011年）更早，因此 The Private Life of Plants 是更古老的纪录片。\n\n# 路径二：通过纪录片类型与系列信息交叉验证\n\n步骤1：使用⟦140⟧⟦18⟧，确认 Marx Reloaded 是2011年的德国纪录片。\n\n步骤2：使用⟦19⟧⟦189⟧，确认 The Private Life of Plants 是BBC自然纪录片系列。\n\n步骤3：综合⟦67⟧⟦114⟧⟦243⟧⟦116⟧，提取该系列由 David Attenborough 撰写并主持，首次于1995年1月11日在英国播出。\n\n结论：The Private Life of Plants 的播出年份（1995）早于 Marx Reloaded 的制作年份（2011），因此 The Private Life of Plants 更古老。\n\n# 路径三：排除法——确认 Marx Reloaded 并非更早\n\n步骤1：使用⟦140⟧⟦18⟧，提取 Marx Reloaded 为2011年德国纪录片，明确其年份为2011。\n\n步骤2：使用⟦169⟧⟦19⟧⟦116⟧，提取 The Private Life of Plants 为1995年首播的BBC系列。\n\n步骤3：对比⟦18⟧与⟦116⟧，2011年晚于1995年，因此 Marx Reloaded 不可能更古老。\n\n结论：Marx Reloaded 比 The Private Life of Plants 晚16年，故 The Private Life of Plants 是两者中更古老的纪录片。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨109⟩⟦169⟧⟨110⟩⟦19⟧⟨112⟩⟨113⟩⟦189⟧⟨111⟩⟨114⟩⟦67⟧⟨115⟩⟦243⟧",
+    "nounCount": 390,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6352,
+      "completion_tokens": 121,
+      "total_tokens": 6473,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 208
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 642,
+      "completion_tokens": 473,
+      "total_tokens": 1115,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 642
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_2174",
+    "question": "Who was born first out of Todd Field and Aaron Katz?",
+    "expectedAnswer": "William Todd Field",
+    "predictedAnswer": "# 路径一：直接比较出生日期\n\n步骤1：使用⟦153⟧，提取 Todd Field 的全名 William Todd Field 及其出生日期 (born February 24, 1964)。\n\n步骤2：使用⟦14⟧，提取 Aaron Katz 的出生日期 (born October 29, 1981)。\n\n步骤3：综合⟦153⟧⟦14⟧，对比两个出生日期：1964年2月24日 与 1981年10月29日，1964年早于1981年。\n\n结论：Todd Field 出生更早。\n\n---\n\n# 路径二：通过职业身份交叉验证\n\n步骤1：使用⟦20⟧，提取 Todd Field 是 \"an American actor and three-time Academy Award nominated filmmaker\"，结合⟦153⟧确认其身份。\n\n步骤2：使用⟦23⟧，提取 Aaron Katz 是 \"an award-winning independent American filmmaker\"，结合⟦14⟧确认其身份。\n\n步骤3：综合⟦20⟧⟦23⟧，两人均为美国电影人，但⟦153⟧中 Todd Field 的出生年份为1964年，⟦14⟧中 Aaron Katz 的出生年份为1981年，前者早17年。\n\n结论：Todd Field 出生更早。\n\n---\n\n# 路径三：通过地理与职业背景辅助验证\n\n步骤1：使用⟦113⟧⟦109⟧，提取 Aaron Katz 与 Portland, Oregon 的关联，结合⟦14⟧确认其背景。\n\n步骤2：使用⟦61⟧，提取 Todd Field 的 filmmaker 身份，结合⟦153⟧确认其出生日期。\n\n步骤3：综合⟦14⟧⟦153⟧，尽管两人职业领域相近（均为独立电影人），但出生日期明确显示 Todd Field (1964) 早于 Aaron Katz (1981)。\n\n结论：Todd Field 出生更早。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦153⟧⟨132⟩⟦20⟧⟦16⟧⟨134⟩⟦147⟧⟨135⟩⟦61⟧⟨133⟩⟨136⟩⟨112⟩⟦23⟧",
+    "nounCount": 198,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 3570,
+      "completion_tokens": 89,
+      "total_tokens": 3659,
+      "prompt_tokens_details": {
+        "cached_tokens": 3328
+      },
+      "prompt_cache_hit_tokens": 3328,
+      "prompt_cache_miss_tokens": 242
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 536,
+      "completion_tokens": 417,
+      "total_tokens": 953,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 536
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_4841",
+    "question": "Blank Check and Air Bud are both examples of what type of movie?",
+    "expectedAnswer": "American comedy",
+    "predictedAnswer": "# 路径一：直接类型匹配\n\n步骤1：使用⟦9⟧，提取 Blank Check 的类型描述为“a 1994 American comedy film”，判断其核心类型为 comedy。\n\n步骤2：使用⟦10⟧，提取 Air Bud 的类型描述为“a 1997 American comedy film”，判断其核心类型同样为 comedy。\n\n步骤3：综合⟦9⟧⟦10⟧，对比两部影片的类型标签，发现两者均被明确归类为 comedy。\n\n结论：Blank Check 和 Air Bud 都是 comedy（喜剧片）。\n\n# 路径二：跨材料交叉验证\n\n步骤1：使用⟦39⟧，提取 Blank Check 的标题信息，确认该条目对应 Blank Check 这部影片。\n\n步骤2：使用⟦26⟧，提取 Air Bud 的标题信息，确认该条目对应 Air Bud 这部影片。\n\n步骤3：综合⟦54⟧⟦9⟧⟦10⟧，将共享类型词 comedy 分别与两部影片的完整描述交叉验证，确认 comedy 是两者共同且显式的类型标签。\n\n结论：两部影片共享同一类型标签 comedy，即喜剧片。\n\n# 路径三：排除法定位共同类型\n\n步骤1：使用⟦9⟧，提取 Blank Check 为“1994 American comedy film”，其中年份、国别、类型三者中类型词为 comedy。\n\n步骤2：使用⟦10⟧，提取 Air Bud 为“1997 American comedy film”，其中年份、国别、类型三者中类型词同样为 comedy。\n\n步骤3：综合⟦9⟧⟦10⟧，对比两部影片描述中的差异项（年份不同：1994 vs 1997）与共同项（国别相同：American；类型相同：comedy），锁定共同类型为 comedy。\n\n结论：排除年份等差异后，两部影片的共同类型是 comedy（喜剧片）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨54⟩⟦9⟧⟨56⟩⟨55⟩⟦39⟧⟦54⟧⟦63⟧⟦26⟧⟨232⟩⟦10⟧⟦54⟧⟨234⟩",
+    "nounCount": 241,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4149,
+      "completion_tokens": 138,
+      "total_tokens": 4287,
+      "prompt_tokens_details": {
+        "cached_tokens": 3968
+      },
+      "prompt_cache_hit_tokens": 3968,
+      "prompt_cache_miss_tokens": 181
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 639,
+      "completion_tokens": 406,
+      "total_tokens": 1045,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 639
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_1109",
+    "question": "What is the main flavor of both soft drinks, Solo from Norway, and Sunkist?",
+    "expectedAnswer": "orange",
+    "predictedAnswer": "# 路径一：直接特征提取\n\n步骤1：使用⟦38⟧，提取“an orange-flavoured soft drink”，判断该描述直接指向 Solo 的核心风味特征。\n\n步骤2：使用⟦166⟧，提取“primarily orange flavored soft drinks”，判断该描述直接指向 Sunkist 的核心风味特征。\n\n步骤3：综合⟦38⟧⟦166⟧，对比两者风味描述，发现均明确指向“orange”。\n\n结论：两种饮料的主要风味都是橙味（orange）。\n\n# 路径二：品牌与品类交叉验证\n\n步骤1：使用⟦189⟧，提取“Solo”，确认该材料对应挪威软饮料品牌 Solo。\n\n步骤2：使用⟦207⟧，提取“Sunkist”，确认该材料对应 Sunkist 品牌。\n\n步骤3：综合⟦8⟧⟦58⟧，提取“a brand”与“brand”，判断两者均属于软饮料品牌范畴，为后续风味对比提供品类一致性基础。\n\n步骤4：综合⟦38⟧⟦166⟧，交叉验证两个品牌的风味描述，均包含“orange flavoured / orange flavored”。\n\n结论：Solo 与 Sunkist 的主要风味一致，均为橙味。\n\n# 路径三：排除法定位核心风味\n\n步骤1：使用⟦93⟧⟦94⟧，提取“drink”与“drinks”，判断材料涉及饮料品类，但未给出具体风味。\n\n步骤2：使用⟦38⟧，提取“an orange-flavoured soft drink”，判断 Solo 的风味被明确限定为橙味。\n\n步骤3：使用⟦166⟧，提取“primarily orange flavored soft drinks”，判断 Sunkist 的风味被明确限定为橙味，且“primarily”强调主要风味。\n\n步骤4：综合⟦38⟧⟦166⟧，对比两者均未出现其他风味限定词，排除非橙味可能。\n\n结论：两种饮料的主要风味均为橙味。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨52⟩⟦38⟧⟨53⟩⟦189⟧⟦93⟧⟦207⟧⟨79⟩⟦8⟧⟦58⟧⟨80⟩⟨81⟩⟦166⟧",
+    "nounCount": 355,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5810,
+      "completion_tokens": 62,
+      "total_tokens": 5872,
+      "prompt_tokens_details": {
+        "cached_tokens": 5632
+      },
+      "prompt_cache_hit_tokens": 5632,
+      "prompt_cache_miss_tokens": 178
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 458,
+      "completion_tokens": 432,
+      "total_tokens": 890,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 458
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_2020",
+    "question": "What mine was operated by Royal Oak Mines at at earlier date, Kemess Mine or Colomac Mine?",
+    "expectedAnswer": "The Colomac Mine",
+    "predictedAnswer": "# 路径一：直接对比两矿的运营时间线\n\n步骤1：使用⟦265⟧⟦225⟧，提取 Colomac Mine 的运营主体信息——Colomac Mine 由 Royal Oak Mines Inc. 运营。\n\n步骤2：使用⟦420⟧⟦421⟧，提取 Kemess Mine 的运营主体信息——Kemess Mine 由 Northgate Minerals 从 1998 至 1999 年运营，之后被收购，未提及 Royal Oak Mines。\n\n步骤3：综合⟦225⟧⟦420⟧⟦421⟧，对比两矿与 Royal Oak Mines 的关联——Colomac Mine 明确由 Royal Oak Mines Inc. 运营，而 Kemess Mine 的运营方为 Northgate Minerals，与 Royal Oak Mines 无直接关联。\n\n结论：Colomac Mine 由 Royal Oak Mines 运营，且时间更早（Royal Oak Mines 于 1990 年代运营 Colomac，而 Kemess 于 1998 年才由 Northgate 运营）。\n\n# 路径二：通过 Royal Oak Mines 的破产时间反推\n\n步骤1：使用⟦337⟧⟦143⟧⟦200⟧⟦345⟧⟦43⟧，提取 Royal Oak Mines 的结局——因低金价和高成本被迫破产。\n\n步骤2：使用⟦331⟧⟦333⟧，提取 Colomac Mine 在 1994 年重新开业，此时由 Royal Oak Mines 运营。\n\n步骤3：使用⟦420⟧⟦421⟧，提取 Kemess Mine 于 1998 年才开始由 Northgate Minerals 运营，此时 Royal Oak Mines 已破产或濒临破产，不可能运营 Kemess。\n\n结论：Colomac Mine 由 Royal Oak Mines 在较早日期（1994年前后）运营，而 Kemess Mine 在 1998 年由其他公司运营，故答案为 Colomac Mine。\n\n# 路径三：交叉验证两矿的归属与时间\n\n步骤1：使用⟦265⟧⟦225⟧，确认 Colomac Mine 与 Royal Oak Mines Inc. 的关联。\n\n步骤2：使用⟦423⟧⟦424⟧⟦425⟧⟦426⟧⟦427⟧⟦429⟧，提取 Kemess Mine 的运营历史——由 Northgate 运营至 2011 年，后被 AuRico Metals 接管，全程无 Royal Oak Mines 参与。\n\n步骤3：综合⟦225⟧⟦423⟧⟦429⟧，对比两矿的运营方——Colomac 由 Royal Oak Mines 运营，Kemess 由 Northgate 和 AuRico 运营，Royal Oak Mines 仅与 Colomac 相关。\n\n结论：Royal Oak Mines 运营的是 Colomac Mine，且时间早于 Kemess Mine 的任何运营记录。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨312⟩⟦17⟧⟨314⟩⟨315⟩⟨313⟩⟨316⟩⟨317⟩⟦340⟧⟨318⟩⟨319⟩⟨320⟩⟦265⟧",
+    "nounCount": 541,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 8253,
+      "completion_tokens": 553,
+      "total_tokens": 8806,
+      "prompt_tokens_details": {
+        "cached_tokens": 8064
+      },
+      "prompt_cache_hit_tokens": 8064,
+      "prompt_cache_miss_tokens": 189
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1853,
+      "completion_tokens": 624,
+      "total_tokens": 2477,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1853
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_3789",
+    "question": "What profession does Leonty Magnitsky and Leonid Khachiyan have in common?",
+    "expectedAnswer": "mathematician",
+    "predictedAnswer": "# 路径一：直接职业标签比对\n\n步骤1：使用⟦25⟧，提取 Leonty Magnitsky 的职业描述为“a Russian mathematician”，判断其职业为数学家。\n步骤2：使用⟦146⟧，提取 Leonid Khachiyan 的职业描述为“mathematician”，判断其职业同样为数学家。\n步骤3：综合⟦25⟧⟦146⟧，对比两者的职业标签，发现均指向“mathematician”。\n\n结论：Leonty Magnitsky 和 Leonid Khachiyan 的共同职业是数学家（mathematician）。\n\n# 路径二：国籍与职业交叉验证\n\n步骤1：使用⟦142⟧⟦317⟧，提取 Leonty Magnitsky 的全名及俄语拼写，结合⟦5⟧⟦25⟧确认其为俄罗斯数学家。\n步骤2：使用⟦141⟧⟦315⟧，提取 Leonid Khachiyan 的全名及俄语/亚美尼亚语拼写，结合⟦206⟧⟦146⟧确认其为俄罗斯数学家。\n步骤3：综合⟦25⟧⟦146⟧，交叉验证两者均被明确标注为“mathematician”，且同属俄罗斯数学传统。\n\n结论：两人共享的职业身份是数学家，且均具有俄罗斯数学背景。\n\n# 路径三：教育者与数学家双重身份验证\n\n步骤1：使用⟦90⟧，提取“educator”这一职业标签，结合⟦25⟧判断 Leonty Magnitsky 同时是数学家和教育家。\n步骤2：使用⟦146⟧⟦207⟧，提取 Leonid Khachiyan 为数学家并在 Rutgers University 任教，结合⟦71⟧判断其也从事教育与计算机科学。\n步骤3：综合⟦25⟧⟦90⟧⟦146⟧，对比两者职业交集，发现“mathematician”是共同的核心职业标签，而“educator”仅明确出现于 Magnitsky 的材料中。\n\n结论：两人共同拥有的职业是数学家（mathematician），教育者身份仅为 Magnitsky 的附加标签。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦142⟧⟨54⟩⟨55⟩⟦317⟧⟨56⟩⟦237⟧⟨57⟩⟦5⟧⟨58⟩⟦320⟧⟨59⟩⟦132⟧",
+    "nounCount": 441,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7177,
+      "completion_tokens": 217,
+      "total_tokens": 7394,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7177
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 939,
+      "completion_tokens": 465,
+      "total_tokens": 1404,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 939
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_1376",
+    "question": "Was 9/11: Press for Truth released prior to Chasing Coral?",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：基于发行年份的直接对比\n\n步骤1：使用⟦12⟧，提取 Chasing Coral 的类型信息，判断其为 2017 年发行的纪录片。\n\n步骤2：使用⟦11⟧，提取 9/11: Press for Truth 的类型信息，判断其为 2006 年发行的纪录片。\n\n步骤3：综合⟦11⟧⟦12⟧，对比两者的发行年份：2006 年早于 2017 年。\n\n结论：是的，9/11: Press for Truth 在 Chasing Coral 之前发行。\n\n---\n\n# 路径二：基于影片标题与年份的交叉验证\n\n步骤1：使用⟦43⟧，提取 Chasing Coral 的标题信息，确认该片即为 Chasing Coral。\n\n步骤2：使用⟦118⟧，提取 9/11: Press for Truth 标题中的 \"Press\" 关键词，结合⟦214⟧确认其完整标题为 9/11: Press for Truth。\n\n步骤3：综合⟦11⟧⟦12⟧，将两部影片的标题与各自年份对应：9/11: Press for Truth（2006）与 Chasing Coral（2017），确认年份差异为 11 年。\n\n结论：是的，9/11: Press for Truth 发行于 Chasing Coral 之前。\n\n---\n\n# 路径三：基于导演与影片背景的辅助验证\n\n步骤1：使用⟦164⟧，提取 the American filmmaker Ray Nowosielski 的身份信息，结合⟦255⟧确认其为 9/11: Press for Truth 的导演之一。\n\n步骤2：使用⟦197⟧，提取 The Terror Timeline 的信息，结合⟦256⟧确认 9/11: Press for Truth 部分基于该书，进一步锁定该片为 2006 年作品。\n\n步骤3：综合⟦11⟧⟦12⟧，对比两部影片的发行年份，确认 2006 年早于 2017 年。\n\n结论：是的，9/11: Press for Truth 先于 Chasing Coral 发行。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨107⟩⟦12⟧⟨108⟩⟦43⟧⟦55⟧⟨243⟩⟨244⟩⟨245⟩⟦118⟧⟦118⟧⟦118⟧⟨246⟩",
+    "nounCount": 330,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 5611,
+      "completion_tokens": 147,
+      "total_tokens": 5758,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5611
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 672,
+      "completion_tokens": 451,
+      "total_tokens": 1123,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 672
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_373",
+    "question": "which is traditionally drunk before retiring to bed, Hot toddy or Kir?",
+    "expectedAnswer": "Hot toddy",
+    "predictedAnswer": "# 路径一：直接文本证据比对\n\n步骤1：使用⟦13⟧，提取 Hot toddy 的定义描述，其中包含“A hot toddy”作为饮品名称的完整说明。\n步骤2：综合⟦135⟧⟦92⟧⟦26⟧，交叉验证 Hot toddy 的饮用场景——⟦135⟧ 为“recipes”，⟦92⟧ 为“Hot toddy recipes”，⟦26⟧ 为“vary and are traditionally drunk before retiring for”，三者共同指向 Hot toddy 的传统饮用时机是睡前。\n步骤3：使用⟦102⟧，提取 Kir 的定义，⟦102⟧ 为“Kir”，结合⟦18⟧“a popular French cocktail”，判断 Kir 是一种法国鸡尾酒，但材料中未提及睡前饮用的传统。\n\n结论：Hot toddy 传统上在睡前饮用，Kir 无此传统描述。\n\n# 路径二：成分与场景交叉验证\n\n步骤1：综合⟦13⟧⟦93⟧⟦207⟧⟦95⟧，提取 Hot toddy 的核心成分——⟦93⟧“hot whiskey”、⟦207⟧“whiskey”、⟦95⟧“Ireland”，说明 Hot toddy 是爱尔兰风格的热威士忌饮品。\n步骤2：综合⟦13⟧⟦154⟧⟦87⟧⟦204⟧⟦148⟧，提取 Hot toddy 的其他成分——⟦154⟧“sugar”、⟦87⟧“honey”、⟦204⟧“water”、⟦148⟧“spices”，这些均为热饮常见配料，与睡前暖身场景一致。\n步骤3：综合⟦102⟧⟦18⟧⟦55⟧⟦208⟧⟦39⟧，提取 Kir 的成分——⟦55⟧“crème de cassis”、⟦208⟧“white wine”、⟦39⟧“blackcurrant”，为冷饮鸡尾酒，无睡前饮用关联。\n\n结论：Hot toddy 的热饮成分与睡前暖身传统吻合，Kir 为冷饮鸡尾酒，不符合睡前饮用场景。\n\n# 路径三：材料矛盾与缺失分析\n\n步骤1：使用⟦26⟧，提取关键短语“vary and are traditionally drunk before retiring for”，明确指向 Hot toddy 的睡前饮用传统。\n步骤2：综合⟦102⟧⟦17⟧⟦63⟧，对比 Kir 的相关描述——⟦17⟧“a mixed drink”、⟦63⟧“drink”，均未提及“before retiring”或“bed”等睡前场景词汇。\n步骤3：综合⟦189⟧⟦51⟧，检查 Blueberry Tea 材料中“toddy”与“cocktail”的关联，⟦189⟧“toddy”再次印证 toddy 类饮品的传统场景，而 Kir 无类似佐证。\n\n结论：材料中仅 Hot toddy 明确关联“睡前饮用”传统，Kir 缺乏任何睡前场景描述，故答案为 Hot toddy。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦13⟧⟨1⟩⟨2⟩⟦93⟧⟦207⟧⟨3⟩⟨4⟩⟦95⟧⟨5⟩⟨6⟩⟨7⟩⟦106⟧",
+    "nounCount": 276,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4730,
+      "completion_tokens": 330,
+      "total_tokens": 5060,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4730
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1170,
+      "completion_tokens": 682,
+      "total_tokens": 1852,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1170
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_4427",
+    "question": "Are Mike Bryan and Ray Ruffels both tennis players?",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：直接身份验证\n\n步骤1：使用⟦118⟧，提取 Michael Carl Bryan 的身份信息，结合占位符⟨118⟩可知其全名为 Mike Bryan，出生于1978年4月29日。\n\n步骤2：使用⟦34⟧，提取其职业身份为 \"an American professional tennis player\"（美国职业网球运动员）。\n\n步骤3：使用⟦151⟧，提取 Raymond Owen \"Ray\" Ruffels 的全名信息，结合占位符⟨176⟩可知其出生于1946年3月23日于悉尼。\n\n步骤4：使用⟦36⟧，提取其职业身份为 \"an Australian former professional tennis player\"（澳大利亚前职业网球运动员）。\n\n结论：Mike Bryan 是职业网球运动员，Ray Ruffels 也是职业网球运动员，两人均为网球运动员。\n\n# 路径二：交叉验证职业类别\n\n步骤1：使用⟦142⟧，提取 \"player\"（运动员）这一职业标签，该标签同时出现在 Mike Bryan 和 Ray Ruffels 的拓扑链中。\n\n步骤2：综合⟦174⟧，提取 \"tennis\"（网球）这一运动项目标签，该标签在 Tennis New Zealand 相关条目中出现，与网球运动直接关联。\n\n步骤3：综合⟦34⟧⟦36⟧，对比两人身份描述：Mike Bryan 为 \"American professional tennis player\"，Ray Ruffels 为 \"Australian former professional tennis player\"，两者均包含 \"tennis player\" 核心词组。\n\n结论：通过职业标签⟦142⟧和运动项目⟦174⟧的交叉验证，确认两人共享 \"tennis player\" 这一身份特征。\n\n# 路径三：国籍与职业状态对比\n\n步骤1：使用⟦34⟧，提取 Mike Bryan 的国籍为美国（American），职业状态为现役职业（professional）。\n\n步骤2：使用⟦36⟧，提取 Ray Ruffels 的国籍为澳大利亚（Australian），职业状态为前职业（former professional）。\n\n步骤3：综合⟦34⟧⟦36⟧，对比两人差异：国籍不同（美国 vs 澳大利亚），职业状态不同（现役 vs 退役），但共同点为均为 \"tennis player\"。\n\n结论：尽管国籍和职业阶段存在差异，但两人的核心职业身份一致，均为网球运动员。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦118⟧⟨118⟩⟦34⟧⟨120⟩⟨119⟩⟨121⟩⟦142⟧⟦174⟧⟦151⟧⟨176⟩⟦171⟧⟨177⟩",
+    "nounCount": 373,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6232,
+      "completion_tokens": 89,
+      "total_tokens": 6321,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6232
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 497,
+      "completion_tokens": 492,
+      "total_tokens": 989,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 497
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_1304",
+    "question": "Was Cars 2 released by the same company which used songs written by Lin-Manuel Miranda in another of",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：从发行公司与歌曲作者交叉验证\n\n步骤1：使用⟦12⟧⟦178⟧⟦275⟧，提取《Cars 2》的发行信息——该片由 Pixar Animation Studios 制作、Walt Disney Pictures 发行。\n\n步骤2：使用⟦139⟧⟦206⟧，提取 Lin-Manuel Miranda 为某部电影创作了歌曲；结合⟦101⟧可知其身份为电影歌曲作者。\n\n步骤3：综合⟦157⟧⟦169⟧⟦222⟧⟦276⟧，确认《Moana》原声带由 Walt Disney Records 发行，而该片是 2016 年迪士尼动画电影，Lin-Manuel Miranda 参与创作其中歌曲。\n\n结论：是。《Cars 2》由 Walt Disney Pictures 发行，而 Lin-Manuel Miranda 创作歌曲的《Moana》也是迪士尼的电影，两者同属迪士尼旗下公司体系。\n\n# 路径二：从原声带发行方与电影发行方对比\n\n步骤1：使用⟦254⟧⟦209⟧⟦223⟧⟦276⟧，提取《Moana》原声带由 Walt Disney Records 发行。\n\n步骤2：使用⟦12⟧⟦275⟧，提取《Cars 2》由 Walt Disney Pictures 发行。\n\n步骤3：综合⟦157⟧⟦222⟧，确认《Moana》是迪士尼动画电影，其原声带发行方 Walt Disney Records 与《Cars 2》发行方 Walt Disney Pictures 同属迪士尼公司。\n\n结论：是。两部电影的相关发行实体均归属迪士尼，因此《Cars 2》的发行公司与使用 Lin-Manuel Miranda 歌曲的《Moana》的发行方属于同一母公司。\n\n# 路径三：从 Lin-Manuel Miranda 的迪士尼关联反推\n\n步骤1：使用⟦139⟧⟦206⟧，提取 Lin-Manuel Miranda 为电影创作歌曲。\n\n步骤2：使用⟦157⟧⟦169⟧⟦222⟧，确认这些歌曲属于《Moana》原声带，而《Moana》是迪士尼动画电影。\n\n步骤3：使用⟦12⟧⟦275⟧，提取《Cars 2》由 Walt Disney Pictures 发行；综合⟦276⟧可知《Moana》原声带由 Walt Disney Records 发行，两者均为迪士尼旗下实体。\n\n结论：是。Lin-Manuel Miranda 创作歌曲的《Moana》与《Cars 2》同属迪士尼电影体系，发行公司一致。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨146⟩⟨147⟩⟦12⟧⟨149⟩⟦29⟧⟨150⟩⟦71⟧⟨151⟩⟦210⟧⟨152⟩⟨148⟩⟨153⟩",
+    "nounCount": 411,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6723,
+      "completion_tokens": 253,
+      "total_tokens": 6976,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6723
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 995,
+      "completion_tokens": 563,
+      "total_tokens": 1558,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 995
+    },
+    "batch": "290-300"
+  },
+  {
+    "qid": "hotpot_5239",
+    "question": "What country are both Dafeng District and Jixi in?",
+    "expectedAnswer": "China",
+    "predictedAnswer": "# 路径一：直接地理归属推理\n\n步骤1：使用⟦10⟧，提取 Dafeng District 是 a coastal district，结合⟦76⟧⟦15⟧，判断其行政归属信息。\n\n步骤2：使用⟦70⟧，提取 Jixi 位于 southeastern Heilongjiang Province，结合⟦23⟧，判断 Jixi 属于 China。\n\n步骤3：综合⟦10⟧⟦70⟧⟦23⟧，对比两者的地理归属，Dafeng District 和 Jixi 均位于中国境内。\n\n结论：Dafeng District 和 Jixi 都在 China（中国）。\n\n# 路径二：省级行政关联交叉验证\n\n步骤1：使用⟦44⟧，提取 Jiangsu province 的信息，结合⟦95⟧，判断 Yancheng 属于 Jiangsu province，而 Dafeng District 是 Yancheng 下辖的区。\n\n步骤2：使用⟦65⟧，提取 province 相关信息，结合⟦34⟧，判断 Jixi 是一个 district，隶属于 Heilongjiang Province。\n\n步骤3：综合⟦44⟧⟦65⟧⟦23⟧，交叉验证 Jiangsu province 和 Heilongjiang Province 均为 China 的省份，因此 Dafeng District 和 Jixi 同属 China。\n\n结论：Dafeng District 和 Jixi 都在 China（中国）。\n\n# 路径三：行政层级综合支撑\n\n步骤1：使用⟦30⟧，提取 Dafeng 的信息，结合⟦76⟧⟦15⟧，判断 Dafeng District 的 administration 归属。\n\n步骤2：使用⟦47⟧，提取 Jixi 的信息，结合⟦25⟧⟦23⟧，判断 Jixi 是一个 city，位于 China。\n\n步骤3：综合⟦30⟧⟦47⟧⟦23⟧，从行政层级角度确认 Dafeng District 和 Jixi 均为 China 的行政区划。\n\n结论：Dafeng District 和 Jixi 都在 China（中国）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨108⟩⟦10⟧⟨109⟩⟨110⟩⟦76⟧⟦15⟧⟨111⟩⟨112⟩⟨113⟩⟨114⟩⟨115⟩⟦30⟧",
+    "nounCount": 176,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 2835,
+      "completion_tokens": 107,
+      "total_tokens": 2942,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2835
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 576,
+      "completion_tokens": 459,
+      "total_tokens": 1035,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 576
+    },
+    "batch": "290-300"
+  }
+]

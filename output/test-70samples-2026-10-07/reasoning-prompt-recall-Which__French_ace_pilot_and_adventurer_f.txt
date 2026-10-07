@@ -1,0 +1,103 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[L'Oiseau Blanc] ⟦107⟧⟨255⟩⟦159⟧⟦203⟧⟨256⟩⟨257⟩⟦181⟧⟨258⟩⟦15⟧⟨259⟩⟦135⟧⟨260⟩⟦48⟧⟦48⟧⟨261⟩⟨262⟩⟦35⟧⟦43⟧⟨263⟩⟨264⟩⟦161⟧⟦82⟧⟨265⟩⟨266⟩⟨267⟩⟦120⟧⟨268⟩⟦172⟧⟨269⟩
+[L'Oiseau Blanc] ⟨270⟩⟨271⟩⟦44⟧⟨272⟩⟦93⟧⟨273⟩⟦56⟧⟨274⟩⟦85⟧⟨275⟩
+[L'Oiseau Blanc] ⟦129⟧ | ⟦152⟧⟦30⟧ | ⟦152⟧⟦30⟧⟨276⟩⟨277⟩⟦129⟧⟨278⟩⟦9⟧⟨279⟩⟦101⟧⟨280⟩
+[L'Oiseau Blanc] ⟨281⟩⟦197⟧⟨282⟩⟦55⟧⟨283⟩⟦170⟧⟦104⟧⟨284⟩⟨285⟩⟦176⟧⟦136⟧⟨286⟩⟨287⟩⟦149⟧⟨288⟩⟦146⟧⟨289⟩
+
+符号表：
+⟦9⟧ = 8 May
+⟦15⟧ = a French Levasseur
+⟦30⟧ = aircraft
+⟦35⟧ = an attempt
+⟦43⟧ = attempt
+⟦44⟧ = aviation
+⟦48⟧ = biplane
+⟦55⟧ = Charles Lindbergh
+⟦56⟧ = Charles Nungesser
+⟦82⟧ = flight
+⟦85⟧ = François Coli
+⟦93⟧ = heroes
+⟦101⟧ = Ireland
+⟦104⟧ = journey
+⟦107⟧ = L'Oiseau Blanc
+⟦120⟧ = New York City
+⟦129⟧ = Paris
+⟦135⟧ = PL.8
+⟦136⟧ = prize
+⟦146⟧ = St. Louis
+⟦149⟧ = the "Spirit
+⟦152⟧ = the aircraft
+⟦159⟧ = the English-speaking world
+⟦161⟧ = the first non-stop transatlantic flight
+⟦170⟧ = the New York–Paris journey
+⟦172⟧ = the Orteig Prize
+⟦176⟧ = the prize
+⟦181⟧ = The White Bird
+⟦197⟧ = weeks
+⟦203⟧ = world
+
+占位符映射：
+⟨255⟩ =  (commonly known in 
+⟨256⟩ = 
+⟨257⟩ =  as 
+⟨258⟩ =  ) was 
+⟨259⟩ =  
+⟨260⟩ =  
+⟨261⟩ = 
+⟨262⟩ =  that disappeared in 1927, during 
+⟨263⟩ = 
+⟨264⟩ =  to make 
+⟨265⟩ = 
+⟨266⟩ =  between 
+⟨267⟩ =  and 
+⟨268⟩ =  to compete for 
+⟨269⟩ = .
+⟨270⟩ = 
+⟨271⟩ =  was flown by French World War I 
+⟨272⟩ =  
+⟨273⟩ = , 
+⟨274⟩ =  and 
+⟨275⟩ = .
+⟨276⟩ = 
+⟨277⟩ =  took off from 
+⟨278⟩ =  on 
+⟨279⟩ =  1927 and was last seen over 
+⟨280⟩ = .
+⟨281⟩ =  Less than two 
+⟨282⟩ =  later, 
+⟨283⟩ =  successfully made 
+⟨284⟩ = 
+⟨285⟩ =  and claimed 
+⟨286⟩ = 
+⟨287⟩ = , flying 
+⟨288⟩ =  of 
+⟨289⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which  French ace pilot and adventurer fly L'Oiseau Blanc

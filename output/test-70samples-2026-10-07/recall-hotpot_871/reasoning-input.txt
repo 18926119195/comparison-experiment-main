@@ -1,0 +1,124 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Macbeth (opera)] ⟨136⟩⟦44⟧⟨137⟩⟨138⟩⟦104⟧⟦32⟧⟨139⟩⟨140⟩⟦114⟧⟨141⟩⟦43⟧⟦157⟧⟨142⟩⟨143⟩⟦106⟧⟨144⟩⟦33⟧⟦33⟧⟨145⟩⟨146⟩⟦45⟧⟨147⟩⟦321⟧⟦204⟧⟨148⟩⟨149⟩⟦288⟧⟦183⟧⟨150⟩⟨151⟩
+[Repertoire of Plácido Domingo] ⟦244⟧⟨207⟩⟨206⟩⟦11⟧⟨208⟩⟨209⟩
+[Repertoire of Plácido Domingo] ⟨210⟩⟦131⟧⟨211⟩⟨212⟩⟦9⟧⟨213⟩⟦65⟧⟨214⟩⟦307⟧⟨215⟩⟨216⟩⟦83⟧⟨217⟩⟦164⟧⟨218⟩⟦85⟧⟨219⟩⟦151⟧⟦99⟧⟨221⟩⟨220⟩⟦36⟧⟨222⟩⟦108⟧⟨223⟩⟦8⟧⟨224⟩⟦7⟧⟨225⟩⟦63⟧⟨226⟩⟦222⟧⟨227⟩⟦223⟧⟨228⟩⟦112⟧⟨229⟩⟦231⟧⟨230⟩⟦316⟧⟨231⟩
+[Repertoire of Plácido Domingo] ⟦216⟧
+[Repertoire of Plácido Domingo] ⟦163⟧ | ⟦90⟧
+[Plácido Domingo] ⟦219⟧
+[The Private Lives of the Three Tenors] ⟦186⟧
+[Plácido Domingo Ferrer] ⟦250⟧
+
+符号表：
+⟦7⟧ = "Werther", Don José
+⟦8⟧ = ("Faust
+⟦9⟧ = ("Otello
+⟦11⟧ = 147 roles
+⟦32⟧ = acts
+⟦33⟧ = additions
+⟦36⟧ = Aida
+⟦43⟧ = an Italian libretto
+⟦44⟧ = an opera
+⟦45⟧ = Andrea Maffei
+⟦63⟧ = Carmen
+⟦65⟧ = Cavaradossi
+⟦83⟧ = Des Grieux
+⟦85⟧ = Dick Johnson
+⟦90⟧ = Don Carlo
+⟦99⟧ = fanciulla
+⟦104⟧ = four acts
+⟦106⟧ = Francesco Maria Piave
+⟦108⟧ = French
+⟦112⟧ = German ("Lohengrin", "Parsifal
+⟦114⟧ = Giuseppe Verdi
+⟦131⟧ = His main repertoire
+⟦151⟧ = La fanciulla del West
+⟦157⟧ = libretto
+⟦163⟧ = Macbeth
+⟦164⟧ = Manon Lescaut
+⟦183⟧ = name
+⟦186⟧ = opera
+⟦204⟧ = play
+⟦216⟧ = repertoire
+⟦219⟧ = roles
+⟦222⟧ = Samson
+⟦223⟧ = Samson et Dalila
+⟦231⟧ = Siegmund
+⟦244⟧ = Spanish tenor Plácido Domingo
+⟦250⟧ = tenor
+⟦288⟧ = the same name
+⟦307⟧ = Tosca
+⟦316⟧ = Walküre
+⟦321⟧ = William Shakespeare's play
+
+占位符映射：
+⟨136⟩ =  (] ) is 
+⟨137⟩ = 
+⟨138⟩ =  in 
+⟨139⟩ = 
+⟨140⟩ =  by 
+⟨141⟩ = , with 
+⟨142⟩ = 
+⟨143⟩ =  by 
+⟨144⟩ =  and 
+⟨145⟩ = 
+⟨146⟩ =  by 
+⟨147⟩ = , based on 
+⟨148⟩ = 
+⟨149⟩ =  of 
+⟨150⟩ = 
+⟨151⟩ = .
+⟨206⟩ = 
+⟨207⟩ =  Plácido Domingo has officially sung 
+⟨208⟩ = 
+⟨209⟩ =  in Italian, French, German, English, Spanish and Russian.
+⟨210⟩ =  
+⟨211⟩ = 
+⟨212⟩ =  however is Italian 
+⟨213⟩ = ", 
+⟨214⟩ =  in "
+⟨215⟩ = ", "
+⟨216⟩ = ", 
+⟨217⟩ =  in "
+⟨218⟩ = ", 
+⟨219⟩ =  in "
+⟨220⟩ = 
+⟨221⟩ =  del West", Radames in "
+⟨222⟩ = "), 
+⟨223⟩ =  
+⟨224⟩ = ", 
+⟨225⟩ =  in "
+⟨226⟩ = ", 
+⟨227⟩ =  in "
+⟨228⟩ = "), and 
+⟨229⟩ = ", and 
+⟨230⟩ =  in "Die 
+⟨231⟩ = ").
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Repertoire of Plácido Domingo appeared in an opera written by whom which was based on a play by William Shakespeare?

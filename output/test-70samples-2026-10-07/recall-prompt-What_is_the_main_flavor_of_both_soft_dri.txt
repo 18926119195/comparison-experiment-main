@@ -1,0 +1,316 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "stonie" ginger beer
+⟦2⟧ = 1960s
+⟦3⟧ = 63 per cent
+⟦4⟧ = 十六茶
+⟦5⟧ = a bag
+⟦6⟧ = a beverage
+⟦7⟧ = a blended tea drink
+⟦8⟧ = a brand
+⟦9⟧ = a Cottee's product
+⟦10⟧ = a device
+⟦11⟧ = a dry blended green tea
+⟦12⟧ = a futsal team
+⟦13⟧ = A G Barr
+⟦14⟧ = a hobby
+⟦15⟧ = a joint venture premade beverage
+⟦16⟧ = a line
+⟦17⟧ = a list
+⟦18⟧ = a local bottler
+⟦19⟧ = a number
+⟦20⟧ = a producer
+⟦21⟧ = a proposed company
+⟦22⟧ = A soda fountain
+⟦23⟧ = a soda gun
+⟦24⟧ = A soft drink
+⟦25⟧ = a soft drink company
+⟦26⟧ = a soft drink manufacturer
+⟦27⟧ = a special container
+⟦28⟧ = a subsidiary
+⟦29⟧ = a supplier
+⟦30⟧ = a vending machine
+⟦31⟧ = a wide range
+⟦32⟧ = AA Drink
+⟦33⟧ = Aass
+⟦34⟧ = addition
+⟦35⟧ = agent
+⟦36⟧ = an American football team
+⟦37⟧ = an automated soda fountain
+⟦38⟧ = an orange-flavoured soft drink
+⟦39⟧ = annual sales
+⟦40⟧ = around 4,300 staff
+⟦41⟧ = Asahi Breweries
+⟦42⟧ = Asahi Inryō Kabushiki Kaisha
+⟦43⟧ = Asahi Soft Drinks
+⟦44⟧ = Asahi Soft Drinks Co., Ltd
+⟦45⟧ = bag
+⟦46⟧ = Bar-le-Duc
+⟦47⟧ = Barr Britvic Soft Drinks plc
+⟦48⟧ = Barr shareholders
+⟦49⟧ = bashi
+⟦50⟧ = beer
+⟦51⟧ = Ben Shaws
+⟦52⟧ = beverage
+⟦53⟧ = beverages
+⟦54⟧ = BIB
+⟦55⟧ = bitter lemonades
+⟦56⟧ = bottler
+⟦57⟧ = box
+⟦58⟧ = brand
+⟦59⟧ = brands
+⟦60⟧ = brewing
+⟦61⟧ = Britvic
+⟦62⟧ = caffeine
+⟦63⟧ = Canada
+⟦64⟧ = carbon
+⟦65⟧ = carbon dioxide
+⟦66⟧ = case
+⟦67⟧ = cent
+⟦68⟧ = Chanson
+⟦69⟧ = Chanson Cosmetics
+⟦70⟧ = chilled and purified water
+⟦71⟧ = Coca-Cola
+⟦72⟧ = colorings
+⟦73⟧ = combination
+⟦74⟧ = companies
+⟦75⟧ = company
+⟦76⟧ = concentrate
+⟦77⟧ = concession
+⟦78⟧ = consumption
+⟦79⟧ = container
+⟦80⟧ = convenience
+⟦81⟧ = convenience stores
+⟦82⟧ = cordials
+⟦83⟧ = corn
+⟦84⟧ = Cott
+⟦85⟧ = country
+⟦86⟧ = device
+⟦87⟧ = diet
+⟦88⟧ = diet drinks
+⟦89⟧ = dioxide
+⟦90⟧ = dispenses
+⟦91⟧ = district
+⟦92⟧ = Dr Pepper Snapple Group
+⟦93⟧ = drink
+⟦94⟧ = drinks
+⟦95⟧ = energy
+⟦96⟧ = energy drinks
+⟦97⟧ = English immigrant George Hall
+⟦98⟧ = entity
+⟦99⟧ = Europe
+⟦100⟧ = February
+⟦101⟧ = flavor
+⟦102⟧ = football
+⟦103⟧ = Former Britvic shareholders
+⟦104⟧ = fountain
+⟦105⟧ = fountain drinks
+⟦106⟧ = fruit
+⟦107⟧ = fruit juice
+⟦108⟧ = fruit syrups
+⟦109⟧ = futsal
+⟦110⟧ = Geo
+⟦111⟧ = ginger
+⟦112⟧ = GL-7
+⟦113⟧ = gun
+⟦114⟧ = Hall
+⟦115⟧ = Halls
+⟦116⟧ = high-fructose corn syrup
+⟦117⟧ = his teenage years
+⟦118⟧ = hobby
+⟦119⟧ = immigrant
+⟦120⟧ = ingredients
+⟦121⟧ = its own brands
+⟦122⟧ = Japan
+⟦123⟧ = juice
+⟦124⟧ = juice drinks
+⟦125⟧ = Jūrokucha
+⟦126⟧ = Kindercola
+⟦127⟧ = label
+⟦128⟧ = League
+⟦129⟧ = lemonades
+⟦130⟧ = line
+⟦131⟧ = list
+⟦132⟧ = local consumption
+⟦133⟧ = locations
+⟦134⟧ = London
+⟦135⟧ = machine
+⟦136⟧ = Mack
+⟦137⟧ = manufacturer
+⟦138⟧ = manufacturers
+⟦139⟧ = March
+⟦140⟧ = market
+⟦141⟧ = market share
+⟦142⟧ = Marryatville
+⟦143⟧ = merger
+⟦144⟧ = Mexico
+⟦145⟧ = mineral
+⟦146⟧ = mineral waters
+⟦147⟧ = Newer Cott brands
+⟦148⟧ = non alcoholic drinks
+⟦149⟧ = Norway
+⟦150⟧ = Norway's most popular soft drink
+⟦151⟧ = number
+⟦152⟧ = order
+⟦153⟧ = Orient Emporium
+⟦154⟧ = origin
+⟦155⟧ = Oskar Sylte
+⟦156⟧ = other ingredients
+⟦157⟧ = other locations
+⟦158⟧ = Other soft drinks
+⟦159⟧ = packaging
+⟦160⟧ = part
+⟦161⟧ = Passiona
+⟦162⟧ = Pepsi
+⟦163⟧ = per
+⟦164⟧ = portfolio
+⟦165⟧ = preservatives
+⟦166⟧ = primarily orange flavored soft drinks
+⟦167⟧ = private label
+⟦168⟧ = private label lemonades
+⟦169⟧ = private-label beverages
+⟦170⟧ = producer
+⟦171⟧ = product
+⟦172⟧ = Raak
+⟦173⟧ = range
+⟦174⟧ = RC
+⟦175⟧ = ready-to-drink teas
+⟦176⟧ = recipe
+⟦177⟧ = Red Rain Energy
+⟦178⟧ = restaurants
+⟦179⟧ = retailers
+⟦180⟧ = revenue
+⟦181⟧ = Ringnes
+⟦182⟧ = sales
+⟦183⟧ = share
+⟦184⟧ = shareholders
+⟦185⟧ = Shock Energy
+⟦186⟧ = smoothies
+⟦187⟧ = soda
+⟦188⟧ = soft drinks
+⟦189⟧ = Solo
+⟦190⟧ = some combination
+⟦191⟧ = Sons
+⟦192⟧ = South Australia
+⟦193⟧ = sport
+⟦194⟧ = sport drinks
+⟦195⟧ = sports
+⟦196⟧ = staff
+⟦197⟧ = stands
+⟦198⟧ = Stars
+⟦199⟧ = stonie
+⟦200⟧ = stores
+⟦201⟧ = Stripes
+⟦202⟧ = subsidiary
+⟦203⟧ = substitutes
+⟦204⟧ = sugar
+⟦205⟧ = sugar substitutes
+⟦206⟧ = Sumida
+⟦207⟧ = Sunkist
+⟦208⟧ = supplier
+⟦209⟧ = sweetener
+⟦210⟧ = syrup
+⟦211⟧ = syrup or syrup concentrate
+⟦212⟧ = syrups
+⟦213⟧ = tea
+⟦214⟧ = team
+⟦215⟧ = teas
+⟦216⟧ = the 1960s
+⟦217⟧ = the Asahi Soft Drinks Challengers
+⟦218⟧ = the Azuma-bashi district
+⟦219⟧ = the brand's country
+⟦220⟧ = the brewing
+⟦221⟧ = the case
+⟦222⟧ = the combined entity
+⟦223⟧ = The company
+⟦224⟧ = The Cott Corporation
+⟦225⟧ = The device
+⟦226⟧ = The drink
+⟦227⟧ = the Japanese X
+⟦228⟧ = the largest soft drinks companies
+⟦229⟧ = the merger
+⟦230⟧ = the Netherlands
+⟦231⟧ = the Norwegian companies
+⟦232⟧ = the packaging
+⟦233⟧ = the product
+⟦234⟧ = The recipe
+⟦235⟧ = The sweetener
+⟦236⟧ = the syrup
+⟦237⟧ = the Tønsberg Bryggeri
+⟦238⟧ = the United Kingdom
+⟦239⟧ = the United States
+⟦240⟧ = Their best known-brands
+⟦241⟧ = Today
+⟦242⟧ = Tokyo
+⟦243⟧ = Torleif Gulliksrud
+⟦244⟧ = two British soft drink manufacturers
+⟦245⟧ = United Soft Drinks
+⟦246⟧ = Utrecht
+⟦247⟧ = venture
+⟦248⟧ = Vintage
+⟦249⟧ = water
+⟦250⟧ = waters
+⟦251⟧ = years
+⟦252⟧ = アサヒ飲料株式会社
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[List of soft drinks by country] ⟨1⟩⟦17⟧⟨2⟩⟦131⟧⟨3⟩⟦188⟧⟨4⟩⟦94⟧⟨5⟩⟦152⟧⟨6⟩⟦152⟧⟨7⟩⟦219⟧⟨8⟩⟦58⟧⟨9⟩⟦85⟧⟨10⟩⟦154⟧⟨11⟩⟦154⟧⟨12⟩
+[List of soft drinks by country] ⟦24⟧⟨13⟩⟦93⟧⟨14⟩⟦6⟧⟨15⟩⟦52⟧⟨16⟩⟦249⟧⟨17⟩⟦249⟧⟨18⟩⟦249⟧⟨19⟩⟦209⟧⟨20⟩⟦35⟧⟨21⟩
+[List of soft drinks by country] ⟦235⟧⟨22⟩⟦209⟧⟨23⟩⟦204⟧⟨24⟩⟦204⟧⟨25⟩⟦116⟧⟨26⟩⟦83⟧⟨27⟩⟦210⟧⟨28⟩⟦106⟧⟨29⟩⟦107⟧⟨30⟩⟦123⟧⟨31⟩⟦204⟧⟨32⟩⟦205⟧⟨33⟩⟦203⟧⟨34⟩⟦221⟧⟨35⟩⟦66⟧⟨36⟩⟦87⟧⟨37⟩⟦88⟧⟨38⟩⟦94⟧⟨39⟩⟦190⟧⟨40⟩⟦73⟧⟨41⟩
+[List of soft drinks by country] ⟦188⟧⟨42⟩⟦94⟧⟨43⟩⟦62⟧⟨44⟩⟦62⟧⟨45⟩⟦72⟧⟨46⟩⟦72⟧⟨47⟩⟦165⟧⟨48⟩⟦165⟧⟨49⟩⟦156⟧⟨50⟩⟦120⟧⟨51⟩
+[Solo (Norwegian soft drink)] ⟦189⟧⟨52⟩⟦38⟧⟨53⟩⟦93⟧⟨54⟩⟦231⟧⟨55⟩⟦74⟧⟨56⟩⟦181⟧⟨57⟩⟦155⟧⟨58⟩⟦33⟧⟨59⟩⟦136⟧⟨60⟩
+[Solo (Norwegian soft drink)] ⟦234⟧⟨61⟩⟦176⟧⟨62⟩⟦237⟧⟨63⟩⟦243⟧⟨64⟩
+[Solo (Norwegian soft drink)] ⟦189⟧⟨65⟩⟦150⟧⟨66⟩⟦93⟧⟨67⟩⟦216⟧⟨68⟩⟦2⟧⟨69⟩⟦71⟧⟨70⟩⟦149⟧⟨71⟩
+[Solo (Norwegian soft drink)] ⟨72⟩⟦162⟧⟨73⟩⟦189⟧⟨74⟩⟦140⟧⟨75⟩⟦141⟧⟨76⟩⟦183⟧⟨77⟩⟦189⟧⟨78⟩
+[Sunkist (soft drink)] ⟦207⟧⟨79⟩⟦8⟧⟨80⟩⟦58⟧⟨81⟩⟦166⟧⟨82⟩⟦94⟧⟨83⟩
+[Jūrokucha] ⟦125⟧⟨84⟩⟦4⟧⟨85⟩⟦7⟧⟨86⟩⟦213⟧⟨87⟩⟦93⟧⟨88⟩⟦43⟧⟨89⟩⟦122⟧⟨90⟩
+[Jūrokucha] ⟦226⟧⟨91⟩⟦93⟧⟨92⟩⟦69⟧⟨93⟩⟦11⟧⟨94⟩⟦213⟧⟨95⟩
+[Jūrokucha] ⟨96⟩⟦139⟧⟨97⟩⟦68⟧⟨98⟩⟦43⟧⟨99⟩⟦125⟧⟨100⟩⟦15⟧⟨101⟩⟦247⟧⟨102⟩⟦52⟧⟨103⟩
+[Jūrokucha] ⟨104⟩⟦100⟧⟨105⟩⟦232⟧⟨106⟩⟦159⟧⟨107⟩⟦101⟧⟨108⟩⟦101⟧⟨109⟩
+[United Soft Drinks] ⟦245⟧⟨110⟩⟦20⟧⟨111⟩⟦170⟧⟨112⟩⟦188⟧⟨113⟩⟦94⟧⟨114⟩⟦246⟧⟨115⟩⟦230⟧⟨116⟩
+[United Soft Drinks] ⟦240⟧⟨117⟩⟦59⟧⟨118⟩⟦32⟧⟨119⟩⟦16⟧⟨120⟩⟦130⟧⟨121⟩⟦193⟧⟨122⟩⟦194⟧⟨123⟩⟦94⟧⟨124⟩⟦46⟧⟨125⟩⟦16⟧⟨126⟩⟦130⟧⟨127⟩⟦145⟧⟨128⟩⟦146⟧⟨129⟩⟦250⟧⟨130⟩⟦134⟧⟨131⟩⟦16⟧⟨132⟩⟦130⟧⟨133⟩⟦55⟧⟨134⟩⟦129⟧⟨135⟩⟦172⟧⟨136⟩⟦16⟧⟨137⟩⟦130⟧⟨138⟩⟦106⟧⟨139⟩⟦108⟧⟨140⟩⟦212⟧⟨141⟩⟦233⟧⟨142⟩⟦171⟧⟨143⟩⟦126⟧⟨144⟩
+[United Soft Drinks] ⟦223⟧⟨145⟩⟦75⟧⟨146⟩⟦19⟧⟨147⟩⟦151⟧⟨148⟩⟦168⟧⟨149⟩⟦127⟧⟨150⟩⟦129⟧⟨151⟩
+[Soda fountain] ⟦22⟧⟨152⟩⟦187⟧⟨153⟩⟦104⟧⟨154⟩⟦10⟧⟨155⟩⟦86⟧⟨156⟩⟦90⟧⟨157⟩⟦90⟧⟨158⟩⟦188⟧⟨159⟩⟦94⟧⟨160⟩⟦104⟧⟨161⟩⟦105⟧⟨162⟩⟦94⟧⟨163⟩
+[Soda fountain] ⟨164⟩⟦178⟧⟨165⟩⟦178⟧⟨166⟩⟦77⟧⟨167⟩⟦197⟧⟨168⟩⟦157⟧⟨169⟩⟦133⟧⟨170⟩⟦80⟧⟨171⟩⟦81⟧⟨172⟩⟦200⟧⟨173⟩
+[Soda fountain] ⟦225⟧⟨174⟩⟦86⟧⟨175⟩⟦210⟧⟨176⟩⟦211⟧⟨177⟩⟦210⟧⟨178⟩⟦76⟧⟨179⟩⟦64⟧⟨180⟩⟦65⟧⟨181⟩⟦89⟧⟨182⟩⟦70⟧⟨183⟩⟦249⟧⟨184⟩⟦188⟧⟨185⟩⟦94⟧⟨186⟩⟦30⟧⟨187⟩⟦135⟧⟨188⟩⟦37⟧⟨189⟩⟦187⟧⟨190⟩⟦104⟧⟨191⟩⟦23⟧⟨192⟩⟦187⟧⟨193⟩⟦113⟧⟨194⟩
+[Soda fountain] ⟨195⟩⟦241⟧⟨196⟩⟦236⟧⟨197⟩⟦210⟧⟨198⟩⟦27⟧⟨199⟩⟦79⟧⟨200⟩⟦5⟧⟨201⟩⟦45⟧⟨202⟩⟦57⟧⟨203⟩⟦57⟧⟨204⟩⟦54⟧⟨205⟩
+[Barr Britvic Soft Drinks] ⟦47⟧⟨206⟩⟦21⟧⟨207⟩⟦75⟧⟨208⟩⟦229⟧⟨209⟩⟦143⟧⟨210⟩⟦244⟧⟨211⟩⟦93⟧⟨212⟩⟦138⟧⟨213⟩⟦13⟧⟨214⟩⟦61⟧⟨215⟩
+[Barr Britvic Soft Drinks] ⟦103⟧⟨216⟩⟦184⟧⟨217⟩⟦3⟧⟨218⟩⟦163⟧⟨219⟩⟦67⟧⟨220⟩⟦222⟧⟨221⟩⟦98⟧⟨222⟩⟦48⟧⟨223⟩⟦184⟧⟨224⟩⟦67⟧⟨225⟩⟦67⟧⟨226⟩
+[Barr Britvic Soft Drinks] ⟨227⟩⟦180⟧⟨228⟩⟦180⟧⟨229⟩⟦228⟧⟨230⟩⟦94⟧⟨231⟩⟦74⟧⟨232⟩⟦99⟧⟨233⟩
+[Barr Britvic Soft Drinks] ⟦223⟧⟨234⟩⟦75⟧⟨235⟩⟦39⟧⟨236⟩⟦182⟧⟨237⟩⟦40⟧⟨238⟩⟦196⟧⟨239⟩
+[Geo. Hall &amp; Sons] ⟦110⟧⟨240⟩
+[Geo. Hall &amp; Sons] ⟦114⟧⟨241⟩⟦191⟧⟨242⟩⟦115⟧⟨243⟩⟦26⟧⟨244⟩⟦93⟧⟨245⟩⟦137⟧⟨246⟩⟦142⟧⟨247⟩⟦192⟧⟨248⟩⟦97⟧⟨249⟩⟦119⟧⟨250⟩
+[Geo. Hall &amp; Sons] ⟨251⟩⟦117⟧⟨252⟩⟦251⟧⟨253⟩⟦114⟧⟨254⟩⟦220⟧⟨255⟩⟦60⟧⟨256⟩⟦148⟧⟨257⟩⟦94⟧⟨258⟩⟦14⟧⟨259⟩⟦118⟧⟨260⟩
+[Geo. Hall &amp; Sons] ⟦115⟧⟨261⟩⟦31⟧⟨262⟩⟦173⟧⟨263⟩⟦188⟧⟨264⟩⟦94⟧⟨265⟩⟦82⟧⟨266⟩⟦82⟧⟨267⟩⟦18⟧⟨268⟩⟦56⟧⟨269⟩⟦1⟧⟨270⟩⟦199⟧⟨271⟩⟦111⟧⟨272⟩⟦50⟧⟨273⟩
+[Geo. Hall &amp; Sons] ⟦158⟧⟨274⟩⟦94⟧⟨275⟩⟦161⟧⟨276⟩⟦9⟧⟨277⟩⟦171⟧⟨278⟩⟦132⟧⟨279⟩⟦78⟧⟨280⟩
+[Asahi Soft Drinks] ⟦44⟧⟨281⟩⟦252⟧⟨282⟩⟦252⟧⟨283⟩⟦42⟧⟨284⟩⟦25⟧⟨285⟩⟦93⟧⟨286⟩⟦75⟧⟨287⟩⟦218⟧⟨288⟩⟦49⟧⟨289⟩⟦91⟧⟨290⟩⟦206⟧⟨291⟩⟦242⟧⟨292⟩⟦122⟧⟨293⟩
+[Asahi Soft Drinks] ⟨294⟩⟦28⟧⟨295⟩⟦202⟧⟨296⟩⟦41⟧⟨297⟩
+[Asahi Soft Drinks] ⟦223⟧⟨298⟩⟦75⟧⟨299⟩⟦217⟧⟨300⟩⟦36⟧⟨301⟩⟦102⟧⟨302⟩⟦214⟧⟨303⟩⟦227⟧⟨304⟩⟦128⟧⟨305⟩⟦12⟧⟨306⟩⟦109⟧⟨307⟩⟦214⟧⟨308⟩
+[Cott] ⟦224⟧⟨309⟩⟦29⟧⟨310⟩⟦208⟧⟨311⟩⟦167⟧⟨312⟩⟦127⟧⟨313⟩⟦188⟧⟨314⟩⟦94⟧⟨315⟩⟦239⟧⟨316⟩⟦63⟧⟨317⟩⟦144⟧⟨318⟩⟦238⟧⟨319⟩⟦99⟧⟨320⟩
+[Cott] ⟨321⟩⟦34⟧⟨322⟩⟦34⟧⟨323⟩⟦169⟧⟨324⟩⟦127⟧⟨325⟩⟦53⟧⟨326⟩⟦179⟧⟨327⟩⟦179⟧⟨328⟩⟦84⟧⟨329⟩⟦164⟧⟨330⟩⟦164⟧⟨331⟩⟦121⟧⟨332⟩⟦59⟧⟨333⟩⟦84⟧⟨334⟩⟦174⟧⟨335⟩⟦239⟧⟨336⟩⟦160⟧⟨337⟩⟦160⟧⟨338⟩⟦92⟧⟨339⟩⟦51⟧⟨340⟩⟦198⟧⟨341⟩⟦201⟧⟨342⟩⟦248⟧⟨343⟩⟦188⟧⟨344⟩⟦94⟧⟨345⟩⟦175⟧⟨346⟩⟦215⟧⟨347⟩⟦250⟧⟨348⟩⟦250⟧⟨349⟩⟦195⟧⟨350⟩⟦195⟧⟨351⟩⟦95⟧⟨352⟩⟦96⟧⟨353⟩⟦94⟧⟨354⟩⟦123⟧⟨355⟩⟦124⟧⟨356⟩⟦94⟧⟨357⟩⟦186⟧⟨358⟩⟦186⟧⟨359⟩⟦147⟧⟨360⟩⟦59⟧⟨361⟩⟦153⟧⟨362⟩⟦112⟧⟨363⟩⟦177⟧⟨364⟩⟦185⟧⟨365⟩
+
+[user]
+
+问题：
+What is the main flavor of both soft drinks, Solo from Norway, and Sunkist?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

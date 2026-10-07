@@ -1,0 +1,91 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Frida] ⟨68⟩⟦10⟧⟦29⟧⟨70⟩⟨71⟩⟨69⟩⟨72⟩⟦79⟧⟨73⟩
+[Mía Maestro] ⟨100⟩⟦25⟧⟨101⟩⟨102⟩⟦123⟧⟦125⟧⟨103⟩⟦129⟧⟨104⟩⟨105⟩
+[Mía Maestro] ⟦50⟧⟦59⟧ | ⟨106⟩⟦68⟧⟨107⟩⟨108⟩⟦104⟧⟨109⟩⟦5⟧⟨110⟩⟨111⟩⟦152⟧⟨113⟩⟦50⟧⟨112⟩⟨114⟩⟨115⟩⟦38⟧⟨116⟩⟦59⟧⟨117⟩⟦34⟧⟨118⟩⟦6⟧⟨119⟩
+[Nadia Santos] ⟦98⟧⟦135⟧⟦1⟧
+[Jean Paul Leroux] ⟦21⟧
+[Jean Paul Leroux] ⟦114⟧
+[Some Girl(s) (film)] ⟦90⟧
+[Some Girl(s) (film)] ⟦58⟧
+
+符号表：
+⟦1⟧ = "Alias
+⟦5⟧ = "The Strain
+⟦6⟧ = "The Twilight Saga
+⟦10⟧ = a 2002 American biopic drama film
+⟦21⟧ = Actress
+⟦25⟧ = an Argentine actress
+⟦29⟧ = biopic
+⟦34⟧ = Carmen
+⟦38⟧ = Christina Kahlo
+⟦50⟧ = drama
+⟦58⟧ = film
+⟦59⟧ = Frida
+⟦68⟧ = her role
+⟦79⟧ = Julie Taymor
+⟦90⟧ = Mía Maestro
+⟦98⟧ = Nadia Santos
+⟦104⟧ = Nora Martinez
+⟦114⟧ = role
+⟦123⟧ = singer
+⟦125⟧ = singer-songwriter
+⟦129⟧ = songwriter
+⟦135⟧ = television
+⟦152⟧ = the television drama
+
+占位符映射：
+⟨68⟩ =  is 
+⟨69⟩ = 
+⟨70⟩ =  
+⟨71⟩ =  
+⟨72⟩ =  directed by 
+⟨73⟩ = .
+⟨100⟩ =  (born June 19, 1978) is 
+⟨101⟩ = 
+⟨102⟩ =  and 
+⟨103⟩ = 
+⟨104⟩ = 
+⟨105⟩ = .
+⟨106⟩ =  She is best known for 
+⟨107⟩ = 
+⟨108⟩ =  as 
+⟨109⟩ =  in 
+⟨110⟩ = ", 
+⟨111⟩ =  in 
+⟨112⟩ = 
+⟨113⟩ =  
+⟨114⟩ =  
+⟨115⟩ = ", as 
+⟨116⟩ =  in "
+⟨117⟩ = ", and as 
+⟨118⟩ =  in 
+⟨119⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Mía Maestro had a role in the 2002 biopic directed by whom?

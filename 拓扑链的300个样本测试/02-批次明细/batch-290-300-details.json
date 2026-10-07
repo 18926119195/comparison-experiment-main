@@ -1,0 +1,343 @@
+[
+  {
+    "qid": "hotpot_5307",
+    "question": "Which documentary is the oldest, The Private Life of Plants or Marx Reloaded?",
+    "expectedAnswer": "The Private Life of Plants",
+    "predictedAnswer": "# 路径一：直接比较发行年份\n\n步骤1：使用⟦140⟧，提取“Marx Reloaded”的信息，判断其为⟦18⟧，即一部2011年的德国纪录片。\n\n步骤2：使用⟦169⟧，提取“Plants”的信息，结合⟦19⟧判断“The Private Life of Plants”是一部BBC自然纪录片系列。\n\n步骤3：综合⟦243⟧⟦116⟧，提取“The Private Life of Plants”的播出信息，判断其首次播出时间为1995年1月11日。\n\n结论：The Private Life of Plants（1995年）比 Marx Reloaded（2011年）更早，因此 The Private Life of Plants 是更古老的纪录片。\n\n# 路径二：通过纪录片类型与系列信息交叉验证\n\n步骤1：使用⟦140⟧⟦18⟧，确认 Marx Reloaded 是2011年的德国纪录片。\n\n步骤2：使用⟦19⟧⟦189⟧，确认 The Private Life of Plants 是BBC自然纪录片系列。\n\n步骤3：综合⟦67⟧⟦114⟧⟦243⟧⟦116⟧，提取该系列由 David Attenborough 撰写并主持，首次于1995年1月11日在英国播出。\n\n结论：The Private Life of Plants 的播出年份（1995）早于 Marx Reloaded 的制作年份（2011），因此 The Private Life of Plants 更古老。\n\n# 路径三：排除法——确认 Marx Reloaded 并非更早\n\n步骤1：使用⟦140⟧⟦18⟧，提取 Marx Reloaded 为2011年德国纪录片，明确其年份为2011。\n\n步骤2：使用⟦169⟧⟦19⟧⟦116⟧，提取 The Private Life of Plants 为1995年首播的BBC系列。\n\n步骤3：对比⟦18⟧与⟦116⟧，2011年晚于1995年，因此 Marx Reloaded 不可能更古老。\n\n结论：Marx Reloaded 比 The Private Life of Plants 晚16年，故 The Private Life of Plants 是两者中更古老的纪录片。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨109⟩⟦169⟧⟨110⟩⟦19⟧⟨112⟩⟨113⟩⟦189⟧⟨111⟩⟨114⟩⟦67⟧⟨115⟩⟦243⟧",
+    "nounCount": 390,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6352,
+      "completion_tokens": 121,
+      "total_tokens": 6473,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 208
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 642,
+      "completion_tokens": 473,
+      "total_tokens": 1115,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 642
+    }
+  },
+  {
+    "qid": "hotpot_2174",
+    "question": "Who was born first out of Todd Field and Aaron Katz?",
+    "expectedAnswer": "William Todd Field",
+    "predictedAnswer": "# 路径一：直接比较出生日期\n\n步骤1：使用⟦153⟧，提取 Todd Field 的全名 William Todd Field 及其出生日期 (born February 24, 1964)。\n\n步骤2：使用⟦14⟧，提取 Aaron Katz 的出生日期 (born October 29, 1981)。\n\n步骤3：综合⟦153⟧⟦14⟧，对比两个出生日期：1964年2月24日 与 1981年10月29日，1964年早于1981年。\n\n结论：Todd Field 出生更早。\n\n---\n\n# 路径二：通过职业身份交叉验证\n\n步骤1：使用⟦20⟧，提取 Todd Field 是 \"an American actor and three-time Academy Award nominated filmmaker\"，结合⟦153⟧确认其身份。\n\n步骤2：使用⟦23⟧，提取 Aaron Katz 是 \"an award-winning independent American filmmaker\"，结合⟦14⟧确认其身份。\n\n步骤3：综合⟦20⟧⟦23⟧，两人均为美国电影人，但⟦153⟧中 Todd Field 的出生年份为1964年，⟦14⟧中 Aaron Katz 的出生年份为1981年，前者早17年。\n\n结论：Todd Field 出生更早。\n\n---\n\n# 路径三：通过地理与职业背景辅助验证\n\n步骤1：使用⟦113⟧⟦109⟧，提取 Aaron Katz 与 Portland, Oregon 的关联，结合⟦14⟧确认其背景。\n\n步骤2：使用⟦61⟧，提取 Todd Field 的 filmmaker 身份，结合⟦153⟧确认其出生日期。\n\n步骤3：综合⟦14⟧⟦153⟧，尽管两人职业领域相近（均为独立电影人），但出生日期明确显示 Todd Field (1964) 早于 Aaron Katz (1981)。\n\n结论：Todd Field 出生更早。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦153⟧⟨132⟩⟦20⟧⟦16⟧⟨134⟩⟦147⟧⟨135⟩⟦61⟧⟨133⟩⟨136⟩⟨112⟩⟦23⟧",
+    "nounCount": 198,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 3570,
+      "completion_tokens": 89,
+      "total_tokens": 3659,
+      "prompt_tokens_details": {
+        "cached_tokens": 3328
+      },
+      "prompt_cache_hit_tokens": 3328,
+      "prompt_cache_miss_tokens": 242
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 536,
+      "completion_tokens": 417,
+      "total_tokens": 953,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 536
+    }
+  },
+  {
+    "qid": "hotpot_4841",
+    "question": "Blank Check and Air Bud are both examples of what type of movie?",
+    "expectedAnswer": "American comedy",
+    "predictedAnswer": "# 路径一：直接类型匹配\n\n步骤1：使用⟦9⟧，提取 Blank Check 的类型描述为“a 1994 American comedy film”，判断其核心类型为 comedy。\n\n步骤2：使用⟦10⟧，提取 Air Bud 的类型描述为“a 1997 American comedy film”，判断其核心类型同样为 comedy。\n\n步骤3：综合⟦9⟧⟦10⟧，对比两部影片的类型标签，发现两者均被明确归类为 comedy。\n\n结论：Blank Check 和 Air Bud 都是 comedy（喜剧片）。\n\n# 路径二：跨材料交叉验证\n\n步骤1：使用⟦39⟧，提取 Blank Check 的标题信息，确认该条目对应 Blank Check 这部影片。\n\n步骤2：使用⟦26⟧，提取 Air Bud 的标题信息，确认该条目对应 Air Bud 这部影片。\n\n步骤3：综合⟦54⟧⟦9⟧⟦10⟧，将共享类型词 comedy 分别与两部影片的完整描述交叉验证，确认 comedy 是两者共同且显式的类型标签。\n\n结论：两部影片共享同一类型标签 comedy，即喜剧片。\n\n# 路径三：排除法定位共同类型\n\n步骤1：使用⟦9⟧，提取 Blank Check 为“1994 American comedy film”，其中年份、国别、类型三者中类型词为 comedy。\n\n步骤2：使用⟦10⟧，提取 Air Bud 为“1997 American comedy film”，其中年份、国别、类型三者中类型词同样为 comedy。\n\n步骤3：综合⟦9⟧⟦10⟧，对比两部影片描述中的差异项（年份不同：1994 vs 1997）与共同项（国别相同：American；类型相同：comedy），锁定共同类型为 comedy。\n\n结论：排除年份等差异后，两部影片的共同类型是 comedy（喜剧片）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨54⟩⟦9⟧⟨56⟩⟨55⟩⟦39⟧⟦54⟧⟦63⟧⟦26⟧⟨232⟩⟦10⟧⟦54⟧⟨234⟩",
+    "nounCount": 241,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4149,
+      "completion_tokens": 138,
+      "total_tokens": 4287,
+      "prompt_tokens_details": {
+        "cached_tokens": 3968
+      },
+      "prompt_cache_hit_tokens": 3968,
+      "prompt_cache_miss_tokens": 181
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 639,
+      "completion_tokens": 406,
+      "total_tokens": 1045,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 639
+    }
+  },
+  {
+    "qid": "hotpot_1109",
+    "question": "What is the main flavor of both soft drinks, Solo from Norway, and Sunkist?",
+    "expectedAnswer": "orange",
+    "predictedAnswer": "# 路径一：直接特征提取\n\n步骤1：使用⟦38⟧，提取“an orange-flavoured soft drink”，判断该描述直接指向 Solo 的核心风味特征。\n\n步骤2：使用⟦166⟧，提取“primarily orange flavored soft drinks”，判断该描述直接指向 Sunkist 的核心风味特征。\n\n步骤3：综合⟦38⟧⟦166⟧，对比两者风味描述，发现均明确指向“orange”。\n\n结论：两种饮料的主要风味都是橙味（orange）。\n\n# 路径二：品牌与品类交叉验证\n\n步骤1：使用⟦189⟧，提取“Solo”，确认该材料对应挪威软饮料品牌 Solo。\n\n步骤2：使用⟦207⟧，提取“Sunkist”，确认该材料对应 Sunkist 品牌。\n\n步骤3：综合⟦8⟧⟦58⟧，提取“a brand”与“brand”，判断两者均属于软饮料品牌范畴，为后续风味对比提供品类一致性基础。\n\n步骤4：综合⟦38⟧⟦166⟧，交叉验证两个品牌的风味描述，均包含“orange flavoured / orange flavored”。\n\n结论：Solo 与 Sunkist 的主要风味一致，均为橙味。\n\n# 路径三：排除法定位核心风味\n\n步骤1：使用⟦93⟧⟦94⟧，提取“drink”与“drinks”，判断材料涉及饮料品类，但未给出具体风味。\n\n步骤2：使用⟦38⟧，提取“an orange-flavoured soft drink”，判断 Solo 的风味被明确限定为橙味。\n\n步骤3：使用⟦166⟧，提取“primarily orange flavored soft drinks”，判断 Sunkist 的风味被明确限定为橙味，且“primarily”强调主要风味。\n\n步骤4：综合⟦38⟧⟦166⟧，对比两者均未出现其他风味限定词，排除非橙味可能。\n\n结论：两种饮料的主要风味均为橙味。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨52⟩⟦38⟧⟨53⟩⟦189⟧⟦93⟧⟦207⟧⟨79⟩⟦8⟧⟦58⟧⟨80⟩⟨81⟩⟦166⟧",
+    "nounCount": 355,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5810,
+      "completion_tokens": 62,
+      "total_tokens": 5872,
+      "prompt_tokens_details": {
+        "cached_tokens": 5632
+      },
+      "prompt_cache_hit_tokens": 5632,
+      "prompt_cache_miss_tokens": 178
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 458,
+      "completion_tokens": 432,
+      "total_tokens": 890,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 458
+    }
+  },
+  {
+    "qid": "hotpot_2020",
+    "question": "What mine was operated by Royal Oak Mines at at earlier date, Kemess Mine or Colomac Mine?",
+    "expectedAnswer": "The Colomac Mine",
+    "predictedAnswer": "# 路径一：直接对比两矿的运营时间线\n\n步骤1：使用⟦265⟧⟦225⟧，提取 Colomac Mine 的运营主体信息——Colomac Mine 由 Royal Oak Mines Inc. 运营。\n\n步骤2：使用⟦420⟧⟦421⟧，提取 Kemess Mine 的运营主体信息——Kemess Mine 由 Northgate Minerals 从 1998 至 1999 年运营，之后被收购，未提及 Royal Oak Mines。\n\n步骤3：综合⟦225⟧⟦420⟧⟦421⟧，对比两矿与 Royal Oak Mines 的关联——Colomac Mine 明确由 Royal Oak Mines Inc. 运营，而 Kemess Mine 的运营方为 Northgate Minerals，与 Royal Oak Mines 无直接关联。\n\n结论：Colomac Mine 由 Royal Oak Mines 运营，且时间更早（Royal Oak Mines 于 1990 年代运营 Colomac，而 Kemess 于 1998 年才由 Northgate 运营）。\n\n# 路径二：通过 Royal Oak Mines 的破产时间反推\n\n步骤1：使用⟦337⟧⟦143⟧⟦200⟧⟦345⟧⟦43⟧，提取 Royal Oak Mines 的结局——因低金价和高成本被迫破产。\n\n步骤2：使用⟦331⟧⟦333⟧，提取 Colomac Mine 在 1994 年重新开业，此时由 Royal Oak Mines 运营。\n\n步骤3：使用⟦420⟧⟦421⟧，提取 Kemess Mine 于 1998 年才开始由 Northgate Minerals 运营，此时 Royal Oak Mines 已破产或濒临破产，不可能运营 Kemess。\n\n结论：Colomac Mine 由 Royal Oak Mines 在较早日期（1994年前后）运营，而 Kemess Mine 在 1998 年由其他公司运营，故答案为 Colomac Mine。\n\n# 路径三：交叉验证两矿的归属与时间\n\n步骤1：使用⟦265⟧⟦225⟧，确认 Colomac Mine 与 Royal Oak Mines Inc. 的关联。\n\n步骤2：使用⟦423⟧⟦424⟧⟦425⟧⟦426⟧⟦427⟧⟦429⟧，提取 Kemess Mine 的运营历史——由 Northgate 运营至 2011 年，后被 AuRico Metals 接管，全程无 Royal Oak Mines 参与。\n\n步骤3：综合⟦225⟧⟦423⟧⟦429⟧，对比两矿的运营方——Colomac 由 Royal Oak Mines 运营，Kemess 由 Northgate 和 AuRico 运营，Royal Oak Mines 仅与 Colomac 相关。\n\n结论：Royal Oak Mines 运营的是 Colomac Mine，且时间早于 Kemess Mine 的任何运营记录。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨312⟩⟦17⟧⟨314⟩⟨315⟩⟨313⟩⟨316⟩⟨317⟩⟦340⟧⟨318⟩⟨319⟩⟨320⟩⟦265⟧",
+    "nounCount": 541,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 8253,
+      "completion_tokens": 553,
+      "total_tokens": 8806,
+      "prompt_tokens_details": {
+        "cached_tokens": 8064
+      },
+      "prompt_cache_hit_tokens": 8064,
+      "prompt_cache_miss_tokens": 189
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1853,
+      "completion_tokens": 624,
+      "total_tokens": 2477,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1853
+    }
+  },
+  {
+    "qid": "hotpot_3789",
+    "question": "What profession does Leonty Magnitsky and Leonid Khachiyan have in common?",
+    "expectedAnswer": "mathematician",
+    "predictedAnswer": "# 路径一：直接职业标签比对\n\n步骤1：使用⟦25⟧，提取 Leonty Magnitsky 的职业描述为“a Russian mathematician”，判断其职业为数学家。\n步骤2：使用⟦146⟧，提取 Leonid Khachiyan 的职业描述为“mathematician”，判断其职业同样为数学家。\n步骤3：综合⟦25⟧⟦146⟧，对比两者的职业标签，发现均指向“mathematician”。\n\n结论：Leonty Magnitsky 和 Leonid Khachiyan 的共同职业是数学家（mathematician）。\n\n# 路径二：国籍与职业交叉验证\n\n步骤1：使用⟦142⟧⟦317⟧，提取 Leonty Magnitsky 的全名及俄语拼写，结合⟦5⟧⟦25⟧确认其为俄罗斯数学家。\n步骤2：使用⟦141⟧⟦315⟧，提取 Leonid Khachiyan 的全名及俄语/亚美尼亚语拼写，结合⟦206⟧⟦146⟧确认其为俄罗斯数学家。\n步骤3：综合⟦25⟧⟦146⟧，交叉验证两者均被明确标注为“mathematician”，且同属俄罗斯数学传统。\n\n结论：两人共享的职业身份是数学家，且均具有俄罗斯数学背景。\n\n# 路径三：教育者与数学家双重身份验证\n\n步骤1：使用⟦90⟧，提取“educator”这一职业标签，结合⟦25⟧判断 Leonty Magnitsky 同时是数学家和教育家。\n步骤2：使用⟦146⟧⟦207⟧，提取 Leonid Khachiyan 为数学家并在 Rutgers University 任教，结合⟦71⟧判断其也从事教育与计算机科学。\n步骤3：综合⟦25⟧⟦90⟧⟦146⟧，对比两者职业交集，发现“mathematician”是共同的核心职业标签，而“educator”仅明确出现于 Magnitsky 的材料中。\n\n结论：两人共同拥有的职业是数学家（mathematician），教育者身份仅为 Magnitsky 的附加标签。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦142⟧⟨54⟩⟨55⟩⟦317⟧⟨56⟩⟦237⟧⟨57⟩⟦5⟧⟨58⟩⟦320⟧⟨59⟩⟦132⟧",
+    "nounCount": 441,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7177,
+      "completion_tokens": 217,
+      "total_tokens": 7394,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7177
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 939,
+      "completion_tokens": 465,
+      "total_tokens": 1404,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 939
+    }
+  },
+  {
+    "qid": "hotpot_1376",
+    "question": "Was 9/11: Press for Truth released prior to Chasing Coral?",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：基于发行年份的直接对比\n\n步骤1：使用⟦12⟧，提取 Chasing Coral 的类型信息，判断其为 2017 年发行的纪录片。\n\n步骤2：使用⟦11⟧，提取 9/11: Press for Truth 的类型信息，判断其为 2006 年发行的纪录片。\n\n步骤3：综合⟦11⟧⟦12⟧，对比两者的发行年份：2006 年早于 2017 年。\n\n结论：是的，9/11: Press for Truth 在 Chasing Coral 之前发行。\n\n---\n\n# 路径二：基于影片标题与年份的交叉验证\n\n步骤1：使用⟦43⟧，提取 Chasing Coral 的标题信息，确认该片即为 Chasing Coral。\n\n步骤2：使用⟦118⟧，提取 9/11: Press for Truth 标题中的 \"Press\" 关键词，结合⟦214⟧确认其完整标题为 9/11: Press for Truth。\n\n步骤3：综合⟦11⟧⟦12⟧，将两部影片的标题与各自年份对应：9/11: Press for Truth（2006）与 Chasing Coral（2017），确认年份差异为 11 年。\n\n结论：是的，9/11: Press for Truth 发行于 Chasing Coral 之前。\n\n---\n\n# 路径三：基于导演与影片背景的辅助验证\n\n步骤1：使用⟦164⟧，提取 the American filmmaker Ray Nowosielski 的身份信息，结合⟦255⟧确认其为 9/11: Press for Truth 的导演之一。\n\n步骤2：使用⟦197⟧，提取 The Terror Timeline 的信息，结合⟦256⟧确认 9/11: Press for Truth 部分基于该书，进一步锁定该片为 2006 年作品。\n\n步骤3：综合⟦11⟧⟦12⟧，对比两部影片的发行年份，确认 2006 年早于 2017 年。\n\n结论：是的，9/11: Press for Truth 先于 Chasing Coral 发行。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨107⟩⟦12⟧⟨108⟩⟦43⟧⟦55⟧⟨243⟩⟨244⟩⟨245⟩⟦118⟧⟦118⟧⟦118⟧⟨246⟩",
+    "nounCount": 330,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 5611,
+      "completion_tokens": 147,
+      "total_tokens": 5758,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5611
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 672,
+      "completion_tokens": 451,
+      "total_tokens": 1123,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 672
+    }
+  },
+  {
+    "qid": "hotpot_373",
+    "question": "which is traditionally drunk before retiring to bed, Hot toddy or Kir?",
+    "expectedAnswer": "Hot toddy",
+    "predictedAnswer": "# 路径一：直接文本证据比对\n\n步骤1：使用⟦13⟧，提取 Hot toddy 的定义描述，其中包含“A hot toddy”作为饮品名称的完整说明。\n步骤2：综合⟦135⟧⟦92⟧⟦26⟧，交叉验证 Hot toddy 的饮用场景——⟦135⟧ 为“recipes”，⟦92⟧ 为“Hot toddy recipes”，⟦26⟧ 为“vary and are traditionally drunk before retiring for”，三者共同指向 Hot toddy 的传统饮用时机是睡前。\n步骤3：使用⟦102⟧，提取 Kir 的定义，⟦102⟧ 为“Kir”，结合⟦18⟧“a popular French cocktail”，判断 Kir 是一种法国鸡尾酒，但材料中未提及睡前饮用的传统。\n\n结论：Hot toddy 传统上在睡前饮用，Kir 无此传统描述。\n\n# 路径二：成分与场景交叉验证\n\n步骤1：综合⟦13⟧⟦93⟧⟦207⟧⟦95⟧，提取 Hot toddy 的核心成分——⟦93⟧“hot whiskey”、⟦207⟧“whiskey”、⟦95⟧“Ireland”，说明 Hot toddy 是爱尔兰风格的热威士忌饮品。\n步骤2：综合⟦13⟧⟦154⟧⟦87⟧⟦204⟧⟦148⟧，提取 Hot toddy 的其他成分——⟦154⟧“sugar”、⟦87⟧“honey”、⟦204⟧“water”、⟦148⟧“spices”，这些均为热饮常见配料，与睡前暖身场景一致。\n步骤3：综合⟦102⟧⟦18⟧⟦55⟧⟦208⟧⟦39⟧，提取 Kir 的成分——⟦55⟧“crème de cassis”、⟦208⟧“white wine”、⟦39⟧“blackcurrant”，为冷饮鸡尾酒，无睡前饮用关联。\n\n结论：Hot toddy 的热饮成分与睡前暖身传统吻合，Kir 为冷饮鸡尾酒，不符合睡前饮用场景。\n\n# 路径三：材料矛盾与缺失分析\n\n步骤1：使用⟦26⟧，提取关键短语“vary and are traditionally drunk before retiring for”，明确指向 Hot toddy 的睡前饮用传统。\n步骤2：综合⟦102⟧⟦17⟧⟦63⟧，对比 Kir 的相关描述——⟦17⟧“a mixed drink”、⟦63⟧“drink”，均未提及“before retiring”或“bed”等睡前场景词汇。\n步骤3：综合⟦189⟧⟦51⟧，检查 Blueberry Tea 材料中“toddy”与“cocktail”的关联，⟦189⟧“toddy”再次印证 toddy 类饮品的传统场景，而 Kir 无类似佐证。\n\n结论：材料中仅 Hot toddy 明确关联“睡前饮用”传统，Kir 缺乏任何睡前场景描述，故答案为 Hot toddy。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦13⟧⟨1⟩⟨2⟩⟦93⟧⟦207⟧⟨3⟩⟨4⟩⟦95⟧⟨5⟩⟨6⟩⟨7⟩⟦106⟧",
+    "nounCount": 276,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4730,
+      "completion_tokens": 330,
+      "total_tokens": 5060,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4730
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1170,
+      "completion_tokens": 682,
+      "total_tokens": 1852,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1170
+    }
+  },
+  {
+    "qid": "hotpot_4427",
+    "question": "Are Mike Bryan and Ray Ruffels both tennis players?",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：直接身份验证\n\n步骤1：使用⟦118⟧，提取 Michael Carl Bryan 的身份信息，结合占位符⟨118⟩可知其全名为 Mike Bryan，出生于1978年4月29日。\n\n步骤2：使用⟦34⟧，提取其职业身份为 \"an American professional tennis player\"（美国职业网球运动员）。\n\n步骤3：使用⟦151⟧，提取 Raymond Owen \"Ray\" Ruffels 的全名信息，结合占位符⟨176⟩可知其出生于1946年3月23日于悉尼。\n\n步骤4：使用⟦36⟧，提取其职业身份为 \"an Australian former professional tennis player\"（澳大利亚前职业网球运动员）。\n\n结论：Mike Bryan 是职业网球运动员，Ray Ruffels 也是职业网球运动员，两人均为网球运动员。\n\n# 路径二：交叉验证职业类别\n\n步骤1：使用⟦142⟧，提取 \"player\"（运动员）这一职业标签，该标签同时出现在 Mike Bryan 和 Ray Ruffels 的拓扑链中。\n\n步骤2：综合⟦174⟧，提取 \"tennis\"（网球）这一运动项目标签，该标签在 Tennis New Zealand 相关条目中出现，与网球运动直接关联。\n\n步骤3：综合⟦34⟧⟦36⟧，对比两人身份描述：Mike Bryan 为 \"American professional tennis player\"，Ray Ruffels 为 \"Australian former professional tennis player\"，两者均包含 \"tennis player\" 核心词组。\n\n结论：通过职业标签⟦142⟧和运动项目⟦174⟧的交叉验证，确认两人共享 \"tennis player\" 这一身份特征。\n\n# 路径三：国籍与职业状态对比\n\n步骤1：使用⟦34⟧，提取 Mike Bryan 的国籍为美国（American），职业状态为现役职业（professional）。\n\n步骤2：使用⟦36⟧，提取 Ray Ruffels 的国籍为澳大利亚（Australian），职业状态为前职业（former professional）。\n\n步骤3：综合⟦34⟧⟦36⟧，对比两人差异：国籍不同（美国 vs 澳大利亚），职业状态不同（现役 vs 退役），但共同点为均为 \"tennis player\"。\n\n结论：尽管国籍和职业阶段存在差异，但两人的核心职业身份一致，均为网球运动员。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦118⟧⟨118⟩⟦34⟧⟨120⟩⟨119⟩⟨121⟩⟦142⟧⟦174⟧⟦151⟧⟨176⟩⟦171⟧⟨177⟩",
+    "nounCount": 373,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6232,
+      "completion_tokens": 89,
+      "total_tokens": 6321,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6232
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 497,
+      "completion_tokens": 492,
+      "total_tokens": 989,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 497
+    }
+  },
+  {
+    "qid": "hotpot_1304",
+    "question": "Was Cars 2 released by the same company which used songs written by Lin-Manuel Miranda in another of",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：从发行公司与歌曲作者交叉验证\n\n步骤1：使用⟦12⟧⟦178⟧⟦275⟧，提取《Cars 2》的发行信息——该片由 Pixar Animation Studios 制作、Walt Disney Pictures 发行。\n\n步骤2：使用⟦139⟧⟦206⟧，提取 Lin-Manuel Miranda 为某部电影创作了歌曲；结合⟦101⟧可知其身份为电影歌曲作者。\n\n步骤3：综合⟦157⟧⟦169⟧⟦222⟧⟦276⟧，确认《Moana》原声带由 Walt Disney Records 发行，而该片是 2016 年迪士尼动画电影，Lin-Manuel Miranda 参与创作其中歌曲。\n\n结论：是。《Cars 2》由 Walt Disney Pictures 发行，而 Lin-Manuel Miranda 创作歌曲的《Moana》也是迪士尼的电影，两者同属迪士尼旗下公司体系。\n\n# 路径二：从原声带发行方与电影发行方对比\n\n步骤1：使用⟦254⟧⟦209⟧⟦223⟧⟦276⟧，提取《Moana》原声带由 Walt Disney Records 发行。\n\n步骤2：使用⟦12⟧⟦275⟧，提取《Cars 2》由 Walt Disney Pictures 发行。\n\n步骤3：综合⟦157⟧⟦222⟧，确认《Moana》是迪士尼动画电影，其原声带发行方 Walt Disney Records 与《Cars 2》发行方 Walt Disney Pictures 同属迪士尼公司。\n\n结论：是。两部电影的相关发行实体均归属迪士尼，因此《Cars 2》的发行公司与使用 Lin-Manuel Miranda 歌曲的《Moana》的发行方属于同一母公司。\n\n# 路径三：从 Lin-Manuel Miranda 的迪士尼关联反推\n\n步骤1：使用⟦139⟧⟦206⟧，提取 Lin-Manuel Miranda 为电影创作歌曲。\n\n步骤2：使用⟦157⟧⟦169⟧⟦222⟧，确认这些歌曲属于《Moana》原声带，而《Moana》是迪士尼动画电影。\n\n步骤3：使用⟦12⟧⟦275⟧，提取《Cars 2》由 Walt Disney Pictures 发行；综合⟦276⟧可知《Moana》原声带由 Walt Disney Records 发行，两者均为迪士尼旗下实体。\n\n结论：是。Lin-Manuel Miranda 创作歌曲的《Moana》与《Cars 2》同属迪士尼电影体系，发行公司一致。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨146⟩⟨147⟩⟦12⟧⟨149⟩⟦29⟧⟨150⟩⟦71⟧⟨151⟩⟦210⟧⟨152⟩⟨148⟩⟨153⟩",
+    "nounCount": 411,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6723,
+      "completion_tokens": 253,
+      "total_tokens": 6976,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6723
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 995,
+      "completion_tokens": 563,
+      "total_tokens": 1558,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 995
+    }
+  },
+  {
+    "qid": "hotpot_5239",
+    "question": "What country are both Dafeng District and Jixi in?",
+    "expectedAnswer": "China",
+    "predictedAnswer": "# 路径一：直接地理归属推理\n\n步骤1：使用⟦10⟧，提取 Dafeng District 是 a coastal district，结合⟦76⟧⟦15⟧，判断其行政归属信息。\n\n步骤2：使用⟦70⟧，提取 Jixi 位于 southeastern Heilongjiang Province，结合⟦23⟧，判断 Jixi 属于 China。\n\n步骤3：综合⟦10⟧⟦70⟧⟦23⟧，对比两者的地理归属，Dafeng District 和 Jixi 均位于中国境内。\n\n结论：Dafeng District 和 Jixi 都在 China（中国）。\n\n# 路径二：省级行政关联交叉验证\n\n步骤1：使用⟦44⟧，提取 Jiangsu province 的信息，结合⟦95⟧，判断 Yancheng 属于 Jiangsu province，而 Dafeng District 是 Yancheng 下辖的区。\n\n步骤2：使用⟦65⟧，提取 province 相关信息，结合⟦34⟧，判断 Jixi 是一个 district，隶属于 Heilongjiang Province。\n\n步骤3：综合⟦44⟧⟦65⟧⟦23⟧，交叉验证 Jiangsu province 和 Heilongjiang Province 均为 China 的省份，因此 Dafeng District 和 Jixi 同属 China。\n\n结论：Dafeng District 和 Jixi 都在 China（中国）。\n\n# 路径三：行政层级综合支撑\n\n步骤1：使用⟦30⟧，提取 Dafeng 的信息，结合⟦76⟧⟦15⟧，判断 Dafeng District 的 administration 归属。\n\n步骤2：使用⟦47⟧，提取 Jixi 的信息，结合⟦25⟧⟦23⟧，判断 Jixi 是一个 city，位于 China。\n\n步骤3：综合⟦30⟧⟦47⟧⟦23⟧，从行政层级角度确认 Dafeng District 和 Jixi 均为 China 的行政区划。\n\n结论：Dafeng District 和 Jixi 都在 China（中国）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨108⟩⟦10⟧⟨109⟩⟨110⟩⟦76⟧⟦15⟧⟨111⟩⟨112⟩⟨113⟩⟨114⟩⟨115⟩⟦30⟧",
+    "nounCount": 176,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 2835,
+      "completion_tokens": 107,
+      "total_tokens": 2942,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2835
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 576,
+      "completion_tokens": 459,
+      "total_tokens": 1035,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 576
+    }
+  }
+]

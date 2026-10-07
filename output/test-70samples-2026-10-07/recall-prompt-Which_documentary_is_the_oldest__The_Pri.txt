@@ -1,0 +1,334 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = -Broadway
+⟦2⟧ = "A Second Home
+⟦3⟧ = "Études de mœurs
+⟦4⟧ = "Groucho
+⟦5⟧ = "La femme vertueuse
+⟦6⟧ = "The Private Life
+⟦7⟧ = "The Virtuous Woman
+⟦8⟧ = (e.g., work-life conflict
+⟦9⟧ = (first-born Manfred Marx
+⟦10⟧ = (German
+⟦11⟧ = 19th-century philosopher
+⟦12⟧ = 23-year-old actor Frank Ferrante
+⟦13⟧ = 254 performances
+⟦14⟧ = a 1934 British short documentary film
+⟦15⟧ = a 1935 German historical film
+⟦16⟧ = a 1987 New York Theatre World Award
+⟦17⟧ = a 1999 one-man play
+⟦18⟧ = a 2011 German documentary film
+⟦19⟧ = a BBC nature documentary series
+⟦20⟧ = a brilliant revue
+⟦21⟧ = a colony
+⟦22⟧ = a curly-haired wig
+⟦23⟧ = a family man
+⟦24⟧ = a humorous nod
+⟦25⟧ = a lengthy short story
+⟦26⟧ = A Life
+⟦27⟧ = a look
+⟦28⟧ = a member
+⟦29⟧ = a performer
+⟦30⟧ = a reference
+⟦31⟧ = a special mention
+⟦32⟧ = a stage play
+⟦33⟧ = a wordplay
+⟦34⟧ = abundance
+⟦35⟧ = act
+⟦36⟧ = actor
+⟦37⟧ = addition
+⟦38⟧ = age
+⟦39⟧ = American historian
+⟦40⟧ = an American comedian
+⟦41⟧ = an edition
+⟦42⟧ = an important role
+⟦43⟧ = Arthur Marx
+⟦44⟧ = artist
+⟦45⟧ = aspects
+⟦46⟧ = Balzac's "La Comédie
+⟦47⟧ = Balzac's "Scènes de la vie privée
+⟦48⟧ = bandleader
+⟦49⟧ = Best Play
+⟦50⟧ = career
+⟦51⟧ = Carl Froelich
+⟦52⟧ = century
+⟦53⟧ = Chico
+⟦54⟧ = Chico Marx
+⟦55⟧ = childhood
+⟦56⟧ = children
+⟦57⟧ = clothes
+⟦58⟧ = coast
+⟦59⟧ = collection
+⟦60⟧ = colony
+⟦61⟧ = colour
+⟦62⟧ = comedian
+⟦63⟧ = con
+⟦64⟧ = conflict
+⟦65⟧ = crafty con artist
+⟦66⟧ = crime
+⟦67⟧ = David Attenborough
+⟦68⟧ = development
+⟦69⟧ = dim
+⟦70⟧ = direction
+⟦71⟧ = documentary
+⟦72⟧ = early childhood
+⟦73⟧ = edition
+⟦74⟧ = enrichment
+⟦75⟧ = entertainer
+⟦76⟧ = episode
+⟦77⟧ = Eugen Klöpfer
+⟦78⟧ = Faith Prince
+⟦79⟧ = fame
+⟦80⟧ = famille
+⟦81⟧ = family
+⟦82⟧ = Ferrante
+⟦83⟧ = Ferrante's performance
+⟦84⟧ = few people
+⟦85⟧ = film
+⟦86⟧ = film star
+⟦87⟧ = Freedonia
+⟦88⟧ = Grassholm
+⟦89⟧ = Groucho Marx
+⟦90⟧ = Groucho Marx's son
+⟦91⟧ = Harpo Marx
+⟦92⟧ = hat
+⟦93⟧ = health
+⟦94⟧ = Henry VIII
+⟦95⟧ = his breakthrough film
+⟦96⟧ = his life
+⟦97⟧ = His persona
+⟦98⟧ = his timing
+⟦99⟧ = his wife
+⟦100⟧ = his work
+⟦101⟧ = historian
+⟦102⟧ = history
+⟦103⟧ = Home
+⟦104⟧ = Honoré de Balzac
+⟦105⟧ = Howard Zinn
+⟦106⟧ = ideas
+⟦107⟧ = infancy
+⟦108⟧ = instance
+⟦109⟧ = interface
+⟦110⟧ = intersection
+⟦111⟧ = interviews
+⟦112⟧ = island
+⟦113⟧ = its early years
+⟦114⟧ = its opening titles
+⟦115⟧ = its present title
+⟦116⟧ = Jim Grady
+⟦117⟧ = Julian Huxley
+⟦118⟧ = Karl Marx
+⟦119⟧ = Karl Marx's ideas
+⟦120⟧ = language
+⟦121⟧ = laughter
+⟦122⟧ = leisure
+⟦123⟧ = Leonard
+⟦124⟧ = Leonard Marx
+⟦125⟧ = Life
+⟦126⟧ = life interface
+⟦127⟧ = Liselotte
+⟦128⟧ = Liselotte von der Pfalz
+⟦129⟧ = look
+⟦130⟧ = Louis XIV
+⟦131⟧ = Madame Béchet
+⟦132⟧ = Mame et Delaunay
+⟦133⟧ = man
+⟦134⟧ = management
+⟦135⟧ = Manners
+⟦136⟧ = many aspects
+⟦137⟧ = March
+⟦138⟧ = Maria Krahn
+⟦139⟧ = Marx
+⟦140⟧ = Marx Reloaded
+⟦141⟧ = May
+⟦142⟧ = member
+⟦143⟧ = mention
+⟦144⟧ = mœurs
+⟦145⟧ = musical direction
+⟦146⟧ = musician
+⟦147⟧ = name
+⟦148⟧ = Nancy
+⟦149⟧ = nature
+⟦150⟧ = neighborhood
+⟦151⟧ = nod
+⟦152⟧ = Northern Gannet
+⟦153⟧ = novel
+⟦154⟧ = October
+⟦155⟧ = One-Reel
+⟦156⟧ = one's personal life
+⟦157⟧ = opening
+⟦158⟧ = origin
+⟦159⟧ = Outstanding New Talent
+⟦160⟧ = part
+⟦161⟧ = partners
+⟦162⟧ = people
+⟦163⟧ = performance
+⟦164⟧ = performances
+⟦165⟧ = performer
+⟦166⟧ = persona
+⟦167⟧ = philosopher
+⟦168⟧ = philosophers
+⟦169⟧ = Plants
+⟦170⟧ = play
+⟦171⟧ = Private Life
+⟦172⟧ = producer
+⟦173⟧ = producer Alexander Korda
+⟦174⟧ = Recession
+⟦175⟧ = reference
+⟦176⟧ = relation
+⟦177⟧ = release
+⟦178⟧ = relevance
+⟦179⟧ = Renate Müller
+⟦180⟧ = reviews
+⟦181⟧ = Revue
+⟦182⟧ = Robert Fisher
+⟦183⟧ = role
+⟦184⟧ = Ronnie Horowitz
+⟦185⟧ = rural Italian origin
+⟦186⟧ = Rusty Magee
+⟦187⟧ = Scenes
+⟦188⟧ = sequel
+⟦189⟧ = series
+⟦190⟧ = several well-known philosophers
+⟦191⟧ = shabby clothes
+⟦192⟧ = Soho
+⟦193⟧ = son
+⟦194⟧ = stage
+⟦195⟧ = star
+⟦196⟧ = story
+⟦197⟧ = Studies
+⟦198⟧ = Subject
+⟦199⟧ = The "New York Post
+⟦200⟧ = the "Scenes
+⟦201⟧ = the 10th Academy Awards
+⟦202⟧ = the 3rd Venice International Film Festival
+⟦203⟧ = the act
+⟦204⟧ = the Best Short Subject
+⟦205⟧ = the British writer
+⟦206⟧ = The Citizen
+⟦207⟧ = the coast
+⟦208⟧ = the collection
+⟦209⟧ = the documentary
+⟦210⟧ = the famous entertainer
+⟦211⟧ = the fifth edition
+⟦212⟧ = the film
+⟦213⟧ = The film's English language release title
+⟦214⟧ = The film's title
+⟦215⟧ = the first BBC natural history film
+⟦216⟧ = the first volume
+⟦217⟧ = the Gannets
+⟦218⟧ = The Girls
+⟦219⟧ = the Great Recession
+⟦220⟧ = the hit British film
+⟦221⟧ = the intersection
+⟦222⟧ = the Kingfisher
+⟦223⟧ = the life
+⟦224⟧ = the London neighborhood
+⟦225⟧ = the Lucille Lortel Theatre
+⟦226⟧ = the main trio
+⟦227⟧ = the management
+⟦228⟧ = the Marx Brothers
+⟦229⟧ = The Matrix
+⟦230⟧ = the nature series
+⟦231⟧ = the New York City neighborhood
+⟦232⟧ = The New York Times
+⟦233⟧ = The novel
+⟦234⟧ = the Palatinate
+⟦235⟧ = The play
+⟦236⟧ = the previous year
+⟦237⟧ = The Private Life
+⟦238⟧ = the relevance
+⟦239⟧ = the same name
+⟦240⟧ = the sequel
+⟦241⟧ = the small rocky island
+⟦242⟧ = the title
+⟦243⟧ = the United Kingdom
+⟦244⟧ = theorist Jason Barker
+⟦245⟧ = This interface
+⟦246⟧ = timing
+⟦247⟧ = title
+⟦248⟧ = titles
+⟦249⟧ = trio
+⟦250⟧ = two NY Outer Critics Circle Awards
+⟦251⟧ = Tyrolean hat
+⟦252⟧ = Une double famille
+⟦253⟧ = vertueuse
+⟦254⟧ = virtually every film
+⟦255⟧ = volume
+⟦256⟧ = Wales
+⟦257⟧ = wife
+⟦258⟧ = wig
+⟦259⟧ = wordplay
+⟦260⟧ = work
+⟦261⟧ = writer
+⟦262⟧ = year
+⟦263⟧ = years
+⟦264⟧ = Zeppo Marx
+⟦265⟧ = Zinn
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Marx Reloaded] ⟦140⟧⟨1⟩⟦18⟧⟨2⟩⟦71⟧⟨3⟩⟦85⟧⟨4⟩⟦205⟧⟨5⟩⟦261⟧⟨6⟩⟦244⟧⟨7⟩
+[Marx Reloaded] ⟨8⟩⟦111⟧⟨9⟩⟦111⟧⟨10⟩⟦190⟧⟨11⟩⟦168⟧⟨12⟩⟦212⟧⟨13⟩⟦85⟧⟨14⟩⟦238⟧⟨15⟩⟦178⟧⟨16⟩⟦119⟧⟨17⟩⟦106⟧⟨18⟩⟦176⟧⟨19⟩⟦176⟧⟨20⟩⟦219⟧⟨21⟩⟦174⟧⟨22⟩
+[Marx Reloaded] ⟦214⟧⟨23⟩⟦85⟧⟨24⟩⟦247⟧⟨25⟩⟦33⟧⟨26⟩⟦259⟧⟨27⟩⟦229⟧⟨28⟩⟦240⟧⟨29⟩⟦188⟧⟨30⟩⟦229⟧⟨31⟩⟦209⟧⟨32⟩⟦71⟧⟨33⟩
+[Chico Marx] ⟦124⟧⟨34⟩⟦137⟧⟨35⟩⟦154⟧⟨36⟩⟦54⟧⟨37⟩⟦40⟧⟨38⟩⟦62⟧⟨39⟩⟦146⟧⟨40⟩⟦146⟧⟨41⟩⟦48⟧⟨42⟩⟦48⟧⟨43⟩⟦36⟧⟨44⟩⟦36⟧⟨45⟩⟦85⟧⟨46⟩⟦86⟧⟨47⟩⟦195⟧⟨48⟩
+[Chico Marx] ⟨49⟩⟦28⟧⟨50⟩⟦142⟧⟨51⟩⟦228⟧⟨52⟩⟦89⟧⟨53⟩⟦91⟧⟨54⟩⟦264⟧⟨55⟩
+[Chico Marx] ⟨56⟩⟦97⟧⟨57⟩⟦166⟧⟨58⟩⟦203⟧⟨59⟩⟦35⟧⟨60⟩⟦69⟧⟨61⟩⟦65⟧⟨62⟩⟦63⟧⟨63⟩⟦44⟧⟨64⟩⟦185⟧⟨65⟩⟦158⟧⟨66⟩⟦191⟧⟨67⟩⟦57⟧⟨68⟩⟦22⟧⟨69⟩⟦258⟧⟨70⟩⟦251⟧⟨71⟩⟦92⟧⟨72⟩
+[Chico Marx] ⟨73⟩⟦254⟧⟨74⟩⟦85⟧⟨75⟩⟦226⟧⟨76⟩⟦249⟧⟨77⟩⟦228⟧⟨78⟩⟦53⟧⟨79⟩⟦91⟧⟨80⟩⟦161⟧⟨81⟩⟦161⟧⟨82⟩⟦66⟧⟨83⟩⟦66⟧⟨84⟩
+[Chico Marx] ⟦123⟧⟨85⟩⟦228⟧⟨86⟩⟦72⟧⟨87⟩⟦55⟧⟨88⟩⟦9⟧⟨89⟩⟦107⟧⟨90⟩⟦107⟧⟨91⟩
+[Chico Marx] ⟨92⟩⟦37⟧⟨93⟩⟦37⟧⟨94⟩⟦100⟧⟨95⟩⟦260⟧⟨96⟩⟦29⟧⟨97⟩⟦165⟧⟨98⟩⟦42⟧⟨99⟩⟦183⟧⟨100⟩⟦227⟧⟨101⟩⟦134⟧⟨102⟩⟦68⟧⟨103⟩⟦68⟧⟨104⟩⟦203⟧⟨105⟩⟦35⟧⟨106⟩⟦113⟧⟨107⟩⟦263⟧⟨108⟩
+[The Private Life of Plants] ⟦237⟧⟨109⟩⟦169⟧⟨110⟩⟦19⟧⟨111⟩⟦149⟧⟨112⟩⟦71⟧⟨113⟩⟦189⟧⟨114⟩⟦67⟧⟨115⟩⟦243⟧⟨116⟩
+[Une double famille] ⟦252⟧⟨117⟩⟦80⟧⟨118⟩⟦2⟧⟨119⟩⟦103⟧⟨120⟩⟦25⟧⟨121⟩⟦196⟧⟨122⟩⟦104⟧⟨123⟩⟦242⟧⟨124⟩⟦247⟧⟨125⟩⟦5⟧⟨126⟩⟦253⟧⟨127⟩⟦7⟧⟨128⟩
+[Une double famille] ⟨129⟩⟦132⟧⟨130⟩⟦160⟧⟨131⟩⟦160⟧⟨132⟩⟦47⟧⟨133⟩⟦187⟧⟨134⟩⟦171⟧⟨135⟩⟦125⟧⟨136⟩
+[Une double famille] ⟨137⟩⟦41⟧⟨138⟩⟦73⟧⟨139⟩⟦131⟧⟨140⟩⟦208⟧⟨141⟩⟦59⟧⟨142⟩⟦3⟧⟨143⟩⟦144⟧⟨144⟩⟦197⟧⟨145⟩⟦135⟧⟨146⟩⟦135⟧⟨147⟩
+[Une double famille] ⟦233⟧⟨148⟩⟦153⟧⟨149⟩⟦115⟧⟨150⟩⟦247⟧⟨151⟩⟦211⟧⟨152⟩⟦73⟧⟨153⟩⟦255⟧⟨154⟩⟦200⟧⟨155⟩⟦171⟧⟨156⟩⟦125⟧⟨157⟩⟦216⟧⟨158⟩⟦255⟧⟨159⟩⟦46⟧⟨160⟩
+[Groucho: A Life in Revue] ⟨161⟩⟦26⟧⟨162⟩⟦125⟧⟨163⟩⟦181⟧⟨164⟩⟦32⟧⟨165⟩⟦194⟧⟨166⟩⟦170⟧⟨167⟩⟦90⟧⟨168⟩⟦193⟧⟨169⟩⟦43⟧⟨170⟩⟦182⟧⟨171⟩
+[Groucho: A Life in Revue] ⟨172⟩⟦145⟧⟨173⟩⟦70⟧⟨174⟩⟦116⟧⟨175⟩
+[Groucho: A Life in Revue] ⟦82⟧⟨176⟩⟦16⟧⟨177⟩⟦159⟧⟨178⟩
+[Groucho: A Life in Revue] ⟦235⟧⟨179⟩⟦170⟧⟨180⟩⟦148⟧⟨181⟩⟦184⟧⟨182⟩
+[Groucho: A Life in Revue] ⟨183⟩⟦27⟧⟨184⟩⟦129⟧⟨185⟩⟦223⟧⟨186⟩⟦125⟧⟨187⟩⟦50⟧⟨188⟩⟦50⟧⟨189⟩⟦210⟧⟨190⟩⟦75⟧⟨191⟩⟦89⟧⟨192⟩⟦228⟧⟨193⟩⟦125⟧⟨194⟩⟦79⟧⟨195⟩
+[Groucho: A Life in Revue] ⟨196⟩⟦1⟧⟨197⟩⟦225⟧⟨198⟩⟦154⟧⟨199⟩⟦13⟧⟨200⟩⟦164⟧⟨201⟩⟦141⟧⟨202⟩
+[Groucho: A Life in Revue] ⟨203⟩⟦12⟧⟨204⟩⟦262⟧⟨205⟩⟦36⟧⟨206⟩⟦89⟧⟨207⟩⟦38⟧⟨208⟩⟦38⟧⟨209⟩⟦91⟧⟨210⟩⟦54⟧⟨211⟩⟦78⟧⟨212⟩⟦218⟧⟨213⟩⟦186⟧⟨214⟩⟦206⟧⟨215⟩⟦87⟧⟨216⟩
+[Groucho: A Life in Revue] ⟨217⟩⟦43⟧⟨218⟩
+[Groucho: A Life in Revue] ⟦235⟧⟨219⟩⟦170⟧⟨220⟩⟦180⟧⟨221⟩⟦180⟧⟨222⟩
+[Groucho: A Life in Revue] ⟦232⟧⟨223⟩⟦121⟧⟨224⟩⟦121⟧⟨225⟩⟦34⟧⟨226⟩⟦34⟧⟨227⟩⟦83⟧⟨228⟩⟦163⟧⟨229⟩⟦98⟧⟨230⟩⟦246⟧⟨231⟩
+[Groucho: A Life in Revue] ⟦199⟧⟨232⟩⟦20⟧⟨233⟩⟦181⟧⟨234⟩
+[Groucho: A Life in Revue] ⟦4⟧⟨235⟩⟦250⟧⟨236⟩⟦49⟧⟨237⟩⟦83⟧⟨238⟩⟦163⟧⟨239⟩
+[The Private Life of the Kingfisher] ⟦237⟧⟨240⟩⟦222⟧⟨241⟩⟦114⟧⟨242⟩⟦157⟧⟨243⟩⟦248⟧⟨244⟩⟦237⟧⟨245⟩⟦125⟧⟨246⟩⟦222⟧⟨247⟩⟦76⟧⟨248⟩⟦76⟧⟨249⟩⟦230⟧⟨250⟩⟦149⟧⟨251⟩⟦215⟧⟨252⟩⟦102⟧⟨253⟩⟦85⟧⟨254⟩⟦61⟧⟨255⟩⟦61⟧⟨256⟩
+[Marx in Soho] ⟦139⟧⟨257⟩⟦192⟧⟨258⟩⟦17⟧⟨259⟩⟦133⟧⟨260⟩⟦170⟧⟨261⟩⟦39⟧⟨262⟩⟦101⟧⟨263⟩⟦105⟧⟨264⟩⟦223⟧⟨265⟩⟦125⟧⟨266⟩⟦11⟧⟨267⟩⟦52⟧⟨268⟩⟦167⟧⟨269⟩⟦118⟧⟨270⟩
+[Marx in Soho] ⟦265⟧⟨271⟩⟦235⟧⟨272⟩⟦170⟧⟨273⟩⟦139⟧⟨274⟩⟦84⟧⟨275⟩⟦162⟧⟨276⟩⟦23⟧⟨277⟩⟦81⟧⟨278⟩⟦133⟧⟨279⟩⟦99⟧⟨280⟩⟦257⟧⟨281⟩⟦56⟧⟨282⟩⟦56⟧⟨283⟩
+[Marx in Soho] ⟦235⟧⟨284⟩⟦170⟧⟨285⟩⟦231⟧⟨286⟩⟦150⟧⟨287⟩⟦192⟧⟨288⟩⟦24⟧⟨289⟩⟦151⟧⟨290⟩⟦224⟧⟨291⟩⟦150⟧⟨292⟩⟦239⟧⟨293⟩⟦147⟧⟨294⟩⟦139⟧⟨295⟩⟦96⟧⟨296⟩⟦125⟧⟨297⟩
+[Work–life interface] ⟦260⟧⟨298⟩⟦125⟧⟨299⟩⟦126⟧⟨300⟩⟦109⟧⟨301⟩⟦221⟧⟨302⟩⟦110⟧⟨303⟩⟦260⟧⟨304⟩⟦260⟧⟨305⟩⟦171⟧⟨306⟩⟦125⟧⟨307⟩
+[Work–life interface] ⟨308⟩⟦136⟧⟨309⟩⟦45⟧⟨310⟩⟦156⟧⟨311⟩⟦125⟧⟨312⟩⟦260⟧⟨313⟩⟦260⟧⟨314⟩⟦81⟧⟨315⟩⟦81⟧⟨316⟩⟦122⟧⟨317⟩⟦122⟧⟨318⟩⟦93⟧⟨319⟩⟦93⟧⟨320⟩
+[Work–life interface] ⟨321⟩⟦260⟧⟨322⟩⟦125⟧⟨323⟩⟦126⟧⟨324⟩⟦109⟧⟨325⟩⟦108⟧⟨326⟩⟦108⟧⟨327⟩⟦260⟧⟨328⟩⟦260⟧⟨329⟩⟦171⟧⟨330⟩⟦125⟧⟨331⟩⟦171⟧⟨332⟩⟦125⟧⟨333⟩⟦260⟧⟨334⟩⟦260⟧⟨335⟩
+[Work–life interface] ⟦245⟧⟨336⟩⟦109⟧⟨337⟩⟦149⟧⟨338⟩⟦149⟧⟨339⟩⟦8⟧⟨340⟩⟦260⟧⟨341⟩⟦125⟧⟨342⟩⟦64⟧⟨343⟩⟦260⟧⟨344⟩⟦125⟧⟨345⟩⟦74⟧⟨346⟩⟦149⟧⟨347⟩⟦149⟧⟨348⟩
+[The Private Life of Louis XIV] ⟦237⟧⟨349⟩⟦130⟧⟨350⟩⟦127⟧⟨351⟩⟦234⟧⟨352⟩⟦10⟧⟨353⟩⟦128⟧⟨354⟩⟦15⟧⟨355⟩⟦85⟧⟨356⟩⟦51⟧⟨357⟩⟦179⟧⟨358⟩⟦77⟧⟨359⟩⟦138⟧⟨360⟩
+[The Private Life of Louis XIV] ⟦213⟧⟨361⟩⟦85⟧⟨362⟩⟦120⟧⟨363⟩⟦177⟧⟨364⟩⟦247⟧⟨365⟩⟦30⟧⟨366⟩⟦175⟧⟨367⟩⟦220⟧⟨368⟩⟦85⟧⟨369⟩⟦6⟧⟨370⟩⟦94⟧⟨371⟩
+[The Private Life of the Gannets] ⟦237⟧⟨372⟩⟦217⟧⟨373⟩⟦14⟧⟨374⟩⟦71⟧⟨375⟩⟦85⟧⟨376⟩⟦117⟧⟨377⟩⟦21⟧⟨378⟩⟦60⟧⟨379⟩⟦152⟧⟨380⟩⟦241⟧⟨381⟩⟦112⟧⟨382⟩⟦88⟧⟨383⟩⟦207⟧⟨384⟩⟦58⟧⟨385⟩⟦256⟧⟨386⟩
+[The Private Life of the Gannets] ⟨387⟩⟦31⟧⟨388⟩⟦143⟧⟨389⟩⟦202⟧⟨390⟩⟦204⟧⟨391⟩⟦198⟧⟨392⟩⟦155⟧⟨393⟩⟦201⟧⟨394⟩
+[The Private Life of the Gannets] ⟦242⟧⟨395⟩⟦247⟧⟨396⟩⟦172⟧⟨397⟩⟦173⟧⟨398⟩⟦30⟧⟨399⟩⟦175⟧⟨400⟩⟦237⟧⟨401⟩⟦94⟧⟨402⟩⟦95⟧⟨403⟩⟦85⟧⟨404⟩⟦236⟧⟨405⟩⟦262⟧⟨406⟩
+
+[user]
+
+问题：
+Which documentary is the oldest, The Private Life of Plants or Marx Reloaded?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

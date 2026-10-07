@@ -1,0 +1,81 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Johnny Bright] ⟦96⟧⟨36⟩⟦97⟧⟨37⟩⟦64⟧⟨38⟩⟦21⟧⟨40⟩⟨39⟩⟨41⟩⟨42⟩
+[Damon Allen] ⟦176⟧
+[George Reed (Canadian football)] ⟦78⟧⟦130⟧ | ⟦83⟧⟨380⟩⟦57⟧⟨381⟩⟦152⟧⟨382⟩⟦15⟧⟦59⟧⟨384⟩⟦78⟧⟨383⟩⟨385⟩⟦49⟧⟦130⟧⟨386⟩⟨387⟩
+[George Reed (Canadian football)] ⟨388⟩⟦108⟧⟨389⟩⟦95⟧⟨390⟩⟦204⟧⟨391⟩⟨392⟩⟦54⟧⟦92⟧⟨393⟩⟨394⟩
+[George Reed (Canadian football)] ⟦137⟧⟦131⟧
+
+符号表：
+⟦15⟧ = a former American college football
+⟦21⟧ = a professional Canadian football player
+⟦49⟧ = Canadian Football League player
+⟦54⟧ = CFL history
+⟦57⟧ = CM
+⟦59⟧ = college
+⟦64⟧ = December
+⟦78⟧ = football
+⟦83⟧ = George Robert Reed
+⟦92⟧ = history
+⟦95⟧ = Johnny Bright
+⟦96⟧ = Johnny D. Bright
+⟦97⟧ = June
+⟦108⟧ = Mike Pringle
+⟦130⟧ = player
+⟦131⟧ = players
+⟦137⟧ = Reed
+⟦152⟧ = SOM
+⟦176⟧ = the Canadian Football League
+⟦204⟧ = the players
+
+占位符映射：
+⟨36⟩ =  (
+⟨37⟩ =  11, 1930 – 
+⟨38⟩ =  14, 1983) was 
+⟨39⟩ = 
+⟨40⟩ =  
+⟨41⟩ =  in 
+⟨42⟩ = .
+⟨380⟩ = , 
+⟨381⟩ = , 
+⟨382⟩ =  (born October 2, 1939), is 
+⟨383⟩ = 
+⟨384⟩ =  
+⟨385⟩ =  and 
+⟨386⟩ = 
+⟨387⟩ = .
+⟨388⟩ = , along with 
+⟨389⟩ =  and 
+⟨390⟩ = , is one of 
+⟨391⟩ = 
+⟨392⟩ =  most often mentioned as being the greatest running back in 
+⟨393⟩ = 
+⟨394⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+George Reed was, along with which Drake University player, one of the greatest running backs in CFL history?

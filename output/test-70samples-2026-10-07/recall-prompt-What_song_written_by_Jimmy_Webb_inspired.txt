@@ -1,0 +1,442 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Blistered
+⟦2⟧ = "Bull Rider
+⟦3⟧ = "Johnny Cash
+⟦4⟧ = "Man
+⟦5⟧ = "Ol Waylon
+⟦6⟧ = "Silent Night
+⟦7⟧ = "The Christmas Spirit
+⟦8⟧ = "The Johnny Cash Show
+⟦9⟧ = "The Road
+⟦10⟧ = ("Silent Night
+⟦11⟧ = 1970s
+⟦12⟧ = 2001 terrorist attacks
+⟦13⟧ = 2010 album
+⟦14⟧ = a B-side
+⟦15⟧ = a best-of cd
+⟦16⟧ = a captain
+⟦17⟧ = a Carpenter
+⟦18⟧ = a Carter Family anthem
+⟦19⟧ = a collection
+⟦20⟧ = a construction worker
+⟦21⟧ = a country music supergroup
+⟦22⟧ = a country supergroup
+⟦23⟧ = a different version
+⟦24⟧ = a digital download
+⟦25⟧ = a duet version
+⟦26⟧ = a Duo
+⟦27⟧ = a Grammy Award
+⟦28⟧ = a Grammy nomination
+⟦29⟧ = a group
+⟦30⟧ = a highly successful career
+⟦31⟧ = a highwayman
+⟦32⟧ = a live version
+⟦33⟧ = a member
+⟦34⟧ = a number one platinum-selling album
+⟦35⟧ = a regular part
+⟦36⟧ = a sailor
+⟦37⟧ = a song
+⟦38⟧ = a soul
+⟦39⟧ = a starship
+⟦40⟧ = a talented musician
+⟦41⟧ = A Traveling Song
+⟦42⟧ = a trip
+⟦43⟧ = a twenty-week run
+⟦44⟧ = album
+⟦45⟧ = albums
+⟦46⟧ = all four Johnny Cash Christmas albums
+⟦47⟧ = alt
+⟦48⟧ = American country singer Johnny Cash
+⟦49⟧ = American singer-songwriter Jimmy Webb
+⟦50⟧ = an American guitarist
+⟦51⟧ = Anita Carter
+⟦52⟧ = another person
+⟦53⟧ = anthem
+⟦54⟧ = arrangement
+⟦55⟧ = artists
+⟦56⟧ = Asbury Park
+⟦57⟧ = Atlantic Records
+⟦58⟧ = attacks
+⟦59⟧ = award
+⟦60⟧ = backing vocals
+⟦61⟧ = band
+⟦62⟧ = Best Country Performance
+⟦63⟧ = Best Country Song
+⟦64⟧ = Black
+⟦65⟧ = Blue Note Records
+⟦66⟧ = both studio
+⟦67⟧ = both the name
+⟦68⟧ = Boulder City
+⟦69⟧ = Brooklyn-based alt-country trio Puss n Boots
+⟦70⟧ = builder
+⟦71⟧ = captain
+⟦72⟧ = career
+⟦73⟧ = Carl Perkins
+⟦74⟧ = Cash
+⟦75⟧ = Cash's albums
+⟦76⟧ = Cash's nephew
+⟦77⟧ = Cash's piano player
+⟦78⟧ = Cash's second wife
+⟦79⟧ = Cash's wife
+⟦80⟧ = CD
+⟦81⟧ = chart
+⟦82⟧ = charts
+⟦83⟧ = Church
+⟦84⟧ = collection
+⟦85⟧ = Columbia Records
+⟦86⟧ = concerts
+⟦87⟧ = construction
+⟦88⟧ = contract
+⟦89⟧ = country
+⟦90⟧ = country music's Carter Family
+⟦91⟧ = country singer Johnny Cash
+⟦92⟧ = couple
+⟦93⟧ = cover
+⟦94⟧ = dam
+⟦95⟧ = days
+⟦96⟧ = death
+⟦97⟧ = deaths
+⟦98⟧ = dialogue
+⟦99⟧ = download
+⟦100⟧ = duet
+⟦101⟧ = duties
+⟦102⟧ = El Mirage
+⟦103⟧ = fact
+⟦104⟧ = family
+⟦105⟧ = Fire
+⟦106⟧ = five original and seven cover songs
+⟦107⟧ = Forty Shades
+⟦108⟧ = four different places
+⟦109⟧ = friends
+⟦110⟧ = Future
+⟦111⟧ = genre
+⟦112⟧ = George Martin
+⟦113⟧ = Glen Campbell
+⟦114⟧ = Glenn Jones
+⟦115⟧ = Gold
+⟦116⟧ = Grammy Awards
+⟦117⟧ = Green
+⟦118⟧ = group
+⟦119⟧ = guitarist
+⟦120⟧ = Harold Reid
+⟦121⟧ = Helen Myrl Carter
+⟦122⟧ = Helen's sister
+⟦123⟧ = her death
+⟦124⟧ = her husband
+⟦125⟧ = highwayman
+⟦126⟧ = his 1979 album
+⟦127⟧ = his 1996 album
+⟦128⟧ = his 2007 album
+⟦129⟧ = his album
+⟦130⟧ = his death
+⟦131⟧ = his family
+⟦132⟧ = his lifetime
+⟦133⟧ = his second Christmas album
+⟦134⟧ = his songs
+⟦135⟧ = his version
+⟦136⟧ = his work
+⟦137⟧ = history
+⟦138⟧ = Hoover Dam
+⟦139⟧ = husband
+⟦140⟧ = incarnations
+⟦141⟧ = influence
+⟦142⟧ = inspiration
+⟦143⟧ = Ireland
+⟦144⟧ = its predecessor
+⟦145⟧ = James Taylor
+⟦146⟧ = Jennings
+⟦147⟧ = John Carter Cash
+⟦148⟧ = John Legend
+⟦149⟧ = Johnny Cash
+⟦150⟧ = Johnny Cash concerts
+⟦151⟧ = Johnny Cash's albums
+⟦152⟧ = Johnny Yuma
+⟦153⟧ = Jonathan Wild
+⟦154⟧ = July
+⟦155⟧ = June
+⟦156⟧ = June Carter Cash
+⟦157⟧ = Kaintuck
+⟦158⟧ = Kenneth
+⟦159⟧ = Kenneth Jones
+⟦160⟧ = Kenny
+⟦161⟧ = Kerry Alan Marx
+⟦162⟧ = Kris Kristofferson
+⟦163⟧ = label
+⟦164⟧ = Larry Butler
+⟦165⟧ = law
+⟦166⟧ = length
+⟦167⟧ = less original Cash material
+⟦168⟧ = Lew DeWitt
+⟦169⟧ = Liberty Records
+⟦170⟧ = life
+⟦171⟧ = lifetime
+⟦172⟧ = live recordings
+⟦173⟧ = lyrics
+⟦174⟧ = Madison Square Garden
+⟦175⟧ = Man
+⟦176⟧ = Many Moods
+⟦177⟧ = many notable musicians
+⟦178⟧ = many songs
+⟦179⟧ = Mark Knopfler
+⟦180⟧ = Marshall Grant
+⟦181⟧ = material
+⟦182⟧ = May
+⟦183⟧ = Maybelle Carter
+⟦184⟧ = medley
+⟦185⟧ = member
+⟦186⟧ = men
+⟦187⟧ = months
+⟦188⟧ = Monument Records
+⟦189⟧ = Moses
+⟦190⟧ = music
+⟦191⟧ = musical group Blackhawk
+⟦192⟧ = musician
+⟦193⟧ = musicians
+⟦194⟧ = name
+⟦195⟧ = naming
+⟦196⟧ = narrations
+⟦197⟧ = Neil Young
+⟦198⟧ = nephew
+⟦199⟧ = Nevada
+⟦200⟧ = New Jersey
+⟦201⟧ = No
+⟦202⟧ = No Fun
+⟦203⟧ = nomination
+⟦204⟧ = number
+⟦205⟧ = numerous times
+⟦206⟧ = occasions
+⟦207⟧ = official download sites
+⟦208⟧ = opening
+⟦209⟧ = Original Album Classics
+⟦210⟧ = other artists
+⟦211⟧ = outlaw
+⟦212⟧ = over one hundred men
+⟦213⟧ = part
+⟦214⟧ = Performance
+⟦215⟧ = person
+⟦216⟧ = piano
+⟦217⟧ = place
+⟦218⟧ = places
+⟦219⟧ = platinum
+⟦220⟧ = player
+⟦221⟧ = pop
+⟦222⟧ = predecessor
+⟦223⟧ = producer
+⟦224⟧ = production
+⟦225⟧ = production and arrangement duties
+⟦226⟧ = record
+⟦227⟧ = record producer
+⟦228⟧ = recordings
+⟦229⟧ = release
+⟦230⟧ = Ruby Fall
+⟦231⟧ = run
+⟦232⟧ = sailor
+⟦233⟧ = self
+⟦234⟧ = several occasions
+⟦235⟧ = Side
+⟦236⟧ = singer
+⟦237⟧ = singles
+⟦238⟧ = sister
+⟦239⟧ = sites
+⟦240⟧ = son
+⟦241⟧ = song
+⟦242⟧ = songs
+⟦243⟧ = songwriter
+⟦244⟧ = Sony Music
+⟦245⟧ = soul
+⟦246⟧ = staff
+⟦247⟧ = staff guitarist
+⟦248⟧ = starship
+⟦249⟧ = Steven Tyler
+⟦250⟧ = studio
+⟦251⟧ = studio musician
+⟦252⟧ = subgenre
+⟦253⟧ = Sunday Mornin' Comin
+⟦254⟧ = supergroup
+⟦255⟧ = Taylor Swift
+⟦256⟧ = Ten Easy Pieces
+⟦257⟧ = the 1963 release
+⟦258⟧ = the 1964 Carter Family album
+⟦259⟧ = the 1970s
+⟦260⟧ = the 1974 Johnny Cash album
+⟦261⟧ = the 2 time multi-platinum self-titled album
+⟦262⟧ = the 33rd album
+⟦263⟧ = the 41st overall and second Christmas album
+⟦264⟧ = The album
+⟦265⟧ = The album's opening track
+⟦266⟧ = The album's title
+⟦267⟧ = the band
+⟦268⟧ = The Beatles
+⟦269⟧ = The Best
+⟦270⟧ = the Carter Family
+⟦271⟧ = the CD "Songs
+⟦272⟧ = the construction
+⟦273⟧ = the Country charts
+⟦274⟧ = the couple
+⟦275⟧ = The dam builder verse
+⟦276⟧ = the death
+⟦277⟧ = the deaths
+⟦278⟧ = the debut full-length album
+⟦279⟧ = the Devil
+⟦280⟧ = the Dualtone record label
+⟦281⟧ = the first album
+⟦282⟧ = the first Kris Kristofferson song
+⟦283⟧ = the Future
+⟦284⟧ = the genre's biggest artists
+⟦285⟧ = the Grand Ole Opry
+⟦286⟧ = The Great Lost Performance
+⟦287⟧ = The Highwayman
+⟦288⟧ = The Highwaymen
+⟦289⟧ = the Hoover Dam
+⟦290⟧ = the Hot Country Songs "Billboard" chart
+⟦291⟧ = the inspiration
+⟦292⟧ = The Johnny Cash Family Christmas
+⟦293⟧ = The Johnny Cash Show band
+⟦294⟧ = the Johnny Cash song
+⟦295⟧ = the Juicehead Minus
+⟦296⟧ = The Junkie
+⟦297⟧ = the last solo album
+⟦298⟧ = the lyrics
+⟦299⟧ = The medley
+⟦300⟧ = the naming
+⟦301⟧ = The Neighborhood
+⟦302⟧ = the number one "Highwayman
+⟦303⟧ = the outlaw country subgenre
+⟦304⟧ = the Paramount Theatre
+⟦305⟧ = the pop charts
+⟦306⟧ = the R.I.A.A.
+⟦307⟧ = the real-life hanged highwayman
+⟦308⟧ = The Rebel
+⟦309⟧ = the River
+⟦310⟧ = the same name
+⟦311⟧ = the same title
+⟦312⟧ = the September
+⟦313⟧ = the sixth album
+⟦314⟧ = the son
+⟦315⟧ = The song
+⟦316⟧ = the Sunny Side
+⟦317⟧ = the supergroup
+⟦318⟧ = the time
+⟦319⟧ = the track
+⟦320⟧ = the United States
+⟦321⟧ = the Wildwood"/"Lonesome Valley
+⟦322⟧ = Their Columbia works
+⟦323⟧ = Their first album
+⟦324⟧ = their pioneering influence
+⟦325⟧ = their son
+⟦326⟧ = their version
+⟦327⟧ = these four artists
+⟦328⟧ = This album
+⟦329⟧ = this time
+⟦330⟧ = three chart singles
+⟦331⟧ = three major label albums
+⟦332⟧ = three songs
+⟦333⟧ = time
+⟦334⟧ = times
+⟦335⟧ = title
+⟦336⟧ = Tommy Cash
+⟦337⟧ = track
+⟦338⟧ = tracks
+⟦339⟧ = trio
+⟦340⟧ = trip
+⟦341⟧ = verse
+⟦342⟧ = version
+⟦343⟧ = vinyl
+⟦344⟧ = Vocal
+⟦345⟧ = vocals
+⟦346⟧ = Waylon Jennings
+⟦347⟧ = Webb
+⟦348⟧ = week
+⟦349⟧ = while two, "Christmas
+⟦350⟧ = wife
+⟦351⟧ = Wilco
+⟦352⟧ = Wildwood Flower
+⟦353⟧ = Willie Nelson
+⟦354⟧ = work
+⟦355⟧ = worker
+⟦356⟧ = works
+⟦357⟧ = year
+⟦358⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Highwaymen (country supergroup)] ⟦288⟧⟨1⟩⟦21⟧⟨2⟩⟦89⟧⟨3⟩⟦190⟧⟨4⟩⟦254⟧⟨5⟩⟦284⟧⟨6⟩⟦111⟧⟨7⟩⟦55⟧⟨8⟩⟦324⟧⟨9⟩⟦141⟧⟨10⟩⟦303⟧⟨11⟩⟦211⟧⟨12⟩⟦89⟧⟨13⟩⟦252⟧⟨14⟩⟦149⟧⟨15⟩⟦346⟧⟨16⟩⟦353⟧⟨17⟩⟦162⟧⟨18⟩
+[The Highwaymen (country supergroup)] ⟨19⟩⟦29⟧⟨20⟩⟦118⟧⟨21⟩⟦327⟧⟨22⟩⟦55⟧⟨23⟩⟦331⟧⟨24⟩⟦163⟧⟨25⟩⟦45⟧⟨26⟩⟦288⟧⟨27⟩⟦85⟧⟨28⟩⟦169⟧⟨29⟩
+[The Highwaymen (country supergroup)] ⟦322⟧⟨30⟩⟦356⟧⟨31⟩⟦330⟧⟨32⟩⟦81⟧⟨33⟩⟦237⟧⟨34⟩⟦302⟧⟨35⟩⟦204⟧⟨36⟩
+[Highwayman (song)] ⟨37⟩⟦125⟧⟨38⟩⟦37⟧⟨39⟩⟦241⟧⟨40⟩⟦49⟧⟨41⟩⟦236⟧⟨42⟩⟦243⟧⟨43⟩⟦38⟧⟨44⟩⟦245⟧⟨45⟩⟦140⟧⟨46⟩⟦140⟧⟨47⟩⟦108⟧⟨48⟩⟦218⟧⟨49⟩⟦333⟧⟨50⟩⟦333⟧⟨51⟩⟦137⟧⟨52⟩⟦137⟧⟨53⟩⟦31⟧⟨54⟩⟦125⟧⟨55⟩⟦36⟧⟨56⟩⟦232⟧⟨57⟩⟦20⟧⟨58⟩⟦87⟧⟨59⟩⟦355⟧⟨60⟩⟦289⟧⟨61⟩⟦16⟧⟨62⟩⟦71⟧⟨63⟩⟦39⟧⟨64⟩⟦248⟧⟨65⟩
+[Highwayman (song)] ⟦315⟧⟨66⟩⟦241⟧⟨67⟩⟦307⟧⟨68⟩⟦170⟧⟨69⟩⟦125⟧⟨70⟩⟦153⟧⟨71⟩
+[Highwayman (song)] ⟦275⟧⟨72⟩⟦94⟧⟨73⟩⟦70⟧⟨74⟩⟦341⟧⟨75⟩⟦277⟧⟨76⟩⟦97⟧⟨77⟩⟦212⟧⟨78⟩⟦186⟧⟨79⟩⟦272⟧⟨80⟩⟦87⟧⟨81⟩⟦138⟧⟨82⟩⟦68⟧⟨83⟩⟦199⟧⟨84⟩
+[Highwayman (song)] ⟦347⟧⟨85⟩⟦315⟧⟨86⟩⟦241⟧⟨87⟩⟦129⟧⟨88⟩⟦44⟧⟨89⟩⟦102⟧⟨90⟩⟦182⟧⟨91⟩
+[Highwayman (song)] ⟨92⟩⟦357⟧⟨93⟩⟦113⟧⟨94⟩⟦135⟧⟨95⟩⟦342⟧⟨96⟩⟦126⟧⟨97⟩⟦44⟧⟨98⟩⟦125⟧⟨99⟩
+[Highwayman (song)] ⟨100⟩⟦315⟧⟨101⟩⟦241⟧⟨102⟩⟦291⟧⟨103⟩⟦142⟧⟨104⟩⟦300⟧⟨105⟩⟦195⟧⟨106⟩⟦317⟧⟨107⟩⟦254⟧⟨108⟩⟦288⟧⟨109⟩⟦149⟧⟨110⟩⟦346⟧⟨111⟩⟦353⟧⟨112⟩⟦162⟧⟨113⟩
+[Highwayman (song)] ⟦323⟧⟨114⟩⟦44⟧⟨115⟩⟦125⟧⟨116⟩⟦34⟧⟨117⟩⟦204⟧⟨118⟩⟦219⟧⟨119⟩⟦44⟧⟨120⟩⟦326⟧⟨121⟩⟦342⟧⟨122⟩⟦315⟧⟨123⟩⟦241⟧⟨124⟩⟦290⟧⟨125⟩⟦81⟧⟨126⟩⟦43⟧⟨127⟩⟦348⟧⟨128⟩⟦231⟧⟨129⟩
+[Highwayman (song)] ⟦326⟧⟨130⟩⟦342⟧⟨131⟩⟦347⟧⟨132⟩⟦27⟧⟨133⟩⟦63⟧⟨134⟩
+[Highwayman (song)] ⟦315⟧⟨135⟩⟦241⟧⟨136⟩⟦210⟧⟨137⟩⟦55⟧⟨138⟩
+[Highwayman (song)] ⟦347⟧⟨139⟩⟦23⟧⟨140⟩⟦342⟧⟨141⟩⟦127⟧⟨142⟩⟦44⟧⟨143⟩⟦256⟧⟨144⟩⟦32⟧⟨145⟩⟦342⟧⟨146⟩⟦128⟧⟨147⟩⟦44⟧⟨148⟩⟦25⟧⟨149⟩⟦100⟧⟨150⟩⟦342⟧⟨151⟩⟦179⟧⟨152⟩⟦13⟧⟨153⟩⟦44⟧⟨154⟩⟦309⟧⟨155⟩
+[Wildwood Flower (album)] ⟦352⟧⟨156⟩⟦297⟧⟨157⟩⟦44⟧⟨158⟩⟦156⟧⟨159⟩
+[Wildwood Flower (album)] ⟨160⟩⟦280⟧⟨161⟩⟦226⟧⟨162⟩⟦163⟧⟨163⟩⟦187⟧⟨164⟩⟦123⟧⟨165⟩⟦96⟧⟨166⟩⟦95⟧⟨167⟩⟦276⟧⟨168⟩⟦96⟧⟨169⟩⟦149⟧⟨170⟩⟦60⟧⟨171⟩⟦345⟧⟨172⟩⟦229⟧⟨173⟩⟦132⟧⟨174⟩⟦171⟧⟨175⟩
+[Wildwood Flower (album)] ⟨176⟩⟦325⟧⟨177⟩⟦240⟧⟨178⟩⟦147⟧⟨179⟩
+[Wildwood Flower (album)] ⟦265⟧⟨180⟩⟦44⟧⟨181⟩⟦208⟧⟨182⟩⟦337⟧⟨183⟩⟦316⟧⟨184⟩⟦235⟧⟨185⟩⟦18⟧⟨186⟩⟦53⟧⟨187⟩⟦156⟧⟨188⟩⟦149⟧⟨189⟩⟦258⟧⟨190⟩⟦44⟧⟨191⟩⟦311⟧⟨192⟩⟦335⟧⟨193⟩⟦260⟧⟨194⟩⟦44⟧⟨195⟩⟦296⟧⟨196⟩⟦295⟧⟨197⟩
+[Wildwood Flower (album)] ⟦9⟧⟨198⟩⟦157⟧⟨199⟩⟦155⟧⟨200⟩⟦124⟧⟨201⟩⟦139⟧⟨202⟩⟦234⟧⟨203⟩⟦206⟧⟨204⟩⟦85⟧⟨205⟩
+[Wildwood Flower (album)] ⟦299⟧⟨206⟩⟦184⟧⟨207⟩⟦83⟧⟨208⟩⟦321⟧⟨209⟩⟦35⟧⟨210⟩⟦213⟧⟨211⟩⟦150⟧⟨212⟩⟦86⟧⟨213⟩⟦259⟧⟨214⟩⟦11⟧⟨215⟩
+[El Mirage (album)] ⟦102⟧⟨216⟩⟦313⟧⟨217⟩⟦44⟧⟨218⟩⟦49⟧⟨219⟩⟦236⟧⟨220⟩⟦243⟧⟨221⟩⟦182⟧⟨222⟩⟦57⟧⟨223⟩
+[El Mirage (album)] ⟨224⟩⟦281⟧⟨225⟩⟦44⟧⟨226⟩⟦347⟧⟨227⟩⟦224⟧⟨228⟩⟦225⟧⟨229⟩⟦54⟧⟨230⟩⟦101⟧⟨231⟩⟦52⟧⟨232⟩⟦215⟧⟨233⟩⟦112⟧⟨234⟩⟦223⟧⟨235⟩⟦223⟧⟨236⟩⟦268⟧⟨237⟩
+[El Mirage (album)] ⟦264⟧⟨238⟩⟦44⟧⟨239⟩⟦287⟧⟨240⟩⟦37⟧⟨241⟩⟦241⟧⟨242⟩⟦67⟧⟨243⟩⟦194⟧⟨244⟩⟦288⟧⟨245⟩⟦22⟧⟨246⟩⟦89⟧⟨247⟩⟦254⟧⟨248⟩⟦149⟧⟨249⟩⟦346⟧⟨250⟩⟦162⟧⟨251⟩⟦353⟧⟨252⟩
+[El Mirage (album)] ⟦146⟧⟨253⟩⟦319⟧⟨254⟩⟦337⟧⟨255⟩⟦129⟧⟨256⟩⟦44⟧⟨257⟩⟦5⟧⟨258⟩
+[The Johnny Cash Family Christmas] ⟦292⟧⟨259⟩⟦263⟧⟨260⟩⟦44⟧⟨261⟩⟦89⟧⟨262⟩⟦91⟧⟨263⟩⟦236⟧⟨264⟩⟦85⟧⟨265⟩
+[The Johnny Cash Family Christmas] ⟨266⟩⟦133⟧⟨267⟩⟦44⟧⟨268⟩⟦257⟧⟨269⟩⟦229⟧⟨270⟩⟦7⟧⟨271⟩
+[The Johnny Cash Family Christmas] ⟦264⟧⟨272⟩⟦44⟧⟨273⟩⟦167⟧⟨274⟩⟦74⟧⟨275⟩⟦181⟧⟨276⟩⟦144⟧⟨277⟩⟦222⟧⟨278⟩⟦196⟧⟨279⟩⟦196⟧⟨280⟩⟦98⟧⟨281⟩⟦98⟧⟨282⟩⟦131⟧⟨283⟩⟦104⟧⟨284⟩⟦109⟧⟨285⟩⟦109⟧⟨286⟩⟦338⟧⟨287⟩⟦338⟧⟨288⟩
+[The Johnny Cash Family Christmas] ⟨289⟩⟦332⟧⟨290⟩⟦242⟧⟨291⟩⟦74⟧⟨292⟩⟦349⟧⟨293⟩⟦6⟧⟨294⟩⟦7⟧⟨295⟩⟦10⟧⟨296⟩⟦103⟧⟨297⟩⟦103⟧⟨298⟩⟦46⟧⟨299⟩⟦74⟧⟨300⟩⟦45⟧⟨301⟩
+[The Johnny Cash Family Christmas] ⟦156⟧⟨302⟩⟦180⟧⟨303⟩⟦336⟧⟨304⟩⟦120⟧⟨305⟩⟦164⟧⟨306⟩⟦77⟧⟨307⟩⟦216⟧⟨308⟩⟦220⟧⟨309⟩⟦226⟧⟨310⟩⟦227⟧⟨311⟩⟦223⟧⟨312⟩⟦329⟧⟨313⟩⟦333⟧⟨314⟩⟦183⟧⟨315⟩⟦51⟧⟨316⟩⟦73⟧⟨317⟩⟦168⟧⟨318⟩⟦264⟧⟨319⟩⟦44⟧⟨320⟩
+[Kenneth Jones (songwriter)] ⟦159⟧⟨321⟩⟦314⟧⟨322⟩⟦240⟧⟨323⟩⟦121⟧⟨324⟩⟦89⟧⟨325⟩⟦90⟧⟨326⟩⟦190⟧⟨327⟩⟦114⟧⟨328⟩
+[Kenneth Jones (songwriter)] ⟨329⟩⟦37⟧⟨330⟩⟦241⟧⟨331⟩⟦41⟧⟨332⟩⟦241⟧⟨333⟩⟦151⟧⟨334⟩⟦45⟧⟨335⟩⟦149⟧⟨336⟩⟦3⟧⟨337⟩⟦174⟧⟨338⟩
+[Kenneth Jones (songwriter)] ⟦158⟧⟨339⟩⟦76⟧⟨340⟩⟦198⟧⟨341⟩⟦165⟧⟨342⟩⟦165⟧⟨343⟩
+[Kenneth Jones (songwriter)] ⟦78⟧⟨344⟩⟦350⟧⟨345⟩⟦156⟧⟨346⟩⟦122⟧⟨347⟩⟦238⟧⟨348⟩
+[Kenneth Jones (songwriter)] ⟦158⟧⟨349⟩⟦160⟧⟨350⟩⟦178⟧⟨351⟩⟦242⟧⟨352⟩⟦40⟧⟨353⟩⟦192⟧⟨354⟩
+[Kenneth Jones (songwriter)] ⟨355⟩⟦318⟧⟨356⟩⟦333⟧⟨357⟩⟦130⟧⟨358⟩⟦96⟧⟨359⟩⟦88⟧⟨360⟩⟦88⟧⟨361⟩⟦188⟧⟨362⟩⟦30⟧⟨363⟩⟦72⟧⟨364⟩
+[Kenneth Jones (songwriter)] ⟨365⟩⟦130⟧⟨366⟩⟦96⟧⟨367⟩⟦270⟧⟨368⟩⟦134⟧⟨369⟩⟦242⟧⟨370⟩⟦283⟧⟨371⟩⟦110⟧⟨372⟩
+[Kenneth Jones (songwriter)] ⟨373⟩⟦298⟧⟨374⟩⟦173⟧⟨375⟩⟦312⟧⟨376⟩⟦12⟧⟨377⟩⟦58⟧⟨378⟩⟦320⟧⟨379⟩⟦217⟧⟨380⟩⟦217⟧⟨381⟩⟦358⟧⟨382⟩⟦315⟧⟨383⟩⟦241⟧⟨384⟩
+[Forty Shades of Green] ⟨385⟩⟦107⟧⟨386⟩⟦117⟧⟨387⟩⟦37⟧⟨388⟩⟦241⟧⟨389⟩⟦143⟧⟨390⟩⟦48⟧⟨391⟩⟦89⟧⟨392⟩⟦236⟧⟨393⟩
+[Forty Shades of Green] ⟦74⟧⟨394⟩⟦315⟧⟨395⟩⟦241⟧⟨396⟩⟦42⟧⟨397⟩⟦340⟧⟨398⟩⟦143⟧⟨399⟩⟦14⟧⟨400⟩⟦235⟧⟨401⟩⟦315⟧⟨402⟩⟦241⟧⟨403⟩⟦308⟧⟨404⟩⟦152⟧⟨405⟩
+[Forty Shades of Green] ⟨406⟩⟦75⟧⟨407⟩⟦45⟧⟨408⟩⟦105⟧⟨409⟩⟦269⟧⟨410⟩⟦149⟧⟨411⟩⟦85⟧⟨412⟩⟦3⟧⟨413⟩⟦74⟧⟨414⟩⟦286⟧⟨415⟩⟦214⟧⟨416⟩⟦304⟧⟨417⟩⟦56⟧⟨418⟩⟦200⟧⟨419⟩
+[Hello, I'm Johnny Cash] ⟨420⟩⟦149⟧⟨421⟩⟦262⟧⟨422⟩⟦44⟧⟨423⟩⟦48⟧⟨424⟩⟦89⟧⟨425⟩⟦236⟧⟨426⟩⟦85⟧⟨427⟩⟦190⟧⟨428⟩⟦190⟧⟨429⟩
+[Hello, I'm Johnny Cash] ⟨430⟩⟦17⟧⟨431⟩⟦100⟧⟨432⟩⟦79⟧⟨433⟩⟦350⟧⟨434⟩⟦156⟧⟨435⟩⟦274⟧⟨436⟩⟦92⟧⟨437⟩⟦27⟧⟨438⟩⟦62⟧⟨439⟩⟦26⟧⟨440⟩⟦118⟧⟨441⟩⟦344⟧⟨442⟩⟦116⟧⟨443⟩⟦315⟧⟨444⟩⟦241⟧⟨445⟩⟦201⟧⟨446⟩⟦201⟧⟨447⟩⟦273⟧⟨448⟩⟦82⟧⟨449⟩
+[Hello, I'm Johnny Cash] ⟦328⟧⟨450⟩⟦44⟧⟨451⟩⟦279⟧⟨452⟩⟦282⟧⟨453⟩⟦241⟧⟨454⟩⟦74⟧⟨455⟩⟦205⟧⟨456⟩⟦334⟧⟨457⟩⟦253⟧⟨458⟩
+[Hello, I'm Johnny Cash] ⟨459⟩⟦230⟧⟨460⟩⟦1⟧⟨461⟩⟦237⟧⟨462⟩⟦237⟧⟨463⟩⟦264⟧⟨464⟩⟦44⟧⟨465⟩⟦201⟧⟨466⟩⟦201⟧⟨467⟩⟦273⟧⟨468⟩⟦89⟧⟨469⟩⟦82⟧⟨470⟩⟦201⟧⟨471⟩⟦201⟧⟨472⟩⟦305⟧⟨473⟩⟦221⟧⟨474⟩⟦82⟧⟨475⟩
+[Hello, I'm Johnny Cash] ⟨476⟩⟦115⟧⟨477⟩⟦306⟧
+[Hello, I'm Johnny Cash] ⟦264⟧⟨478⟩⟦44⟧⟨479⟩⟦80⟧⟨480⟩⟦244⟧⟨481⟩⟦209⟧⟨482⟩⟦8⟧⟨483⟩⟦4⟧⟨484⟩⟦175⟧⟨485⟩⟦64⟧⟨486⟩⟦207⟧⟨487⟩⟦99⟧⟨488⟩⟦239⟧⟨489⟩
+[Hello, I'm Johnny Cash] ⟦328⟧⟨490⟩⟦44⟧⟨491⟩⟦15⟧⟨492⟩⟦310⟧⟨493⟩⟦194⟧⟨494⟩
+[Kerry Marx] ⟦161⟧⟨495⟩⟦50⟧⟨496⟩⟦119⟧⟨497⟩⟦250⟧⟨498⟩⟦251⟧⟨499⟩⟦192⟧⟨500⟩⟦136⟧⟨501⟩⟦354⟧⟨502⟩⟦285⟧⟨503⟩⟦246⟧⟨504⟩⟦247⟧⟨505⟩⟦119⟧⟨506⟩
+[Kerry Marx] ⟨507⟩⟦177⟧⟨508⟩⟦193⟧⟨509⟩⟦149⟧⟨510⟩⟦255⟧⟨511⟩⟦148⟧⟨512⟩⟦145⟧⟨513⟩⟦249⟧⟨514⟩
+[Kerry Marx] ⟨515⟩⟦271⟧⟨516⟩⟦242⟧⟨517⟩⟦301⟧⟨518⟩⟦27⟧⟨519⟩⟦59⟧⟨520⟩⟦264⟧⟨521⟩⟦44⟧⟨522⟩⟦176⟧⟨523⟩⟦189⟧⟨524⟩⟦28⟧⟨525⟩⟦203⟧⟨526⟩⟦261⟧⟨527⟩⟦333⟧⟨528⟩⟦233⟧⟨529⟩⟦44⟧⟨530⟩⟦191⟧⟨531⟩⟦118⟧⟨532⟩
+[Kerry Marx] ⟨533⟩⟦33⟧⟨534⟩⟦185⟧⟨535⟩⟦293⟧⟨536⟩⟦61⟧⟨537⟩
+[No Fools, No Fun] ⟨538⟩⟦202⟧⟨539⟩⟦278⟧⟨540⟩⟦166⟧⟨541⟩⟦44⟧⟨542⟩⟦69⟧⟨543⟩⟦47⟧⟨544⟩⟦89⟧⟨545⟩⟦339⟧⟨546⟩⟦154⟧⟨547⟩⟦65⟧⟨548⟩
+[No Fools, No Fun] ⟨549⟩⟦19⟧⟨550⟩⟦84⟧⟨551⟩⟦106⟧⟨552⟩⟦93⟧⟨553⟩⟦242⟧⟨554⟩⟦55⟧⟨555⟩⟦55⟧⟨556⟩⟦149⟧⟨557⟩⟦351⟧⟨558⟩⟦197⟧⟨559⟩
+[No Fools, No Fun] ⟦264⟧⟨560⟩⟦44⟧⟨561⟩⟦66⟧⟨562⟩⟦250⟧⟨563⟩⟦172⟧⟨564⟩⟦228⟧⟨565⟩⟦80⟧⟨566⟩⟦343⟧⟨567⟩⟦343⟧⟨568⟩⟦24⟧⟨569⟩⟦99⟧⟨570⟩
+[No Fools, No Fun] ⟦266⟧⟨571⟩⟦44⟧⟨572⟩⟦335⟧⟨573⟩⟦173⟧⟨574⟩⟦173⟧⟨575⟩⟦294⟧⟨576⟩⟦241⟧⟨577⟩⟦2⟧⟨578⟩⟦267⟧⟨579⟩⟦61⟧⟨580⟩⟦264⟧⟨581⟩⟦44⟧⟨582⟩
+
+[user]
+
+问题：
+What song written by Jimmy Webb inspired the name of a supergroup including Johnny Cash?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

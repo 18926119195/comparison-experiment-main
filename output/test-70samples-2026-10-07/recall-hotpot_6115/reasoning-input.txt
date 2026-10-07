@@ -1,0 +1,77 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Don Baker (journalist)] ⟦89⟧⟨26⟩⟦215⟧⟦50⟧⟨28⟩⟦63⟧⟨27⟩⟨29⟩⟨30⟩
+[Don Baker (journalist)] ⟦238⟧ | ⟨31⟩⟦238⟧⟨32⟩⟦217⟧⟨33⟩⟦209⟧⟨34⟩
+[Don Baker (journalist)] ⟨35⟩⟦130⟧⟨36⟩⟨37⟩⟦19⟧⟨38⟩⟦239⟧⟦257⟧⟨40⟩⟦181⟧⟨39⟩⟨41⟩⟦208⟧⟦54⟧⟨42⟩⟨43⟩⟦242⟧⟦56⟧⟨44⟩⟨45⟩⟦168⟧⟨46⟩
+[Bruce Boa] ⟦185⟧
+
+符号表：
+⟦19⟧ = A Perfect Candidate
+⟦50⟧ = bureau
+⟦54⟧ = campaign
+⟦56⟧ = candidate
+⟦63⟧ = chief
+⟦89⟧ = Donald Parks Baker
+⟦130⟧ = his documentary role
+⟦168⟧ = Oliver North
+⟦181⟧ = reporter
+⟦185⟧ = role
+⟦208⟧ = the campaign
+⟦209⟧ = the Cleveland Press
+⟦215⟧ = the former Richmond bureau chief
+⟦217⟧ = The Indianapolis Times
+⟦238⟧ = The Washington Post
+⟦239⟧ = the watchdog reporter
+⟦242⟧ = then United States Senate candidate
+⟦257⟧ = watchdog
+
+占位符映射：
+⟨26⟩ =  is 
+⟨27⟩ = 
+⟨28⟩ =  
+⟨29⟩ =  of 
+⟨30⟩ =  between 1985 and 1999.
+⟨31⟩ =  Before joining 
+⟨32⟩ =  in 1970, he was with 
+⟨33⟩ =  and 
+⟨34⟩ = .
+⟨35⟩ =  He is also known for 
+⟨36⟩ = 
+⟨37⟩ =  in 
+⟨38⟩ =  as 
+⟨39⟩ = 
+⟨40⟩ =  
+⟨41⟩ =  who digs into 
+⟨42⟩ = 
+⟨43⟩ =  of 
+⟨44⟩ = 
+⟨45⟩ = , 
+⟨46⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The reporter who digs into the campaign of a former Marine Colonel, worked where in Cleveland?

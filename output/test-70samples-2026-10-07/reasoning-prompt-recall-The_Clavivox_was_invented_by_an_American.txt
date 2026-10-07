@@ -1,0 +1,106 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Mark Warnow] ⟦106⟧⟨96⟩⟨97⟩⟦1⟧⟨98⟩⟦17⟧⟦192⟧⟨99⟩⟨100⟩⟦124⟧⟦58⟧⟨101⟩⟨102⟩⟨103⟩⟨104⟩⟦164⟧⟦6⟧⟨105⟩⟨106⟩⟦7⟧⟦7⟧⟨107⟩⟨108⟩
+[Mark Warnow] ⟨114⟩⟦180⟧⟨115⟩⟨116⟩⟦57⟧⟨117⟩⟦42⟧⟨118⟩⟨119⟩⟦135⟧⟨120⟩⟦39⟧⟨121⟩⟦74⟧⟨122⟩⟨123⟩⟦13⟧⟨124⟩⟨125⟩⟦114⟧⟦114⟧⟨126⟩⟨127⟩
+[Harry Shannon] ⟦47⟧⟦47⟧
+[Clavivox] ⟦171⟧⟨159⟩⟦14⟧⟦102⟧⟨161⟩⟦152⟧⟨162⟩⟦161⟧⟨160⟩⟨163⟩⟦145⟧⟦145⟧⟨164⟩⟨165⟩⟦23⟧⟦56⟧⟨167⟩⟨166⟩ | ⟦56⟧
+[Harry Caray] ⟦134⟧⟦134⟧
+[Harry Jackson (artist)] ⟦34⟧
+[Harry Jackson (artist)] ⟦51⟧
+
+符号表：
+⟦1⟧ = - October
+⟦6⟧ = 1930s
+⟦7⟧ = 1940s
+⟦13⟧ = a career
+⟦14⟧ = a keyboard sound synthesizer
+⟦17⟧ = a noted violinist
+⟦23⟧ = American composer Raymond Scott
+⟦34⟧ = April
+⟦39⟧ = b. Harry Warnow
+⟦42⟧ = bandleader
+⟦47⟧ = brother
+⟦51⟧ = career
+⟦56⟧ = composer
+⟦57⟧ = composer/bandleader
+⟦58⟧ = conductor
+⟦74⟧ = eventually more famous) brother
+⟦102⟧ = keyboard
+⟦106⟧ = Mark Warnow
+⟦114⟧ = music
+⟦124⟧ = orchestra conductor
+⟦134⟧ = radio
+⟦135⟧ = Raymond Scott
+⟦145⟧ = sequencer
+⟦152⟧ = sound
+⟦161⟧ = synthesizer
+⟦164⟧ = the 1930s
+⟦171⟧ = The Clavivox
+⟦180⟧ = the older brother
+⟦192⟧ = violinist
+
+占位符映射：
+⟨96⟩ =  (
+⟨97⟩ =  10, 1900 
+⟨98⟩ =  17, 1949) was 
+⟨99⟩ = 
+⟨100⟩ =  and 
+⟨101⟩ = 
+⟨102⟩ = , who performed widely on 
+⟨103⟩ = 
+⟨104⟩ =  in 
+⟨105⟩ = 
+⟨106⟩ =  and 
+⟨107⟩ = 
+⟨108⟩ = .
+⟨114⟩ =  He was 
+⟨115⟩ = 
+⟨116⟩ =  of 
+⟨117⟩ = 
+⟨118⟩ = 
+⟨119⟩ =  
+⟨120⟩ =  (
+⟨121⟩ = ), and is credited with steering his younger (and 
+⟨122⟩ = 
+⟨123⟩ =  into 
+⟨124⟩ = 
+⟨125⟩ =  in 
+⟨126⟩ = 
+⟨127⟩ = .
+⟨159⟩ =  was 
+⟨160⟩ = 
+⟨161⟩ =  
+⟨162⟩ =  
+⟨163⟩ =  and 
+⟨164⟩ = 
+⟨165⟩ =  invented by 
+⟨166⟩ = 
+⟨167⟩ =  Raymond Scott in 1952, and patented in 1956.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The Clavivox was invented by an American composer who was born Harry Warnow in what year?

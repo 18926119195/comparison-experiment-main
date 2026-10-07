@@ -1,0 +1,556 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Forest
+⟦2⟧ = (9th century
+⟦3⟧ = (蓟城/薊城 Jìchéng
+⟦4⟧ = 11th century
+⟦5⟧ = 12th century
+⟦6⟧ = 221 BC
+⟦7⟧ = 771-476 BC
+⟦8⟧ = 7th
+⟦9⟧ = 8th century) astronomer
+⟦10⟧ = 9th century
+⟦11⟧ = 宝寿院
+⟦12⟧ = 蓟州
+⟦13⟧ = 薊 Jì
+⟦14⟧ = 文館詞林
+⟦15⟧ = 正智院
+⟦16⟧ = a 1267 treatise
+⟦17⟧ = a blood sport
+⟦18⟧ = a Buddhist temple
+⟦19⟧ = a consequence
+⟦20⟧ = a discipline
+⟦21⟧ = a Jizhou
+⟦22⟧ = a lesser degree
+⟦23⟧ = a macro
+⟦24⟧ = a monopoly
+⟦25⟧ = a new capital city
+⟦26⟧ = a new emphasis
+⟦27⟧ = a new science
+⟦28⟧ = a popular pastime
+⟦29⟧ = a prefectural capital
+⟦30⟧ = a replacement
+⟦31⟧ = a result
+⟦32⟧ = a single scroll
+⟦33⟧ = a suburb
+⟦34⟧ = a Tang Dynasty imperial poetry collection
+⟦35⟧ = a tomb stele
+⟦36⟧ = a written formula
+⟦37⟧ = about 1045 BC
+⟦38⟧ = act
+⟦39⟧ = AD
+⟦40⟧ = alchemy
+⟦41⟧ = Alexander von Humboldt
+⟦42⟧ = Alfred Russel Wallace
+⟦43⟧ = amounts
+⟦44⟧ = an ancient city
+⟦45⟧ = an ecological factor
+⟦46⟧ = an important branch
+⟦47⟧ = animals
+⟦48⟧ = antiquity
+⟦49⟧ = appearance
+⟦50⟧ = Archaeological finds
+⟦51⟧ = Aristotle
+⟦52⟧ = army
+⟦53⟧ = arrows
+⟦54⟧ = art
+⟦55⟧ = Arthur Tansley’s ecosystem
+⟦56⟧ = astrologer
+⟦57⟧ = Astrology
+⟦58⟧ = astronomer
+⟦59⟧ = at least the 12th century
+⟦60⟧ = Baekje
+⟦61⟧ = basin
+⟦62⟧ = beginning
+⟦63⟧ = Beijing's Ming-era city wall
+⟦64⟧ = biocoenosis
+⟦65⟧ = biological science
+⟦66⟧ = biosphere
+⟦67⟧ = blood
+⟦68⟧ = bombs
+⟦69⟧ = botanical geography
+⟦70⟧ = branch
+⟦71⟧ = building
+⟦72⟧ = Bunkan shirin
+⟦73⟧ = calendar
+⟦74⟧ = capital
+⟦75⟧ = Carl Linnaeus
+⟦76⟧ = cavalry
+⟦77⟧ = century
+⟦78⟧ = Chang'an
+⟦79⟧ = changes
+⟦80⟧ = Charles Darwin’s work
+⟦81⟧ = Charles Elton's "Animal Ecology
+⟦82⟧ = China
+⟦83⟧ = Chinese
+⟦84⟧ = Chinese alchemy
+⟦85⟧ = cicadas
+⟦86⟧ = cities
+⟦87⟧ = city
+⟦88⟧ = collection
+⟦89⟧ = commoners
+⟦90⟧ = compilation
+⟦91⟧ = compiler
+⟦92⟧ = conquest
+⟦93⟧ = conquests
+⟦94⟧ = consequence
+⟦95⟧ = Conservation
+⟦96⟧ = consists
+⟦97⟧ = context
+⟦98⟧ = contributions
+⟦99⟧ = control
+⟦100⟧ = court
+⟦101⟧ = creation
+⟦102⟧ = cricket
+⟦103⟧ = Cricket fighting
+⟦104⟧ = cricket fights
+⟦105⟧ = crickets
+⟦106⟧ = currents
+⟦107⟧ = Dadu
+⟦108⟧ = Darwin
+⟦109⟧ = date
+⟦110⟧ = Datong
+⟦111⟧ = day
+⟦112⟧ = degree
+⟦113⟧ = descent
+⟦114⟧ = devices
+⟦115⟧ = discipline
+⟦116⟧ = dynasty
+⟦117⟧ = early antiquity
+⟦118⟧ = earth
+⟦119⟧ = ecological plant geography
+⟦120⟧ = Ecological thought
+⟦121⟧ = ecologists
+⟦122⟧ = Ecology
+⟦123⟧ = economy
+⟦124⟧ = ecosystem
+⟦125⟧ = Eduard Suess
+⟦126⟧ = effect
+⟦127⟧ = effects
+⟦128⟧ = emperor
+⟦129⟧ = Emperor Taizong's military success
+⟦130⟧ = emphasis
+⟦131⟧ = entertainment
+⟦132⟧ = environment
+⟦133⟧ = era
+⟦134⟧ = established currents
+⟦135⟧ = ethics
+⟦136⟧ = Eugenius Warming’s work
+⟦137⟧ = eventually Europe
+⟦138⟧ = example
+⟦139⟧ = expansion
+⟦140⟧ = experimentation
+⟦141⟧ = explosive
+⟦142⟧ = explosives
+⟦143⟧ = factor
+⟦144⟧ = family
+⟦145⟧ = favorites
+⟦146⟧ = fighting
+⟦147⟧ = fights
+⟦148⟧ = figures
+⟦149⟧ = finds
+⟦150⟧ = fire
+⟦151⟧ = fire arrows
+⟦152⟧ = fireworks
+⟦153⟧ = formula
+⟦154⟧ = foundation
+⟦155⟧ = founding
+⟦156⟧ = friar
+⟦157⟧ = Gautama Siddha
+⟦158⟧ = generations
+⟦159⟧ = geography
+⟦160⟧ = George Perkins Marsh
+⟦161⟧ = Goguryeo
+⟦162⟧ = governments
+⟦163⟧ = grasshoppers
+⟦164⟧ = Greek fire
+⟦165⟧ = grenades
+⟦166⟧ = gun
+⟦167⟧ = Gunpowder
+⟦168⟧ = half
+⟦169⟧ = hall
+⟦170⟧ = halls
+⟦171⟧ = Heian period
+⟦172⟧ = Henry Cowles ecological succession
+⟦173⟧ = his family
+⟦174⟧ = his non-Chinese opponents
+⟦175⟧ = his translation
+⟦176⟧ = his work
+⟦177⟧ = Historical mention
+⟦178⟧ = history
+⟦179⟧ = Hōju
+⟦180⟧ = horse
+⟦181⟧ = Human ecology
+⟦182⟧ = humanities
+⟦183⟧ = humans
+⟦184⟧ = hypothesis
+⟦185⟧ = immortality
+⟦186⟧ = implements
+⟦187⟧ = Important figures
+⟦188⟧ = improved weaponry
+⟦189⟧ = India
+⟦190⟧ = Indian descent
+⟦191⟧ = Indian numerals
+⟦192⟧ = injuries
+⟦193⟧ = Inner Asia
+⟦194⟧ = interest
+⟦195⟧ = interrelationships
+⟦196⟧ = invention
+⟦197⟧ = Inventions
+⟦198⟧ = its earliest surviving building
+⟦199⟧ = Its history
+⟦200⟧ = its invention
+⟦201⟧ = its kind
+⟦202⟧ = its newly conquered vassals
+⟦203⟧ = its popularity
+⟦204⟧ = its young history
+⟦205⟧ = James Lovelock
+⟦206⟧ = Japanese manuscripts
+⟦207⟧ = Ji
+⟦208⟧ = Jicheng
+⟦209⟧ = Karl Möbius
+⟦210⟧ = kind
+⟦211⟧ = Knowledge
+⟦212⟧ = Korea
+⟦213⟧ = Kublai Khan
+⟦214⟧ = lance
+⟦215⟧ = macro
+⟦216⟧ = Major contributions
+⟦217⟧ = male crickets
+⟦218⟧ = man
+⟦219⟧ = man’s effects
+⟦220⟧ = manuscripts
+⟦221⟧ = many generations
+⟦222⟧ = many incendiary and burning devices
+⟦223⟧ = many species
+⟦224⟧ = mention
+⟦225⟧ = Middle Asia
+⟦226⟧ = mines
+⟦227⟧ = mining
+⟦228⟧ = modern Beijing
+⟦229⟧ = monopoly
+⟦230⟧ = more than 1,000 years
+⟦231⟧ = most blood sports
+⟦232⟧ = movements
+⟦233⟧ = name
+⟦234⟧ = National Environmental Policy act
+⟦235⟧ = nature
+⟦236⟧ = Navagraha calendar
+⟦237⟧ = non-military purposes
+⟦238⟧ = north
+⟦239⟧ = northern China
+⟦240⟧ = Northern Dynasties
+⟦241⟧ = notion
+⟦242⟧ = numerals
+⟦243⟧ = officials
+⟦244⟧ = officials' poems
+⟦245⟧ = opponents
+⟦246⟧ = organism
+⟦247⟧ = other explosive implements
+⟦248⟧ = other gunpowder weapons
+⟦249⟧ = Other manuscripts
+⟦250⟧ = part
+⟦251⟧ = parts
+⟦252⟧ = pastime
+⟦253⟧ = pavilions
+⟦254⟧ = people
+⟦255⟧ = perhaps his student
+⟦256⟧ = period
+⟦257⟧ = pet cicadas
+⟦258⟧ = pets
+⟦259⟧ = philosophy
+⟦260⟧ = plant
+⟦261⟧ = plants
+⟦262⟧ = poems
+⟦263⟧ = poetry
+⟦264⟧ = politics
+⟦265⟧ = popularity
+⟦266⟧ = post-Dust Bowl conservation
+⟦267⟧ = purposes
+⟦268⟧ = pursuit
+⟦269⟧ = realm
+⟦270⟧ = record
+⟦271⟧ = replacement
+⟦272⟧ = result
+⟦273⟧ = rockets
+⟦274⟧ = rods
+⟦275⟧ = Sansheng Hall
+⟦276⟧ = science
+⟦277⟧ = sciences
+⟦278⟧ = scroll
+⟦279⟧ = scrolls
+⟦280⟧ = section
+⟦281⟧ = Shanhua Temple
+⟦282⟧ = Shanxi Province
+⟦283⟧ = Shelford
+⟦284⟧ = Shōchi
+⟦285⟧ = Silla and Tang Dynasty
+⟦286⟧ = Sixteen Kingdoms
+⟦287⟧ = some effect
+⟦288⟧ = songs
+⟦289⟧ = southwestern Beijing
+⟦290⟧ = species
+⟦291⟧ = sport
+⟦292⟧ = sports
+⟦293⟧ = states
+⟦294⟧ = Stephen A. Forbes
+⟦295⟧ = stridulation
+⟦296⟧ = student
+⟦297⟧ = suburb
+⟦298⟧ = success
+⟦299⟧ = succession
+⟦300⟧ = Sui Dynasty
+⟦301⟧ = surviving
+⟦302⟧ = Taoists
+⟦303⟧ = temple
+⟦304⟧ = the "Four Great Inventions
+⟦305⟧ = the "Treatise
+⟦306⟧ = the 11th century
+⟦307⟧ = the 11th-century Liao Dynasty
+⟦308⟧ = the 13th Century
+⟦309⟧ = the 18th and 19th century
+⟦310⟧ = the 19th century
+⟦311⟧ = the 20th century
+⟦312⟧ = the 20th century world governments
+⟦313⟧ = the 4th century
+⟦314⟧ = the 4th century BC
+⟦315⟧ = the 680s
+⟦316⟧ = the 7th
+⟦317⟧ = the 7th century
+⟦318⟧ = the 8th century AD
+⟦319⟧ = the ancient states
+⟦320⟧ = the animals
+⟦321⟧ = the appearance
+⟦322⟧ = The art
+⟦323⟧ = the beginning
+⟦324⟧ = the biosphere
+⟦325⟧ = the biosphere and Earth’s environment
+⟦326⟧ = the capital
+⟦327⟧ = the Chinese
+⟦328⟧ = the Chinese army
+⟦329⟧ = the Chinese people
+⟦330⟧ = the Chinese Tang dynasty
+⟦331⟧ = the City
+⟦332⟧ = the commoners
+⟦333⟧ = the compilation
+⟦334⟧ = the conquest
+⟦335⟧ = the creation
+⟦336⟧ = the discipline
+⟦337⟧ = the earliest record
+⟦338⟧ = the earliest written formula
+⟦339⟧ = the early 12th century
+⟦340⟧ = the early 20th century
+⟦341⟧ = the early 8th century
+⟦342⟧ = the economy
+⟦343⟧ = The emperor
+⟦344⟧ = the English friar Roger Bacon
+⟦345⟧ = the ESA
+⟦346⟧ = the expansion
+⟦347⟧ = the favorites
+⟦348⟧ = the fighting
+⟦349⟧ = the finest fighting crickets
+⟦350⟧ = the fire lance
+⟦351⟧ = the first ecologists
+⟦352⟧ = the first physical explosive
+⟦353⟧ = the Five Dynasties
+⟦354⟧ = the Forbidden City
+⟦355⟧ = the foundation
+⟦356⟧ = the founding
+⟦357⟧ = the Gaia hypothesis
+⟦358⟧ = The Gautama family
+⟦359⟧ = the geopolitical context
+⟦360⟧ = the Gobi
+⟦361⟧ = the Gobi Desert
+⟦362⟧ = the Gokturk Empires
+⟦363⟧ = the gun
+⟦364⟧ = the Han Dynasty
+⟦365⟧ = the horse
+⟦366⟧ = the imperial court
+⟦367⟧ = the Imperial era
+⟦368⟧ = the Inner Asia
+⟦369⟧ = The invention
+⟦370⟧ = the Jin Dynasty
+⟦371⟧ = the Kaiyuan Era
+⟦372⟧ = the Khitans
+⟦373⟧ = the Korean Silla Kingdom
+⟦374⟧ = The largest, and earliest hall
+⟦375⟧ = the late Tang dynasty
+⟦376⟧ = the Liao Dynasty
+⟦377⟧ = the longest continuously inhabited section
+⟦378⟧ = the Mahavira Hall
+⟦379⟧ = the Main Gate
+⟦380⟧ = the Ming Dynasty
+⟦381⟧ = the modern day
+⟦382⟧ = the Mongol conquests
+⟦383⟧ = the name
+⟦384⟧ = the north
+⟦385⟧ = the notion
+⟦386⟧ = the old and new cities
+⟦387⟧ = The old city
+⟦388⟧ = the Old World
+⟦389⟧ = the Opus Majus
+⟦390⟧ = the pursuit
+⟦391⟧ = the Qin Dynasty
+⟦392⟧ = the Qing dynasty
+⟦393⟧ = the science
+⟦394⟧ = the second half
+⟦395⟧ = The Silla–Tang War
+⟦396⟧ = the Sixteen Prefectures
+⟦397⟧ = the social sciences
+⟦398⟧ = the Song dynasty
+⟦399⟧ = the southern capital
+⟦400⟧ = the sport
+⟦401⟧ = the Spring and Autumn period
+⟦402⟧ = the states
+⟦403⟧ = the Tang
+⟦404⟧ = the Tang Dynasty
+⟦405⟧ = the Tang dynasty's realm
+⟦406⟧ = the Tarim Basin
+⟦407⟧ = The temple
+⟦408⟧ = the Tibetans
+⟦409⟧ = The treasure
+⟦410⟧ = the unification
+⟦411⟧ = the Wenguan Cilin
+⟦412⟧ = the years
+⟦413⟧ = the Yuan Dynasty
+⟦414⟧ = the Zhou Dynasty
+⟦415⟧ = their "songs
+⟦416⟧ = their environment
+⟦417⟧ = their expansion
+⟦418⟧ = then main capital
+⟦419⟧ = Theodore Roosevelt
+⟦420⟧ = Theophrastus
+⟦421⟧ = This expansion
+⟦422⟧ = this work
+⟦423⟧ = thought
+⟦424⟧ = Three Kingdoms
+⟦425⟧ = three original halls
+⟦426⟧ = Tianjin Municipality
+⟦427⟧ = today
+⟦428⟧ = tomb
+⟦429⟧ = translation
+⟦430⟧ = treasure
+⟦431⟧ = treatise
+⟦432⟧ = tunneling
+⟦433⟧ = twelve scrolls
+⟦434⟧ = two recently rebuilt pavilions
+⟦435⟧ = unification
+⟦436⟧ = Unified Silla
+⟦437⟧ = use
+⟦438⟧ = vassals
+⟦439⟧ = views
+⟦440⟧ = Vladimir Vernadsky
+⟦441⟧ = wall
+⟦442⟧ = warfare
+⟦443⟧ = Wars
+⟦444⟧ = way
+⟦445⟧ = weaponry
+⟦446⟧ = weapons
+⟦447⟧ = Western Jin Dynasty
+⟦448⟧ = whose writings
+⟦449⟧ = work
+⟦450⟧ = world
+⟦451⟧ = writings
+⟦452⟧ = Xi'an
+⟦453⟧ = Xueyantuo
+⟦454⟧ = Yan
+⟦455⟧ = years
+⟦456⟧ = Youzhou
+⟦457⟧ = zero (〇
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Crickets as pets] ⟨1⟩⟦105⟧⟨2⟩⟦105⟧⟨3⟩⟦258⟧⟨4⟩⟦258⟧⟨5⟩⟦82⟧⟨6⟩⟦117⟧⟨7⟩⟦48⟧⟨8⟩
+[Crickets as pets] ⟨9⟩⟦105⟧⟨10⟩⟦105⟧⟨11⟩⟦415⟧⟨12⟩⟦288⟧⟨13⟩⟦295⟧⟨14⟩⟦295⟧⟨15⟩
+[Crickets as pets] ⟨16⟩⟦339⟧⟨17⟩⟦77⟧⟨18⟩⟦329⟧⟨19⟩⟦254⟧⟨20⟩⟦102⟧⟨21⟩⟦104⟧⟨22⟩⟦147⟧⟨23⟩
+[Crickets as pets] ⟨24⟩⟦367⟧⟨25⟩⟦133⟧⟨26⟩⟦327⟧⟨27⟩⟦257⟧⟨28⟩⟦85⟧⟨29⟩⟦163⟧⟨30⟩⟦163⟧⟨31⟩⟦105⟧⟨32⟩⟦105⟧⟨33⟩⟦347⟧⟨34⟩⟦145⟧⟨35⟩⟦354⟧⟨36⟩⟦332⟧⟨37⟩⟦89⟧⟨38⟩
+[Crickets as pets] ⟦322⟧⟨39⟩⟦54⟧⟨40⟩⟦349⟧⟨41⟩⟦146⟧⟨42⟩⟦105⟧⟨43⟩⟦392⟧⟨44⟩⟦116⟧⟨45⟩⟦24⟧⟨46⟩⟦229⟧⟨47⟩⟦366⟧⟨48⟩⟦100⟧⟨49⟩⟦323⟧⟨50⟩⟦62⟧⟨51⟩⟦310⟧⟨52⟩⟦77⟧⟨53⟩
+[Jicheng (Beijing)] ⟦207⟧⟨54⟩⟦13⟧⟨55⟩⟦208⟧⟨56⟩⟦331⟧⟨57⟩⟦207⟧⟨58⟩⟦3⟧⟨59⟩⟦44⟧⟨60⟩⟦87⟧⟨61⟩⟦239⟧⟨62⟩⟦377⟧⟨63⟩⟦280⟧⟨64⟩⟦228⟧⟨65⟩
+[Jicheng (Beijing)] ⟦177⟧⟨66⟩⟦224⟧⟨67⟩⟦207⟧⟨68⟩⟦356⟧⟨69⟩⟦155⟧⟨70⟩⟦414⟧⟨71⟩⟦37⟧⟨72⟩
+[Jicheng (Beijing)] ⟨73⟩⟦380⟧⟨74⟩⟦386⟧⟨75⟩⟦86⟧⟨76⟩⟦63⟧⟨77⟩⟦133⟧⟨78⟩⟦87⟧⟨79⟩⟦441⟧⟨80⟩
+[Jicheng (Beijing)] ⟦50⟧⟨81⟩⟦149⟧⟨82⟩⟦289⟧⟨83⟩⟦207⟧⟨84⟩⟦109⟧⟨85⟩⟦109⟧⟨86⟩⟦401⟧⟨87⟩⟦256⟧⟨88⟩⟦7⟧⟨89⟩
+[Jicheng (Beijing)] ⟦331⟧⟨90⟩⟦207⟧⟨91⟩⟦326⟧⟨92⟩⟦74⟧⟨93⟩⟦319⟧⟨94⟩⟦293⟧⟨95⟩⟦207⟧⟨96⟩⟦454⟧⟨97⟩⟦410⟧⟨98⟩⟦435⟧⟨99⟩⟦82⟧⟨100⟩⟦391⟧⟨101⟩⟦6⟧⟨102⟩
+[Jicheng (Beijing)] ⟨103⟩⟦331⟧⟨104⟩⟦87⟧⟨105⟩⟦29⟧⟨106⟩⟦74⟧⟨107⟩⟦456⟧⟨108⟩⟦364⟧⟨109⟩⟦424⟧⟨110⟩⟦447⟧⟨111⟩⟦286⟧⟨112⟩⟦240⟧⟨113⟩⟦300⟧⟨114⟩
+[Jicheng (Beijing)] ⟨115⟩⟦335⟧⟨116⟩⟦101⟧⟨117⟩⟦21⟧⟨118⟩⟦12⟧⟨119⟩⟦404⟧⟨120⟩⟦426⟧⟨121⟩⟦331⟧⟨122⟩⟦207⟧⟨123⟩⟦383⟧⟨124⟩⟦233⟧⟨125⟩⟦456⟧⟨126⟩
+[Jicheng (Beijing)] ⟦456⟧⟨127⟩⟦396⟧⟨128⟩⟦372⟧⟨129⟩⟦353⟧⟨130⟩
+[Jicheng (Beijing)] ⟦331⟧⟨131⟩⟦87⟧⟨132⟩⟦399⟧⟨133⟩⟦74⟧⟨134⟩⟦376⟧⟨135⟩⟦418⟧⟨136⟩⟦74⟧⟨137⟩⟦370⟧⟨138⟩
+[Jicheng (Beijing)] ⟨139⟩⟦308⟧⟨140⟩⟦213⟧⟨141⟩⟦25⟧⟨142⟩⟦74⟧⟨143⟩⟦87⟧⟨144⟩⟦413⟧⟨145⟩⟦207⟧⟨146⟩⟦384⟧⟨147⟩⟦238⟧⟨148⟩
+[Jicheng (Beijing)] ⟦387⟧⟨149⟩⟦87⟧⟨150⟩⟦207⟧⟨151⟩⟦33⟧⟨152⟩⟦297⟧⟨153⟩⟦107⟧⟨154⟩⟦107⟧⟨155⟩
+[Silla–Tang War] ⟦395⟧⟨156⟩⟦317⟧⟨157⟩⟦77⟧⟨158⟩⟦373⟧⟨159⟩⟦202⟧⟨160⟩⟦438⟧⟨161⟩⟦161⟧⟨162⟩⟦60⟧⟨163⟩⟦436⟧⟨164⟩⟦330⟧⟨165⟩⟦116⟧⟨166⟩⟦359⟧⟨167⟩⟦97⟧⟨168⟩⟦334⟧⟨169⟩⟦92⟧⟨170⟩⟦161⟧⟨171⟩⟦60⟧⟨172⟩⟦285⟧⟨173⟩
+[Koyasan Reihōkan] ⟦284⟧⟨174⟩⟦15⟧⟨175⟩⟦15⟧⟨176⟩⟦179⟧⟨177⟩⟦179⟧⟨178⟩⟦11⟧⟨179⟩⟦11⟧⟨180⟩⟦206⟧⟨181⟩⟦220⟧⟨182⟩⟦251⟧⟨183⟩⟦251⟧⟨184⟩⟦411⟧⟨185⟩⟦14⟧⟨186⟩⟦72⟧⟨187⟩
+[Koyasan Reihōkan] ⟦1⟧⟨188⟩⟦243⟧⟨189⟩⟦244⟧⟨190⟩⟦262⟧⟨191⟩⟦34⟧⟨192⟩⟦263⟧⟨193⟩⟦88⟧⟨194⟩
+[Koyasan Reihōkan] ⟦249⟧⟨195⟩⟦220⟧⟨196⟩⟦422⟧⟨197⟩⟦449⟧⟨198⟩⟦82⟧⟨199⟩⟦10⟧⟨200⟩⟦77⟧⟨201⟩
+[Koyasan Reihōkan] ⟦409⟧⟨202⟩⟦430⟧⟨203⟩⟦284⟧⟨204⟩⟦43⟧⟨205⟩⟦43⟧⟨206⟩⟦433⟧⟨207⟩⟦279⟧⟨208⟩⟦404⟧⟨209⟩⟦171⟧⟨210⟩⟦256⟧⟨211⟩⟦179⟧⟨212⟩⟦96⟧⟨213⟩⟦32⟧⟨214⟩⟦278⟧⟨215⟩
+[History of ecology] ⟦122⟧⟨216⟩⟦122⟧⟨217⟩⟦27⟧⟨218⟩⟦276⟧⟨219⟩⟦46⟧⟨220⟩⟦70⟧⟨221⟩⟦65⟧⟨222⟩⟦276⟧⟨223⟩⟦394⟧⟨224⟩⟦168⟧⟨225⟩⟦311⟧⟨226⟩⟦77⟧⟨227⟩
+[History of ecology] ⟦120⟧⟨228⟩⟦423⟧⟨229⟩⟦134⟧⟨230⟩⟦106⟧⟨231⟩⟦259⟧⟨232⟩⟦259⟧⟨233⟩⟦135⟧⟨234⟩⟦135⟧⟨235⟩⟦264⟧⟨236⟩⟦264⟧⟨237⟩
+[History of ecology] ⟦80⟧⟨238⟩⟦449⟧⟨239⟩⟦393⟧⟨240⟩⟦276⟧⟨241⟩⟦122⟧⟨242⟩⟦122⟧⟨243⟩⟦108⟧⟨244⟩⟦336⟧⟨245⟩⟦115⟧⟨246⟩⟦204⟧⟨247⟩⟦178⟧⟨248⟩
+[History of ecology] ⟦120⟧⟨249⟩⟦423⟧⟨250⟩⟦340⟧⟨251⟩⟦77⟧⟨252⟩
+[History of ecology] ⟦216⟧⟨253⟩⟦98⟧⟨254⟩⟦125⟧⟨255⟩⟦440⟧⟨256⟩⟦449⟧⟨257⟩⟦449⟧⟨258⟩⟦324⟧⟨259⟩⟦66⟧⟨260⟩⟦55⟧⟨261⟩⟦124⟧⟨262⟩⟦81⟧⟨263⟩⟦172⟧⟨264⟩⟦299⟧⟨265⟩
+[History of ecology] ⟦122⟧⟨266⟩⟦397⟧⟨267⟩⟦277⟧⟨268⟩⟦182⟧⟨269⟩⟦182⟧⟨270⟩
+[History of ecology] ⟦181⟧⟨271⟩⟦122⟧⟨272⟩⟦340⟧⟨273⟩⟦77⟧⟨274⟩⟦183⟧⟨275⟩⟦183⟧⟨276⟩⟦45⟧⟨277⟩⟦143⟧⟨278⟩
+[History of ecology] ⟨279⟩⟦205⟧⟨280⟩⟦439⟧⟨281⟩⟦439⟧⟨282⟩⟦118⟧⟨283⟩⟦118⟧⟨284⟩⟦23⟧⟨285⟩⟦215⟧⟨286⟩⟦246⟧⟨287⟩⟦246⟧⟨288⟩⟦357⟧⟨289⟩⟦184⟧⟨290⟩
+[History of ecology] ⟦95⟧⟨291⟩⟦393⟧⟨292⟩⟦276⟧⟨293⟩⟦122⟧⟨294⟩⟦122⟧⟨295⟩
+[History of ecology] ⟦187⟧⟨296⟩⟦148⟧⟨297⟩⟦232⟧⟨298⟩⟦232⟧⟨299⟩⟦283⟧⟨300⟩⟦345⟧⟨301⟩⟦234⟧⟨302⟩⟦38⟧⟨303⟩⟦160⟧⟨304⟩⟦419⟧⟨305⟩⟦294⟧⟨306⟩⟦266⟧⟨307⟩⟦95⟧⟨308⟩
+[History of ecology] ⟨309⟩⟦312⟧⟨310⟩⟦77⟧⟨311⟩⟦450⟧⟨312⟩⟦162⟧⟨313⟩⟦218⟧⟨314⟩⟦219⟧⟨315⟩⟦127⟧⟨316⟩⟦325⟧⟨317⟩⟦66⟧⟨318⟩⟦132⟧⟨319⟩
+[History of ecology] ⟦199⟧⟨320⟩⟦178⟧⟨321⟩⟦444⟧⟨322⟩⟦313⟧⟨323⟩⟦77⟧⟨324⟩
+[History of ecology] ⟨325⟩⟦351⟧⟨326⟩⟦121⟧⟨327⟩⟦448⟧⟨328⟩⟦451⟧⟨329⟩⟦51⟧⟨330⟩⟦255⟧⟨331⟩⟦296⟧⟨332⟩⟦420⟧⟨333⟩⟦194⟧⟨334⟩⟦194⟧⟨335⟩⟦223⟧⟨336⟩⟦290⟧⟨337⟩⟦47⟧⟨338⟩⟦47⟧⟨339⟩⟦261⟧⟨340⟩⟦261⟧⟨341⟩
+[History of ecology] ⟦420⟧⟨342⟩⟦195⟧⟨343⟩⟦195⟧⟨344⟩⟦47⟧⟨345⟩⟦47⟧⟨346⟩⟦416⟧⟨347⟩⟦132⟧⟨348⟩⟦314⟧⟨349⟩⟦77⟧⟨350⟩
+[History of ecology] ⟦122⟧⟨351⟩⟦309⟧⟨352⟩⟦77⟧⟨353⟩
+[History of ecology] ⟨354⟩⟦75⟧⟨355⟩⟦176⟧⟨356⟩⟦449⟧⟨357⟩⟦342⟧⟨358⟩⟦123⟧⟨359⟩⟦235⟧⟨360⟩⟦235⟧⟨361⟩
+[History of ecology] ⟨362⟩⟦41⟧⟨363⟩⟦176⟧⟨364⟩⟦449⟧⟨365⟩⟦69⟧⟨366⟩⟦159⟧⟨367⟩
+[History of ecology] ⟦42⟧⟨368⟩⟦209⟧⟨369⟩⟦385⟧⟨370⟩⟦241⟧⟨371⟩⟦64⟧⟨372⟩⟦64⟧⟨373⟩
+[History of ecology] ⟦136⟧⟨374⟩⟦449⟧⟨375⟩⟦119⟧⟨376⟩⟦260⟧⟨377⟩⟦159⟧⟨378⟩⟦356⟧⟨379⟩⟦155⟧⟨380⟩⟦122⟧⟨381⟩⟦122⟧⟨382⟩⟦20⟧⟨383⟩⟦115⟧⟨384⟩
+[History of gunpowder] ⟦167⟧⟨385⟩⟦352⟧⟨386⟩⟦141⟧⟨387⟩
+[History of gunpowder] ⟨388⟩⟦200⟧⟨389⟩⟦196⟧⟨390⟩⟦222⟧⟨391⟩⟦114⟧⟨392⟩⟦164⟧⟨393⟩⟦150⟧⟨394⟩
+[History of gunpowder] ⟦369⟧⟨395⟩⟦196⟧⟨396⟩⟦167⟧⟨397⟩⟦167⟧⟨398⟩⟦140⟧⟨399⟩⟦140⟧⟨400⟩⟦84⟧⟨401⟩⟦40⟧⟨402⟩⟦302⟧⟨403⟩⟦390⟧⟨404⟩⟦268⟧⟨405⟩⟦185⟧⟨406⟩⟦185⟧⟨407⟩⟦304⟧⟨408⟩⟦197⟧⟨409⟩⟦82⟧⟨410⟩
+[History of gunpowder] ⟨411⟩⟦375⟧⟨412⟩⟦116⟧⟨413⟩⟦2⟧⟨414⟩⟦77⟧⟨415⟩⟦337⟧⟨416⟩⟦270⟧⟨417⟩⟦36⟧⟨418⟩⟦153⟧⟨419⟩⟦398⟧⟨420⟩⟦116⟧⟨421⟩⟦4⟧⟨422⟩⟦77⟧⟨423⟩
+[History of gunpowder] ⟦211⟧⟨424⟩⟦167⟧⟨425⟩⟦167⟧⟨426⟩⟦388⟧⟨427⟩⟦31⟧⟨428⟩⟦272⟧⟨429⟩⟦382⟧⟨430⟩⟦93⟧⟨431⟩⟦308⟧⟨432⟩⟦77⟧⟨433⟩⟦338⟧⟨434⟩⟦153⟧⟨435⟩⟦82⟧⟨436⟩⟦389⟧⟨437⟩⟦16⟧⟨438⟩⟦431⟧⟨439⟩⟦344⟧⟨440⟩⟦156⟧⟨441⟩
+[History of gunpowder] ⟨442⟩⟦442⟧⟨443⟩⟦442⟧⟨444⟩⟦287⟧⟨445⟩⟦126⟧⟨446⟩⟦59⟧⟨447⟩⟦77⟧⟨448⟩⟦446⟧⟨449⟩⟦446⟧⟨450⟩⟦150⟧⟨451⟩⟦151⟧⟨452⟩⟦53⟧⟨453⟩⟦68⟧⟨454⟩⟦68⟧⟨455⟩⟦350⟧⟨456⟩⟦150⟧⟨457⟩⟦214⟧⟨458⟩⟦321⟧⟨459⟩⟦49⟧⟨460⟩⟦363⟧⟨461⟩⟦166⟧⟨462⟩
+[History of gunpowder] ⟨463⟩⟦350⟧⟨464⟩⟦150⟧⟨465⟩⟦214⟧⟨466⟩⟦363⟧⟨467⟩⟦166⟧⟨468⟩⟦248⟧⟨469⟩⟦167⟧⟨470⟩⟦446⟧⟨471⟩⟦273⟧⟨472⟩⟦273⟧⟨473⟩⟦437⟧⟨474⟩⟦437⟧⟨475⟩⟦82⟧⟨476⟩⟦212⟧⟨477⟩⟦189⟧⟨478⟩⟦137⟧⟨479⟩
+[History of gunpowder] ⟦68⟧⟨480⟩⟦381⟧⟨481⟩⟦111⟧⟨482⟩⟦165⟧⟨483⟩⟦165⟧⟨484⟩⟦226⟧⟨485⟩⟦226⟧⟨486⟩⟦247⟧⟨487⟩⟦186⟧⟨488⟩
+[History of gunpowder] ⟦167⟧⟨489⟩⟦237⟧⟨490⟩⟦267⟧⟨491⟩⟦152⟧⟨492⟩⟦152⟧⟨493⟩⟦131⟧⟨494⟩⟦131⟧⟨495⟩⟦142⟧⟨496⟩⟦142⟧⟨497⟩⟦227⟧⟨498⟩⟦227⟧⟨499⟩⟦432⟧⟨500⟩⟦432⟧⟨501⟩
+[Cricket fighting] ⟦102⟧⟨502⟩⟦103⟧⟨503⟩⟦146⟧⟨504⟩⟦17⟧⟨505⟩⟦67⟧⟨506⟩⟦291⟧⟨507⟩⟦348⟧⟨508⟩⟦146⟧⟨509⟩⟦217⟧⟨510⟩⟦105⟧⟨511⟩
+[Cricket fighting] ⟨512⟩⟦231⟧⟨513⟩⟦67⟧⟨514⟩⟦292⟧⟨515⟩⟦102⟧⟨516⟩⟦103⟧⟨517⟩⟦146⟧⟨518⟩⟦192⟧⟨519⟩⟦192⟧⟨520⟩⟦320⟧⟨521⟩⟦47⟧⟨522⟩
+[Cricket fighting] ⟨523⟩⟦28⟧⟨524⟩⟦252⟧⟨525⟩⟦82⟧⟨526⟩⟦230⟧⟨527⟩⟦455⟧⟨528⟩⟦404⟧⟨529⟩
+[Cricket fighting] ⟨530⟩⟦400⟧⟨531⟩⟦291⟧⟨532⟩⟦203⟧⟨533⟩⟦265⟧⟨534⟩⟦82⟧⟨535⟩
+[Gautama Siddha] ⟦157⟧⟨536⟩
+[Gautama Siddha] ⟦9⟧⟨537⟩⟦77⟧⟨538⟩⟦58⟧⟨539⟩⟦56⟧⟨540⟩⟦56⟧⟨541⟩⟦91⟧⟨542⟩⟦91⟧⟨543⟩⟦190⟧⟨544⟩⟦113⟧⟨545⟩⟦333⟧⟨546⟩⟦90⟧⟨547⟩⟦305⟧⟨548⟩⟦57⟧⟨549⟩⟦371⟧⟨550⟩⟦404⟧⟨551⟩
+[Gautama Siddha] ⟨552⟩⟦78⟧⟨553⟩⟦173⟧⟨554⟩⟦144⟧⟨555⟩⟦189⟧⟨556⟩⟦35⟧⟨557⟩⟦428⟧⟨558⟩⟦452⟧⟨559⟩
+[Gautama Siddha] ⟦358⟧⟨560⟩⟦144⟧⟨561⟩⟦82⟧⟨562⟩⟦221⟧⟨563⟩⟦158⟧⟨564⟩⟦82⟧⟨565⟩⟦355⟧⟨566⟩⟦154⟧⟨567⟩⟦404⟧⟨568⟩
+[Gautama Siddha] ⟨569⟩⟦175⟧⟨570⟩⟦429⟧⟨571⟩⟦236⟧⟨572⟩⟦73⟧⟨573⟩⟦83⟧⟨574⟩
+[Gautama Siddha] ⟨575⟩⟦191⟧⟨576⟩⟦242⟧⟨577⟩⟦457⟧⟨578⟩⟦82⟧⟨579⟩⟦30⟧⟨580⟩⟦271⟧⟨581⟩⟦274⟧⟨582⟩⟦274⟧⟨583⟩
+[Tang dynasty in Inner Asia] ⟦404⟧⟨584⟩⟦116⟧⟨585⟩⟦193⟧⟨586⟩⟦346⟧⟨587⟩⟦139⟧⟨588⟩⟦405⟧⟨589⟩⟦116⟧⟨590⟩⟦269⟧⟨591⟩⟦368⟧⟨592⟩⟦316⟧⟨593⟩⟦8⟧⟨594⟩⟦22⟧⟨595⟩⟦112⟧⟨596⟩⟦318⟧⟨597⟩⟦77⟧⟨598⟩⟦39⟧⟨599⟩⟦406⟧⟨600⟩⟦361⟧⟨601⟩⟦225⟧⟨602⟩
+[Tang dynasty in Inner Asia] ⟦443⟧⟨603⟩⟦443⟧⟨604⟩⟦362⟧⟨605⟩⟦453⟧⟨606⟩⟦402⟧⟨607⟩⟦293⟧⟨608⟩⟦406⟧⟨609⟩⟦61⟧⟨610⟩
+[Tang dynasty in Inner Asia] ⟦421⟧⟨611⟩⟦139⟧⟨612⟩⟦138⟧⟨613⟩⟦138⟧⟨614⟩⟦403⟧⟨615⟩⟦99⟧⟨616⟩⟦99⟧⟨617⟩⟦406⟧⟨618⟩⟦61⟧⟨619⟩⟦408⟧⟨620⟩⟦315⟧⟨621⟩⟦417⟧⟨622⟩⟦139⟧⟨623⟩⟦238⟧⟨624⟩⟦360⟧⟨625⟩
+[Tang dynasty in Inner Asia] ⟦129⟧⟨626⟩⟦298⟧⟨627⟩⟦250⟧⟨628⟩⟦250⟧⟨629⟩⟦19⟧⟨630⟩⟦94⟧⟨631⟩⟦79⟧⟨632⟩⟦79⟧⟨633⟩⟦328⟧⟨634⟩⟦52⟧⟨635⟩⟦188⟧⟨636⟩⟦445⟧⟨637⟩
+[Tang dynasty in Inner Asia] ⟦343⟧⟨638⟩⟦128⟧⟨639⟩⟦26⟧⟨640⟩⟦130⟧⟨641⟩⟦76⟧⟨642⟩⟦76⟧⟨643⟩⟦174⟧⟨644⟩⟦245⟧⟨645⟩⟦365⟧⟨646⟩⟦180⟧⟨647⟩⟦442⟧⟨648⟩⟦442⟧⟨649⟩
+[Shanhua Temple] ⟦281⟧⟨650⟩⟦18⟧⟨651⟩⟦303⟧⟨652⟩⟦110⟧⟨653⟩⟦282⟧⟨654⟩⟦82⟧⟨655⟩
+[Shanhua Temple] ⟦407⟧⟨656⟩⟦303⟧⟨657⟩⟦341⟧⟨658⟩⟦77⟧⟨659⟩⟦404⟧⟨660⟩⟦198⟧⟨661⟩⟦301⟧⟨662⟩⟦71⟧⟨663⟩⟦306⟧⟨664⟩⟦77⟧⟨665⟩
+[Shanhua Temple] ⟦407⟧⟨666⟩⟦303⟧⟨667⟩⟦412⟧⟨668⟩⟦455⟧⟨669⟩⟦427⟧⟨670⟩⟦425⟧⟨671⟩⟦170⟧⟨672⟩⟦434⟧⟨673⟩⟦253⟧⟨674⟩
+[Shanhua Temple] ⟦374⟧⟨675⟩⟦169⟧⟨676⟩⟦307⟧⟨677⟩⟦77⟧⟨678⟩⟦378⟧⟨679⟩⟦201⟧⟨680⟩⟦210⟧⟨681⟩⟦82⟧⟨682⟩
+[Shanhua Temple] ⟨683⟩⟦379⟧⟨684⟩⟦275⟧⟨685⟩⟦5⟧⟨686⟩⟦77⟧⟨687⟩⟦370⟧⟨688⟩⟦116⟧⟨689⟩
+
+[user]
+
+问题：
+What "sport" involving animals dates all the way back to the Tang Dynasty and continued to the beginning of the 19th century?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

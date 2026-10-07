@@ -1,0 +1,364 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , Insane
+⟦2⟧ = "Awara Paagal Deewana
+⟦3⟧ = "Indiatimes Movies
+⟦4⟧ = "Pasher Bari
+⟦5⟧ = "The Matrix
+⟦6⟧ = "Vampire
+⟦7⟧ = (English
+⟦8⟧ = (German
+⟦9⟧ = (Hindi
+⟦10⟧ = a 1960 West German horror film
+⟦11⟧ = a 1968 Indian comedy film
+⟦12⟧ = a 1995 American comedy horror film
+⟦13⟧ = a 2002 Indian Bodo Horror film
+⟦14⟧ = a 2002 Indian comedy horror film
+⟦15⟧ = a 2002 Indian Hindi action comedy film
+⟦16⟧ = a 2002 Indian horror film
+⟦17⟧ = a 2007 Indian comedy horror film
+⟦18⟧ = a 2016 Indian comedy horror film
+⟦19⟧ = a club
+⟦20⟧ = a comical theater director
+⟦21⟧ = a couple
+⟦22⟧ = a cult film
+⟦23⟧ = A Dead One Hung
+⟦24⟧ = a Filmfare Award
+⟦25⟧ = a foul-mouthed Italian gangster
+⟦26⟧ = a funny character
+⟦27⟧ = a ghost
+⟦28⟧ = A giant spider
+⟦29⟧ = a huge hit
+⟦30⟧ = a key highlight
+⟦31⟧ = a larger spider web
+⟦32⟧ = a mutant
+⟦33⟧ = a plot
+⟦34⟧ = a remake
+⟦35⟧ = a south Indian music teacher
+⟦36⟧ = a talent agent
+⟦37⟧ = a young girl
+⟦38⟧ = action
+⟦39⟧ = action scenes
+⟦40⟧ = adaptation
+⟦41⟧ = agent
+⟦42⟧ = Akshay Kumar
+⟦43⟧ = Alaap Mazgaonkar
+⟦44⟧ = Alexander D'Arcy
+⟦45⟧ = all mansion
+⟦46⟧ = Allen Payne
+⟦47⟧ = an alcoholic preacher
+⟦48⟧ = an alleged witch
+⟦49⟧ = an Indian film director
+⟦50⟧ = an island
+⟦51⟧ = an unofficial adaptation
+⟦52⟧ = Angela Bassett
+⟦53⟧ = Anjana
+⟦54⟧ = Anu Malik
+⟦55⟧ = Awara Paagal Deewana
+⟦56⟧ = banner
+⟦57⟧ = Banu Murugan
+⟦58⟧ = belief
+⟦59⟧ = Bhanu Bandyopadhyay
+⟦60⟧ = Bhool Bhulaiya
+⟦61⟧ = Bipasha Basu
+⟦62⟧ = Bollywood Films
+⟦63⟧ = Brooklyn
+⟦64⟧ = brother
+⟦65⟧ = categories
+⟦66⟧ = character
+⟦67⟧ = chemistry
+⟦68⟧ = Chhota Chhatri
+⟦69⟧ = cinema
+⟦70⟧ = cinematography
+⟦71⟧ = club
+⟦72⟧ = co
+⟦73⟧ = comedy
+⟦74⟧ = composer
+⟦75⟧ = conspiracy
+⟦76⟧ = couple
+⟦77⟧ = crash
+⟦78⟧ = Critics
+⟦79⟧ = cult
+⟦80⟧ = D'Arcy
+⟦81⟧ = day
+⟦82⟧ = Dino Morea
+⟦83⟧ = director
+⟦84⟧ = Dwimalu
+⟦85⟧ = Eddie Murphy
+⟦86⟧ = editing
+⟦87⟧ = English
+⟦88⟧ = fans
+⟦89⟧ = film
+⟦90⟧ = films
+⟦91⟧ = four categories
+⟦92⟧ = Fritz Böttger
+⟦93⟧ = gangster
+⟦94⟧ = Gaston Hakim
+⟦95⟧ = Gaurang Film Production Co-operative Society
+⟦96⟧ = ghost
+⟦97⟧ = girl
+⟦98⟧ = girls
+⟦99⟧ = Hello Naan Pei Pesuren
+⟦100⟧ = her husband
+⟦101⟧ = highlight
+⟦102⟧ = highlights
+⟦103⟧ = Hindi
+⟦104⟧ = Hindi cinema
+⟦105⟧ = Hindi film history
+⟦106⟧ = his all time
+⟦107⟧ = his screenplay
+⟦108⟧ = his work
+⟦109⟧ = history
+⟦110⟧ = hit
+⟦111⟧ = home
+⟦112⟧ = Hong Kong action films
+⟦113⟧ = horror
+⟦114⟧ = Horrors
+⟦115⟧ = husband
+⟦116⟧ = India
+⟦117⟧ = island
+⟦118⟧ = its teeth
+⟦119⟧ = Joanna Cassidy
+⟦120⟧ = John Witherspoon
+⟦121⟧ = Johnny Lever
+⟦122⟧ = Jyoti Swaroop
+⟦123⟧ = Kadeem Hardison
+⟦124⟧ = Khanindra Bodosa
+⟦125⟧ = Kishore Kumar
+⟦126⟧ = Kishore Kumar's character
+⟦127⟧ = Kokrajhar
+⟦128⟧ = Kumar S. Taurani
+⟦129⟧ = lady
+⟦130⟧ = land
+⟦131⟧ = languages
+⟦132⟧ = lavish and exotic song picturisations
+⟦133⟧ = lead roles
+⟦134⟧ = leading roles
+⟦135⟧ = lyrics
+⟦136⟧ = Makdee
+⟦137⟧ = Makers
+⟦138⟧ = Makrand Deshpande
+⟦139⟧ = Manichitrathazhu
+⟦140⟧ = Manna Dey
+⟦141⟧ = mansion
+⟦142⟧ = marriage
+⟦143⟧ = Maze
+⟦144⟧ = Mehmood
+⟦145⟧ = Mehmood's portrayal
+⟦146⟧ = modern day
+⟦147⟧ = Mohanlal
+⟦148⟧ = movie
+⟦149⟧ = movies
+⟦150⟧ = Mukesh Bhatt
+⟦151⟧ = Murphy
+⟦152⟧ = Murphy's older brother Charles Q. Murphy
+⟦153⟧ = music
+⟦154⟧ = music composer
+⟦155⟧ = musician
+⟦156⟧ = mutant
+⟦157⟧ = N. B. Srikanth
+⟦158⟧ = N. C. Sippy
+⟦159⟧ = negative reviews
+⟦160⟧ = Nilkamal Brahma
+⟦161⟧ = north
+⟦162⟧ = north India
+⟦163⟧ = noted performances
+⟦164⟧ = ocean
+⟦165⟧ = October
+⟦166⟧ = Ooty
+⟦167⟧ = Padosan
+⟦168⟧ = Paresh Rawal's popular comical chemistry
+⟦169⟧ = part
+⟦170⟧ = performances
+⟦171⟧ = picturisations
+⟦172⟧ = place
+⟦173⟧ = plane
+⟦174⟧ = playback
+⟦175⟧ = playback singer
+⟦176⟧ = plot
+⟦177⟧ = portrayal
+⟦178⟧ = preacher
+⟦179⟧ = Priyadarshan
+⟦180⟧ = producer
+⟦181⟧ = R.D. Burman
+⟦182⟧ = Raaz
+⟦183⟧ = Rajendra Krishan
+⟦184⟧ = Ramesh S. Taurani
+⟦185⟧ = Rapid-Film/Intercontinental Filmgesellschaft
+⟦186⟧ = recipient
+⟦187⟧ = remake
+⟦188⟧ = reviews
+⟦189⟧ = ride
+⟦190⟧ = Ringkumoni Basumatary
+⟦191⟧ = rival
+⟦192⟧ = roles
+⟦193⟧ = S. Baskar
+⟦194⟧ = Sabitri Chatterjee
+⟦195⟧ = Saira Banu
+⟦196⟧ = Sameer
+⟦197⟧ = scenes
+⟦198⟧ = screenplay
+⟦199⟧ = screenwriter
+⟦200⟧ = script
+⟦201⟧ = section
+⟦202⟧ = seven National Film Awards
+⟦203⟧ = several girls
+⟦204⟧ = several languages films
+⟦205⟧ = Shabana Azmi
+⟦206⟧ = Shobana
+⟦207⟧ = Shweta Prasad
+⟦208⟧ = Siddharth Vipin
+⟦209⟧ = Singapore
+⟦210⟧ = singer
+⟦211⟧ = Somaina
+⟦212⟧ = song
+⟦213⟧ = Songali
+⟦214⟧ = spider
+⟦215⟧ = Spider Island
+⟦216⟧ = Spotlight
+⟦217⟧ = stars
+⟦218⟧ = story
+⟦219⟧ = stunt
+⟦220⟧ = stunt director Dion Lam
+⟦221⟧ = stunts
+⟦222⟧ = Sundar C.
+⟦223⟧ = Sunil Dutt
+⟦224⟧ = talent
+⟦225⟧ = teacher
+⟦226⟧ = teeth
+⟦227⟧ = the 1993 Malayalam film
+⟦228⟧ = the 2003 Cannes Film Festival
+⟦229⟧ = the banner Avni Cine Makers
+⟦230⟧ = the belief
+⟦231⟧ = the Bengali film
+⟦232⟧ = the best comedy movies
+⟦233⟧ = The film
+⟦234⟧ = The film story
+⟦235⟧ = The film's music
+⟦236⟧ = the film's script
+⟦237⟧ = the ghostly conspiracy
+⟦238⟧ = the highest grossing Hindi films
+⟦239⟧ = the highlights
+⟦240⟧ = the lyrics
+⟦241⟧ = The Maze
+⟦242⟧ = The movie
+⟦243⟧ = the ocean
+⟦244⟧ = the official remake
+⟦245⟧ = the place
+⟦246⟧ = the recipient
+⟦247⟧ = the South Indian musician
+⟦248⟧ = The Spy
+⟦249⟧ = the story
+⟦250⟧ = the supporting roles
+⟦251⟧ = the United States
+⟦252⟧ = the Web
+⟦253⟧ = The Whole Nine Yards
+⟦254⟧ = The wife
+⟦255⟧ = The Witch
+⟦256⟧ = the women
+⟦257⟧ = the year
+⟦258⟧ = theater
+⟦259⟧ = their failing marriage
+⟦260⟧ = their new home
+⟦261⟧ = Their plane ride
+⟦262⟧ = their way
+⟦263⟧ = time
+⟦264⟧ = Umesh Basumatary
+⟦265⟧ = Vampire
+⟦266⟧ = Vernon Lynch
+⟦267⟧ = Vijay Raaz
+⟦268⟧ = Vikram Bhatt
+⟦269⟧ = Vishal Bhardwaj
+⟦270⟧ = way
+⟦271⟧ = Wayward
+⟦272⟧ = Web
+⟦273⟧ = Week
+⟦274⟧ = Wes Craven
+⟦275⟧ = Wes Craven's Vampire
+⟦276⟧ = wife
+⟦277⟧ = witch
+⟦278⟧ = witchcraft
+⟦279⟧ = witches
+⟦280⟧ = Wolf C. Hartwig
+⟦281⟧ = women
+⟦282⟧ = work
+⟦283⟧ = year
+⟦284⟧ = Zakes Mokae
+⟦285⟧ = पागल दीवाना
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Horrors of Spider Island] ⟦114⟧⟨1⟩⟦114⟧⟨2⟩⟦215⟧⟨3⟩⟦8⟧⟨4⟩⟦23⟧⟨5⟩⟦252⟧⟨6⟩⟦272⟧⟨7⟩⟦10⟧⟨8⟩⟦113⟧⟨9⟩⟦89⟧⟨10⟩⟦92⟧⟨11⟩⟦107⟧⟨12⟩⟦198⟧⟨13⟩⟦94⟧⟨14⟩⟦280⟧⟨15⟩⟦185⟧⟨16⟩
+[Horrors of Spider Island] ⟦233⟧⟨17⟩⟦89⟧⟨18⟩⟦44⟧⟨19⟩⟦36⟧⟨20⟩⟦224⟧⟨21⟩⟦41⟧⟨22⟩⟦203⟧⟨23⟩⟦98⟧⟨24⟩⟦19⟧⟨25⟩⟦71⟧⟨26⟩⟦209⟧⟨27⟩
+[Horrors of Spider Island] ⟨28⟩⟦261⟧⟨29⟩⟦173⟧⟨30⟩⟦189⟧⟨31⟩⟦77⟧⟨32⟩⟦130⟧⟨33⟩⟦243⟧⟨34⟩⟦164⟧⟨35⟩
+[Horrors of Spider Island] ⟦80⟧⟨36⟩⟦256⟧⟨37⟩⟦281⟧⟨38⟩⟦262⟧⟨39⟩⟦270⟧⟨40⟩⟦50⟧⟨41⟩⟦117⟧⟨42⟩⟦31⟧⟨43⟩⟦214⟧⟨44⟩⟦272⟧⟨45⟩
+[Horrors of Spider Island] ⟦28⟧⟨46⟩⟦214⟧⟨47⟩⟦118⟧⟨48⟩⟦226⟧⟨49⟩⟦80⟧⟨50⟩⟦32⟧⟨51⟩⟦156⟧⟨52⟩
+[Bhool Bhulaiyaa] ⟦60⟧⟨53⟩⟦7⟧⟨54⟩⟦241⟧⟨55⟩⟦143⟧⟨56⟩⟦17⟧⟨57⟩⟦73⟧⟨58⟩⟦113⟧⟨59⟩⟦89⟧⟨60⟩⟦179⟧⟨61⟩
+[Bhool Bhulaiyaa] ⟨62⟩⟦244⟧⟨63⟩⟦187⟧⟨64⟩⟦227⟧⟨65⟩⟦89⟧⟨66⟩⟦139⟧⟨67⟩⟦147⟧⟨68⟩⟦206⟧⟨69⟩⟦204⟧⟨70⟩⟦131⟧⟨71⟩⟦90⟧⟨72⟩
+[Makdee] ⟦136⟧⟨73⟩⟦7⟧⟨74⟩⟦214⟧⟨75⟩⟦214⟧⟨76⟩⟦252⟧⟨77⟩⟦272⟧⟨78⟩⟦255⟧⟨79⟩⟦87⟧⟨80⟩⟦14⟧⟨81⟩⟦73⟧⟨82⟩⟦113⟧⟨83⟩⟦89⟧⟨84⟩⟦269⟧⟨85⟩
+[Makdee] ⟨86⟩⟦205⟧⟨87⟩⟦138⟧⟨88⟩⟦207⟧⟨89⟩⟦267⟧⟨90⟩⟦43⟧⟨91⟩
+[Makdee] ⟦233⟧⟨92⟩⟦89⟧⟨93⟩⟦249⟧⟨94⟩⟦218⟧⟨95⟩⟦37⟧⟨96⟩⟦97⟧⟨97⟩⟦161⟧⟨98⟩⟦162⟧⟨99⟩⟦48⟧⟨100⟩⟦277⟧⟨101⟩⟦45⟧⟨102⟩⟦141⟧⟨103⟩
+[Makdee] ⟨104⟩⟦230⟧⟨105⟩⟦58⟧⟨106⟩⟦279⟧⟨107⟩⟦279⟧⟨108⟩⟦278⟧⟨109⟩⟦278⟧⟨110⟩⟦146⟧⟨111⟩⟦81⟧⟨112⟩⟦116⟧⟨113⟩
+[Makdee] ⟦233⟧⟨114⟩⟦89⟧⟨115⟩⟦78⟧⟨116⟩⟦273⟧⟨117⟩⟦216⟧⟨118⟩⟦116⟧⟨119⟩⟦201⟧⟨120⟩⟦228⟧⟨121⟩
+[Padosan] ⟦167⟧⟨122⟩⟦9⟧⟨123⟩⟦129⟧⟨124⟩⟦129⟧⟨125⟩⟦11⟧⟨126⟩⟦73⟧⟨127⟩⟦89⟧⟨128⟩
+[Padosan] ⟨129⟩⟦122⟧⟨130⟩
+[Padosan] ⟦3⟧⟨131⟩⟦242⟧⟨132⟩⟦148⟧⟨133⟩⟦62⟧⟨134⟩
+[Padosan] ⟦153⟧⟨135⟩⟦181⟧⟨136⟩⟦29⟧⟨137⟩⟦110⟧⟨138⟩
+[Padosan] ⟦125⟧⟨139⟩⟦140⟧⟨140⟩⟦144⟧⟨141⟩
+[Padosan] ⟨142⟩⟦144⟧⟨143⟩⟦158⟧⟨144⟩⟦183⟧⟨145⟩
+[Padosan] ⟨146⟩⟦34⟧⟨147⟩⟦187⟧⟨148⟩⟦231⟧⟨149⟩⟦89⟧⟨150⟩⟦4⟧⟨151⟩⟦59⟧⟨152⟩⟦194⟧⟨153⟩
+[Padosan] ⟦242⟧⟨154⟩⟦148⟧⟨155⟩⟦223⟧⟨156⟩⟦195⟧⟨157⟩⟦133⟧⟨158⟩⟦192⟧⟨159⟩
+[Padosan] ⟦125⟧⟨160⟩⟦250⟧⟨161⟩⟦192⟧⟨162⟩
+[Padosan] ⟦144⟧⟨163⟩⟦247⟧⟨164⟩⟦155⟧⟨165⟩⟦191⟧⟨166⟩⟦191⟧⟨167⟩⟦223⟧⟨168⟩⟦239⟧⟨169⟩⟦102⟧⟨170⟩⟦233⟧⟨171⟩⟦89⟧⟨172⟩
+[Padosan] ⟨173⟩⟦232⟧⟨174⟩⟦73⟧⟨175⟩⟦149⟧⟨176⟩⟦105⟧⟨177⟩⟦89⟧⟨178⟩⟦109⟧⟨179⟩
+[Padosan] ⟦145⟧⟨180⟩⟦177⟧⟨181⟩⟦35⟧⟨182⟩⟦153⟧⟨183⟩⟦225⟧⟨184⟩⟦106⟧⟨185⟩⟦263⟧⟨186⟩⟦163⟧⟨187⟩⟦170⟧⟨188⟩⟦30⟧⟨189⟩⟦101⟧⟨190⟩⟦233⟧⟨191⟩⟦89⟧⟨192⟩
+[Padosan] ⟦126⟧⟨193⟩⟦66⟧⟨194⟩⟦20⟧⟨195⟩⟦258⟧⟨196⟩⟦83⟧⟨197⟩
+[Vampire in Brooklyn] ⟦265⟧⟨198⟩⟦63⟧⟨199⟩⟦275⟧⟨200⟩⟦63⟧⟨201⟩⟦12⟧⟨202⟩⟦73⟧⟨203⟩⟦113⟧⟨204⟩⟦89⟧⟨205⟩⟦274⟧⟨206⟩
+[Vampire in Brooklyn] ⟦85⟧⟨207⟩⟦217⟧⟨208⟩⟦233⟧⟨209⟩⟦89⟧⟨210⟩⟦236⟧⟨211⟩⟦89⟧⟨212⟩⟦200⟧⟨213⟩⟦266⟧⟨214⟩⟦152⟧⟨215⟩⟦64⟧⟨216⟩
+[Vampire in Brooklyn] ⟦6⟧⟨217⟩⟦63⟧⟨218⟩⟦72⟧⟨219⟩⟦72⟧⟨220⟩⟦52⟧⟨221⟩⟦46⟧⟨222⟩⟦123⟧⟨223⟩⟦120⟧⟨224⟩⟦284⟧⟨225⟩⟦119⟧⟨226⟩
+[Vampire in Brooklyn] ⟦151⟧⟨227⟩⟦47⟧⟨228⟩⟦178⟧⟨229⟩⟦25⟧⟨230⟩⟦93⟧⟨231⟩
+[Vampire in Brooklyn] ⟦233⟧⟨232⟩⟦89⟧⟨233⟩⟦251⟧⟨234⟩⟦165⟧⟨235⟩
+[Vampire in Brooklyn] ⟨236⟩⟦159⟧⟨237⟩⟦188⟧⟨238⟩⟦233⟧⟨239⟩⟦89⟧⟨240⟩⟦22⟧⟨241⟩⟦79⟧⟨242⟩⟦89⟧⟨243⟩⟦88⟧⟨244⟩⟦88⟧⟨245⟩
+[Awara Paagal Deewana] ⟦55⟧⟨246⟩⟦103⟧⟨247⟩⟦285⟧⟨248⟩⟦87⟧⟨249⟩⟦271⟧⟨250⟩⟦1⟧⟨251⟩⟦15⟧⟨252⟩⟦38⟧⟨253⟩⟦73⟧⟨254⟩⟦89⟧⟨255⟩⟦268⟧⟨256⟩
+[Awara Paagal Deewana] ⟦235⟧⟨257⟩⟦89⟧⟨258⟩⟦153⟧⟨259⟩⟦54⟧⟨260⟩⟦240⟧⟨261⟩⟦135⟧⟨262⟩⟦196⟧⟨263⟩
+[Awara Paagal Deewana] ⟨264⟩⟦33⟧⟨265⟩⟦176⟧⟨266⟩⟦253⟧⟨267⟩⟦38⟧⟨268⟩⟦39⟧⟨269⟩⟦197⟧⟨270⟩⟦219⟧⟨271⟩⟦220⟧⟨272⟩⟦83⟧⟨273⟩⟦5⟧⟨274⟩⟦112⟧⟨275⟩⟦38⟧⟨276⟩⟦90⟧⟨277⟩
+[Awara Paagal Deewana] ⟦2⟧⟨278⟩⟦238⟧⟨279⟩⟦90⟧⟨280⟩⟦257⟧⟨281⟩⟦283⟧⟨282⟩
+[Awara Paagal Deewana] ⟨283⟩⟦132⟧⟨284⟩⟦212⟧⟨285⟩⟦171⟧⟨286⟩⟦221⟧⟨287⟩⟦221⟧⟨288⟩⟦38⟧⟨289⟩⟦39⟧⟨290⟩⟦197⟧⟨291⟩⟦42⟧⟨292⟩⟦168⟧⟨293⟩⟦67⟧⟨294⟩⟦121⟧⟨295⟩⟦26⟧⟨296⟩⟦66⟧⟨297⟩⟦68⟧⟨298⟩
+[Vishal Bhardwaj] ⟦269⟧⟨299⟩⟦49⟧⟨300⟩⟦89⟧⟨301⟩⟦83⟧⟨302⟩⟦199⟧⟨303⟩⟦199⟧⟨304⟩⟦180⟧⟨305⟩⟦180⟧⟨306⟩⟦153⟧⟨307⟩⟦154⟧⟨308⟩⟦74⟧⟨309⟩⟦174⟧⟨310⟩⟦175⟧⟨311⟩⟦210⟧⟨312⟩
+[Vishal Bhardwaj] ⟨313⟩⟦108⟧⟨314⟩⟦282⟧⟨315⟩⟦104⟧⟨316⟩⟦69⟧⟨317⟩⟦246⟧⟨318⟩⟦186⟧⟨319⟩⟦24⟧⟨320⟩⟦202⟧⟨321⟩⟦91⟧⟨322⟩⟦65⟧⟨323⟩
+[Hello Naan Pei Pesuren] ⟦99⟧⟨324⟩⟦96⟧⟨325⟩⟦96⟧⟨326⟩⟦18⟧⟨327⟩⟦73⟧⟨328⟩⟦113⟧⟨329⟩⟦89⟧⟨330⟩⟦193⟧⟨331⟩⟦222⟧⟨332⟩⟦229⟧⟨333⟩⟦56⟧⟨334⟩⟦137⟧⟨335⟩
+[Hello Naan Pei Pesuren] ⟦153⟧⟨336⟩⟦208⟧⟨337⟩⟦70⟧⟨338⟩⟦70⟧⟨339⟩⟦57⟧⟨340⟩⟦86⟧⟨341⟩⟦157⟧⟨342⟩
+[Songali] ⟦213⟧⟨343⟩⟦7⟧⟨344⟩⟦248⟧⟨345⟩⟦13⟧⟨346⟩⟦89⟧⟨347⟩⟦124⟧⟨348⟩⟦95⟧⟨349⟩⟦127⟧⟨350⟩
+[Songali] ⟨351⟩⟦264⟧⟨352⟩⟦84⟧⟨353⟩⟦211⟧⟨354⟩⟦190⟧⟨355⟩⟦134⟧⟨356⟩⟦192⟧⟨357⟩
+[Songali] ⟦234⟧⟨358⟩⟦89⟧⟨359⟩⟦218⟧⟨360⟩⟦160⟧⟨361⟩
+[Songali] ⟦233⟧⟨362⟩⟦89⟧⟨363⟩
+[Raaz (2002 film)] ⟦182⟧⟨364⟩⟦7⟧⟨365⟩⟦16⟧⟨366⟩⟦113⟧⟨367⟩⟦89⟧⟨368⟩⟦268⟧⟨369⟩⟦150⟧⟨370⟩⟦128⟧⟨371⟩⟦184⟧⟨372⟩
+[Raaz (2002 film)] ⟦233⟧⟨373⟩⟦89⟧⟨374⟩⟦61⟧⟨375⟩⟦82⟧⟨376⟩⟦21⟧⟨377⟩⟦76⟧⟨378⟩⟦166⟧⟨379⟩⟦259⟧⟨380⟩⟦142⟧⟨381⟩
+[Raaz (2002 film)] ⟨382⟩⟦260⟧⟨383⟩⟦111⟧⟨384⟩⟦27⟧⟨385⟩⟦96⟧⟨386⟩⟦245⟧⟨387⟩⟦172⟧⟨388⟩
+[Raaz (2002 film)] ⟦254⟧⟨389⟩⟦276⟧⟨390⟩⟦53⟧⟨391⟩⟦100⟧⟨392⟩⟦115⟧⟨393⟩⟦169⟧⟨394⟩⟦169⟧⟨395⟩⟦237⟧⟨396⟩⟦75⟧⟨397⟩
+[Raaz (2002 film)] ⟦233⟧⟨398⟩⟦89⟧⟨399⟩⟦51⟧⟨400⟩⟦40⟧⟨401⟩
+
+[user]
+
+问题：
+Q: What 1965-born field director directed the 2002 Indian comedy horror film "Makdee" ("Spider", in English)?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

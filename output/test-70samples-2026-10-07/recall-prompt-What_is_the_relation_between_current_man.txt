@@ -1,0 +1,169 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (Chinese
+⟦2⟧ = (Ciccio
+⟦3⟧ = 2006 FIFA World Cup
+⟦4⟧ = 2016 champions
+⟦5⟧ = 22,320 spectators
+⟦6⟧ = 7 July
+⟦7⟧ = 李星灿
+⟦8⟧ = a Belgian professional footballer
+⟦9⟧ = a Brazilian professional footballer
+⟦10⟧ = a central midfielder
+⟦11⟧ = a Chinese football player
+⟦12⟧ = a Chinese footballer
+⟦13⟧ = a defender
+⟦14⟧ = a football coach
+⟦15⟧ = a forward
+⟦16⟧ = a loan spell
+⟦17⟧ = a professional Chinese football club
+⟦18⟧ = a professional football stadium
+⟦19⟧ = a retired Italian footballer
+⟦20⟧ = a right-winger
+⟦21⟧ = a seating capacity
+⟦22⟧ = Al Nassr
+⟦23⟧ = Alexandre Pato
+⟦24⟧ = an Italian footballer
+⟦25⟧ = an Italian former professional footballer
+⟦26⟧ = attacking
+⟦27⟧ = attacking midfielder
+⟦28⟧ = Axel Laurent Angel Lambert Witsel
+⟦29⟧ = Ballon d'Or winner Fabio Cannavaro
+⟦30⟧ = both Catania
+⟦31⟧ = brother
+⟦32⟧ = Cannavaro
+⟦33⟧ = capacity
+⟦34⟧ = captain
+⟦35⟧ = career
+⟦36⟧ = CFA
+⟦37⟧ = champions
+⟦38⟧ = China
+⟦39⟧ = China League
+⟦40⟧ = Chinese club Tianjin Quanjian
+⟦41⟧ = Chinese Super League side Tianjin Quanjian
+⟦42⟧ = club
+⟦43⟧ = clubs
+⟦44⟧ = coach
+⟦45⟧ = current manager
+⟦46⟧ = defender
+⟦47⟧ = division
+⟦48⟧ = eight seasons
+⟦49⟧ = Fabio Cannavaro
+⟦50⟧ = football
+⟦51⟧ = footballer
+⟦52⟧ = forward
+⟦53⟧ = Giuseppe Sannino
+⟦54⟧ = his career
+⟦55⟧ = his natural position
+⟦56⟧ = his older brother
+⟦57⟧ = his play
+⟦58⟧ = home
+⟦59⟧ = just Pato
+⟦60⟧ = Li Xingcan
+⟦61⟧ = licence
+⟦62⟧ = loan
+⟦63⟧ = manager
+⟦64⟧ = matches
+⟦65⟧ = midfielder
+⟦66⟧ = Napoli
+⟦67⟧ = over 20 years
+⟦68⟧ = owners
+⟦69⟧ = Paolo
+⟦70⟧ = Paolo Cannavaro
+⟦71⟧ = Parma
+⟦72⟧ = play
+⟦73⟧ = player
+⟦74⟧ = position
+⟦75⟧ = Previous clubs
+⟦76⟧ = Quanjian Nature Medicine
+⟦77⟧ = Rhyad
+⟦78⟧ = Sassuolo
+⟦79⟧ = season
+⟦80⟧ = seasons
+⟦81⟧ = seating
+⟦82⟧ = seven seasons
+⟦83⟧ = side
+⟦84⟧ = spectators
+⟦85⟧ = spell
+⟦86⟧ = stadium
+⟦87⟧ = team
+⟦88⟧ = the 2001–02 season
+⟦89⟧ = the Belgium national team
+⟦90⟧ = the China League One
+⟦91⟧ = the Chinese Football Association
+⟦92⟧ = the Chinese Super League
+⟦93⟧ = the Chinese Super League division
+⟦94⟧ = the club
+⟦95⟧ = the club's captain
+⟦96⟧ = the club's first title
+⟦97⟧ = the Coppa Italia
+⟦98⟧ = the first team
+⟦99⟧ = the Haihe Educational Football Stadium
+⟦100⟧ = the home matches
+⟦101⟧ = The stadium
+⟦102⟧ = The team
+⟦103⟧ = Their current owners
+⟦104⟧ = their home stadium
+⟦105⟧ = Tianjin
+⟦106⟧ = Tianjin Quanjian
+⟦107⟧ = Tianjin Quanjian F.C.
+⟦108⟧ = Tianjin Tuanbo Football Stadium
+⟦109⟧ = title
+⟦110⟧ = Troise
+⟦111⟧ = Verona
+⟦112⟧ = Watford FC
+⟦113⟧ = winger
+⟦114⟧ = winner
+⟦115⟧ = years
+⟦116⟧ = Zhang Lu
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Axel Witsel] ⟦28⟧⟨1⟩⟦8⟧⟨2⟩⟦51⟧⟨3⟩⟦40⟧⟨4⟩⟦42⟧⟨5⟩
+[Axel Witsel] ⟨6⟩⟦57⟧⟨7⟩⟦72⟧⟨8⟩⟦89⟧⟨9⟩⟦87⟧⟨10⟩⟦98⟧⟨11⟩⟦87⟧⟨12⟩⟦20⟧⟨13⟩⟦113⟧⟨14⟩⟦26⟧⟨15⟩⟦27⟧⟨16⟩⟦65⟧⟨17⟩⟦55⟧⟨18⟩⟦74⟧⟨19⟩⟦10⟧⟨20⟩⟦65⟧⟨21⟩
+[2017 Tianjin Quanjian F.C. season] ⟦107⟧⟨22⟩⟦17⟧⟨23⟩⟦50⟧⟨24⟩⟦42⟧⟨25⟩⟦93⟧⟨26⟩⟦47⟧⟨27⟩⟦61⟧⟨28⟩⟦61⟧⟨29⟩⟦91⟧⟨30⟩⟦36⟧⟨31⟩
+[2017 Tianjin Quanjian F.C. season] ⟦102⟧⟨32⟩⟦87⟧⟨33⟩⟦105⟧⟨34⟩⟦104⟧⟨35⟩⟦58⟧⟨36⟩⟦86⟧⟨37⟩⟦99⟧⟨38⟩⟦21⟧⟨39⟩⟦81⟧⟨40⟩⟦33⟧⟨41⟩
+[2017 Tianjin Quanjian F.C. season] ⟦103⟧⟨42⟩⟦68⟧⟨43⟩⟦76⟧⟨44⟩⟦94⟧⟨45⟩⟦42⟧⟨46⟩⟦6⟧⟨47⟩
+[Alexandre Pato] ⟨48⟩⟦23⟧⟨49⟩⟦59⟧⟨50⟩⟦9⟧⟨51⟩⟦51⟧⟨52⟩⟦40⟧⟨53⟩⟦42⟧⟨54⟩⟦15⟧⟨55⟩⟦52⟧⟨56⟩
+[Paolo Cannavaro] ⟦70⟧⟨57⟩⟦24⟧⟨58⟩⟦51⟧⟨59⟩⟦78⟧⟨60⟩⟦13⟧⟨61⟩⟦46⟧⟨62⟩
+[Paolo Cannavaro] ⟨63⟩⟦54⟧⟨64⟩⟦35⟧⟨65⟩⟦66⟧⟨66⟩⟦71⟧⟨67⟩⟦56⟧⟨68⟩⟦31⟧⟨69⟩⟦3⟧⟨70⟩⟦29⟧⟨71⟩⟦114⟧⟨72⟩⟦13⟧⟨73⟩⟦46⟧⟨74⟩⟦40⟧⟨75⟩⟦42⟧⟨76⟩
+[Paolo Cannavaro] ⟦69⟧⟨77⟩⟦94⟧⟨78⟩⟦42⟧⟨79⟩⟦82⟧⟨80⟩⟦80⟧⟨81⟩⟦16⟧⟨82⟩⟦62⟧⟨83⟩⟦85⟧⟨84⟩⟦111⟧⟨85⟩⟦88⟧⟨86⟩⟦79⟧⟨87⟩
+[Paolo Cannavaro] ⟨88⟩⟦66⟧⟨89⟩⟦95⟧⟨90⟩⟦42⟧⟨91⟩⟦34⟧⟨92⟩⟦102⟧⟨93⟩⟦87⟧⟨94⟩⟦97⟧⟨95⟩⟦96⟧⟨96⟩⟦42⟧⟨97⟩⟦109⟧⟨98⟩⟦67⟧⟨99⟩⟦115⟧⟨100⟩
+[Paolo Cannavaro] ⟨101⟩⟦48⟧⟨102⟩⟦80⟧⟨103⟩⟦66⟧⟨104⟩⟦78⟧⟨105⟩
+[Zhang Lu (goalkeeper)] ⟦116⟧⟨106⟩⟦105⟧⟨107⟩⟦12⟧⟨108⟩⟦51⟧⟨109⟩⟦106⟧⟨110⟩⟦92⟧⟨111⟩
+[Tianjin Tuanbo Football Stadium] ⟦108⟧⟨112⟩⟦18⟧⟨113⟩⟦50⟧⟨114⟩⟦86⟧⟨115⟩⟦105⟧⟨116⟩⟦38⟧⟨117⟩
+[Tianjin Tuanbo Football Stadium] ⟨118⟩⟦100⟧⟨119⟩⟦58⟧⟨120⟩⟦64⟧⟨121⟩⟦107⟧⟨122⟩⟦90⟧⟨123⟩
+[Tianjin Tuanbo Football Stadium] ⟦101⟧⟨124⟩⟦86⟧⟨125⟩⟦5⟧⟨126⟩⟦84⟧⟨127⟩
+[Ciccio Troise] ⟨128⟩⟦2⟧⟨129⟩⟦19⟧⟨130⟩⟦51⟧⟨131⟩
+[Ciccio Troise] ⟦110⟧⟨132⟩⟦14⟧⟨133⟩⟦50⟧⟨134⟩⟦44⟧⟨135⟩⟦49⟧⟨136⟩⟦106⟧⟨137⟩⟦4⟧⟨138⟩⟦37⟧⟨139⟩⟦39⟧⟨140⟩
+[Ciccio Troise] ⟦75⟧⟨141⟩⟦43⟧⟨142⟩⟦22⟧⟨143⟩⟦77⟧⟨144⟩⟦32⟧⟨145⟩⟦53⟧⟨146⟩⟦30⟧⟨147⟩⟦112⟧⟨148⟩
+[Fabio Cannavaro] ⟦49⟧⟨149⟩⟦25⟧⟨150⟩⟦51⟧⟨151⟩⟦45⟧⟨152⟩⟦63⟧⟨153⟩⟦40⟧⟨154⟩⟦42⟧⟨155⟩
+[Tianjin Quanjian F.C.] ⟦107⟧⟨156⟩⟦17⟧⟨157⟩⟦50⟧⟨158⟩⟦42⟧⟨159⟩⟦93⟧⟨160⟩⟦47⟧⟨161⟩⟦61⟧⟨162⟩⟦61⟧⟨163⟩⟦91⟧⟨164⟩⟦36⟧⟨165⟩
+[Tianjin Quanjian F.C.] ⟦102⟧⟨166⟩⟦87⟧⟨167⟩⟦105⟧⟨168⟩⟦104⟧⟨169⟩⟦58⟧⟨170⟩⟦86⟧⟨171⟩⟦99⟧⟨172⟩⟦21⟧⟨173⟩⟦81⟧⟨174⟩⟦33⟧⟨175⟩
+[Tianjin Quanjian F.C.] ⟦103⟧⟨176⟩⟦68⟧⟨177⟩⟦76⟧⟨178⟩⟦94⟧⟨179⟩⟦42⟧⟨180⟩⟦6⟧⟨181⟩
+[Li Xingcan] ⟦60⟧⟨182⟩⟦1⟧⟨183⟩⟦7⟧⟨184⟩⟦105⟧⟨185⟩⟦11⟧⟨186⟩⟦50⟧⟨187⟩⟦73⟧⟨188⟩⟦41⟧⟨189⟩⟦83⟧⟨190⟩
+
+[user]
+
+问题：
+What is the relation between current manager of Chinese club Tianjin Quanjian and Paolo Cannavaro?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

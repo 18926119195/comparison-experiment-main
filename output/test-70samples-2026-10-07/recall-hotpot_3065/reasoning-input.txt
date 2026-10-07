@@ -1,0 +1,91 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Peter Schmeichel] ⟦76⟧⟨148⟩⟦4⟧⟨149⟩⟨150⟩⟨151⟩⟨152⟩⟦108⟧⟨153⟩
+[Peter Schmeichel] ⟨154⟩⟦47⟧⟦125⟧⟨155⟩⟨156⟩⟦34⟧⟨158⟩⟨157⟩⟦98⟧⟨159⟩⟦114⟧⟨160⟩⟦29⟧⟨161⟩
+[Kasper Schmeichel] ⟦59⟧⟨184⟩⟦5⟧⟦37⟧⟨185⟩⟨186⟩⟦10⟧⟨187⟩⟨188⟩⟦80⟧⟦25⟧⟨190⟩⟨189⟩⟦102⟧⟦96⟧⟨191⟩⟨192⟩ | ⟦37⟧⟦10⟧ | ⟦25⟧
+[Kasper Schmeichel] ⟦42⟧ | ⟨193⟩⟦111⟧⟦91⟧⟨194⟩⟨195⟩⟦38⟧⟨196⟩⟦26⟧⟦42⟧⟨197⟩⟨198⟩⟦77⟧⟨199⟩ | ⟦42⟧
+
+符号表：
+⟦4⟧ = a Danish former professional footballer
+⟦5⟧ = a Danish professional footballer
+⟦10⟧ = a goalkeeper
+⟦25⟧ = club
+⟦26⟧ = Danish international goalkeeper
+⟦29⟧ = Denmark
+⟦34⟧ = English club Manchester United
+⟦37⟧ = footballer
+⟦38⟧ = former Manchester United
+⟦42⟧ = goalkeeper
+⟦47⟧ = his most successful years
+⟦59⟧ = Kasper Peter Schmeichel
+⟦76⟧ = Peter Bolesław Schmeichel MBE
+⟦77⟧ = Peter Schmeichel
+⟦80⟧ = Premier League club Leicester City
+⟦91⟧ = son
+⟦96⟧ = team
+⟦98⟧ = the 1999 UEFA Champions League
+⟦102⟧ = the Denmark national team
+⟦108⟧ = the IFFHS World's Best Goalkeeper
+⟦111⟧ = the son
+⟦114⟧ = UEFA Euro
+⟦125⟧ = years
+
+占位符映射：
+⟨148⟩ =  (] ; born 18 November 1963) is 
+⟨149⟩ = 
+⟨150⟩ =  who played as 
+⟨151⟩ = 
+⟨152⟩ = , and was voted 
+⟨153⟩ =  in 1992 and 1993.
+⟨154⟩ =  He is best remembered for 
+⟨155⟩ = 
+⟨156⟩ =  at 
+⟨157⟩ = 
+⟨158⟩ =  Manchester United, whom he captained to 
+⟨159⟩ =  to complete the Treble, and for winning 
+⟨160⟩ =  1992 with 
+⟨161⟩ = .
+⟨184⟩ =  (] ; born 5 November 1986) is 
+⟨185⟩ = 
+⟨186⟩ =  who plays as 
+⟨187⟩ = 
+⟨188⟩ =  for 
+⟨189⟩ = 
+⟨190⟩ =  Leicester City and 
+⟨191⟩ = 
+⟨192⟩ = .
+⟨193⟩ =  He is 
+⟨194⟩ = 
+⟨195⟩ =  of 
+⟨196⟩ =  and 
+⟨197⟩ = 
+⟨198⟩ =  
+⟨199⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Kasper Peter Schmeichel is the son of a professional footballer who was voted what in 1992 and 1993?

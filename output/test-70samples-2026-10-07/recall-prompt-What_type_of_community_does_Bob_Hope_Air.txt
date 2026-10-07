@@ -1,0 +1,279 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 29 Metrolink trains
+⟦2⟧ = 3 mi
+⟦3⟧ = 377s
+⟦4⟧ = a 10-story building
+⟦5⟧ = a charter school system
+⟦6⟧ = a daily red-eye flight
+⟦7⟧ = a direct rail connection
+⟦8⟧ = a factory building
+⟦9⟧ = a lawyer
+⟦10⟧ = a local hospital
+⟦11⟧ = a passenger rail station
+⟦12⟧ = a public airport
+⟦13⟧ = a scheduled flight
+⟦14⟧ = a visiting law professor
+⟦15⟧ = A.
+⟦16⟧ = about 30 minutes
+⟦17⟧ = addition
+⟦18⟧ = age
+⟦19⟧ = Air Force Plant
+⟦20⟧ = airport
+⟦21⟧ = Amtrak trains
+⟦22⟧ = Amtrak's "Coast Starlight
+⟦23⟧ = an abnormal position
+⟦24⟧ = an American journalist
+⟦25⟧ = an emergency landing
+⟦26⟧ = an international consulting firm
+⟦27⟧ = an unstaffed Amtrak and Metrolink rail station
+⟦28⟧ = area
+⟦29⟧ = arrivals
+⟦30⟧ = August
+⟦31⟧ = aviation
+⟦32⟧ = B-50
+⟦33⟧ = B-52
+⟦34⟧ = B-52 Stratofortresses
+⟦35⟧ = BFI
+⟦36⟧ = Bob Hope
+⟦37⟧ = Bob Hope Airport
+⟦38⟧ = Bob Hope Patriotic Hall
+⟦39⟧ = Bob Hope School
+⟦40⟧ = Bob Hope's son
+⟦41⟧ = Boeing
+⟦42⟧ = Boeing B-50 Superfortresses
+⟦43⟧ = Boeing Field
+⟦44⟧ = Boeing Plant
+⟦45⟧ = both Amtrak's "Pacific Surfliner
+⟦46⟧ = building
+⟦47⟧ = BUR
+⟦48⟧ = Burbank
+⟦49⟧ = Burbank-Bob Hope Airport
+⟦50⟧ = California
+⟦51⟧ = campuses
+⟦52⟧ = Captain Scott Burke
+⟦53⟧ = cargo
+⟦54⟧ = CEO
+⟦55⟧ = charter
+⟦56⟧ = Chu-Lin
+⟦57⟧ = cities
+⟦58⟧ = city
+⟦59⟧ = Company
+⟦60⟧ = connection
+⟦61⟧ = consulting
+⟦62⟧ = corporate director
+⟦63⟧ = daughter
+⟦64⟧ = director
+⟦65⟧ = distance
+⟦66⟧ = downtown
+⟦67⟧ = Downtown Burbank
+⟦68⟧ = downtown Los Angeles
+⟦69⟧ = downtown Los Angeles' Union Station
+⟦70⟧ = downtown Seattle
+⟦71⟧ = east Ventura
+⟦72⟧ = emergency
+⟦73⟧ = eye
+⟦74⟧ = FAA LID
+⟦75⟧ = factory
+⟦76⟧ = firm
+⟦77⟧ = flight
+⟦78⟧ = flights
+⟦79⟧ = founder
+⟦80⟧ = gear
+⟦81⟧ = general aviation
+⟦82⟧ = Georgetown University
+⟦83⟧ = Glendale
+⟦84⟧ = Greenville
+⟦85⟧ = Griffith Park
+⟦86⟧ = half
+⟦87⟧ = hall
+⟦88⟧ = his son
+⟦89⟧ = Hollywood
+⟦90⟧ = Hollywood Burbank Airport
+⟦91⟧ = home
+⟦92⟧ = honor
+⟦93⟧ = Hope
+⟦94⟧ = hospital
+⟦95⟧ = IATA
+⟦96⟧ = ICAO
+⟦97⟧ = Indian Wars
+⟦98⟧ = JetBlue Airways
+⟦99⟧ = JetBlue Flight
+⟦100⟧ = John F. Kennedy International Airport
+⟦101⟧ = journalist
+⟦102⟧ = Judith Richards Hope
+⟦103⟧ = July
+⟦104⟧ = KBFI
+⟦105⟧ = KBUR
+⟦106⟧ = KCIA
+⟦107⟧ = King County
+⟦108⟧ = Lancaster
+⟦109⟧ = landing
+⟦110⟧ = law
+⟦111⟧ = law professor
+⟦112⟧ = lawyer
+⟦113⟧ = LAX
+⟦114⟧ = long distance motorcoach service
+⟦115⟧ = Los Angeles
+⟦116⟧ = Los Angeles County
+⟦117⟧ = Los Angeles International Airport
+⟦118⟧ = Los Angeles Union Station
+⟦119⟧ = March
+⟦120⟧ = Mark
+⟦121⟧ = Megabus
+⟦122⟧ = Metrolink's Antelope Valley Line
+⟦123⟧ = Metrolink's Ventura County Line
+⟦124⟧ = mi
+⟦125⟧ = miles
+⟦126⟧ = Military and Veterans Affairs
+⟦127⟧ = minutes
+⟦128⟧ = Mississippi
+⟦129⟧ = motorcoach
+⟦130⟧ = New York City
+⟦131⟧ = No one
+⟦132⟧ = Non-stop flights
+⟦133⟧ = northwest
+⟦134⟧ = nose
+⟦135⟧ = November
+⟦136⟧ = officially King County International Airport
+⟦137⟧ = one
+⟦138⟧ = P.C.
+⟦139⟧ = Pasadena
+⟦140⟧ = passenger
+⟦141⟧ = Patriotic Hall
+⟦142⟧ = Phoenix
+⟦143⟧ = plant
+⟦144⟧ = Port Arthur
+⟦145⟧ = position
+⟦146⟧ = president
+⟦147⟧ = production
+⟦148⟧ = professor
+⟦149⟧ = rail
+⟦150⟧ = Ruth A. Wong
+⟦151⟧ = Samuel "Sam" Chu-Lin (; c.
+⟦152⟧ = San Diego
+⟦153⟧ = San Luis Obispo
+⟦154⟧ = school
+⟦155⟧ = Seattle
+⟦156⟧ = September
+⟦157⟧ = service
+⟦158⟧ = several miles
+⟦159⟧ = some passenger service
+⟦160⟧ = son
+⟦161⟧ = Spanish–American War
+⟦162⟧ = station
+⟦163⟧ = story
+⟦164⟧ = Stratofortresses
+⟦165⟧ = Stratojets
+⟦166⟧ = Supervisors
+⟦167⟧ = system
+⟦168⟧ = Texas
+⟦169⟧ = the age
+⟦170⟧ = the Airbus A320
+⟦171⟧ = The airport
+⟦172⟧ = the area
+⟦173⟧ = the Boeing 307s
+⟦174⟧ = the Boeing 377s
+⟦175⟧ = the Boeing B-17 Flying Fortresses
+⟦176⟧ = the Boeing B-29 Superfortresses
+⟦177⟧ = the Boeing Corporation
+⟦178⟧ = the building
+⟦179⟧ = the Burbank Airport station
+⟦180⟧ = the city
+⟦181⟧ = the Director
+⟦182⟧ = the Duwamish River
+⟦183⟧ = the first wife
+⟦184⟧ = the former daughter
+⟦185⟧ = the founder
+⟦186⟧ = the Grand Army
+⟦187⟧ = the home
+⟦188⟧ = the initial Boeing 737s
+⟦189⟧ = the Los Angeles Board
+⟦190⟧ = the Los Angeles County Department
+⟦191⟧ = the northern Greater Los Angeles area
+⟦192⟧ = the northwest
+⟦193⟧ = the nose gear
+⟦194⟧ = the only airport
+⟦195⟧ = the plant
+⟦196⟧ = the president
+⟦197⟧ = the Republic
+⟦198⟧ = the San Fernando Valley
+⟦199⟧ = the station
+⟦200⟧ = The ten "Pacific Surfliner" trains
+⟦201⟧ = the time
+⟦202⟧ = the United States
+⟦203⟧ = the western United States
+⟦204⟧ = this station
+⟦205⟧ = time
+⟦206⟧ = Tony Hope
+⟦207⟧ = trains
+⟦208⟧ = two campuses
+⟦209⟧ = Ventura County Line
+⟦210⟧ = veterans
+⟦211⟧ = Washington
+⟦212⟧ = weekday
+⟦213⟧ = wife
+⟦214⟧ = William E. Boeing
+⟦215⟧ = World War I
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Boeing Field] ⟦43⟧⟨1⟩⟦136⟧⟨2⟩⟦95⟧⟨3⟩⟦35⟧⟨4⟩⟦96⟧⟨5⟩⟦104⟧⟨6⟩⟦74⟧⟨7⟩⟦35⟧⟨8⟩⟦12⟧⟨9⟩⟦20⟧⟨10⟩⟦107⟧⟨11⟩⟦125⟧⟨12⟩⟦66⟧⟨13⟩⟦70⟧⟨14⟩
+[Boeing Field] ⟦171⟧⟨15⟩⟦20⟧⟨16⟩⟦106⟧⟨17⟩⟦20⟧⟨18⟩
+[Boeing Field] ⟦171⟧⟨19⟩⟦20⟧⟨20⟩⟦159⟧⟨21⟩⟦140⟧⟨22⟩⟦157⟧⟨23⟩⟦81⟧⟨24⟩⟦31⟧⟨25⟩⟦53⟧⟨26⟩⟦53⟧⟨27⟩
+[Boeing Field] ⟨28⟩⟦185⟧⟨29⟩⟦79⟧⟨30⟩⟦41⟧⟨31⟩⟦214⟧⟨32⟩
+[Sam Chu Lin] ⟦151⟧⟨33⟩⟦119⟧⟨34⟩⟦24⟧⟨35⟩⟦101⟧⟨36⟩
+[Sam Chu Lin] ⟨37⟩⟦84⟧⟨38⟩⟦128⟧⟨39⟩⟦56⟧⟨40⟩⟦169⟧⟨41⟩⟦18⟧⟨42⟩⟦48⟧⟨43⟩⟦50⟧⟨44⟩
+[Sam Chu Lin] ⟨45⟩⟦37⟧⟨46⟩⟦48⟧⟨47⟩⟦142⟧⟨48⟩⟦10⟧⟨49⟩⟦94⟧⟨50⟩⟦88⟧⟨51⟩⟦160⟧⟨52⟩⟦120⟧⟨53⟩
+[Burbank–Bob Hope Airport station] ⟦49⟧⟨54⟩⟦27⟧⟨55⟩⟦149⟧⟨56⟩⟦162⟧⟨57⟩⟦37⟧⟨58⟩⟦180⟧⟨59⟩⟦58⟧⟨60⟩⟦48⟧⟨61⟩⟦50⟧⟨62⟩
+[Burbank–Bob Hope Airport station] ⟨63⟩⟦45⟧⟨64⟩⟦153⟧⟨65⟩⟦152⟧⟨66⟩⟦123⟧⟨67⟩⟦118⟧⟨68⟩⟦71⟧⟨69⟩
+[Burbank–Bob Hope Airport station] ⟦200⟧⟨70⟩⟦207⟧⟨71⟩⟦199⟧⟨72⟩⟦162⟧⟨73⟩⟦1⟧⟨74⟩⟦207⟧⟨75⟩⟦199⟧⟨76⟩⟦162⟧⟨77⟩⟦212⟧⟨78⟩⟦29⟧⟨79⟩⟦29⟧⟨80⟩⟦171⟧⟨81⟩⟦20⟧⟨82⟩⟦66⟧⟨83⟩⟦69⟧⟨84⟩⟦16⟧⟨85⟩⟦127⟧⟨86⟩
+[Burbank–Bob Hope Airport station] ⟦22⟧⟨87⟩⟦155⟧⟨88⟩⟦211⟧⟨89⟩⟦115⟧⟨90⟩
+[Bob Hope School] ⟦39⟧⟨91⟩⟦5⟧⟨92⟩⟦55⟧⟨93⟩⟦154⟧⟨94⟩⟦167⟧⟨95⟩⟦144⟧⟨96⟩⟦168⟧⟨97⟩
+[Bob Hope School] ⟨98⟩⟦208⟧⟨99⟩⟦51⟧⟨100⟩
+[Bob Hope Patriotic Hall] ⟦38⟧⟨101⟩⟦4⟧⟨102⟩⟦163⟧⟨103⟩⟦46⟧⟨104⟩⟦141⟧⟨105⟩⟦189⟧⟨106⟩⟦166⟧⟨107⟩⟦210⟧⟨108⟩⟦210⟧⟨109⟩⟦97⟧⟨110⟩⟦161⟧⟨111⟩⟦215⟧⟨112⟩⟦186⟧⟨113⟩⟦197⟧⟨114⟩
+[Bob Hope Patriotic Hall] ⟨115⟩⟦187⟧⟨116⟩⟦91⟧⟨117⟩⟦190⟧⟨118⟩⟦126⟧⟨119⟩
+[Bob Hope Patriotic Hall] ⟦141⟧⟨120⟩⟦87⟧⟨121⟩⟦92⟧⟨122⟩⟦92⟧⟨123⟩⟦36⟧⟨124⟩⟦38⟧⟨125⟩⟦135⟧⟨126⟩
+[Bob Hope Patriotic Hall] ⟦150⟧⟨127⟩⟦15⟧⟨128⟩⟦181⟧⟨129⟩⟦126⟧⟨130⟩⟦103⟧⟨131⟩
+[Downtown Burbank station] ⟦66⟧⟨132⟩⟦67⟧⟨133⟩⟦11⟧⟨134⟩⟦140⟧⟨135⟩⟦149⟧⟨136⟩⟦162⟧⟨137⟩⟦66⟧⟨138⟩⟦67⟧⟨139⟩⟦50⟧⟨140⟩
+[Downtown Burbank station] ⟨141⟩⟦122⟧⟨142⟩⟦108⟧⟨143⟩⟦209⟧⟨144⟩⟦71⟧⟨145⟩⟦118⟧⟨146⟩
+[Downtown Burbank station] ⟦21⟧⟨147⟩⟦207⟧⟨148⟩⟦204⟧⟨149⟩⟦162⟧⟨150⟩⟦21⟧⟨151⟩⟦207⟧⟨152⟩⟦179⟧⟨153⟩⟦162⟧⟨154⟩⟦37⟧⟨155⟩⟦158⟧⟨156⟩⟦125⟧⟨157⟩⟦192⟧⟨158⟩⟦133⟧⟨159⟩⟦66⟧⟨160⟩⟦67⟧⟨161⟩
+[Downtown Burbank station] ⟦121⟧⟨162⟩⟦114⟧⟨163⟩⟦65⟧⟨164⟩⟦129⟧⟨165⟩⟦157⟧⟨166⟩⟦199⟧⟨167⟩⟦162⟧⟨168⟩⟦30⟧⟨169⟩
+[Judith Richards Hope] ⟦102⟧⟨170⟩⟦9⟧⟨171⟩⟦112⟧⟨172⟩⟦110⟧⟨173⟩⟦111⟧⟨174⟩⟦148⟧⟨175⟩⟦62⟧⟨176⟩⟦64⟧⟨177⟩
+[Judith Richards Hope] ⟨178⟩⟦14⟧⟨179⟩⟦110⟧⟨180⟩⟦148⟧⟨181⟩⟦82⟧⟨182⟩⟦17⟧⟨183⟩⟦17⟧⟨184⟩⟦196⟧⟨185⟩⟦146⟧⟨186⟩⟦54⟧⟨187⟩⟦26⟧⟨188⟩⟦61⟧⟨189⟩⟦76⟧⟨190⟩⟦93⟧⟨191⟩⟦59⟧⟨192⟩⟦138⟧
+[Judith Richards Hope] ⟨193⟩⟦184⟧⟨194⟩⟦63⟧⟨195⟩⟦110⟧⟨196⟩⟦110⟧⟨197⟩⟦36⟧⟨198⟩⟦183⟧⟨199⟩⟦213⟧⟨200⟩⟦40⟧⟨201⟩⟦160⟧⟨202⟩⟦206⟧⟨203⟩
+[JetBlue Flight 292] ⟦99⟧⟨204⟩⟦13⟧⟨205⟩⟦77⟧⟨206⟩⟦37⟧⟨207⟩⟦48⟧⟨208⟩⟦50⟧⟨209⟩⟦100⟧⟨210⟩⟦130⟧⟨211⟩
+[JetBlue Flight 292] ⟨212⟩⟦156⟧⟨213⟩⟦52⟧⟨214⟩⟦25⟧⟨215⟩⟦72⟧⟨216⟩⟦109⟧⟨217⟩⟦170⟧⟨218⟩⟦117⟧⟨219⟩⟦193⟧⟨220⟩⟦134⟧⟨221⟩⟦80⟧⟨222⟩⟦23⟧⟨223⟩⟦145⟧⟨224⟩
+[JetBlue Flight 292] ⟦131⟧⟨225⟩⟦137⟧⟨226⟩
+[Boeing Plant 2] ⟦44⟧⟨227⟩⟦19⟧⟨228⟩⟦8⟧⟨229⟩⟦75⟧⟨230⟩⟦46⟧⟨231⟩⟦177⟧⟨232⟩⟦107⟧⟨233⟩⟦211⟧⟨234⟩⟦202⟧⟨235⟩
+[Boeing Plant 2] ⟨236⟩⟦201⟧⟨237⟩⟦205⟧⟨238⟩⟦147⟧⟨239⟩⟦147⟧⟨240⟩⟦178⟧⟨241⟩⟦46⟧⟨242⟩⟦195⟧⟨243⟩⟦143⟧⟨244⟩⟦86⟧⟨245⟩⟦86⟧⟨246⟩⟦175⟧⟨247⟩⟦173⟧⟨248⟩⟦174⟧⟨249⟩⟦3⟧⟨250⟩⟦176⟧⟨251⟩⟦42⟧⟨252⟩⟦32⟧⟨253⟩⟦165⟧⟨254⟩⟦165⟧⟨255⟩⟦33⟧⟨256⟩⟦34⟧⟨257⟩⟦164⟧⟨258⟩⟦188⟧⟨259⟩
+[Boeing Plant 2] ⟨260⟩⟦182⟧⟨261⟩⟦43⟧⟨262⟩
+[Bob Hope Airport] ⟦37⟧⟨263⟩⟦90⟧⟨264⟩⟦95⟧⟨265⟩⟦47⟧⟨266⟩⟦96⟧⟨267⟩⟦105⟧⟨268⟩⟦74⟧⟨269⟩⟦47⟧⟨270⟩⟦12⟧⟨271⟩⟦20⟧⟨272⟩⟦2⟧⟨273⟩⟦124⟧⟨274⟩⟦66⟧⟨275⟩⟦67⟧⟨276⟩⟦116⟧⟨277⟩⟦50⟧⟨278⟩
+[Bob Hope Airport] ⟦171⟧⟨279⟩⟦20⟧⟨280⟩⟦191⟧⟨281⟩⟦28⟧⟨282⟩⟦83⟧⟨283⟩⟦139⟧⟨284⟩⟦198⟧⟨285⟩
+[Bob Hope Airport] ⟨286⟩⟦85⟧⟨287⟩⟦89⟧⟨288⟩⟦117⟧⟨289⟩⟦113⟧⟨290⟩⟦194⟧⟨291⟩⟦20⟧⟨292⟩⟦172⟧⟨293⟩⟦28⟧⟨294⟩⟦7⟧⟨295⟩⟦149⟧⟨296⟩⟦60⟧⟨297⟩⟦66⟧⟨298⟩⟦68⟧⟨299⟩
+[Bob Hope Airport] ⟦132⟧⟨300⟩⟦78⟧⟨301⟩⟦57⟧⟨302⟩⟦57⟧⟨303⟩⟦203⟧⟨304⟩⟦98⟧⟨305⟩⟦6⟧⟨306⟩⟦73⟧⟨307⟩⟦77⟧⟨308⟩⟦130⟧⟨309⟩
+
+[user]
+
+问题：
+What type of community does Bob Hope Airport and Boeing Field have in common?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

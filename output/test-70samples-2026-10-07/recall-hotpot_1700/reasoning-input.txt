@@ -1,0 +1,76 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Miles Doleac] ⟦155⟧⟨126⟩⟦51⟧⟨128⟩⟨129⟩⟨127⟩⟨130⟩⟦97⟧⟦97⟧⟨131⟩⟨132⟩⟦300⟧⟦300⟧⟨133⟩⟨134⟩⟦184⟧⟦184⟧⟨135⟩⟨136⟩
+[Miles Doleac] ⟦44⟧
+[Miles Doleac] ⟦230⟧
+[The Historian (film)] ⟦250⟧⟨226⟩⟦28⟧⟨228⟩⟨227⟩⟨229⟩⟨230⟩
+[The Hollow (2016 film)] ⟦251⟧⟨353⟩⟦29⟧⟦87⟧⟨355⟩⟨354⟩⟨356⟩⟦156⟧⟨357⟩ | ⟦156⟧
+[Jenma Natchathiram] ⟦108⟧ | ⟦108⟧ | ⟦100⟧⟦108⟧
+
+符号表：
+⟦28⟧ = a 2014 drama film
+⟦29⟧ = a 2016 American crime film
+⟦44⟧ = actor
+⟦51⟧ = an American film and television actor
+⟦87⟧ = crime
+⟦97⟧ = director
+⟦100⟧ = drama
+⟦108⟧ = film
+⟦155⟧ = Miles Christopher Doleac
+⟦156⟧ = Miles Doleac
+⟦184⟧ = producer
+⟦230⟧ = television
+⟦250⟧ = The Historian
+⟦251⟧ = The Hollow
+⟦300⟧ = writer
+
+占位符映射：
+⟨126⟩ =  is 
+⟨127⟩ = 
+⟨128⟩ =  and 
+⟨129⟩ =  
+⟨130⟩ = , 
+⟨131⟩ = 
+⟨132⟩ = , 
+⟨133⟩ = 
+⟨134⟩ =  and 
+⟨135⟩ = 
+⟨136⟩ = .
+⟨226⟩ =  is 
+⟨227⟩ = 
+⟨228⟩ =  
+⟨229⟩ =  written, directed, produced by 
+⟨230⟩ = .
+⟨353⟩ =  is 
+⟨354⟩ = 
+⟨355⟩ =  
+⟨356⟩ = , directed and written by 
+⟨357⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What supernatural horror film did Miles Doleac have a role in?

@@ -1,0 +1,32 @@
+{
+  "id": "aef50240-4915-4166-8f74-311de5776bfd",
+  "object": "chat.completion",
+  "created": 1791362782,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Silvia Navarro",
+        "reasoning_content": "We need answer. Need identify from context. Question: What Mexican actress of film, television, and theatre was a protagonist in La Heredera? Context: [La heredera] says La Heredera... It marked third reunion for Silvia Navarro and Sergio Basañez as protagonists. [Silvia Navarro] is Mexican actress of film, television, and theatre, primarily known for starring in several telenovelas. So answer Silvia Navarro. Need only short entity name. Final."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1504,
+    "completion_tokens": 102,
+    "total_tokens": 1606,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1504
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

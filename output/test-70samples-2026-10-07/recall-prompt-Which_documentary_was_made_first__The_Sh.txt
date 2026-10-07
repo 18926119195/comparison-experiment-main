@@ -1,0 +1,440 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = -produced films
+⟦2⟧ = "Bubibu
+⟦3⟧ = "Cosmic Eternity
+⟦4⟧ = "Economy
+⟦5⟧ = "Multi
+⟦6⟧ = 1 mini
+⟦7⟧ = 12 May
+⟦8⟧ = 14 months
+⟦9⟧ = 15 singles
+⟦10⟧ = 1930s
+⟦11⟧ = 1990s
+⟦12⟧ = 2 best albums
+⟦13⟧ = 22 June
+⟦14⟧ = 23 August
+⟦15⟧ = 4 studio albums
+⟦16⟧ = 5 digital singles
+⟦17⟧ = 9 Austrian mountaineers
+⟦18⟧ = 宇徳敬子
+⟦19⟧ = 宇徳敬子 , "Utoku Keiko
+⟦20⟧ = a 2003 documentary film
+⟦21⟧ = a 2006 feature-length documentary
+⟦22⟧ = a child
+⟦23⟧ = a City
+⟦24⟧ = a compilation
+⟦25⟧ = a death knell
+⟦26⟧ = a highly political appointment
+⟦27⟧ = a Japanese singer
+⟦28⟧ = a list
+⟦29⟧ = a lot
+⟦30⟧ = a near certain victory
+⟦31⟧ = a non-profit organization
+⟦32⟧ = a pioneering mountaineer
+⟦33⟧ = a politician
+⟦34⟧ = a producer
+⟦35⟧ = a result
+⟦36⟧ = a Royal Navy officer
+⟦37⟧ = a sixteen-point margin
+⟦38⟧ = a small lead
+⟦39⟧ = a solo career
+⟦40⟧ = accordance
+⟦41⟧ = accusations
+⟦42⟧ = action
+⟦43⟧ = activities
+⟦44⟧ = actors
+⟦45⟧ = addition
+⟦46⟧ = Admir Čavalić
+⟦47⟧ = Albert Russell Ellingwood
+⟦48⟧ = album
+⟦49⟧ = albums
+⟦50⟧ = an assistant teacher
+⟦51⟧ = an association
+⟦52⟧ = an editor
+⟦53⟧ = an FBI bug
+⟦54⟧ = any other nation
+⟦55⟧ = appointment
+⟦56⟧ = arguments
+⟦57⟧ = ascent
+⟦58⟧ = ascents
+⟦59⟧ = Association
+⟦60⟧ = attempts
+⟦61⟧ = attentions
+⟦62⟧ = August
+⟦63⟧ = Austrian mountaineers
+⟦64⟧ = B.B.Queens
+⟦65⟧ = band
+⟦66⟧ = band B.B.Queens
+⟦67⟧ = Berlin
+⟦68⟧ = biggest libertarian festival
+⟦69⟧ = Blanca Peak
+⟦70⟧ = book
+⟦71⟧ = Bosnia
+⟦72⟧ = Bosnian
+⟦73⟧ = bug
+⟦74⟧ = campaign
+⟦75⟧ = career
+⟦76⟧ = Čavalić
+⟦77⟧ = CD
+⟦78⟧ = century
+⟦79⟧ = challenger
+⟦80⟧ = child
+⟦81⟧ = chorus
+⟦82⟧ = chorus part
+⟦83⟧ = Chris Isepp
+⟦84⟧ = city
+⟦85⟧ = closing
+⟦86⟧ = Colorado
+⟦87⟧ = comeback
+⟦88⟧ = compilation
+⟦89⟧ = connection
+⟦90⟧ = control
+⟦91⟧ = conversation
+⟦92⟧ = Countdown
+⟦93⟧ = Crestone Needle
+⟦94⟧ = Cyprus
+⟦95⟧ = dates
+⟦96⟧ = day
+⟦97⟧ = days
+⟦98⟧ = death
+⟦99⟧ = debut
+⟦100⟧ = decisions
+⟦101⟧ = defence
+⟦102⟧ = Democrat incumbent mayor John Street
+⟦103⟧ = director
+⟦104⟧ = discovery
+⟦105⟧ = documentary
+⟦106⟧ = Dženan Smajić
+⟦107⟧ = Early polls
+⟦108⟧ = ears
+⟦109⟧ = economic liberalism
+⟦110⟧ = economics
+⟦111⟧ = Economics University
+⟦112⟧ = Economy
+⟦113⟧ = Ed Bell
+⟦114⟧ = editor
+⟦115⟧ = Eight-thousanders
+⟦116⟧ = election
+⟦117⟧ = Electro DJ
+⟦118⟧ = Ellingwood
+⟦119⟧ = Ellingwood Ridge
+⟦120⟧ = emotions
+⟦121⟧ = end
+⟦122⟧ = Eternity
+⟦123⟧ = Eupatoria
+⟦124⟧ = Europe
+⟦125⟧ = eyes
+⟦126⟧ = Faculty
+⟦127⟧ = fans
+⟦128⟧ = Fastpitch
+⟦129⟧ = feature
+⟦130⟧ = features
+⟦131⟧ = festival
+⟦132⟧ = film
+⟦133⟧ = Filmmaker Tigre Hill
+⟦134⟧ = films
+⟦135⟧ = first ascents
+⟦136⟧ = first attentions
+⟦137⟧ = first bosnian documentary
+⟦138⟧ = first comeback stage
+⟦139⟧ = first debut
+⟦140⟧ = First Lord
+⟦141⟧ = First Naval Lord
+⟦142⟧ = five new songs
+⟦143⟧ = former slaves
+⟦144⟧ = fourteener
+⟦145⟧ = game
+⟦146⟧ = GCB
+⟦147⟧ = girl
+⟦148⟧ = government
+⟦149⟧ = group
+⟦150⟧ = half
+⟦151⟧ = Hartwig
+⟦152⟧ = healing
+⟦153⟧ = her vocal work
+⟦154⟧ = Herzegovina
+⟦155⟧ = his supporters
+⟦156⟧ = historical skepticism
+⟦157⟧ = ideals
+⟦158⟧ = ideas
+⟦159⟧ = industry
+⟦160⟧ = instituational racial prejudice
+⟦161⟧ = interpretation
+⟦162⟧ = interviewer
+⟦163⟧ = Isepp
+⟦164⟧ = Islam and Free Market
+⟦165⟧ = Islam's connection
+⟦166⟧ = Izumi
+⟦167⟧ = J-pop female band
+⟦168⟧ = Japan
+⟦169⟧ = Juliet Weber
+⟦170⟧ = July
+⟦171⟧ = Kagoshima
+⟦172⟧ = Katz
+⟦173⟧ = Keiko
+⟦174⟧ = Keiko Utoku
+⟦175⟧ = King Electric
+⟦176⟧ = knell
+⟦177⟧ = La Plata Peak
+⟦178⟧ = label
+⟦179⟧ = lead
+⟦180⟧ = length
+⟦181⟧ = liberalism
+⟦182⟧ = libertarian ideals
+⟦183⟧ = libertarian ideas
+⟦184⟧ = list
+⟦185⟧ = listeners
+⟦186⟧ = Lizard Head
+⟦187⟧ = lot
+⟦188⟧ = Many mountain features
+⟦189⟧ = many peaks
+⟦190⟧ = many songs
+⟦191⟧ = March
+⟦192⟧ = margin
+⟦193⟧ = May
+⟦194⟧ = mayor
+⟦195⟧ = Member
+⟦196⟧ = members
+⟦197⟧ = memoirs
+⟦198⟧ = Mi-Ke
+⟦199⟧ = Middle Teton
+⟦200⟧ = mini
+⟦201⟧ = Mnet’s “M
+⟦202⟧ = Momoe Yamaguchi
+⟦203⟧ = months
+⟦204⟧ = more than two thousand former slaves
+⟦205⟧ = mountain
+⟦206⟧ = mountaineer
+⟦207⟧ = mountaineers
+⟦208⟧ = Multi
+⟦209⟧ = music
+⟦210⟧ = narratives
+⟦211⟧ = nation
+⟦212⟧ = noise
+⟦213⟧ = November
+⟦214⟧ = office
+⟦215⟧ = officer
+⟦216⟧ = one slave
+⟦217⟧ = OPEN Fest
+⟦218⟧ = opening
+⟦219⟧ = opportunity
+⟦220⟧ = organization
+⟦221⟧ = Parliament
+⟦222⟧ = part
+⟦223⟧ = peaks
+⟦224⟧ = personal memoirs
+⟦225⟧ = Peter Hartwig
+⟦226⟧ = point
+⟦227⟧ = politician
+⟦228⟧ = polls
+⟦229⟧ = pop
+⟦230⟧ = power
+⟦231⟧ = prediction
+⟦232⟧ = prejudice
+⟦233⟧ = producer
+⟦234⟧ = Project
+⟦235⟧ = race
+⟦236⟧ = re
+⟦237⟧ = recent dates
+⟦238⟧ = release
+⟦239⟧ = Republican challenger Sam Katz
+⟦240⟧ = result
+⟦241⟧ = retribution
+⟦242⟧ = Ripon
+⟦243⟧ = routes
+⟦244⟧ = Salzburg
+⟦245⟧ = scene
+⟦246⟧ = Secret Garden
+⟦247⟧ = Sevastopol
+⟦248⟧ = Shinsadong Tiger
+⟦249⟧ = singer
+⟦250⟧ = singles
+⟦251⟧ = six-member group
+⟦252⟧ = skepticism
+⟦253⟧ = slave
+⟦254⟧ = slave narratives
+⟦255⟧ = slaves
+⟦256⟧ = songs
+⟦257⟧ = songwriter
+⟦258⟧ = Sonic the Hedgehog fans
+⟦259⟧ = Sonic's vocals
+⟦260⟧ = South Korean girl group Apink
+⟦261⟧ = southern Colorado
+⟦262⟧ = Spring
+⟦263⟧ = stage
+⟦264⟧ = stories
+⟦265⟧ = Street
+⟦266⟧ = studio
+⟦267⟧ = supporters
+⟦268⟧ = Taku Forts
+⟦269⟧ = teacher
+⟦270⟧ = techno
+⟦271⟧ = terms
+⟦272⟧ = The "Master
+⟦273⟧ = the 14 Eight-thousanders Austrians
+⟦274⟧ = the 1930s
+⟦275⟧ = the 2003 Philadelphia mayoral race
+⟦276⟧ = the Admiralty
+⟦277⟧ = the album
+⟦278⟧ = the Basket Boys
+⟦279⟧ = the Battle
+⟦280⟧ = The book
+⟦281⟧ = the campaign
+⟦282⟧ = the Congress
+⟦283⟧ = the Crimean War
+⟦284⟧ = the defence
+⟦285⟧ = the Director
+⟦286⟧ = The discovery
+⟦287⟧ = The documentary
+⟦288⟧ = the Edelweiss Club Salzburg
+⟦289⟧ = the election
+⟦290⟧ = the Ellingwood Arete ascent
+⟦291⟧ = the Ellingwood Ridge
+⟦292⟧ = the emotions
+⟦293⟧ = the end
+⟦294⟧ = the everyday activities
+⟦295⟧ = the Federal Writers' Project
+⟦296⟧ = the film industry
+⟦297⟧ = the first ascent
+⟦298⟧ = the first half
+⟦299⟧ = the first non-profit organization
+⟦300⟧ = the First Opium War
+⟦301⟧ = the Fleet Lord John Hay
+⟦302⟧ = the fourteener Ellingwood Point
+⟦303⟧ = the game
+⟦304⟧ = the ideas
+⟦305⟧ = the interviewer
+⟦306⟧ = the listeners’ eyes
+⟦307⟧ = the Marquis
+⟦308⟧ = the mayor’s office
+⟦309⟧ = the Mediterranean
+⟦310⟧ = the Naval Brigade
+⟦311⟧ = the official release
+⟦312⟧ = the opportunity
+⟦313⟧ = the original conversation
+⟦314⟧ = the original version
+⟦315⟧ = the Philadelphia Film Festival
+⟦316⟧ = the Republican-controlled federal government
+⟦317⟧ = the Rocky Mountains
+⟦318⟧ = the San Juan Mountains
+⟦319⟧ = the Sangre de Cristo Range
+⟦320⟧ = the Sawatch Range
+⟦321⟧ = the Second Opium War
+⟦322⟧ = The Shame
+⟦323⟧ = the Siege
+⟦324⟧ = The slave narratives
+⟦325⟧ = the slaves
+⟦326⟧ = the Sonic CD video game's opening and closing themes
+⟦327⟧ = the stories
+⟦328⟧ = the Street campaign
+⟦329⟧ = The theme
+⟦330⟧ = the third mini
+⟦331⟧ = the title track “NoNoNo
+⟦332⟧ = the total
+⟦333⟧ = the twentieth century
+⟦334⟧ = the well known noise-pop band
+⟦335⟧ = the western United States
+⟦336⟧ = the WPA Slave Narrative Collection
+⟦337⟧ = their first musical attempts
+⟦338⟧ = their first official release
+⟦339⟧ = their last album
+⟦340⟧ = theme
+⟦341⟧ = themes
+⟦342⟧ = This HBO film interpretation
+⟦343⟧ = this prediction
+⟦344⟧ = this predominantly Democratic city
+⟦345⟧ = Thomas Lennon
+⟦346⟧ = thousanders
+⟦347⟧ = title
+⟦348⟧ = total
+⟦349⟧ = trade
+⟦350⟧ = Tuzla
+⟦351⟧ = UK Sweet label
+⟦352⟧ = Unchained Memories
+⟦353⟧ = Unee Anee
+⟦354⟧ = Utoku
+⟦355⟧ = version
+⟦356⟧ = victory
+⟦357⟧ = video
+⟦358⟧ = Viennese techno scene
+⟦359⟧ = vocals
+⟦360⟧ = Wasurenagusa
+⟦361⟧ = Wick
+⟦362⟧ = William Gladstone's Liberal Government
+⟦363⟧ = work
+⟦364⟧ = writer
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Keiko Utoku] ⟦174⟧⟨1⟩⟦18⟧⟨2⟩⟦19⟧⟨3⟩⟦166⟧⟨4⟩⟦171⟧⟨5⟩⟦168⟧⟨6⟩⟦27⟧⟨7⟩⟦249⟧⟨8⟩⟦257⟧⟨9⟩⟦257⟧⟨10⟩⟦351⟧⟨11⟩⟦178⟧⟨12⟩⟦173⟧⟨13⟩⟦139⟧⟨14⟩⟦99⟧⟨15⟩⟦81⟧⟨16⟩⟦82⟧⟨17⟩⟦222⟧⟨18⟩⟦65⟧⟨19⟩⟦66⟧⟨20⟩⟦64⟧⟨21⟩⟦167⟧⟨22⟩⟦65⟧⟨23⟩⟦198⟧⟨24⟩⟦39⟧⟨25⟩⟦75⟧⟨26⟩
+[Keiko Utoku] ⟨27⟩⟦22⟧⟨28⟩⟦80⟧⟨29⟩⟦354⟧⟨30⟩⟦29⟧⟨31⟩⟦187⟧⟨32⟩⟦209⟧⟨33⟩⟦209⟧⟨34⟩⟦209⟧⟨35⟩⟦209⟧⟨36⟩⟦202⟧⟨37⟩
+[Keiko Utoku] ⟨38⟩⟦190⟧⟨39⟩⟦256⟧⟨40⟩⟦360⟧⟨41⟩⟦258⟧⟨42⟩⟦127⟧⟨43⟩⟦153⟧⟨44⟩⟦363⟧⟨45⟩⟦314⟧⟨46⟩⟦355⟧⟨47⟩⟦326⟧⟨48⟩⟦77⟧⟨49⟩⟦357⟧⟨50⟩⟦145⟧⟨51⟩⟦218⟧⟨52⟩⟦85⟧⟨53⟩⟦341⟧⟨54⟩⟦168⟧⟨55⟩⟦124⟧⟨56⟩⟦3⟧⟨57⟩⟦122⟧⟨58⟩
+[Keiko Utoku] ⟨59⟩⟦45⟧⟨60⟩⟦45⟧⟨61⟩⟦259⟧⟨62⟩⟦359⟧⟨63⟩⟦303⟧⟨64⟩⟦145⟧⟨65⟩
+[Keiko Utoku] ⟨66⟩⟦237⟧⟨67⟩⟦95⟧⟨68⟩⟦9⟧⟨69⟩⟦250⟧⟨70⟩⟦16⟧⟨71⟩⟦250⟧⟨72⟩⟦15⟧⟨73⟩⟦266⟧⟨74⟩⟦49⟧⟨75⟩⟦6⟧⟨76⟩⟦200⟧⟨77⟩⟦12⟧⟨78⟩⟦49⟧⟨79⟩
+[Juliet Weber] ⟦169⟧⟨80⟩⟦34⟧⟨81⟩⟦233⟧⟨82⟩⟦103⟧⟨83⟩⟦103⟧⟨84⟩⟦364⟧⟨85⟩⟦364⟧⟨86⟩⟦52⟧⟨87⟩⟦114⟧⟨88⟩⟦296⟧⟨89⟩⟦132⟧⟨90⟩⟦159⟧⟨91⟩
+[Juliet Weber] ⟨92⟩⟦1⟧⟨93⟩⟦134⟧⟨94⟩⟦128⟧⟨95⟩⟦352⟧⟨96⟩
+[The Shame of a City] ⟦322⟧⟨97⟩⟦23⟧⟨98⟩⟦21⟧⟨99⟩⟦129⟧⟨100⟩⟦180⟧⟨101⟩⟦105⟧⟨102⟩⟦315⟧⟨103⟩
+[The Shame of a City] ⟦133⟧⟨104⟩⟦275⟧⟨105⟩⟦235⟧⟨106⟩⟦102⟧⟨107⟩⟦194⟧⟨108⟩⟦239⟧⟨109⟩⟦79⟧⟨110⟩
+[The Shame of a City] ⟦107⟧⟨111⟩⟦228⟧⟨112⟩⟦172⟧⟨113⟩⟦38⟧⟨114⟩⟦179⟧⟨115⟩⟦344⟧⟨116⟩⟦84⟧⟨117⟩⟦97⟧⟨118⟩⟦289⟧⟨119⟩⟦116⟧⟨120⟩⟦53⟧⟨121⟩⟦73⟧⟨122⟩⟦308⟧⟨123⟩⟦194⟧⟨124⟩⟦214⟧⟨125⟩
+[The Shame of a City] ⟦286⟧⟨126⟩⟦104⟧⟨127⟩⟦25⟧⟨128⟩⟦98⟧⟨129⟩⟦176⟧⟨130⟩⟦328⟧⟨131⟩⟦74⟧⟨132⟩⟦30⟧⟨133⟩⟦356⟧⟨134⟩⟦172⟧⟨135⟩
+[The Shame of a City] ⟨136⟩⟦343⟧⟨137⟩⟦231⟧⟨138⟩⟦265⟧⟨139⟩⟦155⟧⟨140⟩⟦267⟧⟨141⟩⟦281⟧⟨142⟩⟦74⟧⟨143⟩⟦41⟧⟨144⟩⟦41⟧⟨145⟩⟦160⟧⟨146⟩⟦232⟧⟨147⟩⟦156⟧⟨148⟩⟦252⟧⟨149⟩⟦316⟧⟨150⟩⟦148⟧⟨151⟩
+[The Shame of a City] ⟨152⟩⟦35⟧⟨153⟩⟦240⟧⟨154⟩⟦265⟧⟨155⟩⟦236⟧⟨156⟩⟦236⟧⟨157⟩⟦116⟧⟨158⟩⟦116⟧⟨159⟩⟦37⟧⟨160⟩⟦226⟧⟨161⟩⟦192⟧⟨162⟩
+[Lord John Hay (Royal Navy officer, born 1827)] ⟨163⟩⟦301⟧⟨164⟩⟦146⟧⟨165⟩⟦14⟧⟨166⟩⟦193⟧⟨167⟩⟦36⟧⟨168⟩⟦215⟧⟨169⟩⟦227⟧⟨170⟩⟦227⟧⟨171⟩
+[Lord John Hay (Royal Navy officer, born 1827)] ⟨172⟩⟦42⟧⟨173⟩⟦42⟧⟨174⟩⟦300⟧⟨175⟩⟦310⟧⟨176⟩⟦222⟧⟨177⟩⟦222⟧⟨178⟩⟦284⟧⟨179⟩⟦101⟧⟨180⟩⟦123⟧⟨181⟩⟦213⟧⟨182⟩⟦323⟧⟨183⟩⟦247⟧⟨184⟩⟦262⟧⟨185⟩⟦283⟧⟨186⟩
+[Lord John Hay (Royal Navy officer, born 1827)] ⟨187⟩⟦222⟧⟨188⟩⟦222⟧⟨189⟩⟦279⟧⟨190⟩⟦268⟧⟨191⟩⟦62⟧⟨192⟩⟦321⟧⟨193⟩
+[Lord John Hay (Royal Navy officer, born 1827)] ⟨194⟩⟦33⟧⟨195⟩⟦227⟧⟨196⟩⟦195⟧⟨197⟩⟦221⟧⟨198⟩⟦361⟧⟨199⟩⟦242⟧⟨200⟩
+[Lord John Hay (Royal Navy officer, born 1827)] ⟨201⟩⟦309⟧⟨202⟩⟦170⟧⟨203⟩⟦90⟧⟨204⟩⟦90⟧⟨205⟩⟦94⟧⟨206⟩⟦40⟧⟨207⟩⟦40⟧⟨208⟩⟦100⟧⟨209⟩⟦100⟧⟨210⟩⟦282⟧⟨211⟩⟦67⟧⟨212⟩
+[Lord John Hay (Royal Navy officer, born 1827)] ⟨213⟩⟦26⟧⟨214⟩⟦55⟧⟨215⟩⟦141⟧⟨216⟩⟦191⟧⟨217⟩⟦307⟧⟨218⟩⟦242⟧⟨219⟩⟦140⟧⟨220⟩⟦276⟧⟨221⟩⟦203⟧⟨222⟩⟦362⟧⟨223⟩⟦230⟧⟨224⟩⟦230⟧⟨225⟩⟦62⟧⟨226⟩
+[Admir Čavalić] ⟦46⟧⟨227⟩⟦285⟧⟨228⟩⟦59⟧⟨229⟩⟦5⟧⟨230⟩⟦31⟧⟨231⟩⟦220⟧⟨232⟩⟦182⟧⟨233⟩⟦157⟧⟨234⟩⟦71⟧⟨235⟩⟦154⟧⟨236⟩
+[Admir Čavalić] ⟨237⟩⟦208⟧⟨238⟩⟦299⟧⟨239⟩⟦220⟧⟨240⟩⟦71⟧⟨241⟩⟦154⟧⟨242⟩⟦183⟧⟨243⟩⟦158⟧⟨244⟩
+[Admir Čavalić] ⟦76⟧⟨245⟩⟦285⟧⟨246⟩⟦103⟧⟨247⟩⟦217⟧⟨248⟩⟦68⟧⟨249⟩⟦131⟧⟨250⟩⟦124⟧⟨251⟩
+[Admir Čavalić] ⟦76⟧⟨252⟩⟦126⟧⟨253⟩⟦111⟧⟨254⟩⟦350⟧⟨255⟩⟦50⟧⟨256⟩⟦269⟧⟨257⟩
+[Admir Čavalić] ⟦76⟧⟨258⟩⟦106⟧⟨259⟩⟦164⟧⟨260⟩
+[Admir Čavalić] ⟦280⟧⟨261⟩⟦70⟧⟨262⟩⟦72⟧⟨263⟩⟦56⟧⟨264⟩⟦56⟧⟨265⟩⟦165⟧⟨266⟩⟦89⟧⟨267⟩⟦304⟧⟨268⟩⟦158⟧⟨269⟩⟦109⟧⟨270⟩⟦181⟧⟨271⟩
+[Admir Čavalić] ⟦76⟧⟨272⟩⟦137⟧⟨273⟩⟦105⟧⟨274⟩⟦110⟧⟨275⟩⟦110⟧⟨276⟩⟦4⟧⟨277⟩⟦112⟧⟨278⟩
+[Unchained Memories] ⟦352⟧⟨279⟩⟦20⟧⟨280⟩⟦105⟧⟨281⟩⟦132⟧⟨282⟩⟦327⟧⟨283⟩⟦264⟧⟨284⟩⟦143⟧⟨285⟩⟦255⟧⟨286⟩⟦274⟧⟨287⟩⟦10⟧⟨288⟩⟦222⟧⟨289⟩⟦222⟧⟨290⟩⟦295⟧⟨291⟩⟦234⟧⟨292⟩⟦336⟧⟨293⟩
+[Unchained Memories] ⟦342⟧⟨294⟩⟦132⟧⟨295⟩⟦161⟧⟨296⟩⟦113⟧⟨297⟩⟦345⟧⟨298⟩⟦24⟧⟨299⟩⟦88⟧⟨300⟩⟦253⟧⟨301⟩⟦254⟧⟨302⟩⟦210⟧⟨303⟩⟦44⟧⟨304⟩⟦44⟧⟨305⟩⟦313⟧⟨306⟩⟦91⟧⟨307⟩⟦305⟧⟨308⟩⟦162⟧⟨309⟩
+[Unchained Memories] ⟦324⟧⟨310⟩⟦253⟧⟨311⟩⟦210⟧⟨312⟩⟦271⟧⟨313⟩⟦271⟧⟨314⟩⟦294⟧⟨315⟩⟦43⟧⟨316⟩⟦224⟧⟨317⟩⟦197⟧⟨318⟩⟦204⟧⟨319⟩⟦255⟧⟨320⟩
+[Unchained Memories] ⟦287⟧⟨321⟩⟦105⟧⟨322⟩⟦292⟧⟨323⟩⟦120⟧⟨324⟩⟦325⟧⟨325⟩⟦255⟧⟨326⟩
+[Unchained Memories] ⟦272⟧⟨327⟩⟦312⟧⟨328⟩⟦219⟧⟨329⟩⟦349⟧⟨330⟩⟦241⟧⟨331⟩⟦241⟧⟨332⟩⟦216⟧⟨333⟩⟦253⟧⟨334⟩
+[List of Austrian mountain climbers] ⟨335⟩⟦28⟧⟨336⟩⟦184⟧⟨337⟩⟦63⟧⟨338⟩⟦207⟧⟨339⟩
+[List of Austrian mountain climbers] ⟨340⟩⟦273⟧⟨341⟩⟦346⟧⟨342⟩⟦297⟧⟨343⟩⟦57⟧⟨344⟩⟦54⟧⟨345⟩⟦211⟧⟨346⟩
+[List of Austrian mountain climbers] ⟨347⟩⟦332⟧⟨348⟩⟦348⟧⟨349⟩⟦17⟧⟨350⟩⟦207⟧⟨351⟩⟦135⟧⟨352⟩⟦58⟧⟨353⟩⟦115⟧⟨354⟩⟦346⟧⟨355⟩⟦196⟧⟨356⟩⟦196⟧⟨357⟩⟦288⟧⟨358⟩⟦51⟧⟨359⟩⟦59⟧⟨360⟩⟦207⟧⟨361⟩⟦207⟧⟨362⟩⟦244⟧⟨363⟩
+[Secret Garden (EP)] ⟦246⟧⟨364⟩⟦330⟧⟨365⟩⟦200⟧⟨366⟩⟦48⟧⟨367⟩⟦48⟧⟨368⟩⟦260⟧⟨369⟩⟦147⟧⟨370⟩⟦149⟧⟨371⟩⟦170⟧⟨372⟩
+[Secret Garden (EP)] ⟨373⟩⟦338⟧⟨374⟩⟦238⟧⟨375⟩⟦251⟧⟨376⟩⟦195⟧⟨377⟩⟦149⟧⟨378⟩⟦8⟧⟨379⟩⟦203⟧⟨380⟩⟦339⟧⟨381⟩⟦48⟧⟨382⟩⟦353⟧⟨383⟩⟦2⟧⟨384⟩⟦193⟧⟨385⟩
+[Secret Garden (EP)] ⟨386⟩⟦138⟧⟨387⟩⟦87⟧⟨388⟩⟦263⟧⟨389⟩⟦201⟧⟨390⟩
+[Secret Garden (EP)] ⟦92⟧⟨391⟩⟦96⟧⟨392⟩⟦311⟧⟨393⟩⟦238⟧⟨394⟩
+[Secret Garden (EP)] ⟦329⟧⟨395⟩⟦340⟧⟨396⟩⟦277⟧⟨397⟩⟦48⟧⟨398⟩⟦152⟧⟨399⟩⟦152⟧⟨400⟩⟦306⟧⟨401⟩⟦185⟧⟨402⟩⟦125⟧⟨403⟩⟦108⟧⟨404⟩⟦108⟧⟨405⟩
+[Secret Garden (EP)] ⟦277⟧⟨406⟩⟦48⟧⟨407⟩⟦142⟧⟨408⟩⟦256⟧⟨409⟩⟦331⟧⟨410⟩⟦347⟧⟨411⟩⟦248⟧⟨412⟩
+[Albert R. Ellingwood] ⟦47⟧⟨413⟩⟦13⟧⟨414⟩⟦7⟧⟨415⟩⟦32⟧⟨416⟩⟦206⟧⟨417⟩⟦335⟧⟨418⟩⟦298⟧⟨419⟩⟦150⟧⟨420⟩⟦333⟧⟨421⟩⟦78⟧⟨422⟩
+[Albert R. Ellingwood] ⟨423⟩⟦135⟧⟨424⟩⟦58⟧⟨425⟩⟦189⟧⟨426⟩⟦223⟧⟨427⟩⟦243⟧⟨428⟩⟦243⟧⟨429⟩⟦317⟧⟨430⟩⟦86⟧⟨431⟩⟦186⟧⟨432⟩⟦318⟧⟨433⟩⟦119⟧⟨434⟩⟦177⟧⟨435⟩⟦320⟧⟨436⟩⟦93⟧⟨437⟩⟦319⟧⟨438⟩
+[Albert R. Ellingwood] ⟦188⟧⟨439⟩⟦205⟧⟨440⟩⟦130⟧⟨441⟩⟦223⟧⟨442⟩⟦223⟧⟨443⟩⟦199⟧⟨444⟩⟦118⟧⟨445⟩⟦297⟧⟨446⟩⟦57⟧⟨447⟩⟦291⟧⟨448⟩⟦177⟧⟨449⟩⟦290⟧⟨450⟩⟦57⟧⟨451⟩⟦93⟧⟨452⟩⟦302⟧⟨453⟩⟦144⟧⟨454⟩⟦69⟧⟨455⟩⟦261⟧⟨456⟩
+[King Electric] ⟦175⟧⟨457⟩⟦83⟧⟨458⟩⟦225⟧⟨459⟩
+[King Electric] ⟨460⟩⟦337⟧⟨461⟩⟦60⟧⟨462⟩⟦293⟧⟨463⟩⟦121⟧⟨464⟩⟦11⟧⟨465⟩⟦11⟧⟨466⟩⟦358⟧⟨467⟩⟦270⟧⟨468⟩⟦245⟧⟨469⟩
+[King Electric] ⟨470⟩⟦151⟧⟨471⟩⟦334⟧⟨472⟩⟦212⟧⟨473⟩⟦229⟧⟨474⟩⟦65⟧⟨475⟩⟦278⟧⟨476⟩⟦163⟧⟨477⟩⟦136⟧⟨478⟩⟦61⟧⟨479⟩⟦117⟧⟨480⟩⟦233⟧⟨481⟩
+
+[user]
+
+问题：
+Which documentary was made first, The Shame of a City or Unchained Memories?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

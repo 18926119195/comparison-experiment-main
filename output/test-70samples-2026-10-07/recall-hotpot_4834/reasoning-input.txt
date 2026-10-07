@@ -1,0 +1,95 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Ben Keaton] ⟦49⟧⟨153⟩⟦34⟧⟨154⟩⟨155⟩⟦110⟧⟨156⟩⟦108⟧⟦155⟧⟨158⟩⟦129⟧⟨157⟩⟨159⟩⟦1⟧⟨160⟩
+[Ben Keaton] ⟨161⟩⟦48⟧⟦60⟧⟨162⟩⟨163⟩⟦182⟧⟨164⟩⟨165⟩⟦158⟧⟨166⟩
+[Ben Keaton] ⟨167⟩⟦88⟧⟨168⟩⟦32⟧⟦84⟧⟨169⟩⟨170⟩⟦171⟧⟦154⟧⟨171⟩⟨172⟩⟦89⟧⟨173⟩
+[Ben Keaton] ⟦133⟧ | ⟨174⟩⟦26⟧⟦133⟧⟨175⟩⟨176⟩⟦169⟧⟨177⟩⟨178⟩⟨179⟩⟨180⟩⟦22⟧⟦137⟧⟨181⟩⟨182⟩
+[Ayub Khan-Din] ⟦29⟧ | ⟦77⟧⟦77⟧
+[Idiot (1992 film)] ⟦90⟧
+
+符号表：
+⟦1⟧ = "Emmerdale
+⟦22⟧ = a priest
+⟦26⟧ = a small part
+⟦29⟧ = actor
+⟦32⟧ = an episode
+⟦34⟧ = an Irish actor
+⟦48⟧ = BBC's "Casualty
+⟦49⟧ = Ben Keaton
+⟦60⟧ = Casualty
+⟦77⟧ = East
+⟦84⟧ = episode
+⟦88⟧ = Father Austin Purcell
+⟦89⟧ = Father Ted
+⟦90⟧ = film
+⟦108⟧ = ITV soap opera
+⟦110⟧ = Jeff Brannigan
+⟦129⟧ = opera
+⟦133⟧ = part
+⟦137⟧ = priest
+⟦154⟧ = sitcom
+⟦155⟧ = soap
+⟦158⟧ = Spencer
+⟦169⟧ = the British film
+⟦171⟧ = the Channel 4's sitcom
+⟦182⟧ = the part
+
+占位符映射：
+⟨153⟩ =  (born 1956) is 
+⟨154⟩ = 
+⟨155⟩ =  who appeared as 
+⟨156⟩ =  in 
+⟨157⟩ = 
+⟨158⟩ =  
+⟨159⟩ =  
+⟨160⟩ = ".
+⟨161⟩ =  He appeared in 
+⟨162⟩ = 
+⟨163⟩ = " playing 
+⟨164⟩ = 
+⟨165⟩ =  of 
+⟨166⟩ =  between 1999-2002.
+⟨167⟩ =  He guest starred as 
+⟨168⟩ =  in "Think Fast, Father Ted", 
+⟨169⟩ = 
+⟨170⟩ =  of 
+⟨171⟩ = 
+⟨172⟩ =  "
+⟨173⟩ = ".
+⟨174⟩ =  He had 
+⟨175⟩ = 
+⟨176⟩ =  in 
+⟨177⟩ = 
+⟨178⟩ =  "
+⟨179⟩ =  is 
+⟨180⟩ = " as 
+⟨181⟩ = 
+⟨182⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What role did Ben Keaton play in the british film East is East written by Ayub Khan-Din?

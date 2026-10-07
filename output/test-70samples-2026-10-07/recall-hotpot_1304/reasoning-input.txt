@@ -1,0 +1,99 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Cars 2] ⟨146⟩⟨147⟩⟦12⟧⟨149⟩⟦29⟧⟨150⟩⟦71⟧⟨151⟩⟦210⟧⟨152⟩⟨148⟩⟨153⟩⟦178⟧⟨154⟩⟦275⟧
+[Cars 2] ⟦60⟧⟦60⟧
+[The Polar Bears] ⟦76⟧
+[Moana (soundtrack)] ⟦157⟧⟨215⟩⟦169⟧⟨216⟩⟨217⟩⟨218⟩⟦222⟧⟨219⟩⟨220⟩⟦3⟧
+[Moana (soundtrack)] ⟦254⟧⟦209⟧ | ⟦254⟧⟦209⟧⟨222⟩⟨223⟩⟦276⟧⟨224⟩⟦165⟧
+[Moana (soundtrack)] ⟨226⟩⟨227⟩⟨228⟩⟨229⟩⟦147⟧⟨230⟩⟦168⟧⟨231⟩⟨232⟩⟨233⟩⟦98⟧⟨234⟩⟦197⟧⟨235⟩⟦266⟧⟨236⟩⟦271⟧⟨237⟩
+[Cabinet Battle] ⟦144⟧⟦144⟧
+[Illmind] ⟦101⟧ | ⟦101⟧ | ⟦139⟧
+[Illmind] ⟦206⟧⟦206⟧
+
+符号表：
+⟦3⟧ = "Moana
+⟦12⟧ = a 2011 American computer-animated action comedy spy film
+⟦29⟧ = action
+⟦60⟧ = Cars
+⟦71⟧ = comedy
+⟦76⟧ = computer
+⟦98⟧ = English
+⟦101⟧ = film
+⟦139⟧ = Lin-Manuel Miranda
+⟦144⟧ = lyrics
+⟦147⟧ = Mark Mancina
+⟦157⟧ = Moana
+⟦165⟧ = November
+⟦168⟧ = Opetaia Foa'i
+⟦169⟧ = Original Motion Picture Soundtrack
+⟦178⟧ = Pixar Animation Studios
+⟦197⟧ = Samoan
+⟦206⟧ = songs
+⟦209⟧ = soundtrack
+⟦210⟧ = spy
+⟦222⟧ = the 2016 Disney animated film
+⟦254⟧ = the soundtrack
+⟦266⟧ = Tokelauan
+⟦271⟧ = Tuvalu
+⟦275⟧ = Walt Disney Pictures
+⟦276⟧ = Walt Disney Records
+
+占位符映射：
+⟨146⟩ = 
+⟨147⟩ =  2 is 
+⟨148⟩ = 
+⟨149⟩ = -animated 
+⟨150⟩ =  
+⟨151⟩ =  
+⟨152⟩ =  
+⟨153⟩ =  produced by 
+⟨154⟩ =  for 
+⟨215⟩ = : 
+⟨216⟩ =  is 
+⟨217⟩ = 
+⟨218⟩ =  to 
+⟨219⟩ = 
+⟨220⟩ =  
+⟨222⟩ = 
+⟨223⟩ =  was released by 
+⟨224⟩ =  on 
+⟨226⟩ =  It features 
+⟨227⟩ = 
+⟨228⟩ =  written by 
+⟨229⟩ = , 
+⟨230⟩ =  and 
+⟨231⟩ = , with 
+⟨232⟩ = 
+⟨233⟩ =  in 
+⟨234⟩ = , 
+⟨235⟩ = , 
+⟨236⟩ = , and 
+⟨237⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Was Cars 2 released by the same company which used songs written by Lin-Manuel Miranda in another of its movies?

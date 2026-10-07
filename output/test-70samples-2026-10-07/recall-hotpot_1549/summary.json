@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_1549",
+  "question": "What is the nationality of the wrestler who sang on A Jingle with Jillian?",
+  "expectedAnswer": "American",
+  "predictedAnswer": "# 路径一：直接身份链推理\n\n步骤1：使用⟦25⟧，提取\"A Jingle with Jillian\"是一条音乐作品（A Jingle），其标题中包含\"Jillian\"这一人名。\n\n步骤2：综合⟦150⟧⟦325⟧，提取\"Jillian\"与\"WWE female wrestler Jillian\"相关联，判断演唱者身份为WWE女摔角手Jillian。\n\n步骤3：使用⟦151⟧，提取\"Jillian Faye Hall\"的全名信息，并结合⟦340⟧⟨342⟩中的\"is an American\"，判断其国籍为美国。\n\n结论：演唱\"A Jingle with Jillian\"的摔角手国籍为美国（American）。\n\n---\n\n# 路径二：交叉验证——同名人物辨析\n\n步骤1：综合⟦151⟧⟦191⟧⟦7⟧，提取\"Jillian Faye Hall\"又名\"née Fletcher\"，是一位美国籍人物。\n\n步骤2：综合⟦323⟧⟦152⟧⟦22⟧，提取\"Jillian Gallays\"是\"a female wrestler\"，与\"Jillian Hall\"为不同人物，需区分。\n\n步骤3：综合⟦325⟧⟦150⟧⟦25⟧，确认\"A Jingle with Jillian\"中的\"Jillian\"指向\"WWE female wrestler Jillian\"，即Jillian Hall而非Jillian Gallays。\n\n步骤4：使用⟦151⟧⟦340⟧⟨342⟩，提取Jillian Hall的国籍信息为\"American\"。\n\n结论：通过辨析同名人物，确认演唱者为Jillian Hall，其国籍为美国。\n\n---\n\n# 路径三：音乐作品属性与人物关联推理\n\n步骤1：综合⟦25⟧⟦54⟧⟦206⟧⟦112⟧，提取\"A Jingle with Jillian\"是一条\"Extended play\"（EP），属于音乐作品。\n\n步骤2：使用⟦325⟧，提取\"WWE female wrestler Jillian\"这一描述，判断该EP的演唱者与WWE女摔角手Jillian为同一人。\n\n步骤3：综合⟦151⟧⟦340⟧⟨342⟩，提取该摔角手全名Jillian Faye Hall，国籍为American。\n\n结论：A Jingle with Jillian的演唱者为WWE摔角手Jillian Hall，国籍为美国。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦25⟧⟨343⟩⟦150⟧⟨344⟩⟦54⟧⟦206⟧⟨345⟩⟨346⟩⟦112⟧⟨347⟩⟦325⟧⟨349⟩",
+  "nounCount": 435,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7311,
+    "completion_tokens": 114,
+    "total_tokens": 7425,
+    "prompt_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "prompt_cache_hit_tokens": 7168,
+    "prompt_cache_miss_tokens": 143
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 594,
+    "completion_tokens": 516,
+    "total_tokens": 1110,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 594
+  }
+}

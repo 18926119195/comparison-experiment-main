@@ -1,0 +1,82 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Achel Brewery] ⟦21⟧⟨160⟩⟦35⟧⟦44⟧⟨162⟩⟨161⟩⟦8⟧⟨163⟩⟨164⟩⟦107⟧⟨165⟩⟨166⟩
+[Achel Brewery] ⟨167⟩⟨168⟩⟦92⟧⟨169⟩⟦105⟧⟨170⟩⟨171⟩⟨172⟩
+[Achel Brewery] ⟨173⟩⟦50⟧⟦28⟧⟨174⟩⟨175⟩
+[Trappist beer] ⟦142⟧⟨176⟩⟨177⟩⟦7⟧⟨178⟩⟨179⟩⟦143⟧⟨180⟩⟨181⟩
+[Trappist beer] ⟦27⟧⟦27⟧
+[St. Joseph's Abbey, Massachusetts] ⟦33⟧ | ⟦102⟧
+[Hamont-Achel] ⟦55⟧
+[Hamont-Achel] ⟦32⟧ | ⟦78⟧ | ⟦32⟧
+
+符号表：
+⟦7⟧ = a beer
+⟦8⟧ = a Belgian Trappist brewery
+⟦21⟧ = Achel Brewery
+⟦27⟧ = beer
+⟦28⟧ = beers
+⟦32⟧ = breweries
+⟦33⟧ = brewery
+⟦35⟧ = Brouwerij der Sint-Benedictusabdij de Achelse Kluis
+⟦44⟧ = der
+⟦50⟧ = five Trappist beers
+⟦55⟧ = Hamont-Achel
+⟦78⟧ = municipality
+⟦92⟧ = Saint Benedict
+⟦102⟧ = the Abbey
+⟦105⟧ = the Belgian municipality
+⟦107⟧ = the Belgian Trappist breweries
+⟦142⟧ = Trappist beer
+⟦143⟧ = Trappist breweries
+
+占位符映射：
+⟨160⟩ =  or 
+⟨161⟩ = 
+⟨162⟩ =  Sint-Benedictusabdij de Achelse Kluis is 
+⟨163⟩ = 
+⟨164⟩ = , and the smallest of 
+⟨165⟩ = 
+⟨166⟩ = .
+⟨167⟩ =  It is located in 
+⟨168⟩ =  of 
+⟨169⟩ =  in 
+⟨170⟩ = 
+⟨171⟩ =  of 
+⟨172⟩ = .
+⟨173⟩ =  It brews 
+⟨174⟩ = 
+⟨175⟩ = .
+⟨176⟩ = 
+⟨177⟩ =  is 
+⟨178⟩ = 
+⟨179⟩ =  brewed by 
+⟨180⟩ = 
+⟨181⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The Trappist Abbey of Achel produces and sells what as an "Authentic Trappist Product"?

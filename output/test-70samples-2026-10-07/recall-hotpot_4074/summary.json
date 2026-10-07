@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_4074",
+  "question": "Which dog breed is NOT recognized by the Fédération Cynologique Internationale (FCI), the Korean Jindo or the Taigan?",
+  "expectedAnswer": "Taigan",
+  "predictedAnswer": "# 路径一：基于FCI认可状态的直接对比\n\n步骤1：使用⟦168⟧，提取The Taigan的基本信息——它是一种sighthound breed，来自Kyrgyzstan，其FCI认可状态在材料中被明确标注为“not yet recognized by ⟦84⟧”，即尚未被FCI认可。\n\n步骤2：使用⟦152⟧，提取The Korean Jindo的基本信息——它是一种来自South Korea的犬种，材料⟦149⟧明确指出“The Jindo breed became recognized by the United Kennel Club on January 1, 1998”，但未提及FCI认可。\n\n步骤3：综合⟦168⟧⟦152⟧，对比两者的认可状态：Taigan明确标注“not yet recognized by FCI”，而Korean Jindo的材料中未出现FCI认可信息，但⟦149⟧显示其已被UKC认可。\n\n结论：Taigan未被FCI认可，而Korean Jindo的FCI认可状态在材料中未明确否定，因此答案是Taigan。\n\n# 路径二：基于FCI认可列表的交叉验证\n\n步骤1：使用⟦60⟧⟦143⟧，提取“List of dog breeds recognized by the FCI”这一材料，该列表明确列出了被FCI认可的犬种。\n\n步骤2：综合⟦168⟧⟦152⟧，将Taigan和Korean Jindo分别与FCI认可列表进行比对：Taigan的材料⟦168⟧中明确标注“not yet recognized by ⟦84⟧”，而Korean Jindo的材料⟦152⟧中未出现“not recognized”的否定表述。\n\n步骤3：使用⟦149⟧，提取“The Jindo breed became recognized by the United Kennel Club on January 1, 1998 and by the United Kennel Club in 2005”，说明Korean Jindo已被其他主要犬业组织认可，但材料中未提及其被FCI拒绝。\n\n结论：Taigan被明确标注为未被FCI认可，而Korean Jindo未被标注为“not recognized”，因此答案是Taigan。\n\n# 路径三：基于否定标记的语义分析\n\n步骤1：使用⟦168⟧，提取关键否定短语“not yet recognized by ⟦84⟧”，其中⟦84⟧ = kennel clubs，结合上下文⟦141⟧ = the FCI，可推断Taigan未被FCI认可。\n\n步骤2：使用⟦152⟧⟦149⟧，提取Korean Jindo的认可信息：材料中仅提及UKC认可（1998年和2005年），未出现任何“not recognized by FCI”的否定表述。\n\n步骤3：综合⟦168⟧⟦152⟧，对比两者的否定标记：Taigan有明确的“not recognized”标记，Korean Jindo没有。\n\n结论：Taigan是未被FCI认可的犬种，Korean Jindo未被材料否定其FCI认可状态，因此答案是Taigan。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦152⟧⟨206⟩⟦12⟧⟨207⟩⟦72⟧⟨208⟩⟦18⟧⟨209⟩⟦19⟧⟨210⟩⟨211⟩⟨212⟩",
+  "nounCount": 265,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 4627,
+    "completion_tokens": 258,
+    "total_tokens": 4885,
+    "prompt_tokens_details": {
+      "cached_tokens": 4480
+    },
+    "prompt_cache_hit_tokens": 4480,
+    "prompt_cache_miss_tokens": 147
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 631,
+    "total_tokens": 1709,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1078
+  }
+}

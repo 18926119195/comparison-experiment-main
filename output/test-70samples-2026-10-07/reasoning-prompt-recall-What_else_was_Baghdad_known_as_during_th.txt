@@ -1,0 +1,59 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Last Voyage of Somebody the Sailor] ⟨103⟩⟨104⟩⟦396⟧
+[Battle of Hama] ⟦345⟧ | ⟦345⟧⟨225⟩
+[Nahrawan Canal] ⟨288⟩⟨289⟩
+[Sa'id ibn Makhlad] ⟦311⟧⟨314⟩⟨315⟩ | ⟦311⟧
+[Abbasid invasion of Asia Minor (806)] ⟦218⟧
+[Anarchy at Samarra] ⟦90⟧ | ⟦402⟧⟦90⟧⟨531⟩⟨532⟩⟦264⟧ | ⟦90⟧
+[Anarchy at Samarra] ⟦80⟧ | ⟦100⟧ | ⟦80⟧
+
+符号表：
+⟦80⟧ = Baghdad
+⟦90⟧ = capital
+⟦100⟧ = city
+⟦218⟧ = Peace
+⟦264⟧ = seat
+⟦311⟧ = the Abbasid capital
+⟦345⟧ = the City
+⟦396⟧ = the stories
+⟦402⟧ = the then capital
+
+占位符映射：
+⟨103⟩ =  of 
+⟨104⟩ = ", and finds himself in 
+⟨225⟩ = 
+⟨288⟩ = 
+⟨289⟩ =  of 
+⟨314⟩ = 
+⟨315⟩ = , 
+⟨531⟩ = 
+⟨532⟩ =  and 
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What else was Baghdad known as during the Abbasid Caliphate?

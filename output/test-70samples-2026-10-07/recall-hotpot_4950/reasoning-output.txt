@@ -1,0 +1,61 @@
+# 路径一：从鱼类命名到城市定位
+
+步骤1：使用⟦141⟧⟦59⟧⟦60⟧⟦76⟧，提取“St. Helena white seabream”的学名信息，确认其学名为 *Diplodus helenae*（或 *Diplodus sargus helenae*），种加词“helenae”源自人名 Helena White。
+
+步骤2：使用⟦77⟧⟦75⟧，提取 Helensvale 这一地名，并确认其名称来源于“Helena White”。
+
+步骤3：综合⟦170⟧⟦25⟧⟦77⟧，确认 Helensvale 是 The Gold Coast 的一个 suburb。
+
+步骤4：综合⟦178⟧⟦107⟧⟦34⟧，提取“the largest non-capital city”这一描述，并确认其位于 Australia。
+
+步骤5：综合⟦170⟧⟦178⟧⟦120⟧，将 The Gold Coast 与“largest non-capital city”关联，并确认其位于 Queensland。
+
+结论：Queensland 中最大的非首府城市是 **Gold Coast**，其境内有以 Helena White 命名的 suburb **Helensvale**。
+
+---
+
+# 路径二：通过 Queensland 地理与城市层级交叉验证
+
+步骤1：使用⟦120⟧⟦33⟧⟦145⟧，提取 Queensland 的 area 信息，并确认 Highfields 是其一个 suburb。
+
+步骤2：使用⟦170⟧⟦25⟧⟦77⟧，提取 The Gold Coast 包含 suburb Helensvale。
+
+步骤3：综合⟦178⟧⟦107⟧，提取“the largest non-capital city”这一称号，并确认其属于 New South Wales 的语境对比——但问题指向 Queensland，需排除 NSW。
+
+步骤4：综合⟦170⟧⟦178⟧⟦120⟧，交叉验证：The Gold Coast 位于 Queensland，且符合“largest non-capital city”的描述。
+
+步骤5：使用⟦75⟧⟦77⟧，确认 Helensvale 命名自 Helena White，与鱼类学名中的“helenae”形成命名关联。
+
+结论：Gold Coast 是 Queensland 最大的非首府城市，且包含以 Helena White 命名的 suburb Helensvale。
+
+---
+
+# 路径三：从鱼类学名到地名命名的语义链
+
+步骤1：使用⟦141⟧⟦59⟧⟦60⟧⟦144⟧，提取 St. Helena white seabream 的分类信息，确认其为 *Diplodus sargus* 的 subspecies，学名含“helenae”。
+
+步骤2：使用⟦76⟧⟦75⟧，提取“helenae”与“Helena White”的对应关系，确认命名来源。
+
+步骤3：使用⟦77⟧⟦75⟧，提取 Helensvale 这一地名，确认其同样源自 Helena White。
+
+步骤4：综合⟦170⟧⟦25⟧⟦77⟧，确认 Helensvale 是 The Gold Coast 的 suburb。
+
+步骤5：综合⟦178⟧⟦170⟧⟦120⟧，确认 The Gold Coast 是 Queensland 最大的非首府城市。
+
+结论：Gold Coast 是 Queensland 最大的非首府城市，其 suburb Helensvale 与 St. Helena white seabream 共享“Helena White”这一命名来源。
+
+---
+
+# 路径四：排除法与多材料综合定位
+
+步骤1：使用⟦34⟧⟦51⟧⟦45⟧，提取 Australia 的城市与 capital 信息，排除 capital city 选项。
+
+步骤2：使用⟦178⟧⟦107⟧，提取“the largest non-capital city”这一描述，确认其指向一个具体城市。
+
+步骤3：综合⟦170⟧⟦120⟧⟦202⟧，确认 The Gold Coast 位于 Queensland，且不是 state capital（Brisbane 才是）。
+
+步骤4：使用⟦77⟧⟦75⟧，确认 Helensvale 是 The Gold Coast 的 suburb，且命名自 Helena White。
+
+步骤5：综合⟦141⟧⟦76⟧⟦77⟧，交叉验证：鱼类学名“helenae”与地名 Helensvale 均源自 Helena White，形成命名一致性。
+
+结论：Queensland 最大的非首府城市是 **Gold Coast**，其 suburb **Helensvale** 以 Helena White 命名。

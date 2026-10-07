@@ -1,0 +1,376 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (CFO
+⟦2⟧ = (Formerly, MCX-SX Clearing Corporation Ltd
+⟦3⟧ = (now GAMCO Investors
+⟦4⟧ = 10 October
+⟦5⟧ = 60 story
+⟦6⟧ = a CFO
+⟦7⟧ = a chief financial officer
+⟦8⟧ = a common title
+⟦9⟧ = a corporate officer
+⟦10⟧ = A development director
+⟦11⟧ = A Director
+⟦12⟧ = a fiscal report
+⟦13⟧ = a global luxury hotel company
+⟦14⟧ = a grant
+⟦15⟧ = a grant application
+⟦16⟧ = a grant writer
+⟦17⟧ = a grants manager
+⟦18⟧ = a Managing Director
+⟦19⟧ = a non-profit (grants
+⟦20⟧ = a non-profit organization
+⟦21⟧ = a private firm
+⟦22⟧ = a prominent businessman
+⟦23⟧ = a Senior Managing Director
+⟦24⟧ = a Senior Vice President
+⟦25⟧ = a venture capital fund
+⟦26⟧ = accounting
+⟦27⟧ = Adena Friedman
+⟦28⟧ = Adena T. Friedman
+⟦29⟧ = Adidas
+⟦30⟧ = Adidas CEO Herbert Hainer
+⟦31⟧ = Adidas CFO Robin Stalker
+⟦32⟧ = advantage
+⟦33⟧ = AFP
+⟦34⟧ = alternative asset management and financial services corporation
+⟦35⟧ = alternative investment firms
+⟦36⟧ = an alternative asset manager
+⟦37⟧ = an American businessman
+⟦38⟧ = an American businessperson
+⟦39⟧ = an American multinational financial services corporation
+⟦40⟧ = an American multinational private equity
+⟦41⟧ = an investment and business development firm
+⟦42⟧ = analysis
+⟦43⟧ = apparel
+⟦44⟧ = application
+⟦45⟧ = areas
+⟦46⟧ = asset
+⟦47⟧ = assets
+⟦48⟧ = Automated Quotations
+⟦49⟧ = backing
+⟦50⟧ = banker
+⟦51⟧ = best practices
+⟦52⟧ = Bill Mulrow
+⟦53⟧ = board
+⟦54⟧ = Boston's Back Bay
+⟦55⟧ = brands
+⟦56⟧ = budget
+⟦57⟧ = building
+⟦58⟧ = business
+⟦59⟧ = businessman
+⟦60⟧ = businessperson
+⟦61⟧ = Cambridge
+⟦62⟧ = capital
+⟦63⟧ = Carlyle
+⟦64⟧ = Carpenter
+⟦65⟧ = CEO
+⟦66⟧ = CFO
+⟦67⟧ = CFOO
+⟦68⟧ = chairman
+⟦69⟧ = charitable endeavors
+⟦70⟧ = chief executive officer
+⟦71⟧ = chief financial and operating officer
+⟦72⟧ = Citigroup, Inc.
+⟦73⟧ = commission
+⟦74⟧ = commission based remuneration
+⟦75⟧ = Commissions
+⟦76⟧ = company
+⟦77⟧ = consumer
+⟦78⟧ = Copenhagen Stock Exchange
+⟦79⟧ = Corporate Finance
+⟦80⟧ = corporate private equity
+⟦81⟧ = corporate strategy
+⟦82⟧ = corporation
+⟦83⟧ = country
+⟦84⟧ = country’s securities market regulator - Securities and Exchange Board
+⟦85⟧ = creative hotel development
+⟦86⟧ = data
+⟦87⟧ = developer
+⟦88⟧ = development
+⟦89⟧ = development directors
+⟦90⟧ = director
+⟦91⟧ = directors
+⟦92⟧ = Donaldson
+⟦93⟧ = donations
+⟦94⟧ = Duncan Fitzwilliams
+⟦95⟧ = economy
+⟦96⟧ = eight European stock exchanges
+⟦97⟧ = end
+⟦98⟧ = endeavors
+⟦99⟧ = equities
+⟦100⟧ = equity
+⟦101⟧ = estate
+⟦102⟧ = events
+⟦103⟧ = exchanges
+⟦104⟧ = FD
+⟦105⟧ = February
+⟦106⟧ = financial planning
+⟦107⟧ = financial reporting
+⟦108⟧ = firm
+⟦109⟧ = firms
+⟦110⟧ = footwear
+⟦111⟧ = founder
+⟦112⟧ = four key business areas
+⟦113⟧ = Four Seasons Hotel and Private Residencies
+⟦114⟧ = Four Seasons Hotels
+⟦115⟧ = Friedman
+⟦116⟧ = Friedman Chairman
+⟦117⟧ = fund
+⟦118⟧ = fundraising
+⟦119⟧ = Fundraising Professionals
+⟦120⟧ = Gabelli Asset Management
+⟦121⟧ = Global Capital Markets
+⟦122⟧ = global corporate and information technology solutions
+⟦123⟧ = global market strategies
+⟦124⟧ = government
+⟦125⟧ = government official
+⟦126⟧ = GPA
+⟦127⟧ = grant
+⟦128⟧ = grant narratives
+⟦129⟧ = grant reports
+⟦130⟧ = grants
+⟦131⟧ = Greifeld
+⟦132⟧ = head
+⟦133⟧ = Helsinki Stock Exchange
+⟦134⟧ = high-end hotels
+⟦135⟧ = higher management
+⟦136⟧ = his or her work
+⟦137⟧ = historic structures
+⟦138⟧ = hotel
+⟦139⟧ = hotels
+⟦140⟧ = Hydra Ventures
+⟦141⟧ = Iceland Stock Exchange
+⟦142⟧ = Inc.
+⟦143⟧ = India
+⟦144⟧ = India Ltd
+⟦145⟧ = India Ltd.
+⟦146⟧ = information
+⟦147⟧ = Interim Chief Executive Officer
+⟦148⟧ = Interim Managing Director
+⟦149⟧ = investment
+⟦150⟧ = investment banker
+⟦151⟧ = investment solutions
+⟦152⟧ = investments
+⟦153⟧ = its president
+⟦154⟧ = Jenrette Securities Corporation
+⟦155⟧ = June
+⟦156⟧ = JWT Europe
+⟦157⟧ = keeping
+⟦158⟧ = large government grants
+⟦159⟧ = Lufkin
+⟦160⟧ = luxury
+⟦161⟧ = management
+⟦162⟧ = manager
+⟦163⟧ = Managing Director
+⟦164⟧ = market
+⟦165⟧ = Massachusetts
+⟦166⟧ = May
+⟦167⟧ = MCCIL
+⟦168⟧ = MCX-SXCCL
+⟦169⟧ = Metropolitan Clearing Corporation
+⟦170⟧ = Metropolitan Stock Exchange
+⟦171⟧ = mission
+⟦172⟧ = Mr. Friedman
+⟦173⟧ = Mr. Kumar
+⟦174⟧ = Mr. Udai Kumar
+⟦175⟧ = MSEI
+⟦176⟧ = namely Armenian Stock Exchange
+⟦177⟧ = narratives
+⟦178⟧ = Nasdaq
+⟦179⟧ = NASDAQ OMX
+⟦180⟧ = NASDAQ OMX Vilnius
+⟦181⟧ = NASDAQ-OMX's fundamental market structure advantage
+⟦182⟧ = Nasdaq, Inc.
+⟦183⟧ = Nash Fitzwilliams
+⟦184⟧ = new consumer brands
+⟦185⟧ = New England
+⟦186⟧ = New Product Development
+⟦187⟧ = New York City
+⟦188⟧ = nonprofit organizations
+⟦189⟧ = November
+⟦190⟧ = numerous business
+⟦191⟧ = officer
+⟦192⟧ = official
+⟦193⟧ = operating
+⟦194⟧ = organization
+⟦195⟧ = organizations
+⟦196⟧ = Paladin Capital Group
+⟦197⟧ = planning
+⟦198⟧ = position
+⟦199⟧ = practice
+⟦200⟧ = practices
+⟦201⟧ = president
+⟦202⟧ = President Barack Obama
+⟦203⟧ = President Bill Clinton
+⟦204⟧ = private investments
+⟦205⟧ = professional organizations
+⟦206⟧ = Public Finance Banking
+⟦207⟧ = real assets
+⟦208⟧ = real estate
+⟦209⟧ = real estate developer
+⟦210⟧ = record
+⟦211⟧ = record-keeping
+⟦212⟧ = regulator
+⟦213⟧ = related accounting
+⟦214⟧ = remuneration
+⟦215⟧ = report
+⟦216⟧ = reporting
+⟦217⟧ = reports
+⟦218⟧ = Resorts
+⟦219⟧ = reuse
+⟦220⟧ = revenue
+⟦221⟧ = revenue streams
+⟦222⟧ = Richard L. Friedman
+⟦223⟧ = Riga Stock Exchange
+⟦224⟧ = risks
+⟦225⟧ = Robert Greifeld
+⟦226⟧ = Rothschild Inc.
+⟦227⟧ = salaries
+⟦228⟧ = screen
+⟦229⟧ = SEBI
+⟦230⟧ = section
+⟦231⟧ = sectors
+⟦232⟧ = securities
+⟦233⟧ = Securities Dealers
+⟦234⟧ = services
+⟦235⟧ = solutions
+⟦236⟧ = Some larger organizations
+⟦237⟧ = some sectors
+⟦238⟧ = special events
+⟦239⟧ = sports
+⟦240⟧ = stock
+⟦241⟧ = Stockholm Stock Exchange
+⟦242⟧ = story
+⟦243⟧ = strategies
+⟦244⟧ = strategy
+⟦245⟧ = streams
+⟦246⟧ = structure
+⟦247⟧ = structures
+⟦248⟧ = Tallinn Stock Exchange
+⟦249⟧ = technology
+⟦250⟧ = the adaptive reuse
+⟦251⟧ = the apparel, footwear and sports-related areas
+⟦252⟧ = the Association
+⟦253⟧ = the Blackstone Group
+⟦254⟧ = the board
+⟦255⟧ = the Boston Globe
+⟦256⟧ = the budget section
+⟦257⟧ = The building
+⟦258⟧ = The Carlyle Group
+⟦259⟧ = the CEO
+⟦260⟧ = the CFO
+⟦261⟧ = the chairman
+⟦262⟧ = the chief executive officer
+⟦263⟧ = The chief financial officer
+⟦264⟧ = the corporation
+⟦265⟧ = the current economy
+⟦266⟧ = the financial risks
+⟦267⟧ = the fiscal management
+⟦268⟧ = the full backing
+⟦269⟧ = the Grant Professionals Association
+⟦270⟧ = the largest electronic screen-based equity securities market
+⟦271⟧ = the largest private equity
+⟦272⟧ = the last 40 years
+⟦273⟧ = The Managing Director
+⟦274⟧ = the Metropolitan Stock Exchange
+⟦275⟧ = the NASDAQ
+⟦276⟧ = the NASDAQ-OMX mission
+⟦277⟧ = the National Capital Planning Commission
+⟦278⟧ = the organization
+⟦279⟧ = The position
+⟦280⟧ = the practice
+⟦281⟧ = the premier U.S equities market
+⟦282⟧ = the president
+⟦283⟧ = the President’s Export Council
+⟦284⟧ = the senior fundraising manager
+⟦285⟧ = the tallest building
+⟦286⟧ = the three stock exchanges
+⟦287⟧ = The title
+⟦288⟧ = the United Kingdom
+⟦289⟧ = the United States
+⟦290⟧ = the world
+⟦291⟧ = This officer
+⟦292⟧ = title
+⟦293⟧ = Toby Hoare
+⟦294⟧ = Tom Montgomery
+⟦295⟧ = Toronto
+⟦296⟧ = treasurer
+⟦297⟧ = venture
+⟦298⟧ = work
+⟦299⟧ = world
+⟦300⟧ = writer
+⟦301⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Development director] ⟦10⟧⟨1⟩⟦88⟧⟨2⟩⟦90⟧⟨3⟩⟦90⟧⟨4⟩⟦90⟧⟨5⟩⟦88⟧⟨6⟩⟦88⟧⟨7⟩⟦284⟧⟨8⟩⟦118⟧⟨9⟩⟦162⟧⟨10⟩⟦20⟧⟨11⟩⟦194⟧⟨12⟩⟦76⟧⟨13⟩⟦76⟧⟨14⟩⟦82⟧⟨15⟩⟦82⟧⟨16⟩
+[Development director] ⟦279⟧⟨17⟩⟦198⟧⟨18⟩⟦7⟧⟨19⟩⟦191⟧⟨20⟩⟦1⟧⟨21⟩⟦296⟧⟨22⟩⟦296⟧⟨23⟩
+[Development director] ⟦11⟧⟨24⟩⟦88⟧⟨25⟩⟦220⟧⟨26⟩⟦221⟧⟨27⟩⟦245⟧⟨28⟩⟦19⟧⟨29⟩⟦130⟧⟨30⟩⟦93⟧⟨31⟩⟦93⟧⟨32⟩⟦238⟧⟨33⟩⟦102⟧⟨34⟩⟦6⟧⟨35⟩⟦267⟧⟨36⟩⟦161⟧⟨37⟩⟦278⟧⟨38⟩⟦194⟧⟨39⟩
+[Development director] ⟦6⟧⟨40⟩⟦127⟧⟨41⟩⟦128⟧⟨42⟩⟦177⟧⟨43⟩⟦256⟧⟨44⟩⟦56⟧⟨45⟩⟦230⟧⟨46⟩⟦15⟧⟨47⟩⟦127⟧⟨48⟩⟦44⟧⟨49⟩⟦12⟧⟨50⟩⟦215⟧⟨51⟩⟦14⟧⟨52⟩⟦127⟧⟨53⟩
+[Development director] ⟦236⟧⟨54⟩⟦195⟧⟨55⟩⟦158⟧⟨56⟩⟦124⟧⟨57⟩⟦130⟧⟨58⟩⟦17⟧⟨59⟩⟦130⟧⟨60⟩⟦162⟧⟨61⟩⟦16⟧⟨62⟩⟦127⟧⟨63⟩⟦300⟧⟨64⟩⟦90⟧⟨65⟩⟦88⟧⟨66⟩
+[Development director] ⟦17⟧⟨67⟩⟦260⟧⟨68⟩⟦127⟧⟨69⟩⟦129⟧⟨70⟩⟦217⟧⟨71⟩⟦213⟧⟨72⟩⟦26⟧⟨73⟩
+[Development director] ⟦10⟧⟨74⟩⟦88⟧⟨75⟩⟦90⟧⟨76⟩⟦136⟧⟨77⟩⟦298⟧⟨78⟩⟦51⟧⟨79⟩⟦200⟧⟨80⟩⟦188⟧⟨81⟩⟦195⟧⟨82⟩⟦88⟧⟨83⟩⟦89⟧⟨84⟩⟦91⟧⟨85⟩⟦227⟧⟨86⟩⟦227⟧⟨87⟩
+[Development director] ⟦75⟧⟨88⟩⟦75⟧⟨89⟩⟦205⟧⟨90⟩⟦195⟧⟨91⟩⟦269⟧⟨92⟩⟦126⟧⟨93⟩⟦252⟧⟨94⟩⟦119⟧⟨95⟩⟦33⟧⟨96⟩⟦280⟧⟨97⟩⟦199⟧⟨98⟩⟦73⟧⟨99⟩⟦74⟧⟨100⟩⟦214⟧⟨101⟩⟦265⟧⟨102⟩⟦95⟧⟨103⟩
+[Hydra Ventures] ⟦140⟧⟨104⟩⟦41⟧⟨105⟩⟦149⟧⟨106⟩⟦58⟧⟨107⟩⟦88⟧⟨108⟩⟦108⟧⟨109⟩⟦184⟧⟨110⟩⟦77⟧⟨111⟩⟦55⟧⟨112⟩⟦251⟧⟨113⟩⟦43⟧⟨114⟩⟦110⟧⟨115⟩⟦239⟧⟨116⟩⟦45⟧⟨117⟩
+[Hydra Ventures] ⟨118⟩⟦25⟧⟨119⟩⟦297⟧⟨120⟩⟦62⟧⟨121⟩⟦117⟧⟨122⟩⟦268⟧⟨123⟩⟦49⟧⟨124⟩⟦29⟧⟨125⟩
+[Hydra Ventures] ⟦273⟧⟨126⟩⟦294⟧⟨127⟩⟦132⟧⟨128⟩⟦132⟧⟨129⟩⟦81⟧⟨130⟩⟦244⟧⟨131⟩⟦29⟧⟨132⟩
+[Hydra Ventures] ⟨133⟩⟦30⟧⟨134⟩⟦65⟧⟨135⟩⟦31⟧⟨136⟩⟦254⟧⟨137⟩⟦53⟧⟨138⟩⟦94⟧⟨139⟩⟦111⟧⟨140⟩⟦111⟧⟨141⟩⟦183⟧⟨142⟩⟦293⟧⟨143⟩⟦65⟧⟨144⟩⟦156⟧⟨145⟩
+[Adena Friedman] ⟦28⟧⟨146⟩⟦38⟧⟨147⟩⟦60⟧⟨148⟩
+[Adena Friedman] ⟨149⟩⟦282⟧⟨150⟩⟦201⟧⟨151⟩⟦65⟧⟨152⟩⟦178⟧⟨153⟩
+[Adena Friedman] ⟨154⟩⟦273⟧⟨155⟩⟦90⟧⟨156⟩⟦66⟧⟨157⟩⟦258⟧⟨158⟩
+[Adena Friedman] ⟨159⟩⟦166⟧⟨160⟩⟦115⟧⟨161⟩⟦179⟧⟨162⟩⟦282⟧⟨163⟩⟦201⟧⟨164⟩⟦122⟧⟨165⟩⟦146⟧⟨166⟩⟦249⟧⟨167⟩⟦235⟧⟨168⟩
+[Adena Friedman] ⟨169⟩⟦189⟧⟨170⟩⟦259⟧⟨171⟩⟦178⟧⟨172⟩
+[Chief financial officer] ⟦263⟧⟨173⟩⟦191⟧⟨174⟩⟦1⟧⟨175⟩⟦71⟧⟨176⟩⟦193⟧⟨177⟩⟦191⟧⟨178⟩⟦67⟧⟨179⟩⟦9⟧⟨180⟩⟦191⟧⟨181⟩⟦266⟧⟨182⟩⟦224⟧⟨183⟩⟦264⟧⟨184⟩⟦82⟧⟨185⟩
+[Chief financial officer] ⟦291⟧⟨186⟩⟦191⟧⟨187⟩⟦106⟧⟨188⟩⟦197⟧⟨189⟩⟦210⟧⟨190⟩⟦211⟧⟨191⟩⟦157⟧⟨192⟩⟦107⟧⟨193⟩⟦216⟧⟨194⟩⟦135⟧⟨195⟩⟦161⟧⟨196⟩
+[Chief financial officer] ⟨197⟩⟦237⟧⟨198⟩⟦231⟧⟨199⟩⟦260⟧⟨200⟩⟦42⟧⟨201⟩⟦42⟧⟨202⟩⟦86⟧⟨203⟩⟦86⟧⟨204⟩
+[Chief financial officer] ⟦287⟧⟨205⟩⟦292⟧⟨206⟩⟦90⟧⟨207⟩⟦90⟧⟨208⟩⟦104⟧⟨209⟩⟦8⟧⟨210⟩⟦292⟧⟨211⟩⟦288⟧⟨212⟩
+[Chief financial officer] ⟦260⟧⟨213⟩⟦262⟧⟨214⟩⟦191⟧⟨215⟩⟦254⟧⟨216⟩⟦53⟧⟨217⟩⟦91⟧⟨218⟩⟦91⟧⟨219⟩⟦254⟧⟨220⟩⟦53⟧⟨221⟩
+[The Carlyle Group] ⟦258⟧⟨222⟩⟦40⟧⟨223⟩⟦100⟧⟨224⟩⟦34⟧⟨225⟩⟦46⟧⟨226⟩⟦161⟧⟨227⟩⟦234⟧⟨228⟩⟦82⟧⟨229⟩
+[The Carlyle Group] ⟨230⟩⟦271⟧⟨231⟩⟦100⟧⟨232⟩⟦35⟧⟨233⟩⟦149⟧⟨234⟩⟦109⟧⟨235⟩⟦290⟧⟨236⟩⟦299⟧⟨237⟩⟦63⟧⟨238⟩⟦112⟧⟨239⟩⟦58⟧⟨240⟩⟦45⟧⟨241⟩⟦80⟧⟨242⟩⟦100⟧⟨243⟩⟦207⟧⟨244⟩⟦47⟧⟨245⟩⟦123⟧⟨246⟩⟦164⟧⟨247⟩⟦243⟧⟨248⟩⟦149⟧⟨249⟩⟦151⟧⟨250⟩⟦235⟧⟨251⟩
+[Nasdaq, Inc.] ⟦182⟧⟨252⟩⟦39⟧⟨253⟩⟦234⟧⟨254⟩⟦82⟧⟨255⟩⟦275⟧⟨256⟩⟦233⟧⟨257⟩⟦48⟧⟨258⟩⟦240⟧⟨259⟩⟦164⟧⟨260⟩⟦96⟧⟨261⟩⟦240⟧⟨262⟩⟦103⟧⟨263⟩⟦176⟧⟨264⟩⟦78⟧⟨265⟩⟦133⟧⟨266⟩⟦141⟧⟨267⟩⟦223⟧⟨268⟩⟦241⟧⟨269⟩⟦248⟧⟨270⟩⟦180⟧⟨271⟩
+[Nasdaq, Inc.] ⟨272⟩⟦187⟧⟨273⟩⟦153⟧⟨274⟩⟦201⟧⟨275⟩⟦70⟧⟨276⟩⟦191⟧⟨277⟩⟦27⟧⟨278⟩
+[Richard L. Friedman] ⟦222⟧⟨279⟩⟦22⟧⟨280⟩⟦59⟧⟨281⟩⟦209⟧⟨282⟩⟦101⟧⟨283⟩⟦87⟧⟨284⟩⟦190⟧⟨285⟩⟦58⟧⟨286⟩⟦69⟧⟨287⟩⟦98⟧⟨288⟩
+[Richard L. Friedman] ⟦115⟧⟨289⟩⟦282⟧⟨290⟩⟦65⟧⟨291⟩⟦64⟧⟨292⟩⟦76⟧⟨293⟩⟦142⟧⟨294⟩⟦61⟧⟨295⟩⟦165⟧⟨296⟩⟦21⟧⟨297⟩⟦108⟧⟨298⟩⟦208⟧⟨299⟩⟦101⟧⟨300⟩⟦204⟧⟨301⟩⟦152⟧⟨302⟩
+[Richard L. Friedman] ⟦64⟧⟨303⟩⟦85⟧⟨304⟩⟦138⟧⟨305⟩⟦88⟧⟨306⟩⟦250⟧⟨307⟩⟦219⟧⟨308⟩⟦137⟧⟨309⟩⟦247⟧⟨310⟩⟦134⟧⟨311⟩⟦97⟧⟨312⟩⟦139⟧⟨313⟩
+[Richard L. Friedman] ⟨314⟩⟦203⟧⟨315⟩⟦116⟧⟨316⟩⟦277⟧⟨317⟩
+[Richard L. Friedman] ⟨318⟩⟦172⟧⟨319⟩⟦202⟧⟨320⟩⟦283⟧⟨321⟩
+[Richard L. Friedman] ⟨322⟩⟦166⟧⟨323⟩⟦172⟧⟨324⟩⟦90⟧⟨325⟩⟦114⟧⟨326⟩⟦218⟧⟨327⟩⟦13⟧⟨328⟩⟦160⟧⟨329⟩⟦138⟧⟨330⟩⟦76⟧⟨331⟩⟦295⟧⟨332⟩
+[Richard L. Friedman] ⟨333⟩⟦155⟧⟨334⟩⟦255⟧⟨335⟩⟦115⟧⟨336⟩⟦5⟧⟨337⟩⟦242⟧⟨338⟩⟦113⟧⟨339⟩⟦54⟧⟨340⟩
+[Richard L. Friedman] ⟦257⟧⟨341⟩⟦57⟧⟨342⟩⟦285⟧⟨343⟩⟦57⟧⟨344⟩⟦185⟧⟨345⟩⟦272⟧⟨346⟩⟦301⟧⟨347⟩
+[Udai Kumar] ⟦174⟧⟨348⟩⟦273⟧⟨349⟩⟦65⟧⟨350⟩⟦274⟧⟨351⟩⟦144⟧⟨352⟩⟦175⟧⟨353⟩⟦105⟧⟨354⟩
+[Udai Kumar] ⟦175⟧⟨355⟩⟦286⟧⟨356⟩⟦240⟧⟨357⟩⟦103⟧⟨358⟩⟦83⟧⟨359⟩⟦84⟧⟨360⟩⟦232⟧⟨361⟩⟦164⟧⟨362⟩⟦212⟧⟨363⟩⟦143⟧⟨364⟩⟦229⟧⟨365⟩⟦229⟧⟨366⟩
+[Udai Kumar] ⟦173⟧⟨367⟩⟦147⟧⟨368⟩⟦148⟧⟨369⟩⟦170⟧⟨370⟩⟦145⟧⟨371⟩⟦4⟧⟨372⟩⟦105⟧⟨373⟩
+[Udai Kumar] ⟨374⟩⟦163⟧⟨375⟩⟦169⟧⟨376⟩⟦144⟧⟨377⟩⟦167⟧⟨378⟩⟦2⟧⟨379⟩⟦168⟧⟨380⟩
+[Udai Kumar] ⟨381⟩⟦11⟧⟨382⟩⟦170⟧⟨383⟩⟦145⟧
+[Robert Greifeld] ⟦225⟧⟨384⟩⟦37⟧⟨385⟩⟦59⟧⟨386⟩⟦261⟧⟨387⟩⟦68⟧⟨388⟩⟦178⟧⟨389⟩⟦270⟧⟨390⟩⟦228⟧⟨391⟩⟦100⟧⟨392⟩⟦232⟧⟨393⟩⟦164⟧⟨394⟩⟦289⟧⟨395⟩
+[Robert Greifeld] ⟨396⟩⟦65⟧⟨397⟩⟦65⟧⟨398⟩⟦27⟧⟨399⟩
+[Robert Greifeld] ⟦131⟧⟨400⟩⟦276⟧⟨401⟩⟦171⟧⟨402⟩⟦281⟧⟨403⟩⟦99⟧⟨404⟩⟦164⟧⟨405⟩⟦181⟧⟨406⟩⟦164⟧⟨407⟩⟦246⟧⟨408⟩⟦32⟧⟨409⟩
+[William J. Mulrow] ⟦52⟧⟨410⟩⟦37⟧⟨411⟩⟦59⟧⟨412⟩⟦149⟧⟨413⟩⟦150⟧⟨414⟩⟦50⟧⟨415⟩⟦124⟧⟨416⟩⟦125⟧⟨417⟩⟦192⟧⟨418⟩
+[William J. Mulrow] ⟨419⟩⟦23⟧⟨420⟩⟦253⟧⟨421⟩⟦36⟧⟨422⟩⟦46⟧⟨423⟩⟦162⟧⟨424⟩
+[William J. Mulrow] ⟨425⟩⟦11⟧⟨426⟩⟦121⟧⟨427⟩⟦72⟧⟨428⟩⟦18⟧⟨429⟩⟦196⟧⟨430⟩⟦24⟧⟨431⟩⟦132⟧⟨432⟩⟦186⟧⟨433⟩⟦120⟧⟨434⟩⟦3⟧⟨435⟩⟦18⟧⟨436⟩⟦79⟧⟨437⟩⟦226⟧⟨438⟩⟦18⟧⟨439⟩⟦132⟧⟨440⟩⟦206⟧⟨441⟩⟦92⟧⟨442⟩⟦159⟧⟨443⟩⟦154⟧⟨444⟩
+
+[user]
+
+问题：
+Adena Friedman was formerly the managing director and CFO of a company that specializes in what four key business areas?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

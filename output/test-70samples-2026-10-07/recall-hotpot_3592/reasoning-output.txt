@@ -1,0 +1,39 @@
+# 路径一：从人物身份与职业关系切入
+
+步骤1：使用⟦49⟧，提取 Fabio Cannavaro 的身份信息——他是“an Italian former professional footballer”（⟦25⟧），并且是“current manager”（⟦45⟧）。
+
+步骤2：综合⟦40⟧⟦45⟧，确认 Fabio Cannavaro 是“Chinese club Tianjin Quanjian”（⟦40⟧）的“current manager”（⟦45⟧）。
+
+步骤3：使用⟦70⟧，提取 Paolo Cannavaro 的身份信息——他是“Paolo Cannavaro”（⟦70⟧），并且是“an Italian footballer”（⟦24⟧），同时是“a defender”（⟦13⟧）。
+
+步骤4：综合⟦49⟧⟦70⟧，对比两人的姓氏“Cannavaro”以及国籍“Italian”，推断两人可能存在亲属关系。
+
+结论：Fabio Cannavaro 是天津权健的现任主教练，而 Paolo Cannavaro 是一名意大利足球运动员，两人同姓“Cannavaro”且均为意大利人，因此两人很可能是兄弟关系（Fabio 是 Paolo 的哥哥）。
+
+---
+
+# 路径二：从职业生涯轨迹与家庭关联切入
+
+步骤1：使用⟦49⟧，提取 Fabio Cannavaro 的出生日期“born 13 September 1973”（⟨149⟩），以及他曾是“an Italian former professional footballer”（⟦25⟧）。
+
+步骤2：使用⟦70⟧，提取 Paolo Cannavaro 的出生日期“born 26 June 1981”（⟨57⟩），以及他是“an Italian footballer”（⟦24⟧）。
+
+步骤3：综合⟦49⟧⟦70⟧，对比两人的出生年份——Fabio 出生于 1973 年，Paolo 出生于 1981 年，相差 8 岁，符合兄弟年龄差。
+
+步骤4：使用⟦66⟧，提取 Paolo Cannavaro 曾效力于“Napoli”（⟦66⟧），而 Fabio Cannavaro 也曾效力于那不勒斯，进一步佐证两人家庭背景相同。
+
+结论：Fabio Cannavaro 与 Paolo Cannavaro 是兄弟关系，Fabio 是哥哥，Paolo 是弟弟，两人均出生于意大利并从事足球职业。
+
+---
+
+# 路径三：从天津权健俱乐部与 Paolo 的间接关联切入
+
+步骤1：使用⟦40⟧⟦45⟧，提取天津权健的现任主教练是 Fabio Cannavaro。
+
+步骤2：使用⟦70⟧，提取 Paolo Cannavaro 是一名意大利足球运动员，目前效力于“Sassuolo”（⟦78⟧）或曾效力于“Napoli”（⟦66⟧）。
+
+步骤3：综合⟦40⟧⟦70⟧，对比 Fabio 与 Paolo 的职业轨迹——Fabio 在天津权健执教，Paolo 在意大利踢球，两人虽不在同一俱乐部，但姓氏相同且均为意大利足球界人士。
+
+步骤4：使用⟦49⟧，提取 Fabio Cannavaro 是“an Italian former professional footballer”（⟦25⟧），而 Paolo 是“an Italian footballer”（⟦24⟧），两人职业身份一致。
+
+结论：Fabio Cannavaro（天津权健现任主教练）与 Paolo Cannavaro 是兄弟关系，Fabio 是 Paolo 的哥哥，两人均为意大利足球运动员出身。

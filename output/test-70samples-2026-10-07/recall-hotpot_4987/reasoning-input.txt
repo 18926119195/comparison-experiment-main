@@ -1,0 +1,103 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Joanne (album)] ⟨187⟩⟦259⟧⟨189⟩⟨188⟩⟨190⟩⟨192⟩⟨191⟩
+[Joanne (album)] ⟨193⟩⟦182⟧⟨194⟩⟦229⟧⟨195⟩
+[Lady Gaga: Queen of Pop] ⟦37⟧
+[Gaga: Five Foot Two] ⟦140⟧
+[Super Bowl LI halftime show] ⟦295⟧⟨465⟩⟨466⟩⟨467⟩⟨468⟩⟨469⟩⟦181⟧⟨470⟩⟦130⟧⟨471⟩⟦244⟧⟨472⟩⟨473⟩⟨474⟩⟦235⟧⟨475⟩
+[Super Bowl LI halftime show] ⟦289⟧⟨476⟩⟨477⟩⟦145⟧⟨478⟩⟦21⟧⟦158⟧⟨479⟩⟨480⟩⟦127⟧⟦222⟧⟨481⟩⟨482⟩⟦177⟧⟦156⟧⟨483⟩⟨484⟩⟦125⟧⟦230⟧⟨486⟩⟦29⟧⟨485⟩⟨487⟩⟦1⟧⟨488⟩ | ⟦230⟧⟦29⟧
+[Super Bowl XLIX halftime show] ⟦193⟧⟦193⟧⟦94⟧⟦186⟧⟦186⟧
+[Super Bowl XLIX halftime show] ⟦217⟧
+[Super Bowl XLIX halftime show] ⟦215⟧ | ⟦215⟧
+
+符号表：
+⟦1⟧ = "Joanne
+⟦21⟧ = a medley
+⟦29⟧ = album
+⟦37⟧ = American singer Lady Gaga
+⟦94⟧ = February
+⟦125⟧ = her most recent studio album
+⟦127⟧ = her songs
+⟦130⟧ = Houston
+⟦140⟧ = Joanne
+⟦145⟧ = Lady Gaga
+⟦156⟧ = material
+⟦158⟧ = medley
+⟦177⟧ = newer material
+⟦181⟧ = NRG Stadium
+⟦182⟧ = October
+⟦186⟧ = part
+⟦193⟧ = place
+⟦215⟧ = show
+⟦217⟧ = singer
+⟦222⟧ = songs
+⟦229⟧ = Streamline and Interscope Records
+⟦230⟧ = studio
+⟦235⟧ = Super Bowl LI
+⟦244⟧ = Texas
+⟦259⟧ = the fifth studio album
+⟦289⟧ = The show
+⟦295⟧ = the Super Bowl LI halftime show
+
+占位符映射：
+⟨187⟩ =  is 
+⟨188⟩ = 
+⟨189⟩ =  
+⟨190⟩ =  by 
+⟨191⟩ = 
+⟨192⟩ =  Lady Gaga.
+⟨193⟩ =  It was released on 
+⟨194⟩ =  21, 2016, by 
+⟨195⟩ = .
+⟨465⟩ = 
+⟨466⟩ =  took 
+⟨467⟩ = 
+⟨468⟩ =  on 
+⟨469⟩ =  5, 2017, at 
+⟨470⟩ =  in 
+⟨471⟩ = , 
+⟨472⟩ =  as 
+⟨473⟩ = 
+⟨474⟩ =  of 
+⟨475⟩ = .
+⟨476⟩ = 
+⟨477⟩ =  was headlined by 
+⟨478⟩ = , who performed 
+⟨479⟩ = 
+⟨480⟩ =  of 
+⟨481⟩ = 
+⟨482⟩ = , including 
+⟨483⟩ = 
+⟨484⟩ =  from 
+⟨485⟩ = 
+⟨486⟩ =  
+⟨487⟩ =  
+⟨488⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+When was the album released for which Lady Gaga used for material for her Super Bowl LI halftime show?

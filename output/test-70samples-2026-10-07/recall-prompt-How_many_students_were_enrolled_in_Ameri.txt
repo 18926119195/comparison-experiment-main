@@ -1,0 +1,466 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (PBA) Tour
+⟦2⟧ = 1,840 students
+⟦3⟧ = 120 min
+⟦4⟧ = 43%
+⟦5⟧ = 61%
+⟦6⟧ = 69%
+⟦7⟧ = 87%
+⟦8⟧ = 9 member schools
+⟦9⟧ = a 2006 study
+⟦10⟧ = a bio-technology lab
+⟦11⟧ = a broadcasting studio
+⟦12⟧ = a campus style school
+⟦13⟧ = a charter school
+⟦14⟧ = a communication technology center
+⟦15⟧ = a complex
+⟦16⟧ = a computer-assisted drafting lab
+⟦17⟧ = a fully accredited high school
+⟦18⟧ = a high school
+⟦19⟧ = a member
+⟦20⟧ = a middle school
+⟦21⟧ = A new addition/renovation
+⟦22⟧ = a new class
+⟦23⟧ = a new junior high school
+⟦24⟧ = a NJROTC program
+⟦25⟧ = a part
+⟦26⟧ = a patriotic symbol
+⟦27⟧ = a postal address
+⟦28⟧ = a private school
+⟦29⟧ = a program
+⟦30⟧ = a public high school
+⟦31⟧ = a public school
+⟦32⟧ = a public secondary school
+⟦33⟧ = a senior high school serving students
+⟦34⟧ = a total
+⟦35⟧ = addition
+⟦36⟧ = additional Advanced Placement courses
+⟦37⟧ = Additions
+⟦38⟧ = address
+⟦39⟧ = Admission
+⟦40⟧ = all the core subjects
+⟦41⟧ = an all-enclosed facility
+⟦42⟧ = an all-grade school
+⟦43⟧ = an American professional bowler
+⟦44⟧ = an AP test passing rate
+⟦45⟧ = an auditorium
+⟦46⟧ = an enrollment
+⟦47⟧ = an International Baccalaureate program
+⟦48⟧ = anniversary
+⟦49⟧ = Annual Yearly Progress
+⟦50⟧ = approximately 1,600 students
+⟦51⟧ = approximately 350 students
+⟦52⟧ = art
+⟦53⟧ = arts
+⟦54⟧ = Ashland
+⟦55⟧ = Assessment
+⟦56⟧ = athletics
+⟦57⟧ = auditorium
+⟦58⟧ = average
+⟦59⟧ = Beaverdam
+⟦60⟧ = beginning
+⟦61⟧ = body
+⟦62⟧ = boundaries
+⟦63⟧ = bowler
+⟦64⟧ = broadcasting
+⟦65⟧ = building
+⟦66⟧ = buildings
+⟦67⟧ = Business
+⟦68⟧ = Business Management
+⟦69⟧ = cafeteria
+⟦70⟧ = California
+⟦71⟧ = campus
+⟦72⟧ = career
+⟦73⟧ = CEC
+⟦74⟧ = CEC classes
+⟦75⟧ = Cedar Ridge High School
+⟦76⟧ = center
+⟦77⟧ = Central Texas
+⟦78⟧ = charter
+⟦79⟧ = Chess
+⟦80⟧ = children
+⟦81⟧ = Chris Barnes
+⟦82⟧ = Christian home educated students
+⟦83⟧ = Churchill County High School
+⟦84⟧ = citizen
+⟦85⟧ = class
+⟦86⟧ = classes
+⟦87⟧ = classrooms
+⟦88⟧ = Clayton
+⟦89⟧ = Cleveland High School
+⟦90⟧ = Cleveland School
+⟦91⟧ = college
+⟦92⟧ = college preparatory
+⟦93⟧ = Colleges
+⟦94⟧ = colors
+⟦95⟧ = communication
+⟦96⟧ = community
+⟦97⟧ = complex
+⟦98⟧ = Computer
+⟦99⟧ = consolidation
+⟦100⟧ = core
+⟦101⟧ = Corinth Holders High School
+⟦102⟧ = county
+⟦103⟧ = course
+⟦104⟧ = courses
+⟦105⟧ = CvHS
+⟦106⟧ = degree
+⟦107⟧ = deliberation
+⟦108⟧ = dimensions
+⟦109⟧ = district
+⟦110⟧ = drafting
+⟦111⟧ = Drama
+⟦112⟧ = each class
+⟦113⟧ = Each teacher
+⟦114⟧ = Education
+⟦115⟧ = eight 90-min
+⟦116⟧ = electives
+⟦117⟧ = Elko High School
+⟦118⟧ = English
+⟦119⟧ = enrollment
+⟦120⟧ = enrollments
+⟦121⟧ = Even the school colors
+⟦122⟧ = facility
+⟦123⟧ = fall
+⟦124⟧ = four foreign languages
+⟦125⟧ = four high schools
+⟦126⟧ = four years
+⟦127⟧ = freshmen
+⟦128⟧ = global average
+⟦129⟧ = grade
+⟦130⟧ = grades
+⟦131⟧ = grades 9–12
+⟦132⟧ = ground
+⟦133⟧ = growth
+⟦134⟧ = gymnasium
+⟦135⟧ = half
+⟦136⟧ = Hanover County
+⟦137⟧ = Hanover County's most illustrious citizen
+⟦138⟧ = Henry Clay
+⟦139⟧ = high school athletics
+⟦140⟧ = High Tech High Chula Vista
+⟦141⟧ = High Tech High North County
+⟦142⟧ = history
+⟦143⟧ = history),the arts
+⟦144⟧ = home
+⟦145⟧ = homes
+⟦146⟧ = homework
+⟦147⟧ = households
+⟦148⟧ = HTHNC
+⟦149⟧ = Indiana Wesleyan University - Louisville campus
+⟦150⟧ = its 50th anniversary
+⟦151⟧ = its initial class
+⟦152⟧ = its literary publications
+⟦153⟧ = Its mascot
+⟦154⟧ = its NJROTC program
+⟦155⟧ = its theatre program
+⟦156⟧ = January
+⟦157⟧ = John M. Gandy High School
+⟦158⟧ = Johnston County
+⟦159⟧ = Johnston County Schools
+⟦160⟧ = Journalism
+⟦161⟧ = juniors
+⟦162⟧ = just two Pennsylvania schools
+⟦163⟧ = Kansas
+⟦164⟧ = Kentucky
+⟦165⟧ = lab
+⟦166⟧ = languages
+⟦167⟧ = Latin
+⟦168⟧ = league
+⟦169⟧ = learning
+⟦170⟧ = level
+⟦171⟧ = locations
+⟦172⟧ = Louisville
+⟦173⟧ = many different electives
+⟦174⟧ = mascot
+⟦175⟧ = math
+⟦176⟧ = media
+⟦177⟧ = member
+⟦178⟧ = Michigan
+⟦179⟧ = min
+⟦180⟧ = Montpelier
+⟦181⟧ = more than 3,000 students
+⟦182⟧ = more than five hundred and fifty students
+⟦183⟧ = name
+⟦184⟧ = Nazareth
+⟦185⟧ = Nazareth Area High School
+⟦186⟧ = Nazareth High School
+⟦187⟧ = needs
+⟦188⟧ = Nevada
+⟦189⟧ = new gymnasium
+⟦190⟧ = North Carolina
+⟦191⟧ = offices
+⟦192⟧ = one Integrated student body
+⟦193⟧ = one or more children
+⟦194⟧ = one to six classes
+⟦195⟧ = one week
+⟦196⟧ = only 150 freshmen
+⟦197⟧ = only two High Tech High schools
+⟦198⟧ = Opening
+⟦199⟧ = opportunities
+⟦200⟧ = organization
+⟦201⟧ = other high schools
+⟦202⟧ = other High Tech High schools
+⟦203⟧ = over 500 students
+⟦204⟧ = over 60 different classes
+⟦205⟧ = part
+⟦206⟧ = passing
+⟦207⟧ = Patrick Henry
+⟦208⟧ = Patrick Henry High
+⟦209⟧ = Patrick Henry High School
+⟦210⟧ = Pennsylvania
+⟦211⟧ = periods
+⟦212⟧ = Philosophy
+⟦213⟧ = population
+⟦214⟧ = preparatory
+⟦215⟧ = program
+⟦216⟧ = project
+⟦217⟧ = project-based learning
+⟦218⟧ = PSSA
+⟦219⟧ = Psychology
+⟦220⟧ = publications
+⟦221⟧ = Rachel's Challenge
+⟦222⟧ = rate
+⟦223⟧ = reference
+⟦224⟧ = renovation
+⟦225⟧ = renovations
+⟦226⟧ = Rockville high schools
+⟦227⟧ = Round Rock
+⟦228⟧ = RRISD
+⟦229⟧ = San Marcos
+⟦230⟧ = school
+⟦231⟧ = Schools
+⟦232⟧ = science
+⟦233⟧ = seniors
+⟦234⟧ = September
+⟦235⟧ = site
+⟦236⟧ = sophomores
+⟦237⟧ = South Johnston High School
+⟦238⟧ = South Tahoe High School
+⟦239⟧ = Spanish
+⟦240⟧ = spring
+⟦241⟧ = state
+⟦242⟧ = state average
+⟦243⟧ = student
+⟦244⟧ = Student enrollment
+⟦245⟧ = student population
+⟦246⟧ = students
+⟦247⟧ = students' homes
+⟦248⟧ = studio
+⟦249⟧ = study
+⟦250⟧ = style
+⟦251⟧ = subjects
+⟦252⟧ = symbol
+⟦253⟧ = teacher
+⟦254⟧ = Team USA
+⟦255⟧ = technology
+⟦256⟧ = test
+⟦257⟧ = tests
+⟦258⟧ = that school year
+⟦259⟧ = the 2006 Bond
+⟦260⟧ = the 2008-2009 school year
+⟦261⟧ = the 2009-2010 school year
+⟦262⟧ = the 2010- 2011 school year
+⟦263⟧ = the 2010-2011 school year
+⟦264⟧ = the 2016-2017 school year
+⟦265⟧ = the 2nd largest school level
+⟦266⟧ = the Abbott Middle School building
+⟦267⟧ = the Advanced Placement International Diploma
+⟦268⟧ = the beginning
+⟦269⟧ = the Blue Eagle and school colors
+⟦270⟧ = The building
+⟦271⟧ = the Christian Educational Consortium
+⟦272⟧ = the classes
+⟦273⟧ = the Cleveland community
+⟦274⟧ = the College Boards Advanced Placement Honor Roll
+⟦275⟧ = the consolidation
+⟦276⟧ = the county
+⟦277⟧ = the course
+⟦278⟧ = The current building
+⟦279⟧ = The current high school
+⟦280⟧ = the current Orchard Lake Middle School
+⟦281⟧ = the dimensions
+⟦282⟧ = the district
+⟦283⟧ = the district's boundaries
+⟦284⟧ = the facility
+⟦285⟧ = the fall
+⟦286⟧ = the ground
+⟦287⟧ = the growth
+⟦288⟧ = the high school
+⟦289⟧ = the high school grade students
+⟦290⟧ = the High Tech High organization
+⟦291⟧ = the history
+⟦292⟧ = the homework
+⟦293⟧ = the junior high school
+⟦294⟧ = the Keystone Award
+⟦295⟧ = the largest high school
+⟦296⟧ = the last four consecutive years
+⟦297⟧ = the locations
+⟦298⟧ = the media center and administrative offices
+⟦299⟧ = the middle school
+⟦300⟧ = the Middle States Association
+⟦301⟧ = the Nazareth Area School District
+⟦302⟧ = the needs
+⟦303⟧ = the Nevada Interscholastic Activities Association
+⟦304⟧ = The Northern 3A league
+⟦305⟧ = the Northern 4A
+⟦306⟧ = the northern half
+⟦307⟧ = The Northern Nevada 3A Region
+⟦308⟧ = the only high school
+⟦309⟧ = the only public high school
+⟦310⟧ = The Orator
+⟦311⟧ = the Pennsylvania Department
+⟦312⟧ = the population
+⟦313⟧ = the Professional Bowlers Association
+⟦314⟧ = The remaining students
+⟦315⟧ = the Round Rock Independent School District
+⟦316⟧ = the same type
+⟦317⟧ = the school
+⟦318⟧ = The school campus
+⟦319⟧ = the school district
+⟦320⟧ = The School Enrollment
+⟦321⟧ = the school week
+⟦322⟧ = the site
+⟦323⟧ = The Spark
+⟦324⟧ = the state
+⟦325⟧ = The student
+⟦326⟧ = the top
+⟦327⟧ = the United States
+⟦328⟧ = The Voice
+⟦329⟧ = the West Bloomfield School District
+⟦330⟧ = the western half
+⟦331⟧ = The western Hanover County high school
+⟦332⟧ = the-art
+⟦333⟧ = theatre
+⟦334⟧ = This addition
+⟦335⟧ = this school
+⟦336⟧ = three classrooms
+⟦337⟧ = THS
+⟦338⟧ = top
+⟦339⟧ = Topeka
+⟦340⟧ = Topeka High School
+⟦341⟧ = Topeka Public Schools
+⟦342⟧ = total
+⟦343⟧ = Tuesday
+⟦344⟧ = two consecutive years
+⟦345⟧ = two new Johnston County School District high schools
+⟦346⟧ = type
+⟦347⟧ = unincorporated Johnston County
+⟦348⟧ = United States
+⟦349⟧ = Virginia
+⟦350⟧ = Wednesday
+⟦351⟧ = week
+⟦352⟧ = West Bloomfield
+⟦353⟧ = West Bloomfield High School
+⟦354⟧ = West Patrick Henry Road
+⟦355⟧ = Wichita State University
+⟦356⟧ = World View
+⟦357⟧ = year
+⟦358⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Christian Educational Consortium] ⟨1⟩⟦271⟧⟨2⟩⟦73⟧⟨3⟩⟦28⟧⟨4⟩⟦230⟧⟨5⟩⟦172⟧⟨6⟩⟦164⟧⟨7⟩
+[Christian Educational Consortium] ⟨8⟩⟦250⟧⟨9⟩⟦230⟧⟨10⟩⟦82⟧⟨11⟩⟦144⟧⟨12⟩⟦246⟧⟨13⟩⟦74⟧⟨14⟩⟦86⟧⟨15⟩⟦130⟧⟨16⟩⟦130⟧⟨17⟩
+[Christian Educational Consortium] ⟦325⟧⟨18⟩⟦243⟧⟨19⟩⟦292⟧⟨20⟩⟦146⟧⟨21⟩⟦277⟧⟨22⟩⟦103⟧⟨23⟩⟦321⟧⟨24⟩⟦230⟧⟨25⟩⟦351⟧⟨26⟩⟦112⟧⟨27⟩⟦85⟧⟨28⟩
+[Christian Educational Consortium] ⟦73⟧⟨29⟩⟦351⟧⟨30⟩⟦343⟧⟨31⟩⟦350⟧⟨32⟩⟦149⟧⟨33⟩⟦71⟧⟨34⟩
+[Christian Educational Consortium] ⟨35⟩⟦263⟧⟨36⟩⟦230⟧⟨37⟩⟦357⟧⟨38⟩⟦51⟧⟨39⟩⟦246⟧⟨40⟩⟦264⟧⟨41⟩⟦230⟧⟨42⟩⟦357⟧⟨43⟩⟦203⟧⟨44⟩⟦246⟧⟨45⟩
+[Christian Educational Consortium] ⟦73⟧⟨46⟩⟦204⟧⟨47⟩⟦86⟧⟨48⟩⟦40⟧⟨49⟩⟦100⟧⟨50⟩⟦251⟧⟨51⟩⟦118⟧⟨52⟩⟦175⟧⟨53⟩⟦175⟧⟨54⟩⟦232⟧⟨55⟩⟦232⟧⟨56⟩⟦143⟧⟨57⟩⟦53⟧⟨58⟩⟦173⟧⟨59⟩⟦116⟧⟨60⟩⟦356⟧⟨61⟩⟦219⟧⟨62⟩⟦160⟧⟨63⟩⟦79⟧⟨64⟩⟦111⟧⟨65⟩⟦212⟧⟨66⟩⟦67⟧⟨67⟩⟦98⟧⟨68⟩
+[Christian Educational Consortium] ⟨69⟩⟦124⟧⟨70⟩⟦166⟧⟨71⟩⟦246⟧⟨72⟩⟦246⟧⟨73⟩⟦239⟧⟨74⟩⟦167⟧⟨75⟩
+[Christian Educational Consortium] ⟨76⟩⟦335⟧⟨77⟩⟦230⟧⟨78⟩⟦194⟧⟨79⟩⟦86⟧⟨80⟩
+[Christian Educational Consortium] ⟨81⟩⟦34⟧⟨82⟩⟦342⟧⟨83⟩⟦115⟧⟨84⟩⟦179⟧⟨85⟩⟦3⟧⟨86⟩⟦179⟧⟨87⟩
+[Christian Educational Consortium] ⟦211⟧⟨88⟩⟦211⟧⟨89⟩⟦343⟧⟨90⟩⟦350⟧⟨91⟩
+[Christian Educational Consortium] ⟦113⟧⟨92⟩⟦253⟧⟨93⟩⟦146⟧⟨94⟩⟦146⟧⟨95⟩⟦195⟧⟨96⟩⟦351⟧⟨97⟩
+[Nazareth Area High School] ⟦186⟧⟨98⟩⟦30⟧⟨99⟩⟦230⟧⟨100⟩⟦184⟧⟨101⟩⟦210⟧⟨102⟩⟦327⟧⟨103⟩
+[Nazareth Area High School] ⟨104⟩⟦308⟧⟨105⟩⟦230⟧⟨106⟩⟦301⟧⟨107⟩⟦130⟧⟨108⟩⟦130⟧⟨109⟩
+[Nazareth Area High School] ⟦153⟧⟨110⟩⟦174⟧⟨111⟩⟦269⟧⟨112⟩⟦230⟧⟨113⟩⟦94⟧⟨114⟩
+[Nazareth Area High School] ⟦244⟧⟨115⟩⟦243⟧⟨116⟩⟦119⟧⟨117⟩⟦263⟧⟨118⟩⟦230⟧⟨119⟩⟦357⟧⟨120⟩⟦50⟧⟨121⟩⟦246⟧⟨122⟩
+[Nazareth Area High School] ⟨123⟩⟦9⟧⟨124⟩⟦249⟧⟨125⟩⟦319⟧⟨126⟩⟦230⟧⟨127⟩⟦109⟧⟨128⟩⟦4⟧⟨129⟩⟦147⟧⟨130⟩⟦147⟧⟨131⟩⟦283⟧⟨132⟩⟦109⟧⟨133⟩⟦62⟧⟨134⟩⟦193⟧⟨135⟩⟦80⟧⟨136⟩⟦288⟧⟨137⟩⟦230⟧⟨138⟩
+[Nazareth Area High School] ⟨139⟩⟦261⟧⟨140⟩⟦230⟧⟨141⟩⟦357⟧⟨142⟩⟦288⟧⟨143⟩⟦230⟧⟨144⟩⟦300⟧⟨145⟩⟦93⟧⟨146⟩⟦231⟧⟨147⟩
+[Nazareth Area High School] ⟨148⟩⟦185⟧⟨149⟩⟦294⟧⟨150⟩⟦311⟧⟨151⟩⟦114⟧⟨152⟩⟦49⟧⟨153⟩⟦344⟧⟨154⟩⟦358⟧⟨155⟩⟦55⟧⟨156⟩⟦218⟧⟨157⟩⟦257⟧⟨158⟩
+[Nazareth Area High School] ⟦185⟧⟨159⟩⟦274⟧⟨160⟩⟦296⟧⟨161⟩⟦358⟧⟨162⟩⟦162⟧⟨163⟩⟦231⟧⟨164⟩
+[Nazareth Area High School] ⟦185⟧⟨165⟩⟦44⟧⟨166⟩⟦256⟧⟨167⟩⟦206⟧⟨168⟩⟦222⟧⟨169⟩⟦7⟧⟨170⟩⟦241⟧⟨171⟩⟦242⟧⟨172⟩⟦58⟧⟨173⟩⟦6⟧⟨174⟩⟦128⟧⟨175⟩⟦58⟧⟨176⟩⟦5⟧⟨177⟩
+[Cleveland High School (North Carolina)] ⟦89⟧⟨178⟩⟦105⟧⟨179⟩⟦347⟧⟨180⟩⟦190⟧⟨181⟩
+[Cleveland High School (North Carolina)] ⟨182⟩⟦273⟧⟨183⟩⟦96⟧⟨184⟩⟦27⟧⟨185⟩⟦38⟧⟨186⟩⟦88⟧⟨187⟩
+[Cleveland High School (North Carolina)] ⟨188⟩⟦262⟧⟨189⟩⟦230⟧⟨190⟩⟦357⟧⟨191⟩
+[Cleveland High School (North Carolina)] ⟨192⟩⟦31⟧⟨193⟩⟦230⟧⟨194⟩⟦205⟧⟨195⟩⟦205⟧⟨196⟩⟦159⟧⟨197⟩
+[Cleveland High School (North Carolina)] ⟦89⟧⟨198⟩⟦205⟧⟨199⟩⟦205⟧⟨200⟩⟦90⟧⟨201⟩⟦42⟧⟨202⟩⟦129⟧⟨203⟩⟦230⟧⟨204⟩
+[Cleveland High School (North Carolina)] ⟨205⟩⟦287⟧⟨206⟩⟦133⟧⟨207⟩⟦243⟧⟨208⟩⟦245⟧⟨209⟩⟦213⟧⟨210⟩⟦158⟧⟨211⟩⟦289⟧⟨212⟩⟦230⟧⟨213⟩⟦129⟧⟨214⟩⟦246⟧⟨215⟩⟦237⟧⟨216⟩⟦201⟧⟨217⟩⟦231⟧⟨218⟩⟦276⟧⟨219⟩⟦102⟧⟨220⟩
+[Cleveland High School (North Carolina)] ⟦314⟧⟨221⟩⟦246⟧⟨222⟩⟦299⟧⟨223⟩⟦230⟧⟨224⟩
+[Cleveland High School (North Carolina)] ⟦279⟧⟨225⟩⟦230⟧⟨226⟩⟦345⟧⟨227⟩⟦231⟧⟨228⟩⟦357⟧⟨229⟩⟦101⟧⟨230⟩
+[Cedar Ridge High School (Texas)] ⟦75⟧⟨231⟩⟦32⟧⟨232⟩⟦230⟧⟨233⟩⟦227⟧⟨234⟩⟦348⟧⟨235⟩
+[Cedar Ridge High School (Texas)] ⟨236⟩⟦263⟧⟨237⟩⟦230⟧⟨238⟩⟦357⟧⟨239⟩⟦317⟧⟨240⟩⟦230⟧⟨241⟩⟦130⟧⟨242⟩⟦130⟧⟨243⟩
+[Cedar Ridge High School (Texas)] ⟦129⟧⟨244⟩⟦129⟧⟨245⟩⟦129⟧⟨246⟩
+[Cedar Ridge High School (Texas)] ⟦317⟧⟨247⟩⟦230⟧⟨248⟩⟦295⟧⟨249⟩⟦230⟧⟨250⟩⟦315⟧⟨251⟩⟦228⟧⟨252⟩⟦77⟧⟨253⟩⟦46⟧⟨254⟩⟦119⟧⟨255⟩⟦181⟧⟨256⟩⟦246⟧⟨257⟩
+[Cedar Ridge High School (Texas)] ⟦39⟧⟨258⟩⟦297⟧⟨259⟩⟦171⟧⟨260⟩⟦246⟧⟨261⟩⟦247⟧⟨262⟩⟦145⟧⟨263⟩⟦282⟧⟨264⟩⟦109⟧⟨265⟩
+[Cedar Ridge High School (Texas)] ⟦270⟧⟨266⟩⟦65⟧⟨267⟩⟦317⟧⟨268⟩⟦230⟧⟨269⟩⟦259⟧⟨270⟩⟦268⟧⟨271⟩⟦60⟧⟨272⟩⟦263⟧⟨273⟩⟦230⟧⟨274⟩⟦357⟧⟨275⟩
+[High Tech High North County] ⟦141⟧⟨276⟩⟦148⟧⟨277⟩⟦13⟧⟨278⟩⟦78⟧⟨279⟩⟦230⟧⟨280⟩⟦229⟧⟨281⟩⟦70⟧⟨282⟩
+[High Tech High North County] ⟨283⟩⟦25⟧⟨284⟩⟦205⟧⟨285⟩⟦290⟧⟨286⟩⟦200⟧⟨287⟩
+[High Tech High North County] ⟨288⟩⟦198⟧⟨289⟩⟦151⟧⟨290⟩⟦85⟧⟨291⟩⟦196⟧⟨292⟩⟦127⟧⟨293⟩⟦317⟧⟨294⟩⟦230⟧⟨295⟩⟦182⟧⟨296⟩⟦246⟧⟨297⟩
+[High Tech High North County] ⟨298⟩⟦357⟧⟨299⟩⟦22⟧⟨300⟩⟦85⟧⟨301⟩
+[High Tech High North County] ⟨302⟩⟦260⟧⟨303⟩⟦230⟧⟨304⟩⟦357⟧⟨305⟩⟦236⟧⟨306⟩⟦236⟧⟨307⟩⟦261⟧⟨308⟩⟦230⟧⟨309⟩⟦357⟧⟨310⟩⟦161⟧⟨311⟩⟦161⟧⟨312⟩⟦263⟧⟨313⟩⟦230⟧⟨314⟩⟦357⟧⟨315⟩⟦233⟧⟨316⟩⟦233⟧⟨317⟩
+[High Tech High North County] ⟨318⟩⟦197⟧⟨319⟩⟦231⟧⟨320⟩⟦286⟧⟨321⟩⟦132⟧⟨322⟩⟦140⟧⟨323⟩
+[High Tech High North County] ⟦317⟧⟨324⟩⟦230⟧⟨325⟩⟦316⟧⟨326⟩⟦346⟧⟨327⟩⟦91⟧⟨328⟩⟦92⟧⟨329⟩⟦214⟧⟨330⟩⟦216⟧⟨331⟩⟦217⟧⟨332⟩⟦169⟧⟨333⟩⟦202⟧⟨334⟩⟦231⟧⟨335⟩
+[Topeka High School] ⟦340⟧⟨336⟩⟦337⟧⟨337⟩⟦17⟧⟨338⟩⟦230⟧⟨339⟩⟦246⟧⟨340⟩⟦246⟧⟨341⟩⟦130⟧⟨342⟩⟦131⟧⟨343⟩⟦339⟧⟨344⟩⟦163⟧⟨345⟩
+[Topeka High School] ⟨346⟩⟦125⟧⟨347⟩⟦231⟧⟨348⟩⟦341⟧⟨349⟩
+[Topeka High School] ⟨350⟩⟦263⟧⟨351⟩⟦230⟧⟨352⟩⟦357⟧⟨353⟩⟦2⟧⟨354⟩⟦246⟧⟨355⟩
+[Northern Nevada 3A Region] ⟦307⟧⟨356⟩⟦25⟧⟨357⟩⟦205⟧⟨358⟩⟦303⟧⟨359⟩⟦306⟧⟨360⟩⟦135⟧⟨361⟩⟦188⟧⟨362⟩⟦139⟧⟨363⟩⟦230⟧⟨364⟩⟦56⟧⟨365⟩
+[Northern Nevada 3A Region] ⟦304⟧⟨366⟩⟦168⟧⟨367⟩⟦265⟧⟨368⟩⟦230⟧⟨369⟩⟦170⟧⟨370⟩⟦231⟧⟨371⟩⟦231⟧⟨372⟩⟦120⟧⟨373⟩⟦120⟧⟨374⟩
+[Northern Nevada 3A Region] ⟨375⟩⟦8⟧⟨376⟩⟦177⟧⟨377⟩⟦231⟧⟨378⟩⟦304⟧⟨379⟩⟦168⟧⟨380⟩⟦263⟧⟨381⟩⟦230⟧⟨382⟩⟦357⟧⟨383⟩
+[Northern Nevada 3A Region] ⟦117⟧⟨384⟩⟦238⟧⟨385⟩⟦83⟧⟨386⟩⟦305⟧⟨387⟩⟦230⟧⟨388⟩⟦357⟧⟨389⟩
+[West Bloomfield High School] ⟦353⟧⟨390⟩⟦32⟧⟨391⟩⟦230⟧⟨392⟩⟦352⟧⟨393⟩⟦178⟧⟨394⟩
+[West Bloomfield High School] ⟦317⟧⟨395⟩⟦230⟧⟨396⟩⟦309⟧⟨397⟩⟦230⟧⟨398⟩⟦329⟧⟨399⟩
+[West Bloomfield High School] ⟦320⟧⟨400⟩⟦263⟧⟨401⟩⟦230⟧⟨402⟩⟦357⟧⟨403⟩
+[West Bloomfield High School] ⟦353⟧⟨404⟩⟦266⟧⟨405⟩⟦65⟧⟨406⟩⟦156⟧⟨407⟩⟦46⟧⟨408⟩⟦119⟧⟨409⟩
+[West Bloomfield High School] ⟨410⟩⟦123⟧⟨411⟩⟦123⟧⟨412⟩⟦240⟧⟨413⟩⟦240⟧⟨414⟩⟦317⟧⟨415⟩⟦230⟧⟨416⟩⟦322⟧⟨417⟩⟦235⟧⟨418⟩⟦280⟧⟨419⟩
+[West Bloomfield High School] ⟦278⟧⟨420⟩⟦65⟧⟨421⟩
+[West Bloomfield High School] ⟦353⟧⟨422⟩⟦267⟧⟨423⟩⟦272⟧⟨424⟩⟦86⟧⟨425⟩
+[West Bloomfield High School] ⟨426⟩⟦35⟧⟨427⟩⟦35⟧⟨428⟩⟦36⟧⟨429⟩⟦104⟧⟨430⟩⟦263⟧⟨431⟩⟦230⟧⟨432⟩⟦357⟧⟨433⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦209⟧⟨434⟩⟦18⟧⟨435⟩⟦230⟧⟨436⟩⟦54⟧⟨437⟩⟦349⟧⟨438⟩⟦136⟧⟨439⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦207⟧⟨440⟩⟦125⟧⟨441⟩⟦231⟧⟨442⟩⟦136⟧⟨443⟩⟦308⟧⟨444⟩⟦230⟧⟨445⟩⟦330⟧⟨446⟩⟦135⟧⟨447⟩⟦276⟧⟨448⟩⟦102⟧⟨449⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦37⟧⟨450⟩⟦37⟧⟨451⟩⟦45⟧⟨452⟩⟦57⟧⟨453⟩⟦87⟧⟨454⟩⟦87⟧⟨455⟩⟦69⟧⟨456⟩⟦69⟧⟨457⟩⟦189⟧⟨458⟩⟦134⟧⟨459⟩⟦225⟧⟨460⟩⟦225⟧⟨461⟩⟦298⟧⟨462⟩⟦176⟧⟨463⟩⟦76⟧⟨464⟩⟦191⟧⟨465⟩⟦41⟧⟨466⟩⟦122⟧⟨467⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨468⟩⟦312⟧⟨469⟩⟦213⟧⟨470⟩⟦302⟧⟨471⟩⟦187⟧⟨472⟩⟦317⟧⟨473⟩⟦230⟧⟨474⟩⟦281⟧⟨475⟩⟦108⟧⟨476⟩⟦317⟧⟨477⟩⟦230⟧⟨478⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦21⟧⟨479⟩⟦35⟧⟨480⟩⟦224⟧⟨481⟩⟦284⟧⟨482⟩⟦122⟧⟨483⟩⟦285⟧⟨484⟩⟦123⟧⟨485⟩⟦241⟧⟨486⟩⟦332⟧⟨487⟩⟦52⟧⟨488⟩⟦72⟧⟨489⟩⟦114⟧⟨490⟩⟦199⟧⟨491⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦334⟧⟨492⟩⟦35⟧⟨493⟩⟦11⟧⟨494⟩⟦64⟧⟨495⟩⟦248⟧⟨496⟩⟦10⟧⟨497⟩⟦255⟧⟨498⟩⟦165⟧⟨499⟩⟦14⟧⟨500⟩⟦95⟧⟨501⟩⟦255⟧⟨502⟩⟦76⟧⟨503⟩⟦16⟧⟨504⟩⟦98⟧⟨505⟩⟦110⟧⟨506⟩⟦165⟧⟨507⟩⟦336⟧⟨508⟩⟦87⟧⟨509⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦207⟧⟨510⟩⟦150⟧⟨511⟩⟦48⟧⟨512⟩⟦234⟧⟨513⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦208⟧⟨514⟩⟦47⟧⟨515⟩⟦215⟧⟨516⟩⟦24⟧⟨517⟩⟦215⟧⟨518⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦208⟧⟨519⟩⟦154⟧⟨520⟩⟦215⟧⟨521⟩⟦326⟧⟨522⟩⟦338⟧⟨523⟩⟦324⟧⟨524⟩⟦241⟧⟨525⟩⟦349⟧⟨526⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨527⟩⟦263⟧⟨528⟩⟦230⟧⟨529⟩⟦357⟧⟨530⟩⟦29⟧⟨531⟩⟦215⟧⟨532⟩⟦221⟧⟨533⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦208⟧⟨534⟩⟦155⟧⟨535⟩⟦333⟧⟨536⟩⟦215⟧⟨537⟩⟦276⟧⟨538⟩⟦102⟧⟨539⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨540⟩⟦358⟧⟨541⟩⟦358⟧⟨542⟩⟦107⟧⟨543⟩⟦107⟧⟨544⟩⟦209⟧⟨545⟩⟦275⟧⟨546⟩⟦99⟧⟨547⟩⟦59⟧⟨548⟩⟦138⟧⟨549⟩⟦180⟧⟨550⟩⟦226⟧⟨551⟩⟦231⟧⟨552⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦331⟧⟨553⟩⟦230⟧⟨554⟩⟦246⟧⟨555⟩⟦246⟧⟨556⟩⟦130⟧⟨557⟩⟦130⟧⟨558⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨559⟩⟦183⟧⟨560⟩⟦317⟧⟨561⟩⟦230⟧⟨562⟩⟦183⟧⟨563⟩⟦152⟧⟨564⟩⟦220⟧⟨565⟩⟦328⟧⟨566⟩⟦323⟧⟨567⟩⟦310⟧⟨568⟩⟦223⟧⟨569⟩⟦291⟧⟨570⟩⟦142⟧⟨571⟩⟦207⟧⟨572⟩⟦137⟧⟨573⟩⟦84⟧⟨574⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦121⟧⟨575⟩⟦230⟧⟨576⟩⟦94⟧⟨577⟩⟦26⟧⟨578⟩⟦252⟧⟨579⟩⟦142⟧⟨580⟩⟦142⟧⟨581⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨582⟩⟦208⟧⟨583⟩⟦157⟧⟨584⟩⟦192⟧⟨585⟩⟦243⟧⟨586⟩⟦61⟧⟨587⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨588⟩⟦23⟧⟨589⟩⟦230⟧⟨590⟩⟦207⟧⟨591⟩⟦258⟧⟨592⟩⟦230⟧⟨593⟩⟦357⟧⟨594⟩⟦33⟧⟨595⟩⟦230⟧⟨596⟩⟦246⟧⟨597⟩⟦130⟧⟨598⟩⟦130⟧⟨599⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟨600⟩⟦293⟧⟨601⟩⟦230⟧⟨602⟩⟦20⟧⟨603⟩⟦230⟧⟨604⟩⟦207⟧⟨605⟩⟦18⟧⟨606⟩⟦230⟧⟨607⟩⟦246⟧⟨608⟩⟦246⟧⟨609⟩⟦130⟧⟨610⟩⟦130⟧⟨611⟩
+[Patrick Henry High School (Ashland, Virginia)] ⟦318⟧⟨612⟩⟦230⟧⟨613⟩⟦71⟧⟨614⟩⟦354⟧⟨615⟩⟦15⟧⟨616⟩⟦97⟧⟨617⟩⟦66⟧⟨618⟩⟦66⟧⟨619⟩⟦12⟧⟨620⟩⟦71⟧⟨621⟩⟦250⟧⟨622⟩⟦230⟧⟨623⟩
+[Chris Barnes (bowler)] ⟦81⟧⟨624⟩⟦339⟧⟨625⟩⟦163⟧⟨626⟩⟦43⟧⟨627⟩⟦63⟧⟨628⟩⟦313⟧⟨629⟩⟦1⟧⟨630⟩
+[Chris Barnes (bowler)] ⟨631⟩⟦340⟧⟨632⟩⟦355⟧⟨633⟩⟦53⟧⟨634⟩⟦106⟧⟨635⟩⟦68⟧⟨636⟩
+[Chris Barnes (bowler)] ⟨637⟩⟦19⟧⟨638⟩⟦177⟧⟨639⟩⟦254⟧⟨640⟩⟦126⟧⟨641⟩⟦358⟧⟨642⟩
+
+[user]
+
+问题：
+How many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

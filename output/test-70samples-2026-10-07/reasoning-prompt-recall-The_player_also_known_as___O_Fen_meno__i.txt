@@ -1,0 +1,194 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Ronaldo (Brazilian footballer)] ⟦265⟧⟨1⟩⟦264⟧⟨2⟩⟦17⟧⟦170⟧⟨3⟩⟨4⟩⟦45⟧⟨5⟩⟨6⟩ | ⟦265⟧ | ⟦265⟧
+[Ronaldo (Brazilian footballer)] ⟨7⟩⟦2⟧⟦165⟧⟨8⟩⟨9⟩⟦342⟧⟨10⟩⟦330⟧⟨12⟩⟨11⟩⟨13⟩⟦59⟧⟨14⟩⟨15⟩
+[Ronaldo (Brazilian footballer)] ⟨16⟩⟦189⟧⟦252⟧⟨17⟩⟨18⟩⟦188⟧⟦143⟧⟨19⟩⟨20⟩⟦285⟧⟦285⟧⟨21⟩⟨22⟩⟦164⟧⟦164⟧⟨23⟩⟨24⟩⟦114⟧⟦167⟧⟨25⟩⟨26⟩
+[Step over] ⟦169⟧ | ⟦350⟧⟦288⟧⟨152⟩⟨153⟩⟦341⟧⟦240⟧⟨154⟩⟨155⟩⟦321⟧⟦131⟧⟨156⟩⟨157⟩⟦347⟧⟦271⟧⟨158⟩⟨159⟩⟦28⟧⟨160⟩⟨161⟩⟦163⟧⟦163⟧⟨162⟩⟨163⟩⟦169⟧⟦169⟧⟨164⟩⟨165⟩⟦24⟧⟨166⟩⟨167⟩⟦340⟧⟨168⟩⟨169⟩⟦250⟧⟦250⟧⟨170⟩⟨171⟩⟦315⟧⟦78⟧⟨172⟩⟨173⟩⟦26⟧⟦138⟧⟨174⟩⟨175⟩
+[Step over] ⟦291⟧ | ⟦227⟧ | ⟦338⟧⟦227⟧⟨176⟩⟨177⟩⟦75⟧⟦291⟧⟨179⟩⟨178⟩⟦323⟧⟦7⟧⟨180⟩⟨181⟩
+[Step over] ⟦247⟧⟦247⟧ | ⟨182⟩⟦161⟧⟨183⟩⟦145⟧⟦247⟧⟨185⟩⟨184⟩⟦147⟧⟨186⟩⟨187⟩⟦339⟧⟦231⟧⟨188⟩⟨189⟩⟦53⟧⟨190⟩⟦205⟧⟨191⟩⟦62⟧⟨192⟩⟦311⟧⟦8⟧⟦8⟧⟨193⟩⟨194⟩
+[Step over] ⟨195⟩⟦336⟧⟦221⟧⟨196⟩⟨197⟩⟦174⟧⟦294⟧⟨199⟩⟨198⟩
+[Step over] ⟦248⟧ | ⟨200⟩⟦353⟧⟦303⟧⟨201⟩⟨202⟩⟦380⟧⟨203⟩⟨204⟩⟦248⟧⟦248⟧⟨205⟩⟨206⟩⟦357⟧⟦381⟧⟨207⟩⟨208⟩⟦124⟧⟨209⟩
+[EAM-2201] ⟦372⟧
+[Silicon boride] ⟦365⟧
+
+符号表：
+⟦2⟧ = "O Fenômeno
+⟦7⟧ = 1900s
+⟦8⟧ = 1930s
+⟦17⟧ = a Brazilian retired professional footballer
+⟦24⟧ = a defensive player
+⟦26⟧ = a direction
+⟦28⟧ = a dribbling move
+⟦45⟧ = a striker
+⟦53⟧ = Adam the Scissorsman
+⟦59⟧ = all time
+⟦62⟧ = Amedeo Biavati
+⟦75⟧ = Argentine striker Pedro Calomino
+⟦78⟧ = ball
+⟦114⟧ = clinical finishing
+⟦124⟧ = Cristiano Ronaldo
+⟦131⟧ = denílson
+⟦138⟧ = direction
+⟦143⟧ = dribbling
+⟦145⟧ = Dutch player Law Adam
+⟦147⟧ = early 1930s
+⟦161⟧ = Europe
+⟦163⟧ = feint
+⟦164⟧ = feints
+⟦165⟧ = Fenômeno
+⟦167⟧ = finishing
+⟦169⟧ = football
+⟦170⟧ = footballer
+⟦174⟧ = global superstar Ronaldo
+⟦188⟧ = his dribbling
+⟦189⟧ = his prime
+⟦205⟧ = Italy
+⟦221⟧ = mid-1990s
+⟦227⟧ = move
+⟦231⟧ = nickname
+⟦240⟧ = pedalada
+⟦247⟧ = player
+⟦248⟧ = players
+⟦250⟧ = possession
+⟦252⟧ = prime
+⟦264⟧ = Ronaldo
+⟦265⟧ = Ronaldo Luís Nazário de Lima
+⟦271⟧ = scissors
+⟦285⟧ = speed
+⟦288⟧ = step
+⟦291⟧ = striker
+⟦294⟧ = superstar
+⟦303⟧ = technique
+⟦311⟧ = the 1930s
+⟦315⟧ = the ball
+⟦321⟧ = the denílson
+⟦323⟧ = the early 1900s
+⟦330⟧ = the greatest football players
+⟦336⟧ = the mid-1990s
+⟦338⟧ = The move
+⟦339⟧ = the nickname
+⟦340⟧ = the offensive player
+⟦341⟧ = the pedalada
+⟦342⟧ = The Phenomenon
+⟦347⟧ = the scissors
+⟦350⟧ = The step
+⟦353⟧ = the technique
+⟦357⟧ = the world
+⟦365⟧ = time
+⟦372⟧ = use
+⟦380⟧ = widespread use
+⟦381⟧ = world
+
+占位符映射：
+⟨1⟩ =  (] ; born 18 September 1976), commonly known as 
+⟨2⟩ = , is 
+⟨3⟩ = 
+⟨4⟩ =  who played as 
+⟨5⟩ = 
+⟨6⟩ = .
+⟨7⟩ =  Popularly dubbed 
+⟨8⟩ = 
+⟨9⟩ = " (
+⟨10⟩ = ), he is widely considered to be one of 
+⟨11⟩ = 
+⟨12⟩ =  
+⟨13⟩ =  of 
+⟨14⟩ = 
+⟨15⟩ = .
+⟨16⟩ =  In 
+⟨17⟩ = 
+⟨18⟩ = , he was known for 
+⟨19⟩ = 
+⟨20⟩ =  at 
+⟨21⟩ = 
+⟨22⟩ = , 
+⟨23⟩ = 
+⟨24⟩ = , and 
+⟨25⟩ = 
+⟨26⟩ = .
+⟨152⟩ = 
+⟨153⟩ =  over (also known as 
+⟨154⟩ = 
+⟨155⟩ = , 
+⟨156⟩ = 
+⟨157⟩ = , or 
+⟨158⟩ = 
+⟨159⟩ = ) is 
+⟨160⟩ = 
+⟨161⟩ = , or 
+⟨162⟩ = 
+⟨163⟩ = , in 
+⟨164⟩ = 
+⟨165⟩ = , used to fool 
+⟨166⟩ = 
+⟨167⟩ =  into thinking 
+⟨168⟩ = 
+⟨169⟩ = , in 
+⟨170⟩ = 
+⟨171⟩ =  of 
+⟨172⟩ = 
+⟨173⟩ = , is going to move in 
+⟨174⟩ = 
+⟨175⟩ =  he does not intend to move in.
+⟨176⟩ = 
+⟨177⟩ =  was reportedly invented by 
+⟨178⟩ = 
+⟨179⟩ =  Pedro Calomino in 
+⟨180⟩ = 
+⟨181⟩ = .
+⟨182⟩ =  It was reportedly first used in 
+⟨183⟩ =  by 
+⟨184⟩ = 
+⟨185⟩ =  Law Adam, who was famous for it in the late 1920s/
+⟨186⟩ = 
+⟨187⟩ = , earning 
+⟨188⟩ = 
+⟨189⟩ =  "
+⟨190⟩ = ", and it was later also used in 
+⟨191⟩ =  by 
+⟨192⟩ =  in 
+⟨193⟩ = 
+⟨194⟩ = .
+⟨195⟩ =  It was popularised in 
+⟨196⟩ = 
+⟨197⟩ =  by 
+⟨198⟩ = 
+⟨199⟩ =  Ronaldo.
+⟨200⟩ =  Nowadays, 
+⟨201⟩ = 
+⟨202⟩ =  is in 
+⟨203⟩ = 
+⟨204⟩ =  by attacking 
+⟨205⟩ = 
+⟨206⟩ =  all over 
+⟨207⟩ = 
+⟨208⟩ = , such as 
+⟨209⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The player also known as  "O Fenômeno" is responsible for popularized a soccer move first reported to be used by what player?

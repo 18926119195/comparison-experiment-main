@@ -1,0 +1,311 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = ' s final Associated Press Poll
+⟦2⟧ = ' s final Associated Press Poll and Coaches' Poll
+⟦3⟧ = (Ga.
+⟦4⟧ = 11th
+⟦5⟧ = 14 consecutive Georgetown NCAA Tournament appearances
+⟦6⟧ = 14 consecutive NCAA Tournament appearances
+⟦7⟧ = 17 years
+⟦8⟧ = 18 years
+⟦9⟧ = 1992–93
+⟦10⟧ = 32 teams
+⟦11⟧ = a bye
+⟦12⟧ = a doctoral degree
+⟦13⟧ = a No. 2 seed
+⟦14⟧ = a No. 6 seed
+⟦15⟧ = a private university
+⟦16⟧ = a record
+⟦17⟧ = a row
+⟦18⟧ = a score
+⟦19⟧ = a single-elimination format
+⟦20⟧ = a string
+⟦21⟧ = an at-large bid
+⟦22⟧ = an invitation
+⟦23⟧ = an NCAA Men's Division I Basketball Tournament bid
+⟦24⟧ = appearance
+⟦25⟧ = appearances
+⟦26⟧ = basketball
+⟦27⟧ = basketball season
+⟦28⟧ = bid
+⟦29⟧ = Big East play
+⟦30⟧ = Big East rival St. John
+⟦31⟧ = bye
+⟦32⟧ = campus
+⟦33⟧ = champions
+⟦34⟧ = championship
+⟦35⟧ = chiropractic
+⟦36⟧ = Chiropractic degree
+⟦37⟧ = coach
+⟦38⟧ = college
+⟦39⟧ = Connecticut
+⟦40⟧ = Craig Esherick
+⟦41⟧ = D.C
+⟦42⟧ = DC
+⟦43⟧ = degree
+⟦44⟧ = Duke
+⟦45⟧ = elimination
+⟦46⟧ = fields
+⟦47⟧ = final
+⟦48⟧ = format
+⟦49⟧ = game
+⟦50⟧ = games
+⟦51⟧ = Georgetown
+⟦52⟧ = Georgetown College
+⟦53⟧ = Georgetown men's basketball history
+⟦54⟧ = Georgetown University
+⟦55⟧ = Georgetown' s 16th NCAA Tournament appearance
+⟦56⟧ = Georgetown' s 17th NCAA Tournament appearance
+⟦57⟧ = Georgetown's fourth NIT appearance
+⟦58⟧ = Georgia
+⟦59⟧ = graduate
+⟦60⟧ = head
+⟦61⟧ = head coach
+⟦62⟧ = health
+⟦63⟧ = health and wellness-oriented fields
+⟦64⟧ = his 17th season
+⟦65⟧ = his 21st season
+⟦66⟧ = his 23rd season
+⟦67⟧ = his 24th season
+⟦68⟧ = his 27th season
+⟦69⟧ = history
+⟦70⟧ = home
+⟦71⟧ = invitation
+⟦72⟧ = its first losing record
+⟦73⟧ = January
+⟦74⟧ = John Thompson
+⟦75⟧ = Jr.
+⟦76⟧ = Ky.
+⟦77⟧ = Landover
+⟦78⟧ = Life
+⟦79⟧ = Life University
+⟦80⟧ = losing
+⟦81⟧ = March
+⟦82⟧ = Marietta
+⟦83⟧ = Maryland
+⟦84⟧ = Massachusetts
+⟦85⟧ = masters
+⟦86⟧ = McDonough Gymnasium
+⟦87⟧ = members
+⟦88⟧ = men
+⟦89⟧ = Miami
+⟦90⟧ = Minnesota
+⟦91⟧ = neither the NCAA Tournament
+⟦92⟧ = NIT
+⟦93⟧ = No
+⟦94⟧ = no postseason play
+⟦95⟧ = No. 1 seed
+⟦96⟧ = No. 2 seed
+⟦97⟧ = North Carolina
+⟦98⟧ = Oklahoma
+⟦99⟧ = one
+⟦100⟧ = one home game
+⟦101⟧ = overtime
+⟦102⟧ = play
+⟦103⟧ = postseason
+⟦104⟧ = Princeton
+⟦105⟧ = program
+⟦106⟧ = programs
+⟦107⟧ = quarterfinals
+⟦108⟧ = record
+⟦109⟧ = region
+⟦110⟧ = rival
+⟦111⟧ = round
+⟦112⟧ = row
+⟦113⟧ = score
+⟦114⟧ = season
+⟦115⟧ = seed
+⟦116⟧ = semifinal
+⟦117⟧ = semifinals
+⟦118⟧ = Seton Hall
+⟦119⟧ = six years
+⟦120⟧ = some home games
+⟦121⟧ = string
+⟦122⟧ = suburb
+⟦123⟧ = Syracuse
+⟦124⟧ = team
+⟦125⟧ = teams
+⟦126⟧ = the 11th
+⟦127⟧ = the 1972-73 season
+⟦128⟧ = the 1973-74 season
+⟦129⟧ = the 1977-78 season
+⟦130⟧ = The 1988–89 Georgetown Hoyas men's basketball team
+⟦131⟧ = the 1989 Big East Men's Basketball Tournament
+⟦132⟧ = the 1989 NCAA Men's Division I Basketball Tournament
+⟦133⟧ = the 1992-93 season
+⟦134⟧ = The 1992–93 Georgetown Hoyas men's basketball team
+⟦135⟧ = the 1992–93 NCAA Division
+⟦136⟧ = the 1993 Big East Men's Basketball Tournament
+⟦137⟧ = the 1993 National Invitation Tournament
+⟦138⟧ = The 1994–95 Georgetown Hoyas men's basketball team
+⟦139⟧ = the 1995 Big East Men's Basketball Tournament
+⟦140⟧ = the 1995 NCAA Men's Division I Basketball Tournament
+⟦141⟧ = The 1995–96 Georgetown Hoyas men's basketball team
+⟦142⟧ = the 1996 Big East Men's Basketball Tournament
+⟦143⟧ = the 1996 NCAA Men's Division I Basketball Tournament
+⟦144⟧ = the 1996-97 season
+⟦145⟧ = The 1998–99 Georgetown Hoyas men's basketball team
+⟦146⟧ = the 1998–99 NCAA Division
+⟦147⟧ = the 1999 Big East Men's Basketball Tournament
+⟦148⟧ = the 1999 National Invitation Tournament
+⟦149⟧ = The 2000–01 Georgetown Hoyas men's basketball team
+⟦150⟧ = the 2000–2001 NCAA Division
+⟦151⟧ = the 2001 Big East Men's Basketball Tournament
+⟦152⟧ = the 2001 NCAA Tournament
+⟦153⟧ = The 2001–02 Georgetown Hoyas men's basketball team
+⟦154⟧ = the 2002 Big East Men's Basketball Tournament
+⟦155⟧ = the 2002 National Invitation Tournament
+⟦156⟧ = the 2002 NCAA Men's Division I Basketball Tournament
+⟦157⟧ = The 2002–03 Georgetown Hoyas men's basketball team
+⟦158⟧ = the 2002–2003 NCAA Division
+⟦159⟧ = the 2003 Big East Men's Basketball Tournament
+⟦160⟧ = the 2003 NIT
+⟦161⟧ = the 2005-06 season
+⟦162⟧ = The 63rd annual NAIA basketball tournament
+⟦163⟧ = The 63rd NAIA Men's Division I Basketball Tournament
+⟦164⟧ = the Atlanta suburb
+⟦165⟧ = the Big East 7 Division
+⟦166⟧ = the Big East Conference
+⟦167⟧ = the Big East regular season champions
+⟦168⟧ = the Capital Centre
+⟦169⟧ = The championship game
+⟦170⟧ = the East Region
+⟦171⟧ = the East Regional
+⟦172⟧ = the East Regional Final
+⟦173⟧ = the final game
+⟦174⟧ = the first Georgetown men's basketball team
+⟦175⟧ = the first round
+⟦176⟧ = the first team
+⟦177⟧ = the first time
+⟦178⟧ = the Georgetown campus
+⟦179⟧ = The Hoyas
+⟦180⟧ = the largest single campus chiropractic college
+⟦181⟧ = the last one
+⟦182⟧ = the MCI Center
+⟦183⟧ = the National Invitation Tournament
+⟦184⟧ = the NCAA Men's Division I Basketball Tournament
+⟦185⟧ = the NIT
+⟦186⟧ = the NIT final
+⟦187⟧ = the No. 1 seed
+⟦188⟧ = the postseason Coaches' Poll
+⟦189⟧ = the previous season
+⟦190⟧ = the quarterfinals
+⟦191⟧ = the region′s
+⟦192⟧ = the regular-season champions
+⟦193⟧ = the season
+⟦194⟧ = the second Georgetown men' s basketball team
+⟦195⟧ = the second year
+⟦196⟧ = the sixth Big East Tournament championship
+⟦197⟧ = the Southeast Region
+⟦198⟧ = the Southeast Region Semifinals
+⟦199⟧ = the tournament semifinal
+⟦200⟧ = the Tulsa Convention Center
+⟦201⟧ = the West Division
+⟦202⟧ = the West Region semifinals
+⟦203⟧ = the world
+⟦204⟧ = their first NIT appearance
+⟦205⟧ = their home games
+⟦206⟧ = Their record
+⟦207⟧ = their second consecutive appearance
+⟦208⟧ = time
+⟦209⟧ = tournament
+⟦210⟧ = Tulsa
+⟦211⟧ = two games
+⟦212⟧ = undergraduate
+⟦213⟧ = undergraduate and graduate programs
+⟦214⟧ = United States
+⟦215⟧ = university
+⟦216⟧ = USAir Arena
+⟦217⟧ = Washington
+⟦218⟧ = wellness
+⟦219⟧ = world
+⟦220⟧ = year
+⟦221⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[2001–02 Georgetown Hoyas men's basketball team] ⟦153⟧⟨1⟩⟦88⟧⟨2⟩⟦26⟧⟨3⟩⟦124⟧⟨4⟩⟦54⟧⟨5⟩⟦26⟧⟨6⟩⟦114⟧⟨7⟩
+[2001–02 Georgetown Hoyas men's basketball team] ⟦179⟧⟨8⟩⟦40⟧⟨9⟩⟦205⟧⟨10⟩⟦70⟧⟨11⟩⟦50⟧⟨12⟩⟦182⟧⟨13⟩⟦217⟧⟨14⟩⟦42⟧⟨15⟩⟦120⟧⟨16⟩⟦70⟧⟨17⟩⟦50⟧⟨18⟩⟦193⟧⟨19⟩⟦114⟧⟨20⟩⟦86⟧⟨21⟩⟦178⟧⟨22⟩⟦32⟧⟨23⟩
+[2001–02 Georgetown Hoyas men's basketball team] ⟦179⟧⟨24⟩⟦87⟧⟨25⟩⟦87⟧⟨26⟩⟦201⟧⟨27⟩⟦166⟧⟨28⟩
+[2001–02 Georgetown Hoyas men's basketball team] ⟨29⟩⟦193⟧⟨30⟩⟦114⟧⟨31⟩⟦29⟧⟨32⟩⟦102⟧⟨33⟩
+[2001–02 Georgetown Hoyas men's basketball team] ⟨34⟩⟦190⟧⟨35⟩⟦107⟧⟨36⟩⟦154⟧⟨37⟩⟦89⟧⟨38⟩⟦101⟧⟨39⟩⟦101⟧⟨40⟩
+[2001–02 Georgetown Hoyas men's basketball team] ⟨41⟩⟦21⟧⟨42⟩⟦28⟧⟨43⟩⟦156⟧⟨44⟩⟦51⟧⟨45⟩⟦22⟧⟨46⟩⟦71⟧⟨47⟩⟦155⟧⟨48⟩⟦92⟧⟨49⟩⟦94⟧⟨50⟩⟦103⟧⟨51⟩⟦102⟧⟨52⟩⟦174⟧⟨53⟩⟦88⟧⟨54⟩⟦26⟧⟨55⟩⟦124⟧⟨56⟩⟦128⟧⟨57⟩⟦114⟧⟨58⟩⟦91⟧⟨59⟩⟦185⟧⟨60⟩
+[2000–01 Georgetown Hoyas men's basketball team] ⟦149⟧⟨61⟩⟦88⟧⟨62⟩⟦26⟧⟨63⟩⟦124⟧⟨64⟩⟦54⟧⟨65⟩⟦150⟧⟨66⟩⟦26⟧⟨67⟩⟦27⟧⟨68⟩⟦114⟧⟨69⟩
+[2000–01 Georgetown Hoyas men's basketball team] ⟦179⟧⟨70⟩⟦40⟧⟨71⟩⟦205⟧⟨72⟩⟦70⟧⟨73⟩⟦50⟧⟨74⟩⟦182⟧⟨75⟩⟦217⟧⟨76⟩⟦42⟧⟨77⟩⟦120⟧⟨78⟩⟦70⟧⟨79⟩⟦50⟧⟨80⟩⟦193⟧⟨81⟩⟦114⟧⟨82⟩⟦86⟧⟨83⟩⟦178⟧⟨84⟩⟦32⟧⟨85⟩
+[2000–01 Georgetown Hoyas men's basketball team] ⟦179⟧⟨86⟩⟦87⟧⟨87⟩⟦87⟧⟨88⟩⟦201⟧⟨89⟩⟦166⟧⟨90⟩
+[2000–01 Georgetown Hoyas men's basketball team] ⟨91⟩⟦193⟧⟨92⟩⟦114⟧⟨93⟩⟦29⟧⟨94⟩⟦102⟧⟨95⟩
+[2000–01 Georgetown Hoyas men's basketball team] ⟦206⟧⟨96⟩⟦108⟧⟨97⟩⟦11⟧⟨98⟩⟦31⟧⟨99⟩⟦175⟧⟨100⟩⟦111⟧⟨101⟩⟦151⟧⟨102⟩⟦118⟧⟨103⟩⟦190⟧⟨104⟩⟦107⟧⟨105⟩
+[2000–01 Georgetown Hoyas men's basketball team] ⟦174⟧⟨106⟩⟦88⟧⟨107⟩⟦26⟧⟨108⟩⟦124⟧⟨109⟩⟦184⟧⟨110⟩⟦144⟧⟨111⟩⟦114⟧⟨112⟩⟦181⟧⟨113⟩⟦99⟧⟨114⟩⟦161⟧⟨115⟩⟦114⟧⟨116⟩⟦202⟧⟨117⟩⟦117⟧⟨118⟩⟦152⟧⟨119⟩⟦83⟧⟨120⟩
+[2002–03 Georgetown Hoyas men's basketball team] ⟦157⟧⟨121⟩⟦88⟧⟨122⟩⟦26⟧⟨123⟩⟦124⟧⟨124⟩⟦54⟧⟨125⟩⟦158⟧⟨126⟩⟦26⟧⟨127⟩⟦27⟧⟨128⟩⟦114⟧⟨129⟩
+[2002–03 Georgetown Hoyas men's basketball team] ⟦179⟧⟨130⟩⟦40⟧⟨131⟩⟦205⟧⟨132⟩⟦70⟧⟨133⟩⟦50⟧⟨134⟩⟦182⟧⟨135⟩⟦217⟧⟨136⟩⟦42⟧⟨137⟩
+[2002–03 Georgetown Hoyas men's basketball team] ⟦179⟧⟨138⟩⟦87⟧⟨139⟩⟦87⟧⟨140⟩⟦201⟧⟨141⟩⟦166⟧⟨142⟩
+[2002–03 Georgetown Hoyas men's basketball team] ⟨143⟩⟦193⟧⟨144⟩⟦114⟧⟨145⟩⟦29⟧⟨146⟩⟦102⟧⟨147⟩
+[2002–03 Georgetown Hoyas men's basketball team] ⟨148⟩⟦190⟧⟨149⟩⟦107⟧⟨150⟩⟦159⟧⟨151⟩⟦123⟧⟨152⟩
+[2002–03 Georgetown Hoyas men's basketball team] ⟨153⟩⟦183⟧⟨154⟩⟦92⟧⟨155⟩⟦189⟧⟨156⟩⟦114⟧⟨157⟩⟦22⟧⟨158⟩⟦71⟧⟨159⟩⟦160⟧⟨160⟩⟦23⟧⟨161⟩⟦28⟧⟨162⟩
+[2002–03 Georgetown Hoyas men's basketball team] ⟨163⟩⟦57⟧⟨164⟩⟦24⟧⟨165⟩⟦119⟧⟨166⟩⟦221⟧⟨167⟩⟦194⟧⟨168⟩⟦88⟧⟨169⟩⟦26⟧⟨170⟩⟦124⟧⟨171⟩⟦69⟧⟨172⟩⟦69⟧⟨173⟩⟦186⟧⟨174⟩⟦47⟧⟨175⟩⟦133⟧⟨176⟩⟦114⟧⟨177⟩⟦30⟧⟨178⟩⟦110⟧⟨179⟩
+[1994–95 Georgetown Hoyas men's basketball team] ⟦138⟧⟨180⟩⟦88⟧⟨181⟩⟦26⟧⟨182⟩⟦124⟧⟨183⟩⟦54⟧⟨184⟩⟦26⟧⟨185⟩⟦114⟧⟨186⟩
+[1994–95 Georgetown Hoyas men's basketball team] ⟦74⟧⟨187⟩⟦75⟧⟨188⟩⟦66⟧⟨189⟩⟦114⟧⟨190⟩⟦60⟧⟨191⟩⟦61⟧⟨192⟩⟦37⟧⟨193⟩
+[1994–95 Georgetown Hoyas men's basketball team] ⟨194⟩⟦205⟧⟨195⟩⟦70⟧⟨196⟩⟦50⟧⟨197⟩⟦216⟧⟨198⟩⟦77⟧⟨199⟩⟦83⟧⟨200⟩
+[1994–95 Georgetown Hoyas men's basketball team] ⟨201⟩⟦87⟧⟨202⟩⟦87⟧⟨203⟩⟦166⟧⟨204⟩⟦193⟧⟨205⟩⟦114⟧⟨206⟩⟦16⟧⟨207⟩⟦108⟧⟨208⟩⟦29⟧⟨209⟩⟦102⟧⟨210⟩
+[1994–95 Georgetown Hoyas men's basketball team] ⟦206⟧⟨211⟩⟦108⟧⟨212⟩⟦11⟧⟨213⟩⟦31⟧⟨214⟩⟦175⟧⟨215⟩⟦111⟧⟨216⟩⟦139⟧⟨217⟩⟦199⟧⟨218⟩⟦209⟧⟨219⟩⟦116⟧⟨220⟩⟦39⟧⟨221⟩
+[1994–95 Georgetown Hoyas men's basketball team] ⟨222⟩⟦14⟧⟨223⟩⟦93⟧⟨224⟩⟦115⟧⟨225⟩⟦197⟧⟨226⟩⟦140⟧⟨227⟩⟦55⟧⟨228⟩⟦24⟧⟨229⟩⟦7⟧⟨230⟩⟦221⟧⟨231⟩⟦198⟧⟨232⟩⟦109⟧⟨233⟩⟦109⟧⟨234⟩⟦93⟧⟨235⟩⟦96⟧⟨236⟩⟦115⟧⟨237⟩⟦97⟧⟨238⟩
+[1994–95 Georgetown Hoyas men's basketball team] ⟨239⟩⟦93⟧⟨240⟩⟦193⟧⟨241⟩⟦114⟧⟨242⟩⟦1⟧⟨243⟩⟦188⟧⟨244⟩⟦103⟧⟨245⟩
+[1995–96 Georgetown Hoyas men's basketball team] ⟦141⟧⟨246⟩⟦88⟧⟨247⟩⟦26⟧⟨248⟩⟦124⟧⟨249⟩⟦54⟧⟨250⟩⟦26⟧⟨251⟩⟦114⟧⟨252⟩
+[1995–96 Georgetown Hoyas men's basketball team] ⟦74⟧⟨253⟩⟦75⟧⟨254⟩⟦67⟧⟨255⟩⟦114⟧⟨256⟩⟦60⟧⟨257⟩⟦61⟧⟨258⟩⟦37⟧⟨259⟩
+[1995–96 Georgetown Hoyas men's basketball team] ⟨260⟩⟦205⟧⟨261⟩⟦70⟧⟨262⟩⟦50⟧⟨263⟩⟦216⟧⟨264⟩⟦77⟧⟨265⟩⟦83⟧⟨266⟩
+[1995–96 Georgetown Hoyas men's basketball team] ⟨267⟩⟦87⟧⟨268⟩⟦87⟧⟨269⟩⟦165⟧⟨270⟩⟦166⟧⟨271⟩⟦192⟧⟨272⟩⟦114⟧⟨273⟩⟦33⟧⟨274⟩⟦165⟧⟨275⟩⟦193⟧⟨276⟩⟦114⟧⟨277⟩⟦16⟧⟨278⟩⟦108⟧⟨279⟩⟦29⟧⟨280⟩⟦102⟧⟨281⟩
+[1995–96 Georgetown Hoyas men's basketball team] ⟦206⟧⟨282⟩⟦108⟧⟨283⟩⟦11⟧⟨284⟩⟦31⟧⟨285⟩⟦175⟧⟨286⟩⟦111⟧⟨287⟩⟦142⟧⟨288⟩⟦209⟧⟨289⟩⟦39⟧⟨290⟩
+[1995–96 Georgetown Hoyas men's basketball team] ⟨291⟩⟦13⟧⟨292⟩⟦93⟧⟨293⟩⟦115⟧⟨294⟩⟦171⟧⟨295⟩⟦143⟧⟨296⟩⟦56⟧⟨297⟩⟦24⟧⟨298⟩⟦8⟧⟨299⟩⟦221⟧⟨300⟩⟦172⟧⟨301⟩⟦93⟧⟨302⟩⟦95⟧⟨303⟩⟦115⟧⟨304⟩⟦84⟧⟨305⟩
+[1995–96 Georgetown Hoyas men's basketball team] ⟨306⟩⟦93⟧⟨307⟩⟦93⟧⟨308⟩⟦193⟧⟨309⟩⟦114⟧⟨310⟩⟦1⟧⟨311⟩⟦93⟧⟨312⟩⟦93⟧⟨313⟩⟦188⟧⟨314⟩⟦103⟧⟨315⟩
+[1998–99 Georgetown Hoyas men's basketball team] ⟦145⟧⟨316⟩⟦88⟧⟨317⟩⟦26⟧⟨318⟩⟦124⟧⟨319⟩⟦54⟧⟨320⟩⟦146⟧⟨321⟩⟦26⟧⟨322⟩⟦27⟧⟨323⟩⟦114⟧⟨324⟩
+[1998–99 Georgetown Hoyas men's basketball team] ⟨325⟩⟦74⟧⟨326⟩⟦75⟧⟨327⟩⟦68⟧⟨328⟩⟦114⟧⟨329⟩⟦60⟧⟨330⟩⟦61⟧⟨331⟩⟦37⟧⟨332⟩⟦73⟧⟨333⟩⟦40⟧⟨334⟩
+[1998–99 Georgetown Hoyas men's basketball team] ⟦179⟧⟨335⟩⟦205⟧⟨336⟩⟦70⟧⟨337⟩⟦50⟧⟨338⟩⟦182⟧⟨339⟩⟦217⟧⟨340⟩⟦42⟧⟨341⟩⟦100⟧⟨342⟩⟦70⟧⟨343⟩⟦49⟧⟨344⟩⟦86⟧⟨345⟩⟦178⟧⟨346⟩⟦32⟧⟨347⟩
+[1998–99 Georgetown Hoyas men's basketball team] ⟨348⟩⟦87⟧⟨349⟩⟦87⟧⟨350⟩⟦166⟧⟨351⟩⟦193⟧⟨352⟩⟦114⟧⟨353⟩⟦29⟧⟨354⟩⟦102⟧⟨355⟩
+[1998–99 Georgetown Hoyas men's basketball team] ⟨356⟩⟦190⟧⟨357⟩⟦107⟧⟨358⟩⟦147⟧⟨359⟩⟦89⟧⟨360⟩
+[1998–99 Georgetown Hoyas men's basketball team] ⟨361⟩⟦184⟧⟨362⟩⟦195⟧⟨363⟩⟦220⟧⟨364⟩⟦17⟧⟨365⟩⟦112⟧⟨366⟩⟦148⟧⟨367⟩⟦92⟧⟨368⟩⟦207⟧⟨369⟩⟦24⟧⟨370⟩⟦185⟧⟨371⟩⟦104⟧⟨372⟩⟦175⟧⟨373⟩⟦111⟧⟨374⟩
+[1998–99 Georgetown Hoyas men's basketball team] ⟦51⟧⟨375⟩⟦72⟧⟨376⟩⟦80⟧⟨377⟩⟦108⟧⟨378⟩⟦127⟧⟨379⟩⟦114⟧⟨380⟩
+[1992–93 Georgetown Hoyas men's basketball team] ⟦134⟧⟨381⟩⟦9⟧⟨382⟩⟦88⟧⟨383⟩⟦26⟧⟨384⟩⟦124⟧⟨385⟩⟦54⟧⟨386⟩⟦135⟧⟨387⟩⟦26⟧⟨388⟩⟦27⟧⟨389⟩⟦114⟧⟨390⟩
+[1992–93 Georgetown Hoyas men's basketball team] ⟦74⟧⟨391⟩⟦75⟧⟨392⟩⟦65⟧⟨393⟩⟦114⟧⟨394⟩⟦60⟧⟨395⟩⟦61⟧⟨396⟩⟦37⟧⟨397⟩
+[1992–93 Georgetown Hoyas men's basketball team] ⟨398⟩⟦205⟧⟨399⟩⟦70⟧⟨400⟩⟦50⟧⟨401⟩⟦168⟧⟨402⟩⟦77⟧⟨403⟩⟦83⟧⟨404⟩⟦211⟧⟨405⟩⟦50⟧⟨406⟩⟦86⟧⟨407⟩⟦178⟧⟨408⟩⟦32⟧⟨409⟩⟦217⟧⟨410⟩⟦41⟧⟨411⟩
+[1992–93 Georgetown Hoyas men's basketball team] ⟨412⟩⟦87⟧⟨413⟩⟦87⟧⟨414⟩⟦166⟧⟨415⟩⟦193⟧⟨416⟩⟦114⟧⟨417⟩⟦16⟧⟨418⟩⟦108⟧⟨419⟩⟦29⟧⟨420⟩⟦102⟧⟨421⟩
+[1992–93 Georgetown Hoyas men's basketball team] ⟨422⟩⟦190⟧⟨423⟩⟦107⟧⟨424⟩⟦136⟧⟨425⟩⟦118⟧⟨426⟩
+[1992–93 Georgetown Hoyas men's basketball team] ⟨427⟩⟦184⟧⟨428⟩⟦177⟧⟨429⟩⟦208⟧⟨430⟩⟦129⟧⟨431⟩⟦114⟧⟨432⟩⟦20⟧⟨433⟩⟦121⟧⟨434⟩⟦6⟧⟨435⟩⟦25⟧⟨436⟩⟦137⟧⟨437⟩⟦92⟧⟨438⟩⟦204⟧⟨439⟩⟦24⟧⟨440⟩⟦176⟧⟨441⟩⟦124⟧⟨442⟩⟦53⟧⟨443⟩⟦88⟧⟨444⟩⟦26⟧⟨445⟩⟦69⟧⟨446⟩⟦186⟧⟨447⟩⟦47⟧⟨448⟩⟦90⟧⟨449⟩
+[Life University] ⟦79⟧⟨450⟩⟦15⟧⟨451⟩⟦215⟧⟨452⟩⟦164⟧⟨453⟩⟦122⟧⟨454⟩⟦82⟧⟨455⟩⟦58⟧⟨456⟩⟦214⟧⟨457⟩⟦85⟧⟨458⟩⟦85⟧⟨459⟩⟦12⟧⟨460⟩⟦43⟧⟨461⟩
+[Life University] ⟨462⟩⟦212⟧⟨463⟩⟦213⟧⟨464⟩⟦59⟧⟨465⟩⟦106⟧⟨466⟩⟦62⟧⟨467⟩⟦63⟧⟨468⟩⟦218⟧⟨469⟩⟦46⟧⟨470⟩⟦79⟧⟨471⟩⟦36⟧⟨472⟩⟦43⟧⟨473⟩⟦105⟧⟨474⟩
+[Life University] ⟨475⟩⟦180⟧⟨476⟩⟦32⟧⟨477⟩⟦35⟧⟨478⟩⟦38⟧⟨479⟩⟦203⟧⟨480⟩⟦219⟧⟨481⟩
+[2000 NAIA Division I Men's Basketball Tournament] ⟦163⟧⟨482⟩⟦81⟧⟨483⟩⟦200⟧⟨484⟩⟦210⟧⟨485⟩⟦98⟧⟨486⟩
+[2000 NAIA Division I Men's Basketball Tournament] ⟦162⟧⟨487⟩⟦26⟧⟨488⟩⟦209⟧⟨489⟩⟦10⟧⟨490⟩⟦125⟧⟨491⟩⟦19⟧⟨492⟩⟦45⟧⟨493⟩⟦48⟧⟨494⟩
+[2000 NAIA Division I Men's Basketball Tournament] ⟦169⟧⟨495⟩⟦34⟧⟨496⟩⟦49⟧⟨497⟩⟦79⟧⟨498⟩⟦3⟧⟨499⟩⟦52⟧⟨500⟩⟦76⟧⟨501⟩
+[2000 NAIA Division I Men's Basketball Tournament] ⟦78⟧⟨502⟩⟦51⟧⟨503⟩⟦18⟧⟨504⟩⟦113⟧⟨505⟩
+[1988–89 Georgetown Hoyas men's basketball team] ⟦130⟧⟨506⟩⟦88⟧⟨507⟩⟦26⟧⟨508⟩⟦124⟧⟨509⟩⟦54⟧⟨510⟩⟦26⟧⟨511⟩⟦114⟧⟨512⟩
+[1988–89 Georgetown Hoyas men's basketball team] ⟦74⟧⟨513⟩⟦75⟧⟨514⟩⟦64⟧⟨515⟩⟦114⟧⟨516⟩⟦60⟧⟨517⟩⟦61⟧⟨518⟩⟦37⟧⟨519⟩
+[1988–89 Georgetown Hoyas men's basketball team] ⟨520⟩⟦205⟧⟨521⟩⟦70⟧⟨522⟩⟦50⟧⟨523⟩⟦168⟧⟨524⟩⟦77⟧⟨525⟩⟦83⟧⟨526⟩
+[1988–89 Georgetown Hoyas men's basketball team] ⟨527⟩⟦87⟧⟨528⟩⟦87⟧⟨529⟩⟦166⟧⟨530⟩⟦193⟧⟨531⟩⟦114⟧⟨532⟩⟦16⟧⟨533⟩⟦108⟧⟨534⟩⟦29⟧⟨535⟩⟦102⟧⟨536⟩
+[1988–89 Georgetown Hoyas men's basketball team] ⟨537⟩⟦167⟧⟨538⟩⟦114⟧⟨539⟩⟦33⟧⟨540⟩⟦131⟧⟨541⟩⟦196⟧⟨542⟩⟦34⟧⟨543⟩⟦53⟧⟨544⟩⟦88⟧⟨545⟩⟦26⟧⟨546⟩⟦69⟧⟨547⟩⟦123⟧⟨548⟩⟦173⟧⟨549⟩⟦49⟧⟨550⟩
+[1988–89 Georgetown Hoyas men's basketball team] ⟨551⟩⟦187⟧⟨552⟩⟦93⟧⟨553⟩⟦115⟧⟨554⟩⟦170⟧⟨555⟩⟦132⟧⟨556⟩⟦126⟧⟨557⟩⟦4⟧⟨558⟩⟦5⟧⟨559⟩⟦25⟧⟨560⟩⟦170⟧⟨561⟩⟦191⟧⟨562⟩⟦93⟧⟨563⟩⟦96⟧⟨564⟩⟦115⟧⟨565⟩⟦44⟧⟨566⟩
+[1988–89 Georgetown Hoyas men's basketball team] ⟨567⟩⟦93⟧⟨568⟩⟦93⟧⟨569⟩⟦193⟧⟨570⟩⟦114⟧⟨571⟩⟦2⟧⟨572⟩
+
+[user]
+
+问题：
+A private university that beat Georgetown during a basketball tournament is from what U.S. city?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

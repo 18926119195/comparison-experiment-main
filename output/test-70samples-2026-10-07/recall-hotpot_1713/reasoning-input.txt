@@ -1,0 +1,101 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Whitechapel (band)] ⟦219⟧⟨1⟩⟦27⟧⟨2⟩⟨3⟩⟦91⟧⟨4⟩⟦156⟧⟨5⟩
+[Whitechapel (band)] ⟦175⟧⟦77⟧⟨18⟩⟨19⟩⟦216⟧⟨20⟩⟨21⟩⟨22⟩⟨23⟩
+[Asking Alexandria] ⟦25⟧⟨205⟩⟦30⟧⟨207⟩⟨206⟩⟨208⟩⟦223⟧⟨209⟩⟦113⟧⟨210⟩⟨211⟩⟨213⟩⟨212⟩⟦39⟧⟨214⟩⟦45⟧⟨215⟩⟦60⟧⟨216⟩⟨217⟩⟦38⟧⟨218⟩⟨219⟩
+[Stand Up and Scream] ⟦204⟧
+[Ben Bruce] ⟦94⟧
+[Killing You] ⟦20⟧⟨295⟩⟨296⟩⟦69⟧⟨298⟩⟨297⟩
+[The Dillinger Escape Plan discography] ⟦37⟧⟦59⟧ | ⟦37⟧⟦59⟧
+[The Black (Asking Alexandria album)] ⟦135⟧
+[The Black (Asking Alexandria album)] ⟦213⟧ | ⟦93⟧⟦213⟧
+[The Black (Asking Alexandria album)] ⟦35⟧ | ⟦35⟧ | ⟦35⟧
+[The Black (Asking Alexandria album)] ⟦151⟧
+
+符号表：
+⟦20⟧ = a song
+⟦25⟧ = Alexandria
+⟦27⟧ = an American deathcore band
+⟦30⟧ = an English rock band
+⟦35⟧ = band
+⟦37⟧ = bassist
+⟦38⟧ = bassist Sam Bettley
+⟦39⟧ = Ben Bruce
+⟦45⟧ = Cameron Liddell
+⟦59⟧ = drummer
+⟦60⟧ = drummer James Cassells
+⟦69⟧ = English Metalcore band Asking Alexandria
+⟦77⟧ = group
+⟦91⟧ = Knoxville
+⟦93⟧ = lead
+⟦94⟧ = lead vocalist Danny Worsnop
+⟦113⟧ = North Yorkshire
+⟦135⟧ = rock
+⟦151⟧ = song
+⟦156⟧ = Tennessee
+⟦175⟧ = The group
+⟦204⟧ = Top Heatseekers
+⟦213⟧ = vocalist
+⟦216⟧ = vocalist Phil Bozeman
+⟦219⟧ = Whitechapel
+⟦223⟧ = York
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  from 
+⟨4⟩ = , 
+⟨5⟩ = .
+⟨18⟩ = 
+⟨19⟩ =  comprises 
+⟨20⟩ = 
+⟨21⟩ = , guitarists Ben Savage, Alex Wade, and Zach Householder, 
+⟨22⟩ =  Gabe Crisp, and 
+⟨23⟩ =  Ben Harclerode.
+⟨205⟩ =  are 
+⟨206⟩ = 
+⟨207⟩ =  
+⟨208⟩ =  from 
+⟨209⟩ = , 
+⟨210⟩ =  consisting of 
+⟨211⟩ = 
+⟨212⟩ = 
+⟨213⟩ =  Danny Worsnop, guitarists 
+⟨214⟩ =  and 
+⟨215⟩ = , 
+⟨216⟩ = 
+⟨217⟩ =  and 
+⟨218⟩ = 
+⟨219⟩ = .
+⟨295⟩ = 
+⟨296⟩ =  by 
+⟨297⟩ = 
+⟨298⟩ =  Asking Alexandria.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Killing You is a song by a band that consists of lead vocalist Danny Worsnop, guitarists Ben Bruce and Cameron Liddell, drummer James Cassells and what bassist?

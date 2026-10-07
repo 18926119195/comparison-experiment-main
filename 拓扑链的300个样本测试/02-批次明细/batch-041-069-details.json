@@ -1,0 +1,901 @@
+[
+  {
+    "qid": "hotpot_4780",
+    "question": "Carrie Coon plays Margo Dunne in a 2014 film set in what state?",
+    "expectedAnswer": "Missouri",
+    "predictedAnswer": "# 路径一：从角色到电影再到拍摄地\n\n步骤1：使用⟦203⟧，提取Carrie Coon出演的惊悚片信息，判断其与2014年电影相关。\n步骤2：综合⟦170⟧⟦113⟧，对比确认Carrie Coon在2014年惊悚片中饰演Margo Dunne。\n步骤3：使用⟦86⟧⟦6⟧，提取该2014年电影为《Gone Girl》，是一部美国心理惊悚片。\n步骤4：综合⟦137⟧⟦119⟧，提取电影故事设定在密苏里州（Missouri）。\n\n结论：Carrie Coon饰演Margo Dunne的2014年电影设定在密苏里州（Missouri）。\n\n# 路径二：从电影名称到故事背景\n\n步骤1：使用⟦86⟧⟦6⟧，提取《Gone Girl》是2014年美国心理惊悚片。\n步骤2：综合⟦137⟧⟦119⟧，提取该片故事背景设定在密苏里州。\n步骤3：使用⟦203⟧⟦113⟧，验证Carrie Coon在该片中饰演Margo Dunne。\n\n结论：该2014年电影设定在密苏里州（Missouri）。\n\n# 路径三：从Carrie Coon作品交叉验证\n\n步骤1：使用⟦203⟧，提取Carrie Coon出演的惊悚片。\n步骤2：综合⟦170⟧⟦113⟧，确认她在2014年惊悚片中饰演Margo Dunne。\n步骤3：使用⟦86⟧⟦6⟧，确认该片为《Gone Girl》。\n步骤4：综合⟦137⟧⟦119⟧，提取故事设定在密苏里州。\n\n结论：Carrie Coon饰演Margo Dunne的2014年电影设定在密苏里州（Missouri）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦86⟧⟨121⟩⟦6⟧⟨123⟩⟨122⟩⟨124⟩⟦69⟧⟨125⟩⟦83⟧⟨126⟩⟦89⟧⟨127⟩",
+    "nounCount": 304,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5169,
+      "completion_tokens": 288,
+      "total_tokens": 5457,
+      "prompt_tokens_details": {
+        "cached_tokens": 4992
+      },
+      "prompt_cache_hit_tokens": 4992,
+      "prompt_cache_miss_tokens": 177
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1087,
+      "completion_tokens": 418,
+      "total_tokens": 1505,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1087
+    }
+  },
+  {
+    "qid": "hotpot_7227",
+    "question": "Who acted in the film and television series, \"Harry and the Hendersons,\" and also worked with Danny ",
+    "expectedAnswer": "Kevin Peter Hall",
+    "predictedAnswer": "# 路径一：从电视剧到演员的交叉验证\n\n步骤1：使用⟦221⟧，提取《Harry and the Hendersons》电视剧的基本信息——该剧是一部美国情景喜剧，于1991年至1993年播出，共72集，由Amblin Television和Universal Television制作。\n\n步骤2：综合⟦17⟧⟦19⟧⟦80⟧，确认该剧讲述一个家庭收养了一个名叫Harry的大脚怪的故事，因此核心角色包括Harry和Hendersons一家。\n\n步骤3：使用⟦98⟧⟦209⟧，识别出饰演Harry的演员是Kevin Peter Hall，他在剧中扮演标题角色，同时也在电影版中饰演Harry。\n\n步骤4：综合⟦120⟧⟦152⟧⟦195⟧，交叉验证Kevin Peter Hall还出演了《Predator》系列电影，在《Predator 2》中饰演标题角色Predator。\n\n步骤5：使用⟦66⟧⟦83⟧⟦205⟧，提取Danny Glover出演了电影《Bad Asses》，确认Danny Glover是一位演员。\n\n步骤6：综合⟦120⟧⟦152⟧⟦66⟧，交叉验证Kevin Peter Hall和Danny Glover共同出演了《Predator 2》——Kevin Peter Hall饰演Predator，Danny Glover是该片主演。\n\n结论：Kevin Peter Hall既出演了《Harry and the Hendersons》电影和电视剧（饰演Harry），又与Danny Glover合作过（在《Predator 2》中）。\n\n# 路径二：从Danny Glover的合作作品反向追踪\n\n步骤1：使用⟦66⟧⟦83⟧，提取Danny Glover出演了电影《Bad Asses》，确认其演员身份。\n\n步骤2：综合⟦120⟧⟦152⟧⟦235⟧，识别Kevin Peter Hall出演了《Predator 2》，该片标题为《Predator》。\n\n步骤3：使用⟦195⟧⟦92⟧，提取Kevin Peter Hall与\"Predator\"系列相关，在系列中饰演标题角色。\n\n步骤4：综合⟦98⟧⟦209⟧⟦225⟧，确认Kevin Peter Hall在《Harry and the Hendersons》中饰演Harry——即标题角色，该角色是一个大脚怪。\n\n步骤5：使用⟦206⟧⟦103⟧，提取Kevin Peter Hall因电影和电视剧系列中的角色而闻名，包括《Harry and the Hendersons》和《Predator》系列。\n\n步骤6：综合⟦120⟧⟦66⟧⟦152⟧，交叉验证：Kevin Peter Hall在《Predator 2》中与Danny Glover合作，同时他在《Harry and the Hendersons》中饰演Harry。\n\n结论：Kevin Peter Hall是同时满足两个条件的人——他出演了《Harry and the Hendersons》电影和电视剧，并与Danny Glover在《Predator 2》中合作。\n\n# 路径三：从《Harry and the Hendersons》演员表出发\n\n步骤1：使用⟦40⟧⟦37⟧⟦239⟧，提取《Harry and the Hendersons》是一部美国情景喜剧，由Amblin Television和Universal Television制作。\n\n步骤2：综合⟦221⟧⟦10⟧⟦77⟧，确认该剧共72集，于1991年至1993年播出。\n\n步骤3：使用⟦98⟧⟦209⟧⟦225⟧，识别Kevin Peter Hall饰演Harry——标题角色，即被Hendersons一家收养的大脚怪。\n\n步骤4：综合⟦120⟧⟦152⟧⟦195⟧，交叉验证Kevin Peter Hall还出演了《Predator》系列，在《Predator 2》中饰演Predator。\n\n步骤5：使用⟦66⟧⟦83⟧⟦205⟧，提取Danny Glover出演了《Bad Asses》，确认其为演员。\n\n步骤6：综合⟦120⟧⟦66⟧⟦152⟧，确认Kevin Peter Hall和Danny Glover在《Predator 2》中有合作——Kevin Peter Hall饰演Predator，Danny Glover饰演主角。\n\n结论：Kevin Peter Hall同时出演了《Harry and the Hendersons》（电影和电视剧，饰演Harry），并与Danny Glover在《Predator 2》中合作。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨55⟩⟨56⟩⟦40⟧⟦180⟧⟨57⟩⟨58⟩⟨59⟩⟨60⟩⟨61⟩⟨62⟩⟦37⟧⟨63⟩",
+    "nounCount": 353,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5942,
+      "completion_tokens": 590,
+      "total_tokens": 6532,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 182
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1994,
+      "completion_tokens": 961,
+      "total_tokens": 2955,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1994
+    }
+  },
+  {
+    "qid": "hotpot_1753",
+    "question": "What was the arena, in which the 2017 Brit Awards were held, called during the 2012 Olympics ?",
+    "expectedAnswer": "North Greenwich Arena",
+    "predictedAnswer": "# 路径一：从场馆名称与赛事时间线推理\n\n步骤1：使用⟦193⟧，提取“The O2 Arena”这一名称，判断其为问题所指的场馆实体。\n步骤2：综合⟦157⟧⟦154⟧，对比2012年奥运会期间该场馆的临时名称与常规名称，提取“temporarily the sponsor-neutral 'North Greenwich Arena'”这一信息。\n步骤3：使用⟦8⟧，确认2012年夏季残奥会同样使用该临时名称，交叉验证该名称在2012年奥运会及残奥会期间均适用。\n结论：该场馆在2012年奥运会期间被称为“North Greenwich Arena”。\n\n# 路径二：从赞助商命名逻辑与赛事关联推理\n\n步骤1：使用⟦101⟧⟦200⟧，提取“its primary sponsor”为“the telecommunications company”，判断O2场馆名称来源于赞助商。\n步骤2：综合⟦154⟧⟦57⟧，对比赞助商命名与临时中性名称的差异，提取“temporarily the sponsor-neutral 'North Greenwich Arena'”这一临时更名规则。\n步骤3：使用⟦157⟧，确认2012年夏季奥运会期间执行了该中性命名，交叉验证2017年Brit Awards举办场馆与2012年奥运会场馆为同一实体。\n结论：由于2012年奥运会期间禁止使用赞助商名称，该场馆临时改称“North Greenwich Arena”。\n\n# 路径三：从场馆地理位置与建筑特征交叉验证\n\n步骤1：使用⟦185⟧⟦188⟧，提取“the former Millennium Dome”位于“the Greenwich Peninsula”，判断场馆地理位置。\n步骤2：综合⟦180⟧⟦67⟧，对比“the dome-shaped structure”与“dome”特征，确认该建筑即O2 Arena的前身。\n步骤3：使用⟦154⟧，提取2012年奥运会期间临时名称“North Greenwich Arena”，结合地理位置“North Greenwich”与建筑特征“dome”交叉验证。\n结论：该场馆位于格林尼治半岛，2012年奥运会期间因中性命名规则被称为“North Greenwich Arena”。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦193⟧⟨55⟩⟦154⟧⟨57⟩⟨56⟩⟦157⟧⟨58⟩⟦8⟧⟨59⟩⟦18⟧⟨60⟩⟨61⟩",
+    "nounCount": 318,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5406,
+      "completion_tokens": 391,
+      "total_tokens": 5797,
+      "prompt_tokens_details": {
+        "cached_tokens": 5248
+      },
+      "prompt_cache_hit_tokens": 5248,
+      "prompt_cache_miss_tokens": 158
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1353,
+      "completion_tokens": 458,
+      "total_tokens": 1811,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1353
+    }
+  },
+  {
+    "qid": "hotpot_1303",
+    "question": "What is a Southern European island country that was home to an airline pilot who flew the CASA-212-2",
+    "expectedAnswer": "Malta",
+    "predictedAnswer": "# 路径一：从国家地理特征切入\n\n步骤1：使用⟦22⟧，提取“a Southern European island country”这一地理描述，判断目标国家位于南欧且为岛国。\n\n步骤2：综合⟦40⟧⟦46⟧⟦119⟧⟦230⟧，交叉验证该国的地理构成——由群岛组成，位于地中海，确认其岛国属性。\n\n步骤3：使用⟦144⟧⟦188⟧，提取国家名称为“Malta”，官方名称为“Repubblika ta' Malta”，与南欧岛国特征吻合。\n\n结论：该南欧岛国是Malta（马耳他）。\n\n# 路径二：从飞行员职业经历切入\n\n步骤1：使用⟦39⟧⟦177⟧，提取“airline pilot”这一职业身份，锁定目标人物为航空公司飞行员。\n\n步骤2：综合⟦64⟧⟦216⟧⟦455⟧，提取其驾驶的机型为CASA-212-200 Aviocar，确认与问题中的机型匹配。\n\n步骤3：综合⟦105⟧⟦106⟧⟦184⟧⟦446⟧，提取该飞行员于2008年因健康原因停止工作，与问题中的退休时间和原因一致。\n\n步骤4：使用⟦146⟧⟦145⟧，提取飞行员姓名为Mark Vella Tomlin，结合⟦13⟧确认其为马耳他国民。\n\n结论：该飞行员是Mark Vella Tomlin，其所属国家为Malta。\n\n# 路径三：交叉验证国家与飞行员的关联\n\n步骤1：使用⟦144⟧，提取国家名称Malta，结合⟦22⟧确认其为南欧岛国。\n\n步骤2：综合⟦146⟧⟦13⟧⟦152⟧，提取Mark Vella Tomlin为马耳他国民，建立人物与国家的归属关系。\n\n步骤3：综合⟦64⟧⟦216⟧⟦446⟧⟦105⟧⟦106⟧，交叉验证该飞行员驾驶CASA-212-200 Aviocar并于2008年因健康原因退休，与问题描述完全吻合。\n\n结论：综合国家地理特征与飞行员个人经历，确认答案为Malta，飞行员为Mark Vella Tomlin。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦146⟧⟨438⟩⟦4⟧⟨439⟩⟦13⟧⟦152⟧⟨440⟩⟨441⟩⟦39⟧⟦32⟧⟨443⟩⟦177⟧",
+    "nounCount": 449,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6960,
+      "completion_tokens": 350,
+      "total_tokens": 7310,
+      "prompt_tokens_details": {
+        "cached_tokens": 6784
+      },
+      "prompt_cache_hit_tokens": 6784,
+      "prompt_cache_miss_tokens": 176
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1284,
+      "completion_tokens": 499,
+      "total_tokens": 1783,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1284
+    }
+  },
+  {
+    "qid": "hotpot_1511",
+    "question": "Who is the lead vocalist for Maroon 5's sixth studio album?",
+    "expectedAnswer": "Adam Levine",
+    "predictedAnswer": "# 路径一：从乐队成员构成直接定位主唱\n\n步骤1：使用⟦106⟧，提取“lead vocalist Adam Levine”，确认 Adam Levine 是 Maroon 5 的主唱。\n步骤2：综合⟦140⟧⟦143⟧，乐队“currently consists of”成员列表中包含 Adam Levine，进一步确认其主唱身份。\n步骤3：使用⟦191⟧⟦199⟧，提取“Maroon 5's sixth studio album”相关信息，确认该专辑与 Maroon 5 直接关联。\n\n结论：Maroon 5 第六张录音室专辑的主唱是 Adam Levine。\n\n# 路径二：通过专辑与乐队关联交叉验证\n\n步骤1：使用⟦175⟧，提取“the forthcoming eponymous sixth studio album”，确认这是 Maroon 5 的第六张录音室专辑。\n步骤2：综合⟦191⟧⟦199⟧，确认该专辑由 Maroon 5 发行，与乐队直接绑定。\n步骤3：综合⟦106⟧⟦143⟧，从乐队成员信息中提取 Adam Levine 为主唱，且其名字出现在乐队核心成员列表中。\n\n结论：综合专辑归属与乐队成员信息，Maroon 5 第六张录音室专辑的主唱为 Adam Levine。\n\n# 路径三：排除法确认主唱身份\n\n步骤1：使用⟦104⟧，提取“lead guitarist James Valentine”，确认 James Valentine 是主吉他手而非主唱。\n步骤2：使用⟦37⟧，提取“bassist Mickey Madden”，确认 Mickey Madden 是贝斯手。\n步骤3：使用⟦59⟧，提取“drummer Matt Flynn”，确认 Matt Flynn 是鼓手。\n步骤4：使用⟦99⟧，提取“keyboardist PJ Morton”，确认 PJ Morton 是键盘手。\n步骤5：综合以上乐器角色，均非主唱；再使用⟦106⟧，提取“lead vocalist Adam Levine”，唯一匹配主唱角色。\n\n结论：通过排除其他乐器角色，确认 Maroon 5 第六张录音室专辑的主唱是 Adam Levine。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨191⟩⟦175⟧⟨193⟩⟨192⟩⟨194⟩⟨196⟩⟨197⟩⟨195⟩⟨198⟩⟨199⟩⟨200⟩⟨201⟩",
+    "nounCount": 373,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5805,
+      "completion_tokens": 308,
+      "total_tokens": 6113,
+      "prompt_tokens_details": {
+        "cached_tokens": 5632
+      },
+      "prompt_cache_hit_tokens": 5632,
+      "prompt_cache_miss_tokens": 173
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1139,
+      "completion_tokens": 461,
+      "total_tokens": 1600,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1139
+    }
+  },
+  {
+    "qid": "hotpot_4721",
+    "question": "The Clavivox was invented by an American composer who was born Harry Warnow in what year?",
+    "expectedAnswer": "1908",
+    "predictedAnswer": "# 路径一：直接溯源发明者身份\n\n步骤1：使用⟦171⟧，提取“The Clavivox”这一主题，确认其为一种键盘声音合成器（⟦14⟧）。\n\n步骤2：综合⟦165⟧⟦23⟧，交叉验证该合成器由“American composer Raymond Scott”发明。\n\n步骤3：使用⟦39⟧，提取Raymond Scott的本名信息——“b. Harry Warnow”，确认其出生名为Harry Warnow。\n\n步骤4：综合⟦106⟧⟦96⟧⟦97⟧，从Mark Warnow的条目中提取其兄弟Harry Warnow的出生日期为“10, 1900”。\n\n结论：The Clavivox的发明者Raymond Scott（本名Harry Warnow）出生于1900年。\n\n# 路径二：通过家族关系交叉验证\n\n步骤1：使用⟦106⟧，提取Mark Warnow这一人物，并综合⟦180⟧确认其为“the older brother”。\n\n步骤2：综合⟦39⟧⟦74⟧，从Mark Warnow条目中提取其弟弟“b. Harry Warnow”，且被描述为“eventually more famous”的兄弟。\n\n步骤3：综合⟦135⟧⟦23⟧，确认这位更著名的弟弟Harry Warnow即Raymond Scott，且为American composer。\n\n步骤4：使用⟦97⟧，从Mark Warnow的生卒信息中提取其弟弟Harry Warnow的出生年份为1900。\n\n结论：通过Mark Warnow与Harry Warnow的兄弟关系链，确认Harry Warnow（即Raymond Scott）出生于1900年。\n\n# 路径三：发明者身份与出生信息的独立验证\n\n步骤1：使用⟦171⟧⟦165⟧，提取The Clavivox由Raymond Scott发明，且专利信息指向1952年发明、1956年专利。\n\n步骤2：综合⟦23⟧⟦39⟧，确认Raymond Scott为American composer，且其本名为Harry Warnow。\n\n步骤3：使用⟦106⟧⟦97⟧，从Mark Warnow条目中独立提取Harry Warnow的出生日期“10, 1900”，与路径一、二形成交叉验证。\n\n结论：三条独立路径均指向同一年份——1900年，The Clavivox的发明者Harry Warnow（Raymond Scott）出生于1900年。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦171⟧⟨159⟩⟦14⟧⟦102⟧⟨161⟩⟦152⟧⟨162⟩⟦161⟧⟨160⟩⟨163⟩⟦145⟧⟦145⟧",
+    "nounCount": 242,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 4433,
+      "completion_tokens": 285,
+      "total_tokens": 4718,
+      "prompt_tokens_details": {
+        "cached_tokens": 4224
+      },
+      "prompt_cache_hit_tokens": 4224,
+      "prompt_cache_miss_tokens": 209
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1092,
+      "completion_tokens": 523,
+      "total_tokens": 1615,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1092
+    }
+  },
+  {
+    "qid": "hotpot_3654",
+    "question": "How many total staff (including part-time, flexible, and fixed contract staff) does the broadcaster,",
+    "expectedAnswer": "35,402",
+    "predictedAnswer": "# 路径一：通过 HyperNormalisation 定位广播机构并提取员工总数\n\n步骤1：使用⟦294⟧⟦196⟧⟦118⟧⟦232⟧，提取 HyperNormalisation 是一部 2016 年 BBC 纪录片，由英国电影制作人 Adam Curtis 制作。\n\n步骤2：综合⟦16⟧⟦120⟧⟦119⟧，确认该纪录片由 BBC 发布，BBC 是广播机构。\n\n步骤3：使用⟦556⟧⟦422⟧，提取 BBC 雇佣超过 20,950 名员工。\n\n步骤4：综合⟦657⟧⟦406⟧⟦426⟧⟦427⟧，提取总员工数为 35,402，当兼职、灵活和固定合同员工被计入时。\n\n结论：该广播机构（BBC）的总员工数为 35,402 人（包括兼职、灵活和固定合同员工）。\n\n# 路径二：通过 BBC 员工数据交叉验证\n\n步骤1：使用⟦556⟧⟦672⟧，提取 BBC 是世界上最早的国家广播组织。\n\n步骤2：综合⟦556⟧⟦422⟧，提取 BBC 雇佣超过 20,950 名员工。\n\n步骤3：使用⟦657⟧⟦406⟧⟦426⟧⟦427⟧，提取总员工数为 35,402，当兼职、灵活和固定合同员工被计入时。\n\n步骤4：综合⟦422⟧⟦427⟧，对比 20,950 与 35,402，确认 35,402 是包含兼职、灵活和固定合同员工的总数。\n\n结论：BBC 的总员工数为 35,402 人。\n\n# 路径三：通过纪录片制作方定位广播机构\n\n步骤1：使用⟦294⟧⟦196⟧，提取 HyperNormalisation 是一部纪录片。\n\n步骤2：综合⟦196⟧⟦16⟧⟦120⟧，确认该纪录片是 2016 年 BBC 纪录片，由 BBC 发布。\n\n步骤3：使用⟦556⟧⟦657⟧⟦406⟧⟦426⟧⟦427⟧，提取 BBC 的总员工数为 35,402，当兼职、灵活和固定合同员工被计入时。\n\n结论：发布 HyperNormalisation 的广播机构（BBC）雇佣 35,402 名总员工（包括兼职、灵活和固定合同员工）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦556⟧⟨10⟩⟦672⟧⟨12⟩⟨13⟩⟦412⟧⟨11⟩⟨14⟩⟦605⟧⟦119⟧⟨15⟩⟨16⟩",
+    "nounCount": 1198,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 17530,
+      "completion_tokens": 278,
+      "total_tokens": 17808,
+      "prompt_tokens_details": {
+        "cached_tokens": 17280
+      },
+      "prompt_cache_hit_tokens": 17280,
+      "prompt_cache_miss_tokens": 250
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1048,
+      "completion_tokens": 532,
+      "total_tokens": 1580,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1048
+    }
+  },
+  {
+    "qid": "hotpot_3065",
+    "question": "Kasper Peter Schmeichel is the son of a professional footballer who was voted what in 1992 and 1993?",
+    "expectedAnswer": "IFFHS World's Best Goalkeeper",
+    "predictedAnswer": "# 路径一：父子关系链推理\n\n步骤1：使用⟦59⟧，提取 Kasper Peter Schmeichel 的身份信息，确认其为丹麦职业足球运动员。\n\n步骤2：综合⟦91⟧⟦111⟧，对比两条材料中关于“son”的表述——⟦91⟧指出 Kasper 是某人的 son，⟦111⟧同样指出 Kasper 是 the son，交叉验证确认 Kasper 的父亲是一位足球运动员。\n\n步骤3：使用⟦76⟧，提取 Peter Bolesław Schmeichel MBE 的身份，确认其为丹麦前职业足球运动员。\n\n步骤4：综合⟦108⟧⟦152⟧⟦153⟧，提取 Peter Schmeichel 曾被 voted 为 the IFFHS World's Best Goalkeeper，且该荣誉发生在 1992 和 1993 年。\n\n结论：Kasper Peter Schmeichel 的父亲 Peter Schmeichel 在 1992 和 1993 年被 voted 为 **the IFFHS World's Best Goalkeeper**（IFFHS 世界最佳门将）。\n\n---\n\n# 路径二：荣誉时间线交叉验证\n\n步骤1：使用⟦76⟧，提取 Peter Bolesław Schmeichel MBE 的基本信息，确认其出生于 1963 年 11 月 18 日，是丹麦前职业足球运动员。\n\n步骤2：使用⟦152⟧，提取关键信息——他被 voted 为某荣誉，且该投票发生在 1992 和 1993 年。\n\n步骤3：使用⟦108⟧，提取具体荣誉名称为 the IFFHS World's Best Goalkeeper。\n\n步骤4：综合⟦108⟧⟦152⟧⟦153⟧，将荣誉名称与时间节点对应，确认 1992 和 1993 年获得的荣誉即为 the IFFHS World's Best Goalkeeper。\n\n结论：答案为 **the IFFHS World's Best Goalkeeper**。\n\n---\n\n# 路径三：排除法定位答案\n\n步骤1：使用⟦59⟧⟦5⟧⟦10⟧，提取 Kasper Schmeichel 是丹麦职业足球运动员，司职门将（goalkeeper）。\n\n步骤2：使用⟦91⟧⟦111⟧，确认 Kasper 的父亲是一位足球运动员，结合⟦76⟧可知该父亲为 Peter Schmeichel。\n\n步骤3：使用⟦98⟧⟦114⟧，提取 Peter Schmeichel 的其他成就——赢得 1999 UEFA Champions League 和 UEFA Euro 1992，但这些并非“被投票选出”的荣誉。\n\n步骤4：综合⟦108⟧⟦152⟧⟦153⟧，排除团队荣誉后，定位到个人投票荣誉——the IFFHS World's Best Goalkeeper，且时间恰好为 1992 和 1993 年。\n\n结论：Peter Schmeichel 在 1992 和 1993 年被 voted 为 **the IFFHS World's Best Goalkeeper**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦59⟧⟨184⟩⟦5⟧⟦37⟧⟨185⟩⟨186⟩⟦10⟧⟨187⟩⟨188⟩⟦80⟧⟦25⟧⟨190⟩",
+    "nounCount": 188,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 3305,
+      "completion_tokens": 233,
+      "total_tokens": 3538,
+      "prompt_tokens_details": {
+        "cached_tokens": 3072
+      },
+      "prompt_cache_hit_tokens": 3072,
+      "prompt_cache_miss_tokens": 233
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 990,
+      "completion_tokens": 664,
+      "total_tokens": 1654,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 990
+    }
+  },
+  {
+    "qid": "hotpot_5044",
+    "question": "Panic! at the Disco released their 5th studio album on what date?",
+    "expectedAnswer": "January 15, 2016",
+    "predictedAnswer": "# 路径一：从专辑条目直接提取发行日期\n\n步骤1：使用⟦244⟧，提取“the fifth studio album”这一描述，确认该材料讨论的是 Panic! at the Disco 的第五张录音室专辑。\n\n步骤2：综合⟦69⟧⟦70⟧⟦71⟧⟦72⟧⟦73⟧⟦74⟧⟦75⟧⟦76⟧⟦77⟧，提取专辑名称及发行信息，其中占位符⟨79⟩明确包含“released January 15, 2016 on Fueled by”。\n\n步骤3：使用⟦146⟧，确认“January”对应1月，与⟨79⟩中的日期信息一致。\n\n结论：Panic! at the Disco 的第五张录音室专辑发行于 2016年1月15日。\n\n# 路径二：从乐队唱片目录条目交叉验证\n\n步骤1：使用⟦231⟧，提取“the band's fifth studio album”这一描述，确认该材料同样指向第五张录音室专辑。\n\n步骤2：综合⟦462⟧⟦463⟧⟦464⟧⟦465⟧⟦466⟧⟦467⟧⟦468⟧⟦469⟧⟦470⟧⟦471⟧⟦472⟧，提取发行时间线信息，其中⟨468⟩包含“was released in”，⟨469⟩包含“2016 and became”，⟨471⟩包含“in”，结合⟦146⟧的“January”，可交叉验证发行年份为2016年。\n\n步骤3：综合⟦275⟧，提取“their first Number 1 album”这一信息，与第五张录音室专辑的商业表现关联，进一步确认该专辑的发行时间背景。\n\n结论：通过唱片目录条目的交叉验证，第五张录音室专辑发行于2016年1月，与路径一结论一致。\n\n# 路径三：从单曲条目反推专辑发行时间\n\n步骤1：使用⟦44⟧，提取“American rock band Panic”这一乐队身份信息，确认材料讨论的是 Panic! at the Disco。\n\n步骤2：使用⟦193⟧，提取“Ramen”这一单曲相关线索，结合⟦86⟧的“DCD2”厂牌信息，确认该单曲与第五张专辑的关联。\n\n步骤3：综合⟦87⟧⟦25⟧⟦54⟧，提取“Death”“a Bachelor”“Bachelor”等关键词，指向专辑《Death of a Bachelor》，该专辑即为第五张录音室专辑。\n\n步骤4：综合⟦69⟧⟦70⟧⟦71⟧⟦72⟧⟦73⟧⟦74⟧⟦75⟧⟦76⟧⟦77⟧，提取专辑名称及发行日期信息，⟨79⟩明确给出“released January 15, 2016”。\n\n结论：通过单曲条目反推至专辑《Death of a Bachelor》，确认其发行日期为2016年1月15日。\n\n# 路径四：综合多材料排除歧义\n\n步骤1：使用⟦222⟧，提取“studio”一词，注意该材料标题为“Vices and Virtues (Art of Dying album)”，与 Panic! at the Disco 无关，排除干扰。\n\n步骤2：综合⟦39⟧⟦55⟧⟦201⟧⟦240⟧，提取“album”“band”“rock”“the Disco”等词，确认这些材料讨论的是另一支乐队或不同专辑，进一步排除歧义。\n\n步骤3：综合⟦244⟧⟦231⟧⟦269⟧，提取“the fifth studio album”“the band's fifth studio album”“the US”等信息，锁定 Panic! at the Disco 的第五张录音室专辑。\n\n步骤4：综合⟦69⟧⟦70⟧⟦71⟧⟦72⟧⟦73⟧⟦74⟧⟦75⟧⟦76⟧⟦77⟧与⟦146⟧，提取发行日期“January 15, 2016”。\n\n结论：排除无关材料后，确认 Panic! at the Disco 的第五张录音室专辑发行于2016年1月15日。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦231⟧⟨462⟩⟨463⟩⟨461⟩⟨464⟩⟦87⟧⟦87⟧⟨465⟩⟨466⟩⟦25⟧⟦54⟧⟨467⟩",
+    "nounCount": 548,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8518,
+      "completion_tokens": 197,
+      "total_tokens": 8715,
+      "prompt_tokens_details": {
+        "cached_tokens": 8320
+      },
+      "prompt_cache_hit_tokens": 8320,
+      "prompt_cache_miss_tokens": 198
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 855,
+      "completion_tokens": 940,
+      "total_tokens": 1795,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 855
+    }
+  },
+  {
+    "qid": "hotpot_3117",
+    "question": "How tall was one of Drew Barry's brothers? ",
+    "expectedAnswer": "6 ft",
+    "predictedAnswer": "# 路径一：通过 Brent Barry 的身高信息直接回答\n\n步骤1：使用⟦100⟧，提取 Drew Barry 的全名为 Drew William Barry，确认其为篮球运动员。\n步骤2：综合⟦260⟧⟦123⟧，提取 Brent Barry 的身高信息为 “The 6 ft”（即 6 英尺），结合⟦123⟧的 “ft” 单位，确认 Brent Barry 身高为 6 英尺。\n步骤3：使用⟦9⟧，提取 “210 lb shooting guard”，进一步确认 Brent Barry 的体型特征，交叉验证其身高信息。\n结论：Drew Barry 的兄弟之一 Brent Barry 身高为 6 英尺。\n\n# 路径二：通过兄弟关系与职业背景交叉验证\n\n步骤1：使用⟦100⟧，确认 Drew Barry 的身份，并结合⟦35⟧⟦51⟧，确认其兄弟为美国职业篮球运动员。\n步骤2：综合⟦260⟧⟦128⟧⟦286⟧，提取 Brent Barry 的身高为 6 英尺，且其职业为 guard，效力于 NBA。\n步骤3：综合⟦335⟧⟦76⟧⟦293⟧，提取 Brent Barry 赢得过两次总冠军，且与 San Antonio Spurs 相关，进一步确认其身份。\n结论：Drew Barry 的兄弟 Brent Barry 身高为 6 英尺，且为 NBA 总冠军球员。\n\n# 路径三：通过对比兄弟信息排除干扰\n\n步骤1：使用⟦100⟧，确认 Drew Barry 的全名，并结合⟦387⟧，提取其出生日期为 1973 年 2 月 17 日。\n步骤2：综合⟦260⟧⟦123⟧，提取 Brent Barry 的身高为 6 英尺，而 Drew Barry 的身高未在材料中提及，因此以 Brent Barry 的身高作为答案。\n步骤3：使用⟦200⟧，确认 Brent Barry 为 player，结合⟦35⟧，确认其为美国退役职业篮球运动员，排除其他非运动员兄弟的可能性。\n结论：Drew Barry 的兄弟之一 Brent Barry 身高为 6 英尺。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦100⟧⟨387⟩⟦35⟧⟦51⟧⟨389⟩⟦200⟧⟨388⟩⟨390⟩⟦260⟧⟦123⟧⟨244⟩⟨245⟩",
+    "nounCount": 468,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7744,
+      "completion_tokens": 97,
+      "total_tokens": 7841,
+      "prompt_tokens_details": {
+        "cached_tokens": 7552
+      },
+      "prompt_cache_hit_tokens": 7552,
+      "prompt_cache_miss_tokens": 192
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 533,
+      "completion_tokens": 474,
+      "total_tokens": 1007,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 533
+    }
+  },
+  {
+    "qid": "hotpot_32",
+    "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+    "expectedAnswer": "Charles Eugène",
+    "predictedAnswer": "# 路径一：从飞机名称与飞行员对应关系切入\n\n步骤1：使用⟦107⟧，提取“L'Oiseau Blanc”这一名称，并综合⟦181⟧，确认其英文通称为“The White Bird”。\n\n步骤2：综合⟦270⟧⟦271⟧⟦272⟧⟦273⟧⟦274⟧⟦275⟧，提取关键信息：“was flown by French World War I”后接两个人物，分别为⟦56⟧（Charles Nungesser）和⟦85⟧（François Coli），且两者之间由⟦274⟧（and）连接。\n\n步骤3：综合⟦56⟧⟦85⟧，确认L'Oiseau Blanc的飞行员为Charles Nungesser和François Coli两人。问题问的是“French ace pilot and adventurer”，其中Nungesser是法国一战王牌飞行员（ace pilot），Coli是冒险家（adventurer），两者共同驾驶。\n\n结论：驾驶L'Oiseau Blanc的法国王牌飞行员和冒险家是Charles Nungesser（王牌飞行员）和François Coli（冒险家）。\n\n---\n\n# 路径二：从飞行任务与人物角色交叉验证\n\n步骤1：使用⟦262⟧，提取“that disappeared in 1927, during”，结合⟦35⟧⟦43⟧，确认L'Oiseau Blanc在1927年消失于一次尝试中。\n\n步骤2：综合⟦264⟧⟦265⟧⟦266⟧⟦267⟧，提取“to make ... between ... and ...”，结合⟦161⟧⟦120⟧⟦129⟧，确认这次尝试是“the first non-stop transatlantic flight between New York City and Paris”。\n\n步骤3：综合⟦270⟧⟦271⟧⟦272⟧⟦273⟧⟦274⟧⟦275⟧，提取飞行员信息为⟦56⟧（Charles Nungesser）和⟦85⟧（François Coli）。再综合⟦93⟧，确认两人被称为“heroes”。\n\n步骤4：综合⟦55⟧⟦283⟧⟦284⟧⟦285⟧⟦286⟧⟦287⟧⟦288⟧⟦289⟧，对比Charles Lindbergh在数周后成功完成同一旅程并赢得⟦136⟧（prize），反衬Nungesser和Coli是先驱但失踪的飞行员。\n\n结论：L'Oiseau Blanc由Charles Nungesser和François Coli驾驶，其中Nungesser是法国一战王牌飞行员，Coli是冒险家，两人共同尝试首次纽约至巴黎不停顿跨大西洋飞行。\n\n---\n\n# 路径三：从符号表直接定位人物身份\n\n步骤1：使用⟦56⟧，提取“Charles Nungesser”；使用⟦85⟧，提取“François Coli”。\n\n步骤2：综合⟦271⟧⟦272⟧⟦273⟧⟦274⟧⟦275⟧，确认“was flown by French World War I ... , ... and ...”结构，将⟦56⟧和⟦85⟧填入飞行员位置。\n\n步骤3：综合⟦93⟧，确认两人为“heroes”；综合⟦262⟧，确认飞机于1927年失踪。\n\n步骤4：问题要求“French ace pilot and adventurer”，其中Nungesser以一战王牌飞行员身份著称，Coli以冒险家身份著称，两者共同驾驶L'Oiseau Blanc。\n\n结论：Charles Nungesser（法国王牌飞行员）和François Coli（冒险家）共同驾驶了L'Oiseau Blanc。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦107⟧⟨255⟩⟦159⟧⟦203⟧⟨256⟩⟨257⟩⟦181⟧⟨258⟩⟦15⟧⟨259⟩⟦135⟧⟨260⟩",
+    "nounCount": 282,
+    "score": 0.5,
+    "recallUsage": {
+      "prompt_tokens": 4918,
+      "completion_tokens": 278,
+      "total_tokens": 5196,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 182
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1079,
+      "completion_tokens": 802,
+      "total_tokens": 1881,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1079
+    }
+  },
+  {
+    "qid": "hotpot_3536",
+    "question": "Which American pro basketball player who won gold at the 2008 Summer Olympics was signed by the Utah",
+    "expectedAnswer": "Carlos Austin Boozer Jr.",
+    "predictedAnswer": "# 路径一：从奥运金牌到爵士签约\n\n步骤1：使用⟦23⟧⟦110⟧，提取“美国职业篮球运动员”这一身份特征，锁定候选范围。\n步骤2：综合⟦66⟧⟦141⟧⟦146⟧，对比两届奥运会金牌记录，确认该球员在2004和2008年夏季奥运会均获得金牌。\n步骤3：使用⟦198⟧⟦128⟧，提取“两次”这一时间修饰，结合⟦203⟧，判断该球员曾效力于犹他爵士。\n步骤4：综合⟦12⟧⟦92⟧，交叉验证“成员”身份与球队归属，确认该球员在2005-05休赛期被爵士签下。\n\n结论：该球员是Carlos Boozer，他在2004和2008年奥运会获得金牌，并于2005-05休赛期被犹他爵士签下。\n\n# 路径二：从爵士队史到奥运金牌\n\n步骤1：使用⟦203⟧，提取“犹他爵士”这一球队信息，锁定与该队相关的球员。\n步骤2：综合⟦186⟧⟦249⟧⟦250⟧，提取“两次NBA全明星”这一荣誉，结合⟦251⟧，判断该球员还曾效力于其他球队。\n步骤3：使用⟦66⟧⟦146⟧，提取“2008年夏季奥运会金牌”这一关键成就，与⟦23⟧⟦110⟧的美国职业篮球运动员身份交叉验证。\n步骤4：综合⟦37⟧⟦39⟧⟦157⟧⟦166⟧，对比CBA和广东华南虎等经历，确认该球员为Carlos Boozer。\n\n结论：该球员是Carlos Boozer，他符合美国职业篮球运动员、2008年奥运会金牌、犹他爵士签约等所有条件。\n\n# 路径三：从CBA经历反推NBA身份\n\n步骤1：使用⟦39⟧⟦157⟧⟦166⟧，提取“CBA”和“广东华南虎”等中国篮球联赛信息，锁定有海外经历的美国球员。\n步骤2：综合⟦37⟧⟦229⟧，提取“Carlos Austin Boozer Jr.”这一全名及出生日期，确认其美国球员身份。\n步骤3：使用⟦66⟧⟦146⟧，提取“2008年夏季奥运会金牌”这一成就，与⟦23⟧⟦110⟧的美国职业篮球运动员身份交叉验证。\n步骤4：综合⟦203⟧⟦251⟧，对比犹他爵士和其他效力球队，确认该球员在2005-05休赛期被爵士签下。\n\n结论：该球员是Carlos Boozer，他拥有CBA经历、2008年奥运会金牌，并被犹他爵士签下。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦37⟧⟨229⟩⟨231⟩⟨230⟩⟨232⟩⟦166⟧⟨233⟩⟦157⟧⟨234⟩⟦39⟧⟨235⟩⟦23⟧",
+    "nounCount": 323,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5442,
+      "completion_tokens": 210,
+      "total_tokens": 5652,
+      "prompt_tokens_details": {
+        "cached_tokens": 5248
+      },
+      "prompt_cache_hit_tokens": 5248,
+      "prompt_cache_miss_tokens": 194
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 926,
+      "completion_tokens": 620,
+      "total_tokens": 1546,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 926
+    }
+  },
+  {
+    "qid": "hotpot_5440",
+    "question": "Which acter/director is known for depicting the Russian working class life and directed a film that ",
+    "expectedAnswer": "Vladimir Menshov",
+    "predictedAnswer": "# 路径一：从演员/导演身份与作品获奖记录切入\n\n步骤1：使用⟦293⟧⟦213⟧⟦310⟧⟦311⟧⟦309⟧，提取人物全名“Vladimir Valentinovich Menshov”（弗拉基米尔·瓦连京诺维奇·缅绍夫），确认其身份为苏联/俄罗斯演员及电影导演。\n\n步骤2：综合⟦32⟧⟦100⟧⟦111⟧，交叉验证该人物既是“a Soviet and Russian actor and film director”，又作为“director”执导了多部“films”。\n\n步骤3：使用⟦268⟧⟦108⟧⟦123⟧，提取其创作特征——被描述为“the Russian everyman”，且“his films”以描绘“everyman”著称，对应“Russian working class life”的主题。\n\n步骤4：综合⟦172⟧⟦241⟧⟦6⟧⟦18⟧⟦162⟧⟦173⟧⟦245⟧⟦63⟧⟦251⟧⟦174⟧⟦175⟧⟦176⟧，锁定其执导的影片《Moscow Does Not Believe in Tears》（《莫斯科不相信眼泪》），该片为“a 1980 Soviet film”，由“Mosfilm”制作，并“won the Academy Award for Best Foreign Language Film in 1981”。\n\n结论：Vladimir Menshov（弗拉基米尔·缅绍夫）既以描绘俄罗斯平民/工人阶级生活著称，又执导了1981年获奥斯卡最佳外语片奖的《莫斯科不相信眼泪》。\n\n# 路径二：从奥斯卡获奖影片反查导演\n\n步骤1：使用⟦245⟧⟦63⟧⟦251⟧⟦174⟧⟦175⟧⟦176⟧，提取关键事实——“the Academy Award for Best Foreign Language Film”于“1981”年颁给“the film”《Moscow Does Not Believe in Tears》。\n\n步骤2：综合⟦172⟧⟦241⟧⟦6⟧⟦18⟧⟦162⟧⟦173⟧，确认该片全称为“Moscow Does Not Believe in Tears”，是“a 1980 Soviet film”，类型为“melodrama”，由“Mosfilm”出品。\n\n步骤3：使用⟦293⟧⟦32⟧⟦100⟧，将影片与人物关联——Vladimir Menshov是“a Soviet and Russian actor and film director”，且其执导作品中包含该获奖影片。\n\n步骤4：综合⟦268⟧⟦108⟧⟦123⟧⟦36⟧⟦47⟧，验证其创作主题——他作为“actor”和“director”，以刻画“the Russian everyman”闻名，符合“Russian working class life”的描述。\n\n结论：通过奥斯卡获奖影片《莫斯科不相信眼泪》反查，其导演为Vladimir Menshov，且该导演以描绘俄罗斯工人阶级生活著称。\n\n# 路径三：从“俄罗斯平民/工人阶级生活”主题匹配人物\n\n步骤1：使用⟦268⟧⟦108⟧⟦123⟧，提取主题关键词——“the Russian everyman”和“his films”，指向一位以描绘俄罗斯普通人生活著称的导演。\n\n步骤2：综合⟦293⟧⟦213⟧⟦32⟧⟦100⟧，匹配人物身份——Vladimir Menshov是“Russian”籍的“actor and film director”，符合主题描述的主体条件。\n\n步骤3：使用⟦111⟧⟦252⟧⟦244⟧⟦162⟧，提取其作品列表——他执导了“the five films”，其中包括“the 1979 melodrama”等，进一步确认其导演身份与作品风格。\n\n步骤4：综合⟦172⟧⟦241⟧⟦6⟧⟦18⟧⟦245⟧⟦63⟧⟦176⟧，交叉验证获奖事实——其执导的《Moscow Does Not Believe in Tears》在1981年获得奥斯卡最佳外语片奖，与问题中的“won an Academy Award in 1981”完全吻合。\n\n结论：Vladimir Menshov以描绘俄罗斯工人阶级生活著称，并执导了1981年获奥斯卡奖的《莫斯科不相信眼泪》，是唯一同时满足两个条件的人物。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦293⟧⟨1⟩⟦213⟧⟨2⟩⟦310⟧⟦311⟧⟨3⟩⟦309⟧⟨4⟩⟨5⟩⟦60⟧⟨6⟩",
+    "nounCount": 413,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7083,
+      "completion_tokens": 385,
+      "total_tokens": 7468,
+      "prompt_tokens_details": {
+        "cached_tokens": 6912
+      },
+      "prompt_cache_hit_tokens": 6912,
+      "prompt_cache_miss_tokens": 171
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1294,
+      "completion_tokens": 948,
+      "total_tokens": 2242,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1294
+    }
+  },
+  {
+    "qid": "hotpot_1154",
+    "question": "When was the English-born South Australian brewer whose brewery was amalgamated with W. K. Simms's W",
+    "expectedAnswer": "6 April 1830",
+    "predictedAnswer": "# 路径一：从人物身份到出生日期\n\n步骤1：使用⟦20⟧，提取“an English-born South Australian brewer”这一人物描述，判断目标人物是一位英国出生的南澳大利亚酿酒商。\n\n步骤2：综合⟦83⟧⟦114⟧⟦92⟧，对比“Sir Edwin Smith's Kent Town Brewery”与“W. K. Simms's West End Brewery”的合并关系，确认该酿酒商正是 Edwin Smith，其肯特镇酿酒厂与 W. K. Simms 的西端酿酒厂合并。\n\n步骤3：使用⟦84⟧，提取“Sir Edwin Thomas Smith”这一全名，并结合⟦41⟧⟨7⟩⟨8⟩，定位其出生日期为“6 April 1830”。\n\n结论：该英国出生的南澳大利亚酿酒商 Edwin Thomas Smith 出生于 1830 年 4 月 6 日。\n\n# 路径二：从公司合并记录反推人物\n\n步骤1：使用⟦62⟧⟦92⟧⟦114⟧，提取“South Australian Brewing Company Limited”成立时“the amalgamation”涉及“W. K. Simms's West End Brewery”，判断合并方之一为 W. K. Simms 的西端酿酒厂。\n\n步骤2：综合⟦83⟧⟦13⟧，交叉验证“Sir Edwin Smith's Kent Town Brewery”也参与了这次“amalgamation”，确认 Edwin Smith 是另一位合并方。\n\n步骤3：使用⟦84⟧⟦41⟧⟨7⟩⟨8⟩，提取“Sir Edwin Thomas Smith”的出生日期为“6 April 1830”。\n\n结论：通过公司合并记录可反推出 Edwin Smith 出生于 1830 年 4 月 6 日。\n\n# 路径三：从酿酒商身份与政治身份交叉验证\n\n步骤1：使用⟦29⟧，提取“brewer”这一职业身份，判断目标人物是酿酒商。\n\n步骤2：综合⟦68⟧⟦74⟧⟦37⟧，提取“mayor”“politician”“councillor”等身份，交叉验证 Edwin Smith 同时具有酿酒商和政治人物身份。\n\n步骤3：使用⟦84⟧⟦41⟧⟨7⟩⟨8⟩，提取“Sir Edwin Thomas Smith”的出生日期为“6 April 1830”。\n\n结论：酿酒商兼政治人物 Edwin Thomas Smith 出生于 1830 年 4 月 6 日。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦84⟧⟨7⟩⟦41⟧⟨8⟩⟦20⟧⟨9⟩⟨10⟩⟦31⟧⟦31⟧⟨11⟩⟨12⟩⟦37⟧",
+    "nounCount": 152,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 2897,
+      "completion_tokens": 161,
+      "total_tokens": 3058,
+      "prompt_tokens_details": {
+        "cached_tokens": 2688
+      },
+      "prompt_cache_hit_tokens": 2688,
+      "prompt_cache_miss_tokens": 209
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 760,
+      "completion_tokens": 542,
+      "total_tokens": 1302,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 760
+    }
+  },
+  {
+    "qid": "hotpot_322",
+    "question": "Rock Springs is a collection of short stories by an author born in what year?",
+    "expectedAnswer": "1944",
+    "predictedAnswer": "# 路径一：直接实体链推理\n\n步骤1：使用⟦166⟧⟦172⟧，提取 Richard Ford 与 Rock Springs 的关联，判断 Rock Springs 是 Richard Ford 的作品。\n\n步骤2：使用⟦172⟧，提取作者 Richard Ford 的出生日期信息 (born February 16, 1944)。\n\n结论：Rock Springs 的作者 Richard Ford 出生于 1944 年。\n\n# 路径二：作品类型与作者身份交叉验证\n\n步骤1：使用⟦197⟧⟦198⟧，提取 Rock Springs 是一部短篇故事集（collection of short stories）。\n\n步骤2：综合⟦45⟧⟦166⟧⟦193⟧，交叉验证作者 Richard Ford 的身份为美国小说家及短篇故事作家，与作品类型一致。\n\n步骤3：使用⟦172⟧，提取该作者的出生年份为 1944。\n\n结论：通过作品类型与作者身份的交叉验证，确认作者 Richard Ford 出生于 1944 年。\n\n# 路径三：排除干扰项推理\n\n步骤1：使用⟦279⟧，提取 Richard Marsh 仅为 writer，与 Rock Springs 无关联，排除。\n\n步骤2：使用⟦172⟧，提取 Richard Honaker 仅与 Rock Springs 同名，非该作品作者，排除。\n\n步骤3：使用⟦166⟧⟦172⟧，确认 Rock Springs 的作者为 Richard Ford，其出生年份为 1944。\n\n结论：排除同名干扰项后，确认 Rock Springs 作者 Richard Ford 出生于 1944 年。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨197⟩⟨198⟩⟨199⟩⟨200⟩⟨201⟩⟦45⟧⟨202⟩⟨203⟩⟦74⟧⟦139⟧⟨204⟩⟨205⟩",
+    "nounCount": 417,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6690,
+      "completion_tokens": 169,
+      "total_tokens": 6859,
+      "prompt_tokens_details": {
+        "cached_tokens": 6528
+      },
+      "prompt_cache_hit_tokens": 6528,
+      "prompt_cache_miss_tokens": 162
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 793,
+      "completion_tokens": 339,
+      "total_tokens": 1132,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 793
+    }
+  },
+  {
+    "qid": "hotpot_627",
+    "question": "Flynn Rider is voiced by which American actor and singer born September 29, 1980?",
+    "expectedAnswer": "Zachary Levi",
+    "predictedAnswer": "# 路径一：直接实体匹配\n\n步骤1：使用⟦98⟧，提取 Flynn Rider 这一角色名称，确认其为目标实体。\n步骤2：综合⟦52⟧⟦20⟧，确认 Flynn Rider 是 a fictional character，born Eugene Fitzherbert，属于迪士尼作品角色。\n步骤3：使用⟦37⟧，提取 American actor Zachary Levi 为 Flynn Rider 的配音者。\n步骤4：综合⟦268⟧⟦150⟧，确认 Zachary Levi Pugh 出生于 September 29, 1980，且同时具有 actor 与 singer 身份。\n\n结论：Flynn Rider 由 Zachary Levi 配音，他是一位美国演员和歌手，出生于1980年9月29日。\n\n# 路径二：配音关系与身份交叉验证\n\n步骤1：使用⟦226⟧⟦367⟧，提取“The character is voiced by”这一配音关系，确认 Flynn Rider 的配音者为 Zachary Levi。\n步骤2：综合⟦369⟧⟦37⟧，验证 Zachary Levi 是 American actor，且曾为该角色试镜。\n步骤3：综合⟦227⟧⟦243⟧⟦186⟧，确认 Zachary Levi 不仅提供对白配音，还承担 the character's singing voice，即该角色的歌唱配音。\n步骤4：综合⟦200⟧⟦32⟧，确认其身份同时涵盖 singer 与 actor，与问题中“American actor and singer”完全吻合。\n\n结论：通过配音关系与身份双重验证，Flynn Rider 的配音者为 American actor and singer Zachary Levi。\n\n# 路径三：作品归属与出生日期综合确认\n\n步骤1：综合⟦263⟧⟦95⟧⟦129⟧，确认 Flynn Rider 出现于 Walt Disney Animation Studios' 50th animated feature film，即《Tangled》，以及其 short film《Tangled Ever After》。\n步骤2：综合⟦220⟧⟦212⟧⟦192⟧，确认该角色还出现于 the 2017 television series，属于 television 与 series 范畴。\n步骤3：使用⟦268⟧，提取 Zachary Levi Pugh 的全名，并结合⟦150⟧确认其出生日期为 September 29, 1980。\n步骤4：综合⟦37⟧⟦200⟧，确认 Zachary Levi 同时是 American actor 与 singer，满足问题全部限定条件。\n\n结论：Flynn Rider 的配音者是 Zachary Levi，其全名 Zachary Levi Pugh，出生于1980年9月29日，身份为美国演员和歌手。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦98⟧⟨354⟩⟦52⟧⟨355⟩⟦20⟧⟨356⟩⟨357⟩⟦263⟧⟦92⟧⟨359⟩⟨358⟩⟨360⟩",
+    "nounCount": 369,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6233,
+      "completion_tokens": 218,
+      "total_tokens": 6451,
+      "prompt_tokens_details": {
+        "cached_tokens": 6016
+      },
+      "prompt_cache_hit_tokens": 6016,
+      "prompt_cache_miss_tokens": 217
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 900,
+      "completion_tokens": 568,
+      "total_tokens": 1468,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 900
+    }
+  },
+  {
+    "qid": "hotpot_7014",
+    "question": "Which cast member of Pitch Perfect 2 was born March 9, 1986?",
+    "expectedAnswer": "Brittany Snow",
+    "predictedAnswer": "# 路径一：从电影条目出发定位演员\n\n步骤1：使用⟦12⟧，提取《Pitch Perfect 2》的基本信息——这是一部2015年美国音乐喜剧电影，由⟦52⟧执导并联合制片，⟦82⟧编剧。\n\n步骤2：综合⟦28⟧⟦31⟧⟦39⟧⟦44⟧⟦54⟧⟦64⟧⟦66⟧⟦84⟧⟦102⟧⟦114⟧⟦136⟧，提取该片的演员阵容信息，其中包括Anna Kendrick、Brittany Snow、Alexis Knapp、Chrissie Fit、Ester Dean、Hailee Steinfeld、Hana Mae Lee、Rebel Wilson、Kelley Jakle、Shelley Regner等。\n\n步骤3：使用⟦38⟧⟦279⟧，提取Brittany Snow的出生信息——Brittany Anne Snow（生于1986年3月9日）是一位美国女演员。\n\n结论：Brittany Snow是《Pitch Perfect 2》的演员之一，且出生于1986年3月9日，因此答案是Brittany Snow。\n\n# 路径二：从出生日期反向匹配演员身份\n\n步骤1：使用⟦38⟧⟦279⟧，提取关键出生日期信息——Brittany Anne Snow出生于1986年3月9日。\n\n步骤2：使用⟦27⟧，确认Brittany Snow是一位美国女演员。\n\n步骤3：综合⟦39⟧⟦97⟧⟦140⟧，交叉验证Brittany Snow与《Pitch Perfect》系列电影的关联——她出演了该系列电影。\n\n步骤4：使用⟦12⟧⟦28⟧，确认《Pitch Perfect 2》的演员阵容中包含Brittany Snow。\n\n结论：出生于1986年3月9日的Brittany Snow是《Pitch Perfect 2》的演员阵容成员，答案确认。\n\n# 路径三：排除法验证\n\n步骤1：使用⟦28⟧⟦31⟧⟦39⟧⟦44⟧⟦54⟧⟦64⟧⟦66⟧⟦84⟧⟦102⟧⟦114⟧⟦136⟧，列出《Pitch Perfect 2》的主要演员名单。\n\n步骤2：使用⟦38⟧⟦279⟧，提取唯一明确给出出生日期（1986年3月9日）的演员信息——Brittany Anne Snow。\n\n步骤3：综合⟦20⟧⟦116⟧，确认Brittany Snow同时具有演员和歌手身份，与《Pitch Perfect》系列的音乐喜剧属性一致。\n\n结论：在《Pitch Perfect 2》的演员阵容中，只有Brittany Snow的出生日期被明确标注为1986年3月9日，因此答案为Brittany Snow。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨61⟩⟦12⟧⟦47⟧⟨63⟩⟨62⟩⟨64⟩⟦52⟧⟨65⟩⟦82⟧⟨66⟩⟦58⟧⟦97⟧",
+    "nounCount": 268,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4356,
+      "completion_tokens": 226,
+      "total_tokens": 4582,
+      "prompt_tokens_details": {
+        "cached_tokens": 4222
+      },
+      "prompt_cache_hit_tokens": 4222,
+      "prompt_cache_miss_tokens": 134
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 931,
+      "completion_tokens": 632,
+      "total_tokens": 1563,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 931
+    }
+  },
+  {
+    "qid": "hotpot_1874",
+    "question": "What subsidiary of the largest airline of the Republic of China (Taiwan) has a main hub at Taichung ",
+    "expectedAnswer": "Mandarin Airlines",
+    "predictedAnswer": "# 路径一：从“最大航空公司”到“子公司”的链式定位\n\n步骤1：使用⟦141⟧⟦234⟧⟦49⟧，提取“largest airline”与“the flag carrier”及“CAL”的对应关系，判断中华航空（China Airlines）是台湾（Republic of China）的最大航空公司、载旗航空公司。\n\n步骤2：综合⟦64⟧⟦260⟧⟦205⟧，提取China Airlines Group拥有“three airline subsidiaries”（三个航空子公司），且“subsidiaries”属于该集团。\n\n步骤3：使用⟦150⟧⟦62⟧⟦259⟧，提取Mandarin Airlines（华信航空）是China Airlines的子公司（⟦62⟧ = China Airlines，⟦259⟧ = () is），并基于⟦214⟧⟦247⟧，确认其以台北（Taipei）为基地、以台中机场（Taichung Airport）为主要枢纽。\n\n结论：华信航空（Mandarin Airlines）是台湾最大航空公司中华航空的子公司，其主要枢纽位于台中机场。\n\n# 路径二：从“台中机场枢纽”反向追溯母公司\n\n步骤1：使用⟦247⟧⟦125⟧，提取“the Taichung Airport”与“Its other main hub”的关联，判断某航空公司以台中机场为另一主要枢纽。\n\n步骤2：综合⟦150⟧⟦62⟧⟦170⟧，提取Mandarin Airlines的“parent”为China Airlines（⟦62⟧），且⟦170⟧ = parent，确认华信航空的母公司是中华航空。\n\n步骤3：使用⟦141⟧⟦234⟧，交叉验证中华航空是台湾的“largest airline”和“the flag carrier”，从而确认华信航空是最大航空公司的子公司。\n\n结论：以台中机场为主要枢纽的华信航空，其母公司正是台湾最大航空公司中华航空。\n\n# 路径三：集团架构与子公司名单的交叉验证\n\n步骤1：使用⟦64⟧⟦260⟧，提取China Airlines Group包含“three airline subsidiaries”（三个航空子公司），确定子公司范围。\n\n步骤2：综合⟦150⟧⟦62⟧⟦259⟧⟦260⟧，对比子公司名单：Mandarin Airlines（华信航空）明确标注为China Airlines的子公司，且⟦260⟧ = three airline subsidiaries，说明华信航空是三个子公司之一。\n\n步骤3：使用⟦214⟧⟦247⟧⟦125⟧，提取华信航空以台中机场（Taichung Airport）为主要枢纽（⟦125⟧ = Its other main hub），与问题中的“main hub at Taichung Airport”完全匹配。\n\n结论：在中华航空集团的三个航空子公司中，华信航空是唯一以台中机场为主要枢纽的子公司，因此答案为华信航空（Mandarin Airlines）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨145⟩⟦49⟧⟨146⟩⟦234⟧⟦86⟧⟨148⟩⟨147⟩⟨149⟩⟦141⟧⟨150⟩⟨151⟩⟨152⟩",
+    "nounCount": 384,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6332,
+      "completion_tokens": 527,
+      "total_tokens": 6859,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 188
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1702,
+      "completion_tokens": 628,
+      "total_tokens": 2330,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1702
+    }
+  },
+  {
+    "qid": "hotpot_1937",
+    "question": "What collegiate division does the team coached by P.W. Underwood play in?",
+    "expectedAnswer": "Division I",
+    "predictedAnswer": "# 路径一：从教练身份到球队所属分区\n\n步骤1：使用⟦138⟧⟦140⟧，提取 P. W. Underwood 的全名与身份信息，确认其作为教练的指代对象。\n\n步骤2：综合⟦202⟧⟦229⟧，提取 P. W. Underwood 是 the Southern Miss Golden Eagles 的 head coach，时间范围为 1969 至 1974 年。\n\n步骤3：使用⟦89⟧⟦229⟧，确认 Southern Miss Golden Eagles 所属的 collegiate division 信息。\n\n结论：P. W. Underwood 执教的球队是 Southern Miss Golden Eagles，该队参加 NCAA Division I 级别的比赛（具体为 FBS  subdivision）。\n\n# 路径二：从球员经历反推执教球队\n\n步骤1：使用⟦26⟧⟦87⟧⟦145⟧，提取 P. W. Underwood 曾是一名 American gridiron football player，说明其与美式足球的关联。\n\n步骤2：综合⟦138⟧⟦140⟧⟦202⟧，确认同一人后来成为 the head coach，执教球队为 the Southern Miss Golden Eagles。\n\n步骤3：使用⟦229⟧，提取 Southern Miss Golden Eagles 的所属联盟与分区信息，判断其 collegiate division。\n\n结论：Southern Miss Golden Eagles 属于 NCAA Division I FBS，因此 P. W. Underwood 执教的球队参加的是 Division I FBS 级别的比赛。\n\n# 路径三：交叉验证教练任期与球队分区\n\n步骤1：使用⟦321⟧，提取 P. W. Underwood 担任 head coach 的时间为 1969 至 1974 年。\n\n步骤2：综合⟦202⟧⟦229⟧，确认该时间段内其执教的球队为 the Southern Miss Golden Eagles。\n\n步骤3：使用⟦229⟧，提取 Southern Miss Golden Eagles 的 collegiate division 信息，确认其属于 NCAA Division I。\n\n结论：综合教练任期与球队身份，P. W. Underwood 执教的 Southern Miss Golden Eagles 参加 NCAA Division I（FBS）级别的比赛。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦140⟧⟨307⟩⟦130⟧⟨308⟩⟦79⟧⟨309⟩⟦138⟧⟨310⟩⟦26⟧⟦87⟧⟨312⟩⟨313⟩",
+    "nounCount": 374,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6365,
+      "completion_tokens": 116,
+      "total_tokens": 6481,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 221
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 461,
+      "total_tokens": 1067,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 606
+    }
+  },
+  {
+    "qid": "hotpot_844",
+    "question": "What song written by Jimmy Webb inspired the name of a supergroup including Johnny Cash?",
+    "expectedAnswer": "Highwayman",
+    "predictedAnswer": "# 路径一：从歌曲到超级组合的直接溯源\n\n步骤1：使用⟦37⟧，提取关键信息——存在一首由Jimmy Webb创作的歌曲，其内容与\"highwayman\"主题相关。\n\n步骤2：综合⟦38⟧⟦39⟧⟦40⟧⟦43⟧⟦245⟧⟦248⟧，交叉验证——该歌曲讲述了一个灵魂转世为多个身份的故事，包括星舰船长、水手、建筑工人等，最终成为\"highwayman\"。\n\n步骤3：综合⟦288⟧⟦254⟧⟦346⟧⟦353⟧⟦162⟧，提取——The Highwaymen是一个由Waylon Jennings、Willie Nelson、Kris Kristofferson和Johnny Cash组成的超级组合。\n\n步骤4：综合⟦291⟧⟦142⟧⟦300⟧⟦195⟧，对比验证——该超级组合的命名灵感来源于这首歌曲，歌曲名称即为组合名称的来源。\n\n结论：这首歌曲是《Highwayman》，由Jimmy Webb创作，其名称直接启发了包括Johnny Cash在内的超级组合The Highwaymen的命名。\n\n\n# 路径二：从Johnny Cash到歌曲的反向追踪\n\n步骤1：使用⟦149⟧⟦236⟧，提取——Johnny Cash是一位歌手，与The Highwaymen超级组合相关。\n\n步骤2：综合⟦315⟧⟦241⟧⟦125⟧，交叉验证——存在一首名为\"Highwayman\"的歌曲，与Johnny Cash及其组合有关联。\n\n步骤3：综合⟦49⟧⟦243⟧⟦37⟧，提取——Jimmy Webb是一位美国创作歌手，创作了与\"highwayman\"主题相关的歌曲。\n\n步骤4：综合⟦288⟧⟦254⟧⟦291⟧⟦142⟧，综合支撑——The Highwaymen超级组合的名称灵感来源于Jimmy Webb创作的歌曲《Highwayman》。\n\n结论：Jimmy Webb创作的《Highwayman》启发了The Highwaymen超级组合的名称，该组合包括Johnny Cash。\n\n\n# 路径三：歌曲内容与组合命名的语义关联验证\n\n步骤1：使用⟦31⟧⟦71⟧⟦232⟧⟦355⟧，提取——歌曲《Highwayman》中描述了一个灵魂转世为多个身份，包括highwayman、船长、水手、建筑工人等。\n\n步骤2：综合⟦108⟧⟦218⟧⟦140⟧，交叉验证——歌曲涉及四个不同地点和多个转世身份，这与超级组合四位成员的结构形成呼应。\n\n步骤3：综合⟦288⟧⟦254⟧⟦346⟧⟦353⟧⟦162⟧⟦149⟧，提取——The Highwaymen由四位歌手组成，与歌曲中四个身份/地点的结构一致。\n\n步骤4：综合⟦291⟧⟦142⟧⟦300⟧⟦195⟧⟦317⟧，综合支撑——超级组合的命名直接取自歌曲标题，歌曲的\"highwayman\"主题与组合名称完全一致。\n\n结论：Jimmy Webb创作的《Highwayman》不仅在名称上，也在结构主题上启发了The Highwaymen超级组合的命名，该组合包括Johnny Cash。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨38⟩⟨39⟩⟨40⟩⟨42⟩⟨43⟩⟨41⟩⟦38⟧⟦245⟧⟨44⟩⟨45⟩⟦140⟧⟦140⟧",
+    "nounCount": 559,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8707,
+      "completion_tokens": 381,
+      "total_tokens": 9088,
+      "prompt_tokens_details": {
+        "cached_tokens": 8573
+      },
+      "prompt_cache_hit_tokens": 8573,
+      "prompt_cache_miss_tokens": 134
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1373,
+      "completion_tokens": 721,
+      "total_tokens": 2094,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1373
+    }
+  },
+  {
+    "qid": "hotpot_3592",
+    "question": "What is the relation between current manager of Chinese club Tianjin Quanjian and Paolo Cannavaro?",
+    "expectedAnswer": "brother",
+    "predictedAnswer": "# 路径一：从人物身份与职业关系切入\n\n步骤1：使用⟦49⟧，提取 Fabio Cannavaro 的身份信息——他是“an Italian former professional footballer”（⟦25⟧），并且是“current manager”（⟦45⟧）。\n\n步骤2：综合⟦40⟧⟦45⟧，确认 Fabio Cannavaro 是“Chinese club Tianjin Quanjian”（⟦40⟧）的“current manager”（⟦45⟧）。\n\n步骤3：使用⟦70⟧，提取 Paolo Cannavaro 的身份信息——他是“Paolo Cannavaro”（⟦70⟧），并且是“an Italian footballer”（⟦24⟧），同时是“a defender”（⟦13⟧）。\n\n步骤4：综合⟦49⟧⟦70⟧，对比两人的姓氏“Cannavaro”以及国籍“Italian”，推断两人可能存在亲属关系。\n\n结论：Fabio Cannavaro 是天津权健的现任主教练，而 Paolo Cannavaro 是一名意大利足球运动员，两人同姓“Cannavaro”且均为意大利人，因此两人很可能是兄弟关系（Fabio 是 Paolo 的哥哥）。\n\n---\n\n# 路径二：从职业生涯轨迹与家庭关联切入\n\n步骤1：使用⟦49⟧，提取 Fabio Cannavaro 的出生日期“born 13 September 1973”（⟨149⟩），以及他曾是“an Italian former professional footballer”（⟦25⟧）。\n\n步骤2：使用⟦70⟧，提取 Paolo Cannavaro 的出生日期“born 26 June 1981”（⟨57⟩），以及他是“an Italian footballer”（⟦24⟧）。\n\n步骤3：综合⟦49⟧⟦70⟧，对比两人的出生年份——Fabio 出生于 1973 年，Paolo 出生于 1981 年，相差 8 岁，符合兄弟年龄差。\n\n步骤4：使用⟦66⟧，提取 Paolo Cannavaro 曾效力于“Napoli”（⟦66⟧），而 Fabio Cannavaro 也曾效力于那不勒斯，进一步佐证两人家庭背景相同。\n\n结论：Fabio Cannavaro 与 Paolo Cannavaro 是兄弟关系，Fabio 是哥哥，Paolo 是弟弟，两人均出生于意大利并从事足球职业。\n\n---\n\n# 路径三：从天津权健俱乐部与 Paolo 的间接关联切入\n\n步骤1：使用⟦40⟧⟦45⟧，提取天津权健的现任主教练是 Fabio Cannavaro。\n\n步骤2：使用⟦70⟧，提取 Paolo Cannavaro 是一名意大利足球运动员，目前效力于“Sassuolo”（⟦78⟧）或曾效力于“Napoli”（⟦66⟧）。\n\n步骤3：综合⟦40⟧⟦70⟧，对比 Fabio 与 Paolo 的职业轨迹——Fabio 在天津权健执教，Paolo 在意大利踢球，两人虽不在同一俱乐部，但姓氏相同且均为意大利足球界人士。\n\n步骤4：使用⟦49⟧，提取 Fabio Cannavaro 是“an Italian former professional footballer”（⟦25⟧），而 Paolo 是“an Italian footballer”（⟦24⟧），两人职业身份一致。\n\n结论：Fabio Cannavaro（天津权健现任主教练）与 Paolo Cannavaro 是兄弟关系，Fabio 是 Paolo 的哥哥，两人均为意大利足球运动员出身。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦49⟧⟨149⟩⟦25⟧⟦51⟧⟨150⟩⟨151⟩⟦45⟧⟦63⟧⟨152⟩⟨153⟩⟦40⟧⟨155⟩",
+    "nounCount": 183,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 3171,
+      "completion_tokens": 294,
+      "total_tokens": 3465,
+      "prompt_tokens_details": {
+        "cached_tokens": 2944
+      },
+      "prompt_cache_hit_tokens": 2944,
+      "prompt_cache_miss_tokens": 227
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1176,
+      "completion_tokens": 756,
+      "total_tokens": 1932,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1176
+    }
+  },
+  {
+    "qid": "hotpot_6872",
+    "question": "What speech by Abraham Lincoln was part of Richard Heffner's A Documentary History of the United Sta",
+    "expectedAnswer": "Gettysburg Address",
+    "predictedAnswer": "# 路径一：从Heffner的出版作品直接定位\n\n步骤1：使用⟦248⟧⟦150⟧，提取Richard Douglas Heffner的身份信息——他是⟦110⟧⟦320⟧ of \"The Open Mind\"⟦9⟧⟦194⟧，一档公共事务电视节目⟦28⟧。\n\n步骤2：综合⟦150⟧⟦208⟧⟦396⟧，交叉验证Heffner与Elie Wiesel的合作关系——Heffner collaborated with Nobel Peace Prize winner Elie Wiesel on the publication⟦238⟧ of books⟦80⟧。\n\n步骤3：使用⟦253⟧⟦83⟧，提取出版信息——\"With Elie Wiesel\", released by Schochen books⟦253⟧ in 2001⟦85⟧。\n\n步骤4：综合⟦326⟧⟦37⟧⟦279⟧⟦388⟧，确认The Gettysburg Address⟦326⟧ is a speech⟦37⟧⟦279⟧ by U.S. President Abraham Lincoln⟦388⟧, one of the best-known in American history⟦54⟧⟦159⟧。\n\n结论：Richard Heffner's A Documentary History of the United States 中包含的Abraham Lincoln的演讲是 The Gettysburg Address⟦326⟧。\n\n# 路径二：从Lincoln演讲的历史地位交叉验证\n\n步骤1：使用⟦326⟧⟦388⟧，提取The Gettysburg Address的作者信息——由U.S. President Abraham Lincoln⟦388⟧发表。\n\n步骤2：综合⟦37⟧⟦279⟧⟦54⟧⟦159⟧，确认该演讲的性质与地位——a speech⟦37⟧⟦279⟧, one of the best-known in American history⟦54⟧⟦159⟧。\n\n步骤3：使用⟦150⟧⟦208⟧，提取Heffner作为历史文献编者的背景——Heffner collaborated with Nobel Peace Prize winner Elie Wiesel⟦208⟧ on publications⟦238⟧。\n\n步骤4：综合⟦326⟧⟦238⟧⟦80⟧，交叉验证——Heffner参与编辑的出版物⟦238⟧⟦80⟧中收录了美国历史上最著名的演讲之一，即The Gettysburg Address⟦326⟧。\n\n结论：通过历史文献编纂背景与Lincoln演讲地位的交叉验证，确认答案为 The Gettysburg Address⟦326⟧。\n\n# 路径三：排除法与文献特征综合\n\n步骤1：使用⟦248⟧⟦150⟧⟦110⟧，提取Heffner的核心身份——Richard Douglas Heffner⟦248⟧是\"The Open Mind\"⟦9⟧⟦194⟧的creator⟦110⟧，该节目first broadcast in 1956⟦51⟧。\n\n步骤2：综合⟦208⟧⟦396⟧⟦130⟧，确认Heffner的合作者——Nobel Peace Prize winner Elie Wiesel⟦208⟧⟦130⟧，两人合作出版书籍⟦80⟧。\n\n步骤3：使用⟦326⟧⟦388⟧⟦209⟧，提取Lincoln演讲的关键特征——The Gettysburg Address⟦326⟧ by U.S. President Abraham Lincoln⟦388⟧, one of the best-known in American history⟦209⟧。\n\n步骤4：综合⟦326⟧⟦238⟧⟦80⟧，将Lincoln最著名的演讲与Heffner的出版文献⟦238⟧⟦80⟧进行匹配——A Documentary History of the United States 作为美国历史文献选集，必然收录The Gettysburg Address⟦326⟧这一美国历史上最著名的演讲。\n\n结论：综合Heffner的出版背景与Lincoln演讲的历史地位，A Documentary History of the United States 中收录的Lincoln演讲为 The Gettysburg Address⟦326⟧。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦248⟧⟨39⟩⟦68⟧⟨40⟩⟦116⟧⟨41⟩⟦320⟧⟦110⟧⟨42⟩⟨43⟩⟦162⟧⟦162⟧",
+    "nounCount": 535,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 9017,
+      "completion_tokens": 234,
+      "total_tokens": 9251,
+      "prompt_tokens_details": {
+        "cached_tokens": 8832
+      },
+      "prompt_cache_hit_tokens": 8832,
+      "prompt_cache_miss_tokens": 185
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 962,
+      "completion_tokens": 880,
+      "total_tokens": 1842,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 962
+    }
+  },
+  {
+    "qid": "hotpot_2880",
+    "question": "Hermann Wilhelm Göring was a veteran fighter pilot in a war that ended in what year?",
+    "expectedAnswer": "1918",
+    "predictedAnswer": "# 路径一：直接提取战争年份\n\n步骤1：使用⟦112⟧⟦106⟧，提取 Hermann Wilhelm Göring 的身份信息，确认其为 Hermann Göring。\n\n步骤2：综合⟦120⟧⟦277⟧，提取 Göring 是“I fighter pilot ace”且与“World War”相关，判断其所参与的战争为第一次世界大战。\n\n步骤3：使用⟦266⟧，提取“veteran”一词，确认其老兵身份，与问题中的“veteran fighter pilot”对应。\n\n结论：Göring 是第一次世界大战的老兵飞行员，该战争于 1918 年结束。\n\n# 路径二：通过指挥官与部队交叉验证\n\n步骤1：使用⟦223⟧⟦136⟧，提取 Göring 是“the last commander”且与 Manfred von Richthofen 相关，确认其隶属“Jagdgeschwader 1”部队。\n\n步骤2：综合⟦266⟧⟦268⟧⟦269⟧，提取该部队“once led by”Richthofen，而 Richthofen 是第一次世界大战著名飞行员，交叉验证 Göring 参与的是第一次世界大战。\n\n步骤3：综合⟦277⟧，确认“World War”即第一次世界大战，其结束年份为 1918 年。\n\n结论：通过部队指挥官 Richthofen 的交叉验证，Göring 参与的战争为第一次世界大战，结束于 1918 年。\n\n# 路径三：通过政治生涯时间线反推\n\n步骤1：使用⟦3⟧⟦245⟧⟦246⟧，提取 Göring 生卒年为 1893–1946，确认其活跃年代。\n\n步骤2：综合⟦22⟧⟦130⟧⟦229⟧⟦251⟧⟦252⟧⟦253⟧，提取 Göring 是德国政治军事领袖、纳粹党核心人物，该党从 1933 到 1945 年统治德国。\n\n步骤3：综合⟦120⟧⟦266⟧，对比其“fighter pilot ace”与“veteran”身份，判断其飞行员生涯早于政治生涯，即第一次世界大战期间。\n\n结论：Göring 的飞行员生涯属于第一次世界大战，该战争结束于 1918 年。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦112⟧⟨243⟩⟦106⟧⟨244⟩⟦3⟧⟨245⟩⟦158⟧⟨246⟩⟦22⟧⟦130⟧⟨247⟩⟨248⟩",
+    "nounCount": 372,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6398,
+      "completion_tokens": 208,
+      "total_tokens": 6606,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 254
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 912,
+      "completion_tokens": 500,
+      "total_tokens": 1412,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 912
+    }
+  },
+  {
+    "qid": "hotpot_2460",
+    "question": "What is the nickname of Stephan Lichtsteiner that refers to the character from the 1994 American com",
+    "expectedAnswer": "Forrest Gump",
+    "predictedAnswer": "# 路径一：从人物到电影的反向追踪\n\n步骤1：使用⟦153⟧⟦19⟧⟦6⟧，提取 Stephan Lichtsteiner 的基本信息——他是一名瑞士职业足球运动员，其昵称之一为 \"The Swiss Express\"。\n\n步骤2：综合⟦10⟧⟦51⟧⟦55⟧⟦160⟧⟦195⟧，识别目标电影——1994年美国喜剧剧情片，改编自 Winston Groom 的1986年小说，即《Forrest Gump》。\n\n步骤3：综合⟦2⟧⟦63⟧⟦108⟧⟦176⟧，交叉验证——⟦2⟧ 显示 \"Forrest Gump\" 是电影名，⟦63⟧ 显示 \"Forrest Gump\" 也是角色名，⟦176⟧ 指出存在 \"the same name\"（同名），说明该昵称直接取自角色名。\n\n结论：Stephan Lichtsteiner 的昵称为 \"Forrest Gump\"，该昵称直接指涉1994年电影《Forrest Gump》中的同名主角。\n\n---\n\n# 路径二：从昵称列表到电影角色的匹配\n\n步骤1：使用⟦109⟧⟦171⟧⟦6⟧，提取 Stephan Lichtsteiner 的昵称集合——包括 \"The Swiss Express\" 等，需从中筛选出与电影角色相关的昵称。\n\n步骤2：综合⟦10⟧⟦51⟧⟦55⟧⟦59⟧⟦111⟧，确定目标电影的特征——1994年美国喜剧剧情片，改编自小说，即《Forrest Gump》。\n\n步骤3：综合⟦2⟧⟦63⟧⟦108⟧，对比匹配——⟦2⟧ 中 \"Forrest Gump\" 是电影标题，⟦63⟧ 中 \"Forrest Gump\" 是角色名，⟦108⟧ 指出该名称同时是角色名，与 Lichtsteiner 的昵称 \"Forrest Gump\" 完全吻合。\n\n结论：在 Lichtsteiner 的多个昵称中，\"Forrest Gump\" 是唯一与1994年电影角色同名的昵称。\n\n---\n\n# 路径三：通过电影来源与角色名的交叉验证\n\n步骤1：综合⟦10⟧⟦160⟧⟦195⟧，提取电影来源信息——1994年美国喜剧剧情片，基于 Winston Groom 的1986年小说，确认目标电影为《Forrest Gump》。\n\n步骤2：使用⟦63⟧⟦108⟧，提取该电影的主角名称——角色名为 \"Forrest Gump\"，且该名称与电影同名。\n\n步骤3：综合⟦153⟧⟦6⟧⟦109⟧，对比 Lichtsteiner 的昵称——其昵称 \"The Swiss Express\" 和 \"Forrest Gump\" 中，只有 \"Forrest Gump\" 与电影角色名一致。\n\n结论：Stephan Lichtsteiner 的昵称 \"Forrest Gump\" 来源于1994年电影《Forrest Gump》中的同名角色，该电影改编自 Winston Groom 的小说。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦153⟧⟨231⟩⟦19⟧⟦61⟧⟨232⟩⟨233⟩⟦85⟧⟦47⟧⟨235⟩⟨234⟩⟦182⟧⟦157⟧",
+    "nounCount": 295,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4888,
+      "completion_tokens": 269,
+      "total_tokens": 5157,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 152
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1063,
+      "completion_tokens": 697,
+      "total_tokens": 1760,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1063
+    }
+  },
+  {
+    "qid": "hotpot_6313",
+    "question": "An english lawyer had Christopher Mont as an agent and was awarded denization where?",
+    "expectedAnswer": "England",
+    "predictedAnswer": "# 路径一：通过代理人关系锁定雇主\n\n步骤1：使用⟦11⟧⟦12⟧，提取“agent”这一角色信息，判断Christopher Mont曾担任某人的代理人。\n\n步骤2：综合⟦37⟧⟦144⟧，交叉验证：Christopher Mont（⟦37⟧）与Thomas Cromwell（⟦144⟧）之间存在代理关系，Cromwell是Mont的雇主。\n\n步骤3：使用⟦35⟧，提取“denization”（归化/授予公民权）这一关键事件，判断该雇主曾被授予denization。\n\n步骤4：综合⟦65⟧⟦162⟧，提取地点信息：Koblenz（⟦65⟧）与“where he became”（⟦162⟧）关联，判断授予denization的地点。\n\n结论：Thomas Cromwell在Koblenz被授予denization。\n\n---\n\n# 路径二：通过Mont的职业身份反推雇主\n\n步骤1：使用⟦8⟧⟦36⟧，提取Christopher Mont的职业身份为“a sixteenth-century diplomat”（十六世纪外交官）和“diplomat”（外交官）。\n\n步骤2：综合⟦2⟧⟦19⟧，提取时间信息：Mont生活于1496/7–1572（⟦2⟧），属于十六世纪（⟦19⟧），与外交官身份一致。\n\n步骤3：使用⟦144⟧，提取Thomas Cromwell作为Mont的关联人物，判断Cromwell是雇佣Mont作为代理人的英国律师。\n\n步骤4：综合⟦35⟧⟦65⟧，交叉验证：Cromwell被授予denization（⟦35⟧），地点为Koblenz（⟦65⟧）。\n\n结论：该英国律师（Thomas Cromwell）在Koblenz被授予denization。\n\n---\n\n# 路径三：通过地理与事件链综合推断\n\n步骤1：使用⟦37⟧，提取“Dr. Christopher Mont”这一完整称谓，确认其身份为Christopher Mont。\n\n步骤2：综合⟦11⟧⟦144⟧，提取代理关系：Mont是agent（⟦11⟧），其雇主为Thomas Cromwell（⟦144⟧）。\n\n步骤3：使用⟦65⟧⟦162⟧，提取地点与事件关联：Koblenz（⟦65⟧）与“where he became”（⟦162⟧）构成地点-事件链，判断denization授予发生在Koblenz。\n\n步骤4：综合⟦35⟧⟦159⟧，交叉验证：denization（⟦35⟧）与“but in 1531 awarded”（⟦159⟧）关联，确认授予时间为1531年，地点为Koblenz。\n\n结论：Thomas Cromwell于1531年在Koblenz被授予denization。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦37⟧⟨154⟩⟦2⟧⟨155⟩⟦8⟧⟦19⟧⟨157⟩⟦36⟧⟨156⟩⟨158⟩⟦65⟧⟨159⟩",
+    "nounCount": 210,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 3546,
+      "completion_tokens": 96,
+      "total_tokens": 3642,
+      "prompt_tokens_details": {
+        "cached_tokens": 3328
+      },
+      "prompt_cache_hit_tokens": 3328,
+      "prompt_cache_miss_tokens": 218
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 527,
+      "completion_tokens": 611,
+      "total_tokens": 1138,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 527
+    }
+  },
+  {
+    "qid": "hotpot_6646",
+    "question": "Buck Rogers XXVC is a published campaign setting or a homebrew campaign setting?",
+    "expectedAnswer": "published campaign settings",
+    "predictedAnswer": "# 路径一：基于设定性质的直接判定\n\n步骤1：使用⟦54⟧，提取“Buck Rogers XXVC”这一名称，并注意到其与⟦21⟧（a game setting）的关联，判断其属于游戏设定类别。\n\n步骤2：综合⟦54⟧⟦184⟧⟦21⟧，交叉验证该设定与“the 25th Century”背景及“a game setting”的对应关系，确认其为一个正式发布的设定而非玩家自创。\n\n步骤3：使用⟦78⟧，提取“was active from 1988 until 1995”这一时间信息，表明该设定有明确的商业出版周期，符合published campaign setting的特征。\n\n结论：Buck Rogers XXVC 是一个 published campaign setting（已出版的战役设定），而非 homebrew campaign setting。\n\n# 路径二：基于出版主体与产品线的交叉验证\n\n步骤1：使用⟦214⟧，提取“TSR, Inc.”作为出版主体，判断该设定由正规游戏公司发行。\n\n步骤2：综合⟦141⟧⟦205⟧，对比“Al-Qadim”的“Products”与“Masque of the Red Death (Ravenloft)”的“The setting”，发现它们均属于TSR旗下的正式产品线，而Buck Rogers XXVC 与这些设定并列出现，进一步支持其published属性。\n\n步骤3：使用⟦23⟧，提取“a role-playing game”这一类别，结合⟦214⟧的出版主体，确认该设定是作为角色扮演游戏产品的一部分正式出版。\n\n结论：Buck Rogers XXVC 是由 TSR, Inc. 正式出版的战役设定，属于 published campaign setting。\n\n# 路径三：基于媒体衍生与游戏形式的综合判断\n\n步骤1：使用⟦93⟧⟦221⟧，提取“graphic novels”和“video games”等衍生媒体形式，判断该设定具有跨媒体商业开发的特征。\n\n步骤2：综合⟦49⟧⟦88⟧⟦150⟧，对比“board game”“game”“role”等术语，发现该设定涉及多种游戏形式（如 board game、RPG、video games），这些均需正式出版才能实现。\n\n步骤3：使用⟦160⟧，提取“setting”这一核心词，结合上述多媒体验证，确认其为一个被正式出版并扩展至多种媒体的 campaign setting。\n\n结论：Buck Rogers XXVC 是一个 published campaign setting，其多平台衍生内容进一步排除了 homebrew 的可能性。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦54⟧⟨52⟩⟨53⟩⟦184⟧⟨54⟩⟦21⟧⟨56⟩⟨55⟩⟨57⟩⟨58⟩⟦214⟧⟦53⟧",
+    "nounCount": 376,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 5832,
+      "completion_tokens": 218,
+      "total_tokens": 6050,
+      "prompt_tokens_details": {
+        "cached_tokens": 5632
+      },
+      "prompt_cache_hit_tokens": 5632,
+      "prompt_cache_miss_tokens": 200
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 903,
+      "completion_tokens": 536,
+      "total_tokens": 1439,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 903
+    }
+  },
+  {
+    "qid": "hotpot_5066",
+    "question": "SWX Right Now airs on the station that broadcasts on what channel in Billings, Montana?",
+    "expectedAnswer": "8",
+    "predictedAnswer": "# 路径一：从 KULR-TV 的频道号直接定位\n\n步骤1：使用⟦101⟧，提取 KULR-TV 的虚拟频道信息，结合⟦200⟧可知其虚拟频道为 8。\n\n步骤2：综合⟦36⟧⟦45⟧，确认 KULR-TV 是位于 Billings 的 NBC 附属广播机构，其广播频道为 8。\n\n步骤3：使用⟦41⟧⟦42⟧，确认 Billings 的 KULR 即为该广播机构，因此其在 Billings, Montana 播出的频道是 8。\n\n结论：SWX Right Now 播出的频道是 **8**。\n\n---\n\n# 路径二：从 SWX Right Now 的运营方反推\n\n步骤1：使用⟦176⟧⟦50⟧，提取 The channel（即 SWX Right Now 所在的频道）由 Cowles Company 运营。\n\n步骤2：综合⟦59⟧⟦60⟧，Cowles Company 拥有三个 NBC 附属频道，其中包括 KULR。\n\n步骤3：使用⟦100⟧⟦41⟧，KULR 位于 Billings, Montana；再结合⟦200⟧，其虚拟频道为 8。\n\n结论：SWX Right Now 在 Billings, Montana 播出的频道是 **8**。\n\n---\n\n# 路径三：从 Cowles 旗下频道网络交叉验证\n\n步骤1：综合⟦60⟧⟦95⟧⟦150⟧⟦161⟧，Cowles 的三个 NBC 附属频道包括 KNDO、KNDU 和 KHQ，分别服务于 Yakima、Richland 和 Spokane 等市场。\n\n步骤2：使用⟦117⟧⟦180⟧，这些频道覆盖多个市场；结合⟦100⟧⟦41⟧，其中 KULR 服务于 Billings, Montana。\n\n步骤3：综合⟦200⟧⟦414⟧，KULR 的虚拟频道为 8，且该频道在 Billings 播出。\n\n结论：SWX Right Now 在 Billings, Montana 播出的频道是 **8**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦101⟧⟨412⟩⟦200⟧⟨413⟩⟨414⟩⟦36⟧⟦31⟧⟨416⟩⟦45⟧⟨415⟩⟨417⟩⟨418⟩",
+    "nounCount": 491,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6677,
+      "completion_tokens": 246,
+      "total_tokens": 6923,
+      "prompt_tokens_details": {
+        "cached_tokens": 6528
+      },
+      "prompt_cache_hit_tokens": 6528,
+      "prompt_cache_miss_tokens": 149
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 931,
+      "completion_tokens": 473,
+      "total_tokens": 1404,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 931
+    }
+  },
+  {
+    "qid": "hotpot_2898",
+    "question": "Wrinkles is a song that was recorded by what American country and Christian country band that was fo",
+    "expectedAnswer": "Diamond Rio",
+    "predictedAnswer": "# 路径一：从歌曲属性直接定位乐队\n\n步骤1：使用⟦199⟧⟦12⟧，提取 \"Wrinkles\" 是一首歌曲（a song），判断其需要关联到某个录制乐队。\n\n步骤2：综合⟦199⟧⟦271⟧⟦272⟧⟦273⟧⟦274⟧⟦275⟧，提取 \"Wrinkles\" 由 Neil Thrasher 和 Ronny Scaife 创作，并由某乐队录制。\n\n步骤3：综合⟦23⟧⟦279⟧，提取该录制乐队为 American country music group Diamond Rio，即 Diamond Rio。\n\n结论：Wrinkles 由 Diamond Rio 录制，但需进一步验证其是否符合\"1982年成立\"及\"American country and Christian country band\"的条件。\n\n# 路径二：从乐队属性反向匹配\n\n步骤1：使用⟦33⟧⟦25⟧，提取 Austins Bridge 是一支 American Christian country band（美国基督教乡村乐队）。\n\n步骤2：综合⟦32⟧⟦33⟧⟦263⟧⟦31⟧⟦149⟧，提取 Austins Bridge 最初在 Austin, Texas 成立，但未提及1982年。\n\n步骤3：综合⟦23⟧⟦77⟧，提取 Diamond Rio 是一支 American country music group，但未提及 Christian country 属性。\n\n结论：Austins Bridge 符合\"Christian country band\"但成立时间不明；Diamond Rio 符合\"country group\"但 Christian 属性不明确。需交叉验证。\n\n# 路径三：交叉验证成立时间与乐队属性\n\n步骤1：使用⟦156⟧⟦267⟧⟦266⟧⟦95⟧⟦268⟧⟦91⟧⟦269⟧，提取 The band 由 Justin Rivers 和 Jason Baird 组成，指向 Austins Bridge 的成员信息。\n\n步骤2：综合⟦33⟧⟦25⟧⟦31⟧⟦149⟧，确认 Austins Bridge 是 American Christian country band，来自 Austin, Texas。\n\n步骤3：综合⟦199⟧⟦23⟧⟦279⟧，确认 Wrinkles 由 Diamond Rio 录制，而 Diamond Rio 是 American country music group。\n\n步骤4：对比⟦25⟧与⟦23⟧，发现\"Christian country band\"（Austins Bridge）与\"country music group\"（Diamond Rio）属性不同；再对比⟦263⟧与问题中的\"founded in 1982\"，材料中无1982年成立信息。\n\n结论：材料中存在属性矛盾——Wrinkles 由 Diamond Rio 录制，但 Diamond Rio 并非 Christian country band；Austins Bridge 是 Christian country band 但未录制 Wrinkles。问题中的\"1982年成立\"在材料中无对应证据，无法唯一确定答案。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦199⟧⟨271⟩⟦12⟧⟨272⟩⟨273⟩⟦114⟧⟨274⟩⟦131⟧⟨275⟩⟦23⟧⟨277⟩⟨278⟩",
+    "nounCount": 307,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5090,
+      "completion_tokens": 162,
+      "total_tokens": 5252,
+      "prompt_tokens_details": {
+        "cached_tokens": 4864
+      },
+      "prompt_cache_hit_tokens": 4864,
+      "prompt_cache_miss_tokens": 226
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 747,
+      "completion_tokens": 631,
+      "total_tokens": 1378,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 747
+    }
+  },
+  {
+    "qid": "hotpot_4354",
+    "question": "Be Quick '28  football club is locayed in what province?",
+    "expectedAnswer": "Overijssel",
+    "predictedAnswer": "# 路径一：直接实体链推理\n\n步骤1：使用⟦13⟧，提取 \"Be Quick '28\" 是一个足球俱乐部（a football club）。\n步骤2：使用⟦102⟧，提取 \"Wim de Bois\" 与荷兰（the Netherlands）相关。\n步骤3：综合⟦13⟧⟦102⟧，判断 Be Quick '28 位于荷兰。\n\n结论：Be Quick '28 足球俱乐部位于荷兰（the Netherlands），但该路径未直接给出省份。\n\n---\n\n# 路径二：Zwolle 地理链推理\n\n步骤1：使用⟦117⟧，提取 Zwolle 是兹沃勒（城市名）。\n步骤2：使用⟦84⟧，提取 Zwolle 是 \"the capital city\"（省会城市）。\n步骤3：使用⟦57⟧，提取 Overijssel 是荷兰的一个省（province）。\n步骤4：综合⟦117⟧⟦84⟧⟦57⟧，判断 Zwolle 是 Overijssel 省的省会。\n\n结论：若 Be Quick '28 位于 Zwolle，则其所在省份为 Overijssel。\n\n---\n\n# 路径三：Quick 俱乐部与 Zwolle 交叉验证\n\n步骤1：使用⟦44⟧，提取 \"K. Voetbal Vereniging Quick\" 是一个足球俱乐部。\n步骤2：使用⟦55⟧，提取 Oldenzaal 是一个地名。\n步骤3：使用⟦63⟧，提取 \"Quick\" 与 Be Quick '28 名称相关。\n步骤4：综合⟦44⟧⟦55⟧⟦63⟧，判断 Quick 俱乐部与 Oldenzaal 存在关联。\n步骤5：使用⟦57⟧，提取 Overijssel 是荷兰的一个省。\n步骤6：综合⟦55⟧⟦57⟧，判断 Oldenzaal 位于 Overijssel 省。\n\n结论：Be Quick '28 足球俱乐部位于 Overijssel 省。\n\n---\n\n# 路径四：多材料综合支撑\n\n步骤1：使用⟦13⟧，提取 Be Quick '28 是足球俱乐部。\n步骤2：使用⟦102⟧，提取其与荷兰相关。\n步骤3：使用⟦117⟧⟦84⟧，提取 Zwolle 是省会城市。\n步骤4：使用⟦57⟧，提取 Overijssel 是省。\n步骤5：综合⟦13⟧⟦102⟧⟦117⟧⟦84⟧⟦57⟧，交叉验证 Be Quick '28 位于荷兰 Overijssel 省。\n\n结论：Be Quick '28 足球俱乐部位于 Overijssel 省。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦44⟧⟨16⟩⟨17⟩⟨19⟩⟨18⟩⟨20⟩⟦55⟧⟨21⟩⟦13⟧⟦102⟧⟦63⟧⟦37⟧",
+    "nounCount": 155,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 3021,
+      "completion_tokens": 131,
+      "total_tokens": 3152,
+      "prompt_tokens_details": {
+        "cached_tokens": 2816
+      },
+      "prompt_cache_hit_tokens": 2816,
+      "prompt_cache_miss_tokens": 205
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 654,
+      "completion_tokens": 582,
+      "total_tokens": 1236,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 654
+    }
+  }
+]

@@ -1,0 +1,84 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Death of a Bachelor] ⟨69⟩⟨70⟩⟨71⟩⟦244⟧⟨73⟩⟨72⟩⟨74⟩⟨76⟩⟨77⟩⟨75⟩
+[Death of a Bachelor] ⟨78⟩⟨79⟩⟨80⟩⟨81⟩
+[Emperor's New Clothes (song)] ⟦44⟧
+[Emperor's New Clothes (song)] ⟦193⟧⟦86⟧
+[Panic! at the Disco discography] ⟦231⟧⟨462⟩⟨463⟩⟨461⟩⟨464⟩⟦87⟧⟦87⟧⟨465⟩⟨466⟩⟦25⟧⟦54⟧⟨467⟩⟨468⟩⟦146⟧⟨469⟩⟦275⟧⟨470⟩⟨471⟩⟨472⟩ | ⟦87⟧⟦87⟧⟦25⟧
+[Panic! at the Disco] ⟦269⟧
+[Vices and Virtues (Art of Dying album)] ⟦222⟧ | ⟦222⟧
+[Vices and Virtues (Art of Dying album)] ⟦55⟧ | ⟦201⟧⟦55⟧
+[Vices and Virtues (Art of Dying album)] ⟦39⟧⟦39⟧ | ⟦39⟧ | ⟦240⟧
+
+符号表：
+⟦25⟧ = a Bachelor
+⟦39⟧ = album
+⟦44⟧ = American rock band Panic
+⟦54⟧ = Bachelor
+⟦55⟧ = band
+⟦86⟧ = DCD2
+⟦87⟧ = Death
+⟦146⟧ = January
+⟦193⟧ = Ramen
+⟦201⟧ = rock
+⟦222⟧ = studio
+⟦231⟧ = the band's fifth studio album
+⟦240⟧ = the Disco
+⟦244⟧ = the fifth studio album
+⟦269⟧ = the US
+⟦275⟧ = their first Number 1 album
+
+占位符映射：
+⟨69⟩ = 
+⟨70⟩ =  of 
+⟨71⟩ =  is 
+⟨72⟩ = 
+⟨73⟩ =  
+⟨74⟩ =  by 
+⟨75⟩ = 
+⟨76⟩ =  
+⟨77⟩ =  Panic!
+⟨78⟩ =  at 
+⟨79⟩ = , released January 15, 2016 on Fueled by 
+⟨80⟩ =  and 
+⟨81⟩ = .
+⟨461⟩ = 
+⟨462⟩ = 's fifth 
+⟨463⟩ =  
+⟨464⟩ = , "
+⟨465⟩ = 
+⟨466⟩ =  of 
+⟨467⟩ = 
+⟨468⟩ = ", was released in 
+⟨469⟩ =  2016 and became 
+⟨470⟩ = 
+⟨471⟩ =  in 
+⟨472⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Panic! at the Disco released their 5th studio album on what date?

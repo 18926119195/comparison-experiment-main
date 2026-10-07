@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_3790",
+  "question": "Who gave the mother of Alberic II of Spoleto the title \"patricia\" of Rome?",
+  "expectedAnswer": "Pope John X",
+  "predictedAnswer": "# 路径一：通过Alberic II条目直接追溯\n\n步骤1：使用⟦17⟧，提取Alberic II的身份信息，确认其为\"Alberic II\"（即Alberic II of Spoleto）。\n\n步骤2：综合⟦45⟧⟦68⟧，提取Alberic II的\"母亲\"（his mother / mother）身份，确认其母亲为Marozia。\n\n步骤3：使用⟦63⟧，提取Marozia的完整身份信息，确认其获得\"patricia\" of Rome称号的相关记载。\n\n步骤4：综合⟦110⟧⟦112⟧⟦100⟧⟦101⟧⟦102⟧⟦103⟧，提取Marozia被授予\"senatrix\"和\"patricia\"称号的记载，并追溯授予者信息。\n\n结论：此路径指向Pope John X（⟦77⟧）授予了Marozia\"patricia\" of Rome的称号。\n\n---\n\n# 路径二：通过Marozia条目中的称号授予链追溯\n\n步骤1：使用⟦63⟧，提取Marozia的完整信息，确认其为\"a Roman noblewoman\"（⟦11⟧⟦69⟧），且拥有\"senatrix\"（⟦92⟧⟦91⟧）和\"patricia\"（⟦102⟧）称号。\n\n步骤2：综合⟦110⟧⟦112⟧⟦100⟧⟦101⟧，提取Marozia获得\"the unprecedented titles 'senatrix'\"和\"patricia\"的记载。\n\n步骤3：使用⟦103⟧，提取授予者信息——\"by\"后接的授予者。\n\n步骤4：综合⟦77⟧，确认Pope John X为授予者。\n\n结论：Marozia的\"patricia\" of Rome称号由Pope John X授予。\n\n---\n\n# 路径三：通过家族关系链交叉验证\n\n步骤1：使用⟦17⟧，确认Alberic II of Spoleto的身份。\n\n步骤2：综合⟦45⟧⟦68⟧，确认Alberic II的母亲为Marozia（⟦63⟧）。\n\n步骤3：使用⟦63⟧，提取Marozia的称号信息，确认其拥有\"patricia\" of Rome称号（⟦102⟧）。\n\n步骤4：综合⟦103⟧⟦77⟧，追溯授予者——Pope John X。\n\n步骤5：交叉验证⟦81⟧（Pope Sergius III）与⟦77⟧（Pope John X），排除Pope Sergius III为授予者，确认Pope John X为正确授予者。\n\n结论：综合多条材料交叉验证，授予Marozia\"patricia\" of Rome称号的是Pope John X。\n\n---\n\n# 路径四：通过称号\"patricia\"的独特记载定位\n\n步骤1：使用⟦102⟧，提取\"patricia\" of Rome这一独特称号的记载。\n\n步骤2：综合⟦100⟧⟦101⟧⟦110⟧⟦112⟧，提取Marozia获得\"senatrix\"和\"patricia\"称号的完整语境。\n\n步骤3：使用⟦103⟧，提取授予者——\"by\"后接的授予者信息。\n\n步骤4：综合⟦77⟧，确认授予者为Pope John X。\n\n结论：Pope John X授予了Alberic II的母亲Marozia\"patricia\" of Rome的称号。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨1⟩⟦6⟧⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦45⟧⟦68⟧⟨6⟩⟨7⟩⟨8⟩⟦48⟧",
+  "nounCount": 176,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 3069,
+    "completion_tokens": 214,
+    "total_tokens": 3283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 3069
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 927,
+    "completion_tokens": 759,
+    "total_tokens": 1686,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 927
+  }
+}

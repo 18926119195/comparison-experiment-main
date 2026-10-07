@@ -1,0 +1,397 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "The Cradle
+⟦2⟧ = "Tracker
+⟦3⟧ = (CVW-1
+⟦4⟧ = (IATA
+⟦5⟧ = (Site
+⟦6⟧ = 1 October
+⟦7⟧ = 20 April
+⟦8⟧ = 20 November
+⟦9⟧ = 25 September
+⟦10⟧ = 26 February
+⟦11⟧ = 3 NM
+⟦12⟧ = 3,550 ft
+⟦13⟧ = 31 May
+⟦14⟧ = a 24-hour Search and rescue capability
+⟦15⟧ = a blimp base
+⟦16⟧ = a city
+⟦17⟧ = a city-owned public-use airport
+⟦18⟧ = A close-by naval facility
+⟦19⟧ = a community southwest
+⟦20⟧ = a deactivation ceremony
+⟦21⟧ = a former U.S. Navy training base
+⟦22⟧ = a former United States Navy Naval Air Station
+⟦23⟧ = a Naval Air Facility
+⟦24⟧ = a Naval Air Reserve base
+⟦25⟧ = a naval air station
+⟦26⟧ = a naval base
+⟦27⟧ = a peninsula
+⟦28⟧ = a public use facility
+⟦29⟧ = a suburb
+⟦30⟧ = a U.S. Naval Air Station
+⟦31⟧ = a United States Navy aircraft carrier air wing
+⟦32⟧ = a United States Navy base
+⟦33⟧ = action
+⟦34⟧ = Additional squadrons
+⟦35⟧ = air
+⟦36⟧ = Air Anti-Submarine Squadron
+⟦37⟧ = Air station Corpus Christi
+⟦38⟧ = aircraft
+⟦39⟧ = airfield
+⟦40⟧ = airfields
+⟦41⟧ = airport
+⟦42⟧ = Alabama
+⟦43⟧ = all the military services
+⟦44⟧ = all the units
+⟦45⟧ = an active duty Coast Guard Air Station
+⟦46⟧ = an Air Station
+⟦47⟧ = an Army Aviation center
+⟦48⟧ = an auxiliary facility
+⟦49⟧ = an auxiliary field
+⟦50⟧ = an expanded facility
+⟦51⟧ = an important role
+⟦52⟧ = an operating base
+⟦53⟧ = an operational U.S. Naval Air Station
+⟦54⟧ = another former naval air facility
+⟦55⟧ = anti-submarine surveillance
+⟦56⟧ = archipelago
+⟦57⟧ = area
+⟦58⟧ = assets
+⟦59⟧ = aviation
+⟦60⟧ = aviation assets
+⟦61⟧ = aviator
+⟦62⟧ = base
+⟦63⟧ = blimp
+⟦64⟧ = boats
+⟦65⟧ = border
+⟦66⟧ = BRAC action
+⟦67⟧ = Brewton
+⟦68⟧ = Brewton Municipal Airport
+⟦69⟧ = brick
+⟦70⟧ = Brownsville
+⟦71⟧ = business
+⟦72⟧ = capability
+⟦73⟧ = carrier
+⟦74⟧ = Carrier Air Wing One
+⟦75⟧ = CDR Theodore G. “Spuds” Ellyson
+⟦76⟧ = center
+⟦77⟧ = ceremony
+⟦78⟧ = changes
+⟦79⟧ = Chevalier Field
+⟦80⟧ = Chicago
+⟦81⟧ = city
+⟦82⟧ = civilian ownership
+⟦83⟧ = closing
+⟦84⟧ = coast
+⟦85⟧ = Coast Guard Air Station Corpus Christi
+⟦86⟧ = Coast Guard Air Station Elizabeth City
+⟦87⟧ = code
+⟦88⟧ = command
+⟦89⟧ = community
+⟦90⟧ = complex
+⟦91⟧ = Composite Squadron
+⟦92⟧ = construction
+⟦93⟧ = Corpus Christi
+⟦94⟧ = custody
+⟦95⟧ = CVN
+⟦96⟧ = deactivation
+⟦97⟧ = December
+⟦98⟧ = Defense
+⟦99⟧ = department
+⟦100⟧ = designation
+⟦101⟧ = detachment
+⟦102⟧ = district
+⟦103⟧ = Dolphin
+⟦104⟧ = duty
+⟦105⟧ = Early aircraft
+⟦106⟧ = eight paved runways
+⟦107⟧ = Ellyson Field
+⟦108⟧ = equipment
+⟦109⟧ = Escambia Bay
+⟦110⟧ = Escambia County
+⟦111⟧ = evacuations
+⟦112⟧ = extensive personnel and equipment changes
+⟦113⟧ = FAA LID
+⟦114⟧ = facility
+⟦115⟧ = fanjet
+⟦116⟧ = field
+⟦117⟧ = Florida
+⟦118⟧ = flying units
+⟦119⟧ = former ICAO PMDY
+⟦120⟧ = formerly NAS/KNAS
+⟦121⟧ = formerly Naval Air Station Dallas
+⟦122⟧ = four pilots
+⟦123⟧ = ft
+⟦124⟧ = Glenview
+⟦125⟧ = group
+⟦126⟧ = groups
+⟦127⟧ = hangars
+⟦128⟧ = HC-131 Samaritan
+⟦129⟧ = helicopter
+⟦130⟧ = helicopters
+⟦131⟧ = Hensley Field
+⟦132⟧ = Hertford
+⟦133⟧ = home
+⟦134⟧ = homeport
+⟦135⟧ = honor
+⟦136⟧ = hour
+⟦137⟧ = HU-16E Albatross, HH-52A Seaguard helicopter
+⟦138⟧ = HU-25A fanjet
+⟦139⟧ = IATA code NAS
+⟦140⟧ = ICAO
+⟦141⟧ = Illinois
+⟦142⟧ = installation
+⟦143⟧ = its lifetime
+⟦144⟧ = its various squadrons
+⟦145⟧ = KNPA
+⟦146⟧ = length
+⟦147⟧ = lifetime
+⟦148⟧ = limits
+⟦149⟧ = Marine Air Reserve
+⟦150⟧ = Marine Air Reserve/4th Marine Aircraft Wing
+⟦151⟧ = Marine Corps Air Station Beaufort
+⟦152⟧ = May
+⟦153⟧ = medical evacuations
+⟦154⟧ = Mexico
+⟦155⟧ = miles
+⟦156⟧ = most Naval Flight Officers
+⟦157⟧ = Mountain Creek Lake
+⟦158⟧ = NAF Midway
+⟦159⟧ = NAS Cecil Field
+⟦160⟧ = NAS Glenview
+⟦161⟧ = NAS Midway
+⟦162⟧ = NAS Oceana
+⟦163⟧ = NAS Pensacola
+⟦164⟧ = Nassau International Airport
+⟦165⟧ = Naval Air Facility Midway
+⟦166⟧ = Naval Air Reserve
+⟦167⟧ = Naval Air Station Cecil Field
+⟦168⟧ = Naval Air Station Corpus Christi
+⟦169⟧ = Naval Air Station Ellyson Field
+⟦170⟧ = Naval Air Station Glenview
+⟦171⟧ = Naval Air Station Jacksonville
+⟦172⟧ = Naval Air Station Midway Island
+⟦173⟧ = Naval Air Station Norfolk
+⟦174⟧ = Naval Air Station Oceana
+⟦175⟧ = Naval Air Station Pensacola
+⟦176⟧ = Naval Air Station Quonset Point
+⟦177⟧ = Naval Air Station Weeksville
+⟦178⟧ = Naval Air Station Whidbey Island
+⟦179⟧ = Naval Air Station Whiting Field
+⟦180⟧ = Naval Auxiliary Air Station Harvey Point
+⟦181⟧ = Naval Aviation
+⟦182⟧ = Naval Aviators
+⟦183⟧ = Naval Flight Officers
+⟦184⟧ = Naval Station Norfolk/Chambers Field
+⟦185⟧ = Navy Outlying Landing Field
+⟦186⟧ = Navy training aircraft
+⟦187⟧ = NC
+⟦188⟧ = nearby Lake Michigan
+⟦189⟧ = NOLF
+⟦190⟧ = NOLF Brewton
+⟦191⟧ = North Carolina
+⟦192⟧ = now Lynden Pindling International Airport
+⟦193⟧ = NPA
+⟦194⟧ = October
+⟦195⟧ = officers
+⟦196⟧ = offices
+⟦197⟧ = offshore oil rigs
+⟦198⟧ = oil
+⟦199⟧ = one PBY-5 Catalina fixed wing aircraft
+⟦200⟧ = one unified command
+⟦201⟧ = operation
+⟦202⟧ = Operation Desert Storm
+⟦203⟧ = operations
+⟦204⟧ = Originally designated Base Field
+⟦205⟧ = outset
+⟦206⟧ = over 400 rescues
+⟦207⟧ = overdue vessels
+⟦208⟧ = ownership
+⟦209⟧ = peninsula
+⟦210⟧ = Perquimans County
+⟦211⟧ = personnel
+⟦212⟧ = pilots
+⟦213⟧ = planes
+⟦214⟧ = Port Lavaca
+⟦215⟧ = Port O'Connor
+⟦216⟧ = precision
+⟦217⟧ = pursuant
+⟦218⟧ = rescue
+⟦219⟧ = rescues
+⟦220⟧ = Rhode Island
+⟦221⟧ = rigs
+⟦222⟧ = role
+⟦223⟧ = runways
+⟦224⟧ = sea
+⟦225⟧ = Sea Control Squadron
+⟦226⟧ = sea planes
+⟦227⟧ = seaplanes
+⟦228⟧ = Search
+⟦229⟧ = searches
+⟦230⟧ = Sector Corpus Christi offices
+⟦231⟧ = services
+⟦232⟧ = side
+⟦233⟧ = sinking or disabled boats
+⟦234⟧ = Site
+⟦235⟧ = South Carolina
+⟦236⟧ = southwest
+⟦237⟧ = southwest Dallas
+⟦238⟧ = spring
+⟦239⟧ = squadron
+⟦240⟧ = squadrons
+⟦241⟧ = station
+⟦242⟧ = suburb
+⟦243⟧ = surveillance
+⟦244⟧ = team
+⟦245⟧ = Texas
+⟦246⟧ = Texas Air National Guard
+⟦247⟧ = the "Maulers
+⟦248⟧ = the advanced training base
+⟦249⟧ = the Aérospatiale HH-65 Dolphin helicopter
+⟦250⟧ = the air base
+⟦251⟧ = the air station
+⟦252⟧ = the airfield
+⟦253⟧ = the Albemarle Sound
+⟦254⟧ = the area
+⟦255⟧ = the Atlantic coast
+⟦256⟧ = the Base Realignment and Closure Commission action
+⟦257⟧ = the Blue Angels
+⟦258⟧ = the central business district
+⟦259⟧ = the city
+⟦260⟧ = the closing
+⟦261⟧ = the Coast Guard
+⟦262⟧ = The Coast Guard Air Detachment
+⟦263⟧ = the Department
+⟦264⟧ = the detachment
+⟦265⟧ = the East coast VS Squadrons
+⟦266⟧ = the entire western Gulf
+⟦267⟧ = the extant Naval Air Reserve
+⟦268⟧ = The facility
+⟦269⟧ = The Grand Prairie Armed Forces Reserve Complex
+⟦270⟧ = the Grumman TBM-3E/-3W Avenger
+⟦271⟧ = The Harvey Point Defense Testing Activity facility
+⟦272⟧ = the Hawaiian archipelago
+⟦273⟧ = the home base
+⟦274⟧ = the homeport
+⟦275⟧ = the initial primary training base
+⟦276⟧ = The installation
+⟦277⟧ = the Mexican border
+⟦278⟧ = the Midway Atoll
+⟦279⟧ = the Naval Air Station Pensacola complex
+⟦280⟧ = the Navy’s first aviator
+⟦281⟧ = the nearby former Carswell AFB
+⟦282⟧ = the northernmost group
+⟦283⟧ = the operations department
+⟦284⟧ = the outset
+⟦285⟧ = the Pensacola area
+⟦286⟧ = the Pensacola city limits
+⟦287⟧ = the precision-flying team
+⟦288⟧ = the spring
+⟦289⟧ = The squadron
+⟦290⟧ = The Station
+⟦291⟧ = the station's HH-52s
+⟦292⟧ = the U.S. Navy
+⟦293⟧ = The Unit
+⟦294⟧ = the United States Coast Guard
+⟦295⟧ = the United States Navy Flight Demonstration Squadron
+⟦296⟧ = the use
+⟦297⟧ = the various Navy airfields
+⟦298⟧ = The VS community
+⟦299⟧ = the west side
+⟦300⟧ = thirteen Coast Guard Group units
+⟦301⟧ = those years
+⟦302⟧ = three HH-52A helicopters
+⟦303⟧ = three HU-25A fanjet
+⟦304⟧ = three red brick hangars
+⟦305⟧ = training
+⟦306⟧ = training aircraft
+⟦307⟧ = trans-Pacific aviation
+⟦308⟧ = U.S. Army Reserve 244th Aviation Group
+⟦309⟧ = U.S. Navy custody
+⟦310⟧ = United States
+⟦311⟧ = units
+⟦312⟧ = USCG Air Station Corpus Christi
+⟦313⟧ = use
+⟦314⟧ = USS Harry S. Truman
+⟦315⟧ = vessels
+⟦316⟧ = Virginia
+⟦317⟧ = VS-32
+⟦318⟧ = Warrington
+⟦319⟧ = wing
+⟦320⟧ = wings
+⟦321⟧ = World War II
+⟦322⟧ = Worth
+⟦323⟧ = year
+⟦324⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Naval Air Station Ellyson Field] ⟦169⟧⟨1⟩⟦21⟧⟨2⟩⟦305⟧⟨3⟩⟦62⟧⟨4⟩⟦110⟧⟨5⟩⟦117⟧⟨6⟩⟦284⟧⟨7⟩⟦205⟧⟨8⟩⟦321⟧⟨9⟩⟦48⟧⟨10⟩⟦114⟧⟨11⟩⟦79⟧⟨12⟩⟦175⟧⟨13⟩⟦117⟧⟨14⟩
+[Naval Air Station Ellyson Field] ⟦204⟧⟨15⟩⟦5⟧⟨16⟩⟦234⟧⟨17⟩⟦299⟧⟨18⟩⟦232⟧⟨19⟩⟦109⟧⟨20⟩⟦155⟧⟨21⟩⟦163⟧⟨22⟩⟦92⟧⟨23⟩⟦92⟧⟨24⟩⟦50⟧⟨25⟩⟦114⟧⟨26⟩⟦107⟧⟨27⟩⟦135⟧⟨28⟩⟦135⟧⟨29⟩⟦75⟧⟨30⟩⟦280⟧⟨31⟩⟦61⟧⟨32⟩⟦10⟧⟨33⟩
+[Naval Air Station Ellyson Field] ⟨34⟩⟦304⟧⟨35⟩⟦69⟧⟨36⟩⟦127⟧⟨37⟩⟦297⟧⟨38⟩⟦40⟧⟨39⟩⟦285⟧⟨40⟩⟦57⟧⟨41⟩⟦106⟧⟨42⟩⟦223⟧⟨43⟩⟦12⟧⟨44⟩⟦123⟧⟨45⟩⟦146⟧⟨46⟩⟦146⟧⟨47⟩
+[Harvey Point Defense Testing Activity] ⟦271⟧⟨48⟩⟦114⟧⟨49⟩⟦263⟧⟨50⟩⟦98⟧⟨51⟩⟦27⟧⟨52⟩⟦209⟧⟨53⟩⟦210⟧⟨54⟩⟦191⟧⟨55⟩⟦253⟧⟨56⟩⟦259⟧⟨57⟩⟦81⟧⟨58⟩⟦132⟧⟨59⟩⟦187⟧⟨60⟩
+[Harvey Point Defense Testing Activity] ⟨61⟩⟦321⟧⟨62⟩⟦180⟧⟨63⟩⟦52⟧⟨64⟩⟦62⟧⟨65⟩⟦224⟧⟨66⟩⟦226⟧⟨67⟩⟦213⟧⟨68⟩⟦55⟧⟨69⟩⟦243⟧⟨70⟩⟦255⟧⟨71⟩⟦84⟧⟨72⟩
+[Harvey Point Defense Testing Activity] ⟦18⟧⟨73⟩⟦114⟧⟨74⟩⟦177⟧⟨75⟩⟦15⟧⟨76⟩⟦63⟧⟨77⟩⟦62⟧⟨78⟩⟦54⟧⟨79⟩⟦35⟧⟨80⟩⟦114⟧⟨81⟩⟦86⟧⟨82⟩
+[Brewton Municipal Airport] ⟦68⟧⟨83⟩⟦113⟧⟨84⟩⟦17⟧⟨85⟩⟦81⟧⟨86⟩⟦313⟧⟨87⟩⟦41⟧⟨88⟩⟦11⟧⟨89⟩⟦258⟧⟨90⟩⟦71⟧⟨91⟩⟦102⟧⟨92⟩⟦67⟧⟨93⟩⟦16⟧⟨94⟩⟦81⟧⟨95⟩⟦110⟧⟨96⟩⟦42⟧⟨97⟩⟦310⟧⟨98⟩
+[Brewton Municipal Airport] ⟨99⟩⟦292⟧⟨100⟩⟦321⟧⟨101⟩⟦49⟧⟨102⟩⟦116⟧⟨103⟩⟦279⟧⟨104⟩⟦90⟧⟨105⟩⟦185⟧⟨106⟩⟦189⟧⟨107⟩⟦67⟧⟨108⟩⟦259⟧⟨109⟩⟦81⟧⟨110⟩⟦67⟧⟨111⟩⟦28⟧⟨112⟩⟦313⟧⟨113⟩⟦114⟧⟨114⟩
+[Brewton Municipal Airport] ⟨115⟩⟦82⟧⟨116⟩⟦208⟧⟨117⟩⟦252⟧⟨118⟩⟦39⟧⟨119⟩⟦190⟧⟨120⟩⟦186⟧⟨121⟩⟦305⟧⟨122⟩⟦38⟧⟨123⟩⟦179⟧⟨124⟩
+[Naval Air Station Glenview] ⟦170⟧⟨125⟩⟦160⟧⟨126⟩⟦53⟧⟨127⟩
+[Naval Air Station Glenview] ⟨128⟩⟦124⟧⟨129⟩⟦141⟧⟨130⟩⟦29⟧⟨131⟩⟦242⟧⟨132⟩⟦80⟧⟨133⟩⟦250⟧⟨134⟩⟦35⟧⟨135⟩⟦62⟧⟨136⟩⟦305⟧⟨137⟩⟦306⟧⟨138⟩⟦38⟧⟨139⟩⟦227⟧⟨140⟩⟦227⟧⟨141⟩⟦188⟧⟨142⟩⟦321⟧⟨143⟩
+[Naval Air Station Glenview] ⟨144⟩⟦24⟧⟨145⟩⟦62⟧⟨146⟩⟦321⟧⟨147⟩⟦160⟧⟨148⟩⟦166⟧⟨149⟩⟦150⟧⟨150⟩⟦308⟧⟨151⟩⟦45⟧⟨152⟩⟦104⟧⟨153⟩
+[Carrier Air Wing One] ⟦74⟧⟨154⟩⟦3⟧⟨155⟩⟦31⟧⟨156⟩⟦38⟧⟨157⟩⟦73⟧⟨158⟩⟦35⟧⟨159⟩⟦319⟧⟨160⟩⟦174⟧⟨161⟩⟦316⟧⟨162⟩⟦144⟧⟨163⟩⟦240⟧⟨164⟩⟦162⟧⟨165⟩
+[Carrier Air Wing One] ⟦34⟧⟨166⟩⟦240⟧⟨167⟩⟦184⟧⟨168⟩⟦316⟧⟨169⟩⟦151⟧⟨170⟩⟦235⟧⟨171⟩⟦178⟧⟨172⟩⟦171⟧⟨173⟩⟦117⟧⟨174⟩
+[Carrier Air Wing One] ⟦74⟧⟨175⟩⟦314⟧⟨176⟩⟦95⟧⟨177⟩
+[Grand Prairie Armed Forces Reserve Complex] ⟦269⟧⟨178⟩⟦121⟧⟨179⟩⟦131⟧⟨180⟩⟦22⟧⟨181⟩⟦157⟧⟨182⟩⟦237⟧⟨183⟩
+[Grand Prairie Armed Forces Reserve Complex] ⟦276⟧⟨184⟩⟦142⟧⟨185⟩⟦47⟧⟨186⟩⟦76⟧⟨187⟩⟦59⟧⟨188⟩⟦60⟧⟨189⟩⟦58⟧⟨190⟩⟦43⟧⟨191⟩⟦231⟧⟨192⟩
+[Grand Prairie Armed Forces Reserve Complex] ⟦268⟧⟨193⟩⟦114⟧⟨194⟩⟦25⟧⟨195⟩⟦35⟧⟨196⟩⟦241⟧⟨197⟩⟦97⟧⟨198⟩⟦217⟧⟨199⟩⟦217⟧⟨200⟩⟦66⟧⟨201⟩⟦33⟧⟨202⟩⟦267⟧⟨203⟩⟦149⟧⟨204⟩⟦246⟧⟨205⟩⟦118⟧⟨206⟩⟦311⟧⟨207⟩⟦320⟧⟨208⟩⟦320⟧⟨209⟩⟦126⟧⟨210⟩⟦126⟧⟨211⟩⟦240⟧⟨212⟩⟦240⟧⟨213⟩⟦281⟧⟨214⟩⟦309⟧⟨215⟩⟦94⟧⟨216⟩⟦256⟧⟨217⟩⟦33⟧⟨218⟩⟦322⟧⟨219⟩
+[Coast Guard Air Station Corpus Christi] ⟦85⟧⟨220⟩⟦46⟧⟨221⟩⟦294⟧⟨222⟩⟦93⟧⟨223⟩⟦245⟧⟨224⟩
+[Coast Guard Air Station Corpus Christi] ⟦290⟧⟨225⟩⟦230⟧⟨226⟩⟦196⟧⟨227⟩⟦168⟧⟨228⟩
+[Coast Guard Air Station Corpus Christi] ⟦262⟧⟨229⟩⟦8⟧⟨230⟩⟦266⟧⟨231⟩⟦154⟧⟨232⟩⟦199⟧⟨233⟩⟦319⟧⟨234⟩⟦38⟧⟨235⟩⟦122⟧⟨236⟩⟦212⟧⟨237⟩
+[Coast Guard Air Station Corpus Christi] ⟨238⟩⟦264⟧⟨239⟩⟦101⟧⟨240⟩⟦312⟧⟨241⟩
+[Coast Guard Air Station Corpus Christi] ⟦105⟧⟨242⟩⟦38⟧⟨243⟩⟦137⟧⟨244⟩⟦129⟧⟨245⟩⟦128⟧⟨246⟩⟦138⟧⟨247⟩⟦115⟧⟨248⟩
+[Coast Guard Air Station Corpus Christi] ⟨249⟩⟦112⟧⟨250⟩⟦211⟧⟨251⟩⟦108⟧⟨252⟩⟦78⟧⟨253⟩⟦283⟧⟨254⟩⟦203⟧⟨255⟩⟦99⟧⟨256⟩⟦251⟧⟨257⟩⟦35⟧⟨258⟩⟦241⟧⟨259⟩⟦194⟧⟨260⟩⟦300⟧⟨261⟩⟦311⟧⟨262⟩⟦215⟧⟨263⟩⟦245⟧⟨264⟩⟦277⟧⟨265⟩⟦65⟧⟨266⟩
+[Coast Guard Air Station Corpus Christi] ⟦290⟧⟨267⟩⟦14⟧⟨268⟩⟦136⟧⟨269⟩⟦228⟧⟨270⟩⟦218⟧⟨271⟩⟦72⟧⟨272⟩⟦296⟧⟨273⟩⟦313⟧⟨274⟩⟦302⟧⟨275⟩⟦130⟧⟨276⟩⟦303⟧⟨277⟩⟦115⟧⟨278⟩
+[Coast Guard Air Station Corpus Christi] ⟦293⟧⟨279⟩⟦206⟧⟨280⟩⟦219⟧⟨281⟩⟦323⟧⟨282⟩⟦229⟧⟨283⟩⟦229⟧⟨284⟩⟦207⟧⟨285⟩⟦315⟧⟨286⟩⟦233⟧⟨287⟩⟦64⟧⟨288⟩⟦153⟧⟨289⟩⟦111⟧⟨290⟩⟦197⟧⟨291⟩⟦198⟧⟨292⟩⟦221⟧⟨293⟩
+[Coast Guard Air Station Corpus Christi] ⟨294⟩⟦288⟧⟨295⟩⟦238⟧⟨296⟩⟦291⟧⟨297⟩⟦241⟧⟨298⟩⟦249⟧⟨299⟩⟦103⟧⟨300⟩⟦129⟧⟨301⟩
+[Coast Guard Air Station Corpus Christi] ⟨302⟩⟦152⟧⟨303⟩⟦261⟧⟨304⟩⟦35⟧⟨305⟩⟦37⟧⟨306⟩⟦241⟧⟨307⟩⟦44⟧⟨308⟩⟦311⟧⟨309⟩⟦254⟧⟨310⟩⟦57⟧⟨311⟩⟦214⟧⟨312⟩⟦70⟧⟨313⟩⟦200⟧⟨314⟩⟦88⟧⟨315⟩
+[Naval Air Station Pensacola] ⟦175⟧⟨316⟩⟦163⟧⟨317⟩⟦4⟧⟨318⟩⟦193⟧⟨319⟩⟦140⟧⟨320⟩⟦145⟧⟨321⟩⟦113⟧⟨322⟩⟦193⟧⟨323⟩⟦120⟧⟨324⟩⟦164⟧⟨325⟩⟦192⟧⟨326⟩⟦139⟧⟨327⟩⟦87⟧⟨328⟩⟦1⟧⟨329⟩⟦181⟧⟨330⟩⟦32⟧⟨331⟩⟦62⟧⟨332⟩⟦318⟧⟨333⟩⟦117⟧⟨334⟩⟦19⟧⟨335⟩⟦89⟧⟨336⟩⟦236⟧⟨337⟩⟦286⟧⟨338⟩⟦81⟧⟨339⟩⟦148⟧⟨340⟩
+[Naval Air Station Pensacola] ⟨341⟩⟦275⟧⟨342⟩⟦305⟧⟨343⟩⟦62⟧⟨344⟩⟦195⟧⟨345⟩⟦100⟧⟨346⟩⟦100⟧⟨347⟩⟦182⟧⟨348⟩⟦183⟧⟨349⟩⟦248⟧⟨350⟩⟦305⟧⟨351⟩⟦62⟧⟨352⟩⟦156⟧⟨353⟩⟦195⟧⟨354⟩⟦273⟧⟨355⟩⟦133⟧⟨356⟩⟦62⟧⟨357⟩⟦295⟧⟨358⟩⟦287⟧⟨359⟩⟦216⟧⟨360⟩⟦244⟧⟨361⟩⟦257⟧⟨362⟩
+[VS-32] ⟨363⟩⟦225⟧⟨364⟩⟦247⟧⟨365⟩⟦91⟧⟨366⟩⟦13⟧⟨367⟩
+[VS-32] ⟨368⟩⟦36⟧⟨369⟩⟦7⟧⟨370⟩
+[VS-32] ⟦289⟧⟨371⟩⟦239⟧⟨372⟩⟦270⟧⟨373⟩⟦173⟧⟨374⟩⟦316⟧⟨375⟩
+[VS-32] ⟨376⟩⟦289⟧⟨377⟩⟦239⟧⟨378⟩⟦176⟧⟨379⟩⟦220⟧⟨380⟩
+[VS-32] ⟦317⟧⟨381⟩⟦317⟧⟨382⟩⟦2⟧⟨383⟩
+[VS-32] ⟦298⟧⟨384⟩⟦89⟧⟨385⟩⟦194⟧⟨386⟩⟦274⟧⟨387⟩⟦134⟧⟨388⟩⟦167⟧⟨389⟩
+[VS-32] ⟦289⟧⟨390⟩⟦239⟧⟨391⟩⟦202⟧⟨392⟩
+[VS-32] ⟨393⟩⟦260⟧⟨394⟩⟦83⟧⟨395⟩⟦159⟧⟨396⟩⟦265⟧⟨397⟩⟦84⟧⟨398⟩⟦171⟧⟨399⟩
+[VS-32] ⟦317⟧⟨400⟩⟦317⟧⟨401⟩⟦20⟧⟨402⟩⟦96⟧⟨403⟩⟦77⟧⟨404⟩⟦9⟧⟨405⟩
+[Naval Air Facility Midway Island] ⟦172⟧⟨406⟩⟦161⟧⟨407⟩⟦165⟧⟨408⟩⟦158⟧⟨409⟩⟦119⟧⟨410⟩⟦30⟧⟨411⟩⟦278⟧⟨412⟩⟦282⟧⟨413⟩⟦125⟧⟨414⟩⟦272⟧⟨415⟩⟦56⟧⟨416⟩
+[Naval Air Facility Midway Island] ⟨417⟩⟦201⟧⟨418⟩⟦201⟧⟨419⟩⟦51⟧⟨420⟩⟦222⟧⟨421⟩⟦307⟧⟨422⟩⟦59⟧⟨423⟩⟦301⟧⟨424⟩⟦324⟧⟨425⟩
+[Naval Air Facility Midway Island] ⟨426⟩⟦143⟧⟨427⟩⟦147⟧⟨428⟩⟦268⟧⟨429⟩⟦114⟧⟨430⟩⟦25⟧⟨431⟩⟦23⟧⟨432⟩⟦26⟧⟨433⟩⟦62⟧⟨434⟩
+[Naval Air Facility Midway Island] ⟨435⟩⟦6⟧⟨436⟩
+
+[user]
+
+问题：
+Naval Air Station Ellyson Field was an auxiliary facility to the air station in which community?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

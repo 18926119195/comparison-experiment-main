@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_948",
+  "question": "Tamanchey is a comedy film that starred the actress who works in what type of films?",
+  "expectedAnswer": "Hindi",
+  "predictedAnswer": "# 路径一：从 Tamanchey 到 Richa Chadda 再到电影类型\n\n步骤1：使用⟦231⟧⟦49⟧⟦76⟧⟦71⟧，提取 Tamanchey 是一部印度浪漫犯罪喜剧电影，包含喜剧和犯罪元素。\n\n步骤2：使用⟦231⟧⟦199⟧，提取 Tamanchey 的主演之一是 Richa Chadda。\n\n步骤3：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，提取 Richa Chadda 是一名在 Hindi films（印地语电影）中工作的女演员。\n\n结论：Tamanchey 主演的女演员 Richa Chadda 从事 Hindi films（印地语电影）。\n\n# 路径二：通过演员表交叉验证\n\n步骤1：使用⟦231⟧⟦365⟧⟦366⟧⟦168⟧⟦367⟧⟦170⟧⟦368⟧⟦199⟧，提取 Tamanchey 由 Navneet Behal 执导，Nikhil Dwivedi 和 Richa Chadda 主演。\n\n步骤2：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，确认 Richa Chadda 是在 Hindi films 中工作的女演员。\n\n步骤3：综合⟦231⟧⟦199⟧⟦124⟧，交叉验证 Tamanchey 的主演 Richa Chadda 的工作领域为 Hindi films。\n\n结论：该女演员从事 Hindi films（印地语电影）。\n\n# 路径三：排除干扰项，锁定唯一女演员\n\n步骤1：使用⟦231⟧⟦49⟧⟦76⟧⟦71⟧，确认 Tamanchey 是一部印度浪漫犯罪喜剧电影。\n\n步骤2：使用⟦231⟧⟦199⟧，提取主演中的女演员为 Richa Chadda（Nikhil Dwivedi 为男演员，不构成“actress”）。\n\n步骤3：使用⟦199⟧⟦98⟧⟦100⟧⟦124⟧，提取 Richa Chadda 的工作类型为 Hindi films。\n\n结论：Tamanchey 主演的女演员从事 Hindi films（印地语电影）。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦231⟧⟨357⟩⟦14⟧⟨358⟩⟦102⟧⟨359⟩⟦49⟧⟦76⟧⟨361⟩⟨362⟩⟨360⟩⟨363⟩",
+  "nounCount": 494,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 8031,
+    "completion_tokens": 162,
+    "total_tokens": 8193,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 8031
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 746,
+    "completion_tokens": 496,
+    "total_tokens": 1242,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 746
+  }
+}

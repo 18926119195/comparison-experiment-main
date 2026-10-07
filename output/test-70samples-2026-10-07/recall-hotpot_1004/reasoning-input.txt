@@ -1,0 +1,92 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Chris Tarbell] ⟦69⟧⟨118⟩⟦15⟧⟦34⟧⟨119⟩⟨120⟩⟦50⟧⟨121⟩⟦259⟧⟨122⟩
+[Chris Tarbell] ⟨123⟩⟦266⟧⟦276⟧⟨124⟩⟨125⟩⟨126⟩⟨127⟩⟦51⟧⟨128⟩⟦39⟧⟨129⟩⟨130⟩⟦204⟧⟨131⟩⟨132⟩
+[Chris Tarbell] ⟨133⟩⟦192⟧⟨134⟩⟦38⟧⟦117⟧⟨135⟩⟨136⟩⟦240⟧⟦103⟧⟨138⟩⟦101⟧⟨139⟩⟨137⟩
+[Chris Tarbell] ⟦188⟧ | ⟨140⟩⟦264⟧⟦215⟧⟨141⟩⟨142⟩⟨143⟩⟨144⟩⟦188⟧⟨145⟩⟦237⟧⟨146⟩
+[Ross Ulbricht] ⟦90⟧
+[Suds Merrick] ⟦43⟧⟦43⟧ | ⟦223⟧⟦43⟧
+
+符号表：
+⟦15⟧ = a former FBI special agent
+⟦34⟧ = agent
+⟦38⟧ = an informant
+⟦39⟧ = Anonymous
+⟦43⟧ = arrest
+⟦50⟧ = both Anonymous
+⟦51⟧ = both Sabu
+⟦69⟧ = Christopher "Chris" Tarbell
+⟦90⟧ = Dread Pirate Roberts
+⟦101⟧ = group
+⟦103⟧ = hacker
+⟦117⟧ = informant
+⟦188⟧ = Ross Ulbricht
+⟦192⟧ = Sabu
+⟦204⟧ = Silk Road
+⟦215⟧ = team
+⟦223⟧ = the arrest
+⟦237⟧ = the Glen Park Public Library
+⟦240⟧ = the hacker group Lulzsec
+⟦259⟧ = the Silk Road
+⟦264⟧ = the team
+⟦266⟧ = the tracking
+⟦276⟧ = tracking
+
+占位符映射：
+⟨118⟩ =  is 
+⟨119⟩ = 
+⟨120⟩ =  who infiltrated 
+⟨121⟩ =  and 
+⟨122⟩ = .
+⟨123⟩ =  He was involved in 
+⟨124⟩ = 
+⟨125⟩ =  and 
+⟨126⟩ = 
+⟨127⟩ =  of 
+⟨128⟩ =  (of 
+⟨129⟩ = ) and 
+⟨130⟩ =  of 
+⟨131⟩ =  (
+⟨132⟩ = ).
+⟨133⟩ =  He turned 
+⟨134⟩ =  into 
+⟨135⟩ = 
+⟨136⟩ =  against 
+⟨137⟩ = 
+⟨138⟩ =  
+⟨139⟩ =  Lulzsec.
+⟨140⟩ =  He later led 
+⟨141⟩ = 
+⟨142⟩ =  that led to 
+⟨143⟩ = 
+⟨144⟩ =  of 
+⟨145⟩ =  in 
+⟨146⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who was involved in the arrest of Dread Pirate Roberts?

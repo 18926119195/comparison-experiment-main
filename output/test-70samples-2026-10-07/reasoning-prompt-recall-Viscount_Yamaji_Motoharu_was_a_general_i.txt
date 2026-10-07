@@ -1,0 +1,74 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Imperial Japanese Army] ⟨75⟩⟦5⟧⟨76⟩⟦13⟧⟦13⟧⟨77⟩⟨78⟩⟦2⟧⟨79⟩⟦1⟧⟨80⟩⟦128⟧⟨81⟩⟦150⟧⟨83⟩⟨82⟩⟨84⟩⟦124⟧⟨85⟩⟨86⟩
+[Imperial Japanese Army] ⟦78⟧
+[Imperial Japanese Army Air Service] ⟦60⟧⟦134⟧
+[Imperial Japanese Army Air Service] ⟦67⟧
+[Yamaji Motoharu] ⟦168⟧⟨235⟩⟦4⟧⟨236⟩⟦92⟧⟨237⟩⟦18⟧⟦64⟧⟨238⟩⟨239⟩⟦122⟧⟨240⟩
+
+符号表：
+⟦1⟧ = "Army
+⟦2⟧ = "Dai-Nippon Teikoku Rikugun
+⟦4⟧ = (山地 元治
+⟦5⟧ = (IJA
+⟦13⟧ = 大日本帝國陸軍
+⟦18⟧ = a Japanese general
+⟦60⟧ = force
+⟦64⟧ = general
+⟦67⟧ = ground
+⟦78⟧ = Japan
+⟦92⟧ = October
+⟦122⟧ = the early Imperial Japanese Army
+⟦124⟧ = the Empire
+⟦128⟧ = the Greater Japanese Empire
+⟦134⟧ = the Imperial Japanese Army
+⟦150⟧ = the official ground-based armed force
+⟦168⟧ = Viscount Yamaji Motoharu
+
+占位符映射：
+⟨75⟩ =  
+⟨76⟩ = ; 
+⟨77⟩ = 
+⟨78⟩ =  
+⟨79⟩ = "; 
+⟨80⟩ =  of 
+⟨81⟩ = ") was 
+⟨82⟩ = 
+⟨83⟩ = -based armed 
+⟨84⟩ =  of 
+⟨85⟩ =  of 
+⟨86⟩ =  from 1868 to 1945.
+⟨235⟩ =  
+⟨236⟩ =  , 10 September 1841 – 3 
+⟨237⟩ =  1897) , was 
+⟨238⟩ = 
+⟨239⟩ =  in 
+⟨240⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Viscount Yamaji Motoharu was a general in the early Imperial Japanese Army which belonged to which Empire?

@@ -1,0 +1,84 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Odessa, Texas] ⟨176⟩⟦7⟧⟨177⟩⟨178⟩⟦169⟧⟦63⟧⟨180⟩⟦143⟧⟨179⟩⟨181⟩⟨182⟩⟨183⟩⟦221⟧⟨184⟩
+[Odessa, Texas] ⟦72⟧
+[Odessa, Texas] ⟦56⟧
+[Tryon D. Lewis] ⟦216⟧⟨259⟩⟦32⟧⟦44⟧⟨260⟩⟨261⟩⟨262⟩⟨263⟩⟦22⟧⟦100⟧⟨264⟩⟨265⟩⟦195⟧⟨266⟩⟦138⟧⟨267⟩⟦68⟧⟨268⟩⟦3⟧⟨269⟩⟦38⟧⟨270⟩⟦230⟧⟦61⟧⟨271⟩⟨272⟩
+[Presidential Museum and Leadership Library] ⟦158⟧ | ⟦158⟧
+[Presidential Museum and Leadership Library] ⟦114⟧ | ⟦114⟧
+
+符号表：
+⟦3⟧ = (Ector
+⟦7⟧ = a city
+⟦22⟧ = a Republican former member
+⟦32⟧ = an attorney
+⟦38⟧ = Andrews
+⟦44⟧ = attorney
+⟦56⟧ = city
+⟦61⟧ = counties
+⟦63⟧ = county
+⟦68⟧ = District
+⟦72⟧ = Ector County
+⟦100⟧ = member
+⟦114⟧ = Odessa
+⟦138⟧ = Representatives
+⟦143⟧ = seat
+⟦158⟧ = Texas
+⟦169⟧ = the county seat
+⟦195⟧ = the Texas House
+⟦216⟧ = Tryon Dexter Lewis
+⟦221⟧ = United States
+⟦230⟧ = Winkler counties
+
+占位符映射：
+⟨176⟩ =  is 
+⟨177⟩ = 
+⟨178⟩ =  in and 
+⟨179⟩ = 
+⟨180⟩ =  
+⟨181⟩ =  of 
+⟨182⟩ = , 
+⟨183⟩ = , 
+⟨184⟩ = .
+⟨259⟩ =  (born September 29, 1947) is 
+⟨260⟩ = 
+⟨261⟩ =  in 
+⟨262⟩ = , 
+⟨263⟩ = , who is 
+⟨264⟩ = 
+⟨265⟩ =  of 
+⟨266⟩ =  of 
+⟨267⟩ =  from 
+⟨268⟩ =  81 
+⟨269⟩ = , 
+⟨270⟩ = , and 
+⟨271⟩ = 
+⟨272⟩ = ).
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Tryon D. Lewis is a lawyer from Odessa, Texas which is located in what county?

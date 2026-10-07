@@ -1,0 +1,29 @@
+# 路径一：从人物身份到出生日期
+
+步骤1：使用⟦20⟧，提取“an English-born South Australian brewer”这一人物描述，判断目标人物是一位英国出生的南澳大利亚酿酒商。
+
+步骤2：综合⟦83⟧⟦114⟧⟦92⟧，对比“Sir Edwin Smith's Kent Town Brewery”与“W. K. Simms's West End Brewery”的合并关系，确认该酿酒商正是 Edwin Smith，其肯特镇酿酒厂与 W. K. Simms 的西端酿酒厂合并。
+
+步骤3：使用⟦84⟧，提取“Sir Edwin Thomas Smith”这一全名，并结合⟦41⟧⟨7⟩⟨8⟩，定位其出生日期为“6 April 1830”。
+
+结论：该英国出生的南澳大利亚酿酒商 Edwin Thomas Smith 出生于 1830 年 4 月 6 日。
+
+# 路径二：从公司合并记录反推人物
+
+步骤1：使用⟦62⟧⟦92⟧⟦114⟧，提取“South Australian Brewing Company Limited”成立时“the amalgamation”涉及“W. K. Simms's West End Brewery”，判断合并方之一为 W. K. Simms 的西端酿酒厂。
+
+步骤2：综合⟦83⟧⟦13⟧，交叉验证“Sir Edwin Smith's Kent Town Brewery”也参与了这次“amalgamation”，确认 Edwin Smith 是另一位合并方。
+
+步骤3：使用⟦84⟧⟦41⟧⟨7⟩⟨8⟩，提取“Sir Edwin Thomas Smith”的出生日期为“6 April 1830”。
+
+结论：通过公司合并记录可反推出 Edwin Smith 出生于 1830 年 4 月 6 日。
+
+# 路径三：从酿酒商身份与政治身份交叉验证
+
+步骤1：使用⟦29⟧，提取“brewer”这一职业身份，判断目标人物是酿酒商。
+
+步骤2：综合⟦68⟧⟦74⟧⟦37⟧，提取“mayor”“politician”“councillor”等身份，交叉验证 Edwin Smith 同时具有酿酒商和政治人物身份。
+
+步骤3：使用⟦84⟧⟦41⟧⟨7⟩⟨8⟩，提取“Sir Edwin Thomas Smith”的出生日期为“6 April 1830”。
+
+结论：酿酒商兼政治人物 Edwin Thomas Smith 出生于 1830 年 4 月 6 日。

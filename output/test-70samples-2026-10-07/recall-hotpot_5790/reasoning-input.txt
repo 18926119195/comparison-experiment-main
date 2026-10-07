@@ -1,0 +1,124 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[MedStar Washington Hospital Center] ⟨41⟩⟦246⟧⟨42⟩⟨43⟩⟨44⟩⟨45⟩⟨46⟩⟦149⟧⟨47⟩⟨48⟩⟨49⟩⟦12⟧⟨50⟩⟨51⟩
+[MedStar Georgetown University Hospital] ⟦301⟧
+[Children's National Medical Center] ⟦73⟧⟨170⟩⟨171⟩⟦103⟧⟨172⟩⟦267⟧⟨174⟩⟨173⟩⟨175⟩⟦231⟧⟦83⟧⟨176⟩⟨177⟩⟦1⟧⟨178⟩⟦307⟧⟨179⟩
+[Children's National Medical Center] ⟦198⟧⟦198⟧
+[Children's National Medical Center] ⟨202⟩⟦7⟧⟨203⟩⟨204⟩⟦22⟧⟨205⟩⟦71⟧⟨206⟩⟦263⟧⟨207⟩⟨208⟩⟦185⟧⟨209⟩⟨210⟩⟦277⟧⟦277⟧⟨211⟩⟨212⟩⟨213⟩⟨214⟩⟨215⟩⟨216⟩⟦163⟧⟦163⟧⟨217⟩⟨218⟩⟦180⟧⟦219⟧⟨219⟩⟨220⟩⟦166⟧⟦166⟧⟨221⟩⟨222⟩⟦167⟧⟦167⟧⟨223⟩⟨224⟩
+[Legacy Holladay Park Medical Center] ⟦97⟧
+[Vassar Brothers Medical Center] ⟦25⟧⟦151⟧ | ⟦125⟧
+[Vassar Brothers Medical Center] ⟦70⟧⟦70⟧
+[Vassar Brothers Medical Center] ⟦62⟧⟦62⟧⟦64⟧⟦64⟧⟦66⟧
+[Murphy Medical Center] ⟦124⟧
+[Murphy Medical Center] ⟦53⟧ | ⟦53⟧
+[Brad Wenstrup] ⟦150⟧
+
+符号表：
+⟦1⟧ = "U.S. News
+⟦7⟧ = 303 beds
+⟦12⟧ = 926 beds
+⟦22⟧ = a Level IV NICU
+⟦25⟧ = A member
+⟦53⟧ = beds
+⟦62⟧ = cancer
+⟦64⟧ = care
+⟦66⟧ = center
+⟦70⟧ = Children
+⟦71⟧ = Children's National
+⟦73⟧ = Children’s National Medical Center
+⟦83⟧ = country
+⟦97⟧ = emergency
+⟦103⟧ = formerly DC Children’s Hospital
+⟦124⟧ = hospital
+⟦125⟧ = hospitals
+⟦149⟧ = MedStar Health
+⟦150⟧ = MedStar Washington Hospital Center
+⟦151⟧ = member
+⟦163⟧ = neonatology
+⟦166⟧ = neurology
+⟦167⟧ = neurosurgery
+⟦180⟧ = orthopaedic surgery
+⟦185⟧ = pediatric emergency
+⟦198⟧ = profit
+⟦219⟧ = surgery
+⟦231⟧ = the country
+⟦246⟧ = the largest private hospital
+⟦263⟧ = the regional referral center
+⟦267⟧ = the top 10 children’s hospitals
+⟦277⟧ = trauma
+⟦301⟧ = Washington
+⟦307⟧ = World Report
+
+占位符映射：
+⟨41⟩ =  is 
+⟨42⟩ = 
+⟨43⟩ =  in 
+⟨44⟩ = , D.C. 
+⟨45⟩ = 
+⟨46⟩ =  of 
+⟨47⟩ = , the not-for-
+⟨48⟩ = 
+⟨49⟩ =  Hospital Center is licensed for 
+⟨50⟩ = 
+⟨51⟩ = .
+⟨170⟩ = 
+⟨171⟩ =  (
+⟨172⟩ = ) is ranked among 
+⟨173⟩ = 
+⟨174⟩ = ’s 
+⟨175⟩ =  in 
+⟨176⟩ = 
+⟨177⟩ =  by 
+⟨178⟩ =  & 
+⟨179⟩ = ."
+⟨202⟩ =  Featuring 
+⟨203⟩ = 
+⟨204⟩ =  and 
+⟨205⟩ = , 
+⟨206⟩ =  is 
+⟨207⟩ = 
+⟨208⟩ =  for 
+⟨209⟩ = 
+⟨210⟩ = , 
+⟨211⟩ = 
+⟨212⟩ = , 
+⟨213⟩ = 
+⟨214⟩ = , cardiac and critical 
+⟨215⟩ = 
+⟨216⟩ =  as well as 
+⟨217⟩ = 
+⟨218⟩ = , 
+⟨219⟩ = 
+⟨220⟩ = , 
+⟨221⟩ = 
+⟨222⟩ =  and 
+⟨223⟩ = 
+⟨224⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Does MedStar Washington Hospital Center or Children's National Medical Center have more beds?

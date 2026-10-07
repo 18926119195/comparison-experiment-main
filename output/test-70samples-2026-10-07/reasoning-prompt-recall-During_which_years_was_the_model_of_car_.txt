@@ -1,0 +1,104 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Pentastar: In the Style of Demons] ⟦233⟧⟨221⟩⟦237⟧⟨223⟩⟦312⟧⟨222⟩⟨224⟩⟦37⟧⟨225⟩⟨226⟩⟦246⟧⟦57⟧⟨228⟩⟦143⟧⟨227⟩⟨229⟩⟦68⟧⟨230⟩⟦174⟧⟦175⟧⟨231⟩⟨232⟩⟨233⟩⟨234⟩⟦34⟧⟦197⟧⟦197⟧⟨235⟩⟨236⟩⟦264⟧⟦99⟧⟨237⟩⟨238⟩⟦265⟧⟦63⟧⟨239⟩⟨240⟩⟦91⟧⟨241⟩⟦126⟧⟦186⟧⟨242⟩⟨243⟩⟦10⟧⟨244⟩⟦216⟧⟨245⟩
+[Plymouth Barracuda] ⟦181⟧ | ⟦290⟧⟨293⟩⟦30⟧⟨295⟩⟨294⟩⟨296⟩⟦181⟧⟨297⟩⟦234⟧⟨299⟩⟦332⟧⟨298⟩⟨300⟩
+[Friend (automobile)] ⟦88⟧
+[Friend (automobile)] ⟦73⟧
+[Late model] ⟦59⟧⟦158⟧
+[Demons (Get Scared album)] ⟦32⟧
+
+符号表：
+⟦10⟧ = 1995's Sunn Amps
+⟦30⟧ = a two-door car
+⟦32⟧ = album
+⟦34⟧ = also a reference
+⟦37⟧ = an apparent reference
+⟦57⟧ = brand
+⟦59⟧ = car
+⟦63⟧ = CD
+⟦68⟧ = Chrysler
+⟦73⟧ = company
+⟦88⟧ = door
+⟦91⟧ = Earth
+⟦99⟧ = fact
+⟦126⟧ = its predecessor
+⟦143⟧ = logo
+⟦158⟧ = model
+⟦174⟧ = parent
+⟦175⟧ = parent company
+⟦181⟧ = Plymouth
+⟦186⟧ = predecessor
+⟦197⟧ = reference
+⟦216⟧ = Smashed Guitars
+⟦233⟧ = The "Pentastar
+⟦234⟧ = the 1964 to 1974 model years
+⟦237⟧ = the album title
+⟦246⟧ = the brand logo
+⟦264⟧ = the fact
+⟦265⟧ = the fifth CD
+⟦290⟧ = The Plymouth Barracuda
+⟦312⟧ = title
+⟦332⟧ = years
+
+占位符映射：
+⟨221⟩ = " named in 
+⟨222⟩ = 
+⟨223⟩ =  
+⟨224⟩ =  is 
+⟨225⟩ = 
+⟨226⟩ =  to 
+⟨227⟩ = 
+⟨228⟩ =  
+⟨229⟩ =  of 
+⟨230⟩ = , 
+⟨231⟩ = 
+⟨232⟩ = 
+⟨233⟩ =  of 
+⟨234⟩ =  and 
+⟨235⟩ = 
+⟨236⟩ =  to 
+⟨237⟩ = 
+⟨238⟩ =  that this is 
+⟨239⟩ = 
+⟨240⟩ =  by 
+⟨241⟩ =  (
+⟨242⟩ = 
+⟨243⟩ =  being 
+⟨244⟩ =  and 
+⟨245⟩ = ).
+⟨293⟩ =  is 
+⟨294⟩ = 
+⟨295⟩ =  
+⟨296⟩ =  that was manufactured by 
+⟨297⟩ =  from 
+⟨298⟩ = 
+⟨299⟩ =  
+⟨300⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+During which years was the model of car, featured on the cover of Earth's "Pentastar: In the Style of Demons" manufactured?

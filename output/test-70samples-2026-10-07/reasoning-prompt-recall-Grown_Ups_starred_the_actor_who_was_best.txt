@@ -1,0 +1,95 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Grown-Ups] ⟦67⟧⟨69⟩⟦14⟧⟨71⟩⟨70⟩⟨72⟩⟦92⟧⟨73⟩ | ⟦67⟧ | ⟦67⟧
+[Grown-Ups] ⟨74⟩⟦84⟧⟨75⟩⟦106⟧⟨76⟩⟦41⟧⟨77⟩⟦78⟧⟨78⟩⟦85⟧⟨79⟩⟦118⟧⟨80⟩
+[Grown-Ups] ⟨81⟩⟦112⟧⟨82⟩⟦89⟧⟨83⟩⟨84⟩⟨85⟩⟨86⟩
+[Richard Gibson] ⟦141⟧ | ⟦111⟧⟨87⟩⟨88⟩⟨89⟩⟨90⟩⟨91⟩⟦139⟧⟨92⟩⟦141⟧⟨93⟩⟦122⟧⟨94⟩⟨95⟩
+[Paris (1994 TV series)] ⟦97⟧
+[Jack Haig] ⟦70⟧
+[List of 'Allo 'Allo! episodes] ⟦37⟧
+[Nicholas Frankau] ⟦121⟧
+[Vicki Michelle] ⟦115⟧
+[Sam Kelly] ⟦60⟧⟦132⟧ | ⟦30⟧⟦23⟧
+
+符号表：
+⟦14⟧ = a 1980 British BBC television film
+⟦23⟧ = actor
+⟦30⟧ = an English actor
+⟦37⟧ = BBC
+⟦41⟧ = Brenda Blethyn
+⟦60⟧ = film
+⟦67⟧ = Grown-Ups
+⟦70⟧ = his role
+⟦78⟧ = Janine Duvitski
+⟦84⟧ = Lesley Manville
+⟦85⟧ = Lindsay Duncan
+⟦89⟧ = Louis Marks
+⟦92⟧ = Mike Leigh
+⟦97⟧ = November
+⟦106⟧ = Philip Davis
+⟦111⟧ = Richard Gibson
+⟦112⟧ = Robin Sales
+⟦115⟧ = role
+⟦118⟧ = Sam Kelly
+⟦121⟧ = sitcom
+⟦122⟧ = sitcom series
+⟦132⟧ = television
+⟦139⟧ = the archetypal Gestapo Officer Herr Otto Flick
+⟦141⟧ = the BBC
+
+占位符映射：
+⟨69⟩ =  is 
+⟨70⟩ = 
+⟨71⟩ =  
+⟨72⟩ =  devised and directed by 
+⟨73⟩ = .
+⟨74⟩ =  It stars 
+⟨75⟩ = , 
+⟨76⟩ = , 
+⟨77⟩ = , 
+⟨78⟩ = , 
+⟨79⟩ =  and 
+⟨80⟩ = .
+⟨81⟩ =  It was edited by 
+⟨82⟩ =  and produced by 
+⟨83⟩ =  for 
+⟨84⟩ = , and originally shown on 
+⟨85⟩ =  2 on 28 
+⟨86⟩ =  1980.
+⟨87⟩ =  (born 1 January 1954) is 
+⟨88⟩ = 
+⟨89⟩ = , probably best known for 
+⟨90⟩ = 
+⟨91⟩ =  as 
+⟨92⟩ =  in 
+⟨93⟩ =  hit 
+⟨94⟩ = 
+⟨95⟩ = , "'Allo 'Allo!
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Grown-Ups starred the actor who was best known for which role on  "'Allo 'Allo!"?

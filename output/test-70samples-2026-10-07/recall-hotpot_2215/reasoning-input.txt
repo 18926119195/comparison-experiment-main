@@ -1,0 +1,102 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Wojtek Wolski] ⟦279⟧⟨377⟩⟦10⟧⟦91⟧⟨379⟩⟨378⟩⟨380⟩⟦278⟧⟦278⟧⟨381⟩⟨382⟩⟦87⟧⟨383⟩⟦214⟧⟨384⟩⟦97⟧⟨385⟩
+[Wojtek Wolski] ⟨386⟩⟦229⟧⟨387⟩⟦197⟧⟨388⟩⟦138⟧⟨389⟩⟦127⟧⟨390⟩⟦73⟧⟨391⟩⟦252⟧⟨392⟩
+[Wojtek Wolski] ⟦88⟧ | ⟨393⟩⟦181⟧⟨394⟩⟦136⟧⟨395⟩⟦233⟧⟨396⟩⟦247⟧⟦264⟧⟨398⟩⟦88⟧⟨399⟩⟦101⟧⟨397⟩⟨400⟩⟨401⟩
+[Wojtek Wolski] ⟦142⟧ | ⟨402⟩⟦60⟧⟦42⟧⟨403⟩⟨404⟩⟦280⟧⟨405⟩⟦12⟧⟦145⟧⟨406⟩⟨407⟩⟦195⟧⟦267⟧⟨409⟩⟦174⟧⟨408⟩⟨410⟩⟦142⟧⟨411⟩
+
+符号表：
+⟦10⟧ = a Polish-Canadian professional ice hockey
+⟦12⟧ = a product
+⟦42⟧ = citizenship
+⟦60⟧ = dual citizenship
+⟦73⟧ = Florida Panthers
+⟦87⟧ = HC Kunlun Red Star
+⟦88⟧ = hockey
+⟦91⟧ = ice
+⟦97⟧ = KHL
+⟦101⟧ = league
+⟦127⟧ = New York Rangers
+⟦136⟧ = PBS
+⟦138⟧ = Phoenix Coyotes
+⟦142⟧ = Poland
+⟦145⟧ = product
+⟦174⟧ = system
+⟦181⟧ = the 2012 NHL
+⟦195⟧ = the Canadian training system
+⟦197⟧ = the Colorado Avalanche
+⟦214⟧ = the Kontinental Hockey League
+⟦229⟧ = the NHL
+⟦233⟧ = the PHL
+⟦247⟧ = the top-tier hockey league
+⟦252⟧ = the Washington Capitals
+⟦264⟧ = tier
+⟦267⟧ = training
+⟦278⟧ = winger
+⟦279⟧ = Wojciech "Wojtek" Wolski
+⟦280⟧ = Wolski
+
+占位符映射：
+⟨377⟩ =  (] ; born February 24, 1986) is 
+⟨378⟩ = 
+⟨379⟩ =  
+⟨380⟩ =  left 
+⟨381⟩ = 
+⟨382⟩ =  currently playing for 
+⟨383⟩ =  of 
+⟨384⟩ =  (
+⟨385⟩ = ).
+⟨386⟩ =  In 
+⟨387⟩ = , he has played for 
+⟨388⟩ = , 
+⟨389⟩ = , 
+⟨390⟩ = , 
+⟨391⟩ = , and 
+⟨392⟩ = .
+⟨393⟩ =  During 
+⟨394⟩ =  lockout, he played for Ciarko 
+⟨395⟩ =  Bank KH Sanok in 
+⟨396⟩ = , 
+⟨397⟩ = 
+⟨398⟩ =  
+⟨399⟩ =  
+⟨400⟩ =  in 
+⟨401⟩ = .
+⟨402⟩ =  While he holds 
+⟨403⟩ = 
+⟨404⟩ = , 
+⟨405⟩ =  is 
+⟨406⟩ = 
+⟨407⟩ =  of 
+⟨408⟩ = 
+⟨409⟩ =  
+⟨410⟩ =  and is currently ineligible to represent 
+⟨411⟩ =  internationally.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Wojtek Wolski played for what team based in the Miami metropolitan area?

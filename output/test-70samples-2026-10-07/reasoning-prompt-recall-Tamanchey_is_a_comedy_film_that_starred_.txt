@@ -1,0 +1,79 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Richa Chadda] ⟨98⟩⟨99⟩⟨100⟩⟦124⟧⟨101⟩⟨102⟩
+[Priyanka Chopra filmography] ⟦48⟧
+[Tamanchey] ⟦231⟧⟨357⟩⟦14⟧⟨358⟩⟦102⟧⟨359⟩⟦49⟧⟦76⟧⟨361⟩⟨362⟩⟨360⟩⟨363⟩⟦15⟧⟨364⟩
+[Tamanchey] ⟨365⟩⟨366⟩⟦168⟧⟨367⟩⟦170⟧⟨368⟩⟦199⟧⟨369⟩⟦143⟧⟦143⟧⟨370⟩⟨371⟩ | ⟦199⟧
+[Rajasree] ⟦92⟧
+[Sandra Bullock filmography] ⟦42⟧
+[Sandra Bullock filmography] ⟦262⟧
+[Sandra Bullock filmography] ⟦71⟧⟦91⟧ | ⟦91⟧
+
+符号表：
+⟦14⟧ = (English
+⟦15⟧ = 10 October
+⟦42⟧ = actress
+⟦48⟧ = an Indian actress
+⟦49⟧ = an Indian romantic crime comedy film
+⟦71⟧ = comedy
+⟦76⟧ = crime
+⟦91⟧ = film
+⟦92⟧ = films
+⟦102⟧ = Gun
+⟦124⟧ = Hindi films
+⟦143⟧ = leads
+⟦168⟧ = Navneet Behal
+⟦170⟧ = Nikhil Dwivedi
+⟦199⟧ = Richa Chadda
+⟦231⟧ = Tamanchey
+⟦262⟧ = the film
+
+占位符映射：
+⟨98⟩ =  is 
+⟨99⟩ = 
+⟨100⟩ =  who works in 
+⟨101⟩ = 
+⟨102⟩ = .
+⟨357⟩ =  
+⟨358⟩ = : 
+⟨359⟩ =  ) is 
+⟨360⟩ = 
+⟨361⟩ =  
+⟨362⟩ =  
+⟨363⟩ =  released on 
+⟨364⟩ =  2014.
+⟨365⟩ = 
+⟨366⟩ =  is directed by 
+⟨367⟩ =  and stars 
+⟨368⟩ =  and 
+⟨369⟩ =  in 
+⟨370⟩ = 
+⟨371⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Tamanchey is a comedy film that starred the actress who works in what type of films?

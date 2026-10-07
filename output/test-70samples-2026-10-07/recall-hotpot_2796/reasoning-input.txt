@@ -1,0 +1,114 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Riddler's Revenge] ⟨42⟩⟨43⟩⟨45⟩⟨44⟩⟨46⟩⟦159⟧⟨47⟩
+[The Riddler's Revenge] ⟦208⟧⟦142⟧⟨77⟩⟦87⟧⟨76⟩⟨78⟩⟦54⟧⟨79⟩⟦158⟧⟨80⟩⟨81⟩
+[The Riddler's Revenge] ⟦212⟧⟦145⟧
+[Green Lantern (Six Flags Great Adventure)] ⟨110⟩⟨112⟩⟨113⟩⟨111⟩⟨114⟩⟦156⟧⟨115⟩⟦101⟧⟨116⟩⟦126⟧⟨117⟩
+[Green Lantern (Six Flags Great Adventure)] ⟨118⟩⟨119⟩⟨120⟩⟦11⟧⟨121⟩⟨122⟩
+[Green Lantern (Six Flags Great Adventure)] ⟦175⟧⟨123⟩⟨124⟩⟦74⟧⟨125⟩⟨126⟩⟦15⟧⟦66⟧⟨127⟩⟨128⟩⟦38⟧⟦118⟧⟨129⟩⟨130⟩
+[Green Lantern (comic book)] ⟦81⟧
+[Green Lantern (comic book)] ⟦1⟧
+[Katun (roller coaster)] ⟦26⟧⟦164⟧ | ⟦94⟧
+[Freestyle (roller coaster)] ⟦19⟧
+[Freestyle (roller coaster)] ⟦245⟧
+[Apocalypse (Six Flags America)] ⟦23⟧
+[Apocalypse (Six Flags America)] ⟦122⟧
+[White Cyclone] ⟦167⟧
+[White Cyclone] ⟦147⟧⟦57⟧ | ⟦147⟧⟦57⟧
+[White Cyclone] ⟦146⟧
+
+符号表：
+⟦1⟧ = "Green Lantern
+⟦11⟧ = 63 mph
+⟦15⟧ = a duration
+⟦19⟧ = a stand-up roller coaster
+⟦23⟧ = a steel stand-up roller coaster
+⟦26⟧ = a top speed
+⟦38⟧ = approximately 2⁄ minutes
+⟦54⟧ = Chang
+⟦57⟧ = coaster
+⟦66⟧ = duration
+⟦74⟧ = five inversions
+⟦81⟧ = Green Lantern
+⟦87⟧ = holder
+⟦94⟧ = inversions
+⟦101⟧ = Jackson Township
+⟦118⟧ = minutes
+⟦122⟧ = mph
+⟦126⟧ = New Jersey
+⟦142⟧ = record
+⟦145⟧ = Revenge
+⟦146⟧ = ride
+⟦147⟧ = roller
+⟦156⟧ = Six Flags Great Adventure
+⟦158⟧ = Six Flags Kentucky Kingdom
+⟦159⟧ = Six Flags Magic Mountain
+⟦164⟧ = speed
+⟦167⟧ = steel
+⟦175⟧ = The 4155 ft ride
+⟦208⟧ = The previous record holder
+⟦212⟧ = The Riddler's Revenge
+⟦245⟧ = year
+
+占位符映射：
+⟨42⟩ = 
+⟨43⟩ =  is 
+⟨44⟩ = 
+⟨45⟩ =  
+⟨46⟩ =  at 
+⟨47⟩ = .
+⟨76⟩ = 
+⟨77⟩ =  
+⟨78⟩ =  was 
+⟨79⟩ =  at 
+⟨80⟩ =  which opened a 
+⟨81⟩ =  earlier.
+⟨110⟩ =  is 
+⟨111⟩ = 
+⟨112⟩ =  stand-up 
+⟨113⟩ =  
+⟨114⟩ =  located at 
+⟨115⟩ =  in 
+⟨116⟩ = , 
+⟨117⟩ = .
+⟨118⟩ = " stands 155 ft tall and features 
+⟨119⟩ = 
+⟨120⟩ =  of 
+⟨121⟩ = 
+⟨122⟩ =  .
+⟨123⟩ = 
+⟨124⟩ =  features 
+⟨125⟩ = 
+⟨126⟩ =  and 
+⟨127⟩ = 
+⟨128⟩ =  of 
+⟨129⟩ = 
+⟨130⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Between the Riddlers Revenge and the Green Lantern, which stand-up roller coaster stands tallest?

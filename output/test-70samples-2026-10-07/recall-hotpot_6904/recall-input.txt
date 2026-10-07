@@ -1,0 +1,425 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (alternatively West Street Building
+⟦2⟧ = (Fort Worth architect-engineer
+⟦3⟧ = (sic) functional reinforced concrete
+⟦4⟧ = 1 New York Plaza
+⟦5⟧ = 12 floors
+⟦6⟧ = 137 ft
+⟦7⟧ = 14th Street
+⟦8⟧ = 2-4 Barclay Street
+⟦9⟧ = 225 Broadway
+⟦10⟧ = 233 Broadway
+⟦11⟧ = 241.4 m
+⟦12⟧ = 30th Street
+⟦13⟧ = 42nd Street
+⟦14⟧ = 50 grandchildren
+⟦15⟧ = 66th Street
+⟦16⟧ = 90 West Street
+⟦17⟧ = a 44-story office building
+⟦18⟧ = a 521-unit rental multifamily building
+⟦19⟧ = a building
+⟦20⟧ = a cathedral
+⟦21⟧ = a contributing building
+⟦22⟧ = a design
+⟦23⟧ = a former railroad station
+⟦24⟧ = a height
+⟦25⟧ = a highrise
+⟦26⟧ = a landmark
+⟦27⟧ = a Minneapolis office
+⟦28⟧ = a National Historic Landmark
+⟦29⟧ = a neo-gothic style architecture
+⟦30⟧ = a New York City landmark
+⟦31⟧ = a New York City real estate investor
+⟦32⟧ = a personal net worth
+⟦33⟧ = a portfolio
+⟦34⟧ = a registered, Texas historical landmark
+⟦35⟧ = a ruin
+⟦36⟧ = a St. Paul office
+⟦37⟧ = a stake
+⟦38⟧ = about 6,000 outer-borough apartments
+⟦39⟧ = Abraham M. Radcliffe
+⟦40⟧ = address
+⟦41⟧ = adoption
+⟦42⟧ = agent
+⟦43⟧ = all Manhattan skyscrapers
+⟦44⟧ = Amtrak's busy Northeast Corridor line
+⟦45⟧ = an architect
+⟦46⟧ = an early US skyscraper
+⟦47⟧ = an express station
+⟦48⟧ = an historic building
+⟦49⟧ = an investment group
+⟦50⟧ = an office building
+⟦51⟧ = an unsolicited and unsuccessful offer
+⟦52⟧ = apartment
+⟦53⟧ = apartments
+⟦54⟧ = April
+⟦55⟧ = arches
+⟦56⟧ = architect
+⟦57⟧ = architect Cass Gilbert
+⟦58⟧ = architecture
+⟦59⟧ = article
+⟦60⟧ = Barclay Street
+⟦61⟧ = borough
+⟦62⟧ = Brooklyn
+⟦63⟧ = building
+⟦64⟧ = buildings
+⟦65⟧ = business
+⟦66⟧ = Cammeby
+⟦67⟧ = Cammeby's International Group
+⟦68⟧ = career
+⟦69⟧ = Cass Gilbert
+⟦70⟧ = cast
+⟦71⟧ = cathedral
+⟦72⟧ = century
+⟦73⟧ = chain
+⟦74⟧ = children
+⟦75⟧ = company
+⟦76⟧ = complex
+⟦77⟧ = complexes
+⟦78⟧ = concrete
+⟦79⟧ = condition
+⟦80⟧ = construction
+⟦81⟧ = corner
+⟦82⟧ = data
+⟦83⟧ = data company Real Capital Analytics
+⟦84⟧ = deals
+⟦85⟧ = decades
+⟦86⟧ = department
+⟦87⟧ = department stores
+⟦88⟧ = design
+⟦89⟧ = determination
+⟦90⟧ = devices
+⟦91⟧ = Donald Trump
+⟦92⟧ = downtown
+⟦93⟧ = downtown Midland
+⟦94⟧ = early commercial buildings
+⟦95⟧ = Edward J. Hogan
+⟦96⟧ = eight children
+⟦97⟧ = engineer
+⟦98⟧ = entrepreneur
+⟦99⟧ = equipment
+⟦100⟧ = estate
+⟦101⟧ = F. W. Woolworth
+⟦102⟧ = façade
+⟦103⟧ = family
+⟦104⟧ = fields
+⟦105⟧ = firm
+⟦106⟧ = five complexes
+⟦107⟧ = floor
+⟦108⟧ = floors
+⟦109⟧ = former Mitchell-Lama properties
+⟦110⟧ = founder
+⟦111⟧ = Frank W. Woolworth
+⟦112⟧ = ft
+⟦113⟧ = Garret's Restaurant
+⟦114⟧ = Gilbert's later work
+⟦115⟧ = Gothic spires
+⟦116⟧ = government
+⟦117⟧ = government subsidies
+⟦118⟧ = grandchildren
+⟦119⟧ = group
+⟦120⟧ = Gunvald Aus
+⟦121⟧ = half
+⟦122⟧ = Harlem
+⟦123⟧ = Hastings
+⟦124⟧ = headquarters
+⟦125⟧ = height
+⟦126⟧ = highrise
+⟦127⟧ = his 1910 design
+⟦128⟧ = his building
+⟦129⟧ = his family
+⟦130⟧ = his long career
+⟦131⟧ = his Minneapolis office
+⟦132⟧ = his real estate agent
+⟦133⟧ = Hogan
+⟦134⟧ = home
+⟦135⟧ = homes
+⟦136⟧ = house
+⟦137⟧ = Industry City
+⟦138⟧ = information
+⟦139⟧ = intersection
+⟦140⟧ = investment
+⟦141⟧ = investor
+⟦142⟧ = its 23-story height
+⟦143⟧ = its construction
+⟦144⟧ = its spires
+⟦145⟧ = Jacob Bunn
+⟦146⟧ = January
+⟦147⟧ = July
+⟦148⟧ = June
+⟦149⟧ = Lackawanna
+⟦150⟧ = landlord
+⟦151⟧ = landmark
+⟦152⟧ = lavish carved surfaces
+⟦153⟧ = lawyer
+⟦154⟧ = lawyer and oil entrepreneur Thomas Stephen Hogan
+⟦155⟧ = level
+⟦156⟧ = levels
+⟦157⟧ = line
+⟦158⟧ = Long Island
+⟦159⟧ = Lower Manhattan
+⟦160⟧ = man
+⟦161⟧ = Manhattan
+⟦162⟧ = Manhattan's Upper East Side
+⟦163⟧ = many classic architectural devices
+⟦164⟧ = many decades
+⟦165⟧ = many important public structures
+⟦166⟧ = many other deals
+⟦167⟧ = marble
+⟦168⟧ = market
+⟦169⟧ = market rates
+⟦170⟧ = market-rate and government-subsidized apartment complexes
+⟦171⟧ = Midland
+⟦172⟧ = Minneapolis
+⟦173⟧ = Minnesota
+⟦174⟧ = Mitchell-Lama apartment buildings
+⟦175⟧ = Moorish arches
+⟦176⟧ = nearly 4,000 units
+⟦177⟧ = neighborhood
+⟦178⟧ = New York
+⟦179⟧ = New York City
+⟦180⟧ = New York City's Financial District
+⟦181⟧ = northbound
+⟦182⟧ = nursing
+⟦183⟧ = nursing homes
+⟦184⟧ = offer
+⟦185⟧ = office
+⟦186⟧ = office buildings
+⟦187⟧ = oil
+⟦188⟧ = Oklahoma City
+⟦189⟧ = one man
+⟦190⟧ = one track
+⟦191⟧ = opulent marble
+⟦192⟧ = ornamentation
+⟦193⟧ = Orthodox Judaism
+⟦194⟧ = Other buildings
+⟦195⟧ = other owners
+⟦196⟧ = owners
+⟦197⟧ = part
+⟦198⟧ = Penn Station
+⟦199⟧ = people
+⟦200⟧ = pioneer
+⟦201⟧ = Plans
+⟦202⟧ = platforms
+⟦203⟧ = poor condition
+⟦204⟧ = portfolio
+⟦205⟧ = problems
+⟦206⟧ = project
+⟦207⟧ = properties
+⟦208⟧ = Radcliffe
+⟦209⟧ = railroad
+⟦210⟧ = rate
+⟦211⟧ = rates
+⟦212⟧ = rental
+⟦213⟧ = respectability
+⟦214⟧ = restaurant
+⟦215⟧ = rich terra
+⟦216⟧ = Roosevelt Island
+⟦217⟧ = Rubin Schron
+⟦218⟧ = Ruby
+⟦219⟧ = ruin
+⟦220⟧ = Sawyer
+⟦221⟧ = Schron
+⟦222⟧ = service
+⟦223⟧ = setbacks
+⟦224⟧ = side
+⟦225⟧ = site
+⟦226⟧ = skyscraper
+⟦227⟧ = skyscrapers
+⟦228⟧ = South and Whitehall Streets
+⟦229⟧ = southernmost
+⟦230⟧ = spires
+⟦231⟧ = St. Paul
+⟦232⟧ = stake
+⟦233⟧ = station
+⟦234⟧ = stations
+⟦235⟧ = stone
+⟦236⟧ = stop
+⟦237⟧ = stores
+⟦238⟧ = story
+⟦239⟧ = Street
+⟦240⟧ = structural engineer
+⟦241⟧ = structures
+⟦242⟧ = style
+⟦243⟧ = styling
+⟦244⟧ = subsidies
+⟦245⟧ = subway
+⟦246⟧ = Sunset Park
+⟦247⟧ = surfaces
+⟦248⟧ = tenant
+⟦249⟧ = terra
+⟦250⟧ = the "world's highest restaurant
+⟦251⟧ = the 100 tallest buildings
+⟦252⟧ = the 16-building complex
+⟦253⟧ = the 1916 Zoning Resolution
+⟦254⟧ = the 30 tallest buildings
+⟦255⟧ = the address
+⟦256⟧ = the adoption
+⟦257⟧ = the architectural career
+⟦258⟧ = the architecture firm
+⟦259⟧ = the Baum Building
+⟦260⟧ = the borough
+⟦261⟧ = the bottom half
+⟦262⟧ = the Bronx
+⟦263⟧ = The building
+⟦264⟧ = the building's Gothic styling
+⟦265⟧ = the business house
+⟦266⟧ = the Civic Center neighborhood
+⟦267⟧ = the corner
+⟦268⟧ = the Dakota County Courthouse
+⟦269⟧ = the decades
+⟦270⟧ = the Delaware
+⟦271⟧ = the demolished IRT Ninth Avenue Line
+⟦272⟧ = The design
+⟦273⟧ = the determination
+⟦274⟧ = the Dual Contracts
+⟦275⟧ = the Empire State Building
+⟦276⟧ = the final site
+⟦277⟧ = the finest equipment
+⟦278⟧ = the founder
+⟦279⟧ = the headquarters
+⟦280⟧ = the Hogan Building
+⟦281⟧ = the intersection
+⟦282⟧ = the IRT and IND subway stations
+⟦283⟧ = The lower level
+⟦284⟧ = the lower level local tracks
+⟦285⟧ = the main tenant
+⟦286⟧ = the Monterey
+⟦287⟧ = the New York Elevated Railroad Company
+⟦288⟧ = The next northbound express stop
+⟦289⟧ = The next northbound local stop
+⟦290⟧ = The next southbound express stop
+⟦291⟧ = The next southbound local stop
+⟦292⟧ = The original site
+⟦293⟧ = the ornate cast-stone façade
+⟦294⟧ = The Petroleum Building
+⟦295⟧ = The portfolio
+⟦296⟧ = the project
+⟦297⟧ = the Public Square Historic District
+⟦298⟧ = the Renaissance Revival style
+⟦299⟧ = the respectability
+⟦300⟧ = the same single-family home
+⟦301⟧ = the skyscraper pioneer
+⟦302⟧ = the southernmost
+⟦303⟧ = the station
+⟦304⟧ = the top floor
+⟦305⟧ = The tower
+⟦306⟧ = The Transportation Building
+⟦307⟧ = the Trenor Luther Park Estate
+⟦308⟧ = the United States
+⟦309⟧ = the United States Supreme Court building
+⟦310⟧ = The upper level
+⟦311⟧ = the West Street Improvement Corporation
+⟦312⟧ = the West Texas oil fields
+⟦313⟧ = the Woolworth Building
+⟦314⟧ = the Woolworth's chain
+⟦315⟧ = This station
+⟦316⟧ = Thomas Stephen Hogan
+⟦317⟧ = tower
+⟦318⟧ = track
+⟦319⟧ = tracks
+⟦320⟧ = Train
+⟦321⟧ = Train service
+⟦322⟧ = two levels
+⟦323⟧ = two side platforms
+⟦324⟧ = two tracks
+⟦325⟧ = TX
+⟦326⟧ = unit
+⟦327⟧ = United States
+⟦328⟧ = units
+⟦329⟧ = values
+⟦330⟧ = Watertown
+⟦331⟧ = west
+⟦332⟧ = Westchester Avenue
+⟦333⟧ = Western Railroad
+⟦334⟧ = whose values
+⟦335⟧ = Woolworth
+⟦336⟧ = Woolworth Building and industrial properties
+⟦337⟧ = work
+⟦338⟧ = world
+⟦339⟧ = worth
+⟦340⟧ = Wyatt Hedrick
+⟦341⟧ = York
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[34th Street (IRT Ninth Avenue Line)] ⟨1⟩⟦239⟧⟨2⟩⟦47⟧⟨3⟩⟦233⟧⟨4⟩⟦271⟧⟨5⟩⟦178⟧⟨6⟩⟦327⟧⟨7⟩
+[34th Street (IRT Ninth Avenue Line)] ⟨8⟩⟦147⟧⟨9⟩⟦287⟧⟨10⟩⟦322⟧⟨11⟩⟦156⟧⟨12⟩
+[34th Street (IRT Ninth Avenue Line)] ⟦283⟧⟨13⟩⟦155⟧⟨14⟩⟦324⟧⟨15⟩⟦319⟧⟨16⟩⟦323⟧⟨17⟩⟦224⟧⟨18⟩⟦202⟧⟨19⟩
+[34th Street (IRT Ninth Avenue Line)] ⟦310⟧⟨20⟩⟦155⟧⟨21⟩⟦197⟧⟨22⟩⟦197⟧⟨23⟩⟦274⟧⟨24⟩⟦190⟧⟨25⟩⟦318⟧⟨26⟩⟦323⟧⟨27⟩⟦224⟧⟨28⟩⟦202⟧⟨29⟩⟦284⟧⟨30⟩⟦155⟧⟨31⟩⟦319⟧⟨32⟩
+[34th Street (IRT Ninth Avenue Line)] ⟨33⟩⟦148⟧⟨34⟩
+[34th Street (IRT Ninth Avenue Line)] ⟦291⟧⟨35⟩⟦236⟧⟨36⟩⟦12⟧⟨37⟩
+[34th Street (IRT Ninth Avenue Line)] ⟦290⟧⟨38⟩⟦236⟧⟨39⟩⟦7⟧⟨40⟩
+[34th Street (IRT Ninth Avenue Line)] ⟦289⟧⟨41⟩⟦236⟧⟨42⟩⟦13⟧⟨43⟩
+[34th Street (IRT Ninth Avenue Line)] ⟦288⟧⟨44⟩⟦181⟧⟨45⟩⟦236⟧⟨46⟩⟦15⟧⟨47⟩
+[34th Street (IRT Ninth Avenue Line)] ⟦315⟧⟨48⟩⟦233⟧⟨49⟩⟦198⟧⟨50⟩⟦331⟧⟨51⟩⟦282⟧⟨52⟩⟦245⟧⟨53⟩⟦234⟧⟨54⟩⟦198⟧⟨55⟩
+[Abraham M. Radcliffe] ⟦39⟧⟨56⟩⟦45⟧⟨57⟩⟦56⟧⟨58⟩⟦179⟧⟨59⟩
+[Abraham M. Radcliffe] ⟨60⟩⟦27⟧⟨61⟩⟦185⟧⟨62⟩⟦36⟧⟨63⟩⟦185⟧⟨64⟩
+[Abraham M. Radcliffe] ⟨65⟩⟦131⟧⟨66⟩⟦185⟧⟨67⟩
+[Abraham M. Radcliffe] ⟨68⟩⟦94⟧⟨69⟩⟦64⟧⟨70⟩⟦231⟧⟨71⟩⟦172⟧⟨72⟩⟦268⟧⟨73⟩⟦123⟧⟨74⟩⟦173⟧⟨75⟩
+[Abraham M. Radcliffe] ⟦208⟧⟨76⟩⟦257⟧⟨77⟩⟦68⟧⟨78⟩⟦69⟧⟨79⟩⟦301⟧⟨80⟩⟦226⟧⟨81⟩⟦200⟧⟨82⟩⟦313⟧⟨83⟩⟦179⟧⟨84⟩⟦309⟧⟨85⟩⟦63⟧⟨86⟩⟦165⟧⟨87⟩⟦241⟧⟨88⟩
+[Petroleum Building (Midland)] ⟦294⟧⟨89⟩⟦280⟧⟨90⟩⟦25⟧⟨91⟩⟦126⟧⟨92⟩⟦92⟧⟨93⟩⟦93⟧⟨94⟩⟦325⟧⟨95⟩
+[Petroleum Building (Midland)] ⟦263⟧⟨96⟩⟦63⟧⟨97⟩⟦5⟧⟨98⟩⟦108⟧⟨99⟩⟦29⟧⟨100⟩⟦242⟧⟨101⟩⟦58⟧⟨102⟩
+[Petroleum Building (Midland)] ⟦263⟧⟨103⟩⟦63⟧⟨104⟩⟦6⟧⟨105⟩⟦112⟧⟨106⟩⟦144⟧⟨107⟩⟦230⟧⟨108⟩⟦24⟧⟨109⟩⟦125⟧⟨110⟩⟦280⟧⟨111⟩⟦63⟧⟨112⟩⟦34⟧⟨113⟩⟦151⟧⟨114⟩
+[Petroleum Building (Midland)] ⟦305⟧⟨115⟩⟦317⟧⟨116⟩⟦153⟧⟨117⟩⟦154⟧⟨118⟩⟦187⟧⟨119⟩⟦98⟧⟨120⟩
+[Petroleum Building (Midland)] ⟨121⟩⟦138⟧⟨122⟩⟦138⟧⟨123⟩⟦133⟧⟨124⟩⟦59⟧⟨125⟩⟦59⟧⟨126⟩⟦145⟧⟨127⟩
+[Petroleum Building (Midland)] ⟦272⟧⟨128⟩⟦88⟧⟨129⟩⟦294⟧⟨130⟩⟦313⟧⟨131⟩⟦179⟧⟨132⟩⟦259⟧⟨133⟩⟦188⟧⟨134⟩⟦163⟧⟨135⟩⟦90⟧⟨136⟩
+[Petroleum Building (Midland)] ⟦115⟧⟨137⟩⟦230⟧⟨138⟩⟦175⟧⟨139⟩⟦55⟧⟨140⟩⟦152⟧⟨141⟩⟦247⟧⟨142⟩⟦191⟧⟨143⟩⟦167⟧⟨144⟩⟦265⟧⟨145⟩⟦65⟧⟨146⟩⟦136⟧⟨147⟩⟦299⟧⟨148⟩⟦213⟧⟨149⟩⟦20⟧⟨150⟩⟦71⟧⟨151⟩
+[Petroleum Building (Midland)] ⟦316⟧⟨152⟩⟦128⟧⟨153⟩⟦63⟧⟨154⟩⟦26⟧⟨155⟩⟦151⟧⟨156⟩⟦2⟧⟨157⟩⟦56⟧⟨158⟩⟦97⟧⟨159⟩⟦340⟧⟨160⟩⟦19⟧⟨161⟩⟦63⟧⟨162⟩⟦199⟧⟨163⟩⟦199⟧⟨164⟩
+[Petroleum Building (Midland)] ⟨165⟩⟦293⟧⟨166⟩⟦70⟧⟨167⟩⟦235⟧⟨168⟩⟦102⟧⟨169⟩⟦3⟧⟨170⟩⟦78⟧⟨171⟩⟦277⟧⟨172⟩⟦99⟧⟨173⟩⟦273⟧⟨174⟩⟦89⟧⟨175⟩⟦189⟧⟨176⟩⟦160⟧⟨177⟩⟦171⟧⟨178⟩⟦279⟧⟨179⟩⟦124⟧⟨180⟩⟦312⟧⟨181⟩⟦187⟧⟨182⟩⟦104⟧⟨183⟩
+[Westchester Avenue (NYW&amp;B station)] ⟦332⟧⟨184⟩⟦23⟧⟨185⟩⟦209⟧⟨186⟩⟦233⟧⟨187⟩⟦260⟧⟨188⟩⟦61⟧⟨189⟩⟦262⟧⟨190⟩⟦179⟧⟨191⟩⟦44⟧⟨192⟩⟦157⟧⟨193⟩
+[Westchester Avenue (NYW&amp;B station)] ⟨194⟩⟦215⟧⟨195⟩⟦249⟧⟨196⟩⟦22⟧⟨197⟩⟦88⟧⟨198⟩⟦69⟧⟨199⟩⟦249⟧⟨200⟩⟦127⟧⟨201⟩⟦88⟧⟨202⟩⟦313⟧⟨203⟩
+[Westchester Avenue (NYW&amp;B station)] ⟦321⟧⟨204⟩⟦320⟧⟨205⟩⟦222⟧⟨206⟩⟦303⟧⟨207⟩⟦233⟧⟨208⟩⟦303⟧⟨209⟩⟦233⟧⟨210⟩⟦35⟧⟨211⟩⟦219⟧⟨212⟩⟦203⟧⟨213⟩⟦79⟧⟨214⟩
+[1 New York Plaza] ⟦4⟧⟨215⟩⟦50⟧⟨216⟩⟦185⟧⟨217⟩⟦63⟧⟨218⟩⟦180⟧⟨219⟩⟦281⟧⟨220⟩⟦139⟧⟨221⟩⟦228⟧⟨222⟩
+[1 New York Plaza] ⟨223⟩⟦302⟧⟨224⟩⟦229⟧⟨225⟩⟦43⟧⟨226⟩⟦227⟧⟨227⟩
+[F. W. Woolworth Building (Watertown, New York)] ⟦313⟧⟨228⟩⟦48⟧⟨229⟩⟦63⟧⟨230⟩⟦330⟧⟨231⟩⟦178⟧⟨232⟩
+[F. W. Woolworth Building (Watertown, New York)] ⟨233⟩⟦21⟧⟨234⟩⟦63⟧⟨235⟩⟦297⟧⟨236⟩
+[F. W. Woolworth Building (Watertown, New York)] ⟦201⟧⟨237⟩⟦201⟧⟨238⟩⟦313⟧⟨239⟩⟦111⟧⟨240⟩⟦278⟧⟨241⟩⟦110⟧⟨242⟩⟦314⟧⟨243⟩⟦73⟧⟨244⟩⟦86⟧⟨245⟩⟦87⟧⟨246⟩⟦237⟧⟨247⟩
+[90 West Street] ⟦16⟧⟨248⟩⟦1⟧⟨249⟩⟦19⟧⟨250⟩⟦63⟧⟨251⟩⟦159⟧⟨252⟩⟦179⟧⟨253⟩
+[90 West Street] ⟨254⟩⟦56⟧⟨255⟩⟦57⟧⟨256⟩⟦240⟧⟨257⟩⟦97⟧⟨258⟩⟦120⟧⟨259⟩⟦311⟧⟨260⟩
+[90 West Street] ⟨261⟩⟦264⟧⟨262⟩⟦63⟧⟨263⟩⟦243⟧⟨264⟩⟦192⟧⟨265⟩⟦192⟧⟨266⟩⟦142⟧⟨267⟩⟦238⟧⟨268⟩⟦125⟧⟨269⟩⟦114⟧⟨270⟩⟦337⟧⟨271⟩⟦313⟧⟨272⟩
+[90 West Street] ⟨273⟩⟦50⟧⟨274⟩⟦185⟧⟨275⟩⟦63⟧⟨276⟩⟦285⟧⟨277⟩⟦248⟧⟨278⟩⟦270⟧⟨279⟩⟦149⟧⟨280⟩⟦333⟧⟨281⟩⟦304⟧⟨282⟩⟦107⟧⟨283⟩⟦113⟧⟨284⟩⟦250⟧⟨285⟩⟦338⟧⟨286⟩⟦214⟧⟨287⟩
+[Transportation Building] ⟦306⟧⟨288⟩⟦17⟧⟨289⟩⟦238⟧⟨290⟩⟦185⟧⟨291⟩⟦63⟧⟨292⟩⟦9⟧⟨293⟩⟦267⟧⟨294⟩⟦81⟧⟨295⟩⟦60⟧⟨296⟩⟦266⟧⟨297⟩⟦177⟧⟨298⟩⟦159⟧⟨299⟩⟦179⟧⟨300⟩
+[Transportation Building] ⟨301⟩⟦255⟧⟨302⟩⟦40⟧⟨303⟩⟦8⟧⟨304⟩
+[Transportation Building] ⟨305⟩⟦258⟧⟨306⟩⟦58⟧⟨307⟩⟦105⟧⟨308⟩⟦341⟧⟨309⟩⟦220⟧⟨310⟩⟦298⟧⟨311⟩⟦242⟧⟨312⟩⟦223⟧⟨313⟩⟦223⟧⟨314⟩⟦227⟧⟨315⟩⟦227⟧⟨316⟩⟦256⟧⟨317⟩⟦41⟧⟨318⟩⟦253⟧⟨319⟩
+[Transportation Building] ⟨320⟩⟦60⟧⟨321⟩⟦313⟧⟨322⟩
+[Woolworth Building] ⟦313⟧⟨323⟩⟦10⟧⟨324⟩⟦161⟧⟨325⟩⟦179⟧⟨326⟩⟦56⟧⟨327⟩⟦57⟧⟨328⟩⟦46⟧⟨329⟩⟦226⟧⟨330⟩
+[Woolworth Building] ⟦292⟧⟨331⟩⟦225⟧⟨332⟩⟦263⟧⟨333⟩⟦63⟧⟨334⟩⟦101⟧⟨335⟩⟦132⟧⟨336⟩⟦100⟧⟨337⟩⟦42⟧⟨338⟩⟦95⟧⟨339⟩⟦54⟧⟨340⟩⟦307⟧⟨341⟩⟦195⟧⟨342⟩⟦196⟧⟨343⟩
+[Woolworth Building] ⟨344⟩⟦146⟧⟨345⟩⟦335⟧⟨346⟩⟦133⟧⟨347⟩⟦276⟧⟨348⟩⟦225⟧⟨349⟩⟦296⟧⟨350⟩⟦206⟧⟨351⟩
+[Woolworth Building] ⟨352⟩⟦72⟧⟨353⟩⟦143⟧⟨354⟩⟦80⟧⟨355⟩⟦11⟧⟨356⟩⟦251⟧⟨357⟩⟦64⟧⟨358⟩⟦308⟧⟨359⟩⟦254⟧⟨360⟩⟦64⟧⟨361⟩⟦179⟧⟨362⟩
+[Woolworth Building] ⟨363⟩⟦28⟧⟨364⟩⟦30⟧⟨365⟩⟦151⟧⟨366⟩
+[Rubin Schron] ⟦217⟧⟨367⟩⟦218⟧⟨368⟩⟦31⟧⟨369⟩⟦100⟧⟨370⟩⟦141⟧⟨371⟩⟦150⟧⟨372⟩⟦150⟧⟨373⟩⟦278⟧⟨374⟩⟦110⟧⟨375⟩⟦67⟧⟨376⟩
+[Rubin Schron] ⟨377⟩⟦32⟧⟨378⟩⟦339⟧⟨379⟩⟦82⟧⟨380⟩⟦83⟧⟨381⟩⟦75⟧⟨382⟩
+[Rubin Schron] ⟦295⟧⟨383⟩⟦204⟧⟨384⟩⟦66⟧⟨385⟩⟦221⟧⟨386⟩⟦185⟧⟨387⟩⟦186⟧⟨388⟩⟦64⟧⟨389⟩⟦168⟧⟨390⟩⟦170⟧⟨391⟩⟦210⟧⟨392⟩⟦116⟧⟨393⟩⟦52⟧⟨394⟩⟦77⟧⟨395⟩⟦182⟧⟨396⟩⟦183⟧⟨397⟩⟦135⟧⟨398⟩⟦252⟧⟨399⟩⟦63⟧⟨400⟩⟦76⟧⟨401⟩⟦246⟧⟨402⟩⟦137⟧⟨403⟩⟦37⟧⟨404⟩⟦232⟧⟨405⟩⟦261⟧⟨406⟩⟦121⟧⟨407⟩⟦336⟧⟨408⟩⟦207⟧⟨409⟩⟦158⟧⟨410⟩
+[Rubin Schron] ⟨411⟩⟦221⟧⟨412⟩⟦51⟧⟨413⟩⟦184⟧⟨414⟩⟦275⟧⟨415⟩⟦205⟧⟨416⟩⟦205⟧⟨417⟩⟦166⟧⟨418⟩⟦84⟧⟨419⟩⟦130⟧⟨420⟩⟦68⟧⟨421⟩
+[Rubin Schron] ⟨422⟩⟦49⟧⟨423⟩⟦140⟧⟨424⟩⟦119⟧⟨425⟩⟦221⟧⟨426⟩⟦33⟧⟨427⟩⟦204⟧⟨428⟩⟦38⟧⟨429⟩⟦61⟧⟨430⟩⟦53⟧⟨431⟩⟦91⟧⟨432⟩
+[Rubin Schron] ⟦194⟧⟨433⟩⟦64⟧⟨434⟩⟦286⟧⟨435⟩⟦18⟧⟨436⟩⟦326⟧⟨437⟩⟦212⟧⟨438⟩⟦63⟧⟨439⟩⟦162⟧⟨440⟩⟦269⟧⟨441⟩⟦85⟧⟨442⟩⟦221⟧⟨443⟩⟦33⟧⟨444⟩⟦204⟧⟨445⟩⟦174⟧⟨446⟩⟦52⟧⟨447⟩⟦64⟧⟨448⟩⟦334⟧⟨449⟩⟦329⟧⟨450⟩⟦329⟧⟨451⟩⟦329⟧⟨452⟩⟦168⟧⟨453⟩⟦169⟧⟨454⟩⟦211⟧⟨455⟩⟦116⟧⟨456⟩⟦117⟧⟨457⟩⟦244⟧⟨458⟩
+[Rubin Schron] ⟨459⟩⟦176⟧⟨460⟩⟦328⟧⟨461⟩⟦109⟧⟨462⟩⟦207⟧⟨463⟩⟦106⟧⟨464⟩⟦77⟧⟨465⟩⟦122⟧⟨466⟩⟦216⟧⟨467⟩
+[Rubin Schron] ⟦221⟧⟨468⟩⟦193⟧⟨469⟩⟦96⟧⟨470⟩⟦74⟧⟨471⟩⟦14⟧⟨472⟩⟦118⟧⟨473⟩
+[Rubin Schron] ⟨474⟩⟦129⟧⟨475⟩⟦103⟧⟨476⟩⟦300⟧⟨477⟩⟦103⟧⟨478⟩⟦134⟧⟨479⟩⟦62⟧⟨480⟩⟦164⟧⟨481⟩⟦85⟧⟨482⟩
+
+[user]
+
+问题：
+Which was built first Woolworth Building or 1 New York Plaza?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

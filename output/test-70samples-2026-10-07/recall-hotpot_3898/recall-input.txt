@@ -1,0 +1,463 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , "leuco" "white", "cephalos" "head
+⟦2⟧ = "C.c.kerguelenensis
+⟦3⟧ = "Cephalorhynchus
+⟦4⟧ = "eagle
+⟦5⟧ = "Haliaeetus leucocephalus
+⟦6⟧ = "Haliastur indus
+⟦7⟧ = "Nothomyrmecia macrops
+⟦8⟧ = "P. longiceps
+⟦9⟧ = "Prionomyrmex
+⟦10⟧ = ("Cephalorhynchus commersonii
+⟦11⟧ = ("Haliaeetus albicilla
+⟦12⟧ = ("Neophocaena phocaenoides
+⟦13⟧ = ("Ogcocephalus porrectus
+⟦14⟧ = 10 to 15 feet
+⟦15⟧ = 15 to 25 feet
+⟦16⟧ = 3.1 - 4.6 m
+⟦17⟧ = 4.6 - 7.6 m
+⟦18⟧ = a bird
+⟦19⟧ = a buffer strip
+⟦20⟧ = a contrasting white head
+⟦21⟧ = a dense thicket
+⟦22⟧ = a fish
+⟦23⟧ = a freshwater population
+⟦24⟧ = a genus
+⟦25⟧ = a hedge
+⟦26⟧ = a height
+⟦27⟧ = a holotype worker
+⟦28⟧ = a less-sharply delineated dark and light grey
+⟦29⟧ = a lure
+⟦30⟧ = a medium-sized bird
+⟦31⟧ = a number
+⟦32⟧ = a powerful stinger
+⟦33⟧ = a reddish-brown plumage
+⟦34⟧ = a single spine-like projection
+⟦35⟧ = a small community
+⟦36⟧ = a small deciduous tree
+⟦37⟧ = a small oceanic
+⟦38⟧ = a species
+⟦39⟧ = a spread
+⟦40⟧ = a structure
+⟦41⟧ = a valid genus
+⟦42⟧ = a white ventral band
+⟦43⟧ = a whole
+⟦44⟧ = a wild state
+⟦45⟧ = about 37 species
+⟦46⟧ = adults
+⟦47⟧ = African malaria vectors
+⟦48⟧ = aiētos
+⟦49⟧ = Alaska
+⟦50⟧ = amber
+⟦51⟧ = an abundant food supply
+⟦52⟧ = an arboreal nesting species
+⟦53⟧ = an extinct genus
+⟦54⟧ = anglerfish
+⟦55⟧ = ants
+⟦56⟧ = area
+⟦57⟧ = At least forty species
+⟦58⟧ = August
+⟦59⟧ = Australia
+⟦60⟧ = autumn
+⟦61⟧ = avifauna
+⟦62⟧ = Bald eagles
+⟦63⟧ = Baltic amber
+⟦64⟧ = band
+⟦65⟧ = Bardsey
+⟦66⟧ = basal
+⟦67⟧ = batfish
+⟦68⟧ = bird
+⟦69⟧ = birds
+⟦70⟧ = black grouse
+⟦71⟧ = bodies
+⟦72⟧ = border
+⟦73⟧ = borders
+⟦74⟧ = Brackendale
+⟦75⟧ = breast
+⟦76⟧ = breeding
+⟦77⟧ = Britain
+⟦78⟧ = British Columbia
+⟦79⟧ = buffer
+⟦80⟧ = bulldog
+⟦81⟧ = bulldog ants
+⟦82⟧ = buzzards
+⟦83⟧ = C.c.kerguelenensis
+⟦84⟧ = Canada
+⟦85⟧ = centre
+⟦86⟧ = Cephalorhynchus
+⟦87⟧ = Cesare Baroni Urbani
+⟦88⟧ = chalybescens
+⟦89⟧ = China's Yangtze River
+⟦90⟧ = coast
+⟦91⟧ = Cocos Island
+⟦92⟧ = Commerson's dolphin
+⟦93⟧ = commersonii
+⟦94⟧ = community
+⟦95⟧ = confluence
+⟦96⟧ = Cornus drummondii
+⟦97⟧ = Costa Rica
+⟦98⟧ = dead fish
+⟦99⟧ = decks
+⟦100⟧ = Depot Road
+⟦101⟧ = depths
+⟦102⟧ = dogwood
+⟦103⟧ = dogwoods
+⟦104⟧ = dolphin
+⟦105⟧ = dorsal
+⟦106⟧ = drummondii
+⟦107⟧ = eagle
+⟦108⟧ = eagles
+⟦109⟧ = Europe
+⟦110⟧ = every species
+⟦111⟧ = family
+⟦112⟧ = feet
+⟦113⟧ = fewer breeding species
+⟦114⟧ = fin
+⟦115⟧ = finless
+⟦116⟧ = finless porpoise
+⟦117⟧ = fins
+⟦118⟧ = fish
+⟦119⟧ = flies
+⟦120⟧ = floor
+⟦121⟧ = flowers
+⟦122⟧ = flycatcher
+⟦123⟧ = food
+⟦124⟧ = forelegs
+⟦125⟧ = forest
+⟦126⟧ = forest borders
+⟦127⟧ = formerly BC Rail
+⟦128⟧ = forms
+⟦129⟧ = fossil
+⟦130⟧ = fossil specimens
+⟦131⟧ = freshwater
+⟦132⟧ = fruits
+⟦133⟧ = Galapagos batfish
+⟦134⟧ = genera
+⟦135⟧ = Genetic studies
+⟦136⟧ = genus
+⟦137⟧ = good populations
+⟦138⟧ = good swimmers
+⟦139⟧ = Government Road
+⟦140⟧ = Grassholm
+⟦141⟧ = Greek "hali" "sea", "aiētos
+⟦142⟧ = grey
+⟦143⟧ = grouse
+⟦144⟧ = growth
+⟦145⟧ = Gustav Mayr
+⟦146⟧ = harriers
+⟦147⟧ = head
+⟦148⟧ = headlands
+⟦149⟧ = hedge
+⟦150⟧ = height
+⟦151⟧ = highways
+⟦152⟧ = holotype
+⟦153⟧ = home
+⟦154⟧ = homes
+⟦155⟧ = illicium
+⟦156⟧ = indus
+⟦157⟧ = inland wetlands
+⟦158⟧ = islands
+⟦159⟧ = its bright red lips
+⟦160⟧ = its dorsal fin
+⟦161⟧ = its head
+⟦162⟧ = Its range
+⟦163⟧ = Jiuduansha
+⟦164⟧ = jungles
+⟦165⟧ = kite
+⟦166⟧ = large bodies
+⟦167⟧ = large numbers
+⟦168⟧ = large size
+⟦169⟧ = larvae
+⟦170⟧ = Late Oligocene
+⟦171⟧ = leuco
+⟦172⟧ = leucocephalus
+⟦173⟧ = lips
+⟦174⟧ = list
+⟦175⟧ = living
+⟦176⟧ = longiceps
+⟦177⟧ = lots
+⟦178⟧ = lure
+⟦179⟧ = macrops
+⟦180⟧ = malaria
+⟦181⟧ = mandibles
+⟦182⟧ = many other diurnal raptors
+⟦183⟧ = many wildfowl
+⟦184⟧ = maturity
+⟦185⟧ = median
+⟦186⟧ = member
+⟦187⟧ = midge
+⟦188⟧ = midge larvae
+⟦189⟧ = midges
+⟦190⟧ = migrant and vagrant birds
+⟦191⟧ = months
+⟦192⟧ = moorland
+⟦193⟧ = moorland species
+⟦194⟧ = morphology
+⟦195⟧ = mosquitoes
+⟦196⟧ = mouth
+⟦197⟧ = names
+⟦198⟧ = nesting
+⟦199⟧ = North America
+⟦200⟧ = northern Mexico
+⟦201⟧ = Nothomyrmecia
+⟦202⟧ = number
+⟦203⟧ = numbers
+⟦204⟧ = oak
+⟦205⟧ = ocean
+⟦206⟧ = oceanic
+⟦207⟧ = Ochthera
+⟦208⟧ = Ochthera chalybescens
+⟦209⟧ = October
+⟦210⟧ = off-white four-petaled open flowers
+⟦211⟧ = offshore islands
+⟦212⟧ = old-growth trees
+⟦213⟧ = one species
+⟦214⟧ = open water
+⟦215⟧ = other anglerfish
+⟦216⟧ = other birds
+⟦217⟧ = other parts
+⟦218⟧ = other prey
+⟦219⟧ = pair
+⟦220⟧ = panda
+⟦221⟧ = parking
+⟦222⟧ = parking lots
+⟦223⟧ = parts
+⟦224⟧ = patios
+⟦225⟧ = patterning
+⟦226⟧ = peninsula
+⟦227⟧ = Peru
+⟦228⟧ = phocaenoides
+⟦229⟧ = piebald
+⟦230⟧ = plumage
+⟦231⟧ = population
+⟦232⟧ = populations
+⟦233⟧ = porpoise
+⟦234⟧ = porrectus
+⟦235⟧ = prey
+⟦236⟧ = Prionomyrmex
+⟦237⟧ = projection
+⟦238⟧ = proposal
+⟦239⟧ = province
+⟦240⟧ = railway
+⟦241⟧ = range
+⟦242⟧ = raptors
+⟦243⟧ = red grouse
+⟦244⟧ = Red-lipped batfish
+⟦245⟧ = redstart
+⟦246⟧ = regions
+⟦247⟧ = rosy-lipped batfish
+⟦248⟧ = roughleaf
+⟦249⟧ = scientists
+⟦250⟧ = sea
+⟦251⟧ = seabirds
+⟦252⟧ = seven porpoise species
+⟦253⟧ = several species
+⟦254⟧ = Shanghai
+⟦255⟧ = sharply-delineated black-and-white patterning
+⟦256⟧ = Shore
+⟦257⟧ = size
+⟦258⟧ = Skomer
+⟦259⟧ = small white fruits
+⟦260⟧ = south
+⟦261⟧ = South America
+⟦262⟧ = Southeast Asia
+⟦263⟧ = species
+⟦264⟧ = specimens
+⟦265⟧ = spine
+⟦266⟧ = spread
+⟦267⟧ = spring
+⟦268⟧ = spring and autumn a variety
+⟦269⟧ = Squamish
+⟦270⟧ = Squamish town centre
+⟦271⟧ = state
+⟦272⟧ = stinger
+⟦273⟧ = strip
+⟦274⟧ = structure
+⟦275⟧ = studies
+⟦276⟧ = subcontinent
+⟦277⟧ = subspecies
+⟦278⟧ = summer
+⟦279⟧ = supply
+⟦280⟧ = swimmers
+⟦281⟧ = temperatures
+⟦282⟧ = the adults
+⟦283⟧ = the avifauna
+⟦284⟧ = The bald eagle
+⟦285⟧ = the batfish
+⟦286⟧ = the birds
+⟦287⟧ = The brahminy kite
+⟦288⟧ = the Canadian province
+⟦289⟧ = the Cheakamus River
+⟦290⟧ = The CN railway
+⟦291⟧ = the coast
+⟦292⟧ = the common names
+⟦293⟧ = the confluence
+⟦294⟧ = the contiguous United States
+⟦295⟧ = the decks
+⟦296⟧ = the District
+⟦297⟧ = the entomological community
+⟦298⟧ = the Eocene
+⟦299⟧ = the family
+⟦300⟧ = the family Accipitridae
+⟦301⟧ = the family Formicidae
+⟦302⟧ = the finless porpoise
+⟦303⟧ = the fruits
+⟦304⟧ = the Galapagos Islands
+⟦305⟧ = The genus
+⟦306⟧ = the Great Plains and Midwestern regions
+⟦307⟧ = the Indian Ocean
+⟦308⟧ = the Indian subcontinent
+⟦309⟧ = The Indo-Pacific finless porpoise
+⟦310⟧ = the Kerguelen Islands
+⟦311⟧ = the Korean peninsula
+⟦312⟧ = The larvae
+⟦313⟧ = the living species
+⟦314⟧ = the median
+⟦315⟧ = the mild temperatures
+⟦316⟧ = the Mississippi River
+⟦317⟧ = the most basal living member
+⟦318⟧ = the mouth
+⟦319⟧ = the ocean floor
+⟦320⟧ = the Pacific coast
+⟦321⟧ = the population
+⟦322⟧ = the porpoise family
+⟦323⟧ = The principal subspecies
+⟦324⟧ = the red kite
+⟦325⟧ = the red-backed sea-eagle
+⟦326⟧ = The red-lipped batfish
+⟦327⟧ = the remarkable "'Eagle Run" area
+⟦328⟧ = the roughleaf dogwood
+⟦329⟧ = The roughleaf dogwood flowers
+⟦330⟧ = The secondary subspecies
+⟦331⟧ = The species
+⟦332⟧ = the Squamish River
+⟦333⟧ = the subfamily Myrmeciinae
+⟦334⟧ = the summer months
+⟦335⟧ = the swollen raptorial forelegs
+⟦336⟧ = the tip
+⟦337⟧ = the two genera
+⟦338⟧ = the United States
+⟦339⟧ = the white-tailed eagle
+⟦340⟧ = the wild
+⟦341⟧ = the wintering home
+⟦342⟧ = the world
+⟦343⟧ = the Yellow and East China Seas
+⟦344⟧ = their highly adapted pectoral fins
+⟦345⟧ = their long mandibles
+⟦346⟧ = These ants
+⟦347⟧ = These dogwoods
+⟦348⟧ = thicket
+⟦349⟧ = This fish
+⟦350⟧ = This list
+⟦351⟧ = this proposal
+⟦352⟧ = This structure
+⟦353⟧ = thousands
+⟦354⟧ = Three species
+⟦355⟧ = tip
+⟦356⟧ = town
+⟦357⟧ = tree
+⟦358⟧ = trees
+⟦359⟧ = two geographically-isolated but locally-common subspecies
+⟦360⟧ = two known subspecies
+⟦361⟧ = unusual morphology
+⟦362⟧ = variety
+⟦363⟧ = vectors
+⟦364⟧ = waders
+⟦365⟧ = Wales
+⟦366⟧ = warbler
+⟦367⟧ = water
+⟦368⟧ = Welsh
+⟦369⟧ = wetlands
+⟦370⟧ = whole
+⟦371⟧ = wild
+⟦372⟧ = wildfowl
+⟦373⟧ = wildlife
+⟦374⟧ = winter
+⟦375⟧ = wood
+⟦376⟧ = wood warbler
+⟦377⟧ = woods
+⟦378⟧ = worker
+⟦379⟧ = world
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Ochthera] ⟦207⟧⟨1⟩⟦24⟧⟨2⟩⟦136⟧⟨3⟩⟦119⟧⟨4⟩⟦119⟧⟨5⟩⟦299⟧⟨6⟩⟦111⟧⟨7⟩⟦256⟧⟨8⟩
+[Ochthera] ⟦305⟧⟨9⟩⟦136⟧⟨10⟩⟦335⟧⟨11⟩⟦124⟧⟨12⟩
+[Ochthera] ⟦312⟧⟨13⟩⟦169⟧⟨14⟩⟦187⟧⟨15⟩⟦188⟧⟨16⟩⟦282⟧⟨17⟩⟦46⟧⟨18⟩⟦189⟧⟨19⟩⟦189⟧⟨20⟩⟦195⟧⟨21⟩⟦195⟧⟨22⟩
+[Ochthera] ⟦305⟧⟨23⟩⟦136⟧⟨24⟩⟦342⟧⟨25⟩⟦379⟧⟨26⟩⟦45⟧⟨27⟩⟦263⟧⟨28⟩
+[Ochthera] ⟦331⟧⟨29⟩⟦263⟧⟨30⟩⟦208⟧⟨31⟩⟦88⟧⟨32⟩⟦47⟧⟨33⟩⟦180⟧⟨34⟩⟦363⟧⟨35⟩
+[Brahminy kite] ⟦287⟧⟨36⟩⟦165⟧⟨37⟩⟦6⟧⟨38⟩⟦156⟧⟨39⟩⟦325⟧⟨40⟩⟦250⟧⟨41⟩⟦107⟧⟨42⟩⟦59⟧⟨43⟩⟦30⟧⟨44⟩⟦68⟧⟨45⟩⟦235⟧⟨46⟩⟦235⟧⟨47⟩⟦300⟧⟨48⟩⟦111⟧⟨49⟩⟦182⟧⟨50⟩⟦242⟧⟨51⟩⟦108⟧⟨52⟩⟦108⟧⟨53⟩⟦82⟧⟨54⟩⟦82⟧⟨55⟩⟦146⟧⟨56⟩⟦146⟧⟨57⟩
+[Brahminy kite] ⟨58⟩⟦308⟧⟨59⟩⟦276⟧⟨60⟩⟦262⟧⟨61⟩⟦59⟧⟨62⟩
+[Brahminy kite] ⟨63⟩⟦291⟧⟨64⟩⟦90⟧⟨65⟩⟦157⟧⟨66⟩⟦369⟧⟨67⟩⟦98⟧⟨68⟩⟦118⟧⟨69⟩⟦218⟧⟨70⟩⟦235⟧⟨71⟩
+[Brahminy kite] ⟦46⟧⟨72⟩⟦46⟧⟨73⟩⟦33⟧⟨74⟩⟦230⟧⟨75⟩⟦20⟧⟨76⟩⟦147⟧⟨77⟩⟦75⟧⟨78⟩⟦75⟧⟨79⟩⟦216⟧⟨80⟩⟦69⟧⟨81⟩⟦235⟧⟨82⟩⟦235⟧⟨83⟩
+[List of birds of Wales] ⟦350⟧⟨84⟩⟦174⟧⟨85⟩⟦69⟧⟨86⟩⟦69⟧⟨87⟩⟦365⟧⟨88⟩⟦110⟧⟨89⟩⟦263⟧⟨90⟩⟦68⟧⟨91⟩⟦68⟧⟨92⟩⟦44⟧⟨93⟩⟦271⟧⟨94⟩⟦365⟧⟨95⟩
+[List of birds of Wales] ⟨96⟩⟦283⟧⟨97⟩⟦61⟧⟨98⟩⟦77⟧⟨99⟩⟦43⟧⟨100⟩⟦370⟧⟨101⟩⟦365⟧⟨102⟩⟦113⟧⟨103⟩⟦76⟧⟨104⟩⟦263⟧⟨105⟩⟦31⟧⟨106⟩⟦202⟧⟨107⟩⟦192⟧⟨108⟩⟦193⟧⟨109⟩⟦263⟧⟨110⟩⟦243⟧⟨111⟩⟦143⟧⟨112⟩⟦70⟧⟨113⟩⟦143⟧⟨114⟩⟦167⟧⟨115⟩⟦203⟧⟨116⟩⟦251⟧⟨117⟩⟦251⟧⟨118⟩⟦211⟧⟨119⟩⟦158⟧⟨120⟩⟦258⟧⟨121⟩⟦140⟧⟨122⟩⟦65⟧⟨123⟩⟦137⟧⟨124⟩⟦232⟧⟨125⟩⟦253⟧⟨126⟩⟦263⟧⟨127⟩⟦368⟧⟨128⟩⟦204⟧⟨129⟩⟦377⟧⟨130⟩⟦377⟧⟨131⟩⟦245⟧⟨132⟩⟦122⟧⟨133⟩⟦122⟧⟨134⟩⟦375⟧⟨135⟩⟦376⟧⟨136⟩⟦366⟧⟨137⟩
+[List of birds of Wales] ⟨138⟩⟦286⟧⟨139⟩⟦69⟧⟨140⟩⟦235⟧⟨141⟩⟦235⟧⟨142⟩⟦324⟧⟨143⟩⟦165⟧⟨144⟩⟦217⟧⟨145⟩⟦223⟧⟨146⟩⟦77⟧⟨147⟩
+[List of birds of Wales] ⟨148⟩⟦374⟧⟨149⟩⟦374⟧⟨150⟩⟦183⟧⟨151⟩⟦372⟧⟨152⟩⟦364⟧⟨153⟩⟦364⟧⟨154⟩⟦291⟧⟨155⟩⟦90⟧⟨156⟩⟦315⟧⟨157⟩⟦281⟧⟨158⟩
+[List of birds of Wales] ⟨159⟩⟦267⟧⟨160⟩⟦268⟧⟨161⟩⟦60⟧⟨162⟩⟦362⟧⟨163⟩⟦190⟧⟨164⟩⟦69⟧⟨165⟩⟦148⟧⟨166⟩⟦148⟧⟨167⟩⟦158⟧⟨168⟩⟦158⟧⟨169⟩
+[Bald eagle] ⟦284⟧⟨170⟩⟦107⟧⟨171⟩⟦5⟧⟨172⟩⟦172⟧⟨173⟩⟦141⟧⟨174⟩⟦250⟧⟨175⟩⟦48⟧⟨176⟩⟦4⟧⟨177⟩⟦107⟧⟨178⟩⟦1⟧⟨179⟩⟦171⟧⟨180⟩⟦147⟧⟨181⟩⟦18⟧⟨182⟩⟦68⟧⟨183⟩⟦235⟧⟨184⟩⟦235⟧⟨185⟩⟦199⟧⟨186⟩
+[Bald eagle] ⟨187⟩⟦250⟧⟨188⟩⟦107⟧⟨189⟩⟦360⟧⟨190⟩⟦277⟧⟨191⟩⟦128⟧⟨192⟩⟦128⟧⟨193⟩⟦263⟧⟨194⟩⟦219⟧⟨195⟩⟦339⟧⟨196⟩⟦107⟧⟨197⟩⟦11⟧⟨198⟩
+[Bald eagle] ⟦162⟧⟨199⟩⟦241⟧⟨200⟩⟦84⟧⟨201⟩⟦49⟧⟨202⟩⟦294⟧⟨203⟩⟦200⟧⟨204⟩
+[Bald eagle] ⟨205⟩⟦166⟧⟨206⟩⟦71⟧⟨207⟩⟦214⟧⟨208⟩⟦367⟧⟨209⟩⟦51⟧⟨210⟩⟦123⟧⟨211⟩⟦279⟧⟨212⟩⟦212⟧⟨213⟩⟦144⟧⟨214⟩⟦358⟧⟨215⟩⟦198⟧⟨216⟩⟦198⟧⟨217⟩
+[Red-lipped batfish] ⟦326⟧⟨218⟩⟦67⟧⟨219⟩⟦133⟧⟨220⟩⟦67⟧⟨221⟩⟦22⟧⟨222⟩⟦118⟧⟨223⟩⟦361⟧⟨224⟩⟦194⟧⟨225⟩⟦304⟧⟨226⟩⟦227⟧⟨227⟩⟦101⟧⟨228⟩⟦101⟧⟨229⟩
+[Red-lipped batfish] ⟦244⟧⟨230⟩⟦67⟧⟨231⟩⟦247⟧⟨232⟩⟦67⟧⟨233⟩⟦13⟧⟨234⟩⟦234⟧⟨235⟩⟦91⟧⟨236⟩⟦320⟧⟨237⟩⟦90⟧⟨238⟩⟦97⟧⟨239⟩
+[Red-lipped batfish] ⟦349⟧⟨240⟩⟦118⟧⟨241⟩⟦159⟧⟨242⟩⟦173⟧⟨243⟩
+[Red-lipped batfish] ⟦67⟧⟨244⟩⟦138⟧⟨245⟩⟦280⟧⟨246⟩⟦344⟧⟨247⟩⟦117⟧⟨248⟩⟦319⟧⟨249⟩⟦205⟧⟨250⟩⟦120⟧⟨251⟩
+[Red-lipped batfish] ⟨252⟩⟦285⟧⟨253⟩⟦67⟧⟨254⟩⟦184⟧⟨255⟩⟦184⟧⟨256⟩⟦160⟧⟨257⟩⟦105⟧⟨258⟩⟦114⟧⟨259⟩⟦34⟧⟨260⟩⟦265⟧⟨261⟩⟦237⟧⟨262⟩⟦29⟧⟨263⟩⟦178⟧⟨264⟩⟦235⟧⟨265⟩⟦235⟧⟨266⟩
+[Red-lipped batfish] ⟨267⟩⟦215⟧⟨268⟩⟦54⟧⟨269⟩⟦326⟧⟨270⟩⟦67⟧⟨271⟩⟦40⟧⟨272⟩⟦274⟧⟨273⟩⟦161⟧⟨274⟩⟦147⟧⟨275⟩⟦155⟧⟨276⟩⟦155⟧⟨277⟩
+[Red-lipped batfish] ⟦352⟧⟨278⟩⟦274⟧⟨279⟩⟦235⟧⟨280⟩⟦235⟧⟨281⟩
+[Commerson's dolphin] ⟦92⟧⟨282⟩⟦104⟧⟨283⟩⟦10⟧⟨284⟩⟦86⟧⟨285⟩⟦93⟧⟨286⟩⟦292⟧⟨287⟩⟦197⟧⟨288⟩⟦104⟧⟨289⟩⟦229⟧⟨290⟩⟦104⟧⟨291⟩⟦220⟧⟨292⟩⟦104⟧⟨293⟩⟦37⟧⟨294⟩⟦206⟧⟨295⟩⟦104⟧⟨296⟩⟦305⟧⟨297⟩⟦136⟧⟨298⟩⟦3⟧⟨299⟩
+[Commerson's dolphin] ⟦92⟧⟨300⟩⟦104⟧⟨301⟩⟦359⟧⟨302⟩⟦277⟧⟨303⟩
+[Commerson's dolphin] ⟦323⟧⟨304⟩⟦277⟧⟨305⟩⟦255⟧⟨306⟩⟦225⟧⟨307⟩⟦336⟧⟨308⟩⟦355⟧⟨309⟩⟦261⟧⟨310⟩
+[Commerson's dolphin] ⟦330⟧⟨311⟩⟦277⟧⟨312⟩⟦2⟧⟨313⟩⟦83⟧⟨314⟩⟦28⟧⟨315⟩⟦142⟧⟨316⟩⟦42⟧⟨317⟩⟦64⟧⟨318⟩⟦310⟧⟨319⟩⟦307⟧⟨320⟩
+[Prionomyrmex] ⟦236⟧⟨321⟩⟦53⟧⟨322⟩⟦136⟧⟨323⟩⟦80⟧⟨324⟩⟦81⟧⟨325⟩⟦55⟧⟨326⟩⟦333⟧⟨327⟩⟦301⟧⟨328⟩⟦111⟧⟨329⟩
+[Prionomyrmex] ⟨330⟩⟦145⟧⟨331⟩⟦27⟧⟨332⟩⟦152⟧⟨333⟩⟦378⟧⟨334⟩⟦8⟧⟨335⟩⟦176⟧⟨336⟩⟦63⟧⟨337⟩⟦50⟧⟨338⟩
+[Prionomyrmex] ⟦354⟧⟨339⟩⟦263⟧⟨340⟩⟦345⟧⟨341⟩⟦181⟧⟨342⟩⟦71⟧⟨343⟩⟦168⟧⟨344⟩⟦257⟧⟨345⟩
+[Prionomyrmex] ⟦346⟧⟨346⟩⟦55⟧⟨347⟩⟦298⟧⟨348⟩⟦170⟧⟨349⟩⟦129⟧⟨350⟩⟦130⟧⟨351⟩⟦264⟧⟨352⟩⟦109⟧⟨353⟩
+[Prionomyrmex] ⟨354⟩⟦346⟧⟨355⟩⟦55⟧⟨356⟩⟦164⟧⟨357⟩⟦164⟧⟨358⟩⟦213⟧⟨359⟩⟦263⟧⟨360⟩⟦52⟧⟨361⟩⟦263⟧⟨362⟩
+[Prionomyrmex] ⟦346⟧⟨363⟩⟦55⟧⟨364⟩⟦32⟧⟨365⟩⟦272⟧⟨366⟩⟦235⟧⟨367⟩⟦235⟧⟨368⟩
+[Prionomyrmex] ⟨369⟩⟦87⟧⟨370⟩⟦313⟧⟨371⟩⟦263⟧⟨372⟩⟦7⟧⟨373⟩⟦179⟧⟨374⟩⟦38⟧⟨375⟩⟦263⟧⟨376⟩⟦9⟧⟨377⟩⟦351⟧⟨378⟩⟦238⟧⟨379⟩⟦297⟧⟨380⟩⟦94⟧⟨381⟩
+[Prionomyrmex] ⟨382⟩⟦249⟧⟨383⟩⟦249⟧⟨384⟩⟦337⟧⟨385⟩⟦134⟧⟨386⟩⟦201⟧⟨387⟩⟦41⟧⟨388⟩⟦136⟧⟨389⟩
+[Finless porpoise] ⟦309⟧⟨390⟩⟦115⟧⟨391⟩⟦233⟧⟨392⟩⟦12⟧⟨393⟩⟦228⟧⟨394⟩⟦115⟧⟨395⟩⟦116⟧⟨396⟩⟦233⟧⟨397⟩⟦252⟧⟨398⟩⟦233⟧⟨399⟩⟦263⟧⟨400⟩
+[Finless porpoise] ⟨401⟩⟦321⟧⟨402⟩⟦231⟧⟨403⟩⟦311⟧⟨404⟩⟦226⟧⟨405⟩⟦343⟧⟨406⟩⟦23⟧⟨407⟩⟦131⟧⟨408⟩⟦231⟧⟨409⟩⟦163⟧⟨410⟩⟦254⟧⟨411⟩⟦318⟧⟨412⟩⟦196⟧⟨413⟩⟦89⟧⟨414⟩
+[Finless porpoise] ⟦135⟧⟨415⟩⟦275⟧⟨416⟩⟦302⟧⟨417⟩⟦115⟧⟨418⟩⟦233⟧⟨419⟩⟦317⟧⟨420⟩⟦66⟧⟨421⟩⟦175⟧⟨422⟩⟦186⟧⟨423⟩⟦322⟧⟨424⟩⟦233⟧⟨425⟩⟦111⟧⟨426⟩
+[Cornus drummondii] ⟦96⟧⟨427⟩⟦106⟧⟨428⟩⟦328⟧⟨429⟩⟦248⟧⟨430⟩⟦102⟧⟨431⟩⟦36⟧⟨432⟩⟦357⟧⟨433⟩⟦306⟧⟨434⟩⟦246⟧⟨435⟩⟦338⟧⟨436⟩
+[Cornus drummondii] ⟨437⟩⟦316⟧⟨438⟩
+[Cornus drummondii] ⟨439⟩⟦340⟧⟨440⟩⟦371⟧⟨441⟩⟦125⟧⟨442⟩⟦126⟧⟨443⟩⟦73⟧⟨444⟩
+[Cornus drummondii] ⟦328⟧⟨445⟩⟦248⟧⟨446⟩⟦102⟧⟨447⟩⟦19⟧⟨448⟩⟦79⟧⟨449⟩⟦273⟧⟨450⟩⟦221⟧⟨451⟩⟦222⟧⟨452⟩⟦177⟧⟨453⟩⟦314⟧⟨454⟩⟦185⟧⟨455⟩⟦151⟧⟨456⟩⟦151⟧⟨457⟩⟦295⟧⟨458⟩⟦99⟧⟨459⟩⟦224⟧⟨460⟩⟦224⟧⟨461⟩⟦154⟧⟨462⟩⟦154⟧⟨463⟩
+[Cornus drummondii] ⟨464⟩⟦26⟧⟨465⟩⟦150⟧⟨466⟩⟦15⟧⟨467⟩⟦112⟧⟨468⟩⟦17⟧⟨469⟩⟦39⟧⟨470⟩⟦266⟧⟨471⟩⟦14⟧⟨472⟩⟦112⟧⟨473⟩⟦16⟧⟨474⟩
+[Cornus drummondii] ⟦329⟧⟨475⟩⟦102⟧⟨476⟩⟦121⟧⟨477⟩⟦334⟧⟨478⟩⟦278⟧⟨479⟩⟦191⟧⟨480⟩
+[Cornus drummondii] ⟨481⟩⟦210⟧⟨482⟩⟦121⟧⟨483⟩⟦259⟧⟨484⟩⟦132⟧⟨485⟩⟦58⟧⟨486⟩⟦209⟧⟨487⟩
+[Cornus drummondii] ⟦347⟧⟨488⟩⟦103⟧⟨489⟩⟦21⟧⟨490⟩⟦348⟧⟨491⟩⟦25⟧⟨492⟩⟦149⟧⟨493⟩⟦72⟧⟨494⟩⟦72⟧⟨495⟩⟦373⟧⟨496⟩⟦373⟧⟨497⟩
+[Cornus drummondii] ⟦57⟧⟨498⟩⟦263⟧⟨499⟩⟦69⟧⟨500⟩⟦69⟧⟨501⟩⟦303⟧⟨502⟩⟦132⟧⟨503⟩⟦328⟧⟨504⟩⟦102⟧⟨505⟩
+[Brackendale, British Columbia] ⟦74⟧⟨506⟩⟦35⟧⟨507⟩⟦94⟧⟨508⟩⟦288⟧⟨509⟩⟦239⟧⟨510⟩⟦78⟧⟨511⟩⟦270⟧⟨512⟩⟦356⟧⟨513⟩⟦85⟧⟨514⟩⟦296⟧⟨515⟩⟦269⟧⟨516⟩
+[Brackendale, British Columbia] ⟨517⟩⟦293⟧⟨518⟩⟦95⟧⟨519⟩⟦332⟧⟨520⟩⟦289⟧⟨521⟩
+[Brackendale, British Columbia] ⟨522⟩⟦139⟧⟨523⟩⟦100⟧⟨524⟩
+[Brackendale, British Columbia] ⟦290⟧⟨525⟩⟦240⟧⟨526⟩⟦127⟧⟨527⟩⟦260⟧⟨528⟩
+[Brackendale, British Columbia] ⟨529⟩⟦327⟧⟨530⟩⟦56⟧⟨531⟩⟦341⟧⟨532⟩⟦153⟧⟨533⟩⟦353⟧⟨534⟩⟦353⟧⟨535⟩⟦62⟧⟨536⟩⟦108⟧⟨537⟩
+
+[user]
+
+问题：
+What bird of prey can be found around Brackendale?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

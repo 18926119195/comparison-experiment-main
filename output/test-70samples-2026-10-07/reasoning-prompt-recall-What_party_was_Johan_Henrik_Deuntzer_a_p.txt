@@ -1,0 +1,114 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Cabinet of Deuntzer] ⟦159⟧⟦60⟧⟨120⟩⟨121⟩⟦169⟧⟨122⟩⟦211⟧⟨123⟩⟨124⟩⟨125⟩⟦51⟧⟨126⟩⟨127⟩
+[Cabinet of Deuntzer] ⟦198⟧⟨128⟩⟨129⟩⟨130⟩⟦146⟧⟨131⟩⟨132⟩⟨133⟩⟦168⟧⟨134⟩⟦9⟧⟨135⟩⟨136⟩⟨137⟩
+[Cabinet of Deuntzer] ⟦32⟧ | ⟦175⟧⟦74⟧⟨138⟩⟨139⟩⟦186⟧⟦32⟧⟨140⟩⟨141⟩⟦48⟧⟨142⟩⟦155⟧⟦155⟧⟨143⟩⟨144⟩⟦203⟧⟦147⟧⟨145⟩⟨146⟩⟦77⟧⟦77⟧⟨147⟩⟨148⟩ | ⟦77⟧
+[Johan Henrik Deuntzer] ⟦93⟧⟨149⟩⟦101⟧⟨150⟩⟦110⟧⟨151⟩⟦12⟧⟦124⟧⟨152⟩⟨153⟩⟨154⟩⟨155⟩⟦185⟧⟨156⟩⟨157⟩⟨158⟩
+[Johan Henrik Deuntzer] ⟦165⟧⟦165⟧⟦55⟧ | ⟦184⟧⟦95⟧
+[Committee for a Radical Left Rally] ⟦119⟧
+[Danish Social Liberal Party] ⟦171⟧
+[Danish Social Liberal Party] ⟦104⟧⟦104⟧ | ⟦104⟧⟦104⟧
+[ROZA] ⟦117⟧
+
+符号表：
+⟦9⟧ = 24 July
+⟦12⟧ = a Danish politician
+⟦32⟧ = cabinet
+⟦48⟧ = Danish
+⟦51⟧ = Denmark's first liberal government
+⟦55⟧ = Deuntzer
+⟦60⟧ = election
+⟦74⟧ = formation
+⟦77⟧ = government
+⟦93⟧ = Johan Henrik Deuntzer
+⟦95⟧ = leader
+⟦101⟧ = May
+⟦104⟧ = member
+⟦110⟧ = November
+⟦117⟧ = party
+⟦119⟧ = people
+⟦124⟧ = politician
+⟦146⟧ = Sehested
+⟦147⟧ = shift
+⟦155⟧ = systemskiftet
+⟦159⟧ = the 1901 Danish Folketing election
+⟦165⟧ = the Cabinet
+⟦168⟧ = the conservative party Højre
+⟦169⟧ = the Council President Johan Henrik Deuntzer
+⟦171⟧ = the Danish Social Liberal Party
+⟦175⟧ = The formation
+⟦184⟧ = the leader
+⟦185⟧ = the Liberal "Venstre" party
+⟦186⟧ = the new cabinet
+⟦198⟧ = The resulting cabinet
+⟦203⟧ = the shift
+⟦211⟧ = the Venstre Reform Party
+
+占位符映射：
+⟨120⟩ = 
+⟨121⟩ = , 
+⟨122⟩ =  of 
+⟨123⟩ =  became 
+⟨124⟩ = 
+⟨125⟩ =  of 
+⟨126⟩ = 
+⟨127⟩ = .
+⟨128⟩ = 
+⟨129⟩ = , which replaced 
+⟨130⟩ =  of 
+⟨131⟩ =  consisting of 
+⟨132⟩ = 
+⟨133⟩ =  of 
+⟨134⟩ = , was formed on 
+⟨135⟩ =  1901 and was called 
+⟨136⟩ =  of 
+⟨137⟩ = .
+⟨138⟩ = 
+⟨139⟩ =  of 
+⟨140⟩ = 
+⟨141⟩ =  is referred to in 
+⟨142⟩ =  as "
+⟨143⟩ = 
+⟨144⟩ = ", 
+⟨145⟩ = 
+⟨146⟩ =  of 
+⟨147⟩ = 
+⟨148⟩ = .
+⟨149⟩ =  (20 
+⟨150⟩ =  1845 – 16 
+⟨151⟩ =  1918) was 
+⟨152⟩ = 
+⟨153⟩ = , 
+⟨154⟩ = 
+⟨155⟩ =  of 
+⟨156⟩ = 
+⟨157⟩ =  until 1905 where he joined 
+⟨158⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What party was Johan Henrik Deuntzer a part of before the party that translates to the "Radical Left?"

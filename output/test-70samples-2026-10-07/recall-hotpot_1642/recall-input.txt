@@ -1,0 +1,322 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Afro Samurai
+⟦2⟧ = "Arrow
+⟦3⟧ = "Baldur's Gate
+⟦4⟧ = "Fearless
+⟦5⟧ = "Hell Hath No Fury
+⟦6⟧ = "Inglourious Basterds
+⟦7⟧ = "Knock Knock
+⟦8⟧ = "Love
+⟦9⟧ = "Overheard
+⟦10⟧ = "Splatterhouse
+⟦11⟧ = "The Man
+⟦12⟧ = 19th century China
+⟦13⟧ = a 2012 American martial arts film
+⟦14⟧ = a BFCA Critic's Choice Award
+⟦15⟧ = a British actor
+⟦16⟧ = a Chinese American actor
+⟦17⟧ = a common foe
+⟦18⟧ = a director
+⟦19⟧ = a group
+⟦20⟧ = a list
+⟦21⟧ = a remake
+⟦22⟧ = a series
+⟦23⟧ = A song
+⟦24⟧ = a Super Bowl commercial
+⟦25⟧ = A Tale
+⟦26⟧ = a wide variety
+⟦27⟧ = Aaron Kwok
+⟦28⟧ = action
+⟦29⟧ = Action Cinema
+⟦30⟧ = actor
+⟦31⟧ = actress
+⟦32⟧ = Alan Mak
+⟦33⟧ = album
+⟦34⟧ = albums
+⟦35⟧ = All albums
+⟦36⟧ = an actor
+⟦37⟧ = an American composer
+⟦38⟧ = an American film director
+⟦39⟧ = an American record label
+⟦40⟧ = an Australian actress
+⟦41⟧ = an authority
+⟦42⟧ = An instrumental
+⟦43⟧ = Andrew Lin
+⟦44⟧ = Andy Lau
+⟦45⟧ = April
+⟦46⟧ = artist
+⟦47⟧ = artists
+⟦48⟧ = arts
+⟦49⟧ = Asian Cinema
+⟦50⟧ = authority
+⟦51⟧ = award
+⟦52⟧ = band
+⟦53⟧ = Basterds
+⟦54⟧ = Best Acting Ensemble
+⟦55⟧ = Best Ensemble
+⟦56⟧ = Beyoncé Knowles
+⟦57⟧ = Bob Perry
+⟦58⟧ = Bunny
+⟦59⟧ = Byron Mann
+⟦60⟧ = camera
+⟦61⟧ = Cantonese descent
+⟦62⟧ = casting director
+⟦63⟧ = century
+⟦64⟧ = co
+⟦65⟧ = collaborator
+⟦66⟧ = comedy
+⟦67⟧ = commercial
+⟦68⟧ = composer
+⟦69⟧ = contributions
+⟦70⟧ = Cung Le
+⟦71⟧ = Daniel Wu
+⟦72⟧ = Death Wish
+⟦73⟧ = descent
+⟦74⟧ = director
+⟦75⟧ = Donny "The Bear Jew" Donowitz
+⟦76⟧ = DVD and Blu-ray
+⟦77⟧ = effort
+⟦78⟧ = Eli Raphael Roth
+⟦79⟧ = Eli Roth
+⟦80⟧ = Felix Chong
+⟦81⟧ = film
+⟦82⟧ = film and video games
+⟦83⟧ = filmmakers
+⟦84⟧ = films
+⟦85⟧ = first release
+⟦86⟧ = foe
+⟦87⟧ = following
+⟦88⟧ = Frank Iero
+⟦89⟧ = front
+⟦90⟧ = Fury
+⟦91⟧ = game
+⟦92⟧ = games
+⟦93⟧ = genre
+⟦94⟧ = Gerard Way
+⟦95⟧ = Ghostface Killah
+⟦96⟧ = God
+⟦97⟧ = Grace Huang
+⟦98⟧ = group
+⟦99⟧ = Hell
+⟦100⟧ = her role
+⟦101⟧ = Herbie Hancock
+⟦102⟧ = hip
+⟦103⟧ = hip hop music recording artist RZA
+⟦104⟧ = his contributions
+⟦105⟧ = his most prominent role
+⟦106⟧ = His most recent directorial effort
+⟦107⟧ = His next project
+⟦108⟧ = his performances
+⟦109⟧ = his work
+⟦110⟧ = Hollywood
+⟦111⟧ = home
+⟦112⟧ = Hong Kong
+⟦113⟧ = hop
+⟦114⟧ = horror
+⟦115⟧ = Howard Drossin
+⟦116⟧ = Huang
+⟦117⟧ = instrumental
+⟦118⟧ = Intelligence
+⟦119⟧ = International Cult
+⟦120⟧ = its 2007 sequel
+⟦121⟧ = James Dewees
+⟦122⟧ = Jamie Chung
+⟦123⟧ = jazz
+⟦124⟧ = Jenny
+⟦125⟧ = John Jarrell
+⟦126⟧ = Journalists
+⟦127⟧ = Jungle Village
+⟦128⟧ = Khiri Steven Lowenstein
+⟦129⟧ = label
+⟦130⟧ = labels
+⟦131⟧ = Leeder
+⟦132⟧ = list
+⟦133⟧ = lone warriors
+⟦134⟧ = longtime collaborator RZA
+⟦135⟧ = Love
+⟦136⟧ = Lucy Liu
+⟦137⟧ = Mainland China
+⟦138⟧ = Man
+⟦139⟧ = May
+⟦140⟧ = Mei Chen
+⟦141⟧ = members
+⟦142⟧ = Michael William "Mike" Leeder
+⟦143⟧ = Michael Wong
+⟦144⟧ = Mikey Way
+⟦145⟧ = movie
+⟦146⟧ = Mr. Chau
+⟦147⟧ = music
+⟦148⟧ = musical projects
+⟦149⟧ = My Chemical Romance
+⟦150⟧ = Ocean Hou
+⟦151⟧ = October
+⟦152⟧ = orchestration
+⟦153⟧ = original
+⟦154⟧ = Overheard
+⟦155⟧ = Paul Oakenfold
+⟦156⟧ = performances
+⟦157⟧ = pilot
+⟦158⟧ = Pim Bubear
+⟦159⟧ = producer
+⟦160⟧ = project
+⟦161⟧ = projects
+⟦162⟧ = prominence
+⟦163⟧ = punk
+⟦164⟧ = Quentin Tarantino's war film
+⟦165⟧ = ray
+⟦166⟧ = Ray Toro
+⟦167⟧ = record
+⟦168⟧ = recorded songs
+⟦169⟧ = recording
+⟦170⟧ = release
+⟦171⟧ = remake
+⟦172⟧ = rock
+⟦173⟧ = Rod Stewart
+⟦174⟧ = Roel Reiné
+⟦175⟧ = role
+⟦176⟧ = romance
+⟦177⟧ = Roth
+⟦178⟧ = Russell Crowe
+⟦179⟧ = Ryu
+⟦180⟧ = RZA
+⟦181⟧ = Sahajak Boonthanakit
+⟦182⟧ = Sean Lau
+⟦183⟧ = season
+⟦184⟧ = sequel
+⟦185⟧ = series
+⟦186⟧ = several award-winning video game titles
+⟦187⟧ = Short
+⟦188⟧ = Silver Lion
+⟦189⟧ = song
+⟦190⟧ = songs
+⟦191⟧ = Soul Temple Entertainment
+⟦192⟧ = Soul Temple Records
+⟦193⟧ = soundtrack
+⟦194⟧ = Space
+⟦195⟧ = stars
+⟦196⟧ = story
+⟦197⟧ = Street Fighter
+⟦198⟧ = studio
+⟦199⟧ = studio albums
+⟦200⟧ = such projects
+⟦201⟧ = Tai Chi
+⟦202⟧ = Terence Blanchard
+⟦203⟧ = that album's soundtrack
+⟦204⟧ = the 1974 original
+⟦205⟧ = the 2005 film "Hostel
+⟦206⟧ = the 2012 American film
+⟦207⟧ = the 2012 film
+⟦208⟧ = the 2013 CBS TV series
+⟦209⟧ = the 2015 erotic horror film
+⟦210⟧ = the American alternative rock/punk band
+⟦211⟧ = The Big Short
+⟦212⟧ = The Black Keys
+⟦213⟧ = the camera
+⟦214⟧ = The film
+⟦215⟧ = The film stars RZA
+⟦216⟧ = the first season
+⟦217⟧ = The following
+⟦218⟧ = the Gemini Female
+⟦219⟧ = the Grammy-winning jazz record
+⟦220⟧ = the Hong Kong Action film
+⟦221⟧ = the Hong Kong action film "Cold War
+⟦222⟧ = the Hong Kong comedy-romance film
+⟦223⟧ = the horror genre
+⟦224⟧ = the Iron Fists
+⟦225⟧ = The label
+⟦226⟧ = The labels
+⟦227⟧ = The Man
+⟦228⟧ = the movie
+⟦229⟧ = the pilot
+⟦230⟧ = the release
+⟦231⟧ = the RZA
+⟦232⟧ = the RZA directed martial arts film
+⟦233⟧ = the sequel
+⟦234⟧ = the soundtrack
+⟦235⟧ = the Splat Pack
+⟦236⟧ = the Stanley Film Festival
+⟦237⟧ = the story
+⟦238⟧ = the track
+⟦239⟧ = the UK
+⟦240⟧ = the vigilante action film
+⟦241⟧ = the Visionary Award
+⟦242⟧ = their explicitly violent and bloody horror films
+⟦243⟧ = their home
+⟦244⟧ = titles
+⟦245⟧ = Tony Leung Ka Fai
+⟦246⟧ = track
+⟦247⟧ = Universal Pictures
+⟦248⟧ = variety
+⟦249⟧ = video
+⟦250⟧ = war
+⟦251⟧ = warriors
+⟦252⟧ = Wheels
+⟦253⟧ = Will
+⟦254⟧ = Wiz Khalifa
+⟦255⟧ = work
+⟦256⟧ = writer
+⟦257⟧ = Wu-Tang Clan members
+⟦258⟧ = Yao Fei
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Man with the Iron Fists 2] ⟦227⟧⟨1⟩⟦224⟧⟨2⟩⟦249⟧⟨3⟩⟦249⟧⟨4⟩⟦48⟧⟨5⟩⟦28⟧⟨6⟩⟦81⟧⟨7⟩⟦174⟧⟨8⟩⟦180⟧⟨9⟩⟦125⟧⟨10⟩
+[The Man with the Iron Fists 2] ⟨11⟩⟦233⟧⟨12⟩⟦184⟧⟨13⟩⟦207⟧⟨14⟩⟦81⟧⟨15⟩⟦227⟧⟨16⟩⟦224⟧⟨17⟩
+[The Man with the Iron Fists 2] ⟦215⟧⟨18⟩⟦81⟧⟨19⟩⟦195⟧⟨20⟩⟦180⟧⟨21⟩⟦181⟧⟨22⟩⟦158⟧⟨23⟩⟦150⟧⟨24⟩⟦97⟧⟨25⟩⟦43⟧⟨26⟩⟦128⟧⟨27⟩
+[The Man with the Iron Fists 2] ⟦214⟧⟨28⟩⟦81⟧⟨29⟩⟦76⟧⟨30⟩⟦165⟧⟨31⟩⟦45⟧⟨32⟩
+[Mike Leeder] ⟦142⟧⟨33⟩⟦15⟧⟨34⟩⟦30⟧⟨35⟩⟦62⟧⟨36⟩⟦74⟧⟨37⟩⟦159⟧⟨38⟩⟦159⟧⟨39⟩⟦256⟧⟨40⟩⟦256⟧⟨41⟩⟦239⟧⟨42⟩⟦112⟧⟨43⟩
+[Mike Leeder] ⟦131⟧⟨44⟩⟦41⟧⟨45⟩⟦50⟧⟨46⟩⟦49⟧⟨47⟩⟦119⟧⟨48⟩⟦29⟧⟨49⟩⟦109⟧⟨50⟩⟦255⟧⟨51⟩⟦89⟧⟨52⟩⟦89⟧⟨53⟩⟦213⟧⟨54⟩⟦60⟧⟨55⟩⟦109⟧⟨56⟩⟦255⟧⟨57⟩⟦200⟧⟨58⟩⟦161⟧⟨59⟩⟦4⟧⟨60⟩⟦227⟧⟨61⟩⟦224⟧⟨62⟩⟦138⟧⟨63⟩⟦201⟧⟨64⟩
+[Howard Drossin] ⟦115⟧⟨65⟩⟦37⟧⟨66⟩⟦68⟧⟨67⟩⟦81⟧⟨68⟩⟦82⟧⟨69⟩⟦249⟧⟨70⟩⟦92⟧⟨71⟩
+[Howard Drossin] ⟦109⟧⟨72⟩⟦255⟧⟨73⟩⟦64⟧⟨74⟩⟦64⟧⟨75⟩⟦134⟧⟨76⟩⟦65⟧⟨77⟩⟦180⟧⟨78⟩⟦227⟧⟨79⟩⟦224⟧⟨80⟩⟦247⟧⟨81⟩⟦178⟧⟨82⟩⟦136⟧⟨83⟩⟦186⟧⟨84⟩⟦51⟧⟨85⟩⟦249⟧⟨86⟩⟦91⟧⟨87⟩⟦244⟧⟨88⟩⟦1⟧⟨89⟩⟦10⟧⟨90⟩⟦3⟧⟨91⟩⟦24⟧⟨92⟩⟦67⟧⟨93⟩⟦152⟧⟨94⟩⟦152⟧⟨95⟩⟦219⟧⟨96⟩⟦123⟧⟨97⟩⟦167⟧⟨98⟩⟦25⟧⟨99⟩⟦96⟧⟨100⟩⟦253⟧⟨101⟩⟦253⟧⟨102⟩
+[Howard Drossin] ⟨103⟩⟦34⟧⟨104⟩⟦34⟧⟨105⟩⟦148⟧⟨106⟩⟦161⟧⟨107⟩⟦26⟧⟨108⟩⟦248⟧⟨109⟩⟦47⟧⟨110⟩⟦47⟧⟨111⟩⟦101⟧⟨112⟩⟦202⟧⟨113⟩⟦173⟧⟨114⟩⟦212⟧⟨115⟩⟦56⟧⟨116⟩⟦254⟧⟨117⟩⟦155⟧⟨118⟩
+[Soul Temple Records] ⟦192⟧⟨119⟩⟦39⟧⟨120⟩⟦167⟧⟨121⟩⟦129⟧⟨122⟩⟦102⟧⟨123⟩⟦103⟧⟨124⟩⟦113⟧⟨125⟩⟦147⟧⟨126⟩⟦169⟧⟨127⟩⟦46⟧⟨128⟩⟦57⟧⟨129⟩⟦230⟧⟨130⟩⟦170⟧⟨131⟩⟦231⟧⟨132⟩⟦11⟧⟨133⟩⟦224⟧⟨134⟩
+[Soul Temple Records] ⟦226⟧⟨135⟩⟦130⟧⟨136⟩⟦85⟧⟨137⟩⟦170⟧⟨138⟩⟦203⟧⟨139⟩⟦33⟧⟨140⟩⟦193⟧⟨141⟩
+[Soul Temple Records] ⟦225⟧⟨142⟩⟦129⟧⟨143⟩⟦198⟧⟨144⟩⟦199⟧⟨145⟩⟦34⟧⟨146⟩⟦257⟧⟨147⟩⟦141⟧⟨148⟩⟦95⟧⟨149⟩⟦96⟧⟨150⟩
+[Soul Temple Records] ⟦35⟧⟨151⟩⟦34⟧⟨152⟩⟦225⟧⟨153⟩⟦129⟧⟨154⟩⟦180⟧⟨155⟩
+[List of songs recorded by My Chemical Romance] ⟦217⟧⟨156⟩⟦87⟧⟨157⟩⟦20⟧⟨158⟩⟦132⟧⟨159⟩⟦168⟧⟨160⟩⟦190⟧⟨161⟩⟦210⟧⟨162⟩⟦172⟧⟨163⟩⟦163⟧⟨164⟩⟦52⟧⟨165⟩⟦149⟧⟨166⟩
+[List of songs recorded by My Chemical Romance] ⟦23⟧⟨167⟩⟦189⟧⟨168⟩⟦5⟧⟨169⟩⟦90⟧⟨170⟩⟦227⟧⟨171⟩⟦224⟧⟨172⟩
+[List of songs recorded by My Chemical Romance] ⟦42⟧⟨173⟩⟦117⟧⟨174⟩⟦238⟧⟨175⟩⟦246⟧⟨176⟩⟦94⟧⟨177⟩⟦144⟧⟨178⟩⟦88⟧⟨179⟩⟦166⟧⟨180⟩⟦121⟧⟨181⟩⟦228⟧⟨182⟩⟦145⟧⟨183⟩
+[Eli Roth] ⟦78⟧⟨184⟩⟦38⟧⟨185⟩⟦81⟧⟨186⟩⟦74⟧⟨187⟩⟦159⟧⟨188⟩⟦159⟧⟨189⟩⟦256⟧⟨190⟩⟦256⟧⟨191⟩⟦30⟧⟨192⟩⟦30⟧⟨193⟩
+[Eli Roth] ⟨194⟩⟦18⟧⟨195⟩⟦74⟧⟨196⟩⟦159⟧⟨197⟩⟦159⟧⟨198⟩⟦223⟧⟨199⟩⟦114⟧⟨200⟩⟦93⟧⟨201⟩⟦162⟧⟨202⟩⟦162⟧⟨203⟩⟦205⟧⟨204⟩⟦81⟧⟨205⟩⟦120⟧⟨206⟩⟦184⟧⟨207⟩
+[Eli Roth] ⟨208⟩⟦36⟧⟨209⟩⟦30⟧⟨210⟩⟦105⟧⟨211⟩⟦175⟧⟨212⟩⟦75⟧⟨213⟩⟦164⟧⟨214⟩⟦250⟧⟨215⟩⟦81⟧⟨216⟩⟦6⟧⟨217⟩⟦53⟧⟨218⟩⟦55⟧⟨219⟩⟦14⟧⟨220⟩⟦54⟧⟨221⟩
+[Eli Roth] ⟦126⟧⟨222⟩⟦126⟧⟨223⟩⟦19⟧⟨224⟩⟦98⟧⟨225⟩⟦83⟧⟨226⟩⟦83⟧⟨227⟩⟦235⟧⟨228⟩⟦242⟧⟨229⟩⟦114⟧⟨230⟩⟦84⟧⟨231⟩
+[Eli Roth] ⟨232⟩⟦177⟧⟨233⟩⟦241⟧⟨234⟩⟦104⟧⟨235⟩⟦69⟧⟨236⟩⟦114⟧⟨237⟩⟦114⟧⟨238⟩⟦236⟧⟨239⟩
+[Eli Roth] ⟦106⟧⟨240⟩⟦77⟧⟨241⟩⟦209⟧⟨242⟩⟦114⟧⟨243⟩⟦81⟧⟨244⟩⟦7⟧⟨245⟩
+[Eli Roth] ⟦107⟧⟨246⟩⟦160⟧⟨247⟩⟦240⟧⟨248⟩⟦28⟧⟨249⟩⟦81⟧⟨250⟩⟦72⟧⟨251⟩⟦21⟧⟨252⟩⟦171⟧⟨253⟩⟦204⟧⟨254⟩⟦153⟧⟨255⟩
+[The Man with the Iron Fists (soundtrack)] ⟦227⟧⟨256⟩⟦224⟧⟨257⟩⟦234⟧⟨258⟩⟦193⟧⟨259⟩⟦206⟧⟨260⟩⟦81⟧⟨261⟩⟦227⟧⟨262⟩⟦224⟧⟨263⟩⟦151⟧⟨264⟩⟦191⟧⟨265⟩
+[The Man with the Iron Fists (soundtrack)] ⟦234⟧⟨266⟩⟦193⟧⟨267⟩⟦180⟧⟨268⟩⟦214⟧⟨269⟩⟦81⟧⟨270⟩
+[Grace Huang] ⟦97⟧⟨271⟩⟦40⟧⟨272⟩⟦31⟧⟨273⟩⟦61⟧⟨274⟩⟦73⟧⟨275⟩⟦100⟧⟨276⟩⟦175⟧⟨277⟩⟦218⟧⟨278⟩⟦232⟧⟨279⟩⟦180⟧⟨280⟩⟦48⟧⟨281⟩⟦81⟧⟨282⟩⟦227⟧⟨283⟩⟦224⟧⟨284⟩
+[Grace Huang] ⟦116⟧⟨285⟩⟦140⟧⟨286⟩⟦229⟧⟨287⟩⟦157⟧⟨288⟩⟦208⟧⟨289⟩⟦185⟧⟨290⟩⟦118⟧⟨291⟩
+[Grace Huang] ⟦116⟧⟨292⟩⟦139⟧⟨293⟩⟦221⟧⟨294⟩⟦28⟧⟨295⟩⟦81⟧⟨296⟩⟦27⟧⟨297⟩⟦44⟧⟨298⟩⟦245⟧⟨299⟩
+[Grace Huang] ⟦116⟧⟨300⟩⟦58⟧⟨301⟩⟦222⟧⟨302⟩⟦66⟧⟨303⟩⟦176⟧⟨304⟩⟦81⟧⟨305⟩⟦8⟧⟨306⟩⟦135⟧⟨307⟩⟦194⟧⟨308⟩⟦124⟧⟨309⟩⟦220⟧⟨310⟩⟦81⟧⟨311⟩⟦9⟧⟨312⟩⟦154⟧⟨313⟩⟦71⟧⟨314⟩⟦143⟧⟨315⟩⟦182⟧⟨316⟩⟦80⟧⟨317⟩⟦32⟧⟨318⟩
+[Byron Mann] ⟦59⟧⟨319⟩⟦16⟧⟨320⟩⟦30⟧⟨321⟩⟦84⟧⟨322⟩⟦84⟧⟨323⟩⟦110⟧⟨324⟩⟦112⟧⟨325⟩⟦137⟧⟨326⟩
+[Byron Mann] ⟨327⟩⟦108⟧⟨328⟩⟦156⟧⟨329⟩⟦146⟧⟨330⟩⟦211⟧⟨331⟩⟦187⟧⟨332⟩⟦99⟧⟨333⟩⟦252⟧⟨334⟩⟦179⟧⟨335⟩⟦197⟧⟨336⟩⟦188⟧⟨337⟩⟦227⟧⟨338⟩⟦224⟧⟨339⟩⟦258⟧⟨340⟩⟦216⟧⟨341⟩⟦183⟧⟨342⟩⟦2⟧⟨343⟩
+[The Man with the Iron Fists] ⟦227⟧⟨344⟩⟦224⟧⟨345⟩⟦13⟧⟨346⟩⟦48⟧⟨347⟩⟦81⟧⟨348⟩⟦180⟧⟨349⟩⟦180⟧⟨350⟩⟦79⟧⟨351⟩
+[The Man with the Iron Fists] ⟦215⟧⟨352⟩⟦81⟧⟨353⟩⟦195⟧⟨354⟩⟦178⟧⟨355⟩⟦70⟧⟨356⟩⟦136⟧⟨357⟩⟦59⟧⟨358⟩⟦122⟧⟨359⟩
+[The Man with the Iron Fists] ⟨360⟩⟦12⟧⟨361⟩⟦63⟧⟨362⟩⟦237⟧⟨363⟩⟦196⟧⟨364⟩⟦22⟧⟨365⟩⟦185⟧⟨366⟩⟦133⟧⟨367⟩⟦251⟧⟨368⟩⟦17⟧⟨369⟩⟦86⟧⟨370⟩⟦243⟧⟨371⟩⟦111⟧⟨372⟩⟦127⟧⟨373⟩
+
+[user]
+
+问题：
+Which American film director and actor famous for his role as Donny "The Bear Jew" Donowitz wrote the 2012 film "The Man with the Iron Fists"?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

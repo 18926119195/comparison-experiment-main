@@ -1,0 +1,238 @@
+
+===== What Mexican actress of film, television, and theatre was a protagonist in La Heredera? =====
+{
+  "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "enableThinking": false,
+  "usage": {
+    "prompt_tokens": 5717,
+    "completion_tokens": 184,
+    "total_tokens": 5901,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304
+    },
+    "prompt_cache_hit_tokens": 2304,
+    "prompt_cache_miss_tokens": 3413
+  },
+  "promptLength": 8663,
+  "promptHead": "注意：你看到的拓扑链不是原文，而是符号化后的序列：\n- ⟦N⟧ 代表实体名词\n- ⟨A⟩、⟨B⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示\"这里存在某种关系\"\n\n符号表：\n⟦1⟧ = \"\"The Heiress\n⟦2⟧ = \"Alcanzar una estrella\n⟦3⟧ = \"Bienvenida Realidad\n⟦4⟧ = \"Capadocia\n⟦5⟧ = \"El Tio Alberto\n⟦6⟧ = \"La Fea Más Bella\n⟦7⟧ = \"La Niña\n⟦8⟧ = \"La Tucita\n⟦9⟧ = \"Rosalinda\n⟦10⟧ = (\"The Prettiest Ugly Girl\n⟦11⟧ = 19 February\n⟦12⟧ = 1925–1993\n⟦13⟧ = 1940s\n⟦14⟧ = 8 p.m.\n⟦15⟧ = a \"El Alma Herida\n⟦16⟧ = a big dream\n⟦17⟧ = a live theater actress\n⟦18⟧ = a Mexican actor\n⟦19⟧ = a Mexican actress\n⟦20⟧ = a Mexican telenovela\n⟦21⟧ = a pampered heiress\n⟦22⟧ = a pioneer\n⟦23⟧ = a plane crash\n⟦24⟧ = a relationship\n⟦25⟧ = a roughneck pilot\n⟦26⟧ = a singer\n⟦27⟧ = a team captain\n⟦28⟧ = a telenovela\n⟦29⟧ = a TVyNovelas Prize\n⟦30⟧ = a young woman\n⟦31⟧ = actor\n⟦32⟧ = actress\n⟦33⟧ = Adriana Fonseca\n⟦34⟧ = age\n⟦35⟧ = almost 30 years\n⟦36⟧ = American Heiress\n⟦37⟧ = an actress\n⟦38⟧ = an American telenovela\n⟦39⟧ = an Ariel Award\n⟦40⟧ = Angela Valdez\n⟦41⟧ = Angélica María\n⟦42⟧ = Angélica Vale\n⟦43⟧ = appearances\n⟦44⟧ = Argentina\n⟦45⟧ = August\n⟦46⟧ = award\n⟦47⟧ = Bajo las\n⟦48⟧ = Best Actress\n⟦49⟧ = born Angélica María Vale Hartman\n⟦50⟧ = captain\n⟦51⟧ = career\n⟦52⟧ = Caridad \"Chachi\" Montenegro\n⟦53⟧ = Carlos",
+  "promptTail": "⟦155⟧⟨ſ⟩⟦152⟧⟨ƀ⟩⟦105⟧⟨Ɓ⟩\n[Marlene Favela] ⟦117⟧⟨Ƃ⟩⟦171⟧⟨ƃ⟩⟦45⟧⟨Ƅ⟩⟦163⟧⟨ƅ⟩⟦72⟧⟨Ɔ⟩⟦127⟧⟨Ƈ⟩⟦19⟧⟨ƈ⟩⟦32⟧⟨Ɖ⟩\n[Marlene Favela] ⟨Ɗ⟩⟦126⟧⟨Ƌ⟩⟦185⟧⟨ƌ⟩⟦77⟧⟨ƍ⟩⟦212⟧⟨Ǝ⟩⟦222⟧⟨Ə⟩⟦169⟧⟨Ɛ⟩⟦239⟧⟨Ƒ⟩⟦101⟧⟨ƒ⟩⟦235⟧⟨Ɠ⟩\n\n任务：从拓扑链中选取多个你认为回答问题所需的截断片段。\n\n约束：\n- 必须先把整个拓扑链从头到尾完整看完，再决定截断片段\n- 每个截断必须是拓扑链中连续的符号序列\n- 多个截断必须按拓扑链中的原始顺序排列（不允许交叉）\n- 不能编造不存在的符号\n- 不能重排符号顺序\n- 段长建议：每个段至少 3 个名词 + 2 个占位符（左右各留 1 个占位符给出上下文）\n\n输出格式：\n输出多个拓扑链截断片段，用 | 分隔。\n短段示例：⟦1⟧⟨A⟩⟦2⟧ | ⟦3⟧⟨B⟩⟦5⟧\n长段示例：⟦2⟧⟨B⟩⟦3⟧⟨C⟩⟦4⟧⟨D⟩⟦5⟧⟨E⟩⟦6⟧ | ⟦8⟧⟨F⟩⟦10⟧\n\n现在只输出符号序列（多个片段用 | 分隔）：\n\n[user]\n\n问题：\nWhat Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+  "rawResponse": "⟦102⟧⟨ĝ⟩⟦193⟧⟨Ğ⟩⟦20⟧⟨ğ⟩⟦222⟧⟨Ġ⟩⟦223⟧ | ⟦204⟧⟨ĩ⟩⟦167⟧⟨Ī⟩⟦38⟧⟨ī⟩⟦210⟧⟨Ĭ⟩⟦219⟧⟨ĭ⟩⟦36⟧ | ⟦22⟧⟨ń⟩⟦145⟧⟨Ņ⟩⟦125⟧⟨ņ⟩⟦151⟧⟨Ň⟩⟦185⟧⟨ň⟩⟦185⟧⟨ŉ⟩⟦81⟧⟨Ŋ⟩⟦81⟧⟨ŋ⟩⟦110⟧ | ⟦86⟧⟨ĸ⟩⟦143⟧⟨Ĺ⟩⟦75",
+  "truncatedSegments": [
+    [
+      {
+        "type": "noun",
+        "symbol": "⟦102⟧",
+        "symbolIdx": 102
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ĝ⟩"
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦193⟧",
+        "symbolIdx": 193
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨Ğ⟩"
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦20⟧",
+        "symbolIdx": 20
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ğ⟩"
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨Ġ⟩"
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦223⟧",
+        "symbolIdx": 223
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦222⟧",
+        "symbolIdx": 222
+      }
+    ],
+    [
+      {
+        "type": "noun",
+        "symbol": "⟦204⟧",
+        "symbolIdx": 204
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦167⟧",
+        "symbolIdx": 167
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ĩ⟩"
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨Ī⟩"
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦38⟧",
+        "symbolIdx": 38
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ī⟩"
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦210⟧",
+        "symbolIdx": 210
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦219⟧",
+        "symbolIdx": 219
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨Ĭ⟩"
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ĭ⟩"
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦36⟧",
+        "symbolIdx": 36
+      }
+    ],
+    [
+      {
+        "type": "noun",
+        "symbol": "⟦22⟧",
+        "symbolIdx": 22
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦145⟧",
+        "symbolIdx": 145
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ń⟩"
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨Ņ⟩"
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦125⟧",
+        "symbolIdx": 125
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦151⟧",
+        "symbolIdx": 151
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ņ⟩"
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨Ň⟩"
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ň⟩"
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ŉ⟩"
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦81⟧",
+        "symbolIdx": 81
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦81⟧",
+        "symbolIdx": 81
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨Ŋ⟩"
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ŋ⟩"
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦110⟧",
+        "symbolIdx": 110
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦185⟧",
+        "symbolIdx": 185
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦185⟧",
+        "symbolIdx": 185
+      }
+    ],
+    [
+      {
+        "type": "noun",
+        "symbol": "⟦86⟧",
+        "symbolIdx": 86
+      },
+      {
+        "type": "noun",
+        "symbol": "⟦143⟧",
+        "symbolIdx": 143
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨ĸ⟩"
+      },
+      {
+        "type": "relation",
+        "placeholder": "⟨Ĺ⟩"
+      }
+    ]
+  ],
+  "usedRelIds": [
+    "rel_220",
+    "rel_221",
+    "rel_222",
+    "rel_223",
+    "rel_232",
+    "rel_233",
+    "rel_234",
+    "rel_235",
+    "rel_236",
+    "rel_259",
+    "rel_260",
+    "rel_261",
+    "rel_262",
+    "rel_263",
+    "rel_264",
+    "rel_265",
+    "rel_266",
+    "rel_247",
+    "rel_248"
+  ],
+  "valid": true
+}

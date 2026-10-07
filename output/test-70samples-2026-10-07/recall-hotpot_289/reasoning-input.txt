@@ -1,0 +1,62 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Hey Pa! There's a Goat on the Roof] ⟦17⟧⟨70⟩⟦323⟧⟨71⟩⟦9⟧⟦82⟧⟨73⟩⟨74⟩⟨72⟩⟨75⟩⟦206⟧⟨76⟩
+[Poleconomy] ⟨77⟩⟨78⟩⟦7⟧⟨80⟩⟨79⟩⟨81⟩⟦195⟧⟨82⟩
+[Poleconomy] ⟦218⟧⟦218⟧
+[Friendship Hall] ⟦65⟧ | ⟦65⟧
+[Vetigel] ⟦139⟧ | ⟦139⟧
+
+符号表：
+⟦7⟧ = a board game
+⟦9⟧ = a children's board game
+⟦17⟧ = a Goat
+⟦65⟧ = board
+⟦82⟧ = children
+⟦139⟧ = game
+⟦195⟧ = New Zealander Bruce E. Hatherley
+⟦206⟧ = Parker Brothers
+⟦218⟧ = Poleconomy
+⟦323⟧ = the Roof
+
+占位符映射：
+⟨70⟩ =  on 
+⟨71⟩ =  was 
+⟨72⟩ = 
+⟨73⟩ = 's 
+⟨74⟩ =  
+⟨75⟩ =  issued by 
+⟨76⟩ =  in 1966.
+⟨77⟩ = 
+⟨78⟩ =  is 
+⟨79⟩ = 
+⟨80⟩ =  
+⟨81⟩ =  invented by 
+⟨82⟩ =  and first published in 1980.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which came to market first, "Hey Pa! There's a Goat on the Roof" or "Poleconomy"

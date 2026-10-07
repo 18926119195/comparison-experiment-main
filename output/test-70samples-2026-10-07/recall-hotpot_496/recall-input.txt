@@ -1,0 +1,438 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 1.1 assists
+⟦2⟧ = 1.7%
+⟦3⟧ = 11.0 points
+⟦4⟧ = 169 games
+⟦5⟧ = 18 seasons
+⟦6⟧ = 19.1 points
+⟦7⟧ = 2.4 rebounds
+⟦8⟧ = 232 shots
+⟦9⟧ = 3.7 rebounds
+⟦10⟧ = 31st
+⟦11⟧ = 33 mi
+⟦12⟧ = 4.0 points
+⟦13⟧ = 485-135 record
+⟦14⟧ = 8 mi
+⟦15⟧ = 96th highest-income place
+⟦16⟧ = a 78-game winning streak
+⟦17⟧ = a charter township
+⟦18⟧ = a dismal 1984-85 season
+⟦19⟧ = a high standard
+⟦20⟧ = a medium-sized agricultural/commuter village
+⟦21⟧ = a part
+⟦22⟧ = a point guard
+⟦23⟧ = a population
+⟦24⟧ = a retired American professional basketball player
+⟦25⟧ = a standout career playing basketball
+⟦26⟧ = a three-year starter
+⟦27⟧ = a verbal commitment
+⟦28⟧ = a village
+⟦29⟧ = air
+⟦30⟧ = all high school and college coaching
+⟦31⟧ = America
+⟦32⟧ = an affluent area
+⟦33⟧ = an All-American Junior College
+⟦34⟧ = an American basketball and baseball coach
+⟦35⟧ = an American basketball coach
+⟦36⟧ = an American former basketball player
+⟦37⟧ = an American National Basketball Association (NBA) player
+⟦38⟧ = an assistant coach
+⟦39⟧ = an increase
+⟦40⟧ = an investment business
+⟦41⟧ = an overall record
+⟦42⟧ = Ann Arbor
+⟦43⟧ = Anthony Avent
+⟦44⟧ = approximately 8 mi
+⟦45⟧ = April
+⟦46⟧ = area
+⟦47⟧ = Arkansas
+⟦48⟧ = around 8 mi
+⟦49⟧ = Askew
+⟦50⟧ = Askew's teams
+⟦51⟧ = assists
+⟦52⟧ = authority
+⟦53⟧ = Avent
+⟦54⟧ = award
+⟦55⟧ = back
+⟦56⟧ = baseball
+⟦57⟧ = basketball
+⟦58⟧ = Beeston
+⟦59⟧ = Berkshire
+⟦60⟧ = Blackmon
+⟦61⟧ = Bob Horner
+⟦62⟧ = Bracknell
+⟦63⟧ = business
+⟦64⟧ = California
+⟦65⟧ = cancer
+⟦66⟧ = Canton
+⟦67⟧ = Canton Township
+⟦68⟧ = career
+⟦69⟧ = census
+⟦70⟧ = Central London
+⟦71⟧ = championship
+⟦72⟧ = championships
+⟦73⟧ = charter
+⟦74⟧ = Cheshire
+⟦75⟧ = Cheshire Plain
+⟦76⟧ = Cheshire West
+⟦77⟧ = Chester
+⟦78⟧ = Chicago
+⟦79⟧ = cities
+⟦80⟧ = city
+⟦81⟧ = civil parish
+⟦82⟧ = class
+⟦83⟧ = coach
+⟦84⟧ = coaching
+⟦85⟧ = college
+⟦86⟧ = college basketball
+⟦87⟧ = commitment
+⟦88⟧ = communities
+⟦89⟧ = community
+⟦90⟧ = commuter
+⟦91⟧ = counterpart
+⟦92⟧ = county
+⟦93⟧ = current assistant coach
+⟦94⟧ = Detroit
+⟦95⟧ = Drake University
+⟦96⟧ = Drew
+⟦97⟧ = Drew's first head coaching position
+⟦98⟧ = east
+⟦99⟧ = Eastern Oklahoma State College
+⟦100⟧ = England
+⟦101⟧ = enumeration
+⟦102⟧ = Essex County
+⟦103⟧ = eventually Oklahoma State University
+⟦104⟧ = extremity
+⟦105⟧ = Fairfax High School
+⟦106⟧ = Fanshawe Public School
+⟦107⟧ = father
+⟦108⟧ = February
+⟦109⟧ = financial problems
+⟦110⟧ = Finchampstead
+⟦111⟧ = Fisk University
+⟦112⟧ = former noted college and high school player
+⟦113⟧ = Friend
+⟦114⟧ = Frodsham
+⟦115⟧ = game
+⟦116⟧ = games
+⟦117⟧ = grade
+⟦118⟧ = guard
+⟦119⟧ = head
+⟦120⟧ = head coach
+⟦121⟧ = head varsity coach
+⟦122⟧ = Helsby
+⟦123⟧ = high school
+⟦124⟧ = high school basketball
+⟦125⟧ = hills
+⟦126⟧ = His father
+⟦127⟧ = his high school success
+⟦128⟧ = his hometown
+⟦129⟧ = his one season
+⟦130⟧ = his playing career
+⟦131⟧ = his senior season
+⟦132⟧ = his senior year
+⟦133⟧ = history
+⟦134⟧ = hometown
+⟦135⟧ = Horner
+⟦136⟧ = Horner's sister
+⟦137⟧ = Houston
+⟦138⟧ = Houston's Kashmere High School
+⟦139⟧ = hubs
+⟦140⟧ = Illinois
+⟦141⟧ = income
+⟦142⟧ = increase
+⟦143⟧ = Indiana
+⟦144⟧ = Indiana Mr. Basketball
+⟦145⟧ = investment
+⟦146⟧ = Iowa
+⟦147⟧ = Iowa Hawkeyes
+⟦148⟧ = its eastern counterpart
+⟦149⟧ = Its northern extremity
+⟦150⟧ = James Blackmon Sr
+⟦151⟧ = Jeff Horner
+⟦152⟧ = job
+⟦153⟧ = Kelsall
+⟦154⟧ = Kelsall Hill
+⟦155⟧ = Ken Hayes
+⟦156⟧ = Kentucky Wildcats
+⟦157⟧ = Kristin
+⟦158⟧ = Larry Haskell Friend
+⟦159⟧ = league
+⟦160⟧ = level
+⟦161⟧ = limits
+⟦162⟧ = line
+⟦163⟧ = living
+⟦164⟧ = Los Angeles
+⟦165⟧ = Los Angeles City College
+⟦166⟧ = Los Angeles Clippers
+⟦167⟧ = lower Manhattan
+⟦168⟧ = Malcolm X Shabazz High School
+⟦169⟧ = Marion
+⟦170⟧ = Marion High School
+⟦171⟧ = Marshall High School
+⟦172⟧ = Mason City
+⟦173⟧ = Mason City High School varsity basketball coach
+⟦174⟧ = men
+⟦175⟧ = mi
+⟦176⟧ = Michigan
+⟦177⟧ = Michigan's fastest growing communities
+⟦178⟧ = municipality
+⟦179⟧ = nation
+⟦180⟧ = national coach
+⟦181⟧ = New Jersey
+⟦182⟧ = New Mexico State
+⟦183⟧ = New Mexico State University
+⟦184⟧ = Newark
+⟦185⟧ = Newport
+⟦186⟧ = NMSU
+⟦187⟧ = north
+⟦188⟧ = North Carolina
+⟦189⟧ = North Dakota
+⟦190⟧ = north west
+⟦191⟧ = Northwich
+⟦192⟧ = November
+⟦193⟧ = Oklahoma
+⟦194⟧ = Oklahoma State
+⟦195⟧ = Oral Roberts University
+⟦196⟧ = Orlando Magic
+⟦197⟧ = other hills
+⟦198⟧ = Overall Askew
+⟦199⟧ = parish
+⟦200⟧ = part
+⟦201⟧ = Peckforton
+⟦202⟧ = person
+⟦203⟧ = pick
+⟦204⟧ = place
+⟦205⟧ = places
+⟦206⟧ = player
+⟦207⟧ = playing
+⟦208⟧ = point
+⟦209⟧ = points
+⟦210⟧ = population
+⟦211⟧ = position
+⟦212⟧ = Presley Askew
+⟦213⟧ = problems
+⟦214⟧ = professional basketball
+⟦215⟧ = prostate
+⟦216⟧ = prostate cancer
+⟦217⟧ = rail
+⟦218⟧ = rail hubs
+⟦219⟧ = Reading
+⟦220⟧ = rebounds
+⟦221⟧ = recognition
+⟦222⟧ = record
+⟦223⟧ = Red Oak
+⟦224⟧ = Red Oak High School
+⟦225⟧ = ridge
+⟦226⟧ = Rocky Mount
+⟦227⟧ = round
+⟦228⟧ = runner
+⟦229⟧ = runner-up
+⟦230⟧ = sandstone hills
+⟦231⟧ = school
+⟦232⟧ = season
+⟦233⟧ = seasons
+⟦234⟧ = seat
+⟦235⟧ = Seton Hall
+⟦236⟧ = Seton Hall University
+⟦237⟧ = shipping
+⟦238⟧ = shooting
+⟦239⟧ = shots
+⟦240⟧ = sister
+⟦241⟧ = six NBA seasons
+⟦242⟧ = south
+⟦243⟧ = standard
+⟦244⟧ = standout
+⟦245⟧ = starter
+⟦246⟧ = state
+⟦247⟧ = Steve Alford
+⟦248⟧ = streak
+⟦249⟧ = success
+⟦250⟧ = successor
+⟦251⟧ = Tarporley
+⟦252⟧ = team
+⟦253⟧ = teams
+⟦254⟧ = the 1957 NBA Draft
+⟦255⟧ = the 1989 NCAA championship game
+⟦256⟧ = the 1991 NBA Draft
+⟦257⟧ = the 2010 census
+⟦258⟧ = the 2010 enumeration
+⟦259⟧ = the 20th person
+⟦260⟧ = the 29th safest city
+⟦261⟧ = the Aggie basketball history
+⟦262⟧ = the American Basketball League
+⟦263⟧ = the AP All-American third team
+⟦264⟧ = the Atlanta Hawks
+⟦265⟧ = the award
+⟦266⟧ = the broken line
+⟦267⟧ = the Census Bureau's Population Estimates Program
+⟦268⟧ = the ceremonial county
+⟦269⟧ = the city
+⟦270⟧ = the city limits
+⟦271⟧ = the class 2A high school basketball championship
+⟦272⟧ = the college level
+⟦273⟧ = the fifth pick
+⟦274⟧ = the first round (15th pick
+⟦275⟧ = the head
+⟦276⟧ = the head coach
+⟦277⟧ = the head men's basketball coach
+⟦278⟧ = the head varsity basketball coach
+⟦279⟧ = the high school national championship
+⟦280⟧ = the Jets
+⟦281⟧ = the Knicks
+⟦282⟧ = the league
+⟦283⟧ = the Los Angeles Jets
+⟦284⟧ = the McDonald's All-American and Parade All-American teams
+⟦285⟧ = the Mid-Cheshire Ridge
+⟦286⟧ = the Milwaukee Bucks
+⟦287⟧ = the most desirable places
+⟦288⟧ = the most populous city
+⟦289⟧ = the nation
+⟦290⟧ = the nation's major air
+⟦291⟧ = the New York Knicks
+⟦292⟧ = the New York metropolitan area
+⟦293⟧ = the ninth grade
+⟦294⟧ = The NMSU job
+⟦295⟧ = the position
+⟦296⟧ = The ridge
+⟦297⟧ = the safest cities
+⟦298⟧ = the seat
+⟦299⟧ = the second largest city
+⟦300⟧ = the second round
+⟦301⟧ = the state
+⟦302⟧ = the state championship tournaments
+⟦303⟧ = the successor
+⟦304⟧ = the township
+⟦305⟧ = the U.S. state
+⟦306⟧ = the UK
+⟦307⟧ = the unitary authority
+⟦308⟧ = the United States
+⟦309⟧ = the University
+⟦310⟧ = the village
+⟦311⟧ = the west
+⟦312⟧ = the Wokingham Borough
+⟦313⟧ = the year
+⟦314⟧ = their first season
+⟦315⟧ = thirty-nine games
+⟦316⟧ = three point record
+⟦317⟧ = three-point shooting
+⟦318⟧ = titles
+⟦319⟧ = tournaments
+⟦320⟧ = township
+⟦321⟧ = traditionally-black Langston University
+⟦322⟧ = two consecutive Texas 4A state championships
+⟦323⟧ = two seasons
+⟦324⟧ = two teams
+⟦325⟧ = up
+⟦326⟧ = Utah Jazz
+⟦327⟧ = Valley High School
+⟦328⟧ = Van Buren
+⟦329⟧ = Van Buren High School
+⟦330⟧ = Vancouver Grizzlies
+⟦331⟧ = varsity
+⟦332⟧ = village
+⟦333⟧ = Wayne County
+⟦334⟧ = Weldon Drew
+⟦335⟧ = west
+⟦336⟧ = West Des Moines
+⟦337⟧ = Wheatley High School
+⟦338⟧ = winning
+⟦339⟧ = Wokingham
+⟦340⟧ = year
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Anthony Avent] ⟦43⟧⟨1⟩⟦24⟧⟨2⟩⟦57⟧⟨3⟩⟦206⟧⟨4⟩⟦264⟧⟨5⟩⟦274⟧⟨6⟩⟦227⟧⟨7⟩⟦203⟧⟨8⟩⟦256⟧⟨9⟩
+[Anthony Avent] ⟨10⟩⟦226⟧⟨11⟩⟦188⟧⟨12⟩⟦53⟧⟨13⟩⟦286⟧⟨14⟩⟦196⟧⟨15⟩⟦330⟧⟨16⟩⟦326⟧⟨17⟩⟦166⟧⟨18⟩⟦241⟧⟨19⟩⟦233⟧⟨20⟩
+[Anthony Avent] ⟨21⟩⟦236⟧⟨22⟩⟦255⟧⟨23⟩⟦71⟧⟨24⟩⟦115⟧⟨25⟩
+[Anthony Avent] ⟨26⟩⟦235⟧⟨27⟩⟦53⟧⟨28⟩⟦168⟧⟨29⟩⟦184⟧⟨30⟩⟦181⟧⟨31⟩
+[James Blackmon Sr.] ⟦150⟧⟨32⟩⟦35⟧⟨33⟩⟦57⟧⟨34⟩⟦83⟧⟨35⟩⟦112⟧⟨36⟩⟦85⟧⟨37⟩⟦231⟧⟨38⟩⟦206⟧⟨39⟩
+[James Blackmon Sr.] ⟦60⟧⟨40⟩⟦324⟧⟨41⟩⟦253⟧⟨42⟩⟦271⟧⟨43⟩⟦82⟧⟨44⟩⟦231⟧⟨45⟩⟦57⟧⟨46⟩⟦71⟧⟨47⟩⟦143⟧⟨48⟩⟦55⟧⟨49⟩⟦55⟧⟨50⟩⟦318⟧⟨51⟩
+[James Blackmon Sr.] ⟦60⟧⟨52⟩⟦57⟧⟨53⟩⟦57⟧⟨54⟩⟦85⟧⟨55⟩⟦85⟧⟨56⟩⟦309⟧⟨57⟩⟦156⟧⟨58⟩
+[James Blackmon Sr.] ⟨59⟩⟦170⟧⟨60⟩⟦169⟧⟨61⟩⟦143⟧⟨62⟩⟦60⟧⟨63⟩⟦228⟧⟨64⟩⟦229⟧⟨65⟩⟦325⟧⟨66⟩⟦265⟧⟨67⟩⟦54⟧⟨68⟩⟦144⟧⟨69⟩⟦340⟧⟨70⟩⟦247⟧⟨71⟩
+[James Blackmon Sr.] ⟦60⟧⟨72⟩⟦284⟧⟨73⟩⟦253⟧⟨74⟩⟦221⟧⟨75⟩⟦221⟧⟨76⟩⟦127⟧⟨77⟩⟦231⟧⟨78⟩⟦249⟧⟨79⟩
+[Finchampstead] ⟦110⟧⟨80⟩⟦110⟧⟨81⟩⟦28⟧⟨82⟩⟦332⟧⟨83⟩⟦81⟧⟨84⟩⟦199⟧⟨85⟩⟦312⟧⟨86⟩⟦59⟧⟨87⟩⟦100⟧⟨88⟩
+[Finchampstead] ⟨89⟩⟦149⟧⟨90⟩⟦104⟧⟨91⟩⟦175⟧⟨92⟩⟦339⟧⟨93⟩⟦175⟧⟨94⟩⟦335⟧⟨95⟩⟦62⟧⟨96⟩⟦14⟧⟨97⟩⟦175⟧⟨98⟩⟦242⟧⟨99⟩⟦98⟧⟨100⟩⟦219⟧⟨101⟩⟦11⟧⟨102⟩⟦175⟧⟨103⟩⟦335⟧⟨104⟩⟦335⟧⟨105⟩⟦70⟧⟨106⟩
+[Finchampstead] ⟨107⟩⟦32⟧⟨108⟩⟦46⟧⟨109⟩⟦310⟧⟨110⟩⟦332⟧⟨111⟩⟦10⟧⟨112⟩
+[Finchampstead] ⟨113⟩⟦19⟧⟨114⟩⟦243⟧⟨115⟩⟦163⟧⟨116⟩⟦163⟧⟨117⟩⟦287⟧⟨118⟩⟦205⟧⟨119⟩⟦306⟧⟨120⟩
+[Presley Askew] ⟦212⟧⟨121⟩⟦192⟧⟨122⟩⟦108⟧⟨123⟩⟦34⟧⟨124⟩⟦57⟧⟨125⟩⟦56⟧⟨126⟩⟦83⟧⟨127⟩
+[Presley Askew] ⟦198⟧⟨128⟩⟦4⟧⟨129⟩⟦116⟧⟨130⟩⟦182⟧⟨131⟩⟦47⟧⟨132⟩⟦41⟧⟨133⟩⟦222⟧⟨134⟩⟦30⟧⟨135⟩⟦231⟧⟨136⟩⟦85⟧⟨137⟩⟦84⟧⟨138⟩
+[Presley Askew] ⟨139⟩⟦223⟧⟨140⟩⟦193⟧⟨141⟩⟦49⟧⟨142⟩⟦57⟧⟨143⟩⟦57⟧⟨144⟩⟦224⟧⟨145⟩
+[Presley Askew] ⟨146⟩⟦99⟧⟨147⟩⟦103⟧⟨148⟩
+[Presley Askew] ⟨149⟩⟦106⟧⟨150⟩⟦119⟧⟨151⟩⟦121⟧⟨152⟩⟦331⟧⟨153⟩⟦83⟧⟨154⟩
+[Presley Askew] ⟨155⟩⟦49⟧⟨156⟩⟦128⟧⟨157⟩⟦134⟧⟨158⟩⟦224⟧⟨159⟩⟦329⟧⟨160⟩⟦47⟧⟨161⟩
+[Presley Askew] ⟦50⟧⟨162⟩⟦253⟧⟨163⟩⟦328⟧⟨164⟩⟦302⟧⟨165⟩⟦246⟧⟨166⟩⟦71⟧⟨167⟩⟦319⟧⟨168⟩
+[Weldon Drew] ⟦334⟧⟨169⟩⟦277⟧⟨170⟩⟦119⟧⟨171⟩⟦174⟧⟨172⟩⟦57⟧⟨173⟩⟦83⟧⟨174⟩⟦183⟧⟨175⟩
+[Weldon Drew] ⟨176⟩⟦295⟧⟨177⟩⟦211⟧⟨178⟩⟦303⟧⟨179⟩⟦250⟧⟨180⟩⟦155⟧⟨181⟩⟦120⟧⟨182⟩⟦83⟧⟨183⟩⟦195⟧⟨184⟩
+[Weldon Drew] ⟦96⟧⟨185⟩⟦111⟧⟨186⟩⟦25⟧⟨187⟩⟦244⟧⟨188⟩⟦68⟧⟨189⟩⟦207⟧⟨190⟩⟦57⟧⟨191⟩
+[Weldon Drew] ⟨192⟩⟦123⟧⟨193⟩⟦231⟧⟨194⟩⟦57⟧⟨195⟩⟦57⟧⟨196⟩⟦337⟧⟨197⟩⟦137⟧⟨198⟩
+[Weldon Drew] ⟦96⟧⟨199⟩⟦38⟧⟨200⟩⟦83⟧⟨201⟩⟦183⟧⟨202⟩
+[Weldon Drew] ⟦96⟧⟨203⟩⟦186⟧⟨204⟩⟦124⟧⟨205⟩⟦231⟧⟨206⟩⟦57⟧⟨207⟩⟦138⟧⟨208⟩⟦13⟧⟨209⟩⟦222⟧⟨210⟩⟦5⟧⟨211⟩⟦233⟧⟨212⟩⟦16⟧⟨213⟩⟦115⟧⟨214⟩⟦338⟧⟨215⟩⟦248⟧⟨216⟩⟦322⟧⟨217⟩⟦246⟧⟨218⟩⟦72⟧⟨219⟩⟦279⟧⟨220⟩⟦231⟧⟨221⟩⟦71⟧⟨222⟩
+[Weldon Drew] ⟦96⟧⟨223⟩⟦180⟧⟨224⟩⟦83⟧⟨225⟩⟦313⟧⟨226⟩⟦340⟧⟨227⟩
+[Weldon Drew] ⟦294⟧⟨228⟩⟦152⟧⟨229⟩⟦97⟧⟨230⟩⟦119⟧⟨231⟩⟦84⟧⟨232⟩⟦211⟧⟨233⟩⟦272⟧⟨234⟩⟦85⟧⟨235⟩⟦160⟧⟨236⟩
+[Weldon Drew] ⟦96⟧⟨237⟩⟦259⟧⟨238⟩⟦202⟧⟨239⟩⟦275⟧⟨240⟩⟦119⟧⟨241⟩⟦211⟧⟨242⟩⟦261⟧⟨243⟩⟦57⟧⟨244⟩⟦133⟧⟨245⟩
+[Weldon Drew] ⟨246⟩⟦18⟧⟨247⟩⟦232⟧⟨248⟩⟦96⟧⟨249⟩
+[Weldon Drew] ⟨250⟩⟦38⟧⟨251⟩⟦83⟧⟨252⟩⟦194⟧⟨253⟩⟦323⟧⟨254⟩⟦233⟧⟨255⟩
+[Weldon Drew] ⟨256⟩⟦96⟧⟨257⟩⟦276⟧⟨258⟩⟦119⟧⟨259⟩⟦83⟧⟨260⟩⟦321⟧⟨261⟩⟦193⟧⟨262⟩
+[Newark, New Jersey] ⟦184⟧⟨263⟩⟦288⟧⟨264⟩⟦80⟧⟨265⟩⟦305⟧⟨266⟩⟦246⟧⟨267⟩⟦181⟧⟨268⟩⟦298⟧⟨269⟩⟦234⟧⟨270⟩⟦102⟧⟨271⟩
+[Newark, New Jersey] ⟨272⟩⟦290⟧⟨273⟩⟦179⟧⟨274⟩⟦29⟧⟨275⟩⟦237⟧⟨276⟩⟦237⟧⟨277⟩⟦217⟧⟨278⟩⟦218⟧⟨279⟩⟦139⟧⟨280⟩⟦269⟧⟨281⟩⟦80⟧⟨282⟩⟦23⟧⟨283⟩⟦210⟧⟨284⟩⟦179⟧⟨285⟩⟦178⟧⟨286⟩⟦289⟧⟨287⟩⟦179⟧⟨288⟩
+[Newark, New Jersey] ⟨289⟩⟦267⟧⟨290⟩⟦23⟧⟨291⟩⟦210⟧⟨292⟩⟦39⟧⟨293⟩⟦142⟧⟨294⟩⟦2⟧⟨295⟩⟦258⟧⟨296⟩⟦101⟧⟨297⟩⟦269⟧⟨298⟩⟦80⟧⟨299⟩⟦289⟧⟨300⟩⟦179⟧⟨301⟩
+[Newark, New Jersey] ⟦184⟧⟨302⟩⟦299⟧⟨303⟩⟦80⟧⟨304⟩⟦292⟧⟨305⟩⟦46⟧⟨306⟩⟦44⟧⟨307⟩⟦175⟧⟨308⟩⟦335⟧⟨309⟩⟦335⟧⟨310⟩⟦167⟧⟨311⟩
+[Larry Friend] ⟦158⟧⟨312⟩⟦45⟧⟨313⟩⟦108⟧⟨314⟩⟦37⟧⟨315⟩⟦206⟧⟨316⟩
+[Larry Friend] ⟦113⟧⟨317⟩⟦78⟧⟨318⟩⟦140⟧⟨319⟩⟦57⟧⟨320⟩⟦57⟧⟨321⟩⟦171⟧⟨322⟩⟦78⟧⟨323⟩
+[Larry Friend] ⟨324⟩⟦109⟧⟨325⟩⟦213⟧⟨326⟩⟦280⟧⟨327⟩⟦314⟧⟨328⟩⟦232⟧⟨329⟩
+[Larry Friend] ⟨330⟩⟦130⟧⟨331⟩⟦207⟧⟨332⟩⟦68⟧⟨333⟩⟦113⟧⟨334⟩⟦40⟧⟨335⟩⟦145⟧⟨336⟩⟦63⟧⟨337⟩
+[Larry Friend] ⟨338⟩⟦108⟧⟨339⟩⟦185⟧⟨340⟩⟦64⟧⟨341⟩⟦215⟧⟨342⟩⟦216⟧⟨343⟩⟦65⟧⟨344⟩
+[Larry Friend] ⟨345⟩⟦164⟧⟨346⟩⟦64⟧⟨347⟩⟦132⟧⟨348⟩⟦340⟧⟨349⟩⟦57⟧⟨350⟩⟦57⟧⟨351⟩⟦105⟧⟨352⟩
+[Larry Friend] ⟦113⟧⟨353⟩⟦85⟧⟨354⟩⟦86⟧⟨355⟩⟦57⟧⟨356⟩⟦165⟧⟨357⟩⟦33⟧⟨358⟩
+[Larry Friend] ⟨359⟩⟦309⟧⟨360⟩⟦64⟧⟨361⟩⟦26⟧⟨362⟩⟦340⟧⟨363⟩⟦245⟧⟨364⟩
+[Larry Friend] ⟨365⟩⟦6⟧⟨366⟩⟦209⟧⟨367⟩⟦115⟧⟨368⟩⟦115⟧⟨369⟩⟦131⟧⟨370⟩⟦232⟧⟨371⟩⟦263⟧⟨372⟩⟦252⟧⟨373⟩
+[Larry Friend] ⟦113⟧⟨374⟩⟦273⟧⟨375⟩⟦203⟧⟨376⟩⟦300⟧⟨377⟩⟦227⟧⟨378⟩⟦254⟧⟨379⟩⟦291⟧⟨380⟩
+[Larry Friend] ⟨381⟩⟦129⟧⟨382⟩⟦232⟧⟨383⟩⟦281⟧⟨384⟩⟦113⟧⟨385⟩⟦12⟧⟨386⟩⟦209⟧⟨387⟩⟦7⟧⟨388⟩⟦220⟧⟨389⟩⟦1⟧⟨390⟩⟦51⟧⟨391⟩⟦115⟧⟨392⟩⟦115⟧⟨393⟩
+[Larry Friend] ⟨394⟩⟦113⟧⟨395⟩⟦214⟧⟨396⟩⟦57⟧⟨397⟩⟦283⟧⟨398⟩⟦262⟧⟨399⟩
+[Larry Friend] ⟨400⟩⟦315⟧⟨401⟩⟦116⟧⟨402⟩⟦280⟧⟨403⟩⟦3⟧⟨404⟩⟦209⟧⟨405⟩⟦9⟧⟨406⟩⟦220⟧⟨407⟩⟦115⟧⟨408⟩⟦115⟧⟨409⟩⟦282⟧⟨410⟩⟦159⟧⟨411⟩⟦317⟧⟨412⟩⟦208⟧⟨413⟩⟦238⟧⟨414⟩
+[Canton, Michigan] ⟦66⟧⟨415⟩⟦17⟧⟨416⟩⟦73⟧⟨417⟩⟦320⟧⟨418⟩⟦333⟧⟨419⟩⟦305⟧⟨420⟩⟦246⟧⟨421⟩⟦176⟧⟨422⟩
+[Canton, Michigan] ⟨423⟩⟦175⟧⟨424⟩⟦335⟧⟨425⟩⟦270⟧⟨426⟩⟦80⟧⟨427⟩⟦161⟧⟨428⟩⟦94⟧⟨429⟩⟦175⟧⟨430⟩⟦270⟧⟨431⟩⟦80⟧⟨432⟩⟦161⟧⟨433⟩⟦42⟧⟨434⟩
+[Canton, Michigan] ⟨435⟩⟦257⟧⟨436⟩⟦69⟧⟨437⟩⟦304⟧⟨438⟩⟦320⟧⟨439⟩⟦23⟧⟨440⟩⟦210⟧⟨441⟩⟦320⟧⟨442⟩⟦89⟧⟨443⟩
+[Canton, Michigan] ⟦66⟧⟨444⟩⟦15⟧⟨445⟩⟦141⟧⟨446⟩⟦204⟧⟨447⟩⟦308⟧⟨448⟩⟦23⟧⟨449⟩⟦210⟧⟨450⟩
+[Canton, Michigan] ⟦67⟧⟨451⟩⟦297⟧⟨452⟩⟦79⟧⟨453⟩⟦308⟧⟨454⟩⟦301⟧⟨455⟩⟦246⟧⟨456⟩⟦176⟧⟨457⟩
+[Canton, Michigan] ⟨458⟩⟦304⟧⟨459⟩⟦320⟧⟨460⟩⟦260⟧⟨461⟩⟦80⟧⟨462⟩⟦31⟧⟨463⟩
+[Canton, Michigan] ⟦66⟧⟨464⟩⟦177⟧⟨465⟩⟦88⟧⟨466⟩
+[Kelsall] ⟦153⟧⟨467⟩⟦20⟧⟨468⟩⟦90⟧⟨469⟩⟦332⟧⟨470⟩⟦81⟧⟨471⟩⟦199⟧⟨472⟩⟦307⟧⟨473⟩⟦52⟧⟨474⟩⟦76⟧⟨475⟩⟦77⟧⟨476⟩⟦268⟧⟨477⟩⟦92⟧⟨478⟩⟦74⟧⟨479⟩⟦100⟧⟨480⟩
+[Kelsall] ⟨481⟩⟦48⟧⟨482⟩⟦175⟧⟨483⟩⟦77⟧⟨484⟩⟦175⟧⟨485⟩⟦335⟧⟨486⟩⟦191⟧⟨487⟩⟦175⟧⟨488⟩⟦187⟧⟨489⟩⟦190⟧⟨490⟩⟦335⟧⟨491⟩⟦251⟧⟨492⟩
+[Kelsall] ⟦310⟧⟨493⟩⟦332⟧⟨494⟩⟦154⟧⟨495⟩⟦21⟧⟨496⟩⟦200⟧⟨497⟩⟦285⟧⟨498⟩⟦266⟧⟨499⟩⟦162⟧⟨500⟩⟦230⟧⟨501⟩⟦125⟧⟨502⟩⟦311⟧⟨503⟩⟦335⟧⟨504⟩⟦75⟧⟨505⟩⟦148⟧⟨506⟩⟦91⟧⟨507⟩
+[Kelsall] ⟦296⟧⟨508⟩⟦225⟧⟨509⟩⟦197⟧⟨510⟩⟦125⟧⟨511⟩⟦201⟧⟨512⟩⟦58⟧⟨513⟩⟦114⟧⟨514⟩⟦122⟧⟨515⟩
+[Jeff Horner] ⟦151⟧⟨516⟩⟦36⟧⟨517⟩⟦57⟧⟨518⟩⟦206⟧⟨519⟩⟦93⟧⟨520⟩⟦83⟧⟨521⟩⟦309⟧⟨522⟩⟦189⟧⟨523⟩
+[Jeff Horner] ⟨524⟩⟦22⟧⟨525⟩⟦208⟧⟨526⟩⟦118⟧⟨527⟩⟦147⟧⟨528⟩⟦57⟧⟨529⟩⟦252⟧⟨530⟩
+[Jeff Horner] ⟦135⟧⟨531⟩⟦146⟧⟨532⟩⟦68⟧⟨533⟩⟦316⟧⟨534⟩⟦208⟧⟨535⟩⟦222⟧⟨536⟩⟦8⟧⟨537⟩⟦239⟧⟨538⟩
+[Jeff Horner] ⟦135⟧⟨539⟩⟦172⟧⟨540⟩⟦146⟧⟨541⟩
+[Jeff Horner] ⟨542⟩⟦126⟧⟨543⟩⟦107⟧⟨544⟩⟦61⟧⟨545⟩⟦173⟧⟨546⟩⟦331⟧⟨547⟩⟦57⟧⟨548⟩⟦83⟧⟨549⟩
+[Jeff Horner] ⟦135⟧⟨550⟩⟦27⟧⟨551⟩⟦87⟧⟨552⟩⟦309⟧⟨553⟩⟦146⟧⟨554⟩⟦293⟧⟨555⟩⟦117⟧⟨556⟩
+[Jeff Horner] ⟦135⟧⟨557⟩⟦278⟧⟨558⟩⟦119⟧⟨559⟩⟦331⟧⟨560⟩⟦57⟧⟨561⟩⟦83⟧⟨562⟩⟦327⟧⟨563⟩⟦336⟧⟨564⟩⟦146⟧⟨565⟩
+[Jeff Horner] ⟦136⟧⟨566⟩⟦240⟧⟨567⟩⟦157⟧⟨568⟩⟦57⟧⟨569⟩⟦57⟧⟨570⟩⟦95⟧⟨571⟩
+
+[user]
+
+问题：
+Anthony Avent played basketball fo a High School that is located in a city approcimately 8 mi west of where?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

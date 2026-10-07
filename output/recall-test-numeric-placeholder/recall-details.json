@@ -1,0 +1,39 @@
+[
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "predictedAnswer": "# 路径一：直接身份匹配\n\n步骤1：使用⟦170⟧，提取完整姓名为 Silvia Angélica Navarro Barba；综合⟦98⟧⟦84⟧，确认其出生于 Irapuato, Guanajuato。\n\n步骤2：使用⟦19⟧⟦81⟧⟦185⟧⟦216⟧，提取身份特征：墨西哥女演员，涉足电影、电视与戏剧。由此锁定候选人为 Silvia Navarro。\n\n步骤3：使用⟦102⟧⟦193⟧⟦20⟧，提取 La Heredera 即 The Heiress，是一部墨西哥 telenovela。\n\n步骤4：综合⟦172⟧⟦166⟧⟦150⟧，在 La heredera 材料中，Silvia Navarro 与 Sergio Basañez 被列为 protagonists。\n\n结论：La Heredera 的主演是 Silvia Navarro。\n\n# 路径二：La Heredera 条目交叉验证\n\n步骤1：使用⟦172⟧⟦209⟧⟦157⟧，提取 La heredera 条目中的关键信息：该作品与 Silvia Navarro 相关，并且是第三次 reunion。\n\n步骤2：综合⟦172⟧⟦166⟧⟦150⟧⟦150⟧，明确写出 Silvia Navarro 和 Sergio Basañez 作为 protagonists。\n\n步骤3：交叉验证⟦102⟧⟦20⟧，确认 La Heredera 是墨西哥 telenovela，与问题中的剧目一致。\n\n结论：与该 telenovela 主演信息匹配的墨西哥女演员是 Silvia Navarro。\n\n# 路径三：排除其他候选人\n\n步骤1：使用⟦19⟧⟦127⟧⟦32⟧，检查 Marlene Favela：她虽被标为墨西哥女演员，但没有与 La Heredera 主演位置相连的证据。\n\n步骤2：使用⟦81⟧，Rita Macedo 的信息仅涉及 film，不能证明其是 La Heredera 的 protagonist。\n\n步骤3：综合⟦172⟧⟦102⟧⟦150⟧，唯一在 La Heredera 条目中与 protagonists 共现的演员是 Silvia Navarro。\n\n结论：排除其他候选人后，答案仍为 Silvia Navarro。\n\n最终答案：**Silvia Navarro**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨104⟩⟦170⟧⟨105⟩⟦165⟧⟨106⟩⟦98⟧⟨107⟩⟦84⟧⟨108⟩⟨109⟩⟨110⟩⟨111⟩",
+    "nounCount": 318,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5622,
+      "completion_tokens": 4677,
+      "total_tokens": 10299,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 4464
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5622
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 902,
+      "completion_tokens": 4349,
+      "total_tokens": 5251,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 3850
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 902
+    }
+  }
+]

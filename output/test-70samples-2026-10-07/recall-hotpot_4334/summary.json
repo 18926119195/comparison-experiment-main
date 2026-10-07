@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_4334",
+  "question": "Who has a wider scope of profession, Christopher Guest or  Roman Karmen?",
+  "expectedAnswer": "Christopher Haden-Guest",
+  "predictedAnswer": "# 路径一：基于职业列表的广度对比\n\n步骤1：使用⟦63⟧⟦62⟧⟦7⟧⟦39⟧⟦201⟧⟦28⟧⟦67⟧⟦71⟧⟦157⟧⟦89⟧⟦65⟧，提取 Christopher Guest 的职业身份：演员、编剧、喜剧演员、作曲家、音乐家，并持有英美双重国籍。\n\n步骤2：使用⟦189⟧⟦191⟧⟦21⟧⟦85⟧⟦55⟧⟦87⟧，提取 Roman Karmen 的职业身份：苏联战地摄影师、电影导演、纪录片电影制作人。\n\n步骤3：综合⟦63⟧⟦39⟧⟦201⟧⟦67⟧⟦71⟧⟦157⟧ 与 ⟦21⟧⟦85⟧⟦55⟧⟦87⟧，对比职业数量：Christopher Guest 涵盖表演、编剧、喜剧、作曲、音乐五个领域；Roman Karmen 涵盖摄影、导演、纪录片制作三个领域。\n\n结论：Christopher Guest 的职业范围更广。\n\n# 路径二：基于核心身份与附属技能的区分\n\n步骤1：使用⟦21⟧⟦85⟧⟦55⟧⟦87⟧，提取 Roman Karmen 的核心职业链条：战地摄影师 → 电影导演 → 纪录片制作人，三者高度相关，均围绕电影摄影与导演展开。\n\n步骤2：使用⟦63⟧⟦39⟧⟦201⟧⟦28⟧⟦67⟧⟦71⟧⟦157⟧，提取 Christopher Guest 的职业构成：演员、编剧、喜剧演员、作曲家、音乐家，跨越表演艺术、文学创作与音乐创作三大门类。\n\n步骤3：综合⟦21⟧⟦85⟧⟦55⟧⟦87⟧ 与 ⟦63⟧⟦39⟧⟦201⟧⟦28⟧⟦67⟧⟦71⟧⟦157⟧，对比职业跨度：Roman Karmen 的职业集中在电影制作内部的不同环节；Christopher Guest 的职业跨越电影表演、剧本创作、喜剧表演和音乐创作等多个独立领域。\n\n结论：Christopher Guest 的职业跨度更大，涉及更多不相关的专业领域。\n\n# 路径三：基于材料中职业描述的详细程度\n\n步骤1：使用⟦63⟧⟦105⟧⟦106⟧⟦39⟧⟦201⟧⟦28⟧⟦67⟧⟦71⟧⟦157⟧⟦89⟧⟦65⟧，提取 Christopher Guest 的完整职业描述，材料中明确列出其多重身份，包括演员、编剧、喜剧演员、作曲家和音乐家。\n\n步骤2：使用⟦189⟧⟦191⟧⟦21⟧⟦85⟧⟦55⟧⟦87⟧⟦245⟧⟦104⟧，提取 Roman Karmen 的职业描述，材料中将其定义为苏联战地摄影师和电影导演，并称其为纪录片电影制作中最具影响力的人物之一。\n\n步骤3：综合⟦63⟧⟦39⟧⟦201⟧⟦67⟧⟦71⟧⟦157⟧ 与 ⟦21⟧⟦85⟧⟦55⟧⟦87⟧，对比材料对两者职业的列举方式：Christopher Guest 的职业被逐一列举为多个独立头衔；Roman Karmen 的职业被描述为围绕电影制作的复合身份。\n\n结论：Christopher Guest 的职业范围更广，因其职业头衔数量更多且跨越多个独立领域。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦63⟧⟨105⟩⟦7⟧⟨106⟩⟦62⟧⟨107⟩⟦39⟧⟦201⟧⟨108⟩⟨109⟩⟦71⟧⟦71⟧",
+  "nounCount": 384,
+  "score": 0.5,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6538,
+    "completion_tokens": 386,
+    "total_tokens": 6924,
+    "prompt_tokens_details": {
+      "cached_tokens": 6400
+    },
+    "prompt_cache_hit_tokens": 6400,
+    "prompt_cache_miss_tokens": 138
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1349,
+    "completion_tokens": 807,
+    "total_tokens": 2156,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1349
+  }
+}

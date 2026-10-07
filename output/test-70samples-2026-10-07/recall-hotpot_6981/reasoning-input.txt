@@ -1,0 +1,110 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Alice River (Far North Queensland)] ⟨1⟩⟦12⟧⟨2⟩⟨3⟩⟨4⟩⟦79⟧⟨5⟩⟨6⟩
+[Uw Oykangand] ⟦179⟧
+[Rupertswood] ⟨142⟩⟦9⟧⟦121⟧⟨144⟩⟦56⟧⟨145⟩⟨143⟩⟨146⟩⟨147⟩⟦201⟧⟦135⟧⟨148⟩⟨149⟩⟦125⟧⟨150⟩⟨151⟩⟨152⟩
+[Alice River, Queensland] ⟦18⟧⟨237⟩⟦14⟧⟦168⟧⟨238⟩⟨239⟩⟦181⟧⟨240⟩⟦223⟧⟨241⟩⟦132⟧⟨242⟩⟨243⟩
+[Alice River, Queensland] ⟦73⟧⟦154⟧⟦171⟧⟦226⟧ | ⟨244⟩⟨245⟩⟨246⟩⟦184⟧⟦184⟧⟦73⟧⟦73⟧⟨247⟩⟨248⟩⟦183⟧⟦63⟧⟨249⟩⟨250⟩⟦158⟧⟨251⟩⟦5⟧⟨252⟩⟦154⟧⟦154⟧⟨253⟩⟦88⟧⟦96⟧⟨255⟩⟨254⟩⟦171⟧⟨256⟩⟦226⟧⟨257⟩⟨258⟩
+[Alice River (Barcoo River)] ⟦30⟧ | ⟦30⟧ | ⟦30⟧ | ⟦30⟧
+[Alice River (Barcoo River)] ⟦152⟧
+[Alice River (Barcoo River)] ⟦174⟧
+
+符号表：
+⟦5⟧ = 3rd Baronet
+⟦9⟧ = a mansion and country estate
+⟦12⟧ = a river
+⟦14⟧ = a suburb
+⟦18⟧ = Alice River
+⟦30⟧ = Australia
+⟦56⟧ = country
+⟦63⟧ = developer
+⟦73⟧ = estate
+⟦79⟧ = Far North Queensland
+⟦88⟧ = his ancestral home "Rupertswood
+⟦96⟧ = home
+⟦121⟧ = mansion
+⟦125⟧ = Melbourne
+⟦132⟧ = North Queensland
+⟦135⟧ = outskirts
+⟦152⟧ = river
+⟦154⟧ = Rupertswood
+⟦158⟧ = Sir Rupert Clarke
+⟦168⟧ = suburb
+⟦171⟧ = Sunbury
+⟦174⟧ = The Alice River
+⟦179⟧ = the Cape York Peninsula
+⟦181⟧ = the City
+⟦183⟧ = the developer
+⟦184⟧ = The estate
+⟦201⟧ = the outskirts
+⟦223⟧ = Townsville
+⟦226⟧ = Victoria
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  located on 
+⟨4⟩ =  of 
+⟨5⟩ = , 
+⟨6⟩ = .
+⟨142⟩ =  is 
+⟨143⟩ = 
+⟨144⟩ =  and 
+⟨145⟩ =  
+⟨146⟩ =  located in 
+⟨147⟩ =  on 
+⟨148⟩ = 
+⟨149⟩ =  of 
+⟨150⟩ =  in 
+⟨151⟩ = , 
+⟨152⟩ = .
+⟨237⟩ =  is 
+⟨238⟩ = 
+⟨239⟩ =  of 
+⟨240⟩ =  of 
+⟨241⟩ =  in 
+⟨242⟩ = , 
+⟨243⟩ = .
+⟨244⟩ = 
+⟨245⟩ =  is also known as 
+⟨246⟩ = , 
+⟨247⟩ = 
+⟨248⟩ =  was named by 
+⟨249⟩ = 
+⟨250⟩ =  who was 
+⟨251⟩ = , 
+⟨252⟩ =  of 
+⟨253⟩ = , after 
+⟨254⟩ = 
+⟨255⟩ =  "Rupertswood" at 
+⟨256⟩ = , 
+⟨257⟩ = , 
+⟨258⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What part of Australia is Alice River and Rupertswood in?

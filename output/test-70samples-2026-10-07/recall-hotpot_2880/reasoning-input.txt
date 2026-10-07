@@ -1,0 +1,91 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Hermann Göring] ⟦112⟧⟨243⟩⟦106⟧⟨244⟩⟦3⟧⟨245⟩⟦158⟧⟨246⟩⟦22⟧⟦130⟧⟨247⟩⟨248⟩⟦227⟧⟦96⟧⟨249⟩⟨250⟩⟦229⟧⟨251⟩⟦155⟧⟨252⟩⟦105⟧⟨253⟩
+[Hermann Göring] ⟨254⟩⟨255⟩⟦277⟧⟨256⟩⟦120⟧⟨258⟩⟨259⟩⟦42⟧⟨257⟩⟨260⟩⟦30⟧⟦180⟧⟨261⟩⟨262⟩⟦200⟧⟨263⟩
+[Hermann Göring] ⟨264⟩⟦223⟧⟦77⟧⟨265⟩⟨266⟩⟨267⟩⟨268⟩⟦136⟧⟨269⟩
+[Quentin C. Aanenson] ⟦266⟧
+[Ashley Rolfe] ⟦275⟧
+[Ashley Rolfe] ⟦92⟧⟦168⟧ | ⟦92⟧
+
+符号表：
+⟦3⟧ = 12 January
+⟦22⟧ = a German political and military leader
+⟦30⟧ = a recipient
+⟦42⟧ = ace
+⟦77⟧ = commander
+⟦92⟧ = fighter
+⟦96⟧ = figures
+⟦105⟧ = Germany
+⟦106⟧ = Goering
+⟦112⟧ = Hermann Wilhelm Göring
+⟦120⟧ = I fighter pilot ace
+⟦130⟧ = leader
+⟦136⟧ = Manfred von Richthofen
+⟦155⟧ = NSDAP
+⟦158⟧ = October
+⟦168⟧ = pilot
+⟦180⟧ = recipient
+⟦200⟧ = the "Pour le Mérite
+⟦223⟧ = the last commander
+⟦227⟧ = the most powerful figures
+⟦229⟧ = the Nazi Party
+⟦266⟧ = veteran
+⟦275⟧ = wing
+⟦277⟧ = World War
+
+占位符映射：
+⟨243⟩ =  (or 
+⟨244⟩ = ; ] ; 
+⟨245⟩ =  1893 – 15 
+⟨246⟩ =  1946) was 
+⟨247⟩ = 
+⟨248⟩ =  as well as one of 
+⟨249⟩ = 
+⟨250⟩ =  in 
+⟨251⟩ =  (
+⟨252⟩ = ) that ruled 
+⟨253⟩ =  from 1933 to 1945.
+⟨254⟩ =  A 
+⟨255⟩ =  
+⟨256⟩ =  
+⟨257⟩ = 
+⟨258⟩ =  
+⟨259⟩ =  
+⟨260⟩ = , he was 
+⟨261⟩ = 
+⟨262⟩ =  of 
+⟨263⟩ = ".
+⟨264⟩ =  He was 
+⟨265⟩ = 
+⟨266⟩ =  of "Jagdgeschwader" 1, the 
+⟨267⟩ =  
+⟨268⟩ =  once led by 
+⟨269⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Hermann Wilhelm Göring was a veteran fighter pilot in a war that ended in what year?

@@ -1,0 +1,105 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Sian Gibson] ⟨96⟩⟦198⟧⟨97⟩⟦7⟧⟨98⟩⟦34⟧⟦37⟧⟨99⟩⟨100⟩⟦294⟧⟦294⟧⟨101⟩⟨102⟩⟦107⟧⟦68⟧⟨103⟩⟨104⟩⟨105⟩⟦225⟧⟦70⟧⟨107⟩⟨106⟩⟨108⟩⟨109⟩⟦216⟧⟨110⟩⟦52⟧⟨111⟩⟦239⟧⟨112⟩⟦51⟧⟨113⟩
+[Trollied] ⟦191⟧
+[Peter Kay's Car Share] ⟦156⟧⟦155⟧⟦199⟧ | ⟦156⟧⟨407⟩⟦13⟧⟦201⟧⟨408⟩⟨409⟩⟦209⟧⟦210⟧⟨410⟩⟦47⟧⟨412⟩⟦128⟧⟨413⟩⟨411⟩⟦155⟧⟨414⟩⟦164⟧⟦165⟧⟨415⟩⟨416⟩⟦199⟧⟨417⟩⟦260⟧⟦152⟧⟨418⟩⟨419⟩⟦17⟧⟦73⟧⟨421⟩⟦61⟧⟨422⟩⟦193⟧⟨423⟩⟦186⟧⟨420⟩⟨424⟩
+
+符号表：
+⟦7⟧ = 15 July
+⟦13⟧ = a British sitcom
+⟦17⟧ = a company car share scheme
+⟦34⟧ = a Welsh actress
+⟦37⟧ = actress
+⟦47⟧ = assistant
+⟦51⟧ = Best Comedy
+⟦52⟧ = Best Scripted Comedy
+⟦61⟧ = car
+⟦68⟧ = collaborations
+⟦70⟧ = comedy
+⟦73⟧ = company
+⟦107⟧ = her collaborations
+⟦128⟧ = manager
+⟦152⟧ = participation
+⟦155⟧ = Peter Kay
+⟦156⟧ = Peter Kay's Car Share
+⟦164⟧ = promotions
+⟦165⟧ = promotions rep Kayleigh Kitson
+⟦186⟧ = scheme
+⟦191⟧ = series
+⟦193⟧ = share
+⟦198⟧ = Siân Foulkes
+⟦199⟧ = Sian Gibson
+⟦201⟧ = sitcom
+⟦209⟧ = supermarket
+⟦210⟧ = supermarket assistant manager John Redmond
+⟦216⟧ = the 2016 BAFTA TV Award
+⟦225⟧ = the comedy series
+⟦239⟧ = the National Television Award
+⟦260⟧ = their participation
+⟦294⟧ = writer
+
+占位符映射：
+⟨96⟩ =  (born 
+⟨97⟩ = ; 
+⟨98⟩ =  1976) is 
+⟨99⟩ = 
+⟨100⟩ =  and 
+⟨101⟩ = 
+⟨102⟩ =  perhaps best known for 
+⟨103⟩ = 
+⟨104⟩ =  with 
+⟨105⟩ = , including starring in and co-writing 
+⟨106⟩ = 
+⟨107⟩ =  
+⟨108⟩ =  "
+⟨109⟩ = ", for which she won 
+⟨110⟩ =  for 
+⟨111⟩ =  and 
+⟨112⟩ =  for 
+⟨113⟩ = .
+⟨407⟩ =  is 
+⟨408⟩ = 
+⟨409⟩ =  set around 
+⟨410⟩ = 
+⟨411⟩ = 
+⟨412⟩ =  
+⟨413⟩ =  John Redmond (
+⟨414⟩ = ) and 
+⟨415⟩ = 
+⟨416⟩ =  (
+⟨417⟩ = ), and 
+⟨418⟩ = 
+⟨419⟩ =  in 
+⟨420⟩ = 
+⟨421⟩ =  
+⟨422⟩ =  
+⟨423⟩ =  
+⟨424⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Sian Gibson co-wrote which British sitcom, set around a supermarket and car share scheme?

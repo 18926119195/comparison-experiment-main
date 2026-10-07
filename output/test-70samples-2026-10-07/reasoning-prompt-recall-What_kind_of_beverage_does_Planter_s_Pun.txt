@@ -1,0 +1,76 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Planter's Punch] ⟦121⟧⟨43⟩⟦28⟧⟨44⟩⟦66⟧⟦132⟧⟨45⟩⟨46⟩⟦134⟧⟦94⟧⟨47⟩⟨48⟩⟦84⟧⟦85⟧⟨49⟩⟨50⟩⟨51⟩⟦143⟧⟦144⟧⟨52⟩⟦149⟧⟦149⟧⟨53⟩⟨54⟩⟦30⟧⟦40⟧⟨55⟩⟨56⟩
+[Black Velvet (beer cocktail)] ⟦154⟧⟨183⟩⟦3⟧⟦38⟧⟨185⟩⟦54⟧⟨184⟩⟨186⟩⟦113⟧⟨187⟩⟦188⟧⟦188⟧⟨188⟩⟨189⟩
+
+符号表：
+⟦3⟧ = a beer cocktail
+⟦28⟧ = an IBA Official Cocktail
+⟦30⟧ = Angostura bitters
+⟦38⟧ = beer
+⟦40⟧ = bitters
+⟦54⟧ = cocktail
+⟦66⟧ = dark rum
+⟦84⟧ = grenadine
+⟦85⟧ = grenadine syrup
+⟦94⟧ = juices
+⟦113⟧ = often Guinness
+⟦121⟧ = Planter's Punch
+⟦132⟧ = rum
+⟦134⟧ = several juices
+⟦143⟧ = sugar
+⟦144⟧ = sugar syrup
+⟦149⟧ = syrup
+⟦154⟧ = The Black Velvet
+⟦188⟧ = wine
+
+占位符映射：
+⟨43⟩ =  is 
+⟨44⟩ =  made of 
+⟨45⟩ = 
+⟨46⟩ = , 
+⟨47⟩ = 
+⟨48⟩ = , 
+⟨49⟩ = 
+⟨50⟩ = 
+⟨51⟩ = , 
+⟨52⟩ = 
+⟨53⟩ = 
+⟨54⟩ = , and 
+⟨55⟩ = 
+⟨56⟩ = .
+⟨183⟩ =  is 
+⟨184⟩ = 
+⟨185⟩ =  
+⟨186⟩ =  made from stout (
+⟨187⟩ = ) and white, sparkling 
+⟨188⟩ = 
+⟨189⟩ = , traditionally Champagne.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What kind of beverage does Planter's Punch and Black Velvet have in common?

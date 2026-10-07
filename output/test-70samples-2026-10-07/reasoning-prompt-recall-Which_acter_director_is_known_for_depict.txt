@@ -1,0 +1,120 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Vladimir Menshov] ⟦293⟧⟨1⟩⟦213⟧⟨2⟩⟦310⟧⟦311⟧⟨3⟩⟦309⟧⟨4⟩⟨5⟩⟦60⟧⟨6⟩⟦32⟧⟨8⟩⟨9⟩⟨7⟩⟨10⟩
+[Vladimir Menshov] ⟨11⟩⟦268⟧⟦108⟧⟨12⟩⟨13⟩⟨14⟩⟨16⟩⟨15⟩⟨17⟩⟦123⟧⟨18⟩⟨19⟩
+[Vladimir Menshov] ⟦36⟧⟦100⟧ | ⟦111⟧ | ⟨31⟩⟨32⟩⟨33⟩⟦47⟧⟦36⟧⟨34⟩⟨35⟩⟦126⟧⟦126⟧⟦187⟧⟦187⟧⟨36⟩⟨37⟩⟦22⟧⟦100⟧⟨38⟩⟨39⟩⟦252⟧⟦111⟧⟨40⟩⟨41⟩⟦244⟧⟦162⟧⟨42⟩⟨43⟩⟨44⟩⟨45⟩⟨46⟩⟨47⟩
+[Moscow Does Not Believe in Tears] ⟦172⟧⟦241⟧
+[Moscow Does Not Believe in Tears] ⟦6⟧⟨162⟩⟦18⟧⟨163⟩⟨164⟩⟦173⟧⟨165⟩
+[Moscow Does Not Believe in Tears] ⟦245⟧⟦63⟧ | ⟦251⟧⟨173⟩⟨174⟩⟦245⟧⟨175⟩⟦63⟧⟨176⟩
+[Walter Osborne] ⟦299⟧
+[Letter to Brezhnev] ⟦109⟧ | ⟦109⟧ | ⟦109⟧
+[Louis Guilloux] ⟦300⟧⟦83⟧⟦153⟧
+
+符号表：
+⟦6⟧ = "Moskva slezam ne verit
+⟦18⟧ = a 1980 Soviet film
+⟦22⟧ = a director
+⟦32⟧ = a Soviet and Russian actor and film director
+⟦36⟧ = actor
+⟦47⟧ = an actor
+⟦60⟧ = Baku
+⟦63⟧ = Best Foreign Language Film
+⟦83⟧ = class
+⟦100⟧ = director
+⟦108⟧ = everyman
+⟦109⟧ = film
+⟦111⟧ = films
+⟦123⟧ = his films
+⟦126⟧ = his output
+⟦153⟧ = life
+⟦162⟧ = melodrama
+⟦172⟧ = Moscow
+⟦173⟧ = Mosfilm
+⟦187⟧ = output
+⟦213⟧ = Russian
+⟦241⟧ = Tears
+⟦244⟧ = the 1979 melodrama
+⟦245⟧ = the Academy Award
+⟦251⟧ = the film
+⟦252⟧ = the five films
+⟦268⟧ = the Russian everyman
+⟦293⟧ = Vladimir Valentinovich Menshov
+⟦299⟧ = working
+⟦300⟧ = working class life
+⟦309⟧ = Валенти́нович
+⟦310⟧ = Влади́мир
+⟦311⟧ = Влади́мир Валенти́нович
+
+占位符映射：
+⟨1⟩ =  (
+⟨2⟩ = : 
+⟨3⟩ = 
+⟨4⟩ = 
+⟨5⟩ =  Меньшо́в ; born 17 September 1939 in 
+⟨6⟩ = ) is 
+⟨7⟩ = 
+⟨8⟩ =  and 
+⟨9⟩ =  
+⟨10⟩ = .
+⟨11⟩ =  He is noted for depicting 
+⟨12⟩ = 
+⟨13⟩ =  and 
+⟨14⟩ = 
+⟨15⟩ = 
+⟨16⟩ =  
+⟨17⟩ =  in 
+⟨18⟩ = 
+⟨19⟩ = .
+⟨31⟩ =  Although 
+⟨32⟩ = 
+⟨33⟩ =  as 
+⟨34⟩ = 
+⟨35⟩ =  outnumbers 
+⟨36⟩ = 
+⟨37⟩ =  as 
+⟨38⟩ = 
+⟨39⟩ = , he is best known for 
+⟨40⟩ = 
+⟨41⟩ =  he directed, the most famous of which is 
+⟨42⟩ = 
+⟨43⟩ =  "
+⟨44⟩ =  Does Not Believe in 
+⟨45⟩ = ", which won 
+⟨46⟩ =  for 
+⟨47⟩ = .
+⟨162⟩ = ") is 
+⟨163⟩ = 
+⟨164⟩ =  made by 
+⟨165⟩ = .
+⟨173⟩ = 
+⟨174⟩ =  won 
+⟨175⟩ =  for 
+⟨176⟩ =  in 1981.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which acter/director is known for depicting the Russian working class life and directed a film that won an Academy Award in 1981?

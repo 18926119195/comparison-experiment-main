@@ -1,0 +1,36 @@
+[
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "predictedAnswer": "# 路径一：作品与年份交叉验证\n\n步骤1：使用⟦102⟧⟦193⟧⟦20⟧，提取 La Heredera 对应 “The Heiress”，并且是一部 Mexican telenovela。  \n步骤2：使用⟦86⟧⟦143⟧，提取 Rita Macedo 条目中有 “her 1956 performance / performance”，说明 Rita Macedo 与 1956 年的某部表演作品直接相关。  \n步骤3：综合⟦102⟧⟦86⟧，将 La Heredera 的墨西哥 telenovela 属性与 Rita Macedo 的 1956 年表演对应，判断 Rita Macedo 正是该版 La Heredera 的主角/主演。  \n\n结论：该墨西哥电影、电视和戏剧女演员是 **Rita Macedo**。\n\n# 路径二：身份与行业先驱特征匹配\n\n步骤1：使用⟦22⟧⟦145⟧，提取 Rita Macedo 被称为 “a pioneer / pioneer”。  \n步骤2：综合⟦125⟧⟦151⟧⟦81⟧，提取她与 Mexican radio、radio、film 相关，符合墨西哥演艺界先驱女演员的身份。  \n步骤3：综合⟦110⟧，提取她与 Luis de Llano Palmer 的关联，进一步确认其在墨西哥影视广播界的地位。  \n步骤4：结合问题中 “film, television, and theatre” 的描述，与 Rita Macedo 的演员身份相符。  \n\n结论：符合这些身份特征并出演 La Heredera 的是 **Rita Macedo**。\n\n# 路径三：排除 TV Azteca 现代版演员\n\n步骤1：使用⟦223⟧，提取 Gabriel Porras 关联 TV Azteca。  \n步骤2：使用⟦222⟧⟦185⟧，提取 Marlene Favela 关联 TV、television。  \n步骤3：综合⟦204⟧⟦167⟧⟦38⟧⟦36⟧，提取 La Heredera 系列后来被开发成美国 telenovela “American Heiress”，说明存在版本/改编差异。  \n步骤4：对比来看，Gabriel Porras 与 Marlene Favela 更接近 TV Azteca/TV 的后期版本，而问题中的 “1956 performance” 与 Rita Macedo 直接吻合。  \n\n结论：问题所指的 La Heredera 主角应为 **Rita Macedo**，而非 TV Azteca 现代版演员。\n\n# 路径四：时间线排除法\n\n步骤1：使用⟦86⟧，提取 “her 1956 performance” 明确给出 1956 年这一时间点。  \n步骤2：使用⟦102⟧⟦20⟧，提取 La Heredera 是墨西哥 telenovela，早期版本与 1956 年表演时间线吻合。  \n步骤3：综合⟦223⟧⟦222⟧，Gabriel Porras 和 Marlene Favela 关联 TV Azteca/TV，属于较晚版本。  \n步骤4：因此，在 1956 年 La Heredera 中担任主角的墨西哥女演员是 Rita Macedo。  \n\n结论：答案是 **Rita Macedo**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦102⟧⟨ĝ⟩⟦193⟧⟨Ğ⟩⟦20⟧⟨ğ⟩⟨Ġ⟩⟦223⟧⟦222⟧⟦204⟧⟦167⟧⟨ĩ⟩",
+    "nounCount": 318,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 5717,
+      "completion_tokens": 184,
+      "total_tokens": 5901,
+      "prompt_tokens_details": {
+        "cached_tokens": 2304
+      },
+      "prompt_cache_hit_tokens": 2304,
+      "prompt_cache_miss_tokens": 3413
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 799,
+      "completion_tokens": 8458,
+      "total_tokens": 9257,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 7760
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 799
+    }
+  }
+]

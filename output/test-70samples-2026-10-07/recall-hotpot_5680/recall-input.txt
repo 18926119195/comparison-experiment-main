@@ -1,0 +1,406 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = “Kansas City Athletics
+⟦2⟧ = "The Ignitor
+⟦3⟧ = (MLB) Arizona Diamondbacks
+⟦4⟧ = 14 opposing batters
+⟦5⟧ = 14 strikeouts
+⟦6⟧ = 17th
+⟦7⟧ = 23 official perfect games
+⟦8⟧ = 23,381 people
+⟦9⟧ = 27 consecutive batters
+⟦10⟧ = 33 consecutive seasons
+⟦11⟧ = a 70-92 record
+⟦12⟧ = a batter
+⟦13⟧ = a crowd
+⟦14⟧ = a first base umpire
+⟦15⟧ = a game
+⟦16⟧ = a hit
+⟦17⟧ = a Major League Baseball franchise
+⟦18⟧ = A native
+⟦19⟧ = a no-hit game
+⟦20⟧ = a no-hitter
+⟦21⟧ = a passed ball
+⟦22⟧ = a perfect game
+⟦23⟧ = a pitcher
+⟦24⟧ = a special subcategory
+⟦25⟧ = a walk
+⟦26⟧ = all 27 batters
+⟦27⟧ = all franchises
+⟦28⟧ = all nine innings
+⟦29⟧ = alterations
+⟦30⟧ = American League history
+⟦31⟧ = an American former Major League Baseball (MLB) player
+⟦32⟧ = an error
+⟦33⟧ = any base
+⟦34⟧ = any team
+⟦35⟧ = any type
+⟦36⟧ = appearances
+⟦37⟧ = Armando Galarraga
+⟦38⟧ = Aroldis Chapman
+⟦39⟧ = at least nine innings
+⟦40⟧ = at least one batter
+⟦41⟧ = AT&T Park
+⟦42⟧ = Athletics history
+⟦43⟧ = Atlanta
+⟦44⟧ = August
+⟦45⟧ = ball
+⟦46⟧ = base
+⟦47⟧ = baseball
+⟦48⟧ = baseball history
+⟦49⟧ = batter
+⟦50⟧ = batters
+⟦51⟧ = batting
+⟦52⟧ = bid
+⟦53⟧ = bids
+⟦54⟧ = Bob Feller's Major League record
+⟦55⟧ = Cain
+⟦56⟧ = Cain's performance
+⟦57⟧ = California
+⟦58⟧ = call
+⟦59⟧ = career
+⟦60⟧ = catcher
+⟦61⟧ = catcher's interference
+⟦62⟧ = Catfish Hunter
+⟦63⟧ = consecutive perfect games
+⟦64⟧ = contrast
+⟦65⟧ = course
+⟦66⟧ = crowd
+⟦67⟧ = current manager
+⟦68⟧ = Cy Young
+⟦69⟧ = Dallas Braden
+⟦70⟧ = Dallas Braden's perfect game
+⟦71⟧ = date
+⟦72⟧ = David Cone
+⟦73⟧ = days
+⟦74⟧ = decade
+⟦75⟧ = definition
+⟦76⟧ = Dennis Martínez
+⟦77⟧ = designated hitter Paul Molitor
+⟦78⟧ = Detroit
+⟦79⟧ = division
+⟦80⟧ = Dodger Stadium
+⟦81⟧ = Don Larsen
+⟦82⟧ = dugout
+⟦83⟧ = each batter
+⟦84⟧ = eleven no-hitters
+⟦85⟧ = end
+⟦86⟧ = era
+⟦87⟧ = error
+⟦88⟧ = Fame
+⟦89⟧ = feat
+⟦90⟧ = feats
+⟦91⟧ = Félix Hernández
+⟦92⟧ = first base
+⟦93⟧ = form
+⟦94⟧ = franchise
+⟦95⟧ = franchise history
+⟦96⟧ = franchises
+⟦97⟧ = front
+⟦98⟧ = game
+⟦99⟧ = games
+⟦100⟧ = Giants' franchise history
+⟦101⟧ = Granada
+⟦102⟧ = his 21-year baseball career
+⟦103⟧ = his exceptional hitting
+⟦104⟧ = His perfect game
+⟦105⟧ = his perfect game bid
+⟦106⟧ = his retirement
+⟦107⟧ = history
+⟦108⟧ = hit
+⟦109⟧ = hits
+⟦110⟧ = hitter
+⟦111⟧ = hitters
+⟦112⟧ = hitting
+⟦113⟧ = Ignitor
+⟦114⟧ = individual players
+⟦115⟧ = innings
+⟦116⟧ = interference
+⟦117⟧ = its bright spots
+⟦118⟧ = its current form
+⟦119⟧ = its half-decade
+⟦120⟧ = Jim Joyce
+⟦121⟧ = John Montgomery Ward
+⟦122⟧ = Johnson
+⟦123⟧ = July
+⟦124⟧ = June
+⟦125⟧ = just the third season
+⟦126⟧ = Koufax
+⟦127⟧ = Koufax's fourth no-hitter
+⟦128⟧ = Kyle Hendricks
+⟦129⟧ = Larsen's perfect game
+⟦130⟧ = league
+⟦131⟧ = Lee Richmond
+⟦132⟧ = less than nine complete innings
+⟦133⟧ = lowlights
+⟦134⟧ = Major League Baseball
+⟦135⟧ = Major League Baseball (MLB) history
+⟦136⟧ = Major League Baseball history
+⟦137⟧ = major league history
+⟦138⟧ = majors
+⟦139⟧ = manager
+⟦140⟧ = many Twins teams
+⟦141⟧ = Mark Buehrle's perfect game
+⟦142⟧ = Martínez
+⟦143⟧ = Matt Cain
+⟦144⟧ = May
+⟦145⟧ = Michigan
+⟦146⟧ = Minnesota Twins
+⟦147⟧ = MLB history
+⟦148⟧ = months
+⟦149⟧ = move
+⟦150⟧ = multiple perfect games
+⟦151⟧ = National League history
+⟦152⟧ = native
+⟦153⟧ = Nicaragua
+⟦154⟧ = no
+⟦155⟧ = no batter
+⟦156⟧ = no hits
+⟦157⟧ = no opposing batters
+⟦158⟧ = no other year
+⟦159⟧ = No pitcher
+⟦160⟧ = no-hitter
+⟦161⟧ = No-hitters
+⟦162⟧ = Nolan Ryan
+⟦163⟧ = none
+⟦164⟧ = not a single perfect game
+⟦165⟧ = Oakland
+⟦166⟧ = October
+⟦167⟧ = one team
+⟦168⟧ = only 23 perfect games
+⟦169⟧ = only one team
+⟦170⟧ = only two postseason no-hitters
+⟦171⟧ = outs
+⟦172⟧ = over 210,000 games
+⟦173⟧ = Paul Leo Molitor
+⟦174⟧ = people
+⟦175⟧ = perfect games
+⟦176⟧ = performance
+⟦177⟧ = Philadelphia Phillies pitcher Roy Halladay
+⟦178⟧ = Philip Humber's perfect game
+⟦179⟧ = pitch
+⟦180⟧ = pitcher
+⟦181⟧ = pitchers
+⟦182⟧ = pitching
+⟦183⟧ = place
+⟦184⟧ = play
+⟦185⟧ = player
+⟦186⟧ = players
+⟦187⟧ = plenty
+⟦188⟧ = postseason
+⟦189⟧ = postseason play
+⟦190⟧ = predecessor
+⟦191⟧ = Randy Johnson
+⟦192⟧ = record
+⟦193⟧ = retirement
+⟦194⟧ = Roy Halladay
+⟦195⟧ = rule
+⟦196⟧ = San Francisco
+⟦197⟧ = San Francisco Giants pitcher
+⟦198⟧ = Sandy Koufax
+⟦199⟧ = season
+⟦200⟧ = seasons
+⟦201⟧ = September
+⟦202⟧ = seven All-Star Game appearances
+⟦203⟧ = seven no-hitters
+⟦204⟧ = several rule alterations
+⟦205⟧ = solid seasons
+⟦206⟧ = spans
+⟦207⟧ = speed
+⟦208⟧ = spots
+⟦209⟧ = stadium
+⟦210⟧ = strike
+⟦211⟧ = strikeouts
+⟦212⟧ = subcategory
+⟦213⟧ = subpar batting
+⟦214⟧ = team
+⟦215⟧ = teams
+⟦216⟧ = ten months
+⟦217⟧ = the “Philadelphia Athletics
+⟦218⟧ = the 13th perfect game
+⟦219⟧ = the 140 years
+⟦220⟧ = the 17th
+⟦221⟧ = the 1956 World Series
+⟦222⟧ = the 1998 Minnesota Twins
+⟦223⟧ = the 2010 National League Division Series
+⟦224⟧ = the 2016 National League Championship Series
+⟦225⟧ = the 22nd perfect game
+⟦226⟧ = the American League Central division
+⟦227⟧ = the American League West division
+⟦228⟧ = the Athletics
+⟦229⟧ = the Atlanta Braves
+⟦230⟧ = the Baseball Hall
+⟦231⟧ = the Brooklyn Dodgers
+⟦232⟧ = the Chicago Cubs
+⟦233⟧ = the Cincinnati Reds
+⟦234⟧ = the Cleveland Indians
+⟦235⟧ = the course
+⟦236⟧ = the current definition
+⟦237⟧ = the decisive sixth game
+⟦238⟧ = The Detroit Tigers
+⟦239⟧ = the Dodger stadium dugout
+⟦240⟧ = the Dodgers
+⟦241⟧ = the end
+⟦242⟧ = the entire course
+⟦243⟧ = the feat
+⟦244⟧ = the first perfect game
+⟦245⟧ = the first pitcher
+⟦246⟧ = the first team
+⟦247⟧ = The first two major league perfect games
+⟦248⟧ = the game
+⟦249⟧ = the history
+⟦250⟧ = the Houston Astros
+⟦251⟧ = the incorrect call
+⟦252⟧ = the Kansas City era
+⟦253⟧ = the league
+⟦254⟧ = the Los Angeles Dodgers
+⟦255⟧ = the losing end
+⟦256⟧ = the losing team
+⟦257⟧ = the Major League Baseball
+⟦258⟧ = the majors
+⟦259⟧ = the Milwaukee Brewers
+⟦260⟧ = the minimum 27 batters
+⟦261⟧ = the Minnesota Twins
+⟦262⟧ = the modern era
+⟦263⟧ = the Montreal Expos
+⟦264⟧ = The most recent perfect game
+⟦265⟧ = the most strikeouts
+⟦266⟧ = the move
+⟦267⟧ = the National League
+⟦268⟧ = the National League Division Series
+⟦269⟧ = the New York Yankees
+⟦270⟧ = The Oakland Athletics
+⟦271⟧ = the oldest pitcher
+⟦272⟧ = the only no-hitter
+⟦273⟧ = the only perfect game
+⟦274⟧ = the only perfect game pitcher
+⟦275⟧ = the only postseason game
+⟦276⟧ = the only postseason perfect game
+⟦277⟧ = the opposing team
+⟦278⟧ = The perfect game
+⟦279⟧ = the Philadelphia years
+⟦280⟧ = the predecessor
+⟦281⟧ = the premodern era
+⟦282⟧ = the rule
+⟦283⟧ = the same team
+⟦284⟧ = the San Francisco Giants
+⟦285⟧ = The season
+⟦286⟧ = the Seattle Mariners
+⟦287⟧ = the second perfect game
+⟦288⟧ = the sixth pitcher
+⟦289⟧ = the Tampa Bay Rays
+⟦290⟧ = The team
+⟦291⟧ = the Tigers
+⟦292⟧ = the Tigers perfect game bids
+⟦293⟧ = the time
+⟦294⟧ = the United States
+⟦295⟧ = the World Series
+⟦296⟧ = the World Series MVP
+⟦297⟧ = their early years
+⟦298⟧ = These feats
+⟦299⟧ = This feat
+⟦300⟧ = three perfect game bids
+⟦301⟧ = three perfect games
+⟦302⟧ = Tigers history
+⟦303⟧ = time
+⟦304⟧ = times
+⟦305⟧ = Tom Browning's perfect game
+⟦306⟧ = Tom Kelly's team
+⟦307⟧ = Toronto Blue Jays
+⟦308⟧ = Turner Field
+⟦309⟧ = two other times
+⟦310⟧ = two outs
+⟦311⟧ = Two perfect games
+⟦312⟧ = type
+⟦313⟧ = umpire
+⟦314⟧ = Venezuela native Félix Hernández
+⟦315⟧ = walk
+⟦316⟧ = wild pitch
+⟦317⟧ = Yankee Stadium
+⟦318⟧ = year
+⟦319⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Don Larsen's perfect game] ⟨1⟩⟦166⟧⟨2⟩⟦98⟧⟨3⟩⟦221⟧⟨4⟩⟦81⟧⟨5⟩⟦269⟧⟨6⟩⟦22⟧⟨7⟩⟦98⟧⟨8⟩⟦231⟧⟨9⟩
+[Don Larsen's perfect game] ⟦129⟧⟨10⟩⟦98⟧⟨11⟩⟦273⟧⟨12⟩⟦98⟧⟨13⟩⟦249⟧⟨14⟩⟦107⟧⟨15⟩⟦295⟧⟨16⟩⟦168⟧⟨17⟩⟦99⟧⟨18⟩⟦147⟧⟨19⟩⟦107⟧⟨20⟩
+[Don Larsen's perfect game] ⟨21⟩⟦104⟧⟨22⟩⟦98⟧⟨23⟩⟦272⟧⟨24⟩⟦154⟧⟨25⟩⟦110⟧⟨26⟩⟦35⟧⟨27⟩⟦312⟧⟨28⟩⟦188⟧⟨29⟩⟦189⟧⟨30⟩⟦184⟧⟨31⟩⟦177⟧⟨32⟩⟦180⟧⟨33⟩⟦20⟧⟨34⟩⟦110⟧⟨35⟩⟦233⟧⟨36⟩⟦166⟧⟨37⟩⟦98⟧⟨38⟩⟦268⟧⟨39⟩⟦275⟧⟨40⟩⟦98⟧⟨41⟩⟦34⟧⟨42⟩⟦214⟧⟨43⟩⟦260⟧⟨44⟩⟦50⟧⟨45⟩⟦128⟧⟨46⟩⟦38⟧⟨47⟩⟦232⟧⟨48⟩⟦243⟧⟨49⟩⟦89⟧⟨50⟩⟦237⟧⟨51⟩⟦98⟧⟨52⟩⟦224⟧⟨53⟩
+[1998 Minnesota Twins season] ⟨54⟩⟦140⟧⟨55⟩⟦215⟧⟨56⟩⟦119⟧⟨57⟩⟦74⟧⟨58⟩⟦222⟧⟨59⟩
+[1998 Minnesota Twins season] ⟦290⟧⟨60⟩⟦214⟧⟨61⟩⟦11⟧⟨62⟩⟦192⟧⟨63⟩⟦213⟧⟨64⟩⟦51⟧⟨65⟩⟦182⟧⟨66⟩⟦182⟧⟨67⟩
+[1998 Minnesota Twins season] ⟦285⟧⟨68⟩⟦199⟧⟨69⟩⟦117⟧⟨70⟩⟦208⟧⟨71⟩⟦114⟧⟨72⟩⟦186⟧⟨73⟩⟦205⟧⟨74⟩⟦200⟧⟨75⟩⟦88⟧⟨76⟩⟦77⟧⟨77⟩⟦110⟧⟨78⟩⟦106⟧⟨79⟩⟦193⟧⟨80⟩⟦241⟧⟨81⟩⟦85⟧⟨82⟩⟦285⟧⟨83⟩⟦199⟧⟨84⟩
+[1998 Minnesota Twins season] ⟦306⟧⟨85⟩⟦214⟧⟨86⟩⟦187⟧⟨87⟩⟦187⟧⟨88⟩⟦133⟧⟨89⟩⟦133⟧⟨90⟩⟦98⟧⟨91⟩⟦290⟧⟨92⟩⟦214⟧⟨93⟩⟦144⟧⟨94⟩⟦317⟧⟨95⟩
+[List of Oakland Athletics no-hitters] ⟦270⟧⟨96⟩⟦17⟧⟨97⟩⟦94⟧⟨98⟩⟦165⟧⟨99⟩⟦57⟧⟨100⟩
+[List of Oakland Athletics no-hitters] ⟨101⟩⟦227⟧⟨102⟩⟦79⟧⟨103⟩
+[List of Oakland Athletics no-hitters] ⟨104⟩⟦297⟧⟨105⟩⟦319⟧⟨106⟩⟦217⟧⟨107⟩⟦1⟧⟨108⟩⟦181⟧⟨109⟩⟦181⟧⟨110⟩⟦228⟧⟨111⟩⟦84⟧⟨112⟩⟦111⟧⟨113⟩⟦94⟧⟨114⟩⟦95⟧⟨115⟩⟦107⟧⟨116⟩⟦279⟧⟨117⟩⟦319⟧⟨118⟩⟦266⟧⟨119⟩⟦149⟧⟨120⟩⟦165⟧⟨121⟩⟦163⟧⟨122⟩⟦252⟧⟨123⟩⟦86⟧⟨124⟩
+[List of Oakland Athletics no-hitters] ⟦20⟧⟨125⟩⟦110⟧⟨126⟩⟦134⟧⟨127⟩⟦23⟧⟨128⟩⟦180⟧⟨129⟩⟦181⟧⟨130⟩⟦181⟧⟨131⟩⟦83⟧⟨132⟩⟦49⟧⟨133⟩⟦277⟧⟨134⟩⟦214⟧⟨135⟩⟦242⟧⟨136⟩⟦65⟧⟨137⟩⟦15⟧⟨138⟩⟦98⟧⟨139⟩⟦39⟧⟨140⟩⟦115⟧⟨141⟩
+[List of Oakland Athletics no-hitters] ⟦161⟧⟨142⟩⟦154⟧⟨143⟩⟦111⟧⟨144⟩⟦132⟧⟨145⟩⟦115⟧⟨146⟩⟦253⟧⟨147⟩⟦130⟧⟨148⟩⟦204⟧⟨149⟩⟦195⟧⟨150⟩⟦29⟧⟨151⟩⟦282⟧⟨152⟩⟦195⟧⟨153⟩⟦118⟧⟨154⟩⟦93⟧⟨155⟩
+[List of Oakland Athletics no-hitters] ⟦20⟧⟨156⟩⟦110⟧⟨157⟩⟦167⟧⟨158⟩⟦214⟧⟨159⟩⟦134⟧⟨160⟩⟦23⟧⟨161⟩⟦180⟧⟨162⟩⟦243⟧⟨163⟩⟦89⟧⟨164⟩
+[List of Oakland Athletics no-hitters] ⟦311⟧⟨165⟩⟦99⟧⟨166⟩⟦24⟧⟨167⟩⟦212⟧⟨168⟩⟦160⟧⟨169⟩⟦110⟧⟨170⟩⟦42⟧⟨171⟩⟦107⟧⟨172⟩
+[List of Oakland Athletics no-hitters] ⟨173⟩⟦134⟧⟨174⟩⟦22⟧⟨175⟩⟦98⟧⟨176⟩⟦155⟧⟨177⟩⟦49⟧⟨178⟩⟦33⟧⟨179⟩⟦46⟧⟨180⟩⟦235⟧⟨181⟩⟦65⟧⟨182⟩⟦248⟧⟨183⟩⟦98⟧⟨184⟩
+[List of Oakland Athletics no-hitters] ⟦298⟧⟨185⟩⟦90⟧⟨186⟩⟦62⟧⟨187⟩⟦244⟧⟨188⟩⟦98⟧⟨189⟩⟦30⟧⟨190⟩⟦107⟧⟨191⟩⟦69⟧⟨192⟩⟦287⟧⟨193⟩⟦98⟧⟨194⟩⟦258⟧⟨195⟩⟦138⟧⟨196⟩⟦283⟧⟨197⟩⟦214⟧⟨198⟩⟦216⟧⟨199⟩⟦148⟧⟨200⟩
+[Paul Molitor] ⟦173⟧⟨201⟩⟦2⟧⟨202⟩⟦113⟧⟨203⟩⟦31⟧⟨204⟩⟦185⟧⟨205⟩⟦67⟧⟨206⟩⟦139⟧⟨207⟩⟦261⟧⟨208⟩⟦230⟧⟨209⟩⟦88⟧⟨210⟩
+[Paul Molitor] ⟨211⟩⟦102⟧⟨212⟩⟦318⟧⟨213⟩⟦47⟧⟨214⟩⟦59⟧⟨215⟩⟦259⟧⟨216⟩⟦307⟧⟨217⟩⟦146⟧⟨218⟩
+[Paul Molitor] ⟨219⟩⟦103⟧⟨220⟩⟦112⟧⟨221⟩⟦207⟧⟨222⟩⟦207⟧⟨223⟩
+[Paul Molitor] ⟨224⟩⟦202⟧⟨225⟩⟦36⟧⟨226⟩⟦296⟧⟨227⟩
+[Dennis Martínez's perfect game] ⟨228⟩⟦123⟧⟨229⟩⟦76⟧⟨230⟩⟦263⟧⟨231⟩⟦218⟧⟨232⟩⟦98⟧⟨233⟩⟦136⟧⟨234⟩⟦107⟧⟨235⟩⟦254⟧⟨236⟩⟦80⟧⟨237⟩
+[Dennis Martínez's perfect game] ⟦18⟧⟨238⟩⟦152⟧⟨239⟩⟦101⟧⟨240⟩⟦153⟧⟨241⟩⟦142⟧⟨242⟩⟦245⟧⟨243⟩⟦180⟧⟨244⟩⟦294⟧⟨245⟩⟦22⟧⟨246⟩⟦98⟧⟨247⟩
+[Dennis Martínez's perfect game] ⟨248⟩⟦314⟧⟨249⟩⟦22⟧⟨250⟩⟦98⟧⟨251⟩
+[Dennis Martínez's perfect game] ⟦278⟧⟨252⟩⟦98⟧⟨253⟩⟦240⟧⟨254⟩⟦256⟧⟨255⟩⟦214⟧⟨256⟩⟦305⟧⟨257⟩⟦98⟧⟨258⟩⟦246⟧⟨259⟩⟦214⟧⟨260⟩⟦255⟧⟨261⟩⟦85⟧⟨262⟩⟦63⟧⟨263⟩⟦99⟧⟨264⟩⟦289⟧⟨265⟩⟦256⟧⟨266⟩⟦214⟧⟨267⟩⟦141⟧⟨268⟩⟦98⟧⟨269⟩⟦70⟧⟨270⟩⟦98⟧⟨271⟩⟦318⟧⟨272⟩
+[Dennis Martínez's perfect game] ⟨273⟩⟦278⟧⟨274⟩⟦98⟧⟨275⟩⟦142⟧⟨276⟩⟦239⟧⟨277⟩⟦209⟧⟨278⟩⟦82⟧⟨279⟩
+[List of Detroit Tigers no-hitters] ⟦238⟧⟨280⟩⟦17⟧⟨281⟩⟦94⟧⟨282⟩⟦78⟧⟨283⟩⟦145⟧⟨284⟩
+[List of Detroit Tigers no-hitters] ⟨285⟩⟦226⟧⟨286⟩⟦79⟧⟨287⟩
+[List of Detroit Tigers no-hitters] ⟨288⟩⟦309⟧⟨289⟩⟦304⟧⟨290⟩⟦292⟧⟨291⟩⟦98⟧⟨292⟩⟦53⟧⟨293⟩⟦310⟧⟨294⟩⟦171⟧⟨295⟩
+[List of Detroit Tigers no-hitters] ⟦291⟧⟨296⟩⟦27⟧⟨297⟩⟦96⟧⟨298⟩⟦300⟧⟨299⟩⟦98⟧⟨300⟩⟦53⟧⟨301⟩⟦310⟧⟨302⟩⟦171⟧⟨303⟩
+[List of Detroit Tigers no-hitters] ⟦181⟧⟨304⟩⟦291⟧⟨305⟩⟦203⟧⟨306⟩⟦111⟧⟨307⟩⟦94⟧⟨308⟩⟦95⟧⟨309⟩⟦107⟧⟨310⟩
+[List of Detroit Tigers no-hitters] ⟦20⟧⟨311⟩⟦110⟧⟨312⟩⟦134⟧⟨313⟩⟦23⟧⟨314⟩⟦180⟧⟨315⟩⟦181⟧⟨316⟩⟦181⟧⟨317⟩⟦156⟧⟨318⟩⟦109⟧⟨319⟩⟦242⟧⟨320⟩⟦65⟧⟨321⟩⟦15⟧⟨322⟩⟦98⟧⟨323⟩⟦39⟧⟨324⟩⟦115⟧⟨325⟩
+[List of Detroit Tigers no-hitters] ⟨326⟩⟦19⟧⟨327⟩⟦98⟧⟨328⟩⟦12⟧⟨329⟩⟦49⟧⟨330⟩⟦46⟧⟨331⟩⟦46⟧⟨332⟩⟦25⟧⟨333⟩⟦315⟧⟨334⟩⟦32⟧⟨335⟩⟦87⟧⟨336⟩⟦16⟧⟨337⟩⟦108⟧⟨338⟩⟦179⟧⟨339⟩⟦179⟧⟨340⟩⟦21⟧⟨341⟩⟦45⟧⟨342⟩⟦316⟧⟨343⟩⟦179⟧⟨344⟩⟦210⟧⟨345⟩⟦210⟧⟨346⟩⟦60⟧⟨347⟩⟦61⟧⟨348⟩⟦116⟧⟨349⟩
+[List of Detroit Tigers no-hitters] ⟦161⟧⟨350⟩⟦154⟧⟨351⟩⟦111⟧⟨352⟩⟦132⟧⟨353⟩⟦115⟧⟨354⟩⟦253⟧⟨355⟩⟦130⟧⟨356⟩⟦204⟧⟨357⟩⟦195⟧⟨358⟩⟦29⟧⟨359⟩⟦282⟧⟨360⟩⟦195⟧⟨361⟩⟦118⟧⟨362⟩⟦93⟧⟨363⟩
+[List of Detroit Tigers no-hitters] ⟦20⟧⟨364⟩⟦110⟧⟨365⟩⟦169⟧⟨366⟩⟦214⟧⟨367⟩⟦134⟧⟨368⟩⟦23⟧⟨369⟩⟦180⟧⟨370⟩⟦243⟧⟨371⟩⟦89⟧⟨372⟩
+[List of Detroit Tigers no-hitters] ⟦22⟧⟨373⟩⟦98⟧⟨374⟩⟦24⟧⟨375⟩⟦212⟧⟨376⟩⟦160⟧⟨377⟩⟦110⟧⟨378⟩⟦302⟧⟨379⟩⟦107⟧⟨380⟩
+[List of Detroit Tigers no-hitters] ⟨381⟩⟦134⟧⟨382⟩⟦22⟧⟨383⟩⟦98⟧⟨384⟩⟦155⟧⟨385⟩⟦49⟧⟨386⟩⟦33⟧⟨387⟩⟦46⟧⟨388⟩⟦235⟧⟨389⟩⟦65⟧⟨390⟩⟦248⟧⟨391⟩⟦98⟧⟨392⟩
+[List of Detroit Tigers no-hitters] ⟦299⟧⟨393⟩⟦89⟧⟨394⟩⟦124⟧⟨395⟩⟦37⟧⟨396⟩⟦105⟧⟨397⟩⟦98⟧⟨398⟩⟦52⟧⟨399⟩⟦234⟧⟨400⟩⟦310⟧⟨401⟩⟦171⟧⟨402⟩⟦251⟧⟨403⟩⟦58⟧⟨404⟩⟦14⟧⟨405⟩⟦46⟧⟨406⟩⟦313⟧⟨407⟩⟦120⟧⟨408⟩
+[Sandy Koufax's perfect game] ⟦198⟧⟨409⟩⟦254⟧⟨410⟩⟦22⟧⟨411⟩⟦98⟧⟨412⟩⟦267⟧⟨413⟩⟦232⟧⟨414⟩⟦80⟧⟨415⟩⟦201⟧⟨416⟩
+[Sandy Koufax's perfect game] ⟦126⟧⟨417⟩⟦9⟧⟨418⟩⟦50⟧⟨419⟩⟦46⟧⟨420⟩⟦46⟧⟨421⟩⟦288⟧⟨422⟩⟦180⟧⟨423⟩⟦262⟧⟨424⟩⟦86⟧⟨425⟩⟦22⟧⟨426⟩⟦98⟧⟨427⟩
+[Sandy Koufax's perfect game] ⟦248⟧⟨428⟩⟦98⟧⟨429⟩⟦127⟧⟨430⟩⟦154⟧⟨431⟩⟦110⟧⟨432⟩⟦54⟧⟨433⟩⟦192⟧⟨434⟩⟦162⟧⟨435⟩
+[Sandy Koufax's perfect game] ⟦126⟧⟨436⟩⟦4⟧⟨437⟩⟦50⟧⟨438⟩⟦22⟧⟨439⟩⟦98⟧⟨440⟩⟦197⟧⟨441⟩⟦180⟧⟨442⟩⟦143⟧⟨443⟩⟦124⟧⟨444⟩
+[Sandy Koufax's perfect game] ⟨445⟩⟦40⟧⟨446⟩⟦49⟧⟨447⟩⟦28⟧⟨448⟩⟦115⟧⟨449⟩⟦55⟧⟨450⟩⟦12⟧⟨451⟩⟦49⟧⟨452⟩⟦104⟧⟨453⟩⟦98⟧⟨454⟩⟦274⟧⟨455⟩⟦98⟧⟨456⟩⟦180⟧⟨457⟩⟦71⟧⟨458⟩⟦71⟧⟨459⟩
+[Matt Cain's perfect game] ⟨460⟩⟦124⟧⟨461⟩⟦143⟧⟨462⟩⟦284⟧⟨463⟩⟦225⟧⟨464⟩⟦98⟧⟨465⟩⟦157⟧⟨466⟩⟦50⟧⟨467⟩⟦92⟧⟨468⟩⟦46⟧⟨469⟩⟦135⟧⟨470⟩⟦107⟧⟨471⟩⟦100⟧⟨472⟩⟦94⟧⟨473⟩⟦107⟧⟨474⟩
+[Matt Cain's perfect game] ⟨475⟩⟦250⟧⟨476⟩⟦41⟧⟨477⟩⟦196⟧⟨478⟩⟦57⟧⟨479⟩⟦55⟧⟨480⟩⟦26⟧⟨481⟩⟦50⟧⟨482⟩⟦5⟧⟨483⟩⟦211⟧⟨484⟩⟦265⟧⟨485⟩⟦211⟧⟨486⟩⟦22⟧⟨487⟩⟦98⟧⟨488⟩⟦198⟧⟨489⟩⟦254⟧⟨490⟩
+[Matt Cain's perfect game] ⟨491⟩⟦178⟧⟨492⟩⟦98⟧⟨493⟩⟦56⟧⟨494⟩⟦176⟧⟨495⟩⟦125⟧⟨496⟩⟦199⟧⟨497⟩⟦147⟧⟨498⟩⟦107⟧⟨499⟩⟦150⟧⟨500⟩⟦99⟧⟨501⟩
+[Matt Cain's perfect game] ⟨502⟩⟦124⟧⟨503⟩⟦131⟧⟨504⟩⟦121⟧⟨505⟩⟦175⟧⟨506⟩⟦99⟧⟨507⟩⟦144⟧⟨508⟩⟦194⟧⟨509⟩⟦243⟧⟨510⟩⟦89⟧⟨511⟩
+[Randy Johnson's perfect game] ⟨512⟩⟦144⟧⟨513⟩⟦191⟧⟨514⟩⟦23⟧⟨515⟩⟦180⟧⟨516⟩⟦257⟧⟨517⟩⟦3⟧⟨518⟩⟦22⟧⟨519⟩⟦98⟧⟨520⟩⟦229⟧⟨521⟩
+[Randy Johnson's perfect game] ⟦248⟧⟨522⟩⟦98⟧⟨523⟩⟦183⟧⟨524⟩⟦183⟧⟨525⟩⟦308⟧⟨526⟩⟦43⟧⟨527⟩⟦97⟧⟨528⟩⟦97⟧⟨529⟩⟦13⟧⟨530⟩⟦66⟧⟨531⟩⟦8⟧⟨532⟩⟦174⟧⟨533⟩
+[Randy Johnson's perfect game] ⟦122⟧⟨534⟩⟦293⟧⟨535⟩⟦303⟧⟨536⟩⟦271⟧⟨537⟩⟦180⟧⟨538⟩⟦147⟧⟨539⟩⟦107⟧⟨540⟩⟦22⟧⟨541⟩⟦98⟧⟨542⟩⟦68⟧⟨543⟩⟦104⟧⟨544⟩⟦98⟧⟨545⟩
+[Randy Johnson's perfect game] ⟦278⟧⟨546⟩⟦98⟧⟨547⟩⟦220⟧⟨548⟩⟦6⟧⟨549⟩⟦47⟧⟨550⟩⟦48⟧⟨551⟩⟦107⟧⟨552⟩⟦280⟧⟨553⟩⟦190⟧⟨554⟩⟦72⟧⟨555⟩⟦151⟧⟨556⟩⟦107⟧⟨557⟩⟦280⟧⟨558⟩⟦190⟧⟨559⟩⟦76⟧⟨560⟩
+[List of Major League Baseball perfect games] ⟨561⟩⟦219⟧⟨562⟩⟦319⟧⟨563⟩⟦136⟧⟨564⟩⟦107⟧⟨565⟩⟦172⟧⟨566⟩⟦99⟧⟨567⟩⟦7⟧⟨568⟩⟦99⟧⟨569⟩⟦236⟧⟨570⟩⟦75⟧⟨571⟩
+[List of Major League Baseball perfect games] ⟦159⟧⟨572⟩⟦180⟧⟨573⟩
+[List of Major League Baseball perfect games] ⟦278⟧⟨574⟩⟦98⟧⟨575⟩⟦81⟧⟨576⟩⟦98⟧⟨577⟩⟦98⟧⟨578⟩⟦221⟧⟨579⟩⟦276⟧⟨580⟩⟦98⟧⟨581⟩⟦137⟧⟨582⟩⟦130⟧⟨583⟩⟦107⟧⟨584⟩⟦170⟧⟨585⟩⟦154⟧⟨586⟩⟦111⟧⟨587⟩⟦20⟧⟨588⟩⟦110⟧⟨589⟩⟦194⟧⟨590⟩⟦98⟧⟨591⟩⟦98⟧⟨592⟩⟦223⟧⟨593⟩⟦233⟧⟨594⟩
+[List of Major League Baseball perfect games] ⟦247⟧⟨595⟩⟦130⟧⟨596⟩⟦99⟧⟨597⟩⟦281⟧⟨598⟩⟦86⟧⟨599⟩⟦73⟧⟨600⟩
+[List of Major League Baseball perfect games] ⟦264⟧⟨601⟩⟦98⟧⟨602⟩⟦44⟧⟨603⟩⟦91⟧⟨604⟩⟦286⟧⟨605⟩
+[List of Major League Baseball perfect games] ⟨606⟩⟦301⟧⟨607⟩⟦99⟧⟨608⟩⟦158⟧⟨609⟩⟦318⟧⟨610⟩
+[List of Major League Baseball perfect games] ⟨611⟩⟦64⟧⟨612⟩⟦64⟧⟨613⟩⟦206⟧⟨614⟩⟦206⟧⟨615⟩⟦10⟧⟨616⟩⟦200⟧⟨617⟩⟦164⟧⟨618⟩⟦98⟧⟨619⟩
+
+[user]
+
+问题：
+Who had a perfect game against The Ignitor's team in 1998?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

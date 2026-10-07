@@ -1,0 +1,29 @@
+# 路径一：从人物到学校的直接链
+
+步骤1：使用⟦81⟧，提取“Chris Barnes”这一人物实体，判断其为美国职业保龄球手。
+步骤2：综合⟦43⟧⟦63⟧⟦313⟧，确认Chris Barnes是American professional bowler，且隶属于Professional Bowlers Association，锁定人物身份。
+步骤3：使用⟦624⟧，提取其出生地信息“born February 25, 1970 in Topeka”，得到Topeka这一地点线索。
+步骤4：综合⟦339⟧⟦340⟧，将Topeka与Topeka High School关联，判断Chris Barnes的高中为Topeka High School。
+步骤5：使用⟦2⟧，提取“1,840 students”，并结合⟦350⟧⟦353⟧⟦355⟧所表示的“In ..., there were ... enrolled”结构，确认该校在2010-2011学年的注册学生人数。
+
+结论：Chris Barnes的高中为Topeka High School，该校在2010-2011学年共有1,840名学生注册。
+
+# 路径二：从学校条目反向定位人物
+
+步骤1：使用⟦337⟧⟦340⟧，提取Topeka High School这一学校实体，并综合⟦17⟧判断其为一所完全认证的高中。
+步骤2：综合⟦131⟧⟦338⟧⟦341⟧，提取该校提供grades 9–12，位于Kansas。
+步骤3：使用⟦2⟧，提取该校学生人数为1,840 students，并结合⟦350⟧⟦352⟧⟦353⟧⟦354⟧⟦355⟧的占位结构，确认该数字对应2010-2011学年。
+步骤4：综合⟦81⟧⟦624⟧⟦339⟧，将Chris Barnes的出生地Topeka与Topeka High School交叉验证，确认二者为同一学校。
+步骤5：综合⟦43⟧⟦63⟧，确认Chris Barnes为American professional bowler，从而完成“人物—学校—人数”的闭环。
+
+结论：American professional bowler Chris Barnes的高中是Topeka High School，2010-2011学年注册学生数为1,840人。
+
+# 路径三：排除干扰项并交叉验证
+
+步骤1：使用⟦263⟧⟦357⟧，提取Patrick Henry High School (Ashland, Virginia)的2010-2011 school year信息，判断其为潜在干扰学校。
+步骤2：综合⟦246⟧⟦230⟧，提取该校的students与school信息，但与Chris Barnes的出生地Topeka不符，排除该学校。
+步骤3：使用⟦81⟧⟦624⟧，确认Chris Barnes出生于Topeka，而非Ashland, Virginia。
+步骤4：综合⟦339⟧⟦340⟧⟦2⟧，锁定Topeka High School及其1,840 students，并与⟦350⟧⟦353⟧⟦355⟧的2010-2011学年注册结构交叉验证。
+步骤5：综合⟦43⟧⟦63⟧⟦313⟧，再次确认Chris Barnes为American professional bowler，确保人物身份无误。
+
+结论：排除Patrick Henry High School后，确认Chris Barnes的高中为Topeka High School，2010-2011学年注册学生数为1,840人。

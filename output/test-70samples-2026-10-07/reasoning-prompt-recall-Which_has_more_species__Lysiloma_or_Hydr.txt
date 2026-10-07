@@ -1,0 +1,119 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Lysiloma] ⟦136⟧⟨1⟩⟦17⟧⟨2⟩⟨3⟩⟦85⟧⟨4⟩⟨5⟩⟦232⟧⟦129⟧⟨7⟩⟨6⟩⟨8⟩⟨9⟩
+[Elaeagnus umbellata] ⟨95⟩⟨96⟩⟦64⟧⟨97⟩⟦228⟧⟦65⟧⟨98⟩⟨99⟩⟦121⟧⟨100⟩
+[Sabicu wood] ⟦91⟧
+[Hunteria umbellata] ⟦241⟧
+[Hydrocotyle ranunculoides] ⟦169⟧
+[Lysiloma latisiliquum] ⟦76⟧⟦74⟧ | ⟦137⟧⟦126⟧⟨358⟩⟨359⟩⟦75⟧⟨360⟩⟨361⟩⟦270⟧⟦213⟧⟦213⟧⟨362⟩⟨363⟩⟦22⟧⟨364⟩⟨365⟩⟦253⟧⟦253⟧⟨366⟩⟨367⟩⟦237⟧⟦164⟧⟨369⟩⟦76⟧⟨368⟩⟨370⟩⟦74⟧⟨371⟩⟦199⟧⟨372⟩⟦245⟧⟨373⟩⟦216⟧⟨374⟩⟦217⟧⟨375⟩⟦200⟧⟨376⟩⟦153⟧⟨377⟩
+[Hydrocotyle umbellata] ⟦105⟧⟦257⟧⟨378⟩⟨379⟩⟦32⟧⟦168⟧⟨380⟩⟨381⟩⟦182⟧⟦94⟧⟨382⟩⟨383⟩
+[Hydrocotyle umbellata] ⟦201⟧ | ⟦201⟧
+
+符号表：
+⟦17⟧ = a genus
+⟦22⟧ = a species
+⟦32⟧ = an aquatic plant
+⟦64⟧ = eastern Asia
+⟦65⟧ = eastwards
+⟦74⟧ = Fabaceae
+⟦75⟧ = false tamarind
+⟦76⟧ = family
+⟦85⟧ = flowering plants
+⟦91⟧ = genus
+⟦94⟧ = habitat
+⟦105⟧ = Hydrocotyle umbellata
+⟦121⟧ = Japan
+⟦126⟧ = latisiliquum
+⟦129⟧ = legume
+⟦136⟧ = Lysiloma
+⟦137⟧ = Lysiloma latisiliquum
+⟦153⟧ = northern Central America
+⟦164⟧ = pea
+⟦168⟧ = plant
+⟦169⟧ = plants
+⟦182⟧ = sandy habitat
+⟦199⟧ = southern Florida
+⟦200⟧ = southern Mexico
+⟦201⟧ = species
+⟦213⟧ = tamarind
+⟦216⟧ = the Bahamas
+⟦217⟧ = the Caribbean
+⟦228⟧ = the Himalayas eastwards
+⟦232⟧ = the legume family
+⟦237⟧ = the pea family
+⟦241⟧ = The species
+⟦245⟧ = the United States
+⟦253⟧ = tree
+⟦257⟧ = Umbellata
+⟦270⟧ = wild tamarind
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  of 
+⟨4⟩ = 
+⟨5⟩ =  in 
+⟨6⟩ = 
+⟨7⟩ =  
+⟨8⟩ = , 
+⟨9⟩ = .
+⟨95⟩ = 
+⟨96⟩ =  is indigenous to 
+⟨97⟩ =  and ranges from 
+⟨98⟩ = 
+⟨99⟩ =  to 
+⟨100⟩ = .
+⟨358⟩ = 
+⟨359⟩ = , commonly known as 
+⟨360⟩ = 
+⟨361⟩ =  or 
+⟨362⟩ = 
+⟨363⟩ = , is 
+⟨364⟩ = 
+⟨365⟩ =  of 
+⟨366⟩ = 
+⟨367⟩ =  in 
+⟨368⟩ = 
+⟨369⟩ =  
+⟨370⟩ = , 
+⟨371⟩ = , that is native to 
+⟨372⟩ =  in 
+⟨373⟩ = , 
+⟨374⟩ = , 
+⟨375⟩ = , 
+⟨376⟩ = , and 
+⟨377⟩ = .
+⟨378⟩ = 
+⟨379⟩ = , is 
+⟨380⟩ = 
+⟨381⟩ =  that thrives in wet, 
+⟨382⟩ = 
+⟨383⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which has more species, Lysiloma or Hydrocotyle umbellata?

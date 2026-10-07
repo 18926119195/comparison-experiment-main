@@ -1,0 +1,4294 @@
+[
+  {
+    "qid": "hotpot_32",
+    "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+    "expectedAnswer": "Charles Eugène",
+    "recallValid": true,
+    "selectedNounCount": 34,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "charles"
+    ],
+    "missingTokens": [
+      "eugene"
+    ]
+  },
+  {
+    "qid": "hotpot_100",
+    "question": "Where did the descendants of the group of black Indians associated with the Seminole people settle?",
+    "expectedAnswer": "Coahuila, Mexico",
+    "recallValid": true,
+    "selectedNounCount": 39,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "coahuila",
+      "mexico"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_101",
+    "question": "David Huntsinger has worked with this gospel singer born in the month of July?",
+    "expectedAnswer": "Larnelle Harris",
+    "recallValid": true,
+    "selectedNounCount": 48,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "larnelle",
+      "harris"
+    ]
+  },
+  {
+    "qid": "hotpot_105",
+    "question": "Which American film actor and dancer starred in the 1945 film Johnny Angel?",
+    "expectedAnswer": "George Raft",
+    "recallValid": true,
+    "selectedNounCount": 37,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "george",
+      "raft"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_125",
+    "question": "Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?",
+    "expectedAnswer": "Richmond",
+    "recallValid": true,
+    "selectedNounCount": 55,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "richmond"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_163",
+    "question": "What British singer-songwriter hosted the 16th Annual Young Hollywood Awards?",
+    "expectedAnswer": "Kelly Lee Osbourne",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "kelly",
+      "lee",
+      "osbourne"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_190",
+    "question": "Joe Walker played for which team that ends their regular season with the Civil War rivalry game?",
+    "expectedAnswer": "Oregon Ducks football",
+    "recallValid": true,
+    "selectedNounCount": 19,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "oregon",
+      "ducks",
+      "football"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_191",
+    "question": "What station broadcast the episode \"Marry Me a Little, Marry Me a Little More\" , of the series created by Max Mutchnick and David Kohan?",
+    "expectedAnswer": "National Broadcasting Company",
+    "recallValid": true,
+    "selectedNounCount": 25,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "national",
+      "broadcasting",
+      "company"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_201",
+    "question": "Chris Williams last played for which football club from the National League North?",
+    "expectedAnswer": "Salford City Football Club",
+    "recallValid": true,
+    "selectedNounCount": 17,
+    "fullMatch": false,
+    "tokenCoverage": 0.75,
+    "matchedTokens": [
+      "salford",
+      "city",
+      "football"
+    ],
+    "missingTokens": [
+      "club"
+    ]
+  },
+  {
+    "qid": "hotpot_215",
+    "question": "The Tennessee Volunteers football team plays as a member for a conference in what city?",
+    "expectedAnswer": "Birmingham, Alabama",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "birmingham",
+      "alabama"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_241",
+    "question": "What american actress/singer born in 1956 recorded the song Something there for beauty and the beast?",
+    "expectedAnswer": "Donna Paige Helmintoller",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": false,
+    "tokenCoverage": 0.33,
+    "matchedTokens": [
+      "paige"
+    ],
+    "missingTokens": [
+      "donna",
+      "helmintoller"
+    ]
+  },
+  {
+    "qid": "hotpot_268",
+    "question": "What is the population according to the 2007 population census of the city in which the National Archives and Library of Ethiopia is located?",
+    "expectedAnswer": "3,384,569",
+    "recallValid": true,
+    "selectedNounCount": 38,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "384",
+      "569"
+    ]
+  },
+  {
+    "qid": "hotpot_282",
+    "question": "In what month was the relief first officer of the flight that crashed on its way to Cairo with a stop in New York Born?",
+    "expectedAnswer": "February",
+    "recallValid": true,
+    "selectedNounCount": 38,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "february"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_283",
+    "question": "Which film was released first: Sacred Planet or Oz the Great and Powerful?",
+    "expectedAnswer": "Sacred Planet",
+    "recallValid": true,
+    "selectedNounCount": 24,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "sacred",
+      "planet"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_289",
+    "question": "Which came to market first, \"Hey Pa! There's a Goat on the Roof\" or \"Poleconomy\"",
+    "expectedAnswer": "Hey Pa! There's a Goat on the Roof",
+    "recallValid": true,
+    "selectedNounCount": 13,
+    "fullMatch": false,
+    "tokenCoverage": 0.6,
+    "matchedTokens": [
+      "pa",
+      "goat",
+      "roof"
+    ],
+    "missingTokens": [
+      "hey",
+      "there"
+    ]
+  },
+  {
+    "qid": "hotpot_291",
+    "question": "What is the population of the town at the intersection of Interstate Highways 77 and  the longest Interstate highway within the borders of Virginia?",
+    "expectedAnswer": "8,211 at the 2010 census",
+    "recallValid": true,
+    "selectedNounCount": 28,
+    "fullMatch": false,
+    "tokenCoverage": 0.67,
+    "matchedTokens": [
+      "2010",
+      "census"
+    ],
+    "missingTokens": [
+      "211"
+    ]
+  },
+  {
+    "qid": "hotpot_322",
+    "question": "Rock Springs is a collection of short stories by an author born in what year?",
+    "expectedAnswer": "1944",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1944"
+    ]
+  },
+  {
+    "qid": "hotpot_373",
+    "question": "which is traditionally drunk before retiring to bed, Hot toddy or Kir?",
+    "expectedAnswer": "Hot toddy",
+    "recallValid": true,
+    "selectedNounCount": 41,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "hot",
+      "toddy"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_379",
+    "question": "What criteria subjectively qualifies the Houston Astrodome to be called the Eighth Wonder of the World?",
+    "expectedAnswer": "comparable to the seven Wonders of the World",
+    "recallValid": true,
+    "selectedNounCount": 28,
+    "fullMatch": false,
+    "tokenCoverage": 0.75,
+    "matchedTokens": [
+      "seven",
+      "wonders",
+      "world"
+    ],
+    "missingTokens": [
+      "comparable"
+    ]
+  },
+  {
+    "qid": "hotpot_391",
+    "question": "Which cast member of Alice Upside Down also stars in the ABC Family/Freeform drama \"Switched at Birth?\"",
+    "expectedAnswer": "Lucas Stephen Grabeel",
+    "recallValid": true,
+    "selectedNounCount": 71,
+    "fullMatch": false,
+    "tokenCoverage": 0.67,
+    "matchedTokens": [
+      "lucas",
+      "grabeel"
+    ],
+    "missingTokens": [
+      "stephen"
+    ]
+  },
+  {
+    "qid": "hotpot_410",
+    "question": "Which has the larger population, Shanghai or Hanggin Rear Banner?",
+    "expectedAnswer": "Shanghai",
+    "recallValid": true,
+    "selectedNounCount": 26,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "shanghai"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_496",
+    "question": "Anthony Avent played basketball fo a High School that is located in a city approcimately 8 mi west of where?",
+    "expectedAnswer": "lower Manhattan",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "lower",
+      "manhattan"
+    ]
+  },
+  {
+    "qid": "hotpot_504",
+    "question": "During which years was the model of car, featured on the cover of Earth's \"Pentastar: In the Style of Demons\" manufactured?",
+    "expectedAnswer": "1964 to 1974",
+    "recallValid": true,
+    "selectedNounCount": 33,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "1964",
+      "1974"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_627",
+    "question": "Flynn Rider is voiced by which American actor and singer born September 29, 1980?",
+    "expectedAnswer": "Zachary Levi",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "zachary",
+      "levi"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_720",
+    "question": " Jason Regler, stated that he had the idea for the flashing wristbands during a song built around which instrument ?",
+    "expectedAnswer": "an organ",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "organ"
+    ]
+  },
+  {
+    "qid": "hotpot_737",
+    "question": "Young Sheldon, the tv series that follows the character Sheldon Cooper at the age of 9, is a spin-off from what prequel?",
+    "expectedAnswer": "\"The Big Bang Theory\"",
+    "recallValid": true,
+    "selectedNounCount": 34,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "big",
+      "bang",
+      "theory"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_738",
+    "question": "Mawson  is an electoral district that includes the wine regional around which town 35 km south of Adelaide?",
+    "expectedAnswer": "McLaren Vale",
+    "recallValid": true,
+    "selectedNounCount": 22,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "mclaren",
+      "vale"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_752",
+    "question": "Are David O. Russell and Tony Gatlif from the same country?",
+    "expectedAnswer": "no",
+    "recallValid": true,
+    "selectedNounCount": 25,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "no"
+    ]
+  },
+  {
+    "qid": "hotpot_844",
+    "question": "What song written by Jimmy Webb inspired the name of a supergroup including Johnny Cash?",
+    "expectedAnswer": "Highwayman",
+    "recallValid": true,
+    "selectedNounCount": 47,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "highwayman"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_871",
+    "question": "Repertoire of Plácido Domingo appeared in an opera written by whom which was based on a play by William Shakespeare?",
+    "expectedAnswer": "Giuseppe Verdi",
+    "recallValid": true,
+    "selectedNounCount": 41,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "giuseppe",
+      "verdi"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_872",
+    "question": "Naval Air Station Ellyson Field was an auxiliary facility to the air station in which community?",
+    "expectedAnswer": "Warrington",
+    "recallValid": true,
+    "selectedNounCount": 33,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "warrington"
+    ]
+  },
+  {
+    "qid": "hotpot_930",
+    "question": "Victor Varnada directed Twisted Fortune, which starred which brother of Eddie Murphy?",
+    "expectedAnswer": "Charlie Murphy",
+    "recallValid": true,
+    "selectedNounCount": 36,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "charlie",
+      "murphy"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_948",
+    "question": "Tamanchey is a comedy film that starred the actress who works in what type of films?",
+    "expectedAnswer": "Hindi",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "hindi"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_984",
+    "question": "What is the name of Bruce Willis's character in Unbreakable?",
+    "expectedAnswer": "David Dunn",
+    "recallValid": true,
+    "selectedNounCount": 37,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "david",
+      "dunn"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1003",
+    "question": "The Cineplex Odeon Theatres are now operated as which American movie theater chain majority-owned by Chinese conglomerate Dalian Wanda Group?",
+    "expectedAnswer": "AMC Theatres",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "amc",
+      "theatres"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1004",
+    "question": "Who was involved in the arrest of Dread Pirate Roberts?",
+    "expectedAnswer": "Christopher \"Chris\" Tarbell",
+    "recallValid": true,
+    "selectedNounCount": 26,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "christopher",
+      "chris",
+      "tarbell"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1091",
+    "question": "\"Big for Your Boots\" is a song by an English grime and hip hop artist whose most  successful song to date is what?",
+    "expectedAnswer": "Shut Up",
+    "recallValid": true,
+    "selectedNounCount": 24,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "shut",
+      "up"
+    ]
+  },
+  {
+    "qid": "hotpot_1109",
+    "question": "What is the main flavor of both soft drinks, Solo from Norway, and Sunkist?",
+    "expectedAnswer": "orange",
+    "recallValid": true,
+    "selectedNounCount": 8,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "orange"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1154",
+    "question": "When was the English-born South Australian brewer whose brewery was amalgamated with W. K. Simms's West End Brewery. born ",
+    "expectedAnswer": "6 April 1830",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "april",
+      "1830"
+    ]
+  },
+  {
+    "qid": "hotpot_1165",
+    "question": "Are both Adolfo Bioy Casares and James Norman Hall Argentinian authors?",
+    "expectedAnswer": "no",
+    "recallValid": true,
+    "selectedNounCount": 36,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "no"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1207",
+    "question": "In which part of Attica was the battle of Marathon in 490 BC fought?",
+    "expectedAnswer": "northeastern",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "northeastern"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1297",
+    "question": "Tryon D. Lewis is a lawyer from Odessa, Texas which is located in what county?",
+    "expectedAnswer": "Ector County",
+    "recallValid": true,
+    "selectedNounCount": 23,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "ector",
+      "county"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1303",
+    "question": "What is a Southern European island country that was home to an airline pilot who flew the CASA-212-200 Aviocar before retiring in 2008 for health reasons? ",
+    "expectedAnswer": "Malta",
+    "recallValid": true,
+    "selectedNounCount": 43,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "malta"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1304",
+    "question": "Was Cars 2 released by the same company which used songs written by Lin-Manuel Miranda in another of its movies?",
+    "expectedAnswer": "yes",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "yes"
+    ]
+  },
+  {
+    "qid": "hotpot_1311",
+    "question": "Andrew Stanton co-directed which film which featured greedy grasshoppers?",
+    "expectedAnswer": "A Bug's Life",
+    "recallValid": true,
+    "selectedNounCount": 54,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "bug",
+      "life"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1312",
+    "question": "Who produced the 1998 British comedy starring the director of the feature film \"Eddie the Eagle\"?",
+    "expectedAnswer": "Matthew Vaughn",
+    "recallValid": true,
+    "selectedNounCount": 18,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "matthew",
+      "vaughn"
+    ]
+  },
+  {
+    "qid": "hotpot_1343",
+    "question": "Who was person born in Sweden 1964 that founded Hidden City Entertainment in 2004?",
+    "expectedAnswer": "Jesper Myrfors",
+    "recallValid": true,
+    "selectedNounCount": 22,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "jesper",
+      "myrfors"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1356",
+    "question": "Ælfgifu of Exeter and Ælfgifu of Shaftesbury are both known for being what?",
+    "expectedAnswer": "saint",
+    "recallValid": true,
+    "selectedNounCount": 43,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "saint"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1376",
+    "question": "Was 9/11: Press for Truth released prior to Chasing Coral?",
+    "expectedAnswer": "yes",
+    "recallValid": true,
+    "selectedNounCount": 18,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "yes"
+    ]
+  },
+  {
+    "qid": "hotpot_1408",
+    "question": "Where is the historic meeting venue built in a style taught at the Ecole des Beaux-Arts?",
+    "expectedAnswer": "First Street",
+    "recallValid": true,
+    "selectedNounCount": 28,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "first",
+      "street"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1464",
+    "question": "Which Star of British-Canadian-American satirical comedy, co starting with Ricky Gervais, began his career in sketch comedy series\"Full Frontal\" ?",
+    "expectedAnswer": "Eric Banadinović",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "eric",
+      "banadinovic"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1465",
+    "question": "Kevin Watson currently manages which Southern League football team?",
+    "expectedAnswer": "Bishop's Stortford",
+    "recallValid": true,
+    "selectedNounCount": 10,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "bishop",
+      "stortford"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1477",
+    "question": "What city is the flying component of the United States Air Force 432d Wing stationed in",
+    "expectedAnswer": "Clark County",
+    "recallValid": true,
+    "selectedNounCount": 15,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "clark",
+      "county"
+    ]
+  },
+  {
+    "qid": "hotpot_1490",
+    "question": "Li Yitong made her television debut on which network?",
+    "expectedAnswer": "Dragon TV",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "dragon",
+      "tv"
+    ]
+  },
+  {
+    "qid": "hotpot_1511",
+    "question": "Who is the lead vocalist for Maroon 5's sixth studio album?",
+    "expectedAnswer": "Adam Levine",
+    "recallValid": true,
+    "selectedNounCount": 37,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "adam",
+      "levine"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1520",
+    "question": "Vestfold and Telemark each border what other Norwegian county?",
+    "expectedAnswer": "Buskerud",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "buskerud"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1521",
+    "question": "Are Out Traveler and Reader's Digest both magazines?",
+    "expectedAnswer": "yes",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "yes"
+    ]
+  },
+  {
+    "qid": "hotpot_1549",
+    "question": "What is the nationality of the wrestler who sang on A Jingle with Jillian?",
+    "expectedAnswer": "American",
+    "recallValid": true,
+    "selectedNounCount": 14,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "american"
+    ]
+  },
+  {
+    "qid": "hotpot_1569",
+    "question": "When did the the Antonine who was known as the third of the five good emperors live?",
+    "expectedAnswer": "24 January 76 – 10 July 138",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "24",
+      "january",
+      "76",
+      "10",
+      "july",
+      "138"
+    ]
+  },
+  {
+    "qid": "hotpot_1603",
+    "question": "Adena Friedman was formerly the managing director and CFO of a company that specializes in what four key business areas?",
+    "expectedAnswer": "corporate private equity, real assets, global market strategies, and investment solutions.",
+    "recallValid": true,
+    "selectedNounCount": 36,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "corporate",
+      "private",
+      "equity",
+      "real",
+      "assets",
+      "global",
+      "market",
+      "strategies",
+      "investment",
+      "solutions"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1612",
+    "question": "KSCW-DT is part of a duopoly with which virtual channel 12 in Wichita?",
+    "expectedAnswer": "KWCH-DT",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "kwch"
+    ],
+    "missingTokens": [
+      "dt"
+    ]
+  },
+  {
+    "qid": "hotpot_1614",
+    "question": "The composer of the music for the ballet \"The Seasons\"  was the director of what organization from 1905 to 1928?",
+    "expectedAnswer": "Saint Petersburg Conservatory",
+    "recallValid": true,
+    "selectedNounCount": 51,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "saint",
+      "petersburg",
+      "conservatory"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1642",
+    "question": "Which American film director and actor famous for his role as Donny \"The Bear Jew\" Donowitz wrote the 2012 film \"The Man with the Iron Fists\"?",
+    "expectedAnswer": "Eli Roth",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "eli",
+      "roth"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1700",
+    "question": "What supernatural horror film did Miles Doleac have a role in?",
+    "expectedAnswer": "Sleepy Hollow",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "hollow"
+    ],
+    "missingTokens": [
+      "sleepy"
+    ]
+  },
+  {
+    "qid": "hotpot_1713",
+    "question": "Killing You is a song by a band that consists of lead vocalist Danny Worsnop, guitarists Ben Bruce and Cameron Liddell, drummer James Cassells and what bassist?",
+    "expectedAnswer": "Sam Bettley",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "sam",
+      "bettley"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1717",
+    "question": "What day in November is Southpark most congested?",
+    "expectedAnswer": "the fourth Thursday",
+    "recallValid": true,
+    "selectedNounCount": 13,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "fourth",
+      "thursday"
+    ]
+  },
+  {
+    "qid": "hotpot_1753",
+    "question": "What was the arena, in which the 2017 Brit Awards were held, called during the 2012 Olympics ?",
+    "expectedAnswer": "North Greenwich Arena",
+    "recallValid": true,
+    "selectedNounCount": 49,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "north",
+      "greenwich",
+      "arena"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1771",
+    "question": "Are the bands \"Black Grape\" and \"Balance and Composure\" from the same country?",
+    "expectedAnswer": "no",
+    "recallValid": true,
+    "selectedNounCount": 17,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "no"
+    ]
+  },
+  {
+    "qid": "hotpot_1796",
+    "question": "What party was Johan Henrik Deuntzer a part of before the party that translates to the \"Radical Left?\"",
+    "expectedAnswer": "Liberal \"Venstre\" party",
+    "recallValid": true,
+    "selectedNounCount": 40,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "liberal",
+      "venstre",
+      "party"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1813",
+    "question": "MadMaze was developed by Eric Goldberg as what type of game? ",
+    "expectedAnswer": "role-playing game",
+    "recallValid": true,
+    "selectedNounCount": 22,
+    "fullMatch": false,
+    "tokenCoverage": 0.33,
+    "matchedTokens": [
+      "game"
+    ],
+    "missingTokens": [
+      "role",
+      "playing"
+    ]
+  },
+  {
+    "qid": "hotpot_1847",
+    "question": "Who was the original female founder of the brewery that was purchased in 2006 by the largest brewery in the state of Maryland?",
+    "expectedAnswer": "Marjorie McGinnis",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "marjorie",
+      "mcginnis"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1866",
+    "question": "Olivia DeJonge starred in an American horror film directed by Shyamalan called what",
+    "expectedAnswer": "The Visit",
+    "recallValid": true,
+    "selectedNounCount": 22,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "visit"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1874",
+    "question": "What subsidiary of the largest airline of the Republic of China (Taiwan) has a main hub at Taichung Airport?",
+    "expectedAnswer": "Mandarin Airlines",
+    "recallValid": true,
+    "selectedNounCount": 65,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "mandarin",
+      "airlines"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1879",
+    "question": "What was the creator of the Moshulu Parkway known as?",
+    "expectedAnswer": "\"master builder\" of mid-20th century New York City",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": false,
+    "tokenCoverage": 0.63,
+    "matchedTokens": [
+      "master",
+      "builder",
+      "new",
+      "york",
+      "city"
+    ],
+    "missingTokens": [
+      "mid",
+      "20th",
+      "century"
+    ]
+  },
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "silvia",
+      "navarro"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1933",
+    "question": " Underfist: Halloween Bash was going to be the setup for a new series spin-off but the contract expired with a cable and television station that was launched on October 1, 19962 by whom?",
+    "expectedAnswer": "Betty Cohen",
+    "recallValid": true,
+    "selectedNounCount": 53,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "betty",
+      "cohen"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1937",
+    "question": "What collegiate division does the team coached by P.W. Underwood play in?",
+    "expectedAnswer": "Division I",
+    "recallValid": true,
+    "selectedNounCount": 14,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "division"
+    ]
+  },
+  {
+    "qid": "hotpot_1939",
+    "question": "The Legendary A&M Sessions contain five songs by the singer whose work was conducted with what band?",
+    "expectedAnswer": "Magic Band",
+    "recallValid": true,
+    "selectedNounCount": 44,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "magic",
+      "band"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1947",
+    "question": " Who was the founder of a chain of supermarkets that is now headquartered on Nott Street in Schenectady?",
+    "expectedAnswer": "Joseph E. Grosberg",
+    "recallValid": true,
+    "selectedNounCount": 51,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "joseph",
+      "grosberg"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_1983",
+    "question": "Revival of 1800 was a series of evangelical christian meetings. In what month did Francis Asbury begin attending the revival meetings ?",
+    "expectedAnswer": "June",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "june"
+    ]
+  },
+  {
+    "qid": "hotpot_1999",
+    "question": "What American corporation owns Claim Jumper?",
+    "expectedAnswer": "Landry's",
+    "recallValid": true,
+    "selectedNounCount": 13,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "landry"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2008",
+    "question": "God Is Not Great is by a journalist which due to his actions made him what?",
+    "expectedAnswer": "both a lauded intellectual and a controversial public figure",
+    "recallValid": true,
+    "selectedNounCount": 62,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "intellectual",
+      "public",
+      "figure"
+    ],
+    "missingTokens": [
+      "both",
+      "lauded",
+      "controversial"
+    ]
+  },
+  {
+    "qid": "hotpot_2020",
+    "question": "What mine was operated by Royal Oak Mines at at earlier date, Kemess Mine or Colomac Mine?",
+    "expectedAnswer": "The Colomac Mine",
+    "recallValid": true,
+    "selectedNounCount": 67,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "colomac",
+      "mine"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2073",
+    "question": "Rani Jhansi Marine National Park commemorates what queen of the princely state of Jhansi in North India?",
+    "expectedAnswer": "Lakshmibai, the Rani of Jhansi",
+    "recallValid": true,
+    "selectedNounCount": 26,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "lakshmibai",
+      "rani",
+      "jhansi"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2135",
+    "question": "Are both Ride a Wild Pony and Frozen 2 computer-animated films?",
+    "expectedAnswer": "no",
+    "recallValid": true,
+    "selectedNounCount": 23,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "no"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2160",
+    "question": "Which college was founded first, Williams College or University of Southern California?",
+    "expectedAnswer": "Williams College",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "williams",
+      "college"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2174",
+    "question": "Who was born first out of Todd Field and Aaron Katz?",
+    "expectedAnswer": "William Todd Field",
+    "recallValid": true,
+    "selectedNounCount": 11,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "william",
+      "todd",
+      "field"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2183",
+    "question": "Which facility was founded in Missouri, Discovery Zone or Valentino's?",
+    "expectedAnswer": "Discovery Zone",
+    "recallValid": true,
+    "selectedNounCount": 43,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "discovery",
+      "zone"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2189",
+    "question": "George Reed was, along with which Drake University player, one of the greatest running backs in CFL history?",
+    "expectedAnswer": "Johnny D. Bright",
+    "recallValid": true,
+    "selectedNounCount": 22,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "johnny",
+      "bright"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2211",
+    "question": "Who covered the song I Love You by Chris Write?",
+    "expectedAnswer": "People! and The Carnabeats",
+    "recallValid": true,
+    "selectedNounCount": 13,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "people"
+    ],
+    "missingTokens": [
+      "carnabeats"
+    ]
+  },
+  {
+    "qid": "hotpot_2215",
+    "question": "Wojtek Wolski played for what team based in the Miami metropolitan area?",
+    "expectedAnswer": "Florida Panthers",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "florida",
+      "panthers"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2218",
+    "question": "Ithihasa and the Indian music composer of  \"Chronic Bachelor\", \"Udayananu Tharam\", \"Naran\", \"Puthiya Mukham,\" \"Urumi\", \"Grandmaster\" and \"Bhaskar the Rascal\" are known in what type of films/cinema?",
+    "expectedAnswer": "Malayalam",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "malayalam"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2225",
+    "question": "What American filmmaker was the co-founder of Troma Entertainment film studio, Stanley Lloyd Kaufman, Jr. or Jay T. Wright?",
+    "expectedAnswer": "Stanley Lloyd Kaufman, Jr.",
+    "recallValid": true,
+    "selectedNounCount": 37,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "stanley",
+      "lloyd",
+      "kaufman",
+      "jr"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2231",
+    "question": "How many episodes were in the season of \"Rick and Morty\" that featured an episode called \"The Ricks Must Be Crazy\"?",
+    "expectedAnswer": "ten",
+    "recallValid": true,
+    "selectedNounCount": 41,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "ten"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2301",
+    "question": "What company started the urban complex development that included the highrise building, The Harmon?",
+    "expectedAnswer": "MGM Resorts International",
+    "recallValid": true,
+    "selectedNounCount": 60,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "mgm",
+      "resorts",
+      "international"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2318",
+    "question": "Is there fruit juice in both a Fizz and a Painkiller cocktail?",
+    "expectedAnswer": "yes",
+    "recallValid": true,
+    "selectedNounCount": 51,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "yes"
+    ]
+  },
+  {
+    "qid": "hotpot_2323",
+    "question": "Which Houston, TX based store did Paul Traub participate in the bankruptcy hearing?",
+    "expectedAnswer": "Stage Stores",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "stage",
+      "stores"
+    ]
+  },
+  {
+    "qid": "hotpot_2347",
+    "question": "How did Pre's Trail's namesake die?",
+    "expectedAnswer": "in an automobile accident",
+    "recallValid": true,
+    "selectedNounCount": 16,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "automobile",
+      "accident"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2378",
+    "question": "How does this series represent a function, which is also used in the Homotopy analysis method?",
+    "expectedAnswer": "infinite sum of terms",
+    "recallValid": true,
+    "selectedNounCount": 40,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "infinite",
+      "sum",
+      "terms"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2390",
+    "question": "What film studio produced both National Treasure and The Computer Wore Tennis Shoes?",
+    "expectedAnswer": "Walt Disney Pictures",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "walt",
+      "disney",
+      "pictures"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2394",
+    "question": "Which film was produced first, Dangal or The Man from Snowy River II?",
+    "expectedAnswer": "The Man from Snowy River II",
+    "recallValid": true,
+    "selectedNounCount": 34,
+    "fullMatch": false,
+    "tokenCoverage": 0.8,
+    "matchedTokens": [
+      "man",
+      "snowy",
+      "river",
+      "ii"
+    ],
+    "missingTokens": [
+      "from"
+    ]
+  },
+  {
+    "qid": "hotpot_2396",
+    "question": "Are Centaurium and Dacrydium both genuses of plant species?",
+    "expectedAnswer": "yes",
+    "recallValid": true,
+    "selectedNounCount": 28,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "yes"
+    ]
+  },
+  {
+    "qid": "hotpot_2433",
+    "question": "Which band has released more albums with their original members, Sick Puppies or Third Eye Blind?",
+    "expectedAnswer": "Sick Puppies",
+    "recallValid": true,
+    "selectedNounCount": 69,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "sick",
+      "puppies"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2459",
+    "question": "What's the familiar short name of Polyethylene terephthalate, a material used by bottle makers such as Ecopack of Pakistan?",
+    "expectedAnswer": "PET",
+    "recallValid": true,
+    "selectedNounCount": 2,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "pet"
+    ]
+  },
+  {
+    "qid": "hotpot_2460",
+    "question": "What is the nickname of Stephan Lichtsteiner that refers to the character from the 1994 American comedy-drama film based on the novel by Winston Groom?",
+    "expectedAnswer": "Forrest Gump",
+    "recallValid": true,
+    "selectedNounCount": 33,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "forrest",
+      "gump"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2462",
+    "question": "What town's geographic feature is the battle James Swan was twice wounded at named for?",
+    "expectedAnswer": "Charlestown, Massachusetts",
+    "recallValid": true,
+    "selectedNounCount": 37,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "charlestown",
+      "massachusetts"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2475",
+    "question": "What country is the singer from, who duets with Dave Hemingway on the song \"A Little Time\"?",
+    "expectedAnswer": "Northern Irish",
+    "recallValid": true,
+    "selectedNounCount": 17,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "northern",
+      "irish"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2514",
+    "question": "Where was the community schools to which Franklin Community High School was part of headquartered ?",
+    "expectedAnswer": "Franklin, Indiana",
+    "recallValid": true,
+    "selectedNounCount": 12,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "franklin",
+      "indiana"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2577",
+    "question": "At what height does State Route 160 start?",
+    "expectedAnswer": "4145 ft",
+    "recallValid": true,
+    "selectedNounCount": 92,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "4145",
+      "ft"
+    ]
+  },
+  {
+    "qid": "hotpot_2623",
+    "question": "Where did the designer of the Van de Graaff generator teach at?",
+    "expectedAnswer": "Princeton University and Massachusetts Institute of Technology",
+    "recallValid": true,
+    "selectedNounCount": 17,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "princeton",
+      "university",
+      "massachusetts",
+      "institute",
+      "technology"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2718",
+    "question": "High School Confidential, an eight part documentary followed twelve high school teenagers from a high school in Overland Park, Kansas that ranked what in the 2009 Newsweek ranking of the top 1,500 high schools in the United States?",
+    "expectedAnswer": "#364",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "364"
+    ]
+  },
+  {
+    "qid": "hotpot_2750",
+    "question": "Which genus has more species, Cymbidium or Patrinia?",
+    "expectedAnswer": "Cymbidium",
+    "recallValid": true,
+    "selectedNounCount": 26,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "cymbidium"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2757",
+    "question": "Which of the four US Presidents who have been assinated was shot on the grounds of the Pan-American Exposition at the Temple of Music in Buffalo, New York?",
+    "expectedAnswer": "William McKinley",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "william",
+      "mckinley"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2773",
+    "question": "Q: What 1965-born field director directed the 2002 Indian comedy horror film \"Makdee\" (\"Spider\", in English)?",
+    "expectedAnswer": "Vishal Bhardwaj",
+    "recallValid": true,
+    "selectedNounCount": 33,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "vishal",
+      "bhardwaj"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2782",
+    "question": "which plant has the highest specie  Panicum or Populus ",
+    "expectedAnswer": "Panicum",
+    "recallValid": true,
+    "selectedNounCount": 17,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "panicum"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2796",
+    "question": "Between the Riddlers Revenge and the Green Lantern, which stand-up roller coaster stands tallest?",
+    "expectedAnswer": "The Riddler's Revenge",
+    "recallValid": true,
+    "selectedNounCount": 33,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "riddler",
+      "revenge"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2833",
+    "question": "After Patrick Mercer's suspension in April 2014, who won the seat for Newark?",
+    "expectedAnswer": "Robert Jenrick",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "robert",
+      "jenrick"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2845",
+    "question": "Which singer is younger, Terri Nunn or Sonya Scarlet? ",
+    "expectedAnswer": "Sonya Scarlet",
+    "recallValid": true,
+    "selectedNounCount": 14,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "sonya",
+      "scarlet"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2876",
+    "question": "Who is the Chief Executive Officer of the corporation that owns Space Dev?",
+    "expectedAnswer": "Fatih Ozmen",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "fatih",
+      "ozmen"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2879",
+    "question": "Grown-Ups starred the actor who was best known for which role on  \"'Allo 'Allo!\"?",
+    "expectedAnswer": "Captain Hans Geering",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "captain",
+      "hans",
+      "geering"
+    ]
+  },
+  {
+    "qid": "hotpot_2880",
+    "question": "Hermann Wilhelm Göring was a veteran fighter pilot in a war that ended in what year?",
+    "expectedAnswer": "1918",
+    "recallValid": true,
+    "selectedNounCount": 25,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1918"
+    ]
+  },
+  {
+    "qid": "hotpot_2891",
+    "question": "The player also known as  \"O Fenômeno\" is responsible for popularized a soccer move first reported to be used by what player?",
+    "expectedAnswer": "Law Adam",
+    "recallValid": true,
+    "selectedNounCount": 81,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "law",
+      "adam"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2894",
+    "question": "In what year was the Commander of the second human spaceflight mission in the United States Apollo space program born?",
+    "expectedAnswer": "1928",
+    "recallValid": true,
+    "selectedNounCount": 79,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1928"
+    ]
+  },
+  {
+    "qid": "hotpot_2898",
+    "question": "Wrinkles is a song that was recorded by what American country and Christian country band that was founded in 1982?",
+    "expectedAnswer": "Diamond Rio",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "diamond",
+      "rio"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2953",
+    "question": "Francisco Mela performed with which American Jazz bassist and singer born in 1984 ?",
+    "expectedAnswer": "Esperanza Spalding",
+    "recallValid": true,
+    "selectedNounCount": 38,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "esperanza",
+      "spalding"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_2956",
+    "question": "did Robert Wise have more award nominations than Zoltan Korda?",
+    "expectedAnswer": "yes",
+    "recallValid": true,
+    "selectedNounCount": 48,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "yes"
+    ]
+  },
+  {
+    "qid": "hotpot_2991",
+    "question": "Which 18th-century canal was longer, the Sandy and Beaver Canal in Ohio or New Jersey's Morris Canal?",
+    "expectedAnswer": "Morris Canal",
+    "recallValid": true,
+    "selectedNounCount": 36,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "morris",
+      "canal"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3015",
+    "question": "Who directed the film where Susanne Pollatschek voiced Olivia Flaversham?",
+    "expectedAnswer": "Burny Mattinson, David Michener, and the team of John Musker and Ron Clements",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "burny",
+      "mattinson",
+      "david",
+      "michener",
+      "team",
+      "john",
+      "musker",
+      "ron",
+      "clements"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3030",
+    "question": "When was the folk dance style Johannes Brahms' Liebeslieder Waltzes were written for most popular?",
+    "expectedAnswer": "end of the 18th century",
+    "recallValid": true,
+    "selectedNounCount": 33,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "end",
+      "18th",
+      "century"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3065",
+    "question": "Kasper Peter Schmeichel is the son of a professional footballer who was voted what in 1992 and 1993?",
+    "expectedAnswer": "IFFHS World's Best Goalkeeper",
+    "recallValid": true,
+    "selectedNounCount": 28,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "iffhs",
+      "world",
+      "best",
+      "goalkeeper"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3070",
+    "question": "Band-e-Amir Dragons is named after the lakes in which Afghan national park?",
+    "expectedAnswer": "Band-e Amir National Park",
+    "recallValid": true,
+    "selectedNounCount": 24,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "band",
+      "amir",
+      "national",
+      "park"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3104",
+    "question": "The second studio album by The D.O.C was named as a reference to Charles Manson's idea of a Beatles' song which was a product of McCartney's attempt to create what kind of sound?  ",
+    "expectedAnswer": "as loud and dirty as possible",
+    "recallValid": true,
+    "selectedNounCount": 41,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "loud",
+      "dirty",
+      "possible"
+    ]
+  },
+  {
+    "qid": "hotpot_3117",
+    "question": "How tall was one of Drew Barry's brothers? ",
+    "expectedAnswer": "6 ft",
+    "recallValid": true,
+    "selectedNounCount": 12,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "ft"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3162",
+    "question": "What state is home to the Lake Wobegon Trails and the recording location for the live radio show \"A Prairie Home Companion\"?",
+    "expectedAnswer": "Minnesota",
+    "recallValid": true,
+    "selectedNounCount": 67,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "minnesota"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3281",
+    "question": "What is the Landsman Kill near New York State Route 308?",
+    "expectedAnswer": "a body of water",
+    "recallValid": true,
+    "selectedNounCount": 34,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "body",
+      "water"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3307",
+    "question": "What corporation does the company that publishes the monthly magazine that focuses almost exclusively on the Western United States and featured photograph by Julius Shulman of a home designed by Rodney Walker belong to?",
+    "expectedAnswer": "Southern Progress Corporation",
+    "recallValid": true,
+    "selectedNounCount": 51,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "southern",
+      "progress",
+      "corporation"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3315",
+    "question": "Which wrestler, who died in 2009, featured on the wrestling show Starrcade?",
+    "expectedAnswer": "\"Dr. Death\" Steve Williams",
+    "recallValid": true,
+    "selectedNounCount": 66,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "dr",
+      "death",
+      "steve",
+      "williams"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3323",
+    "question": "What Estonian composer whose music is partly inspired by Gregorian chant set the Latin text of the Magnificat canticle in 1989?",
+    "expectedAnswer": "Arvo Pärt",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "arvo",
+      "part"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3344",
+    "question": "Where is the location of Liberty Square park in Disneyland California?",
+    "expectedAnswer": "Anaheim",
+    "recallValid": true,
+    "selectedNounCount": 29,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "anaheim"
+    ]
+  },
+  {
+    "qid": "hotpot_3348",
+    "question": "What group released a song called \"Stinkfist\" on September 17, 1996?",
+    "expectedAnswer": "Tool",
+    "recallValid": true,
+    "selectedNounCount": 15,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "tool"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3357",
+    "question": "Who was born first, Grigory Margulis or Leonid Levin?",
+    "expectedAnswer": "Gregori Aleksandrovich Margulis",
+    "recallValid": true,
+    "selectedNounCount": 36,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "gregori",
+      "aleksandrovich",
+      "margulis"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3461",
+    "question": "The project that Jeder Rappen zählt is inspired by began in what year?",
+    "expectedAnswer": "2004",
+    "recallValid": true,
+    "selectedNounCount": 41,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "2004"
+    ]
+  },
+  {
+    "qid": "hotpot_3476",
+    "question": "Caprice No. 5 was composed by what Italian violinist, guitarist, and composer, who was the most celebrated violin virtuoso of his time?",
+    "expectedAnswer": "Niccolò (or Nicolò) Paganini",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "niccolo",
+      "nicolo",
+      "paganini"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3514",
+    "question": "Who founded Methodism along with the man who was also part of the revival movement in England and the Great Awakening in the United States?",
+    "expectedAnswer": "George Whitefield",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "george",
+      "whitefield"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3536",
+    "question": "Which American pro basketball player who won gold at the 2008 Summer Olympics was signed by the Utah Jazz during the 2005-05 offseason?",
+    "expectedAnswer": "Carlos Austin Boozer Jr.",
+    "recallValid": true,
+    "selectedNounCount": 26,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "carlos",
+      "austin",
+      "boozer",
+      "jr"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3592",
+    "question": "What is the relation between current manager of Chinese club Tianjin Quanjian and Paolo Cannavaro?",
+    "expectedAnswer": "brother",
+    "recallValid": true,
+    "selectedNounCount": 36,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "brother"
+    ]
+  },
+  {
+    "qid": "hotpot_3616",
+    "question": "Lost in Time includes the theme song for a French/Japanese anime series that was created by who?",
+    "expectedAnswer": "Savin Yeatman-Eiffel",
+    "recallValid": true,
+    "selectedNounCount": 29,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "savin",
+      "yeatman",
+      "eiffel"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3629",
+    "question": "Who is considered the more well known author, Roger Angell or Harry Stephen Keeler?",
+    "expectedAnswer": "Roger Angell",
+    "recallValid": true,
+    "selectedNounCount": 24,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "roger",
+      "angell"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3639",
+    "question": "Name one of the Judges of Spring Baking Championship television series who was born on December 17, 1974 ?",
+    "expectedAnswer": "Jeffrey Adam \"Duff\" Goldman",
+    "recallValid": true,
+    "selectedNounCount": 81,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "duff",
+      "goldman"
+    ],
+    "missingTokens": [
+      "jeffrey",
+      "adam"
+    ]
+  },
+  {
+    "qid": "hotpot_3640",
+    "question": "Who was born first, Juan Rulfo or John le Carré?",
+    "expectedAnswer": "Juan Rulfo",
+    "recallValid": true,
+    "selectedNounCount": 19,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "juan",
+      "rulfo"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3645",
+    "question": "The State Theatre is part of a performing arts centre located in what Australian suburb?",
+    "expectedAnswer": "Southbank",
+    "recallValid": true,
+    "selectedNounCount": 10,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "southbank"
+    ]
+  },
+  {
+    "qid": "hotpot_3654",
+    "question": "How many total staff (including part-time, flexible, and fixed contract staff) does the broadcaster, who released HyperNormalisation, employ?",
+    "expectedAnswer": "35,402",
+    "recallValid": true,
+    "selectedNounCount": 34,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "35",
+      "402"
+    ]
+  },
+  {
+    "qid": "hotpot_3669",
+    "question": "Viscount Yamaji Motoharu was a general in the early Imperial Japanese Army which belonged to which Empire?",
+    "expectedAnswer": "Empire of Japan",
+    "recallValid": true,
+    "selectedNounCount": 18,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "empire",
+      "japan"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3701",
+    "question": "Christopher I of Denmark succeeded his brother, who was king during what period?",
+    "expectedAnswer": "1241 until his death in 1250",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": false,
+    "tokenCoverage": 0.4,
+    "matchedTokens": [
+      "his",
+      "death"
+    ],
+    "missingTokens": [
+      "1241",
+      "until",
+      "1250"
+    ]
+  },
+  {
+    "qid": "hotpot_3707",
+    "question": "What is the city in which Bauerfield International Ariport is based out of?",
+    "expectedAnswer": "Port Vila",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "port",
+      "vila"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3740",
+    "question": "What was the alternate slang name for the World War I era grenade that the egg grenade was less awkward than to handle?",
+    "expectedAnswer": "potato masher",
+    "recallValid": true,
+    "selectedNounCount": 50,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "potato",
+      "masher"
+    ]
+  },
+  {
+    "qid": "hotpot_3762",
+    "question": "Saturn AL-31 is an engine that powers the aircraft produced in what country?",
+    "expectedAnswer": "China",
+    "recallValid": true,
+    "selectedNounCount": 19,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "china"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3789",
+    "question": "What profession does Leonty Magnitsky and Leonid Khachiyan have in common?",
+    "expectedAnswer": "mathematician",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "mathematician"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3790",
+    "question": "Who gave the mother of Alberic II of Spoleto the title \"patricia\" of Rome?",
+    "expectedAnswer": "Pope John X",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "pope",
+      "john"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3839",
+    "question": "What year was the midfielder who shot the winning goal in the 2009 DFB-Pokal Final born?",
+    "expectedAnswer": "1988",
+    "recallValid": true,
+    "selectedNounCount": 18,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1988"
+    ]
+  },
+  {
+    "qid": "hotpot_3898",
+    "question": "What bird of prey can be found around Brackendale?",
+    "expectedAnswer": "The bald eagle",
+    "recallValid": true,
+    "selectedNounCount": 19,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "bald",
+      "eagle"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3910",
+    "question": "Who was a supporting cast member of King Rat and was knighted in February 2001?",
+    "expectedAnswer": "Sir Thomas Daniel Courtenay",
+    "recallValid": true,
+    "selectedNounCount": 51,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "sir",
+      "thomas",
+      "daniel",
+      "courtenay"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3936",
+    "question": "The Trappist Abbey of Achel produces and sells what as an \"Authentic Trappist Product\"?",
+    "expectedAnswer": "Trappist beer",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "trappist",
+      "beer"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_3989",
+    "question": "Which MTV show was hosted by a member of the Likwit Crew?",
+    "expectedAnswer": "Pimp My Ride",
+    "recallValid": true,
+    "selectedNounCount": 187,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "pimp",
+      "my",
+      "ride"
+    ]
+  },
+  {
+    "qid": "hotpot_4006",
+    "question": "David Thewlis had a performance in the film Macbeth as which father of Malcolm and Donalbain?",
+    "expectedAnswer": "King Duncan",
+    "recallValid": true,
+    "selectedNounCount": 49,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "king",
+      "duncan"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4031",
+    "question": "What \"sport\" involving animals dates all the way back to the Tang Dynasty and continued to the beginning of the 19th century?",
+    "expectedAnswer": "Cricket fighting",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "cricket",
+      "fighting"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4074",
+    "question": "Which dog breed is NOT recognized by the Fédération Cynologique Internationale (FCI), the Korean Jindo or the Taigan?",
+    "expectedAnswer": "Taigan",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "taigan"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4091",
+    "question": "A private university that beat Georgetown during a basketball tournament is from what U.S. city?",
+    "expectedAnswer": "Marietta",
+    "recallValid": true,
+    "selectedNounCount": 23,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "marietta"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4093",
+    "question": "Liam McEwan works with what UK monthly men's lifestyle magazine?",
+    "expectedAnswer": "FHM",
+    "recallValid": true,
+    "selectedNounCount": 37,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "fhm"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4106",
+    "question": "Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemian?",
+    "expectedAnswer": "John H. Garabedian",
+    "recallValid": true,
+    "selectedNounCount": 29,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "john",
+      "garabedian"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4110",
+    "question": "Which NFL team did both Don Looney and DeSean Jackson play for?",
+    "expectedAnswer": "Philadelphia Eagles",
+    "recallValid": true,
+    "selectedNounCount": 45,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "eagles"
+    ],
+    "missingTokens": [
+      "philadelphia"
+    ]
+  },
+  {
+    "qid": "hotpot_4173",
+    "question": "What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-hosts?",
+    "expectedAnswer": "College Football Scoreboard",
+    "recallValid": true,
+    "selectedNounCount": 28,
+    "fullMatch": false,
+    "tokenCoverage": 0.67,
+    "matchedTokens": [
+      "college",
+      "football"
+    ],
+    "missingTokens": [
+      "scoreboard"
+    ]
+  },
+  {
+    "qid": "hotpot_4175",
+    "question": "Which British music producer and engineer is notable for working wih an English electronic band having the founders: Dave Gahan, Martin Gore, and Andy Fletcher?",
+    "expectedAnswer": "Gareth Jones",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "gareth",
+      "jones"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4197",
+    "question": "Caleb Kelly plays for a football team with whom as head coach?",
+    "expectedAnswer": "Lincoln Riley",
+    "recallValid": true,
+    "selectedNounCount": 14,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "lincoln",
+      "riley"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4241",
+    "question": "The Story of Them Featuring Van Morrison is a compilation album recorded by what Northern Irish band formed in Belfast in April 1964?",
+    "expectedAnswer": "Them",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "them"
+    ]
+  },
+  {
+    "qid": "hotpot_4249",
+    "question": "Are Benjamin Britten and Béla Bartók from the same country?",
+    "expectedAnswer": "no",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "no"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4312",
+    "question": "which persons private jet called Trump Force One which is built by Boeing Commercial Airplanes and is the manufacturer's largest single aisle passenger aircraft that is produced from 1981 to 2004?",
+    "expectedAnswer": "Donald J. Trump's private jet",
+    "recallValid": true,
+    "selectedNounCount": 34,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "donald",
+      "trump",
+      "private",
+      "jet"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4317",
+    "question": "The largest lake in New Hampshire sits how many vertical feet lower than Lake Kanasatka?",
+    "expectedAnswer": "nine vertical feet",
+    "recallValid": true,
+    "selectedNounCount": 24,
+    "fullMatch": false,
+    "tokenCoverage": 0.33,
+    "matchedTokens": [
+      "feet"
+    ],
+    "missingTokens": [
+      "nine",
+      "vertical"
+    ]
+  },
+  {
+    "qid": "hotpot_4330",
+    "question": "What was Muammar Mohammed Abu Minyar Gaddafi's title during the Libyan Civil War?",
+    "expectedAnswer": "\"Brotherly Leader\" of the Great Socialist People's Libyan Arab Jamahiriya",
+    "recallValid": true,
+    "selectedNounCount": 12,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "brotherly",
+      "leader",
+      "great",
+      "socialist",
+      "people",
+      "libyan",
+      "arab",
+      "jamahiriya"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4334",
+    "question": "Who has a wider scope of profession, Christopher Guest or  Roman Karmen?",
+    "expectedAnswer": "Christopher Haden-Guest",
+    "recallValid": true,
+    "selectedNounCount": 48,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "christopher",
+      "haden",
+      "guest"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4354",
+    "question": "Be Quick '28  football club is locayed in what province?",
+    "expectedAnswer": "Overijssel",
+    "recallValid": true,
+    "selectedNounCount": 17,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "overijssel"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4369",
+    "question": "The Lisbon Traviata revolves around fans of the soprano who was of what nationality?",
+    "expectedAnswer": "Greek-American",
+    "recallValid": true,
+    "selectedNounCount": 24,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "greek",
+      "american"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4427",
+    "question": "Are Mike Bryan and Ray Ruffels both tennis players?",
+    "expectedAnswer": "yes",
+    "recallValid": true,
+    "selectedNounCount": 11,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "yes"
+    ]
+  },
+  {
+    "qid": "hotpot_4428",
+    "question": "What kind of beverage does Planter's Punch and Black Velvet have in common?",
+    "expectedAnswer": "cocktail",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "cocktail"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4438",
+    "question": "Are Toshi and Warrel Dane both in the band Sanctuary?",
+    "expectedAnswer": "no",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "no"
+    ]
+  },
+  {
+    "qid": "hotpot_4448",
+    "question": "Who created the series in which Liza Weil played Bonnie Winterbottom?",
+    "expectedAnswer": "Peter Nowalk",
+    "recallValid": true,
+    "selectedNounCount": 19,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "peter",
+      "nowalk"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4473",
+    "question": "Which river flows next to the German town where the music project \"I Drink My Coffee Alone\" by Alex Gazin originates from?",
+    "expectedAnswer": "Moselle",
+    "recallValid": true,
+    "selectedNounCount": 46,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "moselle"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4577",
+    "question": "In which year did this Russian actress  who produced and performed in the 1922 American silent drama film \"A Doll's House\" immigrate to the United States?",
+    "expectedAnswer": "1905",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1905"
+    ]
+  },
+  {
+    "qid": "hotpot_4582",
+    "question": "Which documentary was made first, The Shame of a City or Unchained Memories?",
+    "expectedAnswer": "Unchained Memories",
+    "recallValid": true,
+    "selectedNounCount": 22,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "unchained",
+      "memories"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4596",
+    "question": "How many books are in the text composed by the founder Nyaya school of Hindu philosophy and is used in the development of Indian logic?",
+    "expectedAnswer": "five books",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "five",
+      "books"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4612",
+    "question": "Tritonia and Phyteuma are both names for a what of plants?",
+    "expectedAnswer": "genus",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "genus"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4670",
+    "question": " New Hampshire Northcoast Corporation interchanges cars with which holding company of Class II regional railroads?",
+    "expectedAnswer": "Pan Am Railways",
+    "recallValid": true,
+    "selectedNounCount": 53,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "pan",
+      "am",
+      "railways"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4702",
+    "question": "With whom was a notable partner of Elena Krykanova a two-time Olympic champion with?",
+    "expectedAnswer": "Oksana Grishuk",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "oksana",
+      "grishuk"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4719",
+    "question": "Which member of the music group Guy spearheaded the fusion genre New Jack Swing with Bernard Belle in the 1980's? ",
+    "expectedAnswer": "Teddy Riley",
+    "recallValid": true,
+    "selectedNounCount": 55,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "teddy",
+      "riley"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4721",
+    "question": "The Clavivox was invented by an American composer who was born Harry Warnow in what year?",
+    "expectedAnswer": "1908",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1908"
+    ]
+  },
+  {
+    "qid": "hotpot_4733",
+    "question": "Which author found inspiration in their career prior to writing, Hart Crane or John le Carré?",
+    "expectedAnswer": "John le Carré",
+    "recallValid": true,
+    "selectedNounCount": 34,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "john",
+      "le",
+      "carre"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4780",
+    "question": "Carrie Coon plays Margo Dunne in a 2014 film set in what state?",
+    "expectedAnswer": "Missouri",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "missouri"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4798",
+    "question": "Who directed the 2015 South Korean drama film starring Hwang Jung-min?",
+    "expectedAnswer": "Lee Seok-hoon",
+    "recallValid": true,
+    "selectedNounCount": 9,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "lee",
+      "seok",
+      "hoon"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4804",
+    "question": "Both the 2010–11 UEFA Champions League knockout phase  and 011 UEFA Champions League Final were held at what London stadium?",
+    "expectedAnswer": "Wembley",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "wembley"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4834",
+    "question": "What role did Ben Keaton play in the british film East is East written by Ayub Khan-Din?",
+    "expectedAnswer": "a priest",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "priest"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4841",
+    "question": "Blank Check and Air Bud are both examples of what type of movie?",
+    "expectedAnswer": "American comedy",
+    "recallValid": true,
+    "selectedNounCount": 18,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "american",
+      "comedy"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4863",
+    "question": "What position in the court does the Professor of Law at the Interdisciplinary Center in Herzliya hold?",
+    "expectedAnswer": "Supreme Court Judge",
+    "recallValid": true,
+    "selectedNounCount": 41,
+    "fullMatch": false,
+    "tokenCoverage": 0.67,
+    "matchedTokens": [
+      "supreme",
+      "court"
+    ],
+    "missingTokens": [
+      "judge"
+    ]
+  },
+  {
+    "qid": "hotpot_4880",
+    "question": "The Experts stars what actor known for \"Saturday Night Fever\" and \"Grease\"?",
+    "expectedAnswer": "John Travolta",
+    "recallValid": true,
+    "selectedNounCount": 25,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "john",
+      "travolta"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4948",
+    "question": "In what year was the singer whose second remix album was \"Hannah Montana Hits Remixed\" born?",
+    "expectedAnswer": "1992",
+    "recallValid": true,
+    "selectedNounCount": 22,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1992"
+    ]
+  },
+  {
+    "qid": "hotpot_4950",
+    "question": "What is the largest non-capital city in Queensland, Australia that includes a suburb named after Helena White? ",
+    "expectedAnswer": "Gold Coast in Queensland",
+    "recallValid": true,
+    "selectedNounCount": 46,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "gold",
+      "coast",
+      "queensland"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_4980",
+    "question": "Igor Naming Agency named a resort located where?",
+    "expectedAnswer": "Las Vegas Strip",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "las",
+      "vegas",
+      "strip"
+    ]
+  },
+  {
+    "qid": "hotpot_4987",
+    "question": "When was the album released for which Lady Gaga used for material for her Super Bowl LI halftime show?",
+    "expectedAnswer": "October 21, 2016",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": false,
+    "tokenCoverage": 0.33,
+    "matchedTokens": [
+      "october"
+    ],
+    "missingTokens": [
+      "21",
+      "2016"
+    ]
+  },
+  {
+    "qid": "hotpot_4991",
+    "question": "When was the Austrian \"Schutzstaffel\" (SS) officer born based on who's life Schapira co-authored a book?",
+    "expectedAnswer": "8 April 1912",
+    "recallValid": true,
+    "selectedNounCount": 39,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "april"
+    ],
+    "missingTokens": [
+      "1912"
+    ]
+  },
+  {
+    "qid": "hotpot_5017",
+    "question": "Did Zaza Pachulia win an NBA Championship with the Atlanta Hawks?",
+    "expectedAnswer": "Zaza Pachulia",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "zaza",
+      "pachulia"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5024",
+    "question": "Bill Bryson grew up in a city that is the seat of which county ?",
+    "expectedAnswer": "Polk County",
+    "recallValid": true,
+    "selectedNounCount": 17,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "polk",
+      "county"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5044",
+    "question": "Panic! at the Disco released their 5th studio album on what date?",
+    "expectedAnswer": "January 15, 2016",
+    "recallValid": true,
+    "selectedNounCount": 24,
+    "fullMatch": false,
+    "tokenCoverage": 0.33,
+    "matchedTokens": [
+      "january"
+    ],
+    "missingTokens": [
+      "15",
+      "2016"
+    ]
+  },
+  {
+    "qid": "hotpot_5055",
+    "question": "Which American actor tries to make his long distance relationship with Priya work in \"The Infestation Hypothesis\"  ",
+    "expectedAnswer": "John Mark Galecki",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": false,
+    "tokenCoverage": 0.67,
+    "matchedTokens": [
+      "john",
+      "galecki"
+    ],
+    "missingTokens": [
+      "mark"
+    ]
+  },
+  {
+    "qid": "hotpot_5066",
+    "question": "SWX Right Now airs on the station that broadcasts on what channel in Billings, Montana?",
+    "expectedAnswer": "8",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5076",
+    "question": "Who composed music for this 1941 American animated film with the main character of Jumbo Jr.?",
+    "expectedAnswer": "Dan Crow",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "dan",
+      "crow"
+    ]
+  },
+  {
+    "qid": "hotpot_5101",
+    "question": "How long did the career span of the actor who starred with Mickey Rooney and Marilyn Maxwell in Off Limits?",
+    "expectedAnswer": "nearly 80 years",
+    "recallValid": true,
+    "selectedNounCount": 61,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "nearly",
+      "80",
+      "years"
+    ]
+  },
+  {
+    "qid": "hotpot_5118",
+    "question": "Did Qionghai or Suining  have a population of 658,798 in 2002? ",
+    "expectedAnswer": "In 2002, Suining had a population of 658,798.",
+    "recallValid": true,
+    "selectedNounCount": 33,
+    "fullMatch": false,
+    "tokenCoverage": 0.33,
+    "matchedTokens": [
+      "suining",
+      "population"
+    ],
+    "missingTokens": [
+      "2002",
+      "had",
+      "658",
+      "798"
+    ]
+  },
+  {
+    "qid": "hotpot_5139",
+    "question": "Ara Berberian sand for which role an opera by Giuseppe Verdi?",
+    "expectedAnswer": "Sparafucile",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "sparafucile"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5239",
+    "question": "What country are both Dafeng District and Jixi in?",
+    "expectedAnswer": "China",
+    "recallValid": true,
+    "selectedNounCount": 14,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "china"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5307",
+    "question": "Which documentary is the oldest, The Private Life of Plants or Marx Reloaded?",
+    "expectedAnswer": "The Private Life of Plants",
+    "recallValid": true,
+    "selectedNounCount": 15,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "private",
+      "life",
+      "plants"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5309",
+    "question": "Ethel Winter worked with which avant-garde theater director?",
+    "expectedAnswer": "Jean Erdman",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "jean",
+      "erdman"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5364",
+    "question": "Aerodynamik is a Kraftwerk song on an album recorded for what anniversity of the Tour de France bicycle race?",
+    "expectedAnswer": "100th",
+    "recallValid": true,
+    "selectedNounCount": 37,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "100th"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5406",
+    "question": "Who was the electoral division that James Tully  represented in 1928 named after?",
+    "expectedAnswer": "Sir Edmund Barton",
+    "recallValid": true,
+    "selectedNounCount": 26,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "sir",
+      "edmund",
+      "barton"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5413",
+    "question": "Which nationality is the international footballer, born 20 March 1984, who made his breakthrough La Liga debut in the 2002–03 Atlético Madrid season, scoring 13 league goals as a teenager?",
+    "expectedAnswer": "Spanish",
+    "recallValid": true,
+    "selectedNounCount": 37,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "spanish"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5421",
+    "question": "What position does Kyle York hold at the internet performance management company Dyn?",
+    "expectedAnswer": "Chief Strategy Officer",
+    "recallValid": true,
+    "selectedNounCount": 13,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "chief",
+      "strategy",
+      "officer"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5440",
+    "question": "Which acter/director is known for depicting the Russian working class life and directed a film that won an Academy Award in 1981?",
+    "expectedAnswer": "Vladimir Menshov",
+    "recallValid": true,
+    "selectedNounCount": 42,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "vladimir",
+      "menshov"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5459",
+    "question": "What year was the recipient of the 2016 Best Footballer in Asia born?",
+    "expectedAnswer": "1986",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1986"
+    ]
+  },
+  {
+    "qid": "hotpot_5503",
+    "question": "What schools of thought are drawn from in the academic discipline of Hafiz Rashid Khan?",
+    "expectedAnswer": "postmodern schools of thought",
+    "recallValid": true,
+    "selectedNounCount": 62,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "postmodern",
+      "schools",
+      "thought"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5519",
+    "question": "Deckers Creek is a tributary, and its beginning in the west is named after?",
+    "expectedAnswer": "Richard Arthur",
+    "recallValid": true,
+    "selectedNounCount": 11,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "arthur"
+    ],
+    "missingTokens": [
+      "richard"
+    ]
+  },
+  {
+    "qid": "hotpot_5521",
+    "question": "What is the central institution of Cheyenne Indian tribal governance that Ehyophsta was not a member of?",
+    "expectedAnswer": "the Council of Forty-four",
+    "recallValid": true,
+    "selectedNounCount": 48,
+    "fullMatch": false,
+    "tokenCoverage": 0.33,
+    "matchedTokens": [
+      "council"
+    ],
+    "missingTokens": [
+      "forty",
+      "four"
+    ]
+  },
+  {
+    "qid": "hotpot_5603",
+    "question": "Kurt Cobain: Montage of Heck documents the life of Cobain until his suicide in what state?",
+    "expectedAnswer": "Washington",
+    "recallValid": true,
+    "selectedNounCount": 36,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "washington"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5606",
+    "question": "Faruk Halibegovic was born in what city that is the capital and largest city of Bosnia and Herzegovina with a population of 275,524?",
+    "expectedAnswer": "Sarajevo",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "sarajevo"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5607",
+    "question": "Love Thy Neighbor starred an AMerican actor who was best known for his role as Jack Tripper on what sitcom?",
+    "expectedAnswer": "Three's Company",
+    "recallValid": true,
+    "selectedNounCount": 52,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "three",
+      "company"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5680",
+    "question": "Who had a perfect game against The Ignitor's team in 1998?",
+    "expectedAnswer": "David Wells",
+    "recallValid": true,
+    "selectedNounCount": 47407,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "david",
+      "wells"
+    ]
+  },
+  {
+    "qid": "hotpot_5707",
+    "question": "Carlos Hasselbaink is the older brother of the footballer of what nationality?",
+    "expectedAnswer": "Dutch",
+    "recallValid": true,
+    "selectedNounCount": 10,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "dutch"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5720",
+    "question": "The song Justice was used for a WWE event that took place on what day ?",
+    "expectedAnswer": "May 1, 2011",
+    "recallValid": true,
+    "selectedNounCount": 23,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "may"
+    ],
+    "missingTokens": [
+      "2011"
+    ]
+  },
+  {
+    "qid": "hotpot_5749",
+    "question": "Which has more species, Lysiloma or Hydrocotyle umbellata?",
+    "expectedAnswer": "Lysiloma",
+    "recallValid": true,
+    "selectedNounCount": 41,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "lysiloma"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5750",
+    "question": "Who is the original writer of the 1977 horror film?",
+    "expectedAnswer": "Wes Craven",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "wes",
+      "craven"
+    ]
+  },
+  {
+    "qid": "hotpot_5764",
+    "question": "The Dukes of Hazzard was inspired by the 1975 film starring whom?",
+    "expectedAnswer": "James Mitchum",
+    "recallValid": true,
+    "selectedNounCount": 45,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "james",
+      "mitchum"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5769",
+    "question": "What did the screewriter for a 2013 psychological thriller film directed by Denis Villeneuve get a Goya Award nomination for Best Adapted Screenplay at the 27th Goya Awards for? ",
+    "expectedAnswer": "\"Invader (Invasor)\"",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "invader",
+      "invasor"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5790",
+    "question": "Does MedStar Washington Hospital Center or Children's National Medical Center have more beds?",
+    "expectedAnswer": "MedStar Washington Hospital Center",
+    "recallValid": true,
+    "selectedNounCount": 43,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "medstar",
+      "washington",
+      "hospital",
+      "center"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5810",
+    "question": "In the muti-sport games usually held every four years between nations around the Mediterranean Sea, Fatma Lanouar is best known for winning gold in which event?",
+    "expectedAnswer": "1500 metres",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "1500",
+      "metres"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5854",
+    "question": "Which battle took place closer to New York City, Battle of Fredericksburg or the Western Allied invasion of Germany ?",
+    "expectedAnswer": "Battle of Fredericksburg",
+    "recallValid": true,
+    "selectedNounCount": 56,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "battle",
+      "fredericksburg"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5871",
+    "question": "Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network?",
+    "expectedAnswer": "Cartoon Network Too",
+    "recallValid": true,
+    "selectedNounCount": 52,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "cartoon",
+      "network",
+      "too"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5914",
+    "question": "Along which river is the Kentucky Department of Corrections headquarted?",
+    "expectedAnswer": "Kentucky River",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": false,
+    "tokenCoverage": 0.5,
+    "matchedTokens": [
+      "kentucky"
+    ],
+    "missingTokens": [
+      "river"
+    ]
+  },
+  {
+    "qid": "hotpot_5957",
+    "question": "Sian Gibson co-wrote which British sitcom, set around a supermarket and car share scheme?",
+    "expectedAnswer": "Peter Kay's Car Share",
+    "recallValid": true,
+    "selectedNounCount": 36,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "peter",
+      "kay",
+      "car",
+      "share"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5973",
+    "question": "Mía Maestro had a role in the 2002 biopic directed by whom?",
+    "expectedAnswer": "Julie Taymor",
+    "recallValid": true,
+    "selectedNounCount": 25,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "julie",
+      "taymor"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_5987",
+    "question": "What else was Baghdad known as during the Abbasid Caliphate?",
+    "expectedAnswer": "the City of Peace",
+    "recallValid": true,
+    "selectedNounCount": 14,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "city",
+      "peace"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6021",
+    "question": "What other jobs did the actress Olivia Munn from Mortdecai have?",
+    "expectedAnswer": "model",
+    "recallValid": true,
+    "selectedNounCount": 72,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "model"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6040",
+    "question": "Which of the following works was completed first, Something Wicked This Way Comes or The Wind in the Willows?",
+    "expectedAnswer": "The Wind in the Willows",
+    "recallValid": true,
+    "selectedNounCount": 40,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "wind",
+      "willows"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6053",
+    "question": "Eduard Schweizer teaches at a German university with over how many students? ",
+    "expectedAnswer": "26,000",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "26",
+      "000"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6080",
+    "question": "On what UHF channel is the station that Cindy Williams is on broadcast?",
+    "expectedAnswer": "44",
+    "recallValid": true,
+    "selectedNounCount": 29,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "44"
+    ]
+  },
+  {
+    "qid": "hotpot_6107",
+    "question": "Of all the teams John Nyskohus played for, which team was known as \"the Black and Whites?\"",
+    "expectedAnswer": "Adelaide City",
+    "recallValid": true,
+    "selectedNounCount": 45,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "adelaide",
+      "city"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6115",
+    "question": "The reporter who digs into the campaign of a former Marine Colonel, worked where in Cleveland?",
+    "expectedAnswer": "Cleveland Press",
+    "recallValid": true,
+    "selectedNounCount": 19,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "cleveland",
+      "press"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6152",
+    "question": "What is the name of the American author, songwriter, educator, lawyer, diplomat, civil rights activist and husband to Grace Nail Johnson who was the first African American executive secretary of the National Association for the Advancement of Colored People (NAACP)?",
+    "expectedAnswer": "James Weldon Johnson",
+    "recallValid": true,
+    "selectedNounCount": 44,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "james",
+      "weldon",
+      "johnson"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6213",
+    "question": "The son of former Giants co-owner Bob Tisch worked with who to produce The Testimony?",
+    "expectedAnswer": "Mitchell Block and Michael Sarnoski",
+    "recallValid": true,
+    "selectedNounCount": 28,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "mitchell",
+      "block",
+      "michael",
+      "sarnoski"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6248",
+    "question": "In what county did Michael Ola attend high school?",
+    "expectedAnswer": "Clayton County, Georgia, United States",
+    "recallValid": true,
+    "selectedNounCount": 15,
+    "fullMatch": false,
+    "tokenCoverage": 0.2,
+    "matchedTokens": [
+      "georgia"
+    ],
+    "missingTokens": [
+      "clayton",
+      "county",
+      "united",
+      "states"
+    ]
+  },
+  {
+    "qid": "hotpot_6271",
+    "question": "What college teamdid the point guard that led the way for Philedlphia 76ers in the 2017-18 season play basketball in?",
+    "expectedAnswer": "Washington Huskies",
+    "recallValid": true,
+    "selectedNounCount": 49,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "washington",
+      "huskies"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6274",
+    "question": "What year was the player the Los Angeles Clippers aquired from the Atlanta Hawks born?",
+    "expectedAnswer": "1961",
+    "recallValid": true,
+    "selectedNounCount": 32,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1961"
+    ]
+  },
+  {
+    "qid": "hotpot_6313",
+    "question": "An english lawyer had Christopher Mont as an agent and was awarded denization where?",
+    "expectedAnswer": "England",
+    "recallValid": true,
+    "selectedNounCount": 12,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "england"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6330",
+    "question": "Ross Pople worked with this French dominant figure of the post-war classical music world.",
+    "expectedAnswer": "Pierre Louis Joseph Boulez",
+    "recallValid": true,
+    "selectedNounCount": 47,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "pierre",
+      "louis",
+      "joseph",
+      "boulez"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6346",
+    "question": "Which hospital, the Psychiatric Institute of Washington or Howard University Hospital, is known for serving the African American community including former slaves?",
+    "expectedAnswer": "Howard University Hospital",
+    "recallValid": true,
+    "selectedNounCount": 55,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "howard",
+      "university",
+      "hospital"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6376",
+    "question": "The chorus of \"On the Radio\" contains references to the song \"November Rain\" whose band's lead singer is?",
+    "expectedAnswer": "Axl Rose",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "axl",
+      "rose"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6466",
+    "question": "The 2017 European Short Course Swimming Championships will be held in an Arena which began construction when?",
+    "expectedAnswer": "26 June 2013",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": false,
+    "tokenCoverage": 0.67,
+    "matchedTokens": [
+      "26",
+      "june"
+    ],
+    "missingTokens": [
+      "2013"
+    ]
+  },
+  {
+    "qid": "hotpot_6467",
+    "question": "Are Siping, Jilin and Linhai both in the same province in China?",
+    "expectedAnswer": "no",
+    "recallValid": true,
+    "selectedNounCount": 26,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "no"
+    ]
+  },
+  {
+    "qid": "hotpot_6468",
+    "question": "Humanzee is a hypothetical hybrid of humans with what great ape?",
+    "expectedAnswer": "Chimpanzees",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "chimpanzees"
+    ]
+  },
+  {
+    "qid": "hotpot_6470",
+    "question": "Which of the teams that Sun-woo Kim played on never won a division title?",
+    "expectedAnswer": "Colorado Rockies",
+    "recallValid": true,
+    "selectedNounCount": 35,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "colorado",
+      "rockies"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6471",
+    "question": "What football club was owned by the singer of \"Grow Some Funk of Your Own\"?",
+    "expectedAnswer": "Watford Football Club",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "watford",
+      "football",
+      "club"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6473",
+    "question": "When was the first stud book created for the breed of horse that came from Rotrou introducing Arabian horses to Perche?",
+    "expectedAnswer": "1883",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "1883"
+    ]
+  },
+  {
+    "qid": "hotpot_6521",
+    "question": "One of the signatories of the Chicago Statement on Biblical Inerrancy was which Presbyterian pastor, known for taking a more presuppositional approach to apologetics?",
+    "expectedAnswer": "Francis Schaeffer",
+    "recallValid": true,
+    "selectedNounCount": 47,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "francis",
+      "schaeffer"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6568",
+    "question": "Which opera has more acts, La jolie fille de Perth or Mitridate, re di Ponto?",
+    "expectedAnswer": "La jolie fille de Perth \"(The Fair Maid of Perth)\" is an opera in four acts",
+    "recallValid": true,
+    "selectedNounCount": 19,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "la",
+      "jolie",
+      "fille",
+      "de",
+      "perth",
+      "fair",
+      "maid",
+      "perth",
+      "opera",
+      "four",
+      "acts"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6646",
+    "question": "Buck Rogers XXVC is a published campaign setting or a homebrew campaign setting?",
+    "expectedAnswer": "published campaign settings",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "published",
+      "campaign",
+      "settings"
+    ]
+  },
+  {
+    "qid": "hotpot_6654",
+    "question": "Which guitar brand was endorsed by the band centered by Ann and Nancy Wilson?",
+    "expectedAnswer": "Kramer Guitars",
+    "recallValid": true,
+    "selectedNounCount": 62,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "kramer",
+      "guitars"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6693",
+    "question": "Mazda's Mazda6 belongs to which country's car manufacturer?",
+    "expectedAnswer": "Japanese",
+    "recallValid": true,
+    "selectedNounCount": 16,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "japanese"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6718",
+    "question": "Oak Beach, New York and Great South Bay are both situated between what same island?",
+    "expectedAnswer": "Long Island",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "long",
+      "island"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6773",
+    "question": "Arbutus and Aspidistra are what types of plants?",
+    "expectedAnswer": "flowering plants",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "flowering",
+      "plants"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6789",
+    "question": "What is the name of the basketball team that trained under assistant coach, Steven Michael Henson at the University of Oklahoma ?",
+    "expectedAnswer": "Oklahoma Sooners men's basketball",
+    "recallValid": true,
+    "selectedNounCount": 33,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "oklahoma",
+      "sooners",
+      "men",
+      "basketball"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6826",
+    "question": "Are Kim Dong-jun and Charlie Harper both singers?",
+    "expectedAnswer": "yes",
+    "recallValid": true,
+    "selectedNounCount": 31,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "yes"
+    ]
+  },
+  {
+    "qid": "hotpot_6831",
+    "question": "Where is the home of the common party princess voiced by Idina Menzel?",
+    "expectedAnswer": "Arendelle",
+    "recallValid": true,
+    "selectedNounCount": 15,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "arendelle"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6872",
+    "question": "What speech by Abraham Lincoln was part of Richard Heffner's A Documentary History of the United States?",
+    "expectedAnswer": "Gettysburg Address",
+    "recallValid": true,
+    "selectedNounCount": 29,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "gettysburg",
+      "address"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6883",
+    "question": "What type of area did Michel Thomas work in when he was in the French Resistance?",
+    "expectedAnswer": "rural",
+    "recallValid": true,
+    "selectedNounCount": 28,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "rural"
+    ]
+  },
+  {
+    "qid": "hotpot_6902",
+    "question": "For which band, was the female member of Fitz and The Tantrums, the front woman for ten years ?",
+    "expectedAnswer": "The Rebirth",
+    "recallValid": true,
+    "selectedNounCount": 27,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "rebirth"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6904",
+    "question": "Which was built first Woolworth Building or 1 New York Plaza?",
+    "expectedAnswer": "Woolworth Building",
+    "recallValid": true,
+    "selectedNounCount": 26,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "woolworth",
+      "building"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6919",
+    "question": "Who was President of the United States when Jennifer Hunt served under Secretary of Labor Seth Harris?",
+    "expectedAnswer": "Barack Obama",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "barack",
+      "obama"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6933",
+    "question": "Which was formed first, Noori or Test Icicles?",
+    "expectedAnswer": "Noori",
+    "recallValid": true,
+    "selectedNounCount": 87,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "noori"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6981",
+    "question": "What part of Australia is Alice River and Rupertswood in?",
+    "expectedAnswer": "Victoria",
+    "recallValid": true,
+    "selectedNounCount": 39,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "victoria"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_6995",
+    "question": "What was the name of the commander who captured all of the French ships that varied in size?",
+    "expectedAnswer": "Joshua Rowley",
+    "recallValid": true,
+    "selectedNounCount": 34,
+    "fullMatch": false,
+    "tokenCoverage": 0,
+    "matchedTokens": [],
+    "missingTokens": [
+      "joshua",
+      "rowley"
+    ]
+  },
+  {
+    "qid": "hotpot_7014",
+    "question": "Which cast member of Pitch Perfect 2 was born March 9, 1986?",
+    "expectedAnswer": "Brittany Snow",
+    "recallValid": true,
+    "selectedNounCount": 28,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "brittany",
+      "snow"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7027",
+    "question": "Phyllis Kohn holds a seat in the House of Representatives which meets where?",
+    "expectedAnswer": "Saint Paul",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "saint",
+      "paul"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7065",
+    "question": "Reeves Plains Power Station is a proposal from a company owned by who?",
+    "expectedAnswer": "Chow Tai Fook Enterprises",
+    "recallValid": true,
+    "selectedNounCount": 21,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "chow",
+      "tai",
+      "fook",
+      "enterprises"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7084",
+    "question": "What is the translation of the name of the river on which Widnes is located ?",
+    "expectedAnswer": "boundary river",
+    "recallValid": true,
+    "selectedNounCount": 23,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "boundary",
+      "river"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7097",
+    "question": "The actor of Professor Sprout in \"Harry Potter\" acted as a mother in a sitcom. In that sitcom, what was the daughter's name?",
+    "expectedAnswer": "Fran",
+    "recallValid": true,
+    "selectedNounCount": 57,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "fran"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7144",
+    "question": "Which was founded first, University of California, Santa Barbara or Hamdard University?",
+    "expectedAnswer": "University of California, Santa Barbara",
+    "recallValid": true,
+    "selectedNounCount": 41,
+    "fullMatch": false,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "university",
+      "california",
+      "santa",
+      "barbara"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7174",
+    "question": "What \"Splitting Image\" voice artist provided testimony in Evidently... John Cooper Clarke?",
+    "expectedAnswer": "Stephen John Coogan",
+    "recallValid": true,
+    "selectedNounCount": 59,
+    "fullMatch": false,
+    "tokenCoverage": 0.33,
+    "matchedTokens": [
+      "coogan"
+    ],
+    "missingTokens": [
+      "stephen",
+      "john"
+    ]
+  },
+  {
+    "qid": "hotpot_7227",
+    "question": "Who acted in the film and television series, \"Harry and the Hendersons,\" and also worked with Danny Glover?",
+    "expectedAnswer": "Kevin Peter Hall",
+    "recallValid": true,
+    "selectedNounCount": 73,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "kevin",
+      "peter",
+      "hall"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7230",
+    "question": "Which of the following has released ten solo albums: Kristin Hersh or Mike Patton?",
+    "expectedAnswer": "Kristin Hersh",
+    "recallValid": true,
+    "selectedNounCount": 16,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "kristin",
+      "hersh"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7232",
+    "question": "Which composer was a French Romantic composer in the 1800's, Hector Berlioz or Gaetano Donizetti?",
+    "expectedAnswer": "Louis-Hector Berlioz",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "louis",
+      "hector",
+      "berlioz"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7251",
+    "question": "How many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year?",
+    "expectedAnswer": "1,840 students",
+    "recallValid": true,
+    "selectedNounCount": 22,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "840",
+      "students"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7325",
+    "question": "What division are the 2013 Valdosta State Blazers football team and the Gulf South Conference a part of? ",
+    "expectedAnswer": "NCAA Division II",
+    "recallValid": true,
+    "selectedNounCount": 20,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "ncaa",
+      "division",
+      "ii"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7358",
+    "question": "What type of community does Bob Hope Airport and Boeing Field have in common?",
+    "expectedAnswer": "public",
+    "recallValid": true,
+    "selectedNounCount": 30,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "public"
+    ],
+    "missingTokens": []
+  },
+  {
+    "qid": "hotpot_7359",
+    "question": "In what city does the most successful American and international five-and-dime business have a historic building?",
+    "expectedAnswer": "Watertown, New York",
+    "recallValid": true,
+    "selectedNounCount": 37,
+    "fullMatch": true,
+    "tokenCoverage": 1,
+    "matchedTokens": [
+      "watertown",
+      "new",
+      "york"
+    ],
+    "missingTokens": []
+  }
+]

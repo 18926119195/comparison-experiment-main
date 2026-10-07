@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_4354",
+  "question": "Be Quick '28  football club is locayed in what province?",
+  "expectedAnswer": "Overijssel",
+  "predictedAnswer": "# 路径一：直接实体链推理\n\n步骤1：使用⟦13⟧，提取 \"Be Quick '28\" 是一个足球俱乐部（a football club）。\n步骤2：使用⟦102⟧，提取 \"Wim de Bois\" 与荷兰（the Netherlands）相关。\n步骤3：综合⟦13⟧⟦102⟧，判断 Be Quick '28 位于荷兰。\n\n结论：Be Quick '28 足球俱乐部位于荷兰（the Netherlands），但该路径未直接给出省份。\n\n---\n\n# 路径二：Zwolle 地理链推理\n\n步骤1：使用⟦117⟧，提取 Zwolle 是兹沃勒（城市名）。\n步骤2：使用⟦84⟧，提取 Zwolle 是 \"the capital city\"（省会城市）。\n步骤3：使用⟦57⟧，提取 Overijssel 是荷兰的一个省（province）。\n步骤4：综合⟦117⟧⟦84⟧⟦57⟧，判断 Zwolle 是 Overijssel 省的省会。\n\n结论：若 Be Quick '28 位于 Zwolle，则其所在省份为 Overijssel。\n\n---\n\n# 路径三：Quick 俱乐部与 Zwolle 交叉验证\n\n步骤1：使用⟦44⟧，提取 \"K. Voetbal Vereniging Quick\" 是一个足球俱乐部。\n步骤2：使用⟦55⟧，提取 Oldenzaal 是一个地名。\n步骤3：使用⟦63⟧，提取 \"Quick\" 与 Be Quick '28 名称相关。\n步骤4：综合⟦44⟧⟦55⟧⟦63⟧，判断 Quick 俱乐部与 Oldenzaal 存在关联。\n步骤5：使用⟦57⟧，提取 Overijssel 是荷兰的一个省。\n步骤6：综合⟦55⟧⟦57⟧，判断 Oldenzaal 位于 Overijssel 省。\n\n结论：Be Quick '28 足球俱乐部位于 Overijssel 省。\n\n---\n\n# 路径四：多材料综合支撑\n\n步骤1：使用⟦13⟧，提取 Be Quick '28 是足球俱乐部。\n步骤2：使用⟦102⟧，提取其与荷兰相关。\n步骤3：使用⟦117⟧⟦84⟧，提取 Zwolle 是省会城市。\n步骤4：使用⟦57⟧，提取 Overijssel 是省。\n步骤5：综合⟦13⟧⟦102⟧⟦117⟧⟦84⟧⟦57⟧，交叉验证 Be Quick '28 位于荷兰 Overijssel 省。\n\n结论：Be Quick '28 足球俱乐部位于 Overijssel 省。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦44⟧⟨16⟩⟨17⟩⟨19⟩⟨18⟩⟨20⟩⟦55⟧⟨21⟩⟦13⟧⟦102⟧⟦63⟧⟦37⟧",
+  "nounCount": 155,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 3021,
+    "completion_tokens": 131,
+    "total_tokens": 3152,
+    "prompt_tokens_details": {
+      "cached_tokens": 2816
+    },
+    "prompt_cache_hit_tokens": 2816,
+    "prompt_cache_miss_tokens": 205
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 654,
+    "completion_tokens": 582,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 654
+  }
+}

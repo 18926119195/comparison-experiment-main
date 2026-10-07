@@ -1,0 +1,94 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[List of string quartets by Béla Bartók] ⟦272⟧⟨93⟩⟨92⟩⟦225⟧⟨95⟩⟨94⟩⟨96⟩⟦305⟧⟦123⟧⟨97⟩⟨98⟩⟦314⟧⟦321⟧⟨99⟩⟨100⟩⟦318⟧⟦318⟧⟨101⟩⟨102⟩⟨103⟩⟨104⟩
+[List of string quartets by Béla Bartók] ⟦76⟧⟦76⟧
+[Zorian Quartet] ⟦231⟧
+[Zorian Quartet] ⟦213⟧
+[Béla Bartók] ⟦67⟧⟨444⟩⟦11⟧⟨445⟩⟦222⟧⟨446⟩⟦26⟧⟨447⟩⟨448⟩⟨449⟩⟨450⟩⟦35⟧⟦114⟧⟨451⟩⟨452⟩
+[Benjamin Britten] ⟦86⟧⟦206⟧⟦206⟧ | ⟦108⟧⟨475⟩⟦47⟧⟨476⟩⟦99⟧⟨477⟩⟦34⟧⟦86⟧⟨478⟩⟨479⟩⟦90⟧⟦90⟧⟨480⟩⟨481⟩⟦206⟧⟦206⟧⟨482⟩⟨483⟩ | ⟦86⟧
+
+符号表：
+⟦11⟧ = 25 March
+⟦26⟧ = a Hungarian composer
+⟦34⟧ = an English composer
+⟦35⟧ = an ethnomusicologist
+⟦47⟧ = Baron Britten
+⟦67⟧ = Béla Viktor János Bartók
+⟦76⟧ = cello
+⟦86⟧ = composer
+⟦90⟧ = conductor
+⟦99⟧ = December
+⟦108⟧ = Edward Benjamin Britten
+⟦114⟧ = ethnomusicologist
+⟦123⟧ = forces
+⟦206⟧ = pianist
+⟦213⟧ = quartets
+⟦222⟧ = September
+⟦225⟧ = six string quartets
+⟦231⟧ = string
+⟦272⟧ = The Hungarian composer Béla Bartók
+⟦305⟧ = the usual forces
+⟦314⟧ = two violins
+⟦318⟧ = viola
+⟦321⟧ = violins
+
+占位符映射：
+⟨92⟩ = 
+⟨93⟩ =  Béla Bartók wrote 
+⟨94⟩ = 
+⟨95⟩ =  
+⟨96⟩ = , each for 
+⟨97⟩ = 
+⟨98⟩ =  of 
+⟨99⟩ = 
+⟨100⟩ = , 
+⟨101⟩ = 
+⟨102⟩ =  and 
+⟨103⟩ = 
+⟨104⟩ = .
+⟨444⟩ =  ( ; ] ; 
+⟨445⟩ =  1881 – 26 
+⟨446⟩ =  1945) was 
+⟨447⟩ = 
+⟨448⟩ = , 
+⟨449⟩ = 
+⟨450⟩ =  and 
+⟨451⟩ = 
+⟨452⟩ = .
+⟨475⟩ = , 
+⟨476⟩ =  {'1': ", '2': ", '3': ", '4': "} (22 November 1913 – 4 
+⟨477⟩ =  1976) was 
+⟨478⟩ = 
+⟨479⟩ = , 
+⟨480⟩ = 
+⟨481⟩ =  and 
+⟨482⟩ = 
+⟨483⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Are Benjamin Britten and Béla Bartók from the same country?

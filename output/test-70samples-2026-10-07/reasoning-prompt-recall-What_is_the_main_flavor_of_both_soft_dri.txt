@@ -1,0 +1,54 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Solo (Norwegian soft drink)] ⟨52⟩⟦38⟧⟨53⟩
+[Solo (Norwegian soft drink)] ⟦189⟧
+[Sunkist (soft drink)] ⟦207⟧⟨79⟩⟦8⟧⟦58⟧⟨80⟩⟨81⟩⟦166⟧⟨82⟩⟨83⟩
+[Asahi Soft Drinks] ⟦93⟧
+[Cott] ⟦94⟧
+
+符号表：
+⟦8⟧ = a brand
+⟦38⟧ = an orange-flavoured soft drink
+⟦58⟧ = brand
+⟦93⟧ = drink
+⟦94⟧ = drinks
+⟦166⟧ = primarily orange flavored soft drinks
+⟦189⟧ = Solo
+⟦207⟧ = Sunkist
+
+占位符映射：
+⟨52⟩ =  is 
+⟨53⟩ = 
+⟨79⟩ =  is 
+⟨80⟩ = 
+⟨81⟩ =  of 
+⟨82⟩ = 
+⟨83⟩ =  launched in 1979.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the main flavor of both soft drinks, Solo from Norway, and Sunkist?

@@ -1,0 +1,406 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨A⟩、⟨B⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , "Everest
+⟦2⟧ = "Aftershock
+⟦3⟧ = "Aquamarine
+⟦4⟧ = "Beijing Youth
+⟦5⟧ = "Cinderella
+⟦6⟧ = "Demon Girl
+⟦7⟧ = "Everest
+⟦8⟧ = "Guiding Light
+⟦9⟧ = "Moesha
+⟦10⟧ = "Rising Expectations
+⟦11⟧ = "RV
+⟦12⟧ = "The Good Fellas
+⟦13⟧ = "The Normal Heart
+⟦14⟧ = "Thea
+⟦15⟧ = "Triple Nine
+⟦16⟧ = "True Confessions
+⟦17⟧ = "Ultimate Rescue
+⟦18⟧ = "White Collar
+⟦19⟧ = (顶天立地
+⟦20⟧ = (Chinese
+⟦21⟧ = 16 years
+⟦22⟧ = 17590 ft
+⟦23⟧ = 3 November
+⟦24⟧ = 8 dramas
+⟦25⟧ = 8 May
+⟦26⟧ = 9 January
+⟦27⟧ = 李一桐
+⟦28⟧ = 谁与争锋
+⟦29⟧ = 长河
+⟦30⟧ = a 2017 Chinese television series
+⟦31⟧ = a brief hiatus
+⟦32⟧ = a cast member
+⟦33⟧ = a charitable featured artist
+⟦34⟧ = a Chinese actor
+⟦35⟧ = a Chinese actress
+⟦36⟧ = a Chinese idol singer
+⟦37⟧ = a cliffhanger
+⟦38⟧ = a contestant
+⟦39⟧ = a Golden Globe Award
+⟦40⟧ = a guest appearance
+⟦41⟧ = a guest appearances
+⟦42⟧ = a height
+⟦43⟧ = a Hindi language
+⟦44⟧ = a Hollywood Starlet
+⟦45⟧ = a household name
+⟦46⟧ = a lead artist
+⟦47⟧ = a leading role
+⟦48⟧ = a Los Angeles girl
+⟦49⟧ = a member
+⟦50⟧ = a multicultural cast
+⟦51⟧ = a music composer
+⟦52⟧ = a Primetime Emmy Award nomination
+⟦53⟧ = a producer
+⟦54⟧ = a remake
+⟦55⟧ = a scrapped seventh season
+⟦56⟧ = a Singaporean former actress
+⟦57⟧ = a single mother
+⟦58⟧ = a stepmother
+⟦59⟧ = a Young Artists Award nomination
+⟦60⟧ = A-Punk
+⟦61⟧ = A. R. Rahman
+⟦62⟧ = actor
+⟦63⟧ = actress
+⟦64⟧ = adaptation
+⟦65⟧ = adult
+⟦66⟧ = age
+⟦67⟧ = AGPPL
+⟦68⟧ = air
+⟦69⟧ = album
+⟦70⟧ = American Horror Story
+⟦71⟧ = American singer-songwriter
+⟦72⟧ = an actress
+⟦73⟧ = an adult
+⟦74⟧ = an American actor
+⟦75⟧ = an Emmy Award
+⟦76⟧ = an estimated 60 million viewers
+⟦77⟧ = an NAACP Image Award
+⟦78⟧ = Ankush Mohla
+⟦79⟧ = anthology
+⟦80⟧ = appearance
+⟦81⟧ = appearances
+⟦82⟧ = artist
+⟦83⟧ = Ashutosh Gowariker
+⟦84⟧ = Ashutosh Gowariker Productions Private Limited
+⟦85⟧ = band
+⟦86⟧ = Beijing Love Story
+⟦87⟧ = Bill Cosby
+⟦88⟧ = Bomer
+⟦89⟧ = Brandy
+⟦90⟧ = budget
+⟦91⟧ = Cassie Munroe
+⟦92⟧ = cast
+⟦93⟧ = Challenge
+⟦94⟧ = character
+⟦95⟧ = Chen Xingxu
+⟦96⟧ = China
+⟦97⟧ = Chuck
+⟦98⟧ = cliffhanger
+⟦99⟧ = co
+⟦100⟧ = composer
+⟦101⟧ = con
+⟦102⟧ = con-artist and thief Neal Caffrey
+⟦103⟧ = contestant
+⟦104⟧ = cop
+⟦105⟧ = daughter
+⟦106⟧ = David Letterman
+⟦107⟧ = debut
+⟦108⟧ = demands
+⟦109⟧ = Disney
+⟦110⟧ = Dragon TV
+⟦111⟧ = drama
+⟦112⟧ = dramas
+⟦113⟧ = eleven other music videos
+⟦114⟧ = engagement
+⟦115⟧ = entirety
+⟦116⟧ = Everest
+⟦117⟧ = Everest Base Camp
+⟦118⟧ = Expectations
+⟦119⟧ = fame
+⟦120⟧ = feature
+⟦121⟧ = feature films
+⟦122⟧ = featured artist
+⟦123⟧ = February
+⟦124⟧ = Felix Turner
+⟦125⟧ = female idol group SNH48
+⟦126⟧ = film
+⟦127⟧ = films
+⟦128⟧ = FX's horror anthology series
+⟦129⟧ = girl
+⟦130⟧ = Glenn Baretto
+⟦131⟧ = Gowariker's television debut
+⟦132⟧ = group
+⟦133⟧ = guest
+⟦134⟧ = Hailey Rogers
+⟦135⟧ = hand
+⟦136⟧ = Heart
+⟦137⟧ = height
+⟦138⟧ = her acting debut
+⟦139⟧ = her co
+⟦140⟧ = her early years
+⟦141⟧ = her first appearances
+⟦142⟧ = her first music video
+⟦143⟧ = her first TV series appearance
+⟦144⟧ = her lead role
+⟦145⟧ = her own show
+⟦146⟧ = her performance
+⟦147⟧ = her short-lived engagement
+⟦148⟧ = her stage name
+⟦149⟧ = her television debut
+⟦150⟧ = hiatus
+⟦151⟧ = his directorial debut
+⟦152⟧ = his recurring role
+⟦153⟧ = his roles
+⟦154⟧ = his supporting role
+⟦155⟧ = his television debut
+⟦156⟧ = Hong Kong
+⟦157⟧ = horror
+⟦158⟧ = host
+⟦159⟧ = hour
+⟦160⟧ = household
+⟦161⟧ = Houston
+⟦162⟧ = Huang Rong
+⟦163⟧ = idol
+⟦164⟧ = India
+⟦165⟧ = Indian telenovela
+⟦166⟧ = Indian television
+⟦167⟧ = indie rock band Vampire Weekend
+⟦168⟧ = Inspector Elaine Tay
+⟦169⟧ = its entirety
+⟦170⟧ = its highest ratings
+⟦171⟧ = January
+⟦172⟧ = Jason Alexander
+⟦173⟧ = Jeffrey Chiang
+⟦174⟧ = Jerry Li
+⟦175⟧ = Jin Yong's wuxia (武侠) novel
+⟦176⟧ = JoJo
+⟦177⟧ = Josh Hutcherson
+⟦178⟧ = judges
+⟦179⟧ = Kids
+⟦180⟧ = language
+⟦181⟧ = lead
+⟦182⟧ = Legend
+⟦183⟧ = level
+⟦184⟧ = Li
+⟦185⟧ = Li Chen
+⟦186⟧ = Li Yitong
+⟦187⟧ = Li-Ling
+⟦188⟧ = locations
+⟦189⟧ = Louis Cha's novel
+⟦190⟧ = low ratings
+⟦191⟧ = main cast
+⟦192⟧ = mainland
+⟦193⟧ = mainland China
+⟦194⟧ = Mark Ruffalo
+⟦195⟧ = Masters
+⟦196⟧ = Matthew Staton Bomer
+⟦197⟧ = Mediacorp Channel
+⟦198⟧ = Mediacorp Channel 5 cop drama
+⟦199⟧ = member
+⟦200⟧ = Meng Ziyi
+⟦201⟧ = Michelle
+⟦202⟧ = Moesha Mitchell
+⟦203⟧ = mother
+⟦204⟧ = movie
+⟦205⟧ = music
+⟦206⟧ = name
+⟦207⟧ = Nepal
+⟦208⟧ = network
+⟦209⟧ = nineteen music videos
+⟦210⟧ = nomination
+⟦211⟧ = novel
+⟦212⟧ = one lyric video
+⟦213⟧ = one music video
+⟦214⟧ = one television film
+⟦215⟧ = only one season
+⟦216⟧ = Outstanding Youth Ensemble
+⟦217⟧ = performance
+⟦218⟧ = period
+⟦219⟧ = pm
+⟦220⟧ = pressures
+⟦221⟧ = producer
+⟦222⟧ = producer Whitney Houston
+⟦223⟧ = program
+⟦224⟧ = project
+⟦225⟧ = Punk
+⟦226⟧ = ratings
+⟦227⟧ = reality
+⟦228⟧ = recognition
+⟦229⟧ = remake
+⟦230⟧ = Robin Williams
+⟦231⟧ = rock
+⟦232⟧ = Rodgers and Hammerstein’s television version
+⟦233⟧ = role
+⟦234⟧ = roles
+⟦235⟧ = Running
+⟦236⟧ = sea
+⟦237⟧ = season
+⟦238⟧ = seasons
+⟦239⟧ = self
+⟦240⟧ = series
+⟦241⟧ = Shaanxi
+⟦242⟧ = shooting
+⟦243⟧ = show
+⟦244⟧ = shows
+⟦245⟧ = singer
+⟦246⟧ = single
+⟦247⟧ = sitcom
+⟦248⟧ = six seasons
+⟦249⟧ = Sky Hunter
+⟦250⟧ = slot
+⟦251⟧ = songwriter
+⟦252⟧ = stage
+⟦253⟧ = STAR
+⟦254⟧ = stars
+⟦255⟧ = stepmother
+⟦256⟧ = talent
+⟦257⟧ = talent shows
+⟦258⟧ = Team NII
+⟦259⟧ = television
+⟦260⟧ = television series
+⟦261⟧ = television shows
+⟦262⟧ = the "Kids
+⟦263⟧ = the "Late Show
+⟦264⟧ = the "The Bernie Mac Show
+⟦265⟧ = the 10pm time slot
+⟦266⟧ = the 1983 Hong Kong television series
+⟦267⟧ = the ABC sitcom
+⟦268⟧ = the air
+⟦269⟧ = The band
+⟦270⟧ = the China Movie Channel Media Awards
+⟦271⟧ = the Condor Heroes
+⟦272⟧ = The Dance Floor
+⟦273⟧ = the Darndest Things
+⟦274⟧ = the daughter
+⟦275⟧ = the Dokriani Glacier
+⟦276⟧ = the four judges
+⟦277⟧ = the HBO television film
+⟦278⟧ = the lead role
+⟦279⟧ = the lead roles
+⟦280⟧ = The Legend
+⟦281⟧ = the most ambitious project
+⟦282⟧ = The music
+⟦283⟧ = the NBC television series
+⟦284⟧ = The network
+⟦285⟧ = the pressures
+⟦286⟧ = The program
+⟦287⟧ = the reality TV series
+⟦288⟧ = the same novel
+⟦289⟧ = the same title
+⟦290⟧ = the Sea
+⟦291⟧ = the second single
+⟦292⟧ = The series
+⟦293⟧ = The shooting locations
+⟦294⟧ = The show
+⟦295⟧ = the telenovela
+⟦296⟧ = the television adaptation
+⟦297⟧ = the television debut
+⟦298⟧ = the time period
+⟦299⟧ = the title character
+⟦300⟧ = the title role
+⟦301⟧ = the UPN-produced sitcom
+⟦302⟧ = the USA Network series
+⟦303⟧ = the variety show
+⟦304⟧ = the web series
+⟦305⟧ = Thea Vidale
+⟦306⟧ = their 2008 self-titled debut album
+⟦307⟧ = their most-watched show
+⟦308⟧ = their network television debut
+⟦309⟧ = thief
+⟦310⟧ = Things
+⟦311⟧ = three theatrical films
+⟦312⟧ = time
+⟦313⟧ = title
+⟦314⟧ = TV
+⟦315⟧ = TVB Jade
+⟦316⟧ = twelve television series
+⟦317⟧ = two big budget Hollywood films
+⟦318⟧ = UPN
+⟦319⟧ = variety
+⟦320⟧ = version
+⟦321⟧ = video
+⟦322⟧ = videos
+⟦323⟧ = viewers
+⟦324⟧ = web
+⟦325⟧ = Whoopi Goldberg
+⟦326⟧ = Wong Li Lin
+⟦327⟧ = wuxia
+⟦328⟧ = Xi'an
+⟦329⟧ = Yang Xuwen
+⟦330⟧ = year
+⟦331⟧ = years
+⟦332⟧ = Yu Zheng
+
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟦196⟧⟨A⟩⟦74⟧⟨B⟩⟦62⟧⟨C⟩
+⟨D⟩⟦155⟧⟨E⟩⟦259⟧⟨F⟩⟦107⟧⟨G⟩⟦8⟧⟨H⟩⟦228⟧⟨I⟩⟦228⟧⟨J⟩⟦152⟧⟨K⟩⟦233⟧⟨L⟩⟦283⟧⟨M⟩⟦259⟧⟨N⟩⟦240⟧⟨O⟩⟦97⟧⟨P⟩
+⟨Q⟩⟦278⟧⟨R⟩⟦233⟧⟨S⟩⟦101⟧⟨T⟩⟦102⟧⟨U⟩⟦82⟧⟨V⟩⟦309⟧⟨W⟩⟦302⟧⟨X⟩⟦240⟧⟨Y⟩⟦18⟧⟨Z⟩
+⟦88⟧⟨[⟩⟦39⟧⟨\⟩⟦52⟧⟨]⟩⟦210⟧⟨^⟩⟦154⟧⟨_⟩⟦233⟧⟨`⟩⟦124⟧⟨a⟩⟦194⟧⟨b⟩⟦277⟧⟨c⟩⟦259⟧⟨d⟩⟦126⟧⟨e⟩⟦13⟧⟨f⟩⟦136⟧⟨g⟩
+⟦88⟧⟨h⟩⟦40⟧⟨i⟩⟦133⟧⟨j⟩⟦80⟧⟨k⟩⟦128⟧⟨l⟩⟦157⟧⟨m⟩⟦79⟧⟨n⟩⟦240⟧⟨o⟩⟦70⟧⟨p⟩
+⟨q⟩⟦191⟧⟨r⟩⟦92⟧⟨s⟩
+⟦71⟧⟨t⟩⟦245⟧⟨u⟩⟦251⟧⟨v⟩⟦63⟧⟨w⟩⟦63⟧⟨x⟩⟦176⟧⟨y⟩⟦209⟧⟨z⟩⟦205⟧⟨{⟩⟦322⟧⟨|⟩⟦311⟧⟨}⟩⟦127⟧⟨~⟩⟦214⟧⟨⟩⟦259⟧⟨⟩⟦126⟧⟨⟩⟦316⟧⟨⟩⟦259⟧⟨⟩⟦240⟧⟨⟩⟦141⟧⟨⟩⟦81⟧⟨⟩⟦256⟧⟨⟩⟦257⟧⟨⟩⟦244⟧⟨⟩⟦140⟧⟨⟩⟦331⟧⟨⟩
+⟨⟩⟦142⟧⟨⟩⟦205⟧⟨⟩⟦321⟧⟨⟩⟦113⟧⟨⟩⟦205⟧⟨⟩⟦322⟧⟨⟩⟦212⟧⟨⟩⟦321⟧⟨⟩⟦46⟧⟨⟩⟦181⟧⟨⟩⟦82⟧⟨⟩
+⟨⟩⟦213⟧⟨⟩⟦205⟧⟨⟩⟦321⟧⟨⟩⟦122⟧⟨⟩⟦82⟧⟨⟩⟦213⟧⟨⟩⟦205⟧⟨⟩⟦321⟧⟨ ⟩⟦33⟧⟨¡⟩⟦82⟧⟨¢⟩⟦41⟧⟨£⟩⟦133⟧⟨¤⟩⟦81⟧⟨¥⟩
+⟦176⟧⟨¦⟩⟦149⟧⟨§⟩⟦259⟧⟨¨⟩⟦107⟧⟨©⟩⟦38⟧⟨ª⟩⟦103⟧⟨«⟩⟦262⟧⟨¬⟩⟦179⟧⟨­⟩⟦273⟧⟨®⟩⟦310⟧⟨¯⟩⟦87⟧⟨°⟩⟦66⟧⟨±⟩⟦66⟧⟨²⟩⟦143⟧⟨³⟩⟦314⟧⟨´⟩⟦240⟧⟨µ⟩⟦80⟧⟨¶⟩⟦264⟧⟨·⟩⟦201⟧⟨¸⟩
+⟨¹⟩⟦317⟧⟨º⟩⟦90⟧⟨»⟩⟦127⟧⟨¼⟩⟦3⟧⟨½⟩⟦134⟧⟨¾⟩⟦11⟧⟨¿⟩⟦91⟧⟨À⟩⟦230⟧⟨Á⟩⟦177⟧⟨Â⟩⟦314⟧⟨Ã⟩⟦314⟧⟨Ä⟩⟦204⟧⟨Å⟩⟦16⟧⟨Æ⟩⟦44⟧⟨Ç⟩
+⟨È⟩⟦60⟧⟨É⟩⟦225⟧⟨Ê⟩⟦167⟧⟨Ë⟩⟦231⟧⟨Ì⟩⟦85⟧⟨Í⟩⟦123⟧⟨Î⟩⟦291⟧⟨Ï⟩⟦246⟧⟨Ð⟩⟦306⟧⟨Ñ⟩⟦239⟧⟨Ò⟩⟦107⟧⟨Ó⟩⟦69⟧⟨Ô⟩
+⟦269⟧⟨Õ⟩⟦85⟧⟨Ö⟩⟦308⟧⟨×⟩⟦208⟧⟨Ø⟩⟦259⟧⟨Ù⟩⟦107⟧⟨Ú⟩⟦60⟧⟨Û⟩⟦225⟧⟨Ü⟩⟦263⟧⟨Ý⟩⟦106⟧⟨Þ⟩
+⟦116⟧⟨ß⟩⟦43⟧⟨à⟩⟦180⟧⟨á⟩⟦165⟧⟨â⟩⟦253⟧⟨ã⟩⟦23⟧⟨ä⟩
+⟨å⟩⟦130⟧⟨æ⟩⟦78⟧⟨ç⟩⟦281⟧⟨è⟩⟦224⟧⟨é⟩⟦166⟧⟨ê⟩⟦259⟧⟨ë⟩⟦1⟧⟨ì⟩⟦83⟧⟨í⟩⟦84⟧⟨î⟩⟦67⟧⟨ï⟩
+⟦294⟧⟨ð⟩⟦243⟧⟨ñ⟩⟦265⟧⟨ò⟩⟦219⟧⟨ó⟩⟦312⟧⟨ô⟩⟦250⟧⟨õ⟩
+⟦282⟧⟨ö⟩⟦205⟧⟨÷⟩⟦295⟧⟨ø⟩⟦131⟧⟨ù⟩⟦259⟧⟨ú⟩⟦107⟧⟨û⟩⟦53⟧⟨ü⟩⟦221⟧⟨ý⟩⟦61⟧⟨þ⟩
+⟦7⟧⟨ÿ⟩⟦297⟧⟨Ā⟩⟦259⟧⟨ā⟩⟦107⟧⟨Ă⟩⟦61⟧⟨ă⟩⟦51⟧⟨Ą⟩⟦205⟧⟨ą⟩⟦100⟧⟨Ć⟩⟦169⟧⟨ć⟩⟦115⟧⟨Ĉ⟩⟦164⟧⟨ĉ⟩⟦207⟧⟨Ċ⟩
+⟦293⟧⟨ċ⟩⟦242⟧⟨Č⟩⟦188⟧⟨č⟩⟦117⟧⟨Ď⟩⟦207⟧⟨ď⟩⟦275⟧⟨Đ⟩⟦164⟧⟨đ⟩⟦42⟧⟨Ē⟩⟦137⟧⟨ē⟩⟦22⟧⟨Ĕ⟩⟦236⟧⟨ĕ⟩⟦183⟧⟨Ė⟩
+⟦280⟧⟨ė⟩⟦271⟧⟨Ę⟩⟦30⟧⟨ę⟩⟦259⟧⟨Ě⟩⟦240⟧⟨ě⟩⟦189⟧⟨Ĝ⟩⟦211⟧⟨ĝ⟩⟦289⟧⟨Ğ⟩⟦313⟧⟨ğ⟩⟦54⟧⟨Ġ⟩⟦229⟧⟨ġ⟩⟦266⟧⟨Ģ⟩⟦259⟧⟨ģ⟩⟦240⟧⟨Ĥ⟩⟦288⟧⟨ĥ⟩⟦211⟧⟨Ħ⟩
+⟦292⟧⟨ħ⟩⟦240⟧⟨Ĩ⟩⟦173⟧⟨ĩ⟩⟦329⟧⟨Ī⟩⟦186⟧⟨ī⟩⟦95⟧⟨Ĭ⟩⟦200⟧⟨ĭ⟩⟦279⟧⟨Į⟩⟦181⟧⟨į⟩⟦234⟧⟨İ⟩
+⟨ı⟩⟦110⟧⟨Ĳ⟩⟦192⟧⟨ĳ⟩⟦193⟧⟨Ĵ⟩⟦26⟧⟨ĵ⟩⟦315⟧⟨Ķ⟩⟦156⟧⟨ķ⟩⟦25⟧⟨ĸ⟩
+⟦185⟧⟨Ĺ⟩⟦174⟧⟨ĺ⟩⟦34⟧⟨Ļ⟩⟦62⟧⟨ļ⟩
+⟨Ľ⟩⟦32⟧⟨ľ⟩⟦92⟧⟨Ŀ⟩⟦199⟧⟨ŀ⟩⟦303⟧⟨Ł⟩⟦319⟧⟨ł⟩⟦243⟧⟨Ń⟩⟦235⟧⟨ń⟩⟦235⟧⟨Ņ⟩
+⟦184⟧⟨ņ⟩⟦153⟧⟨Ň⟩⟦234⟧⟨ň⟩⟦259⟧⟨ŉ⟩⟦260⟧⟨Ŋ⟩⟦240⟧⟨ŋ⟩⟦86⟧⟨Ō⟩⟦4⟧⟨ō⟩⟦12⟧⟨Ŏ⟩⟦127⟧⟨ŏ⟩⟦127⟧⟨Ő⟩⟦17⟧⟨ő⟩⟦270⟧⟨Œ⟩⟦2⟧⟨œ⟩
+⟦184⟧⟨Ŕ⟩⟦151⟧⟨ŕ⟩⟦107⟧⟨Ŗ⟩⟦249⟧⟨ŗ⟩
+⟦186⟧⟨Ř⟩⟦328⟧⟨ř⟩⟦241⟧⟨Ś⟩⟦96⟧⟨ś⟩⟦36⟧⟨Ŝ⟩⟦163⟧⟨ŝ⟩⟦245⟧⟨Ş⟩
+⟨ş⟩⟦49⟧⟨Š⟩⟦199⟧⟨š⟩⟦258⟧⟨Ţ⟩⟦125⟧⟨ţ⟩⟦163⟧⟨Ť⟩⟦132⟧⟨ť⟩
+⟦186⟧⟨Ŧ⟩⟦20⟧⟨ŧ⟩⟦27⟧⟨Ũ⟩⟦27⟧⟨ũ⟩⟦35⟧⟨Ū⟩⟦63⟧⟨ū⟩
+⟨Ŭ⟩⟦138⟧⟨ŭ⟩⟦107⟧⟨Ů⟩⟦47⟧⟨ů⟩⟦233⟧⟨Ű⟩⟦304⟧⟨ű⟩⟦324⟧⟨Ų⟩⟦240⟧⟨ų⟩⟦6⟧⟨Ŵ⟩⟦332⟧⟨ŵ⟩
+⟨Ŷ⟩⟦162⟧⟨ŷ⟩⟦296⟧⟨Ÿ⟩⟦259⟧⟨Ź⟩⟦64⟧⟨ź⟩⟦175⟧⟨Ż⟩⟦327⟧⟨ż⟩⟦211⟧⟨Ž⟩⟦182⟧⟨ž⟩⟦271⟧⟨ſ⟩⟦119⟧⟨ƀ⟩⟦119⟧⟨Ɓ⟩⟦96⟧⟨Ƃ⟩
+⟨ƃ⟩⟦72⟧⟨Ƅ⟩⟦63⟧⟨ƅ⟩⟦89⟧⟨Ɔ⟩⟦120⟧⟨Ƈ⟩⟦121⟧⟨ƈ⟩⟦127⟧⟨Ɖ⟩⟦259⟧⟨Ɗ⟩⟦261⟧⟨Ƌ⟩⟦244⟧⟨ƌ⟩
+⟨ƍ⟩⟦259⟧⟨Ǝ⟩⟦107⟧⟨Ə⟩⟦267⟧⟨Ɛ⟩⟦247⟧⟨Ƒ⟩⟦14⟧⟨ƒ⟩⟦274⟧⟨Ɠ⟩⟦105⟧⟨Ɣ⟩⟦57⟧⟨ƕ⟩⟦203⟧⟨Ɩ⟩⟦305⟧⟨Ɨ⟩
+⟨Ƙ⟩⟦190⟧⟨ƙ⟩⟦226⟧⟨ƚ⟩⟦292⟧⟨ƛ⟩⟦240⟧⟨Ɯ⟩⟦215⟧⟨Ɲ⟩⟦237⟧⟨ƞ⟩⟦59⟧⟨Ɵ⟩⟦210⟧⟨Ơ⟩⟦216⟧⟨ơ⟩⟦139⟧⟨Ƣ⟩⟦99⟧⟨ƣ⟩⟦254⟧⟨Ƥ⟩⟦254⟧⟨ƥ⟩
+⟨Ʀ⟩⟦147⟧⟨Ƨ⟩⟦114⟧⟨ƨ⟩⟦14⟧⟨Ʃ⟩⟦89⟧⟨ƪ⟩⟦145⟧⟨ƫ⟩⟦243⟧⟨Ƭ⟩⟦301⟧⟨ƭ⟩⟦247⟧⟨Ʈ⟩⟦9⟧⟨Ư⟩⟦300⟧⟨ư⟩⟦313⟧⟨Ʊ⟩⟦233⟧⟨Ʋ⟩⟦202⟧⟨Ƴ⟩⟦48⟧⟨ƴ⟩⟦129⟧⟨Ƶ⟩⟦58⟧⟨ƶ⟩⟦255⟧⟨Ʒ⟩⟦285⟧⟨Ƹ⟩⟦220⟧⟨ƹ⟩⟦108⟧⟨ƺ⟩⟦108⟧⟨ƻ⟩⟦73⟧⟨Ƽ⟩⟦65⟧⟨ƽ⟩
+⟦286⟧⟨ƾ⟩⟦223⟧⟨ƿ⟩⟦318⟧⟨ǀ⟩⟦171⟧⟨ǁ⟩⟦307⟧⟨ǂ⟩⟦243⟧⟨ǃ⟩
+⟦284⟧⟨Ǆ⟩⟦208⟧⟨ǅ⟩⟦294⟧⟨ǆ⟩⟦243⟧⟨Ǉ⟩⟦248⟧⟨ǈ⟩⟦238⟧⟨ǉ⟩⟦268⟧⟨Ǌ⟩⟦68⟧⟨ǋ⟩⟦37⟧⟨ǌ⟩⟦98⟧⟨Ǎ⟩⟦55⟧⟨ǎ⟩⟦237⟧⟨Ǐ⟩
+⟦89⟧⟨ǐ⟩⟦77⟧⟨Ǒ⟩⟦146⟧⟨ǒ⟩⟦217⟧⟨Ǔ⟩
+⟨ǔ⟩⟦89⟧⟨Ǖ⟩⟦135⟧⟨ǖ⟩⟦221⟧⟨Ǘ⟩⟦222⟧⟨ǘ⟩⟦299⟧⟨Ǚ⟩⟦313⟧⟨ǚ⟩⟦94⟧⟨Ǜ⟩⟦232⟧⟨ǜ⟩⟦259⟧⟨ǝ⟩⟦320⟧⟨Ǟ⟩⟦5⟧⟨ǟ⟩⟦50⟧⟨Ǡ⟩⟦92⟧⟨ǡ⟩⟦172⟧⟨Ǣ⟩⟦325⟧⟨ǣ⟩⟦161⟧⟨Ǥ⟩
+⟨ǥ⟩⟦159⟧⟨Ǧ⟩⟦109⟧⟨ǧ⟩⟦76⟧⟨Ǩ⟩⟦323⟧⟨ǩ⟩⟦284⟧⟨Ǫ⟩⟦208⟧⟨ǫ⟩⟦170⟧⟨Ǭ⟩⟦226⟧⟨ǭ⟩⟦298⟧⟨Ǯ⟩⟦312⟧⟨ǯ⟩⟦218⟧⟨ǰ⟩⟦21⟧⟨Ǳ⟩⟦331⟧⟨ǲ⟩⟦75⟧⟨ǳ⟩⟦330⟧⟨Ǵ⟩
+⟦326⟧⟨ǵ⟩⟦148⟧⟨Ƕ⟩⟦252⟧⟨Ƿ⟩⟦206⟧⟨Ǹ⟩⟦187⟧⟨ǹ⟩⟦56⟧⟨Ǻ⟩⟦63⟧⟨ǻ⟩⟦158⟧⟨Ǽ⟩⟦158⟧⟨ǽ⟩
+⟨Ǿ⟩⟦259⟧⟨ǿ⟩⟦107⟧⟨Ȁ⟩⟦112⟧⟨ȁ⟩⟦112⟧⟨Ȃ⟩⟦195⟧⟨ȃ⟩⟦195⟧⟨Ȅ⟩⟦290⟧⟨ȅ⟩⟦10⟧⟨Ȇ⟩⟦118⟧⟨ȇ⟩⟦29⟧⟨Ȉ⟩
+⟨ȉ⟩⟦45⟧⟨Ȋ⟩⟦160⟧⟨ȋ⟩⟦206⟧⟨Ȍ⟩⟦144⟧⟨ȍ⟩⟦233⟧⟨Ȏ⟩⟦168⟧⟨ȏ⟩⟦198⟧⟨Ȑ⟩⟦104⟧⟨ȑ⟩⟦111⟧⟨Ȓ⟩⟦15⟧⟨ȓ⟩
+⟨Ȕ⟩⟦31⟧⟨ȕ⟩⟦150⟧⟨Ȗ⟩⟦197⟧⟨ȗ⟩⟦24⟧⟨Ș⟩⟦112⟧⟨ș⟩⟦93⟧⟨Ț⟩⟦28⟧⟨ț⟩⟦28⟧⟨Ȝ⟩⟦19⟧⟨ȝ⟩
+⟨Ȟ⟩⟦276⟧⟨ȟ⟩⟦178⟧⟨Ƞ⟩⟦287⟧⟨ȡ⟩⟦227⟧⟨Ȣ⟩⟦314⟧⟨ȣ⟩⟦240⟧⟨Ȥ⟩⟦272⟧⟨ȥ⟩
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+约束：
+- 必须先把整个拓扑链从头到尾完整看完，再决定截断片段
+- 每个截断必须是拓扑链中连续的符号序列
+- 多个截断必须按拓扑链中的原始顺序排列（不允许交叉）
+- 不能编造不存在的符号
+- 不能重排符号顺序
+- 段长建议：每个段至少 3 个名词 + 2 个占位符（左右各留 1 个占位符给出上下文）
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨A⟩⟦2⟧ | ⟦3⟧⟨B⟩⟦5⟧
+长段示例：⟦2⟧⟨B⟩⟦3⟧⟨C⟩⟦4⟧⟨D⟩⟦5⟧⟨E⟩⟦6⟧ | ⟦8⟧⟨F⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：
+
+[user]
+
+问题：
+Li Yitong made her television debut on which network?

@@ -1,0 +1,122 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Captain Beefheart] ⟦80⟧⟨301⟩⟦79⟧⟨302⟩⟦112⟧⟨303⟩⟦75⟧⟨304⟩⟦30⟧⟦200⟧⟨305⟩⟨306⟩⟦208⟧⟦208⟧⟨307⟩⟨308⟩⟦146⟧⟦146⟧⟨309⟩⟨310⟩⟦36⟧⟦36⟧⟨311⟩⟨312⟩⟦272⟧⟦212⟧⟨314⟩⟦149⟧⟨313⟩⟨315⟩⟨316⟩
+[Captain Beefheart] ⟨317⟩⟦103⟧⟨318⟩⟨319⟩⟦18⟧⟦85⟧⟨320⟩⟨321⟩⟨322⟩⟨323⟩⟦253⟧⟨324⟩⟦6⟧⟦214⟧⟨326⟩⟦24⟧⟨325⟩⟨327⟩
+[Captain Beefheart] ⟦147⟧⟦147⟧
+[The Legendary A&amp;M Sessions] ⟦252⟧⟨406⟩⟦32⟧⟦174⟧⟨407⟩⟨408⟩⟦92⟧⟦207⟧⟨409⟩⟨410⟩⟨411⟩⟦101⟧⟨412⟩⟦280⟧⟦55⟧⟨413⟩⟨414⟩⟦283⟧⟦183⟧⟨416⟩⟦125⟧⟨417⟩⟨415⟩
+[The Legendary A&amp;M Sessions] ⟦54⟧ | ⟦243⟧⟨418⟩⟦239⟧⟦64⟧⟨419⟩⟨420⟩⟦54⟧⟨421⟩⟦187⟧⟦187⟧⟨422⟩⟨423⟩ | ⟦54⟧
+[Symphony No. 3 (Tchaikovsky)] ⟦312⟧
+
+符号表：
+⟦6⟧ = 13 studio albums
+⟦18⟧ = a rotating ensemble
+⟦24⟧ = albums
+⟦30⟧ = an American singer
+⟦32⟧ = an extended play
+⟦36⟧ = artist
+⟦54⟧ = Captain Beefheart
+⟦55⟧ = career
+⟦64⟧ = company
+⟦75⟧ = December
+⟦79⟧ = Don Glen Vliet
+⟦80⟧ = Don Van Vliet
+⟦85⟧ = ensemble
+⟦92⟧ = five songs
+⟦101⟧ = His Magic Band
+⟦103⟧ = His musical work
+⟦112⟧ = January
+⟦125⟧ = label
+⟦146⟧ = musician
+⟦147⟧ = musicians
+⟦149⟧ = name
+⟦174⟧ = play
+⟦183⟧ = record
+⟦187⟧ = retirement
+⟦200⟧ = singer
+⟦207⟧ = songs
+⟦208⟧ = songwriter
+⟦212⟧ = stage
+⟦214⟧ = studio
+⟦239⟧ = the company
+⟦243⟧ = The EP
+⟦252⟧ = The Legendary A&M Sessions
+⟦253⟧ = the Magic Band
+⟦272⟧ = the stage name
+⟦280⟧ = their career
+⟦283⟧ = their original record label A&M Records
+⟦312⟧ = work
+
+占位符映射：
+⟨301⟩ =  ( , born 
+⟨302⟩ = ; 
+⟨303⟩ =  15, 1941 – 
+⟨304⟩ =  17, 2010) was 
+⟨305⟩ = 
+⟨306⟩ = , 
+⟨307⟩ = 
+⟨308⟩ = , 
+⟨309⟩ = 
+⟨310⟩ =  and 
+⟨311⟩ = 
+⟨312⟩ =  best known by 
+⟨313⟩ = 
+⟨314⟩ =  
+⟨315⟩ =  
+⟨316⟩ = .
+⟨317⟩ =  
+⟨318⟩ = 
+⟨319⟩ =  was conducted with 
+⟨320⟩ = 
+⟨321⟩ =  of 
+⟨322⟩ = 
+⟨323⟩ =  called 
+⟨324⟩ =  (1964–1982), with whom he recorded 
+⟨325⟩ = 
+⟨326⟩ =  
+⟨327⟩ = .
+⟨406⟩ =  is 
+⟨407⟩ = 
+⟨408⟩ =  featuring 
+⟨409⟩ = 
+⟨410⟩ =  by 
+⟨411⟩ =  & 
+⟨412⟩ = , recorded early in 
+⟨413⟩ = 
+⟨414⟩ =  for 
+⟨415⟩ = 
+⟨416⟩ =  
+⟨417⟩ =  A&M Records.
+⟨418⟩ =  was released by 
+⟨419⟩ = 
+⟨420⟩ =  in 1984 after 
+⟨421⟩ =  had gone into 
+⟨422⟩ = 
+⟨423⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The Legendary A&M Sessions contain five songs by the singer whose work was conducted with what band?

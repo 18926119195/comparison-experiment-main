@@ -1,0 +1,79 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Elton John] ⟦158⟧⟨280⟩⟦144⟧⟨281⟩⟦4⟧⟨282⟩⟦25⟧⟦155⟧⟨283⟩⟨284⟩⟦136⟧⟦136⟧⟨285⟩⟨286⟩⟦53⟧⟦53⟧⟨287⟩⟨288⟩
+[Elton John] ⟦107⟧⟨352⟩⟦234⟧⟨353⟩
+[Elton John] ⟨354⟩⟦26⟧⟨355⟩⟨356⟩⟨357⟩⟦17⟧⟦163⟧⟨358⟩⟨359⟩⟦185⟧⟨361⟩⟨362⟩⟨360⟩⟨363⟩
+[Hinckley A.F.C.] ⟦97⟧
+[List of Liverpool F.C. players (1–24 appearances)] ⟦162⟧
+[Tatung F.C.] ⟦183⟧
+[Tatung F.C.] ⟦50⟧⟦50⟧
+
+符号表：
+⟦4⟧ = 25 March
+⟦17⟧ = a stand
+⟦25⟧ = an English singer
+⟦26⟧ = an honorary Life President
+⟦50⟧ = club
+⟦53⟧ = composer
+⟦97⟧ = home
+⟦107⟧ = John
+⟦136⟧ = pianist
+⟦144⟧ = Reginald Kenneth Dwight
+⟦155⟧ = singer
+⟦158⟧ = Sir Elton Hercules John
+⟦162⟧ = stadium
+⟦163⟧ = stand
+⟦183⟧ = The club
+⟦185⟧ = the club's home stadium
+⟦234⟧ = Watford Football Club
+
+占位符映射：
+⟨280⟩ = , (born 
+⟨281⟩ = ; 
+⟨282⟩ =  1947), is 
+⟨283⟩ = 
+⟨284⟩ = , 
+⟨285⟩ = 
+⟨286⟩ = , and 
+⟨287⟩ = 
+⟨288⟩ = .
+⟨352⟩ =  owned 
+⟨353⟩ =  from 1976 to 1987, and 1997 to 2002.
+⟨354⟩ =  He is 
+⟨355⟩ =  of 
+⟨356⟩ = 
+⟨357⟩ = , and in 2014 had 
+⟨358⟩ = 
+⟨359⟩ =  named after him at 
+⟨360⟩ = 
+⟨361⟩ = 's 
+⟨362⟩ =  
+⟨363⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What football club was owned by the singer of "Grow Some Funk of Your Own"?

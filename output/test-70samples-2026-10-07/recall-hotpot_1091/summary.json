@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_1091",
+  "question": "\"Big for Your Boots\" is a song by an English grime and hip hop artist whose most  successful song to date is what?",
+  "expectedAnswer": "Shut Up",
+  "predictedAnswer": "# 路径一：从歌曲到艺术家的直接识别\n\n步骤1：使用⟦272⟧⟦437⟧⟦439⟧⟦83⟧，提取 \"Big for Your Boots\" 是一首由英国说唱歌手 Stormzy 演唱的歌曲，判断该歌曲的艺术家为 Stormzy。\n\n步骤2：使用⟦110⟧，提取 Stormzy 最成功的歌曲信息，判断其最成功的歌曲为 \"Shut Up\"。\n\n结论：Stormzy 迄今为止最成功的歌曲是 \"Shut Up\"。\n\n---\n\n# 路径二：通过艺术家最成功歌曲的发行背景交叉验证\n\n步骤1：使用⟦272⟧⟦437⟧⟦439⟧⟦83⟧，提取 \"Big for Your Boots\" 的艺术家为英国说唱歌手 Stormzy。\n\n步骤2：综合⟦110⟧⟦322⟧⟦321⟧，提取 Stormzy 最成功的歌曲是 \"Shut Up\"，该曲最初作为 freestyle 发布。\n\n步骤3：综合⟦326⟧⟦327⟧⟦328⟧⟦329⟧⟦330⟧⟦331⟧⟦332⟧⟦333⟧，提取 \"Shut Up\" 随后正式发行，并在某活动发起后达到第八名，最终达到第一名，交叉验证该曲为 Stormzy 最成功的歌曲。\n\n结论：Stormzy 最成功的歌曲是 \"Shut Up\"，其从 freestyle 到正式发行并登顶的历程可佐证其成功程度。\n\n---\n\n# 路径三：通过歌曲与艺术家关联及排行榜成绩综合支撑\n\n步骤1：使用⟦272⟧⟦437⟧⟦439⟧⟦83⟧，提取 \"Big for Your Boots\" 由英国说唱歌手 Stormzy 演唱。\n\n步骤2：综合⟦110⟧⟦212⟧⟦92⟧⟦174⟧，提取 Stormzy 最成功的歌曲是 \"Shut Up\"，该曲为 BPI 金销量歌曲。\n\n步骤3：综合⟦326⟧⟦327⟧⟦328⟧⟦329⟧⟦330⟧⟦331⟧⟦332⟧⟦333⟧，提取 \"Shut Up\" 正式发行后在英国单曲榜达到第八名，随后在 Christmas number one 竞争中达到第一名，综合支撑该曲为 Stormzy 最成功的歌曲。\n\n结论：Stormzy 最成功的歌曲是 \"Shut Up\"，其金销量认证及排行榜登顶成绩共同支撑这一结论。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦272⟧⟨437⟩⟦28⟧⟨438⟩⟨439⟩⟦83⟧⟦160⟧⟨441⟩⟨440⟩⟨442⟩⟦179⟧⟦187⟧",
+  "nounCount": 444,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7159,
+    "completion_tokens": 194,
+    "total_tokens": 7353,
+    "prompt_tokens_details": {
+      "cached_tokens": 6912
+    },
+    "prompt_cache_hit_tokens": 6912,
+    "prompt_cache_miss_tokens": 247
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 835,
+    "completion_tokens": 557,
+    "total_tokens": 1392,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 835
+  }
+}

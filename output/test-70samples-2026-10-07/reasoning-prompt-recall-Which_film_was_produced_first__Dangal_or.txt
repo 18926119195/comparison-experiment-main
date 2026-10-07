@@ -1,0 +1,107 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Dangal (film)] ⟦60⟧⟨59⟩⟦8⟧⟨60⟩⟦232⟧⟨61⟩⟦55⟧⟨62⟩⟨63⟩⟦13⟧⟦100⟧⟨65⟩⟦153⟧⟨66⟩⟨67⟩⟨64⟩⟨68⟩⟦200⟧⟦155⟧⟨69⟩⟨70⟩⟦103⟧⟨71⟩⟦30⟧⟨72⟩⟨73⟩⟦82⟧⟨74⟩⟨75⟩⟦74⟧⟨76⟩⟦38⟧⟨77⟩⟦227⟧⟦228⟧⟨78⟩⟨80⟩⟦230⟧⟨79⟩⟨81⟩
+[Dangal (film)] ⟦63⟧
+[Dangal (film)] ⟦53⟧
+[Dangal (film)] ⟦229⟧
+[Dangal (film)] ⟦231⟧
+[The Man from Snowy River II] ⟨289⟩⟦147⟧⟨290⟩⟦12⟧⟨292⟩⟨291⟩⟨293⟩⟦193⟧⟦139⟧⟨294⟩⟨295⟩⟦160⟧⟨296⟩⟨297⟩⟨298⟩⟨299⟩
+[The Man from Snowy River (1982 film)] ⟦67⟧ | ⟦182⟧⟦67⟧⟦7⟧⟦146⟧
+[The Man from Snowy River (1982 film)] ⟦71⟧ | ⟦71⟧⟦71⟧
+
+符号表：
+⟦7⟧ = "The Man
+⟦8⟧ = (English
+⟦12⟧ = a 1988 Australian drama film
+⟦13⟧ = a 2016 Indian Hindi-language biographical sports drama film
+⟦30⟧ = an amateur wrestler
+⟦38⟧ = Babita Kumari
+⟦53⟧ = class
+⟦55⟧ = competition
+⟦60⟧ = Dangal
+⟦63⟧ = daughters
+⟦67⟧ = drama
+⟦71⟧ = film
+⟦74⟧ = Geeta Phogat
+⟦82⟧ = his daughters
+⟦100⟧ = language
+⟦103⟧ = Mahavir Singh Phogat
+⟦139⟧ = sequel
+⟦146⟧ = Snowy River
+⟦147⟧ = Snowy River II
+⟦153⟧ = sports
+⟦155⟧ = story
+⟦160⟧ = the 1982 film
+⟦182⟧ = The Man
+⟦193⟧ = the sequel
+⟦200⟧ = the story
+⟦227⟧ = world
+⟦228⟧ = world-class wrestlers
+⟦229⟧ = wrestler
+⟦230⟧ = wrestlers
+⟦231⟧ = Wrestling
+⟦232⟧ = Wrestling competition
+
+占位符映射：
+⟨59⟩ =  
+⟨60⟩ = : "
+⟨61⟩ = 
+⟨62⟩ = 
+⟨63⟩ = " ) is 
+⟨64⟩ = 
+⟨65⟩ =  biographical 
+⟨66⟩ =  
+⟨67⟩ =  
+⟨68⟩ =  loosely based on 
+⟨69⟩ = 
+⟨70⟩ =  of 
+⟨71⟩ = , 
+⟨72⟩ = 
+⟨73⟩ = , who trains 
+⟨74⟩ = 
+⟨75⟩ =  
+⟨76⟩ =  and 
+⟨77⟩ =  to be 
+⟨78⟩ = 
+⟨79⟩ = 
+⟨80⟩ =  
+⟨81⟩ = .
+⟨289⟩ =  from 
+⟨290⟩ =  is 
+⟨291⟩ = 
+⟨292⟩ =  
+⟨293⟩ = , 
+⟨294⟩ = 
+⟨295⟩ =  to 
+⟨296⟩ = 
+⟨297⟩ =  
+⟨298⟩ =  from 
+⟨299⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which film was produced first, Dangal or The Man from Snowy River II?

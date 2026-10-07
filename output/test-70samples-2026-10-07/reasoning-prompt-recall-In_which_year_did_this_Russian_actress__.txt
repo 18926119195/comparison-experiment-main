@@ -1,0 +1,78 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[A Doll's House (1922 film)] ⟦8⟧⟨46⟩⟨48⟩⟨47⟩⟨49⟩⟨50⟩⟦60⟧⟦62⟧⟨51⟩⟨52⟩⟦32⟧⟨53⟩
+[A Doll's House (1922 film)] ⟦108⟧⟦35⟧⟨54⟩⟨55⟩⟨56⟩⟨57⟩⟨58⟩
+[The Man Who Played God (1922 film)] ⟦127⟧
+[Alla Nazimova] ⟦20⟧⟨141⟩⟦4⟧⟨142⟩⟦135⟧⟨143⟩⟦77⟧⟨144⟩⟦13⟧⟦16⟧⟨145⟩⟨146⟩⟦121⟧⟨147⟩ | ⟦20⟧
+[Tillie (film)] ⟦7⟧⟦39⟧
+[Tillie (film)] ⟦46⟧ | ⟦109⟧⟦46⟧
+
+符号表：
+⟦4⟧ = (Russian
+⟦7⟧ = a 1922 American silent drama film
+⟦8⟧ = A Doll's House
+⟦13⟧ = a Russian actress
+⟦16⟧ = actress
+⟦20⟧ = Alla Nazimova
+⟦32⟧ = Charles Bryant
+⟦35⟧ = couple
+⟦39⟧ = drama
+⟦46⟧ = film
+⟦60⟧ = her husband
+⟦62⟧ = husband
+⟦77⟧ = Marem-Ides Leventon
+⟦108⟧ = The couple
+⟦109⟧ = The film
+⟦121⟧ = the United States
+⟦127⟧ = United Artists
+⟦135⟧ = Алла Назимова
+
+占位符映射：
+⟨46⟩ =  is 
+⟨47⟩ = 
+⟨48⟩ =  
+⟨49⟩ =  produced by and starring 
+⟨50⟩ =  and directed by 
+⟨51⟩ = 
+⟨52⟩ =  
+⟨53⟩ = .
+⟨54⟩ = 
+⟨55⟩ =  released 
+⟨56⟩ = 
+⟨57⟩ =  through 
+⟨58⟩ = .
+⟨141⟩ =  
+⟨142⟩ = : 
+⟨143⟩ =  ; born 
+⟨144⟩ = ; June 3 [O.S. May 22] , 1879 July 13, 1945) was 
+⟨145⟩ = 
+⟨146⟩ =  who immigrated to 
+⟨147⟩ =  in 1905.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+In which year did this Russian actress  who produced and performed in the 1922 American silent drama film "A Doll's House" immigrate to the United States?

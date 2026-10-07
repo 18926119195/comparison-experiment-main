@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_7097",
+  "question": "The actor of Professor Sprout in \"Harry Potter\" acted as a mother in a sitcom. In that sitcom, what was the daughter's name?",
+  "expectedAnswer": "Fran",
+  "predictedAnswer": "# 路径一：从演员到角色再到剧集\n\n步骤1：使用⟦159⟧，提取 Miriam Margolyes 在《哈利·波特》系列中饰演 Professor Sprout 这一角色信息。\n步骤2：综合⟦129⟧⟦31⟧⟦48⟧，确认 Miriam Margolyes 是一位英国角色女演员，她在某部情景喜剧中饰演了一个母亲角色。\n步骤3：使用⟦17⟧⟦180⟧，提取该情景喜剧是一部四集英国情景喜剧（即《Bucket》）。\n步骤4：综合⟦67⟧⟦20⟧⟦46⟧⟦237⟧，在该情景喜剧中，母亲有一个女儿，剧情围绕母亲的“遗愿清单”展开。\n步骤5：使用⟦128⟧，提取女儿的名字为 Mim。\n\n结论：在该情景喜剧中，女儿的名字是 Mim。\n\n# 路径二：从剧集信息反推角色关系\n\n步骤1：使用⟦17⟧⟦186⟧⟦188⟧，提取《Bucket》是一部四集英国情景喜剧。\n步骤2：综合⟦189⟧⟦20⟧⟦67⟧，该剧讲述的是关于一位母亲和她的女儿的故事。\n步骤3：使用⟦22⟧⟦283⟧⟦165⟧，剧情涉及一场公路旅行（road trip），是母亲遗愿清单上的事项。\n步骤4：综合⟦52⟧⟦84⟧⟦85⟧⟦128⟧，Miriam Margolyes 饰演 Fran 的母亲，而女儿 Fran 由 Frog Stone 饰演，但剧中女儿角色的名字是 Mim。\n\n结论：该情景喜剧中女儿的名字是 Mim。\n\n# 路径三：交叉验证演员与角色\n\n步骤1：使用⟦129⟧⟦399⟧⟦31⟧，确认 Miriam Margolyes 是英国角色女演员，出生于1941年。\n步骤2：综合⟦150⟧⟦159⟧，她在《哈利·波特》系列中饰演 Professor Sprout。\n步骤3：使用⟦17⟧⟦180⟧⟦48⟧，她在情景喜剧《Bucket》中饰演一位母亲角色。\n步骤4：综合⟦67⟧⟦128⟧⟦237⟧，该剧中女儿的名字是 Mim，剧情围绕母亲的遗愿清单展开。\n\n结论：综合多条材料交叉验证，女儿的名字是 Mim。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦129⟧⟨399⟩⟦31⟧⟦48⟧⟨401⟩⟦27⟧⟨400⟩⟨402⟩⟦290⟧⟦291⟧⟨403⟩⟦35⟧",
+  "nounCount": 485,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7565,
+    "completion_tokens": 459,
+    "total_tokens": 8024,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 7565
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1549,
+    "completion_tokens": 527,
+    "total_tokens": 2076,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1549
+  }
+}

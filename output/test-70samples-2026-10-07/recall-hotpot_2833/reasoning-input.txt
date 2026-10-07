@@ -1,0 +1,99 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Newark (UK Parliament constituency)] ⟨93⟩⟦29⟧⟨94⟩⟨95⟩⟦124⟧⟨96⟩⟦85⟧⟨97⟩
+[Newark (UK Parliament constituency)] ⟨98⟩⟦152⟧⟨99⟩⟦192⟧⟨100⟩⟨101⟩⟨102⟩⟦26⟧⟦55⟧⟨103⟩⟨104⟩⟨105⟩⟨106⟩⟨107⟩⟨108⟩⟨109⟩⟨110⟩⟦45⟧⟨111⟩
+[Gayle Chaneyfield-Jenkins] ⟦120⟧
+[Newark by-election, 2014] ⟦214⟧⟨335⟩⟨336⟩⟦82⟧⟦82⟧⟦82⟧⟨337⟩⟨338⟩⟦215⟧⟦68⟧⟨339⟩⟨340⟩⟦186⟧⟨341⟩⟦65⟧⟨342⟩⟦22⟧⟨343⟩⟦226⟧⟦148⟧⟨344⟩⟨345⟩⟦134⟧⟨346⟩ | ⟦68⟧ | ⟦82⟧⟦82⟧⟦22⟧⟦226⟧⟦148⟧⟦134⟧
+[Newark by-election, 2014] ⟦66⟧⟨347⟩⟦228⟧⟦158⟧⟨348⟩⟨349⟩⟦32⟧⟦111⟧⟨350⟩⟨351⟩ | ⟦228⟧⟦158⟧
+
+符号表：
+⟦22⟧ = 5 June
+⟦26⟧ = a by
+⟦29⟧ = a constituency
+⟦32⟧ = a majority
+⟦45⟧ = April
+⟦55⟧ = by
+⟦65⟧ = Commons
+⟦66⟧ = Conservative Robert Jenrick
+⟦68⟧ = constituency
+⟦82⟧ = election
+⟦85⟧ = England
+⟦111⟧ = majority
+⟦120⟧ = Newark
+⟦124⟧ = Nottinghamshire
+⟦134⟧ = Patrick Mercer
+⟦148⟧ = resignation
+⟦152⟧ = Robert Jenrick
+⟦158⟧ = seat
+⟦186⟧ = the British House
+⟦192⟧ = the Conservative Party
+⟦214⟧ = The Newark by-election
+⟦215⟧ = the Newark constituency
+⟦226⟧ = the resignation
+⟦228⟧ = the seat
+
+占位符映射：
+⟨93⟩ =  is 
+⟨94⟩ = 
+⟨95⟩ =  in 
+⟨96⟩ = , 
+⟨97⟩ = .
+⟨98⟩ =  It is currently represented by 
+⟨99⟩ =  of 
+⟨100⟩ = , who won 
+⟨101⟩ = 
+⟨102⟩ =  in 
+⟨103⟩ = 
+⟨104⟩ = -
+⟨105⟩ = 
+⟨106⟩ =  on 
+⟨107⟩ =  2014, following 
+⟨108⟩ = 
+⟨109⟩ =  of 
+⟨110⟩ =  in 
+⟨111⟩ =  2014.
+⟨335⟩ = 
+⟨336⟩ =  was a by-
+⟨337⟩ = 
+⟨338⟩ =  in 
+⟨339⟩ = 
+⟨340⟩ =  of 
+⟨341⟩ =  of 
+⟨342⟩ = , which was held on 
+⟨343⟩ =  2014, following 
+⟨344⟩ = 
+⟨345⟩ =  of 
+⟨346⟩ = .
+⟨347⟩ =  won 
+⟨348⟩ = 
+⟨349⟩ =  with 
+⟨350⟩ = 
+⟨351⟩ =  of 7,403.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+After Patrick Mercer's suspension in April 2014, who won the seat for Newark?

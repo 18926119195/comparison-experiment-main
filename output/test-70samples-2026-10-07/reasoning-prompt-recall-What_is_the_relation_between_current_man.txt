@@ -1,0 +1,111 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Paolo Cannavaro] ⟦70⟧⟨57⟩⟦24⟧⟨58⟩⟨59⟩⟨60⟩⟨61⟩⟨62⟩
+[Paolo Cannavaro] ⟦13⟧⟦46⟧
+[Paolo Cannavaro] ⟦69⟧⟨77⟩⟨78⟩⟨79⟩⟦82⟧⟨80⟩⟨81⟩⟦16⟧⟦62⟧⟨83⟩⟦85⟧⟨82⟩⟨84⟩⟦111⟧⟨85⟩⟦88⟧⟦79⟧⟨86⟩⟨87⟩
+[Paolo Cannavaro] ⟨88⟩⟨89⟩⟦95⟧⟨91⟩⟦34⟧⟨90⟩⟨92⟩⟨93⟩⟨94⟩⟦97⟧⟨95⟩⟦96⟧⟨97⟩⟦109⟧⟨96⟩⟨98⟩⟦67⟧⟦115⟧⟨99⟩⟨100⟩
+[Paolo Cannavaro] ⟦78⟧ | ⟦80⟧ | ⟦66⟧
+[Fabio Cannavaro] ⟦49⟧⟨149⟩⟦25⟧⟦51⟧⟨150⟩⟨151⟩⟦45⟧⟦63⟧⟨152⟩⟨153⟩⟦40⟧⟨155⟩⟨154⟩ | ⟦51⟧
+[Tianjin Quanjian F.C.] ⟦102⟧⟦87⟧
+[Tianjin Quanjian F.C.] ⟦42⟧ | ⟦94⟧⟦42⟧ | ⟦42⟧⟦42⟧
+
+符号表：
+⟦13⟧ = a defender
+⟦16⟧ = a loan spell
+⟦24⟧ = an Italian footballer
+⟦25⟧ = an Italian former professional footballer
+⟦34⟧ = captain
+⟦40⟧ = Chinese club Tianjin Quanjian
+⟦42⟧ = club
+⟦45⟧ = current manager
+⟦46⟧ = defender
+⟦49⟧ = Fabio Cannavaro
+⟦51⟧ = footballer
+⟦62⟧ = loan
+⟦63⟧ = manager
+⟦66⟧ = Napoli
+⟦67⟧ = over 20 years
+⟦69⟧ = Paolo
+⟦70⟧ = Paolo Cannavaro
+⟦78⟧ = Sassuolo
+⟦79⟧ = season
+⟦80⟧ = seasons
+⟦82⟧ = seven seasons
+⟦85⟧ = spell
+⟦87⟧ = team
+⟦88⟧ = the 2001–02 season
+⟦94⟧ = the club
+⟦95⟧ = the club's captain
+⟦96⟧ = the club's first title
+⟦97⟧ = the Coppa Italia
+⟦102⟧ = The team
+⟦109⟧ = title
+⟦111⟧ = Verona
+⟦115⟧ = years
+
+占位符映射：
+⟨57⟩ =  (born 26 June 1981) is 
+⟨58⟩ = 
+⟨59⟩ =  who plays for 
+⟨60⟩ =  as 
+⟨61⟩ = 
+⟨62⟩ = .
+⟨77⟩ =  remained with 
+⟨78⟩ = 
+⟨79⟩ =  for 
+⟨80⟩ = 
+⟨81⟩ = , aside from 
+⟨82⟩ = 
+⟨83⟩ =  
+⟨84⟩ =  with 
+⟨85⟩ =  during 
+⟨86⟩ = 
+⟨87⟩ = .
+⟨88⟩ =  In 2006, he returned to 
+⟨89⟩ = , where he was eventually named 
+⟨90⟩ = 
+⟨91⟩ = 's 
+⟨92⟩ = , and helped 
+⟨93⟩ = 
+⟨94⟩ =  win 
+⟨95⟩ =  in 2012, 
+⟨96⟩ = 
+⟨97⟩ = 's first 
+⟨98⟩ =  in 
+⟨99⟩ = 
+⟨100⟩ = .
+⟨149⟩ = , (] ; born 13 September 1973) is 
+⟨150⟩ = 
+⟨151⟩ =  and 
+⟨152⟩ = 
+⟨153⟩ =  of 
+⟨154⟩ = 
+⟨155⟩ =  Tianjin Quanjian.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the relation between current manager of Chinese club Tianjin Quanjian and Paolo Cannavaro?

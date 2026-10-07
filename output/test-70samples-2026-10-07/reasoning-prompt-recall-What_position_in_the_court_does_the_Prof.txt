@@ -1,0 +1,118 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Aharon Barak] ⟦15⟧⟨95⟩⟦61⟧⟨96⟩⟦210⟧⟦210⟧⟨97⟩⟨98⟩⟦212⟧⟦212⟧⟨99⟩⟨100⟩⟦16⟧⟨101⟩⟦7⟧⟨102⟩⟦13⟧⟨103⟩⟨104⟩⟨105⟩⟨106⟩⟦11⟧⟦94⟧⟨107⟩⟨108⟩⟨109⟩⟨110⟩⟦164⟧⟨111⟩⟦89⟧⟨112⟩⟦194⟧⟨113⟩⟦35⟧⟨114⟩⟦57⟧⟨115⟩⟦197⟧⟨116⟩⟨117⟩
+[Kahan Commission] ⟨118⟩⟦215⟧⟨119⟩⟦216⟧⟨120⟩⟨121⟩⟦72⟧⟨122⟩⟦160⟧⟦52⟧⟨123⟩⟨124⟩⟦187⟧⟨125⟩⟦29⟧⟨126⟩⟦172⟧⟨127⟩⟨128⟩⟦8⟧⟨129⟩⟦188⟧⟨130⟩⟨131⟩
+[Kahan Commission] ⟦176⟧⟨132⟩⟦185⟧⟨133⟩⟦189⟧⟨134⟩⟦207⟧⟨135⟩ | ⟦176⟧
+[Kahan Commission] ⟦157⟧⟦99⟧
+[Amnon Rubinstein] ⟦92⟧⟦92⟧⟦92⟧⟦92⟧
+[Amnon Rubinstein] ⟦169⟧
+[International Institute for Counter-Terrorism] ⟦63⟧
+[Daniel Rothschild] ⟦58⟧
+
+符号表：
+⟦7⟧ = 16 September
+⟦8⟧ = 28 September
+⟦11⟧ = a lecturer
+⟦13⟧ = a Professor
+⟦15⟧ = Aharon Barak
+⟦16⟧ = Aharon Brick
+⟦29⟧ = Beirut
+⟦35⟧ = Central European University
+⟦52⟧ = Events
+⟦57⟧ = Georgetown University Law Center
+⟦58⟧ = Government
+⟦61⟧ = Hebrew
+⟦63⟧ = Herzliya
+⟦72⟧ = Inquiry
+⟦89⟧ = Jerusalem
+⟦92⟧ = law
+⟦94⟧ = lecturer
+⟦99⟧ = massacre
+⟦157⟧ = the Commission
+⟦160⟧ = the Events
+⟦164⟧ = the Hebrew University
+⟦169⟧ = the Interdisciplinary Center
+⟦172⟧ = the Israeli government
+⟦176⟧ = The Kahan Commission
+⟦185⟧ = the President
+⟦187⟧ = the Refugee Camps
+⟦188⟧ = the Sabra and Shatila massacre
+⟦189⟧ = the Supreme Court
+⟦194⟧ = the Yale Law School
+⟦197⟧ = Toronto
+⟦207⟧ = Yitzhak Kahan
+⟦210⟧ = אהרן
+⟦212⟧ = ברק‎
+⟦215⟧ = ועדת
+⟦216⟧ = כהן
+
+占位符映射：
+⟨95⟩ =  (
+⟨96⟩ = : 
+⟨97⟩ = 
+⟨98⟩ =  
+⟨99⟩ = 
+⟨100⟩ =  , born 
+⟨101⟩ = , 
+⟨102⟩ =  1936) is 
+⟨103⟩ =  of 
+⟨104⟩ =  at 
+⟨105⟩ =  in 
+⟨106⟩ =  and 
+⟨107⟩ = 
+⟨108⟩ =  in 
+⟨109⟩ = 
+⟨110⟩ =  at 
+⟨111⟩ =  of 
+⟨112⟩ = , 
+⟨113⟩ = , 
+⟨114⟩ = , 
+⟨115⟩ = , and the University of 
+⟨116⟩ =  Faculty of 
+⟨117⟩ = .
+⟨118⟩ =  (
+⟨119⟩ =  
+⟨120⟩ = ), formally known as 
+⟨121⟩ =  of 
+⟨122⟩ =  into 
+⟨123⟩ = 
+⟨124⟩ =  at 
+⟨125⟩ =  in 
+⟨126⟩ = , was established by 
+⟨127⟩ = 
+⟨128⟩ =  on 
+⟨129⟩ =  1982, to investigate 
+⟨130⟩ = 
+⟨131⟩ =  (16–18 September 1982).
+⟨132⟩ =  was chaired by 
+⟨133⟩ =  of 
+⟨134⟩ = , 
+⟨135⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What position in the court does the Professor of Law at the Interdisciplinary Center in Herzliya hold?

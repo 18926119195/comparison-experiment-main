@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_3348",
+  "question": "What group released a song called \"Stinkfist\" on September 17, 1996?",
+  "expectedAnswer": "Tool",
+  "predictedAnswer": "# 路径一：直接溯源发行主体\n\n步骤1：使用⟦23⟧，提取歌曲名\"Stinkfist\"，确认该条目指向一首名为\"Stinkfist\"的歌曲。\n\n步骤2：综合⟦268⟧⟦232⟧，提取\"the American rock band Tool\"，判断\"Stinkfist\"的演唱/发行主体为美国摇滚乐队Tool。\n\n步骤3：综合⟦323⟧⟦332⟧⟦60⟧，交叉验证\"Stinkfist\"是Tool的首支行业单曲和首支音乐视频发行，且出自其第三张主要厂牌专辑《Ænima》，进一步确认发行主体为Tool。\n\n结论：发行\"Stinkfist\"这首歌的团体是Tool。\n\n# 路径二：专辑与单曲关联验证\n\n步骤1：使用⟦57⟧⟦191⟧⟦349⟧，提取\"Candles\"是一首歌曲及其音乐视频信息，作为对照材料，确认歌曲类条目的结构。\n\n步骤2：综合⟦23⟧⟦60⟧，将\"Stinkfist\"与专辑《Ænima》关联，确认该歌曲收录于Tool的专辑中。\n\n步骤3：综合⟦268⟧⟦232⟧，确认《Ænima》的创作者/发行者为美国摇滚乐队Tool，从而锁定\"Stinkfist\"的发行团体。\n\n结论：通过专辑归属关系可确认，\"Stinkfist\"由Tool发行。\n\n# 路径三：排除其他候选团体\n\n步骤1：使用⟦84⟧⟦168⟧⟦229⟧，提取\"The Prize Fighter Inferno\"作为乐队、厂牌、发行相关条目，判断其与\"Stinkfist\"无直接关联。\n\n步骤2：使用⟦62⟧，提取\"702\"为专辑相关条目，判断其与\"Stinkfist\"无直接关联。\n\n步骤3：综合⟦23⟧⟦268⟧⟦232⟧，对比上述候选，确认唯一与\"Stinkfist\"直接关联的团体为美国摇滚乐队Tool。\n\n结论：排除其他候选后，发行\"Stinkfist\"的团体仍为Tool。\n\n# 路径四：奖项与提名记录的旁证\n\n步骤1：使用⟦247⟧，提取\"List of awards and nominations received by Secret\"中的歌曲条目，作为无关对照。\n\n步骤2：综合⟦23⟧⟦323⟧，确认\"Stinkfist\"是Tool的首支行业单曲和首支音乐视频发行，属于Tool的作品。\n\n步骤3：综合⟦268⟧⟦232⟧⟦60⟧，交叉验证Tool为美国摇滚乐队，其第三张主要厂牌专辑《Ænima》包含\"Stinkfist\"，最终确认发行团体。\n\n结论：综合奖项记录与作品归属，发行\"Stinkfist\"的团体是Tool。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦23⟧⟨271⟩⟨272⟩⟨273⟩⟦268⟧⟦232⟧⟨275⟩⟨276⟩⟨274⟩⟦57⟧⟦84⟧⟦247⟧",
+  "nounCount": 550,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 8813,
+    "completion_tokens": 124,
+    "total_tokens": 8937,
+    "prompt_tokens_details": {
+      "cached_tokens": 8576
+    },
+    "prompt_cache_hit_tokens": 8576,
+    "prompt_cache_miss_tokens": 237
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 669,
+    "completion_tokens": 630,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 669
+  }
+}

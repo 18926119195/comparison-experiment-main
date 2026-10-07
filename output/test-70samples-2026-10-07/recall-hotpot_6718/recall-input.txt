@@ -1,0 +1,269 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (no residences
+⟦2⟧ = 24 km
+⟦3⟧ = 5 km
+⟦4⟧ = a barrier island
+⟦5⟧ = a bridge
+⟦6⟧ = a census-designated place
+⟦7⟧ = a coastal lifesaving station
+⟦8⟧ = a former census-designated place
+⟦9⟧ = a hamlet
+⟦10⟧ = a larger CDP
+⟦11⟧ = a Long Island nightclub
+⟦12⟧ = a natural harbor
+⟦13⟧ = a small community
+⟦14⟧ = a whaling station
+⟦15⟧ = abbreviation
+⟦16⟧ = access
+⟦17⟧ = actually a lagoon
+⟦18⟧ = An uninhabited islet
+⟦19⟧ = approximately 15 mi
+⟦20⟧ = approximately 3 mi
+⟦21⟧ = area
+⟦22⟧ = around 500 search and rescue missions
+⟦23⟧ = Babylon
+⟦24⟧ = barracks
+⟦25⟧ = barrier
+⟦26⟧ = beach
+⟦27⟧ = border
+⟦28⟧ = both Captree
+⟦29⟧ = brick
+⟦30⟧ = bridge
+⟦31⟧ = Captree
+⟦32⟧ = Captree CDP
+⟦33⟧ = Captree Island
+⟦34⟧ = Captree State Park
+⟦35⟧ = CDP
+⟦36⟧ = CDPs
+⟦37⟧ = Cedar Beach
+⟦38⟧ = census
+⟦39⟧ = Cicero
+⟦40⟧ = coast
+⟦41⟧ = communities
+⟦42⟧ = community
+⟦43⟧ = corner
+⟦44⟧ = county
+⟦45⟧ = crossings
+⟦46⟧ = Denmans Island
+⟦47⟧ = east
+⟦48⟧ = East Bay
+⟦49⟧ = edge
+⟦50⟧ = either side
+⟦51⟧ = either the Fire Island Lighthouse
+⟦52⟧ = end
+⟦53⟧ = facility
+⟦54⟧ = feet
+⟦55⟧ = Fire Island
+⟦56⟧ = Geersbeck Island
+⟦57⟧ = Gilgo
+⟦58⟧ = Gilgo Beach
+⟦59⟧ = Gilgo-Oak Beach-Captree
+⟦60⟧ = Glosky Island
+⟦61⟧ = Great South Bay
+⟦62⟧ = Hall Island
+⟦63⟧ = hamlet
+⟦64⟧ = harbor
+⟦65⟧ = home
+⟦66⟧ = house
+⟦67⟧ = inlets
+⟦68⟧ = island
+⟦69⟧ = islands
+⟦70⟧ = islet
+⟦71⟧ = its eastern end
+⟦72⟧ = Jones
+⟦73⟧ = Jones Beach Island
+⟦74⟧ = Jones Beach State Park
+⟦75⟧ = Jones Island
+⟦76⟧ = km
+⟦77⟧ = lagoon
+⟦78⟧ = lifesaving
+⟦79⟧ = Long Island
+⟦80⟧ = Long Island's mainland
+⟦81⟧ = lookers
+⟦82⟧ = low tide
+⟦83⟧ = Lower South Bay
+⟦84⟧ = mainland
+⟦85⟧ = Major Thomas Jones
+⟦86⟧ = many islands
+⟦87⟧ = Massapequa
+⟦88⟧ = mi
+⟦89⟧ = miles
+⟦90⟧ = missions
+⟦91⟧ = New York
+⟦92⟧ = New York City
+⟦93⟧ = New York State
+⟦94⟧ = nightclub
+⟦95⟧ = north
+⟦96⟧ = North Bay
+⟦97⟧ = Oak Beach
+⟦98⟧ = Oak Beach Island
+⟦99⟧ = Oak Island
+⟦100⟧ = OBI
+⟦101⟧ = on-lookers
+⟦102⟧ = Oneida Lake
+⟦103⟧ = only the Tappan Zee Bridge
+⟦104⟧ = Onondaga County
+⟦105⟧ = order
+⟦106⟧ = part
+⟦107⟧ = place
+⟦108⟧ = population
+⟦109⟧ = portion
+⟦110⟧ = rescue
+⟦111⟧ = residences
+⟦112⟧ = sandbars
+⟦113⟧ = Schroeppel Island
+⟦114⟧ = search
+⟦115⟧ = several small beach communities
+⟦116⟧ = shelter
+⟦117⟧ = shore
+⟦118⟧ = shoreline
+⟦119⟧ = Short Beach
+⟦120⟧ = Short Beach Island
+⟦121⟧ = side
+⟦122⟧ = site
+⟦123⟧ = some shelter
+⟦124⟧ = some small beach communities
+⟦125⟧ = South Bay
+⟦126⟧ = South Oyster Bay
+⟦127⟧ = state
+⟦128⟧ = station
+⟦129⟧ = Station Short Beach
+⟦130⟧ = storm
+⟦131⟧ = storm waves
+⟦132⟧ = Suffolk County
+⟦133⟧ = surface
+⟦134⟧ = the 2000 census
+⟦135⟧ = the 2010 census
+⟦136⟧ = the abbreviation
+⟦137⟧ = the area
+⟦138⟧ = the Atlantic Ocean
+⟦139⟧ = the barrier island
+⟦140⟧ = the beach
+⟦141⟧ = the busiest units
+⟦142⟧ = The CDP
+⟦143⟧ = the Coast Guard's 1st District
+⟦144⟧ = The community
+⟦145⟧ = The current facility
+⟦146⟧ = the downstream crossings
+⟦147⟧ = the eastern end
+⟦148⟧ = The eastern part
+⟦149⟧ = the Fire Island Inlet Bridge
+⟦150⟧ = the former home
+⟦151⟧ = the Great South Bay
+⟦152⟧ = The Great South Bay Bridge
+⟦153⟧ = The harbor
+⟦154⟧ = the home
+⟦155⟧ = the infamous Oak Beach Inn
+⟦156⟧ = the island's first brick house
+⟦157⟧ = The Jones Beach State Park's West End Boat Basin
+⟦158⟧ = The Jones Beach West End barracks
+⟦159⟧ = the Nassau/Suffolk county border
+⟦160⟧ = the New York State
+⟦161⟧ = the New York State Park Police
+⟦162⟧ = the northern shore
+⟦163⟧ = The Oak Beach
+⟦164⟧ = The Oak Beach Inn
+⟦165⟧ = the Oak Island Beach Association
+⟦166⟧ = the outer barrier islands
+⟦167⟧ = The population
+⟦168⟧ = the present site
+⟦169⟧ = the Robert Moses Causeway
+⟦170⟧ = the Robert Moses State Park
+⟦171⟧ = the second longest bridge
+⟦172⟧ = the Short Beach shoreline
+⟦173⟧ = the south shore
+⟦174⟧ = the southern coast
+⟦175⟧ = the southern edge
+⟦176⟧ = the southern side
+⟦177⟧ = the southwest corner
+⟦178⟧ = the southwest side
+⟦179⟧ = the State
+⟦180⟧ = the State Boat Channel Bridge
+⟦181⟧ = the surface
+⟦182⟧ = the Town
+⟦183⟧ = the two islands
+⟦184⟧ = the U.S. state
+⟦185⟧ = the United States
+⟦186⟧ = the United States Coast Guard
+⟦187⟧ = the United States Life-Saving Service
+⟦188⟧ = the west
+⟦189⟧ = the western end
+⟦190⟧ = the western part
+⟦191⟧ = the western portion
+⟦192⟧ = tide
+⟦193⟧ = town
+⟦194⟧ = two CDPs
+⟦195⟧ = United States
+⟦196⟧ = units
+⟦197⟧ = visitors
+⟦198⟧ = waves
+⟦199⟧ = west
+⟦200⟧ = West Gilgo Beach
+⟦201⟧ = year
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Jones Beach Island] ⟦73⟧⟨1⟩⟦166⟧⟨2⟩⟦25⟧⟨3⟩⟦69⟧⟨4⟩⟦174⟧⟨5⟩⟦40⟧⟨6⟩⟦79⟧⟨7⟩⟦184⟧⟨8⟩⟦127⟧⟨9⟩⟦91⟧⟨10⟩
+[Jones Beach Island] ⟨11⟩⟦85⟧⟨12⟩⟦79⟧⟨13⟩⟦156⟧⟨14⟩⟦68⟧⟨15⟩⟦29⟧⟨16⟩⟦66⟧⟨17⟩⟦87⟧⟨18⟩
+[Jones Beach Island] ⟦72⟧⟨19⟩⟦14⟧⟨20⟩⟦128⟧⟨21⟩⟦75⟧⟨22⟩⟦168⟧⟨23⟩⟦122⟧⟨24⟩⟦74⟧⟨25⟩
+[Jones Beach Island] ⟦73⟧⟨26⟩⟦98⟧⟨27⟩⟦150⟧⟨28⟩⟦65⟧⟨29⟩⟦155⟧⟨30⟩
+[Oak Beach Inn] ⟦164⟧⟨31⟩⟦136⟧⟨32⟩⟦15⟧⟨33⟩⟦100⟧⟨34⟩⟦11⟧⟨35⟩⟦94⟧⟨36⟩⟦97⟧⟨37⟩⟦73⟧⟨38⟩⟦34⟧⟨39⟩⟦182⟧⟨40⟩⟦23⟧⟨41⟩⟦132⟧⟨42⟩
+[Great South Bay Bridge] ⟦152⟧⟨43⟩⟦5⟧⟨44⟩⟦30⟧⟨45⟩⟦178⟧⟨46⟩⟦121⟧⟨47⟩⟦132⟧⟨48⟩⟦79⟧⟨49⟩
+[Great South Bay Bridge] ⟨50⟩⟦169⟧⟨51⟩⟦80⟧⟨52⟩⟦84⟧⟨53⟩⟦151⟧⟨54⟩⟦28⟧⟨55⟩⟦73⟧⟨56⟩
+[Great South Bay Bridge] ⟨57⟩⟦16⟧⟨58⟩⟦16⟧⟨59⟩⟦169⟧⟨60⟩⟦146⟧⟨61⟩⟦45⟧⟨62⟩⟦180⟧⟨63⟩⟦149⟧⟨64⟩⟦197⟧⟨65⟩⟦197⟧⟨66⟩⟦101⟧⟨67⟩⟦81⟧⟨68⟩⟦51⟧⟨69⟩⟦170⟧⟨70⟩
+[Great South Bay Bridge] ⟨71⟩⟦171⟧⟨72⟩⟦30⟧⟨73⟩⟦160⟧⟨74⟩⟦103⟧⟨75⟩
+[Gilgo-Oak Beach-Captree, New York] ⟦59⟧⟨76⟩⟦8⟧⟨77⟩⟦38⟧⟨78⟩⟦107⟧⟨79⟩⟦35⟧⟨80⟩⟦132⟧⟨81⟩⟦91⟧⟨82⟩⟦182⟧⟨83⟩⟦23⟧⟨84⟩
+[Gilgo-Oak Beach-Captree, New York] ⟦167⟧⟨85⟩⟦108⟧⟨86⟩⟦134⟧⟨87⟩⟦38⟧⟨88⟩
+[Gilgo-Oak Beach-Captree, New York] ⟨89⟩⟦135⟧⟨90⟩⟦38⟧⟨91⟩⟦137⟧⟨92⟩⟦21⟧⟨93⟩⟦194⟧⟨94⟩⟦36⟧⟨95⟩⟦57⟧⟨96⟩⟦97⟧⟨97⟩⟦31⟧⟨98⟩
+[Gilgo-Oak Beach-Captree, New York] ⟦142⟧⟨99⟩⟦115⟧⟨100⟩⟦26⟧⟨101⟩⟦41⟧⟨102⟩⟦139⟧⟨103⟩⟦25⟧⟨104⟩⟦68⟧⟨105⟩⟦175⟧⟨106⟩⟦49⟧⟨107⟩⟦79⟧⟨108⟩
+[Gilgo-Oak Beach-Captree, New York] ⟨109⟩⟦105⟧⟨110⟩⟦105⟧⟨111⟩⟦199⟧⟨112⟩⟦199⟧⟨113⟩⟦47⟧⟨114⟩⟦200⟧⟨115⟩⟦159⟧⟨116⟩⟦44⟧⟨117⟩⟦27⟧⟨118⟩⟦58⟧⟨119⟩⟦37⟧⟨120⟩⟦1⟧⟨121⟩⟦111⟧⟨122⟩⟦97⟧⟨123⟩⟦165⟧⟨124⟩⟦99⟧⟨125⟩⟦33⟧⟨126⟩
+[Oak Beach–Captree, New York] ⟦97⟧⟨127⟩⟦31⟧⟨128⟩⟦6⟧⟨129⟩⟦38⟧⟨130⟩⟦107⟧⟨131⟩⟦35⟧⟨132⟩⟦182⟧⟨133⟩⟦193⟧⟨134⟩⟦23⟧⟨135⟩⟦132⟧⟨136⟩⟦195⟧⟨137⟩
+[Oak Beach–Captree, New York] ⟦167⟧⟨138⟩⟦108⟧⟨139⟩⟦135⟧⟨140⟩⟦38⟧⟨141⟩
+[Oak Beach–Captree, New York] ⟨142⟩⟦135⟧⟨143⟩⟦38⟧⟨144⟩⟦137⟧⟨145⟩⟦21⟧⟨146⟩⟦106⟧⟨147⟩⟦106⟧⟨148⟩⟦10⟧⟨149⟩⟦35⟧⟨150⟩⟦59⟧⟨151⟩
+[Oak Beach–Captree, New York] ⟦163⟧⟨152⟩⟦32⟧⟨153⟩⟦124⟧⟨154⟩⟦26⟧⟨155⟩⟦41⟧⟨156⟩⟦139⟧⟨157⟩⟦25⟧⟨158⟩⟦68⟧⟨159⟩⟦175⟧⟨160⟩⟦49⟧⟨161⟩⟦79⟧⟨162⟩⟦97⟧⟨163⟩⟦99⟧⟨164⟩⟦33⟧⟨165⟩
+[Oak Beach, New York] ⟦97⟧⟨166⟩⟦13⟧⟨167⟩⟦42⟧⟨168⟩⟦147⟧⟨169⟩⟦52⟧⟨170⟩⟦73⟧⟨171⟩⟦4⟧⟨172⟩⟦25⟧⟨173⟩⟦68⟧⟨174⟩⟦138⟧⟨175⟩⟦151⟧⟨176⟩⟦79⟧⟨177⟩
+[Oak Beach, New York] ⟦144⟧⟨178⟩⟦42⟧⟨179⟩⟦106⟧⟨180⟩⟦106⟧⟨181⟩⟦182⟧⟨182⟩⟦193⟧⟨183⟩⟦23⟧⟨184⟩⟦132⟧⟨185⟩⟦195⟧⟨186⟩
+[Oak Beach, New York] ⟦148⟧⟨187⟩⟦106⟧⟨188⟩⟦165⟧⟨189⟩⟦190⟧⟨190⟩⟦106⟧⟨191⟩
+[Oak Beach, New York] ⟨192⟩⟦106⟧⟨193⟩⟦106⟧⟨194⟩⟦31⟧⟨195⟩⟦38⟧⟨196⟩⟦107⟧⟨197⟩
+[South Oyster Bay] ⟦126⟧⟨198⟩⟦48⟧⟨199⟩⟦12⟧⟨200⟩⟦64⟧⟨201⟩⟦191⟧⟨202⟩⟦109⟧⟨203⟩⟦173⟧⟨204⟩⟦117⟧⟨205⟩⟦79⟧⟨206⟩⟦91⟧⟨207⟩⟦185⟧⟨208⟩
+[South Oyster Bay] ⟦153⟧⟨209⟩⟦64⟧⟨210⟩⟦73⟧⟨211⟩⟦4⟧⟨212⟩⟦25⟧⟨213⟩⟦68⟧⟨214⟩⟦176⟧⟨215⟩⟦121⟧⟨216⟩⟦79⟧⟨217⟩
+[South Oyster Bay] ⟨218⟩⟦20⟧⟨219⟩⟦3⟧⟨220⟩⟦76⟧⟨221⟩⟦183⟧⟨222⟩⟦69⟧⟨223⟩⟦19⟧⟨224⟩⟦2⟧⟨225⟩⟦76⟧⟨226⟩
+[South Oyster Bay] ⟨227⟩⟦61⟧⟨228⟩⟦71⟧⟨229⟩⟦52⟧⟨230⟩⟦138⟧⟨231⟩⟦67⟧⟨232⟩⟦67⟧⟨233⟩⟦50⟧⟨234⟩⟦121⟧⟨235⟩⟦73⟧⟨236⟩
+[Great South Bay] ⟦61⟧⟨237⟩⟦17⟧⟨238⟩⟦77⟧⟨239⟩⟦79⟧⟨240⟩⟦55⟧⟨241⟩⟦179⟧⟨242⟩⟦91⟧⟨243⟩
+[Great South Bay] ⟨244⟩⟦88⟧⟨245⟩⟦138⟧⟨246⟩⟦55⟧⟨247⟩⟦4⟧⟨248⟩⟦25⟧⟨249⟩⟦68⟧⟨250⟩⟦147⟧⟨251⟩⟦52⟧⟨252⟩⟦73⟧⟨253⟩⟦33⟧⟨254⟩
+[Short Beach (New York)] ⟦119⟧⟨255⟩⟦140⟧⟨256⟩⟦26⟧⟨257⟩⟦162⟧⟨258⟩⟦117⟧⟨259⟩⟦189⟧⟨260⟩⟦52⟧⟨261⟩⟦73⟧⟨262⟩
+[Short Beach (New York)] ⟦140⟧⟨263⟩⟦26⟧⟨264⟩⟦61⟧⟨265⟩⟦138⟧⟨266⟩⟦123⟧⟨267⟩⟦116⟧⟨268⟩⟦130⟧⟨269⟩⟦131⟧⟨270⟩⟦198⟧⟨271⟩
+[Short Beach (New York)] ⟨272⟩⟦154⟧⟨273⟩⟦65⟧⟨274⟩⟦7⟧⟨275⟩⟦78⟧⟨276⟩⟦128⟧⟨277⟩⟦187⟧⟨278⟩⟦186⟧⟨279⟩
+[Short Beach (New York)] ⟦145⟧⟨280⟩⟦53⟧⟨281⟩⟦129⟧⟨282⟩⟦22⟧⟨283⟩⟦114⟧⟨284⟩⟦110⟧⟨285⟩⟦90⟧⟨286⟩⟦201⟧⟨287⟩⟦141⟧⟨288⟩⟦196⟧⟨289⟩⟦143⟧⟨290⟩
+[Short Beach (New York)] ⟦157⟧⟨291⟩⟦119⟧⟨292⟩
+[Short Beach (New York)] ⟦158⟧⟨293⟩⟦52⟧⟨294⟩⟦24⟧⟨295⟩⟦161⟧⟨296⟩⟦54⟧⟨297⟩⟦172⟧⟨298⟩⟦118⟧⟨299⟩
+[Short Beach (New York)] ⟦18⟧⟨300⟩⟦70⟧⟨301⟩⟦120⟧⟨302⟩⟦140⟧⟨303⟩⟦26⟧⟨304⟩⟦82⟧⟨305⟩⟦192⟧⟨306⟩⟦112⟧⟨307⟩⟦112⟧⟨308⟩⟦181⟧⟨309⟩⟦133⟧⟨310⟩
+[Lower South Bay, New York] ⟦83⟧⟨311⟩⟦125⟧⟨312⟩⟦9⟧⟨313⟩⟦63⟧⟨314⟩⟦177⟧⟨315⟩⟦43⟧⟨316⟩⟦102⟧⟨317⟩⟦104⟧⟨318⟩⟦93⟧⟨319⟩⟦195⟧⟨320⟩
+[Lower South Bay, New York] ⟨321⟩⟦96⟧⟨322⟩⟦86⟧⟨323⟩⟦69⟧⟨324⟩⟦188⟧⟨325⟩⟦199⟧⟨326⟩⟦95⟧⟨327⟩⟦95⟧⟨328⟩⟦47⟧⟨329⟩⟦47⟧⟨330⟩⟦56⟧⟨331⟩⟦62⟧⟨332⟩⟦60⟧⟨333⟩⟦113⟧⟨334⟩⟦46⟧⟨335⟩⟦79⟧⟨336⟩⟦79⟧⟨337⟩⟦92⟧⟨338⟩
+[Lower South Bay, New York] ⟦83⟧⟨339⟩⟦182⟧⟨340⟩⟦193⟧⟨341⟩⟦39⟧⟨342⟩⟦89⟧⟨343⟩
+
+[user]
+
+问题：
+Oak Beach, New York and Great South Bay are both situated between what same island?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

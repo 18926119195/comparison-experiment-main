@@ -1,0 +1,29 @@
+# 路径一：从电影作品反查演员
+
+步骤1：使用⟦206⟧⟦23⟧，提取“Special Correspondents”是一部2016年英加美讽刺喜剧电影。
+步骤2：综合⟦209⟧⟦187⟧，确认该片由Ricky Gervais联合主演。
+步骤3：使用⟦48⟧，提取该演员是澳大利亚演员。
+步骤4：综合⟦92⟧⟦260⟧⟦261⟧，确认该演员本名Eric Banadinović，艺名Eric Bana。
+步骤5：使用⟦104⟧，确认Eric Bana的职业生涯始于“Full Frontal”这一小品喜剧系列。
+
+结论：这位演员是Eric Bana。
+
+# 路径二：从演员职业生涯起点正向验证
+
+步骤1：使用⟦104⟧，提取“Full Frontal”是澳大利亚小品喜剧系列。
+步骤2：综合⟦91⟧⟦104⟧，确认Eric Bana的职业生涯始于该系列。
+步骤3：综合⟦92⟧⟦260⟧⟦261⟧，确认Eric Bana即Eric Banadinović，澳大利亚演员。
+步骤4：使用⟦206⟧⟦23⟧，提取“Special Correspondents”是2016年英加美讽刺喜剧电影。
+步骤5：综合⟦209⟧⟦187⟧，确认该片由Ricky Gervais联合主演，Eric Bana亦参演其中。
+
+结论：Eric Bana符合所有条件——他是英加美讽刺喜剧“Special Correspondents”的明星，与Ricky Gervais联合主演，且职业生涯始于“Full Frontal”。
+
+# 路径三：交叉验证演员身份与作品关联
+
+步骤1：综合⟦206⟧⟦23⟧⟦209⟧，提取“Special Correspondents”为英加美讽刺喜剧，由Ricky Gervais联合主演。
+步骤2：使用⟦48⟧，提取该片另一位主演为澳大利亚演员。
+步骤3：综合⟦92⟧⟦260⟧⟦261⟧⟦91⟧，确认该澳大利亚演员为Eric Bana（本名Eric Banadinović）。
+步骤4：使用⟦104⟧，确认“Full Frontal”为小品喜剧系列。
+步骤5：综合⟦91⟧⟦104⟧，交叉验证Eric Bana的职业生涯确实始于“Full Frontal”。
+
+结论：Eric Bana是唯一同时满足“Special Correspondents主演”、“与Ricky Gervais合作”及“职业生涯始于Full Frontal”三项条件的演员。

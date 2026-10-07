@@ -1,0 +1,35 @@
+# 路径一：通过所有权链直接定位 CEO
+
+步骤1：使用⟦313⟧，提取 SpaceDev 这一实体，确认其为问题中提到的 "Space Dev"。
+步骤2：综合⟦313⟧⟦331⟧⟦180⟧，SpaceDev 的 "spaceflight and microsatellite work" 属于 "Space Systems Business" 板块，而该板块的归属指向 Sierra Nevada Corporation。
+步骤3：使用⟦308⟧，确认 Sierra Nevada Corporation 是拥有 SpaceDev 的母公司。
+步骤4：综合⟦78⟧⟦124⟧⟦129⟧，提取 Sierra Nevada Corporation 的 CEO 信息，即 Eren Ozmen 和 Fatih Ozmen 共同担任该职务。
+
+结论：SpaceDev 的母公司 Sierra Nevada Corporation 的 CEO 是 Eren Ozmen 和 Fatih Ozmen（两人共同担任）。
+
+# 路径二：通过 SNC 领导层交叉验证
+
+步骤1：使用⟦310⟧，提取 SNC 这一缩写，确认其与 Sierra Nevada Corporation 的对应关系。
+步骤2：综合⟦308⟧⟦310⟧⟦191⟧⟦368⟧，SNC 即 Sierra Nevada Corporation，其 leadership 信息在材料中多次出现。
+步骤3：综合⟦124⟧⟦129⟧⟦274⟧，提取领导层具体人物：Eren Ozmen 担任 president，Fatih Ozmen 也在领导层中，两人均为 CEO。
+步骤4：使用⟦313⟧，确认 SpaceDev 被 Sierra Nevada Corporation 拥有，从而将 CEO 归属到 SNC 的领导层。
+
+结论：通过 SNC 领导层信息交叉验证，SpaceDev 所属公司的 CEO 为 Eren Ozmen 和 Fatih Ozmen。
+
+# 路径三：通过业务整合关系反推所有权
+
+步骤1：使用⟦313⟧，提取 SpaceDev 作为 "a part" 的身份。
+步骤2：综合⟦267⟧⟦331⟧⟦180⟧，SpaceDev 是 "the Space Systems Business" 的一部分，而该业务板块的 "spaceflight and microsatellite work" 与 Sierra Nevada Corporation 的业务描述一致。
+步骤3：综合⟦308⟧⟦314⟧，Sierra Nevada Corporation 的业务涵盖 spaceflight，与 SpaceDev 的业务直接对应，确认所有权关系。
+步骤4：使用⟦78⟧，提取 Sierra Nevada Corporation 的 CEO 为 Eren Ozmen 和 Fatih Ozmen。
+
+结论：通过业务整合关系反推，SpaceDev 属于 Sierra Nevada Corporation，其 CEO 为 Eren Ozmen 和 Fatih Ozmen。
+
+# 路径四：通过材料中的直接陈述确认
+
+步骤1：使用⟦313⟧，提取 SpaceDev 实体。
+步骤2：综合⟦308⟧⟦331⟧，材料中明确将 SpaceDev 与 Sierra Nevada Corporation 的 "Space Systems Business" 关联。
+步骤3：使用⟦78⟧，直接提取 Sierra Nevada Corporation 的 CEO 信息。
+步骤4：综合⟦124⟧⟦129⟧，确认 CEO 的具体姓名为 Eren Ozmen 和 Fatih Ozmen。
+
+结论：综合多条材料直接陈述，SpaceDev 所属公司 Sierra Nevada Corporation 的 CEO 是 Eren Ozmen 和 Fatih Ozmen。

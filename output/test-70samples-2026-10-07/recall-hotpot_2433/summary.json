@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_2433",
+  "question": "Which band has released more albums with their original members, Sick Puppies or Third Eye Blind?",
+  "expectedAnswer": "Sick Puppies",
+  "predictedAnswer": "# 路径一：以“原始成员”与“专辑数量”为轴的综合对比\n\n步骤1：使用⟦146⟧⟦33⟧，提取 Sick Puppies 是一支澳大利亚摇滚乐队，成立于1997年；使用⟦18⟧⟦31⟧⟦140⟧，提取 Third Eye Blind 是一支来自旧金山的美国摇滚乐队。\n\n步骤2：综合⟦38⟧⟦39⟧⟦203⟧⟦142⟧，提取 Third Eye Blind 在1997年发行了首张同名专辑；综合⟦175⟧⟦7⟧⟦8⟧，提取该专辑为他们的首张录音室专辑，发行于1997年4月8日。\n\n步骤3：使用⟦86⟧⟦71⟧⟦32⟧，提取 Kevin Cadogan 是一位美国创作歌手，生于1970年8月14日；综合⟦80⟧⟦103⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧，提取他是 Third Eye Blind 的创始成员，1993至2000年间与乐队合作。\n\n步骤4：综合⟦87⟧⟦208⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧⟦163⟧⟦92⟧⟦93⟧⟦198⟧，提取 Kevin Cadogan 参与创作了 Third Eye Blind 的多首热门歌曲，并参与了首张专辑中14首歌中的10首。\n\n步骤5：使用⟦97⟧⟦33⟧⟦100⟧，提取 Sick Puppies 成立于1997年；综合⟦101⟧⟦128⟧⟦102⟧⟦103⟧⟦204⟧⟦152⟧⟦104⟧⟦105⟧⟦26⟧⟦106⟧⟦21⟧⟦107⟧⟦108⟧⟦230⟧⟦109⟧，提取 Sick Puppies 在2006年因歌曲《All the Same》及其视频上传至 YouTube 而获得显著关注。\n\n结论：Third Eye Blind 在原始成员 Kevin Cadogan 参与期间（1993–2000）至少发行了首张同名专辑，且 Cadogan 参与了其中大部分歌曲创作；而 Sick Puppies 虽成立于1997年，但材料仅提及其2006年因单曲走红，未显示与原始成员共同发行的专辑数量。因此，从现有材料看，Third Eye Blind 更符合“与原始成员发行更多专辑”的描述。\n\n# 路径二：以“成员变动与专辑归属”为轴的交叉验证\n\n步骤1：使用⟦86⟧⟦80⟧⟦103⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧，提取 Kevin Cadogan 是 Third Eye Blind 的创始成员，1993至2000年间在队；使用⟦87⟧⟦208⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧⟦163⟧⟦92⟧⟦93⟧⟦198⟧，提取他参与创作了乐队多首热门歌曲及首张专辑中的10首歌。\n\n步骤2：综合⟦38⟧⟦39⟧⟦203⟧⟦142⟧⟦41⟧⟦40⟧⟦42⟧⟦43⟧⟦44⟧⟦45⟧⟦46⟧⟦47⟧⟦48⟧⟦49⟧⟦50⟧⟦51⟧⟦52⟧⟦53⟧⟦54⟧⟦55⟧⟦56⟧，提取 Third Eye Blind 在1997年发行首张同名专辑时，成员包括 Kevin Cadogan、Arion Salazar 和 Brad Hargreaves 等原始阵容。\n\n步骤3：使用⟦97⟧⟦33⟧⟦100⟧，提取 Sick Puppies 成立于1997年；综合⟦101⟧⟦128⟧⟦102⟧⟦103⟧⟦204⟧⟦152⟧⟦104⟧⟦105⟧⟦26⟧⟦106⟧⟦21⟧⟦107⟧⟦108⟧⟦230⟧⟦109⟧，提取其走红始于2006年，材料未提及其原始成员阵容或与原始成员共同发行的专辑。\n\n步骤4：综合⟦23⟧⟦138⟧⟦158⟧⟦28⟧，提取 Out of the Vein 是 Third Eye Blind 的录音室专辑；使用⟦78⟧，提取其中涉及吉他手信息；使用⟦22⟧⟦80⟧，提取“A Whole Year”等热门歌曲与乐队相关。\n\n结论：Third Eye Blind 在原始成员 Kevin Cadogan 在队期间发行了至少一张专辑（首张同名专辑），且材料明确其原始成员阵容；Sick Puppies 的材料未显示与原始成员共同发行的专辑。因此 Third Eye Blind 更可能发行了更多与原始成员合作的专辑。\n\n# 路径三：以“材料覆盖范围”为轴的对比论证\n\n步骤1：使用⟦146⟧⟦33⟧，提取 Sick Puppies 是澳大利亚摇滚乐队；综合⟦101⟧⟦128⟧⟦102⟧⟦103⟧⟦204⟧⟦152⟧⟦104⟧⟦105⟧⟦26⟧⟦106⟧⟦21⟧⟦107⟧⟦108⟧⟦230⟧⟦109⟧，提取其材料主要围绕2006年单曲《All the Same》的走红，未提及专辑发行数量或原始成员。\n\n步骤2：使用⟦18⟧⟦31⟧⟦140⟧，提取 Third Eye Blind 是来自旧金山的美国摇滚乐队；综合⟦38⟧⟦39⟧⟦203⟧⟦142⟧⟦175⟧⟦7⟧⟦8⟧，提取其1997年发行首张同名专辑；使用⟦86⟧⟦80⟧⟦103⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧，提取 Kevin Cadogan 是创始成员，1993–2000年在队。\n\n步骤3：综合⟦87⟧⟦208⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧⟦163⟧⟦92⟧⟦93⟧⟦198⟧，提取 Cadogan 参与创作了首张专辑中10首歌；使用⟦23⟧⟦138⟧⟦158⟧⟦28⟧，提取 Out of the Vein 是另一张录音室专辑；使用⟦78⟧，提取吉他手信息。\n\n步骤4：综合⟦153⟧⟦222⟧，提取 Red Star (EP) 包含歌曲和视频；使用⟦166⟧⟦166⟧，提取 The band 相关表述；使用⟦149⟧⟦154⟧，提取 Stephan Jenkins 是歌手和词曲作者；使用⟦206⟧，提取 Third Eye Blind 多次出现。\n\n结论：材料对 Third Eye Blind 的专辑、成员和创作参与有更丰富的记录，包括首张同名专辑和 Out of the Vein 等；对 Sick Puppies 则仅提及其成立和单曲走红，未提专辑数量。因此，从材料覆盖范围判断，Third Eye Blind 更符合“与原始成员发行更多专辑”的答案。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨97⟩⟦33⟧⟨99⟩⟨98⟩⟨100⟩⟦146⟧⟦138⟧⟦42⟧⟦146⟧⟨101⟩⟦128⟧⟦128⟧",
+  "nounCount": 372,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5802,
+    "completion_tokens": 565,
+    "total_tokens": 6367,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 5802
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1861,
+    "completion_tokens": 1709,
+    "total_tokens": 3570,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1861
+  }
+}

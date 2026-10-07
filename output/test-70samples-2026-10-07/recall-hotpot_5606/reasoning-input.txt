@@ -1,0 +1,77 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Faruk Halilbegović] ⟦76⟧⟨80⟩⟨81⟩⟨82⟩⟨83⟩⟦14⟧⟦86⟧⟨84⟩⟨85⟩⟦144⟧⟦54⟧⟨87⟩⟨86⟩
+[Sarajevo] ⟨258⟩⟦4⟧⟨259⟩⟦258⟧⟨260⟩⟨261⟩⟨262⟩⟦114⟧⟨263⟩⟨264⟩⟨265⟩⟨266⟩⟦19⟧⟦145⟧⟨267⟩⟨268⟩⟦109⟧⟦117⟧⟨269⟩⟨270⟩
+[Socialist Republic of Bosnia and Herzegovina] ⟦162⟧ | ⟦52⟧⟦162⟧⟦189⟧⟦49⟧
+[Socialist Republic of Bosnia and Herzegovina] ⟦42⟧⟦94⟧ | ⟦42⟧⟦94⟧
+
+符号表：
+⟦4⟧ = (Cyrillic
+⟦14⟧ = a handball
+⟦19⟧ = a population
+⟦42⟧ = Bosnia
+⟦49⟧ = capital
+⟦52⟧ = city
+⟦54⟧ = club
+⟦76⟧ = Faruk Halilbegović
+⟦86⟧ = handball
+⟦94⟧ = Herzegovina
+⟦109⟧ = its current administrative limits
+⟦114⟧ = largest city
+⟦117⟧ = limits
+⟦144⟧ = Polish club Zagłębie Lubin
+⟦145⟧ = population
+⟦162⟧ = Sarajevo
+⟦189⟧ = the capital
+⟦258⟧ = Сарајево
+
+占位符映射：
+⟨80⟩ =  (born 7 September 1987 in 
+⟨81⟩ = , 
+⟨82⟩ =  and 
+⟨83⟩ = ) is 
+⟨84⟩ = 
+⟨85⟩ =  left back who plays for 
+⟨86⟩ = 
+⟨87⟩ =  Zagłębie Lubin.
+⟨258⟩ =  
+⟨259⟩ = : 
+⟨260⟩ =  , ] , ) is 
+⟨261⟩ = 
+⟨262⟩ =  and 
+⟨263⟩ = 
+⟨264⟩ =  of 
+⟨265⟩ =  and 
+⟨266⟩ = , with 
+⟨267⟩ = 
+⟨268⟩ =  of 275,524 in 
+⟨269⟩ = 
+⟨270⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Faruk Halibegovic was born in what city that is the capital and largest city of Bosnia and Herzegovina with a population of 275,524?

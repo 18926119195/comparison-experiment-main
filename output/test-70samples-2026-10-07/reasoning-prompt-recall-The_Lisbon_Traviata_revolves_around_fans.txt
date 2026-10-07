@@ -1,0 +1,87 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Maria Callas] ⟦154⟧⟨199⟩⟦64⟧⟨200⟩⟦114⟧⟨201⟩⟦338⟧⟨202⟩⟦222⟧⟨203⟩⟦16⟧⟨204⟩⟨205⟩⟦283⟧⟨207⟩⟦229⟧⟨206⟩⟨208⟩⟦250⟧⟦56⟧⟨209⟩⟨210⟩
+[The Lisbon Traviata] ⟦276⟧⟨242⟩⟦22⟧⟨243⟩⟨244⟩⟦246⟧⟨245⟩
+[The Lisbon Traviata] ⟦184⟧
+[The Lisbon Traviata] ⟨249⟩⟦224⟧⟨251⟩⟦99⟧⟨250⟩⟨252⟩⟦293⟧⟨254⟩⟦228⟧⟨255⟩⟨253⟩⟦307⟧⟦198⟧⟨256⟩⟨257⟩
+[Becoming Traviata] ⟦178⟧⟦178⟧ | ⟦178⟧
+[Becoming Traviata] ⟦230⟧
+
+符号表：
+⟦16⟧ = a Greek-American soprano
+⟦22⟧ = a play
+⟦56⟧ = century
+⟦64⟧ = Commendatore OMRI
+⟦99⟧ = fans
+⟦114⟧ = Greek
+⟦154⟧ = Maria Callas
+⟦178⟧ = opera
+⟦184⟧ = play
+⟦198⟧ = relationships
+⟦222⟧ = September
+⟦224⟧ = several opera fans
+⟦228⟧ = singer
+⟦229⟧ = singers
+⟦230⟧ = soprano
+⟦246⟧ = Terrence McNally
+⟦250⟧ = the 20th century
+⟦276⟧ = The Lisbon Traviata
+⟦283⟧ = the most renowned and influential opera singers
+⟦293⟧ = the opera singer Maria Callas
+⟦307⟧ = their gay relationships
+⟦338⟧ = Μαρία Κάλλας
+
+占位符映射：
+⟨199⟩ = , 
+⟨200⟩ =  (
+⟨201⟩ = : 
+⟨202⟩ =  ; December 2, 1923 – 
+⟨203⟩ =  16, 1977), was 
+⟨204⟩ = 
+⟨205⟩ = , and one of 
+⟨206⟩ = 
+⟨207⟩ =  
+⟨208⟩ =  of 
+⟨209⟩ = 
+⟨210⟩ = .
+⟨242⟩ =  is 
+⟨243⟩ = 
+⟨244⟩ =  by 
+⟨245⟩ = .
+⟨249⟩ =  It revolves around 
+⟨250⟩ = 
+⟨251⟩ =  
+⟨252⟩ = , especially of 
+⟨253⟩ = 
+⟨254⟩ =  
+⟨255⟩ =  Maria Callas, and 
+⟨256⟩ = 
+⟨257⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The Lisbon Traviata revolves around fans of the soprano who was of what nationality?

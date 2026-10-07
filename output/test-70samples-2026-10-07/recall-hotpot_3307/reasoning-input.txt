@@ -1,0 +1,135 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Sunset (magazine)] ⟨257⟩⟨258⟩⟨259⟩⟦77⟧⟦77⟧⟨260⟩⟨261⟩⟦111⟧⟦111⟧⟨262⟩⟨263⟩⟦273⟧⟦273⟧⟨264⟩⟨265⟩⟦13⟧⟦103⟧⟨266⟩⟨267⟩⟦267⟧⟨268⟩
+[Sunset (magazine)] ⟨269⟩⟨270⟩⟦262⟧⟨271⟩⟦176⟧⟦176⟧⟨272⟩⟨273⟩⟦219⟧⟨274⟩⟦27⟧⟨275⟩⟨276⟩⟨277⟩
+[Rodney Walker (architect)] ⟦205⟧⟨278⟩⟦18⟧⟦156⟧⟨280⟩⟦85⟧⟨279⟩⟨281⟩⟦58⟧⟦58⟧⟨282⟩⟨283⟩⟦201⟧⟦40⟧⟨284⟩⟨285⟩⟦261⟧⟦41⟧⟨286⟩⟨287⟩
+[Rodney Walker (architect)] ⟨288⟩⟦269⟧⟦86⟧⟨289⟩⟨290⟩⟦44⟧⟨292⟩⟦188⟧⟨291⟩⟨293⟩⟦244⟧⟦10⟧⟨294⟩⟨295⟩⟦6⟧⟨296⟩
+[Rodney Walker (architect)] ⟦124⟧⟦124⟧⟦4⟧ | ⟨297⟩⟦119⟧⟦124⟧⟨298⟩⟨299⟩⟦142⟧⟨300⟩⟦1⟧⟨301⟩⟨302⟩⟦51⟧⟨303⟩⟦112⟧⟨304⟩⟦39⟧⟨305⟩⟦4⟧⟦229⟧⟨306⟩⟨307⟩⟦230⟧⟨308⟩⟨309⟩
+[Portland Monthly] ⟦270⟧
+[Portland Monthly] ⟦246⟧⟦152⟧ | ⟦152⟧ | ⟦152⟧⟦152⟧
+[Georgia (coffee)] ⟦227⟧
+
+符号表：
+⟦1⟧ = "Arts & Architecture" magazine
+⟦4⟧ = "Sunset
+⟦6⟧ = (Case Study House
+⟦10⟧ = 1940s
+⟦13⟧ = a focus
+⟦18⟧ = a midcentury American modern designer
+⟦27⟧ = a subsidiary
+⟦39⟧ = Architectural Record
+⟦40⟧ = architecture
+⟦41⟧ = area
+⟦44⟧ = Arts & Architecture magazine's Case Study House program
+⟦51⟧ = Better Homes
+⟦58⟧ = builder
+⟦77⟧ = cooking
+⟦85⟧ = designer
+⟦86⟧ = designs
+⟦103⟧ = focus
+⟦111⟧ = gardening
+⟦112⟧ = Gardens
+⟦119⟧ = his homes
+⟦124⟧ = homes
+⟦142⟧ = Julius Shulman
+⟦152⟧ = magazine
+⟦156⟧ = midcentury
+⟦176⟧ = part
+⟦188⟧ = program
+⟦201⟧ = residential architecture
+⟦205⟧ = Rodney Walker
+⟦219⟧ = Southern Progress Corporation
+⟦227⟧ = subsidiary
+⟦229⟧ = Sunset
+⟦230⟧ = the "Los Angeles Times Home" magazine
+⟦244⟧ = the late 1940s
+⟦246⟧ = The magazine
+⟦261⟧ = the Southern California area
+⟦262⟧ = the Sunset Publishing Corporation
+⟦267⟧ = the Western United States
+⟦269⟧ = three designs
+⟦270⟧ = Time Warner
+⟦273⟧ = travel
+
+占位符映射：
+⟨257⟩ = " focuses on 
+⟨258⟩ = 
+⟨259⟩ = , 
+⟨260⟩ = 
+⟨261⟩ = , 
+⟨262⟩ = 
+⟨263⟩ = , and 
+⟨264⟩ = 
+⟨265⟩ = , with 
+⟨266⟩ = 
+⟨267⟩ =  almost exclusively on 
+⟨268⟩ = .
+⟨269⟩ = 
+⟨270⟩ =  is published monthly by 
+⟨271⟩ = , 
+⟨272⟩ = 
+⟨273⟩ =  of 
+⟨274⟩ = , itself 
+⟨275⟩ = 
+⟨276⟩ =  of 
+⟨277⟩ = .
+⟨278⟩ =  (1910–1986) was 
+⟨279⟩ = 
+⟨280⟩ =  American modern 
+⟨281⟩ =  and 
+⟨282⟩ = 
+⟨283⟩ =  who specialized in 
+⟨284⟩ = 
+⟨285⟩ =  in 
+⟨286⟩ = 
+⟨287⟩ = .
+⟨288⟩ =  He contributed 
+⟨289⟩ = 
+⟨290⟩ =  to 
+⟨291⟩ = 
+⟨292⟩ = 's Case Study House 
+⟨293⟩ =  during 
+⟨294⟩ = 
+⟨295⟩ =  
+⟨296⟩ =  #16, #17, and #18).
+⟨297⟩ =  Many of 
+⟨298⟩ = 
+⟨299⟩ =  were photographed by 
+⟨300⟩ =  for 
+⟨301⟩ = 
+⟨302⟩ = , "
+⟨303⟩ =  and 
+⟨304⟩ = ", "
+⟨305⟩ = ", 
+⟨306⟩ = 
+⟨307⟩ = ", and 
+⟨308⟩ = 
+⟨309⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What corporation does the company that publishes the monthly magazine that focuses almost exclusively on the Western United States and featured photograph by Julius Shulman of a home designed by Rodney Walker belong to?

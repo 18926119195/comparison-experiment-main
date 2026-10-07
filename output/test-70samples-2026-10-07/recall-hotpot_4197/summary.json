@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_4197",
+  "question": "Caleb Kelly plays for a football team with whom as head coach?",
+  "expectedAnswer": "Lincoln Riley",
+  "predictedAnswer": "# 路径一：直接关系链推理\n\n步骤1：使用⟦50⟧，提取 Caleb Kelly 的身份信息，判断其为一名美式橄榄球线卫（⟦37⟧）。\n\n步骤2：综合⟦50⟧⟦152⟧⟦236⟧，交叉验证 Caleb Kelly 所效力的球队为 Oklahoma Sooners football team。\n\n步骤3：使用⟦130⟧⟦249⟧，提取该球队的主教练为 Lincoln Riley。\n\n结论：Caleb Kelly 效力的球队主教练是 Lincoln Riley。\n\n---\n\n# 路径二：球员归属与教练匹配推理\n\n步骤1：使用⟦50⟧⟦378⟧⟦379⟧⟦152⟧，提取 Caleb Kelly 目前就读于 Oklahoma 大学。\n\n步骤2：综合⟦50⟧⟦380⟧⟦236⟧，确认他在该校为 Oklahoma Sooners football team 效力。\n\n步骤3：使用⟦130⟧⟦249⟧，提取 Oklahoma Sooners football team 的主教练为 Lincoln Riley。\n\n结论：Caleb Kelly 效力的球队主教练是 Lincoln Riley。\n\n---\n\n# 路径三：排除法与交叉验证推理\n\n步骤1：使用⟦50⟧⟦131⟧，确认 Caleb Kelly 的位置是线卫（linebacker），属于美式橄榄球运动。\n\n步骤2：综合⟦50⟧⟦152⟧⟦236⟧，锁定其所属球队为 Oklahoma Sooners football team，排除其他球队可能。\n\n步骤3：使用⟦130⟧⟦249⟧，提取该球队主教练为 Lincoln Riley，与路径一、二结果一致。\n\n结论：Caleb Kelly 效力的球队主教练是 Lincoln Riley。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦50⟧⟨374⟩⟦37⟧⟨376⟩⟨375⟩⟨377⟩⟦131⟧⟦88⟧⟨378⟩⟨379⟩⟦152⟧⟨380⟩",
+  "nounCount": 478,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 7385,
+    "completion_tokens": 117,
+    "total_tokens": 7502,
+    "prompt_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "prompt_cache_hit_tokens": 7168,
+    "prompt_cache_miss_tokens": 217
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 611,
+    "completion_tokens": 372,
+    "total_tokens": 983,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 611
+  }
+}

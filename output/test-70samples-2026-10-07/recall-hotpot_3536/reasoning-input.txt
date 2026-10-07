@@ -1,0 +1,92 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Carlos Boozer] ⟦37⟧⟨229⟩⟨231⟩⟨230⟩⟨232⟩⟦166⟧⟨233⟩⟦157⟧⟨234⟩⟦39⟧⟨235⟩
+[Carlos Boozer] ⟦12⟧⟦92⟧⟨237⟩⟨238⟩⟦133⟧⟨239⟩⟦34⟧⟨240⟩⟦24⟧⟦36⟧⟨242⟩⟨241⟩⟨243⟩⟨244⟩⟦25⟧⟨246⟩⟨245⟩⟨247⟩⟨248⟩
+[Carlos Boozer] ⟦186⟧⟨249⟩⟨250⟩⟨251⟩⟦158⟧⟨252⟩⟦203⟧⟨253⟩⟦40⟧⟨254⟩⟦85⟧⟨255⟩
+[Deron Williams] ⟦23⟧⟦110⟧
+[Deron Williams] ⟦198⟧⟦128⟧ | ⟦90⟧⟦90⟧
+[2017 NBA Summer League] ⟦30⟧
+[Sanya Richards-Ross] ⟦66⟧⟦141⟧⟦146⟧
+
+符号表：
+⟦12⟧ = a member
+⟦23⟧ = an American professional basketball player
+⟦24⟧ = an Olympic bronze medal
+⟦25⟧ = an Olympic gold medal
+⟦30⟧ = basketball
+⟦34⟧ = Boozer
+⟦36⟧ = bronze
+⟦37⟧ = Carlos Austin Boozer Jr.
+⟦39⟧ = CBA
+⟦40⟧ = Chicago Bulls
+⟦66⟧ = gold
+⟦85⟧ = Los Angeles Lakers
+⟦90⟧ = medal
+⟦92⟧ = member
+⟦110⟧ = player
+⟦128⟧ = Star
+⟦133⟧ = Team USA
+⟦141⟧ = the 2004 Summer Olympics
+⟦146⟧ = the 2008 Summer Olympics
+⟦157⟧ = the Chinese Basketball Association
+⟦158⟧ = the Cleveland Cavaliers
+⟦166⟧ = the Guangdong Southern Tigers
+⟦186⟧ = The two-time
+⟦198⟧ = time
+⟦203⟧ = Utah Jazz
+
+占位符映射：
+⟨229⟩ =  (born November 20, 1981) is 
+⟨230⟩ = 
+⟨231⟩ =  
+⟨232⟩ =  who last played for 
+⟨233⟩ =  of 
+⟨234⟩ =  (
+⟨235⟩ = ).
+⟨237⟩ = 
+⟨238⟩ =  of 
+⟨239⟩ = , 
+⟨240⟩ =  won 
+⟨241⟩ = 
+⟨242⟩ =  
+⟨243⟩ =  at 
+⟨244⟩ =  and 
+⟨245⟩ = 
+⟨246⟩ =  
+⟨247⟩ =  at 
+⟨248⟩ = .
+⟨249⟩ = 
+⟨250⟩ =  NBA All-
+⟨251⟩ =  has also played for 
+⟨252⟩ = , 
+⟨253⟩ = , 
+⟨254⟩ =  and 
+⟨255⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which American pro basketball player who won gold at the 2008 Summer Olympics was signed by the Utah Jazz during the 2005-05 offseason?

@@ -1,0 +1,85 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Stormzy] ⟦110⟧⟨316⟩⟨317⟩⟨318⟩⟨319⟩⟦212⟧⟦92⟧⟨321⟩⟦174⟧⟨320⟩⟨322⟩⟦21⟧⟦90⟧⟨323⟩⟨324⟩⟦273⟧⟨325⟩
+[Stormzy] ⟨326⟩⟨327⟩⟨328⟩⟨329⟩⟦17⟧⟦62⟧⟨330⟩⟨331⟩⟦69⟧⟨332⟩⟨333⟩
+[Grime Wave] ⟦242⟧⟦257⟧
+[Big for Your Boots] ⟦272⟧⟨437⟩⟦28⟧⟨438⟩⟨439⟩⟦83⟧⟦160⟧⟨441⟩⟨440⟩⟨442⟩
+[Big for Your Boots] ⟦179⟧⟦187⟧ | ⟦179⟧ | ⟦187⟧
+[Big for Your Boots] ⟦76⟧⟦76⟧ | ⟦148⟧⟦245⟧
+
+符号表：
+⟦17⟧ = a campaign
+⟦21⟧ = a freestyle
+⟦28⟧ = a song
+⟦62⟧ = campaign
+⟦69⟧ = Christmas number
+⟦76⟧ = date
+⟦83⟧ = English rapper Stormzy
+⟦90⟧ = freestyle
+⟦92⟧ = gold
+⟦110⟧ = His most successful song
+⟦148⟧ = number
+⟦160⟧ = rapper
+⟦174⟧ = selling
+⟦179⟧ = song
+⟦187⟧ = Stormzy
+⟦212⟧ = the BPI gold-selling
+⟦242⟧ = The track
+⟦245⟧ = the UK Singles Chart
+⟦257⟧ = track
+⟦272⟧ = Your Boots
+⟦273⟧ = YouTube
+
+占位符映射：
+⟨316⟩ = 
+⟨317⟩ =  to 
+⟨318⟩ = 
+⟨319⟩ =  is 
+⟨320⟩ = 
+⟨321⟩ = -
+⟨322⟩ =  "Shut Up", which was initially released as 
+⟨323⟩ = 
+⟨324⟩ =  on 
+⟨325⟩ = .
+⟨326⟩ = 
+⟨327⟩ =  was then officially released and got to number eight on 
+⟨328⟩ =  after 
+⟨329⟩ =  launched 
+⟨330⟩ = 
+⟨331⟩ =  to reach 
+⟨332⟩ = 
+⟨333⟩ =  one.
+⟨437⟩ = " is 
+⟨438⟩ = 
+⟨439⟩ =  by 
+⟨440⟩ = 
+⟨441⟩ =  
+⟨442⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+"Big for Your Boots" is a song by an English grime and hip hop artist whose most  successful song to date is what?

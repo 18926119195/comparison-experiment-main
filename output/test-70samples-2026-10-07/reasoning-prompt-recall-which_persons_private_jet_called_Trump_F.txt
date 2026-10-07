@@ -1,0 +1,108 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Boeing 757] ⟦241⟧⟨310⟩⟦26⟧⟦166⟧⟨311⟩⟨312⟩⟦2⟧⟦216⟧⟨314⟩⟨315⟩⟨316⟩⟨317⟩⟦41⟧⟨313⟩⟨318⟩⟨319⟩
+[Boeing 757] ⟨320⟩⟦265⟧⟦159⟧⟨322⟩⟦45⟧⟨323⟩⟦182⟧⟨324⟩⟨321⟩⟨325⟩
+[Boeing 757] ⟦114⟧
+[Boeing 757] ⟦55⟧
+[James Albaugh] ⟦58⟧
+[Trump Force One] ⟦237⟧⟦40⟧⟨473⟩⟨474⟩⟨475⟩⟦266⟧⟦163⟧⟨476⟩⟨477⟩⟦103⟧⟦147⟧⟨478⟩⟨479⟩ | ⟦147⟧ | ⟦40⟧
+[Trump Force One] ⟦292⟧ | ⟦253⟧⟦138⟧⟨480⟩⟨481⟩⟦292⟧⟨482⟩⟦17⟧⟨483⟩⟦272⟧⟨484⟩
+[Trump Force One] ⟨485⟩⟦180⟧⟦180⟧⟨486⟩⟨487⟩⟦291⟧⟨488⟩⟦236⟧⟦39⟧⟨490⟩⟦52⟧⟨489⟩⟨491⟩⟦280⟧⟨492⟩
+
+符号表：
+⟦2⟧ = -size, narrow-body twin-engine jet airliner
+⟦17⟧ = a Boeing 757
+⟦26⟧ = a mid
+⟦39⟧ = air
+⟦40⟧ = aircraft
+⟦41⟧ = airliner
+⟦45⟧ = aisle
+⟦52⟧ = assets
+⟦55⟧ = body
+⟦58⟧ = Boeing Commercial Airplanes
+⟦103⟧ = Donald J. Trump's private jet
+⟦114⟧ = engine
+⟦138⟧ = incarnation
+⟦147⟧ = jet
+⟦159⟧ = manufacturer
+⟦163⟧ = media
+⟦166⟧ = mid
+⟦180⟧ = part
+⟦182⟧ = passenger
+⟦216⟧ = size
+⟦236⟧ = the air assets
+⟦237⟧ = The aircraft
+⟦241⟧ = The Boeing 757
+⟦253⟧ = The current incarnation
+⟦265⟧ = the manufacturer's largest single-aisle passenger aircraft
+⟦266⟧ = the media
+⟦272⟧ = the preceding Boeing
+⟦280⟧ = The Trump Organization
+⟦291⟧ = Trump Air
+⟦292⟧ = Trump Force One
+
+占位符映射：
+⟨310⟩ =  is 
+⟨311⟩ = 
+⟨312⟩ = 
+⟨313⟩ = 
+⟨314⟩ = , narrow-
+⟨315⟩ =  twin-
+⟨316⟩ =  
+⟨317⟩ =  
+⟨318⟩ =  that was designed and built by 
+⟨319⟩ = .
+⟨320⟩ =  It is 
+⟨321⟩ = 
+⟨322⟩ = 's largest single-
+⟨323⟩ =  
+⟨324⟩ =  
+⟨325⟩ =  and was produced from 1981 to 2004.
+⟨473⟩ = 
+⟨474⟩ =  called 
+⟨475⟩ =  by 
+⟨476⟩ = 
+⟨477⟩ =  is 
+⟨478⟩ = 
+⟨479⟩ = .
+⟨480⟩ = 
+⟨481⟩ =  of 
+⟨482⟩ =  is 
+⟨483⟩ = , which replaced 
+⟨484⟩ =  727.
+⟨485⟩ =  It is operated as 
+⟨486⟩ = 
+⟨487⟩ =  of "
+⟨488⟩ = ", 
+⟨489⟩ = 
+⟨490⟩ =  
+⟨491⟩ =  of 
+⟨492⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+which persons private jet called Trump Force One which is built by Boeing Commercial Airplanes and is the manufacturer's largest single aisle passenger aircraft that is produced from 1981 to 2004?

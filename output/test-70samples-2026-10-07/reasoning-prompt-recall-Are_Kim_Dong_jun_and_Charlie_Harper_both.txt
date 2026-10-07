@@ -1,0 +1,97 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Kim Dong-jun] ⟨66⟩⟦1⟧⟨67⟩⟨68⟩⟦73⟧⟦73⟧⟨69⟩⟨70⟩⟦5⟧⟨71⟩⟦19⟧⟨72⟩⟨73⟩⟦23⟧⟦23⟧⟨74⟩⟨75⟩
+[Charlie Harper (singer)] ⟨186⟩⟦55⟧⟨187⟩⟦97⟧⟨188⟩⟦7⟧⟨189⟩⟨190⟩⟦125⟧⟦125⟧⟨191⟩⟨192⟩
+[Charlie Harper (singer)] ⟦120⟧ | ⟨193⟩⟦144⟧⟦94⟧⟨195⟩⟦120⟧⟨194⟩⟨196⟩⟦146⟧⟦109⟧⟨198⟩⟦38⟧⟨199⟩⟨197⟩ | ⟦120⟧
+[Kim Dong-jun (footballer)] ⟦91⟧⟨200⟩⟦2⟧⟦171⟧⟨201⟩⟨202⟩⟦18⟧⟦67⟧⟨203⟩⟨204⟩⟦11⟧⟦70⟧⟨205⟩⟨206⟩⟦168⟧⟦128⟧⟨207⟩⟨208⟩ | ⟦171⟧
+[Two and a Half Men] ⟦47⟧
+
+符号表：
+⟦1⟧ = (hangul
+⟦2⟧ = (Korean: 김동준
+⟦5⟧ = 金桐俊
+⟦7⟧ = a British singer
+⟦11⟧ = a goalkeeper
+⟦18⟧ = a South Korean footballer
+⟦19⟧ = a South Korean singer
+⟦23⟧ = actor
+⟦38⟧ = band
+⟦47⟧ = Charlie Harper
+⟦55⟧ = David Charles Perez
+⟦67⟧ = footballer
+⟦70⟧ = goalkeeper
+⟦73⟧ = hanja
+⟦91⟧ = Kim Dong-jun
+⟦94⟧ = lead
+⟦97⟧ = London
+⟦109⟧ = punk
+⟦120⟧ = singer
+⟦125⟧ = songwriter
+⟦128⟧ = team
+⟦144⟧ = the lead singer
+⟦146⟧ = the punk band U.K. Subs
+⟦168⟧ = Yonsei University and South Korea national team
+⟦171⟧ = 김동준
+
+占位符映射：
+⟨66⟩ = Kim Dong-jun 
+⟨67⟩ = : 
+⟨68⟩ = ; 
+⟨69⟩ = 
+⟨70⟩ = : 
+⟨71⟩ = ; born February 11, 1992) is 
+⟨72⟩ = 
+⟨73⟩ =  and 
+⟨74⟩ = 
+⟨75⟩ = .
+⟨186⟩ =  (born 
+⟨187⟩ = , 25 May 1944, Hackney, 
+⟨188⟩ = ) is 
+⟨189⟩ = 
+⟨190⟩ =  and 
+⟨191⟩ = 
+⟨192⟩ = .
+⟨193⟩ =  He is best known as 
+⟨194⟩ = 
+⟨195⟩ =  
+⟨196⟩ =  from 
+⟨197⟩ = 
+⟨198⟩ =  
+⟨199⟩ =  U.K. Subs.
+⟨200⟩ =  
+⟨201⟩ = 
+⟨202⟩ =  , born 19 December 1994) is 
+⟨203⟩ = 
+⟨204⟩ =  who plays as 
+⟨205⟩ = 
+⟨206⟩ =  for 
+⟨207⟩ = 
+⟨208⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Are Kim Dong-jun and Charlie Harper both singers?

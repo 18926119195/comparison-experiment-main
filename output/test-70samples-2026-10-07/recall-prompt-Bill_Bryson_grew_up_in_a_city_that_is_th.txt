@@ -1,0 +1,342 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "A Walk
+⟦2⟧ = "Des Moines
+⟦3⟧ = "English
+⟦4⟧ = "The Twenty-Four-Inch Home Run
+⟦5⟧ = (ISBN
+⟦6⟧ = 1950s
+⟦7⟧ = 1960s
+⟦8⟧ = 1990s
+⟦9⟧ = 50 years
+⟦10⟧ = 599,789 residents
+⟦11⟧ = a 1991 humorous travelogue
+⟦12⟧ = a 2000 travelogue book
+⟦13⟧ = a 2002 book
+⟦14⟧ = a 2006 memoir
+⟦15⟧ = a Big Country
+⟦16⟧ = A book
+⟦17⟧ = a collection
+⟦18⟧ = a global language
+⟦19⟧ = a large extent
+⟦20⟧ = a more prominent role
+⟦21⟧ = a news and sports reporter
+⟦22⟧ = a news reporter
+⟦23⟧ = a popular journalist
+⟦24⟧ = A small part
+⟦25⟧ = a sports journalist
+⟦26⟧ = a Stranger
+⟦27⟧ = a Sunburned Country
+⟦28⟧ = a title
+⟦29⟧ = a trip
+⟦30⟧ = A Walk
+⟦31⟧ = ability
+⟦32⟧ = account
+⟦33⟧ = Agnes Mary McGuire
+⟦34⟧ = all royalties
+⟦35⟧ = alter
+⟦36⟧ = American life
+⟦37⟧ = American writer Bill Bryson
+⟦38⟧ = an editor
+⟦39⟧ = an example
+⟦40⟧ = an imaginary alter-ego Bryson
+⟦41⟧ = an uncritical account
+⟦42⟧ = area
+⟦43⟧ = articles
+⟦44⟧ = associate publisher
+⟦45⟧ = August
+⟦46⟧ = Australia
+⟦47⟧ = author
+⟦48⟧ = autumn
+⟦49⟧ = backstory
+⟦50⟧ = best-selling travel writer Bill Bryson
+⟦51⟧ = Bill Bryson
+⟦52⟧ = Bill Bryson's African Diary
+⟦53⟧ = book
+⟦54⟧ = books
+⟦55⟧ = Britain
+⟦56⟧ = brother
+⟦57⟧ = Bryson
+⟦58⟧ = Bryson's book
+⟦59⟧ = Bryson's books
+⟦60⟧ = Bryson's first travel book
+⟦61⟧ = Bryson's later book
+⟦62⟧ = Bryson's past
+⟦63⟧ = Bryson's views
+⟦64⟧ = Canada
+⟦65⟧ = capital
+⟦66⟧ = CARE International
+⟦67⟧ = census
+⟦68⟧ = childhood
+⟦69⟧ = children
+⟦70⟧ = Chinese
+⟦71⟧ = city
+⟦72⟧ = collection
+⟦73⟧ = college
+⟦74⟧ = comments
+⟦75⟧ = Continent
+⟦76⟧ = county
+⟦77⟧ = culture
+⟦78⟧ = days
+⟦79⟧ = decades
+⟦80⟧ = Des Moines
+⟦81⟧ = dialects
+⟦82⟧ = Down
+⟦83⟧ = Drake University
+⟦84⟧ = early 1960s
+⟦85⟧ = editor
+⟦86⟧ = England
+⟦87⟧ = English
+⟦88⟧ = English words
+⟦89⟧ = Eskimos
+⟦90⟧ = estimate
+⟦91⟧ = etymology
+⟦92⟧ = Europe
+⟦93⟧ = example
+⟦94⟧ = experiences
+⟦95⟧ = extent
+⟦96⟧ = flashbacks
+⟦97⟧ = focus
+⟦98⟧ = Fort Des Moines
+⟦99⟧ = geography
+⟦100⟧ = grammar
+⟦101⟧ = Hanover
+⟦102⟧ = Hawaii
+⟦103⟧ = his 13,978 mile trip
+⟦104⟧ = his 1973 tour focus
+⟦105⟧ = his best sports stories
+⟦106⟧ = his childhood
+⟦107⟧ = his college days
+⟦108⟧ = his experiences
+⟦109⟧ = his son
+⟦110⟧ = his visits
+⟦111⟧ = his youth
+⟦112⟧ = history
+⟦113⟧ = inaccuracies
+⟦114⟧ = Indo
+⟦115⟧ = Iowa
+⟦116⟧ = Iowans
+⟦117⟧ = January
+⟦118⟧ = Japanese
+⟦119⟧ = journalist
+⟦120⟧ = Kenya
+⟦121⟧ = Kenyan culture
+⟦122⟧ = Kid
+⟦123⟧ = language
+⟦124⟧ = languages
+⟦125⟧ = life
+⟦126⟧ = many flashbacks
+⟦127⟧ = March
+⟦128⟧ = Mary Elizabeth
+⟦129⟧ = May
+⟦130⟧ = memoir
+⟦131⟧ = Michael
+⟦132⟧ = Michael G. Bryson
+⟦133⟧ = Michael G. Bryson Jr
+⟦134⟧ = mile
+⟦135⟧ = more minor topics
+⟦136⟧ = My Country
+⟦137⟧ = myths
+⟦138⟧ = name
+⟦139⟧ = Nebraska
+⟦140⟧ = New Hampshire
+⟦141⟧ = news
+⟦142⟧ = Night and Day
+⟦143⟧ = Notes
+⟦144⟧ = number
+⟦145⟧ = observations
+⟦146⟧ = one volume
+⟦147⟧ = origins
+⟦148⟧ = paperback
+⟦149⟧ = part
+⟦150⟧ = Parts
+⟦151⟧ = past
+⟦152⟧ = people
+⟦153⟧ = perpetuation
+⟦154⟧ = poem
+⟦155⟧ = politics
+⟦156⟧ = Polk County
+⟦157⟧ = population
+⟦158⟧ = poverty
+⟦159⟧ = poverty-fighting projects
+⟦160⟧ = prescriptive grammar
+⟦161⟧ = projects
+⟦162⟧ = publisher
+⟦163⟧ = quirks
+⟦164⟧ = reader
+⟦165⟧ = Rediscovering America
+⟦166⟧ = reform
+⟦167⟧ = reporter
+⟦168⟧ = residents
+⟦169⟧ = River
+⟦170⟧ = role
+⟦171⟧ = royalties
+⟦172⟧ = seat
+⟦173⟧ = September
+⟦174⟧ = several urban myths
+⟦175⟧ = Small-Town America
+⟦176⟧ = snow
+⟦177⟧ = some inaccuracies
+⟦178⟧ = some other languages
+⟦179⟧ = son
+⟦180⟧ = spelling
+⟦181⟧ = sports
+⟦182⟧ = spring
+⟦183⟧ = state
+⟦184⟧ = status
+⟦185⟧ = Stephen Katz
+⟦186⟧ = stories
+⟦187⟧ = subject
+⟦188⟧ = summer
+⟦189⟧ = Sunday
+⟦190⟧ = supplement
+⟦191⟧ = swearing
+⟦192⟧ = systems
+⟦193⟧ = terms
+⟦194⟧ = That Way
+⟦195⟧ = the "Des Moines Register
+⟦196⟧ = the 1950s
+⟦197⟧ = the 1990s
+⟦198⟧ = the 2010 census
+⟦199⟧ = the 2013 estimate
+⟦200⟧ = the ability
+⟦201⟧ = the Appalachian Trail
+⟦202⟧ = the Associated Press
+⟦203⟧ = the author's tour
+⟦204⟧ = the autumn
+⟦205⟧ = The Babe
+⟦206⟧ = the backstory
+⟦207⟧ = The book
+⟦208⟧ = the British title
+⟦209⟧ = the capital
+⟦210⟧ = the city
+⟦211⟧ = The city's population
+⟦212⟧ = the complex etymology
+⟦213⟧ = the county seat
+⟦214⟧ = the Des Moines River
+⟦215⟧ = the dialects
+⟦216⟧ = the elder brother
+⟦217⟧ = the English
+⟦218⟧ = the famous Australian poem
+⟦219⟧ = The five-county metropolitan area
+⟦220⟧ = the French colonial name
+⟦221⟧ = the growing status
+⟦222⟧ = the history
+⟦223⟧ = the Indo-European origins
+⟦224⟧ = the language's various quirks
+⟦225⟧ = the lay reader
+⟦226⟧ = The Life
+⟦227⟧ = The Lost Continent
+⟦228⟧ = The Mail
+⟦229⟧ = the Monks
+⟦230⟧ = the most populous city
+⟦231⟧ = The Mother Tongue
+⟦232⟧ = the New York Mets
+⟦233⟧ = the number
+⟦234⟧ = the perpetuation
+⟦235⟧ = the pseudonymous "Stephen Katz
+⟦236⟧ = the subject
+⟦237⟧ = the Sun Press Newspapers
+⟦238⟧ = the Thunderbolt Kid
+⟦239⟧ = The title
+⟦240⟧ = the U.S. state
+⟦241⟧ = the United States
+⟦242⟧ = the United States Census Bureau
+⟦243⟧ = the Woods
+⟦244⟧ = their writing systems
+⟦245⟧ = This account
+⟦246⟧ = three children
+⟦247⟧ = Times
+⟦248⟧ = title
+⟦249⟧ = topics
+⟦250⟧ = tour
+⟦251⟧ = tours
+⟦252⟧ = travel
+⟦253⟧ = travel books
+⟦254⟧ = travel writer Bill Bryson
+⟦255⟧ = travelogue
+⟦256⟧ = Travels
+⟦257⟧ = Tribune
+⟦258⟧ = trip
+⟦259⟧ = two decades
+⟦260⟧ = two summer tours
+⟦261⟧ = views
+⟦262⟧ = visits
+⟦263⟧ = volume
+⟦264⟧ = Warren County
+⟦265⟧ = Way
+⟦266⟧ = William
+⟦267⟧ = William Eugene "Bill" Bryson Sr
+⟦268⟧ = words
+⟦269⟧ = writer
+⟦270⟧ = writing
+⟦271⟧ = years
+⟦272⟧ = youth
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Bill Bryson Sr.] ⟦267⟧⟨1⟩⟦127⟧⟨2⟩⟦117⟧⟨3⟩⟦25⟧⟨4⟩⟦181⟧⟨5⟩⟦119⟧⟨6⟩⟦195⟧⟨7⟩⟦9⟧⟨8⟩⟦271⟧⟨9⟩
+[Bill Bryson Sr.] ⟨10⟩⟦33⟧⟨11⟩⟦139⟧⟨12⟩⟦246⟧⟨13⟩⟦69⟧⟨14⟩⟦131⟧⟨15⟩⟦266⟧⟨16⟩⟦128⟧⟨17⟩
+[Bill Bryson Sr.] ⟦16⟧⟨18⟩⟦53⟧⟨19⟩⟦105⟧⟨20⟩⟦181⟧⟨21⟩⟦186⟧⟨22⟩⟦109⟧⟨23⟩⟦179⟧⟨24⟩⟦131⟧⟨25⟩
+[Bill Bryson Sr.] ⟨26⟩⟦109⟧⟨27⟩⟦179⟧⟨28⟩⟦51⟧⟨29⟩⟦23⟧⟨30⟩⟦119⟧⟨31⟩⟦269⟧⟨32⟩⟦269⟧⟨33⟩⟦252⟧⟨34⟩⟦253⟧⟨35⟩⟦54⟧⟨36⟩⟦86⟧⟨37⟩
+[Michael Bryson] ⟦132⟧⟨38⟩⟦45⟧⟨39⟩⟦129⟧⟨40⟩⟦21⟧⟨41⟩⟦141⟧⟨42⟩⟦181⟧⟨43⟩⟦167⟧⟨44⟩⟦85⟧⟨45⟩⟦85⟧⟨46⟩⟦80⟧⟨47⟩⟦115⟧⟨48⟩⟦216⟧⟨49⟩⟦56⟧⟨50⟩⟦252⟧⟨51⟩⟦254⟧⟨52⟩⟦269⟧⟨53⟩
+[Michael Bryson] ⟨54⟩⟦16⟧⟨55⟩⟦53⟧⟨56⟩⟦205⟧⟨57⟩⟦116⟧⟨58⟩⟦181⟧⟨59⟩⟦109⟧⟨60⟩⟦179⟧⟨61⟩⟦133⟧⟨62⟩
+[Michael Bryson] ⟨63⟩⟦16⟧⟨64⟩⟦53⟧⟨65⟩⟦4⟧⟨66⟩
+[Michael Bryson] ⟦57⟧⟨67⟩⟦38⟧⟨68⟩⟦85⟧⟨69⟩⟦44⟧⟨70⟩⟦162⟧⟨71⟩⟦237⟧⟨72⟩⟦102⟧⟨73⟩
+[Michael Bryson] ⟨74⟩⟦232⟧⟨75⟩⟦181⟧⟨76⟩⟦167⟧⟨77⟩⟦202⟧⟨78⟩
+[Michael Bryson] ⟨79⟩⟦22⟧⟨80⟩⟦141⟧⟨81⟩⟦167⟧⟨82⟩⟦195⟧⟨83⟩⟦257⟧⟨84⟩
+[Michael Bryson] ⟨85⟩⟦83⟧⟨86⟩
+[Down Under (book)] ⟨87⟩⟦208⟧⟨88⟩⟦248⟧⟨89⟩⟦12⟧⟨90⟩⟦255⟧⟨91⟩⟦53⟧⟨92⟩⟦46⟧⟨93⟩⟦50⟧⟨94⟩⟦252⟧⟨95⟩⟦269⟧⟨96⟩
+[Down Under (book)] ⟨97⟩⟦241⟧⟨98⟩⟦64⟧⟨99⟩⟦27⟧⟨100⟩⟦28⟧⟨101⟩⟦248⟧⟨102⟩⟦218⟧⟨103⟩⟦154⟧⟨104⟩⟦136⟧⟨105⟩
+[Down Under (book)] ⟨106⟩⟦149⟧⟨107⟩⟦149⟧⟨108⟩⟦82⟧⟨109⟩⟦59⟧⟨110⟩⟦54⟧⟨111⟩⟦1⟧⟨112⟩⟦243⟧⟨113⟩⟦165⟧⟨114⟩⟦201⟧⟨115⟩⟦146⟧⟨116⟩⟦263⟧⟨117⟩
+[Neither Here nor There: Travels in Europe] ⟨118⟩⟦256⟧⟨119⟩⟦256⟧⟨120⟩⟦92⟧⟨121⟩⟦11⟧⟨122⟩⟦255⟧⟨123⟩⟦37⟧⟨124⟩⟦269⟧⟨125⟩
+[Neither Here nor There: Travels in Europe] ⟨126⟩⟦203⟧⟨127⟩⟦47⟧⟨128⟩⟦250⟧⟨129⟩⟦92⟧⟨130⟩⟦126⟧⟨131⟩⟦96⟧⟨132⟩⟦260⟧⟨133⟩⟦188⟧⟨134⟩⟦251⟧⟨135⟩⟦107⟧⟨136⟩⟦73⟧⟨137⟩⟦78⟧⟨138⟩
+[Neither Here nor There: Travels in Europe] ⟦150⟧⟨139⟩⟦150⟧⟨140⟩⟦104⟧⟨141⟩⟦250⟧⟨142⟩⟦97⟧⟨143⟩⟦19⟧⟨144⟩⟦95⟧⟨145⟩⟦235⟧⟨146⟩⟦20⟧⟨147⟩⟦170⟧⟨148⟩⟦61⟧⟨149⟩⟦53⟧⟨150⟩⟦30⟧⟨151⟩⟦243⟧⟨152⟩⟦226⟧⟨153⟩⟦247⟧⟨154⟩⟦238⟧⟨155⟩⟦122⟧⟨156⟩
+[Notes from a Big Country] ⟦143⟧⟨157⟩⟦143⟧⟨158⟩⟦15⟧⟨159⟩⟦241⟧⟨160⟩⟦26⟧⟨161⟩⟦17⟧⟨162⟩⟦72⟧⟨163⟩⟦43⟧⟨164⟩⟦43⟧⟨165⟩⟦51⟧⟨166⟩⟦228⟧⟨167⟩⟦189⟧⟨168⟩⟦142⟧⟨169⟩⟦190⟧⟨170⟩⟦197⟧⟨171⟩⟦8⟧⟨172⟩⟦55⟧⟨173⟩⟦148⟧⟨174⟩⟦148⟧⟨175⟩
+[Notes from a Big Country] ⟦207⟧⟨176⟩⟦53⟧⟨177⟩⟦63⟧⟨178⟩⟦261⟧⟨179⟩⟦101⟧⟨180⟩⟦140⟧⟨181⟩⟦259⟧⟨182⟩⟦79⟧⟨183⟩⟦55⟧⟨184⟩
+[The Mother Tongue] ⟦231⟧⟨185⟩⟦5⟧⟨186⟩⟦16⟧⟨187⟩⟦53⟧⟨188⟩⟦51⟧⟨189⟩⟦222⟧⟨190⟩⟦112⟧⟨191⟩⟦147⟧⟨192⟩⟦147⟧⟨193⟩⟦217⟧⟨194⟩⟦224⟧⟨195⟩⟦123⟧⟨196⟩⟦163⟧⟨197⟩
+[The Mother Tongue] ⟨198⟩⟦3⟧⟨199⟩⟦194⟧⟨200⟩⟦265⟧⟨201⟩
+[The Mother Tongue] ⟦207⟧⟨202⟩⟦53⟧⟨203⟩⟦223⟧⟨204⟩⟦114⟧⟨205⟩⟦147⟧⟨206⟩⟦87⟧⟨207⟩⟦221⟧⟨208⟩⟦184⟧⟨209⟩⟦87⟧⟨210⟩⟦18⟧⟨211⟩⟦123⟧⟨212⟩⟦212⟧⟨213⟩⟦91⟧⟨214⟩⟦88⟧⟨215⟩⟦268⟧⟨216⟩⟦215⟧⟨217⟩⟦81⟧⟨218⟩⟦87⟧⟨219⟩⟦180⟧⟨220⟩⟦166⟧⟨221⟩⟦166⟧⟨222⟩⟦160⟧⟨223⟩⟦100⟧⟨224⟩⟦135⟧⟨225⟩⟦249⟧⟨226⟩⟦191⟧⟨227⟩⟦191⟧⟨228⟩
+[The Mother Tongue] ⟦245⟧⟨229⟩⟦32⟧⟨230⟩⟦236⟧⟨231⟩⟦187⟧⟨232⟩⟦225⟧⟨233⟩⟦164⟧⟨234⟩⟦58⟧⟨235⟩⟦53⟧⟨236⟩⟦177⟧⟨237⟩⟦113⟧⟨238⟩⟦234⟧⟨239⟩⟦153⟧⟨240⟩⟦174⟧⟨241⟩⟦137⟧⟨242⟩⟦41⟧⟨243⟩⟦32⟧⟨244⟩⟦233⟧⟨245⟩⟦144⟧⟨246⟩⟦268⟧⟨247⟩⟦268⟧⟨248⟩⟦89⟧⟨249⟩⟦176⟧⟨250⟩⟦176⟧⟨251⟩
+[The Mother Tongue] ⟨252⟩⟦178⟧⟨253⟩⟦124⟧⟨254⟩⟦244⟧⟨255⟩⟦270⟧⟨256⟩⟦192⟧⟨257⟩⟦70⟧⟨258⟩⟦118⟧⟨259⟩⟦39⟧⟨260⟩⟦93⟧⟨261⟩
+[Bill Bryson's African Diary] ⟦52⟧⟨262⟩⟦13⟧⟨263⟩⟦53⟧⟨264⟩⟦50⟧⟨265⟩⟦252⟧⟨266⟩⟦269⟧⟨267⟩
+[Bill Bryson's African Diary] ⟦207⟧⟨268⟩⟦53⟧⟨269⟩⟦29⟧⟨270⟩⟦258⟧⟨271⟩⟦57⟧⟨272⟩⟦120⟧⟨273⟩
+[Bill Bryson's African Diary] ⟦57⟧⟨274⟩⟦108⟧⟨275⟩⟦94⟧⟨276⟩⟦145⟧⟨277⟩⟦145⟧⟨278⟩⟦121⟧⟨279⟩⟦77⟧⟨280⟩⟦99⟧⟨281⟩⟦99⟧⟨282⟩⟦155⟧⟨283⟩⟦155⟧⟨284⟩⟦110⟧⟨285⟩⟦262⟧⟨286⟩⟦158⟧⟨287⟩⟦159⟧⟨288⟩⟦161⟧⟨289⟩⟦66⟧⟨290⟩⟦34⟧⟨291⟩⟦171⟧⟨292⟩⟦207⟧⟨293⟩⟦53⟧⟨294⟩
+[Des Moines, Iowa] ⟦80⟧⟨295⟩⟦209⟧⟨296⟩⟦65⟧⟨297⟩⟦230⟧⟨298⟩⟦71⟧⟨299⟩⟦240⟧⟨300⟩⟦183⟧⟨301⟩⟦115⟧⟨302⟩
+[Des Moines, Iowa] ⟨303⟩⟦213⟧⟨304⟩⟦76⟧⟨305⟩⟦172⟧⟨306⟩⟦156⟧⟨307⟩
+[Des Moines, Iowa] ⟦24⟧⟨308⟩⟦149⟧⟨309⟩⟦210⟧⟨310⟩⟦71⟧⟨311⟩⟦264⟧⟨312⟩
+[Des Moines, Iowa] ⟨313⟩⟦173⟧⟨314⟩⟦98⟧⟨315⟩⟦2⟧⟨316⟩
+[Des Moines, Iowa] ⟨317⟩⟦214⟧⟨318⟩⟦220⟧⟨319⟩⟦138⟧⟨320⟩⟦169⟧⟨321⟩⟦229⟧⟨322⟩⟦211⟧⟨323⟩⟦71⟧⟨324⟩⟦157⟧⟨325⟩⟦198⟧⟨326⟩⟦67⟧⟨327⟩
+[Des Moines, Iowa] ⟦219⟧⟨328⟩⟦76⟧⟨329⟩⟦42⟧⟨330⟩⟦193⟧⟨331⟩⟦193⟧⟨332⟩⟦157⟧⟨333⟩⟦157⟧⟨334⟩⟦241⟧⟨335⟩⟦10⟧⟨336⟩⟦168⟧⟨337⟩⟦199⟧⟨338⟩⟦90⟧⟨339⟩⟦242⟧⟨340⟩
+[The Lost Continent: Travels in Small-Town America] ⟦227⟧⟨341⟩⟦75⟧⟨342⟩⟦256⟧⟨343⟩⟦256⟧⟨344⟩⟦175⟧⟨345⟩⟦16⟧⟨346⟩⟦53⟧⟨347⟩⟦252⟧⟨348⟩⟦254⟧⟨349⟩⟦269⟧⟨350⟩⟦103⟧⟨351⟩⟦134⟧⟨352⟩⟦258⟧⟨353⟩⟦241⟧⟨354⟩⟦204⟧⟨355⟩⟦48⟧⟨356⟩⟦182⟧⟨357⟩⟦182⟧⟨358⟩
+[The Lost Continent: Travels in Small-Town America] ⟨359⟩⟦60⟧⟨360⟩⟦252⟧⟨361⟩⟦53⟧⟨362⟩
+[The Life and Times of the Thunderbolt Kid] ⟦226⟧⟨363⟩⟦247⟧⟨364⟩⟦238⟧⟨365⟩⟦14⟧⟨366⟩⟦130⟧⟨367⟩⟦50⟧⟨368⟩⟦252⟧⟨369⟩⟦269⟧⟨370⟩
+[The Life and Times of the Thunderbolt Kid] ⟦207⟧⟨371⟩⟦53⟧⟨372⟩⟦62⟧⟨373⟩⟦151⟧⟨374⟩⟦111⟧⟨375⟩⟦272⟧⟨376⟩⟦80⟧⟨377⟩⟦115⟧⟨378⟩⟦196⟧⟨379⟩⟦6⟧⟨380⟩⟦84⟧⟨381⟩⟦7⟧⟨382⟩
+[The Life and Times of the Thunderbolt Kid] ⟨383⟩⟦206⟧⟨384⟩⟦49⟧⟨385⟩⟦185⟧⟨386⟩⟦30⟧⟨387⟩⟦243⟧⟨388⟩
+[The Life and Times of the Thunderbolt Kid] ⟦57⟧⟨389⟩⟦74⟧⟨390⟩⟦74⟧⟨391⟩⟦36⟧⟨392⟩⟦125⟧⟨393⟩
+[The Life and Times of the Thunderbolt Kid] ⟦239⟧⟨394⟩⟦248⟧⟨395⟩⟦207⟧⟨396⟩⟦53⟧⟨397⟩⟦40⟧⟨398⟩⟦35⟧⟨399⟩⟦106⟧⟨400⟩⟦68⟧⟨401⟩⟦200⟧⟨402⟩⟦31⟧⟨403⟩⟦152⟧⟨404⟩⟦152⟧⟨405⟩
+
+[user]
+
+问题：
+Bill Bryson grew up in a city that is the seat of which county ?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

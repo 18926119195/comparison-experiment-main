@@ -1,0 +1,99 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Southeastern Conference] ⟨1⟩⟨2⟩⟦18⟧⟨4⟩⟨3⟩⟨5⟩⟦191⟧⟨7⟩⟦60⟧⟨6⟩⟨8⟩⟦163⟧⟨9⟩⟨10⟩⟦169⟧⟨11⟩
+[Southeastern Conference] ⟦141⟧⟨26⟩⟨27⟩⟦21⟧⟨28⟩⟨29⟩
+[Southeastern Conference] ⟦88⟧ | ⟨30⟩⟦152⟧⟨31⟩⟦74⟧⟨32⟩⟦36⟧⟦37⟧⟨33⟩⟨34⟩⟦108⟧⟦109⟧⟨35⟩⟦32⟧⟨36⟩⟨37⟩⟨38⟩⟨39⟩⟦88⟧⟦88⟧⟨40⟩⟨41⟩⟦149⟧⟨42⟩⟦42⟧⟨43⟩⟦38⟧
+[1985 Tennessee Volunteers football team] ⟦160⟧
+[1985 Tennessee Volunteers football team] ⟦158⟧
+[1896 Tennessee Volunteers football team] ⟦33⟧ | ⟦33⟧
+[1938 Tennessee Volunteers football team] ⟦97⟧
+[1930 Tennessee Volunteers football team] ⟦31⟧ | ⟦44⟧⟦44⟧
+[1930 Tennessee Volunteers football team] ⟦71⟧
+[1930 Tennessee Volunteers football team] ⟦17⟧
+
+符号表：
+⟦17⟧ = Alabama
+⟦18⟧ = an American college athletic conference
+⟦21⟧ = Birmingham
+⟦31⟧ = college
+⟦32⟧ = competitions
+⟦33⟧ = conference
+⟦36⟧ = Division
+⟦37⟧ = Division I
+⟦38⟧ = Division I-A.
+⟦42⟧ = FBS
+⟦44⟧ = football
+⟦60⟧ = institutions
+⟦71⟧ = member
+⟦74⟧ = NCAA
+⟦88⟧ = part
+⟦97⟧ = SEC
+⟦108⟧ = sports
+⟦109⟧ = sports competitions
+⟦141⟧ = The conference
+⟦149⟧ = the Football Bowl Subdivision
+⟦152⟧ = the National Collegiate Athletic Association
+⟦158⟧ = The SEC
+⟦160⟧ = The Southeastern Conference
+⟦163⟧ = the Southern part
+⟦169⟧ = the United States
+⟦191⟧ = whose member institutions
+
+占位符映射：
+⟨1⟩ =  (
+⟨2⟩ = ) is 
+⟨3⟩ = 
+⟨4⟩ =  athletic 
+⟨5⟩ =  
+⟨6⟩ = 
+⟨7⟩ =  
+⟨8⟩ =  are located primarily in 
+⟨9⟩ = 
+⟨10⟩ =  of 
+⟨11⟩ = .
+⟨26⟩ = 
+⟨27⟩ =  is headquartered in 
+⟨28⟩ = , 
+⟨29⟩ = .
+⟨30⟩ =  participates in 
+⟨31⟩ =  (
+⟨32⟩ = ) 
+⟨33⟩ = 
+⟨34⟩ =  in 
+⟨35⟩ = 
+⟨36⟩ = 
+⟨37⟩ = ; for 
+⟨38⟩ = 
+⟨39⟩ = , it is 
+⟨40⟩ = 
+⟨41⟩ =  of 
+⟨42⟩ =  (
+⟨43⟩ = ), formerly known as 
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The Tennessee Volunteers football team plays as a member for a conference in what city?

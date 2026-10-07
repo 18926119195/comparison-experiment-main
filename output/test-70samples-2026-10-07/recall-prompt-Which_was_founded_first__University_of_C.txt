@@ -1,0 +1,403 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Mission Santa Barbara
+⟦2⟧ = (AM
+⟦3⟧ = (SBCC
+⟦4⟧ = (T-AO-131
+⟦5⟧ = 100 mi
+⟦6⟧ = 167,500 sound recordings
+⟦7⟧ = 2,948,999 volumes
+⟦8⟧ = 3.2 mi
+⟦9⟧ = 3.2 million satellite and aerial images
+⟦10⟧ = 30,000 electronic journals
+⟦11⟧ = 34,450 e
+⟦12⟧ = 4,100 manuscripts
+⟦13⟧ = 8 mi
+⟦14⟧ = 900,055 digitized items
+⟦15⟧ = 91.5 MHz FM
+⟦16⟧ = a #1 national ranking
+⟦17⟧ = a 1022 acre site
+⟦18⟧ = a 40 acre campus
+⟦19⟧ = a 74 acre campus
+⟦20⟧ = a Boston Marathon qualifier
+⟦21⟧ = a campus area
+⟦22⟧ = a few years
+⟦23⟧ = a lecturer
+⟦24⟧ = a listener-supported classical music radio station broadcasting
+⟦25⟧ = a marathon
+⟦26⟧ = a member
+⟦27⟧ = a period
+⟦28⟧ = a private research university
+⟦29⟧ = a public research university
+⟦30⟧ = a repeater
+⟦31⟧ = a Spanish mission
+⟦32⟧ = a two-year community college
+⟦33⟧ = A2
+⟦34⟧ = acre
+⟦35⟧ = acres
+⟦36⟧ = activities
+⟦37⟧ = America
+⟦38⟧ = an annual race
+⟦39⟧ = an appointment
+⟦40⟧ = an enrollment
+⟦41⟧ = an independent teachers' college
+⟦42⟧ = an internal medicine specialist
+⟦43⟧ = an official California and City historic landmark
+⟦44⟧ = Annex
+⟦45⟧ = Annex II
+⟦46⟧ = annexes
+⟦47⟧ = AO-131
+⟦48⟧ = appointment
+⟦49⟧ = archival
+⟦50⟧ = archival collections
+⟦51⟧ = area
+⟦52⟧ = areas
+⟦53⟧ = Associate Clinical Professor
+⟦54⟧ = author
+⟦55⟧ = books
+⟦56⟧ = broadcasting
+⟦57⟧ = California
+⟦58⟧ = call
+⟦59⟧ = campus
+⟦60⟧ = campuses
+⟦61⟧ = century
+⟦62⟧ = certified staff
+⟦63⟧ = city
+⟦64⟧ = co
+⟦65⟧ = collection
+⟦66⟧ = collections
+⟦67⟧ = college
+⟦68⟧ = colleges
+⟦69⟧ = community
+⟦70⟧ = Community College Excellence
+⟦71⟧ = completion
+⟦72⟧ = conversion
+⟦73⟧ = country
+⟦74⟧ = course
+⟦75⟧ = creation
+⟦76⟧ = Dan Campbell
+⟦77⟧ = data
+⟦78⟧ = day
+⟦79⟧ = December
+⟦80⟧ = degree
+⟦81⟧ = degree completion
+⟦82⟧ = descent
+⟦83⟧ = design
+⟦84⟧ = director
+⟦85⟧ = directors
+⟦86⟧ = Dons
+⟦87⟧ = downtown
+⟦88⟧ = downtown Los Angeles
+⟦89⟧ = Dr. Daniel
+⟦90⟧ = education
+⟦91⟧ = enrollment
+⟦92⟧ = Erno
+⟦93⟧ = Erno S. Daniel M.D. Ph.D
+⟦94⟧ = facilities
+⟦95⟧ = feast
+⟦96⟧ = February
+⟦97⟧ = finish
+⟦98⟧ = five million cartographic items
+⟦99⟧ = FM
+⟦100⟧ = four areas
+⟦101⟧ = four facilities
+⟦102⟧ = general operations
+⟦103⟧ = Goleta
+⟦104⟧ = good jobs
+⟦105⟧ = Half Marathon
+⟦106⟧ = Hamdard
+⟦107⟧ = Hamdard University
+⟦108⟧ = higher education
+⟦109⟧ = his activities
+⟦110⟧ = Home
+⟦111⟧ = host
+⟦112⟧ = Hungarian descent
+⟦113⟧ = images
+⟦114⟧ = institutions
+⟦115⟧ = Internet
+⟦116⟧ = Isla Vista
+⟦117⟧ = Islamabad
+⟦118⟧ = items
+⟦119⟧ = its 18th-century Spanish influenced design
+⟦120⟧ = its current site
+⟦121⟧ = its quality
+⟦122⟧ = its roots
+⟦123⟧ = its work
+⟦124⟧ = jobs
+⟦125⟧ = journals
+⟦126⟧ = July
+⟦127⟧ = June Snow
+⟦128⟧ = Karachi
+⟦129⟧ = KCRW
+⟦130⟧ = KCRW's programming
+⟦131⟧ = KDB
+⟦132⟧ = KDB's role
+⟦133⟧ = KDFC
+⟦134⟧ = KQSC
+⟦135⟧ = KUSC
+⟦136⟧ = KUSC's classical programming
+⟦137⟧ = labor
+⟦138⟧ = labor market success
+⟦139⟧ = landmark
+⟦140⟧ = Later the tanker
+⟦141⟧ = later, the University
+⟦142⟧ = lecturer
+⟦143⟧ = legacy
+⟦144⟧ = letters
+⟦145⟧ = libraries
+⟦146⟧ = library
+⟦147⟧ = line
+⟦148⟧ = listener
+⟦149⟧ = Los Angeles
+⟦150⟧ = manuscript
+⟦151⟧ = manuscripts
+⟦152⟧ = maps
+⟦153⟧ = marathon
+⟦154⟧ = marathons
+⟦155⟧ = market
+⟦156⟧ = medicine
+⟦157⟧ = member
+⟦158⟧ = MHz
+⟦159⟧ = mi
+⟦160⟧ = microform
+⟦161⟧ = minority
+⟦162⟧ = mission
+⟦163⟧ = Mission Santa Barbara
+⟦164⟧ = more than 3.7 million pieces
+⟦165⟧ = music
+⟦166⟧ = namesake
+⟦167⟧ = Native American people
+⟦168⟧ = November
+⟦169⟧ = oiler
+⟦170⟧ = operations
+⟦171⟧ = order
+⟦172⟧ = outcomes
+⟦173⟧ = over 350 acres
+⟦174⟧ = Padre Fermín Lasuén
+⟦175⟧ = Pakistan
+⟦176⟧ = part
+⟦177⟧ = people
+⟦178⟧ = period
+⟦179⟧ = philanthropist
+⟦180⟧ = pieces
+⟦181⟧ = place
+⟦182⟧ = present-day Santa Barbara
+⟦183⟧ = print
+⟦184⟧ = program
+⟦185⟧ = programming
+⟦186⟧ = public radio station KCRW
+⟦187⟧ = pupils
+⟦188⟧ = qualifier
+⟦189⟧ = quality
+⟦190⟧ = race
+⟦191⟧ = radio
+⟦192⟧ = ranking
+⟦193⟧ = rates
+⟦194⟧ = recordings
+⟦195⟧ = repeater
+⟦196⟧ = research
+⟦197⟧ = residency
+⟦198⟧ = role
+⟦199⟧ = roots
+⟦200⟧ = roughly 2,200 pupils
+⟦201⟧ = Rusty
+⟦202⟧ = Rusty Snow
+⟦203⟧ = Saint Barbara
+⟦204⟧ = San Francisco's classical station KDFC
+⟦205⟧ = Santa Barbara
+⟦206⟧ = Santa Barbara City College
+⟦207⟧ = Santa Barbara County
+⟦208⟧ = Santa Barbara High School
+⟦209⟧ = Santa Barbara Library
+⟦210⟧ = Santa Barbara Mission
+⟦211⟧ = Santa Barbara Senior High School
+⟦212⟧ = Santa Barbara's classical station
+⟦213⟧ = Santa Barbara's Cottage Hospital
+⟦214⟧ = Santa Monica
+⟦215⟧ = satellite
+⟦216⟧ = SBCC
+⟦217⟧ = school
+⟦218⟧ = schools
+⟦219⟧ = site
+⟦220⟧ = some 467,000 maps
+⟦221⟧ = some three million print volumes
+⟦222⟧ = sound
+⟦223⟧ = Southern California
+⟦224⟧ = specialist
+⟦225⟧ = SS "Mission Santa Barbara
+⟦226⟧ = staff
+⟦227⟧ = station
+⟦228⟧ = student
+⟦229⟧ = student-run Internet station KXSC
+⟦230⟧ = success
+⟦231⟧ = system
+⟦232⟧ = tanker
+⟦233⟧ = teachers
+⟦234⟧ = teaching
+⟦235⟧ = that time
+⟦236⟧ = the "Mission Buenaventura"-class oiler
+⟦237⟧ = the 10 campuses
+⟦238⟧ = the 2013 Aspen Institute Prize
+⟦239⟧ = the 99th largest library collection
+⟦240⟧ = the American Library Association
+⟦241⟧ = the city
+⟦242⟧ = the co
+⟦243⟧ = The college
+⟦244⟧ = the country
+⟦245⟧ = the creation
+⟦246⟧ = the Dons
+⟦247⟧ = the East Coast
+⟦248⟧ = the feast day
+⟦249⟧ = the finish line
+⟦250⟧ = the first and the oldest private institutions
+⟦251⟧ = the Franciscan order
+⟦252⟧ = the Greater Los Angeles Area
+⟦253⟧ = the Hamdard Foundation
+⟦254⟧ = The inaugural race
+⟦255⟧ = the indigenous local Chumash-Barbareño tribe
+⟦256⟧ = the Introduction
+⟦257⟧ = the largest non-profit classical music station
+⟦258⟧ = the largest private research university
+⟦259⟧ = the last five years
+⟦260⟧ = The legacy KDB call letters
+⟦261⟧ = The Library
+⟦262⟧ = The main campus
+⟦263⟧ = the Main Library
+⟦264⟧ = the Military Sea Transportation Service
+⟦265⟧ = The mission
+⟦266⟧ = the Music Library
+⟦267⟧ = the namesake
+⟦268⟧ = the official host
+⟦269⟧ = the oldest community colleges
+⟦270⟧ = the oldest high schools
+⟦271⟧ = the only classical radio station
+⟦272⟧ = the race
+⟦273⟧ = the religious conversion
+⟦274⟧ = the renowned philanthropist
+⟦275⟧ = the Sansum Clinic
+⟦276⟧ = the Santa Barbara City College
+⟦277⟧ = the Santa Barbara Foundation's classical station
+⟦278⟧ = the Santa Barbara High School District
+⟦279⟧ = The Santa Barbara International Marathon
+⟦280⟧ = The Santa Barbara International Marathon course
+⟦281⟧ = the Santa Barbara Medical Foundation Clinic
+⟦282⟧ = the Santa Barbara State College
+⟦283⟧ = the Santa Barbara State Normal School
+⟦284⟧ = the Santa Barbara Unified School District
+⟦285⟧ = the sole public high school
+⟦286⟧ = the system
+⟦287⟧ = the technical director
+⟦288⟧ = the tenth mission
+⟦289⟧ = the third-oldest general-education campus
+⟦290⟧ = The transaction
+⟦291⟧ = the UC Santa Barbara Library
+⟦292⟧ = the United States Maritime Commission
+⟦293⟧ = the United States Navy
+⟦294⟧ = The University
+⟦295⟧ = the university library system
+⟦296⟧ = the war
+⟦297⟧ = time
+⟦298⟧ = Today
+⟦299⟧ = training
+⟦300⟧ = transaction
+⟦301⟧ = transfer
+⟦302⟧ = tribe
+⟦303⟧ = two annexes
+⟦304⟧ = Two libraries
+⟦305⟧ = two rival high schools
+⟦306⟧ = UC Santa Barbara
+⟦307⟧ = UCSB
+⟦308⟧ = underrepresented and minority student success
+⟦309⟧ = United States
+⟦310⟧ = university
+⟦311⟧ = Urdu
+⟦312⟧ = USA
+⟦313⟧ = USC
+⟦314⟧ = USC's current repeater station
+⟦315⟧ = USNS
+⟦316⟧ = USS "Mission Santa Barbara
+⟦317⟧ = volumes
+⟦318⟧ = war
+⟦319⟧ = whose internal medicine residency training program
+⟦320⟧ = winner
+⟦321⟧ = work
+⟦322⟧ = World War I
+⟦323⟧ = World War II
+⟦324⟧ = year
+⟦325⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[University of California, Santa Barbara Library] ⟦294⟧⟨1⟩⟦57⟧⟨2⟩⟦209⟧⟨3⟩⟦295⟧⟨4⟩⟦310⟧⟨5⟩⟦146⟧⟨6⟩⟦231⟧⟨7⟩⟦294⟧⟨8⟩⟦57⟧⟨9⟩⟦205⟧⟨10⟩⟦205⟧⟨11⟩⟦57⟧⟨12⟩
+[University of California, Santa Barbara Library] ⟦261⟧⟨13⟩⟦101⟧⟨14⟩⟦94⟧⟨15⟩⟦304⟧⟨16⟩⟦145⟧⟨17⟩⟦263⟧⟨18⟩⟦266⟧⟨19⟩⟦303⟧⟨20⟩⟦46⟧⟨21⟩⟦44⟧⟨22⟩⟦45⟧⟨23⟩
+[University of California, Santa Barbara Library] ⟦261⟧⟨24⟩⟦146⟧⟨25⟩⟦221⟧⟨26⟩⟦183⟧⟨27⟩⟦317⟧⟨28⟩⟦10⟧⟨29⟩⟦125⟧⟨30⟩⟦11⟧⟨31⟩⟦55⟧⟨32⟩⟦55⟧⟨33⟩⟦14⟧⟨34⟩⟦118⟧⟨35⟩⟦98⟧⟨36⟩⟦118⟧⟨37⟩⟦220⟧⟨38⟩⟦152⟧⟨39⟩⟦9⟧⟨40⟩⟦215⟧⟨41⟩⟦113⟧⟨42⟩⟦164⟧⟨43⟩⟦180⟧⟨44⟩⟦160⟧⟨45⟩⟦160⟧⟨46⟩⟦6⟧⟨47⟩⟦222⟧⟨48⟩⟦194⟧⟨49⟩⟦12⟧⟨50⟩⟦151⟧⟨51⟩
+[University of California, Santa Barbara Library] ⟦261⟧⟨52⟩⟦8⟧⟨53⟩⟦159⟧⟨54⟩⟦150⟧⟨55⟩⟦150⟧⟨56⟩⟦49⟧⟨57⟩⟦50⟧⟨58⟩⟦66⟧⟨59⟩
+[University of California, Santa Barbara Library] ⟨60⟩⟦77⟧⟨61⟩⟦77⟧⟨62⟩⟦240⟧⟨63⟩⟦126⟧⟨64⟩⟦291⟧⟨65⟩⟦239⟧⟨66⟩⟦146⟧⟨67⟩⟦65⟧⟨68⟩⟦37⟧⟨69⟩⟦7⟧⟨70⟩⟦317⟧⟨71⟩
+[USNS Mission Santa Barbara (T-AO-131)] ⟦225⟧⟨72⟩⟦33⟧⟨73⟩⟦232⟧⟨74⟩⟦292⟧⟨75⟩⟦323⟧⟨76⟩
+[USNS Mission Santa Barbara (T-AO-131)] ⟨77⟩⟦296⟧⟨78⟩⟦318⟧⟨79⟩⟦293⟧⟨80⟩⟦316⟧⟨81⟩⟦47⟧⟨82⟩
+[USNS Mission Santa Barbara (T-AO-131)] ⟦140⟧⟨83⟩⟦232⟧⟨84⟩⟦264⟧⟨85⟩⟦315⟧⟨86⟩⟦315⟧⟨87⟩⟦1⟧⟨88⟩⟦4⟧⟨89⟩
+[USNS Mission Santa Barbara (T-AO-131)] ⟨90⟩⟦26⟧⟨91⟩⟦157⟧⟨92⟩⟦236⟧⟨93⟩⟦169⟧⟨94⟩⟦163⟧⟨95⟩⟦205⟧⟨96⟩⟦57⟧⟨97⟩
+[Santa Barbara High School] ⟦211⟧⟨98⟩⟦110⟧⟨99⟩⟦110⟧⟨100⟩⟦246⟧⟨101⟩⟦86⟧⟨102⟩⟦18⟧⟨103⟩⟦34⟧⟨104⟩⟦59⟧⟨105⟩⟦205⟧⟨106⟩⟦57⟧⟨107⟩⟦176⟧⟨108⟩⟦176⟧⟨109⟩⟦284⟧⟨110⟩
+[Santa Barbara High School] ⟨111⟩⟦270⟧⟨112⟩⟦218⟧⟨113⟩⟦57⟧⟨114⟩⟦120⟧⟨115⟩⟦219⟧⟨116⟩
+[Santa Barbara High School] ⟨117⟩⟦245⟧⟨118⟩⟦75⟧⟨119⟩⟦305⟧⟨120⟩⟦218⟧⟨121⟩⟦285⟧⟨122⟩⟦217⟧⟨123⟩⟦241⟧⟨124⟩⟦63⟧⟨125⟩⟦205⟧⟨126⟩
+[Santa Barbara High School] ⟨127⟩⟦168⟧⟨128⟩⟦119⟧⟨129⟩⟦61⟧⟨130⟩⟦83⟧⟨131⟩⟦43⟧⟨132⟩⟦139⟧⟨133⟩
+[Santa Barbara High School] ⟨134⟩⟦298⟧⟨135⟩⟦208⟧⟨136⟩⟦40⟧⟨137⟩⟦91⟧⟨138⟩⟦200⟧⟨139⟩⟦187⟧⟨140⟩⟦62⟧⟨141⟩⟦226⟧⟨142⟩
+[Hamdard University] ⟦107⟧⟨143⟩⟦311⟧⟨144⟩⟦28⟧⟨145⟩⟦196⟧⟨146⟩⟦310⟧⟨147⟩⟦60⟧⟨148⟩⟦60⟧⟨149⟩⟦128⟧⟨150⟩⟦117⟧⟨151⟩⟦175⟧⟨152⟩
+[Hamdard University] ⟨153⟩⟦274⟧⟨154⟩⟦179⟧⟨155⟩⟦253⟧⟨156⟩
+[Hamdard University] ⟦106⟧⟨157⟩⟦250⟧⟨158⟩⟦114⟧⟨159⟩⟦108⟧⟨160⟩⟦90⟧⟨161⟩⟦175⟧⟨162⟩
+[Hamdard University] ⟨163⟩⟦128⟧⟨164⟩⟦107⟧⟨165⟩⟦258⟧⟨166⟩⟦196⟧⟨167⟩⟦310⟧⟨168⟩⟦21⟧⟨169⟩⟦59⟧⟨170⟩⟦51⟧⟨171⟩⟦173⟧⟨172⟩⟦35⟧⟨173⟩
+[Erno S. Daniel] ⟦92⟧⟨174⟩⟦93⟧⟨175⟩⟦42⟧⟨176⟩⟦156⟧⟨177⟩⟦224⟧⟨178⟩⟦54⟧⟨179⟩⟦54⟧⟨180⟩
+[Erno S. Daniel] ⟨181⟩⟦112⟧⟨182⟩⟦82⟧⟨183⟩
+[Erno S. Daniel] ⟨184⟩⟦275⟧⟨185⟩⟦205⟧⟨186⟩⟦281⟧⟨187⟩
+[Erno S. Daniel] ⟨188⟩⟦235⟧⟨189⟩⟦297⟧⟨190⟩⟦234⟧⟨191⟩⟦234⟧⟨192⟩⟦36⟧⟨193⟩⟦36⟧⟨194⟩⟦213⟧⟨195⟩⟦319⟧⟨196⟩⟦156⟧⟨197⟩⟦197⟧⟨198⟩⟦299⟧⟨199⟩⟦184⟧⟨200⟩⟦223⟧⟨201⟩⟦156⟧⟨202⟩
+[Erno S. Daniel] ⟨203⟩⟦109⟧⟨204⟩⟦36⟧⟨205⟩⟦27⟧⟨206⟩⟦178⟧⟨207⟩⟦297⟧⟨208⟩⟦297⟧⟨209⟩⟦89⟧⟨210⟩⟦39⟧⟨211⟩⟦48⟧⟨212⟩⟦53⟧⟨213⟩⟦156⟧⟨214⟩⟦313⟧⟨215⟩
+[Erno S. Daniel] ⟨216⟩⟦23⟧⟨217⟩⟦142⟧⟨218⟩⟦256⟧⟨219⟩⟦156⟧⟨220⟩⟦74⟧⟨221⟩⟦74⟧⟨222⟩⟦294⟧⟨223⟩⟦57⟧⟨224⟩⟦205⟧⟨225⟩
+[University of California, Santa Barbara] ⟦294⟧⟨226⟩⟦57⟧⟨227⟩⟦205⟧⟨228⟩⟦306⟧⟨229⟩⟦307⟧⟨230⟩⟦29⟧⟨231⟩⟦196⟧⟨232⟩⟦310⟧⟨233⟩⟦237⟧⟨234⟩⟦60⟧⟨235⟩⟦57⟧⟨236⟩⟦231⟧⟨237⟩
+[University of California, Santa Barbara] ⟦262⟧⟨238⟩⟦59⟧⟨239⟩⟦17⟧⟨240⟩⟦34⟧⟨241⟩⟦219⟧⟨242⟩⟦116⟧⟨243⟩⟦57⟧⟨244⟩⟦309⟧⟨245⟩⟦13⟧⟨246⟩⟦159⟧⟨247⟩⟦205⟧⟨248⟩⟦5⟧⟨249⟩⟦159⟧⟨250⟩⟦149⟧⟨251⟩
+[University of California, Santa Barbara] ⟨252⟩⟦122⟧⟨253⟩⟦199⟧⟨254⟩⟦41⟧⟨255⟩⟦233⟧⟨256⟩⟦67⟧⟨257⟩⟦307⟧⟨258⟩⟦57⟧⟨259⟩⟦231⟧⟨260⟩⟦289⟧⟨261⟩⟦90⟧⟨262⟩⟦59⟧⟨263⟩⟦286⟧⟨264⟩⟦231⟧⟨265⟩
+[Santa Barbara International Marathon] ⟦279⟧⟨266⟩⟦105⟧⟨267⟩⟦38⟧⟨268⟩⟦190⟧⟨269⟩⟦181⟧⟨270⟩⟦181⟧⟨271⟩⟦103⟧⟨272⟩⟦57⟧⟨273⟩⟦205⟧⟨274⟩⟦57⟧⟨275⟩
+[Santa Barbara International Marathon] ⟦254⟧⟨276⟩⟦190⟧⟨277⟩⟦79⟧⟨278⟩
+[Santa Barbara International Marathon] ⟨279⟩⟦259⟧⟨280⟩⟦325⟧⟨281⟩⟦276⟧⟨282⟩⟦268⟧⟨283⟩⟦111⟧⟨284⟩⟦249⟧⟨285⟩⟦97⟧⟨286⟩⟦147⟧⟨287⟩⟦102⟧⟨288⟩⟦170⟧⟨289⟩
+[Santa Barbara International Marathon] ⟦201⟧⟨290⟩⟦127⟧⟨291⟩⟦242⟧⟨292⟩⟦64⟧⟨293⟩⟦85⟧⟨294⟩⟦85⟧⟨295⟩⟦272⟧⟨296⟩⟦190⟧⟨297⟩⟦76⟧⟨298⟩⟦287⟧⟨299⟩⟦84⟧⟨300⟩
+[Santa Barbara International Marathon] ⟨301⟩⟦247⟧⟨302⟩⟦25⟧⟨303⟩⟦153⟧⟨304⟩⟦205⟧⟨305⟩
+[Santa Barbara International Marathon] ⟨306⟩⟦22⟧⟨307⟩⟦325⟧⟨308⟩⟦272⟧⟨309⟩⟦190⟧⟨310⟩⟦202⟧⟨311⟩⟦154⟧⟨312⟩⟦154⟧⟨313⟩
+[Santa Barbara International Marathon] ⟦280⟧⟨314⟩⟦74⟧⟨315⟩⟦20⟧⟨316⟩⟦188⟧⟨317⟩
+[KUSC] ⟦135⟧⟨318⟩⟦15⟧⟨319⟩⟦158⟧⟨320⟩⟦24⟧⟨321⟩⟦148⟧⟨322⟩⟦165⟧⟨323⟩⟦191⟧⟨324⟩⟦227⟧⟨325⟩⟦56⟧⟨326⟩⟦87⟧⟨327⟩⟦88⟧⟨328⟩⟦57⟧⟨329⟩⟦309⟧⟨330⟩
+[KUSC] ⟦135⟧⟨331⟩⟦294⟧⟨332⟩⟦223⟧⟨333⟩⟦228⟧⟨334⟩⟦229⟧⟨335⟩⟦115⟧⟨336⟩⟦227⟧⟨337⟩⟦2⟧⟨338⟩⟦204⟧⟨339⟩⟦227⟧⟨340⟩⟦133⟧⟨341⟩
+[KUSC] ⟨342⟩⟦257⟧⟨343⟩⟦165⟧⟨344⟩⟦227⟧⟨345⟩⟦244⟧⟨346⟩⟦73⟧⟨347⟩⟦271⟧⟨348⟩⟦191⟧⟨349⟩⟦227⟧⟨350⟩⟦252⟧⟨351⟩
+[KUSC] ⟨352⟩⟦96⟧⟨353⟩⟦186⟧⟨354⟩⟦191⟧⟨355⟩⟦227⟧⟨356⟩⟦129⟧⟨357⟩⟦214⟧⟨358⟩⟦277⟧⟨359⟩⟦227⟧⟨360⟩⟦131⟧⟨361⟩⟦99⟧⟨362⟩⟦205⟧⟨363⟩
+[KUSC] ⟦290⟧⟨364⟩⟦300⟧⟨365⟩⟦129⟧⟨366⟩⟦134⟧⟨367⟩⟦314⟧⟨368⟩⟦195⟧⟨369⟩⟦227⟧⟨370⟩⟦205⟧⟨371⟩⟦30⟧⟨372⟩⟦195⟧⟨373⟩⟦130⟧⟨374⟩⟦185⟧⟨375⟩⟦136⟧⟨376⟩⟦185⟧⟨377⟩⟦134⟧⟨378⟩⟦131⟧⟨379⟩⟦132⟧⟨380⟩⟦198⟧⟨381⟩⟦212⟧⟨382⟩⟦227⟧⟨383⟩
+[KUSC] ⟦260⟧⟨384⟩⟦143⟧⟨385⟩⟦58⟧⟨386⟩⟦144⟧⟨387⟩
+[Mission Santa Barbara] ⟦163⟧⟨388⟩⟦210⟧⟨389⟩⟦31⟧⟨390⟩⟦162⟧⟨391⟩⟦251⟧⟨392⟩⟦171⟧⟨393⟩⟦182⟧⟨394⟩⟦78⟧⟨395⟩⟦57⟧⟨396⟩
+[Mission Santa Barbara] ⟨397⟩⟦174⟧⟨398⟩⟦79⟧⟨399⟩⟦248⟧⟨400⟩⟦95⟧⟨401⟩⟦78⟧⟨402⟩⟦203⟧⟨403⟩⟦288⟧⟨404⟩⟦162⟧⟨405⟩⟦273⟧⟨406⟩⟦72⟧⟨407⟩⟦255⟧⟨408⟩⟦302⟧⟨409⟩⟦167⟧⟨410⟩⟦177⟧⟨411⟩
+[Mission Santa Barbara] ⟦265⟧⟨412⟩⟦162⟧⟨413⟩⟦267⟧⟨414⟩⟦166⟧⟨415⟩⟦241⟧⟨416⟩⟦63⟧⟨417⟩⟦205⟧⟨418⟩⟦207⟧⟨419⟩
+[Santa Barbara City College] ⟦206⟧⟨420⟩⟦3⟧⟨421⟩⟦32⟧⟨422⟩⟦324⟧⟨423⟩⟦69⟧⟨424⟩⟦67⟧⟨425⟩⟦19⟧⟨426⟩⟦34⟧⟨427⟩⟦59⟧⟨428⟩⟦241⟧⟨429⟩⟦63⟧⟨430⟩⟦205⟧⟨431⟩⟦57⟧⟨432⟩⟦312⟧⟨433⟩
+[Santa Barbara City College] ⟦216⟧⟨434⟩⟦216⟧⟨435⟩⟦64⟧⟨436⟩⟦64⟧⟨437⟩⟦320⟧⟨438⟩⟦320⟧⟨439⟩⟦238⟧⟨440⟩⟦70⟧⟨441⟩⟦16⟧⟨442⟩⟦192⟧⟨443⟩
+[Santa Barbara City College] ⟦243⟧⟨444⟩⟦67⟧⟨445⟩⟦121⟧⟨446⟩⟦189⟧⟨447⟩⟦100⟧⟨448⟩⟦52⟧⟨449⟩⟦308⟧⟨450⟩⟦161⟧⟨451⟩⟦228⟧⟨452⟩⟦230⟧⟨453⟩⟦228⟧⟨454⟩⟦172⟧⟨455⟩⟦172⟧⟨456⟩⟦80⟧⟨457⟩⟦81⟧⟨458⟩⟦71⟧⟨459⟩⟦301⟧⟨460⟩⟦301⟧⟨461⟩⟦193⟧⟨462⟩⟦193⟧⟨463⟩⟦137⟧⟨464⟩⟦138⟧⟨465⟩⟦155⟧⟨466⟩⟦230⟧⟨467⟩⟦104⟧⟨468⟩⟦124⟧⟨469⟩⟦67⟧⟨470⟩⟦67⟧⟨471⟩
+[Santa Barbara City College] ⟦206⟧⟨472⟩⟦278⟧⟨473⟩⟦269⟧⟨474⟩⟦69⟧⟨475⟩⟦68⟧⟨476⟩⟦57⟧⟨477⟩
+[Santa Barbara City College] ⟦243⟧⟨478⟩⟦67⟧⟨479⟩⟦322⟧⟨480⟩⟦123⟧⟨481⟩⟦321⟧⟨482⟩⟦283⟧⟨483⟩⟦282⟧⟨484⟩⟦141⟧⟨485⟩⟦57⟧⟨486⟩⟦205⟧⟨487⟩
+
+[user]
+
+问题：
+Which was founded first, University of California, Santa Barbara or Hamdard University?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

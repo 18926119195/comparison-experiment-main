@@ -1,0 +1,141 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Bucket (TV series)] ⟨186⟩⟦17⟧⟨188⟩⟦180⟧⟨187⟩⟨189⟩⟦20⟧⟨190⟩⟨191⟩⟦67⟧⟦67⟧⟨192⟩⟨193⟩⟦22⟧⟦165⟧⟨195⟩⟦283⟧⟨194⟩⟨196⟩⟦204⟧⟦29⟧⟨197⟩⟨198⟩⟦111⟧⟦111⟧⟨199⟩⟨200⟩⟦237⟧⟨202⟩⟦46⟧⟦46⟧⟨203⟩⟦122⟧⟨201⟩⟨204⟩
+[Bucket (TV series)] ⟦131⟧⟦131⟧ | ⟨205⟩⟨206⟩⟦184⟧⟨207⟩⟨208⟩⟦54⟧⟨209⟩⟦84⟧⟨210⟩⟦52⟧⟨211⟩⟦85⟧⟦131⟧⟨212⟩⟨213⟩⟦128⟧⟨214⟩
+[Lego Harry Potter: Years 1–4] ⟦150⟧
+[Miriam Margolyes] ⟦129⟧⟨399⟩⟦31⟧⟦48⟧⟨401⟩⟦27⟧⟨400⟩⟨402⟩⟦290⟧⟦291⟧⟨403⟩⟦35⟧⟨404⟩⟨405⟩ | ⟦27⟧
+[Miriam Margolyes] ⟦95⟧⟨406⟩⟨407⟩⟦270⟧⟦270⟧⟨408⟩⟨409⟩⟦179⟧⟦167⟧⟦167⟧⟨410⟩⟨411⟩⟨412⟩⟨413⟩⟦193⟧⟦193⟧⟨414⟩⟨415⟩⟦12⟧⟨416⟩⟦96⟧⟨417⟩⟨418⟩⟦203⟧⟨419⟩⟦103⟧⟨420⟩⟦254⟧⟦166⟧⟦166⟧⟨421⟩⟨422⟩⟦159⟧⟨423⟩⟦198⟧⟦79⟧⟦79⟧⟦79⟧⟨425⟩⟨424⟩⟨426⟩
+[Harry Potter and the Deathly Hallows] ⟦175⟧ | ⟦256⟧⟦175⟧
+
+符号表：
+⟦12⟧ = a BAFTA Award
+⟦17⟧ = a four-part British sitcom
+⟦20⟧ = a mother
+⟦22⟧ = a road trip
+⟦27⟧ = actress
+⟦29⟧ = aim
+⟦31⟧ = an English character actress
+⟦35⟧ = artist
+⟦46⟧ = bucket
+⟦48⟧ = character
+⟦52⟧ = co-starred Miriam Margolyes
+⟦54⟧ = comedian Frog Stone
+⟦67⟧ = daughter
+⟦79⟧ = film
+⟦84⟧ = Fran
+⟦85⟧ = Fran's mother
+⟦95⟧ = Her earliest roles
+⟦96⟧ = her role
+⟦103⟧ = Innocence
+⟦111⟧ = items
+⟦122⟧ = list
+⟦128⟧ = Mim
+⟦129⟧ = Miriam Margolyes
+⟦131⟧ = mother
+⟦150⟧ = part
+⟦159⟧ = Professor Sprout
+⟦165⟧ = road
+⟦166⟧ = role
+⟦167⟧ = roles
+⟦175⟧ = series
+⟦179⟧ = several supporting roles
+⟦180⟧ = sitcom
+⟦184⟧ = starred actress
+⟦193⟧ = television
+⟦198⟧ = the "Harry Potter" film series
+⟦203⟧ = The Age
+⟦204⟧ = the aim
+⟦237⟧ = the mother's bucket list
+⟦254⟧ = the role
+⟦256⟧ = The series
+⟦270⟧ = theatre
+⟦283⟧ = trip
+⟦290⟧ = voice
+⟦291⟧ = voice artist
+
+占位符映射：
+⟨186⟩ =  is 
+⟨187⟩ = 
+⟨188⟩ =  British 
+⟨189⟩ =  about 
+⟨190⟩ = 
+⟨191⟩ =  and 
+⟨192⟩ = 
+⟨193⟩ =  on 
+⟨194⟩ = 
+⟨195⟩ =  
+⟨196⟩ =  with 
+⟨197⟩ = 
+⟨198⟩ =  of fulfilling 
+⟨199⟩ = 
+⟨200⟩ =  on 
+⟨201⟩ = 
+⟨202⟩ = 's 
+⟨203⟩ =  
+⟨204⟩ = .
+⟨205⟩ = 
+⟨206⟩ =  was written by and 
+⟨207⟩ = 
+⟨208⟩ =  and 
+⟨209⟩ =  as 
+⟨210⟩ = , and 
+⟨211⟩ =  as 
+⟨212⟩ = 
+⟨213⟩ = , 
+⟨214⟩ = .
+⟨399⟩ = , {'1': ", '2': ", '3': ", '4': "} ( ; born 18 May 1941) is 
+⟨400⟩ = 
+⟨401⟩ =  
+⟨402⟩ =  and 
+⟨403⟩ = 
+⟨404⟩ = 
+⟨405⟩ = .
+⟨406⟩ = 
+⟨407⟩ =  were in 
+⟨408⟩ = 
+⟨409⟩ =  and after 
+⟨410⟩ = 
+⟨411⟩ =  in 
+⟨412⟩ = 
+⟨413⟩ =  and 
+⟨414⟩ = 
+⟨415⟩ =  she won 
+⟨416⟩ =  for 
+⟨417⟩ = 
+⟨418⟩ =  in "
+⟨419⟩ =  of 
+⟨420⟩ = " (1993) and went on to take 
+⟨421⟩ = 
+⟨422⟩ =  of 
+⟨423⟩ =  in 
+⟨424⟩ = 
+⟨425⟩ =  
+⟨426⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The actor of Professor Sprout in "Harry Potter" acted as a mother in a sitcom. In that sitcom, what was the daughter's name?

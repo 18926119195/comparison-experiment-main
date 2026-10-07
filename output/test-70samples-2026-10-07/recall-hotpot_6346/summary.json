@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_6346",
+  "question": "Which hospital, the Psychiatric Institute of Washington or Howard University Hospital, is known for serving the African American community including former slaves?",
+  "expectedAnswer": "Howard University Hospital",
+  "predictedAnswer": "# 路径一：基于医院历史与社区服务对象的直接对比\n\n步骤1：使用⟦126⟧⟦332⟧⟦257⟧，提取 Howard University Hospital 的前身是 Freedmen's Hospital，建于 the site（the previous Griffith Stadium），其历史渊源与“自由民”直接相关。\n\n步骤2：综合⟦124⟧⟦258⟧⟦128⟧⟦339⟧，对比两家医院的服务对象——Howard University Hospital 的前身 Freedmen's Hospital 建立于1862年，旨在为 former slaves（⟦124⟧）、slaves（⟦258⟧）以及获得 freedom（⟦128⟧⟦339⟧）的 African Americans（⟦43⟧）提供医疗服务和 medical treatment（⟦193⟧）。\n\n步骤3：使用⟦279⟧⟦280⟧⟦282⟧，提取 Howard University Hospital 明确“has served the African American community（⟦279⟧）in the area's African-American community（⟦282⟧）”，服务对象直接指向非裔美国人社区。\n\n步骤4：使用⟦346⟧，提取 Psychiatric Institute of Washington 仅被提及为“treatment”，无任何关于服务非裔社区或前奴隶的记录。\n\n结论：Howard University Hospital 是已知服务于非裔美国人社区（包括 former slaves）的医院；Psychiatric Institute of Washington 无相关记录。\n\n---\n\n# 路径二：基于建立目的与历史使命的交叉验证\n\n步骤1：使用⟦286⟧，提取 Howard University Hospital“having been established in 1862 to cater for the medical needs（⟦314⟧）of the thousands（⟦335⟧⟦341⟧）of African Americans（⟦43⟧）who came to Washington D.C.（⟦350⟧）during the Civil War（⟦285⟧）, seeking their freedom（⟦339⟧）”。\n\n步骤2：综合⟦124⟧⟦258⟧⟦128⟧，交叉验证——建立目的中明确包含 former slaves（⟦124⟧）、slaves（⟦258⟧）以及寻求 freedom（⟦128⟧）的人群，与问题中“including former slaves”完全吻合。\n\n步骤3：使用⟦346⟧，对比 Psychiatric Institute of Washington——该机构在材料中仅出现“treatment”一词，无建立目的、服务对象或历史使命的任何描述。\n\n结论：Howard University Hospital 的建立目的直接指向为内战期间来到华盛顿的非裔美国人（包括前奴隶）提供医疗需求；Psychiatric Institute of Washington 无此历史记录。\n\n---\n\n# 路径三：基于材料覆盖度与主题一致性的综合判断\n\n步骤1：使用⟦126⟧⟦332⟧⟦257⟧⟦21⟧，提取 Howard University Hospital 被描述为“a major hospital（⟦21⟧）”，前身 Freedmen's Hospital（⟦126⟧），位于 the site（⟦332⟧⟦257⟧），材料覆盖其历史沿革、服务对象、建立目的等多维度信息。\n\n步骤2：综合⟦279⟧⟦282⟧⟦43⟧⟦124⟧⟦258⟧，交叉验证——多条材料一致指向 Howard University Hospital 与非裔美国人社区（⟦279⟧⟦282⟧⟦43⟧）及前奴隶（⟦124⟧⟦258⟧）之间的服务关系。\n\n步骤3：使用⟦346⟧，对比 Psychiatric Institute of Washington——材料中仅有一条记录且仅涉及“treatment”，无任何与非裔社区、前奴隶或历史使命相关的信息。\n\n结论：Howard University Hospital 在材料中被多维度、多材料交叉验证为服务于非裔美国人社区（包括前奴隶）的医院；Psychiatric Institute of Washington 缺乏任何相关证据。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨269⟩⟦126⟧⟨270⟩⟨271⟩⟦21⟧⟨272⟩⟨273⟩⟨274⟩⟨275⟩⟦332⟧⟦257⟧⟨276⟩",
+  "nounCount": 506,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 8153,
+    "completion_tokens": 449,
+    "total_tokens": 8602,
+    "prompt_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "prompt_cache_hit_tokens": 7936,
+    "prompt_cache_miss_tokens": 217
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1542,
+    "completion_tokens": 831,
+    "total_tokens": 2373,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1542
+  }
+}

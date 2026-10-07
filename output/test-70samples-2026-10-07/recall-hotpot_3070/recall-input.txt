@@ -1,0 +1,161 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = -e
+⟦2⟧ = (Pashto
+⟦3⟧ = (Persian
+⟦4⟧ = 10 August
+⟦5⟧ = 12 September
+⟦6⟧ = 14 September
+⟦7⟧ = 17 September
+⟦8⟧ = 18 September
+⟦9⟧ = 21 September
+⟦10⟧ = 27 January
+⟦11⟧ = a logistics and supply services company
+⟦12⟧ = a mineral deposit
+⟦13⟧ = a series
+⟦14⟧ = Afghanistan
+⟦15⟧ = Afghanistan A
+⟦16⟧ = Afghanistan's first national park
+⟦17⟧ = Afghanistan's squad
+⟦18⟧ = Amo Region
+⟦19⟧ = an Afghan cricketer
+⟦20⟧ = approximately 3000 m
+⟦21⟧ = Arif Khan
+⟦22⟧ = auction
+⟦23⟧ = Bamiyan
+⟦24⟧ = Bamyan
+⟦25⟧ = Bamyan Province
+⟦26⟧ = Band-e Amir National Park
+⟦27⟧ = Band-e-Amir Dragons
+⟦28⟧ = Band-e-Amir Region
+⟦29⟧ = central Afghanistan
+⟦30⟧ = centre
+⟦31⟧ = class
+⟦32⟧ = company
+⟦33⟧ = competition
+⟦34⟧ = cricket
+⟦35⟧ = cricketer
+⟦36⟧ = dams
+⟦37⟧ = Dari
+⟦38⟧ = Daykundi
+⟦39⟧ = debut
+⟦40⟧ = deposit
+⟦41⟧ = elevation
+⟦42⟧ = Fitratullah Khawari
+⟦43⟧ = his List
+⟦44⟧ = his List A debut
+⟦45⟧ = his T20 debut
+⟦46⟧ = his Twenty20 debut
+⟦47⟧ = Ikram Faizi
+⟦48⟧ = Javeed Khan
+⟦49⟧ = Kapisa
+⟦50⟧ = lakes
+⟦51⟧ = List
+⟦52⟧ = logistics
+⟦53⟧ = Maidan Wardak
+⟦54⟧ = mineral
+⟦55⟧ = Mis Ainak Region
+⟦56⟧ = mountains
+⟦57⟧ = Muslim Musa
+⟦58⟧ = natural dams
+⟦59⟧ = Panjshir
+⟦60⟧ = Paragon Group
+⟦61⟧ = part
+⟦62⟧ = Parwan
+⟦63⟧ = provinces
+⟦64⟧ = Qasim Oryakhail
+⟦65⟧ = Samim Sultani
+⟦66⟧ = series
+⟦67⟧ = services
+⟦68⟧ = Shahidullah
+⟦69⟧ = six deep blue lakes
+⟦70⟧ = six first-class cricket teams
+⟦71⟧ = squad
+⟦72⟧ = supply
+⟦73⟧ = team
+⟦74⟧ = teams
+⟦75⟧ = the 2014 Under-19 Cricket World Cup
+⟦76⟧ = the 2016 Under-19 Cricket World Cup
+⟦77⟧ = the 2017 Ghazi Amanullah Khan Regional One Day Tournament
+⟦78⟧ = the 2017 Shpageeza Cricket League
+⟦79⟧ = the 2017 Shpageeza team auction
+⟦80⟧ = the Bamyan Province
+⟦81⟧ = the Band-e Amir
+⟦82⟧ = the Band-e-Amir Dragons team
+⟦83⟧ = the centre
+⟦84⟧ = the famous Buddhas
+⟦85⟧ = the following provinces
+⟦86⟧ = the Hindu Kush mountains
+⟦87⟧ = The lakes
+⟦88⟧ = The Region
+⟦89⟧ = The team
+⟦90⟧ = their tour
+⟦91⟧ = this competition
+⟦92⟧ = tour
+⟦93⟧ = Tournament
+⟦94⟧ = travertine
+⟦95⟧ = west
+⟦96⟧ = Zimbabwe
+⟦97⟧ = Zimbabwe A
+⟦98⟧ = امیر شاماران‎ ‎
+⟦99⟧ = بند
+⟦100⟧ = بند امير ښاماران‎ "Band-e-Amīr Khāmārān / Shāmārān
+⟦101⟧ = بند امیر‎ ‎
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Band-e Amir National Park] ⟦26⟧⟨1⟩⟦3⟧⟨2⟩⟦101⟧⟨3⟩⟦16⟧⟨4⟩⟦80⟧⟨5⟩
+[Band-e Amir National Park] ⟨6⟩⟦13⟧⟨7⟩⟦66⟧⟨8⟩⟦69⟧⟨9⟩⟦50⟧⟨10⟩⟦58⟧⟨11⟩⟦36⟧⟨12⟩⟦94⟧⟨13⟩⟦94⟧⟨14⟩⟦12⟧⟨15⟩⟦54⟧⟨16⟩⟦40⟧⟨17⟩
+[Band-e Amir National Park] ⟦87⟧⟨18⟩⟦50⟧⟨19⟩⟦86⟧⟨20⟩⟦56⟧⟨21⟩⟦29⟧⟨22⟩⟦20⟧⟨23⟩⟦41⟧⟨24⟩⟦41⟧⟨25⟩⟦95⟧⟨26⟩⟦95⟧⟨27⟩⟦84⟧⟨28⟩⟦23⟧⟨29⟩
+[Shahidullah (cricketer)] ⟦68⟧⟨30⟩⟦19⟧⟨31⟩⟦35⟧⟨32⟩
+[Shahidullah (cricketer)] ⟨33⟩⟦44⟧⟨34⟩⟦51⟧⟨35⟩⟦39⟧⟨36⟩⟦15⟧⟨37⟩⟦97⟧⟨38⟩⟦90⟧⟨39⟩⟦92⟧⟨40⟩⟦96⟧⟨41⟩⟦10⟧⟨42⟩
+[Shahidullah (cricketer)] ⟨43⟩⟦43⟧⟨44⟩⟦51⟧⟨45⟩⟦39⟧⟨46⟩⟦17⟧⟨47⟩⟦71⟧⟨48⟩⟦75⟧⟨49⟩
+[Shahidullah (cricketer)] ⟨50⟩⟦46⟧⟨51⟩⟦39⟧⟨52⟩⟦27⟧⟨53⟩⟦78⟧⟨54⟩⟦5⟧⟨55⟩
+[Arif Khan (cricketer)] ⟦21⟧⟨56⟩⟦19⟧⟨57⟩⟦35⟧⟨58⟩
+[Arif Khan (cricketer)] ⟨59⟩⟦44⟧⟨60⟩⟦51⟧⟨61⟩⟦39⟧⟨62⟩⟦28⟧⟨63⟩⟦77⟧⟨64⟩⟦93⟧⟨65⟩⟦4⟧⟨66⟩
+[Arif Khan (cricketer)] ⟨67⟩⟦46⟧⟨68⟩⟦39⟧⟨69⟩⟦27⟧⟨70⟩⟦78⟧⟨71⟩⟦7⟧⟨72⟩
+[Fitratullah Khawari] ⟦42⟧⟨73⟩⟦19⟧⟨74⟩⟦35⟧⟨75⟩
+[Fitratullah Khawari] ⟨76⟩⟦44⟧⟨77⟩⟦51⟧⟨78⟩⟦39⟧⟨79⟩⟦55⟧⟨80⟩⟦77⟧⟨81⟩⟦93⟧⟨82⟩⟦4⟧⟨83⟩
+[Fitratullah Khawari] ⟨84⟩⟦46⟧⟨85⟩⟦39⟧⟨86⟩⟦27⟧⟨87⟩⟦78⟧⟨88⟩⟦8⟧⟨89⟩
+[Samim Sultani] ⟦65⟧⟨90⟩⟦19⟧⟨91⟩⟦35⟧⟨92⟩
+[Samim Sultani] ⟨93⟩⟦46⟧⟨94⟩⟦39⟧⟨95⟩⟦27⟧⟨96⟩⟦78⟧⟨97⟩⟦6⟧⟨98⟩
+[Javeed Khan] ⟦48⟧⟨99⟩⟦19⟧⟨100⟩⟦35⟧⟨101⟩
+[Javeed Khan] ⟨102⟩⟦46⟧⟨103⟩⟦39⟧⟨104⟩⟦27⟧⟨105⟩⟦78⟧⟨106⟩⟦9⟧⟨107⟩
+[Muslim Musa] ⟦57⟧⟨108⟩⟦19⟧⟨109⟩⟦35⟧⟨110⟩
+[Muslim Musa] ⟨111⟩⟦44⟧⟨112⟩⟦51⟧⟨113⟩⟦39⟧⟨114⟩⟦18⟧⟨115⟩⟦77⟧⟨116⟩⟦93⟧⟨117⟩⟦4⟧⟨118⟩
+[Muslim Musa] ⟨119⟩⟦43⟧⟨120⟩⟦51⟧⟨121⟩⟦39⟧⟨122⟩⟦61⟧⟨123⟩⟦61⟧⟨124⟩⟦17⟧⟨125⟩⟦71⟧⟨126⟩⟦76⟧⟨127⟩
+[Muslim Musa] ⟨128⟩⟦46⟧⟨129⟩⟦39⟧⟨130⟩⟦27⟧⟨131⟩⟦78⟧⟨132⟩⟦5⟧⟨133⟩
+[Ikram Faizi] ⟦47⟧⟨134⟩⟦19⟧⟨135⟩⟦35⟧⟨136⟩
+[Ikram Faizi] ⟨137⟩⟦46⟧⟨138⟩⟦39⟧⟨139⟩⟦27⟧⟨140⟩⟦78⟧⟨141⟩⟦6⟧⟨142⟩
+[Ikram Faizi] ⟨143⟩⟦45⟧⟨144⟩⟦39⟧⟨145⟩⟦61⟧⟨146⟩⟦61⟧⟨147⟩⟦17⟧⟨148⟩⟦71⟧⟨149⟩⟦76⟧⟨150⟩
+[Qasim Oryakhail] ⟦64⟧⟨151⟩⟦19⟧⟨152⟩⟦35⟧⟨153⟩
+[Qasim Oryakhail] ⟨154⟩⟦46⟧⟨155⟩⟦39⟧⟨156⟩⟦27⟧⟨157⟩⟦78⟧⟨158⟩⟦5⟧⟨159⟩
+[Band-e-Amir Dragons] ⟨160⟩⟦1⟧⟨161⟩⟦2⟧⟨162⟩⟦100⟧⟨163⟩⟦37⟧⟨164⟩⟦99⟧⟨165⟩⟦98⟧⟨166⟩⟦28⟧⟨167⟩⟦70⟧⟨168⟩⟦31⟧⟨169⟩⟦34⟧⟨170⟩⟦74⟧⟨171⟩⟦14⟧⟨172⟩
+[Band-e-Amir Dragons] ⟨173⟩⟦79⟧⟨174⟩⟦73⟧⟨175⟩⟦22⟧⟨176⟩⟦82⟧⟨177⟩⟦73⟧⟨178⟩⟦60⟧⟨179⟩⟦11⟧⟨180⟩⟦52⟧⟨181⟩⟦72⟧⟨182⟩⟦67⟧⟨183⟩⟦32⟧⟨184⟩⟦91⟧⟨185⟩⟦33⟧⟨186⟩
+[Band-e-Amir Dragons] ⟦88⟧⟨187⟩⟦85⟧⟨188⟩⟦63⟧⟨189⟩⟦83⟧⟨190⟩⟦30⟧⟨191⟩⟦14⟧⟨192⟩⟦53⟧⟨193⟩⟦24⟧⟨194⟩⟦38⟧⟨195⟩⟦59⟧⟨196⟩⟦49⟧⟨197⟩⟦62⟧⟨198⟩
+[Band-e-Amir Dragons] ⟦89⟧⟨199⟩⟦73⟧⟨200⟩⟦81⟧⟨201⟩⟦13⟧⟨202⟩⟦66⟧⟨203⟩⟦69⟧⟨204⟩⟦50⟧⟨205⟩⟦25⟧⟨206⟩
+
+[user]
+
+问题：
+Band-e-Amir Dragons is named after the lakes in which Afghan national park?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,336 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , original non-fiction books
+⟦2⟧ = "Digest" editors
+⟦3⟧ = "Fortune
+⟦4⟧ = "Inc.
+⟦5⟧ = "Out
+⟦6⟧ = "Out" magazine
+⟦7⟧ = "Reader's Digest
+⟦8⟧ = "The Advocate
+⟦9⟧ = "The Wall Street Journal
+⟦10⟧ = "Urdu Digest
+⟦11⟧ = (Italian
+⟦12⟧ = a 1979 novel
+⟦13⟧ = a book
+⟦14⟧ = a considerable minority
+⟦15⟧ = a frame story
+⟦16⟧ = a gay and lesbian travel magazine
+⟦17⟧ = a large variety
+⟦18⟧ = a monthly Urdu magazine
+⟦19⟧ = a new book
+⟦20⟧ = a Riot
+⟦21⟧ = A self-described "shoe leather reporter
+⟦22⟧ = a series
+⟦23⟧ = a sports magazine
+⟦24⟧ = a stand-alone title
+⟦25⟧ = a supplement
+⟦26⟧ = a traditional way
+⟦27⟧ = a traveler
+⟦28⟧ = a United States publisher
+⟦29⟧ = a winter's night
+⟦30⟧ = adventure
+⟦31⟧ = adventure stories
+⟦32⟧ = an American general-interest family magazine
+⟦33⟧ = an American multi-platform media and publishing company
+⟦34⟧ = an American pilot
+⟦35⟧ = An article
+⟦36⟧ = an English translation
+⟦37⟧ = an opportunity
+⟦38⟧ = animals
+⟦39⟧ = anthology
+⟦40⟧ = appearance
+⟦41⟧ = article
+⟦42⟧ = articles
+⟦43⟧ = award
+⟦44⟧ = Better Homes
+⟦45⟧ = book
+⟦46⟧ = books
+⟦47⟧ = building
+⟦48⟧ = bureau
+⟦49⟧ = business
+⟦50⟧ = Business Week
+⟦51⟧ = Chappaqua
+⟦52⟧ = chapter
+⟦53⟧ = character
+⟦54⟧ = character building
+⟦55⟧ = civil liberties
+⟦56⟧ = collections
+⟦57⟧ = company
+⟦58⟧ = consciousness
+⟦59⟧ = constitutional law
+⟦60⟧ = consumer
+⟦61⟧ = coverage
+⟦62⟧ = crime
+⟦63⟧ = defense
+⟦64⟧ = depth
+⟦65⟧ = DeWitt Wallace
+⟦66⟧ = digest
+⟦67⟧ = direct mail
+⟦68⟧ = distinction
+⟦69⟧ = duty
+⟦70⟧ = Each chapter
+⟦71⟧ = Each volume
+⟦72⟧ = editions
+⟦73⟧ = editor
+⟦74⟧ = editors
+⟦75⟧ = education
+⟦76⟧ = ending
+⟦77⟧ = Eugene Hilburn "Gene" Methvin
+⟦78⟧ = family
+⟦79⟧ = fans
+⟦80⟧ = fiction
+⟦81⟧ = first digest
+⟦82⟧ = football
+⟦83⟧ = Football Digest
+⟦84⟧ = football journalism
+⟦85⟧ = form
+⟦86⟧ = format
+⟦87⟧ = four or five current bestselling novels
+⟦88⟧ = frame
+⟦89⟧ = full-length
+⟦90⟧ = Gardens
+⟦91⟧ = groups
+⟦92⟧ = half
+⟦93⟧ = hardcover
+⟦94⟧ = hardcover anthology collections
+⟦95⟧ = hardcover fiction anthology books
+⟦96⟧ = health
+⟦97⟧ = His articles
+⟦98⟧ = history
+⟦99⟧ = household
+⟦100⟧ = household incomes
+⟦101⟧ = husband
+⟦102⟧ = idea
+⟦103⟧ = ideology
+⟦104⟧ = Inc.
+⟦105⟧ = incomes
+⟦106⟧ = integration
+⟦107⟧ = interest
+⟦108⟧ = international literary stories
+⟦109⟧ = international terrorist groups
+⟦110⟧ = Italo Calvino
+⟦111⟧ = its 48 editions
+⟦112⟧ = Its appearance
+⟦113⟧ = Its works
+⟦114⟧ = Its writings
+⟦115⟧ = January
+⟦116⟧ = journalism
+⟦117⟧ = journalist
+⟦118⟧ = Kremlin politics
+⟦119⟧ = Lahore
+⟦120⟧ = law
+⟦121⟧ = leather
+⟦122⟧ = length
+⟦123⟧ = LGBT travel topics
+⟦124⟧ = liberties
+⟦125⟧ = life
+⟦126⟧ = Lila Bell Wallace
+⟦127⟧ = magazine
+⟦128⟧ = magazine journalism
+⟦129⟧ = magazines
+⟦130⟧ = mail
+⟦131⟧ = many years
+⟦132⟧ = media
+⟦133⟧ = Mediamark Research
+⟦134⟧ = Methvin
+⟦135⟧ = mid-1970s
+⟦136⟧ = Midtown Manhattan
+⟦137⟧ = military or political topics
+⟦138⟧ = minority
+⟦139⟧ = models
+⟦140⟧ = more readers
+⟦141⟧ = more than 100 articles
+⟦142⟧ = more than 100 million readers
+⟦143⟧ = Most volumes
+⟦144⟧ = narrative
+⟦145⟧ = national integration
+⟦146⟧ = New York City
+⟦147⟧ = newspapers
+⟦148⟧ = NFL
+⟦149⟧ = night
+⟦150⟧ = nonfiction
+⟦151⟧ = nonfiction books
+⟦152⟧ = novel
+⟦153⟧ = novels
+⟦154⟧ = November
+⟦155⟧ = ones
+⟦156⟧ = opportunity
+⟦157⟧ = organized crime
+⟦158⟧ = Pakistan
+⟦159⟧ = Pakistanis
+⟦160⟧ = part
+⟦161⟧ = person
+⟦162⟧ = photography
+⟦163⟧ = pilot
+⟦164⟧ = politics
+⟦165⟧ = posture
+⟦166⟧ = process
+⟦167⟧ = professional American football
+⟦168⟧ = Professional Journalists
+⟦169⟧ = public service
+⟦170⟧ = publication
+⟦171⟧ = publisher
+⟦172⟧ = publishers
+⟦173⟧ = RDA
+⟦174⟧ = reader
+⟦175⟧ = Reader's Digest
+⟦176⟧ = Reader's Digest Press
+⟦177⟧ = readers
+⟦178⟧ = relations
+⟦179⟧ = religious Pakistani life
+⟦180⟧ = reporter
+⟦181⟧ = role
+⟦182⟧ = science
+⟦183⟧ = science, technology, history, animals, education, health, positive thinking and business role models
+⟦184⟧ = Se una notte d'inverno un viaggiatore
+⟦185⟧ = second person
+⟦186⟧ = section
+⟦187⟧ = sections
+⟦188⟧ = self
+⟦189⟧ = senior editor
+⟦190⟧ = September
+⟦191⟧ = series
+⟦192⟧ = service
+⟦193⟧ = shoe
+⟦194⟧ = shorter form
+⟦195⟧ = sports
+⟦196⟧ = stories
+⟦197⟧ = story
+⟦198⟧ = subscription
+⟦199⟧ = subscriptions
+⟦200⟧ = supplement
+⟦201⟧ = technology
+⟦202⟧ = the "Reader's Digest" idea
+⟦203⟧ = the "Reader's Digest" Washington, D.C., bureau
+⟦204⟧ = the American general interest monthly family magazine
+⟦205⟧ = the anthology format
+⟦206⟧ = the best-selling consumer magazine
+⟦207⟧ = the better-known Reader's Digest Condensed Books
+⟦208⟧ = the book
+⟦209⟧ = The company
+⟦210⟧ = the coveted award
+⟦211⟧ = the distinction
+⟦212⟧ = the duty
+⟦213⟧ = the ending
+⟦214⟧ = the fans
+⟦215⟧ = the first part
+⟦216⟧ = the first publication
+⟦217⟧ = The first section
+⟦218⟧ = the form
+⟦219⟧ = the ideology
+⟦220⟧ = the Italian writer
+⟦221⟧ = the January
+⟦222⟧ = the last 53 years
+⟦223⟧ = The magazine
+⟦224⟧ = the mid-1970s
+⟦225⟧ = the National Football League
+⟦226⟧ = the next chapter
+⟦227⟧ = The postmodernist narrative
+⟦228⟧ = the previous ones
+⟦229⟧ = the process
+⟦230⟧ = the publishers
+⟦231⟧ = the reader
+⟦232⟧ = the Reader's Digest Association
+⟦233⟧ = The Reader's Digest Condensed Books
+⟦234⟧ = The Reader's Digest Select Editions
+⟦235⟧ = the Reds
+⟦236⟧ = The second half
+⟦237⟧ = the Society
+⟦238⟧ = the U.S. Supreme Court
+⟦239⟧ = the United States
+⟦240⟧ = thinking
+⟦241⟧ = Thomas Y. Crowell Co.
+⟦242⟧ = three, four, or six) current best-selling novels
+⟦243⟧ = times
+⟦244⟧ = title
+⟦245⟧ = TMBI
+⟦246⟧ = topics
+⟦247⟧ = translation
+⟦248⟧ = translations
+⟦249⟧ = travel
+⟦250⟧ = traveler
+⟦251⟧ = Trusted Media Brands, Inc.
+⟦252⟧ = two sections
+⟦253⟧ = U.S. defense posture
+⟦254⟧ = U.S.-Soviet relations
+⟦255⟧ = Urdu
+⟦256⟧ = Urdu Digest
+⟦257⟧ = variety
+⟦258⟧ = volume
+⟦259⟧ = volumes
+⟦260⟧ = way
+⟦261⟧ = White Plains
+⟦262⟧ = wife
+⟦263⟧ = William Weaver
+⟦264⟧ = winter
+⟦265⟧ = works
+⟦266⟧ = writer
+⟦267⟧ = writings
+⟦268⟧ = year
+⟦269⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Urdu Digest] ⟦256⟧⟨1⟩⟦255⟧⟨2⟩⟦18⟧⟨3⟩⟦127⟧⟨4⟩⟦158⟧⟨5⟩
+[Urdu Digest] ⟨6⟩⟦81⟧⟨7⟩⟦66⟧⟨8⟩⟦158⟧⟨9⟩⟦154⟧⟨10⟩⟦119⟧⟨11⟩
+[Urdu Digest] ⟦112⟧⟨12⟩⟦40⟧⟨13⟩⟦175⟧⟨14⟩
+[Urdu Digest] ⟦114⟧⟨15⟩⟦267⟧⟨16⟩⟦26⟧⟨17⟩⟦260⟧⟨18⟩⟦179⟧⟨19⟩⟦125⟧⟨20⟩⟦17⟧⟨21⟩⟦257⟧⟨22⟩⟦246⟧⟨23⟩⟦246⟧⟨24⟩
+[Urdu Digest] ⟦10⟧⟨25⟩⟦212⟧⟨26⟩⟦69⟧⟨27⟩⟦53⟧⟨28⟩⟦54⟧⟨29⟩⟦47⟧⟨30⟩⟦58⟧⟨31⟩⟦58⟧⟨32⟩⟦159⟧⟨33⟩⟦222⟧⟨34⟩⟦269⟧⟨35⟩
+[Urdu Digest] ⟦223⟧⟨36⟩⟦127⟧⟨37⟩⟦219⟧⟨38⟩⟦103⟧⟨39⟩⟦158⟧⟨40⟩⟦145⟧⟨41⟩⟦106⟧⟨42⟩
+[Urdu Digest] ⟦10⟧⟨43⟩⟦248⟧⟨44⟩⟦248⟧⟨45⟩⟦108⟧⟨46⟩⟦196⟧⟨47⟩⟦30⟧⟨48⟩⟦31⟧⟨49⟩⟦196⟧⟨50⟩⟦196⟧⟨51⟩⟦196⟧⟨52⟩⟦42⟧⟨53⟩⟦42⟧⟨54⟩⟦182⟧⟨55⟩⟦183⟧⟨56⟩⟦201⟧⟨57⟩⟦98⟧⟨58⟩⟦38⟧⟨59⟩⟦75⟧⟨60⟩⟦96⟧⟨61⟩⟦240⟧⟨62⟩⟦49⟧⟨63⟩⟦181⟧⟨64⟩⟦139⟧⟨65⟩
+[Trusted Media Brands, Inc.] ⟦251⟧⟨66⟩⟦245⟧⟨67⟩⟦232⟧⟨68⟩⟦104⟧⟨69⟩⟦173⟧⟨70⟩⟦33⟧⟨71⟩⟦132⟧⟨72⟩⟦57⟧⟨73⟩⟦146⟧⟨74⟩⟦261⟧⟨75⟩
+[Trusted Media Brands, Inc.] ⟦209⟧⟨76⟩⟦57⟧⟨77⟩⟦101⟧⟨78⟩⟦101⟧⟨79⟩⟦262⟧⟨80⟩⟦262⟧⟨81⟩⟦65⟧⟨82⟩⟦126⟧⟨83⟩⟦146⟧⟨84⟩⟦216⟧⟨85⟩⟦170⟧⟨86⟩⟦7⟧⟨87⟩
+[Football Digest] ⟦83⟧⟨88⟩⟦23⟧⟨89⟩⟦195⟧⟨90⟩⟦127⟧⟨91⟩⟦79⟧⟨92⟩⟦79⟧⟨93⟩⟦167⟧⟨94⟩⟦82⟧⟨95⟩⟦64⟧⟨96⟩⟦64⟧⟨97⟩⟦61⟧⟨98⟩⟦225⟧⟨99⟩⟦148⟧⟨100⟩
+[Football Digest] ⟦223⟧⟨101⟩⟦127⟧⟨102⟩⟦202⟧⟨103⟩⟦102⟧⟨104⟩⟦82⟧⟨105⟩⟦84⟧⟨106⟩⟦116⟧⟨107⟩⟦147⟧⟨108⟩⟦147⟧⟨109⟩⟦129⟧⟨110⟩⟦129⟧⟨111⟩⟦214⟧⟨112⟩⟦79⟧⟨113⟩⟦37⟧⟨114⟩⟦156⟧⟨115⟩
+[Reader's Digest] ⟦175⟧⟨116⟩⟦32⟧⟨117⟩⟦107⟧⟨118⟩⟦78⟧⟨119⟩⟦127⟧⟨120⟩⟦243⟧⟨121⟩⟦268⟧⟨122⟩
+[Reader's Digest] ⟨123⟩⟦51⟧⟨124⟩⟦136⟧⟨125⟩
+[Reader's Digest] ⟦223⟧⟨126⟩⟦127⟧⟨127⟩⟦65⟧⟨128⟩⟦126⟧⟨129⟩
+[Reader's Digest] ⟨130⟩⟦131⟧⟨131⟩⟦269⟧⟨132⟩⟦175⟧⟨133⟩⟦206⟧⟨134⟩⟦60⟧⟨135⟩⟦127⟧⟨136⟩⟦239⟧⟨137⟩⟦211⟧⟨138⟩⟦68⟧⟨139⟩⟦44⟧⟨140⟩⟦90⟧⟨141⟩
+[Reader's Digest] ⟨142⟩⟦133⟧⟨143⟩⟦175⟧⟨144⟩⟦140⟧⟨145⟩⟦177⟧⟨146⟩⟦99⟧⟨147⟩⟦100⟧⟨148⟩⟦105⟧⟨149⟩⟦3⟧⟨150⟩⟦9⟧⟨151⟩⟦50⟧⟨152⟩⟦4⟧⟨153⟩
+[Gene Methvin] ⟦77⟧⟨154⟩⟦190⟧⟨155⟩⟦115⟧⟨156⟩⟦34⟧⟨157⟩⟦163⟧⟨158⟩⟦117⟧⟨159⟩⟦117⟧⟨160⟩⟦189⟧⟨161⟩⟦73⟧⟨162⟩⟦203⟧⟨163⟩⟦48⟧⟨164⟩
+[Gene Methvin] ⟦21⟧⟨165⟩⟦188⟧⟨166⟩⟦193⟧⟨167⟩⟦121⟧⟨168⟩⟦180⟧⟨169⟩⟦134⟧⟨170⟩⟦141⟧⟨171⟩⟦42⟧⟨172⟩⟦7⟧⟨173⟩⟦111⟧⟨174⟩⟦72⟧⟨175⟩⟦142⟧⟨176⟩⟦177⟧⟨177⟩
+[Gene Methvin] ⟦97⟧⟨178⟩⟦42⟧⟨179⟩⟦246⟧⟨180⟩⟦246⟧⟨181⟩⟦238⟧⟨182⟩⟦55⟧⟨183⟩⟦124⟧⟨184⟩⟦59⟧⟨185⟩⟦120⟧⟨186⟩⟦253⟧⟨187⟩⟦63⟧⟨188⟩⟦165⟧⟨189⟩⟦118⟧⟨190⟩⟦164⟧⟨191⟩⟦254⟧⟨192⟩⟦178⟧⟨193⟩⟦157⟧⟨194⟩⟦62⟧⟨195⟩⟦109⟧⟨196⟩⟦91⟧⟨197⟩
+[Gene Methvin] ⟦35⟧⟨198⟩⟦41⟧⟨199⟩⟦134⟧⟨200⟩⟦221⟧⟨201⟩⟦7⟧⟨202⟩⟦235⟧⟨203⟩⟦20⟧⟨204⟩⟦223⟧⟨205⟩⟦127⟧⟨206⟩⟦210⟧⟨207⟩⟦43⟧⟨208⟩⟦169⟧⟨209⟩⟦192⟧⟨210⟩⟦127⟧⟨211⟩⟦128⟧⟨212⟩⟦116⟧⟨213⟩⟦237⟧⟨214⟩⟦168⟧⟨215⟩
+[If on a winter's night a traveler] ⟨216⟩⟦29⟧⟨217⟩⟦264⟧⟨218⟩⟦149⟧⟨219⟩⟦27⟧⟨220⟩⟦250⟧⟨221⟩⟦11⟧⟨222⟩⟦184⟧⟨223⟩⟦12⟧⟨224⟩⟦152⟧⟨225⟩⟦220⟧⟨226⟩⟦266⟧⟨227⟩⟦110⟧⟨228⟩
+[If on a winter's night a traveler] ⟦227⟧⟨229⟩⟦144⟧⟨230⟩⟦218⟧⟨231⟩⟦85⟧⟨232⟩⟦15⟧⟨233⟩⟦88⟧⟨234⟩⟦197⟧⟨235⟩⟦231⟧⟨236⟩⟦174⟧⟨237⟩⟦13⟧⟨238⟩⟦45⟧⟨239⟩⟦29⟧⟨240⟩⟦264⟧⟨241⟩⟦149⟧⟨242⟩⟦27⟧⟨243⟩⟦250⟧⟨244⟩
+[If on a winter's night a traveler] ⟦70⟧⟨245⟩⟦52⟧⟨246⟩⟦252⟧⟨247⟩⟦187⟧⟨248⟩
+[If on a winter's night a traveler] ⟦217⟧⟨249⟩⟦186⟧⟨250⟩⟦70⟧⟨251⟩⟦52⟧⟨252⟩⟦185⟧⟨253⟩⟦161⟧⟨254⟩⟦229⟧⟨255⟩⟦166⟧⟨256⟩⟦231⟧⟨257⟩⟦174⟧⟨258⟩⟦226⟧⟨259⟩⟦52⟧⟨260⟩⟦208⟧⟨261⟩⟦45⟧⟨262⟩
+[If on a winter's night a traveler] ⟦236⟧⟨263⟩⟦92⟧⟨264⟩⟦215⟧⟨265⟩⟦160⟧⟨266⟩⟦19⟧⟨267⟩⟦45⟧⟨268⟩⟦231⟧⟨269⟩⟦174⟧⟨270⟩
+[If on a winter's night a traveler] ⟦236⟧⟨271⟩⟦92⟧⟨272⟩⟦228⟧⟨273⟩⟦155⟧⟨274⟩⟦213⟧⟨275⟩⟦76⟧⟨276⟩
+[If on a winter's night a traveler] ⟦208⟧⟨277⟩⟦45⟧⟨278⟩⟦36⟧⟨279⟩⟦247⟧⟨280⟩⟦263⟧⟨281⟩
+[Reader's Digest Condensed Books] ⟦233⟧⟨282⟩⟦22⟧⟨283⟩⟦191⟧⟨284⟩⟦93⟧⟨285⟩⟦94⟧⟨286⟩⟦39⟧⟨287⟩⟦56⟧⟨288⟩⟦204⟧⟨289⟩⟦107⟧⟨290⟩⟦78⟧⟨291⟩⟦127⟧⟨292⟩⟦7⟧⟨293⟩⟦67⟧⟨294⟩⟦130⟧⟨295⟩
+[Reader's Digest Condensed Books] ⟦143⟧⟨296⟩⟦259⟧⟨297⟩⟦14⟧⟨298⟩⟦138⟧⟨299⟩⟦242⟧⟨300⟩⟦153⟧⟨301⟩⟦150⟧⟨302⟩⟦151⟧⟨303⟩⟦46⟧⟨304⟩⟦175⟧⟨305⟩
+[Out Traveler] ⟨306⟩⟦250⟧⟨307⟩⟦16⟧⟨308⟩⟦249⟧⟨309⟩⟦127⟧⟨310⟩⟦230⟧⟨311⟩⟦172⟧⟨312⟩⟦5⟧⟨313⟩⟦8⟧⟨314⟩⟦162⟧⟨315⟩⟦162⟧⟨316⟩⟦61⟧⟨317⟩⟦61⟧⟨318⟩⟦123⟧⟨319⟩⟦249⟧⟨320⟩⟦246⟧⟨321⟩
+[Out Traveler] ⟨322⟩⟦24⟧⟨323⟩⟦244⟧⟨324⟩⟦25⟧⟨325⟩⟦200⟧⟨326⟩⟦6⟧⟨327⟩⟦127⟧⟨328⟩⟦199⟧⟨329⟩⟦199⟧⟨330⟩⟦24⟧⟨331⟩⟦244⟧⟨332⟩
+[Reader's Digest Select Editions] ⟦234⟧⟨333⟩⟦22⟧⟨334⟩⟦191⟧⟨335⟩⟦93⟧⟨336⟩⟦95⟧⟨337⟩⟦80⟧⟨338⟩⟦39⟧⟨339⟩⟦46⟧⟨340⟩⟦198⟧⟨341⟩⟦198⟧⟨342⟩⟦175⟧⟨343⟩
+[Reader's Digest Select Editions] ⟦71⟧⟨344⟩⟦258⟧⟨345⟩⟦87⟧⟨346⟩⟦153⟧⟨347⟩⟦2⟧⟨348⟩⟦74⟧⟨349⟩⟦194⟧⟨350⟩⟦85⟧⟨351⟩⟦205⟧⟨352⟩⟦39⟧⟨353⟩⟦86⟧⟨354⟩
+[Reader's Digest Press] ⟦176⟧⟨355⟩⟦28⟧⟨356⟩⟦171⟧⟨357⟩⟦224⟧⟨358⟩⟦135⟧⟨359⟩⟦232⟧⟨360⟩
+[Reader's Digest Press] ⟨361⟩⟦89⟧⟨362⟩⟦122⟧⟨363⟩⟦1⟧⟨364⟩⟦46⟧⟨365⟩⟦137⟧⟨366⟩⟦246⟧⟨367⟩
+[Reader's Digest Press] ⟨368⟩⟦207⟧⟨369⟩
+[Reader's Digest Press] ⟦113⟧⟨370⟩⟦265⟧⟨371⟩⟦241⟧
+
+[user]
+
+问题：
+Are Out Traveler and Reader's Digest both magazines?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

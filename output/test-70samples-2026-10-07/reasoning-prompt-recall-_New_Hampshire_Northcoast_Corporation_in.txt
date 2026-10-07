@@ -1,0 +1,143 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[New Hampshire Northcoast Corporation] ⟨47⟩⟦112⟧⟨48⟩⟨49⟩⟦9⟧⟨50⟩⟨51⟩⟦32⟧⟨52⟩⟦77⟧⟨53⟩⟨54⟩⟨55⟩⟨56⟩⟦143⟧⟦143⟧⟨57⟩⟨58⟩⟨59⟩⟨60⟩⟨61⟩
+[New Hampshire Northcoast Corporation] ⟦206⟧⟨62⟩⟨63⟩⟦5⟧⟦121⟧⟨64⟩⟨65⟩⟦213⟧⟨66⟩⟨67⟩⟦135⟧⟨68⟩⟨69⟩
+[New Hampshire Northcoast Corporation] ⟦235⟧⟨71⟩⟦260⟧⟨70⟩⟨72⟩⟦158⟧⟦175⟧⟨73⟩⟨74⟩
+[New Hampshire Northcoast Corporation] ⟦117⟧ | ⟨75⟩⟨76⟩⟨77⟩⟨78⟩⟦64⟧⟨79⟩⟨80⟩⟦202⟧⟦36⟧⟦36⟧⟦36⟧⟨81⟩⟨82⟩⟦198⟧⟦149⟧⟨83⟩⟨84⟩⟦37⟧⟨85⟩⟦117⟧⟨86⟩
+[Portsmouth, Great Falls and Conway Railroad] ⟦170⟧
+[Portsmouth, Great Falls and Conway Railroad] ⟦126⟧⟦224⟧ | ⟦126⟧ | ⟦126⟧
+[Pan Am Railways] ⟨156⟩⟨157⟩⟦141⟧⟨158⟩⟦80⟧⟨159⟩⟦79⟧⟨160⟩⟦107⟧⟨161⟩⟦21⟧⟨162⟩⟨163⟩⟦43⟧⟨164⟩⟨165⟩⟦128⟧⟨166⟩⟦118⟧⟨167⟩⟦102⟧⟨168⟩⟦171⟧⟨169⟩
+[Pan Am Railways] ⟦140⟧ | ⟦140⟧
+[Wheeling and Lake Erie Railway (1990)] ⟦72⟧⟦73⟧⟦179⟧
+[Wisconsin and Southern Railroad] ⟦108⟧⟦162⟧ | ⟦162⟧
+[RailAmerica] ⟦250⟧ | ⟦48⟧ | ⟦83⟧⟦48⟧⟦163⟧
+
+符号表：
+⟦5⟧ = 43 mi
+⟦9⟧ = a Class III railroad
+⟦21⟧ = an American holding company
+⟦32⟧ = Boston Sand
+⟦36⟧ = cars
+⟦37⟧ = Charlestown
+⟦43⟧ = Class II regional railroads
+⟦48⟧ = company
+⟦64⟧ = Dover
+⟦72⟧ = freight
+⟦73⟧ = freight service
+⟦77⟧ = Gravel
+⟦79⟧ = GRS
+⟦80⟧ = Guilford Rail System
+⟦83⟧ = Inc.
+⟦102⟧ = Maine
+⟦107⟧ = March
+⟦108⟧ = mark
+⟦112⟧ = mark NHN
+⟦117⟧ = Massachusetts
+⟦118⟧ = Mattawamkeag
+⟦121⟧ = mi
+⟦126⟧ = New Hampshire
+⟦128⟧ = northern New England
+⟦135⟧ = Ossipee
+⟦140⟧ = Pan Am Railways
+⟦141⟧ = PAR
+⟦143⟧ = parts
+⟦149⟧ = plant
+⟦158⟧ = quarried sand
+⟦162⟧ = railroad
+⟦163⟧ = railroads
+⟦170⟧ = Rollinsford
+⟦171⟧ = Rotterdam Junction
+⟦175⟧ = sand
+⟦179⟧ = service
+⟦198⟧ = the Boston Sand & Gravel plant
+⟦202⟧ = the cars
+⟦206⟧ = The company
+⟦213⟧ = the former Boston and Maine Corporation's Conway Branch
+⟦224⟧ = The New Hampshire Northcoast Corporation
+⟦235⟧ = The railroad's primary traffic
+⟦250⟧ = the United States
+⟦260⟧ = traffic
+
+占位符映射：
+⟨47⟩ =  (reporting 
+⟨48⟩ = 
+⟨49⟩ = ) is 
+⟨50⟩ = 
+⟨51⟩ =  owned by 
+⟨52⟩ =  & 
+⟨53⟩ =  and offering 
+⟨54⟩ = 
+⟨55⟩ = 
+⟨56⟩ =  in 
+⟨57⟩ = 
+⟨58⟩ =  of 
+⟨59⟩ =  and 
+⟨60⟩ =  in 
+⟨61⟩ = .
+⟨62⟩ = 
+⟨63⟩ =  owns 
+⟨64⟩ = 
+⟨65⟩ =  of 
+⟨66⟩ =  between 
+⟨67⟩ =  and 
+⟨68⟩ = , 
+⟨69⟩ = .
+⟨70⟩ = 
+⟨71⟩ = 's primary 
+⟨72⟩ =  is 
+⟨73⟩ = 
+⟨74⟩ = .
+⟨75⟩ =  It interchanges 
+⟨76⟩ = 
+⟨77⟩ =  with 
+⟨78⟩ =  in 
+⟨79⟩ = , 
+⟨80⟩ = ; 
+⟨81⟩ = 
+⟨82⟩ =  are then taken to 
+⟨83⟩ = 
+⟨84⟩ =  in 
+⟨85⟩ = , 
+⟨86⟩ = .
+⟨156⟩ = , 
+⟨157⟩ =  (
+⟨158⟩ = ), formerly known as 
+⟨159⟩ =  (
+⟨160⟩ = ) before 
+⟨161⟩ =  2006, is 
+⟨162⟩ = 
+⟨163⟩ =  that owns and operates 
+⟨164⟩ = 
+⟨165⟩ =  covering 
+⟨166⟩ =  from 
+⟨167⟩ = , 
+⟨168⟩ = , to 
+⟨169⟩ = , New York.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+ New Hampshire Northcoast Corporation interchanges cars with which holding company of Class II regional railroads?

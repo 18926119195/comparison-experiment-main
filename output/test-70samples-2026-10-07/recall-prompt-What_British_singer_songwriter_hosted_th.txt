@@ -1,0 +1,342 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Audiograf
+⟦2⟧ = "KCA
+⟦3⟧ = "Project Runway Junior
+⟦4⟧ = "The Fairly OddParents
+⟦5⟧ = @Hollywood
+⟦6⟧ = 11 offices
+⟦7⟧ = 7D
+⟦8⟧ = a 2002 Emmy Award
+⟦9⟧ = a British singer-songwriter
+⟦10⟧ = a child star
+⟦11⟧ = a high number
+⟦12⟧ = a joint venture
+⟦13⟧ = a judge
+⟦14⟧ = a presenter
+⟦15⟧ = a research and emerging data business
+⟦16⟧ = a row
+⟦17⟧ = achievements
+⟦18⟧ = actress
+⟦19⟧ = adults
+⟦20⟧ = age
+⟦21⟧ = Aisha Tyler
+⟦22⟧ = an American digital media
+⟦23⟧ = an American journalist
+⟦24⟧ = an award
+⟦25⟧ = an independent artist
+⟦26⟧ = an independent record label
+⟦27⟧ = announcers
+⟦28⟧ = appearances
+⟦29⟧ = April
+⟦30⟧ = artist
+⟦31⟧ = artists
+⟦32⟧ = August
+⟦33⟧ = author
+⟦34⟧ = award
+⟦35⟧ = awards
+⟦36⟧ = AwardsLine
+⟦37⟧ = Beauty Inc
+⟦38⟧ = Best Breakthrough Album
+⟦39⟧ = Best Young Actor - Daytime TV Series
+⟦40⟧ = BGR
+⟦41⟧ = Black Cards
+⟦42⟧ = both "Australia's Got Talent
+⟦43⟧ = both film
+⟦44⟧ = brand
+⟦45⟧ = brands
+⟦46⟧ = Brazzabelle
+⟦47⟧ = Breakthrough
+⟦48⟧ = business
+⟦49⟧ = California
+⟦50⟧ = category
+⟦51⟧ = celebrities
+⟦52⟧ = ceremonies
+⟦53⟧ = ceremony
+⟦54⟧ = charity
+⟦55⟧ = Charlie Brown
+⟦56⟧ = child
+⟦57⟧ = company
+⟦58⟧ = conferences
+⟦59⟧ = contributions
+⟦60⟧ = CricketCountry.com
+⟦61⟧ = dance
+⟦62⟧ = Daran Norris
+⟦63⟧ = data
+⟦64⟧ = date
+⟦65⟧ = dates
+⟦66⟧ = daughter
+⟦67⟧ = day
+⟦68⟧ = Days
+⟦69⟧ = Deadline.com
+⟦70⟧ = designer
+⟦71⟧ = E Grizzly
+⟦72⟧ = E!'s "Fashion Police
+⟦73⟧ = event
+⟦74⟧ = events
+⟦75⟧ = family
+⟦76⟧ = fashion
+⟦77⟧ = fields
+⟦78⟧ = film
+⟦79⟧ = Film Association
+⟦80⟧ = Film Awards ceremony
+⟦81⟧ = Florida
+⟦82⟧ = focus
+⟦83⟧ = Footwear News
+⟦84⟧ = founder
+⟦85⟧ = founder and sole owner Jonathan "DJ Primo" Padilla
+⟦86⟧ = GoldDerby.com
+⟦87⟧ = her appearances
+⟦88⟧ = her family
+⟦89⟧ = her professional dance partner
+⟦90⟧ = Hildy Gloom
+⟦91⟧ = hip
+⟦92⟧ = Hip Hop
+⟦93⟧ = hip hop/rap music
+⟦94⟧ = his charity work
+⟦95⟧ = his first E.P.
+⟦96⟧ = Hollywood
+⟦97⟧ = HollywoodLife
+⟦98⟧ = host
+⟦99⟧ = housing
+⟦100⟧ = India
+⟦101⟧ = India.com
+⟦102⟧ = information
+⟦103⟧ = information services company
+⟦104⟧ = its India.com brand
+⟦105⟧ = its main focus
+⟦106⟧ = January
+⟦107⟧ = Jeremy
+⟦108⟧ = Jeremy Schoenberg
+⟦109⟧ = Johnny
+⟦110⟧ = journalist
+⟦111⟧ = judge
+⟦112⟧ = July
+⟦113⟧ = Justin Bieber
+⟦114⟧ = Kelly Lee Osbourne
+⟦115⟧ = Kelly Osbourne
+⟦116⟧ = Kids
+⟦117⟧ = LA411
+⟦118⟧ = label
+⟦119⟧ = Linus van Pelt
+⟦120⟧ = Lives
+⟦121⟧ = Los Angeles
+⟦122⟧ = Los Angeles County
+⟦123⟧ = Louis van Amstel
+⟦124⟧ = magazine
+⟦125⟧ = Marlena's foster child
+⟦126⟧ = Maureen Dragone
+⟦127⟧ = May
+⟦128⟧ = media
+⟦129⟧ = members
+⟦130⟧ = Miami
+⟦131⟧ = Monday
+⟦132⟧ = more than 22 digital brands
+⟦133⟧ = more than 50 annual events
+⟦134⟧ = Movieline
+⟦135⟧ = movies
+⟦136⟧ = music
+⟦137⟧ = musical performers
+⟦138⟧ = New artists
+⟦139⟧ = New York
+⟦140⟧ = Nick Jonas
+⟦141⟧ = no nominees
+⟦142⟧ = nominees
+⟦143⟧ = November
+⟦144⟧ = number
+⟦145⟧ = NY
+⟦146⟧ = NY411
+⟦147⟧ = O'Donnell
+⟦148⟧ = offices
+⟦149⟧ = Our Lives
+⟦150⟧ = Outstanding Reality Program
+⟦151⟧ = outstanding youth performers
+⟦152⟧ = owner
+⟦153⟧ = Ozzy and Sharon Osbourne
+⟦154⟧ = partner
+⟦155⟧ = Penske Media Corporation
+⟦156⟧ = performers
+⟦157⟧ = place
+⟦158⟧ = PMC
+⟦159⟧ = PMC brands
+⟦160⟧ = PMC Studios
+⟦161⟧ = pop
+⟦162⟧ = pop music
+⟦163⟧ = presenter
+⟦164⟧ = publishing
+⟦165⟧ = Puerto Roc Records
+⟦166⟧ = Puerto Roc Records' main artist
+⟦167⟧ = rap
+⟦168⟧ = recipients
+⟦169⟧ = record
+⟦170⟧ = release
+⟦171⟧ = research
+⟦172⟧ = role
+⟦173⟧ = Rosie O'Donnell
+⟦174⟧ = row
+⟦175⟧ = Santa Monica
+⟦176⟧ = season
+⟦177⟧ = series
+⟦178⟧ = services
+⟦179⟧ = show
+⟦180⟧ = singer
+⟦181⟧ = songwriter
+⟦182⟧ = sports
+⟦183⟧ = star
+⟦184⟧ = Stars
+⟦185⟧ = Susanne Blakeslee
+⟦186⟧ = Taylor Swift
+⟦187⟧ = teenagers
+⟦188⟧ = television
+⟦189⟧ = television presenter
+⟦190⟧ = that time
+⟦191⟧ = the 11th and 13th annual awards
+⟦192⟧ = the 12th annual ceremony
+⟦193⟧ = The 12th Youth
+⟦194⟧ = The 15th Annual Young Hollywood Awards
+⟦195⟧ = the 16th annual Kids' Choice Awards
+⟦196⟧ = the 16th annual L.A. Music Awards
+⟦197⟧ = The 16th Annual Young Hollywood Awards
+⟦198⟧ = the 1989-1990 season
+⟦199⟧ = the 2006 Independent Rap Artist
+⟦200⟧ = the 2nd Annual Young Artist Awards
+⟦201⟧ = The 7D
+⟦202⟧ = the age
+⟦203⟧ = The announcers
+⟦204⟧ = the annual Golden Globe Awards
+⟦205⟧ = the annual Young Artist Awards
+⟦206⟧ = The award ceremonies
+⟦207⟧ = The award ceremony
+⟦208⟧ = The award show
+⟦209⟧ = the awards
+⟦210⟧ = the Barker Hangar
+⟦211⟧ = the category
+⟦212⟧ = The company
+⟦213⟧ = the dates
+⟦214⟧ = the day
+⟦215⟧ = the Disney XD animated series
+⟦216⟧ = The E.P.
+⟦217⟧ = the event
+⟦218⟧ = The exact date
+⟦219⟧ = the fields
+⟦220⟧ = the first year
+⟦221⟧ = the Hollywood Foreign Press Association
+⟦222⟧ = the host
+⟦223⟧ = The independent label
+⟦224⟧ = the last time
+⟦225⟧ = the longest-standing members
+⟦226⟧ = the Make-A-Wish Foundation
+⟦227⟧ = The Nickelodeon Kids Choice Awards
+⟦228⟧ = The Osbournes
+⟦229⟧ = the recipients
+⟦230⟧ = the release
+⟦231⟧ = the Santa Monica Airport
+⟦232⟧ = the show
+⟦233⟧ = the Stars
+⟦234⟧ = The Style Awards
+⟦235⟧ = the Trendsetter Award
+⟦236⟧ = the voice
+⟦237⟧ = the world
+⟦238⟧ = the Year
+⟦239⟧ = the Year Awards
+⟦240⟧ = the year's biggest achievements
+⟦241⟧ = the Young Artist Association
+⟦242⟧ = the Young Artist Awards
+⟦243⟧ = The Young Hollywood Awards
+⟦244⟧ = the Youth
+⟦245⟧ = their Cosmo and Wanda voices
+⟦246⟧ = third place
+⟦247⟧ = This Goodbye
+⟦248⟧ = this role
+⟦249⟧ = Thursday
+⟦250⟧ = time
+⟦251⟧ = times
+⟦252⟧ = TVLine
+⟦253⟧ = United States
+⟦254⟧ = Vanessa Hudgens
+⟦255⟧ = Variety magazine
+⟦256⟧ = Variety.com
+⟦257⟧ = venture
+⟦258⟧ = voice
+⟦259⟧ = voices
+⟦260⟧ = work
+⟦261⟧ = world
+⟦262⟧ = WWD
+⟦263⟧ = WWD.com
+⟦264⟧ = year
+⟦265⟧ = young adults
+⟦266⟧ = young aged performers
+⟦267⟧ = Young Hollywood Awards
+⟦268⟧ = youth
+⟦269⟧ = ZEE TV
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[2013 Young Hollywood Awards] ⟦194⟧⟨1⟩⟦249⟧⟨2⟩⟦32⟧⟨3⟩⟦121⟧⟨4⟩⟦49⟧⟨5⟩⟦214⟧⟨6⟩⟦67⟧⟨7⟩
+[2013 Young Hollywood Awards] ⟦21⟧⟨8⟩⟦222⟧⟨9⟩⟦98⟧⟨10⟩⟦141⟧⟨11⟩⟦142⟧⟨12⟩⟦264⟧⟨13⟩⟦229⟧⟨14⟩⟦168⟧⟨15⟩⟦209⟧⟨16⟩⟦35⟧⟨17⟩
+[2013 Young Hollywood Awards] ⟨18⟩⟦220⟧⟨19⟩⟦264⟧⟨20⟩⟦209⟧⟨21⟩⟦35⟧⟨22⟩
+[Jeremy Schoenberg] ⟦108⟧⟨23⟩⟦122⟧⟨24⟩⟦49⟧⟨25⟩⟦253⟧⟨26⟩
+[Jeremy Schoenberg] ⟦107⟧⟨27⟩⟦10⟧⟨28⟩⟦56⟧⟨29⟩⟦183⟧⟨30⟩⟦43⟧⟨31⟩⟦78⟧⟨32⟩⟦188⟧⟨33⟩⟦188⟧⟨34⟩
+[Jeremy Schoenberg] ⟨35⟩⟦68⟧⟨36⟩⟦68⟧⟨37⟩⟦149⟧⟨38⟩⟦120⟧⟨39⟩⟦109⟧⟨40⟩⟦125⟧⟨41⟩⟦56⟧⟨42⟩
+[Jeremy Schoenberg] ⟦107⟧⟨43⟩⟦248⟧⟨44⟩⟦172⟧⟨45⟩⟦211⟧⟨46⟩⟦50⟧⟨47⟩⟦39⟧⟨48⟩⟦200⟧⟨49⟩
+[Jeremy Schoenberg] ⟨50⟩⟦119⟧⟨51⟩⟦247⟧⟨52⟩⟦55⟧⟨53⟩
+[2014 Young Hollywood Awards] ⟦197⟧⟨54⟩⟦131⟧⟨55⟩⟦112⟧⟨56⟩⟦121⟧⟨57⟩⟦49⟧⟨58⟩⟦214⟧⟨59⟩⟦67⟧⟨60⟩
+[2014 Young Hollywood Awards] ⟦115⟧⟨61⟩⟦232⟧⟨62⟩⟦179⟧⟨63⟩⟦113⟧⟨64⟩⟦94⟧⟨65⟩⟦54⟧⟨66⟩⟦260⟧⟨67⟩⟦59⟧⟨68⟩⟦59⟧⟨69⟩⟦226⟧⟨70⟩⟦254⟧⟨71⟩⟦235⟧⟨72⟩
+[12th Youth in Film Awards] ⟦193⟧⟨73⟩⟦80⟧⟨74⟩⟦53⟧⟨75⟩⟦242⟧⟨76⟩⟦244⟧⟨77⟩⟦79⟧⟨78⟩⟦151⟧⟨79⟩⟦268⟧⟨80⟩⟦156⟧⟨81⟩⟦202⟧⟨82⟩⟦20⟧⟨83⟩⟦219⟧⟨84⟩⟦77⟧⟨85⟩⟦78⟧⟨86⟩⟦78⟧⟨87⟩⟦188⟧⟨88⟩⟦188⟧⟨89⟩⟦136⟧⟨90⟩⟦136⟧⟨91⟩⟦198⟧⟨92⟩⟦176⟧⟨93⟩
+[12th Youth in Film Awards] ⟦218⟧⟨94⟩⟦64⟧⟨95⟩⟦192⟧⟨96⟩⟦53⟧⟨97⟩⟦213⟧⟨98⟩⟦65⟧⟨99⟩⟦191⟧⟨100⟩⟦35⟧⟨101⟩⟦192⟧⟨102⟩⟦53⟧⟨103⟩⟦157⟧⟨104⟩⟦157⟧⟨105⟩⟦96⟧⟨106⟩
+[2003 Kids' Choice Awards] ⟦227⟧⟨107⟩⟦29⟧⟨108⟩
+[2003 Kids' Choice Awards] ⟨109⟩⟦195⟧⟨110⟩⟦116⟧⟨111⟩⟦2⟧⟨112⟩
+[2003 Kids' Choice Awards] ⟨113⟩⟦173⟧⟨114⟩
+[2003 Kids' Choice Awards] ⟦208⟧⟨115⟩⟦34⟧⟨116⟩⟦179⟧⟨117⟩⟦210⟧⟨118⟩⟦231⟧⟨119⟩⟦175⟧⟨120⟩⟦49⟧⟨121⟩
+[2003 Kids' Choice Awards] ⟨122⟩⟦224⟧⟨123⟩⟦250⟧⟨124⟩⟦147⟧⟨125⟩⟦209⟧⟨126⟩⟦35⟧⟨127⟩
+[2003 Kids' Choice Awards] ⟨128⟩⟦190⟧⟨129⟩⟦250⟧⟨130⟩⟦209⟧⟨131⟩⟦35⟧⟨132⟩⟦251⟧⟨133⟩⟦16⟧⟨134⟩⟦174⟧⟨135⟩
+[2003 Kids' Choice Awards] ⟦203⟧⟨136⟩⟦27⟧⟨137⟩⟦62⟧⟨138⟩⟦185⟧⟨139⟩⟦4⟧⟨140⟩⟦245⟧⟨141⟩⟦259⟧⟨142⟩⟦217⟧⟨143⟩⟦73⟧⟨144⟩
+[Maureen Dragone] ⟦126⟧⟨145⟩⟦106⟧⟨146⟩⟦23⟧⟨147⟩⟦110⟧⟨148⟩⟦33⟧⟨149⟩⟦33⟧⟨150⟩
+[Maureen Dragone] ⟨151⟩⟦225⟧⟨152⟩⟦129⟧⟨153⟩⟦221⟧⟨154⟩⟦204⟧⟨155⟩
+[Maureen Dragone] ⟨156⟩⟦241⟧⟨157⟩⟦205⟧⟨158⟩
+[Kelly Osbourne] ⟦114⟧⟨159⟩⟦9⟧⟨160⟩⟦180⟧⟨161⟩⟦181⟧⟨162⟩⟦18⟧⟨163⟩⟦18⟧⟨164⟩⟦188⟧⟨165⟩⟦189⟧⟨166⟩⟦163⟧⟨167⟩⟦76⟧⟨168⟩⟦76⟧⟨169⟩⟦70⟧⟨170⟩⟦70⟧⟨171⟩
+[Kelly Osbourne] ⟨172⟩⟦66⟧⟨173⟩⟦153⟧⟨174⟩⟦87⟧⟨175⟩⟦28⟧⟨176⟩⟦228⟧⟨177⟩⟦88⟧⟨178⟩⟦75⟧⟨179⟩⟦8⟧⟨180⟩⟦150⟧⟨181⟩⟦72⟧⟨182⟩⟦76⟧⟨183⟩⟦14⟧⟨184⟩⟦163⟧⟨185⟩
+[Kelly Osbourne] ⟨186⟩⟦233⟧⟨187⟩⟦184⟧⟨188⟩⟦89⟧⟨189⟩⟦61⟧⟨190⟩⟦154⟧⟨191⟩⟦123⟧⟨192⟩⟦246⟧⟨193⟩⟦157⟧⟨194⟩
+[Kelly Osbourne] ⟨195⟩⟦236⟧⟨196⟩⟦258⟧⟨197⟩⟦90⟧⟨198⟩⟦215⟧⟨199⟩⟦177⟧⟨200⟩⟦201⟧⟨201⟩⟦7⟧⟨202⟩
+[Kelly Osbourne] ⟨203⟩⟦13⟧⟨204⟩⟦111⟧⟨205⟩⟦42⟧⟨206⟩⟦3⟧⟨207⟩
+[Penske Media Corporation] ⟦155⟧⟨208⟩⟦158⟧⟨209⟩⟦22⟧⟨210⟩⟦128⟧⟨211⟩⟦164⟧⟨212⟩⟦164⟧⟨213⟩⟦102⟧⟨214⟩⟦103⟧⟨215⟩⟦178⟧⟨216⟩⟦57⟧⟨217⟩
+[Penske Media Corporation] ⟦158⟧⟨218⟩⟦132⟧⟨219⟩⟦45⟧⟨220⟩⟦12⟧⟨221⟩⟦257⟧⟨222⟩⟦100⟧⟨223⟩⟦269⟧⟨224⟩⟦104⟧⟨225⟩⟦44⟧⟨226⟩
+[Penske Media Corporation] ⟦212⟧⟨227⟩⟦57⟧⟨228⟩⟦133⟧⟨229⟩⟦74⟧⟨230⟩⟦58⟧⟨231⟩⟦58⟧⟨232⟩⟦99⟧⟨233⟩⟦99⟧⟨234⟩⟦15⟧⟨235⟩⟦171⟧⟨236⟩⟦63⟧⟨237⟩⟦48⟧⟨238⟩
+[Penske Media Corporation] ⟦159⟧⟨239⟩⟦45⟧⟨240⟩⟦160⟧⟨241⟩⟦262⟧⟨242⟩⟦263⟧⟨243⟩⟦83⟧⟨244⟩⟦69⟧⟨245⟩⟦255⟧⟨246⟩⟦124⟧⟨247⟩⟦256⟧⟨248⟩⟦60⟧⟨249⟩⟦97⟧⟨250⟩⟦37⟧⟨251⟩⟦86⟧⟨252⟩⟦101⟧⟨253⟩⟦134⟧⟨254⟩⟦252⟧⟨255⟩⟦40⟧⟨256⟩⟦36⟧⟨257⟩⟦5⟧⟨258⟩⟦117⟧⟨259⟩⟦146⟧⟨260⟩⟦267⟧⟨261⟩⟦234⟧⟨262⟩⟦47⟧⟨263⟩⟦239⟧⟨264⟩
+[Penske Media Corporation] ⟦212⟧⟨265⟩⟦57⟧⟨266⟩⟦121⟧⟨267⟩⟦49⟧⟨268⟩⟦139⟧⟨269⟩⟦145⟧⟨270⟩⟦6⟧⟨271⟩⟦148⟧⟨272⟩⟦237⟧⟨273⟩⟦261⟧⟨274⟩
+[Puerto Roc Records] ⟦165⟧⟨275⟩⟦26⟧⟨276⟩⟦169⟧⟨277⟩⟦118⟧⟨278⟩⟦84⟧⟨279⟩⟦85⟧⟨280⟩⟦152⟧⟨281⟩
+[Puerto Roc Records] ⟦223⟧⟨282⟩⟦118⟧⟨283⟩⟦130⟧⟨284⟩⟦81⟧⟨285⟩⟦105⟧⟨286⟩⟦82⟧⟨287⟩⟦91⟧⟨288⟩⟦93⟧⟨289⟩⟦167⟧⟨290⟩⟦136⟧⟨291⟩
+[Puerto Roc Records] ⟦166⟧⟨292⟩⟦30⟧⟨293⟩⟦71⟧⟨294⟩
+[Puerto Roc Records] ⟦71⟧⟨295⟩⟦95⟧⟨296⟩⟦127⟧⟨297⟩⟦92⟧⟨298⟩
+[Puerto Roc Records] ⟨299⟩⟦199⟧⟨300⟩⟦238⟧⟨301⟩⟦196⟧⟨302⟩⟦143⟧⟨303⟩
+[Puerto Roc Records] ⟦216⟧⟨304⟩⟦38⟧⟨305⟩⟦238⟧⟨306⟩⟦264⟧⟨307⟩⟦25⟧⟨308⟩⟦30⟧⟨309⟩⟦196⟧⟨310⟩
+[Puerto Roc Records] ⟦165⟧⟨311⟩⟦230⟧⟨312⟩⟦170⟧⟨313⟩⟦1⟧⟨314⟩
+[Young Hollywood Awards] ⟦243⟧⟨315⟩⟦24⟧⟨316⟩⟦34⟧⟨317⟩⟦240⟧⟨318⟩⟦264⟧⟨319⟩⟦17⟧⟨320⟩⟦161⟧⟨321⟩⟦162⟧⟨322⟩⟦136⟧⟨323⟩⟦135⟧⟨324⟩⟦135⟧⟨325⟩⟦182⟧⟨326⟩⟦182⟧⟨327⟩⟦188⟧⟨328⟩⟦188⟧⟨329⟩⟦76⟧⟨330⟩⟦76⟧⟨331⟩⟦187⟧⟨332⟩⟦187⟧⟨333⟩⟦265⟧⟨334⟩⟦19⟧⟨335⟩
+[Young Hollywood Awards] ⟦206⟧⟨336⟩⟦34⟧⟨337⟩⟦52⟧⟨338⟩⟦266⟧⟨339⟩⟦156⟧⟨340⟩⟦96⟧⟨341⟩
+[Young Hollywood Awards] ⟦207⟧⟨342⟩⟦34⟧⟨343⟩⟦53⟧⟨344⟩⟦11⟧⟨345⟩⟦144⟧⟨346⟩⟦51⟧⟨347⟩⟦51⟧⟨348⟩⟦137⟧⟨349⟩⟦156⟧⟨350⟩⟦186⟧⟨351⟩⟦113⟧⟨352⟩⟦140⟧⟨353⟩
+[Young Hollywood Awards] ⟦138⟧⟨354⟩⟦31⟧⟨355⟩⟦41⟧⟨356⟩⟦46⟧⟨357⟩
+
+[user]
+
+问题：
+What British singer-songwriter hosted the 16th Annual Young Hollywood Awards?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

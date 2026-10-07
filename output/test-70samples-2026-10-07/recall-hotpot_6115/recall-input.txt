@@ -1,0 +1,342 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Full Metal Jacket
+⟦2⟧ = (now Western Illinois University
+⟦3⟧ = 10 July
+⟦4⟧ = 1980s
+⟦5⟧ = a "Robert H. Smith"-class destroyer minelayer
+⟦6⟧ = a 2000 American war film
+⟦7⟧ = a boy
+⟦8⟧ = a bright African American girl
+⟦9⟧ = a buckskin gelding
+⟦10⟧ = a Canadian actor
+⟦11⟧ = a Christian
+⟦12⟧ = a glimpse
+⟦13⟧ = a hinted indication
+⟦14⟧ = a horse
+⟦15⟧ = a large number
+⟦16⟧ = a Marine colonel
+⟦17⟧ = a natural riding ability
+⟦18⟧ = a peace pin
+⟦19⟧ = A Perfect Candidate
+⟦20⟧ = a plane crash
+⟦21⟧ = a professional steeplechase jockey
+⟦22⟧ = a retired U.S. Marine Colonel
+⟦23⟧ = a US Marine Colonel
+⟦24⟧ = a veterinarian
+⟦25⟧ = a visit
+⟦26⟧ = a young woman
+⟦27⟧ = ability
+⟦28⟧ = actor
+⟦29⟧ = affair
+⟦30⟧ = age
+⟦31⟧ = airfield
+⟦32⟧ = all charges
+⟦33⟧ = American forces
+⟦34⟧ = an American writer
+⟦35⟧ = Andrew Bruce Boa
+⟦36⟧ = area
+⟦37⟧ = Arthur J. Burks
+⟦38⟧ = author
+⟦39⟧ = awe
+⟦40⟧ = AWS
+⟦41⟧ = base
+⟦42⟧ = blanket
+⟦43⟧ = Boa's most recognizable film role
+⟦44⟧ = boarder
+⟦45⟧ = books
+⟦46⟧ = boy
+⟦47⟧ = boys
+⟦48⟧ = British films
+⟦49⟧ = buckskin
+⟦50⟧ = bureau
+⟦51⟧ = camel
+⟦52⟧ = camel hair
+⟦53⟧ = camels
+⟦54⟧ = campaign
+⟦55⟧ = cancer
+⟦56⟧ = candidate
+⟦57⟧ = career
+⟦58⟧ = Carole
+⟦59⟧ = Carole's dad
+⟦60⟧ = Carole's favorite color
+⟦61⟧ = character
+⟦62⟧ = charges
+⟦63⟧ = chief
+⟦64⟧ = Childers' orders
+⟦65⟧ = civilians
+⟦66⟧ = clinics
+⟦67⟧ = coach
+⟦68⟧ = Cobalt
+⟦69⟧ = colonel
+⟦70⟧ = Colonel Wyly
+⟦71⟧ = color
+⟦72⟧ = combat
+⟦73⟧ = commentator
+⟦74⟧ = company
+⟦75⟧ = competition
+⟦76⟧ = construction
+⟦77⟧ = construction unit
+⟦78⟧ = convictions
+⟦79⟧ = court
+⟦80⟧ = court-martial
+⟦81⟧ = crash
+⟦82⟧ = creek
+⟦83⟧ = dad
+⟦84⟧ = DD-737
+⟦85⟧ = Delilah
+⟦86⟧ = destroyer
+⟦87⟧ = DM-25/MMD-25
+⟦88⟧ = doctor
+⟦89⟧ = Donald Parks Baker
+⟦90⟧ = dressage
+⟦91⟧ = dressage clinics
+⟦92⟧ = Edwin Andrews Air Base
+⟦93⟧ = embassy
+⟦94⟧ = Engagement
+⟦95⟧ = family
+⟦96⟧ = father
+⟦97⟧ = feet
+⟦98⟧ = Filipino forces
+⟦99⟧ = film
+⟦100⟧ = films
+⟦101⟧ = football
+⟦102⟧ = forces
+⟦103⟧ = former United States Marine Colonel
+⟦104⟧ = former United States Marine Corps Lieutenant Colonel
+⟦105⟧ = friends
+⟦106⟧ = future
+⟦107⟧ = gelding
+⟦108⟧ = General Rieekan
+⟦109⟧ = girl
+⟦110⟧ = girls
+⟦111⟧ = glimpse
+⟦112⟧ = goal
+⟦113⟧ = grades
+⟦114⟧ = guitar
+⟦115⟧ = hair
+⟦116⟧ = head
+⟦117⟧ = helmet
+⟦118⟧ = help
+⟦119⟧ = her Aunt Penny
+⟦120⟧ = her father
+⟦121⟧ = her future
+⟦122⟧ = Her grades
+⟦123⟧ = her guitar
+⟦124⟧ = her most immediate goal
+⟦125⟧ = her mother
+⟦126⟧ = her passion
+⟦127⟧ = highly decorated veteran
+⟦128⟧ = his combat helmet
+⟦129⟧ = his convictions
+⟦130⟧ = his documentary role
+⟦131⟧ = historian
+⟦132⟧ = horse
+⟦133⟧ = horses
+⟦134⟧ = host
+⟦135⟧ = Illinois
+⟦136⟧ = indication
+⟦137⟧ = Itchy
+⟦138⟧ = Jackson
+⟦139⟧ = January
+⟦140⟧ = Jim Webb
+⟦141⟧ = jockey
+⟦142⟧ = John Boyd
+⟦143⟧ = lapel
+⟦144⟧ = Lisa
+⟦145⟧ = little time
+⟦146⟧ = live
+⟦147⟧ = Macomb
+⟦148⟧ = maneuver
+⟦149⟧ = maneuver warfare
+⟦150⟧ = many paths
+⟦151⟧ = March
+⟦152⟧ = Marine Colonel Harold D. Shannon
+⟦153⟧ = martial
+⟦154⟧ = Matthew Modine's character
+⟦155⟧ = May
+⟦156⟧ = men
+⟦157⟧ = Michael Duncan Wyly
+⟦158⟧ = minelayer
+⟦159⟧ = money
+⟦160⟧ = Moret Field
+⟦161⟧ = mother
+⟦162⟧ = Mrs. Reg
+⟦163⟧ = naming Samson
+⟦164⟧ = New York Times
+⟦165⟧ = number
+⟦166⟧ = October
+⟦167⟧ = Oliver Laurence North
+⟦168⟧ = Oliver North
+⟦169⟧ = orders
+⟦170⟧ = passion
+⟦171⟧ = paths
+⟦172⟧ = Paul Moret
+⟦173⟧ = peace
+⟦174⟧ = pin
+⟦175⟧ = Pine Hollow
+⟦176⟧ = Pine Hollow Stables
+⟦177⟧ = plane
+⟦178⟧ = pressures
+⟦179⟧ = Purple
+⟦180⟧ = Raymond W. "Rock" Hanson
+⟦181⟧ = reporter
+⟦182⟧ = rider
+⟦183⟧ = riding
+⟦184⟧ = road
+⟦185⟧ = role
+⟦186⟧ = Rules
+⟦187⟧ = runway
+⟦188⟧ = saddle
+⟦189⟧ = Samson
+⟦190⟧ = Samuel L. Jackson
+⟦191⟧ = San Roque Airfield
+⟦192⟧ = school
+⟦193⟧ = September
+⟦194⟧ = series
+⟦195⟧ = Smith"-class
+⟦196⟧ = Starlight
+⟦197⟧ = steeplechase
+⟦198⟧ = Stevie
+⟦199⟧ = success
+⟦200⟧ = tactics
+⟦201⟧ = television
+⟦202⟧ = Thanks
+⟦203⟧ = the "Pine Hollow" series
+⟦204⟧ = the Amphibious Warfare School
+⟦205⟧ = the area
+⟦206⟧ = The base
+⟦207⟧ = the books
+⟦208⟧ = the campaign
+⟦209⟧ = the Cleveland Press
+⟦210⟧ = the company
+⟦211⟧ = the doctor
+⟦212⟧ = The Empire
+⟦213⟧ = the first live
+⟦214⟧ = the football coach
+⟦215⟧ = the former Richmond bureau chief
+⟦216⟧ = the help
+⟦217⟧ = The Indianapolis Times
+⟦218⟧ = the Iran-Contra affair
+⟦219⟧ = the lapel
+⟦220⟧ = the late 1980s
+⟦221⟧ = the lush creek
+⟦222⟧ = the Marine colonel
+⟦223⟧ = the other Saddle Club girls
+⟦224⟧ = the Philippines
+⟦225⟧ = the pressures
+⟦226⟧ = the prevalent winds
+⟦227⟧ = the remaining Japanese forces
+⟦228⟧ = the saddle blanket
+⟦229⟧ = The Saddle Club
+⟦230⟧ = the same age
+⟦231⟧ = The single runway
+⟦232⟧ = the Spanish Alegre C. Ledesma
+⟦233⟧ = the token North American
+⟦234⟧ = the U.S. Army
+⟦235⟧ = the U.S. embassy
+⟦236⟧ = the United States Navy
+⟦237⟧ = the very best rider
+⟦238⟧ = The Washington Post
+⟦239⟧ = the watchdog reporter
+⟦240⟧ = the world
+⟦241⟧ = their units
+⟦242⟧ = then United States Senate candidate
+⟦243⟧ = Thoroughbreds
+⟦244⟧ = time
+⟦245⟧ = Tommy Lee Jones
+⟦246⟧ = U.S. Marine Colonel Mitch Hanson
+⟦247⟧ = U.S. Marine Colonel Terry Childers
+⟦248⟧ = unit
+⟦249⟧ = units
+⟦250⟧ = USS "Shannon
+⟦251⟧ = Veronica
+⟦252⟧ = veteran
+⟦253⟧ = veterinarian
+⟦254⟧ = visit
+⟦255⟧ = war
+⟦256⟧ = warfare
+⟦257⟧ = watchdog
+⟦258⟧ = Western Illinois State Teachers College
+⟦259⟧ = Whatever career
+⟦260⟧ = which road
+⟦261⟧ = William Friedkin
+⟦262⟧ = Willow Creek High School
+⟦263⟧ = Willow Creek Junior High School
+⟦264⟧ = winds
+⟦265⟧ = woman
+⟦266⟧ = world
+⟦267⟧ = World War I
+⟦268⟧ = World War II
+⟦269⟧ = writer
+⟦270⟧ = Yemen
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[USS Shannon] ⟦250⟧⟨1⟩⟦84⟧⟨2⟩⟦87⟧⟨3⟩⟦5⟧⟨4⟩⟦195⟧⟨5⟩⟦86⟧⟨6⟩⟦158⟧⟨7⟩⟦236⟧⟨8⟩
+[USS Shannon] ⟨9⟩⟦152⟧⟨10⟩
+[Ray Hanson] ⟦180⟧⟨11⟩⟦166⟧⟨12⟩⟦139⟧⟨13⟩⟦103⟧⟨14⟩⟦127⟧⟨15⟩⟦252⟧⟨16⟩⟦267⟧⟨17⟩⟦268⟧⟨18⟩⟦214⟧⟨19⟩⟦101⟧⟨20⟩⟦67⟧⟨21⟩⟦258⟧⟨22⟩⟦2⟧⟨23⟩⟦147⟧⟨24⟩⟦135⟧⟨25⟩
+[Don Baker (journalist)] ⟦89⟧⟨26⟩⟦215⟧⟨27⟩⟦50⟧⟨28⟩⟦63⟧⟨29⟩⟦238⟧⟨30⟩
+[Don Baker (journalist)] ⟨31⟩⟦238⟧⟨32⟩⟦217⟧⟨33⟩⟦209⟧⟨34⟩
+[Don Baker (journalist)] ⟨35⟩⟦130⟧⟨36⟩⟦185⟧⟨37⟩⟦19⟧⟨38⟩⟦239⟧⟨39⟩⟦257⟧⟨40⟩⟦181⟧⟨41⟩⟦208⟧⟨42⟩⟦54⟧⟨43⟩⟦242⟧⟨44⟩⟦56⟧⟨45⟩⟦168⟧⟨46⟩
+[List of The Saddle Club characters] ⟦58⟧⟨47⟩⟦8⟧⟨48⟩⟦109⟧⟨49⟩⟦17⟧⟨50⟩⟦183⟧⟨51⟩⟦27⟧⟨52⟩
+[List of The Saddle Club characters] ⟨53⟩⟦125⟧⟨54⟩⟦161⟧⟨55⟩⟦55⟧⟨56⟩⟦55⟧⟨57⟩⟦68⟧⟨58⟩⟦183⟧⟨59⟩⟦183⟧⟨60⟩
+[List of The Saddle Club characters] ⟨61⟩⟦12⟧⟨62⟩⟦111⟧⟨63⟩⟦132⟧⟨64⟩⟦132⟧⟨65⟩⟦182⟧⟨66⟩⟦182⟧⟨67⟩⟦221⟧⟨68⟩⟦82⟧⟨69⟩⟦39⟧⟨70⟩
+[List of The Saddle Club characters] ⟨71⟩⟦223⟧⟨72⟩⟦110⟧⟨73⟩⟦58⟧⟨74⟩⟦26⟧⟨75⟩⟦265⟧⟨76⟩
+[List of The Saddle Club characters] ⟨77⟩⟦59⟧⟨78⟩⟦83⟧⟨79⟩⟦175⟧⟨80⟩⟦229⟧⟨81⟩⟦196⟧⟨82⟩⟦119⟧⟨83⟩
+[List of The Saddle Club characters] ⟦202⟧⟨84⟩⟦202⟧⟨85⟩⟦162⟧⟨86⟩⟦58⟧⟨87⟩⟦213⟧⟨88⟩⟦146⟧⟨89⟩⟦44⟧⟨90⟩⟦44⟧⟨91⟩⟦176⟧⟨92⟩⟦175⟧⟨93⟩⟦229⟧⟨94⟩⟦196⟧⟨95⟩
+[List of The Saddle Club characters] ⟦58⟧⟨96⟩⟦251⟧⟨97⟩⟦68⟧⟨98⟩
+[List of The Saddle Club characters] ⟨99⟩⟦137⟧⟨100⟩⟦137⟧⟨101⟩⟦58⟧⟨102⟩⟦133⟧⟨103⟩⟦133⟧⟨104⟩⟦25⟧⟨105⟩⟦254⟧⟨106⟩⟦211⟧⟨107⟩⟦88⟧⟨108⟩⟦53⟧⟨109⟩⟦53⟧⟨110⟩⟦228⟧⟨111⟩⟦188⟧⟨112⟩⟦42⟧⟨113⟩⟦120⟧⟨114⟩⟦96⟧⟨115⟩⟦51⟧⟨116⟩⟦52⟧⟨117⟩⟦115⟧⟨118⟩
+[List of The Saddle Club characters] ⟨119⟩⟦58⟧⟨120⟩⟦163⟧⟨121⟩⟦189⟧⟨122⟩⟦85⟧⟨123⟩⟦13⟧⟨124⟩⟦136⟧⟨125⟩⟦58⟧⟨126⟩⟦11⟧⟨127⟩
+[List of The Saddle Club characters] ⟨128⟩⟦196⟧⟨129⟩⟦123⟧⟨130⟩⟦114⟧⟨131⟩
+[List of The Saddle Club characters] ⟦58⟧⟨132⟩⟦125⟧⟨133⟩⟦161⟧⟨134⟩
+[List of The Saddle Club characters] ⟨135⟩⟦207⟧⟨136⟩⟦45⟧⟨137⟩⟦58⟧⟨138⟩⟦144⟧⟨139⟩⟦263⟧⟨140⟩⟦58⟧⟨141⟩⟦198⟧⟨142⟩⟦230⟧⟨143⟩⟦30⟧⟨144⟩
+[List of The Saddle Club characters] ⟨145⟩⟦120⟧⟨146⟩⟦96⟧⟨147⟩⟦246⟧⟨148⟩⟦58⟧⟨149⟩⟦125⟧⟨150⟩⟦161⟧⟨151⟩⟦126⟧⟨152⟩⟦170⟧⟨153⟩
+[List of The Saddle Club characters] ⟨154⟩⟦203⟧⟨155⟩⟦194⟧⟨156⟩⟦58⟧⟨157⟩⟦262⟧⟨158⟩⟦144⟧⟨159⟩
+[List of The Saddle Club characters] ⟦60⟧⟨160⟩⟦71⟧⟨161⟩⟦179⟧⟨162⟩
+[List of The Saddle Club characters] ⟨163⟩⟦159⟧⟨164⟩⟦159⟧⟨165⟩⟦125⟧⟨166⟩⟦161⟧⟨167⟩⟦9⟧⟨168⟩⟦49⟧⟨169⟩⟦107⟧⟨170⟩
+[List of The Saddle Club characters] ⟦58⟧⟨171⟩⟦121⟧⟨172⟩⟦106⟧⟨173⟩⟦133⟧⟨174⟩⟦133⟧⟨175⟩⟦150⟧⟨176⟩⟦171⟧⟨177⟩⟦260⟧⟨178⟩⟦184⟧⟨179⟩
+[List of The Saddle Club characters] ⟦122⟧⟨180⟩⟦113⟧⟨181⟩⟦24⟧⟨182⟩⟦253⟧⟨183⟩⟦243⟧⟨184⟩⟦243⟧⟨185⟩
+[List of The Saddle Club characters] ⟨186⟩⟦21⟧⟨187⟩⟦197⟧⟨188⟩⟦141⟧⟨189⟩⟦240⟧⟨190⟩⟦266⟧⟨191⟩⟦90⟧⟨192⟩⟦91⟧⟨193⟩⟦66⟧⟨194⟩
+[List of The Saddle Club characters] ⟦259⟧⟨195⟩⟦57⟧⟨196⟩⟦124⟧⟨197⟩⟦112⟧⟨198⟩⟦237⟧⟨199⟩⟦182⟧⟨200⟩
+[List of The Saddle Club characters] ⟦58⟧⟨201⟩⟦145⟧⟨202⟩⟦244⟧⟨203⟩⟦47⟧⟨204⟩⟦47⟧⟨205⟩⟦210⟧⟨206⟩⟦74⟧⟨207⟩⟦7⟧⟨208⟩⟦46⟧⟨209⟩⟦14⟧⟨210⟩⟦132⟧⟨211⟩
+[List of The Saddle Club characters] ⟨212⟩⟦225⟧⟨213⟩⟦178⟧⟨214⟩⟦95⟧⟨215⟩⟦95⟧⟨216⟩⟦105⟧⟨217⟩⟦105⟧⟨218⟩⟦192⟧⟨219⟩⟦192⟧⟨220⟩⟦75⟧⟨221⟩⟦75⟧⟨222⟩
+[Rules of Engagement (film)] ⟦186⟧⟨223⟩⟦186⟧⟨224⟩⟦94⟧⟨225⟩⟦6⟧⟨226⟩⟦255⟧⟨227⟩⟦99⟧⟨228⟩⟦261⟧⟨229⟩⟦140⟧⟨230⟩⟦245⟧⟨231⟩⟦190⟧⟨232⟩
+[Rules of Engagement (film)] ⟦138⟧⟨233⟩⟦247⟧⟨234⟩⟦79⟧⟨235⟩⟦80⟧⟨236⟩⟦153⟧⟨237⟩⟦156⟧⟨238⟩⟦156⟧⟨239⟩⟦64⟧⟨240⟩⟦169⟧⟨241⟩⟦15⟧⟨242⟩⟦165⟧⟨243⟩⟦65⟧⟨244⟩⟦65⟧⟨245⟩⟦235⟧⟨246⟩⟦93⟧⟨247⟩⟦270⟧⟨248⟩
+[Bruce Boa] ⟦35⟧⟨249⟩⟦3⟧⟨250⟩⟦10⟧⟨251⟩⟦28⟧⟨252⟩⟦199⟧⟨253⟩⟦199⟧⟨254⟩⟦233⟧⟨255⟩⟦48⟧⟨256⟩⟦100⟧⟨257⟩⟦201⟧⟨258⟩⟦201⟧⟨259⟩
+[Bruce Boa] ⟦43⟧⟨260⟩⟦99⟧⟨261⟩⟦185⟧⟨262⟩⟦212⟧⟨263⟩⟦108⟧⟨264⟩
+[Bruce Boa] ⟨265⟩⟦222⟧⟨266⟩⟦69⟧⟨267⟩⟦1⟧⟨268⟩⟦154⟧⟨269⟩⟦61⟧⟨270⟩⟦18⟧⟨271⟩⟦173⟧⟨272⟩⟦174⟧⟨273⟩⟦219⟧⟨274⟩⟦143⟧⟨275⟩⟦128⟧⟨276⟩⟦72⟧⟨277⟩⟦117⟧⟨278⟩
+[Michael Wyly] ⟦157⟧⟨279⟩⟦22⟧⟨280⟩
+[Michael Wyly] ⟨281⟩⟦70⟧⟨282⟩⟦116⟧⟨283⟩⟦116⟧⟨284⟩⟦200⟧⟨285⟩⟦200⟧⟨286⟩⟦204⟧⟨287⟩⟦40⟧⟨288⟩⟦142⟧⟨289⟩⟦148⟧⟨290⟩⟦149⟧⟨291⟩⟦256⟧⟨292⟩
+[Arthur J. Burks] ⟦37⟧⟨293⟩⟦193⟧⟨294⟩⟦155⟧⟨295⟩⟦34⟧⟨296⟩⟦269⟧⟨297⟩⟦16⟧⟨298⟩⟦69⟧⟨299⟩
+[Edwin Andrews Air Base] ⟦92⟧⟨300⟩⟦232⟧⟨301⟩⟦191⟧⟨302⟩
+[Edwin Andrews Air Base] ⟦206⟧⟨303⟩⟦41⟧⟨304⟩⟦160⟧⟨305⟩⟦172⟧⟨306⟩⟦23⟧⟨307⟩⟦20⟧⟨308⟩⟦177⟧⟨309⟩⟦81⟧⟨310⟩
+[Edwin Andrews Air Base] ⟨311⟩⟦151⟧⟨312⟩⟦33⟧⟨313⟩⟦102⟧⟨314⟩⟦241⟧⟨315⟩⟦249⟧⟨316⟩⟦206⟧⟨317⟩⟦41⟧⟨318⟩⟦216⟧⟨319⟩⟦118⟧⟨320⟩⟦234⟧⟨321⟩⟦31⟧⟨322⟩⟦76⟧⟨323⟩⟦77⟧⟨324⟩⟦248⟧⟨325⟩⟦98⟧⟨326⟩⟦102⟧⟨327⟩
+[Edwin Andrews Air Base] ⟦231⟧⟨328⟩⟦187⟧⟨329⟩⟦227⟧⟨330⟩⟦102⟧⟨331⟩⟦224⟧⟨332⟩⟦97⟧⟨333⟩⟦226⟧⟨334⟩⟦264⟧⟨335⟩⟦205⟧⟨336⟩⟦36⟧⟨337⟩
+[Oliver North] ⟦167⟧⟨338⟩⟦73⟧⟨339⟩⟦201⟧⟨340⟩⟦134⟧⟨341⟩⟦131⟧⟨342⟩⟦164⟧⟨343⟩⟦38⟧⟨344⟩⟦104⟧⟨345⟩
+[Oliver North] ⟨346⟩⟦218⟧⟨347⟩⟦29⟧⟨348⟩⟦220⟧⟨349⟩⟦4⟧⟨350⟩⟦129⟧⟨351⟩⟦78⟧⟨352⟩⟦32⟧⟨353⟩⟦62⟧⟨354⟩
+
+[user]
+
+问题：
+The reporter who digs into the campaign of a former Marine Colonel, worked where in Cleveland?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

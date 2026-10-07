@@ -1,0 +1,29 @@
+# 路径一：从飞机型号与制造商线索锁定机主
+
+步骤1：使用⟦241⟧⟦2⟧⟦265⟧，提取“The Boeing 757”是“-size, narrow-body twin-engine jet airliner”，并且是“the manufacturer's largest single-aisle passenger aircraft”，说明问题所指的机型是波音757。
+
+步骤2：综合⟦159⟧⟦58⟧⟦318⟧，确认该机型由“Boeing Commercial Airplanes”设计制造，与问题中“built by Boeing Commercial Airplanes”一致。
+
+步骤3：使用⟦103⟧⟦147⟧，提取“Donald J. Trump's private jet”是一架“jet”，且⟦292⟧标明“Trump Force One”就是这架私人飞机的名称。
+
+结论：该私人飞机的主人是 Donald J. Trump。
+
+# 路径二：从“Trump Force One”名称反向验证机型与制造商
+
+步骤1：使用⟦292⟧⟦17⟧，提取“Trump Force One”是“a Boeing 757”，直接锁定机型为波音757。
+
+步骤2：综合⟦265⟧⟦58⟧，交叉验证波音757是“Boeing Commercial Airplanes”制造的“largest single-aisle passenger aircraft”，与问题描述吻合。
+
+步骤3：使用⟦325⟧，提取该机型“was produced from 1981 to 2004”，与问题中的生产年份完全一致。
+
+结论：满足所有条件（Trump Force One、Boeing Commercial Airplanes制造、最大单通道客机、1981–2004生产）的私人飞机属于 Donald J. Trump。
+
+# 路径三：从运营主体与资产归属确认最终机主
+
+步骤1：使用⟦485⟧⟦291⟧⟦280⟧，提取“Trump Force One”被作为“Trump Air”运营，而“Trump Air”是“The Trump Organization”的航空资产。
+
+步骤2：综合⟦236⟧⟦52⟧，确认“the air assets”属于“assets”，即特朗普组织的资产，最终受益人为 Donald J. Trump。
+
+步骤3：使用⟦103⟧，直接提取“Donald J. Trump's private jet”，与路径一、二的结论一致。
+
+结论：该私人飞机归 Donald J. Trump 所有。

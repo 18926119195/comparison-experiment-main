@@ -1,0 +1,325 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Germany's Top 25 Hottest Young Companies
+⟦2⟧ = "Philadelphia
+⟦3⟧ = "The Possible City
+⟦4⟧ = (田島 ナビ
+⟦5⟧ = 1 May
+⟦6⟧ = 17th and 19th Governor
+⟦7⟧ = 1916–30
+⟦8⟧ = 5 February
+⟦9⟧ = a bank manager
+⟦10⟧ = a children's card trading game
+⟦11⟧ = a Cult album
+⟦12⟧ = a Federal Judge
+⟦13⟧ = a flight search engine
+⟦14⟧ = a founding member
+⟦15⟧ = a game publisher
+⟦16⟧ = a Japanese supercentenarian
+⟦17⟧ = a Philadelphia-based writer
+⟦18⟧ = a prominent Republican politician
+⟦19⟧ = a trading card game
+⟦20⟧ = a trilogy
+⟦21⟧ = a world
+⟦22⟧ = Addiction
+⟦23⟧ = age
+⟦24⟧ = agencies
+⟦25⟧ = airfares
+⟦26⟧ = airlines
+⟦27⟧ = airports
+⟦28⟧ = album
+⟦29⟧ = all trading cards
+⟦30⟧ = alumni
+⟦31⟧ = Amazing Society
+⟦32⟧ = an Australian politician
+⟦33⟧ = an international product line
+⟦34⟧ = an online startup
+⟦35⟧ = author
+⟦36⟧ = band
+⟦37⟧ = bank
+⟦38⟧ = Basic Books
+⟦39⟧ = bassist
+⟦40⟧ = bassist Chris Wyse
+⟦41⟧ = batch
+⟦42⟧ = Beijing
+⟦43⟧ = Bella Sara
+⟦44⟧ = Berlin
+⟦45⟧ = Blizzard Entertainment
+⟦46⟧ = bookings
+⟦47⟧ = candidate
+⟦48⟧ = Carbonated Games
+⟦49⟧ = Carbonated Games developers
+⟦50⟧ = card
+⟦51⟧ = cards
+⟦52⟧ = carriers
+⟦53⟧ = CBE
+⟦54⟧ = century
+⟦55⟧ = CEO
+⟦56⟧ = characters
+⟦57⟧ = children
+⟦58⟧ = China
+⟦59⟧ = chip
+⟦60⟧ = Chris Chaney
+⟦61⟧ = city
+⟦62⟧ = Clout
+⟦63⟧ = Clout Fantasy
+⟦64⟧ = codes
+⟦65⟧ = Cologne
+⟦66⟧ = company
+⟦67⟧ = Cooking Vinyl
+⟦68⟧ = cost
+⟦69⟧ = Crytek
+⟦70⟧ = defeat
+⟦71⟧ = departure
+⟦72⟧ = destination
+⟦73⟧ = developer
+⟦74⟧ = developers
+⟦75⟧ = different online travel agencies
+⟦76⟧ = DigiPen Institute
+⟦77⟧ = Dine Alone Records
+⟦78⟧ = disbanding
+⟦79⟧ = Each card pack
+⟦80⟧ = editor
+⟦81⟧ = Edwin Leard Mechem
+⟦82⟧ = end
+⟦83⟧ = engine
+⟦84⟧ = Federation
+⟦85⟧ = flight
+⟦86⟧ = friends
+⟦87⟧ = game
+⟦88⟧ = game play
+⟦89⟧ = GameHouse
+⟦90⟧ = games
+⟦91⟧ = Germany
+⟦92⟧ = governor
+⟦93⟧ = Griptonite Games
+⟦94⟧ = group
+⟦95⟧ = Hidden City
+⟦96⟧ = Hidden City Entertainment
+⟦97⟧ = Hidden City Games
+⟦98⟧ = Hidden City Games, Inc.
+⟦99⟧ = hidden flight routing and hidden city ticketing techniques
+⟦100⟧ = his defeat
+⟦101⟧ = his service
+⟦102⟧ = historian
+⟦103⟧ = horses
+⟦104⟧ = Hourglass Games
+⟦105⟧ = Hyderabad
+⟦106⟧ = illustrated horses
+⟦107⟧ = images
+⟦108⟧ = India
+⟦109⟧ = Irwin
+⟦110⟧ = Its alumni
+⟦111⟧ = its disbanding
+⟦112⟧ = its tenure
+⟦113⟧ = Jane's Addiction bassist
+⟦114⟧ = January
+⟦115⟧ = Jesper Myrfors
+⟦116⟧ = Joshua Howard
+⟦117⟧ = July
+⟦118⟧ = Leopard
+⟦119⟧ = Leslie Herbert "Les" Irwin
+⟦120⟧ = line
+⟦121⟧ = Lion
+⟦122⟧ = low-cost carriers
+⟦123⟧ = magical friends
+⟦124⟧ = magical horses
+⟦125⟧ = manager
+⟦126⟧ = March
+⟦127⟧ = Mechem
+⟦128⟧ = member
+⟦129⟧ = messages
+⟦130⟧ = Microsoft Aces
+⟦131⟧ = Microsoft Casual Games
+⟦132⟧ = Microsoft Flight Simulator
+⟦133⟧ = Microsoft Studios
+⟦134⟧ = Microsoft Surface
+⟦135⟧ = military service
+⟦136⟧ = Mitchell
+⟦137⟧ = MSN Games
+⟦138⟧ = MSN Messenger
+⟦139⟧ = Nabi Tajima
+⟦140⟧ = Nathaniel Popkin
+⟦141⟧ = New Mexico
+⟦142⟧ = New South Wales
+⟦143⟧ = Newcastle
+⟦144⟧ = newspaper
+⟦145⟧ = office
+⟦146⟧ = pack
+⟦147⟧ = part
+⟦148⟧ = party
+⟦149⟧ = passengers
+⟦150⟧ = Paul Peterson
+⟦151⟧ = person
+⟦152⟧ = Peter Adkison
+⟦153⟧ = place
+⟦154⟧ = play
+⟦155⟧ = Playdom
+⟦156⟧ = politician
+⟦157⟧ = PopCap Games
+⟦158⟧ = positive, inspirational messages
+⟦159⟧ = producer
+⟦160⟧ = producer Bob Rock
+⟦161⟧ = product
+⟦162⟧ = products
+⟦163⟧ = publisher
+⟦164⟧ = Realtime Worlds
+⟦165⟧ = Redmond
+⟦166⟧ = releases
+⟦167⟧ = Representatives
+⟦168⟧ = rock
+⟦169⟧ = role
+⟦170⟧ = routing
+⟦171⟧ = schools
+⟦172⟧ = search
+⟦173⟧ = seat
+⟦174⟧ = Seattle-based game company
+⟦175⟧ = secret codes
+⟦176⟧ = Select "Bella Sara" products
+⟦177⟧ = self
+⟦178⟧ = service
+⟦179⟧ = Song
+⟦180⟧ = startup
+⟦181⟧ = state
+⟦182⟧ = state schools
+⟦183⟧ = statehood
+⟦184⟧ = studio
+⟦185⟧ = supercentenarian
+⟦186⟧ = Sweden
+⟦187⟧ = tactics
+⟦188⟧ = Tajima Nabi
+⟦189⟧ = techniques
+⟦190⟧ = Technology
+⟦191⟧ = Temple Press
+⟦192⟧ = tenure
+⟦193⟧ = the 19th century
+⟦194⟧ = the 20th century
+⟦195⟧ = the age
+⟦196⟧ = the airports
+⟦197⟧ = the Australian House
+⟦198⟧ = the author
+⟦199⟧ = the British rock band
+⟦200⟧ = the chip-throwing game
+⟦201⟧ = the City
+⟦202⟧ = The company
+⟦203⟧ = The Cult
+⟦204⟧ = The Cult's first album
+⟦205⟧ = the end
+⟦206⟧ = the fifth time
+⟦207⟧ = the final part
+⟦208⟧ = the first person
+⟦209⟧ = the first-party game developer studio
+⟦210⟧ = The Hand Press
+⟦211⟧ = The Head
+⟦212⟧ = the Hidden City
+⟦213⟧ = the Hidden City Daily
+⟦214⟧ = the House
+⟦215⟧ = the last person
+⟦216⟧ = the last surviving person
+⟦217⟧ = the Liberal candidate
+⟦218⟧ = the magical world
+⟦219⟧ = the Microsoft Ventures Accelerator
+⟦220⟧ = the Microsoft Xbox Live Arcade group
+⟦221⟧ = the newspaper Horizont
+⟦222⟧ = the nineteenth century
+⟦223⟧ = the office
+⟦224⟧ = the oldest verified Japanese and Asian person
+⟦225⟧ = the role
+⟦226⟧ = the seat
+⟦227⟧ = the state
+⟦228⟧ = the state's governor
+⟦229⟧ = the studio
+⟦230⟧ = the tenth studio album
+⟦231⟧ = the third batch
+⟦232⟧ = the United States Senate
+⟦233⟧ = the website
+⟦234⟧ = the world's oldest verified living person
+⟦235⟧ = their 1994 self-titled album
+⟦236⟧ = their intended destination
+⟦237⟧ = their place
+⟦238⟧ = these secret codes
+⟦239⟧ = three set releases
+⟦240⟧ = ticket
+⟦241⟧ = time
+⟦242⟧ = trading
+⟦243⟧ = travel
+⟦244⟧ = travelers
+⟦245⟧ = trilogy
+⟦246⟧ = Tripcombi
+⟦247⟧ = Tripdelta
+⟦248⟧ = Tripdelta's tactics
+⟦249⟧ = two separate ticket bookings
+⟦250⟧ = users
+⟦251⟧ = WA
+⟦252⟧ = website
+⟦253⟧ = world
+⟦254⟧ = writer
+⟦255⟧ = Xbox Live Arcade
+⟦256⟧ = year
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Hidden City (album)] ⟦95⟧⟨1⟩⟦230⟧⟨2⟩⟦184⟧⟨3⟩⟦28⟧⟨4⟩⟦199⟧⟨5⟩⟦168⟧⟨6⟩⟦36⟧⟨7⟩⟦203⟧⟨8⟩⟦8⟧⟨9⟩⟦67⟧⟨10⟩⟦77⟧⟨11⟩
+[Hidden City (album)] ⟨12⟩⟦207⟧⟨13⟩⟦147⟧⟨14⟩⟦20⟧⟨15⟩⟦245⟧⟨16⟩⟦204⟧⟨17⟩⟦28⟧⟨18⟩⟦235⟧⟨19⟩⟦177⟧⟨20⟩⟦28⟧⟨21⟩⟦39⟧⟨22⟩⟦40⟧⟨23⟩⟦225⟧⟨24⟩⟦169⟧⟨25⟩⟦159⟧⟨26⟩⟦160⟧⟨27⟩⟦113⟧⟨28⟩⟦22⟧⟨29⟩⟦39⟧⟨30⟩⟦60⟧⟨31⟩
+[Hidden City (album)] ⟨32⟩⟦206⟧⟨33⟩⟦241⟧⟨34⟩⟦168⟧⟨35⟩⟦11⟧⟨36⟩⟦28⟧⟨37⟩
+[Tripcombi] ⟦246⟧⟨38⟩⟦247⟧⟨39⟩⟦34⟧⟨40⟩⟦180⟧⟨41⟩
+[Tripcombi] ⟨42⟩⟦250⟧⟨43⟩⟦250⟧⟨44⟩⟦13⟧⟨45⟩⟦85⟧⟨46⟩⟦172⟧⟨47⟩⟦83⟧⟨48⟩⟦244⟧⟨49⟩⟦244⟧⟨50⟩⟦25⟧⟨51⟩⟦25⟧⟨52⟩⟦75⟧⟨53⟩⟦243⟧⟨54⟩⟦24⟧⟨55⟩⟦26⟧⟨56⟩⟦26⟧⟨57⟩
+[Tripcombi] ⟨58⟩⟦99⟧⟨59⟩⟦85⟧⟨60⟩⟦170⟧⟨61⟩⟦61⟧⟨62⟩⟦189⟧⟨63⟩
+[Tripcombi] ⟦248⟧⟨64⟩⟦187⟧⟨65⟩⟦249⟧⟨66⟩⟦240⟧⟨67⟩⟦46⟧⟨68⟩⟦25⟧⟨69⟩⟦25⟧⟨70⟩⟦122⟧⟨71⟩⟦68⟧⟨72⟩⟦52⟧⟨73⟩⟦149⟧⟨74⟩⟦149⟧⟨75⟩⟦196⟧⟨76⟩⟦27⟧⟨77⟩⟦237⟧⟨78⟩⟦153⟧⟨79⟩⟦71⟧⟨80⟩⟦71⟧⟨81⟩⟦236⟧⟨82⟩⟦72⟧⟨83⟩
+[Tripcombi] ⟨84⟩⟦126⟧⟨85⟩⟦247⟧⟨86⟩⟦147⟧⟨87⟩⟦147⟧⟨88⟩⟦231⟧⟨89⟩⟦41⟧⟨90⟩⟦219⟧⟨91⟩⟦44⟧⟨92⟩
+[Tripcombi] ⟦202⟧⟨93⟩⟦66⟧⟨94⟩⟦65⟧⟨95⟩⟦91⟧⟨96⟩⟦1⟧⟨97⟩⟦221⟧⟨98⟩⟦144⟧⟨99⟩
+[Bella Sara] ⟦43⟧⟨100⟩⟦10⟧⟨101⟩⟦57⟧⟨102⟩⟦50⟧⟨103⟩⟦242⟧⟨104⟩⟦87⟧⟨105⟩⟦21⟧⟨106⟩⟦253⟧⟨107⟩⟦124⟧⟨108⟩⟦103⟧⟨109⟩⟦87⟧⟨110⟩⟦88⟧⟨111⟩⟦154⟧⟨112⟩
+[Bella Sara] ⟨113⟩⟦174⟧⟨114⟩⟦87⟧⟨115⟩⟦66⟧⟨116⟩⟦96⟧⟨117⟩⟦43⟧⟨118⟩⟦19⟧⟨119⟩⟦242⟧⟨120⟩⟦50⟧⟨121⟩⟦87⟧⟨122⟩⟦33⟧⟨123⟩⟦161⟧⟨124⟩⟦120⟧⟨125⟩
+[Bella Sara] ⟨126⟩⟦239⟧⟨127⟩⟦166⟧⟨128⟩⟦256⟧⟨129⟩⟦29⟧⟨130⟩⟦242⟧⟨131⟩⟦51⟧⟨132⟩⟦107⟧⟨133⟩⟦107⟧⟨134⟩⟦106⟧⟨135⟩⟦103⟧⟨136⟩⟦56⟧⟨137⟩⟦56⟧⟨138⟩⟦123⟧⟨139⟩⟦86⟧⟨140⟩⟦158⟧⟨141⟩⟦129⟧⟨142⟩
+[Bella Sara] ⟦79⟧⟨143⟩⟦50⟧⟨144⟩⟦146⟧⟨145⟩⟦175⟧⟨146⟩⟦64⟧⟨147⟩⟦233⟧⟨148⟩⟦252⟧⟨149⟩⟦124⟧⟨150⟩⟦103⟧⟨151⟩
+[Bella Sara] ⟦176⟧⟨152⟩⟦162⟧⟨153⟩⟦238⟧⟨154⟩⟦64⟧⟨155⟩⟦218⟧⟨156⟩⟦253⟧⟨157⟩
+[Carbonated Games] ⟦48⟧⟨158⟩⟦209⟧⟨159⟩⟦148⟧⟨160⟩⟦87⟧⟨161⟩⟦73⟧⟨162⟩⟦184⟧⟨163⟩⟦131⟧⟨164⟩⟦133⟧⟨165⟩
+[Carbonated Games] ⟨166⟩⟦116⟧⟨167⟩⟦111⟧⟨168⟩⟦78⟧⟨169⟩⟦126⟧⟨170⟩
+[Carbonated Games] ⟦49⟧⟨171⟩⟦74⟧⟨172⟩⟦165⟧⟨173⟩⟦251⟧⟨174⟩⟦105⟧⟨175⟩⟦108⟧⟨176⟩⟦42⟧⟨177⟩⟦58⟧⟨178⟩
+[Carbonated Games] ⟦110⟧⟨179⟩⟦30⟧⟨180⟩⟦96⟧⟨181⟩⟦130⟧⟨182⟩⟦132⟧⟨183⟩⟦45⟧⟨184⟩⟦104⟧⟨185⟩⟦220⟧⟨186⟩⟦94⟧⟨187⟩⟦89⟧⟨188⟩⟦31⟧⟨189⟩⟦164⟧⟨190⟩⟦155⟧⟨191⟩⟦157⟧⟨192⟩⟦69⟧⟨193⟩⟦93⟧⟨194⟩⟦76⟧⟨195⟩⟦190⟧⟨196⟩
+[Carbonated Games] ⟨197⟩⟦112⟧⟨198⟩⟦192⟧⟨199⟩⟦229⟧⟨200⟩⟦184⟧⟨201⟩⟦90⟧⟨202⟩⟦90⟧⟨203⟩⟦255⟧⟨204⟩⟦138⟧⟨205⟩⟦137⟧⟨206⟩⟦134⟧⟨207⟩
+[Nabi Tajima] ⟦139⟧⟨208⟩⟦4⟧⟨209⟩⟦188⟧⟨210⟩⟦16⟧⟨211⟩⟦185⟧⟨212⟩
+[Nabi Tajima] ⟨213⟩⟦195⟧⟨214⟩⟦23⟧⟨215⟩⟦234⟧⟨216⟩⟦253⟧⟨217⟩⟦151⟧⟨218⟩⟦216⟧⟨219⟩⟦151⟧⟨220⟩⟦193⟧⟨221⟩⟦54⟧⟨222⟩
+[Nabi Tajima] ⟨223⟩⟦224⟧⟨224⟩⟦151⟧⟨225⟩
+[Les Irwin] ⟦119⟧⟨226⟩⟦53⟧⟨227⟩⟦5⟧⟨228⟩⟦114⟧⟨229⟩⟦32⟧⟨230⟩⟦156⟧⟨231⟩
+[Les Irwin] ⟨232⟩⟦143⟧⟨233⟩⟦142⟧⟨234⟩⟦181⟧⟨235⟩⟦182⟧⟨236⟩⟦171⟧⟨237⟩⟦135⟧⟨238⟩⟦178⟧⟨239⟩⟦7⟧⟨240⟩⟦7⟧⟨241⟩
+[Les Irwin] ⟨242⟩⟦205⟧⟨243⟩⟦82⟧⟨244⟩⟦101⟧⟨245⟩⟦178⟧⟨246⟩⟦9⟧⟨247⟩⟦37⟧⟨248⟩⟦125⟧⟨249⟩
+[Les Irwin] ⟨250⟩⟦217⟧⟨251⟩⟦47⟧⟨252⟩⟦226⟧⟨253⟩⟦173⟧⟨254⟩⟦136⟧⟨255⟩⟦197⟧⟨256⟩⟦167⟧⟨257⟩
+[Les Irwin] ⟨258⟩⟦215⟧⟨259⟩⟦151⟧⟨260⟩⟦222⟧⟨261⟩⟦54⟧⟨262⟩⟦151⟧⟨263⟩⟦84⟧⟨264⟩⟦214⟧⟨265⟩
+[Les Irwin] ⟨266⟩⟦136⟧⟨267⟩⟦100⟧⟨268⟩⟦70⟧⟨269⟩
+[Les Irwin] ⟦109⟧⟨270⟩
+[Edwin L. Mechem] ⟦81⟧⟨271⟩⟦117⟧⟨272⟩⟦18⟧⟨273⟩⟦156⟧⟨274⟩⟦141⟧⟨275⟩
+[Edwin L. Mechem] ⟨276⟩⟦6⟧⟨277⟩⟦141⟧⟨278⟩⟦227⟧⟨279⟩⟦181⟧⟨280⟩⟦232⟧⟨281⟩
+[Edwin L. Mechem] ⟦127⟧⟨282⟩⟦208⟧⟨283⟩⟦151⟧⟨284⟩⟦194⟧⟨285⟩⟦54⟧⟨286⟩⟦228⟧⟨287⟩⟦181⟧⟨288⟩⟦92⟧⟨289⟩⟦208⟧⟨290⟩⟦151⟧⟨291⟩⟦141⟧⟨292⟩⟦183⟧⟨293⟩⟦183⟧⟨294⟩⟦223⟧⟨295⟩⟦145⟧⟨296⟩
+[Edwin L. Mechem] ⟨297⟩⟦12⟧⟨298⟩
+[Hidden City Entertainment] ⟦96⟧⟨299⟩⟦15⟧⟨300⟩⟦87⟧⟨301⟩⟦163⟧⟨302⟩⟦98⟧⟨303⟩⟦115⟧⟨304⟩⟦150⟧⟨305⟩⟦200⟧⟨306⟩⟦59⟧⟨307⟩⟦87⟧⟨308⟩⟦63⟧⟨309⟩
+[Hidden City Entertainment] ⟨310⟩⟦62⟧⟨311⟩⟦202⟧⟨312⟩⟦66⟧⟨313⟩⟦152⟧⟨314⟩⟦55⟧⟨315⟩
+[Nathaniel Popkin] ⟦140⟧⟨316⟩⟦17⟧⟨317⟩⟦254⟧⟨318⟩⟦80⟧⟨319⟩⟦80⟧⟨320⟩⟦102⟧⟨321⟩⟦102⟧⟨322⟩
+[Nathaniel Popkin] ⟨323⟩⟦198⟧⟨324⟩⟦35⟧⟨325⟩⟦179⟧⟨326⟩⟦201⟧⟨327⟩⟦38⟧⟨328⟩⟦3⟧⟨329⟩⟦121⟧⟨330⟩⟦118⟧⟨331⟩⟦211⟧⟨332⟩⟦210⟧⟨333⟩⟦2⟧⟨334⟩⟦212⟧⟨335⟩⟦191⟧⟨336⟩
+[Nathaniel Popkin] ⟨337⟩⟦213⟧⟨338⟩
+[Jesper Myrfors] ⟦115⟧⟨339⟩⟦186⟧⟨340⟩⟦14⟧⟨341⟩⟦128⟧⟨342⟩⟦97⟧⟨343⟩⟦63⟧⟨344⟩
+
+[user]
+
+问题：
+Who was person born in Sweden 1964 that founded Hidden City Entertainment in 2004?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_105",
+  "question": "Which American film actor and dancer starred in the 1945 film Johnny Angel?",
+  "expectedAnswer": "George Raft",
+  "predictedAnswer": "# 路径一：从电影条目直接定位主演\n\n步骤1：使用⟦17⟧，提取“a 1945 film noir”，确认 Johnny Angel 是一部1945年的黑色电影。\n步骤2：综合⟦209⟧⟦141⟧，提取“The movie”与“movie”的指代关系，判断该电影条目中列出了主演信息。\n步骤3：使用⟦40⟧，提取“stars”，定位其后的演员名单。\n步骤4：综合⟦53⟧⟦178⟧⟦105⟧，提取 Claire Trevor、Signe Hasso、Hoagy Carmichael 等演员，但问题要求“American film actor and dancer”，需进一步筛选。\n步骤5：使用⟦63⟧，提取“dancer”，结合⟦86⟧“George Raft”，判断 George Raft 同时满足演员与舞者身份。\n\n结论：George Raft 是主演 Johnny Angel 的美国电影演员和舞者。\n\n# 路径二：从 George Raft 传记条目交叉验证\n\n步骤1：使用⟦86⟧，提取“George Raft”，确认其为条目主角。\n步骤2：综合⟦230⟧⟦231⟧⟦232⟧⟦233⟧，提取出生与逝世日期，确认其美国演员身份。\n步骤3：使用⟦36⟧，提取“an American film actor”，直接验证其演员身份。\n步骤4：使用⟦63⟧，提取“dancer”，验证其舞者身份。\n步骤5：综合⟦61⟧⟦62⟧⟦137⟧，提取“crime”“crime melodramas”“melodramas”，确认其常演犯罪情节剧，与 Johnny Angel 的黑色电影类型一致。\n步骤6：使用⟦160⟧，提取“portrayals”，结合⟦85⟧“gangsters”，确认其银幕形象与 Johnny Angel 中的角色相符。\n\n结论：George Raft 是美国电影演员和舞者，其传记条目与 Johnny Angel 电影条目相互印证。\n\n# 路径三：从 Johnny Angel 歌曲条目排除干扰\n\n步骤1：使用⟦115⟧，提取“Johnny Angel”，发现其同时指向歌曲条目。\n步骤2：综合⟦209⟧⟦141⟧，提取“The movie”“movie”，区分电影条目与歌曲条目。\n步骤3：使用⟦80⟧，提取“film”，确认 Claudia Drake 与电影相关，但非问题所指演员。\n步骤4：综合⟦86⟧⟦63⟧，提取 George Raft 的演员与舞者身份，排除歌曲条目的干扰。\n步骤5：使用⟦17⟧，提取“a 1945 film noir”，确认电影年份与类型，锁定 George Raft 为主演。\n\n结论：通过排除歌曲条目干扰，确认 George Raft 是 Johnny Angel 电影的主演。\n\n# 路径四：从编剧与导演信息反向确认主演\n\n步骤1：使用⟦73⟧，提取“Edwin L. Marin”，确认导演。\n步骤2：综合⟦83⟧⟦186⟧，提取 Frank Gruber、Steve Fisher，确认编剧。\n步骤3：使用⟦50⟧，提取 Charles Gordon Booth，确认原著作者。\n步骤4：综合⟦211⟧⟦149⟧，提取“the novel”“novel”，确认电影改编自小说。\n步骤5：使用⟦40⟧，提取“stars”，结合⟦86⟧“George Raft”，确认主演为 George Raft。\n步骤6：使用⟦63⟧，提取“dancer”，验证其舞者身份。\n\n结论：通过导演、编剧、原著等周边信息反向确认，主演为 George Raft。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦86⟧⟨230⟩⟦87⟧⟨231⟩⟦174⟧⟨232⟩⟦150⟧⟨233⟩⟦36⟧⟨235⟩⟦29⟧⟨234⟩",
+  "nounCount": 309,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5412,
+    "completion_tokens": 298,
+    "total_tokens": 5710,
+    "prompt_tokens_details": {
+      "cached_tokens": 5248
+    },
+    "prompt_cache_hit_tokens": 5248,
+    "prompt_cache_miss_tokens": 164
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 803,
+    "total_tokens": 1914,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1111
+  }
+}

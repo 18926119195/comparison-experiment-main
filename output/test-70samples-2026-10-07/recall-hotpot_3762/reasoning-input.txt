@@ -1,0 +1,78 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Saturn AL-31] ⟦235⟧⟨302⟩⟦23⟧⟦111⟧⟨303⟩⟨304⟩⟦143⟧⟦255⟧⟨306⟩⟦104⟧⟨305⟩⟨307⟩
+[Saturn AL-31] ⟨308⟩⟦140⟧⟨309⟩⟦154⟧⟨310⟩⟦181⟧⟨311⟩⟦241⟧⟦50⟧⟨313⟩⟦186⟧⟨314⟩⟨312⟩⟨315⟩
+[Saturn AL-31] ⟨324⟩⟦55⟧⟦91⟧⟨325⟩⟨326⟩⟦198⟧⟨328⟩⟨327⟩⟨329⟩⟦81⟧⟨330⟩
+[Lavochkin La-9] ⟦112⟧ | ⟦112⟧
+[Lavochkin La-9] ⟦128⟧
+
+符号表：
+⟦23⟧ = a family
+⟦50⟧ = air
+⟦55⟧ = all Su-27 derivatives
+⟦81⟧ = China
+⟦91⟧ = derivatives
+⟦104⟧ = engines
+⟦111⟧ = family
+⟦112⟧ = fighter
+⟦128⟧ = jet
+⟦140⟧ = Lyulka
+⟦143⟧ = military turbofan engines
+⟦154⟧ = now NPO Saturn
+⟦181⟧ = Soviet Union
+⟦186⟧ = superiority
+⟦198⟧ = the Chengdu J-10 multirole jet fighter
+⟦235⟧ = The Saturn
+⟦241⟧ = the Sukhoi Su-27 air superiority fighter
+⟦255⟧ = turbofan
+
+占位符映射：
+⟨302⟩ =  AL-31 is 
+⟨303⟩ = 
+⟨304⟩ =  of 
+⟨305⟩ = 
+⟨306⟩ =  
+⟨307⟩ = .
+⟨308⟩ =  It was developed by 
+⟨309⟩ = , 
+⟨310⟩ = , of 
+⟨311⟩ = , originally for 
+⟨312⟩ = 
+⟨313⟩ =  
+⟨314⟩ =  
+⟨315⟩ = .
+⟨324⟩ =  Currently it powers 
+⟨325⟩ = 
+⟨326⟩ =  and 
+⟨327⟩ = 
+⟨328⟩ =  
+⟨329⟩ =  which has been developed by 
+⟨330⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Saturn AL-31 is an engine that powers the aircraft produced in what country?

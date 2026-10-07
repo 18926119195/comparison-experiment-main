@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_4173",
+  "question": "What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-hosts?",
+  "expectedAnswer": "College Football Scoreboard",
+  "predictedAnswer": "# 路径一：从选秀信息定位人物，再追踪其主持节目\n\n步骤1：使用⟦160⟧，提取“the 1995 NFL Draft”这一选秀事件，结合⟨278⟩“eighth overall in”，锁定“在1995年NFL选秀中第八顺位被选中”的人。\n\n步骤2：综合⟦82⟧⟦12⟧⟦228⟧，确认该人物为 Joseph Scott Galloway（Joey Galloway），身份是 former American football wide receiver。\n\n步骤3：使用⟦47⟧，提取 Galloway 当前身份为“current college football analyst”，并结合⟦56⟧⟦57⟧，判断其参与主持的节目名称为 ESPN College Football Friday Primetime。\n\n结论：该节目名为 **ESPN College Football Friday Primetime**。\n\n# 路径二：从节目材料反向验证主持人身份\n\n步骤1：使用⟦57⟧，提取节目名称“ESPN College Football Friday Primetime”，并综合⟦56⟧⟦17⟧⟦127⟧，确认该节目是 ESPN 的一档 live game presentation。\n\n步骤2：综合⟦41⟧⟦61⟧⟦51⟧，提取节目内容为 college football / Division 1-A college football，与 Galloway 的“college football analyst”身份⟦47⟧一致。\n\n步骤3：使用⟦82⟧，确认 Joey Galloway 的全名为 Joseph Scott Galloway，再结合⟦160⟧⟨278⟩，交叉验证其1995年第八顺位被选中的经历，确认节目主持人正是此人。\n\n结论：Galloway 联合主持的节目是 **ESPN College Football Friday Primetime**。\n\n# 路径三：通过职业生涯轨迹排除干扰项\n\n步骤1：综合⟦213⟧⟦179⟧⟦154⟧⟦104⟧⟦119⟧⟦225⟧，提取 Galloway 曾效力的多支 NFL 球队（Seahawks、Cowboys、Buccaneers、Patriots、Steelers、Redskins），确认其球员生涯⟦200⟧。\n\n步骤2：使用⟦47⟧，提取其退役后转型为“current college football analyst”，与球员身份形成对比，排除其他球队相关节目。\n\n步骤3：综合⟦56⟧⟦57⟧⟦145⟧，确认其主持节目为 ESPN College Football Friday Primetime，有时在 ESPN2 播出。\n\n结论：该节目名称为 **ESPN College Football Friday Primetime**。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦82⟧⟨266⟩⟦12⟧⟨267⟩⟨268⟩⟦228⟧⟦129⟧⟨269⟩⟨270⟩⟦200⟧⟨271⟩⟦47⟧",
+  "nounCount": 323,
+  "score": 0.6666666666666666,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 5655,
+    "completion_tokens": 229,
+    "total_tokens": 5884,
+    "prompt_tokens_details": {
+      "cached_tokens": 5504
+    },
+    "prompt_cache_hit_tokens": 5504,
+    "prompt_cache_miss_tokens": 151
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 950,
+    "completion_tokens": 553,
+    "total_tokens": 1503,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 950
+  }
+}

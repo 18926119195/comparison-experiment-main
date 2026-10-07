@@ -1,0 +1,106 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Royal Arena] ⟦99⟧⟨162⟩⟦15⟧⟨163⟩⟨164⟩⟦89⟧⟨165⟩⟦16⟧⟦54⟧⟨166⟩⟨167⟩⟦143⟧⟦42⟧⟨168⟩⟨169⟩⟨170⟩⟨171⟩
+[Royal Arena] ⟦150⟧⟦66⟧⟨172⟩⟨173⟩⟦46⟧⟦46⟧⟨174⟩⟨175⟩⟦7⟧⟨176⟩⟦139⟧⟨177⟩⟨178⟩⟦62⟧⟨179⟩
+[2017 European Short Course Swimming Championships] ⟦133⟧⟨223⟩⟨222⟩⟨224⟩⟨225⟩⟦47⟧⟨226⟩⟦53⟧⟨227⟩ | ⟦47⟧⟦53⟧
+[2017 European Short Course Swimming Championships] ⟦151⟧⟦81⟧⟨228⟩⟨229⟩⟦155⟧⟨230⟩
+[2017 European Short Course Swimming Championships] ⟨231⟩⟦149⟧⟦108⟧⟨233⟩⟨232⟩⟨234⟩⟦159⟧⟦28⟧⟨235⟩⟨236⟩⟦13⟧⟦37⟧⟨237⟩⟨238⟩⟦41⟧⟨239⟩ | ⟦28⟧ | ⟦28⟧
+[Esther Baron] ⟦91⟧⟦91⟧ | ⟦60⟧
+[Esther Baron] ⟦48⟧
+
+符号表：
+⟦7⟧ = 26 June
+⟦13⟧ = a capacity
+⟦15⟧ = a multi-use indoor arena
+⟦16⟧ = a new development
+⟦28⟧ = arena
+⟦37⟧ = capacity
+⟦41⟧ = circa
+⟦42⟧ = city
+⟦46⟧ = construction
+⟦47⟧ = Copenhagen
+⟦48⟧ = course
+⟦53⟧ = Denmark
+⟦54⟧ = development
+⟦60⟧ = event
+⟦62⟧ = February
+⟦66⟧ = ground
+⟦81⟧ = meet
+⟦89⟧ = Ørestad Syd
+⟦91⟧ = place
+⟦99⟧ = Royal Arena
+⟦108⟧ = sports
+⟦133⟧ = The 2017 European Short Course Swimming Championships
+⟦139⟧ = the arena
+⟦143⟧ = the city
+⟦149⟧ = the first major sports event
+⟦150⟧ = The ground
+⟦151⟧ = The meet
+⟦155⟧ = the Royal Arena
+⟦159⟧ = this arena
+
+占位符映射：
+⟨162⟩ =  is 
+⟨163⟩ = 
+⟨164⟩ =  in 
+⟨165⟩ = , 
+⟨166⟩ = 
+⟨167⟩ =  in 
+⟨168⟩ = 
+⟨169⟩ =  of 
+⟨170⟩ = , 
+⟨171⟩ = .
+⟨172⟩ = 
+⟨173⟩ =  was broken for 
+⟨174⟩ = 
+⟨175⟩ =  on 
+⟨176⟩ =  2013 and 
+⟨177⟩ = 
+⟨178⟩ =  opened in 
+⟨179⟩ =  2017.
+⟨222⟩ = 
+⟨223⟩ =  Swimming Championships will take 
+⟨224⟩ = 
+⟨225⟩ =  in 
+⟨226⟩ = , 
+⟨227⟩ = .
+⟨228⟩ = 
+⟨229⟩ =  will be held in 
+⟨230⟩ = , which was finished in early 2017.
+⟨231⟩ =  It will be 
+⟨232⟩ = 
+⟨233⟩ =  
+⟨234⟩ =  in 
+⟨235⟩ = 
+⟨236⟩ = , which has 
+⟨237⟩ = 
+⟨238⟩ =  of 
+⟨239⟩ =  12,500.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The 2017 European Short Course Swimming Championships will be held in an Arena which began construction when?

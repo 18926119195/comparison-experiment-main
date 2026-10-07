@@ -1,0 +1,409 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (LIA
+⟦2⟧ = 11 April
+⟦3⟧ = 15 February
+⟦4⟧ = 20 October
+⟦5⟧ = 26 March
+⟦6⟧ = 5 March
+⟦7⟧ = a Colonel
+⟦8⟧ = a former aide
+⟦9⟧ = a full-scale civil war
+⟦10⟧ = a girl
+⟦11⟧ = a Libyan businessman
+⟦12⟧ = a Libyan former association football player
+⟦13⟧ = a Libyan middle manager
+⟦14⟧ = a member
+⟦15⟧ = a military base
+⟦16⟧ = a military operation
+⟦17⟧ = a missing 7 billion dollars
+⟦18⟧ = a post-Gaddafi Libya
+⟦19⟧ = a potential turning point
+⟦20⟧ = a series
+⟦21⟧ = a small fraction
+⟦22⟧ = a sovereign wealth fund
+⟦23⟧ = a state oil company
+⟦24⟧ = Abdulrahman Ben Yezza
+⟦25⟧ = Abdurrahim El-Keib
+⟦26⟧ = Abu-Bakr Yunis Jabr
+⟦27⟧ = administration
+⟦28⟧ = Africa
+⟦29⟧ = aftermath
+⟦30⟧ = Ahmed al-Gaddafi al-Qahsi
+⟦31⟧ = aide
+⟦32⟧ = air
+⟦33⟧ = Ajdabiya
+⟦34⟧ = Al-Saadi Muammar Gaddafi
+⟦35⟧ = Algeria
+⟦36⟧ = AmbdulMagid Breish
+⟦37⟧ = an armed battle
+⟦38⟧ = an effort
+⟦39⟧ = an intermediary
+⟦40⟧ = An Interpol notice
+⟦41⟧ = an oppositional stronghold
+⟦42⟧ = anti-Gaddafi forces
+⟦43⟧ = anti-government rebels
+⟦44⟧ = any African country
+⟦45⟧ = Arab nationalism
+⟦46⟧ = Arab socialism
+⟦47⟧ = Arabic
+⟦48⟧ = area
+⟦49⟧ = armed groups
+⟦50⟧ = Army
+⟦51⟧ = assistance
+⟦52⟧ = association
+⟦53⟧ = August
+⟦54⟧ = authorities
+⟦55⟧ = Ayesha
+⟦56⟧ = base
+⟦57⟧ = Bashir
+⟦58⟧ = Bashir Saleh Bashir
+⟦59⟧ = battle
+⟦60⟧ = Ben Yezza
+⟦61⟧ = Benghazi
+⟦62⟧ = bombing
+⟦63⟧ = both civil wars
+⟦64⟧ = Brega
+⟦65⟧ = brothers
+⟦66⟧ = businessman
+⟦67⟧ = c.
+⟦68⟧ = capital
+⟦69⟧ = car
+⟦70⟧ = casualties
+⟦71⟧ = centre
+⟦72⟧ = century
+⟦73⟧ = chairman
+⟦74⟧ = charges
+⟦75⟧ = child
+⟦76⟧ = children
+⟦77⟧ = circle
+⟦78⟧ = city
+⟦79⟧ = Colonel Gaddafi
+⟦80⟧ = Colonel Muammar Gaddafi's forces
+⟦81⟧ = commander
+⟦82⟧ = committee
+⟦83⟧ = companies
+⟦84⟧ = company
+⟦85⟧ = compound
+⟦86⟧ = conflict
+⟦87⟧ = conflicts
+⟦88⟧ = control
+⟦89⟧ = country
+⟦90⟧ = couple
+⟦91⟧ = cousin
+⟦92⟧ = crisis
+⟦93⟧ = daughter
+⟦94⟧ = death
+⟦95⟧ = defense
+⟦96⟧ = differences
+⟦97⟧ = dollars
+⟦98⟧ = effort
+⟦99⟧ = experts
+⟦100⟧ = extensive allied air raids
+⟦101⟧ = external military intervention
+⟦102⟧ = facilities
+⟦103⟧ = family
+⟦104⟧ = fate
+⟦105⟧ = fighters
+⟦106⟧ = financial experts
+⟦107⟧ = football
+⟦108⟧ = forces
+⟦109⟧ = foreign military intervention
+⟦110⟧ = former defense minister
+⟦111⟧ = former Libyan leader Muammar Gaddafi
+⟦112⟧ = fraction
+⟦113⟧ = France
+⟦114⟧ = frontline
+⟦115⟧ = fund
+⟦116⟧ = funds
+⟦117⟧ = Gaddafi
+⟦118⟧ = Gaddafi's daughter
+⟦119⟧ = Gaddafi's inner circle
+⟦120⟧ = gates
+⟦121⟧ = girl
+⟦122⟧ = governance
+⟦123⟧ = government
+⟦124⟧ = groups
+⟦125⟧ = hands
+⟦126⟧ = Hannibal
+⟦127⟧ = head
+⟦128⟧ = her brothers
+⟦129⟧ = his car
+⟦130⟧ = His fourth child
+⟦131⟧ = his own Third International Theory
+⟦132⟧ = his presidency
+⟦133⟧ = his role
+⟦134⟧ = his son
+⟦135⟧ = hometown
+⟦136⟧ = hotels
+⟦137⟧ = industry
+⟦138⟧ = instability
+⟦139⟧ = intermediary
+⟦140⟧ = intervention
+⟦141⟧ = investigation
+⟦142⟧ = investors
+⟦143⟧ = Italian oil company Eni
+⟦144⟧ = its then-leader Shokri Ghanem
+⟦145⟧ = its usual level
+⟦146⟧ = junction
+⟦147⟧ = key
+⟦148⟧ = leader
+⟦149⟧ = level
+⟦150⟧ = Libya
+⟦151⟧ = Libya's economically crucial oil industry
+⟦152⟧ = Libya's governance
+⟦153⟧ = Libya's National Oil Corporation
+⟦154⟧ = Libya's oil money
+⟦155⟧ = Libya’s oil wealth
+⟦156⟧ = Libya's Special Forces
+⟦157⟧ = Libyan authorities
+⟦158⟧ = Libyan funds
+⟦159⟧ = loyalist
+⟦160⟧ = loyalist forces
+⟦161⟧ = loyalists
+⟦162⟧ = management
+⟦163⟧ = manager
+⟦164⟧ = Mehdi Mohammed Zeyo
+⟦165⟧ = member
+⟦166⟧ = military forces
+⟦167⟧ = mineral
+⟦168⟧ = mineral resources
+⟦169⟧ = minister
+⟦170⟧ = mistake
+⟦171⟧ = money
+⟦172⟧ = most facilities
+⟦173⟧ = Muammar Gaddafi
+⟦174⟧ = Muammar Gaddafi's forces
+⟦175⟧ = Muammar Gaddafi's government
+⟦176⟧ = Muammar Gaddafi's hometown
+⟦177⟧ = Muammar Mohammed Abu Minyar Gaddafi
+⟦178⟧ = Muhammad
+⟦179⟧ = murder
+⟦180⟧ = murder charges
+⟦181⟧ = Mutassim Gaddafi
+⟦182⟧ = nationalism
+⟦183⟧ = Niger
+⟦184⟧ = notice
+⟦185⟧ = NTC fighters
+⟦186⟧ = offensive
+⟦187⟧ = officials
+⟦188⟧ = oil
+⟦189⟧ = onset
+⟦190⟧ = operation
+⟦191⟧ = operator
+⟦192⟧ = others
+⟦193⟧ = ousting
+⟦194⟧ = output
+⟦195⟧ = outside assistance
+⟦196⟧ = part
+⟦197⟧ = peaceful protests
+⟦198⟧ = pending investigation
+⟦199⟧ = periods
+⟦200⟧ = phase
+⟦201⟧ = place
+⟦202⟧ = player
+⟦203⟧ = point
+⟦204⟧ = political theorist
+⟦205⟧ = politician
+⟦206⟧ = presidency
+⟦207⟧ = pro-Gaddafi forces
+⟦208⟧ = pro-government forces
+⟦209⟧ = proliferation
+⟦210⟧ = protests
+⟦211⟧ = Qahsi
+⟦212⟧ = raids
+⟦213⟧ = rebel
+⟦214⟧ = rebel anti-Gaddafi forces
+⟦215⟧ = rebel hands
+⟦216⟧ = rebellion
+⟦217⟧ = rebels
+⟦218⟧ = renewed civil war
+⟦219⟧ = reported differences
+⟦220⟧ = reserves
+⟦221⟧ = resources
+⟦222⟧ = Revolutionary Chairman
+⟦223⟧ = rival groups
+⟦224⟧ = road
+⟦225⟧ = role
+⟦226⟧ = route
+⟦227⟧ = scale
+⟦228⟧ = seized control
+⟦229⟧ = September
+⟦230⟧ = series
+⟦231⟧ = shares
+⟦232⟧ = Sidra
+⟦233⟧ = Sidra offensive
+⟦234⟧ = Sirte
+⟦235⟧ = socialism
+⟦236⟧ = some Libyan officials
+⟦237⟧ = son
+⟦238⟧ = Spring
+⟦239⟧ = state
+⟦240⟧ = stronghold
+⟦241⟧ = sub-Saharan Africa
+⟦242⟧ = tens
+⟦243⟧ = tens of thousands
+⟦244⟧ = the "Brotherly Leader
+⟦245⟧ = the "worst mistake
+⟦246⟧ = the 2011 Libyan Civil War
+⟦247⟧ = the 26 July 2011 bombing
+⟦248⟧ = the anti-Gaddafi forces
+⟦249⟧ = the Arab Spring
+⟦250⟧ = the Arab Spring protests
+⟦251⟧ = the area
+⟦252⟧ = the base
+⟦253⟧ = the Battle
+⟦254⟧ = the city
+⟦255⟧ = The city centre
+⟦256⟧ = The civil war's aftermath
+⟦257⟧ = the civilian oppositional fighters
+⟦258⟧ = the civilian youth
+⟦259⟧ = the commander
+⟦260⟧ = the company
+⟦261⟧ = The conflict
+⟦262⟧ = the country
+⟦263⟧ = The couple
+⟦264⟧ = the cousin
+⟦265⟧ = the fate
+⟦266⟧ = the First Libyan Civil War
+⟦267⟧ = the first phase
+⟦268⟧ = the forces
+⟦269⟧ = the frontline oil town
+⟦270⟧ = the Gaddafi administration
+⟦271⟧ = the Gaddafi compound
+⟦272⟧ = the Gaddafi family
+⟦273⟧ = the Gaddafi government
+⟦274⟧ = The Gaddafi loyalists
+⟦275⟧ = the gates
+⟦276⟧ = the government
+⟦277⟧ = the Great Socialist People's Libyan Arab Jamahiriya
+⟦278⟧ = the Gulf
+⟦279⟧ = the key
+⟦280⟧ = the largest oil reserves
+⟦281⟧ = the largest single investors
+⟦282⟧ = the Libyan African Portfolio
+⟦283⟧ = the Libyan Arab Republic
+⟦284⟧ = the Libyan Army
+⟦285⟧ = the Libyan Civil War
+⟦286⟧ = the Libyan Coastal Highway
+⟦287⟧ = the Libyan government
+⟦288⟧ = the Libyan Investment Authority
+⟦289⟧ = the Libyan leader
+⟦290⟧ = the Oil Minister
+⟦291⟧ = the ongoing conflicts
+⟦292⟧ = The ongoing crisis
+⟦293⟧ = the only major rebel-held city
+⟦294⟧ = the onset
+⟦295⟧ = the operator's management committee
+⟦296⟧ = the ousting
+⟦297⟧ = the output
+⟦298⟧ = the rebel capital
+⟦299⟧ = the road junction
+⟦300⟧ = the Second Battle
+⟦301⟧ = The Second Gulf
+⟦302⟧ = the second phase
+⟦303⟧ = the strategic road junction
+⟦304⟧ = the third son
+⟦305⟧ = The timeline
+⟦306⟧ = the town
+⟦307⟧ = the wake
+⟦308⟧ = the whole rebellion
+⟦309⟧ = theorist
+⟦310⟧ = thousands
+⟦311⟧ = three children
+⟦312⟧ = timeline
+⟦313⟧ = Tobruk
+⟦314⟧ = town
+⟦315⟧ = towns
+⟦316⟧ = Tripoli
+⟦317⟧ = turning
+⟦318⟧ = two periods
+⟦319⟧ = U.S. President Barack Obama
+⟦320⟧ = United Nations Security Council Resolution
+⟦321⟧ = video
+⟦322⟧ = violence
+⟦323⟧ = wake
+⟦324⟧ = war
+⟦325⟧ = wars
+⟦326⟧ = wealth
+⟦327⟧ = youth
+⟦328⟧ = Zeyo
+⟦329⟧ = أحمد
+⟦330⟧ = الساعدي معمر
+⟦331⟧ = القذافي‎ ‎
+⟦332⟧ = عبد الرحمن عبدالله بن يزة‎ ‎
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Mehdi Mohammed Zeyo] ⟦164⟧⟨1⟩⟦67⟧⟨2⟩⟦13⟧⟨3⟩⟦163⟧⟨4⟩⟦23⟧⟨5⟩⟦239⟧⟨6⟩⟦188⟧⟨7⟩⟦84⟧⟨8⟩⟦61⟧⟨9⟩⟦150⟧⟨10⟩
+[Mehdi Mohammed Zeyo] ⟨11⟩⟦307⟧⟨12⟩⟦323⟧⟨13⟩⟦285⟧⟨14⟩⟦328⟧⟨15⟩⟦258⟧⟨16⟩⟦327⟧⟨17⟩⟦174⟧⟨18⟩⟦108⟧⟨19⟩⟦129⟧⟨20⟩⟦69⟧⟨21⟩⟦275⟧⟨22⟩⟦120⟧⟨23⟩⟦15⟧⟨24⟩⟦56⟧⟨25⟩⟦61⟧⟨26⟩
+[Mehdi Mohammed Zeyo] ⟨27⟩⟦257⟧⟨28⟩⟦105⟧⟨29⟩⟦252⟧⟨30⟩⟦56⟧⟨31⟩⟦61⟧⟨32⟩⟦41⟧⟨33⟩⟦240⟧⟨34⟩⟦285⟧⟨35⟩
+[Timeline of the 2011 Libyan Civil War] ⟦305⟧⟨36⟩⟦312⟧⟨37⟩⟦285⟧⟨38⟩⟦3⟧⟨39⟩⟦4⟧⟨40⟩
+[Timeline of the 2011 Libyan Civil War] ⟨41⟩⟦20⟧⟨42⟩⟦230⟧⟨43⟩⟦197⟧⟨44⟩⟦210⟧⟨45⟩⟦192⟧⟨46⟩⟦192⟧⟨47⟩⟦249⟧⟨48⟩⟦238⟧⟨49⟩⟦9⟧⟨50⟩⟦227⟧⟨51⟩⟦324⟧⟨52⟩⟦268⟧⟨53⟩⟦108⟧⟨54⟩⟦175⟧⟨55⟩⟦123⟧⟨56⟩⟦248⟧⟨57⟩⟦108⟧⟨58⟩
+[Timeline of the 2011 Libyan Civil War] ⟦261⟧⟨59⟩⟦86⟧⟨60⟩⟦318⟧⟨61⟩⟦199⟧⟨62⟩⟦101⟧⟨63⟩⟦140⟧⟨64⟩⟦320⟧⟨65⟩
+[Ahmed al-Gaddafi al-Qahsi] ⟦30⟧⟨66⟩⟦47⟧⟨67⟩⟦329⟧⟨68⟩⟦329⟧⟨69⟩⟦331⟧⟨70⟩⟦72⟧⟨71⟩⟦264⟧⟨72⟩⟦91⟧⟨73⟩⟦111⟧⟨74⟩⟦148⟧⟨75⟩
+[Ahmed al-Gaddafi al-Qahsi] ⟨76⟩⟦118⟧⟨77⟩⟦93⟧⟨78⟩⟦55⟧⟨79⟩
+[Ahmed al-Gaddafi al-Qahsi] ⟨80⟩⟦272⟧⟨81⟩⟦103⟧⟨82⟩⟦211⟧⟨83⟩⟦7⟧⟨84⟩⟦284⟧⟨85⟩⟦50⟧⟨86⟩⟦247⟧⟨87⟩⟦62⟧⟨88⟩⟦271⟧⟨89⟩⟦85⟧⟨90⟩⟦285⟧⟨91⟩
+[Ahmed al-Gaddafi al-Qahsi] ⟦263⟧⟨92⟩⟦90⟧⟨93⟩⟦311⟧⟨94⟩⟦76⟧⟨95⟩⟦261⟧⟨96⟩⟦86⟧⟨97⟩
+[Ahmed al-Gaddafi al-Qahsi] ⟨98⟩⟦130⟧⟨99⟩⟦75⟧⟨100⟩⟦10⟧⟨101⟩⟦121⟧⟨102⟩⟦35⟧⟨103⟩⟦55⟧⟨104⟩⟦128⟧⟨105⟩⟦65⟧⟨106⟩⟦126⟧⟨107⟩⟦178⟧⟨108⟩⟦253⟧⟨109⟩⟦316⟧⟨110⟩
+[Al-Saadi Gaddafi] ⟦34⟧⟨111⟩⟦47⟧⟨112⟩⟦330⟧⟨113⟩⟦304⟧⟨114⟩⟦237⟧⟨115⟩⟦111⟧⟨116⟩⟦148⟧⟨117⟩
+[Al-Saadi Gaddafi] ⟨118⟩⟦12⟧⟨119⟩⟦52⟧⟨120⟩⟦107⟧⟨121⟩⟦202⟧⟨122⟩
+[Al-Saadi Gaddafi] ⟨123⟩⟦259⟧⟨124⟩⟦81⟧⟨125⟩⟦156⟧⟨126⟩⟦285⟧⟨127⟩
+[Al-Saadi Gaddafi] ⟦40⟧⟨128⟩⟦184⟧⟨129⟩
+[Al-Saadi Gaddafi] ⟨130⟩⟦6⟧⟨131⟩⟦183⟧⟨132⟩⟦150⟧⟨133⟩⟦179⟧⟨134⟩⟦180⟧⟨135⟩⟦74⟧⟨136⟩
+[Al-Saadi Gaddafi] ⟨137⟩⟦53⟧⟨138⟩⟦321⟧⟨139⟩⟦321⟧⟨140⟩⟦117⟧⟨141⟩
+[Bashir Saleh Bashir] ⟦58⟧⟨142⟩⟦8⟧⟨143⟩⟦31⟧⟨144⟩⟦111⟧⟨145⟩⟦148⟧⟨146⟩
+[Bashir Saleh Bashir] ⟨147⟩⟦127⟧⟨148⟩⟦127⟧⟨149⟩⟦282⟧⟨150⟩⟦22⟧⟨151⟩⟦326⟧⟨152⟩⟦115⟧⟨153⟩⟦155⟧⟨154⟩⟦188⟧⟨155⟩⟦326⟧⟨156⟩⟦241⟧⟨157⟩⟦39⟧⟨158⟩⟦139⟧⟨159⟩⟦150⟧⟨160⟩⟦28⟧⟨161⟩⟦113⟧⟨162⟩
+[Bashir Saleh Bashir] ⟦57⟧⟨163⟩⟦253⟧⟨164⟩⟦316⟧⟨165⟩⟦285⟧⟨166⟩
+[Bashir Saleh Bashir] ⟦150⟧⟨167⟩⟦113⟧⟨168⟩
+[Bashir Saleh Bashir] ⟦57⟧⟨169⟩⟦154⟧⟨170⟩⟦188⟧⟨171⟩⟦171⟧⟨172⟩⟦272⟧⟨173⟩⟦103⟧⟨174⟩⟦136⟧⟨175⟩⟦136⟧⟨176⟩⟦167⟧⟨177⟩⟦168⟧⟨178⟩⟦221⟧⟨179⟩⟦231⟧⟨180⟩⟦231⟧⟨181⟩⟦83⟧⟨182⟩⟦83⟧⟨183⟩⟦236⟧⟨184⟩⟦187⟧⟨185⟩⟦106⟧⟨186⟩⟦99⟧⟨187⟩⟦281⟧⟨188⟩⟦142⟧⟨189⟩⟦28⟧⟨190⟩
+[Bashir Saleh Bashir] ⟦157⟧⟨191⟩⟦54⟧⟨192⟩⟦279⟧⟨193⟩⟦147⟧⟨194⟩⟦17⟧⟨195⟩⟦97⟧⟨196⟩⟦158⟧⟨197⟩⟦116⟧⟨198⟩
+[Libyan Civil War (2011–present)] ⟦285⟧⟨199⟩⟦291⟧⟨200⟩⟦87⟧⟨201⟩⟦150⟧⟨202⟩⟦250⟧⟨203⟩⟦210⟧⟨204⟩⟦266⟧⟨205⟩⟦109⟧⟨206⟩⟦140⟧⟨207⟩⟦296⟧⟨208⟩⟦193⟧⟨209⟩⟦94⟧⟨210⟩⟦94⟧⟨211⟩⟦173⟧⟨212⟩
+[Libyan Civil War (2011–present)] ⟦256⟧⟨213⟩⟦324⟧⟨214⟩⟦29⟧⟨215⟩⟦209⟧⟨216⟩⟦209⟧⟨217⟩⟦49⟧⟨218⟩⟦124⟧⟨219⟩⟦322⟧⟨220⟩⟦322⟧⟨221⟩⟦138⟧⟨222⟩⟦138⟧⟨223⟩⟦262⟧⟨224⟩⟦89⟧⟨225⟩⟦218⟧⟨226⟩⟦324⟧⟨227⟩
+[Libyan Civil War (2011–present)] ⟦292⟧⟨228⟩⟦92⟧⟨229⟩⟦150⟧⟨230⟩⟦242⟧⟨231⟩⟦243⟧⟨232⟩⟦310⟧⟨233⟩⟦70⟧⟨234⟩⟦70⟧⟨235⟩⟦294⟧⟨236⟩⟦189⟧⟨237⟩⟦322⟧⟨238⟩⟦322⟧⟨239⟩
+[Libyan Civil War (2011–present)] ⟨240⟩⟦63⟧⟨241⟩⟦325⟧⟨242⟩⟦297⟧⟨243⟩⟦194⟧⟨244⟩⟦151⟧⟨245⟩⟦188⟧⟨246⟩⟦137⟧⟨247⟩⟦21⟧⟨248⟩⟦112⟧⟨249⟩⟦145⟧⟨250⟩⟦149⟧⟨251⟩⟦172⟧⟨252⟩⟦102⟧⟨253⟩⟦223⟧⟨254⟩⟦124⟧⟨255⟩⟦280⟧⟨256⟩⟦188⟧⟨257⟩⟦220⟧⟨258⟩⟦44⟧⟨259⟩⟦89⟧⟨260⟩
+[Libyan Civil War (2011–present)] ⟦319⟧⟨261⟩⟦2⟧⟨262⟩⟦18⟧⟨263⟩⟦245⟧⟨264⟩⟦170⟧⟨265⟩⟦132⟧⟨266⟩⟦206⟧⟨267⟩
+[Battle of Ajdabiya] ⟦253⟧⟨268⟩⟦33⟧⟨269⟩⟦37⟧⟨270⟩⟦59⟧⟨271⟩⟦254⟧⟨272⟩⟦78⟧⟨273⟩⟦33⟧⟨274⟩⟦201⟧⟨275⟩⟦201⟧⟨276⟩⟦196⟧⟨277⟩⟦196⟧⟨278⟩⟦285⟧⟨279⟩
+[Battle of Ajdabiya] ⟨280⟩⟦43⟧⟨281⟩⟦217⟧⟨282⟩⟦166⟧⟨283⟩⟦108⟧⟨284⟩⟦289⟧⟨285⟩⟦148⟧⟨286⟩⟦173⟧⟨287⟩
+[Battle of Ajdabiya] ⟨288⟩⟦300⟧⟨289⟩⟦64⟧⟨290⟩⟦207⟧⟨291⟩⟦108⟧⟨292⟩⟦306⟧⟨293⟩⟦314⟧⟨294⟩⟦33⟧⟨295⟩⟦293⟧⟨296⟩⟦213⟧⟨297⟩⟦78⟧⟨298⟩⟦226⟧⟨299⟩⟦226⟧⟨300⟩⟦298⟧⟨301⟩⟦68⟧⟨302⟩⟦61⟧⟨303⟩
+[Battle of Ajdabiya] ⟦253⟧⟨304⟩⟦59⟧⟨305⟩⟦33⟧⟨306⟩⟦19⟧⟨307⟩⟦317⟧⟨308⟩⟦203⟧⟨309⟩⟦261⟧⟨310⟩⟦86⟧⟨311⟩⟦265⟧⟨312⟩⟦104⟧⟨313⟩⟦308⟧⟨314⟩⟦216⟧⟨315⟩⟦273⟧⟨316⟩⟦123⟧⟨317⟩
+[Battle of Ajdabiya] ⟨318⟩⟦5⟧⟨319⟩⟦217⟧⟨320⟩⟦100⟧⟨321⟩⟦32⟧⟨322⟩⟦212⟧⟨323⟩⟦228⟧⟨324⟩⟦88⟧⟨325⟩⟦269⟧⟨326⟩⟦114⟧⟨327⟩⟦188⟧⟨328⟩⟦314⟧⟨329⟩⟦33⟧⟨330⟩⟦80⟧⟨331⟩⟦108⟧⟨332⟩
+[Battle of Ajdabiya] ⟨333⟩⟦267⟧⟨334⟩⟦200⟧⟨335⟩⟦253⟧⟨336⟩⟦59⟧⟨337⟩⟦207⟧⟨338⟩⟦108⟧⟨339⟩⟦303⟧⟨340⟩⟦224⟧⟨341⟩⟦146⟧⟨342⟩⟦61⟧⟨343⟩⟦313⟧⟨344⟩⟦254⟧⟨345⟩⟦78⟧⟨346⟩
+[Battle of Ajdabiya] ⟦255⟧⟨347⟩⟦78⟧⟨348⟩⟦71⟧⟨349⟩⟦213⟧⟨350⟩⟦215⟧⟨351⟩⟦125⟧⟨352⟩⟦208⟧⟨353⟩⟦108⟧⟨354⟩⟦195⟧⟨355⟩⟦51⟧⟨356⟩
+[Battle of Ajdabiya] ⟨357⟩⟦302⟧⟨358⟩⟦200⟧⟨359⟩⟦42⟧⟨360⟩⟦108⟧⟨361⟩⟦299⟧⟨362⟩⟦224⟧⟨363⟩⟦146⟧⟨364⟩⟦159⟧⟨365⟩⟦160⟧⟨366⟩⟦108⟧⟨367⟩⟦254⟧⟨368⟩⟦78⟧⟨369⟩⟦286⟧⟨370⟩⟦234⟧⟨371⟩
+[Second Gulf of Sidra offensive] ⟦301⟧⟨372⟩⟦233⟧⟨373⟩⟦186⟧⟨374⟩⟦16⟧⟨375⟩⟦190⟧⟨376⟩⟦285⟧⟨377⟩⟦214⟧⟨378⟩⟦108⟧⟨379⟩⟦53⟧⟨380⟩⟦229⟧⟨381⟩⟦88⟧⟨382⟩⟦88⟧⟨383⟩⟦315⟧⟨384⟩⟦315⟧⟨385⟩⟦278⟧⟨386⟩⟦232⟧⟨387⟩⟦38⟧⟨388⟩⟦98⟧⟨389⟩⟦176⟧⟨390⟩⟦135⟧⟨391⟩⟦234⟧⟨392⟩⟦207⟧⟨393⟩⟦108⟧⟨394⟩
+[Second Gulf of Sidra offensive] ⟨395⟩⟦4⟧⟨396⟩⟦173⟧⟨397⟩⟦134⟧⟨398⟩⟦237⟧⟨399⟩⟦181⟧⟨400⟩⟦110⟧⟨401⟩⟦95⟧⟨402⟩⟦169⟧⟨403⟩⟦26⟧⟨404⟩
+[Second Gulf of Sidra offensive] ⟦274⟧⟨405⟩⟦161⟧⟨406⟩⟦251⟧⟨407⟩⟦48⟧⟨408⟩⟦185⟧⟨409⟩⟦105⟧⟨410⟩⟦234⟧⟨411⟩
+[Abdulrahman Ben Yezza] ⟦24⟧⟨412⟩⟦47⟧⟨413⟩⟦332⟧⟨414⟩⟦11⟧⟨415⟩⟦66⟧⟨416⟩⟦205⟧⟨417⟩⟦205⟧⟨418⟩⟦290⟧⟨419⟩⟦276⟧⟨420⟩⟦123⟧⟨421⟩⟦25⟧⟨422⟩
+[Abdulrahman Ben Yezza] ⟨423⟩⟦246⟧⟨424⟩⟦60⟧⟨425⟩⟦73⟧⟨426⟩⟦73⟧⟨427⟩⟦295⟧⟨428⟩⟦191⟧⟨429⟩⟦162⟧⟨430⟩⟦82⟧⟨431⟩⟦143⟧⟨432⟩⟦188⟧⟨433⟩⟦84⟧⟨434⟩
+[Abdulrahman Ben Yezza] ⟨435⟩⟦153⟧⟨436⟩⟦152⟧⟨437⟩⟦122⟧⟨438⟩⟦173⟧⟨439⟩⟦260⟧⟨440⟩⟦84⟧⟨441⟩⟦219⟧⟨442⟩⟦96⟧⟨443⟩⟦144⟧⟨444⟩⟦148⟧⟨445⟩⟦14⟧⟨446⟩⟦165⟧⟨447⟩⟦119⟧⟨448⟩⟦77⟧⟨449⟩
+[Abdulrahman Ben Yezza] ⟨450⟩⟦287⟧⟨451⟩⟦123⟧⟨452⟩⟦24⟧⟨453⟩⟦73⟧⟨454⟩⟦73⟧⟨455⟩⟦288⟧⟨456⟩⟦1⟧⟨457⟩
+[Abdulrahman Ben Yezza] ⟨458⟩⟦36⟧⟨459⟩⟦198⟧⟨460⟩⟦141⟧⟨461⟩⟦133⟧⟨462⟩⟦225⟧⟨463⟩⟦270⟧⟨464⟩⟦27⟧⟨465⟩
+[Muammar Gaddafi] ⟦177⟧⟨466⟩⟦4⟧⟨467⟩⟦79⟧⟨468⟩⟦205⟧⟨469⟩⟦205⟧⟨470⟩⟦204⟧⟨471⟩⟦309⟧⟨472⟩
+[Muammar Gaddafi] ⟨473⟩⟦150⟧⟨474⟩⟦222⟧⟨475⟩⟦283⟧⟨476⟩⟦244⟧⟨477⟩⟦277⟧⟨478⟩
+[Muammar Gaddafi] ⟨479⟩⟦45⟧⟨480⟩⟦182⟧⟨481⟩⟦46⟧⟨482⟩⟦235⟧⟨483⟩⟦131⟧⟨484⟩
+
+[user]
+
+问题：
+What was Muammar Mohammed Abu Minyar Gaddafi's title during the Libyan Civil War?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,170 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Alice Upside Down] ⟦29⟧⟨1⟩⟦10⟧⟦66⟧⟨3⟩⟨4⟩⟨2⟩⟨5⟩⟦183⟧⟨6⟩⟨7⟩⟦147⟧⟨8⟩ | ⟦29⟧ | ⟦29⟧
+[Alice Upside Down] ⟨15⟩⟦122⟧⟦64⟧⟨16⟩⟨17⟩⟦175⟧⟨18⟩⟦80⟧⟦80⟧⟨19⟩⟨20⟩⟨21⟩
+[Alice Upside Down] ⟨42⟩⟦31⟧⟨43⟩⟦126⟧⟨44⟩⟦58⟧⟨45⟩⟦128⟧⟨46⟩⟦146⟧⟨47⟩⟦49⟧⟨48⟩
+[Lea Thompson] ⟦120⟧⟨75⟩⟨76⟩⟨77⟩⟦181⟧⟨78⟩⟨79⟩⟨80⟩⟦182⟧⟨81⟩⟨82⟩⟨83⟩ | ⟦120⟧ | ⟦120⟧
+[Lea Thompson] ⟨84⟩⟨85⟩⟨86⟩⟦125⟧⟨87⟩⟦53⟧⟨88⟩⟦201⟧⟨89⟩⟦231⟧⟨90⟩⟦223⟧⟦227⟧⟨92⟩⟦63⟧⟨91⟩⟨93⟩⟦59⟧⟨94⟩⟦188⟧⟨95⟩
+[Lea Thompson] ⟨106⟩⟦116⟧⟨107⟩⟦200⟧⟨108⟩⟨109⟩⟨110⟩
+[Lucas Grabeel] ⟦76⟧⟦151⟧
+[List of Switched at Birth episodes] ⟦114⟧
+[General Hospital cast members] ⟦180⟧⟦180⟧
+[General Hospital cast members] ⟦165⟧ | ⟦165⟧
+[Constance Marie] ⟦38⟧⟦25⟧ | ⟦69⟧⟨411⟩⟦68⟧⟨412⟩⟦38⟧⟦25⟧⟨413⟩⟨414⟩ | ⟦69⟧ | ⟦69⟧
+[Constance Marie] ⟦89⟧ | ⟦106⟧⟦155⟧ | ⟨415⟩⟨416⟩⟨417⟩⟦41⟧⟨418⟩⟦2⟧⟨419⟩⟦106⟧⟦106⟧⟦155⟧⟦155⟧⟨420⟩⟨421⟩⟦131⟧⟨422⟩⟦136⟧⟦136⟧⟨423⟩⟨424⟩⟦163⟧⟨425⟩⟦185⟧⟦89⟧⟨426⟩⟨427⟩⟦4⟧⟨428⟩
+[Constance Marie] ⟦78⟧ | ⟦55⟧ | ⟨429⟩⟦153⟧⟨430⟩⟦186⟧⟦78⟧⟨431⟩⟨432⟩⟦55⟧⟨433⟩
+
+符号表：
+⟦2⟧ = "George Lopez
+⟦4⟧ = "Selena
+⟦10⟧ = a 2007 comedy-drama film
+⟦25⟧ = actress
+⟦29⟧ = Alice Upside Down
+⟦31⟧ = Alyson Stoner
+⟦38⟧ = an American actress
+⟦41⟧ = Angie Lopez
+⟦49⟧ = Ashley Eckstein
+⟦53⟧ = Back
+⟦55⟧ = Birth
+⟦58⟧ = Bridgit Mendler
+⟦59⟧ = Caroline
+⟦63⟧ = character
+⟦64⟧ = cinema
+⟦66⟧ = comedy
+⟦68⟧ = Constance Marie
+⟦69⟧ = Constance Marie Lopez
+⟦76⟧ = director
+⟦78⟧ = drama
+⟦80⟧ = DVD
+⟦89⟧ = film
+⟦106⟧ = her role
+⟦114⟧ = July
+⟦116⟧ = Kathryn Kennish
+⟦120⟧ = Lea Katherine Thompson
+⟦122⟧ = limited cinema
+⟦125⟧ = Lorraine Baines
+⟦126⟧ = Lucas Grabeel
+⟦128⟧ = Luke Perry
+⟦131⟧ = Marcela Quintanilla
+⟦136⟧ = mother
+⟦146⟧ = Penny Marshall
+⟦147⟧ = Phyllis Reynolds Naylor
+⟦151⟧ = producer
+⟦153⟧ = Regina Vasquez
+⟦155⟧ = role
+⟦163⟧ = Selena
+⟦165⟧ = series
+⟦175⟧ = straight
+⟦180⟧ = television
+⟦181⟧ = television director
+⟦182⟧ = television producer
+⟦183⟧ = the "Alice" series
+⟦185⟧ = the 1997 film
+⟦186⟧ = the ABC Family/Freeform drama
+⟦188⟧ = the City
+⟦200⟧ = the Freeform
+⟦201⟧ = the Future
+⟦223⟧ = the title character
+⟦227⟧ = title
+⟦231⟧ = trilogy
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ = -
+⟨4⟩ =  
+⟨5⟩ = , based in 
+⟨6⟩ = 
+⟨7⟩ =  written by 
+⟨8⟩ = .
+⟨15⟩ =  Screened in 
+⟨16⟩ = 
+⟨17⟩ =  in 2007, it was released wide 
+⟨18⟩ = -to-
+⟨19⟩ = 
+⟨20⟩ =  on 
+⟨21⟩ =  29, 2008.
+⟨42⟩ =  It was starring 
+⟨43⟩ = , 
+⟨44⟩ = , 
+⟨45⟩ = , 
+⟨46⟩ = , 
+⟨47⟩ =  and 
+⟨48⟩ = .
+⟨75⟩ =  (born May 31, 1961) is 
+⟨76⟩ = 
+⟨77⟩ = , 
+⟨78⟩ = 
+⟨79⟩ = 
+⟨80⟩ = , and 
+⟨81⟩ = 
+⟨82⟩ = 
+⟨83⟩ = .
+⟨84⟩ =  She is known for 
+⟨85⟩ = 
+⟨86⟩ =  as 
+⟨87⟩ =  in the "
+⟨88⟩ =  to 
+⟨89⟩ = " 
+⟨90⟩ =  and as 
+⟨91⟩ = 
+⟨92⟩ =  
+⟨93⟩ =  in the 1990s NBC sitcom "
+⟨94⟩ =  in 
+⟨95⟩ = ".
+⟨106⟩ =  From 2011-2017, she co-starred as 
+⟨107⟩ =  in 
+⟨108⟩ =  (formerly ABC Family) 
+⟨109⟩ =  "Switched at 
+⟨110⟩ = ".
+⟨411⟩ =  (born September 9, 1965) known professionally as 
+⟨412⟩ = , is 
+⟨413⟩ = 
+⟨414⟩ = .
+⟨415⟩ =  She is known for 
+⟨416⟩ = 
+⟨417⟩ =  as 
+⟨418⟩ =  on 
+⟨419⟩ = " (2002–2007) and 
+⟨420⟩ = 
+⟨421⟩ =  as 
+⟨422⟩ =  (
+⟨423⟩ = 
+⟨424⟩ =  of 
+⟨425⟩ = ) in 
+⟨426⟩ = 
+⟨427⟩ =  
+⟨428⟩ = ".
+⟨429⟩ =  She portrayed 
+⟨430⟩ =  on 
+⟨431⟩ = 
+⟨432⟩ =  "Switched at 
+⟨433⟩ = " (2011–2017).
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which cast member of Alice Upside Down also stars in the ABC Family/Freeform drama "Switched at Birth?"

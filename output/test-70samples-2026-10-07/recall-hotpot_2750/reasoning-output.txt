@@ -1,0 +1,33 @@
+# 路径一：基于物种数量的直接对比
+
+步骤1：使用⟦116⟧，提取 Patrinia 属的物种数量信息，即“about 17 species”⟦32⟧。
+
+步骤2：使用⟦26⟧，提取 Cymbidium 属的物种数量信息，即“52 evergreen species”⟦19⟧。
+
+步骤3：综合⟦32⟧⟦19⟧，对比两个属的物种数量：Patrinia 约17种，Cymbidium 有52种。52 > 17。
+
+结论：Cymbidium 属的物种数量多于 Patrinia 属。
+
+---
+
+# 路径二：基于分类归属的交叉验证
+
+步骤1：使用⟦58⟧⟦79⟧，确认 Cymbidium 是一个属（genus），且属于兰科 Orchidaceae⟦167⟧。
+
+步骤2：使用⟦116⟧⟦159⟧，确认 Patrinia 属于忍冬科（the honeysuckle family），是一个独立的属。
+
+步骤3：综合⟦19⟧⟦32⟧，从两个属的物种数量描述中提取数据：Cymbidium 有52种，Patrinia 约17种。
+
+结论：交叉验证后，Cymbidium（52种）明显多于 Patrinia（约17种）。
+
+---
+
+# 路径三：基于材料中数量表述的语义对比
+
+步骤1：使用⟦19⟧，提取“52 evergreen species”，其中“52”为明确数字，修饰 Cymbidium 的物种数。
+
+步骤2：使用⟦32⟧，提取“about 17 species”，其中“about 17”为近似数字，修饰 Patrinia 的物种数。
+
+步骤3：综合⟦19⟧⟦32⟧，对比明确数字与近似数字：52 远大于 17，即使考虑近似误差，Cymbidium 仍显著更多。
+
+结论：无论从精确还是近似角度，Cymbidium 的物种数都超过 Patrinia。

@@ -1,0 +1,99 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Nyāya Sūtras] ⟦287⟧⟨135⟩⟦45⟧⟨136⟩⟨137⟩⟦44⟧⟨138⟩⟦270⟧⟨139⟩⟨140⟩⟨141⟩⟨142⟩⟨143⟩⟨144⟩
+[Nyāya Sūtras] ⟦245⟧⟦245⟧ | ⟦301⟧⟦245⟧⟨164⟩⟨165⟩⟦119⟧⟦63⟧⟨166⟩⟨167⟩⟦321⟧⟦85⟧⟨168⟩⟨169⟩⟦111⟧⟦62⟧⟨170⟩⟨171⟩⟦30⟧⟦316⟧⟨172⟩⟨173⟩⟦19⟧⟦238⟧⟨174⟩⟨175⟩⟨176⟩⟨177⟩⟦208⟧⟦208⟧⟨178⟩⟨179⟩⟨180⟩⟨181⟩⟨182⟩⟨183⟩⟦170⟧⟦170⟧⟨184⟩⟨185⟩
+[Indian logic] ⟦215⟧⟦215⟧
+[Dignāga] ⟦166⟧⟦166⟧
+[Dignāga] ⟦286⟧⟦223⟧
+[Dignāga] ⟦115⟧⟦115⟧
+[Hindu philosophy] ⟦135⟧
+[Hindu philosophy] ⟦200⟧
+
+符号表：
+⟦19⟧ = 528 aphoristic sutras
+⟦30⟧ = a cumulative total
+⟦44⟧ = Akṣapāda Gautama
+⟦45⟧ = an ancient Indian Sanskrit text
+⟦62⟧ = book
+⟦63⟧ = books
+⟦85⟧ = chapters
+⟦111⟧ = each book
+⟦115⟧ = epistemology
+⟦119⟧ = five books
+⟦135⟧ = Hindu philosophy
+⟦166⟧ = logic
+⟦170⟧ = metaphysics
+⟦200⟧ = philosophy
+⟦208⟧ = reason
+⟦215⟧ = rules
+⟦223⟧ = school
+⟦238⟧ = sutras
+⟦245⟧ = text
+⟦270⟧ = the foundational text
+⟦286⟧ = the Nyaya school
+⟦287⟧ = The Nyāya Sūtras
+⟦301⟧ = the text
+⟦316⟧ = total
+⟦321⟧ = two chapters
+
+占位符映射：
+⟨135⟩ =  is 
+⟨136⟩ = 
+⟨137⟩ =  composed by 
+⟨138⟩ =  , and 
+⟨139⟩ = 
+⟨140⟩ =  of 
+⟨141⟩ = 
+⟨142⟩ =  of 
+⟨143⟩ = 
+⟨144⟩ = .
+⟨164⟩ = 
+⟨165⟩ =  consists of 
+⟨166⟩ = 
+⟨167⟩ = , with 
+⟨168⟩ = 
+⟨169⟩ =  in 
+⟨170⟩ = 
+⟨171⟩ = , with 
+⟨172⟩ = 
+⟨173⟩ =  of 
+⟨174⟩ = 
+⟨175⟩ = , about 
+⟨176⟩ = 
+⟨177⟩ =  of 
+⟨178⟩ = 
+⟨179⟩ = , 
+⟨180⟩ = 
+⟨181⟩ = , 
+⟨182⟩ = 
+⟨183⟩ =  and 
+⟨184⟩ = 
+⟨185⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+How many books are in the text composed by the founder Nyaya school of Hindu philosophy and is used in the development of Indian logic?

@@ -1,0 +1,74 @@
+[
+ {
+  "qid": "hotpot_1569",
+  "question": "When did the the Antonine who was known as the third of the five good emperors live?",
+  "pred": "Hadrian",
+  "gold": "24 January 76 – 10 July 138",
+  "em": 0,
+  "score": 0,
+  "stringMatchVerdict": "✗",
+  "stringMatchNote": "问时间，pred 给了皇帝名 Hadrian",
+  "textFaithfulVerdict": "否",
+  "textFaithfulNote": "具体生卒日期未正确给出(文本中日期信息损坏)"
+ },
+ {
+  "qid": "hotpot_1813",
+  "question": "MadMaze was developed by Eric Goldberg as what type of game? ",
+  "pred": "Online video game",
+  "gold": "role-playing game",
+  "em": 0,
+  "score": 0.5,
+  "stringMatchVerdict": "✗",
+  "stringMatchNote": "Online video game ≠ role-playing game",
+  "textFaithfulVerdict": "否",
+  "textFaithfulNote": "只说online video game，未明确role-playing game类型"
+ },
+ {
+  "qid": "hotpot_3117",
+  "question": "How tall was one of Drew Barry's brothers? ",
+  "pred": "Brent Barry",
+  "gold": "6 ft",
+  "em": 0,
+  "score": 0,
+  "stringMatchVerdict": "✗",
+  "stringMatchNote": "问身高，pred 答了人名 Brent Barry",
+  "textFaithfulVerdict": "否",
+  "textFaithfulNote": "6ft是Drew本人身高，未提及brother身高"
+ },
+ {
+  "qid": "hotpot_3344",
+  "question": "Where is the location of Liberty Square park in Disneyland California?",
+  "pred": "Magic Kingdom",
+  "gold": "Anaheim",
+  "em": 0,
+  "score": 0,
+  "stringMatchVerdict": "✗",
+  "stringMatchNote": "Magic Kingdom ≠ Anaheim",
+  "textFaithfulVerdict": "否",
+  "textFaithfulNote": "文本给出Florida地点，与问题的California矛盾"
+ },
+ {
+  "qid": "hotpot_4173",
+  "question": "What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-hosts?",
+  "pred": "ESPN College Football Friday Primetime",
+  "gold": "College Football Scoreboard",
+  "em": 0,
+  "score": 0.6666666666666666,
+  "stringMatchVerdict": "✗",
+  "stringMatchNote": "ESPN College Football Friday Primetime ≠ College Football Scoreboard",
+  "textFaithfulVerdict": "否",
+  "textFaithfulNote": "co-host节目名College Football Scoreboard未出现"
+ },
+ {
+  "qid": "hotpot_6981",
+  "question": "What part of Australia is Alice River and Rupertswood in?",
+  "pred": "Queensland",
+  "gold": "Victoria",
+  "em": 0,
+  "score": 0,
+  "stringMatchVerdict": "✗",
+  "stringMatchNote": "Queensland ≠ Victoria",
+  "textFaithfulVerdict": "否",
+  "textFaithfulNote": "Alice River在Queensland而非Victoria,与问题矛盾"
+ }
+]

@@ -1,0 +1,33 @@
+# 路径一：从别名到发明者的直接链
+
+步骤1：使用⟦2⟧⟦165⟧⟦342⟧，提取“O Fenômeno”和“Fenômeno”以及“The Phenomenon”均指向同一别名，结合⟦265⟧⟦264⟧确认该别名对应 Ronaldo Luís Nazário de Lima（即 Ronaldo）。
+
+步骤2：使用⟦174⟧⟦294⟧，提取“global superstar Ronaldo”和“superstar”在 Step over 条目中被明确提及，说明 Ronaldo 与某足球动作的流行化相关。
+
+步骤3：综合⟦176⟧⟦177⟧⟦178⟧⟦179⟧，提取该动作“was reportedly invented by Argentine striker Pedro Calomino”，即最早被报道使用该动作的球员是 Pedro Calomino。
+
+结论：该球员是 Argentine striker Pedro Calomino（阿根廷前锋佩德罗·卡洛米诺）。
+
+---
+
+# 路径二：动作名称与发明者的交叉验证
+
+步骤1：使用⟦169⟧⟦350⟧⟦288⟧，提取“football”“The step”“step”指向“Step over”这一足球动作。
+
+步骤2：综合⟦75⟧⟦291⟧⟦338⟧，提取“Argentine striker Pedro Calomino”与“striker”“The move”在同一材料中并列，确认 Pedro Calomino 是该动作的最早报道使用者。
+
+步骤3：使用⟦174⟧⟦294⟧，交叉验证 Ronaldo 作为“global superstar”普及了该动作，而⟦177⟧明确“was reportedly invented by”指向 Pedro Calomino。
+
+结论：最早被报道使用该动作的球员是 Pedro Calomino。
+
+---
+
+# 路径三：时间线与地域的辅助确认
+
+步骤1：使用⟦323⟧⟦180⟧⟦181⟧，提取“the early 1900s”与 Pedro Calomino 的关联，说明该动作最早可追溯至20世纪初。
+
+步骤2：综合⟦145⟧⟦147⟧⟦161⟧，提取“Dutch player Law Adam”在“early 1930s”于“Europe”使用该动作，作为后续传播链的一环，但非最早报道者。
+
+步骤3：使用⟦174⟧⟦294⟧，确认 Ronaldo 是普及者而非最早使用者，⟦177⟧再次指向 Pedro Calomino 为最早报道的发明者。
+
+结论：综合时间线与传播链，最早被报道使用该动作的球员仍是 Pedro Calomino。

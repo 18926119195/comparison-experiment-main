@@ -1,0 +1,29 @@
+# 路径一：演员—角色直接链
+
+步骤1：使用⟦67⟧，提取 **Grown-Ups** 是 a 1980 British BBC television film；结合问题中“Grown-Ups starred the actor”，定位到该片所涉演员。
+
+步骤2：使用⟦111⟧，提取 **Richard Gibson** 是 an English actor；因此问题所指“the actor”指向 Richard Gibson。
+
+步骤3：综合⟦111⟧⟦139⟧⟦141⟧⟦122⟧，提取 Richard Gibson 最著名的是在 BBC 热门情景喜剧 **"'Allo 'Allo!"** 中饰演 **the archetypal Gestapo Officer Herr Otto Flick**。
+
+结论：该角色是 **Herr Otto Flick**。
+
+# 路径二：节目与角色交叉验证
+
+步骤1：综合⟦111⟧⟦139⟧，提取 Richard Gibson 的 best known for 角色是 **the archetypal Gestapo Officer Herr Otto Flick**。
+
+步骤2：综合⟦141⟧⟦122⟧及占位符 ⟨⟩，交叉验证该角色所在节目为 BBC 的 hit sitcom series **"'Allo 'Allo!"**。
+
+步骤3：使用⟦70⟧⟦115⟧，确认问题询问的是 his role / role，对应材料中 “as ⟦139⟧” 的角色字段。
+
+结论：在 **"'Allo 'Allo!"** 中该角色是 **Herr Otto Flick**。
+
+# 路径三：唯一候选排除
+
+步骤1：使用⟦111⟧，提取 Richard Gibson 条目只给出一个最著名角色，即 as ⟦139⟧。
+
+步骤2：综合⟦139⟧⟦121⟧⟦122⟧，确认该角色属于 sitcom / sitcom series，且为 Gestapo Officer。
+
+步骤3：综合⟦67⟧⟦14⟧⟦92⟧，确认 **Grown-Ups** 是 Mike Leigh 的 1980 BBC 电视电影；在给定材料中没有其他 **"'Allo 'Allo!"** 角色候选。
+
+结论：唯一匹配的角色是 **Herr Otto Flick**。

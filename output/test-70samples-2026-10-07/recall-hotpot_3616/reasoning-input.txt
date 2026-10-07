@@ -1,0 +1,98 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Lost in Time (Akino album)] ⟨1⟩⟦382⟧⟨2⟩⟦323⟧⟦123⟧⟨4⟩⟨3⟩⟨5⟩⟦76⟧⟨6⟩⟦346⟧⟨8⟩⟨7⟩⟦98⟧⟨9⟩
+[Lost in Time (Akino album)] ⟦77⟧ | ⟦316⟧⟦77⟧⟨10⟩⟨11⟩⟦366⟧⟦296⟧⟨12⟩⟨13⟩⟨14⟩⟨15⟩⟦157⟧⟨16⟩⟦87⟧⟨17⟩⟦370⟧⟨19⟩⟨18⟩⟨20⟩⟨21⟩
+[List of Nichijou episodes] ⟦231⟧
+[List of Tytania episodes] ⟦318⟧
+[Ōban Star-Racers] ⟦247⟧ | ⟦247⟧⟨475⟩⟦412⟧⟦412⟧⟨476⟩⟨477⟩⟦248⟧⟨478⟩⟦43⟧⟨480⟩⟨479⟩⟨481⟩⟦280⟧⟨482⟩⟦279⟧⟨483⟩
+[List of Rage of Bahamut episodes] ⟦83⟧
+[List of Rage of Bahamut episodes] ⟦287⟧ | ⟦287⟧
+[List of Rage of Bahamut episodes] ⟦295⟧
+[List of Rage of Bahamut episodes] ⟦378⟧
+
+符号表：
+⟦43⟧ = a French/Japanese anime series
+⟦76⟧ = AKINO
+⟦77⟧ = album
+⟦83⟧ = anime
+⟦87⟧ = Aquarion
+⟦98⟧ = bless4
+⟦123⟧ = debut
+⟦157⟧ = Genesis
+⟦231⟧ = name
+⟦247⟧ = Ōban Star-Racers
+⟦248⟧ = Ōban Sutā Rēsāzu
+⟦279⟧ = Sav
+⟦280⟧ = Savin Yeatman-Eiffel
+⟦287⟧ = series
+⟦295⟧ = song
+⟦296⟧ = songs
+⟦316⟧ = The album
+⟦318⟧ = the anime series
+⟦323⟧ = the debut album
+⟦346⟧ = the name "AKINO
+⟦366⟧ = the songs
+⟦370⟧ = the theme song
+⟦378⟧ = theme
+⟦382⟧ = Time
+⟦412⟧ = オーバン・スターレーサーズ
+
+占位符映射：
+⟨1⟩ = Lost in 
+⟨2⟩ =  is 
+⟨3⟩ = 
+⟨4⟩ =  
+⟨5⟩ =  of 
+⟨6⟩ =  performing under 
+⟨7⟩ = 
+⟨8⟩ =  "AKINO from 
+⟨9⟩ = ".
+⟨10⟩ = 
+⟨11⟩ =  comprises all of 
+⟨12⟩ = 
+⟨13⟩ =  she performed for 
+⟨14⟩ = 
+⟨15⟩ =  "
+⟨16⟩ =  of 
+⟨17⟩ = " as well as 
+⟨18⟩ = 
+⟨19⟩ =  
+⟨20⟩ =  for "
+⟨21⟩ = ".
+⟨475⟩ =  (
+⟨476⟩ = 
+⟨477⟩ =  , 
+⟨478⟩ =  ) is 
+⟨479⟩ = 
+⟨480⟩ =  
+⟨481⟩ =  created by 
+⟨482⟩ =  of 
+⟨483⟩ = !
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Lost in Time includes the theme song for a French/Japanese anime series that was created by who?

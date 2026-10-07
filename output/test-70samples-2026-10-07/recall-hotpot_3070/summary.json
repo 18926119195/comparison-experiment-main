@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_3070",
+  "question": "Band-e-Amir Dragons is named after the lakes in which Afghan national park?",
+  "expectedAnswer": "Band-e Amir National Park",
+  "predictedAnswer": "# 路径一：直接实体匹配\n\n步骤1：使用⟦26⟧，提取 \"Band-e Amir National Park\" 这一名称，判断其为阿富汗的国家公园。\n\n步骤2：综合⟦81⟧⟦50⟧，提取 \"the Band-e Amir\" 与 \"lakes\" 的关联，确认该公园以湖泊闻名。\n\n步骤3：使用⟦16⟧，提取 \"Afghanistan's first national park\" 这一描述，交叉验证⟦26⟧中的公园即为阿富汗国家公园。\n\n结论：Band-e-Amir Dragons 以 Band-e Amir National Park 中的湖泊命名。\n\n# 路径二：地理特征交叉验证\n\n步骤1：使用⟦87⟧⟦20⟧，提取湖泊位于 \"approximately 3000 m\" 海拔处，判断其地理特征。\n\n步骤2：综合⟦29⟧⟦23⟧，提取 \"central Afghanistan\" 与 \"Bamiyan\" 的位置信息，交叉验证该湖泊位于阿富汗中部。\n\n步骤3：综合⟦16⟧⟦26⟧，确认该湖泊群所属的国家公园为 Band-e Amir National Park，且为阿富汗首个国家公园。\n\n结论：该湖泊位于阿富汗中部的 Band-e Amir National Park，即 Band-e-Amir Dragons 的命名来源。\n\n# 路径三：名称与湖泊特征综合\n\n步骤1：使用⟦69⟧，提取 \"six deep blue lakes\" 这一特征，判断湖泊群的具体构成。\n\n步骤2：综合⟦50⟧⟦81⟧，提取 \"lakes\" 与 \"the Band-e Amir\" 的关联，确认湖泊群与 Band-e Amir 名称直接对应。\n\n步骤3：使用⟦16⟧，提取 \"Afghanistan's first national park\" 作为最终定位，综合⟦26⟧确认公园全称。\n\n结论：Band-e-Amir Dragons 命名自 Band-e Amir National Park 中的湖泊群，该公园是阿富汗首个国家公园。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦26⟧⟨1⟩⟦3⟧⟨2⟩⟦101⟧⟨3⟩⟦16⟧⟨4⟩⟦80⟧⟨5⟩⟦87⟧⟨18⟩",
+  "nounCount": 188,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 3193,
+    "completion_tokens": 201,
+    "total_tokens": 3394,
+    "prompt_tokens_details": {
+      "cached_tokens": 2944
+    },
+    "prompt_cache_hit_tokens": 2944,
+    "prompt_cache_miss_tokens": 249
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 830,
+    "completion_tokens": 423,
+    "total_tokens": 1253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 830
+  }
+}

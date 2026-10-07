@@ -1,0 +1,901 @@
+[
+  {
+    "qid": "hotpot_6904",
+    "question": "Which was built first Woolworth Building or 1 New York Plaza?",
+    "expectedAnswer": "Woolworth Building",
+    "predictedAnswer": "# 路径一：基于建造年份的直接对比\n\n步骤1：使用⟦4⟧⟦180⟧⟦219⟧，提取 1 New York Plaza 的建造信息——它位于纽约市金融区，建于 1969 年。\n\n步骤2：使用⟦313⟧⟦328⟧，提取 Woolworth Building 的建造信息——它设计于 1910 年至 1912 年间建造。\n\n步骤3：综合⟦219⟧⟦328⟧，对比两者建造时间：Woolworth Building 建于 1910–1912 年，1 New York Plaza 建于 1969 年。1912 年早于 1969 年。\n\n结论：Woolworth Building 先建成。\n\n# 路径二：基于建筑历史定位的交叉验证\n\n步骤1：使用⟦313⟧⟦46⟧⟦226⟧，提取 Woolworth Building 的历史定位——它是美国早期摩天大楼（an early US skyscraper）。\n\n步骤2：使用⟦4⟧⟦219⟧，提取 1 New York Plaza 的建造时间——1969 年，属于较晚期的现代建筑。\n\n步骤3：综合⟦46⟧⟦219⟧，交叉验证：Woolworth Building 被明确归类为“早期”摩天大楼，而 1 New York Plaza 建于 1969 年，属于 20 世纪中后期。早期建筑必然先于后期建筑建成。\n\n结论：Woolworth Building 先建成。\n\n# 路径三：基于高度排名时间线的间接推断\n\n步骤1：使用⟦313⟧⟦11⟧⟦251⟧⟦254⟧，提取 Woolworth Building 的高度信息——241.4 米，曾位列美国最高 100 座建筑之一，甚至曾位列最高 30 座建筑之一。\n\n步骤2：使用⟦4⟧⟦219⟧，提取 1 New York Plaza 的建造时间——1969 年。\n\n步骤3：综合⟦11⟧⟦251⟧⟦254⟧⟦219⟧，推断：Woolworth Building 在建成时（1910–1912 年）能进入“最高 30 座建筑”之列，说明其建成年代远早于 1969 年——因为在 1969 年时，241.4 米的高度已不足以进入当时最高 30 座建筑之列。这间接证明 Woolworth Building 建成时间远早于 1 New York Plaza。\n\n结论：Woolworth Building 先建成。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦313⟧⟨323⟩⟦10⟧⟨324⟩⟦161⟧⟨325⟩⟨326⟩⟦56⟧⟦57⟧⟨327⟩⟨328⟩⟦46⟧",
+    "nounCount": 457,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7801,
+      "completion_tokens": 213,
+      "total_tokens": 8014,
+      "prompt_tokens_details": {
+        "cached_tokens": 7552
+      },
+      "prompt_cache_hit_tokens": 7552,
+      "prompt_cache_miss_tokens": 249
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 919,
+      "completion_tokens": 563,
+      "total_tokens": 1482,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 919
+    }
+  },
+  {
+    "qid": "hotpot_5749",
+    "question": "Which has more species, Lysiloma or Hydrocotyle umbellata?",
+    "expectedAnswer": "Lysiloma",
+    "predictedAnswer": "# 路径一：基于分类层级与物种数量的直接对比\n\n步骤1：使用⟦136⟧⟦17⟧，提取 Lysiloma 是一个属（genus），属级分类单元通常包含多个物种。\n\n步骤2：使用⟦105⟧⟦201⟧，提取 Hydrocotyle umbellata 是一个物种（species），物种是分类学中最基本的单元，仅代表单一物种。\n\n步骤3：综合⟦136⟧⟦17⟧⟦105⟧⟦201⟧，对比分类层级：Lysiloma 为属，Hydrocotyle umbellata 为种。属包含一个或多个种，而种是单一实体，因此 Lysiloma 在分类层级上高于 Hydrocotyle umbellata，物种数量必然更多。\n\n结论：Lysiloma 拥有更多物种，因为它是属级分类单元，而 Hydrocotyle umbellata 仅为单一物种。\n\n---\n\n# 路径二：基于材料中物种列举与命名结构的交叉验证\n\n步骤1：使用⟦137⟧⟦126⟧，提取 Lysiloma latisiliquum 是 Lysiloma 属下的一个具体物种，说明 Lysiloma 属至少包含一个已命名的物种。\n\n步骤2：使用⟦105⟧⟦257⟧，提取 Hydrocotyle umbellata 本身即为一个完整物种名，材料中未提及其下有任何亚种或变种。\n\n步骤3：综合⟦136⟧⟦137⟧⟦105⟧，交叉验证：Lysiloma 作为属，其下已明确列出 Lysiloma latisiliquum 这一物种；而 Hydrocotyle umbellata 在材料中始终以单一物种身份出现，无下属分类单元。属级单元天然涵盖多个物种，而单一物种不具备“更多物种”的比较基础。\n\n结论：Lysiloma 的物种数量多于 Hydrocotyle umbellata，因为前者是包含多个物种的属，后者仅为单一物种。\n\n---\n\n# 路径三：基于分类学常识与材料中属种关系的综合支撑\n\n步骤1：使用⟦91⟧⟦241⟧，提取 Sabicu wood 和 Hunteria umbellata 分别被描述为属（genus）和物种（The species），进一步印证材料中属与种的区分标准。\n\n步骤2：使用⟦136⟧⟦105⟧，综合提取：Lysiloma 被明确标注为属（a genus），Hydrocotyle umbellata 被明确标注为物种（species）。\n\n步骤3：综合⟦17⟧⟦201⟧，对比分类学定义：属（genus）是高于物种（species）的分类层级，一个属通常包含多个物种，而一个物种仅代表单一生物类群。因此，Lysiloma 作为属，其包含的物种数量必然多于作为单一物种的 Hydrocotyle umbellata。\n\n结论：Lysiloma 拥有更多物种，这是由属与种的分类层级关系决定的。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦136⟧⟨1⟩⟦17⟧⟨2⟩⟨3⟩⟦85⟧⟨4⟩⟨5⟩⟦232⟧⟦129⟧⟨7⟩⟨6⟩",
+    "nounCount": 390,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6630,
+      "completion_tokens": 331,
+      "total_tokens": 6961,
+      "prompt_tokens_details": {
+        "cached_tokens": 6400
+      },
+      "prompt_cache_hit_tokens": 6400,
+      "prompt_cache_miss_tokens": 230
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1232,
+      "completion_tokens": 651,
+      "total_tokens": 1883,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1232
+    }
+  },
+  {
+    "qid": "hotpot_7144",
+    "question": "Which was founded first, University of California, Santa Barbara or Hamdard University?",
+    "expectedAnswer": "University of California, Santa Barbara",
+    "predictedAnswer": "# 路径一：直接比较成立年份\n\n步骤1：使用⟦107⟧⟦153⟧，提取 Hamdard University 的成立时间——材料明确记载“It was founded in 1991 by Hakim Said”。\n\n步骤2：使用⟦306⟧⟦228⟧⟦230⟧，提取 UC Santa Barbara 的成立信息——材料将其称为“UC Santa Barbara (commonly referred to as UCSB)”，但未直接给出成立年份。\n\n步骤3：综合⟦107⟧⟦306⟧，对比两者——Hamdard University 成立于 1991 年，而 UC Santa Barbara 的成立年份在材料中缺失，无法直接比较。\n\n结论：此路径因 UC Santa Barbara 成立年份缺失而无法得出结论。\n\n---\n\n# 路径二：借助加州大学系统历史推断\n\n步骤1：使用⟦306⟧⟦307⟧⟦231⟧⟦237⟧，提取 UC Santa Barbara 的系统归属——材料显示 UCSB 是“University of California”系统的一部分，且该系统包含“the 10 campuses”。\n\n步骤2：使用⟦107⟧⟦153⟧，提取 Hamdard University 的成立时间——1991 年。\n\n步骤3：综合⟦306⟧⟦107⟧，对比——加州大学系统历史悠久，UCSB 作为其分校之一，成立时间远早于 1991 年；而 Hamdard University 成立于 1991 年。\n\n结论：University of California, Santa Barbara 成立更早。\n\n---\n\n# 路径三：通过机构类型与历史背景交叉验证\n\n步骤1：使用⟦107⟧⟦28⟧⟦153⟧，提取 Hamdard University 的性质与成立时间——它是一所“private research university”，成立于 1991 年。\n\n步骤2：使用⟦306⟧⟦29⟧⟦228⟧，提取 UC Santa Barbara 的性质——它是一所“public research university”，属于加州大学系统。\n\n步骤3：综合⟦107⟧⟦306⟧，对比——美国公立研究型大学中，加州大学系统各分校多成立于 19 世纪末至 20 世纪初，UCSB 的前身可追溯至 1891 年，远早于 Hamdard University 的 1991 年。\n\n结论：University of California, Santa Barbara 成立更早。\n\n---\n\n# 路径四：排除法结合常识推理\n\n步骤1：使用⟦107⟧⟦153⟧，确认 Hamdard University 成立于 1991 年。\n\n步骤2：使用⟦306⟧⟦307⟧，确认 UC Santa Barbara 是加州大学系统的一部分，而加州大学系统本身成立于 1868 年。\n\n步骤3：综合⟦306⟧⟦107⟧，对比——UCSB 作为加州大学系统分校，其历史必然早于 1991 年；Hamdard University 成立于 1991 年。\n\n结论：University of California, Santa Barbara 成立更早。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨226⟩⟨227⟩⟨228⟩⟦306⟧⟨229⟩⟨230⟩⟦29⟧⟦196⟧⟨232⟩⟦310⟧⟨231⟩⟨233⟩",
+    "nounCount": 466,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7657,
+      "completion_tokens": 338,
+      "total_tokens": 7995,
+      "prompt_tokens_details": {
+        "cached_tokens": 7424
+      },
+      "prompt_cache_hit_tokens": 7424,
+      "prompt_cache_miss_tokens": 233
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1202,
+      "completion_tokens": 652,
+      "total_tokens": 1854,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1202
+    }
+  },
+  {
+    "qid": "hotpot_4249",
+    "question": "Are Benjamin Britten and Béla Bartók from the same country?",
+    "expectedAnswer": "no",
+    "predictedAnswer": "# 路径一：国籍直接对比\n\n步骤1：使用⟦272⟧，提取“The Hungarian composer Béla Bartók”，判断贝拉·巴托克的国籍为匈牙利。\n\n步骤2：使用⟦108⟧⟦34⟧，提取“Edward Benjamin Britten”及“an English composer”，判断本杰明·布里顿的国籍为英国。\n\n步骤3：综合⟦272⟧⟦108⟧⟦34⟧，对比“Hungarian”与“English”，两者分属不同国家。\n\n结论：不是同一国家。巴托克是匈牙利人，布里顿是英国人。\n\n# 路径二：出生地与身份交叉验证\n\n步骤1：使用⟦67⟧⟦26⟧⟦35⟧，提取巴托克全名“Béla Viktor János Bartók”，身份为“a Hungarian composer”和“an ethnomusicologist”，国籍指向匈牙利。\n\n步骤2：使用⟦108⟧⟦47⟧⟦34⟧，提取布里顿全名“Edward Benjamin Britten”，称号“Baron Britten”，身份为“an English composer”，国籍指向英国。\n\n步骤3：综合⟦67⟧⟦108⟧，对比两人全名中的国籍修饰词：“Hungarian” vs “English”，无重叠。\n\n结论：不是同一国家。两人国籍修饰词分别为匈牙利和英国，互不包含。\n\n# 路径三：生卒信息辅助定位\n\n步骤1：使用⟦67⟧⟦11⟧⟦222⟧⟦26⟧，提取巴托克生卒“25 March 1881 – 26 September 1945”，并标注为“a Hungarian composer”。\n\n步骤2：使用⟦108⟧⟦475⟧⟦34⟧，提取布里顿生卒“22 November 1913 – 4 December 1976”，并标注为“an English composer”。\n\n步骤3：综合⟦11⟧⟦222⟧⟦475⟧⟦99⟧，对比两人活跃时期与国籍标签，巴托克属奥匈帝国/匈牙利背景，布里顿属英国背景，国家不同。\n\n结论：不是同一国家。生卒信息与国籍标签一致指向匈牙利与英国两个不同国家。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦67⟧⟨444⟩⟦11⟧⟨445⟩⟦222⟧⟨446⟩⟦26⟧⟨447⟩⟨448⟩⟨449⟩⟨450⟩⟦35⟧",
+    "nounCount": 481,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8034,
+      "completion_tokens": 250,
+      "total_tokens": 8284,
+      "prompt_tokens_details": {
+        "cached_tokens": 7808
+      },
+      "prompt_cache_hit_tokens": 7808,
+      "prompt_cache_miss_tokens": 226
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 981,
+      "completion_tokens": 486,
+      "total_tokens": 1467,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 981
+    }
+  },
+  {
+    "qid": "hotpot_4334",
+    "question": "Who has a wider scope of profession, Christopher Guest or  Roman Karmen?",
+    "expectedAnswer": "Christopher Haden-Guest",
+    "predictedAnswer": "# 路径一：基于职业列表的广度对比\n\n步骤1：使用⟦63⟧⟦62⟧⟦7⟧⟦39⟧⟦201⟧⟦28⟧⟦67⟧⟦71⟧⟦157⟧⟦89⟧⟦65⟧，提取 Christopher Guest 的职业身份：演员、编剧、喜剧演员、作曲家、音乐家，并持有英美双重国籍。\n\n步骤2：使用⟦189⟧⟦191⟧⟦21⟧⟦85⟧⟦55⟧⟦87⟧，提取 Roman Karmen 的职业身份：苏联战地摄影师、电影导演、纪录片电影制作人。\n\n步骤3：综合⟦63⟧⟦39⟧⟦201⟧⟦67⟧⟦71⟧⟦157⟧ 与 ⟦21⟧⟦85⟧⟦55⟧⟦87⟧，对比职业数量：Christopher Guest 涵盖表演、编剧、喜剧、作曲、音乐五个领域；Roman Karmen 涵盖摄影、导演、纪录片制作三个领域。\n\n结论：Christopher Guest 的职业范围更广。\n\n# 路径二：基于核心身份与附属技能的区分\n\n步骤1：使用⟦21⟧⟦85⟧⟦55⟧⟦87⟧，提取 Roman Karmen 的核心职业链条：战地摄影师 → 电影导演 → 纪录片制作人，三者高度相关，均围绕电影摄影与导演展开。\n\n步骤2：使用⟦63⟧⟦39⟧⟦201⟧⟦28⟧⟦67⟧⟦71⟧⟦157⟧，提取 Christopher Guest 的职业构成：演员、编剧、喜剧演员、作曲家、音乐家，跨越表演艺术、文学创作与音乐创作三大门类。\n\n步骤3：综合⟦21⟧⟦85⟧⟦55⟧⟦87⟧ 与 ⟦63⟧⟦39⟧⟦201⟧⟦28⟧⟦67⟧⟦71⟧⟦157⟧，对比职业跨度：Roman Karmen 的职业集中在电影制作内部的不同环节；Christopher Guest 的职业跨越电影表演、剧本创作、喜剧表演和音乐创作等多个独立领域。\n\n结论：Christopher Guest 的职业跨度更大，涉及更多不相关的专业领域。\n\n# 路径三：基于材料中职业描述的详细程度\n\n步骤1：使用⟦63⟧⟦105⟧⟦106⟧⟦39⟧⟦201⟧⟦28⟧⟦67⟧⟦71⟧⟦157⟧⟦89⟧⟦65⟧，提取 Christopher Guest 的完整职业描述，材料中明确列出其多重身份，包括演员、编剧、喜剧演员、作曲家和音乐家。\n\n步骤2：使用⟦189⟧⟦191⟧⟦21⟧⟦85⟧⟦55⟧⟦87⟧⟦245⟧⟦104⟧，提取 Roman Karmen 的职业描述，材料中将其定义为苏联战地摄影师和电影导演，并称其为纪录片电影制作中最具影响力的人物之一。\n\n步骤3：综合⟦63⟧⟦39⟧⟦201⟧⟦67⟧⟦71⟧⟦157⟧ 与 ⟦21⟧⟦85⟧⟦55⟧⟦87⟧，对比材料对两者职业的列举方式：Christopher Guest 的职业被逐一列举为多个独立头衔；Roman Karmen 的职业被描述为围绕电影制作的复合身份。\n\n结论：Christopher Guest 的职业范围更广，因其职业头衔数量更多且跨越多个独立领域。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦63⟧⟨105⟩⟦7⟧⟨106⟩⟦62⟧⟨107⟩⟦39⟧⟦201⟧⟨108⟩⟨109⟩⟦71⟧⟦71⟧",
+    "nounCount": 384,
+    "score": 0.5,
+    "recallUsage": {
+      "prompt_tokens": 6538,
+      "completion_tokens": 386,
+      "total_tokens": 6924,
+      "prompt_tokens_details": {
+        "cached_tokens": 6400
+      },
+      "prompt_cache_hit_tokens": 6400,
+      "prompt_cache_miss_tokens": 138
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1349,
+      "completion_tokens": 807,
+      "total_tokens": 2156,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1349
+    }
+  },
+  {
+    "qid": "hotpot_752",
+    "question": "Are David O. Russell and Tony Gatlif from the same country?",
+    "expectedAnswer": "no",
+    "predictedAnswer": "# 路径一：国籍/出生地对比\n\n步骤1：使用⟦48⟧，提取 David O. Russell 的全名为 David Owen Russell，结合⟨209⟩可知其出生于 August 20, 1958，且⟦29⟧标明他是 an American film director，判断其来自美国。\n\n步骤2：使用⟦156⟧⟦14⟧，提取 Tony Gatlif 是 Tony Gatlif，且被描述为 a French film director，判断其来自法国。\n\n步骤3：综合⟦29⟧⟦14⟧，对比两人国籍：David O. Russell 是 American，Tony Gatlif 是 French，二者不属于同一国家。\n\n结论：No, they are not from the same country. David O. Russell is American, while Tony Gatlif is French.\n\n# 路径二：出生地与族裔交叉验证\n\n步骤1：使用⟦89⟧⟨11⟩⟨12⟩⟦4⟧⟨13⟩，提取 Tony Gatlif 出生名为 Michel Dahmani，出生于 10 September 1948，结合⟦28⟧可知其出生地为 Algiers，即阿尔及利亚。\n\n步骤2：使用⟦116⟧⟦55⟧，提取 Tony Gatlif 具有 Romani ethnicity，且其族裔背景与法国电影导演身份相关联，综合判断其国籍归属为法国。\n\n步骤3：使用⟦48⟧⟨209⟩，提取 David O. Russell 出生于 August 20, 1958，结合⟦29⟧可知其为 American film director，出生地与国籍均为美国。\n\n步骤4：综合⟦28⟧⟦29⟧，对比两人出生地：Tony Gatlif 出生于 Algiers（阿尔及利亚），David O. Russell 为美国人，二者出生地不同，国籍也不同。\n\n结论：No, they are not from the same country. Tony Gatlif was born in Algiers and is a French director, while David O. Russell is American.\n\n# 路径三：职业身份与国籍标签综合\n\n步骤1：使用⟦48⟧⟦49⟧⟦58⟧⟦120⟧⟦108⟧，提取 David O. Russell 是 American film director、screenwriter、producer，其职业身份均与美国电影产业相关联。\n\n步骤2：使用⟦156⟧⟦14⟧⟦20⟧⟦22⟧，提取 Tony Gatlif 是 French film director、screenwriter、actor，其职业身份均与法国电影产业相关联。\n\n步骤3：综合⟦29⟧⟦14⟧，对比两人的国籍标签：David O. Russell 被明确标注为 American，Tony Gatlif 被明确标注为 French，二者国籍不同。\n\n结论：No, they are not from the same country. David O. Russell is American and Tony Gatlif is French.",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦48⟧⟨209⟩⟦29⟧⟦58⟧⟨211⟩⟦49⟧⟨210⟩⟨212⟩⟦120⟧⟦120⟧⟨213⟩⟨214⟩",
+    "nounCount": 217,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 3924,
+      "completion_tokens": 201,
+      "total_tokens": 4125,
+      "prompt_tokens_details": {
+        "cached_tokens": 3712
+      },
+      "prompt_cache_hit_tokens": 3712,
+      "prompt_cache_miss_tokens": 212
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 781,
+      "completion_tokens": 615,
+      "total_tokens": 1396,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 781
+    }
+  },
+  {
+    "qid": "hotpot_2160",
+    "question": "Which college was founded first, Williams College or University of Southern California?",
+    "expectedAnswer": "Williams College",
+    "predictedAnswer": "# 路径一：直接比较成立年份\n\n步骤1：使用⟦302⟧，提取 Williams College 的成立信息，判断其历史定位。\n\n步骤2：综合⟦269⟧⟦315⟧，提取 University of Southern California 的成立年份为 1880 年。\n\n步骤3：对比两者成立时间，Williams College 成立于 1793 年，早于 USC 的 1880 年。\n\n结论：Williams College 成立更早。\n\n# 路径二：通过“最古老”属性交叉验证\n\n步骤1：使用⟦269⟧，提取 USC 是“the oldest private research university”这一信息，注意其“最古老”限定在“private research university”类别内，而非所有大学。\n\n步骤2：综合⟦19⟧⟦302⟧，提取 Williams College 是一所 private liberal arts college，成立于 1793 年，属于更早建立的文理学院。\n\n步骤3：对比两者类别与成立时间，USC 的“最古老”仅限研究型大学范畴，不能推出它比 Williams College 更早。\n\n结论：Williams College 成立更早。\n\n# 路径三：地理与建校背景辅助判断\n\n步骤1：综合⟦58⟧⟦166⟧⟦294⟧，提取 USC 位于 California 的 Los Angeles，是西海岸较早的研究型大学。\n\n步骤2：综合⟦171⟧⟦304⟧⟦302⟧，提取 Williams College 位于 Massachusetts 的 Williamstown，属于美国东北部历史悠久的文理学院。\n\n步骤3：结合美国高等教育史，东北部文理学院普遍早于西部研究型大学建立，Williams College（1793）早于 USC（1880）。\n\n结论：Williams College 成立更早。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨354⟩⟦19⟧⟨356⟩⟨355⟩⟨357⟩⟦304⟧⟨358⟩⟦171⟧⟨359⟩⟦291⟧⟨360⟩⟦43⟧",
+    "nounCount": 441,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7421,
+      "completion_tokens": 165,
+      "total_tokens": 7586,
+      "prompt_tokens_details": {
+        "cached_tokens": 7168
+      },
+      "prompt_cache_hit_tokens": 7168,
+      "prompt_cache_miss_tokens": 253
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 741,
+      "completion_tokens": 382,
+      "total_tokens": 1123,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 741
+    }
+  },
+  {
+    "qid": "hotpot_2991",
+    "question": "Which 18th-century canal was longer, the Sandy and Beaver Canal in Ohio or New Jersey's Morris Canal",
+    "expectedAnswer": "Morris Canal",
+    "predictedAnswer": "# 路径一：直接比较两条运河的长度数据\n\n步骤1：使用⟦2⟧，提取莫里斯运河（Morris Canal）的长度为172公里（172-km）。\n\n步骤2：使用⟦6⟧，提取桑迪-比弗运河（Sandy and Beaver Canal）的长度为73英里（73 mi）。\n\n步骤3：综合⟦2⟧⟦6⟧，将两者换算为同一单位进行比较。73英里约等于117.5公里，而莫里斯运河为172公里。172 > 117.5，因此莫里斯运河更长。\n\n结论：新泽西州的莫里斯运河（172公里）比俄亥俄州的桑迪-比弗运河（约117.5公里）更长。\n\n# 路径二：通过运河连接的地理端点推断规模\n\n步骤1：使用⟦64⟧⟦65⟧⟦66⟧⟦67⟧⟦68⟧⟦69⟧⟦70⟧⟦71⟧⟦72⟧⟦73⟧⟦74⟧⟦75⟧⟦76⟧⟦77⟧⟦78⟧⟦79⟧⟦80⟧⟦81⟧⟦82⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧⟦87⟧⟦88⟧⟦89⟧，提取莫里斯运河的拓扑链信息，显示其连接了多个工业城镇（如⟦164⟧纽瓦克、⟦262⟧哈德逊河泽西城等），横跨⟦168⟧新泽西北部，是一条跨越较大地理范围的运河。\n\n步骤2：使用⟦100⟧⟦101⟧⟦102⟧⟦103⟧⟦104⟧⟦105⟧⟦106⟧⟦107⟧⟦108⟧⟦109⟧，提取桑迪-比弗运河的拓扑链信息，显示其从⟦100⟧伊利运河（Erie Canal）延伸，经过⟦52⟧玻利瓦尔（Bolivar）和⟦108⟧格拉斯哥（Glasgow），连接⟦290⟧俄亥俄河（the Ohio River）。\n\n步骤3：综合⟦64⟧⟦100⟧，对比两条运河的地理跨度。莫里斯运河连接新泽西州东部多个重要节点（纽瓦克、泽西城等），跨度较大；桑迪-比弗运河虽连接伊利运河与俄亥俄河，但拓扑链显示其节点较少，跨度相对较小。\n\n结论：从地理跨度推断，莫里斯运河的规模更大，与其172公里的长度数据一致，因此莫里斯运河更长。\n\n# 路径三：通过运河功能与市场连接范围交叉验证\n\n步骤1：使用⟦75⟧⟦126⟧⟦128⟧⟦147⟧⟦233⟧⟦234⟧⟦288⟧，提取莫里斯运河的功能信息：它运输⟦75⟧煤炭（coal），连接⟦126⟧其东部终端（its eastern terminals）与⟦128⟧其西部终端（its western terminus），服务于⟦147⟧市场（markets），包括⟦288⟧纽约市市场（the New York City markets）。\n\n步骤2：使用⟦52⟧⟦100⟧⟦290⟧，提取桑迪-比弗运河的功能信息：它连接⟦100⟧伊利运河与⟦290⟧俄亥俄河，经过⟦52⟧玻利瓦尔。\n\n步骤3：综合⟦147⟧⟦288⟧⟦290⟧，对比两条运河的市场连接范围。莫里斯运河直接服务于纽约市市场，连接多个工业终端；桑迪-比弗运河主要作为连接伊利运河与俄亥俄河的通道。莫里斯运河的市场覆盖范围更广，与其更长的长度（172公里）相符。\n\n结论：莫里斯运河因连接更广泛的市场和终端，其长度更长，交叉验证了路径一的结论。\n\n# 路径四：排除干扰信息，聚焦核心长度数据\n\n步骤1：使用⟦170⟧⟦306⟧⟦320⟧，提取比弗溪州立公园（Beaver Creek State Park）位于俄亥俄州（Ohio）和美国（the United States）的信息，以及桑迪-比弗运河（The Sandy and Beaver Canal）的相关信息，但这些材料未提供长度数据。\n\n步骤2：使用⟦148⟧⟦163⟧，提取宾夕法尼亚运河（特拉华分部）长度为⟦148⟧英里（mi），连接⟦163⟧纽约港（New York Harbor），但这是另一条运河，与问题无关。\n\n步骤3：综合⟦2⟧⟦6⟧，回到核心长度数据：莫里斯运河172公里 vs. 桑迪-比弗运河73英里（约117.5公里）。排除无关材料后，直接比较得出莫里斯运河更长。\n\n结论：排除干扰信息后，核心数据明确显示莫里斯运河（172公里）长于桑迪-比弗运河（73英里/约117.5公里）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨100⟩⟦6⟧⟨101⟩⟨102⟩⟦289⟧⟨103⟩⟦100⟧⟨104⟩⟦52⟧⟨105⟩⟨106⟩⟦290⟧",
+    "nounCount": 539,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8329,
+      "completion_tokens": 289,
+      "total_tokens": 8618,
+      "prompt_tokens_details": {
+        "cached_tokens": 8192
+      },
+      "prompt_cache_hit_tokens": 8192,
+      "prompt_cache_miss_tokens": 137
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1157,
+      "completion_tokens": 1121,
+      "total_tokens": 2278,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1157
+    }
+  },
+  {
+    "qid": "hotpot_3640",
+    "question": "Who was born first, Juan Rulfo or John le Carré?",
+    "expectedAnswer": "Juan Rulfo",
+    "predictedAnswer": "# 路径一：直接比较出生日期\n\n步骤1：使用⟦123⟧⟦124⟧⟦26⟧⟦10⟧⟦116⟧⟦52⟧，提取 Juan Rulfo 的出生信息。材料显示其全名为 Juan Nepomuceno Carlos Pérez Rulfo Vizcaíno，通常称为 Juan Rulfo，是一位墨西哥作家，出生于 1917 年 5 月 16 日。\n\n步骤2：使用⟦72⟧⟦300⟧⟦301⟧，提取 John le Carré 的出生信息。材料显示其本名为 David John Moore Cornwell，出生于 1931 年 10 月 19 日。\n\n步骤3：综合⟦52⟧⟦300⟧，对比两者的出生年份：Juan Rulfo 出生于 1917 年，John le Carré 出生于 1931 年。1917 年早于 1931 年。\n\n结论：Juan Rulfo 比 John le Carré 出生更早。\n\n# 路径二：通过职业身份交叉验证\n\n步骤1：使用⟦26⟧⟦171⟧⟦159⟧，提取 Juan Rulfo 的身份信息：他是一位墨西哥作家、编剧和摄影师。\n\n步骤2：使用⟦17⟧⟦83⟧⟦84⟧⟦45⟧，提取 John le Carré 的身份信息：他是一位英国作家，以间谍小说闻名。\n\n步骤3：综合⟦123⟧⟦124⟧⟦72⟧⟦164⟧⟦223⟧，确认两者为不同人物：Juan Rulfo 是墨西哥作家，John le Carré 是英国作家（本名 David John Moore Cornwell，le Carré 为笔名）。两者身份无混淆。\n\n步骤4：综合⟦52⟧⟦300⟧，结合已确认的身份信息，比较出生日期：Juan Rulfo（1917年5月16日）早于 John le Carré（1931年10月19日）。\n\n结论：通过身份确认与日期对比，Juan Rulfo 出生更早。\n\n# 路径三：排除法验证\n\n步骤1：使用⟦123⟧⟦124⟧⟦26⟧⟦10⟧⟦116⟧⟦52⟧，确认 Juan Rulfo 的出生日期为 1917 年 5 月 16 日，且其活跃身份为墨西哥作家。\n\n步骤2：使用⟦72⟧⟦300⟧⟦301⟧⟦302⟧⟦303⟧，确认 John le Carré 的出生日期为 1931 年 10 月 19 日，本名 David John Moore Cornwell。\n\n步骤3：综合⟦52⟧⟦300⟧，比较两个日期：1917 < 1931，因此 Juan Rulfo 出生年份更早。同时，两者的出生月份和日期（5月16日 vs 10月19日）不影响年份比较的结论。\n\n结论：Juan Rulfo 比 John le Carré 出生更早。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦123⟧⟨50⟩⟦124⟧⟨51⟩⟦10⟧⟨52⟩⟦116⟧⟨53⟩⟦26⟧⟨54⟩⟨55⟩⟦171⟧",
+    "nounCount": 339,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5780,
+      "completion_tokens": 153,
+      "total_tokens": 5933,
+      "prompt_tokens_details": {
+        "cached_tokens": 5632
+      },
+      "prompt_cache_hit_tokens": 5632,
+      "prompt_cache_miss_tokens": 148
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 728,
+      "completion_tokens": 686,
+      "total_tokens": 1414,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 728
+    }
+  },
+  {
+    "qid": "hotpot_6467",
+    "question": "Are Siping, Jilin and Linhai both in the same province in China?",
+    "expectedAnswer": "no",
+    "predictedAnswer": "# 路径一：直接省级归属对比\n\n步骤1：使用⟦14⟧，提取 Siping 是 \"a county-level city\"；综合⟦54⟧⟨23⟩，确认 Siping 位于 \"People's Republic of China\" 的吉林（Jilin）。\n\n步骤2：使用⟦75⟧，提取 Linhai 的方言信息；综合⟦159⟧，确认 Linhai 位于 \"Zhejiang Province\"。\n\n步骤3：综合⟦65⟧⟦159⟧，对比 Siping 所属的 Jilin province 与 Linhai 所属的 Zhejiang Province，两者为不同省份。\n\n结论：Siping, Jilin 和 Linhai 不在同一个省。Siping 在吉林省，Linhai 在浙江省。\n\n# 路径二：地理实体层级交叉验证\n\n步骤1：使用⟦19⟧，提取 Siping 是 \"a prefecture-level city\"；综合⟦65⟧，确认其属于 Jilin province。\n\n步骤2：使用⟦110⟧，提取 Linhai 与 \"Taizhou\" 相关；综合⟦159⟧，确认 Taizhou 位于 Zhejiang Province，Linhai 为其下辖区域。\n\n步骤3：综合⟦65⟧⟦159⟧，Jilin province 与 Zhejiang Province 分属中国东北与东部沿海，地理上不重合。\n\n结论：两条材料链分别指向吉林省和浙江省，Siping 与 Linhai 不在同一省份。\n\n# 路径三：铁路站点与行政区划综合推断\n\n步骤1：使用⟦101⟧，提取 \"Siping\" 作为站点名称；综合⟦95⟧⟦37⟧，确认 Siping East Railway Station 位于中国某 province。\n\n步骤2：使用⟦75⟧，提取 Linhai 的完整名称及方言归属；综合⟦159⟧，确认 Linhai 属于 Zhejiang Province。\n\n步骤3：综合⟦65⟧⟦159⟧，Siping 所属的 Jilin province 与 Linhai 所属的 Zhejiang Province 为两个不同的省级行政区。\n\n结论：Siping 和 Linhai 分别位于吉林省和浙江省，不在同一个省。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨14⟩⟦54⟧⟨15⟩⟨17⟩⟨18⟩⟨16⟩⟨19⟩⟨20⟩⟨21⟩⟨22⟩⟨23⟩⟦19⟧",
+    "nounCount": 240,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 3984,
+      "completion_tokens": 206,
+      "total_tokens": 4190,
+      "prompt_tokens_details": {
+        "cached_tokens": 3840
+      },
+      "prompt_cache_hit_tokens": 3840,
+      "prompt_cache_miss_tokens": 144
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 878,
+      "completion_tokens": 476,
+      "total_tokens": 1354,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 878
+    }
+  },
+  {
+    "qid": "hotpot_2956",
+    "question": "did Robert Wise have more award nominations than Zoltan Korda?",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：直接比较获奖提名数量\n\n步骤1：使用⟦125⟧⟦229⟧⟦230⟧⟦231⟧，提取 Robert Wise 的全名与生卒信息，确认其身份为美国电影导演。\n\n步骤2：综合⟦239⟧⟦240⟧⟦241⟧⟦242⟧⟦243⟧⟦244⟧⟦245⟧⟦246⟧，提取 Robert Wise 的获奖记录：他赢得过 Best Director 和 Best Picture 等奖项，涉及《West Side Story》和《The Sound of Music》。\n\n步骤3：综合⟦247⟧⟦248⟧⟦249⟧⟦250⟧⟦251⟧⟦252⟧，提取 Robert Wise 还曾获得其他提名，包括因《Citizen Kane》和《The Sand Pebbles》被提名。\n\n步骤4：使用⟦1⟧⟦5⟧⟦6⟧⟦17⟧⟦22⟧⟦88⟧⟦111⟧⟦134⟧，提取 Zoltan Korda 的身份为匈牙利出生的电影编剧，材料中未提及他获得任何 Academy Awards 提名。\n\n结论：Robert Wise 有多次获奖和提名记录，而 Zoltan Korda 的材料中未显示任何提名，因此 Robert Wise 的提名数量多于 Zoltan Korda。\n\n# 路径二：交叉验证职业角色与奖项关联\n\n步骤1：综合⟦30⟧⟦36⟧⟦37⟧⟦38⟧⟦40⟧，提取 Robert Wise 作为美国电影导演，获得 Best Director、Best Film Editing、Best Picture 等提名/奖项，且与《West Side Story》相关。\n\n步骤2：综合⟦53⟧⟦59⟧⟦60⟧⟦117⟧，提取 Robert Wise 同时担任 director、editor、producer 等多重角色，这些角色通常与奖项提名高度相关。\n\n步骤3：使用⟦17⟧⟦66⟧⟦83⟧⟦97⟧⟦147⟧，提取 Zoltan Korda 的职业为 screenwriter，活跃于 film-making 和 the American film industry，但材料未提及任何具体奖项提名。\n\n步骤4：对比⟦22⟧（Academy Awards）在 Robert Wise 材料中的多次出现与 Zoltan Korda 材料中的缺失，交叉验证两者在奖项提名上的差异。\n\n结论：Robert Wise 因多重职业角色获得多项 Academy Awards 提名，而 Zoltan Korda 的材料中无提名记录，故 Robert Wise 提名更多。\n\n# 路径三：综合家族与职业轨迹推断\n\n步骤1：综合⟦28⟧⟦42⟧⟦71⟧⟦73⟧⟦74⟧⟦75⟧，提取 Zoltan Korda 与 Alexander Korda 为兄弟关系，他早期在 Hungary 和 Hollywood 工作，但材料仅描述其职业轨迹，未提及奖项。\n\n步骤2：综合⟦23⟧⟦24⟧⟦25⟧⟦26⟧⟦27⟧，提取 Zoltan Korda 与兄弟移居 the United States 后继续在 industry 工作，但依然无奖项提名信息。\n\n步骤3：使用⟦125⟧⟦135⟧⟦229⟧⟦230⟧⟦231⟧，提取 Robert Wise 的生平跨越 1914–2005，其职业生涯中获得多项提名，包括 September 等时间节点的奖项记录。\n\n步骤4：对比⟦22⟧在 Robert Wise 材料中的多次出现与 Zoltan Korda 材料中完全无 Academy Awards 相关词汇，综合判断两者提名数量差异。\n\n结论：Zoltan Korda 的材料仅描述其职业活动而无奖项提名，Robert Wise 则有多项提名记录，因此 Robert Wise 的提名数量更多。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦125⟧⟨229⟩⟨230⟩⟦135⟧⟦135⟧⟨231⟩⟦30⟧⟨233⟩⟦53⟧⟨232⟩⟨234⟩⟦117⟧",
+    "nounCount": 249,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 4385,
+      "completion_tokens": 434,
+      "total_tokens": 4819,
+      "prompt_tokens_details": {
+        "cached_tokens": 4224
+      },
+      "prompt_cache_hit_tokens": 4224,
+      "prompt_cache_miss_tokens": 161
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1396,
+      "completion_tokens": 855,
+      "total_tokens": 2251,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1396
+    }
+  },
+  {
+    "qid": "hotpot_5118",
+    "question": "Did Qionghai or Suining  have a population of 658,798 in 2002? ",
+    "expectedAnswer": "In 2002, Suining had a population of 658,798.",
+    "predictedAnswer": "# 路径一：直接人口数据比对\n\n步骤1：使用⟦53⟧，提取 Suining 的人口信息，结合⟨12⟩⟨13⟩⟨14⟩可知 Suining 的人口为 658,798。\n\n步骤2：使用⟦47⟧⟦8⟧⟦43⟧，提取 Qionghai 的人口信息，结合⟨104⟩⟨105⟩⟨106⟩⟨107⟩⟨108⟩⟨109⟩⟨110⟩可知 Qionghai 在2010年的人口为 483,217。\n\n步骤3：综合⟦53⟧⟦47⟧，对比两者人口数据，Suining 为 658,798，Qionghai 为 483,217，因此 658,798 对应的是 Suining 而非 Qionghai。\n\n结论：Suining 拥有 658,798 的人口，而非 Qionghai。\n\n# 路径二：行政区划层级与人口归属验证\n\n步骤1：使用⟦47⟧⟦21⟧⟦22⟧，提取 Qionghai 的行政属性，结合⟨74⟩⟦5⟧⟨75⟩⟨76⟩⟦47⟧⟨77⟩⟦7⟧⟦36⟧可知 Qionghai 虽被称为\"市\"，但实际指的是一个县级区域。\n\n步骤2：使用⟦53⟧，提取 Suining 的行政属性，Suining 为地级市，其人口规模通常大于县级市。\n\n步骤3：综合⟦47⟧⟦53⟧⟦8⟧⟦43⟧，对比两者行政层级与人口数据，Suining 作为地级市人口 658,798，Qionghai 作为县级市人口 483,217，行政层级与人口规模一致。\n\n结论：从行政层级和人口规模综合判断，658,798 的人口属于 Suining。\n\n# 路径三：地理归属与数据交叉验证\n\n步骤1：使用⟦47⟧⟦29⟧⟦30⟧⟦46⟧，提取 Qionghai 的地理归属，Qionghai 位于 Hainan province。\n\n步骤2：使用⟦53⟧，提取 Suining 的地理信息，Suining 为独立的地级市。\n\n步骤3：综合⟦47⟧⟦53⟧⟦2⟧⟦34⟧，对比两者地理区域与面积数据，Qionghai 面积 1692 km²，Suining 面积更大，人口 658,798 与 Suining 的规模匹配。\n\n结论：综合地理归属和面积数据，658,798 的人口对应 Suining，而非 Qionghai。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦53⟧⟨12⟩⟨13⟩⟨14⟩⟦8⟧⟦43⟧⟨66⟩⟦69⟧⟨68⟩⟦38⟧⟨69⟩⟦20⟧",
+    "nounCount": 102,
+    "score": 0.5,
+    "recallUsage": {
+      "prompt_tokens": 1973,
+      "completion_tokens": 277,
+      "total_tokens": 2250,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792
+      },
+      "prompt_cache_hit_tokens": 1792,
+      "prompt_cache_miss_tokens": 181
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1010,
+      "completion_tokens": 578,
+      "total_tokens": 1588,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1010
+    }
+  },
+  {
+    "qid": "hotpot_2845",
+    "question": "Which singer is younger, Terri Nunn or Sonya Scarlet? ",
+    "expectedAnswer": "Sonya Scarlet",
+    "predictedAnswer": "# 路径一：出生日期直接对比\n\n步骤1：使用⟦144⟧，提取 Terri Nunn 的全名 Terri Kathleen Nunn，并判断其出生日期为 June 26, 1961。\n\n步骤2：使用⟦137⟧，提取 Sonya Scarlet 的身份信息，并判断其出生日期为 April 2, 1980。\n\n步骤3：综合⟦144⟧⟦137⟧，对比两者出生日期：1961年6月26日 与 1980年4月2日。1980年晚于1961年，因此 Sonya Scarlet 更年轻。\n\n结论：Sonya Scarlet 比 Terri Nunn 年轻。\n\n# 路径二：身份与年龄交叉验证\n\n步骤1：使用⟦29⟧⟦144⟧，确认 Terri Nunn 是一位美国歌手，出生于1961年。\n\n步骤2：使用⟦177⟧⟦137⟧，确认 Sonya Scarlet 是歌手，出生于1980年。\n\n步骤3：综合⟦144⟧⟦137⟧，比较出生年份：1961 vs 1980。Sonya Scarlet 出生更晚，年龄更小。\n\n结论：Sonya Scarlet 更年轻。\n\n# 路径三：乐队背景辅助验证\n\n步骤1：使用⟦166⟧⟦182⟧，提取 Sonya Scarlet 是意大利极端哥特金属乐队 Theatres des Vampires 的歌手。\n\n步骤2：使用⟦20⟧⟦132⟧，提取 Terri Nunn 是歌手及演员，与乐队 Moment of Truth 相关。\n\n步骤3：综合⟦144⟧⟦137⟧，尽管两者音乐背景不同，但出生日期明确：Terri Nunn 1961年，Sonya Scarlet 1980年。Sonya Scarlet 更年轻。\n\n结论：Sonya Scarlet 比 Terri Nunn 年轻。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦144⟧⟨78⟩⟦29⟧⟨79⟩⟨80⟩⟨81⟩⟨82⟩⟦20⟧⟦20⟧⟦132⟧⟦137⟧⟨69⟩",
+    "nounCount": 296,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4936,
+      "completion_tokens": 113,
+      "total_tokens": 5049,
+      "prompt_tokens_details": {
+        "cached_tokens": 4736
+      },
+      "prompt_cache_hit_tokens": 4736,
+      "prompt_cache_miss_tokens": 200
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 578,
+      "completion_tokens": 416,
+      "total_tokens": 994,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 578
+    }
+  },
+  {
+    "qid": "hotpot_7358",
+    "question": "What type of community does Bob Hope Airport and Boeing Field have in common?",
+    "expectedAnswer": "public",
+    "predictedAnswer": "# 路径一：基于机场性质与位置的对比\n\n步骤1：使用⟦12⟧，提取 Bob Hope Airport 被描述为 “a public airport”，判断其社区类型属于公共航空设施。\n\n步骤2：使用⟦136⟧⟦43⟧，提取 Boeing Field 的正式名称为 “officially King County International Airport”，且别名为 Boeing Field，判断其同样为公共机场。\n\n步骤3：综合⟦12⟧⟦136⟧，对比两者性质，发现 Bob Hope Airport 和 Boeing Field 均为公共机场（public airport），因此它们共同拥有的社区类型是“公共机场社区”。\n\n结论：Bob Hope Airport 和 Boeing Field 共同拥有的社区类型是公共机场（public airport）。\n\n# 路径二：基于地理位置与行政归属的交叉验证\n\n步骤1：使用⟦70⟧，提取 Boeing Field 位于 “downtown Seattle”，判断其所在社区为西雅图市中心区域。\n\n步骤2：使用⟦67⟧⟦66⟧，提取 Bob Hope Airport 附近有 “Downtown Burbank” 和 “downtown”，判断其所在社区为伯班克市中心区域。\n\n步骤3：综合⟦70⟧⟦67⟧，对比两者均位于市中心附近，但分属不同城市，因此共同点在于它们都服务于城市中心社区，而非同一具体社区。\n\n结论：Bob Hope Airport 和 Boeing Field 共同拥有的社区类型是城市中心社区（downtown community），即两者均位于市中心附近。\n\n# 路径三：基于航空代码与运营特征的交叉验证\n\n步骤1：使用⟦95⟧⟦96⟧⟦74⟧，提取 Bob Hope Airport 拥有 IATA、ICAO 和 FAA LID 代码，判断其为正规公共机场。\n\n步骤2：使用⟦104⟧⟦35⟧，提取 Boeing Field 的 FAA LID 为 BFI，IATA 代码为 BFI，判断其同样为正规公共机场。\n\n步骤3：综合⟦95⟧⟦96⟧⟦74⟧⟦104⟧⟦35⟧，对比两者均具备完整的航空代码体系，且均为公共机场，因此它们共同拥有的社区类型是“公共航空社区”。\n\n结论：Bob Hope Airport 和 Boeing Field 共同拥有的社区类型是公共航空社区（public aviation community），即两者均为具备完整航空代码的公共机场。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟦136⟧⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟦104⟧⟨6⟩⟨7⟩⟦35⟧⟦35⟧⟨8⟩",
+    "nounCount": 297,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5078,
+      "completion_tokens": 241,
+      "total_tokens": 5319,
+      "prompt_tokens_details": {
+        "cached_tokens": 4864
+      },
+      "prompt_cache_hit_tokens": 4864,
+      "prompt_cache_miss_tokens": 214
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 913,
+      "completion_tokens": 518,
+      "total_tokens": 1431,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 913
+    }
+  },
+  {
+    "qid": "hotpot_4612",
+    "question": "Tritonia and Phyteuma are both names for a what of plants?",
+    "expectedAnswer": "genus",
+    "predictedAnswer": "# 路径一：基于共享上位词的直接推理\n\n步骤1：使用⟦206⟧，提取 Tritonia 的符号化定义，判断其指代一个植物分类单元名称。\n\n步骤2：使用⟦125⟧，提取 Phyteuma 的符号化定义，判断其同样指代一个植物分类单元名称。\n\n步骤3：综合⟦206⟧⟦125⟧，对比两者在拓扑链中的共同结构——两者均出现在分类学语境中，且 Tritonia 链中出现⟦71⟧（genus），Phyteuma 链中亦出现⟦71⟧（genus），交叉验证两者共享同一上位词。\n\n结论：Tritonia 和 Phyteuma 都是植物中 **genus（属）** 的名称。\n\n---\n\n# 路径二：基于分类学归属的交叉验证\n\n步骤1：使用⟦206⟧⟦176⟧⟦62⟧，提取 Tritonia 的归属信息——Tritonia 属于⟦176⟧（the Iris family），即鸢尾科。\n\n步骤2：使用⟦125⟧⟦166⟧，提取 Phyteuma 的归属信息——Phyteuma 属于⟦166⟧（the family Campanulaceae），即桔梗科。\n\n步骤3：综合⟦176⟧⟦166⟧⟦62⟧⟦8⟧，对比两者虽属于不同科，但均被归类为⟦8⟧（a genus）层级，说明两者在分类学等级上一致。\n\n结论：尽管 Tritonia 与 Phyteuma 属于不同植物科，但两者在分类等级上均为 **genus（属）**。\n\n---\n\n# 路径三：基于拓扑链结构的模式归纳\n\n步骤1：使用⟦206⟧，提取 Tritonia 链的完整结构，识别其中⟦71⟧⟦71⟧的重复出现，判断该符号为关键分类词。\n\n步骤2：使用⟦125⟧，提取 Phyteuma 链的结构，识别其中⟦71⟧的出现位置，判断其与 Tritonia 链共享同一分类词。\n\n步骤3：综合⟦206⟧⟦125⟧⟦71⟧，归纳两条链的共同模式——两者均以⟦71⟧（genus）作为核心分类标识，且该词在两条链中均处于定义性位置。\n\n结论：Tritonia 和 Phyteuma 共享同一分类词⟦71⟧，即两者都是植物的 **genus（属）**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦206⟧⟨359⟩⟦4⟧⟦64⟧⟨361⟩⟦68⟧⟨360⟩⟨362⟩⟨363⟩⟨364⟩⟦66⟧⟦130⟧",
+    "nounCount": 373,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5597,
+      "completion_tokens": 169,
+      "total_tokens": 5766,
+      "prompt_tokens_details": {
+        "cached_tokens": 5376
+      },
+      "prompt_cache_hit_tokens": 5376,
+      "prompt_cache_miss_tokens": 221
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 690,
+      "completion_tokens": 550,
+      "total_tokens": 1240,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 690
+    }
+  },
+  {
+    "qid": "hotpot_5854",
+    "question": "Which battle took place closer to New York City, Battle of Fredericksburg or the Western Allied inva",
+    "expectedAnswer": "Battle of Fredericksburg",
+    "predictedAnswer": "# 路径一：以纽约市为参照的地理距离比较\n\n步骤1：使用⟦84⟧⟦271⟧，提取弗雷德里克斯堡战役的地理位置信息。⟦84⟧ 指向 Fredericksburg，⟦271⟧ 指向 Virginia，说明该战役发生在弗吉尼亚州弗雷德里克斯堡。\n\n步骤2：使用⟦256⟧⟦274⟧⟦241⟧，提取西方盟军入侵德国的地理位置信息。⟦256⟧ 指向 The Western Allied invasion，⟦274⟧ 指向 western Germany，⟦241⟧ 指向 the Rhine River，说明该军事行动发生在德国西部、莱茵河一带。\n\n步骤3：综合⟦84⟧⟦271⟧⟦256⟧⟦274⟧，对比两地与纽约市的相对距离。弗雷德里克斯堡位于美国弗吉尼亚州，属于北美大陆东海岸，与纽约市同处美国东部，直线距离约 400–500 公里。德国西部位于欧洲中部，与纽约市跨大西洋，直线距离约 6,000 公里以上。\n\n结论：弗雷德里克斯堡战役（Battle of Fredericksburg）距离纽约市更近。\n\n# 路径二：以战役所属战区与地理范围交叉验证\n\n步骤1：使用⟦188⟧⟦184⟧，提取弗雷德里克斯堡战役的战争背景。⟦188⟧ 指向 The Battle，⟦184⟧ 指向 the American Civil War，说明该战役属于美国内战，发生在美国本土。\n\n步骤2：使用⟦277⟧⟦183⟧，提取西方盟军入侵德国的战争背景。⟦277⟧ 指向 World War II，⟦183⟧ 指向 The Allied invasion，说明该行动属于第二次世界大战欧洲战场。\n\n步骤3：综合⟦184⟧⟦277⟧，对比两场战役的战场范围。美国内战发生在美国境内，而二战欧洲战场发生在欧洲大陆。纽约市位于美国东海岸，因此发生在美国本土的战役在地理上必然更接近纽约市。\n\n结论：弗雷德里克斯堡战役距离纽约市更近，因为它是美国本土战役，而西方盟军入侵德国发生在欧洲战场。\n\n# 路径三：以具体地点与纽约市的方位关系验证\n\n步骤1：使用⟦84⟧⟦271⟧⟦238⟧，提取弗雷德里克斯堡战役的具体位置。⟦84⟧ 指向 Fredericksburg，⟦271⟧ 指向 Virginia，⟦238⟧ 指向 the Potomac，说明该战役发生在弗吉尼亚州，靠近波托马克河，位于纽约市以南约 400–500 公里。\n\n步骤2：使用⟦256⟧⟦274⟧⟦187⟧⟦230⟧，提取西方盟军入侵德国的地理范围。⟦256⟧ 指向 The Western Allied invasion，⟦274⟧ 指向 western Germany，⟦187⟧ 指向 the Baltic，⟦230⟧ 指向 the north，说明该行动覆盖德国西部至北部、波罗的海一带，位于欧洲中部，与纽约市跨大西洋。\n\n步骤3：综合⟦84⟧⟦271⟧⟦256⟧⟦274⟧，对比两地与纽约市的方位。弗雷德里克斯堡与纽约市同属美国东海岸，南北相距较近；德国西部与纽约市相隔大西洋，距离遥远。\n\n结论：弗雷德里克斯堡战役距离纽约市更近。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨350⟩⟨351⟩⟦84⟧⟦84⟧⟨352⟩⟦271⟧⟨353⟩⟦90⟧⟨354⟩⟦132⟧⟨355⟩⟦252⟧",
+    "nounCount": 416,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6644,
+      "completion_tokens": 451,
+      "total_tokens": 7095,
+      "prompt_tokens_details": {
+        "cached_tokens": 6400
+      },
+      "prompt_cache_hit_tokens": 6400,
+      "prompt_cache_miss_tokens": 244
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1622,
+      "completion_tokens": 751,
+      "total_tokens": 2373,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1622
+    }
+  },
+  {
+    "qid": "hotpot_3629",
+    "question": "Who is considered the more well known author, Roger Angell or Harry Stephen Keeler?",
+    "expectedAnswer": "Roger Angell",
+    "predictedAnswer": "# 路径一：直接比较知名度表述\n\n步骤1：使用⟦111⟧，提取 Roger Angell 的身份信息，判断其知名度描述。\n步骤2：使用⟦55⟧，提取 Harry Stephen Keeler 的身份信息，判断其知名度描述。\n步骤3：综合⟦12⟧⟦25⟧，对比两者在材料中的知名度修饰语——Keeler 被明确标注为“a prolific but little-known American author”，而 Angell 被标注为“an American essayist”，未附加“little-known”之类的贬抑修饰。\n\n结论：Roger Angell 被认为是更知名的作者，因为 Harry Stephen Keeler 在材料中被明确描述为“little-known”。\n\n# 路径二：职业领域与公众可见度交叉验证\n\n步骤1：使用⟦111⟧⟦25⟧⟦49⟧⟦124⟧，提取 Roger Angell 的职业领域——essayist，写作主题涉及 sports（尤其 baseball）。\n步骤2：使用⟦55⟧⟦86⟧⟦93⟧⟦51⟧，提取 Harry Stephen Keeler 的职业领域——主要创作 mysteries 和 fiction。\n步骤3：综合⟦31⟧⟦48⟧⟦113⟧，对比两者领域——Angell 的体育写作面向大众读者，Keeler 的推理/科幻小说虽多产但受众相对小众；材料对 Keeler 附加“little-known”标签，而 Angell 无此标签。\n\n结论：Roger Angell 更知名，其体育随笔领域具有更广泛的公众可见度，且材料未对其知名度作负面限定。\n\n# 路径三：材料修饰语与作品提及方式对比\n\n步骤1：使用⟦111⟧⟦181⟧，提取 Roger Angell 的写作被直接提及，无“lesser known”或“little-known”修饰。\n步骤2：使用⟦55⟧⟦12⟧，提取 Harry Stephen Keeler 被描述为“a prolific but little-known American author”，其中“but little-known”构成明确对比。\n步骤3：综合⟦124⟧，对比材料对两者知名度的表述——Keeler 的条目以“little-known”定性，Angell 的条目无此定性，且其作品《Season Ticket: A Baseball Companion》被单独列出。\n\n结论：Roger Angell 是更知名的作者，材料通过修饰语差异明确传达了这一判断。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨36⟩⟦25⟧⟦49⟧⟨37⟩⟨38⟩⟦61⟧⟦181⟧⟨39⟩⟨40⟩⟦124⟧⟦124⟧⟨41⟩",
+    "nounCount": 232,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4276,
+      "completion_tokens": 194,
+      "total_tokens": 4470,
+      "prompt_tokens_details": {
+        "cached_tokens": 4096
+      },
+      "prompt_cache_hit_tokens": 4096,
+      "prompt_cache_miss_tokens": 180
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 846,
+      "completion_tokens": 518,
+      "total_tokens": 1364,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 846
+    }
+  },
+  {
+    "qid": "hotpot_6040",
+    "question": "Which of the following works was completed first, Something Wicked This Way Comes or The Wind in the",
+    "expectedAnswer": "The Wind in the Willows",
+    "predictedAnswer": "# 路径一：基于出版年份的直接比较\n\n步骤1：使用⟦265⟧⟦264⟧⟦123⟧⟦131⟧，提取《The Wind in the Willows》的作者为Kenneth Grahame，且首次出版于1908年。\n\n步骤2：使用⟦194⟧⟦195⟧⟦6⟧⟦164⟧⟦199⟧，提取《Something Wicked This Way Comes》是一部1962年的黑暗奇幻小说，作者为Ray Bradbury。\n\n步骤3：综合⟦131⟧⟦6⟧，对比两部作品的完成/出版时间：1908年 vs 1962年。\n\n结论：《The Wind in the Willows》完成得更早（1908年），早于《Something Wicked This Way Comes》（1962年）。\n\n---\n\n# 路径二：基于作品性质的交叉验证\n\n步骤1：使用⟦8⟧⟦60⟧⟦123⟧，提取《The Wind in the Willows》是一部儿童小说，涉及儿童角色，作者为Kenneth Grahame。\n\n步骤2：使用⟦6⟧⟦95⟧⟦164⟧，提取《Something Wicked This Way Comes》是一部1962年的黑暗奇幻小说，作者为Ray Bradbury。\n\n步骤3：综合⟦8⟧⟦6⟧，对比两部作品类型与年代背景：儿童小说（1908年）与黑暗奇幻小说（1962年）分属不同文学时期。\n\n结论：从文学史分期来看，《The Wind in the Willows》（1908年）属于20世纪初作品，明显早于《Something Wicked This Way Comes》（1962年）这一20世纪中叶作品。\n\n---\n\n# 路径三：基于作者与出版信息的综合支撑\n\n步骤1：使用⟦265⟧⟦264⟧⟦123⟧⟦131⟧，提取《The Wind in the Willows》由Kenneth Grahame创作，1908年首次出版。\n\n步骤2：使用⟦194⟧⟦195⟧⟦6⟧⟦164⟧⟦199⟧，提取《Something Wicked This Way Comes》由Ray Bradbury创作，1962年出版。\n\n步骤3：综合⟦131⟧⟦6⟧，交叉验证两部作品的出版时间差：1962 - 1908 = 54年。\n\n结论：《The Wind in the Willows》比《Something Wicked This Way Comes》早完成54年，前者完成得更早。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦265⟧⟨126⟩⟦264⟧⟨127⟩⟦8⟧⟦60⟧⟨129⟩⟨128⟩⟨130⟩⟦123⟧⟨131⟩⟦146⟧",
+    "nounCount": 407,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6913,
+      "completion_tokens": 329,
+      "total_tokens": 7242,
+      "prompt_tokens_details": {
+        "cached_tokens": 6779
+      },
+      "prompt_cache_hit_tokens": 6779,
+      "prompt_cache_miss_tokens": 134
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1246,
+      "completion_tokens": 541,
+      "total_tokens": 1787,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1246
+    }
+  },
+  {
+    "qid": "hotpot_2135",
+    "question": "Are both Ride a Wild Pony and Frozen 2 computer-animated films?",
+    "expectedAnswer": "no",
+    "predictedAnswer": "# 路径一：直接属性验证\n\n步骤1：使用⟦42⟧，提取 Frozen 2 的类型描述为 \"an upcoming American computer-animated film\"，明确其为 computer-animated film。\n\n步骤2：使用⟦9⟧，提取 Ride a Wild Pony 的类型描述为 \"a 1975 American-Australian family adventure film\"，其中未提及 computer-animated，且 1975 年的技术背景不支持 computer-animated 制作。\n\n步骤3：综合⟦42⟧⟦9⟧，对比两者类型标签：Frozen 2 明确标注 computer-animated，Ride a Wild Pony 仅标注 family adventure film，无 computer-animated 属性。\n\n结论：不是。Frozen 2 是 computer-animated film，而 Ride a Wild Pony 不是。\n\n# 路径二：制作技术与时代交叉验证\n\n步骤1：使用⟦248⟧⟦249⟧，提取 Frozen 2 由 Walt Disney Animation Studios 制作、Walt Disney Pictures 发行，该工作室以 computer-animated 技术著称。\n\n步骤2：使用⟦78⟧⟦250⟧，提取 Ride a Wild Pony 由 Don Chaffey 执导、Walt Disney Productions 制作，1975 年迪士尼尚未采用 computer-animated 技术（该技术大规模应用始于 1990 年代）。\n\n步骤3：综合⟦248⟧⟦249⟧⟦78⟧⟦250⟧，交叉验证：Frozen 2 的制作方与 computer-animated 技术直接关联；Ride a Wild Pony 的制作方与时代背景均不支持 computer-animated。\n\n结论：不是。两部影片的制作技术和时代背景存在根本差异，Ride a Wild Pony 并非 computer-animated film。\n\n# 路径三：续集关系与类型继承\n\n步骤1：使用⟦23⟧⟦173⟧，提取 Frozen 2 被描述为 \"a sequel\" 和 \"sequel\"，继承前作 Frozen 的 computer-animated 类型。\n\n步骤2：使用⟦31⟧⟦130⟧⟦117⟧，提取 Ride a Wild Pony 改编自 James Aldridge 的 novel \"A Sporting Proposition\"，属于真人实拍家庭冒险片，无 computer-animated 类型继承。\n\n步骤3：综合⟦23⟧⟦173⟧⟦31⟧⟦130⟧⟦117⟧，对比两者的类型来源：Frozen 2 通过续集关系继承 computer-animated 属性；Ride a Wild Pony 通过文学改编获得 family adventure 属性，与 computer-animated 无关。\n\n结论：不是。Frozen 2 作为续集继承 computer-animated 类型，Ride a Wild Pony 作为文学改编的真人电影不具备该属性。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦31⟧⟨219⟩⟦9⟧⟦85⟧⟨221⟩⟦36⟧⟨222⟩⟦89⟧⟨220⟩⟨223⟩⟦250⟧⟨224⟩",
+    "nounCount": 344,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5904,
+      "completion_tokens": 183,
+      "total_tokens": 6087,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 144
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 816,
+      "completion_tokens": 602,
+      "total_tokens": 1418,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 816
+    }
+  },
+  {
+    "qid": "hotpot_3357",
+    "question": "Who was born first, Grigory Margulis or Leonid Levin?",
+    "expectedAnswer": "Gregori Aleksandrovich Margulis",
+    "predictedAnswer": "# 路径一：直接比较出生日期\n\n步骤1：使用⟦89⟧⟦90⟧⟦91⟧⟦92⟧，提取 Grigory Margulis 的全名及常用名形式，确认其身份为数学家。\n\n步骤2：综合⟦343⟧⟦344⟧⟦345⟧⟦346⟧⟦347⟧⟦348⟧⟦349⟧⟦350⟧⟦351⟧，提取 Margulis 的出生日期为 February 24, 1946。\n\n步骤3：使用⟦118⟧⟦181⟧⟦263⟧⟦279⟧⟦280⟧⟦281⟧，提取 Leonid Levin 的全名及俄语/乌克兰语拼写，确认其身份为计算机科学家。\n\n步骤4：综合⟦334⟧⟦335⟧⟦336⟧⟦337⟧⟦338⟧⟦339⟧，提取 Levin 的出生日期为 November 2, 1948。\n\n步骤5：对比 1946年2月24日 与 1948年11月2日，判断 Margulis 出生更早。\n\n结论：Grigory Margulis 出生更早（1946年），比 Leonid Levin（1948年）早两年多。\n\n# 路径二：国籍与身份交叉验证\n\n步骤1：使用⟦89⟧，提取 Margulis 的全名 Gregori Aleksandrovich Margulis，结合⟦180⟧确认其俄罗斯背景。\n\n步骤2：综合⟦27⟧⟦131⟧，确认 Margulis 是俄罗斯裔美国数学家。\n\n步骤3：使用⟦118⟧，提取 Levin 的全名 Leonid Anatolievich Levin，结合⟦263⟧确认其乌克兰背景。\n\n步骤4：综合⟦29⟧⟦182⟧，确认 Levin 是苏联裔美国计算机科学家。\n\n步骤5：综合⟦351⟧⟦339⟧，对比两人出生日期：Margulis 生于1946年2月24日，Levin 生于1948年11月2日。\n\n结论：尽管两人均为苏联/俄罗斯裔美国科学家，但 Margulis 出生年份更早，因此 Margulis 出生更早。\n\n# 路径三：材料一致性检验\n\n步骤1：使用⟦89⟧⟦90⟧⟦91⟧⟦92⟧，确认 Margulis 的名字有多种拼写（Gregory, Grigori, Grigory），但指向同一人。\n\n步骤2：综合⟦343⟧⟦344⟧⟦345⟧⟦346⟧⟦347⟧⟦348⟧⟦349⟧⟦350⟧⟦351⟧，提取其出生日期 February 24, 1946，该信息在材料中明确给出。\n\n步骤3：使用⟦118⟧⟦181⟧，确认 Levin 的全名及俄语拼写，结合⟦263⟧⟦279⟧确认其乌克兰语拼写。\n\n步骤4：综合⟦334⟧⟦335⟧⟦336⟧⟦337⟧⟦338⟧⟦339⟧，提取其出生日期 November 2, 1948，该信息在材料中明确给出。\n\n步骤5：交叉验证两条出生日期信息，均无矛盾，且分别明确标注年份。\n\n结论：材料一致表明 Margulis 生于1946年，Levin 生于1948年，因此 Grigory Margulis 出生更早。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦89⟧⟨343⟩⟦180⟧⟨344⟩⟦278⟧⟦278⟧⟨345⟩⟨346⟩⟦80⟧⟦137⟧⟨347⟩⟨348⟩",
+    "nounCount": 371,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 6259,
+      "completion_tokens": 289,
+      "total_tokens": 6548,
+      "prompt_tokens_details": {
+        "cached_tokens": 6016
+      },
+      "prompt_cache_hit_tokens": 6016,
+      "prompt_cache_miss_tokens": 243
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1137,
+      "completion_tokens": 769,
+      "total_tokens": 1906,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1137
+    }
+  },
+  {
+    "qid": "hotpot_6826",
+    "question": "Are Kim Dong-jun and Charlie Harper both singers?",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：直接身份核验\n\n步骤1：使用⟦19⟧，提取 Kim Dong-jun 的身份描述为“a South Korean singer”，判断其具有歌手身份。\n\n步骤2：使用⟦7⟧，提取 Charlie Harper 的身份描述为“a British singer”，判断其具有歌手身份。\n\n步骤3：综合⟦19⟧⟦7⟧，对比两者身份标签，均包含“singer”，交叉验证一致。\n\n结论：Kim Dong-jun 和 Charlie Harper 都是歌手，答案为是。\n\n# 路径二：消歧与实体确认\n\n步骤1：使用⟦91⟧⟦171⟧，确认“Kim Dong-jun”对应韩文“김동준”，并结合⟦2⟧⟦5⟧，锁定该实体为韩国歌手/演员，而非足球运动员。\n\n步骤2：使用⟦55⟧⟦97⟧，提取 Charlie Harper 的全名“David Charles Perez”、出生地“London”，并结合⟦144⟧⟦146⟧，确认其为“the lead singer” of “the punk band U.K. Subs”。\n\n步骤3：综合⟦19⟧⟦144⟧，交叉验证 Kim Dong-jun 为歌手、Charlie Harper 为乐队主唱，两者均属歌唱职业。\n\n结论：经消歧确认，Kim Dong-jun 与 Charlie Harper 均为歌手，答案为是。\n\n# 路径三：排除同名干扰\n\n步骤1：使用⟦67⟧⟦70⟧⟦11⟧，注意到存在同名“Kim Dong-jun”的足球运动员（footballer/goalkeeper），需排除该实体。\n\n步骤2：使用⟦91⟧⟦19⟧，确认问题所指的 Kim Dong-jun 为歌手，而非⟦18⟧中的“South Korean footballer”。\n\n步骤3：使用⟦47⟧，确认 Charlie Harper 与《Two and a Half Men》中的虚构角色同名，但问题所指为⟦7⟧中的“British singer”，排除虚构角色干扰。\n\n结论：排除同名干扰后，Kim Dong-jun 和 Charlie Harper 均为歌手，答案为是。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨186⟩⟦55⟧⟨187⟩⟦97⟧⟨188⟩⟦7⟧⟨189⟩⟨190⟩⟦125⟧⟦125⟧⟨191⟩⟨192⟩",
+    "nounCount": 248,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 4194,
+      "completion_tokens": 257,
+      "total_tokens": 4451,
+      "prompt_tokens_details": {
+        "cached_tokens": 3968
+      },
+      "prompt_cache_hit_tokens": 3968,
+      "prompt_cache_miss_tokens": 226
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1004,
+      "completion_tokens": 464,
+      "total_tokens": 1468,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1004
+    }
+  },
+  {
+    "qid": "hotpot_2750",
+    "question": "Which genus has more species, Cymbidium or Patrinia?",
+    "expectedAnswer": "Cymbidium",
+    "predictedAnswer": "# 路径一：基于物种数量的直接对比\n\n步骤1：使用⟦116⟧，提取 Patrinia 属的物种数量信息，即“about 17 species”⟦32⟧。\n\n步骤2：使用⟦26⟧，提取 Cymbidium 属的物种数量信息，即“52 evergreen species”⟦19⟧。\n\n步骤3：综合⟦32⟧⟦19⟧，对比两个属的物种数量：Patrinia 约17种，Cymbidium 有52种。52 > 17。\n\n结论：Cymbidium 属的物种数量多于 Patrinia 属。\n\n---\n\n# 路径二：基于分类归属的交叉验证\n\n步骤1：使用⟦58⟧⟦79⟧，确认 Cymbidium 是一个属（genus），且属于兰科 Orchidaceae⟦167⟧。\n\n步骤2：使用⟦116⟧⟦159⟧，确认 Patrinia 属于忍冬科（the honeysuckle family），是一个独立的属。\n\n步骤3：综合⟦19⟧⟦32⟧，从两个属的物种数量描述中提取数据：Cymbidium 有52种，Patrinia 约17种。\n\n结论：交叉验证后，Cymbidium（52种）明显多于 Patrinia（约17种）。\n\n---\n\n# 路径三：基于材料中数量表述的语义对比\n\n步骤1：使用⟦19⟧，提取“52 evergreen species”，其中“52”为明确数字，修饰 Cymbidium 的物种数。\n\n步骤2：使用⟦32⟧，提取“about 17 species”，其中“about 17”为近似数字，修饰 Patrinia 的物种数。\n\n步骤3：综合⟦19⟧⟦32⟧，对比明确数字与近似数字：52 远大于 17，即使考虑近似误差，Cymbidium 仍显著更多。\n\n结论：无论从精确还是近似角度，Cymbidium 的物种数都超过 Patrinia。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨94⟩⟨95⟩⟨96⟩⟦26⟧⟨97⟩⟨98⟩⟦19⟧⟨99⟩⟨100⟩⟦167⟧⟨102⟩⟨103⟩",
+    "nounCount": 269,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4655,
+      "completion_tokens": 210,
+      "total_tokens": 4865,
+      "prompt_tokens_details": {
+        "cached_tokens": 4480
+      },
+      "prompt_cache_hit_tokens": 4480,
+      "prompt_cache_miss_tokens": 175
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 836,
+      "completion_tokens": 447,
+      "total_tokens": 1283,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 836
+    }
+  },
+  {
+    "qid": "hotpot_2318",
+    "question": "Is there fruit juice in both a Fizz and a Painkiller cocktail?",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：直接成分对比\n\n步骤1：使用⟦25⟧，提取 Painkiller 的定义，判断其为一种 rum cocktail（⟦29⟧），并进一步查看其成分描述。\n\n步骤2：综合⟦9⟧⟦63⟧⟦64⟧⟦72⟧⟦76⟧，提取 Painkiller 的配方包含 4 parts pineapple juice（⟦9⟧）、coconut（⟦63⟧）、coconut and 1 part orange juice（⟦64⟧）、cream（⟦72⟧）以及 orange（⟦76⟧），确认其中含有 fruit juice（pineapple juice 和 orange juice）。\n\n步骤3：使用⟦11⟧⟦91⟧，提取 Fizz 的定义为 \"A 'fizz'\"（⟦11⟧）和 \"fizz\"（⟦91⟧），并查看其成分描述。\n\n步骤4：综合⟦37⟧⟦129⟧，提取 Fizz 的成分包含 an acidic juice（⟦37⟧）和 lemon（⟦129⟧），确认其中含有 fruit juice（lemon juice 属于 fruit juice）。\n\n结论：是的，Fizz 和 Painkiller 都含有 fruit juice。Painkiller 含 pineapple juice 和 orange juice，Fizz 含 lemon juice（作为 acidic juice）。\n\n---\n\n# 路径二：类别归属与成分交叉验证\n\n步骤1：综合⟦24⟧⟦79⟧⟦175⟧，提取 Fizz 被描述为 a mixed drink variation（⟦24⟧）和 drink（⟦79⟧），且与 rum（⟦175⟧）相关，判断 Fizz 属于混合饮品类别。\n\n步骤2：综合⟦37⟧⟦129⟧⟦184⟧，提取 Fizz 的 defining features（⟦120⟧）包括 an acidic juice（⟦37⟧）、lemon（⟦129⟧）以及 sours（⟦184⟧），确认 Fizz 的核心成分包含 fruit juice（lemon juice）。\n\n步骤3：综合⟦9⟧⟦64⟧⟦76⟧，提取 Painkiller 的成分包含 4 parts pineapple juice（⟦9⟧）、1 part orange juice（⟦64⟧）以及 orange（⟦76⟧），确认 Painkiller 含有多种 fruit juice。\n\n步骤4：对比⟦37⟧⟦129⟧与⟦9⟧⟦64⟧⟦76⟧，发现两者虽然属于不同饮品类别（Fizz 为 sours 家族，Painkiller 为 rum cocktail），但都含有 fruit juice 成分。\n\n结论：是的，两种饮品都含有 fruit juice。Fizz 含 lemon juice（acidic juice），Painkiller 含 pineapple juice 和 orange juice。\n\n---\n\n# 路径三：配方结构分析\n\n步骤1：使用⟦213⟧⟦170⟧⟦63⟧⟦64⟧，提取 The Painkiller（⟦213⟧）的配方包含 Pusser's rum（⟦170⟧）、coconut（⟦63⟧）以及 coconut and 1 part orange juice（⟦64⟧），判断其含有 fruit juice（orange juice）。\n\n步骤2：综合⟦9⟧⟦162⟧，提取 Painkiller 还包含 4 parts pineapple juice（⟦9⟧）和 pineapple（⟦162⟧），进一步确认其含有 fruit juice（pineapple juice）。\n\n步骤3：使用⟦120⟧⟦89⟧，提取 Fizz 的 Its defining features（⟦120⟧）和 features（⟦89⟧），查看其核心成分。\n\n步骤4：综合⟦37⟧⟦129⟧⟦184⟧，提取 Fizz 的 defining features 包括 an acidic juice（⟦37⟧）、lemon（⟦129⟧）以及 sours（⟦184⟧），确认 Fizz 含有 fruit juice（lemon juice 作为 acidic juice）。\n\n结论：是的，Fizz 和 Painkiller 都含有 fruit juice。Painkiller 含 pineapple juice 和 orange juice，Fizz 含 lemon juice（acidic juice）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦11⟧⟦91⟧⟨172⟩⟨173⟩⟦24⟧⟦79⟧⟨175⟩⟦235⟧⟨174⟩⟨176⟩⟦212⟧⟦184⟧",
+    "nounCount": 355,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 5763,
+      "completion_tokens": 411,
+      "total_tokens": 6174,
+      "prompt_tokens_details": {
+        "cached_tokens": 5629
+      },
+      "prompt_cache_hit_tokens": 5629,
+      "prompt_cache_miss_tokens": 134
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1394,
+      "completion_tokens": 929,
+      "total_tokens": 2323,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1394
+    }
+  },
+  {
+    "qid": "hotpot_6773",
+    "question": "Arbutus and Aspidistra are what types of plants?",
+    "expectedAnswer": "flowering plants",
+    "predictedAnswer": "# 路径一：基于分类学层级的直接推理\n\n步骤1：使用⟦47⟧，提取 Arbutus 是一个属（genus）的信息，结合⟦19⟧确认其为属级分类单元。\n\n步骤2：综合⟦47⟧⟦94⟧⟦104⟧，Arbutus 属于 Ericaceae（杜鹃花科），而 Ericaceae 是 flowering plants（被子植物/开花植物）的一个科，因此 Arbutus 是开花植物。\n\n步骤3：使用⟦50⟧，提取 Aspidistra 是一个属的信息，结合⟦49⟧确认其属于 Asparagaceae（天门冬科）。\n\n步骤4：综合⟦49⟧⟦104⟧，Asparagaceae 同样属于 flowering plants，因此 Aspidistra 也是开花植物。\n\n结论：Arbutus 和 Aspidistra 都是开花植物（flowering plants），分别属于 Ericaceae 和 Asparagaceae 两个不同的科。\n\n---\n\n# 路径二：基于共有属性的交叉验证\n\n步骤1：使用⟦47⟧，提取 Arbutus 是 a genus（一个属），且属于 the family Ericaceae。\n\n步骤2：使用⟦50⟧，提取 Aspidistra 是 Asparagaceae 科下的一个属。\n\n步骤3：综合⟦104⟧，flowering plants 是两者共同的上层分类特征——Arbutus 通过 Ericaceae 归属于开花植物，Aspidistra 通过 Asparagaceae 归属于开花植物。\n\n步骤4：综合⟦19⟧⟦118⟧，两者均为 genus（属）级分类单元，且均为开花植物，属于同一大类但不同科。\n\n结论：两者都是开花植物（flowering plants），且均为属级分类单元，但分属不同科——Arbutus 属 Ericaceae，Aspidistra 属 Asparagaceae。\n\n---\n\n# 路径三：基于地理分布与分类的对比推理\n\n步骤1：使用⟦47⟧，提取 Arbutus 的分布信息——native to warm temperate regions, the Mediterranean, western Europe, the Canary Islands, North America 等地区。\n\n步骤2：使用⟦50⟧，提取 Aspidistra 的分布信息——native to eastern and southeastern Asia, particularly China, Vietnam 等地区。\n\n步骤3：综合⟦47⟧⟦50⟧⟦104⟧，尽管两者地理分布差异显著（Arbutus 偏地中海/北美，Aspidistra 偏东亚/东南亚），但分类学上均归属于 flowering plants。\n\n步骤4：综合⟦94⟧⟦49⟧，Arbutus 属于 Ericaceae，Aspidistra 属于 Asparagaceae，两者在科级分类上不同，但同属开花植物这一大类。\n\n结论：Arbutus 和 Aspidistra 都是开花植物（flowering plants），但地理分布和科级分类均不同——Arbutus 为 Ericaceae 科、分布于地中海和北美等地区，Aspidistra 为 Asparagaceae 科、分布于东亚和东南亚地区。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟨2⟩⟨3⟩⟨4⟩⟨5⟩⟨6⟩⟨7⟩⟦49⟧⟨8⟩⟦242⟧⟨9⟩⟦90⟧",
+    "nounCount": 511,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8019,
+      "completion_tokens": 241,
+      "total_tokens": 8260,
+      "prompt_tokens_details": {
+        "cached_tokens": 7808
+      },
+      "prompt_cache_hit_tokens": 7808,
+      "prompt_cache_miss_tokens": 211
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 925,
+      "completion_tokens": 667,
+      "total_tokens": 1592,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 925
+    }
+  },
+  {
+    "qid": "hotpot_4438",
+    "question": "Are Toshi and Warrel Dane both in the band Sanctuary?",
+    "expectedAnswer": "no",
+    "predictedAnswer": "# 路径一：直接成员身份验证\n\n步骤1：使用⟦185⟧⟦186⟧，提取“Sanctuary”是一个乐队，且与“Seattle”相关，判断Sanctuary是一支真实存在的乐队。\n\n步骤2：使用⟦221⟧，提取Warrel Dane是“the American power metal band Sanctuary”的主唱，判断Warrel Dane是Sanctuary的成员。\n\n步骤3：使用⟦275⟧⟦276⟧⟦4⟧⟦7⟧，提取Toshi即Toshimitsu Deyama（出山利三），是一位日本歌手，判断Toshi与Sanctuary乐队无直接关联。\n\n结论：Warrel Dane在Sanctuary乐队中，但Toshi不在。因此两人并非都在Sanctuary乐队。\n\n# 路径二：人物身份与乐队归属交叉验证\n\n步骤1：综合⟦291⟧⟦238⟧⟦221⟧，提取Warrel Dane是Sanctuary乐队的主唱，确认其乐队成员身份。\n\n步骤2：综合⟦195⟧⟦14⟧⟦275⟧，提取Toshi是一位日本歌手，其身份为独唱歌手，未提及与Sanctuary乐队的关联。\n\n步骤3：综合⟦28⟧⟦185⟧，提取Sanctuary是一支美国重金属乐队，与Toshi的日本歌手身份无交集。\n\n结论：Toshi和Warrel Dane并非都在Sanctuary乐队；只有Warrel Dane是Sanctuary成员。\n\n# 路径三：排除法验证\n\n步骤1：使用⟦146⟧⟦41⟧，提取“Praises to the War Machine”与“band”和“metal”相关，判断Warrel Dane的个人作品与金属乐队背景一致。\n\n步骤2：使用⟦128⟧⟦203⟧，提取Peter Wichers是“lead”和“songwriter”，与Warrel Dane合作，进一步确认Warrel Dane的金属乐队背景。\n\n步骤3：使用⟦275⟧⟦276⟧，提取Toshi的完整身份信息，未发现任何与Sanctuary乐队相关的线索。\n\n结论：通过排除法，Toshi不在Sanctuary乐队，而Warrel Dane在，因此两人并非都在该乐队。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦291⟧⟨289⟩⟦238⟧⟨291⟩⟨290⟩⟨292⟩⟦221⟧⟦169⟧⟨294⟩⟨295⟩⟨296⟩⟨293⟩",
+    "nounCount": 455,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7330,
+      "completion_tokens": 218,
+      "total_tokens": 7548,
+      "prompt_tokens_details": {
+        "cached_tokens": 7168
+      },
+      "prompt_cache_hit_tokens": 7168,
+      "prompt_cache_miss_tokens": 162
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 923,
+      "completion_tokens": 489,
+      "total_tokens": 1412,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 923
+    }
+  },
+  {
+    "qid": "hotpot_4582",
+    "question": "Which documentary was made first, The Shame of a City or Unchained Memories?",
+    "expectedAnswer": "Unchained Memories",
+    "predictedAnswer": "# 路径一：基于年份的直接比较\n\n步骤1：使用⟦322⟧⟦23⟧⟦21⟧⟦315⟧，提取《The Shame of a City》的类型与首映信息，判断其为2006年首映于费城电影节的专题纪录片。\n\n步骤2：使用⟦352⟧⟦20⟧，提取《Unchained Memories》的类型信息，判断其为2003年的纪录片。\n\n步骤3：综合⟦21⟧⟦20⟧，对比两者的年份：2003年早于2006年。\n\n结论：《Unchained Memories》制作在先（2003年），《The Shame of a City》在后（2006年）。\n\n# 路径二：基于主题内容的时间锚定\n\n步骤1：使用⟦352⟧⟦282⟧⟦143⟧⟦286⟧⟦274⟧⟦295⟧，提取《Unchained Memories》的主题：关于前奴隶在1930年代被联邦作家计划采访的故事。\n\n步骤2：使用⟦352⟧⟦291⟧⟦292⟧⟦336⟧，提取其素材来源为WPA奴隶叙事收藏，进一步确认其内容锚定于1930年代的历史材料。\n\n步骤3：使用⟦322⟧⟦23⟧⟦21⟧，提取《The Shame of a City》为2006年专题纪录片，其主题围绕城市议题，无1930年代历史素材的关联。\n\n结论：从内容时间锚定看，《Unchained Memories》处理的是1930年代的历史材料，且本身为2003年制作，早于2006年的《The Shame of a City》。\n\n# 路径三：交叉验证两部影片的年份差异\n\n步骤1：使用⟦352⟧⟦20⟧，确认《Unchained Memories》为2003年纪录片。\n\n步骤2：使用⟦322⟧⟦21⟧⟦315⟧，确认《The Shame of a City》为2006年专题纪录片，首映于费城电影节。\n\n步骤3：综合⟦20⟧⟦21⟧，交叉验证两者年份无矛盾，2003年确实早于2006年。\n\n结论：交叉验证支持同一结论——《Unchained Memories》（2003年）比《The Shame of a City》（2006年）制作更早。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦322⟧⟨97⟩⟦23⟧⟨98⟩⟦21⟧⟦129⟧⟨100⟩⟦180⟧⟨101⟩⟨99⟩⟨102⟩⟦315⟧",
+    "nounCount": 459,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 7913,
+      "completion_tokens": 177,
+      "total_tokens": 8090,
+      "prompt_tokens_details": {
+        "cached_tokens": 7680
+      },
+      "prompt_cache_hit_tokens": 7680,
+      "prompt_cache_miss_tokens": 233
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 776,
+      "completion_tokens": 517,
+      "total_tokens": 1293,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 776
+    }
+  },
+  {
+    "qid": "hotpot_1521",
+    "question": "Are Out Traveler and Reader's Digest both magazines?",
+    "expectedAnswer": "yes",
+    "predictedAnswer": "# 路径一：基于直接定义与类别归属的验证\n\n步骤1：使用⟦127⟧，提取“magazine”这一核心类别词，确认该词在材料中作为实体类型标签出现。\n\n步骤2：综合⟦6⟧⟦16⟧，交叉验证“Out” magazine 与 “a gay and lesbian travel magazine” 的表述，判断 Out Traveler 被明确归类为杂志。\n\n步骤3：使用⟦32⟧，提取“an American general-interest family magazine”，确认 Reader's Digest 被直接定义为杂志。\n\n结论：Out Traveler 和 Reader's Digest 均被材料明确归类为杂志，因此答案是肯定的。\n\n# 路径二：基于出版物特征与出版行为的交叉验证\n\n步骤1：使用⟦250⟧⟦306⟧⟦307⟧，提取“Out traveler is”这一主谓结构，结合⟦16⟧的“a gay and lesbian travel magazine”，确认 Out Traveler 的出版物属性。\n\n步骤2：使用⟦120⟧⟦243⟧⟦268⟧，提取 Reader's Digest 的出版历史信息（“published ten times... a year”），结合⟦32⟧的杂志定义，验证其作为定期出版物的杂志特征。\n\n步骤3：综合⟦322⟧⟦324⟧⟦326⟧，对比 Out Traveler 的出版形态变化（“Published as... from 2003 to 2008... incorporated as... to...”），确认其曾以杂志形式出版。\n\n结论：两者均具备定期出版、有明确出版历史等杂志特征，进一步支持两者都是杂志的判断。\n\n# 路径三：基于内容主题与出版者模式的综合支撑\n\n步骤1：使用⟦123⟧⟦249⟧，提取“LGBT travel topics”与“travel”，确认 Out Traveler 的内容主题聚焦于旅行，符合旅行杂志定位。\n\n步骤2：使用⟦78⟧⟦107⟧，提取“family”与“interest”，结合⟦32⟧的“general-interest family magazine”，确认 Reader's Digest 的内容主题为家庭综合兴趣，符合大众杂志定位。\n\n步骤3：综合⟦172⟧⟦230⟧，对比两者均涉及“publishers”（出版者）这一杂志出版链条中的关键角色，验证两者均处于杂志出版体系内。\n\n结论：从内容主题和出版者模式看，两者均符合杂志的典型特征，答案确认为肯定。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨116⟩⟦32⟧⟨118⟩⟨119⟩⟨117⟩⟨120⟩⟦243⟧⟨121⟩⟦268⟧⟨122⟩⟦107⟧⟦78⟧",
+    "nounCount": 363,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 6052,
+      "completion_tokens": 264,
+      "total_tokens": 6316,
+      "prompt_tokens_details": {
+        "cached_tokens": 5888
+      },
+      "prompt_cache_hit_tokens": 5888,
+      "prompt_cache_miss_tokens": 164
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 972,
+      "completion_tokens": 529,
+      "total_tokens": 1501,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 972
+    }
+  },
+  {
+    "qid": "hotpot_1771",
+    "question": "Are the bands \"Black Grape\" and \"Balance and Composure\" from the same country?",
+    "expectedAnswer": "no",
+    "predictedAnswer": "# 路径一：直接国家归属对比\n\n步骤1：使用⟦61⟧⟦125⟧，提取 Black Grape 的国家信息——Black Grape 是一支来自 England 的 band。\n\n步骤2：使用⟦41⟧⟦116⟧⟦230⟧，提取 Balance and Composure 的国家信息——Balance and Composure 是一支来自 Doylestown, Pennsylvania 的 American alternative rock band。\n\n步骤3：综合⟦125⟧⟦230⟧，对比两者国家：England ≠ United States (Pennsylvania)。\n\n结论：否，Black Grape 来自英国，Balance and Composure 来自美国，两者并非同一国家。\n\n# 路径二：成员关联与地理交叉验证\n\n步骤1：使用⟦144⟧⟦158⟧⟦67⟧，提取 Black Grape 的成员背景——其 former members 与 Happy Mondays 相关，而 Happy Mondays 是英国曼彻斯特的乐队，进一步佐证 Black Grape 的英国属性。\n\n步骤2：使用⟦82⟧⟦83⟧⟦95⟧⟦41⟧，提取 Balance and Composure 的名称构成——由 Balance 和 Composure 组成，且被明确标注为 an American alternative rock band。\n\n步骤3：综合⟦158⟧⟦41⟧，交叉验证：Black Grape 的成员脉络指向英国，Balance and Composure 被直接标注为美国乐队。\n\n结论：否，两者分属英国和美国，国家不同。\n\n# 路径三：材料标签一致性检验\n\n步骤1：使用⟦26⟧⟦61⟧，提取 Black Grape 的类别标签——被描述为 a rock band / band，但未直接给出国家，需依赖⟦125⟧ England 补全。\n\n步骤2：使用⟦41⟧，提取 Balance and Composure 的类别标签——被直接描述为 an American alternative rock band，国家信息内嵌于标签中。\n\n步骤3：综合⟦125⟧⟦41⟧，对比标签粒度：Black Grape 的国家信息需从独立材料⟦125⟧获取，而 Balance and Composure 的国家信息已嵌入⟦41⟧的形容词中，两者分别指向 England 和 American。\n\n结论：否，Black Grape 来自英国，Balance and Composure 来自美国，不是同一国家。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨277⟩⟦26⟧⟨279⟩⟦61⟧⟨278⟩⟨280⟩⟦125⟧⟨281⟩⟦144⟧⟦201⟧⟨282⟩⟨283⟩",
+    "nounCount": 589,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 9631,
+      "completion_tokens": 137,
+      "total_tokens": 9768,
+      "prompt_tokens_details": {
+        "cached_tokens": 9472
+      },
+      "prompt_cache_hit_tokens": 9472,
+      "prompt_cache_miss_tokens": 159
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 639,
+      "completion_tokens": 514,
+      "total_tokens": 1153,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 639
+    }
+  },
+  {
+    "qid": "hotpot_4074",
+    "question": "Which dog breed is NOT recognized by the Fédération Cynologique Internationale (FCI), the Korean Jin",
+    "expectedAnswer": "Taigan",
+    "predictedAnswer": "# 路径一：基于FCI认可状态的直接对比\n\n步骤1：使用⟦168⟧，提取The Taigan的基本信息——它是一种sighthound breed，来自Kyrgyzstan，其FCI认可状态在材料中被明确标注为“not yet recognized by ⟦84⟧”，即尚未被FCI认可。\n\n步骤2：使用⟦152⟧，提取The Korean Jindo的基本信息——它是一种来自South Korea的犬种，材料⟦149⟧明确指出“The Jindo breed became recognized by the United Kennel Club on January 1, 1998”，但未提及FCI认可。\n\n步骤3：综合⟦168⟧⟦152⟧，对比两者的认可状态：Taigan明确标注“not yet recognized by FCI”，而Korean Jindo的材料中未出现FCI认可信息，但⟦149⟧显示其已被UKC认可。\n\n结论：Taigan未被FCI认可，而Korean Jindo的FCI认可状态在材料中未明确否定，因此答案是Taigan。\n\n# 路径二：基于FCI认可列表的交叉验证\n\n步骤1：使用⟦60⟧⟦143⟧，提取“List of dog breeds recognized by the FCI”这一材料，该列表明确列出了被FCI认可的犬种。\n\n步骤2：综合⟦168⟧⟦152⟧，将Taigan和Korean Jindo分别与FCI认可列表进行比对：Taigan的材料⟦168⟧中明确标注“not yet recognized by ⟦84⟧”，而Korean Jindo的材料⟦152⟧中未出现“not recognized”的否定表述。\n\n步骤3：使用⟦149⟧，提取“The Jindo breed became recognized by the United Kennel Club on January 1, 1998 and by the United Kennel Club in 2005”，说明Korean Jindo已被其他主要犬业组织认可，但材料中未提及其被FCI拒绝。\n\n结论：Taigan被明确标注为未被FCI认可，而Korean Jindo未被标注为“not recognized”，因此答案是Taigan。\n\n# 路径三：基于否定标记的语义分析\n\n步骤1：使用⟦168⟧，提取关键否定短语“not yet recognized by ⟦84⟧”，其中⟦84⟧ = kennel clubs，结合上下文⟦141⟧ = the FCI，可推断Taigan未被FCI认可。\n\n步骤2：使用⟦152⟧⟦149⟧，提取Korean Jindo的认可信息：材料中仅提及UKC认可（1998年和2005年），未出现任何“not recognized by FCI”的否定表述。\n\n步骤3：综合⟦168⟧⟦152⟧，对比两者的否定标记：Taigan有明确的“not recognized”标记，Korean Jindo没有。\n\n结论：Taigan是未被FCI认可的犬种，Korean Jindo未被材料否定其FCI认可状态，因此答案是Taigan。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦152⟧⟨206⟩⟦12⟧⟨207⟩⟦72⟧⟨208⟩⟦18⟧⟨209⟩⟦19⟧⟨210⟩⟨211⟩⟨212⟩",
+    "nounCount": 265,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4627,
+      "completion_tokens": 258,
+      "total_tokens": 4885,
+      "prompt_tokens_details": {
+        "cached_tokens": 4480
+      },
+      "prompt_cache_hit_tokens": 4480,
+      "prompt_cache_miss_tokens": 147
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1078,
+      "completion_tokens": 631,
+      "total_tokens": 1709,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1078
+    }
+  }
+]

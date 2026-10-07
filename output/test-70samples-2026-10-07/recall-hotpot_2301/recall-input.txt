@@ -1,0 +1,318 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Aria Art Collection
+⟦2⟧ = 100 metre height
+⟦3⟧ = 13 May
+⟦4⟧ = 150m+ completed building
+⟦5⟧ = 1980s
+⟦6⟧ = 1990s
+⟦7⟧ = 19th and 20th floors
+⟦8⟧ = 215 Berry Street
+⟦9⟧ = 3 Nationwide Plaza
+⟦10⟧ = 4 Supertall building
+⟦11⟧ = 76 acre
+⟦12⟧ = 8 years
+⟦13⟧ = 88 Highrise building
+⟦14⟧ = 9th
+⟦15⟧ = a 16797000 sqft mixed-use
+⟦16⟧ = a 22 storey highrise building
+⟦17⟧ = a 36-story highrise
+⟦18⟧ = a 408 ft(124m) postmodern highrise building
+⟦19⟧ = a Clark County court
+⟦20⟧ = a cylindrical highrise building
+⟦21⟧ = a highrise building
+⟦22⟧ = a joint partner
+⟦23⟧ = a non-gaming boutique hotel
+⟦24⟧ = a people mover system
+⟦25⟧ = a postmodern style
+⟦26⟧ = a residential building
+⟦27⟧ = acre
+⟦28⟧ = address
+⟦29⟧ = age
+⟦30⟧ = an Art Deco highrise building
+⟦31⟧ = an elliptical layout
+⟦32⟧ = an estimated 2000 inhabitants
+⟦33⟧ = an office highrise building
+⟦34⟧ = Andrew Sasson's The Light Group
+⟦35⟧ = Ankara
+⟦36⟧ = apartments
+⟦37⟧ = architect
+⟦38⟧ = Asia
+⟦39⟧ = auction
+⟦40⟧ = August
+⟦41⟧ = Avenida Prestes Maia
+⟦42⟧ = Bellagio Las Vegas
+⟦43⟧ = Birmingham
+⟦44⟧ = blocks
+⟦45⟧ = Bloco A
+⟦46⟧ = Bloco B
+⟦47⟧ = boom
+⟦48⟧ = boutique
+⟦49⟧ = brand
+⟦50⟧ = branding
+⟦51⟧ = building
+⟦52⟧ = buildings
+⟦53⟧ = business
+⟦54⟧ = Businessman Jorge Nacle Hamuche
+⟦55⟧ = capital
+⟦56⟧ = city
+⟦57⟧ = CityCenter
+⟦58⟧ = CityCenter Las Vegas
+⟦59⟧ = Columbus
+⟦60⟧ = Companhia Nacional de Tecidos
+⟦61⟧ = completion
+⟦62⟧ = complex
+⟦63⟧ = concourse
+⟦64⟧ = concrete
+⟦65⟧ = construction
+⟦66⟧ = corner
+⟦67⟧ = court
+⟦68⟧ = decades
+⟦69⟧ = December
+⟦70⟧ = defects
+⟦71⟧ = demolition
+⟦72⟧ = design
+⟦73⟧ = development
+⟦74⟧ = dismantling
+⟦75⟧ = downtown
+⟦76⟧ = Downtown Columbus
+⟦77⟧ = downtown Philadelphia
+⟦78⟧ = downtown São Paulo
+⟦79⟧ = Dubai World
+⟦80⟧ = early 1990s
+⟦81⟧ = Edmund Bacon
+⟦82⟧ = Eduardo Amorim
+⟦83⟧ = Emek Business Center
+⟦84⟧ = Emek İşhanı
+⟦85⟧ = England
+⟦86⟧ = exterior
+⟦87⟧ = fall
+⟦88⟧ = Five Penn Center
+⟦89⟧ = floors
+⟦90⟧ = focus
+⟦91⟧ = formerly "CityCenter Art Collection
+⟦92⟧ = formerly "CityCenter Tram
+⟦93⟧ = Fort Wayne
+⟦94⟧ = Foster
+⟦95⟧ = glass
+⟦96⟧ = Glenn Howells
+⟦97⟧ = Greater Jakarta
+⟦98⟧ = Hamuche
+⟦99⟧ = Harmon Avenue
+⟦100⟧ = headquarters
+⟦101⟧ = height
+⟦102⟧ = highly reflective exterior
+⟦103⟧ = highrise
+⟦104⟧ = his business partner
+⟦105⟧ = history
+⟦106⟧ = hotel
+⟦107⟧ = Indiana
+⟦108⟧ = Indonesia
+⟦109⟧ = inhabitants
+⟦110⟧ = intersection
+⟦111⟧ = its completion
+⟦112⟧ = Jakarta
+⟦113⟧ = Jalan M.H. Thamrin
+⟦114⟧ = Kahramanlar Business Center
+⟦115⟧ = Kahramanlar İş Merkezi
+⟦116⟧ = Kızılay
+⟦117⟧ = Kızılay Square
+⟦118⟧ = Las Vegas Boulevard
+⟦119⟧ = layout
+⟦120⟧ = Lincoln Bank Tower
+⟦121⟧ = list
+⟦122⟧ = Luz Station
+⟦123⟧ = Maia
+⟦124⟧ = materials
+⟦125⟧ = metre
+⟦126⟧ = MGM properties Monte Carlo Las Vegas
+⟦127⟧ = MGM Resorts International
+⟦128⟧ = name
+⟦129⟧ = names
+⟦130⟧ = Nationwide Mutual Insurance Company
+⟦131⟧ = Nationwide Plaza
+⟦132⟧ = nearly 20 years
+⟦133⟧ = Nevada
+⟦134⟧ = New York City
+⟦135⟧ = number
+⟦136⟧ = number 9th
+⟦137⟧ = office
+⟦138⟧ = Ohio
+⟦139⟧ = opening
+⟦140⟧ = other building
+⟦141⟧ = owner
+⟦142⟧ = Paradise
+⟦143⟧ = part
+⟦144⟧ = partner
+⟦145⟧ = Partners
+⟦146⟧ = Pennsylvania
+⟦147⟧ = people
+⟦148⟧ = phase
+⟦149⟧ = Portuguese
+⟦150⟧ = project
+⟦151⟧ = properties
+⟦152⟧ = property
+⟦153⟧ = record
+⟦154⟧ = serviced apartments
+⟦155⟧ = Significant construction defects
+⟦156⟧ = skyscrapers
+⟦157⟧ = South America
+⟦158⟧ = Southeast Asia
+⟦159⟧ = sqft
+⟦160⟧ = state
+⟦161⟧ = steel
+⟦162⟧ = storey
+⟦163⟧ = story
+⟦164⟧ = style
+⟦165⟧ = Suburban Station
+⟦166⟧ = summer
+⟦167⟧ = system
+⟦168⟧ = tallest buildings
+⟦169⟧ = the 'unbeatable' record
+⟦170⟧ = the "Aria Express
+⟦171⟧ = the "CityCenter" branding
+⟦172⟧ = the "Lincoln Life Building
+⟦173⟧ = the 10th tallest building
+⟦174⟧ = the address
+⟦175⟧ = The architect
+⟦176⟧ = the Aria brand
+⟦177⟧ = The average building age
+⟦178⟧ = the bankrupt National Cloth Company
+⟦179⟧ = The building
+⟦180⟧ = The building complex
+⟦181⟧ = the building design
+⟦182⟧ = the building's opening
+⟦183⟧ = the capital city
+⟦184⟧ = the city
+⟦185⟧ = the CityCenter development
+⟦186⟧ = The complex
+⟦187⟧ = the development's centerpiece property
+⟦188⟧ = The dismantling
+⟦189⟧ = the fall
+⟦190⟧ = The first Highrise
+⟦191⟧ = the first International Style highrise buildings
+⟦192⟧ = the focus
+⟦193⟧ = The Grade II listed building
+⟦194⟧ = The Harmon
+⟦195⟧ = the headquarters
+⟦196⟧ = the highest building
+⟦197⟧ = the highrise building boom
+⟦198⟧ = the history
+⟦199⟧ = the intersection
+⟦200⟧ = the larger multi-building complex
+⟦201⟧ = the largest privately funded construction project
+⟦202⟧ = the largest squatted highrise building
+⟦203⟧ = the Las Vegas Strip
+⟦204⟧ = the late 1980s
+⟦205⟧ = the Lever House building
+⟦206⟧ = The Lincoln Bank Tower
+⟦207⟧ = the main materials
+⟦208⟧ = the NBBJ Group
+⟦209⟧ = the northeast corner
+⟦210⟧ = the number
+⟦211⟧ = the original Elektron Building name
+⟦212⟧ = the Penn Center complex
+⟦213⟧ = The Prestes Maia building
+⟦214⟧ = the previous owner
+⟦215⟧ = the project
+⟦216⟧ = the project's construction phase
+⟦217⟧ = the Pullman Hotel
+⟦218⟧ = The Rotunda
+⟦219⟧ = the state
+⟦220⟧ = the summer
+⟦221⟧ = the tallest building
+⟦222⟧ = the time
+⟦223⟧ = The tower
+⟦224⟧ = the tower's demolition
+⟦225⟧ = the United States
+⟦226⟧ = the World
+⟦227⟧ = This list
+⟦228⟧ = Three Nationwide Plaza
+⟦229⟧ = time
+⟦230⟧ = Today
+⟦231⟧ = tower
+⟦232⟧ = Turkey
+⟦233⟧ = two tower blocks
+⟦234⟧ = underground concourse
+⟦235⟧ = United States
+⟦236⟧ = urban complex
+⟦237⟧ = Urban Splash
+⟦238⟧ = use
+⟦239⟧ = Wisma
+⟦240⟧ = Wisma Nusantara
+⟦241⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Harmon] ⟦194⟧⟨1⟩⟦21⟧⟨2⟩⟦103⟧⟨3⟩⟦51⟧⟨4⟩⟦185⟧⟨5⟩⟦73⟧⟨6⟩⟦142⟧⟨7⟩⟦133⟧⟨8⟩
+[The Harmon] ⟦223⟧⟨9⟩⟦231⟧⟨10⟩⟦94⟧⟨11⟩⟦145⟧⟨12⟩⟦23⟧⟨13⟩⟦48⟧⟨14⟩⟦106⟧⟨15⟩⟦34⟧⟨16⟩⟦61⟧⟨17⟩⟦61⟧⟨18⟩
+[The Harmon] ⟦179⟧⟨19⟩⟦51⟧⟨20⟩⟦31⟧⟨21⟩⟦119⟧⟨22⟩⟦102⟧⟨23⟩⟦86⟧⟨24⟩⟦209⟧⟨25⟩⟦66⟧⟨26⟩⟦215⟧⟨27⟩⟦150⟧⟨28⟩⟦199⟧⟨29⟩⟦110⟧⟨30⟩⟦118⟧⟨31⟩⟦99⟧⟨32⟩
+[The Harmon] ⟦155⟧⟨33⟩⟦65⟧⟨34⟩⟦70⟧⟨35⟩⟦179⟧⟨36⟩⟦51⟧⟨37⟩⟦215⟧⟨38⟩⟦150⟧⟨39⟩
+[The Harmon] ⟨40⟩⟦40⟧⟨41⟩⟦19⟧⟨42⟩⟦67⟧⟨43⟩⟦224⟧⟨44⟩⟦231⟧⟨45⟩⟦71⟧⟨46⟩
+[The Harmon] ⟦188⟧⟨47⟩⟦74⟧⟨48⟩⟦223⟧⟨49⟩⟦231⟧⟨50⟩⟦220⟧⟨51⟩⟦166⟧⟨52⟩⟦189⟧⟨53⟩⟦87⟧⟨54⟩
+[Prestes Maia (building)] ⟦213⟧⟨55⟩⟦51⟧⟨56⟩⟦123⟧⟨57⟩⟦202⟧⟨58⟩⟦103⟧⟨59⟩⟦51⟧⟨60⟩⟦157⟧⟨61⟩⟦32⟧⟨62⟩⟦109⟧⟨63⟩
+[Prestes Maia (building)] ⟦186⟧⟨64⟩⟦62⟧⟨65⟩⟦233⟧⟨66⟩⟦231⟧⟨67⟩⟦44⟧⟨68⟩⟦45⟧⟨69⟩⟦46⟧⟨70⟩⟦174⟧⟨71⟩⟦28⟧⟨72⟩⟦41⟧⟨73⟩⟦122⟧⟨74⟩⟦75⟧⟨75⟩⟦78⟧⟨76⟩
+[Prestes Maia (building)] ⟦54⟧⟨77⟩⟦179⟧⟨78⟩⟦51⟧⟨79⟩⟦39⟧⟨80⟩⟦39⟧⟨81⟩⟦104⟧⟨82⟩⟦53⟧⟨83⟩⟦144⟧⟨84⟩⟦82⟧⟨85⟩
+[Prestes Maia (building)] ⟦179⟧⟨86⟩⟦51⟧⟨87⟩⟦214⟧⟨88⟩⟦141⟧⟨89⟩⟦178⟧⟨90⟩⟦60⟧⟨91⟩⟦149⟧⟨92⟩⟦98⟧⟨93⟩
+[Lincoln Bank Tower] ⟦206⟧⟨94⟩⟦93⟧⟨95⟩⟦107⟧⟨96⟩⟦235⟧⟨97⟩⟦30⟧⟨98⟩⟦103⟧⟨99⟩⟦51⟧⟨100⟩
+[Lincoln Bank Tower] ⟦65⟧⟨101⟩⟦182⟧⟨102⟩⟦51⟧⟨103⟩⟦139⟧⟨104⟩
+[Lincoln Bank Tower] ⟨105⟩⟦68⟧⟨106⟩⟦68⟧⟨107⟩⟦221⟧⟨108⟩⟦51⟧⟨109⟩⟦219⟧⟨110⟩⟦160⟧⟨111⟩
+[Lincoln Bank Tower] ⟦179⟧⟨112⟩⟦51⟧⟨113⟩⟦120⟧⟨114⟩⟦179⟧⟨115⟩⟦51⟧⟨116⟩⟦8⟧⟨117⟩⟦172⟧⟨118⟩
+[Lincoln Bank Tower] ⟨119⟩⟦230⟧⟨120⟩⟦140⟧⟨121⟩⟦51⟧⟨122⟩⟦211⟧⟨123⟩⟦128⟧⟨124⟩
+[CityCenter] ⟦57⟧⟨125⟩⟦57⟧⟨126⟩⟦58⟧⟨127⟩⟦15⟧⟨128⟩⟦159⟧⟨129⟩⟦238⟧⟨130⟩⟦236⟧⟨131⟩⟦62⟧⟨132⟩⟦11⟧⟨133⟩⟦27⟧⟨134⟩⟦203⟧⟨135⟩⟦142⟧⟨136⟩⟦133⟧⟨137⟩
+[CityCenter] ⟦215⟧⟨138⟩⟦150⟧⟨139⟩⟦127⟧⟨140⟩⟦79⟧⟨141⟩⟦22⟧⟨142⟩⟦144⟧⟨143⟩⟦216⟧⟨144⟩⟦150⟧⟨145⟩⟦65⟧⟨146⟩⟦148⟧⟨147⟩
+[CityCenter] ⟨148⟩⟦201⟧⟨149⟩⟦65⟧⟨150⟩⟦150⟧⟨151⟩⟦198⟧⟨152⟩⟦105⟧⟨153⟩⟦225⟧⟨154⟩
+[CityCenter] ⟦215⟧⟨155⟩⟦150⟧⟨156⟩⟦24⟧⟨157⟩⟦147⟧⟨158⟩⟦167⟧⟨159⟩⟦126⟧⟨160⟩⟦151⟧⟨161⟩⟦42⟧⟨162⟩
+[CityCenter] ⟨163⟩⟦171⟧⟨164⟩⟦50⟧⟨165⟩⟦192⟧⟨166⟩⟦90⟧⟨167⟩⟦176⟧⟨168⟩⟦49⟧⟨169⟩⟦187⟧⟨170⟩⟦73⟧⟨171⟩⟦152⟧⟨172⟩⟦129⟧⟨173⟩⟦129⟧⟨174⟩⟦170⟧⟨175⟩⟦92⟧⟨176⟩⟦1⟧⟨177⟩⟦91⟧⟨178⟩
+[Five Penn Center] ⟦88⟧⟨179⟩⟦17⟧⟨180⟩⟦163⟧⟨181⟩⟦103⟧⟨182⟩⟦75⟧⟨183⟩⟦77⟧⟨184⟩⟦146⟧⟨185⟩
+[Five Penn Center] ⟨186⟩⟦143⟧⟨187⟩⟦143⟧⟨188⟩⟦212⟧⟨189⟩⟦62⟧⟨190⟩⟦81⟧⟨191⟩
+[Five Penn Center] ⟦179⟧⟨192⟩⟦51⟧⟨193⟩⟦184⟧⟨194⟩⟦56⟧⟨195⟩⟦197⟧⟨196⟩⟦103⟧⟨197⟩⟦51⟧⟨198⟩⟦47⟧⟨199⟩⟦204⟧⟨200⟩⟦5⟧⟨201⟩⟦80⟧⟨202⟩⟦6⟧⟨203⟩⟦234⟧⟨204⟩⟦63⟧⟨205⟩⟦165⟧⟨206⟩⟦52⟧⟨207⟩⟦52⟧⟨208⟩⟦186⟧⟨209⟩⟦62⟧⟨210⟩
+[List of tallest buildings in Indonesia] ⟦227⟧⟨211⟩⟦121⟧⟨212⟩⟦168⟧⟨213⟩⟦52⟧⟨214⟩⟦108⟧⟨215⟩⟦156⟧⟨216⟩⟦156⟧⟨217⟩⟦108⟧⟨218⟩⟦101⟧⟨219⟩⟦101⟧⟨220⟩
+[List of tallest buildings in Indonesia] ⟦112⟧⟨221⟩⟦183⟧⟨222⟩⟦55⟧⟨223⟩⟦56⟧⟨224⟩⟦108⟧⟨225⟩
+[List of tallest buildings in Indonesia] ⟨226⟩⟦13⟧⟨227⟩⟦51⟧⟨228⟩⟦97⟧⟨229⟩⟦65⟧⟨230⟩⟦65⟧⟨231⟩
+[List of tallest buildings in Indonesia] ⟦108⟧⟨232⟩⟦135⟧⟨233⟩⟦136⟧⟨234⟩⟦14⟧⟨235⟩⟦226⟧⟨236⟩⟦210⟧⟨237⟩⟦135⟧⟨238⟩⟦4⟧⟨239⟩⟦51⟧⟨240⟩⟦38⟧⟨241⟩
+[List of tallest buildings in Indonesia] ⟨242⟩⟦10⟧⟨243⟩⟦51⟧⟨244⟩⟦65⟧⟨245⟩⟦65⟧⟨246⟩
+[List of tallest buildings in Indonesia] ⟦177⟧⟨247⟩⟦51⟧⟨248⟩⟦29⟧⟨249⟩⟦12⟧⟨250⟩⟦241⟧⟨251⟩
+[List of tallest buildings in Indonesia] ⟦190⟧⟨252⟩⟦112⟧⟨253⟩⟦239⟧⟨254⟩⟦169⟧⟨255⟩⟦153⟧⟨256⟩⟦196⟧⟨257⟩⟦51⟧⟨258⟩⟦112⟧⟨259⟩⟦132⟧⟨260⟩⟦241⟧
+[Kahramanlar Business Center] ⟦114⟧⟨261⟩⟦115⟧⟨262⟩⟦83⟧⟨263⟩⟦84⟧⟨264⟩⟦16⟧⟨265⟩⟦162⟧⟨266⟩⟦103⟧⟨267⟩⟦51⟧⟨268⟩⟦117⟧⟨269⟩⟦116⟧⟨270⟩⟦35⟧⟨271⟩⟦232⟧⟨272⟩
+[Kahramanlar Business Center] ⟨273⟩⟦205⟧⟨274⟩⟦51⟧⟨275⟩⟦134⟧⟨276⟩⟦191⟧⟨277⟩⟦103⟧⟨278⟩⟦52⟧⟨279⟩⟦232⟧⟨280⟩
+[Kahramanlar Business Center] ⟨281⟩⟦222⟧⟨282⟩⟦229⟧⟨283⟩⟦111⟧⟨284⟩⟦61⟧⟨285⟩⟦221⟧⟨286⟩⟦51⟧⟨287⟩⟦35⟧⟨288⟩
+[Wisma Nusantara] ⟦240⟧⟨289⟩⟦33⟧⟨290⟩⟦137⟧⟨291⟩⟦103⟧⟨292⟩⟦51⟧⟨293⟩⟦113⟧⟨294⟩⟦108⟧⟨295⟩
+[Wisma Nusantara] ⟨296⟩⟦240⟧⟨297⟩⟦190⟧⟨298⟩⟦103⟧⟨299⟩⟦108⟧⟨300⟩⟦158⟧⟨301⟩⟦2⟧⟨302⟩⟦125⟧⟨303⟩⟦101⟧⟨304⟩
+[Wisma Nusantara] ⟦180⟧⟨305⟩⟦51⟧⟨306⟩⟦62⟧⟨307⟩⟦217⟧⟨308⟩
+[Three Nationwide Plaza] ⟦228⟧⟨309⟩⟦18⟧⟨310⟩⟦103⟧⟨311⟩⟦51⟧⟨312⟩⟦174⟧⟨313⟩⟦28⟧⟨314⟩⟦9⟧⟨315⟩⟦76⟧⟨316⟩⟦138⟧⟨317⟩
+[Three Nationwide Plaza] ⟦179⟧⟨318⟩⟦51⟧⟨319⟩⟦143⟧⟨320⟩⟦143⟧⟨321⟩⟦200⟧⟨322⟩⟦62⟧⟨323⟩⟦131⟧⟨324⟩
+[Three Nationwide Plaza] ⟦131⟧⟨325⟩⟦195⟧⟨326⟩⟦100⟧⟨327⟩⟦130⟧⟨328⟩
+[Three Nationwide Plaza] ⟦228⟧⟨329⟩⟦173⟧⟨330⟩⟦51⟧⟨331⟩⟦59⟧⟨332⟩
+[Three Nationwide Plaza] ⟦65⟧⟨333⟩⟦179⟧⟨334⟩⟦51⟧⟨335⟩⟦69⟧⟨336⟩
+[Three Nationwide Plaza] ⟦175⟧⟨337⟩⟦37⟧⟨338⟩⟦208⟧⟨339⟩⟦181⟧⟨340⟩⟦51⟧⟨341⟩⟦72⟧⟨342⟩⟦25⟧⟨343⟩⟦164⟧⟨344⟩
+[Three Nationwide Plaza] ⟦179⟧⟨345⟩⟦51⟧⟨346⟩⟦207⟧⟨347⟩⟦124⟧⟨348⟩⟦95⟧⟨349⟩⟦95⟧⟨350⟩⟦161⟧⟨351⟩⟦161⟧⟨352⟩⟦64⟧⟨353⟩⟦64⟧⟨354⟩
+[Rotunda (Birmingham)] ⟦218⟧⟨355⟩⟦20⟧⟨356⟩⟦103⟧⟨357⟩⟦51⟧⟨358⟩⟦43⟧⟨359⟩⟦85⟧⟨360⟩
+[Rotunda (Birmingham)] ⟦193⟧⟨361⟩⟦51⟧⟨362⟩
+[Rotunda (Birmingham)] ⟨363⟩⟦237⟧⟨364⟩⟦96⟧⟨365⟩⟦26⟧⟨366⟩⟦51⟧⟨367⟩⟦154⟧⟨368⟩⟦36⟧⟨369⟩⟦7⟧⟨370⟩⟦89⟧⟨371⟩
+[Rotunda (Birmingham)] ⟦179⟧⟨372⟩⟦51⟧⟨373⟩⟦3⟧⟨374⟩
+
+[user]
+
+问题：
+What company started the urban complex development that included the highrise building, The Harmon?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

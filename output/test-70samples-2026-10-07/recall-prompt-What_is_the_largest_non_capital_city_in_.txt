@@ -1,0 +1,295 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Best Places
+⟦2⟧ = "Money" magazine's 2007 list
+⟦3⟧ = (Kanamaluka
+⟦4⟧ = 13th
+⟦5⟧ = 2015 est
+⟦6⟧ = 318.68 km²
+⟦7⟧ = a Brazilian municipality
+⟦8⟧ = a census-estimated 2016 population
+⟦9⟧ = a city
+⟦10⟧ = a coastal area
+⟦11⟧ = a larger growth area
+⟦12⟧ = a light rail system
+⟦13⟧ = a local tabloid newspaper
+⟦14⟧ = a locality
+⟦15⟧ = a marine fish
+⟦16⟧ = a new ferry service
+⟦17⟧ = a place
+⟦18⟧ = a population
+⟦19⟧ = a result
+⟦20⟧ = a sargo
+⟦21⟧ = a satellite suburb
+⟦22⟧ = a seabream
+⟦23⟧ = a state capital
+⟦24⟧ = a subspecies
+⟦25⟧ = a suburb
+⟦26⟧ = a wide range
+⟦27⟧ = ABS
+⟦28⟧ = activities
+⟦29⟧ = Alabama
+⟦30⟧ = an area
+⟦31⟧ = an inner northern suburb
+⟦32⟧ = approximately 66 km south-southeast
+⟦33⟧ = area
+⟦34⟧ = Australia
+⟦35⟧ = bikes
+⟦36⟧ = Birmingham
+⟦37⟧ = border
+⟦38⟧ = both a town
+⟦39⟧ = Brazil
+⟦40⟧ = Brisbane
+⟦41⟧ = buses
+⟦42⟧ = businesses
+⟦43⟧ = Campinas
+⟦44⟧ = campus
+⟦45⟧ = capital
+⟦46⟧ = car
+⟦47⟧ = cars
+⟦48⟧ = census
+⟦49⟧ = Central Coast region
+⟦50⟧ = children
+⟦51⟧ = city
+⟦52⟧ = cm
+⟦53⟧ = coast
+⟦54⟧ = company
+⟦55⟧ = congestion
+⟦56⟧ = country
+⟦57⟧ = crime
+⟦58⟧ = days
+⟦59⟧ = Diplodus helenae
+⟦60⟧ = Diplodus sargus helenae
+⟦61⟧ = effort
+⟦62⟧ = employees
+⟦63⟧ = Fairfax Media
+⟦64⟧ = family
+⟦65⟧ = fastest growing city
+⟦66⟧ = ferry
+⟦67⟧ = fish
+⟦68⟧ = GDP
+⟦69⟧ = Glasgow
+⟦70⟧ = Gold Coast
+⟦71⟧ = Gold Coast City Council
+⟦72⟧ = growth
+⟦73⟧ = Guarulhos
+⟦74⟧ = Helena
+⟦75⟧ = Helena White
+⟦76⟧ = helenae
+⟦77⟧ = Helensvale
+⟦78⟧ = Henri Émile Sauvage
+⟦79⟧ = Highfields
+⟦80⟧ = Hobart
+⟦81⟧ = its main thoroughfare
+⟦82⟧ = its name
+⟦83⟧ = Jefferson
+⟦84⟧ = junction
+⟦85⟧ = June
+⟦86⟧ = Kelvin Grove
+⟦87⟧ = Kelvin Grove Road
+⟦88⟧ = Kelvingrove Park
+⟦89⟧ = km
+⟦90⟧ = km²
+⟦91⟧ = La Boite Theatre Company
+⟦92⟧ = Launceston
+⟦93⟧ = light rail
+⟦94⟧ = list
+⟦95⟧ = locality
+⟦96⟧ = magazine
+⟦97⟧ = Media
+⟦98⟧ = mode
+⟦99⟧ = Money
+⟦100⟧ = monorail
+⟦101⟧ = more effort
+⟦102⟧ = more traffic congestion
+⟦103⟧ = Mount Kynoch
+⟦104⟧ = Municipalities
+⟦105⟧ = municipality
+⟦106⟧ = name
+⟦107⟧ = New South Wales
+⟦108⟧ = Newcastle
+⟦109⟧ = newspaper
+⟦110⟧ = north
+⟦111⟧ = number
+⟦112⟧ = options
+⟦113⟧ = part
+⟦114⟧ = place
+⟦115⟧ = Places
+⟦116⟧ = population
+⟦117⟧ = pronunciation hel-LE-nah
+⟦118⟧ = public and private transport options
+⟦119⟧ = public transport
+⟦120⟧ = Queensland
+⟦121⟧ = Queensland's second largest theatre company
+⟦122⟧ = rail
+⟦123⟧ = range
+⟦124⟧ = rate
+⟦125⟧ = region
+⟦126⟧ = result
+⟦127⟧ = rivers
+⟦128⟧ = São Paulo
+⟦129⟧ = sargo
+⟦130⟧ = satellite
+⟦131⟧ = Saturday
+⟦132⟧ = Scotland
+⟦133⟧ = seabream
+⟦134⟧ = service
+⟦135⟧ = Shelby Counties
+⟦136⟧ = some commercial and light industrial activities
+⟦137⟧ = southeast
+⟦138⟧ = Sparids
+⟦139⟧ = species
+⟦140⟧ = St. Helena
+⟦141⟧ = St. Helena white seabream
+⟦142⟧ = state
+⟦143⟧ = streets
+⟦144⟧ = subspecies
+⟦145⟧ = suburb
+⟦146⟧ = system
+⟦147⟧ = Tasmania
+⟦148⟧ = Technology
+⟦149⟧ = the 13th
+⟦150⟧ = the 13th most populous city
+⟦151⟧ = the 2008 Municipal Achievement Award
+⟦152⟧ = the 2010 census
+⟦153⟧ = the 2011 Census
+⟦154⟧ = the 2016 census
+⟦155⟧ = The ABS
+⟦156⟧ = The Alabama League
+⟦157⟧ = the Australian state
+⟦158⟧ = the Birmingham-Hoover Metropolitan Area
+⟦159⟧ = the border
+⟦160⟧ = the Brazilian state
+⟦161⟧ = The car
+⟦162⟧ = the CBD
+⟦163⟧ = the city
+⟦164⟧ = the coast
+⟦165⟧ = the country
+⟦166⟧ = the dominant mode
+⟦167⟧ = the eighth-lowest crime rate
+⟦168⟧ = the estimated urban population
+⟦169⟧ = the fastest growing area
+⟦170⟧ = The Gold Coast
+⟦171⟧ = the Great Dividing Range
+⟦172⟧ = the greater Hunter Region
+⟦173⟧ = The Herald
+⟦174⟧ = the Highfields urban area
+⟦175⟧ = the increasing population
+⟦176⟧ = the junction
+⟦177⟧ = the Kelvin Grove campus
+⟦178⟧ = the largest non-capital city
+⟦179⟧ = the last few years
+⟦180⟧ = the Metropolitan Region
+⟦181⟧ = the most populous city
+⟦182⟧ = the most populous non-capital city
+⟦183⟧ = the New England Highway
+⟦184⟧ = The Newcastle Herald
+⟦185⟧ = the north
+⟦186⟧ = the North Esk and South Esk rivers
+⟦187⟧ = the only inland city
+⟦188⟧ = the only local newspaper
+⟦189⟧ = the population
+⟦190⟧ = the Queensland Government
+⟦191⟧ = the Queensland University
+⟦192⟧ = the Roundhouse Theatre
+⟦193⟧ = the second largest city
+⟦194⟧ = the second most populous city
+⟦195⟧ = the second-largest city
+⟦196⟧ = the second-largest GDP
+⟦197⟧ = the sixth-largest city
+⟦198⟧ = the southeast Atlantic
+⟦199⟧ = the Sparidae (Sparids) family
+⟦200⟧ = The species
+⟦201⟧ = the state
+⟦202⟧ = the state capital
+⟦203⟧ = the suburb
+⟦204⟧ = the Tamar River
+⟦205⟧ = the Toowoomba Region
+⟦206⟧ = the twelfth-largest non-capital city
+⟦207⟧ = the U.S.
+⟦208⟧ = theatre
+⟦209⟧ = This hilly suburb
+⟦210⟧ = This pelagic-neritic fish
+⟦211⟧ = thoroughfare
+⟦212⟧ = Toowoomba
+⟦213⟧ = Toowoomba businesses' employees
+⟦214⟧ = Top
+⟦215⟧ = town
+⟦216⟧ = traffic
+⟦217⟧ = transport
+⟦218⟧ = tree
+⟦219⟧ = tree-lined streets
+⟦220⟧ = week
+⟦221⟧ = years
+⟦222⟧ = Your Kids
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Helena, Alabama] ⟦74⟧⟨1⟩⟦117⟧⟨2⟩⟦9⟧⟨3⟩⟦51⟧⟨4⟩⟦83⟧⟨5⟩⟦135⟧⟨6⟩⟦201⟧⟨7⟩⟦142⟧⟨8⟩⟦29⟧⟨9⟩
+[Helena, Alabama] ⟦74⟧⟨10⟩⟦25⟧⟨11⟩⟦145⟧⟨12⟩⟦36⟧⟨13⟩⟦113⟧⟨14⟩⟦113⟧⟨15⟩⟦158⟧⟨16⟩
+[Helena, Alabama] ⟨17⟩⟦152⟧⟨18⟩⟦48⟧⟨19⟩⟦189⟧⟨20⟩⟦116⟧⟨21⟩
+[Helena, Alabama] ⟦74⟧⟨22⟩⟦17⟧⟨23⟩⟦114⟧⟨24⟩⟦50⟧⟨25⟩⟦50⟧⟨26⟩⟦74⟧⟨27⟩⟦149⟧⟨28⟩⟦4⟧⟨29⟩⟦114⟧⟨30⟩⟦222⟧⟨31⟩
+[Helena, Alabama] ⟨32⟩⟦167⟧⟨33⟩⟦57⟧⟨34⟩⟦124⟧⟨35⟩⟦116⟧⟨36⟩⟦116⟧⟨37⟩⟦207⟧⟨38⟩⟦163⟧⟨39⟩⟦51⟧⟨40⟩⟦2⟧⟨41⟩⟦99⟧⟨42⟩⟦96⟧⟨43⟩⟦94⟧⟨44⟩⟦1⟧⟨45⟩⟦115⟧⟨46⟩⟦214⟧⟨47⟩⟦214⟧⟨48⟩⟦207⟧⟨49⟩⟦111⟧⟨50⟩⟦111⟧⟨51⟩
+[Helena, Alabama] ⟦156⟧⟨52⟩⟦104⟧⟨53⟩⟦74⟧⟨54⟩⟦151⟧⟨55⟩⟦116⟧⟨56⟩⟦116⟧⟨57⟩
+[St. Helena white seabream] ⟦141⟧⟨58⟩⟦133⟧⟨59⟩⟦60⟧⟨60⟩⟦76⟧⟨61⟩⟦59⟧⟨62⟩⟦76⟧⟨63⟩⟦24⟧⟨64⟩⟦144⟧⟨65⟩⟦20⟧⟨66⟩⟦129⟧⟨67⟩⟦22⟧⟨68⟩⟦133⟧⟨69⟩⟦15⟧⟨70⟩⟦67⟧⟨71⟩⟦199⟧⟨72⟩⟦138⟧⟨73⟩⟦64⟧⟨74⟩
+[St. Helena white seabream] ⟦210⟧⟨75⟩⟦67⟧⟨76⟩⟦52⟧⟨77⟩
+[St. Helena white seabream] ⟨78⟩⟦198⟧⟨79⟩⟦164⟧⟨80⟩⟦53⟧⟨81⟩⟦140⟧⟨82⟩
+[St. Helena white seabream] ⟦200⟧⟨83⟩⟦139⟧⟨84⟩
+[St. Helena white seabream] ⟦200⟧⟨85⟩⟦139⟧⟨86⟩⟦78⟧⟨87⟩
+[Kelvin Grove, Queensland] ⟦86⟧⟨88⟩⟦31⟧⟨89⟩⟦145⟧⟨90⟩⟦40⟧⟨91⟩⟦120⟧⟨92⟩⟦34⟧⟨93⟩⟦89⟧⟨94⟩⟦162⟧⟨95⟩
+[Kelvin Grove, Queensland] ⟦209⟧⟨96⟩⟦145⟧⟨97⟩⟦82⟧⟨98⟩⟦106⟧⟨99⟩⟦88⟧⟨100⟩⟦69⟧⟨101⟩⟦132⟧⟨102⟩
+[Kelvin Grove, Queensland] ⟨103⟩⟦218⟧⟨104⟩⟦219⟧⟨105⟩⟦143⟧⟨106⟩⟦136⟧⟨107⟩⟦28⟧⟨108⟩⟦81⟧⟨109⟩⟦211⟧⟨110⟩⟦87⟧⟨111⟩
+[Kelvin Grove, Queensland] ⟦91⟧⟨112⟩⟦121⟧⟨113⟩⟦208⟧⟨114⟩⟦54⟧⟨115⟩⟦192⟧⟨116⟩⟦177⟧⟨117⟩⟦44⟧⟨118⟩⟦191⟧⟨119⟩⟦148⟧⟨120⟩
+[Gold Coast, Queensland] ⟦170⟧⟨121⟩⟦10⟧⟨122⟩⟦33⟧⟨123⟩⟦157⟧⟨124⟩⟦142⟧⟨125⟩⟦120⟧⟨126⟩⟦32⟧⟨127⟩⟦89⟧⟨128⟩⟦137⟧⟨129⟩⟦202⟧⟨130⟩⟦142⟧⟨131⟩⟦45⟧⟨132⟩⟦40⟧⟨133⟩⟦159⟧⟨134⟩⟦37⟧⟨135⟩⟦107⟧⟨136⟩
+[Gold Coast, Queensland] ⟨137⟩⟦8⟧⟨138⟩⟦48⟧⟨139⟩⟦116⟧⟨140⟩⟦170⟧⟨141⟩⟦197⟧⟨142⟩⟦51⟧⟨143⟩⟦34⟧⟨144⟩⟦51⟧⟨145⟩⟦195⟧⟨146⟩⟦51⟧⟨147⟩⟦120⟧⟨148⟩
+[Guarulhos] ⟦73⟧⟨149⟩⟦73⟧⟨150⟩⟦7⟧⟨151⟩⟦105⟧⟨152⟩
+[Guarulhos] ⟨153⟩⟦194⟧⟨154⟩⟦51⟧⟨155⟩⟦160⟧⟨156⟩⟦142⟧⟨157⟩⟦128⟧⟨158⟩⟦150⟧⟨159⟩⟦4⟧⟨160⟩⟦51⟧⟨161⟩⟦39⟧⟨162⟩⟦181⟧⟨163⟩⟦51⟧⟨164⟩⟦165⟧⟨165⟩⟦56⟧⟨166⟩⟦23⟧⟨167⟩⟦142⟧⟨168⟩⟦45⟧⟨169⟩
+[Guarulhos] ⟨170⟩⟦179⟧⟨171⟩⟦221⟧⟨172⟩⟦43⟧⟨173⟩
+[Guarulhos] ⟨174⟩⟦113⟧⟨175⟩⟦113⟧⟨176⟩⟦180⟧⟨177⟩⟦128⟧⟨178⟩
+[Guarulhos] ⟦189⟧⟨179⟩⟦116⟧⟨180⟩⟦5⟧⟨181⟩⟦30⟧⟨182⟩⟦33⟧⟨183⟩⟦6⟧⟨184⟩⟦90⟧⟨185⟩
+[Guarulhos] ⟨186⟩⟦182⟧⟨187⟩⟦51⟧⟨188⟩⟦165⟧⟨189⟩⟦56⟧⟨190⟩⟦196⟧⟨191⟩⟦68⟧⟨192⟩⟦201⟧⟨193⟩⟦142⟧⟨194⟩⟦165⟧⟨195⟩⟦56⟧⟨196⟩
+[Transport on the Gold Coast, Queensland] ⟦170⟧⟨197⟩⟦178⟧⟨198⟩⟦51⟧⟨199⟩⟦65⟧⟨200⟩⟦51⟧⟨201⟩⟦34⟧⟨202⟩
+[Transport on the Gold Coast, Queensland] ⟨203⟩⟦19⟧⟨204⟩⟦126⟧⟨205⟩⟦170⟧⟨206⟩⟦26⟧⟨207⟩⟦123⟧⟨208⟩⟦118⟧⟨209⟩⟦217⟧⟨210⟩⟦112⟧⟨211⟩⟦47⟧⟨212⟩⟦47⟧⟨213⟩⟦35⟧⟨214⟩⟦35⟧⟨215⟩⟦41⟧⟨216⟩⟦41⟧⟨217⟩⟦122⟧⟨218⟩⟦122⟧⟨219⟩⟦93⟧⟨220⟩⟦122⟧⟨221⟩⟦100⟧⟨222⟩⟦100⟧⟨223⟩
+[Transport on the Gold Coast, Queensland] ⟦161⟧⟨224⟩⟦46⟧⟨225⟩⟦166⟧⟨226⟩⟦98⟧⟨227⟩⟦217⟧⟨228⟩⟦217⟧⟨229⟩⟦70⟧⟨230⟩⟦175⟧⟨231⟩⟦116⟧⟨232⟩⟦102⟧⟨233⟩⟦216⟧⟨234⟩⟦55⟧⟨235⟩
+[Transport on the Gold Coast, Queensland] ⟨236⟩⟦190⟧⟨237⟩⟦71⟧⟨238⟩⟦101⟧⟨239⟩⟦61⟧⟨240⟩⟦119⟧⟨241⟩⟦217⟧⟨242⟩⟦16⟧⟨243⟩⟦66⟧⟨244⟩⟦134⟧⟨245⟩⟦12⟧⟨246⟩⟦122⟧⟨247⟩⟦146⟧⟨248⟩
+[Helensvale, Queensland] ⟦77⟧⟨249⟩⟦25⟧⟨250⟩⟦145⟧⟨251⟩⟦170⟧⟨252⟩⟦120⟧⟨253⟩⟦34⟧⟨254⟩⟦75⟧⟨255⟩
+[Helensvale, Queensland] ⟨256⟩⟦153⟧⟨257⟩⟦77⟧⟨258⟩⟦18⟧⟨259⟩⟦116⟧⟨260⟩
+[Highfields, Queensland] ⟦79⟧⟨261⟩⟦38⟧⟨262⟩⟦215⟧⟨263⟩⟦14⟧⟨264⟩⟦95⟧⟨265⟩⟦205⟧⟨266⟩⟦120⟧⟨267⟩⟦34⟧⟨268⟩⟦183⟧⟨269⟩
+[Highfields, Queensland] ⟨270⟩⟦171⟧⟨271⟩⟦103⟧⟨272⟩
+[Highfields, Queensland] ⟨273⟩⟦21⟧⟨274⟩⟦130⟧⟨275⟩⟦145⟧⟨276⟩⟦163⟧⟨277⟩⟦51⟧⟨278⟩⟦212⟧⟨279⟩⟦213⟧⟨280⟩⟦42⟧⟨281⟩⟦62⟧⟨282⟩
+[Highfields, Queensland] ⟨283⟩⟦154⟧⟨284⟩⟦48⟧⟨285⟩⟦79⟧⟨286⟩⟦18⟧⟨287⟩⟦116⟧⟨288⟩
+[Highfields, Queensland] ⟦155⟧⟨289⟩⟦27⟧⟨290⟩⟦11⟧⟨291⟩⟦72⟧⟨292⟩⟦33⟧⟨293⟩⟦79⟧⟨294⟩⟦203⟧⟨295⟩⟦145⟧⟨296⟩
+[Highfields, Queensland] ⟨297⟩⟦85⟧⟨298⟩⟦168⟧⟨299⟩⟦116⟧⟨300⟩⟦174⟧⟨301⟩⟦33⟧⟨302⟩
+[Highfields, Queensland] ⟨303⟩⟦169⟧⟨304⟩⟦33⟧⟨305⟩⟦120⟧⟨306⟩⟦34⟧⟨307⟩
+[The Newcastle Herald] ⟦184⟧⟨308⟩⟦173⟧⟨309⟩⟦13⟧⟨310⟩⟦109⟧⟨311⟩⟦131⟧⟨312⟩⟦108⟧⟨313⟩⟦107⟧⟨314⟩⟦178⟧⟨315⟩⟦51⟧⟨316⟩⟦34⟧⟨317⟩
+[The Newcastle Herald] ⟨318⟩⟦188⟧⟨319⟩⟦109⟧⟨320⟩⟦172⟧⟨321⟩⟦49⟧⟨322⟩⟦125⟧⟨323⟩⟦58⟧⟨324⟩⟦220⟧⟨325⟩
+[The Newcastle Herald] ⟨326⟩⟦63⟧⟨327⟩⟦97⟧⟨328⟩
+[Launceston, Tasmania] ⟦92⟧⟨329⟩⟦9⟧⟨330⟩⟦51⟧⟨331⟩⟦185⟧⟨332⟩⟦110⟧⟨333⟩⟦147⟧⟨334⟩⟦34⟧⟨335⟩⟦176⟧⟨336⟩⟦84⟧⟨337⟩⟦186⟧⟨338⟩⟦127⟧⟨339⟩⟦204⟧⟨340⟩⟦3⟧⟨341⟩
+[Launceston, Tasmania] ⟦92⟧⟨342⟩⟦193⟧⟨343⟩⟦51⟧⟨344⟩⟦147⟧⟨345⟩⟦80⟧⟨346⟩
+[Launceston, Tasmania] ⟨347⟩⟦18⟧⟨348⟩⟦116⟧⟨349⟩⟦92⟧⟨350⟩⟦206⟧⟨351⟩⟦51⟧⟨352⟩⟦34⟧⟨353⟩
+[Launceston, Tasmania] ⟨354⟩⟦187⟧⟨355⟩⟦51⟧⟨356⟩⟦147⟧⟨357⟩
+
+[user]
+
+问题：
+What is the largest non-capital city in Queensland, Australia that includes a suburb named after Helena White? 
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

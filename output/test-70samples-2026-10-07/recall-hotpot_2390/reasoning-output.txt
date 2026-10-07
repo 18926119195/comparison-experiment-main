@@ -1,0 +1,45 @@
+# 路径一：通过发行/制作公司直接匹配
+
+步骤1：使用⟦91⟧，提取“National Treasure”是一部2004年美国冒险盗宝电影。
+
+步骤2：综合⟦13⟧⟦25⟧⟦67⟧，确认该片类型为冒险、盗宝，属于National Treasure系列。
+
+步骤3：使用⟦221⟧，提取National Treasure由Walt Disney Pictures制作并发行。
+
+步骤4：使用⟦166⟧，提取The Computer Wore Tennis Shoes (1995 film)是一部1995年美国电视电影。
+
+步骤5：综合⟦168⟧⟦178⟧，提取该1995年版由Walt Disney Television制作。
+
+步骤6：使用⟦47⟧，确认The Computer Wore Tennis Shoes系列属于Disney。
+
+结论：National Treasure由Walt Disney Pictures制作发行，The Computer Wore Tennis Shoes (1995)由Walt Disney Television制作，两者同属Disney体系，因此答案是Walt Disney Pictures（或Disney）。
+
+# 路径二：通过系列归属与翻拍关系交叉验证
+
+步骤1：使用⟦10⟧，提取The Computer Wore Tennis Shoes是一部1969年美国喜剧电影。
+
+步骤2：综合⟦38⟧⟦75⟧⟦170⟧，提取1969年版由Cesar Romero、Joe Flynn、William Schallert等主演。
+
+步骤3：使用⟦20⟧⟦100⟧，确认1995年版是对1969年版的翻拍（remake）。
+
+步骤4：综合⟦166⟧⟦168⟧，提取1995年翻拍版由Walt Disney Television制作，属于Disney电视电影。
+
+步骤5：使用⟦91⟧⟦221⟧，提取National Treasure由Walt Disney Pictures制作并发行。
+
+步骤6：综合⟦47⟧⟦166⟧⟦221⟧，交叉验证：The Computer Wore Tennis Shoes系列归属Disney，National Treasure也由Disney制作发行。
+
+结论：两个电影系列均由Disney旗下公司制作，National Treasure由Walt Disney Pictures制作，The Computer Wore Tennis Shoes由Walt Disney Television制作，共同母公司为Disney。
+
+# 路径三：通过材料中的制作公司标签综合支撑
+
+步骤1：使用⟦221⟧，提取National Treasure“produced and released by Walt Disney Pictures”。
+
+步骤2：使用⟦168⟧，提取The Computer Wore Tennis Shoes (1995 film)与“Walt Disney Television”相关联。
+
+步骤3：综合⟦166⟧⟦168⟧⟦178⟧，提取1995年版由Walt Disney Television制作，且该片为Disney电视电影。
+
+步骤4：使用⟦47⟧，确认Disney为The Computer Wore Tennis Shoes的出品方。
+
+步骤5：综合⟦47⟧⟦221⟧，对比两个材料：National Treasure的出品方为Walt Disney Pictures，The Computer Wore Tennis Shoes的出品方为Disney/Walt Disney Television。
+
+结论：两部作品均由Disney旗下制片厂制作，具体为Walt Disney Pictures（National Treasure）和Walt Disney Television（The Computer Wore Tennis Shoes），因此共同制片厂为Walt Disney Pictures/Disney。

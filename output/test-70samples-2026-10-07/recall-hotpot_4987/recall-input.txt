@@ -1,0 +1,405 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Joanne
+⟦2⟧ = "Lady Gaga
+⟦3⟧ = "Rolling Stone
+⟦4⟧ = "stripped-down" soft rock
+⟦5⟧ = (pen name
+⟦6⟧ = 110.8 million viewers
+⟦7⟧ = 115.3 million viewers
+⟦8⟧ = 117.5 million television viewers
+⟦9⟧ = 118.5 million viewers
+⟦10⟧ = 150 million viewers
+⟦11⟧ = 2.2 million tweets
+⟦12⟧ = a "wardrobe malfunction
+⟦13⟧ = a 2011 ruling
+⟦14⟧ = a 2017 documentary film
+⟦15⟧ = a biography
+⟦16⟧ = a case
+⟦17⟧ = a controversial halftime show
+⟦18⟧ = a deep influence
+⟦19⟧ = a figure
+⟦20⟧ = a fundamental link
+⟦21⟧ = a medley
+⟦22⟧ = a nipple shield
+⟦23⟧ = a record
+⟦24⟧ = a tradition
+⟦25⟧ = a worldwide streaming release
+⟦26⟧ = abilities
+⟦27⟧ = acclaim
+⟦28⟧ = Additional versions
+⟦29⟧ = album
+⟦30⟧ = all levels
+⟦31⟧ = all-time
+⟦32⟧ = American entertainer Beyoncé
+⟦33⟧ = American football games
+⟦34⟧ = American pop star Katy Perry
+⟦35⟧ = American singer Bruno Mars
+⟦36⟧ = American singer Katy Perry
+⟦37⟧ = American singer Lady Gaga
+⟦38⟧ = American singer-songwriter Lady Gaga
+⟦39⟧ = an immediate crackdown
+⟦40⟧ = an overall telecast
+⟦41⟧ = Appeals
+⟦42⟧ = appearance
+⟦43⟧ = Arizona
+⟦44⟧ = artist
+⟦45⟧ = audience
+⟦46⟧ = aunt
+⟦47⟧ = Australia
+⟦48⟧ = band
+⟦49⟧ = Beyoncé
+⟦50⟧ = biography
+⟦51⟧ = birth
+⟦52⟧ = blackout
+⟦53⟧ = BloodPop
+⟦54⟧ = book
+⟦55⟧ = breast
+⟦56⟧ = broadcast
+⟦57⟧ = broadcasting
+⟦58⟧ = Bruno Mars
+⟦59⟧ = business
+⟦60⟧ = California
+⟦61⟧ = case
+⟦62⟧ = CBS
+⟦63⟧ = championship
+⟦64⟧ = Child
+⟦65⟧ = Coldplay
+⟦66⟧ = collaborations
+⟦67⟧ = competition
+⟦68⟧ = conclusion
+⟦69⟧ = Convent
+⟦70⟧ = cover
+⟦71⟧ = crackdown
+⟦72⟧ = critics
+⟦73⟧ = culture
+⟦74⟧ = dance
+⟦75⟧ = dance-pop styles
+⟦76⟧ = death
+⟦77⟧ = debate
+⟦78⟧ = debut
+⟦79⟧ = Destiny's Child
+⟦80⟧ = documentarian Chris Moukarbel
+⟦81⟧ = documentary
+⟦82⟧ = education
+⟦83⟧ = Emily Herbert
+⟦84⟧ = emotions
+⟦85⟧ = entertainer
+⟦86⟧ = Entertainment
+⟦87⟧ = event
+⟦88⟧ = events
+⟦89⟧ = experience
+⟦90⟧ = fame
+⟦91⟧ = family
+⟦92⟧ = family and life's emotions
+⟦93⟧ = FCC
+⟦94⟧ = February
+⟦95⟧ = figure
+⟦96⟧ = film
+⟦97⟧ = fine
+⟦98⟧ = football
+⟦99⟧ = foray
+⟦100⟧ = Gaga
+⟦101⟧ = Gaga's early life
+⟦102⟧ = game
+⟦103⟧ = games
+⟦104⟧ = Gardners Books
+⟦105⟧ = Germanotta
+⟦106⟧ = Glendale
+⟦107⟧ = group
+⟦108⟧ = guest
+⟦109⟧ = guests
+⟦110⟧ = halftime
+⟦111⟧ = Halftime shows
+⟦112⟧ = Hamish Hamilton
+⟦113⟧ = headliner
+⟦114⟧ = her abilities
+⟦115⟧ = her aunt
+⟦116⟧ = her birth
+⟦117⟧ = her brief foray
+⟦118⟧ = her business collaborations
+⟦119⟧ = her early visits
+⟦120⟧ = her education
+⟦121⟧ = her fifth studio album
+⟦122⟧ = her first album
+⟦123⟧ = her first experience
+⟦124⟧ = her halftime performance
+⟦125⟧ = her most recent studio album
+⟦126⟧ = her mother
+⟦127⟧ = her songs
+⟦128⟧ = his band
+⟦129⟧ = history
+⟦130⟧ = Houston
+⟦131⟧ = incident
+⟦132⟧ = indecency
+⟦133⟧ = industry
+⟦134⟧ = influence
+⟦135⟧ = interactions
+⟦136⟧ = interest
+⟦137⟧ = its conclusion
+⟦138⟧ = its debut
+⟦139⟧ = Jeff Bhasker
+⟦140⟧ = Joanne
+⟦141⟧ = Joanne Stefani Germanotta
+⟦142⟧ = Justin Timberlake
+⟦143⟧ = Katy Perry
+⟦144⟧ = Kelly Rowland
+⟦145⟧ = Lady Gaga
+⟦146⟧ = league
+⟦147⟧ = levels
+⟦148⟧ = Levi's Stadium
+⟦149⟧ = life
+⟦150⟧ = link
+⟦151⟧ = live performances
+⟦152⟧ = majority
+⟦153⟧ = malfunction
+⟦154⟧ = Mark Ronson
+⟦155⟧ = Mars' Moonshine Jungle Tour
+⟦156⟧ = material
+⟦157⟧ = media
+⟦158⟧ = medley
+⟦159⟧ = Melbourne
+⟦160⟧ = MetLife Stadium
+⟦161⟧ = Michelle Williams
+⟦162⟧ = minute
+⟦163⟧ = Missy Elliott
+⟦164⟧ = moment
+⟦165⟧ = more than 299,000 tweets
+⟦166⟧ = mother
+⟦167⟧ = music
+⟦168⟧ = music critics
+⟦169⟧ = musician
+⟦170⟧ = name
+⟦171⟧ = nationwide interest
+⟦172⟧ = Netflix
+⟦173⟧ = network
+⟦174⟧ = New Jersey
+⟦175⟧ = New Orleans
+⟦176⟧ = New York
+⟦177⟧ = newer material
+⟦178⟧ = NFL
+⟦179⟧ = nightclubs
+⟦180⟧ = Nipplegate
+⟦181⟧ = NRG Stadium
+⟦182⟧ = October
+⟦183⟧ = open-mic events
+⟦184⟧ = order
+⟦185⟧ = Overlook Press
+⟦186⟧ = part
+⟦187⟧ = pen
+⟦188⟧ = perceived indecency
+⟦189⟧ = performance
+⟦190⟧ = performances
+⟦191⟧ = performers
+⟦192⟧ = Phoenix Stadium
+⟦193⟧ = place
+⟦194⟧ = platforms
+⟦195⟧ = pop
+⟦196⟧ = postings
+⟦197⟧ = Prince's performance
+⟦198⟧ = producers
+⟦199⟧ = production
+⟦200⟧ = Queen
+⟦201⟧ = Radio Ga Ga
+⟦202⟧ = ratings
+⟦203⟧ = recent years
+⟦204⟧ = record
+⟦205⟧ = RedOne
+⟦206⟧ = release
+⟦207⟧ = rest
+⟦208⟧ = Ricky Kirshner
+⟦209⟧ = rock
+⟦210⟧ = ruling
+⟦211⟧ = Santa Clara
+⟦212⟧ = September
+⟦213⟧ = several producers
+⟦214⟧ = shield
+⟦215⟧ = show
+⟦216⟧ = shows
+⟦217⟧ = singer
+⟦218⟧ = singers
+⟦219⟧ = singers Lenny Kravitz
+⟦220⟧ = social media interactions
+⟦221⟧ = song
+⟦222⟧ = songs
+⟦223⟧ = songwriter
+⟦224⟧ = special guest performers
+⟦225⟧ = special guests
+⟦226⟧ = stadium
+⟦227⟧ = star
+⟦228⟧ = Stefani Joanne Angelina Germanotta
+⟦229⟧ = Streamline and Interscope Records
+⟦230⟧ = studio
+⟦231⟧ = styles
+⟦232⟧ = success
+⟦233⟧ = Super Bowl
+⟦234⟧ = Super Bowl history
+⟦235⟧ = Super Bowl LI
+⟦236⟧ = Super Bowl XLI
+⟦237⟧ = Super Bowl XLIX
+⟦238⟧ = Super Bowl XLVII
+⟦239⟧ = Super Bowl XLVIII
+⟦240⟧ = Super Bowl XLVIII halftime shows
+⟦241⟧ = Super Bowl XXXVIII
+⟦242⟧ = telecast
+⟦243⟧ = television
+⟦244⟧ = Texas
+⟦245⟧ = that fine
+⟦246⟧ = the "most-watched musical event
+⟦247⟧ = the 2017 Toronto International Film Festival
+⟦248⟧ = the album
+⟦249⟧ = the annual championship game
+⟦250⟧ = the Arts
+⟦251⟧ = The book
+⟦252⟧ = the British rock group
+⟦253⟧ = the CBS television network
+⟦254⟧ = the cover
+⟦255⟧ = the death
+⟦256⟧ = the events
+⟦257⟧ = the Fame
+⟦258⟧ = The Federal Communications Commission
+⟦259⟧ = the fifth studio album
+⟦260⟧ = The film
+⟦261⟧ = the fine
+⟦262⟧ = the first Pepsi sponsored halftime show
+⟦263⟧ = the following year's Super Bowl XLIX halftime show
+⟦264⟧ = the halftime show
+⟦265⟧ = the history
+⟦266⟧ = The Hooligans
+⟦267⟧ = The incident
+⟦268⟧ = the industry
+⟦269⟧ = the largest audience
+⟦270⟧ = the largest ratings
+⟦271⟧ = the league's platforms
+⟦272⟧ = the majority
+⟦273⟧ = the material
+⟦274⟧ = the Mercedes-Benz Superdome
+⟦275⟧ = the most-watched event
+⟦276⟧ = the most-watched television broadcast
+⟦277⟧ = The music
+⟦278⟧ = the musician's success
+⟦279⟧ = the name
+⟦280⟧ = the National Football League
+⟦281⟧ = The NFL
+⟦282⟧ = The performance
+⟦283⟧ = the production
+⟦284⟧ = the record
+⟦285⟧ = The Red Hot Chili Peppers
+⟦286⟧ = the rest
+⟦287⟧ = the rock group Queen
+⟦288⟧ = the Sacred Heart
+⟦289⟧ = The show
+⟦290⟧ = the singer's vocal abilities
+⟦291⟧ = the song
+⟦292⟧ = the stadium blackout
+⟦293⟧ = the Super Bowl
+⟦294⟧ = The Super Bowl 50 Halftime Show
+⟦295⟧ = the Super Bowl LI halftime show
+⟦296⟧ = The Super Bowl XLIX halftime show
+⟦297⟧ = the Super Bowl XLVII
+⟦298⟧ = The Super Bowl XLVII halftime show
+⟦299⟧ = The Super Bowl XLVIII halftime show
+⟦300⟧ = the Supreme Court
+⟦301⟧ = the television audience
+⟦302⟧ = the theme
+⟦303⟧ = the then second most watched show
+⟦304⟧ = the Third Circuit Court
+⟦305⟧ = the time
+⟦306⟧ = the Tisch School
+⟦307⟧ = the title
+⟦308⟧ = the United Kingdom
+⟦309⟧ = the United States
+⟦310⟧ = the University
+⟦311⟧ = theme
+⟦312⟧ = tickets
+⟦313⟧ = time
+⟦314⟧ = title
+⟦315⟧ = tradition
+⟦316⟧ = tweets
+⟦317⟧ = Twitter
+⟦318⟧ = two Emmy Awards
+⟦319⟧ = U.S. history
+⟦320⟧ = unique viewership
+⟦321⟧ = versions
+⟦322⟧ = video
+⟦323⟧ = video postings
+⟦324⟧ = viewers
+⟦325⟧ = viewership
+⟦326⟧ = Virginia Blackburn
+⟦327⟧ = visits
+⟦328⟧ = visual artist
+⟦329⟧ = wardrobe
+⟦330⟧ = widespread debate
+⟦331⟧ = Wilkinson Publishing
+⟦332⟧ = year
+⟦333⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Super Bowl XLVII halftime show] ⟦298⟧⟨1⟩⟦110⟧⟨2⟩⟦215⟧⟨3⟩⟦94⟧⟨4⟩⟦274⟧⟨5⟩⟦175⟧⟨6⟩⟦186⟧⟨7⟩⟦186⟧⟨8⟩⟦238⟧⟨9⟩⟦32⟧⟨10⟩⟦85⟧⟨11⟩⟦225⟧⟨12⟩⟦109⟧⟨13⟩⟦144⟧⟨14⟩⟦161⟧⟨15⟩⟦79⟧⟨16⟩⟦64⟧⟨17⟩
+[Super Bowl XLVII halftime show] ⟦289⟧⟨18⟩⟦215⟧⟨19⟩⟦208⟧⟨20⟩⟦112⟧⟨21⟩
+[Super Bowl XLVII halftime show] ⟨22⟩⟦27⟧⟨23⟩⟦27⟧⟨24⟩⟦167⟧⟨25⟩⟦168⟧⟨26⟩⟦72⟧⟨27⟩⟦49⟧⟨28⟩⟦114⟧⟨29⟩⟦26⟧⟨30⟩⟦151⟧⟨31⟩⟦190⟧⟨32⟩
+[Super Bowl XLVII halftime show] ⟨33⟩⟦303⟧⟨34⟩⟦215⟧⟨35⟩⟦234⟧⟨36⟩⟦129⟧⟨37⟩⟦6⟧⟨38⟩⟦324⟧⟨39⟩
+[Super Bowl XLVII halftime show] ⟦282⟧⟨40⟩⟦189⟧⟨41⟩⟦292⟧⟨42⟩⟦226⟧⟨43⟩⟦52⟧⟨44⟩⟦165⟧⟨45⟩⟦316⟧⟨46⟩⟦162⟧⟨47⟩⟦162⟧⟨48⟩⟦164⟧⟨49⟩⟦265⟧⟨50⟩⟦129⟧⟨51⟩⟦317⟧⟨52⟩
+[Super Bowl XLVII halftime show] ⟨53⟩⟦262⟧⟨54⟩⟦110⟧⟨55⟩⟦215⟧⟨56⟩⟦197⟧⟨57⟩⟦189⟧⟨58⟩⟦236⟧⟨59⟩
+[Super Bowl XXXVIII halftime-show controversy] ⟦241⟧⟨60⟩⟦94⟧⟨61⟩⟦130⟧⟨62⟩⟦244⟧⟨63⟩⟦253⟧⟨64⟩⟦243⟧⟨65⟩⟦173⟧⟨66⟩⟦309⟧⟨67⟩⟦17⟧⟨68⟩⟦110⟧⟨69⟩⟦215⟧⟨70⟩⟦55⟧⟨71⟩⟦22⟧⟨72⟩⟦214⟧⟨73⟩⟦142⟧⟨74⟩⟦12⟧⟨75⟩⟦329⟧⟨76⟩⟦153⟧⟨77⟩
+[Super Bowl XXXVIII halftime-show controversy] ⟦267⟧⟨78⟩⟦131⟧⟨79⟩⟦180⟧⟨80⟩
+[Super Bowl XXXVIII halftime-show controversy] ⟨81⟩⟦286⟧⟨82⟩⟦207⟧⟨83⟩⟦264⟧⟨84⟩⟦110⟧⟨85⟩⟦215⟧⟨86⟩⟦39⟧⟨87⟩⟦71⟧⟨88⟩⟦330⟧⟨89⟩⟦77⟧⟨90⟩⟦188⟧⟨91⟩⟦132⟧⟨92⟩⟦57⟧⟨93⟩⟦57⟧⟨94⟩
+[Super Bowl XXXVIII halftime-show controversy] ⟦258⟧⟨95⟩⟦93⟧⟨96⟩⟦62⟧⟨97⟩⟦23⟧⟨98⟩⟦204⟧⟨99⟩⟦300⟧⟨100⟩⟦245⟧⟨101⟩⟦97⟧⟨102⟩⟦304⟧⟨103⟩⟦41⟧⟨104⟩⟦13⟧⟨105⟩⟦210⟧⟨106⟩⟦16⟧⟨107⟩⟦61⟧⟨108⟩⟦261⟧⟨109⟩⟦97⟧⟨110⟩
+[Super Bowl 50 halftime show] ⟦294⟧⟨111⟩⟦193⟧⟨112⟩⟦193⟧⟨113⟩⟦94⟧⟨114⟩⟦148⟧⟨115⟩⟦211⟧⟨116⟩⟦60⟧⟨117⟩⟦186⟧⟨118⟩⟦186⟧⟨119⟩⟦233⟧⟨120⟩
+[Super Bowl 50 halftime show] ⟨121⟩⟦252⟧⟨122⟩⟦209⟧⟨123⟩⟦107⟧⟨124⟩⟦65⟧⟨125⟩⟦224⟧⟨126⟩⟦108⟧⟨127⟩⟦191⟧⟨128⟩⟦49⟧⟨129⟩⟦58⟧⟨130⟩⟦297⟧⟨131⟩⟦240⟧⟨132⟩⟦110⟧⟨133⟩⟦216⟧⟨134⟩
+[Super Bowl XLVIII halftime show] ⟦299⟧⟨135⟩⟦110⟧⟨136⟩⟦215⟧⟨137⟩⟦94⟧⟨138⟩⟦160⟧⟨139⟩⟦174⟧⟨140⟩⟦186⟧⟨141⟩⟦186⟧⟨142⟩⟦239⟧⟨143⟩⟦35⟧⟨144⟩⟦217⟧⟨145⟩⟦128⟧⟨146⟩⟦48⟧⟨147⟩⟦266⟧⟨148⟩⟦225⟧⟨149⟩⟦109⟧⟨150⟩⟦285⟧⟨151⟩
+[Super Bowl XLVIII halftime show] ⟦289⟧⟨152⟩⟦215⟧⟨153⟩⟦208⟧⟨154⟩⟦112⟧⟨155⟩
+[Super Bowl XLVIII halftime show] ⟨156⟩⟦305⟧⟨157⟩⟦313⟧⟨158⟩⟦264⟧⟨159⟩⟦110⟧⟨160⟩⟦215⟧⟨161⟩⟦269⟧⟨162⟩⟦45⟧⟨163⟩⟦265⟧⟨164⟩⟦129⟧⟨165⟩⟦293⟧⟨166⟩⟦7⟧⟨167⟩⟦324⟧⟨168⟩
+[Super Bowl XLVIII halftime show] ⟦289⟧⟨169⟩⟦215⟧⟨170⟩⟦263⟧⟨171⟩⟦332⟧⟨172⟩⟦110⟧⟨173⟩⟦215⟧⟨174⟩⟦34⟧⟨175⟩⟦195⟧⟨176⟩⟦227⟧⟨177⟩⟦113⟧⟨178⟩⟦113⟧⟨179⟩
+[Super Bowl XLVIII halftime show] ⟦282⟧⟨180⟩⟦189⟧⟨181⟩⟦11⟧⟨182⟩⟦316⟧⟨183⟩⟦312⟧⟨184⟩⟦312⟧⟨185⟩⟦155⟧⟨186⟩
+[Joanne (album)] ⟦140⟧⟨187⟩⟦259⟧⟨188⟩⟦230⟧⟨189⟩⟦29⟧⟨190⟩⟦37⟧⟨191⟩⟦217⟧⟨192⟩
+[Joanne (album)] ⟨193⟩⟦182⟧⟨194⟩⟦229⟧⟨195⟩
+[Joanne (album)] ⟦100⟧⟨196⟩⟦213⟧⟨197⟩⟦198⟧⟨198⟩⟦248⟧⟨199⟩⟦29⟧⟨200⟩⟦154⟧⟨201⟩⟦139⟧⟨202⟩⟦53⟧⟨203⟩⟦205⟧⟨204⟩⟦272⟧⟨205⟩⟦152⟧⟨206⟩⟦273⟧⟨207⟩⟦156⟧⟨208⟩
+[Joanne (album)] ⟦277⟧⟨209⟩⟦167⟧⟨210⟩⟦4⟧⟨211⟩⟦209⟧⟨212⟩⟦74⟧⟨213⟩⟦75⟧⟨214⟩⟦195⟧⟨215⟩⟦231⟧⟨216⟩⟦184⟧⟨217⟩⟦184⟧⟨218⟩⟦290⟧⟨219⟩⟦217⟧⟨220⟩⟦26⟧⟨221⟩
+[Joanne (album)] ⟨222⟩⟦248⟧⟨223⟩⟦29⟧⟨224⟩⟦302⟧⟨225⟩⟦311⟧⟨226⟩⟦91⟧⟨227⟩⟦92⟧⟨228⟩⟦149⟧⟨229⟩⟦84⟧⟨230⟩⟦255⟧⟨231⟩⟦76⟧⟨232⟩⟦115⟧⟨233⟩⟦46⟧⟨234⟩⟦141⟧⟨235⟩⟦18⟧⟨236⟩⟦134⟧⟨237⟩⟦284⟧⟨238⟩⟦204⟧⟨239⟩
+[Lady Gaga: Queen of Pop] ⟦145⟧⟨240⟩⟦200⟧⟨241⟩⟦200⟧⟨242⟩⟦195⟧⟨243⟩⟦15⟧⟨244⟩⟦50⟧⟨245⟩⟦37⟧⟨246⟩⟦217⟧⟨247⟩
+[Lady Gaga: Queen of Pop] ⟨248⟩⟦83⟧⟨249⟩⟦5⟧⟨250⟩⟦187⟧⟨251⟩⟦170⟧⟨252⟩⟦326⟧⟨253⟩⟦308⟧⟨254⟩⟦251⟧⟨255⟩⟦54⟧⟨256⟩⟦185⟧⟨257⟩⟦309⟧⟨258⟩⟦307⟧⟨259⟩⟦314⟧⟨260⟩⟦145⟧⟨261⟩⟦257⟧⟨262⟩
+[Lady Gaga: Queen of Pop] ⟦28⟧⟨263⟩⟦321⟧⟨264⟩⟦307⟧⟨265⟩⟦314⟧⟨266⟩⟦2⟧⟨267⟩⟦200⟧⟨268⟩⟦200⟧⟨269⟩⟦195⟧⟨270⟩⟦331⟧⟨271⟩⟦159⟧⟨272⟩⟦47⟧⟨273⟩⟦104⟧⟨274⟩⟦308⟧⟨275⟩
+[Lady Gaga: Queen of Pop] ⟦251⟧⟨276⟩⟦54⟧⟨277⟩⟦101⟧⟨278⟩⟦149⟧⟨279⟩⟦228⟧⟨280⟩⟦116⟧⟨281⟩⟦51⟧⟨282⟩⟦120⟧⟨283⟩⟦82⟧⟨284⟩⟦69⟧⟨285⟩⟦288⟧⟨286⟩⟦176⟧⟨287⟩⟦119⟧⟨288⟩⟦327⟧⟨289⟩⟦179⟧⟨290⟩⟦179⟧⟨291⟩⟦126⟧⟨292⟩⟦166⟧⟨293⟩⟦183⟧⟨294⟩⟦88⟧⟨295⟩⟦117⟧⟨296⟩⟦99⟧⟨297⟩⟦306⟧⟨298⟩⟦250⟧⟨299⟩⟦123⟧⟨300⟩⟦89⟧⟨301⟩⟦90⟧⟨302⟩⟦90⟧⟨303⟩
+[Lady Gaga: Queen of Pop] ⟦105⟧⟨304⟩⟦279⟧⟨305⟩⟦170⟧⟨306⟩⟦2⟧⟨307⟩⟦291⟧⟨308⟩⟦221⟧⟨309⟩⟦201⟧⟨310⟩⟦287⟧⟨311⟩⟦209⟧⟨312⟩⟦107⟧⟨313⟩⟦122⟧⟨314⟩⟦29⟧⟨315⟩⟦257⟧⟨316⟩
+[Lady Gaga: Queen of Pop] ⟦2⟧⟨317⟩⟦200⟧⟨318⟩⟦200⟧⟨319⟩⟦195⟧⟨320⟩⟦278⟧⟨321⟩⟦169⟧⟨322⟩⟦232⟧⟨323⟩⟦268⟧⟨324⟩⟦133⟧⟨325⟩⟦118⟧⟨326⟩⟦59⟧⟨327⟩⟦66⟧⟨328⟩⟦42⟧⟨329⟩⟦42⟧⟨330⟩⟦254⟧⟨331⟩⟦70⟧⟨332⟩⟦3⟧⟨333⟩
+[Gaga: Five Foot Two] ⟦100⟧⟨334⟩⟦100⟧⟨335⟩⟦14⟧⟨336⟩⟦81⟧⟨337⟩⟦96⟧⟨338⟩⟦38⟧⟨339⟩⟦217⟧⟨340⟩⟦223⟧⟨341⟩
+[Gaga: Five Foot Two] ⟦260⟧⟨342⟩⟦96⟧⟨343⟩⟦256⟧⟨344⟩⟦88⟧⟨345⟩⟦283⟧⟨346⟩⟦199⟧⟨347⟩⟦206⟧⟨348⟩⟦206⟧⟨349⟩⟦121⟧⟨350⟩⟦230⟧⟨351⟩⟦29⟧⟨352⟩⟦140⟧⟨353⟩⟦124⟧⟨354⟩⟦110⟧⟨355⟩⟦189⟧⟨356⟩⟦235⟧⟨357⟩
+[Gaga: Five Foot Two] ⟦260⟧⟨358⟩⟦96⟧⟨359⟩⟦328⟧⟨360⟩⟦44⟧⟨361⟩⟦80⟧⟨362⟩⟦138⟧⟨363⟩⟦78⟧⟨364⟩⟦247⟧⟨365⟩⟦25⟧⟨366⟩⟦206⟧⟨367⟩⟦172⟧⟨368⟩⟦212⟧⟨369⟩
+[List of Super Bowl halftime shows] ⟦110⟧⟨370⟩⟦111⟧⟨371⟩⟦216⟧⟨372⟩⟦24⟧⟨373⟩⟦315⟧⟨374⟩⟦33⟧⟨375⟩⟦98⟧⟨376⟩⟦103⟧⟨377⟩⟦30⟧⟨378⟩⟦147⟧⟨379⟩⟦67⟧⟨380⟩⟦67⟧⟨381⟩
+[List of Super Bowl halftime shows] ⟦86⟧⟨382⟩⟦293⟧⟨383⟩⟦249⟧⟨384⟩⟦63⟧⟨385⟩⟦102⟧⟨386⟩⟦280⟧⟨387⟩⟦178⟧⟨388⟩⟦20⟧⟨389⟩⟦150⟧⟨390⟩⟦73⟧⟨391⟩⟦73⟧⟨392⟩⟦301⟧⟨393⟩⟦243⟧⟨394⟩⟦45⟧⟨395⟩⟦171⟧⟨396⟩⟦136⟧⟨397⟩
+[List of Super Bowl halftime shows] ⟨398⟩⟦293⟧⟨399⟩⟦275⟧⟨400⟩⟦87⟧⟨401⟩⟦243⟧⟨402⟩⟦243⟧⟨403⟩⟦309⟧⟨404⟩⟦264⟧⟨405⟩⟦110⟧⟨406⟩⟦215⟧⟨407⟩⟦203⟧⟨408⟩⟦333⟧⟨409⟩⟦264⟧⟨410⟩⟦110⟧⟨411⟩⟦215⟧⟨412⟩⟦237⟧⟨413⟩⟦143⟧⟨414⟩⟦186⟧⟨415⟩⟦186⟧⟨416⟩⟦40⟧⟨417⟩⟦242⟧⟨418⟩⟦137⟧⟨419⟩⟦68⟧⟨420⟩⟦276⟧⟨421⟩⟦243⟧⟨422⟩⟦56⟧⟨423⟩⟦319⟧⟨424⟩⟦129⟧⟨425⟩
+[List of Super Bowl halftime shows] ⟦281⟧⟨426⟩⟦295⟧⟨427⟩⟦110⟧⟨428⟩⟦215⟧⟨429⟩⟦145⟧⟨430⟩⟦246⟧⟨431⟩⟦87⟧⟨432⟩⟦31⟧⟨433⟩⟦313⟧⟨434⟩⟦19⟧⟨435⟩⟦95⟧⟨436⟩⟦10⟧⟨437⟩⟦324⟧⟨438⟩⟦301⟧⟨439⟩⟦243⟧⟨440⟩⟦45⟧⟨441⟩⟦320⟧⟨442⟩⟦325⟧⟨443⟩⟦322⟧⟨444⟩⟦323⟧⟨445⟩⟦196⟧⟨446⟩⟦264⟧⟨447⟩⟦110⟧⟨448⟩⟦215⟧⟨449⟩⟦271⟧⟨450⟩⟦146⟧⟨451⟩⟦194⟧⟨452⟩⟦220⟧⟨453⟩⟦157⟧⟨454⟩⟦135⟧⟨455⟩
+[List of Super Bowl halftime shows] ⟨456⟩⟦289⟧⟨457⟩⟦215⟧⟨458⟩⟦8⟧⟨459⟩⟦243⟧⟨460⟩⟦324⟧⟨461⟩⟦110⟧⟨462⟩⟦215⟧⟨463⟩⟦237⟧⟨464⟩
+[Super Bowl LI halftime show] ⟦295⟧⟨465⟩⟦215⟧⟨466⟩⟦193⟧⟨467⟩⟦193⟧⟨468⟩⟦94⟧⟨469⟩⟦181⟧⟨470⟩⟦130⟧⟨471⟩⟦244⟧⟨472⟩⟦186⟧⟨473⟩⟦186⟧⟨474⟩⟦235⟧⟨475⟩
+[Super Bowl LI halftime show] ⟦289⟧⟨476⟩⟦215⟧⟨477⟩⟦145⟧⟨478⟩⟦21⟧⟨479⟩⟦158⟧⟨480⟩⟦127⟧⟨481⟩⟦222⟧⟨482⟩⟦177⟧⟨483⟩⟦156⟧⟨484⟩⟦125⟧⟨485⟩⟦230⟧⟨486⟩⟦29⟧⟨487⟩⟦1⟧⟨488⟩
+[Super Bowl XLIX halftime show] ⟦296⟧⟨489⟩⟦110⟧⟨490⟩⟦215⟧⟨491⟩⟦193⟧⟨492⟩⟦193⟧⟨493⟩⟦94⟧⟨494⟩⟦310⟧⟨495⟩⟦192⟧⟨496⟩⟦106⟧⟨497⟩⟦43⟧⟨498⟩⟦186⟧⟨499⟩⟦186⟧⟨500⟩⟦237⟧⟨501⟩
+[Super Bowl XLIX halftime show] ⟨502⟩⟦36⟧⟨503⟩⟦217⟧⟨504⟩⟦218⟧⟨505⟩⟦219⟧⟨506⟩⟦163⟧⟨507⟩⟦225⟧⟨508⟩⟦109⟧⟨509⟩
+[Super Bowl XLIX halftime show] ⟦264⟧⟨510⟩⟦110⟧⟨511⟩⟦215⟧⟨512⟩⟦9⟧⟨513⟩⟦324⟧⟨514⟩⟦270⟧⟨515⟩⟦202⟧⟨516⟩⟦265⟧⟨517⟩⟦129⟧⟨518⟩⟦293⟧⟨519⟩
+[Super Bowl XLIX halftime show] ⟨520⟩⟦318⟧⟨521⟩⟦212⟧⟨522⟩
+
+[user]
+
+问题：
+When was the album released for which Lady Gaga used for material for her Super Bowl LI halftime show?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

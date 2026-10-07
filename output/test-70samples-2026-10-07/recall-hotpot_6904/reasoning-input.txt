@@ -1,0 +1,91 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[1 New York Plaza] ⟦4⟧⟨215⟩⟨217⟩⟨216⟩⟨218⟩⟦180⟧⟨219⟩⟦281⟧⟦139⟧⟨220⟩⟨221⟩⟦228⟧⟨222⟩
+[90 West Street] ⟦50⟧
+[Woolworth Building] ⟦313⟧⟨323⟩⟦10⟧⟨324⟩⟦161⟧⟨325⟩⟨326⟩⟦56⟧⟦57⟧⟨327⟩⟨328⟩⟦46⟧⟦226⟧⟨329⟩⟨330⟩
+[Woolworth Building] ⟦179⟧ | ⟨352⟩⟦72⟧⟨353⟩⟦143⟧⟦80⟧⟨354⟩⟨355⟩⟦11⟧⟨356⟩⟦251⟧⟨357⟩⟨358⟩⟦308⟧⟨359⟩⟦254⟧⟨360⟩⟨361⟩⟦179⟧⟨362⟩
+[Rubin Schron] ⟦185⟧
+[Rubin Schron] ⟦63⟧ | ⟦64⟧⟦64⟧
+
+符号表：
+⟦4⟧ = 1 New York Plaza
+⟦10⟧ = 233 Broadway
+⟦11⟧ = 241.4 m
+⟦46⟧ = an early US skyscraper
+⟦50⟧ = an office building
+⟦56⟧ = architect
+⟦57⟧ = architect Cass Gilbert
+⟦63⟧ = building
+⟦64⟧ = buildings
+⟦72⟧ = century
+⟦80⟧ = construction
+⟦139⟧ = intersection
+⟦143⟧ = its construction
+⟦161⟧ = Manhattan
+⟦179⟧ = New York City
+⟦180⟧ = New York City's Financial District
+⟦185⟧ = office
+⟦226⟧ = skyscraper
+⟦228⟧ = South and Whitehall Streets
+⟦251⟧ = the 100 tallest buildings
+⟦254⟧ = the 30 tallest buildings
+⟦281⟧ = the intersection
+⟦308⟧ = the United States
+⟦313⟧ = the Woolworth Building
+
+占位符映射：
+⟨215⟩ =  is 
+⟨216⟩ = 
+⟨217⟩ =  
+⟨218⟩ =  in 
+⟨219⟩ = , built in 1969 at 
+⟨220⟩ = 
+⟨221⟩ =  of 
+⟨222⟩ = .
+⟨323⟩ = , at 
+⟨324⟩ = , 
+⟨325⟩ = , 
+⟨326⟩ = , designed by 
+⟨327⟩ = 
+⟨328⟩ =  and constructed between 1910 and 1912, is 
+⟨329⟩ = 
+⟨330⟩ = .
+⟨352⟩ =  More than a 
+⟨353⟩ =  after 
+⟨354⟩ = 
+⟨355⟩ = , it remains, at 
+⟨356⟩ =  , one of 
+⟨357⟩ = 
+⟨358⟩ =  in 
+⟨359⟩ =  as well as one of 
+⟨360⟩ = 
+⟨361⟩ =  in 
+⟨362⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Which was built first Woolworth Building or 1 New York Plaza?

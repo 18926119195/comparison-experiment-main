@@ -1,0 +1,300 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = /south
+⟦2⟧ = 100%
+⟦3⟧ = 37 states
+⟦4⟧ = 72%
+⟦5⟧ = 79 U.S.
+⟦6⟧ = a 1959 Bugs Bunny cartoon
+⟦7⟧ = a Canadian life insurance company
+⟦8⟧ = a chain
+⟦9⟧ = a claim jumper
+⟦10⟧ = a contemporary fashion jeweller
+⟦11⟧ = a densely populated area
+⟦12⟧ = a division
+⟦13⟧ = a group
+⟦14⟧ = a homestead
+⟦15⟧ = a member
+⟦16⟧ = A new term
+⟦17⟧ = a part
+⟦18⟧ = a regular basis
+⟦19⟧ = a Singapore-based jewellery corporation
+⟦20⟧ = a strong line
+⟦21⟧ = a term
+⟦22⟧ = addition
+⟦23⟧ = age
+⟦24⟧ = ages
+⟦25⟧ = American television stations
+⟦26⟧ = an American Pre-Code Universal movie serial
+⟦27⟧ = an American restaurant chain
+⟦28⟧ = an American, privately owned, multi-brand dining/hospitality/entertainment/gaming corporation
+⟦29⟧ = an extent
+⟦30⟧ = Anheuser-Busch's longtime title sponsorship
+⟦31⟧ = area
+⟦32⟧ = areas
+⟦33⟧ = Aspial Corporation
+⟦34⟧ = average
+⟦35⟧ = Baker
+⟦36⟧ = barons
+⟦37⟧ = basis
+⟦38⟧ = Benihana
+⟦39⟧ = Black McDougal
+⟦40⟧ = Bonanza Bunny
+⟦41⟧ = boutiques
+⟦42⟧ = brand
+⟦43⟧ = brands
+⟦44⟧ = Buschwacker
+⟦45⟧ = Buschwhacker
+⟦46⟧ = California
+⟦47⟧ = career
+⟦48⟧ = cartoon
+⟦49⟧ = case
+⟦50⟧ = casino
+⟦51⟧ = CBS
+⟦52⟧ = CBS Corporation
+⟦53⟧ = center
+⟦54⟧ = chain
+⟦55⟧ = Citigems
+⟦56⟧ = city
+⟦57⟧ = claim
+⟦58⟧ = Claim jumper
+⟦59⟧ = Claim Jumper Restaurant
+⟦60⟧ = Clancy
+⟦61⟧ = coinage
+⟦62⟧ = collar
+⟦63⟧ = college
+⟦64⟧ = Columbia
+⟦65⟧ = Comcast's Xfinity brand
+⟦66⟧ = companies
+⟦67⟧ = company
+⟦68⟧ = Concord
+⟦69⟧ = corporation
+⟦70⟧ = Cost Plus World Market
+⟦71⟧ = court
+⟦72⟧ = current sponsorship
+⟦73⟧ = customer
+⟦74⟧ = customers
+⟦75⟧ = December
+⟦76⟧ = destinations
+⟦77⟧ = dining
+⟦78⟧ = division
+⟦79⟧ = drivers
+⟦80⟧ = entertainment
+⟦81⟧ = extent
+⟦82⟧ = fashion
+⟦83⟧ = finance
+⟦84⟧ = forty-five percent
+⟦85⟧ = four independent stations
+⟦86⟧ = French Canadian claim jumper Blacque Jacque Shellacque
+⟦87⟧ = gaming
+⟦88⟧ = Goldheart
+⟦89⟧ = Goldheart and Citigems brands
+⟦90⟧ = Great-West Lifeco
+⟦91⟧ = Great-West Lifeco subsidiary
+⟦92⟧ = group
+⟦93⟧ = growth
+⟦94⟧ = holiday
+⟦95⟧ = home
+⟦96⟧ = homestead
+⟦97⟧ = homesteaders
+⟦98⟧ = homesteaders rights
+⟦99⟧ = hospitality
+⟦100⟧ = hotel
+⟦101⟧ = household
+⟦102⟧ = Houston
+⟦103⟧ = I-680
+⟦104⟧ = Inc.
+⟦105⟧ = income
+⟦106⟧ = insurance
+⟦107⟧ = its "Freedom 55" slogan
+⟦108⟧ = its top range products
+⟦109⟧ = jeweller
+⟦110⟧ = jewellery
+⟦111⟧ = jumper
+⟦112⟧ = land
+⟦113⟧ = landowners
+⟦114⟧ = Landry
+⟦115⟧ = Landry's, Inc.
+⟦116⟧ = Lee Hwa
+⟦117⟧ = Lee Hwa Jewellery
+⟦118⟧ = level
+⟦119⟧ = life
+⟦120⟧ = line
+⟦121⟧ = local land barons
+⟦122⟧ = locations
+⟦123⟧ = London Life
+⟦124⟧ = member
+⟦125⟧ = money
+⟦126⟧ = more than 40 locations
+⟦127⟧ = more than 600 restaurant/hotel/casino/entertainment destinations
+⟦128⟧ = Morton
+⟦129⟧ = movie
+⟦130⟧ = MyNetworkTV
+⟦131⟧ = NASCAR drivers
+⟦132⟧ = national retailers
+⟦133⟧ = Nationwide Insurance's sponsorship
+⟦134⟧ = Nebraska Territory
+⟦135⟧ = north
+⟦136⟧ = numerous international locations
+⟦137⟧ = office
+⟦138⟧ = office workers
+⟦139⟧ = Old Navy
+⟦140⟧ = Omaha
+⟦141⟧ = over two-thirds
+⟦142⟧ = part
+⟦143⟧ = people
+⟦144⟧ = percent
+⟦145⟧ = poem
+⟦146⟧ = Power Corporation
+⟦147⟧ = Power Financial Corporation
+⟦148⟧ = prime
+⟦149⟧ = products
+⟦150⟧ = range
+⟦151⟧ = rapid transit
+⟦152⟧ = Ray Taylor
+⟦153⟧ = reference
+⟦154⟧ = regulars
+⟦155⟧ = REI
+⟦156⟧ = restaurant
+⟦157⟧ = retailers
+⟦158⟧ = rights
+⟦159⟧ = Robert W. Service
+⟦160⟧ = Saloon
+⟦161⟧ = San Francisco
+⟦162⟧ = serial
+⟦163⟧ = series
+⟦164⟧ = Sgt
+⟦165⟧ = Signal Pirate
+⟦166⟧ = Singapore
+⟦167⟧ = slogan
+⟦168⟧ = south
+⟦169⟧ = sponsorship
+⟦170⟧ = state
+⟦171⟧ = statehood
+⟦172⟧ = states
+⟦173⟧ = stations
+⟦174⟧ = subsidiary
+⟦175⟧ = television
+⟦176⟧ = term
+⟦177⟧ = Texas
+⟦178⟧ = the ages
+⟦179⟧ = the area
+⟦180⟧ = the Aspial
+⟦181⟧ = The average household income
+⟦182⟧ = The case
+⟦183⟧ = the CBS Television Network
+⟦184⟧ = The CBS Television Stations
+⟦185⟧ = The center
+⟦186⟧ = the city
+⟦187⟧ = The company
+⟦188⟧ = The company's Aspial brand
+⟦189⟧ = the customer
+⟦190⟧ = The CW Television Network
+⟦191⟧ = the District
+⟦192⟧ = the East Bay
+⟦193⟧ = the fastest growing areas
+⟦194⟧ = the first "serious" court case
+⟦195⟧ = the future growth
+⟦196⟧ = The Great-West Life Assurance Company
+⟦197⟧ = the key stations
+⟦198⟧ = The London Life Insurance Company
+⟦199⟧ = the major north
+⟦200⟧ = the Mounted
+⟦201⟧ = the newest member
+⟦202⟧ = the only listed jeweller
+⟦203⟧ = The original coinage
+⟦204⟧ = the poem
+⟦205⟧ = the prime
+⟦206⟧ = the second-tier Xfinity Series
+⟦207⟧ = the series
+⟦208⟧ = the Singapore Exchange
+⟦209⟧ = the state average
+⟦210⟧ = the surrounding area
+⟦211⟧ = the term
+⟦212⟧ = the top-level Sprint Cup Series
+⟦213⟧ = the trial
+⟦214⟧ = the TSX Composite Index
+⟦215⟧ = the villainous claim jumper
+⟦216⟧ = The Willows Shopping Center
+⟦217⟧ = the younger people
+⟦218⟧ = their Busch Beer brand
+⟦219⟧ = their career
+⟦220⟧ = their own home
+⟦221⟧ = thirds
+⟦222⟧ = thirty stations
+⟦223⟧ = those finance companies
+⟦224⟧ = tier
+⟦225⟧ = Time Warner
+⟦226⟧ = title
+⟦227⟧ = Tom Tyler
+⟦228⟧ = transit
+⟦229⟧ = trial
+⟦230⟧ = turn
+⟦231⟧ = two BART stations
+⟦232⟧ = two stations
+⟦233⟧ = UFC Gym
+⟦234⟧ = ULTA Beauty
+⟦235⟧ = wealthy landowners
+⟦236⟧ = white collar
+⟦237⟧ = William L. Thorne
+⟦238⟧ = workers
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Buschwhacker] ⟦45⟧⟨1⟩⟦45⟧⟨2⟩⟦21⟧⟨3⟩⟦176⟧⟨4⟩⟦131⟧⟨5⟩⟦79⟧⟨6⟩⟦154⟧⟨7⟩⟦154⟧⟨8⟩⟦212⟧⟨9⟩⟦118⟧⟨10⟩⟦18⟧⟨11⟩⟦37⟧⟨12⟩⟦206⟧⟨13⟩⟦224⟧⟨14⟩
+[Buschwhacker] ⟦203⟧⟨15⟩⟦61⟧⟨16⟩⟦211⟧⟨17⟩⟦176⟧⟨18⟩⟦44⟧⟨19⟩⟦30⟧⟨20⟩⟦226⟧⟨21⟩⟦169⟧⟨22⟩⟦207⟧⟨23⟩⟦163⟧⟨24⟩⟦218⟧⟨25⟩⟦42⟧⟨26⟩
+[Buschwhacker] ⟦16⟧⟨27⟩⟦176⟧⟨28⟩⟦58⟧⟨29⟩⟦111⟧⟨30⟩⟦133⟧⟨31⟩⟦169⟧⟨32⟩⟦207⟧⟨33⟩⟦163⟧⟨34⟩
+[Buschwhacker] ⟨35⟩⟦211⟧⟨36⟩⟦176⟧⟨37⟩⟦165⟧⟨38⟩⟦153⟧⟨39⟩⟦153⟧⟨40⟩⟦72⟧⟨41⟩⟦169⟧⟨42⟩⟦207⟧⟨43⟩⟦163⟧⟨44⟩⟦65⟧⟨45⟩⟦42⟧⟨46⟩
+[Clancy of the Mounted] ⟦60⟧⟨47⟩⟦60⟧⟨48⟩⟦200⟧⟨49⟩⟦26⟧⟨50⟩⟦129⟧⟨51⟩⟦162⟧⟨52⟩⟦204⟧⟨53⟩⟦145⟧⟨54⟩⟦159⟧⟨55⟩⟦152⟧⟨56⟩
+[Clancy of the Mounted] ⟦227⟧⟨57⟩⟦164⟧⟨58⟩⟦60⟧⟨59⟩⟦237⟧⟨60⟩⟦215⟧⟨61⟩⟦57⟧⟨62⟩⟦111⟧⟨63⟩⟦39⟧⟨64⟩
+[The Willows Shopping Center] ⟦216⟧⟨65⟩⟦193⟧⟨66⟩⟦32⟧⟨67⟩⟦192⟧⟨68⟩⟦68⟧⟨69⟩⟦46⟧⟨70⟩
+[The Willows Shopping Center] ⟦185⟧⟨71⟩⟦53⟧⟨72⟩⟦20⟧⟨73⟩⟦120⟧⟨74⟩⟦132⟧⟨75⟩⟦157⟧⟨76⟩⟦139⟧⟨77⟩⟦234⟧⟨78⟩⟦70⟧⟨79⟩⟦155⟧⟨80⟩⟦233⟧⟨81⟩⟦58⟧⟨82⟩⟦38⟧⟨83⟩⟦201⟧⟨84⟩⟦124⟧⟨85⟩⟦94⟧⟨86⟩⟦94⟧⟨87⟩
+[The Willows Shopping Center] ⟨88⟩⟦11⟧⟨89⟩⟦31⟧⟨90⟩⟦189⟧⟨91⟩⟦73⟧⟨92⟩⟦63⟧⟨93⟩⟦236⟧⟨94⟩⟦62⟧⟨95⟩⟦141⟧⟨96⟩⟦221⟧⟨97⟩⟦220⟧⟨98⟩⟦95⟧⟨99⟩
+[The Willows Shopping Center] ⟦181⟧⟨100⟩⟦101⟧⟨101⟩⟦105⟧⟨102⟩⟦144⟧⟨103⟩⟦209⟧⟨104⟩⟦170⟧⟨105⟩⟦34⟧⟨106⟩
+[The Willows Shopping Center] ⟨107⟩⟦84⟧⟨108⟩⟦144⟧⟨109⟩⟦74⟧⟨110⟩⟦74⟧⟨111⟩⟦178⟧⟨112⟩⟦24⟧⟨113⟩⟦205⟧⟨114⟩⟦148⟧⟨115⟩⟦219⟧⟨116⟩⟦47⟧⟨117⟩
+[The Willows Shopping Center] ⟦185⟧⟨118⟩⟦53⟧⟨119⟩⟦199⟧⟨120⟩⟦135⟧⟨121⟩⟦1⟧⟨122⟩⟦168⟧⟨123⟩⟦103⟧⟨124⟩⟦179⟧⟨125⟩⟦31⟧⟨126⟩⟦161⟧⟨127⟩
+[The Willows Shopping Center] ⟨128⟩⟦22⟧⟨129⟩⟦22⟧⟨130⟩⟦231⟧⟨131⟩⟦173⟧⟨132⟩⟦151⟧⟨133⟩⟦228⟧⟨134⟩⟦137⟧⟨135⟩⟦138⟧⟨136⟩⟦238⟧⟨137⟩⟦210⟧⟨138⟩⟦31⟧⟨139⟩⟦186⟧⟨140⟩⟦56⟧⟨141⟩
+[Bonanza Bunny] ⟦40⟧⟨142⟩⟦6⟧⟨143⟩⟦48⟧⟨144⟩⟦86⟧⟨145⟩⟦57⟧⟨146⟩⟦111⟧⟨147⟩
+[London Life Insurance Company] ⟦198⟧⟨148⟩⟦7⟧⟨149⟩⟦119⟧⟨150⟩⟦106⟧⟨151⟩⟦67⟧⟨152⟩⟦107⟧⟨153⟩⟦167⟧⟨154⟩⟦125⟧⟨155⟩⟦125⟧⟨156⟩⟦29⟧⟨157⟩⟦81⟧⟨158⟩⟦23⟧⟨159⟩⟦23⟧⟨160⟩
+[London Life Insurance Company] ⟦123⟧⟨161⟩⟦17⟧⟨162⟩⟦142⟧⟨163⟩⟦91⟧⟨164⟩⟦174⟧⟨165⟩⟦196⟧⟨166⟩⟦230⟧⟨167⟩⟦230⟧⟨168⟩⟦147⟧⟨169⟩⟦90⟧⟨170⟩⟦2⟧⟨171⟩⟦196⟧⟨172⟩⟦146⟧⟨173⟩⟦4⟧⟨174⟩⟦90⟧⟨175⟩
+[London Life Insurance Company] ⟦90⟧⟨176⟩⟦223⟧⟨177⟩⟦83⟧⟨178⟩⟦66⟧⟨179⟩⟦15⟧⟨180⟩⟦124⟧⟨181⟩⟦214⟧⟨182⟩
+[Landry's, Inc.] ⟦115⟧⟨183⟩⟦28⟧⟨184⟩⟦77⟧⟨185⟩⟦99⟧⟨186⟩⟦80⟧⟨187⟩⟦87⟧⟨188⟩⟦69⟧⟨189⟩
+[Landry's, Inc.] ⟨190⟩⟦102⟧⟨191⟩⟦177⟧⟨192⟩⟦114⟧⟨193⟩⟦104⟧⟨194⟩⟦127⟧⟨195⟩⟦156⟧⟨196⟩⟦100⟧⟨197⟩⟦50⟧⟨198⟩⟦80⟧⟨199⟩⟦76⟧⟨200⟩⟦3⟧⟨201⟩⟦172⟧⟨202⟩⟦191⟧⟨203⟩⟦64⟧⟨204⟩
+[Landry's, Inc.] ⟦187⟧⟨205⟩⟦67⟧⟨206⟩⟦136⟧⟨207⟩⟦122⟧⟨208⟩
+[Baker v. Morton] ⟦35⟧⟨209⟩⟦128⟧⟨210⟩⟦5⟧⟨211⟩⟦194⟧⟨212⟩⟦71⟧⟨213⟩⟦49⟧⟨214⟩⟦140⟧⟨215⟩⟦134⟧⟨216⟩⟦171⟧⟨217⟩⟦171⟧⟨218⟩
+[Baker v. Morton] ⟨219⟩⟦213⟧⟨220⟩⟦229⟧⟨221⟩⟦9⟧⟨222⟩⟦57⟧⟨223⟩⟦111⟧⟨224⟩⟦121⟧⟨225⟩⟦112⟧⟨226⟩⟦36⟧⟨227⟩⟦14⟧⟨228⟩⟦96⟧⟨229⟩⟦179⟧⟨230⟩⟦31⟧⟨231⟩⟦186⟧⟨232⟩⟦56⟧⟨233⟩⟦140⟧⟨234⟩
+[Baker v. Morton] ⟦182⟧⟨235⟩⟦49⟧⟨236⟩⟦97⟧⟨237⟩⟦98⟧⟨238⟩⟦158⟧⟨239⟩⟦195⟧⟨240⟩⟦93⟧⟨241⟩⟦140⟧⟨242⟩⟦235⟧⟨243⟩⟦113⟧⟨244⟩
+[CBS Television Stations] ⟦184⟧⟨245⟩⟦12⟧⟨246⟩⟦78⟧⟨247⟩⟦52⟧⟨248⟩⟦13⟧⟨249⟩⟦92⟧⟨250⟩⟦25⟧⟨251⟩⟦175⟧⟨252⟩⟦173⟧⟨253⟩
+[CBS Television Stations] ⟨254⟩⟦75⟧⟨255⟩⟦52⟧⟨256⟩⟦222⟧⟨257⟩⟦173⟧⟨258⟩⟦197⟧⟨259⟩⟦173⟧⟨260⟩⟦183⟧⟨261⟩⟦190⟧⟨262⟩⟦51⟧⟨263⟩⟦225⟧⟨264⟩⟦85⟧⟨265⟩⟦173⟧⟨266⟩⟦232⟧⟨267⟩⟦173⟧⟨268⟩⟦130⟧⟨269⟩⟦130⟧⟨270⟩
+[Aspial Corporation] ⟦33⟧⟨271⟩⟦19⟧⟨272⟩⟦110⟧⟨273⟩⟦69⟧⟨274⟩⟦8⟧⟨275⟩⟦54⟧⟨276⟩⟦41⟧⟨277⟩⟦41⟧⟨278⟩⟦166⟧⟨279⟩
+[Aspial Corporation] ⟦33⟧⟨280⟩⟦180⟧⟨281⟩⟦116⟧⟨282⟩⟦89⟧⟨283⟩⟦43⟧⟨284⟩
+[Aspial Corporation] ⟦33⟧⟨285⟩⟦10⟧⟨286⟩⟦82⟧⟨287⟩⟦109⟧⟨288⟩⟦166⟧⟨289⟩⟦202⟧⟨290⟩⟦109⟧⟨291⟩⟦208⟧⟨292⟩
+[Aspial Corporation] ⟦188⟧⟨293⟩⟦67⟧⟨294⟩⟦42⟧⟨295⟩⟦108⟧⟨296⟩⟦150⟧⟨297⟩⟦149⟧⟨298⟩⟦117⟧⟨299⟩⟦88⟧⟨300⟩⟦55⟧⟨301⟩⟦217⟧⟨302⟩⟦143⟧⟨303⟩
+[Claim Jumper] ⟦59⟧⟨304⟩⟦160⟧⟨305⟩⟦27⟧⟨306⟩⟦156⟧⟨307⟩⟦54⟧⟨308⟩⟦126⟧⟨309⟩⟦122⟧⟨310⟩
+[Claim Jumper] ⟦187⟧⟨311⟩⟦67⟧⟨312⟩⟦102⟧⟨313⟩⟦177⟧⟨314⟩
+[Claim Jumper] ⟦58⟧⟨315⟩⟦115⟧
+
+[user]
+
+问题：
+What American corporation owns Claim Jumper?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

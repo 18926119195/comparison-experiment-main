@@ -1,0 +1,91 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Ithihasa] ⟦85⟧⟨120⟩⟦18⟧⟦71⟧⟨122⟩⟦52⟧⟨123⟩⟨121⟩⟨124⟩⟦36⟧⟨125⟩⟦44⟧
+[Deepak Dev] ⟦62⟧⟨173⟩⟦61⟧⟨174⟩⟦12⟧⟨175⟩⟦183⟧⟨176⟩⟦33⟧⟨178⟩⟨177⟩⟨179⟩⟦80⟧⟦55⟧⟨180⟩⟨181⟩⟦101⟧⟦50⟧⟨182⟩⟨183⟩⟨184⟩⟨185⟩⟦3⟧⟨186⟩⟦8⟧⟨187⟩⟦9⟧⟨188⟩⟦5⟧⟦78⟧⟨189⟩⟨190⟩⟦1⟧⟨191⟩⟦168⟧⟨192⟩
+[Vijaya Bhaskar] ⟦54⟧
+[Vijaya Bhaskar] ⟦112⟧⟦74⟧⟦74⟧
+[Casanovva] ⟦73⟧
+
+符号表：
+⟦1⟧ = "Bhaskar
+⟦3⟧ = "Chronic Bachelor
+⟦5⟧ = "Grandmaster
+⟦8⟧ = "Udayananu Tharam", "Naran", "Puthiya Mukham
+⟦9⟧ = "Urumi
+⟦12⟧ = (Malayalam
+⟦18⟧ = a 2014 Malayalam fantasy comedy film
+⟦33⟧ = an Indian music composer
+⟦36⟧ = Aneesh Lee Ashok
+⟦44⟧ = Binu S.
+⟦50⟧ = cinema
+⟦52⟧ = comedy
+⟦54⟧ = composer
+⟦55⟧ = compositions
+⟦61⟧ = Deepak Dev
+⟦62⟧ = Deepak Devraj Komath
+⟦71⟧ = fantasy
+⟦73⟧ = film
+⟦74⟧ = films
+⟦78⟧ = Grandmaster
+⟦80⟧ = his compositions
+⟦85⟧ = Ithihasa
+⟦101⟧ = Malayalam cinema
+⟦112⟧ = music
+⟦168⟧ = the Rascal
+⟦183⟧ = ദീപക് ദേവ്
+
+占位符映射：
+⟨120⟩ =  is 
+⟨121⟩ = 
+⟨122⟩ =  
+⟨123⟩ =  
+⟨124⟩ =  written by 
+⟨125⟩ =  and directed by 
+⟨173⟩ = , better known as 
+⟨174⟩ =  
+⟨175⟩ = : 
+⟨176⟩ =  ), is 
+⟨177⟩ = 
+⟨178⟩ =  
+⟨179⟩ = , best known for 
+⟨180⟩ = 
+⟨181⟩ =  in 
+⟨182⟩ = 
+⟨183⟩ = , with 
+⟨184⟩ = 
+⟨185⟩ =  such as 
+⟨186⟩ = ", 
+⟨187⟩ = ," 
+⟨188⟩ = ", 
+⟨189⟩ = 
+⟨190⟩ = " and 
+⟨191⟩ =  
+⟨192⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Ithihasa and the Indian music composer of  "Chronic Bachelor", "Udayananu Tharam", "Naran", "Puthiya Mukham," "Urumi", "Grandmaster" and "Bhaskar the Rascal" are known in what type of films/cinema?

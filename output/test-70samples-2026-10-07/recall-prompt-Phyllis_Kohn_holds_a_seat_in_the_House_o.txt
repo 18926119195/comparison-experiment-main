@@ -1,0 +1,341 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = 100 seats
+⟦2⟧ = 100 single-member districts
+⟦3⟧ = 134 members
+⟦4⟧ = 49 districts
+⟦5⟧ = 588 votes
+⟦6⟧ = 85%-15%
+⟦7⟧ = 98 Representatives
+⟦8⟧ = a Blue Dog Democrat
+⟦9⟧ = a civic leader
+⟦10⟧ = a former Republican member
+⟦11⟧ = a graduate
+⟦12⟧ = a Japanese politician
+⟦13⟧ = a large-scale upturn
+⟦14⟧ = a Master
+⟦15⟧ = a member
+⟦16⟧ = a Minnesota politician
+⟦17⟧ = A native
+⟦18⟧ = a population
+⟦19⟧ = a process
+⟦20⟧ = a Republican member
+⟦21⟧ = a seat
+⟦22⟧ = a special election
+⟦23⟧ = a stronghold
+⟦24⟧ = a two-year term
+⟦25⟧ = adviser
+⟦26⟧ = affairs
+⟦27⟧ = Akaka's U.S. Senate seat
+⟦28⟧ = All members
+⟦29⟧ = an administrative adviser
+⟦30⟧ = an American Democratic politician
+⟦31⟧ = an American politician
+⟦32⟧ = an era
+⟦33⟧ = another term
+⟦34⟧ = appointment
+⟦35⟧ = area
+⟦36⟧ = attendance
+⟦37⟧ = bar
+⟦38⟧ = Barbara Boyd
+⟦39⟧ = Barbara Sykes
+⟦40⟧ = benefits
+⟦41⟧ = borough
+⟦42⟧ = both a JD
+⟦43⟧ = Boyd
+⟦44⟧ = cabinet
+⟦45⟧ = campaign
+⟦46⟧ = Case
+⟦47⟧ = city
+⟦48⟧ = civil service exam
+⟦49⟧ = Cleveland Heights
+⟦50⟧ = communications
+⟦51⟧ = Coslett
+⟦52⟧ = council
+⟦53⟧ = criticism
+⟦54⟧ = Dana John Windhorst
+⟦55⟧ = daughter
+⟦56⟧ = department
+⟦57⟧ = Des Moines
+⟦58⟧ = DFL
+⟦59⟧ = Dietterick
+⟦60⟧ = district
+⟦61⟧ = District 60B
+⟦62⟧ = districts
+⟦63⟧ = drug
+⟦64⟧ = Each district
+⟦65⟧ = Edward Espenett "Ed" Case
+⟦66⟧ = election
+⟦67⟧ = Emilia Sykes
+⟦68⟧ = era
+⟦69⟧ = exam
+⟦70⟧ = family
+⟦71⟧ = father
+⟦72⟧ = Finance
+⟦73⟧ = Floor sessions
+⟦74⟧ = Florida
+⟦75⟧ = former member
+⟦76⟧ = former state Representatives Vernon Sykes
+⟦77⟧ = Franklin Coslett
+⟦78⟧ = Governor
+⟦79⟧ = graduate
+⟦80⟧ = graduation
+⟦81⟧ = half
+⟦82⟧ = Harrisburg
+⟦83⟧ = Hawaii
+⟦84⟧ = Hawaii's 2nd congressional district
+⟦85⟧ = Heineman
+⟦86⟧ = Hennepin County
+⟦87⟧ = her appointment
+⟦88⟧ = her attendance
+⟦89⟧ = her father
+⟦90⟧ = her mother
+⟦91⟧ = Hideo Hiraoka
+⟦92⟧ = Hiraoka
+⟦93⟧ = Hiraoka Hideo
+⟦94⟧ = his campaign
+⟦95⟧ = his fifth term
+⟦96⟧ = his graduation
+⟦97⟧ = his hometown
+⟦98⟧ = his seat
+⟦99⟧ = His tenure
+⟦100⟧ = his time
+⟦101⟧ = hometown
+⟦102⟧ = house
+⟦103⟧ = internal affairs
+⟦104⟧ = its representative
+⟦105⟧ = Iwakuni
+⟦106⟧ = Janine Boyd
+⟦107⟧ = January
+⟦108⟧ = Japan
+⟦109⟧ = JD
+⟦110⟧ = Justice
+⟦111⟧ = Kent State University
+⟦112⟧ = Kingston
+⟦113⟧ = leader
+⟦114⟧ = legislature
+⟦115⟧ = limits
+⟦116⟧ = longtime Democratic representative Phyllis Mundy
+⟦117⟧ = majority
+⟦118⟧ = majority leader
+⟦119⟧ = member
+⟦120⟧ = members
+⟦121⟧ = minister
+⟦122⟧ = ministry
+⟦123⟧ = Minneapolis
+⟦124⟧ = Minnesota
+⟦125⟧ = Mitchell
+⟦126⟧ = mother
+⟦127⟧ = Mundy's 2014 retirement
+⟦128⟧ = municipality
+⟦129⟧ = national legislature
+⟦130⟧ = native
+⟦131⟧ = newly appointed prime minister Yoshihiko Noda
+⟦132⟧ = No
+⟦133⟧ = nomination
+⟦134⟧ = October
+⟦135⟧ = office
+⟦136⟧ = Olympia
+⟦137⟧ = one point
+⟦138⟧ = one Senator
+⟦139⟧ = over thirty years
+⟦140⟧ = Patsy Mink
+⟦141⟧ = Pennsylvania
+⟦142⟧ = Phyllis Evans
+⟦143⟧ = Phyllis Lorberblatt Kahn
+⟦144⟧ = Phyllis M. Heineman
+⟦145⟧ = pneumonia
+⟦146⟧ = point
+⟦147⟧ = politician
+⟦148⟧ = population
+⟦149⟧ = portions
+⟦150⟧ = prescription
+⟦151⟧ = prescription drug benefits
+⟦152⟧ = primary
+⟦153⟧ = process
+⟦154⟧ = prominence
+⟦155⟧ = proportional representation
+⟦156⟧ = Public Health
+⟦157⟧ = representation
+⟦158⟧ = representative
+⟦159⟧ = Representatives
+⟦160⟧ = Republican Aaron Kaufer
+⟦161⟧ = Republican Charles Hopson
+⟦162⟧ = Republican Cynthia Blake
+⟦163⟧ = Republican Scott Dietterick
+⟦164⟧ = resignation
+⟦165⟧ = retirement
+⟦166⟧ = Saint Paul
+⟦167⟧ = scale
+⟦168⟧ = seat
+⟦169⟧ = seats
+⟦170⟧ = secretary
+⟦171⟧ = Senator Daniel Akaka
+⟦172⟧ = seniors
+⟦173⟧ = September
+⟦174⟧ = service
+⟦175⟧ = sessions
+⟦176⟧ = South Dakota
+⟦177⟧ = South Dakota Bill Janklow
+⟦178⟧ = state
+⟦179⟧ = state secretary
+⟦180⟧ = stronghold
+⟦181⟧ = Summit County Councilman Frank Communale
+⟦182⟧ = superb constituent service
+⟦183⟧ = Sykes
+⟦184⟧ = tax
+⟦185⟧ = tenure
+⟦186⟧ = term
+⟦187⟧ = term limits
+⟦188⟧ = the 120th district
+⟦189⟧ = the 120th legislative district
+⟦190⟧ = the 2010 United States Census
+⟦191⟧ = the 34th district
+⟦192⟧ = the 50 Senate districts
+⟦193⟧ = the 9th district
+⟦194⟧ = the bar exam
+⟦195⟧ = the cabinet
+⟦196⟧ = the city
+⟦197⟧ = the daughter
+⟦198⟧ = the Democratic nomination
+⟦199⟧ = the Democratic Party
+⟦200⟧ = the Democratic primary
+⟦201⟧ = the Diet
+⟦202⟧ = the district
+⟦203⟧ = the first time
+⟦204⟧ = the general election
+⟦205⟧ = the Hawaii State Legislature
+⟦206⟧ = The House
+⟦207⟧ = the Iowa General Assembly
+⟦208⟧ = The Iowa House
+⟦209⟧ = the Iowa Senate
+⟦210⟧ = the Iowa State Capitol
+⟦211⟧ = the Kingston borough council
+⟦212⟧ = the largest municipality
+⟦213⟧ = the Legislative Building
+⟦214⟧ = the legislature
+⟦215⟧ = the Liberal Democratic Party
+⟦216⟧ = the lower house
+⟦217⟧ = the Ministry
+⟦218⟧ = the Minnesota Democratic–Farmer–Labor Party
+⟦219⟧ = The Minnesota House
+⟦220⟧ = the Minnesota Senate
+⟦221⟧ = the National Tax Agency's corporate tax department
+⟦222⟧ = the north wing
+⟦223⟧ = the Ohio House
+⟦224⟧ = the Pennsylvania House
+⟦225⟧ = the President
+⟦226⟧ = the primary election 53%–46%
+⟦227⟧ = the Representative
+⟦228⟧ = the resignation
+⟦229⟧ = the rival Liberal Democratic Party
+⟦230⟧ = the same seat
+⟦231⟧ = the seat
+⟦232⟧ = The seat Coslett
+⟦233⟧ = the South Dakota Legislature
+⟦234⟧ = the South Dakota Senate
+⟦235⟧ = the state
+⟦236⟧ = the State Capitol
+⟦237⟧ = the State House
+⟦238⟧ = the State Representative
+⟦239⟧ = the Summit County fiscal office
+⟦240⟧ = the Sykes family
+⟦241⟧ = the Twin Cities metropolitan area
+⟦242⟧ = the U.S. state
+⟦243⟧ = the United States House
+⟦244⟧ = the University
+⟦245⟧ = The upper house
+⟦246⟧ = the US state
+⟦247⟧ = the vacancy
+⟦248⟧ = The Washington House
+⟦249⟧ = the Washington State Legislature
+⟦250⟧ = the Washington State Senate
+⟦251⟧ = the Yamaguchi No. 2 seat
+⟦252⟧ = time
+⟦253⟧ = Tokyo
+⟦254⟧ = two members
+⟦255⟧ = upturn
+⟦256⟧ = vacancy
+⟦257⟧ = Vernon Sykes
+⟦258⟧ = votes
+⟦259⟧ = Washington
+⟦260⟧ = wing
+⟦261⟧ = Yamaguchi
+⟦262⟧ = Yamaguchi Prefecture's No. 2 district
+⟦263⟧ = year
+⟦264⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Janine Boyd] ⟦106⟧⟨1⟩⟦227⟧⟨2⟩⟦193⟧⟨3⟩⟦60⟧⟨4⟩⟦223⟧⟨5⟩⟦159⟧⟨6⟩
+[Janine Boyd] ⟨7⟩⟦197⟧⟨8⟩⟦55⟧⟨9⟩⟦38⟧⟨10⟩⟦230⟧⟨11⟩⟦168⟧⟨12⟩
+[Janine Boyd] ⟦43⟧⟨13⟩⟦52⟧⟨14⟩⟦52⟧⟨15⟩⟦49⟧⟨16⟩⟦53⟧⟨17⟩⟦53⟧⟨18⟩⟦88⟧⟨19⟩⟦36⟧⟨20⟩
+[Janine Boyd] ⟨21⟩⟦142⟧⟨22⟩
+[Janine Boyd] ⟨23⟩⟦90⟧⟨24⟩⟦126⟧⟨25⟩⟦38⟧⟨26⟩⟦223⟧⟨27⟩⟦159⟧⟨28⟩
+[Janine Boyd] ⟨29⟩⟦161⟧⟨30⟩⟦204⟧⟨31⟩⟦66⟧⟨32⟩⟦6⟧⟨33⟩
+[Phyllis Heineman] ⟦144⟧⟨34⟩⟦125⟧⟨35⟩⟦176⟧⟨36⟩⟦31⟧⟨37⟩⟦147⟧⟨38⟩⟦20⟧⟨39⟩⟦119⟧⟨40⟩⟦234⟧⟨41⟩⟦60⟧⟨42⟩⟦107⟧⟨43⟩
+[Phyllis Heineman] ⟦85⟧⟨44⟩⟦233⟧⟨45⟩⟦87⟧⟨46⟩⟦34⟧⟨47⟩⟦78⟧⟨48⟩⟦177⟧⟨49⟩⟦247⟧⟨50⟩⟦256⟧⟨51⟩⟦228⟧⟨52⟩⟦164⟧⟨53⟩⟦54⟧⟨54⟩⟦107⟧⟨55⟩⟦159⟧⟨56⟩⟦168⟧⟨57⟩
+[Iowa House of Representatives] ⟦208⟧⟨58⟩⟦159⟧⟨59⟩⟦216⟧⟨60⟩⟦102⟧⟨61⟩⟦207⟧⟨62⟩
+[Iowa House of Representatives] ⟦245⟧⟨63⟩⟦102⟧⟨64⟩⟦209⟧⟨65⟩
+[Iowa House of Representatives] ⟨66⟩⟦1⟧⟨67⟩⟦169⟧⟨68⟩⟦208⟧⟨69⟩⟦159⟧⟨70⟩⟦2⟧⟨71⟩⟦119⟧⟨72⟩⟦62⟧⟨73⟩⟦235⟧⟨74⟩⟦178⟧⟨75⟩⟦192⟧⟨76⟩⟦62⟧⟨77⟩⟦81⟧⟨78⟩⟦81⟧⟨79⟩
+[Iowa House of Representatives] ⟦64⟧⟨80⟩⟦60⟧⟨81⟩⟦18⟧⟨82⟩⟦148⟧⟨83⟩⟦190⟧⟨84⟩
+[Iowa House of Representatives] ⟦206⟧⟨85⟩⟦159⟧⟨86⟩⟦210⟧⟨87⟩⟦57⟧⟨88⟩
+[Ed Case] ⟦65⟧⟨89⟩⟦46⟧⟨90⟩⟦30⟧⟨91⟩⟦147⟧⟨92⟩⟦83⟧⟨93⟩⟦243⟧⟨94⟩⟦159⟧⟨95⟩
+[Ed Case] ⟦46⟧⟨96⟩⟦8⟧⟨97⟩⟦154⟧⟨98⟩⟦154⟧⟨99⟩⟦83⟧⟨100⟩⟦117⟧⟨101⟩⟦118⟧⟨102⟩⟦113⟧⟨103⟩⟦205⟧⟨104⟩⟦94⟧⟨105⟩⟦45⟧⟨106⟩⟦78⟧⟨107⟩⟦83⟧⟨108⟩
+[Ed Case] ⟨109⟩⟦206⟧⟨110⟩⟦159⟧⟨111⟩⟦22⟧⟨112⟩⟦66⟧⟨113⟩⟦231⟧⟨114⟩⟦168⟧⟨115⟩⟦140⟧⟨116⟩⟦145⟧⟨117⟩⟦145⟧⟨118⟩⟦46⟧⟨119⟩⟦46⟧⟨120⟩⟦84⟧⟨121⟩⟦60⟧⟨122⟩⟦33⟧⟨123⟩⟦186⟧⟨124⟩⟦206⟧⟨125⟩⟦159⟧⟨126⟩⟦171⟧⟨127⟩⟦200⟧⟨128⟩⟦152⟧⟨129⟩⟦27⟧⟨130⟩⟦168⟧⟨131⟩
+[Ed Case] ⟦46⟧⟨132⟩⟦226⟧⟨133⟩⟦66⟧⟨134⟩
+[Emilia Sykes] ⟦67⟧⟨135⟩⟦227⟧⟨136⟩⟦191⟧⟨137⟩⟦60⟧⟨138⟩⟦223⟧⟨139⟩⟦159⟧⟨140⟩
+[Emilia Sykes] ⟦183⟧⟨141⟩⟦197⟧⟨142⟩⟦55⟧⟨143⟩⟦76⟧⟨144⟩⟦178⟧⟨145⟩⟦39⟧⟨146⟩⟦230⟧⟨147⟩⟦168⟧⟨148⟩⟦231⟧⟨149⟩⟦168⟧⟨150⟩⟦15⟧⟨151⟩⟦119⟧⟨152⟩⟦240⟧⟨153⟩⟦70⟧⟨154⟩⟦139⟧⟨155⟩⟦264⟧⟨156⟩
+[Emilia Sykes] ⟦183⟧⟨157⟩⟦11⟧⟨158⟩⟦79⟧⟨159⟩⟦111⟧⟨160⟩⟦42⟧⟨161⟩⟦109⟧⟨162⟩⟦14⟧⟨163⟩⟦156⟧⟨164⟩⟦244⟧⟨165⟩⟦74⟧⟨166⟩
+[Emilia Sykes] ⟨167⟩⟦29⟧⟨168⟩⟦25⟧⟨169⟩⟦239⟧⟨170⟩⟦135⟧⟨171⟩
+[Emilia Sykes] ⟨172⟩⟦183⟧⟨173⟩⟦223⟧⟨174⟩⟦159⟧⟨175⟩⟦89⟧⟨176⟩⟦71⟧⟨177⟩⟦257⟧⟨178⟩⟦186⟧⟨179⟩
+[Emilia Sykes] ⟨180⟩⟦181⟧⟨181⟩⟦198⟧⟨182⟩⟦133⟧⟨183⟩
+[Emilia Sykes] ⟦183⟧⟨184⟩⟦162⟧⟨185⟩⟦231⟧⟨186⟩⟦168⟧⟨187⟩
+[Washington House of Representatives] ⟦248⟧⟨188⟩⟦159⟧⟨189⟩⟦216⟧⟨190⟩⟦102⟧⟨191⟩⟦249⟧⟨192⟩⟦250⟧⟨193⟩⟦214⟧⟨194⟩⟦114⟧⟨195⟩⟦246⟧⟨196⟩⟦178⟧⟨197⟩⟦259⟧⟨198⟩
+[Washington House of Representatives] ⟨199⟩⟦7⟧⟨200⟩⟦4⟧⟨201⟩⟦62⟧⟨202⟩⟦138⟧⟨203⟩⟦254⟧⟨204⟩⟦120⟧⟨205⟩⟦206⟧⟨206⟩
+[Washington House of Representatives] ⟦28⟧⟨207⟩⟦120⟧⟨208⟩⟦206⟧⟨209⟩⟦24⟧⟨210⟩⟦263⟧⟨211⟩⟦186⟧⟨212⟩⟦186⟧⟨213⟩⟦187⟧⟨214⟩⟦115⟧⟨215⟩
+[Washington House of Representatives] ⟦206⟧⟨216⟩⟦213⟧⟨217⟩⟦136⟧⟨218⟩
+[Franklin Coslett] ⟦77⟧⟨219⟩⟦134⟧⟨220⟩⟦107⟧⟨221⟩⟦10⟧⟨222⟩⟦119⟧⟨223⟩⟦224⟧⟨224⟩⟦159⟧⟨225⟩⟦238⟧⟨226⟩⟦189⟧⟨227⟩⟦60⟧⟨228⟩⟦141⟧⟨229⟩
+[Franklin Coslett] ⟨230⟩⟦99⟧⟨231⟩⟦185⟧⟨232⟩⟦82⟧⟨233⟩⟦32⟧⟨234⟩⟦68⟧⟨235⟩⟦182⟧⟨236⟩⟦174⟧⟨237⟩⟦172⟧⟨238⟩⟦172⟧⟨239⟩⟦150⟧⟨240⟩⟦151⟧⟨241⟩⟦63⟧⟨242⟩⟦40⟧⟨243⟩
+[Franklin Coslett] ⟨244⟩⟦100⟧⟨245⟩⟦252⟧⟨246⟩⟦237⟧⟨247⟩⟦51⟧⟨248⟩⟦9⟧⟨249⟩⟦113⟧⟨250⟩⟦97⟧⟨251⟩⟦101⟧⟨252⟩⟦112⟧⟨253⟩⟦141⟧⟨254⟩⟦212⟧⟨255⟩⟦128⟧⟨256⟩⟦231⟧⟨257⟩⟦168⟧⟨258⟩⟦188⟧⟨259⟩⟦60⟧⟨260⟩
+[Franklin Coslett] ⟨261⟩⟦137⟧⟨262⟩⟦146⟧⟨263⟩⟦225⟧⟨264⟩⟦211⟧⟨265⟩⟦41⟧⟨266⟩⟦52⟧⟨267⟩
+[Franklin Coslett] ⟨268⟩⟦224⟧⟨269⟩⟦51⟧⟨270⟩⟦163⟧⟨271⟩
+[Franklin Coslett] ⟦232⟧⟨272⟩⟦168⟧⟨273⟩⟦59⟧⟨274⟩⟦160⟧⟨275⟩⟦116⟧⟨276⟩⟦158⟧⟨277⟩⟦127⟧⟨278⟩⟦165⟧⟨279⟩
+[Minnesota House of Representatives] ⟦219⟧⟨280⟩⟦159⟧⟨281⟩⟦216⟧⟨282⟩⟦102⟧⟨283⟩⟦214⟧⟨284⟩⟦242⟧⟨285⟩⟦178⟧⟨286⟩⟦124⟧⟨287⟩
+[Minnesota House of Representatives] ⟨288⟩⟦3⟧⟨289⟩⟦120⟧⟨290⟩⟦220⟧⟨291⟩
+[Minnesota House of Representatives] ⟦73⟧⟨292⟩⟦175⟧⟨293⟩⟦222⟧⟨294⟩⟦260⟧⟨295⟩⟦236⟧⟨296⟩⟦166⟧⟨297⟩
+[Phyllis Kahn] ⟦143⟧⟨298⟩⟦16⟧⟨299⟩⟦147⟧⟨300⟩⟦75⟧⟨301⟩⟦119⟧⟨302⟩⟦219⟧⟨303⟩⟦159⟧⟨304⟩
+[Phyllis Kahn] ⟨305⟩⟦119⟧⟨306⟩⟦218⟧⟨307⟩⟦58⟧⟨308⟩⟦61⟧⟨309⟩⟦149⟧⟨310⟩⟦149⟧⟨311⟩⟦196⟧⟨312⟩⟦47⟧⟨313⟩⟦123⟧⟨314⟩⟦86⟧⟨315⟩⟦241⟧⟨316⟩⟦35⟧⟨317⟩
+[Hideo Hiraoka] ⟦91⟧⟨318⟩⟦93⟧⟨319⟩⟦12⟧⟨320⟩⟦147⟧⟨321⟩⟦199⟧⟨322⟩⟦108⟧⟨323⟩⟦15⟧⟨324⟩⟦119⟧⟨325⟩⟦206⟧⟨326⟩⟦159⟧⟨327⟩⟦201⟧⟨328⟩⟦129⟧⟨329⟩⟦114⟧⟨330⟩
+[Hideo Hiraoka] ⟦17⟧⟨331⟩⟦130⟧⟨332⟩⟦105⟧⟨333⟩⟦261⟧⟨334⟩⟦92⟧⟨335⟩⟦194⟧⟨336⟩⟦37⟧⟨337⟩⟦69⟧⟨338⟩⟦48⟧⟨339⟩⟦174⟧⟨340⟩⟦69⟧⟨341⟩⟦96⟧⟨342⟩⟦80⟧⟨343⟩⟦244⟧⟨344⟩⟦253⟧⟨345⟩
+[Hideo Hiraoka] ⟨346⟩⟦217⟧⟨347⟩⟦72⟧⟨348⟩⟦221⟧⟨349⟩⟦184⟧⟨350⟩⟦56⟧⟨351⟩
+[Hideo Hiraoka] ⟨352⟩⟦217⟧⟨353⟩⟦122⟧⟨354⟩⟦21⟧⟨355⟩⟦168⟧⟨356⟩⟦206⟧⟨357⟩⟦159⟧⟨358⟩⟦203⟧⟨359⟩⟦252⟧⟨360⟩⟦202⟧⟨361⟩⟦60⟧⟨362⟩⟦262⟧⟨363⟩⟦132⟧⟨364⟩⟦60⟧⟨365⟩⟦23⟧⟨366⟩⟦180⟧⟨367⟩⟦229⟧⟨368⟩
+[Hideo Hiraoka] ⟨369⟩⟦13⟧⟨370⟩⟦167⟧⟨371⟩⟦255⟧⟨372⟩⟦215⟧⟨373⟩⟦92⟧⟨374⟩⟦98⟧⟨375⟩⟦168⟧⟨376⟩⟦5⟧⟨377⟩⟦258⟧⟨378⟩⟦216⟧⟨379⟩⟦19⟧⟨380⟩⟦153⟧⟨381⟩⟦155⟧⟨382⟩⟦157⟧⟨383⟩
+[Hideo Hiraoka] ⟨384⟩⟦251⟧⟨385⟩⟦132⟧⟨386⟩⟦168⟧⟨387⟩⟦95⟧⟨388⟩⟦186⟧⟨389⟩⟦104⟧⟨390⟩⟦158⟧⟨391⟩⟦216⟧⟨392⟩
+[Hideo Hiraoka] ⟦92⟧⟨393⟩⟦178⟧⟨394⟩⟦179⟧⟨395⟩⟦170⟧⟨396⟩⟦103⟧⟨397⟩⟦26⟧⟨398⟩⟦50⟧⟨399⟩⟦50⟧⟨400⟩
+[Hideo Hiraoka] ⟨401⟩⟦173⟧⟨402⟩⟦121⟧⟨403⟩⟦110⟧⟨404⟩⟦195⟧⟨405⟩⟦44⟧⟨406⟩⟦131⟧⟨407⟩⟦121⟧⟨408⟩
+
+[user]
+
+问题：
+Phyllis Kohn holds a seat in the House of Representatives which meets where?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

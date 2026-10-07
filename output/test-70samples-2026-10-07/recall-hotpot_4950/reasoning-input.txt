@@ -1,0 +1,131 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[St. Helena white seabream] ⟦141⟧⟨58⟩⟨59⟩⟦60⟧⟨60⟩⟨61⟩⟦59⟧⟦76⟧⟦76⟧⟨62⟩⟨63⟩⟦24⟧⟦144⟧⟨64⟩⟨65⟩⟦20⟧⟦129⟧⟨66⟩⟨67⟩⟦22⟧⟦133⟧⟦133⟧⟨68⟩⟨69⟩⟦15⟧⟨70⟩⟨71⟩⟦199⟧⟦138⟧⟨73⟩⟦64⟧⟨72⟩⟨74⟩
+[St. Helena white seabream] ⟦67⟧
+[Gold Coast, Queensland] ⟨121⟩⟦10⟧⟨122⟩⟨123⟩⟦157⟧⟨124⟩⟨125⟩⟨126⟩⟦32⟧⟦89⟧⟨128⟩⟦137⟧⟨127⟩⟨129⟩⟦202⟧⟨131⟩⟨130⟩⟨132⟩⟦40⟧⟨133⟩⟦159⟧⟦37⟧⟨134⟩⟨135⟩⟨136⟩
+[Guarulhos] ⟦45⟧
+[Guarulhos] ⟦142⟧⟦142⟧
+[Transport on the Gold Coast, Queensland] ⟨197⟩⟨198⟩⟨199⟩⟦65⟧⟨200⟩⟨201⟩⟨202⟩
+[Helensvale, Queensland] ⟦170⟧ | ⟦170⟧ | ⟨249⟩⟦25⟧⟨250⟩⟨251⟩⟦170⟧⟨252⟩⟨253⟩⟨254⟩⟦75⟧⟨255⟩
+[Helensvale, Queensland] ⟦77⟧
+[Highfields, Queensland] ⟦145⟧
+[Highfields, Queensland] ⟦33⟧⟦120⟧ | ⟦120⟧
+[The Newcastle Herald] ⟦178⟧ | ⟦107⟧
+[Launceston, Tasmania] ⟦34⟧ | ⟦34⟧
+[Launceston, Tasmania] ⟦51⟧⟦51⟧
+
+符号表：
+⟦10⟧ = a coastal area
+⟦15⟧ = a marine fish
+⟦20⟧ = a sargo
+⟦22⟧ = a seabream
+⟦24⟧ = a subspecies
+⟦25⟧ = a suburb
+⟦32⟧ = approximately 66 km south-southeast
+⟦33⟧ = area
+⟦34⟧ = Australia
+⟦37⟧ = border
+⟦40⟧ = Brisbane
+⟦45⟧ = capital
+⟦51⟧ = city
+⟦59⟧ = Diplodus helenae
+⟦60⟧ = Diplodus sargus helenae
+⟦64⟧ = family
+⟦65⟧ = fastest growing city
+⟦67⟧ = fish
+⟦75⟧ = Helena White
+⟦76⟧ = helenae
+⟦77⟧ = Helensvale
+⟦89⟧ = km
+⟦107⟧ = New South Wales
+⟦120⟧ = Queensland
+⟦129⟧ = sargo
+⟦133⟧ = seabream
+⟦137⟧ = southeast
+⟦138⟧ = Sparids
+⟦141⟧ = St. Helena white seabream
+⟦142⟧ = state
+⟦144⟧ = subspecies
+⟦145⟧ = suburb
+⟦157⟧ = the Australian state
+⟦159⟧ = the border
+⟦170⟧ = The Gold Coast
+⟦178⟧ = the largest non-capital city
+⟦199⟧ = the Sparidae (Sparids) family
+⟦202⟧ = the state capital
+
+占位符映射：
+⟨58⟩ = 
+⟨59⟩ =  (
+⟨60⟩ = 
+⟨61⟩ =  or 
+⟨62⟩ = 
+⟨63⟩ = ) is 
+⟨64⟩ = 
+⟨65⟩ =  of "Diplodus sargus", 
+⟨66⟩ = 
+⟨67⟩ =  or 
+⟨68⟩ = 
+⟨69⟩ = , 
+⟨70⟩ = 
+⟨71⟩ =  of 
+⟨72⟩ = 
+⟨73⟩ = ) 
+⟨74⟩ = .
+⟨121⟩ =  is 
+⟨122⟩ = 
+⟨123⟩ =  in 
+⟨124⟩ = 
+⟨125⟩ =  of 
+⟨126⟩ = , 
+⟨127⟩ = 
+⟨128⟩ =  south-
+⟨129⟩ =  of 
+⟨130⟩ = 
+⟨131⟩ =  
+⟨132⟩ =  
+⟨133⟩ =  and immediately north of 
+⟨134⟩ = 
+⟨135⟩ =  with 
+⟨136⟩ = .
+⟨197⟩ =  is 
+⟨198⟩ = 
+⟨199⟩ =  and 
+⟨200⟩ = 
+⟨201⟩ =  in 
+⟨202⟩ = .
+⟨249⟩ =  is 
+⟨250⟩ = 
+⟨251⟩ =  on 
+⟨252⟩ =  in 
+⟨253⟩ = , 
+⟨254⟩ =  and was named after 
+⟨255⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the largest non-capital city in Queensland, Australia that includes a suburb named after Helena White? 

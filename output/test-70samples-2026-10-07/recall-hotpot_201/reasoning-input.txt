@@ -1,0 +1,71 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Jack Truelove] ⟦52⟧⟨103⟩⟦16⟧⟨105⟩⟦75⟧⟨104⟩⟨106⟩⟦65⟧⟨108⟩⟨107⟩⟦57⟧⟦57⟧⟨109⟩⟨110⟩⟦72⟧⟨111⟩
+[Jack Truelove] ⟦85⟧ | ⟨112⟩⟦64⟧⟦85⟧⟨114⟩⟨113⟩
+[Chris Williams (English footballer)] ⟦27⟧⟨146⟩⟦17⟧⟦43⟧⟨147⟩⟨148⟩⟦80⟧⟨149⟩⟦7⟧⟦46⟧⟨150⟩⟨151⟩
+[Spennymoor Town F.C.] ⟦42⟧
+
+符号表：
+⟦7⟧ = a forward
+⟦16⟧ = an English football player
+⟦17⟧ = an English semi-professional footballer
+⟦27⟧ = Christopher Jonathan "Chris" Williams
+⟦42⟧ = football
+⟦43⟧ = footballer
+⟦46⟧ = forward
+⟦52⟧ = Jack Christopher Truelove
+⟦57⟧ = loan
+⟦64⟧ = National League North side Curzon Ashton
+⟦65⟧ = National League North side Hednesford Town
+⟦72⟧ = Oldham Athletic
+⟦75⟧ = player
+⟦80⟧ = Salford City
+⟦85⟧ = side
+
+占位符映射：
+⟨103⟩ =  (born 27 December 1995) is 
+⟨104⟩ = 
+⟨105⟩ =  
+⟨106⟩ =  who most recently played for 
+⟨107⟩ = 
+⟨108⟩ =  Hednesford Town on 
+⟨109⟩ = 
+⟨110⟩ =  from 
+⟨111⟩ = .
+⟨112⟩ =  He is currently registered to play for 
+⟨113⟩ = 
+⟨114⟩ =  Curzon Ashton.
+⟨146⟩ =  (born 2 February 1985) is 
+⟨147⟩ = 
+⟨148⟩ =  who last played for 
+⟨149⟩ =  as 
+⟨150⟩ = 
+⟨151⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Chris Williams last played for which football club from the National League North?

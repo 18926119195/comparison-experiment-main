@@ -1,0 +1,35 @@
+# 路径一：从《King Rat》演员表出发的交叉验证
+
+步骤1：使用⟦135⟧⟦303⟧，提取《King Rat》是一部电影，且该电影改编自⟦173⟧（James Clavell's novel），并综合⟦81⟧⟦147⟧⟦174⟧⟦103⟧⟦200⟧，得到该片由Bryan Forbes执导，主演包括George Segal饰演Corporal King、James Fox饰演Marlowe等。
+
+步骤2：使用⟦266⟧，提取“Sir Thomas Daniel Courtenay”这一人名，并综合⟦57⟧⟦1⟧，确认其为一位英国演员，出生于1937年2月25日。
+
+步骤3：综合⟦266⟧⟦31⟧⟦26⟧⟦182⟧⟦34⟧，提取Tom Courtenay于2001年因⟦257⟧（service）而获⟦26⟧（knighthood），且该荣誉发生在2001年。
+
+步骤4：综合⟦135⟧⟦303⟧与⟦266⟧，交叉验证Tom Courtenay是否出现在《King Rat》的演员表中——材料⟦266⟧的拓扑链显示其与⟦135⟧（film）存在关联，且⟦135⟧⟦303⟧明确指向《King Rat》这部电影。
+
+结论：Tom Courtenay是《King Rat》的配角演员，并于2001年2月获封爵士。
+
+# 路径二：从“2001年2月封爵”这一时间线索反向定位
+
+步骤1：使用⟦266⟧⟦31⟧⟦26⟧⟦182⟧，提取Tom Courtenay获得knighthood的信息，并综合⟦34⟧，确认该荣誉发生在2001年。
+
+步骤2：使用⟦133⟧，提取“February”这一时间节点，结合⟦266⟧的出生日期“born 25 February 1937”，判断材料⟦266⟧与2月这一时间存在多重关联。
+
+步骤3：综合⟦135⟧⟦303⟧⟦173⟧，确认《King Rat》电影的存在及其改编来源，再使用⟦266⟧的拓扑链中与⟦135⟧的关联，验证Tom Courtenay参演了该片。
+
+步骤4：综合⟦57⟧⟦95⟧⟦342⟧，提取Tom Courtenay的演艺背景（英国演员、电影与剧院经历），确认其作为配角参演《King Rat》的合理性。
+
+结论：满足“《King Rat》配角演员”且“2001年2月封爵”两个条件的人是Tom Courtenay。
+
+# 路径三：从《King Rat》原著与电影改编关系切入
+
+步骤1：使用⟦4⟧⟦220⟧，提取《King Rat》是一部小说（Miéville novel），并综合⟦173⟧，确认James Clavell's novel是电影改编的来源。
+
+步骤2：使用⟦135⟧⟦303⟧⟦61⟧⟦62⟧，提取电影《King Rat》的改编信息，并综合⟦97⟧⟦129⟧，确认该片部分基于Clavell's experiences（Clavell在⟦88⟧Changi Prison作为⟦29⟧POW的经历）。
+
+步骤3：综合⟦266⟧⟦57⟧⟦1⟧，提取Tom Courtenay的演员身份，并使用⟦266⟧拓扑链中与⟦135⟧的关联，确认其参演了《King Rat》。
+
+步骤4：综合⟦266⟧⟦31⟧⟦26⟧⟦182⟧⟦34⟧，确认Tom Courtenay于2001年获封爵士，与问题中的“knighted in February 2001”吻合。
+
+结论：Tom Courtenay是《King Rat》的配角演员，且于2001年2月获封爵士，是唯一同时满足两个条件的人。

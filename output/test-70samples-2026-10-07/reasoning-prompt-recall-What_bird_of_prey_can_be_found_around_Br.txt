@@ -1,0 +1,74 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Brackendale, British Columbia] ⟦74⟧⟨506⟩⟦35⟧⟦94⟧⟨507⟩⟨508⟩⟦288⟧⟦239⟧⟨509⟩⟨510⟩⟦78⟧⟨511⟩⟦270⟧⟦356⟧⟨513⟩⟦85⟧⟨512⟩⟨514⟩⟦296⟧⟨515⟩⟦269⟧⟨516⟩
+[Brackendale, British Columbia] ⟨529⟩⟦327⟧⟦56⟧⟨530⟩⟨531⟩⟦341⟧⟦153⟧⟨532⟩⟨533⟩⟦353⟧⟦353⟧⟨534⟩⟨535⟩⟦62⟧⟦108⟧⟨536⟩⟨537⟩
+
+符号表：
+⟦35⟧ = a small community
+⟦56⟧ = area
+⟦62⟧ = Bald eagles
+⟦74⟧ = Brackendale
+⟦78⟧ = British Columbia
+⟦85⟧ = centre
+⟦94⟧ = community
+⟦108⟧ = eagles
+⟦153⟧ = home
+⟦239⟧ = province
+⟦269⟧ = Squamish
+⟦270⟧ = Squamish town centre
+⟦288⟧ = the Canadian province
+⟦296⟧ = the District
+⟦327⟧ = the remarkable "'Eagle Run" area
+⟦341⟧ = the wintering home
+⟦353⟧ = thousands
+⟦356⟧ = town
+
+占位符映射：
+⟨506⟩ =  is 
+⟨507⟩ = 
+⟨508⟩ =  in 
+⟨509⟩ = 
+⟨510⟩ =  of 
+⟨511⟩ =  just north of 
+⟨512⟩ = 
+⟨513⟩ =  
+⟨514⟩ = , but still within 
+⟨515⟩ =  of 
+⟨516⟩ = .
+⟨529⟩ =  It includes 
+⟨530⟩ = 
+⟨531⟩ = , 
+⟨532⟩ = 
+⟨533⟩ =  of 
+⟨534⟩ = 
+⟨535⟩ =  of 
+⟨536⟩ = 
+⟨537⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What bird of prey can be found around Brackendale?

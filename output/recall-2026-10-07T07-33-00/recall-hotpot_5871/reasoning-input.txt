@@ -1,0 +1,90 @@
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+⟦188⟧⟨⟩⟨⟩⟨⟩⟦7⟧⟨⟩⟦144⟧⟦144⟧⟨⟩⟨⟩⟦201⟧⟨⟩⟨⟩⟦19⟧⟦125⟧⟨⟩⟦247⟧⟨⟩⟨⟩⟦223⟧⟨⟩⟨⟩
+⟨¾⟩⟦189⟧⟨¿⟩⟨À⟩⟨Á⟩⟦221⟧⟨Â⟩⟦213⟧⟨Ã⟩⟦116⟧⟨Ä⟩⟦149⟧⟨Å⟩⟨Æ⟩⟦141⟧⟦227⟧⟨Ç⟩⟨È⟩⟦197⟧⟨É⟩⟨Ê⟩
+⟦134⟧⟦134⟧
+⟦90⟧
+⟦51⟧
+⟦153⟧ | ⟦248⟧⟦248⟧
+⟦77⟧ | ⟦124⟧
+
+符号表：
+⟦7⟧ = 14 March
+⟦19⟧ = a line-up
+⟦51⟧ = Boomerang
+⟦77⟧ = channel
+⟦90⟧ = day
+⟦116⟧ = Ireland
+⟦124⟧ = launch
+⟦125⟧ = line
+⟦134⟧ = Nick Jr.
+⟦141⟧ = other times
+⟦144⟧ = part
+⟦149⟧ = popular Nick Jr. programming
+⟦153⟧ = programming
+⟦188⟧ = The Australian version
+⟦189⟧ = the British second channel
+⟦197⟧ = the day
+⟦201⟧ = the Foxtel Digital launch
+⟦213⟧ = the Republic
+⟦221⟧ = the United Kingdom
+⟦223⟧ = the US and UK version
+⟦227⟧ = times
+⟦247⟧ = up
+⟦248⟧ = version
+
+占位符映射：
+⟨⟩ = 
+⟨⟩ =  of 
+⟨⟩ =  was launched on 
+⟨⟩ =  2004 as 
+⟨⟩ = 
+⟨⟩ =  of 
+⟨⟩ = 
+⟨⟩ = , with 
+⟨⟩ = 
+⟨⟩ = -
+⟨⟩ =  very similar to that of 
+⟨⟩ = 
+⟨⟩ = .
+⟨¾⟩ =  Too (formerly Nick Jr. 2) is 
+⟨¿⟩ = 
+⟨À⟩ =  of 
+⟨Á⟩ =  available in 
+⟨Â⟩ =  and in 
+⟨Ã⟩ =  of 
+⟨Ä⟩ = , generally presenting 
+⟨Å⟩ = 
+⟨Æ⟩ =  at 
+⟨Ç⟩ = 
+⟨È⟩ =  of 
+⟨É⟩ = 
+⟨Ê⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network?

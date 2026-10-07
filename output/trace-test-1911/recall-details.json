@@ -1,0 +1,36 @@
+[
+  {
+    "qid": "hotpot_1911",
+    "question": "What Mexican actress of film, television, and theatre was a protagonist in La Heredera?",
+    "expectedAnswer": "Silvia Navarro",
+    "predictedAnswer": "# 路径一：作品与别名匹配\n\n步骤1：使用⟦102⟧⟦20⟧，提取“La Heredera”又被解释为“The Heiress”，并且是一部墨西哥电视小说（Mexican telenovela）。\n\n步骤2：使用⟦41⟧⟦103⟧⟦129⟧，提取 Angélica María 与“La Novia de Mexico”“Mexico's Sweetheart”等称号绑定，说明她是材料中明确出现的墨西哥女演员/名人。\n\n步骤3：综合⟦102⟧⟦20⟧与⟦41⟧⟦103⟧⟦129⟧，将问题中的“La Heredera”与“墨西哥女演员”匹配，材料中对应人物为 Angélica María。\n\n结论：这位女演员是 **Angélica María**。\n\n# 路径二：母女关系排除干扰项\n\n步骤1：使用⟦42⟧⟦49⟧，提取 Angélica Vale 的本名是 Angélica María Vale Hartman。\n\n步骤2：使用⟦66⟧⟦60⟧，提取她是喜剧演员 Raúl Vale 的女儿，并结合⟦41⟧⟦103⟧可见 Angélica Vale 与 Angélica María 存在母女关联。\n\n步骤3：综合⟦42⟧⟦49⟧⟦66⟧⟦60⟧，判断 Angélica Vale 是后代人物，而题干所问的、以“La Heredera”为主角的资深墨西哥影/视/剧女演员应指向其母亲 Angélica María。\n\n结论：排除 Angélica Vale，答案为 **Angélica María**。\n\n# 路径三：称号交叉验证\n\n步骤1：使用⟦103⟧⟦129⟧，提取“La Novia de Mexico”和“Mexico's Sweetheart”两个称号。\n\n步骤2：使用⟦41⟧，确认这两个称号归属 Angélica María。\n\n步骤3：使用⟦102⟧⟦20⟧，确认“La Heredera”是墨西哥电视小说；结合题干“protagonist in La Heredera”与称号线索，交叉验证同一人物为 Angélica María。\n\n结论：答案是 **Angélica María**。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩⟨G⟩⟨H⟩⟨I⟩",
+    "nounCount": 318,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 5500,
+      "completion_tokens": 315,
+      "total_tokens": 5815,
+      "prompt_tokens_details": {
+        "cached_tokens": 5248
+      },
+      "prompt_cache_hit_tokens": 5248,
+      "prompt_cache_miss_tokens": 252
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1153,
+      "completion_tokens": 9494,
+      "total_tokens": 10647,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 9016
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 1025
+    }
+  }
+]

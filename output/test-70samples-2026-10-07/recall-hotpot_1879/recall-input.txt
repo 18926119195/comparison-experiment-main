@@ -1,0 +1,403 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , an unsigned reference route
+⟦2⟧ = "The Merritt
+⟦3⟧ = "the Sag
+⟦4⟧ = (NY
+⟦5⟧ = 27 (NY
+⟦6⟧ = 3.0 mi
+⟦7⟧ = 3.62 km
+⟦8⟧ = 31A
+⟦9⟧ = 908G
+⟦10⟧ = a "coordinator
+⟦11⟧ = a "master builder
+⟦12⟧ = a 12.52 mi parkway
+⟦13⟧ = a 25.53 mi limited-access highway
+⟦14⟧ = a 28.88 mi limited-access state parkway
+⟦15⟧ = a 5.14 mi north
+⟦16⟧ = a 6.19 mi long parkway
+⟦17⟧ = a cloverleaf interchange
+⟦18⟧ = a full cloverleaf interchange
+⟦19⟧ = a generation
+⟦20⟧ = a historic limited-access parkway
+⟦21⟧ = a hybrid freeway-standard parkway and grade-level roadway
+⟦22⟧ = a large cloverleaf interchange
+⟦23⟧ = a local street
+⟦24⟧ = a mutual junction
+⟦25⟧ = a National Scenic Byway
+⟦26⟧ = a northern spur
+⟦27⟧ = a portion
+⟦28⟧ = a public official
+⟦29⟧ = a restriction
+⟦30⟧ = a roundabout
+⟦31⟧ = a six-lane parkway
+⟦32⟧ = access
+⟦33⟧ = additional funding
+⟦34⟧ = America's Most Endangered Historic Places
+⟦35⟧ = an 8.24 mi parkway
+⟦36⟧ = an extension
+⟦37⟧ = an interchange
+⟦38⟧ = an unsigned reference route
+⟦39⟧ = architects
+⟦40⟧ = area
+⟦41⟧ = Baron Haussmann
+⟦42⟧ = barrier
+⟦43⟧ = bikeway
+⟦44⟧ = bitter opposition
+⟦45⟧ = borough
+⟦46⟧ = Brentwood
+⟦47⟧ = Bronx Park
+⟦48⟧ = builder
+⟦49⟧ = Carle Place
+⟦50⟧ = Central Islip
+⟦51⟧ = century
+⟦52⟧ = cloverleaf
+⟦53⟧ = commercial traffic
+⟦54⟧ = Commercial vehicles
+⟦55⟧ = communities
+⟦56⟧ = confusion
+⟦57⟧ = Connecticut
+⟦58⟧ = Connecticut's Gold Coast
+⟦59⟧ = continuation
+⟦60⟧ = coordinator
+⟦61⟧ = December
+⟦62⟧ = decisions
+⟦63⟧ = development
+⟦64⟧ = direction
+⟦65⟧ = each direction
+⟦66⟧ = East Fordham Road
+⟦67⟧ = Elmont
+⟦68⟧ = end
+⟦69⟧ = engineers
+⟦70⟧ = exit
+⟦71⟧ = exit 31A
+⟦72⟧ = exit SM5
+⟦73⟧ = extension
+⟦74⟧ = Fairfield County
+⟦75⟧ = figures
+⟦76⟧ = freeway
+⟦77⟧ = funding
+⟦78⟧ = generation
+⟦79⟧ = grade
+⟦80⟧ = Great River
+⟦81⟧ = Greenwich
+⟦82⟧ = half
+⟦83⟧ = hamlet
+⟦84⟧ = Hauppauge
+⟦85⟧ = heads
+⟦86⟧ = Heckscher State Park
+⟦87⟧ = hence the name
+⟦88⟧ = highway
+⟦89⟧ = highways
+⟦90⟧ = His decisions
+⟦91⟧ = his philosophies
+⟦92⟧ = Historic Places
+⟦93⟧ = history
+⟦94⟧ = interchange
+⟦95⟧ = Interstate
+⟦96⟧ = island
+⟦97⟧ = Islip
+⟦98⟧ = Islip Terrace
+⟦99⟧ = its kind
+⟦100⟧ = its name
+⟦101⟧ = its northwest end
+⟦102⟧ = its scenic layout
+⟦103⟧ = its southeast end
+⟦104⟧ = Its southern terminus
+⟦105⟧ = its uniquely styled signage
+⟦106⟧ = its west end
+⟦107⟧ = Jerome Avenue
+⟦108⟧ = Jones Beach State Park
+⟦109⟧ = July
+⟦110⟧ = junction
+⟦111⟧ = kind
+⟦112⟧ = Kings Park
+⟦113⟧ = km
+⟦114⟧ = lane
+⟦115⟧ = layout
+⟦116⟧ = level
+⟦117⟧ = line
+⟦118⟧ = Long Island
+⟦119⟧ = Loop Parkway
+⟦120⟧ = mainland
+⟦121⟧ = maintenance
+⟦122⟧ = Manhattan
+⟦123⟧ = master
+⟦124⟧ = May
+⟦125⟧ = media
+⟦126⟧ = Merrick Road
+⟦127⟧ = mi
+⟦128⟧ = mid-20th century New York City
+⟦129⟧ = mile
+⟦130⟧ = moniker
+⟦131⟧ = Moses
+⟦132⟧ = most parkways
+⟦133⟧ = name
+⟦134⟧ = Nassau County
+⟦135⟧ = nation
+⟦136⟧ = neighborhood
+⟦137⟧ = network
+⟦138⟧ = New York
+⟦139⟧ = New York City
+⟦140⟧ = New York State Route
+⟦141⟧ = New York State Route 908E
+⟦142⟧ = New York State Route 908K
+⟦143⟧ = New York State Route 908K (NY 908K
+⟦144⟧ = non-commercial traffic
+⟦145⟧ = north
+⟦146⟧ = North Merrick
+⟦147⟧ = NY
+⟦148⟧ = NY 908K
+⟦149⟧ = official
+⟦150⟧ = operation
+⟦151⟧ = opposition
+⟦152⟧ = order
+⟦153⟧ = other parkways
+⟦154⟧ = overpasses
+⟦155⟧ = Parks
+⟦156⟧ = parkway
+⟦157⟧ = parkways
+⟦158⟧ = part
+⟦159⟧ = Pelham Bay Park
+⟦160⟧ = Pelham Parkway
+⟦161⟧ = philosophies
+⟦162⟧ = planners
+⟦163⟧ = point
+⟦164⟧ = polarizing
+⟦165⟧ = portion
+⟦166⟧ = professions
+⟦167⟧ = project
+⟦168⟧ = property
+⟦169⟧ = public transit
+⟦170⟧ = Recreation
+⟦171⟧ = reference
+⟦172⟧ = restriction
+⟦173⟧ = rights
+⟦174⟧ = road
+⟦175⟧ = roads
+⟦176⟧ = roadway
+⟦177⟧ = roadways
+⟦178⟧ = Robert Moses
+⟦179⟧ = Rockland County
+⟦180⟧ = roundabout
+⟦181⟧ = route
+⟦182⟧ = Sagtikos Parkway
+⟦183⟧ = Second Empire Paris
+⟦184⟧ = section
+⟦185⟧ = sections
+⟦186⟧ = September
+⟦187⟧ = service
+⟦188⟧ = services
+⟦189⟧ = Shore Road
+⟦190⟧ = signage
+⟦191⟧ = six years
+⟦192⟧ = SM5
+⟦193⟧ = Smithtown
+⟦194⟧ = south limited-access parkway
+⟦195⟧ = South Oyster Bay
+⟦196⟧ = spur
+⟦197⟧ = state
+⟦198⟧ = Stratford
+⟦199⟧ = street
+⟦200⟧ = suburbs
+⟦201⟧ = Suffolk County
+⟦202⟧ = Sunken Meadow State Park
+⟦203⟧ = terminus
+⟦204⟧ = the "master builder
+⟦205⟧ = the architecturally elaborate overpasses
+⟦206⟧ = the area's high property value
+⟦207⟧ = the Bay and Ocean parkways
+⟦208⟧ = the Belt and Cross Island parkways
+⟦209⟧ = the borough
+⟦210⟧ = the Bronx
+⟦211⟧ = the Bronx River Parkway
+⟦212⟧ = the Connecticut Department
+⟦213⟧ = the continuation
+⟦214⟧ = the eastern end
+⟦215⟧ = the eastern portion
+⟦216⟧ = the eastern section
+⟦217⟧ = The eastern terminus
+⟦218⟧ = the Grand Central Parkway
+⟦219⟧ = the hamlet
+⟦220⟧ = the Heckscher Parkway
+⟦221⟧ = the Heckscher Spur
+⟦222⟧ = the Heckscher State Parkway
+⟦223⟧ = the Henry Hudson Parkway
+⟦224⟧ = the highway
+⟦225⟧ = the history
+⟦226⟧ = the Housatonic River
+⟦227⟧ = the Hutchinson River Parkway
+⟦228⟧ = the island
+⟦229⟧ = the Kings Park section
+⟦230⟧ = the Long Island Sound
+⟦231⟧ = the mainland
+⟦232⟧ = the Meadowbrook
+⟦233⟧ = the Meadowbrook Parkway
+⟦234⟧ = The Meadowbrook State Parkway
+⟦235⟧ = the media
+⟦236⟧ = The Merritt Parkway
+⟦237⟧ = the modern suburbs
+⟦238⟧ = The Mosholu Parkway
+⟦239⟧ = the most polarizing figures
+⟦240⟧ = the MSP
+⟦241⟧ = the nation
+⟦242⟧ = the National Register
+⟦243⟧ = the New England Thruway
+⟦244⟧ = the New York Botanical Garden
+⟦245⟧ = the New York City borough
+⟦246⟧ = The New York City Department
+⟦247⟧ = the New York metropolitan area
+⟦248⟧ = the New York State Department
+⟦249⟧ = the New York state line
+⟦250⟧ = The northern end
+⟦251⟧ = the northern half
+⟦252⟧ = the northern portion
+⟦253⟧ = the Northern State or Northern Parkway
+⟦254⟧ = the Northern State Parkway
+⟦255⟧ = the northern terminus
+⟦256⟧ = the NY 27 interchange
+⟦257⟧ = the operation
+⟦258⟧ = the parkway
+⟦259⟧ = The parkway heads
+⟦260⟧ = the parkway moniker
+⟦261⟧ = the portion
+⟦262⟧ = the project
+⟦263⟧ = the Queens–Nassau County line
+⟦264⟧ = The residential neighborhood
+⟦265⟧ = the road
+⟦266⟧ = The roadway
+⟦267⟧ = the roadway network
+⟦268⟧ = the route
+⟦269⟧ = the Sagtikos
+⟦270⟧ = the Sagtikos State Parkway
+⟦271⟧ = the same name
+⟦272⟧ = the service roads
+⟦273⟧ = the south end
+⟦274⟧ = the Southern and Heckscher state parkways
+⟦275⟧ = the southern half
+⟦276⟧ = the southern portion
+⟦277⟧ = the Southern State or Southern Parkway
+⟦278⟧ = the Southern State Parkway
+⟦279⟧ = the Southern State Parkway west
+⟦280⟧ = the state
+⟦281⟧ = the Suffolk County town
+⟦282⟧ = the Sunken Meadow
+⟦283⟧ = The Sunken Meadow State Parkway
+⟦284⟧ = the surrounding rights
+⟦285⟧ = the toll barrier
+⟦286⟧ = the town
+⟦287⟧ = the two parks
+⟦288⟧ = the U.S. state
+⟦289⟧ = the United States
+⟦290⟧ = the village
+⟦291⟧ = the western portion
+⟦292⟧ = the western section
+⟦293⟧ = The western terminus
+⟦294⟧ = the Wilbur Cross Parkway
+⟦295⟧ = this point
+⟦296⟧ = those professions
+⟦297⟧ = three different sections
+⟦298⟧ = toll
+⟦299⟧ = town
+⟦300⟧ = traffic
+⟦301⟧ = transit
+⟦302⟧ = Transportation
+⟦303⟧ = two main roadways
+⟦304⟧ = two service roads
+⟦305⟧ = U.S. Congressman Schuyler Merritt
+⟦306⟧ = U.S. Route
+⟦307⟧ = urban development
+⟦308⟧ = urban planners
+⟦309⟧ = value
+⟦310⟧ = Van Cortlandt Park
+⟦311⟧ = vehicles
+⟦312⟧ = village
+⟦313⟧ = way
+⟦314⟧ = west
+⟦315⟧ = West 207th Street
+⟦316⟧ = West Fordham Road
+⟦317⟧ = West Islip
+⟦318⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Meadowbrook State Parkway] ⟦234⟧⟨1⟩⟦232⟧⟨2⟩⟦233⟧⟨3⟩⟦240⟧⟨4⟩⟦12⟧⟨5⟩⟦156⟧⟨6⟩⟦134⟧⟨7⟩⟦138⟧⟨8⟩⟦289⟧⟨9⟩
+[Meadowbrook State Parkway] ⟨10⟩⟦104⟧⟨11⟩⟦203⟧⟨12⟩⟦18⟧⟨13⟩⟦52⟧⟨14⟩⟦94⟧⟨15⟩⟦207⟧⟨16⟩⟦157⟧⟨17⟩⟦108⟧⟨18⟩
+[Meadowbrook State Parkway] ⟦259⟧⟨19⟩⟦156⟧⟨20⟩⟦85⟧⟨21⟩⟦195⟧⟨22⟩⟦119⟧⟨23⟩⟦231⟧⟨24⟩⟦120⟧⟨25⟩⟦278⟧⟨26⟩⟦146⟧⟨27⟩
+[Meadowbrook State Parkway] ⟨28⟩⟦290⟧⟨29⟩⟦312⟧⟨30⟩⟦49⟧⟨31⟩⟦233⟧⟨32⟩⟦70⟧⟨33⟩⟦71⟧⟨34⟩⟦8⟧⟨35⟩⟦254⟧⟨36⟩
+[Meadowbrook State Parkway] ⟦233⟧⟨37⟩⟦141⟧⟨38⟩⟦147⟧⟨39⟩⟦38⟧⟨40⟩⟦171⟧⟨41⟩⟦181⟧⟨42⟩
+[Meadowbrook State Parkway] ⟨43⟩⟦265⟧⟨44⟩⟦174⟧⟨45⟩⟦144⟧⟨46⟩⟦300⟧⟨47⟩⟦132⟧⟨48⟩⟦157⟧⟨49⟩⟦280⟧⟨50⟩⟦197⟧⟨51⟩⟦138⟧⟨52⟩⟦261⟧⟨53⟩⟦165⟧⟨54⟩⟦126⟧⟨55⟩⟦53⟧⟨56⟩⟦300⟧⟨57⟩
+[Sunken Meadow State Parkway] ⟦283⟧⟨58⟩⟦282⟧⟨59⟩⟦16⟧⟨60⟩⟦127⟧⟨61⟩⟦201⟧⟨62⟩⟦118⟧⟨63⟩
+[Sunken Meadow State Parkway] ⟨64⟩⟦286⟧⟨65⟩⟦299⟧⟨66⟩⟦193⟧⟨67⟩⟦258⟧⟨68⟩⟦156⟧⟨69⟩⟦17⟧⟨70⟩⟦52⟧⟨71⟩⟦94⟧⟨72⟩⟦254⟧⟨73⟩⟦255⟧⟨74⟩⟦203⟧⟨75⟩⟦270⟧⟨76⟩
+[Sunken Meadow State Parkway] ⟦258⟧⟨77⟩⟦156⟧⟨78⟩⟦145⟧⟨79⟩⟦26⟧⟨80⟩⟦196⟧⟨81⟩⟦269⟧⟨82⟩⟦186⟧⟨83⟩
+[Sunken Meadow State Parkway] ⟦250⟧⟨84⟩⟦68⟧⟨85⟩⟦258⟧⟨86⟩⟦156⟧⟨87⟩⟦285⟧⟨88⟩⟦298⟧⟨89⟩⟦42⟧⟨90⟩⟦70⟧⟨91⟩⟦72⟧⟨92⟩⟦192⟧⟨93⟩⟦229⟧⟨94⟩⟦184⟧⟨95⟩⟦193⟧⟨96⟩
+[Sunken Meadow State Parkway] ⟨97⟩⟦265⟧⟨98⟩⟦174⟧⟨99⟩⟦202⟧⟨100⟩⟦30⟧⟨101⟩⟦180⟧⟨102⟩⟦230⟧⟨103⟩
+[Sunken Meadow State Parkway] ⟦258⟧⟨104⟩⟦156⟧⟨105⟩⟦251⟧⟨106⟩⟦82⟧⟨107⟩⟦143⟧⟨108⟩⟦38⟧⟨109⟩⟦171⟧⟨110⟩⟦181⟧⟨111⟩⟦270⟧⟨112⟩⟦276⟧⟨113⟩⟦165⟧⟨114⟩
+[Sunken Meadow State Parkway] ⟦54⟧⟨115⟩⟦311⟧⟨116⟩⟦132⟧⟨117⟩⟦157⟧⟨118⟩⟦282⟧⟨119⟩⟦27⟧⟨120⟩⟦165⟧⟨121⟩⟦147⟧⟨122⟩⟦112⟧⟨123⟩
+[Sagtikos State Parkway] ⟦270⟧⟨124⟩⟦269⟧⟨125⟩⟦182⟧⟨126⟩⟦3⟧⟨127⟩⟦15⟧⟨128⟩⟦127⟧⟨129⟩⟦145⟧⟨130⟩⟦194⟧⟨131⟩⟦32⟧⟨132⟩⟦156⟧⟨133⟩⟦201⟧⟨134⟩⟦118⟧⟨135⟩⟦289⟧⟨136⟩
+[Sagtikos State Parkway] ⟨137⟩⟦37⟧⟨138⟩⟦94⟧⟨139⟩⟦274⟧⟨140⟩⟦197⟧⟨141⟩⟦157⟧⟨142⟩⟦219⟧⟨143⟩⟦83⟧⟨144⟩⟦317⟧⟨145⟩⟦145⟧⟨146⟩⟦22⟧⟨147⟩⟦52⟧⟨148⟩⟦94⟧⟨149⟩⟦254⟧⟨150⟩⟦286⟧⟨151⟩⟦299⟧⟨152⟩⟦193⟧⟨153⟩⟦269⟧⟨154⟩⟦265⟧⟨155⟩⟦174⟧⟨156⟩⟦283⟧⟨157⟩
+[Sagtikos State Parkway] ⟦258⟧⟨158⟩⟦156⟧⟨159⟩⟦275⟧⟨160⟩⟦82⟧⟨161⟩⟦142⟧⟨162⟩⟦148⟧⟨163⟩⟦38⟧⟨164⟩⟦171⟧⟨165⟩⟦181⟧⟨166⟩⟦283⟧⟨167⟩⟦252⟧⟨168⟩⟦165⟧⟨169⟩
+[Sagtikos State Parkway] ⟦54⟧⟨170⟩⟦311⟧⟨171⟩⟦270⟧⟨172⟩⟦29⟧⟨173⟩⟦172⟧⟨174⟩⟦132⟧⟨175⟩⟦157⟧⟨176⟩⟦280⟧⟨177⟩⟦197⟧⟨178⟩
+[Southern State Parkway] ⟦278⟧⟨179⟩⟦277⟧⟨180⟩⟦13⟧⟨181⟩⟦32⟧⟨182⟩⟦88⟧⟨183⟩⟦118⟧⟨184⟩⟦138⟧⟨185⟩⟦289⟧⟨186⟩
+[Southern State Parkway] ⟦258⟧⟨187⟩⟦156⟧⟨188⟩⟦37⟧⟨189⟩⟦94⟧⟨190⟩⟦208⟧⟨191⟩⟦157⟧⟨192⟩⟦67⟧⟨193⟩⟦134⟧⟨194⟩⟦37⟧⟨195⟩⟦94⟧⟨196⟩⟦270⟧⟨197⟩⟦317⟧⟨198⟩⟦201⟧⟨199⟩⟦222⟧⟨200⟩
+[Southern State Parkway] ⟦278⟧⟨201⟩⟦291⟧⟨202⟩⟦165⟧⟨203⟩⟦4⟧⟨204⟩⟦220⟧⟨205⟩⟦216⟧⟨206⟩⟦184⟧⟨207⟩
+[Mosholu Parkway] ⟦238⟧⟨208⟩⟦21⟧⟨209⟩⟦76⟧⟨210⟩⟦156⟧⟨211⟩⟦79⟧⟨212⟩⟦116⟧⟨213⟩⟦176⟧⟨214⟩⟦245⟧⟨215⟩⟦45⟧⟨216⟩⟦210⟧⟨217⟩⟦158⟧⟨218⟩⟦158⟧⟨219⟩⟦267⟧⟨220⟩⟦176⟧⟨221⟩⟦137⟧⟨222⟩⟦178⟧⟨223⟩
+[Mosholu Parkway] ⟦266⟧⟨224⟩⟦176⟧⟨225⟩⟦6⟧⟨226⟩⟦127⟧⟨227⟩⟦244⟧⟨228⟩⟦103⟧⟨229⟩⟦68⟧⟨230⟩⟦211⟧⟨231⟩⟦310⟧⟨232⟩⟦101⟧⟨233⟩⟦68⟧⟨234⟩⟦223⟧⟨235⟩
+[Mosholu Parkway] ⟦246⟧⟨236⟩⟦302⟧⟨237⟩⟦257⟧⟨238⟩⟦150⟧⟨239⟩⟦121⟧⟨240⟩⟦121⟧⟨241⟩⟦266⟧⟨242⟩⟦176⟧⟨243⟩⟦246⟧⟨244⟩⟦155⟧⟨245⟩⟦170⟧⟨246⟩⟦284⟧⟨247⟩⟦173⟧⟨248⟩⟦313⟧⟨249⟩⟦313⟧⟨250⟩
+[Mosholu Parkway] ⟦258⟧⟨251⟩⟦156⟧⟨252⟩⟦140⟧⟨253⟩⟦147⟧⟨254⟩⟦171⟧⟨255⟩⟦181⟧⟨256⟩⟦248⟧⟨257⟩⟦302⟧⟨258⟩
+[Northern State Parkway] ⟦254⟧⟨259⟩⟦253⟧⟨260⟩⟦14⟧⟨261⟩⟦32⟧⟨262⟩⟦197⟧⟨263⟩⟦156⟧⟨264⟩⟦118⟧⟨265⟩⟦288⟧⟨266⟩⟦197⟧⟨267⟩⟦138⟧⟨268⟩
+[Northern State Parkway] ⟦293⟧⟨269⟩⟦203⟧⟨270⟩⟦263⟧⟨271⟩⟦117⟧⟨272⟩⟦258⟧⟨273⟩⟦156⟧⟨274⟩⟦139⟧⟨275⟩⟦218⟧⟨276⟩
+[Northern State Parkway] ⟦217⟧⟨277⟩⟦140⟧⟨278⟩⟦147⟧⟨279⟩⟦147⟧⟨280⟩⟦84⟧⟨281⟩
+[Northern State Parkway] ⟦258⟧⟨282⟩⟦156⟧⟨283⟩⟦140⟧⟨284⟩⟦9⟧⟨285⟩⟦147⟧⟨286⟩⟦9⟧⟨287⟩⟦1⟧⟨288⟩⟦171⟧⟨289⟩⟦181⟧⟨290⟩
+[Northern State Parkway] ⟨291⟩⟦100⟧⟨292⟩⟦133⟧⟨293⟩⟦156⟧⟨294⟩⟦188⟧⟨295⟩⟦55⟧⟨296⟩⟦251⟧⟨297⟩⟦82⟧⟨298⟩⟦228⟧⟨299⟩⟦96⟧⟨300⟩
+[Robert Moses] ⟦178⟧⟨301⟩⟦61⟧⟨302⟩⟦109⟧⟨303⟩⟦28⟧⟨304⟩⟦149⟧⟨305⟩⟦247⟧⟨306⟩⟦40⟧⟨307⟩
+[Robert Moses] ⟨308⟩⟦204⟧⟨309⟩⟦123⟧⟨310⟩⟦48⟧⟨311⟩⟦128⟧⟨312⟩⟦51⟧⟨313⟩⟦118⟧⟨314⟩⟦179⟧⟨315⟩⟦41⟧⟨316⟩⟦183⟧⟨317⟩⟦239⟧⟨318⟩⟦164⟧⟨319⟩⟦75⟧⟨320⟩⟦225⟧⟨321⟩⟦93⟧⟨322⟩⟦307⟧⟨323⟩⟦63⟧⟨324⟩⟦289⟧⟨325⟩
+[Robert Moses] ⟨326⟩⟦90⟧⟨327⟩⟦62⟧⟨328⟩⟦89⟧⟨329⟩⟦89⟧⟨330⟩⟦169⟧⟨331⟩⟦301⟧⟨332⟩⟦237⟧⟨333⟩⟦200⟧⟨334⟩⟦118⟧⟨335⟩⟦19⟧⟨336⟩⟦78⟧⟨337⟩⟦69⟧⟨338⟩⟦69⟧⟨339⟩⟦39⟧⟨340⟩⟦39⟧⟨341⟩⟦308⟧⟨342⟩⟦162⟧⟨343⟩⟦91⟧⟨344⟩⟦161⟧⟨345⟩⟦241⟧⟨346⟩⟦135⟧⟨347⟩⟦296⟧⟨348⟩⟦166⟧⟨349⟩
+[Robert Moses] ⟦131⟧⟨350⟩⟦10⟧⟨351⟩⟦60⟧⟨352⟩⟦235⟧⟨353⟩⟦125⟧⟨354⟩⟦11⟧⟨355⟩⟦123⟧⟨356⟩⟦48⟧⟨357⟩
+[Merritt Parkway] ⟦236⟧⟨358⟩⟦2⟧⟨359⟩⟦20⟧⟨360⟩⟦32⟧⟨361⟩⟦156⟧⟨362⟩⟦74⟧⟨363⟩⟦57⟧⟨364⟩⟦99⟧⟨365⟩⟦111⟧⟨366⟩
+[Merritt Parkway] ⟨367⟩⟦58⟧⟨368⟩⟦258⟧⟨369⟩⟦156⟧⟨370⟩⟦102⟧⟨371⟩⟦115⟧⟨372⟩⟦105⟧⟨373⟩⟦190⟧⟨374⟩⟦205⟧⟨375⟩⟦154⟧⟨376⟩⟦268⟧⟨377⟩⟦181⟧⟨378⟩
+[Merritt Parkway] ⟨379⟩⟦25⟧⟨380⟩⟦242⟧⟨381⟩⟦92⟧⟨382⟩
+[Merritt Parkway] ⟨383⟩⟦158⟧⟨384⟩⟦158⟧⟨385⟩⟦181⟧⟨386⟩⟦249⟧⟨387⟩⟦197⟧⟨388⟩⟦117⟧⟨389⟩⟦81⟧⟨390⟩⟦213⟧⟨391⟩⟦59⟧⟨392⟩⟦227⟧⟨393⟩⟦226⟧⟨394⟩⟦198⟧⟨395⟩⟦294⟧⟨396⟩
+[Merritt Parkway] ⟨397⟩⟦44⟧⟨398⟩⟦151⟧⟨399⟩⟦262⟧⟨400⟩⟦167⟧⟨401⟩⟦191⟧⟨402⟩⟦318⟧⟨403⟩⟦297⟧⟨404⟩⟦185⟧⟨405⟩⟦212⟧⟨406⟩⟦302⟧⟨407⟩⟦33⟧⟨408⟩⟦77⟧⟨409⟩⟦206⟧⟨410⟩⟦40⟧⟨411⟩⟦168⟧⟨412⟩⟦309⟧⟨413⟩
+[Merritt Parkway] ⟦258⟧⟨414⟩⟦156⟧⟨415⟩⟦305⟧⟨416⟩
+[Merritt Parkway] ⟨417⟩⟦124⟧⟨418⟩⟦236⟧⟨419⟩⟦34⟧⟨420⟩
+[Pelham Parkway] ⟦210⟧⟨421⟩⟦160⟧⟨422⟩⟦160⟧⟨423⟩⟦129⟧⟨424⟩⟦7⟧⟨425⟩⟦113⟧⟨426⟩⟦156⟧⟨427⟩⟦209⟧⟨428⟩⟦45⟧⟨429⟩⟦210⟧⟨430⟩⟦139⟧⟨431⟩
+[Pelham Parkway] ⟨432⟩⟦260⟧⟨433⟩⟦156⟧⟨434⟩⟦130⟧⟨435⟩⟦160⟧⟨436⟩⟦23⟧⟨437⟩⟦199⟧⟨438⟩⟦303⟧⟨439⟩⟦177⟧⟨440⟩⟦65⟧⟨441⟩⟦64⟧⟨442⟩⟦304⟧⟨443⟩⟦187⟧⟨444⟩⟦175⟧⟨445⟩
+[Pelham Parkway] ⟨446⟩⟦153⟧⟨447⟩⟦157⟧⟨448⟩⟦139⟧⟨449⟩⟦53⟧⟨450⟩⟦300⟧⟨451⟩⟦272⟧⟨452⟩⟦187⟧⟨453⟩⟦175⟧⟨454⟩
+[Pelham Parkway] ⟦160⟧⟨455⟩⟦211⟧⟨456⟩⟦24⟧⟨457⟩⟦110⟧⟨458⟩⟦306⟧⟨459⟩⟦47⟧⟨460⟩⟦159⟧⟨461⟩⟦87⟧⟨462⟩⟦133⟧⟨463⟩⟦287⟧⟨464⟩⟦155⟧⟨465⟩
+[Pelham Parkway] ⟨466⟩⟦43⟧⟨467⟩
+[Pelham Parkway] ⟨468⟩⟦214⟧⟨469⟩⟦68⟧⟨470⟩⟦95⟧⟨471⟩⟦243⟧⟨472⟩⟦295⟧⟨473⟩⟦163⟧⟨474⟩
+[Pelham Parkway] ⟨475⟩⟦258⟧⟨476⟩⟦156⟧⟨477⟩⟦265⟧⟨478⟩⟦174⟧⟨479⟩⟦189⟧⟨480⟩
+[Pelham Parkway] ⟨481⟩⟦106⟧⟨482⟩⟦68⟧⟨483⟩⟦66⟧⟨484⟩⟦316⟧⟨485⟩⟦107⟧⟨486⟩⟦122⟧⟨487⟩⟦315⟧⟨488⟩
+[Pelham Parkway] ⟦264⟧⟨489⟩⟦136⟧⟨490⟩⟦258⟧⟨491⟩⟦156⟧⟨492⟩⟦271⟧⟨493⟩⟦133⟧⟨494⟩
+[Heckscher State Parkway] ⟦222⟧⟨495⟩⟦221⟧⟨496⟩⟦35⟧⟨497⟩⟦127⟧⟨498⟩⟦156⟧⟨499⟩⟦118⟧⟨500⟩⟦138⟧⟨501⟩⟦289⟧⟨502⟩
+[Heckscher State Parkway] ⟦258⟧⟨503⟩⟦156⟧⟨504⟩⟦281⟧⟨505⟩⟦299⟧⟨506⟩⟦97⟧⟨507⟩⟦273⟧⟨508⟩⟦68⟧⟨509⟩⟦270⟧⟨510⟩⟦317⟧⟨511⟩⟦314⟧⟨512⟩⟦278⟧⟨513⟩
+[Heckscher State Parkway] ⟨514⟩⟦31⟧⟨515⟩⟦114⟧⟨516⟩⟦156⟧⟨517⟩⟦46⟧⟨518⟩⟦50⟧⟨519⟩⟦140⟧⟨520⟩⟦5⟧⟨521⟩
+[Heckscher State Parkway] ⟨522⟩⟦98⟧⟨523⟩⟦220⟧⟨524⟩⟦147⟧⟨525⟩⟦285⟧⟨526⟩⟦298⟧⟨527⟩⟦42⟧⟨528⟩⟦86⟧⟨529⟩⟦80⟧⟨530⟩
+[Heckscher State Parkway] ⟦258⟧⟨531⟩⟦156⟧⟨532⟩⟦215⟧⟨533⟩⟦165⟧⟨534⟩⟦140⟧⟨535⟩⟦4⟧⟨536⟩⟦38⟧⟨537⟩⟦171⟧⟨538⟩⟦181⟧⟨539⟩⟦278⟧⟨540⟩⟦292⟧⟨541⟩⟦184⟧⟨542⟩
+[Heckscher State Parkway] ⟨543⟩⟦152⟧⟨544⟩⟦152⟧⟨545⟩⟦56⟧⟨546⟩⟦56⟧⟨547⟩⟦224⟧⟨548⟩⟦88⟧⟨549⟩⟦36⟧⟨550⟩⟦73⟧⟨551⟩⟦279⟧⟨552⟩⟦314⟧⟨553⟩⟦256⟧⟨554⟩⟦94⟧⟨555⟩⟦70⟧⟨556⟩⟦70⟧⟨557⟩
+
+[user]
+
+问题：
+What was the creator of the Moshulu Parkway known as?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

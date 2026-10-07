@@ -1,0 +1,60 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Deckers Creek] ⟨168⟩⟦5⟧⟨170⟩⟨169⟩⟨171⟩⟨172⟩⟦91⟧⟦92⟧⟨173⟩⟨174⟩
+[Deckers Creek] ⟦137⟧ | ⟨175⟩⟦172⟧⟨176⟩⟦24⟧⟨177⟩⟨178⟩⟦137⟧⟨179⟩
+[Cascade, West Virginia] ⟦47⟧ | ⟦89⟧
+[Coles Creek (Pennsylvania)] ⟦86⟧⟦160⟧
+
+符号表：
+⟦5⟧ = a 24.6 mi tributary
+⟦24⟧ = Arthurdale
+⟦47⟧ = Deckers Creek
+⟦86⟧ = mi
+⟦89⟧ = Morgantown
+⟦91⟧ = north
+⟦92⟧ = north-central West Virginia
+⟦137⟧ = the Monongahela River
+⟦160⟧ = tributary
+⟦172⟧ = west
+
+占位符映射：
+⟨168⟩ =  is 
+⟨169⟩ = 
+⟨170⟩ =  
+⟨171⟩ =  of 
+⟨172⟩ =  that runs through 
+⟨173⟩ = 
+⟨174⟩ = .
+⟨175⟩ =  It begins 
+⟨176⟩ =  of 
+⟨177⟩ =  and flows southeast, then north, then northwest towards 
+⟨178⟩ = , where it empties into 
+⟨179⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Deckers Creek is a tributary, and its beginning in the west is named after?

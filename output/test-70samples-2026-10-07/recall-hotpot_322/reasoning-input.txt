@@ -1,0 +1,83 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Richard Ford] ⟦166⟧⟨172⟩⟦36⟧⟦146⟧⟨173⟩⟨174⟩⟦193⟧⟨176⟩⟨175⟩⟨177⟩
+[Rock Springs (short story collection)] ⟨197⟩⟨198⟩⟨199⟩⟨200⟩⟨201⟩⟦45⟧⟨202⟩⟨203⟩⟦74⟧⟦139⟧⟨204⟩⟨205⟩⟦88⟧⟦88⟧⟨206⟩⟨207⟩⟦260⟧⟦77⟧⟨208⟩⟨209⟩⟦282⟧⟦141⟧⟨210⟩⟨211⟩
+[Richard Marsh (author)] ⟦279⟧
+[Richard Honaker] ⟦172⟧
+[A Good Man Is Hard to Find and Other Stories] ⟦20⟧⟦192⟧⟦44⟧
+[A Good Man Is Hard to Find and Other Stories] ⟦64⟧
+[A Good Man Is Hard to Find and Other Stories] ⟦197⟧
+[A Good Man Is Hard to Find and Other Stories] ⟦198⟧
+
+符号表：
+⟦20⟧ = a collection
+⟦36⟧ = an American novelist
+⟦44⟧ = author
+⟦45⟧ = author Richard Ford
+⟦64⟧ = collection
+⟦74⟧ = dysfunctional mothers
+⟦77⟧ = effects
+⟦88⟧ = fathers
+⟦139⟧ = mothers
+⟦141⟧ = narrators
+⟦146⟧ = novelist
+⟦166⟧ = Richard Ford
+⟦172⟧ = Rock Springs
+⟦192⟧ = short stories
+⟦193⟧ = short story writer
+⟦197⟧ = stories
+⟦198⟧ = story
+⟦260⟧ = their effects
+⟦279⟧ = writer
+⟦282⟧ = young male narrators
+
+占位符映射：
+⟨172⟩ =  (born February 16, 1944) is 
+⟨173⟩ = 
+⟨174⟩ =  and 
+⟨175⟩ = 
+⟨176⟩ =  
+⟨177⟩ = .
+⟨197⟩ =  is 
+⟨198⟩ = 
+⟨199⟩ =  of 
+⟨200⟩ = 
+⟨201⟩ =  by 
+⟨202⟩ = 
+⟨203⟩ = , published in 1987 and largely dealing with 
+⟨204⟩ = 
+⟨205⟩ =  and 
+⟨206⟩ = 
+⟨207⟩ =  and 
+⟨208⟩ = 
+⟨209⟩ =  on 
+⟨210⟩ = 
+⟨211⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Rock Springs is a collection of short stories by an author born in what year?

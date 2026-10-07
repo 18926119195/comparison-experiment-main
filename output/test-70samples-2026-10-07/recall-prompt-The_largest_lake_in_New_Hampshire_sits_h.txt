@@ -1,0 +1,718 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (AT
+⟦2⟧ = [Elphinstone
+⟦3⟧ = 1,064 m
+⟦4⟧ = 137,708-acre Lake Winnebago
+⟦5⟧ = 15,074 documented lakes
+⟦6⟧ = 1890s
+⟦7⟧ = 2,956 feet
+⟦8⟧ = 200 men
+⟦9⟧ = 200 Ramoshis
+⟦10⟧ = 200 vertical feet
+⟦11⟧ = 212 ft
+⟦12⟧ = 3,491 feet
+⟦13⟧ = 3110 ft
+⟦14⟧ = 350 feet
+⟦15⟧ = 4,000 feet
+⟦16⟧ = 4,051 feet
+⟦17⟧ = 4,272 meters
+⟦18⟧ = 6260 feet
+⟦19⟧ = 651 feet
+⟦20⟧ = 69 sqmi
+⟦21⟧ = 71 sqmi
+⟦22⟧ = 73,437 acres
+⟦23⟧ = 950 feet
+⟦24⟧ = a 371 acre lake
+⟦25⟧ = a body
+⟦26⟧ = a cirque
+⟦27⟧ = a clean prominence
+⟦28⟧ = a couple
+⟦29⟧ = a cross wall
+⟦30⟧ = a curtain
+⟦31⟧ = a dungeon
+⟦32⟧ = a few balsam fir trees
+⟦33⟧ = a few feet
+⟦34⟧ = a few houses
+⟦35⟧ = a force
+⟦36⟧ = a gateway
+⟦37⟧ = a great distance
+⟦38⟧ = a great pit
+⟦39⟧ = a gun
+⟦40⟧ = a hiker
+⟦41⟧ = a lake
+⟦42⟧ = a large turret
+⟦43⟧ = a license
+⟦44⟧ = a little less than 1 mile
+⟦45⟧ = a local high-point
+⟦46⟧ = A masonry curtain projects
+⟦47⟧ = a maximum depth
+⟦48⟧ = a mountain
+⟦49⟧ = a nearly equilateral triangle
+⟦50⟧ = a new looking building
+⟦51⟧ = a new small lake
+⟦52⟧ = a north-east direction
+⟦53⟧ = a north-easterly direction
+⟦54⟧ = a place
+⟦55⟧ = a pointed arch
+⟦56⟧ = a Prabhu
+⟦57⟧ = a reputation
+⟦58⟧ = a rude gateway
+⟦59⟧ = a rude temple
+⟦60⟧ = a single body
+⟦61⟧ = a single pointed arch
+⟦62⟧ = a small pond
+⟦63⟧ = a small stone wheel
+⟦64⟧ = a sort
+⟦65⟧ = a spur
+⟦66⟧ = a vertical scarp
+⟦67⟧ = a village
+⟦68⟧ = a well preserved stone pond
+⟦69⟧ = a wooden placard
+⟦70⟧ = about 1 kilometer
+⟦71⟧ = about 40 percent
+⟦72⟧ = about another three hundred yards
+⟦73⟧ = about milepost
+⟦74⟧ = About ten yards
+⟦75⟧ = about three hundred yards
+⟦76⟧ = acre
+⟦77⟧ = acres
+⟦78⟧ = Adams
+⟦79⟧ = adjacent peaks
+⟦80⟧ = Alaska
+⟦81⟧ = Alaska's eighth largest lake
+⟦82⟧ = all-fitting stones
+⟦83⟧ = almost 800 feet
+⟦84⟧ = almost due west
+⟦85⟧ = altitude
+⟦86⟧ = an almost unbroken vertical precipice
+⟦87⟧ = an altitude
+⟦88⟧ = an area
+⟦89⟧ = ancient basalt
+⟦90⟧ = angle
+⟦91⟧ = anonymity
+⟦92⟧ = another pond
+⟦93⟧ = another seven hundred yards
+⟦94⟧ = appearance
+⟦95⟧ = approach
+⟦96⟧ = approximately 21 mi long (northwest-southeast
+⟦97⟧ = arch
+⟦98⟧ = area
+⟦99⟧ = assailants
+⟦100⟧ = attacks
+⟦101⟧ = attitude
+⟦102⟧ = average rate
+⟦103⟧ = Bajirav's garrisons
+⟦104⟧ = balsam
+⟦105⟧ = basalt
+⟦106⟧ = base
+⟦107⟧ = bastions
+⟦108⟧ = being
+⟦109⟧ = Berkshire County
+⟦110⟧ = Beseck Lake
+⟦111⟧ = Bhairavnath
+⟦112⟧ = Bhairavnath's temple
+⟦113⟧ = boats
+⟦114⟧ = body
+⟦115⟧ = breadth
+⟦116⟧ = break
+⟦117⟧ = Brown and Outagamie counties
+⟦118⟧ = building
+⟦119⟧ = bushwhack
+⟦120⟧ = Carroll County
+⟦121⟧ = Cascades
+⟦122⟧ = center
+⟦123⟧ = central New Hampshire
+⟦124⟧ = charge
+⟦125⟧ = cirque
+⟦126⟧ = citadel
+⟦127⟧ = citadels
+⟦128⟧ = cliff
+⟦129⟧ = cliffs
+⟦130⟧ = communication
+⟦131⟧ = cone
+⟦132⟧ = Connecticut
+⟦133⟧ = considerable size
+⟦134⟧ = Cook Inlet
+⟦135⟧ = corner
+⟦136⟧ = corners
+⟦137⟧ = counties
+⟦138⟧ = couple
+⟦139⟧ = creeks
+⟦140⟧ = criterion
+⟦141⟧ = cross
+⟦142⟧ = curtain
+⟦143⟧ = curtains
+⟦144⟧ = dam
+⟦145⟧ = depth
+⟦146⟧ = descent
+⟦147⟧ = direction
+⟦148⟧ = distance
+⟦149⟧ = dozen
+⟦150⟧ = drainage
+⟦151⟧ = due east
+⟦152⟧ = due west
+⟦153⟧ = dungeon
+⟦154⟧ = Early maps
+⟦155⟧ = Early Russian explorers
+⟦156⟧ = Early trophy hunters
+⟦157⟧ = east
+⟦158⟧ = East Hoosac
+⟦159⟧ = edge
+⟦160⟧ = elevation
+⟦161⟧ = enceinte
+⟦162⟧ = enterprizes
+⟦163⟧ = entrance
+⟦164⟧ = Environmental Protection
+⟦165⟧ = every turn
+⟦166⟧ = excellent masonry
+⟦167⟧ = explorers
+⟦168⟧ = face
+⟦169⟧ = fair masonry
+⟦170⟧ = feet
+⟦171⟧ = fir
+⟦172⟧ = five feet
+⟦173⟧ = flank
+⟦174⟧ = foot
+⟦175⟧ = footers
+⟦176⟧ = force
+⟦177⟧ = fort
+⟦178⟧ = ft
+⟦179⟧ = game
+⟦180⟧ = game hunting
+⟦181⟧ = garrison
+⟦182⟧ = garrisons
+⟦183⟧ = gate
+⟦184⟧ = gates
+⟦185⟧ = gateway
+⟦186⟧ = gateways
+⟦187⟧ = Girvi
+⟦188⟧ = glacier
+⟦189⟧ = glaciers
+⟦190⟧ = grass
+⟦191⟧ = Greenstone
+⟦192⟧ = guide
+⟦193⟧ = gun
+⟦194⟧ = guns
+⟦195⟧ = half
+⟦196⟧ = Hawksbill Mountain
+⟦197⟧ = head
+⟦198⟧ = headquarters
+⟦199⟧ = headwaters
+⟦200⟧ = heat
+⟦201⟧ = height
+⟦202⟧ = Hence apparently the reason
+⟦203⟧ = hiker
+⟦204⟧ = hikers
+⟦205⟧ = hill
+⟦206⟧ = home
+⟦207⟧ = houses
+⟦208⟧ = hunters
+⟦209⟧ = hunting
+⟦210⟧ = its anonymity
+⟦211⟧ = its descent
+⟦212⟧ = Its entrance
+⟦213⟧ = its long and narrow shape
+⟦214⟧ = Its maximum elevation
+⟦215⟧ = its north
+⟦216⟧ = its south and Mount Williams
+⟦217⟧ = Jack Mountain
+⟦218⟧ = Kasilof
+⟦219⟧ = Kenai National Wildlife Refuge
+⟦220⟧ = kilometer
+⟦221⟧ = lake
+⟦222⟧ = Lake Beseck
+⟦223⟧ = Lake Kanasatka
+⟦224⟧ = Lake Winnebago
+⟦225⟧ = Lake Winnipesaukee
+⟦226⟧ = lakes
+⟦227⟧ = latitudes
+⟦228⟧ = length
+⟦229⟧ = less than 400 vertical feet
+⟦230⟧ = less than 900 feet
+⟦231⟧ = level
+⟦232⟧ = license
+⟦233⟧ = list
+⟦234⟧ = Long Pond
+⟦235⟧ = Maan
+⟦236⟧ = Madison and Page counties
+⟦237⟧ = Maharashtra
+⟦238⟧ = Mahars
+⟦239⟧ = man
+⟦240⟧ = Man y
+⟦241⟧ = Man y places
+⟦242⟧ = Many lakes
+⟦243⟧ = maps
+⟦244⟧ = Maratha War Papers
+⟦245⟧ = masonry
+⟦246⟧ = Massachusetts
+⟦247⟧ = men
+⟦248⟧ = meters
+⟦249⟧ = mi
+⟦250⟧ = Middlefield
+⟦251⟧ = midpoint
+⟦252⟧ = mile
+⟦253⟧ = milepost
+⟦254⟧ = miles
+⟦255⟧ = moose
+⟦256⟧ = more northerly latitudes
+⟦257⟧ = more than a couple
+⟦258⟧ = mortar
+⟦259⟧ = Moultonborough
+⟦260⟧ = Mount Fitch
+⟦261⟧ = Mount Greylock
+⟦262⟧ = mountain
+⟦263⟧ = Mt. Fitch
+⟦264⟧ = Mud Lake
+⟦265⟧ = names
+⟦266⟧ = neighbourhood
+⟦267⟧ = New England’s Four-thousand footers list
+⟦268⟧ = New Hampshire
+⟦269⟧ = no side-spur trail
+⟦270⟧ = No wall
+⟦271⟧ = Nohokomeen Glacier
+⟦272⟧ = north
+⟦273⟧ = north-west and south-west
+⟦274⟧ = northeast
+⟦275⟧ = northwest
+⟦276⟧ = obstacle
+⟦277⟧ = other hereditary Gadkaris
+⟦278⟧ = outlet
+⟦279⟧ = over 100 square miles
+⟦280⟧ = over 4,700 meters
+⟦281⟧ = Pakistan
+⟦282⟧ = park
+⟦283⟧ = part
+⟦284⟧ = path
+⟦285⟧ = Paugus Bay
+⟦286⟧ = peak
+⟦287⟧ = peaks
+⟦288⟧ = Pendhari
+⟦289⟧ = people
+⟦290⟧ = percent
+⟦291⟧ = Petenwell Lake
+⟦292⟧ = Phaltan
+⟦293⟧ = pit
+⟦294⟧ = placard
+⟦295⟧ = place
+⟦296⟧ = places
+⟦297⟧ = plain
+⟦298⟧ = plains
+⟦299⟧ = plateau
+⟦300⟧ = point
+⟦301⟧ = pond
+⟦302⟧ = ponds
+⟦303⟧ = possession
+⟦304⟧ = precipice
+⟦305⟧ = preservation
+⟦306⟧ = pressure
+⟦307⟧ = projects
+⟦308⟧ = prominence
+⟦309⟧ = quarter
+⟦310⟧ = range
+⟦311⟧ = rate
+⟦312⟧ = ravine
+⟦313⟧ = reason
+⟦314⟧ = record
+⟦315⟧ = remains
+⟦316⟧ = reputation
+⟦317⟧ = reservoirs
+⟦318⟧ = rest
+⟦319⟧ = ridge
+⟦320⟧ = road
+⟦321⟧ = rock
+⟦322⟧ = route
+⟦323⟧ = sadar
+⟦324⟧ = Satara
+⟦325⟧ = scarp
+⟦326⟧ = sea
+⟦327⟧ = sea level
+⟦328⟧ = separation
+⟦329⟧ = sepoys
+⟦330⟧ = sepoys' houses
+⟦331⟧ = seven to ten feet
+⟦332⟧ = several creeks
+⟦333⟧ = several hundred feet
+⟦334⟧ = shape
+⟦335⟧ = Shenandoah National Park
+⟦336⟧ = Shivaji
+⟦337⟧ = shore
+⟦338⟧ = shoreline
+⟦339⟧ = shoulder
+⟦340⟧ = side
+⟦341⟧ = sides
+⟦342⟧ = signage
+⟦343⟧ = size
+⟦344⟧ = Skilak Lake
+⟦345⟧ = Skyline Drive
+⟦346⟧ = slope
+⟦347⟧ = slopes
+⟦348⟧ = small boats
+⟦349⟧ = small one-and two-acre ponds
+⟦350⟧ = soil
+⟦351⟧ = solid masonry
+⟦352⟧ = some dozen steps
+⟦353⟧ = some five hundred feet
+⟦354⟧ = some hundred yards
+⟦355⟧ = some remains
+⟦356⟧ = some six hundred and fifty yards
+⟦357⟧ = sort
+⟦358⟧ = south
+⟦359⟧ = South Asia
+⟦360⟧ = southcentral Alaska
+⟦361⟧ = southeast
+⟦362⟧ = southwest
+⟦363⟧ = spur
+⟦364⟧ = spurs
+⟦365⟧ = sqmi
+⟦366⟧ = state
+⟦367⟧ = steps
+⟦368⟧ = stone
+⟦369⟧ = stones
+⟦370⟧ = Stony Man
+⟦371⟧ = Stony Man Mountain
+⟦372⟧ = strength
+⟦373⟧ = summit
+⟦374⟧ = Superintendent
+⟦375⟧ = temple
+⟦376⟧ = than 100 yards
+⟦377⟧ = that obstacle
+⟦378⟧ = the 1890s
+⟦379⟧ = the 25th highest lake
+⟦380⟧ = the 31st highest lake
+⟦381⟧ = the AMC’s prominence criterion
+⟦382⟧ = the Appalachian Trail
+⟦383⟧ = The appearance
+⟦384⟧ = the arch
+⟦385⟧ = the area
+⟦386⟧ = The assailants
+⟦387⟧ = the AT
+⟦388⟧ = The average height
+⟦389⟧ = the base
+⟦390⟧ = the Blue Ridge Mountains
+⟦391⟧ = the break
+⟦392⟧ = The Broads
+⟦393⟧ = the bushwhack
+⟦394⟧ = the Cascades
+⟦395⟧ = The center area
+⟦396⟧ = the cliff
+⟦397⟧ = the cliffs
+⟦398⟧ = the Commonwealth
+⟦399⟧ = the communication
+⟦400⟧ = The cone
+⟦401⟧ = the corners
+⟦402⟧ = the cross wall
+⟦403⟧ = The dam
+⟦404⟧ = the Department
+⟦405⟧ = the east
+⟦406⟧ = the east side
+⟦407⟧ = the eastern ravine
+⟦408⟧ = the edge
+⟦409⟧ = the enceinte
+⟦410⟧ = the enterprizes
+⟦411⟧ = The entrance
+⟦412⟧ = the face
+⟦413⟧ = the first hunting guide
+⟦414⟧ = The forested summit
+⟦415⟧ = the fort
+⟦416⟧ = The fort garrison
+⟦417⟧ = the fort proper or upper and lower citadels
+⟦418⟧ = The gate
+⟦419⟧ = the gates
+⟦420⟧ = the gateway
+⟦421⟧ = the glacier
+⟦422⟧ = the glaciers
+⟦423⟧ = the headquarters
+⟦424⟧ = the headwaters
+⟦425⟧ = the high attitude
+⟦426⟧ = the high winds
+⟦427⟧ = The highest lake
+⟦428⟧ = The hill
+⟦429⟧ = the hill side
+⟦430⟧ = the inaccessible precipice
+⟦431⟧ = The initial dam
+⟦432⟧ = the inner citadel
+⟦433⟧ = the inside curtain
+⟦434⟧ = the Karambar Lake
+⟦435⟧ = The Karkhanis
+⟦436⟧ = the Kasilof River
+⟦437⟧ = the Kenai Peninsula
+⟦438⟧ = the lake
+⟦439⟧ = the Lakes Region
+⟦440⟧ = the largest lake
+⟦441⟧ = The largest man-made lake
+⟦442⟧ = the last 20 years
+⟦443⟧ = the last 46 years
+⟦444⟧ = the last seventeen years
+⟦445⟧ = the level
+⟦446⟧ = the longest shoreline
+⟦447⟧ = the lower citadel
+⟦448⟧ = the Mahadev range
+⟦449⟧ = the main wall
+⟦450⟧ = the Manchar Lake
+⟦451⟧ = the masonry
+⟦452⟧ = the midpoint
+⟦453⟧ = the Moghals
+⟦454⟧ = the most lakes
+⟦455⟧ = the most northerly 4,000 foot peak
+⟦456⟧ = The mountain
+⟦457⟧ = the neighbourhood
+⟦458⟧ = the north
+⟦459⟧ = the north and south gateways
+⟦460⟧ = the north entrance
+⟦461⟧ = the north shore
+⟦462⟧ = the north side
+⟦463⟧ = the north slope
+⟦464⟧ = the north-east angle
+⟦465⟧ = the northwest corner
+⟦466⟧ = the other side
+⟦467⟧ = the outer citadel
+⟦468⟧ = the outer wall
+⟦469⟧ = The outer walls
+⟦470⟧ = The outlet
+⟦471⟧ = The Panvan plateau
+⟦472⟧ = the park
+⟦473⟧ = the path
+⟦474⟧ = The peak
+⟦475⟧ = the people
+⟦476⟧ = the plain
+⟦477⟧ = the plains
+⟦478⟧ = the plateau
+⟦479⟧ = the Raja
+⟦480⟧ = the range
+⟦481⟧ = the remains
+⟦482⟧ = the rest
+⟦483⟧ = the retreating glacier
+⟦484⟧ = the ridge
+⟦485⟧ = the right side
+⟦486⟧ = the rock
+⟦487⟧ = the Rush Lake
+⟦488⟧ = the same names
+⟦489⟧ = the scarp
+⟦490⟧ = The second highest lake
+⟦491⟧ = The shortest route
+⟦492⟧ = the shoulder
+⟦493⟧ = the side being
+⟦494⟧ = the sides
+⟦495⟧ = the Skyland Resort
+⟦496⟧ = the Skyline Drive
+⟦497⟧ = the Skyline Drive trail head
+⟦498⟧ = the south
+⟦499⟧ = the south side
+⟦500⟧ = the south-east
+⟦501⟧ = the south-east angle
+⟦502⟧ = the south-west
+⟦503⟧ = the south-west corner
+⟦504⟧ = the southern gate
+⟦505⟧ = the southern gateway
+⟦506⟧ = the spur
+⟦507⟧ = the spurs
+⟦508⟧ = the State
+⟦509⟧ = the summit
+⟦510⟧ = the third-highest peak
+⟦511⟧ = the times
+⟦512⟧ = the top
+⟦513⟧ = the town
+⟦514⟧ = the turret
+⟦515⟧ = the Tustumena 200 Sled Dog Race
+⟦516⟧ = the two citadels
+⟦517⟧ = the U.S. state
+⟦518⟧ = the upper citadel
+⟦519⟧ = the upper slopes
+⟦520⟧ = the viewless summit
+⟦521⟧ = the walling
+⟦522⟧ = the walls
+⟦523⟧ = the way
+⟦524⟧ = the west side
+⟦525⟧ = the whole breadth
+⟦526⟧ = the Wisconsin River
+⟦527⟧ = the world
+⟦528⟧ = thickness
+⟦529⟧ = this area
+⟦530⟧ = This citadel
+⟦531⟧ = This entrance
+⟦532⟧ = This lake
+⟦533⟧ = this outer wall
+⟦534⟧ = this part
+⟦535⟧ = this point
+⟦536⟧ = this pristine lake
+⟦537⟧ = This road
+⟦538⟧ = this side
+⟦539⟧ = this turret
+⟦540⟧ = this upper citadel
+⟦541⟧ = time
+⟦542⟧ = times
+⟦543⟧ = tolerable preservation
+⟦544⟧ = top
+⟦545⟧ = town
+⟦546⟧ = trail
+⟦547⟧ = trails
+⟦548⟧ = trees
+⟦549⟧ = triangle
+⟦550⟧ = trophy
+⟦551⟧ = turn
+⟦552⟧ = turret
+⟦553⟧ = Tustumena Glacier
+⟦554⟧ = Tustumena Lake
+⟦555⟧ = two massive bastions
+⟦556⟧ = two peaks
+⟦557⟧ = United States
+⟦558⟧ = up to a thousand vertical feet
+⟦559⟧ = Vilas County
+⟦560⟧ = village
+⟦561⟧ = Virginia
+⟦562⟧ = Vitthal Pant Phadnis
+⟦563⟧ = volume
+⟦564⟧ = wall
+⟦565⟧ = walling
+⟦566⟧ = walls
+⟦567⟧ = Washington
+⟦568⟧ = water
+⟦569⟧ = way
+⟦570⟧ = Wazee Lake
+⟦571⟧ = Wenatchee National Forest
+⟦572⟧ = west
+⟦573⟧ = wheel
+⟦574⟧ = whose attacks
+⟦575⟧ = wide (northeast-southwest
+⟦576⟧ = width
+⟦577⟧ = winds
+⟦578⟧ = Wisconsin
+⟦579⟧ = world
+⟦580⟧ = world record moose
+⟦581⟧ = yards
+⟦582⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Lake Winnipesaukee] ⟦225⟧⟨1⟩⟦440⟧⟨2⟩⟦221⟧⟨3⟩⟦517⟧⟨4⟩⟦366⟧⟨5⟩⟦268⟧⟨6⟩⟦439⟧⟨7⟩
+[Lake Winnipesaukee] ⟨8⟩⟦96⟧⟨9⟩⟦249⟧⟨10⟩⟦275⟧⟨11⟩⟦361⟧⟨12⟩⟦575⟧⟨13⟩⟦274⟧⟨14⟩⟦362⟧⟨15⟩⟦20⟧⟨16⟩⟦365⟧⟨17⟩⟦21⟧⟨18⟩⟦365⟧⟨19⟩⟦285⟧⟨20⟩⟦47⟧⟨21⟩⟦145⟧⟨22⟩⟦11⟧⟨23⟩⟦178⟧⟨24⟩
+[Lake Winnipesaukee] ⟦395⟧⟨25⟩⟦122⟧⟨26⟩⟦98⟧⟨27⟩⟦438⟧⟨28⟩⟦221⟧⟨29⟩⟦392⟧⟨30⟩
+[Varugad] ⟦428⟧⟨31⟩⟦205⟧⟨32⟩⟦170⟧⟨33⟩⟦445⟧⟨34⟩⟦231⟧⟨35⟩⟦478⟧⟨36⟩⟦299⟧⟨37⟩⟦509⟧⟨38⟩⟦373⟧⟨39⟩⟦448⟧⟨40⟩⟦310⟧⟨41⟩⟦535⟧⟨42⟩⟦300⟧⟨43⟩
+[Varugad] ⟦400⟧⟨44⟩⟦131⟧⟨45⟩⟦522⟧⟨46⟩⟦566⟧⟨47⟩⟦37⟧⟨48⟩⟦148⟧⟨49⟩
+[Varugad] ⟦531⟧⟨50⟩⟦163⟧⟨51⟩⟦494⟧⟨52⟩⟦341⟧⟨53⟩⟦396⟧⟨54⟩⟦128⟧⟨55⟩⟦170⟧⟨56⟩⟦512⟧⟨57⟩⟦544⟧⟨58⟩⟦352⟧⟨59⟩⟦149⟧⟨60⟩⟦367⟧⟨61⟩
+[Varugad] ⟨62⟩⟦55⟧⟨63⟩⟦97⟧⟨64⟩⟦512⟧⟨65⟩⟦544⟧⟨66⟩⟦170⟧⟨67⟩
+[Varugad] ⟨68⟩⟦473⟧⟨69⟩⟦284⟧⟨70⟩⟦187⟧⟨71⟩⟦67⟧⟨72⟩⟦560⟧⟨73⟩⟦477⟧⟨74⟩⟦298⟧⟨75⟩⟦399⟧⟨76⟩⟦130⟧⟨77⟩⟦292⟧⟨78⟩
+[Varugad] ⟦537⟧⟨79⟩⟦320⟧⟨80⟩⟦412⟧⟨81⟩⟦168⟧⟨82⟩⟦480⟧⟨83⟩⟦310⟧⟨84⟩⟦353⟧⟨85⟩⟦170⟧⟨86⟩⟦492⟧⟨87⟩⟦339⟧⟨88⟩⟦65⟧⟨89⟩⟦363⟧⟨90⟩⟦389⟧⟨91⟩⟦106⟧⟨92⟩
+[Varugad] ⟦521⟧⟨93⟩⟦565⟧⟨94⟩⟦499⟧⟨95⟩⟦340⟧⟨96⟩⟦408⟧⟨97⟩⟦159⟧⟨98⟩⟦396⟧⟨99⟩⟦128⟧⟨100⟩⟦354⟧⟨101⟩⟦581⟧⟨102⟩⟦504⟧⟨103⟩⟦183⟧⟨104⟩⟦257⟧⟨105⟩⟦138⟧⟨106⟩⟦170⟧⟨107⟩⟦170⟧⟨108⟩⟦528⟧⟨109⟩⟦528⟧⟨110⟩⟦82⟧⟨111⟩⟦369⟧⟨112⟩
+[Varugad] ⟦482⟧⟨113⟩⟦318⟧⟨114⟩
+[Varugad] ⟦388⟧⟨115⟩⟦201⟧⟨116⟩⟦331⟧⟨117⟩⟦170⟧⟨118⟩
+[Varugad] ⟨119⟩⟦501⟧⟨120⟩⟦157⟧⟨121⟩⟦90⟧⟨122⟩⟦59⟧⟨123⟩⟦375⟧⟨124⟩⟦111⟧⟨125⟩⟦34⟧⟨126⟩⟦207⟧⟨127⟩⟦481⟧⟨128⟩⟦315⟧⟨129⟩⟦240⟧⟨130⟩
+[Varugad] ⟨131⟩⟦485⟧⟨132⟩⟦340⟧⟨133⟩⟦504⟧⟨134⟩⟦183⟧⟨135⟩⟦68⟧⟨136⟩⟦368⟧⟨137⟩⟦301⟧⟨138⟩⟦581⟧⟨139⟩⟦367⟧⟨140⟩⟦367⟧⟨141⟩
+[Varugad] ⟨142⟩⟦458⟧⟨143⟩⟦272⟧⟨144⟩⟦112⟧⟨145⟩⟦375⟧⟨146⟩⟦92⟧⟨147⟩⟦301⟧⟨148⟩
+[Varugad] ⟨149⟩⟦95⟧⟨150⟩⟦95⟧⟨151⟩⟦432⟧⟨152⟩⟦126⟧⟨153⟩⟦54⟧⟨154⟩⟦295⟧⟨155⟩⟦133⟧⟨156⟩⟦343⟧⟨157⟩⟦372⟧⟨158⟩⟦372⟧⟨159⟩⟦511⟧⟨160⟩⟦542⟧⟨161⟩
+[Varugad] ⟨162⟩⟦569⟧⟨163⟩⟦417⟧⟨164⟩⟦177⟧⟨165⟩⟦127⟧⟨166⟩⟦462⟧⟨167⟩⟦272⟧⟨168⟩⟦340⟧⟨169⟩
+[Varugad] ⟦473⟧⟨170⟩⟦284⟧⟨171⟩⟦429⟧⟨172⟩⟦205⟧⟨173⟩⟦340⟧⟨174⟩⟦190⟧⟨175⟩⟦190⟧⟨176⟩⟦350⟧⟨177⟩⟦350⟧⟨178⟩⟦241⟧⟨179⟩⟦296⟧⟨180⟩
+[Varugad] ⟨181⟩⟦170⟧⟨182⟩⟦467⟧⟨183⟩⟦126⟧⟨184⟩⟦64⟧⟨185⟩⟦357⟧⟨186⟩⟦339⟧⟨187⟩⟦339⟧⟨188⟩⟦428⟧⟨189⟩⟦205⟧⟨190⟩⟦84⟧⟨191⟩⟦572⟧⟨192⟩
+[Varugad] ⟨193⟩⟦555⟧⟨194⟩⟦107⟧⟨195⟩⟦166⟧⟨196⟩⟦245⟧⟨197⟩⟦272⟧⟨198⟩⟦273⟧⟨199⟩⟦572⟧⟨200⟩⟦572⟧⟨201⟩⟦194⟧⟨202⟩⟦194⟧⟨203⟩⟦459⟧⟨204⟩⟦186⟧⟨205⟩
+[Varugad] ⟦530⟧⟨206⟩⟦126⟧⟨207⟩⟦449⟧⟨208⟩⟦564⟧⟨209⟩⟦29⟧⟨210⟩⟦141⟧⟨211⟩⟦564⟧⟨212⟩⟦525⟧⟨213⟩⟦115⟧⟨214⟩⟦415⟧⟨215⟩⟦177⟧⟨216⟩⟦157⟧⟨217⟩⟦572⟧⟨218⟩
+[Varugad] ⟦212⟧⟨219⟩⟦163⟧⟨220⟩⟦518⟧⟨221⟩⟦126⟧⟨222⟩
+[Varugad] ⟦46⟧⟨223⟩⟦245⟧⟨224⟩⟦142⟧⟨225⟩⟦307⟧⟨226⟩⟦384⟧⟨227⟩⟦97⟧⟨228⟩⟦170⟧⟨229⟩⟦151⟧⟨230⟩⟦157⟧⟨231⟩
+[Varugad] ⟨232⟩⟦499⟧⟨233⟩⟦340⟧⟨234⟩⟦522⟧⟨235⟩⟦566⟧⟨236⟩⟦489⟧⟨237⟩⟦325⟧⟨238⟩⟦518⟧⟨239⟩⟦126⟧⟨240⟩⟦170⟧⟨241⟩⟦447⟧⟨242⟩⟦126⟧⟨243⟩⟦173⟧⟨244⟩⟦173⟧⟨245⟩
+[Varugad] ⟦518⟧⟨246⟩⟦126⟧⟨247⟩⟦66⟧⟨248⟩⟦325⟧⟨249⟩⟦170⟧⟨250⟩
+[Varugad] ⟦411⟧⟨251⟩⟦163⟧⟨252⟩⟦170⟧⟨253⟩⟦447⟧⟨254⟩⟦126⟧⟨255⟩⟦486⟧⟨256⟩⟦321⟧⟨257⟩⟦170⟧⟨258⟩
+[Varugad] ⟨259⟩⟦502⟧⟨260⟩⟦358⟧⟨261⟩⟦572⟧⟨262⟩⟦468⟧⟨263⟩⟦564⟧⟨264⟩⟦161⟧⟨265⟩⟦161⟧⟨266⟩⟦58⟧⟨267⟩⟦185⟧⟨268⟩⟦61⟧⟨269⟩⟦97⟧⟨270⟩⟦170⟧⟨271⟩⟦170⟧⟨272⟩
+[Varugad] ⟨273⟩⟦36⟧⟨274⟩⟦185⟧⟨275⟩⟦55⟧⟨276⟩⟦97⟧⟨277⟩⟦512⟧⟨278⟩⟦544⟧⟨279⟩⟦367⟧⟨280⟩⟦486⟧⟨281⟩⟦321⟧⟨282⟩⟦433⟧⟨283⟩⟦142⟧⟨284⟩⟦512⟧⟨285⟩⟦544⟧⟨286⟩
+[Varugad] ⟦522⟧⟨287⟩⟦566⟧⟨288⟩⟦540⟧⟨289⟩⟦126⟧⟨290⟩⟦543⟧⟨291⟩⟦305⟧⟨292⟩
+[Varugad] ⟨293⟩⟦170⟧⟨294⟩⟦169⟧⟨295⟩⟦245⟧⟨296⟩
+[Varugad] ⟨297⟩⟦42⟧⟨298⟩⟦552⟧⟨299⟩⟦503⟧⟨300⟩⟦572⟧⟨301⟩⟦135⟧⟨302⟩⟦504⟧⟨303⟩⟦183⟧⟨304⟩
+[Varugad] ⟦74⟧⟨305⟩⟦581⟧⟨306⟩⟦405⟧⟨307⟩⟦157⟧⟨308⟩⟦539⟧⟨309⟩⟦552⟧⟨310⟩⟦50⟧⟨311⟩⟦118⟧⟨312⟩⟦423⟧⟨313⟩⟦198⟧⟨314⟩⟦323⟧⟨315⟩⟦323⟧⟨316⟩
+[Varugad] ⟨317⟩⟦38⟧⟨318⟩⟦293⟧⟨319⟩⟦170⟧⟨320⟩⟦486⟧⟨321⟩⟦321⟧⟨322⟩⟦475⟧⟨323⟩⟦289⟧⟨324⟩⟦31⟧⟨325⟩⟦153⟧⟨326⟩
+[Varugad] ⟨327⟩⟦498⟧⟨328⟩⟦358⟧⟨329⟩⟦62⟧⟨330⟩⟦301⟧⟨331⟩⟦258⟧⟨332⟩⟦258⟧⟨333⟩⟦568⟧⟨334⟩⟦568⟧⟨335⟩
+[Varugad] ⟨336⟩⟦355⟧⟨337⟩⟦315⟧⟨338⟩⟦329⟧⟨339⟩⟦330⟧⟨340⟩⟦207⟧⟨341⟩⟦514⟧⟨342⟩⟦552⟧⟨343⟩⟦63⟧⟨344⟩⟦368⟧⟨345⟩⟦573⟧⟨346⟩⟦39⟧⟨347⟩⟦193⟧⟨348⟩
+[Varugad] ⟦469⟧⟨349⟩⟦566⟧⟨350⟩⟦419⟧⟨351⟩⟦184⟧⟨352⟩⟦107⟧⟨353⟩⟦107⟧⟨354⟩⟦165⟧⟨355⟩⟦551⟧⟨356⟩⟦397⟧⟨357⟩⟦129⟧⟨358⟩⟦451⟧⟨359⟩⟦245⟧⟨360⟩
+[Varugad] ⟨361⟩⟦100⟧⟨362⟩⟦100⟧⟨363⟩
+[Varugad] ⟨364⟩⟦30⟧⟨365⟩⟦142⟧⟨366⟩⟦351⟧⟨367⟩⟦245⟧⟨368⟩
+[Varugad] ⟦386⟧⟨369⟩⟦99⟧⟨370⟩⟦506⟧⟨371⟩⟦363⟧⟨372⟩⟦460⟧⟨373⟩⟦272⟧⟨374⟩⟦163⟧⟨375⟩⟦507⟧⟨376⟩⟦364⟧⟨377⟩⟦466⟧⟨378⟩⟦340⟧⟨379⟩⟦407⟧⟨380⟩⟦312⟧⟨381⟩⟦505⟧⟨382⟩⟦185⟧⟨383⟩
+[Varugad] ⟦202⟧⟨384⟩⟦313⟧⟨385⟩⟦522⟧⟨386⟩⟦566⟧⟨387⟩⟦409⟧⟨388⟩⟦161⟧⟨389⟩⟦538⟧⟨390⟩⟦340⟧⟨391⟩
+[Varugad] ⟨392⟩⟦505⟧⟨393⟩⟦185⟧⟨394⟩⟦386⟧⟨395⟩⟦99⟧⟨396⟩⟦235⟧⟨397⟩⟦237⟧⟨398⟩⟦447⟧⟨399⟩⟦126⟧⟨400⟩
+[Varugad] ⟨401⟩⟦402⟧⟨402⟩⟦141⟧⟨403⟩⟦564⟧⟨404⟩
+[Varugad] ⟨405⟩⟦377⟧⟨406⟩⟦276⟧⟨407⟩⟦406⟧⟨408⟩⟦340⟧⟨409⟩⟦516⟧⟨410⟩⟦127⟧⟨411⟩
+[Varugad] ⟦383⟧⟨412⟩⟦94⟧⟨413⟩⟦415⟧⟨414⟩⟦177⟧⟨415⟩⟦476⟧⟨416⟩⟦297⟧⟨417⟩⟦458⟧⟨418⟩⟦272⟧⟨419⟩
+[Varugad] ⟦471⟧⟨420⟩⟦299⟧⟨421⟩⟦235⟧⟨422⟩⟦237⟧⟨423⟩
+[Varugad] ⟦415⟧⟨424⟩⟦177⟧⟨425⟩⟦336⟧⟨426⟩⟦453⟧⟨427⟩⟦574⟧⟨428⟩⟦100⟧⟨429⟩
+[Varugad] ⟦435⟧⟨430⟩⟦374⟧⟨431⟩⟦415⟧⟨432⟩⟦177⟧⟨433⟩⟦56⟧⟨434⟩
+[Varugad] ⟦416⟧⟨435⟩⟦177⟧⟨436⟩⟦181⟧⟨437⟩⟦9⟧⟨438⟩⟦238⟧⟨439⟩⟦277⟧⟨440⟩⟦329⟧⟨441⟩⟦329⟧⟨442⟩
+[Varugad] ⟦418⟧⟨443⟩⟦183⟧⟨444⟩⟦581⟧⟨445⟩⟦408⟧⟨446⟩⟦159⟧⟨447⟩⟦478⟧⟨448⟩⟦299⟧⟨449⟩⟦86⟧⟨450⟩⟦304⟧⟨451⟩⟦333⟧⟨452⟩⟦170⟧⟨453⟩⟦201⟧⟨454⟩⟦201⟧⟨455⟩⟦53⟧⟨456⟩⟦272⟧⟨457⟩⟦147⟧⟨458⟩
+[Varugad] ⟨459⟩⟦562⟧⟨460⟩⟦479⟧⟨461⟩⟦324⟧⟨462⟩⟦124⟧⟨463⟩⟦124⟧⟨464⟩⟦513⟧⟨465⟩⟦545⟧⟨466⟩
+[Varugad] ⟨467⟩⟦8⟧⟨468⟩⟦247⟧⟨469⟩⟦303⟧⟨470⟩⟦303⟧⟨471⟩⟦283⟧⟨472⟩⟦283⟧⟨473⟩⟦35⟧⟨474⟩⟦176⟧⟨475⟩⟦513⟧⟨476⟩⟦545⟧⟨477⟩⟦410⟧⟨478⟩⟦162⟧⟨479⟩⟦103⟧⟨480⟩⟦182⟧⟨481⟩⟦457⟧⟨482⟩⟦266⟧⟨483⟩
+[Varugad] ⟦2⟧⟨484⟩⟦288⟧⟨485⟩⟦244⟧⟨486⟩
+[Varugad] ⟦270⟧⟨487⟩⟦564⟧⟨488⟩⟦75⟧⟨489⟩⟦581⟧⟨490⟩⟦534⟧⟨491⟩⟦283⟧⟨492⟩⟦482⟧⟨493⟩⟦318⟧⟨494⟩⟦523⟧⟨495⟩⟦569⟧⟨496⟩⟦521⟧⟨497⟩⟦565⟧⟨498⟩⟦408⟧⟨499⟩⟦159⟧⟨500⟩⟦396⟧⟨501⟩⟦128⟧⟨502⟩⟦52⟧⟨503⟩⟦272⟧⟨504⟩⟦157⟧⟨505⟩⟦147⟧⟨506⟩⟦72⟧⟨507⟩⟦581⟧⟨508⟩
+[Varugad] ⟨509⟩⟦396⟧⟨510⟩⟦128⟧⟨511⟩⟦500⟧⟨512⟩⟦358⟧⟨513⟩⟦157⟧⟨514⟩⟦93⟧⟨515⟩⟦581⟧⟨516⟩⟦581⟧⟨517⟩⟦420⟧⟨518⟩⟦185⟧⟨519⟩
+[Varugad] ⟨520⟩⟦391⟧⟨521⟩⟦116⟧⟨522⟩⟦430⟧⟨523⟩⟦304⟧⟨524⟩⟦533⟧⟨525⟩⟦564⟧⟨526⟩⟦49⟧⟨527⟩⟦549⟧⟨528⟩⟦401⟧⟨529⟩⟦136⟧⟨530⟩⟦493⟧⟨531⟩⟦340⟧⟨532⟩⟦108⟧⟨533⟩⟦356⟧⟨534⟩⟦581⟧⟨535⟩
+[Varugad] ⟨536⟩⟦581⟧⟨537⟩⟦464⟧⟨538⟩⟦272⟧⟨539⟩⟦157⟧⟨540⟩⟦90⟧⟨541⟩⟦36⟧⟨542⟩⟦185⟧⟨543⟩⟦28⟧⟨544⟩⟦138⟧⟨545⟩⟦143⟧⟨546⟩⟦143⟧⟨547⟩⟦351⟧⟨548⟩⟦245⟧⟨549⟩
+[Mount Fitch (Massachusetts)] ⟦260⟧⟨550⟩⟦510⟧⟨551⟩⟦286⟧⟨552⟩⟦398⟧⟨553⟩⟦246⟧⟨554⟩⟦13⟧⟨555⟩
+[Mount Fitch (Massachusetts)] ⟨556⟩⟦484⟧⟨557⟩⟦319⟧⟨558⟩⟦261⟧⟨559⟩⟦12⟧⟨560⟩⟦170⟧⟨561⟩⟦3⟧⟨562⟩⟦216⟧⟨563⟩⟦358⟧⟨564⟩⟦7⟧⟨565⟩⟦170⟧⟨566⟩⟦215⟧⟨567⟩⟦272⟧⟨568⟩
+[Mount Fitch (Massachusetts)] ⟦474⟧⟨569⟩⟦286⟧⟨570⟩⟦465⟧⟨571⟩⟦135⟧⟨572⟩⟦513⟧⟨573⟩⟦78⟧⟨574⟩⟦513⟧⟨575⟩⟦158⟧⟨576⟩⟦109⟧⟨577⟩
+[Mount Fitch (Massachusetts)] ⟦414⟧⟨578⟩⟦373⟧⟨579⟩⟦152⟧⟨580⟩⟦572⟧⟨581⟩⟦45⟧⟨582⟩⟦300⟧⟨583⟩⟦382⟧⟨584⟩
+[Mount Fitch (Massachusetts)] ⟦260⟧⟨585⟩⟦381⟧⟨586⟩⟦308⟧⟨587⟩⟦140⟧⟨588⟩⟦10⟧⟨589⟩⟦170⟧⟨590⟩⟦328⟧⟨591⟩⟦328⟧⟨592⟩⟦79⟧⟨593⟩⟦287⟧⟨594⟩⟦267⟧⟨595⟩⟦175⟧⟨596⟩⟦233⟧⟨597⟩
+[Mount Fitch (Massachusetts)] ⟨598⟩⟦269⟧⟨599⟩⟦340⟧⟨600⟩⟦363⟧⟨601⟩⟦546⟧⟨602⟩⟦342⟧⟨603⟩⟦342⟧⟨604⟩⟦40⟧⟨605⟩⟦203⟧⟨606⟩⟦509⟧⟨607⟩⟦373⟧⟨608⟩⟦263⟧⟨609⟩⟦382⟧⟨610⟩⟦69⟧⟨611⟩⟦294⟧⟨612⟩⟦509⟧⟨613⟩⟦373⟧⟨614⟩
+[Mount Fitch (Massachusetts)] ⟦512⟧⟨615⟩⟦544⟧⟨616⟩⟦204⟧⟨617⟩⟦204⟧⟨618⟩⟦210⟧⟨619⟩⟦91⟧⟨620⟩⟦393⟧⟨621⟩⟦119⟧⟨622⟩⟦512⟧⟨623⟩⟦544⟧⟨624⟩⟦520⟧⟨625⟩⟦373⟧⟨626⟩
+[List of lakes of Pakistan] ⟦281⟧⟨627⟩⟦239⟧⟨628⟩⟦226⟧⟨629⟩⟦226⟧⟨630⟩⟦317⟧⟨631⟩⟦317⟧⟨632⟩
+[List of lakes of Pakistan] ⟦440⟧⟨633⟩⟦221⟧⟨634⟩⟦281⟧⟨635⟩⟦450⟧⟨636⟩⟦440⟧⟨637⟩⟦221⟧⟨638⟩⟦359⟧⟨639⟩
+[List of lakes of Pakistan] ⟦438⟧⟨640⟩⟦221⟧⟨641⟩⟦88⟧⟨642⟩⟦98⟧⟨643⟩⟦279⟧⟨644⟩⟦254⟧⟨645⟩
+[List of lakes of Pakistan] ⟦427⟧⟨646⟩⟦221⟧⟨647⟩⟦281⟧⟨648⟩⟦487⟧⟨649⟩⟦379⟧⟨650⟩⟦221⟧⟨651⟩⟦527⟧⟨652⟩⟦579⟧⟨653⟩⟦87⟧⟨654⟩⟦85⟧⟨655⟩⟦280⟧⟨656⟩⟦248⟧⟨657⟩
+[List of lakes of Pakistan] ⟦490⟧⟨658⟩⟦221⟧⟨659⟩⟦281⟧⟨660⟩⟦434⟧⟨661⟩⟦87⟧⟨662⟩⟦85⟧⟨663⟩⟦17⟧⟨664⟩⟦248⟧⟨665⟩⟦380⟧⟨666⟩⟦221⟧⟨667⟩⟦527⟧⟨668⟩⟦579⟧⟨669⟩
+[Lake Kanasatka] ⟦223⟧⟨670⟩⟦24⟧⟨671⟩⟦76⟧⟨672⟩⟦221⟧⟨673⟩⟦120⟧⟨674⟩⟦439⟧⟨675⟩⟦123⟧⟨676⟩⟦557⟧⟨677⟩⟦513⟧⟨678⟩⟦545⟧⟨679⟩⟦259⟧⟨680⟩
+[Lake Kanasatka] ⟦154⟧⟨681⟩⟦243⟧⟨682⟩⟦536⟧⟨683⟩⟦221⟧⟨684⟩⟦234⟧⟨685⟩⟦213⟧⟨686⟩⟦334⟧⟨687⟩
+[Lake Kanasatka] ⟦438⟧⟨688⟩⟦221⟧⟨689⟩⟦195⟧⟨690⟩⟦252⟧⟨691⟩⟦170⟧⟨692⟩⟦225⟧⟨693⟩
+[List of lakes in Wisconsin] ⟨694⟩⟦5⟧⟨695⟩⟦226⟧⟨696⟩⟦578⟧⟨697⟩
+[List of lakes in Wisconsin] ⟨698⟩⟦71⟧⟨699⟩⟦290⟧⟨700⟩
+[List of lakes in Wisconsin] ⟨701⟩⟦343⟧⟨702⟩⟦343⟧⟨703⟩⟦349⟧⟨704⟩⟦76⟧⟨705⟩⟦302⟧⟨706⟩⟦4⟧⟨707⟩⟦76⟧⟨708⟩
+[List of lakes in Wisconsin] ⟨709⟩⟦145⟧⟨710⟩⟦145⟧⟨711⟩⟦33⟧⟨712⟩⟦170⟧⟨713⟩⟦14⟧⟨714⟩⟦170⟧⟨715⟩⟦570⟧⟨716⟩
+[List of lakes in Wisconsin] ⟦224⟧⟨717⟩⟦440⟧⟨718⟩⟦221⟧⟨719⟩⟦563⟧⟨720⟩⟦563⟧⟨721⟩⟦438⟧⟨722⟩⟦221⟧⟨723⟩⟦446⟧⟨724⟩⟦338⟧⟨725⟩
+[List of lakes in Wisconsin] ⟦441⟧⟨726⟩⟦239⟧⟨727⟩⟦221⟧⟨728⟩⟦291⟧⟨729⟩⟦526⟧⟨730⟩
+[List of lakes in Wisconsin] ⟦559⟧⟨731⟩⟦454⟧⟨732⟩⟦226⟧⟨733⟩⟦117⟧⟨734⟩⟦137⟧⟨735⟩
+[List of lakes in Wisconsin] ⟦242⟧⟨736⟩⟦226⟧⟨737⟩⟦488⟧⟨738⟩⟦265⟧⟨739⟩⟦264⟧⟨740⟩
+[Tustumena Lake] ⟦554⟧⟨741⟩⟦41⟧⟨742⟩⟦221⟧⟨743⟩⟦524⟧⟨744⟩⟦340⟧⟨745⟩⟦437⟧⟨746⟩⟦360⟧⟨747⟩⟦219⟧⟨748⟩⟦513⟧⟨749⟩⟦545⟧⟨750⟩⟦218⟧⟨751⟩
+[Tustumena Lake] ⟨752⟩⟦22⟧⟨753⟩⟦77⟧⟨754⟩⟦554⟧⟨755⟩⟦81⟧⟨756⟩⟦221⟧⟨757⟩⟦440⟧⟨758⟩⟦221⟧⟨759⟩⟦437⟧⟨760⟩
+[Tustumena Lake] ⟨761⟩⟦47⟧⟨762⟩⟦145⟧⟨763⟩⟦23⟧⟨764⟩⟦170⟧⟨765⟩⟦554⟧⟨766⟩⟦134⟧⟨767⟩
+[Tustumena Lake] ⟦438⟧⟨768⟩⟦221⟧⟨769⟩⟦249⟧⟨770⟩⟦249⟧⟨771⟩⟦150⟧⟨772⟩⟦150⟧⟨773⟩⟦553⟧⟨774⟩⟦332⟧⟨775⟩⟦139⟧⟨776⟩
+[Tustumena Lake] ⟨777⟩⟦470⟧⟨778⟩⟦278⟧⟨779⟩⟦424⟧⟨780⟩⟦199⟧⟨781⟩⟦436⟧⟨782⟩
+[Tustumena Lake] ⟦438⟧⟨783⟩⟦221⟧⟨784⟩⟦385⟧⟨785⟩⟦98⟧⟨786⟩⟦179⟧⟨787⟩⟦180⟧⟨788⟩⟦209⟧⟨789⟩⟦515⟧⟨790⟩
+[Tustumena Lake] ⟦532⟧⟨791⟩⟦221⟧⟨792⟩⟦57⟧⟨793⟩⟦316⟧⟨794⟩⟦348⟧⟨795⟩⟦113⟧⟨796⟩⟦426⟧⟨797⟩⟦577⟧⟨798⟩⟦553⟧⟨799⟩
+[Tustumena Lake] ⟦155⟧⟨800⟩⟦167⟧⟨801⟩⟦532⟧⟨802⟩⟦221⟧⟨803⟩⟦344⟧⟨804⟩⟦60⟧⟨805⟩⟦114⟧⟨806⟩⟦568⟧⟨807⟩⟦568⟧⟨808⟩
+[Tustumena Lake] ⟦156⟧⟨809⟩⟦550⟧⟨810⟩⟦208⟧⟨811⟩⟦378⟧⟨812⟩⟦6⟧⟨813⟩⟦579⟧⟨814⟩⟦580⟧⟨815⟩⟦314⟧⟨816⟩⟦255⟧⟨817⟩⟦461⟧⟨818⟩⟦337⟧⟨819⟩⟦413⟧⟨820⟩⟦192⟧⟨821⟩⟦43⟧⟨822⟩⟦232⟧⟨823⟩⟦208⟧⟨824⟩⟦208⟧⟨825⟩⟦508⟧⟨826⟩⟦80⟧⟨827⟩⟦529⟧⟨828⟩⟦98⟧⟨829⟩⟦206⟧⟨830⟩⟦206⟧⟨831⟩
+[Nohokomeen Glacier] ⟦271⟧⟨832⟩⟦571⟧⟨833⟩⟦517⟧⟨834⟩⟦366⟧⟨835⟩⟦567⟧⟨836⟩⟦26⟧⟨837⟩⟦125⟧⟨838⟩⟦463⟧⟨839⟩⟦346⟧⟨840⟩⟦217⟧⟨841⟩
+[Nohokomeen Glacier] ⟦271⟧⟨842⟩⟦452⟧⟨843⟩⟦251⟧⟨844⟩⟦211⟧⟨845⟩⟦146⟧⟨846⟩
+[Nohokomeen Glacier] ⟨847⟩⟦442⟧⟨848⟩⟦582⟧⟨849⟩⟦483⟧⟨850⟩⟦51⟧⟨851⟩⟦221⟧⟨852⟩⟦18⟧⟨853⟩⟦170⟧⟨854⟩
+[Nohokomeen Glacier] ⟨855⟩⟦421⟧⟨856⟩⟦188⟧⟨857⟩⟦102⟧⟨858⟩⟦311⟧⟨859⟩⟦376⟧⟨860⟩⟦581⟧⟨861⟩⟦444⟧⟨862⟩⟦582⟧⟨863⟩⟦230⟧⟨864⟩⟦170⟧⟨865⟩⟦443⟧⟨866⟩⟦582⟧⟨867⟩
+[Nohokomeen Glacier] ⟨868⟩⟦425⟧⟨869⟩⟦101⟧⟨870⟩⟦422⟧⟨871⟩⟦189⟧⟨872⟩⟦394⟧⟨873⟩⟦121⟧⟨874⟩⟦160⟧⟨875⟩⟦160⟧⟨876⟩⟦558⟧⟨877⟩⟦170⟧⟨878⟩
+[Lake Beseck] ⟦222⟧⟨879⟩⟦110⟧⟨880⟩⟦25⟧⟨881⟩⟦114⟧⟨882⟩⟦568⟧⟨883⟩⟦568⟧⟨884⟩⟦250⟧⟨885⟩⟦132⟧⟨886⟩⟦44⟧⟨887⟩⟦252⟧⟨888⟩⟦228⟧⟨889⟩⟦228⟧⟨890⟩⟦309⟧⟨891⟩⟦252⟧⟨892⟩⟦576⟧⟨893⟩⟦576⟧⟨894⟩
+[Lake Beseck] ⟨895⟩⟦404⟧⟨896⟩⟦164⟧⟨897⟩
+[Lake Beseck] ⟦431⟧⟨898⟩⟦144⟧⟨899⟩⟦170⟧⟨900⟩
+[Lake Beseck] ⟦403⟧⟨901⟩⟦144⟧⟨902⟩⟦541⟧⟨903⟩⟦172⟧⟨904⟩⟦170⟧⟨905⟩
+[Stony Man Mountain] ⟦371⟧⟨906⟩⟦370⟧⟨907⟩⟦48⟧⟨908⟩⟦262⟧⟨909⟩⟦335⟧⟨910⟩⟦561⟧⟨911⟩⟦455⟧⟨912⟩⟦174⟧⟨913⟩⟦286⟧⟨914⟩⟦390⟧⟨915⟩
+[Stony Man Mountain] ⟦214⟧⟨916⟩⟦160⟧⟨917⟩⟦170⟧⟨918⟩⟦248⟧⟨919⟩⟦326⟧⟨920⟩⟦327⟧⟨921⟩⟦231⟧⟨922⟩⟦27⟧⟨923⟩⟦308⟧⟨924⟩⟦19⟧⟨925⟩⟦170⟧⟨926⟩
+[Stony Man Mountain] ⟦456⟧⟨927⟩⟦262⟧⟨928⟩⟦236⟧⟨929⟩⟦137⟧⟨930⟩⟦345⟧⟨931⟩⟦547⟧⟨932⟩⟦547⟧⟨933⟩
+[Stony Man Mountain] ⟨934⟩⟦196⟧⟨935⟩⟦16⟧⟨936⟩⟦170⟧⟨937⟩⟦556⟧⟨938⟩⟦287⟧⟨939⟩⟦472⟧⟨940⟩⟦282⟧⟨941⟩⟦15⟧⟨942⟩⟦170⟧⟨943⟩
+[Stony Man Mountain] ⟦491⟧⟨944⟩⟦322⟧⟨945⟩⟦509⟧⟨946⟩⟦373⟧⟨947⟩⟦495⟧⟨948⟩⟦229⟧⟨949⟩⟦170⟧⟨950⟩⟦70⟧⟨951⟩⟦220⟧⟨952⟩
+[Stony Man Mountain] ⟨953⟩⟦322⟧⟨954⟩⟦322⟧⟨955⟩⟦497⟧⟨956⟩⟦546⟧⟨957⟩⟦197⟧⟨958⟩⟦73⟧⟨959⟩⟦253⟧⟨960⟩⟦496⟧⟨961⟩⟦83⟧⟨962⟩⟦170⟧⟨963⟩
+[Stony Man Mountain] ⟦474⟧⟨964⟩⟦286⟧⟨965⟩⟦382⟧⟨966⟩⟦1⟧⟨967⟩⟦509⟧⟨968⟩⟦373⟧⟨969⟩⟦387⟧⟨970⟩⟦547⟧⟨971⟩⟦547⟧⟨972⟩
+[Stony Man Mountain] ⟨973⟩⟦519⟧⟨974⟩⟦347⟧⟨975⟩⟦370⟧⟨976⟩⟦32⟧⟨977⟩⟦104⟧⟨978⟩⟦171⟧⟨979⟩⟦548⟧⟨980⟩⟦256⟧⟨981⟩⟦227⟧⟨982⟩
+[Stony Man Mountain] ⟦456⟧⟨983⟩⟦262⟧⟨984⟩⟦89⟧⟨985⟩⟦105⟧⟨986⟩⟦191⟧⟨987⟩⟦200⟧⟨988⟩⟦200⟧⟨989⟩⟦306⟧⟨990⟩⟦306⟧⟨991⟩
+
+[user]
+
+问题：
+The largest lake in New Hampshire sits how many vertical feet lower than Lake Kanasatka?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

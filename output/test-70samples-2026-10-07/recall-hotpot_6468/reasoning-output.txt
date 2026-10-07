@@ -1,0 +1,29 @@
+# 路径一：基于定义句的直接提取
+
+步骤1：使用⟦140⟧，提取定义句主干——"The humanzee" 后接同位语，说明其性质为 ⟦12⟧（a hypothetical chimpanzee/human hybrid），判断该词指代的是黑猩猩与人类的假想杂交后代。
+
+步骤2：综合⟦68⟧⟦167⟧⟦168⟧，提取分类学信息——"Homo" 与 "sapiens sapiens" 组合指向人类（Homo sapiens sapiens），确认杂交的另一方为人类。
+
+步骤3：使用⟦44⟧，提取关键词 "chimpanzee"，与⟦12⟧中的 "chimpanzee/human hybrid" 交叉验证，确认与人类杂交的类人猿是黑猩猩。
+
+结论：Humanzee 是人类与黑猩猩（chimpanzee）的假想杂交后代。
+
+# 路径二：基于别名与同义词的交叉验证
+
+步骤1：使用⟦130⟧⟦80⟧，提取别名信息——"the Chuman" 和 "Manpanzee" 均为 humanzee 的别称，其中 "Man" 对应人类，"panzee" 对应 chimpanzee，从构词上指向黑猩猩。
+
+步骤2：综合⟦70⟧⟦72⟧，提取主题词——"human-chimpanzee hybridization" 和 "hybridization" 明确将杂交对象锁定为 chimpanzee。
+
+步骤3：使用⟦73⟧，提取历史人物 Ilya Ivanovich Ivanov，其尝试进行人类与黑猩猩杂交实验，从历史实践角度佐证杂交对象为黑猩猩。
+
+结论：通过别名构词、主题词及历史实验三重证据，确认与人类杂交的类人猿是黑猩猩。
+
+# 路径三：基于历史尝试与报道的佐证
+
+步骤1：使用⟦24⟧⟦31⟧⟦177⟧，提取历史尝试信息——"An unsuccessful attempt to breed such a hybrid was made by Ilya Ivanovich Ivanov in the 1920s"，说明曾有人尝试培育人类与黑猩猩的杂交后代。
+
+步骤2：综合⟦88⟧⟦108⟧⟦89⟧⟦189⟧⟦125⟧，提取报道信息——"occasional reports of a chimp named Oliver during the 1970s"，Oliver 是一只被传言为人类与黑猩猩杂交的黑猩猩，进一步佐证杂交对象为黑猩猩。
+
+步骤3：使用⟦87⟧⟦193⟧，提取结论性信息——"none of them have been confirmed"，说明所有报道均未证实，但传闻本身指向的杂交对象仍是黑猩猩。
+
+结论：历史实验尝试与民间报道均指向黑猩猩，Humanzee 是人类与黑猩猩的假想杂交后代。

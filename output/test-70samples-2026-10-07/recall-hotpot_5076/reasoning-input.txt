@@ -1,0 +1,78 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Dumbo] ⟨1⟩⟦17⟧⟨2⟩⟨3⟩⟦296⟧⟨4⟩⟨5⟩
+[Dumbo] ⟨21⟩⟨22⟩⟦130⟧⟨23⟩⟦28⟧⟨24⟩⟨25⟩⟨26⟩
+[Dumbo (air-sea rescue)] ⟦93⟧⟦258⟧⟦4⟧ | ⟦264⟧⟦165⟧⟨97⟩⟨96⟩⟦297⟧⟦93⟧⟨98⟩⟨99⟩⟦258⟧⟨100⟩⟨101⟩⟦241⟧⟨102⟩⟨103⟩⟦4⟧⟨104⟩⟦176⟧⟨105⟩
+[Dan Crow (musician)] ⟦88⟧
+[The Reluctant Dragon (1941 film)] ⟦199⟧
+[Down on the Farm (1941 film)] ⟦103⟧ | ⟦103⟧
+[Music of Lightning Returns: Final Fantasy XIII] ⟦68⟧ | ⟦68⟧
+
+符号表：
+⟦4⟧ = "Dumbo
+⟦17⟧ = a 1941 American animated film
+⟦28⟧ = a semi-anthropomorphic elephant
+⟦68⟧ = character
+⟦88⟧ = Dumbo
+⟦93⟧ = elephant
+⟦103⟧ = film
+⟦130⟧ = Jumbo Jr.
+⟦165⟧ = name
+⟦176⟧ = October
+⟦199⟧ = RKO Radio Pictures
+⟦241⟧ = the animated film
+⟦258⟧ = The main character
+⟦264⟧ = The name "Dumbo
+⟦296⟧ = Walt Disney Productions
+⟦297⟧ = Walt Disney's flying elephant
+
+占位符映射：
+⟨1⟩ =  is 
+⟨2⟩ = 
+⟨3⟩ =  produced by 
+⟨4⟩ =  and released by 
+⟨5⟩ = .
+⟨21⟩ = 
+⟨22⟩ =  is 
+⟨23⟩ = , 
+⟨24⟩ = 
+⟨25⟩ =  who is cruelly nicknamed 
+⟨26⟩ = ".
+⟨96⟩ = 
+⟨97⟩ =  "Dumbo" came from 
+⟨98⟩ = 
+⟨99⟩ = , 
+⟨100⟩ = 
+⟨101⟩ =  of 
+⟨102⟩ = 
+⟨103⟩ =  
+⟨104⟩ = ", appearing in 
+⟨105⟩ =  1941.
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Who composed music for this 1941 American animated film with the main character of Jumbo Jr.?

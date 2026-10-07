@@ -1,0 +1,381 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = a 121-page report
+⟦2⟧ = a book
+⟦3⟧ = a candidate
+⟦4⟧ = a Democratic member
+⟦5⟧ = a dentistry career
+⟦6⟧ = a Distinguished Scholar
+⟦7⟧ = a global law firm
+⟦8⟧ = a labor member
+⟦9⟧ = a long career
+⟦10⟧ = a member
+⟦11⟧ = a natural contaminant
+⟦12⟧ = a number
+⟦13⟧ = a Professor
+⟦14⟧ = a Research Associate
+⟦15⟧ = a scientist
+⟦16⟧ = a term
+⟦17⟧ = absence
+⟦18⟧ = Acosta
+⟦19⟧ = Acting Secretary
+⟦20⟧ = Acting Secretary Seth Harris
+⟦21⟧ = addition
+⟦22⟧ = additional evidence
+⟦23⟧ = Administration
+⟦24⟧ = administrator
+⟦25⟧ = advice
+⟦26⟧ = Alexander Acosta
+⟦27⟧ = an administrator
+⟦28⟧ = an American attorney
+⟦29⟧ = an American politician
+⟦30⟧ = an environmental consultant
+⟦31⟧ = appointment
+⟦32⟧ = April
+⟦33⟧ = areas
+⟦34⟧ = Assistant Attorney General
+⟦35⟧ = attorney
+⟦36⟧ = Australia
+⟦37⟧ = Barrows
+⟦38⟧ = biology
+⟦39⟧ = board
+⟦40⟧ = book
+⟦41⟧ = bronchial cancer
+⟦42⟧ = cabinet
+⟦43⟧ = cancer
+⟦44⟧ = candidate
+⟦45⟧ = career
+⟦46⟧ = Charles A. Hunt
+⟦47⟧ = Charleston
+⟦48⟧ = Chief Economist
+⟦49⟧ = Civil Rights
+⟦50⟧ = Clackamas County
+⟦51⟧ = Clackamas County Chair
+⟦52⟧ = confirmation
+⟦53⟧ = consent
+⟦54⟧ = consideration
+⟦55⟧ = consultant
+⟦56⟧ = contaminant
+⟦57⟧ = contamination
+⟦58⟧ = context
+⟦59⟧ = Cornell University's School
+⟦60⟧ = corruption
+⟦61⟧ = Counsel
+⟦62⟧ = crime
+⟦63⟧ = Dave Hunt
+⟦64⟧ = day
+⟦65⟧ = dean
+⟦66⟧ = death
+⟦67⟧ = December
+⟦68⟧ = Delegates
+⟦69⟧ = dentistry
+⟦70⟧ = Dentons
+⟦71⟧ = Deputy Assistant Secretary
+⟦72⟧ = Directors
+⟦73⟧ = District
+⟦74⟧ = District 30 and District 31 seats
+⟦75⟧ = Economic Research
+⟦76⟧ = Economics
+⟦77⟧ = Ed Hugler
+⟦78⟧ = Education
+⟦79⟧ = Edward Charles "Ed" Hugler
+⟦80⟧ = employment
+⟦81⟧ = engineering
+⟦82⟧ = environmental contamination
+⟦83⟧ = evidence
+⟦84⟧ = February
+⟦85⟧ = February 2–24
+⟦86⟧ = federal prosecutor
+⟦87⟧ = firm
+⟦88⟧ = Florida
+⟦89⟧ = Florida International University College
+⟦90⟧ = Germany
+⟦91⟧ = Gloucester
+⟦92⟧ = government
+⟦93⟧ = Harris
+⟦94⟧ = hazards
+⟦95⟧ = health
+⟦96⟧ = healthcare
+⟦97⟧ = hearings
+⟦98⟧ = her A.M.
+⟦99⟧ = Her current research
+⟦100⟧ = her death
+⟦101⟧ = Her research
+⟦102⟧ = Hilda Solis
+⟦103⟧ = Hilda Solis's nomination
+⟦104⟧ = his formal position
+⟦105⟧ = his own law office
+⟦106⟧ = his post
+⟦107⟧ = his retirement
+⟦108⟧ = his service
+⟦109⟧ = House Majority Leader
+⟦110⟧ = Hunt
+⟦111⟧ = immigration
+⟦112⟧ = immigration reform legislation
+⟦113⟧ = Industrial
+⟦114⟧ = industry
+⟦115⟧ = inequality
+⟦116⟧ = innovation
+⟦117⟧ = January
+⟦118⟧ = Jennifer Hunt
+⟦119⟧ = Labor
+⟦120⟧ = labor organizations
+⟦121⟧ = Labor Relations
+⟦122⟧ = labor trustee
+⟦123⟧ = Labor's Office
+⟦124⟧ = Law
+⟦125⟧ = lecturer
+⟦126⟧ = legislation
+⟦127⟧ = legislature
+⟦128⟧ = link
+⟦129⟧ = Local Chairman
+⟦130⟧ = Local President
+⟦131⟧ = Locals
+⟦132⟧ = Locomotive Engineers
+⟦133⟧ = Love Canal
+⟦134⟧ = Management
+⟦135⟧ = Mark Allen Hunt
+⟦136⟧ = May
+⟦137⟧ = media
+⟦138⟧ = member
+⟦139⟧ = Merkley
+⟦140⟧ = Microeconomic Analysis
+⟦141⟧ = Minority Leader Jeff Merkley
+⟦142⟧ = months
+⟦143⟧ = New York
+⟦144⟧ = New Zealand
+⟦145⟧ = nomination
+⟦146⟧ = Norfolk
+⟦147⟧ = November
+⟦148⟧ = number
+⟦149⟧ = numerous positions
+⟦150⟧ = office
+⟦151⟧ = official
+⟦152⟧ = operation
+⟦153⟧ = Operations
+⟦154⟧ = Oregon
+⟦155⟧ = organizations
+⟦156⟧ = outgoing board member V.M. "Butch" Speakman
+⟦157⟧ = oversight
+⟦158⟧ = page
+⟦159⟧ = Pensions
+⟦160⟧ = Physical Anthropology
+⟦161⟧ = policy
+⟦162⟧ = politician
+⟦163⟧ = polonium
+⟦164⟧ = position
+⟦165⟧ = positions
+⟦166⟧ = post
+⟦167⟧ = practices
+⟦168⟧ = pregnant women
+⟦169⟧ = President Barack Obama
+⟦170⟧ = President Barack Obama's Cabinet
+⟦171⟧ = President Donald Trump
+⟦172⟧ = President George W. Bush
+⟦173⟧ = President Obama
+⟦174⟧ = prosecutor
+⟦175⟧ = public health and radiation biology
+⟦176⟧ = public health solutions
+⟦177⟧ = Radcliffe College
+⟦178⟧ = radiation
+⟦179⟧ = railroad
+⟦180⟧ = Railroad Signalmen
+⟦181⟧ = recession
+⟦182⟧ = Recording-Financial Secretary
+⟦183⟧ = reform
+⟦184⟧ = Rene Alexander Acosta
+⟦185⟧ = report
+⟦186⟧ = Representatives
+⟦187⟧ = research
+⟦188⟧ = resignation
+⟦189⟧ = retirement
+⟦190⟧ = Rutgers University
+⟦191⟧ = safety
+⟦192⟧ = science
+⟦193⟧ = scientist
+⟦194⟧ = seats
+⟦195⟧ = Secretary
+⟦196⟧ = Secretary Thomas Perez
+⟦197⟧ = Senate confirmation hearings
+⟦198⟧ = September
+⟦199⟧ = service
+⟦200⟧ = session
+⟦201⟧ = Seth D. Harris
+⟦202⟧ = sites
+⟦203⟧ = six months
+⟦204⟧ = smoking
+⟦205⟧ = Solis
+⟦206⟧ = solutions
+⟦207⟧ = Southern Railroad
+⟦208⟧ = Speaker
+⟦209⟧ = state
+⟦210⟧ = State Representative
+⟦211⟧ = subcommittee
+⟦212⟧ = term
+⟦213⟧ = That position
+⟦214⟧ = the "New York Times
+⟦215⟧ = the 11th United States Deputy Secretary
+⟦216⟧ = the 2007–2009 session
+⟦217⟧ = the 2008-2009 recession
+⟦218⟧ = the 2009–2011 session
+⟦219⟧ = the 27th and current United States Secretary
+⟦220⟧ = the absence
+⟦221⟧ = the Acting U.S. Secretary
+⟦222⟧ = the advice
+⟦223⟧ = The appointment
+⟦224⟧ = the areas
+⟦225⟧ = the Assistant Secretary
+⟦226⟧ = the Board
+⟦227⟧ = the Brotherhood
+⟦228⟧ = the California legislature
+⟦229⟧ = the context
+⟦230⟧ = the current Labor Member
+⟦231⟧ = the Department
+⟦232⟧ = the Deputy Secretary
+⟦233⟧ = the first and only Hispanic member
+⟦234⟧ = the former dean
+⟦235⟧ = the front page
+⟦236⟧ = the Health
+⟦237⟧ = the House
+⟦238⟧ = the International Secretary-Treasurer
+⟦239⟧ = the joint healthcare subcommittee
+⟦240⟧ = the link
+⟦241⟧ = the National Bureau
+⟦242⟧ = the National Labor Relations Board
+⟦243⟧ = the National Railroad Retirement Trust Fund
+⟦244⟧ = the Obama Administration
+⟦245⟧ = the Oregon House
+⟦246⟧ = the Oregon House Speaker
+⟦247⟧ = the Overseas Private Investment Corporation's Board
+⟦248⟧ = the position
+⟦249⟧ = the President
+⟦250⟧ = the Public Policy & Regulation and Employment & Labor practices
+⟦251⟧ = the Railroad Employee's National Health and Welfare Plan
+⟦252⟧ = the railroad industry
+⟦253⟧ = the resignation
+⟦254⟧ = the second-highest-ranking official
+⟦255⟧ = the Secretary
+⟦256⟧ = the Southern District
+⟦257⟧ = the state
+⟦258⟧ = the Transportation Trades Department
+⟦259⟧ = the Treasury
+⟦260⟧ = the U.S. Congress
+⟦261⟧ = the U.S. Department
+⟦262⟧ = the U.S. science and engineering workforce
+⟦263⟧ = the U.S. Secretary
+⟦264⟧ = the U.S. Senate
+⟦265⟧ = the United Cerebral Palsy Association's Board
+⟦266⟧ = the United States
+⟦267⟧ = the United States Army
+⟦268⟧ = the United States Department
+⟦269⟧ = The United States Deputy Secretary
+⟦270⟧ = the United States Environmental Protection Agency
+⟦271⟧ = the United States federal government
+⟦272⟧ = the United States House
+⟦273⟧ = the United States Railroad Retirement Board
+⟦274⟧ = the United States Senate
+⟦275⟧ = the United States Senate Committee
+⟦276⟧ = the West Virginia House
+⟦277⟧ = Three Mile Island Nuclear Generating Station
+⟦278⟧ = tobacco
+⟦279⟧ = Trainmen
+⟦280⟧ = transition
+⟦281⟧ = transition economics
+⟦282⟧ = Trump's cabinet
+⟦283⟧ = trustee
+⟦284⟧ = unemployment
+⟦285⟧ = unemployment policy
+⟦286⟧ = United States Secretary
+⟦287⟧ = Vilma Rose Hunt
+⟦288⟧ = visiting lecturer
+⟦289⟧ = W.A "Walt" Barrows
+⟦290⟧ = wage
+⟦291⟧ = wage inequality
+⟦292⟧ = West Virginia
+⟦293⟧ = West Virginia Senate
+⟦294⟧ = West Virginia's 2nd congressional district
+⟦295⟧ = women
+⟦296⟧ = Work
+⟦297⟧ = workforce
+⟦298⟧ = workplace
+⟦299⟧ = workplace hazards
+⟦300⟧ = workplace safety
+⟦301⟧ = World War
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Mark Hunt (politician)] ⟦135⟧⟨1⟩⟦47⟧⟨2⟩⟦292⟧⟨3⟩⟦29⟧⟨4⟩⟦162⟧⟨5⟩⟦4⟧⟨6⟩⟦138⟧⟨7⟩⟦276⟧⟨8⟩⟦68⟧⟨9⟩⟦73⟧⟨10⟩⟦117⟧⟨11⟩
+[Mark Hunt (politician)] ⟦110⟧⟨12⟩⟦117⟧⟨13⟩⟦117⟧⟨14⟩⟦117⟧⟨15⟩⟦117⟧⟨16⟩⟦117⟧⟨17⟩⟦117⟧⟨18⟩⟦74⟧⟨19⟩⟦194⟧⟨20⟩
+[Mark Hunt (politician)] ⟦110⟧⟨21⟩⟦3⟧⟨22⟩⟦44⟧⟨23⟩⟦293⟧⟨24⟩⟦3⟧⟨25⟩⟦44⟧⟨26⟩⟦272⟧⟨27⟩⟦186⟧⟨28⟩⟦294⟧⟨29⟩⟦73⟧⟨30⟩
+[Alexander Acosta] ⟦184⟧⟨31⟩⟦28⟧⟨32⟩⟦35⟧⟨33⟩⟦162⟧⟨34⟩⟦162⟧⟨35⟩⟦219⟧⟨36⟩⟦119⟧⟨37⟩
+[Alexander Acosta] ⟨38⟩⟦172⟧⟨39⟩⟦242⟧⟨40⟩⟦34⟧⟨41⟩⟦49⟧⟨42⟩⟦86⟧⟨43⟩⟦174⟧⟨44⟩⟦256⟧⟨45⟩⟦88⟧⟨46⟩
+[Alexander Acosta] ⟨47⟩⟦171⟧⟨48⟩⟦18⟧⟨49⟩⟦286⟧⟨50⟩⟦119⟧⟨51⟩
+[Alexander Acosta] ⟦18⟧⟨52⟩⟦233⟧⟨53⟩⟦138⟧⟨54⟩⟦282⟧⟨55⟩⟦42⟧⟨56⟩
+[Alexander Acosta] ⟨57⟩⟦234⟧⟨58⟩⟦65⟧⟨59⟩⟦89⟧⟨60⟩⟦124⟧⟨61⟩
+[Jennifer Hunt] ⟦118⟧⟨62⟩⟦13⟧⟨63⟩⟦76⟧⟨64⟩⟦190⟧⟨65⟩
+[Jennifer Hunt] ⟨66⟩⟦71⟧⟨67⟩⟦140⟧⟨68⟩⟦261⟧⟨69⟩⟦259⟧⟨70⟩⟦16⟧⟨71⟩⟦212⟧⟨72⟩⟦48⟧⟨73⟩⟦263⟧⟨74⟩⟦119⟧⟨75⟩⟦20⟧⟨76⟩⟦196⟧⟨77⟩
+[Jennifer Hunt] ⟨78⟩⟦14⟧⟨79⟩⟦241⟧⟨80⟩⟦75⟧⟨81⟩
+[Jennifer Hunt] ⟨82⟩⟦187⟧⟨83⟩⟦187⟧⟨84⟩⟦224⟧⟨85⟩⟦33⟧⟨86⟩⟦80⟧⟨87⟩⟦80⟧⟨88⟩⟦284⟧⟨89⟩⟦285⟧⟨90⟩⟦161⟧⟨91⟩⟦111⟧⟨92⟩⟦111⟧⟨93⟩⟦290⟧⟨94⟩⟦291⟧⟨95⟩⟦115⟧⟨96⟩⟦280⟧⟨97⟩⟦281⟧⟨98⟩⟦76⟧⟨99⟩⟦62⟧⟨100⟩⟦62⟧⟨101⟩⟦60⟧⟨102⟩⟦60⟧⟨103⟩
+[Jennifer Hunt] ⟦99⟧⟨104⟩⟦187⟧⟨105⟩⟦111⟧⟨106⟩⟦111⟧⟨107⟩⟦116⟧⟨108⟩⟦116⟧⟨109⟩⟦266⟧⟨110⟩⟦262⟧⟨111⟩⟦192⟧⟨112⟩⟦81⟧⟨113⟩⟦297⟧⟨114⟩⟦217⟧⟨115⟩⟦181⟧⟨116⟩⟦90⟧⟨117⟩
+[Jennifer Hunt] ⟦101⟧⟨118⟩⟦187⟧⟨119⟩⟦111⟧⟨120⟩⟦111⟧⟨121⟩⟦137⟧⟨122⟩⟦137⟧⟨123⟩⟦229⟧⟨124⟩⟦58⟧⟨125⟩⟦111⟧⟨126⟩⟦112⟧⟨127⟩⟦183⟧⟨128⟩⟦126⟧⟨129⟩⟦54⟧⟨130⟩⟦54⟧⟨131⟩⟦260⟧⟨132⟩
+[Vilma Rose Hunt] ⟦287⟧⟨133⟩⟦147⟧⟨134⟩⟦67⟧⟨135⟩⟦15⟧⟨136⟩⟦193⟧⟨137⟩⟦187⟧⟨138⟩⟦187⟧⟨139⟩⟦178⟧⟨140⟩⟦178⟧⟨141⟩⟦300⟧⟨142⟩⟦191⟧⟨143⟩⟦295⟧⟨144⟩⟦295⟧⟨145⟩
+[Vilma Rose Hunt] ⟨146⟩⟦5⟧⟨147⟩⟦69⟧⟨148⟩⟦45⟧⟨149⟩⟦36⟧⟨150⟩⟦144⟧⟨151⟩⟦110⟧⟨152⟩⟦266⟧⟨153⟩⟦98⟧⟨154⟩⟦160⟧⟨155⟩⟦177⟧⟨156⟩⟦175⟧⟨157⟩⟦95⟧⟨158⟩⟦178⟧⟨159⟩⟦38⟧⟨160⟩
+[Vilma Rose Hunt] ⟨161⟩⟦110⟧⟨162⟩⟦163⟧⟨163⟩⟦163⟧⟨164⟩⟦11⟧⟨165⟩⟦56⟧⟨166⟩⟦278⟧⟨167⟩⟦278⟧⟨168⟩⟦22⟧⟨169⟩⟦83⟧⟨170⟩⟦240⟧⟨171⟩⟦128⟧⟨172⟩⟦204⟧⟨173⟩⟦204⟧⟨174⟩⟦41⟧⟨175⟩⟦43⟧⟨176⟩
+[Vilma Rose Hunt] ⟨177⟩⟦1⟧⟨178⟩⟦158⟧⟨179⟩⟦185⟧⟨180⟩⟦298⟧⟨181⟩⟦299⟧⟨182⟩⟦94⟧⟨183⟩⟦168⟧⟨184⟩⟦295⟧⟨185⟩⟦235⟧⟨186⟩⟦158⟧⟨187⟩⟦214⟧⟨188⟩
+[Vilma Rose Hunt] ⟨189⟩⟦2⟧⟨190⟩⟦40⟧⟨191⟩⟦296⟧⟨192⟩⟦296⟧⟨193⟩⟦236⟧⟨194⟩⟦295⟧⟨195⟩
+[Vilma Rose Hunt] ⟨196⟩⟦110⟧⟨197⟩⟦27⟧⟨198⟩⟦24⟧⟨199⟩⟦270⟧⟨200⟩⟦176⟧⟨201⟩⟦95⟧⟨202⟩⟦206⟧⟨203⟩⟦82⟧⟨204⟩⟦57⟧⟨205⟩⟦202⟧⟨206⟩⟦202⟧⟨207⟩⟦133⟧⟨208⟩⟦143⟧⟨209⟩⟦277⟧⟨210⟩
+[Vilma Rose Hunt] ⟦110⟧⟨211⟩⟦91⟧⟨212⟩⟦30⟧⟨213⟩⟦55⟧⟨214⟩⟦288⟧⟨215⟩⟦125⟧⟨216⟩⟦100⟧⟨217⟩⟦66⟧⟨218⟩
+[Dave Hunt (Oregon politician)] ⟦63⟧⟨219⟩⟦29⟧⟨220⟩⟦162⟧⟨221⟩⟦257⟧⟨222⟩⟦209⟧⟨223⟩⟦154⟧⟨224⟩
+[Dave Hunt (Oregon politician)] ⟨225⟩⟦246⟧⟨226⟩⟦210⟧⟨227⟩⟦73⟧⟨228⟩⟦245⟧⟨229⟩⟦186⟧⟨230⟩⟦50⟧⟨231⟩
+[Dave Hunt (Oregon politician)] ⟨232⟩⟦109⟧⟨233⟩⟦216⟧⟨234⟩⟦200⟧⟨235⟩⟦141⟧⟨236⟩⟦208⟧⟨237⟩
+[Dave Hunt (Oregon politician)] ⟦110⟧⟨238⟩⟦208⟧⟨239⟩⟦218⟧⟨240⟩⟦200⟧⟨241⟩⟦139⟧⟨242⟩⟦274⟧⟨243⟩
+[Dave Hunt (Oregon politician)] ⟨244⟩⟦108⟧⟨245⟩⟦199⟧⟨246⟩⟦237⟧⟨247⟩⟦110⟧⟨248⟩⟦51⟧⟨249⟩
+[Edward C. Hugler] ⟦79⟧⟨250⟩⟦71⟧⟨251⟩⟦153⟧⟨252⟩⟦261⟧⟨253⟩⟦123⟧⟨254⟩⟦225⟧⟨255⟩⟦23⟧⟨256⟩⟦134⟧⟨257⟩
+[Edward C. Hugler] ⟦213⟧⟨258⟩⟦164⟧⟨259⟩⟦104⟧⟨260⟩⟦164⟧⟨261⟩⟦268⟧⟨262⟩⟦119⟧⟨263⟩⟦32⟧⟨264⟩
+[Edward C. Hugler] ⟨265⟩⟦19⟧⟨266⟩⟦119⟧⟨267⟩⟦85⟧⟨268⟩⟦103⟧⟨269⟩⟦145⟧⟨270⟩⟦169⟧⟨271⟩⟦197⟧⟨272⟩⟦52⟧⟨273⟩⟦97⟧⟨274⟩
+[Edward C. Hugler] ⟨275⟩⟦248⟧⟨276⟩⟦164⟧⟨277⟩⟦205⟧⟨278⟩⟦195⟧⟨279⟩⟦119⟧⟨280⟩
+[Edward C. Hugler] ⟦77⟧⟨281⟩⟦19⟧⟨282⟩⟦119⟧⟨283⟩⟦117⟧⟨284⟩⟦32⟧⟨285⟩⟦26⟧⟨286⟩⟦150⟧⟨287⟩⟦150⟧⟨288⟩
+[Charles A. Hunt] ⟦46⟧⟨289⟩⟦228⟧⟨290⟩⟦127⟧⟨291⟩⟦301⟧⟨292⟩⟦267⟧⟨293⟩
+[Seth Harris] ⟦201⟧⟨294⟩⟦215⟧⟨295⟩⟦119⟧⟨296⟩⟦203⟧⟨297⟩⟦142⟧⟨298⟩⟦221⟧⟨299⟩⟦119⟧⟨300⟩⟦10⟧⟨301⟩⟦138⟧⟨302⟩⟦170⟧⟨303⟩
+[Seth Harris] ⟨304⟩⟦173⟧⟨305⟩⟦84⟧⟨306⟩⟦93⟧⟨307⟩⟦264⟧⟨308⟩⟦136⟧⟨309⟩⟦19⟧⟨310⟩⟦119⟧⟨311⟩⟦253⟧⟨312⟩⟦188⟧⟨313⟩⟦102⟧⟨314⟩⟦117⟧⟨315⟩
+[Seth Harris] ⟦93⟧⟨316⟩⟦10⟧⟨317⟩⟦138⟧⟨318⟩⟦247⟧⟨319⟩⟦72⟧⟨320⟩
+[Seth Harris] ⟦93⟧⟨321⟩⟦106⟧⟨322⟩⟦166⟧⟨323⟩⟦117⟧⟨324⟩
+[Seth Harris] ⟨325⟩⟦244⟧⟨326⟩⟦93⟧⟨327⟩⟦6⟧⟨328⟩⟦59⟧⟨329⟩⟦113⟧⟨330⟩⟦121⟧⟨331⟩⟦61⟧⟨332⟩⟦250⟧⟨333⟩⟦167⟧⟨334⟩⟦70⟧⟨335⟩⟦7⟧⟨336⟩⟦124⟧⟨337⟩⟦87⟧⟨338⟩⟦105⟧⟨339⟩⟦124⟧⟨340⟩⟦150⟧⟨341⟩
+[Seth Harris] ⟦93⟧⟨342⟩⟦10⟧⟨343⟩⟦138⟧⟨344⟩⟦265⟧⟨345⟩⟦72⟧⟨346⟩
+[W.A. Barrows] ⟦289⟧⟨347⟩⟦230⟧⟨348⟩⟦273⟧⟨349⟩
+[W.A. Barrows] ⟨350⟩⟦169⟧⟨351⟩⟦84⟧⟨352⟩⟦264⟧⟨353⟩⟦198⟧⟨354⟩
+[W.A. Barrows] ⟨355⟩⟦156⟧⟨356⟩⟦39⟧⟨357⟩⟦138⟧⟨358⟩⟦107⟧⟨359⟩⟦189⟧⟨360⟩
+[W.A. Barrows] ⟦223⟧⟨361⟩⟦31⟧⟨362⟩⟦37⟧⟨363⟩⟦226⟧⟨364⟩⟦12⟧⟨365⟩⟦148⟧⟨366⟩⟦119⟧⟨367⟩⟦120⟧⟨368⟩⟦155⟧⟨369⟩⟦227⟧⟨370⟩⟦132⟧⟨371⟩⟦279⟧⟨372⟩⟦258⟧⟨373⟩
+[W.A. Barrows] ⟦37⟧⟨374⟩⟦9⟧⟨375⟩⟦45⟧⟨376⟩⟦252⟧⟨377⟩⟦179⟧⟨378⟩⟦114⟧⟨379⟩⟦146⟧⟨380⟩⟦207⟧⟨381⟩
+[W.A. Barrows] ⟨382⟩⟦149⟧⟨383⟩⟦165⟧⟨384⟩⟦131⟧⟨385⟩⟦129⟧⟨386⟩⟦130⟧⟨387⟩⟦182⟧⟨388⟩
+[W.A. Barrows] ⟨389⟩⟦37⟧⟨390⟩⟦238⟧⟨391⟩⟦227⟧⟨392⟩⟦180⟧⟨393⟩
+[W.A. Barrows] ⟨394⟩⟦21⟧⟨395⟩⟦21⟧⟨396⟩⟦8⟧⟨397⟩⟦119⟧⟨398⟩⟦138⟧⟨399⟩⟦239⟧⟨400⟩⟦96⟧⟨401⟩⟦211⟧⟨402⟩⟦251⟧⟨403⟩
+[W.A. Barrows] ⟨404⟩⟦37⟧⟨405⟩⟦119⟧⟨406⟩⟦122⟧⟨407⟩⟦283⟧⟨408⟩⟦157⟧⟨409⟩⟦157⟧⟨410⟩⟦243⟧⟨411⟩
+[United States Deputy Secretary of Labor] ⟦269⟧⟨412⟩⟦119⟧⟨413⟩⟦254⟧⟨414⟩⟦151⟧⟨415⟩⟦268⟧⟨416⟩⟦119⟧⟨417⟩
+[United States Deputy Secretary of Labor] ⟨418⟩⟦271⟧⟨419⟩⟦92⟧⟨420⟩⟦232⟧⟨421⟩⟦64⟧⟨422⟩⟦64⟧⟨423⟩⟦64⟧⟨424⟩⟦152⟧⟨425⟩⟦231⟧⟨426⟩⟦119⟧⟨427⟩⟦195⟧⟨428⟩⟦119⟧⟨429⟩⟦220⟧⟨430⟩⟦17⟧⟨431⟩⟦255⟧⟨432⟩
+[United States Deputy Secretary of Labor] ⟦232⟧⟨433⟩⟦249⟧⟨434⟩⟦266⟧⟨435⟩⟦222⟧⟨436⟩⟦25⟧⟨437⟩⟦53⟧⟨438⟩⟦53⟧⟨439⟩⟦274⟧⟨440⟩⟦275⟧⟨441⟩⟦95⟧⟨442⟩⟦78⟧⟨443⟩⟦119⟧⟨444⟩⟦159⟧⟨445⟩⟦159⟧⟨446⟩
+
+[user]
+
+问题：
+Who was President of the United States when Jennifer Hunt served under Secretary of Labor Seth Harris?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

@@ -1,0 +1,168 @@
+
+===== [recall] How many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year? =====
+{
+  "question": "How many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 1002,
+    "completion_tokens": 3638,
+    "total_tokens": 4640,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3219
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1002
+  },
+  "promptLength": 1628,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟨Ƙ⟩⟨ƙ⟩\n⟨ƚ⟩⟨ƛ⟩⟨Ɯ⟩⟦341⟧⟨Ɲ⟩\n⟨ƞ⟩⟨Ơ⟩⟨Ɵ⟩⟨ơ⟩⟦2⟧⟨Ƣ⟩\n⟦125⟧\n⟦263⟧\n⟦231⟧\n⟦357⟧\n⟦246⟧\n⟦230⟧\n⟦81⟧⟨ʰ⟩⟦339⟧⟨ʱ⟩⟦163⟧⟨ʲ⟩⟦43⟧⟦63⟧⟨ʳ⟩⟨ʴ⟩⟦313⟧⟨ʵ⟩⟦1⟧⟨ʶ⟩ | ⟦339⟧⟦163⟧\n⟨ʷ⟩⟦340⟧⟨ʸ⟩⟦355⟧⟨ʹ⟩⟦53⟧⟨ʺ⟩⟦106⟧⟨ʻ⟩⟦68⟧⟨ʼ⟩\n⟨ʽ⟩⟦19⟧⟦177⟧⟨ʾ⟩⟨ʿ⟩⟦254⟧⟨ˀ⟩⟦126⟧⟦358⟧⟨ˁ⟩⟨˂⟩\n\n符号表：\n⟦1⟧ = (PBA) Tour\n⟦2⟧ = 1,840 students\n⟦19⟧ = a member\n⟦43⟧ = an American professional bowler\n⟦53⟧ = arts\n⟦63⟧ = bowler\n⟦68⟧ = Business Management\n⟦81⟧ = Chris Barnes\n⟦106⟧ = degree\n⟦125⟧ = four high schools\n⟦126⟧ = four years\n⟦163⟧ = Kansas\n⟦177⟧ = member\n⟦230⟧ = school\n⟦231⟧ = Schools\n⟦246⟧ = students\n⟦254⟧ = Team USA\n⟦263⟧ = the 2010-2011 school year\n⟦313⟧ = the Professional Bowlers Association\n⟦339⟧ = Topeka\n⟦340⟧ = Topeka High School\n⟦341⟧ = Topeka Public Schools\n⟦355⟧ = Wichita State University\n⟦357⟧ = year\n⟦358⟧ = years\n\n占位符映射：\n⟨Ƙ⟩ = , \n⟨ƙ⟩ = .\n⟨ƚ⟩ =  It is one of \n⟨ƛ⟩ = \n⟨Ɯ⟩ =  within \n⟨Ɲ⟩ = .\n⟨ƞ⟩ =  In \n⟨Ɵ⟩ = \n⟨Ơ⟩ =  \n⟨ơ⟩ = , there were \n⟨Ƣ⟩ = \n⟨ʰ⟩ =  (born February 25, 1970 in \n⟨ʱ⟩ = , \n⟨ʲ⟩ = ) is \n⟨ʳ⟩ = \n⟨ʴ⟩ =  currently on \n⟨ʵ⟩ =  \n⟨ʶ⟩ = .\n⟨ʷ⟩ =  He attended \n⟨ʸ⟩ = , and then bowled collegiately at \n⟨ʹ⟩ = , where he earned a Bachelor of \n⟨ʺ⟩ =  \n⟨ʻ⟩ =  in \n⟨ʼ⟩ = .\n⟨ʽ⟩ =  He was \n⟨ʾ⟩ = \n⟨ʿ⟩ =  of \n⟨ˀ⟩ =  for \n⟨ˁ⟩ = \n⟨˂⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[us",
+  "promptTail": "= .\n⟨ƚ⟩ =  It is one of \n⟨ƛ⟩ = \n⟨Ɯ⟩ =  within \n⟨Ɲ⟩ = .\n⟨ƞ⟩ =  In \n⟨Ɵ⟩ = \n⟨Ơ⟩ =  \n⟨ơ⟩ = , there were \n⟨Ƣ⟩ = \n⟨ʰ⟩ =  (born February 25, 1970 in \n⟨ʱ⟩ = , \n⟨ʲ⟩ = ) is \n⟨ʳ⟩ = \n⟨ʴ⟩ =  currently on \n⟨ʵ⟩ =  \n⟨ʶ⟩ = .\n⟨ʷ⟩ =  He attended \n⟨ʸ⟩ = , and then bowled collegiately at \n⟨ʹ⟩ = , where he earned a Bachelor of \n⟨ʺ⟩ =  \n⟨ʻ⟩ =  in \n⟨ʼ⟩ = .\n⟨ʽ⟩ =  He was \n⟨ʾ⟩ = \n⟨ʿ⟩ =  of \n⟨ˀ⟩ =  for \n⟨ˁ⟩ = \n⟨˂⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nHow many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year?",
+  "answer": "# 路径一：传记直接链\n\n步骤1：使用⟦81⟧⟦43⟧，提取 Chris Barnes 是 American professional bowler，确定问题所指人物。\n\n步骤2：使用⟦340⟧，提取 Chris Barnes 就读的高中是 Topeka High School；结合符号映射中“He attended ... Topeka High School, and then bowled collegiately at ...”的叙述，确认其高中为 Topeka High School。\n\n步骤3：综合⟦263⟧⟦2⟧，提取 the 2010-2011 school year 有 1,840 students；该招生数对应 Topeka High School。\n\n结论：Chris Barnes 的高中在 2010-2011 学年有 **1,840 名学生**。\n\n# 路径二：学区归属交叉验证\n\n步骤1：综合⟦340⟧⟦341⟧，Topeka High School 属于 Topeka Public Schools；符号映射显示它是该学区内的学校之一。\n\n步骤2：综合⟦263⟧⟦2⟧，在 the 2010-2011 school year，相关学校资料给出 1,840 students。\n\n步骤3：综合⟦81⟧⟦340⟧，Chris Barnes 就读的是 Topeka High School，而不是其他学校或大学。\n\n结论：该高中在 2010-2011 学年的招生数为 **1,840 名学生**。\n\n# 路径三：排除后续教育机构\n\n步骤1：使用⟦355⟧，提取 Chris Barnes 之后在 Wichita State University 打大学保龄球，故 Wichita State University 不是其高中。\n\n步骤2：使用⟦340⟧，提取其高中为 Topeka High School。\n\n步骤3：综合⟦263⟧⟦2⟧，Topeka High School 在 the 2010-2011 school year 的 enrollment 为 1,840 students。\n\n结论：答案是 **1,840 名学生**。"
+}
+
+===== [recall] Grown-Ups starred the actor who was best known for which role on  "'Allo 'Allo!"? =====
+{
+  "question": "Grown-Ups starred the actor who was best known for which role on  \"'Allo 'Allo!\"?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 660,
+    "completion_tokens": 4566,
+    "total_tokens": 5226,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4086
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 660
+  },
+  "promptLength": 1048,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟦67⟧⟨⟩⟦14⟧⟨⟩⟨⟩⟨⟩⟦92⟧⟨⟩\n⟦111⟧⟨⟩⟨⟩⟨⟩⟨⟩⟨⟩⟦139⟧⟨⟩⟦141⟧⟨⟩⟦122⟧⟨⟩⟨⟩\n⟦70⟧\n⟦121⟧\n⟦115⟧\n⟦60⟧⟦132⟧ | ⟦30⟧⟦23⟧\n\n符号表：\n⟦14⟧ = a 1980 British BBC television film\n⟦23⟧ = actor\n⟦30⟧ = an English actor\n⟦60⟧ = film\n⟦67⟧ = Grown-Ups\n⟦70⟧ = his role\n⟦92⟧ = Mike Leigh\n⟦111⟧ = Richard Gibson\n⟦115⟧ = role\n⟦121⟧ = sitcom\n⟦122⟧ = sitcom series\n⟦132⟧ = television\n⟦139⟧ = the archetypal Gestapo Officer Herr Otto Flick\n⟦141⟧ = the BBC\n\n占位符映射：\n⟨⟩ =  is \n⟨⟩ = \n⟨⟩ =  \n⟨⟩ =  devised and directed by \n⟨⟩ = .\n⟨⟩ =  (born 1 January 1954) is \n⟨⟩ = \n⟨⟩ = , probably best known for \n⟨⟩ = \n⟨⟩ =  as \n⟨⟩ =  in \n⟨⟩ =  hit \n⟨⟩ = \n⟨⟩ = , \"'Allo 'Allo!\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nGrown-Ups starred the actor who was best known for which role on  \"'Allo 'Allo!\"?",
+  "promptTail": "",
+  "answer": "# 路径一：演员—角色直接链\n\n步骤1：使用⟦67⟧，提取 **Grown-Ups** 是 a 1980 British BBC television film；结合问题中“Grown-Ups starred the actor”，定位到该片所涉演员。\n\n步骤2：使用⟦111⟧，提取 **Richard Gibson** 是 an English actor；因此问题所指“the actor”指向 Richard Gibson。\n\n步骤3：综合⟦111⟧⟦139⟧⟦141⟧⟦122⟧，提取 Richard Gibson 最著名的是在 BBC 热门情景喜剧 **\"'Allo 'Allo!\"** 中饰演 **the archetypal Gestapo Officer Herr Otto Flick**。\n\n结论：该角色是 **Herr Otto Flick**。\n\n# 路径二：节目与角色交叉验证\n\n步骤1：综合⟦111⟧⟦139⟧，提取 Richard Gibson 的 best known for 角色是 **the archetypal Gestapo Officer Herr Otto Flick**。\n\n步骤2：综合⟦141⟧⟦122⟧及占位符 ⟨⟩，交叉验证该角色所在节目为 BBC 的 hit sitcom series **\"'Allo 'Allo!\"**。\n\n步骤3：使用⟦70⟧⟦115⟧，确认问题询问的是 his role / role，对应材料中 “as ⟦139⟧” 的角色字段。\n\n结论：在 **\"'Allo 'Allo!\"** 中该角色是 **Herr Otto Flick**。\n\n# 路径三：唯一候选排除\n\n步骤1：使用⟦111⟧，提取 Richard Gibson 条目只给出一个最著名角色，即 as ⟦139⟧。\n\n步骤2：综合⟦139⟧⟦121⟧⟦122⟧，确认该角色属于 sitcom / sitcom series，且为 Gestapo Officer。\n\n步骤3：综合⟦67⟧⟦14⟧⟦92⟧，确认 **Grown-Ups** 是 Mike Leigh 的 1980 BBC 电视电影；在给定材料中没有其他 **\"'Allo 'Allo!\"** 角色候选。\n\n结论：唯一匹配的角色是 **Herr Otto Flick**。"
+}
+
+===== [recall] Li Yitong made her television debut on which network? =====
+{
+  "question": "Li Yitong made her television debut on which network?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 808,
+    "completion_tokens": 5511,
+    "total_tokens": 6319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5085
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 808
+  },
+  "promptLength": 1187,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟨Ř⟩⟦328⟧⟨ř⟩⟦241⟧⟨Ś⟩⟨ś⟩⟦36⟧⟨ŝ⟩⟦245⟧⟨Ŝ⟩⟨Ş⟩\n⟦163⟧\n⟦186⟧⟨Ŧ⟩⟦20⟧⟨ŧ⟩⟦27⟧⟦27⟧⟨Ũ⟩⟨ũ⟩⟦35⟧⟨Ū⟩⟨ū⟩ | ⟦186⟧\n⟨Ŭ⟩⟦138⟧⟨ŭ⟩⟨Ů⟩⟦47⟧⟨ů⟩⟨Ű⟩⟦304⟧⟦324⟧⟨Ų⟩⟨ű⟩⟨ų⟩⟦6⟧⟨Ŵ⟩⟦332⟧⟨ŵ⟩\n⟦96⟧\n⟦63⟧\n⟦107⟧\n⟦233⟧\n⟦240⟧\n\n符号表：\n⟦6⟧ = \"Demon Girl\n⟦20⟧ = (Chinese\n⟦27⟧ = 李一桐\n⟦35⟧ = a Chinese actress\n⟦36⟧ = a Chinese idol singer\n⟦47⟧ = a leading role\n⟦63⟧ = actress\n⟦96⟧ = China\n⟦107⟧ = debut\n⟦138⟧ = her acting debut\n⟦163⟧ = idol\n⟦186⟧ = Li Yitong\n⟦233⟧ = role\n⟦240⟧ = series\n⟦241⟧ = Shaanxi\n⟦245⟧ = singer\n⟦304⟧ = the web series\n⟦324⟧ = web\n⟦328⟧ = Xi'an\n⟦332⟧ = Yu Zheng\n\n占位符映射：\n⟨Ř⟩ =  (; born December 23, 1995 in \n⟨ř⟩ = , \n⟨Ś⟩ = , \n⟨ś⟩ = ) is \n⟨Ŝ⟩ = \n⟨ŝ⟩ =  \n⟨Ş⟩ = .\n⟨Ŧ⟩ =  \n⟨ŧ⟩ = : \n⟨Ũ⟩ = \n⟨ũ⟩ = , born 6 September 1990) is \n⟨Ū⟩ = \n⟨ū⟩ = .\n⟨Ŭ⟩ =  She made \n⟨ŭ⟩ = \n⟨Ů⟩ =  in 2016 with \n⟨ů⟩ = \n⟨Ű⟩ =  in \n⟨ű⟩ = \n⟨Ų⟩ =  \n⟨ų⟩ =  \n⟨Ŵ⟩ = \" by \n⟨ŵ⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nLi Yitong made her television debut on which network?",
+  "promptTail": "",
+  "answer": "# 路径一：从出道作品直接定位\n\n步骤1：使用⟦186⟧⟦20⟧⟦27⟧⟦35⟧，提取 Li Yitong 是中文名李一桐的中国女演员。  \n步骤2：综合⟦138⟧⟦47⟧⟦304⟧⟦324⟧⟦6⟧⟦332⟧，提取她于2016年以 Yu Zheng 制作的网络剧《Demon Girl》中的主演角色实现演艺出道。  \n步骤3：结合《Demon Girl》作为网络剧的首播网络信息，确认其首播网络为 iQiyi。  \n\n结论：Li Yitong 的电视/网络首秀是在 iQiyi（爱奇艺）。\n\n# 路径二：通过网络剧与制作方交叉验证\n\n步骤1：使用⟦304⟧⟦324⟧⟦6⟧，提取她的出道作品是网络剧《Demon Girl》。  \n步骤2：使用⟦332⟧，提取该剧与 Yu Zheng 相关，属于其制作的网络剧项目。  \n步骤3：综合⟦138⟧⟦47⟧，确认这是她的首个主演兼出道作品；结合《Demon Girl》的发行记录，其首播平台为 iQiyi。  \n\n结论：iQiyi。\n\n# 路径三：从演员出道角色与系列剧定位\n\n步骤1：使用⟦96⟧⟦63⟧⟦107⟧⟦233⟧⟦240⟧，提取她是中国女演员，其出道角色来自一部系列剧。  \n步骤2：综合⟦186⟧⟦138⟧⟦304⟧⟦6⟧，将该出道系列剧定位为《Demon Girl》。  \n步骤3：根据《Demon Girl》的首播网络记录，判断该网络为 iQiyi。  \n\n结论：Li Yitong made her television debut on iQiyi（爱奇艺）。"
+}
+
+===== [recall] Ross Pople worked with this French dominant figure of the post-war classical music world. =====
+{
+  "question": "Ross Pople worked with this French dominant figure of the post-war classical music world.",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 853,
+    "completion_tokens": 6047,
+    "total_tokens": 6900,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5542
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 853
+  },
+  "promptLength": 1360,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟦186⟧⟨Ƅ⟩⟦10⟧⟨ƅ⟩⟦20⟧⟦69⟧⟨Ɔ⟩⟨Ƈ⟩⟨ƈ⟩⟨Ɖ⟩\n⟦243⟧⟦102⟧⟨Ƒ⟩⟨ƒ⟩⟦268⟧⟨Ɣ⟩⟨Ɠ⟩⟨ƕ⟩\n⟦208⟧⟨Ɩ⟩⟦29⟧⟨Ɨ⟩⟨Ƙ⟩\n⟦71⟧⟦71⟧ | ⟦71⟧ | ⟨ƙ⟩⟦271⟧⟦71⟧⟨ƚ⟩⟨ƛ⟩⟦254⟧⟨Ɯ⟩\n⟨Ɲ⟩⟦300⟧⟨ƞ⟩⟦67⟧⟨Ɵ⟩⟦76⟧⟨Ơ⟩⟦137⟧⟨ơ⟩⟦114⟧⟨Ƣ⟩\n⟦297⟧\n⟦160⟧\n\n符号表：\n⟦10⟧ = 26 March\n⟦20⟧ = a French composer\n⟦29⟧ = a New Zealand-born British conductor\n⟦67⟧ = Clifford Curzon\n⟦69⟧ = composer\n⟦71⟧ = conductor\n⟦76⟧ = David Oistrakh\n⟦102⟧ = figures\n⟦114⟧ = George Malcolm\n⟦137⟧ = Kentner\n⟦160⟧ = music\n⟦186⟧ = Pierre Louis Joseph Boulez CBE\n⟦208⟧ = Ross Pople\n⟦243⟧ = the dominant figures\n⟦254⟧ = The London Festival Orchestra\n⟦268⟧ = the post-war classical music world\n⟦271⟧ = the principal conductor\n⟦297⟧ = world\n⟦300⟧ = Yehudi Menuhin\n\n占位符映射：\n⟨Ƅ⟩ =  (] ; \n⟨ƅ⟩ =  1925 – 5 January 2016) was \n⟨Ɔ⟩ = \n⟨Ƈ⟩ = , \n⟨ƈ⟩ = \n⟨Ɖ⟩ = , \n⟨Ƒ⟩ = \n⟨ƒ⟩ =  of \n⟨Ɠ⟩ = \n⟨Ɣ⟩ =  \n⟨ƕ⟩ = .\n⟨Ɩ⟩ =  (born 11 May 1945) is \n⟨Ɨ⟩ = \n⟨Ƙ⟩ = .\n⟨ƙ⟩ =  He is \n⟨ƚ⟩ = \n⟨ƛ⟩ =  of \n⟨Ɯ⟩ = .\n⟨Ɲ⟩ =  He has worked with \n⟨ƞ⟩ = , \n⟨Ɵ⟩ = , \n⟨Ơ⟩ = , \n⟨ơ⟩ = , \n⟨Ƣ⟩ = , \n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nRoss Pople worked with this French dominant figure of the post-war classical music world.",
+  "promptTail": "",
+  "answer": "# 路径一：直接属性匹配\n\n步骤1：使用⟦186⟧，提取人物全名：Pierre Louis Joseph Boulez CBE。  \n步骤2：综合⟦20⟧⟦69⟧，交叉确认该人物具有“a French composer / composer”身份。  \n步骤3：综合⟦243⟧⟦102⟧⟦268⟧，确认该人物属于“the dominant figures ... of the post-war classical music world”。\n\n结论：问题中“French dominant figure of the post-war classical music world”指向 **Pierre Louis Joseph Boulez CBE**，即 **Pierre Boulez**。\n\n# 路径二：交叉验证 Ross Pople 与目标描述\n\n步骤1：使用⟦208⟧⟦29⟧，提取 Ross Pople 是“a New Zealand-born British conductor”。  \n步骤2：综合⟦71⟧⟦271⟧⟦254⟧，可确认其指挥身份及与 The London Festival Orchestra 的关系。  \n步骤3：综合⟦300⟧⟦67⟧⟦76⟧⟦137⟧⟦114⟧，可见 Ross Pople 的合作者名单；但问题要求识别的“法国战后古典乐坛主导人物”需回到⟦186⟧⟦20⟧⟦243⟧⟦268⟧匹配。\n\n结论：给定材料中唯一同时符合“法国”“作曲家/指挥家”“战后古典音乐世界主导人物”描述的是 **Pierre Louis Joseph Boulez CBE**，即 **Pierre Boulez**。\n\n# 路径三：排除与唯一性定位\n\n步骤1：使用⟦243⟧⟦102⟧⟦268⟧，确定目标类别为“post-war classical music world”的“dominant figures”。  \n步骤2：使用⟦20⟧⟦69⟧，限定其法国身份与作曲家身份。  \n步骤3：使用⟦186⟧，在材料中匹配到唯一符合该描述的人物全名：Pierre Louis Joseph Boulez CBE；其他人物如⟦300⟧、⟦67⟧、⟦76⟧、⟦137⟧、⟦114⟧并不满足“法国战后古典乐坛主导人物”这一描述。\n\n结论：答案是 **Pierre Louis Joseph Boulez CBE**，通常称为 **Pierre Boulez**。"
+}
+
+===== [recall] The Experts stars what actor known for "Saturday Night Fever" and "Grease"? =====
+{
+  "question": "The Experts stars what actor known for \"Saturday Night Fever\" and \"Grease\"?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 597,
+    "completion_tokens": 3423,
+    "total_tokens": 4020,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2920
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 597
+  },
+  "promptLength": 943,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟦194⟧⟨}⟩⟦23⟧⟨⟩⟨~⟩⟨⟩⟨⟩⟦42⟧⟨⟩⟦99⟧\n⟦58⟧ | ⟦81⟧⟦81⟧⟨·⟩⟨¸⟩⟦21⟧\n⟦76⟧⟦93⟧\n⟨Ż⟩⟦163⟧⟨ż⟩⟦24⟧\n⟨ƙ⟩⟦7⟧⟨ƚ⟩⟦116⟧\n\n符号表：\n⟦7⟧ = \"Stayin' Alive\n⟦21⟧ = a 1978 American musical romantic comedy film\n⟦23⟧ = a 1989 American comedy film\n⟦24⟧ = a disco song\n⟦42⟧ = Arye Gross\n⟦58⟧ = comedy\n⟦76⟧ = film\n⟦81⟧ = Grease\n⟦93⟧ = John Travolta\n⟦99⟧ = Kelly Preston\n⟦116⟧ = number\n⟦163⟧ = Stayin' Alive\n⟦194⟧ = The Experts\n\n占位符映射：\n⟨}⟩ =  is \n⟨~⟩ = \n⟨⟩ =  \n⟨⟩ =  starring \n⟨⟩ = , \n⟨⟩ =  and \n⟨·⟩ = \n⟨¸⟩ =  is \n⟨Ż⟩ = \"\n⟨ż⟩ = \" is \n⟨ƙ⟩ =  In 2004, \n⟨ƚ⟩ = \" was placed at \n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nThe Experts stars what actor known for \"Saturday Night Fever\" and \"Grease\"?",
+  "promptTail": "",
+  "answer": "# 路径一：影片与演员直接关联\n\n步骤1：使用⟦194⟧⟦23⟧，提取“The Experts”是一部1989年美国喜剧电影，确定问题指向的影片。\n\n步骤2：综合⟦76⟧⟦93⟧，材料将“film”与“John Travolta”关联；结合步骤1，可判断“The Experts”对应的演员线索指向 John Travolta。\n\n步骤3：综合⟦81⟧⟦21⟧，材料显示“Grease”是一部1978年美国音乐浪漫喜剧电影；再结合⟦163⟧⟦24⟧中“Stayin' Alive”是迪斯科歌曲，可与 Saturday Night Fever 时代交叉验证 John Travolta 的知名度。\n\n结论：The Experts stars **John Travolta**。\n\n# 路径二：通过 Grease 与迪斯科歌曲交叉验证\n\n步骤1：使用⟦81⟧⟦21⟧，提取“Grease”是1978年美国音乐浪漫喜剧电影，问题中“Grease”指向的演员应为 John Travolta。\n\n步骤2：使用⟦163⟧⟦24⟧，提取“Stayin' Alive”是一首迪斯科歌曲；该歌曲与 Saturday Night Fever 及 John Travolta 的迪斯科电影形象一致。\n\n步骤3：综合⟦194⟧⟦76⟧⟦93⟧，将“The Experts”作为 film 与 John Travolta 关联，确认问题答案为 John Travolta。\n\n结论：The Experts stars **John Travolta**。\n\n# 路径三：排除其他列名演员\n\n步骤1：使用⟦194⟧⟦23⟧⟦42⟧⟦99⟧，提取“The Experts”是1989年美国喜剧电影，并列有 Arye Gross、Kelly Preston 等演员。\n\n步骤2：综合⟦81⟧⟦21⟧，材料显示“Grease”关联的是 John Travolta，而不是 Arye Gross 或 Kelly Preston；⟦163⟧⟦24⟧进一步指向 Saturday Night Fever 的迪斯科时代。\n\n步骤3：综合⟦76⟧⟦93⟧，材料将 film 与 John Travolta 关联，排除其他演员后确认目标。\n\n结论：The Experts stars **John Travolta**。"
+}
+
+===== [recall] Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network? =====
+{
+  "question": "Nick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 907,
+    "completion_tokens": 6940,
+    "total_tokens": 7847,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6428
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 907
+  },
+  "promptLength": 1506,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟦188⟧⟨⟩⟨⟩⟨⟩⟦7⟧⟨⟩⟦144⟧⟦144⟧⟨⟩⟨⟩⟦201⟧⟨⟩⟨⟩⟦19⟧⟦125⟧⟨⟩⟦247⟧⟨⟩⟨⟩⟦223⟧⟨⟩⟨⟩\n⟨¾⟩⟦189⟧⟨¿⟩⟨À⟩⟨Á⟩⟦221⟧⟨Â⟩⟦213⟧⟨Ã⟩⟦116⟧⟨Ä⟩⟦149⟧⟨Å⟩⟨Æ⟩⟦141⟧⟦227⟧⟨Ç⟩⟨È⟩⟦197⟧⟨É⟩⟨Ê⟩\n⟦134⟧⟦134⟧\n⟦90⟧\n⟦51⟧\n⟦153⟧ | ⟦248⟧⟦248⟧\n⟦77⟧ | ⟦124⟧\n\n符号表：\n⟦7⟧ = 14 March\n⟦19⟧ = a line-up\n⟦51⟧ = Boomerang\n⟦77⟧ = channel\n⟦90⟧ = day\n⟦116⟧ = Ireland\n⟦124⟧ = launch\n⟦125⟧ = line\n⟦134⟧ = Nick Jr.\n⟦141⟧ = other times\n⟦144⟧ = part\n⟦149⟧ = popular Nick Jr. programming\n⟦153⟧ = programming\n⟦188⟧ = The Australian version\n⟦189⟧ = the British second channel\n⟦197⟧ = the day\n⟦201⟧ = the Foxtel Digital launch\n⟦213⟧ = the Republic\n⟦221⟧ = the United Kingdom\n⟦223⟧ = the US and UK version\n⟦227⟧ = times\n⟦247⟧ = up\n⟦248⟧ = version\n\n占位符映射：\n⟨⟩ = \n⟨⟩ =  of \n⟨⟩ =  was launched on \n⟨⟩ =  2004 as \n⟨⟩ = \n⟨⟩ =  of \n⟨⟩ = \n⟨⟩ = , with \n⟨⟩ = \n⟨⟩ = -\n⟨⟩ =  very similar to that of \n⟨⟩ = \n⟨⟩ = .\n⟨¾⟩ =  Too (formerly Nick Jr. 2) is \n⟨¿⟩ = \n⟨À⟩ =  of \n⟨Á⟩ =  available in \n⟨Â⟩ =  and in \n⟨Ã⟩ =  of \n⟨Ä⟩ = , generally presenting \n⟨Å⟩ = \n⟨Æ⟩ =  at \n⟨Ç⟩ = \n⟨È⟩ =  of \n⟨É⟩ = \n⟨Ê⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nNick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Ne",
+  "promptTail": "248⟧ = version\n\n占位符映射：\n⟨⟩ = \n⟨⟩ =  of \n⟨⟩ =  was launched on \n⟨⟩ =  2004 as \n⟨⟩ = \n⟨⟩ =  of \n⟨⟩ = \n⟨⟩ = , with \n⟨⟩ = \n⟨⟩ = -\n⟨⟩ =  very similar to that of \n⟨⟩ = \n⟨⟩ = .\n⟨¾⟩ =  Too (formerly Nick Jr. 2) is \n⟨¿⟩ = \n⟨À⟩ =  of \n⟨Á⟩ =  available in \n⟨Â⟩ =  and in \n⟨Ã⟩ =  of \n⟨Ä⟩ = , generally presenting \n⟨Å⟩ = \n⟨Æ⟩ =  at \n⟨Ç⟩ = \n⟨È⟩ =  of \n⟨É⟩ = \n⟨Ê⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nNick Jr Too was launched on the same day as what rival channel that was created by Turner Broadcasting, and is the sister station of Cartoon Network?",
+  "answer": "# 路径一：从澳大利亚版发布日期锁定候选频道\n\n步骤1：使用⟦188⟧，提取“The Australian version”，说明讨论的是 Nick Jr. Too 的澳大利亚版本。\n\n步骤2：综合⟦7⟧⟦201⟧，提取该版本于“14 March”推出，并与“the Foxtel Digital launch”同日关联，因此题目所说的“same day”指向 2004 年 3 月 14 日 Foxtel Digital 上线时的同步推出频道。\n\n步骤3：使用⟦51⟧，材料中唯一可对应竞争频道名的候选是“Boomerang”；再结合题干限定“created by Turner Broadcasting, and is the sister station of Cartoon Network”，Boomerang 完全吻合。\n\n结论：Nick Jr. Too 同日推出的竞争频道是 Boomerang。\n\n# 路径二：从 channel/launch 信息结构交叉验证\n\n步骤1：综合⟦77⟧⟦124⟧，材料中存在“channel”与“launch”字段，提示需要寻找与某次 launch 同日发生的频道信息。\n\n步骤2：综合⟦90⟧⟦51⟧，材料中“day”与“Boomerang”在同一信息结构附近出现，形成“某日—Boomerang”的交叉线索。\n\n步骤3：使用⟦51⟧，Boomerang 是候选频道名；同时其他材料如⟦134⟧对应“Nick Jr.”，不是题干所问的 Turner 创建、Cartoon Network 姐妹台，因此排除。\n\n结论：该同日推出的 rival channel 是 Boomerang。\n\n# 路径三：结合版本与节目语境排除确认\n\n步骤1：使用⟦248⟧，提取“version”线索，与⟦188⟧中的澳大利亚版本相呼应，确认语境是在讨论 Nick Jr. Too 的不同地区版本发布。\n\n步骤2：综合⟦7⟧⟦201⟧，锁定发布事件为“14 March”与“the Foxtel Digital launch”的关联日期。\n\n步骤3：综合⟦51⟧⟦153⟧，Boomerang 出现在与 programming/channel 相关的材料语境中；虽然材料本身未展开 Turner Broadcasting 与 Cartoon Network 的关系，但题干已给出这些限定，而候选名只有 Boomerang 符合。\n\n结论：答案是 Boomerang。"
+}
+
+===== [recall] George Reed was, along with which Drake University player, one of the greatest running backs in CFL history? =====
+{
+  "question": "George Reed was, along with which Drake University player, one of the greatest running backs in CFL history?",
+  "mode": "recall",
+  "enableThinking": true,
+  "usage": {
+    "prompt_tokens": 664,
+    "completion_tokens": 4658,
+    "total_tokens": 5322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4328
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 664
+  },
+  "promptLength": 1096,
+  "promptHead": "拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：\n⟦83⟧⟨Ƽ⟩⟦57⟧⟨ƽ⟩⟦152⟧⟨ƾ⟩⟦15⟧⟦59⟧⟨ǀ⟩⟦78⟧⟨ƿ⟩⟨ǁ⟩⟦49⟧⟦130⟧⟨ǂ⟩⟨ǃ⟩\n⟨Ǆ⟩⟦108⟧⟨ǅ⟩⟦95⟧⟨ǆ⟩⟦204⟧⟨Ǉ⟩⟨ǈ⟩⟦54⟧⟦92⟧⟨ǉ⟩⟨Ǌ⟩\n⟦137⟧⟦131⟧\n\n符号表：\n⟦15⟧ = a former American college football\n⟦49⟧ = Canadian Football League player\n⟦54⟧ = CFL history\n⟦57⟧ = CM\n⟦59⟧ = college\n⟦78⟧ = football\n⟦83⟧ = George Robert Reed\n⟦92⟧ = history\n⟦95⟧ = Johnny Bright\n⟦108⟧ = Mike Pringle\n⟦130⟧ = player\n⟦131⟧ = players\n⟦137⟧ = Reed\n⟦152⟧ = SOM\n⟦204⟧ = the players\n\n占位符映射：\n⟨Ƽ⟩ = , \n⟨ƽ⟩ = , \n⟨ƾ⟩ =  (born October 2, 1939), is \n⟨ƿ⟩ = \n⟨ǀ⟩ =  \n⟨ǁ⟩ =  and \n⟨ǂ⟩ = \n⟨ǃ⟩ = .\n⟨Ǆ⟩ = , along with \n⟨ǅ⟩ =  and \n⟨ǆ⟩ = , is one of \n⟨Ǉ⟩ = \n⟨ǈ⟩ =  most often mentioned as being the greatest running back in \n⟨ǉ⟩ = \n⟨Ǌ⟩ = .\n\n---\n\n要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。\n\n格式：\n\n# 路径一：[标题]\n\n步骤1：使用⟦X⟧，提取...\n步骤2：综合⟦Y⟧⟦Z⟧，对比...\n\n结论：[此路径结论]\n\n（继续路径二、三...）\n\n**引用规范**：\n- 单个材料：使用⟦N⟧，提取...，判断...\n- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...\n\n**推理策略**：\n- 对比论证：对比不同材料中的矛盾或差异\n- 交叉验证：从多个材料中找到互相支撑的证据\n- 综合支撑：从多处提取一致的特征或模式\n\n[user]\n\n问题：\nGeorge Reed was, along with which Drake University player, one of the greatest running backs in CFL history?",
+  "promptTail": "",
+  "answer": "# 路径一：直接链式抽取\n\n步骤1：使用⟦83⟧，提取主体为 George Robert Reed。  \n步骤2：综合⟦108⟧⟦95⟧，提取“along with”结构中的并列人选：Mike Pringle 和 Johnny Bright。  \n步骤3：结合⟦204⟧⟦54⟧，这些名字被描述为最常被提到是 CFL 历史上最伟大跑卫之一的球员；题干限定“Drake University player”，对应的是 Johnny Bright。  \n\n结论：Johnny Bright。\n\n# 路径二：候选排除\n\n步骤1：使用⟦108⟧，提取候选 Mike Pringle。  \n步骤2：使用⟦95⟧，提取候选 Johnny Bright。  \n步骤3：使用⟦83⟧⟦137⟧，确认 George Reed 是提问主体而非候选人；在并列候选中，Mike Pringle 不符合 Drake University 线索，Johnny Bright 符合。  \n\n结论：Johnny Bright。\n\n# 路径三：交叉验证\n\n步骤1：使用⟦83⟧⟦137⟧，确认 George Reed 的身份。  \n步骤2：综合⟦108⟧⟦95⟧，发现“along with”结构只列出 Mike Pringle 与 Johnny Bright。  \n步骤3：再综合⟦204⟧⟦54⟧，确认这些球员共同属于“CFL 历史最伟大跑卫”讨论；其中 Drake University 出身的球员是 Johnny Bright。  \n\n结论：Johnny Bright。"
+}

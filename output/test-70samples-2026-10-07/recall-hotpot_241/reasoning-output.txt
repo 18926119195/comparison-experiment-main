@@ -1,0 +1,39 @@
+# 路径一：从演员身份与出生年份直接定位
+
+步骤1：使用⟦152⟧，提取“Paige O'Hara”这一人名，判断其为材料中明确标注的演员/歌手实体。
+
+步骤2：综合⟦35⟧⟦365⟧，交叉验证“an American actress”与“(born May 10, 1956)”两个特征，确认该人物符合“美国女演员/歌手、1956年出生”的条件。
+
+步骤3：使用⟦30⟧，提取“American actors Paige O'Hara”，进一步确认其美国演员身份，并与⟦25⟧“actress”形成性别与职业的一致性验证。
+
+结论：Paige O'Hara 是美国女演员/歌手，1956年出生，符合问题所问的人物身份条件。
+
+# 路径二：从歌曲《Something There》的演唱者与角色关联定位
+
+步骤1：使用⟦179⟧，提取“song”这一材料，锁定问题所问的歌曲类别为《Something There》。
+
+步骤2：综合⟦216⟧⟦440⟧⟦441⟧，提取“The only song”“performed by”“Something There is heard midway through”等信息，判断该歌曲的演唱者与《Beauty and the Beast》场景直接关联。
+
+步骤3：综合⟦426⟧⟦46⟧⟦47⟧，交叉验证“Paige O'Hara as”“Beauty”“Belle”之间的对应关系，确认Paige O'Hara为Belle配音并演唱该歌曲。
+
+结论：Paige O'Hara 为《Beauty and the Beast》中的Belle角色演唱了《Something There》，与问题所问的歌曲和电影完全吻合。
+
+# 路径三：从配音演员表与角色对应关系交叉验证
+
+步骤1：使用⟦23⟧⟦24⟧，提取“actors”“actors Jerry Orbach”等信息，判断材料中存在一组配音演员名单。
+
+步骤2：综合⟦38⟧⟦72⟧⟦118⟧⟦135⟧，对比Angela Lansbury、David Ogden Stiers、Lumiere、Mrs. Potts等角色与演员的对应关系，确认该名单为《Beauty and the Beast》的配音阵容。
+
+步骤3：综合⟦152⟧⟦153⟧⟦176⟧，提取“Paige O'Hara”“painter”“singer”等身份标签，并与⟦426⟧中“Paige O'Hara as”的配音角色对应关系交叉验证，确认其在该片中既为演员也为歌手。
+
+结论：在《Beauty and the Beast》的配音演员阵容中，Paige O'Hara是1956年出生的美国女演员/歌手，并演唱了《Something There》。
+
+# 路径四：从出生年份与国籍特征综合筛选
+
+步骤1：使用⟦365⟧，提取“(born May 10, 1956)”这一出生日期信息，锁定1956年出生的条件。
+
+步骤2：综合⟦35⟧⟦30⟧，交叉验证“an American actress”与“American actors Paige O'Hara”中的国籍与职业信息，确认其美国女演员身份。
+
+步骤3：综合⟦179⟧⟦216⟧⟦426⟧，将歌曲《Something There》、唯一歌曲信息与“Paige O'Hara as”的演唱者信息进行综合匹配，确认其演唱了该歌曲。
+
+结论：综合出生年份、国籍、职业与歌曲演唱记录，Paige O'Hara是唯一符合全部条件的美国女演员/歌手。

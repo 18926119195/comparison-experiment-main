@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_1465",
+  "question": "Kevin Watson currently manages which Southern League football team?",
+  "expectedAnswer": "Bishop's Stortford",
+  "predictedAnswer": "# 路径一：直接提取当前职务\n\n步骤1：使用⟦129⟧⟦23⟧⟦101⟧，提取 Kevin Watson 的身份信息——Kevin Edward Watson 是一名前职业足球运动员（former professional footballer），出生于1974年1月3日。\n\n步骤2：使用⟦248⟧⟦50⟧，提取其当前职务——他是 Bishop's Stortford 的 manager（主教练）。\n\n结论：Kevin Watson currently manages Bishop's Stortford.\n\n---\n\n# 路径二：通过职业角色链交叉验证\n\n步骤1：使用⟦57⟧⟦58⟧，提取 Kevin Watson 的职业角色——他是一名 coach（教练）以及 coach and sports broadcaster（教练兼体育广播员）。\n\n步骤2：综合⟦248⟧⟦50⟧，交叉验证其当前管理职务——材料明确指出他是 Bishop's Stortford 的 manager。\n\n步骤3：使用⟦52⟧⟦192⟧，提取其广播员身份作为辅助验证——broadcaster 和 sports 身份与其教练职业并行，不影响其当前管理职务的判断。\n\n结论：Kevin Watson 当前管理的球队是 Bishop's Stortford。\n\n---\n\n# 路径三：排除干扰信息，锁定管理职务\n\n步骤1：使用⟦133⟧，提取 manager 这一关键词——确认 Kevin Watson 拥有 manager 身份。\n\n步骤2：综合⟦50⟧⟦248⟧，将 manager 身份与具体球队关联——Bishop's Stortford 是其管理的球队。\n\n步骤3：使用⟦23⟧⟦101⟧，排除干扰——former professional footballer 和 footballer 是过去身份，不影响当前管理职务的判断。\n\n结论：Kevin Watson currently manages Bishop's Stortford.",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦129⟧⟨350⟩⟦23⟧⟦101⟧⟨351⟩⟨352⟩⟦57⟧⟦58⟧⟨353⟩⟦192⟧⟨355⟩⟦52⟧",
+  "nounCount": 550,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 8554,
+    "completion_tokens": 84,
+    "total_tokens": 8638,
+    "prompt_tokens_details": {
+      "cached_tokens": 8320
+    },
+    "prompt_cache_hit_tokens": 8320,
+    "prompt_cache_miss_tokens": 234
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 371,
+    "total_tokens": 871,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 500
+  }
+}

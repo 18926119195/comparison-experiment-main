@@ -1,0 +1,179 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Cake Masters" series
+⟦2⟧ = "Holiday Baking Championship
+⟦3⟧ = "Man
+⟦4⟧ = "Oprah
+⟦5⟧ = "Spring Baking Championship
+⟦6⟧ = a judge
+⟦7⟧ = a pastry chef
+⟦8⟧ = Ace
+⟦9⟧ = actress
+⟦10⟧ = actress Alison Sweeney
+⟦11⟧ = airs
+⟦12⟧ = All four chefs
+⟦13⟧ = an American chef
+⟦14⟧ = an American cooking competition television series
+⟦15⟧ = an American cooking competition television special
+⟦16⟧ = bakers
+⟦17⟧ = Baking
+⟦18⟧ = businesswoman
+⟦19⟧ = Cakes
+⟦20⟧ = Carla Hall
+⟦21⟧ = Championship
+⟦22⟧ = chef
+⟦23⟧ = chef Bobby Deen
+⟦24⟧ = chef Richard Blais
+⟦25⟧ = chefs
+⟦26⟧ = Chefs Nancy Fuller
+⟦27⟧ = child
+⟦28⟧ = Clash
+⟦29⟧ = Claverack
+⟦30⟧ = co
+⟦31⟧ = comedian
+⟦32⟧ = comedian Jeff Dunham
+⟦33⟧ = competition
+⟦34⟧ = contestants
+⟦35⟧ = cooking
+⟦36⟧ = Damiano Carrara
+⟦37⟧ = Dawn
+⟦38⟧ = Duff
+⟦39⟧ = Duff Goldman
+⟦40⟧ = episodes
+⟦41⟧ = Farmhouse Rules
+⟦42⟧ = fellow chefs
+⟦43⟧ = fellow chefs Carla Hall
+⟦44⟧ = fellow Food Network chefs
+⟦45⟧ = fellow Food Network chefs Carla Hall
+⟦46⟧ = five episodes
+⟦47⟧ = Food
+⟦48⟧ = Food Network
+⟦49⟧ = Food Network chef Duff Goldman
+⟦50⟧ = footballer
+⟦51⟧ = former footballer Jesse Palmer
+⟦52⟧ = four child bakers
+⟦53⟧ = four episodes
+⟦54⟧ = Ginsberg's Foods
+⟦55⟧ = Hall
+⟦56⟧ = Halloween Baking Championship
+⟦57⟧ = his second Los Angeles-based shop Charm City Cakes West
+⟦58⟧ = His work
+⟦59⟧ = Holiday Baking Championship
+⟦60⟧ = host
+⟦61⟧ = Iron Chef America
+⟦62⟧ = Israel
+⟦63⟧ = Jay Leno
+⟦64⟧ = Jeffrey Adam "Duff" Goldman
+⟦65⟧ = judge
+⟦66⟧ = judges
+⟦67⟧ = Kids
+⟦68⟧ = Kids Halloween Baking Championship
+⟦69⟧ = Lorraine Pascale
+⟦70⟧ = March
+⟦71⟧ = Nancy Fuller
+⟦72⟧ = Nancy Fuller Ginsberg
+⟦73⟧ = Nancy Ginsberg
+⟦74⟧ = New York
+⟦75⟧ = October
+⟦76⟧ = owner
+⟦77⟧ = pastry
+⟦78⟧ = personality
+⟦79⟧ = prize
+⟦80⟧ = reality
+⟦81⟧ = reasons
+⟦82⟧ = roles
+⟦83⟧ = Ron Ben
+⟦84⟧ = Sandra Lee
+⟦85⟧ = season
+⟦86⟧ = series
+⟦87⟧ = Sherry Yard
+⟦88⟧ = shop
+⟦89⟧ = show
+⟦90⟧ = special
+⟦91⟧ = Spring
+⟦92⟧ = Spring Baking Championship
+⟦93⟧ = television
+⟦94⟧ = television personality
+⟦95⟧ = that competition
+⟦96⟧ = the "Food Network Challenge
+⟦97⟧ = the American cooking competition television series
+⟦98⟧ = the Baltimore-based Charm City Cakes shop
+⟦99⟧ = the co
+⟦100⟧ = the competition
+⟦101⟧ = The contestants
+⟦102⟧ = the executive chef
+⟦103⟧ = The first season
+⟦104⟧ = the Food Network cooking competition series
+⟦105⟧ = the Food Network reality television show
+⟦106⟧ = the Food Network television series
+⟦107⟧ = the grand prize
+⟦108⟧ = the Grandmas
+⟦109⟧ = the host
+⟦110⟧ = the only chef
+⟦111⟧ = the previous season
+⟦112⟧ = the same roles
+⟦113⟧ = The season
+⟦114⟧ = The second season
+⟦115⟧ = the series
+⟦116⟧ = The third season
+⟦117⟧ = The Tonight Show
+⟦118⟧ = the winner
+⟦119⟧ = this competition
+⟦120⟧ = undisclosed reasons
+⟦121⟧ = winner
+⟦122⟧ = work
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Spring Baking Championship (season 1)] ⟦103⟧⟨1⟩⟦85⟧⟨2⟩⟦97⟧⟨3⟩⟦35⟧⟨4⟩⟦33⟧⟨5⟩⟦93⟧⟨6⟩⟦86⟧⟨7⟩⟦92⟧⟨8⟩⟦48⟧⟨9⟩
+[Spring Baking Championship (season 1)] ⟨10⟩⟦22⟧⟨11⟩⟦23⟧⟨12⟩⟦44⟧⟨13⟩⟦25⟧⟨14⟩⟦66⟧⟨15⟩⟦66⟧⟨16⟩⟦12⟧⟨17⟩⟦25⟧⟨18⟩⟦112⟧⟨19⟩⟦82⟧⟨20⟩⟦59⟧⟨21⟩
+[Duff Goldman] ⟦64⟧⟨22⟩⟦7⟧⟨23⟩⟦77⟧⟨24⟩⟦22⟧⟨25⟩⟦93⟧⟨26⟩⟦94⟧⟨27⟩⟦78⟧⟨28⟩
+[Duff Goldman] ⟨29⟩⟦102⟧⟨30⟩⟦22⟧⟨31⟩⟦98⟧⟨32⟩⟦88⟧⟨33⟩⟦105⟧⟨34⟩⟦80⟧⟨35⟩⟦93⟧⟨36⟩⟦89⟧⟨37⟩⟦8⟧⟨38⟩⟦19⟧⟨39⟩⟦57⟧⟨40⟩⟦88⟧⟨41⟩⟦48⟧⟨42⟩⟦38⟧⟨43⟩⟦37⟧⟨44⟩⟦1⟧⟨45⟩⟦86⟧⟨46⟩
+[Duff Goldman] ⟦58⟧⟨47⟩⟦122⟧⟨48⟩⟦96⟧⟨49⟩⟦61⟧⟨50⟩⟦4⟧⟨51⟩⟦117⟧⟨52⟩⟦63⟧⟨53⟩⟦3⟧⟨54⟩⟦47⟧⟨55⟩
+[Halloween Baking Championship (season 2)] ⟦114⟧⟨56⟩⟦85⟧⟨57⟩⟦97⟧⟨58⟩⟦35⟧⟨59⟩⟦33⟧⟨60⟩⟦93⟧⟨61⟩⟦86⟧⟨62⟩⟦56⟧⟨63⟩⟦48⟧⟨64⟩
+[Halloween Baking Championship (season 2)] ⟦20⟧⟨65⟩⟦110⟧⟨66⟩⟦22⟧⟨67⟩⟦103⟧⟨68⟩⟦85⟧⟨69⟩⟦42⟧⟨70⟩⟦25⟧⟨71⟩⟦36⟧⟨72⟩⟦84⟧⟨73⟩⟦66⟧⟨74⟩⟦66⟧⟨75⟩
+[Halloween Baking Championship (season 2)] ⟦113⟧⟨76⟩⟦85⟧⟨77⟩⟦32⟧⟨78⟩⟦46⟧⟨79⟩⟦40⟧⟨80⟩⟦53⟧⟨81⟩⟦40⟧⟨82⟩⟦111⟧⟨83⟩⟦85⟧⟨84⟩
+[Kids Halloween Baking Championship] ⟦67⟧⟨85⟩⟦68⟧⟨86⟩⟦15⟧⟨87⟩⟦35⟧⟨88⟩⟦33⟧⟨89⟩⟦93⟧⟨90⟩⟦90⟧⟨91⟩⟦48⟧⟨92⟩⟦75⟧⟨93⟩
+[Kids Halloween Baking Championship] ⟦49⟧⟨94⟩⟦22⟧⟨95⟩⟦9⟧⟨96⟩⟦10⟧⟨97⟩⟦100⟧⟨98⟩⟦33⟧⟨99⟩⟦66⟧⟨100⟩⟦66⟧⟨101⟩
+[Kids Halloween Baking Championship] ⟦101⟧⟨102⟩⟦34⟧⟨103⟩⟦52⟧⟨104⟩⟦27⟧⟨105⟩⟦16⟧⟨106⟩⟦67⟧⟨107⟩⟦67⟧⟨108⟩⟦21⟧⟨109⟩
+[Halloween Baking Championship (season 1)] ⟦103⟧⟨110⟩⟦85⟧⟨111⟩⟦97⟧⟨112⟩⟦35⟧⟨113⟩⟦33⟧⟨114⟩⟦93⟧⟨115⟩⟦86⟧⟨116⟩⟦56⟧⟨117⟩⟦48⟧⟨118⟩
+[Halloween Baking Championship (season 1)] ⟦113⟧⟨119⟩⟦85⟧⟨120⟩⟦22⟧⟨121⟩⟦24⟧⟨122⟩⟦45⟧⟨123⟩⟦25⟧⟨124⟩⟦83⟧⟨125⟩⟦62⟧⟨126⟩⟦87⟧⟨127⟩⟦66⟧⟨128⟩⟦66⟧⟨129⟩
+[Spring Baking Championship] ⟦91⟧⟨130⟩⟦92⟧⟨131⟩⟦17⟧⟨132⟩⟦14⟧⟨133⟩⟦35⟧⟨134⟩⟦33⟧⟨135⟩⟦93⟧⟨136⟩⟦86⟧⟨137⟩⟦11⟧⟨138⟩⟦48⟧⟨139⟩
+[Spring Baking Championship] ⟨140⟩⟦22⟧⟨141⟩⟦23⟧⟨142⟩⟦44⟧⟨143⟩⟦25⟧⟨144⟩⟦71⟧⟨145⟩⟦39⟧⟨146⟩⟦69⟧⟨147⟩⟦66⟧⟨148⟩⟦66⟧⟨149⟩⟦12⟧⟨150⟩⟦25⟧⟨151⟩⟦112⟧⟨152⟩⟦82⟧⟨153⟩⟦59⟧⟨154⟩⟦21⟧⟨155⟩⟦95⟧⟨156⟩⟦33⟧⟨157⟩⟦107⟧⟨158⟩⟦79⟧⟨159⟩⟦118⟧⟨160⟩⟦121⟧⟨161⟩⟦119⟧⟨162⟩⟦33⟧⟨163⟩
+[Nancy Fuller] ⟦71⟧⟨164⟩⟦72⟧⟨165⟩⟦73⟧⟨166⟩⟦13⟧⟨167⟩⟦22⟧⟨168⟩⟦18⟧⟨169⟩⟦29⟧⟨170⟩⟦74⟧⟨171⟩
+[Nancy Fuller] ⟨172⟩⟦99⟧⟨173⟩⟦30⟧⟨174⟩⟦76⟧⟨175⟩⟦76⟧⟨176⟩⟦54⟧⟨177⟩⟦109⟧⟨178⟩⟦60⟧⟨179⟩⟦106⟧⟨180⟩⟦93⟧⟨181⟩⟦86⟧⟨182⟩⟦41⟧⟨183⟩
+[Nancy Fuller] ⟨184⟩⟦6⟧⟨185⟩⟦65⟧⟨186⟩⟦104⟧⟨187⟩⟦35⟧⟨188⟩⟦33⟧⟨189⟩⟦86⟧⟨190⟩⟦28⟧⟨191⟩⟦108⟧⟨192⟩⟦2⟧⟨193⟩⟦5⟧⟨194⟩
+[Spring Baking Championship (season 2)] ⟦114⟧⟨195⟩⟦85⟧⟨196⟩⟦97⟧⟨197⟩⟦35⟧⟨198⟩⟦33⟧⟨199⟩⟦93⟧⟨200⟩⟦86⟧⟨201⟩⟦92⟧⟨202⟩⟦48⟧⟨203⟩
+[Spring Baking Championship (season 2)] ⟦23⟧⟨204⟩⟦115⟧⟨205⟩⟦86⟧⟨206⟩⟦60⟧⟨207⟩⟦60⟧⟨208⟩⟦25⟧⟨209⟩⟦25⟧⟨210⟩⟦71⟧⟨211⟩⟦39⟧⟨212⟩⟦69⟧⟨213⟩⟦66⟧⟨214⟩⟦66⟧⟨215⟩
+[Spring Baking Championship (season 3)] ⟦116⟧⟨216⟩⟦85⟧⟨217⟩⟦97⟧⟨218⟩⟦35⟧⟨219⟩⟦33⟧⟨220⟩⟦93⟧⟨221⟩⟦86⟧⟨222⟩⟦92⟧⟨223⟩⟦70⟧⟨224⟩⟦48⟧⟨225⟩
+[Spring Baking Championship (season 3)] ⟦113⟧⟨226⟩⟦85⟧⟨227⟩⟦51⟧⟨228⟩⟦50⟧⟨229⟩⟦22⟧⟨230⟩⟦23⟧⟨231⟩⟦115⟧⟨232⟩⟦86⟧⟨233⟩⟦120⟧⟨234⟩⟦81⟧⟨235⟩
+[Spring Baking Championship (season 3)] ⟦26⟧⟨236⟩⟦39⟧⟨237⟩⟦69⟧⟨238⟩⟦115⟧⟨239⟩⟦86⟧⟨240⟩⟦66⟧⟨241⟩⟦66⟧⟨242⟩
+[Halloween Baking Championship] ⟦56⟧⟨243⟩⟦14⟧⟨244⟩⟦35⟧⟨245⟩⟦33⟧⟨246⟩⟦93⟧⟨247⟩⟦86⟧⟨248⟩⟦48⟧⟨249⟩⟦75⟧⟨250⟩
+[Halloween Baking Championship] ⟦103⟧⟨251⟩⟦85⟧⟨252⟩⟦115⟧⟨253⟩⟦86⟧⟨254⟩⟦22⟧⟨255⟩⟦24⟧⟨256⟩⟦43⟧⟨257⟩⟦25⟧⟨258⟩⟦83⟧⟨259⟩⟦62⟧⟨260⟩⟦87⟧⟨261⟩⟦66⟧⟨262⟩⟦66⟧⟨263⟩
+[Halloween Baking Championship] ⟦114⟧⟨264⟩⟦85⟧⟨265⟩⟦115⟧⟨266⟩⟦86⟧⟨267⟩⟦75⟧⟨268⟩⟦55⟧⟨269⟩⟦110⟧⟨270⟩⟦22⟧⟨271⟩
+[Halloween Baking Championship] ⟨272⟩⟦25⟧⟨273⟩⟦25⟧⟨274⟩⟦84⟧⟨275⟩⟦36⟧⟨276⟩⟦66⟧⟨277⟩⟦66⟧⟨278⟩⟦113⟧⟨279⟩⟦85⟧⟨280⟩⟦31⟧⟨281⟩⟦32⟧⟨282⟩
+
+[user]
+
+问题：
+Name one of the Judges of Spring Baking Championship television series who was born on December 17, 1974 ?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

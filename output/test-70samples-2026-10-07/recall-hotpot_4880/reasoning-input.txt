@@ -1,0 +1,83 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[The Experts (1989 film)] ⟦194⟧⟨61⟩⟦23⟧⟨63⟩⟨62⟩⟨64⟩⟨65⟩⟦42⟧⟨66⟩⟦99⟧⟨67⟩
+[Grease (film)] ⟦58⟧ | ⟦81⟧⟦81⟧⟨119⟩⟨120⟩⟦21⟧⟦58⟧⟨122⟩⟨121⟩⟨123⟩⟦90⟧⟨124⟩⟦239⟧⟨125⟩⟦209⟧⟨126⟩⟨127⟩
+[Night Fever] ⟦112⟧
+[Saturday Night Fever (soundtrack)] ⟦76⟧⟦93⟧ | ⟦76⟧
+[John Travolta] ⟦92⟧⟨280⟩⟦38⟧⟦31⟧⟨281⟩⟨282⟩⟦128⟧⟦128⟧⟨283⟩⟨284⟩⟦62⟧⟦62⟧⟨285⟩⟨286⟩⟦155⟧⟦155⟧⟨287⟩⟨288⟩
+
+符号表：
+⟦21⟧ = a 1978 American musical romantic comedy film
+⟦23⟧ = a 1989 American comedy film
+⟦31⟧ = actor
+⟦38⟧ = an American actor
+⟦42⟧ = Arye Gross
+⟦58⟧ = comedy
+⟦62⟧ = dancer
+⟦76⟧ = film
+⟦81⟧ = Grease
+⟦90⟧ = Jim Jacobs
+⟦92⟧ = John Joseph Travolta
+⟦93⟧ = John Travolta
+⟦99⟧ = Kelly Preston
+⟦112⟧ = name
+⟦128⟧ = producer
+⟦155⟧ = singer
+⟦194⟧ = The Experts
+⟦209⟧ = the same name
+⟦239⟧ = Warren Casey
+
+占位符映射：
+⟨61⟩ =  is 
+⟨62⟩ = 
+⟨63⟩ =  
+⟨64⟩ =  starring 
+⟨65⟩ = , 
+⟨66⟩ =  and 
+⟨67⟩ = .
+⟨119⟩ = 
+⟨120⟩ =  is 
+⟨121⟩ = 
+⟨122⟩ =  
+⟨123⟩ =  based on 
+⟨124⟩ =  and 
+⟨125⟩ = 's musical of 
+⟨126⟩ = 
+⟨127⟩ = .
+⟨280⟩ =  (born February 18, 1954) is 
+⟨281⟩ = 
+⟨282⟩ = , 
+⟨283⟩ = 
+⟨284⟩ = , 
+⟨285⟩ = 
+⟨286⟩ = , and 
+⟨287⟩ = 
+⟨288⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+The Experts stars what actor known for "Saturday Night Fever" and "Grease"?

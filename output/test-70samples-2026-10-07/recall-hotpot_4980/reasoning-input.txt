@@ -1,0 +1,95 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Igor Naming Agency] ⟦139⟧⟨81⟩⟦42⟧⟨82⟩⟨83⟩ | ⟦139⟧ | ⟦139⟧
+[Igor Naming Agency] ⟨84⟩⟦220⟧⟨85⟩⟨86⟩⟦138⟧⟨87⟩⟦145⟧⟦104⟧⟨88⟩⟨89⟩⟦211⟧⟦331⟧⟨90⟩⟨91⟩⟨92⟩⟨93⟩
+[Igor Naming Agency] ⟨94⟩⟨95⟩⟨96⟩⟨97⟩⟨98⟩⟦126⟧⟨99⟩⟦89⟧⟦153⟧⟨100⟩⟨101⟩⟦317⟧⟨102⟩⟦257⟧⟨103⟩⟦81⟧⟦82⟧⟨104⟩⟦203⟧⟨105⟩⟨106⟩⟦295⟧⟨107⟩⟦246⟧⟨108⟩⟦189⟧⟦189⟧⟦189⟧⟦189⟧⟨109⟩⟨110⟩
+[California State Route 73] ⟦65⟧
+[Master-McNeil] ⟦37⟧
+[Master-McNeil] ⟦178⟧⟦178⟧
+[Master-McNeil] ⟦263⟧⟦76⟧
+
+符号表：
+⟦37⟧ = agency
+⟦42⟧ = an American naming agency
+⟦65⟧ = California
+⟦76⟧ = company
+⟦81⟧ = consumer
+⟦82⟧ = consumer products
+⟦89⟧ = Cutthroat Kitchen
+⟦104⟧ = embrace
+⟦126⟧ = Gogo Inflight
+⟦138⟧ = Igor
+⟦139⟧ = Igor Naming Agency
+⟦145⟧ = its "almost militant embrace
+⟦153⟧ = Kitchen
+⟦178⟧ = naming
+⟦189⟧ = others
+⟦203⟧ = products
+⟦211⟧ = real and natural-sounding words
+⟦220⟧ = Sausalito
+⟦246⟧ = Target
+⟦257⟧ = the Aria Resort
+⟦263⟧ = the company
+⟦295⟧ = The North Face
+⟦317⟧ = TruTV
+⟦331⟧ = words
+
+占位符映射：
+⟨81⟩ =  is 
+⟨82⟩ = 
+⟨83⟩ = .
+⟨84⟩ =  Based in 
+⟨85⟩ = , 
+⟨86⟩ = , 
+⟨87⟩ =  is known for 
+⟨88⟩ = 
+⟨89⟩ = " of using 
+⟨90⟩ = 
+⟨91⟩ =  in 
+⟨92⟩ = 
+⟨93⟩ = .
+⟨94⟩ =  Among 
+⟨95⟩ = 
+⟨96⟩ = , 
+⟨97⟩ = 
+⟨98⟩ =  has named 
+⟨99⟩ = , "
+⟨100⟩ = 
+⟨101⟩ = ", 
+⟨102⟩ = , 
+⟨103⟩ = , and 
+⟨104⟩ = 
+⟨105⟩ = 
+⟨106⟩ =  for 
+⟨107⟩ =  and 
+⟨108⟩ = , among 
+⟨109⟩ = 
+⟨110⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Igor Naming Agency named a resort located where?

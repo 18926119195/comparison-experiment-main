@@ -1,0 +1,88 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[List of Atlanta Hawks head coaches] ⟨32⟩⟦280⟧⟨33⟩⟨34⟩⟨35⟩
+[Zaza Pachulia] ⟨73⟩⟦2⟧⟨74⟩⟦301⟧⟨75⟩⟨76⟩⟦30⟧⟨78⟩⟨77⟩⟨79⟩⟨80⟩⟨81⟩⟨82⟩
+[Zaza Pachulia] ⟨88⟩⟨89⟩⟦107⟧⟨90⟩⟦32⟧⟦136⟧⟨91⟩⟨92⟩⟦269⟧⟦293⟧⟨93⟩⟨94⟩
+[2004–05 Milwaukee Bucks season] ⟦300⟧
+[2004–05 Milwaukee Bucks season] ⟦153⟧
+[Marco Belinelli] ⟦143⟧
+[Marco Belinelli] ⟦232⟧
+[Marco Belinelli] ⟦72⟧
+[1957–58 St. Louis Hawks season] ⟦244⟧
+[Skip Harlicka] ⟦159⟧
+[2005–06 Atlanta Hawks season] ⟦239⟧
+[2005–06 Atlanta Hawks season] ⟦61⟧⟦86⟧
+[2005–06 Atlanta Hawks season] ⟦233⟧
+
+符号表：
+⟦2⟧ = (Georgian
+⟦30⟧ = a Georgian professional basketball player
+⟦32⟧ = a member
+⟦61⟧ = basketball
+⟦72⟧ = championship
+⟦86⟧ = February
+⟦107⟧ = his first NBA Championship
+⟦136⟧ = member
+⟦143⟧ = NBA
+⟦153⟧ = Pachulia
+⟦159⟧ = player
+⟦232⟧ = the Golden State Warriors
+⟦233⟧ = The Hawks
+⟦239⟧ = the National Basketball Association
+⟦244⟧ = the NBA Finals
+⟦269⟧ = the Warriors
+⟦280⟧ = their only NBA championship
+⟦293⟧ = Warriors
+⟦300⟧ = Zaza Pachulia
+⟦301⟧ = ზაზა ფაჩულია
+
+占位符映射：
+⟨32⟩ =  won 
+⟨33⟩ = 
+⟨34⟩ =  in 1958, and have not returned to 
+⟨35⟩ =  since 1960.
+⟨73⟩ =  
+⟨74⟩ = : 
+⟨75⟩ =  ; 
+⟨76⟩ =  10, 1984) is 
+⟨77⟩ = 
+⟨78⟩ =  
+⟨79⟩ =  for 
+⟨80⟩ =  of 
+⟨81⟩ =  (
+⟨82⟩ = ).
+⟨88⟩ =  In 2017, 
+⟨89⟩ =  won 
+⟨90⟩ =  as 
+⟨91⟩ = 
+⟨92⟩ =  of 
+⟨93⟩ = 
+⟨94⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Did Zaza Pachulia win an NBA Championship with the Atlanta Hawks?

@@ -1,0 +1,454 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = , DeSean Jackson
+⟦2⟧ = "Amy
+⟦3⟧ = "Forbes
+⟦4⟧ = "Miracle
+⟦5⟧ = "New Miracle
+⟦6⟧ = (now the American Football Conference
+⟦7⟧ = 1 tie
+⟦8⟧ = 1–11
+⟦9⟧ = 2 wins
+⟦10⟧ = 21 points
+⟦11⟧ = 28 seconds
+⟦12⟧ = 5 losses
+⟦13⟧ = a 1–5–1 league record
+⟦14⟧ = a 1960 charter member
+⟦15⟧ = a consensus
+⟦16⟧ = a Coptic American heir
+⟦17⟧ = a crucial one
+⟦18⟧ = a Czech actress
+⟦19⟧ = a feat
+⟦20⟧ = a franchise
+⟦21⟧ = a game
+⟦22⟧ = a great influx
+⟦23⟧ = a number
+⟦24⟧ = a one-person motorcycle accident
+⟦25⟧ = a Play
+⟦26⟧ = a professional American football end
+⟦27⟧ = a punt
+⟦28⟧ = a punt return
+⟦29⟧ = a record
+⟦30⟧ = a reorganized NFL
+⟦31⟧ = a roster
+⟦32⟧ = a team
+⟦33⟧ = a three-year baseball contract
+⟦34⟧ = a touchdown
+⟦35⟧ = a wide receiver and return specialist
+⟦36⟧ = accident
+⟦37⟧ = actress
+⟦38⟧ = AFL
+⟦39⟧ = agency
+⟦40⟧ = All-American
+⟦41⟧ = American Football League II
+⟦42⟧ = an 2–14 season
+⟦43⟧ = an American football
+⟦44⟧ = an American football team
+⟦45⟧ = an attorney
+⟦46⟧ = an earlier first incarnation
+⟦47⟧ = an estimated current net worth
+⟦48⟧ = an improbable come-from-behind win
+⟦49⟧ = an NFL team
+⟦50⟧ = an original and second largest shareholder
+⟦51⟧ = another Eagles
+⟦52⟧ = Another NFL team
+⟦53⟧ = any impact players
+⟦54⟧ = any NFL team
+⟦55⟧ = APFA
+⟦56⟧ = APFA teams
+⟦57⟧ = April
+⟦58⟧ = Arabic
+⟦59⟧ = assets
+⟦60⟧ = attorney
+⟦61⟧ = baseball
+⟦62⟧ = Berkeley
+⟦63⟧ = Best Actress
+⟦64⟧ = Bo Jackson
+⟦65⟧ = borough
+⟦66⟧ = Buccaneers
+⟦67⟧ = business
+⟦68⟧ = California
+⟦69⟧ = career
+⟦70⟧ = category
+⟦71⟧ = champion
+⟦72⟧ = champions
+⟦73⟧ = championship
+⟦74⟧ = charter
+⟦75⟧ = Chicago's Wrigley Field
+⟦76⟧ = children
+⟦77⟧ = co
+⟦78⟧ = college
+⟦79⟧ = college football
+⟦80⟧ = consensus
+⟦81⟧ = context
+⟦82⟧ = contract
+⟦83⟧ = Cubs Park
+⟦84⟧ = Dallas
+⟦85⟧ = Dan Topping
+⟦86⟧ = death
+⟦87⟧ = December
+⟦88⟧ = defense
+⟦89⟧ = defunct USFL teams
+⟦90⟧ = departure
+⟦91⟧ = DeSean Jackson
+⟦92⟧ = DeSean William Jackson
+⟦93⟧ = difficulties
+⟦94⟧ = distinction
+⟦95⟧ = draft
+⟦96⟧ = Dreyfus family stock funds
+⟦97⟧ = Ebbets Field
+⟦98⟧ = either the draft or free agency
+⟦99⟧ = end
+⟦100⟧ = establishment
+⟦101⟧ = eventual Super Bowl champion Green Bay
+⟦102⟧ = executive
+⟦103⟧ = family
+⟦104⟧ = fans
+⟦105⟧ = father
+⟦106⟧ = Fayez Sarofim
+⟦107⟧ = feat
+⟦108⟧ = field
+⟦109⟧ = financial difficulties
+⟦110⟧ = firms
+⟦111⟧ = five children
+⟦112⟧ = football
+⟦113⟧ = fortune
+⟦114⟧ = four unanswered touchdowns
+⟦115⟧ = franchise
+⟦116⟧ = franchise history
+⟦117⟧ = fresh talent
+⟦118⟧ = fund
+⟦119⟧ = fund manager
+⟦120⟧ = funds
+⟦121⟧ = game
+⟦122⟧ = games
+⟦123⟧ = half
+⟦124⟧ = height
+⟦125⟧ = heir
+⟦126⟧ = her role
+⟦127⟧ = his death
+⟦128⟧ = his departure
+⟦129⟧ = his first two games
+⟦130⟧ = His investment firms
+⟦131⟧ = his NFL career
+⟦132⟧ = history
+⟦133⟧ = home
+⟦134⟧ = Houston
+⟦135⟧ = Houston Texans
+⟦136⟧ = impact
+⟦137⟧ = incarnation
+⟦138⟧ = influx
+⟦139⟧ = investment
+⟦140⟧ = its home games
+⟦141⟧ = its only season
+⟦142⟧ = Jackson
+⟦143⟧ = Joe Don Looney
+⟦144⟧ = John Don Looney
+⟦145⟧ = just under eight minutes
+⟦146⟧ = Kevin Fulbright Warren
+⟦147⟧ = Kinder Morgan
+⟦148⟧ = KMI
+⟦149⟧ = league
+⟦150⟧ = level
+⟦151⟧ = Looney
+⟦152⟧ = losses
+⟦153⟧ = lowest franchise
+⟦154⟧ = major league-level players
+⟦155⟧ = manager
+⟦156⟧ = Many players
+⟦157⟧ = member
+⟦158⟧ = members
+⟦159⟧ = merger
+⟦160⟧ = minutes
+⟦161⟧ = Miracle
+⟦162⟧ = Most Valuable NFL team
+⟦163⟧ = motorcycle
+⟦164⟧ = My Romantic History
+⟦165⟧ = name
+⟦166⟧ = New Meadowlands Stadium
+⟦167⟧ = New York
+⟦168⟧ = NFL
+⟦169⟧ = NFL history
+⟦170⟧ = no relationship
+⟦171⟧ = number
+⟦172⟧ = NYSE
+⟦173⟧ = officer
+⟦174⟧ = Ohio
+⟦175⟧ = one
+⟦176⟧ = one season
+⟦177⟧ = operating
+⟦178⟧ = Ostrava
+⟦179⟧ = over 100 yards
+⟦180⟧ = owner
+⟦181⟧ = part
+⟦182⟧ = part owner
+⟦183⟧ = partner
+⟦184⟧ = percentage
+⟦185⟧ = person
+⟦186⟧ = Philadelphia Eagles fans
+⟦187⟧ = pick
+⟦188⟧ = play
+⟦189⟧ = player
+⟦190⟧ = players
+⟦191⟧ = playoffs
+⟦192⟧ = points
+⟦193⟧ = positions
+⟦194⟧ = Prague's National Theatre
+⟦195⟧ = presence
+⟦196⟧ = professional sports executive
+⟦197⟧ = punt
+⟦198⟧ = quarter
+⟦199⟧ = receiver
+⟦200⟧ = record
+⟦201⟧ = relationship
+⟦202⟧ = requirements
+⟦203⟧ = return
+⟦204⟧ = rival team
+⟦205⟧ = rivals
+⟦206⟧ = Rochester
+⟦207⟧ = role
+⟦208⟧ = roster
+⟦209⟧ = round
+⟦210⟧ = Sarofim
+⟦211⟧ = scarcity
+⟦212⟧ = season
+⟦213⟧ = seasons
+⟦214⟧ = seconds
+⟦215⟧ = selections
+⟦216⟧ = sentiment
+⟦217⟧ = September
+⟦218⟧ = seven games
+⟦219⟧ = several stronger teams
+⟦220⟧ = shareholder
+⟦221⟧ = side
+⟦222⟧ = some sentiment
+⟦223⟧ = specialist
+⟦224⟧ = sports
+⟦225⟧ = sportscasters
+⟦226⟧ = standings
+⟦227⟧ = stock
+⟦228⟧ = Sulphur Springs
+⟦229⟧ = talent
+⟦230⟧ = team
+⟦231⟧ = teams
+⟦232⟧ = Tereza Vilišová
+⟦233⟧ = term
+⟦234⟧ = Texas
+⟦235⟧ = that season
+⟦236⟧ = the 1936 season
+⟦237⟧ = the 1952 roster
+⟦238⟧ = The 1986 Tampa Bay Buccaneers season
+⟦239⟧ = the 1986 team
+⟦240⟧ = the 2001 Indianapolis Colts
+⟦241⟧ = the 2008 NFL Draft
+⟦242⟧ = the 2008 NFL season
+⟦243⟧ = the 2010 NFL playoffs
+⟦244⟧ = the 2010 NFL season
+⟦245⟧ = the 2010 Pro Bowl
+⟦246⟧ = the 2013 Thalia Awards
+⟦247⟧ = the 473 points
+⟦248⟧ = the 847-richest person
+⟦249⟧ = the AAFC
+⟦250⟧ = the AFL Texans
+⟦251⟧ = the Alfréd Radok Award
+⟦252⟧ = the All-America Football Conference
+⟦253⟧ = The American Football League
+⟦254⟧ = the American Football League IV
+⟦255⟧ = the American Professional Football Association
+⟦256⟧ = the APFA
+⟦257⟧ = the baseball National League's team
+⟦258⟧ = the Boston Yanks
+⟦259⟧ = the Brooklyn borough
+⟦260⟧ = The Brooklyn Dodgers
+⟦261⟧ = the Brooklyn Horsemen
+⟦262⟧ = the Brooklyn Lions
+⟦263⟧ = the Brooklyn Tigers
+⟦264⟧ = The Buccaneers
+⟦265⟧ = the business side
+⟦266⟧ = the category
+⟦267⟧ = The Chicago Tigers
+⟦268⟧ = the Chief Operating Officer
+⟦269⟧ = the context
+⟦270⟧ = the D C Jackson
+⟦271⟧ = The Dallas Texans
+⟦272⟧ = the distinction
+⟦273⟧ = the Divadlo Petra Bezruče
+⟦274⟧ = the draft
+⟦275⟧ = the Eagles
+⟦276⟧ = the earlier (second incarnation
+⟦277⟧ = the earlier NFL team
+⟦278⟧ = the establishment
+⟦279⟧ = the father
+⟦280⟧ = the field
+⟦281⟧ = the final seven minutes
+⟦282⟧ = the first "Super Bowl" inter-league national championship game
+⟦283⟧ = the first black chief operating officer
+⟦284⟧ = the first forty selections
+⟦285⟧ = the first half
+⟦286⟧ = the first NFL team
+⟦287⟧ = the first player
+⟦288⟧ = the first receiver
+⟦289⟧ = the first year
+⟦290⟧ = the fourth quarter
+⟦291⟧ = The game
+⟦292⟧ = the Giants
+⟦293⟧ = the height
+⟦294⟧ = the highest-ranking African-American executive
+⟦295⟧ = the increasing scarcity
+⟦296⟧ = the Kansas City Chiefs
+⟦297⟧ = the Kansas City Royals
+⟦298⟧ = the last NFL team
+⟦299⟧ = the latest rival fourth incarnation
+⟦300⟧ = the league
+⟦301⟧ = the league standings
+⟦302⟧ = the Meadowlands II
+⟦303⟧ = the Minnesota Vikings
+⟦304⟧ = The Miracle
+⟦305⟧ = the National Football League
+⟦306⟧ = the new Baltimore Colts franchise
+⟦307⟧ = the New Meadowlands
+⟦308⟧ = the New York Giants
+⟦309⟧ = the newly established rival professional league
+⟦310⟧ = the NFL team
+⟦311⟧ = the NFL-AFL (third) merger
+⟦312⟧ = the old NFL
+⟦313⟧ = the old NFL champions
+⟦314⟧ = the Philadelphia Eagles
+⟦315⟧ = the Pittsburgh Steelers
+⟦316⟧ = the previous season's 2–14 team
+⟦317⟧ = the Pro Bowl
+⟦318⟧ = the Rochester Tigers
+⟦319⟧ = the same name
+⟦320⟧ = the same work
+⟦321⟧ = the same year
+⟦322⟧ = the Sarofim family fortune
+⟦323⟧ = the season
+⟦324⟧ = the second oldest living former NFL player
+⟦325⟧ = the second round
+⟦326⟧ = the Tampa Bay Buccaneers
+⟦327⟧ = The team
+⟦328⟧ = the term
+⟦329⟧ = The Texans
+⟦330⟧ = The Tigers
+⟦331⟧ = the Tigers team
+⟦332⟧ = the time
+⟦333⟧ = the top pick
+⟦334⟧ = the University
+⟦335⟧ = the victors
+⟦336⟧ = the war-time defense requirements
+⟦337⟧ = the Washington Redskins
+⟦338⟧ = The win
+⟦339⟧ = the winless team
+⟦340⟧ = the world
+⟦341⟧ = the worst seasons
+⟦342⟧ = the worst teams
+⟦343⟧ = the Yanks
+⟦344⟧ = This old NFL franchise
+⟦345⟧ = three seasons
+⟦346⟧ = tie
+⟦347⟧ = time
+⟦348⟧ = times
+⟦349⟧ = touchdown
+⟦350⟧ = touchdowns
+⟦351⟧ = two different positions
+⟦352⟧ = two divisional rivals
+⟦353⟧ = victors
+⟦354⟧ = Vilišová
+⟦355⟧ = war
+⟦356⟧ = Warren
+⟦357⟧ = Week
+⟦358⟧ = weeks
+⟦359⟧ = wide receiver
+⟦360⟧ = win
+⟦361⟧ = winless
+⟦362⟧ = wins
+⟦363⟧ = work
+⟦364⟧ = world
+⟦365⟧ = World War II
+⟦366⟧ = worth
+⟦367⟧ = yards
+⟦368⟧ = year
+⟦369⟧ = years
+⟦370⟧ = صاروفيم‎
+⟦371⟧ = فايز
+⟦372⟧ = فايز صاروفيم‎ ‎
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Miracle at the New Meadowlands] ⟦304⟧⟨1⟩⟦161⟧⟨2⟩⟦307⟧⟨3⟩⟦5⟧⟨4⟩⟦307⟧⟨5⟩⟦4⟧⟨6⟩⟦161⟧⟨7⟩⟦302⟧⟨8⟩⟦328⟧⟨9⟩⟦233⟧⟨10⟩⟦225⟧⟨11⟩⟦225⟧⟨12⟩⟦186⟧⟨13⟩⟦104⟧⟨14⟩⟦48⟧⟨15⟩⟦360⟧⟨16⟩⟦314⟧⟨17⟩⟦204⟧⟨18⟩⟦230⟧⟨19⟩⟦308⟧⟨20⟩⟦166⟧⟨21⟩⟦87⟧⟨22⟩
+[Miracle at the New Meadowlands] ⟦291⟧⟨23⟩⟦121⟧⟨24⟩⟦17⟧⟨25⟩⟦175⟧⟨26⟩⟦269⟧⟨27⟩⟦81⟧⟨28⟩⟦323⟧⟨29⟩⟦212⟧⟨30⟩⟦352⟧⟨31⟩⟦205⟧⟨32⟩⟦357⟧⟨33⟩⟦244⟧⟨34⟩⟦212⟧⟨35⟩
+[Miracle at the New Meadowlands] ⟨36⟩⟦145⟧⟨37⟩⟦160⟧⟨38⟩⟦290⟧⟨39⟩⟦198⟧⟨40⟩⟦275⟧⟨41⟩⟦292⟧⟨42⟩⟦10⟧⟨43⟩⟦192⟧⟨44⟩
+[Miracle at the New Meadowlands] ⟨45⟩⟦114⟧⟨46⟩⟦350⟧⟨47⟩⟦281⟧⟨48⟩⟦160⟧⟨49⟩⟦11⟧⟨50⟩⟦214⟧⟨51⟩⟦188⟧⟨52⟩⟦188⟧⟨53⟩⟦27⟧⟨54⟩⟦197⟧⟨55⟩⟦34⟧⟨56⟩⟦349⟧⟨57⟩⟦91⟧⟨58⟩⟦347⟧⟨59⟩⟦347⟧⟨60⟩
+[Miracle at the New Meadowlands] ⟦142⟧⟨61⟩⟦287⟧⟨62⟩⟦189⟧⟨63⟩⟦169⟧⟨64⟩⟦132⟧⟨65⟩⟦21⟧⟨66⟩⟦121⟧⟨67⟩⟦28⟧⟨68⟩⟦197⟧⟨69⟩⟦203⟧⟨70⟩⟦347⟧⟨71⟩⟦347⟧⟨72⟩
+[Miracle at the New Meadowlands] ⟦338⟧⟨73⟩⟦360⟧⟨74⟩⟦275⟧⟨75⟩⟦243⟧⟨76⟩⟦191⟧⟨77⟩⟦101⟧⟨78⟩⟦71⟧⟨79⟩
+[Chicago Tigers] ⟦267⟧⟨80⟩⟦255⟧⟨81⟩⟦55⟧⟨82⟩⟦55⟧⟨83⟩⟦289⟧⟨84⟩⟦368⟧⟨85⟩⟦300⟧⟨86⟩⟦149⟧⟨87⟩⟦272⟧⟨88⟩⟦94⟧⟨89⟩⟦286⟧⟨90⟩⟦230⟧⟨91⟩
+[Chicago Tigers] ⟨92⟩⟦29⟧⟨93⟩⟦200⟧⟨94⟩⟦9⟧⟨95⟩⟦362⟧⟨96⟩⟦12⟧⟨97⟩⟦152⟧⟨98⟩⟦7⟧⟨99⟩⟦346⟧⟨100⟩
+[Chicago Tigers] ⟦327⟧⟨101⟩⟦230⟧⟨102⟩⟦140⟧⟨103⟩⟦133⟧⟨104⟩⟦122⟧⟨105⟩⟦75⟧⟨106⟩⟦83⟧⟨107⟩⟦286⟧⟨108⟩⟦230⟧⟨109⟩
+[Chicago Tigers] ⟦330⟧⟨110⟩⟦158⟧⟨111⟩⟦158⟧⟨112⟩⟦256⟧⟨113⟩⟦55⟧⟨114⟩
+[Chicago Tigers] ⟨115⟩⟦327⟧⟨116⟩⟦230⟧⟨117⟩⟦218⟧⟨118⟩⟦122⟧⟨119⟩⟦55⟧⟨120⟩⟦56⟧⟨121⟩⟦231⟧⟨122⟩⟦13⟧⟨123⟩⟦149⟧⟨124⟩⟦200⟧⟨125⟩⟦301⟧⟨126⟩⟦149⟧⟨127⟩⟦226⟧⟨128⟩
+[DeSean Jackson] ⟦92⟧⟨129⟩⟦43⟧⟨130⟩⟦112⟧⟨131⟩⟦359⟧⟨132⟩⟦199⟧⟨133⟩⟦326⟧⟨134⟩⟦66⟧⟨135⟩⟦305⟧⟨136⟩⟦168⟧⟨137⟩
+[DeSean Jackson] ⟨138⟩⟦78⟧⟨139⟩⟦79⟧⟨140⟩⟦112⟧⟨141⟩⟦334⟧⟨142⟩⟦68⟧⟨143⟩⟦62⟧⟨144⟩⟦15⟧⟨145⟩⟦80⟧⟨146⟩⟦40⟧⟨147⟩
+[DeSean Jackson] ⟨148⟩⟦314⟧⟨149⟩⟦325⟧⟨150⟩⟦209⟧⟨151⟩⟦241⟧⟨152⟩⟦337⟧⟨153⟩⟦345⟧⟨154⟩⟦213⟧⟨155⟩⟦128⟧⟨156⟩⟦90⟧⟨157⟩⟦275⟧⟨158⟩
+[DeSean Jackson] ⟦142⟧⟨159⟩⟦317⟧⟨160⟩⟦348⟧⟨161⟩⟦287⟧⟨162⟩⟦189⟧⟨163⟩⟦317⟧⟨164⟩⟦351⟧⟨165⟩⟦193⟧⟨166⟩⟦321⟧⟨167⟩⟦368⟧⟨168⟩⟦245⟧⟨169⟩⟦35⟧⟨170⟩⟦199⟧⟨171⟩⟦203⟧⟨172⟩⟦223⟧⟨173⟩
+[1986 Tampa Bay Buccaneers season] ⟦238⟧⟨174⟩⟦212⟧⟨175⟩⟦327⟧⟨176⟩⟦230⟧⟨177⟩⟦42⟧⟨178⟩⟦212⟧⟨179⟩
+[1986 Tampa Bay Buccaneers season] ⟨180⟩⟦341⟧⟨181⟩⟦213⟧⟨182⟩⟦115⟧⟨183⟩⟦116⟧⟨184⟩⟦132⟧⟨185⟩
+[1986 Tampa Bay Buccaneers season] ⟨186⟩⟦222⟧⟨187⟩⟦216⟧⟨188⟩⟦239⟧⟨189⟩⟦230⟧⟨190⟩⟦339⟧⟨191⟩⟦361⟧⟨192⟩⟦230⟧⟨193⟩⟦247⟧⟨194⟩⟦192⟧⟨195⟩⟦54⟧⟨196⟩⟦230⟧⟨197⟩⟦240⟧⟨198⟩
+[1986 Tampa Bay Buccaneers season] ⟦264⟧⟨199⟩⟦64⟧⟨200⟩⟦333⟧⟨201⟩⟦187⟧⟨202⟩⟦274⟧⟨203⟩⟦95⟧⟨204⟩⟦327⟧⟨205⟩⟦230⟧⟨206⟩
+[1986 Tampa Bay Buccaneers season] ⟨207⟩⟦358⟧⟨208⟩⟦274⟧⟨209⟩⟦95⟧⟨210⟩⟦142⟧⟨211⟩⟦33⟧⟨212⟩⟦368⟧⟨213⟩⟦61⟧⟨214⟩⟦82⟧⟨215⟩⟦297⟧⟨216⟩
+[1986 Tampa Bay Buccaneers season] ⟨217⟩⟦284⟧⟨218⟩⟦215⟧⟨219⟩⟦274⟧⟨220⟩⟦95⟧⟨221⟩⟦195⟧⟨222⟩⟦22⟧⟨223⟩⟦138⟧⟨224⟩⟦117⟧⟨225⟩⟦229⟧⟨226⟩⟦89⟧⟨227⟩⟦231⟧⟨228⟩⟦264⟧⟨229⟩⟦66⟧⟨230⟩⟦53⟧⟨231⟩⟦136⟧⟨232⟩⟦190⟧⟨233⟩⟦98⟧⟨234⟩⟦95⟧⟨235⟩⟦39⟧⟨236⟩
+[1986 Tampa Bay Buccaneers season] ⟨237⟩⟦323⟧⟨238⟩⟦212⟧⟨239⟩⟦31⟧⟨240⟩⟦208⟧⟨241⟩⟦316⟧⟨242⟩⟦212⟧⟨243⟩⟦230⟧⟨244⟩
+[Brooklyn Dodgers (NFL)] ⟦260⟧⟨245⟩⟦44⟧⟨246⟩⟦112⟧⟨247⟩⟦230⟧⟨248⟩⟦305⟧⟨249⟩⟦263⟧⟨250⟩
+[Brooklyn Dodgers (NFL)] ⟦327⟧⟨251⟩⟦230⟧⟨252⟩⟦140⟧⟨253⟩⟦133⟧⟨254⟩⟦122⟧⟨255⟩⟦97⟧⟨256⟩⟦257⟧⟨257⟩⟦61⟧⟨258⟩⟦230⟧⟨259⟩
+[Brooklyn Dodgers (NFL)] ⟨260⟩⟦109⟧⟨261⟩⟦93⟧⟨262⟩⟦295⟧⟨263⟩⟦211⟧⟨264⟩⟦154⟧⟨265⟩⟦149⟧⟨266⟩⟦150⟧⟨267⟩⟦190⟧⟨268⟩⟦336⟧⟨269⟩⟦355⟧⟨270⟩⟦347⟧⟨271⟩⟦88⟧⟨272⟩⟦202⟧⟨273⟩⟦293⟧⟨274⟩⟦124⟧⟨275⟩⟦365⟧⟨276⟩⟦327⟧⟨277⟩⟦230⟧⟨278⟩⟦258⟧⟨279⟩⟦343⟧⟨280⟩⟦235⟧⟨281⟩⟦212⟧⟨282⟩
+[Brooklyn Dodgers (NFL)] ⟦344⟧⟨283⟩⟦115⟧⟨284⟩⟦276⟧⟨285⟩⟦137⟧⟨286⟩⟦41⟧⟨287⟩⟦20⟧⟨288⟩⟦115⟧⟨289⟩⟦263⟧⟨290⟩⟦285⟧⟨291⟩⟦123⟧⟨292⟩⟦236⟧⟨293⟩⟦212⟧⟨294⟩⟦206⟧⟨295⟩⟦167⟧⟨296⟩⟦318⟧⟨297⟩
+[Brooklyn Dodgers (NFL)] ⟦52⟧⟨298⟩⟦230⟧⟨299⟩⟦259⟧⟨300⟩⟦65⟧⟨301⟩⟦262⟧⟨302⟩⟦261⟧⟨303⟩⟦32⟧⟨304⟩⟦230⟧⟨305⟩⟦46⟧⟨306⟩⟦137⟧⟨307⟩⟦38⟧⟨308⟩⟦319⟧⟨309⟩⟦165⟧⟨310⟩
+[Brooklyn Dodgers (NFL)] ⟨311⟩⟦77⟧⟨312⟩⟦77⟧⟨313⟩⟦180⟧⟨314⟩⟦180⟧⟨315⟩⟦183⟧⟨316⟩⟦183⟧⟨317⟩⟦85⟧⟨318⟩⟦331⟧⟨319⟩⟦230⟧⟨320⟩⟦312⟧⟨321⟩⟦309⟧⟨322⟩⟦149⟧⟨323⟩⟦252⟧⟨324⟩⟦219⟧⟨325⟩⟦231⟧⟨326⟩⟦249⟧⟨327⟩⟦30⟧⟨328⟩
+[Brooklyn Dodgers (NFL)] ⟨329⟩⟦311⟧⟨330⟩⟦159⟧⟨331⟩⟦278⟧⟨332⟩⟦100⟧⟨333⟩⟦282⟧⟨334⟩⟦73⟧⟨335⟩⟦121⟧⟨336⟩⟦369⟧⟨337⟩⟦313⟧⟨338⟩⟦72⟧⟨339⟩⟦335⟧⟨340⟩⟦353⟧⟨341⟩⟦299⟧⟨342⟩⟦137⟧⟨343⟩⟦254⟧⟨344⟩⟦6⟧⟨345⟩
+[Kevin Warren] ⟦146⟧⟨346⟩⟦45⟧⟨347⟩⟦60⟧⟨348⟩⟦196⟧⟨349⟩⟦224⟧⟨350⟩⟦102⟧⟨351⟩
+[Kevin Warren] ⟨352⟩⟦268⟧⟨353⟩⟦303⟧⟨354⟩⟦305⟧⟨355⟩⟦294⟧⟨356⟩⟦102⟧⟨357⟩⟦265⟧⟨358⟩⟦67⟧⟨359⟩⟦221⟧⟨360⟩⟦49⟧⟨361⟩⟦230⟧⟨362⟩
+[Kevin Warren] ⟨363⟩⟦356⟧⟨364⟩⟦283⟧⟨365⟩⟦177⟧⟨366⟩⟦173⟧⟨367⟩⟦49⟧⟨368⟩⟦230⟧⟨369⟩
+[Dallas Texans (NFL)] ⟦271⟧⟨370⟩⟦305⟧⟨371⟩⟦168⟧⟨372⟩⟦176⟧⟨373⟩⟦212⟧⟨374⟩⟦29⟧⟨375⟩⟦200⟧⟨376⟩⟦8⟧⟨377⟩
+[Dallas Texans (NFL)] ⟦327⟧⟨378⟩⟦230⟧⟨379⟩⟦342⟧⟨380⟩⟦231⟧⟨381⟩⟦169⟧⟨382⟩⟦132⟧⟨383⟩⟦153⟧⟨384⟩⟦115⟧⟨385⟩⟦184⟧⟨386⟩⟦184⟧⟨387⟩⟦280⟧⟨388⟩⟦108⟧⟨389⟩
+[Dallas Texans (NFL)] ⟦327⟧⟨390⟩⟦230⟧⟨391⟩⟦84⟧⟨392⟩⟦174⟧⟨393⟩⟦141⟧⟨394⟩⟦212⟧⟨395⟩
+[Dallas Texans (NFL)] ⟦329⟧⟨396⟩⟦298⟧⟨397⟩⟦230⟧⟨398⟩
+[Dallas Texans (NFL)] ⟦156⟧⟨399⟩⟦190⟧⟨400⟩⟦237⟧⟨401⟩⟦208⟧⟨402⟩⟦306⟧⟨403⟩⟦115⟧⟨404⟩
+[Dallas Texans (NFL)] ⟦253⟧⟨405⟩⟦38⟧⟨406⟩⟦14⟧⟨407⟩⟦74⟧⟨408⟩⟦157⟧⟨409⟩⟦271⟧⟨410⟩⟦296⟧⟨411⟩⟦250⟧⟨412⟩⟦170⟧⟨413⟩⟦201⟧⟨414⟩⟦277⟧⟨415⟩⟦230⟧⟨416⟩
+[Don Looney] ⟦144⟧⟨417⟩⟦217⟧⟨418⟩⟦57⟧⟨419⟩⟦26⟧⟨420⟩⟦112⟧⟨421⟩⟦99⟧⟨422⟩⟦305⟧⟨423⟩
+[Don Looney] ⟨424⟩⟦228⟧⟨425⟩⟦234⟧⟨426⟩
+[Don Looney] ⟨427⟩⟦345⟧⟨428⟩⟦213⟧⟨429⟩⟦314⟧⟨430⟩⟦315⟧⟨431⟩
+[Don Looney] ⟨432⟩⟦288⟧⟨433⟩⟦199⟧⟨434⟩⟦169⟧⟨435⟩⟦132⟧⟨436⟩⟦179⟧⟨437⟩⟦367⟧⟨438⟩⟦129⟧⟨439⟩⟦122⟧⟨440⟩⟦19⟧⟨441⟩⟦107⟧⟨442⟩⟦242⟧⟨443⟩⟦212⟧⟨444⟩⟦51⟧⟨445⟩⟦1⟧⟨446⟩
+[Don Looney] ⟨447⟩⟦332⟧⟨448⟩⟦347⟧⟨449⟩⟦127⟧⟨450⟩⟦86⟧⟨451⟩⟦151⟧⟨452⟩⟦324⟧⟨453⟩⟦189⟧⟨454⟩
+[Don Looney] ⟨455⟩⟦279⟧⟨456⟩⟦105⟧⟨457⟩⟦168⟧⟨458⟩⟦143⟧⟨459⟩⟦24⟧⟨460⟩⟦185⟧⟨461⟩⟦163⟧⟨462⟩⟦36⟧⟨463⟩⟦131⟧⟨464⟩⟦69⟧⟨465⟩
+[Tereza Vilišová] ⟦232⟧⟨466⟩⟦18⟧⟨467⟩⟦37⟧⟨468⟩
+[Tereza Vilišová] ⟨469⟩⟦251⟧⟨470⟩⟦63⟧⟨471⟩⟦126⟧⟨472⟩⟦207⟧⟨473⟩⟦2⟧⟨474⟩⟦270⟧⟨475⟩⟦164⟧⟨476⟩⟦132⟧⟨477⟩⟦273⟧⟨478⟩⟦178⟧⟨479⟩
+[Tereza Vilišová] ⟨480⟩⟦246⟧⟨481⟩⟦266⟧⟨482⟩⟦70⟧⟨483⟩⟦63⟧⟨484⟩⟦25⟧⟨485⟩⟦188⟧⟨486⟩⟦320⟧⟨487⟩⟦363⟧⟨488⟩
+[Tereza Vilišová] ⟦354⟧⟨489⟩⟦194⟧⟨490⟩
+[Fayez Sarofim] ⟦106⟧⟨491⟩⟦58⟧⟨492⟩⟦371⟧⟨493⟩⟦372⟧⟨494⟩⟦370⟧⟨495⟩⟦16⟧⟨496⟩⟦125⟧⟨497⟩⟦322⟧⟨498⟩⟦103⟧⟨499⟩⟦113⟧⟨500⟩⟦118⟧⟨501⟩⟦119⟧⟨502⟩⟦155⟧⟨503⟩⟦23⟧⟨504⟩⟦171⟧⟨505⟩⟦96⟧⟨506⟩⟦103⟧⟨507⟩⟦227⟧⟨508⟩⟦120⟧⟨509⟩⟦50⟧⟨510⟩⟦220⟧⟨511⟩⟦147⟧⟨512⟩⟦172⟧⟨513⟩⟦148⟧⟨514⟩⟦181⟧⟨515⟩⟦182⟧⟨516⟩⟦180⟧⟨517⟩⟦310⟧⟨518⟩⟦230⟧⟨519⟩⟦135⟧⟨520⟩⟦162⟧⟨521⟩⟦230⟧⟨522⟩
+[Fayez Sarofim] ⟨523⟩⟦111⟧⟨524⟩⟦76⟧⟨525⟩⟦134⟧⟨526⟩⟦234⟧⟨527⟩
+[Fayez Sarofim] ⟨528⟩⟦47⟧⟨529⟩⟦366⟧⟨530⟩⟦210⟧⟨531⟩⟦3⟧⟨532⟩⟦248⟧⟨533⟩⟦185⟧⟨534⟩⟦340⟧⟨535⟩⟦364⟧⟨536⟩
+[Fayez Sarofim] ⟨537⟩⟦130⟧⟨538⟩⟦139⟧⟨539⟩⟦110⟧⟨540⟩⟦59⟧⟨541⟩⟦59⟧⟨542⟩
+
+[user]
+
+问题：
+Which NFL team did both Don Looney and DeSean Jackson play for?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

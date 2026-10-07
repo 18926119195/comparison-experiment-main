@@ -1,0 +1,85 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[River Mersey] ⟨44⟩⟦31⟧⟨45⟩⟨46⟩⟦240⟧⟨47⟩⟨48⟩
+[River Mersey] ⟨49⟩⟨50⟩⟦199⟧⟨51⟩⟨52⟩⟦49⟧⟨53⟩⟨54⟩⟨55⟩
+[River Mersey] ⟦48⟧
+[Deschutes River (Washington)] ⟦109⟧
+[Listed buildings in Widnes] ⟨272⟩⟨273⟩⟦38⟧⟨274⟩⟨275⟩⟦204⟧⟨276⟩⟦102⟧⟨277⟩⟦62⟧⟨278⟩⟨279⟩⟨280⟩⟦246⟧⟨281⟩⟦175⟧⟨282⟩ | ⟦246⟧
+[Listed buildings in Widnes] ⟦277⟧
+[Lac qui Parle River] ⟦170⟧ | ⟦170⟧
+[Lac qui Parle River] ⟦119⟧⟦138⟧
+[Cuerdley railway station] ⟦296⟧⟦296⟧⟦89⟧⟦239⟧ | ⟦89⟧
+
+符号表：
+⟦31⟧ = a river
+⟦38⟧ = an industrial town
+⟦48⟧ = boundary
+⟦49⟧ = boundary river
+⟦62⟧ = Cheshire
+⟦89⟧ = England
+⟦102⟧ = Halton
+⟦109⟧ = Its name
+⟦119⟧ = language
+⟦138⟧ = name
+⟦170⟧ = river
+⟦175⟧ = Runcorn Gap
+⟦199⟧ = the Anglo-Saxon language
+⟦204⟧ = the Borough
+⟦239⟧ = the north bank
+⟦240⟧ = the North West
+⟦246⟧ = the River Mersey
+⟦277⟧ = town
+⟦296⟧ = Widnes
+
+占位符映射：
+⟨44⟩ =  is 
+⟨45⟩ = 
+⟨46⟩ =  in 
+⟨47⟩ =  of 
+⟨48⟩ = .
+⟨49⟩ = 
+⟨50⟩ =  is derived from 
+⟨51⟩ = 
+⟨52⟩ =  and translates as "
+⟨53⟩ = 
+⟨54⟩ = 
+⟨55⟩ = ".
+⟨272⟩ = 
+⟨273⟩ =  is 
+⟨274⟩ = 
+⟨275⟩ =  in 
+⟨276⟩ =  of 
+⟨277⟩ = , 
+⟨278⟩ = , 
+⟨279⟩ = , on 
+⟨280⟩ =  of 
+⟨281⟩ =  where it narrows at 
+⟨282⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the translation of the name of the river on which Widnes is located ?

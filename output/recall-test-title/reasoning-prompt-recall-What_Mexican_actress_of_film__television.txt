@@ -1,0 +1,79 @@
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+[La heredera] ⟦102⟧⟨ĝ⟩⟦193⟧⟨Ğ⟩⟦20⟧⟨ğ⟩⟨Ġ⟩
+[La heredera] ⟦204⟧⟦167⟧⟨ĩ⟩⟨Ī⟩⟦38⟧⟨ī⟩⟦210⟧⟦219⟧⟨Ĭ⟩⟨ĭ⟩⟦36⟧
+[Rita Macedo] ⟦86⟧⟦143⟧⟨ĸ⟩⟨Ĺ⟩
+[Rita Macedo] ⟦22⟧⟦145⟧⟨ń⟩⟨Ņ⟩⟦125⟧⟦151⟧⟨ņ⟩⟨Ň⟩⟨ň⟩⟨ŉ⟩⟦81⟧⟦81⟧⟨Ŋ⟩⟨ŋ⟩⟦110⟧
+[Gabriel Porras] ⟦223⟧
+[Marlene Favela] ⟦222⟧ | ⟦185⟧⟦185⟧
+
+符号表：
+⟦20⟧ = a Mexican telenovela
+⟦22⟧ = a pioneer
+⟦36⟧ = American Heiress
+⟦38⟧ = an American telenovela
+⟦81⟧ = film
+⟦86⟧ = her 1956 performance
+⟦102⟧ = La Heredera
+⟦110⟧ = Luis de Llano Palmer
+⟦125⟧ = Mexican radio
+⟦143⟧ = performance
+⟦145⟧ = pioneer
+⟦151⟧ = radio
+⟦167⟧ = series
+⟦185⟧ = television
+⟦193⟧ = The Heiress
+⟦204⟧ = The series
+⟦210⟧ = the title
+⟦219⟧ = title
+⟦222⟧ = TV
+⟦223⟧ = TV Azteca
+
+占位符映射：
+⟨ĝ⟩ =  (
+⟨Ğ⟩ = ) is 
+⟨ğ⟩ =  produced by 
+⟨Ġ⟩ = 
+⟨ĩ⟩ = 
+⟨Ī⟩ =  was then developed into 
+⟨ī⟩ =  by 
+⟨Ĭ⟩ = 
+⟨ĭ⟩ =  of "
+⟨ĸ⟩ = 
+⟨Ĺ⟩ =  in "
+⟨ń⟩ = 
+⟨Ņ⟩ =  of 
+⟨ņ⟩ = 
+⟨Ň⟩ = , 
+⟨ň⟩ = 
+⟨ŉ⟩ =  and 
+⟨Ŋ⟩ = 
+⟨ŋ⟩ = , 
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What Mexican actress of film, television, and theatre was a protagonist in La Heredera?

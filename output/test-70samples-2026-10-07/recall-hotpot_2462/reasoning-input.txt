@@ -1,0 +1,109 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Battle of Bunker Hill] ⟨151⟩⟨152⟩⟦113⟧⟨153⟩⟨154⟩⟨155⟩⟦219⟧⟦193⟧⟨156⟩⟨157⟩⟦207⟧⟨158⟩
+[Battle of Bunker Hill] ⟨159⟩⟨160⟩⟨161⟩⟦58⟧⟨162⟩⟦128⟧⟨163⟩⟨164⟩⟨165⟩
+[Battle of Bunker Hill] ⟨166⟩⟦236⟧⟦145⟧⟨167⟩⟨168⟩⟦44⟧⟦268⟧⟨169⟩⟨170⟩⟦231⟧⟦126⟧⟨171⟩⟨172⟩⟦68⟧⟦68⟧⟨173⟩⟨174⟩⟨175⟩⟨176⟩⟦204⟧⟦100⟧⟨177⟩⟨178⟩⟦46⟧⟨179⟩
+[Missionary Ridge] ⟦40⟧⟦40⟧
+[Missionary Ridge] ⟦245⟧
+[Kings Mountain, California] ⟦158⟧⟦158⟧
+[James Swan (financier)] ⟨330⟩⟦209⟧⟨331⟩⟦47⟧⟨332⟩⟦182⟧⟦182⟧⟨333⟩⟨334⟩⟦232⟧⟨335⟩⟦276⟧⟨336⟩⟦230⟧⟦119⟧⟨337⟩⟨338⟩ | ⟦209⟧⟦47⟧ | ⟦209⟧⟦209⟧⟦47⟧
+[James Swan (financier)] ⟦43⟧
+[James Swan (financier)] ⟦196⟧
+
+符号表：
+⟦40⟧ = battle
+⟦43⟧ = Boston
+⟦44⟧ = both the colonial and British troops
+⟦46⟧ = Breed's Hill
+⟦47⟧ = Bunker Hill
+⟦58⟧ = Charlestown
+⟦68⟧ = combat
+⟦100⟧ = hill
+⟦113⟧ = June
+⟦119⟧ = legislature
+⟦126⟧ = majority
+⟦128⟧ = Massachusetts
+⟦145⟧ = objective
+⟦158⟧ = place
+⟦182⟧ = secretary
+⟦193⟧ = stages
+⟦196⟧ = Swan
+⟦204⟧ = the adjacent hill
+⟦207⟧ = the American Revolutionary War
+⟦209⟧ = The Battle
+⟦219⟧ = the early stages
+⟦230⟧ = the legislature
+⟦231⟧ = the majority
+⟦232⟧ = the Massachusetts Board
+⟦236⟧ = the original objective
+⟦245⟧ = the Siege
+⟦268⟧ = troops
+⟦276⟧ = War
+
+占位符映射：
+⟨151⟩ =  of 
+⟨152⟩ =  was fought on 
+⟨153⟩ =  17, 1775, during 
+⟨154⟩ =  of 
+⟨155⟩ =  in 
+⟨156⟩ = 
+⟨157⟩ =  of 
+⟨158⟩ = .
+⟨159⟩ = 
+⟨160⟩ =  is named after 
+⟨161⟩ =  in 
+⟨162⟩ = , 
+⟨163⟩ = , which was peripherally involved in 
+⟨164⟩ = 
+⟨165⟩ = .
+⟨166⟩ =  It was 
+⟨167⟩ = 
+⟨168⟩ =  of 
+⟨169⟩ = 
+⟨170⟩ = , though 
+⟨171⟩ = 
+⟨172⟩ =  of 
+⟨173⟩ = 
+⟨174⟩ =  took 
+⟨175⟩ = 
+⟨176⟩ =  on 
+⟨177⟩ = 
+⟨178⟩ =  which later became known as 
+⟨179⟩ = .
+⟨330⟩ =  was twice wounded at 
+⟨331⟩ =  of 
+⟨332⟩ = , he next became 
+⟨333⟩ = 
+⟨334⟩ =  of 
+⟨335⟩ =  of 
+⟨336⟩ =  and 
+⟨337⟩ = 
+⟨338⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What town's geographic feature is the battle James Swan was twice wounded at named for?

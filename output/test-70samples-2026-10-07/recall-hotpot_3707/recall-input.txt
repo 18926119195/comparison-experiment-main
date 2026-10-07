@@ -1,0 +1,419 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = ""Western Airlines
+⟦2⟧ = "Atlantic Soul
+⟦3⟧ = "Blue Passersby Eyes
+⟦4⟧ = "EXPATRIATE
+⟦5⟧ = "Rebel Voices
+⟦6⟧ = "Sexual Dependency
+⟦7⟧ = (IATA
+⟦8⟧ = (Vietnamese
+⟦9⟧ = 12 November
+⟦10⟧ = 25 November
+⟦11⟧ = 35 Women Leaders
+⟦12⟧ = a charity
+⟦13⟧ = a collection
+⟦14⟧ = a drop
+⟦15⟧ = a feature film
+⟦16⟧ = a form
+⟦17⟧ = a full member
+⟦18⟧ = a hub
+⟦19⟧ = a junior
+⟦20⟧ = a large airline
+⟦21⟧ = a list
+⟦22⟧ = a member
+⟦23⟧ = a number
+⟦24⟧ = a People's History
+⟦25⟧ = a Philippine low-cost airline
+⟦26⟧ = a play
+⟦27⟧ = a poet
+⟦28⟧ = a prime contractor
+⟦29⟧ = a schoolmate
+⟦30⟧ = a series
+⟦31⟧ = a Vietnamese airline
+⟦32⟧ = actress
+⟦33⟧ = Aeromar
+⟦34⟧ = agencies
+⟦35⟧ = Air Speed
+⟦36⟧ = Air Vanuatu
+⟦37⟧ = airline
+⟦38⟧ = airport
+⟦39⟧ = Alaska
+⟦40⟧ = Alien Transportation System
+⟦41⟧ = all operations
+⟦42⟧ = an airline
+⟦43⟧ = an airport
+⟦44⟧ = an official selection
+⟦45⟧ = anthologies
+⟦46⟧ = Anthony Arnove's book
+⟦47⟧ = Arabic
+⟦48⟧ = art
+⟦49⟧ = au
+⟦50⟧ = Australia
+⟦51⟧ = Bahamas
+⟦52⟧ = base
+⟦53⟧ = Bauerfield International Airport
+⟦54⟧ = Best Solo Album
+⟦55⟧ = Bloomington
+⟦56⟧ = board
+⟦57⟧ = Bolivian filmmaker Rodrigo Bellot
+⟦58⟧ = book
+⟦59⟧ = Boston
+⟦60⟧ = both domestic and international destinations
+⟦61⟧ = business
+⟦62⟧ = California
+⟦63⟧ = Call
+⟦64⟧ = Call sign
+⟦65⟧ = capability
+⟦66⟧ = carrier
+⟦67⟧ = cast
+⟦68⟧ = CD
+⟦69⟧ = Cebu Air, Inc.
+⟦70⟧ = Cebu Pacific
+⟦71⟧ = chairman
+⟦72⟧ = Champion Air
+⟦73⟧ = charity
+⟦74⟧ = charter
+⟦75⟧ = City Lights Publishers
+⟦76⟧ = Clark International Airport
+⟦77⟧ = class
+⟦78⟧ = co
+⟦79⟧ = coast
+⟦80⟧ = collage
+⟦81⟧ = collection
+⟦82⟧ = colleges
+⟦83⟧ = company
+⟦84⟧ = consultative status
+⟦85⟧ = contractor
+⟦86⟧ = cost
+⟦87⟧ = country
+⟦88⟧ = customers
+⟦89⟧ = Đà Nẵng
+⟦90⟧ = Đà Nẵng International Airport
+⟦91⟧ = Dallas-Fort Worth International Airport
+⟦92⟧ = days
+⟦93⟧ = debts
+⟦94⟧ = debut
+⟦95⟧ = Delta Air Lines
+⟦96⟧ = Denver
+⟦97⟧ = Denver International Airport
+⟦98⟧ = destinations
+⟦99⟧ = Detroit Metropolitan Wayne County Airport
+⟦100⟧ = difficulties
+⟦101⟧ = domestic scheduled services
+⟦102⟧ = domestic services
+⟦103⟧ = drop
+⟦104⟧ = Dubai
+⟦105⟧ = England
+⟦106⟧ = Erzulie
+⟦107⟧ = essays
+⟦108⟧ = existence
+⟦109⟧ = EXPATRIATE
+⟦110⟧ = Eyes
+⟦111⟧ = feature
+⟦112⟧ = film
+⟦113⟧ = filmmaker
+⟦114⟧ = flag
+⟦115⟧ = flight
+⟦116⟧ = flights
+⟦117⟧ = form
+⟦118⟧ = founder
+⟦119⟧ = gender
+⟦120⟧ = General Abelardo L. Rodríguez International Airport
+⟦121⟧ = general charter services
+⟦122⟧ = government
+⟦123⟧ = government agencies
+⟦124⟧ = grounds
+⟦125⟧ = Haiti
+⟦126⟧ = Haiti Glass
+⟦127⟧ = Hãng Hàng không Đông Dương
+⟦128⟧ = Hãng hàng không Tăng Tốc
+⟦129⟧ = Hangar
+⟦130⟧ = Hanoi
+⟦131⟧ = Hawaii
+⟦132⟧ = head
+⟦133⟧ = Her debut book
+⟦134⟧ = Her essays
+⟦135⟧ = Her homemade music video "Pied Piper
+⟦136⟧ = her own experimental shorts
+⟦137⟧ = Her spoken word CD "Madivinez
+⟦138⟧ = History
+⟦139⟧ = Ho Chi Minh City
+⟦140⟧ = Howard Zinn
+⟦141⟧ = hub
+⟦142⟧ = hubs
+⟦143⟧ = IATA
+⟦144⟧ = ICAO
+⟦145⟧ = IIRO
+⟦146⟧ = IIROSA
+⟦147⟧ = Iloilo International Airport
+⟦148⟧ = immigration
+⟦149⟧ = Indochina Airlines
+⟦150⟧ = international services
+⟦151⟧ = IOM
+⟦152⟧ = Ithaca College
+⟦153⟧ = its existence
+⟦154⟧ = its first commercial flight
+⟦155⟧ = its head office
+⟦156⟧ = Its main base
+⟦157⟧ = its runway
+⟦158⟧ = its schedule
+⟦159⟧ = its shutdown
+⟦160⟧ = jets
+⟦161⟧ = July
+⟦162⟧ = junior
+⟦163⟧ = Kalibo International Airport Francisco Bangoy International Airport
+⟦164⟧ = Karla Cheatham-Mosley
+⟦165⟧ = không
+⟦166⟧ = Las Vegas
+⟦167⟧ = LAX
+⟦168⟧ = Lenelle Moïse
+⟦169⟧ = length
+⟦170⟧ = limited scheduled service
+⟦171⟧ = Líneas Aéreas Azteca
+⟦172⟧ = list
+⟦173⟧ = London
+⟦174⟧ = Los Angeles International Airport
+⟦175⟧ = Louis International Airport
+⟦176⟧ = Mactan-Cebu International Airport
+⟦177⟧ = Manila
+⟦178⟧ = many joint programmes
+⟦179⟧ = many years
+⟦180⟧ = Mara Alper's short experimental video
+⟦181⟧ = May
+⟦182⟧ = McCarran International Airport
+⟦183⟧ = meditative practice
+⟦184⟧ = member
+⟦185⟧ = Metro Manila
+⟦186⟧ = Mexico
+⟦187⟧ = Mexico City
+⟦188⟧ = Mexico City International Airport
+⟦189⟧ = Miami
+⟦190⟧ = Migration
+⟦191⟧ = Minneapolis-Saint Paul International Airport
+⟦192⟧ = Minnesota
+⟦193⟧ = Moïse
+⟦194⟧ = most recently "Word Warriors
+⟦195⟧ = music
+⟦196⟧ = musician
+⟦197⟧ = NAIA Terminal
+⟦198⟧ = Nassau
+⟦199⟧ = New York City
+⟦200⟧ = New Zealand
+⟦201⟧ = NGOs
+⟦202⟧ = Ninoy Aquino International Airport
+⟦203⟧ = Nội Bài International Airport
+⟦204⟧ = non-governmental organisations
+⟦205⟧ = nonlinear storytelling
+⟦206⟧ = November
+⟦207⟧ = number
+⟦208⟧ = NVVV
+⟦209⟧ = observer
+⟦210⟧ = observer status
+⟦211⟧ = office
+⟦212⟧ = Oklahoma City
+⟦213⟧ = Online Film Festival
+⟦214⟧ = operations
+⟦215⟧ = organisations
+⟦216⟧ = other hubs
+⟦217⟧ = other international destinations
+⟦218⟧ = part
+⟦219⟧ = partners
+⟦220⟧ = Pasay City
+⟦221⟧ = person
+⟦222⟧ = play
+⟦223⟧ = playwright
+⟦224⟧ = poems
+⟦225⟧ = poet
+⟦226⟧ = points
+⟦227⟧ = Port Vila
+⟦228⟧ = Port-au-Prince
+⟦229⟧ = practice
+⟦230⟧ = production
+⟦231⟧ = programmes
+⟦232⟧ = race
+⟦233⟧ = Rob Urbinati
+⟦234⟧ = runway
+⟦235⟧ = S.A. de C.V
+⟦236⟧ = Salt Lake City International Airport
+⟦237⟧ = Saudi Arabia
+⟦238⟧ = schedule
+⟦239⟧ = scheduled flights
+⟦240⟧ = schoolmate
+⟦241⟧ = Seal Press
+⟦242⟧ = selection
+⟦243⟧ = series
+⟦244⟧ = service
+⟦245⟧ = services
+⟦246⟧ = sexuality
+⟦247⟧ = shorts
+⟦248⟧ = shutdown
+⟦249⟧ = sign
+⟦250⟧ = size
+⟦251⟧ = slogan
+⟦252⟧ = sports
+⟦253⟧ = sports teams
+⟦254⟧ = status
+⟦255⟧ = storytelling
+⟦256⟧ = Switzerland
+⟦257⟧ = Tân Sơn Nhất International Airport
+⟦258⟧ = teams
+⟦259⟧ = the 2007 Patchwork Majority Radio Album Award
+⟦260⟧ = the Air Vanuatu House
+⟦261⟧ = the Airbus A330
+⟦262⟧ = The airline
+⟦263⟧ = The airport
+⟦264⟧ = the Berlin Sommerfest der Literaturen
+⟦265⟧ = the board
+⟦266⟧ = the capability
+⟦267⟧ = The company's slogan
+⟦268⟧ = The Conference
+⟦269⟧ = the country
+⟦270⟧ = the Culture Project
+⟦271⟧ = the Culture Project's premiere production
+⟦272⟧ = The film
+⟦273⟧ = the first Islamic NGO
+⟦274⟧ = the first operational private airline
+⟦275⟧ = the former Stapleton International Airport
+⟦276⟧ = The founder
+⟦277⟧ = the General Aviation Terminal
+⟦278⟧ = the grounds
+⟦279⟧ = the hub
+⟦280⟧ = The IIRO
+⟦281⟧ = the International Film Critics' Award
+⟦282⟧ = the International Humanitarian City
+⟦283⟧ = The International Islamic Relief Organization
+⟦284⟧ = the International Museum
+⟦285⟧ = the International Organisation
+⟦286⟧ = the Justice Prisoner
+⟦287⟧ = the Locarno International Film Festival
+⟦288⟧ = the Muslim World League
+⟦289⟧ = The Only Way
+⟦290⟧ = the permanent ensemble cast
+⟦291⟧ = the Philippines
+⟦292⟧ = the Sister Spit series
+⟦293⟧ = the South Pacific
+⟦294⟧ = the Spoken Word Revolution
+⟦295⟧ = the time
+⟦296⟧ = the U.S. east coast
+⟦297⟧ = the UNHCR's major NGO partners
+⟦298⟧ = the United Nations Economic and Social Council
+⟦299⟧ = the United States
+⟦300⟧ = the USA
+⟦301⟧ = the western United States
+⟦302⟧ = the World Health Organization
+⟦303⟧ = tickets
+⟦304⟧ = Tijuana
+⟦305⟧ = time
+⟦306⟧ = Transportes Aeromar
+⟦307⟧ = UAE
+⟦308⟧ = UN Agencies
+⟦309⟧ = unresolved debts
+⟦310⟧ = USA
+⟦311⟧ = vacation
+⟦312⟧ = vacation wholesalers
+⟦313⟧ = Vanuatu
+⟦314⟧ = Vanuatu's flag carrier airline
+⟦315⟧ = Vanuatu's national flag carrier
+⟦316⟧ = Venustiano Carranza
+⟦317⟧ = verse
+⟦318⟧ = video
+⟦319⟧ = Vietnam
+⟦320⟧ = Vietnamese musician Hà Hùng Dũng
+⟦321⟧ = VLI
+⟦322⟧ = Voices
+⟦323⟧ = WAL
+⟦324⟧ = Warriors
+⟦325⟧ = Washington D.C.
+⟦326⟧ = Way
+⟦327⟧ = Western
+⟦328⟧ = Western Airlines
+⟦329⟧ = western Canada
+⟦330⟧ = wholesalers
+⟦331⟧ = Will Rogers World Airport
+⟦332⟧ = Women
+⟦333⟧ = word
+⟦334⟧ = work
+⟦335⟧ = years
+⟦336⟧ = Zone D
+⟦337⟧ = الإغاثة الإسلامية العالمية‎ ‎
+⟦338⟧ = هيئة
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Western Airlines] ⟦328⟧⟨1⟩⟦7⟧⟨2⟩⟦144⟧⟨3⟩⟦323⟧⟨4⟩⟦63⟧⟨5⟩⟦64⟧⟨6⟩⟦249⟧⟨7⟩⟦20⟧⟨8⟩⟦37⟧⟨9⟩⟦62⟧⟨10⟩⟦214⟧⟨11⟩⟦214⟧⟨12⟩⟦301⟧⟨13⟩⟦39⟧⟨14⟩⟦131⟧⟨15⟩⟦329⟧⟨16⟩⟦199⟧⟨17⟩⟦59⟧⟨18⟩⟦325⟧⟨19⟩⟦189⟧⟨20⟩⟦296⟧⟨21⟩⟦79⟧⟨22⟩⟦186⟧⟨23⟩
+[Western Airlines] ⟦262⟧⟨24⟩⟦37⟧⟨25⟩⟦217⟧⟨26⟩⟦98⟧⟨27⟩⟦173⟧⟨28⟩⟦105⟧⟨29⟩⟦198⟧⟨30⟩⟦51⟧⟨31⟩⟦153⟧⟨32⟩⟦108⟧⟨33⟩
+[Western Airlines] ⟦327⟧⟨34⟩⟦142⟧⟨35⟩⟦142⟧⟨36⟩⟦174⟧⟨37⟩⟦236⟧⟨38⟩⟦275⟧⟨39⟩⟦96⟧⟨40⟩
+[Western Airlines] ⟨41⟩⟦95⟧⟨42⟩⟦174⟧⟨43⟩⟦167⟧⟨44⟩
+[Western Airlines] ⟦267⟧⟨45⟩⟦83⟧⟨46⟩⟦251⟧⟨47⟩⟦179⟧⟨48⟩⟦335⟧⟨49⟩⟦1⟧⟨50⟩⟦289⟧⟨51⟩⟦326⟧⟨52⟩
+[Air Vanuatu] ⟦36⟧⟨53⟩⟦42⟧⟨54⟩⟦37⟧⟨55⟩⟦155⟧⟨56⟩⟦132⟧⟨57⟩⟦211⟧⟨58⟩⟦260⟧⟨59⟩⟦227⟧⟨60⟩
+[Air Vanuatu] ⟨61⟩⟦315⟧⟨62⟩⟦114⟧⟨63⟩⟦66⟧⟨64⟩⟦50⟧⟨65⟩⟦200⟧⟨66⟩⟦226⟧⟨67⟩⟦293⟧⟨68⟩
+[Air Vanuatu] ⟨69⟩⟦156⟧⟨70⟩⟦52⟧⟨71⟩⟦53⟧⟨72⟩⟦227⟧⟨73⟩
+[Bauerfield International Airport] ⟦53⟧⟨74⟩⟦143⟧⟨75⟩⟦321⟧⟨76⟩⟦144⟧⟨77⟩⟦208⟧⟨78⟩⟦43⟧⟨79⟩⟦38⟧⟨80⟩⟦227⟧⟨81⟩⟦313⟧⟨82⟩
+[Bauerfield International Airport] ⟦263⟧⟨83⟩⟦38⟧⟨84⟩⟦250⟧⟨85⟩⟦250⟧⟨86⟩⟦157⟧⟨87⟩⟦234⟧⟨88⟩⟦266⟧⟨89⟩⟦65⟧⟨90⟩⟦169⟧⟨91⟩⟦169⟧⟨92⟩⟦160⟧⟨93⟩⟦160⟧⟨94⟩⟦261⟧⟨95⟩
+[Bauerfield International Airport] ⟨96⟩⟦279⟧⟨97⟩⟦141⟧⟨98⟩⟦314⟧⟨99⟩⟦114⟧⟨100⟩⟦66⟧⟨101⟩⟦37⟧⟨102⟩⟦36⟧⟨103⟩
+[Lenelle Moïse] ⟦168⟧⟨104⟩⟦27⟧⟨105⟩⟦225⟧⟨106⟩⟦32⟧⟨107⟩⟦32⟧⟨108⟩⟦223⟧⟨109⟩⟦223⟧⟨110⟩⟦228⟧⟨111⟩⟦49⟧⟨112⟩⟦125⟧⟨113⟩
+[Lenelle Moïse] ⟨114⟩⟦299⟧⟨115⟩⟦82⟧⟨116⟩⟦82⟧⟨117⟩⟦269⟧⟨118⟩⟦87⟧⟨119⟩⟦334⟧⟨120⟩⟦334⟧⟨121⟩⟦232⟧⟨122⟩⟦232⟧⟨123⟩⟦119⟧⟨124⟩⟦119⟧⟨125⟩⟦77⟧⟨126⟩⟦77⟧⟨127⟩⟦148⟧⟨128⟩⟦148⟧⟨129⟩⟦246⟧⟨130⟩⟦246⟧⟨131⟩
+[Lenelle Moïse] ⟦134⟧⟨132⟩⟦107⟧⟨133⟩⟦224⟧⟨134⟩⟦224⟧⟨135⟩⟦23⟧⟨136⟩⟦207⟧⟨137⟩⟦45⟧⟨138⟩⟦45⟧⟨139⟩⟦194⟧⟨140⟩⟦324⟧⟨141⟩⟦11⟧⟨142⟩⟦294⟧⟨143⟩⟦241⟧⟨144⟩
+[Lenelle Moïse] ⟦133⟧⟨145⟩⟦94⟧⟨146⟩⟦58⟧⟨147⟩⟦126⟧⟨148⟩⟦75⟧⟨149⟩⟦218⟧⟨150⟩⟦218⟧⟨151⟩⟦292⟧⟨152⟩⟦243⟧⟨153⟩⟦13⟧⟨154⟩⟦81⟧⟨155⟩⟦317⟧⟨156⟩⟦317⟧⟨157⟩
+[Lenelle Moïse] ⟨158⟩⟦80⟧⟨159⟩⟦80⟧⟨160⟩⟦16⟧⟨161⟩⟦117⟧⟨162⟩⟦183⟧⟨163⟩⟦229⟧⟨164⟩⟦205⟧⟨165⟩⟦255⟧⟨166⟩
+[Lenelle Moïse] ⟦137⟧⟨167⟩⟦333⟧⟨168⟩⟦68⟧⟨169⟩⟦259⟧⟨170⟩⟦54⟧⟨171⟩
+[Lenelle Moïse] ⟦193⟧⟨172⟩⟦22⟧⟨173⟩⟦184⟧⟨174⟩⟦290⟧⟨175⟩⟦67⟧⟨176⟩⟦271⟧⟨177⟩⟦230⟧⟨178⟩⟦5⟧⟨179⟩⟦26⟧⟨180⟩⟦222⟧⟨181⟩⟦233⟧⟨182⟩⟦140⟧⟨183⟩⟦46⟧⟨184⟩⟦58⟧⟨185⟩⟦322⟧⟨186⟩⟦322⟧⟨187⟩⟦24⟧⟨188⟩⟦138⟧⟨189⟩⟦299⟧⟨190⟩
+[Lenelle Moïse] ⟨191⟩⟦221⟧⟨192⟩⟦48⟧⟨193⟩⟦48⟧⟨194⟩⟦232⟧⟨195⟩⟦232⟧⟨196⟩⟦4⟧⟨197⟩⟦109⟧⟨198⟩⟦270⟧⟨199⟩⟦164⟧⟨200⟩
+[Lenelle Moïse] ⟨201⟩⟦19⟧⟨202⟩⟦162⟧⟨203⟩⟦152⟧⟨204⟩⟦78⟧⟨205⟩⟦6⟧⟨206⟩⟦15⟧⟨207⟩⟦111⟧⟨208⟩⟦112⟧⟨209⟩⟦57⟧⟨210⟩⟦113⟧⟨211⟩⟦29⟧⟨212⟩⟦240⟧⟨213⟩⟦295⟧⟨214⟩⟦305⟧⟨215⟩
+[Lenelle Moïse] ⟦272⟧⟨216⟩⟦112⟧⟨217⟩⟦281⟧⟨218⟩⟦287⟧⟨219⟩⟦256⟧⟨220⟩
+[Lenelle Moïse] ⟦193⟧⟨221⟩⟦180⟧⟨222⟩⟦318⟧⟨223⟩⟦106⟧⟨224⟩⟦264⟧⟨225⟩⟦161⟧⟨226⟩
+[Lenelle Moïse] ⟨227⟩⟦136⟧⟨228⟩⟦247⟧⟨229⟩⟦3⟧⟨230⟩⟦110⟧⟨231⟩⟦2⟧⟨232⟩
+[Lenelle Moïse] ⟦135⟧⟨233⟩⟦195⟧⟨234⟩⟦318⟧⟨235⟩⟦44⟧⟨236⟩⟦242⟧⟨237⟩⟦284⟧⟨238⟩⟦332⟧⟨239⟩⟦213⟧⟨240⟩
+[Champion Air] ⟦72⟧⟨241⟩⟦42⟧⟨242⟩⟦37⟧⟨243⟩⟦55⟧⟨244⟩⟦192⟧⟨245⟩⟦310⟧⟨246⟩
+[Champion Air] ⟨247⟩⟦121⟧⟨248⟩⟦74⟧⟨249⟩⟦245⟧⟨250⟩⟦252⟧⟨251⟩⟦253⟧⟨252⟩⟦258⟧⟨253⟩⟦311⟧⟨254⟩⟦312⟧⟨255⟩⟦330⟧⟨256⟩⟦122⟧⟨257⟩⟦123⟧⟨258⟩⟦34⟧⟨259⟩
+[Champion Air] ⟨260⟩⟦170⟧⟨261⟩⟦244⟧⟨262⟩
+[Champion Air] ⟨263⟩⟦156⟧⟨264⟩⟦52⟧⟨265⟩⟦191⟧⟨266⟩⟦142⟧⟨267⟩⟦142⟧⟨268⟩⟦97⟧⟨269⟩⟦91⟧⟨270⟩⟦99⟧⟨271⟩⟦182⟧⟨272⟩⟦166⟧⟨273⟩
+[Champion Air] ⟦175⟧⟨274⟩⟦331⟧⟨275⟩⟦212⟧⟨276⟩
+[Champion Air] ⟦262⟧⟨277⟩⟦37⟧⟨278⟩⟦41⟧⟨279⟩⟦214⟧⟨280⟩⟦181⟧⟨281⟩
+[Champion Air] ⟨282⟩⟦159⟧⟨283⟩⟦248⟧⟨284⟩⟦262⟧⟨285⟩⟦37⟧⟨286⟩⟦28⟧⟨287⟩⟦85⟧⟨288⟩⟦286⟧⟨289⟩⟦40⟧⟨290⟩
+[Líneas Aéreas Azteca] ⟦171⟧⟨291⟩⟦42⟧⟨292⟩⟦37⟧⟨293⟩⟦187⟧⟨294⟩⟦186⟧⟨295⟩
+[Líneas Aéreas Azteca] ⟨296⟩⟦101⟧⟨297⟩⟦245⟧⟨298⟩⟦150⟧⟨299⟩⟦245⟧⟨300⟩⟦300⟧⟨301⟩
+[Líneas Aéreas Azteca] ⟨302⟩⟦156⟧⟨303⟩⟦52⟧⟨304⟩⟦188⟧⟨305⟩⟦18⟧⟨306⟩⟦141⟧⟨307⟩⟦120⟧⟨308⟩⟦304⟧⟨309⟩
+[Indochina Airlines] ⟦149⟧⟨310⟩⟦8⟧⟨311⟩⟦127⟧⟨312⟩⟦165⟧⟨313⟩⟦31⟧⟨314⟩⟦37⟧⟨315⟩⟦139⟧⟨316⟩
+[Indochina Airlines] ⟨317⟩⟦274⟧⟨318⟩⟦37⟧⟨319⟩⟦319⟧⟨320⟩⟦181⟧⟨321⟩⟦35⟧⟨322⟩⟦128⟧⟨323⟩⟦165⟧⟨324⟩
+[Indochina Airlines] ⟦276⟧⟨325⟩⟦118⟧⟨326⟩⟦71⟧⟨327⟩⟦71⟧⟨328⟩⟦265⟧⟨329⟩⟦56⟧⟨330⟩⟦320⟧⟨331⟩⟦196⟧⟨332⟩
+[Indochina Airlines] ⟦149⟧⟨333⟩⟦303⟧⟨334⟩⟦303⟧⟨335⟩⟦9⟧⟨336⟩⟦154⟧⟨337⟩⟦115⟧⟨338⟩⟦257⟧⟨339⟩⟦139⟧⟨340⟩⟦203⟧⟨341⟩⟦130⟧⟨342⟩⟦90⟧⟨343⟩⟦89⟧⟨344⟩⟦10⟧⟨345⟩
+[Indochina Airlines] ⟨346⟩⟦30⟧⟨347⟩⟦243⟧⟨348⟩⟦100⟧⟨349⟩⟦100⟧⟨350⟩⟦309⟧⟨351⟩⟦93⟧⟨352⟩⟦14⟧⟨353⟩⟦103⟧⟨354⟩⟦88⟧⟨355⟩⟦88⟧⟨356⟩⟦149⟧⟨357⟩⟦206⟧⟨358⟩⟦158⟧⟨359⟩⟦238⟧⟨360⟩⟦92⟧⟨361⟩
+[Cebu Pacific] ⟦69⟧⟨362⟩⟦70⟧⟨363⟩⟦25⟧⟨364⟩⟦86⟧⟨365⟩⟦37⟧⟨366⟩⟦278⟧⟨367⟩⟦124⟧⟨368⟩⟦202⟧⟨369⟩⟦197⟧⟨370⟩⟦220⟧⟨371⟩⟦185⟧⟨372⟩⟦291⟧⟨373⟩
+[Cebu Pacific] ⟨374⟩⟦239⟧⟨375⟩⟦116⟧⟨376⟩⟦60⟧⟨377⟩⟦98⟧⟨378⟩
+[Cebu Pacific] ⟨379⟩⟦156⟧⟨380⟩⟦52⟧⟨381⟩⟦202⟧⟨382⟩⟦177⟧⟨383⟩⟦216⟧⟨384⟩⟦142⟧⟨385⟩⟦176⟧⟨386⟩⟦76⟧⟨387⟩⟦163⟧⟨388⟩⟦147⟧⟨389⟩
+[International Islamic Relief Organization] ⟦283⟧⟨390⟩⟦145⟧⟨391⟩⟦47⟧⟨392⟩⟦338⟧⟨393⟩⟦337⟧⟨394⟩⟦283⟧⟨395⟩⟦237⟧⟨396⟩⟦146⟧⟨397⟩⟦12⟧⟨398⟩⟦73⟧⟨399⟩⟦237⟧⟨400⟩⟦288⟧⟨401⟩
+[International Islamic Relief Organization] ⟨402⟩⟦17⟧⟨403⟩⟦184⟧⟨404⟩⟦268⟧⟨405⟩⟦201⟧⟨406⟩⟦265⟧⟨407⟩⟦56⟧⟨408⟩
+[International Islamic Relief Organization] ⟦280⟧⟨409⟩⟦21⟧⟨410⟩⟦172⟧⟨411⟩⟦297⟧⟨412⟩⟦219⟧⟨413⟩⟦178⟧⟨414⟩⟦231⟧⟨415⟩⟦308⟧⟨416⟩⟦302⟧⟨417⟩⟦204⟧⟨418⟩⟦215⟧⟨419⟩
+[International Islamic Relief Organization] ⟨420⟩⟦84⟧⟨421⟩⟦254⟧⟨422⟩⟦298⟧⟨423⟩
+[International Islamic Relief Organization] ⟨424⟩⟦273⟧⟨425⟩⟦209⟧⟨426⟩⟦210⟧⟨427⟩⟦254⟧⟨428⟩⟦285⟧⟨429⟩⟦190⟧⟨430⟩⟦151⟧⟨431⟩
+[International Islamic Relief Organization] ⟨432⟩⟦22⟧⟨433⟩⟦184⟧⟨434⟩⟦282⟧⟨435⟩⟦104⟧⟨436⟩⟦307⟧⟨437⟩
+[Aeromar] ⟦306⟧⟨438⟩⟦235⟧⟨439⟩⟦61⟧⟨440⟩⟦61⟧⟨441⟩⟦33⟧⟨442⟩⟦42⟧⟨443⟩⟦37⟧⟨444⟩⟦129⟧⟨445⟩⟦336⟧⟨446⟩⟦277⟧⟨447⟩⟦188⟧⟨448⟩⟦316⟧⟨449⟩⟦187⟧⟨450⟩⟦186⟧⟨451⟩
+[Aeromar] ⟦33⟧⟨452⟩⟦102⟧⟨453⟩⟦245⟧⟨454⟩⟦186⟧⟨455⟩⟦150⟧⟨456⟩⟦245⟧⟨457⟩⟦299⟧⟨458⟩
+[Aeromar] ⟨459⟩⟦156⟧⟨460⟩⟦52⟧⟨461⟩⟦188⟧⟨462⟩
+
+[user]
+
+问题：
+What is the city in which Bauerfield International Ariport is based out of?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

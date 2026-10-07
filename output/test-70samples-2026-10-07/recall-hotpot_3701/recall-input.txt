@@ -1,0 +1,406 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = - Maad
+⟦2⟧ = "Diaraf
+⟦3⟧ = "Jaraff
+⟦4⟧ = (Danish
+⟦5⟧ = (Greek
+⟦6⟧ = (var
+⟦7⟧ = (variation
+⟦8⟧ = 10 August
+⟦9⟧ = 15 years
+⟦10⟧ = 1st Baron Norbury
+⟦11⟧ = 234 ВС
+⟦12⟧ = 27 August
+⟦13⟧ = 2nd Baron Norbury
+⟦14⟧ = 2nd Baron Norwood
+⟦15⟧ = 545 BC
+⟦16⟧ = a barrister
+⟦17⟧ = a different story
+⟦18⟧ = a diplomat
+⟦19⟧ = a Jaraff
+⟦20⟧ = a late brother
+⟦21⟧ = a Maad Saloum
+⟦22⟧ = a major power
+⟦23⟧ = a member
+⟦24⟧ = a military expedition
+⟦25⟧ = a Page
+⟦26⟧ = a period
+⟦27⟧ = a Prime Minister
+⟦28⟧ = a royal house
+⟦29⟧ = a royal prince
+⟦30⟧ = a Sinig Diessanou Faye
+⟦31⟧ = a subject
+⟦32⟧ = a title
+⟦33⟧ = Abel
+⟦34⟧ = abolition
+⟦35⟧ = Achonry
+⟦36⟧ = adversaries
+⟦37⟧ = Alexander II
+⟦38⟧ = all the subsequent royal houses
+⟦39⟧ = an illegitimate son
+⟦40⟧ = ancient China
+⟦41⟧ = Archbishop
+⟦42⟧ = at least ten kings
+⟦43⟧ = Ballycrenode
+⟦44⟧ = Baol
+⟦45⟧ = Baron Norbury
+⟦46⟧ = Baron Plunket
+⟦47⟧ = Baroness Norwood
+⟦48⟧ = baronies
+⟦49⟧ = barrister
+⟦50⟧ = Berengaria
+⟦51⟧ = Bishop
+⟦52⟧ = body
+⟦53⟧ = both King George VI
+⟦54⟧ = Boureh Gnilane Joof
+⟦55⟧ = Boureh's brothers
+⟦56⟧ = brother
+⟦57⟧ = brothers
+⟦58⟧ = Canute V
+⟦59⟧ = century
+⟦60⟧ = certainty
+⟦61⟧ = Chief Justice
+⟦62⟧ = Christmas Day
+⟦63⟧ = Christoffer
+⟦64⟧ = Christopher
+⟦65⟧ = Christopher I
+⟦66⟧ = Chu
+⟦67⟧ = Chu's traditional enemy
+⟦68⟧ = civil war
+⟦69⟧ = Cnut
+⟦70⟧ = conqueror
+⟦71⟧ = constant wars
+⟦72⟧ = Cork
+⟦73⟧ = course
+⟦74⟧ = cousin
+⟦75⟧ = Daniel
+⟦76⟧ = date
+⟦77⟧ = death
+⟦78⟧ = Demetrius II
+⟦79⟧ = Denmark
+⟦80⟧ = detail
+⟦81⟧ = diplomat
+⟦82⟧ = Dublin
+⟦83⟧ = dynasty
+⟦84⟧ = Earl
+⟦85⟧ = enemy
+⟦86⟧ = England
+⟦87⟧ = Epirus
+⟦88⟧ = Equerry
+⟦89⟧ = Eric
+⟦90⟧ = Eric I
+⟦91⟧ = Eric II
+⟦92⟧ = Eric III
+⟦93⟧ = Eric III Lamb
+⟦94⟧ = Eric IV
+⟦95⟧ = Eric IV Plovpenning
+⟦96⟧ = Eric Ploughpenny
+⟦97⟧ = Eric Plowpenny
+⟦98⟧ = Erik II Emune
+⟦99⟧ = Erik III Lam
+⟦100⟧ = Erik Plovpenning
+⟦101⟧ = expedition
+⟦102⟧ = family
+⟦103⟧ = father
+⟦104⟧ = foundation
+⟦105⟧ = Glandine
+⟦106⟧ = Governor
+⟦107⟧ = Grace Toler
+⟦108⟧ = Graham
+⟦109⟧ = grandson
+⟦110⟧ = great significance
+⟦111⟧ = Gunhild
+⟦112⟧ = Harald II
+⟦113⟧ = Hector
+⟦114⟧ = heirs
+⟦115⟧ = her body
+⟦116⟧ = his adversaries
+⟦117⟧ = his body
+⟦118⟧ = his brothers
+⟦119⟧ = his cousin
+⟦120⟧ = his death
+⟦121⟧ = his elder brother
+⟦122⟧ = His eldest son
+⟦123⟧ = his father
+⟦124⟧ = His grandson
+⟦125⟧ = his honour
+⟦126⟧ = his late uncle Ptolemy
+⟦127⟧ = His name
+⟦128⟧ = his nephew
+⟦129⟧ = his niece Deidamia
+⟦130⟧ = his older brother
+⟦131⟧ = his parents
+⟦132⟧ = his reign
+⟦133⟧ = his retirement
+⟦134⟧ = his second son
+⟦135⟧ = his son
+⟦136⟧ = His succession
+⟦137⟧ = his supporters
+⟦138⟧ = his uncle Niels
+⟦139⟧ = his wife
+⟦140⟧ = his younger brother
+⟦141⟧ = honor
+⟦142⟧ = Honour
+⟦143⟧ = house
+⟦144⟧ = houses
+⟦145⟧ = independent Senegal
+⟦146⟧ = Infanta Berengária
+⟦147⟧ = Ireland
+⟦148⟧ = its foundation
+⟦149⟧ = its new enemy
+⟦150⟧ = Jaraff Boureh Gnilane Joof
+⟦151⟧ = Jia'ao
+⟦152⟧ = Jin
+⟦153⟧ = John Toler
+⟦154⟧ = Joof family
+⟦155⟧ = Killala
+⟦156⟧ = King
+⟦157⟧ = King Abel
+⟦158⟧ = King Christopher I.
+⟦159⟧ = King Gong
+⟦160⟧ = King Kang
+⟦161⟧ = King Kang's younger brother
+⟦162⟧ = King Ling
+⟦163⟧ = King Valdemar II
+⟦164⟧ = kingdoms
+⟦165⟧ = kings
+⟦166⟧ = Knockalton
+⟦167⟧ = Laa
+⟦168⟧ = law
+⟦169⟧ = lawyer
+⟦170⟧ = licence
+⟦171⟧ = Little detail
+⟦172⟧ = Lord Chancellor
+⟦173⟧ = Lord Norbury
+⟦174⟧ = Lund Cathedral
+⟦175⟧ = Maad Patar Kholleh Joof
+⟦176⟧ = Macedon
+⟦177⟧ = Macedonia
+⟦178⟧ = male
+⟦179⟧ = May
+⟦180⟧ = Mbin Boureh Gnilane
+⟦181⟧ = member
+⟦182⟧ = monarch
+⟦183⟧ = monarchies
+⟦184⟧ = name
+⟦185⟧ = née Graham
+⟦186⟧ = neither a Maad a Sinig
+⟦187⟧ = nephew
+⟦188⟧ = New Zealand
+⟦189⟧ = Newtown
+⟦190⟧ = niece
+⟦191⟧ = Norbury
+⟦192⟧ = office
+⟦193⟧ = Olympias
+⟦194⟧ = only a very short time
+⟦195⟧ = parents
+⟦196⟧ = part
+⟦197⟧ = Patrick
+⟦198⟧ = period
+⟦199⟧ = Phthia
+⟦200⟧ = politician
+⟦201⟧ = Polyaenus
+⟦202⟧ = Portugal
+⟦203⟧ = power
+⟦204⟧ = powers
+⟦205⟧ = prince
+⟦206⟧ = Pyrrhus II
+⟦207⟧ = Queen Elizabeth II
+⟦208⟧ = reign
+⟦209⟧ = remainder
+⟦210⟧ = retirement
+⟦211⟧ = Robin
+⟦212⟧ = Royal licence
+⟦213⟧ = Saloum
+⟦214⟧ = Senegambian
+⟦215⟧ = Serer
+⟦216⟧ = significance
+⟦217⟧ = Sine
+⟦218⟧ = son
+⟦219⟧ = special remainder
+⟦220⟧ = states
+⟦221⟧ = story
+⟦222⟧ = subject
+⟦223⟧ = succession
+⟦224⟧ = summer
+⟦225⟧ = supporters
+⟦226⟧ = surname
+⟦227⟧ = Sweyn Forkbeard
+⟦228⟧ = Sweyn III
+⟦229⟧ = Teigne
+⟦230⟧ = the 14th century
+⟦231⟧ = the abolition
+⟦232⟧ = the additional surname
+⟦233⟧ = the Common Pleas
+⟦234⟧ = the conqueror
+⟦235⟧ = the County
+⟦236⟧ = the course
+⟦237⟧ = the Danish throne
+⟦238⟧ = The date
+⟦239⟧ = the death
+⟦240⟧ = the Earldom
+⟦241⟧ = the fifth Baron
+⟦242⟧ = the first and only Danish monarch
+⟦243⟧ = the first royal house
+⟦244⟧ = the fourth Baron
+⟦245⟧ = the grandson
+⟦246⟧ = the Great
+⟦247⟧ = the Great conquered England
+⟦248⟧ = the great Pyrrhus
+⟦249⟧ = the Guelowar period
+⟦250⟧ = the heirs
+⟦251⟧ = the Irish politician
+⟦252⟧ = the Joof family
+⟦253⟧ = the Joof paternal dynasty
+⟦254⟧ = the king
+⟦255⟧ = the King's County
+⟦256⟧ = the Kingdom
+⟦257⟧ = the later king Cnut
+⟦258⟧ = the Memorable
+⟦259⟧ = the Memorable (Danish
+⟦260⟧ = the nephew
+⟦261⟧ = the Peerage
+⟦262⟧ = the powers
+⟦263⟧ = the pre-colonial Kingdom
+⟦264⟧ = the prominent Irish lawyer
+⟦265⟧ = The Royal House
+⟦266⟧ = the second Baron
+⟦267⟧ = the second Earl
+⟦268⟧ = the second son
+⟦269⟧ = the Serer monarchies
+⟦270⟧ = the Serer tribe
+⟦271⟧ = the seventh Baron
+⟦272⟧ = the son
+⟦273⟧ = the special remainder
+⟦274⟧ = the Spring and Autumn period
+⟦275⟧ = the summer
+⟦276⟧ = the third Baron
+⟦277⟧ = the throne
+⟦278⟧ = the time
+⟦279⟧ = the title
+⟦280⟧ = the title Viscount Glandine
+⟦281⟧ = The titles
+⟦282⟧ = the two baronies
+⟦283⟧ = the United Kingdom
+⟦284⟧ = the Unready
+⟦285⟧ = the viscountcy
+⟦286⟧ = the youngest son
+⟦287⟧ = their eldest son
+⟦288⟧ = this dynastic period
+⟦289⟧ = this house
+⟦290⟧ = this royal house
+⟦291⟧ = This son
+⟦292⟧ = three Senegambian kingdoms
+⟦293⟧ = throne
+⟦294⟧ = time
+⟦295⟧ = Tipperary
+⟦296⟧ = title
+⟦297⟧ = titles
+⟦298⟧ = tribe
+⟦299⟧ = Tuam
+⟦300⟧ = turn
+⟦301⟧ = Tyrone
+⟦302⟧ = uncle
+⟦303⟧ = Valdemar II
+⟦304⟧ = var
+⟦305⟧ = variation
+⟦306⟧ = viscountcy
+⟦307⟧ = war
+⟦308⟧ = wars
+⟦309⟧ = Wenden
+⟦310⟧ = Whig politician
+⟦311⟧ = wife
+⟦312⟧ = William Plunket
+⟦313⟧ = Wu
+⟦314⟧ = years
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Harald II of Denmark] ⟦112⟧⟨1⟩⟦79⟧⟨2⟩⟦156⟧⟨3⟩⟦79⟧⟨4⟩⟦120⟧⟨5⟩⟦77⟧⟨6⟩
+[Harald II of Denmark] ⟨7⟩⟦286⟧⟨8⟩⟦218⟧⟨9⟩⟦227⟧⟨10⟩⟦111⟧⟨11⟩⟦309⟧⟨12⟩⟦123⟧⟨13⟩⟦103⟧⟨14⟩⟦284⟧⟨15⟩⟦86⟧⟨16⟩
+[Harald II of Denmark] ⟨17⟩⟦237⟧⟨18⟩⟦293⟧⟨19⟩⟦56⟧⟨20⟩⟦257⟧⟨21⟩⟦156⟧⟨22⟩⟦247⟧⟨23⟩
+[Harald II of Denmark] ⟨24⟩⟦120⟧⟨25⟩⟦77⟧⟨26⟩⟦69⟧⟨27⟩⟦246⟧⟨28⟩
+[Harald II of Denmark] ⟦171⟧⟨29⟩⟦80⟧⟨30⟩⟦112⟧⟨31⟩
+[Christopher I of Denmark] ⟦65⟧⟨32⟩⟦4⟧⟨33⟩⟦63⟧⟨34⟩⟦179⟧⟨35⟩⟦156⟧⟨36⟩⟦79⟧⟨37⟩
+[Christopher I of Denmark] ⟨38⟩⟦272⟧⟨39⟩⟦218⟧⟨40⟩⟦303⟧⟨41⟩⟦79⟧⟨42⟩⟦139⟧⟨43⟩⟦311⟧⟨44⟩⟦146⟧⟨45⟩⟦202⟧⟨46⟩
+[Christopher I of Denmark] ⟨47⟩⟦118⟧⟨48⟩⟦57⟧⟨49⟩⟦95⟧⟨50⟩⟦33⟧⟨51⟩⟦79⟧⟨52⟩⟦277⟧⟨53⟩⟦293⟧⟨54⟩
+[Christopher I of Denmark] ⟦64⟧⟨55⟩⟦156⟧⟨56⟩⟦239⟧⟨57⟩⟦77⟧⟨58⟩⟦130⟧⟨59⟩⟦56⟧⟨60⟩⟦33⟧⟨61⟩⟦275⟧⟨62⟩⟦224⟧⟨63⟩
+[Christopher I of Denmark] ⟨64⟩⟦174⟧⟨65⟩⟦62⟧⟨66⟩
+[Ptolemy of Epirus] ⟨67⟩⟦5⟧⟨68⟩⟦11⟧⟨69⟩⟦156⟧⟨70⟩⟦87⟧⟨71⟩⟦268⟧⟨72⟩⟦218⟧⟨73⟩⟦37⟧⟨74⟩⟦156⟧⟨75⟩⟦156⟧⟨76⟩⟦87⟧⟨77⟩⟦193⟧⟨78⟩⟦109⟧⟨79⟩⟦109⟧⟨80⟩⟦248⟧⟨81⟩⟦56⟧⟨82⟩⟦56⟧⟨83⟩⟦199⟧⟨84⟩⟦176⟧⟨85⟩
+[Ptolemy of Epirus] ⟨86⟩⟦141⟧⟨87⟩⟦141⟧⟨88⟩⟦126⟧⟨89⟩⟦302⟧⟨90⟩⟦20⟧⟨91⟩⟦56⟧⟨92⟩⟦131⟧⟨93⟩⟦195⟧⟨94⟩
+[Ptolemy of Epirus] ⟨95⟩⟦277⟧⟨96⟩⟦293⟧⟨97⟩⟦239⟧⟨98⟩⟦77⟧⟨99⟩⟦121⟧⟨100⟩⟦56⟧⟨101⟩⟦206⟧⟨102⟩⟦87⟧⟨103⟩⟦194⟧⟨104⟩⟦294⟧⟨105⟩⟦24⟧⟨106⟩⟦101⟧⟨107⟩⟦236⟧⟨108⟩⟦73⟧⟨109⟩
+[Ptolemy of Epirus] ⟦201⟧⟨110⟩⟦17⟧⟨111⟩⟦221⟧⟨112⟩⟦220⟧⟨113⟩⟦220⟧⟨114⟩
+[Ptolemy of Epirus] ⟦238⟧⟨115⟩⟦76⟧⟨116⟩⟦132⟧⟨117⟩⟦208⟧⟨118⟩⟦60⟧⟨119⟩⟦60⟧⟨120⟩⟦78⟧⟨121⟩⟦156⟧⟨122⟩⟦156⟧⟨123⟩⟦177⟧⟨124⟩
+[Ptolemy of Epirus] ⟨125⟩⟦129⟧⟨126⟩⟦190⟧⟨127⟩
+[King Kang of Chu] ⟦160⟧⟨128⟩⟦66⟧⟨129⟩⟦15⟧⟨130⟩⟦254⟧⟨131⟩⟦156⟧⟨132⟩⟦66⟧⟨133⟩⟦22⟧⟨134⟩⟦203⟧⟨135⟩⟦274⟧⟨136⟩⟦198⟧⟨137⟩⟦40⟧⟨138⟩
+[King Kang of Chu] ⟨139⟩⟦123⟧⟨140⟩⟦103⟧⟨141⟩⟦159⟧⟨142⟩⟦66⟧⟨143⟩
+[King Kang of Chu] ⟨144⟩⟦132⟧⟨145⟩⟦208⟧⟨146⟩⟦71⟧⟨147⟩⟦308⟧⟨148⟩⟦152⟧⟨149⟩⟦67⟧⟨150⟩⟦85⟧⟨151⟩⟦313⟧⟨152⟩⟦149⟧⟨153⟩⟦85⟧⟨154⟩
+[King Kang of Chu] ⟨155⟩⟦9⟧⟨156⟩⟦314⟧⟨157⟩⟦135⟧⟨158⟩⟦218⟧⟨159⟩⟦151⟧⟨160⟩⟦314⟧⟨161⟩⟦161⟧⟨162⟩⟦56⟧⟨163⟩⟦162⟧⟨164⟩⟦66⟧⟨165⟩
+[Baron Plunket] ⟦46⟧⟨166⟩⟦189⟧⟨167⟩⟦235⟧⟨168⟩⟦72⟧⟨169⟩⟦32⟧⟨170⟩⟦296⟧⟨171⟩⟦261⟧⟨172⟩⟦283⟧⟨173⟩
+[Baron Plunket] ⟨174⟩⟦264⟧⟨175⟩⟦169⟧⟨176⟩⟦310⟧⟨177⟩⟦200⟧⟨178⟩⟦312⟧⟨179⟩
+[Baron Plunket] ⟨180⟩⟦140⟧⟨181⟩⟦56⟧⟨182⟩⟦211⟧⟨183⟩⟦300⟧⟨184⟩⟦300⟧⟨185⟩⟦128⟧⟨186⟩⟦187⟧⟨187⟩⟦301⟧⟨188⟩⟦25⟧⟨189⟩⟦142⟧⟨190⟩⟦207⟧⟨191⟩
+[Baron Plunket] ⟨192⟩⟦172⟧⟨193⟩⟦147⟧⟨194⟩
+[Baron Plunket] ⟨195⟩⟦122⟧⟨196⟩⟦218⟧⟨197⟩⟦266⟧⟨198⟩⟦51⟧⟨199⟩⟦299⟧⟨200⟩⟦155⟧⟨201⟩⟦35⟧⟨202⟩
+[Baron Plunket] ⟨203⟩⟦140⟧⟨204⟩⟦56⟧⟨205⟩⟦276⟧⟨206⟩
+[Baron Plunket] ⟨207⟩⟦16⟧⟨208⟩⟦49⟧⟨209⟩
+[Baron Plunket] ⟨210⟩⟦122⟧⟨211⟩⟦218⟧⟨212⟩⟦244⟧⟨213⟩⟦41⟧⟨214⟩⟦82⟧⟨215⟩
+[Baron Plunket] ⟨216⟩⟦122⟧⟨217⟩⟦218⟧⟨218⟩⟦241⟧⟨219⟩
+[Baron Plunket] ⟨220⟩⟦18⟧⟨221⟩⟦81⟧⟨222⟩⟦192⟧⟨223⟩⟦192⟧⟨224⟩⟦106⟧⟨225⟩⟦188⟧⟨226⟩
+[Baron Plunket] ⟨227⟩⟦124⟧⟨228⟩⟦109⟧⟨229⟩⟦197⟧⟨230⟩⟦271⟧⟨231⟩⟦88⟧⟨232⟩⟦88⟧⟨233⟩⟦53⟧⟨234⟩⟦207⟧⟨235⟩
+[Eric IV of Denmark] ⟦94⟧⟨236⟩⟦96⟧⟨237⟩⟦97⟧⟨238⟩⟦4⟧⟨239⟩⟦100⟧⟨240⟩⟦8⟧⟨241⟩⟦156⟧⟨242⟩⟦156⟧⟨243⟩⟦79⟧⟨244⟩⟦120⟧⟨245⟩⟦77⟧⟨246⟩
+[Eric IV of Denmark] ⟨247⟩⟦272⟧⟨248⟩⟦218⟧⟨249⟩⟦163⟧⟨250⟩⟦139⟧⟨251⟩⟦311⟧⟨252⟩⟦50⟧⟨253⟩⟦202⟧⟨254⟩⟦56⟧⟨255⟩⟦56⟧⟨256⟩⟦157⟧⟨257⟩⟦158⟧
+[Eric II of Denmark] ⟦91⟧⟨258⟩⟦259⟧⟨259⟩⟦98⟧⟨260⟩⟦156⟧⟨261⟩⟦156⟧⟨262⟩⟦79⟧⟨263⟩
+[Eric II of Denmark] ⟦89⟧⟨264⟩⟦39⟧⟨265⟩⟦218⟧⟨266⟩⟦90⟧⟨267⟩⟦79⟧⟨268⟩⟦79⟧⟨269⟩
+[Eric II of Denmark] ⟦89⟧⟨270⟩⟦258⟧⟨271⟩⟦138⟧⟨272⟩⟦302⟧⟨273⟩⟦79⟧⟨274⟩⟦156⟧⟨275⟩⟦156⟧⟨276⟩
+[Eric II of Denmark] ⟨277⟩⟦116⟧⟨278⟩⟦36⟧⟨279⟩⟦137⟧⟨280⟩⟦225⟧⟨281⟩
+[Eric II of Denmark] ⟨282⟩⟦31⟧⟨283⟩⟦222⟧⟨284⟩⟦128⟧⟨285⟩⟦187⟧⟨286⟩⟦92⟧⟨287⟩⟦79⟧⟨288⟩
+[Earl of Norbury] ⟦84⟧⟨289⟩⟦191⟧⟨290⟩⟦235⟧⟨291⟩⟦295⟧⟨292⟩⟦32⟧⟨293⟩⟦296⟧⟨294⟩⟦261⟧⟨295⟩⟦147⟧⟨296⟩
+[Earl of Norbury] ⟨297⟩⟦280⟧⟨298⟩⟦296⟧⟨299⟩⟦105⟧⟨300⟩⟦255⟧⟨301⟩⟦251⟧⟨302⟩⟦200⟧⟨303⟩⟦153⟧⟨304⟩⟦10⟧⟨305⟩⟦133⟧⟨306⟩⟦210⟧⟨307⟩⟦61⟧⟨308⟩⟦233⟧⟨309⟩⟦147⟧⟨310⟩
+[Earl of Norbury] ⟦281⟧⟨311⟩⟦297⟧⟨312⟩⟦219⟧⟨313⟩⟦209⟧⟨314⟩⟦134⟧⟨315⟩⟦218⟧⟨316⟩⟦113⟧⟨317⟩⟦122⟧⟨318⟩⟦218⟧⟨319⟩⟦75⟧⟨320⟩
+[Earl of Norbury] ⟦173⟧⟨321⟩⟦45⟧⟨322⟩⟦43⟧⟨323⟩⟦235⟧⟨324⟩⟦295⟧⟨325⟩⟦261⟧⟨326⟩⟦147⟧⟨327⟩⟦209⟧⟨328⟩⟦209⟧⟨329⟩⟦250⟧⟨330⟩⟦114⟧⟨331⟩⟦178⟧⟨332⟩⟦178⟧⟨333⟩⟦117⟧⟨334⟩⟦52⟧⟨335⟩
+[Earl of Norbury] ⟨336⟩⟦139⟧⟨337⟩⟦311⟧⟨338⟩⟦107⟧⟨339⟩⟦185⟧⟨340⟩⟦47⟧⟨341⟩⟦166⟧⟨342⟩⟦235⟧⟨343⟩⟦295⟧⟨344⟩⟦261⟧⟨345⟩⟦147⟧⟨346⟩⟦209⟧⟨347⟩⟦209⟧⟨348⟩⟦250⟧⟨349⟩⟦114⟧⟨350⟩⟦178⟧⟨351⟩⟦178⟧⟨352⟩⟦115⟧⟨353⟩⟦52⟧⟨354⟩
+[Earl of Norbury] ⟨355⟩⟦278⟧⟨356⟩⟦294⟧⟨357⟩⟦173⟧⟨358⟩⟦240⟧⟨359⟩⟦139⟧⟨360⟩⟦311⟧⟨361⟩⟦287⟧⟨362⟩⟦218⟧⟨363⟩⟦14⟧⟨364⟩
+[Earl of Norbury] ⟦291⟧⟨365⟩⟦218⟧⟨366⟩⟦173⟧⟨367⟩⟦120⟧⟨368⟩⟦77⟧⟨369⟩⟦13⟧⟨370⟩⟦140⟧⟨371⟩⟦56⟧⟨372⟩⟦75⟧⟨373⟩⟦285⟧⟨374⟩⟦306⟧⟨375⟩⟦273⟧⟨376⟩⟦209⟧⟨377⟩
+[Earl of Norbury] ⟨378⟩⟦267⟧⟨379⟩⟦121⟧⟨380⟩⟦56⟧⟨381⟩⟦282⟧⟨382⟩⟦48⟧⟨383⟩
+[Earl of Norbury] ⟨384⟩⟦232⟧⟨385⟩⟦226⟧⟨386⟩⟦108⟧⟨387⟩⟦212⟧⟨388⟩⟦170⟧⟨389⟩
+[Eric III of Denmark] ⟦93⟧⟨390⟩⟦4⟧⟨391⟩⟦99⟧⟨392⟩⟦12⟧⟨393⟩⟦254⟧⟨394⟩⟦79⟧⟨395⟩
+[Eric III of Denmark] ⟨396⟩⟦245⟧⟨397⟩⟦109⟧⟨398⟩⟦90⟧⟨399⟩⟦79⟧⟨400⟩⟦260⟧⟨401⟩⟦187⟧⟨402⟩⟦91⟧⟨403⟩⟦79⟧⟨404⟩⟦277⟧⟨405⟩⟦293⟧⟨406⟩
+[Eric III of Denmark] ⟨407⟩⟦242⟧⟨408⟩⟦182⟧⟨409⟩
+[Eric III of Denmark] ⟦136⟧⟨410⟩⟦223⟧⟨411⟩⟦26⟧⟨412⟩⟦198⟧⟨413⟩⟦68⟧⟨414⟩⟦307⟧⟨415⟩⟦228⟧⟨416⟩⟦58⟧⟨417⟩
+[The Royal House of Boureh Gnilane Joof] ⟦265⟧⟨418⟩⟦54⟧⟨419⟩⟦7⟧⟨420⟩⟦305⟧⟨421⟩⟦180⟧⟨422⟩⟦215⟧⟨423⟩⟦28⟧⟨424⟩⟦143⟧⟨425⟩⟦230⟧⟨426⟩⟦59⟧⟨427⟩⟦150⟧⟨428⟩⟦6⟧⟨429⟩⟦304⟧⟨430⟩
+[The Royal House of Boureh Gnilane Joof] ⟨431⟩⟦23⟧⟨432⟩⟦181⟧⟨433⟩⟦270⟧⟨434⟩⟦298⟧⟨435⟩⟦263⟧⟨436⟩⟦217⟧⟨437⟩⟦196⟧⟨438⟩⟦196⟧⟨439⟩⟦145⟧⟨440⟩
+[The Royal House of Boureh Gnilane Joof] ⟨441⟩⟦243⟧⟨442⟩⟦143⟧⟨443⟩⟦217⟧⟨444⟩⟦252⟧⟨445⟩⟦102⟧⟨446⟩⟦288⟧⟨447⟩⟦198⟧⟨448⟩⟦265⟧⟨449⟩⟦54⟧⟨450⟩⟦110⟧⟨451⟩⟦216⟧⟨452⟩⟦214⟧⟨453⟩⟦154⟧⟨454⟩⟦102⟧⟨455⟩⟦38⟧⟨456⟩⟦144⟧⟨457⟩⟦252⟧⟨458⟩⟦102⟧⟨459⟩⟦292⟧⟨460⟩⟦164⟧⟨461⟩⟦290⟧⟨462⟩⟦143⟧⟨463⟩
+[The Royal House of Boureh Gnilane Joof] ⟨464⟩⟦243⟧⟨465⟩⟦143⟧⟨466⟩⟦252⟧⟨467⟩⟦102⟧⟨468⟩⟦249⟧⟨469⟩⟦198⟧⟨470⟩
+[The Royal House of Boureh Gnilane Joof] ⟦54⟧⟨471⟩⟦29⟧⟨472⟩⟦205⟧⟨473⟩⟦19⟧⟨474⟩⟦6⟧⟨475⟩⟦304⟧⟨476⟩⟦2⟧⟨477⟩⟦262⟧⟨478⟩⟦204⟧⟨479⟩⟦27⟧⟨480⟩
+[The Royal House of Boureh Gnilane Joof] ⟨481⟩⟦186⟧⟨482⟩⟦156⟧⟨483⟩⟦156⟧⟨484⟩⟦217⟧⟨485⟩⟦21⟧⟨486⟩⟦156⟧⟨487⟩⟦156⟧⟨488⟩⟦213⟧⟨489⟩⟦29⟧⟨490⟩⟦205⟧⟨491⟩⟦279⟧⟨492⟩⟦296⟧⟨493⟩⟦3⟧⟨494⟩⟦119⟧⟨495⟩⟦74⟧⟨496⟩⟦56⟧⟨497⟩⟦56⟧⟨498⟩⟦168⟧⟨499⟩⟦168⟧⟨500⟩⟦1⟧⟨501⟩⟦30⟧⟨502⟩⟦156⟧⟨503⟩⟦156⟧⟨504⟩⟦217⟧⟨505⟩
+[The Royal House of Boureh Gnilane Joof] ⟨506⟩⟦123⟧⟨507⟩⟦103⟧⟨508⟩⟦175⟧⟨509⟩⟦234⟧⟨510⟩⟦70⟧⟨511⟩⟦254⟧⟨512⟩⟦156⟧⟨513⟩⟦167⟧⟨514⟩⟦229⟧⟨515⟩⟦44⟧⟨516⟩⟦156⟧⟨517⟩⟦156⟧⟨518⟩⟦44⟧⟨519⟩
+[The Royal House of Boureh Gnilane Joof] ⟦55⟧⟨520⟩⟦57⟧⟨521⟩⟦289⟧⟨522⟩⟦143⟧⟨523⟩⟦277⟧⟨524⟩⟦293⟧⟨525⟩⟦217⟧⟨526⟩⟦249⟧⟨527⟩⟦198⟧⟨528⟩
+[The Royal House of Boureh Gnilane Joof] ⟨529⟩⟦127⟧⟨530⟩⟦184⟧⟨531⟩⟦125⟧⟨532⟩⟦142⟧⟨533⟩⟦243⟧⟨534⟩⟦143⟧⟨535⟩⟦252⟧⟨536⟩⟦102⟧⟨537⟩⟦288⟧⟨538⟩⟦198⟧⟨539⟩
+[The Royal House of Boureh Gnilane Joof] ⟦252⟧⟨540⟩⟦102⟧⟨541⟩⟦217⟧⟨542⟩⟦290⟧⟨543⟩⟦256⟧⟨544⟩⟦213⟧⟨545⟩⟦253⟧⟨546⟩⟦83⟧⟨547⟩⟦217⟧⟨548⟩⟦213⟧⟨549⟩⟦252⟧⟨550⟩⟦102⟧⟨551⟩⟦44⟧⟨552⟩⟦253⟧⟨553⟩⟦83⟧⟨554⟩⟦44⟧⟨555⟩
+[The Royal House of Boureh Gnilane Joof] ⟨556⟩⟦238⟧⟨557⟩⟦76⟧⟨558⟩⟦148⟧⟨559⟩⟦104⟧⟨560⟩⟦231⟧⟨561⟩⟦34⟧⟨562⟩⟦269⟧⟨563⟩⟦183⟧⟨564⟩⟦217⟧⟨565⟩⟦213⟧⟨566⟩⟦42⟧⟨567⟩⟦165⟧⟨568⟩⟦289⟧⟨569⟩⟦143⟧⟨570⟩⟦277⟧⟨571⟩⟦293⟧⟨572⟩⟦217⟧⟨573⟩
+
+[user]
+
+问题：
+Christopher I of Denmark succeeded his brother, who was king during what period?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

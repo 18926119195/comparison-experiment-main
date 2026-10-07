@@ -1,0 +1,58 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Kevin Watson] ⟦129⟧⟨350⟩⟦23⟧⟦101⟧⟨351⟩⟨352⟩⟦57⟧⟦58⟧⟨353⟩⟦192⟧⟨355⟩⟦52⟧⟨354⟩⟨356⟩
+[Kevin Watson] ⟨357⟩⟦248⟧⟨358⟩⟨359⟩⟦50⟧⟨360⟩
+[1919–20 Watford F.C. season] ⟦133⟧
+
+符号表：
+⟦23⟧ = a former professional footballer
+⟦50⟧ = Bishop's Stortford
+⟦52⟧ = broadcaster
+⟦57⟧ = coach
+⟦58⟧ = coach and sports broadcaster
+⟦101⟧ = footballer
+⟦129⟧ = Kevin Edward Watson
+⟦133⟧ = manager
+⟦192⟧ = sports
+⟦248⟧ = the manager
+
+占位符映射：
+⟨350⟩ =  (born 3 January 1974) is 
+⟨351⟩ = 
+⟨352⟩ = , turned 
+⟨353⟩ = 
+⟨354⟩ = 
+⟨355⟩ =  
+⟨356⟩ = .
+⟨357⟩ =  He is currently 
+⟨358⟩ = 
+⟨359⟩ =  of 
+⟨360⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Kevin Watson currently manages which Southern League football team?

@@ -1,0 +1,118 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = (; Sichuanese Pinyin
+⟦2⟧ = 1692 km2
+⟦3⟧ = 703 km2
+⟦4⟧ = 9 times the salinity
+⟦5⟧ = a "city
+⟦6⟧ = a county
+⟦7⟧ = a large land area
+⟦8⟧ = a population
+⟦9⟧ = a prefecture-level city
+⟦10⟧ = a salt lake
+⟦11⟧ = a tourist attraction
+⟦12⟧ = administration
+⟦13⟧ = an area
+⟦14⟧ = area
+⟦15⟧ = attraction
+⟦16⟧ = capital
+⟦17⟧ = Chengdu Expressway
+⟦18⟧ = Chengdu Railway (达成铁路
+⟦19⟧ = China
+⟦20⟧ = cities
+⟦21⟧ = city
+⟦22⟧ = county
+⟦23⟧ = Daying
+⟦24⟧ = Daying County
+⟦25⟧ = Dazhou
+⟦26⟧ = east
+⟦27⟧ = eastern Sichuan province
+⟦28⟧ = Haikou
+⟦29⟧ = Hainan
+⟦30⟧ = Hainan province
+⟦31⟧ = home
+⟦32⟧ = island
+⟦33⟧ = km
+⟦34⟧ = km2
+⟦35⟧ = lake
+⟦36⟧ = land
+⟦37⟧ = length
+⟦38⟧ = level
+⟦39⟧ = mouth
+⟦40⟧ = ocean
+⟦41⟧ = park
+⟦42⟧ = part
+⟦43⟧ = population
+⟦44⟧ = prefecture
+⟦45⟧ = pronunciation
+⟦46⟧ = province
+⟦47⟧ = Qionghai
+⟦48⟧ = Qionghai City
+⟦49⟧ = salinity
+⟦50⟧ = salt
+⟦51⟧ = Sichuan province
+⟦52⟧ = Southwest China
+⟦53⟧ = Suining
+⟦54⟧ = Suining City
+⟦55⟧ = the "Chinese Dead Sea
+⟦56⟧ = the administration
+⟦57⟧ = the central part
+⟦58⟧ = the county
+⟦59⟧ = the east
+⟦60⟧ = the entire length
+⟦61⟧ = The G42 Shanghai
+⟦62⟧ = the home
+⟦63⟧ = the island
+⟦64⟧ = the largest indoor water park
+⟦65⟧ = the main city
+⟦66⟧ = the mouth
+⟦67⟧ = the ocean
+⟦68⟧ = the provincial capital
+⟦69⟧ = the seven county-level cities
+⟦70⟧ = the Sichuan Basin
+⟦71⟧ = the Wanquan River
+⟦72⟧ = this area
+⟦73⟧ = times
+⟦74⟧ = tourist
+⟦75⟧ = traverses
+⟦76⟧ = water
+⟦77⟧ = west
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Suining] ⟨1⟩⟦1⟧⟨2⟩⟦45⟧⟨3⟩⟦9⟧⟨4⟩⟦44⟧⟨5⟩⟦38⟧⟨6⟩⟦21⟧⟨7⟩⟦27⟧⟨8⟩⟦46⟧⟨9⟩⟦52⟧⟨10⟩
+[Suining] ⟨11⟩⟦53⟧⟨12⟩⟦8⟧⟨13⟩⟦43⟧⟨14⟩
+[Daying County] ⟦24⟧⟨15⟩⟦6⟧⟨16⟩⟦22⟧⟨17⟩⟦51⟧⟨18⟩⟦46⟧⟨19⟩⟦19⟧⟨20⟩⟦56⟧⟨21⟩⟦12⟧⟨22⟩⟦54⟧⟨23⟩⟦57⟧⟨24⟩⟦42⟧⟨25⟩⟦70⟧⟨26⟩
+[Daying County] ⟨27⟩⟦8⟧⟨28⟩⟦43⟧⟨29⟩⟦13⟧⟨30⟩⟦14⟧⟨31⟩⟦3⟧⟨32⟩⟦34⟧⟨33⟩
+[Daying County] ⟨34⟩⟦23⟧⟨35⟩⟦62⟧⟨36⟩⟦31⟧⟨37⟩⟦55⟧⟨38⟩⟦11⟧⟨39⟩⟦74⟧⟨40⟩⟦15⟧⟨41⟩⟦10⟧⟨42⟩⟦50⟧⟨43⟩⟦35⟧⟨44⟩⟦4⟧⟨45⟩⟦73⟧⟨46⟩⟦49⟧⟨47⟩⟦67⟧⟨48⟩⟦40⟧⟨49⟩⟦64⟧⟨50⟩⟦76⟧⟨51⟩⟦41⟧⟨52⟩⟦19⟧⟨53⟩
+[Daying County] ⟦61⟧⟨54⟩⟦17⟧⟨55⟩⟦25⟧⟨56⟩⟦18⟧⟨57⟩⟦75⟧⟨58⟩⟦26⟧⟨59⟩⟦77⟧⟨60⟩⟦77⟧⟨61⟩⟦60⟧⟨62⟩⟦37⟧⟨63⟩⟦58⟧⟨64⟩⟦22⟧⟨65⟩
+[Qionghai] ⟦47⟧⟨66⟩⟦69⟧⟨67⟩⟦22⟧⟨68⟩⟦38⟧⟨69⟩⟦20⟧⟨70⟩⟦30⟧⟨71⟩⟦46⟧⟨72⟩⟦19⟧⟨73⟩
+[Qionghai] ⟨74⟩⟦5⟧⟨75⟩⟦21⟧⟨76⟩⟦47⟧⟨77⟩⟦7⟧⟨78⟩⟦36⟧⟨79⟩⟦14⟧⟨80⟩⟦29⟧⟨81⟩⟦13⟧⟨82⟩⟦14⟧⟨83⟩⟦6⟧⟨84⟩⟦22⟧⟨85⟩
+[Qionghai] ⟨86⟩⟦72⟧⟨87⟩⟦14⟧⟨88⟩⟦65⟧⟨89⟩⟦21⟧⟨90⟩⟦48⟧⟨91⟩
+[Qionghai] ⟨92⟩⟦59⟧⟨93⟩⟦26⟧⟨94⟩⟦63⟧⟨95⟩⟦32⟧⟨96⟩⟦66⟧⟨97⟩⟦39⟧⟨98⟩⟦71⟧⟨99⟩⟦33⟧⟨100⟩⟦68⟧⟨101⟩⟦16⟧⟨102⟩⟦28⟧⟨103⟩
+[Qionghai] ⟨104⟩⟦13⟧⟨105⟩⟦14⟧⟨106⟩⟦2⟧⟨107⟩⟦34⟧⟨108⟩⟦8⟧⟨109⟩⟦43⟧⟨110⟩
+
+[user]
+
+问题：
+Did Qionghai or Suining  have a population of 658,798 in 2002? 
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

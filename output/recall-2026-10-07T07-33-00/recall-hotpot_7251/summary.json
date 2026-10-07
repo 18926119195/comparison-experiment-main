@@ -1,0 +1,39 @@
+{
+  "qid": "hotpot_7251",
+  "question": "How many students were enrolled in American professional bowler Chris Barnes' high school in the 2010-2011 school year?",
+  "expectedAnswer": "1,840 students",
+  "predictedAnswer": "# 路径一：传记直接链\n\n步骤1：使用⟦81⟧⟦43⟧，提取 Chris Barnes 是 American professional bowler，确定问题所指人物。\n\n步骤2：使用⟦340⟧，提取 Chris Barnes 就读的高中是 Topeka High School；结合符号映射中“He attended ... Topeka High School, and then bowled collegiately at ...”的叙述，确认其高中为 Topeka High School。\n\n步骤3：综合⟦263⟧⟦2⟧，提取 the 2010-2011 school year 有 1,840 students；该招生数对应 Topeka High School。\n\n结论：Chris Barnes 的高中在 2010-2011 学年有 **1,840 名学生**。\n\n# 路径二：学区归属交叉验证\n\n步骤1：综合⟦340⟧⟦341⟧，Topeka High School 属于 Topeka Public Schools；符号映射显示它是该学区内的学校之一。\n\n步骤2：综合⟦263⟧⟦2⟧，在 the 2010-2011 school year，相关学校资料给出 1,840 students。\n\n步骤3：综合⟦81⟧⟦340⟧，Chris Barnes 就读的是 Topeka High School，而不是其他学校或大学。\n\n结论：该高中在 2010-2011 学年的招生数为 **1,840 名学生**。\n\n# 路径三：排除后续教育机构\n\n步骤1：使用⟦355⟧，提取 Chris Barnes 之后在 Wichita State University 打大学保龄球，故 Wichita State University 不是其高中。\n\n步骤2：使用⟦340⟧，提取其高中为 Topeka High School。\n\n步骤3：综合⟦263⟧⟦2⟧，Topeka High School 在 the 2010-2011 school year 的 enrollment 为 1,840 students。\n\n结论：答案是 **1,840 名学生**。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦81⟧⟨ʰ⟩⟦339⟧⟨ʱ⟩⟦163⟧⟨ʲ⟩⟦43⟧⟦63⟧⟨ʳ⟩⟨ʴ⟩⟦313⟧⟨ʵ⟩",
+  "nounCount": 608,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": true
+  },
+  "recallUsage": {
+    "prompt_tokens": 5500,
+    "completion_tokens": 2678,
+    "total_tokens": 8178,
+    "prompt_tokens_details": {
+      "cached_tokens": 5248
+    },
+    "prompt_cache_hit_tokens": 5248,
+    "prompt_cache_miss_tokens": 252
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1002,
+    "completion_tokens": 3638,
+    "total_tokens": 4640,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3219
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1002
+  }
+}

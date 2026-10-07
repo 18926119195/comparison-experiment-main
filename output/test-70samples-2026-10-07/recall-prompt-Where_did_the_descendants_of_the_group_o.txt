@@ -1,0 +1,337 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "cimarrón
+⟦2⟧ = "negros mascagos
+⟦3⟧ = "Seminole
+⟦4⟧ = "simanó-li
+⟦5⟧ = (Creek
+⟦6⟧ = (Mvskoke
+⟦7⟧ = 200 soldiers
+⟦8⟧ = 800 Black Seminoles
+⟦9⟧ = a county
+⟦10⟧ = a federally recognized Native American tribe
+⟦11⟧ = a long fight
+⟦12⟧ = a minority
+⟦13⟧ = a Muskogean language
+⟦14⟧ = A national push
+⟦15⟧ = a Native American people
+⟦16⟧ = a period
+⟦17⟧ = a process
+⟦18⟧ = a series
+⟦19⟧ = a state
+⟦20⟧ = a trail
+⟦21⟧ = a variety
+⟦22⟧ = about twenty others
+⟦23⟧ = action
+⟦24⟧ = admission
+⟦25⟧ = afrodescendant
+⟦26⟧ = agricultural use
+⟦27⟧ = Alabama
+⟦28⟧ = an afrodescendant group
+⟦29⟧ = an expedition
+⟦30⟧ = an indigenous people
+⟦31⟧ = area
+⟦32⟧ = arms
+⟦33⟧ = attacks
+⟦34⟧ = bands
+⟦35⟧ = battle
+⟦36⟧ = battles
+⟦37⟧ = black Indians
+⟦38⟧ = Black Seminoles
+⟦39⟧ = blacks
+⟦40⟧ = called maroons
+⟦41⟧ = camp
+⟦42⟧ = census
+⟦43⟧ = century
+⟦44⟧ = chief
+⟦45⟧ = cimarrón
+⟦46⟧ = city
+⟦47⟧ = Coahuila
+⟦48⟧ = coast
+⟦49⟧ = county
+⟦50⟧ = Creek
+⟦51⟧ = Creeks
+⟦52⟧ = department
+⟦53⟧ = department officials
+⟦54⟧ = descendants
+⟦55⟧ = development
+⟦56⟧ = Dhoolpet
+⟦57⟧ = distinct bands
+⟦58⟧ = drums
+⟦59⟧ = El Nacimiento
+⟦60⟧ = enrolled tribal members
+⟦61⟧ = escaped slaves
+⟦62⟧ = ethnogenesis
+⟦63⟧ = Everglades
+⟦64⟧ = every turn
+⟦65⟧ = excise
+⟦66⟧ = expansion
+⟦67⟧ = expedition
+⟦68⟧ = extensive use
+⟦69⟧ = fight
+⟦70⟧ = five men
+⟦71⟧ = Florida
+⟦72⟧ = flutes
+⟦73⟧ = free blacks
+⟦74⟧ = freedom
+⟦75⟧ = Georgia
+⟦76⟧ = government
+⟦77⟧ = governments
+⟦78⟧ = group
+⟦79⟧ = groups
+⟦80⟧ = hand
+⟦81⟧ = hand drums
+⟦82⟧ = historians
+⟦83⟧ = history
+⟦84⟧ = Hyderabad
+⟦85⟧ = independent groups
+⟦86⟧ = India
+⟦87⟧ = Indian Territory
+⟦88⟧ = Indians
+⟦89⟧ = interest
+⟦90⟧ = Its county seat
+⟦91⟧ = its government
+⟦92⟧ = Its members
+⟦93⟧ = its reservation
+⟦94⟧ = January
+⟦95⟧ = Jupiter Inlet
+⟦96⟧ = land
+⟦97⟧ = language
+⟦98⟧ = leaders
+⟦99⟧ = Loxahatchee
+⟦100⟧ = Lt. Levin Powell
+⟦101⟧ = Ltn
+⟦102⟧ = marines
+⟦103⟧ = maroons
+⟦104⟧ = mascagos
+⟦105⟧ = Maskókî
+⟦106⟧ = medicine
+⟦107⟧ = members
+⟦108⟧ = men
+⟦109⟧ = Mexico
+⟦110⟧ = Miccosukee Tribe
+⟦111⟧ = middle
+⟦112⟧ = military
+⟦113⟧ = minority
+⟦114⟧ = mission
+⟦115⟧ = missions
+⟦116⟧ = more freedom
+⟦117⟧ = Muscogee
+⟦118⟧ = music
+⟦119⟧ = Muskogee
+⟦120⟧ = Múzquiz Municipality
+⟦121⟧ = nation
+⟦122⟧ = officers
+⟦123⟧ = officials
+⟦124⟧ = Oklahoma
+⟦125⟧ = Oklahoma's admission
+⟦126⟧ = one
+⟦127⟧ = opportunity
+⟦128⟧ = other Native American tribes
+⟦129⟧ = others
+⟦130⟧ = part
+⟦131⟧ = particular Seminole leaders
+⟦132⟧ = people
+⟦133⟧ = period
+⟦134⟧ = pi
+⟦135⟧ = place
+⟦136⟧ = policemen
+⟦137⟧ = population
+⟦138⟧ = portion
+⟦139⟧ = Powell
+⟦140⟧ = process
+⟦141⟧ = progress
+⟦142⟧ = properties
+⟦143⟧ = push
+⟦144⟧ = raids
+⟦145⟧ = rattles
+⟦146⟧ = removal
+⟦147⟧ = reservation
+⟦148⟧ = right
+⟦149⟧ = rule
+⟦150⟧ = sailors
+⟦151⟧ = Sam Jones
+⟦152⟧ = seat
+⟦153⟧ = Seminole
+⟦154⟧ = Seminole County
+⟦155⟧ = Seminole groups
+⟦156⟧ = Seminole music
+⟦157⟧ = Seminole people
+⟦158⟧ = series
+⟦159⟧ = seventy-five men
+⟦160⟧ = slavery
+⟦161⟧ = slaves
+⟦162⟧ = soldiers
+⟦163⟧ = some people
+⟦164⟧ = Spanish Florida
+⟦165⟧ = state
+⟦166⟧ = states
+⟦167⟧ = suburbs
+⟦168⟧ = the 18th century
+⟦169⟧ = the 19th century
+⟦170⟧ = the 2010 census
+⟦171⟧ = the 3,000 Seminoles
+⟦172⟧ = the Americas
+⟦173⟧ = The area
+⟦174⟧ = The Battle
+⟦175⟧ = The Black Seminoles
+⟦176⟧ = The camp
+⟦177⟧ = the county
+⟦178⟧ = the Creek word
+⟦179⟧ = the descendants
+⟦180⟧ = the east coast
+⟦181⟧ = the entire small portion
+⟦182⟧ = the Everglades
+⟦183⟧ = the First Battle
+⟦184⟧ = the group
+⟦185⟧ = The history
+⟦186⟧ = the Indian Reorganization Act
+⟦187⟧ = the Jupiter Inlet
+⟦188⟧ = the latter part
+⟦189⟧ = The Mascogos
+⟦190⟧ = the Miccosukee and Seminole people
+⟦191⟧ = the Miccosukee Tribe
+⟦192⟧ = the middle
+⟦193⟧ = the military
+⟦194⟧ = The Muscogee language
+⟦195⟧ = the music
+⟦196⟧ = the Native American Seminole
+⟦197⟧ = The Navy
+⟦198⟧ = the nineteenth century
+⟦199⟧ = The Nizam
+⟦200⟧ = the Nizam rule
+⟦201⟧ = The officers
+⟦202⟧ = the old city
+⟦203⟧ = the old suburbs
+⟦204⟧ = the opportunity
+⟦205⟧ = the population
+⟦206⟧ = the proper thing
+⟦207⟧ = the right
+⟦208⟧ = the Second Seminole War
+⟦209⟧ = The Seminole
+⟦210⟧ = the Seminole camp
+⟦211⟧ = the Seminole Indians - Seminole Negro
+⟦212⟧ = The Seminole nation
+⟦213⟧ = the Seminole people
+⟦214⟧ = the Seminole Tribe
+⟦215⟧ = the South
+⟦216⟧ = the Spanish word
+⟦217⟧ = the spiritual medicine and war chief
+⟦218⟧ = the state
+⟦219⟧ = the threat
+⟦220⟧ = the three federally recognized Seminole governments
+⟦221⟧ = the town
+⟦222⟧ = the tribal jurisdictional area
+⟦223⟧ = The tribe
+⟦224⟧ = the twentieth century
+⟦225⟧ = the U.S. state
+⟦226⟧ = the U.S. states
+⟦227⟧ = the United States
+⟦228⟧ = the United States military's mission
+⟦229⟧ = the United States Navy
+⟦230⟧ = the US
+⟦231⟧ = the US Navy
+⟦232⟧ = the war
+⟦233⟧ = The word
+⟦234⟧ = Their traditional music
+⟦235⟧ = these people
+⟦236⟧ = thing
+⟦237⟧ = this area
+⟦238⟧ = This place
+⟦239⟧ = those groups
+⟦240⟧ = Those missions
+⟦241⟧ = threat
+⟦242⟧ = three federally recognized tribes
+⟦243⟧ = Today
+⟦244⟧ = town
+⟦245⟧ = trail
+⟦246⟧ = tribe
+⟦247⟧ = tribes
+⟦248⟧ = turn
+⟦249⟧ = uck
+⟦250⟧ = use
+⟦251⟧ = Uttar Pradesh
+⟦252⟧ = variety
+⟦253⟧ = various Native American groups
+⟦254⟧ = war
+⟦255⟧ = water
+⟦256⟧ = water drums
+⟦257⟧ = wetland
+⟦258⟧ = wetland removal
+⟦259⟧ = Wewoka
+⟦260⟧ = whites
+⟦261⟧ = word
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Mascogos] ⟦189⟧⟨1⟩⟦2⟧⟨2⟩⟦104⟧⟨3⟩⟦28⟧⟨4⟩⟦25⟧⟨5⟩⟦78⟧⟨6⟩⟦47⟧⟨7⟩⟦109⟧⟨8⟩
+[Mascogos] ⟨9⟩⟦221⟧⟨10⟩⟦244⟧⟨11⟩⟦59⟧⟨12⟩⟦120⟧⟨13⟩⟦184⟧⟨14⟩⟦78⟧⟨15⟩⟦54⟧⟨16⟩⟦54⟧⟨17⟩⟦38⟧⟨18⟩⟦219⟧⟨19⟩⟦241⟧⟨20⟩⟦160⟧⟨21⟩⟦160⟧⟨22⟩⟦227⟧⟨23⟩
+[Dhoolpet] ⟦56⟧⟨24⟩⟦56⟧⟨25⟩⟦203⟧⟨26⟩⟦167⟧⟨27⟩⟦84⟧⟨28⟩⟦86⟧⟨29⟩
+[Dhoolpet] ⟨30⟩⟦130⟧⟨31⟩⟦130⟧⟨32⟩⟦202⟧⟨33⟩⟦46⟧⟨34⟩⟦84⟧⟨35⟩
+[Dhoolpet] ⟦238⟧⟨36⟩⟦135⟧⟨37⟩⟦132⟧⟨38⟩⟦132⟧⟨39⟩⟦251⟧⟨40⟩⟦200⟧⟨41⟩⟦149⟧⟨42⟩
+[Dhoolpet] ⟦199⟧⟨43⟩⟦235⟧⟨44⟩⟦132⟧⟨45⟩⟦237⟧⟨46⟩⟦31⟧⟨47⟩
+[Dhoolpet] ⟦173⟧⟨48⟩⟦31⟧⟨49⟩⟦33⟧⟨50⟩⟦33⟧⟨51⟩⟦136⟧⟨52⟩⟦136⟧⟨53⟩⟦65⟧⟨54⟩⟦52⟧⟨55⟩⟦53⟧⟨56⟩⟦123⟧⟨57⟩⟦144⟧⟨58⟩⟦144⟧⟨59⟩
+[Seminole music] ⟦153⟧⟨60⟩⟦156⟧⟨61⟩⟦118⟧⟨62⟩⟦195⟧⟨63⟩⟦118⟧⟨64⟩⟦213⟧⟨65⟩⟦132⟧⟨66⟩⟦30⟧⟨67⟩⟦132⟧⟨68⟩⟦172⟧⟨69⟩⟦71⟧⟨70⟩⟦168⟧⟨71⟩⟦43⟧⟨72⟩
+[Seminole music] ⟨73⟩⟦243⟧⟨74⟩⟦124⟧⟨75⟩⟦12⟧⟨76⟩⟦113⟧⟨77⟩⟦71⟧⟨78⟩
+[Seminole music] ⟨79⟩⟦242⟧⟨80⟩⟦247⟧⟨81⟩⟦163⟧⟨82⟩⟦132⟧⟨83⟩⟦34⟧⟨84⟩⟦34⟧⟨85⟩⟦239⟧⟨86⟩⟦79⟧⟨87⟩
+[Seminole music] ⟨88⟩⟦234⟧⟨89⟩⟦118⟧⟨90⟩⟦68⟧⟨91⟩⟦250⟧⟨92⟩⟦145⟧⟨93⟩⟦145⟧⟨94⟩⟦80⟧⟨95⟩⟦81⟧⟨96⟩⟦58⟧⟨97⟩⟦255⟧⟨98⟩⟦256⟧⟨99⟩⟦58⟧⟨100⟩⟦72⟧⟨101⟩⟦72⟧⟨102⟩
+[Seminole] ⟦209⟧⟨103⟩⟦15⟧⟨104⟩⟦132⟧⟨105⟩⟦71⟧⟨106⟩
+[Seminole] ⟨107⟩⟦243⟧⟨108⟩⟦124⟧⟨109⟩⟦12⟧⟨110⟩⟦113⟧⟨111⟩⟦71⟧⟨112⟩⟦242⟧⟨113⟩⟦247⟧⟨114⟩⟦214⟧⟨115⟩⟦124⟧⟨116⟩⟦214⟧⟨117⟩⟦71⟧⟨118⟩⟦110⟧⟨119⟩⟦88⟧⟨120⟩⟦71⟧⟨121⟩⟦85⟧⟨122⟩⟦79⟧⟨123⟩
+[Seminole] ⟦212⟧⟨124⟩⟦121⟧⟨125⟩⟦17⟧⟨126⟩⟦140⟧⟨127⟩⟦62⟧⟨128⟩⟦62⟧⟨129⟩⟦253⟧⟨130⟩⟦79⟧⟨131⟩⟦71⟧⟨132⟩⟦168⟧⟨133⟩⟦43⟧⟨134⟩⟦51⟧⟨135⟩⟦75⟧⟨136⟩⟦27⟧⟨137⟩
+[Seminole] ⟦233⟧⟨138⟩⟦261⟧⟨139⟩⟦3⟧⟨140⟩⟦178⟧⟨141⟩⟦261⟧⟨142⟩⟦4⟧⟨143⟩⟦216⟧⟨144⟩⟦261⟧⟨145⟩⟦1⟧⟨146⟩⟦45⟧⟨147⟩⟦126⟧⟨148⟩
+[Draining and development of the Everglades] ⟦185⟧⟨149⟩⟦83⟧⟨150⟩⟦55⟧⟨151⟩⟦55⟧⟨152⟩⟦182⟧⟨153⟩⟦63⟧⟨154⟩⟦169⟧⟨155⟩⟦43⟧⟨156⟩
+[Draining and development of the Everglades] ⟨157⟩⟦208⟧⟨158⟩⟦228⟧⟨159⟩⟦112⟧⟨160⟩⟦114⟧⟨161⟩⟦157⟧⟨162⟩⟦132⟧⟨163⟩⟦182⟧⟨164⟩⟦63⟧⟨165⟩
+[Draining and development of the Everglades] ⟦240⟧⟨166⟩⟦115⟧⟨167⟩⟦193⟧⟨168⟩⟦112⟧⟨169⟩⟦204⟧⟨170⟩⟦127⟧⟨171⟩⟦96⟧⟨172⟩⟦96⟧⟨173⟩⟦64⟧⟨174⟩⟦248⟧⟨175⟩
+[Draining and development of the Everglades] ⟦14⟧⟨176⟩⟦143⟧⟨177⟩⟦66⟧⟨178⟩⟦66⟧⟨179⟩⟦141⟧⟨180⟩⟦141⟧⟨181⟩⟦188⟧⟨182⟩⟦130⟧⟨183⟩⟦169⟧⟨184⟩⟦43⟧⟨185⟩⟦89⟧⟨186⟩⟦89⟧⟨187⟩⟦182⟧⟨188⟩⟦63⟧⟨189⟩⟦26⟧⟨190⟩⟦250⟧⟨191⟩
+[Draining and development of the Everglades] ⟨192⟩⟦82⟧⟨193⟩⟦82⟧⟨194⟩⟦192⟧⟨195⟩⟦111⟧⟨196⟩⟦198⟧⟨197⟩⟦43⟧⟨198⟩⟦192⟧⟨199⟩⟦111⟧⟨200⟩⟦224⟧⟨201⟩⟦43⟧⟨202⟩⟦227⟧⟨203⟩⟦16⟧⟨204⟩⟦133⟧⟨205⟩⟦257⟧⟨206⟩⟦258⟧⟨207⟩⟦146⟧⟨208⟩
+[Draining and development of the Everglades] ⟨209⟩⟦206⟧⟨210⟩⟦236⟧⟨211⟩
+[Muscogee language] ⟦194⟧⟨212⟩⟦97⟧⟨213⟩⟦6⟧⟨214⟩⟦117⟧⟨215⟩⟦50⟧⟨216⟩⟦153⟧⟨217⟩⟦105⟧⟨218⟩⟦119⟧⟨219⟩⟦13⟧⟨220⟩⟦97⟧⟨221⟩⟦117⟧⟨222⟩⟦5⟧⟨223⟩⟦157⟧⟨224⟩⟦132⟧⟨225⟩⟦226⟧⟨226⟩⟦166⟧⟨227⟩⟦124⟧⟨228⟩⟦71⟧⟨229⟩
+[Seminole County, Oklahoma] ⟦154⟧⟨230⟩⟦9⟧⟨231⟩⟦49⟧⟨232⟩⟦225⟧⟨233⟩⟦165⟧⟨234⟩⟦124⟧⟨235⟩
+[Seminole County, Oklahoma] ⟨236⟩⟦170⟧⟨237⟩⟦42⟧⟨238⟩⟦205⟧⟨239⟩⟦137⟧⟨240⟩
+[Seminole County, Oklahoma] ⟦90⟧⟨241⟩⟦49⟧⟨242⟩⟦152⟧⟨243⟩⟦259⟧⟨244⟩
+[Seminole County, Oklahoma] ⟨245⟩⟦125⟧⟨246⟩⟦24⟧⟨247⟩⟦19⟧⟨248⟩⟦165⟧⟨249⟩⟦177⟧⟨250⟩⟦49⟧⟨251⟩⟦181⟧⟨252⟩⟦138⟧⟨253⟩⟦87⟧⟨254⟩⟦213⟧⟨255⟩⟦132⟧⟨256⟩⟦71⟧⟨257⟩
+[Battle of Jupiter Inlet] ⟦174⟧⟨258⟩⟦95⟧⟨259⟩⟦94⟧⟨260⟩⟦211⟧⟨261⟩⟦229⟧⟨262⟩
+[Battle of Jupiter Inlet] ⟨263⟩⟦18⟧⟨264⟩⟦158⟧⟨265⟩⟦36⟧⟨266⟩⟦36⟧⟨267⟩⟦231⟧⟨268⟩⟦173⟧⟨269⟩⟦31⟧⟨270⟩⟦183⟧⟨271⟩⟦99⟧⟨272⟩
+[Battle of Jupiter Inlet] ⟦174⟧⟨273⟩⟦35⟧⟨274⟩⟦100⟧⟨275⟩⟦29⟧⟨276⟩⟦67⟧⟨277⟩⟦7⟧⟨278⟩⟦162⟧⟨279⟩⟦150⟧⟨280⟩⟦150⟧⟨281⟩⟦102⟧⟨282⟩⟦102⟧⟨283⟩⟦180⟧⟨284⟩⟦48⟧⟨285⟩⟦71⟧⟨286⟩
+[Battle of Jupiter Inlet] ⟦197⟧⟨287⟩⟦20⟧⟨288⟩⟦245⟧⟨289⟩⟦187⟧⟨290⟩⟦159⟧⟨291⟩⟦108⟧⟨292⟩⟦210⟧⟨293⟩⟦41⟧⟨294⟩
+[Battle of Jupiter Inlet] ⟦176⟧⟨295⟩⟦41⟧⟨296⟩⟦151⟧⟨297⟩⟦134⟧⟨298⟩⟦134⟧⟨299⟩⟦249⟧⟨300⟩⟦217⟧⟨301⟩⟦106⟧⟨302⟩⟦254⟧⟨303⟩⟦44⟧⟨304⟩⟦190⟧⟨305⟩⟦132⟧⟨306⟩⟦232⟧⟨307⟩⟦254⟧⟨308⟩
+[Battle of Jupiter Inlet] ⟦201⟧⟨309⟩⟦122⟧⟨310⟩⟦176⟧⟨311⟩⟦41⟧⟨312⟩
+[Battle of Jupiter Inlet] ⟨313⟩⟦11⟧⟨314⟩⟦69⟧⟨315⟩⟦230⟧⟨316⟩⟦70⟧⟨317⟩⟦108⟧⟨318⟩⟦23⟧⟨319⟩⟦23⟧⟨320⟩⟦22⟧⟨321⟩⟦129⟧⟨322⟩
+[Battle of Jupiter Inlet] ⟦101⟧⟨323⟩
+[Battle of Jupiter Inlet] ⟦139⟧⟨324⟩⟦35⟧⟨325⟩⟦35⟧⟨326⟩
+[Seminole Nation of Oklahoma] ⟦212⟧⟨327⟩⟦124⟧⟨328⟩⟦10⟧⟨329⟩⟦246⟧⟨330⟩⟦225⟧⟨331⟩⟦165⟧⟨332⟩⟦124⟧⟨333⟩
+[Seminole Nation of Oklahoma] ⟨334⟩⟦220⟧⟨335⟩⟦77⟧⟨336⟩⟦214⟧⟨337⟩⟦71⟧⟨338⟩⟦191⟧⟨339⟩⟦88⟧⟨340⟩⟦71⟧⟨341⟩
+[Seminole Nation of Oklahoma] ⟦92⟧⟨342⟩⟦107⟧⟨343⟩⟦54⟧⟨344⟩⟦54⟧⟨345⟩⟦171⟧⟨346⟩⟦71⟧⟨347⟩⟦87⟧⟨348⟩⟦8⟧⟨349⟩⟦208⟧⟨350⟩
+[Seminole Nation of Oklahoma] ⟦212⟧⟨351⟩⟦124⟧⟨352⟩⟦259⟧⟨353⟩⟦154⟧⟨354⟩⟦124⟧⟨355⟩
+[Seminole Nation of Oklahoma] ⟨356⟩⟦60⟧⟨357⟩⟦107⟧⟨358⟩⟦218⟧⟨359⟩⟦165⟧⟨360⟩⟦124⟧⟨361⟩
+[Seminole Nation of Oklahoma] ⟦223⟧⟨362⟩⟦246⟧⟨363⟩⟦91⟧⟨364⟩⟦76⟧⟨365⟩⟦186⟧⟨366⟩
+[Seminole Nation of Oklahoma] ⟨367⟩⟦93⟧⟨368⟩⟦147⟧⟨369⟩⟦243⟧⟨370⟩⟦222⟧⟨371⟩⟦31⟧⟨372⟩⟦154⟧⟨373⟩⟦124⟧⟨374⟩⟦21⟧⟨375⟩⟦252⟧⟨376⟩⟦142⟧⟨377⟩⟦142⟧⟨378⟩
+[Black Seminoles] ⟦175⟧⟨379⟩⟦37⟧⟨380⟩⟦213⟧⟨381⟩⟦132⟧⟨382⟩⟦71⟧⟨383⟩⟦124⟧⟨384⟩
+[Black Seminoles] ⟨385⟩⟦179⟧⟨386⟩⟦54⟧⟨387⟩⟦73⟧⟨388⟩⟦39⟧⟨389⟩⟦61⟧⟨390⟩⟦161⟧⟨391⟩⟦40⟧⟨392⟩⟦103⟧⟨393⟩⟦155⟧⟨394⟩⟦79⟧⟨395⟩⟦164⟧⟨396⟩
+[Black Seminoles] ⟨397⟩⟦175⟧⟨398⟩⟦57⟧⟨399⟩⟦34⟧⟨400⟩⟦196⟧⟨401⟩
+[Black Seminoles] ⟨402⟩⟦161⟧⟨403⟩⟦161⟧⟨404⟩⟦131⟧⟨405⟩⟦98⟧⟨406⟩⟦116⟧⟨407⟩⟦74⟧⟨408⟩⟦161⟧⟨409⟩⟦161⟧⟨410⟩⟦260⟧⟨411⟩⟦260⟧⟨412⟩⟦215⟧⟨413⟩⟦128⟧⟨414⟩⟦247⟧⟨415⟩⟦207⟧⟨416⟩⟦148⟧⟨417⟩⟦32⟧⟨418⟩⟦32⟧⟨419⟩
+
+[user]
+
+问题：
+Where did the descendants of the group of black Indians associated with the Seminole people settle?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

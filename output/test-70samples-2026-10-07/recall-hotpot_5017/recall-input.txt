@@ -1,0 +1,392 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = .500 basketball
+⟦2⟧ = (Georgian
+⟦3⟧ = 1.4 assists
+⟦4⟧ = 17.5 points
+⟦5⟧ = 18th
+⟦6⟧ = 2017 editions
+⟦7⟧ = 23.0 points
+⟦8⟧ = 26 games
+⟦9⟧ = 2nd
+⟦10⟧ = 31 losses
+⟦11⟧ = 38th season
+⟦12⟧ = 3rd
+⟦13⟧ = 4.1 points
+⟦14⟧ = 40th season
+⟦15⟧ = 41 wins
+⟦16⟧ = 47.5% shooting
+⟦17⟧ = 5 games
+⟦18⟧ = 8 games
+⟦19⟧ = 94–84
+⟦20⟧ = a 2-point victory
+⟦21⟧ = a 26–56 record
+⟦22⟧ = a 30–52 record
+⟦23⟧ = a 37–45 record
+⟦24⟧ = a 99–98 victory
+⟦25⟧ = a basketball scholarship
+⟦26⟧ = a co
+⟦27⟧ = a former professional hockey team
+⟦28⟧ = a free agent
+⟦29⟧ = a game
+⟦30⟧ = a Georgian professional basketball player
+⟦31⟧ = a heart attack
+⟦32⟧ = a member
+⟦33⟧ = a neck injury
+⟦34⟧ = a professional basketball team
+⟦35⟧ = a record
+⟦36⟧ = a six-game losing streak
+⟦37⟧ = a sluggish start
+⟦38⟧ = a team
+⟦39⟧ = a win
+⟦40⟧ = agent
+⟦41⟧ = agents
+⟦42⟧ = Al Horford
+⟦43⟧ = an 8-game losing streak
+⟦44⟧ = an American businessman
+⟦45⟧ = an American former NBA basketball player
+⟦46⟧ = an American professional basketball team
+⟦47⟧ = an ankle injury
+⟦48⟧ = an Atlanta, Georgia-based parent company
+⟦49⟧ = an awful 2–16 start
+⟦50⟧ = an injured Bill Russell
+⟦51⟧ = an Italian professional basketball player
+⟦52⟧ = ankle
+⟦53⟧ = Anthony Johnson
+⟦54⟧ = assists
+⟦55⟧ = Atlanta
+⟦56⟧ = Atlanta Hawks
+⟦57⟧ = Atlanta Spirit
+⟦58⟧ = Atlanta Spirit LLC
+⟦59⟧ = attack
+⟦60⟧ = baseball
+⟦61⟧ = basketball
+⟦62⟧ = Bill Russell
+⟦63⟧ = Bob Pettit
+⟦64⟧ = break
+⟦65⟧ = Bruce Levenson
+⟦66⟧ = Bucks
+⟦67⟧ = businessman
+⟦68⟧ = career
+⟦69⟧ = center
+⟦70⟧ = center Jason Collier
+⟦71⟧ = champion
+⟦72⟧ = championship
+⟦73⟧ = Charlotte Bobcats
+⟦74⟧ = co
+⟦75⟧ = coach
+⟦76⟧ = college
+⟦77⟧ = company
+⟦78⟧ = control
+⟦79⟧ = Danny Ferry
+⟦80⟧ = December
+⟦81⟧ = draft
+⟦82⟧ = editions
+⟦83⟧ = eight straight seasons
+⟦84⟧ = expansion
+⟦85⟧ = feat
+⟦86⟧ = February
+⟦87⟧ = field
+⟦88⟧ = five names
+⟦89⟧ = Florida
+⟦90⟧ = former NBA team owner
+⟦91⟧ = formerly Atlanta Spirit LLC
+⟦92⟧ = franchise
+⟦93⟧ = free agent Zaza Pachulia
+⟦94⟧ = free agents
+⟦95⟧ = freshmen
+⟦96⟧ = game
+⟦97⟧ = games
+⟦98⟧ = gate
+⟦99⟧ = Georgia
+⟦100⟧ = Governors
+⟦101⟧ = guard
+⟦102⟧ = head
+⟦103⟧ = head coach Terry Porter
+⟦104⟧ = heart
+⟦105⟧ = his college basketball career
+⟦106⟧ = his first name
+⟦107⟧ = his first NBA Championship
+⟦108⟧ = his freshmen year
+⟦109⟧ = hockey
+⟦110⟧ = holder
+⟦111⟧ = home
+⟦112⟧ = Horford
+⟦113⟧ = inception
+⟦114⟧ = Injuries
+⟦115⟧ = injury
+⟦116⟧ = its home games
+⟦117⟧ = its inception
+⟦118⟧ = James
+⟦119⟧ = Joe Johnson
+⟦120⟧ = Josh Childress
+⟦121⟧ = Jules Peter "Skip" Harlicka
+⟦122⟧ = Keith Van Horn
+⟦123⟧ = Kings
+⟦124⟧ = last place
+⟦125⟧ = Levenson
+⟦126⟧ = LLC
+⟦127⟧ = lockout
+⟦128⟧ = Lorenzen Wright
+⟦129⟧ = losing
+⟦130⟧ = losses
+⟦131⟧ = manager
+⟦132⟧ = March
+⟦133⟧ = Marco Stefano Belinelli
+⟦134⟧ = Marvin Williams
+⟦135⟧ = match
+⟦136⟧ = member
+⟦137⟧ = Michael Redd
+⟦138⟧ = midseason
+⟦139⟧ = Mike Bibby
+⟦140⟧ = Mike James
+⟦141⟧ = name
+⟦142⟧ = names
+⟦143⟧ = NBA
+⟦144⟧ = NBL
+⟦145⟧ = neck
+⟦146⟧ = October
+⟦147⟧ = offseason
+⟦148⟧ = one more win
+⟦149⟧ = one season
+⟦150⟧ = opener
+⟦151⟧ = owner
+⟦152⟧ = owner Ben Kerner
+⟦153⟧ = Pachulia
+⟦154⟧ = parent
+⟦155⟧ = philanthropist
+⟦156⟧ = Philips Arena
+⟦157⟧ = pick
+⟦158⟧ = place
+⟦159⟧ = player
+⟦160⟧ = playoffs
+⟦161⟧ = point
+⟦162⟧ = points
+⟦163⟧ = preseason
+⟦164⟧ = present
+⟦165⟧ = record
+⟦166⟧ = round
+⟦167⟧ = Russell
+⟦168⟧ = San Antonio Spurs
+⟦169⟧ = scholarship
+⟦170⟧ = scoring
+⟦171⟧ = season
+⟦172⟧ = seasons
+⟦173⟧ = second-year forward Shelden Williams
+⟦174⟧ = second-year guard Mo Williams
+⟦175⟧ = second-year guard T.J. Ford
+⟦176⟧ = series
+⟦177⟧ = seven games
+⟦178⟧ = shooting
+⟦179⟧ = Skip
+⟦180⟧ = South Carolina
+⟦181⟧ = spot
+⟦182⟧ = St. Louis
+⟦183⟧ = start
+⟦184⟧ = streak
+⟦185⟧ = struggles
+⟦186⟧ = such a feat
+⟦187⟧ = team
+⟦188⟧ = teams
+⟦189⟧ = the 12th season
+⟦190⟧ = the 13th pick
+⟦191⟧ = the 1957 NBA Finals
+⟦192⟧ = The 1957–58 NBA season
+⟦193⟧ = the 1968 NBA Draft
+⟦194⟧ = the 1999 lockout season
+⟦195⟧ = The 2004–05 NBA season
+⟦196⟧ = the 2005 NBA draft
+⟦197⟧ = The 2005–06 NBA season
+⟦198⟧ = the 2006 FIBA World Championship
+⟦199⟧ = the 2007 NBA draft
+⟦200⟧ = The 2007–08 NBA season
+⟦201⟧ = the 2008 NBA All-Star Game
+⟦202⟧ = the 2014 NBA All-Star Weekend
+⟦203⟧ = the 5th match
+⟦204⟧ = the All-First Rookie Team
+⟦205⟧ = the All-Star break
+⟦206⟧ = The Atlanta Hawks
+⟦207⟧ = the Atlanta Hawks basketball team
+⟦208⟧ = the Atlanta Hawks' 57th season
+⟦209⟧ = the Atlanta Hawks' 59th season
+⟦210⟧ = The Atlanta Spirit LLC name
+⟦211⟧ = the Atlanta Thrashers
+⟦212⟧ = the Boston Celtics
+⟦213⟧ = the Bucks
+⟦214⟧ = the Bucks' 37th season
+⟦215⟧ = the Buffalo Bisons
+⟦216⟧ = the Celtics
+⟦217⟧ = the Central Division
+⟦218⟧ = the Dallas Mavericks
+⟦219⟧ = the defending champion
+⟦220⟧ = the Detroit Pistons
+⟦221⟧ = the Eastern Conference
+⟦222⟧ = the entire season
+⟦223⟧ = the expansion
+⟦224⟧ = the FIBA EuroBasket
+⟦225⟧ = the field
+⟦226⟧ = the first Italian player
+⟦227⟧ = the first round
+⟦228⟧ = the first time
+⟦229⟧ = the franchise
+⟦230⟧ = the franchise's third
+⟦231⟧ = the gate
+⟦232⟧ = the Golden State Warriors
+⟦233⟧ = The Hawks
+⟦234⟧ = the Hawks' Governor
+⟦235⟧ = the holder
+⟦236⟧ = the Houston Rockets
+⟦237⟧ = the Italian national basketball team
+⟦238⟧ = the Milwaukee Hawks
+⟦239⟧ = the National Basketball Association
+⟦240⟧ = the National Basketball League
+⟦241⟧ = the NBA
+⟦242⟧ = the NBA Board
+⟦243⟧ = the NBA championship
+⟦244⟧ = the NBA Finals
+⟦245⟧ = the NBA Three-Point Shootout
+⟦246⟧ = the NHL
+⟦247⟧ = the offseason
+⟦248⟧ = The only bright spot
+⟦249⟧ = the Philips Arena
+⟦250⟧ = the Phoenix Suns
+⟦251⟧ = the playoffs
+⟦252⟧ = the preseason
+⟦253⟧ = the previous season
+⟦254⟧ = the Sacramento Kings
+⟦255⟧ = the San Antonio Spurs
+⟦256⟧ = the season
+⟦257⟧ = the second overall pick
+⟦258⟧ = the second-year Charlotte Bobcats
+⟦259⟧ = the series
+⟦260⟧ = the Southeast Division
+⟦261⟧ = the St. Louis Hawks
+⟦262⟧ = the start
+⟦263⟧ = The team
+⟦264⟧ = the teams
+⟦265⟧ = the third pick
+⟦266⟧ = the top-seeded Boston Celtics
+⟦267⟧ = the Tri-Cities Blackhawks
+⟦268⟧ = the University
+⟦269⟧ = the Warriors
+⟦270⟧ = the Western Division
+⟦271⟧ = the Western Finals
+⟦272⟧ = the worst record
+⟦273⟧ = their final 18 games
+⟦274⟧ = their first 22 games
+⟦275⟧ = their first game
+⟦276⟧ = their first NBA Championship
+⟦277⟧ = their first nine games
+⟦278⟧ = their general manager
+⟦279⟧ = their next seven games
+⟦280⟧ = their only NBA championship
+⟦281⟧ = their season opener
+⟦282⟧ = their struggles
+⟦283⟧ = their trip
+⟦284⟧ = their way
+⟦285⟧ = their win
+⟦286⟧ = third
+⟦287⟧ = time
+⟦288⟧ = total
+⟦289⟧ = tragedy
+⟦290⟧ = trip
+⟦291⟧ = Tyronn Lue
+⟦292⟧ = victory
+⟦293⟧ = Warriors
+⟦294⟧ = way
+⟦295⟧ = win
+⟦296⟧ = wins
+⟦297⟧ = year
+⟦298⟧ = Zaur Pachulia
+⟦299⟧ = Zaza
+⟦300⟧ = Zaza Pachulia
+⟦301⟧ = ზაზა ფაჩულია
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[List of Atlanta Hawks head coaches] ⟦206⟧⟨1⟩⟦46⟧⟨2⟩⟦61⟧⟨3⟩⟦187⟧⟨4⟩⟦55⟧⟨5⟩⟦99⟧⟨6⟩
+[List of Atlanta Hawks head coaches] ⟨7⟩⟦260⟧⟨8⟩⟦221⟧⟨9⟩⟦239⟧⟨10⟩⟦143⟧⟨11⟩
+[List of Atlanta Hawks head coaches] ⟦263⟧⟨12⟩⟦187⟧⟨13⟩⟦32⟧⟨14⟩⟦136⟧⟨15⟩⟦240⟧⟨16⟩⟦144⟧⟨17⟩⟦241⟧⟨18⟩
+[List of Atlanta Hawks head coaches] ⟦263⟧⟨19⟩⟦187⟧⟨20⟩⟦88⟧⟨21⟩⟦142⟧⟨22⟩⟦117⟧⟨23⟩⟦113⟧⟨24⟩⟦215⟧⟨25⟩⟦267⟧⟨26⟩⟦238⟧⟨27⟩⟦261⟧⟨28⟩⟦206⟧⟨29⟩⟦164⟧⟨30⟩⟦164⟧⟨31⟩
+[List of Atlanta Hawks head coaches] ⟦233⟧⟨32⟩⟦280⟧⟨33⟩⟦72⟧⟨34⟩⟦244⟧⟨35⟩
+[List of Atlanta Hawks head coaches] ⟦263⟧⟨36⟩⟦187⟧⟨37⟩⟦116⟧⟨38⟩⟦111⟧⟨39⟩⟦97⟧⟨40⟩⟦249⟧⟨41⟩
+[List of Atlanta Hawks head coaches] ⟦233⟧⟨42⟩⟦57⟧⟨43⟩⟦126⟧⟨44⟩⟦79⟧⟨45⟩⟦278⟧⟨46⟩⟦131⟧⟨47⟩
+[Atlanta Hawks, LLC] ⟦56⟧⟨48⟩⟦126⟧⟨49⟩⟦58⟧⟨50⟩⟦48⟧⟨51⟩⟦154⟧⟨52⟩⟦77⟧⟨53⟩⟦235⟧⟨54⟩⟦110⟧⟨55⟩⟦229⟧⟨56⟩⟦92⟧⟨57⟩⟦206⟧⟨58⟩⟦34⟧⟨59⟩⟦61⟧⟨60⟩⟦187⟧⟨61⟩⟦241⟧⟨62⟩⟦211⟧⟨63⟩⟦27⟧⟨64⟩⟦109⟧⟨65⟩⟦187⟧⟨66⟩⟦246⟧⟨67⟩
+[Atlanta Hawks, LLC] ⟦210⟧⟨68⟩⟦141⟧⟨69⟩⟦56⟧⟨70⟩⟦126⟧⟨71⟩⟦132⟧⟨72⟩
+[Zaza Pachulia] ⟦300⟧⟨73⟩⟦2⟧⟨74⟩⟦301⟧⟨75⟩⟦86⟧⟨76⟩⟦30⟧⟨77⟩⟦61⟧⟨78⟩⟦159⟧⟨79⟩⟦232⟧⟨80⟩⟦239⟧⟨81⟩⟦143⟧⟨82⟩
+[Zaza Pachulia] ⟨83⟩⟦298⟧⟨84⟩⟦106⟧⟨85⟩⟦141⟧⟨86⟩⟦299⟧⟨87⟩
+[Zaza Pachulia] ⟨88⟩⟦153⟧⟨89⟩⟦107⟧⟨90⟩⟦32⟧⟨91⟩⟦136⟧⟨92⟩⟦269⟧⟨93⟩⟦293⟧⟨94⟩
+[2004–05 Milwaukee Bucks season] ⟦195⟧⟨95⟩⟦171⟧⟨96⟩⟦214⟧⟨97⟩⟦66⟧⟨98⟩⟦171⟧⟨99⟩⟦239⟧⟨100⟩
+[2004–05 Milwaukee Bucks season] ⟨101⟩⟦247⟧⟨102⟩⟦147⟧⟨103⟩⟦213⟧⟨104⟩⟦94⟧⟨105⟩⟦41⟧⟨106⟩⟦140⟧⟨107⟩⟦174⟧⟨108⟩⟦297⟧⟨109⟩⟦101⟧⟨110⟩⟦300⟧⟨111⟩⟦223⟧⟨112⟩⟦84⟧⟨113⟩⟦73⟧⟨114⟩
+[2004–05 Milwaukee Bucks season] ⟦114⟧⟨115⟩⟦213⟧⟨116⟩⟦262⟧⟨117⟩⟦183⟧⟨118⟩⟦175⟧⟨119⟩⟦297⟧⟨120⟩⟦101⟧⟨121⟩⟦222⟧⟨122⟩⟦171⟧⟨123⟩⟦33⟧⟨124⟩⟦145⟧⟨125⟩⟦115⟧⟨126⟩
+[2004–05 Milwaukee Bucks season] ⟦213⟧⟨127⟩⟦37⟧⟨128⟩⟦183⟧⟨129⟩⟦274⟧⟨130⟩⟦97⟧⟨131⟩
+[2004–05 Milwaukee Bucks season] ⟨132⟩⟦138⟧⟨133⟩⟦263⟧⟨134⟩⟦187⟧⟨135⟩⟦122⟧⟨136⟩⟦218⟧⟨137⟩⟦118⟧⟨138⟩⟦236⟧⟨139⟩
+[2004–05 Milwaukee Bucks season] ⟨140⟩⟦273⟧⟨141⟩⟦97⟧⟨142⟩⟦43⟧⟨143⟩⟦96⟧⟨144⟩⟦129⟧⟨145⟩⟦184⟧⟨146⟩⟦124⟧⟨147⟩⟦158⟧⟨148⟩⟦217⟧⟨149⟩⟦22⟧⟨150⟩⟦165⟧⟨151⟩
+[2004–05 Milwaukee Bucks season] ⟦248⟧⟨152⟩⟦181⟧⟨153⟩⟦137⟧⟨154⟩⟦38⟧⟨155⟩⟦187⟧⟨156⟩⟦7⟧⟨157⟩⟦162⟧⟨158⟩⟦96⟧⟨159⟩⟦96⟧⟨160⟩
+[2004–05 Milwaukee Bucks season] ⟨161⟩⟦256⟧⟨162⟩⟦171⟧⟨163⟩⟦102⟧⟨164⟩⟦103⟧⟨165⟩⟦75⟧⟨166⟩⟦153⟧⟨167⟩⟦28⟧⟨168⟩⟦40⟧⟨169⟩⟦206⟧⟨170⟩
+[Marco Belinelli] ⟦133⟧⟨171⟩⟦51⟧⟨172⟩⟦61⟧⟨173⟩⟦159⟧⟨174⟩⟦206⟧⟨175⟩⟦239⟧⟨176⟩⟦143⟧⟨177⟩
+[Marco Belinelli] ⟨178⟩⟦5⟧⟨179⟩⟦5⟧⟨180⟩⟦199⟧⟨181⟩⟦81⟧⟨182⟩⟦232⟧⟨183⟩
+[Marco Belinelli] ⟨184⟩⟦243⟧⟨185⟩⟦72⟧⟨186⟩⟦255⟧⟨187⟩⟦226⟧⟨188⟩⟦159⟧⟨189⟩⟦186⟧⟨190⟩⟦85⟧⟨191⟩
+[Marco Belinelli] ⟨192⟩⟦245⟧⟨193⟩⟦202⟧⟨194⟩
+[Marco Belinelli] ⟨195⟩⟦6⟧⟨196⟩⟦82⟧⟨197⟩⟦224⟧⟨198⟩⟦198⟧⟨199⟩⟦237⟧⟨200⟩⟦61⟧⟨201⟩⟦187⟧⟨202⟩
+[1957–58 St. Louis Hawks season] ⟦192⟧⟨203⟩⟦171⟧⟨204⟩⟦230⟧⟨205⟩⟦92⟧⟨206⟩⟦286⟧⟨207⟩⟦182⟧⟨208⟩⟦189⟧⟨209⟩⟦171⟧⟨210⟩⟦241⟧⟨211⟩
+[1957–58 St. Louis Hawks season] ⟨212⟩⟦283⟧⟨213⟩⟦290⟧⟨214⟩⟦191⟧⟨215⟩⟦233⟧⟨216⟩⟦270⟧⟨217⟩⟦18⟧⟨218⟩⟦97⟧⟨219⟩⟦35⟧⟨220⟩⟦165⟧⟨221⟩⟦15⟧⟨222⟩⟦296⟧⟨223⟩⟦10⟧⟨224⟩⟦130⟧⟨225⟩
+[1957–58 St. Louis Hawks season] ⟦63⟧⟨226⟩⟦162⟧⟨227⟩⟦50⟧⟨228⟩⟦233⟧⟨229⟩⟦151⟧⟨230⟩⟦152⟧⟨231⟩⟦276⟧⟨232⟩
+[1957–58 St. Louis Hawks season] ⟦63⟧⟨233⟩⟦12⟧⟨234⟩⟦12⟧⟨235⟩⟦170⟧⟨236⟩⟦170⟧⟨237⟩⟦9⟧⟨238⟩⟦9⟧⟨239⟩
+[1957–58 St. Louis Hawks season] ⟨240⟩⟦271⟧⟨241⟩⟦233⟧⟨242⟩⟦220⟧⟨243⟩⟦17⟧⟨244⟩⟦97⟧⟨245⟩
+[1957–58 St. Louis Hawks season] ⟦233⟧⟨246⟩⟦212⟧⟨247⟩⟦244⟧⟨248⟩
+[1957–58 St. Louis Hawks season] ⟨249⟩⟦97⟧⟨250⟩⟦264⟧⟨251⟩⟦188⟧⟨252⟩⟦182⟧⟨253⟩⟦259⟧⟨254⟩⟦176⟧⟨255⟩⟦29⟧⟨256⟩⟦96⟧⟨257⟩
+[1957–58 St. Louis Hawks season] ⟦233⟧⟨258⟩⟦96⟧⟨259⟩⟦216⟧⟨260⟩⟦62⟧⟨261⟩⟦47⟧⟨262⟩⟦52⟧⟨263⟩⟦115⟧⟨264⟩
+[1957–58 St. Louis Hawks season] ⟨265⟩⟦167⟧⟨266⟩⟦216⟧⟨267⟩⟦96⟧⟨268⟩
+[1957–58 St. Louis Hawks season] ⟦233⟧⟨269⟩⟦20⟧⟨270⟩⟦161⟧⟨271⟩⟦292⟧⟨272⟩⟦203⟧⟨273⟩⟦135⟧⟨274⟩⟦78⟧⟨275⟩⟦78⟧⟨276⟩⟦259⟧⟨277⟩⟦176⟧⟨278⟩
+[1957–58 St. Louis Hawks season] ⟨279⟩⟦148⟧⟨280⟩⟦295⟧⟨281⟩⟦276⟧⟨282⟩⟦233⟧⟨283⟩
+[Bruce Levenson] ⟦65⟧⟨284⟩⟦44⟧⟨285⟩⟦67⟧⟨286⟩⟦90⟧⟨287⟩⟦187⟧⟨288⟩⟦151⟧⟨289⟩⟦155⟧⟨290⟩⟦155⟧⟨291⟩
+[Bruce Levenson] ⟨292⟩⟦26⟧⟨293⟩⟦74⟧⟨294⟩⟦151⟧⟨295⟩⟦151⟧⟨296⟩⟦56⟧⟨297⟩⟦126⟧⟨298⟩⟦91⟧⟨299⟩⟦207⟧⟨300⟩⟦61⟧⟨301⟩⟦187⟧⟨302⟩⟦156⟧⟨303⟩
+[Bruce Levenson] ⟦125⟧⟨304⟩⟦234⟧⟨305⟩⟦242⟧⟨306⟩⟦100⟧⟨307⟩
+[Skip Harlicka] ⟦121⟧⟨308⟩⟦45⟧⟨309⟩⟦61⟧⟨310⟩⟦159⟧⟨311⟩⟦206⟧⟨312⟩
+[Skip Harlicka] ⟦179⟧⟨313⟩⟦268⟧⟨314⟩⟦180⟧⟨315⟩⟦25⟧⟨316⟩⟦61⟧⟨317⟩⟦169⟧⟨318⟩⟦60⟧⟨319⟩⟦60⟧⟨320⟩⟦108⟧⟨321⟩⟦95⟧⟨322⟩⟦297⟧⟨323⟩
+[Skip Harlicka] ⟨324⟩⟦105⟧⟨325⟩⟦76⟧⟨326⟩⟦61⟧⟨327⟩⟦68⟧⟨328⟩⟦179⟧⟨329⟩⟦4⟧⟨330⟩⟦162⟧⟨331⟩⟦96⟧⟨332⟩⟦96⟧⟨333⟩⟦16⟧⟨334⟩⟦178⟧⟨335⟩⟦225⟧⟨336⟩⟦87⟧⟨337⟩
+[Skip Harlicka] ⟦179⟧⟨338⟩⟦190⟧⟨339⟩⟦157⟧⟨340⟩⟦193⟧⟨341⟩⟦206⟧⟨342⟩
+[Skip Harlicka] ⟨343⟩⟦149⟧⟨344⟩⟦171⟧⟨345⟩⟦233⟧⟨346⟩⟦8⟧⟨347⟩⟦97⟧⟨348⟩⟦13⟧⟨349⟩⟦162⟧⟨350⟩⟦96⟧⟨351⟩⟦96⟧⟨352⟩⟦3⟧⟨353⟩⟦54⟧⟨354⟩⟦96⟧⟨355⟩⟦96⟧⟨356⟩
+[2007–08 Atlanta Hawks season] ⟦200⟧⟨357⟩⟦171⟧⟨358⟩⟦209⟧⟨359⟩⟦171⟧⟨360⟩⟦239⟧⟨361⟩⟦14⟧⟨362⟩⟦171⟧⟨363⟩⟦55⟧⟨364⟩
+[2007–08 Atlanta Hawks season] ⟨365⟩⟦251⟧⟨366⟩⟦160⟧⟨367⟩⟦83⟧⟨368⟩⟦172⟧⟨369⟩⟦233⟧⟨370⟩⟦42⟧⟨371⟩⟦268⟧⟨372⟩⟦89⟧⟨373⟩⟦265⟧⟨374⟩⟦157⟧⟨375⟩⟦199⟧⟨376⟩⟦81⟧⟨377⟩
+[2007–08 Atlanta Hawks season] ⟦233⟧⟨378⟩⟦256⟧⟨379⟩⟦171⟧⟨380⟩⟦218⟧⟨381⟩⟦281⟧⟨382⟩⟦171⟧⟨383⟩⟦150⟧⟨384⟩⟦228⟧⟨385⟩⟦287⟧⟨386⟩⟦275⟧⟨387⟩⟦96⟧⟨388⟩⟦256⟧⟨389⟩⟦171⟧⟨390⟩⟦194⟧⟨391⟩⟦127⟧⟨392⟩⟦171⟧⟨393⟩
+[2007–08 Atlanta Hawks season] ⟨394⟩⟦282⟧⟨395⟩⟦185⟧⟨396⟩⟦36⟧⟨397⟩⟦96⟧⟨398⟩⟦129⟧⟨399⟩⟦184⟧⟨400⟩⟦205⟧⟨401⟩⟦64⟧⟨402⟩
+[2007–08 Atlanta Hawks season] ⟨403⟩⟦138⟧⟨404⟩⟦233⟧⟨405⟩⟦291⟧⟨406⟩⟦128⟧⟨407⟩⟦53⟧⟨408⟩⟦173⟧⟨409⟩⟦297⟧⟨410⟩⟦254⟧⟨411⟩⟦123⟧⟨412⟩⟦139⟧⟨413⟩
+[2007–08 Atlanta Hawks season] ⟦233⟧⟨414⟩⟦260⟧⟨415⟩⟦23⟧⟨416⟩⟦165⟧⟨417⟩⟦251⟧⟨418⟩⟦160⟧⟨419⟩⟦228⟧⟨420⟩⟦287⟧⟨421⟩
+[2007–08 Atlanta Hawks season] ⟦119⟧⟨422⟩⟦201⟧⟨423⟩⟦112⟧⟨424⟩⟦204⟧⟨425⟩
+[2007–08 Atlanta Hawks season] ⟨426⟩⟦227⟧⟨427⟩⟦166⟧⟨428⟩⟦251⟧⟨429⟩⟦160⟧⟨430⟩⟦266⟧⟨431⟩⟦177⟧⟨432⟩⟦97⟧⟨433⟩
+[2007–08 Atlanta Hawks season] ⟨434⟩⟦256⟧⟨435⟩⟦171⟧⟨436⟩⟦120⟧⟨437⟩
+[2005–06 Atlanta Hawks season] ⟦197⟧⟨438⟩⟦171⟧⟨439⟩⟦208⟧⟨440⟩⟦171⟧⟨441⟩⟦239⟧⟨442⟩⟦11⟧⟨443⟩⟦171⟧⟨444⟩⟦55⟧⟨445⟩
+[2005–06 Atlanta Hawks season] ⟨446⟩⟦253⟧⟨447⟩⟦171⟧⟨448⟩⟦272⟧⟨449⟩⟦165⟧⟨450⟩⟦233⟧⟨451⟩⟦134⟧⟨452⟩⟦257⟧⟨453⟩⟦157⟧⟨454⟩⟦196⟧⟨455⟩⟦81⟧⟨456⟩
+[2005–06 Atlanta Hawks season] ⟨457⟩⟦247⟧⟨458⟩⟦147⟧⟨459⟩⟦263⟧⟨460⟩⟦187⟧⟨461⟩⟦119⟧⟨462⟩⟦250⟧⟨463⟩⟦93⟧⟨464⟩⟦40⟧⟨465⟩
+[2005–06 Atlanta Hawks season] ⟨466⟩⟦289⟧⟨467⟩⟦289⟧⟨468⟩⟦69⟧⟨469⟩⟦70⟧⟨470⟩⟦31⟧⟨471⟩⟦104⟧⟨472⟩⟦59⟧⟨473⟩⟦252⟧⟨474⟩⟦163⟧⟨475⟩⟦146⟧⟨476⟩
+[2005–06 Atlanta Hawks season] ⟦233⟧⟨477⟩⟦231⟧⟨478⟩⟦98⟧⟨479⟩⟦277⟧⟨480⟩⟦97⟧⟨481⟩⟦284⟧⟨482⟩⟦294⟧⟨483⟩⟦49⟧⟨484⟩⟦183⟧⟨485⟩
+[2005–06 Atlanta Hawks season] ⟨486⟩⟦80⟧⟨487⟩⟦279⟧⟨488⟩⟦97⟧⟨489⟩⟦39⟧⟨490⟩⟦295⟧⟨491⟩⟦219⟧⟨492⟩⟦71⟧⟨493⟩⟦168⟧⟨494⟩⟦19⟧⟨495⟩⟦80⟧⟨496⟩
+[2005–06 Atlanta Hawks season] ⟦233⟧⟨497⟩⟦1⟧⟨498⟩⟦61⟧⟨499⟩⟦86⟧⟨500⟩⟦24⟧⟨501⟩⟦292⟧⟨502⟩⟦220⟧⟨503⟩⟦86⟧⟨504⟩
+[2005–06 Atlanta Hawks season] ⟦233⟧⟨505⟩⟦285⟧⟨506⟩⟦295⟧⟨507⟩⟦288⟧⟨508⟩⟦124⟧⟨509⟩⟦158⟧⟨510⟩⟦260⟧⟨511⟩⟦21⟧⟨512⟩⟦165⟧⟨513⟩⟦258⟧⟨514⟩⟦297⟧⟨515⟩
+
+[user]
+
+问题：
+Did Zaza Pachulia win an NBA Championship with the Atlanta Hawks?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

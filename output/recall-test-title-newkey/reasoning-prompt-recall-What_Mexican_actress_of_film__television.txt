@@ -1,0 +1,91 @@
+拓扑链（符号化表示，占位符 ⟨A⟩、⟨B⟩ 等代表非名词内容，原文不可见）：
+[Angélica Vale] ⟦42⟧⟨A⟩⟦49⟧⟨B⟩⟦140⟧⟨C⟩⟨D⟩⟨E⟩⟨F⟩⟨G⟩ | ⟦42⟧
+[Angélica Vale] ⟨T⟩⟨U⟩⟨V⟩⟦202⟧⟦149⟧⟨[⟩⟨\⟩⟦6⟧⟨]⟩⟦10⟧
+[Angélica Vale] ⟦173⟧
+[La heredera] ⟦102⟧⟨ĝ⟩⟦193⟧⟨Ğ⟩⟦20⟧⟨ğ⟩⟨Ġ⟩
+[La heredera] ⟦204⟧⟦167⟧⟨ĩ⟩⟨Ī⟩⟦38⟧⟨ī⟩⟦210⟧⟦219⟧⟨Ĭ⟩⟨ĭ⟩⟦36⟧⟨Į⟩
+[Rita Macedo] ⟦37⟧
+[Gabriel Porras] ⟦128⟧
+[Gabriel Porras] ⟦223⟧
+[Marlene Favela] ⟦127⟧⟦19⟧⟦32⟧ | ⟦32⟧
+[Marlene Favela] ⟦222⟧
+
+符号表：
+⟦6⟧ = "La Fea Más Bella
+⟦10⟧ = ("The Prettiest Ugly Girl
+⟦19⟧ = a Mexican actress
+⟦20⟧ = a Mexican telenovela
+⟦32⟧ = actress
+⟦36⟧ = American Heiress
+⟦37⟧ = an actress
+⟦38⟧ = an American telenovela
+⟦42⟧ = Angélica Vale
+⟦49⟧ = born Angélica María Vale Hartman
+⟦102⟧ = La Heredera
+⟦127⟧ = Mexico
+⟦128⟧ = Mexico City
+⟦140⟧ = November
+⟦149⟧ = protagonist
+⟦167⟧ = series
+⟦173⟧ = singer
+⟦193⟧ = The Heiress
+⟦202⟧ = the protagonist
+⟦204⟧ = The series
+⟦210⟧ = the title
+⟦219⟧ = title
+⟦222⟧ = TV
+⟦223⟧ = TV Azteca
+
+占位符映射：
+⟨A⟩ =  (
+⟨B⟩ =  on 
+⟨C⟩ =  11, 1975 in 
+⟨D⟩ = , 
+⟨E⟩ = ) is 
+⟨F⟩ = 
+⟨G⟩ = , 
+⟨T⟩ =  She has been working as 
+⟨U⟩ = 
+⟨V⟩ =  for 
+⟨[⟩ = 
+⟨\⟩ =  of 
+⟨]⟩ = " 
+⟨ĝ⟩ =  (
+⟨Ğ⟩ = ) is 
+⟨ğ⟩ =  produced by 
+⟨Ġ⟩ = 
+⟨ĩ⟩ = 
+⟨Ī⟩ =  was then developed into 
+⟨ī⟩ =  by 
+⟨Ĭ⟩ = 
+⟨ĭ⟩ =  of "
+⟨Į⟩ = ".
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What Mexican actress of film, television, and theatre was a protagonist in La Heredera?

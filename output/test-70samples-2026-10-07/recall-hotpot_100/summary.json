@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_100",
+  "question": "Where did the descendants of the group of black Indians associated with the Seminole people settle?",
+  "expectedAnswer": "Coahuila, Mexico",
+  "predictedAnswer": "# 路径一：从 Black Seminoles 条目直接追踪定居地\n\n步骤1：使用⟦37⟧⟦213⟧，提取“black Indians”与“the Seminole people”的关联，确认该群体即 Black Seminoles。\n\n步骤2：综合⟦179⟧⟦54⟧，提取“the descendants”与“descendants”的对应关系，锁定问题所问的“descendants of the group”。\n\n步骤3：使用⟦59⟧，提取“El Nacimiento”作为定居地；再结合⟦120⟧，提取“Múzquiz Municipality”作为其行政归属。\n\n结论：该群体后裔定居于墨西哥科阿韦拉州穆斯基斯市的 El Nacimiento。⟦59⟧⟦120⟧\n\n# 路径二：从 Mascogos 条目交叉验证\n\n步骤1：使用⟦189⟧⟦104⟧，提取“The Mascogos”又称“mascagos”，确认其为一个群体。\n\n步骤2：综合⟦28⟧⟦25⟧，提取“an afrodescendant group”与“afrodescendant”，确认其非裔后裔身份。\n\n步骤3：使用⟦47⟧⟦109⟧，提取“Coahuila”与“Mexico”，确认其定居国家与州。\n\n步骤4：综合⟦59⟧⟦120⟧，提取“El Nacimiento”与“Múzquiz Municipality”，确认具体定居点。\n\n结论：Mascogos 作为非裔后裔群体，定居于墨西哥科阿韦拉州穆斯基斯市的 El Nacimiento。⟦47⟧⟦59⟧⟦109⟧⟦120⟧\n\n# 路径三：从 Black Seminoles 条目中的迁徙与定居线索\n\n步骤1：使用⟦71⟧⟦164⟧，提取“Florida”与“Spanish Florida”，确认其原居地。\n\n步骤2：综合⟦61⟧⟦103⟧⟦40⟧，提取“escaped slaves”“maroons”“called maroons”，确认其逃亡与混血群体身份。\n\n步骤3：使用⟦124⟧，提取“Oklahoma”，确认部分后裔定居于美国俄克拉荷马州。\n\n步骤4：综合⟦59⟧⟦120⟧，提取“El Nacimiento”与“Múzquiz Municipality”，确认另一支后裔定居于墨西哥科阿韦拉州。\n\n结论：Black Seminoles 后裔分两支定居：一支在墨西哥科阿韦拉州穆斯基斯市的 El Nacimiento，另一支在美国俄克拉荷马州。⟦59⟧⟦120⟧⟦124⟧\n\n# 路径四：从 Mascogos 条目中的威胁与定居地关联\n\n步骤1：使用⟦219⟧⟦241⟧，提取“the threat”与“threat”，确认该群体面临外部威胁。\n\n步骤2：综合⟦221⟧⟦244⟧，提取“the town”与“town”，确认其定居于某城镇。\n\n步骤3：使用⟦59⟧，提取“El Nacimiento”作为该城镇名称。\n\n步骤4：综合⟦47⟧⟦109⟧，提取“Coahuila”与“Mexico”，确认其所在州与国家。\n\n结论：Mascogos 后裔定居于墨西哥科阿韦拉州的 El Nacimiento 镇。⟦47⟧⟦59⟧⟦109⟧⟦221⟧⟦244⟧",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨379⟩⟦37⟧⟨380⟩⟦213⟧⟦132⟧⟨381⟩⟨382⟩⟦71⟧⟨383⟩⟦124⟧⟨384⟩⟦175⟧",
+  "nounCount": 400,
+  "score": 0.5,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6372,
+    "completion_tokens": 321,
+    "total_tokens": 6693,
+    "prompt_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "prompt_cache_hit_tokens": 6144,
+    "prompt_cache_miss_tokens": 228
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1189,
+    "completion_tokens": 777,
+    "total_tokens": 1966,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1189
+  }
+}

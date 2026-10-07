@@ -1,0 +1,107 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[James Norman Hall] ⟦99⟧⟨103⟩⟦34⟧⟨104⟩⟦104⟧⟨105⟩⟦22⟧⟨106⟩⟨107⟩⟦165⟧⟨108⟩⟨109⟩⟦3⟧⟨110⟩⟦152⟧⟨111⟩⟦51⟧⟦52⟧⟨112⟩⟨114⟩⟨113⟩ | ⟦99⟧
+[James Norman Hall] ⟨115⟩⟦181⟧⟨116⟩⟦84⟧⟨117⟩⟦155⟧⟦63⟧⟨118⟩⟨119⟩⟦162⟧⟦115⟧⟨120⟩⟨121⟩⟦172⟧⟦19⟧⟨122⟩⟨123⟩⟦83⟧⟨124⟩⟦28⟧⟦97⟧⟨125⟩⟨126⟩⟦79⟧⟨127⟩⟦107⟧⟨128⟩
+[Adolfo Bioy Casares] ⟦17⟧⟨211⟩⟦135⟧⟨212⟩⟦112⟧⟨213⟩⟦24⟧⟨215⟩⟨214⟩⟨216⟩⟦102⟧⟦102⟧⟨217⟩⟨218⟩⟦175⟧⟦175⟧⟨219⟩⟨220⟩
+[Adolfo Bioy Casares] ⟦75⟧ | ⟦39⟧⟦39⟧
+[The Invention of Morel] ⟦182⟧ | ⟦123⟧
+
+符号表：
+⟦3⟧ = "Mutiny
+⟦17⟧ = Adolfo Bioy Casares
+⟦19⟧ = allies
+⟦22⟧ = an American author
+⟦24⟧ = an Argentine fiction writer
+⟦28⟧ = an infantryman
+⟦34⟧ = April
+⟦39⟧ = author
+⟦51⟧ = co
+⟦52⟧ = co-author Charles Nordhoff
+⟦63⟧ = distinction
+⟦75⟧ = fiction
+⟦79⟧ = France
+⟦83⟧ = Great Britain
+⟦84⟧ = Hall
+⟦97⟧ = infantryman
+⟦99⟧ = James Norman Hall
+⟦102⟧ = journalist
+⟦104⟧ = July
+⟦107⟧ = later the United States
+⟦112⟧ = March
+⟦115⟧ = militaries
+⟦123⟧ = novel
+⟦135⟧ = September
+⟦152⟧ = the Bounty
+⟦155⟧ = the distinction
+⟦162⟧ = the militaries
+⟦165⟧ = the novel
+⟦172⟧ = three Western allies
+⟦175⟧ = translator
+⟦181⟧ = World War I
+⟦182⟧ = writer
+
+占位符映射：
+⟨103⟩ =  (22 
+⟨104⟩ =  1887 – 5 
+⟨105⟩ =  1951) was 
+⟨106⟩ = 
+⟨107⟩ =  best known for 
+⟨108⟩ = 
+⟨109⟩ =  
+⟨110⟩ =  on 
+⟨111⟩ = " with 
+⟨112⟩ = 
+⟨113⟩ = 
+⟨114⟩ =  Charles Nordhoff.
+⟨115⟩ =  During 
+⟨116⟩ = , 
+⟨117⟩ =  had 
+⟨118⟩ = 
+⟨119⟩ =  of serving in 
+⟨120⟩ = 
+⟨121⟩ =  of 
+⟨122⟩ = 
+⟨123⟩ = : 
+⟨124⟩ =  as 
+⟨125⟩ = 
+⟨126⟩ =  and then flying for 
+⟨127⟩ =  and 
+⟨128⟩ = .
+⟨211⟩ =  (] ; 
+⟨212⟩ =  15, 1914 – 
+⟨213⟩ =  8, 1999) was 
+⟨214⟩ = 
+⟨215⟩ =  
+⟨216⟩ = , 
+⟨217⟩ = 
+⟨218⟩ = , and 
+⟨219⟩ = 
+⟨220⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+Are both Adolfo Bioy Casares and James Norman Hall Argentinian authors?

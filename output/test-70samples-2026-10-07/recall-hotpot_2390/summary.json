@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_2390",
+  "question": "What film studio produced both National Treasure and The Computer Wore Tennis Shoes?",
+  "expectedAnswer": "Walt Disney Pictures",
+  "predictedAnswer": "# 路径一：通过发行/制作公司直接匹配\n\n步骤1：使用⟦91⟧，提取“National Treasure”是一部2004年美国冒险盗宝电影。\n\n步骤2：综合⟦13⟧⟦25⟧⟦67⟧，确认该片类型为冒险、盗宝，属于National Treasure系列。\n\n步骤3：使用⟦221⟧，提取National Treasure由Walt Disney Pictures制作并发行。\n\n步骤4：使用⟦166⟧，提取The Computer Wore Tennis Shoes (1995 film)是一部1995年美国电视电影。\n\n步骤5：综合⟦168⟧⟦178⟧，提取该1995年版由Walt Disney Television制作。\n\n步骤6：使用⟦47⟧，确认The Computer Wore Tennis Shoes系列属于Disney。\n\n结论：National Treasure由Walt Disney Pictures制作发行，The Computer Wore Tennis Shoes (1995)由Walt Disney Television制作，两者同属Disney体系，因此答案是Walt Disney Pictures（或Disney）。\n\n# 路径二：通过系列归属与翻拍关系交叉验证\n\n步骤1：使用⟦10⟧，提取The Computer Wore Tennis Shoes是一部1969年美国喜剧电影。\n\n步骤2：综合⟦38⟧⟦75⟧⟦170⟧，提取1969年版由Cesar Romero、Joe Flynn、William Schallert等主演。\n\n步骤3：使用⟦20⟧⟦100⟧，确认1995年版是对1969年版的翻拍（remake）。\n\n步骤4：综合⟦166⟧⟦168⟧，提取1995年翻拍版由Walt Disney Television制作，属于Disney电视电影。\n\n步骤5：使用⟦91⟧⟦221⟧，提取National Treasure由Walt Disney Pictures制作并发行。\n\n步骤6：综合⟦47⟧⟦166⟧⟦221⟧，交叉验证：The Computer Wore Tennis Shoes系列归属Disney，National Treasure也由Disney制作发行。\n\n结论：两个电影系列均由Disney旗下公司制作，National Treasure由Walt Disney Pictures制作，The Computer Wore Tennis Shoes由Walt Disney Television制作，共同母公司为Disney。\n\n# 路径三：通过材料中的制作公司标签综合支撑\n\n步骤1：使用⟦221⟧，提取National Treasure“produced and released by Walt Disney Pictures”。\n\n步骤2：使用⟦168⟧，提取The Computer Wore Tennis Shoes (1995 film)与“Walt Disney Television”相关联。\n\n步骤3：综合⟦166⟧⟦168⟧⟦178⟧，提取1995年版由Walt Disney Television制作，且该片为Disney电视电影。\n\n步骤4：使用⟦47⟧，确认Disney为The Computer Wore Tennis Shoes的出品方。\n\n步骤5：综合⟦47⟧⟦221⟧，对比两个材料：National Treasure的出品方为Walt Disney Pictures，The Computer Wore Tennis Shoes的出品方为Disney/Walt Disney Television。\n\n结论：两部作品均由Disney旗下制片厂制作，具体为Walt Disney Pictures（National Treasure）和Walt Disney Television（The Computer Wore Tennis Shoes），因此共同制片厂为Walt Disney Pictures/Disney。",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟨1⟩⟨2⟩⟦10⟧⟨4⟩⟨3⟩⟨5⟩⟨6⟩⟦38⟧⟨7⟩⟦75⟧⟨8⟩⟦170⟧",
+  "nounCount": 263,
+  "score": 0.8,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 4337,
+    "completion_tokens": 282,
+    "total_tokens": 4619,
+    "prompt_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "prompt_cache_hit_tokens": 4096,
+    "prompt_cache_miss_tokens": 241
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 699,
+    "total_tokens": 1762,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1063
+  }
+}

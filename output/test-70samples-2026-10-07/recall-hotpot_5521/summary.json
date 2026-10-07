@@ -1,0 +1,36 @@
+{
+  "qid": "hotpot_5521",
+  "question": "What is the central institution of Cheyenne Indian tribal governance that Ehyophsta was not a member of?",
+  "expectedAnswer": "the Council of Forty-four",
+  "predictedAnswer": "# 路径一：从 Ehyophsta 的成员身份反推\n\n步骤1：使用⟦70⟧⟦2⟧⟦8⟧，提取 Ehyophsta 的身份信息——她是 Yellow-Haired Woman 的女儿，是一位夏延族女性。\n\n步骤2：综合⟦15⟧⟦119⟧，对比 Lean Bear 是某组织的成员，而 Ehyophsta 的条目中并未提及她属于该组织。\n\n步骤3：使用⟦17⟧⟦31⟧，提取 Ehyophsta 所属的组织是 Bad Faced Bull 领导的、完全由女性组成的秘密会社（secret society）。\n\n步骤4：综合⟦235⟧⟦100⟧⟦249⟧⟦188⟧，提取夏延族两个核心制度（two central institutions）分别是传统夏延印第安部落治理（traditional Cheyenne Indian tribal governance）和四十四人议会（Council of Forty-four）。\n\n结论：Ehyophsta 不属于的核心制度是传统夏延印第安部落治理（traditional Cheyenne Indian tribal governance），她所属的是女性秘密会社。\n\n# 路径二：从两个核心制度的对比排除\n\n步骤1：使用⟦235⟧⟦100⟧⟦249⟧⟦188⟧，提取夏延族两个核心制度为：传统夏延印第安部落治理 和 四十四人议会。\n\n步骤2：综合⟦253⟧⟦254⟧⟦255⟧⟦256⟧⟦257⟧⟦207⟧⟦258⟧⟦259⟧⟦191⟧⟦260⟧，提取四十四人议会（Council of Forty-four）是其中一个核心制度，另一个是军事会社（military societies），如 Dog Soldiers。\n\n步骤3：使用⟦82⟧⟦163⟧⟦162⟧，提取治理（governance）与会社（society/societies）的区分——治理是部落层面的制度，会社是军事/社会组织。\n\n步骤4：综合⟦17⟧⟦31⟧⟦45⟧⟦271⟧，Ehyophsta 所属的是 Bad Faced Bull 领导的女性秘密会社，属于会社类组织，而非部落治理机构。\n\n结论：Ehyophsta 不是其成员的核心制度是传统夏延印第安部落治理（traditional Cheyenne Indian tribal governance）。\n\n# 路径三：从材料结构交叉验证\n\n步骤1：使用⟦249⟧，提取“traditional Cheyenne Indian tribal governance”这一制度名称。\n\n步骤2：综合⟦235⟧⟦100⟧，确认这是夏延族两个核心制度之一，与四十四人议会并列。\n\n步骤3：使用⟦43⟧⟦277⟧⟦278⟧⟦279⟧⟦280⟧⟦281⟧⟦282⟧⟦283⟧，提取夏延军事会社（Cheyenne military societies）是另一个核心制度，与四十四人议会并列。\n\n步骤4：综合⟦17⟧⟦31⟧，Ehyophsta 是 Bad Faced Bull 领导的秘密会社成员，该会社由女性组成，属于军事/秘密会社范畴，而非部落治理机构。\n\n结论：Ehyophsta 不属于的核心制度是传统夏延印第安部落治理（traditional Cheyenne Indian tribal governance）。\n\n---\n\n**最终答案：traditional Cheyenne Indian tribal governance**",
+  "recallMode": "recall",
+  "recallValid": true,
+  "recallTruncation": "⟦70⟧⟨1⟩⟨2⟩⟦2⟧⟨3⟩⟨4⟩⟦8⟧⟦270⟧⟦270⟧⟨5⟩⟨6⟩⟦42⟧",
+  "nounCount": 365,
+  "score": 0.75,
+  "config": {
+    "MODEL": "deepseek-flash",
+    "recallThinking": false,
+    "reasoningThinking": false
+  },
+  "recallUsage": {
+    "prompt_tokens": 6297,
+    "completion_tokens": 390,
+    "total_tokens": 6687,
+    "prompt_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "prompt_cache_hit_tokens": 6144,
+    "prompt_cache_miss_tokens": 153
+  },
+  "reasoningUsage": {
+    "prompt_tokens": 1406,
+    "completion_tokens": 737,
+    "total_tokens": 2143,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1406
+  }
+}

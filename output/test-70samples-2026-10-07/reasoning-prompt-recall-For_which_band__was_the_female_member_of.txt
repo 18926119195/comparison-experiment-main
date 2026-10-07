@@ -1,0 +1,95 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Noelle Scaggs] ⟨102⟩⟦26⟧⟨103⟩⟨104⟩⟨105⟩⟨106⟩⟨107⟩⟨108⟩
+[Noelle Scaggs] ⟨109⟩⟦170⟧⟦225⟧⟨110⟩⟨111⟩⟦78⟧⟨112⟩⟨113⟩⟦162⟧⟨114⟩⟨115⟩⟨116⟩⟦195⟧⟨117⟩⟦8⟧⟦54⟧⟨118⟩⟨119⟩⟨120⟩⟨121⟩⟦28⟧⟦28⟧⟨122⟩⟨123⟩⟦179⟧⟨124⟩⟦61⟧⟨125⟩⟦139⟧⟨126⟩⟦111⟧⟨127⟩⟦59⟧⟨128⟩⟦56⟧⟨129⟩
+[Michael Fitzpatrick (musician)] ⟦118⟧⟦150⟧
+[Fitz and The Tantrums] ⟦161⟧
+[Fitz and The Tantrums] ⟦129⟧
+[Elina Siirala] ⟦224⟧⟦218⟧⟦218⟧
+[Spencer Ludwig] ⟦149⟧⟦158⟧⟦107⟧
+[Out of My League] ⟦31⟧
+
+符号表：
+⟦8⟧ = a composer
+⟦26⟧ = an American musician
+⟦28⟧ = artists
+⟦31⟧ = band
+⟦54⟧ = composer
+⟦56⟧ = Damian Marley
+⟦59⟧ = Defari
+⟦61⟧ = Dilated Peoples
+⟦78⟧ = front-woman
+⟦107⟧ = Los Angeles
+⟦111⟧ = Mayer Hawthorne
+⟦118⟧ = musician
+⟦129⟧ = Noelle Scaggs
+⟦139⟧ = Quantic
+⟦149⟧ = singer
+⟦150⟧ = singer-songwriter
+⟦158⟧ = songwriter
+⟦161⟧ = soul
+⟦162⟧ = soul band
+⟦170⟧ = ten years
+⟦179⟧ = The Black Eyed Peas
+⟦195⟧ = The Rebirth
+⟦218⟧ = vocalist
+⟦224⟧ = woman
+⟦225⟧ = years
+
+占位符映射：
+⟨102⟩ =  (born October 8, 1979) is 
+⟨103⟩ = 
+⟨104⟩ =  and 
+⟨105⟩ = 
+⟨106⟩ = 
+⟨107⟩ =  from 
+⟨108⟩ = .
+⟨109⟩ =  For 
+⟨110⟩ = 
+⟨111⟩ =  she served as 
+⟨112⟩ = 
+⟨113⟩ =  for 
+⟨114⟩ = 
+⟨115⟩ = 
+⟨116⟩ =  
+⟨117⟩ = , and has also collaborated as 
+⟨118⟩ = 
+⟨119⟩ =  or 
+⟨120⟩ = 
+⟨121⟩ =  with 
+⟨122⟩ = 
+⟨123⟩ =  such as 
+⟨124⟩ = , 
+⟨125⟩ = , 
+⟨126⟩ = , 
+⟨127⟩ = , 
+⟨128⟩ = , and 
+⟨129⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+For which band, was the female member of Fitz and The Tantrums, the front woman for ten years ?

@@ -1,0 +1,316 @@
+注意：你看到的拓扑链不是原文，而是符号化后的序列：
+- ⟦N⟧ 代表实体名词
+- ⟨1⟩、⟨2⟩ 等代表非实体关系（动词、连接词、修饰语等），仅表示"这里存在某种关系"
+
+符号表：
+⟦1⟧ = "Angels
+⟦2⟧ = "Dirty Harry
+⟦3⟧ = "Mysteria
+⟦4⟧ = "Quicksand
+⟦5⟧ = "The Beguiled
+⟦6⟧ = "Touch
+⟦7⟧ = "Two Mules
+⟦8⟧ = (Glover
+⟦9⟧ = 1987's "Predator
+⟦10⟧ = 72 half-hour episodes
+⟦11⟧ = a 1979 American prison thriller film
+⟦12⟧ = a 1990 American science fiction action film
+⟦13⟧ = a 1994 American family sports fantasy comedy film
+⟦14⟧ = a 1997 American comedy film
+⟦15⟧ = a 2014 American action film
+⟦16⟧ = a 2015 action film
+⟦17⟧ = a Bigfoot
+⟦18⟧ = a Croatian film producer
+⟦19⟧ = a family
+⟦20⟧ = a fictional playoff race
+⟦21⟧ = a Location Manager
+⟦22⟧ = a PA
+⟦23⟧ = a professor
+⟦24⟧ = a remake
+⟦25⟧ = a sequel
+⟦26⟧ = a social worker
+⟦27⟧ = A special preview
+⟦28⟧ = a widower
+⟦29⟧ = action
+⟦30⟧ = actor
+⟦31⟧ = actors
+⟦32⟧ = adaptation
+⟦33⟧ = Adrien Brody
+⟦34⟧ = Alcatraz
+⟦35⟧ = Alcatraz Island
+⟦36⟧ = Allen West
+⟦37⟧ = Amblin Television
+⟦38⟧ = an adaptation
+⟦39⟧ = an American actor
+⟦40⟧ = an American sitcom
+⟦41⟧ = an American supernatural thriller television series
+⟦42⟧ = an expert
+⟦43⟧ = Angels
+⟦44⟧ = Arthur Teller
+⟦45⟧ = Bad Ass
+⟦46⟧ = Bad Ass 2: Bad Asses
+⟦47⟧ = Bad Asses
+⟦48⟧ = Bill Paxton
+⟦49⟧ = Billy Zane
+⟦50⟧ = book
+⟦51⟧ = brothers
+⟦52⟧ = brothers Jim
+⟦53⟧ = character
+⟦54⟧ = Charley Butts
+⟦55⟧ = Christopher Lloyd
+⟦56⟧ = clairvoyance
+⟦57⟧ = Clarence Anglin
+⟦58⟧ = Clea Hopkins
+⟦59⟧ = Clint Eastwood
+⟦60⟧ = co
+⟦61⟧ = collaboration
+⟦62⟧ = comedy
+⟦63⟧ = Coogan's Bluff
+⟦64⟧ = Craig Moss
+⟦65⟧ = Cross
+⟦66⟧ = Danny Glover
+⟦67⟧ = Danny Trejo
+⟦68⟧ = David Mazouz
+⟦69⟧ = Death
+⟦70⟧ = debut
+⟦71⟧ = distribution
+⟦72⟧ = Don Siegel
+⟦73⟧ = Dramatic Art
+⟦74⟧ = DVD
+⟦75⟧ = Eastwood
+⟦76⟧ = enthusiasts
+⟦77⟧ = episodes
+⟦78⟧ = escape
+⟦79⟧ = expert
+⟦80⟧ = family
+⟦81⟧ = fantasy
+⟦82⟧ = fiction
+⟦83⟧ = film
+⟦84⟧ = film production
+⟦85⟧ = films
+⟦86⟧ = First AD
+⟦87⟧ = fishing
+⟦88⟧ = Fox
+⟦89⟧ = franchise
+⟦90⟧ = Fred Ward
+⟦91⟧ = future
+⟦92⟧ = Game
+⟦93⟧ = Gary Busey
+⟦94⟧ = Giallo
+⟦95⟧ = Glover
+⟦96⟧ = Gone Fishin
+⟦97⟧ = Gugu Mbatha-Raw
+⟦98⟧ = Harry
+⟦99⟧ = Head
+⟦100⟧ = help
+⟦101⟧ = his character's name
+⟦102⟧ = his film debut
+⟦103⟧ = his roles
+⟦104⟧ = hour
+⟦105⟧ = International Co
+⟦106⟧ = Iron
+⟦107⟧ = its regular time slot
+⟦108⟧ = J. Campbell Bruce
+⟦109⟧ = Jack Thibeau
+⟦110⟧ = Jadran Film Studio
+⟦111⟧ = Jake
+⟦112⟧ = Jake's living situation
+⟦113⟧ = James Coburn
+⟦114⟧ = January
+⟦115⟧ = Joe Pesci
+⟦116⟧ = John Anglin
+⟦117⟧ = John Thomas
+⟦118⟧ = Joseph Gordon-Levitt
+⟦119⟧ = June
+⟦120⟧ = Kevin Peter Hall
+⟦121⟧ = Kiefer Sutherland
+⟦122⟧ = Larry Hankin
+⟦123⟧ = lead
+⟦124⟧ = league
+⟦125⟧ = life
+⟦126⟧ = Line Producer
+⟦127⟧ = Los Angeles
+⟦128⟧ = Lynn Whitfield
+⟦129⟧ = March
+⟦130⟧ = María Conchita Alonso
+⟦131⟧ = Martin
+⟦132⟧ = Martin Bohm
+⟦133⟧ = Martin Landau
+⟦134⟧ = Matthew McConaughey
+⟦135⟧ = May
+⟦136⟧ = Mbatha-Raw
+⟦137⟧ = Michael Dudikoff
+⟦138⟧ = Mirko Filipović - Cro Cop
+⟦139⟧ = Misfits
+⟦140⟧ = month
+⟦141⟧ = name
+⟦142⟧ = Nick Brimble
+⟦143⟧ = numbers
+⟦144⟧ = numerical clairvoyance
+⟦145⟧ = part
+⟦146⟧ = Patrick McGoohan
+⟦147⟧ = Pesci
+⟦148⟧ = Peter Hall
+⟦149⟧ = pilot
+⟦150⟧ = playoff
+⟦151⟧ = playoffs
+⟦152⟧ = Predator
+⟦153⟧ = preview
+⟦154⟧ = Primorac
+⟦155⟧ = prison
+⟦156⟧ = prisoner
+⟦157⟧ = prisoners
+⟦158⟧ = prisoners Frank Morris
+⟦159⟧ = producer
+⟦160⟧ = production
+⟦161⟧ = Production Manager
+⟦162⟧ = productions
+⟦163⟧ = professor
+⟦164⟧ = race
+⟦165⟧ = Rafael Primorac
+⟦166⟧ = real life
+⟦167⟧ = remake
+⟦168⟧ = role
+⟦169⟧ = roles
+⟦170⟧ = Rosanna Arquette
+⟦171⟧ = Ruben Blades
+⟦172⟧ = Science
+⟦173⟧ = security
+⟦174⟧ = sequel
+⟦175⟧ = sequels
+⟦176⟧ = series
+⟦177⟧ = several future stars
+⟦178⟧ = Siegel
+⟦179⟧ = Sister Sara
+⟦180⟧ = sitcom
+⟦181⟧ = situation
+⟦182⟧ = slot
+⟦183⟧ = son
+⟦184⟧ = sports
+⟦185⟧ = spring
+⟦186⟧ = star
+⟦187⟧ = stars
+⟦188⟧ = Stephen Hopkins
+⟦189⟧ = Sutherland stars
+⟦190⟧ = syndication
+⟦191⟧ = Taxi
+⟦192⟧ = television
+⟦193⟧ = the "Bad Ass" series
+⟦194⟧ = the "Lethal Weapon series
+⟦195⟧ = the "Predator" franchise
+⟦196⟧ = the 1951 film
+⟦197⟧ = the 1962 prisoner escape
+⟦198⟧ = the 1963 non-fiction book
+⟦199⟧ = the 1994 MLB Baseball Players Strike
+⟦200⟧ = the 2012 film
+⟦201⟧ = the Academy
+⟦202⟧ = the Bayou
+⟦203⟧ = the Endzone
+⟦204⟧ = the fifth and final collaboration
+⟦205⟧ = The film
+⟦206⟧ = the film and television series
+⟦207⟧ = the first two films
+⟦208⟧ = the future
+⟦209⟧ = the Hendersons
+⟦210⟧ = the Infield
+⟦211⟧ = the lead
+⟦212⟧ = the league
+⟦213⟧ = the legendary Sam Peckinpah
+⟦214⟧ = the maximum security prison
+⟦215⟧ = the only collaboration
+⟦216⟧ = the Outfield
+⟦217⟧ = the pilot
+⟦218⟧ = the playoffs
+⟦219⟧ = the Predator
+⟦220⟧ = the same name
+⟦221⟧ = The series
+⟦222⟧ = the suspicious, vindictive warden
+⟦223⟧ = the television series
+⟦224⟧ = the third part
+⟦225⟧ = the title character
+⟦226⟧ = the title role
+⟦227⟧ = the two latter actors
+⟦228⟧ = the United States
+⟦229⟧ = the world
+⟦230⟧ = the World Series
+⟦231⟧ = This film
+⟦232⟧ = thriller
+⟦233⟧ = Tim Kring
+⟦234⟧ = time
+⟦235⟧ = title
+⟦236⟧ = Tony Danza
+⟦237⟧ = two bumbling fishing enthusiasts
+⟦238⟧ = Ultimate Force
+⟦239⟧ = Universal Television
+⟦240⟧ = video
+⟦241⟧ = Vrgorac
+⟦242⟧ = warden
+⟦243⟧ = Warning
+⟦244⟧ = Wesley Snipes
+⟦245⟧ = whose son
+⟦246⟧ = widower
+⟦247⟧ = Willie Nelson co
+⟦248⟧ = worker
+⟦249⟧ = world
+⟦250⟧ = Yugoslavia
+⟦251⟧ = Zagreb
+
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Angels in the Outfield (1994 film)] ⟦43⟧⟨1⟩⟦43⟧⟨2⟩⟦216⟧⟨3⟩⟦13⟧⟨4⟩⟦80⟧⟨5⟩⟦184⟧⟨6⟩⟦81⟧⟨7⟩⟦62⟧⟨8⟩⟦83⟧⟨9⟩⟦24⟧⟨10⟩⟦167⟧⟨11⟩⟦196⟧⟨12⟩⟦83⟧⟨13⟩⟦220⟧⟨14⟩⟦141⟧⟨15⟩
+[Angels in the Outfield (1994 film)] ⟦205⟧⟨16⟩⟦83⟧⟨17⟩⟦66⟧⟨18⟩⟦236⟧⟨19⟩⟦55⟧⟨20⟩⟦227⟧⟨21⟩⟦31⟧⟨22⟩⟦191⟧⟨23⟩⟦177⟧⟨24⟩⟦187⟧⟨25⟩⟦118⟧⟨26⟩⟦211⟧⟨27⟩⟦123⟧⟨28⟩⟦134⟧⟨29⟩
+[Angels in the Outfield (1994 film)] ⟨30⟩⟦240⟧⟨31⟩⟦240⟧⟨32⟩⟦175⟧⟨33⟩⟦43⟧⟨34⟩⟦43⟧⟨35⟩⟦203⟧⟨36⟩⟦1⟧⟨37⟩⟦210⟧⟨38⟩
+[Angels in the Outfield (1994 film)] ⟦205⟧⟨39⟩⟦83⟧⟨40⟩⟦140⟧⟨41⟩⟦199⟧⟨42⟩⟦212⟧⟨43⟩⟦124⟧⟨44⟩⟦218⟧⟨45⟩⟦151⟧⟨46⟩⟦230⟧⟨47⟩
+[Angels in the Outfield (1994 film)] ⟦231⟧⟨48⟩⟦83⟧⟨49⟩⟦20⟧⟨50⟩⟦150⟧⟨51⟩⟦164⟧⟨52⟩⟦166⟧⟨53⟩⟦125⟧⟨54⟩
+[Harry and the Hendersons (TV series)] ⟦98⟧⟨55⟩⟦209⟧⟨56⟩⟦40⟧⟨57⟩⟦180⟧⟨58⟩⟦205⟧⟨59⟩⟦83⟧⟨60⟩⟦220⟧⟨61⟩⟦141⟧⟨62⟩⟦37⟧⟨63⟩⟦239⟧⟨64⟩
+[Harry and the Hendersons (TV series)] ⟦221⟧⟨65⟩⟦176⟧⟨66⟩⟦190⟧⟨67⟩⟦190⟧⟨68⟩⟦114⟧⟨69⟩⟦119⟧⟨70⟩⟦10⟧⟨71⟩⟦104⟧⟨72⟩⟦77⟧⟨73⟩
+[Harry and the Hendersons (TV series)] ⟦221⟧⟨74⟩⟦176⟧⟨75⟩⟦19⟧⟨76⟩⟦80⟧⟨77⟩⟦17⟧⟨78⟩⟦98⟧⟨79⟩
+[Kevin Peter Hall] ⟦120⟧⟨80⟩⟦135⟧⟨81⟩⟦39⟧⟨82⟩⟦30⟧⟨83⟩⟦103⟧⟨84⟩⟦169⟧⟨85⟩⟦225⟧⟨86⟩⟦235⟧⟨87⟩⟦53⟧⟨88⟩⟦207⟧⟨89⟩⟦85⟧⟨90⟩⟦195⟧⟨91⟩⟦152⟧⟨92⟩⟦89⟧⟨93⟩⟦225⟧⟨94⟩⟦235⟧⟨95⟩⟦53⟧⟨96⟩⟦98⟧⟨97⟩⟦206⟧⟨98⟩⟦83⟧⟨99⟩⟦192⟧⟨100⟩⟦176⟧⟨101⟩⟦98⟧⟨102⟩⟦209⟧⟨103⟩
+[Kevin Peter Hall] ⟨104⟩⟦223⟧⟨105⟩⟦192⟧⟨106⟩⟦176⟧⟨107⟩⟦139⟧⟨108⟩⟦172⟧⟨109⟩⟦205⟧⟨110⟩⟦83⟧⟨111⟩⟦243⟧⟨112⟩
+[Bad Asses on the Bayou] ⟦47⟧⟨113⟩⟦202⟧⟨114⟩⟦45⟧⟨115⟩⟦16⟧⟨116⟩⟦29⟧⟨117⟩⟦83⟧⟨118⟩⟦67⟧⟨119⟩⟦66⟧⟨120⟩⟦64⟧⟨121⟩
+[Bad Asses on the Bayou] ⟦205⟧⟨122⟩⟦83⟧⟨123⟩⟦224⟧⟨124⟩⟦145⟧⟨125⟩⟦193⟧⟨126⟩⟦176⟧⟨127⟩
+[List of Touch episodes] ⟦6⟧⟨128⟩⟦41⟧⟨129⟩⟦232⟧⟨130⟩⟦192⟧⟨131⟩⟦176⟧⟨132⟩⟦233⟧⟨133⟩⟦121⟧⟨134⟩⟦97⟧⟨135⟩⟦68⟧⟨136⟩⟦66⟧⟨137⟩
+[List of Touch episodes] ⟦27⟧⟨138⟩⟦153⟧⟨139⟩⟦217⟧⟨140⟩⟦149⟧⟨141⟩⟦88⟧⟨142⟩⟦114⟧⟨143⟩⟦107⟧⟨144⟩⟦234⟧⟨145⟩⟦182⟧⟨146⟩⟦129⟧⟨147⟩
+[List of Touch episodes] ⟦189⟧⟨148⟩⟦187⟧⟨149⟩⟦132⟧⟨150⟩⟦28⟧⟨151⟩⟦246⟧⟨152⟩⟦245⟧⟨153⟩⟦183⟧⟨154⟩⟦111⟧⟨155⟩⟦143⟧⟨156⟩⟦143⟧⟨157⟩⟦208⟧⟨158⟩⟦91⟧⟨159⟩
+[List of Touch episodes] ⟦58⟧⟨160⟩⟦136⟧⟨161⟩⟦26⟧⟨162⟩⟦248⟧⟨163⟩⟦131⟧⟨164⟩⟦112⟧⟨165⟩⟦181⟧⟨166⟩⟦131⟧⟨167⟩⟦100⟧⟨168⟩⟦100⟧⟨169⟩⟦44⟧⟨170⟩⟦8⟧⟨171⟩⟦23⟧⟨172⟩⟦163⟧⟨173⟩⟦42⟧⟨174⟩⟦79⟧⟨175⟩⟦144⟧⟨176⟩⟦56⟧⟨177⟩
+[Gone Fishin' (film)] ⟦96⟧⟨178⟩⟦14⟧⟨179⟩⟦62⟧⟨180⟩⟦83⟧⟨181⟩⟦115⟧⟨182⟩⟦66⟧⟨183⟩⟦237⟧⟨184⟩⟦87⟧⟨185⟩⟦76⟧⟨186⟩
+[Gone Fishin' (film)] ⟦142⟧⟨187⟩⟦170⟧⟨188⟩⟦128⟧⟨189⟩⟦247⟧⟨190⟩⟦60⟧⟨191⟩⟦186⟧⟨192⟩⟦186⟧⟨193⟩
+[Gone Fishin' (film)] ⟦231⟧⟨194⟩⟦83⟧⟨195⟩⟦215⟧⟨196⟩⟦61⟧⟨197⟩⟦95⟧⟨198⟩⟦147⟧⟨199⟩⟦194⟧⟨200⟩⟦176⟧⟨201⟩
+[Predator 2] ⟦152⟧⟨202⟩⟦152⟧⟨203⟩⟦12⟧⟨204⟩⟦172⟧⟨205⟩⟦82⟧⟨206⟩⟦29⟧⟨207⟩⟦83⟧⟨208⟩⟦51⟧⟨209⟩⟦52⟧⟨210⟩⟦117⟧⟨211⟩⟦188⟧⟨212⟩⟦66⟧⟨213⟩⟦171⟧⟨214⟩⟦93⟧⟨215⟩⟦130⟧⟨216⟩⟦48⟧⟨217⟩⟦120⟧⟨218⟩
+[Predator 2] ⟦205⟧⟨219⟩⟦83⟧⟨220⟩⟦25⟧⟨221⟩⟦174⟧⟨222⟩⟦9⟧⟨223⟩⟦152⟧⟨224⟩⟦148⟧⟨225⟩⟦226⟧⟨226⟩⟦235⟧⟨227⟩⟦168⟧⟨228⟩⟦219⟧⟨229⟩⟦152⟧⟨230⟩
+[Escape from Alcatraz (film)] ⟨231⟩⟦34⟧⟨232⟩⟦11⟧⟨233⟩⟦155⟧⟨234⟩⟦232⟧⟨235⟩⟦83⟧⟨236⟩⟦72⟧⟨237⟩
+[Escape from Alcatraz (film)] ⟨238⟩⟦38⟧⟨239⟩⟦32⟧⟨240⟩⟦198⟧⟨241⟩⟦50⟧⟨242⟩⟦220⟧⟨243⟩⟦141⟧⟨244⟩⟦108⟧⟨245⟩⟦197⟧⟨246⟩⟦156⟧⟨247⟩⟦78⟧⟨248⟩⟦214⟧⟨249⟩⟦173⟧⟨250⟩⟦155⟧⟨251⟩⟦35⟧⟨252⟩
+[Escape from Alcatraz (film)] ⟦205⟧⟨253⟩⟦83⟧⟨254⟩⟦59⟧⟨255⟩⟦109⟧⟨256⟩⟦90⟧⟨257⟩⟦157⟧⟨258⟩⟦158⟧⟨259⟩⟦57⟧⟨260⟩⟦116⟧⟨261⟩
+[Escape from Alcatraz (film)] ⟦36⟧⟨262⟩⟦122⟧⟨263⟩⟦101⟧⟨264⟩⟦53⟧⟨265⟩⟦141⟧⟨266⟩⟦54⟧⟨267⟩
+[Escape from Alcatraz (film)] ⟦146⟧⟨268⟩⟦222⟧⟨269⟩⟦242⟧⟨270⟩⟦66⟧⟨271⟩⟦102⟧⟨272⟩⟦83⟧⟨273⟩⟦70⟧⟨274⟩
+[Escape from Alcatraz (film)] ⟨275⟩⟦34⟧⟨276⟩⟦204⟧⟨277⟩⟦61⟧⟨278⟩⟦178⟧⟨279⟩⟦75⟧⟨280⟩⟦63⟧⟨281⟩⟦7⟧⟨282⟩⟦179⟧⟨283⟩⟦5⟧⟨284⟩⟦2⟧⟨285⟩
+[Rafael Primorac] ⟦165⟧⟨286⟩⟦241⟧⟨287⟩⟦250⟧⟨288⟩⟦18⟧⟨289⟩⟦83⟧⟨290⟩⟦159⟧⟨291⟩⟦228⟧⟨292⟩
+[Rafael Primorac] ⟨293⟩⟦83⟧⟨294⟩⟦83⟧⟨295⟩⟦201⟧⟨296⟩⟦73⟧⟨297⟩⟦251⟧⟨298⟩
+[Rafael Primorac] ⟦154⟧⟨299⟩⟦229⟧⟨300⟩⟦249⟧⟨301⟩⟦83⟧⟨302⟩⟦84⟧⟨303⟩⟦160⟧⟨304⟩⟦22⟧⟨305⟩⟦65⟧⟨306⟩⟦106⟧⟨307⟩⟦213⟧⟨308⟩⟦113⟧⟨309⟩
+[Rafael Primorac] ⟨310⟩⟦110⟧⟨311⟩⟦251⟧⟨312⟩⟦21⟧⟨313⟩⟦86⟧⟨314⟩⟦161⟧⟨315⟩⟦126⟧⟨316⟩⟦99⟧⟨317⟩⟦105⟧⟨318⟩⟦60⟧⟨319⟩⟦162⟧⟨320⟩⟦162⟧⟨321⟩
+[Rafael Primorac] ⟦154⟧⟨322⟩⟦127⟧⟨323⟩⟦160⟧⟨324⟩⟦160⟧⟨325⟩⟦71⟧⟨326⟩⟦71⟧⟨327⟩
+[Rafael Primorac] ⟨328⟩⟦4⟧⟨329⟩⟦137⟧⟨330⟩⟦238⟧⟨331⟩⟦138⟧⟨332⟩⟦94⟧⟨333⟩⟦33⟧⟨334⟩⟦92⟧⟨335⟩⟦69⟧⟨336⟩⟦69⟧⟨337⟩⟦244⟧⟨338⟩⟦3⟧⟨339⟩⟦49⟧⟨340⟩⟦66⟧⟨341⟩⟦133⟧⟨342⟩
+[Bad Asses] ⟦47⟧⟨343⟩⟦46⟧⟨344⟩⟦15⟧⟨345⟩⟦29⟧⟨346⟩⟦83⟧⟨347⟩⟦67⟧⟨348⟩⟦66⟧⟨349⟩⟦64⟧⟨350⟩
+[Bad Asses] ⟦205⟧⟨351⟩⟦83⟧⟨352⟩⟦25⟧⟨353⟩⟦174⟧⟨354⟩⟦200⟧⟨355⟩⟦83⟧⟨356⟩⟦45⟧⟨357⟩⟦74⟧⟨358⟩⟦74⟧⟨359⟩⟦185⟧⟨360⟩⟦185⟧⟨361⟩
+
+[user]
+
+问题：
+Who acted in the film and television series, "Harry and the Hendersons," and also worked with Danny Glover?
+
+任务：从拓扑链中选取多个你认为回答问题所需的截断片段。
+
+工作流程（请严格按顺序执行，不要跳步）：
+第一步：完整浏览。必须先把"符号表"和"拓扑链"从头到尾完整读一遍，建立全局认知。
+第二步：基于全局认知定位相关片段。从拓扑链中选取你认为回答问题所必需的截断片段
+
+约束：
+- 每个截断必须是拓扑链中连续的符号序列
+- 不能编造不存在的符号
+- 不能重排符号顺序
+
+输出格式：
+输出多个拓扑链截断片段，用 | 分隔。
+短段示例：⟦1⟧⟨1⟩⟦2⟧ | ⟦3⟧⟨2⟩⟦5⟧
+长段示例：⟦2⟧⟨3⟩⟦3⟩⟨4⟩⟦4⟧⟨5⟩⟦5⟧⟨6⟩⟦6⟧ | ⟦8⟧⟨7⟩⟦10⟧
+
+现在只输出符号序列（多个片段用 | 分隔）：

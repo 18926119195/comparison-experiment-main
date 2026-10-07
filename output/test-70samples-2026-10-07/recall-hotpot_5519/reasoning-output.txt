@@ -1,0 +1,29 @@
+# 路径一：从河流流向与源头地名推理
+
+步骤1：使用⟦47⟧⟦137⟧，提取 Deckers Creek 是 Monongahela River 的支流，且其河口位于 Morgantown。
+
+步骤2：综合⟦172⟧⟦24⟧⟦177⟧，提取 Deckers Creek 的流向为“向西起始，然后东南、北、西北”，其西端起点对应地名 Arthurdale。
+
+步骤3：综合⟦24⟧⟦175⟧⟦176⟧，判断“its beginning in the west”即指河流西侧的源头区域，该处名为 Arthurdale。
+
+结论：Deckers Creek 西端起点名为 Arthurdale。
+
+# 路径二：从材料拓扑与占位符映射交叉验证
+
+步骤1：使用⟦47⟧⟦89⟧，提取 Deckers Creek 流经 Morgantown 并汇入 Monongahela River。
+
+步骤2：综合⟦172⟧⟦24⟧，对比“west”与“Arthurdale”在拓扑链中的共现关系，确认 Arthurdale 是西侧起点相关地名。
+
+步骤3：综合⟦175⟧⟦176⟧，提取“It begins ... of ...”结构，判断“beginning in the west”对应 Arthurdale。
+
+结论：西端起点被命名为 Arthurdale。
+
+# 路径三：从支流定义与地名归属综合支撑
+
+步骤1：使用⟦5⟧⟦160⟧，提取 Deckers Creek 是一条 24.6 英里长的支流。
+
+步骤2：综合⟦47⟧⟦137⟧⟦89⟧，确认其作为 Monongahela River 支流，流经 Morgantown。
+
+步骤3：综合⟦24⟧⟦172⟧，提取 Arthurdale 位于河流西侧起点，判断“beginning in the west”指 Arthurdale。
+
+结论：Deckers Creek 西侧起点名为 Arthurdale。

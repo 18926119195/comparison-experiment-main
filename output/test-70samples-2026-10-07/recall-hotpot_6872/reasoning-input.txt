@@ -1,0 +1,94 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[Richard Heffner] ⟦248⟧⟨39⟩⟦68⟧⟨40⟩⟦116⟧⟨41⟩⟦320⟧⟦110⟧⟨42⟩⟨43⟩⟦162⟧⟦162⟧⟨44⟩⟨45⟩⟦9⟧⟦194⟧⟨46⟩⟨47⟩⟦28⟧⟦49⟧⟨49⟩⟦290⟧⟨50⟩⟦270⟧⟨48⟩⟨51⟩
+[Richard Heffner] ⟦150⟧⟨76⟩⟦208⟧⟦396⟧⟨78⟩⟨77⟩⟦355⟧⟦238⟧⟨79⟩⟨80⟩⟦3⟧⟦108⟧⟨81⟩⟨82⟩⟦130⟧⟨83⟩⟦253⟧⟦80⟧⟨84⟩⟨85⟩
+[Gettysburg Address] ⟦326⟧⟨206⟩⟦37⟧⟦279⟧⟨207⟩⟨208⟩⟦388⟧⟨209⟩⟦54⟧⟦159⟧⟨210⟩⟨211⟩
+
+符号表：
+⟦3⟧ = "Conversations
+⟦9⟧ = "The Open Mind
+⟦28⟧ = a public affairs television show
+⟦37⟧ = a speech
+⟦49⟧ = affairs
+⟦54⟧ = American history
+⟦68⟧ = August
+⟦80⟧ = books
+⟦108⟧ = Conversations
+⟦110⟧ = creator
+⟦116⟧ = December
+⟦130⟧ = Elie Wiesel
+⟦150⟧ = Heffner
+⟦159⟧ = History
+⟦162⟧ = host
+⟦194⟧ = Mind
+⟦208⟧ = Nobel Peace Prize winner Elie Wiesel
+⟦238⟧ = publication
+⟦248⟧ = Richard Douglas Heffner
+⟦253⟧ = Schochen books
+⟦270⟧ = show
+⟦279⟧ = speech
+⟦290⟧ = television
+⟦320⟧ = the creator
+⟦326⟧ = The Gettysburg Address
+⟦355⟧ = the publication
+⟦388⟧ = U.S. President Abraham Lincoln
+⟦396⟧ = winner
+
+占位符映射：
+⟨39⟩ =  (
+⟨40⟩ =  5, 1925 – 
+⟨41⟩ =  17, 2013) was 
+⟨42⟩ = 
+⟨43⟩ =  and 
+⟨44⟩ = 
+⟨45⟩ =  of 
+⟨46⟩ = 
+⟨47⟩ = ," 
+⟨48⟩ = 
+⟨49⟩ =  
+⟨50⟩ =  
+⟨51⟩ =  first broadcast in 1956.
+⟨76⟩ =  collaborated with 
+⟨77⟩ = 
+⟨78⟩ =  Elie Wiesel on 
+⟨79⟩ = 
+⟨80⟩ =  of 
+⟨81⟩ = 
+⟨82⟩ =  With 
+⟨83⟩ = ", released by 
+⟨84⟩ = 
+⟨85⟩ =  in 2001.
+⟨206⟩ =  is 
+⟨207⟩ = 
+⟨208⟩ =  by 
+⟨209⟩ = , one of the best-known in 
+⟨210⟩ = 
+⟨211⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What speech by Abraham Lincoln was part of Richard Heffner's A Documentary History of the United States?

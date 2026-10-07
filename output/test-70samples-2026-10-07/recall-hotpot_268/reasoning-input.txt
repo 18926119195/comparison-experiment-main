@@ -1,0 +1,111 @@
+拓扑链（符号化表示，占位符 ⟨1⟩、⟨2⟩ 等代表非名词内容，原文不可见）：
+[National Archives and Library of Ethiopia] ⟨164⟩⟨165⟩⟨166⟩⟨167⟩⟦185⟧⟨168⟩⟨169⟩⟨170⟩⟨171⟩⟦171⟧⟦66⟧⟨172⟩⟨173⟩
+[National Archives of Mauritania] ⟦184⟧
+[Bibliothèque et Archives nationales du Québec] ⟦41⟧⟦41⟧⟦103⟧⟦103⟧
+[Addis Ababa] ⟦35⟧⟦81⟧ | ⟦35⟧⟨260⟩⟦4⟧⟨261⟩⟦201⟧⟨262⟩⟦1⟧⟨263⟩⟦2⟧⟦88⟧⟨264⟩⟨265⟩⟦130⟧⟨266⟩⟦87⟧⟨267⟩⟦124⟧⟦155⟧⟨268⟩⟨269⟩⟦36⟧⟨270⟩⟦192⟧⟦154⟧⟨271⟩⟨272⟩⟦186⟧⟨273⟩⟦168⟧⟦52⟧⟨274⟩⟨275⟩⟦101⟧⟦60⟧⟨276⟩⟨277⟩⟦81⟧⟨278⟩
+[Addis Ababa] ⟨279⟩⟦30⟧⟨280⟩⟨281⟩⟦162⟧⟦136⟧⟦136⟧⟨283⟩⟦54⟧⟨282⟩⟨284⟩⟦39⟧⟦93⟧⟨286⟩⟦143⟧⟨285⟩⟨287⟩⟦17⟧⟨288⟩
+
+符号表：
+⟦1⟧ = "Addis Abäba
+⟦2⟧ = "new flower
+⟦4⟧ = (Amharic
+⟦17⟧ = 3.8%
+⟦30⟧ = a population
+⟦35⟧ = Addis Ababa
+⟦36⟧ = Addis Abeba
+⟦39⟧ = annual growth rate
+⟦41⟧ = archives
+⟦52⟧ = capital
+⟦54⟧ = census
+⟦60⟧ = city
+⟦66⟧ = country
+⟦81⟧ = Ethiopia
+⟦87⟧ = Finfinne
+⟦88⟧ = flower
+⟦93⟧ = growth
+⟦101⟧ = largest city
+⟦103⟧ = library
+⟦124⟧ = Natural Spring(s
+⟦130⟧ = Oromo
+⟦136⟧ = population
+⟦143⟧ = rate
+⟦154⟧ = spelling
+⟦155⟧ = Spring(s
+⟦162⟧ = the 2007 population census
+⟦168⟧ = the capital
+⟦171⟧ = the country
+⟦184⟧ = The National Archives
+⟦185⟧ = the National Library
+⟦186⟧ = the official Ethiopian Mapping Authority
+⟦192⟧ = the spelling
+⟦201⟧ = አዲስ አበባ
+
+占位符映射：
+⟨164⟩ =  and 
+⟨165⟩ =  of 
+⟨166⟩ = , located in 
+⟨167⟩ = , is 
+⟨168⟩ = 
+⟨169⟩ =  and 
+⟨170⟩ = 
+⟨171⟩ =  of 
+⟨172⟩ = 
+⟨173⟩ = .
+⟨260⟩ =  
+⟨261⟩ = : 
+⟨262⟩ =  
+⟨263⟩ =  " ] , 
+⟨264⟩ = 
+⟨265⟩ = "; 
+⟨266⟩ = : "
+⟨267⟩ = " , ] "
+⟨268⟩ = 
+⟨269⟩ = )") or 
+⟨270⟩ =  (
+⟨271⟩ = 
+⟨272⟩ =  used by 
+⟨273⟩ = ), is 
+⟨274⟩ = 
+⟨275⟩ =  and 
+⟨276⟩ = 
+⟨277⟩ =  of 
+⟨278⟩ = .
+⟨279⟩ =  It has 
+⟨280⟩ = 
+⟨281⟩ =  of 3,384,569 according to 
+⟨282⟩ = 
+⟨283⟩ =  
+⟨284⟩ = , with 
+⟨285⟩ = 
+⟨286⟩ =  
+⟨287⟩ =  of 
+⟨288⟩ = .
+
+---
+
+要求：输出2-4条独立推理路径，每条路径包含多个步骤，每步可引用一个或多个材料⟦N⟧。
+
+格式：
+
+# 路径一：[标题]
+
+步骤1：使用⟦X⟧，提取...
+步骤2：综合⟦Y⟧⟦Z⟧，对比...
+
+结论：[此路径结论]
+
+（继续路径二、三...）
+
+**引用规范**：
+- 单个材料：使用⟦N⟧，提取...，判断...
+- 多个材料：综合⟦N⟧⟦M⟧，对比/交叉验证/综合提取...
+
+**推理策略**：
+- 对比论证：对比不同材料中的矛盾或差异
+- 交叉验证：从多个材料中找到互相支撑的证据
+- 综合支撑：从多处提取一致的特征或模式
+
+[user]
+
+问题：
+What is the population according to the 2007 population census of the city in which the National Archives and Library of Ethiopia is located?

@@ -1,0 +1,343 @@
+[
+  {
+    "qid": "hotpot_4428",
+    "question": "What kind of beverage does Planter's Punch and Black Velvet have in common?",
+    "expectedAnswer": "cocktail",
+    "predictedAnswer": "# 路径一：基于饮料类型分类的推理\n\n步骤1：使用⟦121⟧，提取 Planter's Punch 的饮料类型信息，判断其为一种鸡尾酒（cocktail）。\n\n步骤2：使用⟦154⟧，提取 The Black Velvet 的饮料类型信息，判断其同样被归类为鸡尾酒（cocktail）。\n\n步骤3：综合⟦121⟧⟦154⟧，对比两者的饮料类型，发现 Planter's Punch 和 Black Velvet 均属于鸡尾酒（cocktail）这一类别。\n\n结论：Planter's Punch 和 Black Velvet 的共同饮料类型是鸡尾酒（cocktail）。\n\n# 路径二：基于成分特征的交叉验证\n\n步骤1：使用⟦121⟧⟦28⟧，提取 Planter's Punch 被定义为 an IBA Official Cocktail，确认其鸡尾酒身份。\n\n步骤2：使用⟦154⟧⟦3⟧，提取 The Black Velvet 被定义为 a beer cocktail，确认其鸡尾酒身份。\n\n步骤3：综合⟦28⟧⟦3⟧，交叉验证两者均被明确标注为鸡尾酒（cocktail），尽管具体子类别不同（一个是 IBA Official Cocktail，一个是 beer cocktail），但共同的上位类别均为鸡尾酒。\n\n结论：Planter's Punch 和 Black Velvet 的共同点是它们都是鸡尾酒（cocktail）。\n\n# 路径三：基于材料中显式关键词的直接匹配\n\n步骤1：使用⟦121⟧，扫描 Planter's Punch 的描述，发现其被归类为鸡尾酒（⟦28⟧ 中明确出现 \"Cocktail\"）。\n\n步骤2：使用⟦154⟧，扫描 The Black Velvet 的描述，发现其被归类为鸡尾酒（⟦3⟧ 中明确出现 \"beer cocktail\"）。\n\n步骤3：综合⟦28⟧⟦3⟧，直接匹配两者描述中的共同关键词 \"cocktail\"，确认共同饮料类型。\n\n结论：Planter's Punch 和 Black Velvet 的共同饮料类型是鸡尾酒（cocktail）。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦121⟧⟨43⟩⟦28⟧⟨44⟩⟦66⟧⟦132⟧⟨45⟩⟨46⟩⟦134⟧⟦94⟧⟨47⟩⟨48⟩",
+    "nounCount": 259,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4345,
+      "completion_tokens": 169,
+      "total_tokens": 4514,
+      "prompt_tokens_details": {
+        "cached_tokens": 4096
+      },
+      "prompt_cache_hit_tokens": 4096,
+      "prompt_cache_miss_tokens": 249
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 726,
+      "completion_tokens": 457,
+      "total_tokens": 1183,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 726
+    }
+  },
+  {
+    "qid": "hotpot_6933",
+    "question": "Which was formed first, Noori or Test Icicles?",
+    "expectedAnswer": "Noori",
+    "predictedAnswer": "# 路径一：直接比较成立年份\n\n步骤1：使用⟦100⟧⟦203⟧，提取 Noori 的成立信息——Noori 是一支来自巴基斯坦拉合尔的摇滚乐队，成立于1996年。\n\n步骤2：使用⟦16⟧⟦102⟧，提取 Test Icicles 的成立信息——Test Icicles 是一支短命的 dance-punk 乐队，于2004年由 Devonte Hynes 和 Sam Mehran 组建。\n\n步骤3：综合⟦203⟧⟦102⟧，对比两个年份：1996年 vs 2004年。\n\n结论：Noori 成立于1996年，Test Icicles 成立于2004年，因此 **Noori 成立更早**。\n\n---\n\n# 路径二：通过成员年龄与活跃时期交叉验证\n\n步骤1：使用⟦107⟧⟦108⟧，提取 Test Icicles 成员相关信息——Mehran 和 Hynes 在乐队成立时都只有18岁。\n\n步骤2：使用⟦182⟧⟦161⟧，提取 Test Icicles 的时间线索——乐队仅存在了几年时间，属于短命乐队。\n\n步骤3：使用⟦100⟧⟦203⟧，提取 Noori 的成立时间——1996年成立，且至今仍活跃于巴基斯坦摇滚乐坛。\n\n步骤4：综合⟦102⟧⟦203⟧，对比：Noori 成立于1996年，Test Icicles 成立于2004年，两者相差8年。\n\n结论：Noori 比 Test Icicles 早成立约8年，**Noori 成立更早**。\n\n---\n\n# 路径三：通过乐队性质与历史背景推断\n\n步骤1：使用⟦16⟧⟦42⟧⟦54⟧，提取 Test Icicles 的特征——短命的 dance-punk 乐队，来自英格兰，属于2000年代中期的音乐场景。\n\n步骤2：使用⟦100⟧⟦176⟧⟦106⟧，提取 Noori 的特征——来自巴基斯坦的摇滚乐队，成立于1996年，是巴基斯坦摇滚乐的先驱之一。\n\n步骤3：综合⟦203⟧⟦102⟧，对比两者的成立年份：Noori（1996年）明显早于 Test Icicles（2004年）。\n\n结论：从乐队成立年份来看，**Noori 成立更早**，比 Test Icicles 早8年。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦100⟧⟨191⟩⟦176⟧⟦185⟧⟨192⟩⟨193⟩⟦85⟧⟦168⟧⟨194⟩⟨195⟩⟦82⟧⟦82⟧",
+    "nounCount": 271,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4478,
+      "completion_tokens": 705,
+      "total_tokens": 5183,
+      "prompt_tokens_details": {
+        "cached_tokens": 4224
+      },
+      "prompt_cache_hit_tokens": 4224,
+      "prompt_cache_miss_tokens": 254
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 2168,
+      "completion_tokens": 533,
+      "total_tokens": 2701,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2168
+    }
+  },
+  {
+    "qid": "hotpot_4733",
+    "question": "Which author found inspiration in their career prior to writing, Hart Crane or John le Carré?",
+    "expectedAnswer": "John le Carré",
+    "predictedAnswer": "# 路径一：职业经历与创作灵感的直接关联\n\n步骤1：使用⟦77⟧⟦178⟧⟦236⟧，提取 John le Carré 的本名为 David John Moore Cornwell，其笔名即为 John le Carré，确认其身份为英国作家。\n\n步骤2：使用⟦87⟧⟦88⟧，提取 John le Carré 的写作主题为 espionage（间谍活动）和 espionage novels（间谍小说），这与其曾从事间谍职业的背景直接相关。\n\n步骤3：综合⟦16⟧⟦46⟧⟦129⟧，确认 John le Carré 是一位英国作家，其创作灵感来源于其间谍职业经历。\n\n结论：John le Carré 在写作之前曾从事间谍工作，并将这段职业经历转化为间谍小说的创作灵感。\n\n---\n\n# 路径二：Hart Crane 的职业与创作灵感来源对比\n\n步骤1：使用⟦105⟧⟦36⟧⟦172⟧，提取 Hart Crane 的全名为 Harold Hart Crane，是一位美国诗人。\n\n步骤2：使用⟦54⟧⟦123⟧⟦154⟧⟦173⟧⟦235⟧，提取 Hart Crane 的创作灵感来源于 both inspiration（双重灵感）、inspiration（灵感）、modernist poetry（现代主义诗歌）、poetry（诗歌）和 the poetry（诗歌），表明其灵感主要来自文学和诗歌传统，而非职业经历。\n\n步骤3：综合⟦126⟧⟦185⟧，对比 Hart Crane 的创作灵感来源为 its scope（其范围）和 scope（范围），进一步确认其灵感与职业无关。\n\n结论：Hart Crane 的创作灵感来源于诗歌传统和文学，而非其职业经历。\n\n---\n\n# 路径三：交叉验证两位作者的职业背景与创作主题\n\n步骤1：使用⟦132⟧⟦197⟧⟦248⟧，提取 Joseph Hone 的相关信息，包括 spy（间谍）和 the spy novel（间谍小说），作为对比参照。\n\n步骤2：综合⟦77⟧⟦87⟧⟦88⟧，交叉验证 John le Carré 的职业背景为间谍，其创作主题为间谍小说，两者高度一致。\n\n步骤3：综合⟦36⟧⟦105⟧⟦154⟧，交叉验证 Hart Crane 的职业背景为诗人，其创作主题为现代主义诗歌，与间谍职业无关。\n\n结论：John le Carré 的创作灵感直接来源于其间谍职业经历，而 Hart Crane 的创作灵感来源于诗歌传统，因此答案是 John le Carré。\n\n---\n\n# 路径四：综合支撑与最终判断\n\n步骤1：使用⟦16⟧⟦46⟧⟦129⟧，确认 John le Carré 为英国作家，其笔名为 John le Carré。\n\n步骤2：综合⟦87⟧⟦88⟧⟦248⟧，提取 John le Carré 的创作主题为间谍小说，与其间谍职业背景直接相关。\n\n步骤3：综合⟦36⟧⟦105⟧⟦154⟧⟦173⟧，对比 Hart Crane 的创作灵感来源于诗歌和现代主义文学，而非职业经历。\n\n结论：John le Carré 在写作之前从事间谍职业，并将这段经历转化为创作灵感，因此答案是 John le Carré。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦77⟧⟨41⟩⟦236⟧⟦178⟧⟨42⟩⟨43⟩⟨44⟩⟦16⟧⟨45⟩⟨46⟩⟦88⟧⟨47⟩",
+    "nounCount": 348,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5956,
+      "completion_tokens": 278,
+      "total_tokens": 6234,
+      "prompt_tokens_details": {
+        "cached_tokens": 5760
+      },
+      "prompt_cache_hit_tokens": 5760,
+      "prompt_cache_miss_tokens": 196
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1115,
+      "completion_tokens": 714,
+      "total_tokens": 1829,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1115
+    }
+  },
+  {
+    "qid": "hotpot_2390",
+    "question": "What film studio produced both National Treasure and The Computer Wore Tennis Shoes?",
+    "expectedAnswer": "Walt Disney Pictures",
+    "predictedAnswer": "# 路径一：通过发行/制作公司直接匹配\n\n步骤1：使用⟦91⟧，提取“National Treasure”是一部2004年美国冒险盗宝电影。\n\n步骤2：综合⟦13⟧⟦25⟧⟦67⟧，确认该片类型为冒险、盗宝，属于National Treasure系列。\n\n步骤3：使用⟦221⟧，提取National Treasure由Walt Disney Pictures制作并发行。\n\n步骤4：使用⟦166⟧，提取The Computer Wore Tennis Shoes (1995 film)是一部1995年美国电视电影。\n\n步骤5：综合⟦168⟧⟦178⟧，提取该1995年版由Walt Disney Television制作。\n\n步骤6：使用⟦47⟧，确认The Computer Wore Tennis Shoes系列属于Disney。\n\n结论：National Treasure由Walt Disney Pictures制作发行，The Computer Wore Tennis Shoes (1995)由Walt Disney Television制作，两者同属Disney体系，因此答案是Walt Disney Pictures（或Disney）。\n\n# 路径二：通过系列归属与翻拍关系交叉验证\n\n步骤1：使用⟦10⟧，提取The Computer Wore Tennis Shoes是一部1969年美国喜剧电影。\n\n步骤2：综合⟦38⟧⟦75⟧⟦170⟧，提取1969年版由Cesar Romero、Joe Flynn、William Schallert等主演。\n\n步骤3：使用⟦20⟧⟦100⟧，确认1995年版是对1969年版的翻拍（remake）。\n\n步骤4：综合⟦166⟧⟦168⟧，提取1995年翻拍版由Walt Disney Television制作，属于Disney电视电影。\n\n步骤5：使用⟦91⟧⟦221⟧，提取National Treasure由Walt Disney Pictures制作并发行。\n\n步骤6：综合⟦47⟧⟦166⟧⟦221⟧，交叉验证：The Computer Wore Tennis Shoes系列归属Disney，National Treasure也由Disney制作发行。\n\n结论：两个电影系列均由Disney旗下公司制作，National Treasure由Walt Disney Pictures制作，The Computer Wore Tennis Shoes由Walt Disney Television制作，共同母公司为Disney。\n\n# 路径三：通过材料中的制作公司标签综合支撑\n\n步骤1：使用⟦221⟧，提取National Treasure“produced and released by Walt Disney Pictures”。\n\n步骤2：使用⟦168⟧，提取The Computer Wore Tennis Shoes (1995 film)与“Walt Disney Television”相关联。\n\n步骤3：综合⟦166⟧⟦168⟧⟦178⟧，提取1995年版由Walt Disney Television制作，且该片为Disney电视电影。\n\n步骤4：使用⟦47⟧，确认Disney为The Computer Wore Tennis Shoes的出品方。\n\n步骤5：综合⟦47⟧⟦221⟧，对比两个材料：National Treasure的出品方为Walt Disney Pictures，The Computer Wore Tennis Shoes的出品方为Disney/Walt Disney Television。\n\n结论：两部作品均由Disney旗下制片厂制作，具体为Walt Disney Pictures（National Treasure）和Walt Disney Television（The Computer Wore Tennis Shoes），因此共同制片厂为Walt Disney Pictures/Disney。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨1⟩⟨2⟩⟦10⟧⟨4⟩⟨3⟩⟨5⟩⟨6⟩⟦38⟧⟨7⟩⟦75⟧⟨8⟩⟦170⟧",
+    "nounCount": 263,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4337,
+      "completion_tokens": 282,
+      "total_tokens": 4619,
+      "prompt_tokens_details": {
+        "cached_tokens": 4096
+      },
+      "prompt_cache_hit_tokens": 4096,
+      "prompt_cache_miss_tokens": 241
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1063,
+      "completion_tokens": 699,
+      "total_tokens": 1762,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1063
+    }
+  },
+  {
+    "qid": "hotpot_6346",
+    "question": "Which hospital, the Psychiatric Institute of Washington or Howard University Hospital, is known for ",
+    "expectedAnswer": "Howard University Hospital",
+    "predictedAnswer": "# 路径一：基于医院历史与社区服务对象的直接对比\n\n步骤1：使用⟦126⟧⟦332⟧⟦257⟧，提取 Howard University Hospital 的前身是 Freedmen's Hospital，建于 the site（the previous Griffith Stadium），其历史渊源与“自由民”直接相关。\n\n步骤2：综合⟦124⟧⟦258⟧⟦128⟧⟦339⟧，对比两家医院的服务对象——Howard University Hospital 的前身 Freedmen's Hospital 建立于1862年，旨在为 former slaves（⟦124⟧）、slaves（⟦258⟧）以及获得 freedom（⟦128⟧⟦339⟧）的 African Americans（⟦43⟧）提供医疗服务和 medical treatment（⟦193⟧）。\n\n步骤3：使用⟦279⟧⟦280⟧⟦282⟧，提取 Howard University Hospital 明确“has served the African American community（⟦279⟧）in the area's African-American community（⟦282⟧）”，服务对象直接指向非裔美国人社区。\n\n步骤4：使用⟦346⟧，提取 Psychiatric Institute of Washington 仅被提及为“treatment”，无任何关于服务非裔社区或前奴隶的记录。\n\n结论：Howard University Hospital 是已知服务于非裔美国人社区（包括 former slaves）的医院；Psychiatric Institute of Washington 无相关记录。\n\n---\n\n# 路径二：基于建立目的与历史使命的交叉验证\n\n步骤1：使用⟦286⟧，提取 Howard University Hospital“having been established in 1862 to cater for the medical needs（⟦314⟧）of the thousands（⟦335⟧⟦341⟧）of African Americans（⟦43⟧）who came to Washington D.C.（⟦350⟧）during the Civil War（⟦285⟧）, seeking their freedom（⟦339⟧）”。\n\n步骤2：综合⟦124⟧⟦258⟧⟦128⟧，交叉验证——建立目的中明确包含 former slaves（⟦124⟧）、slaves（⟦258⟧）以及寻求 freedom（⟦128⟧）的人群，与问题中“including former slaves”完全吻合。\n\n步骤3：使用⟦346⟧，对比 Psychiatric Institute of Washington——该机构在材料中仅出现“treatment”一词，无建立目的、服务对象或历史使命的任何描述。\n\n结论：Howard University Hospital 的建立目的直接指向为内战期间来到华盛顿的非裔美国人（包括前奴隶）提供医疗需求；Psychiatric Institute of Washington 无此历史记录。\n\n---\n\n# 路径三：基于材料覆盖度与主题一致性的综合判断\n\n步骤1：使用⟦126⟧⟦332⟧⟦257⟧⟦21⟧，提取 Howard University Hospital 被描述为“a major hospital（⟦21⟧）”，前身 Freedmen's Hospital（⟦126⟧），位于 the site（⟦332⟧⟦257⟧），材料覆盖其历史沿革、服务对象、建立目的等多维度信息。\n\n步骤2：综合⟦279⟧⟦282⟧⟦43⟧⟦124⟧⟦258⟧，交叉验证——多条材料一致指向 Howard University Hospital 与非裔美国人社区（⟦279⟧⟦282⟧⟦43⟧）及前奴隶（⟦124⟧⟦258⟧）之间的服务关系。\n\n步骤3：使用⟦346⟧，对比 Psychiatric Institute of Washington——材料中仅有一条记录且仅涉及“treatment”，无任何与非裔社区、前奴隶或历史使命相关的信息。\n\n结论：Howard University Hospital 在材料中被多维度、多材料交叉验证为服务于非裔美国人社区（包括前奴隶）的医院；Psychiatric Institute of Washington 缺乏任何相关证据。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨269⟩⟦126⟧⟨270⟩⟨271⟩⟦21⟧⟨272⟩⟨273⟩⟨274⟩⟨275⟩⟦332⟧⟦257⟧⟨276⟩",
+    "nounCount": 506,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8153,
+      "completion_tokens": 449,
+      "total_tokens": 8602,
+      "prompt_tokens_details": {
+        "cached_tokens": 7936
+      },
+      "prompt_cache_hit_tokens": 7936,
+      "prompt_cache_miss_tokens": 217
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1542,
+      "completion_tokens": 831,
+      "total_tokens": 2373,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1542
+    }
+  },
+  {
+    "qid": "hotpot_2394",
+    "question": "Which film was produced first, Dangal or The Man from Snowy River II?",
+    "expectedAnswer": "The Man from Snowy River II",
+    "predictedAnswer": "# 路径一：基于年份的直接比较\n\n步骤1：使用⟦13⟧，提取《Dangal》的类型描述，判断其年份信息——\"a 2016 Indian Hindi-language biographical sports drama film\"，明确为2016年。\n\n步骤2：使用⟦12⟧，提取《The Man from Snowy River II》的类型描述，判断其年份信息——\"a 1988 Australian drama film\"，明确为1988年。\n\n步骤3：综合⟦13⟧⟦12⟧，对比两部影片的年份：1988年早于2016年。\n\n结论：《The Man from Snowy River II》先制作（1988年），早于《Dangal》（2016年）。\n\n---\n\n# 路径二：基于续集关系的交叉验证\n\n步骤1：使用⟦139⟧⟦193⟧，提取《The Man from Snowy River II》与⟦160⟧的关系——该片是\"the 1982 film\"的\"sequel\"（续集）。\n\n步骤2：使用⟦160⟧，确认前作《The Man from Snowy River (1982 film)》的存在，说明该系列始于1982年，续集于1988年推出。\n\n步骤3：综合⟦13⟧⟦12⟧⟦139⟧，交叉验证：《Dangal》为2016年作品，而《The Man from Snowy River II》作为1982年电影的续集，其制作年份必然在1982年之后、但远早于2016年。\n\n结论：从续集时间线来看，《The Man from Snowy River II》的制作时间（1988年）明显早于《Dangal》（2016年）。\n\n---\n\n# 路径三：基于类型与主题的辅助判断\n\n步骤1：使用⟦13⟧⟦153⟧⟦155⟧，提取《Dangal》的类型特征——\"biographical sports drama film\"，其故事基于真实人物（⟦103⟧ Mahavir Singh Phogat及其女儿⟦74⟧⟦38⟧的摔跤经历）。\n\n步骤2：使用⟦12⟧⟦67⟧，提取《The Man from Snowy River II》的类型特征——\"Australian drama film\"，属于虚构剧情片。\n\n步骤3：综合⟦13⟧⟦12⟧，对比两部影片的制作背景：1980年代的澳大利亚剧情片与2010年代基于真实事件的印度体育传记片，后者在电影工业时间线上明显更晚。\n\n结论：从电影类型与制作背景判断，《The Man from Snowy River II》（1988年）先于《Dangal》（2016年）制作。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦60⟧⟨59⟩⟦8⟧⟨60⟩⟦232⟧⟨61⟩⟦55⟧⟨62⟩⟨63⟩⟦13⟧⟦100⟧⟨65⟩",
+    "nounCount": 341,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5636,
+      "completion_tokens": 273,
+      "total_tokens": 5909,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5636
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1084,
+      "completion_tokens": 573,
+      "total_tokens": 1657,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1084
+    }
+  },
+  {
+    "qid": "hotpot_2433",
+    "question": "Which band has released more albums with their original members, Sick Puppies or Third Eye Blind?",
+    "expectedAnswer": "Sick Puppies",
+    "predictedAnswer": "# 路径一：以“原始成员”与“专辑数量”为轴的综合对比\n\n步骤1：使用⟦146⟧⟦33⟧，提取 Sick Puppies 是一支澳大利亚摇滚乐队，成立于1997年；使用⟦18⟧⟦31⟧⟦140⟧，提取 Third Eye Blind 是一支来自旧金山的美国摇滚乐队。\n\n步骤2：综合⟦38⟧⟦39⟧⟦203⟧⟦142⟧，提取 Third Eye Blind 在1997年发行了首张同名专辑；综合⟦175⟧⟦7⟧⟦8⟧，提取该专辑为他们的首张录音室专辑，发行于1997年4月8日。\n\n步骤3：使用⟦86⟧⟦71⟧⟦32⟧，提取 Kevin Cadogan 是一位美国创作歌手，生于1970年8月14日；综合⟦80⟧⟦103⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧，提取他是 Third Eye Blind 的创始成员，1993至2000年间与乐队合作。\n\n步骤4：综合⟦87⟧⟦208⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧⟦163⟧⟦92⟧⟦93⟧⟦198⟧，提取 Kevin Cadogan 参与创作了 Third Eye Blind 的多首热门歌曲，并参与了首张专辑中14首歌中的10首。\n\n步骤5：使用⟦97⟧⟦33⟧⟦100⟧，提取 Sick Puppies 成立于1997年；综合⟦101⟧⟦128⟧⟦102⟧⟦103⟧⟦204⟧⟦152⟧⟦104⟧⟦105⟧⟦26⟧⟦106⟧⟦21⟧⟦107⟧⟦108⟧⟦230⟧⟦109⟧，提取 Sick Puppies 在2006年因歌曲《All the Same》及其视频上传至 YouTube 而获得显著关注。\n\n结论：Third Eye Blind 在原始成员 Kevin Cadogan 参与期间（1993–2000）至少发行了首张同名专辑，且 Cadogan 参与了其中大部分歌曲创作；而 Sick Puppies 虽成立于1997年，但材料仅提及其2006年因单曲走红，未显示与原始成员共同发行的专辑数量。因此，从现有材料看，Third Eye Blind 更符合“与原始成员发行更多专辑”的描述。\n\n# 路径二：以“成员变动与专辑归属”为轴的交叉验证\n\n步骤1：使用⟦86⟧⟦80⟧⟦103⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧，提取 Kevin Cadogan 是 Third Eye Blind 的创始成员，1993至2000年间在队；使用⟦87⟧⟦208⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧⟦163⟧⟦92⟧⟦93⟧⟦198⟧，提取他参与创作了乐队多首热门歌曲及首张专辑中的10首歌。\n\n步骤2：综合⟦38⟧⟦39⟧⟦203⟧⟦142⟧⟦41⟧⟦40⟧⟦42⟧⟦43⟧⟦44⟧⟦45⟧⟦46⟧⟦47⟧⟦48⟧⟦49⟧⟦50⟧⟦51⟧⟦52⟧⟦53⟧⟦54⟧⟦55⟧⟦56⟧，提取 Third Eye Blind 在1997年发行首张同名专辑时，成员包括 Kevin Cadogan、Arion Salazar 和 Brad Hargreaves 等原始阵容。\n\n步骤3：使用⟦97⟧⟦33⟧⟦100⟧，提取 Sick Puppies 成立于1997年；综合⟦101⟧⟦128⟧⟦102⟧⟦103⟧⟦204⟧⟦152⟧⟦104⟧⟦105⟧⟦26⟧⟦106⟧⟦21⟧⟦107⟧⟦108⟧⟦230⟧⟦109⟧，提取其走红始于2006年，材料未提及其原始成员阵容或与原始成员共同发行的专辑。\n\n步骤4：综合⟦23⟧⟦138⟧⟦158⟧⟦28⟧，提取 Out of the Vein 是 Third Eye Blind 的录音室专辑；使用⟦78⟧，提取其中涉及吉他手信息；使用⟦22⟧⟦80⟧，提取“A Whole Year”等热门歌曲与乐队相关。\n\n结论：Third Eye Blind 在原始成员 Kevin Cadogan 在队期间发行了至少一张专辑（首张同名专辑），且材料明确其原始成员阵容；Sick Puppies 的材料未显示与原始成员共同发行的专辑。因此 Third Eye Blind 更可能发行了更多与原始成员合作的专辑。\n\n# 路径三：以“材料覆盖范围”为轴的对比论证\n\n步骤1：使用⟦146⟧⟦33⟧，提取 Sick Puppies 是澳大利亚摇滚乐队；综合⟦101⟧⟦128⟧⟦102⟧⟦103⟧⟦204⟧⟦152⟧⟦104⟧⟦105⟧⟦26⟧⟦106⟧⟦21⟧⟦107⟧⟦108⟧⟦230⟧⟦109⟧，提取其材料主要围绕2006年单曲《All the Same》的走红，未提及专辑发行数量或原始成员。\n\n步骤2：使用⟦18⟧⟦31⟧⟦140⟧，提取 Third Eye Blind 是来自旧金山的美国摇滚乐队；综合⟦38⟧⟦39⟧⟦203⟧⟦142⟧⟦175⟧⟦7⟧⟦8⟧，提取其1997年发行首张同名专辑；使用⟦86⟧⟦80⟧⟦103⟧⟦83⟧⟦84⟧⟦85⟧⟦86⟧，提取 Kevin Cadogan 是创始成员，1993–2000年在队。\n\n步骤3：综合⟦87⟧⟦208⟧⟦88⟧⟦89⟧⟦90⟧⟦91⟧⟦163⟧⟦92⟧⟦93⟧⟦198⟧，提取 Cadogan 参与创作了首张专辑中10首歌；使用⟦23⟧⟦138⟧⟦158⟧⟦28⟧，提取 Out of the Vein 是另一张录音室专辑；使用⟦78⟧，提取吉他手信息。\n\n步骤4：综合⟦153⟧⟦222⟧，提取 Red Star (EP) 包含歌曲和视频；使用⟦166⟧⟦166⟧，提取 The band 相关表述；使用⟦149⟧⟦154⟧，提取 Stephan Jenkins 是歌手和词曲作者；使用⟦206⟧，提取 Third Eye Blind 多次出现。\n\n结论：材料对 Third Eye Blind 的专辑、成员和创作参与有更丰富的记录，包括首张同名专辑和 Out of the Vein 等；对 Sick Puppies 则仅提及其成立和单曲走红，未提专辑数量。因此，从材料覆盖范围判断，Third Eye Blind 更符合“与原始成员发行更多专辑”的答案。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟨97⟩⟦33⟧⟨99⟩⟨98⟩⟨100⟩⟦146⟧⟦138⟧⟦42⟧⟦146⟧⟨101⟩⟦128⟧⟦128⟧",
+    "nounCount": 372,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 5802,
+      "completion_tokens": 565,
+      "total_tokens": 6367,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5802
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1861,
+      "completion_tokens": 1709,
+      "total_tokens": 3570,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1861
+    }
+  },
+  {
+    "qid": "hotpot_4106",
+    "question": "Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemia",
+    "expectedAnswer": "John H. Garabedian",
+    "predictedAnswer": "# 路径一：职业身份对比\n\n步骤1：使用⟦118⟧⟦43⟧，提取 John Garabedian 的全名及其职业描述为“an American radio personality”，判断其身份与广播行业直接相关。\n\n步骤2：使用⟦67⟧⟦42⟧，提取 Charles A. Agemian 的全名及其职业描述为“an American banker”，判断其身份与银行业直接相关。\n\n步骤3：综合⟦43⟧⟦42⟧，对比两人的职业标签：John Garabedian 是 radio personality，Charles A. Agemian 是 banker，前者与“radio personality”直接匹配。\n\n结论：John Garabedian 更以 radio personality 闻名。\n\n# 路径二：职业细节交叉验证\n\n步骤1：使用⟦84⟧⟦113⟧，提取“disc jockey”和“jockey”两个相关词，结合⟦83⟧“disc”，判断“disc jockey”是广播行业的具体职位。\n\n步骤2：使用⟦173⟧，提取“radio”一词，结合⟦118⟧⟦43⟧中 John Garabedian 的 radio personality 身份，交叉验证其职业与广播直接相关。\n\n步骤3：使用⟦49⟧⟦42⟧，提取 Charles A. Agemian 的 banker 身份，结合⟦68⟧⟦93⟧⟦98⟧等银行相关词，判断其职业生涯集中在金融领域，与 disc jockey 无关。\n\n结论：John Garabedian 是 disc jockey 和 radio personality，而 Charles A. Agemian 是银行家，前者更符合问题描述。\n\n# 路径三：职业轨迹综合支撑\n\n步骤1：使用⟦67⟧⟦120⟧⟦131⟧⟦300⟧⟦301⟧，提取 Charles A. Agemian 的生卒日期及职业背景，结合⟦68⟧⟦93⟧⟦170⟧⟦98⟧，综合判断其一生主要担任银行高管职位。\n\n步骤2：使用⟦118⟧⟦383⟧⟦384⟧⟦385⟧⟦386⟧⟦387⟧⟦388⟧⟦389⟧⟦390⟧⟦391⟧⟦392⟧，提取 John Garabedian 的出生信息及职业描述，结合⟦43⟧⟦84⟧⟦113⟧⟦173⟧，综合判断其身份为广播界人士。\n\n步骤3：综合⟦42⟧⟦43⟧，对比两人的职业领域：Charles A. Agemian 是 banker，John Garabedian 是 radio personality 和 disc jockey，后者与问题中的“radio personality and disc jockey”完全吻合。\n\n结论：John Garabedian 是最以 radio personality 和 disc jockey 闻名的人。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦118⟧⟨383⟩⟦43⟧⟨385⟩⟦164⟧⟨384⟩⟨386⟩⟦83⟧⟦84⟧⟨387⟩⟦113⟧⟨388⟩",
+    "nounCount": 403,
+    "score": 0.6666666666666666,
+    "recallUsage": {
+      "prompt_tokens": 6359,
+      "completion_tokens": 233,
+      "total_tokens": 6592,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6359
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 942,
+      "completion_tokens": 639,
+      "total_tokens": 1581,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 942
+    }
+  },
+  {
+    "qid": "hotpot_410",
+    "question": "Which has the larger population, Shanghai or Hanggin Rear Banner?",
+    "expectedAnswer": "Shanghai",
+    "predictedAnswer": "# 路径一：直接数值对比\n\n步骤1：使用⟦185⟧⟦402⟧，提取上海的人口信息，得知上海人口超过2400万（as of 2014）。\n\n步骤2：使用⟦96⟧⟦9⟧，提取杭锦后旗的人口信息，得知其人口为30万（300,000 inhabitants）。\n\n步骤3：综合⟦402⟧⟦9⟧，对比两者数值：2400万 > 30万。\n\n结论：上海的人口远大于杭锦后旗，因此上海人口更多。\n\n# 路径二：行政级别与人口规模交叉验证\n\n步骤1：使用⟦185⟧⟦223⟧⟦233⟧，提取上海的行政地位信息，得知上海是中国四个直辖市之一，也是世界上人口最多的城市。\n\n步骤2：使用⟦96⟧⟦30⟧⟦52⟧，提取杭锦后旗的行政地位信息，得知杭锦后旗的行政中心是陕坝镇，属于旗县级行政区。\n\n步骤3：综合⟦233⟧⟦9⟧，对比行政级别与人口：上海作为直辖市/世界级大城市，人口超过2400万；杭锦后旗作为旗县级行政区，人口仅30万。\n\n结论：从行政级别和人口规模双重验证，上海人口远多于杭锦后旗。\n\n# 路径三：材料中人口数据的直接比较\n\n步骤1：使用⟦150⟧⟦23⟧，提取材料中关于“population”的通用信息，确认两处材料均涉及人口数据。\n\n步骤2：使用⟦402⟧，提取上海人口“more than 24 million”；使用⟦9⟧，提取杭锦后旗人口“300,000 inhabitants”。\n\n步骤3：综合⟦402⟧⟦9⟧，直接比较：24,000,000 > 300,000。\n\n结论：上海人口（超2400万）大于杭锦后旗人口（30万），上海人口更多。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦185⟧⟨393⟩⟦223⟧⟦132⟧⟨394⟩⟨395⟩⟦55⟧⟨396⟩⟦233⟧⟦57⟧⟨397⟩⟨398⟩",
+    "nounCount": 436,
+    "score": 0,
+    "recallUsage": {
+      "prompt_tokens": 7278,
+      "completion_tokens": 209,
+      "total_tokens": 7487,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7278
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 952,
+      "completion_tokens": 429,
+      "total_tokens": 1381,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 952
+    }
+  },
+  {
+    "qid": "hotpot_1165",
+    "question": "Are both Adolfo Bioy Casares and James Norman Hall Argentinian authors?",
+    "expectedAnswer": "no",
+    "predictedAnswer": "# 路径一：直接身份核验\n\n步骤1：使用⟦17⟧，提取 Adolfo Bioy Casares 的身份信息，判断其国籍与职业。\n\n步骤2：使用⟦99⟧，提取 James Norman Hall 的身份信息，判断其国籍与职业。\n\n步骤3：综合⟦17⟧⟦99⟧，对比两人的国籍归属，核验是否均为阿根廷作家。\n\n结论：Adolfo Bioy Casares 是阿根廷小说家（⟦24⟧），而 James Norman Hall 是美国作家（⟦22⟧），并非阿根廷人。因此两人不都是阿根廷作家。\n\n# 路径二：出生地与活动区域交叉验证\n\n步骤1：使用⟦17⟧⟦24⟧，确认 Adolfo Bioy Casares 为阿根廷小说家，其身份与阿根廷文学传统直接关联。\n\n步骤2：使用⟦99⟧⟦22⟧，确认 James Norman Hall 为美国作家，其国籍归属为美国。\n\n步骤3：综合⟦22⟧⟦24⟧，对比两人的国籍标签，发现一者为 Argentine，一者为 American，存在明确差异。\n\n结论：两人国籍不同，James Norman Hall 并非阿根廷作家，故“两人都是阿根廷作家”这一命题为假。\n\n# 路径三：职业与国籍的联合排除\n\n步骤1：使用⟦17⟧⟦24⟧⟦175⟧，提取 Adolfo Bioy Casares 的多重身份：阿根廷小说家、翻译家，均与阿根廷相关。\n\n步骤2：使用⟦99⟧⟦22⟧⟦182⟧，提取 James Norman Hall 的身份：美国作家，与阿根廷无国籍关联。\n\n步骤3：综合⟦24⟧⟦22⟧，交叉验证两人国籍标签，确认只有 Adolfo Bioy Casares 具有阿根廷国籍。\n\n结论：James Norman Hall 是美国作家而非阿根廷作家，因此并非两人都是阿根廷作家。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦17⟧⟨211⟩⟦135⟧⟨212⟩⟦112⟧⟨213⟩⟦24⟧⟨215⟩⟨214⟩⟨216⟩⟦102⟧⟦102⟧",
+    "nounCount": 252,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 4399,
+      "completion_tokens": 290,
+      "total_tokens": 4689,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4399
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 1103,
+      "completion_tokens": 416,
+      "total_tokens": 1519,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1103
+    }
+  },
+  {
+    "qid": "hotpot_289",
+    "question": "Which came to market first, \"Hey Pa! There's a Goat on the Roof\" or \"Poleconomy\"",
+    "expectedAnswer": "Hey Pa! There's a Goat on the Roof",
+    "predictedAnswer": "# 路径一：直接比较发行年份\n\n步骤1：使用⟦17⟧⟦323⟧⟦9⟧⟦206⟧，提取 \"Hey Pa! There's a Goat on the Roof\" 的相关信息——这是一款儿童棋盘游戏（⟦9⟧），由 Parker Brothers（⟦206⟧）于 1966 年发行。\n\n步骤2：使用⟦7⟧⟦195⟧⟦82⟧，提取 \"Poleconomy\" 的相关信息——这是一款棋盘游戏（⟦7⟧），由新西兰人 Bruce E. Hatherley（⟦195⟧）发明，并于 1980 年首次出版。\n\n步骤3：综合⟦206⟧⟦195⟧，对比两者的发行年份：1966 年 vs. 1980 年。\n\n结论：\"Hey Pa! There's a Goat on the Roof\" 于 1966 年发行，早于 \"Poleconomy\" 的 1980 年，因此前者更早进入市场。\n\n---\n\n# 路径二：交叉验证发行主体与时间线\n\n步骤1：使用⟦17⟧⟦323⟧⟦206⟧，确认 \"Hey Pa! There's a Goat on the Roof\" 由 Parker Brothers 发行，这是一家历史悠久的美国游戏公司，其发行时间标注为 1966 年。\n\n步骤2：使用⟦218⟧⟦195⟧，确认 \"Poleconomy\" 的发明者为 Bruce E. Hatherley，且该游戏与新西兰相关，首次出版时间为 1980 年。\n\n步骤3：综合⟦206⟧⟦195⟧，交叉验证：Parker Brothers 在 1966 年已是一家成熟公司，而 Poleconomy 的发明者直到 1980 年才将其推向市场，两者时间差为 14 年。\n\n结论：通过发行主体和时间线的交叉验证，\"Hey Pa! There's a Goat on the Roof\"（1966）比 \"Poleconomy\"（1980）早 14 年进入市场。\n\n---\n\n# 路径三：排除法——从游戏类型与出版背景推断\n\n步骤1：使用⟦9⟧⟦82⟧，识别 \"Hey Pa! There's a Goat on the Roof\" 为儿童棋盘游戏，这类游戏在 1960 年代由 Parker Brothers 大量生产。\n\n步骤2：使用⟦7⟧⟦195⟧，识别 \"Poleconomy\" 为一般棋盘游戏，由个人发明者 Bruce E. Hatherley 创作，1980 年才首次出版。\n\n步骤3：综合⟦9⟧⟦7⟧，对比两者类型与出版模式：Parker Brothers 的商业化儿童游戏 vs. 个人发明者的经济主题游戏，后者通常需要更长的开发与出版周期。\n\n结论：从游戏类型与出版背景推断，\"Hey Pa! There's a Goat on the Roof\" 作为 1966 年 Parker Brothers 的商业产品，必然早于 1980 年才出版的 \"Poleconomy\"。",
+    "recallMode": "recall",
+    "recallValid": true,
+    "recallTruncation": "⟦17⟧⟨70⟩⟦323⟧⟨71⟩⟦9⟧⟦82⟧⟨73⟩⟨74⟩⟨72⟩⟨75⟩⟦206⟧⟨76⟩",
+    "nounCount": 502,
+    "score": 0.8,
+    "recallUsage": {
+      "prompt_tokens": 8271,
+      "completion_tokens": 105,
+      "total_tokens": 8376,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 8271
+    },
+    "reasoningUsage": {
+      "prompt_tokens": 583,
+      "completion_tokens": 677,
+      "total_tokens": 1260,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 583
+    }
+  }
+]
