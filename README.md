@@ -1,5 +1,7 @@
 # 对比实验 (Comparison Experiment)
 
+首次接手请读[入库指南](ONBOARDING.md)，其中列有开发时间线、当前实现和第一项验收任务。
+
 多跳问答的 Recall-Reasoning 流水线，对比 **Phase C+ + 30s cache wait** 与其它 cache 策略。
 
 ## 文件说明
